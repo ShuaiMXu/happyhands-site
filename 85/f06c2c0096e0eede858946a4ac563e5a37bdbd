@@ -1,0 +1,41 @@
+tests/component-completeness.test.ts
+  s_c3a809bd8a1ec1::t_1cdf8723f9af03 40-47
+tests/design-demo-theme.test.ts
+  s_c3a809bd8a1ec1::t_1cdf8723f9af03 32-41
+  s_c3a809bd8a1ec1::t_420ec4306e6f3d 27-31
+components/extended-component-preview.ts
+  s_c3a809bd8a1ec1::t_dcc61efe6ee93e 43,55
+components/reference-component-preview.ts
+  s_c3a809bd8a1ec1::t_dcc61efe6ee93e 74,102,149
+  s_c3a809bd8a1ec1::t_912b27afaffcff 1-2,69
+scripts/audit-preview-quality.ts
+  s_c3a809bd8a1ec1::t_1cdf8723f9af03 1-14
+docs/audits/preview-quality-2026-11-03.json
+  s_c3a809bd8a1ec1::t_1cdf8723f9af03 1-3357
+components/DesignComponentDemo.tsx
+  s_c3a809bd8a1ec1::t_736d75c3655d12 1,4,10-11,14,29
+components/design-demo-theme.ts
+  s_c3a809bd8a1ec1::t_073258be507a5b 6,9,11-13,28,40-44
+components/preview-controls.ts
+  s_c3a809bd8a1ec1::t_679d0fddf3aab1 1-9
+docs/audits/owned-ui.json
+  s_c3a809bd8a1ec1::t_9bad3fda89bb1b 3
+docs/audits/preview-quality-review-2026-11-03.md
+  s_c3a809bd8a1ec1::t_b2a83830064c19 1-36
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "85f06c2c0096e0eede858946a4ac563e5a37bdbd",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

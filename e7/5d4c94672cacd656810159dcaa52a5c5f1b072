@@ -1,0 +1,28 @@
+tests/wiki-layout.test.mjs
+  s_c3a809bd8a1ec1::t_9566db2aa16ffb 54-55
+guide/wiki-layout.css
+  s_c3a809bd8a1ec1::t_9566db2aa16ffb 48-51,66-68,81,95
+tests/wiki-browser.mjs
+  s_c3a809bd8a1ec1::t_6a0dcc5853cbfb 93-94
+  s_c3a809bd8a1ec1::t_593261a70967bb 29-48,121,209
+guide/wiki-navigation.ts
+  s_c3a809bd8a1ec1::t_9566db2aa16ffb 36
+docs/plans/remaining-2026-11-12.md
+  s_c3a809bd8a1ec1::t_77092f8509cd67 24-27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "e75d4c94672cacd656810159dcaa52a5c5f1b072",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

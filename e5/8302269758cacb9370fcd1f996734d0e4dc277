@@ -1,0 +1,20 @@
+components/CollectionsLibrary.tsx
+  h_8f87e56e705bcf 14-17,339-347,355-357
+components/collections.css
+  h_8f87e56e705bcf 18-20
+components/pinui/LiquidTabs.tsx
+  h_8f87e56e705bcf 1-500
+components/pinui/liquid-tabs.css
+  h_8f87e56e705bcf 1-405
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "e58302269758cacb9370fcd1f996734d0e4dc277",
+  "prompts": {},
+  "humans": {
+    "h_8f87e56e705bcf": {
+      "author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

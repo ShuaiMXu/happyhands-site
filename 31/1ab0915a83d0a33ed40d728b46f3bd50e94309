@@ -1,0 +1,30 @@
+apps/portal/layout.css
+  h_a2d68672f84791 79
+apps/portal/render-footer.js
+  h_a2d68672f84791 13-15,23-27,29-43,45-53,55-59
+guide/wiki-layout.css
+  h_a2d68672f84791 48-49,51-62,75-76
+guide/wiki-navigation.ts
+  h_a2d68672f84791 47
+packages/ui/pinui/site-footer.css
+  h_a2d68672f84791 1-229
+public/brand/x-mark.svg
+  h_a2d68672f84791 1
+tests/portal-footer.test.mjs
+  h_a2d68672f84791 21,24
+tests/portal-guides.test.mjs
+  h_a2d68672f84791 11-16
+tests/wiki-layout.test.mjs
+  h_a2d68672f84791 21,53
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "311ab0915a83d0a33ed40d728b46f3bd50e94309",
+  "prompts": {},
+  "humans": {
+    "h_a2d68672f84791": {
+      "author": "xushuai.133"
+    }
+  }
+}

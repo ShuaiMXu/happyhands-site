@@ -1,0 +1,22 @@
+components/DesignHowLibrary.tsx
+  h_8f87e56e705bcf 83,130-147,165-169,173-195,198-221,223-411,415-472,479-490
+components/SystemLibrary.tsx
+  h_8f87e56e705bcf 156-161,166-170,183-210,212-225
+components/SystemStylePreview.tsx
+  h_8f87e56e705bcf 25,30,34,52,71,73,82-99
+components/design-how.css
+  h_8f87e56e705bcf 2-3,34,108-111,117-119,169-170,197,279-645
+components/resource-presentation.css
+  h_8f87e56e705bcf 85-109,112-115,120,122,125-127,132,135-136,141-143,148-150,155-156,169,171-174,177-189,191-193,195,198-199,202-206,210-218,220-222
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "48f81d34a8b38b6f8be08486c0ca1454d370de10",
+  "prompts": {},
+  "humans": {
+    "h_8f87e56e705bcf": {
+      "author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

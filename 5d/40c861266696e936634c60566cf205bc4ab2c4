@@ -1,0 +1,27 @@
+tests/resource-search-card-events.test.mjs
+  s_c3a809bd8a1ec1::t_ed12ab1d3e5a68 1-37
+tests/resource-presentation-browser.mjs
+  s_c3a809bd8a1ec1::t_ed12ab1d3e5a68 34,105-106
+.github/workflows/studio.yml
+  s_c3a809bd8a1ec1::t_ed12ab1d3e5a68 28
+components/ResourceSearchCard.tsx
+  s_c3a809bd8a1ec1::t_ed12ab1d3e5a68 11-13,19
+docs/evidence/pr81-harness-review/README.md
+  s_c3a809bd8a1ec1::t_2ff688df77e979 1-32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "5d40c861266696e936634c60566cf205bc4ab2c4",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+components/CollectionsLibrary.tsx
+  s_c3a809bd8a1ec1::t_ea2477d5a00140 18,23
+  s_c3a809bd8a1ec1::t_65f291f48d7f3c 39,47
+tests/collections-browser.mjs
+  s_c3a809bd8a1ec1::t_aed103fc54bb44 22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "905f0c92522a3ae7e75e10a9fd11820d1c8e42ff",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

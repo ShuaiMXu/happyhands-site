@@ -1,0 +1,28 @@
+apps/portal/ResourceFeedControls.tsx
+  h_8f87e56e705bcf 1-60
+apps/portal/main.js
+  h_8f87e56e705bcf 1,134
+apps/portal/resource-feed.css
+  h_8f87e56e705bcf 51-58
+apps/portal/resource-feed.js
+  h_8f87e56e705bcf 1-43,45,48-61,67-76,80-84,86,88-91,93-107,109-118,120,122-145,147-153,156-449
+docs/resource-presentation-2026-10-29.md
+  h_8f87e56e705bcf 17-22
+package.json
+  h_8f87e56e705bcf 41-42
+tests/home-resource-search-browser.mjs
+  h_8f87e56e705bcf 1-99
+tsconfig.json
+  h_8f87e56e705bcf 31-32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "89a9fb89c47096b2a81918efc71bacea6ebb17d5",
+  "prompts": {},
+  "humans": {
+    "h_8f87e56e705bcf": {
+      "author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

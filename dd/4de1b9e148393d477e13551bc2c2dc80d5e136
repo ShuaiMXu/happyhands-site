@@ -1,0 +1,38 @@
+apps/portal/agent-presets.js
+  h_8f87e56e705bcf 1,19-20,22,24-25,27
+apps/portal/connect.js
+  h_8f87e56e705bcf 19,32,36
+apps/portal/lightweight-release.js
+  h_8f87e56e705bcf 1-3
+apps/setup/main.tsx
+  h_8f87e56e705bcf 10,17,19-35,52,72
+apps/setup/setup.css
+  h_8f87e56e705bcf 126-135
+guide/content.ts
+  h_8f87e56e705bcf 1,10,17,25
+guide/main.ts
+  h_8f87e56e705bcf 11-19
+packages/ui/ResourceToolPanels.tsx
+  h_8f87e56e705bcf 1,19,27-38,40-41
+public/llms.txt
+  h_8f87e56e705bcf 12-13,30
+scripts/resource-preview-plugin.mjs
+  h_8f87e56e705bcf 36-45
+tests/dsh-workflow.test.mjs
+  h_8f87e56e705bcf 12
+tests/lightweight-setup.test.mjs
+  h_8f87e56e705bcf 1-47
+tests/site-seo.test.mjs
+  h_8f87e56e705bcf 221-222,252
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "dd4de1b9e148393d477e13551bc2c2dc80d5e136",
+  "prompts": {},
+  "humans": {
+    "h_8f87e56e705bcf": {
+      "author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

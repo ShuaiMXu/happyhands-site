@@ -1,0 +1,30 @@
+apps/setup/setup.css
+  s_c3a809bd8a1ec1::t_f226cdad208f4f 36,47,53-54,56
+  s_c3a809bd8a1ec1::t_c8c66c7f5f5f83 1-16,55
+packages/ui/ResourceToolPanels.tsx
+  s_c3a809bd8a1ec1::t_f226cdad208f4f 1,5-31
+apps/portal/resource-feed.js
+  s_c3a809bd8a1ec1::t_f226cdad208f4f 56,79,104-108,118,127-128,450
+apps/portal/main.js
+  s_c3a809bd8a1ec1::t_f226cdad208f4f 1,139
+docs/audits/p1-consolidation-and-harness-2026-11-02.md
+  s_c3a809bd8a1ec1::t_60bfbc03e88806 1-47
+packages/ui/shadcn/adaptations.css
+  s_c3a809bd8a1ec1::t_8163cf15f39b0e 45-48
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "ad59f1f33b17cf3171db5691a4a5f880dafeb6da",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

@@ -1,0 +1,93 @@
+apps/portal/hero-connect.css
+  s_1b7f1e9b8e09ef::t_1ed46fe580b18f 1-14
+apps/portal/index.html
+  s_eea1018b804226::t_acb3c703fc2247 56,66-68
+apps/portal/main.js
+  s_eea1018b804226::t_5a108e282965d7 10-11,16-18,33,98,105,117-124,131,133,234-235
+apps/portal/portal.css
+  s_eea1018b804226::t_09bffef88ecbce 4,7,13,15,101-106
+apps/portal/resource-feed.js
+  s_eea1018b804226::t_861ad35e4d6a97 1-125
+apps/studio/studio.css
+  s_d149b3ac16063f::t_aeeaf96e1b1182 145,155,299,328,353,431-433,859,1314,1383,1565
+components/ResourceToolbar.tsx
+  s_d149b3ac16063f::t_5806b64ac2daf6 1-23
+components/SystemLibrary.tsx
+  s_1b7f1e9b8e09ef::t_b738f09ae6e985 60,148
+components/archive-gallery.css
+  s_d149b3ac16063f::t_1c9e453c303292 25,87,95,136,171,303,327,464,497,507-508,510-511
+components/preview/runtime.css
+  s_1b7f1e9b8e09ef::t_3e6a3c29b14947 57-64
+components/style.css
+  s_d149b3ac16063f::t_b00cc06123644c 454-458,477,494,521,525,532,545,555-556
+docs/audits/owned-ui.json
+  s_eea1018b804226::t_5ab3f5dca2e3df 1-27
+docs/evidence/light-resource-ui/final-filter-interaction.json
+  s_1b7f1e9b8e09ef::t_5fb7a6f85fad69 1-18
+docs/evidence/light-resource-ui/final-home-proof.json
+  s_1b7f1e9b8e09ef::t_0cc386662cebc8 1-23
+docs/evidence/light-resource-ui/final-hover.json
+  s_1b7f1e9b8e09ef::t_91f729f8a7aa70 1-12
+docs/evidence/light-resource-ui/final-localized.json
+  s_1b7f1e9b8e09ef::t_db63ad8e1b870d 1-50
+docs/evidence/light-resource-ui/final-matrix.json
+  s_1b7f1e9b8e09ef::t_d9282643795ce2 1-98
+docs/evidence/owned-components/after/archive-dark-1280.txt
+  s_1b7f1e9b8e09ef::t_a1cf1b2ba219e1 1-104
+docs/evidence/owned-components/after/archive-dark-390.txt
+  s_1b7f1e9b8e09ef::t_2b06d22b0ea323 1-100
+docs/evidence/owned-components/after/quartz-dark-390.txt
+  s_1b7f1e9b8e09ef::t_f8db363694953e 1-314
+docs/evidence/owned-components/after/quartz-light-1280.txt
+  s_1b7f1e9b8e09ef::t_071915bea224b6 1-331
+docs/studio-design-language.md
+  s_1b7f1e9b8e09ef::t_0458506246e1e5 21-28
+packages/design-tokens/happyhands.css
+  s_d149b3ac16063f::t_2aa77e55417124 51-54,111-114
+packages/design-tokens/happyhands.json
+  s_d149b3ac16063f::t_9667011238cd4c 51-54,111-114
+packages/ui/owned-ui.css
+  s_d149b3ac16063f::t_6e8ce5630a9e4a 11,14,24-28
+packages/ui/site-disclosure.css
+  s_d149b3ac16063f::t_3ea52ec6b141b6 29-31
+packages/ui/tooltip.css
+  s_d149b3ac16063f::t_bcde0b367a1a4e 2
+public/systems/happyhands/SKILL.md
+  s_1b7f1e9b8e09ef::t_53da6771b77c34 33-44
+skills/happyhands-ui/references/components.md
+  s_d149b3ac16063f::t_da54454df765fc 1-50
+vite.config.js
+  s_1b7f1e9b8e09ef::t_cffbeadfbf693a 7,41
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "ccb35fd4a0c1e604a9d37b264d0890cea37ecc04",
+  "prompts": {},
+  "sessions": {
+    "s_1b7f1e9b8e09ef": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a17b56-6ab5-7443-8451-438dc8667c89",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    },
+    "s_d149b3ac16063f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a13d92-0b50-71f3-adcc-e6c53fe4c9cf",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    },
+    "s_eea1018b804226": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a166d5-e665-7530-92a3-0fd189a7cd8e",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

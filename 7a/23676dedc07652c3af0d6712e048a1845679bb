@@ -1,0 +1,19 @@
+docs/audits/pr62-completeness-review-2026-11-09.md
+  s_c3a809bd8a1ec1::t_5a88b65a4e41fe 1,3,5-13,15,17,19,21-25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "7a23676dedc07652c3af0d6712e048a1845679bb",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

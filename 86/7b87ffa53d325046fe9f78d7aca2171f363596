@@ -1,0 +1,23 @@
+apps/studio/main.tsx
+  s_c3a809bd8a1ec1::t_71d67f7b6e8067 35-36,234-235,296,312-313,318-319,325,327,351-373,437-438,527-528
+tests/studio-core.test.ts
+  s_c3a809bd8a1ec1::t_71d67f7b6e8067 75-76,310-339
+packages/theme-core/project.ts
+  s_c3a809bd8a1ec1::t_71d67f7b6e8067 251-271,283-286
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "867b87ffa53d325046fe9f78d7aca2171f363596",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

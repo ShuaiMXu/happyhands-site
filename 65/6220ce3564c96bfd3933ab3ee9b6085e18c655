@@ -1,0 +1,20 @@
+apps/studio/studio.css
+  s_c3a809bd8a1ec1::t_cc135edc5aa37c 1499-1500,1506-1525,1615-1632
+  s_c3a809bd8a1ec1::t_0922f7d7586430 1633
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "656220ce3564c96bfd3933ab3ee9b6085e18c655",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

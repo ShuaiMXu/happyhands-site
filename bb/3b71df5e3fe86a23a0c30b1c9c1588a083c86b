@@ -1,0 +1,29 @@
+packages/ui/github-stars-snapshot.js
+  s_c3a809bd8a1ec1::t_d7a6fc4cfe550c 5
+  s_c3a809bd8a1ec1::t_631ef5dc0ec30c 1-4,6
+tests/github-stars.test.mjs
+  s_c3a809bd8a1ec1::t_631ef5dc0ec30c 1-17
+  s_c3a809bd8a1ec1::t_15a399270adac0 18-31
+apps/portal/github-stars.js
+  s_c3a809bd8a1ec1::t_631ef5dc0ec30c 1-2,5-20
+package.json
+  s_c3a809bd8a1ec1::t_d7a6fc4cfe550c 35
+api/github-stars.mjs
+  s_c3a809bd8a1ec1::t_631ef5dc0ec30c 1-26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "bb3b71df5e3fe86a23a0c30b1c9c1588a083c86b",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

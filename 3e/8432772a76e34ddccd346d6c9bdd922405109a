@@ -1,0 +1,20 @@
+apps/portal/resource-feed.css
+  h_a2d68672f84791 8-12,19-20
+components/archive-gallery.css
+  h_a2d68672f84791 7,10-11,13-16,20-29,499-500,525,527,529-543
+components/resource-presentation.css
+  h_a2d68672f84791 12-15,19-20,22
+packages/ui/pinui/site-footer.css
+  h_a2d68672f84791 18,20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "3e8432772a76e34ddccd346d6c9bdd922405109a",
+  "prompts": {},
+  "humans": {
+    "h_a2d68672f84791": {
+      "author": "xushuai.133"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+components/ReferenceSpecimen.tsx
+  s_c3a809bd8a1ec1::t_554b95ff0dbc90 181,183,193-197
+components/archive-gallery.css
+  s_c3a809bd8a1ec1::t_554b95ff0dbc90 349-350,357,359,361-367,369-386
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "c34a689c36c8773e27fa8e5e373a709f0da1035b",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+components/DesignHowLibrary.tsx
+  h_8f87e56e705bcf 577
+tests/design-system-link-contract-browser.mjs
+  h_8f87e56e705bcf 1-51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "be401c285a773f0af639f159cc3127e9e87005b9",
+  "prompts": {},
+  "humans": {
+    "h_8f87e56e705bcf": {
+      "author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

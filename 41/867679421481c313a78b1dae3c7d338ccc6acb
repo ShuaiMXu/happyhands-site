@@ -1,0 +1,32 @@
+tests/homepage-motion-browser.mjs
+  s_c3a809bd8a1ec1::t_e14a468deb45bc 8,112,118,120-126,131-135,140,144-145,159
+  s_c3a809bd8a1ec1::t_259bfa5360adfa 147-148
+tests/hero-motion-producer.test.mjs
+  s_c3a809bd8a1ec1::t_259bfa5360adfa 4-5,22-46
+apps/portal/whirl.js
+  s_c3a809bd8a1ec1::t_e14a468deb45bc 2-3,52,54
+tests/helpers/hero-motion-result.mjs
+  s_c3a809bd8a1ec1::t_e14a468deb45bc 1-11,14-15
+  s_c3a809bd8a1ec1::t_259bfa5360adfa 12-13
+docs/hero-specialist-verification.md
+  s_c3a809bd8a1ec1::t_259bfa5360adfa 3,34-40
+  s_c3a809bd8a1ec1::t_08dbc10bce224c 41
+apps/portal/hero-capture-seed.js
+  s_c3a809bd8a1ec1::t_e14a468deb45bc 1-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "41867679421481c313a78b1dae3c7d338ccc6acb",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

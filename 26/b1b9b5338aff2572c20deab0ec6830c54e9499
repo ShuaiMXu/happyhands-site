@@ -1,0 +1,23 @@
+apps/portal/liquid-glass.js
+  s_c3a809bd8a1ec1::t_bb2d4b0e776e08 86-103,111
+  s_c3a809bd8a1ec1::t_3b2b671db8e8a5 10,39,83-85
+apps/portal/glass-header.css
+  s_c3a809bd8a1ec1::t_bb2d4b0e776e08 22,27-28,31,43-48,50,57,93-96
+  s_c3a809bd8a1ec1::t_0622af8d97bee7 97
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "26b1b9b5338aff2572c20deab0ec6830c54e9499",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

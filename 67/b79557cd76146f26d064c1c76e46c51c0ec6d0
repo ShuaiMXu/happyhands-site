@@ -1,0 +1,44 @@
+components/ArchiveCard.tsx
+  h_8f87e56e705bcf 1,68-71,83-90,92-110
+components/ArchiveGallery.tsx
+  h_8f87e56e705bcf 1-4,138-141,148-149,237
+components/ComponentTile.tsx
+  h_8f87e56e705bcf 1,30-35,44-54
+components/DesignHowLibrary.tsx
+  h_8f87e56e705bcf 147,152-153,185-209,312-317
+components/ResourceExport.tsx
+  h_8f87e56e705bcf 1,80,92-98
+components/ResourcePresentation.tsx
+  h_8f87e56e705bcf 1-122
+components/SystemLibrary.tsx
+  h_8f87e56e705bcf 1-6,51-56,87-122,124-134,138-145,149-150,182
+components/main.tsx
+  h_8f87e56e705bcf 1-2,21,232-233,235-242,245-246,248-249,322-330,332,373-382,395,402-403,407
+components/resource-controls.css
+  h_8f87e56e705bcf 17
+components/resource-presentation.css
+  h_8f87e56e705bcf 1-63
+docs/audits/owned-ui.json
+  h_8f87e56e705bcf 3
+docs/resource-presentation-2026-10-29.md
+  h_8f87e56e705bcf 1-16
+package.json
+  h_8f87e56e705bcf 40-41
+tests/design-import-browser.mjs
+  h_8f87e56e705bcf 58,115
+tests/design-system-live-browser.mjs
+  h_8f87e56e705bcf 111,118,126
+tests/resource-presentation-browser.mjs
+  h_8f87e56e705bcf 1-120
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "67b79557cd76146f26d064c1c76e46c51c0ec6d0",
+  "prompts": {},
+  "humans": {
+    "h_8f87e56e705bcf": {
+      "author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

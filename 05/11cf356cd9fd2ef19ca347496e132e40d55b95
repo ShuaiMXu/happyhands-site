@@ -1,0 +1,30 @@
+apps/portal/github-stars.js
+  s_c3a809bd8a1ec1::t_dfa86ec38aca31 1-24
+packages/ui/shadcn/select.tsx
+  s_c3a809bd8a1ec1::t_abae441bc1c3d7 1-195
+packages/ui/shadcn/adaptations.css
+  s_c3a809bd8a1ec1::t_abae441bc1c3d7 1-40
+  s_c3a809bd8a1ec1::t_044e59fbddd471 41-43
+apps/portal/glass-header.css
+  s_c3a809bd8a1ec1::t_6b33059bf3a4c6 1-31
+components/archive-order.ts
+  s_c3a809bd8a1ec1::t_37581128211d1f 1-8
+docs/audits/shadcn-page-integration.md
+  s_c3a809bd8a1ec1::t_a3243a07a54406 1-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "0511cf356cd9fd2ef19ca347496e132e40d55b95",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

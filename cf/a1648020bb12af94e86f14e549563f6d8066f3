@@ -1,0 +1,20 @@
+components/design-how.css
+  h_8f87e56e705bcf 127
+components/resource-presentation.css
+  h_8f87e56e705bcf 64-68
+skills/happyhands-ui/SKILL.md
+  h_8f87e56e705bcf 12
+tests/resource-presentation-browser.mjs
+  h_8f87e56e705bcf 78-79
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "cfa1648020bb12af94e86f14e549563f6d8066f3",
+  "prompts": {},
+  "humans": {
+    "h_8f87e56e705bcf": {
+      "author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

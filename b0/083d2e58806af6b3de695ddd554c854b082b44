@@ -1,0 +1,27 @@
+apps/portal/local-workbench.js
+  s_c3a809bd8a1ec1::t_76f007f9ee8f67 31-38,45-47,50,52,59-69,71-72
+apps/setup/main.tsx
+  s_c3a809bd8a1ec1::t_82edcfe26054a6 52
+packages/ui/ResourceToolPanels.tsx
+  s_c3a809bd8a1ec1::t_1f0cd8a5bbfc93 9-10,16-18,24,27,33
+packages/ui/useSitePreferences.ts
+  s_c3a809bd8a1ec1::t_1622497b6f4d2e 4-9,17-26,30,39
+tests/setup-remediation.test.mjs
+  s_c3a809bd8a1ec1::t_0e8b445834d51f 1-159
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "b0083d2e58806af6b3de695ddd554c854b082b44",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

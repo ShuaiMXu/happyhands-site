@@ -1,0 +1,16 @@
+docs/design-resource-import-2026-10-29.md
+  h_8f87e56e705bcf 31-36
+package-lock.json
+  h_8f87e56e705bcf 7401-8200
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "773f1a06f60ece2ca0d1c3a61d148ad646d82584",
+  "prompts": {},
+  "humans": {
+    "h_8f87e56e705bcf": {
+      "author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+api/github-stars.mjs
+  s_c3a809bd8a1ec1::t_5e46ecbfc71721 3,7,18-32,34,36-52
+tests/github-stars.test.mjs
+  s_c3a809bd8a1ec1::t_5e46ecbfc71721 3,40-59
+  s_c3a809bd8a1ec1::t_37b5876ae868a0 60
+vite.config.js
+  s_c3a809bd8a1ec1::t_5e46ecbfc71721 6,34-35,39
+tests/portal-routing.test.mjs
+  s_c3a809bd8a1ec1::t_5e46ecbfc71721 18-22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "076f525838cc40abb4a0e2e0b2c19f2f8eecb861",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+components/ArchiveGallery.tsx
+  h_8f87e56e705bcf 253-257
+components/ResourceDirectory.tsx
+  h_8f87e56e705bcf 187-197
+components/ResourceSearchCard.tsx
+  h_8f87e56e705bcf 96,104,116-121
+components/ResourceToolbar.tsx
+  h_8f87e56e705bcf 6,10,13
+components/SystemLibrary.tsx
+  h_8f87e56e705bcf 95
+components/main.tsx
+  h_8f87e56e705bcf 223-227
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "d21e20393c6d51211317b0fe4a5e8ed422eb8b0e",
+  "prompts": {},
+  "humans": {
+    "h_8f87e56e705bcf": {
+      "author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

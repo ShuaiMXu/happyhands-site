@@ -1,0 +1,42 @@
+.gitignore
+  h_8f87e56e705bcf 33-35
+components/DesignHowLibrary.tsx
+  h_8f87e56e705bcf 8,66-68,85-92,137,167-210,212-219,221-268,270-346,348-395
+components/SystemStylePreview.tsx
+  h_8f87e56e705bcf 1-79
+components/design-how.css
+  h_8f87e56e705bcf 238-276
+docs/design-resource-import-2026-10-29.md
+  h_8f87e56e705bcf 15-20,26
+package-lock.json
+  h_8f87e56e705bcf 18-19,23,47-48,187-211,692-712,744-752,882-894,3001-3060,4522-4527,4825-4836,6218-6228,6358-6363
+package.json
+  h_8f87e56e705bcf 8,10,23,37-40,44-45,49,73-74
+scripts/build-design-how-previews.mjs
+  h_8f87e56e705bcf 1-67
+systems/preview/index.html
+  h_8f87e56e705bcf 1
+systems/preview/main.tsx
+  h_8f87e56e705bcf 1-460
+systems/preview/preview.css
+  h_8f87e56e705bcf 1-122
+tests/design-import-browser.mjs
+  h_8f87e56e705bcf 58,151
+tests/design-system-live-browser.mjs
+  h_8f87e56e705bcf 1-132
+tsconfig.json
+  h_8f87e56e705bcf 30-31,34-35
+vite.config.js
+  h_8f87e56e705bcf 33-39,74
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "e51f9903d280973fe3e757903e4a12bc141596ef",
+  "prompts": {},
+  "humans": {
+    "h_8f87e56e705bcf": {
+      "author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+tests/dsh-workflow.test.mjs
+  s_c3a809bd8a1ec1::t_c4979694cd4c97 1-2,4-15,22-33
+  s_c3a809bd8a1ec1::t_d85ef511856b8e 3,16-21
+packages/ui/ResourceToolPanels.tsx
+  s_c3a809bd8a1ec1::t_d85ef511856b8e 20-21,26
+guide/content.ts
+  s_c3a809bd8a1ec1::t_c6aadbd6c9a563 2,13-14,20-21,30
+apps/portal/connect.js
+  s_c3a809bd8a1ec1::t_d85ef511856b8e 1,5-7
+  s_c3a809bd8a1ec1::t_926fc5918d5505 10-11,32,34
+packages/ui/embedded-tool.css
+  s_c3a809bd8a1ec1::t_194c911f8d9ca5 4
+apps/portal/agent-presets.js
+  s_c3a809bd8a1ec1::t_926fc5918d5505 6-7,16
+  s_c3a809bd8a1ec1::t_d85ef511856b8e 9-12
+guide/dsh-workflow.ts
+  s_c3a809bd8a1ec1::t_d85ef511856b8e 17
+  s_c3a809bd8a1ec1::t_c4979694cd4c97 1-16,18-21
+docs/harness-tool-presets-2026-10-22.md
+  s_c3a809bd8a1ec1::t_af81a59e3df9c6 12-13
+packages/ui/site-seo.ts
+  s_c3a809bd8a1ec1::t_d9dffb6fb68499 30,39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "f52beecc330fc93da6ef1a6945ca36ca3870c740",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

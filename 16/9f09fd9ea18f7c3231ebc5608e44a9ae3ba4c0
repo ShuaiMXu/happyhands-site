@@ -1,0 +1,33 @@
+apps/portal/back-to-top.js
+  s_c3a809bd8a1ec1::t_1917da05cba29c 1-56
+packages/ui/icons.ts
+  s_c3a809bd8a1ec1::t_1917da05cba29c 12
+apps/portal/render-content.js
+  s_c3a809bd8a1ec1::t_1917da05cba29c 11-28
+tests/portal-back-to-top.test.mjs
+  s_c3a809bd8a1ec1::t_1917da05cba29c 1-76
+apps/portal/portal.css
+  s_c3a809bd8a1ec1::t_1917da05cba29c 85-104
+apps/portal/main.js
+  s_c3a809bd8a1ec1::t_1917da05cba29c 1,110,265-274
+apps/portal/layout.css
+  s_c3a809bd8a1ec1::t_1917da05cba29c 1
+tests/portal-guides.test.mjs
+  s_c3a809bd8a1ec1::t_1917da05cba29c 1-17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "169f09fd9ea18f7c3231ebc5608e44a9ae3ba4c0",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

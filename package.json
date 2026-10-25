@@ -28,7 +28,9 @@
     "quartz:sync": "node scripts/sync-design-catalog.mjs quartz",
     "lime:sync": "node scripts/sync-design-catalog.mjs lime",
     "test:lime:browser": "node tests/lime-browser.mjs",
-    "test:seo": "node --import tsx --test tests/site-seo.test.mjs"
+    "test:seo": "node --import tsx --test tests/site-seo.test.mjs",
+    "test:analytics": "node --import tsx --test tests/site-analytics.test.ts",
+    "test:analytics:browser": "node tests/site-analytics-browser.mjs"
   },
   "dependencies": {
     "@base-ui/react": "1.9.0",
@@ -58,6 +60,7 @@
     "@radix-ui/react-tooltip": "1.4.1",
     "@radix-ui/react-use-controllable-state": "1.3.0",
     "@tabler/icons-react": "3.49.0",
+    "@vercel/analytics": "2.0.1",
     "ajv": "8.20.0",
     "border-beam": "1.4.1",
     "class-variance-authority": "0.7.1",

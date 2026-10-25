@@ -36,8 +36,8 @@ export function portalContent(lang = 'zh') {
       <div class="get-started-copy"><h2>${c.sections.getStarted.title}<br><span>${c.sections.getStarted.titleLine2}</span></h2><p>${c.sections.getStarted.copy}</p></div>
       <div class="steps-grid">${c.steps.map(stepCard).join('')}</div>
       <div class="command-card"><div><span>${c.sections.getStarted.quickstartLabel}</span><strong>${c.sections.getStarted.quickstartTitle}</strong></div><pre><code>${quickstartCommand}</code></pre><button type="button" data-copy="${quickstartCommand}">${iconMarkup('copy')} ${c.sections.getStarted.copyBtn}</button></div>
-      <p class="quickstart-note">${lang === 'zh' ? '先准备 Git、Node.js 22.15+ 和 pnpm 11.19.0，并确认 GitHub 账号有工程仓库访问权限。逐行执行，前一步成功后再继续。已有工程时，进入 happyhands 目录执行 pnpm workbench 即可。' : 'Requires Git, Node.js 22.15+, pnpm 11.19.0 and access to the GitHub repository. Run each line after the previous step succeeds. For an existing installation, run pnpm workbench from the happyhands directory.'}</p>
-      <div class="final-actions"><a class="button button-primary" href="${repositories.core}">GitHub ${iconMarkup('external')}</a><a class="button button-secondary" href="${repositories.site}">${lang === 'zh' ? '网站源码' : 'Website source'}</a></div>
+      <p class="quickstart-note">${lang === 'zh' ? '先准备 Git、Node.js 22.15+ 和 pnpm 11.19.0。逐行执行，前一步成功后再继续。已有工程时，进入 happyhands 目录执行 pnpm workbench 即可。' : 'Requires Git, Node.js 22.15+, pnpm 11.19.0. Run each line after the previous step succeeds. For an existing installation, run pnpm workbench from the happyhands directory.'}</p>
+      <div class="final-actions"><a class="button button-secondary" href="${lang === 'zh' ? '/guide/' : '/en/guide/'}">${lang === 'zh' ? '完整使用指南' : 'Read the guide'}</a><a class="button button-primary" href="${repositories.core}">GitHub ${iconMarkup('external')}</a><a class="button button-secondary" href="${repositories.site}">${lang === 'zh' ? '网站源码' : 'Website source'}</a></div>
     </section>`;
 }
 

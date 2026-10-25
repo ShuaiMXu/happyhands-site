@@ -1,3 +1,4 @@
+import { applySiteMetadata } from "../../packages/ui/site-seo";
 import { FoundationSpecimen } from "../../packages/ui/FoundationSpecimen";
 import { SystemScenes } from "../../packages/ui/SystemScenes";
 import { QuartzCatalog } from "./QuartzCatalog";
@@ -21,8 +22,7 @@ function App() {
   const [existing, setExisting] = useState(true);
   const [status, setStatus] = useState("");
   React.useEffect(() => {
-    document.title =
-      lang === "zh" ? "Quartz / 设计系统" : "Quartz / Design system";
+    applySiteMetadata('quartz',lang);
   }, [lang]);
   const t = (cn: string, en: string) => (lang === "zh" ? cn : en);
 

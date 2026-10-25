@@ -1,3 +1,4 @@
+import { applySiteMetadata } from "../packages/ui/site-seo";
 import { ComponentTile } from "./ComponentTile";
 import { ReferoImport } from "./ReferoImport";
 import { SystemLibrary } from "./SystemLibrary";
@@ -102,10 +103,7 @@ function App() {
             ),
           }[reason] || reason;
   useEffect(() => {
-    document.title =
-      lang === "zh"
-        ? "HappyHands / 组件目录"
-        : "HappyHands / Component library";
+    applySiteMetadata('components',lang);
   }, [lang]);
   useEffect(() => {
     const handle = () => {

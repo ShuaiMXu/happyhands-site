@@ -1,3 +1,4 @@
+import { applySiteMetadata } from "../../packages/ui/site-seo";
 import {setupSiteMenu} from '../../packages/ui/site-menu.ts';
 import '../../packages/ui/site-layout.css';
 import '../../packages/ui/icons.css';
@@ -99,7 +100,7 @@ function renderContent() {
   disposeMenu = setupSiteMenu(document.querySelector('.site-header'), lang);
   // hero
   document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
-  document.title = lang === 'zh' ? 'HappyHands / 产品体验优化' : 'HappyHands / Product experience optimization';
+  applySiteMetadata('portal',lang);
   const eyebrow = document.querySelector('.eyebrow');
   if (eyebrow) eyebrow.innerHTML = c.hero.eyebrow.map(s => `<span>${s}</span>`).join('');
   const h1 = document.querySelector('h1');

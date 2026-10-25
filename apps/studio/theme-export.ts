@@ -6,7 +6,7 @@ import {
 import { fontsInStack } from "../../packages/font-library";
 
 // Public, version-independent font URLs also work when a theme is exported locally.
-export const fontAssetOrigin = "https://happyhands-design.vercel.app";
+export const fontAssetOrigin = "https://happyhands.cc";
 export function themeExport(styles: ThemeStyles, kind: ExportKind) {
   const fonts = [
     ...new Map(

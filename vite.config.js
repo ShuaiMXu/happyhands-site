@@ -3,6 +3,7 @@ import { resolve, dirname, join, relative, isAbsolute } from 'node:path';
 import { existsSync, statSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import kageHandler from './api/kage.mjs';
+import { portalContent } from './apps/portal/render-content.js';
 
 const root = dirname(fileURLToPath(import.meta.url));
 
@@ -25,7 +26,13 @@ function mirrorIndex(urlPath) {
 
 export default defineConfig({
   server: { cors: { origin: [/^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/, 'null'] }, port: 4173, strictPort: true, fs: { strict: true } },
-  plugins: [{name:'kage-reference-search',configureServer(server){server.middlewares.use('/api/kage',kageHandler)},configurePreviewServer(server){server.middlewares.use('/api/kage',kageHandler)}},{
+  plugins: [{
+    name: 'portal-static-content',
+    transformIndexHtml(html, context) {
+      if (!context.filename.replaceAll('\\', '/').endsWith('/apps/portal/index.html')) return html;
+      return html.replace('<div id="portal-content"></div>', `<div id="portal-content">${portalContent('zh')}</div>`);
+    }
+  },{name:'kage-reference-search',configureServer(server){server.middlewares.use('/api/kage',kageHandler)},configurePreviewServer(server){server.middlewares.use('/api/kage',kageHandler)}},{
     name: 'skillry-mirror-dir-index',
     configureServer(server) {
       server.middlewares.use((req, res, next) => {

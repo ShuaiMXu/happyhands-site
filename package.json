@@ -27,7 +27,8 @@
     "test:systems:browser": "node tests/design-system-reference-browser.mjs",
     "quartz:sync": "node scripts/sync-design-catalog.mjs quartz",
     "lime:sync": "node scripts/sync-design-catalog.mjs lime",
-    "test:lime:browser": "node tests/lime-browser.mjs"
+    "test:lime:browser": "node tests/lime-browser.mjs",
+    "test:seo": "node --import tsx --test tests/site-seo.test.mjs"
   },
   "dependencies": {
     "@base-ui/react": "1.9.0",

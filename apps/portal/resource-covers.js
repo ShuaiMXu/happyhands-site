@@ -1,5 +1,4 @@
 import {iconMarkup} from '../../packages/ui/icons.ts';
-import './resource-covers.css';
 
 export function resourceCovers(language) {
   const t=(zh,en)=>language==='zh'?zh:en;

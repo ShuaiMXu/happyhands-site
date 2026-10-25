@@ -1,6 +1,21 @@
 # Website deployment
 
-## Vercel migration
+## Production domain and search checks
+
+The public canonical origin is https://happyhands.cc. Keep page canonical URLs,
+Open Graph URLs, robots.txt and sitemap.xml on this origin. The portal remains at
+`/apps/portal/`; `/` redirects there at the hosting layer. The old production alias
+`happyhands-design.vercel.app` redirects matching paths to the public origin;
+preview deployment hostnames are not redirected.
+
+`npm run test:seo` verifies source metadata and redirect contracts. `npm run build`
+pre-renders the portal's existing Chinese content from the same renderer used by
+its language switcher. `npm run verify:alpha` checks built metadata and content.
+After an approved deployment, verify HTTP redirect responses, deep links, query
+parameters and social previews on the live domain. Submit the sitemap only through
+an authorized search console. These checks do not guarantee indexing or AI citations.
+
+## Vercel migration (historical)
 
 The production host is Vercel: https://happyhands-design.vercel.app . Project: `shakaka/happyhands-design`, linked to `ShuaiMXu/creative-os-site` on GitHub. The first production deployment on 2026-10-17 (Asia/Shanghai), `dpl_9yvRoow3PzyfHwZybwNPLCPLu15D`, reached `READY`.
 

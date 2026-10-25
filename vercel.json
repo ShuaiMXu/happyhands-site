@@ -7,6 +7,22 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/",
+      "destination": "/apps/portal/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "happyhands-design.vercel.app"
+        }
+      ],
+      "destination": "https://happyhands.cc/:path*",
+      "permanent": true
+    },
+    {
       "source": "/apps/web/",
       "destination": "/apps/portal/",
       "permanent": true

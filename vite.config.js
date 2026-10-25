@@ -4,6 +4,7 @@ import { existsSync, statSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import kageHandler from './api/kage.mjs';
 import { portalContent } from './apps/portal/render-content.js';
+import { siteAnalyticsPlugin } from './scripts/site-analytics-plugin.mjs';
 
 const root = dirname(fileURLToPath(import.meta.url));
 
@@ -26,7 +27,7 @@ function mirrorIndex(urlPath) {
 
 export default defineConfig({
   server: { cors: { origin: [/^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/, 'null'] }, port: 4173, strictPort: true, fs: { strict: true } },
-  plugins: [{
+  plugins: [siteAnalyticsPlugin(root),{
     name: 'portal-static-content',
     transformIndexHtml(html, context) {
       if (!context.filename.replaceAll('\\', '/').endsWith('/apps/portal/index.html')) return html;

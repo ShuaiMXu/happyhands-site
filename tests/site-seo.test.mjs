@@ -23,9 +23,14 @@ test('public metadata consistently identifies the production domain',async()=>{
 });
 test('redirect only the exact legacy production alias, not preview hosts',async()=>{
   const {redirects}=JSON.parse(await read('vercel.json'));
-  assert.deepEqual(redirects.find(rule=>rule.source==='/'),{source:'/',destination:'/apps/portal/',permanent:true});
-  const alias=redirects.find(rule=>rule.has);
+  assert.deepEqual(redirects.find(rule=>rule.source==='/'&&!rule.has),{source:'/',destination:'/apps/portal/',permanent:true});
+  const alias=redirects.find(rule=>rule.source==='/:path*');
   assert.deepEqual(alias,{source:'/:path*',has:[{type:'host',value:'happyhands-design.vercel.app'}],destination:`${origin}/:path*`,permanent:true});
+  const legacyRoot=redirects.find(rule=>rule.source==='/'&&rule.has);
+  assert.equal(legacyRoot.destination,`${origin}/apps/portal/`);
+  const trailing=redirects.find(rule=>rule.source==='/:path*/');
+  assert.deepEqual(trailing,{source:'/:path*/',has:alias.has,destination:`${origin}/:path*/`,permanent:true});
+  assert.ok(redirects.indexOf(legacyRoot)<redirects.findIndex(rule=>rule.source==='/'&&!rule.has));
   assert.ok(redirects.filter(rule=>rule.source.startsWith('/apps/web')).every(rule=>rule.destination==='/apps/portal/'));
 });
 test('shared portal renderer provides real content in both languages without browser state',()=>{

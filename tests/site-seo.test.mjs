@@ -47,8 +47,8 @@ test('shared portal renderer provides real content in both languages without bro
     assert.ok(!html.includes('happyhands-design.vercel.app'));
     assert.deepEqual(html.match(/value="[^"]+"/g), ['value="http://127.0.0.1:4190/apps/designer/"'],'Only the public local-workbench default may be rendered');
   }
-  assert.ok(zh.includes('常见问题'));assert.ok(zh.includes('人工接受仍待记录'));
-  assert.ok(en.includes('Frequently asked questions'));assert.ok(en.includes('human acceptance is pending'));
+  assert.ok(zh.includes('常见问题'));assert.ok(zh.includes('待人工验收'));
+  assert.ok(en.includes('Frequently asked questions'));assert.ok(en.includes('human acceptance and release unconfirmed'));
 });
 
 test('search metadata has one canonical and a factual entity graph for each public page',()=>{

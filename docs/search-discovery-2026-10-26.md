@@ -17,7 +17,9 @@ This change makes the title and description identify website review, design-syst
 5. After this PR is approved and deployed, run `npm run check:search`. It checks HTTP responses, canonical URLs, index-blocking headers/meta, prerendered content and product structured data. This is a technical smoke check, not proof of indexing or a complete robots parser.
 6. Revisit Search Console for crawl/index status and actual impressions. Do not promise immediate inclusion or a ranking. Search performance improvements need observable data, not repeated indexing requests.
 
-Pending: owner verification token, Search Console ownership verification and submission; production deployment of this PR. No DNS or Google account settings have been changed.
+The owner supplied `google85b2ad84383dc234.html` for HTML-file verification. It is preserved byte-for-byte in `public/` and must be served at `https://happyhands.cc/google85b2ad84383dc234.html` after deployment. Keep this file after verification; no meta tag is needed for this chosen method.
+
+Pending: production deployment, live verification-file reachability, Search Console ownership verification and sitemap submission. No DNS or Google account settings have been changed.
 
 References:
 - https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl

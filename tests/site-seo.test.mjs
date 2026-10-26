@@ -47,3 +47,14 @@ test('shared portal renderer provides real content in both languages without bro
   assert.ok(zh.includes('常见问题'));assert.ok(zh.includes('人工接受仍待记录'));
   assert.ok(en.includes('Frequently asked questions'));assert.ok(en.includes('human acceptance is pending'));
 });
+test('product structured data describes real capabilities without invented ratings',async()=>{
+ const html=await read('apps/portal/index.html');
+ const data=JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
+ const app=data['@graph'].find(node=>node['@type']==='SoftwareApplication');
+ assert.equal(app.name,'HappyHands');assert.equal(app.url,origin+'/apps/portal/');
+ assert.equal(app.sameAs,'https://github.com/ShuaiMXu/happyhands');
+ assert.ok(!app.aggregateRating&&!app.review&&!app.offers,'Do not invent endorsements or pricing');
+ const ids=new Set(data['@graph'].map(node=>node['@id']));
+ for(const node of data['@graph'])for(const key of ['about','isPartOf'])if(node[key])assert.ok(ids.has(node[key]['@id']));
+ assert.ok(html.includes('AI 网站审阅、设计系统提取与代码优化'));
+});

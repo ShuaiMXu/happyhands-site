@@ -30,7 +30,8 @@
     "test:lime:browser": "node tests/lime-browser.mjs",
     "test:seo": "node --import tsx --test tests/site-seo.test.mjs",
     "test:analytics": "node --import tsx --test tests/site-analytics.test.ts",
-    "test:analytics:browser": "node tests/site-analytics-browser.mjs"
+    "test:analytics:browser": "node tests/site-analytics-browser.mjs",
+    "check:search": "node scripts/check-search-discovery.mjs"
   },
   "dependencies": {
     "@base-ui/react": "1.9.0",

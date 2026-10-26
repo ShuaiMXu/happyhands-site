@@ -99,7 +99,7 @@ function renderContent() {
   disposeMenu = setupSiteMenu(document.querySelector('.site-header'), lang);
   // hero
   document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
-  document.title = lang === 'zh' ? 'HappyHands / 产品体验优化' : 'HappyHands / Product experience optimization';
+  document.title = lang === 'zh' ? 'HappyHands | AI 网站审阅、设计系统提取与代码优化' : 'HappyHands | AI Website Review and Design System Extraction';
   const eyebrow = document.querySelector('.eyebrow');
   if (eyebrow) eyebrow.innerHTML = c.hero.eyebrow.map(s => `<span>${s}</span>`).join('');
   const h1 = document.querySelector('h1');

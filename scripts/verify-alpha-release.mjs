@@ -17,5 +17,7 @@ const legacy=await readFile('dist/apps/web/index.html','utf8');assert.ok(legacy.
 const portal=await readFile('dist/apps/portal/index.html','utf8');
 for(const text of ['常见问题','pnpm workbench','人工接受仍待记录','docs/harness.md'])assert.ok(portal.includes(text),'Missing prerendered content: '+text);
 assert.ok(!portal.includes('<div id="portal-content"></div>'),'Portal must not be an empty client-only shell');
+const productData=JSON.parse(portal.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)?.[1]||'null');
+assert.ok(productData?.['@graph']?.some(node=>node['@type']==='SoftwareApplication'&&node.name==='HappyHands'),'Missing built product identity');
 
 console.log(JSON.stringify({status:'pass',kind:'built-artifact-contract',release,pages,limitations:['Does not prove deployment, accessibility, performance or visual acceptance.']},null,2));

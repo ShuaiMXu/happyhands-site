@@ -19,7 +19,7 @@ for(const url of urls){
  assert.equal(response.url,url,'Sitemap URL redirects');
  assert.match(response.headers.get('content-type')||'',/text\/html/);
  assert.ok(!/<meta\b(?=[^>]*name=["'](?:robots|googlebot)["'])(?=[^>]*content=["'][^"']*(?:noindex|none))[^>]*>/i.test(text),`${url}: noindex meta`);
- assert.ok(text.includes(`rel="canonical" href="${url}"`),`${url}: canonical mismatch`);
+ assert.ok(text.replace(/\s+/g,' ').includes(`rel="canonical" href="${url}"`),`${url}: canonical mismatch`);
  assert.match(text,/<title>[^<]+<\/title>/);
  if(url.endsWith('/apps/portal/')){
   assert.ok(text.includes('pnpm workbench')&&text.includes('常见问题'),'Missing prerendered product content');

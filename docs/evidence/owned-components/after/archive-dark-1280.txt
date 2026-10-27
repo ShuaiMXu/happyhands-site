@@ -1,0 +1,104 @@
+Browser tab: 31, Title: "设计系统、Design.md 与组件库 / HappyHands", URL: "http://127.0.0.1:4250/components/?provider=design-md".
+1 AXWebArea 设计系统、Design.md 与组件库 / HappyHands, URL: 127.0.0.1:4250/components/?provider=design-md
+	2 container root
+		3 link Description: 跳到内容, Value: 127.0.0.1:4250/components/?provider=design-md#catalog-main
+		4 container
+			5 link Description: HappyHands, Value: 127.0.0.1:4250/apps/portal/
+			98 container Description: 主要导航, ID: site-navigation
+				99 link Description: 产品能力, Value: 127.0.0.1:4250/apps/portal/#apps
+				100 link Description: 设计系统, Value: 127.0.0.1:4250/components/?provider=systems
+				101 link Description: 主题工作室, Value: 127.0.0.1:4250/apps/studio/
+				102 link Description: 开始使用, Value: 127.0.0.1:4250/apps/portal/#connect-agent
+			7 button 切换到浅色模式
+			8 button English
+		9 heading 设计资源, Value: 1
+			10 text 设计资源
+		11 container 设计系统分类
+			12 link Description: 设计系统, Value: 127.0.0.1:4250/components/?provider=systems
+			13 link Description: Design.md, Value: 127.0.0.1:4250/components/?provider=design-md
+			14 link Description: 组件库, Value: 127.0.0.1:4250/components/?provider=cult-ui
+		15 container catalog-main
+			16 container Design.md
+				17 container
+					18 text 搜索
+					19 search text field (settable) 搜索
+				20 container
+					21 text 网站类型
+					22 pop up button (collapsed, settable) Description: 网站类型, Value: 全部类型, Secondary Actions: Expand
+						23 menu
+							24 (selected) 全部类型
+							25 SaaS (202)
+							26 创意机构 (199)
+							27 电商 (176)
+							28 AI (130)
+							29 设计 (115)
+							30 开发工具 (97)
+							31 金融 (81)
+							32 效率工具 (76)
+							33 内容与媒体 (65)
+							34 加密与 Web3 (56)
+							35 个人作品集 (91)
+							36 建筑与室内 (41)
+							37 服饰与时尚 (46)
+							38 健康与运动 (27)
+							39 餐饮与食品 (20)
+							40 旅行与酒店 (18)
+							41 教育与学习 (12)
+							42 公益与社区 (2)
+							43 房产与空间 (6)
+							44 硬件与设备 (20)
+							45 待分类 (114)
+				46 container
+					47 text 设计风格
+					48 pop up button (collapsed, settable) Description: 设计风格, Value: 全部风格, Secondary Actions: Expand
+						49 menu
+							50 (selected) 全部风格
+							51 极简 (200)
+							52 瑞士网格 (38)
+							53 编辑排版 (705)
+							54 粗野主义 (32)
+							55 复古 (31)
+							56 趣味插画 (196)
+							57 工业机能 (75)
+							58 奢华精致 (62)
+							59 自然有机 (59)
+							60 几何构成 (256)
+							61 未来科技 (93)
+							62 渐变光感 (215)
+							63 三维质感 (68)
+							64 单色 (500)
+							65 字体主导 (16)
+							66 待分类 (136)
+				67 text 1342 个网站
+				68 link Description: (dot)connect dotconnect.vc, Value: 127.0.0.1:4250/components/?provider=design-md&design=dot-connect-981d90e9, ID: archive-dot-connect-981d90e9
+				69 link Description: 099 SUPPLY 099.supply, Value: 127.0.0.1:4250/components/?provider=design-md&design=099-supply-e4a7b5f3, ID: archive-099-supply-e4a7b5f3
+				70 link Description: 10X HUB 10xdesigners.co, Value: 127.0.0.1:4250/components/?provider=design-md&design=10x-hub-4acc13a0, ID: archive-10x-hub-4acc13a0
+				71 link Description: 11x– Digital workers www.11x.ai, Value: 127.0.0.1:4250/components/?provider=design-md&design=11x-digital-workers-850ee61c, ID: archive-11x-digital-workers-850ee61c
+				72 link Description: 12th Berlin Biennale for Contemporary Art 12.berlinbiennale.de, ID: archive-12th-berlin-biennale-for-contemporary-art-1c2d4a33, Value: 127.0.0.1:4250/components/?provider=design-md&design=12th-berlin-biennale-for-contemporary-art-1c2d4a33
+				73 link Description: 14islands 14islands.com, Value: 127.0.0.1:4250/components/?provider=design-md&design=14islands-139c4bee, ID: archive-14islands-139c4bee
+				74 link Description: 15five www.15five.com, Value: 127.0.0.1:4250/components/?provider=design-md&design=15five-88a00b3e, ID: archive-15five-88a00b3e
+				75 link Description: 19–86 19-86.fr, Value: 127.0.0.1:4250/components/?provider=design-md&design=19-86-6f428c12, ID: archive-19-86-6f428c12
+				76 link Description: 1X Tech www.1x.tech, Value: 127.0.0.1:4250/components/?provider=design-md&design=1x-tech-7aa1dbff, ID: archive-1x-tech-7aa1dbff
+				77 link Description: 2.AG 2ag.com, Value: 127.0.0.1:4250/components/?provider=design-md&design=2-ag-8b4a1a95, ID: archive-2-ag-8b4a1a95
+				78 link Description: 2020 albumcolors.com, Value: 127.0.0.1:4250/components/?provider=design-md&design=2020-ac660bff, ID: archive-2020-ac660bff
+				79 link Description: 21 TSI 21tsi.com, Value: 127.0.0.1:4250/components/?provider=design-md&design=21-tsi-7b28c99e, ID: archive-21-tsi-7b28c99e
+				80 link Description: 21n memotron.app, Value: 127.0.0.1:4250/components/?provider=design-md&design=21n-68d18deb, ID: archive-21n-68d18deb
+				81 link Description: 601 Inc. www.rokumaruichi.tokyo, Value: 127.0.0.1:4250/components/?provider=design-md&design=601-inc-1cb31aee, ID: archive-601-inc-1cb31aee
+				82 link Description: 70Materia 70materia.com, Value: 127.0.0.1:4250/components/?provider=design-md&design=70materia-f22a5ad1, ID: archive-70materia-f22a5ad1
+				83 link Description: 7shifts www.7shifts.com, Value: 127.0.0.1:4250/components/?provider=design-md&design=7shifts-736830b5, ID: archive-7shifts-736830b5
+				84 link Description: 8returns www.8returns.com, Value: 127.0.0.1:4250/components/?provider=design-md&design=8returns-d5799c71, ID: archive-8returns-d5799c71
+				85 link Description: A-dam a-dam.com, Value: 127.0.0.1:4250/components/?provider=design-md&design=a-dam-0fc184f7, ID: archive-a-dam-0fc184f7
+				86 link Description: A-WARE a-ware.at, Value: 127.0.0.1:4250/components/?provider=design-md&design=a-ware-5681f7b6, ID: archive-a-ware-5681f7b6
+				87 link Description: a16z speedrun speedrun.a16z.com, Value: 127.0.0.1:4250/components/?provider=design-md&design=a16z-speedrun-4fa31278, ID: archive-a16z-speedrun-4fa31278
+				88 link Description: A24 a24films.com, Value: 127.0.0.1:4250/components/?provider=design-md&design=a24-6afa22a6, ID: archive-a24-6afa22a6
+				89 link Description: Aaply aaply.app, Value: 127.0.0.1:4250/components/?provider=design-md&design=aaply-357e6fee, ID: archive-aaply-357e6fee
+				90 link Description: Aaron Poe & Co aaronpoeandco.com, Value: 127.0.0.1:4250/components/?provider=design-md&design=aaron-poe-and-co-3240fdc0, ID: archive-aaron-poe-and-co-3240fdc0
+				91 link Description: Aaru aaru.com, Value: 127.0.0.1:4250/components/?provider=design-md&design=aaru-ad98aac8, ID: archive-aaru-ad98aac8
+				92 container 参考分页
+					93 button (disabled) 上一页
+					94 text 1  /  56
+					95 button 下一页
+			96 button (collapsed) 导入自己的 DESIGN.md, Secondary Actions: Expand
+				97 text 导入自己的 DESIGN.md
+
+The focused UI element is 1 AXWebArea 设计系统、Design.md 与组件库 / HappyHands, URL: 127.0.0.1:4250/components/?provider=design-md

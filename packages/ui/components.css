@@ -25,25 +25,56 @@
   opacity: 0.4;
 }
 @media (forced-colors: active) {
-  .hh-select-field > select { appearance: auto; }
-  .hh-select-field > .hh-icon { display: none; }
+  .hh-select-field > select {
+    appearance: auto;
+  }
+  .hh-select-field > .hh-icon {
+    display: none;
+  }
 }
-.hh-button {
-  min-height: 36px;
+.hh-button[data-variant] {
+  min-height: 44px;
+  position: relative;
   border-radius: var(--hh-radius-md);
   transition:
-    opacity 250ms ease-out,
-    transform 250ms ease-out;
-  display: inline-flex;
+    background-color 250ms ease-out,
+    border-color 250ms ease-out,
+    color 250ms ease-out;
+  display: inline-grid;
+  grid-template-areas: "label";
   align-items: center;
   justify-content: center;
   gap: var(--hh-space-2);
 }
-.hh-button:not(:disabled):active {
-  transform: scale(0.98);
+.hh-button-content {
+  grid-area: label;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--hh-space-2);
+  min-width: 0;
+}
+.hh-button[aria-busy="true"] .hh-button-content {
+  opacity: 0;
+}
+.hh-button > .hh-spinner {
+  grid-area: label;
+  justify-self: center;
 }
 .hh-button:not(:disabled):hover {
-  opacity: 0.86;
+  border-color: var(--hh-line-strong);
+}
+.hh-button:not(:disabled):active {
+  border-color: var(--hh-ink);
+}
+.hh-button:disabled {
+  cursor: not-allowed;
+}
+.hh-button[aria-busy="true"] {
+  cursor: progress;
+}
+.hh-select-field > select[aria-invalid="true"] {
+  border-color: var(--hh-danger);
 }
 .hh-button[data-variant="primary"] {
   background: var(--hh-primary);
@@ -79,5 +110,10 @@
   }
   .hh-spinner {
     animation: none;
+  }
+}
+@media (pointer: coarse) {
+  .hh-select-field > select {
+    font-size: 16px;
   }
 }

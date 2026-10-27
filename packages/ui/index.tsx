@@ -20,8 +20,8 @@ export function Button({
       disabled={disabled || loading}
       className={`hh-button ${className}`}
     >
+      <span className="hh-button-content">{children}</span>
       {loading && <span className="hh-spinner" aria-hidden="true" />}
-      {children}
     </button>
   );
 }

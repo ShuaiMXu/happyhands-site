@@ -1,12 +1,13 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { ResourceExport } from "./ResourceExport";
 import { ReferenceSpecimen, type ReferenceSystem } from "./ReferenceSpecimen";
 import "./archive-gallery.css";
-import { Select } from "../packages/ui/Select";
+import { ArchiveFilter } from "./ArchiveFilter";
+import { ResourceToolbar } from "./ResourceToolbar";
 import { ArchiveCard } from "./ArchiveCard";
 import {
-  archiveCategories,
-  categoryOf,
+  archiveTypes,
+  archiveStyles,
   filterArchive,
   type ArchiveEntry as Entry,
 } from "./archive-catalog";
@@ -14,8 +15,13 @@ export function ArchiveGallery({ lang }: { lang: string }) {
   const zh = lang === "zh",
     [entries, setEntries] = useState<Entry[]>([]),
     [error, setError] = useState(""),
+    [loading, setLoading] = useState(true),
+    [systemError, setSystemError] = useState(""),
+    [systemRetry, setSystemRetry] = useState(0),
+    [videoFailed, setVideoFailed] = useState(false),
+    [videoRetry, setVideoRetry] = useState(0),
     [query, setQuery] = useState(""),
-    [theme, setTheme] = useState(""),
+    [style, setStyle] = useState(""),
     [category, setCategory] = useState(""),
     [preview, setPreview] = useState<string | null>(null),
     [page, setPage] = useState(1),
@@ -25,12 +31,16 @@ export function ArchiveGallery({ lang }: { lang: string }) {
   useEffect(() => {
     const c = new AbortController();
     setError("");
+    setLoading(true);
     fetch("/design-archive/index.json", { signal: c.signal })
       .then((r) => {
         if (!r.ok) throw Error();
         return r.json();
       })
-      .then(setEntries)
+      .then((value) => {
+        if (!Array.isArray(value)) throw Error();
+        setEntries(value);
+      })
       .catch((e) => {
         if (e.name !== "AbortError")
           setError(
@@ -38,11 +48,15 @@ export function ArchiveGallery({ lang }: { lang: string }) {
               ? "目录加载失败，请重试。"
               : "Could not load the collection. Please retry.",
           );
+      })
+      .finally(() => {
+        if (!c.signal.aborted) setLoading(false);
       });
     return () => c.abort();
   }, [retry, zh]);
   useEffect(() => {
     setSystem(null);
+    setSystemError("");
     if (!selected) return;
     const c = new AbortController();
     fetch(`/design-archive/${selected.slug}/design-system.json`, {
@@ -55,8 +69,19 @@ export function ArchiveGallery({ lang }: { lang: string }) {
       .then((value) => {
         if (!c.signal.aborted) setSystem(value);
       })
-      .catch(() => {});
+      .catch((error) => {
+        if (error.name !== "AbortError")
+          setSystemError(
+            zh
+              ? "设计规范加载失败，请重试。"
+              : "Could not load the design rules. Please retry.",
+          );
+      });
     return () => c.abort();
+  }, [selected, systemRetry, zh]);
+  useEffect(() => {
+    setVideoFailed(false);
+    setVideoRetry(0);
   }, [selected]);
   useEffect(() => {
     const restore = () => {
@@ -75,13 +100,35 @@ export function ArchiveGallery({ lang }: { lang: string }) {
     history.pushState(null, "", url.pathname + url.search);
     setSelected(entry);
   };
-  const available = filterArchive(entries, query, theme, "");
-  const filtered = category
-    ? available.filter((entry) => categoryOf(entry) === category)
-    : available;
-  useEffect(() => setPreview(null), [page, query, theme, category, selected]);
+  const queryEntries = useMemo(
+    () => filterArchive(entries, query, "", ""),
+    [entries, query],
+  );
+  const available = useMemo(
+    () => filterArchive(queryEntries, "", "", "", style),
+    [queryEntries, style],
+  );
+  const typed = useMemo(
+    () => filterArchive(queryEntries, "", "", "", "", category),
+    [queryEntries, category],
+  );
+  const filtered = useMemo(
+    () => filterArchive(available, "", "", "", "", category),
+    [available, category],
+  );
+  const styleCount = (id: string) =>
+    typed.filter((entry) =>
+      id === "unclassified"
+        ? !entry.styles?.length
+        : entry.styles?.includes(id),
+    ).length;
+  useEffect(() => setPreview(null), [page, query, style, category, selected]);
   return (
-    <section className="archive-gallery" aria-label="Design.md">
+    <section
+      className="archive-gallery"
+      aria-label="Design.md"
+      aria-busy={loading || undefined}
+    >
       {selected ? (
         <>
           <button
@@ -101,7 +148,8 @@ export function ArchiveGallery({ lang }: { lang: string }) {
           <div className="resource-detail-layout">
             <div className="resource-detail-preview">
               <video
-                key={selected.slug}
+                key={`${selected.slug}:${videoRetry}`}
+                onError={() => setVideoFailed(true)}
                 controls
                 playsInline
                 preload="metadata"
@@ -113,6 +161,40 @@ export function ArchiveGallery({ lang }: { lang: string }) {
                     : `${selected.name} full-page preview`
                 }
               />
+              {videoFailed && (
+                <div role="alert" className="archive-detail-error">
+                  <p>
+                    {zh
+                      ? "视频预览暂不可用。"
+                      : "Video preview is unavailable."}
+                  </p>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setVideoFailed(false);
+                      setVideoRetry((value) => value + 1);
+                    }}
+                  >
+                    {zh ? "重试预览" : "Retry preview"}
+                  </button>
+                </div>
+              )}
+              {!system && !systemError && (
+                <p role="status">
+                  {zh ? "正在加载设计规范…" : "Loading design rules…"}
+                </p>
+              )}
+              {systemError && (
+                <div role="alert" className="archive-detail-error">
+                  <p>{systemError}</p>
+                  <button
+                    type="button"
+                    onClick={() => setSystemRetry((value) => value + 1)}
+                  >
+                    {zh ? "重试" : "Retry"}
+                  </button>
+                </div>
+              )}
               {system && <ReferenceSpecimen system={system} lang={lang} />}
             </div>
             <ResourceExport
@@ -145,75 +227,25 @@ export function ArchiveGallery({ lang }: { lang: string }) {
         </>
       ) : (
         <>
-          <div className="archive-filters">
-            <label className="archive-search">
-              {zh ? "搜索" : "Search"}
-              <input
-                type="search"
-                placeholder={
-                  zh ? "网站、行业或字体" : "Website, industry or font"
-                }
-                value={query}
-                onChange={(e) => {
-                  setQuery(e.target.value);
-                  setPage(1);
-                }}
-              />
-            </label>
-            <label className="archive-category">
-              {zh ? "分类" : "Category"}
-              <Select
-                aria-label={zh ? "分类" : "Category"}
-                value={category}
-                onChange={(e) => {
-                  setCategory(e.target.value);
-                  setPage(1);
-                }}
-              >
-                <option value="">{zh ? "全部分类" : "All categories"}</option>
-                {archiveCategories.map(([id, cn, en]) => (
-                  <option key={id} value={id}>
-                    {zh ? cn : en} (
-                    {
-                      available.filter((entry) => categoryOf(entry) === id)
-                        .length
-                    }
-                    )
-                  </option>
-                ))}
-              </Select>
-            </label>
-            <fieldset className="archive-theme">
-              <legend>{zh ? "主题" : "Theme"}</legend>
-              <div>
-                {[
-                  ["", zh ? "全部" : "All"],
-                  ["light", zh ? "浅色" : "Light"],
-                  ["dark", zh ? "深色" : "Dark"],
-                  ["mixed", zh ? "混合" : "Mixed"],
-                ].map(([id, label]) => (
-                  <button
-                    key={id}
-                    type="button"
-                    aria-pressed={theme === id}
-                    onClick={() => {
-                      setTheme(id);
-                      setPage(1);
-                    }}
-                  >
-                    {label}
-                  </button>
-                ))}
-              </div>
-            </fieldset>
-            <span role="status">
-              {entries.length
-                ? `${filtered.length} ${zh ? "个网站" : "websites"}`
-                : zh
-                  ? "加载中…"
-                  : "Loading…"}
-            </span>
-          </div>
+          <ResourceToolbar label={zh ? "搜索网站" : "Search websites"}
+            placeholder={zh ? "网站、类型、风格或字体" : "Website, type, style or font"}
+            query={query} onQueryChange={value => { setQuery(value); setPage(1); }}
+            status={loading ? (zh ? "加载中…" : "Loading…") : error ? (zh ? "目录加载失败" : "Collection unavailable") : `${filtered.length} ${zh ? "个网站" : "websites"}`}>
+            <ArchiveFilter label={zh ? "网站类型" : "Website type"} zh={zh} value={category}
+              onChange={value => { setCategory(value); setPage(1); }}
+              options={[
+                { value: "", label: zh ? "全部类型" : "All types", count: available.length },
+                ...archiveTypes.map(([id, cn, en]) => ({ value: id, label: zh ? cn : en, count: available.filter(entry => entry.types?.includes(id)).length })),
+                { value: "unclassified", label: zh ? "待分类" : "Unclassified", count: available.filter(entry => !entry.types?.length).length },
+              ]} />
+            <ArchiveFilter label={zh ? "设计风格" : "Design style"} zh={zh} value={style}
+              onChange={value => { setStyle(value); setPage(1); }}
+              options={[
+                { value: "", label: zh ? "全部风格" : "All styles", count: typed.length },
+                ...archiveStyles.map(([id, cn, en]) => ({ value: id, label: zh ? cn : en, count: styleCount(id) })),
+                { value: "unclassified", label: zh ? "待分类" : "Unclassified", count: styleCount("unclassified") },
+              ]} />
+          </ResourceToolbar>
           {error && (
             <p role="alert">
               {error}
@@ -237,7 +269,7 @@ export function ArchiveGallery({ lang }: { lang: string }) {
               />
             ))}
           </div>
-          {!error && entries.length > 0 && filtered.length === 0 && (
+          {!error && !loading && filtered.length === 0 && (
             <p>{zh ? "没有匹配的参考。" : "No matching references."}</p>
           )}
           {filtered.length > 24 && (

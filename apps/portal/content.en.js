@@ -102,8 +102,8 @@ export const hero = {
   "h1Accent": "more professional",
   "h1Suffix": ".",
   "copy": "Improve page layouts, interaction flows and component consistency through AI-assisted changes and review.",
-  "cta": "Explore capabilities",
-  "ctaSecondary": "View a real review"
+  "cta": "Copy setup prompt",
+  "ctaSecondary": "Setup guide"
 };
 
 export const screenPairs = [

@@ -1,0 +1,14 @@
+/* The core setup action lives in the existing Hero, sharing its complete preset. */
+.hero-agent-choices { display:flex; flex-wrap:wrap; justify-content:center; gap:4px; margin-top:24px; }
+.hero-agent-choices button { display:inline-flex; align-items:center; justify-content:center; gap:6px; min-height:44px; padding:8px 10px; border:0.5px solid transparent; border-radius:var(--hh-radius-sm); background:transparent; color:var(--hh-ink-muted); font:inherit; font-size:12px; white-space:nowrap; cursor:pointer; }
+.hero-agent-choices img { width:20px; height:20px; object-fit:contain; }
+.hero-agent-choices button:hover { color:var(--hh-ink); background:var(--hh-bg-raised); }
+.hero-agent-choices button[aria-pressed="true"] { color:var(--hh-ink); background:var(--hh-bg-raised); border-color:var(--hh-line-strong); }
+.hero-agent-choices button:focus-visible { outline:2px solid var(--hh-ring); outline-offset:2px; }
+.hero-center:has(.hero-agent-choices) .hero-actions { margin-top:16px; }
+.hero-actions #copy-agent { gap:8px; cursor:pointer; }
+@media(max-width:540px) {
+ .hero-agent-choices { gap:4px; margin-top:16px; }
+ .hero-agent-choices button { padding-inline:8px; }
+ .hero-center:has(.hero-agent-choices) .hero-actions .button { padding-inline:16px; min-height:48px; }
+}

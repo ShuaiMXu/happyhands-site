@@ -32,7 +32,9 @@
     "test:seo:browser": "node tests/seo-browser.mjs",
     "test:analytics": "node --import tsx --test tests/site-analytics.test.ts",
     "test:analytics:browser": "node tests/site-analytics-browser.mjs",
-    "check:search": "node scripts/check-search-discovery.mjs"
+    "check:search": "node scripts/check-search-discovery.mjs",
+    "ui:audit": "node scripts/audit-owned-ui.mjs",
+    "archive:facets": "node --import tsx scripts/build-archive-facets.mjs"
   },
   "dependencies": {
     "@base-ui/react": "1.9.0",

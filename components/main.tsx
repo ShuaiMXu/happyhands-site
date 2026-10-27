@@ -1,6 +1,8 @@
 import { resolveCatalogItem, searchCatalog } from "./catalog-search";
 import { applySiteMetadata } from "../packages/ui/site-seo";
 import { ComponentTile } from "./ComponentTile";
+import { ArchiveFilter } from "./ArchiveFilter";
+import { ResourceToolbar } from "./ResourceToolbar";
 import { DesignMdLibrary } from "./DesignMdLibrary";
 import { SystemLibrary } from "./SystemLibrary";
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
@@ -191,12 +193,12 @@ function App() {
       </div>
       <nav
         className="resource-sections"
-        aria-label={t("设计系统分类", "Design system sections")}
+        aria-label={t("设计资源分类", "Design resource sections")}
       >
         {[
           ["systems", t("设计系统", "Design systems")],
           ["design-md", "Design.md"],
-          ["cult-ui", t("组件库", "Component libraries")],
+          ["cult-ui", t("组件库", "Components")],
         ].map(([id, label]) => (
           <a
             key={id}
@@ -224,47 +226,17 @@ function App() {
         >
           {!selected && (
             <>
-              <aside
-                className="library-directory"
-                aria-label={t("组件目录", "Component directory")}
-              >
-                <label className="catalog-search">
-                  {t("搜索组件", "Search components")}
-                  <input
-                    type="search"
-                    value={query}
-                    onChange={(e) => setQuery(e.target.value)}
-                    placeholder={t(
-                      "名称、分类或关键词",
-                      "Name, category or keyword",
-                    )}
-                  />
-                </label>
-                <label className="catalog-category">
-                  {t("分类", "Category")}
-                  <span className="hh-select-field">
-                    <select
-                      value={group}
-                      onChange={(e) => setGroup(e.target.value)}
-                    >
-                      {Object.entries(groups).map(([id, labels]) => (
-                        <option key={id} value={id}>
-                          {labels[lang === "zh" ? 0 : 1]} /{" "}
-                          {id === "all"
-                            ? data.items.filter((x) => !x.aliasOf).length
-                            : data.items.filter(
-                                (x) => !x.aliasOf && x.category === id,
-                              ).length}
-                        </option>
-                      ))}
-                    </select>
-                    <Icon name="down" />
-                  </span>
-                </label>
-                <p className="catalog-results" role="status">
-                  {filtered.length} {t("个结果", "results")}
-                </p>
-              </aside>
+              <ResourceToolbar label={t("搜索组件", "Search components")}
+                placeholder={t("搜索", "Search")}
+                query={query} onQueryChange={setQuery}
+                status={`${filtered.length} ${t("个结果", "results")}`}>
+                <ArchiveFilter label={t("组件分类", "Component category")} zh={lang === "zh"} value={group}
+                  onChange={setGroup}
+                  options={Object.entries(groups).map(([id, labels]) => ({
+                    value: id, label: labels[lang === "zh" ? 0 : 1],
+                    count: searchCatalog(data.items, query, id, groups).length,
+                  }))} />
+              </ResourceToolbar>
               <main
                 id="catalog-main"
                 className="component-results"

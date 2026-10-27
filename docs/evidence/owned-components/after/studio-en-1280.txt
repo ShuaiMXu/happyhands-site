@@ -1,0 +1,340 @@
+Browser tab: 32, Title: "Theme Studio / Colors, typography and design tokens / HappyHands", URL: "http://127.0.0.1:4250/apps/studio/".
+1 AXWebArea Theme Studio / Colors, typography and design tokens / HappyHands, URL: 127.0.0.1:4250/apps/studio/
+	2 container root
+		3 container
+			4 link Description: HappyHands, Value: 127.0.0.1:4250/apps/portal/
+			5 container Description: Main navigation, ID: site-navigation
+				6 link Description: Product, Value: 127.0.0.1:4250/apps/portal/#apps
+				7 link Description: Design systems, Value: 127.0.0.1:4250/components/?provider=systems
+				8 link Description: Theme Studio, Value: 127.0.0.1:4250/apps/studio/
+				9 link Description: Get started, Value: 127.0.0.1:4250/apps/portal/#connect-agent
+			10 button Switch to dark mode
+			11 button 中文
+		12 container
+			13 heading Project design system, Value: 1
+				14 text Project design system
+			15 text Choose colors and fonts, preview the results, then export them to your project.
+			16 pop up button (collapsed, settable) Description: Choose project, Value: my-product, Secondary Actions: Expand
+				17 menu
+					18 (selected) my-product
+			19 button (collapsed) Description: New project, Secondary Actions: Expand
+			20 button (disabled) Undo
+			21 button (disabled) Redo
+			22 button Export
+			23 button (collapsed) More, Secondary Actions: Expand
+				24 text More
+			25 text Local project / Autosaved
+			26 button (collapsed) Panel width, Secondary Actions: Expand
+				27 text Panel width
+			28 container
+				29 text Project name
+				30 text field (settable) Project name, Value: 我的产品
+			31 container
+				32 text Starting preset
+				33 pop up button (collapsed, settable) Description: Theme preset, Value: HappyHands, Secondary Actions: Expand
+					34 menu
+						35 Neutral / tweakcn
+						36 (selected) HappyHands
+						37 Modern Minimal
+						38 Violet Bloom
+						39 T3 Chat
+						40 Twitter
+						41 Mocha Mousse
+						42 Bubblegum
+						43 Amethyst Haze
+						44 Notebook
+						45 Doom 64
+						46 Catppuccin
+						47 Graphite
+						48 Perpetuity
+						49 Kodama Grove
+						50 Cosmic Night
+						51 Tangerine
+						52 Quantum Rose
+						53 Nature
+						54 Bold Tech
+						55 Elegant Luxury
+						56 Amber Minimal
+						57 Supabase
+						58 Neo Brutalism
+						59 Solar Dusk
+						60 Claymorphism
+						61 Cyberpunk
+						62 Pastel Dreams
+						63 Clean Slate
+						64 Caffeine
+						65 Ocean Breeze
+						66 Retro Arcade
+						67 Midnight Bloom
+						68 Candyland
+						69 Northern Lights
+						70 Vintage Paper
+						71 Sunset Horizon
+						72 Starry Night
+						73 Claude
+						74 Vercel
+						75 Darkmatter
+						76 Mono
+						77 Soft Pop
+						78 Sage Garden
+			79 text Selections update both themes immediately. Undo is available.
+			80 checkbox Light, Value: 1
+			81 checkbox Dark, Value: 0
+			82 checkbox Colors, Value: 1
+			83 checkbox Typography, Value: 0
+			84 checkbox Details, Value: 0
+			85 text field (settable) Search design variables
+			86 container
+				87 heading INTERFACE COLORS, Value: 3
+					88 text INTERFACE COLORS
+				89 container token-background
+					90 text Page background
+					91 text background
+					92 color well (settable) Description: background picker, Value: #fcfcfc
+					93 text field (settable) Description: background, Value: #fcfcfc
+				94 container token-foreground
+					95 text Primary text
+					96 text foreground
+					97 color well (settable) Description: foreground picker, Value: #202020
+					98 text field (settable) Description: foreground, Value: #202020
+				99 container token-card
+					100 text Card surface
+					101 text card
+					102 color well (settable) Description: card picker, Value: #f9f9f9
+					103 text field (settable) Description: card, Value: #f9f9f9
+				104 container token-card-foreground
+					105 text Card text
+					106 text card-foreground
+					107 color well (settable) Description: card-foreground picker, Value: #202020
+					108 text field (settable) Description: card-foreground, Value: #202020
+				109 container token-popover
+					110 text Popover surface
+					111 text popover
+					112 color well (settable) Description: popover picker, Value: #f9f9f9
+					113 text field (settable) Description: popover, Value: #f9f9f9
+				114 container token-popover-foreground
+					115 text Popover text
+					116 text popover-foreground
+					117 color well (settable) Description: popover-foreground picker, Value: #202020
+					118 text field (settable) Description: popover-foreground, Value: #202020
+				119 container token-primary
+					120 text Primary action
+					121 text primary
+					122 color well (settable) Description: primary picker, Value: #202020
+					123 text field (settable) Description: primary, Value: #202020
+				124 container token-primary-foreground
+					125 text Action text
+					126 text primary-foreground
+					127 color well (settable) Description: primary-foreground picker, Value: #fcfcfc
+					128 text field (settable) Description: primary-foreground, Value: #fcfcfc
+				129 container token-secondary
+					130 text Secondary action
+					131 text secondary
+					132 color well (settable) Description: secondary picker, Value: #f0f0f0
+					133 text field (settable) Description: secondary, Value: #f0f0f0
+				134 container token-secondary-foreground
+					135 text Secondary text
+					136 text secondary-foreground
+					137 color well (settable) Description: secondary-foreground picker, Value: #202020
+					138 text field (settable) Description: secondary-foreground, Value: #202020
+				139 container token-muted
+					140 text Muted surface
+					141 text muted
+					142 color well (settable) Description: muted picker, Value: #f0f0f0
+					143 text field (settable) Description: muted, Value: #f0f0f0
+				144 container token-muted-foreground
+					145 text Muted text
+					146 text muted-foreground
+					147 color well (settable) Description: muted-foreground picker, Value: #646464
+					148 text field (settable) Description: muted-foreground, Value: #646464
+				149 container token-accent
+					150 text Accent surface
+					151 text accent
+					152 color well (settable) Description: accent picker, Value: #ffefd6
+					153 text field (settable) Description: accent, Value: #ffefd6
+				154 container token-accent-foreground
+					155 text Accent text
+					156 text accent-foreground
+					157 color well (settable) Description: accent-foreground picker, Value: #cc4e00
+					158 text field (settable) Description: accent-foreground, Value: #cc4e00
+				159 container token-destructive
+					160 text Destructive action
+					161 text destructive
+					162 color well (settable) Description: destructive picker, Value: #ce2c31
+					163 text field (settable) Description: destructive, Value: #ce2c31
+				164 container token-destructive-foreground
+					165 text Destructive text
+					166 text destructive-foreground
+					167 color well (settable) Description: destructive-foreground picker, Value: #fcfcfc
+					168 text field (settable) Description: destructive-foreground, Value: #fcfcfc
+				169 container token-border
+					170 text Border
+					171 text border
+					172 color well (settable) Description: border picker, Value: #d9d9d9
+					173 text field (settable) Description: border, Value: #d9d9d9
+				174 container token-input
+					175 text Input border
+					176 text input
+					177 color well (settable) Description: input picker, Value: #bbbbbb
+					178 text field (settable) Description: input, Value: #bbbbbb
+				179 container token-ring
+					180 text Focus ring
+					181 text ring
+					182 color well (settable) Description: ring picker, Value: #5eb1ef
+					183 text field (settable) Description: ring, Value: #5eb1ef
+				184 container token-chart-1
+					185 text chart-1
+					186 color well (settable) Description: chart-1 picker, Value: #202020
+					187 text field (settable) Description: chart-1, Value: #202020
+				188 container token-chart-2
+					189 text chart-2
+					190 color well (settable) Description: chart-2 picker, Value: #646464
+					191 text field (settable) Description: chart-2, Value: #646464
+				192 container token-chart-3
+					193 text chart-3
+					194 color well (settable) Description: chart-3 picker, Value: #bbbbbb
+					195 text field (settable) Description: chart-3, Value: #bbbbbb
+				196 container token-chart-4
+					197 text chart-4
+					198 color well (settable) Description: chart-4 picker, Value: #f76b15
+					199 text field (settable) Description: chart-4, Value: #f76b15
+				200 container token-chart-5
+					201 text chart-5
+					202 color well (settable) Description: chart-5 picker, Value: #30a46c
+					203 text field (settable) Description: chart-5, Value: #30a46c
+				204 container token-sidebar
+					205 text sidebar
+					206 color well (settable) Description: sidebar picker, Value: #fcfcfc
+					207 text field (settable) Description: sidebar, Value: #fcfcfc
+				208 container token-sidebar-foreground
+					209 text sidebar-foreground
+					210 color well (settable) Description: sidebar-foreground picker, Value: #202020
+					211 text field (settable) Description: sidebar-foreground, Value: #202020
+				212 container token-sidebar-primary
+					213 text sidebar-primary
+					214 color well (settable) Description: sidebar-primary picker, Value: #202020
+					215 text field (settable) Description: sidebar-primary, Value: #202020
+				216 container token-sidebar-primary-foreground
+					217 text sidebar-primary-foreground
+					218 color well (settable) Description: sidebar-primary-foreground picker, Value: #fcfcfc
+					219 text field (settable) Description: sidebar-primary-foreground, Value: #fcfcfc
+				220 container token-sidebar-accent
+					221 text sidebar-accent
+					222 color well (settable) Description: sidebar-accent picker, Value: #e8e8e8
+					223 text field (settable) Description: sidebar-accent, Value: #e8e8e8
+				224 container token-sidebar-accent-foreground
+					225 text sidebar-accent-foreground
+					226 color well (settable) Description: sidebar-accent-foreground picker, Value: #202020
+					227 text field (settable) Description: sidebar-accent-foreground, Value: #202020
+				228 container token-sidebar-border
+					229 text sidebar-border
+					230 color well (settable) Description: sidebar-border picker, Value: #d9d9d9
+					231 text field (settable) Description: sidebar-border, Value: #d9d9d9
+				232 container token-sidebar-ring
+					233 text sidebar-ring
+					234 color well (settable) Description: sidebar-ring picker, Value: #5eb1ef
+					235 text field (settable) Description: sidebar-ring, Value: #5eb1ef
+				236 container token-shadow-color
+					237 text Shadow color
+					238 text shadow-color
+					239 color well (settable) Description: shadow-color picker, Value: #000000
+					240 text field (settable) Description: shadow-color, Value: oklch(0 0 0)
+			241 container
+				242 heading OVERALL COLOR ADJUSTMENT, Value: 3
+					243 text OVERALL COLOR ADJUSTMENT
+				244 text Hue shift 0 °
+				245 slider (settable, integer) Description: Hue shift, Value: 0
+				246 text Saturation × 1
+				247 slider (settable, integer) Saturation × 1, Value: 1
+				248 text Lightness × 1
+				249 slider (settable, integer) Lightness × 1, Value: 1
+				250 button Apply to current mode
+			251 pop up button (collapsed, settable) Description: Preview scene, Value: Components, Secondary Actions: Expand
+				252 menu
+					253 (selected) Components
+					254 Dashboard
+					255 Marketing
+					256 Mail
+					257 Typography
+					258 States
+					259 Connected page
+			260 checkbox Compare, Value: 0
+			261 container
+				262 button (collapsed) Settings, Secondary Actions: Expand
+					263 text Settings
+			264 container
+				265 text Theme preview / Sample content, not project data 我的产品 Workspace  /  Components 我
+				266 heading Theme application preview, Value: 2
+					267 text Theme application preview
+				268 text Try the buttons and fields to check text, borders and feedback.
+				269 heading Text and actions, Value: 3
+					270 text Text and actions
+				271 text Body text and supporting information should both be easy to read.
+				272 button Save example
+				273 button Reset example
+				274 button (disabled) Unavailable
+				275 text Select Save example to see the feedback.
+				276 heading Inputs and choices, Value: 3
+					277 text Inputs and choices
+				278 container
+					279 text Example name
+					280 text field (settable) Example name
+				281 container
+					282 text Priority
+					283 pop up button (collapsed, settable) Priority, Value: Normal, Secondary Actions: Expand
+						284 menu
+							285 (selected) Normal
+							286 High priority
+				287 checkbox (settable, integer) Description: Notify me when complete, Value: 0
+				288 heading Lists and badges, Value: 3
+					289 text Lists and badges
+				290 container
+					291 text Search sample pages
+					292 text field (settable) Search sample pages
+				293 table Sample pages
+					294 text Sample pages
+					295 row
+						296 cell
+							297 text Page
+						298 cell
+							299 text Status
+					300 row
+						301 cell
+							302 text Product homepage
+						303 cell
+							304 text Completed
+					305 row
+						306 cell
+							307 text Account settings
+						308 cell
+							309 text In progress
+					310 row
+						311 cell
+							312 text Help center
+						313 cell
+							314 text Pending
+				315 heading Switch and progress, Value: 3
+					316 text Switch and progress
+				317 container
+					318 text Receive updates
+					319 switch Description: Receive updates, Value: 1
+				320 container
+					321 text Completion  /  64 %
+					322 slider (settable, integer) Completion / 64%, Value: 64
+				323 progress indicator Description: Completion, Value: 64
+				324 text Notifications on
+				325 heading Messages and feedback, Value: 3
+					326 text Messages and feedback
+				327 text Draft saved
+				328 text Continue editing, then export when ready.
+				329 text Example connection failed
+				330 text Check the address and try again.
+				331 heading Dialog and confirmation, Value: 3
+					332 text Dialog and confirmation
+				333 text Open the dialog to check its surface, backdrop, and keyboard controls.
+				334 button Open sample dialog
+				335 text This example does not change your project.
+			336 text Light  /  Components / Styles apply only to the preview
+			337 link Description: Theme tools based on tweakcn, Value: github.com/jnsahaj/tweakcn/tree/a3b47b37cba97dd637de517aab52c45ec0f83456
+
+The focused UI element is 1 AXWebArea Theme Studio / Colors, typography and design tokens / HappyHands, URL: 127.0.0.1:4250/apps/studio/

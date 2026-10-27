@@ -41,3 +41,53 @@ test("search category and theme work together and empty states recover", () => {
     ),
   );
 });
+
+test("website types and visual styles combine without dropping unclassified references", () => {
+  const minimal = filterArchive(entries, "", "", "", "minimal");
+  assert.ok(minimal.length > 0);
+  assert.ok(minimal.every((entry) => entry.styles?.includes("minimal")));
+  const combined = filterArchive(entries, "", "", "", "editorial", "fashion");
+  assert.ok(combined.length > 0);
+  assert.ok(
+    combined.every(
+      (entry) =>
+        entry.styles?.includes("editorial") && entry.types?.includes("fashion"),
+    ),
+  );
+  assert.equal(
+    filterArchive(entries, "", "", "", "unclassified").length,
+    entries.filter((entry) => !entry.styles?.length).length,
+  );
+  assert.equal(
+    filterArchive(entries, "", "", "", "", "unclassified").length,
+    entries.filter((entry) => !entry.types?.length).length,
+  );
+  assert.ok(
+    filterArchive(entries, "瑞士网格", "", "").every((entry) =>
+      entry.styles?.includes("swiss"),
+    ),
+  );
+});
+
+test("gallery cards expose one detail link and no manual playback control", async () => {
+  const { createElement } = await import("react");
+  const { renderToStaticMarkup } = await import("react-dom/server");
+  const { ArchiveCard } = await import("../components/ArchiveCard");
+  const props = {
+    entry: entries[0],
+    onPreview: () => {},
+    onOpen: () => {},
+    lang: "zh",
+  };
+  const resting = renderToStaticMarkup(
+    createElement(ArchiveCard, { ...props, active: false }),
+  );
+  const previewing = renderToStaticMarkup(
+    createElement(ArchiveCard, { ...props, active: true }),
+  );
+  assert.equal((resting.match(/<a\b/g) || []).length, 1);
+  assert.doesNotMatch(resting, /<button\b|<video\b/);
+  assert.equal((previewing.match(/<video\b/g) || []).length, 1);
+  assert.match(previewing, /\bmuted\b/);
+  assert.doesNotMatch(previewing, /<button\b|\bcontrols=/);
+});

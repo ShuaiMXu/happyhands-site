@@ -30,9 +30,15 @@ export function ArchiveCard({
     const hide = () => {
       if (document.hidden) onPreview(null);
     };
+    const motion = matchMedia("(prefers-reduced-motion: reduce)");
+    const reduce = () => {
+      if (motion.matches) onPreview(null);
+    };
+    motion.addEventListener("change", reduce);
     document.addEventListener("visibilitychange", hide);
     return () => {
       observer.disconnect();
+      motion.removeEventListener("change", reduce);
       document.removeEventListener("visibilitychange", hide);
     };
   }, [active, onPreview]);
@@ -45,14 +51,13 @@ export function ArchiveCard({
       ref={root}
       className="archive-card"
       onPointerEnter={(e) => {
-        if (
-          e.pointerType === "mouse" &&
-          !(e.target as Element).closest("button")
-        )
-          autoPreview();
+        if (e.pointerType === "mouse") autoPreview();
       }}
       onPointerLeave={(e) => {
         if (e.pointerType === "mouse") onPreview(null);
+      }}
+      onKeyDown={(e) => {
+        if (e.key === "Escape") onPreview(null);
       }}
       onBlur={(e) => {
         if (!e.currentTarget.contains(e.relatedTarget as Node | null))
@@ -63,7 +68,9 @@ export function ArchiveCard({
         id={`archive-${entry.slug}`}
         className="archive-card-open"
         href={`?provider=design-md&design=${entry.slug}`}
-        onFocus={autoPreview}
+        onFocus={(event) => {
+          if (event.currentTarget.matches(":focus-visible")) autoPreview();
+        }}
         onClick={(e) => {
           if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
           e.preventDefault();
@@ -100,24 +107,6 @@ export function ArchiveCard({
           <small>{new URL(entry.site_url).hostname}</small>
         </span>
       </a>
-      <button
-        type="button"
-        className="archive-card-play"
-        aria-label={`${active ? (zh ? "停止预览" : "Stop preview") : zh ? "播放预览" : "Play preview"} ${entry.name}`}
-        aria-pressed={active}
-        onClick={() => onPreview(active ? null : entry.slug)}
-      >
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          {active ? (
-            <>
-              <rect x="6" y="5" width="4" height="14" />
-              <rect x="14" y="5" width="4" height="14" />
-            </>
-          ) : (
-            <path d="m8 5 11 7-11 7z" />
-          )}
-        </svg>
-      </button>
       {failed && (
         <span className="archive-preview-error" role="status">
           {zh ? "视频暂不可用" : "Video unavailable"}

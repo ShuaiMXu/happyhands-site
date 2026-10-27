@@ -1,0 +1,88 @@
+{
+  "views": [
+    {
+      "agentCount": 5,
+      "copyBottom": 723.09375,
+      "copyCount": 1,
+      "copyVisible": "1",
+      "height": 900,
+      "lang": "zh-CN",
+      "overflow": false,
+      "scrollY": 0,
+      "selected": "codex",
+      "width": 390
+    },
+    {
+      "agentCount": 5,
+      "copyBottom": 630.4921875,
+      "copyCount": 1,
+      "copyVisible": "1",
+      "height": 761,
+      "lang": "zh-CN",
+      "overflow": false,
+      "scrollY": 0,
+      "selected": "codex",
+      "width": 691
+    },
+    {
+      "agentCount": 5,
+      "copyBottom": 699.9921875,
+      "copyCount": 1,
+      "copyVisible": "1",
+      "height": 900,
+      "lang": "zh-CN",
+      "overflow": false,
+      "scrollY": 0,
+      "selected": "codex",
+      "width": 1280
+    },
+    {
+      "agentCount": 5,
+      "copyBottom": 723.8359375,
+      "copyCount": 1,
+      "copyVisible": "1",
+      "height": 900,
+      "lang": "en",
+      "overflow": false,
+      "scrollY": 0,
+      "selected": "codex",
+      "width": 390
+    },
+    {
+      "agentCount": 5,
+      "copyBottom": 641.84375,
+      "copyCount": 1,
+      "copyVisible": "1",
+      "height": 761,
+      "lang": "en",
+      "overflow": false,
+      "scrollY": 0,
+      "selected": "codex",
+      "width": 691
+    },
+    {
+      "agentCount": 5,
+      "copyBottom": 698.7421875,
+      "copyCount": 1,
+      "copyVisible": "1",
+      "height": 900,
+      "lang": "en",
+      "overflow": false,
+      "scrollY": 0,
+      "selected": "codex",
+      "width": 1280
+    }
+  ],
+  "clipboard": {
+    "englishCodex": {
+      "expected": 1431,
+      "actual": 1431,
+      "matches": true
+    },
+    "chineseCursor": {
+      "expected": 635,
+      "actual": 635,
+      "matches": true
+    }
+  }
+}

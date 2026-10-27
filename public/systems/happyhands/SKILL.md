@@ -30,3 +30,15 @@ Public website detail pages use `packages/ui/site-layout.css`, `system-page.css`
 Inspect the current stack and consumer sites first. Migrate one agreed screen while preserving data, business behavior and approved copy. Scope styling to the selected app; do not affect embedded reviewed pages. Remove old rules only when unused.
 
 Check normal desktop, tablet and phone layouts first; then keyboard navigation, Escape and focus return, long Chinese/English content, light/dark contrast, reduced motion, and zoom as an additional check. Verify loading, errors and empty states where applicable. Build and run relevant behavior checks. Record source revision, changed consumers, screenshots and remaining gaps. A token check or lint pass is not a visual acceptance decision.
+
+## Owned component profile update (2026-10-27)
+
+Read the complete `skills/happyhands-ui/SKILL.md` and its `references/components.md` from the same adopted website revision when building or reviewing owned HappyHands controls. These supplement this skill and the complete OJO, Taste and Impeccable packages; do not replace or shorten those sources.
+
+For the owned shell, the current canonical palette is the semantic Radix mapping in `happyhands.json`; it supersedes the historical warm-neutral description above. User-approved project themes and source media keep their own values. Keep 0.5px UI borders, 12px minimum text, three or four page text roles, and ordinary word wrapping. Preserve wide commands with local scrolling.
+
+Reuse the native `Select` wrapper as well as Button. Keep one centered chevron and associated labels. Busy Button keeps its name and dimensions while blocking repeated actions. Avoid decorative press scaling and tooltips that repeat visible labels. Verify default, focus, disabled, loading, empty, failure and recovery states in real consumers.
+
+Design.md cards preview on pointer hover or keyboard focus without a play overlay. They stop on leave, Escape, leaving view or hiding the tab and respect reduced motion. Touch opens the complete detail preview. Keep website type and design style as separate, source-backed facets; unmatched items remain available for classification. The full design documents, exports and source component demonstrations remain intact.
+
+Run `npm run ui:audit` for the scoped static checks, then verify normal desktop/phone layouts and interactions. Its documented exceptions and clean output do not certify external themes, the historical workbench, production deployment or full accessibility compliance.

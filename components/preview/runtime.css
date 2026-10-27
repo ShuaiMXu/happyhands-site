@@ -54,3 +54,11 @@ body {
 @font-face {font-family:"Geist Pixel Line";src:url("/components/cult-ui/fonts/GeistPixel-Line.woff2") format("woff2");font-display:swap;}
 .font-pixel-line {font-family:"Geist Pixel Line",monospace;}
 :root {--font-geist-pixel-line:"Geist Pixel Line";}
+
+/* A motion-off text specimen must show its final content, not an entrance frame.
+   Keep the pinned demo intact; this adapter applies only to its static preview. */
+[data-motion="reduce"] [data-preview="text-animate"] [style] {
+  opacity: 1 !important;
+  transform: none !important;
+  filter: none !important;
+}

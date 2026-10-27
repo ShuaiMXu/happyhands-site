@@ -1,0 +1,25 @@
+Browser tab: 32, Title: "Design systems, Design.md and components / HappyHands", URL: "http://127.0.0.1:4250/components/?provider=systems".
+1 AXWebArea Design systems, Design.md and components / HappyHands, URL: 127.0.0.1:4250/components/?provider=systems
+	2 container root
+		3 link Description: Skip to content, Value: 127.0.0.1:4250/components/?provider=systems#catalog-main
+		4 container
+			5 link Description: HappyHands, Value: 127.0.0.1:4250/apps/portal/
+			6 container Description: Main navigation, ID: site-navigation
+				7 link Description: Product, Value: 127.0.0.1:4250/apps/portal/#apps
+				8 link Description: Design systems, Value: 127.0.0.1:4250/components/?provider=systems
+				9 link Description: Theme Studio, Value: 127.0.0.1:4250/apps/studio/
+				10 link Description: Get started, Value: 127.0.0.1:4250/apps/portal/#connect-agent
+			11 button Switch to dark mode
+			12 button 中文
+		13 heading Design resources, Value: 1
+			14 text Design resources
+		15 container Design system sections
+			16 link Description: Design systems, Value: 127.0.0.1:4250/components/?provider=systems
+			17 link Description: Design.md, Value: 127.0.0.1:4250/components/?provider=design-md
+			18 link Description: Component libraries, Value: 127.0.0.1:4250/components/?provider=cult-ui
+		19 container Resource sources
+			20 link Description: HappyHands Brand rules and product components Explore system, Value: 127.0.0.1:4250/components/?provider=systems&system=happyhands
+			21 link Description: Quartz AI workflows and professional tools Explore system, Value: 127.0.0.1:4250/components/?provider=systems&system=quartz
+			22 link Description: Lime Personal assistants and consumer apps Explore system, Value: 127.0.0.1:4250/components/?provider=systems&system=lime
+
+The focused UI element is 1 AXWebArea Design systems, Design.md and components / HappyHands, URL: 127.0.0.1:4250/components/?provider=systems

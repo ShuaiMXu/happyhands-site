@@ -57,7 +57,7 @@ export function SystemLibrary({ lang }: { lang: string }) {
   const name = systems.find((system) => system.id === selected)?.name || "";
   const base = `/systems/${selected}/`;
   return (
-    <>
+    <main id="catalog-main" className="system-library-full" tabIndex={-1}>
       {!selected && (
         <nav
           className="provider-navigation system-cover-navigation"
@@ -94,7 +94,6 @@ export function SystemLibrary({ lang }: { lang: string }) {
           ))}
         </nav>
       )}
-      <main id="catalog-main" className="system-library-full">
         {selected && (
           <>
             <div className="system-detail-toolbar">
@@ -146,7 +145,6 @@ export function SystemLibrary({ lang }: { lang: string }) {
             </div>
           </>
         )}
-      </main>
-    </>
+    </main>
   );
 }

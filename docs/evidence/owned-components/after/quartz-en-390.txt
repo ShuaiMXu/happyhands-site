@@ -1,0 +1,314 @@
+Browser tab: 32, Title: "Quartz design system reference / AI workflows / HappyHands", URL: "http://127.0.0.1:4250/systems/quartz/".
+1 AXWebArea Quartz design system reference / AI workflows / HappyHands, URL: 127.0.0.1:4250/systems/quartz/
+	2 container root
+		3 container
+			4 link Description: HappyHands, Value: 127.0.0.1:4250/apps/portal/
+			5 button (collapsed) Description: Menu, Secondary Actions: Expand
+			6 button Switch to dark mode
+			7 button 中文
+		8 container
+			9 container Breadcrumb
+				10 link Description: Home, Value: 127.0.0.1:4250/apps/portal/
+				11 link Description: Design systems, Value: 127.0.0.1:4250/components/?provider=systems
+				12 text Quartz
+			13 container overview
+				14 text External design system / design.how
+				15 heading Quartz, Value: 1
+					16 text Quartz
+				17 text For AI products and agent workflows. Explore its component catalog, screen blocks and setup guidance to see whether it fits your project.
+				18 link Description: Try the example, Value: 127.0.0.1:4250/systems/quartz/#example
+				19 link Description: View setup options, Value: 127.0.0.1:4250/systems/quartz/#adopt
+				20 container System overview
+					21 definition list
+						22 container Best for
+							23 text Best for
+						24 text Agent sessions, tool approvals and run traces
+						25 container Stack
+							26 text Stack
+						27 text React / Tailwind CSS / shadcn
+						28 container In this catalog
+							29 text In this catalog
+						30 text Principles, component catalog and setup prompts
+					31 text Curated by HappyHands. The catalog describes the system; Quartz interactive components are not installed on this site.
+			32 button (collapsed) On this page, Secondary Actions: Expand
+				33 text On this page
+			34 container scenes
+				35 heading Application examples, Value: 2
+					36 text Application examples
+				37 text Switch scenes and appearance. Try selection, confirmation and form feedback.
+				38 container Scene appearance
+					39 checkbox Light, Value: 1
+					40 checkbox Dark, Value: 0
+				41 container Choose a scene
+					42 checkbox 01 Tool approval, Value: 1
+						43 text 0
+						44 text 1
+						45 text Tool approval
+					46 checkbox 02 Run trace, Value: 0
+						47 text 0
+						48 text 2
+						49 text Run trace
+					50 checkbox 03 Notification settings, Value: 0
+						51 text 0
+						52 text 3
+						53 text Notification settings
+				54 container
+					55 text Quartz Interactive scene / Sample data
+				56 text Interactive example
+				57 button Switch example appearance
+				58 heading Review this file change, Value: 2
+					59 text Review this file change
+				60 text Check the files before allowing the action.
+				61 container Affected files
+					62 text Affected files
+					63 container
+						64 checkbox (settable, integer) Description: src/pages/home.tsx Pending, Value: 1
+						65 text src/pages/home.tsx Pending
+					66 container
+						67 checkbox (settable, integer) Description: src/pages/settings.tsx Pending, Value: 0
+						68 text src/pages/settings.tsx Pending
+				69 button Allow this action
+				70 text 1 selected
+				71 text Sample content. No project is read or changed.
+				72 text Scenes implemented by HappyHands to illustrate layout and behavior. No project connection; these do not replace upstream component installation.
+			73 container foundations
+				74 heading Color & typography specimens, Value: 3
+					75 text Color & typography specimens
+				76 container Token appearance
+					77 checkbox Light, Value: 1
+					78 checkbox Dark, Value: 0
+				79 text paper-c
+				80 text 99.7% 0.001 250
+				81 text grey-c
+				82 text 95.6% 0.004 255
+				83 text ink-c
+				84 text 20% 0.024 262
+				85 text hue-1-field
+				86 text oklch(92% 0.090 195)
+				87 text hue-3-field
+				88 text oklch(82% 0.060 250)
+				89 text hue-5-field
+				90 text oklch(90% 0.070 160)
+				91 text Aa / 字
+				92 text Headings guide. Body text informs.
+				93 text System font fallback; licensed upstream fonts are not distributed.
+				94 heading Scale & shape, Value: 4
+					95 text Scale & shape
+				96 text Body 14 / 20 / Panel title 24 / 28
+				97 text Browse spacing, radius and motion parameters below.
+				98 button (collapsed) Browse design tokens / 186, Secondary Actions: Expand
+					99 text Browse design tokens
+					100 text  /
+					101 text 186
+				102 container
+					103 text Extracted from the public theme file; expressions retained as written. Checked:  2026-10-23  /
+					104 link Description: View source, Value: design.how/r/quartz/theme.json
+				105 heading Rules for colors, states and components, Value: 2
+					106 text Rules for colors, states and components
+				107 container
+					108 heading Neutral structure, Value: 3
+						109 text Neutral structure
+					110 text A neutral structure carries content, kinds are named in words, and warm colors are reserved for warnings and failures.
+				111 container
+					112 heading Role-based tokens, Value: 3
+						113 text Role-based tokens
+					114 text Components use role tokens rather than ad hoc colors, sizes and shadows.
+				115 container
+					116 heading Components first, Value: 3
+						117 text Components first
+					118 text Compose screens from existing components while preserving keyboard, focus, loading and error behavior.
+			119 container example
+				120 text See it in use
+				121 heading File change approval, Value: 2
+					122 text File change approval
+				123 text A file list and primary action define the scope. Switch appearance and select files to preview selection and confirmation states.
+				124 text An interactive example authored by HappyHands, using Quartz palette and corner values with system fonts. It is not an upstream component demo and cannot access your files.
+				125 link Description: Palette source, Value: design.how/r/quartz/theme.json
+				126 text Interactive example
+				127 button Switch example appearance
+				128 heading Review this file change, Value: 2
+					129 text Review this file change
+				130 text Check the files before allowing the action.
+				131 container Affected files
+					132 text Affected files
+					133 container
+						134 checkbox (settable, integer) Description: src/pages/home.tsx Pending, Value: 1
+						135 text src/pages/home.tsx Pending
+					136 container
+						137 checkbox (settable, integer) Description: src/pages/settings.tsx Pending, Value: 0
+						138 text src/pages/settings.tsx Pending
+				139 button Allow this action
+				140 text 1 selected
+				141 text Sample content. No project is read or changed.
+			142 container components
+				143 heading Browse the complete catalog, Value: 2
+					144 text Browse the complete catalog
+				145 text Search all registered entries, or browse actions, navigation, feedback and workflow categories. Open an entry here for its purpose and setup. Refer to upstream for component APIs.
+				146 container
+					147 text Find a component or screen
+					148 search text field (settable) Find a component or screen
+				149 container
+					150 text Category
+					151 pop up button (collapsed, settable) Category, Value: All / 83, Secondary Actions: Expand
+						152 menu
+							153 (selected) All / 83
+							154 Actions & inputs / 14
+							155 Feedback & overlays / 12
+							156 Navigation / 6
+							157 Content & data / 20
+							158 AI workflows / 9
+							159 Screen blocks / 7
+							160 Setup & utilities / 15
+				161 text 12 of 83 matches / 83 entries total
+				162 container
+					163 text Actions & inputs
+					164 heading Button, Value: 3
+						165 text Button
+					166 text button Trigger an action and keep its name visible while pending.
+					167 button (collapsed) Setup details, Secondary Actions: Expand
+						168 text Setup details
+				169 container
+					170 text Actions & inputs
+					171 heading Button group, Value: 3
+						172 text Button group
+					173 text button-group Keep related actions together.
+					174 button (collapsed) Setup details, Secondary Actions: Expand
+						175 text Setup details
+				176 container
+					177 text Actions & inputs
+					178 heading Copy button, Value: 3
+						179 text Copy button
+					180 text copy-button Copy a value with confirmation beside it.
+					181 button (collapsed) Setup details, Secondary Actions: Expand
+						182 text Setup details
+				183 container
+					184 text Actions & inputs
+					185 heading Input, Value: 3
+						186 text Input
+					187 text input Enter text, search terms, numbers or secrets.
+					188 button (collapsed) Setup details, Secondary Actions: Expand
+						189 text Setup details
+				190 container
+					191 text Actions & inputs
+					192 heading Textarea, Value: 3
+						193 text Textarea
+					194 text textarea Write a longer response.
+					195 button (collapsed) Setup details, Secondary Actions: Expand
+						196 text Setup details
+				197 container
+					198 text Actions & inputs
+					199 heading Field, Value: 3
+						200 text Field
+					201 text field Keep labels, help and validation with the control.
+					202 button (collapsed) Setup details, Secondary Actions: Expand
+						203 text Setup details
+				204 container
+					205 text Actions & inputs
+					206 heading Date picker, Value: 3
+						207 text Date picker
+					208 text date-picker Choose a date, range or time.
+					209 button (collapsed) Setup details, Secondary Actions: Expand
+						210 text Setup details
+				211 container
+					212 text Actions & inputs
+					213 heading Combobox, Value: 3
+						214 text Combobox
+					215 text combobox Search a choice list before selecting.
+					216 button (collapsed) Setup details, Secondary Actions: Expand
+						217 text Setup details
+				218 container
+					219 text Actions & inputs
+					220 heading Checkbox, Value: 3
+						221 text Checkbox
+					222 text checkbox Select independent options.
+					223 button (collapsed) Setup details, Secondary Actions: Expand
+						224 text Setup details
+				225 container
+					226 text Actions & inputs
+					227 heading Radio group, Value: 3
+						228 text Radio group
+					229 text radio-group Choose one of the visible options.
+					230 button (collapsed) Setup details, Secondary Actions: Expand
+						231 text Setup details
+				232 container
+					233 text Actions & inputs
+					234 heading Switch, Value: 3
+						235 text Switch
+					236 text switch Change an immediately applied setting.
+					237 button (collapsed) Setup details, Secondary Actions: Expand
+						238 text Setup details
+				239 container
+					240 text Actions & inputs
+					241 heading Slider, Value: 3
+						242 text Slider
+					243 text slider Adjust a number along a track.
+					244 button (collapsed) Setup details, Secondary Actions: Expand
+						245 text Setup details
+				246 button Show more
+				247 button Show all matches
+				248 container
+					249 text Catalog checked 2026-10-21. Curated by HappyHands from design.how; upstream may have changed.
+					250 link Description: Upstream registry, Value: design.how/r/quartz/registry.json
+			251 container patterns
+				252 heading Choose a screen for your task, Value: 2
+					253 text Choose a screen for your task
+				254 container
+					255 heading Workspace home, Value: 3
+						256 text Workspace home
+					257 text Project overview and pending work
+				258 container
+					259 heading Agent session, Value: 3
+						260 text Agent session
+					261 text Input, responses and tool calls
+				262 container
+					263 heading Tool approval, Value: 3
+						264 text Tool approval
+					265 text Inspect scope and make a decision
+				266 container
+					267 heading Run trace, Value: 3
+						268 text Run trace
+					269 text Inspect execution and results
+				270 container
+					271 heading Live activity, Value: 3
+						272 text Live activity
+					273 text Browse ongoing events
+				274 container
+					275 heading API keys, Value: 3
+						276 text API keys
+					277 text Create, inspect and revoke keys
+				278 container
+					279 heading Prompt release, Value: 3
+						280 text Prompt release
+					281 text Release checks and rollback
+			282 container adopt
+				283 heading Bring it to your project, Value: 2
+					284 text Bring it to your project
+				285 text Requires React, Tailwind and compatible shadcn configuration. Check the stack and existing brand before migrating screen by screen. Copying does not install or execute anything.
+				286 container
+					287 text Setup mode
+					288 pop up button (collapsed, settable) Setup mode, Value: Existing project, Secondary Actions: Expand
+						289 menu
+							290 (selected) Existing project
+							291 New project
+				292 text entry area Description: Setup prompt, Value: Migrate one screen in this project to Quartz. Inspect existing design rules, the stack, components and workflows first, then define the migration scope. Preserve approved branding, copy, business behavior and data.
+
+1. Read https://design.how/r/quartz/skill.json and https://design.how/r/quartz/registry.json. Check React, Tailwind, aliases and shadcn compatibility; a missing components.json alone is not a reason to reset the project.
+2. Once compatible, use the project package manager to initialize required configuration and add https://design.how/r/quartz/theme.json. Record dependency versions and the lockfile. Import styles and configure the quartz scope and QuartzPortalProvider as documented, without affecting other apps or reviewed pages.
+3. Read https://design.how/systems/quartz/components/<name>.md before adding https://design.how/r/quartz/<name>.json. Consider project-home, agent-session, tool-approval or run-trace blocks. Replace demo data with real data; do not invent metrics.
+4. Read and review migrate-design-system and ui-review from arla6ka/skills, recording the adopted revision. Apply Quartz only to the agreed UI scope. Migrate screen by screen and remove old styles only when unused.
+5. Configure lint and its dependencies from https://design.how/r/quartz/lint.json for migrated files. Check the build, Chinese and English, 390/768/1280px layouts, keyboard focus, loading/empty/error states and existing workflows. Lint does not replace browser review.
+6. Deliver changes, before/after screenshots, versions and sources, verification results and remaining limits. Do not deploy automatically or claim unverified design-system alignment.
+				293 button Copy setup prompt
+				294 link Description: Local workbench guide, Value: github.com/ShuaiMXu/creative-os/blob/main/docs/local-workbench.md
+			295 text Our design system
+			296 heading HappyHands, Value: 2
+				297 text HappyHands
+			298 text Explore the rules and components used by this website.
+			299 link Description: Explore HappyHands, Value: 127.0.0.1:4250/systems/happyhands/
+			300 container
+				301 link Description: All design systems, Value: 127.0.0.1:4250/components/?provider=systems
+				302 link Description: Explore Lime, Value: 127.0.0.1:4250/systems/lime/
+			303 button (collapsed) Sources, versions & licensing, Secondary Actions: Expand
+				304 text Sources, versions & licensing
+
+The focused UI element is 1 AXWebArea Quartz design system reference / AI workflows / HappyHands, URL: 127.0.0.1:4250/systems/quartz/

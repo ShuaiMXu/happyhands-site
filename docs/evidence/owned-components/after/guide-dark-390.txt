@@ -1,0 +1,118 @@
+Browser tab: 31, Title: "HappyHands 使用指南 / AI 界面审阅、设计系统与本地安装", URL: "http://127.0.0.1:4250/guide/".
+1 AXWebArea HappyHands 使用指南 / AI 界面审阅、设计系统与本地安装, URL: 127.0.0.1:4250/guide/
+	2 container guide-content
+		3 link Description: 跳到内容, Value: 127.0.0.1:4250/guide/#main
+		4 container
+			5 link Description: HappyHands, Value: 127.0.0.1:4250/apps/portal/
+			113 button (collapsed) Description: 菜单, Secondary Actions: Expand
+			7 button Description: 切换主题, ID: theme-toggle
+			8 link Description: English, Value: 127.0.0.1:4250/en/guide/
+		9 container main
+			10 heading HappyHands 使用指南, Value: 1
+				11 text HappyHands 使用指南
+			12 text 面向 AI 编程项目的本地设计审阅工作台。从页面问题出发，确定修改范围，再核对实际效果。
+			13 link Description: 本地安装, Value: 127.0.0.1:4250/guide/#setup
+			14 link Description: GitHub, Value: github.com/ShuaiMXu/happyhands
+			15 link Description: Harness 文档, Value: github.com/ShuaiMXu/happyhands/blob/main/docs/harness.md
+			16 container 本页内容
+				17 link Description: 从发现问题到复核结果, Value: 127.0.0.1:4250/guide/#workflow
+				18 link Description: 选择设计系统与组件, Value: 127.0.0.1:4250/guide/#design
+				19 link Description: 自定义主题并导出, Value: 127.0.0.1:4250/guide/#themes
+				20 link Description: 在本地启动, Value: 127.0.0.1:4250/guide/#setup
+				21 link Description: 配合已有编码工具, Value: 127.0.0.1:4250/guide/#agents
+				22 link Description: 数据、许可与 Alpha 范围, Value: 127.0.0.1:4250/guide/#scope
+				23 link Description: 常见问题, Value: 127.0.0.1:4250/guide/#faq
+			24 container workflow
+				25 heading 从发现问题到复核结果, Value: 2
+					26 text 从发现问题到复核结果
+				27 text 采集确认范围内的页面、设备和交互状态；结合截图、源码和项目设计规则检查问题。选定问题并确认计划后，由编码 Agent 在隔离的 Git 工作副本中修改，再复采对照、执行适用检查并独立复核。最终由你接受或拒绝。
+			28 container design
+				29 heading 选择设计系统与组件, Value: 2
+					30 text 选择设计系统与组件
+				31 text 设计资源页提供 HappyHands、Quartz、Lime 系统入口，以及组件和设计参考。先核对项目已有规范、上游许可与技术兼容性，再决定采用范围。外部示例和参考不等于已安装到你的项目。
+				32 content list
+					33 container
+						34 AXListMarker • 
+						35 link Description: HappyHands, Value: 127.0.0.1:4250/systems/happyhands/
+						36 text  / 品牌规范与产品组件
+					37 container
+						38 AXListMarker • 
+						39 link Description: Quartz, Value: 127.0.0.1:4250/systems/quartz/
+						40 text  / AI 工作流与专业工具 / 
+						41 link Description: 上游来源, Value: design.how/systems/quartz
+					42 container
+						43 AXListMarker • 
+						44 link Description: Lime, Value: 127.0.0.1:4250/systems/lime/
+						45 text  / 个人助手与消费应用 / 
+						46 link Description: 上游来源, Value: design.how/systems/lime
+					47 container
+						48 AXListMarker • 
+						49 link Description: 组件预览与设计参考, Value: 127.0.0.1:4250/components/
+			50 container themes
+				51 heading 自定义主题并导出, Value: 2
+					52 text 自定义主题并导出
+				53 text 在主题工作室选择预设后即可预览，调整颜色、字体、圆角等变量，查看浅色与深色示例。可导出 CSS、Tailwind、registry 或兼容 Harness 的设计基础审批文件；浏览器草稿不会自动写入仓库。
+				54 link Description: 打开主题工作室 , Value: 127.0.0.1:4250/apps/studio/
+			55 container setup
+				56 heading 在本地启动, Value: 2
+					57 text 在本地启动
+				58 text 准备 Git、Node.js 22.15+、pnpm 11.19.0 和 Chrome 或 Edge。模型诊断与截图复核需要已配置并登录的 Codex CLI。以下命令在本机终端执行，打开工作台后再连接你有权审阅的项目。
+				59 text git clone https://github.com/ShuaiMXu/happyhands.git
+cd happyhands
+pnpm install --frozen-lockfile
+pnpm workbench
+				60 container
+					61 text 打开 
+					62 link Description: http://127.0.0.1:4190/apps/designer/, Value: 127.0.0.1:4190/apps/designer/
+					63 text 。提供本地仓库、可运行预览、核心任务和设计规范来源；采集前确认页面、设备和状态。
+			64 container agents
+				65 heading 配合已有编码工具, Value: 2
+					66 text 配合已有编码工具
+				67 text Codex CLI 支持诊断、截图复核和代码执行；Claude Code 提供执行适配器，完整端到端验证仍在进行。Cursor、Kimi Code、WorkBuddy 可在具备本地浏览器、终端及仓库访问能力时按 Harness 流程操作，没有各自的专用执行适配器。
+			68 container scope
+				69 heading 数据、许可与 Alpha 范围, Value: 2
+					70 text 数据、许可与 Alpha 范围
+				71 text 运行记录在本地 .harness/；模型辅助步骤会把选定源码上下文和截图发送给配置的模型服务。自有核心代码采用 MIT，第三方资源保留各自许可；模型服务费用另计。当前为 Local Web Alpha，未检查的页面与交互仍属未审阅范围。
+				72 container
+					73 link Description: MIT, Value: github.com/ShuaiMXu/happyhands/blob/main/LICENSE
+					74 text  / 
+					75 link Description: 第三方许可声明, Value: github.com/ShuaiMXu/happyhands/blob/main/THIRD_PARTY_NOTICES.md
+					76 text  / 
+					77 link Description: 数据与执行说明, Value: github.com/ShuaiMXu/happyhands/blob/main/docs/local-workbench.md
+			78 container faq
+				79 heading 常见问题, Value: 2
+					80 text 常见问题
+				81 container
+					82 heading HappyHands 是什么？, Value: 3
+						83 text HappyHands 是什么？
+					84 text HappyHands 是面向 AI 编程项目的本地设计审阅工作台。它把页面截图、项目设计来源、问题、修改计划和复核记录放在同一流程中，最终由人决定接受或拒绝修改。
+				85 container
+					86 heading 官网可以直接输入网址并自动改代码吗？, Value: 3
+						87 text 官网可以直接输入网址并自动改代码吗？
+					88 text 官网提供接入提示词、设计资源和主题工作室。本地工作台与 Harness 执行审阅流程；提供网址后，编码工具仍需核对预览和采集条件。代码修改需要可访问的本地仓库、确认的范围与执行适配器。
+				89 container
+					90 heading 支持哪些编码工具？, Value: 3
+						91 text 支持哪些编码工具？
+					92 text Codex CLI 可用于模型诊断、截图复核与代码执行。Claude Code 有代码执行适配器，完整端到端验证仍在进行。Cursor、Kimi Code、WorkBuddy 在具备本地浏览器、终端及仓库访问能力时可操作 Harness，目前没有各自的专用执行适配器。
+				93 container
+					94 heading 如何使用现有设计规范？, Value: 3
+						95 text 如何使用现有设计规范？
+					96 text 提供项目自己的 DESIGN.md、样式 token 和组件源码。提取到的设计规则先作为待确认候选，不能自动成为已批准规范。主题工作室可导出兼容 Harness 的设计基础审批文件。
+				97 container
+					98 heading 源码是否开源？使用是否产生费用？, Value: 3
+						99 text 源码是否开源？使用是否产生费用？
+					100 text 自有 HappyHands 核心源码采用 MIT 许可。第三方代码、素材与依赖保留各自许可，tldraw 的生产使用有独立要求。你配置的模型服务可能另行计费。
+				101 container
+					102 heading 数据会发送到哪里？, Value: 3
+						103 text 数据会发送到哪里？
+					104 text 运行记录保存在本地 .harness/。模型辅助步骤通过配置的 CLI 将选中的源码上下文和截图发送给模型服务，并非所有计算都在本机完成。分享导出记录前应检查敏感信息。
+				105 container
+					106 heading 当前版本有哪些边界？, Value: 3
+						107 text 当前版本有哪些边界？
+					108 text 当前为 Local Web Alpha。审阅范围由采集计划和已完成检查决定；没有查看的页面和没有测试的交互不属于已通过范围。模型复核不能替代人工验收。
+		109 container
+			110 link Description: HappyHands, Value: 127.0.0.1:4250/apps/portal/
+			111 link Description: 核心源码, Value: github.com/ShuaiMXu/happyhands
+			112 link Description: 产品信息摘要, Value: 127.0.0.1:4250/llms.txt
+
+The focused UI element is 7 button Description: 切换主题, ID: theme-toggle

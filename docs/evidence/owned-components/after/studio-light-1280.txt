@@ -1,0 +1,340 @@
+Browser tab: 31, Title: "主题工作室 / 配色、字体与设计变量 / HappyHands", URL: "http://127.0.0.1:4250/apps/studio/".
+1 AXWebArea 主题工作室 / 配色、字体与设计变量 / HappyHands, URL: 127.0.0.1:4250/apps/studio/
+	2 container root
+		3 container
+			4 link Description: HappyHands, Value: 127.0.0.1:4250/apps/portal/
+			346 container Description: 主要导航, ID: site-navigation
+				347 link Description: 产品能力, Value: 127.0.0.1:4250/apps/portal/#apps
+				348 link Description: 设计系统, Value: 127.0.0.1:4250/components/?provider=systems
+				349 link Description: 主题工作室, Value: 127.0.0.1:4250/apps/studio/
+				350 link Description: 开始使用, Value: 127.0.0.1:4250/apps/portal/#connect-agent
+			6 button 切换到深色模式
+			7 button English
+		8 container
+			9 heading 项目设计系统, Value: 1
+				10 text 项目设计系统
+			351 text 选择颜色和字体，预览效果，再导出到你的项目。
+			11 pop up button (collapsed, settable) Description: 选择项目, Value: my-product, Secondary Actions: Expand
+				12 menu
+					13 (selected) my-product
+			14 button (collapsed) Description: 新建项目, Secondary Actions: Expand
+			15 button (disabled) 撤销
+			16 button (disabled) 重做
+			17 button 导出
+			343 container
+				344 button (collapsed) 更多操作, Secondary Actions: Expand
+					345 text 更多操作
+			20 text 已保存在此浏览器 / 修订 5
+			352 button (collapsed) 面板宽度, Secondary Actions: Expand
+				353 text 面板宽度
+			354 container
+				355 text 项目名称
+				356 text field (settable) 项目名称, Value: 我的产品
+			357 container
+				358 text 起始预设
+				359 pop up button (collapsed, settable) Description: 主题预设, Value: HappyHands, Secondary Actions: Expand
+					360 menu
+						361 Neutral / tweakcn
+						362 (selected) HappyHands
+						363 Modern Minimal
+						364 Violet Bloom
+						365 T3 Chat
+						366 Twitter
+						367 Mocha Mousse
+						368 Bubblegum
+						369 Amethyst Haze
+						370 Notebook
+						371 Doom 64
+						372 Catppuccin
+						373 Graphite
+						374 Perpetuity
+						375 Kodama Grove
+						376 Cosmic Night
+						377 Tangerine
+						378 Quantum Rose
+						379 Nature
+						380 Bold Tech
+						381 Elegant Luxury
+						382 Amber Minimal
+						383 Supabase
+						384 Neo Brutalism
+						385 Solar Dusk
+						386 Claymorphism
+						387 Cyberpunk
+						388 Pastel Dreams
+						389 Clean Slate
+						390 Caffeine
+						391 Ocean Breeze
+						392 Retro Arcade
+						393 Midnight Bloom
+						394 Candyland
+						395 Northern Lights
+						396 Vintage Paper
+						397 Sunset Horizon
+						398 Starry Night
+						399 Claude
+						400 Vercel
+						401 Darkmatter
+						402 Mono
+						403 Soft Pop
+						404 Sage Garden
+			405 text 选择后立即预览浅色与深色主题，可随时撤销。
+			406 checkbox 浅色, Value: 1
+			407 checkbox 深色, Value: 0
+			408 checkbox 颜色, Value: 1
+			409 checkbox 字体, Value: 0
+			410 checkbox 细节, Value: 0
+			411 text field (settable) 搜索设计变量
+			412 container
+				413 heading 界面颜色, Value: 3
+					414 text 界面颜色
+				415 container token-background
+					416 text 页面背景
+					417 text background
+					418 color well (settable) Description: background picker, Value: #fcfcfc
+					419 text field (settable) Description: background, Value: #fcfcfc
+				420 container token-foreground
+					421 text 主要文字
+					422 text foreground
+					423 color well (settable) Description: foreground picker, Value: #202020
+					424 text field (settable) Description: foreground, Value: #202020
+				425 container token-card
+					426 text 卡片背景
+					427 text card
+					428 color well (settable) Description: card picker, Value: #f9f9f9
+					429 text field (settable) Description: card, Value: #f9f9f9
+				430 container token-card-foreground
+					431 text 卡片文字
+					432 text card-foreground
+					433 color well (settable) Description: card-foreground picker, Value: #202020
+					434 text field (settable) Description: card-foreground, Value: #202020
+				435 container token-popover
+					436 text 浮层背景
+					437 text popover
+					438 color well (settable) Description: popover picker, Value: #f9f9f9
+					439 text field (settable) Description: popover, Value: #f9f9f9
+				440 container token-popover-foreground
+					441 text 浮层文字
+					442 text popover-foreground
+					443 color well (settable) Description: popover-foreground picker, Value: #202020
+					444 text field (settable) Description: popover-foreground, Value: #202020
+				445 container token-primary
+					446 text 主要操作
+					447 text primary
+					448 color well (settable) Description: primary picker, Value: #202020
+					449 text field (settable) Description: primary, Value: #202020
+				450 container token-primary-foreground
+					451 text 操作文字
+					452 text primary-foreground
+					453 color well (settable) Description: primary-foreground picker, Value: #fcfcfc
+					454 text field (settable) Description: primary-foreground, Value: #fcfcfc
+				455 container token-secondary
+					456 text 次要操作
+					457 text secondary
+					458 color well (settable) Description: secondary picker, Value: #f0f0f0
+					459 text field (settable) Description: secondary, Value: #f0f0f0
+				460 container token-secondary-foreground
+					461 text 次要文字
+					462 text secondary-foreground
+					463 color well (settable) Description: secondary-foreground picker, Value: #202020
+					464 text field (settable) Description: secondary-foreground, Value: #202020
+				465 container token-muted
+					466 text 柔和背景
+					467 text muted
+					468 color well (settable) Description: muted picker, Value: #f0f0f0
+					469 text field (settable) Description: muted, Value: #f0f0f0
+				470 container token-muted-foreground
+					471 text 辅助文字
+					472 text muted-foreground
+					473 color well (settable) Description: muted-foreground picker, Value: #646464
+					474 text field (settable) Description: muted-foreground, Value: #646464
+				475 container token-accent
+					476 text 强调背景
+					477 text accent
+					478 color well (settable) Description: accent picker, Value: #ffefd6
+					479 text field (settable) Description: accent, Value: #ffefd6
+				480 container token-accent-foreground
+					481 text 强调文字
+					482 text accent-foreground
+					483 color well (settable) Description: accent-foreground picker, Value: #cc4e00
+					484 text field (settable) Description: accent-foreground, Value: #cc4e00
+				485 container token-destructive
+					486 text 危险操作
+					487 text destructive
+					488 color well (settable) Description: destructive picker, Value: #ce2c31
+					489 text field (settable) Description: destructive, Value: #ce2c31
+				490 container token-destructive-foreground
+					491 text 危险文字
+					492 text destructive-foreground
+					493 color well (settable) Description: destructive-foreground picker, Value: #fcfcfc
+					494 text field (settable) Description: destructive-foreground, Value: #fcfcfc
+				495 container token-border
+					496 text 边框
+					497 text border
+					498 color well (settable) Description: border picker, Value: #d9d9d9
+					499 text field (settable) Description: border, Value: #d9d9d9
+				500 container token-input
+					501 text 输入边框
+					502 text input
+					503 color well (settable) Description: input picker, Value: #bbbbbb
+					504 text field (settable) Description: input, Value: #bbbbbb
+				505 container token-ring
+					506 text 焦点环
+					507 text ring
+					508 color well (settable) Description: ring picker, Value: #5eb1ef
+					509 text field (settable) Description: ring, Value: #5eb1ef
+				510 container token-chart-1
+					511 text chart-1
+					512 color well (settable) Description: chart-1 picker, Value: #202020
+					513 text field (settable) Description: chart-1, Value: #202020
+				514 container token-chart-2
+					515 text chart-2
+					516 color well (settable) Description: chart-2 picker, Value: #646464
+					517 text field (settable) Description: chart-2, Value: #646464
+				518 container token-chart-3
+					519 text chart-3
+					520 color well (settable) Description: chart-3 picker, Value: #bbbbbb
+					521 text field (settable) Description: chart-3, Value: #bbbbbb
+				522 container token-chart-4
+					523 text chart-4
+					524 color well (settable) Description: chart-4 picker, Value: #f76b15
+					525 text field (settable) Description: chart-4, Value: #f76b15
+				526 container token-chart-5
+					527 text chart-5
+					528 color well (settable) Description: chart-5 picker, Value: #30a46c
+					529 text field (settable) Description: chart-5, Value: #30a46c
+				530 container token-sidebar
+					531 text sidebar
+					532 color well (settable) Description: sidebar picker, Value: #fcfcfc
+					533 text field (settable) Description: sidebar, Value: #fcfcfc
+				534 container token-sidebar-foreground
+					535 text sidebar-foreground
+					536 color well (settable) Description: sidebar-foreground picker, Value: #202020
+					537 text field (settable) Description: sidebar-foreground, Value: #202020
+				538 container token-sidebar-primary
+					539 text sidebar-primary
+					540 color well (settable) Description: sidebar-primary picker, Value: #202020
+					541 text field (settable) Description: sidebar-primary, Value: #202020
+				542 container token-sidebar-primary-foreground
+					543 text sidebar-primary-foreground
+					544 color well (settable) Description: sidebar-primary-foreground picker, Value: #fcfcfc
+					545 text field (settable) Description: sidebar-primary-foreground, Value: #fcfcfc
+				546 container token-sidebar-accent
+					547 text sidebar-accent
+					548 color well (settable) Description: sidebar-accent picker, Value: #e8e8e8
+					549 text field (settable) Description: sidebar-accent, Value: #e8e8e8
+				550 container token-sidebar-accent-foreground
+					551 text sidebar-accent-foreground
+					552 color well (settable) Description: sidebar-accent-foreground picker, Value: #202020
+					553 text field (settable) Description: sidebar-accent-foreground, Value: #202020
+				554 container token-sidebar-border
+					555 text sidebar-border
+					556 color well (settable) Description: sidebar-border picker, Value: #d9d9d9
+					557 text field (settable) Description: sidebar-border, Value: #d9d9d9
+				558 container token-sidebar-ring
+					559 text sidebar-ring
+					560 color well (settable) Description: sidebar-ring picker, Value: #5eb1ef
+					561 text field (settable) Description: sidebar-ring, Value: #5eb1ef
+				562 container token-shadow-color
+					563 text 阴影颜色
+					564 text shadow-color
+					565 color well (settable) Description: shadow-color picker, Value: #000000
+					566 text field (settable) Description: shadow-color, Value: oklch(0 0 0)
+			567 container
+				568 heading 整体色彩调整, Value: 3
+					569 text 整体色彩调整
+				570 text 色相偏移 0 °
+				571 slider (settable, integer) Description: 色相偏移, Value: 0
+				572 text 饱和度 × 1
+				573 slider (settable, integer) 饱和度 × 1, Value: 1
+				574 text 明度 × 1
+				575 slider (settable, integer) 明度 × 1, Value: 1
+				576 button 应用到当前模式
+			23 pop up button (collapsed, settable) Description: 预览场景, Value: 组件, Secondary Actions: Expand
+				24 menu
+					25 (selected) 组件
+					26 仪表盘
+					27 营销页
+					28 邮件
+					29 排版
+					30 组件状态
+					31 连接页面
+			32 checkbox 前后对比, Value: 0
+			577 button (collapsed) 预览设置, Secondary Actions: Expand
+				578 text 预览设置
+			579 container
+				580 text 主题预览 / 以下为示例内容，不代表项目数据 我的产品 工作空间  /  组件 我
+				581 heading 主题应用预览, Value: 2
+					582 text 主题应用预览
+				583 text 试试按钮和输入框，检查文字、边框与操作反馈。
+				584 heading 文字与操作, Value: 3
+					585 text 文字与操作
+				586 text 正文要容易阅读，辅助说明也应清楚。
+				587 button 保存示例
+				588 button 重置示例
+				589 button (disabled) 不可用
+				590 text 点击保存，查看操作反馈。
+				591 heading 输入与选择, Value: 3
+					592 text 输入与选择
+				593 container
+					594 text 示例名称
+					595 text field (settable) 示例名称
+				596 container
+					597 text 优先级
+					598 pop up button (collapsed, settable) 优先级, Value: 常规, Secondary Actions: Expand
+						599 menu
+							600 (selected) 常规
+							601 高优先级
+				602 checkbox (settable, integer) Description: 完成后通知我, Value: 0
+				603 heading 列表与标签, Value: 3
+					604 text 列表与标签
+				605 container
+					606 text 搜索示例页面
+					607 text field (settable) 搜索示例页面
+				608 table 示例页面
+					609 text 示例页面
+					610 row
+						611 cell
+							612 text 页面
+						613 cell
+							614 text 状态
+					615 row
+						616 cell
+							617 text 产品首页
+						618 cell
+							619 text 已完成
+					620 row
+						621 cell
+							622 text 账户设置
+						623 cell
+							624 text 进行中
+					625 row
+						626 cell
+							627 text 帮助中心
+						628 cell
+							629 text 待处理
+				630 heading 开关与进度, Value: 3
+					631 text 开关与进度
+				632 container
+					633 text 接收更新通知
+					634 switch Description: 接收更新通知, Value: 1
+				635 container
+					636 text 完成进度  /  64 %
+					637 slider (settable, integer) 完成进度 / 64%, Value: 64
+				638 progress indicator Description: 完成进度, Value: 64
+				639 text 通知已开启
+				640 heading 提示与反馈, Value: 3
+					641 text 提示与反馈
+				642 text 草稿已保存
+				643 text 可以继续编辑，确认后再导出。
+				644 text 示例连接失败
+				645 text 请检查地址后重试。
+				646 heading 弹窗与确认, Value: 3
+					647 text 弹窗与确认
+				648 text 打开弹窗，检查浮层、背景遮罩与键盘操作。
+				649 button 打开示例弹窗
+				650 text 此处操作不会修改项目。
+			107 text 浅色  /  组件 / 样式仅作用于预览
+			108 link Description: 主题工具基于 tweakcn, Value: github.com/jnsahaj/tweakcn/tree/a3b47b37cba97dd637de517aab52c45ec0f83456
+
+The focused UI element is 6 button 切换到深色模式

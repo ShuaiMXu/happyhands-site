@@ -1,0 +1,130 @@
+[
+  {
+    "route": "/components/?provider=design-md",
+    "file": "archive-en-1280",
+    "lang": "en",
+    "scrollWidth": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "route": "/components/?provider=cult-ui",
+    "file": "catalog-en-1280",
+    "lang": "en",
+    "scrollWidth": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "route": "/components/?provider=systems",
+    "file": "resources-en-1280",
+    "lang": "en",
+    "scrollWidth": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "route": "/systems/happyhands/",
+    "file": "happyhands-en-1280",
+    "lang": "en",
+    "scrollWidth": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "route": "/systems/quartz/",
+    "file": "quartz-en-1280",
+    "lang": "en",
+    "scrollWidth": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "route": "/systems/lime/",
+    "file": "lime-en-1280",
+    "lang": "en",
+    "scrollWidth": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "route": "/apps/studio/",
+    "file": "studio-en-1280",
+    "lang": "en",
+    "scrollWidth": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "route": "/en/guide/",
+    "file": "guide-en-1280",
+    "lang": "en",
+    "scrollWidth": 1280,
+    "theme": "light",
+    "width": 1280
+  },
+  {
+    "route": "/components/?provider=design-md",
+    "file": "archive-en-390",
+    "lang": "en",
+    "scrollWidth": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "route": "/components/?provider=cult-ui",
+    "file": "catalog-en-390",
+    "lang": "en",
+    "scrollWidth": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "route": "/components/?provider=systems",
+    "file": "resources-en-390",
+    "lang": "en",
+    "scrollWidth": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "route": "/systems/happyhands/",
+    "file": "happyhands-en-390",
+    "lang": "en",
+    "scrollWidth": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "route": "/systems/quartz/",
+    "file": "quartz-en-390",
+    "lang": "en",
+    "scrollWidth": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "route": "/systems/lime/",
+    "file": "lime-en-390",
+    "lang": "en",
+    "scrollWidth": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "route": "/apps/studio/",
+    "file": "studio-en-390",
+    "lang": "en",
+    "scrollWidth": 390,
+    "theme": "light",
+    "width": 390
+  },
+  {
+    "route": "/en/guide/",
+    "file": "guide-en-390",
+    "lang": "en",
+    "scrollWidth": 390,
+    "theme": "light",
+    "width": 390
+  }
+]

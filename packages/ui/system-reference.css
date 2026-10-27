@@ -101,7 +101,7 @@
   font-family: var(--hh-font-mono);
 }
 .system-landing .token-entry .hh-button {
-  min-height: 36px;
+  min-height: 44px;
   padding: var(--hh-space-1) 0;
   font-size: 12px;
 }

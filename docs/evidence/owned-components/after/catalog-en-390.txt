@@ -1,0 +1,60 @@
+Browser tab: 32, Title: "Design systems, Design.md and components / HappyHands", URL: "http://127.0.0.1:4250/components/?provider=cult-ui".
+1 AXWebArea Design systems, Design.md and components / HappyHands, URL: 127.0.0.1:4250/components/?provider=cult-ui
+	2 container root
+		3 link Description: Skip to content, Value: 127.0.0.1:4250/components/?provider=cult-ui#catalog-main
+		4 container
+			5 link Description: HappyHands, Value: 127.0.0.1:4250/apps/portal/
+			6 button (collapsed) Description: Menu, Secondary Actions: Expand
+			7 button Switch to dark mode
+			8 button 中文
+		9 heading Design resources, Value: 1
+			10 text Design resources
+		11 container Design system sections
+			12 link Description: Design systems, Value: 127.0.0.1:4250/components/?provider=systems
+			13 link Description: Design.md, Value: 127.0.0.1:4250/components/?provider=design-md
+			14 link Description: Component libraries, Value: 127.0.0.1:4250/components/?provider=cult-ui
+		15 container Component directory
+			16 container
+				17 text Search components
+				18 search text field (settable) Search components
+			19 container
+				20 text Category
+				21 pop up button (collapsed, settable) Category, Value: All components / 137, Secondary Actions: Expand
+					22 menu
+						23 (selected) All components / 137
+						24 Buttons / 11
+						25 Inputs / 11
+						26 Cards and polls / 17
+						27 Navigation / 7
+						28 Overlays / 13
+						29 Typography / 15
+						30 Illustrations / 20
+						31 Sections / 11
+						32 Effects / 32
+			33 container
+				34 text 137 results
+		35 container catalog-main
+			36 link Description: Text Animate Typography, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=text-animate
+			37 link Description: Cosmic Button Buttons, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=cosmic-button
+			38 link Description: Texture Button Buttons, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=texture-button
+			39 link Description: Texture Card Cards and polls, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=texture-card
+			40 link Description: Timer Typography, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=timer
+			41 link Description: Shift Card Cards and polls, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=shift-card
+			42 link Description: Minimal Card Cards and polls, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=minimal-card
+			43 link Description: Cutout Card Cards and polls, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=cutout-card
+			44 link Description: Dynamic Island Overlays, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=dynamic-island
+			45 link Description: Direction Aware Tabs Navigation, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=direction-aware-tabs
+			46 link Description: Bg Animate Button Buttons, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=bg-animate-button
+			47 link Description: Border Beam Button Buttons, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=border-beam-button
+			48 link Description: Family Button Buttons, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=family-button
+			49 link Description: Side Panel Overlays, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=side-panel
+			50 link Description: Bg Media Effects, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=bg-media
+			51 link Description: Three D Carousel Effects, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=three-d-carousel
+			52 link Description: Tweet Grid Effects, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=tweet-grid
+			53 link Description: Gradient Heading Typography, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=gradient-heading
+			54 container Component pages
+				55 button (disabled) Previous
+				56 text 1  /  8
+				57 button Next
+
+The focused UI element is 1 AXWebArea Design systems, Design.md and components / HappyHands, URL: 127.0.0.1:4250/components/?provider=cult-ui

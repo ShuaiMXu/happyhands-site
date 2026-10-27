@@ -1,0 +1,14 @@
+scripts/verify-alpha-release.mjs
+  h_8f87e56e705bcf 19-20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "55e3da7169379775afdccca4a9a780461a10a66d",
+  "prompts": {},
+  "humans": {
+    "h_8f87e56e705bcf": {
+      "author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

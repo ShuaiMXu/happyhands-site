@@ -34,9 +34,8 @@ export function designSystemsMarkup(language) {
     {id:'system-components-title',title:t('组件库','Component libraries'),copy:t('预览组件效果，选择适合项目的交互。','Preview components and choose interactions that fit your project.'),items:[
       {name:'Cult UI',tag:t('组件与交互','Components and interactions'),copy:t('按钮、卡片、导航与页面区块，提供预览和源码。','Buttons, cards, navigation and sections with previews and source.'),href:'/components/?provider=cult-ui',tone:'cult'}
     ]},
-    {id:'system-references-title',title:t('设计参考','Design references'),copy:t('浏览页面布局与视觉风格，完善自己的设计。','Explore layouts and visual styles to refine your own design.'),items:[
-      {name:'Kage',tag:t('页面与区块','Pages and sections'),copy:t('按产品或风格查找截图，查看页面结构与设计分析。','Find screenshots by product or style and explore design analysis.'),href:'/components/?provider=kage',tone:'kage'},
-      {name:'Refero Styles',tag:t('风格与规范 / DESIGN.md','Style guidelines / DESIGN.md'),copy:t('了解颜色、字体与间距规则。目前提供来源与使用说明。','Explore color, type and spacing rules. Source and usage guidance available.'),href:'/components/?provider=refero',tone:'refero'}
+    {id:'system-design-md-title',title:'Design.md',copy:t('从页面预览中选择设计规范。','Choose design guidelines from page previews.'),items:[
+      {name:'Design.md',tag:t('完整规范','Design guidelines'),copy:t('浏览网站页面，查看并下载完整设计规范。','Browse website previews and download complete design guidelines.'),href:'/components/?provider=design-md',tone:'design-md'}
     ]}
   ];
   return `<div class="system-collection resource-collection">${sections.map(section => `<section class="system-resource-section" aria-labelledby="${section.id}"><header class="system-resource-heading"><h3 id="${section.id}">${section.title}</h3><p>${section.copy}</p></header><div class="resource-tile-grid">${section.items.map(card).join('')}</div></section>`).join('')}</div>`;

@@ -2,7 +2,7 @@ import { ArchiveGallery } from "./ArchiveGallery";
 import React, { useRef, useState } from "react";
 import { ReferenceActions } from "./ReferenceActions";
 const limit = 256 * 1024;
-export function ReferoImport({ lang }: { lang: string }) {
+export function DesignMdLibrary({ lang }: { lang: string }) {
   const zh = lang === "zh",
     [content, setContent] = useState(""),
     [name, setName] = useState(""),
@@ -42,7 +42,6 @@ export function ReferoImport({ lang }: { lang: string }) {
   }
   return (
     <main id="catalog-main" className="provider-reference">
-      <h2>{zh ? "网站设计参考" : "Website design references"}</h2>
       <ArchiveGallery lang={lang} />
       <details>
         <summary>
@@ -90,7 +89,7 @@ export function ReferoImport({ lang }: { lang: string }) {
               key={content}
               lang={lang}
               content={content}
-              source={`Refero Styles / ${name} (user import)`}
+              source={`${name} (user import)`}
             />
           </section>
         )}

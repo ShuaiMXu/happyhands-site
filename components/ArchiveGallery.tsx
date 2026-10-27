@@ -78,10 +78,7 @@ export function ArchiveGallery({ lang }: { lang: string }) {
         .includes(query.toLowerCase()),
   );
   return (
-    <section
-      className="archive-gallery"
-      aria-label={zh ? "网站设计参考" : "Website design references"}
-    >
+    <section className="archive-gallery" aria-label="Design.md">
       {selected ? (
         <>
           <button
@@ -125,9 +122,6 @@ export function ArchiveGallery({ lang }: { lang: string }) {
                   poster={`/design-archive/${selected.slug}/screenshot.jpg`}
                   src={selected.video}
                 />
-                <a href={selected.video} target="_blank" rel="noreferrer">
-                  {zh ? "打开原始视频" : "Open original video"} ↗
-                </a>
               </details>
             </section>
             <section>
@@ -144,9 +138,7 @@ export function ArchiveGallery({ lang }: { lang: string }) {
                 {zh ? "下载精简版" : "Download compact version"}
               </a>
               <p>{selected.north_star}</p>
-              <a href={selected.page_url} target="_blank" rel="noreferrer">
-                Refero Styles ↗
-              </a>
+
               <pre className="archive-document" aria-busy={loading}>
                 {loading ? (zh ? "加载中…" : "Loading…") : content}
               </pre>

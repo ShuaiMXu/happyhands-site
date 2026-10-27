@@ -1,6 +1,6 @@
 import { applySiteMetadata } from "../packages/ui/site-seo";
 import { ComponentTile } from "./ComponentTile";
-import { ReferoImport } from "./ReferoImport";
+import { DesignMdLibrary } from "./DesignMdLibrary";
 import { SystemLibrary } from "./SystemLibrary";
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
@@ -13,8 +13,6 @@ import "../packages/design-tokens/happyhands.css";
 import "../packages/ui/site-layout.css";
 import "./style.css";
 import "../packages/ui/owned-ui.css";
-import { ProviderReference } from "./ProviderReference";
-import providers from "../public/components/providers.json";
 const groups: Record<string, [string, string]> = {
   all: ["全部组件", "All components"],
   buttons: ["按钮", "Buttons"],
@@ -37,9 +35,11 @@ const readSelection = () =>
 function App() {
   const readProvider = () => {
     const value = new URLSearchParams(location.search).get("provider");
-    return value === "kage" || value === "refero" || value === "systems"
-      ? value
-      : "cult-ui";
+    return value === "kage" || value === "refero" || value === "design-md"
+      ? "design-md"
+      : value === "systems"
+        ? "systems"
+        : "cult-ui";
   };
   const [provider, setProvider] = useState(readProvider);
   const { lang, dark, toggleLanguage, toggleTheme } = useSitePreferences();
@@ -103,7 +103,7 @@ function App() {
             ),
           }[reason] || reason;
   useEffect(() => {
-    applySiteMetadata('components',lang);
+    applySiteMetadata("components", lang);
   }, [lang]);
   useEffect(() => {
     const handle = () => {
@@ -199,17 +199,13 @@ function App() {
       >
         {[
           ["systems", t("设计系统", "Design systems")],
+          ["design-md", "Design.md"],
           ["cult-ui", t("组件库", "Component libraries")],
-          ["refero", t("设计参考", "Design references")],
         ].map(([id, label]) => (
           <a
             key={id}
             href={`?provider=${id}`}
-            aria-current={
-              provider === id || (id === "refero" && provider === "kage")
-                ? "page"
-                : undefined
-            }
+            aria-current={provider === id ? "page" : undefined}
             onClick={(e) => {
               if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
               e.preventDefault();
@@ -222,53 +218,10 @@ function App() {
           </a>
         ))}
       </nav>
-      {provider !== "systems" && provider !== "cult-ui" && (
-        <nav
-          className="provider-navigation"
-          aria-label={t("资源来源", "Resource sources")}
-        >
-          {providers.providers
-            .filter((p) =>
-              provider === "cult-ui"
-                ? p.kind === "source-registry"
-                : p.kind !== "source-registry",
-            )
-            .map((p) => (
-              <a
-                key={p.id}
-                href={`?provider=${p.id}`}
-                aria-current={provider === p.id ? "page" : undefined}
-                onClick={(e) => {
-                  if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
-                  e.preventDefault();
-                  setProvider(p.id);
-                  history.pushState(null, "", `?provider=${p.id}`);
-                }}
-              >
-                <strong>{p.name}</strong>
-                <span>
-                  {p.kind === "source-registry"
-                    ? t(
-                        "组件源码 / 站内预览",
-                        "Component source / Local previews",
-                      )
-                    : p.id === "refero"
-                      ? t(
-                          "风格与规范 / DESIGN.md",
-                          "Style guidelines / DESIGN.md",
-                        )
-                      : t("页面与区块 / MCP", "Pages and sections / MCP")}
-                </span>
-              </a>
-            ))}
-        </nav>
-      )}
       {provider === "systems" ? (
         <SystemLibrary lang={lang} />
-      ) : provider === "refero" ? (
-        <ReferoImport lang={lang} />
-      ) : provider === "kage" ? (
-        <ProviderReference lang={lang} />
+      ) : provider === "design-md" ? (
+        <DesignMdLibrary lang={lang} />
       ) : (
         <div
           className={`library-layout ${selected ? "library-detail" : "library-browse"}`}

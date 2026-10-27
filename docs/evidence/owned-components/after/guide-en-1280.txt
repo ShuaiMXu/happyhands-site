@@ -1,0 +1,122 @@
+Browser tab: 32, Title: "HappyHands guide / UI review, design systems and local setup", URL: "http://127.0.0.1:4250/en/guide/".
+1 AXWebArea HappyHands guide / UI review, design systems and local setup, URL: 127.0.0.1:4250/en/guide/
+	2 container guide-content
+		3 link Description: Skip to content, Value: 127.0.0.1:4250/en/guide/#main
+		4 container
+			5 link Description: HappyHands, Value: 127.0.0.1:4250/apps/portal/
+			6 container Description: Main navigation, ID: site-navigation
+				7 link Description: Product, Value: 127.0.0.1:4250/apps/portal/#apps
+				8 link Description: Design systems, Value: 127.0.0.1:4250/components/?provider=systems
+				9 link Description: Theme Studio, Value: 127.0.0.1:4250/apps/studio/
+				10 link Description: Get started, Value: 127.0.0.1:4250/apps/portal/#connect-agent
+			11 button Description: Switch theme, ID: theme-toggle
+			12 link Description: 中文, Value: 127.0.0.1:4250/guide/
+		13 container main
+			14 heading The HappyHands guide, Value: 1
+				15 text The HappyHands guide
+			16 text A local design review workbench for products built with coding agents. Find UI issues, confirm scoped changes, and check the result.
+			17 link Description: Local setup, Value: 127.0.0.1:4250/en/guide/#setup
+			18 link Description: GitHub, Value: github.com/ShuaiMXu/happyhands
+			19 link Description: Harness documentation, Value: github.com/ShuaiMXu/happyhands/blob/main/docs/harness.md
+			20 container On this page
+				21 link Description: From finding an issue to reviewing the result, Value: 127.0.0.1:4250/en/guide/#workflow
+				22 link Description: Choose design systems and components, Value: 127.0.0.1:4250/en/guide/#design
+				23 link Description: Customize and export a theme, Value: 127.0.0.1:4250/en/guide/#themes
+				24 link Description: Start the local workbench, Value: 127.0.0.1:4250/en/guide/#setup
+				25 link Description: Use your existing coding tools, Value: 127.0.0.1:4250/en/guide/#agents
+				26 link Description: Data, licensing and Alpha scope, Value: 127.0.0.1:4250/en/guide/#scope
+				27 link Description: FAQ, Value: 127.0.0.1:4250/en/guide/#faq
+			28 container workflow
+				29 heading From finding an issue to reviewing the result, Value: 2
+					30 text From finding an issue to reviewing the result
+				31 text Capture the agreed pages, devices and interaction states. Review screenshots alongside source code and the product’s own design rules. Choose an issue and confirm a plan; your coding agent implements it in an isolated Git worktree. Capture the result, run applicable checks and independent review, then make your own accept or reject decision.
+			32 container design
+				33 heading Choose design systems and components, Value: 2
+					34 text Choose design systems and components
+				35 text The resource library includes HappyHands, Quartz and Lime systems, component previews and design references. Check your existing rules, upstream licensing and technical compatibility before adopting anything. An external example or reference is not an installation into your project.
+				36 content list
+					37 container
+						38 AXListMarker •
+						39 link Description: HappyHands, Value: 127.0.0.1:4250/systems/happyhands/
+						40 text  / Brand rules and product components
+					41 container
+						42 AXListMarker •
+						43 link Description: Quartz, Value: 127.0.0.1:4250/systems/quartz/
+						44 text  / AI workflows and professional tools /
+						45 link Description: Upstream source, Value: design.how/systems/quartz
+					46 container
+						47 AXListMarker •
+						48 link Description: Lime, Value: 127.0.0.1:4250/systems/lime/
+						49 text  / Personal assistants and consumer apps /
+						50 link Description: Upstream source, Value: design.how/systems/lime
+					51 container
+						52 AXListMarker •
+						53 link Description: Component previews and design references, Value: 127.0.0.1:4250/components/
+			54 container themes
+				55 heading Customize and export a theme, Value: 2
+					56 text Customize and export a theme
+				57 text Selecting a Theme Studio preset updates the preview immediately. Adjust colors, type, corners and other tokens across light and dark examples. Export CSS, Tailwind, registry data or a Harness-compatible Foundation approval file. Browser drafts do not automatically write your repository.
+				58 link Description: Open Theme Studio , Value: 127.0.0.1:4250/apps/studio/
+			59 container setup
+				60 heading Start the local workbench, Value: 2
+					61 text Start the local workbench
+				62 text Prepare Git, Node.js 22.15+, pnpm 11.19.0 and Chrome or Edge. Model diagnosis and screenshot review require a configured, signed-in Codex CLI. Run these commands in your local terminal, then connect a project you have permission to review.
+				63 text git clone https://github.com/ShuaiMXu/happyhands.git
+cd happyhands
+pnpm install --frozen-lockfile
+pnpm workbench
+				64 container
+					65 text Open
+					66 link Description: http://127.0.0.1:4190/apps/designer/, Value: 127.0.0.1:4190/apps/designer/
+					67 text . Provide your repository, working preview, user task and design sources. Confirm pages, devices and states before capture.
+			68 container agents
+				69 heading Use your existing coding tools, Value: 2
+					70 text Use your existing coding tools
+				71 text Codex CLI supports diagnosis, screenshot-aware review and implementation. Claude Code has an implementation adapter; full end-to-end validation remains open. Cursor, Kimi Code and WorkBuddy can operate the Harness with local browser, terminal and repository access, but have no dedicated implementation adapters here.
+			72 container scope
+				73 heading Data, licensing and Alpha scope, Value: 2
+					74 text Data, licensing and Alpha scope
+				75 text Run records stay in the local .harness/ directory. Model-assisted steps send selected source context and screenshots to your configured model provider. Original core code is MIT licensed; third-party resources retain their own terms, and provider charges are separate. This is a Local Web Alpha: unseen pages and untested interactions remain unreviewed.
+				76 container
+					77 link Description: MIT, Value: github.com/ShuaiMXu/happyhands/blob/main/LICENSE
+					78 text  /
+					79 link Description: Third-party notices, Value: github.com/ShuaiMXu/happyhands/blob/main/THIRD_PARTY_NOTICES.md
+					80 text  /
+					81 link Description: Data and execution details, Value: github.com/ShuaiMXu/happyhands/blob/main/docs/local-workbench.md
+			82 container faq
+				83 heading Frequently asked questions, Value: 2
+					84 text Frequently asked questions
+				85 container
+					86 heading What is HappyHands?, Value: 3
+						87 text What is HappyHands?
+					88 text HappyHands is a local design review workbench for products built with coding agents. It connects screenshots, project design sources, findings, change plans and review records. A person makes the final accept or reject decision.
+				89 container
+					90 heading Can I enter a URL on the website and have code fixed automatically?, Value: 3
+						91 text Can I enter a URL on the website and have code fixed automatically?
+					92 text The website provides setup prompts, design resources and Theme Studio. The local workbench and Harness run the review workflow. Your coding tool must check preview and capture requirements; code changes require an accessible local repository, confirmed scope and an implementation adapter.
+				93 container
+					94 heading Which coding tools can I use?, Value: 3
+						95 text Which coding tools can I use?
+					96 text Codex CLI supports model diagnosis, screenshot-aware review and implementation. Claude Code has an implementation adapter; complete end-to-end validation remains open. Cursor, Kimi Code and WorkBuddy can operate the Harness with local browser, terminal and repository access, but do not have dedicated implementation adapters here.
+				97 container
+					98 heading How do I use my existing design system?, Value: 3
+						99 text How do I use my existing design system?
+					100 text Provide your project’s DESIGN.md, style tokens and component source. Extracted rules start as candidates for review, not approved constraints. Theme Studio can export a Harness-compatible Foundation approval file.
+				101 container
+					102 heading Is the source open, and does using it cost money?, Value: 3
+						103 text Is the source open, and does using it cost money?
+					104 text Original HappyHands core code is MIT licensed. Third-party code, assets and dependencies retain their own terms, including tldraw’s separate production-use requirements. Your configured model provider may charge separately.
+				105 container
+					106 heading Where does my data go?, Value: 3
+						107 text Where does my data go?
+					108 text Run records stay in the local .harness/ directory. Model-assisted steps use your configured CLI to send selected source context and screenshots to the model service; processing is not entirely local. Check exports for sensitive information before sharing.
+				109 container
+					110 heading What are the current limitations?, Value: 3
+						111 text What are the current limitations?
+					112 text HappyHands is a Local Web Alpha. Coverage follows the capture plan and completed checks. Unseen pages and untested interactions remain unreviewed. A model review cannot replace human acceptance.
+		113 container
+			114 link Description: HappyHands, Value: 127.0.0.1:4250/apps/portal/
+			115 link Description: Core source, Value: github.com/ShuaiMXu/happyhands
+			116 link Description: Product facts, Value: 127.0.0.1:4250/llms.txt
+
+The focused UI element is 1 AXWebArea HappyHands guide / UI review, design systems and local setup, URL: 127.0.0.1:4250/en/guide/

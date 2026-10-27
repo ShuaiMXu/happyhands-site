@@ -1,0 +1,59 @@
+{
+  "empty": "0 results",
+  "checks": [
+    {
+      "provider": "cult-ui",
+      "overflow": false,
+      "radius": "4px",
+      "searchHeight": 44,
+      "searchWidth": 195.421875,
+      "toolbarHeight": 44,
+      "width": 390
+    },
+    {
+      "provider": "design-md",
+      "overflow": false,
+      "radius": "4px",
+      "searchHeight": 44,
+      "searchWidth": 350,
+      "toolbarHeight": 98,
+      "width": 390
+    },
+    {
+      "provider": "cult-ui",
+      "overflow": false,
+      "radius": "4px",
+      "searchHeight": 44,
+      "searchWidth": 300,
+      "toolbarHeight": 44,
+      "width": 691
+    },
+    {
+      "provider": "design-md",
+      "overflow": false,
+      "radius": "4px",
+      "searchHeight": 44,
+      "searchWidth": 300,
+      "toolbarHeight": 44,
+      "width": 691
+    },
+    {
+      "provider": "cult-ui",
+      "overflow": false,
+      "radius": "4px",
+      "searchHeight": 44,
+      "searchWidth": 280,
+      "toolbarHeight": 44,
+      "width": 1280
+    },
+    {
+      "provider": "design-md",
+      "overflow": false,
+      "radius": "4px",
+      "searchHeight": 44,
+      "searchWidth": 280,
+      "toolbarHeight": 44,
+      "width": 1280
+    }
+  ]
+}

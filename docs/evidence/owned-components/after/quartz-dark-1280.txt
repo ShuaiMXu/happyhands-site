@@ -1,0 +1,331 @@
+Browser tab: 31, Title: "Quartz 设计系统参考 / AI 工作流与专业工具 / HappyHands", URL: "http://127.0.0.1:4250/systems/quartz/".
+1 AXWebArea Quartz 设计系统参考 / AI 工作流与专业工具 / HappyHands, URL: 127.0.0.1:4250/systems/quartz/
+	2 container root
+		3 container
+			4 link Description: HappyHands, Value: 127.0.0.1:4250/apps/portal/
+			321 container Description: 主要导航, ID: site-navigation
+				322 link Description: 产品能力, Value: 127.0.0.1:4250/apps/portal/#apps
+				323 link Description: 设计系统, Value: 127.0.0.1:4250/components/?provider=systems
+				324 link Description: 主题工作室, Value: 127.0.0.1:4250/apps/studio/
+				325 link Description: 开始使用, Value: 127.0.0.1:4250/apps/portal/#connect-agent
+			6 button 切换到浅色模式
+			7 button English
+		8 container
+			9 container 面包屑
+				10 link Description: 官网, Value: 127.0.0.1:4250/apps/portal/
+				11 link Description: 设计系统, Value: 127.0.0.1:4250/components/?provider=systems
+				12 text Quartz
+			13 container overview
+				14 text 外部设计系统 / design.how
+				15 heading Quartz, Value: 1
+					16 text Quartz
+				17 text 面向 AI 产品和代理工作流。查看组件目录、页面模板与接入说明，再判断是否适合你的项目。
+				18 link Description: 查看实际效果, Value: 127.0.0.1:4250/systems/quartz/#example
+				19 link Description: 查看接入方式, Value: 127.0.0.1:4250/systems/quartz/#adopt
+				20 container 系统概况
+					21 definition list
+						22 container 适用场景
+							23 text 适用场景
+						24 text 代理会话、工具审批、运行追踪
+						25 container 技术基础
+							26 text 技术基础
+						27 text React / Tailwind CSS / shadcn
+						28 container 收录内容
+							29 text 收录内容
+						30 text 设计原则、组件目录与接入指令
+					31 text 由 HappyHands 整理。组件目录是资料说明，尚未在本站安装 Quartz 交互组件。
+			326 container 目录
+				327 link Description: 应用场景, Value: 127.0.0.1:4250/systems/quartz/#scenes
+				328 link Description: 概览, Value: 127.0.0.1:4250/systems/quartz/#overview
+				329 link Description: 设计原则, Value: 127.0.0.1:4250/systems/quartz/#foundations
+				330 link Description: 效果预览, Value: 127.0.0.1:4250/systems/quartz/#example
+				331 link Description: 组件目录, Value: 127.0.0.1:4250/systems/quartz/#components
+				332 link Description: 页面模板, Value: 127.0.0.1:4250/systems/quartz/#patterns
+				333 link Description: 接入项目, Value: 127.0.0.1:4250/systems/quartz/#adopt
+			34 container scenes
+				35 heading 应用场景, Value: 2
+					36 text 应用场景
+				37 text 切换场景与外观，试试选择、确认和表单反馈。
+				38 container 场景外观
+					39 checkbox 浅色, Value: 0
+					40 checkbox 深色, Value: 1
+				41 container 选择应用场景
+					42 checkbox 01 操作授权, Value: 1
+						43 text 0
+						44 text 1
+						45 text 操作授权
+					46 checkbox 02 运行追踪, Value: 0
+						47 text 0
+						48 text 2
+						49 text 运行追踪
+					50 checkbox 03 通知设置, Value: 0
+						51 text 0
+						52 text 3
+						53 text 通知设置
+				54 container
+					55 text Quartz 可交互场景 / 示例数据
+				334 heading 操作授权, Value: 3
+					335 text 操作授权
+				336 text 先了解操作内容，再作出决定。
+				337 content list
+					338 text 操作前可核对范围
+					339 text 操作后有明确反馈
+					340 text 示例可重置、重新体验
+				305 text 可操作示例
+				306 button 切换示例外观
+				307 heading 核对这次文件修改, Value: 2
+					308 text 核对这次文件修改
+				309 text 先查看涉及的文件，再决定是否允许。
+				310 container 涉及文件
+					311 text 涉及文件
+					312 container
+						313 checkbox (settable, integer) Description: src/pages/home.tsx 待确认, Value: 1
+						314 text src/pages/home.tsx 待确认
+					315 container
+						316 checkbox (settable, integer) Description: src/pages/settings.tsx 待确认, Value: 0
+						317 text src/pages/settings.tsx 待确认
+				318 button 允许本次操作
+				319 text 已选 1 项
+				320 text 示例内容，不会读取项目或修改文件。
+				72 text 场景由 HappyHands 实现，用于说明布局与交互；不连接真实项目，也不代替上游组件安装。
+			73 container foundations
+				74 heading 颜色与文字实样, Value: 3
+					75 text 颜色与文字实样
+				76 container 变量外观
+					77 checkbox 浅色, Value: 1
+					78 checkbox 深色, Value: 0
+				79 text paper-c
+				80 text 99.7% 0.001 250
+				81 text grey-c
+				82 text 95.6% 0.004 255
+				83 text ink-c
+				84 text 20% 0.024 262
+				85 text hue-1-field
+				86 text oklch(92% 0.090 195)
+				87 text hue-3-field
+				88 text oklch(82% 0.060 250)
+				89 text hue-5-field
+				90 text oklch(90% 0.070 160)
+				91 text Aa / 字
+				92 text 标题引导阅读，正文承载信息。
+				93 text 本站使用系统字体回退；不分发上游授权字体。
+				94 heading 尺度与形状, Value: 4
+					95 text 尺度与形状
+				96 text 界面正文 14 / 20 / 面板标题 24 / 28
+				97 text 间距、圆角与动效参数可在下方查询。
+				98 button (collapsed) 查阅设计变量 / 186, Secondary Actions: Expand
+					99 text 查阅设计变量
+					100 text  /
+					101 text 186
+				102 container
+					103 text 变量摘录自公开主题文件，值按原始表达式保留。核对日期： 2026-10-23  /
+					104 link Description: 查看来源, Value: design.how/r/quartz/theme.json
+				105 heading 颜色、状态与组件的使用约定, Value: 2
+					106 text 颜色、状态与组件的使用约定
+				107 container
+					108 heading 中性框架, Value: 3
+						109 text 中性框架
+					110 text 黑白框架承载内容，类别通过文字识别；暖色保留给警告与失败。
+				111 container
+					112 heading 按角色使用变量, Value: 3
+						113 text 按角色使用变量
+					114 text 组件使用语义变量，不在页面临时拼颜色、字号与阴影。
+				115 container
+					116 heading 组件优先, Value: 3
+						117 text 组件优先
+					118 text 先选已有组件，再组合页面；保留键盘、焦点、加载与错误反馈。
+			119 container example
+				120 text 效果预览
+				121 heading 文件修改确认, Value: 2
+					122 text 文件修改确认
+				123 text 通过文件列表与主要操作呈现修改范围。切换外观、选择文件，预览选择与确认状态。
+				124 text HappyHands 编写的交互示例，配色与圆角参考 Quartz。使用系统字体；并非上游组件的原样展示，也不会访问你的文件。
+				125 link Description: 查看配色来源, Value: design.how/r/quartz/theme.json
+				126 text 可操作示例
+				127 button 切换示例外观
+				128 heading 核对这次文件修改, Value: 2
+					129 text 核对这次文件修改
+				130 text 先查看涉及的文件，再决定是否允许。
+				131 container 涉及文件
+					132 text 涉及文件
+					133 container
+						134 checkbox (settable, integer) Description: src/pages/home.tsx 待确认, Value: 1
+						135 text src/pages/home.tsx 待确认
+					136 container
+						137 checkbox (settable, integer) Description: src/pages/settings.tsx 待确认, Value: 0
+						138 text src/pages/settings.tsx 待确认
+				139 button 允许本次操作
+				140 text 已选 1 项
+				141 text 示例内容，不会读取项目或修改文件。
+			142 container components
+				143 heading 浏览完整组件目录, Value: 2
+					144 text 浏览完整组件目录
+				145 text 按操作、导航、反馈和工作流分类查找，也可搜索全部注册项。展开条目，在本站查看用途和接入方式；实际组件接口以来源为准。
+				146 container
+					147 text 查找组件或模板
+					148 search text field (settable) 查找组件或模板
+				149 container
+					150 text 内容分类
+					151 pop up button (collapsed, settable) 内容分类, Value: 全部 / 83, Secondary Actions: Expand
+						152 menu
+							153 (selected) 全部 / 83
+							154 操作与输入 / 14
+							155 反馈与浮层 / 12
+							156 导航 / 6
+							157 内容与数据 / 20
+							158 AI 工作流 / 9
+							159 页面模板 / 7
+							160 接入与工具 / 15
+				161 text 显示 12 / 83 项匹配 / 共 83 项
+				162 container
+					163 text 操作与输入
+					164 heading 按钮, Value: 3
+						165 text 按钮
+					166 text button 触发操作，保留加载时的操作名称。
+					167 button (collapsed) 查看接入, Secondary Actions: Expand
+						168 text 查看接入
+				169 container
+					170 text 操作与输入
+					171 heading 按钮组, Value: 3
+						172 text 按钮组
+					173 text button-group 组合有关联的操作。
+					174 button (collapsed) 查看接入, Secondary Actions: Expand
+						175 text 查看接入
+				176 container
+					177 text 操作与输入
+					178 heading 复制按钮, Value: 3
+						179 text 复制按钮
+					180 text copy-button 复制内容，并在原位置确认结果。
+					181 button (collapsed) 查看接入, Secondary Actions: Expand
+						182 text 查看接入
+				183 container
+					184 text 操作与输入
+					185 heading 输入框, Value: 3
+						186 text 输入框
+					187 text input 输入文字、密码、搜索词与数字。
+					188 button (collapsed) 查看接入, Secondary Actions: Expand
+						189 text 查看接入
+				190 container
+					191 text 操作与输入
+					192 heading 多行输入, Value: 3
+						193 text 多行输入
+					194 text textarea 输入较长的内容。
+					195 button (collapsed) 查看接入, Secondary Actions: Expand
+						196 text 查看接入
+				197 container
+					198 text 操作与输入
+					199 heading 表单字段, Value: 3
+						200 text 表单字段
+					201 text field 组合标签、控件、说明和错误。
+					202 button (collapsed) 查看接入, Secondary Actions: Expand
+						203 text 查看接入
+				204 container
+					205 text 操作与输入
+					206 heading 日期选择, Value: 3
+						207 text 日期选择
+					208 text date-picker 选择日期、区间或时间。
+					209 button (collapsed) 查看接入, Secondary Actions: Expand
+						210 text 查看接入
+				211 container
+					212 text 操作与输入
+					213 heading 可搜索选择, Value: 3
+						214 text 可搜索选择
+					215 text combobox 搜索并选择一个或多个选项。
+					216 button (collapsed) 查看接入, Secondary Actions: Expand
+						217 text 查看接入
+				218 container
+					219 text 操作与输入
+					220 heading 复选框, Value: 3
+						221 text 复选框
+					222 text checkbox 选择独立选项或表达部分选择。
+					223 button (collapsed) 查看接入, Secondary Actions: Expand
+						224 text 查看接入
+				225 container
+					226 text 操作与输入
+					227 heading 单选组, Value: 3
+						228 text 单选组
+					229 text radio-group 从可见选项中选择一项。
+					230 button (collapsed) 查看接入, Secondary Actions: Expand
+						231 text 查看接入
+				232 container
+					233 text 操作与输入
+					234 heading 开关, Value: 3
+						235 text 开关
+					236 text switch 即时更改一项设置。
+					237 button (collapsed) 查看接入, Secondary Actions: Expand
+						238 text 查看接入
+				239 container
+					240 text 操作与输入
+					241 heading 滑块, Value: 3
+						242 text 滑块
+					243 text slider 调整数值或区间。
+					244 button (collapsed) 查看接入, Secondary Actions: Expand
+						245 text 查看接入
+				246 button 继续浏览
+				247 button 显示全部匹配项
+				248 container
+					249 text 收录日期：2026-10-21。目录由 HappyHands 整理，组件来源为 design.how；更新可能晚于上游。
+					250 link Description: 原始目录, Value: design.how/r/quartz/registry.json
+			251 container patterns
+				252 heading 按使用场景选择页面模板, Value: 2
+					253 text 按使用场景选择页面模板
+				254 container
+					255 heading 项目首页, Value: 3
+						256 text 项目首页
+					257 text 项目概况与待处理事项
+				258 container
+					259 heading 代理会话, Value: 3
+						260 text 代理会话
+					261 text 输入、回复与工具调用
+				262 container
+					263 heading 工具审批, Value: 3
+						264 text 工具审批
+					265 text 查看操作范围并做出决定
+				266 container
+					267 heading 运行追踪, Value: 3
+						268 text 运行追踪
+					269 text 查看执行过程与结果
+				270 container
+					271 heading 实时活动, Value: 3
+						272 text 实时活动
+					273 text 浏览持续产生的事件
+				274 container
+					275 heading 访问密钥, Value: 3
+						276 text 访问密钥
+					277 text 创建、查看与撤销密钥
+				278 container
+					279 heading 发布详情, Value: 3
+						280 text 发布详情
+					281 text 发布检查与回退
+			282 container adopt
+				283 heading 带回你的项目, Value: 2
+					284 text 带回你的项目
+				285 text 需要 React、Tailwind 和兼容的 shadcn 配置。先检查技术栈与已有品牌，再逐页迁移。复制指令不会安装或执行命令。
+				286 container
+					287 text 接入方式
+					288 pop up button (collapsed, settable) 接入方式, Value: 已有项目, Secondary Actions: Expand
+						289 menu
+							290 (selected) 已有项目
+							291 新项目
+				292 text entry area Description: 接入指令, Value: 将本项目的一个页面迁移到 Quartz。先检查现有设计规范、技术栈、组件和业务流程，提出迁移范围后再修改。保留已批准品牌、文案、业务行为和数据。
+
+1. 阅读 https://design.how/r/quartz/skill.json 和 https://design.how/r/quartz/registry.json。检查 React、Tailwind、路径别名和 shadcn 的兼容性；不能因为缺 components.json 就直接重置项目。
+2. 确认兼容后，用项目的包管理器初始化必要配置并添加 https://design.how/r/quartz/theme.json。记录依赖版本和锁文件。按照官方说明导入样式、设置 quartz 作用域及 QuartzPortalProvider；不要影响其他应用或被审阅页面。
+3. 先读组件文档 https://design.how/systems/quartz/components/<name>.md，再通过 https://design.how/r/quartz/<name>.json 安装所需组件。整屏可参考 project-home、agent-session、tool-approval 或 run-trace；用真实数据替换演示数据，不添加虚构指标。
+4. 阅读并审核 arla6ka/skills 中的 migrate-design-system 和 ui-review，记录采用的版本。Quartz 规则只用于本次约定的 UI 范围；逐页迁移，确认没有使用方后才删除旧样式。
+5. 按 https://design.how/r/quartz/lint.json 配置 lint 及其依赖，检查迁移文件。再检查构建、中文和英文、390/768/1280px、键盘焦点、加载/空/错误状态和原业务流程。lint 通过不代替浏览器验收。
+6. 交付改动、前后截图、版本与来源、验证结果和剩余限制。不自动部署，不把未验证的项目标为设计系统已对齐。
+				293 button 复制接入指令
+				294 link Description: 本地工作台指引, Value: github.com/ShuaiMXu/creative-os/blob/main/docs/local-workbench.md
+			295 text 我们的设计系统
+			296 heading HappyHands, Value: 2
+				297 text HappyHands
+			298 text 也可以从官网正在使用的规范与组件开始。
+			299 link Description: 探索 HappyHands, Value: 127.0.0.1:4250/systems/happyhands/
+			300 container
+				301 link Description: 返回设计系统, Value: 127.0.0.1:4250/components/?provider=systems
+				302 link Description: 了解 Lime, Value: 127.0.0.1:4250/systems/lime/
+			303 button (collapsed) 来源、版本与许可, Secondary Actions: Expand
+				304 text 来源、版本与许可
+
+The focused UI element is 6 button 切换到浅色模式

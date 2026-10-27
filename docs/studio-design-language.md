@@ -18,3 +18,11 @@ The HappyHands project preset now uses ink/near-white primary actions, warm neut
 ## Validation
 
 Core tests cover correct brand defaults and drift detection without mutation. Browser checks cover brand assets, standards/application, single primary action, state transitions, independent shell/preview modes, persisted appearance and 390px layout. Existing export/Harness tests remain in place. Product copy distinguishes local checks from verified application results.
+
+## Component contracts, 2026-10-27
+
+The owned UI now also follows the complete [HappyHands UI skill](../skills/happyhands-ui/SKILL.md) and its [component contracts](../skills/happyhands-ui/references/components.md). Historical warm-neutral prose above does not override the canonical semantic Radix palette. Existing project drafts and external-theme samples remain independent.
+
+The shared native Select owns the chevron geometry; consumer styles must not override it with a fixed vertical offset. Button's busy indicator occupies the same grid area as its layout-preserving label, so caller flex rules must not override the component's display mode. It retains its accessible name and disables repeat actions while busy. Whole-control opacity/scale hover effects have been removed. Theme Studio uses 0.5px chrome borders and at least 12px helper text; duplicate token-name captions are omitted when they add no information.
+
+See [the scoped audit and browser evidence](audits/design-md-and-components.md). The historical read-only workbench is not the active local Harness and is not counted as migrated. A paused/frozen homepage is a scope boundary, not a reason to remove its content.

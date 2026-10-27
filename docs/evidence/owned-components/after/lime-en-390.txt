@@ -1,0 +1,302 @@
+Browser tab: 32, Title: "Lime design system reference / Consumer apps / HappyHands", URL: "http://127.0.0.1:4250/systems/lime/".
+1 AXWebArea Lime design system reference / Consumer apps / HappyHands, URL: 127.0.0.1:4250/systems/lime/
+	2 container root
+		3 link Description: Skip to content, Value: 127.0.0.1:4250/systems/lime/#overview
+		4 container
+			5 link Description: HappyHands, Value: 127.0.0.1:4250/apps/portal/
+			6 button (collapsed) Description: Menu, Secondary Actions: Expand
+			7 button Switch to dark mode
+			8 button 中文
+		9 container
+			10 container Breadcrumb
+				11 link Description: Home, Value: 127.0.0.1:4250/apps/portal/
+				12 link Description: Design systems, Value: 127.0.0.1:4250/components/?provider=systems
+				13 text Lime
+			14 container overview
+				15 text External design system / design.how
+				16 heading Lime, Value: 1
+					17 text Lime
+				18 text For consumer apps and personal assistants. Warm neutral surfaces with a lime accent for the main action.
+				19 link Description: Browse components, Value: 127.0.0.1:4250/systems/lime/#components
+				20 link Description: View setup options, Value: 127.0.0.1:4250/systems/lime/#adopt
+				21 text Our local reminder example uses checked Lime palette and radius values with system fonts. It is not an upstream component demo.
+				22 container
+					23 text Lime
+					24 button Switch Lime example appearance
+				25 heading Prepare for your next trip, Value: 2
+					26 text Prepare for your next trip
+				27 text Choose a task and reminder time. This is a local demo.
+				28 container Reminders
+					29 text Reminders
+					30 container
+						31 checkbox (settable, integer) Description: Check tickets, Value: 1
+						32 text Check tickets
+					33 container
+						34 checkbox (settable, integer) Description: Pack essentials, Value: 0
+						35 text Pack essentials
+					36 container
+						37 text Reminder time
+						38 pop up button (collapsed, settable) Reminder time, Value: Morning, Secondary Actions: Expand
+							39 menu
+								40 (selected) Morning
+								41 Evening
+				42 button Enable demo reminders
+			43 button (collapsed) On this page, Secondary Actions: Expand
+				44 text On this page
+			45 container scenes
+				46 heading Application examples, Value: 2
+					47 text Application examples
+				48 text Switch scenes and appearance. Try selection, confirmation and form feedback.
+				49 container Scene appearance
+					50 checkbox Light, Value: 1
+					51 checkbox Dark, Value: 0
+				52 container Choose a scene
+					53 checkbox 01 Assistant reminder, Value: 1
+						54 text 0
+						55 text 1
+						56 text Assistant reminder
+					57 checkbox 02 Daily plan, Value: 0
+						58 text 0
+						59 text 2
+						60 text Daily plan
+					61 checkbox 03 Reminder settings, Value: 0
+						62 text 0
+						63 text 3
+						64 text Reminder settings
+				65 container
+					66 text Lime Interactive scene / Sample data
+				67 container
+					68 text Lime
+					69 button Switch Lime example appearance
+				70 heading Prepare for your next trip, Value: 2
+					71 text Prepare for your next trip
+				72 text Choose a task and reminder time. This is a local demo.
+				73 container Reminders
+					74 text Reminders
+					75 container
+						76 checkbox (settable, integer) Description: Check tickets, Value: 1
+						77 text Check tickets
+					78 container
+						79 checkbox (settable, integer) Description: Pack essentials, Value: 0
+						80 text Pack essentials
+					81 container
+						82 text Reminder time
+						83 pop up button (collapsed, settable) Reminder time, Value: Morning, Secondary Actions: Expand
+							84 menu
+								85 (selected) Morning
+								86 Evening
+				87 button Enable demo reminders
+				88 text Scenes implemented by HappyHands to illustrate layout and behavior. No project connection; these do not replace upstream component installation.
+			89 container foundations
+				90 heading Color & typography specimens, Value: 3
+					91 text Color & typography specimens
+				92 container Token appearance
+					93 checkbox Light, Value: 1
+					94 checkbox Dark, Value: 0
+				95 text page
+				96 text #ffffff
+				97 text surface
+				98 text #f6f5f2
+				99 text fg
+				100 text #0f0f0d
+				101 text accent
+				102 text #e4f222
+				103 text accent-wash
+				104 text #f5f9c4
+				105 text success-tint
+				106 text #e5f5ea
+				107 text Aa / 字
+				108 text Headings guide. Body text informs.
+				109 text System font fallback; licensed upstream fonts are not distributed.
+				110 heading Scale & shape, Value: 4
+					111 text Scale & shape
+				112 text Panel radius 16 / Field radius 12 / Pill actions
+				113 text Reserve lime for primary actions. Keep text contrast clear.
+				114 button (collapsed) Browse design tokens / 20, Secondary Actions: Expand
+					115 text Browse design tokens
+					116 text  /
+					117 text 20
+				118 container
+					119 text Extracted from the public theme file; expressions retained as written. Checked:  2026-10-21  /
+					120 link Description: View source, Value: design.how/r/lime/theme.json
+				121 heading Color and interaction conventions, Value: 2
+					122 text Color and interaction conventions
+				123 container
+					124 heading Primary action, Value: 3
+						125 text Primary action
+					126 text Use lime for the main action, selection and highlights, with dark text and a distinct olive focus ring.
+				127 container
+					128 heading Type and shape, Value: 3
+						129 text Type and shape
+					130 text Upstream uses Hanken Grotesk; our example uses system fonts. Controls are pill-shaped, fields use a 12px radius and panels 16px.
+				131 container
+					132 heading Confirmation and recovery, Value: 3
+						133 text Confirmation and recovery
+					134 text Define scope before an assistant acts, then provide a receipt and undo. Name states in words as well as color.
+				135 container
+					136 text page #ffffff
+				137 container
+					138 text surface #f6f5f2
+				139 container
+					140 text fg #0f0f0d
+				141 container
+					142 text accent #e4f222
+				143 container
+					144 text accent-wash #f5f9c4
+				145 container
+					146 text accent-line #7c8700
+				147 container
+					148 text Selected palette roles. Switch site appearance to compare values; upstream contains the full token set.
+					149 link Description: Palette source, Value: design.how/r/lime/theme.json
+			150 container components
+				151 heading Complete component catalog, Value: 2
+					152 text Complete component catalog
+				153 text Browse forms, navigation, feedback, personal assistant and billing entries with search, categories and setup details.
+				154 container
+					155 text Find a component or screen
+					156 search text field (settable) Find a component or screen
+				157 container
+					158 text Category
+					159 pop up button (collapsed, settable) Category, Value: All / 64, Secondary Actions: Expand
+						160 menu
+							161 (selected) All / 64
+							162 Actions & inputs / 14
+							163 Feedback & overlays / 12
+							164 Navigation / 6
+							165 Content & data / 10
+							166 AI workflows / 9
+							167 Screen blocks / 5
+							168 Setup & utilities / 8
+				169 text 12 of 64 matches / 64 entries total
+				170 container
+					171 text Actions & inputs
+					172 heading Button, Value: 3
+						173 text Button
+					174 text button Trigger an action and keep its name visible while pending.
+					175 button (collapsed) Setup details, Secondary Actions: Expand
+						176 text Setup details
+				177 container
+					178 text Actions & inputs
+					179 heading Copy button, Value: 3
+						180 text Copy button
+					181 text copy-button Copy a value with confirmation beside it.
+					182 button (collapsed) Setup details, Secondary Actions: Expand
+						183 text Setup details
+				184 container
+					185 text Actions & inputs
+					186 heading Input, Value: 3
+						187 text Input
+					188 text input Enter text, search terms, numbers or secrets.
+					189 button (collapsed) Setup details, Secondary Actions: Expand
+						190 text Setup details
+				191 container
+					192 text Actions & inputs
+					193 heading Textarea, Value: 3
+						194 text Textarea
+					195 text textarea Write a longer response.
+					196 button (collapsed) Setup details, Secondary Actions: Expand
+						197 text Setup details
+				198 container
+					199 text Actions & inputs
+					200 heading Field, Value: 3
+						201 text Field
+					202 text field Keep labels, help and validation with the control.
+					203 button (collapsed) Setup details, Secondary Actions: Expand
+						204 text Setup details
+				205 container
+					206 text Actions & inputs
+					207 heading Select, Value: 3
+						208 text Select
+					209 text select Choose a value from a fixed list.
+					210 button (collapsed) Setup details, Secondary Actions: Expand
+						211 text Setup details
+				212 container
+					213 text Actions & inputs
+					214 heading Combobox, Value: 3
+						215 text Combobox
+					216 text combobox Search a choice list before selecting.
+					217 button (collapsed) Setup details, Secondary Actions: Expand
+						218 text Setup details
+				219 container
+					220 text Actions & inputs
+					221 heading Dropzone, Value: 3
+						222 text Dropzone
+					223 text dropzone Choose or drop a file with clear upload requirements.
+					224 button (collapsed) Setup details, Secondary Actions: Expand
+						225 text Setup details
+				226 container
+					227 text Actions & inputs
+					228 heading Keypad, Value: 3
+						229 text Keypad
+					230 text keypad Enter numeric values with dedicated keys.
+					231 button (collapsed) Setup details, Secondary Actions: Expand
+						232 text Setup details
+				233 container
+					234 text Actions & inputs
+					235 heading Checkbox, Value: 3
+						236 text Checkbox
+					237 text checkbox Select independent options.
+					238 button (collapsed) Setup details, Secondary Actions: Expand
+						239 text Setup details
+				240 container
+					241 text Actions & inputs
+					242 heading Radio, Value: 3
+						243 text Radio
+					244 text radio Choose one visible option.
+					245 button (collapsed) Setup details, Secondary Actions: Expand
+						246 text Setup details
+				247 container
+					248 text Actions & inputs
+					249 heading Switch, Value: 3
+						250 text Switch
+					251 text switch Change an immediately applied setting.
+					252 button (collapsed) Setup details, Secondary Actions: Expand
+						253 text Setup details
+				254 button Show more
+				255 button Show all matches
+				256 container
+					257 text Catalog checked 2026-10-21. Curated by HappyHands from design.how; upstream may have changed.
+					258 link Description: Upstream registry, Value: design.how/r/lime/registry.json
+			259 container patterns
+				260 heading Screen blocks, Value: 2
+					261 text Screen blocks
+				262 container
+					263 heading Home, Value: 3
+						264 text Home
+					265 text Overview, recent activity and pending work.
+				266 container
+					267 heading Assistant approval, Value: 3
+						268 text Assistant approval
+					269 text Review a proposed action before allowing it.
+				270 container
+					271 heading Assistant alert, Value: 3
+						272 text Assistant alert
+					273 text Inspect an issue and choose a response.
+				274 container
+					275 heading Settings rules, Value: 3
+						276 text Settings rules
+					277 text Set boundaries for assistant actions.
+				278 container
+					279 heading Split request, Value: 3
+						280 text Split request
+					281 text Review recipients and amounts before requesting.
+			282 container adopt
+				283 heading Use in your project, Value: 2
+					284 text Use in your project
+				285 text Check compatibility and existing branding before adopting components screen by screen. Use this prompt with your own coding agent.
+				286 container
+					287 text Setup mode
+					288 pop up button (collapsed, settable) Setup mode, Value: Existing project, Secondary Actions: Expand
+						289 menu
+							290 (selected) Existing project
+							291 New project
+				292 text entry area Description: Setup prompt, Value: Migrate one agreed screen in this project to Lime. Read https://design.how/r/lime/skill.json and https://design.how/r/lime/registry.json first. Inspect the stack and existing rules, preserving approved branding, behavior, copy and data. After checking React, Tailwind and shadcn compatibility, add https://design.how/r/lime/theme.json with the project package manager. Follow its actual output to import styles, scope the agreed root with lime, and configure LimePortalProvider. Read https://design.how/systems/lime/components/<name>.md before adding https://design.how/r/lime/<name>.json. Screen blocks include home, assistant-approval, assistant-alert, settings-rules and split-request. Reserve lime for the main action. Confirm real scope for financial or autonomous actions; never invent amounts, recipients or approvals. Configure checks from https://design.how/r/lime/lint.json and verify both themes, languages, 390/768/1280px, keyboard focus, recovery and existing workflows. Record source versions, changes and limits. Copying does not install, execute or deploy anything.
+				293 button Copy setup prompt
+				294 link Description: Upstream Skill, Value: design.how/r/lime/skill.json
+			295 container
+				296 link Description: All design systems, Value: 127.0.0.1:4250/components/?provider=systems
+				297 link Description: HappyHands, Value: 127.0.0.1:4250/systems/happyhands/
+				298 link Description: Quartz, Value: 127.0.0.1:4250/systems/quartz/
+			299 text Lime is from design.how. This catalog and local example do not install upstream components, alter projects or create real reminders.
+
+The focused UI element is 1 AXWebArea Lime design system reference / Consumer apps / HappyHands, URL: 127.0.0.1:4250/systems/lime/

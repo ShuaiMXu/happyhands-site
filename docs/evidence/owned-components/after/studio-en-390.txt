@@ -1,0 +1,111 @@
+Browser tab: 32, Title: "Theme Studio / Colors, typography and design tokens / HappyHands", URL: "http://127.0.0.1:4250/apps/studio/".
+1 AXWebArea Theme Studio / Colors, typography and design tokens / HappyHands, URL: 127.0.0.1:4250/apps/studio/
+	2 container root
+		3 container
+			4 link Description: HappyHands, Value: 127.0.0.1:4250/apps/portal/
+			5 button (collapsed) Description: Menu, Secondary Actions: Expand
+			6 button Switch to dark mode
+			7 button 中文
+		8 container
+			9 heading Project design system, Value: 1
+				10 text Project design system
+			11 pop up button (collapsed, settable) Description: Choose project, Value: my-product, Secondary Actions: Expand
+				12 menu
+					13 (selected) my-product
+			14 button (collapsed) Description: New project, Secondary Actions: Expand
+			15 button (disabled) Undo
+			16 button (disabled) Redo
+			17 button Export
+			18 button (collapsed) More, Secondary Actions: Expand
+				19 text More
+			20 text Local project / Autosaved
+			21 checkbox Edit, Value: 0
+			22 checkbox Preview, Value: 1
+			23 pop up button (collapsed, settable) Description: Preview scene, Value: Components, Secondary Actions: Expand
+				24 menu
+					25 (selected) Components
+					26 Dashboard
+					27 Marketing
+					28 Mail
+					29 Typography
+					30 States
+					31 Connected page
+			32 checkbox Compare, Value: 0
+			33 container
+				34 button (collapsed) Settings, Secondary Actions: Expand
+					35 text Settings
+			36 text Theme preview / Sample content, not project data
+			37 text 我的产品
+			38 text 我
+			39 heading Theme application preview, Value: 2
+				40 text Theme application preview
+			41 text Try the buttons and fields to check text, borders and feedback.
+			42 container
+				43 heading Text and actions, Value: 3
+					44 text Text and actions
+				45 text Body text and supporting information should both be easy to read.
+				46 button Save example
+				47 button Reset example
+				48 button (disabled) Unavailable
+				49 text Select Save example to see the feedback.
+			50 container
+				51 heading Inputs and choices, Value: 3
+					52 text Inputs and choices
+				53 text Example name
+				54 text field (settable) Example name
+				55 text Priority
+				56 pop up button (collapsed, settable) Priority, Value: Normal, Secondary Actions: Expand
+					57 menu
+						58 (selected) Normal
+						59 High priority
+				60 checkbox (settable, integer) Description: Notify me when complete, Value: 0
+			61 container
+				62 heading Lists and badges, Value: 3
+					63 text Lists and badges
+				64 text Search sample pages
+				65 text field (settable) Search sample pages
+				66 table Sample pages
+					67 text Sample pages
+					68 row
+						69 cell
+							70 text Page
+						71 cell
+							72 text Status
+					73 row
+						74 cell
+							75 text Product homepage
+						76 cell
+							77 text Completed
+					78 row
+						79 cell
+							80 text Account settings
+						81 cell
+							82 text In progress
+					83 row
+						84 cell
+							85 text Help center
+						86 cell
+							87 text Pending
+			88 container
+				89 heading Switch and progress, Value: 3
+					90 text Switch and progress
+				91 text Receive updates
+				92 switch Description: Receive updates, Value: 1
+				93 text Completion  /  64 %
+				94 slider (settable, integer) Completion / 64%, Value: 64
+				95 progress indicator Description: Completion, Value: 64
+				96 text Notifications on
+			97 container
+				98 heading Messages and feedback, Value: 3
+					99 text Messages and feedback
+				100 text Draft saved Continue editing, then export when ready. Example connection failed Check the address and try again.
+			101 container
+				102 heading Dialog and confirmation, Value: 3
+					103 text Dialog and confirmation
+				104 text Open the dialog to check its surface, backdrop, and keyboard controls.
+				105 button Open sample dialog
+				106 text This example does not change your project.
+			107 text Light  /  Components / Styles apply only to the preview
+			108 link Description: Theme tools based on tweakcn, Value: github.com/jnsahaj/tweakcn/tree/a3b47b37cba97dd637de517aab52c45ec0f83456
+
+The focused UI element is 1 AXWebArea Theme Studio / Colors, typography and design tokens / HappyHands, URL: 127.0.0.1:4250/apps/studio/

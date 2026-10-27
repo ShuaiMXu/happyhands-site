@@ -1,0 +1,27 @@
+{
+  "scope": "Owned website shells and controls. Hero identity preserved; approved setup controls and homepage feed included; source themes and historical evidence are explicitly separated.",
+  "filesScanned": 19,
+  "exceptions": [
+    {
+      "file": "packages/ui/system-example.css",
+      "reason": "External design-system specimens use their adopted theme."
+    },
+    {
+      "file": "packages/ui/system-scenes.css",
+      "reason": "External design-system scene renderer preserves its theme."
+    },
+    {
+      "file": "apps/studio/component-examples.css",
+      "reason": "Editable project-theme samples preserve selected tokens."
+    },
+    {
+      "file": "systems/lime/style.css",
+      "reason": "Lime is an external, separately adopted design system."
+    },
+    {
+      "file": "apps/designer/style.css",
+      "reason": "Historical, read-only evidence UI; not the active local workbench."
+    }
+  ],
+  "findings": []
+}

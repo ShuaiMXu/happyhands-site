@@ -1,6 +1,9 @@
+import { resolveCatalogItem, searchCatalog } from "./catalog-search";
 import { applySiteMetadata } from "../packages/ui/site-seo";
 import { ComponentTile } from "./ComponentTile";
-import { ReferoImport } from "./ReferoImport";
+import { ArchiveFilter } from "./ArchiveFilter";
+import { ResourceToolbar } from "./ResourceToolbar";
+import { DesignMdLibrary } from "./DesignMdLibrary";
 import { SystemLibrary } from "./SystemLibrary";
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
@@ -13,8 +16,6 @@ import "../packages/design-tokens/happyhands.css";
 import "../packages/ui/site-layout.css";
 import "./style.css";
 import "../packages/ui/owned-ui.css";
-import { ProviderReference } from "./ProviderReference";
-import providers from "../public/components/providers.json";
 const groups: Record<string, [string, string]> = {
   all: ["全部组件", "All components"],
   buttons: ["按钮", "Buttons"],
@@ -31,15 +32,19 @@ type Item = (typeof data.items)[number];
 const title = (x: Item) =>
   x.title.replace("Ui", "UI").replace("Svg", "SVG").replace("Ai ", "AI ");
 const readSelection = () =>
-  data.items.find(
-    (x) => x.id === new URLSearchParams(location.search).get("component"),
+  resolveCatalogItem(
+    data.items,
+    new URLSearchParams(location.search).get("component"),
   )?.id || "";
+
 function App() {
   const readProvider = () => {
     const value = new URLSearchParams(location.search).get("provider");
-    return value === "kage" || value === "refero" || value === "systems"
-      ? value
-      : "cult-ui";
+    return value === "kage" || value === "refero" || value === "design-md"
+      ? "design-md"
+      : value === "systems"
+        ? "systems"
+        : "cult-ui";
   };
   const [provider, setProvider] = useState(readProvider);
   const { lang, dark, toggleLanguage, toggleTheme } = useSitePreferences();
@@ -103,7 +108,7 @@ function App() {
             ),
           }[reason] || reason;
   useEffect(() => {
-    applySiteMetadata('components',lang);
+    applySiteMetadata("components", lang);
   }, [lang]);
   useEffect(() => {
     const handle = () => {
@@ -146,14 +151,7 @@ function App() {
     );
     main.current?.focus();
   }
-  const filtered = data.items.filter(
-    (x) =>
-      !x.aliasOf &&
-      (group === "all" || x.category === group) &&
-      `${x.id} ${x.title} ${x.description} ${groups[x.category]?.join(" ")}`
-        .toLowerCase()
-        .includes(query.toLowerCase()),
-  );
+  const filtered = searchCatalog(data.items, query, group, groups);
   const guidance = t(
     `评估 Cult UI 的 ${item.id} 是否适合当前项目。固定源码版本：${item.revision}。\n先读取 ${location.origin}${item.source} 和 ${location.origin}/components/cult-ui/catalog.json，核对 MIT 许可、源码 SHA-256：${item.sourceSha256}、React/Tailwind 兼容性、npm 依赖和 registryDependencies。\n读取目标项目的设计规范，列出颜色、字体、间距、圆角和组件状态映射。不得直接覆盖全局主题或为演示引入无关服务。\n当前条目只是候选组件，站内可预览不等于项目适配通过。确认范围后再接入，验证键盘、触屏、减少动态效果、深浅色、响应式及原有业务流程。交付差异、验证证据与未解决限制。`,
     `Evaluate Cult UI ${item.id} for this project. Pinned source revision: ${item.revision}.\nRead ${location.origin}${item.source} and ${location.origin}/components/cult-ui/catalog.json. Verify MIT licensing, source SHA-256: ${item.sourceSha256}, React/Tailwind compatibility, npm dependencies and registryDependencies.\nRead project design rules and map colors, typography, spacing, corners and states. Do not overwrite global themes or add unrelated services.\nThis entry is a candidate; a preview is not project approval. Confirm scope before integration. Validate keyboard, touch, reduced motion, themes, responsive layout and business flows. Deliver the diff, evidence and limitations.`,
@@ -195,21 +193,17 @@ function App() {
       </div>
       <nav
         className="resource-sections"
-        aria-label={t("设计系统分类", "Design system sections")}
+        aria-label={t("设计资源分类", "Design resource sections")}
       >
         {[
           ["systems", t("设计系统", "Design systems")],
-          ["cult-ui", t("组件库", "Component libraries")],
-          ["kage", t("设计参考", "Design references")],
+          ["design-md", "Design.md"],
+          ["cult-ui", t("组件库", "Components")],
         ].map(([id, label]) => (
           <a
             key={id}
             href={`?provider=${id}`}
-            aria-current={
-              provider === id || (id === "kage" && provider === "refero")
-                ? "page"
-                : undefined
-            }
+            aria-current={provider === id ? "page" : undefined}
             onClick={(e) => {
               if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
               e.preventDefault();
@@ -222,100 +216,27 @@ function App() {
           </a>
         ))}
       </nav>
-      {provider !== "systems" && provider !== "cult-ui" && (
-        <nav
-          className="provider-navigation"
-          aria-label={t("资源来源", "Resource sources")}
-        >
-          {providers.providers
-            .filter((p) =>
-              provider === "cult-ui"
-                ? p.kind === "source-registry"
-                : p.kind !== "source-registry",
-            )
-            .map((p) => (
-              <a
-                key={p.id}
-                href={`?provider=${p.id}`}
-                aria-current={provider === p.id ? "page" : undefined}
-                onClick={(e) => {
-                  if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
-                  e.preventDefault();
-                  setProvider(p.id);
-                  history.pushState(null, "", `?provider=${p.id}`);
-                }}
-              >
-                <strong>{p.name}</strong>
-                <span>
-                  {p.kind === "source-registry"
-                    ? t(
-                        "组件源码 / 站内预览",
-                        "Component source / Local previews",
-                      )
-                    : p.id === "refero"
-                      ? t(
-                          "风格与规范 / DESIGN.md",
-                          "Style guidelines / DESIGN.md",
-                        )
-                      : t("页面与区块 / MCP", "Pages and sections / MCP")}
-                </span>
-              </a>
-            ))}
-        </nav>
-      )}
       {provider === "systems" ? (
         <SystemLibrary lang={lang} />
-      ) : provider === "refero" ? (
-        <ReferoImport lang={lang} />
-      ) : provider === "kage" ? (
-        <ProviderReference lang={lang} />
+      ) : provider === "design-md" ? (
+        <DesignMdLibrary lang={lang} />
       ) : (
         <div
           className={`library-layout ${selected ? "library-detail" : "library-browse"}`}
         >
           {!selected && (
             <>
-              <aside
-                className="library-directory"
-                aria-label={t("组件目录", "Component directory")}
-              >
-                <label className="catalog-search">
-                  {t("搜索组件", "Search components")}
-                  <input
-                    type="search"
-                    value={query}
-                    onChange={(e) => setQuery(e.target.value)}
-                    placeholder={t(
-                      "名称、分类或关键词",
-                      "Name, category or keyword",
-                    )}
-                  />
-                </label>
-                <label className="catalog-category">
-                  {t("分类", "Category")}
-                  <span className="hh-select-field">
-                    <select
-                      value={group}
-                      onChange={(e) => setGroup(e.target.value)}
-                    >
-                      {Object.entries(groups).map(([id, labels]) => (
-                        <option key={id} value={id}>
-                          {labels[lang === "zh" ? 0 : 1]} /{" "}
-                          {id === "all"
-                            ? data.items.filter((x) => !x.aliasOf).length
-                            : data.items.filter(
-                                (x) => !x.aliasOf && x.category === id,
-                              ).length}
-                        </option>
-                      ))}
-                    </select>
-                    <Icon name="down" />
-                  </span>
-                </label>
-                <p className="catalog-results" role="status">
-                  {filtered.length} {t("个结果", "results")}
-                </p>
-              </aside>
+              <ResourceToolbar label={t("搜索组件", "Search components")}
+                placeholder={t("搜索", "Search")}
+                query={query} onQueryChange={setQuery}
+                status={`${filtered.length} ${t("个结果", "results")}`}>
+                <ArchiveFilter label={t("组件分类", "Component category")} zh={lang === "zh"} value={group}
+                  onChange={setGroup}
+                  options={Object.entries(groups).map(([id, labels]) => ({
+                    value: id, label: labels[lang === "zh" ? 0 : 1],
+                    count: searchCatalog(data.items, query, id, groups).length,
+                  }))} />
+              </ResourceToolbar>
               <main
                 id="catalog-main"
                 className="component-results"

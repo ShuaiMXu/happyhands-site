@@ -1,3 +1,5 @@
+import { ResourceExport } from "./ResourceExport";
+import "./archive-gallery.css";
 import React, { useEffect, useState, useRef } from "react";
 const systems = [
   {
@@ -55,7 +57,7 @@ export function SystemLibrary({ lang }: { lang: string }) {
   const name = systems.find((system) => system.id === selected)?.name || "";
   const base = `/systems/${selected}/`;
   return (
-    <>
+    <main id="catalog-main" className="system-library-full" tabIndex={-1}>
       {!selected && (
         <nav
           className="provider-navigation system-cover-navigation"
@@ -92,7 +94,6 @@ export function SystemLibrary({ lang }: { lang: string }) {
           ))}
         </nav>
       )}
-      <main id="catalog-main" className="system-library-full">
         {selected && (
           <>
             <div className="system-detail-toolbar">
@@ -105,19 +106,45 @@ export function SystemLibrary({ lang }: { lang: string }) {
                 {t("← 返回设计系统", "← All design systems")}
               </button>
             </div>
-            <iframe
-              ref={frame}
-              key={selected}
-              title={t(
-                `${name} 完整设计规范`,
-                `${name} complete design system`,
-              )}
-              src={`${base}?embedded=1`}
-              style={{ height }}
-            />
+            <div className="resource-detail-heading">
+              <h2>{name}</h2>
+            </div>
+            <div className="resource-detail-layout system-reference-layout">
+              <div className="resource-detail-preview">
+                <iframe
+                  ref={frame}
+                  key={selected}
+                  title={t(
+                    `${name} 完整设计规范`,
+                    `${name} complete design system`,
+                  )}
+                  src={`${base}?embedded=1&resource=1`}
+                  style={{ height }}
+                />
+              </div>
+              <ResourceExport
+                key={selected}
+                lang={lang}
+                files={[
+                  ...(selected === "happyhands"
+                    ? [
+                        {
+                          label: "SKILL.md",
+                          url: "/systems/happyhands/SKILL.md",
+                          name: "SKILL.md",
+                        },
+                      ]
+                    : []),
+                  {
+                    label: "Tokens",
+                    url: `/systems/${selected}/tokens.json`,
+                    name: `${selected}-tokens.json`,
+                  },
+                ]}
+              />
+            </div>
           </>
         )}
-      </main>
-    </>
+    </main>
   );
 }

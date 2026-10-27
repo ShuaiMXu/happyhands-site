@@ -1,0 +1,60 @@
+Browser tab: 31, Title: "设计系统、Design.md 与组件库 / HappyHands", URL: "http://127.0.0.1:4250/components/?provider=cult-ui".
+1 AXWebArea 设计系统、Design.md 与组件库 / HappyHands, URL: 127.0.0.1:4250/components/?provider=cult-ui
+	2 container root
+		3 link Description: 跳到内容, Value: 127.0.0.1:4250/components/?provider=cult-ui#catalog-main
+		4 container
+			5 link Description: HappyHands, Value: 127.0.0.1:4250/apps/portal/
+			58 button (collapsed) Description: 菜单, Secondary Actions: Expand
+			7 button 切换到深色模式
+			8 button English
+		9 heading 设计资源, Value: 1
+			10 text 设计资源
+		11 container 设计系统分类
+			12 link Description: 设计系统, Value: 127.0.0.1:4250/components/?provider=systems
+			13 link Description: Design.md, Value: 127.0.0.1:4250/components/?provider=design-md
+			14 link Description: 组件库, Value: 127.0.0.1:4250/components/?provider=cult-ui
+		15 container 组件目录
+			16 container
+				17 text 搜索组件
+				18 search text field (settable) 搜索组件
+			19 container
+				20 text 分类
+				21 pop up button (collapsed, settable) 分类, Value: 全部组件 / 137, Secondary Actions: Expand
+					22 menu
+						23 (selected) 全部组件 / 137
+						24 按钮 / 11
+						25 输入与选择 / 11
+						26 卡片与投票 / 17
+						27 导航与切换 / 7
+						28 弹层与展开 / 13
+						29 文字与数字 / 15
+						30 插画与设备 / 20
+						31 页面区块 / 11
+						32 背景与效果 / 32
+			33 container
+				34 text 137 个结果
+		35 container catalog-main
+			36 link Description: Text Animate 文字与数字, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=text-animate
+			37 link Description: Cosmic Button 按钮, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=cosmic-button
+			38 link Description: Texture Button 按钮, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=texture-button
+			39 link Description: Texture Card 卡片与投票, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=texture-card
+			40 link Description: Timer 文字与数字, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=timer
+			41 link Description: Shift Card 卡片与投票, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=shift-card
+			42 link Description: Minimal Card 卡片与投票, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=minimal-card
+			43 link Description: Cutout Card 卡片与投票, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=cutout-card
+			44 link Description: Dynamic Island 弹层与展开, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=dynamic-island
+			45 link Description: Direction Aware Tabs 导航与切换, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=direction-aware-tabs
+			46 link Description: Bg Animate Button 按钮, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=bg-animate-button
+			47 link Description: Border Beam Button 按钮, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=border-beam-button
+			48 link Description: Family Button 按钮, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=family-button
+			49 link Description: Side Panel 弹层与展开, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=side-panel
+			50 link Description: Bg Media 背景与效果, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=bg-media
+			51 link Description: Three D Carousel 背景与效果, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=three-d-carousel
+			52 link Description: Tweet Grid 背景与效果, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=tweet-grid
+			53 link Description: Gradient Heading 文字与数字, Value: 127.0.0.1:4250/components/?provider=cult-ui&component=gradient-heading
+			54 container 组件分页
+				55 button (disabled) 上一页
+				56 text 1  /  8
+				57 button 下一页
+
+The focused UI element is 7 button 切换到深色模式

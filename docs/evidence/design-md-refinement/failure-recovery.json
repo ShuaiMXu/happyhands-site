@@ -1,0 +1,21 @@
+{
+  "indexFailureProof": {
+    "busy": null,
+    "error": "目录加载失败，请重试。重试",
+    "status": "目录加载失败"
+  },
+  "detailFailureProof": {
+    "alerts": [
+      "视频预览暂不可用。重试预览",
+      "设计规范加载失败，请重试。重试",
+      ""
+    ],
+    "poster": "/design-archive/mercury-3172cd4d/screenshot.jpg",
+    "title": "Mercury"
+  },
+  "faultRecoveryProof": {
+    "components": 9,
+    "poster": "/design-archive/mercury-3172cd4d/screenshot.jpg",
+    "ruleError": false
+  }
+}

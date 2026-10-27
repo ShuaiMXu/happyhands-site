@@ -22,3 +22,7 @@ User-approved profile, 2026-10-23. Read all eleven rules during implementation a
 ## Acceptance
 
 Review complete pages at normal desktop and phone sizes first, including navigation, empty/error/loading states and interactions. Inspect computed type sizes, color-token roles and focus, then visually check optical alignment and content hierarchy. Keep 200% zoom as a supplemental check; do not introduce arbitrary word breaks to satisfy it. Record screenshots, changed files, source/version, checks and remaining limitations. Static lint and source availability do not constitute visual acceptance. Await the user's requested preview confirmation before merging.
+
+## Component review
+
+When changing HappyHands-owned controls or resource pages, read [component contracts](references/components.md). Review shared primitives and their call sites together. Keep approved homepage freezes, external themes and source media as explicit scope boundaries. `npm run ui:audit` checks a narrow set of CSS rules; a clean report does not replace full-page and interaction verification.

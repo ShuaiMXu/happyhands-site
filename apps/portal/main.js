@@ -7,11 +7,15 @@ import {readLanguage, readTheme, savePreference} from '../../packages/ui/site-pr
 import * as zh from './content.zh.js';
 import {siteNavigation} from '../../packages/ui/site-navigation.ts';
 import '../../packages/ui/site-shell.css';
-import { setupConnect } from './connect.js';
+import { setupConnect, heroConnectMarkup } from './connect.js';
+import './hero-connect.css';
 import * as en from './content.en.js';
 import { repositories, heroScreens } from './content.js';
 import { startWhirl } from './whirl.js';
 import { portalContent } from './render-content.js';
+import { setupResourceFeed, syncResourceFeedTheme } from './resource-feed.js';
+import './resource-feed.css';
+let disposeResourceFeed;
 import './resource-covers.css';
 import { setupHomepageMotion } from './homepage-motion.js';
 import './homepage-motion.css';
@@ -26,6 +30,7 @@ document.querySelector('.header-cta')?.remove();
 const systemTheme = matchMedia('(prefers-color-scheme: dark)');
 
 function applyTheme(theme) {
+  syncResourceFeedTheme(document, theme === 'dark' ? 'dark' : 'light');
   document.documentElement.dataset.theme = theme;
   document.documentElement.style.colorScheme = theme;
   document.querySelector('meta[name="theme-color"]').content = theme === 'dark' ? '#111111' : '#f7f6f3';
@@ -90,14 +95,14 @@ function renderContent() {
   document.querySelector('.skip-link').textContent=lang==='zh'?'跳到主要内容':'Skip to content';
   document.querySelector('.desktop-nav').setAttribute('aria-label',lang==='zh'?'主要导航':'Main navigation');
   document.querySelector('.wordmark').setAttribute('aria-label','HappyHands');
-  document.querySelector('.desktop-nav').innerHTML=siteNavigation.map(item=>`<a href="${item.href}">${lang==='zh'?item.zh:item.en}</a>`).join('');
+  document.querySelector('.desktop-nav').innerHTML=`<a href="${repositories.core}">GitHub ${iconMarkup('external')}</a>`;
   updateNavigation();
   applyTheme(document.documentElement.dataset.theme);
 
   document.querySelector('#lang-switch button').innerHTML = iconMarkup('globe') + '<span class="hh-tool-label">' + (lang === 'zh' ? 'English' : '中文') + '</span>';
   document.querySelector('#lang-switch button').setAttribute('aria-label',lang === 'zh' ? 'English' : '中文');
   disposeMenu?.();
-  disposeMenu = setupSiteMenu(document.querySelector('.site-header'), lang);
+  document.querySelector('.site-header').classList.add('portal-compact-header');
   // hero
   document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
   applySiteMetadata('portal',lang);
@@ -109,17 +114,23 @@ function renderContent() {
     : `${c.hero.h1}<span>${c.hero.h1Accent}</span>${c.hero.h1Suffix}`;
   const heroCopy = document.querySelector('.hero-copy');
   if (heroCopy) heroCopy.textContent = c.hero.copy;
-  const primary = document.querySelector('.button-primary');
-  if (primary) { primary.textContent = c.hero.cta; primary.href = '#apps'; }
-  const secondary = document.querySelector('.button-secondary');
-  if (secondary) secondary.innerHTML = `${c.hero.ctaSecondary} ${iconMarkup('external')}`;
+  document.querySelector('#hero-connect').innerHTML = heroConnectMarkup(lang);
+  const primary = document.querySelector('.hero-actions .button-primary');
+  if (primary) primary.innerHTML = `${iconMarkup('copy')} ${c.hero.cta}`;
+  const secondary = document.querySelector('.hero-actions .button-secondary');
+  if (secondary) {
+    secondary.href = `${repositories.core}/blob/main/docs/harness.md`;
+    secondary.innerHTML = `${c.hero.ctaSecondary} ${iconMarkup('external')}`;
+  }
   const scrollNote = document.querySelector('.scroll-note');
   if (scrollNote) scrollNote.innerHTML = `${c.ui.scrollNote} ${iconMarkup('down')}`;
 
   // sections
   const content = document.querySelector('#portal-content');
   if (content) {
+    disposeResourceFeed?.();
     content.innerHTML = portalContent(lang);
+    disposeResourceFeed = setupResourceFeed(content);
   }
 
   // footer
@@ -220,8 +231,8 @@ document.addEventListener('click', async e => {
   try {
     await navigator.clipboard.writeText(btn.dataset.copy);
     const toast = document.querySelector('#toast');
-    if (toast) { toast.textContent = lang === 'zh' ? '已复制' : 'Copied'; toast.classList.add('show'); clearTimeout(toastTimer); toastTimer = setTimeout(() => toast.classList.remove('show'), 1800); }
-  } catch { const toast = document.querySelector('#toast'); if (toast) { toast.textContent = lang === 'zh' ? '无法复制，请手动选择上方命令。' : 'Copy unavailable. Select the command above manually.'; toast.classList.add('show'); } }
+    if (toast) { toast.textContent = btn.id === 'copy-agent' ? (lang === 'zh' ? '已复制，请粘贴到所选 AI 工具' : 'Copied. Paste into your selected AI tool.') : (lang === 'zh' ? '已复制' : 'Copied'); toast.classList.add('show'); clearTimeout(toastTimer); toastTimer = setTimeout(() => toast.classList.remove('show'), 1800); }
+  } catch { const toast = document.querySelector('#toast'); if (toast) { toast.textContent = btn.id === 'copy-agent' ? (lang === 'zh' ? '无法复制，请重试，或按 GitHub 接入指南操作。' : 'Copy unavailable. Retry or follow the setup guide on GitHub.') : (lang === 'zh' ? '无法复制，请手动选择上方命令。' : 'Copy unavailable. Select the command above manually.'); toast.classList.add('show'); } }
 });
 
 // -- boot --

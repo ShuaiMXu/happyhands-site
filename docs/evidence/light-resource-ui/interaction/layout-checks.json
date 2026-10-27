@@ -1,0 +1,82 @@
+[
+  {
+    "overflow": false,
+    "radii": [
+      "8px",
+      "12px",
+      "12px"
+    ],
+    "url": "http://127.0.0.1:4250/components/?provider=design-md",
+    "width": 390
+  },
+  {
+    "overflow": false,
+    "radii": [
+      "8px"
+    ],
+    "url": "http://127.0.0.1:4250/components/?provider=cult-ui",
+    "width": 390
+  },
+  {
+    "overflow": false,
+    "radii": [],
+    "url": "http://127.0.0.1:4250/components/?provider=systems",
+    "width": 390
+  },
+  {
+    "overflow": false,
+    "radii": [
+      "12px",
+      "12px",
+      "12px"
+    ],
+    "url": "http://127.0.0.1:4250/apps/studio/",
+    "width": 390
+  },
+  {
+    "overflow": false,
+    "radii": [],
+    "url": "http://127.0.0.1:4250/apps/portal/",
+    "width": 390
+  },
+  {
+    "overflow": false,
+    "radii": [
+      "8px",
+      "12px",
+      "12px"
+    ],
+    "url": "http://127.0.0.1:4250/components/?provider=design-md",
+    "width": 1280
+  },
+  {
+    "overflow": false,
+    "radii": [
+      "8px"
+    ],
+    "url": "http://127.0.0.1:4250/components/?provider=cult-ui",
+    "width": 1280
+  },
+  {
+    "overflow": false,
+    "radii": [],
+    "url": "http://127.0.0.1:4250/components/?provider=systems",
+    "width": 1280
+  },
+  {
+    "overflow": false,
+    "radii": [
+      "12px",
+      "12px",
+      "12px"
+    ],
+    "url": "http://127.0.0.1:4250/apps/studio/",
+    "width": 1280
+  },
+  {
+    "overflow": false,
+    "radii": [],
+    "url": "http://127.0.0.1:4250/apps/portal/",
+    "width": 1280
+  }
+]

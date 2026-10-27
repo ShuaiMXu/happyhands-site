@@ -26,3 +26,6 @@ html body details > summary > .hh-icon { width:16px; height:16px; flex-shrink:0;
 html body details[open] > summary > .hh-icon { transform:rotate(180deg); }
 html body details > summary:focus-visible { outline:2px solid var(--hh-ring); outline-offset:3px; border-radius:var(--hh-radius-sm); }
 @media (forced-colors:active) { html body details > summary::after { background:CanvasText; } }
+
+html body details > summary::after, html body details > summary > .hh-icon { transition:transform 250ms ease-out; }
+@media(prefers-reduced-motion:reduce) { html body details > summary::after, html body details > summary > .hh-icon { transition:none; } }

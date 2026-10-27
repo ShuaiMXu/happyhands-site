@@ -102,8 +102,8 @@ export const hero = {
   "h1Accent": "更专业",
   "h1Suffix": "。",
   "copy": "系统优化页面布局、交互流程与组件一致性。结合 AI 辅助修改与效果复核，提升产品体验。",
-  "cta": "了解能力",
-  "ctaSecondary": "查看真实审阅"
+  "cta": "复制接入提示词",
+  "ctaSecondary": "接入指南"
 };
 
 export const screenPairs = [
@@ -296,7 +296,7 @@ export const systems = [
 ];
 
 export const ui = {
-  "scrollNote": "浏览产品能力",
+  "scrollNote": "浏览设计资源",
   "githubLink": "GitHub",
   "footer": {
     "left": "HappyHands / AI Product Designer",

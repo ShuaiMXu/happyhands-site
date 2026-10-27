@@ -1,0 +1,123 @@
+Browser tab: 31, Title: "设计系统、Design.md 与组件库 / HappyHands", URL: "http://127.0.0.1:4252/components/?provider=design-md".
+1 AXWebArea 设计系统、Design.md 与组件库 / HappyHands, URL: 127.0.0.1:4252/components/?provider=design-md
+	2 container root
+		3 link Description: 跳到内容, Value: 127.0.0.1:4252/components/?provider=design-md#catalog-main
+		4 container
+			5 link Description: HappyHands, Value: 127.0.0.1:4252/apps/portal/
+			121 button (collapsed) Description: 菜单, Secondary Actions: Expand
+			7 button Description: 切换到深色模式, ID: base-ui-_r_1_
+			8 button Description: English, ID: base-ui-_r_3_
+		9 heading 设计资源, Value: 1
+			10 text 设计资源
+		11 container 设计系统分类
+			12 link Description: 设计系统, Value: 127.0.0.1:4252/components/?provider=systems
+			13 link Description: Design.md, Value: 127.0.0.1:4252/components/?provider=design-md
+			14 link Description: 组件库, Value: 127.0.0.1:4252/components/?provider=cult-ui
+		15 container catalog-main
+			16 container Design.md
+				17 container
+					18 text 搜索
+					19 search text field (settable) 搜索
+				20 container
+					21 text 分类
+					22 pop up button (collapsed, settable) Description: 分类, Value: 全部分类, Secondary Actions: Expand
+						23 menu
+							24 (selected) 全部分类
+							25 SaaS (202)
+							26 创意机构 (199)
+							27 电商 (176)
+							28 AI (130)
+							29 设计 (115)
+							30 开发工具 (97)
+							31 金融 (81)
+							32 效率工具 (76)
+							33 内容与媒体 (65)
+							34 加密与 Web3 (56)
+							35 其他 (145)
+				36 container 主题
+					37 text 主题
+					38 checkbox 全部, Value: 1
+					39 checkbox 浅色, Value: 0
+					40 checkbox 深色, Value: 0
+					41 checkbox 混合, Value: 0
+				42 text 1342 个网站
+				43 container
+					44 link Description: (dot)connect dotconnect.vc, Value: 127.0.0.1:4252/components/?provider=design-md&design=dot-connect-981d90e9, ID: archive-dot-connect-981d90e9
+					45 checkbox Description: 播放预览 (dot)connect, Value: 0
+				46 container
+					47 link Description: 099 SUPPLY 099.supply, Value: 127.0.0.1:4252/components/?provider=design-md&design=099-supply-e4a7b5f3, ID: archive-099-supply-e4a7b5f3
+					48 checkbox Description: 播放预览 099 SUPPLY, Value: 0
+				49 container
+					50 link Description: 10X HUB 10xdesigners.co, Value: 127.0.0.1:4252/components/?provider=design-md&design=10x-hub-4acc13a0, ID: archive-10x-hub-4acc13a0
+					51 checkbox Description: 播放预览 10X HUB, Value: 0
+				52 container
+					53 link Description: 11x– Digital workers www.11x.ai, Value: 127.0.0.1:4252/components/?provider=design-md&design=11x-digital-workers-850ee61c, ID: archive-11x-digital-workers-850ee61c
+					54 checkbox Description: 播放预览 11x– Digital workers, Value: 0
+				55 container
+					56 link Description: 12th Berlin Biennale for Contemporary Art 12.berlinbiennale.de, ID: archive-12th-berlin-biennale-for-contemporary-art-1c2d4a33, Value: 127.0.0.1:4252/components/?provider=design-md&design=12th-berlin-biennale-for-contemporary-art-1c2d4a33
+					57 checkbox Description: 播放预览 12th Berlin Biennale for Contemporary Art, Value: 0
+				58 container
+					59 link Description: 14islands 14islands.com, Value: 127.0.0.1:4252/components/?provider=design-md&design=14islands-139c4bee, ID: archive-14islands-139c4bee
+					60 checkbox Description: 播放预览 14islands, Value: 0
+				61 container
+					62 link Description: 15five www.15five.com, Value: 127.0.0.1:4252/components/?provider=design-md&design=15five-88a00b3e, ID: archive-15five-88a00b3e
+					63 checkbox Description: 播放预览 15five, Value: 0
+				64 container
+					65 link Description: 19–86 19-86.fr, Value: 127.0.0.1:4252/components/?provider=design-md&design=19-86-6f428c12, ID: archive-19-86-6f428c12
+					66 checkbox Description: 播放预览 19–86, Value: 0
+				67 container
+					68 link Description: 1X Tech www.1x.tech, Value: 127.0.0.1:4252/components/?provider=design-md&design=1x-tech-7aa1dbff, ID: archive-1x-tech-7aa1dbff
+					69 checkbox Description: 播放预览 1X Tech, Value: 0
+				70 container
+					71 link Description: 2.AG 2ag.com, Value: 127.0.0.1:4252/components/?provider=design-md&design=2-ag-8b4a1a95, ID: archive-2-ag-8b4a1a95
+					72 checkbox Description: 播放预览 2.AG, Value: 0
+				73 container
+					74 link Description: 2020 albumcolors.com, Value: 127.0.0.1:4252/components/?provider=design-md&design=2020-ac660bff, ID: archive-2020-ac660bff
+					75 checkbox Description: 播放预览 2020, Value: 0
+				76 container
+					77 link Description: 21 TSI 21tsi.com, Value: 127.0.0.1:4252/components/?provider=design-md&design=21-tsi-7b28c99e, ID: archive-21-tsi-7b28c99e
+					78 checkbox Description: 播放预览 21 TSI, Value: 0
+				79 container
+					80 link Description: 21n memotron.app, Value: 127.0.0.1:4252/components/?provider=design-md&design=21n-68d18deb, ID: archive-21n-68d18deb
+					81 checkbox Description: 播放预览 21n, Value: 0
+				82 container
+					83 link Description: 601 Inc. www.rokumaruichi.tokyo, Value: 127.0.0.1:4252/components/?provider=design-md&design=601-inc-1cb31aee, ID: archive-601-inc-1cb31aee
+					84 checkbox Description: 播放预览 601 Inc., Value: 0
+				85 container
+					86 link Description: 70Materia 70materia.com, Value: 127.0.0.1:4252/components/?provider=design-md&design=70materia-f22a5ad1, ID: archive-70materia-f22a5ad1
+					87 checkbox Description: 播放预览 70Materia, Value: 0
+				88 container
+					89 link Description: 7shifts www.7shifts.com, Value: 127.0.0.1:4252/components/?provider=design-md&design=7shifts-736830b5, ID: archive-7shifts-736830b5
+					90 checkbox Description: 播放预览 7shifts, Value: 0
+				91 container
+					92 link Description: 8returns www.8returns.com, Value: 127.0.0.1:4252/components/?provider=design-md&design=8returns-d5799c71, ID: archive-8returns-d5799c71
+					93 checkbox Description: 播放预览 8returns, Value: 0
+				94 container
+					95 link Description: A-dam a-dam.com, Value: 127.0.0.1:4252/components/?provider=design-md&design=a-dam-0fc184f7, ID: archive-a-dam-0fc184f7
+					96 checkbox Description: 播放预览 A-dam, Value: 0
+				97 container
+					98 link Description: A-WARE a-ware.at, Value: 127.0.0.1:4252/components/?provider=design-md&design=a-ware-5681f7b6, ID: archive-a-ware-5681f7b6
+					99 checkbox Description: 播放预览 A-WARE, Value: 0
+				100 container
+					101 link Description: a16z speedrun speedrun.a16z.com, Value: 127.0.0.1:4252/components/?provider=design-md&design=a16z-speedrun-4fa31278, ID: archive-a16z-speedrun-4fa31278
+					102 checkbox Description: 播放预览 a16z speedrun, Value: 0
+				103 container
+					104 link Description: A24 a24films.com, Value: 127.0.0.1:4252/components/?provider=design-md&design=a24-6afa22a6, ID: archive-a24-6afa22a6
+					105 checkbox Description: 播放预览 A24, Value: 0
+				106 container
+					107 link Description: Aaply aaply.app, Value: 127.0.0.1:4252/components/?provider=design-md&design=aaply-357e6fee, ID: archive-aaply-357e6fee
+					108 checkbox Description: 播放预览 Aaply, Value: 0
+				109 container
+					110 link Description: Aaron Poe & Co aaronpoeandco.com, Value: 127.0.0.1:4252/components/?provider=design-md&design=aaron-poe-and-co-3240fdc0, ID: archive-aaron-poe-and-co-3240fdc0
+					111 checkbox Description: 播放预览 Aaron Poe & Co, Value: 0
+				112 container
+					113 link Description: Aaru aaru.com, Value: 127.0.0.1:4252/components/?provider=design-md&design=aaru-ad98aac8, ID: archive-aaru-ad98aac8
+					114 checkbox Description: 播放预览 Aaru, Value: 0
+				115 container 参考分页
+					116 button (disabled) 上一页
+					117 text 1  /  56
+					118 button 下一页
+			119 button (collapsed) 导入自己的 DESIGN.md, Secondary Actions: Expand
+				120 text 导入自己的 DESIGN.md
+
+The focused UI element is 7 button Description: 切换到深色模式, ID: base-ui-_r_1_

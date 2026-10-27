@@ -451,10 +451,11 @@ h1 {
 .library-heading { padding-block:32px 16px; }
 .library-heading .catalog-eyebrow a { text-decoration:none; }
 .library-heading .catalog-eyebrow a:hover { color:var(--hh-brand-text); }
-.resource-sections { gap:8px; padding-block:8px; border:0; }
-.resource-sections a { padding-inline:14px; border-radius:var(--hh-radius-md); }
-.resource-sections a[aria-current="page"] { background:var(--hh-bg-raised); color:var(--hh-ink); }
-.resource-sections a:hover { background:var(--hh-bg-raised); }
+.resource-sections { gap:28px; padding-block:0; border:0; flex-wrap:nowrap; }
+.resource-sections a { position:relative; padding:0 0 12px; border-radius:0; min-height:44px; font-size:14px; font-weight:500; white-space:nowrap; }
+.resource-sections a[aria-current="page"] { background:transparent; color:var(--hh-ink); font-weight:600; }
+.resource-sections a[aria-current="page"]::after { content:""; position:absolute; inset:auto 0 0; height:2px; background:var(--hh-ink); }
+.resource-sections a:hover { background:transparent; color:var(--hh-ink); }
 .provider-navigation { padding-block:16px; gap:8px; }
 .provider-navigation a { min-height:44px; align-content:center; font-size:14px; }
 .provider-reference { padding-top:16px; padding-bottom:48px; }
@@ -473,7 +474,7 @@ h1 {
 @media(max-width:800px) {
   .library-heading { padding-top:24px; }
   .catalog-total { white-space:normal; }
-  .resource-sections { gap:16px; font-size:12px; }
+  .resource-sections { gap:24px; }
   .provider-navigation a { flex:0 1 auto; min-width:0; }
 }
 /* Reference documents share the catalog's surface, spacing and controls. */
@@ -490,7 +491,7 @@ h1 {
 
 /* Illustrated system selectors: keep native links and the existing URL-backed selection. */
 .system-cover-navigation { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; padding-block:24px; }
-.system-cover-navigation a { display:block; min-width:0; padding:0; overflow:hidden; border-radius:16px; background:var(--hh-bg-raised); text-decoration:none; }
+.system-cover-navigation a { display:block; min-width:0; padding:0; overflow:hidden; border-radius:var(--hh-radius-lg); background:var(--hh-bg-raised); text-decoration:none; }
 .system-cover-navigation img { display:block; width:100%; height:auto; }
 .system-cover-label { padding:18px 20px; }
 .system-cover-label strong { font-size:20px; }
@@ -517,18 +518,18 @@ h1 {
 .library-heading h1,.library-heading .catalog-total { margin:0; }
 
 /* Browse outcomes first; source and adoption belong to the selected component. */
-.library-browse { grid-template-columns:200px minmax(0,1fr); gap:32px; }
+.library-browse { display:block; }
 .library-browse .library-directory { border:0; padding:0; }
 .component-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:28px 20px; }
 .component-tile { min-width:0; text-decoration:none; }
-.component-tile-art { position:relative; aspect-ratio:1.4; overflow:hidden; background:var(--hh-bg-sunken); border:0.5px solid var(--hh-line); border-radius:8px; pointer-events:none; }
+.component-tile-art { position:relative; aspect-ratio:1.4; overflow:hidden; background:var(--hh-bg-sunken); border:0.5px solid var(--hh-line); border-radius:var(--hh-radius-md); pointer-events:none; }
 .component-tile-art iframe { display:block; width:200%; height:200%; border:0; transform:scale(.5); transform-origin:top left; pointer-events:none; }
 .component-tile-caption { padding:12px 0 0; }
 .component-tile-caption h2 { font-size:14px; line-height:1.5; font-weight:600; margin:0; }
 .component-tile-caption span { display:block; margin-top:4px; font-size:12px; color:var(--hh-ink-muted); }
 .component-tile:hover .component-tile-art { border-color:var(--hh-line-strong); }
 .gallery-pagination { display:flex; align-items:center; justify-content:center; gap:24px; margin-top:32px; }
-.gallery-pagination button,.component-detail-actions button,.system-detail-toolbar button,.catalog-empty button { min-height:44px; padding:8px 16px; border:0.5px solid var(--hh-line-strong); border-radius:4px; background:var(--hh-bg); color:var(--hh-ink); cursor:pointer; }
+.gallery-pagination button,.component-detail-actions button,.system-detail-toolbar button,.catalog-empty button { min-height:44px; padding:8px 16px; border:0.5px solid var(--hh-line-strong); border-radius:var(--hh-radius-sm); background:var(--hh-bg); color:var(--hh-ink); cursor:pointer; }
 .gallery-pagination button:disabled { opacity:.45; cursor:default; }
 .library-detail { display:block; max-width:1200px; }
 .component-detail-actions { display:flex; justify-content:space-between; gap:16px; margin-bottom:24px; }
@@ -541,7 +542,7 @@ h1 {
  .library-browse .library-directory { position:static; display:grid; grid-template-columns:1fr; max-height:none; margin-bottom:24px; gap:12px; }
  .library-browse .catalog-search,.library-browse .catalog-category,.library-browse .catalog-results { margin:0; }
  .component-grid { grid-template-columns:1fr; gap:24px; }
- .component-tile-art { aspect-ratio:1; }
+ .component-tile-art { aspect-ratio:1.4; }
  .component-tile-caption h2 { font-size:14px; }
  .gallery-pagination { gap:16px; }
 }
@@ -551,3 +552,5 @@ h1 {
 .reference-import input[type="file"]::file-selector-button { min-height:44px; margin-right:12px; padding:8px 16px; border:0.5px solid var(--hh-line-strong); border-radius:var(--hh-radius-md); background:var(--hh-bg-raised); color:var(--hh-ink); font:inherit; cursor:pointer; }
 .reference-import input[type="file"]:focus-visible { outline:2px solid var(--hh-ring); outline-offset:4px; }
 .provider-reference > h2 { font-size:20px; line-height:1.5; }
+
+@media(min-width:560px) and (max-width:700px) { .component-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }

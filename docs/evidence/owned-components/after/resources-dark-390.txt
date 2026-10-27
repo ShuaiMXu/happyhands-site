@@ -1,0 +1,21 @@
+Browser tab: 31, Title: "设计系统、Design.md 与组件库 / HappyHands", URL: "http://127.0.0.1:4250/components/?provider=systems".
+1 AXWebArea 设计系统、Design.md 与组件库 / HappyHands, URL: 127.0.0.1:4250/components/?provider=systems
+	2 container root
+		3 link Description: 跳到内容, Value: 127.0.0.1:4250/components/?provider=systems#catalog-main
+		4 container
+			5 link Description: HappyHands, Value: 127.0.0.1:4250/apps/portal/
+			19 button (collapsed) Description: 菜单, Secondary Actions: Expand
+			7 button 切换到浅色模式
+			8 button English
+		9 heading 设计资源, Value: 1
+			10 text 设计资源
+		11 container 设计系统分类
+			12 link Description: 设计系统, Value: 127.0.0.1:4250/components/?provider=systems
+			13 link Description: Design.md, Value: 127.0.0.1:4250/components/?provider=design-md
+			14 link Description: 组件库, Value: 127.0.0.1:4250/components/?provider=cult-ui
+		15 container 资源来源
+			16 link Description: HappyHands 品牌规范与产品组件 查看设计系统, Value: 127.0.0.1:4250/components/?provider=systems&system=happyhands
+			17 link Description: Quartz AI 工作流与专业工具 查看设计系统, Value: 127.0.0.1:4250/components/?provider=systems&system=quartz
+			18 link Description: Lime 个人助手与消费类应用 查看设计系统, Value: 127.0.0.1:4250/components/?provider=systems&system=lime
+
+The focused UI element is 7 button 切换到浅色模式

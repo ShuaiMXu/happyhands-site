@@ -1,0 +1,35 @@
+{
+  "agents": [
+    {
+      "characters": 1431,
+      "matchesFullField": true,
+      "selected": "codex"
+    },
+    {
+      "characters": 1436,
+      "matchesFullField": true,
+      "selected": "claude-code"
+    },
+    {
+      "characters": 1549,
+      "matchesFullField": true,
+      "selected": "cursor"
+    },
+    {
+      "characters": 1553,
+      "matchesFullField": true,
+      "selected": "kimi"
+    },
+    {
+      "characters": 1558,
+      "matchesFullField": true,
+      "selected": "workbuddy"
+    }
+  ],
+  "languageSwitchRetains": "workbuddy",
+  "guide": {
+    "hash": "#connect-agent",
+    "localProjectSetup": true,
+    "promptControls": 1
+  }
+}

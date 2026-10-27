@@ -39,16 +39,16 @@ test('redirect only the exact legacy production alias, not preview hosts',async(
 test('shared portal renderer provides real content in both languages without browser state',()=>{
   const zh=portalContent('zh'),en=portalContent('en');
   for(const html of [zh,en]){
-    for(const id of ['apps','connect-agent','screens','get-started'])assert.equal((html.match(new RegExp(`id="${id}"`,'g'))||[]).length,1,id);
-    assert.ok(html.includes('pnpm workbench'));
-    assert.ok(html.includes('docs/counter-evidence-review-2026-10-21.md'));
-    assert.ok(html.includes('docs/harness.md'));
+    for(const id of ['design-resources'])assert.equal((html.match(new RegExp(`id="${id}"`,'g'))||[]).length,1,id);
+    assert.ok(!html.includes('pnpm workbench'));
+    assert.ok(!html.includes('homepage-case'));
+    assert.equal((html.match(/role="tab"/g)||[]).length,3);
     assert.ok(!html.includes('undefined'));
     assert.ok(!html.includes('happyhands-design.vercel.app'));
-    assert.deepEqual(html.match(/value="[^"]+"/g), ['value="http://127.0.0.1:4190/apps/designer/"'],'Only the public local-workbench default may be rendered');
+    assert.ok(!html.includes('handoff-repo'));
   }
-  assert.ok(zh.includes('常见问题'));assert.ok(zh.includes('待人工验收'));
-  assert.ok(en.includes('Frequently asked questions'));assert.ok(en.includes('human acceptance and release unconfirmed'));
+  assert.ok(!zh.includes('常见问题'));assert.ok(!zh.includes('待人工验收'));
+  assert.ok(!en.includes('Frequently asked questions'));assert.ok(!en.includes('human acceptance pending'));
 });
 
 test('search metadata has one canonical and a factual entity graph for each public page',()=>{
@@ -86,7 +86,7 @@ test('machine reading aid links to user-facing facts and preserves crawler exclu
  assert.ok(text.includes('not an indexing requirement'));
  const robots=await read('public/robots.txt');
  assert.ok(!/^User-agent: (?:OAI-SearchBot|GPTBot)/m.test(robots),'Do not accidentally override wildcard exclusions or change training policy');
- assert.ok(portalContent('zh').includes('href="/guide/"'));assert.ok(portalContent('en').includes('href="/en/guide/"'));
+ for(const lang of ['zh','en']) { const home=portalContent(lang); assert.ok(home.includes('id="design-resources"')); assert.ok(!home.includes('id="connect-agent"')); }
 });
 test('product structured data describes real capabilities without invented ratings',async()=>{
  const html=await read('apps/portal/index.html');

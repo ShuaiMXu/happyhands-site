@@ -1,0 +1,98 @@
+[
+  {
+    "provider": "systems",
+    "active": [
+      "设计系统"
+    ],
+    "mainLinks": 3,
+    "overflow": false,
+    "radius": null,
+    "width": 390
+  },
+  {
+    "provider": "design-md",
+    "active": [
+      "Design.md"
+    ],
+    "mainLinks": 24,
+    "overflow": false,
+    "radius": "4px",
+    "searchHeight": 44,
+    "width": 390
+  },
+  {
+    "provider": "cult-ui",
+    "active": [
+      "组件库"
+    ],
+    "mainLinks": 18,
+    "overflow": false,
+    "radius": "4px",
+    "searchHeight": 44,
+    "width": 390
+  },
+  {
+    "provider": "systems",
+    "active": [
+      "设计系统"
+    ],
+    "mainLinks": 3,
+    "overflow": false,
+    "radius": null,
+    "width": 768
+  },
+  {
+    "provider": "design-md",
+    "active": [
+      "Design.md"
+    ],
+    "mainLinks": 24,
+    "overflow": false,
+    "radius": "4px",
+    "searchHeight": 44,
+    "width": 768
+  },
+  {
+    "provider": "cult-ui",
+    "active": [
+      "组件库"
+    ],
+    "mainLinks": 18,
+    "overflow": false,
+    "radius": "4px",
+    "searchHeight": 44,
+    "width": 768
+  },
+  {
+    "provider": "systems",
+    "active": [
+      "设计系统"
+    ],
+    "mainLinks": 3,
+    "overflow": false,
+    "radius": null,
+    "width": 1280
+  },
+  {
+    "provider": "design-md",
+    "active": [
+      "Design.md"
+    ],
+    "mainLinks": 24,
+    "overflow": false,
+    "radius": "4px",
+    "searchHeight": 44,
+    "width": 1280
+  },
+  {
+    "provider": "cult-ui",
+    "active": [
+      "组件库"
+    ],
+    "mainLinks": 18,
+    "overflow": false,
+    "radius": "4px",
+    "searchHeight": 44,
+    "width": 1280
+  }
+]

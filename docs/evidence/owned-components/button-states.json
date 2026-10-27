@@ -1,0 +1,14 @@
+{
+  "idleButton": {
+    "height": 44.796875,
+    "width": 123.0625
+  },
+  "busyButton": {
+    "busy": "true",
+    "disabled": true,
+    "height": 44.796875,
+    "name": "Save changes",
+    "width": 123.0625
+  },
+  "layoutStable": true
+}

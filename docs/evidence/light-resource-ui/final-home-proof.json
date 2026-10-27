@@ -1,0 +1,23 @@
+{
+  "desktop": {
+    "feedLinks": 9,
+    "frameThemes": [
+      "dark",
+      "dark",
+      "dark"
+    ],
+    "lang": "en",
+    "overflow": false,
+    "prompts": 1431,
+    "theme": "dark",
+    "width": 1280
+  },
+  "mobile": {
+    "feedLinks": 9,
+    "lang": "zh-CN",
+    "overflow": false,
+    "prompts": 580,
+    "theme": "dark",
+    "width": 390
+  }
+}

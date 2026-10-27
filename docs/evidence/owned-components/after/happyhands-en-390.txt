@@ -1,0 +1,379 @@
+Browser tab: 32, Title: "HappyHands design system / Tokens, components and UI states", URL: "http://127.0.0.1:4250/systems/happyhands/".
+1 AXWebArea HappyHands design system / Tokens, components and UI states, URL: 127.0.0.1:4250/systems/happyhands/
+	2 container root
+		3 link Description: Skip to content, Value: 127.0.0.1:4250/systems/happyhands/#overview
+		4 container
+			5 link Description: HappyHands, Value: 127.0.0.1:4250/apps/portal/
+			6 button (collapsed) Description: Menu, Secondary Actions: Expand
+			7 button Switch to dark mode
+			8 button 中文
+		9 container
+			10 container Breadcrumb
+				11 link Description: Home, Value: 127.0.0.1:4250/apps/portal/
+				12 link Description: Design systems, Value: 127.0.0.1:4250/components/?provider=systems
+				13 text HappyHands
+			14 container overview
+				15 text Our design system
+				16 heading HappyHands, Value: 1
+					17 text HappyHands
+				18 text Clear. Considered. Human.
+				19 text Reusable guidelines for consistent colors, typography and interaction feedback, used throughout this website and Theme Studio.
+				20 link Description: Try components, Value: 127.0.0.1:4250/systems/happyhands/#components
+				21 link Description: Use in your project, Value: 127.0.0.1:4250/systems/happyhands/#adopt
+				22 text Interactive example
+				23 button Switch example appearance
+				24 heading Choose pages to review, Value: 2
+					25 text Choose pages to review
+				26 text Select the pages to include in this review.
+				27 container Pages
+					28 text Pages
+					29 container
+						30 checkbox (settable, integer) Description: Homepage Desktop / Phone, Value: 1
+						31 text Homepage Desktop / Phone
+					32 container
+						33 checkbox (settable, integer) Description: Settings Desktop / Phone, Value: 0
+						34 text Settings Desktop / Phone
+				35 button Confirm selection
+				36 text 1 selected
+				37 text Sample content. No project is read or changed.
+			38 button (collapsed) On this page, Secondary Actions: Expand
+				39 text On this page
+			40 container scenes
+				41 heading Application examples, Value: 2
+					42 text Application examples
+				43 text Switch scenes and appearance. Try selection, confirmation and form feedback.
+				44 container Scene appearance
+					45 checkbox Light, Value: 1
+					46 checkbox Dark, Value: 0
+				47 container Choose a scene
+					48 checkbox 01 Review selection, Value: 1
+						49 text 0
+						50 text 1
+						51 text Review selection
+					52 checkbox 02 Project overview, Value: 0
+						53 text 0
+						54 text 2
+						55 text Project overview
+					56 checkbox 03 Workspace settings, Value: 0
+						57 text 0
+						58 text 3
+						59 text Workspace settings
+				60 container
+					61 text HappyHands Interactive scene / Sample data
+				62 text Interactive example
+				63 button Switch example appearance
+				64 heading Choose pages to review, Value: 2
+					65 text Choose pages to review
+				66 text Select the pages to include in this review.
+				67 container Pages
+					68 text Pages
+					69 container
+						70 checkbox (settable, integer) Description: Homepage Desktop / Phone, Value: 1
+						71 text Homepage Desktop / Phone
+					72 container
+						73 checkbox (settable, integer) Description: Settings Desktop / Phone, Value: 0
+						74 text Settings Desktop / Phone
+				75 button Confirm selection
+				76 text 1 selected
+				77 text Sample content. No project is read or changed.
+				78 text Scenes implemented by HappyHands to illustrate layout and behavior. No project connection; these do not replace upstream component installation.
+			79 container foundations
+				80 heading Color, type and spacing, Value: 2
+					81 text Color, type and spacing
+				82 container
+					83 heading Type, Value: 3
+						84 text Type
+					85 text PingFang-first sans serif. Clear headings, natural wrapping; monospace for technical identifiers.
+				86 container
+					87 heading Space & shape, Value: 3
+						88 text Space & shape
+					89 text Spacing: 4 / 8 / 12 / 16 / 24 / 32. Controls: radius 10; floating surfaces: 18. Keep flat content free of stacked shadows.
+				90 container
+					91 heading Actions & feedback, Value: 3
+						92 text Actions & feedback
+					93 text Ink primary actions show the next step. Orange is a brand accent; success, warning and errors also have explicit text.
+				94 heading Complete token reference, Value: 3
+					95 text Complete token reference
+				96 text 58 tokens in light and dark modes, read from the same source used by this site.
+				97 button Export CSS
+				98 button Export JSON
+				99 container
+					100 text Find a token
+					101 search text field (settable) Find a token
+				102 container
+					103 text Token group
+					104 pop up button (collapsed, settable) Token group, Value: All, Secondary Actions: Expand
+						105 menu
+							106 (selected) All
+							107 Colors
+							108 Type
+							109 Spacing
+							110 Shape & layers
+				111 text 12 of 58 matches / 58 tokens total
+				112 container
+					113 heading bg, Value: 4
+						114 text bg
+					115 text --hh- bg
+					116 definition list
+						117 container Light
+							118 text Light
+						119 text #fcfcfc
+						120 container Dark
+							121 text Dark
+						122 text #111111
+					123 button Copy token
+				124 container
+					125 heading bg-raised, Value: 4
+						126 text bg-raised
+					127 text --hh- bg-raised
+					128 definition list
+						129 container Light
+							130 text Light
+						131 text #f9f9f9
+						132 container Dark
+							133 text Dark
+						134 text #191919
+					135 button Copy token
+				136 container
+					137 heading bg-sunken, Value: 4
+						138 text bg-sunken
+					139 text --hh- bg-sunken
+					140 definition list
+						141 container Light
+							142 text Light
+						143 text #f0f0f0
+						144 container Dark
+							145 text Dark
+						146 text #222222
+					147 button Copy token
+				148 container
+					149 heading bg-hover, Value: 4
+						150 text bg-hover
+					151 text --hh- bg-hover
+					152 definition list
+						153 container Light
+							154 text Light
+						155 text #e8e8e8
+						156 container Dark
+							157 text Dark
+						158 text #2a2a2a
+					159 button Copy token
+				160 container
+					161 heading ink, Value: 4
+						162 text ink
+					163 text --hh- ink
+					164 definition list
+						165 container Light
+							166 text Light
+						167 text #202020
+						168 container Dark
+							169 text Dark
+						170 text #eeeeee
+					171 button Copy token
+				172 container
+					173 heading ink-2, Value: 4
+						174 text ink-2
+					175 text --hh- ink-2
+					176 definition list
+						177 container Light
+							178 text Light
+						179 text #202020
+						180 container Dark
+							181 text Dark
+						182 text #eeeeee
+					183 button Copy token
+				184 container
+					185 heading ink-muted, Value: 4
+						186 text ink-muted
+					187 text --hh- ink-muted
+					188 definition list
+						189 container Light
+							190 text Light
+						191 text #646464
+						192 container Dark
+							193 text Dark
+						194 text #b4b4b4
+					195 button Copy token
+				196 container
+					197 heading ink-subtle, Value: 4
+						198 text ink-subtle
+					199 text --hh- ink-subtle
+					200 definition list
+						201 container Light
+							202 text Light
+						203 text #646464
+						204 container Dark
+							205 text Dark
+						206 text #b4b4b4
+					207 button Copy token
+				208 container
+					209 heading line, Value: 4
+						210 text line
+					211 text --hh- line
+					212 definition list
+						213 container Light
+							214 text Light
+						215 text #d9d9d9
+						216 container Dark
+							217 text Dark
+						218 text #3a3a3a
+					219 button Copy token
+				220 container
+					221 heading line-strong, Value: 4
+						222 text line-strong
+					223 text --hh- line-strong
+					224 definition list
+						225 container Light
+							226 text Light
+						227 text #bbbbbb
+						228 container Dark
+							229 text Dark
+						230 text #606060
+					231 button Copy token
+				232 container
+					233 heading primary, Value: 4
+						234 text primary
+					235 text --hh- primary
+					236 definition list
+						237 container Light
+							238 text Light
+						239 text #202020
+						240 container Dark
+							241 text Dark
+						242 text #eeeeee
+					243 button Copy token
+				244 container
+					245 heading on-primary, Value: 4
+						246 text on-primary
+					247 text --hh- on-primary
+					248 definition list
+						249 container Light
+							250 text Light
+						251 text #fcfcfc
+						252 container Dark
+							253 text Dark
+						254 text #111111
+					255 button Copy token
+				256 button Show more
+				257 button Show all matches
+			258 container components
+				259 heading Try the components, Value: 2
+					260 text Try the components
+				261 heading Buttons, Value: 3
+					262 text Buttons
+				263 text Choose a button style for each action, and preview disabled and loading states.
+				264 button Primary action
+				265 button Secondary action
+				266 button Quiet action
+				267 button Destructive action
+				268 button (disabled) Unavailable
+				269 button (disabled) Working
+				270 text Unavailable example: no review selected. The loading button demonstrates a state only.
+				271 text <Button variant="primary" loading={saving} onClick={save}>Save</Button>
+				272 heading Form & dialog / native examples, Value: 3
+					273 text Form & dialog / native examples
+				274 text These demonstrate keyboard and state conventions, not installable components. No data is saved or project changes executed.
+				275 container
+					276 text Project name
+					277 text field (settable) Project name
+					278 button Validate form
+				279 button Open confirmation dialog
+				280 container
+					281 text Inputs & selection
+					282 heading Preferences, Value: 3
+						283 text Preferences
+					284 text Try the select, checkbox and density setting. List density
+					285 pop up button (collapsed, settable) List density, Value: Comfortable, Secondary Actions: Expand
+						286 menu
+							287 (selected) Comfortable
+							288 Compact
+					289 checkbox (settable, integer) Description: Notify me when finished, Value: 1
+					290 text Notifications on for this demo.
+				291 container
+					292 text Navigation & data
+					293 heading Search & list, Value: 3
+						294 text Search & list
+					295 container List scope
+						296 checkbox All, Value: 1
+						297 checkbox Complete, Value: 0
+						298 checkbox Needs review, Value: 0
+					299 text Search example pages
+					300 search text field (settable) Search example pages
+					301 content list
+						302 container
+							303 text Website Complete
+						304 container
+							305 text Preferences Needs review
+						306 container
+							307 text Mobile navigation Complete
+					308 text Sample content. Density follows the preference control.
+				309 heading Task feedback / demo, Value: 3
+					310 text Task feedback / demo
+				311 checkbox Empty, Value: 1
+				312 checkbox Loading, Value: 0
+				313 checkbox Error, Value: 0
+				314 checkbox Complete, Value: 0
+				315 text No reviews yet. Connect a project to begin.
+			316 container patterns
+				317 heading From components to screens, Value: 2
+					318 text From components to screens
+				319 heading Screen compositions, Value: 3
+					320 text Screen compositions
+				321 text Shared colors, controls and feedback across three sample screens.
+				322 container Screen composition
+					323 checkbox Projects, Value: 1
+					324 checkbox Settings, Value: 0
+					325 checkbox Result, Value: 0
+				326 container
+					327 text HappyHands Workspace / Example
+				328 text Projects
+				329 heading Recent work, Value: 3
+					330 text Recent work
+				331 text See project status and continue your work.
+				332 content list
+					333 container
+						334 text Brand website Home and content pages Complete
+					335 container
+						336 text Product workspace Navigation and task details Needs review
+				337 container
+					338 heading Portal, Value: 3
+						339 text Portal
+					340 text Brand, content and design-system catalog.
+					341 link Description: Open portal, Value: 127.0.0.1:4250/apps/portal/
+				342 container
+					343 heading Theme Studio, Value: 3
+						344 text Theme Studio
+					345 text Token editing and component-state previews.
+					346 link Description: Open Theme Studio, Value: 127.0.0.1:4250/apps/studio/
+				347 container
+					348 heading Local review workbench, Value: 3
+						349 text Local review workbench
+					350 text A separate project; alignment is still in progress.
+					351 link Description: Startup guide, Value: github.com/ShuaiMXu/happyhands/blob/main/docs/local-workbench.md
+			352 container adopt
+				353 heading Get the AI setup prompt, Value: 2
+					354 text Get the AI setup prompt
+				355 text Copy the prompt into your AI agent. It checks project conventions before adapting individual screens.
+				356 container
+					357 text Setup mode
+					358 pop up button (collapsed, settable) Setup mode, Value: Existing project / migrate a screen, Secondary Actions: Expand
+						359 menu
+							360 (selected) Existing project / migrate a screen
+							361 New project / first screen
+				362 text entry area Description: Setup prompt, Value: Migrate one screen in this project to HappyHands. Read http://127.0.0.1:4250/systems/happyhands/SKILL.md and inspect happyhands-site packages/design-tokens/happyhands.json, packages/ui and docs/studio-design-language.md. Record the adopted commit. Check existing rules and compatibility; preserve approved branding, data and business behavior. Do not rebrand reviewed products. Reuse Button and tokens, document any new component API. Verify Chinese/English, light/dark, 390/768/1280px, keyboard focus and loading/error states. Deliver before/after captures and remaining gaps. There is no public installer; do not invent installation commands.
+				363 button Copy prompt
+				364 link Description: Read Skill, Value: 127.0.0.1:4250/systems/happyhands/SKILL.md
+				365 link Description: Token source, Value: github.com/ShuaiMXu/happyhands-site/tree/main/packages/design-tokens
+				366 text Tokens and the React Button and Select sources are available. Check compatibility with your project before adoption.
+			367 text Apply the rules to your project
+			368 heading Make it yours in Theme Studio, Value: 2
+				369 text Make it yours in Theme Studio
+			370 text Edit tokens, choose fonts and preview component behavior.
+			371 link Description: Open Theme Studio, Value: 127.0.0.1:4250/apps/studio/
+			372 link Description: All design systems, Value: 127.0.0.1:4250/components/?provider=systems
+			373 link Description: Explore Quartz, Value: 127.0.0.1:4250/systems/quartz/
+			374 link Description: Explore Lime, Value: 127.0.0.1:4250/systems/lime/
+			375 button (collapsed) Scope, source and progress, Secondary Actions: Expand
+				376 text Scope, source and progress
+
+The focused UI element is 1 AXWebArea HappyHands design system / Tokens, components and UI states, URL: 127.0.0.1:4250/systems/happyhands/

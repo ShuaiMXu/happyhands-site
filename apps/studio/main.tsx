@@ -152,7 +152,7 @@ function TokenInput({
     <label className="token-row" id={`token-${t(name)}`}>
       <span>
         {t(labels[name] || name)}
-        <small>{t(name)}</small>
+        {t(labels[name] || name) !== t(name) && <small>{t(name)}</small>}
       </span>
       <div className="token-input-fields">
         {colorKeys.includes(name) && (

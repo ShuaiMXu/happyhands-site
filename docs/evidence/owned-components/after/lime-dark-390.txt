@@ -1,0 +1,302 @@
+Browser tab: 31, Title: "Lime 设计系统参考 / 个人助手与消费应用 / HappyHands", URL: "http://127.0.0.1:4250/systems/lime/".
+1 AXWebArea Lime 设计系统参考 / 个人助手与消费应用 / HappyHands, URL: 127.0.0.1:4250/systems/lime/
+	2 container root
+		3 link Description: 跳到内容, Value: 127.0.0.1:4250/systems/lime/#overview
+		4 container
+			5 link Description: HappyHands, Value: 127.0.0.1:4250/apps/portal/
+			321 button (collapsed) Description: 菜单, Secondary Actions: Expand
+			7 button 切换到浅色模式
+			8 button English
+		9 container
+			10 container 面包屑
+				11 link Description: 官网, Value: 127.0.0.1:4250/apps/portal/
+				12 link Description: 设计系统, Value: 127.0.0.1:4250/components/?provider=systems
+				13 text Lime
+			14 container overview
+				15 text 外部设计系统 / design.how
+				16 heading Lime, Value: 1
+					17 text Lime
+				18 text 面向消费类应用与个人助手。暖灰白底承载内容，用黄绿色突出主要操作。
+				19 link Description: 浏览组件, Value: 127.0.0.1:4250/systems/lime/#components
+				20 link Description: 查看接入方式, Value: 127.0.0.1:4250/systems/lime/#adopt
+				21 text 本站编写的提醒交互示例，采用核对过的 Lime 配色与圆角，使用系统字体；不是上游组件原样演示。
+				22 container
+					23 text Lime
+					24 button 切换 Lime 示例外观
+				25 heading 准备下一次出行, Value: 2
+					26 text 准备下一次出行
+				27 text 选择事项与提醒时间。以下内容仅供演示。
+				28 container 提醒事项
+					29 text 提醒事项
+					30 container
+						31 checkbox (settable, integer) Description: 确认车票, Value: 1
+						32 text 确认车票
+					33 container
+						34 checkbox (settable, integer) Description: 整理行李, Value: 0
+						35 text 整理行李
+					36 container
+						37 text 提醒时间
+						38 pop up button (collapsed, settable) 提醒时间, Value: 上午, Secondary Actions: Expand
+							39 menu
+								40 (selected) 上午
+								41 晚上
+				42 button 启用演示提醒
+			322 button (collapsed) 本页目录, Secondary Actions: Expand
+				323 text 本页目录
+			45 container scenes
+				46 heading 应用场景, Value: 2
+					47 text 应用场景
+				48 text 切换场景与外观，试试选择、确认和表单反馈。
+				49 container 场景外观
+					50 checkbox 浅色, Value: 0
+					51 checkbox 深色, Value: 1
+				52 container 选择应用场景
+					53 checkbox 01 助手提醒, Value: 1
+						54 text 0
+						55 text 1
+						56 text 助手提醒
+					57 checkbox 02 今日计划, Value: 0
+						58 text 0
+						59 text 2
+						60 text 今日计划
+					61 checkbox 03 提醒设置, Value: 0
+						62 text 0
+						63 text 3
+						64 text 提醒设置
+				65 container
+					66 text Lime 可交互场景 / 示例数据
+				300 container
+					301 text Lime
+					302 button 切换 Lime 示例外观
+				303 heading 准备下一次出行, Value: 2
+					304 text 准备下一次出行
+				305 text 选择事项与提醒时间。以下内容仅供演示。
+				306 container 提醒事项
+					307 text 提醒事项
+					308 container
+						309 checkbox (settable, integer) Description: 确认车票, Value: 1
+						310 text 确认车票
+					311 container
+						312 checkbox (settable, integer) Description: 整理行李, Value: 0
+						313 text 整理行李
+					314 container
+						315 text 提醒时间
+						316 pop up button (collapsed, settable) 提醒时间, Value: 上午, Secondary Actions: Expand
+							317 menu
+								318 (selected) 上午
+								319 晚上
+				320 button 启用演示提醒
+				88 text 场景由 HappyHands 实现，用于说明布局与交互；不连接真实项目，也不代替上游组件安装。
+			89 container foundations
+				90 heading 颜色与文字实样, Value: 3
+					91 text 颜色与文字实样
+				92 container 变量外观
+					93 checkbox 浅色, Value: 1
+					94 checkbox 深色, Value: 0
+				95 text page
+				96 text #ffffff
+				97 text surface
+				98 text #f6f5f2
+				99 text fg
+				100 text #0f0f0d
+				101 text accent
+				102 text #e4f222
+				103 text accent-wash
+				104 text #f5f9c4
+				105 text success-tint
+				106 text #e5f5ea
+				107 text Aa / 字
+				108 text 标题引导阅读，正文承载信息。
+				109 text 本站使用系统字体回退；不分发上游授权字体。
+				110 heading 尺度与形状, Value: 4
+					111 text 尺度与形状
+				112 text 面板圆角 16 / 输入圆角 12 / 胶囊操作按钮
+				113 text 黄绿色保留给主要操作，正文保持深浅对比。
+				114 button (collapsed) 查阅设计变量 / 20, Secondary Actions: Expand
+					115 text 查阅设计变量
+					116 text  /
+					117 text 20
+				118 container
+					119 text 变量摘录自公开主题文件，值按原始表达式保留。核对日期： 2026-10-21  /
+					120 link Description: 查看来源, Value: design.how/r/lime/theme.json
+				121 heading 颜色与交互约定, Value: 2
+					122 text 颜色与交互约定
+				123 container
+					124 heading 主要操作, Value: 3
+						125 text 主要操作
+					126 text 黄绿色用于主要动作、选择与重点提示。文字使用深色，焦点使用更深的橄榄色边界。
+				127 container
+					128 heading 字体与形状, Value: 3
+						129 text 字体与形状
+					130 text 上游采用 Hanken Grotesk；本站示例使用系统字体。控件为胶囊形，输入框圆角 12px、面板圆角 16px。
+				131 container
+					132 heading 确认与恢复, Value: 3
+						133 text 确认与恢复
+					134 text 助手执行前明确范围，执行后提供回执和撤销。状态同时使用文字说明，不依赖颜色。
+				135 container
+					136 text page #0e0e0c
+				137 container
+					138 text surface #1a1a17
+				139 container
+					140 text fg #f4f3ee
+				141 container
+					142 text accent #cad649
+				143 container
+					144 text accent-wash #2b2e0c
+				145 container
+					146 text accent-line #cad649
+				147 container
+					148 text 核心配色摘录。切换官网外观可查看对应值，完整变量以来源为准。
+					149 link Description: 查看配色来源, Value: design.how/r/lime/theme.json
+			150 container components
+				151 heading 完整组件目录, Value: 2
+					152 text 完整组件目录
+				153 text 包括表单、导航、反馈、个人助手和账单相关条目。支持站内搜索、分类和接入说明。
+				154 container
+					155 text 查找组件或模板
+					156 search text field (settable) 查找组件或模板
+				157 container
+					158 text 内容分类
+					159 pop up button (collapsed, settable) 内容分类, Value: 全部 / 64, Secondary Actions: Expand
+						160 menu
+							161 (selected) 全部 / 64
+							162 操作与输入 / 14
+							163 反馈与浮层 / 12
+							164 导航 / 6
+							165 内容与数据 / 10
+							166 AI 工作流 / 9
+							167 页面模板 / 5
+							168 接入与工具 / 8
+				169 text 显示 12 / 64 项匹配 / 共 64 项
+				170 container
+					171 text 操作与输入
+					172 heading 按钮, Value: 3
+						173 text 按钮
+					174 text button 触发操作，保留加载时的操作名称。
+					175 button (collapsed) 查看接入, Secondary Actions: Expand
+						176 text 查看接入
+				177 container
+					178 text 操作与输入
+					179 heading 复制按钮, Value: 3
+						180 text 复制按钮
+					181 text copy-button 复制内容，并在原位置确认结果。
+					182 button (collapsed) 查看接入, Secondary Actions: Expand
+						183 text 查看接入
+				184 container
+					185 text 操作与输入
+					186 heading 输入框, Value: 3
+						187 text 输入框
+					188 text input 输入文字、密码、搜索词与数字。
+					189 button (collapsed) 查看接入, Secondary Actions: Expand
+						190 text 查看接入
+				191 container
+					192 text 操作与输入
+					193 heading 多行输入, Value: 3
+						194 text 多行输入
+					195 text textarea 输入较长的内容。
+					196 button (collapsed) 查看接入, Secondary Actions: Expand
+						197 text 查看接入
+				198 container
+					199 text 操作与输入
+					200 heading 表单字段, Value: 3
+						201 text 表单字段
+					202 text field 组合标签、控件、说明和错误。
+					203 button (collapsed) 查看接入, Secondary Actions: Expand
+						204 text 查看接入
+				205 container
+					206 text 操作与输入
+					207 heading 下拉选择, Value: 3
+						208 text 下拉选择
+					209 text select 从固定选项中选择一项。
+					210 button (collapsed) 查看接入, Secondary Actions: Expand
+						211 text 查看接入
+				212 container
+					213 text 操作与输入
+					214 heading 可搜索选择, Value: 3
+						215 text 可搜索选择
+					216 text combobox 搜索并选择一个或多个选项。
+					217 button (collapsed) 查看接入, Secondary Actions: Expand
+						218 text 查看接入
+				219 container
+					220 text 操作与输入
+					221 heading 文件上传, Value: 3
+						222 text 文件上传
+					223 text dropzone 选择或拖入文件，并说明接收条件。
+					224 button (collapsed) 查看接入, Secondary Actions: Expand
+						225 text 查看接入
+				226 container
+					227 text 操作与输入
+					228 heading 数字键盘, Value: 3
+						229 text 数字键盘
+					230 text keypad 为金额等数值提供输入方式。
+					231 button (collapsed) 查看接入, Secondary Actions: Expand
+						232 text 查看接入
+				233 container
+					234 text 操作与输入
+					235 heading 复选框, Value: 3
+						236 text 复选框
+					237 text checkbox 选择独立选项或表达部分选择。
+					238 button (collapsed) 查看接入, Secondary Actions: Expand
+						239 text 查看接入
+				240 container
+					241 text 操作与输入
+					242 heading 单选, Value: 3
+						243 text 单选
+					244 text radio 选择一项可见选项。
+					245 button (collapsed) 查看接入, Secondary Actions: Expand
+						246 text 查看接入
+				247 container
+					248 text 操作与输入
+					249 heading 开关, Value: 3
+						250 text 开关
+					251 text switch 即时更改一项设置。
+					252 button (collapsed) 查看接入, Secondary Actions: Expand
+						253 text 查看接入
+				254 button 继续浏览
+				255 button 显示全部匹配项
+				256 container
+					257 text 收录日期：2026-10-21。目录由 HappyHands 整理，组件来源为 design.how；更新可能晚于上游。
+					258 link Description: 原始目录, Value: design.how/r/lime/registry.json
+			259 container patterns
+				260 heading 页面模板, Value: 2
+					261 text 页面模板
+				262 container
+					263 heading 个人首页, Value: 3
+						264 text 个人首页
+					265 text 概览、近期活动与待处理事项。
+				266 container
+					267 heading 助手审批, Value: 3
+						268 text 助手审批
+					269 text 核对建议的范围，再允许或拒绝。
+				270 container
+					271 heading 助手提醒, Value: 3
+						272 text 助手提醒
+					273 text 查看异常并选择处理方式。
+				274 container
+					275 heading 操作规则, Value: 3
+						276 text 操作规则
+					277 text 设定助手操作的额度和边界。
+				278 container
+					279 heading 分账请求, Value: 3
+						280 text 分账请求
+					281 text 核对对象与金额后再发起请求。
+			282 container adopt
+				283 heading 接入你的项目, Value: 2
+					284 text 接入你的项目
+				285 text 先核对项目兼容性和已有品牌，再按页面采用组件。以下指令供你正在使用的 AI 代理读取。
+				286 container
+					287 text 接入方式
+					288 pop up button (collapsed, settable) 接入方式, Value: 已有项目, Secondary Actions: Expand
+						289 menu
+							290 (selected) 已有项目
+							291 新项目
+				292 text entry area Description: 接入指令, Value: 将本项目的一个明确页面逐步对齐 Lime。先读取 https://design.how/r/lime/skill.json 与 https://design.how/r/lime/registry.json，检查项目技术栈和已有规范。保留用户已批准的品牌、业务行为、文案与数据，不重置其他应用。确认 React、Tailwind 与 shadcn 兼容后，用项目包管理器添加 https://design.how/r/lime/theme.json；遵循实际安装输出导入样式，在约定根节点设置 lime 作用域并配置 LimePortalProvider。先读取 https://design.how/systems/lime/components/<name>.md，再添加 https://design.how/r/lime/<name>.json；整屏可选 home、assistant-approval、assistant-alert、settings-rules、split-request。只在主要操作使用黄绿色，不把它铺满页面；涉及资金与自主权限时先确认真实范围，不编造金额、收款人或批准。按 https://design.how/r/lime/lint.json 配置检查，并验证深浅色、中英文、390/768/1280px、键盘焦点、错误恢复与既有流程。记录来源版本、改动和剩余限制。复制指令不会安装、执行或部署。
+				293 button 复制接入指令
+				294 link Description: 查看上游 Skill, Value: design.how/r/lime/skill.json
+			295 container
+				296 link Description: 返回设计系统, Value: 127.0.0.1:4250/components/?provider=systems
+				297 link Description: HappyHands, Value: 127.0.0.1:4250/systems/happyhands/
+				298 link Description: Quartz, Value: 127.0.0.1:4250/systems/quartz/
+			299 text Lime 来自 design.how，本站保留来源与独立演示边界。没有安装上游组件，也不会更改项目或执行真实提醒。
+
+The focused UI element is 7 button 切换到浅色模式

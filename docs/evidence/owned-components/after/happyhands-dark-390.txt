@@ -1,0 +1,379 @@
+Browser tab: 30, Title: "HappyHands 设计系统 / 变量、组件与界面状态", URL: "http://127.0.0.1:4250/systems/happyhands/".
+1 AXWebArea HappyHands 设计系统 / 变量、组件与界面状态, URL: 127.0.0.1:4250/systems/happyhands/
+	2 container root
+		3 link Description: 跳到内容, Value: 127.0.0.1:4250/systems/happyhands/#overview
+		4 container
+			5 link Description: HappyHands, Value: 127.0.0.1:4250/apps/portal/
+			409 button (collapsed) Description: 菜单, Secondary Actions: Expand
+			11 button 切换到浅色模式
+			12 button English
+		13 container
+			14 container 面包屑
+				15 link Description: 官网, Value: 127.0.0.1:4250/apps/portal/
+				16 link Description: 设计系统, Value: 127.0.0.1:4250/components/?provider=systems
+				17 text HappyHands
+			18 container overview
+				19 text 我们的设计系统
+				20 heading HappyHands, Value: 1
+					21 text HappyHands
+				22 text 清楚、克制、亲和。
+				23 text 统一页面颜色、字体与交互反馈，提供可复用的设计规范。本站与主题工作室均采用这套规范。
+				24 link Description: 试用组件, Value: 127.0.0.1:4250/systems/happyhands/#components
+				25 link Description: 接入项目, Value: 127.0.0.1:4250/systems/happyhands/#adopt
+				26 text 可操作示例
+				27 button 切换示例外观
+				28 heading 选择要审阅的页面, Value: 2
+					29 text 选择要审阅的页面
+				30 text 勾选页面，确认这次审阅的范围。
+				31 container 页面
+					32 text 页面
+					33 container
+						34 checkbox (settable, integer) Description: 产品首页 桌面 / 手机, Value: 1
+						35 text 产品首页 桌面 / 手机
+					36 container
+						37 checkbox (settable, integer) Description: 设置页面 桌面 / 手机, Value: 0
+						38 text 设置页面 桌面 / 手机
+				39 button 确认选择
+				40 text 已选 1 项
+				41 text 示例内容，不会读取项目或修改文件。
+			410 button (collapsed) 本页目录, Secondary Actions: Expand
+				411 text 本页目录
+			49 container scenes
+				50 heading 应用场景, Value: 2
+					51 text 应用场景
+				52 text 切换场景与外观，试试选择、确认和表单反馈。
+				53 container 场景外观
+					54 checkbox 浅色, Value: 0
+					55 checkbox 深色, Value: 1
+				56 container 选择应用场景
+					57 checkbox 01 审阅选择, Value: 1
+						58 text 0
+						59 text 1
+						60 text 审阅选择
+					61 checkbox 02 项目概览, Value: 0
+						62 text 0
+						63 text 2
+						64 text 项目概览
+					65 checkbox 03 工作空间设置, Value: 0
+						66 text 0
+						67 text 3
+						68 text 工作空间设置
+				69 container
+					70 text HappyHands 可交互场景 / 示例数据
+				393 text 可操作示例
+				394 button 切换示例外观
+				395 heading 选择要审阅的页面, Value: 2
+					396 text 选择要审阅的页面
+				397 text 勾选页面，确认这次审阅的范围。
+				398 container 页面
+					399 text 页面
+					400 container
+						401 checkbox (settable, integer) Description: 产品首页 桌面 / 手机, Value: 1
+						402 text 产品首页 桌面 / 手机
+					403 container
+						404 checkbox (settable, integer) Description: 设置页面 桌面 / 手机, Value: 0
+						405 text 设置页面 桌面 / 手机
+				406 button 确认选择
+				407 text 已选 1 项
+				408 text 示例内容，不会读取项目或修改文件。
+				94 text 场景由 HappyHands 实现，用于说明布局与交互；不连接真实项目，也不代替上游组件安装。
+			95 container foundations
+				96 heading 颜色、文字与间距, Value: 2
+					97 text 颜色、文字与间距
+				98 container
+					99 heading 文字, Value: 3
+						100 text 文字
+					101 text 苹方优先的无衬线字体。标题明确，正文自然换行，技术编号才使用等宽。
+				102 container
+					103 heading 空间与形状, Value: 3
+						104 text 空间与形状
+					105 text 间距使用 4 / 8 / 12 / 16 / 24 / 32；控件圆角 10，浮层 18。平面内容不堆阴影。
+				106 container
+					107 heading 操作与反馈, Value: 3
+						108 text 操作与反馈
+					109 text 黑白主按钮表达下一步。橙色用于品牌强调；成功、警告和错误同时使用明确文案。
+				110 heading 完整设计变量, Value: 3
+					111 text 完整设计变量
+				112 text 58 项变量，包含深浅两种外观。数值直接读取本站使用的规范。
+				113 button 导出 CSS
+				114 button 导出 JSON
+				115 container
+					116 text 查找变量
+					117 search text field (settable) 查找变量
+				118 container
+					119 text 变量分类
+					120 pop up button (collapsed, settable) 变量分类, Value: 全部, Secondary Actions: Expand
+						121 menu
+							122 (selected) 全部
+							123 颜色
+							124 字体
+							125 间距
+							126 圆角与层次
+				127 text 显示 12 / 58 项匹配 / 共 58 项变量
+				128 container
+					129 heading 页面背景, Value: 4
+						130 text 页面背景
+					131 text --hh- bg
+					132 definition list
+						133 container 浅色
+							134 text 浅色
+						135 text #fcfcfc
+						136 container 深色
+							137 text 深色
+						138 text #111111
+					139 button 复制变量
+				140 container
+					141 heading 内容表面, Value: 4
+						142 text 内容表面
+					143 text --hh- bg-raised
+					144 definition list
+						145 container 浅色
+							146 text 浅色
+						147 text #f9f9f9
+						148 container 深色
+							149 text 深色
+						150 text #191919
+					151 button 复制变量
+				152 container
+					153 heading 内嵌表面, Value: 4
+						154 text 内嵌表面
+					155 text --hh- bg-sunken
+					156 definition list
+						157 container 浅色
+							158 text 浅色
+						159 text #f0f0f0
+						160 container 深色
+							161 text 深色
+						162 text #222222
+					163 button 复制变量
+				164 container
+					165 heading 悬停背景, Value: 4
+						166 text 悬停背景
+					167 text --hh- bg-hover
+					168 definition list
+						169 container 浅色
+							170 text 浅色
+						171 text #e8e8e8
+						172 container 深色
+							173 text 深色
+						174 text #2a2a2a
+					175 button 复制变量
+				176 container
+					177 heading 主要文字, Value: 4
+						178 text 主要文字
+					179 text --hh- ink
+					180 definition list
+						181 container 浅色
+							182 text 浅色
+						183 text #202020
+						184 container 深色
+							185 text 深色
+						186 text #eeeeee
+					187 button 复制变量
+				188 container
+					189 heading 次要文字, Value: 4
+						190 text 次要文字
+					191 text --hh- ink-2
+					192 definition list
+						193 container 浅色
+							194 text 浅色
+						195 text #202020
+						196 container 深色
+							197 text 深色
+						198 text #eeeeee
+					199 button 复制变量
+				200 container
+					201 heading 辅助文字, Value: 4
+						202 text 辅助文字
+					203 text --hh- ink-muted
+					204 definition list
+						205 container 浅色
+							206 text 浅色
+						207 text #646464
+						208 container 深色
+							209 text 深色
+						210 text #b4b4b4
+					211 button 复制变量
+				212 container
+					213 heading 弱化文字, Value: 4
+						214 text 弱化文字
+					215 text --hh- ink-subtle
+					216 definition list
+						217 container 浅色
+							218 text 浅色
+						219 text #646464
+						220 container 深色
+							221 text 深色
+						222 text #b4b4b4
+					223 button 复制变量
+				224 container
+					225 heading 常规边界, Value: 4
+						226 text 常规边界
+					227 text --hh- line
+					228 definition list
+						229 container 浅色
+							230 text 浅色
+						231 text #d9d9d9
+						232 container 深色
+							233 text 深色
+						234 text #3a3a3a
+					235 button 复制变量
+				236 container
+					237 heading 控件边界, Value: 4
+						238 text 控件边界
+					239 text --hh- line-strong
+					240 definition list
+						241 container 浅色
+							242 text 浅色
+						243 text #bbbbbb
+						244 container 深色
+							245 text 深色
+						246 text #606060
+					247 button 复制变量
+				248 container
+					249 heading 主要操作, Value: 4
+						250 text 主要操作
+					251 text --hh- primary
+					252 definition list
+						253 container 浅色
+							254 text 浅色
+						255 text #202020
+						256 container 深色
+							257 text 深色
+						258 text #eeeeee
+					259 button 复制变量
+				260 container
+					261 heading 主要操作文字, Value: 4
+						262 text 主要操作文字
+					263 text --hh- on-primary
+					264 definition list
+						265 container 浅色
+							266 text 浅色
+						267 text #fcfcfc
+						268 container 深色
+							269 text 深色
+						270 text #111111
+					271 button 复制变量
+				272 button 继续浏览
+				273 button 显示全部匹配项
+			274 container components
+				275 heading 试用组件与交互, Value: 2
+					276 text 试用组件与交互
+				277 heading 按钮, Value: 3
+					278 text 按钮
+				279 text 选择适合任务的按钮样式，也可以查看不可用和加载状态。
+				280 button 主要操作
+				281 button 次要操作
+				282 button 轻量操作
+				283 button 危险操作
+				284 button (disabled) 不可用
+				285 button (disabled) 处理中
+				286 text 不可用示例：尚未选择审阅记录。加载按钮仅展示状态。
+				287 text <Button variant="primary" loading={saving} onClick={save}>保存</Button>
+				288 heading 表单与弹窗 / 原生交互示例, Value: 3
+					289 text 表单与弹窗 / 原生交互示例
+				290 text 以下展示键盘与状态约定，尚未封装为可安装组件。不会保存数据或执行项目修改。
+				291 container
+					292 text 项目名称
+					293 text field (settable) 项目名称
+					294 button 验证表单
+				295 button 打开确认弹窗
+				296 container
+					297 text 输入与选择
+					298 heading 偏好设置, Value: 3
+						299 text 偏好设置
+					300 text 下拉、复选与密度设置可直接操作。 列表密度
+					301 pop up button (collapsed, settable) 列表密度, Value: 宽松, Secondary Actions: Expand
+						302 menu
+							303 (selected) 宽松
+							304 紧凑
+					305 checkbox (settable, integer) Description: 完成后通知我, Value: 1
+					306 text 通知已开启，仅影响本次演示。
+				307 container
+					308 text 导航与数据
+					309 heading 搜索与列表, Value: 3
+						310 text 搜索与列表
+					311 container 列表范围
+						312 checkbox 全部, Value: 1
+						313 checkbox 已完成, Value: 0
+						314 checkbox 待核对, Value: 0
+					315 text 搜索示例页面
+					316 search text field (settable) 搜索示例页面
+					317 content list
+						318 container
+							319 text 官网首页 已完成
+						320 container
+							321 text 偏好设置 待核对
+						322 container
+							323 text 移动端导航 已完成
+					324 text 示例内容。密度跟随左侧设置。
+				325 heading 任务反馈 / 演示, Value: 3
+					326 text 任务反馈 / 演示
+				327 checkbox 空, Value: 1
+				328 checkbox 加载, Value: 0
+				329 checkbox 错误, Value: 0
+				330 checkbox 完成, Value: 0
+				331 text 暂无审阅，连接项目后开始。
+			332 container patterns
+				333 heading 从组件到页面, Value: 2
+					334 text 从组件到页面
+				335 heading 页面组合预览, Value: 3
+					336 text 页面组合预览
+				337 text 使用同一套颜色、控件与反馈组合页面。以下均为演示内容。
+				338 container 页面组合
+					339 checkbox 项目列表, Value: 1
+					340 checkbox 设置页面, Value: 0
+					341 checkbox 任务结果, Value: 0
+				342 container
+					343 text HappyHands 工作空间 / 示例
+				344 text 项目
+				345 heading 最近的工作, Value: 3
+					346 text 最近的工作
+				347 text 查看项目状态，继续未完成的工作。
+				348 content list
+					349 container
+						350 text 品牌网站 首页与内容页面 已完成
+					351 container
+						352 text 产品工作台 导航与任务详情 待核对
+				353 container
+					354 heading 官网, Value: 3
+						355 text 官网
+					356 text 品牌、内容与设计系统档案。
+					357 link Description: 打开官网, Value: 127.0.0.1:4250/apps/portal/
+				358 container
+					359 heading 主题工作室, Value: 3
+						360 text 主题工作室
+					361 text 设计变量编辑和组件状态预览。
+					362 link Description: 打开主题工作室, Value: 127.0.0.1:4250/apps/studio/
+				363 container
+					364 heading 本地审阅工作台, Value: 3
+						365 text 本地审阅工作台
+					366 text 独立工程，部分规范仍待统一。
+					367 link Description: 启动说明, Value: github.com/ShuaiMXu/happyhands/blob/main/docs/local-workbench.md
+			368 container adopt
+				369 heading 获取 AI 接入指令, Value: 2
+					370 text 获取 AI 接入指令
+				371 text 复制指令，交给你正在使用的 AI 代理。它会先核对项目规范，再逐页调整。
+				372 container
+					373 text 接入方式
+					374 pop up button (collapsed, settable) 接入方式, Value: 已有项目 / 逐页迁移, Secondary Actions: Expand
+						375 menu
+							376 (selected) 已有项目 / 逐页迁移
+							377 新项目 / 从首屏开始
+				378 text entry area Description: 接入指令, Value: 将本项目的一个页面逐步对齐 HappyHands 设计系统。先读取 http://127.0.0.1:4250/systems/happyhands/SKILL.md，并核对 happyhands-site 的 packages/design-tokens/happyhands.json、packages/ui 与 docs/studio-design-language.md，记录采用的提交版本。先检查现有规范和技术兼容性，保留已批准品牌、业务行为和数据；不修改被审阅项目的品牌。复用已有 Button 和设计变量，其他组件按真实需求实现并标记新增 API。检查中英文、深浅色、390/768/1280px、键盘焦点和加载/错误状态，交付前后截图与剩余问题。当前无公开安装包，不虚构安装命令。
+				379 button 复制指令
+				380 link Description: 阅读 Skill, Value: 127.0.0.1:4250/systems/happyhands/SKILL.md
+				381 link Description: 查看设计变量源码, Value: github.com/ShuaiMXu/happyhands-site/tree/main/packages/design-tokens
+				382 text 当前提供设计变量与 React Button、Select 源码，接入前请核对项目技术栈。
+			383 text 把规范用到你的项目
+			384 heading 在主题工作室中调整, Value: 2
+				385 text 在主题工作室中调整
+			386 text 编辑设计变量、选择字体，再查看组件的实际表现。
+			387 link Description: 打开主题工作室, Value: 127.0.0.1:4250/apps/studio/
+			388 link Description: 返回设计系统, Value: 127.0.0.1:4250/components/?provider=systems
+			389 link Description: 了解 Quartz, Value: 127.0.0.1:4250/systems/quartz/
+			390 link Description: 了解 Lime, Value: 127.0.0.1:4250/systems/lime/
+			391 button (collapsed) 范围、源码与进度, Secondary Actions: Expand
+				392 text 范围、源码与进度
+
+The focused UI element is 11 button 切换到浅色模式

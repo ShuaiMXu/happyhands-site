@@ -3,23 +3,21 @@ import { ResourceExport } from "./ResourceExport";
 import { ReferenceSpecimen, type ReferenceSystem } from "./ReferenceSpecimen";
 import "./archive-gallery.css";
 import { Select } from "../packages/ui/Select";
-type Entry = {
-  slug: string;
-  name: string;
-  site_url: string;
-  page_url: string;
-  theme: string;
-  industry: string;
-  north_star: string;
-  fonts: string[];
-  video: string;
-};
+import { ArchiveCard } from "./ArchiveCard";
+import {
+  archiveCategories,
+  categoryOf,
+  filterArchive,
+  type ArchiveEntry as Entry,
+} from "./archive-catalog";
 export function ArchiveGallery({ lang }: { lang: string }) {
   const zh = lang === "zh",
     [entries, setEntries] = useState<Entry[]>([]),
     [error, setError] = useState(""),
     [query, setQuery] = useState(""),
     [theme, setTheme] = useState(""),
+    [category, setCategory] = useState(""),
+    [preview, setPreview] = useState<string | null>(null),
     [page, setPage] = useState(1),
     [selected, setSelected] = useState<Entry | null>(null),
     [system, setSystem] = useState<ReferenceSystem | null>(null),
@@ -77,13 +75,11 @@ export function ArchiveGallery({ lang }: { lang: string }) {
     history.pushState(null, "", url.pathname + url.search);
     setSelected(entry);
   };
-  const filtered = entries.filter(
-    (x) =>
-      (!theme || x.theme === theme) &&
-      `${x.name} ${x.site_url} ${x.slug} ${x.industry} ${x.fonts.join(" ")} ${x.north_star}`
-        .toLowerCase()
-        .includes(query.toLowerCase()),
-  );
+  const available = filterArchive(entries, query, theme, "");
+  const filtered = category
+    ? available.filter((entry) => categoryOf(entry) === category)
+    : available;
+  useEffect(() => setPreview(null), [page, query, theme, category, selected]);
   return (
     <section className="archive-gallery" aria-label="Design.md">
       {selected ? (
@@ -164,21 +160,52 @@ export function ArchiveGallery({ lang }: { lang: string }) {
                 }}
               />
             </label>
-            <label>
-              {zh ? "主题" : "Theme"}
+            <label className="archive-category">
+              {zh ? "分类" : "Category"}
               <Select
-                value={theme}
+                aria-label={zh ? "分类" : "Category"}
+                value={category}
                 onChange={(e) => {
-                  setTheme(e.target.value);
+                  setCategory(e.target.value);
                   setPage(1);
                 }}
               >
-                <option value="">{zh ? "全部" : "All themes"}</option>
-                <option value="light">{zh ? "浅色" : "Light"}</option>
-                <option value="dark">{zh ? "深色" : "Dark"}</option>
-                <option value="mixed">{zh ? "混合" : "Mixed"}</option>
+                <option value="">{zh ? "全部分类" : "All categories"}</option>
+                {archiveCategories.map(([id, cn, en]) => (
+                  <option key={id} value={id}>
+                    {zh ? cn : en} (
+                    {
+                      available.filter((entry) => categoryOf(entry) === id)
+                        .length
+                    }
+                    )
+                  </option>
+                ))}
               </Select>
             </label>
+            <fieldset className="archive-theme">
+              <legend>{zh ? "主题" : "Theme"}</legend>
+              <div>
+                {[
+                  ["", zh ? "全部" : "All"],
+                  ["light", zh ? "浅色" : "Light"],
+                  ["dark", zh ? "深色" : "Dark"],
+                  ["mixed", zh ? "混合" : "Mixed"],
+                ].map(([id, label]) => (
+                  <button
+                    key={id}
+                    type="button"
+                    aria-pressed={theme === id}
+                    onClick={() => {
+                      setTheme(id);
+                      setPage(1);
+                    }}
+                  >
+                    {label}
+                  </button>
+                ))}
+              </div>
+            </fieldset>
             <span role="status">
               {entries.length
                 ? `${filtered.length} ${zh ? "个网站" : "websites"}`
@@ -196,28 +223,18 @@ export function ArchiveGallery({ lang }: { lang: string }) {
             </p>
           )}
           <div className="archive-grid">
-            {filtered.slice((page - 1) * 24, page * 24).map((x) => (
-              <button
-                id={`archive-${x.slug}`}
-                key={x.slug}
-                className="archive-card"
-                onClick={() => {
-                  selectEntry(x);
+            {filtered.slice((page - 1) * 24, page * 24).map((entry) => (
+              <ArchiveCard
+                key={entry.slug}
+                entry={entry}
+                active={preview === entry.slug}
+                onPreview={setPreview}
+                lang={lang}
+                onOpen={() => {
+                  selectEntry(entry);
                   document.getElementById("catalog-main")?.scrollIntoView();
                 }}
-              >
-                <img
-                  loading="lazy"
-                  width="480"
-                  height="300"
-                  src={`/design-archive/${x.slug}/thumbnail.jpg`}
-                  alt=""
-                />
-                <span>
-                  <strong>{x.name}</strong>
-                  <small>{new URL(x.site_url).hostname}</small>
-                </span>
-              </button>
+              />
             ))}
           </div>
           {!error && entries.length > 0 && filtered.length === 0 && (

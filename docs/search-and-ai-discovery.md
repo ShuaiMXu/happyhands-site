@@ -14,7 +14,7 @@ The 1200×630 PNG social image is a browser rendering of the source in `scripts/
 
 Run `npm run test:seo`, `npm run typecheck`, `npm run build` and `npm run verify:alpha`. Check both guide URLs with JavaScript disabled, actual meta/JSON-LD after language changes, desktop/phone layouts, theme/menu controls and local links. A successful HTML contract does not establish accessibility, visual acceptance, ranking or a completed deployment.
 
-After production deployment, submit `https://happyhands.cc/sitemap.xml` from the owner’s verified Google Search Console and Bing Webmaster accounts and inspect the guide URLs. Ownership verification and submissions are not claimed until actually performed. No verification tokens, analytics trackers or paid services are added by this change.
+After production deployment, submit `https://happyhands.cc/sitemap.xml` from the owner’s verified Google Search Console and Bing Webmaster accounts and inspect the guide URLs. Ownership verification and submissions are not claimed until actually performed. The integration preserves the existing Google verification file and free Vercel page-view analytics; it adds no paid service or custom event tracking.
 
 Sources:
 - [Google: AI features and your website](https://developers.google.com/search/docs/appearance/ai-features)

@@ -2,7 +2,7 @@ export const siteOrigin = "https://happyhands.cc";
 const core = "https://github.com/ShuaiMXu/happyhands";
 export type SeoLanguage = "zh" | "en";
 export const seoPages = {
-  portal: {path:"/apps/portal/",file:"apps/portal/index.html",zh:["HappyHands / 开源 AI 界面审阅工作台","HappyHands 是面向 AI 编程项目的本地设计审阅工作台：采集页面、定位 UI 问题、确认修改范围，再对照前后截图复核。原始核心代码采用 MIT，当前处于 Alpha。"],en:["HappyHands / Open-source UI design review for coding agents","Review UI issues, confirm scoped changes, and compare screenshots in a local workbench for products built with coding agents. Original core code is MIT licensed. Local Web Alpha."]},
+  portal: {path:"/apps/portal/",file:"apps/portal/index.html",zh:["HappyHands | AI 网站审阅、设计系统提取与代码优化","HappyHands 是开源 AI 网站审阅工具，帮助独立开发者发现 UI 与使用体验问题、提取设计系统和组件，并通过本地 Coding Agent 修改代码、对照前后效果。"],en:["HappyHands | AI Website Review and Design System Extraction","Review UI issues, confirm scoped changes, and compare screenshots in a local workbench for products built with coding agents. Original core code is MIT licensed. Local Web Alpha."]},
   components:{path:"/components/",file:"components/index.html",zh:["设计系统、组件与设计参考 / HappyHands","探索 HappyHands、Quartz 和 Lime 设计系统，查看 Cult UI 组件预览、Kage 设计参考与 Refero DESIGN.md 导入。第三方资源保留来源与各自许可。"],en:["Design systems, components and references / HappyHands","Explore HappyHands, Quartz and Lime design systems, Cult UI component previews, Kage references, and Refero DESIGN.md import. Third-party resources retain their sources and licenses."]},
   studio:{path:"/apps/studio/",file:"apps/studio/index.html",zh:["主题工作室 / 配色、字体与设计变量 / HappyHands","在 HappyHands 主题工作室选择预设，调整配色、字体和设计变量，实时预览浅色与深色界面，并导出 CSS、Tailwind 或设计基础审批文件。"],en:["Theme Studio / Colors, typography and design tokens / HappyHands","Choose a theme preset, customize colors, typography and design tokens, preview light and dark interfaces, and export CSS, Tailwind or a Harness Foundation approval file."]},
   happyhands:{path:"/systems/happyhands/",file:"systems/happyhands/index.html",zh:["HappyHands 设计系统 / 变量、组件与界面状态","查看 HappyHands 设计系统的语义变量、按钮、表单、反馈状态和页面示例；按项目已有规范确认采用范围，再接入编码工具。"],en:["HappyHands design system / Tokens, components and UI states","Inspect HappyHands semantic tokens, buttons, forms, feedback states and page examples. Confirm adoption against your product’s existing rules before implementation."]},
@@ -39,9 +39,9 @@ export function seoData(key:SeoPage,language:SeoLanguage="zh") {
  const graph:Record<string,unknown>[]=[
   {"@type":"Organization","@id":siteOrigin+"/#project",name:"HappyHands",url:siteOrigin,logo:siteOrigin+"/brand/happyhands-logo-ink.png",sameAs:[core,core+"-site"]},
   {"@type":"WebSite","@id":siteOrigin+"/#website",url:siteOrigin,name:"HappyHands",inLanguage:["zh-CN","en"],publisher:{"@id":siteOrigin+"/#project"}},
-  {"@type":"SoftwareApplication","@id":siteOrigin+"/#workbench",name:"HappyHands",url:siteOrigin+"/apps/portal/",applicationCategory:"DeveloperApplication",description:seoPages.portal[lang][1],softwareVersion:"0.1.0 Alpha",license:core+"/blob/main/LICENSE"},
-  {"@type":"SoftwareSourceCode","@id":siteOrigin+"/#source",name:"HappyHands core source",url:core,codeRepository:core,license:core+"/blob/main/LICENSE",programmingLanguage:["JavaScript","TypeScript"],about:{"@id":siteOrigin+"/#workbench"}},
-  {"@type":key.startsWith("guide")?"FAQPage":"WebPage","@id":url+"#page",url,name:title,description,inLanguage:lang==="zh"?"zh-CN":"en",isPartOf:{"@id":siteOrigin+"/#website"},about:{"@id":siteOrigin+"/#workbench"},...(key.startsWith("guide")?{mainEntity:guideFaq[lang].map(([name,text])=>({"@type":"Question",name,acceptedAnswer:{"@type":"Answer",text}}))}:{})},
+  {"@type":"SoftwareApplication","@id":siteOrigin+"/#software",name:"HappyHands",url:siteOrigin+"/apps/portal/",applicationCategory:"DeveloperApplication",description:seoPages.portal[lang][1],operatingSystem:"Cross-platform",featureList:["Website UI and UX review","Design system and component extraction","Scoped code changes with coding agents","Before-and-after evidence review"],sameAs:core,softwareVersion:"0.1.0 Alpha",license:core+"/blob/main/LICENSE"},
+  {"@type":"SoftwareSourceCode","@id":siteOrigin+"/#source",name:"HappyHands core source",url:core,codeRepository:core,license:core+"/blob/main/LICENSE",programmingLanguage:["JavaScript","TypeScript"],about:{"@id":siteOrigin+"/#software"}},
+  {"@type":key.startsWith("guide")?"FAQPage":"WebPage","@id":url+"#webpage",url,name:title,description,inLanguage:lang==="zh"?"zh-CN":"en",isPartOf:{"@id":siteOrigin+"/#website"},about:{"@id":siteOrigin+"/#software"},...(key.startsWith("guide")?{mainEntity:guideFaq[lang].map(([name,text])=>({"@type":"Question",name,acceptedAnswer:{"@type":"Answer",text}}))}:{})},
  ];
  return {title,description,url,lang,image:siteOrigin+"/brand/happyhands-social.png",graph:{"@context":"https://schema.org","@graph":graph}};
 }
@@ -51,7 +51,12 @@ export function seoHead(key:SeoPage,language:SeoLanguage="zh") {
  return `<title>${esc(x.title)}</title><meta name="description" content="${esc(x.description)}"><link rel="canonical" href="${x.url}">${Object.entries(tags).map(([k,v])=>`<meta ${k.startsWith("og:")?"property":"name"}="${k}" content="${esc(v)}">`).join("")}${alternates}<script id="site-structured-data" type="application/ld+json">${JSON.stringify(x.graph).replace(/</g,"\\u003c")}</script>`;
 }
 export function enhanceSeoHtml(html:string,key:SeoPage) {
- return html.replace(/<title>[\s\S]*?<\/title>/gi,"").replace(/<meta\b[^>]*(?:name|property)=["'](?:description|og:[^"']+|twitter:[^"']+)["'][^>]*>/gi,"").replace(/<link\b[^>]*rel=["']canonical["'][^>]*>/gi,"").replace("</head>",seoHead(key)+"</head>");
+ return html.replace(/<title>[\s\S]*?<\/title>/gi,"")
+  .replace(/<meta\b[^>]*(?:name|property)=["'](?:description|og:[^"']+|twitter:[^"']+)["'][^>]*>/gi,"")
+  .replace(/<link\b[^>]*rel=["']canonical["'][^>]*>/gi,"")
+  .replace(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script>/gi,"")
+  .replace(/<link\b(?=[^>]*rel=["']alternate["'])(?=[^>]*hreflang=)[^>]*>/gi,"")
+  .replace("</head>",seoHead(key)+"</head>");
 }
 export function applySiteMetadata(key:SeoPage,lang:SeoLanguage) {
  const x=seoData(key,lang);document.title=x.title;

@@ -63,7 +63,7 @@ test('search metadata has one canonical and a factual entity graph for each publ
   assert.ok(html.includes('summary_large_image'));assert.ok(html.includes('happyhands-social.png'));
  }
  assert.notEqual(seoData('studio','en').description,seoData('studio','zh').description);
- assert.ok(seoData('portal','en').title.includes('Open-source'));
+ assert.ok(seoData('portal','en').title.includes('AI Website Review'));
 });
 
 test('translated guides are complete without JavaScript and match their FAQ schema',()=>{
@@ -87,4 +87,32 @@ test('machine reading aid links to user-facing facts and preserves crawler exclu
  const robots=await read('public/robots.txt');
  assert.ok(!/^User-agent: (?:OAI-SearchBot|GPTBot)/m.test(robots),'Do not accidentally override wildcard exclusions or change training policy');
  assert.ok(portalContent('zh').includes('href="/guide/"'));assert.ok(portalContent('en').includes('href="/en/guide/"'));
+});
+test('product structured data describes real capabilities without invented ratings',async()=>{
+ const html=await read('apps/portal/index.html');
+ const data=JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
+ const app=data['@graph'].find(node=>node['@type']==='SoftwareApplication');
+ assert.equal(app.name,'HappyHands');assert.equal(app.url,origin+'/apps/portal/');
+ assert.equal(app.sameAs,'https://github.com/ShuaiMXu/happyhands');
+ assert.ok(!app.aggregateRating&&!app.review&&!app.offers,'Do not invent endorsements or pricing');
+ const ids=new Set(data['@graph'].map(node=>node['@id']));
+ for(const node of data['@graph'])for(const key of ['about','isPartOf'])if(node[key])assert.ok(ids.has(node[key]['@id']));
+ assert.ok(html.includes('AI 网站审阅、设计系统提取与代码优化'));
+});
+
+test('metadata reconciliation preserves product identity and replaces stale graphs exactly once',async()=>{
+ const source=await read('apps/portal/index.html');
+ for(const key of ['portal','guide','guideEn']){
+  const once=enhanceSeoHtml(source,key),twice=enhanceSeoHtml(once,key);
+  assert.equal((twice.match(/type="application\/ld\+json"/g)||[]).length,1);
+  assert.equal((twice.match(/hreflang=/g)||[]).length,key==='portal'?0:3);
+  const graph=seoData(key).graph['@graph'];
+  const app=graph.find(x=>x['@type']==='SoftwareApplication');
+  assert.equal(app['@id'],origin+'/#software');
+  assert.equal(app.sameAs,'https://github.com/ShuaiMXu/happyhands');
+  assert.equal(app.featureList.length,4);
+  const ids=new Set(graph.map(x=>x['@id']));
+  for(const node of graph)for(const name of ['about','isPartOf','publisher'])if(node[name])assert.ok(ids.has(node[name]['@id']));
+ }
+ assert.equal(seoData('portal').title,'HappyHands | AI 网站审阅、设计系统提取与代码优化');
 });

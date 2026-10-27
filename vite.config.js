@@ -6,6 +6,7 @@ import kageHandler from './api/kage.mjs';
 import { portalContent } from './apps/portal/render-content.js';
 import { seoPages, seoData, enhanceSeoHtml } from './packages/ui/site-seo.ts';
 import { guideContent } from './guide/content.ts';
+import { siteAnalyticsPlugin } from './scripts/site-analytics-plugin.mjs';
 
 const root = dirname(fileURLToPath(import.meta.url));
 
@@ -28,7 +29,7 @@ function mirrorIndex(urlPath) {
 
 export default defineConfig({
   server: { cors: { origin: [/^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/, 'null'] }, port: 4173, strictPort: true, fs: { strict: true } },
-  plugins: [{
+  plugins: [siteAnalyticsPlugin(root),{
     name: 'public-page-content-and-metadata',
     transformIndexHtml(html, context) {
       const filename=relative(root,context.filename).replaceAll('\\','/');

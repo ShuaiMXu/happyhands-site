@@ -40,7 +40,7 @@ try{
  await context.addInitScript(()=>{if(!localStorage.getItem('pd-lang'))localStorage.setItem('pd-lang','en')});
  const page=await context.newPage();await page.goto(base+'/apps/portal/');
  await page.waitForFunction(()=>document.documentElement.lang==='en');
- assert.ok((await page.title()).includes('Open-source'));
+ assert.ok((await page.title()).includes('AI Website Review'));
  const en=await page.locator('meta[name="description"]').getAttribute('content');
  await page.locator('#lang-switch button').click();await page.waitForFunction(()=>document.documentElement.lang==='zh-CN');
  assert.notEqual(await page.locator('meta[name="description"]').getAttribute('content'),en);

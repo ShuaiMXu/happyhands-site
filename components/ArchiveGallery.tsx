@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { ResourceExport } from "./ResourceExport";
 import { ReferenceSpecimen, type ReferenceSystem } from "./ReferenceSpecimen";
 import "./archive-gallery.css";
+import { Select } from "../packages/ui/Select";
 type Entry = {
   slug: string;
   name: string;
@@ -79,7 +80,7 @@ export function ArchiveGallery({ lang }: { lang: string }) {
   const filtered = entries.filter(
     (x) =>
       (!theme || x.theme === theme) &&
-      `${x.name} ${x.industry} ${x.fonts.join(" ")} ${x.north_star}`
+      `${x.name} ${x.site_url} ${x.slug} ${x.industry} ${x.fonts.join(" ")} ${x.north_star}`
         .toLowerCase()
         .includes(query.toLowerCase()),
   );
@@ -149,12 +150,13 @@ export function ArchiveGallery({ lang }: { lang: string }) {
       ) : (
         <>
           <div className="archive-filters">
-            <label>
-              {zh
-                ? "搜索网站、行业或字体"
-                : "Search websites, industries or fonts"}
+            <label className="archive-search">
+              {zh ? "搜索" : "Search"}
               <input
                 type="search"
+                placeholder={
+                  zh ? "网站、行业或字体" : "Website, industry or font"
+                }
                 value={query}
                 onChange={(e) => {
                   setQuery(e.target.value);
@@ -164,7 +166,7 @@ export function ArchiveGallery({ lang }: { lang: string }) {
             </label>
             <label>
               {zh ? "主题" : "Theme"}
-              <select
+              <Select
                 value={theme}
                 onChange={(e) => {
                   setTheme(e.target.value);
@@ -175,7 +177,7 @@ export function ArchiveGallery({ lang }: { lang: string }) {
                 <option value="light">{zh ? "浅色" : "Light"}</option>
                 <option value="dark">{zh ? "深色" : "Dark"}</option>
                 <option value="mixed">{zh ? "混合" : "Mixed"}</option>
-              </select>
+              </Select>
             </label>
             <span role="status">
               {entries.length

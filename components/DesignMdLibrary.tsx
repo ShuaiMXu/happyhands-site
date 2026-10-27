@@ -1,5 +1,6 @@
 import { ArchiveGallery } from "./ArchiveGallery";
 import React, { useRef, useState } from "react";
+import { Icon } from "../packages/ui/Icon";
 import { ReferenceActions } from "./ReferenceActions";
 const limit = 256 * 1024;
 export function DesignMdLibrary({ lang }: { lang: string }) {
@@ -46,6 +47,7 @@ export function DesignMdLibrary({ lang }: { lang: string }) {
       <details className="design-md-import">
         <summary>
           {zh ? "导入自己的 DESIGN.md" : "Import your own DESIGN.md"}
+          <Icon name="down" />
         </summary>
         <section className="reference-import">
           <label>

@@ -1,3 +1,4 @@
+import { resolveCatalogItem, searchCatalog } from "./catalog-search";
 import { applySiteMetadata } from "../packages/ui/site-seo";
 import { ComponentTile } from "./ComponentTile";
 import { DesignMdLibrary } from "./DesignMdLibrary";
@@ -29,9 +30,11 @@ type Item = (typeof data.items)[number];
 const title = (x: Item) =>
   x.title.replace("Ui", "UI").replace("Svg", "SVG").replace("Ai ", "AI ");
 const readSelection = () =>
-  data.items.find(
-    (x) => x.id === new URLSearchParams(location.search).get("component"),
+  resolveCatalogItem(
+    data.items,
+    new URLSearchParams(location.search).get("component"),
   )?.id || "";
+
 function App() {
   const readProvider = () => {
     const value = new URLSearchParams(location.search).get("provider");
@@ -146,14 +149,7 @@ function App() {
     );
     main.current?.focus();
   }
-  const filtered = data.items.filter(
-    (x) =>
-      !x.aliasOf &&
-      (group === "all" || x.category === group) &&
-      `${x.id} ${x.title} ${x.description} ${groups[x.category]?.join(" ")}`
-        .toLowerCase()
-        .includes(query.toLowerCase()),
-  );
+  const filtered = searchCatalog(data.items, query, group, groups);
   const guidance = t(
     `评估 Cult UI 的 ${item.id} 是否适合当前项目。固定源码版本：${item.revision}。\n先读取 ${location.origin}${item.source} 和 ${location.origin}/components/cult-ui/catalog.json，核对 MIT 许可、源码 SHA-256：${item.sourceSha256}、React/Tailwind 兼容性、npm 依赖和 registryDependencies。\n读取目标项目的设计规范，列出颜色、字体、间距、圆角和组件状态映射。不得直接覆盖全局主题或为演示引入无关服务。\n当前条目只是候选组件，站内可预览不等于项目适配通过。确认范围后再接入，验证键盘、触屏、减少动态效果、深浅色、响应式及原有业务流程。交付差异、验证证据与未解决限制。`,
     `Evaluate Cult UI ${item.id} for this project. Pinned source revision: ${item.revision}.\nRead ${location.origin}${item.source} and ${location.origin}/components/cult-ui/catalog.json. Verify MIT licensing, source SHA-256: ${item.sourceSha256}, React/Tailwind compatibility, npm dependencies and registryDependencies.\nRead project design rules and map colors, typography, spacing, corners and states. Do not overwrite global themes or add unrelated services.\nThis entry is a candidate; a preview is not project approval. Confirm scope before integration. Validate keyboard, touch, reduced motion, themes, responsive layout and business flows. Deliver the diff, evidence and limitations.`,

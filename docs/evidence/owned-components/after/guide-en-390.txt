@@ -32,21 +32,21 @@ Browser tab: 32, Title: "HappyHands guide / UI review, design systems and local 
 				31 text The resource library includes HappyHands, Quartz and Lime systems, component previews and design references. Check your existing rules, upstream licensing and technical compatibility before adopting anything. An external example or reference is not an installation into your project.
 				32 content list
 					33 container
-						34 AXListMarker • 
+						34 AXListMarker •
 						35 link Description: HappyHands, Value: 127.0.0.1:4250/systems/happyhands/
 						36 text  / Brand rules and product components
 					37 container
-						38 AXListMarker • 
+						38 AXListMarker •
 						39 link Description: Quartz, Value: 127.0.0.1:4250/systems/quartz/
-						40 text  / AI workflows and professional tools / 
+						40 text  / AI workflows and professional tools /
 						41 link Description: Upstream source, Value: design.how/systems/quartz
 					42 container
-						43 AXListMarker • 
+						43 AXListMarker •
 						44 link Description: Lime, Value: 127.0.0.1:4250/systems/lime/
-						45 text  / Personal assistants and consumer apps / 
+						45 text  / Personal assistants and consumer apps /
 						46 link Description: Upstream source, Value: design.how/systems/lime
 					47 container
-						48 AXListMarker • 
+						48 AXListMarker •
 						49 link Description: Component previews and design references, Value: 127.0.0.1:4250/components/
 			50 container themes
 				51 heading Customize and export a theme, Value: 2
@@ -62,7 +62,7 @@ cd happyhands
 pnpm install --frozen-lockfile
 pnpm workbench
 				60 container
-					61 text Open 
+					61 text Open
 					62 link Description: http://127.0.0.1:4190/apps/designer/, Value: 127.0.0.1:4190/apps/designer/
 					63 text . Provide your repository, working preview, user task and design sources. Confirm pages, devices and states before capture.
 			64 container agents
@@ -75,9 +75,9 @@ pnpm workbench
 				71 text Run records stay in the local .harness/ directory. Model-assisted steps send selected source context and screenshots to your configured model provider. Original core code is MIT licensed; third-party resources retain their own terms, and provider charges are separate. This is a Local Web Alpha: unseen pages and untested interactions remain unreviewed.
 				72 container
 					73 link Description: MIT, Value: github.com/ShuaiMXu/happyhands/blob/main/LICENSE
-					74 text  / 
+					74 text  /
 					75 link Description: Third-party notices, Value: github.com/ShuaiMXu/happyhands/blob/main/THIRD_PARTY_NOTICES.md
-					76 text  / 
+					76 text  /
 					77 link Description: Data and execution details, Value: github.com/ShuaiMXu/happyhands/blob/main/docs/local-workbench.md
 			78 container faq
 				79 heading Frequently asked questions, Value: 2

@@ -1,0 +1,24 @@
+components/ArchiveCard.tsx
+  h_8f87e56e705bcf 1-128
+components/ArchiveGallery.tsx
+  h_8f87e56e705bcf 6-12,19-20,78-82,163-164,166-167,169,173-183,186-208,226-234,237
+components/archive-catalog.ts
+  h_8f87e56e705bcf 1-53
+components/archive-gallery.css
+  h_8f87e56e705bcf 27,514-666
+docs/design-archive-2026-10-27.md
+  h_8f87e56e705bcf 29-36
+tests/archive-catalog.test.ts
+  h_8f87e56e705bcf 1-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "7abc4d596f9a0de253268283f9418df03fd7d101",
+  "prompts": {},
+  "humans": {
+    "h_8f87e56e705bcf": {
+      "author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

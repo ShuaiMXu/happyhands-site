@@ -17,6 +17,7 @@
     "allowJs": true
   },
   "include": [
+    "guide",
     "apps/studio",
     "systems/happyhands",
     "systems/quartz",

@@ -18,4 +18,6 @@ jobs:
       - run: npm run typecheck
       - run: npm run test:studio
       - run: npm run test:analytics
+      - run: npm run test:seo
       - run: npm run build
+      - run: npm run verify:alpha

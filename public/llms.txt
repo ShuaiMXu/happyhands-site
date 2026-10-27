@@ -1,0 +1,32 @@
+# HappyHands
+
+> HappyHands is an open-source local design review workbench for products built with coding agents. It helps connect screenshots, project design rules, scoped code changes and review decisions. Current status: Local Web Alpha.
+
+## Official sources
+
+- [Product website](https://happyhands.cc/apps/portal/): Product workflow and setup entry.
+- [English guide](https://happyhands.cc/en/guide/): Local setup, supported tool roles, design resources, review workflow, data handling and limitations.
+- [中文使用指南](https://happyhands.cc/guide/): 本地安装、编码工具接入、设计资源、审阅流程、数据与限制。
+- [Core source](https://github.com/ShuaiMXu/happyhands): Original HappyHands core code is MIT licensed. Third-party dependencies retain their own terms.
+- [Harness documentation](https://github.com/ShuaiMXu/happyhands/blob/main/docs/harness.md): Commands and execution boundaries.
+- [Website source](https://github.com/ShuaiMXu/happyhands-site): Public website and Theme Studio implementation.
+
+## Product facts
+
+- The website provides guidance, design resources and Theme Studio. Review execution uses the local workbench and Harness.
+- Start locally with Git, Node.js 22.15+, pnpm 11.19.0 and Chrome or Edge. Clone the core repository, run `pnpm install --frozen-lockfile`, then `pnpm workbench`.
+- Codex CLI supports model diagnosis, screenshot-aware review and implementation. Claude Code has an implementation adapter; complete end-to-end validation remains open.
+- Cursor, Kimi Code and WorkBuddy can operate the Harness with local browser, terminal and repository access. They do not have dedicated implementation adapters in this version.
+- Review coverage follows the confirmed capture plan. A person accepts or rejects changes; a passing model review does not establish whole-product acceptance.
+- Run records stay under the local `.harness/` directory. Model-assisted steps send selected source context and screenshots through the configured CLI to the model provider. Processing is not entirely local.
+- Original core source is MIT licensed. Third-party code, fonts, assets and dependencies retain their own licenses; tldraw has separate production-use requirements. Model providers may charge separately.
+
+## Design resources
+
+- [Resource library](https://happyhands.cc/components/): Design systems, attributed component previews and design references.
+- [HappyHands design system](https://happyhands.cc/systems/happyhands/): Semantic tokens and product UI examples.
+- [Quartz reference](https://happyhands.cc/systems/quartz/): AI workflows and professional tools; upstream source is design.how.
+- [Lime reference](https://happyhands.cc/systems/lime/): Personal assistants and consumer apps; upstream source is design.how.
+- [Theme Studio](https://happyhands.cc/apps/studio/): Preset selection, token customization, light/dark previews and CSS/Tailwind/registry/Foundation exports. Browser drafts do not automatically write repositories.
+
+This file is a factual reading aid, not an indexing requirement or a guarantee of search ranking or AI citations. The linked user-facing guides contain the same scope and limitations.

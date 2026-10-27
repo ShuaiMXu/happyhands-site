@@ -10,7 +10,7 @@ for (const name of scripts.filter(name => name.endsWith('.js'))) {
   if ((await readFile(join(assets,name),'utf8')).includes('/_vercel/insights/script.js')) { analyticsAsset=name; break; }
 }
 assert.ok(analyticsAsset,'Analytics must be compiled into the production assets');
-for (const page of ['apps/portal','apps/studio','components','systems/happyhands','systems/quartz','systems/lime']) {
+for (const page of ['apps/portal','apps/studio','components','systems/happyhands','systems/quartz','systems/lime','guide','en/guide']) {
   const html=await readFile(`dist/${page}/index.html`,'utf8');
   assert.ok(!html.includes('/packages/ui/site-analytics.ts'),'Do not leave an unbundled TypeScript URL in production');
 }
@@ -19,6 +19,7 @@ const results=[];
 try {
   for (const scenario of [
     {name:'production',url:'https://happyhands.cc/apps/studio/?project=private-name&token=secret#draft',enabled:true},
+    {name:'guide',url:'https://happyhands.cc/en/guide/?token=secret#setup',enabled:true},
     {name:'preview',url:'https://preview-shakaka.vercel.app/apps/portal/',enabled:false},
     {name:'localhost',url:'http://127.0.0.1:4246/apps/portal/',enabled:false},
     {name:'historical',url:'https://happyhands.cc/runs/private-id/',enabled:false},
@@ -49,8 +50,9 @@ try {
     await page.goto(scenario.url);await page.waitForLoadState('networkidle');
     assert.equal(scriptRequests,scenario.enabled?1:0,scenario.name);
     if(scenario.enabled) {
-      assert.deepEqual(payloads,[{type:'pageview',url:'https://happyhands.cc/apps/studio/'}]);
-      await page.evaluate(()=>window.analyticsTestSend('https://happyhands.cc/apps/studio/?project=another-secret'));
+      const cleanUrl=new URL(scenario.url);cleanUrl.search='';cleanUrl.hash='';
+      assert.deepEqual(payloads,[{type:'pageview',url:cleanUrl.href}]);
+      await page.evaluate(url=>window.analyticsTestSend(url+'?project=another-secret'),cleanUrl.href);
       assert.equal(payloads.length,1,'Project switches must not add duplicate views');
     }else assert.equal(payloads.length,0);
     assert.deepEqual(errors,[]);

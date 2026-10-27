@@ -1,3 +1,4 @@
+import { applySiteMetadata } from "../../packages/ui/site-seo";
 import { Select } from "../../packages/ui/Select";
 import { Icon } from "../../packages/ui/Icon";
 import { t, sceneLabel } from "./i18n";
@@ -201,8 +202,7 @@ const presetCandidates = Object.keys(presets).map(id => ({ id, styles: presetSty
 function App() {
   const { lang, dark, toggleLanguage, toggleTheme } = useSitePreferences();
   useEffect(() => {
-    document.title =
-      lang === "zh" ? "主题工作室 / HappyHands" : "Theme Studio / HappyHands";
+    applySiteMetadata('studio',lang);
   }, [lang]);
   const [panelWidth, setPanelWidth] = useState(320);
   const moreDetails = useRef<HTMLDetailsElement>(null);

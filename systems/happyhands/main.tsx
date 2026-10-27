@@ -1,3 +1,4 @@
+import { applySiteMetadata } from "../../packages/ui/site-seo";
 import { SystemScenes } from "../../packages/ui/SystemScenes";
 import { SystemExample } from "../../packages/ui/SystemExample";
 import { Icon } from "../../packages/ui/Icon";
@@ -26,8 +27,7 @@ function App() {
   const dialog = useRef<HTMLDialogElement>(null);
   const opener = useRef<HTMLButtonElement>(null);
   React.useEffect(() => {
-    document.title =
-      lang === "zh" ? "HappyHands / 设计系统" : "HappyHands / Design system";
+    applySiteMetadata('happyhands',lang);
   }, [lang]);
   const t = (zh: string, en: string) => (lang === "zh" ? zh : en);
   const buttonLabels = {

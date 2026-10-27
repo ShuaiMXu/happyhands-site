@@ -1,0 +1,23 @@
+components/ArchiveGallery.tsx
+  s_1b7f1e9b8e09ef::t_84abdd04247ef7 5,83,153-154,157-159,169,180
+components/ReferenceSpecimen.tsx
+  s_1b7f1e9b8e09ef::t_99142b25bc8189 2-6,8-21,27-29,40,54-68,71,93,110-121,155-156,165,169-213,215-250,252-260,263-286,294-295,301
+docs/design-archive-2026-10-27.md
+  s_1b7f1e9b8e09ef::t_83266dd97f29bb 21-28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "3227c81f9eb1dc45d683fc920cbb404c0500df42",
+  "prompts": {},
+  "sessions": {
+    "s_1b7f1e9b8e09ef": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a17b56-6ab5-7443-8451-438dc8667c89",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

@@ -1,0 +1,132 @@
+.archive-gallery {
+  margin-block: 24px 48px;
+}
+.archive-filters {
+  display: flex;
+  align-items: end;
+  gap: 24px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+.archive-filters label {
+  display: grid;
+  gap: 8px;
+  flex: 1;
+  min-width: 180px;
+}
+.archive-filters input,
+.archive-filters select {
+  width: 100%;
+  min-height: 44px;
+  background: var(--hh-bg-raised);
+  color: var(--hh-ink);
+  border: 0.5px solid var(--hh-line);
+  padding: 10px 12px;
+  border-radius: 4px;
+}
+.archive-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 32px 24px;
+}
+.archive-card {
+  display: block;
+  text-align: left;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  min-width: 0;
+  cursor: pointer;
+}
+.archive-card img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1.6;
+  object-fit: cover;
+  border: 0.5px solid var(--hh-line);
+  border-radius: 4px;
+}
+.archive-card span {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 12px;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.archive-card strong {
+  font-size: 16px;
+}
+.archive-card small {
+  font-size: 12px;
+}
+.archive-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-block: 24px 16px;
+}
+.archive-detail {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: 32px;
+}
+.archive-detail > section {
+  min-width: 0;
+}
+.archive-large,
+.archive-detail video {
+  width: 100%;
+  height: auto;
+}
+.archive-detail details {
+  margin-top: 24px;
+}
+.archive-detail summary {
+  cursor: pointer;
+  padding-block: 12px;
+}
+.archive-document {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  max-height: 640px;
+  overflow: auto;
+  font-size: 14px;
+  line-height: 1.65;
+  padding: 16px;
+  border: 0.5px solid var(--hh-line);
+  margin-top: 16px;
+}
+.archive-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
+  margin-top: 32px;
+}
+.archive-gallery button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+@media (max-width: 1000px) {
+  .archive-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .archive-detail {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 540px) {
+  .archive-grid {
+    grid-template-columns: 1fr;
+  }
+  .archive-filters {
+    gap: 16px;
+  }
+  .archive-filters label {
+    min-width: 100%;
+  }
+}

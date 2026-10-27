@@ -200,13 +200,13 @@ function App() {
         {[
           ["systems", t("设计系统", "Design systems")],
           ["cult-ui", t("组件库", "Component libraries")],
-          ["kage", t("设计参考", "Design references")],
+          ["refero", t("设计参考", "Design references")],
         ].map(([id, label]) => (
           <a
             key={id}
             href={`?provider=${id}`}
             aria-current={
-              provider === id || (id === "kage" && provider === "refero")
+              provider === id || (id === "refero" && provider === "kage")
                 ? "page"
                 : undefined
             }

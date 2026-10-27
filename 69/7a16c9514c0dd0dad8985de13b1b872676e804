@@ -1,0 +1,24 @@
+apps/portal/design-systems.js
+  h_8f87e56e705bcf 37-38
+components/ArchiveGallery.tsx
+  h_8f87e56e705bcf 81,141
+components/DesignMdLibrary.tsx
+  h_8f87e56e705bcf 5,92
+components/main.tsx
+  h_8f87e56e705bcf 3,38-42,106,202,208,223-224
+docs/design-archive-2026-10-27.md
+  h_8f87e56e705bcf 12-13
+packages/ui/site-seo.ts
+  h_8f87e56e705bcf 6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "697a16c9514c0dd0dad8985de13b1b872676e804",
+  "prompts": {},
+  "humans": {
+    "h_8f87e56e705bcf": {
+      "author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

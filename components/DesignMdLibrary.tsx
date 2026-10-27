@@ -43,7 +43,7 @@ export function DesignMdLibrary({ lang }: { lang: string }) {
   return (
     <main id="catalog-main" className="provider-reference">
       <ArchiveGallery lang={lang} />
-      <details>
+      <details className="design-md-import">
         <summary>
           {zh ? "导入自己的 DESIGN.md" : "Import your own DESIGN.md"}
         </summary>

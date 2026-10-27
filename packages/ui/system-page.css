@@ -387,3 +387,7 @@ body {
 .system-embedded body { min-height:0; }
 
 .system-landing .system-introduction h2 { font-size:20px; }
+/* Resource details already provide the name and actions in their outer shell. */
+.resource-embedded .system-landing main{padding-inline:0}
+.resource-embedded .system-introduction>div:first-child{display:none}
+.resource-embedded .system-introduction{display:block;margin-top:0;padding-top:0}

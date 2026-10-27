@@ -24,7 +24,7 @@ for entry in json.loads((source / 'index.json').read_text()):
     dest = target / slug
     dest.mkdir(parents=True, exist_ok=True)
     (dest / 'compact').mkdir(exist_ok=True)
-    for name in ['design.md', 'compact/design.md', 'thumbnail.jpg', 'screenshot.jpg']:
+    for name in ['design.md', 'compact/design.md', 'thumbnail.jpg', 'screenshot.jpg', 'design-system.json', 'theme.css', 'variables.css', 'tokens.json']:
         shutil.copyfile(folder / name, dest / name)
     row = {key: entry[key] for key in ['slug', 'name', 'site_url', 'page_url', 'theme', 'industry', 'north_star', 'fonts']}
     row['video'] = entry['video']['url']

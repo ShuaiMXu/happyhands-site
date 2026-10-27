@@ -14,7 +14,15 @@ test("every reference retains its full document and both image sizes", () => {
       createHash("sha256").update(bytes).digest("hex"),
       entry.sha256,
     );
-    for (const file of ["compact/design.md", "thumbnail.jpg", "screenshot.jpg"])
+    for (const file of [
+      "compact/design.md",
+      "thumbnail.jpg",
+      "screenshot.jpg",
+      "design-system.json",
+      "theme.css",
+      "variables.css",
+      "tokens.json",
+    ])
       assert.ok(existsSync(new URL(`${entry.slug}/${file}`, root)));
     for (const field of ["site_url", "page_url", "video"])
       assert.equal(new URL(entry[field]).protocol, "https:");

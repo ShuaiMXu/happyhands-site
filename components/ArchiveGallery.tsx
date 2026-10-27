@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { ReferenceActions } from "./ReferenceActions";
+import { ResourceExport } from "./ResourceExport";
+import { ReferenceSpecimen, type ReferenceSystem } from "./ReferenceSpecimen";
 import "./archive-gallery.css";
 type Entry = {
   slug: string;
@@ -20,9 +21,7 @@ export function ArchiveGallery({ lang }: { lang: string }) {
     [theme, setTheme] = useState(""),
     [page, setPage] = useState(1),
     [selected, setSelected] = useState<Entry | null>(null),
-    [content, setContent] = useState(""),
-    [docError, setDocError] = useState(false),
-    [loading, setLoading] = useState(false),
+    [system, setSystem] = useState<ReferenceSystem | null>(null),
     [retry, setRetry] = useState(0);
   useEffect(() => {
     const c = new AbortController();
@@ -44,32 +43,39 @@ export function ArchiveGallery({ lang }: { lang: string }) {
     return () => c.abort();
   }, [retry, zh]);
   useEffect(() => {
-    setContent("");
-    setDocError(false);
+    setSystem(null);
     if (!selected) return;
     const c = new AbortController();
-    setLoading(true);
-    fetch(`/design-archive/${selected.slug}/design.md`, { signal: c.signal })
+    fetch(`/design-archive/${selected.slug}/design-system.json`, {
+      signal: c.signal,
+    })
       .then((r) => {
         if (!r.ok) throw Error();
-        return r.text();
+        return r.json();
       })
-      .then(setContent)
-      .catch((e) => {
-        if (e.name !== "AbortError") {
-          setDocError(true);
-          setContent(
-            zh
-              ? "规范加载失败，请下载原文件。"
-              : "Could not load guidelines. Download the original file.",
-          );
-        }
+      .then((value) => {
+        if (!c.signal.aborted) setSystem(value);
       })
-      .finally(() => {
-        if (!c.signal.aborted) setLoading(false);
-      });
+      .catch(() => {});
     return () => c.abort();
-  }, [selected, zh]);
+  }, [selected]);
+  useEffect(() => {
+    const restore = () => {
+      const slug = new URLSearchParams(location.search).get("design");
+      setSelected(entries.find((entry) => entry.slug === slug) || null);
+    };
+    restore();
+    addEventListener("popstate", restore);
+    return () => removeEventListener("popstate", restore);
+  }, [entries]);
+  const selectEntry = (entry: Entry | null) => {
+    const url = new URL(location.href);
+    url.searchParams.set("provider", "design-md");
+    if (entry) url.searchParams.set("design", entry.slug);
+    else url.searchParams.delete("design");
+    history.pushState(null, "", url.pathname + url.search);
+    setSelected(entry);
+  };
   const filtered = entries.filter(
     (x) =>
       (!theme || x.theme === theme) &&
@@ -84,72 +90,60 @@ export function ArchiveGallery({ lang }: { lang: string }) {
           <button
             onClick={() => {
               const slug = selected.slug;
-              setSelected(null);
+              selectEntry(null);
               requestAnimationFrame(() =>
                 document.getElementById(`archive-${slug}`)?.focus(),
               );
             }}
           >
-            {zh ? "返回参考网格" : "Back to references"}
+            {zh ? "返回 Design.md" : "All Design.md"}
           </button>
-          <div className="archive-title">
+          <div className="resource-detail-heading">
             <h2>{selected.name}</h2>
-            <a href={selected.site_url} target="_blank" rel="noreferrer">
-              {zh ? "访问网站" : "Visit website"} ↗
-            </a>
           </div>
-          <div className="archive-detail">
-            <section>
-              <h3>{zh ? "页面截图" : "Page screenshot"}</h3>
-              <a
-                href={`/design-archive/${selected.slug}/screenshot.jpg`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  className="archive-large"
-                  src={`/design-archive/${selected.slug}/screenshot.jpg`}
-                  alt={`${selected.name} — 1440 × 900`}
-                />
-              </a>
-              <details>
-                <summary>
-                  {zh ? "查看整页滚动预览" : "Full-page scroll preview"}
-                </summary>
-                <video
-                  controls
-                  preload="none"
-                  poster={`/design-archive/${selected.slug}/screenshot.jpg`}
-                  src={selected.video}
-                />
-              </details>
-            </section>
-            <section>
-              <div className="archive-title">
-                <h3>DESIGN.md</h3>
-                <a href={`/design-archive/${selected.slug}/design.md`} download>
-                  {zh ? "下载完整规范" : "Download guidelines"}
-                </a>
-              </div>
-              <a
-                href={`/design-archive/${selected.slug}/compact/design.md`}
-                download
-              >
-                {zh ? "下载精简版" : "Download compact version"}
-              </a>
-              <p>{selected.north_star}</p>
-
-              <pre className="archive-document" aria-busy={loading}>
-                {loading ? (zh ? "加载中…" : "Loading…") : content}
-              </pre>
-              {content && !loading && !docError && (
-                <ReferenceActions
-                  lang={lang}
-                  content={content}
-                  source={selected.page_url}
-                />
-              )}
-            </section>
+          <div className="resource-detail-layout">
+            <div className="resource-detail-preview">
+              <video
+                key={selected.slug}
+                controls
+                playsInline
+                preload="metadata"
+                poster={`/design-archive/${selected.slug}/screenshot.jpg`}
+                src={selected.video}
+                aria-label={
+                  zh
+                    ? `${selected.name} 整页预览`
+                    : `${selected.name} full-page preview`
+                }
+              />
+              {system && <ReferenceSpecimen system={system} lang={lang} />}
+            </div>
+            <ResourceExport
+              key={selected.slug}
+              lang={lang}
+              files={[
+                {
+                  label: "Design.md",
+                  url: `/design-archive/${selected.slug}/design.md`,
+                  name: `${selected.slug}-design.md`,
+                },
+                {
+                  label: "Tailwind v4",
+                  url: `/design-archive/${selected.slug}/theme.css`,
+                  name: "theme.css",
+                },
+                {
+                  label: "CSS Variables",
+                  url: `/design-archive/${selected.slug}/variables.css`,
+                  name: "variables.css",
+                },
+                {
+                  label: "Tokens",
+                  url: `/design-archive/${selected.slug}/tokens.json`,
+                  name: "tokens.json",
+                },
+              ]}
+            />
           </div>
         </>
       ) : (
@@ -206,7 +200,7 @@ export function ArchiveGallery({ lang }: { lang: string }) {
                 key={x.slug}
                 className="archive-card"
                 onClick={() => {
-                  setSelected(x);
+                  selectEntry(x);
                   document.getElementById("catalog-main")?.scrollIntoView();
                 }}
               >

@@ -11,3 +11,10 @@ The gallery paginates 24 entries, searches names/industry/fonts/style descriptio
 Validation: catalog integrity test, TypeScript, production build. Browser checks at desktop and 390×844: loaded images, filter/search, details, full original document and no phone horizontal overflow. Production publication and upstream video availability remain separate from local verification.
 
 User-directed revision: replace provider-based reference navigation with Design systems / Design.md / Component libraries. Remove Refero and Kage UI and source-provider entries; legacy provider URLs resolve to Design.md. Keep original provenance in archived metadata and agent handoff. Remove the raw-video link. Existing skills remain unchanged.
+
+
+## Detail presentation alignment
+
+The Mercury reference was inspected in the browser. Detail pages now share a preview/specimen column and a sticky export panel, with 390px single-column fallback. DESIGN.md, Tailwind theme, CSS variables, tokens and structured design-system JSON are copied without editing from all 1,342 supplied entries. No proprietary font is downloaded or claimed as loaded; typography specimens show recorded family and metrics using the site font. Extracted color swatches preserve source colors while interface chrome keeps HappyHands tokens. Original source attribution stays in the collection metadata.
+
+The owned system pages reuse the same export panel and full-height existing system reference iframe. HappyHands exposes its existing complete SKILL.md plus token JSON. Quartz and Lime expose local checked foundation snapshots, not invented DESIGN.md or upstream component source. The pre-existing dirty HappyHands system source remains excluded.

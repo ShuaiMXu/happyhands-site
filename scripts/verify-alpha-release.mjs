@@ -16,7 +16,8 @@ const robots=await readFile('dist/robots.txt','utf8');assert.ok(robots.includes(
 const legacy=await readFile('dist/apps/web/index.html','utf8');assert.ok(legacy.includes('noindex'));assert.ok(legacy.includes('url=/apps/portal/'));
 
 const portal=await readFile('dist/apps/portal/index.html','utf8');
-for(const text of ['常见问题','pnpm workbench','待人工验收','docs/harness.md'])assert.ok(portal.includes(text),'Missing prerendered content: '+text);
+for(const text of ['feed-panel-design-md','feed-panel-systems','feed-panel-cult-ui','docs/harness.md'])assert.ok(portal.includes(text),'Missing prerendered content: '+text);
+assert.ok(!portal.includes('class="homepage-case"'),'Removed homepage case must not return');
 assert.ok(!portal.includes('<div id="portal-content"></div>'),'Portal must not be an empty client-only shell');
 for(const path of pages){
   const html=await readFile(`dist/${path}/index.html`,'utf8');

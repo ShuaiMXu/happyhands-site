@@ -1,0 +1,120 @@
+{
+ "id": "08c0ead0-1899-47b4-bfdc-865ab459bbe5",
+ "slug": "cap-08c0ead0",
+ "name": "Cap",
+ "site_url": "https://cap.so",
+ "lastmod": "2026-06-03T21:34:36.456Z",
+ "extracted_at": "2026-06-03T21:34:36.449Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "quiet white studio with a single blue spark",
+ "fonts": [
+  "defaultFont",
+  "Cap Sans (custom geometric sans, similar to General Sans or Inter Display)",
+  "ui-monospace, SFMono-Regular, Menlo, Consolas"
+ ],
+ "colors": [
+  {
+   "hex": "#3b82f6",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#2563eb",
+   "name": "Action Blue"
+  },
+  {
+   "hex": "#202020",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#fcfcfc",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f0f0f0",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e0e0e0",
+   "name": "Fog"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Ash"
+  },
+  {
+   "hex": "#c2c2c2",
+   "name": "Steel"
+  },
+  {
+   "hex": "#838383",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#646464",
+   "name": "Slate"
+  },
+  {
+   "hex": "#1e40af",
+   "name": "Outlined Indigo"
+  },
+  {
+   "hex": "#7c3aed",
+   "name": "Spark Violet"
+  },
+  {
+   "hex": "#8b5cf6",
+   "name": "Spark Violet Soft"
+  },
+  {
+   "hex": "#d97706",
+   "name": "Ember"
+  },
+  {
+   "hex": "#0d74ce",
+   "name": "Sky"
+  },
+  {
+   "hex": "#e0ecfc",
+   "name": "Ice"
+  },
+  {
+   "hex": "#0090ff",
+   "name": "Cyan Glow"
+  },
+  {
+   "hex": "#ef4444",
+   "name": "Alert Red"
+  },
+  {
+   "hex": "#ff5f57",
+   "name": "macOS Red"
+  },
+  {
+   "hex": "#ffbd2e",
+   "name": "macOS Yellow"
+  },
+  {
+   "hex": "#28c840",
+   "name": "macOS Green"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/847035bc-9d01-4cad-a979-dd602e538233.mp4",
+  "poster": "https://happyhands.cc/design-archive/cap-08c0ead0/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/cap-08c0ead0/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/cap-08c0ead0/thumbnail.jpg"
+}

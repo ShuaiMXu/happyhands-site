@@ -1,0 +1,74 @@
+{
+ "id": "1b2aaf14-43b0-4c23-bd25-1d49924fe85e",
+ "slug": "buymeacoffee-1b2aaf14",
+ "name": "Buymeacoffee",
+ "site_url": "https://buymeacoffee.com",
+ "lastmod": "2026-06-03T17:11:22.132Z",
+ "extracted_at": "2026-06-03T17:11:22.129Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Cream-paper café scrapbook with floating polaroid testimonials",
+ "fonts": [
+  "ui-sans-serif",
+  "Circular Bold",
+  "Circular Medium",
+  "Circular Regular",
+  "Circular Book"
+ ],
+ "colors": [
+  {
+   "hex": "#faf8f0",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Card White"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Hairline Gray"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#222222",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#717171",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#ffdd00",
+   "name": "Marigold"
+  },
+  {
+   "hex": "#f7d046",
+   "name": "Buttercup"
+  },
+  {
+   "hex": "#d8573f",
+   "name": "Terracotta"
+  },
+  {
+   "hex": "#f5d5cf",
+   "name": "Blush Border"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/67297234-e7f3-4121-9137-521cb482777a.mp4",
+  "poster": "https://happyhands.cc/design-archive/buymeacoffee-1b2aaf14/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/buymeacoffee-1b2aaf14/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/buymeacoffee-1b2aaf14/thumbnail.jpg"
+}

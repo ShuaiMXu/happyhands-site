@@ -1,0 +1,88 @@
+{
+ "id": "e8589e7c-5ba9-4923-aa7f-0f1bf0d679be",
+ "slug": "campsite-e8589e7c",
+ "name": "Campsite",
+ "site_url": "https://campsite.design",
+ "lastmod": "2026-06-03T17:34:49.769Z",
+ "extracted_at": "2026-06-03T17:34:49.763Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "sunlit editorial workspace — warm cream paper with one orange stamp of intent",
+ "fonts": [
+  "Inter",
+  "ui-monospace",
+  "emoji"
+ ],
+ "colors": [
+  {
+   "hex": "#ff6b1a",
+   "name": "Campfire Orange"
+  },
+  {
+   "hex": "#451a03",
+   "name": "Ember Brown"
+  },
+  {
+   "hex": "#fef3c7",
+   "name": "Sunlit Cream"
+  },
+  {
+   "hex": "#22c55e",
+   "name": "Forest Pulse"
+  },
+  {
+   "hex": "#ef4444",
+   "name": "Ember Alert"
+  },
+  {
+   "hex": "#171717",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#fffdf9",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#f5f5f5",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#f0f0f0",
+   "name": "Linen"
+  },
+  {
+   "hex": "#a3a3a3",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#737373",
+   "name": "Slate"
+  },
+  {
+   "hex": "#525252",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#8f7668",
+   "name": "Stone"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e7acf76d-c172-4839-b43e-7c8ec103914b.mp4",
+  "poster": "https://happyhands.cc/design-archive/campsite-e8589e7c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/campsite-e8589e7c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/campsite-e8589e7c/thumbnail.jpg"
+}

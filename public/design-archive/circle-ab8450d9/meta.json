@@ -1,0 +1,106 @@
+{
+ "id": "ab8450d9-1b42-4395-aa24-9e277f021aa1",
+ "slug": "circle-ab8450d9",
+ "name": "Circle",
+ "site_url": "https://www.circle.so",
+ "lastmod": "2026-06-05T04:05:38.350Z",
+ "extracted_at": "2026-06-03T18:02:03.287Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "saas",
+ "north_star": "Aurora-lit mission control in deep midnight. A near-black indigo page glows from the center outward, cradling a single white product panel like a lit window in a planetarium.",
+ "fonts": [
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#0f0f35",
+   "name": "Void Indigo"
+  },
+  {
+   "hex": "#15163d",
+   "name": "Deep Space"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Product White"
+  },
+  {
+   "hex": "#0a0a0a",
+   "name": "Pure Ink"
+  },
+  {
+   "hex": "#191b1f",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#737373",
+   "name": "Steel"
+  },
+  {
+   "hex": "#262626",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#e4e7eb",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#408fed",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#3e1bc9",
+   "name": "Plasma Violet"
+  },
+  {
+   "hex": "#3655e5",
+   "name": "Nebula Blue"
+  },
+  {
+   "hex": "#5a3f99",
+   "name": "Cosmic Purple"
+  },
+  {
+   "hex": "#484b73",
+   "name": "Twilight Iris"
+  },
+  {
+   "hex": "#ffe0e2",
+   "name": "Blush Mist"
+  },
+  {
+   "hex": "#f2dbf5",
+   "name": "Lavender Whisper"
+  },
+  {
+   "hex": "#fff0d8",
+   "name": "Sunbeam"
+  },
+  {
+   "hex": "#e0eafc",
+   "name": "Polar Sky"
+  },
+  {
+   "hex": "#e4f6f4",
+   "name": "Mint Glow"
+  },
+  {
+   "hex": "#539cf2",
+   "name": "Focus Beam"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8d9c1a5b-8fa9-4e54-b4cf-bd36d75cd1f5.mp4",
+  "poster": "https://happyhands.cc/design-archive/circle-ab8450d9/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/circle-ab8450d9/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/circle-ab8450d9/thumbnail.jpg"
+}

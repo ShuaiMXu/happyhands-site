@@ -1,0 +1,79 @@
+{
+ "id": "51b5d80e-d898-4d70-bd16-9e50406e014c",
+ "slug": "cards-against-humanity-51b5d80e",
+ "name": "Cards Against Humanity",
+ "site_url": "https://www.cardsagainsthumanity.com",
+ "lastmod": "2026-06-05T09:24:15.072Z",
+ "extracted_at": "2026-06-03T20:21:29.002Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "media",
+ "north_star": "Scattered playing cards on a velvet game table — the design language is the game itself, not a wrapper around it.",
+ "fonts": [
+  "Helvetica Neue LT",
+  "Helvetica Neue"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Game Night Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Card White"
+  },
+  {
+   "hex": "#fe2f2f",
+   "name": "Signal Red"
+  },
+  {
+   "hex": "#7333f1",
+   "name": "Royal Violet"
+  },
+  {
+   "hex": "#d7b73b",
+   "name": "Antique Gold"
+  },
+  {
+   "hex": "#fffe5b",
+   "name": "Lemon Card"
+  },
+  {
+   "hex": "#ede5ff",
+   "name": "Lavender Card"
+  },
+  {
+   "hex": "#1b5bff",
+   "name": "Cobalt Card"
+  },
+  {
+   "hex": "#a0e9ff",
+   "name": "Sky Card"
+  },
+  {
+   "hex": "#ffa0f0",
+   "name": "Bubblegum Card"
+  },
+  {
+   "hex": "#b4ff91",
+   "name": "Mint Card"
+  },
+  {
+   "hex": "#ff9559",
+   "name": "Tangerine Card"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6827b45e-5628-4f2b-9e19-f22e73a6c47c.mp4",
+  "poster": "https://happyhands.cc/design-archive/cards-against-humanity-51b5d80e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/cards-against-humanity-51b5d80e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/cards-against-humanity-51b5d80e/thumbnail.jpg"
+}

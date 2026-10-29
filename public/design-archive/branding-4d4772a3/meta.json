@@ -1,0 +1,81 @@
+{
+ "id": "4d4772a3-e1da-415f-a6d7-658dcefdcecd",
+ "slug": "branding-4d4772a3",
+ "name": "Branding",
+ "site_url": "https://www.svz.io",
+ "lastmod": "2026-06-05T01:41:09.127Z",
+ "extracted_at": "2026-06-03T16:45:35.103Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "Black gallery wall, blood-red punctuation — Oversized white display type floats on a void-like dark canvas, interrupted by a single vivid red accent and dramatic ornamental display faces that feel like gallery signage rather than web UI.",
+ "fonts": [
+  "Kmr Waldenburg",
+  "Editorialnew",
+  "Dirtyline 36 Daysoftype 2022",
+  "system-ui"
+ ],
+ "colors": [
+  {
+   "hex": "#080808",
+   "name": "Void Canvas"
+  },
+  {
+   "hex": "#000000",
+   "name": "Absolute Black"
+  },
+  {
+   "hex": "#171617",
+   "name": "Charcoal Plate"
+  },
+  {
+   "hex": "#262525",
+   "name": "Smoke Plate"
+  },
+  {
+   "hex": "#393939",
+   "name": "Graphite Lift"
+  },
+  {
+   "hex": "#fcfcfc",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#f3efef",
+   "name": "Linen"
+  },
+  {
+   "hex": "#d4d2d2",
+   "name": "Ash"
+  },
+  {
+   "hex": "#b5b2b2",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#525252",
+   "name": "Iron"
+  },
+  {
+   "hex": "#fe1e34",
+   "name": "Arterial Red"
+  },
+  {
+   "hex": "#ff0000",
+   "name": "Crimson Pure"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3f755bc2-ba1d-4572-b506-814d92562267.mp4",
+  "poster": "https://happyhands.cc/design-archive/branding-4d4772a3/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/branding-4d4772a3/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/branding-4d4772a3/thumbnail.jpg"
+}

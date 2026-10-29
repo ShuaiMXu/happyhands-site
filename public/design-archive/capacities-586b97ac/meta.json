@@ -1,0 +1,88 @@
+{
+ "id": "586b97ac-f687-46ba-bbf7-31031cfcc110",
+ "slug": "capacities-586b97ac",
+ "name": "Capacities",
+ "site_url": "https://capacities.io",
+ "lastmod": "2026-09-24T17:48:41.673Z",
+ "extracted_at": "2026-09-24T17:33:59.887Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Capacities - sunlit desk of ideas. Build pages as an open white workspace where connected notes drift around one central thought.",
+ "fonts": [
+  "Inter",
+  "ui-sans-serif",
+  "JetBrains Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#1a1a1d",
+   "name": "Ink"
+  },
+  {
+   "hex": "#454447",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#5c5959",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#a7a2a1",
+   "name": "Ash"
+  },
+  {
+   "hex": "#f5f4f3",
+   "name": "Porcelain"
+  },
+  {
+   "hex": "#ecebea",
+   "name": "Stone"
+  },
+  {
+   "hex": "#fffbeb",
+   "name": "Butter Paper"
+  },
+  {
+   "hex": "#fef3c7",
+   "name": "Sunlit Wash"
+  },
+  {
+   "hex": "#fde68a",
+   "name": "Honey Line"
+  },
+  {
+   "hex": "#945424",
+   "name": "Amber Ink"
+  },
+  {
+   "hex": "#eff6ff",
+   "name": "Cloud Blue"
+  },
+  {
+   "hex": "#d2e6fe",
+   "name": "Blue Note Edge"
+  },
+  {
+   "hex": "#f0e2ff",
+   "name": "Lilac Note Edge"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5a0906f5-ddde-46ed-ba2d-2b2d3c7df350.mp4",
+  "poster": "https://happyhands.cc/design-archive/capacities-586b97ac/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/capacities-586b97ac/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/capacities-586b97ac/thumbnail.jpg"
+}

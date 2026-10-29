@@ -1,0 +1,78 @@
+{
+ "id": "72b85d0a-1ff8-4dd3-b33a-f55aad6df5c9",
+ "slug": "busuu-72b85d0a",
+ "name": "Busuu",
+ "site_url": "https://busuu.com",
+ "lastmod": "2026-06-05T04:02:30.548Z",
+ "extracted_at": "2026-06-03T18:00:17.345Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "playful passport of global connection. Vivid gradient skies, bubble greetings, and circular flags make the whole interface feel like a warm invitation to the world.",
+ "fonts": [
+  "Nista"
+ ],
+ "colors": [
+  {
+   "hex": "#3b1e90",
+   "name": "Deep Indigo"
+  },
+  {
+   "hex": "#116eee",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#11ee92",
+   "name": "Spring Mint"
+  },
+  {
+   "hex": "#3a6ef0",
+   "name": "Hero Sky Blue"
+  },
+  {
+   "hex": "#252b2f",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#f2f7fd",
+   "name": "Canvas Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#d6dee6",
+   "name": "Steel Border"
+  },
+  {
+   "hex": "#666e7e",
+   "name": "Slate Caption"
+  },
+  {
+   "hex": "#b3b3b3",
+   "name": "Shadow Gray"
+  },
+  {
+   "hex": "#ffcf00",
+   "name": "Trustpilot Star"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/11eeccae-bb34-4a7d-b863-37d5458af067.mp4",
+  "poster": "https://happyhands.cc/design-archive/busuu-72b85d0a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/busuu-72b85d0a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/busuu-72b85d0a/thumbnail.jpg"
+}

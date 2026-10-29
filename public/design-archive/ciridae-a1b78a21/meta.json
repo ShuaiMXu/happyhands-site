@@ -1,0 +1,68 @@
+{
+ "id": "a1b78a21-a304-482b-8ce5-f612d95d44fe",
+ "slug": "ciridae-a1b78a21",
+ "name": "Ciridae",
+ "site_url": "https://www.ciridae.com",
+ "lastmod": "2026-07-03T03:30:15.537Z",
+ "extracted_at": "2026-07-03T03:30:15.366Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ai",
+ "north_star": "void chamber with ember pulse — a near-black cathedral where the only warm note is a thin line of ember rust, and every surface is defined by hairline borders rather than shadow.",
+ "fonts": [
+  "Pragmatica Cond",
+  "Pragmatica",
+  "Roboto Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#cc6437",
+   "name": "Ember Rust"
+  },
+  {
+   "hex": "#0b0b0b",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#272a2a",
+   "name": "Charcoal Surface"
+  },
+  {
+   "hex": "#edebe7",
+   "name": "Bone"
+  },
+  {
+   "hex": "#dfddd9",
+   "name": "Bone Darker"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#050505",
+   "name": "Abyss"
+  },
+  {
+   "hex": "#484848",
+   "name": "Steel"
+  },
+  {
+   "hex": "#cecece",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3e41750c-a461-441b-af21-18d28b508b1a.mp4",
+  "poster": "https://happyhands.cc/design-archive/ciridae-a1b78a21/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ciridae-a1b78a21/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ciridae-a1b78a21/thumbnail.jpg"
+}

@@ -1,0 +1,103 @@
+{
+ "id": "1329b661-39d8-4f0b-a12a-11ed13671ccb",
+ "slug": "buddy-1329b661",
+ "name": "Buddy",
+ "site_url": "https://buddy.works",
+ "lastmod": "2026-06-03T16:32:49.726Z",
+ "extracted_at": "2026-06-03T16:32:49.718Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "devtools",
+ "north_star": "Engineering blueprint on graph paper. A white drafting surface scored with a faint grid, inked in near-black, punctuated by fluorescent chartreuse annotations and iridescent gradient strokes.",
+ "fonts": [
+  "IBM Plex Sans",
+  "IBM Plex Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#bfff5a",
+   "name": "Lime Spark"
+  },
+  {
+   "hex": "#1a67fd",
+   "name": "Cobalt Signal"
+  },
+  {
+   "hex": "#0b3d28",
+   "name": "Forest Depth"
+  },
+  {
+   "hex": "#fcfcfd",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#1d2130",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#151720",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#0a0d16",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ebeef7",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#d5d9e8",
+   "name": "Slate Edge"
+  },
+  {
+   "hex": "#d6d6d7",
+   "name": "Silver Wash"
+  },
+  {
+   "hex": "#6b6d72",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#474950",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#46d8ff",
+   "name": "Cyan Beam"
+  },
+  {
+   "hex": "#19f79a",
+   "name": "Mint Pulse"
+  },
+  {
+   "hex": "#e5ed38",
+   "name": "Citron Wave"
+  },
+  {
+   "hex": "#ff9dec",
+   "name": "Orchid Glaze"
+  },
+  {
+   "hex": "#ffc650",
+   "name": "Amber Glow"
+  },
+  {
+   "hex": "#d8fbed",
+   "name": "Mint Tint"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d92be98e-da43-4c54-bd00-e82c5541866e.mp4",
+  "poster": "https://happyhands.cc/design-archive/buddy-1329b661/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/buddy-1329b661/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/buddy-1329b661/thumbnail.jpg"
+}

@@ -1,0 +1,70 @@
+{
+ "id": "52a007ed-ad1b-46a6-bd44-b76f91df6d0c",
+ "slug": "chatgpt-52a007ed",
+ "name": "ChatGPT",
+ "site_url": "https://chatgpt.com",
+ "lastmod": "2026-07-03T03:39:32.235Z",
+ "extracted_at": "2026-07-03T03:39:32.068Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "graphite ink on warm paper",
+ "fonts": [
+  "-apple-system-body"
+ ],
+ "colors": [
+  {
+   "hex": "#f9f9f9",
+   "name": "Sidebar Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#0d0d0d",
+   "name": "Graphite Ink"
+  },
+  {
+   "hex": "#5d5d5d",
+   "name": "Mid Ash"
+  },
+  {
+   "hex": "#8f8f8f",
+   "name": "Hollow"
+  },
+  {
+   "hex": "#0000001a",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#0000000d",
+   "name": "Hover Veil"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Press"
+  },
+  {
+   "hex": "#00000080",
+   "name": "Deep Charcoal"
+  },
+  {
+   "hex": "#e6e6e6",
+   "name": "Edge Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a645856c-7e0f-4448-8223-40eb15531f62.mp4",
+  "poster": "https://happyhands.cc/design-archive/chatgpt-52a007ed/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/chatgpt-52a007ed/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/chatgpt-52a007ed/thumbnail.jpg"
+}

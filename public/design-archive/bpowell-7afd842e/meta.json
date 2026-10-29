@@ -1,0 +1,50 @@
+{
+ "id": "7afd842e-44d4-4f01-9ef5-683c31d820c9",
+ "slug": "bpowell-7afd842e",
+ "name": "Bpowell",
+ "site_url": "https://www.bpowell.co",
+ "lastmod": "2026-06-05T09:40:55.961Z",
+ "extracted_at": "2026-06-03T20:32:46.195Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "design",
+ "north_star": "type as architecture on white plaster",
+ "fonts": [
+  "Teg",
+  "Beatrice Display",
+  "Beatrice",
+  "Diatype",
+  "New Grotesk"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Plaster White"
+  },
+  {
+   "hex": "#111111",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#2b2b2b",
+   "name": "Graphite"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4be7eaa0-07d3-4785-88aa-6d1e8d59d2d5.mp4",
+  "poster": "https://happyhands.cc/design-archive/bpowell-7afd842e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/bpowell-7afd842e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/bpowell-7afd842e/thumbnail.jpg"
+}

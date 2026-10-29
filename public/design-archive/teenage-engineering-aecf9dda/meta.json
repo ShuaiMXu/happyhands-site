@@ -1,0 +1,51 @@
+{
+ "id": "aecf9dda-5cba-4dc7-9e73-59b65d895cdf",
+ "slug": "teenage-engineering-aecf9dda",
+ "name": "teenage engineering",
+ "site_url": "https://teenage.engineering",
+ "lastmod": "2026-06-03T15:14:09.093Z",
+ "extracted_at": "2026-06-03T15:14:09.088Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "industrial catalogue under studio light — the product is the only rich object on the page and everything else is whispered around it",
+ "fonts": [
+  "te-20",
+  "te-40"
+ ],
+ "colors": [
+  {
+   "hex": "#f6f8f7",
+   "name": "Canvas Mist"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#0f0e12",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Steel Gray"
+  },
+  {
+   "hex": "#b2b2b2",
+   "name": "Graphite"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4d870352-a10a-4b5f-a9cd-da09b1713aea.mp4",
+  "poster": "https://happyhands.cc/design-archive/teenage-engineering-aecf9dda/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/teenage-engineering-aecf9dda/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/teenage-engineering-aecf9dda/thumbnail.jpg"
+}

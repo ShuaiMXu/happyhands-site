@@ -1,0 +1,52 @@
+{
+ "id": "e6fb72b4-877d-46ab-8f94-590b971d4dc1",
+ "slug": "telescope-e6fb72b4",
+ "name": "Telescope",
+ "site_url": "https://telescope.fyi",
+ "lastmod": "2026-06-05T04:59:41.075Z",
+ "extracted_at": "2026-06-03T18:26:59.876Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "Editorial pasteboard on cream paper. A warm bone-white canvas with full-bleed magazine photography, one bright lime accent, and serif headlines that lay out around the images like an art director's spread.",
+ "fonts": [
+  "Beausite",
+  "DM Mono",
+  "CM Geom"
+ ],
+ "colors": [
+  {
+   "hex": "#f4f3f0",
+   "name": "Bone Paper"
+  },
+  {
+   "hex": "#1a1915",
+   "name": "Ink"
+  },
+  {
+   "hex": "#82868e",
+   "name": "Ash"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#e3f794",
+   "name": "Lime Pulse"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6d77198b-053a-4118-8882-f22c884ec35a.mp4",
+  "poster": "https://happyhands.cc/design-archive/telescope-e6fb72b4/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/telescope-e6fb72b4/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/telescope-e6fb72b4/thumbnail.jpg"
+}

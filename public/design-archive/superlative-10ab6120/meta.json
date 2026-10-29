@@ -1,0 +1,64 @@
+{
+ "id": "10ab6120-3d03-48ff-aebe-0b4910edc046",
+ "slug": "superlative-10ab6120",
+ "name": "Superlative",
+ "site_url": "https://playsuperlative.com",
+ "lastmod": "2026-06-05T01:21:23.658Z",
+ "extracted_at": "2026-06-03T16:28:40.426Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "design",
+ "north_star": "Industrial product monograph behind studio glass. A darkroom vitrine where hardware, label, and oversized headline share one continuous, almost weightless plane.",
+ "fonts": [
+  "SL-Regular-Condensed (custom: Superlative Condensed)",
+  "SL-Light (custom: Superlative Light)",
+  "SL-Regular (custom: Superlative Regular)"
+ ],
+ "colors": [
+  {
+   "hex": "#f6f4f2",
+   "name": "Pulp Cream"
+  },
+  {
+   "hex": "#e4e3e2",
+   "name": "Graphite Veil"
+  },
+  {
+   "hex": "#8c8c8c",
+   "name": "Mid Ash"
+  },
+  {
+   "hex": "#141414",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#232323",
+   "name": "Charcoal Press"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Vapor"
+  },
+  {
+   "hex": "#000000",
+   "name": "Null"
+  },
+  {
+   "hex": "#e66f27",
+   "name": "Ember Diode"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a34867b5-54b6-4c97-aee7-9b043a31184b.mp4",
+  "poster": "https://happyhands.cc/design-archive/superlative-10ab6120/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/superlative-10ab6120/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/superlative-10ab6120/thumbnail.jpg"
+}

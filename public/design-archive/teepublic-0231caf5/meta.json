@@ -1,0 +1,85 @@
+{
+ "id": "0231caf5-0347-4f2d-ba20-5bab8fcaf2ce",
+ "slug": "teepublic-0231caf5",
+ "name": "TeePublic",
+ "site_url": "https://unfurproject.com",
+ "lastmod": "2026-06-03T20:24:41.237Z",
+ "extracted_at": "2026-06-03T20:24:41.234Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Indie creator marketplace on white paper. A clean gallery wall where artist designs sit on bright cards, one signature blue links it all together, and the whole thing moves at the speed of discovery.",
+ "fonts": [
+  "Roobert",
+  "Roobert",
+  "SharpGrotesk",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#151523",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#4e64df",
+   "name": "Signature Violet"
+  },
+  {
+   "hex": "#ff0000",
+   "name": "Signal Red"
+  },
+  {
+   "hex": "#99a7f5",
+   "name": "Periwinkle Tint"
+  },
+  {
+   "hex": "#d0d6fb",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#6c7ee4",
+   "name": "Deep Iris"
+  },
+  {
+   "hex": "#49495a",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#e9e9ec",
+   "name": "Fog"
+  },
+  {
+   "hex": "#d7d7db",
+   "name": "Ash"
+  },
+  {
+   "hex": "#c7c7cb",
+   "name": "Stone"
+  },
+  {
+   "hex": "#b9b9c1",
+   "name": "Steel"
+  },
+  {
+   "hex": "#f1f3fe",
+   "name": "Lavender Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/09f88a4b-d224-45c3-a179-d42116519aa0.mp4",
+  "poster": "https://happyhands.cc/design-archive/teepublic-0231caf5/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/teepublic-0231caf5/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/teepublic-0231caf5/thumbnail.jpg"
+}

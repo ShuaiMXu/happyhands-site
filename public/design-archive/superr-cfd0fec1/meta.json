@@ -1,0 +1,75 @@
+{
+ "id": "cfd0fec1-f25a-4b9b-9bd0-d5b66960f2f2",
+ "slug": "superr-cfd0fec1",
+ "name": "Superr",
+ "site_url": "https://www.superr.ai",
+ "lastmod": "2026-06-05T03:30:14.288Z",
+ "extracted_at": "2026-06-03T17:48:09.582Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Warm schoolyard notebook in soft afternoon light. A cream page, an orange marker uncapped, and a stack of sticker-laminated name labels waiting to be peeled.",
+ "fonts": [
+  "gelica",
+  "Geist"
+ ],
+ "colors": [
+  {
+   "hex": "#fdfbf9",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#171717",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#2b1a07",
+   "name": "Cocoa Ink"
+  },
+  {
+   "hex": "#000000",
+   "name": "True Black"
+  },
+  {
+   "hex": "#f7efe9",
+   "name": "Dew Drop"
+  },
+  {
+   "hex": "#ff6f1e",
+   "name": "Marker Orange"
+  },
+  {
+   "hex": "#ce500a",
+   "name": "Burnt Sienna"
+  },
+  {
+   "hex": "#3b82f6",
+   "name": "Sky Sticker"
+  },
+  {
+   "hex": "#ff66cf",
+   "name": "Bubblegum Sticker"
+  },
+  {
+   "hex": "#22c55e",
+   "name": "Sprout Sticker"
+  },
+  {
+   "hex": "#bebcbb",
+   "name": "Shadow Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3da23013-3fbf-46b8-ac1e-5291c8aab6cf.mp4",
+  "poster": "https://happyhands.cc/design-archive/superr-cfd0fec1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/superr-cfd0fec1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/superr-cfd0fec1/thumbnail.jpg"
+}

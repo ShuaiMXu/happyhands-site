@@ -1,0 +1,82 @@
+{
+ "id": "e8c4206d-9a2a-4c08-9524-6f14a25e792f",
+ "slug": "the-verge-e8c4206d",
+ "name": "The Verge",
+ "site_url": "https://theverge.com",
+ "lastmod": "2026-06-05T05:14:54.551Z",
+ "extracted_at": "2026-06-03T18:39:56.188Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "media",
+ "north_star": "Midnight control room, mint alerts",
+ "fonts": [
+  "Manuka",
+  "Poly Sans",
+  "Fk Roman Standard",
+  "Poly Sans Mono",
+  "ui-sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#131313",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#313131",
+   "name": "Iron"
+  },
+  {
+   "hex": "#272727",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#949494",
+   "name": "Fog"
+  },
+  {
+   "hex": "#e9e9e9",
+   "name": "Mist"
+  },
+  {
+   "hex": "#c9c9c9",
+   "name": "Silver"
+  },
+  {
+   "hex": "#3cffd0",
+   "name": "Signal Mint"
+  },
+  {
+   "hex": "#5200ff",
+   "name": "Ultraviolet"
+  },
+  {
+   "hex": "#ff3d00",
+   "name": "Heat Red"
+  },
+  {
+   "hex": "#309875",
+   "name": "Forest"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/da413212-d0d7-4522-a8b0-657f16e8b703.mp4",
+  "poster": "https://happyhands.cc/design-archive/the-verge-e8c4206d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/the-verge-e8c4206d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/the-verge-e8c4206d/thumbnail.jpg"
+}

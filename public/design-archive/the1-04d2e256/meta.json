@@ -1,0 +1,59 @@
+{
+ "id": "04d2e256-61b0-4184-a834-e36c15d09ea5",
+ "slug": "the1-04d2e256",
+ "name": "The1",
+ "site_url": "https://the1.amsterdam",
+ "lastmod": "2026-06-03T19:28:42.225Z",
+ "extracted_at": "2026-06-03T19:28:42.221Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "building-scale typography on painted concrete",
+ "fonts": [
+  "KH Teka",
+  "System sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#027b49",
+   "name": "The Green"
+  },
+  {
+   "hex": "#f19ec8",
+   "name": "The Pink"
+  },
+  {
+   "hex": "#fa4d43",
+   "name": "The Red"
+  },
+  {
+   "hex": "#fbb833",
+   "name": "The Yellow"
+  },
+  {
+   "hex": "#d9d9d9",
+   "name": "Concrete"
+  },
+  {
+   "hex": "#1f1f1f",
+   "name": "Iron"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0bd55f7e-e2da-4011-922c-b57557323b2f.mp4",
+  "poster": "https://happyhands.cc/design-archive/the1-04d2e256/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/the1-04d2e256/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/the1-04d2e256/thumbnail.jpg"
+}

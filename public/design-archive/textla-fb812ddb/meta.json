@@ -1,0 +1,59 @@
+{
+ "id": "fb812ddb-d7c0-4540-82d7-1562dff16f09",
+ "slug": "textla-fb812ddb",
+ "name": "Textla",
+ "site_url": "https://www.textla.com",
+ "lastmod": "2026-06-03T20:53:52.008Z",
+ "extracted_at": "2026-06-03T20:53:52.002Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Sunlit retro botanical almanac — a cream-yellow page printed in deep forest green, illustrated with cactus line art, stamped with hard offset shadows.",
+ "fonts": [
+  "National 2 Condensed",
+  "RethinkSans"
+ ],
+ "colors": [
+  {
+   "hex": "#f2ee98",
+   "name": "Sunlit Cream"
+  },
+  {
+   "hex": "#10380b",
+   "name": "Forest Ink"
+  },
+  {
+   "hex": "#fce519",
+   "name": "Marigold"
+  },
+  {
+   "hex": "#dbe8ac",
+   "name": "Sage Wash"
+  },
+  {
+   "hex": "#30be60",
+   "name": "Vivid Fern"
+  },
+  {
+   "hex": "#fefde6",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Snowcap"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/317a9d12-7030-4a7c-a100-f04e7cb62a3f.mp4",
+  "poster": "https://happyhands.cc/design-archive/textla-fb812ddb/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/textla-fb812ddb/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/textla-fb812ddb/thumbnail.jpg"
+}

@@ -1,0 +1,64 @@
+{
+ "id": "d7a73e16-4b3e-4b9d-aef2-2c31a9db7457",
+ "slug": "swimclub-d7a73e16",
+ "name": "SwimClub",
+ "site_url": "https://swimclub.co",
+ "lastmod": "2026-06-03T20:51:41.009Z",
+ "extracted_at": "2026-06-03T20:51:41.003Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "ecommerce",
+ "north_star": "Clinical dossier behind pixelated LCD readouts",
+ "fonts": [
+  "Px Grotesk",
+  "Apercu Mono Pro",
+  "Swimclub (custom pixel/bitmap face)"
+ ],
+ "colors": [
+  {
+   "hex": "#ff9e00",
+   "name": "Tabloid Orange"
+  },
+  {
+   "hex": "#020507",
+   "name": "Deep Capsule Navy"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#d2dce1",
+   "name": "Cool Gray"
+  },
+  {
+   "hex": "#666666",
+   "name": "Iron Gray"
+  },
+  {
+   "hex": "#b3b3b3",
+   "name": "Ash"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Smoke"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5678a6ea-3dcf-411a-b79c-3fc34b1a6b70.mp4",
+  "poster": "https://happyhands.cc/design-archive/swimclub-d7a73e16/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/swimclub-d7a73e16/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/swimclub-d7a73e16/thumbnail.jpg"
+}

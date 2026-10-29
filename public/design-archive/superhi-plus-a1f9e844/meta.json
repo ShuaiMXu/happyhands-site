@@ -1,0 +1,46 @@
+{
+ "id": "a1f9e844-c4b6-4526-9cfc-81208c50aee1",
+ "slug": "superhi-plus-a1f9e844",
+ "name": "SuperHi Plus",
+ "site_url": "https://superhi.plus",
+ "lastmod": "2026-06-03T21:13:55.426Z",
+ "extracted_at": "2026-06-03T21:13:55.418Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "other",
+ "north_star": "Cobalt blueprint scattered with emoji marbles. The page lives half in electric blue, half in ice white, swapping sides as you scroll.",
+ "fonts": [
+  "Haas Grot Disp Web"
+ ],
+ "colors": [
+  {
+   "hex": "#0033e5",
+   "name": "Cobalt Voltage"
+  },
+  {
+   "hex": "#f0f7ff",
+   "name": "Ice White"
+  },
+  {
+   "hex": "#527ceb",
+   "name": "Cobalt Mist"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pitch"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5e4c5221-08ba-4e57-8710-ac10012ad1ba.mp4",
+  "poster": "https://happyhands.cc/design-archive/superhi-plus-a1f9e844/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/superhi-plus-a1f9e844/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/superhi-plus-a1f9e844/thumbnail.jpg"
+}

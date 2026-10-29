@@ -1,0 +1,67 @@
+{
+ "id": "5d34568d-4bdc-445d-a527-c6f5249fa8fb",
+ "slug": "superpower-5d34568d",
+ "name": "Superpower",
+ "site_url": "https://superpower.com",
+ "lastmod": "2026-06-03T16:19:25.520Z",
+ "extracted_at": "2026-06-03T16:19:25.513Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Bioluminescent health command center",
+ "fonts": [
+  "NB International Pro",
+  "NB International Mono Pro"
+ ],
+ "colors": [
+  {
+   "hex": "#fc5f2b",
+   "name": "Sunrise Coral"
+  },
+  {
+   "hex": "#ff8b64",
+   "name": "Coral Glow"
+  },
+  {
+   "hex": "#18181b",
+   "name": "Carbon Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#71717a",
+   "name": "Zinc Gray"
+  },
+  {
+   "hex": "#a1a1aa",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#e4e4e7",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#f4f4f5",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/cfd6c51a-803c-499f-a854-e688324246f9.mp4",
+  "poster": "https://happyhands.cc/design-archive/superpower-5d34568d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/superpower-5d34568d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/superpower-5d34568d/thumbnail.jpg"
+}

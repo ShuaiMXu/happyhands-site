@@ -1,0 +1,71 @@
+{
+ "id": "5b679fb6-8d53-402d-a77b-c88bfb397623",
+ "slug": "tailscale-5b679fb6",
+ "name": "Tailscale",
+ "site_url": "https://tailscale.com",
+ "lastmod": "2026-06-05T01:03:57.422Z",
+ "extracted_at": "2026-06-03T15:31:33.744Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "Engineer's whiteboard on cream paper. A warm off-white canvas with a single red marker stroke, soft 16px corners, and Inter at whisper weights — the visual language of infrastructure documentation that respects the reader.",
+ "fonts": [
+  "Inter",
+  "MDIO"
+ ],
+ "colors": [
+  {
+   "hex": "#181717",
+   "name": "Ink"
+  },
+  {
+   "hex": "#eeebea",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#2e2d2d",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#575555",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#706e6d",
+   "name": "Ash"
+  },
+  {
+   "hex": "#f7f5f4",
+   "name": "Linen"
+  },
+  {
+   "hex": "#d5d3d2",
+   "name": "Mist"
+  },
+  {
+   "hex": "#d04841",
+   "name": "Signal Red"
+  },
+  {
+   "hex": "#5a82de",
+   "name": "Network Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4d2ba23c-5dae-4308-b80c-644205a3d227.mp4",
+  "poster": "https://happyhands.cc/design-archive/tailscale-5b679fb6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/tailscale-5b679fb6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/tailscale-5b679fb6/thumbnail.jpg"
+}

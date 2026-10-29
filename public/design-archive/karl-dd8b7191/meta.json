@@ -1,0 +1,51 @@
+{
+ "id": "dd8b7191-a992-4dab-88f8-f67e8819b461",
+ "slug": "karl-dd8b7191",
+ "name": "Karl",
+ "site_url": "https://karlgonsalves.com",
+ "lastmod": "2026-06-05T05:13:46.586Z",
+ "extracted_at": "2026-06-03T18:47:28.120Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "Pop-up storybook diorama on a sunny afternoon",
+ "fonts": [
+  "Changa One",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#ffe600",
+   "name": "Signal Yellow"
+  },
+  {
+   "hex": "#007fff",
+   "name": "Globe Azure"
+  },
+  {
+   "hex": "#ef3b2c",
+   "name": "Roof Coral"
+  },
+  {
+   "hex": "#333333",
+   "name": "Charcoal Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Cloud White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/64de665b-d878-4962-b061-4e8220bb7a4b.mp4",
+  "poster": "https://happyhands.cc/design-archive/karl-dd8b7191/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/karl-dd8b7191/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/karl-dd8b7191/thumbnail.jpg"
+}

@@ -1,0 +1,46 @@
+{
+ "id": "3af36935-8383-49e7-857e-9fb5caa06966",
+ "slug": "jakub-reis-3af36935",
+ "name": "Jakub Reis",
+ "site_url": "https://jakubreis.com",
+ "lastmod": "2026-06-03T18:21:48.962Z",
+ "extracted_at": "2026-06-03T18:21:48.958Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "gallery wall on bone paper — every screen is a quiet white room where only typography and photography exist",
+ "fonts": [
+  "Degular"
+ ],
+ "colors": [
+  {
+   "hex": "#f8f8f8",
+   "name": "Bone"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#080808",
+   "name": "Ash"
+  },
+  {
+   "hex": "#d8d8d8",
+   "name": "Stone"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/113408a3-9e84-448f-8c31-c1f0812f3875.mp4",
+  "poster": "https://happyhands.cc/design-archive/jakub-reis-3af36935/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/jakub-reis-3af36935/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/jakub-reis-3af36935/thumbnail.jpg"
+}

@@ -1,0 +1,64 @@
+{
+ "id": "3f56ea4d-ed9d-4a36-8fb5-a801519ef80b",
+ "slug": "leif-products-3f56ea4d",
+ "name": "Leif Products",
+ "site_url": "https://leifproducts.com",
+ "lastmod": "2026-06-05T09:04:11.817Z",
+ "extracted_at": "2026-06-03T20:08:44.606Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Apothecary on raw linen. A warm, hand-pressed editorial where ink-black type sits on bone-cream paper beside botanical product photography.",
+ "fonts": [
+  "PP Right Grotesk",
+  "Söhne",
+  "Söhne Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#fafaf9",
+   "name": "Bone"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#e5e2dc",
+   "name": "Stone"
+  },
+  {
+   "hex": "#edede7",
+   "name": "Linen"
+  },
+  {
+   "hex": "#595959",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#d6d1c7",
+   "name": "Silt"
+  },
+  {
+   "hex": "#ead1d0",
+   "name": "Blush"
+  },
+  {
+   "hex": "#f3ffa9",
+   "name": "Citron"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ce29c904-2561-4513-8872-8d843f0347b1.mp4",
+  "poster": "https://happyhands.cc/design-archive/leif-products-3f56ea4d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/leif-products-3f56ea4d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/leif-products-3f56ea4d/thumbnail.jpg"
+}

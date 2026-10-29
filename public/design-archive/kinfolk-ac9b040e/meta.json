@@ -1,0 +1,50 @@
+{
+ "id": "ac9b040e-36aa-4881-ada5-72d4744947a4",
+ "slug": "kinfolk-ac9b040e",
+ "name": "Kinfolk",
+ "site_url": "https://www.kinfolk.com",
+ "lastmod": "2026-06-05T09:36:11.012Z",
+ "extracted_at": "2026-06-03T20:14:28.774Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "Editorial broadsheet on bone-white linen — generous margins, ink-black serif, and a single warm-paper accent for section breaks.",
+ "fonts": [
+  "Kinfolk-Serif-Text",
+  "Kinfolk-Serif-Display",
+  "Kinfolk-Serif-Deck",
+  "Kinfolk-Sans",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#f4f4f4",
+   "name": "Paper Mist"
+  },
+  {
+   "hex": "#dbded5",
+   "name": "Sage Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6d77198b-053a-4118-8882-f22c884ec35a.mp4",
+  "poster": "https://happyhands.cc/design-archive/kinfolk-ac9b040e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/kinfolk-ac9b040e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/kinfolk-ac9b040e/thumbnail.jpg"
+}

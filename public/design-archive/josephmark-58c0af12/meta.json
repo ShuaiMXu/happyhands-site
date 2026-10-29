@@ -1,0 +1,58 @@
+{
+ "id": "58c0af12-8706-428f-8282-482d57d7b90e",
+ "slug": "josephmark-58c0af12",
+ "name": "Josephmark",
+ "site_url": "https://josephmark.studio",
+ "lastmod": "2026-06-05T11:55:34.730Z",
+ "extracted_at": "2026-06-03T21:41:07.149Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "Midnight editorial gallery. Monochrome walls, warm spotlights, oversized grotesque typography floating in negative space.",
+ "fonts": [
+  "Scto Grotesk A"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Carbon Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#a9a498",
+   "name": "Stone Taupe"
+  },
+  {
+   "hex": "#f4f5ef",
+   "name": "Bone Cream"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#666666",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#4e5449",
+   "name": "Forest Ink"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/9c8818ab-3fec-45ed-b89a-ae90f856d816.mp4",
+  "poster": "https://happyhands.cc/design-archive/josephmark-58c0af12/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/josephmark-58c0af12/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/josephmark-58c0af12/thumbnail.jpg"
+}

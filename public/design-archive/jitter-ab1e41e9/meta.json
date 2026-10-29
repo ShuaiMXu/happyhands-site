@@ -1,0 +1,91 @@
+{
+ "id": "ab1e41e9-7d21-4762-b498-51b8c63ae7ce",
+ "slug": "jitter-ab1e41e9",
+ "name": "Jitter",
+ "site_url": "https://jitter.video",
+ "lastmod": "2026-06-05T07:35:03.889Z",
+ "extracted_at": "2026-06-03T19:36:31.987Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "kinetic playground in a Swiss design studio — soft white surfaces, pill-shaped cards, and a violet spark firing on near-black ink.",
+ "fonts": [
+  "TWK Lausanne",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#f2f1f3",
+   "name": "Studio Off-White"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#e5e4e7",
+   "name": "Hairline Gray"
+  },
+  {
+   "hex": "#97979b",
+   "name": "Soft Mist"
+  },
+  {
+   "hex": "#6e6e73",
+   "name": "Slate"
+  },
+  {
+   "hex": "#19171c",
+   "name": "Ink"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#7a40ed",
+   "name": "Eclipse Violet"
+  },
+  {
+   "hex": "#17082c",
+   "name": "Deep Plum"
+  },
+  {
+   "hex": "#a981ff",
+   "name": "Lilac Wash"
+  },
+  {
+   "hex": "#cab3f8",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#00b2ff",
+   "name": "Electric Blue"
+  },
+  {
+   "hex": "#e6f4ff",
+   "name": "Sky Tint"
+  },
+  {
+   "hex": "#a9dbff",
+   "name": "Ice Blue"
+  },
+  {
+   "hex": "#f5ff63",
+   "name": "Volt"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3f648ff8-d317-412c-8154-7b156109f2ae.mp4",
+  "poster": "https://happyhands.cc/design-archive/jitter-ab1e41e9/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/jitter-ab1e41e9/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/jitter-ab1e41e9/thumbnail.jpg"
+}

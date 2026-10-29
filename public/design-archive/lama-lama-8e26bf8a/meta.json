@@ -1,0 +1,43 @@
+{
+ "id": "8e26bf8a-44b8-4fe1-9b4b-188dd5827c0f",
+ "slug": "lama-lama-8e26bf8a",
+ "name": "Lama Lama",
+ "site_url": "https://lamalama.nl",
+ "lastmod": "2026-06-03T21:36:18.829Z",
+ "extracted_at": "2026-06-03T21:36:18.823Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "midnight studio with a frozen-white spotlight",
+ "fonts": [
+  "SuisseIntl",
+  "Suisse Int'l"
+ ],
+ "colors": [
+  {
+   "hex": "#d7f3f5",
+   "name": "Ice Cyan"
+  },
+  {
+   "hex": "#020203",
+   "name": "Void"
+  },
+  {
+   "hex": "#111314",
+   "name": "Carbon"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4b26db23-aa46-469c-a423-39effbbc9504.mp4",
+  "poster": "https://happyhands.cc/design-archive/lama-lama-8e26bf8a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/lama-lama-8e26bf8a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/lama-lama-8e26bf8a/thumbnail.jpg"
+}

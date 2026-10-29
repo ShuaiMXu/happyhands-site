@@ -195,14 +195,6 @@ export function ArchiveGallery({ lang }: { lang: string }) {
                   </button>
                 </div>
               )}
-              <p className="archive-source-links">
-                <a href={selected.site_url} target="_blank" rel="noreferrer">
-                  {zh ? "访问原网站" : "Visit website"}
-                </a>{" "}
-                <a href={selected.page_url} target="_blank" rel="noreferrer">
-                  {zh ? "查看来源" : "View source"}
-                </a>
-              </p>
               {system && <ReferenceSpecimen system={system} lang={lang} />}
             </div>
             <ResourceExport

@@ -1,3 +1,4 @@
+import { Button } from "../packages/ui";
 import React, { useEffect, useState } from "react";
 export type ExportFile = { label: string; url: string; name: string };
 export function ResourceExport({
@@ -76,7 +77,7 @@ export function ResourceExport({
       </div>
       <div className="resource-export-actions">
         <span role="status">{notice}</span>
-        <button
+        <Button
           disabled={!text || loading || error}
           onClick={async () => {
             try {
@@ -88,8 +89,13 @@ export function ResourceExport({
           }}
         >
           {zh ? "复制" : "Copy"}
-        </button>
-        <a href={file.url} download={file.name}>
+        </Button>
+        <a
+          className="hh-button"
+          data-variant="secondary"
+          href={file.url}
+          download={file.name}
+        >
           {zh ? "下载" : "Download"}
         </a>
       </div>

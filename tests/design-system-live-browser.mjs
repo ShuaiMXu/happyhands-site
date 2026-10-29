@@ -108,14 +108,14 @@ try {
   // The resource detail now opens the styled view and switches to complete docs.
   const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
   await page.goto(`${base}/components/?provider=systems&system=lime`);
-  await page.getByRole("tab", { name: "样式预览", exact: true }).waitFor();
+  await page.getByRole("tab", { name: "预览", exact: true }).waitFor();
   await page
     .frameLocator(".system-style-preview iframe")
     .getByRole("button", { name: "Save changes", exact: true })
     .waitFor();
   assert.equal(
     await page
-      .getByRole("tab", { name: "样式预览", exact: true })
+      .getByRole("tab", { name: "预览", exact: true })
       .getAttribute("aria-selected"),
     "true",
   );
@@ -123,7 +123,7 @@ try {
     path: `${folder}/library-lime-phone.png`,
     fullPage: true,
   });
-  await page.getByRole("tab", { name: "规范文档", exact: true }).click();
+  await page.getByRole("tab", { name: "资料与下载", exact: true }).click();
   await page.locator(".design-how-prose").waitFor();
   await writeFile(`${folder}/results.json`, JSON.stringify(results, null, 2));
   console.log(`Passed ${results.length} preview and original block checks.`);

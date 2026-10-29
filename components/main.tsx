@@ -1,3 +1,5 @@
+import { Button } from "../packages/ui";
+import { ResourceDetailHeader } from "./ResourcePresentation";
 import { resolveCatalogItem, searchCatalog } from "./catalog-search";
 import { applySiteMetadata } from "../packages/ui/site-seo";
 import { ComponentTile } from "./ComponentTile";
@@ -16,6 +18,7 @@ import "../packages/design-tokens/happyhands.css";
 import "../packages/ui/site-layout.css";
 import "./style.css";
 import "../packages/ui/owned-ui.css";
+import "./resource-presentation.css";
 const groups: Record<string, [string, string]> = {
   all: ["全部组件", "All components"],
   buttons: ["按钮", "Buttons"],
@@ -226,16 +229,24 @@ function App() {
         >
           {!selected && (
             <>
-              <ResourceToolbar label={t("搜索组件", "Search components")}
+              <ResourceToolbar
+                label={t("搜索组件", "Search components")}
                 placeholder={t("搜索", "Search")}
-                query={query} onQueryChange={setQuery}
-                status={`${filtered.length} ${t("个结果", "results")}`}>
-                <ArchiveFilter label={t("组件分类", "Component category")} zh={lang === "zh"} value={group}
+                query={query}
+                onQueryChange={setQuery}
+                status={`${filtered.length} ${t("个结果", "results")}`}
+              >
+                <ArchiveFilter
+                  label={t("组件分类", "Component category")}
+                  zh={lang === "zh"}
+                  value={group}
                   onChange={setGroup}
                   options={Object.entries(groups).map(([id, labels]) => ({
-                    value: id, label: labels[lang === "zh" ? 0 : 1],
+                    value: id,
+                    label: labels[lang === "zh" ? 0 : 1],
                     count: searchCatalog(data.items, query, id, groups).length,
-                  }))} />
+                  }))}
+                />
               </ResourceToolbar>
               <main
                 id="catalog-main"
@@ -308,31 +319,17 @@ function App() {
               tabIndex={-1}
               className="catalog-main"
             >
-              <div className="component-detail-actions">
-                <button
-                  onClick={() => {
-                    returning.current = true;
-                    setSelected("");
-                    history.pushState(null, "", "?provider=cult-ui");
-                  }}
-                >
-                  {t("← 返回组件库", "← All components")}
-                </button>
-                <button onClick={() => setTab("integration")}>
-                  {t("用于项目", "Use in project")}
-                </button>
-              </div>
-              <div className="catalog-item-head">
-                <h2>{title(item)}</h2>
-                <details className="upstream-description">
-                  <summary>
-                    {t("上游组件说明（英文）", "Component description")}
-                  </summary>
-                  <p>{item.description}</p>
-                </details>
-              </div>
+              <ResourceDetailHeader
+                title={title(item)}
+                backLabel={t("返回组件库", "All components")}
+                onBack={() => {
+                  returning.current = true;
+                  setSelected("");
+                  history.pushState(null, "", "?provider=cult-ui");
+                }}
+              />
               <div
-                className="catalog-tabs"
+                className="catalog-tabs resource-content-tabs"
                 role="tablist"
                 aria-label={t("组件内容", "Component content")}
               >
@@ -373,6 +370,16 @@ function App() {
                 aria-labelledby={`tab-${tab}`}
                 className="catalog-panel"
               >
+                {tab === "source" && (
+                  <div className="catalog-item-head">
+                    <details className="upstream-description">
+                      <summary>
+                        {t("上游组件说明（英文）", "Component description")}
+                      </summary>
+                      <p>{item.description}</p>
+                    </details>
+                  </div>
+                )}
                 {tab === "preview" &&
                   (item.preview ? (
                     <>
@@ -385,19 +392,19 @@ function App() {
                           />
                           {t("启用动态效果", "Enable motion")}
                         </label>
-                        <button
+                        <Button
                           onClick={() => setMobile(!mobile)}
                           aria-pressed={mobile}
                         >
                           {mobile
                             ? t("手机宽度", "Mobile width")
                             : t("自适应宽度", "Flexible width")}
-                        </button>
-                        <button onClick={() => setRunning(!running)}>
+                        </Button>
+                        <Button onClick={() => setRunning(!running)}>
                           {running
                             ? t("停止预览", "Stop preview")
                             : t("启动预览", "Start preview")}
-                        </button>
+                        </Button>
                       </div>
                       <div
                         className={`preview-frame-wrap ${mobile ? "mobile" : ""}`}

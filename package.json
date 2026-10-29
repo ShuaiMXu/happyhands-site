@@ -37,7 +37,8 @@
     "archive:facets": "node --import tsx scripts/build-archive-facets.mjs",
     "systems:previews": "node scripts/build-design-how-previews.mjs",
     "test:systems:live": "node tests/design-system-live-browser.mjs",
-    "test:design-resources": "node --test tests/design-how.test.mjs tests/design-archive.test.mjs"
+    "test:design-resources": "node --test tests/design-how.test.mjs tests/design-archive.test.mjs",
+    "test:resources:browser": "node tests/resource-presentation-browser.mjs"
   },
   "dependencies": {
     "@base-ui/react": "1.9.0",

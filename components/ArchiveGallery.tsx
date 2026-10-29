@@ -1,3 +1,7 @@
+import {
+  ResourceDetailHeader,
+  ResourceDetailContent,
+} from "./ResourcePresentation";
 import React, { useEffect, useMemo, useState } from "react";
 import { ResourceExport } from "./ResourceExport";
 import { ReferenceSpecimen, type ReferenceSystem } from "./ReferenceSpecimen";
@@ -131,21 +135,18 @@ export function ArchiveGallery({ lang }: { lang: string }) {
     >
       {selected ? (
         <>
-          <button
-            onClick={() => {
+          <ResourceDetailHeader
+            title={selected.name}
+            backLabel={zh ? "返回 Design.md" : "All Design.md"}
+            onBack={() => {
               const slug = selected.slug;
               selectEntry(null);
               requestAnimationFrame(() =>
                 document.getElementById(`archive-${slug}`)?.focus(),
               );
             }}
-          >
-            {zh ? "返回 Design.md" : "All Design.md"}
-          </button>
-          <div className="resource-detail-heading">
-            <h2>{selected.name}</h2>
-          </div>
-          <div className="resource-detail-layout">
+          />
+          <ResourceDetailContent key={selected.slug} lang={lang}>
             <div className="resource-detail-preview">
               <video
                 key={`${selected.slug}:${videoRetry}`}
@@ -233,7 +234,7 @@ export function ArchiveGallery({ lang }: { lang: string }) {
                 },
               ]}
             />
-          </div>
+          </ResourceDetailContent>
         </>
       ) : (
         <>

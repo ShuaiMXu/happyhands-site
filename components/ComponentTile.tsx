@@ -1,3 +1,4 @@
+import { ResourceCard } from "./ResourcePresentation";
 import React, { useEffect, useRef, useState } from "react";
 
 // Only visible tiles mount a preview. Leaving the viewport releases canvases and timers.
@@ -26,18 +27,12 @@ export function ComponentTile({
     return () => observer.disconnect();
   }, []);
   return (
-    <a
-      ref={node}
-      className="component-tile"
-      href={`?provider=cult-ui&component=${encodeURIComponent(id)}`}
-      onClick={(e) => {
-        if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
-        e.preventDefault();
-        onSelect(id);
-      }}
-    >
-      <div className="component-tile-art" aria-hidden="true">
-        {visible && (
+    <ResourceCard
+      title={name}
+      description={category}
+      mediaClassName="component-tile-art"
+      media={
+        visible && (
           <iframe
             title={`${name} preview`}
             src={`/components/preview/?component=${encodeURIComponent(id)}&theme=${dark ? "dark" : "light"}&lang=${lang}&motion=off`}
@@ -46,12 +41,16 @@ export function ComponentTile({
             sandbox="allow-scripts"
             referrerPolicy="no-referrer"
           />
-        )}
-      </div>
-      <div className="component-tile-caption">
-        <h2>{name}</h2>
-        <span>{category}</span>
-      </div>
-    </a>
+        )
+      }
+      ref={node}
+      className="component-tile"
+      href={`?provider=cult-ui&component=${encodeURIComponent(id)}`}
+      onClick={(e) => {
+        if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+        e.preventDefault();
+        onSelect(id);
+      }}
+    />
   );
 }

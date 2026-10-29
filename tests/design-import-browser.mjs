@@ -55,7 +55,7 @@ try {
         });
         await check();
         await page.getByRole("link", { name: /Sodium/ }).click();
-        await page.getByRole("tab", { name: lang === "zh" ? "规范文档" : "Documentation", exact: true }).click();
+        await page.getByRole("tab", { name: lang === "zh" ? "资料与下载" : "Files and downloads", exact: true }).click();
         await page.locator(".design-how-prose").waitFor();
         await page.screenshot({
           path: `${dir}/sodium-${width}-${theme}-${lang}.png`,
@@ -112,6 +112,7 @@ try {
           `${base}/components/?provider=design-md&design=dot-connect-981d90e9`,
         );
         await page.locator(".reference-specimen").waitFor();
+        await page.getByRole("tab", { name: lang === "zh" ? "资料与下载" : "Files and downloads", exact: true }).click();
         await page.waitForFunction(
           () =>
             document

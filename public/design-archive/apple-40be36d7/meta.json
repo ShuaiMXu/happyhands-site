@@ -1,0 +1,83 @@
+{
+ "id": "40be36d7-7fe6-4451-9f2d-7ceccfd43be8",
+ "slug": "apple-40be36d7",
+ "name": "Apple",
+ "site_url": "https://www.apple.com/iphone-18-pro",
+ "lastmod": "2026-09-20T21:51:37.181Z",
+ "extracted_at": "2026-09-20T21:33:20.234Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ecommerce",
+ "north_star": "Midnight hardware gallery. Treat each section as a dark, museum-like plinth for one precisely lit product detail, with typography and blue controls operating as restrained labels around it.",
+ "fonts": [
+  "SF Pro Text",
+  "SF Pro Display"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#0e0e0e",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#1d1d1f",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#333336",
+   "name": "Steel"
+  },
+  {
+   "hex": "#6e6e73",
+   "name": "Slate"
+  },
+  {
+   "hex": "#86868b",
+   "name": "Ash"
+  },
+  {
+   "hex": "#f5f5f7",
+   "name": "Porcelain"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#0071e3",
+   "name": "Apple Blue"
+  },
+  {
+   "hex": "#2997ff",
+   "name": "Electric Link"
+  },
+  {
+   "hex": "#0066cc",
+   "name": "Cobalt Link"
+  },
+  {
+   "hex": "#b64400",
+   "name": "Copper New"
+  },
+  {
+   "hex": "#ffd500",
+   "name": "Optical Yellow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a8fb3bd6-a4c5-4366-8acc-574818cff782.mp4",
+  "poster": "https://happyhands.cc/design-archive/apple-40be36d7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/apple-40be36d7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/apple-40be36d7/thumbnail.jpg"
+}

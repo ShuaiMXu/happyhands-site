@@ -1,0 +1,66 @@
+{
+ "id": "c2325884-4391-4688-85cd-e143f5107517",
+ "slug": "airbnb-c2325884",
+ "name": "Airbnb",
+ "site_url": "https://www.airbnb.com",
+ "lastmod": "2026-07-03T10:41:02.657Z",
+ "extracted_at": "2026-07-03T03:15:59.260Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Quiet white gallery wall with one coral-red bookmark",
+ "fonts": [
+  "Airbnb Cereal VF"
+ ],
+ "colors": [
+  {
+   "hex": "#ff385c",
+   "name": "Rausch"
+  },
+  {
+   "hex": "#e00b41",
+   "name": "Rausch 600"
+  },
+  {
+   "hex": "#222222",
+   "name": "Hof"
+  },
+  {
+   "hex": "#6a6a6a",
+   "name": "Foggy"
+  },
+  {
+   "hex": "#c1c1c1",
+   "name": "Grey 500"
+  },
+  {
+   "hex": "#ebebeb",
+   "name": "Bebe"
+  },
+  {
+   "hex": "#dddddd",
+   "name": "Deco"
+  },
+  {
+   "hex": "#f7f7f7",
+   "name": "Faint"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/16a5c574-3aa7-476a-86bb-35b4db74a71e.mp4",
+  "poster": "https://happyhands.cc/design-archive/airbnb-c2325884/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/airbnb-c2325884/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/airbnb-c2325884/thumbnail.jpg"
+}

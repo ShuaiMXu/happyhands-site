@@ -1,0 +1,59 @@
+{
+ "id": "65b30976-3663-40b2-8751-7a360ba74539",
+ "slug": "apollographql-65b30976",
+ "name": "Apollographql",
+ "site_url": "https://apollographql.com",
+ "lastmod": "2026-06-03T21:06:43.095Z",
+ "extracted_at": "2026-06-03T21:06:43.089Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "devtools",
+ "north_star": "Mission control at midnight — a starfield console where orange is the only dial that glows.",
+ "fonts": [
+  "Inter",
+  "Fira Code"
+ ],
+ "colors": [
+  {
+   "hex": "#15252d",
+   "name": "Cosmic Ink"
+  },
+  {
+   "hex": "#254250",
+   "name": "Cinder"
+  },
+  {
+   "hex": "#9fb2bc",
+   "name": "Fog"
+  },
+  {
+   "hex": "#e2e8f0",
+   "name": "Mist"
+  },
+  {
+   "hex": "#f8f8f8",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#efefef",
+   "name": "Ash"
+  },
+  {
+   "hex": "#e75e15",
+   "name": "Signal Orange"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a7f50124-13c5-4b3f-acaf-6a4abef39886.mp4",
+  "poster": "https://happyhands.cc/design-archive/apollographql-65b30976/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/apollographql-65b30976/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/apollographql-65b30976/thumbnail.jpg"
+}

@@ -1,0 +1,57 @@
+{
+ "id": "243a3dde-80a8-47a9-87f8-c549726ec6f3",
+ "slug": "altitude-beverages-243a3dde",
+ "name": "Altitude Beverages",
+ "site_url": "https://altitudebev.com",
+ "lastmod": "2026-06-03T20:48:52.020Z",
+ "extracted_at": "2026-06-03T20:48:52.014Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "ecommerce",
+ "north_star": "Monochrome editorial spread. Imagine a fashion magazine spread stripped of all color except the product photography — the type and whitespace do all the storytelling.",
+ "fonts": [
+  "HelveticaNowDisplay",
+  "EditorialNew",
+  "DepartureMono",
+  "ui-sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#fafafa",
+   "name": "Canvas White"
+  },
+  {
+   "hex": "#d9d9d9",
+   "name": "Warm Ash"
+  },
+  {
+   "hex": "#cdcdce",
+   "name": "Mid Gray"
+  },
+  {
+   "hex": "#07060b",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#ddfcff",
+   "name": "Glacial Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8e00e7e9-cdb3-41c3-916a-a500ac3bd614.mp4",
+  "poster": "https://happyhands.cc/design-archive/altitude-beverages-243a3dde/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/altitude-beverages-243a3dde/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/altitude-beverages-243a3dde/thumbnail.jpg"
+}

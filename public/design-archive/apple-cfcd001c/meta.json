@@ -1,0 +1,75 @@
+{
+ "id": "cfcd001c-e812-4126-9bdf-1f16b68d182e",
+ "slug": "apple-cfcd001c",
+ "name": "Apple",
+ "site_url": "https://www.apple.com/airpods-5",
+ "lastmod": "2026-09-20T21:50:23.078Z",
+ "extracted_at": "2026-09-20T21:35:18.892Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Apple - cinema on white. Vast white editorial space gives way to full-bleed product films, where silhouetted movement and saturated light carry the visual drama.",
+ "fonts": [
+  "SF Pro Display",
+  "SF Pro Text"
+ ],
+ "colors": [
+  {
+   "hex": "#fafafc",
+   "name": "Gallery White"
+  },
+  {
+   "hex": "#f5f5f7",
+   "name": "Cloud Gray"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Studio White"
+  },
+  {
+   "hex": "#1d1d1f",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#5b5b61",
+   "name": "Slate"
+  },
+  {
+   "hex": "#86868b",
+   "name": "Steel"
+  },
+  {
+   "hex": "#d6d6d6",
+   "name": "Divider Gray"
+  },
+  {
+   "hex": "#e2e2e5",
+   "name": "Control Mist"
+  },
+  {
+   "hex": "#0071e3",
+   "name": "Apple Blue"
+  },
+  {
+   "hex": "#0066cc",
+   "name": "Link Blue"
+  },
+  {
+   "hex": "#b64400",
+   "name": "New Orange"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/fd83566c-99bc-4b2b-b4bf-830026634d52.mp4",
+  "poster": "https://happyhands.cc/design-archive/apple-cfcd001c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/apple-cfcd001c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/apple-cfcd001c/thumbnail.jpg"
+}

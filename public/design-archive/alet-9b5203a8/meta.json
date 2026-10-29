@@ -1,0 +1,55 @@
+{
+ "id": "9b5203a8-07c8-4987-94c5-6411970896d2",
+ "slug": "alet-9b5203a8",
+ "name": "alet",
+ "site_url": "https://aletagency.com",
+ "lastmod": "2026-06-05T08:00:07.475Z",
+ "extracted_at": "2026-06-03T19:44:19.579Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Vintage editorial contact sheet on warm taupe paper.",
+ "fonts": [
+  "WorkSans",
+  "SilkSerif"
+ ],
+ "colors": [
+  {
+   "hex": "#ada59b",
+   "name": "Taupe Paper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#252525",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#101010",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#454545",
+   "name": "Stone"
+  },
+  {
+   "hex": "#060506",
+   "name": "Press Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e7d8e4cb-c092-4909-b026-3335b22334a3.mp4",
+  "poster": "https://happyhands.cc/design-archive/alet-9b5203a8/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/alet-9b5203a8/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/alet-9b5203a8/thumbnail.jpg"
+}

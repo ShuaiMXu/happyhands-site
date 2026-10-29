@@ -1,0 +1,75 @@
+{
+ "id": "227ff379-9b46-44fc-8ff1-37e0472239a6",
+ "slug": "altius-227ff379",
+ "name": "Altius",
+ "site_url": "https://www.altiuslabs.xyz",
+ "lastmod": "2026-06-03T21:39:22.702Z",
+ "extracted_at": "2026-06-03T21:39:22.697Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "crypto",
+ "north_star": "Molten embers on obsidian. A blockchain command center lit from within by coral fire, where dark surfaces breathe warm light through hairline gaps and inset glows.",
+ "fonts": [
+  "Matter",
+  "Fabrikatmono"
+ ],
+ "colors": [
+  {
+   "hex": "#190501",
+   "name": "Obsidian Ember"
+  },
+  {
+   "hex": "#340a01",
+   "name": "Dark Cocoa"
+  },
+  {
+   "hex": "#631303",
+   "name": "Molten Core"
+  },
+  {
+   "hex": "#951c04",
+   "name": "Signal Red"
+  },
+  {
+   "hex": "#fa5838",
+   "name": "Flare Orange"
+  },
+  {
+   "hex": "#fcac9c",
+   "name": "Warm Blush"
+  },
+  {
+   "hex": "#feeae6",
+   "name": "Vapor Peach"
+  },
+  {
+   "hex": "#f7f6ff",
+   "name": "Linen"
+  },
+  {
+   "hex": "#baadab",
+   "name": "Warm Ash"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d7be6a2d-e1ac-40f9-bb86-2fc3402278f7.mp4",
+  "poster": "https://happyhands.cc/design-archive/altius-227ff379/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/altius-227ff379/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/altius-227ff379/thumbnail.jpg"
+}

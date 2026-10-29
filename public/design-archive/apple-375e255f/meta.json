@@ -1,0 +1,95 @@
+{
+ "id": "375e255f-6e7b-4091-bf73-6df42a094263",
+ "slug": "apple-375e255f",
+ "name": "Apple",
+ "site_url": "https://www.apple.com/apple-watch-series-12",
+ "lastmod": "2026-09-20T21:54:56.271Z",
+ "extracted_at": "2026-09-20T21:34:21.942Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ecommerce",
+ "north_star": "Bronze sensor in darkness. Treat the watch hardware and its health readings as illuminated objects suspended in a near-black gallery.",
+ "fonts": [
+  "SF Pro Display",
+  "SF Pro Text"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Gallery Black"
+  },
+  {
+   "hex": "#111111",
+   "name": "Charcoal Stage"
+  },
+  {
+   "hex": "#1d1d1f",
+   "name": "Ink"
+  },
+  {
+   "hex": "#f5f5f7",
+   "name": "Porcelain"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#86868b",
+   "name": "Steel"
+  },
+  {
+   "hex": "#6e6e73",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#333336",
+   "name": "Control Charcoal"
+  },
+  {
+   "hex": "#e8e8ed",
+   "name": "Cloud Gray"
+  },
+  {
+   "hex": "#0071e3",
+   "name": "Apple Blue"
+  },
+  {
+   "hex": "#0066cc",
+   "name": "Link Blue"
+  },
+  {
+   "hex": "#ff3037",
+   "name": "Pulse Red"
+  },
+  {
+   "hex": "#00d959",
+   "name": "Vital Green"
+  },
+  {
+   "hex": "#ff791b",
+   "name": "Signal Orange"
+  },
+  {
+   "hex": "#b64400",
+   "name": "New Orange"
+  },
+  {
+   "hex": "#311400",
+   "name": "Burnt Badge Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/492452fc-62e6-465d-8401-d3a81ca1f916.mp4",
+  "poster": "https://happyhands.cc/design-archive/apple-375e255f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/apple-375e255f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/apple-375e255f/thumbnail.jpg"
+}

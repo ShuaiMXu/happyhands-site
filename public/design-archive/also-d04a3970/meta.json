@@ -1,0 +1,80 @@
+{
+ "id": "d04a3970-45f0-4030-8375-d0d26c083c0f",
+ "slug": "also-d04a3970",
+ "name": "ALSO",
+ "site_url": "https://ridealso.com",
+ "lastmod": "2026-06-03T21:02:20.560Z",
+ "extracted_at": "2026-06-03T21:02:20.553Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Bicycle zine on cream paper",
+ "fonts": [
+  "ABCCameraPlainVariable",
+  "SerialC-Heavy",
+  "SerialC"
+ ],
+ "colors": [
+  {
+   "hex": "#fcf7fa",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure Card"
+  },
+  {
+   "hex": "#f1f1f1",
+   "name": "Ash Mist"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon Black"
+  },
+  {
+   "hex": "#212121",
+   "name": "Graphite Input"
+  },
+  {
+   "hex": "#1a1a1a",
+   "name": "Obsidian Pill"
+  },
+  {
+   "hex": "#ac74fc",
+   "name": "Electric Violet"
+  },
+  {
+   "hex": "#c181ff",
+   "name": "Lilac Pill"
+  },
+  {
+   "hex": "#381b5e",
+   "name": "Deep Plum"
+  },
+  {
+   "hex": "#48316a",
+   "name": "Shadow Plum"
+  },
+  {
+   "hex": "#b1ff8f",
+   "name": "Acid Lime"
+  },
+  {
+   "hex": "#1276a9",
+   "name": "Signal Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f9e7557c-e2e0-430a-aa45-5885fc7d3d80.mp4",
+  "poster": "https://happyhands.cc/design-archive/also-d04a3970/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/also-d04a3970/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/also-d04a3970/thumbnail.jpg"
+}

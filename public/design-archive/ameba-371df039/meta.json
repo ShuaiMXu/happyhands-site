@@ -1,0 +1,77 @@
+{
+ "id": "371df039-a090-402b-b2e4-21ab38e07625",
+ "slug": "ameba-371df039",
+ "name": "Ameba",
+ "site_url": "https://www.ameba.ai",
+ "lastmod": "2026-06-03T17:28:13.427Z",
+ "extracted_at": "2026-06-03T17:28:13.420Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "saas",
+ "north_star": "Midnight control room — electric blue pulse inside frosted glass panels.",
+ "fonts": [
+  "Open Suace Sans Regular",
+  "F37 Bolton",
+  "Open Sauce Sans",
+  "F37 Bolton",
+  "IBM Plex Mono",
+  "Open Suace Sans Light",
+  "F37 Bolton Book",
+  "F37 Bolton Medium"
+ ],
+ "colors": [
+  {
+   "hex": "#00052e",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#0428cb",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#34fcff",
+   "name": "Arc Cyan"
+  },
+  {
+   "hex": "#afb4db",
+   "name": "Halo Violet"
+  },
+  {
+   "hex": "#222222",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#4f5166",
+   "name": "Slate Body"
+  },
+  {
+   "hex": "#6b6b83",
+   "name": "Fog"
+  },
+  {
+   "hex": "#8185a0",
+   "name": "Mist"
+  },
+  {
+   "hex": "#dbdcdf",
+   "name": "Silver Border"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5e7c9f68-e58a-464c-9701-badffbeced2d.mp4",
+  "poster": "https://happyhands.cc/design-archive/ameba-371df039/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ameba-371df039/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ameba-371df039/thumbnail.jpg"
+}

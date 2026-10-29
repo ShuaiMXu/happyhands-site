@@ -1,0 +1,86 @@
+{
+ "id": "261a4ad3-e835-4f7a-beb7-72187f84d462",
+ "slug": "amp-261a4ad3",
+ "name": "amp",
+ "site_url": "https://ampfit.com",
+ "lastmod": "2026-06-03T19:15:38.833Z",
+ "extracted_at": "2026-06-03T19:15:38.828Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "warm orange pill on cool white. The design feels like a premium fitness product photographed in a sunlit loft: one object, one accent, one confident typeface doing all the work.",
+ "fonts": [
+  "PublicaSans"
+ ],
+ "colors": [
+  {
+   "hex": "#ff6105",
+   "name": "Amp Orange"
+  },
+  {
+   "hex": "#ffa069",
+   "name": "Amp Glow"
+  },
+  {
+   "hex": "#ffdfcd",
+   "name": "Peach Wash"
+  },
+  {
+   "hex": "#0a0a0a",
+   "name": "Ink"
+  },
+  {
+   "hex": "#292b2a",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#7a7b7b",
+   "name": "Slate"
+  },
+  {
+   "hex": "#a2a3a2",
+   "name": "Ash"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Graphite Hairline"
+  },
+  {
+   "hex": "#dfe0df",
+   "name": "Fog"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Canvas White"
+  },
+  {
+   "hex": "#f3f4f3",
+   "name": "Linen"
+  },
+  {
+   "hex": "#202120",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#3c3e3d",
+   "name": "Smoke"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/86cb8a7e-6d24-45e1-92be-a01e16678b25.mp4",
+  "poster": "https://happyhands.cc/design-archive/amp-261a4ad3/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/amp-261a4ad3/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/amp-261a4ad3/thumbnail.jpg"
+}

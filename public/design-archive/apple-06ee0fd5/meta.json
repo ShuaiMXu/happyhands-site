@@ -1,0 +1,91 @@
+{
+ "id": "06ee0fd5-c4ab-4d5f-b66a-7285aeacd0b0",
+ "slug": "apple-06ee0fd5",
+ "name": "Apple",
+ "site_url": "https://www.apple.com/apple-watch-ultra-4",
+ "lastmod": "2026-09-20T21:52:55.651Z",
+ "extracted_at": "2026-09-20T21:34:18.257Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ecommerce",
+ "north_star": "Midnight endurance instrument. Build screens as a sequence of black exhibition bays where oversized SF Pro headlines frame precision hardware, active data, and carefully rationed electric color.",
+ "fonts": [
+  "SF Pro Display",
+  "SF Pro Text"
+ ],
+ "colors": [
+  {
+   "hex": "#f5f5f7",
+   "name": "Polar White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Absolute Black"
+  },
+  {
+   "hex": "#111111",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#1d1d1f",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#86868b",
+   "name": "Steel"
+  },
+  {
+   "hex": "#6e6e73",
+   "name": "Divider Gray"
+  },
+  {
+   "hex": "#333336",
+   "name": "Control Charcoal"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Glyph Silver"
+  },
+  {
+   "hex": "#00d959",
+   "name": "Battery Green"
+  },
+  {
+   "hex": "#0066cc",
+   "name": "Link Blue"
+  },
+  {
+   "hex": "#0071e3",
+   "name": "Purchase Blue"
+  },
+  {
+   "hex": "#ff791b",
+   "name": "Launch Orange"
+  },
+  {
+   "hex": "#b64400",
+   "name": "New Orange"
+  },
+  {
+   "hex": "#311400",
+   "name": "Ember Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a3ee62c8-c674-48a3-84a9-e8269eefd621.mp4",
+  "poster": "https://happyhands.cc/design-archive/apple-06ee0fd5/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/apple-06ee0fd5/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/apple-06ee0fd5/thumbnail.jpg"
+}

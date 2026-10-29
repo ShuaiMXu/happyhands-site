@@ -1,0 +1,34 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "pipeline-history",
+ "type": "registry:block",
+ "title": "Pipeline history",
+ "description": "A pipeline's page under its path: runs per day, its latest partitions and its schedule as numbered tabs.",
+ "author": "design.how",
+ "categories": [
+  "block",
+  "pipelines"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/sodium/breadcrumb.json",
+  "https://design.how/r/sodium/data-list.json",
+  "https://design.how/r/sodium/frame.json",
+  "https://design.how/r/sodium/item.json",
+  "https://design.how/r/sodium/numbered-tabs.json",
+  "https://design.how/r/sodium/status.json",
+  "https://design.how/r/sodium/stem-chart.json",
+  "https://design.how/r/sodium/theme.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/sodium.md",
+  "page": "https://design.how/systems/sodium"
+ },
+ "files": [
+  {
+   "path": "registry/sodium/blocks/pipeline-history.tsx",
+   "content": "'use client';\n\nimport {BreadcrumbTrail} from '@/components/sodium/ui/breadcrumb';\nimport {DataList, DataListItem, DataListLabel, DataListValue} from '@/components/sodium/ui/data-list';\nimport {Frame} from '@/components/sodium/ui/frame';\nimport {Item, ItemContent, ItemDescription, ItemGroup, ItemMedia, ItemMeta, ItemTitle} from '@/components/sodium/ui/item';\nimport {NumberedTabs, NumberedTabsContent, NumberedTabsList, NumberedTabsPanels, NumberedTabsTrigger} from '@/components/sodium/ui/numbered-tabs';\nimport {StatusMark, type StatusValue} from '@/components/sodium/ui/status';\nimport {StemChart} from '@/components/sodium/ui/stem-chart';\n\n// A block: a pipeline's own page, under its path. The numbered tabs head the frame, the one tab row that takes the\n// yellow: runs per day as a stem chart with every value printed, the latest partitions with their status marks, and\n// the schedule as label and value pairs. Wire the three panels to your scheduler.\n\nconst days = [\n  {day: 'Mon', runs: 24}, {day: 'Tue', runs: 26}, {day: 'Wed', runs: 25}, {day: 'Thu', runs: 31},\n  {day: 'Fri', runs: 28}, {day: 'Sat', runs: 12}, {day: 'Sun', runs: 9},\n];\n\nconst partitions: {name: string; note: string; size: string; status: StatusValue}[] = [\n  {name: '2026-10-18', note: 'Column region missing in the source.', size: '0 B', status: 'fail'},\n  {name: '2026-10-17', note: 'Loaded and compacted.', size: '2.4 GB', status: 'ok'},\n  {name: '2026-10-16', note: 'Loaded and compacted.', size: '2.3 GB', status: 'ok'},\n];\n\nconst schedule = [\n  {label: 'Cron', value: '0 2 * * *'},\n  {label: 'Timezone', value: 'UTC'},\n  {label: 'Retries', value: '3, 5m apart'},\n  {label: 'Owner', value: 'data-platform'},\n];\n\n/** A pipeline's page: its path, then runs, partitions and schedule as numbered tabs. */\nexport function PipelineHistory({className}: {className?: string}) {\n  return (\n    <div className={className ?? 'flex w-full flex-col gap-3'}>\n      <BreadcrumbTrail items={[\n        {label: 'Pipelines', href: '#'},\n        {label: 'orders-daily', href: '#', value: true},\n        {label: 'Overview'},\n      ]}/>\n      <Frame aria-label=\"Pipeline orders-daily\">\n        <NumberedTabs defaultValue=\"runs\" className=\"gap-0\">\n          <NumberedTabsList className=\"*:flex-1 after:hidden\">\n            <NumberedTabsTrigger value=\"runs\">Runs</NumberedTabsTrigger>\n            <NumberedTabsTrigger value=\"partitions\">Partitions</NumberedTabsTrigger>\n            <NumberedTabsTrigger value=\"schedule\">Schedule</NumberedTabsTrigger>\n          </NumberedTabsList>\n          <NumberedTabsPanels>\n            <NumberedTabsContent value=\"runs\" className=\"p-inset\">\n              <StemChart label=\"Runs per day, this week\" data={days} xKey=\"day\" valueKey=\"runs\" xLabel=\"Day\" valueLabel=\"Runs\" height={200}/>\n            </NumberedTabsContent>\n            <NumberedTabsContent value=\"partitions\">\n              <ItemGroup variant=\"plain\" aria-label=\"Latest partitions\">\n                {partitions.map(p => <Item key={p.name}>\n                  <ItemMedia><StatusMark status={p.status} label={p.status === 'fail' ? 'Failed' : 'Succeeded'}/></ItemMedia>\n                  <ItemContent>\n                    <ItemTitle>{p.name}</ItemTitle>\n                    <ItemDescription>{p.note}</ItemDescription>\n                  </ItemContent>\n                  <ItemMeta>{p.size}</ItemMeta>\n                </Item>)}\n              </ItemGroup>\n            </NumberedTabsContent>\n            <NumberedTabsContent value=\"schedule\" className=\"px-inset\">\n              <DataList>\n                {schedule.map(s => <DataListItem key={s.label}>\n                  <DataListLabel>{s.label}</DataListLabel>\n                  <DataListValue>{s.value}</DataListValue>\n                </DataListItem>)}\n              </DataList>\n            </NumberedTabsContent>\n          </NumberedTabsPanels>\n        </NumberedTabs>\n      </Frame>\n    </div>\n  );\n}\n",
+   "type": "registry:block",
+   "target": "@components/sodium/blocks/pipeline-history.tsx"
+  }
+ ]
+}

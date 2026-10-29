@@ -1,0 +1,31 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "tabs",
+ "type": "registry:ui",
+ "title": "Tabs",
+ "description": "Switches between panels of one view.",
+ "author": "design.how",
+ "categories": [
+  "navigation"
+ ],
+ "dependencies": [
+  "@base-ui/react@^1.8.0",
+  "class-variance-authority@^0.7.1"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/sodium/theme.json",
+  "https://design.how/r/sodium/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/sodium/components/tabs.md",
+  "page": "https://design.how/systems/sodium/components/tabs"
+ },
+ "files": [
+  {
+   "path": "registry/sodium/ui/tabs.tsx",
+   "content": "'use client';\n\nimport {createContext, useContext, useEffect, useMemo, useRef} from 'react';\nimport {Tabs as TabsPrimitive} from '@base-ui/react/tabs';\nimport {cva, type VariantProps} from 'class-variance-authority';\nimport {cn, controlHeight, mergeClass, mergeRefs} from '@/lib/sodium/utils';\n\n// Panels of one view, on Base UI Tabs. A row of mono capital labels standing on one rule that runs the width of the\n// list. The selected tab is text-1 with a 2px ink bar on that rule; the others are text-2 and turn text-1 under the\n// pointer, with no wash. Ink, not yellow: plain tabs are a place you are, and the yellow is spent on the one action.\n// NumberedTabs is the one tab row that takes yellow, for a page's few numbered sections.\n//\n// The selection is a cut, not a slide: a state flip in Sodium happens at once. The list never wraps; when the tabs do\n// not fit it scrolls sideways with no bar, and the selected tab scrolls itself into view when it changes. Tabs are 32px\n// tall, 26 small. A count after a label takes TabsCount, in tabular figures and text-3.\n\ntype Size = 'sm' | 'default';\nconst ListContext = createContext<{size: Size}>({size: 'default'});\n\nfunction Tabs({className, ...props}: Omit<TabsPrimitive.Root.Props, 'orientation'>) {\n  return <TabsPrimitive.Root data-slot=\"tabs\" className={mergeClass('flex max-w-full min-w-0 flex-col gap-4', className)} {...props}/>;\n}\n\nconst tabsListVariants = cva(\n  // The rule the tabs stand on spans the list: each tab draws its piece and a filler after the last draws the rest, so\n  // the rule scrolls with the tabs and the selected tab's bar, drawn over its piece, is never clipped by the scroller.\n  'relative flex w-full max-w-full min-w-0 items-stretch overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden after:min-w-0 after:flex-1 after:border-b after:border-line',\n  {\n    variants: {size: {sm: '', default: ''}},\n    defaultVariants: {size: 'default'},\n  },\n);\n\ntype TabsListProps = TabsPrimitive.List.Props & VariantProps<typeof tabsListVariants>;\n\n/** Keeps the selected tab in view, on mount and whenever it changes. */\nfunction useActiveInView(list: React.RefObject<HTMLElement | null>, slot: string) {\n  useEffect(() => {\n    const el = list.current;\n    if (!el) return;\n    const show = () => {\n      const tab = el.querySelector<HTMLElement>(`[data-slot=${slot}][data-active]`);\n      if (!tab) return;\n      const box = el.getBoundingClientRect(), t = tab.getBoundingClientRect();\n      if (t.left < box.left) el.scrollBy({left: t.left - box.left});\n      else if (t.right > box.right) el.scrollBy({left: t.right - box.right});\n    };\n    show();\n    const mo = new MutationObserver(records => { if (records.some(r => (r.target as HTMLElement).hasAttribute('data-active'))) show(); });\n    mo.observe(el, {subtree: true, attributes: true, attributeFilter: ['data-active']});\n    return () => mo.disconnect();\n  }, [list, slot]);\n}\n\nfunction TabsList({className, size = 'default', ref, ...props}: TabsListProps) {\n  const list = useRef<HTMLDivElement>(null);\n  const refs = useMemo(() => mergeRefs(list, ref), [ref]);\n  const s = size ?? 'default';\n  useActiveInView(list, 'tabs-trigger');\n  const ctx = useMemo(() => ({size: s}), [s]);\n  return <ListContext.Provider value={ctx}>\n    <TabsPrimitive.List ref={refs} data-slot=\"tabs-list\" data-size={s} className={mergeClass(tabsListVariants({size: s}), className)} {...props}/>\n  </ListContext.Provider>;\n}\n\n/** What every tab shares, plain or numbered: the label, the hover, the inset ring a scrolling list cannot clip, the bar. */\nconst tabBase = cn(\n  'relative inline-flex shrink-0 cursor-pointer items-center justify-center gap-2 border-b border-line whitespace-nowrap select-none [-webkit-tap-highlight-color:transparent]',\n  'text-text-2 hover:not-data-disabled:text-text-1 focus-visible:focus-ring-inset',\n  '[&_svg]:pointer-events-none [&_svg]:size-(--icon) [&_svg]:shrink-0',\n  'data-disabled:cursor-not-allowed data-disabled:text-text-disabled forced-colors:data-disabled:text-[GrayText]',\n  // The bar: 2px on the list's rule, under the selected tab only, covering the tab's piece of the rule.\n  'after:pointer-events-none after:absolute after:inset-x-0 after:-bottom-px after:h-0.5 after:bg-transparent',\n  'data-active:text-text-1 forced-colors:data-active:after:bg-[Highlight]',\n);\n\nconst tabSize: Record<Size, string> = {\n  sm: `${controlHeight.sm} px-2.5 type-label-sm`,\n  default: `${controlHeight.default} px-3 type-label`,\n};\n\nfunction TabsTrigger({className, ...props}: TabsPrimitive.Tab.Props) {\n  const {size} = useContext(ListContext);\n  return <TabsPrimitive.Tab\n    data-slot=\"tabs-trigger\"\n    className={mergeClass([tabBase, tabSize[size], 'data-active:after:bg-text-1'], className)}\n    {...props}\n  />;\n}\n\nfunction TabsContent({className, ...props}: TabsPrimitive.Panel.Props) {\n  return <TabsPrimitive.Panel\n    data-slot=\"tabs-content\"\n    className={mergeClass('min-w-0 flex-1 type-body-sm text-text-1 focus-visible:focus-ring-inset', className)}\n    {...props}\n  />;\n}\n\n/** How many things a tab's panel holds, after its label, in tabular figures and text-3. */\nfunction TabsCount({className, ...props}: React.ComponentProps<'span'>) {\n  return <span data-slot=\"tabs-count\" className={cn('data text-text-3', className)} {...props}/>;\n}\n\nexport {Tabs, TabsList, TabsTrigger, TabsContent, TabsCount, tabsListVariants, tabBase, useActiveInView, type TabsListProps};\n",
+   "type": "registry:ui",
+   "target": "@components/sodium/ui/tabs.tsx"
+  }
+ ]
+}

@@ -1,0 +1,3854 @@
+[
+  {
+    "path": "design-how/sodium/components/activity.md",
+    "sha256": "b756e9760826ff89b74a51fa881e9095d6703a52fd7b4807026b302a3d6eba96"
+  },
+  {
+    "path": "design-how/sodium/components/alert.md",
+    "sha256": "f05183c5e20855c4657f99d5fbb567b31d4e079b4741c76b2b213432656d3c8f"
+  },
+  {
+    "path": "design-how/sodium/components/avatar.md",
+    "sha256": "7922ca58596de9aec07688e78ad6551e1aec32d6a8bb8c86a361e28c02fecad1"
+  },
+  {
+    "path": "design-how/sodium/components/bar-blocks.md",
+    "sha256": "5439eb45285b149e58871e7ff9b96abf81952ed7c93916c1897af17eaaf57fdf"
+  },
+  {
+    "path": "design-how/sodium/components/breadcrumb.md",
+    "sha256": "7269c61992af1efa4b1fba1d6a4054f57e5d36e6b0a988814711920e2d65d237"
+  },
+  {
+    "path": "design-how/sodium/components/button-group.md",
+    "sha256": "acfa222b1648097259d7f0f90d42d857f8a73068a9737e6e23d2937604edd919"
+  },
+  {
+    "path": "design-how/sodium/components/button.md",
+    "sha256": "91abf86fd0885baba933e41b89de763ab51effd56daa7764935564d95335eae7"
+  },
+  {
+    "path": "design-how/sodium/components/chart.md",
+    "sha256": "a97145ad628a4e9fc063ed1d97f34e26ede56895fa9dee37c471b7fa72d85047"
+  },
+  {
+    "path": "design-how/sodium/components/checkbox.md",
+    "sha256": "be8c93f89668e165bbc46775ca22c6248b913fb0358681203fc95a36288a38bc"
+  },
+  {
+    "path": "design-how/sodium/components/code-block.md",
+    "sha256": "66ebdea183b046ea2765c18efb061577759706990f063f2efb64ad4327060ed2"
+  },
+  {
+    "path": "design-how/sodium/components/code-window.md",
+    "sha256": "c3cd602c65ee39ac68d2eda330247b768873b89f11a01b57bce9716778891f87"
+  },
+  {
+    "path": "design-how/sodium/components/collapsible.md",
+    "sha256": "7270b7298bf7ca5515671b7e899c0449ed83e164f17d185cba6682c36591d7ab"
+  },
+  {
+    "path": "design-how/sodium/components/combobox.md",
+    "sha256": "b4ef2214b55198d29eaea912b2f376b03caf7c6e944a88a5700081a17b340c8e"
+  },
+  {
+    "path": "design-how/sodium/components/command.md",
+    "sha256": "2caa7bdf218581256a21137db8ffdea9d18beb9bd387eb3ebb8c9a3bc926fd38"
+  },
+  {
+    "path": "design-how/sodium/components/copy-button.md",
+    "sha256": "d5306bd6a5cadeded437c85cf682a2e5bff17b5c721e792e536da69c3b593d25"
+  },
+  {
+    "path": "design-how/sodium/components/data-list.md",
+    "sha256": "7a6de44f54aba16f546ca63226622811b96bb2b06862171cbf1b51e9b11695d6"
+  },
+  {
+    "path": "design-how/sodium/components/dialog.md",
+    "sha256": "4cbc19fee376c1652053616ae0d96ef340f2bfb8020f54748f62b3010fcce227"
+  },
+  {
+    "path": "design-how/sodium/components/dropdown-menu.md",
+    "sha256": "2188b08cff1dd580215647be8b63f99bcd884337b2b3d15cf4c6c898d4033f86"
+  },
+  {
+    "path": "design-how/sodium/components/empty-state.md",
+    "sha256": "54f6c69eaf62a73ce2fa24974dd6430db18e7c4e6beef86e1e5aa923eee074a1"
+  },
+  {
+    "path": "design-how/sodium/components/field.md",
+    "sha256": "c280c4712a57064b6c592a678608a142fa9e6d0dcd083eacad7bb2610642c880"
+  },
+  {
+    "path": "design-how/sodium/components/filter-bar.md",
+    "sha256": "ee3e5c30b3dd373c45ecf1a219d955b064b32f00ede00dabad35317c8a5c07be"
+  },
+  {
+    "path": "design-how/sodium/components/frame.md",
+    "sha256": "7d6f926a27eb083d2799136f0b129acfdf983a1328861c0fc3e2fa911bdc9543"
+  },
+  {
+    "path": "design-how/sodium/components/input.md",
+    "sha256": "78a4f0eda426dad3c62dd42e557cb1026809ac26ce7e83c00704156737a2a052"
+  },
+  {
+    "path": "design-how/sodium/components/item.md",
+    "sha256": "9b7ed4e33f2f328c7aa2fa02983d69b9a3284939c64cac66891a5a27b9650287"
+  },
+  {
+    "path": "design-how/sodium/components/json-view.md",
+    "sha256": "3749e090c1d7e73afb94d13a64ea8fa54bafda5e267e1ae43ccb092025a5fa36"
+  },
+  {
+    "path": "design-how/sodium/components/kbd.md",
+    "sha256": "132ab664d4a1e5a1b650365e6b30df97ced73d23d5b9946efe218cb98a281c5a"
+  },
+  {
+    "path": "design-how/sodium/components/log-viewer.md",
+    "sha256": "f8a942096f39d0fe949bc76ec81c4c7b9bfbaedb917b3c78c8cce72d3c9f4443"
+  },
+  {
+    "path": "design-how/sodium/components/message.md",
+    "sha256": "d16819b2c58951e107c0ffbb3807ef2945f493d6ca9619ed1826517f3172a3bd"
+  },
+  {
+    "path": "design-how/sodium/components/meter.md",
+    "sha256": "e5dd7a3e8ad9a1535e840d8e1645e28a7eb5b824d2a6d3134aafd81c6b8d40b8"
+  },
+  {
+    "path": "design-how/sodium/components/numbered-tabs.md",
+    "sha256": "048bf70a834f86ae538d1773e3660f8f95aae008d0146c4a3652156625214f25"
+  },
+  {
+    "path": "design-how/sodium/components/pagination.md",
+    "sha256": "c135b2aa580b8a01d9becdff9efb4220e52dfe8170e53d40ca92e15827916052"
+  },
+  {
+    "path": "design-how/sodium/components/popover.md",
+    "sha256": "cb3326c36495c1f27f38b99308c325bd47e770f5f4f4ea3f3bb6d703320f8dfd"
+  },
+  {
+    "path": "design-how/sodium/components/progress.md",
+    "sha256": "4be0676f1c86de1af7f9d46e0f9f6406cdab400fc54a73ca7582d2299dc2930f"
+  },
+  {
+    "path": "design-how/sodium/components/prompt-input.md",
+    "sha256": "d1865e8b5cf3a8d5548d025b1bb5bc49783dd11f2df41489e70415cb37854747"
+  },
+  {
+    "path": "design-how/sodium/components/radio-group.md",
+    "sha256": "3af287168e6c86649ae427d01331458ffdcc196b08b86a2110fe3d79d197af06"
+  },
+  {
+    "path": "design-how/sodium/components/response.md",
+    "sha256": "2a89af29d03bd45f6217ec2c45c62a755e2d7727678ac98e30d815021bef4556"
+  },
+  {
+    "path": "design-how/sodium/components/segmented-control.md",
+    "sha256": "7b5ae2d61dc19182145a40be3870669568ae1798cede0073feb363f5bbb58bb1"
+  },
+  {
+    "path": "design-how/sodium/components/select.md",
+    "sha256": "50c17199ab74222c025ff066f7808dd9a6662a29738cd0213b0e5c0188aeb783"
+  },
+  {
+    "path": "design-how/sodium/components/sheet.md",
+    "sha256": "098cf4863e19395cea08f74d9a3395bee43ce680b10dedac053bbd80548783c8"
+  },
+  {
+    "path": "design-how/sodium/components/skeleton.md",
+    "sha256": "e0f627fabb9a7aac35ada4f4435295dec6f93ad3d6f577ad46a162485d6a63ab"
+  },
+  {
+    "path": "design-how/sodium/components/slider.md",
+    "sha256": "8954fd7db79f3d10286e134f1ad27129ddb54da1a1b5a753b4e3567c6141c8e3"
+  },
+  {
+    "path": "design-how/sodium/components/status-strip.md",
+    "sha256": "a4062ec83798e3242c0534cd11779e1d69092973b1938cd0bd0f6efd5991825b"
+  },
+  {
+    "path": "design-how/sodium/components/status.md",
+    "sha256": "23b04a68f0e40d56ecb4d9db68f3a24bc7f482e859aec205863e95d39bc4c96d"
+  },
+  {
+    "path": "design-how/sodium/components/stem-chart.md",
+    "sha256": "90b645d63e8c584cd3663918c434e2063e090b750342730a836cce9404553e9c"
+  },
+  {
+    "path": "design-how/sodium/components/swimlanes.md",
+    "sha256": "b23d91b4f9cf1d2dedacec991c94d15f74df7e721d0fbcf371e70ed5d9e23e47"
+  },
+  {
+    "path": "design-how/sodium/components/switch.md",
+    "sha256": "996e4ad6c6c3e8e9717d49b8532255589fed515c5da40ca48f17c0e7c4809f51"
+  },
+  {
+    "path": "design-how/sodium/components/table.md",
+    "sha256": "9089be046e635ae2c5346f904c165f7c7c4adf35878c480feadf9f51080d0735"
+  },
+  {
+    "path": "design-how/sodium/components/tabs.md",
+    "sha256": "dbfac1291d96691cfccb691cb2805f67f1a6c6c98515d8b284fdc2fabce1b90c"
+  },
+  {
+    "path": "design-how/sodium/components/tag.md",
+    "sha256": "b367fd4dfa06e2857f5c0de6c46d04acf3301593ec2d0aeff414daa367b0c0d2"
+  },
+  {
+    "path": "design-how/sodium/components/textarea.md",
+    "sha256": "02b7ea6565b2c9ad0801bbfb4c96090c287236a82af963b6635e22ceef795838"
+  },
+  {
+    "path": "design-how/sodium/components/toast.md",
+    "sha256": "976ed760508cc765167402daede4a005fc7f42e60494eff056d148ba8fcd216e"
+  },
+  {
+    "path": "design-how/sodium/components/tool-call-row.md",
+    "sha256": "0eadf6011e3096f0102b064d28fffca415e6cb43a144b8096ef7a3874a6ada2b"
+  },
+  {
+    "path": "design-how/sodium/components/tool-call.md",
+    "sha256": "00d62a34afb3f05962afe9593d5c6f187a84d82f48131db41c3a7b0a36028f80"
+  },
+  {
+    "path": "design-how/sodium/components/tooltip.md",
+    "sha256": "6a7e7b03c003711294dc1437abd740b799c4675496f756204740dd459dfffe56"
+  },
+  {
+    "path": "design-how/sodium/foundations/anti-slop.md",
+    "sha256": "95bf6a0c3bc96442c79a97ff2eef777feefa0ed79d33a42fe6e3ac811ef87046"
+  },
+  {
+    "path": "design-how/sodium/foundations/borders-and-lines.md",
+    "sha256": "9a3b32c57ad66934304741e5bd1935f861fb88011909fbae5aec17891d514d6d"
+  },
+  {
+    "path": "design-how/sodium/foundations/color.md",
+    "sha256": "e58df69413c4c0480df6c80360abe1fa7343414304fff691491871035f900985"
+  },
+  {
+    "path": "design-how/sodium/foundations/elevation.md",
+    "sha256": "909aa8ad5d5f816a3a36ff3b8b3ed769f2ee0c88ad209f90f525640dff121cf8"
+  },
+  {
+    "path": "design-how/sodium/foundations/iconography.md",
+    "sha256": "7fdcf937bf4239421b70b50db45fdc4983e690ab01fc4234362753d51e45a367"
+  },
+  {
+    "path": "design-how/sodium/foundations/motion.md",
+    "sha256": "87b5ce45f0f9eb7bd9bc1a17c954246543143ab8fed452a73f1aa039dfbe65be"
+  },
+  {
+    "path": "design-how/sodium/foundations/radius.md",
+    "sha256": "a2de777260619c09d8615449df38349c2e72d7554e585476bc9cab8a7ec4e23e"
+  },
+  {
+    "path": "design-how/sodium/foundations/space.md",
+    "sha256": "5dd1574c0ae8d6844b83f680d3205de90ea4bf8b1e4fb63ee7267dfbc5b1ebbc"
+  },
+  {
+    "path": "design-how/sodium/foundations/typography.md",
+    "sha256": "bdfa6682b3ac25d94692cee95d186d35232035330743b170550ff49eac840f32"
+  },
+  {
+    "path": "design-how/sodium/index.md",
+    "sha256": "fc6014ae16f0d74165fac1a116d7c3c1a313edcb6eae692c9bbd607637b95293"
+  },
+  {
+    "path": "design-how/sodium/registry/index.json",
+    "sha256": "6764eed3e726554eafa1eb4c04aebebf70e8a25d060a795c62d238af069d94f1"
+  },
+  {
+    "path": "design-how/sodium/registry/items/activity.json",
+    "sha256": "d4f6f76b1e41f4d2070d73c72e20abfb6fc3092ded6752307d8bf6bd65b4cc77"
+  },
+  {
+    "path": "design-how/sodium/registry/items/alert.json",
+    "sha256": "8b7276102e0e91b6cfb9b8f3bf9020b24c30951328fd0becf313bbcc7d76a774"
+  },
+  {
+    "path": "design-how/sodium/registry/items/avatar.json",
+    "sha256": "a775481b45942f1ff7887b502ee682f97c9e050f3fc1dc0e074134c181d4b964"
+  },
+  {
+    "path": "design-how/sodium/registry/items/bar-blocks.json",
+    "sha256": "7b87d0f33f0df886207e807a6382d0339c296d5ec8b9d4989adee7f16d08a7e2"
+  },
+  {
+    "path": "design-how/sodium/registry/items/breadcrumb.json",
+    "sha256": "aa6a04c11c46c1d729746989f0f97959654907fdef823f3efb52fbaed1e8f807"
+  },
+  {
+    "path": "design-how/sodium/registry/items/button-group.json",
+    "sha256": "8139bf323734c2fc24b2e82955e9af8d123368b205a5b50b5305df7ccb833be6"
+  },
+  {
+    "path": "design-how/sodium/registry/items/button.json",
+    "sha256": "ea0a8427c575eaa63698149389a01ed862261385e03669aa6f58879d98232be5"
+  },
+  {
+    "path": "design-how/sodium/registry/items/chart.json",
+    "sha256": "2142c6f50cf9bfc6c527f816a15ad90354aef4007b889ac62167646600f93c4d"
+  },
+  {
+    "path": "design-how/sodium/registry/items/checkbox.json",
+    "sha256": "d70c3c44d4a26850ecd406eeb0cb854130a8200e1c007b8ad77ec15cb63fd6fe"
+  },
+  {
+    "path": "design-how/sodium/registry/items/code-block.json",
+    "sha256": "452d069bdc0bfaea3e2f474812be962722b49c8af3fbf35ff69cc27f099f3623"
+  },
+  {
+    "path": "design-how/sodium/registry/items/code-window.json",
+    "sha256": "2358b44ad9a37206145bcddebb54442a37e7644bc22ab0241b47c90d5a36dd55"
+  },
+  {
+    "path": "design-how/sodium/registry/items/collapsible.json",
+    "sha256": "b83d31cf0800c444f59057e00b8cdd15642f7ee04a2374590b70d10013987675"
+  },
+  {
+    "path": "design-how/sodium/registry/items/combobox.json",
+    "sha256": "22e6e4e6555b4f6b4299c22617fe424e4d6399bbb289c5cbc6c325251b8038cd"
+  },
+  {
+    "path": "design-how/sodium/registry/items/command.json",
+    "sha256": "bc9c7e94bd26fdb6c3e9972ed1fb6a3d6c66ec182f2eb91f7182f7214603786f"
+  },
+  {
+    "path": "design-how/sodium/registry/items/copy-button.json",
+    "sha256": "4cc97fb21f6917823a0fa9383fd59b88e988da867ec2ea26959626a46e2a4867"
+  },
+  {
+    "path": "design-how/sodium/registry/items/data-list.json",
+    "sha256": "5ba1d58d24e035740f34cfd4efe819eefbf27a8820907000b98c11b37df63279"
+  },
+  {
+    "path": "design-how/sodium/registry/items/dialog.json",
+    "sha256": "b9ed77f6a09271d9558fc30d379df0264e8e4e774ac7f7cddbb30e61f8711d2f"
+  },
+  {
+    "path": "design-how/sodium/registry/items/direction.json",
+    "sha256": "83b77fe7a07494ac0c98003604881706e50c503473aeafb523b8ead29924760b"
+  },
+  {
+    "path": "design-how/sodium/registry/items/dropdown-menu.json",
+    "sha256": "1edee9f08c10fb0b535eaf37a91b24aff774fe292f08a4e0e8db16b1511aa4f5"
+  },
+  {
+    "path": "design-how/sodium/registry/items/empty-state.json",
+    "sha256": "ef447bde2ced7491f97bf37eb0d4a7a096c1afb0dd784eda77217e526abea89c"
+  },
+  {
+    "path": "design-how/sodium/registry/items/failed-load.json",
+    "sha256": "d5ceff29e8e668f7023d3f6fd9e9dbc33da4e97746697dd605976f0c9b5bede9"
+  },
+  {
+    "path": "design-how/sodium/registry/items/field.json",
+    "sha256": "45c04b80db6573af99207374b43454919a3cb47281badbe416b6090d2b94ae2b"
+  },
+  {
+    "path": "design-how/sodium/registry/items/filter-bar.json",
+    "sha256": "120222e17fbd5217b253eae08d92bbda32ab7a1ac708fee49f1b2131e90f26a6"
+  },
+  {
+    "path": "design-how/sodium/registry/items/frame.json",
+    "sha256": "16be0454695b9be2417425e177027cc33533ce3453d3dd07b6069729ec1fb814"
+  },
+  {
+    "path": "design-how/sodium/registry/items/icon.json",
+    "sha256": "177e80279d25d872132fcf46ec7afded34311572b5d0c87f904c1cf77466c803"
+  },
+  {
+    "path": "design-how/sodium/registry/items/input.json",
+    "sha256": "69471e28372f5085259355ffd739c6448cfd6c8e55493fca981548c188b653e3"
+  },
+  {
+    "path": "design-how/sodium/registry/items/item.json",
+    "sha256": "81d9a8af6252cac9434db74c18de60ff16c79476ee6896b90915cd3bd93f4cc6"
+  },
+  {
+    "path": "design-how/sodium/registry/items/job-runs.json",
+    "sha256": "910a44805ccdc271de1e0d76e43070cc7aeff5dcf71ef72298ce738b533ff8b5"
+  },
+  {
+    "path": "design-how/sodium/registry/items/json-view.json",
+    "sha256": "33c8e4002a8a6a715193ad0d865de2ecf2addc471c001d92b67a41d53f030d48"
+  },
+  {
+    "path": "design-how/sodium/registry/items/kbd.json",
+    "sha256": "bdab822be7b0f4afb356632fbc3e8f3badad619c07cc975753bb973cf8650d55"
+  },
+  {
+    "path": "design-how/sodium/registry/items/lint.json",
+    "sha256": "8cb5c32744ddb04b1cb641637f73261cac595baa71f739d771193ea94ad398af"
+  },
+  {
+    "path": "design-how/sodium/registry/items/log-viewer.json",
+    "sha256": "6cfbd9f19859aa2b5f769a1ca6e11fb1ded9fd09df9e62ea70a51ba5ddf0316a"
+  },
+  {
+    "path": "design-how/sodium/registry/items/message.json",
+    "sha256": "9e00bc834a7f665e8aa1c936dea4a278ee9596421bf4ecef3667b73aa6d86ae6"
+  },
+  {
+    "path": "design-how/sodium/registry/items/meter.json",
+    "sha256": "966b1ffa5296a006cdd76d2e36f21072c9a9169ddb48592ada6dc8090a321aa3"
+  },
+  {
+    "path": "design-how/sodium/registry/items/numbered-tabs.json",
+    "sha256": "0b3cc169993daa14c7f506904c8ffda12b74b3fa54e28ad63ce3cd053ec0747d"
+  },
+  {
+    "path": "design-how/sodium/registry/items/on-call.json",
+    "sha256": "9a1bae1ecb760d0df33cd0ce1dbb73c02657a5461c75e47117ed83e1bb1a97d7"
+  },
+  {
+    "path": "design-how/sodium/registry/items/overlay.json",
+    "sha256": "7cd3492a6d2739cd9a8c2a9eef32dc87f8e8e55ba8cf980ffacab21200522048"
+  },
+  {
+    "path": "design-how/sodium/registry/items/pagination.json",
+    "sha256": "471f47178c844e7740b1118cc8ad1c938c337147fc18c3e1b16d1d23dd128d86"
+  },
+  {
+    "path": "design-how/sodium/registry/items/pipeline-history.json",
+    "sha256": "44019867aa9ba4490a21a41901b9c5a3d457bb14edb92e314176b838886ba301"
+  },
+  {
+    "path": "design-how/sodium/registry/items/popover.json",
+    "sha256": "7f7882a54bfdf14220ad5f5c91dbf50baae6b2ce74d8cda8e291141301402e75"
+  },
+  {
+    "path": "design-how/sodium/registry/items/portal.json",
+    "sha256": "0e6451eacd27a658fd7dd050f7f766e96dbf3efd7a5faedd107f70a528dd856d"
+  },
+  {
+    "path": "design-how/sodium/registry/items/progress.json",
+    "sha256": "14efeb71ceb2d141ebd7dd56c1892181c4f5221347e4e93e143b9c4d6259f434"
+  },
+  {
+    "path": "design-how/sodium/registry/items/prompt-input.json",
+    "sha256": "5e8f6c9991eafdbf4bed29406ca0a3928f9c9ae4b389516a567420c12d733f17"
+  },
+  {
+    "path": "design-how/sodium/registry/items/radio-group.json",
+    "sha256": "b65f1934bf37a5783598498bec1ece0a027c2a581ccff7772259546337d9d7f8"
+  },
+  {
+    "path": "design-how/sodium/registry/items/response.json",
+    "sha256": "171d918ec5531f450dbe5a2b528c77ac39c306b4ac21c686dad82dd07dc14668"
+  },
+  {
+    "path": "design-how/sodium/registry/items/run-progress.json",
+    "sha256": "9a78c09bd996727ca28ab331cb5d95d63b8fcde59673f4e8fd44b39dac9c89cb"
+  },
+  {
+    "path": "design-how/sodium/registry/items/scroll.json",
+    "sha256": "733f32f6a160b47c0f341c97b8e7375c5275e79405ed3c91b0b4ad4bb0e74557"
+  },
+  {
+    "path": "design-how/sodium/registry/items/segmented-control.json",
+    "sha256": "d5c2673acb286c03e348cb60897affa63206374dc2c4f17b104f44ac7e6d2c07"
+  },
+  {
+    "path": "design-how/sodium/registry/items/select.json",
+    "sha256": "67f47b186f0b0ec3318f040fe7671f8f8414adae261382f35ed939406ef73f2c"
+  },
+  {
+    "path": "design-how/sodium/registry/items/sheet.json",
+    "sha256": "471ff532fc02812c191783c9f6e9b90df7c3672f40c6c76af5462cd29e25af56"
+  },
+  {
+    "path": "design-how/sodium/registry/items/skeleton.json",
+    "sha256": "e4fa10263cdd1b12abbc872cf30cdae4d62f535ecd95750d6b521b094835e9a2"
+  },
+  {
+    "path": "design-how/sodium/registry/items/skill.json",
+    "sha256": "5c809cf13caa391e0e81026a760344995fec5dded875c10e08b4c7fe446c80d7"
+  },
+  {
+    "path": "design-how/sodium/registry/items/slider.json",
+    "sha256": "801bc0e403f99e171822da5ce3dafe99ba2bfa786bcdbc2d5454ecb50a7a0b37"
+  },
+  {
+    "path": "design-how/sodium/registry/items/status-strip.json",
+    "sha256": "946e8c58c99580d7c436c04394b66ed4bdedb3f33f536f1de1e1ef695a95d915"
+  },
+  {
+    "path": "design-how/sodium/registry/items/status.json",
+    "sha256": "ba1d20c2db1486ef2a3fdde8f810986cab48c836d36e92936245458625572110"
+  },
+  {
+    "path": "design-how/sodium/registry/items/stem-chart.json",
+    "sha256": "d1f8d72b91d7a34dce6be27980cdfdfef689b56d943729d3b51b3c0c7c377c92"
+  },
+  {
+    "path": "design-how/sodium/registry/items/swimlanes.json",
+    "sha256": "651a9fc9bbb0d19be38eb5dd7753099a3f169179715aefae16e75a22c3caf7d1"
+  },
+  {
+    "path": "design-how/sodium/registry/items/switch.json",
+    "sha256": "461de6e1e9baf0916077d4d8fa5c3f7e64bb77a4f0759745945a466bbeec1e9c"
+  },
+  {
+    "path": "design-how/sodium/registry/items/sync-flow.json",
+    "sha256": "d2efe6859164bc3019ab301f4c871e50ee5986cf0c36d3dd438d7b5cdb8ceb2e"
+  },
+  {
+    "path": "design-how/sodium/registry/items/table.json",
+    "sha256": "512031ae2da80448307aeef5d36e7d5a0e0401a908c41fc541207874b55da666"
+  },
+  {
+    "path": "design-how/sodium/registry/items/tabs.json",
+    "sha256": "4175b633457c8b1b17940986fe046b6d879040fe8e3e31604d891c4b4a8b5297"
+  },
+  {
+    "path": "design-how/sodium/registry/items/tag.json",
+    "sha256": "7a3525df77af73f72eaaa7f57160179dc704bcd3560810efa76aa7506a29161b"
+  },
+  {
+    "path": "design-how/sodium/registry/items/textarea.json",
+    "sha256": "94a62eba582790679db239a8ba3058b3298d646c47ea6f1fda6fe50f683a5ec3"
+  },
+  {
+    "path": "design-how/sodium/registry/items/theme.json",
+    "sha256": "ad706a28fa1726964aa9c536af4f2f87689bd0bd6f8b55e38de13776f0d8f765"
+  },
+  {
+    "path": "design-how/sodium/registry/items/toast.json",
+    "sha256": "761629263307af0ceff29b99a5fd20fb73952f3b13ca9ddf1179b3154ec80282"
+  },
+  {
+    "path": "design-how/sodium/registry/items/tool-call-row.json",
+    "sha256": "031dd5c1f371866bad80da18ca0e277720abed97d97a1e6315305cdeed2a4b9c"
+  },
+  {
+    "path": "design-how/sodium/registry/items/tool-call.json",
+    "sha256": "3a2a1ab889c1648c2dd700f63bacd67da3b6f5df030db0643cb318ebe05973f7"
+  },
+  {
+    "path": "design-how/sodium/registry/items/tooltip.json",
+    "sha256": "1cf5c027fed5821d77516281053f30772e890026efd8ce3b85e4eeb80e2a75fe"
+  },
+  {
+    "path": "design-how/sodium/registry/items/use-draw.json",
+    "sha256": "51102d9f1fa2e91279c48126eedb6182b6e3f1acd9a077cdd01863f49bc0f3dd"
+  },
+  {
+    "path": "design-how/sodium/registry/items/use-scramble.json",
+    "sha256": "521766ef7fcd7ca4c8b8ced3ef3883e29df19f67ab9f86e8d0f9e610da7f741d"
+  },
+  {
+    "path": "design-how/sodium/registry/items/use-timeline.json",
+    "sha256": "a24f55bb493933a505fd4cc2672c9d46fe3acda6717b3ef2e8a98ffe4ad31e69"
+  },
+  {
+    "path": "design-how/sodium/registry/items/use-typing.json",
+    "sha256": "aafd91d26a5d9f6184f345903619839faf50b3d309b247de2d30436319d7d4b0"
+  },
+  {
+    "path": "design-how/sodium/registry/items/utils.json",
+    "sha256": "b438c29f0643f8fecfc4c95bca3b79cd512d64720ed1850d94692565f6ede5eb"
+  },
+  {
+    "path": "design-how/sodium/registry/items/warehouse-capacity.json",
+    "sha256": "41f64c49f6cfeb77a12a55599a8caadaf46a1aae90e24e679dffbaef86156a12"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/.agents/SKILL.md",
+    "sha256": "671474e84955307cdcd5fdf646e72a4d3f8330b1eb5d4c3791fd5845f7d1b21b"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/SKILL.md",
+    "sha256": "671474e84955307cdcd5fdf646e72a4d3f8330b1eb5d4c3791fd5845f7d1b21b"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ai/activity.tsx",
+    "sha256": "19779780011503aecdda35263192817c68e6edaa17b6fd6fa96dbc265fa3f4a4"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ai/message.tsx",
+    "sha256": "24e059f27c94471ce1e59958349a36cef3f2cb8a986b99c0622d6f55c0ee6382"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ai/prompt-input.tsx",
+    "sha256": "98bf8d7532b51555d192c5f0a1225ab9df45089fac04c58553480248f51a6b50"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ai/response.tsx",
+    "sha256": "3613cb6bd86b24acd770dde62b8c34a8ea16d8a0599972d3cd2fe74482b8610e"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ai/tool-call-row.tsx",
+    "sha256": "2a96b56fbedc7a4597c5644679a4ea7c9b273f46a90605653e321ecd30862b07"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ai/tool-call.tsx",
+    "sha256": "6ff4fe20161ba7c1f56c27723dbeebd11a9ded99e40915db65af82fdf44552f0"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/base.css",
+    "sha256": "4f314eb8fd2f3769827705a375c899a3e84b8ccf035304651a51215fa6e5e68a"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/blocks/failed-load.tsx",
+    "sha256": "a5244bfb6e675d3be99de09ea1b50245b8eb6fc81a91710940218148845d257a"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/blocks/job-runs.tsx",
+    "sha256": "a488d7ae7fb7445fee2a6bd732d317d0f02e70849ee071e176777132a8191d42"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/blocks/on-call.tsx",
+    "sha256": "7df2c00138e6b1084133f8159e387c0b73f0c1d1fd3543dc6f2c64fdce51d6c4"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/blocks/pipeline-history.tsx",
+    "sha256": "8c49386f18f90973f4e5ca47064c2670ccb6a03e5f1ffacb000efb97b0c7a595"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/blocks/run-progress.tsx",
+    "sha256": "73cc53180e3db99b6b5e84b15501028faa5306f4f00e10f06cf931cff27a57f8"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/blocks/sync-flow.tsx",
+    "sha256": "fb5fc8863ed1a82c5bc6a8ba9f95c9ec946bfff93f179fb12c8e6407e8239072"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/blocks/warehouse-capacity.tsx",
+    "sha256": "d6e139e6ec0ce42927250220349b07e3d00979fabe8a12f72979992beea7b0e0"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/hooks/use-draw.ts",
+    "sha256": "80419a62a880091d8bd431b181bc96e52ec1dc64e87959ba047f6209365ab275"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/hooks/use-scramble.ts",
+    "sha256": "0a9e169046f00e5026bf4770eb9f924cdd67861ffdb38b2be7a13b27fce47d4a"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/hooks/use-timeline.ts",
+    "sha256": "2a78350e1a0b2579842d85a6ea3df33a3514faae0d30fd7170703979bb10073f"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/hooks/use-typing.ts",
+    "sha256": "c384bdd8c2837cbd1074f64546d504d57681971feb1c6ef2f32f56a2e74ee447"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/icon.tsx",
+    "sha256": "a8fc27ff146e0a92cc290ad8319845c36e694c795fdb51e9977ccc6451db8448"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/lib/direction.ts",
+    "sha256": "6928bd8feb88c2949fa7788228fc3aca1d8fe56a3e42007eed24742a82b4627b"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/lib/overlay.ts",
+    "sha256": "e88ca2fe991360beafba0ca0d2aad7b6aa967f66fa48bccb451ed562a97e3e5f"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/lib/portal.ts",
+    "sha256": "34f8fe267544fa048a32adf77d7a8df4b9929212f96f4e89cf75f3253395a9b8"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/lib/scroll.ts",
+    "sha256": "46a46444c3a3722c3dc1afa69079b5555468d09916ece9413917d9d3bcf9c034"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/lib/utils.ts",
+    "sha256": "afc9150b6b26257aaa4de42f2de096a077ffdc6ce71d092e1ad9d57fcd2a2ac9"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/lint/classes.json",
+    "sha256": "ada20ac41ddf65e3a9eb60e72f857f750c45929973003cb1f3fd8beffab5cda6"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/lint/core.mjs",
+    "sha256": "d4e76ad9ce5e38efcd9c5a4fa53a595899da894d31b67bdc535f54a88ee17fa9"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/lint/eslint.config.mjs",
+    "sha256": "0816e440ffd374e21ad86ac6aa02ea718b1ae78ffe38a6bece26d58c39b06118"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/lint/plugin.mjs",
+    "sha256": "4faa6a1f3b2e2eac20326f51d91b6b2c42a0866b592f5cfb910a7b8a5a9c95f6"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/lint/value-rules.mjs",
+    "sha256": "eda25a705f07dd795c29c837fdf1271f3e0bcafba1f47ad9207b59933df2658d"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/styles.css",
+    "sha256": "f8dd9046b2701379d07b953453d6022d97682074257c1d6b7cd5bfed80b6cc58"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/tokens.css",
+    "sha256": "a185476f14a44d504d637c411325093edd7cb8c24a06abdfb8f079a0cdab5ed2"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/alert.tsx",
+    "sha256": "376c0854bdb5ed0f6beff3beb4ba3bc46252758ebe4ad71b8a9faac161878595"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/avatar.tsx",
+    "sha256": "c8cc61bb0d66c43a28f7a2b308c5cd9aa9f23363f94d7b09e788bd5125a96930"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/bar-blocks.tsx",
+    "sha256": "4ea6544dd2db25603cd6114cc6d47d415c8fb1540c6386316c8a596042e1dc0f"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/breadcrumb.tsx",
+    "sha256": "6fa1c3d3ef34e4df4764f988605a19d63368e4df9b8af157f784b100def0e43a"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/button-group.tsx",
+    "sha256": "f3dfde44f98f2808d65a01db6e529e0d93b54d12cee212ac87e8e85d1806d512"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/button.tsx",
+    "sha256": "64b6dc2b565878aeffa5598b521978219cf74f872c3f273c2c0c2751b8a33779"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/chart-parts.tsx",
+    "sha256": "06e0c27c4947d6ed20f80ea7aa94b0260fc21888d986ea46df0948462e1ebb64"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/chart-scale.ts",
+    "sha256": "10b5fe9da631ea3ea91174d770b5ac89fea801e1ee7f650e32e39081e4325722"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/chart.tsx",
+    "sha256": "dbb8e9dea029bea224994021d8f8036f227b584a275117c5f757c87f674ee759"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/checkbox.tsx",
+    "sha256": "07e3f785e5ee88211f8c4309f963b9c8d9cdfd83cccca2149781d10b17559e7a"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/code-block.tsx",
+    "sha256": "42c7d21740e50fd9ca7e6ef94c86c48552978ad12109e3f9c0fb2cf6d715da56"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/code-window.tsx",
+    "sha256": "a4d49e1ede0d0d90aba8dbb67e2370cb0365a07fd58d8af7f68f355398b5f9cf"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/collapsible.tsx",
+    "sha256": "4843dd60091576f665a91e6428ea3c3329e7fc7fb5737563cc57dc0f227d1a91"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/combobox.tsx",
+    "sha256": "6ad5702e24ee6e5085c4621c3bbc8fd8e34db521582bb4588ce4abd53e624aec"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/command.tsx",
+    "sha256": "a8f8d65379dfb913bf9b907c508c77752af542f3115eb4d5c03a63a0ca493b76"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/copy-button.tsx",
+    "sha256": "a8d62c937fae80333aa40b9deff1af39befbdcc6d0457b14663d2e63a5dc7bff"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/data-list.tsx",
+    "sha256": "edabadd7a7d3900dcb0da5e5bf39ae0f37648a568087fb07e62fca3ea3a135d1"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/dialog.tsx",
+    "sha256": "8584329d315f29ad26f8e83d4e0bed4aa2cbf153e059aba6a879ca9c47380647"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/dropdown-menu.tsx",
+    "sha256": "2ef6fcbe23748eb4b5eb375a57b195b9ebd20f9bf511106e779dd5066ecfaab9"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/empty-state.tsx",
+    "sha256": "4a9d6e60c2e7b7abd258028f8f648f715a9d679715cfa8fda5677c17f9b4ab38"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/field.tsx",
+    "sha256": "471be04189b6180d39c08eb8c79518c195993e7002c382ff6acdf2c9afea7732"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/filter-bar.tsx",
+    "sha256": "e0faa5e41f49f58dc2037de5a8aaa29ec686a4af36ebdb9bbcdd1afaf825130f"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/frame.tsx",
+    "sha256": "d130e1cd77b1151fa51c661d426f0e59bd5bfa6562c00b50010fe7fc15907bd1"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/input.tsx",
+    "sha256": "71d51a86ec24ce4810478e56675aa67158e02d32553fd6ef5da138c316f724d4"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/item.tsx",
+    "sha256": "9d16aa2e3fd426dd43941741e81fdd9a0209af7b8264005c77d51e761bd9f809"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/json-view.tsx",
+    "sha256": "e2d48c344cfb14aa26e1ad6b0c0fad724ff4f3148dfe180d2abf77638254c60c"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/kbd.tsx",
+    "sha256": "db0ec8e6fbf9b567f9e9f28f45dcb5d587ea80957cead439271abfa2e0e81bac"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/log-viewer.tsx",
+    "sha256": "4e5be36e074414f18b6916578d407816bd24793e4698b10cd66c34008b095a93"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/meter.tsx",
+    "sha256": "183f24cc1f090c8eae46d99a4b1f74f43f7464985c25e2e4463a611d069ad8f5"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/numbered-tabs.tsx",
+    "sha256": "764fa91f5ea97f7f2c1674bc82519bacc393e5c43ce7cfa2a0ae512b49e40a6c"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/pagination.tsx",
+    "sha256": "5f10b8d6a0cba6fa654764f864488ecd0d242cdaad71bc6e87bc2987c8df55ad"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/popover.tsx",
+    "sha256": "7ce264559ec5f4117e37351c48dfd87cec63d6b9f9dc36785353fb6fec21972e"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/progress.tsx",
+    "sha256": "38edeb23e2ff359bd3fa5f9df200be6c28d869507f069eae4696e4b04ca9b14b"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/radio-group.tsx",
+    "sha256": "bc9f062776fb710badded684d8ec805dccf1d910d82d4e19877e5941aebb5d7f"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/running-mark.tsx",
+    "sha256": "b09e5f2194e4d8c9ea7801fd8b11ab97e54e1715ab81505584fe617858e7216e"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/segmented-control.tsx",
+    "sha256": "424c0205d9b3da158bf871dc2bc93ce1144f0ed020a9a230e261c8a6c8d74434"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/select.tsx",
+    "sha256": "cc044f87bbace2e23bab5ffaa93f4e721e758eb988077286fd6aed3219bcbb8e"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/sheet.tsx",
+    "sha256": "9bdb7396790d530fefb2add1446821cdd903f897f0aa0aed762ca70233139c1f"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/skeleton.tsx",
+    "sha256": "da533d1236e17e0e7b2b87b299da19520d2f42338206e8a431a8472436c96afd"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/slider.tsx",
+    "sha256": "7568c93f79375b7913b5cb90aab8d9e8cc68ccea4bbb1b7364c8df5d534cf2c9"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/status-strip.tsx",
+    "sha256": "2a0dcce7117964315cfe3307095f9f9ba365a8e80315fefb7981f78b76bddbd1"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/status.tsx",
+    "sha256": "f0260565b4009637aa1c181a3d93d83de4ed0cc4203cb82d324f54f9ba5ab294"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/stem-chart.tsx",
+    "sha256": "063448c04677448aeed4863d2403da6e3a5191576b47c14d67140ad0a946504e"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/swimlanes.tsx",
+    "sha256": "5bd03b667b3d014299841cce3dc1b7176ae676fa61f3f5e4a04dd364df32bc78"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/switch.tsx",
+    "sha256": "910a3844bff55a8c8d545613c6a5f9330cb3dc74a3f342a2e869a9df360f7b6b"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/table.tsx",
+    "sha256": "1f10578d54432921161edef127ab9341cba10ea03e2156e3df1828ecab4df012"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/tabs.tsx",
+    "sha256": "5bd921634fd209b681e99aab48d218d949e7f10f0ed8feaed2dce44b1c4efed3"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/tag.tsx",
+    "sha256": "203f007510200a6a4a81a99f495d20a97370121a1717e03a1c765f73d5637083"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/textarea.tsx",
+    "sha256": "2b69e592100f61f116a2559f02bda9509c8123b54ce996347176ef9796004399"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/toast.tsx",
+    "sha256": "1e60631074ada21e7a428fa3f454c1a67581b2e6d0a7cb018cd633a8979901f1"
+  },
+  {
+    "path": "design-how/sodium/src/registry/sodium/ui/tooltip.tsx",
+    "sha256": "849e0a99ab268d4dd349fd9398b5f75d9ceb3602066791e1db6fd3838b6ad7b5"
+  },
+  {
+    "path": "design-how/glaze/components/action-receipt.md",
+    "sha256": "7c07e503c26954cce0d4fa9250ea8c280e4750bee7e28fed848b23dbd137f1b4"
+  },
+  {
+    "path": "design-how/glaze/components/activity.md",
+    "sha256": "f12b88a58a98c4b2a36e998c48270c4f58051a9a04db1d527e06726c3ffeaaa5"
+  },
+  {
+    "path": "design-how/glaze/components/alert.md",
+    "sha256": "7a1125c2569fea9a9f88e0b606516e8653fb2bf6347f713a461638537b856778"
+  },
+  {
+    "path": "design-how/glaze/components/attachment.md",
+    "sha256": "de9e54f06f79e4432a744a5aaaa31c04378995ec35036e31dbea2b7231890440"
+  },
+  {
+    "path": "design-how/glaze/components/autonomy-rule.md",
+    "sha256": "2ce1087f343f75f36a374499c8615f27de8f8ffdfc6616e4e9d62d32e3637db5"
+  },
+  {
+    "path": "design-how/glaze/components/avatar.md",
+    "sha256": "8f6b64090450bfa24b54bbb69fa491b70160827f44d0512854ee473295636c45"
+  },
+  {
+    "path": "design-how/glaze/components/badge.md",
+    "sha256": "c3d359b1dd9420522b5981f18c21d2a3f73a63833761a9b027d81a7612426eef"
+  },
+  {
+    "path": "design-how/glaze/components/breadcrumb.md",
+    "sha256": "502f87e1933903e129a59b8b6062b4265f67579cb75991bbecc63f2a962ebd29"
+  },
+  {
+    "path": "design-how/glaze/components/bulk-action-bar.md",
+    "sha256": "76990f502b755ac0bb06c5a024896dcc63cd5d93ba99dea6549dc68d8bdeb923"
+  },
+  {
+    "path": "design-how/glaze/components/button-group.md",
+    "sha256": "d7bb2cc27fcad31df1b6a8fef053369a8b218bb6638a513d660abd6cee2db8c0"
+  },
+  {
+    "path": "design-how/glaze/components/button.md",
+    "sha256": "0d6ea5165ce8a1a1b007b70a19d28632a2595f93df1e4ff140eaf25c852803b9"
+  },
+  {
+    "path": "design-how/glaze/components/card.md",
+    "sha256": "b692cacf3d3c055863ee513ece6a8a0ff0a00d8b48237127e7373d4a8249a0d1"
+  },
+  {
+    "path": "design-how/glaze/components/chart.md",
+    "sha256": "311e5b859d6bda1e3bdd28f576a5fc5da4b061b850c8ba971f21cedeb7ab4b7c"
+  },
+  {
+    "path": "design-how/glaze/components/checkbox.md",
+    "sha256": "0306bdebaab58162624579bd4497d19a0281da2bdece7340d1992f9320989b9c"
+  },
+  {
+    "path": "design-how/glaze/components/chip.md",
+    "sha256": "f434d9f8294de6429bfbc9643d480fb64dfb0ed79dfc8ac55175bec990f358b0"
+  },
+  {
+    "path": "design-how/glaze/components/code-block.md",
+    "sha256": "c7cf0fbf174a733153cfa1af5754be07657454bd220600bf31cf67b7a5a2bd3a"
+  },
+  {
+    "path": "design-how/glaze/components/collapsible.md",
+    "sha256": "46185e008dc22c71501b9eb6315a9369b916fb7a8d9c1e2c6a743168fb2f2e10"
+  },
+  {
+    "path": "design-how/glaze/components/combobox.md",
+    "sha256": "4a363a696b45cef295d8ee4b6708ab31941fed1a096b2428a13b210d3f79c965"
+  },
+  {
+    "path": "design-how/glaze/components/command.md",
+    "sha256": "12c1ae95d04eed798a872ad93971d67a15478580a6e1f7225bb92b667ddfe63a"
+  },
+  {
+    "path": "design-how/glaze/components/conversation.md",
+    "sha256": "07e1aec8344a6617623c77323bd6b07f9542ca0a7e724f07213c79b62d749e52"
+  },
+  {
+    "path": "design-how/glaze/components/copy-button.md",
+    "sha256": "166d4244ad115cff914df8d4e223ba7e1df1322e25f6e2740aebdbb23b1dbbad"
+  },
+  {
+    "path": "design-how/glaze/components/data-grid.md",
+    "sha256": "0372036e7349214a090c1a4d086905981075b36004805bd50e90d01dd577c315"
+  },
+  {
+    "path": "design-how/glaze/components/data-list.md",
+    "sha256": "60257372d3106d67436e0da402f96b7951fd9d560e37a2c1d52e6b92d579ac88"
+  },
+  {
+    "path": "design-how/glaze/components/date-picker.md",
+    "sha256": "308169691c5951f31c204a4712ada08175f82066ed4452af052a585dfbb739f7"
+  },
+  {
+    "path": "design-how/glaze/components/dialog.md",
+    "sha256": "739870fd857c7da15bfcaf31ffea2bbb2d86bfcdfccc07d0b1372e4a28e20b23"
+  },
+  {
+    "path": "design-how/glaze/components/dropdown-menu.md",
+    "sha256": "b8e6595e7fba4c9a05003ddec02acadb15e3c97d3fe22c7c6741a42e2a80ab71"
+  },
+  {
+    "path": "design-how/glaze/components/empty-state.md",
+    "sha256": "0299402e9cadc0b4dfc4f93869266d4aa7712783926872cffb0794d635adca4a"
+  },
+  {
+    "path": "design-how/glaze/components/field.md",
+    "sha256": "576f26917ce96a478e607a693268dcc33699fc57ac3bebe130d2364a97c72878"
+  },
+  {
+    "path": "design-how/glaze/components/filter-bar.md",
+    "sha256": "5fc72cd5203d80e2f08fa8ef8b6e230f3e190f00bcd19be88168dc777984c52d"
+  },
+  {
+    "path": "design-how/glaze/components/follow-ups.md",
+    "sha256": "7884afeba609859fa19fbad2cff4f71c53af7713c70e4dc3a5fe28d36bec40c5"
+  },
+  {
+    "path": "design-how/glaze/components/input.md",
+    "sha256": "5f2f9cc9a3c3b0895d300a913c1b71b41ed51b449be4c03a848afd689f2f3b2a"
+  },
+  {
+    "path": "design-how/glaze/components/item.md",
+    "sha256": "91c9266e755061da1736c79bb099ba798382ce0adba0155306a901ed190bc451"
+  },
+  {
+    "path": "design-how/glaze/components/json-view.md",
+    "sha256": "8c94115c45e5eb17c4174afc7c58d7d0c336cf8fe5bee10e5d6a2a97e15488c2"
+  },
+  {
+    "path": "design-how/glaze/components/kbd.md",
+    "sha256": "e921e34fd026729d7d18c8bfebd2f90c81b608f867fdcf157c578b8a77caac6a"
+  },
+  {
+    "path": "design-how/glaze/components/log-viewer.md",
+    "sha256": "abe3cb2ca57302ad052b9d46c39f07a604c3e9df34c792dca5c4a7a92960ebc3"
+  },
+  {
+    "path": "design-how/glaze/components/mention.md",
+    "sha256": "008629c82963321b46bf4de72887c936438e61481c152cb5805bcb7ef431fd5d"
+  },
+  {
+    "path": "design-how/glaze/components/message.md",
+    "sha256": "e3e94ea286037f9f03fb0d89b55934788c25282743f15ede3e50bc3c29b56c85"
+  },
+  {
+    "path": "design-how/glaze/components/number-input.md",
+    "sha256": "8d23650d5b572624a9894878e9a7cdd99f1f04dce8f8e9f375888b0a77d0905c"
+  },
+  {
+    "path": "design-how/glaze/components/otp-input.md",
+    "sha256": "84df42aec11cb01043411f84aa7bd9b275fea14b67e758a22fb43cb077078d4b"
+  },
+  {
+    "path": "design-how/glaze/components/pagination.md",
+    "sha256": "9e8df7e88ca5667659616d8fd628ed735aeab1761a99bc1c5718e8a2b532af17"
+  },
+  {
+    "path": "design-how/glaze/components/panel.md",
+    "sha256": "aa597e0e6f318ce23628a317d70b4f4b9189109722e08fb02372fb41e8734631"
+  },
+  {
+    "path": "design-how/glaze/components/popover.md",
+    "sha256": "cee03952f590a1a87bcd533bd801572b36462f4814f566aa5a1e4450a78be609"
+  },
+  {
+    "path": "design-how/glaze/components/progress.md",
+    "sha256": "7120c19657a4bcea9f44a5baf557e87e33d2b591a123b43b5d3f559d03fe44d1"
+  },
+  {
+    "path": "design-how/glaze/components/prompt-input.md",
+    "sha256": "a392afcc9596fd1c82e3ecf65e6759cc04ff293c4d489df3a28cff0112e95d34"
+  },
+  {
+    "path": "design-how/glaze/components/radio-group.md",
+    "sha256": "c3b675adbcb8887b8bcf3b4d33137e3ef8cd62a0134d51a9f43751ddb42f53b6"
+  },
+  {
+    "path": "design-how/glaze/components/reasoning.md",
+    "sha256": "206e61538437c02332abd1f23d41cc3a51d86993b754fe57c37c4e2919a1a1bf"
+  },
+  {
+    "path": "design-how/glaze/components/relative-time.md",
+    "sha256": "0f75227fc81bacf13798d724b62a262f4290a2b73b3929a7b40ed8506e9080be"
+  },
+  {
+    "path": "design-how/glaze/components/response.md",
+    "sha256": "887fc02e415d05c15542645b34759469ff855a884e81bf2de6e12a2fb1e51b8d"
+  },
+  {
+    "path": "design-how/glaze/components/segmented-control.md",
+    "sha256": "8ba6304c67e03cfccb5049be67152f252ddf4d00466e4aa55662a9b619959977"
+  },
+  {
+    "path": "design-how/glaze/components/select.md",
+    "sha256": "224a4bcea560dcf1a43a1c0f7cc219638a95b028d385b4fe20c858cfae758532"
+  },
+  {
+    "path": "design-how/glaze/components/send-button.md",
+    "sha256": "56e42dfd26416ca03fb7da0412e1b59a9ce38683979246e43d45e86aa0292f1e"
+  },
+  {
+    "path": "design-how/glaze/components/sheet.md",
+    "sha256": "1e1b974f692e356f12bbd51d866602a3e79b6cfb3268f544d581033810ad734d"
+  },
+  {
+    "path": "design-how/glaze/components/skeleton.md",
+    "sha256": "464241fed910fb1c536f91ccccc044fc818f81a5abfad8b6c9f8cd97a4c8ef95"
+  },
+  {
+    "path": "design-how/glaze/components/slider.md",
+    "sha256": "de4b217cc10646cf68ad6e4824e0cf4f7d092d75657a262572d5c88790daf565"
+  },
+  {
+    "path": "design-how/glaze/components/status.md",
+    "sha256": "d4ba279d64ea60302a19b5f2a280dd30181f50e17878ceb099a0010402b20a79"
+  },
+  {
+    "path": "design-how/glaze/components/steps.md",
+    "sha256": "80d502ff3dac8c6b177915239a658436f39cef2bb3a36d96ed054ffa0afc1cff"
+  },
+  {
+    "path": "design-how/glaze/components/switch.md",
+    "sha256": "f0a02c390f17938ab1e423d93b526ca56ec4fabcef4c176bd5a1cc339ff5a107"
+  },
+  {
+    "path": "design-how/glaze/components/table.md",
+    "sha256": "0b912c193187eed48c7e968990b7b63a3fad3c70dbdf255cfe72783347325303"
+  },
+  {
+    "path": "design-how/glaze/components/tabs.md",
+    "sha256": "78cd0f18bf21979a48361207625d603f8f731e3d76dd1d59f35b89042d5f3793"
+  },
+  {
+    "path": "design-how/glaze/components/textarea.md",
+    "sha256": "857d529fa2039eb48615b1b11cc1b4e09011280d4689a8f7b8cab16132153bc8"
+  },
+  {
+    "path": "design-how/glaze/components/timeline.md",
+    "sha256": "c27742354e1feb474052da2655d466ace7fb2ba3b3f24536c9576b4f6b9cc962"
+  },
+  {
+    "path": "design-how/glaze/components/toast.md",
+    "sha256": "1df46e18510b2806d1db796047bb717f6b9f6219700187513f3c75543ddc27c6"
+  },
+  {
+    "path": "design-how/glaze/components/tool-call.md",
+    "sha256": "e617ea0b5436ddb1c52334737c11e6234eb54eb691210c1f5ac25477444100b3"
+  },
+  {
+    "path": "design-how/glaze/components/toolbar.md",
+    "sha256": "705b4526064c1ead91f3aa83f397a7e381883fdd8e13f54a4b13cb40555b1d06"
+  },
+  {
+    "path": "design-how/glaze/components/tooltip.md",
+    "sha256": "a184d462b427233fcf98d2df34b25aaf4d9f8bcd84b609330f7e7eb9c2b76f1d"
+  },
+  {
+    "path": "design-how/glaze/components/truncate.md",
+    "sha256": "47ccc9d60e15a6414a394d8433f3e7af3557db3c557d6ab46ba35976da1b8bac"
+  },
+  {
+    "path": "design-how/glaze/foundations/anti-slop.md",
+    "sha256": "57db22d962d4316f9faed14c1b037f3373af31d7b45c0e21a9a8323475471abb"
+  },
+  {
+    "path": "design-how/glaze/foundations/borders-and-lines.md",
+    "sha256": "c046cfe08afa29fae97120f57e655dcc7a52435b1508c63f24d29e45832e225f"
+  },
+  {
+    "path": "design-how/glaze/foundations/color.md",
+    "sha256": "7e51e3dedc56d1f567d0eb95e5aca296898e423ed5ecbfae46684fa1aebd1b2f"
+  },
+  {
+    "path": "design-how/glaze/foundations/elevation.md",
+    "sha256": "135577d76ac719d192cea88ac3675ef79bf2e664dbc58483ec71b80bb84fae06"
+  },
+  {
+    "path": "design-how/glaze/foundations/iconography.md",
+    "sha256": "9e101ef00ca7549a6fae4918b9c532ebb698f3972e3e804ef4ee8ea281c5fda3"
+  },
+  {
+    "path": "design-how/glaze/foundations/motion.md",
+    "sha256": "f0fb7c11c8e0ce9708e61f62cb88f78e20b576d6b7230916996b3c552a6a37ce"
+  },
+  {
+    "path": "design-how/glaze/foundations/radius.md",
+    "sha256": "3fb4cc8e1e8feeaf3d84d3343c6f67167cc62f3870bc1bfd3a7c23c48f87ad28"
+  },
+  {
+    "path": "design-how/glaze/foundations/space.md",
+    "sha256": "47955006f67c94596f2c663aefb9636ddc02031c2c7c501b09a918c1c82070fb"
+  },
+  {
+    "path": "design-how/glaze/foundations/typography.md",
+    "sha256": "d9c3c90225f83af8a57dd458c9f904234a6333bf9f2f1f2dc04b5f0f4e4eb378"
+  },
+  {
+    "path": "design-how/glaze/index.md",
+    "sha256": "9622b65303502b5e86f4ba73f96a949fd652b90f7d92c707f58c5a9857735875"
+  },
+  {
+    "path": "design-how/glaze/registry/index.json",
+    "sha256": "d07e048209d5a22648a573080cc091c92692a101e3ccec25089981d0d3c2726a"
+  },
+  {
+    "path": "design-how/glaze/registry/items/action-receipt.json",
+    "sha256": "8a78e64ec07efc8f45bf7b31ef9cf4059130e2907fc4a9a504ac81ff4c89cb4a"
+  },
+  {
+    "path": "design-how/glaze/registry/items/activity.json",
+    "sha256": "08b64fab47baf15f52fa9e1dee89fe29bc6d3023e801d48447af72d4d5637855"
+  },
+  {
+    "path": "design-how/glaze/registry/items/agent-plan.json",
+    "sha256": "7a9172d2611263b3d70c5b527a459bd44f8f5b2a75555c6394870af8f3bf2fcc"
+  },
+  {
+    "path": "design-how/glaze/registry/items/agent-procedure.json",
+    "sha256": "55805dd6cc6bc462c40d2dad11f6107eb8f7977b77b6166fd3c099140d568071"
+  },
+  {
+    "path": "design-how/glaze/registry/items/alert.json",
+    "sha256": "263f9dc74195d4da5130a97b24b3b6be7c6cff1a9f3ec3612d4e942ae87391d6"
+  },
+  {
+    "path": "design-how/glaze/registry/items/assistant-limits.json",
+    "sha256": "0b6c34048f69cf415f39096dda3e109cc9a4ef5176433d88b1c786a7ca2ccb07"
+  },
+  {
+    "path": "design-how/glaze/registry/items/attachment.json",
+    "sha256": "13d5647d8eb43c21901e831b80dddc594597150acc24b118c6d30c2f94b8104c"
+  },
+  {
+    "path": "design-how/glaze/registry/items/autonomy-rule.json",
+    "sha256": "fcc905cb8984f202f6b5b448b27df141ec13558337bae53974f8a5ac79ee9872"
+  },
+  {
+    "path": "design-how/glaze/registry/items/avatar.json",
+    "sha256": "0e6ae6ef4045dfa853f38b1275d833a3fe3eb5c28ed5603eb96aa1634176a0e6"
+  },
+  {
+    "path": "design-how/glaze/registry/items/badge.json",
+    "sha256": "65b0c01f6608ca2db365bba42ebde266b21a0506f4d7c1403dae0a7d37f006e7"
+  },
+  {
+    "path": "design-how/glaze/registry/items/booking-approval.json",
+    "sha256": "0819070af41c4bee29b40d63344a090d6838c400875aae0cfec439b28e886ddc"
+  },
+  {
+    "path": "design-how/glaze/registry/items/breadcrumb.json",
+    "sha256": "830e8e6b8c1d4838a968e55b60efe666e0103b000f0b31be3e78162bfefd8489"
+  },
+  {
+    "path": "design-how/glaze/registry/items/bulk-action-bar.json",
+    "sha256": "4b133d33dfede864814e815126f17a5938e39d35bf628d394b29c7caa4be7faa"
+  },
+  {
+    "path": "design-how/glaze/registry/items/button-group.json",
+    "sha256": "a22177343aec0dbde9225945dd4a65c8c21857ecc7cca4cd3ae277e95caff112"
+  },
+  {
+    "path": "design-how/glaze/registry/items/button.json",
+    "sha256": "8a58282b6cbe0bb9955d2141853868e35e11969ce74a2cf8217da94e88e98c19"
+  },
+  {
+    "path": "design-how/glaze/registry/items/card.json",
+    "sha256": "c499f3bca534e0f030eda26eaed206ba0a47e248321b0002ad80d217c3612672"
+  },
+  {
+    "path": "design-how/glaze/registry/items/chart.json",
+    "sha256": "61f24affa9ae6e1c9c246bf09ef44311a431af0903124b3916f2dbb8e41471f3"
+  },
+  {
+    "path": "design-how/glaze/registry/items/checkbox.json",
+    "sha256": "f3863daa54297e0d715d2beb480f47ef8055f87c24d6fcd3aade264c8f1a1cfc"
+  },
+  {
+    "path": "design-how/glaze/registry/items/children.json",
+    "sha256": "5ef9651e2344cabeee3f9f9bb4118b9fb1e7f0825d19697462dbdfbf6cde4d68"
+  },
+  {
+    "path": "design-how/glaze/registry/items/chip.json",
+    "sha256": "4c164419356b54b51d7ff4aa08c6f7b31564fc76ff64aae43d7c36b743127fee"
+  },
+  {
+    "path": "design-how/glaze/registry/items/cited-answer.json",
+    "sha256": "2ce751ad22750403311765811d7cbe018397011cffd1da1e8d113bd091760f4c"
+  },
+  {
+    "path": "design-how/glaze/registry/items/code-block.json",
+    "sha256": "9c99a046efc136051a968e968e3fd05362ba2ea8fa275390a95d2a1027d88897"
+  },
+  {
+    "path": "design-how/glaze/registry/items/collapsible.json",
+    "sha256": "34af4b8b99e3d4de275bfbde38d45435ccc6f99af6a5f70cd54a73fd4d4a8807"
+  },
+  {
+    "path": "design-how/glaze/registry/items/combobox.json",
+    "sha256": "e76351831c76f02afaaa2cec024cbf2145c63cf074fd7de1333ce4aec5daf04f"
+  },
+  {
+    "path": "design-how/glaze/registry/items/command.json",
+    "sha256": "0426eae17b83689ac7c17882d9e5b9a0b3002766842daf33e57b7638fe2fd3ad"
+  },
+  {
+    "path": "design-how/glaze/registry/items/conversation-insights.json",
+    "sha256": "a84a192df6fb553ce678f36baee4029b8829734a31f4001b338f81fa856d4af0"
+  },
+  {
+    "path": "design-how/glaze/registry/items/conversation.json",
+    "sha256": "c5d5f5817e3b509e3233afa483635d23fbcfea7593722dca2ffcd287564c4c6e"
+  },
+  {
+    "path": "design-how/glaze/registry/items/copy-button.json",
+    "sha256": "6d3f4c493a033b2af45d764ce574880a10c5629fe7e0d072eadb2b64a8a95f5f"
+  },
+  {
+    "path": "design-how/glaze/registry/items/data-grid.json",
+    "sha256": "a7f12ea80100bde2688e6ae45055ae39911fedec0890c1d509ba6fcb6495538a"
+  },
+  {
+    "path": "design-how/glaze/registry/items/data-list.json",
+    "sha256": "2d9e080699f626f5b790b70c6b926daabe917174153cfb7e329e2f98dba9c157"
+  },
+  {
+    "path": "design-how/glaze/registry/items/data-units.json",
+    "sha256": "fa5bdb01ac6f3c06075a0f942228fcab78d9c831726db495bfad9cc98e48ef89"
+  },
+  {
+    "path": "design-how/glaze/registry/items/date-picker.json",
+    "sha256": "784f9d8a5161f007e7dc352409fb92e85120c34b76a243a0af99ecf3609697bf"
+  },
+  {
+    "path": "design-how/glaze/registry/items/dialog.json",
+    "sha256": "c7cb1af83b8fa9eea153c714cdb6f8b622163edba39659c799b46a98d1b64084"
+  },
+  {
+    "path": "design-how/glaze/registry/items/direction.json",
+    "sha256": "a1aef7c40527c9ca88fefbf8c71d5bef68e1b5937a71ce62b6f9cd1c01ec74e8"
+  },
+  {
+    "path": "design-how/glaze/registry/items/dropdown-menu.json",
+    "sha256": "8b88f2a00e9a8aca421425acdf26f81df9d4d99775fd6a74f9e7f4072de48d5e"
+  },
+  {
+    "path": "design-how/glaze/registry/items/empty-state.json",
+    "sha256": "e983c727db2c6679973f68b9f042131f121c35382c744a85868096ac06e9eef9"
+  },
+  {
+    "path": "design-how/glaze/registry/items/experiment.json",
+    "sha256": "3fa9c79f2f34c8c1a31059f792b627f45f5124a08b199bfcf8b4ddac6694714e"
+  },
+  {
+    "path": "design-how/glaze/registry/items/field.json",
+    "sha256": "0bc66aeb6a14d576f8099500a605bd9a4bab8c502c0d4fe01c0b1ce1652c6261"
+  },
+  {
+    "path": "design-how/glaze/registry/items/filter-bar.json",
+    "sha256": "f9078e90675d15cd61ca8ae7e27aa304abedf34d2266ff7d70161c84962e5b50"
+  },
+  {
+    "path": "design-how/glaze/registry/items/follow-ups.json",
+    "sha256": "780ab1431af9f858ac0a96417d850299231a69f76fa8a06c4a445e19c2d84a89"
+  },
+  {
+    "path": "design-how/glaze/registry/items/icon.json",
+    "sha256": "bf3ff18abb706ae79a9b614287fc9378646c7b8a03e76349ee0a7b7219a11fc7"
+  },
+  {
+    "path": "design-how/glaze/registry/items/input.json",
+    "sha256": "ef7bf4ed124f48e820e35ffdc714e320ecf5adebfcc0e02f4f456b346afcce95"
+  },
+  {
+    "path": "design-how/glaze/registry/items/item.json",
+    "sha256": "0ede5a3a3a4eadfcb338243a54d051001289c6ad9235bae414f2299f9b65b44c"
+  },
+  {
+    "path": "design-how/glaze/registry/items/json-view.json",
+    "sha256": "66f7c39f9cbf57cf4da5fda24e7d1861dc00688ff5f09c899d3dba4c42212dd1"
+  },
+  {
+    "path": "design-how/glaze/registry/items/kbd.json",
+    "sha256": "089253d007ab1b494030bb7dbe05d60a8959e37226f1052c9cdd9282b8e85558"
+  },
+  {
+    "path": "design-how/glaze/registry/items/lint.json",
+    "sha256": "cc884b8071f8beb63124a9ddb119c3ad99bd61a722780137d726a52e39eb125a"
+  },
+  {
+    "path": "design-how/glaze/registry/items/log-viewer.json",
+    "sha256": "e537ef5a100fb0e5b81725d5e32fb7eb2744a268509cd344e0574966e0e2361e"
+  },
+  {
+    "path": "design-how/glaze/registry/items/mention.json",
+    "sha256": "e657eb858759672fbeb6c279cb8164de08539bc84a5067fcd2b806f524706f59"
+  },
+  {
+    "path": "design-how/glaze/registry/items/message.json",
+    "sha256": "b465963c5613bf84fb90395b9957fbf2e8fed3d9e78f22d7c1cb0ea9f04476be"
+  },
+  {
+    "path": "design-how/glaze/registry/items/note-recap.json",
+    "sha256": "0436fd13c0c284783e9147e7835518535a4f1de2d1de429d375b43b28d133aee"
+  },
+  {
+    "path": "design-how/glaze/registry/items/number-input.json",
+    "sha256": "ac8883fdcaf613a1562c70045d77d3f21e1e9f6d85450db67b420e3bcf9ad046"
+  },
+  {
+    "path": "design-how/glaze/registry/items/otp-input.json",
+    "sha256": "e491ba115db8a913607c8178d538ed687ae9c22add00bd714d6c9f3a8f33129c"
+  },
+  {
+    "path": "design-how/glaze/registry/items/overlay.json",
+    "sha256": "77f2f53f8b0028c4e7f94030c4b497058f386baeb839dd5b03450c0203016033"
+  },
+  {
+    "path": "design-how/glaze/registry/items/pagination.json",
+    "sha256": "1de73dc5e80064b9a2a8021ddb68f71f5637c6d987c283520d84600b10ae97cc"
+  },
+  {
+    "path": "design-how/glaze/registry/items/panel.json",
+    "sha256": "3dfa36c954377668570b0a589a9e3b864d97527cbafa45f352aed8542e967714"
+  },
+  {
+    "path": "design-how/glaze/registry/items/popover.json",
+    "sha256": "77a13f18590a10a99e82c5b42cfc5f7000aa7b020048d17149d25f89653554a7"
+  },
+  {
+    "path": "design-how/glaze/registry/items/portal.json",
+    "sha256": "751d4c401d580636720ac286a18ed1475193ef4bb48e3f66977bb0b007077ea1"
+  },
+  {
+    "path": "design-how/glaze/registry/items/progress.json",
+    "sha256": "6ae18cbf10c1e9aa0ea6640daa717fbd9b6c592fad74db639b54d77c299e328e"
+  },
+  {
+    "path": "design-how/glaze/registry/items/prompt-input.json",
+    "sha256": "62cc28064111cfe44ab6896811e0b5dafa43410a7bdb01072c841b89661928df"
+  },
+  {
+    "path": "design-how/glaze/registry/items/radio-group.json",
+    "sha256": "bc6bc63fac449c639db9644aea5b5f8d5a0ebf3585dae47a2b94e371f1963b89"
+  },
+  {
+    "path": "design-how/glaze/registry/items/reasoning.json",
+    "sha256": "813bf4f79d56329bf3e674dc15494df3144bb0f2544067f40b1ba383f90cfbaa"
+  },
+  {
+    "path": "design-how/glaze/registry/items/relative-time.json",
+    "sha256": "61fa39fc1934dcee2e71b5aaff13672c0e2506a9f60f1c6821b504d98c606855"
+  },
+  {
+    "path": "design-how/glaze/registry/items/response.json",
+    "sha256": "8568e2c87b73ceff2d27c7124aaac2f361bd2f67f3449befb2342de29cff16ac"
+  },
+  {
+    "path": "design-how/glaze/registry/items/segmented-control.json",
+    "sha256": "dc89d1106e94dbdd9c30d61f0caa0feb4b0d5718fb8f911630552e77681f4630"
+  },
+  {
+    "path": "design-how/glaze/registry/items/select.json",
+    "sha256": "2a134a06e3a42e419c51a8f14ff41fd6deb3bb4238c935f9b8096aebf484793b"
+  },
+  {
+    "path": "design-how/glaze/registry/items/send-button.json",
+    "sha256": "7f9e97811179471663819eddfded924cfc050940fbfa87f28b2a2c8f3970a8ab"
+  },
+  {
+    "path": "design-how/glaze/registry/items/sheet.json",
+    "sha256": "34ff04f40cb1b992da846b86b89852cb726d4a60731f5b3befd6be68e5312e9b"
+  },
+  {
+    "path": "design-how/glaze/registry/items/simulations.json",
+    "sha256": "5f42d2eb204eb0d2bb1780684374c3d44392580780cfaf481db0efb0b2e07061"
+  },
+  {
+    "path": "design-how/glaze/registry/items/skeleton.json",
+    "sha256": "68dcf344dcbf1fcba45d145e3f9e8702e3070c90f5795511c52c6b75ce7eb4b9"
+  },
+  {
+    "path": "design-how/glaze/registry/items/skill.json",
+    "sha256": "57ac7df5a132e89cf64127ee74438166a4b2c43ca78bf8295dbe9e17a1d63a2e"
+  },
+  {
+    "path": "design-how/glaze/registry/items/slider.json",
+    "sha256": "4ed9acf95c4ee0ad3073d9150d1b93ffb63fa1eec603fa8a5d0c5a1fc0d66702"
+  },
+  {
+    "path": "design-how/glaze/registry/items/status.json",
+    "sha256": "9b81d30e0e90ee194569efe3425d399ec6bc033a7db7eab76838b4ba5d287aab"
+  },
+  {
+    "path": "design-how/glaze/registry/items/steps.json",
+    "sha256": "b7914beb59c0d97d2b9c38d67fb9aa5ca2532922a281079202c468735ca30baf"
+  },
+  {
+    "path": "design-how/glaze/registry/items/switch.json",
+    "sha256": "a55b90a90842a61d8312bc01c7eb958abeceae3e91439d829441e442517d6159"
+  },
+  {
+    "path": "design-how/glaze/registry/items/table.json",
+    "sha256": "f58e7e1f1472ee178c55330f6702356542f807147c4cd26bcf9ae5d92b29811e"
+  },
+  {
+    "path": "design-how/glaze/registry/items/tabs.json",
+    "sha256": "bdfa9e75a3496d6bace1b3f8e4a32960a81e823355d417ed96787cd123ff62de"
+  },
+  {
+    "path": "design-how/glaze/registry/items/textarea.json",
+    "sha256": "ce312845b7a3cba9a841e0356e099ac81c0cca377a7f5f8526d1f3291657f95d"
+  },
+  {
+    "path": "design-how/glaze/registry/items/theme.json",
+    "sha256": "9bfc0137ab75def5a1e2c745ec4a706a8c6cef5b9442020180a394a0dc4b17f1"
+  },
+  {
+    "path": "design-how/glaze/registry/items/timeline.json",
+    "sha256": "54a364c1ce4d3860091a53ede4141489578ca93331aa9d4ed05a40b6c0c6ecc2"
+  },
+  {
+    "path": "design-how/glaze/registry/items/toast.json",
+    "sha256": "86119bfbbf8ef2fc690325a5a1dcd650111e8e87ed128617062af2967077a26f"
+  },
+  {
+    "path": "design-how/glaze/registry/items/today.json",
+    "sha256": "190b0d33e626474c80d678f3ca1b87b6c774d355d303d09035b7c80ff339ffba"
+  },
+  {
+    "path": "design-how/glaze/registry/items/tool-call.json",
+    "sha256": "1e785bd36f31882d95b821a737a7ee90a22f49508dfad969ba067483f3e1d8f0"
+  },
+  {
+    "path": "design-how/glaze/registry/items/toolbar.json",
+    "sha256": "bea3e1b677969f393b8236ac28f86fbed302be9c6b8947c0bdce16f980e38f0e"
+  },
+  {
+    "path": "design-how/glaze/registry/items/tooltip.json",
+    "sha256": "4af9e155c15bebde7696784da8cad20ebc8de63ee53b6185d2941b859a4c032b"
+  },
+  {
+    "path": "design-how/glaze/registry/items/truncate.json",
+    "sha256": "52ee9d974b75fc5ca6d0cd699853be249af2d20d5a31ffbfcc253fa4f5d33263"
+  },
+  {
+    "path": "design-how/glaze/registry/items/utils.json",
+    "sha256": "5644cc836c08e421976ac1a77679d4aa2af69e067a896f8930f85f06e7674c09"
+  },
+  {
+    "path": "design-how/glaze/registry/items/voice-capture.json",
+    "sha256": "fba6e7374248fe26c77b852bccebdbbd2904cb35bd3c8d7524c9c2213fc6e6dd"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/.agents/SKILL.md",
+    "sha256": "08dffa795416bd52e5f15f47e359e809f5f6f9f6fb5a7382229ce279b35e9b30"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/SKILL.md",
+    "sha256": "08dffa795416bd52e5f15f47e359e809f5f6f9f6fb5a7382229ce279b35e9b30"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ai/action-receipt.tsx",
+    "sha256": "5ffd4aeb188eb621da71c674eb404a84f5b4a92482377fd833d0ac41114b74a2"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ai/activity.tsx",
+    "sha256": "348108f15c732dbabb7ce3f48461a6d85cb1be7d8b4b9c8c5920934b783423de"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ai/autonomy-rule.tsx",
+    "sha256": "9cdbf5cdc7e9e9dda63d8175097aafe9f89563597fda2416676c23c8756b73ea"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ai/conversation.tsx",
+    "sha256": "871d2c8d1bbeef23a58dae5ea56bdc93cc3598d3fcfa84c5c5d98a0429113360"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ai/follow-ups.tsx",
+    "sha256": "575d8bbd18ee49d04db619c764c2668bd24249b6d0102dfea6d41c7c8dab32b3"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ai/mention.tsx",
+    "sha256": "119c43ef9e89f15583f110f50b99a0c6caa82fc4d553574b75781eff0770883e"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ai/message.tsx",
+    "sha256": "f0cd80092402e237a9268bafea144d088aaa2359d6dfd4e0e2df921830915e71"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ai/prompt-input/attachment.tsx",
+    "sha256": "89ef9d0b0b4fb3be12fa8ad02bc2c9ae0e6d06066dbd206da0962a47183bd6e6"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ai/prompt-input/caret.ts",
+    "sha256": "7df6fadbae16b456e84faa15995cfb535818efe8eb8fec92a4050570010344ff"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ai/prompt-input/codec.ts",
+    "sha256": "32faa5cf12fd1ffe0f49cd6d9e16e51e8f3d530fc935d3c9b6a36a2c886341c8"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ai/prompt-input/menu.tsx",
+    "sha256": "d5a6920f7cd7f2253dd1d9f5884e6b6e28f70a88be85cfa30966efded3b92032"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ai/prompt-input/mic.tsx",
+    "sha256": "69643b889d1ac7edddbe6a9de245d53e5ebdff03ca2efeb7a3028d609408bb69"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ai/prompt-input.tsx",
+    "sha256": "05b9b3ea80ca3fd72a6acde2da7cff38601215e3a615829b9210cc0415cb107f"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ai/prompt-queue.tsx",
+    "sha256": "86a432b0ce7eec2b44a9d8d0d036a5264eea8ec261ca34118145ad1d24836e08"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ai/reasoning.tsx",
+    "sha256": "36953da19045aaef410b26665ba0257ef441560423b155a23579c88bf9020bfc"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ai/request-ticker.tsx",
+    "sha256": "47ad3d668bd65e97d721339ec90c503f51051a0c77dfcd62daf0210858921995"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ai/response.tsx",
+    "sha256": "9a16f72f1ca1acf0ab621858ea14eb2b8fe608375b04aa48488aac4c8d8c018d"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ai/send-button.tsx",
+    "sha256": "ab070f5c26c2fe5355ad847915ab633c54afead4eacd23ab597d59f1e6546214"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ai/tool-call.tsx",
+    "sha256": "f08c6ce6047bf48e28df8e8d7e32e7149e4f3c58a3b01e1e4699007ea3794660"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/base.css",
+    "sha256": "e76164c7232e61f92199d7ad0b23450254e4df3157de8a9c71f0ecd1abb7a654"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/blocks/agent-plan.tsx",
+    "sha256": "d1cbcad0f9212a5f4f09107e1bf4cd3615960b387d9a72c8f101b6df377aaa0a"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/blocks/agent-procedure.tsx",
+    "sha256": "13da2665545ca80a59f14a3e1fabe5e2712ef47a23c231b803540bed208c2f73"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/blocks/assistant-limits.tsx",
+    "sha256": "2b912ae72c6789c04a7e030160c7324c4028657d39cc2f62d21d27b2a758f298"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/blocks/booking-approval.tsx",
+    "sha256": "fbf38f4e8ff971b11109bc88be26fc4873498e3081f98f67ec8e478afc5704af"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/blocks/cited-answer.tsx",
+    "sha256": "662bde451441a6ac9735bd2a5dfe57fa700179ca00d162c0f2dc0abab5714b21"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/blocks/conversation-insights.tsx",
+    "sha256": "4ebe1858f64579ae6136620c03157042ca8a191dbd85015e7ea73301c8796af8"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/blocks/experiment.tsx",
+    "sha256": "35b6a4da8790b4b26941526f161821f40161f6cee67c9b19053bcef55e94412c"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/blocks/note-recap.tsx",
+    "sha256": "25ecffc3a8ace05339498fb09b02b375a644ee8e751a646f995a7734e9e80e2b"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/blocks/simulations.tsx",
+    "sha256": "2730061cce4e4989347fc61f14cd90918691e2b30868053feb5c9c3ebd99bcd4"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/blocks/today.tsx",
+    "sha256": "a02c3613cd92a7b523c2d3387e2ea5f5b4c0ada4ba59e69d0888f7ab6d4802ce"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/blocks/voice-capture.tsx",
+    "sha256": "0a60ce80f3f3447f0257cb16995b790d50d4f1bb29d95998043e8776e1dd659b"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/icon.tsx",
+    "sha256": "b1158e95320a36b83a7c159df7444d6f2255b91086a398ec3c9b742dc4e5f3dd"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/lib/children.ts",
+    "sha256": "3a362a4d95e89e2fa7ad8f90997d7ae6bd0dd0208fbb75f9f0c2d5c7d2ba6337"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/lib/data.ts",
+    "sha256": "51047fcd40e97611b1877c5707ee31d7ab7adc0748fe038e1592878d0cf23d08"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/lib/direction.ts",
+    "sha256": "29f972c72dbd87309c224c1ba37bbb2fc14e5098b6bd7f45700aecc1d2862894"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/lib/overlay.ts",
+    "sha256": "3fd6dcb78a0fc3781e8ff994bd5409da79a9ccd7070f57c13ce13997c60e4014"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/lib/portal.ts",
+    "sha256": "e85b8b97076437c0f91cba39ee939f2c887fbb69a87c7fb651ad1df24e4f2de6"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/lib/utils.ts",
+    "sha256": "2a509f885c91378ef334ad1cca37c05380b1d2434ed54f57211a6672aee13e1c"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/lint/classes.json",
+    "sha256": "27fb9950dcf20283db6ec05c3af689de7ec15fd34fa31606aea9626f3c23f359"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/lint/core.mjs",
+    "sha256": "d4e76ad9ce5e38efcd9c5a4fa53a595899da894d31b67bdc535f54a88ee17fa9"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/lint/eslint.config.mjs",
+    "sha256": "bbd2d486ad0a45bf1e815b321a40293208b441465b2c612ebebf4039ab684168"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/lint/plugin.mjs",
+    "sha256": "1fe7516cb3decb857a0b02706facb7f4c16aeafb3a2a3abe1c0a2070b009ba25"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/lint/value-rules.mjs",
+    "sha256": "eda25a705f07dd795c29c837fdf1271f3e0bcafba1f47ad9207b59933df2658d"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/styles.css",
+    "sha256": "a68e8482c3415fdfbda5d552c3a9c28082773b8368f7796911bf491fee8fa7d5"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/tokens.css",
+    "sha256": "1863ee0ede00ecf21125dbdf5c6e9cfea0d8f259cbd066daa27a6165845d99c0"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/alert.tsx",
+    "sha256": "29efb28c57091b741a0026d377181c3dc9b2bd6d6b183e5d60fc513940d496bb"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/attachment.tsx",
+    "sha256": "e8b54b34f0f9c5cf7817ddf4a22a8fccee736a74ce8d50deb6232f1cf8bf7632"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/avatar.tsx",
+    "sha256": "3661da9caa881d924e8a30bdecbb01c1bdbaefdfd6bb46b2ad3b47d138a7839f"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/badge.tsx",
+    "sha256": "49637df420dfbb94015cf0a423dd99c1cdf76d56beedf6fc6ceef2b5df222a9f"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/breadcrumb.tsx",
+    "sha256": "40521ef44da26c4a428f41083ffbf4be75c3e1440b6546ef20105f6b0cb5f68c"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/bulk-action-bar.tsx",
+    "sha256": "fa64420acb487f4b0feacac14a2d2103dca53acc71115652feeae832be3a5fd0"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/button-group.tsx",
+    "sha256": "f2aa8ebc472e6e33e30e31f95e2bfc480baf0355b905ebf33cb07e2d07c10053"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/button.tsx",
+    "sha256": "cf6b3c0320eabf8a862bfcf63911607159902945735d2900401e1eb8c235eafa"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/card.tsx",
+    "sha256": "b47d17b510b38063b9e3950cb118a90ebc6ad1f8d083b2c5d934930f698d22ef"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/chart-parts.tsx",
+    "sha256": "1eba2a87633013088a7f1f442a67cfe3efd29a0a391f201043000a52be604efe"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/chart-plot.tsx",
+    "sha256": "55867cfa47d0ec362300f08f104403ca2cb68eed77ac3d06d611a62cccdf3b1e"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/chart-scale.ts",
+    "sha256": "cb4ac67e7f00a112310ce9c1164b0d11c7c770a6132c33109c1274a066a291fb"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/chart-strip.tsx",
+    "sha256": "a428a367453185daf023a5c9a6f8244111ad1dc0ce053ec9bbd81fcc46320a08"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/chart.tsx",
+    "sha256": "496a3129f69d4ac63eb6c5f591b59492509b19e75e70cdc268dccdd620d3bfa5"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/checkbox.tsx",
+    "sha256": "2dc57f1531be86d3a95d519907c8d53081e430ee7fd989546f1f62ddbff03148"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/chip.tsx",
+    "sha256": "ab866bd57a85521147bb7a22fdc756b968df107e7696a4e33708e59018d57bb4"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/code-block.tsx",
+    "sha256": "be62a0e9acf794cff25847c614a11bd37fce93d8a9d42b7accbcb17b9b3f9d81"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/collapsible.tsx",
+    "sha256": "03dd3550fcf14707a4ce7fd3bc857a66597784c29add84754db11fb809ecdde4"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/combobox.tsx",
+    "sha256": "29d33ee83791d5620d3530907c210198f236d78dd1b821758bf7bf61febbc151"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/command.tsx",
+    "sha256": "bd5f84ef18ae81af0bb8dfaf318aece96c07963d8e9d997eaf7d1f827dc99540"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/copy-button.tsx",
+    "sha256": "9aad27fe6aa516a054607646b9c3b23031a95d07c7eadcab11b611747f048ddd"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/data-grid.tsx",
+    "sha256": "b3ce82bb2b51e667babc233a6a06133424799dcc3176ce7427ea27b237d0a936"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/data-list.tsx",
+    "sha256": "6cb4bf7b486bfad4801d1390456b01f9c0f4a1ceebc52727aadfc0435570af1d"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/date-picker.tsx",
+    "sha256": "2580a212e7284091d30fc63fa20de58be489f36e7fc0c6e68cf170d093a53033"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/dialog.tsx",
+    "sha256": "cdceec759649549b428fe3df12c8b87b07a935ff059c4cae8fb1cdd21c8bd338"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/dropdown-menu.tsx",
+    "sha256": "70fd44a44e62617dcc4117a71596b9b928692a37012566275837d5e5ab1178a6"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/empty-state.tsx",
+    "sha256": "e81c5e2727e352407fc3064abfb1f284d0530cef9044ee0e350ed37bf28b01b2"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/field.tsx",
+    "sha256": "a80c989976dc5614488e76154c6235771105627e8742163d4322ea69f6a82b72"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/filter-bar.tsx",
+    "sha256": "336847ca868800de7bcbc0aaa43a2fc435459247e49172399a1d758494a9d981"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/input.tsx",
+    "sha256": "e43af58b3e6f69acd5bb3a8430a34541f90de88c52b13a13c7528362ea7038ef"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/item.tsx",
+    "sha256": "f21ed80e590a62d70a8a71c6ca63958ec008b48610bdc4f6a9f0dddd7eeeb46a"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/json-view.tsx",
+    "sha256": "1264a15f59e10b05f86ba77b22e06dd0ee318a4b6763aa1ab0f9000603fa5a0e"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/kbd.tsx",
+    "sha256": "42fff64d024b15065816ced4da5b97be379b5f63f7dfc30e7bf80398cfc3c7e0"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/log-viewer.tsx",
+    "sha256": "66cbfc448e231f39e0955f4eb91172dea236f7874d3c33fdfbc8cd34f4d646eb"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/number-input.tsx",
+    "sha256": "d26370d7166b5ce000183c85e7d43e8b5825e401eefe9af97b8be1c66a1749fb"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/otp-input.tsx",
+    "sha256": "ecf4c20690d57fdef23671b3132ac1a5c059a1278a4b3446aa2edeaccdae8913"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/pagination.tsx",
+    "sha256": "99eb51ae4de41a26d65e6a1c91c03b74af2f276a3969efc95690260eb4dc07b6"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/panel.tsx",
+    "sha256": "3582d39590c1ebc0159b1009bc1f77916091821f6943ec289209f5d777112861"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/popover.tsx",
+    "sha256": "05c36c4e10936d59dbf9cddc0fdd03d10b9263011a6ceeaa67b78d0da2ea0519"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/progress.tsx",
+    "sha256": "02cb8c9f7973fb33d9e27d49c2b50c48839ef4be25b117e0a191450298273149"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/radio-group.tsx",
+    "sha256": "6ffacd5410cbf8425c84480ef9d09f66471f643480eaa290bea51a9eb609a9c1"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/relative-time.tsx",
+    "sha256": "75e5f8ca01dc85259f87e7f35a63e3106c4224963f2da849c078390b11d1b5f6"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/segmented-control.tsx",
+    "sha256": "e39d8b85c254e1cff5f425ffc0b9976b36f11b85c6b0d42b4ecdf18b4d0f54af"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/select.tsx",
+    "sha256": "1f31891b69286c73642fe2d1125992d5df0df81c3ee100bb22bd18c614d67a4a"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/sheet.tsx",
+    "sha256": "2ecaa438006e91fb09be9a6c0448b7814590f874a1b9ffe26dc3c5e4c0c3248a"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/skeleton.tsx",
+    "sha256": "d432f0cbbc29a7d984eaac9d6f2125f4e137efd80c1637f9e07c0a70db2b8fcd"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/slider.tsx",
+    "sha256": "e9b6f84d30d2a2d8c9f86089e05d89130990a58bcebf235c19b956047bd4ecdf"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/status.tsx",
+    "sha256": "d056acee2df1e3d8d44f6337d6fe2532d1dade69531f5c0ead48b7aaead701d9"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/steps.tsx",
+    "sha256": "9c3b9b735b258d719a3c534f31eef79c2eaea780ba96dbad40f7440344b083b6"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/switch.tsx",
+    "sha256": "77dccc9b3bda69a4f1e9ae6158215f069831ea7f11f3443c0f89a58b78f31c10"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/table.tsx",
+    "sha256": "48b2427166c236a490d924b1397dd4b02308b4238a68687c4a4d8fce6e4d3387"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/tabs.tsx",
+    "sha256": "69dbd54feca3e8a1ee58f9df1b69ac64a8301bac17bee4064fe7d0d5066ce3cc"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/textarea.tsx",
+    "sha256": "6e0358ce7aa3ab2db2431e1064af0cc35dd69b4690535ed1a32ad999a6a23e06"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/timeline.tsx",
+    "sha256": "b1a45d39eb10a650124a408a2499d5e10edae2b06b449d304f5958515913d663"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/toast.tsx",
+    "sha256": "e140a951df778733886fe5b0eaea2b6ec6a14fffed741f8148583a905272ed24"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/toolbar.tsx",
+    "sha256": "a08fbe93344cde294d65165b5b97ece776e15776e6604a04fc2f0d30d88bd518"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/tooltip.tsx",
+    "sha256": "c7b381bae09eba3c7c70d59054a29d1ee50ec8f5252d4e97515553a7b3964daf"
+  },
+  {
+    "path": "design-how/glaze/src/registry/glaze/ui/truncate.tsx",
+    "sha256": "3fe030aced08283de7acae897452eaac70f37f314725ac6dff1fb8b1f1e2652e"
+  },
+  {
+    "path": "design-how/quartz/components/activity.md",
+    "sha256": "67aec76c5d80429c1dada43294c52dba15e7cf247896fe12cccdc1976882f81a"
+  },
+  {
+    "path": "design-how/quartz/components/alert.md",
+    "sha256": "4240576c001947b42609c23f855f657cf806db0eef774a122745071a0c5de775"
+  },
+  {
+    "path": "design-how/quartz/components/attachment.md",
+    "sha256": "a1507224ca3d0a45ea4a0bf464842c91f5a6bcebe7224e1deb6ea97de7faa61a"
+  },
+  {
+    "path": "design-how/quartz/components/avatar.md",
+    "sha256": "81fe2e9e7d23629dfab8763c879bfd02747200b0c6d2e43b6cd357544c704c4b"
+  },
+  {
+    "path": "design-how/quartz/components/badge.md",
+    "sha256": "901206743fe624cb9f8b328adba074763a267bc652042aa4d0f91f1819478775"
+  },
+  {
+    "path": "design-how/quartz/components/breadcrumb.md",
+    "sha256": "21a893507b6f3b1152613752670395d36c5e07658cc725827456fbe6d52cc971"
+  },
+  {
+    "path": "design-how/quartz/components/button-group.md",
+    "sha256": "843e529fcbacd3a6943e5af1f923092c65856fd4deb67eb5d695cbbc09995deb"
+  },
+  {
+    "path": "design-how/quartz/components/button.md",
+    "sha256": "653883a2deb117213450edce5acfb95d3a5aa370050da0d34bf93f9384952988"
+  },
+  {
+    "path": "design-how/quartz/components/card.md",
+    "sha256": "9e19c0fe95d5e65f8d2ff220aaf1240b83e22d45e45e3b884bb61af553fa0717"
+  },
+  {
+    "path": "design-how/quartz/components/chart.md",
+    "sha256": "f48481e17ec06ee156a64858843ffc2bf6fe765f1032d4a4ad6fa1fcad976b31"
+  },
+  {
+    "path": "design-how/quartz/components/checkbox.md",
+    "sha256": "2bbb795d7764f2cd53499c4251ef4eb91b015941b02c5a188f96311c62d96056"
+  },
+  {
+    "path": "design-how/quartz/components/chip.md",
+    "sha256": "ab2373d34f878bce056ea38e053972f079754adef00449a2ce8392635a4a6c0a"
+  },
+  {
+    "path": "design-how/quartz/components/code-block.md",
+    "sha256": "34f33785f093de81ce89c81620228ad33a202d3c53d15ba118111b770ced38c0"
+  },
+  {
+    "path": "design-how/quartz/components/collapsible.md",
+    "sha256": "67b5863f75032e792833326610bfcc7a4517dff01ac185fe40ea8062a4f10366"
+  },
+  {
+    "path": "design-how/quartz/components/combobox.md",
+    "sha256": "c93340398f27000ff0d920c4708fddf899d3597aa18247f85a92620b0ed7f4d3"
+  },
+  {
+    "path": "design-how/quartz/components/command.md",
+    "sha256": "45bec8ae41388ed8280ffac0a4929b95e40c2cf8ff75c587ef8645c16162c6d6"
+  },
+  {
+    "path": "design-how/quartz/components/conversation.md",
+    "sha256": "5d86d967c41f9e2b07ab203f38fe304ced1901a2e307e9a3c307a7a5bdb2aeaf"
+  },
+  {
+    "path": "design-how/quartz/components/copy-button.md",
+    "sha256": "296d7430582ee45298350b64470f62c77b75597cdbe691b45050bfd4e5be8333"
+  },
+  {
+    "path": "design-how/quartz/components/data-grid.md",
+    "sha256": "58eeb9e57f5e25e79326a33f4d5a998ecc00881c5979068775b0c8c0dbbb06c1"
+  },
+  {
+    "path": "design-how/quartz/components/data-list.md",
+    "sha256": "aa2955e5df7875c1f97b1c474041dd40de8b176760796628b38e472b3a048fc5"
+  },
+  {
+    "path": "design-how/quartz/components/date-picker.md",
+    "sha256": "2bcea9888ce021055af418f8618e358803dd856e287a7ff96148cee9932d427d"
+  },
+  {
+    "path": "design-how/quartz/components/dialog.md",
+    "sha256": "0671ab3773989bcbaa4cf64749c364e9b37b22b1d5f104cbcac7286310df32cd"
+  },
+  {
+    "path": "design-how/quartz/components/dropdown-menu.md",
+    "sha256": "a861a4d938ecb167986ed5252043196c337256b38c5965f9072cfe53b5961933"
+  },
+  {
+    "path": "design-how/quartz/components/empty-state.md",
+    "sha256": "75c8fc322c4c691dfc0e3f451674298ee27034283d596de7c3b5fdf34ec31236"
+  },
+  {
+    "path": "design-how/quartz/components/field.md",
+    "sha256": "d2a8408326e672f0b4869c2deb239a85a9e7629192e432fc8bdee4dcd5a7927d"
+  },
+  {
+    "path": "design-how/quartz/components/filter-bar.md",
+    "sha256": "0846e99e3f87d1da0ab6e036d5290bbde128ac16e62c5d6a7eee34c6da43e350"
+  },
+  {
+    "path": "design-how/quartz/components/input.md",
+    "sha256": "079a7fc3afc7cb10a48ac23758dc0d92fe609f00c0e77876b046c5b9b4adc8bd"
+  },
+  {
+    "path": "design-how/quartz/components/item.md",
+    "sha256": "81d22dcac8a7925c665cf546813bd1f8045a27515e6a7e88c9db192f7cce7aad"
+  },
+  {
+    "path": "design-how/quartz/components/json-view.md",
+    "sha256": "620585380da49e1cabb6381b3aa3ad6e1f4bb5362b695bb002f489c205529937"
+  },
+  {
+    "path": "design-how/quartz/components/kbd.md",
+    "sha256": "70ebbf7c0c3ef323189a2836747853aafecbbefc7c72121ded64025a5e82e97e"
+  },
+  {
+    "path": "design-how/quartz/components/log-viewer.md",
+    "sha256": "f8923d50010de0c135ab63a73a865735a9bb674435309f67719f5ccf7bb32e1b"
+  },
+  {
+    "path": "design-how/quartz/components/message.md",
+    "sha256": "eade1ccba9b0f5248470db5f870f77492a181441d08602faf405c31df5215fca"
+  },
+  {
+    "path": "design-how/quartz/components/pagination.md",
+    "sha256": "336c8c3e77c299e20cb53af06865066c1c3130c6abd6a77ce85588e566ba8673"
+  },
+  {
+    "path": "design-how/quartz/components/panel.md",
+    "sha256": "97062587517eed018b4e57ffc97f37c1d2c909c89057f598014b8472642c3a70"
+  },
+  {
+    "path": "design-how/quartz/components/popover.md",
+    "sha256": "2ffa86d1f12b1d6e4dadedb523596b8578d449d3c43e15fdfacb7d3b137feb1f"
+  },
+  {
+    "path": "design-how/quartz/components/progress.md",
+    "sha256": "e956eff28f1a59f777b694b5180384671fe9cf42334b21cb429579d583fcb7d9"
+  },
+  {
+    "path": "design-how/quartz/components/prompt-input.md",
+    "sha256": "8b50103412869b72f3b3f621eee112b15037709ca1ab5c32efc21af40de4d662"
+  },
+  {
+    "path": "design-how/quartz/components/radio-group.md",
+    "sha256": "40fb4437a67bee5f2e075882a36a81b44e04aef268b4e341c42b7f80eb455028"
+  },
+  {
+    "path": "design-how/quartz/components/reasoning.md",
+    "sha256": "e0b08396cf1eae43f00e5143c52982342adc70ae16da65d1bd545b9a24de5189"
+  },
+  {
+    "path": "design-how/quartz/components/relative-time.md",
+    "sha256": "a2384544084f986a85d663282d90f2c551a3b2d8e540f8d56c7dd1e93cacf0cf"
+  },
+  {
+    "path": "design-how/quartz/components/response.md",
+    "sha256": "5ac81a5bc93a56839609ae9d8884cac8c1ad5c6f13e37dbd9141637acc5b8cd7"
+  },
+  {
+    "path": "design-how/quartz/components/segmented-control.md",
+    "sha256": "1a0a721bbef1b610726d3e837a7aa3ce1081aae2f4108e687b36a738164fe8da"
+  },
+  {
+    "path": "design-how/quartz/components/select.md",
+    "sha256": "4a6af406e8e413b67b521c9fef2bc0aa5b33cb1667ab0a01aca09d105b1c6ec1"
+  },
+  {
+    "path": "design-how/quartz/components/sheet.md",
+    "sha256": "578729d601da648e990cd5ffdd6b0d45574bdbeb8ea980a1cfc570849bfe16a3"
+  },
+  {
+    "path": "design-how/quartz/components/skeleton.md",
+    "sha256": "edcad40e14e53fb96911c5d31d03ea7b1adfef77d67fb3c6ac3d9b02ae8b5921"
+  },
+  {
+    "path": "design-how/quartz/components/slider.md",
+    "sha256": "b6c1d7c02d4b84ceddec00250e38746cfa8ecd0ed9a4db531d1479c063c86e4b"
+  },
+  {
+    "path": "design-how/quartz/components/stat.md",
+    "sha256": "02fa4b2ae6ab17d4244bf58d6c4cadd59baec85d4c70f2ea82428b01402acfe0"
+  },
+  {
+    "path": "design-how/quartz/components/status.md",
+    "sha256": "b086186d46339bbb856442c0de8c7cbcdf45bf55dc7257b35863fa4d2e89fdc4"
+  },
+  {
+    "path": "design-how/quartz/components/switch.md",
+    "sha256": "adf00be694200103ce327a980b7e04863814f117cc05fe1c419e9b43cea1e8e9"
+  },
+  {
+    "path": "design-how/quartz/components/table.md",
+    "sha256": "c8c305e12a4e7b6dc4c4f98f728873841b7160928375346e02f254cca0163741"
+  },
+  {
+    "path": "design-how/quartz/components/tabs.md",
+    "sha256": "17804150d4caed5135524e66f6d50c98244aaf3d41a67b49d15eb214a7dc5530"
+  },
+  {
+    "path": "design-how/quartz/components/textarea.md",
+    "sha256": "94c57b89a66364ebf569b3a83e32ff3cb58fd4025eb6040a5cac1199e99d24d1"
+  },
+  {
+    "path": "design-how/quartz/components/timeline.md",
+    "sha256": "1287681d40d8880ebb29e2733bfc8580fdb1056d87a4766ede00c7634bcf2f96"
+  },
+  {
+    "path": "design-how/quartz/components/toast.md",
+    "sha256": "12e6a3010b2ba3de61cdf26087d62e04227e517201db06688721ab8a9b366140"
+  },
+  {
+    "path": "design-how/quartz/components/tool-call.md",
+    "sha256": "fd9f4addc9f1a7dc8727c08dac87aecf3d58fceb044106b3f99e945d8d33c528"
+  },
+  {
+    "path": "design-how/quartz/components/tooltip.md",
+    "sha256": "f7875c218051f2ba5a253526a4d9ebd29a65b562ba08ce237897423cea2735e8"
+  },
+  {
+    "path": "design-how/quartz/components/truncate.md",
+    "sha256": "3f2adf144608394223157652405eb7608dd0f74aa193ac3f0749a06fdedcbe4d"
+  },
+  {
+    "path": "design-how/quartz/foundations/anti-slop.md",
+    "sha256": "59e8980d3b408b5ad3f370d3177126e7dc4d9419d4c99db97f0a5027f37d4654"
+  },
+  {
+    "path": "design-how/quartz/foundations/borders-and-lines.md",
+    "sha256": "a9a272be77b758667cba7ee3cf1551f02fd1a9c5c715c57d0571acb2ec832e12"
+  },
+  {
+    "path": "design-how/quartz/foundations/color.md",
+    "sha256": "0ae19554a831cbc09bc1c793ca16c611a26db3f856b309c3e0864f0482bb1243"
+  },
+  {
+    "path": "design-how/quartz/foundations/elevation.md",
+    "sha256": "fcd18b90952b79db7fb01d4062c8a4e4de3eec1235441dbe9a75e7749ef0644e"
+  },
+  {
+    "path": "design-how/quartz/foundations/grid.md",
+    "sha256": "3e51690899010f79af7eab5deffa3976ab92884183c5f9a0ac8033c0946e2a47"
+  },
+  {
+    "path": "design-how/quartz/foundations/iconography.md",
+    "sha256": "7f13f1ef7106c177d01355eb57cb35b531c9a76720acec9c24907aca12520f51"
+  },
+  {
+    "path": "design-how/quartz/foundations/motion.md",
+    "sha256": "e024644434afcc64820ef1d02f650530155315d82545022c43161d7577b07918"
+  },
+  {
+    "path": "design-how/quartz/foundations/radius.md",
+    "sha256": "de9d8ca4a1350db95a384f0fedb682cfaa65510119495508fd82a0a2c82d608f"
+  },
+  {
+    "path": "design-how/quartz/foundations/space.md",
+    "sha256": "c676d5a30cd4374652ebb0df8d3b386da624da4891ba5e17ec50242da616330d"
+  },
+  {
+    "path": "design-how/quartz/foundations/typography.md",
+    "sha256": "0b305b383fe74d15117fd73bcee5fb25d3017e6d588095374bd8be9c90c59064"
+  },
+  {
+    "path": "design-how/quartz/index.md",
+    "sha256": "6676585a5b2e11702d8484a456a0510cb47fb3047fc7c63daa15b0797b8221d4"
+  },
+  {
+    "path": "design-how/quartz/registry/index.json",
+    "sha256": "3960e5c61eaa64b76b4bcdadbfb8e2058ba92894960537a618bed434b58a8307"
+  },
+  {
+    "path": "design-how/quartz/registry/items/activity.json",
+    "sha256": "a445950b06663556a32928904e10793089ad04eadee346e2a851fa65d74163d1"
+  },
+  {
+    "path": "design-how/quartz/registry/items/agent-session.json",
+    "sha256": "e3c64a613b109d2135060f96bbcc8914da83595f0dd78591bd923b37f8b3f328"
+  },
+  {
+    "path": "design-how/quartz/registry/items/alert.json",
+    "sha256": "0a05e929e2f62004f02b4457dc2d6894057e0d953ffb806466ff986526a00bd3"
+  },
+  {
+    "path": "design-how/quartz/registry/items/api-keys.json",
+    "sha256": "297bdb7d6830d119b5b7dccf1557a6d1fad9c33baae019618cc0823f681348c0"
+  },
+  {
+    "path": "design-how/quartz/registry/items/attachment.json",
+    "sha256": "c59c1d18ac0d4564d20e6c3c68d13a6228d257c8a7e54e7efc3c7ccdc3ab94b0"
+  },
+  {
+    "path": "design-how/quartz/registry/items/avatar.json",
+    "sha256": "955a206c91b4bb118d615adcd19e9dd9797fd0fe32db54009034ca7542144785"
+  },
+  {
+    "path": "design-how/quartz/registry/items/badge.json",
+    "sha256": "0fad71a5f65a47c3f299ba45dba512a8504591d6454ec7343749efd1c634f347"
+  },
+  {
+    "path": "design-how/quartz/registry/items/breadcrumb.json",
+    "sha256": "b81c214967bce0f69059458e5a160160e61d2bcdc41abba119ad4242d7e0234c"
+  },
+  {
+    "path": "design-how/quartz/registry/items/bulk-action-bar.json",
+    "sha256": "a0f87ee65fe09dc32cac1e23d22ee1f476e8af3595890aa2c5a07a4d8106e282"
+  },
+  {
+    "path": "design-how/quartz/registry/items/button-group.json",
+    "sha256": "4a762337ba8ed089c8a101d5e8564654c6d3486895c7b0b531e4329a4e641ea9"
+  },
+  {
+    "path": "design-how/quartz/registry/items/button.json",
+    "sha256": "781603d91e4054baa7c27780c5a5c1c64d781162d241e6e4f590c312da60d5e4"
+  },
+  {
+    "path": "design-how/quartz/registry/items/card.json",
+    "sha256": "218bd83ef4bb84d38e33c4f4f572e752b7778855d17b12d2b89de53d21f278ce"
+  },
+  {
+    "path": "design-how/quartz/registry/items/chart.json",
+    "sha256": "a41cdf40c89a05b2af466052ecebba04baac30034b43eece2f146d56ea130071"
+  },
+  {
+    "path": "design-how/quartz/registry/items/checkbox.json",
+    "sha256": "6a5c63d72e6f12ef371390113305d6d8f52a7f1f9bdc12c41150a1f52f663afa"
+  },
+  {
+    "path": "design-how/quartz/registry/items/children.json",
+    "sha256": "f73ada0e4d7ba8e5de18d77da7b4325d0a79ad37ee37632c305de7b550a54bad"
+  },
+  {
+    "path": "design-how/quartz/registry/items/chip.json",
+    "sha256": "2a32a9329cf84558d4d4cebc3f48b32174bb7dc4ede6532ec9d2f5e10e463b34"
+  },
+  {
+    "path": "design-how/quartz/registry/items/code-block.json",
+    "sha256": "b95236ca44f81d6adb1cad273993e9e1a2a3cddf8983a9150bfb61cff05eb676"
+  },
+  {
+    "path": "design-how/quartz/registry/items/collapsible.json",
+    "sha256": "b9ebd780b783b29e54220e3a123fc5945b033f711fc5cb9d6ba921380edd8c96"
+  },
+  {
+    "path": "design-how/quartz/registry/items/combobox.json",
+    "sha256": "3158ee21eb688ab98904ac71c59ec43f5a62659de41bcf6e65bb3664c0098ece"
+  },
+  {
+    "path": "design-how/quartz/registry/items/command.json",
+    "sha256": "dfddf4cfa767836f28bff8cab5035c7f79d0fa50ed0713f77b170a32a1495274"
+  },
+  {
+    "path": "design-how/quartz/registry/items/conversation.json",
+    "sha256": "8483b7d44fd08228406bb7520421af09e6200e74d687a9a74a162cac6fad87a9"
+  },
+  {
+    "path": "design-how/quartz/registry/items/copy-button.json",
+    "sha256": "66cf8a9afe779ae0ee97f4fd2ed8e2170bd2f148865e25ccd558d7ef87a20a2c"
+  },
+  {
+    "path": "design-how/quartz/registry/items/css-var.json",
+    "sha256": "0d4492ed7680f46c3b1922f8526c2fd91fe72b983bff77892b08f294067d3101"
+  },
+  {
+    "path": "design-how/quartz/registry/items/data-grid.json",
+    "sha256": "eb028b04e4d681b8a69fc9ba040410b91748fc05599457ada2e7aac723f67606"
+  },
+  {
+    "path": "design-how/quartz/registry/items/data-list.json",
+    "sha256": "9f8b7bcd7b474ecf24e864ed92d5dfb2de563a39f755f6437ac9bff773fd313c"
+  },
+  {
+    "path": "design-how/quartz/registry/items/date-picker.json",
+    "sha256": "e472481ef9ed4d85246fbc3652a2538df9d2bee0e01bd5f99adf72dd99dc655a"
+  },
+  {
+    "path": "design-how/quartz/registry/items/deploy-detail.json",
+    "sha256": "ef7d7d07a4cfaf814c6517764710269b89fcc30a90ce5463e5755e44019e4f54"
+  },
+  {
+    "path": "design-how/quartz/registry/items/dialog.json",
+    "sha256": "251cc10561b7c7e20eb449a8b66a5f87c8eb17892541f37d8d38cb39085073a0"
+  },
+  {
+    "path": "design-how/quartz/registry/items/direction.json",
+    "sha256": "c401888331d9a6eee2d19a6443e4d5c89982e7c2d71f36c17af461dded911117"
+  },
+  {
+    "path": "design-how/quartz/registry/items/dropdown-menu.json",
+    "sha256": "f07b93a830f529525a91f02f597e68804975b53cd18c8486f9f2a33fe0b7fd79"
+  },
+  {
+    "path": "design-how/quartz/registry/items/empty-state.json",
+    "sha256": "ba96084a1ff4550ef2ac7e69edf38a07fee8ddf65a7dfb00bd86b9357cc8c8f4"
+  },
+  {
+    "path": "design-how/quartz/registry/items/field.json",
+    "sha256": "8cd3e0fd1b1de7c6c53d33148b56493c3f6a469864a3e79e88afe1c51261c14a"
+  },
+  {
+    "path": "design-how/quartz/registry/items/filter-bar.json",
+    "sha256": "540682405ae84d487b71a20fa5a64120ea4c6447a4e5665c946aa44ff4faedd0"
+  },
+  {
+    "path": "design-how/quartz/registry/items/format.json",
+    "sha256": "d973097e332b3113b913e0b1c3f535df8a43cd187172de227c2cc317b80223d8"
+  },
+  {
+    "path": "design-how/quartz/registry/items/icon.json",
+    "sha256": "35113376404dc565c3ef36c053f4c63b09193d3f1d9d88fc2463ffe183f687b7"
+  },
+  {
+    "path": "design-how/quartz/registry/items/input.json",
+    "sha256": "f373877bf567bd58c63537bb253e1afb165a65dd59cedde986655b06d5a693bd"
+  },
+  {
+    "path": "design-how/quartz/registry/items/item.json",
+    "sha256": "06894f7b936835b53ae3ad980119a3d596cae9d62950a4a00de990d4ff4e5837"
+  },
+  {
+    "path": "design-how/quartz/registry/items/json-view.json",
+    "sha256": "f9a668b554113c44d9a5db6e20d116972c4720e6f5f21e68ac94d84b9fd998da"
+  },
+  {
+    "path": "design-how/quartz/registry/items/kbd.json",
+    "sha256": "5e0e87f06eb64ea343a30388bbbc98bc98bcddd3068c8ae338e6072e22b77a37"
+  },
+  {
+    "path": "design-how/quartz/registry/items/kind.json",
+    "sha256": "925b6dec1ff82ef49d71a14a38a993df02582119617f52efd2860cd04606c62e"
+  },
+  {
+    "path": "design-how/quartz/registry/items/lint.json",
+    "sha256": "70dfd437881288f1a57789a056e068ab2b0fb958ab2a1385e8a813e0b7fa9ffd"
+  },
+  {
+    "path": "design-how/quartz/registry/items/live-requests.json",
+    "sha256": "7da4f772d5b5a3d2d7c2bbc0fe1fd72889907392b639082016fffb674a3d27ac"
+  },
+  {
+    "path": "design-how/quartz/registry/items/log-viewer.json",
+    "sha256": "9bd91b0938abbf9cf2f42692afcd8da131dc5f616788dc800cf5cdefa8898629"
+  },
+  {
+    "path": "design-how/quartz/registry/items/mention.json",
+    "sha256": "432e5ee0114f9e85e30f88a009dd701a3bdb2599f4b517d6e866365a815f22cd"
+  },
+  {
+    "path": "design-how/quartz/registry/items/message.json",
+    "sha256": "7b3f8df3a33ba05d637808c4161c9bb72607008129bc353f0d2820ff7c33e5b0"
+  },
+  {
+    "path": "design-how/quartz/registry/items/overlay.json",
+    "sha256": "d46bd5c6515a2be2ad0e7462eb2b58a6ad707b0bb1aeefd0d582340b5f3db2a1"
+  },
+  {
+    "path": "design-how/quartz/registry/items/page-header.json",
+    "sha256": "268d8f63976292521238675c774354dd26d1fdc085636955772bb44fa7354c1c"
+  },
+  {
+    "path": "design-how/quartz/registry/items/pagination.json",
+    "sha256": "eb6f07845a4a544ccd502e31fa147957ed5358081872e75af8cd4daffd6709d0"
+  },
+  {
+    "path": "design-how/quartz/registry/items/panel.json",
+    "sha256": "6d1c5795a0efe274943035e73b350ef03700c05cba01a71dcdf232ad3d028cc4"
+  },
+  {
+    "path": "design-how/quartz/registry/items/popover.json",
+    "sha256": "2fe7022ad8bf95a7600ed7f40a77abf1ed926357296dd7c93800e6bf308580e4"
+  },
+  {
+    "path": "design-how/quartz/registry/items/portal.json",
+    "sha256": "74ab1327729bcb37457cecd456d6388cde2afbfb0c7898edf2b8397b704a84df"
+  },
+  {
+    "path": "design-how/quartz/registry/items/progress.json",
+    "sha256": "a470617d8fae939caf0dcdfce9ead3a51a1b039608068c1fa6e0703ba2dcb142"
+  },
+  {
+    "path": "design-how/quartz/registry/items/project-home.json",
+    "sha256": "d983ca8d02fc289751c57c8cffab3a16051358d2b6d0a343a65d63dbeb94f383"
+  },
+  {
+    "path": "design-how/quartz/registry/items/prompt-input.json",
+    "sha256": "7ec7b3919db50154efa879db78d3446b4ea81fb7b0a061503c32545041f7a06a"
+  },
+  {
+    "path": "design-how/quartz/registry/items/radio-group.json",
+    "sha256": "11954c54403f5a2bb8c8f18f7aed6a8e66d3702d5da3e264b7ec9e9726504208"
+  },
+  {
+    "path": "design-how/quartz/registry/items/reasoning.json",
+    "sha256": "8fc36df166c3350ee4e19df467b437d70dcae03b60b43ea668e8db44e28b9552"
+  },
+  {
+    "path": "design-how/quartz/registry/items/relative-time.json",
+    "sha256": "6ecf88186f8f9ff066dd9a2aa60d9b12dd175c1edb285dd20a15e4d7abecf6d0"
+  },
+  {
+    "path": "design-how/quartz/registry/items/response.json",
+    "sha256": "e0c87245070f49c1e8d7b04e9f9feb643c9e998de7af34ceea46bac3ed8ad894"
+  },
+  {
+    "path": "design-how/quartz/registry/items/run-trace.json",
+    "sha256": "ea9bcd0d032a447b6ccbdc3fa8873eacb0e85c3d24eb74e30d524834f2109b37"
+  },
+  {
+    "path": "design-how/quartz/registry/items/scroll-focus.json",
+    "sha256": "5f9f7b287048fe0f877089fdcea214e96cb49a7bbef9b9b85b5f96a3d1f4b2c9"
+  },
+  {
+    "path": "design-how/quartz/registry/items/segmented-control.json",
+    "sha256": "be17d9fea7d3d0b4c16c5602035240d09e8a980954c840a17b0a5cdfc318fe88"
+  },
+  {
+    "path": "design-how/quartz/registry/items/select.json",
+    "sha256": "a998a6a767a9427e4661be77ae2e200a0c453af2a67dd197ae55d0c7567e9eec"
+  },
+  {
+    "path": "design-how/quartz/registry/items/send-button.json",
+    "sha256": "6b9963528de9b4bd0ab930552cf3ef4821f69466e8a3884fb73a7df5384d68ab"
+  },
+  {
+    "path": "design-how/quartz/registry/items/sheet.json",
+    "sha256": "008d0253f4f2249b6669b62013ab3fc0909245c2d4acba2fd8309a5404771ff4"
+  },
+  {
+    "path": "design-how/quartz/registry/items/skeleton.json",
+    "sha256": "2c9867f712351cbf77efabb5fc9c2c9d05f6abc73dfb61e7bbb78ac604559e54"
+  },
+  {
+    "path": "design-how/quartz/registry/items/skill.json",
+    "sha256": "37722e6995168b948d72117c0295eb9d23dae1c846252611a3fabb530c677e22"
+  },
+  {
+    "path": "design-how/quartz/registry/items/slider.json",
+    "sha256": "deed1cca14910a86aba3fbb7fa4dc6b3fc5546c262c41b7cbe7e2effb787c762"
+  },
+  {
+    "path": "design-how/quartz/registry/items/stat.json",
+    "sha256": "a81cb95bcffa4e3b9ca9c1e1ac3e3f51a6256822e7d524addd64eb57d40b1dd1"
+  },
+  {
+    "path": "design-how/quartz/registry/items/status.json",
+    "sha256": "bd5596080d0c0b2f68aef80961e00610f2bd7f17cc46e641627bc43562d434dc"
+  },
+  {
+    "path": "design-how/quartz/registry/items/switch.json",
+    "sha256": "20d0c215ad1475dd92c724ac3b962e9f89bc0b3d1fc1d952dec605138119566b"
+  },
+  {
+    "path": "design-how/quartz/registry/items/table.json",
+    "sha256": "ec198763bcbe894132597224d5cf57ed24e3a02a2b0e4f399c977ea9e7c481f3"
+  },
+  {
+    "path": "design-how/quartz/registry/items/tabs.json",
+    "sha256": "9e47b59bb0e8a4c6cccbad8e186d22c2d10e94c4c223e3e71cb82ba116f7b386"
+  },
+  {
+    "path": "design-how/quartz/registry/items/textarea.json",
+    "sha256": "41f545b63257d9bad856d97d07e575cda919096e21f7a2796f854161ec39cdc2"
+  },
+  {
+    "path": "design-how/quartz/registry/items/theme.json",
+    "sha256": "e79fd4076657d9d56313ef59c59edbadeee723072145676aeeaad15235109c7d"
+  },
+  {
+    "path": "design-how/quartz/registry/items/timeline.json",
+    "sha256": "ca8d78b89a2d2b76cbbd4d6867dcd9eb04ab3225773b916eab06756495950436"
+  },
+  {
+    "path": "design-how/quartz/registry/items/toast.json",
+    "sha256": "f537deabc5271eb7f5ea9397cff88443eaaddff1a076385daf4227641b5a681e"
+  },
+  {
+    "path": "design-how/quartz/registry/items/tool-approval.json",
+    "sha256": "277b53f1f0047c3ee6381d7c27a5590fc688ce81d282a5eed584498bf6860d39"
+  },
+  {
+    "path": "design-how/quartz/registry/items/tool-call.json",
+    "sha256": "0383f38c9e745755c1cfe72e9e160b207d65b7ef3ae959b58c9fac2a6cc9ffb0"
+  },
+  {
+    "path": "design-how/quartz/registry/items/tooltip.json",
+    "sha256": "bc377ba9b0be34fe9c631697320efcf56dc9262098c06e5333c4cb02b6459dcf"
+  },
+  {
+    "path": "design-how/quartz/registry/items/truncate.json",
+    "sha256": "ff63eb11b18ab80ee63d730ccee77391006b533188c2719fb8c09a74e5104fd7"
+  },
+  {
+    "path": "design-how/quartz/registry/items/use-focus-when-replaced.json",
+    "sha256": "f3846a6a9a51e5464a59e238ccb80017ec2dde8032388e5a742a5fd04fc77634"
+  },
+  {
+    "path": "design-how/quartz/registry/items/use-offscreen.json",
+    "sha256": "257385f04132e9a74d5572bdc720528d5ce12b7b14df1e41d32ce844771222de"
+  },
+  {
+    "path": "design-how/quartz/registry/items/utils.json",
+    "sha256": "b1561b2509fe49ce1642f91410c5f2824cce0a1f26088b077e476de8010ee5fa"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/.agents/SKILL.md",
+    "sha256": "03d038fc4b9d37fb5ee02e1a8582594431aa7e4254e8982cec3ce95c9d09eec5"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/SKILL.md",
+    "sha256": "03d038fc4b9d37fb5ee02e1a8582594431aa7e4254e8982cec3ce95c9d09eec5"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ai/activity.tsx",
+    "sha256": "45cae2530b9d26d67699eef6cea200835be73b19788e1f2dade557e5c2cd6fa6"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ai/conversation.tsx",
+    "sha256": "8d73de9c34a82d365d2ce3a24336afff43524f5b4011e15aa3addf6b739dbc58"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ai/mention.tsx",
+    "sha256": "c28073c40d9cd4e0f7492667bedc8024dc49f24c78ee58e0042bbfb30dd0450e"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ai/message.tsx",
+    "sha256": "048f406713be335ba13a7ee2842621a092db041c118112ec1b8bde157a111418"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ai/prompt-input/attachment.tsx",
+    "sha256": "2f1fc4684d40c8aa1111b7335f7fc1e1df9d859f142c0fcdff43f6e3fb90e0d7"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ai/prompt-input/caret.ts",
+    "sha256": "7df6fadbae16b456e84faa15995cfb535818efe8eb8fec92a4050570010344ff"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ai/prompt-input/codec.ts",
+    "sha256": "df5aea9728d38d04adafad3032fc7085e0fea2de3c96c03c1127afd16fe0f1e4"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ai/prompt-input/menu.tsx",
+    "sha256": "b57d180ee08b13aac0285619163ffe4aa11f040a11485b4f68b3c6353b89394d"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ai/prompt-input/mic.tsx",
+    "sha256": "14324d7d6bc5380cb30c09331cf6bfe6ecd33ef185cfee1d637c048f7d95339d"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ai/prompt-input.tsx",
+    "sha256": "2833d67b7478533f9a3b28a7c353e48ad90d00952f11ba2c28465c794b70ce2a"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ai/prompt-queue.tsx",
+    "sha256": "f2f4172ee8470907e7b3a4a9a6c35db3975ffcc90ebd4ed8dca60f0202c3552f"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ai/reasoning.tsx",
+    "sha256": "cf8714e9c2761924a74df15b65e0ec323e6f21e86e390f388ee1df0ae43820d1"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ai/request-ticker.tsx",
+    "sha256": "fcb9da410d841fba563303ccddeeb9c259a8994bd18947b5d80dd4214ffae9b6"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ai/response.tsx",
+    "sha256": "631ac333e92e026521adeb546b358e4d541f1165a0ac6433607952961007b8f3"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ai/send-button.tsx",
+    "sha256": "9c52f273561d79a20e531bc5f76457686c454946ebef2eb54b18e45bab385aba"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ai/tool-call.tsx",
+    "sha256": "9b8d072c02da03ee4056f3fcbe40b2cece00643db057a05b4f446fa927df4e8e"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/base.css",
+    "sha256": "255f0195503d87c8b5c2f15a59c0fdd5ce7cf31f9200ed611bcff4b1b1de5034"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/blocks/agent-session.tsx",
+    "sha256": "cd23d42ef2b57e3b9f380a3bbfa1eea917aa8a66c22bf0273151caae1d8058ed"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/blocks/api-keys.tsx",
+    "sha256": "645c6cef31a6e49b74e34ce929d6d7c68a1d73f0255ddef0e511e045a2939c54"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/blocks/deploy-detail.tsx",
+    "sha256": "3c310ee7dfe5199f82f9588fb2f7463b59d9acf9adb4a4ce0ae3a67b74273481"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/blocks/live-requests.tsx",
+    "sha256": "2deb161d56875fce47939d15d1145c108c28e85cf689a766d64f5083294efc38"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/blocks/project-home.tsx",
+    "sha256": "83f3127231e6657ab187b3d75e6c34f47503975dd05b44ef0e7ed4f294882b26"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/blocks/run-trace.tsx",
+    "sha256": "c2fddcee7bd087b5038e827d9728599be9084d72344796ca324f89e2448e58bd"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/blocks/tool-approval.tsx",
+    "sha256": "d3ec552b14dc01bf056605eccd5c508f01844bd53dce81945f3e2267e522d6a4"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/icon.tsx",
+    "sha256": "c035a7b403fd8ca76002611e9f0f228a520da90ca6f6f0470a6618060e870789"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/lib/children.ts",
+    "sha256": "3a362a4d95e89e2fa7ad8f90997d7ae6bd0dd0208fbb75f9f0c2d5c7d2ba6337"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/lib/css-var.ts",
+    "sha256": "e4aa49fc1635d8a726277f80ac7aeecabe1cc46b3299a99fe0d117faa7c77c4c"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/lib/direction.ts",
+    "sha256": "213bd252d2ca45d82c5381189e53e15710a4867d180c9f8010482aa29a005ff3"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/lib/format.ts",
+    "sha256": "6705b10d683a6baed34523de76c1ba9eb6399fb97fcfd9b39acc30512948299a"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/lib/kind.ts",
+    "sha256": "5daf42c2b637e5894799fbf7e05207edb0284f01a48d027a2a19887c45002729"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/lib/overlay.ts",
+    "sha256": "668eee33007a76d40aa1afbdcf6d84be3d6848e1aa5bc79772c9041193e48054"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/lib/portal.ts",
+    "sha256": "419b3b5f8e9bc8c8a4204fbf88ea1db70a727cdbe10cd88cb7318652e4ea9199"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/lib/scroll-focus.ts",
+    "sha256": "0125e53515b73473ca1e53af8114ba2f7ef5b29521ad69491c15dd2d683849a3"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/lib/use-focus-when-replaced.ts",
+    "sha256": "f6bcbea4b013ad0b2f2cd1ee469b2fe588e3891c2c1aa775f7cce4db10530583"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/lib/use-offscreen.ts",
+    "sha256": "253f1f856a33bf88b815c2b7c1e3de0839c025a730e31ce78d6d8d95ccc5c2aa"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/lib/utils.ts",
+    "sha256": "550d4f54f6c616ac69935eb31f7deadc22350eb9058c0ce93fa914292f7abf40"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/lint/classes.json",
+    "sha256": "aa0260bcc738f70d6aff48d4a14cb92077ccba9c458e97c7d031660b048edc8e"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/lint/core.mjs",
+    "sha256": "d4e76ad9ce5e38efcd9c5a4fa53a595899da894d31b67bdc535f54a88ee17fa9"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/lint/eslint.config.mjs",
+    "sha256": "1d10c1f77b0456e36f836f03ba651b8967193adcb454038432f6eeb9277a2282"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/lint/plugin.mjs",
+    "sha256": "51c8e6c72a67478e061bfc272a1442a3ace024ad12544b6f387e007f58d2a6ba"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/lint/value-rules.mjs",
+    "sha256": "eda25a705f07dd795c29c837fdf1271f3e0bcafba1f47ad9207b59933df2658d"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/styles.css",
+    "sha256": "209144ace46d84d35bdd92076e616c40fbd7747cab8fd48b57bf35df4f10708e"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/tokens.css",
+    "sha256": "26210004b4884437560c45feee4d3a009e8ede79e4ca9b646b8636c6a8a1f714"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/alert.tsx",
+    "sha256": "581aecb07d7230af01f612ee45930c3bf0cd138f8e44493217958007a96ef4aa"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/attachment.tsx",
+    "sha256": "02b57bd0fed2eae87b12a1b02a3df278d7eda9a98e6004140a355b9eb8334b20"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/avatar.tsx",
+    "sha256": "3d83b11da9a81a5b5cb5a08be70da53dc9c15f9478a8feea72e7beb7627d8a67"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/badge.tsx",
+    "sha256": "829cd9cf893817c7c2e60c02decab2cbc87860a95f5e8cf9ab348bc9e031bc7a"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/breadcrumb.tsx",
+    "sha256": "79d1b1226e0eef5222c55533cf6913479bc78e0a631f0fd00680a6e895da2f20"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/bulk-action-bar.tsx",
+    "sha256": "2ccbfa7514d2ee446e7e26040ccd1276389d9d3a3207094078eb85f0c9148db2"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/button-group.tsx",
+    "sha256": "4ebe84b84040d293edba6f12e8085bc66bc5eac5f733b09e1d56ee75f67fbe5c"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/button.tsx",
+    "sha256": "41f545fe5701edb9b7a8fa53acdcc349f91d672b92de2e66d65b6fc4dbce188a"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/card.tsx",
+    "sha256": "3b2c055bb0aa8bda942219dbd2c486d622d9e38c66a14c2bdb258f7d528a67ee"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/chart-parts.tsx",
+    "sha256": "6bd6007eb42a9d31928bcf892febc0bab6c3f28f0c7848b619a29c2bd4460ac6"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/chart-plot.tsx",
+    "sha256": "1c653f893cf03b2e7b4a1f092a8ad55f2eab3d4c49ccfe181e2bcabcea243b7f"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/chart-scale.ts",
+    "sha256": "0820602c46468afa007ca2c7e0a9bc37e65bb6bc5cf20043cdcf7900be0ac56c"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/chart-strip.tsx",
+    "sha256": "e13a0e333b68e99031bc7af66029c97fd163163430bd8ef00d43b8a257c2780b"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/chart.tsx",
+    "sha256": "4b01e4ece8f65f809c5f94735ecfdea3d5784d02fb1129456542751c6a0b9609"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/checkbox.tsx",
+    "sha256": "e8a85e87c0cd87669c04940dc938eb540330b3be23c24d979f717535ade957f9"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/chip.tsx",
+    "sha256": "93cd29621b046a171fbf672a70445392a48aaf0de0d5e02df3492b7bad124759"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/code-block.tsx",
+    "sha256": "576f3bb02023ad3c45da368a4721325d8a7ab3c2228aa9ab3ddfcb485c6efa0e"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/collapsible.tsx",
+    "sha256": "79666e8e9b7f49ddfd2ea29b160a0468e3d985d4c89ee378291f4a954d70f21d"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/combobox.tsx",
+    "sha256": "101d9df9787d8c55df3d0280abeac16938bb5c0ab54eb5b12f5ca0cc99982396"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/command.tsx",
+    "sha256": "b025b0546491b33d4a9ed8fa825191ab849155504fe8c0e79d8c6a140a65167b"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/copy-button.tsx",
+    "sha256": "9fdc5a6302c9aa961c792ffc61c4d50d50bbcc48b1874f7c4e898b51547be269"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/data-grid.tsx",
+    "sha256": "355bcf0ba5577e7877c7971a67575b126dfa6cff7523144babe8ab3b3da6be69"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/data-list.tsx",
+    "sha256": "00f7237eb05c6280a0d902dba9409d042a4554e45b89a32a759045793b70ebfe"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/date-picker.tsx",
+    "sha256": "c11b9f1a87a88b611c7afac0788e50a920936e733dd22ac2c72c5d6e5c34181d"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/dialog.tsx",
+    "sha256": "ce080e283f5f48476ba2df974f785498789097d7848c3ca56bccfdd5057e63de"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/dropdown-menu.tsx",
+    "sha256": "d5d3aa016f31683f5aafd44381444a9a7d6bef703d6d2ffe2f4ff0398d6b2e1a"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/empty-state.tsx",
+    "sha256": "c040c8cd036cdc7c9fb12cbc56034ad7c6166879f9b336fa0f826fb0244111b5"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/field.tsx",
+    "sha256": "b6cf1235ce501736feadf419154141f24fe8dda7e040048dfe8da2c4b30e5fca"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/filter-bar.tsx",
+    "sha256": "fabfb681b0a169741163d44792be6af7b0a584a0f52a48ab2c96ab3f9d350cf0"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/input/copy.tsx",
+    "sha256": "f0988621abdd1cbc478b7dd8b8624108034a3cef204a264396ef3a01d475aaa3"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/input/number.tsx",
+    "sha256": "9597e219e77f7dd1572a5f6fb41c3726421acdf65ab2d935cc511d53ac41cd78"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/input/otp.tsx",
+    "sha256": "fc58c8a05768eb31db2d7e0b8b718904690455f04d2dd224f580c2a2feb8f7b1"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/input/parts.tsx",
+    "sha256": "24e0bf658513613ffa8bde1e2775dd7546abf9ae6dfe27e64d88f7c4186d14ab"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/input/password.tsx",
+    "sha256": "23a21b37a72a989cef3d5488eda29ab3fd2422e338e00631cbb3bb7ebc6c1262"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/input/search.tsx",
+    "sha256": "b72988f5c87c40b8a177a0b394e510c2f98f737f474b03c5e9cde76c034b39a0"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/input/secret.tsx",
+    "sha256": "fcb3512e38b9a32601b34b4a66d98666dd3cfb33d3e15995fa7f95cb648d1673"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/input.tsx",
+    "sha256": "d4374139af344ae09a63a2fb3da56f8534247111c19095438992a28d305b5b4f"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/item.tsx",
+    "sha256": "2021184d67567b834d052f8829252edf4af43e9c0d71a8cf3268c8ab6c1ac2b7"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/json-view.tsx",
+    "sha256": "1ac35f088df434b868555a5ea48a2bbb853462789e4a0d314d18c85b7a321add"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/kbd.tsx",
+    "sha256": "787f634ede518331435863e2e70261252a35b849564d9bb257d273ac2fa65fae"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/log-viewer.tsx",
+    "sha256": "cad1cd3a68fe3ba631bcc745051fc69fc9b3850f1005def87545c2e5883acb99"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/page-header.tsx",
+    "sha256": "2b4b3d654fdf8967126fb4b0d81f4c1e48ec8964ca8c0536d7b7ff136a4ab8f9"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/pagination.tsx",
+    "sha256": "93136448d1b24e6b7cc0e0de7ab0377246d93da5cf5e59db649932db5e0bd167"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/panel.tsx",
+    "sha256": "d0d35b1f7290e36990b5b5acbeb65f94145c611f29ac5fe3540b6e97e54e2a19"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/popover.tsx",
+    "sha256": "92d31b3816f7483ec0e605bca393b42159f0c82589f6202be147acd301b155c9"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/progress.tsx",
+    "sha256": "733cd78275b9156f6b6d354eefc8458d9250b11233052c3fe22b5bfafaeb6ef6"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/radio-group.tsx",
+    "sha256": "a608150cd4bd3782e54cf25826b6cc0e4999dadae8f9aad82493316b35157604"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/relative-time.tsx",
+    "sha256": "67cdb9d18181696d4e2c1d581bb56a3470c6631d34c7247d95e7ec6d5990a47d"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/segmented-control.tsx",
+    "sha256": "8a7fed35ec452746a1ca6019730a3290eaa1d89d5da18c26fc1390c4ebf4be3b"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/select.tsx",
+    "sha256": "49dcb1ca6b6682c6e4ca2be73968cad5d4c970a6d3668149e103f48eb5766f72"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/sheet.tsx",
+    "sha256": "31032c4d4448063561056caf78b487b0dfcd71c6d0e2f9b95c9afb4972fd8810"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/skeleton.tsx",
+    "sha256": "1339f4c9027aae4002e42b770d6737c6e27a5bff570cd7031beb901e03795d3c"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/slider.tsx",
+    "sha256": "77841ed9f9ac464a37a424a203b44cacff1b11a4fb465d3dcd0d7d3a1cae593c"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/stat.tsx",
+    "sha256": "08eefa1cf43ee72d46942922b728ec09c232807c0efe3abbda6a51af14ccae96"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/status.tsx",
+    "sha256": "c8bac1bf95fe7804f0cc799147b626c4199b1be5edbb5e1adb7634c32fcd5d14"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/switch.tsx",
+    "sha256": "f2154489b5227f93dcb4fc8b660bd771afa4c3407509e962c5804a7a47599871"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/table.tsx",
+    "sha256": "2186eb4b9f207b2c38b0f4b901e902cd6c8e1b420a394cf89d1e6a1d3162258d"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/tabs.tsx",
+    "sha256": "49b8075e2fb16e14abae2a5cba5b8b1d70d4457309afa85f0fdc5e6542b83589"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/textarea.tsx",
+    "sha256": "709e406aa21ab278f3a09b94069861e0c627cb551daf036699f50b6f0728699c"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/timeline.tsx",
+    "sha256": "ccc39acfad421210486b14ef7f427c8e50c1f4e62ab9757a75fecaf262916af3"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/toast.tsx",
+    "sha256": "4dbfae8aaaa57f9a55deda1dffeab8a2832df5dcbe9e11ec45f95bd70856ffc9"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/tooltip.tsx",
+    "sha256": "6727916d5e8a8a126f3311d30c681072814714e017eec9d49fee3b7131bc6f2d"
+  },
+  {
+    "path": "design-how/quartz/src/registry/quartz/ui/truncate.tsx",
+    "sha256": "83e675663a56a8eeab18a7c4639ff917711ad7f3905fed9a261b14575b90e036"
+  },
+  {
+    "path": "design-how/lime/components/accordion.md",
+    "sha256": "5fd0daa69144b4240089af4e0ef72c01c9dfc1ccfc023a2359be1e8fab594d5a"
+  },
+  {
+    "path": "design-how/lime/components/action-receipt.md",
+    "sha256": "06005db5698c01c85473d4215ed1b3a493fa95c1a9cc073e86bd5d97052012c1"
+  },
+  {
+    "path": "design-how/lime/components/alert-dialog.md",
+    "sha256": "c086fc0b568a62797df52493ca145531ad1dfb49dac1091c274a00a2fbe27b71"
+  },
+  {
+    "path": "design-how/lime/components/amount.md",
+    "sha256": "fe0289f29613e105124c4622532b56d6b50657a2e6c09bdccedc9f426641043b"
+  },
+  {
+    "path": "design-how/lime/components/approval-request.md",
+    "sha256": "698daeb0c0297c81dca991830e7cff9c4302eb2faa3a6bfb6158c1b7894f96ec"
+  },
+  {
+    "path": "design-how/lime/components/autonomy-rule.md",
+    "sha256": "0940d25716961d62e0080b9b025ce388953a62204418d722c3bf94b24ab11631"
+  },
+  {
+    "path": "design-how/lime/components/avatar.md",
+    "sha256": "805da860710e93d3c2682c907fe4989c6cf61273c135595b63c0bfd7218fb5f8"
+  },
+  {
+    "path": "design-how/lime/components/badge.md",
+    "sha256": "71a417a35b66b9396ba45480057106f84950d2104761b3f831bdcd4810a78a01"
+  },
+  {
+    "path": "design-how/lime/components/balance.md",
+    "sha256": "36e65dcd3b902a1948c783be1dd006fc04fe443bdeadc2b951200810098f48e1"
+  },
+  {
+    "path": "design-how/lime/components/bill-schedule.md",
+    "sha256": "90d1ce471ad5817a09cb915c1ab1e6f3d64b043d01523037f9dee93395075976"
+  },
+  {
+    "path": "design-how/lime/components/button.md",
+    "sha256": "dc0ebc63ee7dc6b56865be2d3d17d53e2aeb9c6a66f680b257d2a0f44a8ee243"
+  },
+  {
+    "path": "design-how/lime/components/card.md",
+    "sha256": "bce45a43392eb36a1b2bbc10ba5584d1c3bc165b6d9e271ff1e4616b76b613e1"
+  },
+  {
+    "path": "design-how/lime/components/chat-input.md",
+    "sha256": "44d253ec95845c53a46facaaa3c8c0040cc9a117c6cd5817cfa1f57ab0994e1a"
+  },
+  {
+    "path": "design-how/lime/components/checkbox.md",
+    "sha256": "f42eaa918c33bcd4ac8cd8115baacfe9b4767e581a825d70db3f63eb3efc7c16"
+  },
+  {
+    "path": "design-how/lime/components/chip.md",
+    "sha256": "da45bf6a1407fcd39ad18a46b93ec693f84bfedf84bd16087ef556abd0bb7279"
+  },
+  {
+    "path": "design-how/lime/components/combobox.md",
+    "sha256": "6c0f382984afb0beda255273809915bd552dcaa8d939995ed688e94cf2e08c58"
+  },
+  {
+    "path": "design-how/lime/components/copy-button.md",
+    "sha256": "b537c4cee99dc97d78c519d124db25c9b1ba8bf2835672e492e811900bc6ea6e"
+  },
+  {
+    "path": "design-how/lime/components/dialog.md",
+    "sha256": "7535d984d0d79bc8594bc7c738cc62532f1d4897032809d33bbaa73b0b571b44"
+  },
+  {
+    "path": "design-how/lime/components/dropdown-menu.md",
+    "sha256": "847600df5d1c2b7ca7de9ecb40caba4fa95346222394a20ab178bbf6e52f4d88"
+  },
+  {
+    "path": "design-how/lime/components/dropzone.md",
+    "sha256": "891bae5cb8e1032ca7cc1b9913b14a709eb65bbfb9b0a728dec99c72c0f5b3f7"
+  },
+  {
+    "path": "design-how/lime/components/empty.md",
+    "sha256": "49995298158c2a980406c31e366ba0896ae587dca0220af518bee5a9848f228b"
+  },
+  {
+    "path": "design-how/lime/components/error-state.md",
+    "sha256": "fefcb71e997dc1db00c538dc3153441061d0c82d39122b890c4d365a1ee24cad"
+  },
+  {
+    "path": "design-how/lime/components/field.md",
+    "sha256": "45ae1cab04ebe344424f6c1ffeef3768e9f3ed02a6cdd5b31244a17bdfe39c82"
+  },
+  {
+    "path": "design-how/lime/components/follow-ups.md",
+    "sha256": "c2e2ab338343f840d5d04619cff86c5b016ef88870222a2456e61c62cfcd6079"
+  },
+  {
+    "path": "design-how/lime/components/input.md",
+    "sha256": "13bfaddce0f869fa2c3c17dfc18aec020e08de2f29d51df352d1aa7478a5ec2f"
+  },
+  {
+    "path": "design-how/lime/components/insight.md",
+    "sha256": "3b48502e606ee909d366821a50501c219e726a03055bb884dc21c89811fd8903"
+  },
+  {
+    "path": "design-how/lime/components/keypad.md",
+    "sha256": "2a8812c16bbeddfb486466d90493589afabe85f1cc8facb319f78b157a9a24d9"
+  },
+  {
+    "path": "design-how/lime/components/list.md",
+    "sha256": "6fb4af44e29c658599e0dca00854ebff9bd637dbad0db2ac5b488ec01994d329"
+  },
+  {
+    "path": "design-how/lime/components/message.md",
+    "sha256": "b532614ab842e3ff969840e5e1ca92b2d6cc0ee91f2a7d0d9d7d0681c9ed8aff"
+  },
+  {
+    "path": "design-how/lime/components/popover.md",
+    "sha256": "ee5da284e5b936120c909dfc96bc097a1a1b52a7a0d8b202c072a5a315de5069"
+  },
+  {
+    "path": "design-how/lime/components/progress.md",
+    "sha256": "3e87031b3a28b4ad2eae438689d5f362561e6910c58ede300c1c5358b75519ca"
+  },
+  {
+    "path": "design-how/lime/components/radio.md",
+    "sha256": "41b5bf2a0e0c5b7350e2dc28e066e71c9e235a8df84e1ceb93d54c18de9fcca3"
+  },
+  {
+    "path": "design-how/lime/components/receipt-match.md",
+    "sha256": "81d06d5a39dcb7fda204b4a6d70f1717185c01ff620fbf8a13ccc98dae815be6"
+  },
+  {
+    "path": "design-how/lime/components/scroll-area.md",
+    "sha256": "8699a17db81076d020c3955870c53bd948bddf294c1d99349e92622960142027"
+  },
+  {
+    "path": "design-how/lime/components/segmented.md",
+    "sha256": "350217cdc5bde2d4926cb4e64646c92e9795ee948ba9be01ef5f78e4ea3f00d5"
+  },
+  {
+    "path": "design-how/lime/components/select.md",
+    "sha256": "6665801bbb5a11d0362c050df833b20249bd46dd9be35493f588a7b605ca670d"
+  },
+  {
+    "path": "design-how/lime/components/separator.md",
+    "sha256": "57c9e6a01cd0f64939c8933680a524fe4fe4d6db1b57433a997091fd2dd855cb"
+  },
+  {
+    "path": "design-how/lime/components/sheet.md",
+    "sha256": "3c37d105b9575dc145d9f7a4df11424e46af02467acabb55284d9bf4bc9935dc"
+  },
+  {
+    "path": "design-how/lime/components/skeleton.md",
+    "sha256": "7e0030f238ef313bcdda2add76130835be0f0a9b6fc8b5ff630c8aaf04a15a6e"
+  },
+  {
+    "path": "design-how/lime/components/slider.md",
+    "sha256": "28282d7f302a15eafb366d717faf89b93c665c9c90a3cb2b8824e7c394e2a512"
+  },
+  {
+    "path": "design-how/lime/components/status.md",
+    "sha256": "e49dbcb5949e595cdbb2b55bdcf6480f2653d8bd05e73a7c0f8c3f532ef8e45b"
+  },
+  {
+    "path": "design-how/lime/components/switch.md",
+    "sha256": "4f3c5d60b6cc4f76f517477247d72164b63f6a76aec231771c3e1e4499c30b8d"
+  },
+  {
+    "path": "design-how/lime/components/table.md",
+    "sha256": "77c7b2d5dcf29c116dc07f6cd53ea189d2db6a6e2cfe7574835548b5b605c2a6"
+  },
+  {
+    "path": "design-how/lime/components/tabs.md",
+    "sha256": "653bdbd54dc73868568f1aedd8dc361e86dbee9e4c8cc9ae4f4b1d47ca042c60"
+  },
+  {
+    "path": "design-how/lime/components/textarea.md",
+    "sha256": "c490d3c6ed570e63afe0d32d224be899271c83e5317eb635587dc8bd0373ed45"
+  },
+  {
+    "path": "design-how/lime/components/toast.md",
+    "sha256": "d35677a65ab14d5cf11cdd73a632fd6ef99c3458306009a4fcf5c3e940ef8db8"
+  },
+  {
+    "path": "design-how/lime/components/tool-call.md",
+    "sha256": "31f431f3fd6003f1dd4b4fdec7bbe3f527d5804fe23ed5bc8593d0ae5032d67e"
+  },
+  {
+    "path": "design-how/lime/components/toolbar.md",
+    "sha256": "3e4dc254e6e67a61d08585aab71e401335b2cb60eb93786c3fb93cb6f8c4d759"
+  },
+  {
+    "path": "design-how/lime/components/tooltip.md",
+    "sha256": "31fc8e6b7d870964c78bb829d3732d7fa2fb7b5a4701a293db7bd6403a4769b6"
+  },
+  {
+    "path": "design-how/lime/foundations/anti-slop.md",
+    "sha256": "1efdcfb136b2a536c8431bb49b15ea5430647802517409e1bf426bfe8db2044c"
+  },
+  {
+    "path": "design-how/lime/foundations/color.md",
+    "sha256": "41e510338b854ba61243332a44cd7f061bdfe9fdfd8faa4b1c818c51e0e15110"
+  },
+  {
+    "path": "design-how/lime/foundations/elevation.md",
+    "sha256": "af996540e8596206714945409cb47f0c6097a6eae80c5870da45f169ee41c6b0"
+  },
+  {
+    "path": "design-how/lime/foundations/iconography.md",
+    "sha256": "11c9b6f01ae806b495e79604343e49369bf91028f04aa35ef69058e4f03e61dc"
+  },
+  {
+    "path": "design-how/lime/foundations/motion.md",
+    "sha256": "0b548fd7b25308d5885afe43ed393c062480da00f75f0f6051f49e25e3a8eaef"
+  },
+  {
+    "path": "design-how/lime/foundations/radius.md",
+    "sha256": "0fd0138156a2ac03497bcea63fe4a6f373e4d1e3aec38b3a6044afb684b19c6c"
+  },
+  {
+    "path": "design-how/lime/foundations/spacing.md",
+    "sha256": "78ad31b1575146e1ea79c436cd22573dd3293c3d2441cb63d51ee7b1064a6c47"
+  },
+  {
+    "path": "design-how/lime/foundations/typography.md",
+    "sha256": "c5a7439dfd2449024ef567ea255223e96c39a4fe81790a5e26796210aba8b512"
+  },
+  {
+    "path": "design-how/lime/index.md",
+    "sha256": "8caac7e4c8989be85f1d5d320821a2589ca74bb789aadeee47f000027a475c99"
+  },
+  {
+    "path": "design-how/lime/registry/index.json",
+    "sha256": "46a66f048928adcbe3bf9db1bd7e2e125e09f9d18b76e77dc50eaaa1bd239e4c"
+  },
+  {
+    "path": "design-how/lime/registry/items/accordion.json",
+    "sha256": "7cb9d635fae7b9412834399e8e9c8419ddc52f82a23b211da914f863e1057f8c"
+  },
+  {
+    "path": "design-how/lime/registry/items/action-receipt.json",
+    "sha256": "ffe8c8d53149ac43b6013e54261816a1328f8731a1f58d0c2c485e1a31955939"
+  },
+  {
+    "path": "design-how/lime/registry/items/alert-dialog.json",
+    "sha256": "2fb58a886148e4e4107ae8663441fc14ff01b3908631964e428ccf5cd7c1f62e"
+  },
+  {
+    "path": "design-how/lime/registry/items/amount.json",
+    "sha256": "49c7dc781a74c63a973bd7e16d8929431d68de9b72fffda4d276f295739a5e00"
+  },
+  {
+    "path": "design-how/lime/registry/items/approval-request.json",
+    "sha256": "fb8b30a0c8e6b264a1819eab2d62b0489cafd6d859bb448ccf80adff254b4e53"
+  },
+  {
+    "path": "design-how/lime/registry/items/assistant-alert.json",
+    "sha256": "29c5ab72e355f5821ac8540785947766a050eae71cbc8826c5a3cdc50eac4ce7"
+  },
+  {
+    "path": "design-how/lime/registry/items/assistant-approval.json",
+    "sha256": "305a06f67aee348690ca790763fb0116da38c313b5148859e7000b2fec1928e5"
+  },
+  {
+    "path": "design-how/lime/registry/items/autonomy-rule.json",
+    "sha256": "de4109eaf6c163b2e5657dcb593680c4890362f50578d9bccb63fdb92f454c61"
+  },
+  {
+    "path": "design-how/lime/registry/items/avatar.json",
+    "sha256": "bdfcc5dfbfe61c93252f0b9f8c0d934b2cc63e98f9165e09d786d4fab6375121"
+  },
+  {
+    "path": "design-how/lime/registry/items/badge.json",
+    "sha256": "57893179599bd129d37cf0804799df255e11cba483d389f400caa00d4d2724ed"
+  },
+  {
+    "path": "design-how/lime/registry/items/balance.json",
+    "sha256": "3058ff9c4d5cc3b79b73c7e40cdea4c88f68840b9bbcaffec7ffe6080aeefab0"
+  },
+  {
+    "path": "design-how/lime/registry/items/bill-schedule.json",
+    "sha256": "58ec79c9e95150d77af3a79044210a082e13e453d5d02e301872b394c16fb642"
+  },
+  {
+    "path": "design-how/lime/registry/items/button.json",
+    "sha256": "0dc1d96cb6291fb5a548acb69bdb8cab4387da3cdb69f5ee2a3ff8b40c692297"
+  },
+  {
+    "path": "design-how/lime/registry/items/card.json",
+    "sha256": "72331b4a3f3be1722a226f73824856ba68211f77b2e6243f0d6b1fba12106021"
+  },
+  {
+    "path": "design-how/lime/registry/items/chat-input.json",
+    "sha256": "a381c58adbdfc692ed17a9f4142b2c402485e7fbcd34b8c4ba73d68642ef8190"
+  },
+  {
+    "path": "design-how/lime/registry/items/checkbox.json",
+    "sha256": "0a39302b5d08e72ab4c91744cba2cbe6d189585d4131aa5214796ecd3133a491"
+  },
+  {
+    "path": "design-how/lime/registry/items/chip.json",
+    "sha256": "17971db1522af09b6c40ac8478d4b8165155cf4e42132df981ec4f3dd597267c"
+  },
+  {
+    "path": "design-how/lime/registry/items/collapsible.json",
+    "sha256": "44658cc068857f3e18189eabcc212bc844947c7973d0147d8f60fc8a8ffe1547"
+  },
+  {
+    "path": "design-how/lime/registry/items/combobox.json",
+    "sha256": "5c0389aae036d2f839630137b23b2a6c57f1839fd564d11647808b87bd5903f4"
+  },
+  {
+    "path": "design-how/lime/registry/items/copy-button.json",
+    "sha256": "8c35dcb3a6f40a52439ac5aa0562850ab1c2866a64c75d57e0db49000d578fcc"
+  },
+  {
+    "path": "design-how/lime/registry/items/dialog.json",
+    "sha256": "c9865d65a8988820e42ad0ed1e9166144459aded8ced82130de5d7ba5aadffc8"
+  },
+  {
+    "path": "design-how/lime/registry/items/dropdown-menu.json",
+    "sha256": "8deda00b1011eed95a8756a97faa04e08211a4edb9dd34d7f3ebd702065a4ed7"
+  },
+  {
+    "path": "design-how/lime/registry/items/dropzone.json",
+    "sha256": "6b9a23aa0a7ad1552e231884712e16ecd08f0c08bae6f0c7cfa65d8a875ef30a"
+  },
+  {
+    "path": "design-how/lime/registry/items/empty.json",
+    "sha256": "f7c9dae924dd43a96c80e99f96c6e8248be4da0591624080c15c3d7c804b08ff"
+  },
+  {
+    "path": "design-how/lime/registry/items/error-state.json",
+    "sha256": "8b760887aebba043bec3e8fb631459457b37501a9de166ff9c7dec7ec89821d0"
+  },
+  {
+    "path": "design-how/lime/registry/items/field.json",
+    "sha256": "d26c2cc187b869ba744d0fdf8ddc591649e9c562c4b271635b235f288c4fb153"
+  },
+  {
+    "path": "design-how/lime/registry/items/follow-ups.json",
+    "sha256": "40f44f8da66b123155fd082a27b235de70061dd02d9679d9bc85748864776977"
+  },
+  {
+    "path": "design-how/lime/registry/items/home.json",
+    "sha256": "d24721b31093cd1b4087c5f06873ede9bde3a17584c8d8238b5188182f9f109d"
+  },
+  {
+    "path": "design-how/lime/registry/items/icon.json",
+    "sha256": "9f393e54f5355e982fcf5566844d74684ed80be13b2e594076ff74b0fdcfb379"
+  },
+  {
+    "path": "design-how/lime/registry/items/input.json",
+    "sha256": "c58ec815f780f94228f261f60dfc18680b9066285239b7e4f9604d467b650fde"
+  },
+  {
+    "path": "design-how/lime/registry/items/insight.json",
+    "sha256": "85cc19287b8c46f663e9c703567a8e5382be07104cba9e747d9a66467c8c2938"
+  },
+  {
+    "path": "design-how/lime/registry/items/keypad.json",
+    "sha256": "d4c06b48afc8709aa20012bf6e205fddeb34a1ab2b8cb07e5ccb9cd275ccb2cb"
+  },
+  {
+    "path": "design-how/lime/registry/items/lint.json",
+    "sha256": "857267b77b982603cabe3cf149c4b59acf4a2273d4d9e5438d6794dbe0d4dfa9"
+  },
+  {
+    "path": "design-how/lime/registry/items/list-item-menu.json",
+    "sha256": "c1979507b32d5c30c10d9a8e759a21f625ef67c20ce9dfa006e155e8681551ec"
+  },
+  {
+    "path": "design-how/lime/registry/items/list.json",
+    "sha256": "50af06b6f642aa3e724fa311fcd47565e23f3d774b46c1a7dfc20942acfdd848"
+  },
+  {
+    "path": "design-how/lime/registry/items/message.json",
+    "sha256": "26a4289a7f647f2a7af317a020ca7eca96335837d9f317f43f966b023c65236a"
+  },
+  {
+    "path": "design-how/lime/registry/items/popover.json",
+    "sha256": "643bd0a407140031bebd3e6d3e0e297e2b38ca8e701a91d53bf9f203d2714d53"
+  },
+  {
+    "path": "design-how/lime/registry/items/popup.json",
+    "sha256": "f53b28891c4929478f60bdef101fb628c5ab194e88f976e21ceca1c3f8417a69"
+  },
+  {
+    "path": "design-how/lime/registry/items/portal.json",
+    "sha256": "0a7cfeacc1f7fab4a75b305e8efc6d596581c93a29060d7df80736a60eb51a33"
+  },
+  {
+    "path": "design-how/lime/registry/items/progress.json",
+    "sha256": "806a2907b8f4d97d6047c695aa83d76eb21ed8b8937d8eec56b3edc8be8f32d4"
+  },
+  {
+    "path": "design-how/lime/registry/items/radio.json",
+    "sha256": "29165b4c9a821b9e42364d563d7193ef372b253c73db3b956aa4e3d1b1142545"
+  },
+  {
+    "path": "design-how/lime/registry/items/receipt-match.json",
+    "sha256": "083f27e9ad0ecf62b144120c5ff3d9380530c76fdae2a763fa033066b9470086"
+  },
+  {
+    "path": "design-how/lime/registry/items/scroll-area.json",
+    "sha256": "c641271b31fe4bb328f5e5d6f4ea293a930ac059c1b0eaec374055a50f0a81f3"
+  },
+  {
+    "path": "design-how/lime/registry/items/segmented.json",
+    "sha256": "e90353f7c02fc06c8cb2e8991af9d622fdadfede0e5688e6aedfdf1d81c9fe52"
+  },
+  {
+    "path": "design-how/lime/registry/items/select.json",
+    "sha256": "0017ec5254d14ae1c27718c9fa1b02f302832d1f42b4a47736937c4e9cc023ad"
+  },
+  {
+    "path": "design-how/lime/registry/items/separator.json",
+    "sha256": "4b76d4b15af407feef478bd31c498e9873d43a00059d167489d9b08e55299875"
+  },
+  {
+    "path": "design-how/lime/registry/items/settings-rules.json",
+    "sha256": "c62e489e2d6235fb4e47503d3c49440b70c7575cafcbd39fcfcbd2af83e7bf8d"
+  },
+  {
+    "path": "design-how/lime/registry/items/sheet.json",
+    "sha256": "9a4a480f17fea3cda7a159144cb4840ebeda01ccc22e898a0849441c1aa054eb"
+  },
+  {
+    "path": "design-how/lime/registry/items/skeleton.json",
+    "sha256": "323e95fcf0265e6387ad05a207de51345b70b18bdbfc6d15a3a0296f60cd9695"
+  },
+  {
+    "path": "design-how/lime/registry/items/skill.json",
+    "sha256": "c39c1639b16109b365e0eb0c9acaae1521ce11f374032a57983f08af66935149"
+  },
+  {
+    "path": "design-how/lime/registry/items/slider.json",
+    "sha256": "e898a1131158172beb3a10cf17b4b8a45b5cac51758e8f19c1359d61f836795a"
+  },
+  {
+    "path": "design-how/lime/registry/items/split-request.json",
+    "sha256": "decb8f725f26f85f3d93038d7abf768f0bcb7245781c530c510aa58754442be6"
+  },
+  {
+    "path": "design-how/lime/registry/items/status.json",
+    "sha256": "614473c3a4f6d47b7d0303d1842b68b3d76fb24d1e0c05ed631519c28d74ed7d"
+  },
+  {
+    "path": "design-how/lime/registry/items/switch.json",
+    "sha256": "82c0c70bbe7fb7d1ea6f637020ce749df16e2d53ad37a3daeca7d44635ecccaa"
+  },
+  {
+    "path": "design-how/lime/registry/items/table.json",
+    "sha256": "71c25095eeb619bb41a41aeceecb63e7ad75f7ca9d1aeb2b3eac0d54cac346d8"
+  },
+  {
+    "path": "design-how/lime/registry/items/tabs.json",
+    "sha256": "f64c3887d8267b001ceb85bb37b63bb84ce5281020a9bb23abff890a914b3fc7"
+  },
+  {
+    "path": "design-how/lime/registry/items/textarea.json",
+    "sha256": "0c7ee7f36576d1a6df276ba1dd12bdd57945ee01c63219e2c9534ca6917efc6a"
+  },
+  {
+    "path": "design-how/lime/registry/items/theme.json",
+    "sha256": "2d3ca283ad560aa63a6c75c48d651abb1c7eafa40dddd2b76f96fac99c73084f"
+  },
+  {
+    "path": "design-how/lime/registry/items/toast.json",
+    "sha256": "16e9f7d846f62a3eaed5d1d209882ea765607d2790759b20db520859f031b42a"
+  },
+  {
+    "path": "design-how/lime/registry/items/tool-call.json",
+    "sha256": "add287c9000bc173d2d8ed748bbbf531116b2510ca9ae50f1aab9b90bdfa8c7b"
+  },
+  {
+    "path": "design-how/lime/registry/items/toolbar.json",
+    "sha256": "80d4ec822c3e2ec2f88e27894db0c3686b5b19d246865697880c08288d76aaba"
+  },
+  {
+    "path": "design-how/lime/registry/items/tooltip.json",
+    "sha256": "86f363de39cc79fedbc2cae9e67f878279dc58dd6286d9c866eedfc00cf4a9c7"
+  },
+  {
+    "path": "design-how/lime/registry/items/use-focus-when-replaced.json",
+    "sha256": "c41303efaa354900ccdcc1e2cd161234f49e5933b8a1dcc7bc35c952cef91db9"
+  },
+  {
+    "path": "design-how/lime/registry/items/utils.json",
+    "sha256": "9ac6463fb1562bb2ced1e9727b86a843679ecbfc4cd55f7e451094afeabfdaec"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/.agents/SKILL.md",
+    "sha256": "d8c84f4cee2558e72d2c7f9b83341cbc8091274709107d8ae05eabacbb7f5a98"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/SKILL.md",
+    "sha256": "d8c84f4cee2558e72d2c7f9b83341cbc8091274709107d8ae05eabacbb7f5a98"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ai/action-receipt.tsx",
+    "sha256": "af6c7d497eebd08b690f80ce5d20628c0b6ef71af2eaaeedb0e5fbe44cad48f2"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ai/approval-request.tsx",
+    "sha256": "98c94542bf6ba9ed47836a057edcbe00f6a21d8f52e7786849a7408d88e309ea"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ai/autonomy-rule.tsx",
+    "sha256": "7bc778286a28a890a316a91ca2fcd67d6103359c0028df21c676d5e299252b30"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ai/chat-input.tsx",
+    "sha256": "12e586b89ac7a6345297e1200d7846de396a50421853c557234bcbd84ca8ae3a"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ai/follow-ups.tsx",
+    "sha256": "0f25420196e93f9461a5e22e24b8adb8d222e545d420f22db9e7151d0a2d3f25"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ai/insight.tsx",
+    "sha256": "3acf7546a4e9ccfd72ec0e8255f06509a7e3ed06e16f15ffeb6aba9a6d89d336"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ai/message.tsx",
+    "sha256": "8863548f06154a5864c1de54eae6485f7346b20e99d41cb7163492e69b528b05"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ai/receipt-match.tsx",
+    "sha256": "93cc1f8361d427cde7facaf4c87932770da1cc954a327c21cb410fac2ea1fc8d"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ai/tool-call.tsx",
+    "sha256": "c4afd600704684a4a226b3db3b1ce21f9fd97cfb3200da1dffb1081410bb9119"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/base.css",
+    "sha256": "cb3a2c87c9dd07cd81f73b815334675ca830e41df8d9d3f48702b44f12bbc16c"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/blocks/assistant-alert.tsx",
+    "sha256": "1b2b9ee01ba8fa6ca024f90780a6f379987f9261bc7247748bad298b4f9b581b"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/blocks/assistant-approval.tsx",
+    "sha256": "b72064ce6302ea9bc8ab53334a11a2eddc20e7b2a0a90410dc33e12bc97d678f"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/blocks/home.tsx",
+    "sha256": "7a10201a0181bb259f099746db90228e398195cf720ae572c530ca35fdada927"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/blocks/settings-rules.tsx",
+    "sha256": "3e5aa4b8bda30094a5268548d3066839f855a14822e69d9d5ee1d26e9b2629bc"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/blocks/split-request.tsx",
+    "sha256": "8d7a38a065f2a145b9ae8af528e5df9b024368e6691464b6e16db7cb3f4e6707"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/icon.tsx",
+    "sha256": "1104525b9235068b3ff2e6288eeb9a1e599d4d3d6a5b92759e4ce732a7d9f755"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/lib/popup.ts",
+    "sha256": "c54c3d5515790dd5446482e77dcffb176ecfc95af573ed62fc83c1b8df02f578"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/lib/portal.tsx",
+    "sha256": "1c964c85922b9b67412308e0031e3a16874fbde0114273fbcdb9188e0a40acf3"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/lib/use-focus-when-replaced.ts",
+    "sha256": "b9df6c48cbf89fbedeb784fa09a060272a2dc39581189d80d80ce3ed73efaf1b"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/lib/utils.ts",
+    "sha256": "57edbd2d30fbc7e186dd157a5f64e9eb5d855557e8caca70bc9ec905d7fb196a"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/lint/classes.json",
+    "sha256": "62ebf3aa6fb73e5ee7aeed167b95dc4cd7ac202d3a48d673dda720fd121005e5"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/lint/core.mjs",
+    "sha256": "d4e76ad9ce5e38efcd9c5a4fa53a595899da894d31b67bdc535f54a88ee17fa9"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/lint/eslint.config.mjs",
+    "sha256": "e2a2632ead538f405f3562d54eae6ee42fb16a65abed69e62786172c6bbede25"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/lint/plugin.mjs",
+    "sha256": "81dfbaae3ed8015e5d0ffe64779dde6ea9ff85e0ae21e3cbc47b8f0ed746b378"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/lint/value-rules.mjs",
+    "sha256": "eda25a705f07dd795c29c837fdf1271f3e0bcafba1f47ad9207b59933df2658d"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/styles.css",
+    "sha256": "ba738bf80b1c9b66675d0b79f4bad75bb0dba45aa384e043ef46e9e3fed31fb9"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/tokens.css",
+    "sha256": "abc23258c4bfe521621cd2f18e7bfebafebc4883c0a865385cd87c6c1744a500"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/accordion.tsx",
+    "sha256": "7854d3487708a866bf86a4966dc75f41be6c90b9cdd6cae19e2a19dcc18f880c"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/alert-dialog.tsx",
+    "sha256": "d696d8691a72f268fcad3677305f532070a02d59914c587a1cbd4e3777cb92f5"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/amount.tsx",
+    "sha256": "e02862b9e0d5e7f5345c85ced1f05c1ef1aa051bb0f5db6f3e3cf5cf8199b49f"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/avatar.tsx",
+    "sha256": "e4176ee0160af915f51c513d2d262681fdf8a8b4a08a92724f2a0b91edcd842d"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/badge.tsx",
+    "sha256": "b2bdbbc3c22b85d66aad942ef678ae28117831223072cd6079e9d8e3b35fbdca"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/balance.tsx",
+    "sha256": "f1f3dfd0076b5a3d6ac0d686b3e0b7af1b4cb6e905ac4f5f1de6b02979a7c2a7"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/bill-schedule.tsx",
+    "sha256": "1b1321d8c986532af8579b5708f54afd9e2f3b5346aa759ccb31f29cf575a554"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/button.tsx",
+    "sha256": "f75160a6751573f1ddb64a35ee21d4c43c4d7c520cadaf30c69e3866f07a5c79"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/card.tsx",
+    "sha256": "466c0e85c4de4706b9ec62f4d2368109a8ef9c0df1958ef3271b213211627959"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/checkbox.tsx",
+    "sha256": "c416517abc44f168aa7f0a8001c256d8098d9b2947c9f21cc04cbf94f6b09592"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/chip.tsx",
+    "sha256": "a63adbf4164e50e60710c2c096651197d22a461e8ab66396737a72ea2d10c3e3"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/collapsible.tsx",
+    "sha256": "455873979934e84959f345b19c50a1d5360d9e70255bcb0a492380d05a843a21"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/combobox.tsx",
+    "sha256": "cceedd0bef94a763475189c3ae6c42cf6abba982785a782b52222cc0020463a0"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/copy-button.tsx",
+    "sha256": "7997881ae044a19408d45ba59566d315f164ab645086aec8e78638f50434eab2"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/dialog.tsx",
+    "sha256": "51c079baba1b3d44f4ae73010fa44aff807e42270a434e57c63104d1220270ed"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/dropdown-menu.tsx",
+    "sha256": "fb7ba793b6e11e4611cb829e3fec18044a7b635e072bfbc3e034011e09c77830"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/dropzone.tsx",
+    "sha256": "e04e3f0a1fa89e757fbda67d613a441b39ac2bd2a1f19399e8cf030ceb648dab"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/empty.tsx",
+    "sha256": "a6bcb01aa1f69b6cc2a1ad0ac55c97472eda258f4540145c9416e266e99077a7"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/error-state.tsx",
+    "sha256": "18fec45d16bf13d92c5d5f78919831b81f7279a6a3917c32447f0a982f9cac53"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/field.tsx",
+    "sha256": "526161e32039c0d540241f837957892a2133d025cb1708b860daa011171adc0d"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/input.tsx",
+    "sha256": "f16f025e4c384c8db63395d12146d817bda937b55f425c6a3aeed1d4f624bbf2"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/keypad.tsx",
+    "sha256": "a1396e0ea2f242efbb4adb426e0ec6d24aa81f251f5c6793b6147bc5804bbe1e"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/list-item-menu.tsx",
+    "sha256": "7193514e7a7409258c3a8453aa4841a87c0338d1dc58f96834993e1affb51360"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/list.tsx",
+    "sha256": "9b9119f381799d224183e37a9221a0273e1156e7ac6c70edbd1fb1ba86c875b7"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/popover.tsx",
+    "sha256": "642425f6e99a4c9c0886840253b6aa058a7a6576218785fc182fff568dde4f9d"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/progress.tsx",
+    "sha256": "dcf36370183a88288f4b14f1026a22002cddef794c8d9ba6c5bba77da9a4a5fa"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/radio.tsx",
+    "sha256": "7b1ba8d73b01c8d7d0c8d7519d40b04992dbb92a8a59de387f7c26a83cc9d600"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/scroll-area.tsx",
+    "sha256": "0320180e2548e4c5d6bc34632bcc3ce154b3cce5805d626f0ebbbbf4b52978c1"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/segmented.tsx",
+    "sha256": "447391e2bee2f0a24122aa7ac7196d8ca91b7e34bb9e20df2d4e9f6defea9027"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/select.tsx",
+    "sha256": "81bcf755aa70a18c8d82a8701d33b1b4da60200a532b8e8655731cb5781b7b19"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/separator.tsx",
+    "sha256": "cd0fd0b283180926aa6bade93a5667e024ee7fedafd1520e79053e5f9ca80ea7"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/sheet.tsx",
+    "sha256": "bf0394007b5ce62587c481f3e0be5a78f27072a5d4ec87f3750f7c141fc2c8fb"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/skeleton.tsx",
+    "sha256": "5b81a79e0df7578fbe12814387d6592708b3b0100844e3bca8296b3bd754a58b"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/slider.tsx",
+    "sha256": "b0c2eba0189f308cb1c2414632d8a225c1981516009083afb14a7c3b2850a3cc"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/status.tsx",
+    "sha256": "5bfe85c8f29d8846c930b0f426f3f05e0d78d39c05ae54d2fa6298d73319e540"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/switch.tsx",
+    "sha256": "30d34c4efa1ce50adea82d5477ad02b1576659b89aa2614b94cf20ac899d874e"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/table.tsx",
+    "sha256": "96e10cae5016b12825f081ea5021f968d443ebcaf3a3ca77f82a23fa2fd1e9ac"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/tabs.tsx",
+    "sha256": "9ab4740ccf8657dd933fbb36216d68b4d87d683fd8c26a444d20d047d20b611e"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/textarea.tsx",
+    "sha256": "19c9764945f8d16dc621445c8d194769529f72aed668fda233b5b42e2addd11d"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/toast.tsx",
+    "sha256": "d09a2a62b70343c6b490b3f6bacc77f32bdf50d18ca1ddd418fcdae3a435c840"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/toolbar.tsx",
+    "sha256": "fd0ff7e8cd639792e8275b9812e3fcb41c416db58791fdb1dcd8d4810565104a"
+  },
+  {
+    "path": "design-how/lime/src/registry/lime/ui/tooltip.tsx",
+    "sha256": "6b8aa713b749a7dc573fa5796446488eb15f7fccc9d05dc5bee470c9325225a7"
+  },
+  {
+    "path": "design-how/guides/anti-ai-slop-ui-skill-checks-its-lint-runs.md",
+    "sha256": "39324e4db7e4f718f1e2ee28f907935c5dd13d6463321f26db2cc1bc4d0bcad7"
+  },
+  {
+    "path": "design-how/guides/approval-ui-for-ai-agents.md",
+    "sha256": "84d5b6bca38ba8a7cb01b53de9cd437a01627faa0381abded5dff143c2a1ada6"
+  },
+  {
+    "path": "design-how/guides/give-cursor-a-design-system-in-one-project-rules-file.md",
+    "sha256": "5108caeb3a5a74e239493f068a91cfc5329ef8d4c5be5fde9a15ba2a2ae50004"
+  },
+  {
+    "path": "design-how/guides/how-to-make-claude-code-ui-look-better-in-five-steps.md",
+    "sha256": "725d54058a0aa2f8aca278ebb69889bc728273d1b3800d2914900445a9e8246c"
+  },
+  {
+    "path": "design-how/guides/index.md",
+    "sha256": "1e72cc86a0f97a4ff2331bacdff41e3a2bef9b2d934447c62533072d92325dc5"
+  },
+  {
+    "path": "design-how/guides/lint-hardcoded-colors-in-tailwind-with-quartz.md",
+    "sha256": "4e3a4f65de0a6a95ccaddabc576c725be8f1c6571c74bd810d3248d7fc2744ae"
+  },
+  {
+    "path": "design-how/guides/name-tailwind-4-semantic-tokens-by-their-job.md",
+    "sha256": "f819608be5789db15223682289818ba749d57b745b1bf10a5776aadf045b6bf4"
+  },
+  {
+    "path": "design-how/guides/shadcn-theme-for-ai-chat-app-install-lines.md",
+    "sha256": "2fadb8c36725d4c57eba226e31e95addd26c30a9973c172a19d296ebd4747832"
+  },
+  {
+    "path": "design-how/guides/tool-call-ui-rules.md",
+    "sha256": "0aeaf614c2e71021050b2384e7454880a173c2bb3d2a25aa56def0099952b899"
+  },
+  {
+    "path": "design-how/guides/what-an-agent-ready-design-system-does-to-your-css.md",
+    "sha256": "ee1e2e0bd54185831150ec8cc15c54ed11ff28603e5b075b5a81e0687864e484"
+  },
+  {
+    "path": "design-how/guides/what-makes-design-system-rules-for-ai-checkable.md",
+    "sha256": "fac2bc44c6763fa4ff9621ddcfdc8815a780f06afe966b1558b4c110945b4c9f"
+  },
+  {
+    "path": "design-how/articles/best-design-system-for-ai-agents.md",
+    "sha256": "c3073e7494dcb7a62b1bd24641401fd463024ef76d7203553ea0b35af9083399"
+  },
+  {
+    "path": "design-how/articles/claude-code-design-system.md",
+    "sha256": "11e0ff7dfe12049d8797faa5dd8a3cfea96754e86954f89630c29ce8213ae296"
+  },
+  {
+    "path": "design-how/articles/compare-design-md.md",
+    "sha256": "35732ec14ca183ce0e84d5c413dc8e787a1ecea0c268772c1aa195bdda239894"
+  },
+  {
+    "path": "design-how/articles/design-systems-for-agents.md",
+    "sha256": "3f4e6a0c6aa445186566adde2f919f2344f6d1dffcb448c8859a04843d1cc3c9"
+  },
+  {
+    "path": "design-how/systems.md",
+    "sha256": "9587a09c3171a5d959267be8867a613003950ef3f9934d3253a912793190f764"
+  },
+  {
+    "path": "design-how/source-index.json",
+    "sha256": "6e19991f9ca1648aa8a8657225da813bd14103df401b5dd760f95ec3b35967cd"
+  }
+]

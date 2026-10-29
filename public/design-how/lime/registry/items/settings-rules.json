@@ -1,0 +1,30 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "settings-rules",
+ "type": "registry:block",
+ "title": "Settings rules",
+ "description": "Payday rules and the assistant's limits as settings lists, one row per rule.",
+ "author": "design.how",
+ "categories": [
+  "block",
+  "settings"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/lime/autonomy-rule.json",
+  "https://design.how/r/lime/list.json",
+  "https://design.how/r/lime/switch.json",
+  "https://design.how/r/lime/theme.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/lime.md",
+  "page": "https://design.how/systems/lime"
+ },
+ "files": [
+  {
+   "path": "registry/lime/blocks/settings-rules.tsx",
+   "content": "'use client';\n\nimport {useState} from 'react';\nimport {AutonomyRule} from '@/components/lime/ai/autonomy-rule';\nimport {List, ListItem} from '@/components/lime/ui/list';\nimport {Switch} from '@/components/lime/ui/switch';\n\n// A block: settings as standing rules, one row each. PaydayRule is what happens to money on payday,\n// AssistantLimits what the assistant may do without asking.\n\n/** Payday, as three standing rules in one list, so every row shares the list's padding: a title, a second line and a\n * switch. The first rule's second line is an inline AutonomyRule, the amount to move editable in place, one text line\n * tall so the row is as tall as the next. No glow. */\nexport function PaydayRule() {\n  const [save, setSave] = useState('200');\n  const [onPayday, setOnPayday] = useState(true);\n  const [roundUps, setRoundUps] = useState(false);\n  const [billsFirst, setBillsFirst] = useState(true);\n  return (\n    <List aria-label=\"Payday rules\" className=\"w-full max-w-sm\">\n      <ListItem title=\"Save when paid\" description={<AutonomyRule size=\"inline\" before=\"Move\" after=\"to savings\" value={save} onValueChange={setSave} disabled={!onPayday}/>}\n        trailing={<Switch checked={onPayday} onCheckedChange={setOnPayday} aria-label=\"Save when paid\"/>}/>\n      <ListItem title=\"Bills first\" description=\"Hold what's due before anything moves\" trailing={<Switch checked={billsFirst} onCheckedChange={setBillsFirst} aria-label=\"Bills first\"/>}/>\n      <ListItem title=\"Round ups\" description=\"Spare change goes to savings\" trailing={<Switch checked={roundUps} onCheckedChange={setRoundUps} aria-label=\"Round ups\"/>}/>\n    </List>\n  );\n}\n\n/** What the assistant may do without asking, as a settings list: one row per limit. A limit is an inline\n * AutonomyRule on the row's second line, the same shape as PaydayRule. */\nexport function AssistantLimits() {\n  const [limit, setLimit] = useState('50');\n  const [days, setDays] = useState('3');\n  const [tellAfter, setTellAfter] = useState(true);\n  return (\n    <List aria-label=\"Assistant limits\" className=\"w-full max-w-sm\">\n      <ListItem title=\"Ask before paying\" description={<AutonomyRule size=\"inline\" before=\"Anything over\" value={limit} onValueChange={setLimit}/>}/>\n      <ListItem title=\"Pay bills early\" description={<AutonomyRule size=\"inline\" kind=\"number\" after=\"days before they're due\" value={days} onValueChange={setDays}/>}/>\n      <ListItem title=\"Tell me after it acts\" trailing={<Switch checked={tellAfter} onCheckedChange={setTellAfter} aria-label=\"Tell me after it acts\"/>}/>\n    </List>\n  );\n}\n",
+   "type": "registry:block",
+   "target": "@components/lime/blocks/settings-rules.tsx"
+  }
+ ]
+}

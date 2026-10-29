@@ -1,0 +1,29 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "list-item-menu",
+ "type": "registry:ui",
+ "title": "List item menu",
+ "description": "A row's other actions behind a more button, for ListItem's menu.",
+ "author": "design.how",
+ "categories": [
+  "display"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/lime/button.json",
+  "https://design.how/r/lime/dropdown-menu.json",
+  "https://design.how/r/lime/icon.json",
+  "https://design.how/r/lime/theme.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/lime.md",
+  "page": "https://design.how/systems/lime"
+ },
+ "files": [
+  {
+   "path": "registry/lime/ui/list-item-menu.tsx",
+   "content": "'use client';\n\nimport type {ReactNode} from 'react';\nimport {Icon, OverflowMenuHorizontal} from '@/components/lime/icon';\nimport {Button} from '@/components/lime/ui/button';\nimport {DropdownMenu, DropdownMenuContent, DropdownMenuTrigger} from '@/components/lime/ui/dropdown-menu';\n\n// A row's other actions behind a more button, passed to ListItem's `menu`. It sits beside the row, so a row\n// that opens something can still have Rename or Remove without a control inside a control. The trigger is a\n// 32px ghost icon button named by `label`; the menu opens under it, aligned to its end. Children are\n// DropdownMenuItems.\n\ntype ListItemMenuProps = {\n  /** The trigger's accessible name. Name the row: \"More for Corner Coffee\". */\n  label: string;\n  children: ReactNode;\n  disabled?: boolean;\n};\n\nfunction ListItemMenu({label, children, disabled}: ListItemMenuProps) {\n  return (\n    <DropdownMenu>\n      <DropdownMenuTrigger\n        disabled={disabled}\n        render={<Button data-slot=\"list-item-menu\" variant=\"ghost\" size=\"icon-sm\" aria-label={label}/>}\n      >\n        <Icon icon={OverflowMenuHorizontal} size={16}/>\n      </DropdownMenuTrigger>\n      <DropdownMenuContent align=\"end\">{children}</DropdownMenuContent>\n    </DropdownMenu>\n  );\n}\n\nexport {ListItemMenu, type ListItemMenuProps};\n",
+   "type": "registry:ui",
+   "target": "@components/lime/ui/list-item-menu.tsx"
+  }
+ ]
+}

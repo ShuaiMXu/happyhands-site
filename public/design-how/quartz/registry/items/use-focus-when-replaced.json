@@ -1,0 +1,23 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "use-focus-when-replaced",
+ "type": "registry:lib",
+ "title": "useFocusWhenReplaced",
+ "description": "Support file: moves focus to an outcome when the buttons that had it are replaced, so a keyboard user is not dropped to the top.",
+ "author": "design.how",
+ "categories": [
+  "internal"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/quartz.md",
+  "page": "https://design.how/systems/quartz"
+ },
+ "files": [
+  {
+   "path": "registry/quartz/lib/use-focus-when-replaced.ts",
+   "content": "'use client';\n\nimport {useEffect, useRef} from 'react';\n\n/**\n * Moves focus to an outcome when the controls that had it are replaced, such as a tool call's row taking the place\n * of Allow and Deny. Without it the pressed button leaves the page and focus falls to the body, so a keyboard or\n * screen reader user starts again from the top.\n *\n * `replaced` turns true when the controls go. Put `region` on the element that held them and `target` on the outcome,\n * which needs tabIndex={-1} unless it is a control. Focus moves only if it fell to the body or is still in the\n * region; a person who has already gone somewhere else is left there.\n */\nfunction useFocusWhenReplaced<Target extends HTMLElement = HTMLElement, Region extends HTMLElement = HTMLElement>(replaced: boolean) {\n  const region = useRef<Region>(null);\n  const target = useRef<Target>(null);\n  const was = useRef(replaced);\n  useEffect(() => {\n    const before = was.current;\n    was.current = replaced;\n    if (before || !replaced) return;\n    const active = document.activeElement;\n    if (!active || active === document.body || !active.isConnected || region.current?.contains(active)) target.current?.focus();\n  }, [replaced]);\n  return {region, target};\n}\n\nexport {useFocusWhenReplaced};\n",
+   "type": "registry:lib",
+   "target": "@lib/quartz/use-focus-when-replaced.ts"
+  }
+ ]
+}

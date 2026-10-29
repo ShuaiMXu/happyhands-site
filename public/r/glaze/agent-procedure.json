@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "agent-procedure",
+  "type": "registry:block",
+  "title": "Agent procedure",
+  "description": "The steps an agent follows, in plain sentences with its tools, documents and teams as mention chips, and Test and Publish.",
+  "author": "design.how",
+  "categories": [
+    "block",
+    "ai",
+    "agent"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/button.json",
+    "https://happyhands.cc/r/glaze/card.json",
+    "https://happyhands.cc/r/glaze/mention.json",
+    "https://happyhands.cc/r/glaze/theme.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/glaze/index.md",
+    "page": "https://happyhands.cc/design-how/glaze/index.md"
+  },
+  "files": [
+    {
+      "path": "registry/glaze/blocks/agent-procedure.tsx",
+      "content": "import {Mention} from '@/components/glaze/ai/mention';\nimport {Button} from '@/components/glaze/ui/button';\nimport {Card, CardContent, CardDescription, CardFooter, CardHeader, CardMeta, CardTitle} from '@/components/glaze/ui/card';\n\n// A block: the procedure an agent follows, written in plain sentences with the tools, documents and teams it may use\n// named inline as mention chips. The trigger in the header, four numbered steps in the panel, the version, Test and\n// Publish on the footer. A tool is a slash command chip, a document a doc chip and a team an agent chip, so a step reads as a\n// sentence and every resource in it is findable. Wire `steps` to your procedure store; the chips round-trip through\n// mentionToText.\n\ntype Part = string | {type: 'command' | 'doc' | 'agent'; label: string};\n\nconst steps: Part[][] = [\n  ['Find the order with ', {type: 'command', label: 'lookup_order'}, '.'],\n  ['If it is flagged for fraud, hand off to ', {type: 'agent', label: 'Trust and safety'}, ' and stop.'],\n  ['Check the window in ', {type: 'doc', label: 'returns-policy.md'}, ' and offer an exchange first.'],\n  ['Refund with ', {type: 'command', label: 'refund'}, '. Over $500, ask ', {type: 'agent', label: 'Support lead'}, ' first.'],\n];\n\nfunction Sentence({parts}: {parts: Part[]}) {\n  return <>{parts.map((p, i) => typeof p === 'string' ? <span key={i}>{p}</span> : <Mention key={i} type={p.type}>{p.label}</Mention>)}</>;\n}\n\n/** The refund procedure: four steps, with Test and Publish on the footer. */\nexport function AgentProcedure({className}: {className?: string}) {\n  return (\n    <Card aria-label=\"Refund procedure\" className={className ?? 'w-full max-w-md'}>\n      <CardHeader>\n        <CardTitle>Refund procedure</CardTitle>\n        <CardDescription>Runs when a customer asks for their money back.</CardDescription>\n      </CardHeader>\n      <CardContent>\n        <ol className=\"flex list-decimal flex-col gap-2 ps-5 type-body-sm text-text-1 marker:data marker:text-text-3\">\n          {steps.map((s, i) => <li key={i} className=\"ps-1\"><Sentence parts={s}/></li>)}\n        </ol>\n      </CardContent>\n      <CardFooter>\n        <CardMeta>v7, edited 2h ago</CardMeta>\n        <Button size=\"sm\" variant=\"secondary\">Test</Button>\n        <Button size=\"sm\">Publish</Button>\n      </CardFooter>\n    </Card>\n  );\n}\n",
+      "type": "registry:block",
+      "target": "@components/glaze/blocks/agent-procedure.tsx"
+    }
+  ]
+}

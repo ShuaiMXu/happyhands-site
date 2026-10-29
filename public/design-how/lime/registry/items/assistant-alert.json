@@ -1,0 +1,35 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "assistant-alert",
+ "type": "registry:block",
+ "title": "Assistant alert",
+ "description": "The assistant flags an unusual charge or an unused subscription, with one row and the answers to it.",
+ "author": "design.how",
+ "categories": [
+  "block",
+  "ai",
+  "alert"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/lime/amount.json",
+  "https://design.how/r/lime/button.json",
+  "https://design.how/r/lime/icon.json",
+  "https://design.how/r/lime/list.json",
+  "https://design.how/r/lime/message.json",
+  "https://design.how/r/lime/status.json",
+  "https://design.how/r/lime/theme.json",
+  "https://design.how/r/lime/use-focus-when-replaced.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/lime.md",
+  "page": "https://design.how/systems/lime"
+ },
+ "files": [
+  {
+   "path": "registry/lime/blocks/assistant-alert.tsx",
+   "content": "'use client';\n\nimport {useState} from 'react';\nimport {Message} from '@/components/lime/ai/message';\nimport {Icon, Locked, Play, ShoppingBag} from '@/components/lime/icon';\nimport {useFocusWhenReplaced} from '@/lib/lime/use-focus-when-replaced';\nimport {Amount, formatAmount} from '@/components/lime/ui/amount';\nimport {Button} from '@/components/lime/ui/button';\nimport {List, ListIcon, ListItem} from '@/components/lime/ui/list';\nimport {Status} from '@/components/lime/ui/status';\n\n// A block: the assistant flagging something with one row and the answers to it. UnusualCharge is a charge to\n// confirm, CancelSubscription a subscription nobody opens.\n\n/** A charge that doesn't look like you, with the two answers. Freezing is solid, not a glow: it is a choice, not the push. */\nexport function UnusualCharge() {\n  return (\n    <section aria-label=\"Unusual charge\" className=\"flex w-full max-w-sm flex-col gap-4\">\n      <Message name=\"Lime\">This one doesn't look like you. Was it?</Message>\n      <List className=\"-mx-4\">\n        <ListItem leading={<ListIcon icon={ShoppingBag} tone=\"danger\"/>} title=\"Kestrel Shop\" description=\"Lisbon, 2:14 am\" trailing={<Amount value={-129} tone=\"danger\"/>}/>\n      </List>\n      <div className=\"flex gap-2\">\n        <Button variant=\"solid\" className=\"flex-1\" icon={<Icon icon={Locked} size={16}/>}>Freeze card</Button>\n        <Button variant=\"secondary\" className=\"flex-1\">It was me</Button>\n      </div>\n    </section>\n  );\n}\n\n/** A subscription nobody opens, found by the assistant: one row and one action, which holds the glow. Cancel it\n * works for a moment, then the buttons give way to a status line in the same height. */\nexport function CancelSubscription() {\n  const [state, setState] = useState<'open' | 'pending' | 'canceled' | 'kept'>('open');\n  // The pressed button is gone once the status shows, so focus moves to the status instead of the page top.\n  const {region, target: outcome} = useFocusWhenReplaced(state === 'canceled' || state === 'kept');\n  const cancel = () => {\n    setState('pending');\n    setTimeout(() => setState('canceled'), 900);\n  };\n  return (\n    <section aria-label=\"Subscription\" className=\"flex w-full max-w-sm flex-col gap-4\">\n      <Message name=\"Lime\">You haven't opened Streamly since July.</Message>\n      <List className=\"-mx-4\">\n        <ListItem leading={<ListIcon icon={Play}/>} title=\"Streamly\" description=\"Renews Oct 12\" trailing={formatAmount(-15.99)}/>\n      </List>\n      <div ref={region} aria-live=\"polite\" className=\"flex min-h-(--control-md) items-center gap-2\">\n        {state === 'canceled' ? <Status ref={outcome} focusable status=\"canceled\" label=\"Canceled. No more charges\"/>\n          : state === 'kept' ? <Status ref={outcome} focusable status=\"done\" label=\"Kept\"/>\n          : <>\n            <Button className=\"flex-1\" pending={state === 'pending'} onClick={cancel}>Cancel it</Button>\n            <Button variant=\"ghost\" disabled={state === 'pending'} onClick={() => setState('kept')}>Keep</Button>\n          </>}\n      </div>\n    </section>\n  );\n}\n",
+   "type": "registry:block",
+   "target": "@components/lime/blocks/assistant-alert.tsx"
+  }
+ ]
+}

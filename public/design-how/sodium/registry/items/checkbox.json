@@ -1,0 +1,30 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "checkbox",
+ "type": "registry:ui",
+ "title": "Checkbox",
+ "description": "Turns one option on or off.",
+ "author": "design.how",
+ "categories": [
+  "selection"
+ ],
+ "dependencies": [
+  "@base-ui/react@^1.8.0"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/sodium/theme.json",
+  "https://design.how/r/sodium/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/sodium/components/checkbox.md",
+  "page": "https://design.how/systems/sodium/components/checkbox"
+ },
+ "files": [
+  {
+   "path": "registry/sodium/ui/checkbox.tsx",
+   "content": "'use client';\n\nimport {Checkbox as CheckboxPrimitive} from '@base-ui/react/checkbox';\nimport {CheckboxGroup as CheckboxGroupPrimitive} from '@base-ui/react/checkbox-group';\nimport {cn} from '@/lib/sodium/utils';\n\n// Sodium's checkbox, on Base UI's Checkbox. A 16px square. Unticked is the hair-off-white body (--check-off) with a\n// 1px --line-control edge, the 3:1 edge a control needs; under the pointer the body lifts to white. Ticked and mixed\n// take the checked recipe: sodium yellow with a gold edge and an ink mark in light (12.8:1), the dark yellow tint with\n// a yellow edge and a yellow mark in dark, lit from below and brighter under the pointer. Fill, edge and light change\n// on light-motion. Invalid turns an unticked box's edge red. Disabled sits on the well with a rule edge, unlit.\n//\n// The tick is drawn, not an icon: Sodium's icons start at 16, which is the whole box. It is a square-ended 1.5px\n// stroke on a 10px grid, so it stays crisp beside 1px rules. Mixed is a 8 by 2 bar.\n//\n// The hit area grows past the box with ::after, so a 16px box still takes a 28px target. The box stops its click from\n// bubbling, so ticking a checkbox inside a clickable row never opens the row.\n//\n// Select-all: inside a CheckboxGroup with allValues, a Checkbox with parent takes its state from the rest: all ticked is\n// checked, some is mixed, none is clear. Pressed from mixed it ticks all, then clears all, then brings back the set the\n// person picked, so select-all never destroys a hand-made selection.\n\ntype CheckboxProps = CheckboxPrimitive.Root.Props & {'aria-invalid'?: boolean | 'true' | 'false'};\n\nconst base = [\n  'peer relative inline-flex size-4 shrink-0 cursor-pointer items-center justify-center [-webkit-tap-highlight-color:transparent]',\n  'after:absolute after:-inset-1.5',\n  'data-disabled:cursor-not-allowed data-readonly:cursor-default',\n  'light-motion',\n].join(' ');\n\nconst ticked = 'checked data-disabled:border-line data-disabled:bg-well data-disabled:text-text-disabled forced-colors:[forced-color-adjust:none] forced-colors:border-[Highlight] forced-colors:bg-[Highlight] forced-colors:text-[HighlightText]';\nconst clear = [\n  'border border-line-control bg-check-off',\n  'hover:not-data-disabled:not-data-readonly:bg-check-off-hover active:not-data-disabled:not-data-readonly:bg-check-off',\n  'aria-invalid:border-fail',\n  'data-disabled:border-line data-disabled:bg-well',\n  'forced-colors:border-[CanvasText]',\n].join(' ');\n\n/** The tick: a square-ended stroke on a 10px grid. */\nfunction Tick() {\n  return <svg data-slot=\"checkbox-tick\" viewBox=\"0 0 10 10\" className=\"size-2.5\" aria-hidden fill=\"none\">\n    <path d=\"M1.5 5.25 4 7.75 8.75 2.5\" stroke=\"currentColor\" strokeWidth=\"1.5\" strokeLinecap=\"square\"/>\n  </svg>;\n}\n\nfunction Checkbox({className, 'aria-invalid': invalid, onClick, ...props}: CheckboxProps) {\n  const isInvalid = invalid === true || invalid === 'true';\n  return <CheckboxPrimitive.Root\n    data-slot=\"checkbox\"\n    aria-invalid={isInvalid || undefined}\n    onClick={event => { onClick?.(event); event.stopPropagation(); }}\n    className={state => cn(base, state.checked || state.indeterminate ? ticked : clear, typeof className === 'function' ? className(state) : className)}\n    {...props}\n  >\n    <CheckboxPrimitive.Indicator\n      data-slot=\"checkbox-indicator\"\n      className=\"grid place-content-center text-current\"\n      render={(indicatorProps, state) => <span {...indicatorProps}>\n        {state.indeterminate\n          ? <span data-slot=\"checkbox-dash\" className=\"block h-0.5 w-2 bg-current\"/>\n          : <Tick/>}\n      </span>}\n    />\n  </CheckboxPrimitive.Root>;\n}\n\n/** A set of checkboxes with one value array. Give it allValues to let a parent Checkbox select all. */\nfunction CheckboxGroup({className, ...props}: CheckboxGroupPrimitive.Props) {\n  return <CheckboxGroupPrimitive\n    data-slot=\"checkbox-group\"\n    className={state => cn('flex flex-col gap-2', typeof className === 'function' ? className(state) : className)}\n    {...props}\n  />;\n}\n\nexport {Checkbox, CheckboxGroup, type CheckboxProps};\n",
+   "type": "registry:ui",
+   "target": "@components/sodium/ui/checkbox.tsx"
+  }
+ ]
+}

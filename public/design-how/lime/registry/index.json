@@ -1,0 +1,1829 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry.json",
+ "name": "lime",
+ "homepage": "https://design.how/systems/lime",
+ "items": [
+  {
+   "name": "button",
+   "type": "registry:ui",
+   "title": "Button",
+   "description": "Starts an action, such as Send money. The lime primary is the one glowing action on a screen.",
+   "author": "design.how",
+   "categories": [
+    "actions"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/button.md",
+    "page": "https://design.how/systems/lime/components/button"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/button.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/button.tsx"
+    }
+   ]
+  },
+  {
+   "name": "copy-button",
+   "type": "registry:ui",
+   "title": "Copy button",
+   "description": "Copies a value, such as a payment link, and confirms with a check.",
+   "author": "design.how",
+   "categories": [
+    "actions"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/button.json",
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/theme.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/copy-button.md",
+    "page": "https://design.how/systems/lime/components/copy-button"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/copy-button.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/copy-button.tsx"
+    }
+   ]
+  },
+  {
+   "name": "input",
+   "type": "registry:ui",
+   "title": "Input",
+   "description": "One line of text, such as a merchant name or a search.",
+   "author": "design.how",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/input.md",
+    "page": "https://design.how/systems/lime/components/input"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/input.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/input.tsx"
+    }
+   ]
+  },
+  {
+   "name": "textarea",
+   "type": "registry:ui",
+   "title": "Textarea",
+   "description": "Several lines of text, such as a note on a payment.",
+   "author": "design.how",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/input.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/textarea.md",
+    "page": "https://design.how/systems/lime/components/textarea"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/textarea.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/textarea.tsx"
+    }
+   ]
+  },
+  {
+   "name": "field",
+   "type": "registry:ui",
+   "title": "Field",
+   "description": "A label, a control, a hint and an error, wired together.",
+   "author": "design.how",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/field.md",
+    "page": "https://design.how/systems/lime/components/field"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/field.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/field.tsx"
+    }
+   ]
+  },
+  {
+   "name": "select",
+   "type": "registry:ui",
+   "title": "Select",
+   "description": "One choice from a list, such as an account or a category.",
+   "author": "design.how",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/popup.json",
+    "https://design.how/r/lime/portal.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/select.md",
+    "page": "https://design.how/systems/lime/components/select"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/select.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/select.tsx"
+    }
+   ]
+  },
+  {
+   "name": "combobox",
+   "type": "registry:ui",
+   "title": "Combobox",
+   "description": "A searchable choice from a long list, such as friends or merchants.",
+   "author": "design.how",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/input.json",
+    "https://design.how/r/lime/popup.json",
+    "https://design.how/r/lime/portal.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/combobox.md",
+    "page": "https://design.how/systems/lime/components/combobox"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/combobox.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/combobox.tsx"
+    }
+   ]
+  },
+  {
+   "name": "dropzone",
+   "type": "registry:ui",
+   "title": "Dropzone",
+   "description": "A target for receipts and statements, with type and size checks.",
+   "author": "design.how",
+   "categories": [
+    "inputs"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/dropzone.md",
+    "page": "https://design.how/systems/lime/components/dropzone"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/dropzone.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/dropzone.tsx"
+    }
+   ]
+  },
+  {
+   "name": "keypad",
+   "type": "registry:ui",
+   "title": "Keypad",
+   "description": "The number pad for entering an amount on a phone, such as how much to send.",
+   "author": "design.how",
+   "categories": [
+    "inputs"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/keypad.md",
+    "page": "https://design.how/systems/lime/components/keypad"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/keypad.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/keypad.tsx"
+    }
+   ]
+  },
+  {
+   "name": "checkbox",
+   "type": "registry:ui",
+   "title": "Checkbox",
+   "description": "One option on or off, with a mixed state.",
+   "author": "design.how",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/checkbox.md",
+    "page": "https://design.how/systems/lime/components/checkbox"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/checkbox.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/checkbox.tsx"
+    }
+   ]
+  },
+  {
+   "name": "radio",
+   "type": "registry:ui",
+   "title": "Radio",
+   "description": "One choice from a short visible list, such as a transfer speed.",
+   "author": "design.how",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/radio.md",
+    "page": "https://design.how/systems/lime/components/radio"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/radio.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/radio.tsx"
+    }
+   ]
+  },
+  {
+   "name": "switch",
+   "type": "registry:ui",
+   "title": "Switch",
+   "description": "A setting that applies at once, such as round-ups.",
+   "author": "design.how",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/switch.md",
+    "page": "https://design.how/systems/lime/components/switch"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/switch.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/switch.tsx"
+    }
+   ]
+  },
+  {
+   "name": "slider",
+   "type": "registry:ui",
+   "title": "Slider",
+   "description": "A value or a range on a track, such as a monthly savings amount.",
+   "author": "design.how",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/slider.md",
+    "page": "https://design.how/systems/lime/components/slider"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/slider.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/slider.tsx"
+    }
+   ]
+  },
+  {
+   "name": "segmented",
+   "type": "registry:ui",
+   "title": "Segmented",
+   "description": "A short row of exclusive options, such as Week, Month and Year.",
+   "author": "design.how",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/segmented.md",
+    "page": "https://design.how/systems/lime/components/segmented"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/segmented.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/segmented.tsx"
+    }
+   ]
+  },
+  {
+   "name": "chip",
+   "type": "registry:ui",
+   "title": "Chip",
+   "description": "A filter the person toggles, such as a spending category.",
+   "author": "design.how",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/chip.md",
+    "page": "https://design.how/systems/lime/components/chip"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/chip.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/chip.tsx"
+    }
+   ]
+  },
+  {
+   "name": "badge",
+   "type": "registry:ui",
+   "title": "Badge",
+   "description": "A short fact that never changes on its own, such as Plus or New.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/badge.md",
+    "page": "https://design.how/systems/lime/components/badge"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/badge.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/badge.tsx"
+    }
+   ]
+  },
+  {
+   "name": "avatar",
+   "type": "registry:ui",
+   "title": "Avatar",
+   "description": "A person, such as a friend you split a bill with, with initials as the fallback.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/avatar.md",
+    "page": "https://design.how/systems/lime/components/avatar"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/avatar.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/avatar.tsx"
+    }
+   ]
+  },
+  {
+   "name": "card",
+   "type": "registry:ui",
+   "title": "Card",
+   "description": "A grouped block, such as a savings goal or a card, on warm grey, outlined or raised.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/card.md",
+    "page": "https://design.how/systems/lime/components/card"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/card.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/card.tsx"
+    }
+   ]
+  },
+  {
+   "name": "table",
+   "type": "registry:ui",
+   "title": "Table",
+   "description": "Rows of transactions you scan across, with amounts at the end.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/table.md",
+    "page": "https://design.how/systems/lime/components/table"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/table.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/table.tsx"
+    }
+   ]
+  },
+  {
+   "name": "list",
+   "type": "registry:ui",
+   "title": "List",
+   "description": "Rows of transactions, accounts or settings, each with a mark, a title and a value or a chevron.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/list.md",
+    "page": "https://design.how/systems/lime/components/list"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/list.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/list.tsx"
+    }
+   ]
+  },
+  {
+   "name": "list-item-menu",
+   "type": "registry:ui",
+   "title": "List item menu",
+   "description": "A row's other actions behind a more button, for ListItem's menu.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/button.json",
+    "https://design.how/r/lime/dropdown-menu.json",
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/theme.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime.md",
+    "page": "https://design.how/systems/lime"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/list-item-menu.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/list-item-menu.tsx"
+    }
+   ]
+  },
+  {
+   "name": "progress",
+   "type": "registry:ui",
+   "title": "Progress",
+   "description": "How far a goal has come, such as $640 of $1,000 saved, as a bar or a ring.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/progress.md",
+    "page": "https://design.how/systems/lime/components/progress"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/progress.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/progress.tsx"
+    }
+   ]
+  },
+  {
+   "name": "amount",
+   "type": "registry:ui",
+   "title": "Amount",
+   "description": "A money amount with its sign, currency and tabular figures.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/amount.md",
+    "page": "https://design.how/systems/lime/components/amount"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/amount.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/amount.tsx"
+    }
+   ]
+  },
+  {
+   "name": "status",
+   "type": "registry:ui",
+   "title": "Status",
+   "description": "The state of a payment as a dot and a word.",
+   "author": "design.how",
+   "categories": [
+    "feedback"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/button.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/status.md",
+    "page": "https://design.how/systems/lime/components/status"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/status.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/status.tsx"
+    }
+   ]
+  },
+  {
+   "name": "empty",
+   "type": "registry:ui",
+   "title": "Empty",
+   "description": "An empty state with one action, such as Add a card.",
+   "author": "design.how",
+   "categories": [
+    "feedback"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/empty.md",
+    "page": "https://design.how/systems/lime/components/empty"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/empty.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/empty.tsx"
+    }
+   ]
+  },
+  {
+   "name": "skeleton",
+   "type": "registry:ui",
+   "title": "Skeleton",
+   "description": "Still grey shapes in place of content that is loading, such as recent activity.",
+   "author": "design.how",
+   "categories": [
+    "feedback"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/skeleton.md",
+    "page": "https://design.how/systems/lime/components/skeleton"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/skeleton.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/skeleton.tsx"
+    }
+   ]
+  },
+  {
+   "name": "error-state",
+   "type": "registry:ui",
+   "title": "Error state",
+   "description": "What failed to load, in its place, with Try again.",
+   "author": "design.how",
+   "categories": [
+    "feedback"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/button.json",
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/error-state.md",
+    "page": "https://design.how/systems/lime/components/error-state"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/error-state.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/error-state.tsx"
+    }
+   ]
+  },
+  {
+   "name": "toast",
+   "type": "registry:ui",
+   "title": "Toast",
+   "description": "A short note after an action, such as Moved $50 to savings, with an optional Undo.",
+   "author": "design.how",
+   "categories": [
+    "feedback"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/portal.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/toast.md",
+    "page": "https://design.how/systems/lime/components/toast"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/toast.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/toast.tsx"
+    }
+   ]
+  },
+  {
+   "name": "dialog",
+   "type": "registry:ui",
+   "title": "Dialog",
+   "description": "A focused task over a scrim, such as sending money.",
+   "author": "design.how",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/button.json",
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/portal.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/dialog.md",
+    "page": "https://design.how/systems/lime/components/dialog"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/dialog.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/dialog.tsx"
+    }
+   ]
+  },
+  {
+   "name": "alert-dialog",
+   "type": "registry:ui",
+   "title": "Alert dialog",
+   "description": "A blocking decision, such as deleting a goal, that cannot be dismissed from outside.",
+   "author": "design.how",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/dialog.json",
+    "https://design.how/r/lime/portal.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/alert-dialog.md",
+    "page": "https://design.how/systems/lime/components/alert-dialog"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/alert-dialog.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/alert-dialog.tsx"
+    }
+   ]
+  },
+  {
+   "name": "sheet",
+   "type": "registry:ui",
+   "title": "Sheet",
+   "description": "A panel from an edge, such as transaction details, that keeps the page visible.",
+   "author": "design.how",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/button.json",
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/portal.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/sheet.md",
+    "page": "https://design.how/systems/lime/components/sheet"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/sheet.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/sheet.tsx"
+    }
+   ]
+  },
+  {
+   "name": "popover",
+   "type": "registry:ui",
+   "title": "Popover",
+   "description": "An anchored panel with controls, such as splitting a bill.",
+   "author": "design.how",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/portal.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/popover.md",
+    "page": "https://design.how/systems/lime/components/popover"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/popover.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/popover.tsx"
+    }
+   ]
+  },
+  {
+   "name": "dropdown-menu",
+   "type": "registry:ui",
+   "title": "Dropdown menu",
+   "description": "A list of commands behind a button.",
+   "author": "design.how",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/popup.json",
+    "https://design.how/r/lime/portal.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/dropdown-menu.md",
+    "page": "https://design.how/systems/lime/components/dropdown-menu"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/dropdown-menu.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/dropdown-menu.tsx"
+    }
+   ]
+  },
+  {
+   "name": "tooltip",
+   "type": "registry:ui",
+   "title": "Tooltip",
+   "description": "A short label on hover and focus.",
+   "author": "design.how",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/portal.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/tooltip.md",
+    "page": "https://design.how/systems/lime/components/tooltip"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/tooltip.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/tooltip.tsx"
+    }
+   ]
+  },
+  {
+   "name": "tabs",
+   "type": "registry:ui",
+   "title": "Tabs",
+   "description": "Switches between views of one list, such as Activity and Scheduled.",
+   "author": "design.how",
+   "categories": [
+    "navigation"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/tabs.md",
+    "page": "https://design.how/systems/lime/components/tabs"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/tabs.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/tabs.tsx"
+    }
+   ]
+  },
+  {
+   "name": "toolbar",
+   "type": "registry:ui",
+   "title": "Toolbar",
+   "description": "A row of related controls with one tab stop.",
+   "author": "design.how",
+   "categories": [
+    "navigation"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/toolbar.md",
+    "page": "https://design.how/systems/lime/components/toolbar"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/toolbar.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/toolbar.tsx"
+    }
+   ]
+  },
+  {
+   "name": "accordion",
+   "type": "registry:ui",
+   "title": "Accordion",
+   "description": "A stack of questions that open one at a time.",
+   "author": "design.how",
+   "categories": [
+    "layout"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/accordion.md",
+    "page": "https://design.how/systems/lime/components/accordion"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/accordion.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/accordion.tsx"
+    }
+   ]
+  },
+  {
+   "name": "collapsible",
+   "type": "registry:ui",
+   "title": "Collapsible",
+   "description": "One section that opens and closes, the base of the Why? in Approval request.",
+   "author": "design.how",
+   "categories": [
+    "layout"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime.md",
+    "page": "https://design.how/systems/lime"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/collapsible.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/collapsible.tsx"
+    }
+   ]
+  },
+  {
+   "name": "separator",
+   "type": "registry:ui",
+   "title": "Separator",
+   "description": "A hairline between groups.",
+   "author": "design.how",
+   "categories": [
+    "layout"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/separator.md",
+    "page": "https://design.how/systems/lime/components/separator"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/separator.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/separator.tsx"
+    }
+   ]
+  },
+  {
+   "name": "scroll-area",
+   "type": "registry:ui",
+   "title": "Scroll area",
+   "description": "A scrolling region with a slim thumb.",
+   "author": "design.how",
+   "categories": [
+    "layout"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/scroll-area.md",
+    "page": "https://design.how/systems/lime/components/scroll-area"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/scroll-area.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/scroll-area.tsx"
+    }
+   ]
+  },
+  {
+   "name": "chat-input",
+   "type": "registry:ui",
+   "title": "Chat input",
+   "description": "The box a request to the assistant is written in, with the amount and send.",
+   "author": "design.how",
+   "categories": [
+    "ai"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/amount.json",
+    "https://design.how/r/lime/button.json",
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/chat-input.md",
+    "page": "https://design.how/systems/lime/components/chat-input"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ai/chat-input.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ai/chat-input.tsx"
+    }
+   ]
+  },
+  {
+   "name": "message",
+   "type": "registry:ui",
+   "title": "Message",
+   "description": "One turn in a conversation with the assistant.",
+   "author": "design.how",
+   "categories": [
+    "ai"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/message.md",
+    "page": "https://design.how/systems/lime/components/message"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ai/message.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ai/message.tsx"
+    }
+   ]
+  },
+  {
+   "name": "tool-call",
+   "type": "registry:ui",
+   "title": "Tool call",
+   "description": "One step the assistant took, such as Moved $50 to Vacation fund, as a single line.",
+   "author": "design.how",
+   "categories": [
+    "ai"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/button.json",
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/tool-call.md",
+    "page": "https://design.how/systems/lime/components/tool-call"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ai/tool-call.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ai/tool-call.tsx"
+    }
+   ]
+  },
+  {
+   "name": "follow-ups",
+   "type": "registry:ui",
+   "title": "Follow ups",
+   "description": "Suggested next requests under an answer.",
+   "author": "design.how",
+   "categories": [
+    "ai"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/follow-ups.md",
+    "page": "https://design.how/systems/lime/components/follow-ups"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ai/follow-ups.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ai/follow-ups.tsx"
+    }
+   ]
+  },
+  {
+   "name": "approval-request",
+   "type": "registry:ui",
+   "title": "Approval request",
+   "description": "The assistant asking before it moves money, with the amount, one reason, and Approve, Edit or Decline.",
+   "author": "design.how",
+   "categories": [
+    "ai",
+    "approval"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/amount.json",
+    "https://design.how/r/lime/button.json",
+    "https://design.how/r/lime/card.json",
+    "https://design.how/r/lime/collapsible.json",
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/status.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/use-focus-when-replaced.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/approval-request.md",
+    "page": "https://design.how/systems/lime/components/approval-request"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ai/approval-request.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ai/approval-request.tsx"
+    }
+   ]
+  },
+  {
+   "name": "action-receipt",
+   "type": "registry:ui",
+   "title": "Action receipt",
+   "description": "A message listing what the assistant just did, one line per action, with Undo.",
+   "author": "design.how",
+   "categories": [
+    "ai"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/button.json",
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/message.json",
+    "https://design.how/r/lime/status.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/action-receipt.md",
+    "page": "https://design.how/systems/lime/components/action-receipt"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ai/action-receipt.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ai/action-receipt.tsx"
+    }
+   ]
+  },
+  {
+   "name": "autonomy-rule",
+   "type": "registry:ui",
+   "title": "Autonomy rule",
+   "description": "How far the assistant may go on its own, as one sentence with the limit typed into it.",
+   "author": "design.how",
+   "categories": [
+    "ai"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/input.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/autonomy-rule.md",
+    "page": "https://design.how/systems/lime/components/autonomy-rule"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ai/autonomy-rule.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ai/autonomy-rule.tsx"
+    }
+   ]
+  },
+  {
+   "name": "receipt-match",
+   "type": "registry:ui",
+   "title": "Receipt match",
+   "description": "A receipt paired with its payment, with whether the two match.",
+   "author": "design.how",
+   "categories": [
+    "ai"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/amount.json",
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/receipt-match.md",
+    "page": "https://design.how/systems/lime/components/receipt-match"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ai/receipt-match.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ai/receipt-match.tsx"
+    }
+   ]
+  },
+  {
+   "name": "insight",
+   "type": "registry:ui",
+   "title": "Insight",
+   "description": "One thing the assistant noticed, as a sentence, the number behind it and a tiny line.",
+   "author": "design.how",
+   "categories": [
+    "ai"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/button.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/insight.md",
+    "page": "https://design.how/systems/lime/components/insight"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ai/insight.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ai/insight.tsx"
+    }
+   ]
+  },
+  {
+   "name": "bill-schedule",
+   "type": "registry:ui",
+   "title": "Bill schedule",
+   "description": "The bills coming up in date order, each under a date tile, with who pays it.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/amount.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/bill-schedule.md",
+    "page": "https://design.how/systems/lime/components/bill-schedule"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/bill-schedule.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/bill-schedule.tsx"
+    }
+   ]
+  },
+  {
+   "name": "balance",
+   "type": "registry:ui",
+   "title": "Balance",
+   "description": "The amount left in an account, kept in the header.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/amount.json",
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime/components/balance.md",
+    "page": "https://design.how/systems/lime/components/balance"
+   },
+   "files": [
+    {
+     "path": "registry/lime/ui/balance.tsx",
+     "type": "registry:ui",
+     "target": "@components/lime/ui/balance.tsx"
+    }
+   ]
+  },
+  {
+   "name": "home",
+   "type": "registry:block",
+   "title": "Home screen",
+   "description": "An app home: a greeting, the balance, three quick actions with Add as the glow, and a savings goal.",
+   "author": "design.how",
+   "categories": [
+    "block",
+    "home"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/amount.json",
+    "https://design.how/r/lime/avatar.json",
+    "https://design.how/r/lime/button.json",
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/progress.json",
+    "https://design.how/r/lime/theme.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime.md",
+    "page": "https://design.how/systems/lime"
+   },
+   "files": [
+    {
+     "path": "registry/lime/blocks/home.tsx",
+     "type": "registry:block",
+     "target": "@components/lime/blocks/home.tsx"
+    }
+   ]
+  },
+  {
+   "name": "assistant-approval",
+   "type": "registry:block",
+   "title": "Assistant approval",
+   "description": "You ask the assistant to pay a bill and it asks before it pays, with Approve as the glow.",
+   "author": "design.how",
+   "categories": [
+    "block",
+    "ai",
+    "approval"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/approval-request.json",
+    "https://design.how/r/lime/message.json",
+    "https://design.how/r/lime/theme.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime.md",
+    "page": "https://design.how/systems/lime"
+   },
+   "files": [
+    {
+     "path": "registry/lime/blocks/assistant-approval.tsx",
+     "type": "registry:block",
+     "target": "@components/lime/blocks/assistant-approval.tsx"
+    }
+   ]
+  },
+  {
+   "name": "assistant-alert",
+   "type": "registry:block",
+   "title": "Assistant alert",
+   "description": "The assistant flags an unusual charge or an unused subscription, with one row and the answers to it.",
+   "author": "design.how",
+   "categories": [
+    "block",
+    "ai",
+    "alert"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/amount.json",
+    "https://design.how/r/lime/button.json",
+    "https://design.how/r/lime/icon.json",
+    "https://design.how/r/lime/list.json",
+    "https://design.how/r/lime/message.json",
+    "https://design.how/r/lime/status.json",
+    "https://design.how/r/lime/theme.json",
+    "https://design.how/r/lime/use-focus-when-replaced.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime.md",
+    "page": "https://design.how/systems/lime"
+   },
+   "files": [
+    {
+     "path": "registry/lime/blocks/assistant-alert.tsx",
+     "type": "registry:block",
+     "target": "@components/lime/blocks/assistant-alert.tsx"
+    }
+   ]
+  },
+  {
+   "name": "settings-rules",
+   "type": "registry:block",
+   "title": "Settings rules",
+   "description": "Payday rules and the assistant's limits as settings lists, one row per rule.",
+   "author": "design.how",
+   "categories": [
+    "block",
+    "settings"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/autonomy-rule.json",
+    "https://design.how/r/lime/list.json",
+    "https://design.how/r/lime/switch.json",
+    "https://design.how/r/lime/theme.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime.md",
+    "page": "https://design.how/systems/lime"
+   },
+   "files": [
+    {
+     "path": "registry/lime/blocks/settings-rules.tsx",
+     "type": "registry:block",
+     "target": "@components/lime/blocks/settings-rules.tsx"
+    }
+   ]
+  },
+  {
+   "name": "split-request",
+   "type": "registry:block",
+   "title": "Split request",
+   "description": "A bill you paid, split by what each person owes, with one request to send.",
+   "author": "design.how",
+   "categories": [
+    "block",
+    "payments"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/amount.json",
+    "https://design.how/r/lime/avatar.json",
+    "https://design.how/r/lime/button.json",
+    "https://design.how/r/lime/list.json",
+    "https://design.how/r/lime/theme.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime.md",
+    "page": "https://design.how/systems/lime"
+   },
+   "files": [
+    {
+     "path": "registry/lime/blocks/split-request.tsx",
+     "type": "registry:block",
+     "target": "@components/lime/blocks/split-request.tsx"
+    }
+   ]
+  },
+  {
+   "name": "utils",
+   "type": "registry:lib",
+   "title": "cn",
+   "description": "Support file: cn, which merges class names and knows Lime's radius and shadow names, and mergeClass, which keeps Lime's classes when className is a function of state.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "clsx@^2.1.1",
+    "tailwind-merge@^3.7.0"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime.md",
+    "page": "https://design.how/systems/lime"
+   },
+   "files": [
+    {
+     "path": "registry/lime/lib/utils.ts",
+     "type": "registry:lib",
+     "target": "@lib/lime/utils.ts"
+    }
+   ]
+  },
+  {
+   "name": "icon",
+   "type": "registry:component",
+   "title": "Icon",
+   "description": "Support file: the one import point for Carbon icons.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "@carbon/icons-react@^11.89.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime.md",
+    "page": "https://design.how/systems/lime"
+   },
+   "files": [
+    {
+     "path": "registry/lime/icon.tsx",
+     "type": "registry:component",
+     "target": "@components/lime/icon.tsx"
+    }
+   ]
+  },
+  {
+   "name": "portal",
+   "type": "registry:lib",
+   "title": "Portal",
+   "description": "Support file: puts overlays inside the .lime scope so they keep its tokens.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime.md",
+    "page": "https://design.how/systems/lime"
+   },
+   "files": [
+    {
+     "path": "registry/lime/lib/portal.tsx",
+     "type": "registry:lib",
+     "target": "@lib/lime/portal.tsx"
+    }
+   ]
+  },
+  {
+   "name": "use-focus-when-replaced",
+   "type": "registry:lib",
+   "title": "useFocusWhenReplaced",
+   "description": "Support file: moves focus to an outcome when the buttons that had it are replaced, so a keyboard user is not dropped to the top.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime.md",
+    "page": "https://design.how/systems/lime"
+   },
+   "files": [
+    {
+     "path": "registry/lime/lib/use-focus-when-replaced.ts",
+     "type": "registry:lib",
+     "target": "@lib/lime/use-focus-when-replaced.ts"
+    }
+   ]
+  },
+  {
+   "name": "popup",
+   "type": "registry:lib",
+   "title": "Popup classes",
+   "description": "Support file: the panel, item and separator classes every floating list shares.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/utils.json"
+   ],
+   "docs": "These panels render in a portal: keep <LimePortalProvider> from '@/lib/lime/portal' around the app inside the lime element, or they lose the theme.",
+   "meta": {
+    "docs": "https://design.how/systems/lime.md",
+    "page": "https://design.how/systems/lime"
+   },
+   "files": [
+    {
+     "path": "registry/lime/lib/popup.ts",
+     "type": "registry:lib",
+     "target": "@lib/lime/popup.ts"
+    }
+   ]
+  },
+  {
+   "name": "lint",
+   "type": "registry:item",
+   "title": "Lime lint",
+   "description": "One command that flags what Lime's rules forbid in your app, such as a raw color, a class Lime's theme lacks or a second primary action, and says what to use instead.",
+   "author": "design.how",
+   "categories": [
+    "lint"
+   ],
+   "devDependencies": [
+    "eslint@^9.39.5",
+    "@typescript-eslint/parser@^8.71.0"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime.md",
+    "page": "https://design.how/systems/lime"
+   },
+   "files": [
+    {
+     "path": "registry/lime/lint/eslint.config.mjs",
+     "type": "registry:file",
+     "target": "~/lime.eslint.config.mjs"
+    },
+    {
+     "path": "registry/lime/lint/plugin.mjs",
+     "type": "registry:lib",
+     "target": "@lib/lime/lint/plugin.mjs"
+    },
+    {
+     "path": "registry/lime/lint/core.mjs",
+     "type": "registry:lib",
+     "target": "@lib/lime/lint/core.mjs"
+    },
+    {
+     "path": "registry/lime/lint/value-rules.mjs",
+     "type": "registry:lib",
+     "target": "@lib/lime/lint/value-rules.mjs"
+    },
+    {
+     "path": "registry/lime/lint/classes.json",
+     "type": "registry:lib",
+     "target": "@lib/lime/lint/classes.json"
+    }
+   ]
+  },
+  {
+   "name": "theme",
+   "type": "registry:item",
+   "title": "Lime theme",
+   "description": "Support file: tokens, scoped base and the Tailwind v4 theme mapping.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "tailwindcss@^4.3.3",
+    "@tailwindcss/postcss@^4.3.3"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/lime/skill.json",
+    "https://design.how/r/lime/portal.json"
+   ],
+   "docs": "Lime is scoped: its styles apply only inside an element with the class lime.\n1. Import the theme once, in the root layout, as its own stylesheet (not an @import in globals.css): import '@/components/lime/styles.css'\n2. Put className=\"lime\" on the element that holds Lime UI, usually <body>. Lime's classes work on the elements inside it, in your own code too, not on that element itself.\n3. Wrap the app inside that element in <LimePortalProvider> from '@/lib/lime/portal', so dialogs and menus keep the theme.\nDark mode: put data-theme=\"dark\" on the lime element or any ancestor, such as <html>. The theme does not follow the system setting (prefers-color-scheme) on its own.\nComponents: npx shadcn@latest add https://design.how/r/lime/<name>.json; https://design.how/r/lime/registry.json lists them all.",
+   "meta": {
+    "docs": "https://design.how/systems/lime.md",
+    "page": "https://design.how/systems/lime"
+   },
+   "files": [
+    {
+     "path": "registry/lime/tokens.css",
+     "type": "registry:file",
+     "target": "@components/lime/tokens.css"
+    },
+    {
+     "path": "registry/lime/base.css",
+     "type": "registry:file",
+     "target": "@components/lime/base.css"
+    },
+    {
+     "path": "registry/lime/styles.css",
+     "type": "registry:file",
+     "target": "@components/lime/styles.css"
+    }
+   ]
+  },
+  {
+   "name": "skill",
+   "type": "registry:item",
+   "title": "Lime skill",
+   "description": "Support file: teaches your coding agent Lime's rules and components.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/lime.md",
+    "page": "https://design.how/systems/lime"
+   },
+   "files": [
+    {
+     "path": "registry/lime/SKILL.md",
+     "type": "registry:file",
+     "target": "~/.claude/skills/lime/SKILL.md"
+    },
+    {
+     "path": "registry/lime/.agents/SKILL.md",
+     "type": "registry:file",
+     "target": "~/.agents/skills/lime/SKILL.md"
+    }
+   ]
+  }
+ ]
+}

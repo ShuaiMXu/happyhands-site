@@ -1,0 +1,27 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "popup",
+ "type": "registry:lib",
+ "title": "Popup classes",
+ "description": "Support file: the panel, item and separator classes every floating list shares.",
+ "author": "design.how",
+ "categories": [
+  "internal"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/lime/utils.json"
+ ],
+ "docs": "These panels render in a portal: keep <LimePortalProvider> from '@/lib/lime/portal' around the app inside the lime element, or they lose the theme.",
+ "meta": {
+  "docs": "https://design.how/systems/lime.md",
+  "page": "https://design.how/systems/lime"
+ },
+ "files": [
+  {
+   "path": "registry/lime/lib/popup.ts",
+   "content": "import {cn} from '@/lib/lime/utils';\n\n// The class sets every floating list shares (select, combobox, dropdown menu), so all of them look the\n// same: a white panel with the menu shadow, 16px corners around 10px items, a 4px inset. The panel eases\n// in from 0.97 and out again; reduced motion zeroes the duration in tokens.css.\n\nexport const popupClass = cn(\n  'relative isolate z-(--z-popover) max-h-(--available-height) min-w-(--anchor-width) origin-(--transform-origin) overflow-hidden rounded-panel bg-raised p-1 text-fg shadow-menu outline-none',\n  'transition-[opacity,scale] duration-(--dur-base) ease-(--ease-out)',\n  'data-starting-style:scale-(--scale-enter) data-starting-style:opacity-0 data-ending-style:scale-(--scale-enter) data-ending-style:opacity-0 data-ending-style:duration-(--dur-fast) data-ending-style:ease-(--ease-in)',\n);\n\nexport const itemClass = cn(\n  'relative flex min-h-9 w-full cursor-default items-center gap-2 rounded-md py-1.5 ps-3 pe-8 text-sm outline-none select-none',\n  'data-highlighted:bg-surface-2 data-selected:font-medium focus-visible:-outline-offset-2',\n  'data-disabled:cursor-not-allowed data-disabled:text-fg-disabled [&_svg]:pointer-events-none [&_svg]:shrink-0',\n);\n\nexport const groupLabelClass = 'px-3 pt-2 pb-1 text-xs font-medium text-fg-3';\nexport const separatorClass = '-mx-1 my-1 h-px bg-line';\n",
+   "type": "registry:lib",
+   "target": "@lib/lime/popup.ts"
+  }
+ ]
+}

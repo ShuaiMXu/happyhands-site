@@ -1,0 +1,29 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "receipt-match",
+ "type": "registry:ui",
+ "title": "Receipt match",
+ "description": "A receipt paired with its payment, with whether the two match.",
+ "author": "design.how",
+ "categories": [
+  "ai"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/lime/amount.json",
+  "https://design.how/r/lime/icon.json",
+  "https://design.how/r/lime/theme.json",
+  "https://design.how/r/lime/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/lime/components/receipt-match.md",
+  "page": "https://design.how/systems/lime/components/receipt-match"
+ },
+ "files": [
+  {
+   "path": "registry/lime/ai/receipt-match.tsx",
+   "content": "'use client';\n\nimport {Add, CheckmarkFilled, Icon, WarningFilled} from '@/components/lime/icon';\nimport {cn} from '@/lib/lime/utils';\nimport {Amount} from '@/components/lime/ui/amount';\n\n// A receipt paired with the payment it belongs to: a small paper thumbnail at the start, the merchant and\n// date beside it, the amount at the end, and one line saying how the two match. Matched shows a check on\n// the paper's corner; review means the receipt and the payment disagree, and the line says by how much;\n// missing draws an empty paper that is the button to add one. The match is told in words as well as by the\n// mark, so color never carries it alone.\n\ntype ReceiptMatchState = 'matched' | 'review' | 'missing';\n\ntype ReceiptMatchProps = Omit<React.ComponentProps<'div'>, 'children'> & {\n  merchant: string;\n  /** When it was paid, such as \"Oct 2\". */\n  date: string;\n  /** Signed: negative is money out. */\n  amount: number;\n  state: ReceiptMatchState;\n  /** The line under the merchant. Defaults to a word for the state; for review, say what differs. */\n  note?: string;\n  /** A photo of the receipt. Without one the paper is drawn. */\n  src?: string;\n  /** Opens the camera or a file picker when there is no receipt yet. */\n  onAdd?: () => void;\n};\n\nconst NOTE: Record<ReceiptMatchState, string> = {matched: 'Receipt matched', review: 'Check the receipt', missing: 'No receipt yet'};\n\nfunction Paper({src, state}: {src?: string; state: ReceiptMatchState}) {\n  if (src) return <img src={src} alt=\"\" className=\"size-full rounded-field object-cover\"/>;\n  return (\n    <span aria-hidden=\"true\" className=\"flex size-full flex-col gap-1 rounded-field border border-line bg-raised px-2 pt-2.5\">\n      <span className=\"h-1 w-3/4 rounded-full bg-surface-3\"/>\n      <span className=\"h-1 w-1/2 rounded-full bg-surface-3\"/>\n      <span className=\"h-1 w-2/3 rounded-full bg-surface-3\"/>\n      <span className={cn('mt-auto mb-2 h-1 w-1/3 self-end rounded-full', state === 'review' ? 'bg-warn' : 'bg-fg-3')}/>\n    </span>\n  );\n}\n\nfunction ReceiptMatch({merchant, date, amount, state, note, src, onAdd, className, ...props}: ReceiptMatchProps) {\n  return (\n    <div data-slot=\"receipt-match\" data-state={state} className={cn('flex w-full min-w-0 items-center gap-3', className)} {...props}>\n      {state === 'missing' // value-ok: the button is the 48 by 40 receipt thumbnail it stands in for, not a control size\n        ? <button type=\"button\" onClick={onAdd} aria-label={`Add a receipt for ${merchant}`} className=\"flex h-12 w-10 shrink-0 items-center justify-center rounded-field border border-dashed border-control text-fg-3 hover:border-fg-3 hover:text-fg\">\n            <Icon icon={Add} size={16}/>\n          </button>\n        : <span className=\"relative h-12 w-10 shrink-0\">\n            <Paper src={src} state={state}/>\n            <span className=\"absolute -end-1.5 -bottom-1.5 flex rounded-full bg-page\">\n              <Icon icon={state === 'matched' ? CheckmarkFilled : WarningFilled} size={16} className={state === 'matched' ? 'text-success-text' : 'text-warn-text'}/>\n            </span>\n          </span>}\n      <div className=\"flex min-w-0 flex-1 flex-col gap-0.5\">\n        <p className=\"truncate text-sm font-medium\">{merchant}</p>\n        <p className={cn('truncate text-xs', state === 'review' ? 'text-warn-text' : 'text-fg-3')}>{date}, {note ?? NOTE[state]}</p>\n      </div>\n      <Amount value={amount}/>\n    </div>\n  );\n}\n\nexport {ReceiptMatch, type ReceiptMatchProps, type ReceiptMatchState};\n",
+   "type": "registry:ui",
+   "target": "@components/lime/ai/receipt-match.tsx"
+  }
+ ]
+}

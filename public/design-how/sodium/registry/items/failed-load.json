@@ -1,0 +1,32 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "failed-load",
+ "type": "registry:block",
+ "title": "Failed load",
+ "description": "A load that failed: the alert with Retry load, the model with its failing line banded, and the step's log.",
+ "author": "design.how",
+ "categories": [
+  "block",
+  "pipelines",
+  "code"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/sodium/alert.json",
+  "https://design.how/r/sodium/button.json",
+  "https://design.how/r/sodium/code-window.json",
+  "https://design.how/r/sodium/log-viewer.json",
+  "https://design.how/r/sodium/theme.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/sodium.md",
+  "page": "https://design.how/systems/sodium"
+ },
+ "files": [
+  {
+   "path": "registry/sodium/blocks/failed-load.tsx",
+   "content": "'use client';\n\nimport {Alert, AlertAction, AlertDescription, AlertTitle} from '@/components/sodium/ui/alert';\nimport {Button} from '@/components/sodium/ui/button';\nimport {CodeWindow} from '@/components/sodium/ui/code-window';\nimport {LogViewer, type LogLine} from '@/components/sodium/ui/log-viewer';\n\n// A block: a load that failed, read where it broke. The alert says what failed and offers its one fix, Retry load, as a\n// secondary button; the code window shows the model with the failing line banded, because it is what\n// the view is about; the step's log sits under it with the same band on its failure. Wire `sql` and `lines` to the\n// failed step.\n\nconst sql = `-- one row per order, by region\ninsert into wh.orders_daily\nselect\n  order_id,\n  customer_id,\n  region,\n  sum(amount) as amount,\n  count(*) as items\nfrom raw.orders\nwhere loaded_at >= '2026-10-18'\ngroup by order_id, customer_id, region`;\n\nconst lines: LogLine[] = [\n  {id: 1, time: '02:14:07', level: 'info', source: 'read', message: 'scanned raw.orders, 48,210 rows'},\n  {id: 2, time: '02:14:09', level: 'info', source: 'plan', message: 'insert into wh.orders_daily, 1 partition'},\n  {id: 3, time: '02:14:11', level: 'warn', source: 'plan', message: 'column region is nullable in the source'},\n  {id: 4, time: '02:14:12', level: 'fail', source: 'write', message: 'column \"region\" does not exist in raw.orders'},\n  {id: 5, time: '02:14:12', level: 'info', source: 'write', message: 'rolled back partition 2026-10-18'},\n];\n\n/** The failure's alert, the failing line in its file and the step's log. */\nexport function FailedLoad({className}: {className?: string}) {\n  return (\n    <div className={className ?? 'flex w-full flex-col gap-5'}>\n      <Alert status=\"fail\">\n        <AlertTitle>Load failed at line 6</AlertTitle>\n        <AlertDescription>The source dropped column region on Oct 18.</AlertDescription>\n        <AlertAction>\n          <Button size=\"sm\" variant=\"secondary\">Retry load</Button>\n        </AlertAction>\n      </Alert>\n      <CodeWindow code={sql} language=\"sql\" filename=\"models/orders_daily.sql\" fail={[6]} copyLabel=\"query\"/>\n      <LogViewer lines={lines} name=\"run_8f2a90\" height={124} wrap={false} follow={false}/>\n    </div>\n  );\n}\n",
+   "type": "registry:block",
+   "target": "@components/sodium/blocks/failed-load.tsx"
+  }
+ ]
+}

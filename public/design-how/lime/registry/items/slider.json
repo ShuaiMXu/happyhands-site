@@ -1,0 +1,30 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "slider",
+ "type": "registry:ui",
+ "title": "Slider",
+ "description": "A value or a range on a track, such as a monthly savings amount.",
+ "author": "design.how",
+ "categories": [
+  "selection"
+ ],
+ "dependencies": [
+  "@base-ui/react@^1.8.0"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/lime/theme.json",
+  "https://design.how/r/lime/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/lime/components/slider.md",
+  "page": "https://design.how/systems/lime/components/slider"
+ },
+ "files": [
+  {
+   "path": "registry/lime/ui/slider.tsx",
+   "content": "'use client';\n\nimport {Slider as SliderPrimitive} from '@base-ui/react/slider';\nimport {useMemo} from 'react';\nimport {cn, mergeClass} from '@/lib/lime/utils';\n\n// A value on a range, set by dragging or by arrow keys. One thumb, or two for a range. The fill is the\n// lime with an olive edge, the thumb is a white disc with an ink ring, so the value reads without colour.\n// `showValue` prints the current value beside the track.\n\ntype SliderProps = SliderPrimitive.Root.Props & {\n  /** Accessible name per thumb, such as ['Minimum', 'Maximum']. */\n  thumbLabels?: string[];\n  showValue?: boolean;\n};\n\nfunction Slider({className, defaultValue, value, min = 0, max = 100, thumbLabels, showValue, ...props}: SliderProps) {\n  const values = useMemo(() => {\n    const v = value ?? defaultValue;\n    return Array.isArray(v) ? v : [v ?? min];\n  }, [value, defaultValue, min]);\n  return (\n    <SliderPrimitive.Root\n      data-slot=\"slider\"\n      className={mergeClass('flex w-full items-center gap-3', className)}\n      defaultValue={defaultValue}\n      value={value}\n      min={min}\n      max={max}\n      thumbAlignment=\"edge\"\n      {...props}\n    >\n      <SliderPrimitive.Control data-slot=\"slider-control\" className=\"relative flex h-6 w-full touch-none items-center select-none data-disabled:cursor-not-allowed\">\n        <SliderPrimitive.Track data-slot=\"slider-track\" className=\"relative h-1.5 w-full grow rounded-full bg-surface-3 select-none\">\n          <SliderPrimitive.Indicator data-slot=\"slider-range\" className=\"h-full rounded-full bg-accent ring-1 ring-accent-line ring-inset select-none data-disabled:bg-fg-disabled data-disabled:ring-0\"/>\n          {values.map((_, index) => (\n            <SliderPrimitive.Thumb\n              key={index}\n              data-slot=\"slider-thumb\"\n              index={index}\n              getAriaLabel={thumbLabels ? i => thumbLabels[i] ?? '' : undefined}\n              className={cn(\n                'block size-5 shrink-0 cursor-grab rounded-full border-2 border-ink bg-page shadow-card select-none',\n                'transition-[scale] duration-(--dur-fast) ease-out hover:not-data-disabled:scale-105 data-dragging:cursor-grabbing data-dragging:scale-110 motion-reduce:scale-100!',\n                'has-focus-visible:outline-2 has-focus-visible:outline-offset-2 has-focus-visible:outline-ring',\n                'data-disabled:cursor-not-allowed data-disabled:border-line-strong',\n              )}\n            />\n          ))}\n        </SliderPrimitive.Track>\n      </SliderPrimitive.Control>\n      {showValue && (\n        <SliderPrimitive.Value data-slot=\"slider-value\" className=\"min-w-10 shrink-0 text-end text-sm font-medium tabular-nums\">\n          {formatted => formatted.join(' to ')}\n        </SliderPrimitive.Value>\n      )}\n    </SliderPrimitive.Root>\n  );\n}\n\nexport {Slider, type SliderProps};\n",
+   "type": "registry:ui",
+   "target": "@components/lime/ui/slider.tsx"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "select",
+ "type": "registry:ui",
+ "title": "Select",
+ "description": "One choice from a list, such as an account or a category.",
+ "author": "design.how",
+ "categories": [
+  "inputs"
+ ],
+ "dependencies": [
+  "@base-ui/react@^1.8.0",
+  "class-variance-authority@^0.7.1"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/lime/icon.json",
+  "https://design.how/r/lime/popup.json",
+  "https://design.how/r/lime/portal.json",
+  "https://design.how/r/lime/theme.json",
+  "https://design.how/r/lime/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/lime/components/select.md",
+  "page": "https://design.how/systems/lime/components/select"
+ },
+ "files": [
+  {
+   "path": "registry/lime/ui/select.tsx",
+   "content": "'use client';\n\nimport {Select as SelectPrimitive} from '@base-ui/react/select';\nimport {cva, type VariantProps} from 'class-variance-authority';\nimport {Checkmark, ChevronDown, Icon} from '@/components/lime/icon';\nimport {useLimePortal} from '@/lib/lime/portal';\nimport {groupLabelClass, itemClass, popupClass} from '@/lib/lime/popup';\nimport {mergeClass} from '@/lib/lime/utils';\n\n// One choice from a list in a popup. The trigger looks like an Input with a caret; the popup is the same\n// white panel every list uses. Pass `items` to Select so the trigger can show the chosen label before the\n// popup has ever opened. Up to about six options with room to spare, prefer Radio or Segmented; past\n// about twenty, Combobox, which can be searched.\n\nconst triggerVariants = cva(\n  [\n    'group/select-trigger flex w-fit min-w-40 items-center justify-between gap-2 rounded-field border border-line-strong bg-field ps-3 pe-2.5 text-start whitespace-nowrap text-fg select-none',\n    'transition-[border-color] duration-(--dur-instant) ease-out hover:not-data-disabled:not-aria-invalid:border-control data-popup-open:not-aria-invalid:border-accent-line',\n    'focus-visible:border-accent-line focus-visible:outline-offset-0',\n    'aria-invalid:border-danger data-disabled:cursor-not-allowed data-disabled:bg-surface-2 data-disabled:text-fg-disabled',\n    '[&_svg]:pointer-events-none [&_svg]:shrink-0',\n  ],\n  {\n    variants: {\n      size: {sm: 'h-(--control-sm) text-sm', md: 'h-(--control-md) text-sm', lg: 'h-(--control-lg) text-base'},\n    },\n    defaultVariants: {size: 'md'},\n  },\n);\n\nfunction Select<Value = string>(props: SelectPrimitive.Root.Props<Value>) {\n  return <SelectPrimitive.Root data-slot=\"select\" {...props}/>;\n}\n\nfunction SelectGroup({className, ...props}: SelectPrimitive.Group.Props) {\n  return <SelectPrimitive.Group data-slot=\"select-group\" className={className} {...props}/>;\n}\n\nfunction SelectLabel({className, ...props}: SelectPrimitive.GroupLabel.Props) {\n  return <SelectPrimitive.GroupLabel data-slot=\"select-label\" className={mergeClass(groupLabelClass, className)} {...props}/>;\n}\n\ntype SelectTriggerProps = SelectPrimitive.Trigger.Props & VariantProps<typeof triggerVariants> & {\n  /** Shown while nothing is chosen. */\n  placeholder?: string;\n};\n\nfunction SelectTrigger({className, size, placeholder, children, ...props}: SelectTriggerProps) {\n  return (\n    <SelectPrimitive.Trigger data-slot=\"select-trigger\" className={mergeClass(triggerVariants({size}), className)} {...props}>\n      {children ?? <SelectPrimitive.Value placeholder={placeholder} className=\"min-w-0 truncate data-placeholder:text-fg-3\"/>}\n      <SelectPrimitive.Icon className=\"shrink-0 text-fg-3 transition-transform duration-(--dur-fast) group-data-popup-open/select-trigger:rotate-180\"><Icon icon={ChevronDown} size={16}/></SelectPrimitive.Icon>\n    </SelectPrimitive.Trigger>\n  );\n}\n\nfunction SelectContent({className, children, ...props}: SelectPrimitive.Popup.Props) {\n  const container = useLimePortal();\n  return (\n    <SelectPrimitive.Portal container={container}>\n      <SelectPrimitive.Positioner sideOffset={6} alignItemWithTrigger={false} collisionPadding={8} className=\"isolate z-(--z-popover) outline-none\">\n        <SelectPrimitive.Popup data-slot=\"select-content\" className={mergeClass(popupClass, className)} {...props}>\n          <SelectPrimitive.List className=\"max-h-(--popup-max,20rem) overflow-y-auto overscroll-contain\">{children}</SelectPrimitive.List>\n        </SelectPrimitive.Popup>\n      </SelectPrimitive.Positioner>\n    </SelectPrimitive.Portal>\n  );\n}\n\nfunction SelectItem({className, children, ...props}: SelectPrimitive.Item.Props) {\n  return (\n    <SelectPrimitive.Item data-slot=\"select-item\" className={mergeClass(itemClass, className)} {...props}>\n      <SelectPrimitive.ItemText className=\"min-w-0 truncate\">{children}</SelectPrimitive.ItemText>\n      <SelectPrimitive.ItemIndicator className=\"absolute end-2 flex size-4 items-center justify-center\"><Icon icon={Checkmark} size={16}/></SelectPrimitive.ItemIndicator>\n    </SelectPrimitive.Item>\n  );\n}\n\nexport {Select, SelectGroup, SelectLabel, SelectTrigger, SelectContent, SelectItem, triggerVariants};\n",
+   "type": "registry:ui",
+   "target": "@components/lime/ui/select.tsx"
+  }
+ ]
+}

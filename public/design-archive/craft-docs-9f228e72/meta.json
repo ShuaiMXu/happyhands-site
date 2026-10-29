@@ -1,0 +1,87 @@
+{
+ "id": "9f228e72-997a-4410-9190-68359028e3d0",
+ "slug": "craft-docs-9f228e72",
+ "name": "Craft Docs",
+ "site_url": "https://craft.do",
+ "lastmod": "2026-05-11T16:25:39.831Z",
+ "extracted_at": "2026-04-11T17:34:08.934Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "",
+ "north_star": "Digital Scrapbook Collage. The design feels like a thoughtful, tactile scrapbook where structured digital notes meet soft, organic textures.",
+ "fonts": [
+  "UntitledSerifFont",
+  "UntitledSansFont"
+ ],
+ "colors": [
+  {
+   "hex": "#fff3e7",
+   "name": "Canvas"
+  },
+  {
+   "hex": "#030302",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#f7f7f7",
+   "name": "Linen"
+  },
+  {
+   "hex": "#efefef",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#e1e1e1",
+   "name": "Ash"
+  },
+  {
+   "hex": "#bebbba",
+   "name": "Stone"
+  },
+  {
+   "hex": "#41413f",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#9bd8a9",
+   "name": "Mint"
+  },
+  {
+   "hex": "#fde99b",
+   "name": "Marigold"
+  },
+  {
+   "hex": "#b8caf5",
+   "name": "Periwinkle"
+  },
+  {
+   "hex": "#9ed4ef",
+   "name": "Sky"
+  },
+  {
+   "hex": "#ff4500",
+   "name": "Papaya"
+  },
+  {
+   "hex": "#0087ff",
+   "name": "Azure"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/51822098-aeb4-486f-82d2-c9f9b4711459.mp4",
+  "poster": "https://happyhands.cc/design-archive/craft-docs-9f228e72/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/craft-docs-9f228e72/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/craft-docs-9f228e72/thumbnail.jpg"
+}

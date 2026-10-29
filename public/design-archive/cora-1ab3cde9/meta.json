@@ -1,0 +1,80 @@
+{
+ "id": "1ab3cde9-0833-4e38-8ada-fc23156f730e",
+ "slug": "cora-1ab3cde9",
+ "name": "Cora",
+ "site_url": "https://cora.computer",
+ "lastmod": "2026-06-03T20:06:09.578Z",
+ "extracted_at": "2026-06-03T20:06:09.572Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Romantic sky painting with floating desk",
+ "fonts": [
+  "switzer",
+  "signifier",
+  "Times"
+ ],
+ "colors": [
+  {
+   "hex": "#117bc8",
+   "name": "Cerulean Sky"
+  },
+  {
+   "hex": "#0d5c96",
+   "name": "Deep Cerulean"
+  },
+  {
+   "hex": "#60a8dd",
+   "name": "Atmosphere Blue"
+  },
+  {
+   "hex": "#09426c",
+   "name": "Midnight Navy"
+  },
+  {
+   "hex": "#cf372d",
+   "name": "Berry Red"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Cloud White"
+  },
+  {
+   "hex": "#ebebeb",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#dadada",
+   "name": "Fog"
+  },
+  {
+   "hex": "#a1a1a1",
+   "name": "Stone"
+  },
+  {
+   "hex": "#7d7d7d",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#2b2b2b",
+   "name": "Ink"
+  },
+  {
+   "hex": "#1d1b20",
+   "name": "Obsidian"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e99ded6a-2037-42df-a509-7ddc663a3d86.mp4",
+  "poster": "https://happyhands.cc/design-archive/cora-1ab3cde9/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/cora-1ab3cde9/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/cora-1ab3cde9/thumbnail.jpg"
+}

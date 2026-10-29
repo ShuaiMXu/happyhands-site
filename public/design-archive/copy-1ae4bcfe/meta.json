@@ -1,0 +1,124 @@
+{
+ "id": "1ae4bcfe-c613-42fc-aab7-f9583381e7cc",
+ "slug": "copy-1ae4bcfe",
+ "name": "Copy",
+ "site_url": "https://copy.ai",
+ "lastmod": "2026-06-03T16:40:12.638Z",
+ "extracted_at": "2026-06-03T16:40:12.632Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "violet voltage on white blueprint",
+ "fonts": [
+  "Inter",
+  "ABC Normal",
+  "ABC Normal Regular"
+ ],
+ "colors": [
+  {
+   "hex": "#693edf",
+   "name": "Voltage Violet"
+  },
+  {
+   "hex": "#4f1bb7",
+   "name": "Deep Iris"
+  },
+  {
+   "hex": "#4514a6",
+   "name": "Plum Voltage"
+  },
+  {
+   "hex": "#3b0d96",
+   "name": "Royal Purple"
+  },
+  {
+   "hex": "#29007a",
+   "name": "Indigo Abyss"
+  },
+  {
+   "hex": "#c1b9f4",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#7249f1",
+   "name": "Cobalt Vein"
+  },
+  {
+   "hex": "#000b0f",
+   "name": "Ink"
+  },
+  {
+   "hex": "#171717",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#222222",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#364045",
+   "name": "Slate"
+  },
+  {
+   "hex": "#566b76",
+   "name": "Iron"
+  },
+  {
+   "hex": "#5d5d5d",
+   "name": "Steel"
+  },
+  {
+   "hex": "#878787",
+   "name": "Fog"
+  },
+  {
+   "hex": "#a6a6a6",
+   "name": "Ash"
+  },
+  {
+   "hex": "#ccd9e0",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e2e8eb",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#e4edf1",
+   "name": "Ice"
+  },
+  {
+   "hex": "#f6fafb",
+   "name": "Snow"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#1d2130",
+   "name": "Midnight Steel"
+  },
+  {
+   "hex": "#333333",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#535866",
+   "name": "Jet"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c7221418-25f9-4d4d-b059-1e0e1f3b67a0.mp4",
+  "poster": "https://happyhands.cc/design-archive/copy-1ae4bcfe/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/copy-1ae4bcfe/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/copy-1ae4bcfe/thumbnail.jpg"
+}

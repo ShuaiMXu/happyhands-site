@@ -1,0 +1,109 @@
+{
+ "id": "91b110da-902b-4d09-8bf0-26bd1f25f8b2",
+ "slug": "copilot-money-91b110da",
+ "name": "Copilot Money",
+ "site_url": "https://copilot.money",
+ "lastmod": "2026-06-03T22:39:04.025Z",
+ "extracted_at": "2026-06-03T22:39:04.016Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "fintech",
+ "north_star": "Scattered neon tags over a midnight vault — a black canvas where a few candy-colored labels drift at playful angles, each glowing like an airport departure sign.",
+ "fonts": [
+  "sans-serif",
+  "Jokker",
+  "Matter Variable Thin",
+  "Matter-TRIAL SemiBold"
+ ],
+ "colors": [
+  {
+   "hex": "#000814",
+   "name": "Midnight Canvas"
+  },
+  {
+   "hex": "#010d1e",
+   "name": "Deep Surface"
+  },
+  {
+   "hex": "#001533",
+   "name": "Indigo Surface"
+  },
+  {
+   "hex": "#00215e",
+   "name": "Cobalt Surface"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#ccced0",
+   "name": "Fog"
+  },
+  {
+   "hex": "#999ca1",
+   "name": "Mist"
+  },
+  {
+   "hex": "#11263b",
+   "name": "Steel Border"
+  },
+  {
+   "hex": "#1c6cff",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#ff4433",
+   "name": "Tag Coral"
+  },
+  {
+   "hex": "#00cc4b",
+   "name": "Tag Lime"
+  },
+  {
+   "hex": "#ff8833",
+   "name": "Tag Tangerine"
+  },
+  {
+   "hex": "#ff33aa",
+   "name": "Tag Hot Pink"
+  },
+  {
+   "hex": "#9019e6",
+   "name": "Tag Violet"
+  },
+  {
+   "hex": "#ffcc02",
+   "name": "Tag Sunflower"
+  },
+  {
+   "hex": "#00acfe",
+   "name": "Tag Sky"
+  },
+  {
+   "hex": "#ea687c",
+   "name": "Tag Ember"
+  },
+  {
+   "hex": "#94ae43",
+   "name": "Tag Olive"
+  },
+  {
+   "hex": "#5c6f8a",
+   "name": "Tag Slate"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c7e0a5db-7234-464f-a95c-5127d7fa862a.mp4",
+  "poster": "https://happyhands.cc/design-archive/copilot-money-91b110da/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/copilot-money-91b110da/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/copilot-money-91b110da/thumbnail.jpg"
+}

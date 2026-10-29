@@ -1,0 +1,117 @@
+{
+ "id": "a76ec6ba-20b3-495c-9d89-1e58281e79e7",
+ "slug": "column-a76ec6ba",
+ "name": "Column",
+ "site_url": "https://column.com",
+ "lastmod": "2026-07-03T10:10:39.337Z",
+ "extracted_at": "2026-07-03T03:05:33.426Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "deep navy ledger under cool dawn",
+ "fonts": [
+  "SuisseIntl",
+  "SuisseIntlMono",
+  "SFMono",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#111a4a",
+   "name": "Indigo Navy"
+  },
+  {
+   "hex": "#011821",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#3b3e47",
+   "name": "Slate Ink"
+  },
+  {
+   "hex": "#7c7f88",
+   "name": "Steel"
+  },
+  {
+   "hex": "#a9acb6",
+   "name": "Fog"
+  },
+  {
+   "hex": "#cbcccf",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e3e4e8",
+   "name": "Silver Lining"
+  },
+  {
+   "hex": "#f6f6f8",
+   "name": "Cloud Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#232730",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#12161e",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#ec652b",
+   "name": "Signal Orange"
+  },
+  {
+   "hex": "#f2936b",
+   "name": "Peach Glow"
+  },
+  {
+   "hex": "#44b48b",
+   "name": "Seafoam 600"
+  },
+  {
+   "hex": "#167e6c",
+   "name": "Seafoam 700"
+  },
+  {
+   "hex": "#94efb7",
+   "name": "Seafoam 400"
+  },
+  {
+   "hex": "#023247",
+   "name": "Deep Sea"
+  },
+  {
+   "hex": "#88deeb",
+   "name": "Sky Cyan"
+  },
+  {
+   "hex": "#1e4199",
+   "name": "Cobalt Edge"
+  },
+  {
+   "hex": "#0c6997",
+   "name": "Ocean Depth"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3d47cb0a-492f-4fa3-82e6-d59ebb5cf128.mp4",
+  "poster": "https://happyhands.cc/design-archive/column-a76ec6ba/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/column-a76ec6ba/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/column-a76ec6ba/thumbnail.jpg"
+}

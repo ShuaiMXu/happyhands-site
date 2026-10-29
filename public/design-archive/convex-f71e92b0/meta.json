@@ -1,0 +1,104 @@
+{
+ "id": "f71e92b0-d7a5-4203-b975-394f185218c2",
+ "slug": "convex-f71e92b0",
+ "name": "Convex",
+ "site_url": "https://convex.dev",
+ "lastmod": "2026-06-03T17:34:57.367Z",
+ "extracted_at": "2026-06-03T17:34:57.360Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "devtools",
+ "north_star": "Cream paper engineering notebook",
+ "fonts": [
+  "GT America",
+  "ui-monospace / monospace",
+  "monospace"
+ ],
+ "colors": [
+  {
+   "hex": "#141414",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f6f6f6",
+   "name": "Cream Surface"
+  },
+  {
+   "hex": "#f7f1ff",
+   "name": "Lilac Wash"
+  },
+  {
+   "hex": "#292929",
+   "name": "Charcoal Surface"
+  },
+  {
+   "hex": "#38383a",
+   "name": "Graphite Border"
+  },
+  {
+   "hex": "#4f4f52",
+   "name": "Slate Text"
+  },
+  {
+   "hex": "#6d6d70",
+   "name": "Fog Text"
+  },
+  {
+   "hex": "#a9a9ac",
+   "name": "Ash Text"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Mist Divider"
+  },
+  {
+   "hex": "#69bee2",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#8d2676",
+   "name": "Plum Button"
+  },
+  {
+   "hex": "#de5d33",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#fc618d",
+   "name": "Hot Pink"
+  },
+  {
+   "hex": "#948ae3",
+   "name": "Iris Violet"
+  },
+  {
+   "hex": "#7bd88f",
+   "name": "Mint Green"
+  },
+  {
+   "hex": "#f8e67a",
+   "name": "Canary Yellow"
+  },
+  {
+   "hex": "#221f1d",
+   "name": "Dusk Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/1f5fb466-2fad-43b0-aa6c-9af1aaa07535.mp4",
+  "poster": "https://happyhands.cc/design-archive/convex-f71e92b0/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/convex-f71e92b0/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/convex-f71e92b0/thumbnail.jpg"
+}

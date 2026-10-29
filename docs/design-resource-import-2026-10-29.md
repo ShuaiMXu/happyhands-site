@@ -37,3 +37,9 @@ GitHub Actions did not start: GitHub reports that the account is locked due to a
 ## Release
 
 A preview is required for user confirmation before merging, per repository AGENTS.md and `skills/happyhands-ui/SKILL.md`. The production domain is `happyhands.cc`; Vercel project `shakaka/happyhands-design`.
+
+## Cover revision
+
+Replaced the five schematic SVG covers in both the homepage feed and system catalog with captured source specimens: real fonts, theme colors, buttons and representative interfaces. `scripts/capture-system-covers.mjs` regenerates the PNGs from the local built pages without modifying third-party source. Images share a 1000 × 625 logical canvas at 1.5× resolution (under 110 KB each).
+
+Validated a production build, all five images decoding on both routes at 1440px and 390px, and catalog horizontal containment. Visually reviewed desktop catalog and phone homepage captures in `test-results/design-system-live/covers-1440.png` and `home-covers-390.png`. Production merge still awaits preview confirmation.

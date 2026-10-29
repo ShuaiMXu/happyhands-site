@@ -89,10 +89,10 @@ export function SystemLibrary({ lang }: { lang: string }) {
               }}
             >
               <img
-                src={`/system-covers/${id}.svg`}
+                src={`/system-covers/${id}.png`}
                 alt=""
-                width="600"
-                height="320"
+                width="1500"
+                height="938"
               />
               <div className="system-cover-label">
                 <strong>{name}</strong>

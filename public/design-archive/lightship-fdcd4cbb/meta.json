@@ -1,0 +1,58 @@
+{
+ "id": "fdcd4cbb-4db6-4138-9cfd-964795f1e1d6",
+ "slug": "lightship-fdcd4cbb",
+ "name": "Lightship",
+ "site_url": "https://lightshiprv.com",
+ "lastmod": "2026-06-03T17:26:28.091Z",
+ "extracted_at": "2026-06-03T17:26:28.085Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Cinematic open-road diorama. Warm cream gallery walls with oversized landscape photographs pinned at gentle radii, thin black type whispering across the frames, one ember-orange accent breaking the monochrome like a campfire in a meadow.",
+ "fonts": [
+  "F37Bolton"
+ ],
+ "colors": [
+  {
+   "hex": "#faf6ef",
+   "name": "Warm Cream"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#999999",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#a1a1a1",
+   "name": "Driftwood"
+  },
+  {
+   "hex": "#d9d9d9",
+   "name": "Mist"
+  },
+  {
+   "hex": "#fa5c40",
+   "name": "Ember Orange"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d3bdf9a2-8bc5-4692-a08d-dc62686739e6.mp4",
+  "poster": "https://happyhands.cc/design-archive/lightship-fdcd4cbb/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/lightship-fdcd4cbb/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/lightship-fdcd4cbb/thumbnail.jpg"
+}

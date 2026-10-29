@@ -1,0 +1,39 @@
+{
+ "id": "131d07b0-f71b-4bd2-8046-f61485ed545c",
+ "slug": "locomotive-131d07b0",
+ "name": "Locomotive",
+ "site_url": "https://locomotive.ca",
+ "lastmod": "2026-06-05T06:46:28.852Z",
+ "extracted_at": "2026-06-03T19:14:07.711Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Monochrome zine between blood-red slides. Black ink and white paper form the structural grammar; only photography is allowed to scream.",
+ "fonts": [
+  "HelveticaNowDisplay",
+  "LocomotiveNew"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d9691ab9-e83b-4ee6-861c-de7f374fc5ab.mp4",
+  "poster": "https://happyhands.cc/design-archive/locomotive-131d07b0/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/locomotive-131d07b0/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/locomotive-131d07b0/thumbnail.jpg"
+}

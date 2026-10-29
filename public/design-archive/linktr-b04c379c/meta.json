@@ -1,0 +1,85 @@
+{
+ "id": "b04c379c-7c33-4d69-8882-8d85d7768654",
+ "slug": "linktr-b04c379c",
+ "name": "Linktr",
+ "site_url": "https://linktr.ee",
+ "lastmod": "2026-06-03T15:26:07.240Z",
+ "extracted_at": "2026-06-03T15:26:07.229Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "saas",
+ "north_star": "Editorial posters stacked like candy. A full-bleed color-block site where lime green headlines sit on cobalt blue walls and white pill-shaped navs float across maroon fields.",
+ "fonts": [
+  "Arial",
+  "Linksans",
+  "Linksans Linksansvf",
+  "yerk"
+ ],
+ "colors": [
+  {
+   "hex": "#d2e823",
+   "name": "Voltage Lime"
+  },
+  {
+   "hex": "#2665d6",
+   "name": "Cobalt Signal"
+  },
+  {
+   "hex": "#780016",
+   "name": "Bordeaux Maroon"
+  },
+  {
+   "hex": "#1e2330",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Plaster White"
+  },
+  {
+   "hex": "#f3f3f1",
+   "name": "Bone Canvas"
+  },
+  {
+   "hex": "#adadad",
+   "name": "Cement Gray"
+  },
+  {
+   "hex": "#676b5f",
+   "name": "Slate Mute"
+  },
+  {
+   "hex": "#222222",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#e9c0e9",
+   "name": "Lilac Whisper"
+  },
+  {
+   "hex": "#061492",
+   "name": "Indigo Abyss"
+  },
+  {
+   "hex": "#254f1a",
+   "name": "Forest Depth"
+  },
+  {
+   "hex": "#d6a337",
+   "name": "Saffron"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0406fd10-08eb-4af3-9f79-904ae62f0f6e.mp4",
+  "poster": "https://happyhands.cc/design-archive/linktr-b04c379c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/linktr-b04c379c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/linktr-b04c379c/thumbnail.jpg"
+}

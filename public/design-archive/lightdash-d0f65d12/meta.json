@@ -1,0 +1,93 @@
+{
+ "id": "d0f65d12-a8e6-4631-99f7-bb7cdcd5b6c5",
+ "slug": "lightdash-d0f65d12",
+ "name": "Lightdash",
+ "site_url": "https://www.lightdash.com",
+ "lastmod": "2026-06-05T02:11:27.351Z",
+ "extracted_at": "2026-06-03T15:42:56.888Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "violet pixel-grid on drafting paper",
+ "fonts": [
+  "sans-serif",
+  "Britti Sans Trial Semibold",
+  "Britti Sans Medium",
+  "Inter",
+  "Inter Variable",
+  "IBM Plex Mono",
+  "Britti Sans Trial Regular",
+  "Micro 5"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Canvas White"
+  },
+  {
+   "hex": "#f6f8fa",
+   "name": "Cloud Mist"
+  },
+  {
+   "hex": "#eceff3",
+   "name": "Frost Tint"
+  },
+  {
+   "hex": "#cdd2d9",
+   "name": "Ash Border"
+  },
+  {
+   "hex": "#c1c7d0",
+   "name": "Mist Border"
+  },
+  {
+   "hex": "#a4abb8",
+   "name": "Fog Text"
+  },
+  {
+   "hex": "#818898",
+   "name": "Steel Text"
+  },
+  {
+   "hex": "#666d80",
+   "name": "Slate Body"
+  },
+  {
+   "hex": "#36394a",
+   "name": "Graphite Heading"
+  },
+  {
+   "hex": "#272835",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#1a1b25",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#5e4cff",
+   "name": "Volt Violet"
+  },
+  {
+   "hex": "#c8ccf3",
+   "name": "Lavender Wash"
+  },
+  {
+   "hex": "#dfdbff",
+   "name": "Lilac Whisper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/85dd4701-dcb5-417c-b3f2-11ce4f1f6ceb.mp4",
+  "poster": "https://happyhands.cc/design-archive/lightdash-d0f65d12/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/lightdash-d0f65d12/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/lightdash-d0f65d12/thumbnail.jpg"
+}

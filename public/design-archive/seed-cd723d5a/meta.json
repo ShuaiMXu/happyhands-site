@@ -1,0 +1,75 @@
+{
+ "id": "cd723d5a-e7ea-4e4c-a3bb-6cf56e05057a",
+ "slug": "seed-cd723d5a",
+ "name": "Seed",
+ "site_url": "https://seed.com",
+ "lastmod": "2026-07-03T11:07:47.110Z",
+ "extracted_at": "2026-07-03T03:34:14.607Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "living organism under laboratory glass",
+ "fonts": [
+  "Seed Sans",
+  "Seed Sans Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#1c3a13",
+   "name": "Forest Depths"
+  },
+  {
+   "hex": "#d3fa99",
+   "name": "Lime Pulse"
+  },
+  {
+   "hex": "#757c5d",
+   "name": "Sage Moss"
+  },
+  {
+   "hex": "#9f995b",
+   "name": "Olive Gold"
+  },
+  {
+   "hex": "#698e79",
+   "name": "Eucalyptus"
+  },
+  {
+   "hex": "#fcfcf7",
+   "name": "Snow White"
+  },
+  {
+   "hex": "#eeeee9",
+   "name": "Warm Stone"
+  },
+  {
+   "hex": "#c4c7c4",
+   "name": "Frosted Glass"
+  },
+  {
+   "hex": "#b3b3b3",
+   "name": "Ash"
+  },
+  {
+   "hex": "#666666",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6b4d6379-b9e9-44f7-a13f-b5065b24c762.mp4",
+  "poster": "https://happyhands.cc/design-archive/seed-cd723d5a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/seed-cd723d5a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/seed-cd723d5a/thumbnail.jpg"
+}

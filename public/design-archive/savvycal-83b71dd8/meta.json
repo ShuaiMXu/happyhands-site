@@ -1,0 +1,86 @@
+{
+ "id": "83b71dd8-de08-4c57-80b2-9fced17a0ca5",
+ "slug": "savvycal-83b71dd8",
+ "name": "Savvycal",
+ "site_url": "https://savvycal.com",
+ "lastmod": "2026-06-03T19:06:45.096Z",
+ "extracted_at": "2026-06-03T19:06:45.093Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "saas",
+ "north_star": "forest-green stage with cream paper pages, serif headlines and lime-green punctuation",
+ "fonts": [
+  "GT Alpina Condensed",
+  "GT America Standard",
+  "GT America Extended",
+  "GT America Condensed",
+  "InterVariable"
+ ],
+ "colors": [
+  {
+   "hex": "#0d542b",
+   "name": "Forest Stage"
+  },
+  {
+   "hex": "#b9ff78",
+   "name": "Lime Sprout"
+  },
+  {
+   "hex": "#f54320",
+   "name": "Ember Coral"
+  },
+  {
+   "hex": "#ffe3e3",
+   "name": "Coral Whisper"
+  },
+  {
+   "hex": "#fcf7ed",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#000000",
+   "name": "True Black"
+  },
+  {
+   "hex": "#1c1917",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#44403b",
+   "name": "Stone"
+  },
+  {
+   "hex": "#292524",
+   "name": "Slate"
+  },
+  {
+   "hex": "#d6d3d1",
+   "name": "Ash"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Fog"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#008236",
+   "name": "Moss"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b08b77db-69a1-420c-99a3-162e0607793c.mp4",
+  "poster": "https://happyhands.cc/design-archive/savvycal-83b71dd8/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/savvycal-83b71dd8/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/savvycal-83b71dd8/thumbnail.jpg"
+}

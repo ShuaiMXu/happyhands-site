@@ -1,0 +1,91 @@
+{
+ "id": "7c38e84b-aea0-4c8f-b3e9-60b994ee6c6b",
+ "slug": "slash-7c38e84b",
+ "name": "Slash",
+ "site_url": "https://www.slash.com",
+ "lastmod": "2026-07-03T10:37:16.112Z",
+ "extracted_at": "2026-07-03T03:52:06.621Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "fintech",
+ "north_star": "Midnight vault with gilded ledger lines.",
+ "fonts": [
+  "Ivy Presto",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#08080a",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#040406",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#121317",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#1c1d22",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#2e3038",
+   "name": "Slate"
+  },
+  {
+   "hex": "#464853",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#5e616e",
+   "name": "Ash"
+  },
+  {
+   "hex": "#777a88",
+   "name": "Steel"
+  },
+  {
+   "hex": "#9194a1",
+   "name": "Fog"
+  },
+  {
+   "hex": "#acafb9",
+   "name": "Mist"
+  },
+  {
+   "hex": "#c7c9d1",
+   "name": "Silver"
+  },
+  {
+   "hex": "#e2e3e9",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#cc9166",
+   "name": "Copper"
+  },
+  {
+   "hex": "#ae9357",
+   "name": "Gilded Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0af8133f-9c6c-42a2-95c7-fd4f62fe9f90.mp4",
+  "poster": "https://happyhands.cc/design-archive/slash-7c38e84b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/slash-7c38e84b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/slash-7c38e84b/thumbnail.jpg"
+}

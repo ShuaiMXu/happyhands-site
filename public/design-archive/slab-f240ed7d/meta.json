@@ -1,0 +1,63 @@
+{
+ "id": "f240ed7d-d466-478e-bbce-6c93420dfd1c",
+ "slug": "slab-f240ed7d",
+ "name": "Slab",
+ "site_url": "https://slab.com",
+ "lastmod": "2026-06-03T20:05:23.937Z",
+ "extracted_at": "2026-06-03T20:05:23.933Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "productivity",
+ "north_star": "midnight-wine reading room",
+ "fonts": [
+  "Sentinel",
+  "Whitney"
+ ],
+ "colors": [
+  {
+   "hex": "#42022e",
+   "name": "Midnight Wine"
+  },
+  {
+   "hex": "#ff4143",
+   "name": "Coral Ember"
+  },
+  {
+   "hex": "#455360",
+   "name": "Slate Ink"
+  },
+  {
+   "hex": "#939598",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#e0e0e0",
+   "name": "Mist"
+  },
+  {
+   "hex": "#11110f",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#4285f4",
+   "name": "Google Signal Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6035e558-60d8-449d-a5c0-64f86c493189.mp4",
+  "poster": "https://happyhands.cc/design-archive/slab-f240ed7d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/slab-f240ed7d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/slab-f240ed7d/thumbnail.jpg"
+}

@@ -1,0 +1,91 @@
+{
+ "id": "a3af7369-b61c-4923-a628-931861c8097f",
+ "slug": "sanity-io-a3af7369",
+ "name": "Sanity.io",
+ "site_url": "https://sanity.io",
+ "lastmod": "2026-06-03T18:00:47.213Z",
+ "extracted_at": "2026-06-03T18:00:47.206Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "devtools",
+ "north_star": "Geological monolith with orange ignition. Dark agate slabs punctured by a single ember-orange CTA, surrounded by white editorial whitespace.",
+ "fonts": [
+  "Waldenburg",
+  "IBM Plex Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#ff4100",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#0052ef",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#19d600",
+   "name": "Plex Green"
+  },
+  {
+   "hex": "#f500ff",
+   "name": "Plasma Magenta"
+  },
+  {
+   "hex": "#45ff00",
+   "name": "Acid Lime"
+  },
+  {
+   "hex": "#027fff",
+   "name": "Electric Blue"
+  },
+  {
+   "hex": "#0b0b0b",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Canvas White"
+  },
+  {
+   "hex": "#b9b9b9",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#d6d6d6",
+   "name": "Ash"
+  },
+  {
+   "hex": "#212121",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#353535",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#797979",
+   "name": "Mid"
+  },
+  {
+   "hex": "#4a4a4a",
+   "name": "Steel"
+  },
+  {
+   "hex": "#ededed",
+   "name": "Frost"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0caf7f5a-1e77-4626-9811-bf0f378aa8b7.mp4",
+  "poster": "https://happyhands.cc/design-archive/sanity-io-a3af7369/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/sanity-io-a3af7369/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/sanity-io-a3af7369/thumbnail.jpg"
+}

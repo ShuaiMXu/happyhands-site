@@ -1,0 +1,82 @@
+{
+ "id": "5b188bcc-95f6-45b4-b0af-1c78e2ef05f2",
+ "slug": "sequence-5b188bcc",
+ "name": "Sequence",
+ "site_url": "https://light.so/home",
+ "lastmod": "2026-06-03T21:23:02.430Z",
+ "extracted_at": "2026-06-03T21:23:02.423Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "crypto",
+ "north_star": "API console on soft daylight — the interface is the product, and purple is the only power color.",
+ "fonts": [
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#6c00f6",
+   "name": "Electric Iris"
+  },
+  {
+   "hex": "#7f22fe",
+   "name": "Bright Violet"
+  },
+  {
+   "hex": "#4f46e5",
+   "name": "Indigo Drift"
+  },
+  {
+   "hex": "#0f172b",
+   "name": "Midnight Slate"
+  },
+  {
+   "hex": "#1d293d",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#020618",
+   "name": "Ash"
+  },
+  {
+   "hex": "#90a1b9",
+   "name": "Fog"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Silver"
+  },
+  {
+   "hex": "#f1f5f9",
+   "name": "Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#00d492",
+   "name": "Spearmint"
+  },
+  {
+   "hex": "#51a2ff",
+   "name": "Sky Pop"
+  },
+  {
+   "hex": "#fb64b6",
+   "name": "Bubblegum"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0a1b0039-5da1-46eb-a75c-13afbdaaaa9d.mp4",
+  "poster": "https://happyhands.cc/design-archive/sequence-5b188bcc/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/sequence-5b188bcc/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/sequence-5b188bcc/thumbnail.jpg"
+}

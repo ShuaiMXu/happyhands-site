@@ -1,0 +1,57 @@
+{
+ "id": "9ff03bd9-2ce0-474c-8c73-1905dbacc23b",
+ "slug": "sick-agency-9ff03bd9",
+ "name": "SICK AGENCY",
+ "site_url": "https://sick.agency",
+ "lastmod": "2026-06-05T08:26:17.033Z",
+ "extracted_at": "2026-06-03T19:49:00.352Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "agency",
+ "north_star": "Loud printed broadside on a brick wall — a maximalist zine spread screaming from a screen.",
+ "fonts": [
+  "Morganite",
+  "Thunder",
+  "Sentient",
+  "Times"
+ ],
+ "colors": [
+  {
+   "hex": "#ffc700",
+   "name": "Voltage Yellow"
+  },
+  {
+   "hex": "#ff4e27",
+   "name": "Radioactive Orange"
+  },
+  {
+   "hex": "#0029ff",
+   "name": "Electric Cobalt"
+  },
+  {
+   "hex": "#4d170c",
+   "name": "Burnt Sienna"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/56039fd0-0bd6-42bc-9fb3-6f643a5a92a6.mp4",
+  "poster": "https://happyhands.cc/design-archive/sick-agency-9ff03bd9/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/sick-agency-9ff03bd9/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/sick-agency-9ff03bd9/thumbnail.jpg"
+}

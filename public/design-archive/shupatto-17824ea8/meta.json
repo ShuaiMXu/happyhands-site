@@ -1,0 +1,54 @@
+{
+ "id": "17824ea8-ac7d-42ca-97e2-9bf92ebea7e1",
+ "slug": "shupatto-17824ea8",
+ "name": "Shupatto",
+ "site_url": "https://www.shupatto.com/en",
+ "lastmod": "2026-06-05T09:07:11.320Z",
+ "extracted_at": "2026-06-03T19:40:57.383Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Museum vitrine on white marble",
+ "fonts": [
+  "GillSansNova-Book",
+  "GillSansNova-SemiBold",
+  "游ゴシック体 (Yu Gothic)",
+  "CezannePro-DB",
+  "GillSansNova-Medium"
+ ],
+ "colors": [
+  {
+   "hex": "#2d2d2d",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#878887",
+   "name": "Fog"
+  },
+  {
+   "hex": "#738ae5",
+   "name": "Periwinkle"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/788a58e2-783e-495b-84c0-0762d945a7e2.mp4",
+  "poster": "https://happyhands.cc/design-archive/shupatto-17824ea8/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/shupatto-17824ea8/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/shupatto-17824ea8/thumbnail.jpg"
+}

@@ -1,0 +1,64 @@
+{
+ "id": "0cead5f0-0a56-401f-b637-81d1fe457259",
+ "slug": "sapgoodenergy-0cead5f0",
+ "name": "SAPGOODENERGY",
+ "site_url": "https://sapgoodenergy.com",
+ "lastmod": "2026-06-03T19:09:28.950Z",
+ "extracted_at": "2026-06-03T19:09:28.948Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "marathon finish line in a cleanroom",
+ "fonts": [
+  "GT Pressura LC Standard",
+  "Helvetica Neue LT Std",
+  "GTStandard-M"
+ ],
+ "colors": [
+  {
+   "hex": "#ff7840",
+   "name": "Fuel Orange"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#303030",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#707070",
+   "name": "Sterling"
+  },
+  {
+   "hex": "#c0c0c0",
+   "name": "Silversmith"
+  },
+  {
+   "hex": "#e7e7e7",
+   "name": "Bone"
+  },
+  {
+   "hex": "#fffffb",
+   "name": "Lab White"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c80e1d56-a57e-46a7-9081-2e8407757909.mp4",
+  "poster": "https://happyhands.cc/design-archive/sapgoodenergy-0cead5f0/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/sapgoodenergy-0cead5f0/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/sapgoodenergy-0cead5f0/thumbnail.jpg"
+}

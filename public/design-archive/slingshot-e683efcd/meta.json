@@ -1,0 +1,64 @@
+{
+ "id": "e683efcd-b005-4a35-a5ea-d25bcf3de5c0",
+ "slug": "slingshot-e683efcd",
+ "name": "Slingshot",
+ "site_url": "https://www.useslingshot.com",
+ "lastmod": "2026-06-03T21:25:53.419Z",
+ "extracted_at": "2026-06-03T21:25:53.415Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Editorial catalog on white",
+ "fonts": [
+  "sans-serif",
+  "Gopher Medium",
+  "Inter",
+  "Inter",
+  "Inter",
+  "Inter-Bold",
+  "Inter-SemiBold"
+ ],
+ "colors": [
+  {
+   "hex": "#1a5fff",
+   "name": "Cobalt Command"
+  },
+  {
+   "hex": "#ecf2ff",
+   "name": "Cobalt Mist"
+  },
+  {
+   "hex": "#fff4ec",
+   "name": "Apricot Whisper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#edf9f5",
+   "name": "Cool Tint"
+  },
+  {
+   "hex": "#c8c7cd",
+   "name": "Silver"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/bdb6b7bc-1938-44f1-b776-ff64ae552502.mp4",
+  "poster": "https://happyhands.cc/design-archive/slingshot-e683efcd/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/slingshot-e683efcd/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/slingshot-e683efcd/thumbnail.jpg"
+}

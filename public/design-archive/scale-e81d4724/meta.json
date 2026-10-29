@@ -1,0 +1,83 @@
+{
+ "id": "e81d4724-9615-4159-8678-cef35f986cab",
+ "slug": "scale-e81d4724",
+ "name": "Scale",
+ "site_url": "https://scale.com",
+ "lastmod": "2026-07-03T11:04:13.767Z",
+ "extracted_at": "2026-07-03T03:31:46.378Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Museum-quality darkroom gallery meets technical blueprint",
+ "fonts": [
+  "Aeonik",
+  "Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Soft Mist"
+  },
+  {
+   "hex": "#eaeaea",
+   "name": "Pale Stone"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Bone"
+  },
+  {
+   "hex": "#575757",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#929292",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#212121",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#c7c7c7",
+   "name": "Silhouette"
+  },
+  {
+   "hex": "#a8927c",
+   "name": "Warm Sandstone"
+  },
+  {
+   "hex": "#193a29",
+   "name": "Forest Sovereignty"
+  },
+  {
+   "hex": "#79648c",
+   "name": "Dusty Iris"
+  },
+  {
+   "hex": "#839cb2",
+   "name": "Slate Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/aff589e4-fb72-4b3e-862d-af46d449a83b.mp4",
+  "poster": "https://happyhands.cc/design-archive/scale-e81d4724/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/scale-e81d4724/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/scale-e81d4724/thumbnail.jpg"
+}

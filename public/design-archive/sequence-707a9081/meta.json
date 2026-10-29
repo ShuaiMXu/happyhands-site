@@ -1,0 +1,108 @@
+{
+ "id": "707a9081-3d1d-4a0b-b1aa-b58b3fab09af",
+ "slug": "sequence-707a9081",
+ "name": "Sequence",
+ "site_url": "https://www.sequencehq.com",
+ "lastmod": "2026-06-03T17:05:38.566Z",
+ "extracted_at": "2026-06-03T17:05:38.560Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "blueprint paper with violet annotations. A near-white editorial surface where everything is grayscale and one precise violet pulse marks every action worth taking.",
+ "fonts": [
+  "TWK Lausanne",
+  "Moderat Serif",
+  "SF Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#a565ff",
+   "name": "Violet Pulse"
+  },
+  {
+   "hex": "#5e5cff",
+   "name": "Indigo Ink"
+  },
+  {
+   "hex": "#ebebff",
+   "name": "Lavender Wash"
+  },
+  {
+   "hex": "#e0c9ff",
+   "name": "Iris Glow"
+  },
+  {
+   "hex": "#2e7317",
+   "name": "Ledger Green"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f7f7f7",
+   "name": "Bone"
+  },
+  {
+   "hex": "#f1f1f1",
+   "name": "Fog"
+  },
+  {
+   "hex": "#efefef",
+   "name": "Silver"
+  },
+  {
+   "hex": "#fff6df",
+   "name": "Marble"
+  },
+  {
+   "hex": "#1d1d20",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#42424a",
+   "name": "Slate"
+  },
+  {
+   "hex": "#505050",
+   "name": "Iron"
+  },
+  {
+   "hex": "#757575",
+   "name": "Steel"
+  },
+  {
+   "hex": "#92939e",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Ash"
+  },
+  {
+   "hex": "#d1d9e4",
+   "name": "Mist"
+  },
+  {
+   "hex": "#808076",
+   "name": "Olive Gray"
+  },
+  {
+   "hex": "#000000",
+   "name": "Noir"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0a1b0039-5da1-46eb-a75c-13afbdaaaa9d.mp4",
+  "poster": "https://happyhands.cc/design-archive/sequence-707a9081/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/sequence-707a9081/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/sequence-707a9081/thumbnail.jpg"
+}

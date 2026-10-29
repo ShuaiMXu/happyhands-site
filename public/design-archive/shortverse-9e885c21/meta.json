@@ -1,0 +1,63 @@
+{
+ "id": "9e885c21-63ee-42c2-9b85-fd420948e9f4",
+ "slug": "shortverse-9e885c21",
+ "name": "Shortverse",
+ "site_url": "https://www.shortverse.com",
+ "lastmod": "2026-09-20T22:08:43.697Z",
+ "extracted_at": "2026-09-20T22:05:44.287Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "Shortverse — projector beam on white. Let a single full-width film still create the opening drama, then return to a bright editorial index of titles, metadata, and thumbnail strips.",
+ "fonts": [
+  "CooperHewitt",
+  "JetBrainsMono"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "White Screen"
+  },
+  {
+   "hex": "#262626",
+   "name": "Charcoal Ink"
+  },
+  {
+   "hex": "#f1f1f1",
+   "name": "Mist Tile"
+  },
+  {
+   "hex": "#e4eaff",
+   "name": "Lilac Wash"
+  },
+  {
+   "hex": "#eaeaea",
+   "name": "Divider Ash"
+  },
+  {
+   "hex": "#999999",
+   "name": "Metadata Gray"
+  },
+  {
+   "hex": "#a77eff",
+   "name": "Lavender Projector"
+  },
+  {
+   "hex": "#6c00f4",
+   "name": "Ultraviolet Type"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/482b9188-858e-4278-8c5a-7274349010f9.mp4",
+  "poster": "https://happyhands.cc/design-archive/shortverse-9e885c21/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/shortverse-9e885c21/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/shortverse-9e885c21/thumbnail.jpg"
+}

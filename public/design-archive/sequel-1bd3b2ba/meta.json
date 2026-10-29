@@ -1,0 +1,55 @@
+{
+ "id": "1bd3b2ba-9ad9-44ed-9130-03f9d94de821",
+ "slug": "sequel-1bd3b2ba",
+ "name": "Sequel",
+ "site_url": "https://sequel.co",
+ "lastmod": "2026-07-03T10:04:56.128Z",
+ "extracted_at": "2026-07-03T02:56:12.987Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "other",
+ "north_star": "Private screening after dark — a single warm lamp in an otherwise unlit cinema.",
+ "fonts": [
+  "VisueltPro",
+  "Bradford"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#202020",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#333333",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#f5f5f0",
+   "name": "Lamp Cream"
+  },
+  {
+   "hex": "#999999",
+   "name": "Smoke"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b4825b5e-44c5-4b86-8e67-b97307cedd93.mp4",
+  "poster": "https://happyhands.cc/design-archive/sequel-1bd3b2ba/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/sequel-1bd3b2ba/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/sequel-1bd3b2ba/thumbnail.jpg"
+}

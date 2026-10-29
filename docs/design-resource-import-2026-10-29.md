@@ -28,6 +28,12 @@ Runtime adapters only supply demonstration props, such as the range selector cal
 - Normal desktop and phone screenshots reviewed before additional checks; new document shell uses four computed text sizes (12/14/16/24px), semantic site colors and scoped layouts.
 - Owned UI audit reports no findings within its static coverage. It does not establish complete accessibility or visual acceptance.
 
+## Deployment checks
+
+The initial remote install exposed missing optional Next/sharp platform entries pruned while updating dependencies on macOS. The original main lock already contained the matching versions. Those entries were restored without changing versions, and `npm ci --ignore-scripts --dry-run` passed afterward.
+
+GitHub Actions did not start: GitHub reports that the account is locked due to a billing issue. The local validation above was run independently. Vercel's actual build is checked separately.
+
 ## Release
 
 A preview is required for user confirmation before merging, per repository AGENTS.md and `skills/happyhands-ui/SKILL.md`. The production domain is `happyhands.cc`; Vercel project `shakaka/happyhands-design`.

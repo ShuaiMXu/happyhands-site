@@ -1,0 +1,70 @@
+{
+ "id": "355e8465-df7d-486a-9d76-2ace37d076a2",
+ "slug": "peloton-355e8465",
+ "name": "Peloton",
+ "site_url": "https://onepeloton.com",
+ "lastmod": "2026-06-03T19:03:37.211Z",
+ "extracted_at": "2026-06-03T19:03:37.207Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "ecommerce",
+ "north_star": "Red beacon on charcoal runway. A fitness showroom where one electric red CTA cuts through vast dark exhibition space into clean white product galleries.",
+ "fonts": [
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#df1c2f",
+   "name": "Peloton Red"
+  },
+  {
+   "hex": "#181a1d",
+   "name": "Carbon Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#f7f7f7",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#e4e6e7",
+   "name": "Silver Lining"
+  },
+  {
+   "hex": "#65666a",
+   "name": "Slate"
+  },
+  {
+   "hex": "#000000",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#a8acb1",
+   "name": "Fog"
+  },
+  {
+   "hex": "#888b93",
+   "name": "Steel"
+  },
+  {
+   "hex": "#a3a3a6",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c80e1d56-a57e-46a7-9081-2e8407757909.mp4",
+  "poster": "https://happyhands.cc/design-archive/peloton-355e8465/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/peloton-355e8465/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/peloton-355e8465/thumbnail.jpg"
+}

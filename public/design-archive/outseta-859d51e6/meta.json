@@ -1,0 +1,105 @@
+{
+ "id": "859d51e6-fc3f-45e0-a4c4-fe280c400ca7",
+ "slug": "outseta-859d51e6",
+ "name": "Outseta",
+ "site_url": "https://www.outseta.com",
+ "lastmod": "2026-06-03T15:59:10.220Z",
+ "extracted_at": "2026-06-03T15:59:10.214Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Sunset marketplace at golden hour — a warm gradient sky hanging over deep plum night.",
+ "fonts": [
+  "Inter Var",
+  "Kaio",
+  "JetBrains Mono",
+  "Permanent Marker",
+  "Phosphor",
+  "Font Awesome 6 Brands",
+  "Phosphor-Bold",
+  "Phosphor-Fill",
+  "-apple-system",
+  "Family",
+  "Fraunces",
+  "Chakra Petch"
+ ],
+ "colors": [
+  {
+   "hex": "#240029",
+   "name": "Aubergine"
+  },
+  {
+   "hex": "#df37a7",
+   "name": "Fuchsia Signal"
+  },
+  {
+   "hex": "#6d526d",
+   "name": "Heather"
+  },
+  {
+   "hex": "#ffcc11",
+   "name": "Glowstick"
+  },
+  {
+   "hex": "#d4ccd4",
+   "name": "Plum Tinted"
+  },
+  {
+   "hex": "#222222",
+   "name": "Ink"
+  },
+  {
+   "hex": "#bbadbb",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#333333",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#767676",
+   "name": "Frost"
+  },
+  {
+   "hex": "#15803d",
+   "name": "Forest"
+  },
+  {
+   "hex": "#bbf7d0",
+   "name": "Mint"
+  },
+  {
+   "hex": "#dcfce7",
+   "name": "Honeydew"
+  },
+  {
+   "hex": "#ef4444",
+   "name": "Strawberry"
+  },
+  {
+   "hex": "#22c55e",
+   "name": "Mango"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Canvas"
+  },
+  {
+   "hex": "#ffbdd3",
+   "name": "Hero Glow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/434dd72b-28a0-459a-9753-d32cf6edf9bf.mp4",
+  "poster": "https://happyhands.cc/design-archive/outseta-859d51e6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/outseta-859d51e6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/outseta-859d51e6/thumbnail.jpg"
+}

@@ -1,0 +1,72 @@
+{
+ "id": "001480cb-05f4-4802-be39-84b942169481",
+ "slug": "pampam-city-001480cb",
+ "name": "pampam.city",
+ "site_url": "https://www.pampam.city",
+ "lastmod": "2026-06-05T05:05:58.050Z",
+ "extracted_at": "2026-06-03T18:39:34.594Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "Old explorer's notebook on warm cream",
+ "fonts": [
+  "Nineties",
+  "Inter",
+  "-apple-system / system-ui"
+ ],
+ "colors": [
+  {
+   "hex": "#faf2ec",
+   "name": "Parchment Cream"
+  },
+  {
+   "hex": "#1b1917",
+   "name": "Warm Ink"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#8f8f8f",
+   "name": "Ash"
+  },
+  {
+   "hex": "#9894a8",
+   "name": "Slate Lavender"
+  },
+  {
+   "hex": "#222222",
+   "name": "Iron"
+  },
+  {
+   "hex": "#4b72f3",
+   "name": "Periwinkle"
+  },
+  {
+   "hex": "#2b3ea7",
+   "name": "Deep Violet"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d966af05-50b4-421a-96ad-7d8cf6359f57.mp4",
+  "poster": "https://happyhands.cc/design-archive/pampam-city-001480cb/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/pampam-city-001480cb/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/pampam-city-001480cb/thumbnail.jpg"
+}

@@ -1,0 +1,75 @@
+{
+ "id": "409d92b9-00a8-4e21-a430-ab95ea48204f",
+ "slug": "pastel-409d92b9",
+ "name": "Pastel",
+ "site_url": "https://usepastel.com",
+ "lastmod": "2026-06-05T07:34:18.584Z",
+ "extracted_at": "2026-06-03T19:30:06.600Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Quiet paper notebook with one vivid ink stamp",
+ "fonts": [
+  "Figtree",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#f5f5f4",
+   "name": "Paper Stone"
+  },
+  {
+   "hex": "#e6e3e2",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#111111",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#222222",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#78716b",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#646464",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#d1dee8",
+   "name": "Ice Line"
+  },
+  {
+   "hex": "#d7d3d1",
+   "name": "Ash"
+  },
+  {
+   "hex": "#45403c",
+   "name": "Charcoal Block"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#165dfb",
+   "name": "Cobalt Stamp"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/48aa4dbb-1562-40b2-b259-bae328058b28.mp4",
+  "poster": "https://happyhands.cc/design-archive/pastel-409d92b9/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/pastel-409d92b9/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/pastel-409d92b9/thumbnail.jpg"
+}

@@ -1,0 +1,71 @@
+{
+ "id": "c90e63f8-76c1-4159-9460-29e0d18751ae",
+ "slug": "parloa-c90e63f8",
+ "name": "Parloa",
+ "site_url": "https://www.parloa.com",
+ "lastmod": "2026-06-03T19:26:16.146Z",
+ "extracted_at": "2026-06-03T19:26:16.141Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "warm editorial paper with ink and highlighter",
+ "fonts": [
+  "Exposure30",
+  "Geist"
+ ],
+ "colors": [
+  {
+   "hex": "#1f1c1b",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#ebe9e1",
+   "name": "Canvas Cream"
+  },
+  {
+   "hex": "#f5f4f0",
+   "name": "Linen"
+  },
+  {
+   "hex": "#a69b92",
+   "name": "Stone"
+  },
+  {
+   "hex": "#d9d6ce",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#2d2724",
+   "name": "Espresso"
+  },
+  {
+   "hex": "#000000",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#c7c1b7",
+   "name": "Cobblestone"
+  },
+  {
+   "hex": "#ff7714",
+   "name": "Highlighter Orange"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/99b3767a-a29a-4a8c-8a62-1909ccc6ce56.mp4",
+  "poster": "https://happyhands.cc/design-archive/parloa-c90e63f8/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/parloa-c90e63f8/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/parloa-c90e63f8/thumbnail.jpg"
+}

@@ -1,0 +1,62 @@
+{
+ "id": "bb94375b-cf09-47d4-a2e3-7b332b2c9216",
+ "slug": "patreon-bb94375b",
+ "name": "Patreon",
+ "site_url": "https://www.patreon.com",
+ "lastmod": "2026-06-03T19:53:40.405Z",
+ "extracted_at": "2026-06-03T19:53:40.401Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "White gallery for creator portraits — a near-blank editorial stage where the only color lives inside the frame.",
+ "fonts": [
+  "Oracle"
+ ],
+ "colors": [
+  {
+   "hex": "#1a1a1a",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Stage Black"
+  },
+  {
+   "hex": "#959595",
+   "name": "Concrete"
+  },
+  {
+   "hex": "#90867a",
+   "name": "Stone"
+  },
+  {
+   "hex": "#94bbff",
+   "name": "Sky Tint"
+  },
+  {
+   "hex": "#71a0ff",
+   "name": "Deep Sky"
+  },
+  {
+   "hex": "#002a57",
+   "name": "Brand Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/37372d73-f02a-4b37-b9cb-b0b3e0528c44.mp4",
+  "poster": "https://happyhands.cc/design-archive/patreon-bb94375b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/patreon-bb94375b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/patreon-bb94375b/thumbnail.jpg"
+}

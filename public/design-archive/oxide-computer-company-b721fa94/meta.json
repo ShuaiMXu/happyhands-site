@@ -1,0 +1,95 @@
+{
+ "id": "b721fa94-72e6-49ad-a9bc-bab3d075f19c",
+ "slug": "oxide-computer-company-b721fa94",
+ "name": "Oxide Computer Company",
+ "site_url": "https://oxide.computer",
+ "lastmod": "2026-06-03T15:49:13.616Z",
+ "extracted_at": "2026-06-03T15:49:13.609Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "Datacenter rack at midnight with one green LED lit",
+ "fonts": [
+  "SuisseIntl",
+  "GT America Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#0b0e12",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#181a1d",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#1f2124",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#303235",
+   "name": "Slate Base"
+  },
+  {
+   "hex": "#5d5e61",
+   "name": "Fog"
+  },
+  {
+   "hex": "#818284",
+   "name": "Steel"
+  },
+  {
+   "hex": "#a3a4a5",
+   "name": "Ash"
+  },
+  {
+   "hex": "#bababb",
+   "name": "Silver"
+  },
+  {
+   "hex": "#dedede",
+   "name": "Bone"
+  },
+  {
+   "hex": "#00d892",
+   "name": "Phosphor Green"
+  },
+  {
+   "hex": "#002923",
+   "name": "Deep Teal"
+  },
+  {
+   "hex": "#005441",
+   "name": "Emerald Depth"
+  },
+  {
+   "hex": "#9f3f53",
+   "name": "Diagnostic Magenta"
+  },
+  {
+   "hex": "#c58aff",
+   "name": "Syntax Violet"
+  },
+  {
+   "hex": "#ff6285",
+   "name": "Syntax Coral"
+  },
+  {
+   "hex": "#006d4a",
+   "name": "Syntax Forest"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a6608de2-b7bb-445f-ab4a-95821e2363ff.mp4",
+  "poster": "https://happyhands.cc/design-archive/oxide-computer-company-b721fa94/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/oxide-computer-company-b721fa94/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/oxide-computer-company-b721fa94/thumbnail.jpg"
+}

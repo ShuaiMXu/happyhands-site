@@ -1,0 +1,109 @@
+{
+ "id": "542453bb-1895-45fe-95c9-66dbacbf1b08",
+ "slug": "palette-supply-542453bb",
+ "name": "Palette Supply",
+ "site_url": "https://palette.supply",
+ "lastmod": "2026-06-05T00:50:47.424Z",
+ "extracted_at": "2026-06-03T15:14:58.926Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "art-supply shelf in a sunlit studio",
+ "fonts": [
+  "ui-sans-serif",
+  "esbuild",
+  "ppsupply",
+  "PPSupplyMonoLight"
+ ],
+ "colors": [
+  {
+   "hex": "#f2f0e9",
+   "name": "Studio Cream"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#141212",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#a1a0a0",
+   "name": "Pencil Gray"
+  },
+  {
+   "hex": "#dde5d8",
+   "name": "Sage Wash"
+  },
+  {
+   "hex": "#d7d7c8",
+   "name": "Studio Ivory"
+  },
+  {
+   "hex": "#3051a8",
+   "name": "Cobalt Command"
+  },
+  {
+   "hex": "#3f593d",
+   "name": "Forest Ink"
+  },
+  {
+   "hex": "#f89c35",
+   "name": "Marigold"
+  },
+  {
+   "hex": "#f6dc2e",
+   "name": "Buttercup"
+  },
+  {
+   "hex": "#0159bd",
+   "name": "Cobalt Pop"
+  },
+  {
+   "hex": "#863a29",
+   "name": "Terracotta"
+  },
+  {
+   "hex": "#ed93af",
+   "name": "Rose Clay"
+  },
+  {
+   "hex": "#a0674f",
+   "name": "Rust"
+  },
+  {
+   "hex": "#b99572",
+   "name": "Wheat"
+  },
+  {
+   "hex": "#d8c660",
+   "name": "Saffron"
+  },
+  {
+   "hex": "#a9ab72",
+   "name": "Olive Stone"
+  },
+  {
+   "hex": "#dcc5bd",
+   "name": "Linen Blush"
+  },
+  {
+   "hex": "#c7b8ab",
+   "name": "Stone"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/08a2a4a1-6835-457d-a5cd-16b440a09d02.mp4",
+  "poster": "https://happyhands.cc/design-archive/palette-supply-542453bb/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/palette-supply-542453bb/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/palette-supply-542453bb/thumbnail.jpg"
+}

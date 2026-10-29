@@ -1,0 +1,58 @@
+{
+ "id": "e9fff87a-63ce-4c19-840f-98233db62f58",
+ "slug": "perplexity-ai-e9fff87a",
+ "name": "Perplexity AI",
+ "site_url": "https://www.perplexity.ai",
+ "lastmod": "2026-06-05T12:44:28.031Z",
+ "extracted_at": "2026-06-03T22:04:09.750Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Warm research terminal. A cream-toned search bar floats on aged-paper canvas, surrounded by quiet monochrome controls — the calm of a library reading desk distilled into a single input field.",
+ "fonts": [
+  "pplxSans"
+ ],
+ "colors": [
+  {
+   "hex": "#faf8f5",
+   "name": "Aged Paper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#27251e",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#72706b",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#92918b",
+   "name": "Stone"
+  },
+  {
+   "hex": "#d1d1cd",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#016a71",
+   "name": "Deep Teal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/23f333b9-fda4-4ce2-9c2c-a3a8b0af0e59.mp4",
+  "poster": "https://happyhands.cc/design-archive/perplexity-ai-e9fff87a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/perplexity-ai-e9fff87a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/perplexity-ai-e9fff87a/thumbnail.jpg"
+}

@@ -1,0 +1,67 @@
+{
+ "id": "655340ae-abff-4a90-8545-8feb62411f68",
+ "slug": "x-formerly-twitter-655340ae",
+ "name": "X (formerly Twitter)",
+ "site_url": "https://create.video",
+ "lastmod": "2026-06-03T19:32:01.471Z",
+ "extracted_at": "2026-06-03T19:32:01.467Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "blue wire on white newsprint. A stark, content-first timeline where one vivid blue punctures an otherwise monochrome interface, and pill-shaped controls signal action without weight.",
+ "fonts": [
+  "TwitterChirp",
+  "Times"
+ ],
+ "colors": [
+  {
+   "hex": "#1d9bf0",
+   "name": "X Blue"
+  },
+  {
+   "hex": "#0f1419",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#536471",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#829aab",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#eff3f4",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#cfd9de",
+   "name": "Hairline Gray"
+  },
+  {
+   "hex": "#e0e4e7",
+   "name": "Shadow Dust"
+  },
+  {
+   "hex": "#4b4f53",
+   "name": "Charcoal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e82369d0-7896-44fd-b1ca-9fcf7414fafb.mp4",
+  "poster": "https://happyhands.cc/design-archive/x-formerly-twitter-655340ae/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/x-formerly-twitter-655340ae/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/x-formerly-twitter-655340ae/thumbnail.jpg"
+}

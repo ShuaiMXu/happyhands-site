@@ -1,0 +1,32 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "bulk-action-bar",
+ "type": "registry:ui",
+ "title": "Bulk action bar",
+ "description": "Acts on the rows a person selected.",
+ "author": "design.how",
+ "categories": [
+  "data"
+ ],
+ "dependencies": [
+  "@base-ui/react@^1.8.0"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/glaze/button.json",
+  "https://design.how/r/glaze/icon.json",
+  "https://design.how/r/glaze/theme.json",
+  "https://design.how/r/glaze/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/glaze/components/bulk-action-bar.md",
+  "page": "https://design.how/systems/glaze/components/bulk-action-bar"
+ },
+ "files": [
+  {
+   "path": "registry/glaze/ui/bulk-action-bar.tsx",
+   "content": "'use client';\n\nimport * as React from 'react';\nimport {Toolbar as ToolbarPrimitive} from '@base-ui/react/toolbar';\nimport {Icon, Close} from '@/components/glaze/icon';\nimport {cn, mergeClass} from '@/lib/glaze/utils';\nimport {Button, type ButtonProps} from '@/components/glaze/ui/button';\n\n// Glaze's bulk action bar: what a person can do to the rows they have selected. It is one line of controls, so it is a\n// pill, like every one-line control in Glaze: paper with the overlay's 1px ring, 36px tall, the count first, a\n// hairline, the actions as size=\"sm\" Buttons, then a ghost clear at the end. No shadow; floating, it lifts off the page\n// with the ring, as a menu does.\n//\n// The actions follow Button's one-primary rule: every one is a flat secondary, except at most one that leads. Delete\n// and revoke lead in coral (destructive), because they cannot be undone; nothing in the bar is green.\n//\n// It is a toolbar (Base UI Toolbar): one tab stop, the arrow keys between its controls, and Escape clears the\n// selection. It hides when nothing is selected, but its status line stays mounted, so \"3 runs selected\" and\n// \"Selection cleared\" are announced.\n\ntype BulkActionBarProps = Omit<ToolbarPrimitive.Root.Props, 'children'> & {\n  /** How many rows are selected. 0 hides the bar. */\n  count: number;\n  /** The thing selected, singular and plural: ['run', 'runs']. */\n  noun?: [string, string];\n  /** Clears the selection. Bound to the clear button and to Escape. */\n  onClear?: () => void;\n  /** inline: in flow, above the rows. floating: fixed to the bottom centre of the viewport. */\n  position?: 'inline' | 'floating';\n  children?: React.ReactNode;\n};\n\nfunction BulkActionBar({count, noun = ['item', 'items'], onClear, position = 'inline', className, children, onKeyDown, ...props}: BulkActionBarProps) {\n  const label = `${count.toLocaleString('en-US')} ${count === 1 ? noun[0] : noun[1]} selected`;\n  const [announcement, setAnnouncement] = React.useState('');\n  const previous = React.useRef(count);\n  React.useEffect(() => {\n    if (count === previous.current) return;\n    setAnnouncement(count === 0 ? 'Selection cleared' : label);\n    previous.current = count;\n  }, [count, label]);\n\n  return <>\n    <ToolbarPrimitive.Root\n      data-slot=\"bulk-action-bar\"\n      data-position={position}\n      aria-label={`Actions for ${label}`}\n      hidden={count === 0}\n      onKeyDown={event => {\n        if (event.key === 'Escape' && onClear) { event.preventDefault(); onClear(); }\n        onKeyDown?.(event);\n      }}\n      className={mergeClass([\n        'flex h-(--control-lg) w-fit max-w-full min-w-0 items-center gap-1 rounded-pill border border-line bg-paper ps-4 pe-1 text-text-1',\n        'forced-colors:border-[CanvasText]',\n        'data-[position=floating]:fixed data-[position=floating]:inset-x-4 data-[position=floating]:bottom-6 data-[position=floating]:z-(--z-sticky) data-[position=floating]:mx-auto',\n        count === 0 && 'hidden',\n      ], className)}\n      {...props}\n    >\n      <span data-slot=\"bulk-action-bar-count\" className=\"shrink-0 type-label whitespace-nowrap\"><span className=\"data\">{count.toLocaleString('en-US')}</span> selected</span>\n      <span aria-hidden className=\"mx-2 h-4 w-px shrink-0 bg-line\"/>\n      <div data-slot=\"bulk-action-bar-actions\" className=\"-my-1 flex min-w-0 items-center gap-1 overflow-x-auto py-1 [scrollbar-width:none]\">{children}</div>\n      {onClear && <ToolbarPrimitive.Button\n        render={<Button variant=\"ghost\" size=\"icon-sm\"/>}\n        aria-label=\"Clear selection\"\n        onClick={onClear}\n        className=\"ms-1 shrink-0\"\n      ><Icon icon={Close} size={12}/></ToolbarPrimitive.Button>}\n    </ToolbarPrimitive.Root>\n    <span role=\"status\" className=\"sr-only\">{announcement}</span>\n  </>;\n}\n\ntype BulkActionProps = Omit<ButtonProps, 'size'> & {\n  /** secondary (flat) for every action but the one that leads; destructive (coral) or primary (ink) for that one. */\n  variant?: 'secondary' | 'primary' | 'destructive';\n};\n\n/** One action in the bar: a size=\"sm\" Button that joins the toolbar's arrow-key order. Flat unless it leads. */\nfunction BulkAction({variant = 'secondary', className, ...props}: BulkActionProps) {\n  return <ToolbarPrimitive.Button\n    data-slot=\"bulk-action\"\n    render={<Button variant={variant} size=\"sm\"/>}\n    className={mergeClass(cn('shrink-0'), className as string | undefined)}\n    {...(props as ToolbarPrimitive.Button.Props)}\n  />;\n}\n\nexport {BulkActionBar, BulkAction, type BulkActionBarProps, type BulkActionProps};\n",
+   "type": "registry:ui",
+   "target": "@components/glaze/ui/bulk-action-bar.tsx"
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "toolbar",
+ "type": "registry:ui",
+ "title": "Toolbar",
+ "description": "Holds a row of actions on one thing.",
+ "author": "design.how",
+ "categories": [
+  "actions"
+ ],
+ "dependencies": [
+  "@base-ui/react@^1.8.0"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/glaze/button.json",
+  "https://design.how/r/glaze/theme.json",
+  "https://design.how/r/glaze/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/glaze/components/toolbar.md",
+  "page": "https://design.how/systems/glaze/components/toolbar"
+ },
+ "files": [
+  {
+   "path": "registry/glaze/ui/toolbar.tsx",
+   "content": "'use client';\n\nimport {createContext, useContext} from 'react';\nimport {Toggle as TogglePrimitive} from '@base-ui/react/toggle';\nimport {Toolbar as ToolbarPrimitive} from '@base-ui/react/toolbar';\nimport {cn, mergeClass} from '@/lib/glaze/utils';\nimport {Button, buttonVariants, type ButtonProps} from '@/components/glaze/ui/button';\n\n// Glaze's toolbar, on Base UI's Toolbar: a row of icon and text actions on one thing (an answer, a draft, a run's\n// output). It is one tab stop; the arrow keys move between its items, Home and End jump to the ends.\n//\n// Flat, with no track and no box: the items are ghost Buttons, so the row sits on whatever surface holds it, a panel,\n// the shell's footer or the page. A toolbar is a group of actions, so it holds at most one primary (ink, coral or\n// green glass), at the end, and everything else stays ghost or the flat secondary; the lint's one-primary counts a\n// Toolbar as one group.\n//\n// ToolbarToggle is an on or off setting (wrap lines, show timestamps). Pressed is the pressed wash, ink at 10%, never\n// glass: it is a thing you have your hand on, not a value chosen inside a control. ToolbarSeparator is a 1px rule\n// between groups, 16px tall, 4px clear each side.\n//\n// size sets every item: default 32px, sm 26px. iconOnly makes an item square; it then needs an aria-label.\n//\n// Items never wrap or truncate. A toolbar wider than its container scrolls sideways. The scroll box keeps 4px of room\n// round the items so the focus ring is never clipped, and gives it back with a -4px margin, so the items line up with\n// the text around them.\n\ntype ToolbarSize = 'sm' | 'default';\nconst SizeContext = createContext<ToolbarSize>('default');\n\ntype ToolbarProps = ToolbarPrimitive.Root.Props & {\n  /** Every item's height: default 32px, sm 26px. */\n  size?: ToolbarSize;\n};\n\nfunction Toolbar({className, size = 'default', ...props}: ToolbarProps) {\n  return <SizeContext.Provider value={size}>\n    <ToolbarPrimitive.Root\n      data-slot=\"toolbar\"\n      data-size={size}\n      className={mergeClass('-m-1 flex w-max max-w-[calc(100%+var(--space-2))] min-w-0 items-center gap-0.5 overflow-x-auto p-1 [scrollbar-width:none]', className)}\n      {...props}\n    />\n  </SizeContext.Provider>;\n}\n\n/** A set of items that belong together. disabled turns every item in it off. */\nfunction ToolbarGroup({className, ...props}: ToolbarPrimitive.Group.Props) {\n  return <ToolbarPrimitive.Group data-slot=\"toolbar-group\" className={mergeClass('flex shrink-0 items-center gap-0.5', className)} {...props}/>;\n}\n\nfunction itemSize(size: ToolbarSize, iconOnly?: boolean): NonNullable<ButtonProps['size']> {\n  if (iconOnly) return size === 'sm' ? 'icon-sm' : 'icon';\n  return size === 'sm' ? 'sm' : 'default';\n}\n\ntype ToolbarButtonProps = Omit<ToolbarPrimitive.Button.Props, 'render'> & {\n  /** ghost (the default) for every quiet action; secondary for a flat one; primary, confirm or destructive for the one lead. */\n  variant?: ButtonProps['variant'];\n  /** A square item holding only an icon. Give it an aria-label. */\n  iconOnly?: boolean;\n  pending?: boolean;\n};\n\nfunction ToolbarButton({variant = 'ghost', iconOnly, pending, className, children, ...props}: ToolbarButtonProps) {\n  const size = useContext(SizeContext);\n  return <ToolbarPrimitive.Button\n    data-slot=\"toolbar-button\"\n    render={<Button variant={variant} size={itemSize(size, iconOnly)} pending={pending}/>}\n    className={mergeClass(['max-w-none', !iconOnly && (size === 'sm' ? 'px-2' : 'px-2.5')], className)}\n    {...props}\n  >{children}</ToolbarPrimitive.Button>;\n}\n\ntype ToolbarToggleProps = Omit<TogglePrimitive.Props, 'render'> & {\n  /** A square item holding only an icon. Give it an aria-label. */\n  iconOnly?: boolean;\n};\n\n/** An on or off setting. Pressed takes the pressed wash and sets aria-pressed. */\nfunction ToolbarToggle({iconOnly, className, ...props}: ToolbarToggleProps) {\n  const size = useContext(SizeContext);\n  return <ToolbarPrimitive.Button\n    data-slot=\"toolbar-toggle\"\n    render={<TogglePrimitive\n      className={mergeClass([\n        buttonVariants({variant: 'ghost', size: itemSize(size, iconOnly)}),\n        'max-w-none',\n        !iconOnly && (size === 'sm' ? 'px-2' : 'px-2.5'),\n        'text-text-2 hover:not-data-disabled:text-text-1',\n        'data-pressed:bg-pressed data-pressed:text-text-1 data-pressed:hover:not-data-disabled:bg-pressed',\n        'forced-colors:data-pressed:border-2',\n      ], className)}\n      {...props}\n    />}\n  />;\n}\n\n/** A 1px rule between two groups of items. */\nfunction ToolbarSeparator({className, ...props}: ToolbarPrimitive.Separator.Props) {\n  return <ToolbarPrimitive.Separator\n    data-slot=\"toolbar-separator\"\n    className={cn('mx-1 h-4 w-px shrink-0 bg-line forced-colors:bg-[CanvasText]', className)}\n    {...props}\n  />;\n}\n\nexport {Toolbar, ToolbarGroup, ToolbarButton, ToolbarToggle, ToolbarSeparator, type ToolbarProps, type ToolbarButtonProps, type ToolbarToggleProps};\n",
+   "type": "registry:ui",
+   "target": "@components/glaze/ui/toolbar.tsx"
+  }
+ ]
+}

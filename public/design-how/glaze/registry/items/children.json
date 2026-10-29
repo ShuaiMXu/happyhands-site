@@ -1,0 +1,23 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "children",
+ "type": "registry:lib",
+ "title": "Children",
+ "description": "Support file: isPart, which tells which part a child element is even when a server component composed it, for the compound components that read their children.",
+ "author": "design.how",
+ "categories": [
+  "internal"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/glaze.md",
+  "page": "https://design.how/systems/glaze"
+ },
+ "files": [
+  {
+   "path": "registry/glaze/lib/children.ts",
+   "content": "import {isValidElement, type ComponentType, type ReactElement, type ReactNode} from 'react';\n\n// Which part a child element is, for the few compound components that read their children before they\n// render them (Tooltip's label, Wizard's steps).\n//\n// Why not `child.type === Part`: a child composed in a server component reaches a client component as a\n// lazy client reference, not the function, so the comparison is false for every docs page and every\n// server-rendered app screen, and works only when the parent is itself composed on the client. That bug\n// shipped more than once, so every type check goes through isPart and nowhere else.\n//\n// The lazy wrapper is React's own object ({$$typeof: Symbol.for('react.lazy'), _payload, _init}); calling\n// _init is how React itself resolves it, and once the client module has loaded it returns the function\n// synchronously. It is not public API, so it lives here, in one place, and a change in React breaks one\n// file. Components that can avoid reading their children should: Resizable registers its panels from\n// context instead, and needs none of this.\n\nconst LAZY = Symbol.for('react.lazy');\n\ntype MaybeLazy = {$$typeof?: symbol; _init?: (payload: unknown) => unknown; _payload?: unknown};\n\n/** The component behind an element's type, resolving a lazy client reference. */\nfunction resolveType(type: unknown): unknown {\n  const lazy = type as MaybeLazy | null;\n  if (!lazy || typeof lazy !== 'object' || lazy.$$typeof !== LAZY || !lazy._init) return type;\n  try {\n    return lazy._init(lazy._payload);\n  } catch {\n    // Still loading: React throws the pending promise. The part cannot be known yet.\n    return null;\n  }\n}\n\n/** True when the node is an element of the given part, whether composed on the server or the client. */\nexport function isPart<P>(node: ReactNode, part: ComponentType<P>): node is ReactElement<P> {\n  return isValidElement(node) && (node.type === part || resolveType(node.type) === part);\n}\n",
+   "type": "registry:lib",
+   "target": "@lib/glaze/children.ts"
+  }
+ ]
+}

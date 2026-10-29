@@ -1,0 +1,33 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "booking-approval",
+ "type": "registry:block",
+ "title": "Booking approval",
+ "description": "The assistant asks before it pays a deposit, at phone width: the ask, why it checks and the booking card with Book table.",
+ "author": "design.how",
+ "categories": [
+  "block",
+  "ai",
+  "mobile"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/glaze/button.json",
+  "https://design.how/r/glaze/card.json",
+  "https://design.how/r/glaze/item.json",
+  "https://design.how/r/glaze/message.json",
+  "https://design.how/r/glaze/response.json",
+  "https://design.how/r/glaze/theme.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/glaze.md",
+  "page": "https://design.how/systems/glaze"
+ },
+ "files": [
+  {
+   "path": "registry/glaze/blocks/booking-approval.tsx",
+   "content": "'use client';\n\nimport {Message, MessageBubble, MessageBubbleContent, MessageContent, MessageHeader, AgentTurn} from '@/components/glaze/ai/message';\nimport {Response} from '@/components/glaze/ai/response';\nimport {Button} from '@/components/glaze/ui/button';\nimport {Card, CardContent, CardFooter, CardHeader, CardMeta, CardTitle} from '@/components/glaze/ui/card';\nimport {Item, ItemContent, ItemGroup, ItemTitle} from '@/components/glaze/ui/item';\n\n// A block: the assistant asks before it spends, at phone width. The person's ask in the outline bubble, then the\n// assistant's turn: why it is asking, in a line, and the booking as a card of three rows. Book table is the green confirm, because it says yes to\n// something proposed; Not now sits beside it, flat. Wire `booking` to your assistant's proposal.\n\nconst booking = [\n  {label: 'When', value: 'Fri, Oct 23, 7:30 pm'},\n  {label: 'Where', value: 'Linden Table'},\n  {label: 'Deposit', value: '$40'},\n];\n\n/** The ask, the reason it checks first and the booking, with Book table. */\nexport function BookingApproval({className}: {className?: string}) {\n  return (\n    <section aria-label=\"Book a table\" className={className ?? 'flex w-full max-w-sm flex-col gap-3'}>\n      <Message from=\"user\" className=\"px-0\">\n        <MessageContent>\n          <MessageHeader className=\"sr-only\">You</MessageHeader>\n          <MessageBubble variant=\"outline\">\n            <MessageBubbleContent>Book a quiet table for four on Friday.</MessageBubbleContent>\n          </MessageBubble>\n        </MessageContent>\n      </Message>\n      <AgentTurn name=\"Assistant\" state=\"waiting\" className=\"px-0\">\n        <Response>Found a corner table. It needs a deposit, so I&apos;m asking first.</Response>\n        <Card>\n          <CardHeader>\n            <CardTitle>Table for four</CardTitle>\n          </CardHeader>\n          <CardContent flush>\n            <ItemGroup variant=\"plain\" aria-label=\"Booking\">\n              {booking.map(b => <Item key={b.label}>\n                <ItemContent><ItemTitle className=\"text-text-2\">{b.label}</ItemTitle></ItemContent>\n                <span className=\"shrink-0 type-body-sm data\">{b.value}</span>\n              </Item>)}\n            </ItemGroup>\n          </CardContent>\n          <CardFooter>\n            <CardMeta>Held till 6 pm</CardMeta>\n            <Button size=\"sm\" variant=\"secondary\">Not now</Button>\n            <Button size=\"sm\" variant=\"confirm\">Book table</Button>\n          </CardFooter>\n        </Card>\n      </AgentTurn>\n    </section>\n  );\n}\n",
+   "type": "registry:block",
+   "target": "@components/glaze/blocks/booking-approval.tsx"
+  }
+ ]
+}

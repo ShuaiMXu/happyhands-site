@@ -1,0 +1,113 @@
+{
+ "id": "a541789c-36e7-45a4-9d1d-143921a82a8b",
+ "slug": "zed-a541789c",
+ "name": "Zed",
+ "site_url": "https://zed.dev",
+ "lastmod": "2026-06-03T15:17:35.895Z",
+ "extracted_at": "2026-06-03T15:17:35.888Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "Blueprint workshop, wide open. A near-white gridded page held together by a single deep violet-blue and the calm authority of a humanist serif — every screen feels like a chapter in a well-printed technical manual.",
+ "fonts": [
+  "Writer",
+  "Plex Serif",
+  "Zed Mono",
+  "ui-monospace"
+ ],
+ "colors": [
+  {
+   "hex": "#1348dc",
+   "name": "Hero Violet"
+  },
+  {
+   "hex": "#2b7fff",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#8ec5ff",
+   "name": "Sky Tint"
+  },
+  {
+   "hex": "#bedbff",
+   "name": "Frost"
+  },
+  {
+   "hex": "#74ade8",
+   "name": "Slate Blue"
+  },
+  {
+   "hex": "#e6effe",
+   "name": "Ice Wash"
+  },
+  {
+   "hex": "#053794",
+   "name": "Deep Cobalt"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Silver Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#f4f4f2",
+   "name": "Off-White"
+  },
+  {
+   "hex": "#3a3d43",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#464b57",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#5d636f",
+   "name": "Slate"
+  },
+  {
+   "hex": "#6a7282",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#878a98",
+   "name": "Ash"
+  },
+  {
+   "hex": "#b2b5bb",
+   "name": "Steel"
+  },
+  {
+   "hex": "#cccfd3",
+   "name": "Fog"
+  },
+  {
+   "hex": "#dadde2",
+   "name": "Mist"
+  },
+  {
+   "hex": "#282c33",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#2f343e",
+   "name": "Midnight"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/411f744e-3261-4cab-831b-8a8b826f8f9e.mp4",
+  "poster": "https://happyhands.cc/design-archive/zed-a541789c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/zed-a541789c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/zed-a541789c/thumbnail.jpg"
+}

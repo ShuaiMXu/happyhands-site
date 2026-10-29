@@ -1,0 +1,64 @@
+{
+ "id": "8fc58a26-47be-406e-8429-37925551c0ec",
+ "slug": "youtube-8fc58a26",
+ "name": "YouTube",
+ "site_url": "https://youtube.com",
+ "lastmod": "2026-06-05T03:55:12.458Z",
+ "extracted_at": "2026-06-03T17:56:13.770Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "minimalist broadcast console",
+ "fonts": [
+  "Roboto",
+  "YouTube Sans",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Canvas White"
+  },
+  {
+   "hex": "#0f0f0f",
+   "name": "YouTube Ink"
+  },
+  {
+   "hex": "#606060",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#909090",
+   "name": "Ash"
+  },
+  {
+   "hex": "#c6c6c6",
+   "name": "Mist"
+  },
+  {
+   "hex": "#d3d3d3",
+   "name": "Silver"
+  },
+  {
+   "hex": "#065fd4",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#ff0000",
+   "name": "Play Red"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5e12dc06-f009-4ac3-b0ef-93f2ee906725.mp4",
+  "poster": "https://happyhands.cc/design-archive/youtube-8fc58a26/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/youtube-8fc58a26/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/youtube-8fc58a26/thumbnail.jpg"
+}

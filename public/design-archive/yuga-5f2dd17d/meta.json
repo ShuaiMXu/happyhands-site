@@ -1,0 +1,46 @@
+{
+ "id": "5f2dd17d-72e6-4aa4-88e6-6be9e41299ab",
+ "slug": "yuga-5f2dd17d",
+ "name": "Yuga",
+ "site_url": "https://yuga.com",
+ "lastmod": "2026-06-03T21:24:41.537Z",
+ "extracted_at": "2026-06-03T21:24:41.530Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "crypto",
+ "north_star": "Black gallery with neon lime punctuation",
+ "fonts": [
+  "AK Monument Grotesk"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void"
+  },
+  {
+   "hex": "#131313",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure"
+  },
+  {
+   "hex": "#d3de5d",
+   "name": "Acid Lime"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/1aecf293-34e6-4bba-8ee0-a6bc1c5ab55f.mp4",
+  "poster": "https://happyhands.cc/design-archive/yuga-5f2dd17d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/yuga-5f2dd17d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/yuga-5f2dd17d/thumbnail.jpg"
+}

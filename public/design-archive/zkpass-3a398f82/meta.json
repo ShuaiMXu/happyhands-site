@@ -1,0 +1,93 @@
+{
+ "id": "3a398f82-579e-4ec4-a442-9962bf007edf",
+ "slug": "zkpass-3a398f82",
+ "name": "zkPass",
+ "site_url": "https://zkpass.org",
+ "lastmod": "2026-06-03T18:00:19.792Z",
+ "extracted_at": "2026-06-03T18:00:19.788Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "crypto",
+ "north_star": "Encrypted terminal meets classified broadsheet — a single lime-green signal cutting through near-black typography that mixes a whisper-weight serif with terminal-grade sans.",
+ "fonts": [
+  "PT Serif",
+  "Inter Tight",
+  "JetBrains Mono",
+  "ui-monospace"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#060606",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#252525",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#1f1f1f",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#313131",
+   "name": "Iron"
+  },
+  {
+   "hex": "#3d3d3d",
+   "name": "Slate"
+  },
+  {
+   "hex": "#525252",
+   "name": "Fog"
+  },
+  {
+   "hex": "#7a7a7a",
+   "name": "Ash"
+  },
+  {
+   "hex": "#8a8a8a",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#c5c5c5",
+   "name": "Pearl"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#c5ff4a",
+   "name": "Signal Lime"
+  },
+  {
+   "hex": "#597321",
+   "name": "Olive Depth"
+  },
+  {
+   "hex": "#314013",
+   "name": "Moss Shadow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/225d4ed7-26d4-4495-b8d3-c6b32d9af232.mp4",
+  "poster": "https://happyhands.cc/design-archive/zkpass-3a398f82/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/zkpass-3a398f82/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/zkpass-3a398f82/thumbnail.jpg"
+}

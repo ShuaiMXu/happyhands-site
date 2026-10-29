@@ -1,0 +1,66 @@
+{
+ "id": "5c4eb249-fa38-4254-81e0-a32ee22766e2",
+ "slug": "zora-5c4eb249",
+ "name": "Zora",
+ "site_url": "https://zora.co",
+ "lastmod": "2026-06-05T10:47:22.591Z",
+ "extracted_at": "2026-06-03T21:02:09.728Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "crypto",
+ "north_star": "Neon gallery on graphite glass.\\n\\n{",
+ "fonts": [
+  "MonumentGrotesk"
+ ],
+ "colors": [
+  {
+   "hex": "#121212",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#4d4d4d",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#878787",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#cacaca",
+   "name": "Ash"
+  },
+  {
+   "hex": "#e6e6e6",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#00df00",
+   "name": "Reactor Green"
+  },
+  {
+   "hex": "#ff00f0",
+   "name": "Voltage Pink"
+  },
+  {
+   "hex": "#000000",
+   "name": "Onyx"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/1aecf293-34e6-4bba-8ee0-a6bc1c5ab55f.mp4",
+  "poster": "https://happyhands.cc/design-archive/zora-5c4eb249/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/zora-5c4eb249/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/zora-5c4eb249/thumbnail.jpg"
+}

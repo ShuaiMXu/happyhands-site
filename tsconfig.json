@@ -28,7 +28,8 @@
     "systems/sodium",
     "systems/glaze",
     "systems/design-how-main.tsx",
-    "systems/preview/main.tsx"
+    "systems/preview/main.tsx",
+    "apps/portal/ResourceFeedControls.tsx"
   ],
   "exclude": [
     "components/preview/adapters",

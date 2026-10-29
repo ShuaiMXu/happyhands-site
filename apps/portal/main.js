@@ -1,3 +1,4 @@
+import { ResourceFeedControls } from "./ResourceFeedControls";
 import { applySiteMetadata } from "../../packages/ui/site-seo";
 import {setupSiteMenu} from '../../packages/ui/site-menu.ts';
 import '../../packages/ui/site-layout.css';
@@ -130,7 +131,7 @@ function renderContent() {
   if (content) {
     disposeResourceFeed?.();
     content.innerHTML = portalContent(lang);
-    disposeResourceFeed = setupResourceFeed(content);
+    disposeResourceFeed = setupResourceFeed(content, ResourceFeedControls);
   }
 
   // footer

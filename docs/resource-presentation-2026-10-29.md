@@ -14,3 +14,9 @@ Validation:
 - Normal desktop and phone screenshots reviewed in `test-results/resource-presentation/`. Source preview styling is intentionally retained, including external animation appearance.
 
 Local preview is ready. Await user preview confirmation before merging to production.
+
+## Homepage browsing
+
+Added the shared ResourceToolbar and searchable ArchiveFilter to the homepage resource feed. Search uses the full archive/component catalog, with per-collection query/category state, live counts, empty/reset feedback and failed-catalog retry. Website types come from the same source-backed taxonomy as the library; component categories and system purposes vary with the selected collection. Keep the original Hero, lazy iframe previews, video hover and incremental scroll loading.
+
+Verified desktop/phone in Chinese light and English dark, searching an archive entry outside the featured set, category filtering, no-results/reset, all three tabs, state retention, viewport containment and catalog error recovery. Build, TypeScript and UI audit pass. Screenshots: `test-results/home-search/`.

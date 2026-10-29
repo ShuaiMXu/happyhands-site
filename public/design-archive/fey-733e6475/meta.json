@@ -1,0 +1,43 @@
+{
+ "id": "733e6475-892a-4138-8835-bf40344df317",
+ "slug": "fey-733e6475",
+ "name": "Fey",
+ "site_url": "https://feyapp.com",
+ "lastmod": "2026-07-03T11:04:52.763Z",
+ "extracted_at": "2026-07-03T03:32:17.142Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "a printed broadsheet on warm paper — type and silence, nothing else.",
+ "fonts": [
+  "-apple-system",
+  "Wealthsimple Sans Display"
+ ],
+ "colors": [
+  {
+   "hex": "#fafafa",
+   "name": "Warm Paper"
+  },
+  {
+   "hex": "#595959",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#1c1c1c",
+   "name": "Ink"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4f67c498-2d68-4af6-987e-a8db5f91de72.mp4",
+  "poster": "https://happyhands.cc/design-archive/fey-733e6475/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/fey-733e6475/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/fey-733e6475/thumbnail.jpg"
+}

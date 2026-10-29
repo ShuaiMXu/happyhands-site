@@ -1,0 +1,74 @@
+{
+ "id": "4e3aa524-b146-416c-907f-382c079ea80c",
+ "slug": "tally-forms-4e3aa524",
+ "name": "Tally Forms",
+ "site_url": "https://tally.so",
+ "lastmod": "2026-06-05T04:51:04.012Z",
+ "extracted_at": "2026-06-03T18:23:44.870Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Notebook doodles on warm paper — a gray-paper canvas scattered with magenta-pink hand-drawn marks and centered editorial headlines.",
+ "fonts": [
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#f81ce5",
+   "name": "Tally Magenta"
+  },
+  {
+   "hex": "#0070d7",
+   "name": "Action Blue"
+  },
+  {
+   "hex": "#37352f",
+   "name": "Ink"
+  },
+  {
+   "hex": "#e0e0df",
+   "name": "Paper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#f3f3f3",
+   "name": "Mist"
+  },
+  {
+   "hex": "#898884",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#777672",
+   "name": "Ash"
+  },
+  {
+   "hex": "#45433e",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Black"
+  },
+  {
+   "hex": "#f81ce0",
+   "name": "Purple-to-Pink"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/256fca55-c7f6-41c5-86fa-688f99181f2e.mp4",
+  "poster": "https://happyhands.cc/design-archive/tally-forms-4e3aa524/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/tally-forms-4e3aa524/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/tally-forms-4e3aa524/thumbnail.jpg"
+}

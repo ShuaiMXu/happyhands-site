@@ -1,0 +1,48 @@
+{
+ "id": "2c18e573-0ffb-4f0d-848c-ff72a5839fd3",
+ "slug": "cori-corinne-2c18e573",
+ "name": "Cori Corinne",
+ "site_url": "https://www.coricorinne.com",
+ "lastmod": "2026-06-05T01:55:14.466Z",
+ "extracted_at": "2026-06-03T17:02:17.746Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "editorial gallery on warm paper",
+ "fonts": [
+  "Editorial Serif (display — likely Bodoni/Didone family or custom)",
+  "Neue Haas Grotesk Text",
+  "Open Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#f6f5f0",
+   "name": "Paper Cream"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#292a2c",
+   "name": "Ink Charcoal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Ink"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/209a86ad-4cf5-46ea-9bf6-a13e3b695250.mp4",
+  "poster": "https://happyhands.cc/design-archive/cori-corinne-2c18e573/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/cori-corinne-2c18e573/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/cori-corinne-2c18e573/thumbnail.jpg"
+}

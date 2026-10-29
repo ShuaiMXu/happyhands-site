@@ -1,0 +1,39 @@
+{
+ "id": "7e03ab3b-1344-43d7-a7c4-2f31395758ae",
+ "slug": "favorit-studio-7e03ab3b",
+ "name": "Favorit Studio",
+ "site_url": "https://favorit.studio",
+ "lastmod": "2026-06-03T20:40:42.477Z",
+ "extracted_at": "2026-06-03T20:40:42.473Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Gallery wall in black and white — a single oversized serif floating on infinite white, anchored by a quiet photograph.",
+ "fonts": [
+  "Favorit Times",
+  "TWKLausanne"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e062cc5d-8ef9-43bb-a474-9ed34217f17b.mp4",
+  "poster": "https://happyhands.cc/design-archive/favorit-studio-7e03ab3b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/favorit-studio-7e03ab3b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/favorit-studio-7e03ab3b/thumbnail.jpg"
+}

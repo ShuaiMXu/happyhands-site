@@ -1,0 +1,58 @@
+{
+ "id": "12b3e1b6-31b9-4843-9b3b-8f39c9dd1474",
+ "slug": "twomuch-studio-12b3e1b6",
+ "name": "TWOMUCH.STUDIO",
+ "site_url": "https://twomuch.studio",
+ "lastmod": "2026-06-05T06:40:13.466Z",
+ "extracted_at": "2026-06-03T19:15:21.377Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "floating museum of curiosities",
+ "fonts": [
+  "ABCMonumentGrotesk"
+ ],
+ "colors": [
+  {
+   "hex": "#e5e7eb",
+   "name": "Gallery Plate"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#f4f4f4",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#dedede",
+   "name": "Concrete"
+  },
+  {
+   "hex": "#e2ff70",
+   "name": "Voltage Lime"
+  },
+  {
+   "hex": "#68340e",
+   "name": "Oxide Brown"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/42568e4a-cffa-4af6-92ff-ed153221d68b.mp4",
+  "poster": "https://happyhands.cc/design-archive/twomuch-studio-12b3e1b6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/twomuch-studio-12b3e1b6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/twomuch-studio-12b3e1b6/thumbnail.jpg"
+}

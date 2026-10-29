@@ -1,0 +1,70 @@
+{
+ "id": "45080e55-1fbe-4726-be23-4c9f54e442aa",
+ "slug": "feedhive-45080e55",
+ "name": "FeedHive",
+ "site_url": "https://feedhive.com",
+ "lastmod": "2026-06-05T05:12:09.004Z",
+ "extracted_at": "2026-06-03T18:36:25.744Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Lavender control room at dawn. One confident blue-violet accent breathing over a near-white workspace.",
+ "fonts": [
+  "Thicccboi"
+ ],
+ "colors": [
+  {
+   "hex": "#f3f5ff",
+   "name": "Lavender Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Card White"
+  },
+  {
+   "hex": "#181c31",
+   "name": "Ink"
+  },
+  {
+   "hex": "#757693",
+   "name": "Muted Iris"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Border Mist"
+  },
+  {
+   "hex": "#6b7280",
+   "name": "Hover Iris"
+  },
+  {
+   "hex": "#dbeafe",
+   "name": "Soft Blue Wash"
+  },
+  {
+   "hex": "#4457ff",
+   "name": "Brand Violet"
+  },
+  {
+   "hex": "#7583fd",
+   "name": "Brand Violet Light"
+  },
+  {
+   "hex": "#c7c8e2",
+   "name": "Shadow Violet"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/52a54d67-03b0-44f6-9ac0-cd235c0df82c.mp4",
+  "poster": "https://happyhands.cc/design-archive/feedhive-45080e55/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/feedhive-45080e55/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/feedhive-45080e55/thumbnail.jpg"
+}

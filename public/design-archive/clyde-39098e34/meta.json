@@ -1,0 +1,56 @@
+{
+ "id": "39098e34-b911-4ad3-bcb5-ee80a392cd95",
+ "slug": "clyde-39098e34",
+ "name": "Clyde",
+ "site_url": "https://joinclyde.com",
+ "lastmod": "2026-06-05T03:15:40.756Z",
+ "extracted_at": "2026-06-03T17:39:47.209Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "saas",
+ "north_star": "Vault showroom with a single spotlight — a near-black gallery where one warm gradient orb is the only color in the room.",
+ "fonts": [
+  "Recoleta",
+  "Oldschool Grotesk",
+  "Times (system fallback)"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#f6f6f4",
+   "name": "Bone"
+  },
+  {
+   "hex": "#7d7d7d",
+   "name": "Slate"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#1a1a1a",
+   "name": "Char"
+  },
+  {
+   "hex": "#ff8400",
+   "name": "Solstice Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/afffd156-1feb-40c6-b256-bcf5b8dde157.mp4",
+  "poster": "https://happyhands.cc/design-archive/clyde-39098e34/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/clyde-39098e34/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/clyde-39098e34/thumbnail.jpg"
+}

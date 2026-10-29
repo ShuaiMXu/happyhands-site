@@ -1,0 +1,82 @@
+{
+ "id": "017ce823-c338-417d-849d-497c97701c4c",
+ "slug": "simone-sniekers-017ce823",
+ "name": "Simone Sniekers",
+ "site_url": "https://www.simonesniekers.com",
+ "lastmod": "2026-06-03T20:09:15.897Z",
+ "extracted_at": "2026-06-03T20:09:15.893Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "A single editorial photograph breathes behind whisper-thin black captions — the image does all the work, the UI almost disappears.",
+ "fonts": [
+  "Neue Haas Grotesk"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#bcbcbc",
+   "name": "Warm Fog"
+  },
+  {
+   "hex": "#cccbbb",
+   "name": "Bone"
+  },
+  {
+   "hex": "#c0c4ca",
+   "name": "Slate Drift"
+  },
+  {
+   "hex": "#cdbcb9",
+   "name": "Rose Clay"
+  },
+  {
+   "hex": "#cfbca6",
+   "name": "Linen"
+  },
+  {
+   "hex": "#4f4c4c",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#2e2321",
+   "name": "Espresso"
+  },
+  {
+   "hex": "#e01365",
+   "name": "Vermillion"
+  },
+  {
+   "hex": "#d0a43e",
+   "name": "Saffron"
+  },
+  {
+   "hex": "#cc4132",
+   "name": "Cinnabar"
+  },
+  {
+   "hex": "#a48b0b",
+   "name": "Ochre"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/9c567ead-b673-406a-bf78-344740d6f9ee.mp4",
+  "poster": "https://happyhands.cc/design-archive/simone-sniekers-017ce823/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/simone-sniekers-017ce823/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/simone-sniekers-017ce823/thumbnail.jpg"
+}

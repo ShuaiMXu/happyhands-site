@@ -1,0 +1,28 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "keypad",
+ "type": "registry:ui",
+ "title": "Keypad",
+ "description": "The number pad for entering an amount on a phone, such as how much to send.",
+ "author": "design.how",
+ "categories": [
+  "inputs"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/lime/icon.json",
+  "https://design.how/r/lime/theme.json",
+  "https://design.how/r/lime/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/lime/components/keypad.md",
+  "page": "https://design.how/systems/lime/components/keypad"
+ },
+ "files": [
+  {
+   "path": "registry/lime/ui/keypad.tsx",
+   "content": "'use client';\n\nimport {Delete, Icon} from '@/components/lime/icon';\nimport {cn} from '@/lib/lime/utils';\n\n// The number pad for entering an amount on a phone, under a large figure: 1 to 9, the decimal point, 0 and\n// delete. It edits a plain string such as \"42.5\" through value and onValueChange, so the screen formats\n// the figure itself (formatAmount) and parses it once on Continue. The pad keeps the string valid: no\n// leading zeros, one point, two decimals, and no more than maxDigits whole digits. A key that would break\n// a rule does nothing. With focus inside, the hardware keys 0 to 9, the point and Backspace work too.\n\ntype KeypadProps = Omit<React.ComponentProps<'div'>, 'onChange' | 'children'> & {\n  value: string;\n  onValueChange?: (value: string) => void;\n  /** Allow cents. Off for whole units, such as a savings target. */\n  decimal?: boolean;\n  /** The most digits before the point. */\n  maxDigits?: number;\n  disabled?: boolean;\n};\n\nconst DIGITS = ['1', '2', '3', '4', '5', '6', '7', '8', '9'];\n\n/** The string after pressing `key` (\"0\" to \"9\", \".\" or \"delete\"), or the same string if the key is refused. */\nfunction pressKey(value: string, key: string, {decimal = true, maxDigits = 7}: {decimal?: boolean; maxDigits?: number} = {}) {\n  if (key === 'delete') return value.slice(0, -1);\n  const [whole, cents] = value.split('.');\n  if (key === '.') {\n    if (!decimal || value.includes('.')) return value;\n    return value === '' ? '0.' : `${value}.`;\n  }\n  if (!/^\\d$/.test(key)) return value;\n  if (cents !== undefined) return cents.length >= 2 ? value : value + key;\n  if (whole === '0') return key;\n  if (whole.length >= maxDigits) return value;\n  return value + key;\n}\n\nconst keyClass = cn(\n  'flex h-14 items-center justify-center rounded-panel text-2xl font-medium text-fg tabular-nums select-none',\n  'transition-[background-color,scale] duration-(--dur-instant) [-webkit-tap-highlight-color:transparent]',\n  'hover:bg-surface-2 active:bg-surface-3 active:scale-(--scale-press)',\n  'disabled:cursor-not-allowed disabled:text-fg-disabled disabled:hover:bg-transparent',\n);\n\nfunction Keypad({value, onValueChange, decimal = true, maxDigits = 7, disabled, className, onKeyDown, ...props}: KeypadProps) {\n  const press = (key: string) => {\n    const next = pressKey(value, key, {decimal, maxDigits});\n    if (next !== value) onValueChange?.(next);\n  };\n  return (\n    <div\n      data-slot=\"keypad\"\n      role=\"group\"\n      aria-label=\"Amount keypad\"\n      onKeyDown={e => {\n        onKeyDown?.(e);\n        if (disabled || e.metaKey || e.ctrlKey || e.altKey) return;\n        const key = e.key === 'Backspace' ? 'delete' : e.key === ',' ? '.' : e.key;\n        if (key === 'delete' || key === '.' || /^\\d$/.test(key)) { e.preventDefault(); press(key); }\n      }}\n      className={cn('grid w-full max-w-80 grid-cols-3 gap-1', className)}\n      {...props}\n    >\n      {DIGITS.map(d => <button key={d} type=\"button\" data-slot=\"keypad-key\" disabled={disabled} onClick={() => press(d)} className={keyClass}>{d}</button>)}\n      {decimal\n        ? <button type=\"button\" data-slot=\"keypad-key\" disabled={disabled} onClick={() => press('.')} aria-label=\"Decimal point\" className={keyClass}>.</button>\n        : <span aria-hidden=\"true\"/>}\n      <button type=\"button\" data-slot=\"keypad-key\" disabled={disabled} onClick={() => press('0')} className={keyClass}>0</button>\n      <button type=\"button\" data-slot=\"keypad-key\" disabled={disabled} onClick={() => press('delete')} aria-label=\"Delete\" className={keyClass}>\n        <Icon icon={Delete} size={24}/>\n      </button>\n    </div>\n  );\n}\n\nexport {Keypad, pressKey, type KeypadProps};\n",
+   "type": "registry:ui",
+   "target": "@components/lime/ui/keypad.tsx"
+  }
+ ]
+}

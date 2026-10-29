@@ -1,0 +1,60 @@
+{
+ "id": "c2fadeda-8ef3-4ab2-9909-ffdf02ab0a24",
+ "slug": "aevi-wellness-c2fadeda",
+ "name": "Aevi Wellness",
+ "site_url": "https://liveaevi.com",
+ "lastmod": "2026-06-03T18:25:10.439Z",
+ "extracted_at": "2026-06-03T18:25:10.432Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Nordic apothecary, weightless type. A muted slate-blue accent interrupts an otherwise achromatic, light-as-air editorial layout where product photography overlaps hairline-bordered cards on warm white.",
+ "fonts": [
+  "Primary Font",
+  "Primary Sans (custom, serif-influenced grotesque)",
+  "Tertiary Sans",
+  "Display Sans",
+  "Tertiary Font",
+  "Button Font",
+  "Heading Font"
+ ],
+ "colors": [
+  {
+   "hex": "#d5e0ea",
+   "name": "Powder Blue"
+  },
+  {
+   "hex": "#a3bfdb",
+   "name": "Slate Bloom"
+  },
+  {
+   "hex": "#231f20",
+   "name": "Warm Ink"
+  },
+  {
+   "hex": "#000000",
+   "name": "True Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#5f6368",
+   "name": "Mist Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b6bf9767-1f9c-4e76-bcde-e964838382e4.mp4",
+  "poster": "https://happyhands.cc/design-archive/aevi-wellness-c2fadeda/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/aevi-wellness-c2fadeda/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/aevi-wellness-c2fadeda/thumbnail.jpg"
+}

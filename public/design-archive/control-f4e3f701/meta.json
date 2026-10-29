@@ -1,0 +1,88 @@
+{
+ "id": "f4e3f701-0fa0-4601-b652-ecfc5c573f86",
+ "slug": "control-f4e3f701",
+ "name": "Control",
+ "site_url": "https://cntrl.site",
+ "lastmod": "2026-06-03T21:15:16.965Z",
+ "extracted_at": "2026-06-03T21:15:16.959Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "Editorial Swiss grid meets creative tool",
+ "fonts": [
+  "Melange",
+  "Favorit Mono",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#d2d2d2",
+   "name": "Gridline"
+  },
+  {
+   "hex": "#3d3d3d",
+   "name": "Slate"
+  },
+  {
+   "hex": "#c6c6c0",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#babab9",
+   "name": "Fog"
+  },
+  {
+   "hex": "#acaca6",
+   "name": "Ash"
+  },
+  {
+   "hex": "#606060",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#828282",
+   "name": "Stone"
+  },
+  {
+   "hex": "#7a7a7a",
+   "name": "Concrete"
+  },
+  {
+   "hex": "#f5f5f4",
+   "name": "Bone"
+  },
+  {
+   "hex": "#01ea40",
+   "name": "Voltage Green"
+  },
+  {
+   "hex": "#ff5c02",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#ffdb4d",
+   "name": "Highlighter Yellow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/24865882-031d-422f-98f4-e57c264325cb.mp4",
+  "poster": "https://happyhands.cc/design-archive/control-f4e3f701/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/control-f4e3f701/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/control-f4e3f701/thumbnail.jpg"
+}

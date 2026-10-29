@@ -1,0 +1,64 @@
+{
+ "id": "b6f25b86-ffcf-42f1-9f37-5e37d08cb4ce",
+ "slug": "alden-b6f25b86",
+ "name": "Alden",
+ "site_url": "https://www.alden.health",
+ "lastmod": "2026-06-03T21:34:53.458Z",
+ "extracted_at": "2026-06-03T21:34:53.453Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "serene clinic on warm parchment — a page so quiet the single blue word and sage button feel like the only sound in the room",
+ "fonts": [
+  "Stk bureau Sans Book Trial",
+  "Stk bureau Serif Book Trial",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#f3f1eb",
+   "name": "Parchment Cream"
+  },
+  {
+   "hex": "#28262a",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#4a4a4c",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#dddcdd",
+   "name": "Fog Border"
+  },
+  {
+   "hex": "#cbcbcb",
+   "name": "Silver"
+  },
+  {
+   "hex": "#97cde5",
+   "name": "Sky Highlight"
+  },
+  {
+   "hex": "#c8dfaa",
+   "name": "Sage Action"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4b0b7a46-3e64-4f2b-8d08-a12c6df8f632.mp4",
+  "poster": "https://happyhands.cc/design-archive/alden-b6f25b86/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/alden-b6f25b86/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/alden-b6f25b86/thumbnail.jpg"
+}

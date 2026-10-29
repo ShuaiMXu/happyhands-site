@@ -54,6 +54,7 @@ function App() {
                 )}
               </p>
               <div className="actions">
+                <a className="action" href="/components/?provider=systems&system=quartz">{t("阅读完整文档与下载", "Read documents and download")}</a>
                 <a className="action" href="#example">
                   {t("查看实际效果", "Try the example")}
                 </a>

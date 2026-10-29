@@ -1,0 +1,69 @@
+{
+ "id": "9e2dceb8-0c87-45db-8830-9df961b02b32",
+ "slug": "dezeen-9e2dceb8",
+ "name": "Dezeen",
+ "site_url": "https://dezeen.com",
+ "lastmod": "2026-06-03T20:58:55.350Z",
+ "extracted_at": "2026-06-03T20:58:55.342Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "White-cube gallery for architecture photography — pure white canvas, image-first cards, blue-violet ink.\n\n",
+ "fonts": [
+  "Chronicle Text G1 A",
+  "StandardCT",
+  "Arial",
+  "Times"
+ ],
+ "colors": [
+  {
+   "hex": "#556e9b",
+   "name": "Gallery Indigo"
+  },
+  {
+   "hex": "#ff7617",
+   "name": "Signal Orange"
+  },
+  {
+   "hex": "#000000",
+   "name": "Press Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Gallery White"
+  },
+  {
+   "hex": "#f0f0f0",
+   "name": "Plaster"
+  },
+  {
+   "hex": "#eaeaea",
+   "name": "Stone"
+  },
+  {
+   "hex": "#d8d8d8",
+   "name": "Concrete"
+  },
+  {
+   "hex": "#b1bacb",
+   "name": "Steel Mist"
+  },
+  {
+   "hex": "#757575",
+   "name": "Pewter"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/bf56d618-324b-492c-942f-554a6484b133.mp4",
+  "poster": "https://happyhands.cc/design-archive/dezeen-9e2dceb8/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/dezeen-9e2dceb8/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/dezeen-9e2dceb8/thumbnail.jpg"
+}

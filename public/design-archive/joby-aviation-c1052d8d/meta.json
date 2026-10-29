@@ -1,0 +1,73 @@
+{
+ "id": "c1052d8d-3663-46a4-a882-e50d9b8a1166",
+ "slug": "joby-aviation-c1052d8d",
+ "name": "Joby Aviation",
+ "site_url": "https://www.jobyaviation.com",
+ "lastmod": "2026-06-03T18:57:55.682Z",
+ "extracted_at": "2026-06-03T18:57:55.678Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Golden hour cockpit over a sleeping city — every screen is a window seat.",
+ "fonts": [
+  "jobyDisplay",
+  "jobyText",
+  "Joby Sans Display",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#f5f4df",
+   "name": "Parchment Cream"
+  },
+  {
+   "hex": "#0e1620",
+   "name": "Carbon Ink"
+  },
+  {
+   "hex": "#c1dfef",
+   "name": "Pale Sky"
+  },
+  {
+   "hex": "#abab9c",
+   "name": "Shadow Khaki"
+  },
+  {
+   "hex": "#007ae5",
+   "name": "Electric Blue"
+  },
+  {
+   "hex": "#1c3f99",
+   "name": "Deep Cobalt"
+  },
+  {
+   "hex": "#083e6f",
+   "name": "Outlined Action"
+  },
+  {
+   "hex": "#eb6110",
+   "name": "Sunset Orange"
+  },
+  {
+   "hex": "#ffd9c9",
+   "name": "Peach Glow"
+  },
+  {
+   "hex": "#319fff",
+   "name": "Signal Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/71a70678-43cd-4266-b12a-4b0c1d5fb295.mp4",
+  "poster": "https://happyhands.cc/design-archive/joby-aviation-c1052d8d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/joby-aviation-c1052d8d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/joby-aviation-c1052d8d/thumbnail.jpg"
+}

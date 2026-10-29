@@ -1,0 +1,99 @@
+{
+ "id": "c60f05ff-2420-4a24-92db-80c4b6a74683",
+ "slug": "origin-financial-c60f05ff",
+ "name": "Origin Financial",
+ "site_url": "https://www.useorigin.com",
+ "lastmod": "2026-07-03T11:03:03.400Z",
+ "extracted_at": "2026-07-03T03:32:26.906Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "fintech",
+ "north_star": "midnight gallery of quiet wealth. A hushed, near-black room where oversized serif whispers and a few luminous color panels make finance feel like curated art.",
+ "fonts": [
+  "Suisseintltrial",
+  "Lyon Display",
+  "Suisse Int'l",
+  "Suisse Int'l Trial",
+  "Roboto Mono",
+  "Suisseintl"
+ ],
+ "colors": [
+  {
+   "hex": "#847dff",
+   "name": "Iris Gleam"
+  },
+  {
+   "hex": "#00b3dd",
+   "name": "Cyan Signal"
+  },
+  {
+   "hex": "#d1c9ff",
+   "name": "Pale Iris"
+  },
+  {
+   "hex": "#4b49aa",
+   "name": "Deep Iris"
+  },
+  {
+   "hex": "#dd90d8",
+   "name": "Orchid Bloom"
+  },
+  {
+   "hex": "#90b8f0",
+   "name": "Periwinkle"
+  },
+  {
+   "hex": "#0f1011",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#090a0b",
+   "name": "Abyss"
+  },
+  {
+   "hex": "#2e2e2e",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#3f4041",
+   "name": "Steel"
+  },
+  {
+   "hex": "#cacaca",
+   "name": "Silver"
+  },
+  {
+   "hex": "#6a6b6b",
+   "name": "Fog"
+  },
+  {
+   "hex": "#9f9fa0",
+   "name": "Ash"
+  },
+  {
+   "hex": "#f5f5f7",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0dd7172c-7a13-4948-ae4a-cf37640b6442.mp4",
+  "poster": "https://happyhands.cc/design-archive/origin-financial-c60f05ff/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/origin-financial-c60f05ff/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/origin-financial-c60f05ff/thumbnail.jpg"
+}

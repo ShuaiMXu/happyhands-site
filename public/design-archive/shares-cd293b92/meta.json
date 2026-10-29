@@ -1,0 +1,71 @@
+{
+ "id": "cd293b92-71a3-4cc2-a56b-0fa60425b42a",
+ "slug": "shares-cd293b92",
+ "name": "Shares",
+ "site_url": "https://shares.io",
+ "lastmod": "2026-06-03T16:55:41.491Z",
+ "extracted_at": "2026-06-03T16:55:41.484Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "Ivory terminal with violet pulse — a clinical white workspace where one color marks every deliberate action.",
+ "fonts": [
+  "Aeonik",
+  "Rubik"
+ ],
+ "colors": [
+  {
+   "hex": "#594ff4",
+   "name": "Signal Violet"
+  },
+  {
+   "hex": "#1f1f1f",
+   "name": "Inkstone"
+  },
+  {
+   "hex": "#333333",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#5d5d5d",
+   "name": "Slate"
+  },
+  {
+   "hex": "#888888",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#b0b0b0",
+   "name": "Ash"
+  },
+  {
+   "hex": "#e7e7e7",
+   "name": "Mist"
+  },
+  {
+   "hex": "#f6f6f6",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Porcelain"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f8e2c63f-0bb7-47e7-8dba-a5d01d5304b1.mp4",
+  "poster": "https://happyhands.cc/design-archive/shares-cd293b92/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/shares-cd293b92/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/shares-cd293b92/thumbnail.jpg"
+}

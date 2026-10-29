@@ -1,0 +1,43 @@
+{
+ "id": "02ba867b-49e3-4ab4-ad23-c30baf345078",
+ "slug": "jun-works-02ba867b",
+ "name": "jun.works",
+ "site_url": "https://jun.works",
+ "lastmod": "2026-06-05T11:18:13.344Z",
+ "extracted_at": "2026-06-03T21:16:05.032Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "printed editorial zine with sticker labels — black ink on bright white, nothing else",
+ "fonts": [
+  "Standard",
+  "Times"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Press Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Smoke Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5fc7d05d-7a5d-4cf7-9a2d-7989b68030ff.mp4",
+  "poster": "https://happyhands.cc/design-archive/jun-works-02ba867b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/jun-works-02ba867b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/jun-works-02ba867b/thumbnail.jpg"
+}

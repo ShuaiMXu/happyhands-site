@@ -1,0 +1,30 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "data-list",
+ "type": "registry:ui",
+ "title": "Data list",
+ "description": "Lists label and value pairs about one thing.",
+ "author": "design.how",
+ "categories": [
+  "display"
+ ],
+ "dependencies": [
+  "class-variance-authority@^0.7.1"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/glaze/theme.json",
+  "https://design.how/r/glaze/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/glaze/components/data-list.md",
+  "page": "https://design.how/systems/glaze/components/data-list"
+ },
+ "files": [
+  {
+   "path": "registry/glaze/ui/data-list.tsx",
+   "content": "import {cva, type VariantProps} from 'class-variance-authority';\nimport {cn} from '@/lib/glaze/utils';\n\n// Label and value pairs for a detail view: a run, a key, a prompt release. A real <dl> with each pair in a <div>, which\n// HTML allows, inside a box that measures its own width. className goes on that box; every other prop on the <dl>.\n//\n// Side by side, every pair is a subgrid row of one grid: the label column is as wide as the longest label and no wider\n// than --label-col (160px), so the values start on one edge without a fixed gutter wasting room beside \"ID\". Under 24rem of its own\n// width the list stacks each label over its value, so it works in a 320px column and on a page.\n//\n// variant=\"panel\" puts the list in the card's white panel, the pairs split on rule-row; plain is for inside a card or\n// another panel, which is already the surface. An empty value (null, undefined or \"\") reads \"None\" in text-2, so a\n// missing field never looks like a bug.\n\nconst dataListVariants = cva('group/data-list @container/data-list min-w-0', {\n  variants: {\n    variant: {\n      plain: '',\n      panel: 'panel px-3 forced-colors:border-[CanvasText]',\n    },\n  },\n  defaultVariants: {variant: 'plain'},\n});\n\ntype DataListProps = React.ComponentProps<'dl'> & VariantProps<typeof dataListVariants> & {\n  /** horizontal: label beside value, stacking under 24rem. vertical: always stacked. */\n  orientation?: 'horizontal' | 'vertical';\n};\n\nfunction DataList({className, variant = 'plain', orientation = 'horizontal', ...props}: DataListProps) {\n  return <div data-slot=\"data-list-frame\" data-variant={variant} data-orientation={orientation} className={cn(dataListVariants({variant}), className)}>\n    <dl\n      data-slot=\"data-list\"\n      className={cn('grid min-w-0 grid-cols-1', orientation === 'horizontal' && '@sm/data-list:grid-cols-[fit-content(var(--label-col))_minmax(0,1fr)] @sm/data-list:gap-x-4')}\n      {...props}\n    />\n  </div>;\n}\n\nfunction DataListItem({className, ...props}: React.ComponentProps<'div'>) {\n  return <div\n    data-slot=\"data-list-item\"\n    className={cn(\n      'col-span-full flex min-h-(--row) min-w-0 flex-col justify-center gap-x-4 gap-y-0.5 py-2',\n      'group-data-[orientation=horizontal]/data-list:@sm/data-list:grid group-data-[orientation=horizontal]/data-list:@sm/data-list:grid-cols-subgrid group-data-[orientation=horizontal]/data-list:@sm/data-list:items-baseline',\n      'group-data-[variant=panel]/data-list:rule-row',\n      className,\n    )}\n    {...props}\n  />;\n}\n\n/** The field's name, in text-2. */\nfunction DataListLabel({className, ...props}: React.ComponentProps<'dt'>) {\n  return <dt data-slot=\"data-list-label\" className={cn('min-w-0 type-body-sm text-text-2 [overflow-wrap:anywhere]', className)} {...props}/>;\n}\n\nconst isEmpty = (node: React.ReactNode) => node === null || node === undefined || node === false || (typeof node === 'string' && node.trim() === '');\n\ntype DataListValueProps = React.ComponentProps<'dd'> & {\n  /** An ID, a key, a hash or a path, in mono at type-code-sm. */\n  mono?: boolean;\n};\n\n/** The value, in text-1. Tabular figures always, so counts and times line up. */\nfunction DataListValue({className, mono = false, children, ...props}: DataListValueProps) {\n  const empty = isEmpty(children);\n  return <dd\n    data-slot=\"data-list-value\"\n    data-empty={empty || undefined}\n    className={cn('flex min-w-0 flex-wrap items-center gap-2 text-text-1 data [overflow-wrap:anywhere]', mono && !empty ? 'type-code-sm' : 'type-label', className)}\n    {...props}\n  >{empty ? <DataListEmpty/> : children}</dd>;\n}\n\n/** What a field with no value says. DataListValue shows it by itself for an empty value. */\nfunction DataListEmpty({className, children = 'None', ...props}: React.ComponentProps<'span'>) {\n  return <span data-slot=\"data-list-empty\" className={cn('type-body-sm text-text-2', className)} {...props}>{children}</span>;\n}\n\nexport {DataList, DataListItem, DataListLabel, DataListValue, DataListEmpty, dataListVariants, type DataListProps, type DataListValueProps};\n",
+   "type": "registry:ui",
+   "target": "@components/glaze/ui/data-list.tsx"
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "id": "ca522706-03ed-48cb-acb3-1bb2a22f2eda",
+ "slug": "little-amps-ca522706",
+ "name": "Little Amps",
+ "site_url": "https://littleampscoffee.com",
+ "lastmod": "2026-06-03T19:45:20.548Z",
+ "extracted_at": "2026-06-03T19:45:20.544Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "vinyl record sleeve in afternoon sun. Cream paper, burnt-orange ink, a single dusty blue stamp, every label set in monospace — the interface behaves like a printed coffee zine: tactile, editorial, never sterile.",
+ "fonts": [
+  "Little Amps",
+  "Inclusive Sans",
+  "Necto Mono",
+  "Roboto Mono",
+  "GTStandard-M"
+ ],
+ "colors": [
+  {
+   "hex": "#522c25",
+   "name": "Espresso"
+  },
+  {
+   "hex": "#c03001",
+   "name": "Burnt Orange"
+  },
+  {
+   "hex": "#c46500",
+   "name": "Amber Ink"
+  },
+  {
+   "hex": "#febf6f",
+   "name": "Marigold Wash"
+  },
+  {
+   "hex": "#89b4ca",
+   "name": "Dusty Blue"
+  },
+  {
+   "hex": "#fff9f2",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#f6ede3",
+   "name": "Linen Beige"
+  },
+  {
+   "hex": "#e6dad4",
+   "name": "Taupe Hairline"
+  },
+  {
+   "hex": "#cbbbb4",
+   "name": "Sandstone"
+  },
+  {
+   "hex": "#977e77",
+   "name": "Coffee Dust"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/37012ca8-64c8-48ea-b9a7-351f57e2c481.mp4",
+  "poster": "https://happyhands.cc/design-archive/little-amps-ca522706/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/little-amps-ca522706/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/little-amps-ca522706/thumbnail.jpg"
+}

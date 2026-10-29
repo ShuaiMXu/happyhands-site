@@ -24,7 +24,10 @@
     "packages/contracts",
     "packages/ui",
     "components",
-    "systems/lime"
+    "systems/lime",
+    "systems/sodium",
+    "systems/glaze",
+    "systems/design-how-main.tsx"
   ],
   "exclude": [
     "components/preview/adapters"

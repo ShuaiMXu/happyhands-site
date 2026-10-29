@@ -1,0 +1,79 @@
+{
+ "id": "d9a19632-e9ee-4c9c-849b-ed48b1c43ee7",
+ "slug": "nuxt-d9a19632",
+ "name": "Nuxt",
+ "site_url": "https://nuxt.com",
+ "lastmod": "2026-09-24T18:01:54.007Z",
+ "extracted_at": "2026-09-24T17:43:43.467Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "terminal glow in deep space. Build dark, contained interface planes where green appears as a switched-on signal against blue-black surfaces.",
+ "fonts": [
+  "Public Sans",
+  "ui-monospace"
+ ],
+ "colors": [
+  {
+   "hex": "#020618",
+   "name": "Void Canvas"
+  },
+  {
+   "hex": "#080e21",
+   "name": "Midnight Panel"
+  },
+  {
+   "hex": "#0f172b",
+   "name": "Deep Slate"
+  },
+  {
+   "hex": "#1d293d",
+   "name": "Steel Outline"
+  },
+  {
+   "hex": "#314158",
+   "name": "Blue Steel"
+  },
+  {
+   "hex": "#90a1b9",
+   "name": "Muted Fog"
+  },
+  {
+   "hex": "#e2e8f0",
+   "name": "Pale Frost"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Signal White"
+  },
+  {
+   "hex": "#00dc82",
+   "name": "Nuxt Signal"
+  },
+  {
+   "hex": "#42b883",
+   "name": "Vue Link"
+  },
+  {
+   "hex": "#a156fe",
+   "name": "Vite Link"
+  },
+  {
+   "hex": "#fb848e",
+   "name": "Nitro Link"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d355c627-239b-4984-b26f-7d5bbab50e44.mp4",
+  "poster": "https://happyhands.cc/design-archive/nuxt-d9a19632/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/nuxt-d9a19632/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/nuxt-d9a19632/thumbnail.jpg"
+}

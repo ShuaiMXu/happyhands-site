@@ -1,0 +1,85 @@
+{
+ "id": "92f92f04-d3a7-4e5b-9a1d-f23c9a4d16dc",
+ "slug": "gitbutler-92f92f04",
+ "name": "GitButler",
+ "site_url": "https://gitbutler.com",
+ "lastmod": "2026-09-24T17:52:14.659Z",
+ "extracted_at": "2026-09-24T17:36:32.494Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "Teal terminal on paper. Pair high-contrast serif headlines with quiet technical grids, warm graphite surfaces, and restrained teal activation.",
+ "fonts": [
+  "But Head",
+  "Inter",
+  "Geist Mono",
+  "Source Code Pro"
+ ],
+ "colors": [
+  {
+   "hex": "#f3f2f1",
+   "name": "Paper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#1c1917",
+   "name": "Ink"
+  },
+  {
+   "hex": "#272321",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#3a3532",
+   "name": "Deep Graphite"
+  },
+  {
+   "hex": "#7c716a",
+   "name": "Warm Gray"
+  },
+  {
+   "hex": "#aaa29d",
+   "name": "Steel"
+  },
+  {
+   "hex": "#cac6c3",
+   "name": "Rule Gray"
+  },
+  {
+   "hex": "#d3f3f3",
+   "name": "Aqua Mist"
+  },
+  {
+   "hex": "#8dd9d9",
+   "name": "Aqua Midtone"
+  },
+  {
+   "hex": "#9fe4e4",
+   "name": "Outline Aqua"
+  },
+  {
+   "hex": "#25b1b1",
+   "name": "Butler Teal"
+  },
+  {
+   "hex": "#1d8a8a",
+   "name": "Deep Teal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3f8c94d1-083a-451b-ba43-2e08d693438f.mp4",
+  "poster": "https://happyhands.cc/design-archive/gitbutler-92f92f04/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/gitbutler-92f92f04/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/gitbutler-92f92f04/thumbnail.jpg"
+}

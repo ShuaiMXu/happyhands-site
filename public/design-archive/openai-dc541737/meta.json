@@ -1,0 +1,58 @@
+{
+ "id": "dc541737-8bf2-4b31-b729-0352f696e82f",
+ "slug": "openai-dc541737",
+ "name": "OpenAI",
+ "site_url": "https://openai.com",
+ "lastmod": "2026-07-03T11:31:48.515Z",
+ "extracted_at": "2026-07-03T03:45:45.294Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Research lab notebook at noon.",
+ "fonts": [
+  "OpenAI Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#666666",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#8f8f8f",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f1f1f1",
+   "name": "Ash"
+  },
+  {
+   "hex": "#0000001f",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#0000000a",
+   "name": "Whisper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/1a46f90b-5caa-4e31-85c1-209ce10bad5d.mp4",
+  "poster": "https://happyhands.cc/design-archive/openai-dc541737/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/openai-dc541737/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/openai-dc541737/thumbnail.jpg"
+}

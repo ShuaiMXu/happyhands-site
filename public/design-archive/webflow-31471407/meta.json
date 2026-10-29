@@ -1,0 +1,87 @@
+{
+ "id": "31471407-598a-45fd-a505-d921980d8855",
+ "slug": "webflow-31471407",
+ "name": "Webflow",
+ "site_url": "https://webflow.com",
+ "lastmod": "2026-06-03T15:10:42.817Z",
+ "extracted_at": "2026-06-03T15:10:42.812Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "white studio, black ink, one blue mark — a designer's drafting table rendered as a web page.",
+ "fonts": [
+  "WF Visual Sans Variable",
+  "WF Visual Sans Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#146ef5",
+   "name": "Webflow Blue"
+  },
+  {
+   "hex": "#1366e2",
+   "name": "Indigo Ink"
+  },
+  {
+   "hex": "#6ca7ff",
+   "name": "Mercury Tint"
+  },
+  {
+   "hex": "#60ed76",
+   "name": "Mint Pulse"
+  },
+  {
+   "hex": "#ffa666",
+   "name": "Apricot Glow"
+  },
+  {
+   "hex": "#080808",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#5a5a5a",
+   "name": "Slate"
+  },
+  {
+   "hex": "#d8d8d8",
+   "name": "Ash Border"
+  },
+  {
+   "hex": "#bdbdbd",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#222222",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#171717",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#f0f0f0",
+   "name": "Mist"
+  },
+  {
+   "hex": "#292929",
+   "name": "Charcoal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4271252f-7d14-4594-8489-b8c23a843bd9.mp4",
+  "poster": "https://happyhands.cc/design-archive/webflow-31471407/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/webflow-31471407/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/webflow-31471407/thumbnail.jpg"
+}

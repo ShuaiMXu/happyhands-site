@@ -1,0 +1,75 @@
+{
+ "id": "46bca11b-6920-4d70-8dd7-c4e3dbc123c7",
+ "slug": "iuspc-by-coinshift-46bca11b",
+ "name": "iUSPC by Coinshift",
+ "site_url": "https://www.coinshift.xyz",
+ "lastmod": "2026-06-03T21:17:52.005Z",
+ "extracted_at": "2026-06-03T21:17:51.997Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "fintech",
+ "north_star": "Midnight trading floor — cold slate surfaces, a single ember pilot light, and grid lines drawn on darkness.",
+ "fonts": [
+  "Inter",
+  "ABCSynt"
+ ],
+ "colors": [
+  {
+   "hex": "#020617",
+   "name": "Abyss Ink"
+  },
+  {
+   "hex": "#0a0e1a",
+   "name": "Deep Slate"
+  },
+  {
+   "hex": "#f1f5f9",
+   "name": "Frost White"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Cloud Gray"
+  },
+  {
+   "hex": "#64748b",
+   "name": "Slate Mist"
+  },
+  {
+   "hex": "#475569",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#353845",
+   "name": "Steel Border"
+  },
+  {
+   "hex": "#cbd5e1",
+   "name": "Pale Mist"
+  },
+  {
+   "hex": "#fa3812",
+   "name": "Ember Glow"
+  },
+  {
+   "hex": "#651a15",
+   "name": "Ember Border"
+  },
+  {
+   "hex": "#34d399",
+   "name": "Signal Green"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/787ee10c-8a4e-4e82-8398-f01d614aa719.mp4",
+  "poster": "https://happyhands.cc/design-archive/iuspc-by-coinshift-46bca11b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/iuspc-by-coinshift-46bca11b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/iuspc-by-coinshift-46bca11b/thumbnail.jpg"
+}

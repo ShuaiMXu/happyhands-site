@@ -1,0 +1,71 @@
+{
+ "id": "40030487-56e3-447d-904f-b955ebadd0b5",
+ "slug": "twitch-40030487",
+ "name": "Twitch",
+ "site_url": "https://twitch.tv",
+ "lastmod": "2026-06-03T19:25:43.417Z",
+ "extracted_at": "2026-06-03T19:25:43.413Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "Stadium scoreboard on parchment",
+ "fonts": [
+  "Inter",
+  "Roobert"
+ ],
+ "colors": [
+  {
+   "hex": "#5c16c5",
+   "name": "Deep Iris"
+  },
+  {
+   "hex": "#9147ff",
+   "name": "Twitch Purple"
+  },
+  {
+   "hex": "#eb0400",
+   "name": "Broadcast Red"
+  },
+  {
+   "hex": "#0e0e10",
+   "name": "Dark Matter"
+  },
+  {
+   "hex": "#3b3b44",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#efeff1",
+   "name": "Soft Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#dddde2",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#b2b2b3",
+   "name": "Steel Gray"
+  },
+  {
+   "hex": "#c1c1c1",
+   "name": "Shadow Smoke"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a968eb74-2545-4964-b6d1-afdf5d7d3fb2.mp4",
+  "poster": "https://happyhands.cc/design-archive/twitch-40030487/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/twitch-40030487/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/twitch-40030487/thumbnail.jpg"
+}

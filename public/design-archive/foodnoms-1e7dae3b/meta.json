@@ -1,0 +1,93 @@
+{
+ "id": "1e7dae3b-cb34-4fcf-8c32-051152aebbab",
+ "slug": "foodnoms-1e7dae3b",
+ "name": "Foodnoms",
+ "site_url": "https://foodnoms.com",
+ "lastmod": "2026-06-05T01:48:30.157Z",
+ "extracted_at": "2026-06-03T16:56:49.644Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Sunlit fruit market on white porcelain — warm orange, fresh green, and generous rounded forms",
+ "fonts": [
+  "Aquawax Pro Medium",
+  "Aquawax Pro",
+  "System sans-serif",
+  "Aquawax Pro DemiBold"
+ ],
+ "colors": [
+  {
+   "hex": "#ff5406",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#00b33f",
+   "name": "Verdant Green"
+  },
+  {
+   "hex": "#ff3400",
+   "name": "Signal Red-Orange"
+  },
+  {
+   "hex": "#00a9dd",
+   "name": "Sky Blue"
+  },
+  {
+   "hex": "#72a2c5",
+   "name": "Mist Blue"
+  },
+  {
+   "hex": "#ff6d00",
+   "name": "Sunset Orange"
+  },
+  {
+   "hex": "#945300",
+   "name": "Amber"
+  },
+  {
+   "hex": "#ff001e",
+   "name": "Alert Red"
+  },
+  {
+   "hex": "#bd4be5",
+   "name": "Plum"
+  },
+  {
+   "hex": "#5856de",
+   "name": "Iris"
+  },
+  {
+   "hex": "#0099f9",
+   "name": "Electric Blue"
+  },
+  {
+   "hex": "#2f2f2f",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#000000",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#f5f5f5",
+   "name": "Fog"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8d5eb288-ba51-466c-a9a3-8600733ef63b.mp4",
+  "poster": "https://happyhands.cc/design-archive/foodnoms-1e7dae3b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/foodnoms-1e7dae3b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/foodnoms-1e7dae3b/thumbnail.jpg"
+}

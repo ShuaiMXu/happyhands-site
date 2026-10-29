@@ -1,0 +1,60 @@
+{
+ "id": "fe8cdcf9-c850-4d52-be07-5ad269bf9ebf",
+ "slug": "caldera-fe8cdcf9",
+ "name": "Caldera",
+ "site_url": "https://caldera.xyz",
+ "lastmod": "2026-07-03T10:35:42.147Z",
+ "extracted_at": "2026-07-03T03:13:33.116Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "crypto",
+ "north_star": "forge fire on warm limestone. The canvas is raw warm plaster, and every orange element reads as glowing embers pressed into the surface.",
+ "fonts": [
+  "PP Neue Corp Compact",
+  "DM Sans",
+  "System sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#fc5000",
+   "name": "Ember"
+  },
+  {
+   "hex": "#524ae9",
+   "name": "Plasma Violet"
+  },
+  {
+   "hex": "#f5f28e",
+   "name": "Sulfur"
+  },
+  {
+   "hex": "#f7f6f2",
+   "name": "Limestone"
+  },
+  {
+   "hex": "#e2e2df",
+   "name": "Pumice"
+  },
+  {
+   "hex": "#070607",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Chalk"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/1d960984-8d35-437b-a69d-0d353852772b.mp4",
+  "poster": "https://happyhands.cc/design-archive/caldera-fe8cdcf9/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/caldera-fe8cdcf9/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/caldera-fe8cdcf9/thumbnail.jpg"
+}

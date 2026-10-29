@@ -1,0 +1,42 @@
+{
+ "id": "97823ba1-ee1e-489d-aefd-8d72a578669a",
+ "slug": "zara-97823ba1",
+ "name": "Zara",
+ "site_url": "https://zara.com",
+ "lastmod": "2026-06-03T18:15:42.362Z",
+ "extracted_at": "2026-06-03T18:15:42.357Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Gallery wall for fashion — pure white space, hairline frames, editorial imagery as the only color.",
+ "fonts": [
+  "Helvetica Now Text"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Canvas"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#757575",
+   "name": "Stone"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0937a8ce-5ac8-41a0-bf18-456cec96713f.mp4",
+  "poster": "https://happyhands.cc/design-archive/zara-97823ba1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/zara-97823ba1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/zara-97823ba1/thumbnail.jpg"
+}

@@ -1,0 +1,59 @@
+{
+ "id": "1f204e95-454a-437e-845b-c1b169d35607",
+ "slug": "oryzo-ai-1f204e95",
+ "name": "ORYZO AI",
+ "site_url": "https://oryzo.ai",
+ "lastmod": "2026-07-03T09:53:54.161Z",
+ "extracted_at": "2026-07-03T02:49:01.712Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "design",
+ "north_star": "Darkroom product editorial. A lone object floating in warm darkness, cream typography the only decoration.",
+ "fonts": [
+  "halyard-display-variable",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#ffedd7",
+   "name": "Warm Cream"
+  },
+  {
+   "hex": "#100904",
+   "name": "Walnut Shadow"
+  },
+  {
+   "hex": "#382416",
+   "name": "Bark Brown"
+  },
+  {
+   "hex": "#40372e",
+   "name": "Cork Border"
+  },
+  {
+   "hex": "#6c5f51",
+   "name": "Driftwood"
+  },
+  {
+   "hex": "#dc5000",
+   "name": "Ember Accent"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/90d7739d-fb2e-46a8-9483-6e2f66d7b806.mp4",
+  "poster": "https://happyhands.cc/design-archive/oryzo-ai-1f204e95/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/oryzo-ai-1f204e95/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/oryzo-ai-1f204e95/thumbnail.jpg"
+}

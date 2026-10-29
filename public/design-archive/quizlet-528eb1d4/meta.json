@@ -1,0 +1,71 @@
+{
+ "id": "528eb1d4-8508-4dc6-87b4-c7b92d648dac",
+ "slug": "quizlet-528eb1d4",
+ "name": "Quizlet",
+ "site_url": "https://quizlet.com",
+ "lastmod": "2026-06-03T15:12:21.896Z",
+ "extracted_at": "2026-06-03T15:12:21.890Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "color-coded classroom on white — a quiet study desk where four pastel flashcards are the only splash of color against cool gray walls and a single indigo highlighter mark.",
+ "fonts": [
+  "hurme_no2-webfont",
+  "Hurme Geometric Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#4255ff",
+   "name": "Iris Bolt"
+  },
+  {
+   "hex": "#282e3e",
+   "name": "Ink Charcoal"
+  },
+  {
+   "hex": "#2e3856",
+   "name": "Deep Indigo"
+  },
+  {
+   "hex": "#586380",
+   "name": "Slate Veil"
+  },
+  {
+   "hex": "#939bb4",
+   "name": "Fog Mist"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#f6f7fb",
+   "name": "Chalk Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#edefff",
+   "name": "Lilac Wash"
+  },
+  {
+   "hex": "#d9dde8",
+   "name": "Mist Border"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b9de74d6-7fa2-40a8-8452-7b5558a0dde9.mp4",
+  "poster": "https://happyhands.cc/design-archive/quizlet-528eb1d4/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/quizlet-528eb1d4/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/quizlet-528eb1d4/thumbnail.jpg"
+}

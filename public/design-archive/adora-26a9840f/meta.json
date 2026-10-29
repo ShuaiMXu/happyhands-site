@@ -1,0 +1,83 @@
+{
+ "id": "26a9840f-f128-4cfc-84a5-feb7db1bf577",
+ "slug": "adora-26a9840f",
+ "name": "Adora",
+ "site_url": "https://www.adora.so",
+ "lastmod": "2026-06-03T15:03:57.309Z",
+ "extracted_at": "2026-06-03T15:03:57.303Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "impressionist museum behind frosted glass",
+ "fonts": [
+  "PolySans",
+  "Plus Jakarta Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#592eff",
+   "name": "Electric Violet"
+  },
+  {
+   "hex": "#21164c",
+   "name": "Midnight Plum"
+  },
+  {
+   "hex": "#353241",
+   "name": "Obsidian Charcoal"
+  },
+  {
+   "hex": "#5f5f69",
+   "name": "Slate Smoke"
+  },
+  {
+   "hex": "#e0e0db",
+   "name": "Pearl Mist"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Soft Concrete"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#bcf2ff",
+   "name": "Sky Tint"
+  },
+  {
+   "hex": "#dfff9d",
+   "name": "Lime Spritz"
+  },
+  {
+   "hex": "#ffaae6",
+   "name": "Cotton Candy"
+  },
+  {
+   "hex": "#2ed6ff",
+   "name": "Neon Cyan"
+  },
+  {
+   "hex": "#a2ea13",
+   "name": "Lime Pop"
+  },
+  {
+   "hex": "#f843c2",
+   "name": "Magenta Pulse"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f68e7ecc-7bb8-4402-a905-37623df150fc.mp4",
+  "poster": "https://happyhands.cc/design-archive/adora-26a9840f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/adora-26a9840f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/adora-26a9840f/thumbnail.jpg"
+}

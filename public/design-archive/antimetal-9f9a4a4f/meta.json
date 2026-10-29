@@ -1,0 +1,72 @@
+{
+ "id": "9f9a4a4f-1a27-47ca-a65b-68b9850a84e4",
+ "slug": "antimetal-9f9a4a4f",
+ "name": "Antimetal",
+ "site_url": "https://antimetal.com",
+ "lastmod": "2026-07-03T10:15:02.917Z",
+ "extracted_at": "2026-07-03T03:06:29.588Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "editorial observatory on cream paper — a quiet morning in a research journal where restraint signals confidence and the serif does the heavy lifting",
+ "fonts": [
+  "Test Signifier",
+  "Geist",
+  "Geist Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#d7d7d0",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#f7f6f3",
+   "name": "Cream"
+  },
+  {
+   "hex": "#fdfcfa",
+   "name": "Bone"
+  },
+  {
+   "hex": "#1a1614",
+   "name": "Bistre"
+  },
+  {
+   "hex": "#66635f",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#a8a7a1",
+   "name": "Flint"
+  },
+  {
+   "hex": "#53504c",
+   "name": "Slate"
+  },
+  {
+   "hex": "#2a2724",
+   "name": "Ash"
+  },
+  {
+   "hex": "#e3e3de",
+   "name": "Quill"
+  },
+  {
+   "hex": "#e2e67d",
+   "name": "Chartreuse Whisper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b1dfe105-26b3-4c38-b1d9-1c9dc6570cf4.mp4",
+  "poster": "https://happyhands.cc/design-archive/antimetal-9f9a4a4f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/antimetal-9f9a4a4f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/antimetal-9f9a4a4f/thumbnail.jpg"
+}

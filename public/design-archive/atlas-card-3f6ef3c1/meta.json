@@ -1,0 +1,64 @@
+{
+ "id": "3f6ef3c1-f98f-4cd9-bdf0-545059758705",
+ "slug": "atlas-card-3f6ef3c1",
+ "name": "Atlas Card",
+ "site_url": "https://atlascard.com",
+ "lastmod": "2026-06-03T15:45:55.601Z",
+ "extracted_at": "2026-06-03T15:45:55.597Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "fintech",
+ "north_star": "Midnight vault with a single sapphire light — pure black space where one deep electric blue is the only thing that matters.",
+ "fonts": [
+  "Sequel Sans Headline Book",
+  "Sequel Sans Book",
+  "ApercuMono Pro"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void"
+  },
+  {
+   "hex": "#1e1e1e",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#272727",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#808080",
+   "name": "Ash"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Frost"
+  },
+  {
+   "hex": "#f8f8f8",
+   "name": "Paper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#001391",
+   "name": "Sapphire Volt"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/7e26583a-feb5-40b3-a705-6120b790774e.mp4",
+  "poster": "https://happyhands.cc/design-archive/atlas-card-3f6ef3c1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/atlas-card-3f6ef3c1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/atlas-card-3f6ef3c1/thumbnail.jpg"
+}

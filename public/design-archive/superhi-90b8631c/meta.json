@@ -1,0 +1,80 @@
+{
+ "id": "90b8631c-4e2c-407e-86a3-d2bff456dc93",
+ "slug": "superhi-90b8631c",
+ "name": "SuperHi",
+ "site_url": "https://superhi.com",
+ "lastmod": "2026-06-03T17:49:35.647Z",
+ "extracted_at": "2026-06-03T17:49:35.630Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Paper-cut shapes scattered across a pale-blue classroom wall",
+ "fonts": [
+  "Haas Grot Disp",
+  "Haas Grot Text",
+  "Martian Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#2727e6",
+   "name": "Electric Iris"
+  },
+  {
+   "hex": "#111118",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f0f6ff",
+   "name": "Chalk Blue"
+  },
+  {
+   "hex": "#e1edff",
+   "name": "Frost Blue"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#ff4141",
+   "name": "Marker Red"
+  },
+  {
+   "hex": "#ffda00",
+   "name": "Hi-Yellow"
+  },
+  {
+   "hex": "#91d8ec",
+   "name": "Powder Sky"
+  },
+  {
+   "hex": "#ffbac4",
+   "name": "Bubblegum Pink"
+  },
+  {
+   "hex": "#16ab59",
+   "name": "Jelly Green"
+  },
+  {
+   "hex": "#ffe54d",
+   "name": "Sunbeam"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/266ba32a-0ee8-4108-af06-88b7266827e0.mp4",
+  "poster": "https://happyhands.cc/design-archive/superhi-90b8631c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/superhi-90b8631c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/superhi-90b8631c/thumbnail.jpg"
+}

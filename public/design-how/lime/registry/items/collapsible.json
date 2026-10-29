@@ -1,0 +1,31 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "collapsible",
+ "type": "registry:ui",
+ "title": "Collapsible",
+ "description": "One section that opens and closes, the base of the Why? in Approval request.",
+ "author": "design.how",
+ "categories": [
+  "layout"
+ ],
+ "dependencies": [
+  "@base-ui/react@^1.8.0"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/lime/icon.json",
+  "https://design.how/r/lime/theme.json",
+  "https://design.how/r/lime/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/lime.md",
+  "page": "https://design.how/systems/lime"
+ },
+ "files": [
+  {
+   "path": "registry/lime/ui/collapsible.tsx",
+   "content": "'use client';\n\nimport {Collapsible as CollapsiblePrimitive} from '@base-ui/react/collapsible';\nimport {ChevronDown, Icon} from '@/components/lime/icon';\nimport {mergeClass} from '@/lib/lime/utils';\n\n// One section that opens and closes: advanced settings, a long description, a receipt's details. The\n// trigger is a real button with aria-expanded, and the panel animates its height over 200ms. For a stack\n// of sections where one opens at a time use Accordion.\n\nfunction Collapsible(props: CollapsiblePrimitive.Root.Props) {\n  return <CollapsiblePrimitive.Root data-slot=\"collapsible\" {...props}/>;\n}\n\ntype CollapsibleTriggerProps = CollapsiblePrimitive.Trigger.Props & {\n  /** Hides the caret, for a trigger that draws its own. */\n  hideIcon?: boolean;\n};\n\nfunction CollapsibleTrigger({className, children, hideIcon, ...props}: CollapsibleTriggerProps) {\n  return (\n    <CollapsiblePrimitive.Trigger\n      data-slot=\"collapsible-trigger\"\n      className={mergeClass('group/collapsible-trigger flex w-full items-center justify-between gap-2 rounded-md py-2 text-start text-sm font-medium underline-offset-4 hover:not-data-disabled:underline data-disabled:cursor-not-allowed data-disabled:text-fg-disabled', className)}\n      {...props}\n    >\n      {children}\n      {!hideIcon && <Icon icon={ChevronDown} size={16} className=\"text-fg-3 transition-transform duration-(--dur-fast) group-data-panel-open/collapsible-trigger:rotate-180 group-data-disabled/collapsible-trigger:text-fg-disabled\"/>}\n    </CollapsiblePrimitive.Trigger>\n  );\n}\n\nfunction CollapsibleContent({className, ...props}: CollapsiblePrimitive.Panel.Props) {\n  return (\n    <CollapsiblePrimitive.Panel\n      data-slot=\"collapsible-content\"\n      className={mergeClass('h-(--collapsible-panel-height) overflow-hidden text-sm text-fg-2 transition-[height] duration-(--dur-base) ease-(--ease-out) data-ending-style:h-0 data-starting-style:h-0', className)}\n      {...props}\n    />\n  );\n}\n\nexport {Collapsible, CollapsibleTrigger, CollapsibleContent};\n",
+   "type": "registry:ui",
+   "target": "@components/lime/ui/collapsible.tsx"
+  }
+ ]
+}

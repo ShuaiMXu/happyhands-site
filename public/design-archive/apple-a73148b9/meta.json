@@ -1,0 +1,76 @@
+{
+ "id": "a73148b9-449b-42cd-9f38-86ef694f500e",
+ "slug": "apple-a73148b9",
+ "name": "Apple",
+ "site_url": "https://www.apple.com/iphone-duo",
+ "lastmod": "2026-09-21T00:02:30.956Z",
+ "extracted_at": "2026-09-20T21:33:16.569Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "foldable device in a white gallery. Center product renders as the visual event, with typography and blue controls kept deliberately quiet around it.",
+ "fonts": [
+  "SF Pro Display",
+  "SF Pro Text",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Gallery White"
+  },
+  {
+   "hex": "#f5f5f7",
+   "name": "Studio Mist"
+  },
+  {
+   "hex": "#fafafc",
+   "name": "Paper Frost"
+  },
+  {
+   "hex": "#d6d6d6",
+   "name": "Hairline Silver"
+  },
+  {
+   "hex": "#e6e6e8",
+   "name": "Control Gray"
+  },
+  {
+   "hex": "#1d1d1f",
+   "name": "Ink"
+  },
+  {
+   "hex": "#707070",
+   "name": "Slate"
+  },
+  {
+   "hex": "#86868b",
+   "name": "Steel"
+  },
+  {
+   "hex": "#0066cc",
+   "name": "Apple Blue"
+  },
+  {
+   "hex": "#0071e3",
+   "name": "Pricing Blue"
+  },
+  {
+   "hex": "#b64400",
+   "name": "Launch Orange"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/093f8c1d-1060-4aef-bf95-68d0396951eb.mp4",
+  "poster": "https://happyhands.cc/design-archive/apple-a73148b9/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/apple-a73148b9/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/apple-a73148b9/thumbnail.jpg"
+}

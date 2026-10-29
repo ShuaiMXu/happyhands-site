@@ -1,0 +1,90 @@
+{
+ "id": "e5b95270-9148-417a-89c6-32138d83a251",
+ "slug": "uniswap-e5b95270",
+ "name": "Uniswap",
+ "site_url": "https://uniswap.org",
+ "lastmod": "2026-06-03T19:05:51.913Z",
+ "extracted_at": "2026-06-03T19:05:51.909Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "crypto",
+ "north_star": "cotton-candy swap terminal in white air. Vivid magenta accents pierce an otherwise colorless, floating interface, while soft chromatic orbs drift in the background like currency made visible.",
+ "fonts": [
+  "Basel"
+ ],
+ "colors": [
+  {
+   "hex": "#ff37c7",
+   "name": "Uniswap Magenta"
+  },
+  {
+   "hex": "#131313",
+   "name": "Ink"
+  },
+  {
+   "hex": "#222222",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#6a6a6a",
+   "name": "Steel"
+  },
+  {
+   "hex": "#acacac",
+   "name": "Fog"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Bone"
+  },
+  {
+   "hex": "#000000",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#8251fb",
+   "name": "Electric Violet"
+  },
+  {
+   "hex": "#ff4d00",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#f50db4",
+   "name": "Hot Pink"
+  },
+  {
+   "hex": "#2abdff",
+   "name": "Sky Cyan"
+  },
+  {
+   "hex": "#00c3a0",
+   "name": "Mint Teal"
+  },
+  {
+   "hex": "#e01a2b",
+   "name": "Coral Red"
+  },
+  {
+   "hex": "#0c8911",
+   "name": "Forest Green"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/09d071b5-71e0-49d3-bc2e-f31a616c0d0d.mp4",
+  "poster": "https://happyhands.cc/design-archive/uniswap-e5b95270/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/uniswap-e5b95270/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/uniswap-e5b95270/thumbnail.jpg"
+}

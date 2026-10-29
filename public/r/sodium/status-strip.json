@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "status-strip",
+  "type": "registry:ui",
+  "title": "Status strip",
+  "description": "Shows the few numbers to check first, in one ruled row.",
+  "author": "design.how",
+  "categories": [
+    "display"
+  ],
+  "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/theme.json",
+    "https://happyhands.cc/r/sodium/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/sodium/components/status-strip.md",
+    "page": "https://happyhands.cc/design-how/sodium/components/status-strip.md"
+  },
+  "files": [
+    {
+      "path": "registry/sodium/ui/status-strip.tsx",
+      "content": "'use client';\n\nimport {mergeProps} from '@base-ui/react/merge-props';\nimport {useRender} from '@base-ui/react/use-render';\nimport {cva, type VariantProps} from 'class-variance-authority';\nimport {cn} from '@/lib/sodium/utils';\n\n// Sodium's own piece: a ruled row of cells, each a mono label over its value, for the few numbers a person checks\n// before anything else on a screen. A cluster's workers, a queue's depth, the warehouse's credits, the last load. It\n// sits at the top of a frame or as a footer bar, like a terminal's status line.\n//\n// Cells share 1px rules with no gap, the frame's own rules carried through, and wrap into more rows when the strip\n// narrows, each cell at least 160px (--label-col) wide, so a phone shows two columns and the rules still meet. The\n// label is a stat label, type-label-sm in text-2, and the value a stat value, type-code in text-1, written as it is:\n// values are compared, so they are never set in capitals. A data list and a meter use the same two roles.\n//\n// One cell may be selected: the place you are, or the number the view below is filtered by. It takes the yellow\n// selection wash under ink, like a terminal selection, and aria-current. A cell that filters is a button (render),\n// which adds the hover wash and the focus ring inside its rules.\n//\n// variant=\"framed\" (default) draws the strip's own edge, for a strip standing on the page; plain leaves it to the\n// frame around it, for a strip as the first or last row of a region.\n\nconst stripVariants = cva('@container/strip min-w-0 overflow-hidden', {\n  variants: {\n    variant: {\n      framed: 'border border-line bg-page forced-colors:border-[CanvasText]',\n      plain: '',\n    },\n  },\n  defaultVariants: {variant: 'framed'},\n});\n\ntype StatusStripProps = React.ComponentProps<'div'> & VariantProps<typeof stripVariants> & {\n  /** Names the strip for a screen reader: \"Cluster status\". */\n  label?: string;\n};\n\nfunction StatusStrip({className, variant = 'framed', label, children, ...props}: StatusStripProps) {\n  return <div data-slot=\"status-strip\" data-variant={variant} role=\"group\" aria-label={label} className={cn(stripVariants({variant}), className)} {...props}>\n    {/* The cells draw their end and bottom rules; the grid runs 1px past the box so the last ones are clipped away. */}\n    <div data-slot=\"status-strip-cells\" className=\"-me-px -mb-px grid grid-cols-[repeat(auto-fit,minmax(min(100%,var(--label-col)),1fr))]\">\n      {children}\n    </div>\n  </div>;\n}\n\ntype StatusStripCellProps = useRender.ComponentProps<'div'> & {\n  /** The place you are, or the number the view is filtered by: the selection wash and aria-current. One per strip. */\n  selected?: boolean;\n};\n\n/** One cell: a StatusStripLabel over a StatusStripValue. Render it as a button when choosing it filters the view. */\nfunction StatusStripCell({className, selected, render, ...props}: StatusStripCellProps) {\n  const interactive = !!render || !!props.onClick;\n  return useRender({\n    defaultTagName: 'div',\n    props: mergeProps<'div'>(\n      {\n        className: cn(\n          'relative flex min-w-0 flex-col justify-center gap-0.5 border-e border-b border-line px-inset py-inset text-start text-text-1',\n          'transition-[background-color] duration-(--dur-state) ease-out',\n          interactive && 'cursor-pointer select-none hover:bg-hover active:bg-pressed focus-visible:focus-ring-inset',\n          selected && 'selected hover:bg-selected-strong active:bg-selected-strong',\n          'forced-colors:data-selected:outline forced-colors:data-selected:outline-2 forced-colors:data-selected:-outline-offset-2',\n          className,\n        ),\n      },\n      {'data-slot': 'status-strip-cell', 'data-selected': selected ? '' : undefined, 'aria-current': selected ? 'true' : undefined} as React.ComponentProps<'div'>,\n      props,\n    ),\n    render,\n    state: {slot: 'status-strip-cell', selected},\n  });\n}\n\n/** What the number is, in small mono capitals: \"Workers\", \"Queue depth\". */\nfunction StatusStripLabel({className, ...props}: React.ComponentProps<'span'>) {\n  return <span data-slot=\"status-strip-label\" className={cn('flex min-w-0 items-center gap-1.5 truncate type-label-sm text-text-2 [&_svg]:size-(--icon) [&_svg]:shrink-0', className)} {...props}/>;\n}\n\n/** The number or the word, as written, with a StatusMark or a unit beside it. A mark is drawn at the figures' cap\n *  height and sits on their baseline, 6px before them, so it reads as part of the value, not a bullet. */\nfunction StatusStripValue({className, ...props}: React.ComponentProps<'span'>) {\n  return <span data-slot=\"status-strip-value\" className={cn(\n    'flex min-w-0 items-baseline gap-1.5 truncate type-code text-text-1',\n    '[&>[data-slot=status-mark]]:h-auto [&>[data-slot=status-mark]]:self-baseline [&>[data-slot=status-mark]]:[--marker:var(--cap)]',\n    className,\n  )} {...props}/>;\n}\n\n/** A unit or a delta after the value, in text-2: \"/ 64\", \"+12%\". */\nfunction StatusStripUnit({className, ...props}: React.ComponentProps<'span'>) {\n  return <span data-slot=\"status-strip-unit\" className={cn('text-text-2', className)} {...props}/>;\n}\n\nexport {StatusStrip, StatusStripCell, StatusStripLabel, StatusStripValue, StatusStripUnit, stripVariants, type StatusStripProps, type StatusStripCellProps};\n",
+      "type": "registry:ui",
+      "target": "@components/sodium/ui/status-strip.tsx"
+    }
+  ]
+}

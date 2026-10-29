@@ -1,0 +1,31 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "cited-answer",
+ "type": "registry:block",
+ "title": "Cited answer",
+ "description": "A question asked of the workspace: a short answer with numbered citations and the sources they point to.",
+ "author": "design.how",
+ "categories": [
+  "block",
+  "ai",
+  "search"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/glaze/card.json",
+  "https://design.how/r/glaze/item.json",
+  "https://design.how/r/glaze/response.json",
+  "https://design.how/r/glaze/theme.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/glaze.md",
+  "page": "https://design.how/systems/glaze"
+ },
+ "files": [
+  {
+   "path": "registry/glaze/blocks/cited-answer.tsx",
+   "content": "'use client';\n\nimport {Card, CardContent, CardHeader, CardTitle} from '@/components/glaze/ui/card';\nimport {Item, ItemContent, ItemDescription, ItemGroup, ItemLink, ItemMedia, ItemTitle} from '@/components/glaze/ui/item';\nimport {Response, type InlineTag} from '@/components/glaze/ai/response';\n\n// A block: a question asked of the workspace, answered in two sentences with numbered citations, and the sources\n// those numbers point to as rows. The number is the same small tag in the answer and on its row, so the eye can go\n// from a claim to its document. Nothing here leads, so nothing is glass; the press is a source. Wire `answer` and\n// `sources` to your retrieval, keeping the [n] markers your model emits.\n\nconst answer = 'Refunds over **$500** need a second approval from the support lead[1]. The agent hands them off with the order and the amount instead of sending the money[2].';\n\nconst sources = [\n  {title: 'Refund policy, 2026', meta: 'Policies, edited 2h ago'},\n  {title: 'Approvals for large refunds', meta: 'Help center, edited 3d ago'},\n];\n\nconst citation: InlineTag[] = [{\n  pattern: /\\[(\\d+)\\]/,\n  partial: /\\[\\d*$/,\n  render: m => <a href={`#source-${m[1]}`} aria-label={`Source ${m[1]}`} className=\"ms-0.5 inline-block rounded-tag bg-field px-1 align-baseline type-caption text-text-2 no-underline data hover:text-text-1\">{m[1]}</a>,\n}];\n\n/** The question, the cited answer and its two sources. */\nexport function CitedAnswer({className}: {className?: string}) {\n  return (\n    <Card aria-label=\"Workspace search\" className={className ?? 'w-full max-w-md'}>\n      <CardHeader>\n        <CardTitle>How do we handle refunds over $500?</CardTitle>\n      </CardHeader>\n      <CardContent>\n        <Response size=\"sm\" inlineTags={citation}>{answer}</Response>\n      </CardContent>\n      <CardContent flush>\n        <ItemGroup variant=\"plain\" aria-label=\"Sources\">\n          {sources.map((s, i) => <Item key={s.title} id={`source-${i + 1}`}>\n            <ItemMedia><span className=\"rounded-tag bg-field px-1 type-caption text-text-2 data\">{i + 1}</span></ItemMedia>\n            <ItemContent>\n              <ItemTitle><ItemLink href=\"#\">{s.title}</ItemLink></ItemTitle>\n              <ItemDescription>{s.meta}</ItemDescription>\n            </ItemContent>\n          </Item>)}\n        </ItemGroup>\n      </CardContent>\n    </Card>\n  );\n}\n",
+   "type": "registry:block",
+   "target": "@components/glaze/blocks/cited-answer.tsx"
+  }
+ ]
+}

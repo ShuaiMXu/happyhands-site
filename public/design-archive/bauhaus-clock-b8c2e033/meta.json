@@ -1,0 +1,78 @@
+{
+ "id": "b8c2e033-3846-47cf-a52d-2bb39e493d3b",
+ "slug": "bauhaus-clock-b8c2e033",
+ "name": "Bauhaus Clock",
+ "site_url": "https://bauhausclock.com",
+ "lastmod": "2026-09-20T20:30:49.894Z",
+ "extracted_at": "2026-09-20T19:29:14.731Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Bauhaus Clock — turquoise mechanical glow. Frame quiet pale surfaces around dark, cinematic clock imagery and use aqua as a rare illuminated detail.",
+ "fonts": [
+  "ui-sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#eef0f2",
+   "name": "Gallery Gray"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Porcelain"
+  },
+  {
+   "hex": "#04080d",
+   "name": "Instrument Ink"
+  },
+  {
+   "hex": "#121317",
+   "name": "Charcoal Type"
+  },
+  {
+   "hex": "#6a6b6f",
+   "name": "Slate"
+  },
+  {
+   "hex": "#4a4e52",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#a1e5e4",
+   "name": "Dial Teal"
+  },
+  {
+   "hex": "#d5efef",
+   "name": "Mint Glass"
+  },
+  {
+   "hex": "#00753e",
+   "name": "Evergreen Dial"
+  },
+  {
+   "hex": "#6d6f73",
+   "name": "Machine Night Gradient"
+  },
+  {
+   "hex": "#d6f6ff",
+   "name": "Icy Display Gradient"
+  },
+  {
+   "hex": "#bfffff",
+   "name": "Luminous Teal Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e40e44c3-3e00-4af5-a94e-5f79e96d141b.mp4",
+  "poster": "https://happyhands.cc/design-archive/bauhaus-clock-b8c2e033/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/bauhaus-clock-b8c2e033/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/bauhaus-clock-b8c2e033/thumbnail.jpg"
+}

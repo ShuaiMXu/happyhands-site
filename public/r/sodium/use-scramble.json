@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "use-scramble",
+  "type": "registry:hook",
+  "title": "useScramble",
+  "description": "Support file: resolves a mono label through glyphs in about 0.4 seconds.",
+  "author": "design.how",
+  "categories": [
+    "internal"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/use-timeline.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/sodium/index.md",
+    "page": "https://happyhands.cc/design-how/sodium/index.md"
+  },
+  "files": [
+    {
+      "path": "registry/sodium/hooks/use-scramble.ts",
+      "content": "'use client';\n\nimport {useCallback, type RefObject} from 'react';\nimport {useMotionToken, useTimeline, type TimelineOptions} from '@/hooks/sodium/use-timeline';\n\n// A mono label resolving through random glyphs: WXRKF0OWS, WORKF#OWS, WORKFLOWS. Over --dur-scramble (400ms) the\n// letters settle start to end, linear; the ones not yet settled show a glyph that changes every 40ms. Spaces and\n// punctuation hold still, so the word keeps its shape, and the face is mono, so the width never moves.\n//\n// The glyphs are not random. Each is a hash of the seed, the letter's place and the tick, so the same moment always\n// shows the same glyphs: on the server and the client, in a test, and in a docs specimen given a clock.\n//\n// Scramble a label once, when it first appears or its value changes (a status going from Running to Failed, a panel\n// header opening). Never a value someone is reading or editing, and never prose: a sentence in moving glyphs cannot be\n// read. The hook gives the visible string; keep the real one for screen readers:\n//\n//   const {text: shown} = useScramble(label, {ref});\n//   <span ref={ref} className=\"type-label\"><span aria-hidden>{shown}</span><span className=\"sr-only\">{label}</span></span>\n\n/** The glyphs an unsettled letter shows: capitals, figures and a few marks, all one advance wide in a mono face. */\nexport const scrambleGlyphs = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789#%&*+=<>/';\n/** ms between glyph changes on an unsettled letter. */\nexport const scrambleTick = 40;\n\n/** A small integer hash (FNV-1a on 32 bits), so glyphs are a pure function of their inputs. */\nexport function hash(...parts: (string | number)[]): number {\n  let h = 0x811c9dc5;\n  for (const ch of parts.join('|')) {\n    h ^= ch.codePointAt(0) ?? 0;\n    h = Math.imul(h, 0x01000193) >>> 0;\n  }\n  return h;\n}\n\nconst settles = (ch: string) => !/[\\p{L}\\p{N}]/u.test(ch);\n\n/** The label `elapsed` ms into a scramble of `duration` ms: settled letters from the start, glyphs after them. */\nexport function scrambleAt(text: string, elapsed: number, {duration = 400, seed = hash(text)}: {duration?: number; seed?: number} = {}): string {\n  if (duration <= 0 || elapsed >= duration) return text;\n  const chars = Array.from(text);\n  const settled = Math.floor(Math.max(0, elapsed) / duration * chars.length);\n  const tick = Math.floor(Math.max(0, elapsed) / scrambleTick);\n  return chars.map((ch, i) => i < settled || settles(ch) ? ch : scrambleGlyphs[hash(seed, i, tick) % scrambleGlyphs.length]).join('');\n}\n\nexport type ScrambleOptions = TimelineOptions & {\n  /** The element the label sits in, read for --dur-scramble and a reduced-motion wrapper. */\n  ref?: RefObject<Element | null>;\n  /** ms for the whole label to settle. Default --dur-scramble, 400ms. */\n  duration?: number;\n  /** Picks the glyphs. Default a hash of the text, so one label always scrambles the same way. */\n  seed?: number;\n};\n\nexport type Scramble = {\n  /** The label as it shows now. */\n  text: string;\n  /** Some letters are still glyphs. */\n  scrambling: boolean;\n};\n\nexport function useScramble(text: string, {ref, duration, seed, clock, play, restart}: ScrambleOptions = {}): Scramble {\n  const token = useMotionToken(ref, '--dur-scramble');\n  const total = duration ?? token.ms;\n  const step = useCallback((ms: number) => ms >= total ? -1 : Math.floor(ms / scrambleTick), [total]);\n  const elapsed = useTimeline({total, step, clock, play, restart: restart ?? text, reduced: token.reduced});\n  const shown = scrambleAt(text, elapsed, {duration: total, seed});\n  return {text: shown, scrambling: shown !== text};\n}\n",
+      "type": "registry:hook",
+      "target": "@hooks/sodium/use-scramble.ts"
+    }
+  ]
+}

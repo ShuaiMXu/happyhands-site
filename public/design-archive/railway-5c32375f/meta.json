@@ -1,0 +1,89 @@
+{
+ "id": "5c32375f-6ef1-4345-9418-ebbb7e887343",
+ "slug": "railway-5c32375f",
+ "name": "Railway",
+ "site_url": "https://railway.app",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-11T17:36:56.930Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "",
+ "north_star": "Cosmic Midnight Express. A calm, powerful journey through a dark, starlit environment, guided by clear signals.",
+ "fonts": [
+  "IBM Plex Serif",
+  "Inter",
+  "Inter Tight",
+  "ui-monospace"
+ ],
+ "colors": [
+  {
+   "hex": "#13111c",
+   "name": "Deep Space"
+  },
+  {
+   "hex": "#1a191f",
+   "name": "Surface"
+  },
+  {
+   "hex": "#33323",
+   "name": "Crater"
+  },
+  {
+   "hex": "#0d0c14",
+   "name": "Black Hole"
+  },
+  {
+   "hex": "#f7f7f8",
+   "name": "Starlight"
+  },
+  {
+   "hex": "#d0cfd2",
+   "name": "Starlight Dim"
+  },
+  {
+   "hex": "#a1a0ab",
+   "name": "Comet"
+  },
+  {
+   "hex": "#868593",
+   "name": "Asteroid"
+  },
+  {
+   "hex": "#553f83",
+   "name": "Cosmic Lilac"
+  },
+  {
+   "hex": "#a05fcf",
+   "name": "Supernova"
+  },
+  {
+   "hex": "#bf92ec",
+   "name": "Nebula Haze"
+  },
+  {
+   "hex": "#a05fcf",
+   "name": "Warp Drive Glow"
+  },
+  {
+   "hex": "#42946",
+   "name": "Success"
+  },
+  {
+   "hex": "#d82c20",
+   "name": "Error"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8f17afc0-fccc-459f-aac4-74b4fe922673.mp4",
+  "poster": "https://happyhands.cc/design-archive/railway-5c32375f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/railway-5c32375f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/railway-5c32375f/thumbnail.jpg"
+}

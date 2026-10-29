@@ -1,0 +1,111 @@
+{
+ "id": "9b9b0ca1-5067-4115-b62f-ee0e43d1f37f",
+ "slug": "liveblocks-9b9b0ca1",
+ "name": "Liveblocks",
+ "site_url": "https://liveblocks.io",
+ "lastmod": "2026-06-05T05:23:03.576Z",
+ "extracted_at": "2026-06-03T18:39:31.908Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "neon vapor trapped in obsidian",
+ "fonts": [
+  "Suisse Int'l",
+  "JetBrains Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void Canvas"
+  },
+  {
+   "hex": "#111111",
+   "name": "Obsidian Surface"
+  },
+  {
+   "hex": "#141716",
+   "name": "Carbon Layer"
+  },
+  {
+   "hex": "#21222b",
+   "name": "Graphite Panel"
+  },
+  {
+   "hex": "#272626",
+   "name": "Ash Border"
+  },
+  {
+   "hex": "#918d8d",
+   "name": "Steel Text"
+  },
+  {
+   "hex": "#a3a3a3",
+   "name": "Fog Text"
+  },
+  {
+   "hex": "#424242",
+   "name": "Smoke Divider"
+  },
+  {
+   "hex": "#edecee",
+   "name": "Bone Text"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure Light"
+  },
+  {
+   "hex": "#9f8dfc",
+   "name": "Plasma Violet"
+  },
+  {
+   "hex": "#bf7af0",
+   "name": "Ultraviolet"
+  },
+  {
+   "hex": "#a667ff",
+   "name": "Wisteria"
+  },
+  {
+   "hex": "#f76e99",
+   "name": "Ember Pink"
+  },
+  {
+   "hex": "#00c1d6",
+   "name": "Circuit Teal"
+  },
+  {
+   "hex": "#6cefce",
+   "name": "Mint Pulse"
+  },
+  {
+   "hex": "#70e1c8",
+   "name": "Mint Whisper"
+  },
+  {
+   "hex": "#0090ff",
+   "name": "Electric Blue"
+  },
+  {
+   "hex": "#34a7ff",
+   "name": "Sky Pulse"
+  },
+  {
+   "hex": "#ebf6ff",
+   "name": "Cloud Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c3bc7210-62db-4299-869a-d5a4ead92e7c.mp4",
+  "poster": "https://happyhands.cc/design-archive/liveblocks-9b9b0ca1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/liveblocks-9b9b0ca1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/liveblocks-9b9b0ca1/thumbnail.jpg"
+}

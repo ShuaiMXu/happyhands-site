@@ -1,0 +1,42 @@
+{
+ "id": "ff475028-7044-43b0-b4da-b84c4b77246f",
+ "slug": "bam-photographers-ff475028",
+ "name": "BAM Photographers",
+ "site_url": "https://benandmartin.com",
+ "lastmod": "2026-09-20T20:27:07.736Z",
+ "extracted_at": "2026-09-20T19:26:46.303Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "gallery projection after midnight. Black canvas, blown-up white lettering, and cinematic image pairs make the site feel like a projected portfolio rather than a conventional editorial grid.",
+ "fonts": [
+  "Helveesti"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Gallery Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Projection White"
+  },
+  {
+   "hex": "#999999",
+   "name": "Index Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5ad392a7-a828-4da1-86b1-b881b93625d4.mp4",
+  "poster": "https://happyhands.cc/design-archive/bam-photographers-ff475028/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/bam-photographers-ff475028/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/bam-photographers-ff475028/thumbnail.jpg"
+}

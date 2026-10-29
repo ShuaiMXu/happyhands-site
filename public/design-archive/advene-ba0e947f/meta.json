@@ -1,0 +1,85 @@
+{
+ "id": "ba0e947f-0ffa-4ea9-b483-86c981a42464",
+ "slug": "advene-ba0e947f",
+ "name": "Advene",
+ "site_url": "https://advenedesign.com",
+ "lastmod": "2026-06-05T06:41:43.441Z",
+ "extracted_at": "2026-06-03T19:11:34.012Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "editorial fashion spread on warm parchment — a gallery catalog that happens to sell handbags",
+ "fonts": [
+  "Signifier",
+  "Pitch",
+  "Arial",
+  "GTStandard-M"
+ ],
+ "colors": [
+  {
+   "hex": "#dfe0db",
+   "name": "Parchment Stone"
+  },
+  {
+   "hex": "#eeefea",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#3c3c3b",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#808080",
+   "name": "Ash"
+  },
+  {
+   "hex": "#121212",
+   "name": "Inkstone"
+  },
+  {
+   "hex": "#66040c",
+   "name": "Oxblood"
+  },
+  {
+   "hex": "#9a9260",
+   "name": "Olive Khaki"
+  },
+  {
+   "hex": "#c1c19f",
+   "name": "Sage Stone"
+  },
+  {
+   "hex": "#f7dc99",
+   "name": "Buttercream"
+  },
+  {
+   "hex": "#f8e9ac",
+   "name": "Pale Buttercream"
+  },
+  {
+   "hex": "#007aff",
+   "name": "Cobalt Outline"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/840e9092-8cb4-4f49-97f2-9d26709500af.mp4",
+  "poster": "https://happyhands.cc/design-archive/advene-ba0e947f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/advene-ba0e947f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/advene-ba0e947f/thumbnail.jpg"
+}

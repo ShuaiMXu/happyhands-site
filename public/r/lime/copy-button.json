@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "copy-button",
+  "type": "registry:ui",
+  "title": "Copy button",
+  "description": "Copies a value, such as a payment link, and confirms with a check.",
+  "author": "design.how",
+  "categories": [
+    "actions"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/button.json",
+    "https://happyhands.cc/r/lime/icon.json",
+    "https://happyhands.cc/r/lime/theme.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/lime/components/copy-button.md",
+    "page": "https://happyhands.cc/design-how/lime/components/copy-button.md"
+  },
+  "files": [
+    {
+      "path": "registry/lime/ui/copy-button.tsx",
+      "content": "'use client';\n\nimport {useEffect, useRef, useState} from 'react';\nimport {Checkmark, Copy, Icon, WarningFilled} from '@/components/lime/icon';\nimport {Button, type ButtonProps} from '@/components/lime/ui/button';\n\n// Copies a string and says so: the icon turns to a check for a moment and a polite live region announces\n// \"Copied\". If the clipboard write is refused, the icon turns to a warning and the region says \"Copy\n// failed\". The region is a sibling of the button, so the button's name stays \"Copy\". Icon only by default,\n// so it needs `label`; with `children` it becomes a labelled button.\n\ntype CopyButtonProps = Omit<ButtonProps, 'onClick' | 'icon'> & {\n  /** The text to put on the clipboard. */\n  value: string;\n  /** The accessible name when there are no children, such as \"Copy invite link\". */\n  label?: string;\n  /** How long the check stays, in ms. */\n  resetAfter?: number;\n};\n\nfunction CopyButton({value, label = 'Copy', resetAfter = 1600, variant = 'ghost', size, children, ...props}: CopyButtonProps) {\n  const [state, setState] = useState<'idle' | 'copied' | 'failed'>('idle');\n  const timer = useRef<ReturnType<typeof setTimeout>>(undefined);\n  useEffect(() => () => clearTimeout(timer.current), []);\n\n  async function copy() {\n    let next: 'copied' | 'failed' = 'copied';\n    try {\n      await navigator.clipboard.writeText(value);\n    } catch {\n      next = 'failed';\n    }\n    setState(next);\n    clearTimeout(timer.current);\n    timer.current = setTimeout(() => setState('idle'), resetAfter);\n  }\n\n  return (\n    <>\n      <Button\n        data-slot=\"copy-button\"\n        data-state={state === 'idle' ? undefined : state}\n        variant={variant}\n        size={size ?? (children ? 'md' : 'icon-sm')}\n        aria-label={children ? undefined : label}\n        onClick={copy}\n        icon={<Icon icon={state === 'copied' ? Checkmark : state === 'failed' ? WarningFilled : Copy} size={16} className={state === 'failed' ? 'text-danger-text' : undefined}/>}\n        {...props}\n      >\n        {children}\n      </Button>\n      <span role=\"status\" className=\"sr-only\">{state === 'copied' ? 'Copied' : state === 'failed' ? 'Copy failed' : ''}</span>\n    </>\n  );\n}\n\nexport {CopyButton, type CopyButtonProps};\n",
+      "type": "registry:ui",
+      "target": "@components/lime/ui/copy-button.tsx"
+    }
+  ]
+}

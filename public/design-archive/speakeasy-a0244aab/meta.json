@@ -1,0 +1,113 @@
+{
+ "id": "a0244aab-0dba-45fe-a595-416c1f0715be",
+ "slug": "speakeasy-a0244aab",
+ "name": "Speakeasy",
+ "site_url": "https://www.speakeasy.com",
+ "lastmod": "2026-06-05T01:15:55.060Z",
+ "extracted_at": "2026-06-03T16:20:24.899Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "Editorial broadsheet on a white field with a rainbow ribbon",
+ "fonts": [
+  "ui-sans-serif (system)",
+  "Tobias",
+  "Diatype",
+  "speakeasyAscii"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#dbdbdb",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#242424",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#545454",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#969696",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#7a7a7a",
+   "name": "Slate"
+  },
+  {
+   "hex": "#e7e7e7",
+   "name": "Bone"
+  },
+  {
+   "hex": "#414141",
+   "name": "Iron"
+  },
+  {
+   "hex": "#333333",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#f1f1f1",
+   "name": "Mist"
+  },
+  {
+   "hex": "#121212",
+   "name": "Cinder"
+  },
+  {
+   "hex": "#009966",
+   "name": "Signal Green"
+  },
+  {
+   "hex": "#00bc7d",
+   "name": "Spring Mint"
+  },
+  {
+   "hex": "#00d492",
+   "name": "Fern"
+  },
+  {
+   "hex": "#e17100",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#fe9a00",
+   "name": "Marigold"
+  },
+  {
+   "hex": "#ffb900",
+   "name": "Amber"
+  },
+  {
+   "hex": "#ff6467",
+   "name": "Coral"
+  },
+  {
+   "hex": "#155dfc",
+   "name": "Iris Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/414346dd-e710-446b-9d26-a4ca83aabdc5.mp4",
+  "poster": "https://happyhands.cc/design-archive/speakeasy-a0244aab/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/speakeasy-a0244aab/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/speakeasy-a0244aab/thumbnail.jpg"
+}

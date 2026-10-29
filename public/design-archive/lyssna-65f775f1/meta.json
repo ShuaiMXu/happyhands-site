@@ -1,0 +1,79 @@
+{
+ "id": "65f775f1-6dcc-4c49-80d2-b5a017b76f59",
+ "slug": "lyssna-65f775f1",
+ "name": "Lyssna",
+ "site_url": "https://www.lyssna.com",
+ "lastmod": "2026-06-05T02:26:56.966Z",
+ "extracted_at": "2026-06-03T15:51:13.926Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "botanical research journal — a quiet white page where one deep teal button glows beneath serif headlines and mint accent panels breathe like greenhouse glass.",
+ "fonts": [
+  "grenette",
+  "mint"
+ ],
+ "colors": [
+  {
+   "hex": "#006e75",
+   "name": "Deep Teal"
+  },
+  {
+   "hex": "#061d29",
+   "name": "Ink"
+  },
+  {
+   "hex": "#072626",
+   "name": "Midnight Teal"
+  },
+  {
+   "hex": "#425d6d",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#fffded",
+   "name": "Cream"
+  },
+  {
+   "hex": "#b9ffe8",
+   "name": "Mint Glass"
+  },
+  {
+   "hex": "#0b978e",
+   "name": "Bright Teal"
+  },
+  {
+   "hex": "#4d0037",
+   "name": "Plum"
+  },
+  {
+   "hex": "#ffc3e6",
+   "name": "Blossom"
+  },
+  {
+   "hex": "#ff492c",
+   "name": "Ember Ring"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/1e18cb8f-9337-4597-b0b1-8289e5f70bbe.mp4",
+  "poster": "https://happyhands.cc/design-archive/lyssna-65f775f1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/lyssna-65f775f1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/lyssna-65f775f1/thumbnail.jpg"
+}

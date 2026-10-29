@@ -1,0 +1,96 @@
+{
+ "id": "86541d12-7870-4d51-8c47-0880fdb1ea01",
+ "slug": "trigger-dev-86541d12",
+ "name": "Trigger.dev",
+ "site_url": "https://trigger.dev",
+ "lastmod": "2026-06-05T04:54:26.153Z",
+ "extracted_at": "2026-06-03T18:23:10.089Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "Charging terminal on slate. The interface is a dimly lit workstation where one lime LED signals activity against rows of quiet monospaced text and faint violet syntax glow.",
+ "fonts": [
+  "Satoshi",
+  "Geist",
+  "Geist Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#1c1e21",
+   "name": "Slate Canvas"
+  },
+  {
+   "hex": "#121317",
+   "name": "Ink Well"
+  },
+  {
+   "hex": "#3b3e45",
+   "name": "Graphite Hairline"
+  },
+  {
+   "hex": "#272a2e",
+   "name": "Steel Border"
+  },
+  {
+   "hex": "#b5b8c0",
+   "name": "Ash Text"
+  },
+  {
+   "hex": "#878c99",
+   "name": "Fog Text"
+  },
+  {
+   "hex": "#d7d9dd",
+   "name": "Cloud Text"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Bone Text"
+  },
+  {
+   "hex": "#a8ff53",
+   "name": "Signal Lime"
+  },
+  {
+   "hex": "#9c9af2",
+   "name": "Syntax Violet"
+  },
+  {
+   "hex": "#fa3abf",
+   "name": "Syntax Pink"
+  },
+  {
+   "hex": "#7655fd",
+   "name": "Event Violet"
+  },
+  {
+   "hex": "#afec73",
+   "name": "Loop Green"
+  },
+  {
+   "hex": "#d9f07c",
+   "name": "Key Lime"
+  },
+  {
+   "hex": "#e888f8",
+   "name": "Tag Magenta"
+  },
+  {
+   "hex": "#f43f5e",
+   "name": "Mute Red"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d78ff341-eac2-4a97-bc44-54bf530ebad7.mp4",
+  "poster": "https://happyhands.cc/design-archive/trigger-dev-86541d12/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/trigger-dev-86541d12/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/trigger-dev-86541d12/thumbnail.jpg"
+}

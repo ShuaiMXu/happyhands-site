@@ -1,0 +1,32 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "otp-input",
+ "type": "registry:ui",
+ "title": "OTP input",
+ "description": "Takes a one-time code.",
+ "author": "design.how",
+ "categories": [
+  "inputs"
+ ],
+ "dependencies": [
+  "@base-ui/react@^1.8.0"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/glaze/field.json",
+  "https://design.how/r/glaze/input.json",
+  "https://design.how/r/glaze/theme.json",
+  "https://design.how/r/glaze/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/glaze/components/otp-input.md",
+  "page": "https://design.how/systems/glaze/components/otp-input"
+ },
+ "files": [
+  {
+   "path": "registry/glaze/ui/otp-input.tsx",
+   "content": "'use client';\n\nimport {useId, useState} from 'react';\nimport {OTPField as OTPFieldPrimitive} from '@base-ui/react/otp-field';\nimport {cn} from '@/lib/glaze/utils';\nimport {useFieldDisabled} from '@/components/glaze/ui/field';\nimport type {InputSize} from '@/components/glaze/ui/input';\n\n// Glaze's one-time code input, on Base UI's OTPField: one slot per character. Each slot is a one-character field, so\n// it is the field recipe as a circle: paper, the 1px --line-control hairline, the size's height as its width. The\n// slot with the cursor darkens its line to --line-focus, as any field does; a filled slot keeps the darker line, so\n// progress through the code reads on the edges. Invalid turns every line coral. Codes of six or eight split in two\n// halves with a short dash between.\n//\n// Base UI moves the cursor as each character lands, takes a pasted code whole, steps back on Backspace and fires\n// onComplete when the last slot fills. A rejected character is announced (\"Digits only\"), never silently dropped.\n\ntype OtpInputProps = {\n  /** Number of slots. */\n  length: number;\n  value?: string;\n  defaultValue?: string;\n  onValueChange?: (value: string) => void;\n  /** Fires once every slot is filled, and again for a pasted full code. */\n  onComplete?: (value: string) => void;\n  /** Slots per group, split by a dash. Default: two halves for 6 or 8, else one group. */\n  groups?: number[];\n  validationType?: OTPFieldPrimitive.Root.Props['validationType'];\n  /** 26, 32 or 36px slots. */\n  size?: InputSize;\n  name?: string;\n  id?: string;\n  disabled?: boolean;\n  autoFocus?: boolean;\n  className?: string;\n  'aria-label'?: string;\n  'aria-describedby'?: string;\n  'aria-invalid'?: boolean;\n  [forced: `data-force-${string}`]: unknown;\n};\n\nconst slotSize: Record<InputSize, string> = {\n  sm: 'size-(--control-sm) type-label-sm',\n  default: 'size-(--control) type-label',\n  lg: 'size-(--control-lg) type-label-lg',\n};\n\nfunction OtpInput({\n  length, value, defaultValue = '', onValueChange, onComplete, groups, validationType = 'numeric', size = 'default', name, id, disabled: disabledProp, autoFocus,\n  className, 'aria-label': ariaLabel, 'aria-describedby': describedBy, 'aria-invalid': invalid, ...all\n}: OtpInputProps) {\n  const disabled = useFieldDisabled() || !!disabledProp;\n  // Base UI names the first slot from a label element, so the accessible name is one.\n  const labelId = useId();\n  const [inner, setInner] = useState(defaultValue);\n  const current = value ?? inner;\n  const [rejected, setRejected] = useState('');\n  const split = groups ?? (length >= 6 && length % 2 === 0 ? [length / 2, length / 2] : [length]);\n  const starts = split.map((_, i) => split.slice(0, i).reduce((a, b) => a + b, 0));\n  const forced = Object.keys(all).some(k => k.startsWith('data-force-focus'));\n  const slot = cn(\n    'min-w-0 rounded-pill border border-line-control bg-paper p-0 text-center data text-text-1 caret-ink outline-none',\n    'transition-[border-color,background-color] duration-(--dur-state) ease-out',\n    'focus:border-line-focus data-filled:border-line-focus',\n    'aria-invalid:border-fail data-disabled:cursor-not-allowed data-disabled:border-line-faint data-disabled:bg-field data-disabled:text-text-disabled',\n    'forced-colors:border-[ButtonText]',\n    slotSize[size],\n  );\n  return <OTPFieldPrimitive.Root\n    data-slot=\"otp-input\"\n    data-size={size}\n    length={length}\n    value={current}\n    onValueChange={v => { if (value === undefined) setInner(v); onValueChange?.(v); setRejected(''); }}\n    onValueComplete={v => onComplete?.(v)}\n    onValueInvalid={() => setRejected(validationType === 'numeric' ? 'Digits only' : validationType === 'alpha' ? 'Letters only' : 'Letters and digits only')}\n    validationType={validationType}\n    autoComplete=\"one-time-code\"\n    name={name}\n    id={id}\n    disabled={disabled}\n    className={cn('flex w-fit items-center gap-2', className)}\n    // A code reads left to right in every language, so its slots do too.\n    dir=\"ltr\"\n  >\n    {split.map((count, g) => <span key={g} className=\"contents\">\n      {g > 0 && <span aria-hidden data-slot=\"otp-input-separator\" className=\"h-px w-2 shrink-0 bg-line-strong\"/>}\n      <span data-slot=\"otp-input-group\" className=\"flex items-center gap-1\">\n        {Array.from({length: count}, (_, i) => {\n          const index = starts[g] + i;\n          return <OTPFieldPrimitive.Input\n            key={index}\n            data-slot=\"otp-input-slot\"\n            data-control=\"\"\n            autoFocus={autoFocus && index === 0}\n            aria-label={index === 0 ? undefined : `Character ${index + 1} of ${length}`}\n            aria-labelledby={index === 0 && ariaLabel ? labelId : undefined}\n            aria-describedby={index === 0 ? describedBy : undefined}\n            aria-invalid={invalid || undefined}\n            // The docs' forced focus lands on the first empty slot, where the cursor would be.\n            className={cn(slot, forced && index === current.length && 'border-line-focus', invalid && 'border-fail data-filled:border-fail')}\n          />;\n        })}\n      </span>\n    </span>)}\n    {ariaLabel && <span id={labelId} className=\"sr-only\">{ariaLabel}</span>}\n    <span role=\"status\" className=\"sr-only\">{rejected}</span>\n  </OTPFieldPrimitive.Root>;\n}\n\nexport {OtpInput, type OtpInputProps};\n",
+   "type": "registry:ui",
+   "target": "@components/glaze/ui/otp-input.tsx"
+  }
+ ]
+}

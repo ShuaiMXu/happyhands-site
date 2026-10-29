@@ -1,0 +1,101 @@
+{
+ "id": "faec4b0c-cf93-4150-97de-0a8e7eed1840",
+ "slug": "discord-faec4b0c",
+ "name": "Discord",
+ "site_url": "https://discord.com",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-11T18:08:26.644Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "",
+ "north_star": "Game world behind a chat bubble — every section is a self-contained environment with its own lighting and cast of characters.",
+ "fonts": [
+  "ABC Ginto Nord Discord",
+  "ABC Ginto Discord",
+  "GG Sans",
+  "ABC Ginto Normal"
+ ],
+ "colors": [
+  {
+   "hex": "#5865f2",
+   "name": "Blurple"
+  },
+  {
+   "hex": "#3442d9",
+   "name": "Dark Blurple"
+  },
+  {
+   "hex": "#8891f2",
+   "name": "Hover Blurple"
+  },
+  {
+   "hex": "#57f287",
+   "name": "Spring Green"
+  },
+  {
+   "hex": "#eb459",
+   "name": "Fuchsia"
+  },
+  {
+   "hex": "#00b0f4",
+   "name": "Vivid Cerulean"
+  },
+  {
+   "hex": "#fda220",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#de2761",
+   "name": "Ekko Red"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Snow"
+  },
+  {
+   "hex": "#23272a",
+   "name": "Not Quite Black"
+  },
+  {
+   "hex": "#2c2f33",
+   "name": "Dark Charcoal"
+  },
+  {
+   "hex": "#333333",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#babcd9",
+   "name": "Fog"
+  },
+  {
+   "hex": "#99aab5",
+   "name": "Greyple"
+  },
+  {
+   "hex": "#50555f",
+   "name": "Dim Grey"
+  },
+  {
+   "hex": "#f6f6f6",
+   "name": "Off White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a968eb74-2545-4964-b6d1-afdf5d7d3fb2.mp4",
+  "poster": "https://happyhands.cc/design-archive/discord-faec4b0c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/discord-faec4b0c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/discord-faec4b0c/thumbnail.jpg"
+}

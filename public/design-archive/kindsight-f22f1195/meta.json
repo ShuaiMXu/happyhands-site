@@ -1,0 +1,75 @@
+{
+ "id": "f22f1195-837d-4b1d-a48c-9123b122bf87",
+ "slug": "kindsight-f22f1195",
+ "name": "Kindsight",
+ "site_url": "https://kindsight.io",
+ "lastmod": "2026-06-03T19:56:07.108Z",
+ "extracted_at": "2026-06-03T19:56:07.105Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Sunlit field journal at dusk — an earthy, editorial calm built from cream paper, olive ink, and a single flash of chartreuse highlight.\n\nKindsight feels like a sustainably-printed nonprofit annual report: warm cream backgrounds, near-black text with a green undertone, a deep olive hero panel, and terracotta as the only shout. The single chartreuse accent is used sparingly — as underline punctuation on italic display words, badge fills, and illustrative highlights — never as a functional color. Display type in Times Now at weights 200-300 with tight tracking reads like editorial cover typography, not SaaS headlines.",
+ "fonts": [
+  "Times Now",
+  "Founders Grotesk"
+ ],
+ "colors": [
+  {
+   "hex": "#faf5f1",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#fefffa",
+   "name": "Soft Linen"
+  },
+  {
+   "hex": "#0e0f0a",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#0a0a0a",
+   "name": "Midnight Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#e5e1d6",
+   "name": "Warm Sand"
+  },
+  {
+   "hex": "#3d4128",
+   "name": "Olive Grove"
+  },
+  {
+   "hex": "#e1f079",
+   "name": "Chartreuse Spark"
+  },
+  {
+   "hex": "#de7653",
+   "name": "Terracotta CTA"
+  },
+  {
+   "hex": "#e7573d",
+   "name": "Coral Outline"
+  },
+  {
+   "hex": "#24280f",
+   "name": "Deep Olive"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ee08da77-b779-4af2-98a6-3e3fda54be31.mp4",
+  "poster": "https://happyhands.cc/design-archive/kindsight-f22f1195/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/kindsight-f22f1195/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/kindsight-f22f1195/thumbnail.jpg"
+}

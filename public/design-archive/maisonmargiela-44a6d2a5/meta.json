@@ -1,0 +1,71 @@
+{
+ "id": "44a6d2a5-16ef-42cd-a69c-33a7af16638d",
+ "slug": "maisonmargiela-44a6d2a5",
+ "name": "Maisonmargiela",
+ "site_url": "https://maisonmargiela.com",
+ "lastmod": "2026-06-05T03:46:03.986Z",
+ "extracted_at": "2026-06-03T17:51:49.332Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Gallery wall with a whisper",
+ "fonts": [
+  "Margiela Sans",
+  "Margiela Serif"
+ ],
+ "colors": [
+  {
+   "hex": "#121212",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f7f7f2",
+   "name": "Atelier White"
+  },
+  {
+   "hex": "#eaeae6",
+   "name": "Linen"
+  },
+  {
+   "hex": "#898989",
+   "name": "Stone"
+  },
+  {
+   "hex": "#484847",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#bababa",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#818181",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#333333",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/93809590-8086-4c7c-8dc1-39c6974c63d1.mp4",
+  "poster": "https://happyhands.cc/design-archive/maisonmargiela-44a6d2a5/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/maisonmargiela-44a6d2a5/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/maisonmargiela-44a6d2a5/thumbnail.jpg"
+}

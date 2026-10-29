@@ -1,0 +1,30 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "data-list",
+ "type": "registry:ui",
+ "title": "Data list",
+ "description": "Lists label and value pairs about one thing.",
+ "author": "design.how",
+ "categories": [
+  "display"
+ ],
+ "dependencies": [
+  "class-variance-authority@^0.7.1"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/sodium/theme.json",
+  "https://design.how/r/sodium/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/sodium/components/data-list.md",
+  "page": "https://design.how/systems/sodium/components/data-list"
+ },
+ "files": [
+  {
+   "path": "registry/sodium/ui/data-list.tsx",
+   "content": "import {cva, type VariantProps} from 'class-variance-authority';\nimport {cn} from '@/lib/sodium/utils';\n\n// Label and value pairs about one thing: a job's schedule, a table's owner, a bucket's region. A real <dl> with each\n// pair in a <div>, which HTML allows, inside a box that measures its own width. className goes on that box; every\n// other prop on the <dl>.\n//\n// The label is a name for a place, so it is a mono capital (type-label-sm) in text-2. The value is compared and\n// copied, so it is mono as written (type-code) in text-1; prose=\"true\" on a value sets a sentence in the sans.\n//\n// Side by side, every pair is a subgrid row of one grid: the label column is as wide as the longest label and no\n// wider than --label-col (160px), so the values start on one edge. Under 24rem of its own width the list stacks each\n// label over its value, so it works in a 320px column and on a page. variant=\"framed\" puts the list in a frame with\n// the pairs on the faint row rules; plain is for inside a frame that already has the edge. An empty value (null,\n// undefined or \"\") reads \"None\" in text-3, so a missing field never looks like a bug.\n\nconst dataListVariants = cva('group/data-list @container/data-list min-w-0', {\n  variants: {\n    variant: {\n      plain: '',\n      framed: 'frame px-inset forced-colors:border-[CanvasText]',\n    },\n  },\n  defaultVariants: {variant: 'plain'},\n});\n\ntype DataListProps = React.ComponentProps<'dl'> & VariantProps<typeof dataListVariants> & {\n  /** horizontal: label beside value, stacking under 24rem. vertical: always stacked. */\n  orientation?: 'horizontal' | 'vertical';\n};\n\nfunction DataList({className, variant = 'plain', orientation = 'horizontal', ...props}: DataListProps) {\n  return <div data-slot=\"data-list-frame\" data-variant={variant} data-orientation={orientation} className={cn(dataListVariants({variant}), className)}>\n    <dl\n      data-slot=\"data-list\"\n      className={cn('grid min-w-0 grid-cols-1', orientation === 'horizontal' && '@sm/data-list:grid-cols-[fit-content(var(--label-col))_minmax(0,1fr)] @sm/data-list:gap-x-6')}\n      {...props}\n    />\n  </div>;\n}\n\nfunction DataListItem({className, ...props}: React.ComponentProps<'div'>) {\n  return <div\n    data-slot=\"data-list-item\"\n    className={cn(\n      'col-span-full flex min-h-(--row) min-w-0 flex-col justify-center gap-x-6 gap-y-1 py-2.5',\n      'group-data-[orientation=horizontal]/data-list:@sm/data-list:grid group-data-[orientation=horizontal]/data-list:@sm/data-list:grid-cols-subgrid group-data-[orientation=horizontal]/data-list:@sm/data-list:items-baseline',\n      'group-data-[variant=framed]/data-list:rule-row',\n      className,\n    )}\n    {...props}\n  />;\n}\n\n/** The field's name, in mono capitals, text-2. */\nfunction DataListLabel({className, ...props}: React.ComponentProps<'dt'>) {\n  return <dt data-slot=\"data-list-label\" className={cn('min-w-0 type-label-sm text-text-2 [overflow-wrap:anywhere]', className)} {...props}/>;\n}\n\nconst isEmpty = (node: React.ReactNode) => node === null || node === undefined || node === false || (typeof node === 'string' && node.trim() === '');\n\ntype DataListValueProps = React.ComponentProps<'dd'> & {\n  /** A sentence rather than a value: set in the sans at body-sm. */\n  prose?: boolean;\n};\n\n/** The value, as written, in mono and text-1, tabular. A Status, a Tag or a CopyButton can sit beside it. */\nfunction DataListValue({className, prose = false, children, ...props}: DataListValueProps) {\n  const empty = isEmpty(children);\n  return <dd\n    data-slot=\"data-list-value\"\n    data-empty={empty || undefined}\n    className={cn('flex min-w-0 flex-wrap items-center gap-2 text-text-1 [overflow-wrap:anywhere]', prose ? 'type-body-sm' : 'type-code', className)}\n    {...props}\n  >{empty ? <DataListEmpty/> : children}</dd>;\n}\n\n/** What a field with no value says. DataListValue shows it by itself for an empty value. */\nfunction DataListEmpty({className, children = 'None', ...props}: React.ComponentProps<'span'>) {\n  return <span data-slot=\"data-list-empty\" className={cn('type-body-sm text-text-3', className)} {...props}>{children}</span>;\n}\n\nexport {DataList, DataListItem, DataListLabel, DataListValue, DataListEmpty, dataListVariants, type DataListProps, type DataListValueProps};\n",
+   "type": "registry:ui",
+   "target": "@components/sodium/ui/data-list.tsx"
+  }
+ ]
+}

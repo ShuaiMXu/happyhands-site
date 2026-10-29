@@ -1,0 +1,78 @@
+{
+ "id": "80028bf5-0c05-43a4-8c9e-b98750d610bd",
+ "slug": "phantom-80028bf5",
+ "name": "Phantom",
+ "site_url": "https://phantom.app",
+ "lastmod": "2026-06-05T03:47:23.051Z",
+ "extracted_at": "2026-06-03T17:51:59.669Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "crypto",
+ "north_star": "Lavender dreamscape with a violet ghost. A pastel world that flips to midnight violet in key moments, with a friendly mascot ghost wandering between sections.",
+ "fonts": [
+  "Phantom"
+ ],
+ "colors": [
+  {
+   "hex": "#3c315b",
+   "name": "Midnight Violet"
+  },
+  {
+   "hex": "#e2dffe",
+   "name": "Lavender Whisper"
+  },
+  {
+   "hex": "#ab9ff2",
+   "name": "Ghost Lilac"
+  },
+  {
+   "hex": "#4a87f2",
+   "name": "Cornflower Pop"
+  },
+  {
+   "hex": "#ffffc4",
+   "name": "Cream Glow"
+  },
+  {
+   "hex": "#ffdadc",
+   "name": "Blush Mist"
+  },
+  {
+   "hex": "#2ec08b",
+   "name": "Emerald Mint"
+  },
+  {
+   "hex": "#fdfcfe",
+   "name": "Cloud Canvas"
+  },
+  {
+   "hex": "#1c1c1c",
+   "name": "Charcoal Ink"
+  },
+  {
+   "hex": "#f4f2f4",
+   "name": "Frost White"
+  },
+  {
+   "hex": "#e9e8ea",
+   "name": "Ash Veil"
+  },
+  {
+   "hex": "#86848d",
+   "name": "Slate Mute"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/1aafe55b-8811-44af-8fe6-459d470a3f6d.mp4",
+  "poster": "https://happyhands.cc/design-archive/phantom-80028bf5/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/phantom-80028bf5/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/phantom-80028bf5/thumbnail.jpg"
+}

@@ -1,0 +1,84 @@
+{
+ "id": "c5326639-873a-4257-ad1a-7da9111e9286",
+ "slug": "wise-design-c5326639",
+ "name": "Wise Design",
+ "site_url": "https://wise.design",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-11T21:48:17.504Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "",
+ "north_star": "Neon market stall on a global street — electric lime signage that shouts across a crowded marketplace, then polished product UI slips in behind it.",
+ "fonts": [
+  "Inter",
+  "Wise Sans",
+  "Zen Kaku Gothic New"
+ ],
+ "colors": [
+  {
+   "hex": "#87ea5c",
+   "name": "Lime Volt"
+  },
+  {
+   "hex": "#083400",
+   "name": "Forest Ink"
+  },
+  {
+   "hex": "#ffea4b",
+   "name": "Volt Yellow"
+  },
+  {
+   "hex": "#ffbd89",
+   "name": "Papaya"
+  },
+  {
+   "hex": "#ffd5f0",
+   "name": "Cotton Candy"
+  },
+  {
+   "hex": "#2a0831",
+   "name": "Aubergine Night"
+  },
+  {
+   "hex": "#370305",
+   "name": "Crimson Depth"
+  },
+  {
+   "hex": "#58717a",
+   "name": "Fog"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#008026",
+   "name": "Positive"
+  },
+  {
+   "hex": "#cf2929",
+   "name": "Negative"
+  },
+  {
+   "hex": "#0097c7",
+   "name": "Accent Blue"
+  },
+  {
+   "hex": "#9a6500",
+   "name": "Warning"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b1790f90-62ba-485d-b7db-0c14aaea00d2.mp4",
+  "poster": "https://happyhands.cc/design-archive/wise-design-c5326639/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/wise-design-c5326639/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/wise-design-c5326639/thumbnail.jpg"
+}

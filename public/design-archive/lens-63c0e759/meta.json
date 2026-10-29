@@ -1,0 +1,71 @@
+{
+ "id": "63c0e759-3175-4f62-a8e3-b9e285f9e998",
+ "slug": "lens-63c0e759",
+ "name": "Lens",
+ "site_url": "https://lens.xyz",
+ "lastmod": "2026-06-05T05:54:57.256Z",
+ "extracted_at": "2026-06-03T18:56:37.360Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "crypto",
+ "north_star": "mint signal on white paper — a single teal CTA floating in a sea of quiet graphite and pale gray.",
+ "fonts": [
+  "Saans",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#00caa0",
+   "name": "Mint Signal"
+  },
+  {
+   "hex": "#2c2d30",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#211d1d",
+   "name": "Carbon Black"
+  },
+  {
+   "hex": "#808183",
+   "name": "Slate Mid"
+  },
+  {
+   "hex": "#afafaf",
+   "name": "Silver"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#ffe4d6",
+   "name": "Peach Wash"
+  },
+  {
+   "hex": "#e8e0ff",
+   "name": "Lavender Wash"
+  },
+  {
+   "hex": "#d4f5e8",
+   "name": "Mint Wash"
+  },
+  {
+   "hex": "#dde7f7",
+   "name": "Periwinkle Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e49c3b89-e2bd-4082-a36a-2bd0e1b781a1.mp4",
+  "poster": "https://happyhands.cc/design-archive/lens-63c0e759/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/lens-63c0e759/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/lens-63c0e759/thumbnail.jpg"
+}

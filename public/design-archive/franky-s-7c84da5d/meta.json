@@ -1,0 +1,62 @@
+{
+ "id": "7c84da5d-b7a0-436f-bfaa-68d0a14f8e86",
+ "slug": "franky-s-7c84da5d",
+ "name": "FRANKY'S",
+ "site_url": "https://frankys-hats.com",
+ "lastmod": "2026-06-05T03:07:17.872Z",
+ "extracted_at": "2026-06-03T22:39:52.730Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Retro arcade kiosk on a skate-shop counter.",
+ "fonts": [
+  "Arcade"
+ ],
+ "colors": [
+  {
+   "hex": "#f3e5df",
+   "name": "Arcade Cream"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Pixel Gray"
+  },
+  {
+   "hex": "#333333",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#151515",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#737373",
+   "name": "Muted Gray"
+  },
+  {
+   "hex": "#faa21f",
+   "name": "Marquee Orange"
+  },
+  {
+   "hex": "#128e44",
+   "name": "Buy Green"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a3d8f694-3ead-46d5-a327-ee6dd86ab623.mp4",
+  "poster": "https://happyhands.cc/design-archive/franky-s-7c84da5d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/franky-s-7c84da5d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/franky-s-7c84da5d/thumbnail.jpg"
+}

@@ -1,0 +1,127 @@
+{
+ "id": "da6ad92d-4f29-4f92-a59a-3a46295d0d1c",
+ "slug": "fingerprint-da6ad92d",
+ "name": "Fingerprint",
+ "site_url": "https://fingerprint.com",
+ "lastmod": "2026-06-03T15:43:23.479Z",
+ "extracted_at": "2026-06-03T15:43:23.474Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "warm CRT terminal on cream paper — a fraud-detection lab notebook where code blocks are the main characters",
+ "fonts": [
+  "Inter",
+  "JetBrains Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#fafaf8",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Card White"
+  },
+  {
+   "hex": "#f0f0ef",
+   "name": "Pebble Gray"
+  },
+  {
+   "hex": "#e4e5e1",
+   "name": "Linen Border"
+  },
+  {
+   "hex": "#d9d9d9",
+   "name": "Ash"
+  },
+  {
+   "hex": "#141415",
+   "name": "Ink"
+  },
+  {
+   "hex": "#2e2e2c",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#454542",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#6e6f6c",
+   "name": "Slate"
+  },
+  {
+   "hex": "#8c8c89",
+   "name": "Stone"
+  },
+  {
+   "hex": "#b7b7b4",
+   "name": "Fog"
+  },
+  {
+   "hex": "#f35b22",
+   "name": "Signal Orange"
+  },
+  {
+   "hex": "#ff5e24",
+   "name": "Ember"
+  },
+  {
+   "hex": "#f77c55",
+   "name": "Apricot"
+  },
+  {
+   "hex": "#be400f",
+   "name": "Burnt Orange"
+  },
+  {
+   "hex": "#d14200",
+   "name": "Persimmon"
+  },
+  {
+   "hex": "#ffcab5",
+   "name": "Peach Blush"
+  },
+  {
+   "hex": "#88d2c3",
+   "name": "Teal Token"
+  },
+  {
+   "hex": "#8bc5f3",
+   "name": "Sky Token"
+  },
+  {
+   "hex": "#c678dd",
+   "name": "Orchid Token"
+  },
+  {
+   "hex": "#165424",
+   "name": "Forest"
+  },
+  {
+   "hex": "#62b06d",
+   "name": "Success Green"
+  },
+  {
+   "hex": "#f67976",
+   "name": "Coral Alert"
+  },
+  {
+   "hex": "#f9aea9",
+   "name": "Rose Blush"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/cff10e0c-160c-40c4-b376-3f4f85735678.mp4",
+  "poster": "https://happyhands.cc/design-archive/fingerprint-da6ad92d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/fingerprint-da6ad92d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/fingerprint-da6ad92d/thumbnail.jpg"
+}

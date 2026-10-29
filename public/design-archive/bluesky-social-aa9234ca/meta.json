@@ -1,0 +1,62 @@
+{
+ "id": "aa9234ca-0cc8-470b-bd38-398712de3e95",
+ "slug": "bluesky-social-aa9234ca",
+ "name": "Bluesky Social",
+ "site_url": "https://bsky.app",
+ "lastmod": "2026-06-03T19:49:09.410Z",
+ "extracted_at": "2026-06-03T19:49:09.406Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "Morning dispatch beneath open sky",
+ "fonts": [
+  "InterVariable"
+ ],
+ "colors": [
+  {
+   "hex": "#006aff",
+   "name": "Sky Signal"
+  },
+  {
+   "hex": "#405168",
+   "name": "Slate Type"
+  },
+  {
+   "hex": "#8798b0",
+   "name": "Hazy Steel"
+  },
+  {
+   "hex": "#dce2ea",
+   "name": "Whisper Border"
+  },
+  {
+   "hex": "#eff2f6",
+   "name": "Fog Surface"
+  },
+  {
+   "hex": "#f9fafb",
+   "name": "Mist Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e82369d0-7896-44fd-b1ca-9fcf7414fafb.mp4",
+  "poster": "https://happyhands.cc/design-archive/bluesky-social-aa9234ca/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/bluesky-social-aa9234ca/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/bluesky-social-aa9234ca/thumbnail.jpg"
+}

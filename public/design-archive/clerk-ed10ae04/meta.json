@@ -1,0 +1,90 @@
+{
+ "id": "ed10ae04-24ec-4e42-9bf2-ea12a4b58d67",
+ "slug": "clerk-ed10ae04",
+ "name": "Clerk",
+ "site_url": "https://clerk.com",
+ "lastmod": "2026-05-11T16:25:39.831Z",
+ "extracted_at": "2026-05-07T17:08:20.967Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "devtools",
+ "north_star": "Developer dashboard behind frosted violet glass — surfaces feel like a live IDE preview: dark product cards floating inside a light documentation shell, with one electric violet pulse marking the path forward.",
+ "fonts": [
+  "soehneMono",
+  "Geist",
+  "ui-sans-serif",
+  "Inter",
+  "Söhne Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#131316",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#f7f7f8",
+   "name": "Fog White"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#5e5f6e",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#747686",
+   "name": "Ash"
+  },
+  {
+   "hex": "#d9d9de",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#eeeef0",
+   "name": "Mist"
+  },
+  {
+   "hex": "#9394a1",
+   "name": "Stone"
+  },
+  {
+   "hex": "#212126",
+   "name": "Obsidian Card"
+  },
+  {
+   "hex": "#2f3037",
+   "name": "Dark Surface"
+  },
+  {
+   "hex": "#696a78",
+   "name": "Slate Mid"
+  },
+  {
+   "hex": "#6c47ff",
+   "name": "Electric Violet"
+  },
+  {
+   "hex": "#615cf6",
+   "name": "Violet Soft"
+  },
+  {
+   "hex": "#5de3ff",
+   "name": "Cyan Spark"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/083dfa81-e9f3-475f-ba09-7b298e23dda1.mp4",
+  "poster": "https://happyhands.cc/design-archive/clerk-ed10ae04/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/clerk-ed10ae04/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/clerk-ed10ae04/thumbnail.jpg"
+}

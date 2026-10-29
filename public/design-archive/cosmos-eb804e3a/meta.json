@@ -1,0 +1,50 @@
+{
+ "id": "eb804e3a-1b75-446c-8374-114bbabaf0cd",
+ "slug": "cosmos-eb804e3a",
+ "name": "Cosmos",
+ "site_url": "https://cosmos.so",
+ "lastmod": "2026-07-03T15:42:16.090Z",
+ "extracted_at": "2026-06-03T17:19:29.348Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "Linen gallery wall with floating polaroids",
+ "fonts": [
+  "cosmosOracle"
+ ],
+ "colors": [
+  {
+   "hex": "#f7f5f3",
+   "name": "Linen Canvas"
+  },
+  {
+   "hex": "#0d0d0d",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#6e6a69",
+   "name": "Stone"
+  },
+  {
+   "hex": "#9a9796",
+   "name": "Pebble"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/cb088c25-7666-4a57-82bd-ed5689e52657.mp4",
+  "poster": "https://happyhands.cc/design-archive/cosmos-eb804e3a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/cosmos-eb804e3a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/cosmos-eb804e3a/thumbnail.jpg"
+}

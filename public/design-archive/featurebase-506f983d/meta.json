@@ -1,0 +1,78 @@
+{
+ "id": "506f983d-e4ed-4e7a-a3b3-851a18f5b402",
+ "slug": "featurebase-506f983d",
+ "name": "Featurebase",
+ "site_url": "https://featurebase.app",
+ "lastmod": "2026-09-24T17:51:34.447Z",
+ "extracted_at": "2026-09-24T17:35:11.555Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "saas",
+ "north_star": "Violet-lit support console. Build each page as a dark, quiet stage with a luminous product workspace emerging from the lower edge.",
+ "fonts": [
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#050608",
+   "name": "Void Canvas"
+  },
+  {
+   "hex": "#0a0b0f",
+   "name": "Ink Surface"
+  },
+  {
+   "hex": "#0f1219",
+   "name": "Charcoal Panel"
+  },
+  {
+   "hex": "#151822",
+   "name": "Steel Panel"
+  },
+  {
+   "hex": "#1f1e2a",
+   "name": "Slate Edge"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Cloud White"
+  },
+  {
+   "hex": "#dee1ea",
+   "name": "Frost Text"
+  },
+  {
+   "hex": "#b2b8cd",
+   "name": "Misted Slate"
+  },
+  {
+   "hex": "#8f94a6",
+   "name": "Quiet Slate"
+  },
+  {
+   "hex": "#7064f2",
+   "name": "Signal Violet"
+  },
+  {
+   "hex": "#9182f8",
+   "name": "Violet Atmosphere"
+  },
+  {
+   "hex": "#5d6890",
+   "name": "Slate Lift"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/eb6bdc65-86d7-4e1d-8c7c-d4c21aee60d6.mp4",
+  "poster": "https://happyhands.cc/design-archive/featurebase-506f983d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/featurebase-506f983d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/featurebase-506f983d/thumbnail.jpg"
+}

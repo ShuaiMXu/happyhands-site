@@ -1,0 +1,131 @@
+{
+ "id": "408a149c-702f-4442-99df-bea49d9c0d9b",
+ "slug": "bun-408a149c",
+ "name": "Bun",
+ "site_url": "https://bun.sh",
+ "lastmod": "2026-06-03T16:04:21.552Z",
+ "extracted_at": "2026-06-03T16:04:21.544Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "Hot pink cursor in a midnight terminal — every interface element is either prose or code, and the pink tells you what to click.",
+ "fonts": [
+  "system-ui",
+  "JetBrains Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#0d0e11",
+   "name": "Void"
+  },
+  {
+   "hex": "#14151a",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#1e2028",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#282a36",
+   "name": "Iron"
+  },
+  {
+   "hex": "#3a3a3f",
+   "name": "Steel"
+  },
+  {
+   "hex": "#3b3f4b",
+   "name": "Slate"
+  },
+  {
+   "hex": "#4f5666",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#6b7280",
+   "name": "Fog"
+  },
+  {
+   "hex": "#9ca3af",
+   "name": "Ash"
+  },
+  {
+   "hex": "#d1d5db",
+   "name": "Bone"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Pearl"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f472b6",
+   "name": "Bun Pink"
+  },
+  {
+   "hex": "#ec4899",
+   "name": "Magenta Core"
+  },
+  {
+   "hex": "#f9a8d4",
+   "name": "Rose Petal"
+  },
+  {
+   "hex": "#fbcfe8",
+   "name": "Blush"
+  },
+  {
+   "hex": "#3d1629",
+   "name": "Wine"
+  },
+  {
+   "hex": "#3f1f33",
+   "name": "Plum"
+  },
+  {
+   "hex": "#a855f7",
+   "name": "Violet"
+  },
+  {
+   "hex": "#c084fc",
+   "name": "Lavender"
+  },
+  {
+   "hex": "#d8b4fe",
+   "name": "Lilac"
+  },
+  {
+   "hex": "#06b6d4",
+   "name": "Cyan"
+  },
+  {
+   "hex": "#e67e22",
+   "name": "Amber"
+  },
+  {
+   "hex": "#facc15",
+   "name": "Gold"
+  },
+  {
+   "hex": "#34d399",
+   "name": "Mint"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/122614a2-1b36-4fe2-813c-f231b3c48900.mp4",
+  "poster": "https://happyhands.cc/design-archive/bun-408a149c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/bun-408a149c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/bun-408a149c/thumbnail.jpg"
+}

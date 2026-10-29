@@ -1,0 +1,80 @@
+{
+ "id": "df5e2be4-c2bd-42bb-bbc7-409bae6355c3",
+ "slug": "coinbase-spain-df5e2be4",
+ "name": "Coinbase Spain",
+ "site_url": "https://coinbase.com",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-11T17:43:55.835Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "",
+ "north_star": "Digital Trust, Blueprinted. A system built on the clarity of an architectural plan, energized by a single, electric blue neuron.",
+ "fonts": [
+  "CoinbaseDisplay",
+  "CoinbaseSans",
+  "CoinbaseText"
+ ],
+ "colors": [
+  {
+   "hex": "#0052ff",
+   "name": "Coinbase Blue"
+  },
+  {
+   "hex": "#578bfa",
+   "name": "Interactive Blue"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#0a0b0d",
+   "name": "Midnight"
+  },
+  {
+   "hex": "#5b616",
+   "name": "Slate"
+  },
+  {
+   "hex": "#8a919",
+   "name": "Ash"
+  },
+  {
+   "hex": "#f7f8f9",
+   "name": "Frost"
+  },
+  {
+   "hex": "#eef0f3",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#dedfe2",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#141519",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#27ad75",
+   "name": "Positive Green"
+  },
+  {
+   "hex": "#f0616d",
+   "name": "Negative Red"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/60f536d0-3123-4366-a7f5-88dffdf5037a.mp4",
+  "poster": "https://happyhands.cc/design-archive/coinbase-spain-df5e2be4/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/coinbase-spain-df5e2be4/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/coinbase-spain-df5e2be4/thumbnail.jpg"
+}

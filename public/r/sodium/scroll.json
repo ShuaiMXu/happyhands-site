@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "scroll",
+  "type": "registry:lib",
+  "title": "Scroll",
+  "description": "Support file: support file: the tab stop a scrolling data region takes while it overflows, and the case-free search matcher.",
+  "author": "design.how",
+  "categories": [
+    "internal"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/sodium/index.md",
+    "page": "https://happyhands.cc/design-how/sodium/index.md"
+  },
+  "files": [
+    {
+      "path": "registry/sodium/lib/scroll.ts",
+      "content": "'use client';\n\nimport {useEffect, useState, type RefObject} from 'react';\n\n// What Sodium's scrolling data regions share: a scroll box joins the tab order only while its content overflows it,\n// so a keyboard can reach it and scroll, and a box that fits is not a dead tab stop. Table, JSON view and the code\n// regions read it.\n\n/** 0 while the box's content overflows it, undefined while it fits. enabled=false keeps it out of the tab order. */\nexport function useScrollTabStop(ref: RefObject<HTMLElement | null>, enabled = true): 0 | undefined {\n  const [scrolls, setScrolls] = useState(false);\n  useEffect(() => {\n    const el = ref.current;\n    if (!el || !enabled) return;\n    const measure = () => setScrolls(el.scrollWidth > el.clientWidth + 1 || el.scrollHeight > el.clientHeight + 1);\n    const resize = new ResizeObserver(measure);\n    resize.observe(el);\n    for (const child of el.children) resize.observe(child);\n    measure();\n    return () => resize.disconnect();\n  }, [ref, enabled]);\n  return enabled && scrolls ? 0 : undefined;\n}\n\n/** Every [start, end) offset of q in text, case-insensitive. q is already lower case. */\nexport function findAll(text: string, q: string): [number, number][] {\n  if (!q) return [];\n  const out: [number, number][] = [];\n  const hay = text.toLowerCase();\n  let at = hay.indexOf(q);\n  while (at >= 0) { out.push([at, at + q.length]); at = hay.indexOf(q, at + q.length); }\n  return out;\n}\n",
+      "type": "registry:lib",
+      "target": "@lib/sodium/scroll.ts"
+    }
+  ]
+}

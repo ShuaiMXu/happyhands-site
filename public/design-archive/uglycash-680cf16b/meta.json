@@ -1,0 +1,77 @@
+{
+ "id": "680cf16b-0093-473b-854f-f1de9af5e698",
+ "slug": "uglycash-680cf16b",
+ "name": "UGLYCASH",
+ "site_url": "https://ugly.cash",
+ "lastmod": "2026-06-05T03:17:53.724Z",
+ "extracted_at": "2026-06-03T17:41:13.919Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "Sticker-covered notebook on cream paper — a vibe of irreverent, maximalist fintech that wears its chaos proudly.",
+ "fonts": [
+  "Helvetica Now Display Cn Bold",
+  "Inter",
+  "Miss Fajardose",
+  "System sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Static Black"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Paper Cream"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Card White"
+  },
+  {
+   "hex": "#3a3a3a",
+   "name": "Surface Graphite"
+  },
+  {
+   "hex": "#000100",
+   "name": "Hardware Ink"
+  },
+  {
+   "hex": "#6e6e6e",
+   "name": "Hairline Smoke"
+  },
+  {
+   "hex": "#888888",
+   "name": "Placeholder Ash"
+  },
+  {
+   "hex": "#e7e3bf",
+   "name": "Sticker Khaki"
+  },
+  {
+   "hex": "#fa00ff",
+   "name": "Riot Pink"
+  },
+  {
+   "hex": "#02bbff",
+   "name": "Voltage Cyan"
+  },
+  {
+   "hex": "#adff02",
+   "name": "Toxic Lime"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3e101fa2-32f8-4e5d-9464-c55788643420.mp4",
+  "poster": "https://happyhands.cc/design-archive/uglycash-680cf16b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/uglycash-680cf16b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/uglycash-680cf16b/thumbnail.jpg"
+}

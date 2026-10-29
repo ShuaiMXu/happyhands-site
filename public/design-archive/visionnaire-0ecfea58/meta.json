@@ -1,0 +1,54 @@
+{
+ "id": "0ecfea58-c1f3-4671-806d-5ae0eb779f38",
+ "slug": "visionnaire-0ecfea58",
+ "name": "VISIONNAIRE",
+ "site_url": "https://vision-naire.com",
+ "lastmod": "2026-06-03T21:42:12.562Z",
+ "extracted_at": "2026-06-03T21:42:12.556Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Editorial streetwear gallery on bone-white. The brand behaves like a printed lookbook: flat white canvas, sharp black ink, and a single warm cream panel used as a colour-block stage for product or wordmark.",
+ "fonts": [
+  "PP Neue Montreal"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#f7f5e8",
+   "name": "Vellum Cream"
+  },
+  {
+   "hex": "#231f20",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#888888",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#b94e3a",
+   "name": "Dahlen Rust"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d8f0056d-8b56-4ea1-bb22-10d17122ef67.mp4",
+  "poster": "https://happyhands.cc/design-archive/visionnaire-0ecfea58/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/visionnaire-0ecfea58/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/visionnaire-0ecfea58/thumbnail.jpg"
+}

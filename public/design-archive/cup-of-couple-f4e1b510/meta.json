@@ -1,0 +1,49 @@
+{
+ "id": "f4e1b510-6085-4fb8-8597-05d479d3c00c",
+ "slug": "cup-of-couple-f4e1b510",
+ "name": "Cup of Couple",
+ "site_url": "https://www.cupofcouple.com",
+ "lastmod": "2026-06-03T20:34:52.242Z",
+ "extracted_at": "2026-06-03T20:34:52.239Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "printed fashion magazine on cream paper",
+ "fonts": [
+  "ITCFranklinGothicStdBook",
+  "Garamond",
+  "PerpetuaTitlingMT",
+  "DisplaceKC"
+ ],
+ "colors": [
+  {
+   "hex": "#303030",
+   "name": "Ink Charcoal"
+  },
+  {
+   "hex": "#808080",
+   "name": "Dust Gray"
+  },
+  {
+   "hex": "#f0f0f0",
+   "name": "Bone"
+  },
+  {
+   "hex": "#767676",
+   "name": "Faded Pencil"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6d77198b-053a-4118-8882-f22c884ec35a.mp4",
+  "poster": "https://happyhands.cc/design-archive/cup-of-couple-f4e1b510/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/cup-of-couple-f4e1b510/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/cup-of-couple-f4e1b510/thumbnail.jpg"
+}

@@ -1,0 +1,51 @@
+{
+ "id": "c38d077b-3cdb-48c6-899c-e8a543508c31",
+ "slug": "openweb-c38d077b",
+ "name": "OpenWeb",
+ "site_url": "https://www.openweb.com",
+ "lastmod": "2026-06-05T02:17:31.947Z",
+ "extracted_at": "2026-06-03T15:45:05.032Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Editorial broadsheet on warm rose paper. A blush canvas carries enormous serif headlines and one electric-blue accent — the whole page reads like a printed editorial spread rebuilt as a screen, where type weight and warm negative space replace panels, borders, and shadows.",
+ "fonts": [
+  "Copernicus",
+  "Helvetica"
+ ],
+ "colors": [
+  {
+   "hex": "#f1e9e7",
+   "name": "Blush Paper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#7b7f83",
+   "name": "Fossil Gray"
+  },
+  {
+   "hex": "#0058fe",
+   "name": "Signal Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e856f3f5-084a-4842-b8d5-f4ce3b0afe13.mp4",
+  "poster": "https://happyhands.cc/design-archive/openweb-c38d077b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/openweb-c38d077b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/openweb-c38d077b/thumbnail.jpg"
+}

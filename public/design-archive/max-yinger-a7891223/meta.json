@@ -1,0 +1,48 @@
+{
+ "id": "a7891223-a93e-4731-a1aa-4079f1ee928b",
+ "slug": "max-yinger-a7891223",
+ "name": "Max Yinger",
+ "site_url": "https://yinger.dev",
+ "lastmod": "2026-06-05T05:24:08.514Z",
+ "extracted_at": "2026-06-03T18:42:44.802Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "design",
+ "north_star": "Midnight engineer's terminal with floating chrome artifacts. A single bone-white light source illuminates a dark workshop where text and 3D objects share the stage at maximum density.",
+ "fonts": [
+  "Arbeit Technik",
+  "Inline VF",
+  "Arbeit Contrast"
+ ],
+ "colors": [
+  {
+   "hex": "#12130f",
+   "name": "Midnight Carbon"
+  },
+  {
+   "hex": "#e4dfda",
+   "name": "Bone Glow"
+  },
+  {
+   "hex": "#3c3c38",
+   "name": "Charcoal Vein"
+  },
+  {
+   "hex": "#f5c2c8",
+   "name": "Rose Quartz Bloom"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4566f58a-5f74-4cc5-830f-b59f0f7c5f3b.mp4",
+  "poster": "https://happyhands.cc/design-archive/max-yinger-a7891223/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/max-yinger-a7891223/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/max-yinger-a7891223/thumbnail.jpg"
+}

@@ -1,0 +1,56 @@
+{
+ "id": "4fa31278-33ea-4f1c-b7ac-cdc871e36089",
+ "slug": "a16z-speedrun-4fa31278",
+ "name": "a16z speedrun",
+ "site_url": "https://speedrun.a16z.com",
+ "lastmod": "2026-06-03T21:44:08.948Z",
+ "extracted_at": "2026-06-03T21:44:08.942Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "Monochrome broadsheet with a mint launch flare. A near-grayscale newspaper-grade layout, nearly devoid of color, where one multicolor gradient button cuts through the silence like a countdown timer lighting up.",
+ "fonts": [
+  "messinaSans",
+  "messinaSansCondensed",
+  "Messina Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#e5e7eb",
+   "name": "Cloud Gray"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#e2dfd8",
+   "name": "Sand Beige"
+  },
+  {
+   "hex": "#5e5d5c",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#a162ff",
+   "name": "Speedrun Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/18b88b67-6998-42c0-84bd-0e810927b65c.mp4",
+  "poster": "https://happyhands.cc/design-archive/a16z-speedrun-4fa31278/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/a16z-speedrun-4fa31278/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/a16z-speedrun-4fa31278/thumbnail.jpg"
+}

@@ -1,0 +1,53 @@
+{
+ "id": "76483bd1-37d3-4fb9-889b-aecf27b08b83",
+ "slug": "woven-76483bd1",
+ "name": "Woven",
+ "site_url": "https://wovenwhisky.com",
+ "lastmod": "2026-06-05T10:16:22.422Z",
+ "extracted_at": "2026-06-03T20:46:50.721Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Ink on cream parchment. A distiller's editorial spread where warm cream canvases, a single dark ink color, and wide-tracked uppercase type create the only visual structure; product photography provides all the color.",
+ "fonts": [
+  "Spezia Semi-Mono",
+  "Spezia Medium",
+  "Figtree",
+  "Spezia Semi-Mono Light"
+ ],
+ "colors": [
+  {
+   "hex": "#eeede5",
+   "name": "Parchment Cream"
+  },
+  {
+   "hex": "#232323",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#4a4a4a",
+   "name": "Iron Gray"
+  },
+  {
+   "hex": "#ddddda",
+   "name": "Soft Stone"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2d8d2fb8-a88e-4352-87be-02dc6b49ba23.mp4",
+  "poster": "https://happyhands.cc/design-archive/woven-76483bd1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/woven-76483bd1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/woven-76483bd1/thumbnail.jpg"
+}

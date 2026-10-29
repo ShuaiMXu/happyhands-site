@@ -1,0 +1,56 @@
+{
+ "id": "f8ab25e8-87c1-4d7b-a633-daf3ea39b916",
+ "slug": "concrete-club-studio-f8ab25e8",
+ "name": "Concrete Club Studio",
+ "site_url": "https://concreteclub.studio",
+ "lastmod": "2026-06-03T18:56:04.137Z",
+ "extracted_at": "2026-06-03T18:56:04.130Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "agency",
+ "north_star": "sun-faded editorial zine on dusty rose paper — the layout is a printed page, not a screen",
+ "fonts": [
+  "TRJN DaVinci",
+  "HelveticaNeue-Light",
+  "Neue Montreal"
+ ],
+ "colors": [
+  {
+   "hex": "#d9462b",
+   "name": "Ember Ink"
+  },
+  {
+   "hex": "#e296bb",
+   "name": "Dusty Rose"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#212121",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#f5f6f5",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4b26db23-aa46-469c-a423-39effbbc9504.mp4",
+  "poster": "https://happyhands.cc/design-archive/concrete-club-studio-f8ab25e8/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/concrete-club-studio-f8ab25e8/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/concrete-club-studio-f8ab25e8/thumbnail.jpg"
+}

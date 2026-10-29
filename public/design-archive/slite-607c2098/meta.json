@@ -1,0 +1,95 @@
+{
+ "id": "607c2098-bbbb-40bb-b23e-adf2b72c63dd",
+ "slug": "slite-607c2098",
+ "name": "Slite",
+ "site_url": "https://slite.com",
+ "lastmod": "2026-07-03T11:25:51.679Z",
+ "extracted_at": "2026-07-03T03:44:10.775Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Warm parchment notebook with terracotta pen — every surface is cream paper, every accent a single ember-orange stroke.",
+ "fonts": [
+  "Garnett",
+  "UniversalSans"
+ ],
+ "colors": [
+  {
+   "hex": "#fdf9f4",
+   "name": "Parchment Cream"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Star White"
+  },
+  {
+   "hex": "#f9efe4",
+   "name": "Dust Sand"
+  },
+  {
+   "hex": "#ecedef",
+   "name": "Moon Silver"
+  },
+  {
+   "hex": "#2d2f34",
+   "name": "Shade Ink"
+  },
+  {
+   "hex": "#3f434a",
+   "name": "Shade Charcoal"
+  },
+  {
+   "hex": "#5e646e",
+   "name": "Shade Slate"
+  },
+  {
+   "hex": "#9da3af",
+   "name": "Shade Fog"
+  },
+  {
+   "hex": "#6a707c",
+   "name": "Shade Dusk"
+  },
+  {
+   "hex": "#d9dde6",
+   "name": "Border Mist"
+  },
+  {
+   "hex": "#f67748",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#74a6f1",
+   "name": "Neptune Blue"
+  },
+  {
+   "hex": "#479a53",
+   "name": "Verification Green"
+  },
+  {
+   "hex": "#bbf7d0",
+   "name": "Verified Mint"
+  },
+  {
+   "hex": "#4b51c3",
+   "name": "Tag Violet"
+  },
+  {
+   "hex": "#6b70d6",
+   "name": "Illustration Violet"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3a8c5940-2fdf-4491-b17b-72de75f10b21.mp4",
+  "poster": "https://happyhands.cc/design-archive/slite-607c2098/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/slite-607c2098/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/slite-607c2098/thumbnail.jpg"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "cef9a300-8513-46c2-9c2c-c0016e5a5d30",
+ "slug": "cards-against-humanity-cef9a300",
+ "name": "Cards Against Humanity",
+ "site_url": "https://www.climatecatastrophepack.com",
+ "lastmod": "2026-06-03T21:06:36.939Z",
+ "extracted_at": "2026-06-03T21:06:36.930Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "media",
+ "north_star": "Apocalypse broadcast on blackout paper",
+ "fonts": [
+  "Spektra",
+  "Helvetica Neue LT"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#ebe4d8",
+   "name": "Bone Cream"
+  },
+  {
+   "hex": "#c3bdb3",
+   "name": "Ash Taupe"
+  },
+  {
+   "hex": "#ff4034",
+   "name": "Alarm Red"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6827b45e-5628-4f2b-9e19-f22e73a6c47c.mp4",
+  "poster": "https://happyhands.cc/design-archive/cards-against-humanity-cef9a300/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/cards-against-humanity-cef9a300/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/cards-against-humanity-cef9a300/thumbnail.jpg"
+}

@@ -1,0 +1,87 @@
+{
+ "id": "8e153a14-40a9-4793-b94b-c144d325c730",
+ "slug": "whimsical-8e153a14",
+ "name": "Whimsical",
+ "site_url": "https://whimsical.com",
+ "lastmod": "2026-06-03T18:36:43.073Z",
+ "extracted_at": "2026-06-03T18:36:43.070Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Deep plum ink on lavender mist — a creative studio notebook that thinks it's a technical whiteboard.",
+ "fonts": [
+  "Agrandir",
+  "Manrope"
+ ],
+ "colors": [
+  {
+   "hex": "#250835",
+   "name": "Deep Plum"
+  },
+  {
+   "hex": "#473054",
+   "name": "Dark Mauve"
+  },
+  {
+   "hex": "#ab2fed",
+   "name": "Vivid Violet"
+  },
+  {
+   "hex": "#0283ec",
+   "name": "Vivid Blue"
+  },
+  {
+   "hex": "#4b38ee",
+   "name": "Electric Indigo"
+  },
+  {
+   "hex": "#6a5b72",
+   "name": "Warm Gray Purple"
+  },
+  {
+   "hex": "#ebe6ee",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#f5f4f5",
+   "name": "Soft White"
+  },
+  {
+   "hex": "#cdc7d1",
+   "name": "Plum Shadow"
+  },
+  {
+   "hex": "#decaff",
+   "name": "Lavender Wash"
+  },
+  {
+   "hex": "#e9bded",
+   "name": "Blush Bloom"
+  },
+  {
+   "hex": "#bbcfe4",
+   "name": "Sky Mist"
+  },
+  {
+   "hex": "#ba59ff",
+   "name": "Plum to Pink Wash"
+  },
+  {
+   "hex": "#3ca1ff",
+   "name": "Aurora Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/07f2a3f8-9222-4315-8789-879420c22acf.mp4",
+  "poster": "https://happyhands.cc/design-archive/whimsical-8e153a14/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/whimsical-8e153a14/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/whimsical-8e153a14/thumbnail.jpg"
+}

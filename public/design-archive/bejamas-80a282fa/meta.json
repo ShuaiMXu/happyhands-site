@@ -1,0 +1,58 @@
+{
+ "id": "80a282fa-4fb5-48ce-a9c7-bb3df5ddbc43",
+ "slug": "bejamas-80a282fa",
+ "name": "Bejamas",
+ "site_url": "https://bejamas.com",
+ "lastmod": "2026-09-20T20:35:08.260Z",
+ "extracted_at": "2026-09-20T19:30:38.652Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Bejamas — acid lime through black glass. Build quiet light-gray editorial pages interrupted by immersive black panels where blurred green light streaks cut across the surface.",
+ "fonts": [
+  "NeueMontreal"
+ ],
+ "colors": [
+  {
+   "hex": "#f3f3f4",
+   "name": "Paper Gray"
+  },
+  {
+   "hex": "#131314",
+   "name": "Carbon Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Cloud White"
+  },
+  {
+   "hex": "#e0dfdf",
+   "name": "Divider Ash"
+  },
+  {
+   "hex": "#66646d",
+   "name": "Muted Graphite"
+  },
+  {
+   "hex": "#838384",
+   "name": "Disabled Steel"
+  },
+  {
+   "hex": "#befc65",
+   "name": "Voltage Lime"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8846a9be-777a-4dfa-aae1-0b2b8adeed45.mp4",
+  "poster": "https://happyhands.cc/design-archive/bejamas-80a282fa/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/bejamas-80a282fa/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/bejamas-80a282fa/thumbnail.jpg"
+}

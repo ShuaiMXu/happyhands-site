@@ -1,0 +1,29 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "icon",
+ "type": "registry:component",
+ "title": "Icon",
+ "description": "Support file: the one import point for Carbon icons.",
+ "author": "design.how",
+ "categories": [
+  "internal"
+ ],
+ "dependencies": [
+  "@carbon/icons-react@^11.89.0"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/lime/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/lime.md",
+  "page": "https://design.how/systems/lime"
+ },
+ "files": [
+  {
+   "path": "registry/lime/icon.tsx",
+   "content": "import type {CarbonIconType} from '@carbon/icons-react';\nimport {cn} from '@/lib/lime/utils';\n\n// The one place Lime imports icons from. Components import from here, never from the icon package, so\n// the set can be swapped in one file.\n//\n// IBM Carbon (@carbon/icons-react). One weight, so there is nothing to\n// pick: pass a size. 16 and 20 in UI, 24 and 32 for empty states. Carbon draws at 16, 20, 24 and 32;\n// 12 shows the 16 artwork scaled down.\n// To use another glyph, add its Carbon name to this list.\nexport {\n  Add, ArrowDown, ArrowRight, ArrowUp, Attachment, Checkmark, CheckmarkFilled, ChevronDown, ChevronRight,\n  ChevronSort, ChevronUp, Close, Copy, ErrorFilled, Image, Information, Menu, Play, Receipt, Renew, Search,\n  Send, Subtract, Time, Upload, Wallet, PiggyBank, Warning, WarningFilled, ChevronLeft, ArrowLeft, Pause,\n  OverflowMenuHorizontal, Folder, Star, Add as Plus, Delete, Cafe, ShoppingBag, Notification, Locked, Undo, Edit, CircleDash,\n  Location\n} from '@carbon/icons-react';\n\nexport type LimeIcon = CarbonIconType;\n\ntype IconProps = Omit<React.ComponentProps<CarbonIconType>, 'size'> & {\n  /** The Carbon icon, imported from this file. */\n  icon: LimeIcon;\n  /** px. 12, 16, 20, 24 or 32. 12 shows the 16 artwork. */\n  size?: 12 | 16 | 20 | 24 | 32;\n  /** Accessible name. Without one the icon is decorative and hidden from assistive tech. */\n  label?: string;\n};\n\nexport function Icon({icon: Glyph, size = 16, label, className, ...props}: IconProps) {\n  return <Glyph\n    size={size}\n    aria-hidden={label ? undefined : true}\n    aria-label={label}\n    role={label ? 'img' : undefined}\n    className={cn('shrink-0', className)}\n    {...props}\n  />;\n}\n",
+   "type": "registry:component",
+   "target": "@components/lime/icon.tsx"
+  }
+ ]
+}

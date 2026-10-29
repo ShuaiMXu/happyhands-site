@@ -1,0 +1,67 @@
+{
+ "id": "d5931dff-2ae3-44c7-b76f-9e5936f90611",
+ "slug": "studio-few-d5931dff",
+ "name": "Studio Few",
+ "site_url": "https://studiofew.com",
+ "lastmod": "2026-06-05T03:32:15.495Z",
+ "extracted_at": "2026-06-03T17:46:03.719Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "monochrome letterform sanctuary — a white gallery where black ink is the only ornament",
+ "fonts": [
+  "SterlingVF",
+  "Sterling",
+  "Formative",
+  "Voyager",
+  "BlokVF",
+  "ArbeitProContrastVF",
+  "AnthroVF",
+  "ApexVF",
+  "Arbeittechnikvf",
+  "Work Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#ebedee",
+   "name": "Foam Gray"
+  },
+  {
+   "hex": "#b7b7b7",
+   "name": "Concrete Gray"
+  },
+  {
+   "hex": "#333333",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#18181d",
+   "name": "Mid Ink"
+  },
+  {
+   "hex": "#858585",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a5fef105-e1bf-4378-9eca-9ff52cb2d942.mp4",
+  "poster": "https://happyhands.cc/design-archive/studio-few-d5931dff/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/studio-few-d5931dff/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/studio-few-d5931dff/thumbnail.jpg"
+}

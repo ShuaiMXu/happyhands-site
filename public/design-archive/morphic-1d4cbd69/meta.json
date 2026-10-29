@@ -1,0 +1,82 @@
+{
+ "id": "1d4cbd69-ee0f-4f13-ba7d-14d3eaed7349",
+ "slug": "morphic-1d4cbd69",
+ "name": "Morphic",
+ "site_url": "https://morphic.com",
+ "lastmod": "2026-06-03T19:35:01.756Z",
+ "extracted_at": "2026-06-03T19:35:01.752Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ai",
+ "north_star": "Dark cinema canvas for AI storytelling. Pure black absorbs everything except the blue pulse of a single accent and the glow of generated imagery.",
+ "fonts": [
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#212121",
+   "name": "Surface One"
+  },
+  {
+   "hex": "#292929",
+   "name": "Surface Two"
+  },
+  {
+   "hex": "#333333",
+   "name": "Surface Three"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Fog"
+  },
+  {
+   "hex": "#f5f5f5",
+   "name": "Mist"
+  },
+  {
+   "hex": "#999999",
+   "name": "Mid Gray"
+  },
+  {
+   "hex": "#737373",
+   "name": "Steel"
+  },
+  {
+   "hex": "#666666",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#525252",
+   "name": "Slate"
+  },
+  {
+   "hex": "#404040",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#0075ff",
+   "name": "Electric Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/24b64567-c582-448a-b02d-0b8762bef788.mp4",
+  "poster": "https://happyhands.cc/design-archive/morphic-1d4cbd69/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/morphic-1d4cbd69/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/morphic-1d4cbd69/thumbnail.jpg"
+}

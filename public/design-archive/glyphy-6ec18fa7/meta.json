@@ -1,0 +1,74 @@
+{
+ "id": "6ec18fa7-41ff-41e0-8824-94f6fa104a75",
+ "slug": "glyphy-6ec18fa7",
+ "name": "Glyphy",
+ "site_url": "https://glyphy.io",
+ "lastmod": "2026-06-03T20:26:35.707Z",
+ "extracted_at": "2026-06-03T20:26:35.703Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "buttercream specimen sheet beneath sunset bands. A warm cream page sliced by yellow-to-plum horizontal stripes, anchored by an oversized neo-grotesque wordmark and tiny pixel Japanese eyebrows.",
+ "fonts": [
+  "Arial",
+  "Neue Machina",
+  "System85",
+  "Pixel M Plus 10",
+  "System85 Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#fef9e6",
+   "name": "Buttercream"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#060606",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#c7c3b4",
+   "name": "Driftwood"
+  },
+  {
+   "hex": "#8d8b80",
+   "name": "Stone"
+  },
+  {
+   "hex": "#fdc331",
+   "name": "Amber Pulse"
+  },
+  {
+   "hex": "#fe5722",
+   "name": "Ember Glow"
+  },
+  {
+   "hex": "#f0353c",
+   "name": "Signal Red"
+  },
+  {
+   "hex": "#b4213d",
+   "name": "Merlot Depth"
+  },
+  {
+   "hex": "#671c3b",
+   "name": "Plum Shadow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8965c9b7-2f09-4665-b010-c240fccbaba4.mp4",
+  "poster": "https://happyhands.cc/design-archive/glyphy-6ec18fa7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/glyphy-6ec18fa7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/glyphy-6ec18fa7/thumbnail.jpg"
+}

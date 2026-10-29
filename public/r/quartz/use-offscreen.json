@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "use-offscreen",
+  "type": "registry:lib",
+  "title": "useOffscreen",
+  "description": "Support file: marks a live frame with data-offscreen while it is out of view, so its running arc pauses.",
+  "author": "design.how",
+  "categories": [
+    "internal"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/quartz/index.md",
+    "page": "https://happyhands.cc/design-how/quartz/index.md"
+  },
+  "files": [
+    {
+      "path": "registry/quartz/lib/use-offscreen.ts",
+      "content": "'use client';\n\nimport {useEffect, useRef} from 'react';\n\n/**\n * Marks a live frame with data-offscreen while it is out of view, so its loops pause: the running arc inside it\n * stops on that attribute. Put the returned ref on the frame. `active` is the frame's\n * own live state; when it is false the observer goes and the attribute comes off. It writes the attribute directly,\n * so scrolling a long page re-renders nothing.\n */\nfunction useOffscreen<E extends HTMLElement = HTMLElement>(active = true) {\n  const ref = useRef<E>(null);\n  useEffect(() => {\n    const el = ref.current;\n    if (!el || !active || typeof IntersectionObserver === 'undefined') return;\n    const io = new IntersectionObserver(([entry]) => {\n      if (entry.isIntersecting) el.removeAttribute('data-offscreen');\n      else el.setAttribute('data-offscreen', '');\n    });\n    io.observe(el);\n    return () => { io.disconnect(); el.removeAttribute('data-offscreen'); };\n  }, [active]);\n  return ref;\n}\n\nexport {useOffscreen};\n",
+      "type": "registry:lib",
+      "target": "@lib/quartz/use-offscreen.ts"
+    }
+  ]
+}

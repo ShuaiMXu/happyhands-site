@@ -1,0 +1,78 @@
+{
+ "id": "60ee0386-cfad-409a-8310-762bfc2e4816",
+ "slug": "cosmos-network-60ee0386",
+ "name": "Cosmos Network",
+ "site_url": "https://cosmos.network",
+ "lastmod": "2026-06-05T07:18:43.996Z",
+ "extracted_at": "2026-06-03T19:35:02.413Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "crypto",
+ "north_star": "Deep space command center — a near-black financial observatory where white type and concentric diagrams float in measured silence.",
+ "fonts": [
+  "The Future"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#181818",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#1e1f20",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#333333",
+   "name": "Iron"
+  },
+  {
+   "hex": "#807f7f",
+   "name": "Slate"
+  },
+  {
+   "hex": "#999999",
+   "name": "Fog"
+  },
+  {
+   "hex": "#666666",
+   "name": "Ash"
+  },
+  {
+   "hex": "#f1f4f4",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#22e2a8",
+   "name": "Signal Mint"
+  },
+  {
+   "hex": "#0a2142",
+   "name": "Deep Navy"
+  },
+  {
+   "hex": "#085556",
+   "name": "Concentric Teal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8e703ad8-85d4-4528-bda7-317138250671.mp4",
+  "poster": "https://happyhands.cc/design-archive/cosmos-network-60ee0386/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/cosmos-network-60ee0386/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/cosmos-network-60ee0386/thumbnail.jpg"
+}

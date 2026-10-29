@@ -1,0 +1,102 @@
+{
+ "id": "36a7e1ed-8d14-456b-b828-ff4f47797a74",
+ "slug": "synthesia-36a7e1ed",
+ "name": "Synthesia",
+ "site_url": "https://www.synthesia.io",
+ "lastmod": "2026-06-03T18:09:15.482Z",
+ "extracted_at": "2026-06-03T18:09:15.476Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "studio control room on white",
+ "fonts": [
+  "Basiersquare Webfont"
+ ],
+ "colors": [
+  {
+   "hex": "#333b52",
+   "name": "Graphite Violet"
+  },
+  {
+   "hex": "#656c86",
+   "name": "Slate Gray"
+  },
+  {
+   "hex": "#969bb5",
+   "name": "Mist"
+  },
+  {
+   "hex": "#d1d6e5",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#e6eaf4",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#f5f8ff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#3e57da",
+   "name": "Indigo Core"
+  },
+  {
+   "hex": "#8098f9",
+   "name": "Indigo Glow"
+  },
+  {
+   "hex": "#c6d7fe",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#0d0f2c",
+   "name": "Midnight Indigo"
+  },
+  {
+   "hex": "#1f235b",
+   "name": "Deep Indigo"
+  },
+  {
+   "hex": "#1a280b",
+   "name": "Forest"
+  },
+  {
+   "hex": "#ebf6df",
+   "name": "Mint Tint"
+  },
+  {
+   "hex": "#470800",
+   "name": "Ember"
+  },
+  {
+   "hex": "#42230a",
+   "name": "Saffron"
+  },
+  {
+   "hex": "#fffadb",
+   "name": "Buttercream"
+  },
+  {
+   "hex": "#ff7345",
+   "name": "G2 Coral"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c898fcb1-9b06-4f1a-b3d3-cda1651b4ca3.mp4",
+  "poster": "https://happyhands.cc/design-archive/synthesia-36a7e1ed/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/synthesia-36a7e1ed/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/synthesia-36a7e1ed/thumbnail.jpg"
+}

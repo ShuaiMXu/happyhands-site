@@ -1,0 +1,74 @@
+{
+ "id": "aa87c258-0eb8-4c14-9f2f-96f16fb926b8",
+ "slug": "superthread-aa87c258",
+ "name": "Superthread",
+ "site_url": "https://www.superthread.com",
+ "lastmod": "2026-06-03T21:57:22.481Z",
+ "extracted_at": "2026-06-03T21:57:22.474Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Whiteboard confidence with amber highlighter energy. Superthread feels like a well-organized notebook page — dark ink lines, ample white space, and a single warm yellow mark that signals what matters.",
+ "fonts": [
+  "sans-serif",
+  "Vela Sans",
+  "Noto Sans",
+  "Inter (gs-inter-2020-11)",
+  "SF Pro Display"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#1d2939",
+   "name": "Slate Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Canvas White"
+  },
+  {
+   "hex": "#f9fafb",
+   "name": "Page Mist"
+  },
+  {
+   "hex": "#e4e7ec",
+   "name": "Dust Border"
+  },
+  {
+   "hex": "#667085",
+   "name": "Graphite Text"
+  },
+  {
+   "hex": "#101828",
+   "name": "Midnight Heading"
+  },
+  {
+   "hex": "#1d2a53",
+   "name": "Indigo Whisper"
+  },
+  {
+   "hex": "#ffaa00",
+   "name": "Amber Mark"
+  },
+  {
+   "hex": "#ffcc34",
+   "name": "Highlight Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5ed7f5fe-d6a2-4935-9945-55fd662ee59d.mp4",
+  "poster": "https://happyhands.cc/design-archive/superthread-aa87c258/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/superthread-aa87c258/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/superthread-aa87c258/thumbnail.jpg"
+}

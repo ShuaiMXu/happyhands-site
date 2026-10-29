@@ -1,0 +1,68 @@
+{
+ "id": "9501cfdc-3eb3-4b64-90f6-9afdded48945",
+ "slug": "plain-9501cfdc",
+ "name": "Plain",
+ "site_url": "https://plain.com",
+ "lastmod": "2026-06-05T02:22:58.793Z",
+ "extracted_at": "2026-06-03T15:48:15.912Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Botanical greenhouse on warm parchment — a single living green accent breathing inside a calm cream workspace.",
+ "fonts": [
+  "ABC Favorit",
+  "Geist Mono",
+  "System Sans-Serif"
+ ],
+ "colors": [
+  {
+   "hex": "#0a2414",
+   "name": "Forest Ink"
+  },
+  {
+   "hex": "#f3fbe9",
+   "name": "Parchment Cream"
+  },
+  {
+   "hex": "#f9f6f1",
+   "name": "Card Linen"
+  },
+  {
+   "hex": "#283a2e",
+   "name": "Sage Charcoal"
+  },
+  {
+   "hex": "#607166",
+   "name": "Muted Moss"
+  },
+  {
+   "hex": "#1ad379",
+   "name": "Vivid Green"
+  },
+  {
+   "hex": "#17b267",
+   "name": "Deep Botanical"
+  },
+  {
+   "hex": "#ffbac3",
+   "name": "Coral Blush"
+  },
+  {
+   "hex": "#360003",
+   "name": "Wine Plum"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2f334c9c-a11e-48df-a617-365af2e0d880.mp4",
+  "poster": "https://happyhands.cc/design-archive/plain-9501cfdc/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/plain-9501cfdc/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/plain-9501cfdc/thumbnail.jpg"
+}

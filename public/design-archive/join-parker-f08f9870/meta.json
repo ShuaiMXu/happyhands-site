@@ -1,0 +1,76 @@
+{
+ "id": "f08f9870-2018-4c0b-80d4-0b2e525ff49c",
+ "slug": "join-parker-f08f9870",
+ "name": "Join Parker",
+ "site_url": "https://www.getparker.com",
+ "lastmod": "2026-06-05T04:56:43.950Z",
+ "extracted_at": "2026-06-03T18:29:08.442Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "Banker's ledger meets indie magazine — white paper, electric blue ink, one italic flourish that rewrites the headline.",
+ "fonts": [
+  "Inter",
+  "Gambetta",
+  "system-ui"
+ ],
+ "colors": [
+  {
+   "hex": "#5196fe",
+   "name": "Electric Blue"
+  },
+  {
+   "hex": "#f9754e",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#1b1d20",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#101828",
+   "name": "Midnight"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f2f1ec",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#e1dfd8",
+   "name": "Sand"
+  },
+  {
+   "hex": "#27272a",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#6e6e6e",
+   "name": "Steel"
+  },
+  {
+   "hex": "#797876",
+   "name": "Ash"
+  },
+  {
+   "hex": "#a3a3a3",
+   "name": "Fog"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/94ba356c-f5e4-4c24-9982-292c839c9e85.mp4",
+  "poster": "https://happyhands.cc/design-archive/join-parker-f08f9870/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/join-parker-f08f9870/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/join-parker-f08f9870/thumbnail.jpg"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "13b74e34-b824-4d1d-bd2c-bb9bfbc2d6e1",
+ "slug": "spacex-13b74e34",
+ "name": "SpaceX",
+ "site_url": "https://spacex.com",
+ "lastmod": "2026-06-05T01:14:05.054Z",
+ "extracted_at": "2026-06-03T16:10:15.905Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "other",
+ "north_star": "Mission control viewport into deep space",
+ "fonts": [
+  "D-DIN",
+  "D-DIN-Bold"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#f0f0fa",
+   "name": "Star White"
+  },
+  {
+   "hex": "#545457",
+   "name": "Dim Steel"
+  },
+  {
+   "hex": "#404040",
+   "name": "Dark Gunmetal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/34c7ba25-c3eb-4c98-972d-cb01c26d9645.mp4",
+  "poster": "https://happyhands.cc/design-archive/spacex-13b74e34/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/spacex-13b74e34/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/spacex-13b74e34/thumbnail.jpg"
+}

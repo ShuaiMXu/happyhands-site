@@ -1,0 +1,100 @@
+{
+ "id": "eddfa579-89f1-467d-a486-99a56be36c30",
+ "slug": "expressvpn-eddfa579",
+ "name": "ExpressVPN",
+ "site_url": "https://www.expressvpn.com",
+ "lastmod": "2026-06-03T20:41:00.257Z",
+ "extracted_at": "2026-06-03T20:41:00.252Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Fortress garden at dawn. A bright, spacious canopy of teal and ivory where dark navy anchors signal weight and warmth.",
+ "fonts": [
+  "Inter",
+  "FS Kim",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#001d2f",
+   "name": "Midnight Navy"
+  },
+  {
+   "hex": "#f7f8f9",
+   "name": "Soft Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#ccd2d5",
+   "name": "Hairline Gray"
+  },
+  {
+   "hex": "#dcdcdc",
+   "name": "Silver Edge"
+  },
+  {
+   "hex": "#adadad",
+   "name": "Steel Caption"
+  },
+  {
+   "hex": "#667782",
+   "name": "Slate Body"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#0f866c",
+   "name": "Forest Teal"
+  },
+  {
+   "hex": "#00695c",
+   "name": "Deep Teal"
+  },
+  {
+   "hex": "#ffe4d4",
+   "name": "Peach Cream"
+  },
+  {
+   "hex": "#f0eacf",
+   "name": "Warm Sand"
+  },
+  {
+   "hex": "#c3ece8",
+   "name": "Pale Mint"
+  },
+  {
+   "hex": "#b7d1d0",
+   "name": "Sea Mist"
+  },
+  {
+   "hex": "#da3940",
+   "name": "Brand Red"
+  },
+  {
+   "hex": "#b0272d",
+   "name": "Deep Red"
+  },
+  {
+   "hex": "#0c3956",
+   "name": "Twilight Navy"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/7e3d9268-e308-4b13-9fac-b901aa0cdb88.mp4",
+  "poster": "https://happyhands.cc/design-archive/expressvpn-eddfa579/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/expressvpn-eddfa579/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/expressvpn-eddfa579/thumbnail.jpg"
+}

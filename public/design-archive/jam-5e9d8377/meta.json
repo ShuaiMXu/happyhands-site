@@ -1,0 +1,96 @@
+{
+ "id": "5e9d8377-e6f2-4063-b678-9f1bbfc24598",
+ "slug": "jam-5e9d8377",
+ "name": "Jam",
+ "site_url": "https://jam.dev",
+ "lastmod": "2026-06-03T21:37:47.048Z",
+ "extracted_at": "2026-06-03T21:37:47.042Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "late-night dev console with mint LED pulse — a near-black interface where one vivid green button glows like a power LED on matte hardware.",
+ "fonts": [
+  "Oldschool Grotesk",
+  "SF Pro Text",
+  "SF Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#130f18",
+   "name": "Obsidian Plum"
+  },
+  {
+   "hex": "#21192a",
+   "name": "Graphite Plum"
+  },
+  {
+   "hex": "#2e2d36",
+   "name": "Smoke Plum"
+  },
+  {
+   "hex": "#252542",
+   "name": "Ink Border"
+  },
+  {
+   "hex": "#25292e",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#8b94a3",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#d0cfd1",
+   "name": "Soft Mist"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#73e5bf",
+   "name": "Signal Mint"
+  },
+  {
+   "hex": "#c5ffe7",
+   "name": "Mint Halo"
+  },
+  {
+   "hex": "#a37af5",
+   "name": "Electric Violet"
+  },
+  {
+   "hex": "#744ec2",
+   "name": "Deep Violet"
+  },
+  {
+   "hex": "#b89fd4",
+   "name": "Lilac"
+  },
+  {
+   "hex": "#947fac",
+   "name": "Mauve"
+  },
+  {
+   "hex": "#ff4070",
+   "name": "Jam Pink"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4ffb93a6-51d4-444b-add6-e13d18f7a391.mp4",
+  "poster": "https://happyhands.cc/design-archive/jam-5e9d8377/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/jam-5e9d8377/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/jam-5e9d8377/thumbnail.jpg"
+}

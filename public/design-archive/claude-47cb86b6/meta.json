@@ -1,0 +1,75 @@
+{
+ "id": "47cb86b6-cb2d-41c8-94ba-8607cd7c41cd",
+ "slug": "claude-47cb86b6",
+ "name": "Claude",
+ "site_url": "https://claude.ai",
+ "lastmod": "2026-07-03T10:40:26.425Z",
+ "extracted_at": "2026-07-03T03:15:32.032Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Warm parchment printed artifact — ink on bone paper, clay as the only chromatic breath.",
+ "fonts": [
+  "Anthropic Serif",
+  "Anthropic Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#f8f8f6",
+   "name": "Bone Parchment"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#efeeeb",
+   "name": "Soft Stone"
+  },
+  {
+   "hex": "#121212",
+   "name": "Carbon Ink"
+  },
+  {
+   "hex": "#373734",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#7b7974",
+   "name": "Ashen"
+  },
+  {
+   "hex": "#9c9a92",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#b7b7b5",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e7e6e1",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#d97757",
+   "name": "Clay"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0acd25a3-b705-44ff-8a15-d93d5f8fd527.mp4",
+  "poster": "https://happyhands.cc/design-archive/claude-47cb86b6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/claude-47cb86b6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/claude-47cb86b6/thumbnail.jpg"
+}

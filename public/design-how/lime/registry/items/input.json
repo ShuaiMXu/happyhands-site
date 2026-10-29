@@ -1,0 +1,31 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "input",
+ "type": "registry:ui",
+ "title": "Input",
+ "description": "One line of text, such as a merchant name or a search.",
+ "author": "design.how",
+ "categories": [
+  "inputs"
+ ],
+ "dependencies": [
+  "@base-ui/react@^1.8.0",
+  "class-variance-authority@^0.7.1"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/lime/theme.json",
+  "https://design.how/r/lime/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/lime/components/input.md",
+  "page": "https://design.how/systems/lime/components/input"
+ },
+ "files": [
+  {
+   "path": "registry/lime/ui/input.tsx",
+   "content": "'use client';\n\nimport {Input as InputPrimitive} from '@base-ui/react/input';\nimport {cva, type VariantProps} from 'class-variance-authority';\nimport {mergeClass} from '@/lib/lime/utils';\n\n// A single line text field on the warm-grey field fill, with a hairline that darkens on hover and an\n// accent-line ring on focus. 40px by default. An invalid field turns its edge red; the message belongs to\n// Field, which also gives the control its label.\n\nconst fieldControl = cva(\n  [\n    'w-full min-w-0 rounded-field border border-line-strong bg-field px-3 text-fg',\n    'placeholder:text-fg-3 hover:not-disabled:not-aria-invalid:border-control',\n    'focus-visible:border-accent-line focus-visible:outline-offset-0',\n    'aria-invalid:border-danger',\n    'disabled:cursor-not-allowed disabled:bg-surface-2 disabled:text-fg-disabled disabled:placeholder:text-fg-disabled',\n  ],\n  {\n    variants: {\n      size: {\n        sm: 'h-(--control-sm) text-sm',\n        md: 'h-(--control-md) text-sm',\n        lg: 'h-(--control-lg) text-base',\n      },\n    },\n    defaultVariants: {size: 'md'},\n  },\n);\n\ntype InputProps = Omit<InputPrimitive.Props, 'size'> & VariantProps<typeof fieldControl>;\n\nfunction Input({className, size, type = 'text', ...props}: InputProps) {\n  return <InputPrimitive data-slot=\"input\" type={type} className={mergeClass(fieldControl({size}), className)} {...props}/>;\n}\n\nexport {Input, fieldControl, type InputProps};\n",
+   "type": "registry:ui",
+   "target": "@components/lime/ui/input.tsx"
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "id": "935f22cb-04ec-48c8-a6da-aa8c2c5abe8b",
+ "slug": "clipdrop-935f22cb",
+ "name": "Clipdrop",
+ "site_url": "https://clipdrop.co",
+ "lastmod": "2026-06-03T21:40:52.649Z",
+ "extracted_at": "2026-06-03T21:40:52.643Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "photo studio on bone paper",
+ "fonts": [
+  "Primary",
+  "Custom Sans (likely Inter or a geometric humanist substitute)",
+  "Editorial Serif (custom — high-contrast modern serif, Didone family)",
+  "SecondaryFont"
+ ],
+ "colors": [
+  {
+   "hex": "#1c60f6",
+   "name": "Cobalt Signal"
+  },
+  {
+   "hex": "#fa4028",
+   "name": "Ember Vermillion"
+  },
+  {
+   "hex": "#24355c",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#c9d7f5",
+   "name": "Periwinkle Mist"
+  },
+  {
+   "hex": "#ededed",
+   "name": "Bone"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#2d2d2d",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#404040",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#767676",
+   "name": "Slate"
+  },
+  {
+   "hex": "#dddddd",
+   "name": "Frost"
+  },
+  {
+   "hex": "#8f8f8f",
+   "name": "Ash"
+  },
+  {
+   "hex": "#171717",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/fa60ab20-c9af-4525-a8e5-395c9321cfa8.mp4",
+  "poster": "https://happyhands.cc/design-archive/clipdrop-935f22cb/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/clipdrop-935f22cb/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/clipdrop-935f22cb/thumbnail.jpg"
+}

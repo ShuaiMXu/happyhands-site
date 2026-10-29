@@ -1,0 +1,91 @@
+{
+ "id": "5618f26a-4df6-42cb-8081-15e4318b54ff",
+ "slug": "dropmark-5618f26a",
+ "name": "Dropmark",
+ "site_url": "https://dropmark.com",
+ "lastmod": "2026-06-05T10:09:18.244Z",
+ "extracted_at": "2026-06-03T20:03:45.682Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Warm paper atelier with cubist murals",
+ "fonts": [
+  "DropmarkRealHead",
+  "DropmarkRealText"
+ ],
+ "colors": [
+  {
+   "hex": "#00affa",
+   "name": "Cyan Signal"
+  },
+  {
+   "hex": "#f7f7f1",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#dcdcd4",
+   "name": "Stone Gray"
+  },
+  {
+   "hex": "#404040",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#333333",
+   "name": "Mid Ink"
+  },
+  {
+   "hex": "#111111",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#7f7f7f",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#1e2554",
+   "name": "Midnight Violet"
+  },
+  {
+   "hex": "#2c2a6c",
+   "name": "Deep Iris"
+  },
+  {
+   "hex": "#ff5d43",
+   "name": "Coral Burst"
+  },
+  {
+   "hex": "#38dede",
+   "name": "Aqua Glow"
+  },
+  {
+   "hex": "#9164fa",
+   "name": "Vivid Amethyst"
+  },
+  {
+   "hex": "#f8b3b8",
+   "name": "Blush"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/36d9a636-5201-4b3c-91c4-4b98a08244f3.mp4",
+  "poster": "https://happyhands.cc/design-archive/dropmark-5618f26a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/dropmark-5618f26a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/dropmark-5618f26a/thumbnail.jpg"
+}

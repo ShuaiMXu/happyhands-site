@@ -1,0 +1,62 @@
+{
+ "id": "caca412f-7fc7-4510-aacc-5664d4f8ce9f",
+ "slug": "flowmapp-caca412f",
+ "name": "Flowmapp",
+ "site_url": "https://flowmapp.com",
+ "lastmod": "2026-06-05T01:57:39.309Z",
+ "extracted_at": "2026-06-03T17:03:57.091Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "White blueprint desk with one blue pen",
+ "fonts": [
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#0080ff",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#0050ff",
+   "name": "Voltage Violet"
+  },
+  {
+   "hex": "#c5e0fb",
+   "name": "Sky Wash"
+  },
+  {
+   "hex": "#8c9baa",
+   "name": "Pencil Gray"
+  },
+  {
+   "hex": "#636f7b",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#222222",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f9eaee2c-5cd5-4d23-b8d0-ea448786eaa7.mp4",
+  "poster": "https://happyhands.cc/design-archive/flowmapp-caca412f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/flowmapp-caca412f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/flowmapp-caca412f/thumbnail.jpg"
+}

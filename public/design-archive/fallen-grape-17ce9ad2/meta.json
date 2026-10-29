@@ -1,0 +1,64 @@
+{
+ "id": "17ce9ad2-f22d-4e48-92de-e28fb8551cc5",
+ "slug": "fallen-grape-17ce9ad2",
+ "name": "Fallen Grape",
+ "site_url": "https://www.fallengrape.com",
+ "lastmod": "2026-06-05T02:34:19.949Z",
+ "extracted_at": "2026-06-03T15:57:06.846Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Sun-drenched vineyard at golden hour. Warm cream paper, walnut ink, terracotta warmth — a wine label breathed into a full interface.",
+ "fonts": [
+  "Romie",
+  "Arial Narrow",
+  "GTStandard-M"
+ ],
+ "colors": [
+  {
+   "hex": "#ece0d2",
+   "name": "Vintage Cream"
+  },
+  {
+   "hex": "#f3f3f3",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#573d21",
+   "name": "Walnut Ink"
+  },
+  {
+   "hex": "#7c664d",
+   "name": "Saddle Brown"
+  },
+  {
+   "hex": "#e1c6ab",
+   "name": "Peach Sand"
+  },
+  {
+   "hex": "#e3a36e",
+   "name": "Terracotta Glow"
+  },
+  {
+   "hex": "#efa164",
+   "name": "Apricot Whisper"
+  },
+  {
+   "hex": "#d8deb7",
+   "name": "Vine Sage"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/25337f5b-ac65-4b49-bbb3-c6ba86685ad9.mp4",
+  "poster": "https://happyhands.cc/design-archive/fallen-grape-17ce9ad2/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/fallen-grape-17ce9ad2/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/fallen-grape-17ce9ad2/thumbnail.jpg"
+}

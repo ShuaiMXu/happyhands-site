@@ -1,0 +1,31 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "follow-ups",
+ "type": "registry:component",
+ "title": "Follow-ups",
+ "description": "Suggests next prompts to send.",
+ "author": "design.how",
+ "categories": [
+  "agent"
+ ],
+ "dependencies": [
+  "class-variance-authority@^0.7.1"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/glaze/icon.json",
+  "https://design.how/r/glaze/theme.json",
+  "https://design.how/r/glaze/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/glaze/components/follow-ups.md",
+  "page": "https://design.how/systems/glaze/components/follow-ups"
+ },
+ "files": [
+  {
+   "path": "registry/glaze/ai/follow-ups.tsx",
+   "content": "'use client';\n\nimport {cva} from 'class-variance-authority';\nimport {Icon, FollowUp} from '@/components/glaze/icon';\nimport {cn} from '@/lib/glaze/utils';\n\n// Suggested next prompts under an agent's turn. Each is the whole prompt, written as the person would type it, and\n// one press sends it as written. Three at most; the rest are cut, so pass the best ones first.\n//\n// Two layouts, both flat: no glass, because a suggestion is an offer and the composer's Send is the lead.\n// - chips (the default): a wrapping row of 26px pills, the chip's paper and hairline, the line darkening under the\n//   pointer as a filter chip's does. For short prompts. A prompt too long for the row ends in an ellipsis and keeps\n//   its full text as the title and the accessible name.\n// - rows: a column of 32px rows, a return arrow in text-3 before the prompt, the hover wash, the text wrapping onto a\n//   second line. For prompts that run to a sentence. Rows sit edge to edge, so their ring is drawn inside the row.\n//\n// disabled holds every suggestion while a reply runs; render the row only under the newest finished turn.\n\ntype FollowUpsLabels = {\n  /** The row's name, read by screen readers. */\n  group?: string;\n};\n\nconst defaultLabels: Required<FollowUpsLabels> = {group: 'Suggested follow-ups'};\n\nconst followUpVariants = cva(\n  [\n    'group/follow-up relative inline-flex min-w-0 cursor-pointer items-center text-start text-text-1 select-none [-webkit-tap-highlight-color:transparent]',\n    'transition-[background-color,border-color,color,scale] duration-(--dur-state) ease-out',\n    'disabled:cursor-not-allowed disabled:text-text-disabled',\n    '[&_svg]:pointer-events-none [&_svg]:shrink-0',\n  ],\n  {\n    variants: {\n      layout: {\n        chips: [\n          'h-(--control-sm) max-w-full rounded-pill border border-line-control bg-paper px-2.5 type-label-sm whitespace-nowrap focus-sm',\n          'hover:not-disabled:border-line-focus active:not-disabled:scale-(--scale-press) active:duration-(--dur-press)',\n          'disabled:border-line-faint forced-colors:border-[ButtonText]',\n        ],\n        rows: [\n          'min-h-(--control) w-full items-start gap-2 rounded-tag px-2 py-1.5 type-body-sm focus-visible:focus-ring-inset',\n          'hover:not-disabled:bg-hover active:not-disabled:bg-pressed',\n          '[&_svg]:size-(--icon) [&_svg]:text-text-3 disabled:[&_svg]:text-text-disabled',\n        ],\n      },\n    },\n    defaultVariants: {layout: 'chips'},\n  },\n);\n\ntype FollowUpsProps = Omit<React.ComponentProps<'div'>, 'onSelect' | 'children'> & {\n  /** The prompts, best first. Empty strings are dropped; past max are cut. */\n  suggestions: readonly string[];\n  /** Sends the prompt. Called with its text and its place in the row. */\n  onSelect: (suggestion: string, index: number) => void;\n  /** chips for short prompts, rows for a sentence. */\n  layout?: 'chips' | 'rows';\n  /** How many show. */\n  max?: number;\n  /** A reply is running: every suggestion holds. */\n  disabled?: boolean;\n  /** The row's name, for another language. */\n  labels?: FollowUpsLabels;\n};\n\nfunction FollowUps({suggestions, onSelect, layout = 'chips', max = 3, disabled, labels, className, ...props}: FollowUpsProps) {\n  const words = {...defaultLabels, ...labels};\n  const shown = suggestions.map(s => s.trim()).filter(Boolean).slice(0, max);\n  if (!shown.length) return null;\n  return <div\n    data-slot=\"follow-ups\"\n    data-layout={layout}\n    role=\"group\"\n    aria-label={words.group}\n    className={cn('flex min-w-0', layout === 'chips' ? 'flex-wrap gap-1' : 'flex-col', className)}\n    {...props}\n  >\n    {shown.map((text, index) => <button\n      key={text}\n      type=\"button\"\n      data-slot=\"follow-up\"\n      disabled={disabled}\n      title={layout === 'chips' ? text : undefined}\n      onClick={() => onSelect(text, index)}\n      className={followUpVariants({layout})}\n    >\n      {/* The arrow sits on the first line when the prompt wraps. */}\n      {layout === 'rows' && <span aria-hidden className=\"flex h-lh shrink-0 items-center\"><Icon icon={FollowUp}/></span>}\n      <span className={cn('min-w-0', layout === 'chips' ? 'truncate' : '[overflow-wrap:anywhere]')}>{text}</span>\n    </button>)}\n  </div>;\n}\n\nexport {FollowUps, followUpVariants, type FollowUpsProps, type FollowUpsLabels};\n",
+   "type": "registry:component",
+   "target": "@components/glaze/ai/follow-ups.tsx"
+  }
+ ]
+}

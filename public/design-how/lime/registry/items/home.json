@@ -1,0 +1,32 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "home",
+ "type": "registry:block",
+ "title": "Home screen",
+ "description": "An app home: a greeting, the balance, three quick actions with Add as the glow, and a savings goal.",
+ "author": "design.how",
+ "categories": [
+  "block",
+  "home"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/lime/amount.json",
+  "https://design.how/r/lime/avatar.json",
+  "https://design.how/r/lime/button.json",
+  "https://design.how/r/lime/icon.json",
+  "https://design.how/r/lime/progress.json",
+  "https://design.how/r/lime/theme.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/lime.md",
+  "page": "https://design.how/systems/lime"
+ },
+ "files": [
+  {
+   "path": "registry/lime/blocks/home.tsx",
+   "content": "import {Add, ArrowDown, ArrowUp, Icon} from '@/components/lime/icon';\nimport {Avatar} from '@/components/lime/ui/avatar';\nimport {Button} from '@/components/lime/ui/button';\nimport {formatAmount} from '@/components/lime/ui/amount';\nimport {Progress} from '@/components/lime/ui/progress';\n\n// A block: an app home screen. Replace the sample name, balance and goal with the person's own.\n\nconst balance = 2481.2;\nconst goal = {name: 'Vacation fund', saved: 290, target: 480};\n\n/** An app home, kept to its structure: who you are, the balance, three quick actions (Add is the one glow) and\n * the savings goal as one row with its bar. */\nexport function HomeScreen() {\n  const actions = [\n    {label: 'Add', icon: Add, primary: true},\n    {label: 'Send', icon: ArrowUp},\n    {label: 'Request', icon: ArrowDown},\n  ];\n  return (\n    <section aria-label=\"Home\" className=\"flex w-full max-w-xs flex-col gap-7\">\n      <div className=\"flex items-center justify-between gap-3\">\n        <p className=\"text-sm text-fg-3\">Good morning, Arlan</p>\n        <Avatar name=\"Arlan Marat\" size=\"sm\"/>\n      </div>\n      <div className=\"flex flex-col items-center gap-1 text-center\">\n        <p className=\"text-sm text-fg-3\">Available</p>\n        <p className=\"text-3xl font-semibold tracking-tight tabular-nums\">{formatAmount(balance)}</p>\n      </div>\n      <div className=\"flex justify-center gap-8\">\n        {actions.map(action => (\n          <div key={action.label} className=\"flex flex-col items-center gap-2\">\n            <Button size=\"icon-lg\" variant={action.primary ? 'primary' : 'secondary'} aria-label={action.label}><Icon icon={action.icon} size={20}/></Button>\n            <span className=\"text-xs text-fg-2\">{action.label}</span>\n          </div>\n        ))}\n      </div>\n      <div className=\"flex flex-col gap-2.5\">\n        <div className=\"flex items-baseline justify-between gap-3\">\n          <p className=\"font-medium\">{goal.name}</p>\n          <p className=\"text-sm text-fg-3 tabular-nums\">{formatAmount(goal.saved, {compact: true})} of {formatAmount(goal.target, {compact: true})}</p>\n        </div>\n        <Progress value={goal.saved} max={goal.target} label={`Saved toward ${goal.name}`} valueText={`${formatAmount(goal.saved)} of ${formatAmount(goal.target)}`}/>\n      </div>\n    </section>\n  );\n}\n",
+   "type": "registry:block",
+   "target": "@components/lime/blocks/home.tsx"
+  }
+ ]
+}

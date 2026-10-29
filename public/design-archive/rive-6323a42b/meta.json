@@ -1,0 +1,68 @@
+{
+ "id": "6323a42b-3b47-4774-92e4-15651a9ba2ac",
+ "slug": "rive-6323a42b",
+ "name": "Rive",
+ "site_url": "https://rive.app",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-11T17:42:27.457Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "",
+ "north_star": "Precision Night Vision. The interface is a specialized lens, cutting through darkness to focus on technical details with absolute clarity.",
+ "fonts": [
+  "Tomorrow",
+  "Inter",
+  "sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#ffa41c",
+   "name": "Ignition Orange"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#111111",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#1d1d1d",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#262626",
+   "name": "Tarmac"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Stark White"
+  },
+  {
+   "hex": "#f1f1f1",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#aaaaaa",
+   "name": "Ash"
+  },
+  {
+   "hex": "#999999",
+   "name": "Dusk Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2efdff24-4bb3-4153-94bf-97fcb7ebf592.mp4",
+  "poster": "https://happyhands.cc/design-archive/rive-6323a42b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/rive-6323a42b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/rive-6323a42b/thumbnail.jpg"
+}

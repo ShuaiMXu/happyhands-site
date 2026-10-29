@@ -1,0 +1,75 @@
+{
+ "id": "c08ebca5-87d4-4c19-a5d7-ae5e670dae11",
+ "slug": "atlassian-c08ebca5",
+ "name": "Atlassian",
+ "site_url": "https://www.atlassian.com",
+ "lastmod": "2026-06-05T12:55:54.005Z",
+ "extracted_at": "2026-06-03T22:08:59.894Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Confetti-edged engineering blueprint. A clean white enterprise canvas interrupted by dark navy editorial panels framed in torn geometric color — vivid violet, taxicab yellow, electric blue, leaf green — like precise diagrams pinned between paint-splattered dividers.",
+ "fonts": [
+  "Charlie Display",
+  "Charlie Text"
+ ],
+ "colors": [
+  {
+   "hex": "#1868db",
+   "name": "Atlassian Blue"
+  },
+  {
+   "hex": "#101214",
+   "name": "Midnight Navy"
+  },
+  {
+   "hex": "#292a2e",
+   "name": "Carbon Edge"
+  },
+  {
+   "hex": "#1c2b42",
+   "name": "Slate Current"
+  },
+  {
+   "hex": "#42526e",
+   "name": "Muted Indigo"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#f0f1f2",
+   "name": "Fog White"
+  },
+  {
+   "hex": "#b7b9be",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#fca700",
+   "name": "Taxicab Yellow"
+  },
+  {
+   "hex": "#eed7fc",
+   "name": "Lavender Wash"
+  },
+  {
+   "hex": "#bf63f3",
+   "name": "Confetti Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/373e4944-90df-46af-b75f-980f8d5d070d.mp4",
+  "poster": "https://happyhands.cc/design-archive/atlassian-c08ebca5/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/atlassian-c08ebca5/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/atlassian-c08ebca5/thumbnail.jpg"
+}

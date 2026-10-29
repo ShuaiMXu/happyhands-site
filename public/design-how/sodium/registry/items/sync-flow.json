@@ -1,0 +1,32 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "sync-flow",
+ "type": "registry:block",
+ "title": "Sync flow",
+ "description": "A nightly sync across the systems it touches as swimlanes, the rows it loaded by source, and Run sync.",
+ "author": "design.how",
+ "categories": [
+  "block",
+  "pipelines",
+  "analytics"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/sodium/bar-blocks.json",
+  "https://design.how/r/sodium/button.json",
+  "https://design.how/r/sodium/frame.json",
+  "https://design.how/r/sodium/swimlanes.json",
+  "https://design.how/r/sodium/theme.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/sodium.md",
+  "page": "https://design.how/systems/sodium"
+ },
+ "files": [
+  {
+   "path": "registry/sodium/blocks/sync-flow.tsx",
+   "content": "'use client';\n\nimport {BarBlocks, type BarBlock} from '@/components/sodium/ui/bar-blocks';\nimport {Button} from '@/components/sodium/ui/button';\nimport {Frame, FrameBody, FrameFooter, FrameHeader, FrameMeta, FrameTitle, FrameValue} from '@/components/sodium/ui/frame';\nimport {Swimlanes, type Swimlane, type SwimlaneStep} from '@/components/sodium/ui/swimlanes';\n\n// A block: a nightly sync across the systems it touches. One frame, headed by the sync's name and its start time: the steps in order as\n// swimlanes from the sources through the warehouse to the dashboard, the transform in yellow because it is the step\n// this team owns and every other step on the well, all under one --line edge with no lane rules, then the rows the last\n// sync loaded by source in a second body, which the frame rules off: Orders on the yellow wash, the rest on the well. The test's outcome is the word OK, not a green box: short, so it still shows in a third of\n// a phone. Run sync is the footer's one slab. Only the load and the test carry meta, to leave the names the room.\n// Wire `steps` and `sources` to your orchestrator.\n\nconst lanes: Swimlane[] = [{id: 'source', label: 'Sources'}, {id: 'warehouse', label: 'Warehouse'}, {id: 'dashboard', label: 'Dashboard'}];\nconst steps: SwimlaneStep[] = [\n  {label: 'Extract', from: 'source'},\n  {label: 'Load', from: 'source', to: 'warehouse', meta: '48,210 rows'},\n  {label: 'Transform', from: 'warehouse', tone: 'accent'},\n  {label: 'Test', from: 'warehouse', meta: 'OK'},\n  {label: 'Publish', from: 'dashboard'},\n];\nconst sources: BarBlock[] = [\n  {label: 'Orders', value: 1_240_000},\n  {label: 'Events', value: 612_000},\n  {label: 'Files', value: 287_000},\n];\n\n/** A sync's steps across systems and the rows it loaded by source, with Run sync. */\nexport function SyncFlow({className}: {className?: string}) {\n  return (\n    <Frame aria-label=\"Nightly sync\" className={className ?? 'w-full'}>\n      <FrameHeader>\n        <FrameTitle>nightly-sync</FrameTitle>\n        <FrameValue meta>02:00 UTC</FrameValue>\n      </FrameHeader>\n      <FrameBody>\n        <Swimlanes label=\"Nightly sync, sources to dashboard\" lanes={lanes} steps={steps}/>\n      </FrameBody>\n      <FrameBody>\n        <BarBlocks label=\"Rows by source, last sync\" data={sources} unit=\"count\" size=\"sm\"/>\n      </FrameBody>\n      <FrameFooter>\n        <FrameMeta>Last run 6h ago</FrameMeta>\n        <Button size=\"sm\">Run sync</Button>\n      </FrameFooter>\n    </Frame>\n  );\n}\n",
+   "type": "registry:block",
+   "target": "@components/sodium/blocks/sync-flow.tsx"
+  }
+ ]
+}

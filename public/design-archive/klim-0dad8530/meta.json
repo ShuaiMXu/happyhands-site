@@ -1,0 +1,97 @@
+{
+ "id": "0dad8530-9422-4d9e-8622-1f50ee4bc702",
+ "slug": "klim-0dad8530",
+ "name": "Klim",
+ "site_url": "https://klim.co.nz",
+ "lastmod": "2026-06-05T12:45:54.537Z",
+ "extracted_at": "2026-06-03T21:59:28.904Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "design",
+ "north_star": "typographic gallery in a black box — a curator's vitrina where each specimen hangs in its own dark band",
+ "fonts": [
+  "SOEHNE",
+  "Söhne",
+  "Söhne Ikon",
+  "SOEHNE_IKON"
+ ],
+ "colors": [
+  {
+   "hex": "#101c19",
+   "name": "Studio Charcoal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Gallery Black"
+  },
+  {
+   "hex": "#1c1c1c",
+   "name": "Charcoal Surface"
+  },
+  {
+   "hex": "#3c585f",
+   "name": "Slate Mist"
+  },
+  {
+   "hex": "#555555",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#646464",
+   "name": "Steel"
+  },
+  {
+   "hex": "#7f7f7f",
+   "name": "Fog"
+  },
+  {
+   "hex": "#939393",
+   "name": "Ash"
+  },
+  {
+   "hex": "#f9f9f9",
+   "name": "Marble"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone"
+  },
+  {
+   "hex": "#d33c03",
+   "name": "Flare Orange"
+  },
+  {
+   "hex": "#e90702",
+   "name": "Signal Red"
+  },
+  {
+   "hex": "#24a7f2",
+   "name": "Electric Blue"
+  },
+  {
+   "hex": "#93ffe6",
+   "name": "Mint Pulse"
+  },
+  {
+   "hex": "#ffff79",
+   "name": "Canary"
+  },
+  {
+   "hex": "#ffe6d9",
+   "name": "Blush"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2d2064a8-9e5e-462e-a57d-90dae6628e7a.mp4",
+  "poster": "https://happyhands.cc/design-archive/klim-0dad8530/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/klim-0dad8530/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/klim-0dad8530/thumbnail.jpg"
+}

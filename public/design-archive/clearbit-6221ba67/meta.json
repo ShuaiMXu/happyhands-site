@@ -1,0 +1,66 @@
+{
+ "id": "6221ba67-26e7-4657-91b7-efd77cbb1f12",
+ "slug": "clearbit-6221ba67",
+ "name": "Clearbit",
+ "site_url": "https://clearbit.com",
+ "lastmod": "2026-06-03T20:11:16.826Z",
+ "extracted_at": "2026-06-03T20:11:16.821Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "data observatory on cloud paper — a room-bright, near-acromatic canvas where midnight ink and a single blue current do all the work.",
+ "fonts": [
+  "InterVar"
+ ],
+ "colors": [
+  {
+   "hex": "#091135",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#0f77ff",
+   "name": "Electric Blue"
+  },
+  {
+   "hex": "#127ee3",
+   "name": "Cobalt Surface"
+  },
+  {
+   "hex": "#36394a",
+   "name": "Slate"
+  },
+  {
+   "hex": "#e1e9f0",
+   "name": "Frost Border"
+  },
+  {
+   "hex": "#b1bbcd",
+   "name": "Mist"
+  },
+  {
+   "hex": "#000000",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f5f3ff",
+   "name": "Lavender Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/683744d2-44bf-4230-890d-5ae2e49fcf0e.mp4",
+  "poster": "https://happyhands.cc/design-archive/clearbit-6221ba67/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/clearbit-6221ba67/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/clearbit-6221ba67/thumbnail.jpg"
+}

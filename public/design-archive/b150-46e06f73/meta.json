@@ -1,0 +1,67 @@
+{
+ "id": "46e06f73-c4d2-4ddc-ad8f-34cdfeacc839",
+ "slug": "b150-46e06f73",
+ "name": "B150",
+ "site_url": "https://b150.ai",
+ "lastmod": "2026-09-20T20:38:57.406Z",
+ "extracted_at": "2026-09-20T19:25:49.916Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Future workshop in film grain. Build bright ivory editorial sections around dark, human-scale product and creator imagery.",
+ "fonts": [
+  "Geist",
+  "Fragment Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#1f1915",
+   "name": "Charcoal Ink"
+  },
+  {
+   "hex": "#f2efe9",
+   "name": "Workshop Ivory"
+  },
+  {
+   "hex": "#fffdf6",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Studio White"
+  },
+  {
+   "hex": "#f7f5f1",
+   "name": "Soft Paper"
+  },
+  {
+   "hex": "#e6e3dd",
+   "name": "Drafting Line"
+  },
+  {
+   "hex": "#6b6661",
+   "name": "Quiet Graphite"
+  },
+  {
+   "hex": "#8d8883",
+   "name": "Faded Graphite"
+  },
+  {
+   "hex": "#fa725a",
+   "name": "Signal Coral"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/509cea1c-c6bb-4a59-bdc4-00db95bc7d83.mp4",
+  "poster": "https://happyhands.cc/design-archive/b150-46e06f73/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/b150-46e06f73/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/b150-46e06f73/thumbnail.jpg"
+}

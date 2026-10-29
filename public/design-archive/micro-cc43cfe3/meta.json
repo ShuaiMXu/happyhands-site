@@ -1,0 +1,104 @@
+{
+ "id": "cc43cfe3-195b-4081-b586-c42db054a466",
+ "slug": "micro-cc43cfe3",
+ "name": "Micro",
+ "site_url": "https://www.micro.so",
+ "lastmod": "2026-06-03T17:10:00.488Z",
+ "extracted_at": "2026-06-03T17:10:00.482Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "sunrise over a digital meadow — a calm horizon gradient holding a quiet, ink-on-paper workspace beneath it.",
+ "fonts": [
+  "perfectlyNineties",
+  "haffer",
+  "ui-monospace"
+ ],
+ "colors": [
+  {
+   "hex": "#221f1c",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#f5f5f5",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#797267",
+   "name": "Stone Gray"
+  },
+  {
+   "hex": "#8c8a88",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#27272a",
+   "name": "Slate Edge"
+  },
+  {
+   "hex": "#518bdb",
+   "name": "Azure Action"
+  },
+  {
+   "hex": "#36bab8",
+   "name": "Teal Pulse"
+  },
+  {
+   "hex": "#cbfbf1",
+   "name": "Mint Wash"
+  },
+  {
+   "hex": "#f8ebd8",
+   "name": "Peach Wash"
+  },
+  {
+   "hex": "#ede9fe",
+   "name": "Lavender Wash"
+  },
+  {
+   "hex": "#cff2ef",
+   "name": "Teal Mist"
+  },
+  {
+   "hex": "#ed6d68",
+   "name": "Coral Marker"
+  },
+  {
+   "hex": "#e5a057",
+   "name": "Amber Marker"
+  },
+  {
+   "hex": "#bf89cd",
+   "name": "Orchid Marker"
+  },
+  {
+   "hex": "#1a3a12",
+   "name": "Forest Edge"
+  },
+  {
+   "hex": "#3a6b2a",
+   "name": "Signal Green"
+  },
+  {
+   "hex": "#7efa55",
+   "name": "Live Lime"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3bb85780-d994-4cf6-a609-1eeaa4c5acfa.mp4",
+  "poster": "https://happyhands.cc/design-archive/micro-cc43cfe3/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/micro-cc43cfe3/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/micro-cc43cfe3/thumbnail.jpg"
+}

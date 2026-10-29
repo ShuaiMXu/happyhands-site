@@ -1,0 +1,65 @@
+{
+ "id": "c65db621-7faa-45f3-8e30-dc3ef9ffe660",
+ "slug": "subframe-c65db621",
+ "name": "Subframe",
+ "site_url": "https://www.subframe.com",
+ "lastmod": "2026-06-03T17:55:49.759Z",
+ "extracted_at": "2026-06-03T17:55:49.754Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "graphite blueprint on warm vellum. A designer's drafting paper where every mark is either graphite or erasure, never paint — depth comes from line weight and the occasional serif flourish.",
+ "fonts": [
+  "Inter",
+  "Instrument Serif",
+  "Fragment Mono",
+  "ui-monospace"
+ ],
+ "colors": [
+  {
+   "hex": "#fafafa",
+   "name": "Page Canvas"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Hairline Border"
+  },
+  {
+   "hex": "#ededed",
+   "name": "Card Surface"
+  },
+  {
+   "hex": "#dadada",
+   "name": "Divider Mid"
+  },
+  {
+   "hex": "#242424",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#171717",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#5c5c5c",
+   "name": "Pencil"
+  },
+  {
+   "hex": "#a3a3a3",
+   "name": "Faint Graphite"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/48331148-a40b-43f9-a5de-a2c1c8418cd0.mp4",
+  "poster": "https://happyhands.cc/design-archive/subframe-c65db621/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/subframe-c65db621/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/subframe-c65db621/thumbnail.jpg"
+}

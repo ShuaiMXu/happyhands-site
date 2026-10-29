@@ -1,0 +1,59 @@
+{
+ "id": "2b07d62c-d706-4c9d-a3fb-9c163da09f03",
+ "slug": "schema-2b07d62c",
+ "name": "Schema",
+ "site_url": "https://schema.figma.com",
+ "lastmod": "2026-06-05T12:10:34.402Z",
+ "extracted_at": "2026-06-03T21:47:01.755Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "design",
+ "north_star": "Ink-black keynote stage with confetti-bright murals",
+ "fonts": [
+  "Source Sans Pro",
+  "Figma Sans Display",
+  "Figma Sans Text",
+  "Figma Mono",
+  "Figma VF-normal-700-75",
+  "Figma VF-normal-400-100"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#0f0f0f",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#e2e2e2",
+   "name": "Ash"
+  },
+  {
+   "hex": "#c7f8fb",
+   "name": "Mint Wash"
+  },
+  {
+   "hex": "#24cb71",
+   "name": "Emerald Band"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/28fa5deb-024a-492c-bd36-65a061a04b27.mp4",
+  "poster": "https://happyhands.cc/design-archive/schema-2b07d62c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/schema-2b07d62c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/schema-2b07d62c/thumbnail.jpg"
+}

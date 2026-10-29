@@ -1,0 +1,83 @@
+{
+ "id": "09b5a06b-29dc-4d17-8722-d29bd93010c8",
+ "slug": "riverside-09b5a06b",
+ "name": "Riverside",
+ "site_url": "https://riverside.fm",
+ "lastmod": "2026-06-03T21:55:06.152Z",
+ "extracted_at": "2026-06-03T21:55:06.145Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Studio darkroom behind frosted glass",
+ "fonts": [
+  "Inter",
+  "IBM Plex Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#9671ff",
+   "name": "Studio Violet"
+  },
+  {
+   "hex": "#f2eeff",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#eae3ff",
+   "name": "Periwinkle Tint"
+  },
+  {
+   "hex": "#ad98fa",
+   "name": "Iris Light"
+  },
+  {
+   "hex": "#1d1d1d",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#f6f6f6",
+   "name": "Fog"
+  },
+  {
+   "hex": "#383838",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#d2d2d2",
+   "name": "Ash"
+  },
+  {
+   "hex": "#b4b4b4",
+   "name": "Silver"
+  },
+  {
+   "hex": "#969696",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#111111",
+   "name": "Midnight"
+  },
+  {
+   "hex": "#000000",
+   "name": "Onyx"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e87790c7-cb6c-4368-8100-bd0de707a64e.mp4",
+  "poster": "https://happyhands.cc/design-archive/riverside-09b5a06b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/riverside-09b5a06b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/riverside-09b5a06b/thumbnail.jpg"
+}

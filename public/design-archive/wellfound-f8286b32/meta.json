@@ -1,0 +1,72 @@
+{
+ "id": "f8286b32-cc41-43e3-8b43-067333bb2e32",
+ "slug": "wellfound-f8286b32",
+ "name": "Wellfound",
+ "site_url": "https://wellfound.com",
+ "lastmod": "2026-06-03T20:55:50.847Z",
+ "extracted_at": "2026-06-03T20:55:50.841Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "constellation of opportunity tags on editorial white",
+ "fonts": [
+  "Graphik",
+  "Aeonik Fono",
+  "Aeonikfono"
+ ],
+ "colors": [
+  {
+   "hex": "#051316",
+   "name": "Wellfound Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#fff4f6",
+   "name": "Blush Mist"
+  },
+  {
+   "hex": "#d8d8d8",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#333333",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#222222",
+   "name": "Slate Depth"
+  },
+  {
+   "hex": "#ec2e3a",
+   "name": "Signal Red"
+  },
+  {
+   "hex": "#210d25",
+   "name": "Aubergine Depth"
+  },
+  {
+   "hex": "#541142",
+   "name": "Plum Shadow"
+  },
+  {
+   "hex": "#e32e19",
+   "name": "Ember Red"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/75d96cf7-b5e8-4c42-aec1-cf8dae92554f.mp4",
+  "poster": "https://happyhands.cc/design-archive/wellfound-f8286b32/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/wellfound-f8286b32/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/wellfound-f8286b32/thumbnail.jpg"
+}

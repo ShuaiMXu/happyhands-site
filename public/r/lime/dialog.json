@@ -1,0 +1,34 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "dialog",
+  "type": "registry:ui",
+  "title": "Dialog",
+  "description": "A focused task over a scrim, such as sending money.",
+  "author": "design.how",
+  "categories": [
+    "overlays"
+  ],
+  "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/button.json",
+    "https://happyhands.cc/r/lime/icon.json",
+    "https://happyhands.cc/r/lime/portal.json",
+    "https://happyhands.cc/r/lime/theme.json",
+    "https://happyhands.cc/r/lime/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/lime/components/dialog.md",
+    "page": "https://happyhands.cc/design-how/lime/components/dialog.md"
+  },
+  "files": [
+    {
+      "path": "registry/lime/ui/dialog.tsx",
+      "content": "'use client';\n\nimport {Dialog as DialogPrimitive} from '@base-ui/react/dialog';\nimport {cva, type VariantProps} from 'class-variance-authority';\nimport {Close, Icon} from '@/components/lime/icon';\nimport {useLimePortal} from '@/lib/lime/portal';\nimport {cn, mergeClass} from '@/lib/lime/utils';\nimport {Button} from '@/components/lime/ui/button';\n\n// A focused task that takes over the screen: rename a goal, pick a plan, send money. The page stays\n// behind a scrim and cannot be reached until the dialog closes. Escape and the close button dismiss it,\n// and focus returns to the trigger. For a decision that must not be dismissed by accident use AlertDialog;\n// for a panel that keeps the page visible use Sheet.\n// The title is required: it names the dialog for screen readers. Buttons name the action (\"Save name\").\n\nconst backdropClass = cn(\n  'fixed inset-0 z-(--z-dialog) bg-scrim transition-opacity duration-(--dur-base) ease-(--ease-out)',\n  'data-starting-style:opacity-0 data-ending-style:opacity-0 data-ending-style:duration-(--dur-fast)',\n);\n\nconst dialogVariants = cva(\n  [\n    'fixed start-1/2 top-1/2 z-(--z-dialog) flex max-h-[calc(100dvh-(--spacing(8)))] w-[calc(100vw-(--spacing(8)))] -translate-x-1/2 -translate-y-1/2 flex-col gap-4 overflow-y-auto rounded-sheet bg-raised p-6 text-fg shadow-overlay outline-none',\n    'rtl:translate-x-1/2',\n    'transition-[opacity,scale] duration-(--dur-slow) ease-(--ease-out)',\n    'data-starting-style:scale-(--scale-enter) data-starting-style:opacity-0 data-ending-style:scale-(--scale-enter) data-ending-style:opacity-0 data-ending-style:duration-(--dur-fast) data-ending-style:ease-(--ease-in)',\n  ],\n  {\n    variants: {\n      size: {\n        sm: 'max-w-overlay-sm',\n        md: 'max-w-overlay',\n        lg: 'max-w-overlay-lg',\n      },\n    },\n    defaultVariants: {size: 'md'},\n  },\n);\n\nfunction Dialog(props: DialogPrimitive.Root.Props) {\n  return <DialogPrimitive.Root data-slot=\"dialog\" {...props}/>;\n}\n\nfunction DialogTrigger(props: DialogPrimitive.Trigger.Props) {\n  return <DialogPrimitive.Trigger data-slot=\"dialog-trigger\" {...props}/>;\n}\n\ntype DialogContentProps = DialogPrimitive.Popup.Props & VariantProps<typeof dialogVariants> & {\n  /** The corner close button. On by default; turn it off when the footer already has a Close action. */\n  showClose?: boolean;\n};\n\nfunction DialogContent({className, size, showClose = true, children, ...props}: DialogContentProps) {\n  const container = useLimePortal();\n  return (\n    <DialogPrimitive.Portal container={container}>\n      <DialogPrimitive.Backdrop data-slot=\"dialog-backdrop\" className={backdropClass}/>\n      <DialogPrimitive.Popup data-slot=\"dialog-content\" className={mergeClass(dialogVariants({size}), className)} {...props}>\n        {children}\n        {showClose && (\n          <DialogPrimitive.Close render={<Button variant=\"ghost\" size=\"icon-sm\" aria-label=\"Close\" className=\"absolute end-3 top-3\"/>}>\n            <Icon icon={Close} size={20}/>\n          </DialogPrimitive.Close>\n        )}\n      </DialogPrimitive.Popup>\n    </DialogPrimitive.Portal>\n  );\n}\n\nfunction DialogHeader({className, ...props}: React.ComponentProps<'div'>) {\n  return <div data-slot=\"dialog-header\" className={cn('flex flex-col gap-1.5 pe-8', className)} {...props}/>;\n}\n\nfunction DialogFooter({className, ...props}: React.ComponentProps<'div'>) {\n  return <div data-slot=\"dialog-footer\" className={cn('flex flex-col-reverse gap-2 sm:flex-row sm:justify-end', className)} {...props}/>;\n}\n\nfunction DialogTitle({className, ...props}: DialogPrimitive.Title.Props) {\n  return <DialogPrimitive.Title data-slot=\"dialog-title\" className={mergeClass('title-overlay', className)} {...props}/>;\n}\n\nfunction DialogDescription({className, ...props}: DialogPrimitive.Description.Props) {\n  return <DialogPrimitive.Description data-slot=\"dialog-description\" className={mergeClass('text-sm text-fg-2', className)} {...props}/>;\n}\n\nfunction DialogClose(props: DialogPrimitive.Close.Props) {\n  return <DialogPrimitive.Close data-slot=\"dialog-close\" {...props}/>;\n}\n\nexport {Dialog, DialogTrigger, DialogContent, DialogHeader, DialogFooter, DialogTitle, DialogDescription, DialogClose, backdropClass, dialogVariants};\n",
+      "type": "registry:ui",
+      "target": "@components/lime/ui/dialog.tsx"
+    }
+  ]
+}

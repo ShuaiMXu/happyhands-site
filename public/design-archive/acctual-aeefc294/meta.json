@@ -1,0 +1,106 @@
+{
+ "id": "aeefc294-a8f7-443d-b76a-538dddc29afe",
+ "slug": "acctual-aeefc294",
+ "name": "Acctual",
+ "site_url": "https://acctual.com",
+ "lastmod": "2026-07-03T10:38:37.925Z",
+ "extracted_at": "2026-07-03T03:15:23.064Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "Paper invoice on frosted glass",
+ "fonts": [
+  "sans-serif",
+  "Open Runde",
+  "Caveat",
+  "SF Pro Text",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#1e1e1e",
+   "name": "Ink"
+  },
+  {
+   "hex": "#0f0f0f",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#0d111b",
+   "name": "Midnight"
+  },
+  {
+   "hex": "#666666",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#8d8d8d",
+   "name": "Fog"
+  },
+  {
+   "hex": "#999999",
+   "name": "Ash"
+  },
+  {
+   "hex": "#ccd1da",
+   "name": "Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f7fafc",
+   "name": "Snow"
+  },
+  {
+   "hex": "#afb0b1",
+   "name": "Concrete"
+  },
+  {
+   "hex": "#0098f2",
+   "name": "Electric Blue"
+  },
+  {
+   "hex": "#6c56fc",
+   "name": "Iris"
+  },
+  {
+   "hex": "#f200ca",
+   "name": "Magenta"
+  },
+  {
+   "hex": "#5d9c06",
+   "name": "Leaf"
+  },
+  {
+   "hex": "#ff6363",
+   "name": "Coral"
+  },
+  {
+   "hex": "#cfeafa",
+   "name": "Ice"
+  },
+  {
+   "hex": "#e1e0fc",
+   "name": "Lavender"
+  },
+  {
+   "hex": "#f6d2f4",
+   "name": "Blush"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3d5db7d8-b708-47d7-bfa4-42ad3044ea63.mp4",
+  "poster": "https://happyhands.cc/design-archive/acctual-aeefc294/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/acctual-aeefc294/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/acctual-aeefc294/thumbnail.jpg"
+}

@@ -1,0 +1,96 @@
+{
+ "id": "03dcd158-bc4d-447b-aaf2-8e522671a109",
+ "slug": "evervault-03dcd158",
+ "name": "Evervault",
+ "site_url": "https://evervault.com",
+ "lastmod": "2026-06-03T20:48:08.226Z",
+ "extracted_at": "2026-06-03T20:48:08.220Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "Encrypted vault behind ultraviolet light — a dark crypt where one violet beam reveals everything.",
+ "fonts": [
+  "Roobert",
+  "Inter",
+  "Roboto Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#010314",
+   "name": "Void Canvas"
+  },
+  {
+   "hex": "#171825",
+   "name": "Obsidian Surface"
+  },
+  {
+   "hex": "#2a2b3a",
+   "name": "Slate Layer"
+  },
+  {
+   "hex": "#343543",
+   "name": "Carbon Border"
+  },
+  {
+   "hex": "#5e6077",
+   "name": "Ash Text"
+  },
+  {
+   "hex": "#9fa2b9",
+   "name": "Fog Text"
+  },
+  {
+   "hex": "#babcd2",
+   "name": "Mist Text"
+  },
+  {
+   "hex": "#dfe1f4",
+   "name": "Lunar White"
+  },
+  {
+   "hex": "#ececfb",
+   "name": "Frost White"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#b88cff",
+   "name": "Ultraviolet Key"
+  },
+  {
+   "hex": "#6633ee",
+   "name": "Deep Iris"
+  },
+  {
+   "hex": "#8e64ff",
+   "name": "Amethyst Glow"
+  },
+  {
+   "hex": "#2e2a4c",
+   "name": "Shadow Iris"
+  },
+  {
+   "hex": "#1f1d3a",
+   "name": "Plum Depth"
+  },
+  {
+   "hex": "#f92672",
+   "name": "Code Rose"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5706a380-5b23-4144-bcad-9a3a9d466e91.mp4",
+  "poster": "https://happyhands.cc/design-archive/evervault-03dcd158/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/evervault-03dcd158/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/evervault-03dcd158/thumbnail.jpg"
+}

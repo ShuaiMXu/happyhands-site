@@ -1,0 +1,120 @@
+{
+ "id": "f4636c5b-1342-48b2-b9b1-a82e2182440e",
+ "slug": "depot-f4636c5b",
+ "name": "Depot",
+ "site_url": "https://depot.dev",
+ "lastmod": "2026-06-03T19:57:10.442Z",
+ "extracted_at": "2026-06-03T19:57:10.436Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "Dark server-rack terminal. A near-black developer console where one green LED signals action and the rest of the UI whispers in graphite.",
+ "fonts": [
+  "Red Hat Display Variable",
+  "Red Hat Text Variable",
+  "Red Hat Mono Variable"
+ ],
+ "colors": [
+  {
+   "hex": "#71d083",
+   "name": "Signal Green"
+  },
+  {
+   "hex": "#366740",
+   "name": "LED Green"
+  },
+  {
+   "hex": "#2d5736",
+   "name": "Moss Border"
+  },
+  {
+   "hex": "#1d3a24",
+   "name": "Forest Wash"
+  },
+  {
+   "hex": "#1b2a1e",
+   "name": "Fern Ground"
+  },
+  {
+   "hex": "#70b8ff",
+   "name": "Link Blue"
+  },
+  {
+   "hex": "#baa7ff",
+   "name": "Lilac Accent"
+  },
+  {
+   "hex": "#291f43",
+   "name": "Plum Edge"
+  },
+  {
+   "hex": "#473876",
+   "name": "Iris Border"
+  },
+  {
+   "hex": "#e2ddfe",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#04040b",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#121113",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#1a191b",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#232225",
+   "name": "Slate"
+  },
+  {
+   "hex": "#2b292d",
+   "name": "Basalt"
+  },
+  {
+   "hex": "#323035",
+   "name": "Iron"
+  },
+  {
+   "hex": "#3c393f",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#49474e",
+   "name": "Steel"
+  },
+  {
+   "hex": "#7c7a85",
+   "name": "Fog"
+  },
+  {
+   "hex": "#b5b2bc",
+   "name": "Silver"
+  },
+  {
+   "hex": "#eeeef0",
+   "name": "Ash"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Chalk"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/386dba11-252e-4322-9a76-0ee58cdaf10d.mp4",
+  "poster": "https://happyhands.cc/design-archive/depot-f4636c5b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/depot-f4636c5b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/depot-f4636c5b/thumbnail.jpg"
+}

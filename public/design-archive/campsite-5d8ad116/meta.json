@@ -1,0 +1,84 @@
+{
+ "id": "5d8ad116-b3d8-4890-a969-5b856b35c678",
+ "slug": "campsite-5d8ad116",
+ "name": "Campsite",
+ "site_url": "https://www.campsite.com",
+ "lastmod": "2026-06-05T06:09:03.124Z",
+ "extracted_at": "2026-06-03T19:00:09.708Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Warm paper workspace — quiet, cream, and product-forward",
+ "fonts": [
+  "Inter",
+  "ui-monospace",
+  "emoji"
+ ],
+ "colors": [
+  {
+   "hex": "#fffdf9",
+   "name": "Warm Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#f5f5f5",
+   "name": "Ash Mist"
+  },
+  {
+   "hex": "#f0f0f0",
+   "name": "Soft Fog"
+  },
+  {
+   "hex": "#171717",
+   "name": "Ink"
+  },
+  {
+   "hex": "#525252",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#737373",
+   "name": "Steel"
+  },
+  {
+   "hex": "#a3a3a3",
+   "name": "Silver"
+  },
+  {
+   "hex": "#1e1e1e",
+   "name": "Charcoal Card"
+  },
+  {
+   "hex": "#22c55e",
+   "name": "Resolve Green"
+  },
+  {
+   "hex": "#fef3c7",
+   "name": "Highlight Wash"
+  },
+  {
+   "hex": "#451a03",
+   "name": "Sienna Brand"
+  },
+  {
+   "hex": "#ef4444",
+   "name": "Alert Red"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/9bda2fdf-0b70-4f35-bd10-91fb65bcbc25.mp4",
+  "poster": "https://happyhands.cc/design-archive/campsite-5d8ad116/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/campsite-5d8ad116/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/campsite-5d8ad116/thumbnail.jpg"
+}

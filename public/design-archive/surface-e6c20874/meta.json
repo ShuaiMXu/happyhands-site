@@ -1,0 +1,38 @@
+{
+ "id": "e6c20874-c6f9-4c31-b6b2-2cb27cbf15f2",
+ "slug": "surface-e6c20874",
+ "name": "Surface",
+ "site_url": "https://surface.arcticvolume.com",
+ "lastmod": "2026-06-03T20:02:30.252Z",
+ "extracted_at": "2026-06-03T20:02:30.249Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "editorial gallery on bone linen — a single 230px word anchors scattered photography against pure off-white, with everything else reduced to a whisper of black type.",
+ "fonts": [
+  "Munken Sans Web"
+ ],
+ "colors": [
+  {
+   "hex": "#f7f7f7",
+   "name": "Bone"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pressed Ink"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6d77198b-053a-4118-8882-f22c884ec35a.mp4",
+  "poster": "https://happyhands.cc/design-archive/surface-e6c20874/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/surface-e6c20874/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/surface-e6c20874/thumbnail.jpg"
+}

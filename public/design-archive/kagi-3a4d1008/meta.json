@@ -1,0 +1,88 @@
+{
+ "id": "3a4d1008-0bd1-4ebb-9efe-0c146c45a99b",
+ "slug": "kagi-3a4d1008",
+ "name": "Kagi",
+ "site_url": "https://kagi.com",
+ "lastmod": "2026-09-24T17:40:25.381Z",
+ "extracted_at": "2026-09-24T17:40:25.239Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Private reading room. Build open white space around decisive graphite text, with small violet cues and warm pastel product surfaces interrupting the calm.",
+ "fonts": [
+  "Lufga",
+  "system-ui",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#18181a",
+   "name": "Graphite 1000"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#454549",
+   "name": "Graphite 800"
+  },
+  {
+   "hex": "#2f2f31",
+   "name": "Graphite 900"
+  },
+  {
+   "hex": "#e6e6e8",
+   "name": "Graphite 100"
+  },
+  {
+   "hex": "#cfcfd1",
+   "name": "Graphite 200"
+  },
+  {
+   "hex": "#b7b7bb",
+   "name": "Graphite 300"
+  },
+  {
+   "hex": "#707077",
+   "name": "Graphite 600"
+  },
+  {
+   "hex": "#efecff",
+   "name": "Chrome Lavender"
+  },
+  {
+   "hex": "#d6e3e8",
+   "name": "Mist"
+  },
+  {
+   "hex": "#6c5edc",
+   "name": "Kagi Violet"
+  },
+  {
+   "hex": "#c9c1ff",
+   "name": "Lavender Panel"
+  },
+  {
+   "hex": "#ffb319",
+   "name": "Sunlit Gold"
+  },
+  {
+   "hex": "#ffe1a4",
+   "name": "Soft Apricot"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a83ba8e4-1116-46bd-97e9-6a19022c6ada.mp4",
+  "poster": "https://happyhands.cc/design-archive/kagi-3a4d1008/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/kagi-3a4d1008/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/kagi-3a4d1008/thumbnail.jpg"
+}

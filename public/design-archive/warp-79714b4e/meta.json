@@ -1,0 +1,88 @@
+{
+ "id": "79714b4e-c89a-44b3-8da4-931daa9a466f",
+ "slug": "warp-79714b4e",
+ "name": "Warp",
+ "site_url": "https://warp.dev/code",
+ "lastmod": "2026-06-05T02:50:29.401Z",
+ "extracted_at": "2026-06-03T17:29:14.310Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "Moonlit terminal behind amber glass",
+ "fonts": [
+  "sans-serif",
+  "Matter",
+  "Geist Mono",
+  "Matter Mono",
+  "Inter",
+  "Matter Regular",
+  "Matter SQ Regular"
+ ],
+ "colors": [
+  {
+   "hex": "#faf9f6",
+   "name": "Warm Off-White"
+  },
+  {
+   "hex": "#868684",
+   "name": "Bone Gray"
+  },
+  {
+   "hex": "#b4b4b2",
+   "name": "Pale Stone"
+  },
+  {
+   "hex": "#e3e2e0",
+   "name": "Faint Linen"
+  },
+  {
+   "hex": "#2f2f2f",
+   "name": "Smoke Charcoal"
+  },
+  {
+   "hex": "#383838",
+   "name": "Iron Veil"
+  },
+  {
+   "hex": "#40403f",
+   "name": "Slate Hearth"
+  },
+  {
+   "hex": "#121212",
+   "name": "Deep Ember"
+  },
+  {
+   "hex": "#1e1e1d",
+   "name": "Smoked Onyx"
+  },
+  {
+   "hex": "#000000",
+   "name": "Absolute"
+  },
+  {
+   "hex": "#080808",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#bd9f65",
+   "name": "Gold Leaf"
+  },
+  {
+   "hex": "#6f839f",
+   "name": "Muted Cobalt"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a6497b29-cddf-477d-9af5-b1ad45e9ffb4.mp4",
+  "poster": "https://happyhands.cc/design-archive/warp-79714b4e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/warp-79714b4e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/warp-79714b4e/thumbnail.jpg"
+}

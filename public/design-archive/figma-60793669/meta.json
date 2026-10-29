@@ -1,0 +1,55 @@
+{
+ "id": "60793669-28e2-41bd-bf9d-972151630f7c",
+ "slug": "figma-60793669",
+ "name": "Figma",
+ "site_url": "https://figma.com",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-28T22:02:49.564Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "monochrome chassis for chromatic chaos",
+ "fonts": [
+  "figmaSans",
+  "figmaMono"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Absolute Canvas"
+  },
+  {
+   "hex": "#000000",
+   "name": "Structural Ink"
+  },
+  {
+   "hex": "#595959",
+   "name": "Graphite Metadata"
+  },
+  {
+   "hex": "#e2e2e2",
+   "name": "Boundary Frame"
+  },
+  {
+   "hex": "#4d49fc",
+   "name": "Context Action Violet"
+  },
+  {
+   "hex": "#33dfdf",
+   "name": "Angular Teal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2b23632e-7250-44ea-a297-91124f55c549.mp4",
+  "poster": "https://happyhands.cc/design-archive/figma-60793669/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/figma-60793669/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/figma-60793669/thumbnail.jpg"
+}

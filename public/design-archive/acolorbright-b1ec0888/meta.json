@@ -1,0 +1,63 @@
+{
+ "id": "b1ec0888-1dbe-439c-bccd-ba2c39effb70",
+ "slug": "acolorbright-b1ec0888",
+ "name": "Acolorbright",
+ "site_url": "https://acolorbright.com",
+ "lastmod": "2026-06-03T19:50:32.832Z",
+ "extracted_at": "2026-06-03T19:50:32.830Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "White gallery walls around black-ink editorial type",
+ "fonts": [
+  "RiformaLLWeb",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#1a1a1a",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#262626",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#666666",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#999999",
+   "name": "Ash"
+  },
+  {
+   "hex": "#e6e6e6",
+   "name": "Fog"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/214804af-19c7-4e2d-af75-3970a84dcdb7.mp4",
+  "poster": "https://happyhands.cc/design-archive/acolorbright-b1ec0888/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/acolorbright-b1ec0888/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/acolorbright-b1ec0888/thumbnail.jpg"
+}

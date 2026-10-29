@@ -1,0 +1,89 @@
+{
+ "id": "78558b01-c101-4b8e-8401-db91269b1150",
+ "slug": "checkly-78558b01",
+ "name": "Checkly",
+ "site_url": "https://www.checklyhq.com",
+ "lastmod": "2026-06-03T15:52:38.934Z",
+ "extracted_at": "2026-06-03T15:52:38.926Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "Mission control at deep orbit",
+ "fonts": [
+  "Inter",
+  "JetBrains Mono",
+  "ui-monospace",
+  "Consolas"
+ ],
+ "colors": [
+  {
+   "hex": "#041734",
+   "name": "Void Navy"
+  },
+  {
+   "hex": "#0075ff",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#008ef0",
+   "name": "Probe Cyan"
+  },
+  {
+   "hex": "#002652",
+   "name": "Hub Navy"
+  },
+  {
+   "hex": "#0f172a",
+   "name": "Orbit Slate"
+  },
+  {
+   "hex": "#1a1f36",
+   "name": "Deck Charcoal"
+  },
+  {
+   "hex": "#1f2937",
+   "name": "Deep Hull"
+  },
+  {
+   "hex": "#374151",
+   "name": "Steel Edge"
+  },
+  {
+   "hex": "#445458",
+   "name": "Console Gray"
+  },
+  {
+   "hex": "#64748b",
+   "name": "Slate Mute"
+  },
+  {
+   "hex": "#a7babe",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Halo"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#4ade80",
+   "name": "Status Green"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/42a9279a-9323-4b97-ac36-39332af0fd6e.mp4",
+  "poster": "https://happyhands.cc/design-archive/checkly-78558b01/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/checkly-78558b01/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/checkly-78558b01/thumbnail.jpg"
+}

@@ -1,0 +1,87 @@
+{
+ "id": "5fd3b3b4-02ab-456a-87aa-e4395636b671",
+ "slug": "figma-5fd3b3b4",
+ "name": "Figma",
+ "site_url": "https://www.figma.com",
+ "lastmod": "2026-06-03T21:57:53.748Z",
+ "extracted_at": "2026-06-03T21:57:53.742Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "white gallery wall with a single indigo spotlight.",
+ "fonts": [
+  "figmaSans",
+  "figmaMono"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#e2e2e2",
+   "name": "Soft Mist"
+  },
+  {
+   "hex": "#595959",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#4d49fc",
+   "name": "Electric Indigo"
+  },
+  {
+   "hex": "#00b6ff",
+   "name": "Figma Cyan"
+  },
+  {
+   "hex": "#24cb71",
+   "name": "Figma Green"
+  },
+  {
+   "hex": "#ff7237",
+   "name": "Figma Orange"
+  },
+  {
+   "hex": "#e4ff97",
+   "name": "Lime Wash"
+  },
+  {
+   "hex": "#c4baff",
+   "name": "Lilac"
+  },
+  {
+   "hex": "#ffc9c1",
+   "name": "Blush"
+  },
+  {
+   "hex": "#c7f8fb",
+   "name": "Aqua Mist"
+  },
+  {
+   "hex": "#33dfdf",
+   "name": "Earworm Teal"
+  },
+  {
+   "hex": "#b98e01",
+   "name": "Mustard"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2b23632e-7250-44ea-a297-91124f55c549.mp4",
+  "poster": "https://happyhands.cc/design-archive/figma-5fd3b3b4/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/figma-5fd3b3b4/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/figma-5fd3b3b4/thumbnail.jpg"
+}

@@ -1,0 +1,83 @@
+{
+ "id": "24d3b281-04a6-4cc7-8a74-634b08472291",
+ "slug": "opennote-24d3b281",
+ "name": "Opennote",
+ "site_url": "https://www.opennote.com",
+ "lastmod": "2026-06-05T02:12:16.532Z",
+ "extracted_at": "2026-06-03T17:19:14.702Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "warm leather journal on sunlit paper — the interface feels hand-bound, not engineered",
+ "fonts": [
+  "IowanOld",
+  "SuisseIntl"
+ ],
+ "colors": [
+  {
+   "hex": "#fffdf8",
+   "name": "Ivory Page"
+  },
+  {
+   "hex": "#0a0a0a",
+   "name": "Ink Charcoal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pressed Black"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Graphite Rule"
+  },
+  {
+   "hex": "#8c8c8c",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#d1d1d1",
+   "name": "Ash Border"
+  },
+  {
+   "hex": "#474747",
+   "name": "Slate Body"
+  },
+  {
+   "hex": "#f9f9f9",
+   "name": "Soft Halo"
+  },
+  {
+   "hex": "#512906",
+   "name": "Sepia"
+  },
+  {
+   "hex": "#242d64",
+   "name": "Ink Violet"
+  },
+  {
+   "hex": "#0c3b1a",
+   "name": "Forest Ink"
+  },
+  {
+   "hex": "#5e0831",
+   "name": "Oxblood"
+  },
+  {
+   "hex": "#ffc934",
+   "name": "Margin Yellow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5cda23e7-af43-48b5-b373-3e83aebf7979.mp4",
+  "poster": "https://happyhands.cc/design-archive/opennote-24d3b281/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/opennote-24d3b281/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/opennote-24d3b281/thumbnail.jpg"
+}

@@ -1,0 +1,93 @@
+{
+ "id": "337ade6a-4bae-49ba-b4aa-8994ac805a81",
+ "slug": "relate-337ade6a",
+ "name": "Relate",
+ "site_url": "https://www.relate.so",
+ "lastmod": "2026-07-03T11:02:19.733Z",
+ "extracted_at": "2026-07-03T03:33:05.281Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "cool dawn over product canvas",
+ "fonts": [
+  "sans-serif",
+  "Inter",
+  "Pretendard",
+  "Roboto Mono",
+  "Font Awesome 6 Pro Light",
+  "Font Awesome 6 Pro Solid",
+  "Font Awesome 6 Pro Regular",
+  "Font Awesome 6 Brands Regular"
+ ],
+ "colors": [
+  {
+   "hex": "#fcfcfc",
+   "name": "Snow Canvas"
+  },
+  {
+   "hex": "#f0f4fe",
+   "name": "Lavender Wash"
+  },
+  {
+   "hex": "#020520",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#14141e",
+   "name": "Graphite Body"
+  },
+  {
+   "hex": "#374151",
+   "name": "Slate Caption"
+  },
+  {
+   "hex": "#6b7280",
+   "name": "Ash Helper"
+  },
+  {
+   "hex": "#e2e8f0",
+   "name": "Stone Divider"
+  },
+  {
+   "hex": "#f1f5f9",
+   "name": "Fog Surface"
+  },
+  {
+   "hex": "#145aff",
+   "name": "Royal Signal"
+  },
+  {
+   "hex": "#3b82f6",
+   "name": "Cobalt Glow"
+  },
+  {
+   "hex": "#16ca2e",
+   "name": "Mint Win"
+  },
+  {
+   "hex": "#f26052",
+   "name": "Coral Lost"
+  },
+  {
+   "hex": "#ffa64d",
+   "name": "Amber Pending"
+  },
+  {
+   "hex": "#0099ff",
+   "name": "Azure Focus"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d161ccf8-08e5-4714-ab21-61cce69e8842.mp4",
+  "poster": "https://happyhands.cc/design-archive/relate-337ade6a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/relate-337ade6a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/relate-337ade6a/thumbnail.jpg"
+}

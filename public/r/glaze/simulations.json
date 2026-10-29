@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "simulations",
+  "type": "registry:block",
+  "title": "Simulations",
+  "description": "Simulated customers run against an agent: the pass count, the last 30 runs as a status strip and each scenario with its status, failures first.",
+  "author": "design.how",
+  "categories": [
+    "block",
+    "ai",
+    "evals"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/button.json",
+    "https://happyhands.cc/r/glaze/card.json",
+    "https://happyhands.cc/r/glaze/chart.json",
+    "https://happyhands.cc/r/glaze/item.json",
+    "https://happyhands.cc/r/glaze/status.json",
+    "https://happyhands.cc/r/glaze/theme.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/glaze/index.md",
+    "page": "https://happyhands.cc/design-how/glaze/index.md"
+  },
+  "files": [
+    {
+      "path": "registry/glaze/blocks/simulations.tsx",
+      "content": "'use client';\n\nimport {Button} from '@/components/glaze/ui/button';\nimport {Card, CardContent, CardDescription, CardFooter, CardHeader, CardMeta, CardTitle} from '@/components/glaze/ui/card';\nimport {Chart, type StatusBarBucket} from '@/components/glaze/ui/chart';\nimport {Item, ItemContent, ItemDescription, ItemGroup, ItemTitle} from '@/components/glaze/ui/item';\nimport {Status, type StatusValue} from '@/components/glaze/ui/status';\n\n// A block: simulated customers run against an agent before it ships. The pass count, the last 30 runs as a status\n// strip (a failing run is the only colour), then four scenarios as rows, each ending in its Status word and glyph:\n// the failure first, with what went wrong, then the one still running. Run all leads the footer; Open failures sits\n// beside it, flat. Wire `runs` and `scenarios` to your eval runner.\n\nconst runs: StatusBarBucket[] = Array.from({length: 30}, (_, i) => {\n  const failed = i === 6 || i === 17 ? 3 : i === 27 ? 2 : 0;\n  return {label: `Run ${i + 1}`, count: 50, status: failed ? 'fail' : 'ok', issues: failed || undefined};\n});\n\nconst scenarios: {name: string; note?: string; status: StatusValue}[] = [\n  {name: 'Refund over the limit', note: 'Sent $640 without approval', status: 'fail'},\n  {name: 'Order never arrived', status: 'running'},\n  {name: 'Exchange for a larger size', status: 'ok'},\n  {name: 'Customer asks for a person', status: 'ok'},\n];\n\n/** The pass count, the last 30 runs and four scenarios, with Open failures and Run all. */\nexport function Simulations({className}: {className?: string}) {\n  return (\n    <Card aria-label=\"Simulations\" className={className ?? 'w-full max-w-md'}>\n      <CardHeader>\n        <CardTitle>Simulations</CardTitle>\n        <CardDescription>Returns agent, draft 3</CardDescription>\n      </CardHeader>\n      <CardContent>\n        <p className=\"flex items-baseline gap-2\">\n          <span className=\"type-heading data\">48 of 50</span>\n          <span className=\"type-body-sm text-text-2\">passed</span>\n        </p>\n        <Chart type=\"status\" frame=\"none\" label=\"Last 30 runs\" data={runs} noun={['customer', 'customers']} range={['30 runs ago', 'Now']}/>\n      </CardContent>\n      <CardContent flush>\n        <ItemGroup variant=\"plain\" aria-label=\"Scenarios\">\n          {scenarios.map(s => <Item key={s.name}>\n            <ItemContent>\n              <ItemTitle>{s.name}</ItemTitle>\n              {s.note && <ItemDescription>{s.note}</ItemDescription>}\n            </ItemContent>\n            <Status status={s.status} size=\"sm\" className=\"shrink-0\"/>\n          </Item>)}\n        </ItemGroup>\n      </CardContent>\n      <CardFooter>\n        <CardMeta>4m ago</CardMeta>\n        <Button size=\"sm\" variant=\"secondary\">Open failures</Button>\n        <Button size=\"sm\">Run all</Button>\n      </CardFooter>\n    </Card>\n  );\n}\n",
+      "type": "registry:block",
+      "target": "@components/glaze/blocks/simulations.tsx"
+    }
+  ]
+}

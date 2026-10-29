@@ -1,0 +1,69 @@
+{
+ "id": "3d32f841-490d-4e5f-aba0-43c9d0c13130",
+ "slug": "eat-real-food-3d32f841",
+ "name": "Eat Real Food",
+ "site_url": "https://realfood.gov",
+ "lastmod": "2026-06-05T12:33:31.642Z",
+ "extracted_at": "2026-06-03T21:50:04.420Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "government health brief on cream parchment",
+ "fonts": [
+  "Die Grotesk D",
+  "Die Grotesk B",
+  "Die Grotesk A",
+  "Geist Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#110000",
+   "name": "Press Ink"
+  },
+  {
+   "hex": "#fdfbee",
+   "name": "Aged Parchment"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Newsprint White"
+  },
+  {
+   "hex": "#f3f0d6",
+   "name": "Wheat Field"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Fog"
+  },
+  {
+   "hex": "#8d7d7d",
+   "name": "Dusty Brick"
+  },
+  {
+   "hex": "#bebcb3",
+   "name": "Ash"
+  },
+  {
+   "hex": "#d2d0c6",
+   "name": "Stone"
+  },
+  {
+   "hex": "#d50000",
+   "name": "Alert Red"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/17c50271-da3a-47ac-a31e-7f78550faddf.mp4",
+  "poster": "https://happyhands.cc/design-archive/eat-real-food-3d32f841/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/eat-real-food-3d32f841/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/eat-real-food-3d32f841/thumbnail.jpg"
+}

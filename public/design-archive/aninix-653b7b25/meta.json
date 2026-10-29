@@ -1,0 +1,71 @@
+{
+ "id": "653b7b25-f610-4a46-90e1-e3eed98b1f24",
+ "slug": "aninix-653b7b25",
+ "name": "Aninix",
+ "site_url": "https://www.aninix.com",
+ "lastmod": "2026-06-03T21:45:20.893Z",
+ "extracted_at": "2026-06-03T21:45:20.886Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "white gallery wall with one indigo switch",
+ "fonts": [
+  "sans-serif",
+  "Euclid Circular A",
+  "system-ui",
+  "P22 Mackinac Pro",
+  "system-ui",
+  "P22 Mackinac Pro Medium Italic"
+ ],
+ "colors": [
+  {
+   "hex": "#374fd5",
+   "name": "Indigo Switch"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#f0f0f0",
+   "name": "Soft Mist"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon Black"
+  },
+  {
+   "hex": "#171717",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#333333",
+   "name": "Shadow Gray"
+  },
+  {
+   "hex": "#89909a",
+   "name": "Steel"
+  },
+  {
+   "hex": "#0b1118",
+   "name": "Midnight"
+  },
+  {
+   "hex": "#ced3d9",
+   "name": "Fog"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3ff79857-e719-4515-9a28-7b503bfffc40.mp4",
+  "poster": "https://happyhands.cc/design-archive/aninix-653b7b25/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/aninix-653b7b25/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/aninix-653b7b25/thumbnail.jpg"
+}

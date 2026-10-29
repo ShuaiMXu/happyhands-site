@@ -1,0 +1,66 @@
+{
+ "id": "75c06591-34d2-493a-bd49-70551b5e4a53",
+ "slug": "perk-75c06591",
+ "name": "Perk",
+ "site_url": "https://travelperk.com",
+ "lastmod": "2026-07-03T11:10:44.012Z",
+ "extracted_at": "2026-07-03T03:34:24.972Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "electric lime on warm parchment paper",
+ "fonts": [
+  "OTSono"
+ ],
+ "colors": [
+  {
+   "hex": "#beff50",
+   "name": "Electric Lime"
+  },
+  {
+   "hex": "#14140f",
+   "name": "Off-Black Ink"
+  },
+  {
+   "hex": "#f5f5eb",
+   "name": "Off-White Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#d2d2c8",
+   "name": "Ash"
+  },
+  {
+   "hex": "#6e6e64",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#30302a",
+   "name": "Deep Charcoal"
+  },
+  {
+   "hex": "#919183",
+   "name": "Stone"
+  },
+  {
+   "hex": "#b9b9b7",
+   "name": "Smoke"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b4f364c3-468c-4e29-b805-66c4500896ec.mp4",
+  "poster": "https://happyhands.cc/design-archive/perk-75c06591/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/perk-75c06591/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/perk-75c06591/thumbnail.jpg"
+}

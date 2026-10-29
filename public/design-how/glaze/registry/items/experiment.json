@@ -1,0 +1,33 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "experiment",
+ "type": "registry:block",
+ "title": "Experiment",
+ "description": "Two prompts split live traffic: each arm's resolution rate, both by day, and Ship as the confirm.",
+ "author": "design.how",
+ "categories": [
+  "block",
+  "analytics",
+  "evals"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/glaze/button.json",
+  "https://design.how/r/glaze/card.json",
+  "https://design.how/r/glaze/chart.json",
+  "https://design.how/r/glaze/panel.json",
+  "https://design.how/r/glaze/status.json",
+  "https://design.how/r/glaze/theme.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/glaze.md",
+  "page": "https://design.how/systems/glaze"
+ },
+ "files": [
+  {
+   "path": "registry/glaze/blocks/experiment.tsx",
+   "content": "'use client';\n\nimport {Button} from '@/components/glaze/ui/button';\nimport {Card, CardFooter, CardHeader, CardMeta, CardTitle} from '@/components/glaze/ui/card';\nimport {Chart} from '@/components/glaze/ui/chart';\nimport {Panel} from '@/components/glaze/ui/panel';\nimport {Status} from '@/components/glaze/ui/status';\n\n// A block: two prompts split the live traffic and the better one ships. The two arms side by side with their\n// resolution rate, the test arm's lead as a Status word, then both by day, the test in ink and the control at 60%.\n// The footer says how far the test got and leads with the green confirm, because shipping the winner is a yes to what\n// the test proposes. Wire `days` and `arms` to your experiment service.\n\nconst days = [\n  {day: 'Oct 8', control: 61, test: 62},\n  {day: 'Oct 9', control: 60, test: 64},\n  {day: 'Oct 10', control: 62, test: 66},\n  {day: 'Oct 11', control: 61, test: 67},\n  {day: 'Oct 12', control: 63, test: 69},\n  {day: 'Oct 13', control: 62, test: 68},\n  {day: 'Oct 14', control: 61, test: 69},\n];\n\nconst arms = [\n  {name: 'v14, control', rate: '61.4%'},\n  {name: 'v15, test', rate: '67.9%', lead: '+6.5 pts'},\n];\n\n/** The two arms, the daily resolution rate and Ship v15. */\nexport function Experiment({className}: {className?: string}) {\n  return (\n    <Card aria-label=\"Refund flow experiment\" className={className ?? 'w-full max-w-md'}>\n      <Panel padding=\"none\">\n        <CardHeader>\n          <CardTitle>Refund prompt test</CardTitle>\n        </CardHeader>\n        <dl className=\"grid grid-cols-2 gap-3 px-3\">\n          {arms.map(a => <div key={a.name} className=\"flex min-w-0 flex-col gap-0.5\">\n            <dt className=\"type-caption text-text-2\">{a.name}</dt>\n            <dd className=\"flex items-baseline gap-2\">\n              <span className=\"type-heading data\">{a.rate}</span>\n              {a.lead && <Status status=\"ok\" size=\"sm\">{a.lead}</Status>}\n            </dd>\n          </div>)}\n        </dl>\n        <Chart type=\"line\" frame=\"plain\" title={<span className=\"sr-only\">Resolved, by day</span>} label=\"Resolved, by day\" data={days} xKey=\"day\" valueFormat={v => `${v}%`} height={96} zero={false}\n          config={{day: {label: 'Day'}, test: {label: 'v15'}, control: {label: 'v14'}}} className=\"p-3\"/>\n      </Panel>\n      <CardFooter>\n        <CardMeta>Day 7 of 14</CardMeta>\n        <Button size=\"sm\" variant=\"secondary\">Stop test</Button>\n        <Button size=\"sm\" variant=\"confirm\">Ship v15</Button>\n      </CardFooter>\n    </Card>\n  );\n}\n",
+   "type": "registry:block",
+   "target": "@components/glaze/blocks/experiment.tsx"
+  }
+ ]
+}

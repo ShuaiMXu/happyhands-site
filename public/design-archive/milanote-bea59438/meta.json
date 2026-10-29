@@ -1,0 +1,77 @@
+{
+ "id": "bea59438-bb4f-47ea-9484-f41caf6eb685",
+ "slug": "milanote-bea59438",
+ "name": "Milanote",
+ "site_url": "https://milanote.com",
+ "lastmod": "2026-09-24T17:41:32.933Z",
+ "extracted_at": "2026-09-24T17:41:32.731Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "productivity",
+ "north_star": "Milanote — pinned creative studio. Build pages as an editorial gallery around floating visual boards: dark framing walls, white exhibit space, and physical-looking screenshots with soft depth.",
+ "fonts": [
+  "Tiempos",
+  "Inter",
+  "Source Sans",
+  "system-ui"
+ ],
+ "colors": [
+  {
+   "hex": "#303b4b",
+   "name": "Slate Canvas"
+  },
+  {
+   "hex": "#28323f",
+   "name": "Charcoal Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#ebedee",
+   "name": "Gallery Gray"
+  },
+  {
+   "hex": "#5d6673",
+   "name": "Body Slate"
+  },
+  {
+   "hex": "#a2a7af",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#bbbec3",
+   "name": "Silver Gray"
+  },
+  {
+   "hex": "#8d929a",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#767c86",
+   "name": "Steel Gray"
+  },
+  {
+   "hex": "#f4511c",
+   "name": "Studio Orange"
+  },
+  {
+   "hex": "#46505f",
+   "name": "Mid Slate"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/56a7fee9-5711-4844-b21f-7d99e488b465.mp4",
+  "poster": "https://happyhands.cc/design-archive/milanote-bea59438/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/milanote-bea59438/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/milanote-bea59438/thumbnail.jpg"
+}

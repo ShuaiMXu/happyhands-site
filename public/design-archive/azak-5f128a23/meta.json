@@ -1,0 +1,46 @@
+{
+ "id": "5f128a23-f60e-4d2d-a845-c35c16d0534b",
+ "slug": "azak-5f128a23",
+ "name": "AZAK",
+ "site_url": "https://azak.co",
+ "lastmod": "2026-09-20T20:24:17.006Z",
+ "extracted_at": "2026-09-20T19:24:35.459Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "other",
+ "north_star": "expedition vehicle in twilight. Build pages as a sequence of stark technical exhibits: black field, pale specification sheet, then a rendered mobility system.",
+ "fonts": [
+  "FT Aktual"
+ ],
+ "colors": [
+  {
+   "hex": "#f8f7f3",
+   "name": "Ultra Light Azak Grey"
+  },
+  {
+   "hex": "#121211",
+   "name": "Dark Azak Black"
+  },
+  {
+   "hex": "#85837e",
+   "name": "Medium Azak Grey"
+  },
+  {
+   "hex": "#3a4a49",
+   "name": "Terrain Slate"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/29c35ff4-2904-4472-9f3a-2d51e498b898.mp4",
+  "poster": "https://happyhands.cc/design-archive/azak-5f128a23/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/azak-5f128a23/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/azak-5f128a23/thumbnail.jpg"
+}

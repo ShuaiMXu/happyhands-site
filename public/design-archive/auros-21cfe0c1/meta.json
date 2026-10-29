@@ -1,0 +1,75 @@
+{
+ "id": "21cfe0c1-778d-4613-9f47-a5718eb929b3",
+ "slug": "auros-21cfe0c1",
+ "name": "Auros",
+ "site_url": "https://auros.global",
+ "lastmod": "2026-07-03T10:11:34.029Z",
+ "extracted_at": "2026-07-03T03:04:41.961Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "crypto",
+ "north_star": "Abyssal terminal with bioluminescent data orbs",
+ "fonts": [
+  "Matter",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#012624",
+   "name": "Liquid Abyss"
+  },
+  {
+   "hex": "#011d1c",
+   "name": "Liquid Deep"
+  },
+  {
+   "hex": "#003734",
+   "name": "Liquid Kelp"
+  },
+  {
+   "hex": "#edfffe",
+   "name": "Liquid Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Platinum"
+  },
+  {
+   "hex": "#bbc7c6",
+   "name": "Silver Mist"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Ash"
+  },
+  {
+   "hex": "#707777",
+   "name": "Slate Deep"
+  },
+  {
+   "hex": "#fde9ff",
+   "name": "Lavender Phosphor"
+  },
+  {
+   "hex": "#00827c",
+   "name": "Bioluminescent Gradient"
+  },
+  {
+   "hex": "#cbfffc",
+   "name": "Aurora Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ed2c729e-76ce-4ad0-bad8-c57d67247ec7.mp4",
+  "poster": "https://happyhands.cc/design-archive/auros-21cfe0c1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/auros-21cfe0c1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/auros-21cfe0c1/thumbnail.jpg"
+}

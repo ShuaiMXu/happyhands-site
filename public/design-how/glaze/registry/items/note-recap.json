@@ -1,0 +1,32 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "note-recap",
+ "type": "registry:block",
+ "title": "Note recap",
+ "description": "A note the assistant wrote from a voice note: a one line summary and a card of to-dos with Share note.",
+ "author": "design.how",
+ "categories": [
+  "block",
+  "ai",
+  "mobile"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/glaze/button.json",
+  "https://design.how/r/glaze/card.json",
+  "https://design.how/r/glaze/checkbox.json",
+  "https://design.how/r/glaze/response.json",
+  "https://design.how/r/glaze/theme.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/glaze.md",
+  "page": "https://design.how/systems/glaze"
+ },
+ "files": [
+  {
+   "path": "registry/glaze/blocks/note-recap.tsx",
+   "content": "'use client';\n\nimport {Response} from '@/components/glaze/ai/response';\nimport {Button} from '@/components/glaze/ui/button';\nimport {Card, CardContent, CardFooter, CardHeader, CardMeta, CardTitle} from '@/components/glaze/ui/card';\nimport {Checkbox} from '@/components/glaze/ui/checkbox';\n\n// A block: the note the assistant wrote from a voice note, at phone width. What it understood in a sentence, then the\n// to-dos as a card of checkboxes, with where the note came from in the footer and Share note as its one glass key.\n// Wire `summary` and `todos` to your assistant's output.\n\nconst summary = 'A plumber can come **Tuesday, 9 to 11 am**, and I asked the landlord to cover it.';\n\nconst todos = [\n  {label: 'Clear the cupboard under the sink', done: true},\n  {label: 'Send two photos of the leak', done: false},\n  {label: 'Be home Tuesday morning', done: false},\n];\n\n/** The note's summary and three to-dos, with Share note. */\nexport function NoteRecap({className}: {className?: string}) {\n  return (\n    <section aria-label=\"Kitchen leak\" className={className ?? 'flex w-full max-w-sm flex-col gap-3'}>\n      <Response>{summary}</Response>\n      <Card>\n        <CardHeader>\n          <CardTitle>Kitchen leak</CardTitle>\n        </CardHeader>\n        <CardContent className=\"gap-2.5 pt-0\">\n          {todos.map(t => <label key={t.label} className=\"flex items-center gap-2.5 type-body-sm\">\n            <Checkbox defaultChecked={t.done}/>\n            <span className={t.done ? 'text-text-2 line-through' : undefined}>{t.label}</span>\n          </label>)}\n        </CardContent>\n        <CardFooter>\n          <CardMeta>From a voice note, 9:12 am</CardMeta>\n          <Button size=\"sm\">Share note</Button>\n        </CardFooter>\n      </Card>\n    </section>\n  );\n}\n",
+   "type": "registry:block",
+   "target": "@components/glaze/blocks/note-recap.tsx"
+  }
+ ]
+}

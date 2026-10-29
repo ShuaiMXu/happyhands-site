@@ -1,0 +1,67 @@
+{
+ "id": "2318d650-b229-4be0-9adc-9f17cecfd253",
+ "slug": "new-genre-2318d650",
+ "name": "New Genre",
+ "site_url": "https://newgenre.studio",
+ "lastmod": "2026-06-03T16:09:05.664Z",
+ "extracted_at": "2026-06-03T16:09:05.659Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Cinematic horizon at golden hour — a single gradient arc from charred umber through steel twilight to warm parchment, against which condensed serif headlines carve like editorial mastheads.",
+ "fonts": [
+  "sans-serif",
+  "Serrif Condensed",
+  "Saans Variable",
+  "Inter",
+  "Saans Medium",
+  "Saans Regular"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Parchment Canvas"
+  },
+  {
+   "hex": "#0c1018",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#1e1310",
+   "name": "Charred Umber"
+  },
+  {
+   "hex": "#6d7074",
+   "name": "Slate Veil"
+  },
+  {
+   "hex": "#9e9fa3",
+   "name": "Ash Mist"
+  },
+  {
+   "hex": "#5a769f",
+   "name": "Dawn Arc"
+  },
+  {
+   "hex": "#ed9454",
+   "name": "Ember Radiance"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/45afc11d-8781-4835-8a25-bc2ee4cde29e.mp4",
+  "poster": "https://happyhands.cc/design-archive/new-genre-2318d650/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/new-genre-2318d650/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/new-genre-2318d650/thumbnail.jpg"
+}

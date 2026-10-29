@@ -1,0 +1,67 @@
+{
+ "id": "25246b10-83a4-4f51-a411-cf85503b94a8",
+ "slug": "drawhistory-25246b10",
+ "name": "DrawHistory",
+ "site_url": "https://drawhistory.com",
+ "lastmod": "2026-06-03T22:40:36.180Z",
+ "extracted_at": "2026-06-03T22:40:36.175Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "agency",
+ "north_star": "Warm gallery wall behind charcoal display panels",
+ "fonts": [
+  "Eloquia Text",
+  "Roboto Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#faf6f3",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Ash"
+  },
+  {
+   "hex": "#999999",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#b3b3b3",
+   "name": "Silver"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone"
+  },
+  {
+   "hex": "#3d3b2f",
+   "name": "Olive Charcoal"
+  },
+  {
+   "hex": "#1d1d1b",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ff6714",
+   "name": "Saffron Dot"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/abce6b49-bf11-4baa-86a9-f6671cde4c61.mp4",
+  "poster": "https://happyhands.cc/design-archive/drawhistory-25246b10/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/drawhistory-25246b10/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/drawhistory-25246b10/thumbnail.jpg"
+}

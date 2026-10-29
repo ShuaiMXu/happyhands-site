@@ -1,0 +1,73 @@
+{
+ "id": "6d64a4da-ef40-453e-86f7-4bfabc0c9051",
+ "slug": "pangram-pangram-foundry-6d64a4da",
+ "name": "Pangram Pangram Foundry",
+ "site_url": "https://pangrampangram.com",
+ "lastmod": "2026-06-05T11:30:46.711Z",
+ "extracted_at": "2026-06-03T21:20:44.798Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "Museum vitrine on white marble. A gallery-style type foundry where the canvas is bare stone, the lighting is flat daylight, and the only vivid color is a single orange-red label used by a curator to flag what is new.",
+ "fonts": [
+  "Neue Montreal",
+  "Neue Montreal Semibold",
+  "Neue York",
+  "Frama Semibold",
+  "Kyoto Semibold",
+  "Neue Gstaad Bold",
+  "Palma Fizzy Heavy",
+  "Mori Bold",
+  "Museum Light",
+  "Neue Corp Semibold",
+  "Watch Medium",
+  "Monument Narrow Medium",
+  "Model Plastic Regular",
+  "neue-gstaad-normal-bold",
+  "neue-corp-normal-semibold",
+  "neue-york-normal-normal-bold"
+ ],
+ "colors": [
+  {
+   "hex": "#ff2f00",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#fafafa",
+   "name": "Marble White"
+  },
+  {
+   "hex": "#ededed",
+   "name": "Stone Gray"
+  },
+  {
+   "hex": "#666666",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffb700",
+   "name": "Signal Yellow"
+  },
+  {
+   "hex": "#bfe0ff",
+   "name": "Ice Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/535a4abd-5676-4b7b-a410-617568e9fb84.mp4",
+  "poster": "https://happyhands.cc/design-archive/pangram-pangram-foundry-6d64a4da/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/pangram-pangram-foundry-6d64a4da/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/pangram-pangram-foundry-6d64a4da/thumbnail.jpg"
+}

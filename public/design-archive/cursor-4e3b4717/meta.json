@@ -1,0 +1,87 @@
+{
+ "id": "4e3b4717-84c8-4599-baaf-a343c3d619b6",
+ "slug": "cursor-4e3b4717",
+ "name": "Cursor",
+ "site_url": "https://cursor.com",
+ "lastmod": "2026-07-03T09:54:42.458Z",
+ "extracted_at": "2026-07-03T02:51:37.292Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "Warm parchment atelier lit by embers",
+ "fonts": [
+  "CursorGothic",
+  "EB Garamond",
+  "berkeleyMono",
+  "system-ui",
+  "Lato",
+  "-apple-system"
+ ],
+ "colors": [
+  {
+   "hex": "#f7f7f4",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#f2f1ed",
+   "name": "Bone"
+  },
+  {
+   "hex": "#e6e5e0",
+   "name": "Linen"
+  },
+  {
+   "hex": "#cdcdc9",
+   "name": "Stone"
+  },
+  {
+   "hex": "#a1a19f",
+   "name": "Mist"
+  },
+  {
+   "hex": "#84847e",
+   "name": "Driftwood"
+  },
+  {
+   "hex": "#7a7974",
+   "name": "Ash"
+  },
+  {
+   "hex": "#26251e",
+   "name": "Ink"
+  },
+  {
+   "hex": "#f54e00",
+   "name": "Ember"
+  },
+  {
+   "hex": "#c08532",
+   "name": "Amber"
+  },
+  {
+   "hex": "#34785c",
+   "name": "Forest"
+  },
+  {
+   "hex": "#1f8a65",
+   "name": "Verdant"
+  },
+  {
+   "hex": "#cf2d56",
+   "name": "Crimson"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a0ab980d-f98f-4c0e-8148-c858a09fb2d3.mp4",
+  "poster": "https://happyhands.cc/design-archive/cursor-4e3b4717/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/cursor-4e3b4717/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/cursor-4e3b4717/thumbnail.jpg"
+}

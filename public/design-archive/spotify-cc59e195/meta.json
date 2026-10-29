@@ -1,0 +1,75 @@
+{
+ "id": "cc59e195-fed0-4928-96d1-303752786073",
+ "slug": "spotify-cc59e195",
+ "name": "Spotify",
+ "site_url": "https://www.spotify.com",
+ "lastmod": "2026-06-05T13:01:18.958Z",
+ "extracted_at": "2026-06-03T22:09:01.041Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "media",
+ "north_star": "Darkened record store at midnight — every surface recedes so the album art can glow.",
+ "fonts": [
+  "SpotifyMixUI",
+  "SpotifyMixUITitle"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#121212",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#1f1f1f",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#333333",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#767676",
+   "name": "Steel Mist"
+  },
+  {
+   "hex": "#b3b3b3",
+   "name": "Cloud Gray"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#1ed760",
+   "name": "Spotify Green"
+  },
+  {
+   "hex": "#af2896",
+   "name": "Premium Magenta"
+  },
+  {
+   "hex": "#509bf5",
+   "name": "Premium Cobalt"
+  },
+  {
+   "hex": "#a16b1b",
+   "name": "Amber Glow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b07c43ce-18c6-4dab-a2cd-d5504bc6b046.mp4",
+  "poster": "https://happyhands.cc/design-archive/spotify-cc59e195/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/spotify-cc59e195/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/spotify-cc59e195/thumbnail.jpg"
+}

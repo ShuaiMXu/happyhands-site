@@ -1,0 +1,59 @@
+{
+ "id": "12db22d6-7738-4aee-ab6b-6d6731c7e1e0",
+ "slug": "cqcm-12db22d6",
+ "name": "CQCM",
+ "site_url": "https://cqcm.coop",
+ "lastmod": "2026-06-03T19:59:10.805Z",
+ "extracted_at": "2026-06-03T19:59:10.801Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Verdant cooperative megaphone. A vivid green slab screams a civic message across a white grid while black pill buttons ground the chromatic energy.",
+ "fonts": [
+  "Athletics",
+  "Manrope"
+ ],
+ "colors": [
+  {
+   "hex": "#44d991",
+   "name": "Cooperative Green"
+  },
+  {
+   "hex": "#4c92e9",
+   "name": "Civic Blue"
+  },
+  {
+   "hex": "#ff6a51",
+   "name": "Sunset Coral"
+  },
+  {
+   "hex": "#eaf9f2",
+   "name": "Mint Whisper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#666666",
+   "name": "Steel Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2bc1c68c-92b3-46f6-ac7e-5c2cd70d40d1.mp4",
+  "poster": "https://happyhands.cc/design-archive/cqcm-12db22d6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/cqcm-12db22d6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/cqcm-12db22d6/thumbnail.jpg"
+}

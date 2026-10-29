@@ -1,0 +1,43 @@
+{
+ "id": "40154dc4-e681-4df9-be01-a6681d5887a6",
+ "slug": "v-a-c-40154dc4",
+ "name": "V–A–C",
+ "site_url": "https://v-a-c.org/en",
+ "lastmod": "2026-06-03T21:42:36.358Z",
+ "extracted_at": "2026-06-03T21:42:36.352Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "Gallery wall on a drafting table. The starkness of a printed exhibition catalog where every margin, weight, and registration mark is deliberate.",
+ "fonts": [
+  "Diagramatika Text",
+  "Diagramatika Display"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#999999",
+   "name": "Graphite"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d85ceeed-e593-4eb2-bb21-5404388c8865.mp4",
+  "poster": "https://happyhands.cc/design-archive/v-a-c-40154dc4/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/v-a-c-40154dc4/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/v-a-c-40154dc4/thumbnail.jpg"
+}

@@ -1,0 +1,55 @@
+{
+ "id": "36ab47c3-3d47-42a5-af2e-1760bc348bcd",
+ "slug": "counterprint-36ab47c3",
+ "name": "Counterprint",
+ "site_url": "https://www.counter-print.co.uk",
+ "lastmod": "2026-06-03T21:19:01.893Z",
+ "extracted_at": "2026-06-03T21:19:01.888Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "white gallery wall, books as art",
+ "fonts": [
+  "Helvetica",
+  "GTStandard-M"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Pure Canvas"
+  },
+  {
+   "hex": "#1c1c1c",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#232323",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#5f6368",
+   "name": "Slate Mute"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Hairline Gray"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/31e7992d-672d-46d8-b48e-ed1eace6813f.mp4",
+  "poster": "https://happyhands.cc/design-archive/counterprint-36ab47c3/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/counterprint-36ab47c3/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/counterprint-36ab47c3/thumbnail.jpg"
+}

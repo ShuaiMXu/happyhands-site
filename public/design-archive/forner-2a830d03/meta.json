@@ -1,0 +1,68 @@
+{
+ "id": "2a830d03-cebc-48f0-a50f-ad78168c5026",
+ "slug": "forner-2a830d03",
+ "name": "Forner",
+ "site_url": "https://forner.studio",
+ "lastmod": "2026-06-03T22:41:05.228Z",
+ "extracted_at": "2026-06-03T22:41:05.223Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Warm earthen atelier — imagine a ceramics studio at golden hour, where every surface is clay, bone, or roasted coffee, and the only chrome is the potter's hand-lettered note pinned to the wall.",
+ "fonts": [
+  "Surt",
+  "ClashDisplay",
+  "BigDailyShort"
+ ],
+ "colors": [
+  {
+   "hex": "#484036",
+   "name": "Roast Ink"
+  },
+  {
+   "hex": "#faf5eb",
+   "name": "Bone Canvas"
+  },
+  {
+   "hex": "#ecece4",
+   "name": "Linen Surface"
+  },
+  {
+   "hex": "#cacab0",
+   "name": "Sandstone"
+  },
+  {
+   "hex": "#d5d5c4",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#f2e9cf",
+   "name": "Manilla Cream"
+  },
+  {
+   "hex": "#666e72",
+   "name": "Slate Border"
+  },
+  {
+   "hex": "#33302c",
+   "name": "Charcoal Depth"
+  },
+  {
+   "hex": "#212529",
+   "name": "Obsidian"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/07644224-f78e-442c-9eb3-384bec5d6186.mp4",
+  "poster": "https://happyhands.cc/design-archive/forner-2a830d03/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/forner-2a830d03/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/forner-2a830d03/thumbnail.jpg"
+}

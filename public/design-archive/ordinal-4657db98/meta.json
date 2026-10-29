@@ -1,0 +1,71 @@
+{
+ "id": "4657db98-0c6c-4848-91e9-c339f3bb7815",
+ "slug": "ordinal-4657db98",
+ "name": "Ordinal",
+ "site_url": "https://www.meetassembly.com",
+ "lastmod": "2026-06-05T09:36:11.450Z",
+ "extracted_at": "2026-06-03T20:00:03.203Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "saas",
+ "north_star": "dark observatory with one mint filament — a near-black room where a single neon green switch glows as the only thing that matters",
+ "fonts": [
+  "Inter",
+  "Inconsolata (custom-mapped eyebrow face)"
+ ],
+ "colors": [
+  {
+   "hex": "#151316",
+   "name": "Void Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#444245",
+   "name": "Elevated Surface"
+  },
+  {
+   "hex": "#8e8e8e",
+   "name": "Mist"
+  },
+  {
+   "hex": "#585657",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#b9b9b9",
+   "name": "Ash"
+  },
+  {
+   "hex": "#f4f2ee",
+   "name": "Bone"
+  },
+  {
+   "hex": "#222222",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#8ef5b5",
+   "name": "Mint Filament"
+  },
+  {
+   "hex": "#24574d",
+   "name": "Deep Teal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d92c8b89-ddf0-4422-bd1d-5f30c6a7dac1.mp4",
+  "poster": "https://happyhands.cc/design-archive/ordinal-4657db98/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ordinal-4657db98/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ordinal-4657db98/thumbnail.jpg"
+}

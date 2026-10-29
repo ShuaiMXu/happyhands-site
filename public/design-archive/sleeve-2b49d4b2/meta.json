@@ -1,0 +1,70 @@
+{
+ "id": "2b49d4b2-8461-4985-b7ee-cf9517e19803",
+ "slug": "sleeve-2b49d4b2",
+ "name": "Sleeve",
+ "site_url": "https://replay.software/sleeve",
+ "lastmod": "2026-06-05T07:20:39.722Z",
+ "extracted_at": "2026-06-03T19:38:06.964Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "floating dock on marble",
+ "fonts": [
+  "ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Inter'"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#333333",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#374151",
+   "name": "Slate"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Silver Mist"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Ash"
+  },
+  {
+   "hex": "#999999",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#f9fafb",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#0e95ee",
+   "name": "Ocean Drift"
+  },
+  {
+   "hex": "#27c9f5",
+   "name": "Cyan Splash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f458d5a6-f9e0-460e-99c2-3d8bae9bc3b5.mp4",
+  "poster": "https://happyhands.cc/design-archive/sleeve-2b49d4b2/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/sleeve-2b49d4b2/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/sleeve-2b49d4b2/thumbnail.jpg"
+}

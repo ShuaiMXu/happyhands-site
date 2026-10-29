@@ -1,0 +1,62 @@
+{
+ "id": "1b44386e-31a8-40b0-a577-27c088b51264",
+ "slug": "lusion-1b44386e",
+ "name": "Lusion",
+ "site_url": "https://lusion.co",
+ "lastmod": "2026-06-05T04:12:58.340Z",
+ "extracted_at": "2026-06-03T18:06:30.524Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "3D sculpture gallery on a frosted lavender plane. Every interface element should feel like a tactile object resting on a pale, slightly cool gallery floor, with the 3D content doing all the chromatic and dramatic work.",
+ "fonts": [
+  "Aeonik"
+ ],
+ "colors": [
+  {
+   "hex": "#f0f1fa",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#2b2e3a",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#e4e6ef",
+   "name": "Haze"
+  },
+  {
+   "hex": "#34393f",
+   "name": "Slate Hollow"
+  },
+  {
+   "hex": "#1a2ffb",
+   "name": "Electric Indigo"
+  },
+  {
+   "hex": "#c1ff00",
+   "name": "Acid Lime"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a5ab3ae4-ddd4-4b89-bd15-89747902e1fd.mp4",
+  "poster": "https://happyhands.cc/design-archive/lusion-1b44386e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/lusion-1b44386e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/lusion-1b44386e/thumbnail.jpg"
+}

@@ -1,0 +1,58 @@
+{
+ "id": "271172f7-9f6d-4d6f-9baa-91a41648d8be",
+ "slug": "tech-barcelona-271172f7",
+ "name": "Tech Barcelona",
+ "site_url": "https://techbarcelona.com/en",
+ "lastmod": "2026-07-03T11:47:11.897Z",
+ "extracted_at": "2026-06-03T20:22:07.660Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "other",
+ "north_star": "Editorial tech manifesto on white marble",
+ "fonts": [
+  "FavoritPro-Light"
+ ],
+ "colors": [
+  {
+   "hex": "#0075ff",
+   "name": "Cobalt Action"
+  },
+  {
+   "hex": "#090707",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#212529",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Hairline Gray"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Shadow Whisper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c7e16cec-640b-46b8-a428-3a52bd8c6e6c.mp4",
+  "poster": "https://happyhands.cc/design-archive/tech-barcelona-271172f7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/tech-barcelona-271172f7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/tech-barcelona-271172f7/thumbnail.jpg"
+}

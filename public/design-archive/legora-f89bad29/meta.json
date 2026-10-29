@@ -1,0 +1,69 @@
+{
+ "id": "f89bad29-019a-48d7-9724-c40a0d7d8171",
+ "slug": "legora-f89bad29",
+ "name": "Legora",
+ "site_url": "https://legora.com",
+ "lastmod": "2026-06-03T15:41:10.805Z",
+ "extracted_at": "2026-06-03T15:41:10.801Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Editorial law journal on warm cream",
+ "fonts": [
+  "sans-serif",
+  "Rhymes Display",
+  "Suisse Int'l",
+  "Aktiv Grotesk VF",
+  "Suisse Intl Book",
+  "Playfair Display",
+  "Inter",
+  "Suisse Intl Medium"
+ ],
+ "colors": [
+  {
+   "hex": "#fefefc",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#0a0a0a",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#6b6b6b",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#444444",
+   "name": "Iron"
+  },
+  {
+   "hex": "#ebf5ed",
+   "name": "Verdigris Wash"
+  },
+  {
+   "hex": "#bdd4f0",
+   "name": "Slate Mist"
+  },
+  {
+   "hex": "#98a7aa",
+   "name": "Pewter Haze"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/99b3767a-a29a-4a8c-8a62-1909ccc6ce56.mp4",
+  "poster": "https://happyhands.cc/design-archive/legora-f89bad29/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/legora-f89bad29/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/legora-f89bad29/thumbnail.jpg"
+}

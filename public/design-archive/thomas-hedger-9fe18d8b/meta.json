@@ -1,0 +1,48 @@
+{
+ "id": "9fe18d8b-58b7-404d-bcc6-9e8a73b8862c",
+ "slug": "thomas-hedger-9fe18d8b",
+ "name": "Thomas Hedger",
+ "site_url": "https://thomashedger.co.uk",
+ "lastmod": "2026-06-05T11:53:58.594Z",
+ "extracted_at": "2026-06-03T21:40:50.885Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "Silent frame, loud prints",
+ "fonts": [
+  "Diatype",
+  "Diatype Variable",
+  "Times"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Canvas White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#29242b",
+   "name": "Carbon Plum"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/cf41363b-42f1-4877-98e1-f0365ec80eec.mp4",
+  "poster": "https://happyhands.cc/design-archive/thomas-hedger-9fe18d8b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/thomas-hedger-9fe18d8b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/thomas-hedger-9fe18d8b/thumbnail.jpg"
+}

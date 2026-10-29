@@ -1,0 +1,47 @@
+{
+ "id": "b8899cbd-e2ca-4069-83cf-d8f8b0d71100",
+ "slug": "bmw-com-b8899cbd",
+ "name": "BMW.com",
+ "site_url": "https://bmw.com",
+ "lastmod": "2026-06-05T00:55:53.500Z",
+ "extracted_at": "2026-06-03T15:25:48.551Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Gallery wall for sculpted metal — a typographic frame where the cars are the only color.",
+ "fonts": [
+  "BMWTypeNextLatin",
+  "BMWTypeNextLatin Light"
+ ],
+ "colors": [
+  {
+   "hex": "#262626",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#bbbbbb",
+   "name": "Concrete"
+  },
+  {
+   "hex": "#f1f1f1",
+   "name": "Fog"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/9f33f45c-f2c4-4528-9d36-a11adc9ccfce.mp4",
+  "poster": "https://happyhands.cc/design-archive/bmw-com-b8899cbd/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/bmw-com-b8899cbd/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/bmw-com-b8899cbd/thumbnail.jpg"
+}

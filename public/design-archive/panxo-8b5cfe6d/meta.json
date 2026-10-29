@@ -1,0 +1,92 @@
+{
+ "id": "8b5cfe6d-a2bd-4edb-854e-9185cec46c09",
+ "slug": "panxo-8b5cfe6d",
+ "name": "Panxo",
+ "site_url": "https://panxo.com",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-12T10:44:29.583Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Data terminal in warm ink — every surface echoes ledger paper, every accent reads like a highlighted cell.",
+ "fonts": [
+  "Mona Sans",
+  "Inter",
+  "sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#1c1a17",
+   "name": "Coal Ink"
+  },
+  {
+   "hex": "#fafafa",
+   "name": "Ledger White"
+  },
+  {
+   "hex": "#f7f3eb",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#f1f1f1",
+   "name": "Ash"
+  },
+  {
+   "hex": "#7e7d7b",
+   "name": "Slate Mid"
+  },
+  {
+   "hex": "#5a5957",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#969594",
+   "name": "Stone"
+  },
+  {
+   "hex": "#bab9b8",
+   "name": "Fossil"
+  },
+  {
+   "hex": "#ff6020",
+   "name": "Smolder"
+  },
+  {
+   "hex": "#777eff",
+   "name": "Signal Violet"
+  },
+  {
+   "hex": "#731fff",
+   "name": "Deep Violet"
+  },
+  {
+   "hex": "#a855f7",
+   "name": "Spectrum Gradient"
+  },
+  {
+   "hex": "#05933b",
+   "name": "Mint Pulse"
+  },
+  {
+   "hex": "#10b981",
+   "name": "Emerald Tag"
+  },
+  {
+   "hex": "#bdd8ff",
+   "name": "Sky Blush"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/fb771e93-947c-4800-97ea-738c6e9b7397.mp4",
+  "poster": "https://happyhands.cc/design-archive/panxo-8b5cfe6d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/panxo-8b5cfe6d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/panxo-8b5cfe6d/thumbnail.jpg"
+}

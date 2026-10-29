@@ -1,0 +1,67 @@
+{
+ "id": "bb63a015-b018-4bd9-be66-0973ac6be753",
+ "slug": "patrick-miller-bb63a015",
+ "name": "Patrick Miller",
+ "site_url": "https://patrickmiller.se",
+ "lastmod": "2026-06-03T17:31:27.279Z",
+ "extracted_at": "2026-06-03T17:31:27.274Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "oversized masthead on chalky color fields — a portfolio that behaves like a printed poster",
+ "fonts": [
+  "MlrStandard",
+  "-apple-system"
+ ],
+ "colors": [
+  {
+   "hex": "#fd9b65",
+   "name": "Persimmon Wash"
+  },
+  {
+   "hex": "#e9d1c7",
+   "name": "Blush Linen"
+  },
+  {
+   "hex": "#f8f5d1",
+   "name": "Candlelight"
+  },
+  {
+   "hex": "#9ac8ae",
+   "name": "Sage Whisper"
+  },
+  {
+   "hex": "#004b82",
+   "name": "Inkwell Blue"
+  },
+  {
+   "hex": "#4c564b",
+   "name": "Slate Moss"
+  },
+  {
+   "hex": "#a4b1b3",
+   "name": "Fossil"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/85268a30-8cfb-4e0f-961f-1993d46983b2.mp4",
+  "poster": "https://happyhands.cc/design-archive/patrick-miller-bb63a015/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/patrick-miller-bb63a015/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/patrick-miller-bb63a015/thumbnail.jpg"
+}

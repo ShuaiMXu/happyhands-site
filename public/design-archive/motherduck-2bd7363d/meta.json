@@ -1,0 +1,119 @@
+{
+ "id": "2bd7363d-7aae-4b1f-9d5a-1edeb17ca567",
+ "slug": "motherduck-2bd7363d",
+ "name": "MotherDuck",
+ "site_url": "https://motherduck.com",
+ "lastmod": "2026-06-03T16:48:03.865Z",
+ "extracted_at": "2026-06-03T16:48:03.858Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "crayon-coded terminal on cream paper",
+ "fonts": [
+  "Aeonik Mono",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#f4efea",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Frost White"
+  },
+  {
+   "hex": "#f8f8f7",
+   "name": "Chalk Gray"
+  },
+  {
+   "hex": "#ebf9ff",
+   "name": "Ice Wash"
+  },
+  {
+   "hex": "#f9fbe7",
+   "name": "Notebook Pale"
+  },
+  {
+   "hex": "#383838",
+   "name": "Charcoal Ink"
+  },
+  {
+   "hex": "#a1a1a1",
+   "name": "Pencil Gray"
+  },
+  {
+   "hex": "#818181",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#c0c0c0",
+   "name": "Soft Silver"
+  },
+  {
+   "hex": "#6fc2ff",
+   "name": "Sky Crayon"
+  },
+  {
+   "hex": "#ffde00",
+   "name": "Canary Banner"
+  },
+  {
+   "hex": "#ff9538",
+   "name": "Duck Bill Orange"
+  },
+  {
+   "hex": "#f38e84",
+   "name": "Coral Sketch"
+  },
+  {
+   "hex": "#f5b161",
+   "name": "Peach Sketch"
+  },
+  {
+   "hex": "#38c1b0",
+   "name": "Mint Sketch"
+  },
+  {
+   "hex": "#b291de",
+   "name": "Lilac Sketch"
+  },
+  {
+   "hex": "#b3c419",
+   "name": "Lime Sketch"
+  },
+  {
+   "hex": "#7597ee",
+   "name": "Periwinkle Sketch"
+  },
+  {
+   "hex": "#84a6bc",
+   "name": "Slate Sketch"
+  },
+  {
+   "hex": "#e1c427",
+   "name": "Marigold Sketch"
+  },
+  {
+   "hex": "#54b4de",
+   "name": "Wet Cement"
+  },
+  {
+   "hex": "#fdedda",
+   "name": "Peach Blush"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6d227bfc-01b2-4734-8962-f558178dcea4.mp4",
+  "poster": "https://happyhands.cc/design-archive/motherduck-2bd7363d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/motherduck-2bd7363d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/motherduck-2bd7363d/thumbnail.jpg"
+}

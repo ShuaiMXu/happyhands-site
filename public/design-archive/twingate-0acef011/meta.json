@@ -1,0 +1,99 @@
+{
+ "id": "0acef011-07da-4416-b874-ccdd675140f6",
+ "slug": "twingate-0acef011",
+ "name": "Twingate",
+ "site_url": "https://twingate.com",
+ "lastmod": "2026-06-03T18:04:16.926Z",
+ "extracted_at": "2026-06-03T18:04:16.919Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "Midnight control room with violet and chartreuse signal lights. The whole interface sits on a near-black void, with two accent colors pulsing like status LEDs across instrument-panel components — restrained, engineered, and slightly futuristic without being showy.",
+ "fonts": [
+  "sans-serif",
+  "TT Hoves Light",
+  "TT Hoves Medium",
+  "TT Hoves Regular",
+  "Basis Grotesque Mono Pro",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#0e0f11",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#141617",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#1d2023",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#21223a",
+   "name": "Slate"
+  },
+  {
+   "hex": "#303438",
+   "name": "Ash"
+  },
+  {
+   "hex": "#3a3d40",
+   "name": "Steel"
+  },
+  {
+   "hex": "#61626b",
+   "name": "Fog"
+  },
+  {
+   "hex": "#8d8d96",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#a1a1aa",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#cfcfd3",
+   "name": "Silver"
+  },
+  {
+   "hex": "#999999",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#b6abff",
+   "name": "Signal Violet"
+  },
+  {
+   "hex": "#eef35f",
+   "name": "Live Wire"
+  },
+  {
+   "hex": "#00cbaa",
+   "name": "Circuit Teal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d831acf8-9fb4-45ce-b2ef-c614f7a75607.mp4",
+  "poster": "https://happyhands.cc/design-archive/twingate-0acef011/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/twingate-0acef011/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/twingate-0acef011/thumbnail.jpg"
+}

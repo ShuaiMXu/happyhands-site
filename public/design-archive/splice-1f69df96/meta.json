@@ -1,0 +1,76 @@
+{
+ "id": "1f69df96-675d-4ee0-aa85-e085d9d39981",
+ "slug": "splice-1f69df96",
+ "name": "Splice",
+ "site_url": "https://splice.com",
+ "lastmod": "2026-06-05T08:39:05.264Z",
+ "extracted_at": "2026-06-03T19:54:10.025Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "media",
+ "north_star": "midnight recording studio — a dark, weightless space where the only thing that ever gets loud is the music.",
+ "fonts": [
+  "InterVariable (custom)",
+  "SoehneBreit (custom)",
+  "Soehne (custom)"
+ ],
+ "colors": [
+  {
+   "hex": "#528fff",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#1253ff",
+   "name": "Button Blue"
+  },
+  {
+   "hex": "#f1f607",
+   "name": "Voltage Yellow"
+  },
+  {
+   "hex": "#121214",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Platinum"
+  },
+  {
+   "hex": "#232426",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#a6a8ad",
+   "name": "Fog"
+  },
+  {
+   "hex": "#c8c9cc",
+   "name": "Ash"
+  },
+  {
+   "hex": "#63656d",
+   "name": "Slate"
+  },
+  {
+   "hex": "#45464d",
+   "name": "Iron"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/34800873-4f9f-4d17-bfac-23d309d12773.mp4",
+  "poster": "https://happyhands.cc/design-archive/splice-1f69df96/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/splice-1f69df96/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/splice-1f69df96/thumbnail.jpg"
+}

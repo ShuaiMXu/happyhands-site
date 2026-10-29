@@ -1,0 +1,59 @@
+{
+ "id": "d7ace114-0548-41f5-a2ff-2afbf32be94d",
+ "slug": "nike-com-d7ace114",
+ "name": "Nike.com",
+ "site_url": "https://nike.com",
+ "lastmod": "2026-06-05T02:08:00.557Z",
+ "extracted_at": "2026-06-03T15:44:37.448Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "ecommerce",
+ "north_star": "monochrome gallery of athletic performance — white walls, product as art, chrome dissolved into the background.",
+ "fonts": [
+  "Helvetica Now Text Medium",
+  "Helvetica Now Text",
+  "Helvetica Now Display Medium",
+  "Nike Futura ND",
+  "Arial",
+  "Helvetica Neue"
+ ],
+ "colors": [
+  {
+   "hex": "#111111",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Concrete Gray"
+  },
+  {
+   "hex": "#f5f5f5",
+   "name": "Soft Mist"
+  },
+  {
+   "hex": "#707072",
+   "name": "Steel"
+  },
+  {
+   "hex": "#9e9ea0",
+   "name": "Faint Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/374228ec-917a-49cb-8acb-7dd97aa5ad8a.mp4",
+  "poster": "https://happyhands.cc/design-archive/nike-com-d7ace114/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/nike-com-d7ace114/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/nike-com-d7ace114/thumbnail.jpg"
+}

@@ -1,0 +1,88 @@
+{
+ "id": "c14bfde7-6f08-4b54-bd9b-39989d10cfef",
+ "slug": "render-c14bfde7",
+ "name": "Render",
+ "site_url": "https://render.com",
+ "lastmod": "2026-06-03T15:08:30.275Z",
+ "extracted_at": "2026-06-03T15:08:30.270Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "Blueprint on brushed aluminum. The interface reads as a clean, geometric engineering document — white space, hairline rules, and one violet marker line drawing the eye to the action.",
+ "fonts": [
+  "PPNeueMontreal",
+  "Roobert",
+  "PPNeueMontrealMono"
+ ],
+ "colors": [
+  {
+   "hex": "#0d0d0d",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#e3e3e3",
+   "name": "Graphite Hairline"
+  },
+  {
+   "hex": "#4d4d4d",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#6b6b6b",
+   "name": "Ash"
+  },
+  {
+   "hex": "#272727",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#8a05ff",
+   "name": "Plasma Violet"
+  },
+  {
+   "hex": "#e6daff",
+   "name": "Wisteria Tint"
+  },
+  {
+   "hex": "#48008c",
+   "name": "Deep Indigo"
+  },
+  {
+   "hex": "#d67f2e",
+   "name": "Marigold"
+  },
+  {
+   "hex": "#e96770",
+   "name": "Coral"
+  },
+  {
+   "hex": "#006d4c",
+   "name": "Mint Signal"
+  },
+  {
+   "hex": "#33acff",
+   "name": "Sky Pulse"
+  },
+  {
+   "hex": "#f347ff",
+   "name": "Fuchsia Pop"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/9e2d115e-3700-489a-9bf5-d0fdce5042a5.mp4",
+  "poster": "https://happyhands.cc/design-archive/render-c14bfde7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/render-c14bfde7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/render-c14bfde7/thumbnail.jpg"
+}

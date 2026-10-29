@@ -1,0 +1,74 @@
+{
+ "id": "c55d2f24-deb1-44c1-9846-66a3523beb29",
+ "slug": "codex-io-c55d2f24",
+ "name": "Codex.io",
+ "site_url": "https://www.codex.io",
+ "lastmod": "2026-06-03T22:38:16.621Z",
+ "extracted_at": "2026-06-03T22:38:16.616Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "crypto",
+ "north_star": "Citrine beacon in void — a glowing lime cube anchoring a dark room, with thin white type and scattered node rings floating around it.",
+ "fonts": [
+  "Neue Haas Grotesk Text"
+ ],
+ "colors": [
+  {
+   "hex": "#e5ff5d",
+   "name": "Citrine Signal"
+  },
+  {
+   "hex": "#111111",
+   "name": "Carbon Black"
+  },
+  {
+   "hex": "#f9f9f9",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#2b2b2b",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#6e6e6e",
+   "name": "Ash"
+  },
+  {
+   "hex": "#9c9c9c",
+   "name": "Stone"
+  },
+  {
+   "hex": "#565656",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#d6d6d6",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#b7b3a2",
+   "name": "Sand"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3e26bac9-f291-4f05-a0f4-9d07e0b88d6b.mp4",
+  "poster": "https://happyhands.cc/design-archive/codex-io-c55d2f24/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/codex-io-c55d2f24/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/codex-io-c55d2f24/thumbnail.jpg"
+}

@@ -1,0 +1,72 @@
+{
+ "id": "e02671e1-ba31-465f-bb7f-b124bf91ab5e",
+ "slug": "champions4good-e02671e1",
+ "name": "Champions4good",
+ "site_url": "https://www.champions4good.club",
+ "lastmod": "2026-06-03T19:53:34.036Z",
+ "extracted_at": "2026-06-03T19:53:34.032Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "other",
+ "north_star": "midnight sports broadside — a vintage club poster screaming from a plum-dark wall",
+ "fonts": [
+  "Druk Condensed Super Desktop",
+  "Neue Montreal",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#23002b",
+   "name": "Deep Plum"
+  },
+  {
+   "hex": "#e894ff",
+   "name": "Lavender Shock"
+  },
+  {
+   "hex": "#291900",
+   "name": "Espresso Brown"
+  },
+  {
+   "hex": "#002629",
+   "name": "Ink Teal"
+  },
+  {
+   "hex": "#333333",
+   "name": "Slate"
+  },
+  {
+   "hex": "#121212",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#93ffe4",
+   "name": "Mint Signal"
+  },
+  {
+   "hex": "#ffac47",
+   "name": "Amber Pulse"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/caaad911-fb06-42f8-b916-48061b1ce920.mp4",
+  "poster": "https://happyhands.cc/design-archive/champions4good-e02671e1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/champions4good-e02671e1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/champions4good-e02671e1/thumbnail.jpg"
+}

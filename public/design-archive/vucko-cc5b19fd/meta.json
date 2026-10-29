@@ -1,0 +1,50 @@
+{
+ "id": "cc5b19fd-12cf-4b30-801c-8a0363646e48",
+ "slug": "vucko-cc5b19fd",
+ "name": "Vucko",
+ "site_url": "https://vucko.co",
+ "lastmod": "2026-06-05T12:02:08.192Z",
+ "extracted_at": "2026-06-03T21:40:03.414Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "oversized type on white gallery floor — a type-specimen book where the wordmark is the room.",
+ "fonts": [
+  "Suisse Int'l"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Faint Ash"
+  },
+  {
+   "hex": "#888a8b",
+   "name": "Steel"
+  },
+  {
+   "hex": "#222222",
+   "name": "Charcoal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e2f83363-9fa2-47af-bafa-a16ac164a601.mp4",
+  "poster": "https://happyhands.cc/design-archive/vucko-cc5b19fd/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/vucko-cc5b19fd/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/vucko-cc5b19fd/thumbnail.jpg"
+}

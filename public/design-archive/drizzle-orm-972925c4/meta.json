@@ -1,0 +1,94 @@
+{
+ "id": "972925c4-0caa-4dc2-9c00-798b5be0ad70",
+ "slug": "drizzle-orm-972925c4",
+ "name": "Drizzle ORM",
+ "site_url": "https://orm.drizzle.team",
+ "lastmod": "2026-06-03T17:32:50.888Z",
+ "extracted_at": "2026-06-03T17:32:50.882Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "Rainwater terminal on graph paper — a clean developer workbench where ink-blue notes float over monochrome code, with little raindrop creatures as the only witnesses.",
+ "fonts": [
+  "ui-sans-serif (Inter / system-ui)",
+  "ui-monospace (JetBrains Mono / SF Mono)",
+  "Menlo",
+  "FirstTimeWriting (custom handwriting)",
+  "monospace"
+ ],
+ "colors": [
+  {
+   "hex": "#3e7ff0",
+   "name": "Electric Cobalt"
+  },
+  {
+   "hex": "#006be6",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#222222",
+   "name": "Ink"
+  },
+  {
+   "hex": "#282b3b",
+   "name": "Slate"
+  },
+  {
+   "hex": "#444444",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#334155",
+   "name": "Stone"
+  },
+  {
+   "hex": "#4b5563",
+   "name": "Steel"
+  },
+  {
+   "hex": "#969faf",
+   "name": "Fog"
+  },
+  {
+   "hex": "#909090",
+   "name": "Ash"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f6f6f7",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#f0f0f0",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#cfd9de",
+   "name": "Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2ca7f304-603d-41e3-9668-4324e2f4c910.mp4",
+  "poster": "https://happyhands.cc/design-archive/drizzle-orm-972925c4/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/drizzle-orm-972925c4/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/drizzle-orm-972925c4/thumbnail.jpg"
+}

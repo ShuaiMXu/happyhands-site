@@ -1,0 +1,71 @@
+{
+ "id": "b6f2b036-e48e-452f-b003-941c491015c0",
+ "slug": "liquid-death-b6f2b036",
+ "name": "Liquid Death",
+ "site_url": "https://liquiddeath.com",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-11T17:51:51.532Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "",
+ "north_star": "Heavy Metal Vending Machine",
+ "fonts": [
+  "Acumin Pro",
+  "acumin-pro-condensed"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Death Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#151515",
+   "name": "Off-Black"
+  },
+  {
+   "hex": "#e3e3e3",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#727272",
+   "name": "Gravel Gray"
+  },
+  {
+   "hex": "#f5f5f5",
+   "name": "Light Ash"
+  },
+  {
+   "hex": "#232323",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#999999",
+   "name": "Input Border"
+  },
+  {
+   "hex": "#d2ac5a",
+   "name": "Polished Gold"
+  },
+  {
+   "hex": "#8a6d35",
+   "name": "Antique Gold"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/508998cb-6723-42a2-8465-2f2832c99aea.mp4",
+  "poster": "https://happyhands.cc/design-archive/liquid-death-b6f2b036/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/liquid-death-b6f2b036/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/liquid-death-b6f2b036/thumbnail.jpg"
+}

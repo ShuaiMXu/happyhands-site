@@ -1,0 +1,76 @@
+{
+ "id": "9d16aa65-cef7-4bf7-83c8-91837a248cd9",
+ "slug": "public-9d16aa65",
+ "name": "Public",
+ "site_url": "https://public.com",
+ "lastmod": "2026-06-05T01:09:02.437Z",
+ "extracted_at": "2026-06-03T15:44:12.355Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "monochrome editorial on cold marble — a near-monochrome canvas, a serif at weight 300, one violet accent doing all the chromatic work.",
+ "fonts": [
+  "Denton",
+  "Invest Pro",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f3f6f9",
+   "name": "Marble Canvas"
+  },
+  {
+   "hex": "#e9edf3",
+   "name": "Bone Mist"
+  },
+  {
+   "hex": "#dce2ea",
+   "name": "Fog Line"
+  },
+  {
+   "hex": "#a8b4bf",
+   "name": "Slate Pencil"
+  },
+  {
+   "hex": "#516880",
+   "name": "Steel"
+  },
+  {
+   "hex": "#1b2128",
+   "name": "Lampblack"
+  },
+  {
+   "hex": "#262626",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon Black"
+  },
+  {
+   "hex": "#0027b3",
+   "name": "Violet Ink"
+  },
+  {
+   "hex": "#95d0ff",
+   "name": "Sky Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/1d0edf35-71a4-43d0-b9e7-60cd32d060c3.mp4",
+  "poster": "https://happyhands.cc/design-archive/public-9d16aa65/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/public-9d16aa65/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/public-9d16aa65/thumbnail.jpg"
+}

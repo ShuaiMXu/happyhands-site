@@ -1,0 +1,52 @@
+{
+ "id": "75be52f8-4dbe-45da-9a0e-a11bc92f6927",
+ "slug": "smiling-wolf-75be52f8",
+ "name": "Smiling Wolf",
+ "site_url": "https://www.smilingwolf.co.uk",
+ "lastmod": "2026-06-03T21:32:41.885Z",
+ "extracted_at": "2026-06-03T21:32:41.879Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "agency",
+ "north_star": "Print magazine in monochrome.\n\nTwo-tone cream and near-black panels alternate like editorial spreads; monospace metadata stamps float over large display type with tight tracking.",
+ "fonts": [
+  "sans-serif",
+  "Bagoss Standard",
+  "General Grotesque Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#f7f3f0",
+   "name": "Bone"
+  },
+  {
+   "hex": "#131713",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#bebcb9",
+   "name": "Ash"
+  },
+  {
+   "hex": "#858582",
+   "name": "Graphite"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4b26db23-aa46-469c-a423-39effbbc9504.mp4",
+  "poster": "https://happyhands.cc/design-archive/smiling-wolf-75be52f8/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/smiling-wolf-75be52f8/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/smiling-wolf-75be52f8/thumbnail.jpg"
+}

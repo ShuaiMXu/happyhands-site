@@ -1,0 +1,59 @@
+{
+ "id": "53538d2d-d5a1-4719-9c7a-d7ab1f3a8c8a",
+ "slug": "repeat-53538d2d",
+ "name": "Repeat",
+ "site_url": "https://www.getrepeat.io",
+ "lastmod": "2026-06-03T22:04:27.050Z",
+ "extracted_at": "2026-06-03T22:04:27.043Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Highlighter swipe on warm notebook paper — Repeat's lime washes act like marker strokes across cream stock, with near-black ink and pill-rounded cards floating flat above.",
+ "fonts": [
+  "Poppins",
+  "Montserrat"
+ ],
+ "colors": [
+  {
+   "hex": "#171717",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#ede7e2",
+   "name": "Notebook Cream"
+  },
+  {
+   "hex": "#37352f",
+   "name": "Olive Ink"
+  },
+  {
+   "hex": "#f5ff7d",
+   "name": "Highlight Lime"
+  },
+  {
+   "hex": "#e2d8ff",
+   "name": "Lavender Wash"
+  },
+  {
+   "hex": "#c3d5fc",
+   "name": "Periwinkle Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/9eea3764-924a-4abf-a9c8-fc4a9c55457d.mp4",
+  "poster": "https://happyhands.cc/design-archive/repeat-53538d2d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/repeat-53538d2d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/repeat-53538d2d/thumbnail.jpg"
+}

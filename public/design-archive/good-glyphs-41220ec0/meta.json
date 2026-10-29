@@ -1,0 +1,43 @@
+{
+ "id": "41220ec0-ca0d-4697-a2fc-7a9a50d52e7c",
+ "slug": "good-glyphs-41220ec0",
+ "name": "Good Glyphs",
+ "site_url": "https://goodglyphs.com",
+ "lastmod": "2026-06-05T05:22:21.981Z",
+ "extracted_at": "2026-06-03T18:37:47.037Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "oversized charity poster on mint paper — type so large it behaves as architecture, not text.",
+ "fonts": [
+  "Helvetica Neue",
+  "good-glyphs"
+ ],
+ "colors": [
+  {
+   "hex": "#c7ffcd",
+   "name": "Pledge Mint"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#101010",
+   "name": "Carbon"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3e6f3f2f-665d-446c-b3c0-50a6e5479f25.mp4",
+  "poster": "https://happyhands.cc/design-archive/good-glyphs-41220ec0/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/good-glyphs-41220ec0/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/good-glyphs-41220ec0/thumbnail.jpg"
+}

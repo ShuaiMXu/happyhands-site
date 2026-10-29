@@ -1,0 +1,46 @@
+{
+ "id": "1ff3bd9c-827d-450a-a382-300839768d66",
+ "slug": "agence-k72-1ff3bd9c",
+ "name": "Agence K72",
+ "site_url": "https://k72.ca",
+ "lastmod": "2026-06-03T20:36:00.679Z",
+ "extracted_at": "2026-06-03T20:36:00.675Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "theater marquee at midnight — a single electric spark cutting through cinematic black",
+ "fonts": [
+  "Lausanne"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#4d4d4d",
+   "name": "Iron Gray"
+  },
+  {
+   "hex": "#d3fd50",
+   "name": "Spark Lime"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/1a06b35c-1f6d-454b-9eca-c42265e69e65.mp4",
+  "poster": "https://happyhands.cc/design-archive/agence-k72-1ff3bd9c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/agence-k72-1ff3bd9c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/agence-k72-1ff3bd9c/thumbnail.jpg"
+}

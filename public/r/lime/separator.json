@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "separator",
+  "type": "registry:ui",
+  "title": "Separator",
+  "description": "A hairline between groups.",
+  "author": "design.how",
+  "categories": [
+    "layout"
+  ],
+  "dependencies": [
+    "@base-ui/react@^1.8.0"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/theme.json",
+    "https://happyhands.cc/r/lime/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/lime/components/separator.md",
+    "page": "https://happyhands.cc/design-how/lime/components/separator.md"
+  },
+  "files": [
+    {
+      "path": "registry/lime/ui/separator.tsx",
+      "content": "'use client';\n\nimport {Separator as SeparatorPrimitive} from '@base-ui/react/separator';\nimport {mergeClass} from '@/lib/lime/utils';\n\n// A hairline between groups. By default it is a separator in the accessibility tree. Pass `decorative`\n// when the line only adds look and the grouping is already clear from the content: it then takes\n// role=\"none\" and is hidden from assistive tech. Prefer space to a line when the grouping is already clear.\n\ntype SeparatorProps = SeparatorPrimitive.Props & {\n  /** The line is only visual: role none, no separator announced. */\n  decorative?: boolean;\n};\n\nfunction Separator({className, orientation = 'horizontal', decorative, ...props}: SeparatorProps) {\n  return (\n    <SeparatorPrimitive\n      data-slot=\"separator\"\n      orientation={orientation}\n      role={decorative ? 'none' : undefined}\n      // role none allows no aria-orientation, which Base UI always sets; a decorative line drops it.\n      render={decorative ? ({'aria-orientation': _, ...rest}: React.HTMLAttributes<HTMLDivElement>) => <div {...rest}/> : undefined}\n      className={mergeClass('shrink-0 bg-line data-[orientation=horizontal]:h-px data-[orientation=horizontal]:w-full data-[orientation=vertical]:h-full data-[orientation=vertical]:w-px', className)}\n      {...props}\n    />\n  );\n}\n\nexport {Separator, type SeparatorProps};\n",
+      "type": "registry:ui",
+      "target": "@components/lime/ui/separator.tsx"
+    }
+  ]
+}

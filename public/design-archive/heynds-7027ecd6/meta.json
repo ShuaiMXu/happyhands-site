@@ -1,0 +1,62 @@
+{
+ "id": "7027ecd6-41d9-4bc6-b919-3df5c573b950",
+ "slug": "heynds-7027ecd6",
+ "name": "Heynds",
+ "site_url": "https://www.heynds.com/en",
+ "lastmod": "2026-06-03T21:00:52.636Z",
+ "extracted_at": "2026-06-03T21:00:52.630Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Ember on fresh snow. A single vivid orange flame burning against pristine white, radiating subtle warmth.",
+ "fonts": [
+  "Geist"
+ ],
+ "colors": [
+  {
+   "hex": "#f53900",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#ffe0d6",
+   "name": "Peach Wash"
+  },
+  {
+   "hex": "#fffafa",
+   "name": "Snow Canvas"
+  },
+  {
+   "hex": "#040101",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#827e7e",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#4d4b4b",
+   "name": "Smoke Gray"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Ash Border"
+  },
+  {
+   "hex": "#c0bcbc",
+   "name": "Pebble Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/7f7ff45d-177f-404f-be0d-a9c699d1c117.mp4",
+  "poster": "https://happyhands.cc/design-archive/heynds-7027ecd6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/heynds-7027ecd6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/heynds-7027ecd6/thumbnail.jpg"
+}

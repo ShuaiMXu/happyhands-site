@@ -1,0 +1,91 @@
+{
+ "id": "d4c51049-58eb-404a-9fcb-f195928b1c99",
+ "slug": "warp-d4c51049",
+ "name": "Warp",
+ "site_url": "https://warp.dev",
+ "lastmod": "2026-06-05T04:15:41.823Z",
+ "extracted_at": "2026-06-03T18:10:03.870Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "obsidian command center — a developer's IDE cockpit where the only glow is a single violet phosphor on matte black, and typography carries every signal",
+ "fonts": [
+  "Matter Regular",
+  "Matter",
+  "Geist Mono",
+  "Matter Mono",
+  "Inter",
+  "system-ui sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#121212",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#1e1e1d",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#333333",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#40403f",
+   "name": "Slate Deep"
+  },
+  {
+   "hex": "#faf9f6",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#e3e2e0",
+   "name": "Ash Light"
+  },
+  {
+   "hex": "#b4b4b2",
+   "name": "Ash Mid"
+  },
+  {
+   "hex": "#868684",
+   "name": "Ash"
+  },
+  {
+   "hex": "#a0a0a0",
+   "name": "Ash Mute"
+  },
+  {
+   "hex": "#666469",
+   "name": "Iron"
+  },
+  {
+   "hex": "#080808",
+   "name": "Ink"
+  },
+  {
+   "hex": "#cbb0f7",
+   "name": "Phosphor Violet"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/fe4a05a7-1ce8-422e-bc38-87b1b235677a.mp4",
+  "poster": "https://happyhands.cc/design-archive/warp-d4c51049/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/warp-d4c51049/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/warp-d4c51049/thumbnail.jpg"
+}

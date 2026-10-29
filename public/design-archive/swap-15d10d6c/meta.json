@@ -1,0 +1,85 @@
+{
+ "id": "15d10d6c-1844-46c6-ae69-c99a56e6ad41",
+ "slug": "swap-15d10d6c",
+ "name": "Swap",
+ "site_url": "https://www.swap-commerce.com",
+ "lastmod": "2026-06-05T08:40:40.898Z",
+ "extracted_at": "2026-06-03T20:10:10.783Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Mint editorial greenhouse — pale sage rooms with vivid lime accents and whisper-weight serif type.",
+ "fonts": [
+  "mainFont",
+  "Custom Editorial Serif (swap-serif)",
+  "Custom UI Sans (swap-sans)",
+  "secondaryFont"
+ ],
+ "colors": [
+  {
+   "hex": "#f2ffe3",
+   "name": "Mint Wash"
+  },
+  {
+   "hex": "#a3fda7",
+   "name": "Vivid Lime"
+  },
+  {
+   "hex": "#0d5b3b",
+   "name": "Forest Depth"
+  },
+  {
+   "hex": "#083a26",
+   "name": "Pine Shadow"
+  },
+  {
+   "hex": "#82ff87",
+   "name": "Spring Gradient Start"
+  },
+  {
+   "hex": "#deff82",
+   "name": "Citrus Gradient End"
+  },
+  {
+   "hex": "#000000",
+   "name": "Charcoal Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#2d3637",
+   "name": "Stone Charcoal"
+  },
+  {
+   "hex": "#e9e7e2",
+   "name": "Warm Mist"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Silver Border"
+  },
+  {
+   "hex": "#838676",
+   "name": "Sage Gray"
+  },
+  {
+   "hex": "#9cb0a8",
+   "name": "Eucalyptus"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8d478390-9b9b-495f-897e-83c51808a23f.mp4",
+  "poster": "https://happyhands.cc/design-archive/swap-15d10d6c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/swap-15d10d6c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/swap-15d10d6c/thumbnail.jpg"
+}

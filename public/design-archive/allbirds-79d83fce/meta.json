@@ -1,0 +1,72 @@
+{
+ "id": "79d83fce-84bf-4e12-8039-5d283c98917c",
+ "slug": "allbirds-79d83fce",
+ "name": "Allbirds",
+ "site_url": "https://allbirds.com",
+ "lastmod": "2026-06-03T19:37:16.270Z",
+ "extracted_at": "2026-06-03T19:37:16.265Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Natural materials on white linen",
+ "fonts": [
+  "Self Modern",
+  "Geograph",
+  "HurmeGeometricSans3"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Canvas White"
+  },
+  {
+   "hex": "#212121",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#000000",
+   "name": "True Black"
+  },
+  {
+   "hex": "#e0dacf",
+   "name": "Warm Sand"
+  },
+  {
+   "hex": "#222519",
+   "name": "Olive Char"
+  },
+  {
+   "hex": "#525252",
+   "name": "Iron Gray"
+  },
+  {
+   "hex": "#737373",
+   "name": "Stone"
+  },
+  {
+   "hex": "#6a6767",
+   "name": "Slate Border"
+  },
+  {
+   "hex": "#ece9e2",
+   "name": "Oat Milk"
+  },
+  {
+   "hex": "#bdbab5",
+   "name": "Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2f79d8be-c177-43ae-9be4-6ef97eb9c112.mp4",
+  "poster": "https://happyhands.cc/design-archive/allbirds-79d83fce/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/allbirds-79d83fce/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/allbirds-79d83fce/thumbnail.jpg"
+}

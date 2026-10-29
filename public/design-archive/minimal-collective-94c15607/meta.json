@@ -1,0 +1,42 @@
+{
+ "id": "94c15607-2f19-4dc4-9aec-2b40f28b754f",
+ "slug": "minimal-collective-94c15607",
+ "name": "Minimal Collective",
+ "site_url": "https://minimalcollective.digital",
+ "lastmod": "2026-06-05T02:47:58.990Z",
+ "extracted_at": "2026-06-03T17:27:27.922Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "media",
+ "north_star": "midnight gallery wall",
+ "fonts": [
+  "PolySans"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#5a5a5a",
+   "name": "Ash"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Ghost White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d670203d-fbe8-4bf8-b575-32d95e2c1690.mp4",
+  "poster": "https://happyhands.cc/design-archive/minimal-collective-94c15607/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/minimal-collective-94c15607/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/minimal-collective-94c15607/thumbnail.jpg"
+}

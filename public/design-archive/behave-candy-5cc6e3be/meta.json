@@ -1,0 +1,58 @@
+{
+ "id": "5cc6e3be-1cbd-4d09-9958-9cb82b2487db",
+ "slug": "behave-candy-5cc6e3be",
+ "name": "BEHAVE Candy",
+ "site_url": "https://www.eatbehave.com",
+ "lastmod": "2026-06-05T06:34:11.647Z",
+ "extracted_at": "2026-06-03T19:13:33.506Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "neon candy-aisle pop. A single electric cobalt carries every word, chartreuse lime stabs through as the only accent, and pale lavender makes the whole thing feel lit from within rather than printed.",
+ "fonts": [
+  "Good Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#061fff",
+   "name": "Cobalt Surge"
+  },
+  {
+   "hex": "#d3ff56",
+   "name": "Sour Lime"
+  },
+  {
+   "hex": "#ffcfd1",
+   "name": "Blush Puck"
+  },
+  {
+   "hex": "#efe5ff",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#ceb3ff",
+   "name": "Lilac Bloom"
+  },
+  {
+   "hex": "#dfceff",
+   "name": "Soft Lilac"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/77eee493-80c2-4b4d-9105-bff0e4f9c2a1.mp4",
+  "poster": "https://happyhands.cc/design-archive/behave-candy-5cc6e3be/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/behave-candy-5cc6e3be/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/behave-candy-5cc6e3be/thumbnail.jpg"
+}

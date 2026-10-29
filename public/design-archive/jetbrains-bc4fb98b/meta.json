@@ -1,0 +1,118 @@
+{
+ "id": "bc4fb98b-37ec-480a-b7a9-acd197cbebb9",
+ "slug": "jetbrains-bc4fb98b",
+ "name": "JetBrains",
+ "site_url": "https://jetbrains.com",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-11T19:10:37.048Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "",
+ "north_star": "Neon nebula on obsidian — a black-ground page where violet-blue gradients bloom upward like deep-space imagery, punctuated by hot-pink neon and per-product chromatic icon light.",
+ "fonts": [
+  "JetBrains Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian Ground"
+  },
+  {
+   "hex": "#19191c",
+   "name": "Deep Charcoal"
+  },
+  {
+   "hex": "#343434",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#474749",
+   "name": "Iron"
+  },
+  {
+   "hex": "#757577",
+   "name": "Ash"
+  },
+  {
+   "hex": "#8c8c8",
+   "name": "Slate"
+  },
+  {
+   "hex": "#a3a3a4",
+   "name": "Silver"
+  },
+  {
+   "hex": "#bababb",
+   "name": "Fog"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#18a3fa",
+   "name": "Electric Blue"
+  },
+  {
+   "hex": "#7b61ff",
+   "name": "Violet Pulse"
+  },
+  {
+   "hex": "#6b57ff",
+   "name": "Iris"
+  },
+  {
+   "hex": "#8473ff",
+   "name": "Amethyst"
+  },
+  {
+   "hex": "#2e106a",
+   "name": "Deep Violet"
+  },
+  {
+   "hex": "#f31199",
+   "name": "Neon Pink"
+  },
+  {
+   "hex": "#5a1fd0",
+   "name": "Magenta Glow"
+  },
+  {
+   "hex": "#5a1fd0",
+   "name": "Nebula Violet"
+  },
+  {
+   "hex": "#08deaa",
+   "name": "Aurora Teal"
+  },
+  {
+   "hex": "#0047fd",
+   "name": "Hero Blue Glow"
+  },
+  {
+   "hex": "#f45c4a",
+   "name": "Danger Red"
+  },
+  {
+   "hex": "#4dbb5f",
+   "name": "Success Green"
+  },
+  {
+   "hex": "#f3c033",
+   "name": "Warning Amber"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/18b5c3e7-0d6b-4e3b-b9b8-1a88350b2d3b.mp4",
+  "poster": "https://happyhands.cc/design-archive/jetbrains-bc4fb98b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/jetbrains-bc4fb98b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/jetbrains-bc4fb98b/thumbnail.jpg"
+}

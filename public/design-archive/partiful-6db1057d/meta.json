@@ -1,0 +1,90 @@
+{
+ "id": "6db1057d-3457-4173-9184-df160415f060",
+ "slug": "partiful-6db1057d",
+ "name": "Partiful",
+ "site_url": "https://partiful.com",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-29T23:17:09.758Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "confetti landing on white marble — the page stays quiet and light while the content explodes with color and celebration.",
+ "fonts": [
+  "sans-serif",
+  "Partiful Display Medium",
+  "TWK Lausanne Pan",
+  ".SFNSDisplay / .SFNSText",
+  "TWK Lausanne Pan 550",
+  "TWK Lausanne Pan 400",
+  "TWK Lausanne Pan 700",
+  ".SFNSText",
+  ".SFNSDisplay-Semibold",
+  "TWK Lausanne Pan 600",
+  "TWK Lausanne Pan 650",
+  "TWK Lausanne Pan 500",
+  "TWK Lausanne Pan 850"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure Canvas"
+  },
+  {
+   "hex": "#333333",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#666666",
+   "name": "Slate"
+  },
+  {
+   "hex": "#999999",
+   "name": "Ash"
+  },
+  {
+   "hex": "#b3b3b3",
+   "name": "Fog"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Silver"
+  },
+  {
+   "hex": "#d9c58b",
+   "name": "Warm Sand"
+  },
+  {
+   "hex": "#f8c4ff",
+   "name": "Party Pink"
+  },
+  {
+   "hex": "#96c4ff",
+   "name": "Sky Periwinkle"
+  },
+  {
+   "hex": "#85dadc",
+   "name": "Spearmint"
+  },
+  {
+   "hex": "#001666",
+   "name": "Midnight Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/fc92eb58-1002-4f75-ba36-47a0397aca51.mp4",
+  "poster": "https://happyhands.cc/design-archive/partiful-6db1057d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/partiful-6db1057d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/partiful-6db1057d/thumbnail.jpg"
+}

@@ -1,0 +1,105 @@
+{
+ "id": "af55f85e-1c82-44c1-a8d0-32634bfa6296",
+ "slug": "reducto-af55f85e",
+ "name": "Reducto",
+ "site_url": "https://reducto.ai",
+ "lastmod": "2026-06-05T08:44:40.882Z",
+ "extracted_at": "2026-06-03T19:57:55.685Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Magazine on warm paper",
+ "fonts": [
+  "reductoSerif",
+  "Inter",
+  "reductosans",
+  "Reddit Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#310632",
+   "name": "Aubergine"
+  },
+  {
+   "hex": "#9d17a0",
+   "name": "Magenta Pulse"
+  },
+  {
+   "hex": "#690f6b",
+   "name": "Damson"
+  },
+  {
+   "hex": "#dcbffb",
+   "name": "Lilac Wash"
+  },
+  {
+   "hex": "#a2541b",
+   "name": "Ochre"
+  },
+  {
+   "hex": "#718613",
+   "name": "Moss"
+  },
+  {
+   "hex": "#87a017",
+   "name": "Reed"
+  },
+  {
+   "hex": "#fafaf9",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f5f5f4",
+   "name": "Vellum"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Snow"
+  },
+  {
+   "hex": "#d7ccc1",
+   "name": "Sand"
+  },
+  {
+   "hex": "#e7e5e4",
+   "name": "Driftwood"
+  },
+  {
+   "hex": "#d6d3d1",
+   "name": "Stone"
+  },
+  {
+   "hex": "#292524",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#57534d",
+   "name": "Slate"
+  },
+  {
+   "hex": "#79716b",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#44403b",
+   "name": "Bark"
+  },
+  {
+   "hex": "#a6a09b",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d6016cea-47fa-4c43-9366-45bb900810d9.mp4",
+  "poster": "https://happyhands.cc/design-archive/reducto-af55f85e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/reducto-af55f85e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/reducto-af55f85e/thumbnail.jpg"
+}

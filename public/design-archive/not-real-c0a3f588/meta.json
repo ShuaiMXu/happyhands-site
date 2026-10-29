@@ -1,0 +1,43 @@
+{
+ "id": "c0a3f588-74b7-4fad-b557-1fc7cd7bd777",
+ "slug": "not-real-c0a3f588",
+ "name": "Not Real",
+ "site_url": "https://notreal.tv",
+ "lastmod": "2026-06-05T11:01:14.652Z",
+ "extracted_at": "2026-06-03T21:12:12.230Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Editorial gallery spread on greyscale vellum — a high-end catalog where only the artwork is allowed to scream with color.",
+ "fonts": [
+  "ogg",
+  "telegraf"
+ ],
+ "colors": [
+  {
+   "hex": "#292a2c",
+   "name": "Ink Charcoal"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Vellum"
+  },
+  {
+   "hex": "#000000",
+   "name": "Full Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a856a59a-2a0e-4dc4-81fc-350a343175a4.mp4",
+  "poster": "https://happyhands.cc/design-archive/not-real-c0a3f588/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/not-real-c0a3f588/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/not-real-c0a3f588/thumbnail.jpg"
+}

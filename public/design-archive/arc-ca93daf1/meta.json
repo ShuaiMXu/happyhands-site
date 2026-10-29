@@ -1,0 +1,68 @@
+{
+ "id": "ca93daf1-daf3-41b7-8248-8f63082761e8",
+ "slug": "arc-ca93daf1",
+ "name": "Arc",
+ "site_url": "https://arc.net",
+ "lastmod": "2026-06-03T18:55:59.061Z",
+ "extracted_at": "2026-06-03T18:55:59.053Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Scalloped editorial playground",
+ "fonts": [
+  "Marlin Soft SQ",
+  "Marlin",
+  "InterVariable",
+  "ABC Favorit Mono",
+  "ABC Oracle",
+  "Exposure VAR",
+  "-apple-system"
+ ],
+ "colors": [
+  {
+   "hex": "#3139fb",
+   "name": "Electric Iris"
+  },
+  {
+   "hex": "#2702c2",
+   "name": "Deep Violet"
+  },
+  {
+   "hex": "#fffadd",
+   "name": "Oat"
+  },
+  {
+   "hex": "#fffcec",
+   "name": "Linen"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#696969",
+   "name": "Granite"
+  },
+  {
+   "hex": "#595853",
+   "name": "Olive Stone"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c5b21f78-7c9d-4840-a092-7aee20fe4356.mp4",
+  "poster": "https://happyhands.cc/design-archive/arc-ca93daf1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/arc-ca93daf1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/arc-ca93daf1/thumbnail.jpg"
+}

@@ -1,0 +1,83 @@
+{
+ "id": "f6fbc2fb-ea5d-44cc-a37d-d7896005acbd",
+ "slug": "brand-f6fbc2fb",
+ "name": "Brand",
+ "site_url": "https://brand.dropbox.com",
+ "lastmod": "2026-06-05T12:19:09.031Z",
+ "extracted_at": "2026-06-03T21:51:22.051Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "Chromatic graph paper atlas — a living brand specimen where every color block, headline, and border snaps to an invisible modular grid printed on white.",
+ "fonts": [
+  "Dbsharpgroteskvariable Vf",
+  "Atlasgrotesk Web"
+ ],
+ "colors": [
+  {
+   "hex": "#0061fe",
+   "name": "Dropbox Blue"
+  },
+  {
+   "hex": "#5f9dff",
+   "name": "Dropbox Light"
+  },
+  {
+   "hex": "#fad24b",
+   "name": "Sun Yellow"
+  },
+  {
+   "hex": "#ff8c19",
+   "name": "Tangerine"
+  },
+  {
+   "hex": "#3dd3ee",
+   "name": "Sky Cyan"
+  },
+  {
+   "hex": "#b4dc19",
+   "name": "Lime"
+  },
+  {
+   "hex": "#ffafa5",
+   "name": "Coral"
+  },
+  {
+   "hex": "#c8aff0",
+   "name": "Lavender"
+  },
+  {
+   "hex": "#892055",
+   "name": "Magenta"
+  },
+  {
+   "hex": "#283750",
+   "name": "Slate Navy"
+  },
+  {
+   "hex": "#1e1919",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#736c64",
+   "name": "Graphite"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/924f173d-979b-4a09-9284-d7ce9e70be9d.mp4",
+  "poster": "https://happyhands.cc/design-archive/brand-f6fbc2fb/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/brand-f6fbc2fb/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/brand-f6fbc2fb/thumbnail.jpg"
+}

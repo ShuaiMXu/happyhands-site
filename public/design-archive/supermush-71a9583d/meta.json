@@ -1,0 +1,76 @@
+{
+ "id": "71a9583d-1710-4696-9269-50ca8c9a2cfa",
+ "slug": "supermush-71a9583d",
+ "name": "SuperMush",
+ "site_url": "https://supermush.com",
+ "lastmod": "2026-06-03T18:21:44.034Z",
+ "extracted_at": "2026-06-03T18:21:44.028Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Sun-bleached skate ramp meets wellness billboard. Warm bone canvas, one electric blue action color, and full-bleed lifestyle photography that does the shouting.",
+ "fonts": [
+  "Founders Grotesk",
+  "GT Planar",
+  "Font Awesome 5 Pro"
+ ],
+ "colors": [
+  {
+   "hex": "#2f59f8",
+   "name": "Electric Cobalt"
+  },
+  {
+   "hex": "#ff632a",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#eaff00",
+   "name": "Volt Lime"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#f5f4f1",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Concrete"
+  },
+  {
+   "hex": "#707170",
+   "name": "Ash"
+  },
+  {
+   "hex": "#171717",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#e3e3e3",
+   "name": "Mist"
+  },
+  {
+   "hex": "#d9d9d9",
+   "name": "Pebble"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5678a6ea-3dcf-411a-b79c-3fc34b1a6b70.mp4",
+  "poster": "https://happyhands.cc/design-archive/supermush-71a9583d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/supermush-71a9583d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/supermush-71a9583d/thumbnail.jpg"
+}

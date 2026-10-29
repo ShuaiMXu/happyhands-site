@@ -1,0 +1,91 @@
+{
+ "id": "6734fe92-6a02-45d5-8d72-0c55b37ace82",
+ "slug": "aqua-voice-6734fe92",
+ "name": "Aqua Voice",
+ "site_url": "https://withaqua.com",
+ "lastmod": "2026-06-03T18:59:19.483Z",
+ "extracted_at": "2026-06-03T18:59:19.477Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Whisper on paper — ultra-light type resting on near-white with a single blue drop of color",
+ "fonts": [
+  "sans-serif",
+  "PP Neue Montreal",
+  "PP Neue Montreal",
+  "Inter",
+  "Geist Mono",
+  "IBM Plex Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#67beff",
+   "name": "Sky Signal"
+  },
+  {
+   "hex": "#4288ff",
+   "name": "Electric Iris"
+  },
+  {
+   "hex": "#fafbfc",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f3f7fa",
+   "name": "Mist"
+  },
+  {
+   "hex": "#f2f6fa",
+   "name": "Fog"
+  },
+  {
+   "hex": "#e5e8ec",
+   "name": "Linen"
+  },
+  {
+   "hex": "#efefef",
+   "name": "Ash"
+  },
+  {
+   "hex": "#292c3d",
+   "name": "Inkstone"
+  },
+  {
+   "hex": "#3e4150",
+   "name": "Slate"
+  },
+  {
+   "hex": "#686a76",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#7d7e7e",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#c2c3c8",
+   "name": "Silver"
+  },
+  {
+   "hex": "#171719",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#1e1e20",
+   "name": "Midnight"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/80842e71-a0c9-493e-b747-9b62fe06ab42.mp4",
+  "poster": "https://happyhands.cc/design-archive/aqua-voice-6734fe92/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/aqua-voice-6734fe92/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/aqua-voice-6734fe92/thumbnail.jpg"
+}

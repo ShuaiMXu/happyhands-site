@@ -1,0 +1,72 @@
+{
+ "id": "3e5c272b-8d68-40d8-9726-b4d6914b4b16",
+ "slug": "squadeasy-3e5c272b",
+ "name": "SquadEasy",
+ "site_url": "https://www.squadeasy.com",
+ "lastmod": "2026-06-05T03:14:22.221Z",
+ "extracted_at": "2026-06-03T17:36:27.640Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Polaroid scrapbook on sunlit peach paper",
+ "fonts": [
+  "Medium",
+  "SquadEasy Black (custom display)",
+  "SquadEasy Body (custom sans)",
+  "SquadEasy Regular (custom small text)",
+  "SquadEasy Sharpie (custom handwriting)",
+  "Arial",
+  "Epilogue"
+ ],
+ "colors": [
+  {
+   "hex": "#e1c19e",
+   "name": "Peach Ground"
+  },
+  {
+   "hex": "#e4ff60",
+   "name": "Lime Pop"
+  },
+  {
+   "hex": "#adabff",
+   "name": "Lavender Card"
+  },
+  {
+   "hex": "#ea5da3",
+   "name": "Magenta Marker"
+  },
+  {
+   "hex": "#6fb853",
+   "name": "Moss Link"
+  },
+  {
+   "hex": "#7fb6e6",
+   "name": "Sky Note"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f6f6f6",
+   "name": "Fog Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f9e18d72-1c79-4f1b-847d-5987d422a5a7.mp4",
+  "poster": "https://happyhands.cc/design-archive/squadeasy-3e5c272b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/squadeasy-3e5c272b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/squadeasy-3e5c272b/thumbnail.jpg"
+}

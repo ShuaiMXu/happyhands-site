@@ -1,0 +1,78 @@
+{
+ "id": "a037c352-4315-4650-a16c-08392ffca597",
+ "slug": "rootly-a037c352",
+ "name": "Rootly",
+ "site_url": "https://rootly.com",
+ "lastmod": "2026-06-03T19:22:51.204Z",
+ "extracted_at": "2026-06-03T19:22:51.200Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "violet signal over alpine dawn — thin whisper-type on near-white, with one vivid violet accent rising into a luminous gradient sky",
+ "fonts": [
+  "Ppmori"
+ ],
+ "colors": [
+  {
+   "hex": "#100f12",
+   "name": "Ink"
+  },
+  {
+   "hex": "#fbfaff",
+   "name": "Snow"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#44434e",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#65646e",
+   "name": "Slate"
+  },
+  {
+   "hex": "#787685",
+   "name": "Mist"
+  },
+  {
+   "hex": "#ebe5ff",
+   "name": "Lavender Wash"
+  },
+  {
+   "hex": "#d9cffa",
+   "name": "Lilac Edge"
+  },
+  {
+   "hex": "#8d6fde",
+   "name": "Iris"
+  },
+  {
+   "hex": "#4a3e8a",
+   "name": "Amethyst"
+  },
+  {
+   "hex": "#7748f6",
+   "name": "Dawn Viol"
+  },
+  {
+   "hex": "#f5bbc3",
+   "name": "Rose Drift"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d3e3c54b-1d55-4505-81b3-696d191c4e1a.mp4",
+  "poster": "https://happyhands.cc/design-archive/rootly-a037c352/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/rootly-a037c352/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/rootly-a037c352/thumbnail.jpg"
+}

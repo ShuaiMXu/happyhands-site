@@ -1,0 +1,54 @@
+{
+ "id": "600002c5-c5f5-4df0-adf6-6324ee6255c0",
+ "slug": "farfetch-espan-a-600002c5",
+ "name": "FARFETCH España",
+ "site_url": "https://farfetch.com",
+ "lastmod": "2026-06-05T02:05:12.854Z",
+ "extracted_at": "2026-06-03T17:15:01.137Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "White-cube fashion gallery. Imagine a high-end retail space where the walls, floors, and fixtures have been bleached to bone, leaving only the garments and the people wearing them to provide every hue, texture, and visual weight.",
+ "fonts": [
+  "Farfetch Basis"
+ ],
+ "colors": [
+  {
+   "hex": "#222222",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#b6b6b6",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#f5f5f5",
+   "name": "Stone"
+  },
+  {
+   "hex": "#727272",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#e6e6e6",
+   "name": "Smoke"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c725868c-8cef-4701-b61d-adbe63dea9d0.mp4",
+  "poster": "https://happyhands.cc/design-archive/farfetch-espan-a-600002c5/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/farfetch-espan-a-600002c5/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/farfetch-espan-a-600002c5/thumbnail.jpg"
+}

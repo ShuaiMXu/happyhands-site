@@ -1,0 +1,71 @@
+{
+ "id": "2230ba53-445e-411d-b483-16410a072639",
+ "slug": "home-2230ba53",
+ "name": "Home",
+ "site_url": "https://www.useparallel.com",
+ "lastmod": "2026-06-03T15:53:28.462Z",
+ "extracted_at": "2026-06-03T15:53:28.456Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Warm editorial atelier. Cream paper, charcoal ink, and one ember-orange period of emphasis — a job platform that feels like an art-book spread photographed under amber light.",
+ "fonts": [
+  "Rules Font",
+  "ui-sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#e4dfd9",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Charcoal Ink"
+  },
+  {
+   "hex": "#050505",
+   "name": "Near Black"
+  },
+  {
+   "hex": "#171717",
+   "name": "Pressed Graphite"
+  },
+  {
+   "hex": "#737373",
+   "name": "Slate"
+  },
+  {
+   "hex": "#4b4b4b",
+   "name": "Iron"
+  },
+  {
+   "hex": "#999694",
+   "name": "Stone"
+  },
+  {
+   "hex": "#666666",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#c7c7c7",
+   "name": "Fog"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/75d96cf7-b5e8-4c42-aec1-cf8dae92554f.mp4",
+  "poster": "https://happyhands.cc/design-archive/home-2230ba53/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/home-2230ba53/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/home-2230ba53/thumbnail.jpg"
+}

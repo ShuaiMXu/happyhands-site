@@ -1,0 +1,48 @@
+{
+ "id": "5528d10f-2e7d-4502-aa49-7bde290e8fe2",
+ "slug": "diabla-5528d10f",
+ "name": "Diabla",
+ "site_url": "https://www.diablaoutdoor.com/en",
+ "lastmod": "2026-06-05T05:13:24.709Z",
+ "extracted_at": "2026-06-03T18:33:25.015Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Mediterranean courtyard at noon — sun-bleached pink walls, one bold red canvas awning, and editorial serif headlines stretched across the sky.",
+ "fonts": [
+  "LinotypeHelveticaNeueLTStdLt",
+  "LinotypeHelveticaNeueLTStdRoman",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#ed2e38",
+   "name": "Vermillion"
+  },
+  {
+   "hex": "#fcf0f3",
+   "name": "Blush Canvas"
+  },
+  {
+   "hex": "#333333",
+   "name": "Charcoal Ink"
+  },
+  {
+   "hex": "#000000",
+   "name": "Onyx"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/39c2035f-6587-4999-a323-9b7c6bb8e821.mp4",
+  "poster": "https://happyhands.cc/design-archive/diabla-5528d10f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/diabla-5528d10f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/diabla-5528d10f/thumbnail.jpg"
+}

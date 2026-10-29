@@ -1,0 +1,54 @@
+{
+ "id": "e79b761d-f476-4c5d-8943-e31a58664e4d",
+ "slug": "t1-energy-e79b761d",
+ "name": "T1 Energy",
+ "site_url": "https://t1energy.com",
+ "lastmod": "2026-06-05T01:18:33.130Z",
+ "extracted_at": "2026-06-03T16:19:26.410Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Factory floor blueprint on warm vellum — a quiet, monochromatic stage where industrial scale and whisper-light typography carry the entire brand.",
+ "fonts": [
+  "T1 Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#f0efe9",
+   "name": "Vellum"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#322d2a",
+   "name": "Carbon Warm"
+  },
+  {
+   "hex": "#0f0e12",
+   "name": "Onyx Depth"
+  },
+  {
+   "hex": "#8b8b8b",
+   "name": "Mercury"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4004d7ac-01a0-4d61-997c-eace7a73c6da.mp4",
+  "poster": "https://happyhands.cc/design-archive/t1-energy-e79b761d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/t1-energy-e79b761d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/t1-energy-e79b761d/thumbnail.jpg"
+}

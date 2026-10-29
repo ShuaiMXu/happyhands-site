@@ -1,0 +1,58 @@
+{
+ "id": "4782832c-1c23-4fe3-997c-2a08d7b6c5d1",
+ "slug": "gamma-4782832c",
+ "name": "Gamma",
+ "site_url": "https://www.gamma.io",
+ "lastmod": "2026-06-05T08:13:45.311Z",
+ "extracted_at": "2026-06-03T19:45:15.850Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "crypto",
+ "north_star": "white-walled art gallery. The UI is a silent frame; the artwork is the only thing that should be loud.",
+ "fonts": [
+  "Gamma Sans Display"
+ ],
+ "colors": [
+  {
+   "hex": "#0c0c0d",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#e9e9ec",
+   "name": "Ash"
+  },
+  {
+   "hex": "#808080",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#242629",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#1d1d1e",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#e09bb5",
+   "name": "Blush to Violet"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/9756f72d-57c0-4afe-8356-77bb4be2637d.mp4",
+  "poster": "https://happyhands.cc/design-archive/gamma-4782832c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/gamma-4782832c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/gamma-4782832c/thumbnail.jpg"
+}

@@ -1,0 +1,68 @@
+{
+ "id": "46781641-8afd-4b01-9f67-06046b6eda71",
+ "slug": "microsoft-ai-46781641",
+ "name": "Microsoft AI",
+ "site_url": "https://microsoft.ai",
+ "lastmod": "2026-06-05T02:24:54.649Z",
+ "extracted_at": "2026-06-03T15:50:27.167Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "ai",
+ "north_star": "old library at golden hour",
+ "fonts": [
+  "Bradford LL",
+  "Red Hat Mono",
+  "MWF-MDL2"
+ ],
+ "colors": [
+  {
+   "hex": "#fef9ed",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#f5f0e4",
+   "name": "Bone"
+  },
+  {
+   "hex": "#5d524b",
+   "name": "Walnut"
+  },
+  {
+   "hex": "#72675b",
+   "name": "Cedar"
+  },
+  {
+   "hex": "#cec7bc",
+   "name": "Linen"
+  },
+  {
+   "hex": "#2e4d4d",
+   "name": "Library Ink"
+  },
+  {
+   "hex": "#fbd3be",
+   "name": "Apricot Wash"
+  },
+  {
+   "hex": "#8c5462",
+   "name": "Faded Rose"
+  },
+  {
+   "hex": "#666583",
+   "name": "Slate Lilac"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4ec447bc-bcca-4bcd-9834-daf9de0568e4.mp4",
+  "poster": "https://happyhands.cc/design-archive/microsoft-ai-46781641/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/microsoft-ai-46781641/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/microsoft-ai-46781641/thumbnail.jpg"
+}

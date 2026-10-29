@@ -1,0 +1,75 @@
+{
+ "id": "65b8df27-36a3-47a6-be53-735d1f6a485d",
+ "slug": "rekki-65b8df27",
+ "name": "REKKI",
+ "site_url": "https://rekki.com",
+ "lastmod": "2026-06-05T09:12:30.728Z",
+ "extracted_at": "2026-06-03T20:24:24.551Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "saas",
+ "north_star": "Mission control dashboard in a darkroom",
+ "fonts": [
+  "sans-serif",
+  "Diatype REKKI",
+  "Diatype REKKI Bolder Rounded",
+  "OCD-GARRI",
+  "Diatype REKKI Regular",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#0063e1",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#040910",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#0d0d0d",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#1f1f1f",
+   "name": "Iron"
+  },
+  {
+   "hex": "#2b2c2e",
+   "name": "Steel"
+  },
+  {
+   "hex": "#858585",
+   "name": "Ash"
+  },
+  {
+   "hex": "#979797",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#8c8c8c",
+   "name": "Fog"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6c396e3b-9733-4fd2-b2a3-b186261b230d.mp4",
+  "poster": "https://happyhands.cc/design-archive/rekki-65b8df27/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/rekki-65b8df27/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/rekki-65b8df27/thumbnail.jpg"
+}

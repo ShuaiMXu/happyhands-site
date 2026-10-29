@@ -1,0 +1,48 @@
+{
+ "id": "ab1b113a-ed21-4512-acc2-d10c8927c410",
+ "slug": "look-inc-ab1b113a",
+ "name": "Look inc",
+ "site_url": "https://look.inc",
+ "lastmod": "2026-06-05T03:05:19.104Z",
+ "extracted_at": "2026-06-03T17:34:00.444Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "White-walled gallery on a press proof. A typographic system of black serif and grotesque sans surrounds large documentary photography on pure white — the interface is the negative space between stories.",
+ "fonts": [
+  "Old Standard TT",
+  "GT America",
+  "-apple-system"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Press Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Proof White"
+  },
+  {
+   "hex": "#878787",
+   "name": "Galley Gray"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Rule Line"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/30f10f80-c23e-41d9-85d9-f74d653584ec.mp4",
+  "poster": "https://happyhands.cc/design-archive/look-inc-ab1b113a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/look-inc-ab1b113a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/look-inc-ab1b113a/thumbnail.jpg"
+}

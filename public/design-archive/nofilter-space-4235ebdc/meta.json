@@ -1,0 +1,42 @@
+{
+ "id": "4235ebdc-a070-46ef-abbf-692151449bea",
+ "slug": "nofilter-space-4235ebdc",
+ "name": "Nofilter.space",
+ "site_url": "https://www.nofilter.space",
+ "lastmod": "2026-06-05T09:02:53.680Z",
+ "extracted_at": "2026-06-03T20:08:13.987Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "Brutalist fashion zine on white paper. A disciplined, zero-color editorial grid where every hairline, checkbox, and line break is intentional.",
+ "fonts": [
+  "pragmatica"
+ ],
+ "colors": [
+  {
+   "hex": "#333333",
+   "name": "Ink"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2462f877-3a8e-4a3e-944b-3f8e7dc69cc8.mp4",
+  "poster": "https://happyhands.cc/design-archive/nofilter-space-4235ebdc/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/nofilter-space-4235ebdc/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/nofilter-space-4235ebdc/thumbnail.jpg"
+}

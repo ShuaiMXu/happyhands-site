@@ -1,0 +1,63 @@
+{
+ "id": "7af0134b-c299-42f8-9d95-7004e2d0e278",
+ "slug": "patch-7af0134b",
+ "name": "Patch",
+ "site_url": "https://thepatchsystem.com",
+ "lastmod": "2026-06-03T21:15:15.875Z",
+ "extracted_at": "2026-06-03T21:15:15.868Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "electric blueprint on drafting paper",
+ "fonts": [
+  "PP Right",
+  "Archivo"
+ ],
+ "colors": [
+  {
+   "hex": "#1f00ff",
+   "name": "Electric Indigo"
+  },
+  {
+   "hex": "#ff622b",
+   "name": "Patch Orange"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#f8f8f8",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ececec",
+   "name": "Mist"
+  },
+  {
+   "hex": "#d3d3d3",
+   "name": "Gridline"
+  },
+  {
+   "hex": "#212121",
+   "name": "Ink"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c8f4c739-b52a-40ad-a72b-b76d3813598a.mp4",
+  "poster": "https://happyhands.cc/design-archive/patch-7af0134b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/patch-7af0134b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/patch-7af0134b/thumbnail.jpg"
+}

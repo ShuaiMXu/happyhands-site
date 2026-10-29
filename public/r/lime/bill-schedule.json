@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "bill-schedule",
+  "type": "registry:ui",
+  "title": "Bill schedule",
+  "description": "The bills coming up in date order, each under a date tile, with who pays it.",
+  "author": "design.how",
+  "categories": [
+    "display"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/amount.json",
+    "https://happyhands.cc/r/lime/theme.json",
+    "https://happyhands.cc/r/lime/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/lime/components/bill-schedule.md",
+    "page": "https://happyhands.cc/design-how/lime/components/bill-schedule.md"
+  },
+  "files": [
+    {
+      "path": "registry/lime/ui/bill-schedule.tsx",
+      "content": "import {cn} from '@/lib/lime/utils';\nimport {Amount, amountAffordability} from '@/components/lime/ui/amount';\n\n// The bills coming up, in date order, each under a small date tile: the weekday over the day of the month.\n// The tile is what sets it apart from a list of payments: the person reads when first, then who, then how\n// much. Each bill says who pays it, the assistant on its own or you, so nothing goes out unseen. Pass\n// `available` and a bill the account cannot cover tones its amount and says so under its name. A paid\n// bill greys out and keeps its place, so the order never jumps.\n\ntype Bill = {\n  name: string;\n  /** The due date. Only the weekday and day are shown. */\n  due: Date;\n  /** Signed: negative is money out. */\n  amount: number;\n  /** autopay is paid by the assistant on the day; manual waits for you. */\n  pay: 'autopay' | 'manual';\n  paid?: boolean;\n};\n\ntype BillScheduleProps = Omit<React.ComponentProps<'ol'>, 'children'> & {\n  bills: Bill[];\n  /** The money in the account, so a bill it cannot cover warns. */\n  available?: number;\n  /** The words for a bill the assistant pays, such as \"Lime pays\". */\n  autopayLabel?: string;\n};\n\nconst weekday = new Intl.DateTimeFormat('en-US', {weekday: 'short', timeZone: 'UTC'});\nconst day = new Intl.DateTimeFormat('en-US', {day: 'numeric', timeZone: 'UTC'});\nconst spoken = new Intl.DateTimeFormat('en-US', {weekday: 'long', month: 'long', day: 'numeric', timeZone: 'UTC'});\n\n// A bill with no pay makes no claim: guessing \"You pay\" would hide a bill that goes out on its own.\nfunction payer(bill: Bill, autopayLabel: string) {\n  if (bill.paid) return 'Paid';\n  return bill.pay === 'autopay' ? autopayLabel : bill.pay === 'manual' ? 'You pay' : null;\n}\n\nfunction BillSchedule({bills, available, autopayLabel = 'Paid for you', className, ...props}: BillScheduleProps) {\n  return (\n    <ol data-slot=\"bill-schedule\" className={cn('flex w-full min-w-0 flex-col gap-3', className)} {...props}>\n      {bills.map(bill => {\n        const note = payer(bill, autopayLabel);\n        return <li key={`${bill.name}-${bill.due.toISOString()}`} data-paid={bill.paid || undefined} className={cn('flex min-w-0 items-center gap-3', bill.paid && 'text-fg-3')}>\n          <time dateTime={bill.due.toISOString().slice(0, 10)} className=\"flex w-10 shrink-0 flex-col items-center rounded-field bg-surface py-1 leading-none\">\n            <span className=\"sr-only\">{spoken.format(bill.due)}</span>\n            <span aria-hidden=\"true\" className=\"text-xs text-fg-3\">{weekday.format(bill.due)}</span>\n            <span aria-hidden=\"true\" className=\"pt-1 text-base font-semibold tabular-nums\">{day.format(bill.due)}</span>\n          </time>\n          <div className=\"flex min-w-0 flex-1 flex-col gap-0.5\">\n            <p className={cn('truncate text-sm font-medium', bill.paid && 'text-fg-3')}>{bill.name}</p>\n            {!bill.paid && amountAffordability(bill.amount, available) === 'insufficient'\n              ? <p className=\"truncate text-xs text-danger-text\">Not enough to cover it</p>\n              : note && <p className=\"truncate text-xs text-fg-3\">{note}</p>}\n          </div>\n          <Amount value={bill.amount} available={bill.paid ? undefined : available} className={cn(bill.paid && 'text-fg-3')}/>\n        </li>;\n      })}\n    </ol>\n  );\n}\n\nexport {BillSchedule, type BillScheduleProps, type Bill};\n",
+      "type": "registry:ui",
+      "target": "@components/lime/ui/bill-schedule.tsx"
+    }
+  ]
+}

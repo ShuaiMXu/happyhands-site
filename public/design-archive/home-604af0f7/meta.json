@@ -1,0 +1,67 @@
+{
+ "id": "604af0f7-b4c3-4921-93af-9da03df81493",
+ "slug": "home-604af0f7",
+ "name": "Home",
+ "site_url": "https://www.swoosh.nike",
+ "lastmod": "2026-06-03T20:50:19.035Z",
+ "extracted_at": "2026-06-03T20:50:19.014Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ecommerce",
+ "north_star": "Neon-lit gaming arena at midnight — black floor, one electric lime, and tournament-scale typography screaming from the walls.",
+ "fonts": [
+  "Font Roobert",
+  "ui-sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#b7ff2c",
+   "name": "Lime Pulse"
+  },
+  {
+   "hex": "#111111",
+   "name": "Midnight Canvas"
+  },
+  {
+   "hex": "#1f1f21",
+   "name": "Card Charcoal"
+  },
+  {
+   "hex": "#28282a",
+   "name": "Card Border Ink"
+  },
+  {
+   "hex": "#39393b",
+   "name": "Footer Rule"
+  },
+  {
+   "hex": "#707072",
+   "name": "Steel Border"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Fog Border"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/dfca15fd-0067-4d33-8242-0b38597abb05.mp4",
+  "poster": "https://happyhands.cc/design-archive/home-604af0f7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/home-604af0f7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/home-604af0f7/thumbnail.jpg"
+}

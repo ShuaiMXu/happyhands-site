@@ -1,0 +1,71 @@
+{
+ "id": "5d273906-0110-48cf-99cd-63a72eb9c586",
+ "slug": "gte-5d273906",
+ "name": "GTE",
+ "site_url": "https://www.gte.xyz",
+ "lastmod": "2026-06-05T04:26:21.514Z",
+ "extracted_at": "2026-06-03T18:14:15.268Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "crypto",
+ "north_star": "Trading terminal behind gallery lighting",
+ "fonts": [
+  "sans-serif",
+  "Ogg Text Light",
+  "Inter",
+  "PP Supply Mono",
+  "PP Supply Mono Regular",
+  "PP Supply Mono Medium"
+ ],
+ "colors": [
+  {
+   "hex": "#ff7817",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Vellum"
+  },
+  {
+   "hex": "#18181b",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#09090b",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#000000",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#ebebeb",
+   "name": "Bone"
+  },
+  {
+   "hex": "#71717a",
+   "name": "Slate"
+  },
+  {
+   "hex": "#a1a1aa",
+   "name": "Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/45a983c9-547e-43c6-9041-6324a623f2a0.mp4",
+  "poster": "https://happyhands.cc/design-archive/gte-5d273906/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/gte-5d273906/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/gte-5d273906/thumbnail.jpg"
+}

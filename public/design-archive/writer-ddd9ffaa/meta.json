@@ -1,0 +1,83 @@
+{
+ "id": "ddd9ffaa-d831-4cb4-a5bf-a1efce421dca",
+ "slug": "writer-ddd9ffaa",
+ "name": "WRITER",
+ "site_url": "https://writer.com",
+ "lastmod": "2026-06-05T02:55:42.134Z",
+ "extracted_at": "2026-06-03T17:30:50.573Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "editorial AI atelier — a white marble newsroom where pill-shaped controls and a single violet accent turn enterprise software into confident editorial design",
+ "fonts": [
+  "Poppins",
+  "CanelaDeck"
+ ],
+ "colors": [
+  {
+   "hex": "#a95ef8",
+   "name": "Orchid Accent"
+  },
+  {
+   "hex": "#5551ff",
+   "name": "Iris Brand"
+  },
+  {
+   "hex": "#e4e9ff",
+   "name": "Lavender Wash"
+  },
+  {
+   "hex": "#007aff",
+   "name": "Cobalt Spark"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#27272b",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#2d2d2d",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#e4e7ed",
+   "name": "Mist"
+  },
+  {
+   "hex": "#d2d4d7",
+   "name": "Fog"
+  },
+  {
+   "hex": "#bdbdbd",
+   "name": "Ash"
+  },
+  {
+   "hex": "#666666",
+   "name": "Slate"
+  },
+  {
+   "hex": "#f7c8ed",
+   "name": "Privacy Banner Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6a8490f6-5607-4576-a914-0a65b6cf7b49.mp4",
+  "poster": "https://happyhands.cc/design-archive/writer-ddd9ffaa/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/writer-ddd9ffaa/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/writer-ddd9ffaa/thumbnail.jpg"
+}

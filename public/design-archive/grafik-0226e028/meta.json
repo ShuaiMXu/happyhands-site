@@ -1,0 +1,42 @@
+{
+ "id": "0226e028-3cd3-440d-b469-ca459267161d",
+ "slug": "grafik-0226e028",
+ "name": "Grafik",
+ "site_url": "https://grafik.co.nz",
+ "lastmod": "2026-06-05T07:35:42.413Z",
+ "extracted_at": "2026-06-03T19:39:48.463Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Editorial gallery on warm paper. A design annual laid out as a full-bleed screen — typographic grid lines, monochrome photography, and nothing between the work and the page.",
+ "fonts": [
+  "Grotesk"
+ ],
+ "colors": [
+  {
+   "hex": "#f0eeeb",
+   "name": "Bone"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4729835b-a810-4034-9046-c3abc9f81ab0.mp4",
+  "poster": "https://happyhands.cc/design-archive/grafik-0226e028/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/grafik-0226e028/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/grafik-0226e028/thumbnail.jpg"
+}

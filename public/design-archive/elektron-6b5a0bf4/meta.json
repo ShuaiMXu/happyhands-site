@@ -1,0 +1,62 @@
+{
+ "id": "6b5a0bf4-3d2a-4c3b-aa2e-652f1acb82c0",
+ "slug": "elektron-6b5a0bf4",
+ "name": "Elektron",
+ "site_url": "https://elektron.se",
+ "lastmod": "2026-06-03T18:02:54.125Z",
+ "extracted_at": "2026-06-03T18:02:54.118Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ecommerce",
+ "north_star": "Hardware control panel at midnight — a near-black canvas where product photography glows and the interface stays almost invisible.",
+ "fonts": [
+  "Neue Haas Grotesk Text Pro",
+  "Neue Haas Grotesk Display Pro",
+  "digi one v2",
+  "NHaasGroteskDSPro",
+  "Analog One V2."
+ ],
+ "colors": [
+  {
+   "hex": "#222222",
+   "name": "Page Canvas"
+  },
+  {
+   "hex": "#151515",
+   "name": "Deep Surface"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void"
+  },
+  {
+   "hex": "#eeeef2",
+   "name": "Platinum"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#333337",
+   "name": "Iron"
+  },
+  {
+   "hex": "#b4b4b8",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/dc38c05e-4cdd-4008-be58-37219266f49c.mp4",
+  "poster": "https://happyhands.cc/design-archive/elektron-6b5a0bf4/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/elektron-6b5a0bf4/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/elektron-6b5a0bf4/thumbnail.jpg"
+}

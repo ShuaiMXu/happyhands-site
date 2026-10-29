@@ -1,0 +1,75 @@
+{
+ "id": "8b4a1a95-9dbf-4565-ace7-c4cf48eb028a",
+ "slug": "2-ag-8b4a1a95",
+ "name": "2.AG",
+ "site_url": "https://2ag.com",
+ "lastmod": "2026-06-03T18:45:13.084Z",
+ "extracted_at": "2026-06-03T18:45:13.079Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Clinical apothecary under teal light — a measured, prescriptive wellness brand that treats the product shot like a specimen slide.",
+ "fonts": [
+  "Inter Tight",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#244d54",
+   "name": "Deep Teal"
+  },
+  {
+   "hex": "#2ecea0",
+   "name": "Mint Pulse"
+  },
+  {
+   "hex": "#6dddbd",
+   "name": "Soft Teal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#151515",
+   "name": "Ink"
+  },
+  {
+   "hex": "#4d4d4d",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#858585",
+   "name": "Slate"
+  },
+  {
+   "hex": "#999999",
+   "name": "Fog"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Mist"
+  },
+  {
+   "hex": "#f0f1f2",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/7b14ae7b-dc15-4b33-9077-e4e3a36106aa.mp4",
+  "poster": "https://happyhands.cc/design-archive/2-ag-8b4a1a95/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/2-ag-8b4a1a95/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/2-ag-8b4a1a95/thumbnail.jpg"
+}

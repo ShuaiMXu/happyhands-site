@@ -1,0 +1,72 @@
+{
+ "id": "7266b546-2fb0-465c-acd6-79001c39829a",
+ "slug": "tesla-7266b546",
+ "name": "Tesla",
+ "site_url": "https://tesla.com",
+ "lastmod": "2026-05-11T16:25:39.831Z",
+ "extracted_at": "2026-04-11T17:46:47.791Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "",
+ "north_star": "Automotive Showroom on Screen. High-fidelity product visuals dominate, framed by a minimal, functional interface that gets out of the way.",
+ "fonts": [
+  "Universal Sans Display",
+  "Universal Sans Text",
+  "Roboto"
+ ],
+ "colors": [
+  {
+   "hex": "#3e6ae1",
+   "name": "Tesla Blue"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Off-White"
+  },
+  {
+   "hex": "#e5e3df",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Light Border"
+  },
+  {
+   "hex": "#8e8e8",
+   "name": "Subtle Gray"
+  },
+  {
+   "hex": "#5c5e62",
+   "name": "Steel"
+  },
+  {
+   "hex": "#393c41",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#171a20",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/73c7c26c-e9ee-44ee-925f-448a5769a8ed.mp4",
+  "poster": "https://happyhands.cc/design-archive/tesla-7266b546/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/tesla-7266b546/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/tesla-7266b546/thumbnail.jpg"
+}

@@ -1,0 +1,82 @@
+{
+ "id": "c8c22958-ec50-47f1-aedc-a131d7aeb442",
+ "slug": "dialog-c8c22958",
+ "name": "Dialog",
+ "site_url": "https://askdialog.com",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-12T10:44:14.833Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Neutral showroom with one warm price tag. Every surface is a different tone of off-white; the orange CTA is the only color in the room.",
+ "fonts": [
+  "PP Radio Grotesk Light",
+  "Inter",
+  "Inter Variable",
+  "Inter Display",
+  "sans-serif (system fallback)"
+ ],
+ "colors": [
+  {
+   "hex": "#f69251",
+   "name": "Tangerine Tag"
+  },
+  {
+   "hex": "#181825",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#484758",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#242433",
+   "name": "Deep Slate"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#636363",
+   "name": "Stone"
+  },
+  {
+   "hex": "#949494",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#8b8b8b",
+   "name": "Ash"
+  },
+  {
+   "hex": "#f7f7f7",
+   "name": "Fog"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Snow"
+  },
+  {
+   "hex": "#fad7c1",
+   "name": "Peach Whisper"
+  },
+  {
+   "hex": "#c97b84",
+   "name": "Dusty Rose"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6bd85d97-0853-4e30-b7ee-6e76c8114e36.mp4",
+  "poster": "https://happyhands.cc/design-archive/dialog-c8c22958/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/dialog-c8c22958/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/dialog-c8c22958/thumbnail.jpg"
+}

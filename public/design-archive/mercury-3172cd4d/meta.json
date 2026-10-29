@@ -1,0 +1,67 @@
+{
+ "id": "3172cd4d-118a-4a16-a259-6b634d32322e",
+ "slug": "mercury-3172cd4d",
+ "name": "Mercury",
+ "site_url": "https://mercury.com",
+ "lastmod": "2026-07-03T09:48:25.435Z",
+ "extracted_at": "2026-07-03T02:46:39.901Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "fintech",
+ "north_star": "Alpine banking at blue hour",
+ "fonts": [
+  "arcadia",
+  "arcadiaDisplay"
+ ],
+ "colors": [
+  {
+   "hex": "#171721",
+   "name": "Onyx Canvas"
+  },
+  {
+   "hex": "#1e1e2a",
+   "name": "Graphite Card"
+  },
+  {
+   "hex": "#272735",
+   "name": "Obsidian Button"
+  },
+  {
+   "hex": "#70707d",
+   "name": "Slate Border"
+  },
+  {
+   "hex": "#e2e3ed",
+   "name": "Mist Border"
+  },
+  {
+   "hex": "#c3c3cc",
+   "name": "Ash Text"
+  },
+  {
+   "hex": "#ededf3",
+   "name": "Ivory Text"
+  },
+  {
+   "hex": "#5266eb",
+   "name": "Cobalt"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/9a1861cd-385b-41a6-9d47-62239b2c8a0f.mp4",
+  "poster": "https://happyhands.cc/design-archive/mercury-3172cd4d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/mercury-3172cd4d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/mercury-3172cd4d/thumbnail.jpg"
+}

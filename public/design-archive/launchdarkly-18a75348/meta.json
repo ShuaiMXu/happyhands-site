@@ -1,0 +1,84 @@
+{
+ "id": "18a75348-513a-49d8-94f5-e2df8c118b6b",
+ "slug": "launchdarkly-18a75348",
+ "name": "LaunchDarkly",
+ "site_url": "https://launchdarkly.com",
+ "lastmod": "2026-06-05T02:56:34.842Z",
+ "extracted_at": "2026-06-03T17:40:10.191Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "Neon control room — a dark cockpit where violet signals pulse through charcoal panels.",
+ "fonts": [
+  "bodyFont",
+  "Sohne / custom grotesk",
+  "Sohne Mono / JetBrains Mono",
+  "monoFont",
+  "Arial",
+  "Helvetica",
+  "headingFont1"
+ ],
+ "colors": [
+  {
+   "hex": "#7084ff",
+   "name": "Signal Violet"
+  },
+  {
+   "hex": "#405bff",
+   "name": "Voltage Blue"
+  },
+  {
+   "hex": "#0e0e0e",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#191919",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#414042",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#58595b",
+   "name": "Steel"
+  },
+  {
+   "hex": "#6d6e71",
+   "name": "Slate"
+  },
+  {
+   "hex": "#a7a9ac",
+   "name": "Fog"
+  },
+  {
+   "hex": "#d1d3d4",
+   "name": "Ash"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#2c2c2c",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#3dd6f5",
+   "name": "Plasma Cyan"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8b7c1764-b8c0-4d71-9b7e-6bd84bce04ad.mp4",
+  "poster": "https://happyhands.cc/design-archive/launchdarkly-18a75348/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/launchdarkly-18a75348/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/launchdarkly-18a75348/thumbnail.jpg"
+}

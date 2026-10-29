@@ -1,0 +1,50 @@
+{
+ "id": "c8ca6c83-3197-4b19-af1c-b29d6f829c5f",
+ "slug": "dul-zorigoo-c8ca6c83",
+ "name": "Dul Zorigoo",
+ "site_url": "https://dzrgo.com",
+ "lastmod": "2026-06-05T02:35:30.181Z",
+ "extracted_at": "2026-06-03T17:22:00.899Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "ink-and-pencil gallery wall — a designer's portfolio rendered as monochrome exhibition panels on white, where structure is drawn not filled",
+ "fonts": [
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#ebebeb",
+   "name": "Pencil Gray"
+  },
+  {
+   "hex": "#a8a8a8",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#8e8e8e",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#252525",
+   "name": "Ink Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/1b60cde5-9c2e-4199-ab00-d20ded4483e4.mp4",
+  "poster": "https://happyhands.cc/design-archive/dul-zorigoo-c8ca6c83/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/dul-zorigoo-c8ca6c83/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/dul-zorigoo-c8ca6c83/thumbnail.jpg"
+}

@@ -1,0 +1,66 @@
+{
+ "id": "485ae5fb-8f25-4aa3-a4e4-1deb1590d7d6",
+ "slug": "cord-com-485ae5fb",
+ "name": "cord.com",
+ "site_url": "https://cord.com",
+ "lastmod": "2026-06-03T17:34:11.490Z",
+ "extracted_at": "2026-06-03T17:34:11.484Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "deep ocean signal station — a deep-navy command deck set against white sea-fog, punctuated by one bright blue flare",
+ "fonts": [
+  "Figtree"
+ ],
+ "colors": [
+  {
+   "hex": "#0b3658",
+   "name": "Midnight Harbor"
+  },
+  {
+   "hex": "#4e9ad9",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#486984",
+   "name": "Slate Channel"
+  },
+  {
+   "hex": "#688dac",
+   "name": "Pale Steel"
+  },
+  {
+   "hex": "#dde7ee",
+   "name": "Sea Fog"
+  },
+  {
+   "hex": "#e6f1fa",
+   "name": "Ice Tint"
+  },
+  {
+   "hex": "#c8d8e4",
+   "name": "Light Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Canvas White"
+  },
+  {
+   "hex": "#42b3b1",
+   "name": "Active Teal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/cc1157a9-7057-42a2-83cf-f56b652cbf08.mp4",
+  "poster": "https://happyhands.cc/design-archive/cord-com-485ae5fb/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/cord-com-485ae5fb/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/cord-com-485ae5fb/thumbnail.jpg"
+}

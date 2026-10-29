@@ -1,0 +1,74 @@
+{
+ "id": "ec0f5bca-8367-49e7-b8aa-73b3fa09a4a0",
+ "slug": "things-ec0f5bca",
+ "name": "Things",
+ "site_url": "https://culturedcode.com/things",
+ "lastmod": "2026-06-03T15:34:27.513Z",
+ "extracted_at": "2026-06-03T15:34:27.509Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Apple keynote at half volume — a gallery wall of tilted product frames floating on a quiet cool-gray canvas, with one vivid blue spark pulling the eye to every interactive moment.",
+ "fonts": [
+  "ui-sans-serif (system stack: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display')"
+ ],
+ "colors": [
+  {
+   "hex": "#303336",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f2f5f7",
+   "name": "Mist"
+  },
+  {
+   "hex": "#838b96",
+   "name": "Fog"
+  },
+  {
+   "hex": "#55606e",
+   "name": "Ash"
+  },
+  {
+   "hex": "#44474b",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#9299a4",
+   "name": "Silver"
+  },
+  {
+   "hex": "#8e9196",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#dfe3e8",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#2576eb",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#5c9cf5",
+   "name": "Sky Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/bd039550-2bc9-4257-9b67-bca3ed10e0c8.mp4",
+  "poster": "https://happyhands.cc/design-archive/things-ec0f5bca/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/things-ec0f5bca/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/things-ec0f5bca/thumbnail.jpg"
+}

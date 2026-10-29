@@ -1,0 +1,71 @@
+{
+ "id": "750387be-bda4-448b-950f-c9356c3ec25f",
+ "slug": "aira-750387be",
+ "name": "Aira",
+ "site_url": "https://www.aira.app",
+ "lastmod": "2026-06-03T20:43:24.456Z",
+ "extracted_at": "2026-06-03T20:43:24.446Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Sunday broadsheet at midnight — warm photography, ink type, whisper-quiet UI.",
+ "fonts": [
+  "Gestura (custom serif)",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#fafafb",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#2c2c2b",
+   "name": "Graphite Ink"
+  },
+  {
+   "hex": "#1f1f1f",
+   "name": "Deep Coal"
+  },
+  {
+   "hex": "#111111",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#080808",
+   "name": "Press Black"
+  },
+  {
+   "hex": "#70706f",
+   "name": "Stone"
+  },
+  {
+   "hex": "#cbcbcb",
+   "name": "Fog"
+  },
+  {
+   "hex": "#e3e3e3",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#ededed",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#444444",
+   "name": "Slate"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a16aa9ce-a230-483d-9aec-7f84f084c4af.mp4",
+  "poster": "https://happyhands.cc/design-archive/aira-750387be/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/aira-750387be/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/aira-750387be/thumbnail.jpg"
+}

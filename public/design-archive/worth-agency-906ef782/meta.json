@@ -1,0 +1,60 @@
+{
+ "id": "906ef782-4be7-45ee-9800-0514d46e7518",
+ "slug": "worth-agency-906ef782",
+ "name": "Worth Agency",
+ "site_url": "https://worth.agency",
+ "lastmod": "2026-06-05T02:31:54.918Z",
+ "extracted_at": "2026-06-03T17:23:21.286Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "studio gallery at golden hour",
+ "fonts": [
+  "custom_47163",
+  "custom_47178",
+  "-apple-system"
+ ],
+ "colors": [
+  {
+   "hex": "#f8d4d4",
+   "name": "Blush Field"
+  },
+  {
+   "hex": "#eb4726",
+   "name": "Vermilion Mark"
+  },
+  {
+   "hex": "#d2fdd1",
+   "name": "Mint Accent"
+  },
+  {
+   "hex": "#282828",
+   "name": "Charcoal Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Jet Black"
+  },
+  {
+   "hex": "#f9f9f9",
+   "name": "Bone Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/693d51dc-1b41-4d4a-aa89-00e8ab601afb.mp4",
+  "poster": "https://happyhands.cc/design-archive/worth-agency-906ef782/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/worth-agency-906ef782/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/worth-agency-906ef782/thumbnail.jpg"
+}

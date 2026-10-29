@@ -1,0 +1,89 @@
+{
+ "id": "206c6c51-df38-425f-8d07-b0cc9dd065cf",
+ "slug": "videoconferencia-206c6c51",
+ "name": "Videoconferencia",
+ "site_url": "https://microsoft.com/teams",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-11T19:21:51.014Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "",
+ "north_star": "Collaborative daylight workspace — every surface a white panel under fluorescent clarity, single violet pulse marking where to act.",
+ "fonts": [
+  "Segoe UI Variable Text",
+  "Segoe UI Variable Display",
+  "Segoe UI Variable Small",
+  "Segoe UI"
+ ],
+ "colors": [
+  {
+   "hex": "#5d5bd4",
+   "name": "Teams Violet"
+  },
+  {
+   "hex": "#333275",
+   "name": "Teams Midnight"
+  },
+  {
+   "hex": "#424197",
+   "name": "Teams Deep"
+  },
+  {
+   "hex": "#0067b8",
+   "name": "Microsoft Blue"
+  },
+  {
+   "hex": "#17253d",
+   "name": "Ink Navy"
+  },
+  {
+   "hex": "#0e1726",
+   "name": "Abyss Navy"
+  },
+  {
+   "hex": "#616161",
+   "name": "Steel"
+  },
+  {
+   "hex": "#262626",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Frost"
+  },
+  {
+   "hex": "#fbf5fb",
+   "name": "Lace"
+  },
+  {
+   "hex": "#e6f2fb",
+   "name": "Ice Border"
+  },
+  {
+   "hex": "#bdc5d2",
+   "name": "Mist"
+  },
+  {
+   "hex": "#fefefe",
+   "name": "Near White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/016f6ebb-3a67-4dd9-bcdd-6e012c3522c8.mp4",
+  "poster": "https://happyhands.cc/design-archive/videoconferencia-206c6c51/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/videoconferencia-206c6c51/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/videoconferencia-206c6c51/thumbnail.jpg"
+}

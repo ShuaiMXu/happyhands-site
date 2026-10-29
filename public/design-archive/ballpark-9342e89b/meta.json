@@ -1,0 +1,106 @@
+{
+ "id": "9342e89b-c2fe-4acf-9993-53b44e0c13b5",
+ "slug": "ballpark-9342e89b",
+ "name": "Ballpark",
+ "site_url": "https://ballparkhq.com",
+ "lastmod": "2026-06-03T15:43:57.461Z",
+ "extracted_at": "2026-06-03T15:43:57.455Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "editorial white studio, single vermilion flare",
+ "fonts": [
+  "sans-serif",
+  "Inter Display",
+  "Inter",
+  "IBM Plex Mono",
+  "Source Serif 4"
+ ],
+ "colors": [
+  {
+   "hex": "#fc4a2b",
+   "name": "Vermilion Flame"
+  },
+  {
+   "hex": "#ea3718",
+   "name": "Ember Pulse"
+  },
+  {
+   "hex": "#f97316",
+   "name": "Tangerine Signal"
+  },
+  {
+   "hex": "#ffac9e",
+   "name": "Coral Blush"
+  },
+  {
+   "hex": "#ffe5e0",
+   "name": "Peach Mist"
+  },
+  {
+   "hex": "#ffedd5",
+   "name": "Apricot Wash"
+  },
+  {
+   "hex": "#dc2626",
+   "name": "Brick Alert"
+  },
+  {
+   "hex": "#15803d",
+   "name": "Forest Confirm"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#111827",
+   "name": "Slate 900"
+  },
+  {
+   "hex": "#374151",
+   "name": "Slate 700"
+  },
+  {
+   "hex": "#4b5563",
+   "name": "Slate 600"
+  },
+  {
+   "hex": "#6b7280",
+   "name": "Slate 500"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f9fafb",
+   "name": "Fog Whisper"
+  },
+  {
+   "hex": "#f2f3f5",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#e6e8eb",
+   "name": "Ash Border"
+  },
+  {
+   "hex": "#ff7e67",
+   "name": "Coral Wash Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/bdb6b7bc-1938-44f1-b776-ff64ae552502.mp4",
+  "poster": "https://happyhands.cc/design-archive/ballpark-9342e89b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ballpark-9342e89b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ballpark-9342e89b/thumbnail.jpg"
+}

@@ -1,0 +1,66 @@
+{
+ "id": "898f0127-d235-4832-bf33-ab21104f0529",
+ "slug": "hbo-max-898f0127",
+ "name": "HBO Max",
+ "site_url": "https://www.hbomax.com",
+ "lastmod": "2026-06-05T06:34:57.148Z",
+ "extracted_at": "2026-06-03T19:06:36.162Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "media",
+ "north_star": "Cinema lobby at midnight. Pure black walls, one cool blue exit sign, and movie posters glowing from every surface.",
+ "fonts": [
+  "Max Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#050409",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#b8b6bb",
+   "name": "Ash Mist"
+  },
+  {
+   "hex": "#89868e",
+   "name": "Iron Veil"
+  },
+  {
+   "hex": "#999999",
+   "name": "Faded Print"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Snow"
+  },
+  {
+   "hex": "#0e0a17",
+   "name": "Eclipse Indigo"
+  },
+  {
+   "hex": "#3d6a99",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#71b8f2",
+   "name": "Glacier Beam"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6a326fc2-7c2d-4056-9ad8-7aad91dbb3fd.mp4",
+  "poster": "https://happyhands.cc/design-archive/hbo-max-898f0127/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/hbo-max-898f0127/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/hbo-max-898f0127/thumbnail.jpg"
+}

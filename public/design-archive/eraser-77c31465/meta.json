@@ -1,0 +1,92 @@
+{
+ "id": "77c31465-7b28-4ab7-b7ff-c9811cda0df0",
+ "slug": "eraser-77c31465",
+ "name": "Eraser",
+ "site_url": "https://www.tryeraser.com",
+ "lastmod": "2026-06-03T21:53:13.604Z",
+ "extracted_at": "2026-06-03T21:53:13.600Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "Neon blueprint on black velvet. A black canvas where luminous pastel words and sticker-shadowed cards float like a wireframe schematic projected onto darkroom paper.",
+ "fonts": [
+  "National 2 Condensed",
+  "Inter",
+  "JetBrains Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#9985ff",
+   "name": "Iris Glow"
+  },
+  {
+   "hex": "#ddccff",
+   "name": "Pale Lavender"
+  },
+  {
+   "hex": "#363054",
+   "name": "Violet Deep"
+  },
+  {
+   "hex": "#94dbff",
+   "name": "Sky Pulse"
+  },
+  {
+   "hex": "#d6ca6f",
+   "name": "Saffron Whisper"
+  },
+  {
+   "hex": "#ffa3c2",
+   "name": "Rose Quartz"
+  },
+  {
+   "hex": "#e3e3e3",
+   "name": "Bone"
+  },
+  {
+   "hex": "#181818",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#4b4b4b",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#080808",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#f6f6f6",
+   "name": "Pearl"
+  },
+  {
+   "hex": "#2a2b2b",
+   "name": "Slate"
+  },
+  {
+   "hex": "#878787",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#666666",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/06be9c34-4e73-4706-91fc-ab2848f84101.mp4",
+  "poster": "https://happyhands.cc/design-archive/eraser-77c31465/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/eraser-77c31465/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/eraser-77c31465/thumbnail.jpg"
+}

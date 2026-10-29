@@ -1,0 +1,83 @@
+{
+ "id": "15846be3-8df8-42e4-a05c-d9395dcec369",
+ "slug": "arva-15846be3",
+ "name": "Arva",
+ "site_url": "https://arva.com",
+ "lastmod": "2026-06-03T17:31:24.025Z",
+ "extracted_at": "2026-06-03T17:31:24.019Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Pastoral editorial magazine spread on a cream field",
+ "fonts": [
+  "Inter",
+  "Reckless",
+  "RecklessLight",
+  "sans-serif",
+  "Helvetica",
+  "FKGrotesk"
+ ],
+ "colors": [
+  {
+   "hex": "#07503f",
+   "name": "Forest Ink"
+  },
+  {
+   "hex": "#e8fe85",
+   "name": "Vivid Lime"
+  },
+  {
+   "hex": "#f1efdf",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#efefef",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#212529",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#353535",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#6d6d6d",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#b2cee7",
+   "name": "Sky Card"
+  },
+  {
+   "hex": "#fceace",
+   "name": "Peach Card"
+  },
+  {
+   "hex": "#e6ecd5",
+   "name": "Sage Card"
+  },
+  {
+   "hex": "#c3cda7",
+   "name": "Moss"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c53574eb-576c-46fd-9831-d3982e91ccce.mp4",
+  "poster": "https://happyhands.cc/design-archive/arva-15846be3/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/arva-15846be3/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/arva-15846be3/thumbnail.jpg"
+}

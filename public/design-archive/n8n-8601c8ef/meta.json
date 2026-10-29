@@ -1,0 +1,87 @@
+{
+ "id": "8601c8ef-e1ea-4186-adb2-6f9a74caf436",
+ "slug": "n8n-8601c8ef",
+ "name": "N8n",
+ "site_url": "https://n8n.io",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-11T22:06:16.927Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "",
+ "north_star": "Workflow engine at midnight — the feeling of a live automation canvas running in a dark server room, lit by status indicators and data flows.",
+ "fonts": [
+  "geomanist",
+  "geomanist-book"
+ ],
+ "colors": [
+  {
+   "hex": "#0e0918",
+   "name": "Void Base"
+  },
+  {
+   "hex": "#1a1624",
+   "name": "Elevated Surface"
+  },
+  {
+   "hex": "#1b1728",
+   "name": "Deep Panel"
+  },
+  {
+   "hex": "#2c2834",
+   "name": "Muted Shell"
+  },
+  {
+   "hex": "#3e3a46",
+   "name": "Border Smoke"
+  },
+  {
+   "hex": "#d1cece",
+   "name": "Ash Text"
+  },
+  {
+   "hex": "#9d9797",
+   "name": "Fog Text"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Silver Rail"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Cloud White"
+  },
+  {
+   "hex": "#48556a",
+   "name": "Steel Muted"
+  },
+  {
+   "hex": "#fd8925",
+   "name": "Ember CTA"
+  },
+  {
+   "hex": "#077ac7",
+   "name": "Electric Current"
+  },
+  {
+   "hex": "#ff492c",
+   "name": "Ember Scorch"
+  },
+  {
+   "hex": "#56312d",
+   "name": "Crimson Glow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/86083271-09b7-4468-87e8-f0785a7d6a3f.mp4",
+  "poster": "https://happyhands.cc/design-archive/n8n-8601c8ef/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/n8n-8601c8ef/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/n8n-8601c8ef/thumbnail.jpg"
+}

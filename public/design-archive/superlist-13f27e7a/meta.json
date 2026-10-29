@@ -1,0 +1,72 @@
+{
+ "id": "13f27e7a-d84f-4ff9-a030-ae4e2c930757",
+ "slug": "superlist-13f27e7a",
+ "name": "Superlist",
+ "site_url": "https://superlist.com",
+ "lastmod": "2026-06-03T18:33:31.560Z",
+ "extracted_at": "2026-06-03T18:33:31.556Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "productivity",
+ "north_star": "midnight workspace with coral embers — a quiet aubergine app surface where one warm orange spark signals every action",
+ "fonts": [
+  "sans-serif",
+  "Haffer XH SemiBold",
+  "Jersey 10",
+  "Inter",
+  "Satoshi",
+  "Haffer XH SemiBold Italic",
+  "CUSTOM;Blender Medium"
+ ],
+ "colors": [
+  {
+   "hex": "#181824",
+   "name": "Aubergine Canvas"
+  },
+  {
+   "hex": "#26253b",
+   "name": "Elevated Plum"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#696f81",
+   "name": "Fog Text"
+  },
+  {
+   "hex": "#8e8da0",
+   "name": "Ash Text"
+  },
+  {
+   "hex": "#a3a3a7",
+   "name": "Mist Highlight"
+  },
+  {
+   "hex": "#f7f7ff",
+   "name": "Whisper Border"
+  },
+  {
+   "hex": "#ff4a36",
+   "name": "Coral Ember"
+  },
+  {
+   "hex": "#535676",
+   "name": "Iris Accent"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/14c80781-bd84-415c-8f06-cdfc98826530.mp4",
+  "poster": "https://happyhands.cc/design-archive/superlist-13f27e7a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/superlist-13f27e7a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/superlist-13f27e7a/thumbnail.jpg"
+}

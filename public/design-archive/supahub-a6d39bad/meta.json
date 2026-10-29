@@ -1,0 +1,91 @@
+{
+ "id": "a6d39bad-6e32-462e-afce-67c9cb76cf40",
+ "slug": "supahub-a6d39bad",
+ "name": "Supahub",
+ "site_url": "https://grabee.com",
+ "lastmod": "2026-06-03T17:17:57.289Z",
+ "extracted_at": "2026-06-03T17:17:57.283Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Soft daylight on a violet ridge. A mostly white, airy canvas lit by a single bright violet sun, with decorative gradient orbs spilling color into negative space and generous rounded geometry giving every surface a friendly, tactile weight.",
+ "fonts": [
+  "Bricolage Grotesque",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#862fe7",
+   "name": "Voltage Violet"
+  },
+  {
+   "hex": "#5f259e",
+   "name": "Ultra Violet"
+  },
+  {
+   "hex": "#ad6df4",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#bd8ff0",
+   "name": "Orchid Wash"
+  },
+  {
+   "hex": "#ff5fe4",
+   "name": "Magenta Spark"
+  },
+  {
+   "hex": "#e22ba4",
+   "name": "Hot Pink Ray"
+  },
+  {
+   "hex": "#dc5f05",
+   "name": "Amber Pulse"
+  },
+  {
+   "hex": "#111827",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#3f4654",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#6b7589",
+   "name": "Slate"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#f1f5f9",
+   "name": "Fog"
+  },
+  {
+   "hex": "#d8e0ea",
+   "name": "Mist"
+  },
+  {
+   "hex": "#d6fcf4",
+   "name": "Mint Wash"
+  },
+  {
+   "hex": "#ebdafd",
+   "name": "Lavender Field"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/96a50cc6-80aa-4bd0-920b-06f84632260a.mp4",
+  "poster": "https://happyhands.cc/design-archive/supahub-a6d39bad/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/supahub-a6d39bad/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/supahub-a6d39bad/thumbnail.jpg"
+}

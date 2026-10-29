@@ -1,0 +1,82 @@
+{
+ "id": "10a77cbd-7847-4e1b-a09e-447ebad0f7c6",
+ "slug": "galileo-ft-10a77cbd",
+ "name": "Galileo-ft",
+ "site_url": "https://www.galileo-ft.com",
+ "lastmod": "2026-06-03T20:06:02.701Z",
+ "extracted_at": "2026-06-03T20:06:02.697Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "fintech",
+ "north_star": "deep-space command deck with electric blue signals",
+ "fonts": [
+  "Times",
+  "Plain",
+  "Plain Light",
+  "Plain Ultralight",
+  "Plain Ultrathin"
+ ],
+ "colors": [
+  {
+   "hex": "#03081a",
+   "name": "Void Navy"
+  },
+  {
+   "hex": "#020626",
+   "name": "Deep Indigo"
+  },
+  {
+   "hex": "#292f66",
+   "name": "Inkline Violet"
+  },
+  {
+   "hex": "#aab1f2",
+   "name": "Quartz Lavender"
+  },
+  {
+   "hex": "#7a83cc",
+   "name": "Mist Lilac"
+  },
+  {
+   "hex": "#4d5499",
+   "name": "Dusk Iris"
+  },
+  {
+   "hex": "#f5f6ff",
+   "name": "Glacier White"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#3d50fc",
+   "name": "Pulse Cobalt"
+  },
+  {
+   "hex": "#05e0e0",
+   "name": "Signal Teal"
+  },
+  {
+   "hex": "#05cee0",
+   "name": "Cyan Teal"
+  },
+  {
+   "hex": "#05a1c9",
+   "name": "Gradient Teal-Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3001ccdb-d5ad-4585-98c3-485f42b92019.mp4",
+  "poster": "https://happyhands.cc/design-archive/galileo-ft-10a77cbd/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/galileo-ft-10a77cbd/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/galileo-ft-10a77cbd/thumbnail.jpg"
+}

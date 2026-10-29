@@ -1,0 +1,54 @@
+{
+ "id": "80d7ef36-ed7e-48bb-b558-f772eb40106f",
+ "slug": "mintlify-80d7ef36",
+ "name": "Mintlify",
+ "site_url": "https://mintlify.com",
+ "lastmod": "2026-06-05T01:14:36.233Z",
+ "extracted_at": "2026-06-03T16:21:24.571Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "Cloud garden over a glass desk. A hand-illustrated sky and a documentation product share the same frame — the only place color and concept collide before the page settles into monastic white.",
+ "fonts": [
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#0c8c5e",
+   "name": "Mint Green"
+  },
+  {
+   "hex": "#08090a",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "True Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#dddddd",
+   "name": "Cloud Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4118c937-d7c6-4cc9-9f23-ea78847a6fee.mp4",
+  "poster": "https://happyhands.cc/design-archive/mintlify-80d7ef36/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/mintlify-80d7ef36/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/mintlify-80d7ef36/thumbnail.jpg"
+}

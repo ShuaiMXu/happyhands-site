@@ -1,0 +1,47 @@
+{
+ "id": "e99ae628-89df-4de9-ab80-9885b1be4dc0",
+ "slug": "altason-e99ae628",
+ "name": "Altason",
+ "site_url": "https://atlason.com",
+ "lastmod": "2026-06-05T11:31:07.050Z",
+ "extracted_at": "2026-06-03T21:20:41.927Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "architectural monochrome broadsheet",
+ "fonts": [
+  "Haas Grotesk DS Pro",
+  "Haas Grotesk TX Pro"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#212121",
+   "name": "Charcoal Plate"
+  },
+  {
+   "hex": "#b0b0b0",
+   "name": "Silver Hairline"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e1933bfe-52d1-496e-b1d8-f1c3a574c293.mp4",
+  "poster": "https://happyhands.cc/design-archive/altason-e99ae628/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/altason-e99ae628/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/altason-e99ae628/thumbnail.jpg"
+}

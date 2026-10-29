@@ -1,0 +1,82 @@
+{
+ "id": "5af8ba79-c73f-4388-8ea8-b805e24599f8",
+ "slug": "magicbeans-5af8ba79",
+ "name": "Magicbeans",
+ "site_url": "https://magicbeans.app",
+ "lastmod": "2026-06-03T19:44:53.975Z",
+ "extracted_at": "2026-06-03T19:44:53.966Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Notion whiteboard with confetti",
+ "fonts": [
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#1a1a19",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#333331",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#808080",
+   "name": "Slate Gray"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#f0f0f0",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#faf9f7",
+   "name": "Warm Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#eaf7f0",
+   "name": "Mint Wash"
+  },
+  {
+   "hex": "#ff5310",
+   "name": "Bean Orange"
+  },
+  {
+   "hex": "#44c67f",
+   "name": "Bean Green"
+  },
+  {
+   "hex": "#0098f1",
+   "name": "Bean Blue"
+  },
+  {
+   "hex": "#81e9b0",
+   "name": "Mint Border"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f7fb2510-2bf8-4c91-834f-2f7ae6a7e05b.mp4",
+  "poster": "https://happyhands.cc/design-archive/magicbeans-5af8ba79/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/magicbeans-5af8ba79/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/magicbeans-5af8ba79/thumbnail.jpg"
+}

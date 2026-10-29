@@ -1,0 +1,79 @@
+{
+ "id": "4d1d50ff-18b8-4acf-a356-48eb5c414711",
+ "slug": "fold-4d1d50ff",
+ "name": "Fold",
+ "site_url": "https://fold.money",
+ "lastmod": "2026-06-03T18:29:54.662Z",
+ "extracted_at": "2026-06-03T18:29:54.656Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "Bauhaus poster on fog",
+ "fonts": [
+  "GT Walsheim Pro",
+  "GT America"
+ ],
+ "colors": [
+  {
+   "hex": "#20294c",
+   "name": "Midnight Navy"
+  },
+  {
+   "hex": "#375390",
+   "name": "Cornflower Steel"
+  },
+  {
+   "hex": "#459af8",
+   "name": "Electric Blue"
+  },
+  {
+   "hex": "#f0f1f5",
+   "name": "Fog White"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#c7cbdb",
+   "name": "Silver Lining"
+  },
+  {
+   "hex": "#dddfe9",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#979db5",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#676b89",
+   "name": "Dusk"
+  },
+  {
+   "hex": "#042939",
+   "name": "Abyss"
+  },
+  {
+   "hex": "#ffff00",
+   "name": "Voltage Yellow"
+  },
+  {
+   "hex": "#788dba",
+   "name": "Hyacinth"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/fcbc9294-8461-4ba0-ad0f-6c9c726f9d4b.mp4",
+  "poster": "https://happyhands.cc/design-archive/fold-4d1d50ff/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/fold-4d1d50ff/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/fold-4d1d50ff/thumbnail.jpg"
+}

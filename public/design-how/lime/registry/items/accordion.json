@@ -1,0 +1,31 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "accordion",
+ "type": "registry:ui",
+ "title": "Accordion",
+ "description": "A stack of questions that open one at a time.",
+ "author": "design.how",
+ "categories": [
+  "layout"
+ ],
+ "dependencies": [
+  "@base-ui/react@^1.8.0"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/lime/icon.json",
+  "https://design.how/r/lime/theme.json",
+  "https://design.how/r/lime/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/lime/components/accordion.md",
+  "page": "https://design.how/systems/lime/components/accordion"
+ },
+ "files": [
+  {
+   "path": "registry/lime/ui/accordion.tsx",
+   "content": "'use client';\n\nimport {Accordion as AccordionPrimitive} from '@base-ui/react/accordion';\nimport {ChevronDown, Icon} from '@/components/lime/icon';\nimport {mergeClass} from '@/lib/lime/utils';\n\n// A stack of sections, each with a heading that opens its panel. Good for questions and answers, or a\n// settings page with a few groups. One open at a time by default; pass `multiple` to allow several. Each\n// item needs a `value`. Hairlines separate the items.\n\nfunction Accordion({className, ...props}: AccordionPrimitive.Root.Props) {\n  return <AccordionPrimitive.Root data-slot=\"accordion\" className={mergeClass('flex w-full flex-col', className)} {...props}/>;\n}\n\nfunction AccordionItem({className, ...props}: AccordionPrimitive.Item.Props) {\n  return <AccordionPrimitive.Item data-slot=\"accordion-item\" className={mergeClass('border-b border-line last:border-b-0', className)} {...props}/>;\n}\n\nfunction AccordionTrigger({className, children, ...props}: AccordionPrimitive.Trigger.Props) {\n  return (\n    <AccordionPrimitive.Header className=\"flex\">\n      <AccordionPrimitive.Trigger\n        data-slot=\"accordion-trigger\"\n        className={mergeClass('group/accordion-trigger flex flex-1 items-center justify-between gap-3 rounded-md py-4 text-start text-base font-medium underline-offset-4 hover:not-data-disabled:underline data-disabled:cursor-not-allowed data-disabled:text-fg-disabled', className)}\n        {...props}\n      >\n        {children}\n        <Icon icon={ChevronDown} size={20} className=\"text-fg-3 transition-transform duration-(--dur-fast) group-data-panel-open/accordion-trigger:rotate-180 group-data-disabled/accordion-trigger:text-fg-disabled\"/>\n      </AccordionPrimitive.Trigger>\n    </AccordionPrimitive.Header>\n  );\n}\n\nfunction AccordionContent({className, children, ...props}: AccordionPrimitive.Panel.Props) {\n  return (\n    <AccordionPrimitive.Panel\n      data-slot=\"accordion-content\"\n      className={mergeClass('h-(--accordion-panel-height) overflow-hidden text-sm text-fg-2 transition-[height] duration-(--dur-base) ease-(--ease-out) data-ending-style:h-0 data-starting-style:h-0', className)}\n      {...props}\n    >\n      <div className=\"pb-4\">{children}</div>\n    </AccordionPrimitive.Panel>\n  );\n}\n\nexport {Accordion, AccordionItem, AccordionTrigger, AccordionContent};\n",
+   "type": "registry:ui",
+   "target": "@components/lime/ui/accordion.tsx"
+  }
+ ]
+}

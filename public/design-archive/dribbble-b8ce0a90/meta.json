@@ -1,0 +1,74 @@
+{
+ "id": "b8ce0a90-40c6-4518-940c-8c97ccf9c1a0",
+ "slug": "dribbble-b8ce0a90",
+ "name": "Dribbble",
+ "site_url": "https://dribbble.com",
+ "lastmod": "2026-06-05T05:18:12.682Z",
+ "extracted_at": "2026-06-03T18:49:40.779Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "gallery wall at design week — a quiet white room where one magenta spotlight circles each piece",
+ "fonts": [
+  "Mona Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#ea4c89",
+   "name": "Dribbble Pink"
+  },
+  {
+   "hex": "#0d0c22",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#060318",
+   "name": "Deep Plum"
+  },
+  {
+   "hex": "#3d3d4e",
+   "name": "Charcoal Plum"
+  },
+  {
+   "hex": "#6e6d7a",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#9e9ea7",
+   "name": "Fog"
+  },
+  {
+   "hex": "#f3f3f6",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e2e8f2",
+   "name": "Frost Border"
+  },
+  {
+   "hex": "#524b63",
+   "name": "Muted Plum"
+  },
+  {
+   "hex": "#3a3546",
+   "name": "Slate Edge"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/cf13d02d-fb61-498d-a742-f989b1fa17d3.mp4",
+  "poster": "https://happyhands.cc/design-archive/dribbble-b8ce0a90/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/dribbble-b8ce0a90/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/dribbble-b8ce0a90/thumbnail.jpg"
+}

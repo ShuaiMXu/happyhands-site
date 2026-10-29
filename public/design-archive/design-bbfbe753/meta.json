@@ -1,0 +1,50 @@
+{
+ "id": "bbfbe753-a417-43ec-9af7-ef6c08a5140d",
+ "slug": "design-bbfbe753",
+ "name": "Design",
+ "site_url": "https://design.cash.app",
+ "lastmod": "2026-06-03T20:45:31.954Z",
+ "extracted_at": "2026-06-03T20:45:31.948Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "fintech",
+ "north_star": "neon green glyph in a dark void",
+ "fonts": [
+  "CashSans"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Snow"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Mist"
+  },
+  {
+   "hex": "#858585",
+   "name": "Slate"
+  },
+  {
+   "hex": "#b3b3b3",
+   "name": "Fog"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3e101fa2-32f8-4e5d-9464-c55788643420.mp4",
+  "poster": "https://happyhands.cc/design-archive/design-bbfbe753/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/design-bbfbe753/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/design-bbfbe753/thumbnail.jpg"
+}

@@ -1,0 +1,102 @@
+{
+ "id": "e8c604cc-1c8d-42a3-aeca-fcfc25e70344",
+ "slug": "astro-e8c604cc",
+ "name": "Astro",
+ "site_url": "https://astro.build",
+ "lastmod": "2026-06-05T09:10:47.643Z",
+ "extracted_at": "2026-06-03T20:12:17.798Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "Deep space mission control with a single purple nebula glow",
+ "fonts": [
+  "ui-sans-serif",
+  "Obviously",
+  "ui-monospace",
+  "MDIO",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#1f232e",
+   "name": "Void Canvas"
+  },
+  {
+   "hex": "#0c0f19",
+   "name": "Abyss"
+  },
+  {
+   "hex": "#060913",
+   "name": "Singularity"
+  },
+  {
+   "hex": "#17191e",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#f2f6fa",
+   "name": "Lunar White"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Platinum"
+  },
+  {
+   "hex": "#bfc1c9",
+   "name": "Mist"
+  },
+  {
+   "hex": "#858b98",
+   "name": "Steel"
+  },
+  {
+   "hex": "#545864",
+   "name": "Gunmetal"
+  },
+  {
+   "hex": "#3245ff",
+   "name": "Nebula Gradient"
+  },
+  {
+   "hex": "#d83333",
+   "name": "Plasma Gradient"
+  },
+  {
+   "hex": "#4bf3c8",
+   "name": "Aurora Mint"
+  },
+  {
+   "hex": "#54b9ff",
+   "name": "Plasma Blue"
+  },
+  {
+   "hex": "#acafff",
+   "name": "Ultraviolet"
+  },
+  {
+   "hex": "#00daef",
+   "name": "Electric Cyan"
+  },
+  {
+   "hex": "#ffd493",
+   "name": "Amber"
+  },
+  {
+   "hex": "#61dafb",
+   "name": "Signal Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a7f50124-13c5-4b3f-acaf-6a4abef39886.mp4",
+  "poster": "https://happyhands.cc/design-archive/astro-e8c604cc/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/astro-e8c604cc/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/astro-e8c604cc/thumbnail.jpg"
+}

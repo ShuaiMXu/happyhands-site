@@ -1,0 +1,83 @@
+{
+ "id": "2a3cdb2e-effe-406b-932e-37e4dc88ab1d",
+ "slug": "vana-2a3cdb2e",
+ "name": "Vana",
+ "site_url": "https://www.vana.com",
+ "lastmod": "2026-06-03T20:22:15.277Z",
+ "extracted_at": "2026-06-03T20:22:15.273Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "crypto",
+ "north_star": "Digital constellation map on midnight canvas — a dark protocol interface where electric blue traces the topography of user-owned data across a starfield of ASCII characters.",
+ "fonts": [
+  "Cofo Sans",
+  "Cofo Sans Pixel"
+ ],
+ "colors": [
+  {
+   "hex": "#0000ff",
+   "name": "Electric Indigo"
+  },
+  {
+   "hex": "#4141fc",
+   "name": "Cobalt Pulse"
+  },
+  {
+   "hex": "#8b8bfe",
+   "name": "Periwinkle Veil"
+  },
+  {
+   "hex": "#7fd579",
+   "name": "Lime Beacon"
+  },
+  {
+   "hex": "#d896ff",
+   "name": "Orchid Whisper"
+  },
+  {
+   "hex": "#0d0d0d",
+   "name": "Midnight Void"
+  },
+  {
+   "hex": "#161616",
+   "name": "Carbon Panel"
+  },
+  {
+   "hex": "#252525",
+   "name": "Graphite Lift"
+  },
+  {
+   "hex": "#3b3b3b",
+   "name": "Steel Hover"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure Signal"
+  },
+  {
+   "hex": "#eaeaea",
+   "name": "Soft Mist"
+  },
+  {
+   "hex": "#333333",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#b8ad97",
+   "name": "Warm Filament"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a3563017-dcef-4a36-bd07-9f638e3e4fdf.mp4",
+  "poster": "https://happyhands.cc/design-archive/vana-2a3cdb2e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/vana-2a3cdb2e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/vana-2a3cdb2e/thumbnail.jpg"
+}

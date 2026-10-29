@@ -1,0 +1,55 @@
+{
+ "id": "cb266ff9-f168-4a42-a522-f0e84508f90f",
+ "slug": "desktop-fm-cb266ff9",
+ "name": "Desktop.fm",
+ "site_url": "https://desktop.fm",
+ "lastmod": "2026-06-05T02:10:53.897Z",
+ "extracted_at": "2026-06-03T17:16:42.795Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "Chrome disc in a laser grid — Apple keynote restraint meets cyberpunk CD-ROM nostalgia.",
+ "fonts": [
+  "-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif",
+  "ui-monospace, 'SF Mono', Menlo, monospace"
+ ],
+ "colors": [
+  {
+   "hex": "#f1f2f3",
+   "name": "Canvas Mist"
+  },
+  {
+   "hex": "#111111",
+   "name": "Carbon Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#2d2d2d",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#dddddd",
+   "name": "Pale Stone"
+  },
+  {
+   "hex": "#b4b4b4",
+   "name": "Silver Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3ac0dc08-a83b-4b8e-96e1-812b4b2074cd.mp4",
+  "poster": "https://happyhands.cc/design-archive/desktop-fm-cb266ff9/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/desktop-fm-cb266ff9/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/desktop-fm-cb266ff9/thumbnail.jpg"
+}

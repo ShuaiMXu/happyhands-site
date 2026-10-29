@@ -1,0 +1,75 @@
+{
+ "id": "4fa67bd1-f01d-454a-b522-4a0359ff9815",
+ "slug": "shop-4fa67bd1",
+ "name": "Shop",
+ "site_url": "https://shop.app",
+ "lastmod": "2026-07-03T10:58:49.664Z",
+ "extracted_at": "2026-07-03T03:29:39.498Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Floating shopping constellation on white marble",
+ "fonts": [
+  "GT Standard",
+  "Shopify Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#f2f4f5",
+   "name": "Canvas Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ebebeb",
+   "name": "Faint Border"
+  },
+  {
+   "hex": "#787574",
+   "name": "Muted Gray"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Cool Stone"
+  },
+  {
+   "hex": "#acb0aa",
+   "name": "Warm Fog"
+  },
+  {
+   "hex": "#5433eb",
+   "name": "Shop Violet"
+  },
+  {
+   "hex": "#c0b5f3",
+   "name": "Violet Wash"
+  },
+  {
+   "hex": "#332f2d",
+   "name": "Slate Ink"
+  },
+  {
+   "hex": "#665a54",
+   "name": "Ash Veil"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f75a7135-78a7-41da-a0ac-c5f94c49d3a9.mp4",
+  "poster": "https://happyhands.cc/design-archive/shop-4fa67bd1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/shop-4fa67bd1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/shop-4fa67bd1/thumbnail.jpg"
+}

@@ -1,0 +1,42 @@
+{
+ "id": "1cb31aee-608e-4dec-a44d-5745e4fd6bab",
+ "slug": "601-inc-1cb31aee",
+ "name": "601 Inc.",
+ "site_url": "https://www.rokumaruichi.tokyo",
+ "lastmod": "2026-06-05T05:34:02.915Z",
+ "extracted_at": "2026-06-03T18:52:40.408Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "media",
+ "north_star": "warm film marquee in darkness",
+ "fonts": [
+  "changeling-neo"
+ ],
+ "colors": [
+  {
+   "hex": "#ece4b4",
+   "name": "Celluloid Cream"
+  },
+  {
+   "hex": "#4f4d3c",
+   "name": "Darkroom Shadow"
+  },
+  {
+   "hex": "#000000",
+   "name": "Projection Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/fea609a4-9f23-4379-a087-30b6794bfd74.mp4",
+  "poster": "https://happyhands.cc/design-archive/601-inc-1cb31aee/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/601-inc-1cb31aee/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/601-inc-1cb31aee/thumbnail.jpg"
+}

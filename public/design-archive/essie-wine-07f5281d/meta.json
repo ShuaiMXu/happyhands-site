@@ -1,0 +1,64 @@
+{
+ "id": "07f5281d-2a18-4e12-a8ff-d54d3e03d198",
+ "slug": "essie-wine-07f5281d",
+ "name": "Essie Wine",
+ "site_url": "https://www.essiewine.com",
+ "lastmod": "2026-06-05T09:48:05.728Z",
+ "extracted_at": "2026-06-03T20:42:23.893Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "other",
+ "north_star": "Dusty rose chapbook with mustard chapter breaks",
+ "fonts": [
+  "BasicCommercial LT Com Roman",
+  "Adobe Caslon",
+  "Elementa"
+ ],
+ "colors": [
+  {
+   "hex": "#062d32",
+   "name": "Ink Teal"
+  },
+  {
+   "hex": "#c9a9b5",
+   "name": "Dusty Rose"
+  },
+  {
+   "hex": "#aa9e54",
+   "name": "Mustard Olive"
+  },
+  {
+   "hex": "#344b52",
+   "name": "Slate Teal"
+  },
+  {
+   "hex": "#e9e9e2",
+   "name": "Warm Bone"
+  },
+  {
+   "hex": "#767676",
+   "name": "Mid Gray"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/46a683f5-afc8-40c3-a196-7800f45fdb04.mp4",
+  "poster": "https://happyhands.cc/design-archive/essie-wine-07f5281d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/essie-wine-07f5281d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/essie-wine-07f5281d/thumbnail.jpg"
+}

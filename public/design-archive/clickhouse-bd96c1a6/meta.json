@@ -1,0 +1,97 @@
+{
+ "id": "bd96c1a6-32ba-42e0-bd5c-23c70a23142c",
+ "slug": "clickhouse-bd96c1a6",
+ "name": "ClickHouse",
+ "site_url": "https://clickhouse.com",
+ "lastmod": "2026-06-03T17:14:18.756Z",
+ "extracted_at": "2026-06-03T17:14:18.751Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "phosphor terminal at midnight — a lone lime cursor glowing on black glass.",
+ "fonts": [
+  "Inter",
+  "Basier",
+  "Inconsolata",
+  "sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#faff69",
+   "name": "Electric Lime"
+  },
+  {
+   "hex": "#161600",
+   "name": "Olive Ink"
+  },
+  {
+   "hex": "#4f5100",
+   "name": "Dark Olive"
+  },
+  {
+   "hex": "#fbff46",
+   "name": "Lime Glow"
+  },
+  {
+   "hex": "#151515",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#1f1f1c",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#282828",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#343434",
+   "name": "Slate Dark"
+  },
+  {
+   "hex": "#3a3a3a",
+   "name": "Iron"
+  },
+  {
+   "hex": "#414141",
+   "name": "Steel"
+  },
+  {
+   "hex": "#a0a0a0",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#bcbcbb",
+   "name": "Fog"
+  },
+  {
+   "hex": "#dfdfdf",
+   "name": "Bone"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Paper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "True Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/419c6ef5-caf3-4129-9458-45f56bea2940.mp4",
+  "poster": "https://happyhands.cc/design-archive/clickhouse-bd96c1a6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/clickhouse-bd96c1a6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/clickhouse-bd96c1a6/thumbnail.jpg"
+}

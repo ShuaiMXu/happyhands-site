@@ -1,0 +1,90 @@
+{
+ "id": "be34bbe8-9a50-4f36-b379-840328f6350c",
+ "slug": "mapbox-be34bbe8",
+ "name": "Mapbox",
+ "site_url": "https://mapbox.com",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-11T19:10:46.520Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "",
+ "north_star": "Satellite console at midnight — a dark control room where glowing map tiles are the only light source, surrounded by near-black instrument panels.",
+ "fonts": [
+  "Cera Pro"
+ ],
+ "colors": [
+  {
+   "hex": "#0e1012",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#15171b",
+   "name": "Deep Charcoal"
+  },
+  {
+   "hex": "#1c1f24",
+   "name": "Gunmetal"
+  },
+  {
+   "hex": "#23262d",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#333943",
+   "name": "Steel"
+  },
+  {
+   "hex": "#444d5a",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#566171",
+   "name": "Slate"
+  },
+  {
+   "hex": "#8b96aa",
+   "name": "Ash"
+  },
+  {
+   "hex": "#a0aaba",
+   "name": "Fog"
+  },
+  {
+   "hex": "#bbc2ce",
+   "name": "Silver"
+  },
+  {
+   "hex": "#d5dae2",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#007afc",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#0062ca",
+   "name": "Deep Signal"
+  },
+  {
+   "hex": "#228a56",
+   "name": "Map Green"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/41394fb3-38c4-4639-9410-65ef72688ac7.mp4",
+  "poster": "https://happyhands.cc/design-archive/mapbox-be34bbe8/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/mapbox-be34bbe8/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/mapbox-be34bbe8/thumbnail.jpg"
+}

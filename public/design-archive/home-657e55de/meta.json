@@ -1,0 +1,50 @@
+{
+ "id": "657e55de-8cff-4d24-9a4e-17d3b7593a55",
+ "slug": "home-657e55de",
+ "name": "Home",
+ "site_url": "https://traffic.productions",
+ "lastmod": "2026-06-03T18:12:30.574Z",
+ "extracted_at": "2026-06-03T18:12:30.569Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Swiss broadsheet behind a highlighter pen",
+ "fonts": [
+  "Suisse"
+ ],
+ "colors": [
+  {
+   "hex": "#fff824",
+   "name": "Highlighter Yellow"
+  },
+  {
+   "hex": "#151515",
+   "name": "Ink"
+  },
+  {
+   "hex": "#f3f3f3",
+   "name": "Canvas"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c072c5a7-3ca3-4a16-8977-7e0340e41d4e.mp4",
+  "poster": "https://happyhands.cc/design-archive/home-657e55de/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/home-657e55de/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/home-657e55de/thumbnail.jpg"
+}

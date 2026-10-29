@@ -1,0 +1,63 @@
+{
+ "id": "38c8a8c9-4d2e-462a-bff0-80c9d9619ef2",
+ "slug": "rains-int-38c8a8c9",
+ "name": "Rains INT",
+ "site_url": "https://www.rains.com",
+ "lastmod": "2026-06-05T11:32:25.956Z",
+ "extracted_at": "2026-06-03T21:27:56.272Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Nordic rain catalog on fog-gray paper.\n\nA Scandinavian weather report where massive editorial type sits over raincoat photography on a warm gray field — almost no color, all atmosphere, type as the only dramatic gesture.",
+ "fonts": [
+  "EuropaGroNr2SH",
+  "EuropaGroNr2SB"
+ ],
+ "colors": [
+  {
+   "hex": "#efefef",
+   "name": "Fog"
+  },
+  {
+   "hex": "#10100f",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#26292a",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#40403f",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#b3b3b2",
+   "name": "Ash"
+  },
+  {
+   "hex": "#000000",
+   "name": "Black"
+  },
+  {
+   "hex": "#fffb85",
+   "name": "Butter Cream"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2ba53339-5dd0-4db7-aeb6-ba3b8b800c63.mp4",
+  "poster": "https://happyhands.cc/design-archive/rains-int-38c8a8c9/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/rains-int-38c8a8c9/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/rains-int-38c8a8c9/thumbnail.jpg"
+}

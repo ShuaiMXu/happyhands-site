@@ -1,0 +1,62 @@
+{
+ "id": "e7b37c82-239c-48d5-b293-79a2bfa235cc",
+ "slug": "ikea-e7b37c82",
+ "name": "IKEA",
+ "site_url": "https://www.ikea.com",
+ "lastmod": "2026-06-05T10:18:20.342Z",
+ "extracted_at": "2026-06-03T20:49:37.912Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "sunlit Swedish flat-pack showroom",
+ "fonts": [
+  "Noto IKEA"
+ ],
+ "colors": [
+  {
+   "hex": "#ffdb00",
+   "name": "IKEA Yellow"
+  },
+  {
+   "hex": "#111111",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#fffefb",
+   "name": "Warm White"
+  },
+  {
+   "hex": "#818181",
+   "name": "Steel Gray"
+  },
+  {
+   "hex": "#000000",
+   "name": "True Black"
+  },
+  {
+   "hex": "#0159a3",
+   "name": "Link Blue"
+  },
+  {
+   "hex": "#ffa6da",
+   "name": "Soft Pink"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2d390173-a69a-4c71-b44e-f2039c5a7f16.mp4",
+  "poster": "https://happyhands.cc/design-archive/ikea-e7b37c82/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ikea-e7b37c82/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ikea-e7b37c82/thumbnail.jpg"
+}

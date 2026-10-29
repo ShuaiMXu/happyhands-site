@@ -1,0 +1,51 @@
+{
+ "id": "3cc1d30c-3b08-48af-bbf0-df195d77835f",
+ "slug": "piet-oudolf-3cc1d30c",
+ "name": "Piet Oudolf",
+ "site_url": "https://oudolf.com",
+ "lastmod": "2026-06-05T12:34:07.761Z",
+ "extracted_at": "2026-06-03T21:03:23.292Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Botanical index on white paper.\nA field guide to gardens, set in light type with the restraint of a museum wall label.",
+ "fonts": [
+  "Maison Neue Book",
+  "UniversLTStd-Light"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Field White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Charcoal Black"
+  },
+  {
+   "hex": "#808080",
+   "name": "Lead Gray"
+  },
+  {
+   "hex": "#b3b3b3",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#999999",
+   "name": "Smoke"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/31ef039f-825c-4ae4-a9cb-92b2559aec09.mp4",
+  "poster": "https://happyhands.cc/design-archive/piet-oudolf-3cc1d30c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/piet-oudolf-3cc1d30c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/piet-oudolf-3cc1d30c/thumbnail.jpg"
+}

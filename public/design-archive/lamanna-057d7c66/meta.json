@@ -1,0 +1,66 @@
+{
+ "id": "057d7c66-76b7-4272-849c-4058543e6799",
+ "slug": "lamanna-057d7c66",
+ "name": "Lamanna",
+ "site_url": "https://lamannabakery.com",
+ "lastmod": "2026-06-05T03:18:31.265Z",
+ "extracted_at": "2026-06-03T17:40:16.304Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Neon circus tent on a Naples sidewalk",
+ "fonts": [
+  "rightgrotesk-spatialblack-webfont",
+  "nimbus-sans-extended-bold",
+  "nimbus-sans-extended-regular",
+  "Open Sans",
+  "obviously-condensed-semibold"
+ ],
+ "colors": [
+  {
+   "hex": "#ff4100",
+   "name": "Anger Orange"
+  },
+  {
+   "hex": "#ffc700",
+   "name": "Sun Yellow"
+  },
+  {
+   "hex": "#1573dd",
+   "name": "Royal Blue"
+  },
+  {
+   "hex": "#292a2c",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#fdbeba",
+   "name": "Blush Peach"
+  },
+  {
+   "hex": "#fee3c1",
+   "name": "Cream"
+  },
+  {
+   "hex": "#f6e653",
+   "name": "Lemon Cream"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f80e8093-dcbf-4df4-a87f-67a82e1bac36.mp4",
+  "poster": "https://happyhands.cc/design-archive/lamanna-057d7c66/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/lamanna-057d7c66/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/lamanna-057d7c66/thumbnail.jpg"
+}

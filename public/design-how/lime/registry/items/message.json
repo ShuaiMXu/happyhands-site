@@ -1,0 +1,30 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "message",
+ "type": "registry:ui",
+ "title": "Message",
+ "description": "One turn in a conversation with the assistant.",
+ "author": "design.how",
+ "categories": [
+  "ai"
+ ],
+ "dependencies": [
+  "class-variance-authority@^0.7.1"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/lime/theme.json",
+  "https://design.how/r/lime/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/lime/components/message.md",
+  "page": "https://design.how/systems/lime/components/message"
+ },
+ "files": [
+  {
+   "path": "registry/lime/ai/message.tsx",
+   "content": "import {cva, type VariantProps} from 'class-variance-authority';\nimport {cn} from '@/lib/lime/utils';\n\n// One turn in a conversation. The person's message is a grey bubble at the end edge; the assistant's\n// reads as plain text on the page, with no avatar; its name is read out to screen readers only. No rail,\n// no timestamp by default. Pass `actions` for the row under an assistant message (copy, retry). Prose is\n// 16px so long answers read well.\n\nconst messageVariants = cva('flex w-full gap-3', {\n  variants: {\n    from: {\n      user: 'justify-end',\n      assistant: 'justify-start',\n    },\n  },\n  defaultVariants: {from: 'assistant'},\n});\n\ntype MessageProps = React.ComponentProps<'div'> & VariantProps<typeof messageVariants> & {\n  /** The assistant's name, read out before its answer by screen readers. */\n  name?: string;\n  actions?: React.ReactNode;\n};\n\nfunction Message({from, name = 'Assistant', actions, className, children, ...props}: MessageProps) {\n  return (\n    <div data-slot=\"message\" data-from={from ?? 'assistant'} className={cn(messageVariants({from}), className)} {...props}>\n      <div className={cn('flex min-w-0 flex-col gap-2', from === 'user' ? 'max-w-[85%] items-end' : 'max-w-prose flex-1')}>\n        <div className={cn('text-base leading-normal break-words', from === 'user' && 'rounded-panel rounded-ee-sm bg-surface-2 px-4 py-2.5 text-fg')}>\n          {from !== 'user' && <span className=\"sr-only\">{name}: </span>}\n          {children}\n        </div>\n        {/* Pulled in by the icon buttons' own padding, so the icons line up with the text above. */}\n        {actions && from !== 'user' && <div className=\"-ms-2 flex items-center gap-1 text-fg-3\">{actions}</div>}\n      </div>\n    </div>\n  );\n}\n\nexport {Message, messageVariants, type MessageProps};\n",
+   "type": "registry:ui",
+   "target": "@components/lime/ai/message.tsx"
+  }
+ ]
+}

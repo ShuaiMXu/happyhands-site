@@ -1,0 +1,71 @@
+{
+ "id": "41c479a9-7b41-445b-9ea7-c7a6331828f0",
+ "slug": "signal-messenger-41c479a9",
+ "name": "Signal Messenger",
+ "site_url": "https://signal.org",
+ "lastmod": "2026-06-05T07:59:46.810Z",
+ "extracted_at": "2026-06-03T19:38:05.159Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Frosted privacy glass. A nearly white room washed in pale blue light, with one vivid blue line marking every door you can open.",
+ "fonts": [
+  "Inter",
+  "system-ui"
+ ],
+ "colors": [
+  {
+   "hex": "#2c6bed",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#2942ff",
+   "name": "Deep Signal"
+  },
+  {
+   "hex": "#9dbbf8",
+   "name": "Signal Sky"
+  },
+  {
+   "hex": "#a5cad5",
+   "name": "Signal Mist"
+  },
+  {
+   "hex": "#1b1b1b",
+   "name": "Ink"
+  },
+  {
+   "hex": "#404654",
+   "name": "Slate"
+  },
+  {
+   "hex": "#3c3744",
+   "name": "Twilight"
+  },
+  {
+   "hex": "#e9e9e9",
+   "name": "Fog"
+  },
+  {
+   "hex": "#f6f6f6",
+   "name": "Paper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a9579abc-1765-4891-9b6e-cc5a5ee9ed27.mp4",
+  "poster": "https://happyhands.cc/design-archive/signal-messenger-41c479a9/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/signal-messenger-41c479a9/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/signal-messenger-41c479a9/thumbnail.jpg"
+}

@@ -1,0 +1,63 @@
+{
+ "id": "3b5ff57f-a371-4c7f-82ae-5fc5485da073",
+ "slug": "suno-3b5ff57f",
+ "name": "Suno",
+ "site_url": "https://suno.com",
+ "lastmod": "2026-06-05T02:38:13.137Z",
+ "extracted_at": "2026-06-03T17:22:36.887Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ai",
+ "north_star": "Afterglow on a mixing console. Cream typography and a sunset wash over a matte black studio, with a single coral button as the only chromatic punctuation.",
+ "fonts": [
+  "Neue Montreal",
+  "Editorial New"
+ ],
+ "colors": [
+  {
+   "hex": "#101012",
+   "name": "Studio Black"
+  },
+  {
+   "hex": "#17171a",
+   "name": "Deep Anvil"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Ink"
+  },
+  {
+   "hex": "#f7f4ef",
+   "name": "Warm Cream"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone"
+  },
+  {
+   "hex": "#c2c2c1",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#fd429c",
+   "name": "Ember Coral"
+  },
+  {
+   "hex": "#8a2a3a",
+   "name": "Dusk Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/575c671b-00dd-4c81-aff5-489f3ca03cca.mp4",
+  "poster": "https://happyhands.cc/design-archive/suno-3b5ff57f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/suno-3b5ff57f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/suno-3b5ff57f/thumbnail.jpg"
+}

@@ -1,0 +1,95 @@
+{
+ "id": "e854a4f7-4243-44a7-92e2-e22db22bef1b",
+ "slug": "kalstore-e854a4f7",
+ "name": "Kalstore®",
+ "site_url": "https://kal-store.com",
+ "lastmod": "2026-06-05T11:21:12.120Z",
+ "extracted_at": "2026-06-03T21:13:53.379Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Paper atelier on a quiet morning. The interface is warm off-white, sparsely set, and lets one mustard accent and oversized editorial type do the talking.",
+ "fonts": [
+  "ABCDiatype",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#faf9f7",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#242424",
+   "name": "Ink"
+  },
+  {
+   "hex": "#d3d3d3",
+   "name": "Felt Gray"
+  },
+  {
+   "hex": "#edecea",
+   "name": "Linen"
+  },
+  {
+   "hex": "#e0ddd7",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#727272",
+   "name": "Slate"
+  },
+  {
+   "hex": "#8d9090",
+   "name": "Ash"
+  },
+  {
+   "hex": "#585a5a",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#f1ba35",
+   "name": "Mustard"
+  },
+  {
+   "hex": "#30250b",
+   "name": "Espresso"
+  },
+  {
+   "hex": "#d26c46",
+   "name": "Terracotta"
+  },
+  {
+   "hex": "#458e71",
+   "name": "Sage"
+  },
+  {
+   "hex": "#3b59a3",
+   "name": "Cobalt"
+  },
+  {
+   "hex": "#6c3c3c",
+   "name": "Rust"
+  },
+  {
+   "hex": "#90abc8",
+   "name": "Sky Dust"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ecd38e6d-4fbc-4886-adac-5f9bcc3b8ed7.mp4",
+  "poster": "https://happyhands.cc/design-archive/kalstore-e854a4f7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/kalstore-e854a4f7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/kalstore-e854a4f7/thumbnail.jpg"
+}

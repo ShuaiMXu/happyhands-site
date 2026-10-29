@@ -1,0 +1,70 @@
+{
+ "id": "afde66c4-ad74-4d19-94df-0216e945ac5e",
+ "slug": "audyr-afde66c4",
+ "name": "Audyr",
+ "site_url": "https://audyr.com",
+ "lastmod": "2026-06-03T15:39:37.359Z",
+ "extracted_at": "2026-06-03T15:39:37.355Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Ink on cold-pressed paper. The interface reads as a meticulously typeset monograph — black ink, white stock, hairline rules, and the softest possible shadows to suggest depth.",
+ "fonts": [
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#262626",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure Paper"
+  },
+  {
+   "hex": "#ededed",
+   "name": "Soft Mist"
+  },
+  {
+   "hex": "#171717",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#686868",
+   "name": "Ash"
+  },
+  {
+   "hex": "#515151",
+   "name": "Slate"
+  },
+  {
+   "hex": "#737373",
+   "name": "Muted"
+  },
+  {
+   "hex": "#929292",
+   "name": "Fog"
+  },
+  {
+   "hex": "#cbcbcb",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#ecfdf5",
+   "name": "Mint Whisper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/435da71d-44f5-4225-8fa6-c80474710884.mp4",
+  "poster": "https://happyhands.cc/design-archive/audyr-afde66c4/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/audyr-afde66c4/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/audyr-afde66c4/thumbnail.jpg"
+}

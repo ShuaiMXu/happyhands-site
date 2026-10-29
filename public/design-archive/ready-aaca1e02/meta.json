@@ -1,0 +1,67 @@
+{
+ "id": "aaca1e02-7b5a-4c03-ac40-454f0d477356",
+ "slug": "ready-aaca1e02",
+ "name": "Ready",
+ "site_url": "https://ready.so",
+ "lastmod": "2026-06-03T19:36:46.774Z",
+ "extracted_at": "2026-06-03T19:36:46.768Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "violet daylight workspace — a warm off-white page where a single periwinkle accent marks what matters and everything else recedes",
+ "fonts": [
+  "GT Walsheim",
+  "GT America Standard"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f5f3f2",
+   "name": "Warm Linen"
+  },
+  {
+   "hex": "#c4c3c1",
+   "name": "Linen Stone"
+  },
+  {
+   "hex": "#333333",
+   "name": "Ink"
+  },
+  {
+   "hex": "#8b8c96",
+   "name": "Fog"
+  },
+  {
+   "hex": "#d5d1f4",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#7366fe",
+   "name": "Periwinkle"
+  },
+  {
+   "hex": "#6c77b0",
+   "name": "Steel Violet"
+  },
+  {
+   "hex": "#55269c",
+   "name": "Dusk Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/051e44a6-8b3e-438b-8cc7-2b33585c1f5e.mp4",
+  "poster": "https://happyhands.cc/design-archive/ready-aaca1e02/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ready-aaca1e02/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ready-aaca1e02/thumbnail.jpg"
+}

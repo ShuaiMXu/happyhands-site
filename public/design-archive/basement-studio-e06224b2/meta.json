@@ -1,0 +1,70 @@
+{
+ "id": "e06224b2-6d52-4d06-bbde-115cec719b47",
+ "slug": "basement-studio-e06224b2",
+ "name": "basement.studio",
+ "site_url": "https://basement.studio",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-11T22:15:28.353Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "",
+ "north_star": "Void print shop at 3am — massive compressed type bleeding off a pitch-black canvas, one ember of orange light on the nav, everything else white or ghost-gray.",
+ "fonts": [
+  "Geist"
+ ],
+ "colors": [
+  {
+   "hex": "#ff4d00",
+   "name": "Ember Signal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Fog"
+  },
+  {
+   "hex": "#c4c4c4",
+   "name": "Ash"
+  },
+  {
+   "hex": "#757575",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#454545",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#2e2e2",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#1a1a1a",
+   "name": "Cinder"
+  },
+  {
+   "hex": "#666666",
+   "name": "Smudge"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/10f3d727-a196-4b23-aa43-57dcd956d956.mp4",
+  "poster": "https://happyhands.cc/design-archive/basement-studio-e06224b2/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/basement-studio-e06224b2/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/basement-studio-e06224b2/thumbnail.jpg"
+}

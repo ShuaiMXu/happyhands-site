@@ -1,0 +1,62 @@
+{
+ "id": "b38702a0-75ab-474c-9106-00b624535825",
+ "slug": "ramp-b38702a0",
+ "name": "Ramp",
+ "site_url": "https://ramp.com",
+ "lastmod": "2026-07-03T11:35:44.107Z",
+ "extracted_at": "2026-07-03T03:46:06.428Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "Editorial finance desk, black-and-white pages with a single neon highlighter. A near-monochrome publication surface where one vivid chartreuse mark turns every interaction into a money signal.",
+ "fonts": [
+  "lausanne"
+ ],
+ "colors": [
+  {
+   "hex": "#e4f222",
+   "name": "Highlighter Yellow"
+  },
+  {
+   "hex": "#0c0a08",
+   "name": "Ink"
+  },
+  {
+   "hex": "#1a1919",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f4f2f0",
+   "name": "Bone"
+  },
+  {
+   "hex": "#6d6c6b",
+   "name": "Ash"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#d3d3d3",
+   "name": "Smoke"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/521b4030-ef48-4e56-8c34-22f09be1fdce.mp4",
+  "poster": "https://happyhands.cc/design-archive/ramp-b38702a0/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ramp-b38702a0/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ramp-b38702a0/thumbnail.jpg"
+}

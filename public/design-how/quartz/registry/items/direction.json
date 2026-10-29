@@ -1,0 +1,29 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "direction",
+ "type": "registry:lib",
+ "title": "Direction",
+ "description": "Support file: hands the document direction to Base UI.",
+ "author": "design.how",
+ "categories": [
+  "internal"
+ ],
+ "dependencies": [
+  "@base-ui/react@^1.8.0"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/quartz/portal.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/quartz.md",
+  "page": "https://design.how/systems/quartz"
+ },
+ "files": [
+  {
+   "path": "registry/quartz/lib/direction.ts",
+   "content": "'use client';\n\nimport {createElement, useLayoutEffect, useState, type ReactNode, type RefObject} from 'react';\nimport {DirectionProvider} from '@base-ui/react/direction-provider';\nimport {QuartzPortalProvider} from '@/lib/quartz/portal';\n\n// Quartz's reading direction, for Base UI and for portalled popups. CSS follows the dir attribute on\n// its own, but Base UI computes some things in JavaScript (which side a submenu opens on, which arrow\n// key moves forward in a menu, slider and tabs), and it reads those from DirectionProvider, not from\n// the DOM. Render this wherever dir is set, with the same value: on the .quartz root\n// (components/docs-kit/system-routes.tsx) and on any subtree that flips, such as the docs' right-to-left edge\n// specimens.\n//\n// Popups portal out of the subtree, so they would lose a dir set on a wrapper. Inside the root portal\n// provider, QuartzDirection also opens a portal scope of its own: a container with the same dir,\n// portalled into the root container (lib/portal.ts). A dialog, menu, popover or tooltip opened from a\n// right-to-left subtree then lays out right to left, while it still sits outside the page.\n//\n// Quartz's own components read the direction from the DOM with useDomDirection, so a component under a\n// plain dir=\"rtl\" mirrors whether or not a QuartzDirection says so.\n\nexport type Direction = 'ltr' | 'rtl';\n\nexport function QuartzDirection({dir, children}: {dir: Direction; children: ReactNode}) {\n  return createElement(DirectionProvider, {direction: dir}, createElement(QuartzPortalProvider, {dir, children}));\n}\n\ntype DirectionTarget = RefObject<Element | null> | Element | null | undefined;\n\nconst resolve = (target: DirectionTarget) => (target && 'current' in target ? target.current : target) ?? null;\n\n/**\n * An element's computed reading direction ('ltr' until it mounts), or the document's when there is no\n * element. Read after layout, then again only when a dir attribute changes somewhere in the document,\n * never on every render.\n */\nexport function useDomDirection(target: DirectionTarget): Direction {\n  const [dir, setDir] = useState<Direction>('ltr');\n  useLayoutEffect(() => {\n    const doc = resolve(target)?.ownerDocument ?? (typeof document === 'undefined' ? null : document);\n    if (!doc) return;\n    const read = () => {\n      const el = resolve(target) ?? doc.documentElement;\n      setDir(getComputedStyle(el).direction === 'rtl' ? 'rtl' : 'ltr');\n    };\n    read();\n    const watch = new MutationObserver(read);\n    watch.observe(doc.documentElement, {attributes: true, attributeFilter: ['dir'], subtree: true});\n    return () => watch.disconnect();\n  }, [target]);\n  return dir;\n}\n",
+   "type": "registry:lib",
+   "target": "@lib/quartz/direction.ts"
+  }
+ ]
+}

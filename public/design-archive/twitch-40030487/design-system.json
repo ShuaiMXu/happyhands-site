@@ -3,9 +3,9 @@
     "siteName": "Twitch",
     "url": "https://twitch.tv",
     "extractedAt": "2026-06-03T19:25:43.413Z",
-    "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/0bb68e4b-dcfb-4b03-a1b3-160b065b933c.jpg",
+    "thumbnailUrl": "https://happyhands.cc/design-archive/twitch-40030487/thumbnail.jpg",
     "screenshotUrls": [
-      "https://images.refero.design/styles/refero.design/image/8bdf1d64-f114-44d8-b0e8-58da98413613.jpg"
+      "https://happyhands.cc/design-archive/twitch-40030487/screenshot.jpg"
     ]
   },
   "description": "Twitch's design system reads as a dense, utilitarian broadcast console: a light gray canvas (#efeff1) hosts compact white cards (#ffffff) with near-black text (#0e0e10), letting a saturated deep purple (#5c16c5) and a sharp signal red (#eb0400) do all the semantic heavy lifting. The signature is the contrast between information density and visual softness — everything is pill-shaped (9000px radius) for buttons, avatars, tags, and thumbnails, while content cards stay sharp-cornered at 4px to feel like flat broadcast tiles. Typography stays small and quiet (Inter at 11–14px for the entire interface) so that streamer thumbnails and live video remain the visual heroes. The deep, near-violet brand purple is unusually dark for a consumer platform — it carries the weight of a logo, not a decoration — while the lighter Twitch purple (#9147ff) appears on action surfaces like the Sign Up button.",

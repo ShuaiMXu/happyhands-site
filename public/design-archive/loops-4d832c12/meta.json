@@ -1,0 +1,83 @@
+{
+ "id": "4d832c12-dd14-45b0-bba7-2d3bc25d8264",
+ "slug": "loops-4d832c12",
+ "name": "Loops",
+ "site_url": "https://loops.so",
+ "lastmod": "2026-06-03T20:43:48.844Z",
+ "extracted_at": "2026-06-03T20:43:48.838Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Warm parchment behind a serif headline — like a stationer's print proof lit by afternoon sun.",
+ "fonts": [
+  "sans-serif",
+  "Newsreader",
+  "Inter",
+  "ui-monospace",
+  "ui-sans-serif",
+  "Iowan Old Style"
+ ],
+ "colors": [
+  {
+   "hex": "#faf9f7",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f1efef",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e7e5e4",
+   "name": "Stone-200"
+  },
+  {
+   "hex": "#d6d3d1",
+   "name": "Stone-300"
+  },
+  {
+   "hex": "#a8a29e",
+   "name": "Stone-400"
+  },
+  {
+   "hex": "#78716c",
+   "name": "Stone-500"
+  },
+  {
+   "hex": "#57534e",
+   "name": "Stone-600"
+  },
+  {
+   "hex": "#44403c",
+   "name": "Stone-700"
+  },
+  {
+   "hex": "#1c1917",
+   "name": "Warm Ink"
+  },
+  {
+   "hex": "#292524",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#f97316",
+   "name": "Ember"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/75d96cf7-b5e8-4c42-aec1-cf8dae92554f.mp4",
+  "poster": "https://happyhands.cc/design-archive/loops-4d832c12/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/loops-4d832c12/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/loops-4d832c12/thumbnail.jpg"
+}

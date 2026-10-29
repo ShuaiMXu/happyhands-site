@@ -1,0 +1,50 @@
+{
+ "id": "f2b24dce-5b1f-47c2-8ef6-bbbd08b68826",
+ "slug": "studio-thomas-f2b24dce",
+ "name": "Studio Thomas",
+ "site_url": "https://studiothomas.co.uk",
+ "lastmod": "2026-06-05T11:53:33.648Z",
+ "extracted_at": "2026-06-03T21:36:08.581Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "agency",
+ "north_star": "Alarm-orange broadcast panel on raw linen",
+ "fonts": [
+  "Moderat"
+ ],
+ "colors": [
+  {
+   "hex": "#ff4f00",
+   "name": "Signal Orange"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#ebe9e3",
+   "name": "Raw Linen"
+  },
+  {
+   "hex": "#767676",
+   "name": "Faint Stone"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2e4731e8-e645-4751-9848-10a14baa5de2.mp4",
+  "poster": "https://happyhands.cc/design-archive/studio-thomas-f2b24dce/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/studio-thomas-f2b24dce/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/studio-thomas-f2b24dce/thumbnail.jpg"
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "checkbox",
+  "type": "registry:ui",
+  "title": "Checkbox",
+  "description": "Turns one option on or off.",
+  "author": "design.how",
+  "categories": [
+    "selection"
+  ],
+  "dependencies": [
+    "@base-ui/react@^1.8.0"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/icon.json",
+    "https://happyhands.cc/r/glaze/theme.json",
+    "https://happyhands.cc/r/glaze/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/glaze/components/checkbox.md",
+    "page": "https://happyhands.cc/design-how/glaze/components/checkbox.md"
+  },
+  "files": [
+    {
+      "path": "registry/glaze/ui/checkbox.tsx",
+      "content": "'use client';\n\nimport {Checkbox as CheckboxPrimitive} from '@base-ui/react/checkbox';\nimport {CheckboxGroup as CheckboxGroupPrimitive} from '@base-ui/react/checkbox-group';\nimport {Icon, Check} from '@/components/glaze/icon';\nimport {cn} from '@/lib/glaze/utils';\n\n// Glaze's checkbox, on Base UI's Checkbox. A 16px box on the 6px tag corner, so it never reads as a radio's circle.\n// Unticked is paper with a 1px line at ink 45%, the 3:1 edge a control needs, and the line turns text-2 under the\n// pointer. Ticked and mixed are small glaze (glaze-sm), the press recipe drawn for 16px, with the check or the minus in its\n// glyph colour, so the state reads from the fill and the glyph and holds in both themes (light glaze in dark). Invalid turns\n// an unticked box's line coral. Disabled drops the glaze to the flat grey field, as a disabled button does.\n//\n// The hit area grows past the box with ::after, so a 16px box still takes a 28px target. The box stops its click from\n// bubbling, so ticking a checkbox inside a clickable row never opens the row.\n//\n// Select-all: inside a CheckboxGroup with allValues, a Checkbox with parent takes its state from the rest: all ticked is\n// checked, some is mixed, none is clear. Pressed from mixed it ticks all, then clears all, then brings back the set the\n// person picked, so select-all never destroys a hand-made selection.\n\ntype CheckboxProps = CheckboxPrimitive.Root.Props & {'aria-invalid'?: boolean | 'true' | 'false'};\n\nconst base = [\n  'peer relative inline-flex size-4 shrink-0 cursor-pointer items-center justify-center rounded-tag focus-sm [-webkit-tap-highlight-color:transparent]',\n  'after:absolute after:-inset-1.5',\n  'data-disabled:cursor-not-allowed data-readonly:cursor-default',\n  'forced-colors:border forced-colors:border-solid forced-colors:border-[CanvasText]',\n].join(' ');\n\n// A ticked box is small glaze: a lifted grey to ink, so the white check reads at 6.7:1 or better where it sits.\nconst ticked = 'glaze-sm forced-colors:[forced-color-adjust:none] forced-colors:bg-[Highlight] forced-colors:text-[HighlightText]';\nconst clear = [\n  'border border-line-strong bg-paper transition-[border-color,background-color] duration-(--dur-state) ease-out',\n  'hover:not-data-disabled:not-data-readonly:not-aria-invalid:border-text-2 active:not-data-disabled:not-data-readonly:bg-pressed',\n  'aria-invalid:border-fail',\n  'data-disabled:border-line-control data-disabled:bg-field',\n].join(' ');\n\nfunction Checkbox({className, 'aria-invalid': invalid, onClick, ...props}: CheckboxProps) {\n  const isInvalid = invalid === true || invalid === 'true';\n  return <CheckboxPrimitive.Root\n    data-slot=\"checkbox\"\n    aria-invalid={isInvalid || undefined}\n    onClick={event => { onClick?.(event); event.stopPropagation(); }}\n    className={state => cn(base, state.checked || state.indeterminate ? ticked : clear, typeof className === 'function' ? className(state) : className)}\n    {...props}\n  >\n    <CheckboxPrimitive.Indicator\n      data-slot=\"checkbox-indicator\"\n      className=\"tick-draw grid place-content-center text-current\"\n      render={(indicatorProps, state) => <span {...indicatorProps}>\n        {state.indeterminate\n          // The dash is a drawn bar, not a glyph: 8 by 2, square to the pixel grid, so it stays crisp at 16px.\n          ? <span data-slot=\"checkbox-dash\" className=\"block h-0.5 w-2 rounded-pill bg-current\"/>\n          // Bold: the tick is a 12px glyph on the glaze, where regular (0.75px) goes thin beside the 2px dash.\n          : <Icon icon={Check} size={12} weight=\"bold\"/>}\n      </span>}\n    />\n  </CheckboxPrimitive.Root>;\n}\n\n/** A set of checkboxes with one value array. Give it allValues to let a parent Checkbox select all. */\nfunction CheckboxGroup({className, ...props}: CheckboxGroupPrimitive.Props) {\n  return <CheckboxGroupPrimitive\n    data-slot=\"checkbox-group\"\n    className={state => cn('flex flex-col gap-2', typeof className === 'function' ? className(state) : className)}\n    {...props}\n  />;\n}\n\nexport {Checkbox, CheckboxGroup, type CheckboxProps};\n",
+      "type": "registry:ui",
+      "target": "@components/glaze/ui/checkbox.tsx"
+    }
+  ]
+}

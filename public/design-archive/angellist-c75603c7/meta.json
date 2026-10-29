@@ -1,0 +1,91 @@
+{
+ "id": "c75603c7-492d-4c26-9744-9acc22fe6225",
+ "slug": "angellist-c75603c7",
+ "name": "AngelList",
+ "site_url": "https://www.angellist.com",
+ "lastmod": "2026-06-05T06:37:04.818Z",
+ "extracted_at": "2026-06-03T19:10:03.570Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "fintech",
+ "north_star": "midnight greenhouse with violet dawn — a near-black teal void where mint-green serif type glows and lavender buttons bloom as the single point of warm light",
+ "fonts": [
+  "angellistDisplay",
+  "angellist"
+ ],
+ "colors": [
+  {
+   "hex": "#001d21",
+   "name": "Abyssal Teal"
+  },
+  {
+   "hex": "#002b31",
+   "name": "Deep Reef"
+  },
+  {
+   "hex": "#e0fee6",
+   "name": "Bio Mint"
+  },
+  {
+   "hex": "#cdcbff",
+   "name": "Lavender Dawn"
+  },
+  {
+   "hex": "#3a25f5",
+   "name": "Vivid Iris"
+  },
+  {
+   "hex": "#bdbbff",
+   "name": "Pale Periwinkle"
+  },
+  {
+   "hex": "#cdeed3",
+   "name": "Mint Whisper"
+  },
+  {
+   "hex": "#5d5337",
+   "name": "Olive Grove"
+  },
+  {
+   "hex": "#544a2e",
+   "name": "Dark Olive"
+  },
+  {
+   "hex": "#f1f3f2",
+   "name": "Fog Veil"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#1d2a29",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#68706f",
+   "name": "Steel"
+  },
+  {
+   "hex": "#ccd5d6",
+   "name": "Ash Border"
+  },
+  {
+   "hex": "#e1e3e3",
+   "name": "Pewter"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/45d82ca0-b44a-4302-9750-f99a24d54fab.mp4",
+  "poster": "https://happyhands.cc/design-archive/angellist-c75603c7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/angellist-c75603c7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/angellist-c75603c7/thumbnail.jpg"
+}

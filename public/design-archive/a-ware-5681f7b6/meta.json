@@ -1,0 +1,68 @@
+{
+ "id": "5681f7b6-c665-44b8-a065-da7180133149",
+ "slug": "a-ware-5681f7b6",
+ "name": "A-WARE",
+ "site_url": "https://a-ware.at",
+ "lastmod": "2026-06-03T20:44:11.954Z",
+ "extracted_at": "2026-06-03T20:44:11.949Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Apothecary editorial on warm parchment. A alpine athlete's apothecary spread: cream paper, black ink, one bronze seal, and dark glass canisters floating in generous whitespace.",
+ "fonts": [
+  "plantin",
+  "practice",
+  "lab-mono"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f7f5ee",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#ece9df",
+   "name": "Linen"
+  },
+  {
+   "hex": "#403e3c",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#888783",
+   "name": "Stone"
+  },
+  {
+   "hex": "#b9b8b3",
+   "name": "Mist"
+  },
+  {
+   "hex": "#a77a41",
+   "name": "Bronze Seal"
+  },
+  {
+   "hex": "#205f4b",
+   "name": "Alpine Forest"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0d45aa7a-ff71-4d90-a6e1-55cbf6fa8196.mp4",
+  "poster": "https://happyhands.cc/design-archive/a-ware-5681f7b6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/a-ware-5681f7b6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/a-ware-5681f7b6/thumbnail.jpg"
+}

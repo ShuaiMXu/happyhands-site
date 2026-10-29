@@ -1,0 +1,63 @@
+{
+ "id": "0d68dc70-15ec-494a-855d-fdb6a4e7c982",
+ "slug": "danilo-rodrigues-0d68dc70",
+ "name": "Danilo Rodrigues",
+ "site_url": "https://danilorodrigues.com",
+ "lastmod": "2026-06-03T20:29:10.781Z",
+ "extracted_at": "2026-06-03T20:29:10.776Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "Neon flare in a black void — a single oversized lime disc burning against a perfectly black page, with white type drifting around it like caption text on a gallery wall.",
+ "fonts": [
+  "Neue Haas Grotesk",
+  "Times"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#eaeaea",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#878787",
+   "name": "Ash"
+  },
+  {
+   "hex": "#1e1e1e",
+   "name": "Iron Gray"
+  },
+  {
+   "hex": "#373737",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#86ff00",
+   "name": "Signal Lime"
+  },
+  {
+   "hex": "#1a3cff",
+   "name": "Cobalt Bar"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3f755bc2-ba1d-4572-b506-814d92562267.mp4",
+  "poster": "https://happyhands.cc/design-archive/danilo-rodrigues-0d68dc70/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/danilo-rodrigues-0d68dc70/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/danilo-rodrigues-0d68dc70/thumbnail.jpg"
+}

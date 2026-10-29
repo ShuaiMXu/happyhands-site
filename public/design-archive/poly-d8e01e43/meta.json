@@ -1,0 +1,53 @@
+{
+ "id": "d8e01e43-d260-4fa3-8f42-ae39e5c6ac84",
+ "slug": "poly-d8e01e43",
+ "name": "Poly",
+ "site_url": "https://poly.app",
+ "lastmod": "2026-06-05T07:32:47.252Z",
+ "extracted_at": "2026-06-03T19:29:44.088Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Ember on porcelain — one warm gradient ember floating on an otherwise pure white editorial page, surrounded by quiet serif headlines and full-bleed photography.",
+ "fonts": [
+  "Haffer Variable",
+  "Bogue",
+  "Haffer",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#f42919",
+   "name": "Ember Gradient"
+  },
+  {
+   "hex": "#f4f4f4",
+   "name": "Porcelain"
+  },
+  {
+   "hex": "#000000",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#292930",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/046106c7-b9e5-4184-b84b-e7aa614ed3dd.mp4",
+  "poster": "https://happyhands.cc/design-archive/poly-d8e01e43/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/poly-d8e01e43/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/poly-d8e01e43/thumbnail.jpg"
+}

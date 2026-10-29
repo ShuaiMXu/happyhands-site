@@ -1,0 +1,34 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "run-progress",
+ "type": "registry:block",
+ "title": "Run progress",
+ "description": "A backfill followed at phone width: the live step, partitions done, the run's numbers as a strip and its steps.",
+ "author": "design.how",
+ "categories": [
+  "block",
+  "pipelines",
+  "mobile"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/sodium/button.json",
+  "https://design.how/r/sodium/frame.json",
+  "https://design.how/r/sodium/progress.json",
+  "https://design.how/r/sodium/status.json",
+  "https://design.how/r/sodium/status-strip.json",
+  "https://design.how/r/sodium/theme.json",
+  "https://design.how/r/sodium/tool-call-row.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/sodium.md",
+  "page": "https://design.how/systems/sodium"
+ },
+ "files": [
+  {
+   "path": "registry/sodium/blocks/run-progress.tsx",
+   "content": "'use client';\n\nimport {ToolCallRow, ToolCallStack, formatElapsed} from '@/components/sodium/ai/tool-call-row';\nimport {Button} from '@/components/sodium/ui/button';\nimport {Frame, FrameBody, FrameFooter, FrameHeader, FrameMeta, FrameStatus, FrameTitle, FrameValue} from '@/components/sodium/ui/frame';\nimport {Progress, ProgressLabel, ProgressValue} from '@/components/sodium/ui/progress';\nimport {Status} from '@/components/sodium/ui/status';\nimport {StatusStrip, StatusStripCell, StatusStripLabel, StatusStripUnit, StatusStripValue} from '@/components/sodium/ui/status-strip';\n\n// A block: a backfill followed from a phone, at phone width with no device frame. One frame: the header names the\n// pipeline and carries its state (sessions-rollup, then Running and the time it has run at the end), so the body starts\n// with the partitions done as a progress bar, then the run's numbers as a plain strip of two columns in a second body,\n// which the frame rules off, then the run id and Pause run in the footer, the view's one yellow slab: on a run in\n// progress, pausing it is the one thing to do. The live step is the running row of the steps, which follow as a small\n// stack under the frame, because each step is its own box and a frame around them would box them twice. Wire it to the\n// run's events; pass `clock` for a still picture.\n\nconst steps = [\n  {label: 'Read source', detail: 'raw.sessions', state: 'done', duration: 4100},\n  {label: 'Dedupe rows', detail: '1.2M rows', state: 'done', duration: 38_000},\n  {label: 'Write partitions', detail: 'wh.sessions_daily', state: 'running', tab: 'Writing partitions'},\n  {label: 'Compact files', state: 'queued'},\n] as const;\n\n/** A running backfill at phone width: the live step, its progress, its numbers and its steps. */\nexport function RunProgress({className, clock}: {className?: string; clock?: number}) {\n  return (\n    <div className={className ?? 'flex w-full max-w-sm flex-col gap-4'}>\n      <Frame aria-label=\"Backfill run_91c0d4\">\n        <FrameHeader>\n          <FrameTitle>sessions-rollup</FrameTitle>\n          <FrameStatus><Status status=\"running\" size=\"sm\"/></FrameStatus>\n          <FrameValue meta>{formatElapsed(372_000)}</FrameValue>\n        </FrameHeader>\n        <FrameBody>\n          <Progress value={812} max={1240}>\n            <ProgressLabel>Partitions</ProgressLabel>\n            <ProgressValue>{(_, v) => `${v} / 1,240`}</ProgressValue>\n          </Progress>\n        </FrameBody>\n        <FrameBody padding=\"none\">\n          <StatusStrip variant=\"plain\" label=\"Run status\">\n            <StatusStripCell>\n              <StatusStripLabel>Rows</StatusStripLabel>\n              <StatusStripValue>48.2M</StatusStripValue>\n            </StatusStripCell>\n            <StatusStripCell>\n              <StatusStripLabel>Workers</StatusStripLabel>\n              <StatusStripValue>12<StatusStripUnit>/ 16</StatusStripUnit></StatusStripValue>\n            </StatusStripCell>\n            <StatusStripCell>\n              <StatusStripLabel>Failed</StatusStripLabel>\n              <StatusStripValue>0</StatusStripValue>\n            </StatusStripCell>\n            <StatusStripCell>\n              <StatusStripLabel>Left</StatusStripLabel>\n              <StatusStripValue>about 4m</StatusStripValue>\n            </StatusStripCell>\n          </StatusStrip>\n        </FrameBody>\n        <FrameFooter>\n          <FrameMeta>run_91c0d4</FrameMeta>\n          <Button size=\"sm\">Pause run</Button>\n        </FrameFooter>\n      </Frame>\n      <ToolCallStack size=\"sm\" aria-label=\"Steps of run_91c0d4\" clock={clock}>\n        {steps.map(step => <ToolCallRow key={step.label} {...step}/>)}\n      </ToolCallStack>\n    </div>\n  );\n}\n",
+   "type": "registry:block",
+   "target": "@components/sodium/blocks/run-progress.tsx"
+  }
+ ]
+}

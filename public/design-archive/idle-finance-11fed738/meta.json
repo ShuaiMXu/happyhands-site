@@ -1,0 +1,64 @@
+{
+ "id": "11fed738-a5b5-4509-b4e2-3295ceab3604",
+ "slug": "idle-finance-11fed738",
+ "name": "Idle Finance",
+ "site_url": "https://idle.finance",
+ "lastmod": "2026-06-03T18:11:47.564Z",
+ "extracted_at": "2026-06-03T18:11:47.558Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "crypto",
+ "north_star": "Neon deep-sea trading floor — a dark navy terminal where a single cyan signal pierces the gloom.",
+ "fonts": [
+  "Open Sans",
+  "Source Sans Pro",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#17202e",
+   "name": "Abyss Navy"
+  },
+  {
+   "hex": "#202a3e",
+   "name": "Tide Card"
+  },
+  {
+   "hex": "#6ae4ff",
+   "name": "Spectral Cyan"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon Black"
+  },
+  {
+   "hex": "#cdd0d6",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#298acb",
+   "name": "Horizon Glow"
+  },
+  {
+   "hex": "#00d1ff",
+   "name": "Yield Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/356d738b-a34c-44eb-a940-dbd656403183.mp4",
+  "poster": "https://happyhands.cc/design-archive/idle-finance-11fed738/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/idle-finance-11fed738/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/idle-finance-11fed738/thumbnail.jpg"
+}

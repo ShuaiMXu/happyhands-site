@@ -1,0 +1,92 @@
+{
+ "id": "f1bff240-fa05-41db-9ae1-b165ea6ea2cb",
+ "slug": "cohere-f1bff240",
+ "name": "Cohere",
+ "site_url": "https://cohere.com",
+ "lastmod": "2026-06-05T06:13:16.659Z",
+ "extracted_at": "2026-06-03T19:12:30.417Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Editorial monograph on cream paper — every screen is a spread, not a dashboard.",
+ "fonts": [
+  "Unica77",
+  "CohereText",
+  "CohereMono"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Canvas White"
+  },
+  {
+   "hex": "#f0eee9",
+   "name": "Soft Cream"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Hairline Mist"
+  },
+  {
+   "hex": "#d9d9dd",
+   "name": "Silver Rule"
+  },
+  {
+   "hex": "#93939f",
+   "name": "Fog"
+  },
+  {
+   "hex": "#75758a",
+   "name": "Slate Caption"
+  },
+  {
+   "hex": "#616161",
+   "name": "Graphite Body"
+  },
+  {
+   "hex": "#212121",
+   "name": "Press Black"
+  },
+  {
+   "hex": "#17171c",
+   "name": "Inkwell"
+  },
+  {
+   "hex": "#2e2e2e",
+   "name": "Charcoal Depth"
+  },
+  {
+   "hex": "#ff7759",
+   "name": "Coral Glow"
+  },
+  {
+   "hex": "#7670c5",
+   "name": "Iris Wash"
+  },
+  {
+   "hex": "#4c6ee6",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#f0dff3",
+   "name": "Lilac Mist"
+  },
+  {
+   "hex": "#d18ee2",
+   "name": "Orchid"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/de8aa7ab-7140-47b1-b25c-5aba6de7dd11.mp4",
+  "poster": "https://happyhands.cc/design-archive/cohere-f1bff240/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/cohere-f1bff240/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/cohere-f1bff240/thumbnail.jpg"
+}

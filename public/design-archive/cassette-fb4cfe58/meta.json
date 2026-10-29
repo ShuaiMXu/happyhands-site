@@ -1,0 +1,55 @@
+{
+ "id": "fb4cfe58-00b5-4e6a-b251-0c65e60b6649",
+ "slug": "cassette-fb4cfe58",
+ "name": "Cassette",
+ "site_url": "https://cassettemusic.com",
+ "lastmod": "2026-06-05T04:56:00.451Z",
+ "extracted_at": "2026-06-03T18:27:04.829Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "Neon cassette on black velvet. A single hi-vis yellow burns against a warm-black void, the way a tape label glows under a single bulb in a dark room.",
+ "fonts": [
+  "Apercu Pro",
+  "Apercu Mono Pro"
+ ],
+ "colors": [
+  {
+   "hex": "#f0e226",
+   "name": "Hi-Vis Yellow"
+  },
+  {
+   "hex": "#19181a",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#f5f4f0",
+   "name": "Bone"
+  },
+  {
+   "hex": "#272727",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#d9d7ce",
+   "name": "Sand"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0f676f45-9857-4686-9e88-e46472c444e8.mp4",
+  "poster": "https://happyhands.cc/design-archive/cassette-fb4cfe58/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/cassette-fb4cfe58/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/cassette-fb4cfe58/thumbnail.jpg"
+}

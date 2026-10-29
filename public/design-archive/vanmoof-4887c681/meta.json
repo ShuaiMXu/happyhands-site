@@ -1,0 +1,59 @@
+{
+ "id": "4887c681-d4e6-41d3-b83c-5650cf925ee9",
+ "slug": "vanmoof-4887c681",
+ "name": "Vanmoof",
+ "site_url": "https://www.vanmoof.com",
+ "lastmod": "2026-06-05T08:54:35.696Z",
+ "extracted_at": "2026-06-03T20:12:56.987Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "ecommerce",
+ "north_star": "cinematic monochrome showroom",
+ "fonts": [
+  "Unica77LLWeb",
+  "Unica77Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#222222",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#313131",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Frost"
+  },
+  {
+   "hex": "#f7f7f7",
+   "name": "Paper"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e0e0e0",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b62bdfe1-314a-4ecd-91ce-36db93b078b1.mp4",
+  "poster": "https://happyhands.cc/design-archive/vanmoof-4887c681/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/vanmoof-4887c681/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/vanmoof-4887c681/thumbnail.jpg"
+}

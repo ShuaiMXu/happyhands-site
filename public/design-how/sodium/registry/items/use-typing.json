@@ -1,0 +1,26 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "use-typing",
+ "type": "registry:hook",
+ "title": "useTyping",
+ "description": "Support file: types text in at about 55 characters a second behind a caret shown only while typing.",
+ "author": "design.how",
+ "categories": [
+  "internal"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/sodium/use-timeline.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/sodium.md",
+  "page": "https://design.how/systems/sodium"
+ },
+ "files": [
+  {
+   "path": "registry/sodium/hooks/use-typing.ts",
+   "content": "'use client';\n\nimport {useCallback, type RefObject} from 'react';\nimport {useMotionToken, useTimeline, type TimelineOptions} from '@/hooks/sodium/use-timeline';\n\n// Text that types in, a character at a time, behind a thin bar caret: Sodium's motion for a headline, a label or a\n// streamed line. One character every --dur-type (18ms, about 55 a second), linear, then the caret goes. The caret\n// never blinks at rest, because a blinking bar after the words are done reads as a field waiting for input.\n//\n// The hook returns the visible part and whether it is typing; the component draws the caret recipe while it is:\n//\n//   const {shown, typing} = useTyping(title, {ref});\n//   <h2 ref={ref} className=\"grid [grid-template-areas:'stack']\">\n//     <span className=\"invisible [grid-area:stack]\">{title}</span>\n//     <span aria-hidden className=\"[grid-area:stack]\">{shown}{typing && <span className=\"caret\"/>}</span>\n//     <span className=\"sr-only\">{title}</span>\n//   </h2>\n//\n// The full text sits invisible in the same grid cell, so the box is its final size from the first frame and nothing\n// around it moves while the words arrive, and a screen reader reads the whole text once.\n//\n// Characters are code points, so an emoji or an accented letter is never split. A new `text` types again from the\n// start; type once, when the text first appears or changes, never a value someone is reading.\n\n/** How many characters show `elapsed` ms after typing starts, one every `perChar` ms. */\nexport function typedAt(text: string, elapsed: number, perChar: number = 18, delay = 0): number {\n  const length = Array.from(text).length;\n  if (perChar <= 0) return length;\n  return Math.max(0, Math.min(length, Math.floor((elapsed - delay) / perChar)));\n}\n\n/** The first `count` characters of `text`, by code point. */\nexport const firstChars = (text: string, count: number) => Array.from(text).slice(0, count).join('');\n\nexport type TypingOptions = TimelineOptions & {\n  /** The element the text sits in, read for --dur-type and a reduced-motion wrapper. */\n  ref?: RefObject<Element | null>;\n  /** ms before the first character. Default 0. */\n  delay?: number;\n  /** ms per character. Default --dur-type, 18ms. */\n  perChar?: number;\n};\n\nexport type Typing = {\n  /** The part that shows now. */\n  shown: string;\n  /** Characters still to come: draw the caret. */\n  typing: boolean;\n  /** Every character shows. */\n  done: boolean;\n};\n\nexport function useTyping(text: string, {ref, delay = 0, perChar, clock, play, restart}: TypingOptions = {}): Typing {\n  const token = useMotionToken(ref, '--dur-type');\n  const each = perChar ?? token.ms;\n  const length = Array.from(text).length;\n  const step = useCallback((ms: number) => typedAt(text, ms, each, delay), [text, each, delay]);\n  const elapsed = useTimeline({total: delay + length * Math.max(0, each), step, clock, play, restart: restart ?? text, reduced: token.reduced});\n  const count = typedAt(text, elapsed, each, delay);\n  // Before the first character (a delay, or play still false) nothing is typing yet, so no caret stands at rest.\n  return {shown: firstChars(text, count), typing: count > 0 && count < length, done: count >= length};\n}\n",
+   "type": "registry:hook",
+   "target": "@hooks/sodium/use-typing.ts"
+  }
+ ]
+}

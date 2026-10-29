@@ -1,0 +1,74 @@
+{
+ "id": "2b939c70-c08e-4bb6-8fac-ade99b0d1cf0",
+ "slug": "lazy-2b939c70",
+ "name": "Lazy",
+ "site_url": "https://lazy.so",
+ "lastmod": "2026-06-05T04:34:06.522Z",
+ "extracted_at": "2026-06-03T18:27:19.265Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "productivity",
+ "north_star": "Midnight typeset manuscript",
+ "fonts": [
+  "Migra",
+  "Inter",
+  "Inter",
+  "Inter",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#26272c",
+   "name": "Carbon Canvas"
+  },
+  {
+   "hex": "#0a0a0a",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#1a1b1f",
+   "name": "Inkwell"
+  },
+  {
+   "hex": "#3b3c3e",
+   "name": "Graphite Card"
+  },
+  {
+   "hex": "#8a8c93",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#62646a",
+   "name": "Slate"
+  },
+  {
+   "hex": "#535355",
+   "name": "Ash"
+  },
+  {
+   "hex": "#e0e0e0",
+   "name": "Bone"
+  },
+  {
+   "hex": "#b8b8b8",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0329df26-8333-4654-af3d-59dc52094726.mp4",
+  "poster": "https://happyhands.cc/design-archive/lazy-2b939c70/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/lazy-2b939c70/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/lazy-2b939c70/thumbnail.jpg"
+}

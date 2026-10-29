@@ -1,0 +1,86 @@
+{
+ "id": "67bb82e2-d81c-4ead-a882-a8a2534eb221",
+ "slug": "glyphs-67bb82e2",
+ "name": "Glyphs",
+ "site_url": "https://glyphsapp.com",
+ "lastmod": "2026-09-24T17:53:01.184Z",
+ "extracted_at": "2026-09-24T17:36:38.472Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "A letterpress workshop under neon light. Build white, spacious editorial compositions where exact vector-editing imagery is interrupted by bright color slabs and monumental letterforms.",
+ "fonts": [
+  "Symbol Helper"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f7eef1",
+   "name": "Blush Paper"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Control Gray"
+  },
+  {
+   "hex": "#e9f3eb",
+   "name": "Mint Wash"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#42242e",
+   "name": "Cherry Ink"
+  },
+  {
+   "hex": "#1e3219",
+   "name": "Workshop Green"
+  },
+  {
+   "hex": "#9aff00",
+   "name": "Acid Glyph"
+  },
+  {
+   "hex": "#f66a06",
+   "name": "Signal Orange"
+  },
+  {
+   "hex": "#f2ad0d",
+   "name": "Mustard Proof"
+  },
+  {
+   "hex": "#1ad1e6",
+   "name": "Cyan Blueprint"
+  },
+  {
+   "hex": "#604900",
+   "name": "Ochre Ink"
+  },
+  {
+   "hex": "#4d2f1a",
+   "name": "Burnt Ink"
+  },
+  {
+   "hex": "#243f42",
+   "name": "Blueprint Ink"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/284b1353-d63e-457e-b91b-67ebd1e4ffe2.mp4",
+  "poster": "https://happyhands.cc/design-archive/glyphs-67bb82e2/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/glyphs-67bb82e2/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/glyphs-67bb82e2/thumbnail.jpg"
+}

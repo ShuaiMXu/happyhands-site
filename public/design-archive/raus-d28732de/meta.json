@@ -1,0 +1,59 @@
+{
+ "id": "d28732de-1b7a-4d37-b7aa-edfa7caf428b",
+ "slug": "raus-d28732de",
+ "name": "Raus",
+ "site_url": "https://www.raus.life",
+ "lastmod": "2026-06-05T01:47:00.544Z",
+ "extracted_at": "2026-06-03T16:50:55.593Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Warm cabin journal on cream paper — every page a postcard from the woods.",
+ "fonts": [
+  "neue-haas-unica",
+  "fonts"
+ ],
+ "colors": [
+  {
+   "hex": "#23212c",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#f7f0e1",
+   "name": "Paper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Snow"
+  },
+  {
+   "hex": "#006434",
+   "name": "Pine"
+  },
+  {
+   "hex": "#fcbd1c",
+   "name": "Marigold"
+  },
+  {
+   "hex": "#a6dfff",
+   "name": "Morning Sky"
+  },
+  {
+   "hex": "#dd5000",
+   "name": "Ember"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/823cb989-f9f2-4b29-b3a9-45e716a737b6.mp4",
+  "poster": "https://happyhands.cc/design-archive/raus-d28732de/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/raus-d28732de/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/raus-d28732de/thumbnail.jpg"
+}

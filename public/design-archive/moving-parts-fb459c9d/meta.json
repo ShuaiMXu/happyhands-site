@@ -1,0 +1,87 @@
+{
+ "id": "fb459c9d-c089-4d0b-b5b0-d147b1c4ebd7",
+ "slug": "moving-parts-fb459c9d",
+ "name": "Moving Parts",
+ "site_url": "https://movingparts.io",
+ "lastmod": "2026-06-03T15:34:03.810Z",
+ "extracted_at": "2026-06-03T15:34:03.804Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "devtools",
+ "north_star": "Electric blueprint on matte paper — a monochrome architect's sheet that learned to glow blue. Pure black, pure white, one bolt of #0000ff.",
+ "fonts": [
+  "Whyte Semi-Mono",
+  "Unica77",
+  "PP Neue Montreal",
+  "Fraunces 72pt Soft / SuperSoft",
+  "Druk XXCondensed Super",
+  "TAN-BUSTER",
+  "Inter",
+  "ui-monospace",
+  "Arial",
+  "Fraunces 72pt SuperSoft"
+ ],
+ "colors": [
+  {
+   "hex": "#0000ff",
+   "name": "Electric Ink"
+  },
+  {
+   "hex": "#00d37c",
+   "name": "Voltage Green"
+  },
+  {
+   "hex": "#000000",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure"
+  },
+  {
+   "hex": "#121212",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#1e1e1e",
+   "name": "Slate"
+  },
+  {
+   "hex": "#bcc1c7",
+   "name": "Fog"
+  },
+  {
+   "hex": "#999999",
+   "name": "Ash"
+  },
+  {
+   "hex": "#cfcfcf",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#efefef",
+   "name": "Bone"
+  },
+  {
+   "hex": "#f4f4f4",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#fffc52",
+   "name": "Hi-Vis Yellow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5e4c5221-08ba-4e57-8710-ac10012ad1ba.mp4",
+  "poster": "https://happyhands.cc/design-archive/moving-parts-fb459c9d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/moving-parts-fb459c9d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/moving-parts-fb459c9d/thumbnail.jpg"
+}

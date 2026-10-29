@@ -1,0 +1,68 @@
+{
+ "id": "26dac924-d1c8-4097-af0f-0417ccb12128",
+ "slug": "honeybook-26dac924",
+ "name": "HoneyBook",
+ "site_url": "https://www.honeybook.com",
+ "lastmod": "2026-06-05T02:53:44.700Z",
+ "extracted_at": "2026-06-03T17:27:24.050Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "sunlit creative studio on warm cream — a bright yellow marquee opening onto white workspace panels and dark pill stamps.",
+ "fonts": [
+  "STK Bureau Serif",
+  "STK Bureau Sans",
+  "STK Gerhard"
+ ],
+ "colors": [
+  {
+   "hex": "#fffa77",
+   "name": "Honey Yellow"
+  },
+  {
+   "hex": "#fffa56",
+   "name": "Marigold"
+  },
+  {
+   "hex": "#142127",
+   "name": "Inkwell"
+  },
+  {
+   "hex": "#131416",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#343c40",
+   "name": "Slate Gray"
+  },
+  {
+   "hex": "#63696c",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#c7d5d9",
+   "name": "River Mist"
+  },
+  {
+   "hex": "#e0e5e7",
+   "name": "Fog"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e7de8ae4-8b6d-4ff9-af0e-fee9bdf3b77f.mp4",
+  "poster": "https://happyhands.cc/design-archive/honeybook-26dac924/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/honeybook-26dac924/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/honeybook-26dac924/thumbnail.jpg"
+}

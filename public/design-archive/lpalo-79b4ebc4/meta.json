@@ -1,0 +1,75 @@
+{
+ "id": "79b4ebc4-30f6-45b6-b2d2-922e28e05ca9",
+ "slug": "lpalo-79b4ebc4",
+ "name": "Lpalo",
+ "site_url": "https://lpalo.com",
+ "lastmod": "2026-06-05T01:50:01.125Z",
+ "extracted_at": "2026-06-03T16:55:13.807Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "A children's storybook spread on warm peach paper — one slab-serif headline shouting through scattered crayon doodles.",
+ "fonts": [
+  "Alfa Slab One",
+  "Manrope"
+ ],
+ "colors": [
+  {
+   "hex": "#f6e0db",
+   "name": "Peach Paper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Charcoal Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Snow"
+  },
+  {
+   "hex": "#ef724f",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#981082",
+   "name": "Magenta Pop"
+  },
+  {
+   "hex": "#e7db4c",
+   "name": "Sunbeam Yellow"
+  },
+  {
+   "hex": "#ace2df",
+   "name": "Mint Wash"
+  },
+  {
+   "hex": "#84bfff",
+   "name": "Powder Blue"
+  },
+  {
+   "hex": "#e69dff",
+   "name": "Lilac Tint"
+  },
+  {
+   "hex": "#6ed311",
+   "name": "Lime Zest"
+  },
+  {
+   "hex": "#5196ff",
+   "name": "Cobalt Spark"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/57ef14c3-ada5-4145-89e3-bb0d0992e7c9.mp4",
+  "poster": "https://happyhands.cc/design-archive/lpalo-79b4ebc4/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/lpalo-79b4ebc4/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/lpalo-79b4ebc4/thumbnail.jpg"
+}

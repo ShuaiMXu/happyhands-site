@@ -1,0 +1,54 @@
+{
+ "id": "6b667ffc-5158-4000-9252-3a107d5161ee",
+ "slug": "off-brand-6b667ffc",
+ "name": "OFF+BRAND.",
+ "site_url": "https://www.itsoffbrand.com",
+ "lastmod": "2026-06-05T01:30:16.771Z",
+ "extracted_at": "2026-06-03T16:31:18.477Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Iridescent sphere on warm parchment",
+ "fonts": [
+  "Ataero Retina OB Edition"
+ ],
+ "colors": [
+  {
+   "hex": "#e5e4e0",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#1d1d1d",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#bfbebe",
+   "name": "Ash"
+  },
+  {
+   "hex": "#cdcdc9",
+   "name": "Stone"
+  },
+  {
+   "hex": "#facb00",
+   "name": "Iridescent Sphere"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0df724fd-87f8-415e-9d47-a68e2466cc56.mp4",
+  "poster": "https://happyhands.cc/design-archive/off-brand-6b667ffc/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/off-brand-6b667ffc/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/off-brand-6b667ffc/thumbnail.jpg"
+}

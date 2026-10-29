@@ -1,0 +1,55 @@
+{
+ "id": "606d4af9-9d8c-41ea-a122-f515f38f20e5",
+ "slug": "home-606d4af9",
+ "name": "Home",
+ "site_url": "https://www.fluidtouch.biz",
+ "lastmod": "2026-06-05T12:50:06.304Z",
+ "extracted_at": "2026-06-03T21:13:12.934Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "productivity",
+ "north_star": "Stargazer's dark observatory",
+ "fonts": [
+  "Poppins",
+  "Muli"
+ ],
+ "colors": [
+  {
+   "hex": "#ed1672",
+   "name": "Hot Magenta"
+  },
+  {
+   "hex": "#121318",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#191c26",
+   "name": "Deep Space"
+  },
+  {
+   "hex": "#212529",
+   "name": "Slate Edge"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3863f6a5-d963-4e26-ab94-4f5dae747954.mp4",
+  "poster": "https://happyhands.cc/design-archive/home-606d4af9/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/home-606d4af9/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/home-606d4af9/thumbnail.jpg"
+}

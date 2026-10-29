@@ -1,0 +1,39 @@
+{
+ "id": "bd62b51f-e1be-4e4f-b3d9-e9b91f817625",
+ "slug": "little-troop-bd62b51f",
+ "name": "Little Troop",
+ "site_url": "https://littletroop.com",
+ "lastmod": "2026-06-05T10:48:45.529Z",
+ "extracted_at": "2026-06-03T21:12:53.990Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Monochrome gallery with chromatic artworks. A black pearl floating in white void.",
+ "fonts": [
+  "Arial Narrow",
+  "Times Now"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/35f75927-e15c-4c59-9a75-3fd840b65e0f.mp4",
+  "poster": "https://happyhands.cc/design-archive/little-troop-bd62b51f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/little-troop-bd62b51f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/little-troop-bd62b51f/thumbnail.jpg"
+}

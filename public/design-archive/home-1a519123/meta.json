@@ -1,0 +1,69 @@
+{
+ "id": "1a519123-071a-449f-b5df-0def73ed7f35",
+ "slug": "home-1a519123",
+ "name": "Home",
+ "site_url": "https://www.newformcap.com",
+ "lastmod": "2026-07-03T10:23:57.269Z",
+ "extracted_at": "2026-07-03T03:08:30.113Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "editorial broadsheet in a green room",
+ "fonts": [
+  "TWK Lausanne",
+  "PP Mondwest",
+  "Editorial New",
+  "Times"
+ ],
+ "colors": [
+  {
+   "hex": "#fafffa",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#121613",
+   "name": "Press Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "Typesetter Ink"
+  },
+  {
+   "hex": "#232924",
+   "name": "Slate Verdant"
+  },
+  {
+   "hex": "#516254",
+   "name": "Newsprint Gray"
+  },
+  {
+   "hex": "#c8d2c8",
+   "name": "Muted Sage"
+  },
+  {
+   "hex": "#2bee4b",
+   "name": "Highlighter Green"
+  },
+  {
+   "hex": "#93b799",
+   "name": "Shadow Moss"
+  },
+  {
+   "hex": "#c4e4c9",
+   "name": "Echo Green"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/062b1edf-3238-4bd3-acf3-ffcdf5276226.mp4",
+  "poster": "https://happyhands.cc/design-archive/home-1a519123/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/home-1a519123/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/home-1a519123/thumbnail.jpg"
+}

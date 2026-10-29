@@ -1,0 +1,86 @@
+{
+ "id": "48e5de76-05d5-4c4e-a269-c7c245b291ec",
+ "slug": "stripe-48e5de76",
+ "name": "Stripe",
+ "site_url": "https://stripe.com",
+ "lastmod": "2026-07-03T09:57:00.562Z",
+ "extracted_at": "2026-07-03T02:51:26.285Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "indigo-ink ledger on frosted glass",
+ "fonts": [
+  "sohne-var"
+ ],
+ "colors": [
+  {
+   "hex": "#533afd",
+   "name": "Indigo Ink"
+  },
+  {
+   "hex": "#7389ff",
+   "name": "Indigo Hover"
+  },
+  {
+   "hex": "#061b31",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#64748d",
+   "name": "Slate"
+  },
+  {
+   "hex": "#50617a",
+   "name": "Steel"
+  },
+  {
+   "hex": "#839bc8",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#f8fafd",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e5edf5",
+   "name": "Frost"
+  },
+  {
+   "hex": "#b9b9f9",
+   "name": "Lavender Border"
+  },
+  {
+   "hex": "#d6d9fc",
+   "name": "Lilac Border"
+  },
+  {
+   "hex": "#e8e9ff",
+   "name": "Periwinkle Wash"
+  },
+  {
+   "hex": "#182659",
+   "name": "Deep Violet"
+  },
+  {
+   "hex": "#7f71e6",
+   "name": "Amethyst Edge"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/38a53856-941a-4a12-a905-e292e595102d.mp4",
+  "poster": "https://happyhands.cc/design-archive/stripe-48e5de76/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/stripe-48e5de76/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/stripe-48e5de76/thumbnail.jpg"
+}

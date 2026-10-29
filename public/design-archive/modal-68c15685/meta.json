@@ -1,0 +1,95 @@
+{
+ "id": "68c15685-5db9-4869-b71d-27240568c9d8",
+ "slug": "modal-68c15685",
+ "name": "Modal",
+ "site_url": "https://modal.com",
+ "lastmod": "2026-07-03T11:11:55.610Z",
+ "extracted_at": "2026-07-03T03:37:14.735Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "Phosphor terminal in a darkened server room — the vivid green is the only light source.",
+ "fonts": [
+  "Goga",
+  "Inter Variable"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#181818",
+   "name": "Ground Iron"
+  },
+  {
+   "hex": "#212525",
+   "name": "Carbon Veil"
+  },
+  {
+   "hex": "#485346",
+   "name": "Circuit Border"
+  },
+  {
+   "hex": "#1f2a33",
+   "name": "Phosphor Blue-Black"
+  },
+  {
+   "hex": "#231c1c",
+   "name": "Charcoal Rust"
+  },
+  {
+   "hex": "#7fee64",
+   "name": "Lime Pulse"
+  },
+  {
+   "hex": "#ddffdc",
+   "name": "Phosphor White"
+  },
+  {
+   "hex": "#def0dd",
+   "name": "Mint Frost"
+  },
+  {
+   "hex": "#8cab87",
+   "name": "Sage 60"
+  },
+  {
+   "hex": "#677d64",
+   "name": "Sage 40"
+  },
+  {
+   "hex": "#9cbf93",
+   "name": "Moss 70"
+  },
+  {
+   "hex": "#aed2a4",
+   "name": "Moss 80"
+  },
+  {
+   "hex": "#859984",
+   "name": "Fern Link"
+  },
+  {
+   "hex": "#697368",
+   "name": "Deep Fern"
+  },
+  {
+   "hex": "#3e4a3c",
+   "name": "Pine 15"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/40316669-acb3-451e-a2ef-51e520af5530.mp4",
+  "poster": "https://happyhands.cc/design-archive/modal-68c15685/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/modal-68c15685/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/modal-68c15685/thumbnail.jpg"
+}

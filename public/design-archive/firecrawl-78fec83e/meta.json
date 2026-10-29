@@ -1,0 +1,79 @@
+{
+ "id": "78fec83e-4b27-44ab-9f64-31e9dee53e46",
+ "slug": "firecrawl-78fec83e",
+ "name": "Firecrawl",
+ "site_url": "https://www.firecrawl.dev",
+ "lastmod": "2026-06-05T00:50:24.885Z",
+ "extracted_at": "2026-06-03T15:14:52.109Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Technical blueprint on warm vellum. A developer tool that swaps cold gray for a single burning orange signal, sitting on near-white surfaces stitched together by hairline grid lines.",
+ "fonts": [
+  "Suisse",
+  "Geist Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#ff4d00",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#fcddcc",
+   "name": "Ember Glow (light)"
+  },
+  {
+   "hex": "#febec2",
+   "name": "Ember Wash (deep)"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Gridline"
+  },
+  {
+   "hex": "#262626",
+   "name": "Ink"
+  },
+  {
+   "hex": "#f9f9f9",
+   "name": "Vellum"
+  },
+  {
+   "hex": "#727272",
+   "name": "Slate"
+  },
+  {
+   "hex": "#616161",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#949494",
+   "name": "Ash"
+  },
+  {
+   "hex": "#c7c7c7",
+   "name": "Stone"
+  },
+  {
+   "hex": "#b5b5b5",
+   "name": "Mist"
+  },
+  {
+   "hex": "#838383",
+   "name": "Pebble"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e4012662-f527-46d8-997b-69581e28437e.mp4",
+  "poster": "https://happyhands.cc/design-archive/firecrawl-78fec83e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/firecrawl-78fec83e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/firecrawl-78fec83e/thumbnail.jpg"
+}

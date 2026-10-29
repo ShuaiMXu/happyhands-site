@@ -1,0 +1,63 @@
+{
+ "id": "78ac71e1-cd4c-4b4d-bac5-e7e6c65cd3fa",
+ "slug": "face-formula-78ac71e1",
+ "name": "Face Formula",
+ "site_url": "https://faceformula.com",
+ "lastmod": "2026-06-05T05:42:57.202Z",
+ "extracted_at": "2026-06-03T18:52:54.465Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Nordic editorial portrait. A quiet Scandinavian magazine spread where the model's gaze and a 120px condensed-serif masthead do all the talking against walls of cool mist.",
+ "fonts": [
+  "Libre Caslon Condensed",
+  "Circular Pro"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "White Canvas"
+  },
+  {
+   "hex": "#f2f5f8",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e6ebee",
+   "name": "Soft Mist"
+  },
+  {
+   "hex": "#cfdce7",
+   "name": "Pale Slate"
+  },
+  {
+   "hex": "#58737e",
+   "name": "Steel"
+  },
+  {
+   "hex": "#3b505a",
+   "name": "Deep Slate"
+  },
+  {
+   "hex": "#202f3b",
+   "name": "Deep Ink"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8af70e83-a301-4f9b-9521-b835135696f3.mp4",
+  "poster": "https://happyhands.cc/design-archive/face-formula-78ac71e1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/face-formula-78ac71e1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/face-formula-78ac71e1/thumbnail.jpg"
+}

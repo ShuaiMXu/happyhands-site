@@ -1,0 +1,63 @@
+{
+ "id": "408d0b89-be7d-4a09-bc29-8a8ce13d0a7b",
+ "slug": "wizz-408d0b89",
+ "name": "Wizz",
+ "site_url": "https://wizzapp.com",
+ "lastmod": "2026-06-05T12:40:32.028Z",
+ "extracted_at": "2026-06-03T22:02:37.017Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Neon pink highlighter on a black-and-white editorial — like a single fluorescent mark on a fashion magazine spread.",
+ "fonts": [
+  "sans-serif",
+  "PolySans Bulky",
+  "PolySans Median",
+  "PolySans Neutral",
+  "PolySans Slim",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#ff3d9e",
+   "name": "Volt Pink"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#dadada",
+   "name": "Ash"
+  },
+  {
+   "hex": "#444444",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#292929",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6b19228d-22da-4697-8cb9-39839d0d9231.mp4",
+  "poster": "https://happyhands.cc/design-archive/wizz-408d0b89/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/wizz-408d0b89/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/wizz-408d0b89/thumbnail.jpg"
+}

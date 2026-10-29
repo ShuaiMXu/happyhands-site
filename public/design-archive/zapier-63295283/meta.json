@@ -1,0 +1,81 @@
+{
+ "id": "63295283-c1a3-4adb-891a-d1365a47a50b",
+ "slug": "zapier-63295283",
+ "name": "Zapier",
+ "site_url": "https://zapier.com",
+ "lastmod": "2026-06-03T18:55:38.289Z",
+ "extracted_at": "2026-06-03T18:55:38.283Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "sunlit maker's notebook. A warm cream canvas with paper-thin surfaces, a single vivid orange that powers every connection, and editorial typography that reads like a design magazine rather than enterprise software.",
+ "fonts": [
+  "Inter",
+  "Degular Display",
+  "GT Alpina",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#ff4f00",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#2b2358",
+   "name": "Iris Ink"
+  },
+  {
+   "hex": "#fffefb",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#f8f4f0",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#eceae3",
+   "name": "Stone Linen"
+  },
+  {
+   "hex": "#c5c0b1",
+   "name": "Driftwood"
+  },
+  {
+   "hex": "#b7b6b3",
+   "name": "Ash Mist"
+  },
+  {
+   "hex": "#201515",
+   "name": "Ink Brown"
+  },
+  {
+   "hex": "#36342e",
+   "name": "Bark"
+  },
+  {
+   "hex": "#413735",
+   "name": "Coffee Stone"
+  },
+  {
+   "hex": "#939084",
+   "name": "Stone Gray"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5923edeb-06ba-4a85-8879-2f86e01d5155.mp4",
+  "poster": "https://happyhands.cc/design-archive/zapier-63295283/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/zapier-63295283/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/zapier-63295283/thumbnail.jpg"
+}

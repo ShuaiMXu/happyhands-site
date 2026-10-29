@@ -1,0 +1,95 @@
+{
+ "id": "c7fe6b78-9ce3-4d69-a3f0-b8310c779e7a",
+ "slug": "goodnotes-c7fe6b78",
+ "name": "Goodnotes",
+ "site_url": "https://www.goodnotes.com",
+ "lastmod": "2026-06-05T08:17:03.049Z",
+ "extracted_at": "2026-05-11T13:17:05.961Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Paper-white command canvas — a blank notebook page where every tool snap into place without decoration.",
+ "fonts": [
+  "Roobert",
+  "Font Awesome 6 Brands"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Pure Canvas"
+  },
+  {
+   "hex": "#000000",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#1e1e1e",
+   "name": "Deep Charcoal"
+  },
+  {
+   "hex": "#111213",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#565656",
+   "name": "Slate"
+  },
+  {
+   "hex": "#888889",
+   "name": "Fog"
+  },
+  {
+   "hex": "#666666",
+   "name": "Ash"
+  },
+  {
+   "hex": "#333333",
+   "name": "Steel"
+  },
+  {
+   "hex": "#e8e8e8",
+   "name": "Border Medium"
+  },
+  {
+   "hex": "#bebebe",
+   "name": "Border Soft"
+  },
+  {
+   "hex": "#57d2ee",
+   "name": "Aqua Spark"
+  },
+  {
+   "hex": "#45bfdb",
+   "name": "Teal Deep"
+  },
+  {
+   "hex": "#bcedf8",
+   "name": "Cyan Mist"
+  },
+  {
+   "hex": "#6dd9f2",
+   "name": "Cyan Text"
+  },
+  {
+   "hex": "#0299e0",
+   "name": "Sky Link"
+  },
+  {
+   "hex": "#f2e6b3",
+   "name": "Highlighter Yellow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/881329e1-15f0-4caf-8d14-2b3aac9e86af.mp4",
+  "poster": "https://happyhands.cc/design-archive/goodnotes-c7fe6b78/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/goodnotes-c7fe6b78/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/goodnotes-c7fe6b78/thumbnail.jpg"
+}

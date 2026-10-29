@@ -1,0 +1,99 @@
+{
+ "id": "03e0e30c-4c0f-4879-948a-9b501e530207",
+ "slug": "grafana-labs-03e0e30c",
+ "name": "Grafana Labs",
+ "site_url": "https://grafana.com",
+ "lastmod": "2026-09-24T18:02:28.074Z",
+ "extracted_at": "2026-09-24T17:37:42.631Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Sunrise signal control room. Pair a quiet gray-white workspace with a broad four-color horizon gradient and exact blue interface signals.",
+ "fonts": [
+  "Poppins",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#f4f4f6",
+   "name": "Cloud Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White Surface"
+  },
+  {
+   "hex": "#e6e6ea",
+   "name": "Divider Ash"
+  },
+  {
+   "hex": "#d8d8df",
+   "name": "Input Steel"
+  },
+  {
+   "hex": "#2b2d32",
+   "name": "Charcoal Panel"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#454554",
+   "name": "Graphite Copy"
+  },
+  {
+   "hex": "#67677e",
+   "name": "Slate Navigation"
+  },
+  {
+   "hex": "#1b55f5",
+   "name": "Electric Signal"
+  },
+  {
+   "hex": "#eaf0ff",
+   "name": "Blue Mist"
+  },
+  {
+   "hex": "#f4e5d9",
+   "name": "Peach Paper"
+  },
+  {
+   "hex": "#f9e8ff",
+   "name": "Lilac Wash"
+  },
+  {
+   "hex": "#fad8ac",
+   "name": "Apricot Fill"
+  },
+  {
+   "hex": "#eeaafd",
+   "name": "Orchid Edge"
+  },
+  {
+   "hex": "#8ec0ff",
+   "name": "Sky Edge"
+  },
+  {
+   "hex": "#ffae70",
+   "name": "Tangerine Edge"
+  },
+  {
+   "hex": "#f7bfa3",
+   "name": "Horizon Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/afdb4e59-2d97-43f4-8102-b93c8395353b.mp4",
+  "poster": "https://happyhands.cc/design-archive/grafana-labs-03e0e30c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/grafana-labs-03e0e30c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/grafana-labs-03e0e30c/thumbnail.jpg"
+}

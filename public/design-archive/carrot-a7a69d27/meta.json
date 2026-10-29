@@ -1,0 +1,47 @@
+{
+ "id": "a7a69d27-e1a9-4322-b58f-3c7633fdc60d",
+ "slug": "carrot-a7a69d27",
+ "name": "Carrot",
+ "site_url": "https://carrot.tech",
+ "lastmod": "2026-06-03T22:02:30.141Z",
+ "extracted_at": "2026-06-03T22:02:30.136Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Activist poster on a single sheet of acid-lime paper — confident, flat, and slightly loud.",
+ "fonts": [
+  "Signifier",
+  "DM Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#d4e04a",
+   "name": "Citrus Field"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#535521",
+   "name": "Moss Shadow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/38a068ed-e2fc-4ea1-8035-3c90ac5aae14.mp4",
+  "poster": "https://happyhands.cc/design-archive/carrot-a7a69d27/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/carrot-a7a69d27/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/carrot-a7a69d27/thumbnail.jpg"
+}

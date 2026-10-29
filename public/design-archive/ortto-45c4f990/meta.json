@@ -1,0 +1,65 @@
+{
+ "id": "45c4f990-e6b4-472d-89a4-06870ac17b9f",
+ "slug": "ortto-45c4f990",
+ "name": "Ortto",
+ "site_url": "https://ortto.com",
+ "lastmod": "2026-06-03T21:28:50.194Z",
+ "extracted_at": "2026-06-03T21:28:50.187Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "blueprint on midnight paper",
+ "fonts": [
+  "sans-serif",
+  "Ivar Text",
+  "Haas Grot Text R",
+  "Haas Grot Disp R",
+  "Haas Grot Text R Web 55 Roman",
+  "Haas Grot Text R Web 65 Medium",
+  "Ivar Text Regular",
+  "Haas Grot Text R Web 75 Bold"
+ ],
+ "colors": [
+  {
+   "hex": "#1070ff",
+   "name": "Electric Blue"
+  },
+  {
+   "hex": "#14171f",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#252525",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#6d6b70",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f9f8f7",
+   "name": "Cream"
+  },
+  {
+   "hex": "#000000",
+   "name": "Onyx"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0e030ebb-162e-4bfe-a609-fbb637caef90.mp4",
+  "poster": "https://happyhands.cc/design-archive/ortto-45c4f990/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ortto-45c4f990/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ortto-45c4f990/thumbnail.jpg"
+}

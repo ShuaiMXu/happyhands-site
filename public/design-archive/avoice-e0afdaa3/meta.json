@@ -1,0 +1,91 @@
+{
+ "id": "e0afdaa3-c90a-4ec7-8d0d-f5a72000c4b1",
+ "slug": "avoice-e0afdaa3",
+ "name": "Avoice",
+ "site_url": "https://www.avoice.co",
+ "lastmod": "2026-09-20T20:21:29.312Z",
+ "extracted_at": "2026-09-20T19:23:25.316Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "lime drafting mark on midnight plans. Build pale, document-like page sections around near-black product stages, then use electric lime as the high-visibility signal for conversion, selection, and architectural annotation.",
+ "fonts": [
+  "Aspekta",
+  "ui-monospace"
+ ],
+ "colors": [
+  {
+   "hex": "#0a1217",
+   "name": "Drawing Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f1f1f1",
+   "name": "Drafting Gray"
+  },
+  {
+   "hex": "#e6e7e8",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#85898b",
+   "name": "Stone"
+  },
+  {
+   "hex": "#54595d",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#000000",
+   "name": "Archive Black"
+  },
+  {
+   "hex": "#cdfe00",
+   "name": "Signal Lime"
+  },
+  {
+   "hex": "#dceaf8",
+   "name": "Blueprint Wash"
+  },
+  {
+   "hex": "#f4e3cd",
+   "name": "Material Wash"
+  },
+  {
+   "hex": "#ddefe2",
+   "name": "Site Wash"
+  },
+  {
+   "hex": "#5b4678",
+   "name": "Review Status"
+  },
+  {
+   "hex": "#9a6700",
+   "name": "Input Status"
+  },
+  {
+   "hex": "#1a7f55",
+   "name": "Complete Status"
+  },
+  {
+   "hex": "#24476b",
+   "name": "Plan Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/211643b5-60d8-42f4-9d36-433be9e4fb4c.mp4",
+  "poster": "https://happyhands.cc/design-archive/avoice-e0afdaa3/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/avoice-e0afdaa3/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/avoice-e0afdaa3/thumbnail.jpg"
+}

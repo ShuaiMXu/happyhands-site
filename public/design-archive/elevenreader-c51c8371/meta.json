@@ -1,0 +1,63 @@
+{
+ "id": "c51c8371-0e42-4bdf-9766-c9eac5eee9a5",
+ "slug": "elevenreader-c51c8371",
+ "name": "ElevenReader",
+ "site_url": "https://elevenreader.io",
+ "lastmod": "2026-06-03T19:24:02.448Z",
+ "extracted_at": "2026-06-03T19:24:02.439Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "newsprint minimalism with a single color bloom",
+ "fonts": [
+  "WaldenburgHF",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Bone"
+  },
+  {
+   "hex": "#c8d5f4",
+   "name": "Lavender Haze"
+  },
+  {
+   "hex": "#767676",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#6e6e6e",
+   "name": "Slate"
+  },
+  {
+   "hex": "#a5b1dd",
+   "name": "Hero Bloom"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4d608dd6-a450-4a62-9bdb-39eb256ebf7d.mp4",
+  "poster": "https://happyhands.cc/design-archive/elevenreader-c51c8371/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/elevenreader-c51c8371/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/elevenreader-c51c8371/thumbnail.jpg"
+}

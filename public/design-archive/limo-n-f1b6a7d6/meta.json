@@ -1,0 +1,59 @@
+{
+ "id": "f1b6a7d6-1ecb-4f1c-95b0-e03323363999",
+ "slug": "limo-n-f1b6a7d6",
+ "name": "Limón",
+ "site_url": "https://limonoslo.no",
+ "lastmod": "2026-06-05T02:28:43.524Z",
+ "extracted_at": "2026-06-03T15:55:46.529Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "other",
+ "north_star": "moody brasserie under candlelight",
+ "fonts": [
+  "VenusCom",
+  "Font Awesome 6 Free",
+  "Font Awesome 6 Brands",
+  "Times",
+  "Helvetica",
+  "FreeSans"
+ ],
+ "colors": [
+  {
+   "hex": "#1d0b0d",
+   "name": "Black Olive"
+  },
+  {
+   "hex": "#103b15",
+   "name": "Forest Ink"
+  },
+  {
+   "hex": "#f7ea48",
+   "name": "Lemon Zest"
+  },
+  {
+   "hex": "#fcf9f0",
+   "name": "Warm Cream"
+  },
+  {
+   "hex": "#dbe2dc",
+   "name": "Sage Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/019533a8-18d5-4a70-9191-e625a32cabf7.mp4",
+  "poster": "https://happyhands.cc/design-archive/limo-n-f1b6a7d6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/limo-n-f1b6a7d6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/limo-n-f1b6a7d6/thumbnail.jpg"
+}

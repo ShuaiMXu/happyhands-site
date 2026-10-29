@@ -1,0 +1,43 @@
+{
+ "id": "c4e125b6-e3a3-4509-b06f-f0169216a394",
+ "slug": "extract-c4e125b6",
+ "name": "Extract",
+ "site_url": "https://extract.studio",
+ "lastmod": "2026-06-05T12:18:49.291Z",
+ "extracted_at": "2026-06-03T21:53:12.837Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Editorial monolith on gallery paper",
+ "fonts": [
+  "Feature Deck",
+  "ABC Diatype"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Gallery White"
+  },
+  {
+   "hex": "#070707",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#e7feda",
+   "name": "Spearmint Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6ed8965c-a237-405a-893c-abaeb48707f2.mp4",
+  "poster": "https://happyhands.cc/design-archive/extract-c4e125b6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/extract-c4e125b6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/extract-c4e125b6/thumbnail.jpg"
+}

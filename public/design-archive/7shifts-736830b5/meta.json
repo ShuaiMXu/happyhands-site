@@ -1,0 +1,94 @@
+{
+ "id": "736830b5-90b1-47b0-99dd-d79454a0d22a",
+ "slug": "7shifts-736830b5",
+ "name": "7shifts",
+ "site_url": "https://www.7shifts.com",
+ "lastmod": "2026-06-05T05:25:54.282Z",
+ "extracted_at": "2026-06-03T18:48:29.978Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "warm diner counter with neon chalk accents — a bright restaurant counter where indigo buttons, orange hand-drawn underlines, and lime highlighter marks sit on clean white and warm bone surfaces, with occasional black bands that make the colors glow.",
+ "fonts": [
+  "Regular",
+  "A geometric grotesque sans-serif (custom-marketed as the site font — Inter, Manrope, or DM Sans are close substitutes)",
+  "Nanum Pen Script",
+  "Medium",
+  "Bold"
+ ],
+ "colors": [
+  {
+   "hex": "#4570ff",
+   "name": "Indigo Bolt"
+  },
+  {
+   "hex": "#ff6808",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#c6ff94",
+   "name": "Lime Highlighter"
+  },
+  {
+   "hex": "#ebdcff",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#d6e0ff",
+   "name": "Ice Blue"
+  },
+  {
+   "hex": "#c293f1",
+   "name": "Lilac Bloom"
+  },
+  {
+   "hex": "#193f78",
+   "name": "Deep Navy"
+  },
+  {
+   "hex": "#244f47",
+   "name": "Forest Sage"
+  },
+  {
+   "hex": "#f1f0ec",
+   "name": "Warm Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#d1d5db",
+   "name": "Stone"
+  },
+  {
+   "hex": "#6e6d6c",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#555555",
+   "name": "Graphite"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c9c55c4b-ec73-43c9-9d57-81281fd7b925.mp4",
+  "poster": "https://happyhands.cc/design-archive/7shifts-736830b5/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/7shifts-736830b5/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/7shifts-736830b5/thumbnail.jpg"
+}

@@ -1,0 +1,96 @@
+{
+ "id": "d2e327b2-1181-4203-82a6-2dc15a72078a",
+ "slug": "munro-partners-d2e327b2",
+ "name": "Munro Partners",
+ "site_url": "https://www.munropartners.com.au",
+ "lastmod": "2026-06-05T05:24:35.971Z",
+ "extracted_at": "2026-06-03T18:44:58.103Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "Editorial parchment under alpine light — a warm cream canvas holding generous whitespace, a whisper-weight grotesque, and full-bleed mountain photography where the landscape does the talking and the interface stays nearly invisible.",
+ "fonts": [
+  "Neue Haas Grotesk Display",
+  "Neue Haas Grotesk Text",
+  "Font Awesome 5 Brands"
+ ],
+ "colors": [
+  {
+   "hex": "#fff9ee",
+   "name": "Cream Parchment"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#3f322a",
+   "name": "Bark Brown"
+  },
+  {
+   "hex": "#9f968c",
+   "name": "Warm Gray"
+  },
+  {
+   "hex": "#c5bdb3",
+   "name": "Stone"
+  },
+  {
+   "hex": "#b3aea7",
+   "name": "Driftwood"
+  },
+  {
+   "hex": "#796e65",
+   "name": "Earth"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Light Stone"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#004e4e",
+   "name": "Deep Teal"
+  },
+  {
+   "hex": "#560e4b",
+   "name": "Aubergine"
+  },
+  {
+   "hex": "#a56eff",
+   "name": "Iris"
+  },
+  {
+   "hex": "#3074f9",
+   "name": "Cobalt"
+  },
+  {
+   "hex": "#bfebfe",
+   "name": "Ice Blue"
+  },
+  {
+   "hex": "#feed5a",
+   "name": "Saffron"
+  },
+  {
+   "hex": "#c67700",
+   "name": "Amber"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/32fef524-a0f2-4199-b2d2-badc8b243ddf.mp4",
+  "poster": "https://happyhands.cc/design-archive/munro-partners-d2e327b2/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/munro-partners-d2e327b2/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/munro-partners-d2e327b2/thumbnail.jpg"
+}

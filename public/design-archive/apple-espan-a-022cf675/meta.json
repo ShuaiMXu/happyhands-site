@@ -1,0 +1,79 @@
+{
+ "id": "022cf675-42d1-44e7-953a-68facc802117",
+ "slug": "apple-espan-a-022cf675",
+ "name": "Apple (España)",
+ "site_url": "https://www.apple.com/airpods-pro",
+ "lastmod": "2026-06-03T15:31:53.046Z",
+ "extracted_at": "2026-06-03T15:31:53.040Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "gallery vitrine in morning fog",
+ "fonts": [
+  "SF Pro Display",
+  "SF Pro Text"
+ ],
+ "colors": [
+  {
+   "hex": "#1d1d1f",
+   "name": "Apple Ink"
+  },
+  {
+   "hex": "#f5f5f7",
+   "name": "Fog Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#707070",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#86868b",
+   "name": "Slate"
+  },
+  {
+   "hex": "#333336",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#474747",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#5b5b61",
+   "name": "Iron"
+  },
+  {
+   "hex": "#e8e8ed",
+   "name": "Ash"
+  },
+  {
+   "hex": "#0071e3",
+   "name": "Electric Blue"
+  },
+  {
+   "hex": "#0066cc",
+   "name": "Link Blue"
+  },
+  {
+   "hex": "#c959dd",
+   "name": "Iridescent Spectrum"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a9f9e89b-57ea-487f-b977-b20dd3010bf2.mp4",
+  "poster": "https://happyhands.cc/design-archive/apple-espan-a-022cf675/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/apple-espan-a-022cf675/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/apple-espan-a-022cf675/thumbnail.jpg"
+}

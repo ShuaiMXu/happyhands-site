@@ -1,0 +1,47 @@
+{
+ "id": "fd36c7c7-4f8c-4d2a-9346-72e3d8403f01",
+ "slug": "athletics-fd36c7c7",
+ "name": "Athletics",
+ "site_url": "https://athleticsnyc.com",
+ "lastmod": "2026-06-03T19:50:02.480Z",
+ "extracted_at": "2026-06-03T19:50:02.475Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "monograph on black velvet",
+ "fonts": [
+  "Feature Deck",
+  "Söhne"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#1d1d1d",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#d6d5d0",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/caaad911-fb06-42f8-b916-48061b1ce920.mp4",
+  "poster": "https://happyhands.cc/design-archive/athletics-fd36c7c7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/athletics-fd36c7c7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/athletics-fd36c7c7/thumbnail.jpg"
+}

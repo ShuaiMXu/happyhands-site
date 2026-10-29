@@ -1,0 +1,49 @@
+{
+ "id": "bf523387-03fc-4243-86ca-25af34daa0ce",
+ "slug": "heart-aerospace-bf523387",
+ "name": "Heart Aerospace",
+ "site_url": "https://heartaerospace.com",
+ "lastmod": "2026-06-05T05:25:03.761Z",
+ "extracted_at": "2026-06-03T18:44:12.211Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "monumental type drifting through cloud-level gradient skies — the brand reads like an engineering manifesto printed on atmosphere.",
+ "fonts": [
+  "NeueHaasText",
+  "NeueHaasGroteskDisplay",
+  "NeueHaasGroteskText",
+  "NeueHaasDisplay"
+ ],
+ "colors": [
+  {
+   "hex": "#716e85",
+   "name": "Stratosphere"
+  },
+  {
+   "hex": "#001489",
+   "name": "Jetstream Blue"
+  },
+  {
+   "hex": "#000000",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Cloud"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/bafb67b2-f6a4-4b94-bfc6-0bc859eb41fb.mp4",
+  "poster": "https://happyhands.cc/design-archive/heart-aerospace-bf523387/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/heart-aerospace-bf523387/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/heart-aerospace-bf523387/thumbnail.jpg"
+}

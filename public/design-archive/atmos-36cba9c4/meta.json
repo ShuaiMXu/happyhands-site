@@ -1,0 +1,44 @@
+{
+ "id": "36cba9c4-9852-4f59-a52d-17be741f6ed8",
+ "slug": "atmos-36cba9c4",
+ "name": "ATMOS",
+ "site_url": "https://atmos.leeroy.ca",
+ "lastmod": "2026-06-03T17:25:33.603Z",
+ "extracted_at": "2026-06-03T17:25:33.599Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "violet horizon above white void",
+ "fonts": [
+  "_NewYork",
+  "DM Sans",
+  "Times"
+ ],
+ "colors": [
+  {
+   "hex": "#0825c6",
+   "name": "Deep Violet"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8e7caba7-0fb9-45a9-87a6-80226fafafb8.mp4",
+  "poster": "https://happyhands.cc/design-archive/atmos-36cba9c4/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/atmos-36cba9c4/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/atmos-36cba9c4/thumbnail.jpg"
+}

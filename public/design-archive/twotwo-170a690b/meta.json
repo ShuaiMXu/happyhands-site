@@ -1,0 +1,57 @@
+{
+ "id": "170a690b-7424-4c2e-9d08-975725cf9261",
+ "slug": "twotwo-170a690b",
+ "name": "TWOTWO",
+ "site_url": "https://twotwo-official.com",
+ "lastmod": "2026-06-05T08:11:33.333Z",
+ "extracted_at": "2026-06-03T20:00:42.943Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "voltage lime on monochrome concrete — a single neon punch inside a black-and-white editorial grid",
+ "fonts": [
+  "WhyteRegular",
+  "Whyte",
+  "Whyte Book",
+  "Whyte Inktrap"
+ ],
+ "colors": [
+  {
+   "hex": "#e3fc03",
+   "name": "Voltage Lime"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#323232",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#1a1a1a",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#e6e6e6",
+   "name": "Concrete"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b62bdfe1-314a-4ecd-91ce-36db93b078b1.mp4",
+  "poster": "https://happyhands.cc/design-archive/twotwo-170a690b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/twotwo-170a690b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/twotwo-170a690b/thumbnail.jpg"
+}

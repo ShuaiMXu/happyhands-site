@@ -1,0 +1,80 @@
+{
+ "id": "e869e214-f672-4ac3-bfc2-bd25de7b003b",
+ "slug": "base44-e869e214",
+ "name": "Base44",
+ "site_url": "https://base44.com",
+ "lastmod": "2026-07-03T10:50:53.599Z",
+ "extracted_at": "2026-07-03T03:23:49.893Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "sunlit notepad with a lime highlighter",
+ "fonts": [
+  "WixMadeforText",
+  "WixMisoRegular",
+  "WixMisoLight"
+ ],
+ "colors": [
+  {
+   "hex": "#faf9f7",
+   "name": "Canvas Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Card White"
+  },
+  {
+   "hex": "#0f0f0f",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#232529",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#d1d1d1",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#e6e6e6",
+   "name": "Soft Border"
+  },
+  {
+   "hex": "#a0a0a0",
+   "name": "Muted Ink"
+  },
+  {
+   "hex": "#ebffb1",
+   "name": "Lime Wash"
+  },
+  {
+   "hex": "#ade900",
+   "name": "Lime Edge"
+  },
+  {
+   "hex": "#ff631f",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#ffae53",
+   "name": "Sunset Gradient"
+  },
+  {
+   "hex": "#5db3cf",
+   "name": "Sky Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d274d936-168d-49a7-b103-32fc47466de7.mp4",
+  "poster": "https://happyhands.cc/design-archive/base44-e869e214/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/base44-e869e214/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/base44-e869e214/thumbnail.jpg"
+}

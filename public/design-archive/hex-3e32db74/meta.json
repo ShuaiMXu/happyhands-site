@@ -1,0 +1,84 @@
+{
+ "id": "3e32db74-a61d-4e72-93b8-1fb949af2c00",
+ "slug": "hex-3e32db74",
+ "name": "Hex",
+ "site_url": "https://hex.tech",
+ "lastmod": "2026-06-05T03:09:02.149Z",
+ "extracted_at": "2026-06-03T17:39:31.908Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "alchemy lab on cream parchment — literary serif headline over dense data notebook",
+ "fonts": [
+  "PP Editorial New",
+  "PP Formula SemiExtended",
+  "PP Formula",
+  "IBM Plex Sans",
+  "Cinetype",
+  "IBM Plex Mono",
+  "Lato"
+ ],
+ "colors": [
+  {
+   "hex": "#01011b",
+   "name": "Ink Violet"
+  },
+  {
+   "hex": "#31263b",
+   "name": "Plum Charcoal"
+  },
+  {
+   "hex": "#43394c",
+   "name": "Storm Mauve"
+  },
+  {
+   "hex": "#717a94",
+   "name": "Slate Iris"
+  },
+  {
+   "hex": "#89828d",
+   "name": "Ash Lavender"
+  },
+  {
+   "hex": "#fffcfc",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#ecedf2",
+   "name": "Bone Mist"
+  },
+  {
+   "hex": "#dbd7da",
+   "name": "Fog Border"
+  },
+  {
+   "hex": "#473982",
+   "name": "Twilight Plum"
+  },
+  {
+   "hex": "#6f63b7",
+   "name": "Amethyst"
+  },
+  {
+   "hex": "#9e91d6",
+   "name": "Wisteria"
+  },
+  {
+   "hex": "#544692",
+   "name": "Indigo Plum"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4501d5eb-829f-4b65-890e-cc220f5b760c.mp4",
+  "poster": "https://happyhands.cc/design-archive/hex-3e32db74/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/hex-3e32db74/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/hex-3e32db74/thumbnail.jpg"
+}

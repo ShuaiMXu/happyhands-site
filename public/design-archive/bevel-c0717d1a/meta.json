@@ -1,0 +1,74 @@
+{
+ "id": "c0717d1a-b446-4166-a445-6497fe287fea",
+ "slug": "bevel-c0717d1a",
+ "name": "Bevel",
+ "site_url": "https://www.bevel.health",
+ "lastmod": "2026-09-24T17:46:02.431Z",
+ "extracted_at": "2026-09-24T17:31:24.413Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Morning metrics in cloudlight. Build screens as a bright white health journal punctuated by a softly glowing wearable dashboard.",
+ "fonts": [
+  "-apple-system, BlinkMacSystemFont, Inter, \"Segoe UI\", sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#1f2025",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#222326",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ebf0f8",
+   "name": "Cloud Card"
+  },
+  {
+   "hex": "#747679",
+   "name": "Body Gray"
+  },
+  {
+   "hex": "#ffca00",
+   "name": "Signal Gold"
+  },
+  {
+   "hex": "#ffab94",
+   "name": "Coral Signal"
+  },
+  {
+   "hex": "#31ce01",
+   "name": "Recovery Green"
+  },
+  {
+   "hex": "#415eee",
+   "name": "Metric Blue"
+  },
+  {
+   "hex": "#b9a6ff",
+   "name": "Sleep Lilac"
+  },
+  {
+   "hex": "#d2e5ff",
+   "name": "Hero Sky"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/9c22c7c8-e7a0-46f5-b922-ac94309d4abd.mp4",
+  "poster": "https://happyhands.cc/design-archive/bevel-c0717d1a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/bevel-c0717d1a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/bevel-c0717d1a/thumbnail.jpg"
+}

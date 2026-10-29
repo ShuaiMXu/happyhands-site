@@ -1,0 +1,82 @@
+{
+ "id": "05a82625-786e-4343-a554-3ba8f4de23d7",
+ "slug": "neverhack-05a82625",
+ "name": "NEVERHACK",
+ "site_url": "https://neverhack.com/en",
+ "lastmod": "2026-06-05T08:41:30.590Z",
+ "extracted_at": "2026-06-03T20:05:34.171Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "encrypted command terminal on cold marble",
+ "fonts": [
+  "Roobert"
+ ],
+ "colors": [
+  {
+   "hex": "#0a0f1f",
+   "name": "Sovereign Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Signal White"
+  },
+  {
+   "hex": "#f6f7fc",
+   "name": "Mist Surface"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Cool Hairline"
+  },
+  {
+   "hex": "#d8d7e2",
+   "name": "Shadow Lichen"
+  },
+  {
+   "hex": "#4e4e4e",
+   "name": "Carbon Gray"
+  },
+  {
+   "hex": "#999999",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#6b2bea",
+   "name": "Sovereign Violet"
+  },
+  {
+   "hex": "#afa9fd",
+   "name": "Violet Wash"
+  },
+  {
+   "hex": "#28d3fe",
+   "name": "Cyber Cyan"
+  },
+  {
+   "hex": "#dc2626",
+   "name": "Alert Crimson"
+  },
+  {
+   "hex": "#f4baba",
+   "name": "Crimson Glow"
+  },
+  {
+   "hex": "#2563eb",
+   "name": "Info Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/62d6c507-3051-408b-b2a2-7d91ac2b3d1a.mp4",
+  "poster": "https://happyhands.cc/design-archive/neverhack-05a82625/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/neverhack-05a82625/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/neverhack-05a82625/thumbnail.jpg"
+}

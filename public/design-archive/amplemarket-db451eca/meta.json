@@ -1,0 +1,90 @@
+{
+ "id": "db451eca-8de6-43a9-a5d5-35271befdffd",
+ "slug": "amplemarket-db451eca",
+ "name": "Amplemarket",
+ "site_url": "https://www.amplemarket.com",
+ "lastmod": "2026-07-03T10:34:19.863Z",
+ "extracted_at": "2026-07-03T03:12:58.514Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Sunlit workspace with scattered confetti",
+ "fonts": [
+  "Labil Grotesk Variable"
+ ],
+ "colors": [
+  {
+   "hex": "#e8400d",
+   "name": "Phoenix Orange"
+  },
+  {
+   "hex": "#10054d",
+   "name": "Midnight Indigo"
+  },
+  {
+   "hex": "#272625",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#111111",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Canvas White"
+  },
+  {
+   "hex": "#f6f5f3",
+   "name": "Cream Wash"
+  },
+  {
+   "hex": "#6d6c6b",
+   "name": "Ash"
+  },
+  {
+   "hex": "#b1b1af",
+   "name": "Stone"
+  },
+  {
+   "hex": "#ecebea",
+   "name": "Pearl"
+  },
+  {
+   "hex": "#ffd7f0",
+   "name": "Petal Pink"
+  },
+  {
+   "hex": "#b7efb2",
+   "name": "Mint Green"
+  },
+  {
+   "hex": "#ffef99",
+   "name": "Canary Yellow"
+  },
+  {
+   "hex": "#e2ddfd",
+   "name": "Soft Violet"
+  },
+  {
+   "hex": "#99fff9",
+   "name": "Aqua"
+  },
+  {
+   "hex": "#2e2460",
+   "name": "Indigo Deep"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/72f102c7-dd43-4e3c-b86f-78e5fc068d77.mp4",
+  "poster": "https://happyhands.cc/design-archive/amplemarket-db451eca/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/amplemarket-db451eca/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/amplemarket-db451eca/thumbnail.jpg"
+}

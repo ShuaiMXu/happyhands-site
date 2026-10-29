@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "voice-capture",
+  "type": "registry:block",
+  "title": "Voice capture",
+  "description": "The assistant listening, at phone width: the time, the words as they are heard, Cancel and Send it.",
+  "author": "design.how",
+  "categories": [
+    "block",
+    "ai",
+    "mobile"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/button.json",
+    "https://happyhands.cc/r/glaze/status.json",
+    "https://happyhands.cc/r/glaze/theme.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/glaze/index.md",
+    "page": "https://happyhands.cc/design-how/glaze/index.md"
+  },
+  "files": [
+    {
+      "path": "registry/glaze/blocks/voice-capture.tsx",
+      "content": "'use client';\n\nimport {Button} from '@/components/glaze/ui/button';\nimport {Status} from '@/components/glaze/ui/status';\n\n// A block: the assistant listening, at phone width. The running Status and the time in mono over the words as they\n// are heard, the settled ones in text-1 and the last few, still forming, in text-3. Cancel sits flat beside the one\n// glass key, which stops and hands the words to the assistant. Wire `heard` and `forming` to your speech recogniser.\n\nconst heard = 'Remind me to call about the kitchen leak on Monday, and find a plumber';\nconst forming = 'who can come this week';\n\n/** Listening: the time, the words so far and Send it. */\nexport function VoiceCapture({className}: {className?: string}) {\n  return (\n    <section aria-label=\"Voice note\" className={className ?? 'flex w-full max-w-sm flex-col gap-4'}>\n      <div className=\"flex items-baseline gap-2\">\n        <Status status=\"running\" live className=\"me-auto\">Listening</Status>\n        <span className=\"data type-label text-text-2\">0:14</span>\n      </div>\n      <p aria-live=\"polite\" className=\"type-heading\">\n        {heard} <span className=\"text-text-3\">{forming}</span>\n      </p>\n      <div className=\"flex gap-2\">\n        <Button variant=\"secondary\" className=\"flex-1\">Cancel</Button>\n        <Button className=\"flex-1\">Send it</Button>\n      </div>\n    </section>\n  );\n}\n",
+      "type": "registry:block",
+      "target": "@components/glaze/blocks/voice-capture.tsx"
+    }
+  ]
+}

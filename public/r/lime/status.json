@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "status",
+  "type": "registry:ui",
+  "title": "Status",
+  "description": "The state of a payment as a dot and a word.",
+  "author": "design.how",
+  "categories": [
+    "feedback"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/button.json",
+    "https://happyhands.cc/r/lime/theme.json",
+    "https://happyhands.cc/r/lime/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/lime/components/status.md",
+    "page": "https://happyhands.cc/design-how/lime/components/status.md"
+  },
+  "files": [
+    {
+      "path": "registry/lime/ui/status.tsx",
+      "content": "import {cn} from '@/lib/lime/utils';\nimport {Spinner} from '@/components/lime/ui/button';\n\n// The state of a piece of work, as a dot and a word. Color never carries it alone: every status has a\n// label and running has a turning mark. One map holds the words so no screen invents its own.\n\ntype StatusName = 'queued' | 'running' | 'done' | 'failed' | 'canceled';\n\nconst STATUS_META: Record<StatusName, {label: string; dot: string}> = {\n  queued: {label: 'Scheduled', dot: 'bg-control'},\n  running: {label: 'Processing', dot: 'bg-accent-line'},\n  done: {label: 'Paid', dot: 'bg-success'},\n  failed: {label: 'Declined', dot: 'bg-danger'},\n  canceled: {label: 'Canceled', dot: 'bg-fg-disabled'},\n};\n\ntype StatusProps = Omit<React.ComponentProps<'span'>, 'children'> & {\n  status: StatusName;\n  /** Replaces the default word, such as \"Sending, 42%\". */\n  label?: string;\n  /** Lets a script move focus here, for a status that replaces the button that had it. It stays out of the Tab order. */\n  focusable?: boolean;\n};\n\nfunction Status({status, label, focusable, className, ...props}: StatusProps) {\n  const meta = STATUS_META[status];\n  return (\n    <span data-slot=\"status\" data-status={status} tabIndex={focusable ? -1 : undefined} className={cn('inline-flex items-center gap-2 text-sm text-fg-2', focusable && 'rounded-sm', className)} {...props}>\n      {status === 'running'\n        ? <Spinner size={14} className=\"text-accent-line\"/>\n        : <span aria-hidden=\"true\" className={cn('size-2 shrink-0 rounded-full', meta.dot)}/>}\n      {label ?? meta.label}\n    </span>\n  );\n}\n\nexport {Status, STATUS_META, type StatusName, type StatusProps};\n",
+      "type": "registry:ui",
+      "target": "@components/lime/ui/status.tsx"
+    }
+  ]
+}

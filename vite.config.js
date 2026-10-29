@@ -62,6 +62,8 @@ export default defineConfig({
     happyhands: resolve('systems/happyhands/index.html'),
     quartz: resolve('systems/quartz/index.html'),
     lime: resolve('systems/lime/index.html'),
+    sodium: resolve('systems/sodium/index.html'),
+    glaze: resolve('systems/glaze/index.html'),
     'component-preview': resolve('components/preview/index.html'),
     components: resolve('components/index.html'),
     portal: resolve('apps/portal/index.html'),

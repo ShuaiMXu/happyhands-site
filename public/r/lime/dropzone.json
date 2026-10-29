@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "dropzone",
+  "type": "registry:ui",
+  "title": "Dropzone",
+  "description": "A target for receipts and statements, with type and size checks.",
+  "author": "design.how",
+  "categories": [
+    "inputs"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/icon.json",
+    "https://happyhands.cc/r/lime/theme.json",
+    "https://happyhands.cc/r/lime/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/lime/components/dropzone.md",
+    "page": "https://happyhands.cc/design-how/lime/components/dropzone.md"
+  },
+  "files": [
+    {
+      "path": "registry/lime/ui/dropzone.tsx",
+      "content": "'use client';\n\nimport {useId, useRef, useState} from 'react';\nimport {Icon, Upload} from '@/components/lime/icon';\nimport {cn} from '@/lib/lime/utils';\n\n// A target for files: drop them here or press to choose. The whole box is a label for a real file input,\n// so it works with a keyboard and a screen reader, and dragging over it takes the lime wash and an olive\n// edge. Say what is accepted in the hint (\"JPG, PNG or PDF, up to 10 MB\") before anyone drops the wrong file.\n// Files that miss `accept` or `maxSize` are reported through onReject with a reason, never dropped silently.\n\ntype RejectReason = 'type' | 'size' | 'count';\n\ntype DropzoneProps = Omit<React.ComponentProps<'label'>, 'onDrop' | 'onChange'> & {\n  /** Same syntax as the input's accept attribute, such as \"image/*,.pdf\". */\n  accept?: string;\n  multiple?: boolean;\n  /** Bytes. */\n  maxSize?: number;\n  disabled?: boolean;\n  onFiles: (files: File[]) => void;\n  onReject?: (rejected: {file: File; reason: RejectReason}[]) => void;\n  title?: string;\n  hint?: string;\n};\n\nfunction matches(file: File, accept?: string) {\n  if (!accept) return true;\n  return accept.split(',').map(s => s.trim().toLowerCase()).filter(Boolean).some(rule => {\n    if (rule.startsWith('.')) return file.name.toLowerCase().endsWith(rule);\n    if (rule.endsWith('/*')) return file.type.toLowerCase().startsWith(rule.slice(0, -1));\n    return file.type.toLowerCase() === rule;\n  });\n}\n\nfunction Dropzone({accept, multiple, maxSize, disabled, onFiles, onReject, title = 'Drop files here', hint, className, children, ...props}: DropzoneProps) {\n  const id = useId();\n  const input = useRef<HTMLInputElement>(null);\n  const [over, setOver] = useState(false);\n\n  function take(list: FileList | File[]) {\n    const all = Array.from(list);\n    const accepted: File[] = [];\n    const rejected: {file: File; reason: RejectReason}[] = [];\n    for (const file of all) {\n      if (!matches(file, accept)) rejected.push({file, reason: 'type'});\n      else if (maxSize !== undefined && file.size > maxSize) rejected.push({file, reason: 'size'});\n      else if (!multiple && accepted.length >= 1) rejected.push({file, reason: 'count'});\n      else accepted.push(file);\n    }\n    if (accepted.length) onFiles(accepted);\n    if (rejected.length) onReject?.(rejected);\n  }\n\n  return (\n    <label\n      htmlFor={id}\n      data-slot=\"dropzone\"\n      data-over={over || undefined}\n      data-disabled={disabled || undefined}\n      onDragOver={e => { if (!disabled) { e.preventDefault(); setOver(true); } }}\n      // Leaving for a child (the icon, the text) is still over the zone; only leaving the label ends it.\n      onDragLeave={e => { if (!e.currentTarget.contains(e.relatedTarget as Node | null)) setOver(false); }}\n      onDrop={e => { e.preventDefault(); setOver(false); if (!disabled) take(e.dataTransfer.files); }}\n      className={cn(\n        'flex w-full cursor-pointer flex-col items-center justify-center gap-2 rounded-panel border border-dashed border-control bg-surface px-6 py-10 text-center',\n        'transition-[background-color,border-color] duration-(--dur-instant) ease-out hover:not-data-disabled:bg-surface-2',\n        'has-focus-visible:outline-2 has-focus-visible:outline-offset-2 has-focus-visible:outline-ring',\n        'data-over:border-accent-line data-over:bg-accent-wash data-disabled:cursor-not-allowed data-disabled:border-line-strong data-disabled:text-fg-disabled',\n        className,\n      )}\n      {...props}\n    >\n      <input\n        ref={input}\n        data-slot=\"dropzone-input\"\n        id={id}\n        type=\"file\"\n        accept={accept}\n        multiple={multiple}\n        disabled={disabled}\n        className=\"sr-only\"\n        onChange={e => { if (e.currentTarget.files) take(e.currentTarget.files); e.currentTarget.value = ''; }}\n      />\n      {children ?? (\n        <>\n          <span aria-hidden=\"true\" className=\"flex size-10 items-center justify-center rounded-full bg-page text-fg-2 in-data-disabled:text-fg-disabled\"><Icon icon={Upload} size={20}/></span>\n          <span className=\"text-sm font-medium text-fg in-data-disabled:text-fg-disabled\">{title}</span>\n          <span className=\"text-xs text-fg-3 in-data-disabled:text-fg-disabled\">or <span className=\"underline underline-offset-2\">choose from your device</span></span>\n          {hint && <span className=\"text-xs text-fg-3 in-data-disabled:text-fg-disabled\">{hint}</span>}\n        </>\n      )}\n    </label>\n  );\n}\n\nexport {Dropzone, type DropzoneProps, type RejectReason};\n",
+      "type": "registry:ui",
+      "target": "@components/lime/ui/dropzone.tsx"
+    }
+  ]
+}

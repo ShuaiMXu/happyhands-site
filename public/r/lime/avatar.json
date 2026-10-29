@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "avatar",
+  "type": "registry:ui",
+  "title": "Avatar",
+  "description": "A person, such as a friend you split a bill with, with initials as the fallback.",
+  "author": "design.how",
+  "categories": [
+    "display"
+  ],
+  "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/theme.json",
+    "https://happyhands.cc/r/lime/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/lime/components/avatar.md",
+    "page": "https://happyhands.cc/design-how/lime/components/avatar.md"
+  },
+  "files": [
+    {
+      "path": "registry/lime/ui/avatar.tsx",
+      "content": "'use client';\n\nimport {Avatar as AvatarPrimitive} from '@base-ui/react/avatar';\nimport {cva, type VariantProps} from 'class-variance-authority';\nimport {cn, mergeClass} from '@/lib/lime/utils';\n\n// A person, such as a friend. The image fades to initials when it fails to load.\n//\n// AvatarGroup stacks discs: each one after the first overlaps the one before by about an eighth of its width, and its\n// 2px ring in the page colour cuts a crescent out of the disc beneath, so the stack reads as separate discs. The overlap\n// scales with the size so the ring and the overlap together stop short of the initials: measured, ML keeps 2px of air\n// at sm and md and 6px at lg. An xs disc has no room to spare, so xs discs sit edge to edge with only the ring between.\n// On a surface other than the page, pass *:ring-surface so the ring matches what the group sits on.\n\nconst avatarVariants = cva('relative inline-flex shrink-0 items-center justify-center overflow-hidden rounded-full bg-surface-2 font-medium text-fg-2 select-none', {\n  variants: {\n    size: {\n      xs: 'size-6 text-xs',\n      sm: 'size-8 text-xs',\n      md: 'size-10 text-sm',\n      lg: 'size-14 text-lg',\n    },\n  },\n  defaultVariants: {size: 'md'},\n});\n\ntype AvatarProps = Omit<AvatarPrimitive.Root.Props, 'children'> & VariantProps<typeof avatarVariants> & {\n  src?: string;\n  /** The person's name. It is the image's alt text and the source of the initials. */\n  name: string;\n};\n\n// The first grapheme of each of the first two words, so an emoji, an accented letter or a CJK character\n// is kept whole instead of cut in half. Falls back to code points where Intl.Segmenter is missing.\nconst segmenter = typeof Intl !== 'undefined' && 'Segmenter' in Intl ? new Intl.Segmenter(undefined, {granularity: 'grapheme'}) : null;\nconst firstGrapheme = (word: string) => segmenter ? (segmenter.segment(word)[Symbol.iterator]().next().value?.segment ?? '') : (Array.from(word)[0] ?? '');\nconst initials = (name: string) => name.split(/\\s+/).filter(Boolean).slice(0, 2).map(w => firstGrapheme(w).toLocaleUpperCase()).join('');\n\nfunction Avatar({className, size, src, name, ...props}: AvatarProps) {\n  return (\n    <AvatarPrimitive.Root data-slot=\"avatar\" data-size={size ?? 'md'} className={mergeClass(avatarVariants({size}), className)} {...props}>\n      {src && <AvatarPrimitive.Image src={src} alt={name} className=\"size-full object-cover\"/>}\n      <AvatarPrimitive.Fallback role=\"img\" aria-label={name} className=\"flex size-full items-center justify-center\">{initials(name)}</AvatarPrimitive.Fallback>\n    </AvatarPrimitive.Root>\n  );\n}\n\nfunction AvatarGroup({className, ...props}: React.ComponentProps<'div'>) {\n  return <div data-slot=\"avatar-group\" role=\"group\" className={cn('flex items-center *:ring-2 *:ring-page *:not-first:-ms-1.5 *:data-[size=xs]:not-first:ms-0 *:data-[size=sm]:not-first:-ms-1 *:data-[size=lg]:not-first:-ms-2', className)} {...props}/>;\n}\n\nexport {Avatar, AvatarGroup, avatarVariants, type AvatarProps};\n",
+      "type": "registry:ui",
+      "target": "@components/lime/ui/avatar.tsx"
+    }
+  ]
+}

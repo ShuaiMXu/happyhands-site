@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "scroll-area",
+  "type": "registry:ui",
+  "title": "Scroll area",
+  "description": "A scrolling region with a slim thumb.",
+  "author": "design.how",
+  "categories": [
+    "layout"
+  ],
+  "dependencies": [
+    "@base-ui/react@^1.8.0"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/theme.json",
+    "https://happyhands.cc/r/lime/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/lime/components/scroll-area.md",
+    "page": "https://happyhands.cc/design-how/lime/components/scroll-area.md"
+  },
+  "files": [
+    {
+      "path": "registry/lime/ui/scroll-area.tsx",
+      "content": "'use client';\n\nimport {ScrollArea as ScrollAreaPrimitive} from '@base-ui/react/scroll-area';\nimport {cn, mergeClass} from '@/lib/lime/utils';\n\n// A scrolling region with a slim thumb that appears while the pointer is over it or the region scrolls.\n// Give it a height. The viewport is focusable, so keyboard users can scroll it with the arrow keys.\n\ntype ScrollAreaProps = ScrollAreaPrimitive.Root.Props & {\n  orientation?: 'vertical' | 'horizontal' | 'both';\n};\n\nfunction ScrollArea({className, children, orientation = 'vertical', ...props}: ScrollAreaProps) {\n  return (\n    <ScrollAreaPrimitive.Root data-slot=\"scroll-area\" className={mergeClass('relative overflow-hidden', className)} {...props}>\n      <ScrollAreaPrimitive.Viewport data-slot=\"scroll-area-viewport\" className=\"size-full rounded-[inherit] focus-visible:-outline-offset-2\">\n        {children}\n      </ScrollAreaPrimitive.Viewport>\n      {orientation !== 'horizontal' && <ScrollBar orientation=\"vertical\"/>}\n      {orientation !== 'vertical' && <ScrollBar orientation=\"horizontal\"/>}\n      <ScrollAreaPrimitive.Corner/>\n    </ScrollAreaPrimitive.Root>\n  );\n}\n\nfunction ScrollBar({orientation}: {orientation: 'vertical' | 'horizontal'}) {\n  return (\n    <ScrollAreaPrimitive.Scrollbar\n      data-slot=\"scroll-area-scrollbar\"\n      orientation={orientation}\n      className={cn(\n        'flex touch-none p-0.5 opacity-0 transition-opacity duration-(--dur-fast) select-none data-hovering:opacity-100 data-scrolling:opacity-100',\n        orientation === 'vertical' ? 'w-2.5 flex-col' : 'h-2.5 flex-row',\n      )}\n    >\n      <ScrollAreaPrimitive.Thumb data-slot=\"scroll-area-thumb\" className=\"relative shrink-0 rounded-full bg-line-strong hover:bg-control\"/>\n    </ScrollAreaPrimitive.Scrollbar>\n  );\n}\n\nexport {ScrollArea, type ScrollAreaProps};\n",
+      "type": "registry:ui",
+      "target": "@components/lime/ui/scroll-area.tsx"
+    }
+  ]
+}

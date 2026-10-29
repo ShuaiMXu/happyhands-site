@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "split-request",
+  "type": "registry:block",
+  "title": "Split request",
+  "description": "A bill you paid, split by what each person owes, with one request to send.",
+  "author": "design.how",
+  "categories": [
+    "block",
+    "payments"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/amount.json",
+    "https://happyhands.cc/r/lime/avatar.json",
+    "https://happyhands.cc/r/lime/button.json",
+    "https://happyhands.cc/r/lime/list.json",
+    "https://happyhands.cc/r/lime/theme.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/lime/index.md",
+    "page": "https://happyhands.cc/design-how/lime/index.md"
+  },
+  "files": [
+    {
+      "path": "registry/lime/blocks/split-request.tsx",
+      "content": "import {Amount, formatAmount} from '@/components/lime/ui/amount';\nimport {Avatar} from '@/components/lime/ui/avatar';\nimport {Button} from '@/components/lime/ui/button';\nimport {List, ListItem} from '@/components/lime/ui/list';\n\n// A block: a bill you paid, split by what each person owes, with one request to send and its total beside it.\n\n/** Dinner you paid for, split by what each person ordered, with one request to send. */\nexport function SplitDinner() {\n  const people = [\n    {name: 'Maya Chen', value: 34.5},\n    {name: 'Sam Ortiz', value: 28},\n  ];\n  const owed = people.reduce((sum, p) => sum + p.value, 0);\n  return (\n    <section aria-label=\"Split the dinner\" className=\"flex w-full max-w-sm flex-col gap-4\">\n      <div className=\"flex items-baseline justify-between gap-3\">\n        <p className=\"font-medium\">Olive Room</p>\n        <p className=\"text-sm text-fg-3 tabular-nums\">You paid {formatAmount(96)}</p>\n      </div>\n      <List className=\"-mx-4\">\n        {people.map(p => (\n          <ListItem key={p.name} leading={<Avatar name={p.name}/>} title={p.name} trailing={formatAmount(p.value)}/>\n        ))}\n      </List>\n      {/* The label is the action; the total sits beside it, so the button reads the same whatever the sum. */}\n      <div className=\"flex items-center gap-3\">\n        <Button className=\"flex-1\">Request payment</Button>\n        <Amount value={owed} size=\"lg\"/>\n      </div>\n    </section>\n  );\n}\n",
+      "type": "registry:block",
+      "target": "@components/lime/blocks/split-request.tsx"
+    }
+  ]
+}

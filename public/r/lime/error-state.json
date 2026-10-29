@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "error-state",
+  "type": "registry:ui",
+  "title": "Error state",
+  "description": "What failed to load, in its place, with Try again.",
+  "author": "design.how",
+  "categories": [
+    "feedback"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/button.json",
+    "https://happyhands.cc/r/lime/icon.json",
+    "https://happyhands.cc/r/lime/theme.json",
+    "https://happyhands.cc/r/lime/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/lime/components/error-state.md",
+    "page": "https://happyhands.cc/design-how/lime/components/error-state.md"
+  },
+  "files": [
+    {
+      "path": "registry/lime/ui/error-state.tsx",
+      "content": "'use client';\n\nimport {Icon, Renew, WarningFilled} from '@/components/lime/icon';\nimport {cn} from '@/lib/lime/utils';\nimport {Button} from '@/components/lime/ui/button';\n\n// What shows in place of content that failed to load: what failed, what to do, and Try again. It takes the\n// place the content would have had, so the rest of the screen still works. block fills an emptied region\n// (a list, a card) and centres like Empty; inline is one row, for a part of a screen such as a balance or a\n// chart; in a narrow column its button wraps under the text. A form error belongs to its Field, and a failed payment to its own Status.\n//\n// It is a polite live region, so the failure is read out when it replaces a loading state, without cutting\n// off what the screen reader was saying. Try again shows its spinner while the retry runs and keeps focus.\n\ntype ErrorStateProps = Omit<React.ComponentProps<'div'>, 'title'> & {\n  /** What failed, plainly: \"Couldn't load your activity\". */\n  title: string;\n  /** What to do, or what still works. One sentence. */\n  description?: string;\n  /** Runs the load again. Without it there is no button. */\n  onRetry?: () => void;\n  /** The retry is running. */\n  retrying?: boolean;\n  retryLabel?: string;\n  layout?: 'block' | 'inline';\n};\n\nfunction ErrorState({title, description, onRetry, retrying, retryLabel = 'Try again', layout = 'block', className, ...props}: ErrorStateProps) {\n  const retry = onRetry && (\n    <Button variant=\"secondary\" size=\"sm\" pending={!!retrying} icon={<Icon icon={Renew} size={16}/>} onClick={onRetry} className={layout === 'inline' ? 'shrink-0' : 'mt-1'}>\n      {retryLabel}\n    </Button>\n  );\n  if (layout === 'inline') {\n    return (\n      <div data-slot=\"error-state\" data-layout=\"inline\" role=\"status\" className={cn('flex min-h-(--control-lg) w-full min-w-0 flex-wrap items-center gap-x-3 gap-y-2 py-2', className)} {...props}>\n        <Icon icon={WarningFilled} size={16} className=\"shrink-0 text-danger-text\"/>\n        {/* Below about 128px of text the button wraps under it instead of crowding it. */}\n        <div className=\"flex min-w-32 flex-1 flex-col\">\n          <p className=\"label text-fg\">{title}</p>\n          {description && <p className=\"text-sm text-fg-2\">{description}</p>}\n        </div>\n        {retry}\n      </div>\n    );\n  }\n  return (\n    <div data-slot=\"error-state\" data-layout=\"block\" role=\"status\" className={cn('flex flex-col items-center gap-3 px-6 py-10 text-center', className)} {...props}>\n      <div aria-hidden=\"true\" className=\"flex size-12 items-center justify-center rounded-full bg-danger-tint text-danger-text\">\n        <Icon icon={WarningFilled} size={20}/>\n      </div>\n      <p className=\"text-lg leading-tight font-semibold\">{title}</p>\n      {description && <p className=\"max-w-sm text-sm text-fg-2\">{description}</p>}\n      {retry}\n    </div>\n  );\n}\n\nexport {ErrorState, type ErrorStateProps};\n",
+      "type": "registry:ui",
+      "target": "@components/lime/ui/error-state.tsx"
+    }
+  ]
+}

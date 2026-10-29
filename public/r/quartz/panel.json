@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "panel",
+  "type": "registry:ui",
+  "title": "Panel",
+  "description": "A grey widget for an overview or settings screen: header on the grey, content in a white body.",
+  "author": "design.how",
+  "categories": [
+    "display"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/button.json",
+    "https://happyhands.cc/r/quartz/theme.json",
+    "https://happyhands.cc/r/quartz/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/quartz/components/panel.md",
+    "page": "https://happyhands.cc/design-how/quartz/components/panel.md"
+  },
+  "files": [
+    {
+      "path": "registry/quartz/ui/panel.tsx",
+      "content": "import {cn} from '@/lib/quartz/utils';\nimport {ButtonSize} from '@/components/quartz/ui/button';\n\n// Quartz's panel is the widget: a grey outer (--surface-frame) with the frame line, the header on the grey, the content in a white bordered\n// PanelBody 4px in from the edge, and the footer back on the grey. It holds a summary: an overview widget, a chart widget,\n// a short list (about 8 rows at most, an API keys list), a short read-only fact (an environment and its workspace ID), or a\n// card that asks the person for a decision (a prompt release with Roll back and Resume rollout in the footer). It never\n// scrolls inside and never holds a Card; link to a full page for more. A Card is the working surface (a big table or\n// stream, a trace, a log, code, a form with fields the person edits, the detail of one object), white with one grey edge\n// and a rule under its header. A summary or a decision is a Panel and a working surface or an edited field group is a\n// Card; never a Card inside a Panel or a Panel inside a Card. Dialog and Sheet share the grey shell (a white header card\n// with the title, description and close, the body continuing it, the actions on the grey), and Chart frame=\"panel\"\n// follows the Panel anatomy. The header and footer come from the shared frame-head and frame-foot utilities\n// (styles.css), the same ones Card, Table, Chart, CodeBlock, LogViewer and Timeline use.\n\nfunction Panel({className, ...props}: React.ComponentProps<'section'>) {\n  return <section data-slot=\"panel\" className={cn('relative flex min-w-0 flex-col overflow-hidden bg-(--surface-frame) text-text-1 frame forced-colors:outline forced-colors:outline-1', className)} {...props}/>;\n}\n\n/** The 40px header on the grey, with no rule under it. Title and meta on the start, one PanelAction at the end. */\nfunction PanelHeader({className, ...props}: React.ComponentProps<'div'>) {\n  return <div data-slot=\"panel-header\" className={cn('frame-head', className)} {...props}/>;\n}\n\nfunction PanelTitle({className, ...props}: React.ComponentProps<'div'>) {\n  return <div data-slot=\"panel-title\" className={cn('min-w-0 truncate type-label text-text-1', className)} {...props}/>;\n}\n\n/** Quiet text after the title: a count, an environment, a time. */\nfunction PanelMeta({className, ...props}: React.ComponentProps<'span'>) {\n  return <span data-slot=\"panel-meta\" className={cn('shrink-0 type-label text-text-3 data', className)} {...props}/>;\n}\n\n/** The header's one action, at the end, 8px from the edge. */\nfunction PanelAction({className, children, ...props}: React.ComponentProps<'div'>) {\n  return <div data-slot=\"panel-action\" className={cn('frame-head-action', className)} {...props}><ButtonSize size=\"xs\">{children}</ButtonSize></div>;\n}\n\n/**\n * The content: one white bordered group 4px inside the grey, its corner the frame's minus that gap. Rows inside take\n * rule-row; the last row drops it because the group's line is right below. The 4px at the bottom goes when a footer follows.\n */\nfunction PanelBody({className, ...props}: React.ComponentProps<'div'>) {\n  return <div data-slot=\"panel-body\" className={cn('frame mx-1 mb-1 flex min-w-0 flex-col bg-page [--frame-color:var(--line-row)] [--frame-radius:calc(var(--radius-frame)-4px)] has-[+[data-slot=panel-footer]]:mb-0', className)} {...props}/>;\n}\n\n/** Back on the grey under the body: a quiet line on the start, or actions at the end, 44px tall so a 28px sm button sits 8px from every edge. */\nfunction PanelFooter({className, children, ...props}: React.ComponentProps<'div'>) {\n  // Buttons here are sm (28px) unless named otherwise. A footer that holds buttons puts them at the end; a quiet line stays at the start.\n  return <div data-slot=\"panel-footer\" className={cn('frame-foot type-body-sm text-text-3 has-[button]:justify-end', className)} {...props}><ButtonSize size=\"sm\">{children}</ButtonSize></div>;\n}\n\nexport {Panel, PanelHeader, PanelTitle, PanelMeta, PanelAction, PanelBody, PanelFooter};\n",
+      "type": "registry:ui",
+      "target": "@components/quartz/ui/panel.tsx"
+    }
+  ]
+}

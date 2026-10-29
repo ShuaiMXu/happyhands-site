@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "textarea",
+  "type": "registry:ui",
+  "title": "Textarea",
+  "description": "Several lines of text, such as a note on a payment.",
+  "author": "design.how",
+  "categories": [
+    "inputs"
+  ],
+  "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/input.json",
+    "https://happyhands.cc/r/lime/theme.json",
+    "https://happyhands.cc/r/lime/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/lime/components/textarea.md",
+    "page": "https://happyhands.cc/design-how/lime/components/textarea.md"
+  },
+  "files": [
+    {
+      "path": "registry/lime/ui/textarea.tsx",
+      "content": "'use client';\n\nimport {Input as InputPrimitive} from '@base-ui/react/input';\nimport {mergeProps} from '@base-ui/react/merge-props';\nimport type {VariantProps} from 'class-variance-authority';\nimport {useCallback, useLayoutEffect, useRef} from 'react';\nimport {mergeClass} from '@/lib/lime/utils';\nimport {fieldControl} from '@/components/lime/ui/input';\n\n// A multi-line field, Input's sibling: the same fill, edge, ring and invalid and disabled looks, from the same\n// fieldControl, and the same size prop for its type (sm and md are 14px, lg 16px). It is at least 80px tall. It\n// grows with its content when `autoGrow` is set, up to the max height, then scrolls. It is sized on mount and when\n// `value` changes from outside, not only on typing.\n\ntype TextareaProps = Omit<React.ComponentProps<'textarea'>, 'className'> & VariantProps<typeof fieldControl> & {\n  /** A string, or a function of the field's state (dirty, touched, valid ...) like every Base UI part. */\n  className?: InputPrimitive.Props['className'];\n  /** Grow with the text up to max-h-60 (240px). */\n  autoGrow?: boolean;\n};\n\nfunction Textarea({className, size, autoGrow, onInput, value, defaultValue, ref, ...props}: TextareaProps) {\n  const own = useRef<HTMLTextAreaElement | null>(null);\n  const grow = useCallback((el: HTMLTextAreaElement | null) => {\n    if (!el) return;\n    el.style.height = 'auto';\n    el.style.height = `${el.scrollHeight}px`;\n  }, []);\n  // Ours for autoGrow, and the caller's.\n  const setRef = useCallback((el: HTMLElement | null) => {\n    const area = el as HTMLTextAreaElement | null;\n    own.current = area;\n    if (typeof ref === 'function') ref(area);\n    else if (ref) ref.current = area;\n  }, [ref]);\n  // Size once on mount, and again when the value is set from outside.\n  useLayoutEffect(() => { if (autoGrow) grow(own.current); }, [autoGrow, value, grow]);\n  return (\n    <InputPrimitive\n      ref={setRef}\n      data-slot=\"textarea\"\n      value={value}\n      defaultValue={defaultValue}\n      className={mergeClass([fieldControl({size}), 'block h-auto min-h-20 resize-y py-2', autoGrow && 'max-h-60 resize-none'], className)}\n      // The textarea's own props join Base UI's here, typed for a textarea; mergeProps chains the handlers, so\n      // Field still sees every change.\n      render={inputProps => <textarea {...mergeProps<'textarea'>(inputProps, props, {\n        onInput: e => { if (autoGrow) grow(e.currentTarget); onInput?.(e); },\n      })}/>}\n    />\n  );\n}\n\nexport {Textarea, type TextareaProps};\n",
+      "type": "registry:ui",
+      "target": "@components/lime/ui/textarea.tsx"
+    }
+  ]
+}

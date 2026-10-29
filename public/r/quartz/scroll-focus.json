@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "scroll-focus",
+  "type": "registry:lib",
+  "title": "Scroll tab stop",
+  "description": "Support file: puts a scroll box in the tab order while its content overflows, so a keyboard can scroll it.",
+  "author": "design.how",
+  "categories": [
+    "internal"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/quartz/index.md",
+    "page": "https://happyhands.cc/design-how/quartz/index.md"
+  },
+  "files": [
+    {
+      "path": "registry/quartz/lib/scroll-focus.ts",
+      "content": "'use client';\n\nimport {useEffect, useState, type RefObject} from 'react';\n\n// A scroll box that only a pointer can scroll locks keyboard readers out of what is past its edge. While the\n// box scrolls, it takes tabIndex 0, so Tab reaches it and the arrow keys scroll it (WCAG 2.1.1); while its\n// content fits, it stays out of the tab order. The scroll area's viewport does the same on its own.\n\n/** 0 while the element's content overflows it, in either axis, and undefined while it fits. */\nexport function useScrollTabStop(ref: RefObject<HTMLElement | null>, enabled = true): 0 | undefined {\n  const [scrolls, setScrolls] = useState(false);\n  useEffect(() => {\n    const el = ref.current;\n    if (!el || !enabled) { setScrolls(false); return; }\n    const measure = () => setScrolls(el.scrollWidth > el.clientWidth + 1 || el.scrollHeight > el.clientHeight + 1);\n    // The box and each child it holds: rows arriving grow the child, not the box.\n    const resize = new ResizeObserver(measure);\n    const watch = () => {\n      resize.disconnect();\n      resize.observe(el);\n      for (const child of el.children) resize.observe(child);\n      measure();\n    };\n    const swap = new MutationObserver(watch);\n    swap.observe(el, {childList: true});\n    watch();\n    return () => { resize.disconnect(); swap.disconnect(); };\n  }, [ref, enabled]);\n  return scrolls ? 0 : undefined;\n}\n",
+      "type": "registry:lib",
+      "target": "@lib/quartz/scroll-focus.ts"
+    }
+  ]
+}

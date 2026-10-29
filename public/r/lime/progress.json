@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "progress",
+  "type": "registry:ui",
+  "title": "Progress",
+  "description": "How far a goal has come, such as $640 of $1,000 saved, as a bar or a ring.",
+  "author": "design.how",
+  "categories": [
+    "display"
+  ],
+  "dependencies": [
+    "@base-ui/react@^1.8.0"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/theme.json",
+    "https://happyhands.cc/r/lime/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/lime/components/progress.md",
+    "page": "https://happyhands.cc/design-how/lime/components/progress.md"
+  },
+  "files": [
+    {
+      "path": "registry/lime/ui/progress.tsx",
+      "content": "'use client';\n\nimport {Meter as MeterPrimitive} from '@base-ui/react/meter';\nimport {cn, mergeClass} from '@/lib/lime/utils';\n\n// How far something has come toward a known end: a savings goal, a budget spent, a card's limit. A bar\n// for a row or a card, a ring for a goal tile with the figure inside. The lime fill is one flat color on the\n// grey track, with no edge. It is a meter (role meter) because it measures an amount; work that is running uses\n// Status or a Button's pending state instead.\n//\n// label names it for a screen reader, and valueText says the amount in words, such as \"$640 of $1,000\".\n// The visible figure is the caller's: a bar is bare, so put the words above it.\n\ntype ProgressProps = Omit<MeterPrimitive.Root.Props, 'children' | 'aria-label'> & {\n  value: number;\n  max?: number;\n  /** The accessible name, such as \"Saved toward Vacation fund\". */\n  label: string;\n  /** The value in words, such as \"$640 of $1,000\". Without it a reader hears a percentage. */\n  valueText?: string;\n  shape?: 'bar' | 'ring';\n  /** The ring's diameter: 40, 64 or 96px. Bars ignore it. */\n  size?: 'sm' | 'md' | 'lg';\n  /** Shown in the middle of a ring, such as the percentage. */\n  children?: React.ReactNode;\n};\n\nconst RING = {sm: {box: 40, stroke: 4}, md: {box: 64, stroke: 6}, lg: {box: 96, stroke: 8}} as const;\n\nfunction Progress({value, max = 100, min = 0, label, valueText, shape = 'bar', size = 'md', children, className, ...props}: ProgressProps) {\n  const clamped = Math.min(Math.max(value, min), max);\n  const share = max > min ? (clamped - min) / (max - min) : 0;\n  const root = {value: clamped, min, max, 'aria-label': label, 'aria-valuetext': valueText, ...props};\n\n  if (shape === 'ring') {\n    const {box, stroke} = RING[size];\n    const r = (box - stroke) / 2;\n    const length = 2 * Math.PI * r;\n    return (\n      <MeterPrimitive.Root data-slot=\"progress\" data-shape=\"ring\" {...root} className={mergeClass('relative inline-grid shrink-0 place-items-center', className)} style={{width: box, height: box}}>\n        <svg aria-hidden=\"true\" width={box} height={box} viewBox={`0 0 ${box} ${box}`} className=\"absolute inset-0 -rotate-90 rtl:-scale-y-100\">\n          <circle cx={box / 2} cy={box / 2} r={r} fill=\"none\" strokeWidth={stroke} className=\"stroke-surface-3\"/>\n          {share > 0 && <>\n            <circle data-slot=\"progress-indicator\" cx={box / 2} cy={box / 2} r={r} fill=\"none\" strokeWidth={stroke} strokeLinecap=\"round\" strokeDasharray={length} strokeDashoffset={length * (1 - share)} className=\"stroke-accent transition-[stroke-dashoffset] duration-(--dur-base) ease-(--ease-out)\"/>\n          </>}\n        </svg>\n        {children !== undefined && <span data-slot=\"progress-value\" className={cn('relative font-medium text-fg tabular-nums', size === 'lg' ? 'text-lg' : size === 'md' ? 'text-sm' : 'text-xs')}>{children}</span>}\n      </MeterPrimitive.Root>\n    );\n  }\n\n  return (\n    <MeterPrimitive.Root data-slot=\"progress\" data-shape=\"bar\" {...root} className={mergeClass('w-full', className)}>\n      <MeterPrimitive.Track data-slot=\"progress-track\" className=\"block h-2 w-full overflow-hidden rounded-full bg-surface-3\">\n        <MeterPrimitive.Indicator data-slot=\"progress-indicator\" className={cn('block h-full rounded-full bg-accent transition-[width] duration-(--dur-base) ease-(--ease-out)', share === 0 && 'hidden')}/>\n      </MeterPrimitive.Track>\n    </MeterPrimitive.Root>\n  );\n}\n\nexport {Progress, type ProgressProps};\n",
+      "type": "registry:ui",
+      "target": "@components/lime/ui/progress.tsx"
+    }
+  ]
+}

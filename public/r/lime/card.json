@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "card",
+  "type": "registry:ui",
+  "title": "Card",
+  "description": "A grouped block, such as a savings goal or a card, on warm grey, outlined or raised.",
+  "author": "design.how",
+  "categories": [
+    "display"
+  ],
+  "dependencies": [
+    "class-variance-authority@^0.7.1"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/theme.json",
+    "https://happyhands.cc/r/lime/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/lime/components/card.md",
+    "page": "https://happyhands.cc/design-how/lime/components/card.md"
+  },
+  "files": [
+    {
+      "path": "registry/lime/ui/card.tsx",
+      "content": "'use client';\n\nimport {cva, type VariantProps} from 'class-variance-authority';\nimport {cn} from '@/lib/lime/utils';\n\n// A grouped block of content. The default sits on the warm-grey surface with no edge, so a page of\n// cards reads as quiet. outline is white with a hairline for a card on a grey area; raised adds the one\n// card shadow for a card that floats. Radius is 16px.\n//\n// glow is the one featured surface of a screen, such as an upgrade card or the plan to pick: the lime body lit\n// from inside, with near-black text. It powers up on hover only when interactive. One per view.\n//\n// interactive makes the whole card one control. With `href` it renders a link. Without, it renders a\n// native button (type=\"button\"), so Enter, Space, focus and the button role come from the browser. Do not\n// put a button or link inside an interactive card (a control inside a control); use a plain card with one\n// stretched link for that.\n\nconst cardVariants = cva('flex flex-col gap-4 rounded-panel p-5 text-fg', {\n  variants: {\n    variant: {\n      surface: 'bg-surface',\n      outline: 'border border-line bg-page',\n      raised: 'bg-raised shadow-card',\n      glow: 'glow glow-accent bg-accent text-on-accent **:data-[slot=card-description]:text-on-accent',\n    },\n    interactive: {\n      true: 'cursor-pointer transition-[background-color,border-color] duration-(--dur-instant) ease-out hover:bg-surface-2 active:bg-surface-3',\n      false: '',\n    },\n  },\n  defaultVariants: {variant: 'surface', interactive: false},\n});\n\ntype CardLook = {variant?: VariantProps<typeof cardVariants>['variant']};\n\n/** A plain card is a div; an interactive one is a button, or a link with href. Each takes its own element's props. */\ntype CardProps =\n  | (React.ComponentProps<'div'> & CardLook & {interactive?: false; href?: never})\n  | (React.ComponentProps<'button'> & CardLook & {interactive: true; href?: never})\n  | (React.ComponentProps<'a'> & CardLook & {interactive: true; href: string});\n\nconst cardClass = (variant: CardLook['variant'], interactive: boolean, className: string | undefined) =>\n  cn(cardVariants({variant, interactive}), interactive && variant === 'outline' && 'hover:bg-surface active:bg-surface-2', variant === 'glow' && (interactive ? 'hover:bg-accent active:bg-accent' : 'glow-still'), className);\n\nfunction Card(props: CardProps) {\n  if (props.interactive && props.href !== undefined) {\n    const {className, variant, interactive: _, ...rest} = props;\n    return <a data-slot=\"card\" className={cn(cardClass(variant, true, className), 'no-underline')} {...rest}/>;\n  }\n  if (props.interactive) {\n    const {className, variant, interactive: _, href: __, ...rest} = props;\n    // A button is inline by default and centres its text; the card fills its column and reads from the start.\n    return <button data-slot=\"card\" type=\"button\" className={cn(cardClass(variant, true, className), 'w-full text-start')} {...rest}/>;\n  }\n  const {className, variant, interactive: _, href: __, ...rest} = props;\n  return <div data-slot=\"card\" className={cardClass(variant, false, className)} {...rest}/>;\n}\n\nfunction CardHeader({className, ...props}: React.ComponentProps<'div'>) {\n  return <div data-slot=\"card-header\" className={cn('flex flex-col gap-1', className)} {...props}/>;\n}\n\nfunction CardTitle({className, ...props}: React.ComponentProps<'h3'>) {\n  return <h3 data-slot=\"card-title\" className={cn('text-lg leading-tight font-semibold', className)} {...props}/>;\n}\n\nfunction CardDescription({className, ...props}: React.ComponentProps<'p'>) {\n  return <p data-slot=\"card-description\" className={cn('text-sm text-fg-2', className)} {...props}/>;\n}\n\nfunction CardContent({className, ...props}: React.ComponentProps<'div'>) {\n  return <div data-slot=\"card-content\" className={cn('flex flex-col gap-3', className)} {...props}/>;\n}\n\nfunction CardFooter({className, ...props}: React.ComponentProps<'div'>) {\n  return <div data-slot=\"card-footer\" className={cn('flex items-center gap-2', className)} {...props}/>;\n}\n\nexport {Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter, cardVariants, type CardProps};\n",
+      "type": "registry:ui",
+      "target": "@components/lime/ui/card.tsx"
+    }
+  ]
+}

@@ -63,6 +63,7 @@ function App() {
                 )}
               </p>
               <div className="actions">
+                <a className="action" href="/components/?provider=systems&system=lime">{t("阅读完整文档与下载", "Read documents and download")}</a>
                 <a className="action" href="#components">
                   {t("浏览组件", "Browse components")}
                 </a>

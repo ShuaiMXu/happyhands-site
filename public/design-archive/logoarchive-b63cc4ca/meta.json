@@ -1,0 +1,71 @@
+{
+ "id": "b63cc4ca-52c6-4b70-9a5a-cb04bae15edb",
+ "slug": "logoarchive-b63cc4ca",
+ "name": "LogoArchive",
+ "site_url": "https://www.logo-archive.org",
+ "lastmod": "2026-06-05T12:53:09.282Z",
+ "extracted_at": "2026-06-03T22:05:16.175Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "design",
+ "north_star": "midnight gallery of iconic marks",
+ "fonts": [
+  "Suisse International",
+  "Suisse Works Book"
+ ],
+ "colors": [
+  {
+   "hex": "#27272a",
+   "name": "Canvas Charcoal"
+  },
+  {
+   "hex": "#18181b",
+   "name": "Elevated Ink"
+  },
+  {
+   "hex": "#343538",
+   "name": "Slate Surface"
+  },
+  {
+   "hex": "#000000",
+   "name": "Deep Void"
+  },
+  {
+   "hex": "#0c0c0e",
+   "name": "Near Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#a8afb7",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#dadee4",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#8c8c8d",
+   "name": "Dim Stone"
+  },
+  {
+   "hex": "#fde533",
+   "name": "Signal Yellow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/df58b518-bfe4-4a2c-8113-e48c4cd4bfac.mp4",
+  "poster": "https://happyhands.cc/design-archive/logoarchive-b63cc4ca/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/logoarchive-b63cc4ca/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/logoarchive-b63cc4ca/thumbnail.jpg"
+}

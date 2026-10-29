@@ -1,0 +1,102 @@
+{
+ "id": "d98dea0b-00a4-4c15-b4a9-d196e2c3e4b4",
+ "slug": "letterboxd-d98dea0b",
+ "name": "Letterboxd",
+ "site_url": "https://letterboxd.com",
+ "lastmod": "2026-06-03T18:53:40.870Z",
+ "extracted_at": "2026-06-03T18:53:40.862Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "media",
+ "north_star": "Darkened cinema lobby with neon rating glow",
+ "fonts": [
+  "object-fit: cover;",
+  "Graphik",
+  "Tiempos Text",
+  "Tiempos Headline",
+  "masonry"
+ ],
+ "colors": [
+  {
+   "hex": "#14181c",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#202830",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#2c3440",
+   "name": "Slate"
+  },
+  {
+   "hex": "#445566",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#586370",
+   "name": "Steel"
+  },
+  {
+   "hex": "#667788",
+   "name": "Fog"
+  },
+  {
+   "hex": "#778899",
+   "name": "Silver Mist"
+  },
+  {
+   "hex": "#8899aa",
+   "name": "Ash"
+  },
+  {
+   "hex": "#99aabb",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#aabbcc",
+   "name": "Ice"
+  },
+  {
+   "hex": "#ddeeff",
+   "name": "Glacier"
+  },
+  {
+   "hex": "#d8e0e8",
+   "name": "Bone"
+  },
+  {
+   "hex": "#c8d4e0",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Absolute White"
+  },
+  {
+   "hex": "#000000",
+   "name": "True Black"
+  },
+  {
+   "hex": "#00e054",
+   "name": "Acid Green"
+  },
+  {
+   "hex": "#00c030",
+   "name": "Pro Green"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c556b3e3-4d5c-4047-bfed-cb8a7602dac6.mp4",
+  "poster": "https://happyhands.cc/design-archive/letterboxd-d98dea0b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/letterboxd-d98dea0b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/letterboxd-d98dea0b/thumbnail.jpg"
+}

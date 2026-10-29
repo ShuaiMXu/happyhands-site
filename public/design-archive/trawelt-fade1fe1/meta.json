@@ -1,0 +1,63 @@
+{
+ "id": "fade1fe1-bbd3-4b1a-ae19-fe88f6744fe0",
+ "slug": "trawelt-fade1fe1",
+ "name": "Trawelt",
+ "site_url": "https://www.trawelt.com",
+ "lastmod": "2026-06-03T21:25:17.086Z",
+ "extracted_at": "2026-06-03T21:25:17.078Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "agency",
+ "north_star": "Boarding pass on black marble",
+ "fonts": [
+  "Labour Grotesk",
+  "Reckless Neue"
+ ],
+ "colors": [
+  {
+   "hex": "#2d9b4c",
+   "name": "Forest Command"
+  },
+  {
+   "hex": "#d3ffc3",
+   "name": "Mint Boarding Pass"
+  },
+  {
+   "hex": "#e7d5ba",
+   "name": "Champagne Beige"
+  },
+  {
+   "hex": "#e4e9dc",
+   "name": "Linen Cream"
+  },
+  {
+   "hex": "#efefe7",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#020202",
+   "name": "Carbon"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f3d30b30-c914-45bc-9515-6021d8c79860.mp4",
+  "poster": "https://happyhands.cc/design-archive/trawelt-fade1fe1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/trawelt-fade1fe1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/trawelt-fade1fe1/thumbnail.jpg"
+}

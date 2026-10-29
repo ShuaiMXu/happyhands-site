@@ -1,0 +1,65 @@
+{
+ "id": "7aa1dbff-f5f1-4a64-9dba-f4caad7f1ebf",
+ "slug": "1x-tech-7aa1dbff",
+ "name": "1X Tech",
+ "site_url": "https://www.1x.tech/neo",
+ "lastmod": "2026-09-20T22:18:22.771Z",
+ "extracted_at": "2026-09-20T22:15:06.310Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "1X Tech — quiet domestic cinema. A pale editorial page opens into cinematic scenes of people and a humanoid robot, with interface chrome reduced to tiny spaced labels and soft monochrome pills.",
+ "fonts": [
+  "ABCDiatype",
+  "ABCDiatypeMedium",
+  "ABCDiatypeBold",
+  "ui-sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#f7f7f7",
+   "name": "Gallery White"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#222222",
+   "name": "Charcoal Field"
+  },
+  {
+   "hex": "#474747",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#8f8f8f",
+   "name": "Quiet Gray"
+  },
+  {
+   "hex": "#808080",
+   "name": "Steel Gray"
+  },
+  {
+   "hex": "#0a0a0a",
+   "name": "Ink"
+  },
+  {
+   "hex": "#d6d6d6",
+   "name": "Control Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d6b34a14-cfe0-49a8-b6cc-20caefa3c0a3.mp4",
+  "poster": "https://happyhands.cc/design-archive/1x-tech-7aa1dbff/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/1x-tech-7aa1dbff/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/1x-tech-7aa1dbff/thumbnail.jpg"
+}

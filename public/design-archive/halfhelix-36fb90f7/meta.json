@@ -1,0 +1,71 @@
+{
+ "id": "36fb90f7-3547-4dfd-a34e-592aa140078a",
+ "slug": "halfhelix-36fb90f7",
+ "name": "Halfhelix",
+ "site_url": "https://www.halfhelix.com",
+ "lastmod": "2026-06-03T20:49:44.151Z",
+ "extracted_at": "2026-06-03T20:49:44.145Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Gallery wall on white marble — restrained, text-led, photographic",
+ "fonts": [
+  "Suisse Intl",
+  "Suisse Int'l"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#262626",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#484a4c",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#686c6d",
+   "name": "Steel"
+  },
+  {
+   "hex": "#a5a7a8",
+   "name": "Fog"
+  },
+  {
+   "hex": "#dbdbdb",
+   "name": "Ash"
+  },
+  {
+   "hex": "#ededed",
+   "name": "Mist"
+  },
+  {
+   "hex": "#808080",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#2749ff",
+   "name": "Signal Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2b545ed8-d314-4b52-87d4-07d46a9812c1.mp4",
+  "poster": "https://happyhands.cc/design-archive/halfhelix-36fb90f7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/halfhelix-36fb90f7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/halfhelix-36fb90f7/thumbnail.jpg"
+}

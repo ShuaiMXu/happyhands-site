@@ -1,0 +1,48 @@
+{
+ "id": "45267374-ee40-43d9-8bfe-8d6566ce852d",
+ "slug": "le-camp-45267374",
+ "name": "LE CAMP",
+ "site_url": "https://lecampquebec.com",
+ "lastmod": "2026-06-03T20:27:44.628Z",
+ "extracted_at": "2026-06-03T20:27:44.624Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Alpine summit base camp at dusk — a field command post where one red signal flare cuts through mountain twilight, and everything else is topo-line restraint.",
+ "fonts": [
+  "Agrandir",
+  "DM Sans",
+  "DM Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#fe3a3a",
+   "name": "Signal Red"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Summit White"
+  },
+  {
+   "hex": "#767676",
+   "name": "Ridge Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/68769882-4f0d-42b0-8187-0c994d037e02.mp4",
+  "poster": "https://happyhands.cc/design-archive/le-camp-45267374/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/le-camp-45267374/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/le-camp-45267374/thumbnail.jpg"
+}

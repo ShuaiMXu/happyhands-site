@@ -1,0 +1,78 @@
+{
+ "id": "c1f7749f-319b-491b-8243-22050e85994f",
+ "slug": "stocketa-c1f7749f",
+ "name": "Stocketa",
+ "site_url": "https://stocketa.com",
+ "lastmod": "2026-06-05T03:19:59.348Z",
+ "extracted_at": "2026-06-03T17:43:29.910Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "Neon aurora on frosted glass — a light, weightless interface floating beneath a prism-washed sky.",
+ "fonts": [
+  "averta standard"
+ ],
+ "colors": [
+  {
+   "hex": "#995bb9",
+   "name": "Aurora Magenta"
+  },
+  {
+   "hex": "#5b638c",
+   "name": "Deep Iris"
+  },
+  {
+   "hex": "#1d2630",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#e0dde2",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f0f0f0",
+   "name": "Frost Shadow"
+  },
+  {
+   "hex": "#9aa1b2",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#a5afcb",
+   "name": "Silver Lining"
+  },
+  {
+   "hex": "#abbdcf",
+   "name": "Cloud Veil"
+  },
+  {
+   "hex": "#3a4766",
+   "name": "Tidewater Navy"
+  },
+  {
+   "hex": "#69c966",
+   "name": "Aurora Green"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/56a39707-93e0-4175-bfad-6f3a3a044456.mp4",
+  "poster": "https://happyhands.cc/design-archive/stocketa-c1f7749f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/stocketa-c1f7749f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/stocketa-c1f7749f/thumbnail.jpg"
+}

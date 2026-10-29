@@ -1,0 +1,83 @@
+{
+ "id": "b52981ce-fdb2-4ba0-86bb-f5ce0c27a9c6",
+ "slug": "arcadia-b52981ce",
+ "name": "Arcadia",
+ "site_url": "https://www.arcadia.com",
+ "lastmod": "2026-06-03T17:55:35.730Z",
+ "extracted_at": "2026-06-03T17:55:35.725Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "forest observatory at dawn — deep evergreen authority on warm cream paper, one mint LED accent and pale violet data orbs suspended in soft morning light.",
+ "fonts": [
+  "DM Sans",
+  "Helvetica"
+ ],
+ "colors": [
+  {
+   "hex": "#104336",
+   "name": "Canopy"
+  },
+  {
+   "hex": "#0fff87",
+   "name": "Mint Pulse"
+  },
+  {
+   "hex": "#7c18d3",
+   "name": "Orb Violet"
+  },
+  {
+   "hex": "#f3f1ec",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Sheet White"
+  },
+  {
+   "hex": "#101f1e",
+   "name": "Bark"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#535e5d",
+   "name": "Slate"
+  },
+  {
+   "hex": "#333333",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#afc4bf",
+   "name": "Sage Mist"
+  },
+  {
+   "hex": "#c2cec8",
+   "name": "Pale Sage"
+  },
+  {
+   "hex": "#798281",
+   "name": "Muted Slate"
+  },
+  {
+   "hex": "#e8e7f5",
+   "name": "Hero Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/38a068ed-e2fc-4ea1-8035-3c90ac5aae14.mp4",
+  "poster": "https://happyhands.cc/design-archive/arcadia-b52981ce/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/arcadia-b52981ce/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/arcadia-b52981ce/thumbnail.jpg"
+}

@@ -1,0 +1,32 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "tool-approval",
+ "type": "registry:block",
+ "title": "Tool approval",
+ "description": "An agent asks before it sends a refund, with Allow and Deny; the outcome takes focus after a choice.",
+ "author": "design.how",
+ "categories": [
+  "block",
+  "ai",
+  "approval"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/quartz/format.json",
+  "https://design.how/r/quartz/message.json",
+  "https://design.how/r/quartz/response.json",
+  "https://design.how/r/quartz/theme.json",
+  "https://design.how/r/quartz/tool-call.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/quartz.md",
+  "page": "https://design.how/systems/quartz"
+ },
+ "files": [
+  {
+   "path": "registry/quartz/blocks/tool-approval.tsx",
+   "content": "'use client';\n\nimport {useEffect} from 'react';\nimport {AgentTurn, Message, MessageBubble, MessageBubbleContent, MessageContent, MessageHeader, MessageTime} from '@/components/quartz/ai/message';\nimport {formatCount} from '@/lib/quartz/format';\nimport {Response} from '@/components/quartz/ai/response';\nimport {ToolCallList, registerTool, useToolCalls, type ToolCallData, type ToolReply} from '@/components/quartz/ai/tool-call';\n\n// A block: an agent stops before a tool call and asks. The waiting call is an ask card of its own in the turn: the\n// question, one sentence of what it does, the detail in a well, then Deny and Allow on the right. Allowing runs the\n// call; Deny refuses it. Either way the card gives way to a normal step row in the same place, \"Refunded $640 to Maya\n// Chen\" with its time or a quiet \"Denied\" (a person's decision is not an error), the agent's follow-up comes in the same\n// turn, and the row takes focus. Wire onReply to your agent's permission reply.\n\nconst str = (v: unknown) => (typeof v === 'string' ? v : undefined);\nconst money = (v: unknown) => (typeof v === 'number' ? `$${formatCount(v)}` : undefined);\n\n// Register your own tools once, at module scope, so the card asks \"Send a $640 refund?\" and the row reads \"Refunded $640 to Maya Chen\".\nregisterTool('search_policy', {\n  active: 'Checking the refund policy', done: 'Checked the refund policy', ask: 'Check the refund policy', noun: 'policy check', lines: 8, detailMono: false,\n  summary: {key: 'policy', one: 'checked a policy', many: n => `checked ${n} policies`},\n});\nregisterTool('refund', {\n  active: 'Refunding', done: 'Refunded', ask: 'Refund', noun: 'refund', lines: 8, detailMono: false,\n  confirm: input => `Send a ${money(input.amount)} refund?`,\n  summary: {key: 'refund', one: 'sent a refund', many: n => `sent ${n} refunds`},\n  detail: input => [money(input.amount), str(input.customer) && `to ${str(input.customer)}`].filter(Boolean).join(' '),\n});\n\n/** One call waiting on Ana, its state, and the stand-in tool that finishes 1.2s after it is allowed. */\nfunction useApproval(calls: ToolCallData[], id: string) {\n  const [state, dispatch] = useToolCalls(calls);\n  const current = state.calls.find(c => c.id === id)!;\n  const running = current.status === 'running';\n  // Stand-in for the tool. Replace with the result event from your agent.\n  useEffect(() => {\n    if (!running) return;\n    const timer = setTimeout(() => dispatch({type: 'result', seq: 3, id, status: 'completed'}), 1200);\n    return () => clearTimeout(timer);\n  }, [running, dispatch, id]);\n  const onReply = (call: ToolCallData, reply: ToolReply) => dispatch({type: 'reply', seq: 2, id: call.id, reply});\n  return {calls: state.calls, current, onReply};\n}\n\n// value-ok: an order number, not a color\nconst order = '#4821';\n\nconst policy: ToolCallData = {id: 'c0', seq: 1, tool: 'search_policy', status: 'completed', input: {query: 'refund policy'}, startedAt: 0, endedAt: 90};\nconst refund: ToolCallData = {\n  id: 'c1', seq: 1, tool: 'refund', status: 'awaiting-permission',\n  input: {amount: 640, customer: 'Maya Chen', order},\n  permission: {patterns: [`$640.00 to Maya Chen, order ${order}`], message: `Refunds Maya Chen for order ${order}. The card network pays it out in 5 to 10 days.`},\n};\n\n/**\n * A tool asking before it sends money: Ana's request, then the agent's turn with its reason and the approval\n * ask card. `reason={false}` leaves the reason out, for a narrow box; `ask={false}` leaves Ana's row out, for a panel that\n * shows the agent's turn alone.\n */\nexport function ToolApproval({ask = true, reason = true, label = 'Tool approval', className}: {ask?: boolean; reason?: boolean; label?: string; className?: string}) {\n  const {calls, current, onReply} = useApproval([policy, refund], refund.id);\n  const turn = current.status === 'awaiting-permission' ? 'waiting' : current.status === 'running' ? 'live' : 'done';\n  return (\n    <section aria-label={label} className={className ?? 'flex w-full max-w-xl flex-col gap-3'}>\n      {ask && <Message from=\"user\">\n        <MessageContent>\n          <MessageHeader>Ana<MessageTime>14:03</MessageTime></MessageHeader>\n          <MessageBubble><MessageBubbleContent>Maya Chen was double charged. Refund her.</MessageBubbleContent></MessageBubble>\n        </MessageContent>\n      </Message>}\n      <AgentTurn name=\"support-agent\" state={turn} time=\"14:03\">\n        {reason && <Response>{`Maya was charged twice for order ${order}, $640 each time. Refunding one charge fixes it. It moves money, so I need your go-ahead.`}</Response>}\n        <ToolCallList calls={calls} live onReply={onReply}/>\n        {current.status === 'completed' && <Response>Done. Maya has her refund and a reply.</Response>}\n        {current.status === 'denied' && <Response>Left the refund alone. Maya is still charged twice.</Response>}\n      </AgentTurn>\n    </section>\n  );\n}\n\n/** The introduction's approval: the same turn without the reason, at a preview box's width. */\nexport function Approval() {\n  return <ToolApproval reason={false} label=\"Approval\" className=\"flex w-full max-w-md flex-col gap-3\"/>;\n}\n",
+   "type": "registry:block",
+   "target": "@components/quartz/blocks/tool-approval.tsx"
+  }
+ ]
+}

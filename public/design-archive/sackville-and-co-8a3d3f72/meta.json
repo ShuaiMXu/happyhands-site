@@ -1,0 +1,84 @@
+{
+ "id": "8a3d3f72-9ef0-466d-adde-77189ddff797",
+ "slug": "sackville-and-co-8a3d3f72",
+ "name": "Sackville & Co.",
+ "site_url": "https://sackville.co",
+ "lastmod": "2026-06-05T08:51:42.721Z",
+ "extracted_at": "2026-06-03T20:19:42.245Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Cobalt zine pressed onto cream — a hand-inked editorial spread where the illustration is the hero and the UI is just typeset text on warm paper.",
+ "fonts": [
+  "FoundersGrotesk",
+  "TimesNow SemiLight",
+  "Sackville Script (hand-drawn wordmark)"
+ ],
+ "colors": [
+  {
+   "hex": "#f3f4ee",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#f8f8f8",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#231f20",
+   "name": "Press Black"
+  },
+  {
+   "hex": "#383435",
+   "name": "Charcoal Headline"
+  },
+  {
+   "hex": "#9a9a9a",
+   "name": "Mid Gray"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#245dc5",
+   "name": "Cobalt Ink"
+  },
+  {
+   "hex": "#ffc6a6",
+   "name": "Peach Wash"
+  },
+  {
+   "hex": "#f04736",
+   "name": "Fire Red"
+  },
+  {
+   "hex": "#f52302",
+   "name": "Vermillion"
+  },
+  {
+   "hex": "#d42121",
+   "name": "Crimson"
+  },
+  {
+   "hex": "#feee71",
+   "name": "Marigold"
+  },
+  {
+   "hex": "#b45e42",
+   "name": "Terracotta"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5db3dc41-c3f9-4fa0-98f9-b7af926a7655.mp4",
+  "poster": "https://happyhands.cc/design-archive/sackville-and-co-8a3d3f72/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/sackville-and-co-8a3d3f72/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/sackville-and-co-8a3d3f72/thumbnail.jpg"
+}

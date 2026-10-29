@@ -1,0 +1,33 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "job-runs",
+ "type": "registry:block",
+ "title": "Job runs",
+ "description": "Every pipeline's runs as one table: a Status word per row, IDs and numbers in mono and Run now.",
+ "author": "design.how",
+ "categories": [
+  "block",
+  "pipelines",
+  "data"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/sodium/button.json",
+  "https://design.how/r/sodium/icon.json",
+  "https://design.how/r/sodium/status.json",
+  "https://design.how/r/sodium/table.json",
+  "https://design.how/r/sodium/theme.json",
+  "https://design.how/r/sodium/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/sodium.md",
+  "page": "https://design.how/systems/sodium"
+ },
+ "files": [
+  {
+   "path": "registry/sodium/blocks/job-runs.tsx",
+   "content": "'use client';\n\nimport {Icon, Play, Renew, Search} from '@/components/sodium/icon';\nimport {cn} from '@/lib/sodium/utils';\nimport {Button} from '@/components/sodium/ui/button';\nimport {Status, type StatusValue} from '@/components/sodium/ui/status';\nimport {Table, TableBody, TableCell, TableHead, TableHeader, TableRow} from '@/components/sodium/ui/table';\n\n// A block: the runs of every pipeline, the screen a data tool opens on. One table, a Status word in every row and IDs\n// and numbers in mono. The table measures its own width: the pipeline column drops under 32rem and the rows column\n// under 20rem, so it never scrolls sideways in a narrow slot and every column keeps its 12px gap and the 12px inset. Six runs fit on one\n// screen, so there is no filter bar and no pager; once the runs run past a screen, add FilterBar as the table's toolbar\n// (filter-bar-long-lists). The head row names the table and counts it, then three quiet icon buttons in the header\n// order: search (open or focus your search), refresh, then run now. The open row is the run the page beside it shows.\n// Wire `runs` to your scheduler and the three buttons to your handlers.\n\ntype Run = {id: string; pipeline: string; status: StatusValue; rows: string};\n\nconst runs: Run[] = [\n  {id: 'run_8f2a91', pipeline: 'ingest-events', status: 'running', rows: '812K'},\n  {id: 'run_8f2a90', pipeline: 'orders-daily', status: 'fail', rows: '48.2K'},\n  {id: 'run_8f2a8e', pipeline: 'sessions-rollup', status: 'ok', rows: '1.2M'},\n  {id: 'run_8f2a8c', pipeline: 'ingest-events', status: 'ok', rows: '790K'},\n  {id: 'run_8f2a8b', pipeline: 'billing-export', status: 'warn', rows: '6.9K'},\n  {id: 'run_8f2a8a', pipeline: 'orders-daily', status: 'queued', rows: '0'},\n];\n\n/** The runs table with its Status cells and its search, refresh and run now buttons. */\nexport function JobRuns({className}: {className?: string}) {\n  return (\n    <Table\n      frameClassName={cn('@container/runs', className ?? 'w-full')}\n      size=\"sm\"\n      title=\"Runs\"\n      count={runs.length}\n      actions={<>\n        <Button variant=\"ghost\" size=\"icon-sm\" aria-label=\"Search runs\"><Icon icon={Search}/></Button>\n        <Button variant=\"ghost\" size=\"icon-sm\" aria-label=\"Refresh\"><Icon icon={Renew}/></Button>\n        <Button variant=\"ghost\" size=\"icon-sm\" aria-label=\"Run now\"><Icon icon={Play}/></Button>\n      </>}\n    >\n      <TableHeader>\n        <TableRow>\n          <TableHead>Run</TableHead>\n          <TableHead className=\"hidden @lg/runs:table-cell\">Pipeline</TableHead>\n          <TableHead>Status</TableHead>\n          <TableHead numeric className=\"hidden @xs/runs:table-cell\">Rows</TableHead>\n        </TableRow>\n      </TableHeader>\n      <TableBody>\n        {runs.map(run => <TableRow key={run.id} open={run.id === 'run_8f2a90'}>\n          <TableCell mono>{run.id}</TableCell>\n          <TableCell mono className=\"hidden @lg/runs:table-cell\">{run.pipeline}</TableCell>\n          <TableCell><Status status={run.status} size=\"sm\"/></TableCell>\n          <TableCell numeric className=\"hidden @xs/runs:table-cell\">{run.rows}</TableCell>\n        </TableRow>)}\n      </TableBody>\n    </Table>\n  );\n}\n",
+   "type": "registry:block",
+   "target": "@components/sodium/blocks/job-runs.tsx"
+  }
+ ]
+}

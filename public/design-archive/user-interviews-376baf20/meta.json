@@ -1,0 +1,98 @@
+{
+ "id": "376baf20-9ace-405d-bf4a-086016f2b1e3",
+ "slug": "user-interviews-376baf20",
+ "name": "User Interviews",
+ "site_url": "https://www.userinterviews.com",
+ "lastmod": "2026-06-05T01:02:28.687Z",
+ "extracted_at": "2026-06-03T16:12:39.782Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "hand-drawn research field notes on warm paper",
+ "fonts": [
+  "Sofia Pro",
+  "P22 Mackinac Pro",
+  "P22 Mackinac Pro Italic",
+  "IBM Plex Mono",
+  "P 22 Mackinac italic"
+ ],
+ "colors": [
+  {
+   "hex": "#1c5d5f",
+   "name": "Deep Teal"
+  },
+  {
+   "hex": "#0e4749",
+   "name": "Pine Shadow"
+  },
+  {
+   "hex": "#65b8a2",
+   "name": "Sage"
+  },
+  {
+   "hex": "#2a7779",
+   "name": "Lake Teal"
+  },
+  {
+   "hex": "#156152",
+   "name": "Forest Floor"
+  },
+  {
+   "hex": "#16325a",
+   "name": "Ink Navy"
+  },
+  {
+   "hex": "#d6aec1",
+   "name": "Dusty Rose"
+  },
+  {
+   "hex": "#a2cbcd",
+   "name": "Mint Mist"
+  },
+  {
+   "hex": "#cae1e2",
+   "name": "Sea Foam"
+  },
+  {
+   "hex": "#f2f8f7",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#e4f0f1",
+   "name": "Card Mint"
+  },
+  {
+   "hex": "#f2e8e2",
+   "name": "Blush Sand"
+  },
+  {
+   "hex": "#283338",
+   "name": "Charcoal Navy"
+  },
+  {
+   "hex": "#333333",
+   "name": "Slate"
+  },
+  {
+   "hex": "#1a1a1a",
+   "name": "Soft Black"
+  },
+  {
+   "hex": "#231e21",
+   "name": "Illustration Ink"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4199e079-6754-4288-aa17-d5da9640be55.mp4",
+  "poster": "https://happyhands.cc/design-archive/user-interviews-376baf20/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/user-interviews-376baf20/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/user-interviews-376baf20/thumbnail.jpg"
+}

@@ -1,0 +1,32 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "warehouse-capacity",
+ "type": "registry:block",
+ "title": "Warehouse capacity",
+ "description": "How full a warehouse is: credits, storage and concurrency as meters, storage by schema, queries by hour and Resize warehouse.",
+ "author": "design.how",
+ "categories": [
+  "block",
+  "warehouse",
+  "analytics"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/sodium/button.json",
+  "https://design.how/r/sodium/chart.json",
+  "https://design.how/r/sodium/frame.json",
+  "https://design.how/r/sodium/meter.json",
+  "https://design.how/r/sodium/theme.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/sodium.md",
+  "page": "https://design.how/systems/sodium"
+ },
+ "files": [
+  {
+   "path": "registry/sodium/blocks/warehouse-capacity.tsx",
+   "content": "'use client';\n\nimport {Button} from '@/components/sodium/ui/button';\nimport {Chart} from '@/components/sodium/ui/chart';\nimport type {ChartConfig} from '@/components/sodium/ui/chart-parts';\nimport {Frame, FrameBody, FrameFooter, FrameHeader, FrameMeta, FrameTitle, FrameValue} from '@/components/sodium/ui/frame';\nimport {Meter, MeterLabel, MeterStack, MeterValue} from '@/components/sodium/ui/meter';\n\n// A block: how full a warehouse is. One frame, headed by the warehouse's name and its size: three meters (credits near their limit say so in\n// a word, not only in orange), storage split by schema as one stacked line with its key, then the day's queries as a\n// plain area chart in a second body, which the frame rules off. Resize warehouse is the footer's one slab. Wire the readings to your warehouse's usage.\n\nconst hours = ['00:00', '03:00', '06:00', '09:00', '12:00', '15:00', '18:00', '21:00'];\nconst queries = [310, 220, 480, 1240, 1610, 1520, 980, 640];\nconst data = hours.map((hour, i) => ({hour, queries: queries[i]}));\nconst config: ChartConfig = {hour: {label: 'Hour'}, queries: {label: 'Queries'}};\n\nconst schemas = [\n  {label: 'events', value: 38.4, display: '38.4 TB'},\n  {label: 'orders', value: 12.1, display: '12.1 TB'},\n  {label: 'sessions', value: 7.6, display: '7.6 TB'},\n  {label: 'staging', value: 2.9, display: '2.9 TB'},\n];\n\n/** A warehouse's meters, storage by schema and queries by hour, with Resize warehouse. */\nexport function WarehouseCapacity({className}: {className?: string}) {\n  return (\n    <Frame aria-label=\"Warehouse wh-analytics\" className={className ?? 'w-full'}>\n      <FrameHeader>\n        <FrameTitle>wh-analytics</FrameTitle>\n        <FrameValue meta>size L</FrameValue>\n      </FrameHeader>\n      <FrameBody className=\"gap-5\">\n        <Meter value={442} max={500}>\n          <MeterLabel>Credits</MeterLabel>\n          <MeterValue>{(_, v) => `${v} / 500`}</MeterValue>\n        </Meter>\n        <Meter value={61} max={120}>\n          <MeterLabel>Storage</MeterLabel>\n          <MeterValue>{(_, v) => `${v} / 120 TB`}</MeterValue>\n        </Meter>\n        <Meter value={24} max={40}>\n          <MeterLabel>Concurrency</MeterLabel>\n          <MeterValue>{(_, v) => `${v} / 40`}</MeterValue>\n        </Meter>\n        <MeterStack label=\"Storage by schema\" parts={schemas} max={120}/>\n      </FrameBody>\n      <FrameBody>\n        <Chart frame=\"plain\" type=\"area\" label=\"Queries by hour, today\" data={data} xKey=\"hour\" config={config} height={160}/>\n      </FrameBody>\n      <FrameFooter>\n        <FrameMeta>Updated 2m ago</FrameMeta>\n        <Button size=\"sm\" variant=\"secondary\">View queries</Button>\n        <Button size=\"sm\">Resize warehouse</Button>\n      </FrameFooter>\n    </Frame>\n  );\n}\n",
+   "type": "registry:block",
+   "target": "@components/sodium/blocks/warehouse-capacity.tsx"
+  }
+ ]
+}

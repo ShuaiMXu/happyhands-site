@@ -1,0 +1,87 @@
+{
+ "id": "29567671-da1e-4f85-ae52-8b611fecc384",
+ "slug": "amie-29567671",
+ "name": "Amie",
+ "site_url": "https://amie.so",
+ "lastmod": "2026-06-05T04:53:29.812Z",
+ "extracted_at": "2026-04-29T21:01:53.656Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Sunlit productivity dashboard — a workspace where everything is white, flat, and purposeful, with one electric-blue switch that turns things on.",
+ "fonts": [
+  "Inter",
+  "Inter var"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Pure Canvas"
+  },
+  {
+   "hex": "#fafafa",
+   "name": "Fog Surface"
+  },
+  {
+   "hex": "#cdcdcd",
+   "name": "Ash Border"
+  },
+  {
+   "hex": "#ebebeb",
+   "name": "Stone Divider"
+  },
+  {
+   "hex": "#5c5c5c",
+   "name": "Graphite Body"
+  },
+  {
+   "hex": "#a0a0a0",
+   "name": "Silver Muted"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Primary"
+  },
+  {
+   "hex": "#2e2e2e",
+   "name": "Charcoal Dark"
+  },
+  {
+   "hex": "#11a8ff",
+   "name": "Sky Action"
+  },
+  {
+   "hex": "#cfeeff",
+   "name": "Sky Pale"
+  },
+  {
+   "hex": "#f6a6a6",
+   "name": "Amie Pink"
+  },
+  {
+   "hex": "#01ca45",
+   "name": "Mint Active"
+  },
+  {
+   "hex": "#a050ff",
+   "name": "Violet Tag"
+  },
+  {
+   "hex": "#fbefaf",
+   "name": "Amber Highlight"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/668f6bf6-0eac-4a36-af68-1816bc17b4af.mp4",
+  "poster": "https://happyhands.cc/design-archive/amie-29567671/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/amie-29567671/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/amie-29567671/thumbnail.jpg"
+}

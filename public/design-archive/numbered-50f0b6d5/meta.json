@@ -1,0 +1,47 @@
+{
+ "id": "50f0b6d5-9e96-42a1-9564-a6e99c289f98",
+ "slug": "numbered-50f0b6d5",
+ "name": "Numbered",
+ "site_url": "https://numbered.studio",
+ "lastmod": "2026-06-03T21:37:08.396Z",
+ "extracted_at": "2026-06-03T21:37:08.390Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "fashion editorial on black velvet. A near-black runway where a single face fills the frame and the only marks are white ink and a whispered bronze thread.",
+ "fonts": [
+  "aktiv-web (custom) / substitute: Inter Tight or Söhne",
+  "Editorial display serif (not captured in data — visible in hero wordmark)"
+ ],
+ "colors": [
+  {
+   "hex": "#111111",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#4f4f4f",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#bc9873",
+   "name": "Bronze Veil"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3f755bc2-ba1d-4572-b506-814d92562267.mp4",
+  "poster": "https://happyhands.cc/design-archive/numbered-50f0b6d5/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/numbered-50f0b6d5/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/numbered-50f0b6d5/thumbnail.jpg"
+}

@@ -1,0 +1,90 @@
+{
+ "id": "3d6eda0c-16ab-4e7e-aca6-5f9a5432bfd1",
+ "slug": "autosend-3d6eda0c",
+ "name": "AutoSend",
+ "site_url": "https://autosend.com",
+ "lastmod": "2026-06-05T00:25:48.441Z",
+ "extracted_at": "2026-06-03T15:03:06.173Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Warm stone atelier with a single violet spark — where serif headlines and electric-indigo CTAs share the same quiet off-white room.",
+ "fonts": [
+  "Geist",
+  "Cooper LtBT",
+  "Geist Mono",
+  "dataType",
+  "ui-sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#fafaf9",
+   "name": "Warm Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#e7e5e4",
+   "name": "Stone Mist"
+  },
+  {
+   "hex": "#79716b",
+   "name": "Bark Grey"
+  },
+  {
+   "hex": "#292524",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#0c0a09",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#a6a09b",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#615fff",
+   "name": "Electric Indigo"
+  },
+  {
+   "hex": "#4f39f6",
+   "name": "Deep Violet"
+  },
+  {
+   "hex": "#d97757",
+   "name": "Terracotta"
+  },
+  {
+   "hex": "#5ea500",
+   "name": "Lichen Green"
+  },
+  {
+   "hex": "#22b8cd",
+   "name": "Tide Teal"
+  },
+  {
+   "hex": "#ff0000",
+   "name": "Alarm Red"
+  },
+  {
+   "hex": "#007ebb",
+   "name": "Sapphire Link"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e0baa6d3-d2db-4f63-b34f-f9ee58cf8dfa.mp4",
+  "poster": "https://happyhands.cc/design-archive/autosend-3d6eda0c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/autosend-3d6eda0c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/autosend-3d6eda0c/thumbnail.jpg"
+}

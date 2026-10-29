@@ -1,0 +1,54 @@
+{
+ "id": "3461e90e-35d2-4269-9f11-cbe935f0a3a2",
+ "slug": "goingtm-3461e90e",
+ "name": "Going™",
+ "site_url": "https://www.going.com",
+ "lastmod": "2026-06-05T02:25:42.409Z",
+ "extracted_at": "2026-06-03T17:21:50.238Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Sun-bleached travel journal with electric ink",
+ "fonts": [
+  "PP Mori"
+ ],
+ "colors": [
+  {
+   "hex": "#004449",
+   "name": "Deep Lagoon"
+  },
+  {
+   "hex": "#483cff",
+   "name": "Electric Iris"
+  },
+  {
+   "hex": "#fffef0",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#d7ffc2",
+   "name": "Mint Wash"
+  },
+  {
+   "hex": "#0bff80",
+   "name": "Lime Pulse"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c21716e0-0b8d-4114-b286-8b9274bf121f.mp4",
+  "poster": "https://happyhands.cc/design-archive/goingtm-3461e90e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/goingtm-3461e90e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/goingtm-3461e90e/thumbnail.jpg"
+}

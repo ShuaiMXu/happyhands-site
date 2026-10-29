@@ -195,6 +195,14 @@ export function ArchiveGallery({ lang }: { lang: string }) {
                   </button>
                 </div>
               )}
+              <p className="archive-source-links">
+                <a href={selected.site_url} target="_blank" rel="noreferrer">
+                  {zh ? "访问原网站" : "Visit website"}
+                </a>{" "}
+                <a href={selected.page_url} target="_blank" rel="noreferrer">
+                  {zh ? "查看来源" : "View source"}
+                </a>
+              </p>
               {system && <ReferenceSpecimen system={system} lang={lang} />}
             </div>
             <ResourceExport
@@ -221,30 +229,98 @@ export function ArchiveGallery({ lang }: { lang: string }) {
                   url: `/design-archive/${selected.slug}/tokens.json`,
                   name: "tokens.json",
                 },
+                {
+                  label: "Design JSON",
+                  url: `/design-archive/${selected.slug}/design-system.json`,
+                  name: "design-system.json",
+                },
+                {
+                  label: "Compact",
+                  url: `/design-archive/${selected.slug}/compact/design.md`,
+                  name: "design-compact.md",
+                },
               ]}
             />
           </div>
         </>
       ) : (
         <>
-          <ResourceToolbar label={zh ? "搜索网站" : "Search websites"}
-            placeholder={zh ? "网站、类型、风格或字体" : "Website, type, style or font"}
-            query={query} onQueryChange={value => { setQuery(value); setPage(1); }}
-            status={loading ? (zh ? "加载中…" : "Loading…") : error ? (zh ? "目录加载失败" : "Collection unavailable") : `${filtered.length} ${zh ? "个网站" : "websites"}`}>
-            <ArchiveFilter label={zh ? "网站类型" : "Website type"} zh={zh} value={category}
-              onChange={value => { setCategory(value); setPage(1); }}
+          <ResourceToolbar
+            label={zh ? "搜索网站" : "Search websites"}
+            placeholder={
+              zh ? "网站、类型、风格或字体" : "Website, type, style or font"
+            }
+            query={query}
+            onQueryChange={(value) => {
+              setQuery(value);
+              setPage(1);
+            }}
+            status={
+              loading
+                ? zh
+                  ? "加载中…"
+                  : "Loading…"
+                : error
+                  ? zh
+                    ? "目录加载失败"
+                    : "Collection unavailable"
+                  : `${filtered.length} ${zh ? "个网站" : "websites"}`
+            }
+          >
+            <ArchiveFilter
+              label={zh ? "网站类型" : "Website type"}
+              zh={zh}
+              value={category}
+              onChange={(value) => {
+                setCategory(value);
+                setPage(1);
+              }}
               options={[
-                { value: "", label: zh ? "全部类型" : "All types", count: available.length },
-                ...archiveTypes.map(([id, cn, en]) => ({ value: id, label: zh ? cn : en, count: available.filter(entry => entry.types?.includes(id)).length })),
-                { value: "unclassified", label: zh ? "待分类" : "Unclassified", count: available.filter(entry => !entry.types?.length).length },
-              ]} />
-            <ArchiveFilter label={zh ? "设计风格" : "Design style"} zh={zh} value={style}
-              onChange={value => { setStyle(value); setPage(1); }}
+                {
+                  value: "",
+                  label: zh ? "全部类型" : "All types",
+                  count: available.length,
+                },
+                ...archiveTypes.map(([id, cn, en]) => ({
+                  value: id,
+                  label: zh ? cn : en,
+                  count: available.filter((entry) => entry.types?.includes(id))
+                    .length,
+                })),
+                {
+                  value: "unclassified",
+                  label: zh ? "待分类" : "Unclassified",
+                  count: available.filter((entry) => !entry.types?.length)
+                    .length,
+                },
+              ]}
+            />
+            <ArchiveFilter
+              label={zh ? "设计风格" : "Design style"}
+              zh={zh}
+              value={style}
+              onChange={(value) => {
+                setStyle(value);
+                setPage(1);
+              }}
               options={[
-                { value: "", label: zh ? "全部风格" : "All styles", count: typed.length },
-                ...archiveStyles.map(([id, cn, en]) => ({ value: id, label: zh ? cn : en, count: styleCount(id) })),
-                { value: "unclassified", label: zh ? "待分类" : "Unclassified", count: styleCount("unclassified") },
-              ]} />
+                {
+                  value: "",
+                  label: zh ? "全部风格" : "All styles",
+                  count: typed.length,
+                },
+                ...archiveStyles.map(([id, cn, en]) => ({
+                  value: id,
+                  label: zh ? cn : en,
+                  count: styleCount(id),
+                })),
+                {
+                  value: "unclassified",
+                  label: zh ? "待分类" : "Unclassified",
+                  count: styleCount("unclassified"),
+                },
+              ]}
+            />
           </ResourceToolbar>
           {error && (
             <p role="alert">

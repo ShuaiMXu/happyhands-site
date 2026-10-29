@@ -1,0 +1,53 @@
+{
+ "id": "eafe33bf-6f53-4619-b279-686ad5869799",
+ "slug": "style-eafe33bf",
+ "name": "큰그림컴퍼니",
+ "site_url": "https://www.bpco.kr",
+ "lastmod": "2026-06-05T10:03:23.070Z",
+ "extracted_at": "2026-06-03T20:39:14.244Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Concrete slab typographic manifesto. A black-on-white press kit where oversized Helvetica does the work of photography, and the only texture is a single sheet of crumpled paper under the body type.",
+ "fonts": [
+  "Helvetica Neue",
+  "PPSupplyMono",
+  "PPSupplySans",
+  "Rock Salt"
+ ],
+ "colors": [
+  {
+   "hex": "#121212",
+   "name": "Press Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f1f1f1",
+   "name": "Newsprint"
+  },
+  {
+   "hex": "#e1e1e1",
+   "name": "Foil Gray"
+  },
+  {
+   "hex": "#c5c5c5",
+   "name": "Mute Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/98149e4a-2119-4f78-a19f-ec9a54a92a1c.mp4",
+  "poster": "https://happyhands.cc/design-archive/style-eafe33bf/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/style-eafe33bf/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/style-eafe33bf/thumbnail.jpg"
+}

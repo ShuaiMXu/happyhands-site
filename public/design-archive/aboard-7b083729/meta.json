@@ -1,0 +1,77 @@
+{
+ "id": "7b083729-e694-4b66-82a3-befb08451722",
+ "slug": "aboard-7b083729",
+ "name": "Aboard",
+ "site_url": "https://aboard.com",
+ "lastmod": "2026-06-05T01:06:11.756Z",
+ "extracted_at": "2026-06-03T17:10:01.369Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "ai",
+ "north_star": "Editorial field journal under industrial light",
+ "fonts": [
+  "ui-sans-serif",
+  "Tobias",
+  "Atkinson Hyperlegible Mono",
+  "Work Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#de4c00",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#efa680",
+   "name": "Soft Ember"
+  },
+  {
+   "hex": "#fffefb",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#f3f2ee",
+   "name": "Linen"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Hairline Gray"
+  },
+  {
+   "hex": "#c1bdba",
+   "name": "Stone Border"
+  },
+  {
+   "hex": "#a49784",
+   "name": "Warm Taupe"
+  },
+  {
+   "hex": "#333833",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#271503",
+   "name": "Warm Graphite"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#040c06",
+   "name": "Deep Forest"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d18fad02-c6f5-4cab-a9fd-0625b21038fb.mp4",
+  "poster": "https://happyhands.cc/design-archive/aboard-7b083729/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/aboard-7b083729/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/aboard-7b083729/thumbnail.jpg"
+}

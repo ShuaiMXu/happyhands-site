@@ -1,0 +1,80 @@
+{
+ "id": "f532c703-1179-465d-9933-7736df44d0ae",
+ "slug": "stability-ai-f532c703",
+ "name": "Stability AI",
+ "site_url": "https://stability.ai",
+ "lastmod": "2026-06-03T19:17:58.314Z",
+ "extracted_at": "2026-06-03T19:17:58.311Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ai",
+ "north_star": "Lavender pulse in a darkroom. Full-bleed editorial photography floats over near-black surfaces, with a single vivid violet accent that electrifies every interactive element without ever shouting.",
+ "fonts": [
+  "Archivo",
+  "Figtree",
+  "Clarkson"
+ ],
+ "colors": [
+  {
+   "hex": "#a381ff",
+   "name": "Iris Spark"
+  },
+  {
+   "hex": "#776cff",
+   "name": "Indigo Edge"
+  },
+  {
+   "hex": "#725d91",
+   "name": "Mauve Veil"
+  },
+  {
+   "hex": "#b6a9c6",
+   "name": "Lilac Ash"
+  },
+  {
+   "hex": "#330066",
+   "name": "Deep Amethyst"
+  },
+  {
+   "hex": "#1e1e1e",
+   "name": "Obsidian Canvas"
+  },
+  {
+   "hex": "#383838",
+   "name": "Carbon Layer"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void"
+  },
+  {
+   "hex": "#e5e7e6",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#bbbbbb",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#888888",
+   "name": "Graphite"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/43dfb585-deb8-473b-b46e-26cafe176a6d.mp4",
+  "poster": "https://happyhands.cc/design-archive/stability-ai-f532c703/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/stability-ai-f532c703/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/stability-ai-f532c703/thumbnail.jpg"
+}

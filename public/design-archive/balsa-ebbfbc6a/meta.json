@@ -1,0 +1,79 @@
+{
+ "id": "ebbfbc6a-988b-4f33-b261-d431b2327545",
+ "slug": "balsa-ebbfbc6a",
+ "name": "Balsa",
+ "site_url": "https://www.balsa.com",
+ "lastmod": "2026-06-03T21:37:57.964Z",
+ "extracted_at": "2026-06-03T21:37:57.959Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "engineering notebook on white drafting paper",
+ "fonts": [
+  "sans-serif",
+  "Van Condensed Pro Bold",
+  "Inter",
+  "Roboto Mono",
+  "Inter-Bold",
+  "Noto Sans Mono",
+  "Inter-Medium",
+  "Inter-Light",
+  "Inter-Black",
+  "Inter-SemiBold"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Carbon Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f7f7f7",
+   "name": "Drafting Gray"
+  },
+  {
+   "hex": "#313131",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#686868",
+   "name": "Pencil Gray"
+  },
+  {
+   "hex": "#bbbbbb",
+   "name": "Faint Gray"
+  },
+  {
+   "hex": "#7c7c7c",
+   "name": "Charcoal Trace"
+  },
+  {
+   "hex": "#ffb700",
+   "name": "Highlighter Amber"
+  },
+  {
+   "hex": "#914db2",
+   "name": "Indigo Ink"
+  },
+  {
+   "hex": "#003399",
+   "name": "Link Navy"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3bb85780-d994-4cf6-a609-1eeaa4c5acfa.mp4",
+  "poster": "https://happyhands.cc/design-archive/balsa-ebbfbc6a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/balsa-ebbfbc6a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/balsa-ebbfbc6a/thumbnail.jpg"
+}

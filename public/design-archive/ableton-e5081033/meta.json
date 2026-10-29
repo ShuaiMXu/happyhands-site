@@ -1,0 +1,54 @@
+{
+ "id": "e5081033-bd79-479a-aef6-8b002df6086a",
+ "slug": "ableton-e5081033",
+ "name": "Ableton",
+ "site_url": "https://ableton.com",
+ "lastmod": "2026-06-05T08:29:40.986Z",
+ "extracted_at": "2026-06-03T19:50:43.615Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Editorial workshop on stark white. White paper, black Futura, one blue pen mark for interactivity, photography clipped flush to the edges like magazine spreads.",
+ "fonts": [
+  "futura-pt"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Fog"
+  },
+  {
+   "hex": "#0000ff",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#ff8389",
+   "name": "Coral"
+  },
+  {
+   "hex": "#00d2be",
+   "name": "Teal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2012f52f-23cc-4d96-b7fe-64fdb65fb934.mp4",
+  "poster": "https://happyhands.cc/design-archive/ableton-e5081033/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ableton-e5081033/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ableton-e5081033/thumbnail.jpg"
+}

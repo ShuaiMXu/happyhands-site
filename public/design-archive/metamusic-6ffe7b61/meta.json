@@ -1,0 +1,71 @@
+{
+ "id": "6ffe7b61-a418-4cbd-9e7a-a5129db6c589",
+ "slug": "metamusic-6ffe7b61",
+ "name": "MetaMusic",
+ "site_url": "https://metamusic.ca",
+ "lastmod": "2026-06-05T10:05:53.747Z",
+ "extracted_at": "2026-06-03T20:40:39.860Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "saas",
+ "north_star": "editorial cream broadsheet with sticker-flat accents — a warm-paper canvas where oversized type and hard-offset shadows replace all decoration.",
+ "fonts": [
+  "Maison Neue",
+  "Spoof"
+ ],
+ "colors": [
+  {
+   "hex": "#0066cc",
+   "name": "Brand Blue"
+  },
+  {
+   "hex": "#0e2575",
+   "name": "Deep Indigo"
+  },
+  {
+   "hex": "#213680",
+   "name": "Midnight Card"
+  },
+  {
+   "hex": "#101820",
+   "name": "Charcoal Ink"
+  },
+  {
+   "hex": "#f4f1ea",
+   "name": "Paper Cream"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#e6e0f8",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#e9f4ff",
+   "name": "Ice Blue"
+  },
+  {
+   "hex": "#f7e1d5",
+   "name": "Peach Blush"
+  },
+  {
+   "hex": "#d6d6d6",
+   "name": "Ash Border"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f003eefe-bddc-4be6-879c-5d0c78496991.mp4",
+  "poster": "https://happyhands.cc/design-archive/metamusic-6ffe7b61/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/metamusic-6ffe7b61/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/metamusic-6ffe7b61/thumbnail.jpg"
+}

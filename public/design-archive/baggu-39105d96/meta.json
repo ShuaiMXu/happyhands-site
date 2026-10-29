@@ -1,0 +1,49 @@
+{
+ "id": "39105d96-3cb1-497a-8f9f-507a1bed4d30",
+ "slug": "baggu-39105d96",
+ "name": "Baggu",
+ "site_url": "https://baggu.com",
+ "lastmod": "2026-06-03T20:06:53.269Z",
+ "extracted_at": "2026-06-03T20:06:53.266Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Sunlit print catalog on cream paper — a single warm off-white surface where black type and product photography do all the work, and a single green whisper says 'new'.",
+ "fonts": [
+  "studioPro",
+  "Arial",
+  "Times",
+  "Metropolis"
+ ],
+ "colors": [
+  {
+   "hex": "#f6f4ee",
+   "name": "Bone Cream"
+  },
+  {
+   "hex": "#000000",
+   "name": "True Black"
+  },
+  {
+   "hex": "#7b7a77",
+   "name": "Warm Ash"
+  },
+  {
+   "hex": "#298018",
+   "name": "Moss Signal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2f79d8be-c177-43ae-9be4-6ef97eb9c112.mp4",
+  "poster": "https://happyhands.cc/design-archive/baggu-39105d96/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/baggu-39105d96/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/baggu-39105d96/thumbnail.jpg"
+}

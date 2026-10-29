@@ -1,0 +1,62 @@
+{
+ "id": "d577e44e-bc63-4cbe-b759-25262d089b95",
+ "slug": "healthy-together-d577e44e",
+ "name": "Healthy Together",
+ "site_url": "https://www.healthytogether.co",
+ "lastmod": "2026-06-05T02:27:35.762Z",
+ "extracted_at": "2026-06-03T15:51:21.757Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "saas",
+ "north_star": "Midnight navy with a violet brushstroke ribbon.",
+ "fonts": [
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#101722",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#f9f0ff",
+   "name": "Linen Lavender"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#6c6c7a",
+   "name": "Muted Graphite"
+  },
+  {
+   "hex": "#3f424e",
+   "name": "Deep Charcoal"
+  },
+  {
+   "hex": "#4541fe",
+   "name": "Electric Iris"
+  },
+  {
+   "hex": "#d9c6ff",
+   "name": "Lilac Whisper"
+  },
+  {
+   "hex": "#fe0f83",
+   "name": "Hot Magenta"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/55a35018-5ff5-4b07-8a8e-4cf8baeabf85.mp4",
+  "poster": "https://happyhands.cc/design-archive/healthy-together-d577e44e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/healthy-together-d577e44e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/healthy-together-d577e44e/thumbnail.jpg"
+}

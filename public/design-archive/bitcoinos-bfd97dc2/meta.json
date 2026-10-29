@@ -1,0 +1,61 @@
+{
+ "id": "bfd97dc2-5c12-483b-9101-ebfaf82ba83e",
+ "slug": "bitcoinos-bfd97dc2",
+ "name": "BitcoinOS",
+ "site_url": "https://bitcoinos.build",
+ "lastmod": "2026-06-03T21:35:50.596Z",
+ "extracted_at": "2026-06-03T21:35:50.589Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "crypto",
+ "north_star": "Obsidian monolith with a burning yellow sigil — BitcoinOS is a crypto project whose interface looks like a declaration carved in stone, with cinematic 3D worlds bleeding in at the edges.",
+ "fonts": [
+  "Review Condensed",
+  "Review",
+  "Kalice",
+  "Times (system)"
+ ],
+ "colors": [
+  {
+   "hex": "#101010",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void"
+  },
+  {
+   "hex": "#1a1a1a",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#272727",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#403f3f",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#bababa",
+   "name": "Ash"
+  },
+  {
+   "hex": "#fffafa",
+   "name": "Snow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d7be6a2d-e1ac-40f9-bb86-2fc3402278f7.mp4",
+  "poster": "https://happyhands.cc/design-archive/bitcoinos-bfd97dc2/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/bitcoinos-bfd97dc2/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/bitcoinos-bfd97dc2/thumbnail.jpg"
+}

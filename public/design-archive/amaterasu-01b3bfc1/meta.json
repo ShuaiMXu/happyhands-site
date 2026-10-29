@@ -1,0 +1,73 @@
+{
+ "id": "01b3bfc1-95df-425f-9b7a-15cff09adc5f",
+ "slug": "amaterasu-01b3bfc1",
+ "name": "Amaterasu",
+ "site_url": "https://amaterasu.ai",
+ "lastmod": "2026-06-05T02:58:34.623Z",
+ "extracted_at": "2026-06-03T17:32:41.071Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ai",
+ "north_star": "Celestial teal sanctuary",
+ "fonts": [
+  "TWKLausanne-250",
+  "TWKLausanne-200",
+  "NeoSansPro-Medium",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#1b2978",
+   "name": "Cosmic Violet"
+  },
+  {
+   "hex": "#19366c",
+   "name": "Twilight Indigo"
+  },
+  {
+   "hex": "#75cdd6",
+   "name": "Aurora Teal"
+  },
+  {
+   "hex": "#84cdee",
+   "name": "Cyan Glow"
+  },
+  {
+   "hex": "#3a3cb5",
+   "name": "Cosmic Violet Wash"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Polar White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#7488a5",
+   "name": "Silver Slate"
+  },
+  {
+   "hex": "#579dc0",
+   "name": "Cerulean Mist"
+  },
+  {
+   "hex": "#466187",
+   "name": "Storm Shadow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a7f50124-13c5-4b3f-acaf-6a4abef39886.mp4",
+  "poster": "https://happyhands.cc/design-archive/amaterasu-01b3bfc1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/amaterasu-01b3bfc1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/amaterasu-01b3bfc1/thumbnail.jpg"
+}

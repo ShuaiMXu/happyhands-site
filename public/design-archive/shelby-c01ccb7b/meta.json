@@ -1,0 +1,73 @@
+{
+ "id": "c01ccb7b-46c9-487c-8a4e-0e9d6627f0d6",
+ "slug": "shelby-c01ccb7b",
+ "name": "Shelby",
+ "site_url": "https://shelby.ashfall.studio",
+ "lastmod": "2026-06-03T21:40:10.084Z",
+ "extracted_at": "2026-06-03T21:40:10.080Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "crypto",
+ "north_star": "neon signage on cocoa leather",
+ "fonts": [
+  "Times",
+  "GT-Planar",
+  "ABCReproMono",
+  "SuisseIntl"
+ ],
+ "colors": [
+  {
+   "hex": "#322312",
+   "name": "Cocoa Husk"
+  },
+  {
+   "hex": "#ff77c9",
+   "name": "Neon Orchid"
+  },
+  {
+   "hex": "#ffdfef",
+   "name": "Petal Wash"
+  },
+  {
+   "hex": "#470b64",
+   "name": "Plum Velvet"
+  },
+  {
+   "hex": "#ffc2e1",
+   "name": "Bubblegum Blush"
+  },
+  {
+   "hex": "#e2c9f8",
+   "name": "Lavender Haze"
+  },
+  {
+   "hex": "#de8aff",
+   "name": "Magenta Spark"
+  },
+  {
+   "hex": "#481d2a",
+   "name": "Oxblood Rust"
+  },
+  {
+   "hex": "#eee2ff",
+   "name": "Lilac Whisper"
+  },
+  {
+   "hex": "#5b4f41",
+   "name": "Walnut Vein"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d0d510e8-ae23-4136-a8e7-b431d0e9521c.mp4",
+  "poster": "https://happyhands.cc/design-archive/shelby-c01ccb7b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/shelby-c01ccb7b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/shelby-c01ccb7b/thumbnail.jpg"
+}

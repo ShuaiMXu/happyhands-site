@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "switch",
+  "type": "registry:ui",
+  "title": "Switch",
+  "description": "Turns a setting on or off at once.",
+  "author": "design.how",
+  "categories": [
+    "selection"
+  ],
+  "dependencies": [
+    "@base-ui/react@^1.8.0"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/theme.json",
+    "https://happyhands.cc/r/sodium/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/sodium/components/switch.md",
+    "page": "https://happyhands.cc/design-how/sodium/components/switch.md"
+  },
+  "files": [
+    {
+      "path": "registry/sodium/ui/switch.tsx",
+      "content": "'use client';\n\nimport {Switch as SwitchPrimitive} from '@base-ui/react/switch';\nimport {cn, mergeClass} from '@/lib/sodium/utils';\n\n// Sodium's switch, on Base UI's Switch: a setting that applies the moment it flips.\n//\n// A square track with a square knob. Off is the hair-off-white body (--check-off), lifting to white under the pointer,\n// with a 1px --line-control edge and a --line-control knob at the start. On takes the checked recipe, the track yellow\n// with a gold edge in light and the dark yellow tint with a yellow edge in dark, lit from below, and the knob turns\n// the mark colour (ink in light, yellow in dark) at the end, so on reads from the fill and from the knob's place,\n// never from a hue alone. The knob sits 2px inside the edge all round and moves along the reading direction, so it\n// mirrors right to left. It moves in --dur-light on --ease-soft with no overshoot; reduced motion cuts.\n//\n// 20 by 36 by default, 16 by 28 small. Invalid turns the edge red. Disabled sits on the well with a rule edge.\n// Pending holds it read-only while the change saves: the knob steps aside for the pending mark in the middle of the\n// track, and the track's fill still says which way it is going. If the save fails, the caller sets checked back.\n\ntype SwitchProps = SwitchPrimitive.Root.Props & {\n  size?: 'sm' | 'default';\n  /** The change is saving. The pending mark steps in the track and further flips are ignored until it settles. */\n  pending?: boolean;\n  'aria-invalid'?: boolean | 'true' | 'false';\n};\n\nfunction Switch({className, size = 'default', pending, readOnly, 'aria-invalid': invalid, ...props}: SwitchProps) {\n  const isInvalid = invalid === true || invalid === 'true';\n  return <SwitchPrimitive.Root\n    data-slot=\"switch\"\n    data-size={size}\n    data-pending={pending || undefined}\n    aria-invalid={isInvalid || undefined}\n    aria-busy={pending || undefined}\n    readOnly={readOnly || pending}\n    className={mergeClass([\n      'group/switch peer relative inline-flex shrink-0 cursor-pointer items-center border border-line-control bg-check-off p-0.5 [-webkit-tap-highlight-color:transparent]',\n      'light-motion',\n      // The hit area grows past the track, so a 20px switch still takes a 28px target.\n      'after:absolute after:-inset-1',\n      'data-[size=default]:h-5 data-[size=default]:w-9 data-[size=sm]:h-4 data-[size=sm]:w-7',\n      'data-checked:checked',\n      'hover:not-data-disabled:not-data-readonly:not-data-checked:bg-check-off-hover active:not-data-disabled:not-data-readonly:not-data-checked:bg-check-off',\n      'aria-invalid:border-fail',\n      'data-disabled:cursor-not-allowed data-disabled:border-line data-disabled:bg-well',\n      'data-readonly:cursor-default data-pending:cursor-progress',\n      'forced-colors:border-[CanvasText] forced-colors:data-checked:bg-[Highlight]',\n    ], className)}\n    {...props}\n  >\n    <SwitchPrimitive.Thumb\n      data-slot=\"switch-thumb\"\n      className={cn(\n        'pointer-events-none block bg-line-control',\n        'data-checked:bg-(--check-mark)',\n        'transition-[translate,background-color] duration-(--dur-light) ease-soft',\n        'group-data-[size=default]/switch:size-3.5 group-data-[size=sm]/switch:size-2.5',\n        'group-data-[size=default]/switch:data-checked:translate-x-4 group-data-[size=sm]/switch:data-checked:translate-x-3',\n        'rtl:group-data-[size=default]/switch:data-checked:-translate-x-4 rtl:group-data-[size=sm]/switch:data-checked:-translate-x-3',\n        'data-disabled:bg-text-disabled',\n        'group-data-pending/switch:invisible',\n        'forced-colors:[forced-color-adjust:none] forced-colors:bg-[CanvasText] forced-colors:data-checked:bg-[HighlightText] forced-colors:data-disabled:bg-[GrayText]',\n      )}\n    />\n    {pending && <span data-slot=\"switch-pending\" aria-hidden className=\"pending absolute inset-0 m-auto text-text-2 group-data-checked/switch:text-(--check-mark)\"/>}\n  </SwitchPrimitive.Root>;\n}\n\nexport {Switch, type SwitchProps};\n",
+      "type": "registry:ui",
+      "target": "@components/sodium/ui/switch.tsx"
+    }
+  ]
+}

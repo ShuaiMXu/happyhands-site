@@ -1,0 +1,91 @@
+{
+ "id": "7e21f6e1-deec-4bc4-a30e-f2c9d3320314",
+ "slug": "home-7e21f6e1",
+ "name": "Home",
+ "site_url": "https://lego.com",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-11T19:15:24.282Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "",
+ "north_star": "Primary-color toy aisle — the brightness of a freshly opened set box on a white table.",
+ "fonts": [
+  "Cera Pro",
+  "Cera Pro Italic"
+ ],
+ "colors": [
+  {
+   "hex": "#FFD502",
+   "name": "LEGO Yellow"
+  },
+  {
+   "hex": "#F47D20",
+   "name": "Brick Orange"
+  },
+  {
+   "hex": "#E96F14",
+   "name": "Ember Dark"
+  },
+  {
+   "hex": "#201D48",
+   "name": "LEGO Navy"
+  },
+  {
+   "hex": "#006DB7",
+   "name": "Link Blue"
+  },
+  {
+   "hex": "#005AD2",
+   "name": "Action Blue"
+  },
+  {
+   "hex": "#D0021B",
+   "name": "Flag Red"
+  },
+  {
+   "hex": "#141414",
+   "name": "Off Black"
+  },
+  {
+   "hex": "#2C2C2C",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pitch"
+  },
+  {
+   "hex": "#FFFFFF",
+   "name": "Snow"
+  },
+  {
+   "hex": "#F2F2F2",
+   "name": "Fog"
+  },
+  {
+   "hex": "#F6F6F6",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#757575",
+   "name": "Steel"
+  },
+  {
+   "hex": "#E0E0E0",
+   "name": "Silver"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2d390173-a69a-4c71-b44e-f2039c5a7f16.mp4",
+  "poster": "https://happyhands.cc/design-archive/home-7e21f6e1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/home-7e21f6e1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/home-7e21f6e1/thumbnail.jpg"
+}

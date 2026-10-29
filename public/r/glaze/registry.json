@@ -1,0 +1,2664 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "glaze",
+  "homepage": "https://happyhands.cc/systems/glaze/",
+  "items": [
+    {
+      "name": "button",
+      "type": "registry:ui",
+      "title": "Button",
+      "description": "Starts an action.",
+      "author": "design.how",
+      "categories": [
+        "actions"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0",
+        "class-variance-authority@^0.7.1"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/button.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/button.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/button.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "toolbar",
+      "type": "registry:ui",
+      "title": "Toolbar",
+      "description": "Holds a row of actions on one thing.",
+      "author": "design.how",
+      "categories": [
+        "actions"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/toolbar.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/toolbar.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/toolbar.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/toolbar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "field",
+      "type": "registry:ui",
+      "title": "Field",
+      "description": "Gives an input its label and error.",
+      "author": "design.how",
+      "categories": [
+        "inputs"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0",
+        "class-variance-authority@^0.7.1"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/field.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/field.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/field.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/field.tsx"
+        }
+      ]
+    },
+    {
+      "name": "input",
+      "type": "registry:ui",
+      "title": "Input",
+      "description": "Takes one line of text.",
+      "author": "design.how",
+      "categories": [
+        "inputs"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/copy-button.json",
+        "https://happyhands.cc/r/glaze/field.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/kbd.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/input.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/input.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/input.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/input.tsx"
+        }
+      ]
+    },
+    {
+      "name": "textarea",
+      "type": "registry:ui",
+      "title": "Textarea",
+      "description": "Takes several lines of text.",
+      "author": "design.how",
+      "categories": [
+        "inputs"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/textarea.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/textarea.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/textarea.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/textarea.tsx"
+        }
+      ]
+    },
+    {
+      "name": "chip",
+      "type": "registry:ui",
+      "title": "Chip",
+      "description": "Shows a filter or a chosen value.",
+      "author": "design.how",
+      "categories": [
+        "inputs"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0",
+        "class-variance-authority@^0.7.1"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/chip.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/chip.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/chip.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/chip.tsx"
+        }
+      ]
+    },
+    {
+      "name": "checkbox",
+      "type": "registry:ui",
+      "title": "Checkbox",
+      "description": "Turns one option on or off.",
+      "author": "design.how",
+      "categories": [
+        "selection"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/checkbox.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/checkbox.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/checkbox.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/checkbox.tsx"
+        }
+      ]
+    },
+    {
+      "name": "radio-group",
+      "type": "registry:ui",
+      "title": "Radio group",
+      "description": "Picks one of a few choices.",
+      "author": "design.how",
+      "categories": [
+        "selection"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/radio-group.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/radio-group.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/radio-group.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/radio-group.tsx"
+        }
+      ]
+    },
+    {
+      "name": "switch",
+      "type": "registry:ui",
+      "title": "Switch",
+      "description": "Turns a setting on or off at once.",
+      "author": "design.how",
+      "categories": [
+        "selection"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/switch.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/switch.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/switch.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/switch.tsx"
+        }
+      ]
+    },
+    {
+      "name": "slider",
+      "type": "registry:ui",
+      "title": "Slider",
+      "description": "Picks a number or a range.",
+      "author": "design.how",
+      "categories": [
+        "selection"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/direction.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/slider.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/slider.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/slider.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/slider.tsx"
+        }
+      ]
+    },
+    {
+      "name": "segmented-control",
+      "type": "registry:ui",
+      "title": "Segmented control",
+      "description": "Switches between a few views of one thing.",
+      "author": "design.how",
+      "categories": [
+        "selection"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0",
+        "class-variance-authority@^0.7.1"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/segmented-control.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/segmented-control.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/segmented-control.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/segmented-control.tsx"
+        }
+      ]
+    },
+    {
+      "name": "kbd",
+      "type": "registry:ui",
+      "title": "Kbd",
+      "description": "Shows a key or a shortcut.",
+      "author": "design.how",
+      "categories": [
+        "display"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/kbd.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/kbd.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/kbd.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/kbd.tsx"
+        }
+      ]
+    },
+    {
+      "name": "copy-button",
+      "type": "registry:ui",
+      "title": "Copy button",
+      "description": "Copies a value.",
+      "author": "design.how",
+      "categories": [
+        "actions"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/copy-button.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/copy-button.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/copy-button.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/copy-button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "button-group",
+      "type": "registry:ui",
+      "title": "Button group",
+      "description": "Joins related buttons into one control.",
+      "author": "design.how",
+      "categories": [
+        "actions"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0",
+        "class-variance-authority@^0.7.1"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/dropdown-menu.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/button-group.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/button-group.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/button-group.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/button-group.tsx"
+        }
+      ]
+    },
+    {
+      "name": "select",
+      "type": "registry:ui",
+      "title": "Select",
+      "description": "Picks one option from a list.",
+      "author": "design.how",
+      "categories": [
+        "selection"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/field.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/overlay.json",
+        "https://happyhands.cc/r/glaze/portal.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/select.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/select.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/select.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/select.tsx"
+        }
+      ]
+    },
+    {
+      "name": "combobox",
+      "type": "registry:ui",
+      "title": "Combobox",
+      "description": "Finds one or more values by typing.",
+      "author": "design.how",
+      "categories": [
+        "selection"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/chip.json",
+        "https://happyhands.cc/r/glaze/field.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/input.json",
+        "https://happyhands.cc/r/glaze/kbd.json",
+        "https://happyhands.cc/r/glaze/overlay.json",
+        "https://happyhands.cc/r/glaze/portal.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/combobox.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/combobox.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/combobox.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/combobox.tsx"
+        }
+      ]
+    },
+    {
+      "name": "date-picker",
+      "type": "registry:ui",
+      "title": "Date picker",
+      "description": "Sets a date, a range or a time.",
+      "author": "design.how",
+      "categories": [
+        "inputs"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/field.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/input.json",
+        "https://happyhands.cc/r/glaze/overlay.json",
+        "https://happyhands.cc/r/glaze/portal.json",
+        "https://happyhands.cc/r/glaze/select.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/date-picker.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/date-picker.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/date-picker.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/date-picker.tsx"
+        }
+      ]
+    },
+    {
+      "name": "number-input",
+      "type": "registry:ui",
+      "title": "Number input",
+      "description": "Takes a number and steps it.",
+      "author": "design.how",
+      "categories": [
+        "inputs"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/field.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/input.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/number-input.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/number-input.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/number-input.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/number-input.tsx"
+        }
+      ]
+    },
+    {
+      "name": "otp-input",
+      "type": "registry:ui",
+      "title": "OTP input",
+      "description": "Takes a one-time code.",
+      "author": "design.how",
+      "categories": [
+        "inputs"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/field.json",
+        "https://happyhands.cc/r/glaze/input.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/otp-input.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/otp-input.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/otp-input.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/otp-input.tsx"
+        }
+      ]
+    },
+    {
+      "name": "filter-bar",
+      "type": "registry:ui",
+      "title": "Filter bar",
+      "description": "Narrows a long list.",
+      "author": "design.how",
+      "categories": [
+        "data"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/chip.json",
+        "https://happyhands.cc/r/glaze/dropdown-menu.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/input.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/filter-bar.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/filter-bar.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/filter-bar.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/filter-bar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "card",
+      "type": "registry:ui",
+      "title": "Card",
+      "description": "Groups content about one thing.",
+      "author": "design.how",
+      "categories": [
+        "display"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/panel.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/card.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/card.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/card.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "panel",
+      "type": "registry:ui",
+      "title": "Panel",
+      "description": "Holds a few rows inside a card.",
+      "author": "design.how",
+      "categories": [
+        "display"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/panel.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/panel.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/panel.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/panel.tsx"
+        }
+      ]
+    },
+    {
+      "name": "badge",
+      "type": "registry:ui",
+      "title": "Badge",
+      "description": "Labels what something is or how it stands.",
+      "author": "design.how",
+      "categories": [
+        "display"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0",
+        "class-variance-authority@^0.7.1"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/badge.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/badge.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/badge.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/badge.tsx"
+        }
+      ]
+    },
+    {
+      "name": "status",
+      "type": "registry:ui",
+      "title": "Status",
+      "description": "Says where a piece of work stands.",
+      "author": "design.how",
+      "categories": [
+        "feedback"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/status.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/status.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/status.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/status.tsx"
+        }
+      ]
+    },
+    {
+      "name": "avatar",
+      "type": "registry:ui",
+      "title": "Avatar",
+      "description": "Shows who or what acted.",
+      "author": "design.how",
+      "categories": [
+        "display"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0",
+        "class-variance-authority@^0.7.1"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/truncate.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/avatar.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/avatar.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/avatar.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/avatar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "item",
+      "type": "registry:ui",
+      "title": "Item",
+      "description": "Shows one thing as a row in a list.",
+      "author": "design.how",
+      "categories": [
+        "display"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0",
+        "class-variance-authority@^0.7.1"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/item.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/item.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/item.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/item.tsx"
+        }
+      ]
+    },
+    {
+      "name": "data-list",
+      "type": "registry:ui",
+      "title": "Data list",
+      "description": "Lists label and value pairs about one thing.",
+      "author": "design.how",
+      "categories": [
+        "display"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/data-list.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/data-list.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/data-list.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/data-list.tsx"
+        }
+      ]
+    },
+    {
+      "name": "truncate",
+      "type": "registry:ui",
+      "title": "Truncate",
+      "description": "Cuts a long line and keeps the whole value.",
+      "author": "design.how",
+      "categories": [
+        "display"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/portal.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/tooltip.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/truncate.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/truncate.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/truncate.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/truncate.tsx"
+        }
+      ]
+    },
+    {
+      "name": "skeleton",
+      "type": "registry:ui",
+      "title": "Skeleton",
+      "description": "Holds the shape of content while it loads.",
+      "author": "design.how",
+      "categories": [
+        "feedback"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/skeleton.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/skeleton.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/skeleton.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/skeleton.tsx"
+        }
+      ]
+    },
+    {
+      "name": "progress",
+      "type": "registry:ui",
+      "title": "Progress",
+      "description": "Shows how far a task got.",
+      "author": "design.how",
+      "categories": [
+        "feedback"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/progress.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/progress.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/progress.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/progress.tsx"
+        }
+      ]
+    },
+    {
+      "name": "empty-state",
+      "type": "registry:ui",
+      "title": "Empty state",
+      "description": "Explains why a region is empty.",
+      "author": "design.how",
+      "categories": [
+        "feedback"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/empty-state.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/empty-state.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/empty-state.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/empty-state.tsx"
+        }
+      ]
+    },
+    {
+      "name": "alert",
+      "type": "registry:ui",
+      "title": "Alert",
+      "description": "Reports a problem with the current view.",
+      "author": "design.how",
+      "categories": [
+        "feedback"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/alert.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/alert.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/alert.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/alert.tsx"
+        }
+      ]
+    },
+    {
+      "name": "relative-time",
+      "type": "registry:ui",
+      "title": "Relative time",
+      "description": "Shows a time as distance from now.",
+      "author": "design.how",
+      "categories": [
+        "display"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/truncate.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/relative-time.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/relative-time.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/relative-time.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/relative-time.tsx"
+        }
+      ]
+    },
+    {
+      "name": "code-block",
+      "type": "registry:ui",
+      "title": "Code block",
+      "description": "Shows code or commands to copy.",
+      "author": "design.how",
+      "categories": [
+        "code"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/code-block.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/code-block.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/code-block.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/code-block.tsx"
+        }
+      ]
+    },
+    {
+      "name": "json-view",
+      "type": "registry:ui",
+      "title": "JSON view",
+      "description": "Shows structured data as a foldable tree.",
+      "author": "design.how",
+      "categories": [
+        "code"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/code-block.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/json-view.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/json-view.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/json-view.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/json-view.tsx"
+        }
+      ]
+    },
+    {
+      "name": "attachment",
+      "type": "registry:ui",
+      "title": "Attachment",
+      "description": "Shows a file and its upload state.",
+      "author": "design.how",
+      "categories": [
+        "media"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/truncate.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/attachment.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/attachment.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/attachment.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/attachment.tsx"
+        }
+      ]
+    },
+    {
+      "name": "dialog",
+      "type": "registry:ui",
+      "title": "Dialog",
+      "description": "Asks for a decision on top of the page.",
+      "author": "design.how",
+      "categories": [
+        "overlays"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0",
+        "class-variance-authority@^0.7.1"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/overlay.json",
+        "https://happyhands.cc/r/glaze/portal.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/dialog.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/dialog.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/dialog.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/dialog.tsx"
+        }
+      ]
+    },
+    {
+      "name": "sheet",
+      "type": "registry:ui",
+      "title": "Sheet",
+      "description": "Opens the details of one thing at the side.",
+      "author": "design.how",
+      "categories": [
+        "overlays"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/direction.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/overlay.json",
+        "https://happyhands.cc/r/glaze/portal.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/sheet.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/sheet.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/sheet.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/sheet.tsx"
+        }
+      ]
+    },
+    {
+      "name": "popover",
+      "type": "registry:ui",
+      "title": "Popover",
+      "description": "Shows a few lines next to a control.",
+      "author": "design.how",
+      "categories": [
+        "overlays"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/overlay.json",
+        "https://happyhands.cc/r/glaze/portal.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/popover.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/popover.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/popover.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/popover.tsx"
+        }
+      ]
+    },
+    {
+      "name": "tooltip",
+      "type": "registry:ui",
+      "title": "Tooltip",
+      "description": "Names a control on hover or focus.",
+      "author": "design.how",
+      "categories": [
+        "overlays"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/children.json",
+        "https://happyhands.cc/r/glaze/portal.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/tooltip.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/tooltip.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/tooltip.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/tooltip.tsx"
+        }
+      ]
+    },
+    {
+      "name": "dropdown-menu",
+      "type": "registry:ui",
+      "title": "Dropdown menu",
+      "description": "Lists the actions on one thing.",
+      "author": "design.how",
+      "categories": [
+        "overlays"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/kbd.json",
+        "https://happyhands.cc/r/glaze/overlay.json",
+        "https://happyhands.cc/r/glaze/portal.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/dropdown-menu.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/dropdown-menu.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/dropdown-menu.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/dropdown-menu.tsx"
+        }
+      ]
+    },
+    {
+      "name": "command",
+      "type": "registry:ui",
+      "title": "Command",
+      "description": "Finds and runs a command by typing.",
+      "author": "design.how",
+      "categories": [
+        "overlays"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/dialog.json",
+        "https://happyhands.cc/r/glaze/empty-state.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/kbd.json",
+        "https://happyhands.cc/r/glaze/overlay.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/command.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/command.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/command.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/command.tsx"
+        }
+      ]
+    },
+    {
+      "name": "toast",
+      "type": "registry:ui",
+      "title": "Toast",
+      "description": "Confirms an action or reports an event.",
+      "author": "design.how",
+      "categories": [
+        "feedback"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/direction.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/overlay.json",
+        "https://happyhands.cc/r/glaze/portal.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/toast.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/toast.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/toast.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/toast.tsx"
+        }
+      ]
+    },
+    {
+      "name": "collapsible",
+      "type": "registry:ui",
+      "title": "Collapsible",
+      "description": "Shows and hides a region.",
+      "author": "design.how",
+      "categories": [
+        "layout"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/collapsible.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/collapsible.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/collapsible.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/collapsible.tsx"
+        }
+      ]
+    },
+    {
+      "name": "overlay",
+      "type": "registry:lib",
+      "title": "Overlay",
+      "description": "Support file: what every overlay shares: the ringed paper surface and the card-shaped modal, the way they appear, the list rows, and for Dialog and Sheet the open state that waits for a running action and Enter on the footer's default action.",
+      "author": "design.how",
+      "categories": [
+        "internal"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/portal.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/index.md",
+        "page": "https://happyhands.cc/design-how/glaze/index.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/lib/overlay.ts",
+          "type": "registry:lib",
+          "target": "@lib/glaze/overlay.ts"
+        }
+      ]
+    },
+    {
+      "name": "children",
+      "type": "registry:lib",
+      "title": "Children",
+      "description": "Support file: isPart, which tells which part a child element is even when a server component composed it, for the compound components that read their children.",
+      "author": "design.how",
+      "categories": [
+        "internal"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/index.md",
+        "page": "https://happyhands.cc/design-how/glaze/index.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/lib/children.ts",
+          "type": "registry:lib",
+          "target": "@lib/glaze/children.ts"
+        }
+      ]
+    },
+    {
+      "name": "tabs",
+      "type": "registry:ui",
+      "title": "Tabs",
+      "description": "Switches between panels of one view.",
+      "author": "design.how",
+      "categories": [
+        "navigation"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0",
+        "class-variance-authority@^0.7.1"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/tabs.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/tabs.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/tabs.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/tabs.tsx"
+        }
+      ]
+    },
+    {
+      "name": "breadcrumb",
+      "type": "registry:ui",
+      "title": "Breadcrumb",
+      "description": "Shows where the page sits.",
+      "author": "design.how",
+      "categories": [
+        "navigation"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/dropdown-menu.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/breadcrumb.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/breadcrumb.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/breadcrumb.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/breadcrumb.tsx"
+        }
+      ]
+    },
+    {
+      "name": "steps",
+      "type": "registry:ui",
+      "title": "Steps",
+      "description": "Shows the steps of a flow.",
+      "author": "design.how",
+      "categories": [
+        "navigation"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/steps.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/steps.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/steps.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/steps.tsx"
+        }
+      ]
+    },
+    {
+      "name": "table",
+      "type": "registry:ui",
+      "title": "Table",
+      "description": "Lists records that share the same fields.",
+      "author": "design.how",
+      "categories": [
+        "data"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/data-units.json",
+        "https://happyhands.cc/r/glaze/dropdown-menu.json",
+        "https://happyhands.cc/r/glaze/empty-state.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/skeleton.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/table.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/table.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/table.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/table.tsx"
+        }
+      ]
+    },
+    {
+      "name": "data-grid",
+      "type": "registry:ui",
+      "title": "Data grid",
+      "description": "Sorts, selects and pages records from data.",
+      "author": "design.how",
+      "categories": [
+        "data"
+      ],
+      "dependencies": [
+        "@tanstack/react-table@^8.21.3",
+        "@tanstack/react-virtual@^3.14.13"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/checkbox.json",
+        "https://happyhands.cc/r/glaze/data-units.json",
+        "https://happyhands.cc/r/glaze/dropdown-menu.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/pagination.json",
+        "https://happyhands.cc/r/glaze/status.json",
+        "https://happyhands.cc/r/glaze/table.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/data-grid.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/data-grid.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/data-grid.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/data-grid.tsx"
+        }
+      ]
+    },
+    {
+      "name": "pagination",
+      "type": "registry:ui",
+      "title": "Pagination",
+      "description": "Moves through pages of results.",
+      "author": "design.how",
+      "categories": [
+        "navigation"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/pagination.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/pagination.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/pagination.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/pagination.tsx"
+        }
+      ]
+    },
+    {
+      "name": "bulk-action-bar",
+      "type": "registry:ui",
+      "title": "Bulk action bar",
+      "description": "Acts on the rows a person selected.",
+      "author": "design.how",
+      "categories": [
+        "data"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/bulk-action-bar.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/bulk-action-bar.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/bulk-action-bar.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/bulk-action-bar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "chart",
+      "type": "registry:ui",
+      "title": "Chart",
+      "description": "Shows numbers over time or by bucket.",
+      "author": "design.how",
+      "categories": [
+        "media"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/data-units.json",
+        "https://happyhands.cc/r/glaze/direction.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/portal.json",
+        "https://happyhands.cc/r/glaze/segmented-control.json",
+        "https://happyhands.cc/r/glaze/skeleton.json",
+        "https://happyhands.cc/r/glaze/status.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/tooltip.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/chart.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/chart.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/chart.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/chart.tsx"
+        },
+        {
+          "path": "registry/glaze/ui/chart-scale.ts",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/chart-scale.ts"
+        },
+        {
+          "path": "registry/glaze/ui/chart-parts.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/chart-parts.tsx"
+        },
+        {
+          "path": "registry/glaze/ui/chart-plot.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/chart-plot.tsx"
+        },
+        {
+          "path": "registry/glaze/ui/chart-strip.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/chart-strip.tsx"
+        }
+      ]
+    },
+    {
+      "name": "timeline",
+      "type": "registry:ui",
+      "title": "Timeline",
+      "description": "Shows when each step of a run happened.",
+      "author": "design.how",
+      "categories": [
+        "data"
+      ],
+      "dependencies": [
+        "@tanstack/react-virtual@^3.14.13"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/chart.json",
+        "https://happyhands.cc/r/glaze/data-units.json",
+        "https://happyhands.cc/r/glaze/skeleton.json",
+        "https://happyhands.cc/r/glaze/status.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/timeline.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/timeline.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/timeline.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/timeline.tsx"
+        }
+      ]
+    },
+    {
+      "name": "log-viewer",
+      "type": "registry:ui",
+      "title": "Log viewer",
+      "description": "Shows a run's output lines as they stream.",
+      "author": "design.how",
+      "categories": [
+        "code"
+      ],
+      "dependencies": [
+        "@tanstack/react-virtual@^3.14.13"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/code-block.json",
+        "https://happyhands.cc/r/glaze/empty-state.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/input.json",
+        "https://happyhands.cc/r/glaze/segmented-control.json",
+        "https://happyhands.cc/r/glaze/status.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/log-viewer.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/log-viewer.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ui/log-viewer.tsx",
+          "type": "registry:ui",
+          "target": "@components/glaze/ui/log-viewer.tsx"
+        }
+      ]
+    },
+    {
+      "name": "data-units",
+      "type": "registry:lib",
+      "title": "Data units",
+      "description": "Support file: support file: one unit per column of numbers, a token read at runtime, the scroll box tab stop and the placeholder timing the data components share.",
+      "author": "design.how",
+      "categories": [
+        "internal"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/index.md",
+        "page": "https://happyhands.cc/design-how/glaze/index.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/lib/data.ts",
+          "type": "registry:lib",
+          "target": "@lib/glaze/data.ts"
+        }
+      ]
+    },
+    {
+      "name": "prompt-input",
+      "type": "registry:component",
+      "title": "Prompt input",
+      "description": "Takes the next message for an agent.",
+      "author": "design.how",
+      "categories": [
+        "agent"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/attachment.json",
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/input.json",
+        "https://happyhands.cc/r/glaze/mention.json",
+        "https://happyhands.cc/r/glaze/overlay.json",
+        "https://happyhands.cc/r/glaze/portal.json",
+        "https://happyhands.cc/r/glaze/send-button.json",
+        "https://happyhands.cc/r/glaze/status.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/tooltip.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/prompt-input.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/prompt-input.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ai/prompt-input.tsx",
+          "type": "registry:component",
+          "target": "@components/glaze/ai/prompt-input.tsx"
+        },
+        {
+          "path": "registry/glaze/ai/prompt-input/codec.ts",
+          "type": "registry:component",
+          "target": "@components/glaze/ai/prompt-input/codec.ts"
+        },
+        {
+          "path": "registry/glaze/ai/prompt-input/caret.ts",
+          "type": "registry:component",
+          "target": "@components/glaze/ai/prompt-input/caret.ts"
+        },
+        {
+          "path": "registry/glaze/ai/prompt-input/menu.tsx",
+          "type": "registry:component",
+          "target": "@components/glaze/ai/prompt-input/menu.tsx"
+        },
+        {
+          "path": "registry/glaze/ai/prompt-input/attachment.tsx",
+          "type": "registry:component",
+          "target": "@components/glaze/ai/prompt-input/attachment.tsx"
+        },
+        {
+          "path": "registry/glaze/ai/prompt-input/mic.tsx",
+          "type": "registry:component",
+          "target": "@components/glaze/ai/prompt-input/mic.tsx"
+        },
+        {
+          "path": "registry/glaze/ai/prompt-queue.tsx",
+          "type": "registry:component",
+          "target": "@components/glaze/ai/prompt-queue.tsx"
+        }
+      ]
+    },
+    {
+      "name": "send-button",
+      "type": "registry:component",
+      "title": "Send button",
+      "description": "Sends a prompt, or stops the reply.",
+      "author": "design.how",
+      "categories": [
+        "agent"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/send-button.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/send-button.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ai/send-button.tsx",
+          "type": "registry:component",
+          "target": "@components/glaze/ai/send-button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "mention",
+      "type": "registry:component",
+      "title": "Mention",
+      "description": "Names a resource inside a prompt or answer.",
+      "author": "design.how",
+      "categories": [
+        "agent"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0",
+        "class-variance-authority@^0.7.1"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/mention.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/mention.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ai/mention.tsx",
+          "type": "registry:component",
+          "target": "@components/glaze/ai/mention.tsx"
+        }
+      ]
+    },
+    {
+      "name": "message",
+      "type": "registry:component",
+      "title": "Message",
+      "description": "Shows one turn of a conversation.",
+      "author": "design.how",
+      "categories": [
+        "agent"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0",
+        "class-variance-authority@^0.7.1"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/status.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/message.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/message.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ai/message.tsx",
+          "type": "registry:component",
+          "target": "@components/glaze/ai/message.tsx"
+        }
+      ]
+    },
+    {
+      "name": "conversation",
+      "type": "registry:component",
+      "title": "Conversation",
+      "description": "Holds a thread that follows new replies.",
+      "author": "design.how",
+      "categories": [
+        "agent"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/badge.json",
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/message.json",
+        "https://happyhands.cc/r/glaze/status.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/tool-call.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/conversation.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/conversation.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ai/conversation.tsx",
+          "type": "registry:component",
+          "target": "@components/glaze/ai/conversation.tsx"
+        }
+      ]
+    },
+    {
+      "name": "response",
+      "type": "registry:component",
+      "title": "Response",
+      "description": "Renders an answer as it streams.",
+      "author": "design.how",
+      "categories": [
+        "agent"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/code-block.json",
+        "https://happyhands.cc/r/glaze/status.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/response.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/response.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ai/response.tsx",
+          "type": "registry:component",
+          "target": "@components/glaze/ai/response.tsx"
+        }
+      ]
+    },
+    {
+      "name": "reasoning",
+      "type": "registry:component",
+      "title": "Reasoning",
+      "description": "Shows what the model thought before answering.",
+      "author": "design.how",
+      "categories": [
+        "agent"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/activity.json",
+        "https://happyhands.cc/r/glaze/conversation.json",
+        "https://happyhands.cc/r/glaze/response.json",
+        "https://happyhands.cc/r/glaze/status.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/reasoning.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/reasoning.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ai/reasoning.tsx",
+          "type": "registry:component",
+          "target": "@components/glaze/ai/reasoning.tsx"
+        }
+      ]
+    },
+    {
+      "name": "tool-call",
+      "type": "registry:component",
+      "title": "Tool call",
+      "description": "Shows one tool an agent called.",
+      "author": "design.how",
+      "categories": [
+        "agent"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/activity.json",
+        "https://happyhands.cc/r/glaze/badge.json",
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/card.json",
+        "https://happyhands.cc/r/glaze/status.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/tool-call.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/tool-call.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ai/tool-call.tsx",
+          "type": "registry:component",
+          "target": "@components/glaze/ai/tool-call.tsx"
+        },
+        {
+          "path": "registry/glaze/ai/request-ticker.tsx",
+          "type": "registry:component",
+          "target": "@components/glaze/ai/request-ticker.tsx"
+        }
+      ]
+    },
+    {
+      "name": "activity",
+      "type": "registry:component",
+      "title": "Activity",
+      "description": "Says what the agent is doing now.",
+      "author": "design.how",
+      "categories": [
+        "agent"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0",
+        "class-variance-authority@^0.7.1"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/status.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/activity.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/activity.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ai/activity.tsx",
+          "type": "registry:component",
+          "target": "@components/glaze/ai/activity.tsx"
+        }
+      ]
+    },
+    {
+      "name": "follow-ups",
+      "type": "registry:component",
+      "title": "Follow-ups",
+      "description": "Suggests next prompts to send.",
+      "author": "design.how",
+      "categories": [
+        "agent"
+      ],
+      "dependencies": [
+        "class-variance-authority@^0.7.1"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/follow-ups.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/follow-ups.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ai/follow-ups.tsx",
+          "type": "registry:component",
+          "target": "@components/glaze/ai/follow-ups.tsx"
+        }
+      ]
+    },
+    {
+      "name": "action-receipt",
+      "type": "registry:component",
+      "title": "Action receipt",
+      "description": "Records what an agent did.",
+      "author": "design.how",
+      "categories": [
+        "agent"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/activity.json",
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/card.json",
+        "https://happyhands.cc/r/glaze/icon.json",
+        "https://happyhands.cc/r/glaze/relative-time.json",
+        "https://happyhands.cc/r/glaze/status.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/action-receipt.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/action-receipt.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ai/action-receipt.tsx",
+          "type": "registry:component",
+          "target": "@components/glaze/ai/action-receipt.tsx"
+        }
+      ]
+    },
+    {
+      "name": "autonomy-rule",
+      "type": "registry:component",
+      "title": "Autonomy rule",
+      "description": "Sets what an agent may do alone.",
+      "author": "design.how",
+      "categories": [
+        "agent"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/item.json",
+        "https://happyhands.cc/r/glaze/segmented-control.json",
+        "https://happyhands.cc/r/glaze/select.json",
+        "https://happyhands.cc/r/glaze/theme.json",
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/components/autonomy-rule.md",
+        "page": "https://happyhands.cc/design-how/glaze/components/autonomy-rule.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/ai/autonomy-rule.tsx",
+          "type": "registry:component",
+          "target": "@components/glaze/ai/autonomy-rule.tsx"
+        }
+      ]
+    },
+    {
+      "name": "today",
+      "type": "registry:block",
+      "title": "Today",
+      "description": "The morning of a personal assistant, at phone width: the day in a line, a card of what it handled and Ask by voice.",
+      "author": "design.how",
+      "categories": [
+        "block",
+        "ai",
+        "mobile"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/card.json",
+        "https://happyhands.cc/r/glaze/item.json",
+        "https://happyhands.cc/r/glaze/response.json",
+        "https://happyhands.cc/r/glaze/status.json",
+        "https://happyhands.cc/r/glaze/theme.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/index.md",
+        "page": "https://happyhands.cc/design-how/glaze/index.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/blocks/today.tsx",
+          "type": "registry:block",
+          "target": "@components/glaze/blocks/today.tsx"
+        }
+      ]
+    },
+    {
+      "name": "voice-capture",
+      "type": "registry:block",
+      "title": "Voice capture",
+      "description": "The assistant listening, at phone width: the time, the words as they are heard, Cancel and Send it.",
+      "author": "design.how",
+      "categories": [
+        "block",
+        "ai",
+        "mobile"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/status.json",
+        "https://happyhands.cc/r/glaze/theme.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/index.md",
+        "page": "https://happyhands.cc/design-how/glaze/index.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/blocks/voice-capture.tsx",
+          "type": "registry:block",
+          "target": "@components/glaze/blocks/voice-capture.tsx"
+        }
+      ]
+    },
+    {
+      "name": "note-recap",
+      "type": "registry:block",
+      "title": "Note recap",
+      "description": "A note the assistant wrote from a voice note: a one line summary and a card of to-dos with Share note.",
+      "author": "design.how",
+      "categories": [
+        "block",
+        "ai",
+        "mobile"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/card.json",
+        "https://happyhands.cc/r/glaze/checkbox.json",
+        "https://happyhands.cc/r/glaze/response.json",
+        "https://happyhands.cc/r/glaze/theme.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/index.md",
+        "page": "https://happyhands.cc/design-how/glaze/index.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/blocks/note-recap.tsx",
+          "type": "registry:block",
+          "target": "@components/glaze/blocks/note-recap.tsx"
+        }
+      ]
+    },
+    {
+      "name": "booking-approval",
+      "type": "registry:block",
+      "title": "Booking approval",
+      "description": "The assistant asks before it pays a deposit, at phone width: the ask, why it checks and the booking card with Book table.",
+      "author": "design.how",
+      "categories": [
+        "block",
+        "ai",
+        "mobile"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/card.json",
+        "https://happyhands.cc/r/glaze/item.json",
+        "https://happyhands.cc/r/glaze/message.json",
+        "https://happyhands.cc/r/glaze/response.json",
+        "https://happyhands.cc/r/glaze/theme.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/index.md",
+        "page": "https://happyhands.cc/design-how/glaze/index.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/blocks/booking-approval.tsx",
+          "type": "registry:block",
+          "target": "@components/glaze/blocks/booking-approval.tsx"
+        }
+      ]
+    },
+    {
+      "name": "assistant-limits",
+      "type": "registry:block",
+      "title": "Assistant limits",
+      "description": "A list of what a personal assistant may do on its own, one rule per kind of action with its level.",
+      "author": "design.how",
+      "categories": [
+        "block",
+        "ai",
+        "mobile"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/autonomy-rule.json",
+        "https://happyhands.cc/r/glaze/item.json",
+        "https://happyhands.cc/r/glaze/theme.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/index.md",
+        "page": "https://happyhands.cc/design-how/glaze/index.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/blocks/assistant-limits.tsx",
+          "type": "registry:block",
+          "target": "@components/glaze/blocks/assistant-limits.tsx"
+        }
+      ]
+    },
+    {
+      "name": "conversation-insights",
+      "type": "registry:block",
+      "title": "Conversation insights",
+      "description": "A question asked of a week of support conversations: the answer in a line, the week as a number and a line, and the three topics behind it.",
+      "author": "design.how",
+      "categories": [
+        "block",
+        "analytics"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/card.json",
+        "https://happyhands.cc/r/glaze/chart.json",
+        "https://happyhands.cc/r/glaze/panel.json",
+        "https://happyhands.cc/r/glaze/table.json",
+        "https://happyhands.cc/r/glaze/theme.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/index.md",
+        "page": "https://happyhands.cc/design-how/glaze/index.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/blocks/conversation-insights.tsx",
+          "type": "registry:block",
+          "target": "@components/glaze/blocks/conversation-insights.tsx"
+        }
+      ]
+    },
+    {
+      "name": "cited-answer",
+      "type": "registry:block",
+      "title": "Cited answer",
+      "description": "A question asked of the workspace: a short answer with numbered citations and the sources they point to.",
+      "author": "design.how",
+      "categories": [
+        "block",
+        "ai",
+        "search"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/card.json",
+        "https://happyhands.cc/r/glaze/item.json",
+        "https://happyhands.cc/r/glaze/response.json",
+        "https://happyhands.cc/r/glaze/theme.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/index.md",
+        "page": "https://happyhands.cc/design-how/glaze/index.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/blocks/cited-answer.tsx",
+          "type": "registry:block",
+          "target": "@components/glaze/blocks/cited-answer.tsx"
+        }
+      ]
+    },
+    {
+      "name": "agent-plan",
+      "type": "registry:block",
+      "title": "Agent plan",
+      "description": "An agent builds another agent: the ask, its changes with their status, and Publish agent as the confirm.",
+      "author": "design.how",
+      "categories": [
+        "block",
+        "ai",
+        "agent"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/card.json",
+        "https://happyhands.cc/r/glaze/item.json",
+        "https://happyhands.cc/r/glaze/message.json",
+        "https://happyhands.cc/r/glaze/response.json",
+        "https://happyhands.cc/r/glaze/status.json",
+        "https://happyhands.cc/r/glaze/theme.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/index.md",
+        "page": "https://happyhands.cc/design-how/glaze/index.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/blocks/agent-plan.tsx",
+          "type": "registry:block",
+          "target": "@components/glaze/blocks/agent-plan.tsx"
+        }
+      ]
+    },
+    {
+      "name": "agent-procedure",
+      "type": "registry:block",
+      "title": "Agent procedure",
+      "description": "The steps an agent follows, in plain sentences with its tools, documents and teams as mention chips, and Test and Publish.",
+      "author": "design.how",
+      "categories": [
+        "block",
+        "ai",
+        "agent"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/card.json",
+        "https://happyhands.cc/r/glaze/mention.json",
+        "https://happyhands.cc/r/glaze/theme.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/index.md",
+        "page": "https://happyhands.cc/design-how/glaze/index.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/blocks/agent-procedure.tsx",
+          "type": "registry:block",
+          "target": "@components/glaze/blocks/agent-procedure.tsx"
+        }
+      ]
+    },
+    {
+      "name": "simulations",
+      "type": "registry:block",
+      "title": "Simulations",
+      "description": "Simulated customers run against an agent: the pass count, the last 30 runs as a status strip and each scenario with its status, failures first.",
+      "author": "design.how",
+      "categories": [
+        "block",
+        "ai",
+        "evals"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/card.json",
+        "https://happyhands.cc/r/glaze/chart.json",
+        "https://happyhands.cc/r/glaze/item.json",
+        "https://happyhands.cc/r/glaze/status.json",
+        "https://happyhands.cc/r/glaze/theme.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/index.md",
+        "page": "https://happyhands.cc/design-how/glaze/index.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/blocks/simulations.tsx",
+          "type": "registry:block",
+          "target": "@components/glaze/blocks/simulations.tsx"
+        }
+      ]
+    },
+    {
+      "name": "experiment",
+      "type": "registry:block",
+      "title": "Experiment",
+      "description": "Two prompts split live traffic: each arm's resolution rate, both by day, and Ship as the confirm.",
+      "author": "design.how",
+      "categories": [
+        "block",
+        "analytics",
+        "evals"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json",
+        "https://happyhands.cc/r/glaze/card.json",
+        "https://happyhands.cc/r/glaze/chart.json",
+        "https://happyhands.cc/r/glaze/panel.json",
+        "https://happyhands.cc/r/glaze/status.json",
+        "https://happyhands.cc/r/glaze/theme.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/index.md",
+        "page": "https://happyhands.cc/design-how/glaze/index.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/blocks/experiment.tsx",
+          "type": "registry:block",
+          "target": "@components/glaze/blocks/experiment.tsx"
+        }
+      ]
+    },
+    {
+      "name": "utils",
+      "type": "registry:lib",
+      "title": "cn",
+      "description": "Support file: cn, which merges class names and resolves conflicts between Glaze's type roles and glass keys; mergeClass, which keeps Glaze's classes when a caller passes a className function; mergeRefs; and controlHeight, the one height formula for one-line controls.",
+      "author": "design.how",
+      "categories": [
+        "internal"
+      ],
+      "dependencies": [
+        "clsx@^2.1.1",
+        "tailwind-merge@^3.7.0"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/index.md",
+        "page": "https://happyhands.cc/design-how/glaze/index.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/lib/utils.ts",
+          "type": "registry:lib",
+          "target": "@lib/glaze/utils.ts"
+        }
+      ]
+    },
+    {
+      "name": "icon",
+      "type": "registry:component",
+      "title": "Icon",
+      "description": "Support file: the one import point for icons: Phosphor at regular weight, 14px in controls.",
+      "author": "design.how",
+      "categories": [
+        "internal"
+      ],
+      "dependencies": [
+        "@phosphor-icons/react@^2.1.10"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/index.md",
+        "page": "https://happyhands.cc/design-how/glaze/index.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/icon.tsx",
+          "type": "registry:component",
+          "target": "@components/glaze/icon.tsx"
+        }
+      ]
+    },
+    {
+      "name": "portal",
+      "type": "registry:lib",
+      "title": "Portal",
+      "description": "Support file: puts overlays inside the .glaze scope so they keep its tokens, and makes the page inert behind a modal.",
+      "author": "design.how",
+      "categories": [
+        "internal"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/index.md",
+        "page": "https://happyhands.cc/design-how/glaze/index.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/lib/portal.ts",
+          "type": "registry:lib",
+          "target": "@lib/glaze/portal.ts"
+        }
+      ]
+    },
+    {
+      "name": "direction",
+      "type": "registry:lib",
+      "title": "Direction",
+      "description": "Support file: hands the reading direction to Base UI and to popups opened from a right-to-left subtree.",
+      "author": "design.how",
+      "categories": [
+        "internal"
+      ],
+      "dependencies": [
+        "@base-ui/react@^1.8.0"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/portal.json"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/index.md",
+        "page": "https://happyhands.cc/design-how/glaze/index.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/lib/direction.ts",
+          "type": "registry:lib",
+          "target": "@lib/glaze/direction.ts"
+        }
+      ]
+    },
+    {
+      "name": "lint",
+      "type": "registry:item",
+      "title": "Glaze lint",
+      "description": "One command that flags what Glaze's rules forbid in your app, such as two ink buttons side by side, glass on something you cannot press or a shadow, and says what to use instead.",
+      "author": "design.how",
+      "categories": [
+        "lint"
+      ],
+      "devDependencies": [
+        "eslint@^9.39.5",
+        "@typescript-eslint/parser@^8.71.0"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/index.md",
+        "page": "https://happyhands.cc/design-how/glaze/index.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/lint/eslint.config.mjs",
+          "type": "registry:file",
+          "target": "~/glaze.eslint.config.mjs"
+        },
+        {
+          "path": "registry/glaze/lint/plugin.mjs",
+          "type": "registry:lib",
+          "target": "@lib/glaze/lint/plugin.mjs"
+        },
+        {
+          "path": "registry/glaze/lint/core.mjs",
+          "type": "registry:lib",
+          "target": "@lib/glaze/lint/core.mjs"
+        },
+        {
+          "path": "registry/glaze/lint/value-rules.mjs",
+          "type": "registry:lib",
+          "target": "@lib/glaze/lint/value-rules.mjs"
+        },
+        {
+          "path": "registry/glaze/lint/classes.json",
+          "type": "registry:lib",
+          "target": "@lib/glaze/lint/classes.json"
+        }
+      ]
+    },
+    {
+      "name": "theme",
+      "type": "registry:item",
+      "title": "Glaze theme",
+      "description": "Support file: tokens, scoped base styles, the Tailwind v4 theme mapping and Glaze's recipes: glass, the card shell, the pill field and the overlay.",
+      "author": "design.how",
+      "categories": [
+        "internal"
+      ],
+      "dependencies": [
+        "tailwindcss@^4.3.3",
+        "@tailwindcss/postcss@^4.3.3"
+      ],
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/skill.json",
+        "https://happyhands.cc/r/glaze/portal.json"
+      ],
+      "docs": "Glaze is scoped: its styles apply only inside an element with the class glaze.\n1. Import the theme once, in the root layout, as its own stylesheet (not an @import in globals.css): import '@/components/glaze/styles.css'\n2. Put className=\"glaze\" on the element that holds Glaze UI, usually <body>. Glaze's classes work on the elements inside it, in your own code too, not on that element itself.\n3. Wrap the app inside that element in <GlazePortalProvider> from '@/lib/glaze/portal', so dialogs and menus keep the theme.\nDark mode: put data-theme=\"dark\" on the glaze element or any ancestor, such as <html>. The theme does not follow the system setting (prefers-color-scheme) on its own.\nComponents: npx shadcn@latest add https://happyhands.cc/r/glaze/<name>.json; https://happyhands.cc/r/glaze/registry.json lists them all.",
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/index.md",
+        "page": "https://happyhands.cc/design-how/glaze/index.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/tokens.css",
+          "type": "registry:file",
+          "target": "@components/glaze/tokens.css"
+        },
+        {
+          "path": "registry/glaze/base.css",
+          "type": "registry:file",
+          "target": "@components/glaze/base.css"
+        },
+        {
+          "path": "registry/glaze/styles.css",
+          "type": "registry:file",
+          "target": "@components/glaze/styles.css"
+        }
+      ]
+    },
+    {
+      "name": "skill",
+      "type": "registry:item",
+      "title": "Glaze skill",
+      "description": "Support file: teaches your coding agent Glaze's rules and components.",
+      "author": "design.how",
+      "categories": [
+        "internal"
+      ],
+      "meta": {
+        "docs": "https://happyhands.cc/design-how/glaze/index.md",
+        "page": "https://happyhands.cc/design-how/glaze/index.md"
+      },
+      "files": [
+        {
+          "path": "registry/glaze/SKILL.md",
+          "type": "registry:file",
+          "target": "~/.claude/skills/glaze/SKILL.md"
+        },
+        {
+          "path": "registry/glaze/.agents/SKILL.md",
+          "type": "registry:file",
+          "target": "~/.agents/skills/glaze/SKILL.md"
+        }
+      ]
+    }
+  ]
+}

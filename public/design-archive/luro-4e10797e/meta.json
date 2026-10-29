@@ -1,0 +1,63 @@
+{
+ "id": "4e10797e-03eb-4efb-a16d-1d93272e1cab",
+ "slug": "luro-4e10797e",
+ "name": "Luro",
+ "site_url": "https://luroapp.com",
+ "lastmod": "2026-06-03T21:06:03.397Z",
+ "extracted_at": "2026-06-03T21:06:03.390Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "design",
+ "north_star": "Crimson laser chamber. Deep obsidian walls, every surface ringed in hot pink plasma.",
+ "fonts": [
+  "Graphik Web",
+  "Graphik Cond Web"
+ ],
+ "colors": [
+  {
+   "hex": "#10020a",
+   "name": "Obsidian Void"
+  },
+  {
+   "hex": "#1e0313",
+   "name": "Dark Mulberry"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Frost White"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Soft Chalk"
+  },
+  {
+   "hex": "#ff0068",
+   "name": "Plasma Pink"
+  },
+  {
+   "hex": "#91013d",
+   "name": "Deep Crimson"
+  },
+  {
+   "hex": "#700130",
+   "name": "Ruby Shadow"
+  },
+  {
+   "hex": "#9f0142",
+   "name": "Magenta Wine"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8ebc7b75-dd72-4161-88e4-8bc44e524111.mp4",
+  "poster": "https://happyhands.cc/design-archive/luro-4e10797e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/luro-4e10797e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/luro-4e10797e/thumbnail.jpg"
+}

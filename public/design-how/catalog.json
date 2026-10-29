@@ -1,0 +1,1453 @@
+{
+  "generatedAt": "2026-10-29T12:55:50+08:00",
+  "source": "https://design.how",
+  "systems": [
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "summary": "Sodium is compact and ruled, for infrastructure and data tools: white and warm near-black grounds, 1px rules for structure, mono capitals for every interface word, Int…",
+      "documents": [
+        {
+          "path": "index.md",
+          "title": "Sodium",
+          "kind": "overview"
+        },
+        {
+          "path": "foundations/anti-slop.md",
+          "title": "Anti-slop",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/borders-and-lines.md",
+          "title": "Borders and lines",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/color.md",
+          "title": "Color",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/elevation.md",
+          "title": "Elevation",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/iconography.md",
+          "title": "Iconography",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/motion.md",
+          "title": "Motion",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/radius.md",
+          "title": "Radius",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/space.md",
+          "title": "Space",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/typography.md",
+          "title": "Typography",
+          "kind": "foundation"
+        },
+        {
+          "path": "components/activity.md",
+          "title": "Activity",
+          "kind": "component"
+        },
+        {
+          "path": "components/alert.md",
+          "title": "Alert",
+          "kind": "component"
+        },
+        {
+          "path": "components/avatar.md",
+          "title": "Avatar",
+          "kind": "component"
+        },
+        {
+          "path": "components/bar-blocks.md",
+          "title": "Bar blocks",
+          "kind": "component"
+        },
+        {
+          "path": "components/breadcrumb.md",
+          "title": "Breadcrumb",
+          "kind": "component"
+        },
+        {
+          "path": "components/button-group.md",
+          "title": "Button group",
+          "kind": "component"
+        },
+        {
+          "path": "components/button.md",
+          "title": "Button",
+          "kind": "component"
+        },
+        {
+          "path": "components/chart.md",
+          "title": "Chart",
+          "kind": "component"
+        },
+        {
+          "path": "components/checkbox.md",
+          "title": "Checkbox",
+          "kind": "component"
+        },
+        {
+          "path": "components/code-block.md",
+          "title": "Code block",
+          "kind": "component"
+        },
+        {
+          "path": "components/code-window.md",
+          "title": "Code window",
+          "kind": "component"
+        },
+        {
+          "path": "components/collapsible.md",
+          "title": "Collapsible",
+          "kind": "component"
+        },
+        {
+          "path": "components/combobox.md",
+          "title": "Combobox",
+          "kind": "component"
+        },
+        {
+          "path": "components/command.md",
+          "title": "Command",
+          "kind": "component"
+        },
+        {
+          "path": "components/copy-button.md",
+          "title": "Copy button",
+          "kind": "component"
+        },
+        {
+          "path": "components/data-list.md",
+          "title": "Data list",
+          "kind": "component"
+        },
+        {
+          "path": "components/dialog.md",
+          "title": "Dialog",
+          "kind": "component"
+        },
+        {
+          "path": "components/dropdown-menu.md",
+          "title": "Dropdown menu",
+          "kind": "component"
+        },
+        {
+          "path": "components/empty-state.md",
+          "title": "Empty state",
+          "kind": "component"
+        },
+        {
+          "path": "components/field.md",
+          "title": "Field",
+          "kind": "component"
+        },
+        {
+          "path": "components/filter-bar.md",
+          "title": "Filter bar",
+          "kind": "component"
+        },
+        {
+          "path": "components/frame.md",
+          "title": "Frame",
+          "kind": "component"
+        },
+        {
+          "path": "components/input.md",
+          "title": "Input",
+          "kind": "component"
+        },
+        {
+          "path": "components/item.md",
+          "title": "Item",
+          "kind": "component"
+        },
+        {
+          "path": "components/json-view.md",
+          "title": "JSON view",
+          "kind": "component"
+        },
+        {
+          "path": "components/kbd.md",
+          "title": "Kbd",
+          "kind": "component"
+        },
+        {
+          "path": "components/log-viewer.md",
+          "title": "Log viewer",
+          "kind": "component"
+        },
+        {
+          "path": "components/message.md",
+          "title": "Message",
+          "kind": "component"
+        },
+        {
+          "path": "components/meter.md",
+          "title": "Meter",
+          "kind": "component"
+        },
+        {
+          "path": "components/numbered-tabs.md",
+          "title": "Numbered tabs",
+          "kind": "component"
+        },
+        {
+          "path": "components/pagination.md",
+          "title": "Pagination",
+          "kind": "component"
+        },
+        {
+          "path": "components/popover.md",
+          "title": "Popover",
+          "kind": "component"
+        },
+        {
+          "path": "components/progress.md",
+          "title": "Progress",
+          "kind": "component"
+        },
+        {
+          "path": "components/prompt-input.md",
+          "title": "Prompt input",
+          "kind": "component"
+        },
+        {
+          "path": "components/radio-group.md",
+          "title": "Radio group",
+          "kind": "component"
+        },
+        {
+          "path": "components/response.md",
+          "title": "Response",
+          "kind": "component"
+        },
+        {
+          "path": "components/segmented-control.md",
+          "title": "Segmented control",
+          "kind": "component"
+        },
+        {
+          "path": "components/select.md",
+          "title": "Select",
+          "kind": "component"
+        },
+        {
+          "path": "components/sheet.md",
+          "title": "Sheet",
+          "kind": "component"
+        },
+        {
+          "path": "components/skeleton.md",
+          "title": "Skeleton",
+          "kind": "component"
+        },
+        {
+          "path": "components/slider.md",
+          "title": "Slider",
+          "kind": "component"
+        },
+        {
+          "path": "components/status-strip.md",
+          "title": "Status strip",
+          "kind": "component"
+        },
+        {
+          "path": "components/status.md",
+          "title": "Status",
+          "kind": "component"
+        },
+        {
+          "path": "components/stem-chart.md",
+          "title": "Stem chart",
+          "kind": "component"
+        },
+        {
+          "path": "components/swimlanes.md",
+          "title": "Swimlanes",
+          "kind": "component"
+        },
+        {
+          "path": "components/switch.md",
+          "title": "Switch",
+          "kind": "component"
+        },
+        {
+          "path": "components/table.md",
+          "title": "Table",
+          "kind": "component"
+        },
+        {
+          "path": "components/tabs.md",
+          "title": "Tabs",
+          "kind": "component"
+        },
+        {
+          "path": "components/tag.md",
+          "title": "Tag",
+          "kind": "component"
+        },
+        {
+          "path": "components/textarea.md",
+          "title": "Textarea",
+          "kind": "component"
+        },
+        {
+          "path": "components/toast.md",
+          "title": "Toast",
+          "kind": "component"
+        },
+        {
+          "path": "components/tool-call-row.md",
+          "title": "Tool-call row",
+          "kind": "component"
+        },
+        {
+          "path": "components/tool-call.md",
+          "title": "Tool call",
+          "kind": "component"
+        },
+        {
+          "path": "components/tooltip.md",
+          "title": "Tooltip",
+          "kind": "component"
+        }
+      ],
+      "registryCount": 74,
+      "sourceCount": 85,
+      "download": "/design-how/sodium.zip"
+    },
+    {
+      "id": "glaze",
+      "name": "Glaze",
+      "summary": "Glaze is compact black and white for AI products: ink and paper, greys as ink at alphas, colour only for status, and glass only on the one action a group leads with; i…",
+      "documents": [
+        {
+          "path": "index.md",
+          "title": "Glaze",
+          "kind": "overview"
+        },
+        {
+          "path": "foundations/anti-slop.md",
+          "title": "Anti-slop",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/borders-and-lines.md",
+          "title": "Borders and lines",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/color.md",
+          "title": "Color",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/elevation.md",
+          "title": "Elevation",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/iconography.md",
+          "title": "Iconography",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/motion.md",
+          "title": "Motion",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/radius.md",
+          "title": "Radius",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/space.md",
+          "title": "Space",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/typography.md",
+          "title": "Typography",
+          "kind": "foundation"
+        },
+        {
+          "path": "components/action-receipt.md",
+          "title": "Action receipt",
+          "kind": "component"
+        },
+        {
+          "path": "components/activity.md",
+          "title": "Activity",
+          "kind": "component"
+        },
+        {
+          "path": "components/alert.md",
+          "title": "Alert",
+          "kind": "component"
+        },
+        {
+          "path": "components/attachment.md",
+          "title": "Attachment",
+          "kind": "component"
+        },
+        {
+          "path": "components/autonomy-rule.md",
+          "title": "Autonomy rule",
+          "kind": "component"
+        },
+        {
+          "path": "components/avatar.md",
+          "title": "Avatar",
+          "kind": "component"
+        },
+        {
+          "path": "components/badge.md",
+          "title": "Badge",
+          "kind": "component"
+        },
+        {
+          "path": "components/breadcrumb.md",
+          "title": "Breadcrumb",
+          "kind": "component"
+        },
+        {
+          "path": "components/bulk-action-bar.md",
+          "title": "Bulk action bar",
+          "kind": "component"
+        },
+        {
+          "path": "components/button-group.md",
+          "title": "Button group",
+          "kind": "component"
+        },
+        {
+          "path": "components/button.md",
+          "title": "Button",
+          "kind": "component"
+        },
+        {
+          "path": "components/card.md",
+          "title": "Card",
+          "kind": "component"
+        },
+        {
+          "path": "components/chart.md",
+          "title": "Chart",
+          "kind": "component"
+        },
+        {
+          "path": "components/checkbox.md",
+          "title": "Checkbox",
+          "kind": "component"
+        },
+        {
+          "path": "components/chip.md",
+          "title": "Chip",
+          "kind": "component"
+        },
+        {
+          "path": "components/code-block.md",
+          "title": "Code block",
+          "kind": "component"
+        },
+        {
+          "path": "components/collapsible.md",
+          "title": "Collapsible",
+          "kind": "component"
+        },
+        {
+          "path": "components/combobox.md",
+          "title": "Combobox",
+          "kind": "component"
+        },
+        {
+          "path": "components/command.md",
+          "title": "Command",
+          "kind": "component"
+        },
+        {
+          "path": "components/conversation.md",
+          "title": "Conversation",
+          "kind": "component"
+        },
+        {
+          "path": "components/copy-button.md",
+          "title": "Copy button",
+          "kind": "component"
+        },
+        {
+          "path": "components/data-grid.md",
+          "title": "Data grid",
+          "kind": "component"
+        },
+        {
+          "path": "components/data-list.md",
+          "title": "Data list",
+          "kind": "component"
+        },
+        {
+          "path": "components/date-picker.md",
+          "title": "Date picker",
+          "kind": "component"
+        },
+        {
+          "path": "components/dialog.md",
+          "title": "Dialog",
+          "kind": "component"
+        },
+        {
+          "path": "components/dropdown-menu.md",
+          "title": "Dropdown menu",
+          "kind": "component"
+        },
+        {
+          "path": "components/empty-state.md",
+          "title": "Empty state",
+          "kind": "component"
+        },
+        {
+          "path": "components/field.md",
+          "title": "Field",
+          "kind": "component"
+        },
+        {
+          "path": "components/filter-bar.md",
+          "title": "Filter bar",
+          "kind": "component"
+        },
+        {
+          "path": "components/follow-ups.md",
+          "title": "Follow-ups",
+          "kind": "component"
+        },
+        {
+          "path": "components/input.md",
+          "title": "Input",
+          "kind": "component"
+        },
+        {
+          "path": "components/item.md",
+          "title": "Item",
+          "kind": "component"
+        },
+        {
+          "path": "components/json-view.md",
+          "title": "JSON view",
+          "kind": "component"
+        },
+        {
+          "path": "components/kbd.md",
+          "title": "Kbd",
+          "kind": "component"
+        },
+        {
+          "path": "components/log-viewer.md",
+          "title": "Log viewer",
+          "kind": "component"
+        },
+        {
+          "path": "components/mention.md",
+          "title": "Mention",
+          "kind": "component"
+        },
+        {
+          "path": "components/message.md",
+          "title": "Message",
+          "kind": "component"
+        },
+        {
+          "path": "components/number-input.md",
+          "title": "Number input",
+          "kind": "component"
+        },
+        {
+          "path": "components/otp-input.md",
+          "title": "OTP input",
+          "kind": "component"
+        },
+        {
+          "path": "components/pagination.md",
+          "title": "Pagination",
+          "kind": "component"
+        },
+        {
+          "path": "components/panel.md",
+          "title": "Panel",
+          "kind": "component"
+        },
+        {
+          "path": "components/popover.md",
+          "title": "Popover",
+          "kind": "component"
+        },
+        {
+          "path": "components/progress.md",
+          "title": "Progress",
+          "kind": "component"
+        },
+        {
+          "path": "components/prompt-input.md",
+          "title": "Prompt input",
+          "kind": "component"
+        },
+        {
+          "path": "components/radio-group.md",
+          "title": "Radio group",
+          "kind": "component"
+        },
+        {
+          "path": "components/reasoning.md",
+          "title": "Reasoning",
+          "kind": "component"
+        },
+        {
+          "path": "components/relative-time.md",
+          "title": "Relative time",
+          "kind": "component"
+        },
+        {
+          "path": "components/response.md",
+          "title": "Response",
+          "kind": "component"
+        },
+        {
+          "path": "components/segmented-control.md",
+          "title": "Segmented control",
+          "kind": "component"
+        },
+        {
+          "path": "components/select.md",
+          "title": "Select",
+          "kind": "component"
+        },
+        {
+          "path": "components/send-button.md",
+          "title": "Send button",
+          "kind": "component"
+        },
+        {
+          "path": "components/sheet.md",
+          "title": "Sheet",
+          "kind": "component"
+        },
+        {
+          "path": "components/skeleton.md",
+          "title": "Skeleton",
+          "kind": "component"
+        },
+        {
+          "path": "components/slider.md",
+          "title": "Slider",
+          "kind": "component"
+        },
+        {
+          "path": "components/status.md",
+          "title": "Status",
+          "kind": "component"
+        },
+        {
+          "path": "components/steps.md",
+          "title": "Steps",
+          "kind": "component"
+        },
+        {
+          "path": "components/switch.md",
+          "title": "Switch",
+          "kind": "component"
+        },
+        {
+          "path": "components/table.md",
+          "title": "Table",
+          "kind": "component"
+        },
+        {
+          "path": "components/tabs.md",
+          "title": "Tabs",
+          "kind": "component"
+        },
+        {
+          "path": "components/textarea.md",
+          "title": "Textarea",
+          "kind": "component"
+        },
+        {
+          "path": "components/timeline.md",
+          "title": "Timeline",
+          "kind": "component"
+        },
+        {
+          "path": "components/toast.md",
+          "title": "Toast",
+          "kind": "component"
+        },
+        {
+          "path": "components/tool-call.md",
+          "title": "Tool call",
+          "kind": "component"
+        },
+        {
+          "path": "components/toolbar.md",
+          "title": "Toolbar",
+          "kind": "component"
+        },
+        {
+          "path": "components/tooltip.md",
+          "title": "Tooltip",
+          "kind": "component"
+        },
+        {
+          "path": "components/truncate.md",
+          "title": "Truncate",
+          "kind": "component"
+        }
+      ],
+      "registryCount": 87,
+      "sourceCount": 106,
+      "download": "/design-how/glaze.zip"
+    },
+    {
+      "id": "quartz",
+      "name": "Quartz",
+      "summary": "Black and white chassis with five muted kind hues and warm trouble colors, for AI support products and agent consoles.",
+      "documents": [
+        {
+          "path": "index.md",
+          "title": "Quartz",
+          "kind": "overview"
+        },
+        {
+          "path": "foundations/anti-slop.md",
+          "title": "Anti-slop",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/borders-and-lines.md",
+          "title": "Borders and lines",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/color.md",
+          "title": "Color",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/elevation.md",
+          "title": "Elevation",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/grid.md",
+          "title": "Grid",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/iconography.md",
+          "title": "Iconography",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/motion.md",
+          "title": "Motion",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/radius.md",
+          "title": "Radius",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/space.md",
+          "title": "Space",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/typography.md",
+          "title": "Typography",
+          "kind": "foundation"
+        },
+        {
+          "path": "components/activity.md",
+          "title": "Activity",
+          "kind": "component"
+        },
+        {
+          "path": "components/alert.md",
+          "title": "Alert",
+          "kind": "component"
+        },
+        {
+          "path": "components/attachment.md",
+          "title": "Attachment",
+          "kind": "component"
+        },
+        {
+          "path": "components/avatar.md",
+          "title": "Avatar",
+          "kind": "component"
+        },
+        {
+          "path": "components/badge.md",
+          "title": "Badge",
+          "kind": "component"
+        },
+        {
+          "path": "components/breadcrumb.md",
+          "title": "Breadcrumb",
+          "kind": "component"
+        },
+        {
+          "path": "components/button-group.md",
+          "title": "Button group",
+          "kind": "component"
+        },
+        {
+          "path": "components/button.md",
+          "title": "Button",
+          "kind": "component"
+        },
+        {
+          "path": "components/card.md",
+          "title": "Card",
+          "kind": "component"
+        },
+        {
+          "path": "components/chart.md",
+          "title": "Chart",
+          "kind": "component"
+        },
+        {
+          "path": "components/checkbox.md",
+          "title": "Checkbox",
+          "kind": "component"
+        },
+        {
+          "path": "components/chip.md",
+          "title": "Chip",
+          "kind": "component"
+        },
+        {
+          "path": "components/code-block.md",
+          "title": "Code block",
+          "kind": "component"
+        },
+        {
+          "path": "components/collapsible.md",
+          "title": "Collapsible",
+          "kind": "component"
+        },
+        {
+          "path": "components/combobox.md",
+          "title": "Combobox",
+          "kind": "component"
+        },
+        {
+          "path": "components/command.md",
+          "title": "Command",
+          "kind": "component"
+        },
+        {
+          "path": "components/conversation.md",
+          "title": "Conversation",
+          "kind": "component"
+        },
+        {
+          "path": "components/copy-button.md",
+          "title": "Copy button",
+          "kind": "component"
+        },
+        {
+          "path": "components/data-grid.md",
+          "title": "Data grid",
+          "kind": "component"
+        },
+        {
+          "path": "components/data-list.md",
+          "title": "Data list",
+          "kind": "component"
+        },
+        {
+          "path": "components/date-picker.md",
+          "title": "Date picker",
+          "kind": "component"
+        },
+        {
+          "path": "components/dialog.md",
+          "title": "Dialog",
+          "kind": "component"
+        },
+        {
+          "path": "components/dropdown-menu.md",
+          "title": "Dropdown menu",
+          "kind": "component"
+        },
+        {
+          "path": "components/empty-state.md",
+          "title": "Empty state",
+          "kind": "component"
+        },
+        {
+          "path": "components/field.md",
+          "title": "Field",
+          "kind": "component"
+        },
+        {
+          "path": "components/filter-bar.md",
+          "title": "Filter bar",
+          "kind": "component"
+        },
+        {
+          "path": "components/input.md",
+          "title": "Input",
+          "kind": "component"
+        },
+        {
+          "path": "components/item.md",
+          "title": "Item",
+          "kind": "component"
+        },
+        {
+          "path": "components/json-view.md",
+          "title": "JSON view",
+          "kind": "component"
+        },
+        {
+          "path": "components/kbd.md",
+          "title": "Kbd",
+          "kind": "component"
+        },
+        {
+          "path": "components/log-viewer.md",
+          "title": "Log viewer",
+          "kind": "component"
+        },
+        {
+          "path": "components/message.md",
+          "title": "Message",
+          "kind": "component"
+        },
+        {
+          "path": "components/pagination.md",
+          "title": "Pagination",
+          "kind": "component"
+        },
+        {
+          "path": "components/panel.md",
+          "title": "Panel",
+          "kind": "component"
+        },
+        {
+          "path": "components/popover.md",
+          "title": "Popover",
+          "kind": "component"
+        },
+        {
+          "path": "components/progress.md",
+          "title": "Progress",
+          "kind": "component"
+        },
+        {
+          "path": "components/prompt-input.md",
+          "title": "Prompt input",
+          "kind": "component"
+        },
+        {
+          "path": "components/radio-group.md",
+          "title": "Radio group",
+          "kind": "component"
+        },
+        {
+          "path": "components/reasoning.md",
+          "title": "Reasoning",
+          "kind": "component"
+        },
+        {
+          "path": "components/relative-time.md",
+          "title": "Relative time",
+          "kind": "component"
+        },
+        {
+          "path": "components/response.md",
+          "title": "Response",
+          "kind": "component"
+        },
+        {
+          "path": "components/segmented-control.md",
+          "title": "Segmented control",
+          "kind": "component"
+        },
+        {
+          "path": "components/select.md",
+          "title": "Select",
+          "kind": "component"
+        },
+        {
+          "path": "components/sheet.md",
+          "title": "Sheet",
+          "kind": "component"
+        },
+        {
+          "path": "components/skeleton.md",
+          "title": "Skeleton",
+          "kind": "component"
+        },
+        {
+          "path": "components/slider.md",
+          "title": "Slider",
+          "kind": "component"
+        },
+        {
+          "path": "components/stat.md",
+          "title": "Stat",
+          "kind": "component"
+        },
+        {
+          "path": "components/status.md",
+          "title": "Status",
+          "kind": "component"
+        },
+        {
+          "path": "components/switch.md",
+          "title": "Switch",
+          "kind": "component"
+        },
+        {
+          "path": "components/table.md",
+          "title": "Table",
+          "kind": "component"
+        },
+        {
+          "path": "components/tabs.md",
+          "title": "Tabs",
+          "kind": "component"
+        },
+        {
+          "path": "components/textarea.md",
+          "title": "Textarea",
+          "kind": "component"
+        },
+        {
+          "path": "components/timeline.md",
+          "title": "Timeline",
+          "kind": "component"
+        },
+        {
+          "path": "components/toast.md",
+          "title": "Toast",
+          "kind": "component"
+        },
+        {
+          "path": "components/tool-call.md",
+          "title": "Tool call",
+          "kind": "component"
+        },
+        {
+          "path": "components/tooltip.md",
+          "title": "Tooltip",
+          "kind": "component"
+        },
+        {
+          "path": "components/truncate.md",
+          "title": "Truncate",
+          "kind": "component"
+        }
+      ],
+      "registryCount": 83,
+      "sourceCount": 109,
+      "download": "/design-how/quartz.zip"
+    },
+    {
+      "id": "lime",
+      "name": "Lime",
+      "summary": "Lime is a white page, warm-grey surfaces and near-black text with one acid lime on the main action, for consumer apps.",
+      "documents": [
+        {
+          "path": "index.md",
+          "title": "Lime",
+          "kind": "overview"
+        },
+        {
+          "path": "foundations/anti-slop.md",
+          "title": "Anti-slop",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/color.md",
+          "title": "Color",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/elevation.md",
+          "title": "Elevation",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/iconography.md",
+          "title": "Iconography",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/motion.md",
+          "title": "Motion",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/radius.md",
+          "title": "Radius",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/spacing.md",
+          "title": "Spacing",
+          "kind": "foundation"
+        },
+        {
+          "path": "foundations/typography.md",
+          "title": "Typography",
+          "kind": "foundation"
+        },
+        {
+          "path": "components/accordion.md",
+          "title": "Accordion",
+          "kind": "component"
+        },
+        {
+          "path": "components/action-receipt.md",
+          "title": "Action receipt",
+          "kind": "component"
+        },
+        {
+          "path": "components/alert-dialog.md",
+          "title": "Alert dialog",
+          "kind": "component"
+        },
+        {
+          "path": "components/amount.md",
+          "title": "Amount",
+          "kind": "component"
+        },
+        {
+          "path": "components/approval-request.md",
+          "title": "Approval request",
+          "kind": "component"
+        },
+        {
+          "path": "components/autonomy-rule.md",
+          "title": "Autonomy rule",
+          "kind": "component"
+        },
+        {
+          "path": "components/avatar.md",
+          "title": "Avatar",
+          "kind": "component"
+        },
+        {
+          "path": "components/badge.md",
+          "title": "Badge",
+          "kind": "component"
+        },
+        {
+          "path": "components/balance.md",
+          "title": "Balance",
+          "kind": "component"
+        },
+        {
+          "path": "components/bill-schedule.md",
+          "title": "Bill schedule",
+          "kind": "component"
+        },
+        {
+          "path": "components/button.md",
+          "title": "Button",
+          "kind": "component"
+        },
+        {
+          "path": "components/card.md",
+          "title": "Card",
+          "kind": "component"
+        },
+        {
+          "path": "components/chat-input.md",
+          "title": "Chat input",
+          "kind": "component"
+        },
+        {
+          "path": "components/checkbox.md",
+          "title": "Checkbox",
+          "kind": "component"
+        },
+        {
+          "path": "components/chip.md",
+          "title": "Chip",
+          "kind": "component"
+        },
+        {
+          "path": "components/combobox.md",
+          "title": "Combobox",
+          "kind": "component"
+        },
+        {
+          "path": "components/copy-button.md",
+          "title": "Copy button",
+          "kind": "component"
+        },
+        {
+          "path": "components/dialog.md",
+          "title": "Dialog",
+          "kind": "component"
+        },
+        {
+          "path": "components/dropdown-menu.md",
+          "title": "Dropdown menu",
+          "kind": "component"
+        },
+        {
+          "path": "components/dropzone.md",
+          "title": "Dropzone",
+          "kind": "component"
+        },
+        {
+          "path": "components/empty.md",
+          "title": "Empty",
+          "kind": "component"
+        },
+        {
+          "path": "components/error-state.md",
+          "title": "Error state",
+          "kind": "component"
+        },
+        {
+          "path": "components/field.md",
+          "title": "Field",
+          "kind": "component"
+        },
+        {
+          "path": "components/follow-ups.md",
+          "title": "Follow ups",
+          "kind": "component"
+        },
+        {
+          "path": "components/input.md",
+          "title": "Input",
+          "kind": "component"
+        },
+        {
+          "path": "components/insight.md",
+          "title": "Insight",
+          "kind": "component"
+        },
+        {
+          "path": "components/keypad.md",
+          "title": "Keypad",
+          "kind": "component"
+        },
+        {
+          "path": "components/list.md",
+          "title": "List",
+          "kind": "component"
+        },
+        {
+          "path": "components/message.md",
+          "title": "Message",
+          "kind": "component"
+        },
+        {
+          "path": "components/popover.md",
+          "title": "Popover",
+          "kind": "component"
+        },
+        {
+          "path": "components/progress.md",
+          "title": "Progress",
+          "kind": "component"
+        },
+        {
+          "path": "components/radio.md",
+          "title": "Radio",
+          "kind": "component"
+        },
+        {
+          "path": "components/receipt-match.md",
+          "title": "Receipt match",
+          "kind": "component"
+        },
+        {
+          "path": "components/scroll-area.md",
+          "title": "Scroll area",
+          "kind": "component"
+        },
+        {
+          "path": "components/segmented.md",
+          "title": "Segmented",
+          "kind": "component"
+        },
+        {
+          "path": "components/select.md",
+          "title": "Select",
+          "kind": "component"
+        },
+        {
+          "path": "components/separator.md",
+          "title": "Separator",
+          "kind": "component"
+        },
+        {
+          "path": "components/sheet.md",
+          "title": "Sheet",
+          "kind": "component"
+        },
+        {
+          "path": "components/skeleton.md",
+          "title": "Skeleton",
+          "kind": "component"
+        },
+        {
+          "path": "components/slider.md",
+          "title": "Slider",
+          "kind": "component"
+        },
+        {
+          "path": "components/status.md",
+          "title": "Status",
+          "kind": "component"
+        },
+        {
+          "path": "components/switch.md",
+          "title": "Switch",
+          "kind": "component"
+        },
+        {
+          "path": "components/table.md",
+          "title": "Table",
+          "kind": "component"
+        },
+        {
+          "path": "components/tabs.md",
+          "title": "Tabs",
+          "kind": "component"
+        },
+        {
+          "path": "components/textarea.md",
+          "title": "Textarea",
+          "kind": "component"
+        },
+        {
+          "path": "components/toast.md",
+          "title": "Toast",
+          "kind": "component"
+        },
+        {
+          "path": "components/tool-call.md",
+          "title": "Tool call",
+          "kind": "component"
+        },
+        {
+          "path": "components/toolbar.md",
+          "title": "Toolbar",
+          "kind": "component"
+        },
+        {
+          "path": "components/tooltip.md",
+          "title": "Tooltip",
+          "kind": "component"
+        }
+      ],
+      "registryCount": 64,
+      "sourceCount": 72,
+      "download": "/design-how/lime.zip"
+    }
+  ],
+  "reading": [
+    {
+      "path": "guides/anti-ai-slop-ui-skill-checks-its-lint-runs.md",
+      "title": "An anti AI slop UI skill, and the checks its lint runs",
+      "kind": "guides"
+    },
+    {
+      "path": "guides/approval-ui-for-ai-agents.md",
+      "title": "Approval UI for AI agents that people read",
+      "kind": "guides"
+    },
+    {
+      "path": "guides/give-cursor-a-design-system-in-one-project-rules-file.md",
+      "title": "Give Cursor a design system in one project rules file",
+      "kind": "guides"
+    },
+    {
+      "path": "guides/how-to-make-claude-code-ui-look-better-in-five-steps.md",
+      "title": "How to make Claude Code UI look better in five steps",
+      "kind": "guides"
+    },
+    {
+      "path": "guides/index.md",
+      "title": "Guides",
+      "kind": "guides"
+    },
+    {
+      "path": "guides/lint-hardcoded-colors-in-tailwind-with-quartz.md",
+      "title": "How to lint hardcoded colors in Tailwind with Quartz",
+      "kind": "guides"
+    },
+    {
+      "path": "guides/name-tailwind-4-semantic-tokens-by-their-job.md",
+      "title": "How to name Tailwind 4 semantic tokens by their job",
+      "kind": "guides"
+    },
+    {
+      "path": "guides/shadcn-theme-for-ai-chat-app-install-lines.md",
+      "title": "A shadcn theme for an AI chat app, with the install lines",
+      "kind": "guides"
+    },
+    {
+      "path": "guides/tool-call-ui-rules.md",
+      "title": "How to design a tool call UI people can scan",
+      "kind": "guides"
+    },
+    {
+      "path": "guides/what-an-agent-ready-design-system-does-to-your-css.md",
+      "title": "What an agent-ready design system does to your CSS",
+      "kind": "guides"
+    },
+    {
+      "path": "guides/what-makes-design-system-rules-for-ai-checkable.md",
+      "title": "What makes design system rules for AI checkable",
+      "kind": "guides"
+    },
+    {
+      "path": "articles/best-design-system-for-ai-agents.md",
+      "title": "The best design system for AI agents",
+      "kind": "articles"
+    },
+    {
+      "path": "articles/claude-code-design-system.md",
+      "title": "How to give Claude Code a design system",
+      "kind": "articles"
+    },
+    {
+      "path": "articles/compare-design-md.md",
+      "title": "design.how vs DESIGN.md files",
+      "kind": "articles"
+    },
+    {
+      "path": "articles/design-systems-for-agents.md",
+      "title": "What is a design system for agents?",
+      "kind": "articles"
+    }
+  ]
+}

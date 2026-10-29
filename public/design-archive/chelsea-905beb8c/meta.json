@@ -1,0 +1,54 @@
+{
+ "id": "905beb8c-9788-4ff4-888b-13370cacd4b0",
+ "slug": "chelsea-905beb8c",
+ "name": "CHELSEA",
+ "site_url": "https://www.chelsea.com",
+ "lastmod": "2026-06-05T10:33:41.321Z",
+ "extracted_at": "2026-06-03T20:53:54.607Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "Black-box cinema with a single blue spotlight — the roster plays, the chrome disappears.",
+ "fonts": [
+  "Neue Haas Unica Pro"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#4490ff",
+   "name": "Spotlight Blue"
+  },
+  {
+   "hex": "#1f2937",
+   "name": "Carbon Slate"
+  },
+  {
+   "hex": "#f4efe9",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Ash Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0a7670eb-3c93-4762-9670-b5e2daf31a81.mp4",
+  "poster": "https://happyhands.cc/design-archive/chelsea-905beb8c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/chelsea-905beb8c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/chelsea-905beb8c/thumbnail.jpg"
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "alert-dialog",
+  "type": "registry:ui",
+  "title": "Alert dialog",
+  "description": "A blocking decision, such as deleting a goal, that cannot be dismissed from outside.",
+  "author": "design.how",
+  "categories": [
+    "overlays"
+  ],
+  "dependencies": [
+    "@base-ui/react@^1.8.0"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/dialog.json",
+    "https://happyhands.cc/r/lime/portal.json",
+    "https://happyhands.cc/r/lime/theme.json",
+    "https://happyhands.cc/r/lime/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/lime/components/alert-dialog.md",
+    "page": "https://happyhands.cc/design-how/lime/components/alert-dialog.md"
+  },
+  "files": [
+    {
+      "path": "registry/lime/ui/alert-dialog.tsx",
+      "content": "'use client';\n\nimport {AlertDialog as AlertDialogPrimitive} from '@base-ui/react/alert-dialog';\nimport {useLimePortal} from '@/lib/lime/portal';\nimport {cn, mergeClass} from '@/lib/lime/utils';\nimport {backdropClass, dialogVariants} from '@/components/lime/ui/dialog';\n\n// A blocking decision with no way out except choosing: delete a goal, discard a draft, send a large payment.\n// It cannot be dismissed by clicking outside. Focus starts on the first control in the popup (Base UI's\n// default, or `initialFocus` on the content), so put the safe action first in the markup and Enter never\n// confirms by accident. The confirm button repeats the verb of the trigger (\"Delete goal\"), never \"OK\".\n\nfunction AlertDialog(props: AlertDialogPrimitive.Root.Props) {\n  return <AlertDialogPrimitive.Root data-slot=\"alert-dialog\" {...props}/>;\n}\n\nfunction AlertDialogTrigger(props: AlertDialogPrimitive.Trigger.Props) {\n  return <AlertDialogPrimitive.Trigger data-slot=\"alert-dialog-trigger\" {...props}/>;\n}\n\nfunction AlertDialogContent({className, ...props}: AlertDialogPrimitive.Popup.Props) {\n  const container = useLimePortal();\n  return (\n    <AlertDialogPrimitive.Portal container={container}>\n      <AlertDialogPrimitive.Backdrop data-slot=\"alert-dialog-backdrop\" className={backdropClass}/>\n      <AlertDialogPrimitive.Popup data-slot=\"alert-dialog-content\" className={mergeClass(dialogVariants({size: 'sm'}), className)} {...props}/>\n    </AlertDialogPrimitive.Portal>\n  );\n}\n\nfunction AlertDialogHeader({className, ...props}: React.ComponentProps<'div'>) {\n  return <div data-slot=\"alert-dialog-header\" className={cn('flex flex-col gap-1.5', className)} {...props}/>;\n}\n\nfunction AlertDialogFooter({className, ...props}: React.ComponentProps<'div'>) {\n  return <div data-slot=\"alert-dialog-footer\" className={cn('flex flex-col-reverse gap-2 sm:flex-row sm:justify-end', className)} {...props}/>;\n}\n\nfunction AlertDialogTitle({className, ...props}: AlertDialogPrimitive.Title.Props) {\n  return <AlertDialogPrimitive.Title data-slot=\"alert-dialog-title\" className={mergeClass('title-overlay', className)} {...props}/>;\n}\n\nfunction AlertDialogDescription({className, ...props}: AlertDialogPrimitive.Description.Props) {\n  return <AlertDialogPrimitive.Description data-slot=\"alert-dialog-description\" className={mergeClass('text-sm text-fg-2', className)} {...props}/>;\n}\n\nfunction AlertDialogClose(props: AlertDialogPrimitive.Close.Props) {\n  return <AlertDialogPrimitive.Close data-slot=\"alert-dialog-close\" {...props}/>;\n}\n\nexport {AlertDialog, AlertDialogTrigger, AlertDialogContent, AlertDialogHeader, AlertDialogFooter, AlertDialogTitle, AlertDialogDescription, AlertDialogClose};\n",
+      "type": "registry:ui",
+      "target": "@components/lime/ui/alert-dialog.tsx"
+    }
+  ]
+}

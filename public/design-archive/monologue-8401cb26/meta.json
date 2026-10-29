@@ -1,0 +1,83 @@
+{
+ "id": "8401cb26-91a3-4b46-941e-1c75790821eb",
+ "slug": "monologue-8401cb26",
+ "name": "Monologue",
+ "site_url": "https://www.monologue.to",
+ "lastmod": "2026-06-03T15:39:04.394Z",
+ "extracted_at": "2026-06-03T15:39:04.388Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ai",
+ "north_star": "Velvet library with a single blue spark. A vast dark room where a single italic serif headline commands attention and one cyan glow signals action.",
+ "fonts": [
+  "sans-serif",
+  "Instrument Serif",
+  "DM Mono",
+  "Geist",
+  "system-ui",
+  "SF Pro Display Regular"
+ ],
+ "colors": [
+  {
+   "hex": "#19d0e8",
+   "name": "Electric Cyan"
+  },
+  {
+   "hex": "#44ccff",
+   "name": "Sky Signal"
+  },
+  {
+   "hex": "#062f34",
+   "name": "Deep Teal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#010101",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#191919",
+   "name": "Midnight Surface"
+  },
+  {
+   "hex": "#282828",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#363636",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#3f3f3f",
+   "name": "Slate"
+  },
+  {
+   "hex": "#7f7f7f",
+   "name": "Steel Gray"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#c0c0c0",
+   "name": "Ghost Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3bee4218-8fe3-4ae7-a209-b808015be98c.mp4",
+  "poster": "https://happyhands.cc/design-archive/monologue-8401cb26/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/monologue-8401cb26/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/monologue-8401cb26/thumbnail.jpg"
+}

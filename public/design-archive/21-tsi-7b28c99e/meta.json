@@ -1,0 +1,46 @@
+{
+ "id": "7b28c99e-ed17-451b-a39e-bd4722bc43f5",
+ "slug": "21-tsi-7b28c99e",
+ "name": "21 TSI",
+ "site_url": "https://21tsi.com",
+ "lastmod": "2026-06-03T19:02:16.073Z",
+ "extracted_at": "2026-06-03T19:02:16.068Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "other",
+ "north_star": "Crimson void, single silhouette — a high-fashion editorial spread where the UI dissolves into atmosphere.",
+ "fonts": [
+  "Saans"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Black Void"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#4d4d4d",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#b62b1a",
+   "name": "Crimson Heat"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/9c567ead-b673-406a-bf78-344740d6f9ee.mp4",
+  "poster": "https://happyhands.cc/design-archive/21-tsi-7b28c99e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/21-tsi-7b28c99e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/21-tsi-7b28c99e/thumbnail.jpg"
+}

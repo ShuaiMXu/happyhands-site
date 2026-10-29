@@ -1,0 +1,100 @@
+{
+ "id": "fe955d4a-c56d-4ab0-a6b3-8d985ab9570c",
+ "slug": "descript-fe955d4a",
+ "name": "Descript",
+ "site_url": "https://descript.com",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-11T19:27:40.467Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "",
+ "north_star": "Broadcast booth meets editorial press — deep burgundy theater dark, editorial serif headlines, coral on-air signals.",
+ "fonts": [
+  "Booton",
+  "Gamuth Display",
+  "Brett"
+ ],
+ "colors": [
+  {
+   "hex": "#390a1a",
+   "name": "Broadcast Burgundy"
+  },
+  {
+   "hex": "#f73b3b",
+   "name": "On-Air Coral"
+  },
+  {
+   "hex": "#ff5340",
+   "name": "Hot Take Red"
+  },
+  {
+   "hex": "#651a39",
+   "name": "Plum Mid"
+  },
+  {
+   "hex": "#0c0b5f",
+   "name": "Deep Violet"
+  },
+  {
+   "hex": "#8787e0",
+   "name": "Soft Violet"
+  },
+  {
+   "hex": "#ffe8db",
+   "name": "Pale Peach"
+  },
+  {
+   "hex": "#f1eaed",
+   "name": "Blush Mist"
+  },
+  {
+   "hex": "#190308",
+   "name": "Studio Black"
+  },
+  {
+   "hex": "#1a1a1a",
+   "name": "Ink Dark"
+  },
+  {
+   "hex": "#faf8f7",
+   "name": "Warm Parchment"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#a28993",
+   "name": "Dusty Rose"
+  },
+  {
+   "hex": "#907580",
+   "name": "Border Mauve"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#583f4a",
+   "name": "Muted Plum"
+  },
+  {
+   "hex": "#d1c7cb",
+   "name": "Steel Mauve"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/512f82df-86cd-4590-8d6e-c8e3782df45f.mp4",
+  "poster": "https://happyhands.cc/design-archive/descript-fe955d4a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/descript-fe955d4a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/descript-fe955d4a/thumbnail.jpg"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "16a8de02-a4c6-4077-9d3a-ef6b5c10db12",
+ "slug": "intra-16a8de02",
+ "name": "Intra",
+ "site_url": "https://intracbr.com.au",
+ "lastmod": "2026-06-05T07:15:35.207Z",
+ "extracted_at": "2026-06-03T19:21:52.602Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "white-walled gallery placard with one giant black eye",
+ "fonts": [
+  "Whyte",
+  "-apple-system"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#212529",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#e4e4e4",
+   "name": "Hairline Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/31e7992d-672d-46d8-b48e-ed1eace6813f.mp4",
+  "poster": "https://happyhands.cc/design-archive/intra-16a8de02/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/intra-16a8de02/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/intra-16a8de02/thumbnail.jpg"
+}

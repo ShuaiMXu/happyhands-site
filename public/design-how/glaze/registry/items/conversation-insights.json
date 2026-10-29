@@ -1,0 +1,32 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "conversation-insights",
+ "type": "registry:block",
+ "title": "Conversation insights",
+ "description": "A question asked of a week of support conversations: the answer in a line, the week as a number and a line, and the three topics behind it.",
+ "author": "design.how",
+ "categories": [
+  "block",
+  "analytics"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/glaze/button.json",
+  "https://design.how/r/glaze/card.json",
+  "https://design.how/r/glaze/chart.json",
+  "https://design.how/r/glaze/panel.json",
+  "https://design.how/r/glaze/table.json",
+  "https://design.how/r/glaze/theme.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/glaze.md",
+  "page": "https://design.how/systems/glaze"
+ },
+ "files": [
+  {
+   "path": "registry/glaze/blocks/conversation-insights.tsx",
+   "content": "'use client';\n\nimport {Button} from '@/components/glaze/ui/button';\nimport {Card, CardFooter, CardHeader, CardMeta, CardTitle, CardDescription} from '@/components/glaze/ui/card';\nimport {Chart} from '@/components/glaze/ui/chart';\nimport {Panel} from '@/components/glaze/ui/panel';\nimport {Table, TableBody, TableCell, TableHead, TableHeader, TableRow} from '@/components/glaze/ui/table';\n\n// A block: a question asked of a week of support conversations, answered as a report. The question and its one-line\n// answer, the week as a number over a line, then the three topics behind the rise with their count and change, and\n// Open report on the footer. Colour stays out: the change is plain text-2 on the number's baseline, because more\n// conversations is a fact, not a pass or a failure. Wire `week` and `topics` to your analytics.\n\nconst week = [\n  {day: 'Mon', conversations: 1610},\n  {day: 'Tue', conversations: 1690},\n  {day: 'Wed', conversations: 1655},\n  {day: 'Thu', conversations: 1820},\n  {day: 'Fri', conversations: 1975},\n  {day: 'Sat', conversations: 1905},\n  {day: 'Sun', conversations: 2000},\n];\n\nconst topics = [\n  {name: 'Return window', count: 3120, change: '+41%'},\n  {name: 'Late delivery', count: 2486, change: '+22%'},\n  {name: 'Wrong size', count: 1904, change: '-6%'},\n];\n\nconst total = week.reduce((sum, d) => sum + d.conversations, 0);\n\n/** The question, the week and the three topics behind it, with Open report on the footer. */\nexport function ConversationInsights({className}: {className?: string}) {\n  return (\n    <Card aria-label=\"Conversation insights\" className={className ?? 'w-full max-w-md'}>\n      <Panel padding=\"none\">\n        <CardHeader>\n          <CardTitle>Why are conversations up this week?</CardTitle>\n          <CardDescription>Mostly the shorter return window.</CardDescription>\n        </CardHeader>\n        <p className=\"flex items-baseline gap-2 px-3\">\n          <span className=\"type-heading data\">{total.toLocaleString('en-US')}</span>\n          <span className=\"type-body-sm text-text-2 data\">conversations, +18%</span>\n        </p>\n        <Chart type=\"line\" frame=\"plain\" title={<span className=\"sr-only\">Conversations by day</span>} label=\"Conversations by day\" data={week} xKey=\"day\" area zero={false} height={88}\n          valueFormat={v => `${(v / 1000).toFixed(1)}k`}\n          config={{day: {label: 'Day'}, conversations: {label: 'Conversations'}}} className=\"px-3 pb-3\"/>\n      </Panel>\n      <Panel padding=\"none\">\n        <Table frame=\"none\" aria-label=\"Top topics\">\n          <TableHeader>\n            <TableRow><TableHead>Topic</TableHead><TableHead numeric>Count</TableHead><TableHead numeric>Change</TableHead></TableRow>\n          </TableHeader>\n          <TableBody>\n            {topics.map(t => <TableRow key={t.name}>\n              <TableCell>{t.name}</TableCell>\n              <TableCell numeric>{t.count.toLocaleString('en-US')}</TableCell>\n              <TableCell numeric>{t.change}</TableCell>\n            </TableRow>)}\n          </TableBody>\n        </Table>\n      </Panel>\n      <CardFooter>\n        <CardMeta>Oct 10 to 16</CardMeta>\n        <Button size=\"sm\">Open report</Button>\n      </CardFooter>\n    </Card>\n  );\n}\n",
+   "type": "registry:block",
+   "target": "@components/glaze/blocks/conversation-insights.tsx"
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "id": "2c05cf8d-97c5-4f35-96ef-eb53fc03ea81",
+ "slug": "varo-bank-2c05cf8d",
+ "name": "Varo Bank",
+ "site_url": "https://www.varomoney.com",
+ "lastmod": "2026-06-05T09:32:57.052Z",
+ "extracted_at": "2026-06-03T20:22:56.658Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "neon bank statement on a sticky note — bold compressed type punched onto bright colored cardstock, held together by hairline black outlines",
+ "fonts": [
+  "Neue Haas Grotesk Display",
+  "National 2 Compressed",
+  "Arial",
+  "Times",
+  "Metropolis"
+ ],
+ "colors": [
+  {
+   "hex": "#8c58d0",
+   "name": "Varo Violet"
+  },
+  {
+   "hex": "#42185f",
+   "name": "Deep Plum"
+  },
+  {
+   "hex": "#cdb0fa",
+   "name": "Lilac Mist"
+  },
+  {
+   "hex": "#ed6c52",
+   "name": "Coral Ember"
+  },
+  {
+   "hex": "#f2a295",
+   "name": "Salmon Wash"
+  },
+  {
+   "hex": "#faefdc",
+   "name": "Butter Cream"
+  },
+  {
+   "hex": "#fdf0af",
+   "name": "Lemon Zest"
+  },
+  {
+   "hex": "#d4e84b",
+   "name": "Lime Pulse"
+  },
+  {
+   "hex": "#183428",
+   "name": "Forest Ink"
+  },
+  {
+   "hex": "#4a4216",
+   "name": "Mustard Shadow"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#1c1c1c",
+   "name": "Soft Ash"
+  },
+  {
+   "hex": "#939393",
+   "name": "Concrete"
+  },
+  {
+   "hex": "#eff2f5",
+   "name": "Fog"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/def31a56-9f36-4c3f-86c6-3204c6db5fc1.mp4",
+  "poster": "https://happyhands.cc/design-archive/varo-bank-2c05cf8d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/varo-bank-2c05cf8d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/varo-bank-2c05cf8d/thumbnail.jpg"
+}

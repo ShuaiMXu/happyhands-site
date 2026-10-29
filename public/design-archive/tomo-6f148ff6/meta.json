@@ -1,0 +1,51 @@
+{
+ "id": "6f148ff6-ae72-496a-a21d-84d7779825ff",
+ "slug": "tomo-6f148ff6",
+ "name": "TOMO",
+ "site_url": "https://tomoseattle.com",
+ "lastmod": "2026-06-03T20:28:28.903Z",
+ "extracted_at": "2026-06-03T20:28:28.899Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "torn zine pages taped to a fridge — flat, warm, and unapologetically analog.",
+ "fonts": [
+  "Recife",
+  "Times"
+ ],
+ "colors": [
+  {
+   "hex": "#eee2d4",
+   "name": "Warm Linen"
+  },
+  {
+   "hex": "#000000",
+   "name": "Press Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#efefef",
+   "name": "Tape Gray"
+  },
+  {
+   "hex": "#ff6347",
+   "name": "Tomo Red"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6d77198b-053a-4118-8882-f22c884ec35a.mp4",
+  "poster": "https://happyhands.cc/design-archive/tomo-6f148ff6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/tomo-6f148ff6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/tomo-6f148ff6/thumbnail.jpg"
+}

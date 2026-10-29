@@ -1,0 +1,71 @@
+{
+ "id": "e85a82b1-c70e-42de-8c42-4bd95dd5e047",
+ "slug": "zoox-e85a82b1",
+ "name": "Zoox",
+ "site_url": "https://zoox.com",
+ "lastmod": "2026-06-05T10:29:53.131Z",
+ "extracted_at": "2026-06-03T20:49:18.000Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "serene sage showroom. A pale mint gallery space where one vivid teal accent and one dark forest panel interrupt the quiet — spacious, premium, and forward-looking.",
+ "fonts": [
+  "GT Standard S",
+  "GT Standard L"
+ ],
+ "colors": [
+  {
+   "hex": "#d3e4df",
+   "name": "Sage Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#edf4f2",
+   "name": "Mint Frost"
+  },
+  {
+   "hex": "#0d1212",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#34484a",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#565959",
+   "name": "Slate"
+  },
+  {
+   "hex": "#9aa3a5",
+   "name": "Fog"
+  },
+  {
+   "hex": "#7b8889",
+   "name": "Mist"
+  },
+  {
+   "hex": "#64d5b3",
+   "name": "Vivid Teal"
+  },
+  {
+   "hex": "#5b8279",
+   "name": "Eucalyptus"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/38526fe6-3f58-4ab1-8b2d-d6fde402b013.mp4",
+  "poster": "https://happyhands.cc/design-archive/zoox-e85a82b1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/zoox-e85a82b1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/zoox-e85a82b1/thumbnail.jpg"
+}

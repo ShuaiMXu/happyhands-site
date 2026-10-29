@@ -1,0 +1,63 @@
+{
+ "id": "6c0b77d3-71f9-469d-98aa-4ce1d6d76ac8",
+ "slug": "structured-6c0b77d3",
+ "name": "Structured",
+ "site_url": "https://structured.money",
+ "lastmod": "2026-06-05T01:22:15.461Z",
+ "extracted_at": "2026-06-03T16:22:36.077Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "crypto",
+ "north_star": "Renaissance gallery on putty paper",
+ "fonts": [
+  "Davinci",
+  "Helvetica Now"
+ ],
+ "colors": [
+  {
+   "hex": "#c4c3b6",
+   "name": "Putty"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#e7e5e4",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ebebeb",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#dfdcd5",
+   "name": "Vellum"
+  },
+  {
+   "hex": "#595855",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#808080",
+   "name": "Ash"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/31573fcd-3de9-4b89-bf53-842642bba6f2.mp4",
+  "poster": "https://happyhands.cc/design-archive/structured-6c0b77d3/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/structured-6c0b77d3/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/structured-6c0b77d3/thumbnail.jpg"
+}

@@ -1,0 +1,88 @@
+{
+ "id": "9905b62f-007b-4b3a-9357-84e85c07ef96",
+ "slug": "react-email-9905b62f",
+ "name": "React Email",
+ "site_url": "https://react.email",
+ "lastmod": "2026-06-03T20:27:10.394Z",
+ "extracted_at": "2026-06-03T20:27:10.388Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "Obsidian workshop for code artisans — deep matte black, hairline white edges, and one cyan beacon glowing through developer glass.",
+ "fonts": [
+  "Inter",
+  "CommitMono",
+  "-apple-system"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#0f0f10",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#27272a",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Filament"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#abafb4",
+   "name": "Fog"
+  },
+  {
+   "hex": "#6e727a",
+   "name": "Ash"
+  },
+  {
+   "hex": "#99a1af",
+   "name": "Mist"
+  },
+  {
+   "hex": "#cad5e2",
+   "name": "Silver"
+  },
+  {
+   "hex": "#364153",
+   "name": "Slate"
+  },
+  {
+   "hex": "#f3f4f6",
+   "name": "Sleet"
+  },
+  {
+   "hex": "#52e1fe",
+   "name": "Neon Cyan"
+  },
+  {
+   "hex": "#25aeba",
+   "name": "Beacon Teal"
+  },
+  {
+   "hex": "#ffb86a",
+   "name": "Amber"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/767a89e7-cddd-4b11-8f85-b91a3d836141.mp4",
+  "poster": "https://happyhands.cc/design-archive/react-email-9905b62f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/react-email-9905b62f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/react-email-9905b62f/thumbnail.jpg"
+}

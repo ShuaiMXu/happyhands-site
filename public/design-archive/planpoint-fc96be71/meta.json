@@ -1,0 +1,75 @@
+{
+ "id": "fc96be71-d71b-4fc1-a041-f13b3eae7dd5",
+ "slug": "planpoint-fc96be71",
+ "name": "Planpoint",
+ "site_url": "https://www.planpoint.io",
+ "lastmod": "2026-06-03T20:00:45.768Z",
+ "extracted_at": "2026-06-03T20:00:45.764Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Blueprint on white drafting table — an interactive property plan rendered on pristine paper, with one blue pen and one yellow highlighter for emphasis.",
+ "fonts": [
+  "Inter",
+  "system-ui"
+ ],
+ "colors": [
+  {
+   "hex": "#1d1d1f",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#f0f2f4",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e5e6e8",
+   "name": "Fog"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#333333",
+   "name": "Slate"
+  },
+  {
+   "hex": "#00051a",
+   "name": "Midnight"
+  },
+  {
+   "hex": "#0f68ea",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#007aff",
+   "name": "Link Blue"
+  },
+  {
+   "hex": "#ffcb00",
+   "name": "Highlight"
+  },
+  {
+   "hex": "#000a3b",
+   "name": "Deep Navy"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b1d286b4-42c9-4413-bb84-681d57d6497f.mp4",
+  "poster": "https://happyhands.cc/design-archive/planpoint-fc96be71/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/planpoint-fc96be71/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/planpoint-fc96be71/thumbnail.jpg"
+}

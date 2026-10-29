@@ -1,0 +1,112 @@
+{
+ "id": "ee8698fd-bb1e-4813-9571-5db39e508542",
+ "slug": "tailark-pro-ee8698fd",
+ "name": "Tailark Pro",
+ "site_url": "https://pro.tailark.com/illustrations",
+ "lastmod": "2026-06-03T19:35:47.705Z",
+ "extracted_at": "2026-06-03T19:35:47.699Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "white gallery wall with violet sparks — a curated component museum",
+ "fonts": [
+  "ui-sans-serif (system: Inter / Geist Sans / SF Pro)",
+  "Geist Mono",
+  "Mulish"
+ ],
+ "colors": [
+  {
+   "hex": "#615fff",
+   "name": "Signal Violet"
+  },
+  {
+   "hex": "#09090b",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#e4e4e7",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#52525c",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#848485",
+   "name": "Slate"
+  },
+  {
+   "hex": "#404040",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#00bc7d",
+   "name": "Mint"
+  },
+  {
+   "hex": "#0d542b",
+   "name": "Forest"
+  },
+  {
+   "hex": "#fe9a00",
+   "name": "Amber"
+  },
+  {
+   "hex": "#ffb900",
+   "name": "Sunburst"
+  },
+  {
+   "hex": "#e17100",
+   "name": "Rust"
+  },
+  {
+   "hex": "#ec003f",
+   "name": "Crimson"
+  },
+  {
+   "hex": "#82181a",
+   "name": "Maroon"
+  },
+  {
+   "hex": "#8200db",
+   "name": "Ultraviolet"
+  },
+  {
+   "hex": "#9810fa",
+   "name": "Iris"
+  },
+  {
+   "hex": "#155dfc",
+   "name": "Cobalt"
+  },
+  {
+   "hex": "#1c398e",
+   "name": "Midnight"
+  },
+  {
+   "hex": "#dfdfff",
+   "name": "Lilac Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0c3d15ca-3994-4cfa-8136-bff09f399d02.mp4",
+  "poster": "https://happyhands.cc/design-archive/tailark-pro-ee8698fd/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/tailark-pro-ee8698fd/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/tailark-pro-ee8698fd/thumbnail.jpg"
+}

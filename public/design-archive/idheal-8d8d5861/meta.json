@@ -1,0 +1,64 @@
+{
+ "id": "8d8d5861-dee0-431b-826d-56f3fa4e1f84",
+ "slug": "idheal-8d8d5861",
+ "name": "IDHEAL",
+ "site_url": "https://idheal.fr",
+ "lastmod": "2026-06-03T21:08:01.803Z",
+ "extracted_at": "2026-06-03T21:08:01.797Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Architectural editorial masthead on white marble. Display type that could be 2 meters tall in print, single photography frames, and chromatic accents drawn with a fine-point pen.",
+ "fonts": [
+  "sans-serif",
+  "Helvetica Neue LT Pro (Md)",
+  "Helvetica Neue LT Pro (Roman)",
+  "Helvetica Neue LT Pro (Lt)",
+  "Helvetica Neue LT Pro (Bd)",
+  "New Century Schoolbook LT Std (Roman)",
+  "NewCenturySchlbkLTStd-Roman"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon Black"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Hairline Gray"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Shadow Gray"
+  },
+  {
+   "hex": "#bc5346",
+   "name": "Terracotta"
+  },
+  {
+   "hex": "#ff00bc",
+   "name": "Magenta Pencil"
+  },
+  {
+   "hex": "#51633c",
+   "name": "Olive Foliage"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/85268a30-8cfb-4e0f-961f-1993d46983b2.mp4",
+  "poster": "https://happyhands.cc/design-archive/idheal-8d8d5861/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/idheal-8d8d5861/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/idheal-8d8d5861/thumbnail.jpg"
+}

@@ -1,0 +1,51 @@
+{
+ "id": "2f0a053b-0596-4212-a4f4-8a7b580acb90",
+ "slug": "keepgrading-2f0a053b",
+ "name": "KeepGrading",
+ "site_url": "https://www.keepgrading.com",
+ "lastmod": "2026-06-05T10:11:06.590Z",
+ "extracted_at": "2026-06-03T20:43:23.352Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "Polaroids scattered in a darkroom",
+ "fonts": [
+  "Cabinet Grotesk",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#f8f8f8",
+   "name": "Studio White"
+  },
+  {
+   "hex": "#080808",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#f0f0f0",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#2a2a2a",
+   "name": "Pewter Border"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d53e3a36-964b-4d09-8eab-de93026b4243.mp4",
+  "poster": "https://happyhands.cc/design-archive/keepgrading-2f0a053b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/keepgrading-2f0a053b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/keepgrading-2f0a053b/thumbnail.jpg"
+}

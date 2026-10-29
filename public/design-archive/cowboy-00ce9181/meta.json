@@ -1,0 +1,81 @@
+{
+ "id": "00ce9181-45be-4340-b6a6-75a4d5d60cef",
+ "slug": "cowboy-00ce9181",
+ "name": "Cowboy",
+ "site_url": "https://cowboy.com",
+ "lastmod": "2026-06-03T18:56:05.730Z",
+ "extracted_at": "2026-06-03T18:56:05.727Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Belgian bicycle gallery in porcelain white. A showroom where matte surfaces, oversized editorial type, and near-zero decoration force the eye onto the machine and the message.",
+ "fonts": [
+  "SuisseIntl",
+  "ui-monospace",
+  "Intercom Sans",
+  "intercom-font"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Porcelain"
+  },
+  {
+   "hex": "#1d1d1d",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#737373",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#a3a3a3",
+   "name": "Ash"
+  },
+  {
+   "hex": "#f3f4f6",
+   "name": "Mist"
+  },
+  {
+   "hex": "#5e5e5e",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#cacaca",
+   "name": "Bone"
+  },
+  {
+   "hex": "#000000",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#6b7280",
+   "name": "Slate"
+  },
+  {
+   "hex": "#569d5f",
+   "name": "Moss"
+  },
+  {
+   "hex": "#2563eb",
+   "name": "Signal Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f9e7557c-e2e0-430a-aa45-5885fc7d3d80.mp4",
+  "poster": "https://happyhands.cc/design-archive/cowboy-00ce9181/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/cowboy-00ce9181/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/cowboy-00ce9181/thumbnail.jpg"
+}

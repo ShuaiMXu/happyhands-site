@@ -1,0 +1,31 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "action-receipt",
+ "type": "registry:ui",
+ "title": "Action receipt",
+ "description": "A message listing what the assistant just did, one line per action, with Undo.",
+ "author": "design.how",
+ "categories": [
+  "ai"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/lime/button.json",
+  "https://design.how/r/lime/icon.json",
+  "https://design.how/r/lime/message.json",
+  "https://design.how/r/lime/status.json",
+  "https://design.how/r/lime/theme.json",
+  "https://design.how/r/lime/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/lime/components/action-receipt.md",
+  "page": "https://design.how/systems/lime/components/action-receipt"
+ },
+ "files": [
+  {
+   "path": "registry/lime/ai/action-receipt.tsx",
+   "content": "'use client';\n\nimport {CheckmarkFilled, Icon, Undo, WarningFilled} from '@/components/lime/icon';\nimport {cn} from '@/lib/lime/utils';\nimport {Button} from '@/components/lime/ui/button';\nimport {Status} from '@/components/lime/ui/status';\nimport {Message} from '@/components/lime/ai/message';\n\n// What the assistant just did, as one message: a short summary, then one line per action, then Undo. It is\n// the record that comes after the money moved, so every action is past tense and names the amount. A line\n// that failed keeps its reason, and the receipt reads as partial. Undo shows only with `onUndo`. After Undo\n// the lines go grey and Undo gives way to the word Undone.\n\ntype ActionReceiptLine = {\n  /** Past tense with the amount, such as \"Moved $50 to Vacation fund\". */\n  label: string;\n  /** A count, a date, or why it failed. */\n  detail?: string;\n  failed?: boolean;\n};\n\ntype ActionReceiptLabels = {\n  undo?: string;\n  undone?: string;\n  /** Read before each line by screen readers. */\n  done?: string;\n  failed?: string;\n};\n\nconst defaultLabels: Required<ActionReceiptLabels> = {undo: 'Undo', undone: 'Undone', done: 'Done', failed: 'Failed'};\n\ntype ActionReceiptProps = Omit<React.ComponentProps<'div'>, 'children'> & {\n  lines: ActionReceiptLine[];\n  /** One sentence above the lines, such as \"Done. Here is what changed.\" */\n  summary?: string;\n  /** The actions were reversed. */\n  undone?: boolean;\n  onUndo?: () => void;\n  /** The assistant's name, read out by screen readers. */\n  name?: string;\n  /** The words on Undo, the status after it and the words screen readers hear per line, for another language. */\n  labels?: ActionReceiptLabels;\n};\n\nfunction ActionReceipt({lines, summary, undone, onUndo, name, labels, className, ...props}: ActionReceiptProps) {\n  const words = {...defaultLabels, ...labels};\n  const state = undone ? 'undone' : lines.some(l => l.failed) ? 'partial' : 'complete';\n  return (\n    <Message\n      data-slot=\"action-receipt\"\n      data-state={state}\n      name={name}\n      className={className}\n      // Message pulls its actions row in 8px for icon buttons. Undo is a text button with 12px of padding, so it\n      // takes 4px more to put its icon under the line icons; the Undone status has no padding, so it gives the 8px back.\n      actions={(undone || onUndo) && <div aria-live=\"polite\" className={cn('flex min-h-(--control-sm) items-center', undone ? 'ms-2' : '-ms-1')}>\n        {undone\n          ? <Status status=\"canceled\" label={words.undone}/>\n          : <Button variant=\"ghost\" size=\"sm\" icon={<Icon icon={Undo} size={16}/>} onClick={onUndo}>{words.undo}</Button>}\n      </div>}\n      {...props}\n    >\n      {summary && <p>{summary}</p>}\n      <ul className={cn('flex flex-col gap-2 text-sm', summary && 'mt-2')}>\n        {lines.map(line => (\n          <li key={line.label} className=\"flex min-w-0 items-center gap-2.5\">\n            <Icon\n              icon={line.failed ? WarningFilled : CheckmarkFilled}\n              size={16}\n              className={undone ? 'text-fg-3' : line.failed ? 'text-danger-text' : 'text-success-text'}\n            />\n            <span className=\"sr-only\">{line.failed ? words.failed : undone ? words.undone : words.done}: </span>\n            <span className={cn('min-w-0 truncate', undone ? 'text-fg-3' : line.failed ? 'text-danger-text' : 'text-fg')}>{line.label}</span>\n            {line.detail && <span className=\"min-w-0 flex-1 truncate text-end text-fg-3\">{line.detail}</span>}\n          </li>\n        ))}\n      </ul>\n    </Message>\n  );\n}\n\nexport {ActionReceipt, type ActionReceiptProps, type ActionReceiptLine, type ActionReceiptLabels};\n",
+   "type": "registry:ui",
+   "target": "@components/lime/ai/action-receipt.tsx"
+  }
+ ]
+}

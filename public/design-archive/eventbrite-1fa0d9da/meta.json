@@ -1,0 +1,83 @@
+{
+ "id": "1fa0d9da-966f-4d43-9775-e156bec3a3b3",
+ "slug": "eventbrite-1fa0d9da",
+ "name": "Eventbrite",
+ "site_url": "https://www.eventbrite.com",
+ "lastmod": "2026-06-03T18:25:04.249Z",
+ "extracted_at": "2026-06-03T18:25:04.245Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "pillow-soft discovery wall with a single electric blue pulse",
+ "fonts": [
+  "Neue Plak",
+  "Neue Plak Text"
+ ],
+ "colors": [
+  {
+   "hex": "#39364f",
+   "name": "Aubergine Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#f8f7fa",
+   "name": "Warm Linen"
+  },
+  {
+   "hex": "#dbdae3",
+   "name": "Soft Mist"
+  },
+  {
+   "hex": "#bec0c6",
+   "name": "Pale Silver"
+  },
+  {
+   "hex": "#eeedf2",
+   "name": "Cloud Veil"
+  },
+  {
+   "hex": "#dee5ff",
+   "name": "Periwinkle Tint"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#6f7287",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#1e0a3c",
+   "name": "Plum Depth"
+  },
+  {
+   "hex": "#585163",
+   "name": "Indigo Slate"
+  },
+  {
+   "hex": "#3659e3",
+   "name": "Electric Iris"
+  },
+  {
+   "hex": "#f05537",
+   "name": "Ember Orange"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/fc92eb58-1002-4f75-ba36-47a0397aca51.mp4",
+  "poster": "https://happyhands.cc/design-archive/eventbrite-1fa0d9da/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/eventbrite-1fa0d9da/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/eventbrite-1fa0d9da/thumbnail.jpg"
+}

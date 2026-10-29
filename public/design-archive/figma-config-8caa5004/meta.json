@@ -1,0 +1,47 @@
+{
+ "id": "8caa5004-a8cc-4c7e-a2bb-00ff60618729",
+ "slug": "figma-config-8caa5004",
+ "name": "Figma Config",
+ "site_url": "https://config.figma.com/events/figma-config-2022",
+ "lastmod": "2026-06-03T18:01:59.694Z",
+ "extracted_at": "2026-06-03T18:01:59.688Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "design",
+ "north_star": "modernist poster on black velvet",
+ "fonts": [
+  "figmaSans",
+  "figmaMono"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#e2e2e2",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#3d3d3d",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/28fa5deb-024a-492c-bd36-65a061a04b27.mp4",
+  "poster": "https://happyhands.cc/design-archive/figma-config-8caa5004/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/figma-config-8caa5004/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/figma-config-8caa5004/thumbnail.jpg"
+}

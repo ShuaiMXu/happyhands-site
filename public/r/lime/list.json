@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "list",
+  "type": "registry:ui",
+  "title": "List",
+  "description": "Rows of transactions, accounts or settings, each with a mark, a title and a value or a chevron.",
+  "author": "design.how",
+  "categories": [
+    "display"
+  ],
+  "dependencies": [
+    "class-variance-authority@^0.7.1"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/icon.json",
+    "https://happyhands.cc/r/lime/theme.json",
+    "https://happyhands.cc/r/lime/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/lime/components/list.md",
+    "page": "https://happyhands.cc/design-how/lime/components/list.md"
+  },
+  "files": [
+    {
+      "path": "registry/lime/ui/list.tsx",
+      "content": "import {cva, type VariantProps} from 'class-variance-authority';\nimport {ChevronRight, Icon, type LimeIcon} from '@/components/lime/icon';\nimport {cn} from '@/lib/lime/utils';\n\n// Rows on a phone screen: transactions, settings, accounts. Each row has an optional leading mark (a\n// ListIcon or an Avatar), a title, an optional line under it, and a trailing value (an amount, a switch,\n// a badge) or a chevron. A row with href is a link, with onClick a button, otherwise plain. grouped puts\n// the rows on a warm-grey card with inset hairlines; plain leaves them on the page.\n//\n// One action per row: a row that is a link or button holds no other control. A settings row with a\n// Switch is a plain row, and the Switch is the control. Secondary actions (rename, hide, remove) go in `menu`,\n// a ListItemMenu: it sits beside the row, not inside it, so the row and its menu are two separate controls.\n\nconst listVariants = cva('flex flex-col', {\n  variants: {\n    variant: {\n      plain: '',\n      grouped: 'overflow-hidden rounded-panel bg-surface',\n    },\n  },\n  defaultVariants: {variant: 'plain'},\n});\n\ntype ListProps = React.ComponentProps<'ul'> & VariantProps<typeof listVariants>;\n\nfunction List({className, variant, ...props}: ListProps) {\n  return <ul data-slot=\"list\" data-variant={variant ?? 'plain'} role=\"list\" className={cn(listVariants({variant}), 'group/list', className)} {...props}/>;\n}\n\ntype ListItemProps = Omit<React.ComponentProps<'li'>, 'title' | 'onClick'> & {\n  title: React.ReactNode;\n  /** A second line: a date, a category, a setting's current value. */\n  description?: React.ReactNode;\n  /** A ListIcon or an Avatar. */\n  leading?: React.ReactNode;\n  /** A value at the end: an amount, a Switch, a Badge. */\n  trailing?: React.ReactNode;\n  /** A chevron at the end, for a row that opens something. On by default when the row has href. */\n  chevron?: boolean;\n  href?: string;\n  onClick?: React.MouseEventHandler<HTMLButtonElement>;\n  disabled?: boolean;\n  /** A ListItemMenu: the row's other actions behind a more button at the end. */\n  menu?: React.ReactNode;\n};\n\nconst rowClass = cn(\n  'relative flex w-full min-h-14 items-center gap-3 p-4 text-start',\n  'focus-visible:-outline-offset-2',\n  // The hairline sits under the text, not the leading mark, and the last row has none.\n  'after:absolute after:inset-x-4 after:bottom-0 after:h-px after:bg-line group-last/item:after:hidden',\n);\n\nconst pressable = 'cursor-pointer transition-colors duration-(--dur-instant) hover:bg-surface-2 active:bg-surface-3';\n\nfunction ListItem({title, description, leading, trailing, chevron, href, onClick, disabled, menu, className, ...props}: ListItemProps) {\n  const showChevron = chevron ?? Boolean(href);\n  const body = <>\n    {leading && <span data-slot=\"list-leading\" className=\"flex shrink-0\">{leading}</span>}\n    <span className=\"flex min-w-0 flex-1 flex-col\">\n      <span data-slot=\"list-title\" className=\"truncate text-base leading-snug font-medium text-fg\">{title}</span>\n      {description && <span data-slot=\"list-description\" className=\"truncate text-sm text-fg-3\">{description}</span>}\n    </span>\n    {trailing && <span data-slot=\"list-trailing\" className=\"flex shrink-0 items-center text-base text-fg tabular-nums\">{trailing}</span>}\n    {showChevron && <Icon icon={ChevronRight} size={16} className=\"-me-1 text-fg-3 rtl:-scale-x-100\"/>}\n  </>;\n  // With a menu the row keeps its full width, so its hover fill runs under the more button, and leaves room at\n  // the end for the button, which sits over it as a sibling.\n  const shape = cn(rowClass, leading && 'after:start-17', menu ? 'pe-14' : undefined);\n  return (\n    <li data-slot=\"list-item\" className={cn('group/item', menu && 'relative', className)} {...props}>\n      {href && !disabled\n        ? <a data-slot=\"list-row\" href={href} className={cn(shape, pressable)}>{body}</a>\n        : onClick\n          ? <button data-slot=\"list-row\" type=\"button\" onClick={onClick} disabled={disabled} className={cn(shape, pressable, 'disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:bg-transparent')}>{body}</button>\n          : <div data-slot=\"list-row\" className={cn(shape, disabled && 'opacity-50')}>{body}</div>}\n      {menu && <span data-slot=\"list-menu\" className=\"absolute end-3 top-1/2 flex -translate-y-1/2\">{menu}</span>}\n    </li>\n  );\n}\n\nconst listIconVariants = cva('inline-flex size-10 shrink-0 items-center justify-center rounded-full', {\n  variants: {\n    tone: {\n      neutral: 'bg-surface-2 text-fg',\n      accent: 'bg-accent-wash text-fg',\n      success: 'bg-success-tint text-success-text',\n      danger: 'bg-danger-tint text-danger-text',\n    },\n  },\n  defaultVariants: {tone: 'neutral'},\n});\n\ntype ListIconProps = Omit<React.ComponentProps<'span'>, 'children'> & VariantProps<typeof listIconVariants> & {icon: LimeIcon};\n\n/** The round 40px mark at the start of a row, such as a merchant's category. */\nfunction ListIcon({icon, tone, className, ...props}: ListIconProps) {\n  return <span data-slot=\"list-icon\" aria-hidden=\"true\" className={cn(listIconVariants({tone}), className)} {...props}><Icon icon={icon} size={20}/></span>;\n}\n\nexport {List, ListItem, ListIcon, listVariants, type ListProps, type ListItemProps, type ListIconProps};\n",
+      "type": "registry:ui",
+      "target": "@components/lime/ui/list.tsx"
+    }
+  ]
+}

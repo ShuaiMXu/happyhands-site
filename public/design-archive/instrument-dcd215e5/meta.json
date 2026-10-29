@@ -1,0 +1,44 @@
+{
+ "id": "dcd215e5-3511-4e40-87ff-95c095f44ad6",
+ "slug": "instrument-dcd215e5",
+ "name": "Instrument",
+ "site_url": "https://www.instrument.com",
+ "lastmod": "2026-06-03T20:46:22.583Z",
+ "extracted_at": "2026-06-03T20:46:22.578Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Newspaper broadsheet meets brutalist poster",
+ "fonts": [
+  "Instrument-Sans",
+  "Instrument-Serif",
+  "Instrument-Serif-Italic"
+ ],
+ "colors": [
+  {
+   "hex": "#070708",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#808080",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/93efa8f3-16eb-4600-8f8d-f880c8f81133.mp4",
+  "poster": "https://happyhands.cc/design-archive/instrument-dcd215e5/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/instrument-dcd215e5/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/instrument-dcd215e5/thumbnail.jpg"
+}

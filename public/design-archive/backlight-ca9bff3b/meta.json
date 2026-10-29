@@ -1,0 +1,67 @@
+{
+ "id": "ca9bff3b-d488-46e5-8a32-2d858bb5eed2",
+ "slug": "backlight-ca9bff3b",
+ "name": "Backlight",
+ "site_url": "https://www.backlight.co",
+ "lastmod": "2026-06-03T22:00:10.616Z",
+ "extracted_at": "2026-06-03T22:00:10.610Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Vermillion stamp on warm vellum — a printed catalog cover where one ink red commands the cream page and everything else stays in quiet grayscale.",
+ "fonts": [
+  "Instrument Sans",
+  "Fragment Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#dd3508",
+   "name": "Vermillion"
+  },
+  {
+   "hex": "#f3b8a9",
+   "name": "Peach Hairline"
+  },
+  {
+   "hex": "#e4ddd5",
+   "name": "Cream Vellum"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#151515",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#4f4f4f",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#333333",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#d7cabb",
+   "name": "Ochre Tan"
+  },
+  {
+   "hex": "#000000",
+   "name": "Press Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f69ab97f-d0b2-4d55-88b3-813f4d60da75.mp4",
+  "poster": "https://happyhands.cc/design-archive/backlight-ca9bff3b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/backlight-ca9bff3b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/backlight-ca9bff3b/thumbnail.jpg"
+}

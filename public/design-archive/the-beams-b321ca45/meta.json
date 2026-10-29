@@ -1,0 +1,38 @@
+{
+ "id": "b321ca45-2971-4828-9165-82b77f676bfd",
+ "slug": "the-beams-b321ca45",
+ "name": "The Beams",
+ "site_url": "https://thebeamslondon.com",
+ "lastmod": "2026-06-03T21:58:53.108Z",
+ "extracted_at": "2026-06-03T21:58:53.103Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "overlapping ink on white paper",
+ "fonts": [
+  "NeueHaas-web"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c6d80560-c69e-495d-9e13-10c183c1a54e.mp4",
+  "poster": "https://happyhands.cc/design-archive/the-beams-b321ca45/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/the-beams-b321ca45/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/the-beams-b321ca45/thumbnail.jpg"
+}

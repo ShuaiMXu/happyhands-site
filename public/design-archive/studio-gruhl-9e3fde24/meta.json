@@ -1,0 +1,55 @@
+{
+ "id": "9e3fde24-cc7d-4b96-a70a-7c172882aa8f",
+ "slug": "studio-gruhl-9e3fde24",
+ "name": "Studio Gruhl",
+ "site_url": "https://www.studiogruhl.com",
+ "lastmod": "2026-06-03T20:11:01.064Z",
+ "extracted_at": "2026-06-03T20:11:01.058Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "matte-black gallery manifesto",
+ "fonts": [
+  "GreedStandard",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Bright White"
+  },
+  {
+   "hex": "#2e2e30",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#18181b",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#969696",
+   "name": "Ash"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#eef0b1",
+   "name": "Lime Cream"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5c6d3de5-4317-45f2-9570-a4af338f57d9.mp4",
+  "poster": "https://happyhands.cc/design-archive/studio-gruhl-9e3fde24/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/studio-gruhl-9e3fde24/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/studio-gruhl-9e3fde24/thumbnail.jpg"
+}

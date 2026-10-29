@@ -1,0 +1,71 @@
+{
+ "id": "8d4b0738-c302-45c6-98c9-b3cd36e04613",
+ "slug": "podcorn-8d4b0738",
+ "name": "Podcorn",
+ "site_url": "https://podcorn.com",
+ "lastmod": "2026-06-05T09:17:58.418Z",
+ "extracted_at": "2026-06-03T20:17:13.707Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "Indie magazine spread on warm blush paper. A cream canvas carrying deep-indigo editorial typography, hand-drawn illustrations framed in hairline rectangles, and a single coral button as the only warm mark on the page.",
+ "fonts": [
+  "Gilroy",
+  "Georgia"
+ ],
+ "colors": [
+  {
+   "hex": "#fff4f2",
+   "name": "Blush Cream"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#090335",
+   "name": "Ink Violet"
+  },
+  {
+   "hex": "#fc736c",
+   "name": "Coral Flame"
+  },
+  {
+   "hex": "#ffb0a1",
+   "name": "Peach Whisper"
+  },
+  {
+   "hex": "#132645",
+   "name": "Deep Navy"
+  },
+  {
+   "hex": "#434352",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#8993a2",
+   "name": "Silver Mist"
+  },
+  {
+   "hex": "#d8d8d8",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#71717d",
+   "name": "Zinc Mute"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4f046b7b-ef77-4426-93e0-0b76bec9ac5a.mp4",
+  "poster": "https://happyhands.cc/design-archive/podcorn-8d4b0738/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/podcorn-8d4b0738/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/podcorn-8d4b0738/thumbnail.jpg"
+}

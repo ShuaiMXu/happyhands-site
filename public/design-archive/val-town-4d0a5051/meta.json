@@ -1,0 +1,103 @@
+{
+ "id": "4d0a5051-1c4c-4338-8406-2babdc97915c",
+ "slug": "val-town-4d0a5051",
+ "name": "Val Town",
+ "site_url": "https://val.town",
+ "lastmod": "2026-06-03T15:35:13.624Z",
+ "extracted_at": "2026-06-03T15:35:13.618Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "daylight IDE with cyan sparks. White-washed IDE where chrome recedes, code glows in syntax colors, and one electric cyan button reads as 'run'.",
+ "fonts": [
+  "IBM Plex Sans",
+  "iA Writer Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#00bcff",
+   "name": "Cyan Pulse"
+  },
+  {
+   "hex": "#53eafd",
+   "name": "Voltage Cyan"
+  },
+  {
+   "hex": "#8e51ff",
+   "name": "Plasma Violet"
+  },
+  {
+   "hex": "#e12afb",
+   "name": "Signal Magenta"
+  },
+  {
+   "hex": "#74d4ff",
+   "name": "Halftone Blue"
+  },
+  {
+   "hex": "#104e64",
+   "name": "Deep Teal"
+  },
+  {
+   "hex": "#ed6aff",
+   "name": "Ember Pink"
+  },
+  {
+   "hex": "#ff2056",
+   "name": "Alarm Red"
+  },
+  {
+   "hex": "#314158",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#1d293d",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#45556c",
+   "name": "Slate"
+  },
+  {
+   "hex": "#62748e",
+   "name": "Iron"
+  },
+  {
+   "hex": "#6a7282",
+   "name": "Fog"
+  },
+  {
+   "hex": "#99a1af",
+   "name": "Ash"
+  },
+  {
+   "hex": "#cad5e2",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e2e8f0",
+   "name": "Porcelain"
+  },
+  {
+   "hex": "#f1f5f9",
+   "name": "Paper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/fb647dae-7d3e-4fb2-bd92-06f3b5ff3e7c.mp4",
+  "poster": "https://happyhands.cc/design-archive/val-town-4d0a5051/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/val-town-4d0a5051/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/val-town-4d0a5051/thumbnail.jpg"
+}

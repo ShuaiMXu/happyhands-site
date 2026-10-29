@@ -1,0 +1,96 @@
+{
+ "id": "8c3f2805-dfce-4edd-8a9c-946bee4f1cff",
+ "slug": "leonardo-ai-8c3f2805",
+ "name": "Leonardo.ai",
+ "site_url": "https://leonardo.ai",
+ "lastmod": "2026-06-03T15:13:21.481Z",
+ "extracted_at": "2026-06-03T15:13:21.475Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ai",
+ "north_star": "Inverted editorial gallery. A black-walled museum where 165px violet headlines act as wall installations and AI-generated portraits hang in a tight grid below.",
+ "fonts": [
+  "leoSans",
+  "canvaSans",
+  "ufficioDisplay"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Midnight Canvas"
+  },
+  {
+   "hex": "#0a0a0a",
+   "name": "Obsidian Surface"
+  },
+  {
+   "hex": "#353535",
+   "name": "Charcoal Card"
+  },
+  {
+   "hex": "#f5f5f5",
+   "name": "Fog"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Mist"
+  },
+  {
+   "hex": "#999999",
+   "name": "Ash Text"
+  },
+  {
+   "hex": "#666666",
+   "name": "Charcoal Mute"
+  },
+  {
+   "hex": "#030303",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#6e60ee",
+   "name": "Leonardo Violet"
+  },
+  {
+   "hex": "#03e65b",
+   "name": "Toxic Lime"
+  },
+  {
+   "hex": "#ffc533",
+   "name": "Voltage Yellow"
+  },
+  {
+   "hex": "#ff3386",
+   "name": "Shock Pink"
+  },
+  {
+   "hex": "#ff5d4b",
+   "name": "Ember Coral"
+  },
+  {
+   "hex": "#d25fff",
+   "name": "Plasma Pink"
+  },
+  {
+   "hex": "#33d0ff",
+   "name": "Arc Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/65fbda2c-de0a-4fcc-9fe0-7bcf86514b84.mp4",
+  "poster": "https://happyhands.cc/design-archive/leonardo-ai-8c3f2805/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/leonardo-ai-8c3f2805/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/leonardo-ai-8c3f2805/thumbnail.jpg"
+}

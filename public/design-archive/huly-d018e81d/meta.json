@@ -1,0 +1,83 @@
+{
+ "id": "d018e81d-6bb6-4445-86d7-39fd6be7e74d",
+ "slug": "huly-d018e81d",
+ "name": "Huly",
+ "site_url": "https://huly.io",
+ "lastmod": "2026-06-03T16:38:51.203Z",
+ "extracted_at": "2026-06-03T16:38:51.197Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "productivity",
+ "north_star": "Aurora through a midnight observatory — the hero is a vertical beam of violet melting into coral, and every quiet section below it borrows that same two-color story told at lower volume.",
+ "fonts": [
+  "Inter",
+  "Esbuild"
+ ],
+ "colors": [
+  {
+   "hex": "#303236",
+   "name": "Obsidian Canvas"
+  },
+  {
+   "hex": "#090a0c",
+   "name": "Void"
+  },
+  {
+   "hex": "#111111",
+   "name": "Charcoal Card"
+  },
+  {
+   "hex": "#4a4b50",
+   "name": "Slate Edge"
+  },
+  {
+   "hex": "#6b6c6d",
+   "name": "Iron Veil"
+  },
+  {
+   "hex": "#95979e",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#a9a9aa",
+   "name": "Ash"
+  },
+  {
+   "hex": "#d1d1d1",
+   "name": "Frost"
+  },
+  {
+   "hex": "#e5e5e7",
+   "name": "Linen"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Snow"
+  },
+  {
+   "hex": "#5683da",
+   "name": "Electric Iris"
+  },
+  {
+   "hex": "#ff8964",
+   "name": "Ember Pulse"
+  },
+  {
+   "hex": "#5a250a",
+   "name": "Molasses"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/475ab7e4-1c42-4eaf-890f-9d4b822e8f9a.mp4",
+  "poster": "https://happyhands.cc/design-archive/huly-d018e81d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/huly-d018e81d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/huly-d018e81d/thumbnail.jpg"
+}

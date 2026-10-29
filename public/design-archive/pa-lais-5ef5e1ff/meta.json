@@ -1,0 +1,77 @@
+{
+ "id": "5ef5e1ff-3cb3-4383-9f66-26474409d9ae",
+ "slug": "pa-lais-5ef5e1ff",
+ "name": "Pa'lais",
+ "site_url": "https://www.palais.bio",
+ "lastmod": "2026-06-05T04:23:27.038Z",
+ "extracted_at": "2026-06-03T18:18:44.800Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Botanical sketchbook dipped in honey. The cream paper canvas, blue toile-style line illustrations, and warm color blobs recall a hand-bound recipe journal, while the bold condensed display type and generous whitespace give it modern editorial confidence.",
+ "fonts": [
+  "Times",
+  "hwt-artz",
+  "Delivery Note DEMO",
+  "Sandman_Fill",
+  "Axiforma",
+  "ITC Avant Garde Std Bk",
+  "Caveat (script accent)",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#234386",
+   "name": "Deep Indigo"
+  },
+  {
+   "hex": "#ffc400",
+   "name": "Honey Gold"
+  },
+  {
+   "hex": "#ed7328",
+   "name": "Burnt Orange"
+  },
+  {
+   "hex": "#6aa8dc",
+   "name": "Sky Blue"
+  },
+  {
+   "hex": "#d2b68c",
+   "name": "Warm Sand"
+  },
+  {
+   "hex": "#a2d3a6",
+   "name": "Mint Sage"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#fbf9f6",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#d6d6d6",
+   "name": "Soft Shadow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/93085278-67f4-4803-84d3-35a009dcd7d9.mp4",
+  "poster": "https://happyhands.cc/design-archive/pa-lais-5ef5e1ff/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/pa-lais-5ef5e1ff/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/pa-lais-5ef5e1ff/thumbnail.jpg"
+}

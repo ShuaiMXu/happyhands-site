@@ -1,0 +1,50 @@
+{
+ "id": "7cae43cd-dd0e-4658-86e6-d66935cfb213",
+ "slug": "palmer-7cae43cd",
+ "name": "Palmer",
+ "site_url": "https://www.palmer-dinnerware.com",
+ "lastmod": "2026-06-05T08:19:19.139Z",
+ "extracted_at": "2026-06-03T19:46:36.187Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Ceramic gallery in soft daylight — the interface is the wall, the objects are the art.",
+ "fonts": [
+  "TWK Lausanne"
+ ],
+ "colors": [
+  {
+   "hex": "#f5f6ee",
+   "name": "Gallery Cream"
+  },
+  {
+   "hex": "#222222",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone"
+  },
+  {
+   "hex": "#a1a19c",
+   "name": "Fog"
+  },
+  {
+   "hex": "#000000",
+   "name": "Lampblack"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a34fc25b-c324-4b7d-bc9a-0c8ea42ff878.mp4",
+  "poster": "https://happyhands.cc/design-archive/palmer-7cae43cd/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/palmer-7cae43cd/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/palmer-7cae43cd/thumbnail.jpg"
+}

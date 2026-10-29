@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "use-draw",
+  "type": "registry:hook",
+  "title": "useDraw",
+  "description": "Support file: draws connectors out one hop at a time, about 0.3 seconds a hop.",
+  "author": "design.how",
+  "categories": [
+    "internal"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/use-timeline.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/sodium/index.md",
+    "page": "https://happyhands.cc/design-how/sodium/index.md"
+  },
+  "files": [
+    {
+      "path": "registry/sodium/hooks/use-draw.ts",
+      "content": "'use client';\n\nimport {useCallback, useRef, type RefObject} from 'react';\nimport {easeOut, useMotionToken, useTimeline, type TimelineOptions} from '@/hooks/sodium/use-timeline';\n\n// Connectors that draw out from their node, one hop after another: a run's steps joining up, a graph building. Each\n// hop takes --dur-draw (300ms) on Sodium's ease-out, and the next starts when the last ends. The hook gives each hop's\n// progress from 0 to 1; the component scales its line by it from the end the line starts at, and shows the square that\n// ends the hop at 1:\n//\n//   const progress = useDraw(steps.length, {ref});\n//   <li style={{'--draw': progress[i]}}><span className=\"origin-top scale-y-(--draw) ...\"/></li>\n//\n// Hops added later (a new step arriving in a live run) draw from the moment they arrive, or when the hop before them\n// ends if that is later, so a burst of steps still draws one hop at a time. Hops already drawn stay drawn. Given a\n// clock, hop i starts at i hops, so the same clock always draws the same picture.\n\n/** Each hop's progress, 0 to 1 on the ease-out, `elapsed` ms in, when hop i starts at starts[i] (default i hops). */\nexport function drawAt(elapsed: number, count: number, hop: number = 300, starts?: readonly number[]): number[] {\n  return Array.from({length: count}, (_, i) => {\n    if (elapsed === Number.POSITIVE_INFINITY || hop <= 0) return 1;\n    const start = starts?.[i];\n    if (starts && start === undefined) return 0;\n    return easeOut((elapsed - (start ?? i * hop)) / hop);\n  });\n}\n\nexport type DrawOptions = TimelineOptions & {\n  /** The element the lines sit in, read for --dur-draw and a reduced-motion wrapper. */\n  ref?: RefObject<Element | null>;\n  /** ms per hop. Default --dur-draw, 300ms. */\n  hop?: number;\n};\n\n/** Frames of a line, so the clock re-renders about 60 times a second while a hop draws and never at rest. */\nconst FRAME = 16;\n\nexport function useDraw(count: number, {ref, hop, clock, play, restart}: DrawOptions = {}): number[] {\n  const token = useMotionToken(ref, '--dur-draw');\n  const each = hop ?? token.ms;\n  const controlled = clock !== undefined;\n  // When each hop starts, on the hook's own clock. Read and extended during render from the time the clock last showed,\n  // which is the same on every render of one commit, so the starts never depend on when React happens to render.\n  const starts = useRef<number[]>([]);\n  const last = useRef(0);\n  const key = useRef(restart);\n  if (!Object.is(key.current, restart)) { key.current = restart; starts.current = []; last.current = 0; }\n  if (!controlled) {\n    for (let i = starts.current.length; i < count; i++) starts.current.push(Math.max(i === 0 ? 0 : starts.current[i - 1] + each, i === 0 ? 0 : last.current));\n    if (starts.current.length > count) starts.current.length = count;\n  }\n  const total = controlled ? count * each : (starts.current.at(-1) ?? 0) + (count ? each : 0);\n  const step = useCallback((ms: number) => ms >= total ? -1 : Math.floor(ms / FRAME), [total]);\n  const elapsed = useTimeline({total, step, clock, play, restart, reduced: token.reduced});\n  if (Number.isFinite(elapsed)) last.current = elapsed;\n  return drawAt(elapsed, count, each, controlled ? undefined : starts.current);\n}\n",
+      "type": "registry:hook",
+      "target": "@hooks/sodium/use-draw.ts"
+    }
+  ]
+}

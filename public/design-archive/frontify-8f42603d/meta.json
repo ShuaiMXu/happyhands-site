@@ -1,0 +1,77 @@
+{
+ "id": "8f42603d-7ff9-446e-99a3-6bdd1f388ae5",
+ "slug": "frontify-8f42603d",
+ "name": "Frontify",
+ "site_url": "https://www.frontify.com/en",
+ "lastmod": "2026-06-03T17:43:54.075Z",
+ "extracted_at": "2026-06-03T17:43:54.070Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "Warm atelier with orange punctuation — a museum catalog rendered in cream and ink, where a single warm orange acts as the only raised voice in an otherwise hushed room.",
+ "fonts": [
+  "Cranny",
+  "ABC Diatype",
+  "Satoshi",
+  "Cabinetgrotesk"
+ ],
+ "colors": [
+  {
+   "hex": "#f0f0eb",
+   "name": "Warm Parchment"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Gallery White"
+  },
+  {
+   "hex": "#e1e1db",
+   "name": "Soft Linen"
+  },
+  {
+   "hex": "#d7d7cf",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#cbcbc5",
+   "name": "Pale Stone"
+  },
+  {
+   "hex": "#bfbfb8",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#575753",
+   "name": "Graphite Warm"
+  },
+  {
+   "hex": "#464643",
+   "name": "Charcoal Warm"
+  },
+  {
+   "hex": "#111110",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ff3b00",
+   "name": "Signal Orange"
+  },
+  {
+   "hex": "#042a2b",
+   "name": "Deep Teal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6fce2df3-d01d-4a18-bdc8-ce185be79890.mp4",
+  "poster": "https://happyhands.cc/design-archive/frontify-8f42603d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/frontify-8f42603d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/frontify-8f42603d/thumbnail.jpg"
+}

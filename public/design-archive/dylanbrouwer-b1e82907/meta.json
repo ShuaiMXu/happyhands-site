@@ -1,0 +1,76 @@
+{
+ "id": "b1e82907-d1cf-46cd-8ae7-3561c5b15fd0",
+ "slug": "dylanbrouwer-b1e82907",
+ "name": "Dylanbrouwer",
+ "site_url": "https://www.dylanbrouwer.design",
+ "lastmod": "2026-07-03T11:46:30.861Z",
+ "extracted_at": "2026-07-03T03:43:58.087Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "agency",
+ "north_star": "Brutalist type foundry at dusk",
+ "fonts": [
+  "Die Grotesk B",
+  "ABC Gravity Variable",
+  "IBM Plex Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#ff6436",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#161616",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#3c3a3e",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#7b7a7c",
+   "name": "Stone"
+  },
+  {
+   "hex": "#a2a2a2",
+   "name": "Ash"
+  },
+  {
+   "hex": "#c9c7cc",
+   "name": "Silver Mist"
+  },
+  {
+   "hex": "#f1f1f1",
+   "name": "Fog"
+  },
+  {
+   "hex": "#f8f8f8",
+   "name": "Paper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Display Fade Gradient"
+  },
+  {
+   "hex": "#6e6c70",
+   "name": "Horizon Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/01c409c2-9f05-476d-a80d-5bbc45e2a92f.mp4",
+  "poster": "https://happyhands.cc/design-archive/dylanbrouwer-b1e82907/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/dylanbrouwer-b1e82907/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/dylanbrouwer-b1e82907/thumbnail.jpg"
+}

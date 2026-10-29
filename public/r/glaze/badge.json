@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "badge",
+  "type": "registry:ui",
+  "title": "Badge",
+  "description": "Labels what something is or how it stands.",
+  "author": "design.how",
+  "categories": [
+    "display"
+  ],
+  "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/theme.json",
+    "https://happyhands.cc/r/glaze/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/glaze/components/badge.md",
+    "page": "https://happyhands.cc/design-how/glaze/components/badge.md"
+  },
+  "files": [
+    {
+      "path": "registry/glaze/ui/badge.tsx",
+      "content": "import {mergeProps} from '@base-ui/react/merge-props';\nimport {useRender} from '@base-ui/react/use-render';\nimport {cva, type VariantProps} from 'class-variance-authority';\nimport {cn} from '@/lib/glaze/utils';\n\n// Glaze's badge: a short static label that names what something is (a model, an environment, \"Beta\") or how it\n// stands (Passed, Slow, Failed). It is not pressed, so it is flat: no glass, no ring that reads as a control, and it\n// takes the 6px tag corner, never the pill, so it never passes for a button beside one.\n//\n// neutral is the grey field with ink text, outline a 1px control line on nothing, for a label beside other grey.\n// ok, warn and fail are the status tints with their word colour (5.0:1 or better on the tint), and only for status:\n// green done, amber warning, coral failure, always with the word. Two sizes, 20px and 16px, both 12px type.\n//\n// count with max: past the cap it shows \"99+\" and keeps the exact number for screen readers and the title.\n\nconst badgeVariants = cva(\n  [\n    'inline-flex w-fit max-w-full shrink-0 items-center justify-center gap-1 overflow-hidden rounded-tag whitespace-nowrap data',\n    '[&>svg]:pointer-events-none [&>svg]:size-(--icon-sm) [&>svg]:shrink-0',\n    'forced-colors:border forced-colors:border-[CanvasText]',\n  ],\n  {\n    variants: {\n      variant: {\n        neutral: 'bg-field text-text-1',\n        outline: 'border border-line-control text-text-1',\n        ok: 'bg-ok-tint text-ok-text',\n        warn: 'bg-warn-tint text-warn-text',\n        fail: 'bg-fail-tint text-fail-text',\n      },\n      size: {\n        default: 'min-h-5 px-1.5 type-label-sm',\n        sm: 'min-h-4 px-1 type-label-sm',\n      },\n    },\n    defaultVariants: {variant: 'neutral', size: 'default'},\n  },\n);\n\ntype BadgeProps = useRender.ComponentProps<'span'> & VariantProps<typeof badgeVariants> & {\n  /** A count in place of the label. With max, values past it show as \"max+\"; the exact number stays the accessible name. */\n  count?: number;\n  /** The cap for count. 99 by default. */\n  max?: number;\n};\n\nfunction Badge({className, variant = 'neutral', size = 'default', count, max = 99, render, children, ...props}: BadgeProps) {\n  const capped = count !== undefined && count > max;\n  const exact = count?.toLocaleString('en-US');\n  const shown = count === undefined ? children : capped ? <><span aria-hidden>{max}+</span><span className=\"sr-only\">{exact}</span></> : exact;\n  return useRender({\n    defaultTagName: 'span',\n    props: mergeProps<'span'>(\n      {className: cn(badgeVariants({variant, size}), className), children: shown},\n      {'data-slot': 'badge', 'data-variant': variant, 'data-size': size, title: capped ? exact : undefined} as React.ComponentProps<'span'>,\n      props,\n    ),\n    render,\n    state: {slot: 'badge', variant},\n  });\n}\n\nexport {Badge, badgeVariants, type BadgeProps};\n",
+      "type": "registry:ui",
+      "target": "@components/glaze/ui/badge.tsx"
+    }
+  ]
+}

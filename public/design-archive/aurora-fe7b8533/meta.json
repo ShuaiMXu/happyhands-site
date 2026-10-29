@@ -1,0 +1,71 @@
+{
+ "id": "fe7b8533-f56b-46bd-8713-f18886a1e986",
+ "slug": "aurora-fe7b8533",
+ "name": "Aurora",
+ "site_url": "https://aurora.tech",
+ "lastmod": "2026-06-03T19:00:05.489Z",
+ "extracted_at": "2026-06-03T19:00:05.482Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "autonomous horizon at dawn — a clean white cockpit looking out onto a sunlit highway, one electric blue dial on the dashboard.",
+ "fonts": [
+  "Inter",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#001733",
+   "name": "Horizon Navy"
+  },
+  {
+   "hex": "#006aed",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#18dcdc",
+   "name": "Cyan Dawn"
+  },
+  {
+   "hex": "#68748d",
+   "name": "Slate Whisper"
+  },
+  {
+   "hex": "#464e5d",
+   "name": "Graphite Dim"
+  },
+  {
+   "hex": "#d1d6e0",
+   "name": "Fog"
+  },
+  {
+   "hex": "#e6e9f0",
+   "name": "Mist"
+  },
+  {
+   "hex": "#f3f4f8",
+   "name": "Hailstone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Coal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d3bdf9a2-8bc5-4692-a08d-dc62686739e6.mp4",
+  "poster": "https://happyhands.cc/design-archive/aurora-fe7b8533/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/aurora-fe7b8533/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/aurora-fe7b8533/thumbnail.jpg"
+}

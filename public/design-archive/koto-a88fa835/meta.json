@@ -1,0 +1,63 @@
+{
+ "id": "a88fa835-1d5e-4b8e-b3d5-602597870563",
+ "slug": "koto-a88fa835",
+ "name": "Koto",
+ "site_url": "https://koto.com",
+ "lastmod": "2026-06-05T12:11:15.024Z",
+ "extracted_at": "2026-06-03T21:44:05.858Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "Obsidian gallery at midnight. A near-black stage where a single yellow mark is the only warm light, and condensed type floats in vast negative space like exhibition placards.",
+ "fonts": [
+  "gtKotoheim",
+  "gtKotoheimCondensed"
+ ],
+ "colors": [
+  {
+   "hex": "#060606",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#141414",
+   "name": "Graphite Surface"
+  },
+  {
+   "hex": "#202020",
+   "name": "Smoke Border"
+  },
+  {
+   "hex": "#595959",
+   "name": "Iron Mute"
+  },
+  {
+   "hex": "#989898",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#b4b4b4",
+   "name": "Silver Whisper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#ffe800",
+   "name": "Signal Yellow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6e3acc47-9eee-4e59-9ae6-c9d8691689bd.mp4",
+  "poster": "https://happyhands.cc/design-archive/koto-a88fa835/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/koto-a88fa835/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/koto-a88fa835/thumbnail.jpg"
+}

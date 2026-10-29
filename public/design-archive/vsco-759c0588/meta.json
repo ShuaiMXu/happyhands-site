@@ -1,0 +1,66 @@
+{
+ "id": "759c0588-ea22-44c1-a1cf-42cb81eb6cb0",
+ "slug": "vsco-759c0588",
+ "name": "VSCO®",
+ "site_url": "https://vsco.co",
+ "lastmod": "2026-06-03T19:54:01.016Z",
+ "extracted_at": "2026-06-03T19:54:01.012Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "design",
+ "north_star": "Monochrome gallery wall — a black-and-white photo exhibition where a single warm spotlight makes the next action glow.",
+ "fonts": [
+  "VSCO Gothic"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Photo Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#737373",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#b8b8b8",
+   "name": "Ash"
+  },
+  {
+   "hex": "#d9d9d9",
+   "name": "Silver"
+  },
+  {
+   "hex": "#999999",
+   "name": "Steel"
+  },
+  {
+   "hex": "#f1a900",
+   "name": "Amber"
+  },
+  {
+   "hex": "#ffbc3c",
+   "name": "Goldenrod"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/46534b69-25b4-4523-862c-ed260e680321.mp4",
+  "poster": "https://happyhands.cc/design-archive/vsco-759c0588/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/vsco-759c0588/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/vsco-759c0588/thumbnail.jpg"
+}

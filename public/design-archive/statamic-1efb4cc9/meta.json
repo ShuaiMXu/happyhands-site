@@ -1,0 +1,93 @@
+{
+ "id": "1efb4cc9-0923-4d4f-884a-b06d4fca4db2",
+ "slug": "statamic-1efb4cc9",
+ "name": "Statamic",
+ "site_url": "https://statamic.com",
+ "lastmod": "2026-06-03T21:47:59.319Z",
+ "extracted_at": "2026-06-03T21:47:59.310Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "Warm editorial sunset over floating islands",
+ "fonts": [
+  "p22-mackinac-pro",
+  "Lexend",
+  "code-saver",
+  "Lore"
+ ],
+ "colors": [
+  {
+   "hex": "#191a1b",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#fdf1ef",
+   "name": "Warm Shell"
+  },
+  {
+   "hex": "#beb9b3",
+   "name": "Driftwood"
+  },
+  {
+   "hex": "#5e5a5a",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#4e5154",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#3f3f46",
+   "name": "Iron"
+  },
+  {
+   "hex": "#cbd5e0",
+   "name": "Mist"
+  },
+  {
+   "hex": "#d4ff4c",
+   "name": "Electric Lime"
+  },
+  {
+   "hex": "#cbc2ea",
+   "name": "Lavender Whisper"
+  },
+  {
+   "hex": "#d7e5fe",
+   "name": "Lilac Mist"
+  },
+  {
+   "hex": "#f5ddee",
+   "name": "Blossom"
+  },
+  {
+   "hex": "#4c305a",
+   "name": "Plum Shadow"
+  },
+  {
+   "hex": "#334155",
+   "name": "Dusk Gradient"
+  },
+  {
+   "hex": "#32c5ff",
+   "name": "Aurora Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b9c37973-539b-4f6e-817b-18f3202247e5.mp4",
+  "poster": "https://happyhands.cc/design-archive/statamic-1efb4cc9/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/statamic-1efb4cc9/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/statamic-1efb4cc9/thumbnail.jpg"
+}

@@ -1,0 +1,63 @@
+{
+ "id": "a3161c3c-26d4-425b-aaa3-4fc3f06b77ee",
+ "slug": "revolut-a3161c3c",
+ "name": "Revolut",
+ "site_url": "https://revolut.com",
+ "lastmod": "2026-07-03T11:00:06.556Z",
+ "extracted_at": "2026-07-03T03:30:22.443Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "Monochrome editorial banking on cloud photography — white ink, pill buttons, one blue ribbon of color in an otherwise grayscale world.",
+ "fonts": [
+  "Aeonik Pro",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#1f1f1f",
+   "name": "Ink"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone"
+  },
+  {
+   "hex": "#c9c9cd",
+   "name": "Ash Grey"
+  },
+  {
+   "hex": "#f7f7f7",
+   "name": "Mist"
+  },
+  {
+   "hex": "#717173",
+   "name": "Slate"
+  },
+  {
+   "hex": "#4c4c4c",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#1227fd",
+   "name": "Cobalt Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/fd5b3709-e42c-406b-b8b7-8ef5fb0cd3fa.mp4",
+  "poster": "https://happyhands.cc/design-archive/revolut-a3161c3c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/revolut-a3161c3c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/revolut-a3161c3c/thumbnail.jpg"
+}

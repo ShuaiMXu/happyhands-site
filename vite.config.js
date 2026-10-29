@@ -30,7 +30,13 @@ function mirrorIndex(urlPath) {
 
 export default defineConfig({
   server: { cors: { origin: [/^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/, 'null'] }, port: 4173, strictPort: true, fs: { strict: true } },
-  plugins: [siteAnalyticsPlugin(root),{
+  plugins: [{name:'archived-design-system-source',enforce:'pre',resolveId(id){
+      const match=id.match(/^@\/(components|lib|hooks)\/(sodium|glaze|quartz|lime)\/(.+)$/);
+      if(!match)return null;
+      const [,kind,system,rest]=match;
+      const file=resolve(root,'systems/preview/generated',system,kind==='components'?rest:`${kind}/${rest}`);
+      for(const suffix of ['.tsx','.ts','/index.tsx','/index.ts',''])if(existsSync(file+suffix)&&statSync(file+suffix).isFile())return file+suffix;
+    }},siteAnalyticsPlugin(root),{
     name: 'public-page-content-and-metadata',
     transformIndexHtml(html, context) {
       const filename=relative(root,context.filename).replaceAll('\\','/');
@@ -62,7 +68,10 @@ export default defineConfig({
     happyhands: resolve('systems/happyhands/index.html'),
     quartz: resolve('systems/quartz/index.html'),
     lime: resolve('systems/lime/index.html'),
+    sodium: resolve('systems/sodium/index.html'),
+    glaze: resolve('systems/glaze/index.html'),
     'component-preview': resolve('components/preview/index.html'),
+    'system-preview': resolve('systems/preview/index.html'),
     components: resolve('components/index.html'),
     portal: resolve('apps/portal/index.html'),
     guide: resolve('guide/index.html'),

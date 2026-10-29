@@ -1,0 +1,72 @@
+{
+ "id": "fdc72952-9b36-443a-9e0c-20b366aee29f",
+ "slug": "flecto-fdc72952",
+ "name": "Flecto",
+ "site_url": "https://flecto.io",
+ "lastmod": "2026-06-05T11:28:55.253Z",
+ "extracted_at": "2026-06-03T21:22:21.255Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "saas",
+ "north_star": "Botanical greenhouse glasshouse. A warm cream-walled conservatory where deep teal planters hold bright mint seedlings — flat, rounded, alive with green, zero shadows.",
+ "fonts": [
+  "Aeonik",
+  "roobert",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#004737",
+   "name": "Forest Ink"
+  },
+  {
+   "hex": "#56f09f",
+   "name": "Mint Pulse"
+  },
+  {
+   "hex": "#d4ffe8",
+   "name": "Mint Mist"
+  },
+  {
+   "hex": "#fffbec",
+   "name": "Cream Canvas"
+  },
+  {
+   "hex": "#032019",
+   "name": "Deep Loam"
+  },
+  {
+   "hex": "#99b5af",
+   "name": "Sage Whisper"
+  },
+  {
+   "hex": "#ccdad7",
+   "name": "Stone Mist"
+  },
+  {
+   "hex": "#faf2d5",
+   "name": "Bone"
+  },
+  {
+   "hex": "#222222",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#8f37ff",
+   "name": "Iris Spark"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c063b185-9f71-4d31-9b95-fc8c3f96a6d8.mp4",
+  "poster": "https://happyhands.cc/design-archive/flecto-fdc72952/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/flecto-fdc72952/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/flecto-fdc72952/thumbnail.jpg"
+}

@@ -1,0 +1,87 @@
+{
+ "id": "a5cc9b0f-d274-458a-b990-d18482b70838",
+ "slug": "changelog-a5cc9b0f",
+ "name": "Changelog",
+ "site_url": "https://linear.app/changelog",
+ "lastmod": "2026-06-03T16:29:16.342Z",
+ "extracted_at": "2026-06-03T16:29:16.335Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "productivity",
+ "north_star": "observatory console behind dark glass.",
+ "fonts": [
+  "Inter Variable",
+  "Berkeley Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#08090a",
+   "name": "Onyx Canvas"
+  },
+  {
+   "hex": "#141516",
+   "name": "Carbon Surface"
+  },
+  {
+   "hex": "#1c1c1f",
+   "name": "Graphite Surface"
+  },
+  {
+   "hex": "#23252a",
+   "name": "Smoke Surface"
+  },
+  {
+   "hex": "#2d2e31",
+   "name": "Iron Surface"
+  },
+  {
+   "hex": "#34343a",
+   "name": "Ash Border"
+  },
+  {
+   "hex": "#3e3e44",
+   "name": "Ferrite Border"
+  },
+  {
+   "hex": "#62666d",
+   "name": "Steel Text"
+  },
+  {
+   "hex": "#7f7f80",
+   "name": "Pewter Text"
+  },
+  {
+   "hex": "#8a8f98",
+   "name": "Fog Text"
+  },
+  {
+   "hex": "#d0d6e0",
+   "name": "Mist Text"
+  },
+  {
+   "hex": "#e4e5e9",
+   "name": "Chalk Border"
+  },
+  {
+   "hex": "#f7f8f8",
+   "name": "Snow"
+  },
+  {
+   "hex": "#030404",
+   "name": "Void"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/9f043f13-ae6b-463e-afa4-8a4ffe74acff.mp4",
+  "poster": "https://happyhands.cc/design-archive/changelog-a5cc9b0f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/changelog-a5cc9b0f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/changelog-a5cc9b0f/thumbnail.jpg"
+}

@@ -1,0 +1,75 @@
+{
+ "id": "ad48f4ad-42c0-4c91-a189-fa7a73a7a9e9",
+ "slug": "langbase-ad48f4ad",
+ "name": "Langbase",
+ "site_url": "https://langbase.com",
+ "lastmod": "2026-06-03T19:06:24.663Z",
+ "extracted_at": "2026-06-03T19:06:24.660Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ai",
+ "north_star": "Midnight aurora console",
+ "fonts": [
+  "GeistSans",
+  "GeistMono"
+ ],
+ "colors": [
+  {
+   "hex": "#232324",
+   "name": "Console Charcoal"
+  },
+  {
+   "hex": "#fafafa",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#000000",
+   "name": "True Black"
+  },
+  {
+   "hex": "#ebeced",
+   "name": "Off-White"
+  },
+  {
+   "hex": "#a1a1aa",
+   "name": "Mute Gray"
+  },
+  {
+   "hex": "#5c5c61",
+   "name": "Wire Gray"
+  },
+  {
+   "hex": "#181818",
+   "name": "Recess Black"
+  },
+  {
+   "hex": "#0e0e10",
+   "name": "Nav Ink"
+  },
+  {
+   "hex": "#454546",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#696970",
+   "name": "Ash"
+  },
+  {
+   "hex": "#c7b8f5",
+   "name": "Aurora Spectrum"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/1138aa9f-f15f-4817-8658-f53e9cf13e28.mp4",
+  "poster": "https://happyhands.cc/design-archive/langbase-ad48f4ad/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/langbase-ad48f4ad/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/langbase-ad48f4ad/thumbnail.jpg"
+}

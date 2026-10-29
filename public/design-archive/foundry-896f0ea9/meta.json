@@ -1,0 +1,67 @@
+{
+ "id": "896f0ea9-6f1a-40a6-aba7-fdaa579c7352",
+ "slug": "foundry-896f0ea9",
+ "name": "Foundry",
+ "site_url": "https://foundry.basement.studio",
+ "lastmod": "2026-06-05T03:46:43.319Z",
+ "extracted_at": "2026-06-03T17:52:01.302Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "design",
+ "north_star": "orange-lit type cathedral — a black room where enormous illuminated letterforms hang as exhibits and the only guide rails are pale wireframe borders and one neon marker color.",
+ "fonts": [
+  "JetBrains Mono",
+  "Inter",
+  "Basement Grotesque, FFFLAUTA, B-Mecha, Bunker, Caniche, Carpenter, Curia, Adhesion, Trovador, XER0, Blob",
+  "FFFLAUTA 400",
+  "Basement Grotesque Black Expanded",
+  "Mecha Regular",
+  "Curia Regular",
+  "Adhesion Regular",
+  "Carpenter Regular",
+  "Bunker Regular",
+  "Trovador Regular",
+  "XER0 Regular",
+  "Caniche Regular",
+  "Blob Regular"
+ ],
+ "colors": [
+  {
+   "hex": "#ff4d00",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#121212",
+   "name": "Foundry Black"
+  },
+  {
+   "hex": "#e2e8f0",
+   "name": "Chalk White"
+  },
+  {
+   "hex": "#efefef",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#3a3a3a",
+   "name": "Soot"
+  },
+  {
+   "hex": "#747474",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5b2789f9-33f4-4453-b445-3bcbd5c1719c.mp4",
+  "poster": "https://happyhands.cc/design-archive/foundry-896f0ea9/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/foundry-896f0ea9/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/foundry-896f0ea9/thumbnail.jpg"
+}

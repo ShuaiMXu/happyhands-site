@@ -1,0 +1,62 @@
+{
+ "id": "134cfb76-12e0-4e2e-9995-5a1617190c56",
+ "slug": "claude-type-134cfb76",
+ "name": "Claude Type",
+ "site_url": "https://claudetype.com",
+ "lastmod": "2026-06-05T11:05:17.716Z",
+ "extracted_at": "2026-06-03T21:09:25.067Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "curated gallery on warm parchment",
+ "fonts": [
+  "MagicUIPro"
+ ],
+ "colors": [
+  {
+   "hex": "#fcfbf7",
+   "name": "Parchment Cream"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure Linen"
+  },
+  {
+   "hex": "#e7e4e0",
+   "name": "Warm Linen"
+  },
+  {
+   "hex": "#0d0d0f",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#2b1b1b",
+   "name": "Espresso"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#100401",
+   "name": "Bitter Brown"
+  },
+  {
+   "hex": "#99ff66",
+   "name": "Acid Lime"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b8bf144d-ea17-4e18-95ff-17d31e7c8ef3.mp4",
+  "poster": "https://happyhands.cc/design-archive/claude-type-134cfb76/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/claude-type-134cfb76/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/claude-type-134cfb76/thumbnail.jpg"
+}

@@ -1,0 +1,88 @@
+{
+ "id": "a48ef430-8c6a-42d8-8c53-ab7bb43cf33b",
+ "slug": "apple-espan-a-a48ef430",
+ "name": "Apple (España)",
+ "site_url": "https://www.apple.com/ipad-air",
+ "lastmod": "2026-07-03T11:06:39.174Z",
+ "extracted_at": "2026-07-03T03:33:35.616Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "white gallery vitrine",
+ "fonts": [
+  "SF Pro Text",
+  "SF Pro Display",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#f3f6f6",
+   "name": "Fog Mist"
+  },
+  {
+   "hex": "#fafafc",
+   "name": "Paper Gray"
+  },
+  {
+   "hex": "#e8e8ed",
+   "name": "Silver Smoke"
+  },
+  {
+   "hex": "#dedfe2",
+   "name": "Ash Border"
+  },
+  {
+   "hex": "#6e6e73",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#444545",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#313131",
+   "name": "Steel"
+  },
+  {
+   "hex": "#1d1d1f",
+   "name": "Near Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "True Black"
+  },
+  {
+   "hex": "#0071e3",
+   "name": "Apple Blue"
+  },
+  {
+   "hex": "#0066cc",
+   "name": "Link Blue"
+  },
+  {
+   "hex": "#b64400",
+   "name": "Ember"
+  },
+  {
+   "hex": "#004c94",
+   "name": "Ocean Depth"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e7695905-64b1-41e3-9c50-9d35b549c1db.mp4",
+  "poster": "https://happyhands.cc/design-archive/apple-espan-a-a48ef430/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/apple-espan-a-a48ef430/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/apple-espan-a-a48ef430/thumbnail.jpg"
+}

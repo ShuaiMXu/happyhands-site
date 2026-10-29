@@ -1,0 +1,54 @@
+{
+ "id": "31e00a99-6946-4f07-829a-b0904a39a20d",
+ "slug": "on-energy-31e00a99",
+ "name": "ON.energy",
+ "site_url": "https://www.on.energy",
+ "lastmod": "2026-06-05T02:03:45.155Z",
+ "extracted_at": "2026-06-03T17:12:41.267Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "other",
+ "north_star": "High-voltage caution yellow on midnight steel",
+ "fonts": [
+  "Univers Next Pro"
+ ],
+ "colors": [
+  {
+   "hex": "#fff313",
+   "name": "Caution Yellow"
+  },
+  {
+   "hex": "#000000",
+   "name": "Midnight Steel"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Industrial White"
+  },
+  {
+   "hex": "#333333",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#4b4b4b",
+   "name": "Gunmetal"
+  },
+  {
+   "hex": "#afafaf",
+   "name": "Aluminum"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/147dfa94-4a0f-4bd7-b718-869c14bc318b.mp4",
+  "poster": "https://happyhands.cc/design-archive/on-energy-31e00a99/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/on-energy-31e00a99/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/on-energy-31e00a99/thumbnail.jpg"
+}

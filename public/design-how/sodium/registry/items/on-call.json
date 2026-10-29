@@ -1,0 +1,32 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "on-call",
+ "type": "registry:block",
+ "title": "On call",
+ "description": "A failed job at phone width: its header, the failure in a sentence, its facts in a 2x2 grid, Acknowledge and Retry step.",
+ "author": "design.how",
+ "categories": [
+  "block",
+  "pipelines",
+  "mobile"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/sodium/button.json",
+  "https://design.how/r/sodium/frame.json",
+  "https://design.how/r/sodium/status.json",
+  "https://design.how/r/sodium/status-strip.json",
+  "https://design.how/r/sodium/theme.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/sodium.md",
+  "page": "https://design.how/systems/sodium"
+ },
+ "files": [
+  {
+   "path": "registry/sodium/blocks/on-call.tsx",
+   "content": "'use client';\n\nimport {Button} from '@/components/sodium/ui/button';\nimport {Frame, FrameBody, FrameDescription, FrameHeader, FrameStatus, FrameTitle, FrameValue} from '@/components/sodium/ui/frame';\nimport {Status} from '@/components/sodium/ui/status';\nimport {StatusStrip, StatusStripCell, StatusStripLabel, StatusStripValue} from '@/components/sodium/ui/status-strip';\n\n// A block: the page an on-call engineer opens on their phone when a job fails, sized to its content at phone width\n// with no device frame. One frame: the header names the pipeline and carries its state and time (orders-daily, then\n// Job failed and 02:14 UTC at the end), so the body starts with what to know: one sentence, then the facts as a 2x2\n// StatusStrip ruled into the frame (the same grid Pipeline and Backfill use), then Acknowledge and Retry step, the one\n// slab. Wire `facts` to the failed job.\n\nconst facts = [\n  {label: 'Pipeline', value: 'orders-daily'},\n  {label: 'Step', value: 'write_partitions'},\n  {label: 'Partition', value: '2026-10-18'},\n  {label: 'Attempts', value: '3 of 3'},\n];\n\n/** A failed job at phone width: the failure, its facts, Acknowledge and Retry step. */\nexport function OnCall({className}: {className?: string}) {\n  return (\n    <Frame aria-label=\"Failed job\" className={className ?? 'w-full max-w-sm'}>\n      <FrameHeader>\n        <FrameTitle>orders-daily</FrameTitle>\n        <FrameStatus><Status status=\"fail\" size=\"sm\">Job failed</Status></FrameStatus>\n        <FrameValue meta>02:14 UTC</FrameValue>\n      </FrameHeader>\n      <FrameBody>\n        <FrameDescription>The source dropped a column, so the next run at 03:00 will fail the same way.</FrameDescription>\n      </FrameBody>\n      <FrameBody padding=\"none\">\n        <StatusStrip variant=\"plain\" label=\"Failed job\">\n          {facts.map(f => <StatusStripCell key={f.label}>\n            <StatusStripLabel>{f.label}</StatusStripLabel>\n            <StatusStripValue>{f.value}</StatusStripValue>\n          </StatusStripCell>)}\n        </StatusStrip>\n      </FrameBody>\n      <FrameBody>\n        <div className=\"grid grid-cols-2 gap-2\">\n          <Button variant=\"secondary\">Acknowledge</Button>\n          <Button>Retry step</Button>\n        </div>\n      </FrameBody>\n    </Frame>\n  );\n}\n",
+   "type": "registry:block",
+   "target": "@components/sodium/blocks/on-call.tsx"
+  }
+ ]
+}

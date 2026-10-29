@@ -1,0 +1,113 @@
+{
+ "id": "efcb73cb-b84a-4ae7-9a2b-e1116f79f130",
+ "slug": "clickuptm-efcb73cb",
+ "name": "ClickUp™",
+ "site_url": "https://www.clickup.com",
+ "lastmod": "2026-07-03T10:53:30.985Z",
+ "extracted_at": "2026-07-03T03:26:25.681Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Hardworking dashboard on white marble. The page is a product brochure for a productivity tool, so the visual language borrows from the product itself: dense lists, status pills, avatar clusters, and bold typographic claims that read like a product spec sheet at exhibition scale.",
+ "fonts": [
+  "Plus Jakarta Sans",
+  "Inter",
+  "Sometype Mono",
+  "SF Pro"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Signal White"
+  },
+  {
+   "hex": "#202020",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#090c1d",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#2a2a2a",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#646464",
+   "name": "Slate"
+  },
+  {
+   "hex": "#838383",
+   "name": "Ash"
+  },
+  {
+   "hex": "#b3b3b3",
+   "name": "Fog"
+  },
+  {
+   "hex": "#d4d4d4",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#e8e8e8",
+   "name": "Bone"
+  },
+  {
+   "hex": "#f8f9fa",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e9ebf0",
+   "name": "Plaster"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Mercury"
+  },
+  {
+   "hex": "#6647f0",
+   "name": "Brand Violet"
+  },
+  {
+   "hex": "#0091ff",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#6ee7b7",
+   "name": "Mint"
+  },
+  {
+   "hex": "#00c07a",
+   "name": "Emerald"
+  },
+  {
+   "hex": "#16c0a4",
+   "name": "Teal Tag"
+  },
+  {
+   "hex": "#7d5be7",
+   "name": "Rainbow Conic"
+  },
+  {
+   "hex": "#40ddff",
+   "name": "Primary Gradient"
+  },
+  {
+   "hex": "#111111",
+   "name": "Dark Fade"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f4fc45bf-cf41-4fa9-8474-d431ceb3e1a5.mp4",
+  "poster": "https://happyhands.cc/design-archive/clickuptm-efcb73cb/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/clickuptm-efcb73cb/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/clickuptm-efcb73cb/thumbnail.jpg"
+}

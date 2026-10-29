@@ -1,0 +1,75 @@
+{
+ "id": "7ce6bd42-e498-47c0-ad02-7b3a0f5d94e0",
+ "slug": "fluz-7ce6bd42",
+ "name": "Fluz",
+ "site_url": "https://fluz.app/us",
+ "lastmod": "2026-06-05T03:56:39.459Z",
+ "extracted_at": "2026-06-03T18:02:52.380Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "Gemstone vault on warm parchment",
+ "fonts": [
+  "Greed-SemiBold",
+  "Greed Condensed",
+  "Area",
+  "Greed Condensed",
+  "Arial",
+  "Greed SemiBold"
+ ],
+ "colors": [
+  {
+   "hex": "#1a0000",
+   "name": "Espresso Ink"
+  },
+  {
+   "hex": "#a6b4f7",
+   "name": "Prism Spectrum"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Canvas White"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Linen Mist"
+  },
+  {
+   "hex": "#ededec",
+   "name": "Bone"
+  },
+  {
+   "hex": "#514f4c",
+   "name": "Taupe Slate"
+  },
+  {
+   "hex": "#aeaea6",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#3a3a3a",
+   "name": "Charcoal Bronze"
+  },
+  {
+   "hex": "#221919",
+   "name": "Obsidian Roast"
+  },
+  {
+   "hex": "#98bbf4",
+   "name": "Iris Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a496bbf8-6ec4-4879-b0af-4e59a045e5fb.mp4",
+  "poster": "https://happyhands.cc/design-archive/fluz-7ce6bd42/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/fluz-7ce6bd42/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/fluz-7ce6bd42/thumbnail.jpg"
+}

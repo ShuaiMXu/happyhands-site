@@ -1,0 +1,67 @@
+{
+ "id": "36d939b8-e3b5-45c7-8d81-f7c4d7c8fdaa",
+ "slug": "drop-36d939b8",
+ "name": "Drop",
+ "site_url": "https://www.usedrop.io",
+ "lastmod": "2026-06-05T09:14:49.382Z",
+ "extracted_at": "2026-06-03T20:22:36.477Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "lavender editorial spread in bold serif. Lavender dusk washing over stark white pages, anchored by a confident slab-serif voice that commands the page like a broadsheet headline.",
+ "fonts": [
+  "ABC Normal",
+  "Ivar Display"
+ ],
+ "colors": [
+  {
+   "hex": "#101010",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#1a1a1a",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#e5ede4",
+   "name": "Mint Cream"
+  },
+  {
+   "hex": "#c7d8c5",
+   "name": "Sage Mist"
+  },
+  {
+   "hex": "#9b9b9b",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#b8afda",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#eb652b",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#f6f361",
+   "name": "Electric Yellow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5d7b9ccc-fff9-43e3-99ee-1fe9c206c483.mp4",
+  "poster": "https://happyhands.cc/design-archive/drop-36d939b8/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/drop-36d939b8/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/drop-36d939b8/thumbnail.jpg"
+}

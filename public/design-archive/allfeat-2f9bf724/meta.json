@@ -1,0 +1,62 @@
+{
+ "id": "2f9bf724-3829-4c62-bcc8-391b32925d1b",
+ "slug": "allfeat-2f9bf724",
+ "name": "Allfeat",
+ "site_url": "https://allfeat.org",
+ "lastmod": "2026-06-03T21:51:30.357Z",
+ "extracted_at": "2026-06-03T21:51:30.352Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "crypto",
+ "north_star": "Backstage monitor at midnight — one teal stage light cutting through warm cream type on charcoal glass.",
+ "fonts": [
+  "TASA Orbiter"
+ ],
+ "colors": [
+  {
+   "hex": "#151515",
+   "name": "Charcoal Stage"
+  },
+  {
+   "hex": "#fffbeb",
+   "name": "Warm Cream"
+  },
+  {
+   "hex": "#383835",
+   "name": "Card Edge"
+  },
+  {
+   "hex": "#b8b8b8",
+   "name": "Mute Cream"
+  },
+  {
+   "hex": "#a6a6a6",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#504f4a",
+   "name": "Bronze Veil"
+  },
+  {
+   "hex": "#00b18c",
+   "name": "Signal Teal"
+  },
+  {
+   "hex": "#ff4a5f",
+   "name": "Ember Coral"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/55c37c5a-26d0-4725-8af8-9fb0e1c18897.mp4",
+  "poster": "https://happyhands.cc/design-archive/allfeat-2f9bf724/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/allfeat-2f9bf724/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/allfeat-2f9bf724/thumbnail.jpg"
+}

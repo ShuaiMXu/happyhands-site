@@ -1,0 +1,79 @@
+{
+ "id": "d2c0ed7b-c649-4d77-91de-1bd69dd10a9e",
+ "slug": "visual-d2c0ed7b",
+ "name": "Visual",
+ "site_url": "https://designstripe.com",
+ "lastmod": "2026-06-05T01:35:37.983Z",
+ "extracted_at": "2026-06-03T16:36:25.256Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Warm editorial zine. Cream paper, serif posters, mono marginalia, a single yellow highlighter mark.",
+ "fonts": [
+  "Serif (custom — resembles a high-contrast modern editorial serif like Reckless Neue, GT Sectra, or PP Editorial New)",
+  "Mono (custom — clean geometric monospace)"
+ ],
+ "colors": [
+  {
+   "hex": "#f6f6f4",
+   "name": "Vellum"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#2c2c26",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#d0d0c8",
+   "name": "Ash"
+  },
+  {
+   "hex": "#57584b",
+   "name": "Olive Char"
+  },
+  {
+   "hex": "#6d6e5e",
+   "name": "Lichen"
+  },
+  {
+   "hex": "#979886",
+   "name": "Sage"
+  },
+  {
+   "hex": "#aaab9c",
+   "name": "Moss"
+  },
+  {
+   "hex": "#e8e7d9",
+   "name": "Bone"
+  },
+  {
+   "hex": "#fff347",
+   "name": "Highlighter Yellow"
+  },
+  {
+   "hex": "#aaa674",
+   "name": "Khaki Olive"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/cb2eaca9-66a4-4666-a1a8-d19dabd82223.mp4",
+  "poster": "https://happyhands.cc/design-archive/visual-d2c0ed7b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/visual-d2c0ed7b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/visual-d2c0ed7b/thumbnail.jpg"
+}

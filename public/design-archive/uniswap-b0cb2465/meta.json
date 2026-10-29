@@ -1,0 +1,94 @@
+{
+ "id": "b0cb2465-ad7b-4657-a2e4-b8c793355cd3",
+ "slug": "uniswap-b0cb2465",
+ "name": "Uniswap",
+ "site_url": "https://app.uniswap.org",
+ "lastmod": "2026-06-03T21:04:44.172Z",
+ "extracted_at": "2026-06-03T21:04:44.163Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "crypto",
+ "north_star": "Pink confetti over a clean white trading desk.",
+ "fonts": [
+  "Basel"
+ ],
+ "colors": [
+  {
+   "hex": "#ff37c7",
+   "name": "Uniswap Pink"
+  },
+  {
+   "hex": "#131313",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#222222",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#6a6a6a",
+   "name": "Slate"
+  },
+  {
+   "hex": "#acacac",
+   "name": "Ash"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Frost"
+  },
+  {
+   "hex": "#000000",
+   "name": "True Black"
+  },
+  {
+   "hex": "#fef4ff",
+   "name": "Blush Mist"
+  },
+  {
+   "hex": "#ff4d00",
+   "name": "Ember"
+  },
+  {
+   "hex": "#8251fb",
+   "name": "Iris"
+  },
+  {
+   "hex": "#f50db4",
+   "name": "Magenta"
+  },
+  {
+   "hex": "#2abdff",
+   "name": "Sky"
+  },
+  {
+   "hex": "#00c3a0",
+   "name": "Mint"
+  },
+  {
+   "hex": "#e01a2b",
+   "name": "Crimson"
+  },
+  {
+   "hex": "#0c8911",
+   "name": "Forest"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/09d071b5-71e0-49d3-bc2e-f31a616c0d0d.mp4",
+  "poster": "https://happyhands.cc/design-archive/uniswap-b0cb2465/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/uniswap-b0cb2465/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/uniswap-b0cb2465/thumbnail.jpg"
+}

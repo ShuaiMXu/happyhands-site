@@ -1,0 +1,71 @@
+{
+ "id": "d9a60077-619a-4cb7-95ed-0c428c2b51ed",
+ "slug": "incident-d9a60077",
+ "name": "Incident",
+ "site_url": "https://incident.io",
+ "lastmod": "2026-06-05T09:39:33.461Z",
+ "extracted_at": "2026-06-03T20:44:32.574Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "Technical broadsheet on concrete. Times-serif headlines float on a warm-gray page with hairline black rules and a single orange flare that breaks the calm like a signal beacon.",
+ "fonts": [
+  "Times (system serif)",
+  "Arial (system sans)"
+ ],
+ "colors": [
+  {
+   "hex": "#f25533",
+   "name": "Signal Orange"
+  },
+  {
+   "hex": "#efefef",
+   "name": "Concrete"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#161618",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#dadada",
+   "name": "Mist"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Fog"
+  },
+  {
+   "hex": "#e4d9c8",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#ff492c",
+   "name": "Alert Red"
+  },
+  {
+   "hex": "#f1641e",
+   "name": "Ember"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c991c12c-5a34-45bd-bd86-26fd18626045.mp4",
+  "poster": "https://happyhands.cc/design-archive/incident-d9a60077/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/incident-d9a60077/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/incident-d9a60077/thumbnail.jpg"
+}

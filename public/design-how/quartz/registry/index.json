@@ -1,0 +1,2653 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry.json",
+ "name": "quartz",
+ "homepage": "https://design.how/systems/quartz",
+ "items": [
+  {
+   "name": "button",
+   "type": "registry:ui",
+   "title": "Button",
+   "description": "Starts an action now. States: pressed and pending, which keeps the label.",
+   "author": "design.how",
+   "categories": [
+    "actions"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/button.md",
+    "page": "https://design.how/systems/quartz/components/button"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/button.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/button.tsx"
+    }
+   ]
+  },
+  {
+   "name": "button-group",
+   "type": "registry:ui",
+   "title": "Button group",
+   "description": "Joins related buttons, including a split menu.",
+   "author": "design.how",
+   "categories": [
+    "actions"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/overlay.json",
+    "https://design.how/r/quartz/portal.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/button-group.md",
+    "page": "https://design.how/systems/quartz/components/button-group"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/button-group.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/button-group.tsx"
+    }
+   ]
+  },
+  {
+   "name": "copy-button",
+   "type": "registry:ui",
+   "title": "Copy button",
+   "description": "Copies a value and confirms in place.",
+   "author": "design.how",
+   "categories": [
+    "actions"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/copy-button.md",
+    "page": "https://design.how/systems/quartz/components/copy-button"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/copy-button.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/copy-button.tsx"
+    }
+   ]
+  },
+  {
+   "name": "input",
+   "type": "registry:ui",
+   "title": "Input",
+   "description": "One line of text. Variants: text, password, secret, copy, search, number and OTP, with prefix and suffix slots.",
+   "author": "design.how",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/copy-button.json",
+    "https://design.how/r/quartz/field.json",
+    "https://design.how/r/quartz/format.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/kbd.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/input.md",
+    "page": "https://design.how/systems/quartz/components/input"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/input.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/input.tsx"
+    },
+    {
+     "path": "registry/quartz/ui/input/parts.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/input/parts.tsx"
+    },
+    {
+     "path": "registry/quartz/ui/input/password.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/input/password.tsx"
+    },
+    {
+     "path": "registry/quartz/ui/input/secret.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/input/secret.tsx"
+    },
+    {
+     "path": "registry/quartz/ui/input/copy.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/input/copy.tsx"
+    },
+    {
+     "path": "registry/quartz/ui/input/search.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/input/search.tsx"
+    },
+    {
+     "path": "registry/quartz/ui/input/number.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/input/number.tsx"
+    },
+    {
+     "path": "registry/quartz/ui/input/otp.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/input/otp.tsx"
+    }
+   ]
+  },
+  {
+   "name": "textarea",
+   "type": "registry:ui",
+   "title": "Textarea",
+   "description": "Several lines of text that grow.",
+   "author": "design.how",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/field.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/textarea.md",
+    "page": "https://design.how/systems/quartz/components/textarea"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/textarea.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/textarea.tsx"
+    }
+   ]
+  },
+  {
+   "name": "field",
+   "type": "registry:ui",
+   "title": "Field",
+   "description": "Label, control, hint and error as one unit, plus the Form part.",
+   "author": "design.how",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/field.md",
+    "page": "https://design.how/systems/quartz/components/field"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/field.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/field.tsx"
+    }
+   ]
+  },
+  {
+   "name": "date-picker",
+   "type": "registry:ui",
+   "title": "Date picker",
+   "description": "A date, range, date-time or time, with Calendar as its popup part.",
+   "author": "design.how",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/field.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/input.json",
+    "https://design.how/r/quartz/overlay.json",
+    "https://design.how/r/quartz/portal.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/date-picker.md",
+    "page": "https://design.how/systems/quartz/components/date-picker"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/date-picker.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/date-picker.tsx"
+    }
+   ]
+  },
+  {
+   "name": "combobox",
+   "type": "registry:ui",
+   "title": "Combobox",
+   "description": "A searchable choice, single, multiple or creatable.",
+   "author": "design.how",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/badge.json",
+    "https://design.how/r/quartz/empty-state.json",
+    "https://design.how/r/quartz/field.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/input.json",
+    "https://design.how/r/quartz/kbd.json",
+    "https://design.how/r/quartz/portal.json",
+    "https://design.how/r/quartz/select.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/combobox.md",
+    "page": "https://design.how/systems/quartz/components/combobox"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/combobox.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/combobox.tsx"
+    }
+   ]
+  },
+  {
+   "name": "checkbox",
+   "type": "registry:ui",
+   "title": "Checkbox",
+   "description": "One option on or off, with a mixed state.",
+   "author": "design.how",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/checkbox.md",
+    "page": "https://design.how/systems/quartz/components/checkbox"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/checkbox.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/checkbox.tsx"
+    }
+   ]
+  },
+  {
+   "name": "radio-group",
+   "type": "registry:ui",
+   "title": "Radio group",
+   "description": "One choice from a short visible list.",
+   "author": "design.how",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/radio-group.md",
+    "page": "https://design.how/systems/quartz/components/radio-group"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/radio-group.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/radio-group.tsx"
+    }
+   ]
+  },
+  {
+   "name": "switch",
+   "type": "registry:ui",
+   "title": "Switch",
+   "description": "A setting that applies immediately.",
+   "author": "design.how",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/switch.md",
+    "page": "https://design.how/systems/quartz/components/switch"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/switch.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/switch.tsx"
+    }
+   ]
+  },
+  {
+   "name": "slider",
+   "type": "registry:ui",
+   "title": "Slider",
+   "description": "A value or range on a track.",
+   "author": "design.how",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/direction.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/slider.md",
+    "page": "https://design.how/systems/quartz/components/slider"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/slider.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/slider.tsx"
+    }
+   ]
+  },
+  {
+   "name": "select",
+   "type": "registry:ui",
+   "title": "Select",
+   "description": "One choice from a popup list, or the native select.",
+   "author": "design.how",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/badge.json",
+    "https://design.how/r/quartz/field.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/overlay.json",
+    "https://design.how/r/quartz/portal.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/select.md",
+    "page": "https://design.how/systems/quartz/components/select"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/select.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/select.tsx"
+    }
+   ]
+  },
+  {
+   "name": "segmented-control",
+   "type": "registry:ui",
+   "title": "Segmented control",
+   "description": "Two to five views, single or multiple.",
+   "author": "design.how",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/segmented-control.md",
+    "page": "https://design.how/systems/quartz/components/segmented-control"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/segmented-control.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/segmented-control.tsx"
+    }
+   ]
+  },
+  {
+   "name": "badge",
+   "type": "registry:ui",
+   "title": "Badge",
+   "description": "A static label for a count, category or kind, shown as a tinted word.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/badge.md",
+    "page": "https://design.how/systems/quartz/components/badge"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/badge.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/badge.tsx"
+    }
+   ]
+  },
+  {
+   "name": "chip",
+   "type": "registry:ui",
+   "title": "Chip",
+   "description": "An interactive token: filter toggle, removable value or menu trigger.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/chip.md",
+    "page": "https://design.how/systems/quartz/components/chip"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/chip.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/chip.tsx"
+    }
+   ]
+  },
+  {
+   "name": "status",
+   "type": "registry:ui",
+   "title": "Status",
+   "description": "Idle, queued, running, waiting, ok, warn and fail, as a mark or a word.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/status.md",
+    "page": "https://design.how/systems/quartz/components/status"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/status.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/status.tsx"
+    }
+   ]
+  },
+  {
+   "name": "stat",
+   "type": "registry:ui",
+   "title": "Stat",
+   "description": "A plain numeral with its label, delta and trend.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/chart.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/stat.md",
+    "page": "https://design.how/systems/quartz/components/stat"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/stat.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/stat.tsx"
+    }
+   ]
+  },
+  {
+   "name": "avatar",
+   "type": "registry:ui",
+   "title": "Avatar",
+   "description": "A person, agent or source icon, alone or grouped.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/status.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/truncate.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/avatar.md",
+    "page": "https://design.how/systems/quartz/components/avatar"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/avatar.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/avatar.tsx"
+    }
+   ]
+  },
+  {
+   "name": "kbd",
+   "type": "registry:ui",
+   "title": "Kbd",
+   "description": "A key or a shortcut.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/kbd.md",
+    "page": "https://design.how/systems/quartz/components/kbd"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/kbd.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/kbd.tsx"
+    }
+   ]
+  },
+  {
+   "name": "relative-time",
+   "type": "registry:ui",
+   "title": "Relative time",
+   "description": "\"3m ago\", with the exact time on hover and focus.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/truncate.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/relative-time.md",
+    "page": "https://design.how/systems/quartz/components/relative-time"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/relative-time.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/relative-time.tsx"
+    }
+   ]
+  },
+  {
+   "name": "truncate",
+   "type": "registry:ui",
+   "title": "Truncate",
+   "description": "Long IDs and text cut at the middle or the end, with the full value reachable.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/portal.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/tooltip.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/truncate.md",
+    "page": "https://design.how/systems/quartz/components/truncate"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/truncate.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/truncate.tsx"
+    }
+   ]
+  },
+  {
+   "name": "item",
+   "type": "registry:ui",
+   "title": "Item",
+   "description": "The list row: media, title, meta, status and actions.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/status.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/item.md",
+    "page": "https://design.how/systems/quartz/components/item"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/item.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/item.tsx"
+    }
+   ]
+  },
+  {
+   "name": "card",
+   "type": "registry:ui",
+   "title": "Card",
+   "description": "A white working surface for one topic, optionally collapsible.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/badge.json",
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/card.md",
+    "page": "https://design.how/systems/quartz/components/card"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/card.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/card.tsx"
+    }
+   ]
+  },
+  {
+   "name": "panel",
+   "type": "registry:ui",
+   "title": "Panel",
+   "description": "A grey widget for an overview or settings screen: header on the grey, content in a white body.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/panel.md",
+    "page": "https://design.how/systems/quartz/components/panel"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/panel.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/panel.tsx"
+    }
+   ]
+  },
+  {
+   "name": "data-list",
+   "type": "registry:ui",
+   "title": "Data list",
+   "description": "Label and value pairs for a detail view.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/format.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/data-list.md",
+    "page": "https://design.how/systems/quartz/components/data-list"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/data-list.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/data-list.tsx"
+    }
+   ]
+  },
+  {
+   "name": "alert",
+   "type": "registry:ui",
+   "title": "Alert",
+   "description": "A message about the current view, inline or across the page.",
+   "author": "design.how",
+   "categories": [
+    "feedback"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/alert.md",
+    "page": "https://design.how/systems/quartz/components/alert"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/alert.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/alert.tsx"
+    }
+   ]
+  },
+  {
+   "name": "toast",
+   "type": "registry:ui",
+   "title": "Toast",
+   "description": "Confirms an action or reports a background event, then leaves.",
+   "author": "design.how",
+   "categories": [
+    "feedback"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/css-var.json",
+    "https://design.how/r/quartz/direction.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/portal.json",
+    "https://design.how/r/quartz/status.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/toast.md",
+    "page": "https://design.how/systems/quartz/components/toast"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/toast.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/toast.tsx"
+    }
+   ]
+  },
+  {
+   "name": "empty-state",
+   "type": "registry:ui",
+   "title": "Empty state",
+   "description": "A region with nothing to show, that failed, or that the person cannot see.",
+   "author": "design.how",
+   "categories": [
+    "feedback"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/badge.json",
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/empty-state.md",
+    "page": "https://design.how/systems/quartz/components/empty-state"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/empty-state.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/empty-state.tsx"
+    }
+   ]
+  },
+  {
+   "name": "skeleton",
+   "type": "registry:ui",
+   "title": "Skeleton",
+   "description": "Holds the shape of loading content.",
+   "author": "design.how",
+   "categories": [
+    "feedback"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/css-var.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/skeleton.md",
+    "page": "https://design.how/systems/quartz/components/skeleton"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/skeleton.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/skeleton.tsx"
+    }
+   ]
+  },
+  {
+   "name": "progress",
+   "type": "registry:ui",
+   "title": "Progress",
+   "description": "Bar, ring, steps or meter.",
+   "author": "design.how",
+   "categories": [
+    "feedback"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/status.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/progress.md",
+    "page": "https://design.how/systems/quartz/components/progress"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/progress.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/progress.tsx"
+    }
+   ]
+  },
+  {
+   "name": "dialog",
+   "type": "registry:ui",
+   "title": "Dialog",
+   "description": "Modal work, with alert and typed-confirm variants.",
+   "author": "design.how",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/badge.json",
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/field.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/overlay.json",
+    "https://design.how/r/quartz/portal.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/dialog.md",
+    "page": "https://design.how/systems/quartz/components/dialog"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/dialog.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/dialog.tsx"
+    }
+   ]
+  },
+  {
+   "name": "sheet",
+   "type": "registry:ui",
+   "title": "Sheet",
+   "description": "A panel from an edge, modal or docked.",
+   "author": "design.how",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/direction.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/overlay.json",
+    "https://design.how/r/quartz/portal.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/sheet.md",
+    "page": "https://design.how/systems/quartz/components/sheet"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/sheet.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/sheet.tsx"
+    }
+   ]
+  },
+  {
+   "name": "popover",
+   "type": "registry:ui",
+   "title": "Popover",
+   "description": "Anchored rich content, including the info toggletip and the hover preview.",
+   "author": "design.how",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/overlay.json",
+    "https://design.how/r/quartz/portal.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/popover.md",
+    "page": "https://design.how/systems/quartz/components/popover"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/popover.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/popover.tsx"
+    }
+   ]
+  },
+  {
+   "name": "tooltip",
+   "type": "registry:ui",
+   "title": "Tooltip",
+   "description": "Names an icon button or shows a shortcut; never holds anything essential.",
+   "author": "design.how",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/children.json",
+    "https://design.how/r/quartz/kbd.json",
+    "https://design.how/r/quartz/portal.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/tooltip.md",
+    "page": "https://design.how/systems/quartz/components/tooltip"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/tooltip.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/tooltip.tsx"
+    }
+   ]
+  },
+  {
+   "name": "dropdown-menu",
+   "type": "registry:ui",
+   "title": "Dropdown menu",
+   "description": "Actions from a trigger or a right click.",
+   "author": "design.how",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/kbd.json",
+    "https://design.how/r/quartz/overlay.json",
+    "https://design.how/r/quartz/portal.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/dropdown-menu.md",
+    "page": "https://design.how/systems/quartz/components/dropdown-menu"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/dropdown-menu.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/dropdown-menu.tsx"
+    }
+   ]
+  },
+  {
+   "name": "command",
+   "type": "registry:ui",
+   "title": "Command",
+   "description": "A searchable command list, the core of the command palette.",
+   "author": "design.how",
+   "categories": [
+    "overlays"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/dialog.json",
+    "https://design.how/r/quartz/empty-state.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/kbd.json",
+    "https://design.how/r/quartz/overlay.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/command.md",
+    "page": "https://design.how/systems/quartz/components/command"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/command.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/command.tsx"
+    }
+   ]
+  },
+  {
+   "name": "tabs",
+   "type": "registry:ui",
+   "title": "Tabs",
+   "description": "Panels of one view, with closable and reorderable document tabs.",
+   "author": "design.how",
+   "categories": [
+    "navigation"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/css-var.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/tabs.md",
+    "page": "https://design.how/systems/quartz/components/tabs"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/tabs.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/tabs.tsx"
+    }
+   ]
+  },
+  {
+   "name": "breadcrumb",
+   "type": "registry:ui",
+   "title": "Breadcrumb",
+   "description": "Where the page sits.",
+   "author": "design.how",
+   "categories": [
+    "navigation"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/dropdown-menu.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/breadcrumb.md",
+    "page": "https://design.how/systems/quartz/components/breadcrumb"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/breadcrumb.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/breadcrumb.tsx"
+    }
+   ]
+  },
+  {
+   "name": "pagination",
+   "type": "registry:ui",
+   "title": "Pagination",
+   "description": "Moves through pages of results.",
+   "author": "design.how",
+   "categories": [
+    "navigation"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/pagination.md",
+    "page": "https://design.how/systems/quartz/components/pagination"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/pagination.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/pagination.tsx"
+    }
+   ]
+  },
+  {
+   "name": "collapsible",
+   "type": "registry:ui",
+   "title": "Collapsible",
+   "description": "Shows and hides one region, or a group of them.",
+   "author": "design.how",
+   "categories": [
+    "layout"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/collapsible.md",
+    "page": "https://design.how/systems/quartz/components/collapsible"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/collapsible.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/collapsible.tsx"
+    }
+   ]
+  },
+  {
+   "name": "page-header",
+   "type": "registry:ui",
+   "title": "Page header",
+   "description": "Support file: title, description, stats and actions.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/page-header.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/page-header.tsx"
+    }
+   ]
+  },
+  {
+   "name": "table",
+   "type": "registry:ui",
+   "title": "Table",
+   "description": "Rows and columns with sort, selection, row actions and virtualization.",
+   "author": "design.how",
+   "categories": [
+    "data"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "@tanstack/react-table@^8.21.3",
+    "@tanstack/react-virtual@^3.14.13"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/badge.json",
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/checkbox.json",
+    "https://design.how/r/quartz/css-var.json",
+    "https://design.how/r/quartz/dropdown-menu.json",
+    "https://design.how/r/quartz/empty-state.json",
+    "https://design.how/r/quartz/format.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/overlay.json",
+    "https://design.how/r/quartz/portal.json",
+    "https://design.how/r/quartz/scroll-focus.json",
+    "https://design.how/r/quartz/status.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/use-offscreen.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/table.md",
+    "page": "https://design.how/systems/quartz/components/table"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/table.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/table.tsx"
+    }
+   ]
+  },
+  {
+   "name": "filter-bar",
+   "type": "registry:ui",
+   "title": "Filter bar",
+   "description": "Search plus filter chips and clear-all.",
+   "author": "design.how",
+   "categories": [
+    "data"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/chip.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/input.json",
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/overlay.json",
+    "https://design.how/r/quartz/portal.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/filter-bar.md",
+    "page": "https://design.how/systems/quartz/components/filter-bar"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/filter-bar.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/filter-bar.tsx"
+    }
+   ]
+  },
+  {
+   "name": "timeline",
+   "type": "registry:ui",
+   "title": "Timeline",
+   "description": "Shows when each step of a run started and how long it took, with the slow and failed ones marked.",
+   "author": "design.how",
+   "categories": [
+    "data"
+   ],
+   "dependencies": [
+    "@tanstack/react-virtual@^3.14.13"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/chart.json",
+    "https://design.how/r/quartz/format.json",
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/status.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/use-offscreen.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/timeline.md",
+    "page": "https://design.how/systems/quartz/components/timeline"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/timeline.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/timeline.tsx"
+    }
+   ]
+  },
+  {
+   "name": "code-block",
+   "type": "registry:ui",
+   "title": "Code block",
+   "description": "Highlighted code, one-line commands and inline code, with copy.",
+   "author": "design.how",
+   "categories": [
+    "code"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/copy-button.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/input.json",
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/code-block.md",
+    "page": "https://design.how/systems/quartz/components/code-block"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/code-block.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/code-block.tsx"
+    }
+   ]
+  },
+  {
+   "name": "json-view",
+   "type": "registry:ui",
+   "title": "JSON view",
+   "description": "Foldable structured output.",
+   "author": "design.how",
+   "categories": [
+    "code"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/badge.json",
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/code-block.json",
+    "https://design.how/r/quartz/copy-button.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/scroll-focus.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/json-view.md",
+    "page": "https://design.how/systems/quartz/components/json-view"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/json-view.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/json-view.tsx"
+    }
+   ]
+  },
+  {
+   "name": "log-viewer",
+   "type": "registry:ui",
+   "title": "Log viewer",
+   "description": "Streaming lines with levels, search and follow.",
+   "author": "design.how",
+   "categories": [
+    "code"
+   ],
+   "dependencies": [
+    "@tanstack/react-virtual@^3.14.13"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/badge.json",
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/code-block.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/status.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/use-offscreen.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/log-viewer.md",
+    "page": "https://design.how/systems/quartz/components/log-viewer"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/log-viewer.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/log-viewer.tsx"
+    }
+   ]
+  },
+  {
+   "name": "attachment",
+   "type": "registry:ui",
+   "title": "Attachment",
+   "description": "A file in a form, prompt or message, with drop zone and image tile.",
+   "author": "design.how",
+   "categories": [
+    "media"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/format.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/truncate.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/attachment.md",
+    "page": "https://design.how/systems/quartz/components/attachment"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/attachment.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/attachment.tsx"
+    }
+   ]
+  },
+  {
+   "name": "chart",
+   "type": "registry:ui",
+   "title": "Chart",
+   "description": "Line, bar, sparkline or status buckets, with frame states, legend, tooltip and data table built in.",
+   "author": "design.how",
+   "categories": [
+    "media"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/css-var.json",
+    "https://design.how/r/quartz/direction.json",
+    "https://design.how/r/quartz/format.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/portal.json",
+    "https://design.how/r/quartz/scroll-focus.json",
+    "https://design.how/r/quartz/segmented-control.json",
+    "https://design.how/r/quartz/status.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/use-offscreen.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/chart.md",
+    "page": "https://design.how/systems/quartz/components/chart"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/chart.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/chart.tsx"
+    },
+    {
+     "path": "registry/quartz/ui/chart-scale.ts",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/chart-scale.ts"
+    },
+    {
+     "path": "registry/quartz/ui/chart-parts.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/chart-parts.tsx"
+    },
+    {
+     "path": "registry/quartz/ui/chart-plot.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/chart-plot.tsx"
+    },
+    {
+     "path": "registry/quartz/ui/chart-strip.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/chart-strip.tsx"
+    }
+   ]
+  },
+  {
+   "name": "message",
+   "type": "registry:component",
+   "title": "Message",
+   "description": "One turn from the person or the agent, plus dividers.",
+   "author": "design.how",
+   "categories": [
+    "agent"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/avatar.json",
+    "https://design.how/r/quartz/badge.json",
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/status.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/message.md",
+    "page": "https://design.how/systems/quartz/components/message"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ai/message.tsx",
+     "type": "registry:component",
+     "target": "@components/quartz/ai/message.tsx"
+    }
+   ]
+  },
+  {
+   "name": "conversation",
+   "type": "registry:component",
+   "title": "Conversation",
+   "description": "Keeps a streaming thread pinned to the bottom until the person scrolls.",
+   "author": "design.how",
+   "categories": [
+    "agent"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/message.json",
+    "https://design.how/r/quartz/status.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/tool-call.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/conversation.md",
+    "page": "https://design.how/systems/quartz/components/conversation"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ai/conversation.tsx",
+     "type": "registry:component",
+     "target": "@components/quartz/ai/conversation.tsx"
+    }
+   ]
+  },
+  {
+   "name": "response",
+   "type": "registry:component",
+   "title": "Response",
+   "description": "Markdown that renders as it streams.",
+   "author": "design.how",
+   "categories": [
+    "agent"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/copy-button.json",
+    "https://design.how/r/quartz/format.json",
+    "https://design.how/r/quartz/status.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/response.md",
+    "page": "https://design.how/systems/quartz/components/response"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ai/response.tsx",
+     "type": "registry:component",
+     "target": "@components/quartz/ai/response.tsx"
+    }
+   ]
+  },
+  {
+   "name": "reasoning",
+   "type": "registry:component",
+   "title": "Reasoning",
+   "description": "The model's thinking, open while it streams and folded when done.",
+   "author": "design.how",
+   "categories": [
+    "agent"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/activity.json",
+    "https://design.how/r/quartz/conversation.json",
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/response.json",
+    "https://design.how/r/quartz/scroll-focus.json",
+    "https://design.how/r/quartz/status.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/reasoning.md",
+    "page": "https://design.how/systems/quartz/components/reasoning"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ai/reasoning.tsx",
+     "type": "registry:component",
+     "target": "@components/quartz/ai/reasoning.tsx"
+    }
+   ]
+  },
+  {
+   "name": "tool-call",
+   "type": "registry:component",
+   "title": "Tool call",
+   "description": "One call with its name, arguments, status, duration and output.",
+   "author": "design.how",
+   "categories": [
+    "agent"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/activity.json",
+    "https://design.how/r/quartz/badge.json",
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/format.json",
+    "https://design.how/r/quartz/panel.json",
+    "https://design.how/r/quartz/status.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/use-focus-when-replaced.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/tool-call.md",
+    "page": "https://design.how/systems/quartz/components/tool-call"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ai/tool-call.tsx",
+     "type": "registry:component",
+     "target": "@components/quartz/ai/tool-call.tsx"
+    },
+    {
+     "path": "registry/quartz/ai/request-ticker.tsx",
+     "type": "registry:component",
+     "target": "@components/quartz/ai/request-ticker.tsx"
+    }
+   ]
+  },
+  {
+   "name": "activity",
+   "type": "registry:component",
+   "title": "Activity",
+   "description": "What the agent is doing now, with the first-wait loader.",
+   "author": "design.how",
+   "categories": [
+    "agent"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/status.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/activity.md",
+    "page": "https://design.how/systems/quartz/components/activity"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ai/activity.tsx",
+     "type": "registry:component",
+     "target": "@components/quartz/ai/activity.tsx"
+    }
+   ]
+  },
+  {
+   "name": "prompt-input",
+   "type": "registry:component",
+   "title": "Prompt input",
+   "description": "The composer editor with mentions, slash commands and voice.",
+   "author": "design.how",
+   "categories": [
+    "agent"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/attachment.json",
+    "https://design.how/r/quartz/badge.json",
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/css-var.json",
+    "https://design.how/r/quartz/empty-state.json",
+    "https://design.how/r/quartz/field.json",
+    "https://design.how/r/quartz/format.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/mention.json",
+    "https://design.how/r/quartz/overlay.json",
+    "https://design.how/r/quartz/portal.json",
+    "https://design.how/r/quartz/send-button.json",
+    "https://design.how/r/quartz/status.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/tooltip.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/prompt-input.md",
+    "page": "https://design.how/systems/quartz/components/prompt-input"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ai/prompt-input.tsx",
+     "type": "registry:component",
+     "target": "@components/quartz/ai/prompt-input.tsx"
+    },
+    {
+     "path": "registry/quartz/ai/prompt-input/codec.ts",
+     "type": "registry:component",
+     "target": "@components/quartz/ai/prompt-input/codec.ts"
+    },
+    {
+     "path": "registry/quartz/ai/prompt-input/attachment.tsx",
+     "type": "registry:component",
+     "target": "@components/quartz/ai/prompt-input/attachment.tsx"
+    },
+    {
+     "path": "registry/quartz/ai/prompt-input/mic.tsx",
+     "type": "registry:component",
+     "target": "@components/quartz/ai/prompt-input/mic.tsx"
+    },
+    {
+     "path": "registry/quartz/ai/prompt-input/menu.tsx",
+     "type": "registry:component",
+     "target": "@components/quartz/ai/prompt-input/menu.tsx"
+    },
+    {
+     "path": "registry/quartz/ai/prompt-input/caret.ts",
+     "type": "registry:component",
+     "target": "@components/quartz/ai/prompt-input/caret.ts"
+    },
+    {
+     "path": "registry/quartz/ai/prompt-queue.tsx",
+     "type": "registry:component",
+     "target": "@components/quartz/ai/prompt-queue.tsx"
+    }
+   ]
+  },
+  {
+   "name": "send-button",
+   "type": "registry:component",
+   "title": "Send button",
+   "description": "Support file: send, which becomes stop while the agent streams.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ai/send-button.tsx",
+     "type": "registry:component",
+     "target": "@components/quartz/ai/send-button.tsx"
+    }
+   ]
+  },
+  {
+   "name": "mention",
+   "type": "registry:component",
+   "title": "Mention",
+   "description": "Support file: a resource named in a prompt or an answer.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ai/mention.tsx",
+     "type": "registry:component",
+     "target": "@components/quartz/ai/mention.tsx"
+    }
+   ]
+  },
+  {
+   "name": "bulk-action-bar",
+   "type": "registry:ui",
+   "title": "Bulk action bar",
+   "description": "Support file: actions for the rows a person has selected.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/bulk-action-bar.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/bulk-action-bar.tsx"
+    }
+   ]
+  },
+  {
+   "name": "data-grid",
+   "type": "registry:ui",
+   "title": "Data grid",
+   "description": "A table with spreadsheet behavior: cell focus, editing and paste.",
+   "author": "design.how",
+   "categories": [
+    "data"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/checkbox.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/input.json",
+    "https://design.how/r/quartz/kbd.json",
+    "https://design.how/r/quartz/popover.json",
+    "https://design.how/r/quartz/select.json",
+    "https://design.how/r/quartz/status.json",
+    "https://design.how/r/quartz/table.json",
+    "https://design.how/r/quartz/textarea.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz/components/data-grid.md",
+    "page": "https://design.how/systems/quartz/components/data-grid"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/ui/data-grid.tsx",
+     "type": "registry:ui",
+     "target": "@components/quartz/ui/data-grid.tsx"
+    }
+   ]
+  },
+  {
+   "name": "project-home",
+   "type": "registry:block",
+   "title": "Workspace home",
+   "description": "A workspace home for a team of agents: the workspace and New agent, a strip of four numbers, the Conversations chart, what needs a look, the conversations table and the last prompt releases.",
+   "author": "design.how",
+   "categories": [
+    "block",
+    "home"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/badge.json",
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/chart.json",
+    "https://design.how/r/quartz/filter-bar.json",
+    "https://design.how/r/quartz/item.json",
+    "https://design.how/r/quartz/panel.json",
+    "https://design.how/r/quartz/segmented-control.json",
+    "https://design.how/r/quartz/stat.json",
+    "https://design.how/r/quartz/status.json",
+    "https://design.how/r/quartz/table.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/blocks/project-home.tsx",
+     "type": "registry:block",
+     "target": "@components/quartz/blocks/project-home.tsx"
+    }
+   ]
+  },
+  {
+   "name": "agent-session",
+   "type": "registry:block",
+   "title": "Agent session",
+   "description": "One agent turn in a thread: tool calls under one live Activity header, the answer, a queued follow-up and the composer with Stop.",
+   "author": "design.how",
+   "categories": [
+    "block",
+    "ai",
+    "chat"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/conversation.json",
+    "https://design.how/r/quartz/copy-button.json",
+    "https://design.how/r/quartz/message.json",
+    "https://design.how/r/quartz/prompt-input.json",
+    "https://design.how/r/quartz/response.json",
+    "https://design.how/r/quartz/send-button.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/tool-call.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/blocks/agent-session.tsx",
+     "type": "registry:block",
+     "target": "@components/quartz/blocks/agent-session.tsx"
+    }
+   ]
+  },
+  {
+   "name": "tool-approval",
+   "type": "registry:block",
+   "title": "Tool approval",
+   "description": "An agent asks before it sends a refund, with Allow and Deny; the outcome takes focus after a choice.",
+   "author": "design.how",
+   "categories": [
+    "block",
+    "ai",
+    "approval"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/format.json",
+    "https://design.how/r/quartz/message.json",
+    "https://design.how/r/quartz/response.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/tool-call.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/blocks/tool-approval.tsx",
+     "type": "registry:block",
+     "target": "@components/quartz/blocks/tool-approval.tsx"
+    }
+   ]
+  },
+  {
+   "name": "api-keys",
+   "type": "registry:block",
+   "title": "API keys",
+   "description": "Create a key and see it once at its full length, masked with reveal and copy; then the keys by their last four characters with Revoke.",
+   "author": "design.how",
+   "categories": [
+    "block",
+    "settings",
+    "keys"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/badge.json",
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/code-block.json",
+    "https://design.how/r/quartz/collapsible.json",
+    "https://design.how/r/quartz/copy-button.json",
+    "https://design.how/r/quartz/dialog.json",
+    "https://design.how/r/quartz/field.json",
+    "https://design.how/r/quartz/format.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/input.json",
+    "https://design.how/r/quartz/page-header.json",
+    "https://design.how/r/quartz/panel.json",
+    "https://design.how/r/quartz/status.json",
+    "https://design.how/r/quartz/table.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/tooltip.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/blocks/api-keys.tsx",
+     "type": "registry:block",
+     "target": "@components/quartz/blocks/api-keys.tsx"
+    }
+   ]
+  },
+  {
+   "name": "deploy-detail",
+   "type": "registry:block",
+   "title": "Prompt release",
+   "description": "A prompt release paused on a failed eval: the release card with the decision and Roll back, the rollout on one clock, the evals with the failure first, the log and the releases before it.",
+   "author": "design.how",
+   "categories": [
+    "block",
+    "deploy"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/avatar.json",
+    "https://design.how/r/quartz/badge.json",
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/card.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/item.json",
+    "https://design.how/r/quartz/log-viewer.json",
+    "https://design.how/r/quartz/panel.json",
+    "https://design.how/r/quartz/progress.json",
+    "https://design.how/r/quartz/status.json",
+    "https://design.how/r/quartz/table.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/timeline.json",
+    "https://design.how/r/quartz/tool-call.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/blocks/deploy-detail.tsx",
+     "type": "registry:block",
+     "target": "@components/quartz/blocks/deploy-detail.tsx"
+    }
+   ]
+  },
+  {
+   "name": "run-trace",
+   "type": "registry:block",
+   "title": "Run trace",
+   "description": "One agent run as a waterfall of its steps and model calls, with the live step growing and the open step's details beside it.",
+   "author": "design.how",
+   "categories": [
+    "block",
+    "ai",
+    "trace"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/card.json",
+    "https://design.how/r/quartz/data-list.json",
+    "https://design.how/r/quartz/format.json",
+    "https://design.how/r/quartz/json-view.json",
+    "https://design.how/r/quartz/status.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/timeline.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/blocks/run-trace.tsx",
+     "type": "registry:block",
+     "target": "@components/quartz/blocks/run-trace.tsx"
+    }
+   ]
+  },
+  {
+   "name": "live-requests",
+   "type": "registry:block",
+   "title": "Live activity",
+   "description": "An agent's tool calls as they happen: result, tool and agent, trouble marked, with filters, Pause and the call docked beside the list.",
+   "author": "design.how",
+   "categories": [
+    "block",
+    "api",
+    "logs"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/badge.json",
+    "https://design.how/r/quartz/button.json",
+    "https://design.how/r/quartz/dropdown-menu.json",
+    "https://design.how/r/quartz/filter-bar.json",
+    "https://design.how/r/quartz/icon.json",
+    "https://design.how/r/quartz/input.json",
+    "https://design.how/r/quartz/kind.json",
+    "https://design.how/r/quartz/page-header.json",
+    "https://design.how/r/quartz/sheet.json",
+    "https://design.how/r/quartz/stat.json",
+    "https://design.how/r/quartz/status.json",
+    "https://design.how/r/quartz/table.json",
+    "https://design.how/r/quartz/theme.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/blocks/live-requests.tsx",
+     "type": "registry:block",
+     "target": "@components/quartz/blocks/live-requests.tsx"
+    }
+   ]
+  },
+  {
+   "name": "utils",
+   "type": "registry:lib",
+   "title": "cn",
+   "description": "Support file: cn, which merges class names and resolves conflicts between Quartz's type roles and text colors; mergeClass, which keeps Quartz's classes when a caller passes a className function; and mergeRefs.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "clsx@^2.1.1",
+    "tailwind-merge@^3.7.0"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/lib/utils.ts",
+     "type": "registry:lib",
+     "target": "@lib/quartz/utils.ts"
+    }
+   ]
+  },
+  {
+   "name": "icon",
+   "type": "registry:component",
+   "title": "Icon",
+   "description": "Support file: the one import point for icons: Font Awesome Free, Classic Solid.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "@fortawesome/free-solid-svg-icons@^7.3.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/icon.tsx",
+     "type": "registry:component",
+     "target": "@components/quartz/icon.tsx"
+    }
+   ]
+  },
+  {
+   "name": "portal",
+   "type": "registry:lib",
+   "title": "Portal",
+   "description": "Support file: puts overlays inside the .quartz scope so they keep its tokens.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/lib/portal.ts",
+     "type": "registry:lib",
+     "target": "@lib/quartz/portal.ts"
+    }
+   ]
+  },
+  {
+   "name": "overlay",
+   "type": "registry:lib",
+   "title": "Overlay",
+   "description": "Support file: what every overlay shares: the paper surface with its frame line and the way it appears; and for Dialog and Sheet, the open state that waits for a running action, Enter on the footer's default action, the backdrop and the scroll fade.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/portal.json",
+    "https://design.how/r/quartz/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/lib/overlay.ts",
+     "type": "registry:lib",
+     "target": "@lib/quartz/overlay.ts"
+    }
+   ]
+  },
+  {
+   "name": "kind",
+   "type": "registry:lib",
+   "title": "Kinds",
+   "description": "Support file: the five kinds and two reserved statuses, as a type and an ordered list.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/lib/kind.ts",
+     "type": "registry:lib",
+     "target": "@lib/quartz/kind.ts"
+    }
+   ]
+  },
+  {
+   "name": "format",
+   "type": "registry:lib",
+   "title": "Column formatters",
+   "description": "Support file: picks one unit for a numeric column from its largest value.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/lib/format.ts",
+     "type": "registry:lib",
+     "target": "@lib/quartz/format.ts"
+    }
+   ]
+  },
+  {
+   "name": "css-var",
+   "type": "registry:lib",
+   "title": "CSS token reader",
+   "description": "Support file: reads a design token from the page for charts and canvases.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/lib/css-var.ts",
+     "type": "registry:lib",
+     "target": "@lib/quartz/css-var.ts"
+    }
+   ]
+  },
+  {
+   "name": "direction",
+   "type": "registry:lib",
+   "title": "Direction",
+   "description": "Support file: hands the document direction to Base UI.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/portal.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/lib/direction.ts",
+     "type": "registry:lib",
+     "target": "@lib/quartz/direction.ts"
+    }
+   ]
+  },
+  {
+   "name": "use-focus-when-replaced",
+   "type": "registry:lib",
+   "title": "useFocusWhenReplaced",
+   "description": "Support file: moves focus to an outcome when the buttons that had it are replaced, so a keyboard user is not dropped to the top.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/lib/use-focus-when-replaced.ts",
+     "type": "registry:lib",
+     "target": "@lib/quartz/use-focus-when-replaced.ts"
+    }
+   ]
+  },
+  {
+   "name": "use-offscreen",
+   "type": "registry:lib",
+   "title": "useOffscreen",
+   "description": "Support file: marks a live frame with data-offscreen while it is out of view, so its running arc pauses.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/lib/use-offscreen.ts",
+     "type": "registry:lib",
+     "target": "@lib/quartz/use-offscreen.ts"
+    }
+   ]
+  },
+  {
+   "name": "children",
+   "type": "registry:lib",
+   "title": "Compound parts",
+   "description": "Support file: finds the compound parts of a component among its children.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/lib/children.ts",
+     "type": "registry:lib",
+     "target": "@lib/quartz/children.ts"
+    }
+   ]
+  },
+  {
+   "name": "scroll-focus",
+   "type": "registry:lib",
+   "title": "Scroll tab stop",
+   "description": "Support file: puts a scroll box in the tab order while its content overflows, so a keyboard can scroll it.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/lib/scroll-focus.ts",
+     "type": "registry:lib",
+     "target": "@lib/quartz/scroll-focus.ts"
+    }
+   ]
+  },
+  {
+   "name": "lint",
+   "type": "registry:item",
+   "title": "Quartz lint",
+   "description": "One command that flags what Quartz's rules forbid in your app, such as a raw color, a hue filling a region or a status dot, and says what to use instead.",
+   "author": "design.how",
+   "categories": [
+    "lint"
+   ],
+   "devDependencies": [
+    "eslint@^9.39.5",
+    "@typescript-eslint/parser@^8.71.0"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/lint/eslint.config.mjs",
+     "type": "registry:file",
+     "target": "~/quartz.eslint.config.mjs"
+    },
+    {
+     "path": "registry/quartz/lint/plugin.mjs",
+     "type": "registry:lib",
+     "target": "@lib/quartz/lint/plugin.mjs"
+    },
+    {
+     "path": "registry/quartz/lint/core.mjs",
+     "type": "registry:lib",
+     "target": "@lib/quartz/lint/core.mjs"
+    },
+    {
+     "path": "registry/quartz/lint/value-rules.mjs",
+     "type": "registry:lib",
+     "target": "@lib/quartz/lint/value-rules.mjs"
+    },
+    {
+     "path": "registry/quartz/lint/classes.json",
+     "type": "registry:lib",
+     "target": "@lib/quartz/lint/classes.json"
+    }
+   ]
+  },
+  {
+   "name": "theme",
+   "type": "registry:item",
+   "title": "Quartz theme",
+   "description": "Support file: tokens, scoped base styles and the Tailwind v4 theme mapping.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "tailwindcss@^4.3.3",
+    "@tailwindcss/postcss@^4.3.3"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/quartz/skill.json",
+    "https://design.how/r/quartz/portal.json"
+   ],
+   "docs": "Quartz is scoped: its styles apply only inside an element with the class quartz.\n1. Import the theme once, in the root layout, as its own stylesheet (not an @import in globals.css): import '@/components/quartz/styles.css'\n2. Put className=\"quartz\" on the element that holds Quartz UI, usually <body>. Quartz's classes work on the elements inside it, in your own code too, not on that element itself.\n3. Wrap the app inside that element in <QuartzPortalProvider> from '@/lib/quartz/portal', so dialogs and menus keep the theme.\nDark mode: put data-theme=\"dark\" or the class dark on the quartz element or any ancestor, such as <html>. The theme does not follow the system setting (prefers-color-scheme) on its own.\nComponents: npx shadcn@latest add https://design.how/r/quartz/<name>.json; https://design.how/r/quartz/registry.json lists them all.",
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/tokens.css",
+     "type": "registry:file",
+     "target": "@components/quartz/tokens.css"
+    },
+    {
+     "path": "registry/quartz/base.css",
+     "type": "registry:file",
+     "target": "@components/quartz/base.css"
+    },
+    {
+     "path": "registry/quartz/styles.css",
+     "type": "registry:file",
+     "target": "@components/quartz/styles.css"
+    }
+   ]
+  },
+  {
+   "name": "skill",
+   "type": "registry:item",
+   "title": "Quartz skill",
+   "description": "Support file: teaches your coding agent Quartz's rules and components.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/quartz.md",
+    "page": "https://design.how/systems/quartz"
+   },
+   "files": [
+    {
+     "path": "registry/quartz/SKILL.md",
+     "type": "registry:file",
+     "target": "~/.claude/skills/quartz/SKILL.md"
+    },
+    {
+     "path": "registry/quartz/.agents/SKILL.md",
+     "type": "registry:file",
+     "target": "~/.agents/skills/quartz/SKILL.md"
+    }
+   ]
+  }
+ ]
+}

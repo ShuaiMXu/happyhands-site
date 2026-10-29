@@ -1,0 +1,67 @@
+{
+ "id": "80099f79-72b7-4367-b2e9-6a3d4a3e9e6a",
+ "slug": "integrated-biosciences-80099f79",
+ "name": "Integrated Biosciences",
+ "site_url": "https://integratedbiosciences.com",
+ "lastmod": "2026-06-05T03:07:58.291Z",
+ "extracted_at": "2026-06-03T17:37:02.986Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "ai",
+ "north_star": "bioluminescent laboratory at midnight",
+ "fonts": [
+  "Aspekta",
+  "Roboto Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#cef79e",
+   "name": "Bioluminescent Lime"
+  },
+  {
+   "hex": "#222f30",
+   "name": "Abyssal Ink"
+  },
+  {
+   "hex": "#f7f7f5",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#4d5757",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#c9cbbe",
+   "name": "Lichen"
+  },
+  {
+   "hex": "#e7e8e1",
+   "name": "Tissue"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Frost"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/019409e1-b595-4ccf-99e2-80e066cec99c.mp4",
+  "poster": "https://happyhands.cc/design-archive/integrated-biosciences-80099f79/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/integrated-biosciences-80099f79/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/integrated-biosciences-80099f79/thumbnail.jpg"
+}

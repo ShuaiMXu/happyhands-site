@@ -1,0 +1,62 @@
+{
+ "id": "0fd67ec5-7e9c-4ca9-b368-5d9c7388477a",
+ "slug": "ui-0fd67ec5",
+ "name": "Ui",
+ "site_url": "https://ui.shadcn.com",
+ "lastmod": "2026-07-03T10:01:00.200Z",
+ "extracted_at": "2026-07-03T02:53:52.225Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "clinical blueprint on frosted paper",
+ "fonts": [
+  "Geist"
+ ],
+ "colors": [
+  {
+   "hex": "#f5f5f5",
+   "name": "Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#fafafa",
+   "name": "Surface Alt"
+  },
+  {
+   "hex": "#0a0a0a",
+   "name": "Ink"
+  },
+  {
+   "hex": "#171717",
+   "name": "Ink Soft"
+  },
+  {
+   "hex": "#737373",
+   "name": "Mid Gray"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#e7000b",
+   "name": "Ember"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/1c77eed6-6370-4b5e-88ad-71f13b656afe.mp4",
+  "poster": "https://happyhands.cc/design-archive/ui-0fd67ec5/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ui-0fd67ec5/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ui-0fd67ec5/thumbnail.jpg"
+}

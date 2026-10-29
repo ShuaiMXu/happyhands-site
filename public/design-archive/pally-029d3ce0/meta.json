@@ -1,0 +1,76 @@
+{
+ "id": "029d3ce0-0fe5-4a8c-99c4-4f9d704f1c60",
+ "slug": "pally-029d3ce0",
+ "name": "Pally",
+ "site_url": "https://www.pally.com",
+ "lastmod": "2026-06-05T02:08:38.269Z",
+ "extracted_at": "2026-06-03T17:13:22.544Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "productivity",
+ "north_star": "violet signals in a dark void. A single white pill floats in a near-black observatory, with the product's purple glass UI glowing softly below like an instrument panel lit from within.",
+ "fonts": [
+  "sans-serif",
+  "Untitled Sans",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#161e29",
+   "name": "Deep Navy Void"
+  },
+  {
+   "hex": "#fefcfb",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#eae5dd",
+   "name": "Warm Card Stock"
+  },
+  {
+   "hex": "#1e1d1d",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon Border"
+  },
+  {
+   "hex": "#b8b9bc",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#d0d0d1",
+   "name": "Silver Gray"
+  },
+  {
+   "hex": "#a1a3a7",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#8a8d92",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#5f4dbd",
+   "name": "Violet Aura"
+  },
+  {
+   "hex": "#e9b3f2",
+   "name": "Lilac Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5aad3d8e-1710-4aa0-9c9d-b486b8a27896.mp4",
+  "poster": "https://happyhands.cc/design-archive/pally-029d3ce0/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/pally-029d3ce0/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/pally-029d3ce0/thumbnail.jpg"
+}

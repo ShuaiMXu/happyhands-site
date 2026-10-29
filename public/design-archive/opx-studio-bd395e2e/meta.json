@@ -1,0 +1,53 @@
+{
+ "id": "bd395e2e-58a8-4626-acfa-9be8d6cdf604",
+ "slug": "opx-studio-bd395e2e",
+ "name": "OPX Studio",
+ "site_url": "https://opx.studio",
+ "lastmod": "2026-06-05T12:30:10.805Z",
+ "extracted_at": "2026-06-03T21:59:16.226Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "Dark gallery monolith — a near-black exhibition hall where monumental white type and full-bleed photography do all the talking, and borders whisper at #292a2c.",
+ "fonts": [
+  "OPX-Medium",
+  "Open Sans",
+  "Untitled",
+  "Helvetica"
+ ],
+ "colors": [
+  {
+   "hex": "#020202",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "Surface Black"
+  },
+  {
+   "hex": "#292a2c",
+   "name": "Charcoal Hairline"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#9b9b9b",
+   "name": "Ash Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/19d7c7ad-e690-4da7-a32d-b2f5491ddfc3.mp4",
+  "poster": "https://happyhands.cc/design-archive/opx-studio-bd395e2e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/opx-studio-bd395e2e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/opx-studio-bd395e2e/thumbnail.jpg"
+}

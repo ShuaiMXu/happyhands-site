@@ -1,0 +1,54 @@
+{
+ "id": "2fd71e12-12fc-4346-8281-52afe12bb951",
+ "slug": "nomen-nescio-2fd71e12",
+ "name": "Nomen Nescio",
+ "site_url": "https://nomennescio.fi",
+ "lastmod": "2026-06-03T20:36:39.030Z",
+ "extracted_at": "2026-06-03T20:36:39.025Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "ink on warm paper",
+ "fonts": [
+  "Nomen Nescio (custom)"
+ ],
+ "colors": [
+  {
+   "hex": "#fdfdfa",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f5f3ee",
+   "name": "Bone"
+  },
+  {
+   "hex": "#2b2b2e",
+   "name": "Ink"
+  },
+  {
+   "hex": "#bebcb4",
+   "name": "Ash"
+  },
+  {
+   "hex": "#deddd8",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#d9d7c9",
+   "name": "Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d8f0056d-8b56-4ea1-bb22-10d17122ef67.mp4",
+  "poster": "https://happyhands.cc/design-archive/nomen-nescio-2fd71e12/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/nomen-nescio-2fd71e12/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/nomen-nescio-2fd71e12/thumbnail.jpg"
+}

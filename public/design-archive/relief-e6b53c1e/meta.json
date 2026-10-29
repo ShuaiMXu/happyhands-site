@@ -1,0 +1,86 @@
+{
+ "id": "e6b53c1e-644b-4300-b42f-0e64905d1443",
+ "slug": "relief-e6b53c1e",
+ "name": "Relief",
+ "site_url": "https://www.relief.app",
+ "lastmod": "2026-06-05T04:06:13.004Z",
+ "extracted_at": "2026-06-03T18:02:30.634Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "Cream-paper harbor under flat sky-blue",
+ "fonts": [
+  "Gilroy"
+ ],
+ "colors": [
+  {
+   "hex": "#f9f7f0",
+   "name": "Warm Cream"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Snow"
+  },
+  {
+   "hex": "#333333",
+   "name": "Ink"
+  },
+  {
+   "hex": "#212121",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#d0d5dd",
+   "name": "Fog"
+  },
+  {
+   "hex": "#616c8a",
+   "name": "Slate"
+  },
+  {
+   "hex": "#40444e",
+   "name": "Slate Border"
+  },
+  {
+   "hex": "#13426f",
+   "name": "Deep Harbor"
+  },
+  {
+   "hex": "#2e96ff",
+   "name": "Sky Pop"
+  },
+  {
+   "hex": "#0254a5",
+   "name": "Deep Wave"
+  },
+  {
+   "hex": "#bde1f9",
+   "name": "Sky Tint"
+  },
+  {
+   "hex": "#cde7fb",
+   "name": "Sky Wash"
+  },
+  {
+   "hex": "#73b9ff",
+   "name": "Info Mist"
+  },
+  {
+   "hex": "#50a7ff",
+   "name": "Sky Mid"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c4e6d84f-34c3-4fe7-b200-bc4d8f36ec20.mp4",
+  "poster": "https://happyhands.cc/design-archive/relief-e6b53c1e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/relief-e6b53c1e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/relief-e6b53c1e/thumbnail.jpg"
+}

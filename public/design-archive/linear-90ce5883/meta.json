@@ -1,0 +1,95 @@
+{
+ "id": "90ce5883-bb24-4466-93f7-801cd617b0d1",
+ "slug": "linear-90ce5883",
+ "name": "Linear",
+ "site_url": "https://linear.app",
+ "lastmod": "2026-07-03T09:51:06.995Z",
+ "extracted_at": "2026-07-03T02:44:11.708Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "midnight precision instrument",
+ "fonts": [
+  "Inter Variable",
+  "Berkeley Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#08090a",
+   "name": "Void"
+  },
+  {
+   "hex": "#0f1011",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#161718",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#23252a",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#383b3f",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#62666d",
+   "name": "Ash"
+  },
+  {
+   "hex": "#8a8f98",
+   "name": "Fog"
+  },
+  {
+   "hex": "#d0d6e0",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e5e5e6",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#e4f222",
+   "name": "Acid Lime"
+  },
+  {
+   "hex": "#27a644",
+   "name": "Pulse Green"
+  },
+  {
+   "hex": "#eb5757",
+   "name": "Coral Red"
+  },
+  {
+   "hex": "#02b8cc",
+   "name": "Signal Teal"
+  },
+  {
+   "hex": "#6366f1",
+   "name": "Iris Violet"
+  },
+  {
+   "hex": "#8b5cf6",
+   "name": "Lavender"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ab624031-a610-4f80-bc9b-33556dece7d3.mp4",
+  "poster": "https://happyhands.cc/design-archive/linear-90ce5883/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/linear-90ce5883/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/linear-90ce5883/thumbnail.jpg"
+}

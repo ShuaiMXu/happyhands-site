@@ -1,0 +1,59 @@
+{
+ "id": "2d4ced28-e579-4fa0-84bc-836dd008034f",
+ "slug": "andercore-2d4ced28",
+ "name": "Andercore",
+ "site_url": "https://www.andercore.com",
+ "lastmod": "2026-06-03T19:50:37.310Z",
+ "extracted_at": "2026-06-03T19:50:37.304Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "saas",
+ "north_star": "Steel blueprint at midnight",
+ "fonts": [
+  "Archivo",
+  "Space Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#e32735",
+   "name": "Signal Red"
+  },
+  {
+   "hex": "#0b0405",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#150e0f",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#382e30",
+   "name": "Steel"
+  },
+  {
+   "hex": "#858182",
+   "name": "Slate"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#000000",
+   "name": "Foil"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2fe2bff4-7d75-47c7-bd15-4ee6ba2b7135.mp4",
+  "poster": "https://happyhands.cc/design-archive/andercore-2d4ced28/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/andercore-2d4ced28/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/andercore-2d4ced28/thumbnail.jpg"
+}

@@ -1,0 +1,58 @@
+{
+ "id": "d7096101-d33c-43b8-8b0b-d9dfff802db2",
+ "slug": "basic-space-d7096101",
+ "name": "Basic.Space",
+ "site_url": "https://basic.space",
+ "lastmod": "2026-06-03T20:23:23.036Z",
+ "extracted_at": "2026-06-03T20:23:23.030Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "curated gallery on white marble",
+ "fonts": [
+  "FTBasicSpace"
+ ],
+ "colors": [
+  {
+   "hex": "#0700ff",
+   "name": "Electric Cobalt"
+  },
+  {
+   "hex": "#000000",
+   "name": "Gallery Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#ebebeb",
+   "name": "Hairline Gray"
+  },
+  {
+   "hex": "#cecccc",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#f7f7f7",
+   "name": "Chalk White"
+  },
+  {
+   "hex": "#b5b5b5",
+   "name": "Ash Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/cfb51149-1660-4a07-8c0b-205fb6b417d9.mp4",
+  "poster": "https://happyhands.cc/design-archive/basic-space-d7096101/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/basic-space-d7096101/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/basic-space-d7096101/thumbnail.jpg"
+}

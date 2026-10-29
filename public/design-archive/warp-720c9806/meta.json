@@ -1,0 +1,85 @@
+{
+ "id": "720c9806-2d70-4dd1-9a19-12efd71fc742",
+ "slug": "warp-720c9806",
+ "name": "Warp",
+ "site_url": "https://warp.dev/terminal",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-29T22:17:57.634Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "Deep-space command shell — a frosted obsidian cockpit where every pixel earns its place and color is a rare, meaningful signal.",
+ "fonts": [
+  "sans-serif",
+  "Matter",
+  "Inter",
+  "Geist Mono",
+  "Matter Mono Regular",
+  "Matter Regular",
+  "Matter Medium",
+  "DM Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#121212",
+   "name": "Void Canvas"
+  },
+  {
+   "hex": "#090909",
+   "name": "Obsidian Deep"
+  },
+  {
+   "hex": "#1e1e1d",
+   "name": "Charcoal Surface"
+  },
+  {
+   "hex": "#353534",
+   "name": "Iron Surface"
+  },
+  {
+   "hex": "#2f2f2f",
+   "name": "Graphite Lift"
+  },
+  {
+   "hex": "#40403f",
+   "name": "Slate Hover"
+  },
+  {
+   "hex": "#868684",
+   "name": "Ash Text"
+  },
+  {
+   "hex": "#afaeac",
+   "name": "Fog Text"
+  },
+  {
+   "hex": "#e3e2e0",
+   "name": "Smoke Text"
+  },
+  {
+   "hex": "#faf9f6",
+   "name": "Warm White"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#799c92",
+   "name": "Terminal Sage"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/385f314b-7143-4916-a1f1-4a429547298b.mp4",
+  "poster": "https://happyhands.cc/design-archive/warp-720c9806/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/warp-720c9806/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/warp-720c9806/thumbnail.jpg"
+}

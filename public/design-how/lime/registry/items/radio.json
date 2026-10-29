@@ -1,0 +1,30 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "radio",
+ "type": "registry:ui",
+ "title": "Radio",
+ "description": "One choice from a short visible list, such as a transfer speed.",
+ "author": "design.how",
+ "categories": [
+  "selection"
+ ],
+ "dependencies": [
+  "@base-ui/react@^1.8.0"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/lime/theme.json",
+  "https://design.how/r/lime/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/lime/components/radio.md",
+  "page": "https://design.how/systems/lime/components/radio"
+ },
+ "files": [
+  {
+   "path": "registry/lime/ui/radio.tsx",
+   "content": "'use client';\n\nimport {Radio as RadioPrimitive} from '@base-ui/react/radio';\nimport {RadioGroup as RadioGroupPrimitive} from '@base-ui/react/radio-group';\nimport {mergeClass} from '@/lib/lime/utils';\n\n// One choice from a short list, all options visible. Chosen fills with the lime, an olive edge and a\n// near-black dot. For more than about six options use Select. For a view switch use Segmented.\n\nfunction RadioGroup({className, ...props}: RadioGroupPrimitive.Props) {\n  return <RadioGroupPrimitive data-slot=\"radio-group\" className={mergeClass('flex flex-col gap-3', className)} {...props}/>;\n}\n\nfunction Radio({className, ...props}: RadioPrimitive.Root.Props) {\n  return (\n    <RadioPrimitive.Root\n      data-slot=\"radio\"\n      className={mergeClass([\n        'inline-flex size-5 shrink-0 items-center justify-center rounded-full border border-control bg-page',\n        'transition-[background-color,border-color] duration-(--dur-fast) ease-out',\n        'hover:not-data-disabled:border-fg-2',\n        'data-checked:border-accent-line data-checked:bg-accent',\n        'data-disabled:cursor-not-allowed data-disabled:border-line-strong data-disabled:bg-surface-2',\n      ], className)}\n      {...props}\n    >\n      <RadioPrimitive.Indicator data-slot=\"radio-indicator\" className=\"size-2 rounded-full bg-on-accent data-disabled:bg-fg-disabled\"/>\n    </RadioPrimitive.Root>\n  );\n}\n\nexport {RadioGroup, Radio};\n",
+   "type": "registry:ui",
+   "target": "@components/lime/ui/radio.tsx"
+  }
+ ]
+}

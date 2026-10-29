@@ -1,0 +1,85 @@
+{
+ "id": "12255b63-e506-4bc1-a4cd-d05487de32f3",
+ "slug": "intercom-12255b63",
+ "name": "Intercom",
+ "site_url": "https://intercom.com",
+ "lastmod": "2026-06-03T14:57:12.768Z",
+ "extracted_at": "2026-06-03T14:57:12.763Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Warm cream editorial spread",
+ "fonts": [
+  "Saans",
+  "SaansMono",
+  "Serrif",
+  "MediumLL"
+ ],
+ "colors": [
+  {
+   "hex": "#0007cb",
+   "name": "Electric Violet"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#faf9f6",
+   "name": "Canvas Cream"
+  },
+  {
+   "hex": "#f1eee9",
+   "name": "Linen"
+  },
+  {
+   "hex": "#d3cec6",
+   "name": "Stone"
+  },
+  {
+   "hex": "#dedbd6",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#111111",
+   "name": "Ink"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#414141",
+   "name": "Iron"
+  },
+  {
+   "hex": "#585858",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#888888",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#a0a0a0",
+   "name": "Ash"
+  },
+  {
+   "hex": "#b8b8b8",
+   "name": "Silver"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/296c0b18-3f92-4ebe-9a81-c78a65f9abb8.mp4",
+  "poster": "https://happyhands.cc/design-archive/intercom-12255b63/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/intercom-12255b63/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/intercom-12255b63/thumbnail.jpg"
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "agent-plan",
+  "type": "registry:block",
+  "title": "Agent plan",
+  "description": "An agent builds another agent: the ask, its changes with their status, and Publish agent as the confirm.",
+  "author": "design.how",
+  "categories": [
+    "block",
+    "ai",
+    "agent"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/button.json",
+    "https://happyhands.cc/r/glaze/card.json",
+    "https://happyhands.cc/r/glaze/item.json",
+    "https://happyhands.cc/r/glaze/message.json",
+    "https://happyhands.cc/r/glaze/response.json",
+    "https://happyhands.cc/r/glaze/status.json",
+    "https://happyhands.cc/r/glaze/theme.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/glaze/index.md",
+    "page": "https://happyhands.cc/design-how/glaze/index.md"
+  },
+  "files": [
+    {
+      "path": "registry/glaze/blocks/agent-plan.tsx",
+      "content": "'use client';\n\nimport {AgentTurn, Message, MessageBubble, MessageBubbleContent, MessageContent, MessageHeader, MessageTime} from '@/components/glaze/ai/message';\nimport {Response} from '@/components/glaze/ai/response';\nimport {Button} from '@/components/glaze/ui/button';\nimport {Card, CardContent, CardFooter, CardHeader, CardMeta, CardTitle} from '@/components/glaze/ui/card';\nimport {Item, ItemContent, ItemGroup, ItemTitle} from '@/components/glaze/ui/item';\nimport {Status, type StatusValue} from '@/components/glaze/ui/status';\n\n// A block: an agent that builds another agent. The person's ask in the outline bubble, paper with the control line,\n// so it stays light on the grey stage; then the agent's turn: one line, and the plan as a card of changes, one row each,\n// ending in its Status word. Three are done and the last waits on the person, so the footer's one lead is the green\n// confirm, beside View changes. Wire `changes` to your builder and the buttons to your publish and diff.\n\nconst changes: {name: string; status: StatusValue; word: string}[] = [\n  {name: 'Returns journey', status: 'ok', word: 'Written'},\n  {name: 'Order and refund tools', status: 'ok', word: 'Connected'},\n  {name: '50 simulated customers', status: 'ok', word: '48 passed'},\n  {name: 'Chat and email', status: 'waiting', word: 'Needs you'},\n];\n\n/** The ask, the agent's four changes with three done, and Publish agent waiting on the person. */\nexport function AgentPlan({className}: {className?: string}) {\n  return (\n    <section aria-label=\"Agent builder\" className={className ?? 'flex w-full max-w-md flex-col gap-3'}>\n      <Message from=\"user\">\n        <MessageContent>\n          <MessageHeader>You<MessageTime>10:02</MessageTime></MessageHeader>\n          <MessageBubble variant=\"outline\">\n            <MessageBubbleContent>Build a returns agent for our shoe store.</MessageBubbleContent>\n          </MessageBubble>\n        </MessageContent>\n      </Message>\n      <AgentTurn name=\"Agent builder\" state=\"waiting\" time=\"10:06\">\n        <Response>Built and tested. It goes live when you say so.</Response>\n        <Card>\n          <CardHeader>\n            <CardTitle>Returns agent</CardTitle>\n          </CardHeader>\n          <CardContent flush>\n            <ItemGroup variant=\"plain\" aria-label=\"Changes\">\n              {changes.map(c => <Item key={c.name} size=\"sm\">\n                <ItemContent><ItemTitle>{c.name}</ItemTitle></ItemContent>\n                <Status status={c.status} size=\"sm\" className=\"shrink-0\">{c.word}</Status>\n              </Item>)}\n            </ItemGroup>\n          </CardContent>\n          <CardFooter>\n            <CardMeta>3 of 4</CardMeta>\n            <Button size=\"sm\" variant=\"secondary\">View changes</Button>\n            <Button size=\"sm\" variant=\"confirm\">Publish agent</Button>\n          </CardFooter>\n        </Card>\n      </AgentTurn>\n    </section>\n  );\n}\n",
+      "type": "registry:block",
+      "target": "@components/glaze/blocks/agent-plan.tsx"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+ "id": "29bde513-4351-4279-b4e9-7e94eb0605b6",
+ "slug": "avnier-29bde513",
+ "name": "AVNIER",
+ "site_url": "https://avnier.com",
+ "lastmod": "2026-09-20T20:22:11.693Z",
+ "extracted_at": "2026-09-20T19:23:28.614Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "AVNIER — nocturnal film set. White production labels and sharp grid lines cut through black equipment-room imagery.",
+ "fonts": [
+  "Space Mono",
+  "avnier-font",
+  "Rubik",
+  "Arial",
+  "GTStandard-M"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#0a0a0a",
+   "name": "Charcoal Ink"
+  },
+  {
+   "hex": "#737373",
+   "name": "Focus Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3d68e891-e962-41d1-a083-db033a426a79.mp4",
+  "poster": "https://happyhands.cc/design-archive/avnier-29bde513/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/avnier-29bde513/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/avnier-29bde513/thumbnail.jpg"
+}

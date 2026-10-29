@@ -1,0 +1,119 @@
+{
+ "id": "1003d7c5-536c-485d-b191-a34178415eac",
+ "slug": "tuple-1003d7c5",
+ "name": "Tuple",
+ "site_url": "https://tuple.app",
+ "lastmod": "2026-06-03T21:07:25.702Z",
+ "extracted_at": "2026-06-03T21:07:25.693Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "Developer pair-programming workshop — clean white surfaces, one violet CTA, playful multi-color accents, and a dark band that makes the light sections breathe.",
+ "fonts": [
+  "Inter Variable",
+  "DM Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#6a5ed9",
+   "name": "Iris"
+  },
+  {
+   "hex": "#3f71d4",
+   "name": "Cobalt"
+  },
+  {
+   "hex": "#db5434",
+   "name": "Coral"
+  },
+  {
+   "hex": "#1bb152",
+   "name": "Sprout"
+  },
+  {
+   "hex": "#16a34a",
+   "name": "Emerald"
+  },
+  {
+   "hex": "#22c55e",
+   "name": "Mint"
+  },
+  {
+   "hex": "#4ade80",
+   "name": "Lime"
+  },
+  {
+   "hex": "#ef4444",
+   "name": "Crimson"
+  },
+  {
+   "hex": "#ffb929",
+   "name": "Saffron"
+  },
+  {
+   "hex": "#fafafa",
+   "name": "Zinc 50"
+  },
+  {
+   "hex": "#f4f4f5",
+   "name": "Zinc 100"
+  },
+  {
+   "hex": "#e4e4e7",
+   "name": "Zinc 200"
+  },
+  {
+   "hex": "#d4d4d8",
+   "name": "Zinc 300"
+  },
+  {
+   "hex": "#a1a1aa",
+   "name": "Zinc 400"
+  },
+  {
+   "hex": "#71717a",
+   "name": "Zinc 500"
+  },
+  {
+   "hex": "#52525b",
+   "name": "Zinc 600"
+  },
+  {
+   "hex": "#3f3f46",
+   "name": "Zinc 700"
+  },
+  {
+   "hex": "#27272a",
+   "name": "Zinc 800"
+  },
+  {
+   "hex": "#18181b",
+   "name": "Zinc 900"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#dcfce7",
+   "name": "Mint Wash"
+  },
+  {
+   "hex": "#fdc75c",
+   "name": "Saffron Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/fdde09c1-0f10-4c19-9e95-6de6baea8e1c.mp4",
+  "poster": "https://happyhands.cc/design-archive/tuple-1003d7c5/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/tuple-1003d7c5/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/tuple-1003d7c5/thumbnail.jpg"
+}

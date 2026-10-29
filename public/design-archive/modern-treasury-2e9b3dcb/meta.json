@@ -1,0 +1,81 @@
+{
+ "id": "2e9b3dcb-f937-488d-891c-351c7366188f",
+ "slug": "modern-treasury-2e9b3dcb",
+ "name": "Modern Treasury",
+ "site_url": "https://moderntreasury.com",
+ "lastmod": "2026-09-24T18:00:11.236Z",
+ "extracted_at": "2026-09-24T17:42:35.263Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "Treasury ledger on graph paper. Build pages as a quiet white operating sheet where money flows are mapped with fine lines, labeled nodes, and exact dark controls.",
+ "fonts": [
+  "mt-neue-display",
+  "mt-neue-text",
+  "mt-sans",
+  "mt-mono"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#151515",
+   "name": "Ink"
+  },
+  {
+   "hex": "#424242",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#706f6f",
+   "name": "Steel"
+  },
+  {
+   "hex": "#dcdcdc",
+   "name": "Rule Gray"
+  },
+  {
+   "hex": "#cbcac8",
+   "name": "Edge Gray"
+  },
+  {
+   "hex": "#f0f8f9",
+   "name": "Ice Panel"
+  },
+  {
+   "hex": "#0c221d",
+   "name": "Forest Ledger"
+  },
+  {
+   "hex": "#543b4e",
+   "name": "Plum Ledger"
+  },
+  {
+   "hex": "#29735c",
+   "name": "Network Green"
+  },
+  {
+   "hex": "#bae0cf",
+   "name": "Mint Subscription"
+  },
+  {
+   "hex": "#7b5953",
+   "name": "Ledger Brown"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/bff13cc5-61ad-4dbd-8299-c1dddc91eb91.mp4",
+  "poster": "https://happyhands.cc/design-archive/modern-treasury-2e9b3dcb/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/modern-treasury-2e9b3dcb/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/modern-treasury-2e9b3dcb/thumbnail.jpg"
+}

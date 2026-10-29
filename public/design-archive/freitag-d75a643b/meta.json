@@ -1,0 +1,66 @@
+{
+ "id": "d75a643b-a518-4550-b430-679cd989a447",
+ "slug": "freitag-d75a643b",
+ "name": "Freitag",
+ "site_url": "https://freitag.ch/en_ID",
+ "lastmod": "2026-06-05T05:32:25.680Z",
+ "extracted_at": "2026-06-03T18:51:44.979Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Swiss industrial catalog — a printed manifest of truck tarpaulins laid flat on poured concrete, where the only color is the recycled product itself.",
+ "fonts": [
+  "ui-sans-serif",
+  "AkkStdRg (Akkurat Standard)",
+  "FRg (Freitag Regular)",
+  "Arial",
+  "sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Carbon Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#cacaca",
+   "name": "Concrete Gray"
+  },
+  {
+   "hex": "#f1f1f1",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#404040",
+   "name": "Iron Gray"
+  },
+  {
+   "hex": "#616161",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#1a1b1e",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffdd00",
+   "name": "Caution Yellow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a6e05044-58d7-4108-a97a-18db468fc687.mp4",
+  "poster": "https://happyhands.cc/design-archive/freitag-d75a643b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/freitag-d75a643b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/freitag-d75a643b/thumbnail.jpg"
+}

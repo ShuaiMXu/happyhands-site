@@ -1,0 +1,83 @@
+{
+ "id": "d95a35c2-d3f7-49e7-9ba7-282d52d3211d",
+ "slug": "orderful-d95a35c2",
+ "name": "Orderful",
+ "site_url": "https://www.orderful.com",
+ "lastmod": "2026-06-03T16:41:38.497Z",
+ "extracted_at": "2026-06-03T16:41:38.493Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "industrial command deck — a logistics dispatcher's printed control sheet in black ink and surgical vermillion, every page restrained enough to let a single CTA shout.",
+ "fonts": [
+  "telegraf",
+  "modernGothic"
+ ],
+ "colors": [
+  {
+   "hex": "#e42b0c",
+   "name": "Vermillion Signal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#1f1f1f",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#101828",
+   "name": "Slate 900"
+  },
+  {
+   "hex": "#364153",
+   "name": "Slate 700"
+  },
+  {
+   "hex": "#4a5565",
+   "name": "Slate 600"
+  },
+  {
+   "hex": "#676767",
+   "name": "Steel"
+  },
+  {
+   "hex": "#8a8a8a",
+   "name": "Iron"
+  },
+  {
+   "hex": "#99a1af",
+   "name": "Mist"
+  },
+  {
+   "hex": "#d4d4d4",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Frost"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f5f5f5",
+   "name": "Vellum"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c2a48140-71d1-477b-94af-0b19a824450e.mp4",
+  "poster": "https://happyhands.cc/design-archive/orderful-d95a35c2/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/orderful-d95a35c2/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/orderful-d95a35c2/thumbnail.jpg"
+}

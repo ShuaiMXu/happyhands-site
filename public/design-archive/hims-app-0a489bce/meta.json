@@ -1,0 +1,66 @@
+{
+ "id": "0a489bce-4f93-4b38-b612-d87b1d00999e",
+ "slug": "hims-app-0a489bce",
+ "name": "Hims App",
+ "site_url": "https://app.forhims.com",
+ "lastmod": "2026-06-05T01:24:15.702Z",
+ "extracted_at": "2026-06-03T16:27:04.689Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "spa brochure on vellum paper",
+ "fonts": [
+  "sofia"
+ ],
+ "colors": [
+  {
+   "hex": "#5d48db",
+   "name": "Hims Violet"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f0f0f0",
+   "name": "Vellum Gray"
+  },
+  {
+   "hex": "#2e2e2e",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#e0e0e0",
+   "name": "Linen"
+  },
+  {
+   "hex": "#8f8f8f",
+   "name": "Stone"
+  },
+  {
+   "hex": "#3fd194",
+   "name": "Soft Mint"
+  },
+  {
+   "hex": "#9685ff",
+   "name": "Iris"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/bd1b8242-8ac9-4293-9bc2-2f3e807be6aa.mp4",
+  "poster": "https://happyhands.cc/design-archive/hims-app-0a489bce/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/hims-app-0a489bce/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/hims-app-0a489bce/thumbnail.jpg"
+}

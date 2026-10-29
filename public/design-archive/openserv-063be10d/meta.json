@@ -1,0 +1,68 @@
+{
+ "id": "063be10d-593d-4c81-a99e-a7543737b9db",
+ "slug": "openserv-063be10d",
+ "name": "OpenServ",
+ "site_url": "https://openserv.ai",
+ "lastmod": "2026-06-03T15:42:58.481Z",
+ "extracted_at": "2026-06-03T15:42:58.476Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Bright blueprint on frosted glass",
+ "fonts": [
+  "sans-serif",
+  "OS Studio Grotesk",
+  "OS Chronik"
+ ],
+ "colors": [
+  {
+   "hex": "#5f79ff",
+   "name": "Signal Violet"
+  },
+  {
+   "hex": "#01fe93",
+   "name": "Mint Pulse"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#f5f5f5",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#a6a6a6",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#4d4d4d",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#9c9c9c",
+   "name": "Smoke Gray"
+  },
+  {
+   "hex": "#707070",
+   "name": "Slate Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e65aa1de-77dd-4e73-87af-0824e7a42778.mp4",
+  "poster": "https://happyhands.cc/design-archive/openserv-063be10d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/openserv-063be10d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/openserv-063be10d/thumbnail.jpg"
+}

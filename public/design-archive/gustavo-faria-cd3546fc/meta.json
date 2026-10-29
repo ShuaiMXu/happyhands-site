@@ -1,0 +1,52 @@
+{
+ "id": "cd3546fc-b6d0-4ec9-8624-580549af347d",
+ "slug": "gustavo-faria-cd3546fc",
+ "name": "GUSTAVO Faria ©",
+ "site_url": "https://gustavo.work",
+ "lastmod": "2026-06-03T20:36:14.756Z",
+ "extracted_at": "2026-06-03T20:36:14.753Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "Editorial monograph on white paper",
+ "fonts": [
+  "-apple-system",
+  "custom_21879 / custom_49610",
+  "custom_49610"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#282828",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#dcdcdc",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#efc4b2",
+   "name": "Flesh Peach"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/bd034f9e-2bac-453e-a9ca-c8f21087bae4.mp4",
+  "poster": "https://happyhands.cc/design-archive/gustavo-faria-cd3546fc/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/gustavo-faria-cd3546fc/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/gustavo-faria-cd3546fc/thumbnail.jpg"
+}

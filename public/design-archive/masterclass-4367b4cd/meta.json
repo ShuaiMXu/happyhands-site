@@ -1,0 +1,76 @@
+{
+ "id": "4367b4cd-b002-4719-a418-cbce020f0d33",
+ "slug": "masterclass-4367b4cd",
+ "name": "MasterClass",
+ "site_url": "https://www.masterclass.com",
+ "lastmod": "2026-06-05T01:54:47.486Z",
+ "extracted_at": "2026-06-03T17:00:47.834Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "media",
+ "north_star": "black-box stage lit by magenta spotlights",
+ "fonts": [
+  "Sohne",
+  "Sohne Schmal",
+  "Ivar Display Condensed"
+ ],
+ "colors": [
+  {
+   "hex": "#222326",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#0d0d0e",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#272c33",
+   "name": "Charcoal Plate"
+  },
+  {
+   "hex": "#191c21",
+   "name": "Slate Body"
+  },
+  {
+   "hex": "#f4f4f5",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#9ea0a9",
+   "name": "Ash Mute"
+  },
+  {
+   "hex": "#43454c",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#e32652",
+   "name": "Magenta Spotlight"
+  },
+  {
+   "hex": "#eed37f",
+   "name": "Editorial Gold"
+  },
+  {
+   "hex": "#dcff00",
+   "name": "Neon Volt"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/43fd2d36-2310-42fc-a56d-fd3c902b4776.mp4",
+  "poster": "https://happyhands.cc/design-archive/masterclass-4367b4cd/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/masterclass-4367b4cd/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/masterclass-4367b4cd/thumbnail.jpg"
+}

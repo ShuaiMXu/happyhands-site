@@ -1,0 +1,55 @@
+{
+ "id": "84b951e2-eaae-4f56-8f3f-d90407517a56",
+ "slug": "current-84b951e2",
+ "name": "Current",
+ "site_url": "https://current.com",
+ "lastmod": "2026-06-03T22:10:38.638Z",
+ "extracted_at": "2026-06-03T22:10:38.631Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "Editorial gallery in black and white. A whisper-thin headline floats on white paper beside a saturated photograph — banking as a magazine spread, not a dashboard.",
+ "fonts": [
+  "soehne",
+  "proxima-nova"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#737582",
+   "name": "Slate"
+  },
+  {
+   "hex": "#4e525e",
+   "name": "Iron"
+  },
+  {
+   "hex": "#ebeff2",
+   "name": "Mist"
+  },
+  {
+   "hex": "#f4cb45",
+   "name": "Current Spectrum"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/fd5b3709-e42c-406b-b8b7-8ef5fb0cd3fa.mp4",
+  "poster": "https://happyhands.cc/design-archive/current-84b951e2/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/current-84b951e2/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/current-84b951e2/thumbnail.jpg"
+}

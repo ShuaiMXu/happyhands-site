@@ -1,0 +1,73 @@
+{
+ "id": "0fc184f7-6143-4303-8e3d-0e2f075f76b2",
+ "slug": "a-dam-0fc184f7",
+ "name": "A-dam",
+ "site_url": "https://a-dam.com",
+ "lastmod": "2026-06-05T12:12:26.802Z",
+ "extracted_at": "2026-06-03T21:50:00.298Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "morning surf over a curated product shelf — a light, airy canvas where honest basics and ocean-toned photography do the talking.",
+ "fonts": [
+  "GT Walsheim Pro",
+  "sans-serif",
+  "Arial",
+  "GT-Walsheim-Pro"
+ ],
+ "colors": [
+  {
+   "hex": "#000e1f",
+   "name": "Midcurrent Navy"
+  },
+  {
+   "hex": "#0000c5",
+   "name": "Deep Cobalt"
+  },
+  {
+   "hex": "#1a2635",
+   "name": "Twilight Slate"
+  },
+  {
+   "hex": "#000000",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f4f4f4",
+   "name": "Morning Mist"
+  },
+  {
+   "hex": "#e6e7e9",
+   "name": "Cloud Veil"
+  },
+  {
+   "hex": "#dcdddf",
+   "name": "Soft Stone"
+  },
+  {
+   "hex": "#666e79",
+   "name": "Slate Gray"
+  },
+  {
+   "hex": "#fff48d",
+   "name": "Sunbeam"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6fa0640d-0e79-4e1c-9525-b56ed8ce3e78.mp4",
+  "poster": "https://happyhands.cc/design-archive/a-dam-0fc184f7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/a-dam-0fc184f7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/a-dam-0fc184f7/thumbnail.jpg"
+}

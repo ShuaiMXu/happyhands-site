@@ -1,0 +1,58 @@
+{
+ "id": "c70a9990-bc4b-4a64-a69b-aeb7b344fb74",
+ "slug": "microsoft-c70a9990",
+ "name": "Microsoft",
+ "site_url": "https://www.microsoft.com",
+ "lastmod": "2026-06-05T13:02:03.776Z",
+ "extracted_at": "2026-06-03T22:09:57.481Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Corporate blue retail catalog — think 4-square logo against a white showroom floor with one accent blue guiding every interaction.",
+ "fonts": [
+  "Segoe UI"
+ ],
+ "colors": [
+  {
+   "hex": "#0067b8",
+   "name": "Microsoft Blue"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon Black"
+  },
+  {
+   "hex": "#616161",
+   "name": "Steel Gray"
+  },
+  {
+   "hex": "#262626",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#171717",
+   "name": "Deep Charcoal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/cda54060-e54c-417d-b91b-be6f6ca08cb7.mp4",
+  "poster": "https://happyhands.cc/design-archive/microsoft-c70a9990/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/microsoft-c70a9990/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/microsoft-c70a9990/thumbnail.jpg"
+}

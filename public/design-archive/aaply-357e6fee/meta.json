@@ -1,0 +1,72 @@
+{
+ "id": "357e6fee-72db-40cf-b858-254b802018bd",
+ "slug": "aaply-357e6fee",
+ "name": "Aaply",
+ "site_url": "https://aaply.app",
+ "lastmod": "2026-06-05T01:41:29.065Z",
+ "extracted_at": "2026-06-03T16:48:25.505Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "Digital sketchpad with electric highlighter",
+ "fonts": [
+  "Times",
+  "Poppins",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#e6e51e",
+   "name": "Highlighter Yellow"
+  },
+  {
+   "hex": "#f34646",
+   "name": "Annotation Red"
+  },
+  {
+   "hex": "#466cf3",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#ff8562",
+   "name": "Peach Wash"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Graphite Mist"
+  },
+  {
+   "hex": "#e6e6e6",
+   "name": "Hairline Gray"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Shadow Gray"
+  },
+  {
+   "hex": "#fff705",
+   "name": "Sunbeam"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0ab4cf26-a9ee-4d46-a1c6-2ea859d5b36d.mp4",
+  "poster": "https://happyhands.cc/design-archive/aaply-357e6fee/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/aaply-357e6fee/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/aaply-357e6fee/thumbnail.jpg"
+}

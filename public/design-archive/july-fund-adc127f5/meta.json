@@ -1,0 +1,87 @@
+{
+ "id": "adc127f5-c6ec-4892-984d-5445c2b6104e",
+ "slug": "july-fund-adc127f5",
+ "name": "July Fund",
+ "site_url": "https://july.fund",
+ "lastmod": "2026-06-05T08:32:01.972Z",
+ "extracted_at": "2026-06-03T19:55:33.083Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "fintech",
+ "north_star": "dark gallery monograph with chromatic chapter cards",
+ "fonts": [
+  "Portrait",
+  "Helvetica Neue"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#433e3c",
+   "name": "Coffee Bean"
+  },
+  {
+   "hex": "#f0e7e4",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#2b2b2b",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#221f1e",
+   "name": "Espresso"
+  },
+  {
+   "hex": "#898989",
+   "name": "Stone Gray"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#113619",
+   "name": "Forest Floor"
+  },
+  {
+   "hex": "#322b66",
+   "name": "Twilight Violet"
+  },
+  {
+   "hex": "#2e2909",
+   "name": "Olive Depth"
+  },
+  {
+   "hex": "#fde440",
+   "name": "Solar Yellow"
+  },
+  {
+   "hex": "#56d270",
+   "name": "Mint Chip"
+  },
+  {
+   "hex": "#c6bffa",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#b9534a",
+   "name": "Ember Red"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/19137ed3-6f13-4f3f-b2b8-6e6c5ea03625.mp4",
+  "poster": "https://happyhands.cc/design-archive/july-fund-adc127f5/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/july-fund-adc127f5/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/july-fund-adc127f5/thumbnail.jpg"
+}

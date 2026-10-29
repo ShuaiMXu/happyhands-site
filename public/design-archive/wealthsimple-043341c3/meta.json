@@ -1,0 +1,68 @@
+{
+ "id": "043341c3-cf82-4be1-9142-fa5e6a370ca9",
+ "slug": "wealthsimple-043341c3",
+ "name": "Wealthsimple",
+ "site_url": "https://wealthsimple.com",
+ "lastmod": "2026-06-05T02:49:53.432Z",
+ "extracted_at": "2026-06-03T17:30:02.885Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "fintech",
+ "north_star": "Cashmere-lined vault with gallery lighting",
+ "fonts": [
+  "Tiempos",
+  "The Future",
+  "Wealthsimple Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#32302f",
+   "name": "Graphite Ink"
+  },
+  {
+   "hex": "#fcfcfc",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#faf8f5",
+   "name": "Linen Cream"
+  },
+  {
+   "hex": "#f1f0f0",
+   "name": "Fog Veil"
+  },
+  {
+   "hex": "#e4e2e1",
+   "name": "Stone"
+  },
+  {
+   "hex": "#686664",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#000000",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#09090a",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#3a3525",
+   "name": "Bronze Field"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/450af892-98a7-4f35-bc6d-9e093c943d84.mp4",
+  "poster": "https://happyhands.cc/design-archive/wealthsimple-043341c3/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/wealthsimple-043341c3/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/wealthsimple-043341c3/thumbnail.jpg"
+}

@@ -1,0 +1,78 @@
+{
+ "id": "96845df2-7ddb-420a-814e-c339f95a6554",
+ "slug": "dyson-96845df2",
+ "name": "Dyson",
+ "site_url": "https://dyson.com",
+ "lastmod": "2026-06-05T04:36:32.504Z",
+ "extracted_at": "2026-06-03T18:17:14.628Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "engineering gallery on warm paper — products are specimens on a mat board, framed by a black lintel and a single green purchase signal in an otherwise monochrome room.",
+ "fonts": [
+  "DysonFutura"
+ ],
+ "colors": [
+  {
+   "hex": "#fff8e6",
+   "name": "Cream Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#333333",
+   "name": "Charcoal Ink"
+  },
+  {
+   "hex": "#555555",
+   "name": "Graphite Body"
+  },
+  {
+   "hex": "#999999",
+   "name": "Silver Mute"
+  },
+  {
+   "hex": "#ebebeb",
+   "name": "Border Gray"
+  },
+  {
+   "hex": "#dadada",
+   "name": "Rule Gray"
+  },
+  {
+   "hex": "#000000",
+   "name": "Lintel Black"
+  },
+  {
+   "hex": "#0066cc",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#149ecc",
+   "name": "Link Blue"
+  },
+  {
+   "hex": "#79b928",
+   "name": "Promotional Green"
+  },
+  {
+   "hex": "#ac5d00",
+   "name": "Ember Brown"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/837011de-a74b-47f3-9c5b-20c614192ff0.mp4",
+  "poster": "https://happyhands.cc/design-archive/dyson-96845df2/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/dyson-96845df2/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/dyson-96845df2/thumbnail.jpg"
+}

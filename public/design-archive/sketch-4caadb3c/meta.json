@@ -1,0 +1,91 @@
+{
+ "id": "4caadb3c-3865-4a4d-9e1a-46478ac71078",
+ "slug": "sketch-4caadb3c",
+ "name": "Sketch",
+ "site_url": "https://sketch.com",
+ "lastmod": "2026-06-03T15:08:30.518Z",
+ "extracted_at": "2026-06-03T15:08:30.514Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "serif poetry on pastel paper",
+ "fonts": [
+  "Reckless",
+  "InterVariable"
+ ],
+ "colors": [
+  {
+   "hex": "#212123",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#fafafa",
+   "name": "Bone"
+  },
+  {
+   "hex": "#4a4a4a",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#5c5c5c",
+   "name": "Slate"
+  },
+  {
+   "hex": "#a7a7a7",
+   "name": "Mist"
+  },
+  {
+   "hex": "#c4c4c4",
+   "name": "Ash"
+  },
+  {
+   "hex": "#e6e6e6",
+   "name": "Fog"
+  },
+  {
+   "hex": "#151515",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#7f7f7f",
+   "name": "Steel"
+  },
+  {
+   "hex": "#555dff",
+   "name": "Iris"
+  },
+  {
+   "hex": "#03cbbc",
+   "name": "Lagoon"
+  },
+  {
+   "hex": "#4389e6",
+   "name": "Cobalt"
+  },
+  {
+   "hex": "#fc7a9b",
+   "name": "Dusk Wash"
+  },
+  {
+   "hex": "#32adf7",
+   "name": "Prism Drift"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/580eea92-5939-4388-83a4-9f470aad6d6c.mp4",
+  "poster": "https://happyhands.cc/design-archive/sketch-4caadb3c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/sketch-4caadb3c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/sketch-4caadb3c/thumbnail.jpg"
+}

@@ -1,0 +1,83 @@
+{
+ "id": "1ded7f89-3df0-4e7c-9cac-28218d038575",
+ "slug": "flatfile-1ded7f89",
+ "name": "Flatfile",
+ "site_url": "https://flatfile.com",
+ "lastmod": "2026-06-05T09:46:55.334Z",
+ "extracted_at": "2026-06-03T20:34:11.445Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "Quiet data journal on warm parchment",
+ "fonts": [
+  "FlatfileDiatypeVariable",
+  "Flatfile Diatype (Variable)",
+  "Flatfile Diatype (Static)",
+  "Source Serif 4",
+  "Sharp Grotesk",
+  "Booton"
+ ],
+ "colors": [
+  {
+   "hex": "#090b2b",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#151515",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#1b1b1e",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#262626",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#808080",
+   "name": "Steel"
+  },
+  {
+   "hex": "#aaaaaa",
+   "name": "Silver"
+  },
+  {
+   "hex": "#d7d7d7",
+   "name": "Fog"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e5ebd3",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#f8f8f8",
+   "name": "Linen"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#8c8c8c",
+   "name": "Slate Link"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8b5c96dd-5c4e-4037-85db-4d6b905e2182.mp4",
+  "poster": "https://happyhands.cc/design-archive/flatfile-1ded7f89/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/flatfile-1ded7f89/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/flatfile-1ded7f89/thumbnail.jpg"
+}

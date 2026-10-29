@@ -1,0 +1,56 @@
+{
+ "id": "0ed4e85f-f3e9-438c-bc34-2a726863c602",
+ "slug": "peggy-0ed4e85f",
+ "name": "Peggy",
+ "site_url": "https://peggy.com/royalties",
+ "lastmod": "2026-06-03T21:31:50.536Z",
+ "extracted_at": "2026-06-03T21:31:50.529Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "monochrome art gallery on a winter morning — the only color comes from the work on the walls",
+ "fonts": [
+  "Reckless",
+  "Inter",
+  "Monument Grotesk"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Gallery White"
+  },
+  {
+   "hex": "#f4f4f4",
+   "name": "Canvas Mist"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#141414",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#e2e8f0",
+   "name": "Fog"
+  },
+  {
+   "hex": "#666666",
+   "name": "Graphite"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2b545ed8-d314-4b52-87d4-07d46a9812c1.mp4",
+  "poster": "https://happyhands.cc/design-archive/peggy-0ed4e85f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/peggy-0ed4e85f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/peggy-0ed4e85f/thumbnail.jpg"
+}

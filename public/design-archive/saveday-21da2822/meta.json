@@ -1,0 +1,71 @@
+{
+ "id": "21da2822-cfe3-4a6a-b333-1be48e855e36",
+ "slug": "saveday-21da2822",
+ "name": "SaveDay",
+ "site_url": "https://www.save.day",
+ "lastmod": "2026-06-03T21:48:18.492Z",
+ "extracted_at": "2026-06-03T21:48:18.485Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "butter-highlighter poster typography — oversize black uppercase type on cream paper, with one band of yellow dragged across each section.",
+ "fonts": [
+  "Phudu",
+  "InterDisplay"
+ ],
+ "colors": [
+  {
+   "hex": "#fbda5f",
+   "name": "Butter Highlight"
+  },
+  {
+   "hex": "#006aff",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#0d0d0d",
+   "name": "Ink"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#edeef0",
+   "name": "Fog"
+  },
+  {
+   "hex": "#e5e4e3",
+   "name": "Stone"
+  },
+  {
+   "hex": "#333333",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#999999",
+   "name": "Mist"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Silver"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f0bf597f-afa1-40d6-9f45-bac329462243.mp4",
+  "poster": "https://happyhands.cc/design-archive/saveday-21da2822/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/saveday-21da2822/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/saveday-21da2822/thumbnail.jpg"
+}

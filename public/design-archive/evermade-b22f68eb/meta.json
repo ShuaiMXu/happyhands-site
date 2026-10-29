@@ -1,0 +1,56 @@
+{
+ "id": "b22f68eb-7ed1-47b6-995e-2c0afc79ac7e",
+ "slug": "evermade-b22f68eb",
+ "name": "Evermade",
+ "site_url": "https://evermade.fi",
+ "lastmod": "2026-06-03T20:52:02.291Z",
+ "extracted_at": "2026-06-03T20:52:02.286Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Editorial punk on cream paper",
+ "fonts": [
+  "Instrument Serif",
+  "DM Mono",
+  "Manrope"
+ ],
+ "colors": [
+  {
+   "hex": "#2d070b",
+   "name": "Wine Maroon"
+  },
+  {
+   "hex": "#ff0389",
+   "name": "Hot Pink"
+  },
+  {
+   "hex": "#fef0e6",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#ffdce2",
+   "name": "Blush Card"
+  },
+  {
+   "hex": "#ffc7de",
+   "name": "Soft Pink"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/75d96cf7-b5e8-4c42-aec1-cf8dae92554f.mp4",
+  "poster": "https://happyhands.cc/design-archive/evermade-b22f68eb/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/evermade-b22f68eb/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/evermade-b22f68eb/thumbnail.jpg"
+}

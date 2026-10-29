@@ -1,0 +1,58 @@
+{
+ "id": "3ad131ed-b603-49a3-9491-7407db6cb423",
+ "slug": "custo-3ad131ed",
+ "name": "Custo",
+ "site_url": "https://custo.io",
+ "lastmod": "2026-06-05T04:12:08.486Z",
+ "extracted_at": "2026-06-03T18:09:43.299Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Gunmetal gallery with monolithic type. A muted gray-green showroom where a single dark object and 57px type do all the talking.",
+ "fonts": [
+  "PP Neue Montreal"
+ ],
+ "colors": [
+  {
+   "hex": "#9ea29f",
+   "name": "Canvas Gunmetal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#4b514d",
+   "name": "Anodized Graphite"
+  },
+  {
+   "hex": "#8e9194",
+   "name": "Brushed Steel"
+  },
+  {
+   "hex": "#a7aaad",
+   "name": "Linen Mist"
+  },
+  {
+   "hex": "#d8d8d8",
+   "name": "Aluminum Hairline"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/474f2297-7f04-4fd1-b764-9fb2d6f83d23.mp4",
+  "poster": "https://happyhands.cc/design-archive/custo-3ad131ed/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/custo-3ad131ed/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/custo-3ad131ed/thumbnail.jpg"
+}

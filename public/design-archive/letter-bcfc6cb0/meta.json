@@ -1,0 +1,83 @@
+{
+ "id": "bcfc6cb0-1b39-4f3f-a95e-bd7b563b0efc",
+ "slug": "letter-bcfc6cb0",
+ "name": "Letter",
+ "site_url": "https://letter.co",
+ "lastmod": "2026-06-05T08:30:25.237Z",
+ "extracted_at": "2026-06-03T20:17:29.470Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "fintech",
+ "north_star": "Private gallery with iridescent vault artifacts. A black-walled showroom where serif headlines float above chrome sculptures on tinted gallery walls.",
+ "fonts": [
+  "Neufile Grotesk Extended",
+  "Albra Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#191b1f",
+   "name": "Vault Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f6f9f9",
+   "name": "Mist White"
+  },
+  {
+   "hex": "#9fabad",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#e6ebec",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#fcede1",
+   "name": "Peach Wall"
+  },
+  {
+   "hex": "#eefcef",
+   "name": "Mint Wall"
+  },
+  {
+   "hex": "#e6def0",
+   "name": "Lavender Wall"
+  },
+  {
+   "hex": "#186f64",
+   "name": "Deep Teal"
+  },
+  {
+   "hex": "#536eff",
+   "name": "Electric Violet"
+  },
+  {
+   "hex": "#644bc4",
+   "name": "Royal Violet"
+  },
+  {
+   "hex": "#154ea5",
+   "name": "Sapphire Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/65a38a6e-9567-4418-a65c-21d95e682b7f.mp4",
+  "poster": "https://happyhands.cc/design-archive/letter-bcfc6cb0/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/letter-bcfc6cb0/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/letter-bcfc6cb0/thumbnail.jpg"
+}

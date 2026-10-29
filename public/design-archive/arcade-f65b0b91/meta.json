@@ -1,0 +1,79 @@
+{
+ "id": "f65b0b91-bdd1-458d-8775-2f6fa8a9d4b1",
+ "slug": "arcade-f65b0b91",
+ "name": "Arcade",
+ "site_url": "https://arcade.software",
+ "lastmod": "2026-06-03T15:17:53.167Z",
+ "extracted_at": "2026-06-03T15:17:53.160Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Electric blue ripple on white paper. A clean editorial canvas where a single vivid blue flows like liquid from corner to corner, making every interactive element feel switched on.",
+ "fonts": [
+  "Inter",
+  "Balig Script"
+ ],
+ "colors": [
+  {
+   "hex": "#2142e7",
+   "name": "Voltage Blue"
+  },
+  {
+   "hex": "#182fa5",
+   "name": "Deep Voltage"
+  },
+  {
+   "hex": "#111827",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#4b5563",
+   "name": "Slate 600"
+  },
+  {
+   "hex": "#374151",
+   "name": "Slate 700"
+  },
+  {
+   "hex": "#70747d",
+   "name": "Slate 500"
+  },
+  {
+   "hex": "#414652",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f9fafb",
+   "name": "Fog 50"
+  },
+  {
+   "hex": "#f3f4f6",
+   "name": "Fog 100"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Mist 200"
+  },
+  {
+   "hex": "#d9dadc",
+   "name": "Smoke 300"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/79b649a5-b979-440e-95ea-e0f4032d5bc2.mp4",
+  "poster": "https://happyhands.cc/design-archive/arcade-f65b0b91/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/arcade-f65b0b91/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/arcade-f65b0b91/thumbnail.jpg"
+}

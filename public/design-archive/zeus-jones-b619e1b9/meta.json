@@ -1,0 +1,51 @@
+{
+ "id": "b619e1b9-86ee-4a10-b6e6-47b10927c3a2",
+ "slug": "zeus-jones-b619e1b9",
+ "name": "Zeus Jones",
+ "site_url": "https://zeusjones.com",
+ "lastmod": "2026-06-05T11:45:54.499Z",
+ "extracted_at": "2026-06-03T21:31:30.554Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "risograph broadsheet on warm cream — a page that prints like a zine and loads like a gallery.",
+ "fonts": [
+  "ZJSansDisplay",
+  "FeatureDeckLight"
+ ],
+ "colors": [
+  {
+   "hex": "#1a1c2c",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#fcfaf3",
+   "name": "Warm Parchment"
+  },
+  {
+   "hex": "#ebe9e4",
+   "name": "Soft Linen"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#fd9494",
+   "name": "Blush Coral"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ece19802-326d-4d89-b769-9510f1e74511.mp4",
+  "poster": "https://happyhands.cc/design-archive/zeus-jones-b619e1b9/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/zeus-jones-b619e1b9/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/zeus-jones-b619e1b9/thumbnail.jpg"
+}

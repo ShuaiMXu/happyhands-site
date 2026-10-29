@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "empty",
+  "type": "registry:ui",
+  "title": "Empty",
+  "description": "An empty state with one action, such as Add a card.",
+  "author": "design.how",
+  "categories": [
+    "feedback"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/theme.json",
+    "https://happyhands.cc/r/lime/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/lime/components/empty.md",
+    "page": "https://happyhands.cc/design-how/lime/components/empty.md"
+  },
+  "files": [
+    {
+      "path": "registry/lime/ui/empty.tsx",
+      "content": "import {cn} from '@/lib/lime/utils';\n\n// A region with nothing in it yet. An empty state is a designed state: say what belongs here, then offer\n// the one action that fills it. Title in sentence case, one line of help, at most two buttons. It has no fill\n// of its own: it takes the color of the list, card or page it empties, so it never adds a surface.\n\nfunction Empty({className, ...props}: React.ComponentProps<'div'>) {\n  return <div data-slot=\"empty\" className={cn('flex flex-col items-center gap-3 px-6 py-10 text-center', className)} {...props}/>;\n}\n\nfunction EmptyIcon({className, ...props}: React.ComponentProps<'div'>) {\n  return <div data-slot=\"empty-icon\" aria-hidden=\"true\" className={cn('flex size-12 items-center justify-center rounded-full bg-surface text-fg-2', className)} {...props}/>;\n}\n\nfunction EmptyTitle({className, ...props}: React.ComponentProps<'h3'>) {\n  return <h3 data-slot=\"empty-title\" className={cn('text-lg leading-tight font-semibold', className)} {...props}/>;\n}\n\nfunction EmptyDescription({className, ...props}: React.ComponentProps<'p'>) {\n  return <p data-slot=\"empty-description\" className={cn('max-w-sm text-sm text-fg-2', className)} {...props}/>;\n}\n\nfunction EmptyActions({className, ...props}: React.ComponentProps<'div'>) {\n  return <div data-slot=\"empty-actions\" className={cn('mt-1 flex flex-wrap items-center justify-center gap-2', className)} {...props}/>;\n}\n\nexport {Empty, EmptyIcon, EmptyTitle, EmptyDescription, EmptyActions};\n",
+      "type": "registry:ui",
+      "target": "@components/lime/ui/empty.tsx"
+    }
+  ]
+}

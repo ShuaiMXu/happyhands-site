@@ -1,0 +1,79 @@
+{
+ "id": "e1afed53-6854-40dd-8157-dfc1dd3505f0",
+ "slug": "hatch-e1afed53",
+ "name": "Hatch",
+ "site_url": "https://www.hatch.fm",
+ "lastmod": "2026-06-03T18:38:37.959Z",
+ "extracted_at": "2026-06-03T18:38:37.954Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Hand-drawn zine meets pastel candy store. A cream-paper canvas splashed with mint highlights, confetti dots, and pill-shaped CTAs, where a chunky bold serif whispers fun and a blue mascot winks from the corner.",
+ "fonts": [
+  "Recoleta",
+  "Lota Grotes Que Alt"
+ ],
+ "colors": [
+  {
+   "hex": "#f5f4f0",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#222222",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#333333",
+   "name": "Slate"
+  },
+  {
+   "hex": "#dddfe2",
+   "name": "Fog"
+  },
+  {
+   "hex": "#99ffcc",
+   "name": "Mint Splash"
+  },
+  {
+   "hex": "#160042",
+   "name": "Plum Ink"
+  },
+  {
+   "hex": "#26153f",
+   "name": "Aubergine"
+  },
+  {
+   "hex": "#7bbbff",
+   "name": "Sky Pop"
+  },
+  {
+   "hex": "#ff99cc",
+   "name": "Bubblegum"
+  },
+  {
+   "hex": "#ffcc99",
+   "name": "Peach Pop"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0da92053-7cff-4512-a2c1-49c4d131455a.mp4",
+  "poster": "https://happyhands.cc/design-archive/hatch-e1afed53/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/hatch-e1afed53/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/hatch-e1afed53/thumbnail.jpg"
+}

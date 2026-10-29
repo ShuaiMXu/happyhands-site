@@ -1,0 +1,64 @@
+{
+ "id": "3e52dd36-6ab1-48c6-bc40-47ef6d33abc2",
+ "slug": "monopo-saigon-3e52dd36",
+ "name": "monopo saigon",
+ "site_url": "https://monopo.vn",
+ "lastmod": "2026-07-03T09:52:17.211Z",
+ "extracted_at": "2026-07-03T02:46:16.954Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Liquid iridescence behind editorial silence — a monochrome editorial gallery floating on molten light.",
+ "fonts": [
+  "Roobert",
+  "Raleway",
+  "system-ui"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#181818",
+   "name": "Inkstone"
+  },
+  {
+   "hex": "#6d6d6d",
+   "name": "Felt Gray"
+  },
+  {
+   "hex": "#636363",
+   "name": "Slate Pill"
+  },
+  {
+   "hex": "#9a9a9a",
+   "name": "Ash Mist"
+  },
+  {
+   "hex": "#808080",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#a02d25",
+   "name": "Iridescent Fade"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a2f41146-9aef-429b-b606-91a852661960.mp4",
+  "poster": "https://happyhands.cc/design-archive/monopo-saigon-3e52dd36/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/monopo-saigon-3e52dd36/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/monopo-saigon-3e52dd36/thumbnail.jpg"
+}

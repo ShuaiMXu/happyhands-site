@@ -1,0 +1,74 @@
+{
+ "id": "5f39e778-d204-42a9-8b8b-a1519dbd3971",
+ "slug": "microsoft-5f39e778",
+ "name": "Microsoft",
+ "site_url": "https://microsoft.com",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-11T19:19:32.821Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "",
+ "north_star": "Retail shelf behind plate glass — products float forward, chrome recedes.",
+ "fonts": [
+  "Segoe UI"
+ ],
+ "colors": [
+  {
+   "hex": "#0067b8",
+   "name": "Microsoft Blue"
+  },
+  {
+   "hex": "#004a7f",
+   "name": "Deep Azure"
+  },
+  {
+   "hex": "#0078d4",
+   "name": "Fluent Icon Blue"
+  },
+  {
+   "hex": "#ffb900",
+   "name": "Amber Badge"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void"
+  },
+  {
+   "hex": "#171717",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#262626",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#333333",
+   "name": "Iron"
+  },
+  {
+   "hex": "#616161",
+   "name": "Slate"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Fog"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6eeeecde-9f06-498c-b749-b5b0073c1ecd.mp4",
+  "poster": "https://happyhands.cc/design-archive/microsoft-5f39e778/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/microsoft-5f39e778/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/microsoft-5f39e778/thumbnail.jpg"
+}

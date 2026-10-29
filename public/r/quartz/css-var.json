@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "css-var",
+  "type": "registry:lib",
+  "title": "CSS token reader",
+  "description": "Support file: reads a design token from the page for charts and canvases.",
+  "author": "design.how",
+  "categories": [
+    "internal"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/quartz/index.md",
+    "page": "https://happyhands.cc/design-how/quartz/index.md"
+  },
+  "files": [
+    {
+      "path": "registry/quartz/lib/css-var.ts",
+      "content": "// Reads a Quartz token off an element at runtime, for the few timings and lengths that JavaScript has to\n// do arithmetic with (toast reading time, skeleton delay, chart layout, a fixed-position menu's height).\n// tokens.css stays the one source; the fallback is the token's value and only covers a missing element\n// or a server render.\n\n/** A token's value in px or ms: \"8px\" is 8, \"3000ms\" is 3000, \"3s\" is 3000. Anything else gives the fallback. */\nexport function cssNumber(el: Element | null | undefined, name: string, fallback: number): number {\n  if (!el || typeof getComputedStyle === 'undefined') return fallback;\n  const raw = getComputedStyle(el).getPropertyValue(name).trim();\n  const match = raw.match(/^(-?[\\d.]+)(px|ms|s)?$/);\n  if (!match) return fallback;\n  const n = parseFloat(match[1]);\n  return match[2] === 's' ? n * 1000 : n;\n}\n",
+      "type": "registry:lib",
+      "target": "@lib/quartz/css-var.ts"
+    }
+  ]
+}

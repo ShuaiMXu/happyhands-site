@@ -1,0 +1,71 @@
+{
+ "id": "108e2695-6970-47d5-b5b0-eea8fc34e048",
+ "slug": "dovetail-108e2695",
+ "name": "Dovetail",
+ "site_url": "https://dovetail.com",
+ "lastmod": "2026-06-05T01:20:53.082Z",
+ "extracted_at": "2026-06-03T16:24:24.796Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "saas",
+ "north_star": "Blueprint grid under a black moon — faint graph lines, white type, one violet spark.",
+ "fonts": [
+  "Inter",
+  "JetBrains Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#6798ff",
+   "name": "Soft Indigo"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#0a0a0a",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#141414",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#1e1e1e",
+   "name": "Iron"
+  },
+  {
+   "hex": "#313131",
+   "name": "Slate Edge"
+  },
+  {
+   "hex": "#454545",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#7c7c7c",
+   "name": "Mist"
+  },
+  {
+   "hex": "#a7a7a7",
+   "name": "Ash"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/81283453-1408-4ae1-9955-a4a6bba7cbb0.mp4",
+  "poster": "https://happyhands.cc/design-archive/dovetail-108e2695/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/dovetail-108e2695/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/dovetail-108e2695/thumbnail.jpg"
+}

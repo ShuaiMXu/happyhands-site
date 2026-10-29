@@ -1,0 +1,52 @@
+{
+ "id": "597355de-6167-4f37-8f14-b3897919a94c",
+ "slug": "exhibition-magazine-597355de",
+ "name": "Exhibition Magazine",
+ "site_url": "https://exhibition-magazine.com",
+ "lastmod": "2026-06-05T06:29:43.797Z",
+ "extracted_at": "2026-06-03T19:07:44.425Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "Concrete editorial monolith",
+ "fonts": [
+  "DIN",
+  "Cochin",
+  "forma-djr-display"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Hairline Grey"
+  },
+  {
+   "hex": "#a9a9a9",
+   "name": "Ash Grey"
+  },
+  {
+   "hex": "#fff5fa",
+   "name": "Bone Blush"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a90e5ca2-42d1-4817-8234-ec6cf0c3b1c1.mp4",
+  "poster": "https://happyhands.cc/design-archive/exhibition-magazine-597355de/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/exhibition-magazine-597355de/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/exhibition-magazine-597355de/thumbnail.jpg"
+}

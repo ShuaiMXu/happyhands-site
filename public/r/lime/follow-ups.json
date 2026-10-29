@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "follow-ups",
+  "type": "registry:ui",
+  "title": "Follow ups",
+  "description": "Suggested next requests under an answer.",
+  "author": "design.how",
+  "categories": [
+    "ai"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/theme.json",
+    "https://happyhands.cc/r/lime/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/lime/components/follow-ups.md",
+    "page": "https://happyhands.cc/design-how/lime/components/follow-ups.md"
+  },
+  "files": [
+    {
+      "path": "registry/lime/ai/follow-ups.tsx",
+      "content": "'use client';\n\nimport {cn} from '@/lib/lime/utils';\n\n// Suggested next requests under an answer. Each is a full sentence the person could have typed, so one\n// press sends it as written. Three at most. They wrap on a narrow screen and never scroll sideways.\n\ntype FollowUpsLabels = {\n  /** The name of the row, read by screen readers. */\n  group?: string;\n};\n\nconst defaultLabels: Required<FollowUpsLabels> = {group: 'Suggested follow ups'};\n\ntype FollowUpsProps = Omit<React.ComponentProps<'div'>, 'onSelect'> & {\n  suggestions: string[];\n  onSelect: (suggestion: string) => void;\n  /** The row's name, for another language. */\n  labels?: FollowUpsLabels;\n};\n\nfunction FollowUps({suggestions, onSelect, labels, className, ...props}: FollowUpsProps) {\n  const words = {...defaultLabels, ...labels};\n  if (!suggestions.length) return null;\n  return (\n    <div data-slot=\"follow-ups\" role=\"group\" aria-label={words.group} className={cn('flex flex-wrap gap-2', className)} {...props}>\n      {suggestions.slice(0, 3).map(text => (\n        <button\n          key={text}\n          type=\"button\"\n          data-slot=\"follow-up\"\n          onClick={() => onSelect(text)}\n          className=\"inline-flex min-h-(--control-sm) max-w-full items-center rounded-panel border border-line-strong bg-page px-3 py-1 text-start text-sm text-fg transition-colors duration-(--dur-instant) hover:bg-surface\"\n        >\n          {text}\n        </button>\n      ))}\n    </div>\n  );\n}\n\nexport {FollowUps, type FollowUpsProps, type FollowUpsLabels};\n",
+      "type": "registry:ui",
+      "target": "@components/lime/ai/follow-ups.tsx"
+    }
+  ]
+}

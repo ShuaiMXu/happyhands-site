@@ -1,0 +1,42 @@
+{
+ "id": "1b293bed-e6fc-4880-9691-2dbf04339bd5",
+ "slug": "thomas-vimare-1b293bed",
+ "name": "Thomas Vimare",
+ "site_url": "https://thms.works",
+ "lastmod": "2026-06-05T03:17:18.049Z",
+ "extracted_at": "2026-06-03T17:44:25.253Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "design",
+ "north_star": "midnight monochrome atelier — a designer's darkroom where white type and saturated photography are the only light",
+ "fonts": [
+  "HelveticaNowDisplay-Light"
+ ],
+ "colors": [
+  {
+   "hex": "#171717",
+   "name": "Obsidian Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#9a9a9a",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3771bbd3-ec28-46d4-b410-03eff6927f38.mp4",
+  "poster": "https://happyhands.cc/design-archive/thomas-vimare-1b293bed/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/thomas-vimare-1b293bed/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/thomas-vimare-1b293bed/thumbnail.jpg"
+}

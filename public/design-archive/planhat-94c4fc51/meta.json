@@ -1,0 +1,56 @@
+{
+ "id": "94c4fc51-4323-4f06-a4a4-27517e190445",
+ "slug": "planhat-94c4fc51",
+ "name": "Planhat",
+ "site_url": "https://www.planhat.com",
+ "lastmod": "2026-06-03T20:13:26.797Z",
+ "extracted_at": "2026-06-03T20:13:26.791Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "saas",
+ "north_star": "Cinematic monochrome editorial — a darkroom print on cold-pressed paper.",
+ "fonts": [
+  "Geigy LL Duplex Var",
+  "Inter",
+  "system sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#121211",
+   "name": "Deep Ink"
+  },
+  {
+   "hex": "#575551",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#958d7e",
+   "name": "Warm Stone"
+  },
+  {
+   "hex": "#e8552b",
+   "name": "Ember Tag"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0da4a07b-d98a-43c1-89e2-49f66006c07d.mp4",
+  "poster": "https://happyhands.cc/design-archive/planhat-94c4fc51/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/planhat-94c4fc51/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/planhat-94c4fc51/thumbnail.jpg"
+}

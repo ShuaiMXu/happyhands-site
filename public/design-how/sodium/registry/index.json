@@ -1,0 +1,2171 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry.json",
+ "name": "sodium",
+ "homepage": "https://design.how/systems/sodium",
+ "items": [
+  {
+   "name": "button",
+   "type": "registry:ui",
+   "title": "Button",
+   "description": "Starts an action.",
+   "author": "design.how",
+   "categories": [
+    "actions"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/button.md",
+    "page": "https://design.how/systems/sodium/components/button"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/button.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/button.tsx"
+    }
+   ]
+  },
+  {
+   "name": "button-group",
+   "type": "registry:ui",
+   "title": "Button group",
+   "description": "Joins related buttons into one control.",
+   "author": "design.how",
+   "categories": [
+    "actions"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/dropdown-menu.json",
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/button-group.md",
+    "page": "https://design.how/systems/sodium/components/button-group"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/button-group.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/button-group.tsx"
+    }
+   ]
+  },
+  {
+   "name": "copy-button",
+   "type": "registry:ui",
+   "title": "Copy button",
+   "description": "Copies a value.",
+   "author": "design.how",
+   "categories": [
+    "actions"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/copy-button.md",
+    "page": "https://design.how/systems/sodium/components/copy-button"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/copy-button.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/copy-button.tsx"
+    }
+   ]
+  },
+  {
+   "name": "field",
+   "type": "registry:ui",
+   "title": "Field",
+   "description": "Gives an input its label and error.",
+   "author": "design.how",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/field.md",
+    "page": "https://design.how/systems/sodium/components/field"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/field.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/field.tsx"
+    }
+   ]
+  },
+  {
+   "name": "input",
+   "type": "registry:ui",
+   "title": "Input",
+   "description": "Takes one line of text.",
+   "author": "design.how",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/copy-button.json",
+    "https://design.how/r/sodium/field.json",
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/kbd.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/input.md",
+    "page": "https://design.how/systems/sodium/components/input"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/input.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/input.tsx"
+    }
+   ]
+  },
+  {
+   "name": "textarea",
+   "type": "registry:ui",
+   "title": "Textarea",
+   "description": "Takes several lines of text.",
+   "author": "design.how",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/textarea.md",
+    "page": "https://design.how/systems/sodium/components/textarea"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/textarea.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/textarea.tsx"
+    }
+   ]
+  },
+  {
+   "name": "select",
+   "type": "registry:ui",
+   "title": "Select",
+   "description": "Picks one option from a list.",
+   "author": "design.how",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/field.json",
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/overlay.json",
+    "https://design.how/r/sodium/portal.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/select.md",
+    "page": "https://design.how/systems/sodium/components/select"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/select.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/select.tsx"
+    }
+   ]
+  },
+  {
+   "name": "combobox",
+   "type": "registry:ui",
+   "title": "Combobox",
+   "description": "Finds one or more values by typing.",
+   "author": "design.how",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/field.json",
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/input.json",
+    "https://design.how/r/sodium/kbd.json",
+    "https://design.how/r/sodium/overlay.json",
+    "https://design.how/r/sodium/portal.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/combobox.md",
+    "page": "https://design.how/systems/sodium/components/combobox"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/combobox.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/combobox.tsx"
+    }
+   ]
+  },
+  {
+   "name": "overlay",
+   "type": "registry:lib",
+   "title": "Overlay",
+   "description": "Support file: what every overlay shares: the edged panel surface, the way it arrives, and the list rows of selects, comboboxes and menus.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/portal.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium.md",
+    "page": "https://design.how/systems/sodium"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/lib/overlay.ts",
+     "type": "registry:lib",
+     "target": "@lib/sodium/overlay.ts"
+    }
+   ]
+  },
+  {
+   "name": "checkbox",
+   "type": "registry:ui",
+   "title": "Checkbox",
+   "description": "Turns one option on or off.",
+   "author": "design.how",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/checkbox.md",
+    "page": "https://design.how/systems/sodium/components/checkbox"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/checkbox.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/checkbox.tsx"
+    }
+   ]
+  },
+  {
+   "name": "radio-group",
+   "type": "registry:ui",
+   "title": "Radio group",
+   "description": "Picks one of a few choices.",
+   "author": "design.how",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/radio-group.md",
+    "page": "https://design.how/systems/sodium/components/radio-group"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/radio-group.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/radio-group.tsx"
+    }
+   ]
+  },
+  {
+   "name": "switch",
+   "type": "registry:ui",
+   "title": "Switch",
+   "description": "Turns a setting on or off at once.",
+   "author": "design.how",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/switch.md",
+    "page": "https://design.how/systems/sodium/components/switch"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/switch.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/switch.tsx"
+    }
+   ]
+  },
+  {
+   "name": "slider",
+   "type": "registry:ui",
+   "title": "Slider",
+   "description": "Picks a number or a range.",
+   "author": "design.how",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/direction.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/slider.md",
+    "page": "https://design.how/systems/sodium/components/slider"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/slider.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/slider.tsx"
+    }
+   ]
+  },
+  {
+   "name": "segmented-control",
+   "type": "registry:ui",
+   "title": "Segmented control",
+   "description": "Switches between a few views of one thing.",
+   "author": "design.how",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/segmented-control.md",
+    "page": "https://design.how/systems/sodium/components/segmented-control"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/segmented-control.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/segmented-control.tsx"
+    }
+   ]
+  },
+  {
+   "name": "tag",
+   "type": "registry:ui",
+   "title": "Tag",
+   "description": "Labels what something is or how it stands.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/tag.md",
+    "page": "https://design.how/systems/sodium/components/tag"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/tag.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/tag.tsx"
+    }
+   ]
+  },
+  {
+   "name": "status-strip",
+   "type": "registry:ui",
+   "title": "Status strip",
+   "description": "Shows the few numbers to check first, in one ruled row.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/status-strip.md",
+    "page": "https://design.how/systems/sodium/components/status-strip"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/status-strip.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/status-strip.tsx"
+    }
+   ]
+  },
+  {
+   "name": "avatar",
+   "type": "registry:ui",
+   "title": "Avatar",
+   "description": "Shows who or what acted.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/avatar.md",
+    "page": "https://design.how/systems/sodium/components/avatar"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/avatar.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/avatar.tsx"
+    }
+   ]
+  },
+  {
+   "name": "kbd",
+   "type": "registry:ui",
+   "title": "Kbd",
+   "description": "Shows a key or a shortcut.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/kbd.md",
+    "page": "https://design.how/systems/sodium/components/kbd"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/kbd.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/kbd.tsx"
+    }
+   ]
+  },
+  {
+   "name": "item",
+   "type": "registry:ui",
+   "title": "Item",
+   "description": "Shows one thing as a row in a list.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/item.md",
+    "page": "https://design.how/systems/sodium/components/item"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/item.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/item.tsx"
+    }
+   ]
+  },
+  {
+   "name": "data-list",
+   "type": "registry:ui",
+   "title": "Data list",
+   "description": "Lists label and value pairs about one thing.",
+   "author": "design.how",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/data-list.md",
+    "page": "https://design.how/systems/sodium/components/data-list"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/data-list.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/data-list.tsx"
+    }
+   ]
+  },
+  {
+   "name": "status",
+   "type": "registry:ui",
+   "title": "Status",
+   "description": "Says where a job or a run stands.",
+   "author": "design.how",
+   "categories": [
+    "feedback"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/status.md",
+    "page": "https://design.how/systems/sodium/components/status"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/status.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/status.tsx"
+    },
+    {
+     "path": "registry/sodium/ui/running-mark.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/running-mark.tsx"
+    }
+   ]
+  },
+  {
+   "name": "meter",
+   "type": "registry:ui",
+   "title": "Meter",
+   "description": "Shows how full something is.",
+   "author": "design.how",
+   "categories": [
+    "feedback"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/meter.md",
+    "page": "https://design.how/systems/sodium/components/meter"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/meter.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/meter.tsx"
+    }
+   ]
+  },
+  {
+   "name": "progress",
+   "type": "registry:ui",
+   "title": "Progress",
+   "description": "Shows how far a task got.",
+   "author": "design.how",
+   "categories": [
+    "feedback"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/progress.md",
+    "page": "https://design.how/systems/sodium/components/progress"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/progress.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/progress.tsx"
+    }
+   ]
+  },
+  {
+   "name": "alert",
+   "type": "registry:ui",
+   "title": "Alert",
+   "description": "Reports a problem or a change in the current view.",
+   "author": "design.how",
+   "categories": [
+    "feedback"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/status.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/alert.md",
+    "page": "https://design.how/systems/sodium/components/alert"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/alert.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/alert.tsx"
+    }
+   ]
+  },
+  {
+   "name": "toast",
+   "type": "registry:ui",
+   "title": "Toast",
+   "description": "Reports something that happened out of view.",
+   "author": "design.how",
+   "categories": [
+    "feedback"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/direction.json",
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/portal.json",
+    "https://design.how/r/sodium/status.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/toast.md",
+    "page": "https://design.how/systems/sodium/components/toast"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/toast.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/toast.tsx"
+    }
+   ]
+  },
+  {
+   "name": "empty-state",
+   "type": "registry:ui",
+   "title": "Empty state",
+   "description": "Explains why a region is empty.",
+   "author": "design.how",
+   "categories": [
+    "feedback"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/empty-state.md",
+    "page": "https://design.how/systems/sodium/components/empty-state"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/empty-state.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/empty-state.tsx"
+    }
+   ]
+  },
+  {
+   "name": "skeleton",
+   "type": "registry:ui",
+   "title": "Skeleton",
+   "description": "Holds the shape of content while it loads.",
+   "author": "design.how",
+   "categories": [
+    "feedback"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/skeleton.md",
+    "page": "https://design.how/systems/sodium/components/skeleton"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/skeleton.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/skeleton.tsx"
+    }
+   ]
+  },
+  {
+   "name": "dialog",
+   "type": "registry:ui",
+   "title": "Dialog",
+   "description": "Asks for a decision on top of the page.",
+   "author": "design.how",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/overlay.json",
+    "https://design.how/r/sodium/portal.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/dialog.md",
+    "page": "https://design.how/systems/sodium/components/dialog"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/dialog.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/dialog.tsx"
+    }
+   ]
+  },
+  {
+   "name": "sheet",
+   "type": "registry:ui",
+   "title": "Sheet",
+   "description": "Opens the details of one thing at the side.",
+   "author": "design.how",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/direction.json",
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/overlay.json",
+    "https://design.how/r/sodium/portal.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/sheet.md",
+    "page": "https://design.how/systems/sodium/components/sheet"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/sheet.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/sheet.tsx"
+    }
+   ]
+  },
+  {
+   "name": "popover",
+   "type": "registry:ui",
+   "title": "Popover",
+   "description": "Shows a few lines next to a control.",
+   "author": "design.how",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/overlay.json",
+    "https://design.how/r/sodium/portal.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/popover.md",
+    "page": "https://design.how/systems/sodium/components/popover"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/popover.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/popover.tsx"
+    }
+   ]
+  },
+  {
+   "name": "tooltip",
+   "type": "registry:ui",
+   "title": "Tooltip",
+   "description": "Names a control on hover or focus.",
+   "author": "design.how",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/kbd.json",
+    "https://design.how/r/sodium/overlay.json",
+    "https://design.how/r/sodium/portal.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/tooltip.md",
+    "page": "https://design.how/systems/sodium/components/tooltip"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/tooltip.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/tooltip.tsx"
+    }
+   ]
+  },
+  {
+   "name": "dropdown-menu",
+   "type": "registry:ui",
+   "title": "Dropdown menu",
+   "description": "Lists the actions on one thing.",
+   "author": "design.how",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/kbd.json",
+    "https://design.how/r/sodium/overlay.json",
+    "https://design.how/r/sodium/portal.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/dropdown-menu.md",
+    "page": "https://design.how/systems/sodium/components/dropdown-menu"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/dropdown-menu.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/dropdown-menu.tsx"
+    }
+   ]
+  },
+  {
+   "name": "command",
+   "type": "registry:ui",
+   "title": "Command",
+   "description": "Finds and runs a command by typing.",
+   "author": "design.how",
+   "categories": [
+    "overlays"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/dialog.json",
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/kbd.json",
+    "https://design.how/r/sodium/overlay.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/command.md",
+    "page": "https://design.how/systems/sodium/components/command"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/command.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/command.tsx"
+    }
+   ]
+  },
+  {
+   "name": "tabs",
+   "type": "registry:ui",
+   "title": "Tabs",
+   "description": "Switches between panels of one view.",
+   "author": "design.how",
+   "categories": [
+    "navigation"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/tabs.md",
+    "page": "https://design.how/systems/sodium/components/tabs"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/tabs.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/tabs.tsx"
+    }
+   ]
+  },
+  {
+   "name": "numbered-tabs",
+   "type": "registry:ui",
+   "title": "Numbered tabs",
+   "description": "Steps through the few numbered sections of one page.",
+   "author": "design.how",
+   "categories": [
+    "navigation"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/tabs.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/numbered-tabs.md",
+    "page": "https://design.how/systems/sodium/components/numbered-tabs"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/numbered-tabs.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/numbered-tabs.tsx"
+    }
+   ]
+  },
+  {
+   "name": "breadcrumb",
+   "type": "registry:ui",
+   "title": "Breadcrumb",
+   "description": "Shows where the page sits, as a path.",
+   "author": "design.how",
+   "categories": [
+    "navigation"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/dropdown-menu.json",
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/breadcrumb.md",
+    "page": "https://design.how/systems/sodium/components/breadcrumb"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/breadcrumb.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/breadcrumb.tsx"
+    }
+   ]
+  },
+  {
+   "name": "pagination",
+   "type": "registry:ui",
+   "title": "Pagination",
+   "description": "Moves through pages of results.",
+   "author": "design.how",
+   "categories": [
+    "navigation"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/pagination.md",
+    "page": "https://design.how/systems/sodium/components/pagination"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/pagination.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/pagination.tsx"
+    }
+   ]
+  },
+  {
+   "name": "collapsible",
+   "type": "registry:ui",
+   "title": "Collapsible",
+   "description": "Shows and hides a region.",
+   "author": "design.how",
+   "categories": [
+    "layout"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/collapsible.md",
+    "page": "https://design.how/systems/sodium/components/collapsible"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/collapsible.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/collapsible.tsx"
+    }
+   ]
+  },
+  {
+   "name": "frame",
+   "type": "registry:ui",
+   "title": "Frame",
+   "description": "Boxes a region once and divides it by rules.",
+   "author": "design.how",
+   "categories": [
+    "layout"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/frame.md",
+    "page": "https://design.how/systems/sodium/components/frame"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/frame.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/frame.tsx"
+    }
+   ]
+  },
+  {
+   "name": "table",
+   "type": "registry:ui",
+   "title": "Table",
+   "description": "Lists records that share the same fields.",
+   "author": "design.how",
+   "categories": [
+    "data"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/empty-state.json",
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/scroll.json",
+    "https://design.how/r/sodium/skeleton.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/table.md",
+    "page": "https://design.how/systems/sodium/components/table"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/table.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/table.tsx"
+    }
+   ]
+  },
+  {
+   "name": "filter-bar",
+   "type": "registry:ui",
+   "title": "Filter bar",
+   "description": "Narrows a table, a log or a list in one row.",
+   "author": "design.how",
+   "categories": [
+    "data"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/input.json",
+    "https://design.how/r/sodium/overlay.json",
+    "https://design.how/r/sodium/portal.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/filter-bar.md",
+    "page": "https://design.how/systems/sodium/components/filter-bar"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/filter-bar.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/filter-bar.tsx"
+    }
+   ]
+  },
+  {
+   "name": "code-block",
+   "type": "registry:ui",
+   "title": "Code block",
+   "description": "Shows code or commands to copy.",
+   "author": "design.how",
+   "categories": [
+    "code"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/copy-button.json",
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/scroll.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/code-block.md",
+    "page": "https://design.how/systems/sodium/components/code-block"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/code-block.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/code-block.tsx"
+    }
+   ]
+  },
+  {
+   "name": "code-window",
+   "type": "registry:ui",
+   "title": "Code window",
+   "description": "Shows a file as a numbered window, with the line that failed.",
+   "author": "design.how",
+   "categories": [
+    "code"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/code-block.json",
+    "https://design.how/r/sodium/copy-button.json",
+    "https://design.how/r/sodium/scroll.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/code-window.md",
+    "page": "https://design.how/systems/sodium/components/code-window"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/code-window.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/code-window.tsx"
+    }
+   ]
+  },
+  {
+   "name": "json-view",
+   "type": "registry:ui",
+   "title": "JSON view",
+   "description": "Shows structured data as a foldable tree.",
+   "author": "design.how",
+   "categories": [
+    "code"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/code-block.json",
+    "https://design.how/r/sodium/copy-button.json",
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/input.json",
+    "https://design.how/r/sodium/scroll.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/json-view.md",
+    "page": "https://design.how/systems/sodium/components/json-view"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/json-view.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/json-view.tsx"
+    }
+   ]
+  },
+  {
+   "name": "log-viewer",
+   "type": "registry:ui",
+   "title": "Log viewer",
+   "description": "Shows a job's output lines as they stream.",
+   "author": "design.how",
+   "categories": [
+    "code"
+   ],
+   "dependencies": [
+    "@tanstack/react-virtual@^3.14.13"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/code-block.json",
+    "https://design.how/r/sodium/copy-button.json",
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/input.json",
+    "https://design.how/r/sodium/scroll.json",
+    "https://design.how/r/sodium/segmented-control.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/log-viewer.md",
+    "page": "https://design.how/systems/sodium/components/log-viewer"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/log-viewer.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/log-viewer.tsx"
+    }
+   ]
+  },
+  {
+   "name": "scroll",
+   "type": "registry:lib",
+   "title": "Scroll",
+   "description": "Support file: support file: the tab stop a scrolling data region takes while it overflows, and the case-free search matcher.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium.md",
+    "page": "https://design.how/systems/sodium"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/lib/scroll.ts",
+     "type": "registry:lib",
+     "target": "@lib/sodium/scroll.ts"
+    }
+   ]
+  },
+  {
+   "name": "chart",
+   "type": "registry:ui",
+   "title": "Chart",
+   "description": "Shows numbers over time as a line or an area.",
+   "author": "design.how",
+   "categories": [
+    "charts"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/direction.json",
+    "https://design.how/r/sodium/portal.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/chart.md",
+    "page": "https://design.how/systems/sodium/components/chart"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/chart.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/chart.tsx"
+    },
+    {
+     "path": "registry/sodium/ui/chart-parts.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/chart-parts.tsx"
+    },
+    {
+     "path": "registry/sodium/ui/chart-scale.ts",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/chart-scale.ts"
+    }
+   ]
+  },
+  {
+   "name": "stem-chart",
+   "type": "registry:ui",
+   "title": "Stem chart",
+   "description": "Prints one value per period on a square-headed stem.",
+   "author": "design.how",
+   "categories": [
+    "charts"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/chart.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/stem-chart.md",
+    "page": "https://design.how/systems/sodium/components/stem-chart"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/stem-chart.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/stem-chart.tsx"
+    }
+   ]
+  },
+  {
+   "name": "swimlanes",
+   "type": "registry:ui",
+   "title": "Swimlanes",
+   "description": "Shows the steps of a flow across the systems they run in.",
+   "author": "design.how",
+   "categories": [
+    "charts"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/chart.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/swimlanes.md",
+    "page": "https://design.how/systems/sodium/components/swimlanes"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/swimlanes.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/swimlanes.tsx"
+    }
+   ]
+  },
+  {
+   "name": "bar-blocks",
+   "type": "registry:ui",
+   "title": "Bar blocks",
+   "description": "Splits one total into its parts as blocks as wide as their share.",
+   "author": "design.how",
+   "categories": [
+    "charts"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/chart.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/bar-blocks.md",
+    "page": "https://design.how/systems/sodium/components/bar-blocks"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ui/bar-blocks.tsx",
+     "type": "registry:ui",
+     "target": "@components/sodium/ui/bar-blocks.tsx"
+    }
+   ]
+  },
+  {
+   "name": "tool-call-row",
+   "type": "registry:component",
+   "title": "Tool-call row",
+   "description": "Draws a run's steps as ruled boxes, joined by connectors.",
+   "author": "design.how",
+   "categories": [
+    "agent"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/use-draw.json",
+    "https://design.how/r/sodium/use-scramble.json",
+    "https://design.how/r/sodium/use-typing.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/tool-call-row.md",
+    "page": "https://design.how/systems/sodium/components/tool-call-row"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ai/tool-call-row.tsx",
+     "type": "registry:component",
+     "target": "@components/sodium/ai/tool-call-row.tsx"
+    }
+   ]
+  },
+  {
+   "name": "tool-call",
+   "type": "registry:component",
+   "title": "Tool call",
+   "description": "Shows one tool an agent called in a run.",
+   "author": "design.how",
+   "categories": [
+    "agent"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/tool-call-row.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/tool-call.md",
+    "page": "https://design.how/systems/sodium/components/tool-call"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ai/tool-call.tsx",
+     "type": "registry:component",
+     "target": "@components/sodium/ai/tool-call.tsx"
+    }
+   ]
+  },
+  {
+   "name": "activity",
+   "type": "registry:component",
+   "title": "Activity",
+   "description": "Says what a run is doing now.",
+   "author": "design.how",
+   "categories": [
+    "agent"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/tool-call-row.json",
+    "https://design.how/r/sodium/use-scramble.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/activity.md",
+    "page": "https://design.how/systems/sodium/components/activity"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ai/activity.tsx",
+     "type": "registry:component",
+     "target": "@components/sodium/ai/activity.tsx"
+    }
+   ]
+  },
+  {
+   "name": "prompt-input",
+   "type": "registry:component",
+   "title": "Prompt input",
+   "description": "Takes the next instruction for an agent.",
+   "author": "design.how",
+   "categories": [
+    "agent"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/prompt-input.md",
+    "page": "https://design.how/systems/sodium/components/prompt-input"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ai/prompt-input.tsx",
+     "type": "registry:component",
+     "target": "@components/sodium/ai/prompt-input.tsx"
+    }
+   ]
+  },
+  {
+   "name": "message",
+   "type": "registry:component",
+   "title": "Message",
+   "description": "Shows one turn of a run's thread.",
+   "author": "design.how",
+   "categories": [
+    "agent"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/message.md",
+    "page": "https://design.how/systems/sodium/components/message"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ai/message.tsx",
+     "type": "registry:component",
+     "target": "@components/sodium/ai/message.tsx"
+    }
+   ]
+  },
+  {
+   "name": "response",
+   "type": "registry:component",
+   "title": "Response",
+   "description": "Renders an agent's answer as it streams.",
+   "author": "design.how",
+   "categories": [
+    "agent"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/code-block.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium/components/response.md",
+    "page": "https://design.how/systems/sodium/components/response"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/ai/response.tsx",
+     "type": "registry:component",
+     "target": "@components/sodium/ai/response.tsx"
+    }
+   ]
+  },
+  {
+   "name": "use-timeline",
+   "type": "registry:hook",
+   "title": "useTimeline",
+   "description": "Support file: the frame clock under Sodium's typing, scrambles and connectors: deterministic given a clock, final at once under reduced motion.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium.md",
+    "page": "https://design.how/systems/sodium"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/hooks/use-timeline.ts",
+     "type": "registry:hook",
+     "target": "@hooks/sodium/use-timeline.ts"
+    }
+   ]
+  },
+  {
+   "name": "use-typing",
+   "type": "registry:hook",
+   "title": "useTyping",
+   "description": "Support file: types text in at about 55 characters a second behind a caret shown only while typing.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/use-timeline.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium.md",
+    "page": "https://design.how/systems/sodium"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/hooks/use-typing.ts",
+     "type": "registry:hook",
+     "target": "@hooks/sodium/use-typing.ts"
+    }
+   ]
+  },
+  {
+   "name": "use-scramble",
+   "type": "registry:hook",
+   "title": "useScramble",
+   "description": "Support file: resolves a mono label through glyphs in about 0.4 seconds.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/use-timeline.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium.md",
+    "page": "https://design.how/systems/sodium"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/hooks/use-scramble.ts",
+     "type": "registry:hook",
+     "target": "@hooks/sodium/use-scramble.ts"
+    }
+   ]
+  },
+  {
+   "name": "use-draw",
+   "type": "registry:hook",
+   "title": "useDraw",
+   "description": "Support file: draws connectors out one hop at a time, about 0.3 seconds a hop.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/use-timeline.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium.md",
+    "page": "https://design.how/systems/sodium"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/hooks/use-draw.ts",
+     "type": "registry:hook",
+     "target": "@hooks/sodium/use-draw.ts"
+    }
+   ]
+  },
+  {
+   "name": "job-runs",
+   "type": "registry:block",
+   "title": "Job runs",
+   "description": "Every pipeline's runs as one table: a Status word per row, IDs and numbers in mono and Run now.",
+   "author": "design.how",
+   "categories": [
+    "block",
+    "pipelines",
+    "data"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/icon.json",
+    "https://design.how/r/sodium/status.json",
+    "https://design.how/r/sodium/table.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium.md",
+    "page": "https://design.how/systems/sodium"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/blocks/job-runs.tsx",
+     "type": "registry:block",
+     "target": "@components/sodium/blocks/job-runs.tsx"
+    }
+   ]
+  },
+  {
+   "name": "failed-load",
+   "type": "registry:block",
+   "title": "Failed load",
+   "description": "A load that failed: the alert with Retry load, the model with its failing line banded, and the step's log.",
+   "author": "design.how",
+   "categories": [
+    "block",
+    "pipelines",
+    "code"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/alert.json",
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/code-window.json",
+    "https://design.how/r/sodium/log-viewer.json",
+    "https://design.how/r/sodium/theme.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium.md",
+    "page": "https://design.how/systems/sodium"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/blocks/failed-load.tsx",
+     "type": "registry:block",
+     "target": "@components/sodium/blocks/failed-load.tsx"
+    }
+   ]
+  },
+  {
+   "name": "on-call",
+   "type": "registry:block",
+   "title": "On call",
+   "description": "A failed job at phone width: its header, the failure in a sentence, its facts in a 2x2 grid, Acknowledge and Retry step.",
+   "author": "design.how",
+   "categories": [
+    "block",
+    "pipelines",
+    "mobile"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/frame.json",
+    "https://design.how/r/sodium/status.json",
+    "https://design.how/r/sodium/status-strip.json",
+    "https://design.how/r/sodium/theme.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium.md",
+    "page": "https://design.how/systems/sodium"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/blocks/on-call.tsx",
+     "type": "registry:block",
+     "target": "@components/sodium/blocks/on-call.tsx"
+    }
+   ]
+  },
+  {
+   "name": "run-progress",
+   "type": "registry:block",
+   "title": "Run progress",
+   "description": "A backfill followed at phone width: the live step, partitions done, the run's numbers as a strip and its steps.",
+   "author": "design.how",
+   "categories": [
+    "block",
+    "pipelines",
+    "mobile"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/frame.json",
+    "https://design.how/r/sodium/progress.json",
+    "https://design.how/r/sodium/status.json",
+    "https://design.how/r/sodium/status-strip.json",
+    "https://design.how/r/sodium/theme.json",
+    "https://design.how/r/sodium/tool-call-row.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium.md",
+    "page": "https://design.how/systems/sodium"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/blocks/run-progress.tsx",
+     "type": "registry:block",
+     "target": "@components/sodium/blocks/run-progress.tsx"
+    }
+   ]
+  },
+  {
+   "name": "warehouse-capacity",
+   "type": "registry:block",
+   "title": "Warehouse capacity",
+   "description": "How full a warehouse is: credits, storage and concurrency as meters, storage by schema, queries by hour and Resize warehouse.",
+   "author": "design.how",
+   "categories": [
+    "block",
+    "warehouse",
+    "analytics"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/chart.json",
+    "https://design.how/r/sodium/frame.json",
+    "https://design.how/r/sodium/meter.json",
+    "https://design.how/r/sodium/theme.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium.md",
+    "page": "https://design.how/systems/sodium"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/blocks/warehouse-capacity.tsx",
+     "type": "registry:block",
+     "target": "@components/sodium/blocks/warehouse-capacity.tsx"
+    }
+   ]
+  },
+  {
+   "name": "sync-flow",
+   "type": "registry:block",
+   "title": "Sync flow",
+   "description": "A nightly sync across the systems it touches as swimlanes, the rows it loaded by source, and Run sync.",
+   "author": "design.how",
+   "categories": [
+    "block",
+    "pipelines",
+    "analytics"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/bar-blocks.json",
+    "https://design.how/r/sodium/button.json",
+    "https://design.how/r/sodium/frame.json",
+    "https://design.how/r/sodium/swimlanes.json",
+    "https://design.how/r/sodium/theme.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium.md",
+    "page": "https://design.how/systems/sodium"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/blocks/sync-flow.tsx",
+     "type": "registry:block",
+     "target": "@components/sodium/blocks/sync-flow.tsx"
+    }
+   ]
+  },
+  {
+   "name": "pipeline-history",
+   "type": "registry:block",
+   "title": "Pipeline history",
+   "description": "A pipeline's page under its path: runs per day, its latest partitions and its schedule as numbered tabs.",
+   "author": "design.how",
+   "categories": [
+    "block",
+    "pipelines"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/breadcrumb.json",
+    "https://design.how/r/sodium/data-list.json",
+    "https://design.how/r/sodium/frame.json",
+    "https://design.how/r/sodium/item.json",
+    "https://design.how/r/sodium/numbered-tabs.json",
+    "https://design.how/r/sodium/status.json",
+    "https://design.how/r/sodium/stem-chart.json",
+    "https://design.how/r/sodium/theme.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium.md",
+    "page": "https://design.how/systems/sodium"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/blocks/pipeline-history.tsx",
+     "type": "registry:block",
+     "target": "@components/sodium/blocks/pipeline-history.tsx"
+    }
+   ]
+  },
+  {
+   "name": "utils",
+   "type": "registry:lib",
+   "title": "cn",
+   "description": "Support file: cn, which merges class names and resolves conflicts between Sodium's type roles and button surfaces; mergeClass, which keeps Sodium's classes when a caller passes a className function; mergeRefs; and controlHeight, the one height formula for one-line controls.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "clsx@^2.1.1",
+    "tailwind-merge@^3.7.0"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium.md",
+    "page": "https://design.how/systems/sodium"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/lib/utils.ts",
+     "type": "registry:lib",
+     "target": "@lib/sodium/utils.ts"
+    }
+   ]
+  },
+  {
+   "name": "icon",
+   "type": "registry:component",
+   "title": "Icon",
+   "description": "Support file: the one import point for icons: Lucide, squared off with square ends, mitred joins and a 1.25px line.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "lucide-react@^1.52.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/utils.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium.md",
+    "page": "https://design.how/systems/sodium"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/icon.tsx",
+     "type": "registry:component",
+     "target": "@components/sodium/icon.tsx"
+    }
+   ]
+  },
+  {
+   "name": "portal",
+   "type": "registry:lib",
+   "title": "Portal",
+   "description": "Support file: puts overlays inside the .sodium scope so they keep its tokens, and makes the page inert behind a modal.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium.md",
+    "page": "https://design.how/systems/sodium"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/lib/portal.ts",
+     "type": "registry:lib",
+     "target": "@lib/sodium/portal.ts"
+    }
+   ]
+  },
+  {
+   "name": "direction",
+   "type": "registry:lib",
+   "title": "Direction",
+   "description": "Support file: hands the reading direction to Base UI and to popups opened from a right-to-left subtree.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/portal.json"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium.md",
+    "page": "https://design.how/systems/sodium"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/lib/direction.ts",
+     "type": "registry:lib",
+     "target": "@lib/sodium/direction.ts"
+    }
+   ]
+  },
+  {
+   "name": "lint",
+   "type": "registry:item",
+   "title": "Sodium lint",
+   "description": "One command that flags what Sodium's rules forbid in your app, such as a rounded corner, yellow text on a light ground, two primary buttons side by side or a grid behind the page, and says what to use instead.",
+   "author": "design.how",
+   "categories": [
+    "lint"
+   ],
+   "devDependencies": [
+    "eslint@^9.39.5",
+    "@typescript-eslint/parser@^8.71.0"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium.md",
+    "page": "https://design.how/systems/sodium"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/lint/eslint.config.mjs",
+     "type": "registry:file",
+     "target": "~/sodium.eslint.config.mjs"
+    },
+    {
+     "path": "registry/sodium/lint/plugin.mjs",
+     "type": "registry:lib",
+     "target": "@lib/sodium/lint/plugin.mjs"
+    },
+    {
+     "path": "registry/sodium/lint/core.mjs",
+     "type": "registry:lib",
+     "target": "@lib/sodium/lint/core.mjs"
+    },
+    {
+     "path": "registry/sodium/lint/value-rules.mjs",
+     "type": "registry:lib",
+     "target": "@lib/sodium/lint/value-rules.mjs"
+    },
+    {
+     "path": "registry/sodium/lint/classes.json",
+     "type": "registry:lib",
+     "target": "@lib/sodium/lint/classes.json"
+    }
+   ]
+  },
+  {
+   "name": "theme",
+   "type": "registry:item",
+   "title": "Sodium theme",
+   "description": "Support file: tokens, the two OFL faces, scoped base styles, the Tailwind v4 theme mapping and Sodium's recipes: the yellow slab, frames and rules, the field and the overlay.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "tailwindcss@^4.3.3",
+    "@tailwindcss/postcss@^4.3.3"
+   ],
+   "registryDependencies": [
+    "https://design.how/r/sodium/skill.json",
+    "https://design.how/r/sodium/portal.json"
+   ],
+   "docs": "Sodium is scoped: its styles apply only inside an element with the class sodium.\n1. Import the theme once, in the root layout, as its own stylesheet (not an @import in globals.css): import '@/components/sodium/styles.css'\n2. Put className=\"sodium\" on the element that holds Sodium UI, usually <body>. Sodium's classes work on the elements inside it, in your own code too, not on that element itself.\n3. Wrap the app inside that element in <SodiumPortalProvider> from '@/lib/sodium/portal', so dialogs and menus keep the theme.\nDark mode: put data-theme=\"dark\" on the sodium element or any ancestor, such as <html>. The theme does not follow the system setting (prefers-color-scheme) on its own.\nComponents: npx shadcn@latest add https://design.how/r/sodium/<name>.json; https://design.how/r/sodium/registry.json lists them all.",
+   "meta": {
+    "docs": "https://design.how/systems/sodium.md",
+    "page": "https://design.how/systems/sodium"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/tokens.css",
+     "type": "registry:file",
+     "target": "@components/sodium/tokens.css"
+    },
+    {
+     "path": "registry/sodium/base.css",
+     "type": "registry:file",
+     "target": "@components/sodium/base.css"
+    },
+    {
+     "path": "registry/sodium/styles.css",
+     "type": "registry:file",
+     "target": "@components/sodium/styles.css"
+    }
+   ]
+  },
+  {
+   "name": "skill",
+   "type": "registry:item",
+   "title": "Sodium skill",
+   "description": "Support file: teaches your coding agent Sodium's rules and components.",
+   "author": "design.how",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "https://design.how/systems/sodium.md",
+    "page": "https://design.how/systems/sodium"
+   },
+   "files": [
+    {
+     "path": "registry/sodium/SKILL.md",
+     "type": "registry:file",
+     "target": "~/.claude/skills/sodium/SKILL.md"
+    },
+    {
+     "path": "registry/sodium/.agents/SKILL.md",
+     "type": "registry:file",
+     "target": "~/.agents/skills/sodium/SKILL.md"
+    }
+   ]
+  }
+ ]
+}

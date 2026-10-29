@@ -1,0 +1,47 @@
+{
+ "id": "b376d42c-b2cb-4a52-8cec-ebf19cf1883f",
+ "slug": "uy-studio-b376d42c",
+ "name": "UY Studio",
+ "site_url": "https://www.uy-studio.com",
+ "lastmod": "2026-06-05T07:22:27.322Z",
+ "extracted_at": "2026-06-03T19:24:56.148Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Monastic stone gallery — a quiet concrete-walled space where perfume bottles sit on white plinths, lit by one weight-400 voice and four warm grays.",
+ "fonts": [
+  "GP",
+  "GTStandard-M"
+ ],
+ "colors": [
+  {
+   "hex": "#24241f",
+   "name": "Soot"
+  },
+  {
+   "hex": "#d1d3cf",
+   "name": "Limestone"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#333333",
+   "name": "Graphite"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8ed984dc-ece1-4859-8e6b-d389e09c4ac2.mp4",
+  "poster": "https://happyhands.cc/design-archive/uy-studio-b376d42c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/uy-studio-b376d42c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/uy-studio-b376d42c/thumbnail.jpg"
+}

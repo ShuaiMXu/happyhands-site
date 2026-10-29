@@ -1,0 +1,85 @@
+{
+ "id": "5d7aa503-8cfa-49a4-bd3b-0c2f0f075c70",
+ "slug": "cal-com-5d7aa503",
+ "name": "Cal.com",
+ "site_url": "https://cal.com",
+ "lastmod": "2026-05-11T16:25:39.831Z",
+ "extracted_at": "2026-04-11T17:33:49.454Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "",
+ "north_star": "Monochrome Utility, Human Touch. A system that prioritizes clarity and function with a stark black-and-white palette, but softens it with friendly typography and rounded forms.",
+ "fonts": [
+  "Cal Sans",
+  "Cal Sans UI Variable Light",
+  "Inter",
+  "Matter"
+ ],
+ "colors": [
+  {
+   "hex": "#101010",
+   "name": "Ink"
+  },
+  {
+   "hex": "#0099ff",
+   "name": "Action Blue"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#f4f4f4",
+   "name": "Paper"
+  },
+  {
+   "hex": "#242424",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#6b7280",
+   "name": "Slate"
+  },
+  {
+   "hex": "#898989",
+   "name": "Stone"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Silver"
+  },
+  {
+   "hex": "#eff6fe",
+   "name": "Info Banner BG"
+  },
+  {
+   "hex": "#4285f4",
+   "name": "Google Blue"
+  },
+  {
+   "hex": "#fbbc04",
+   "name": "Google Yellow"
+  },
+  {
+   "hex": "#34a853",
+   "name": "Google Green"
+  },
+  {
+   "hex": "#ea4335",
+   "name": "Google Red"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/62376fb4-97d6-4ebc-b2a8-09ffa697ec78.mp4",
+  "poster": "https://happyhands.cc/design-archive/cal-com-5d7aa503/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/cal-com-5d7aa503/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/cal-com-5d7aa503/thumbnail.jpg"
+}

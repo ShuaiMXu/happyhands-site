@@ -1,0 +1,83 @@
+{
+ "id": "f99856e1-3627-4624-a811-f6053a978b62",
+ "slug": "metaview-f99856e1",
+ "name": "Metaview",
+ "site_url": "https://metaview.ai",
+ "lastmod": "2026-06-03T18:25:36.146Z",
+ "extracted_at": "2026-06-03T18:25:36.140Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ai",
+ "north_star": "Bioluminescent control room — a near-black instrument panel lit by a single living mint signal.",
+ "fonts": [
+  "Euclid Circular A",
+  "Onsite SemiMono"
+ ],
+ "colors": [
+  {
+   "hex": "#000a06",
+   "name": "Deep Forest"
+  },
+  {
+   "hex": "#0a1a14",
+   "name": "Pine Bark"
+  },
+  {
+   "hex": "#161818",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#01051b",
+   "name": "Abyssal Indigo"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#5e6262",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#828282",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#d9d9d9",
+   "name": "Silver"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#7affb4",
+   "name": "Electric Mint"
+  },
+  {
+   "hex": "#e3ffef",
+   "name": "Mint Whisper"
+  },
+  {
+   "hex": "#0a3a2b",
+   "name": "Bioluminescent Bloom"
+  },
+  {
+   "hex": "#0f3a2b",
+   "name": "Pine-to-Abyss"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/af550c96-d9bb-44d9-969c-235b81a20e66.mp4",
+  "poster": "https://happyhands.cc/design-archive/metaview-f99856e1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/metaview-f99856e1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/metaview-f99856e1/thumbnail.jpg"
+}

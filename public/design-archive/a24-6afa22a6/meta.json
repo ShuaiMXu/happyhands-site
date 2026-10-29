@@ -1,0 +1,51 @@
+{
+ "id": "6afa22a6-bec8-47c3-b5ee-5d11d64902cb",
+ "slug": "a24-6afa22a6",
+ "name": "A24",
+ "site_url": "https://a24films.com",
+ "lastmod": "2026-06-05T08:44:00.618Z",
+ "extracted_at": "2026-06-03T19:55:54.463Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "media",
+ "north_star": "opening title sequence on pure black",
+ "fonts": [
+  "NB International Web",
+  "NB International Mono Web"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#888888",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#cacaca",
+   "name": "Bone"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f2cbb96e-2bf5-4c70-a728-39fcf8979502.mp4",
+  "poster": "https://happyhands.cc/design-archive/a24-6afa22a6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/a24-6afa22a6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/a24-6afa22a6/thumbnail.jpg"
+}

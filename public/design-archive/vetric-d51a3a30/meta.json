@@ -1,0 +1,87 @@
+{
+ "id": "d51a3a30-965c-427e-9e40-ff177786889f",
+ "slug": "vetric-d51a3a30",
+ "name": "Vetric",
+ "site_url": "https://vetric.io",
+ "lastmod": "2026-06-03T19:52:03.379Z",
+ "extracted_at": "2026-06-03T19:52:03.372Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Iridescent prism refracting clarity — a white room with one glass diamond that throws pink, blue, yellow, and green light across every surface.",
+ "fonts": [
+  "Noto Serif",
+  "Manrope"
+ ],
+ "colors": [
+  {
+   "hex": "#090a1e",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#e0e0e0",
+   "name": "Ash Border"
+  },
+  {
+   "hex": "#222222",
+   "name": "Carbon Nav"
+  },
+  {
+   "hex": "#c3dae3",
+   "name": "Mist Blue"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#2969ff",
+   "name": "Prism Blue"
+  },
+  {
+   "hex": "#f75cc3",
+   "name": "Prism Pink"
+  },
+  {
+   "hex": "#ffd363",
+   "name": "Prism Yellow"
+  },
+  {
+   "hex": "#5ab040",
+   "name": "Prism Green"
+  },
+  {
+   "hex": "#fffdea",
+   "name": "Cream Wash"
+  },
+  {
+   "hex": "#eaffed",
+   "name": "Mint Wash"
+  },
+  {
+   "hex": "#fff3fb",
+   "name": "Blush Wash"
+  },
+  {
+   "hex": "#e5f5ff",
+   "name": "Sky Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/11f1b157-3a9a-4bed-9880-21f729dec91a.mp4",
+  "poster": "https://happyhands.cc/design-archive/vetric-d51a3a30/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/vetric-d51a3a30/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/vetric-d51a3a30/thumbnail.jpg"
+}

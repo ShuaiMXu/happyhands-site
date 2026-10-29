@@ -1,0 +1,76 @@
+{
+ "id": "a639fa6c-1705-47c2-b452-d4479469a734",
+ "slug": "chester-s-garden-a639fa6c",
+ "name": "Chester's Garden",
+ "site_url": "https://chester.how",
+ "lastmod": "2026-06-03T18:19:45.230Z",
+ "extracted_at": "2026-06-03T18:19:45.224Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Flimsy art-zine on drafting paper",
+ "fonts": [
+  "Fraunces",
+  "Inter",
+  "ui-monospace"
+ ],
+ "colors": [
+  {
+   "hex": "#e5e7eb",
+   "name": "Paper Gray"
+  },
+  {
+   "hex": "#fafafa",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Full Black"
+  },
+  {
+   "hex": "#171717",
+   "name": "Ink Charcoal"
+  },
+  {
+   "hex": "#404040",
+   "name": "Soft Graphite"
+  },
+  {
+   "hex": "#a3a3a3",
+   "name": "Pencil Gray"
+  },
+  {
+   "hex": "#daf5ae",
+   "name": "Highlight Mint"
+  },
+  {
+   "hex": "#fde5a7",
+   "name": "Highlight Butter"
+  },
+  {
+   "hex": "#b7f2cc",
+   "name": "Highlight Sage"
+  },
+  {
+   "hex": "#7c2d12",
+   "name": "Rust Underline"
+  },
+  {
+   "hex": "#0c4a6e",
+   "name": "Navy Quotation"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/9f266e6b-10a1-4bde-9fd3-9811510e0b37.mp4",
+  "poster": "https://happyhands.cc/design-archive/chester-s-garden-a639fa6c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/chester-s-garden-a639fa6c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/chester-s-garden-a639fa6c/thumbnail.jpg"
+}

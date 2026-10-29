@@ -1,0 +1,47 @@
+{
+ "id": "6d360718-91b8-4c74-a6f0-91f4731a6671",
+ "slug": "adopt-6d360718",
+ "name": "Adopt",
+ "site_url": "https://weareadopt.com",
+ "lastmod": "2026-06-03T21:28:47.161Z",
+ "extracted_at": "2026-06-03T21:28:47.155Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Editorial broadsheet on warm paper. A cream canvas with one near-black ink, a tall narrow serif for headlines, and a compact grotesque whispering the labels — the page feels typeset, not designed.",
+ "fonts": [
+  "ITCGaramondStdLightNarrow",
+  "PPNeueMontreal"
+ ],
+ "colors": [
+  {
+   "hex": "#f4f1ec",
+   "name": "Bone"
+  },
+  {
+   "hex": "#1e1e1e",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#8c8c8c",
+   "name": "Ash"
+  },
+  {
+   "hex": "#000000",
+   "name": "Lampblack"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/1dc88f8d-8910-4e06-b028-204e0a4f87e2.mp4",
+  "poster": "https://happyhands.cc/design-archive/adopt-6d360718/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/adopt-6d360718/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/adopt-6d360718/thumbnail.jpg"
+}

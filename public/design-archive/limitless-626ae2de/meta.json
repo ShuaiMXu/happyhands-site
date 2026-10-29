@@ -1,0 +1,74 @@
+{
+ "id": "626ae2de-c402-4805-b859-2c6adca41022",
+ "slug": "limitless-626ae2de",
+ "name": "Limitless",
+ "site_url": "https://limitless.ai",
+ "lastmod": "2026-06-05T08:58:24.158Z",
+ "extracted_at": "2026-06-03T20:03:56.439Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "monochrome editorial on plaster white. A single weight-contrast typeface, no accent color, and one violet spark — the system achieves identity through restraint, not decoration.",
+ "fonts": [
+  "Greycliff"
+ ],
+ "colors": [
+  {
+   "hex": "#f2f3f5",
+   "name": "Plaster"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#d1d5db",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#0f172a",
+   "name": "Inkstone"
+  },
+  {
+   "hex": "#334155",
+   "name": "Slate"
+  },
+  {
+   "hex": "#475569",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#64748b",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#939eae",
+   "name": "Fog"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#6d4aff",
+   "name": "Spark Violet"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/253c1e24-eb62-4da9-94b1-b7a696afe54a.mp4",
+  "poster": "https://happyhands.cc/design-archive/limitless-626ae2de/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/limitless-626ae2de/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/limitless-626ae2de/thumbnail.jpg"
+}

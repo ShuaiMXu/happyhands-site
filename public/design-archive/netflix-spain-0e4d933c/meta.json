@@ -1,0 +1,86 @@
+{
+ "id": "0e4d933c-aa07-4787-9884-40a0e6c338e4",
+ "slug": "netflix-spain-0e4d933c",
+ "name": "Netflix Spain",
+ "site_url": "https://www.netflix.com",
+ "lastmod": "2026-06-05T12:54:37.146Z",
+ "extracted_at": "2026-06-03T22:05:43.990Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "media",
+ "north_star": "A black cinema lobby with one red exit sign.",
+ "fonts": [
+  "Netflix Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#e50914",
+   "name": "Netflix Red"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#0f0f0f",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#232323",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#2d2d2d",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#323232",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#393939",
+   "name": "Slate"
+  },
+  {
+   "hex": "#5a5a5a",
+   "name": "Ash"
+  },
+  {
+   "hex": "#808080",
+   "name": "Steel"
+  },
+  {
+   "hex": "#b3b3b3",
+   "name": "Fog"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#192247",
+   "name": "Cinema Indigo"
+  },
+  {
+   "hex": "#461518",
+   "name": "Bordeaux Glow"
+  },
+  {
+   "hex": "#6f181d",
+   "name": "Ember Arc"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d32dd36e-e590-4185-be1e-1205b794c5d6.mp4",
+  "poster": "https://happyhands.cc/design-archive/netflix-spain-0e4d933c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/netflix-spain-0e4d933c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/netflix-spain-0e4d933c/thumbnail.jpg"
+}

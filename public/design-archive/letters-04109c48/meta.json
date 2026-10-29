@@ -1,0 +1,73 @@
+{
+ "id": "04109c48-f591-4110-9739-622243d4ecc2",
+ "slug": "letters-04109c48",
+ "name": "Letters",
+ "site_url": "https://letters.app",
+ "lastmod": "2026-06-03T18:08:02.893Z",
+ "extracted_at": "2026-06-03T18:08:02.885Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "morning clinic under open sky — a sterile white desk beneath a wash of soft blue, dotted with surgical-blue instruments.",
+ "fonts": [
+  "sans-serif",
+  "Open Runde",
+  "Inter",
+  "The Doctor FreeVersion",
+  "Open Runde Semibold",
+  "Open Runde Medium",
+  "Open Runde Regular",
+  "Open Runde Bold"
+ ],
+ "colors": [
+  {
+   "hex": "#070709",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f5f5f5",
+   "name": "Cloud Gray"
+  },
+  {
+   "hex": "#d7e6f5",
+   "name": "Sky Tint"
+  },
+  {
+   "hex": "#60606c",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#8b8b8b",
+   "name": "Slate"
+  },
+  {
+   "hex": "#151515",
+   "name": "Ink"
+  },
+  {
+   "hex": "#2597d0",
+   "name": "Surgical Blue"
+  },
+  {
+   "hex": "#779bc1",
+   "name": "Sky Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/91d91ccf-ff2c-4dd1-b589-4b1eb48de528.mp4",
+  "poster": "https://happyhands.cc/design-archive/letters-04109c48/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/letters-04109c48/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/letters-04109c48/thumbnail.jpg"
+}

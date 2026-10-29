@@ -1,0 +1,88 @@
+{
+ "id": "2186dddd-60ee-4898-b11d-88483daf477e",
+ "slug": "juicebox-ai-2186dddd",
+ "name": "Juicebox.ai",
+ "site_url": "https://juicebox.ai",
+ "lastmod": "2026-06-03T22:07:16.832Z",
+ "extracted_at": "2026-06-03T22:07:16.826Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Talent command center on cream paper",
+ "fonts": [
+  "sans-serif",
+  "Roobert",
+  "Haas Grot Text Web (55 Roman + 65 Medium)",
+  "DM Mono",
+  "Haas Grot Text Web 65 Medium",
+  "Inter",
+  "Neue Haas Grotesk Text"
+ ],
+ "colors": [
+  {
+   "hex": "#6a2f8d",
+   "name": "Royal Plum"
+  },
+  {
+   "hex": "#eee8fd",
+   "name": "Plum Mist"
+  },
+  {
+   "hex": "#da9efd",
+   "name": "Lilac Outline"
+  },
+  {
+   "hex": "#2f8d6e",
+   "name": "Forest Mark"
+  },
+  {
+   "hex": "#1d161d",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#2a232a",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#574e57",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#786c78",
+   "name": "Warm Gray"
+  },
+  {
+   "hex": "#a89ea8",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#d9d9d9",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#f8f6f8",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ca9c9269-c32c-4084-9821-3be062926a64.mp4",
+  "poster": "https://happyhands.cc/design-archive/juicebox-ai-2186dddd/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/juicebox-ai-2186dddd/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/juicebox-ai-2186dddd/thumbnail.jpg"
+}

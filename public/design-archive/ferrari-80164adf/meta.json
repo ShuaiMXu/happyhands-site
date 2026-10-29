@@ -1,0 +1,75 @@
+{
+ "id": "80164adf-a898-4f7c-bce7-12f3f62e1649",
+ "slug": "ferrari-80164adf",
+ "name": "Ferrari",
+ "site_url": "https://ferrari.com",
+ "lastmod": "2026-07-03T11:17:56.488Z",
+ "extracted_at": "2026-07-03T03:38:44.685Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ecommerce",
+ "north_star": "cavallino rampante on black marble. Black voids punctuated by singular Ferrari red, white uppercase tracking, and full-bleed cinematic photography.",
+ "fonts": [
+  "Body-Font",
+  "FerrariSans"
+ ],
+ "colors": [
+  {
+   "hex": "#da291c",
+   "name": "Rosso Corsa"
+  },
+  {
+   "hex": "#9d2211",
+   "name": "Rosso Scuro"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bianco Ferrari"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbone Nero"
+  },
+  {
+   "hex": "#181818",
+   "name": "Notte Profonda"
+  },
+  {
+   "hex": "#303030",
+   "name": "Grafite"
+  },
+  {
+   "hex": "#8f8f8f",
+   "name": "Fumo"
+  },
+  {
+   "hex": "#666666",
+   "name": "Piombo"
+  },
+  {
+   "hex": "#d2d2d2",
+   "name": "Argento Chiaro"
+  },
+  {
+   "hex": "#f7f7f7",
+   "name": "Velo di Luce"
+  },
+  {
+   "hex": "#ebebeb",
+   "name": "Cemento"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3c24893c-da6f-4b0d-8e41-015f1a43b42a.mp4",
+  "poster": "https://happyhands.cc/design-archive/ferrari-80164adf/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ferrari-80164adf/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ferrari-80164adf/thumbnail.jpg"
+}

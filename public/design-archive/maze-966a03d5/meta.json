@@ -1,0 +1,76 @@
+{
+ "id": "966a03d5-13e9-48d8-9b01-28e6ae3f3967",
+ "slug": "maze-966a03d5",
+ "name": "Maze",
+ "site_url": "https://maze.co",
+ "lastmod": "2026-06-05T12:50:07.578Z",
+ "extracted_at": "2026-06-03T21:16:17.741Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Editorial research journal — warm bone paper, serif ink, chartreuse highlighter",
+ "fonts": [
+  "ui-sans-serif",
+  "Phonic",
+  "System UI Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#f5f4f0",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#1c1c1c",
+   "name": "Ink"
+  },
+  {
+   "hex": "#000000",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#706f6c",
+   "name": "Fossil"
+  },
+  {
+   "hex": "#9e9b94",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#3c3c3c",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#eae6e1",
+   "name": "Sand"
+  },
+  {
+   "hex": "#d2cec6",
+   "name": "Ash"
+  },
+  {
+   "hex": "#dbf570",
+   "name": "Chartreuse"
+  },
+  {
+   "hex": "#4b5b0a",
+   "name": "Olive"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2fbbd813-c5a9-4536-aa67-3586b71cc6bb.mp4",
+  "poster": "https://happyhands.cc/design-archive/maze-966a03d5/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/maze-966a03d5/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/maze-966a03d5/thumbnail.jpg"
+}

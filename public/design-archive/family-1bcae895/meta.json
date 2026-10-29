@@ -1,0 +1,109 @@
+{
+ "id": "1bcae895-2245-4d33-aa43-1c1e80719554",
+ "slug": "family-1bcae895",
+ "name": "Family",
+ "site_url": "https://family.co",
+ "lastmod": "2026-07-03T10:06:05.894Z",
+ "extracted_at": "2026-07-03T02:56:28.073Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "crypto",
+ "north_star": "storybook spread on cream parchment",
+ "fonts": [
+  "Family",
+  "Inter",
+  "Inter",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#fbfaf9",
+   "name": "Cream Canvas"
+  },
+  {
+   "hex": "#f2f0ed",
+   "name": "Stone Surface"
+  },
+  {
+   "hex": "#121212",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#343433",
+   "name": "Heading Charcoal"
+  },
+  {
+   "hex": "#474645",
+   "name": "Body Brown"
+  },
+  {
+   "hex": "#7e7e7d",
+   "name": "Muted Gray"
+  },
+  {
+   "hex": "#e5d5c3",
+   "name": "Stone Border"
+  },
+  {
+   "hex": "#0086fc",
+   "name": "Link Blue"
+  },
+  {
+   "hex": "#64c6ff",
+   "name": "Sky Blue"
+  },
+  {
+   "hex": "#00b2ff",
+   "name": "Alt Blue"
+  },
+  {
+   "hex": "#00c978",
+   "name": "Grass Green"
+  },
+  {
+   "hex": "#00ca48",
+   "name": "Mint"
+  },
+  {
+   "hex": "#ff3e00",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#ffcd6c",
+   "name": "Sun Yellow"
+  },
+  {
+   "hex": "#d48f00",
+   "name": "Gold"
+  },
+  {
+   "hex": "#ffbb26",
+   "name": "Honey"
+  },
+  {
+   "hex": "#ff58ae",
+   "name": "Coral Pink"
+  },
+  {
+   "hex": "#9f4fff",
+   "name": "Plum Violet"
+  },
+  {
+   "hex": "#ff2b3a",
+   "name": "Alert Red"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/34e38713-08a6-4b72-bcda-464d426644c9.mp4",
+  "poster": "https://happyhands.cc/design-archive/family-1bcae895/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/family-1bcae895/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/family-1bcae895/thumbnail.jpg"
+}

@@ -1,0 +1,79 @@
+{
+ "id": "c809190a-035c-458d-87ed-4758807dd84e",
+ "slug": "axiom-c809190a",
+ "name": "Axiom",
+ "site_url": "https://axiom.co",
+ "lastmod": "2026-06-03T17:36:40.265Z",
+ "extracted_at": "2026-06-03T17:36:40.258Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "Terminal window at midnight — flat black canvas, monospaced text, and one orange cursor blinking",
+ "fonts": [
+  "BerkeleyMono",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void"
+  },
+  {
+   "hex": "#111111",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#191919",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#202020",
+   "name": "Iron"
+  },
+  {
+   "hex": "#3a3a3a",
+   "name": "Slate"
+  },
+  {
+   "hex": "#505050",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#606060",
+   "name": "Steel"
+  },
+  {
+   "hex": "#7e7e7e",
+   "name": "Ash"
+  },
+  {
+   "hex": "#b4b4b4",
+   "name": "Fog"
+  },
+  {
+   "hex": "#d9d9d9",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Paper"
+  },
+  {
+   "hex": "#da5c2c",
+   "name": "Ember"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ee044163-bfd1-473f-8443-ae963b5c85ad.mp4",
+  "poster": "https://happyhands.cc/design-archive/axiom-c809190a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/axiom-c809190a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/axiom-c809190a/thumbnail.jpg"
+}

@@ -1,0 +1,72 @@
+{
+ "id": "f493133e-e289-4fb1-9729-f611d9816aae",
+ "slug": "solana-f493133e",
+ "name": "Solana",
+ "site_url": "https://solana.com",
+ "lastmod": "2026-06-03T19:16:23.967Z",
+ "extracted_at": "2026-06-03T19:16:23.963Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "crypto",
+ "north_star": "neon aurora in a midnight void — flowing magenta and violet ribbons suspended against pure black",
+ "fonts": [
+  "Diatype",
+  "DSemi",
+  "ui-sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#0d0c11",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#121212",
+   "name": "Charcoal Press"
+  },
+  {
+   "hex": "#12151d",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#050505",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#3e3c41",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#848895",
+   "name": "Ash"
+  },
+  {
+   "hex": "#ababba",
+   "name": "Fog"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#eaecf0",
+   "name": "Hairline"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2db98af1-9000-4087-ab62-a666d03c15e2.mp4",
+  "poster": "https://happyhands.cc/design-archive/solana-f493133e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/solana-f493133e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/solana-f493133e/thumbnail.jpg"
+}

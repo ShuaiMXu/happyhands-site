@@ -1,0 +1,87 @@
+{
+ "id": "350b1557-56f0-4361-8c8b-b7a88081982b",
+ "slug": "beehiiv-350b1557",
+ "name": "beehiiv",
+ "site_url": "https://beehiiv.com",
+ "lastmod": "2026-06-03T17:32:00.031Z",
+ "extracted_at": "2026-06-03T17:32:00.026Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "saas",
+ "north_star": "midnight observatory with neon plasma",
+ "fonts": [
+  "Clash Grotesk",
+  "Satoshi"
+ ],
+ "colors": [
+  {
+   "hex": "#060419",
+   "name": "Abyss Ink"
+  },
+  {
+   "hex": "#0d0b28",
+   "name": "Deep Violet"
+  },
+  {
+   "hex": "#141230",
+   "name": "Twilight Plum"
+  },
+  {
+   "hex": "#1b0e27",
+   "name": "Dark Plum"
+  },
+  {
+   "hex": "#acb0e3",
+   "name": "Periwinkle"
+  },
+  {
+   "hex": "#4e4e6c",
+   "name": "Slate Violet"
+  },
+  {
+   "hex": "#b8b8c8",
+   "name": "Silver Lilac"
+  },
+  {
+   "hex": "#c4c2d6",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#f7f5ff",
+   "name": "Ghost White"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#2f39ba",
+   "name": "Electric Indigo"
+  },
+  {
+   "hex": "#ff5ec4",
+   "name": "Hot Magenta"
+  },
+  {
+   "hex": "#f092dd",
+   "name": "Orchid Pink"
+  },
+  {
+   "hex": "#ffc8eb",
+   "name": "Cotton Candy"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5e7c9f68-e58a-464c-9701-badffbeced2d.mp4",
+  "poster": "https://happyhands.cc/design-archive/beehiiv-350b1557/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/beehiiv-350b1557/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/beehiiv-350b1557/thumbnail.jpg"
+}

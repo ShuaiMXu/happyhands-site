@@ -1,0 +1,70 @@
+{
+ "id": "478c8660-f1a0-4339-ac8c-4cf7ca4cf738",
+ "slug": "ankar-ai-478c8660",
+ "name": "Ankar AI",
+ "site_url": "https://ankar.ai",
+ "lastmod": "2026-06-03T15:45:45.704Z",
+ "extracted_at": "2026-06-03T15:45:45.699Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Patent vault opening into white atelier — a darkroom hero with a single illuminated manuscript, dissolving into generous editorial whitespace.",
+ "fonts": [
+  "Switzer Variable",
+  "Kibitz Pro Light",
+  "Switzer",
+  "Space Mono",
+  "System sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#171717",
+   "name": "Ink"
+  },
+  {
+   "hex": "#1f1f1f",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#515151",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#979797",
+   "name": "Slate"
+  },
+  {
+   "hex": "#b9b9b9",
+   "name": "Ash"
+  },
+  {
+   "hex": "#cfcfcf",
+   "name": "Fog"
+  },
+  {
+   "hex": "#c5c5c5",
+   "name": "Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b1461507-ad29-42ed-af12-bf024d371b63.mp4",
+  "poster": "https://happyhands.cc/design-archive/ankar-ai-478c8660/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ankar-ai-478c8660/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ankar-ai-478c8660/thumbnail.jpg"
+}

@@ -1,0 +1,99 @@
+{
+ "id": "811f0fc6-3353-4ed6-bf3e-c98b261dcc1c",
+ "slug": "alveos-one-811f0fc6",
+ "name": "Alveos One",
+ "site_url": "https://www.alveoslabs.com",
+ "lastmod": "2026-06-03T19:54:31.498Z",
+ "extracted_at": "2026-06-03T19:54:31.490Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "warm river-stone sanctuary — a still, cream-lit meditation room where a single graphite object rests in a pool of soft amber light.",
+ "fonts": [
+  "sans-serif",
+  "Hanken Grotesk",
+  "System Sans",
+  "SF Mono",
+  "Inter",
+  "-apple-system"
+ ],
+ "colors": [
+  {
+   "hex": "#fcf9f7",
+   "name": "Linen Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Graphite Ink"
+  },
+  {
+   "hex": "#05060b",
+   "name": "Nightshade Black"
+  },
+  {
+   "hex": "#030f1c",
+   "name": "Deep Harbor"
+  },
+  {
+   "hex": "#1d1d1d",
+   "name": "Charcoal Slate"
+  },
+  {
+   "hex": "#262628",
+   "name": "Iron Grey"
+  },
+  {
+   "hex": "#111112",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#575757",
+   "name": "Stone Grey"
+  },
+  {
+   "hex": "#717171",
+   "name": "Ash"
+  },
+  {
+   "hex": "#989695",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#a5a5a5",
+   "name": "Concrete"
+  },
+  {
+   "hex": "#bababa",
+   "name": "Dove"
+  },
+  {
+   "hex": "#d1cfcd",
+   "name": "Clay Shadow"
+  },
+  {
+   "hex": "#ecedef",
+   "name": "Haze"
+  },
+  {
+   "hex": "#a89c8a",
+   "name": "Spotlight Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6949b3f5-835f-407f-b41b-9e62dcdfc67c.mp4",
+  "poster": "https://happyhands.cc/design-archive/alveos-one-811f0fc6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/alveos-one-811f0fc6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/alveos-one-811f0fc6/thumbnail.jpg"
+}

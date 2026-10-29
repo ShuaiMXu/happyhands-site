@@ -1,0 +1,29 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "tool-call",
+ "type": "registry:ui",
+ "title": "Tool call",
+ "description": "One step the assistant took, such as Moved $50 to Vacation fund, as a single line.",
+ "author": "design.how",
+ "categories": [
+  "ai"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/lime/button.json",
+  "https://design.how/r/lime/icon.json",
+  "https://design.how/r/lime/theme.json",
+  "https://design.how/r/lime/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/lime/components/tool-call.md",
+  "page": "https://design.how/systems/lime/components/tool-call"
+ },
+ "files": [
+  {
+   "path": "registry/lime/ai/tool-call.tsx",
+   "content": "'use client';\n\nimport {Checkmark, Icon, WarningFilled} from '@/components/lime/icon';\nimport {cn} from '@/lib/lime/utils';\nimport {Spinner} from '@/components/lime/ui/button';\n\n// One step the assistant took on the person's behalf, as a single quiet line: \"Found 12 transactions\", \"Moving\n// $50\". It states the real step, never \"Thinking\". Running turns a spinner; done is a check; failed\n// is a warning with the reason in `detail`, so the person knows what to do next. The state is also text\n// for a screen reader (\"Running\", \"Done\", \"Failed\"), and each row is a polite live region, so a step that\n// changes state is announced.\n\ntype ToolCallStatus = 'running' | 'done' | 'failed';\n\ntype ToolCallProps = Omit<React.ComponentProps<'div'>, 'children'> & {\n  status: ToolCallStatus;\n  /** The step in the present tense while running and the past tense after, such as \"Trimmed to 30 seconds\". */\n  label: string;\n  /** Extra detail: the number of items, or the reason a step failed. */\n  detail?: string;\n};\n\nconst STATE_WORD: Record<ToolCallStatus, string> = {running: 'Running', done: 'Done', failed: 'Failed'};\n\nfunction ToolCall({status, label, detail, className, ...props}: ToolCallProps) {\n  return (\n    <div data-slot=\"tool-call\" data-status={status} role=\"status\" className={cn('flex min-h-9 items-center gap-2.5 rounded-field bg-surface px-3 py-1.5 text-sm', className)} {...props}>\n      <span className=\"flex size-4 shrink-0 items-center justify-center\">\n        {status === 'running' && <Spinner size={14} className=\"text-fg-2\"/>}\n        {status === 'done' && <Icon icon={Checkmark} size={16} className=\"text-success-text\"/>}\n        {status === 'failed' && <Icon icon={WarningFilled} size={16} className=\"text-danger-text\"/>}\n      </span>\n      <span className=\"sr-only\">{STATE_WORD[status]}: </span>\n      <span className={cn('min-w-0 truncate font-medium', status === 'failed' ? 'text-danger-text' : 'text-fg')}>{label}</span>\n      {/* The detail starts from zero width and takes only the room the label leaves, so a label that fits\n          stays whole and the detail truncates first. */}\n      {detail && <span className=\"min-w-0 flex-1 truncate text-end text-fg-3\">{detail}</span>}\n    </div>\n  );\n}\n\nexport {ToolCall, type ToolCallProps, type ToolCallStatus};\n",
+   "type": "registry:ui",
+   "target": "@components/lime/ai/tool-call.tsx"
+  }
+ ]
+}

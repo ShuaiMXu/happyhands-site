@@ -1,0 +1,103 @@
+{
+ "id": "71c7b9ad-44cc-483f-9c53-3cf73e0522a4",
+ "slug": "reclaim-71c7b9ad",
+ "name": "Reclaim",
+ "site_url": "https://reclaim.ai",
+ "lastmod": "2026-06-05T08:48:54.119Z",
+ "extracted_at": "2026-06-03T20:01:32.538Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "lavender productivity workshop with violet ink",
+ "fonts": [
+  "Poppins",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#ebefff",
+   "name": "Lavender Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White Surface"
+  },
+  {
+   "hex": "#181d25",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#111111",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#474747",
+   "name": "Slate"
+  },
+  {
+   "hex": "#2b2b2b",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#333333",
+   "name": "Stone"
+  },
+  {
+   "hex": "#ececec",
+   "name": "Mist"
+  },
+  {
+   "hex": "#5562eb",
+   "name": "Iris Violet"
+  },
+  {
+   "hex": "#3451e8",
+   "name": "Sapphire Violet"
+  },
+  {
+   "hex": "#c2caf9",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#96a0f3",
+   "name": "Periwinkle"
+  },
+  {
+   "hex": "#151f8b",
+   "name": "Indigo Depth"
+  },
+  {
+   "hex": "#7ac17b",
+   "name": "Focus Green"
+  },
+  {
+   "hex": "#daf0db",
+   "name": "Mint Whisper"
+  },
+  {
+   "hex": "#14532d",
+   "name": "Forest Edge"
+  },
+  {
+   "hex": "#5a1a1a",
+   "name": "Brick"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/74cc9083-8744-4cc3-8c9b-63cfa233a3a3.mp4",
+  "poster": "https://happyhands.cc/design-archive/reclaim-71c7b9ad/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/reclaim-71c7b9ad/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/reclaim-71c7b9ad/thumbnail.jpg"
+}

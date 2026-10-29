@@ -1,0 +1,72 @@
+{
+ "id": "c521be99-14af-4d57-8f8f-34c76c9ade61",
+ "slug": "sunday-c521be99",
+ "name": "Sunday",
+ "site_url": "https://www.sunday.ai",
+ "lastmod": "2026-06-03T18:41:22.359Z",
+ "extracted_at": "2026-06-03T18:41:22.353Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Monochrome magazine spread with one yellow highlight",
+ "fonts": [
+  "sans",
+  "mono",
+  "Helvetica Neue"
+ ],
+ "colors": [
+  {
+   "hex": "#f7e731",
+   "name": "Lemon Highlight"
+  },
+  {
+   "hex": "#1a1a1a",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#6f6f6f",
+   "name": "Stone Gray"
+  },
+  {
+   "hex": "#f3f3f0",
+   "name": "Bone"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Ash"
+  },
+  {
+   "hex": "#d9ecee",
+   "name": "Mist"
+  },
+  {
+   "hex": "#aec2b8",
+   "name": "Sage Wash"
+  },
+  {
+   "hex": "#eadcce",
+   "name": "Linen"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8ee8becb-fd46-48c9-adca-b0bdc1f34898.mp4",
+  "poster": "https://happyhands.cc/design-archive/sunday-c521be99/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/sunday-c521be99/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/sunday-c521be99/thumbnail.jpg"
+}

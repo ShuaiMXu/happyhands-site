@@ -1,0 +1,59 @@
+{
+ "id": "528683fb-6b17-4fc6-b37e-d831ee1b20e2",
+ "slug": "myrch-club-528683fb",
+ "name": "Myrch Club",
+ "site_url": "https://www.myrch.club",
+ "lastmod": "2026-06-05T12:56:26.316Z",
+ "extracted_at": "2026-06-03T22:06:20.457Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "white-walled exhibition vitrine — editorial serif labels floating in generous negative space, disrupted by a single red script signature",
+ "fonts": [
+  "Times New Roman",
+  "Arial Narrow"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Canvas White"
+  },
+  {
+   "hex": "#f9f9f9",
+   "name": "Gallery Gray"
+  },
+  {
+   "hex": "#cfcfcf",
+   "name": "Hairline Gray"
+  },
+  {
+   "hex": "#888888",
+   "name": "Caption Gray"
+  },
+  {
+   "hex": "#111111",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "True Black"
+  },
+  {
+   "hex": "#ff0000",
+   "name": "Signature Red"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d30ac284-7615-497b-b100-88dd8a4c0be8.mp4",
+  "poster": "https://happyhands.cc/design-archive/myrch-club-528683fb/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/myrch-club-528683fb/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/myrch-club-528683fb/thumbnail.jpg"
+}

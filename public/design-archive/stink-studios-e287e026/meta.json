@@ -1,0 +1,52 @@
+{
+ "id": "e287e026-3433-4a1d-9b23-9a65f8b9c138",
+ "slug": "stink-studios-e287e026",
+ "name": "Stink Studios",
+ "site_url": "https://www.stinkstudios.com",
+ "lastmod": "2026-06-05T11:45:17.346Z",
+ "extracted_at": "2026-06-03T21:42:02.371Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "cinema studio at midnight — the projector hums, the room is black, only the reel glows.",
+ "fonts": [
+  "Helvetica",
+  "Times New Roman",
+  "Courier New"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone"
+  },
+  {
+   "hex": "#050505",
+   "name": "Soot"
+  },
+  {
+   "hex": "#e1695e",
+   "name": "Ember Coral"
+  },
+  {
+   "hex": "#573332",
+   "name": "Burnt Sienna"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5c6d3de5-4317-45f2-9570-a4af338f57d9.mp4",
+  "poster": "https://happyhands.cc/design-archive/stink-studios-e287e026/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/stink-studios-e287e026/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/stink-studios-e287e026/thumbnail.jpg"
+}

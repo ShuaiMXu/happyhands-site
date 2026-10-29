@@ -1,0 +1,48 @@
+{
+ "id": "9afa0254-423b-4354-a852-8894c33d2e6b",
+ "slug": "ilovecreatives-9afa0254",
+ "name": "ilovecreatives",
+ "site_url": "https://ilovecreatives.com",
+ "lastmod": "2026-06-03T21:05:09.516Z",
+ "extracted_at": "2026-06-03T21:05:09.509Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "Gen-Z monochrome zine at viewport scale",
+ "fonts": [
+  "Suisse Regular",
+  "Romana",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#222222",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#e1ea99",
+   "name": "Risograph Lime"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/214804af-19c7-4e2d-af75-3970a84dcdb7.mp4",
+  "poster": "https://happyhands.cc/design-archive/ilovecreatives-9afa0254/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ilovecreatives-9afa0254/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ilovecreatives-9afa0254/thumbnail.jpg"
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tag",
+  "type": "registry:ui",
+  "title": "Tag",
+  "description": "Labels what something is or how it stands.",
+  "author": "design.how",
+  "categories": [
+    "display"
+  ],
+  "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/theme.json",
+    "https://happyhands.cc/r/sodium/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/sodium/components/tag.md",
+    "page": "https://happyhands.cc/design-how/sodium/components/tag.md"
+  },
+  "files": [
+    {
+      "path": "registry/sodium/ui/tag.tsx",
+      "content": "import {mergeProps} from '@base-ui/react/merge-props';\nimport {useRender} from '@base-ui/react/use-render';\nimport {cva, type VariantProps} from 'class-variance-authority';\nimport {cn} from '@/lib/sodium/utils';\n\n// Sodium's tag: a short static label that names what something is (an environment, a region, an engine) or how it\n// stands (Passed, Late, Failed), in mono capitals inside a square box. It is never pressed, so it never takes the\n// hover or held wash a button has, and it is never yellow: yellow is the action, and a yellow tag beside the slab reads as\n// a second one.\n//\n//   neutral  the well with a rule edge, ink capitals: the everyday tag\n//   outline  the page with a rule edge, text-2 capitals: a quieter label beside other tags\n//   ok, warn, fail  the status tint with its edge and its word colour, for status only, always with the word\n//\n// Two sizes: 20px with 11px capitals for a dense row, 24px with 12px capitals by default. A count shows tabular\n// figures; past max it shows \"99+\" and keeps the exact number for a screen reader and the title.\n\nconst tagVariants = cva(\n  [\n    'inline-flex w-fit max-w-full shrink-0 items-center justify-center gap-1 overflow-hidden border whitespace-nowrap',\n    '[&>svg]:pointer-events-none [&>svg]:size-(--icon) [&>svg]:shrink-0',\n    'forced-colors:border-[CanvasText]',\n  ],\n  {\n    variants: {\n      variant: {\n        neutral: 'border-line bg-well text-text-1',\n        outline: 'border-line bg-page text-text-2',\n        ok: 'border-ok bg-ok-tint text-ok-text',\n        warn: 'border-warn bg-warn-tint text-warn-text',\n        fail: 'border-fail bg-fail-tint text-fail-text',\n      },\n      size: {\n        default: 'min-h-6 px-2 type-label-sm',\n        sm: 'min-h-5 px-1.5 type-micro',\n      },\n    },\n    defaultVariants: {variant: 'neutral', size: 'default'},\n  },\n);\n\ntype TagProps = useRender.ComponentProps<'span'> & VariantProps<typeof tagVariants> & {\n  /** A count in place of the label. Past max it shows \"max+\"; the exact number stays the accessible name. */\n  count?: number;\n  /** The cap for count. 99 by default. */\n  max?: number;\n};\n\nfunction Tag({className, variant = 'neutral', size = 'default', count, max = 99, render, children, ...props}: TagProps) {\n  const capped = count !== undefined && count > max;\n  const exact = count?.toLocaleString('en-US');\n  const shown = count === undefined ? children : capped ? <><span aria-hidden>{max}+</span><span className=\"sr-only\">{exact}</span></> : exact;\n  return useRender({\n    defaultTagName: 'span',\n    props: mergeProps<'span'>(\n      {className: cn(tagVariants({variant, size}), className), children: shown},\n      {'data-slot': 'tag', 'data-variant': variant, 'data-size': size, title: capped ? exact : undefined} as React.ComponentProps<'span'>,\n      props,\n    ),\n    render,\n    state: {slot: 'tag', variant},\n  });\n}\n\nexport {Tag, tagVariants, type TagProps};\n",
+      "type": "registry:ui",
+      "target": "@components/sodium/ui/tag.tsx"
+    }
+  ]
+}

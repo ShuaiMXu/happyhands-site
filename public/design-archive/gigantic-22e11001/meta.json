@@ -1,0 +1,52 @@
+{
+ "id": "22e11001-8786-4af7-bdb9-f9419ce8ad1a",
+ "slug": "gigantic-22e11001",
+ "name": "Gigantic",
+ "site_url": "https://giganticcandy.com",
+ "lastmod": "2026-06-05T10:13:27.830Z",
+ "extracted_at": "2026-06-03T20:52:07.575Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "punk-rock candy wrapper shouting on cream paper",
+ "fonts": [
+  "Neue Haas Grotesk Display",
+  "Arial",
+  "GTStandard-M"
+ ],
+ "colors": [
+  {
+   "hex": "#231f20",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#f0ede7",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#ff634b",
+   "name": "Blast Red"
+  },
+  {
+   "hex": "#000000",
+   "name": "True Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b602838b-00db-44c1-8bdf-5f7ab95f0e79.mp4",
+  "poster": "https://happyhands.cc/design-archive/gigantic-22e11001/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/gigantic-22e11001/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/gigantic-22e11001/thumbnail.jpg"
+}

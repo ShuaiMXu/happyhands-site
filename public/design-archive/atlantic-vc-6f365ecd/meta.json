@@ -1,0 +1,75 @@
+{
+ "id": "6f365ecd-a040-4533-88c1-3f60fe062632",
+ "slug": "atlantic-vc-6f365ecd",
+ "name": "Atlantic.vc",
+ "site_url": "https://atlantic.vc",
+ "lastmod": "2026-06-03T18:06:02.810Z",
+ "extracted_at": "2026-06-03T18:06:02.805Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "other",
+ "north_star": "Midnight observatory wireframe — electric blue and ice-white type on layered charcoal, traced with cool-white borders.",
+ "fonts": [
+  "Monument",
+  "Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#d8eaff",
+   "name": "Ice White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#0d0d0f",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#232529",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#2b2f33",
+   "name": "Slate"
+  },
+  {
+   "hex": "#41464c",
+   "name": "Iron"
+  },
+  {
+   "hex": "#565e66",
+   "name": "Steel"
+  },
+  {
+   "hex": "#6c757f",
+   "name": "Fog"
+  },
+  {
+   "hex": "#565657",
+   "name": "Iron Edge"
+  },
+  {
+   "hex": "#1f58f2",
+   "name": "Electric Cobalt"
+  },
+  {
+   "hex": "#ff4105",
+   "name": "Signal Orange"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/7d51b341-a1bc-44af-99c8-1721daa8377c.mp4",
+  "poster": "https://happyhands.cc/design-archive/atlantic-vc-6f365ecd/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/atlantic-vc-6f365ecd/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/atlantic-vc-6f365ecd/thumbnail.jpg"
+}

@@ -1,0 +1,60 @@
+{
+ "id": "9c92c3d1-a2fe-4a27-a324-826b19501774",
+ "slug": "medium-9c92c3d1",
+ "name": "Medium",
+ "site_url": "https://medium.com",
+ "lastmod": "2026-06-05T00:52:13.573Z",
+ "extracted_at": "2026-06-03T15:18:59.835Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "cream-colored broadsheet at golden hour",
+ "fonts": [
+  "medium-content-sans-serif-font",
+  "GT Super",
+  "Söhne",
+  "Charter / Georgia stack",
+  "Söhne (extended)",
+  "sohne",
+  "Times"
+ ],
+ "colors": [
+  {
+   "hex": "#f7f4ed",
+   "name": "Newsprint Cream"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#242424",
+   "name": "Ink"
+  },
+  {
+   "hex": "#333333",
+   "name": "Body Gray"
+  },
+  {
+   "hex": "#191919",
+   "name": "Button Black"
+  },
+  {
+   "hex": "#6b6b6b",
+   "name": "Marginalia Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/17c50271-da3a-47ac-a31e-7f78550faddf.mp4",
+  "poster": "https://happyhands.cc/design-archive/medium-9c92c3d1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/medium-9c92c3d1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/medium-9c92c3d1/thumbnail.jpg"
+}

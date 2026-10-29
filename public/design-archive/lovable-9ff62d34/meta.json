@@ -1,0 +1,66 @@
+{
+ "id": "9ff62d34-e48d-4fcb-9fd9-c018e2747542",
+ "slug": "lovable-9ff62d34",
+ "name": "Lovable",
+ "site_url": "https://lovable.dev",
+ "lastmod": "2026-06-05T12:23:55.499Z",
+ "extracted_at": "2026-06-05T12:23:55.484Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Warm parchment canvas behind a single prismatic horizon",
+ "fonts": [
+  "Camera Plain Variable"
+ ],
+ "colors": [
+  {
+   "hex": "#fcfbf8",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#f7f4ed",
+   "name": "Warm Sand"
+  },
+  {
+   "hex": "#eceae4",
+   "name": "Linen Border"
+  },
+  {
+   "hex": "#d4d3d0",
+   "name": "Stone"
+  },
+  {
+   "hex": "#5f5f5d",
+   "name": "Dim Gray"
+  },
+  {
+   "hex": "#1c1c1c",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#030303",
+   "name": "Ink"
+  },
+  {
+   "hex": "#2483ff",
+   "name": "Hero Gradient"
+  },
+  {
+   "hex": "#3451b2",
+   "name": "Indigo Accent"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/da8c2ddb-0f07-4a96-ae01-a1d9fabc659a.mp4",
+  "poster": "https://happyhands.cc/design-archive/lovable-9ff62d34/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/lovable-9ff62d34/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/lovable-9ff62d34/thumbnail.jpg"
+}

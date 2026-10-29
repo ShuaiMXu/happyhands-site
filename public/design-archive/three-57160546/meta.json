@@ -1,0 +1,74 @@
+{
+ "id": "57160546-4cf7-4d52-bb05-cd8b88e1fbf9",
+ "slug": "three-57160546",
+ "name": "Three",
+ "site_url": "https://three.tools",
+ "lastmod": "2026-06-03T18:20:35.229Z",
+ "extracted_at": "2026-06-03T18:20:35.224Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "Molten ember on gunmetal — a single hot-orange spark cutting through near-total darkness, with every surface stripped of color until the moment something matters.",
+ "fonts": [
+  "-apple-system, system-ui, sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#ff4300",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#111111",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#181818",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#2b2a2a",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#343434",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#666666",
+   "name": "Steel"
+  },
+  {
+   "hex": "#8d8d8d",
+   "name": "Fog"
+  },
+  {
+   "hex": "#999999",
+   "name": "Ash"
+  },
+  {
+   "hex": "#cacaca",
+   "name": "Silver"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#e9e6e6",
+   "name": "Bone"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e7c6b5bc-5d54-47a9-bfa4-18335daa85e8.mp4",
+  "poster": "https://happyhands.cc/design-archive/three-57160546/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/three-57160546/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/three-57160546/thumbnail.jpg"
+}

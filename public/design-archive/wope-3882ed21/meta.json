@@ -1,0 +1,87 @@
+{
+ "id": "3882ed21-8ef8-4bc9-b125-7791c0f136bb",
+ "slug": "wope-3882ed21",
+ "name": "Wope",
+ "site_url": "https://wope.com",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-14T00:48:59.323Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "saas",
+ "north_star": "Wope - violet horizon interface. Think of a dark observatory table with a purple light bloom rising from below the glass.",
+ "fonts": [
+  "Inter V",
+  "Rebond Grotesque"
+ ],
+ "colors": [
+  {
+   "hex": "#0a0118",
+   "name": "Night Violet"
+  },
+  {
+   "hex": "#0c0616",
+   "name": "Void Plum"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Soft Quartz"
+  },
+  {
+   "hex": "#d2d0dd",
+   "name": "Muted Steel"
+  },
+  {
+   "hex": "#9b96b0",
+   "name": "Ash Lilac"
+  },
+  {
+   "hex": "#85808c",
+   "name": "Dim Fog"
+  },
+  {
+   "hex": "#713dff",
+   "name": "Ultraviolet Core"
+  },
+  {
+   "hex": "#b7a4fb",
+   "name": "Lilac Beam"
+  },
+  {
+   "hex": "#8562ff",
+   "name": "Horizon Glow"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Glass White 04"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Glass White 10"
+  },
+  {
+   "hex": "#8562ff",
+   "name": "Ultraviolet Horizon"
+  },
+  {
+   "hex": "#8562ff",
+   "name": "Violet Beam"
+  },
+  {
+   "hex": "#16092a",
+   "name": "Deep Fade Veil"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c466a6af-92f3-48c4-afe6-8223d289f0b0.mp4",
+  "poster": "https://happyhands.cc/design-archive/wope-3882ed21/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/wope-3882ed21/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/wope-3882ed21/thumbnail.jpg"
+}

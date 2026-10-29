@@ -1,0 +1,71 @@
+{
+ "id": "ea9c37e8-c56c-42aa-8e81-9b55222a5cd3",
+ "slug": "stark-ea9c37e8",
+ "name": "Stark",
+ "site_url": "https://www.getstark.co",
+ "lastmod": "2026-06-05T13:00:11.641Z",
+ "extracted_at": "2026-06-03T22:08:43.948Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "midnight lecture hall with yellow highlighter",
+ "fonts": [
+  "ArminGrotesk",
+  "RobotoMono"
+ ],
+ "colors": [
+  {
+   "hex": "#10284b",
+   "name": "Midnight Navy"
+  },
+  {
+   "hex": "#381fd1",
+   "name": "Stark Violet"
+  },
+  {
+   "hex": "#fedb63",
+   "name": "Highlighter Yellow"
+  },
+  {
+   "hex": "#e5e0ff",
+   "name": "Lilac Tint"
+  },
+  {
+   "hex": "#99d6cc",
+   "name": "Mint Splash"
+  },
+  {
+   "hex": "#faf5ff",
+   "name": "Page Canvas"
+  },
+  {
+   "hex": "#f6f6eb",
+   "name": "Cream Field"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Hairline Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/612b6598-24e6-4087-8bd5-0eb9c7539e40.mp4",
+  "poster": "https://happyhands.cc/design-archive/stark-ea9c37e8/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/stark-ea9c37e8/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/stark-ea9c37e8/thumbnail.jpg"
+}

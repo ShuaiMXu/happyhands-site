@@ -1,0 +1,38 @@
+{
+ "id": "5acff005-1871-4237-bc25-cdddf50edc70",
+ "slug": "bibliothe-que-5acff005",
+ "name": "Bibliothèque",
+ "site_url": "https://bibliothequedesign.com",
+ "lastmod": "2026-06-03T20:02:54.345Z",
+ "extracted_at": "2026-06-03T20:02:54.340Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "design",
+ "north_star": "Black-cube gallery under spotlight — a single illuminated plate in a vast dark room.",
+ "fonts": [
+  "Unica77 LL"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Gallery White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d85ceeed-e593-4eb2-bb21-5404388c8865.mp4",
+  "poster": "https://happyhands.cc/design-archive/bibliothe-que-5acff005/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/bibliothe-que-5acff005/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/bibliothe-que-5acff005/thumbnail.jpg"
+}

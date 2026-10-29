@@ -1,0 +1,52 @@
+{
+ "id": "22cc86bc-6c5f-4413-a4a2-66b8ddc82ad0",
+ "slug": "yellowbird-22cc86bc",
+ "name": "Yellowbird®",
+ "site_url": "https://www.yellowbirdfoods.com",
+ "lastmod": "2026-06-05T08:27:23.783Z",
+ "extracted_at": "2026-06-03T19:53:50.055Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Retro condiment billboard in midday sun — a single yellow plane under a black sun, every letter drawn with a fat marker.\n\nThe system breathes through color contrast, not elevation: yellow on yellow separated by thick black strokes, with cream cards as the only neutral relief.",
+ "fonts": [
+  "Gooper",
+  "ABC Monument Grotesk",
+  "Pitch Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#ffe845",
+   "name": "Sunglow"
+  },
+  {
+   "hex": "#000000",
+   "name": "Sauce Bottle Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#fbfaf2",
+   "name": "Buttermilk"
+  },
+  {
+   "hex": "#007aff",
+   "name": "Cool Link Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b554b4c2-2be7-4beb-8559-96019cf2dc41.mp4",
+  "poster": "https://happyhands.cc/design-archive/yellowbird-22cc86bc/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/yellowbird-22cc86bc/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/yellowbird-22cc86bc/thumbnail.jpg"
+}

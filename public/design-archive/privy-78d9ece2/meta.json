@@ -1,0 +1,65 @@
+{
+ "id": "78d9ece2-9033-479a-997a-ede94fc87fda",
+ "slug": "privy-78d9ece2",
+ "name": "Privy",
+ "site_url": "https://www.privy.io",
+ "lastmod": "2026-06-03T17:57:47.228Z",
+ "extracted_at": "2026-06-03T17:57:47.222Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "crypto",
+ "north_star": "ink-on-marble editorial spread. White marble canvas, black serif headlines compressed tight, a single violet banner cutting across the top — restraint as authority.",
+ "fonts": [
+  "sans-serif",
+  "ABC Favorit Variable",
+  "Inter",
+  "ABC Favorit Unlicensed Trial"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Canvas"
+  },
+  {
+   "hex": "#010110",
+   "name": "Obsidian Ink"
+  },
+  {
+   "hex": "#111117",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#22222a",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#73737c",
+   "name": "Fog"
+  },
+  {
+   "hex": "#d9d9d9",
+   "name": "Ash"
+  },
+  {
+   "hex": "#635bff",
+   "name": "Iris Pulse"
+  },
+  {
+   "hex": "#072723",
+   "name": "Deep Teal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e2e16a7d-a312-463d-b8f2-09ff64ca9e92.mp4",
+  "poster": "https://happyhands.cc/design-archive/privy-78d9ece2/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/privy-78d9ece2/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/privy-78d9ece2/thumbnail.jpg"
+}

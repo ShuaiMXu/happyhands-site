@@ -1,0 +1,54 @@
+{
+ "id": "acfb6fa1-3aed-4e64-8522-7f332a796de8",
+ "slug": "arc-acfb6fa1",
+ "name": "Arc",
+ "site_url": "https://arcboats.com",
+ "lastmod": "2026-06-03T18:21:23.128Z",
+ "extracted_at": "2026-06-03T18:21:23.122Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "industrial white gallery above midnight water",
+ "fonts": [
+  "Soehne"
+ ],
+ "colors": [
+  {
+   "hex": "#e5e7eb",
+   "name": "Bone"
+  },
+  {
+   "hex": "#0a0a0a",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#031e25",
+   "name": "Deep Current"
+  },
+  {
+   "hex": "#1d1d1e",
+   "name": "Slate Depth"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d3bdf9a2-8bc5-4692-a08d-dc62686739e6.mp4",
+  "poster": "https://happyhands.cc/design-archive/arc-acfb6fa1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/arc-acfb6fa1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/arc-acfb6fa1/thumbnail.jpg"
+}

@@ -1,0 +1,55 @@
+{
+ "id": "a69de146-6ff1-4ea8-b4a4-9d182ca2de31",
+ "slug": "evoke-a69de146",
+ "name": "EVOKE",
+ "site_url": "https://studioevoke.co.uk",
+ "lastmod": "2026-06-05T02:39:45.885Z",
+ "extracted_at": "2026-06-03T17:24:23.665Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Saturated flat tiles swallowed by a massive black wordmark",
+ "fonts": [
+  "tt_norms_proextrablack",
+  "TT Norms Pro"
+ ],
+ "colors": [
+  {
+   "hex": "#ff5a46",
+   "name": "Ember Coral"
+  },
+  {
+   "hex": "#00ffff",
+   "name": "Electric Cyan"
+  },
+  {
+   "hex": "#ffe100",
+   "name": "Solar Yellow"
+  },
+  {
+   "hex": "#ebebf5",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a7366629-331a-478d-aa11-1e3a79da6e28.mp4",
+  "poster": "https://happyhands.cc/design-archive/evoke-a69de146/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/evoke-a69de146/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/evoke-a69de146/thumbnail.jpg"
+}

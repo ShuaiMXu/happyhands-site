@@ -1,0 +1,68 @@
+{
+ "id": "0f0d4cb7-5109-4e81-8c8d-f6bd0441b27c",
+ "slug": "coda-0f0d4cb7",
+ "name": "Coda",
+ "site_url": "https://coda.io",
+ "lastmod": "2026-06-05T07:32:20.599Z",
+ "extracted_at": "2026-06-03T19:31:52.708Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Cream-paper workspace — warm editor's desk where bold black type and a single orange accent do all the work.",
+ "fonts": [
+  "Calibre-R",
+  "Inter",
+  "Tiempos-Headline"
+ ],
+ "colors": [
+  {
+   "hex": "#212121",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#fff6ec",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#e0e0e0",
+   "name": "Ash Border"
+  },
+  {
+   "hex": "#666666",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#8e8e8e",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#444444",
+   "name": "Slate Button"
+  },
+  {
+   "hex": "#ee5a29",
+   "name": "Ember Orange"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/88a8d4c2-d30c-40fe-bfe8-b4f91d7921a5.mp4",
+  "poster": "https://happyhands.cc/design-archive/coda-0f0d4cb7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/coda-0f0d4cb7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/coda-0f0d4cb7/thumbnail.jpg"
+}

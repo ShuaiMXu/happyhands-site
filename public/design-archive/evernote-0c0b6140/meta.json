@@ -1,0 +1,75 @@
+{
+ "id": "0c0b6140-2b6c-44f8-8bba-4ecfcadba420",
+ "slug": "evernote-0c0b6140",
+ "name": "Evernote",
+ "site_url": "https://evernote.com",
+ "lastmod": "2026-06-05T06:14:55.638Z",
+ "extracted_at": "2026-06-03T19:06:10.500Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Afternoon sun on cream paper — a warm, lived-in notebook where white cards float on beige, dark text breathes, and one lime-green highlighter marks the important things.",
+ "fonts": [
+  "Figtree",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#94e130",
+   "name": "Lime Sprout"
+  },
+  {
+   "hex": "#f9f6f2",
+   "name": "Paper Cream"
+  },
+  {
+   "hex": "#f4eee5",
+   "name": "Ivory Card"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#e7e7e7",
+   "name": "Slate Border"
+  },
+  {
+   "hex": "#a1a1a1",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#737373",
+   "name": "Stone"
+  },
+  {
+   "hex": "#4e4d4c",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#262626",
+   "name": "Iron"
+  },
+  {
+   "hex": "#141414",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Onyx"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/84e68b8e-e851-4a22-a4e5-d36037f67aa0.mp4",
+  "poster": "https://happyhands.cc/design-archive/evernote-0c0b6140/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/evernote-0c0b6140/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/evernote-0c0b6140/thumbnail.jpg"
+}

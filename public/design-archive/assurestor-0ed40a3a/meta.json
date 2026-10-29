@@ -1,0 +1,59 @@
+{
+ "id": "0ed40a3a-2541-4ffa-acdd-f1170858bc5d",
+ "slug": "assurestor-0ed40a3a",
+ "name": "Assurestor",
+ "site_url": "https://www.assurestor.com",
+ "lastmod": "2026-06-03T20:27:34.476Z",
+ "extracted_at": "2026-06-03T20:27:34.472Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "saas",
+ "north_star": "Electric terminal in a deep forest vault — lime phosphor on midnight olive.",
+ "fonts": [
+  "Denim Ink",
+  "Courier New"
+ ],
+ "colors": [
+  {
+   "hex": "#203400",
+   "name": "Forest Canopy"
+  },
+  {
+   "hex": "#1b2d00",
+   "name": "Vault Floor"
+  },
+  {
+   "hex": "#335400",
+   "name": "Canopy Mid"
+  },
+  {
+   "hex": "#bdff00",
+   "name": "Lime Phosphor"
+  },
+  {
+   "hex": "#586740",
+   "name": "Moss Border"
+  },
+  {
+   "hex": "#73a303",
+   "name": "Fern"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/9b354150-04ca-4d59-82e3-a62e127a20dd.mp4",
+  "poster": "https://happyhands.cc/design-archive/assurestor-0ed40a3a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/assurestor-0ed40a3a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/assurestor-0ed40a3a/thumbnail.jpg"
+}

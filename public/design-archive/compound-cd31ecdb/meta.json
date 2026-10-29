@@ -1,0 +1,70 @@
+{
+ "id": "cd31ecdb-297a-4fc5-a727-05f835ff917f",
+ "slug": "compound-cd31ecdb",
+ "name": "Compound",
+ "site_url": "https://withcompound.com/membership",
+ "lastmod": "2026-06-05T03:42:06.889Z",
+ "extracted_at": "2026-06-03T18:04:54.036Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "ink-on-paper wealth journal — a quiet editorial system where one font at one weight does all the work, and the only color is the cream ribbon at the top of the page.",
+ "fonts": [
+  "Monument Grotesk"
+ ],
+ "colors": [
+  {
+   "hex": "#171717",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Graphite Hairline"
+  },
+  {
+   "hex": "#f3f3f3",
+   "name": "Vellum"
+  },
+  {
+   "hex": "#6f6f6f",
+   "name": "Slate"
+  },
+  {
+   "hex": "#5e5e5e",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#a0a0a0",
+   "name": "Ash"
+  },
+  {
+   "hex": "#222222",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#c7c7c7",
+   "name": "Stone"
+  },
+  {
+   "hex": "#ffe9bf",
+   "name": "Cream Notice"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/081a7188-7160-4cca-9a6b-c5a97749e1c8.mp4",
+  "poster": "https://happyhands.cc/design-archive/compound-cd31ecdb/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/compound-cd31ecdb/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/compound-cd31ecdb/thumbnail.jpg"
+}

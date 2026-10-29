@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "utils",
+  "type": "registry:lib",
+  "title": "cn",
+  "description": "Support file: cn, which merges class names and resolves conflicts between Sodium's type roles and button surfaces; mergeClass, which keeps Sodium's classes when a caller passes a className function; mergeRefs; and controlHeight, the one height formula for one-line controls.",
+  "author": "design.how",
+  "categories": [
+    "internal"
+  ],
+  "dependencies": [
+    "clsx@^2.1.1",
+    "tailwind-merge@^3.7.0"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/sodium/index.md",
+    "page": "https://happyhands.cc/design-how/sodium/index.md"
+  },
+  "files": [
+    {
+      "path": "registry/sodium/lib/utils.ts",
+      "content": "import type * as React from 'react';\nimport {clsx, type ClassValue} from 'clsx';\nimport {extendTailwindMerge} from 'tailwind-merge';\n\n// Sodium's own utilities, registered so tailwind-merge resolves conflicts between them: a later type-* role replaces\n// an earlier one, a later button surface (slab, slab-fail, edged, quiet) replaces an earlier one, and text-text-2\n// replaces text-text-1. The region's inset (p-inset, px-inset) is a spacing step, so a later p-0 replaces it.\nconst twMerge = extendTailwindMerge<'type-role' | 'surface'>({\n  extend: {\n    theme: {spacing: ['inset']},\n    classGroups: {\n      'type-role': [{type: ['display', 'title', 'heading', 'heading-sm', 'figure', 'body', 'body-sm', 'caption', 'label-lg', 'label', 'label-sm', 'micro', 'code', 'code-sm']}],\n      'surface': ['slab', 'slab-fail', 'edged', 'quiet'],\n    },\n  },\n});\n\n/**\n * The height of a one-line control, one formula for every control of that size: the size's token, or one line plus\n * 8px of padding if the text grows past it (200% text zoom), so the label never spills out of the box.\n */\nexport const controlHeight = {\n  sm: 'h-[max(var(--control-sm),calc(1lh+var(--space-2)))]',\n  default: 'h-[max(var(--control),calc(1lh+var(--space-2)))]',\n  lg: 'h-[max(var(--control-lg),calc(1lh+var(--space-2)))]',\n} as const;\n\n/**\n * Whether motion is reduced for this element: the media query, or a data-force-reduced-motion ancestor (the docs set it\n * on a specimen). Read it when a motion starts, in an effect; on the server it is false.\n */\nexport function reducedMotion(el?: Element | null): boolean {\n  return typeof window !== 'undefined' && (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !!el?.closest('[data-force-reduced-motion]'));\n}\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs));\n}\n\n/**\n * Sodium's classes and the caller's, for a Base UI part whose className may be a function of its state (data-checked,\n * open, disabled ...). A function is composed, not passed through, so Sodium's classes stay either way.\n */\nexport function mergeClass<State>(base: ClassValue, className: string | ((state: State) => string | undefined) | undefined): string | ((state: State) => string) {\n  return typeof className === 'function' ? (state: State) => cn(base, className(state)) : cn(base, className);\n}\n\n/**\n * One callback ref that sets every ref it is given, for a component that keeps its own ref and forwards the caller's.\n * Wrap it in useMemo or useCallback when the element should not be detached and attached again on every render.\n */\nexport function mergeRefs<T>(...refs: (React.Ref<T> | undefined)[]): React.RefCallback<T> {\n  return node => {\n    for (const ref of refs) {\n      if (typeof ref === 'function') ref(node);\n      else if (ref) (ref as React.RefObject<T | null>).current = node;\n    }\n  };\n}\n",
+      "type": "registry:lib",
+      "target": "@lib/sodium/utils.ts"
+    }
+  ]
+}

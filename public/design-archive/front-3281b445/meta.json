@@ -1,0 +1,91 @@
+{
+ "id": "3281b445-805b-4dc7-933f-42b544a6d798",
+ "slug": "front-3281b445",
+ "name": "Front",
+ "site_url": "https://front.com",
+ "lastmod": "2026-06-03T18:24:36.836Z",
+ "extracted_at": "2026-06-03T18:24:36.831Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "saas",
+ "north_star": "Midnight plum control room, one lime spark. Deep aubergine walls, lavender mist borders, and a single chartreuse beacon that pulls every eye.",
+ "fonts": [
+  "Suisse Intl",
+  "Suisse Works"
+ ],
+ "colors": [
+  {
+   "hex": "#300c41",
+   "name": "Aubergine"
+  },
+  {
+   "hex": "#5b1f76",
+   "name": "Royal Plum"
+  },
+  {
+   "hex": "#dee948",
+   "name": "Lime Spark"
+  },
+  {
+   "hex": "#8034bf",
+   "name": "Bright Violet"
+  },
+  {
+   "hex": "#b375f4",
+   "name": "Lavender Glow"
+  },
+  {
+   "hex": "#1c1e20",
+   "name": "Ink"
+  },
+  {
+   "hex": "#f0f4fe",
+   "name": "Frost"
+  },
+  {
+   "hex": "#e2dcf6",
+   "name": "Pale Lilac"
+  },
+  {
+   "hex": "#dedfe2",
+   "name": "Stone"
+  },
+  {
+   "hex": "#5b5d63",
+   "name": "Slate"
+  },
+  {
+   "hex": "#7c8088",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#8e929b",
+   "name": "Ash"
+  },
+  {
+   "hex": "#0d1d39",
+   "name": "Midnight Navy"
+  },
+  {
+   "hex": "#d0c6f0",
+   "name": "Lavender Whisper"
+  },
+  {
+   "hex": "#1d1f04",
+   "name": "Deep Olive"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/39320de2-e2da-41d8-b4e3-0f783ae44343.mp4",
+  "poster": "https://happyhands.cc/design-archive/front-3281b445/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/front-3281b445/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/front-3281b445/thumbnail.jpg"
+}

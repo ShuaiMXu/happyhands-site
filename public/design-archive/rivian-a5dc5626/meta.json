@@ -1,0 +1,89 @@
+{
+ "id": "a5dc5626-1103-42e3-9edb-a6d52fb9a210",
+ "slug": "rivian-a5dc5626",
+ "name": "Rivian",
+ "site_url": "https://rivian.com",
+ "lastmod": "2026-06-03T17:16:58.023Z",
+ "extracted_at": "2026-06-03T17:16:58.017Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Electric monolith on a concrete gallery wall. Rivian stages each vehicle as a sculpture against vast white space, with typography so large it becomes architecture and one warm yellow that breaks the monochrome like sunlight on a matte surface.",
+ "fonts": [
+  "Adventure",
+  "Liga",
+  "Söhne",
+  "Sohne"
+ ],
+ "colors": [
+  {
+   "hex": "#ffac00",
+   "name": "Solar Yellow"
+  },
+  {
+   "hex": "#e84826",
+   "name": "Canyon Orange"
+  },
+  {
+   "hex": "#629b5c",
+   "name": "Forest Green"
+  },
+  {
+   "hex": "#77afd8",
+   "name": "Sky Blue"
+  },
+  {
+   "hex": "#9fa1b8",
+   "name": "Slate Blue"
+  },
+  {
+   "hex": "#151515",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Concrete"
+  },
+  {
+   "hex": "#cfd0d0",
+   "name": "Ash"
+  },
+  {
+   "hex": "#b8b8b8",
+   "name": "Fog"
+  },
+  {
+   "hex": "#616161",
+   "name": "Steel"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#212121",
+   "name": "Charcoal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/73c7c26c-e9ee-44ee-925f-448a5769a8ed.mp4",
+  "poster": "https://happyhands.cc/design-archive/rivian-a5dc5626/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/rivian-a5dc5626/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/rivian-a5dc5626/thumbnail.jpg"
+}

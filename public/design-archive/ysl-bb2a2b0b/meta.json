@@ -1,0 +1,40 @@
+{
+ "id": "bb2a2b0b-c84e-48ee-9dd9-7b623f81a422",
+ "slug": "ysl-bb2a2b0b",
+ "name": "Ysl",
+ "site_url": "https://ysl.com",
+ "lastmod": "2026-06-05T03:59:06.014Z",
+ "extracted_at": "2026-06-03T17:56:58.227Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ecommerce",
+ "north_star": "black-and-white cinema still — a single model under a single wordmark, nothing else permitted",
+ "fonts": [
+  "Saint Laurent Wordmark (custom)",
+  "Helvetica Neue / Inter / system sans",
+  "Helvetica Neue / Inter / system sans"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b2061638-c0ec-4cfc-b3f8-8d7b0b7000b6.mp4",
+  "poster": "https://happyhands.cc/design-archive/ysl-bb2a2b0b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ysl-bb2a2b0b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ysl-bb2a2b0b/thumbnail.jpg"
+}

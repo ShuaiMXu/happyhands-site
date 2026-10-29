@@ -1,0 +1,92 @@
+{
+ "id": "0d0de64c-1891-4984-9e12-8976e042ce11",
+ "slug": "flighty-0d0de64c",
+ "name": "Flighty",
+ "site_url": "https://flighty.com",
+ "lastmod": "2026-06-03T18:00:36.447Z",
+ "extracted_at": "2026-06-03T18:00:36.441Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "saas",
+ "north_star": "Control tower at midnight — a luminous control room with glowing screens floating around a single device",
+ "fonts": [
+  "sans-serif",
+  "system-ui",
+  "EB Garamond",
+  "SF Pro Text Regular",
+  "SF Pro Text Semibold",
+  "Inter",
+  "Indie Flower"
+ ],
+ "colors": [
+  {
+   "hex": "#007bff",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#f7be00",
+   "name": "Amber Alert"
+  },
+  {
+   "hex": "#0d0021",
+   "name": "Deep Indigo"
+  },
+  {
+   "hex": "#05010d",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#333333",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#595959",
+   "name": "Slate"
+  },
+  {
+   "hex": "#737373",
+   "name": "Steel"
+  },
+  {
+   "hex": "#808080",
+   "name": "Fog"
+  },
+  {
+   "hex": "#cfcfcf",
+   "name": "Silver"
+  },
+  {
+   "hex": "#faf8f7",
+   "name": "Linen"
+  },
+  {
+   "hex": "#89898e",
+   "name": "Ash"
+  },
+  {
+   "hex": "#d92d20",
+   "name": "Alert Red"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a920b110-3e2c-4c8b-9369-0cd9c7c0daca.mp4",
+  "poster": "https://happyhands.cc/design-archive/flighty-0d0de64c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/flighty-0d0de64c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/flighty-0d0de64c/thumbnail.jpg"
+}

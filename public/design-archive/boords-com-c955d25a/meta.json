@@ -1,0 +1,83 @@
+{
+ "id": "c955d25a-b32a-441d-9f07-a260d1df897b",
+ "slug": "boords-com-c955d25a",
+ "name": "boords.com",
+ "site_url": "https://boords.com",
+ "lastmod": "2026-06-03T16:51:33.480Z",
+ "extracted_at": "2026-06-03T16:51:33.474Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Warm storyboard studio on cream paper — a cream canvas, amber pencil accents, and flat geometric type that feels hand-drawn even when it's pure UI.",
+ "fonts": [
+  "matter",
+  "ui-monospace"
+ ],
+ "colors": [
+  {
+   "hex": "#fafaf5",
+   "name": "Warm Cream"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#121212",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#e9e9e7",
+   "name": "Stone Gray"
+  },
+  {
+   "hex": "#cecdca",
+   "name": "Pebble Border"
+  },
+  {
+   "hex": "#4d4d4d",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#7d7d7d",
+   "name": "Mid Gray"
+  },
+  {
+   "hex": "#898989",
+   "name": "Muted Ash"
+  },
+  {
+   "hex": "#e8aa42",
+   "name": "Warm Gold"
+  },
+  {
+   "hex": "#eb6c00",
+   "name": "Deep Amber"
+  },
+  {
+   "hex": "#b77a1e",
+   "name": "Burnt Honey"
+  },
+  {
+   "hex": "#214c7e",
+   "name": "Storyboard Blue"
+  },
+  {
+   "hex": "#daeef8",
+   "name": "Sketch Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/dc29a65a-c532-4e34-97bf-34a38a2ff2dd.mp4",
+  "poster": "https://happyhands.cc/design-archive/boords-com-c955d25a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/boords-com-c955d25a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/boords-com-c955d25a/thumbnail.jpg"
+}

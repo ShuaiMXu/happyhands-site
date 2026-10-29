@@ -1,0 +1,67 @@
+{
+ "id": "40e4d3ef-cd28-483b-8c8a-b9cf44281b03",
+ "slug": "june-40e4d3ef",
+ "name": "June",
+ "site_url": "https://www.june.so",
+ "lastmod": "2026-06-03T21:46:25.943Z",
+ "extracted_at": "2026-06-03T21:46:25.936Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Midnight ink on cream paper.",
+ "fonts": [
+  "SF Pro Rounded",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#2a2a63",
+   "name": "Midnight Violet"
+  },
+  {
+   "hex": "#151531",
+   "name": "Deep Ink"
+  },
+  {
+   "hex": "#6868f7",
+   "name": "Periwinkle Accent"
+  },
+  {
+   "hex": "#fafafa",
+   "name": "Cream Canvas"
+  },
+  {
+   "hex": "#f0f0fe",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#e9ecef",
+   "name": "Mist Border"
+  },
+  {
+   "hex": "#343a40",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#cfd0d1",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#c3c4c6",
+   "name": "Fog"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b6224296-0e97-4921-8e86-b8861e38cd0e.mp4",
+  "poster": "https://happyhands.cc/design-archive/june-40e4d3ef/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/june-40e4d3ef/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/june-40e4d3ef/thumbnail.jpg"
+}

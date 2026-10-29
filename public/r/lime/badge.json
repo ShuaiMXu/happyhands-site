@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "badge",
+  "type": "registry:ui",
+  "title": "Badge",
+  "description": "A short fact that never changes on its own, such as Plus or New.",
+  "author": "design.how",
+  "categories": [
+    "display"
+  ],
+  "dependencies": [
+    "class-variance-authority@^0.7.1"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/theme.json",
+    "https://happyhands.cc/r/lime/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/lime/components/badge.md",
+    "page": "https://happyhands.cc/design-how/lime/components/badge.md"
+  },
+  "files": [
+    {
+      "path": "registry/lime/ui/badge.tsx",
+      "content": "import {cva, type VariantProps} from 'class-variance-authority';\nimport {cn} from '@/lib/lime/utils';\n\n// Static metadata: a plan, a count, a state. It is not clickable (use Chip for that). Sentence case, never\n// capitals. neutral is the default; accent is the one highlight, such as \"New\"; the three status tones\n// carry a state and always sit beside a word.\n\nconst badgeVariants = cva(\n  'inline-flex h-6 w-fit shrink-0 items-center gap-1 rounded-control px-2.5 text-xs font-medium whitespace-nowrap [&_svg]:shrink-0',\n  {\n    variants: {\n      variant: {\n        neutral: 'bg-surface-2 text-fg-2',\n        accent: 'bg-accent-wash text-fg',\n        outline: 'border border-line-strong text-fg-2',\n        success: 'bg-success-tint text-success-text',\n        warn: 'bg-warn-tint text-warn-text',\n        danger: 'bg-danger-tint text-danger-text',\n      },\n    },\n    defaultVariants: {variant: 'neutral'},\n  },\n);\n\ntype BadgeProps = React.ComponentProps<'span'> & VariantProps<typeof badgeVariants>;\n\nfunction Badge({className, variant, ...props}: BadgeProps) {\n  return <span data-slot=\"badge\" className={cn(badgeVariants({variant}), className)} {...props}/>;\n}\n\nexport {Badge, badgeVariants, type BadgeProps};\n",
+      "type": "registry:ui",
+      "target": "@components/lime/ui/badge.tsx"
+    }
+  ]
+}

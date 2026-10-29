@@ -1,0 +1,87 @@
+{
+ "id": "1514a95f-878c-4d4d-bb14-99d1b83f6227",
+ "slug": "spotify-1514a95f",
+ "name": "Spotify",
+ "site_url": "https://spotify.com",
+ "lastmod": "2026-06-05T01:48:01.376Z",
+ "extracted_at": "2026-06-03T16:53:22.094Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "media",
+ "north_star": "Nocturnal jukebox control room",
+ "fonts": [
+  "SpotifyMixUI",
+  "SpotifyMixUITitle"
+ ],
+ "colors": [
+  {
+   "hex": "#1ed760",
+   "name": "Spotify Green"
+  },
+  {
+   "hex": "#b85850",
+   "name": "Signal Red"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#121212",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#1f1f1f",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#292929",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#333333",
+   "name": "Iron"
+  },
+  {
+   "hex": "#535353",
+   "name": "Steel"
+  },
+  {
+   "hex": "#73777c",
+   "name": "Fog"
+  },
+  {
+   "hex": "#b3b3b3",
+   "name": "Mist"
+  },
+  {
+   "hex": "#c5c5c5",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#509bf5",
+   "name": "Promo Gradient"
+  },
+  {
+   "hex": "#af2896",
+   "name": "Magenta Glow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/42379b0b-649a-4d5c-a1c3-d1e2bb5ef3ab.mp4",
+  "poster": "https://happyhands.cc/design-archive/spotify-1514a95f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/spotify-1514a95f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/spotify-1514a95f/thumbnail.jpg"
+}

@@ -1,0 +1,82 @@
+{
+ "id": "9946887b-ffa9-4276-af81-ae6352795afb",
+ "slug": "calendly-com-9946887b",
+ "name": "Calendly.com",
+ "site_url": "https://calendly.com",
+ "lastmod": "2026-07-03T10:49:17.935Z",
+ "extracted_at": "2026-07-03T03:23:43.697Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Navy ink on cool marble.",
+ "fonts": [
+  "Gilroy",
+  "Gilroy",
+  "Gilroy",
+  "Gilroy",
+  "Gilroy"
+ ],
+ "colors": [
+  {
+   "hex": "#0b3558",
+   "name": "Ink Navy"
+  },
+  {
+   "hex": "#006bff",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#476788",
+   "name": "Slate Gray"
+  },
+  {
+   "hex": "#a6bbd1",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#f8f9fb",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f0f3f8",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#d4e0ed",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#0a0a0a",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#e55cff",
+   "name": "Coral Magenta"
+  },
+  {
+   "hex": "#0099ff",
+   "name": "Sky Cyan"
+  },
+  {
+   "hex": "#004eba",
+   "name": "Deep Cobalt"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/861ee373-0add-466f-845e-47296e9e4d20.mp4",
+  "poster": "https://happyhands.cc/design-archive/calendly-com-9946887b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/calendly-com-9946887b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/calendly-com-9946887b/thumbnail.jpg"
+}

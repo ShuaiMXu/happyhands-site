@@ -1,0 +1,50 @@
+{
+ "id": "7922b756-2d0f-4a58-8fa6-39d40264fe66",
+ "slug": "cos-7922b756",
+ "name": "COS",
+ "site_url": "https://cos.com",
+ "lastmod": "2026-06-05T06:44:51.104Z",
+ "extracted_at": "2026-06-03T19:15:00.589Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "white-walled fashion gallery",
+ "fonts": [
+  "SuisseIntl"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Canvas White"
+  },
+  {
+   "hex": "#080808",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "True Black"
+  },
+  {
+   "hex": "#dadada",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#c80000",
+   "name": "Signal Red"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0937a8ce-5ac8-41a0-bf18-456cec96713f.mp4",
+  "poster": "https://happyhands.cc/design-archive/cos-7922b756/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/cos-7922b756/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/cos-7922b756/thumbnail.jpg"
+}

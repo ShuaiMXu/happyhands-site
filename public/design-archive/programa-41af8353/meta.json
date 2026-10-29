@@ -1,0 +1,51 @@
+{
+ "id": "41af8353-6a8f-416d-947b-57932f591497",
+ "slug": "programa-41af8353",
+ "name": "Programa",
+ "site_url": "https://programa.design",
+ "lastmod": "2026-06-05T08:01:42.145Z",
+ "extracted_at": "2026-06-03T19:59:55.786Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "Swiss design studio at high noon. A white gallery wall lit by a single yellow desk lamp — everything is grayscale until a button, badge, or highlight demands attention, and then that one yellow note carries the whole room.",
+ "fonts": [
+  "Neue Haas Grotesk Text",
+  "neue-haas-grotesk-text"
+ ],
+ "colors": [
+  {
+   "hex": "#1a1a1a",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f4f4f4",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#a3a3a3",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#fbff2b",
+   "name": "Highlighter Yellow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/05a5ebdf-a217-4d79-aa01-4b7fe686a12f.mp4",
+  "poster": "https://happyhands.cc/design-archive/programa-41af8353/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/programa-41af8353/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/programa-41af8353/thumbnail.jpg"
+}

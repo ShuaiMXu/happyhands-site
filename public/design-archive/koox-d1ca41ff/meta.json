@@ -1,0 +1,74 @@
+{
+ "id": "d1ca41ff-1bcc-4081-b1fd-bdcf380ba749",
+ "slug": "koox-d1ca41ff",
+ "name": "Koox",
+ "site_url": "https://koox.co.uk",
+ "lastmod": "2026-06-05T09:15:11.291Z",
+ "extracted_at": "2026-06-03T20:16:10.877Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Brutalist cold-press lab — white tile, sticker print, stencil voice.",
+ "fonts": [
+  "Helvetica"
+ ],
+ "colors": [
+  {
+   "hex": "#d25a24",
+   "name": "Tile Grout"
+  },
+  {
+   "hex": "#113722",
+   "name": "Cold-Press Green"
+  },
+  {
+   "hex": "#6b1229",
+   "name": "Sticker Crimson"
+  },
+  {
+   "hex": "#000000",
+   "name": "Noir"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Glacial White"
+  },
+  {
+   "hex": "#efefef",
+   "name": "Ash"
+  },
+  {
+   "hex": "#232323",
+   "name": "Char"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Concrete"
+  },
+  {
+   "hex": "#d7d7d7",
+   "name": "Fog"
+  },
+  {
+   "hex": "#646464",
+   "name": "Slate"
+  },
+  {
+   "hex": "#808080",
+   "name": "Pewter"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0b0e8b5d-1d91-442b-b489-4fd4ef5a6356.mp4",
+  "poster": "https://happyhands.cc/design-archive/koox-d1ca41ff/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/koox-d1ca41ff/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/koox-d1ca41ff/thumbnail.jpg"
+}

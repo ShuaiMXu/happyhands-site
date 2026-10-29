@@ -1,0 +1,75 @@
+{
+ "id": "be6c7488-9cea-43db-bb28-2606f53ade14",
+ "slug": "vimeo-be6c7488",
+ "name": "Vimeo",
+ "site_url": "https://vimeo.com",
+ "lastmod": "2026-06-03T20:47:19.114Z",
+ "extracted_at": "2026-06-03T20:47:19.106Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "media",
+ "north_star": "Spotlight on matte white",
+ "fonts": [
+  "ABCRepro",
+  "ABCReproMono"
+ ],
+ "colors": [
+  {
+   "hex": "#17d5ff",
+   "name": "Cyan Signal"
+  },
+  {
+   "hex": "#13b1d4",
+   "name": "Cyan Depth"
+  },
+  {
+   "hex": "#141a20",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#0a0e12",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#23313b",
+   "name": "Slate"
+  },
+  {
+   "hex": "#3d4751",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#4c5864",
+   "name": "Steel"
+  },
+  {
+   "hex": "#a9b2bc",
+   "name": "Fog"
+  },
+  {
+   "hex": "#dfe4ea",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#fafcfd",
+   "name": "Paper"
+  },
+  {
+   "hex": "#192028",
+   "name": "Midnight"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/983a4e28-7471-4e8e-93ee-12c7a88931f2.mp4",
+  "poster": "https://happyhands.cc/design-archive/vimeo-be6c7488/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/vimeo-be6c7488/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/vimeo-be6c7488/thumbnail.jpg"
+}

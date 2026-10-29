@@ -1,0 +1,50 @@
+{
+ "id": "1c516bc6-278b-4cf6-bfe8-c5a39118e730",
+ "slug": "nathan-riley-1c516bc6",
+ "name": "Nathan Riley",
+ "site_url": "https://www.nrly.co",
+ "lastmod": "2026-06-05T09:00:03.849Z",
+ "extracted_at": "2026-06-03T20:06:52.371Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "Gallery wall in a black void. A monochrome portfolio where the grid of atmospheric renders is the only color, and a single oversized serif name card anchors the center like a magazine cover floating over the work.",
+ "fonts": [
+  "font1",
+  "Custom Display Serif",
+  "Custom Body Serif",
+  "font2",
+  "ui-sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#393939",
+   "name": "Warm Charcoal"
+  },
+  {
+   "hex": "#e8c4c0",
+   "name": "Blush Card"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ea896261-328b-4a5c-9698-73963dd51682.mp4",
+  "poster": "https://happyhands.cc/design-archive/nathan-riley-1c516bc6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/nathan-riley-1c516bc6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/nathan-riley-1c516bc6/thumbnail.jpg"
+}

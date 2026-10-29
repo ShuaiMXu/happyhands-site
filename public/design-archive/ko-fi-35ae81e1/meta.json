@@ -1,0 +1,61 @@
+{
+ "id": "35ae81e1-273c-43d7-9bcd-ea186d062c13",
+ "slug": "ko-fi-35ae81e1",
+ "name": "Ko-fi",
+ "site_url": "https://ko-fi.com",
+ "lastmod": "2026-06-03T19:13:56.058Z",
+ "extracted_at": "2026-06-03T19:13:56.054Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Warm café chalkboard on cream paper.",
+ "fonts": [
+  "bogue-black",
+  "DM Sans",
+  "Font Awesome 6 Pro",
+  "Font Awesome 6 Brands"
+ ],
+ "colors": [
+  {
+   "hex": "#e9dfd2",
+   "name": "Oat Cream"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Morning Fog"
+  },
+  {
+   "hex": "#202020",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "Sticker Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#aac9f7",
+   "name": "Kofi Blue"
+  },
+  {
+   "hex": "#72a4f2",
+   "name": "Cobalt Pop"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ce2e9e38-c3dd-4ba4-8855-4f7d9a447b6f.mp4",
+  "poster": "https://happyhands.cc/design-archive/ko-fi-35ae81e1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ko-fi-35ae81e1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ko-fi-35ae81e1/thumbnail.jpg"
+}

@@ -1,0 +1,3807 @@
+{
+ "generated_at": "2026-10-29T12:55:50+08:00",
+ "systems": [
+  {
+   "slug": "sodium",
+   "title": "Sodium",
+   "summary": "Sodium is compact and ruled, for infrastructure and data tools: white and warm near-black grounds, 1px rules for structure, mono capitals for every interface word, Int…",
+   "version": "",
+   "last_updated": "",
+   "foundations": [
+    {
+     "name": "Anti-slop",
+     "kind": "foundation",
+     "path": "sodium/foundations/anti-slop.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Borders and lines",
+     "kind": "foundation",
+     "path": "sodium/foundations/borders-and-lines.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Color",
+     "kind": "foundation",
+     "path": "sodium/foundations/color.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Elevation",
+     "kind": "foundation",
+     "path": "sodium/foundations/elevation.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Iconography",
+     "kind": "foundation",
+     "path": "sodium/foundations/iconography.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Motion",
+     "kind": "foundation",
+     "path": "sodium/foundations/motion.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Radius",
+     "kind": "foundation",
+     "path": "sodium/foundations/radius.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Space",
+     "kind": "foundation",
+     "path": "sodium/foundations/space.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Typography",
+     "kind": "foundation",
+     "path": "sodium/foundations/typography.md",
+     "install": "",
+     "import": ""
+    }
+   ],
+   "components": [
+    {
+     "name": "Activity",
+     "kind": "component",
+     "path": "sodium/components/activity.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/activity.json",
+     "import": "import {Activity, pastTense} from '@/components/sodium/ai/activity'"
+    },
+    {
+     "name": "Alert",
+     "kind": "component",
+     "path": "sodium/components/alert.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/alert.json",
+     "import": "import {Alert, AlertTitle, AlertDescription, AlertAction, AlertClose, alertVariants} from '@/components/sodium/ui/alert'"
+    },
+    {
+     "name": "Avatar",
+     "kind": "component",
+     "path": "sodium/components/avatar.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/avatar.json",
+     "import": "import {Avatar, AvatarImage, AvatarFallback, AvatarGroup, avatarVariants, initialsOf} from '@/components/sodium/ui/avatar'"
+    },
+    {
+     "name": "Bar blocks",
+     "kind": "component",
+     "path": "sodium/components/bar-blocks.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/bar-blocks.json",
+     "import": "import {BarBlocks, blockVariants} from '@/components/sodium/ui/bar-blocks'"
+    },
+    {
+     "name": "Breadcrumb",
+     "kind": "component",
+     "path": "sodium/components/breadcrumb.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/breadcrumb.json",
+     "import": "import {Breadcrumb, BreadcrumbList, BreadcrumbItem, BreadcrumbLink, BreadcrumbPage, BreadcrumbSeparator, BreadcrumbEllipsis, BreadcrumbValue, BreadcrumbTrail} from '@/components/sodium/ui/breadcrumb'"
+    },
+    {
+     "name": "Button group",
+     "kind": "component",
+     "path": "sodium/components/button-group.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/button-group.json",
+     "import": "import {ButtonGroup, ButtonGroupMenu, ButtonGroupSeparator, ButtonGroupText, buttonGroupVariants} from '@/components/sodium/ui/button-group'"
+    },
+    {
+     "name": "Button",
+     "kind": "component",
+     "path": "sodium/components/button.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/button.json",
+     "import": "import {Button, buttonVariants} from '@/components/sodium/ui/button'"
+    },
+    {
+     "name": "Chart",
+     "kind": "component",
+     "path": "sodium/components/chart.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/chart.json",
+     "import": "import {Chart, ChartFrame, ChartPlot, LineChart, ChartContainer, WithChart, useChart, useOptionalChart, useElementWidth, useElementDirection, useRovingPoints, useDrawn, seriesTone, ChartSwatch, ChartTooltip, ChartTooltipContent, ChartTooltipRow, ChartDataTable, ChartLegend, niceScale, tickCount, formatCompact, formatExact, unitFormat, numberAt, linearPath, stepPath, wipeStyle, drawStyle} from '@/components/sodium/ui/chart'"
+    },
+    {
+     "name": "Checkbox",
+     "kind": "component",
+     "path": "sodium/components/checkbox.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/checkbox.json",
+     "import": "import {Checkbox, CheckboxGroup} from '@/components/sodium/ui/checkbox'"
+    },
+    {
+     "name": "Code block",
+     "kind": "component",
+     "path": "sodium/components/code-block.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/code-block.json",
+     "import": "import {CodeBlock, TokenLine, WrapToggle, tokenize, parseLines, commandLines, maskSecret, gutterStyle, maxLinesStyle, matchClass, currentMatchClass, languageLabels} from '@/components/sodium/ui/code-block'"
+    },
+    {
+     "name": "Code window",
+     "kind": "component",
+     "path": "sodium/components/code-window.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/code-window.json",
+     "import": "import {CodeWindow} from '@/components/sodium/ui/code-window'"
+    },
+    {
+     "name": "Collapsible",
+     "kind": "component",
+     "path": "sodium/components/collapsible.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/collapsible.json",
+     "import": "import {Collapsible, CollapsibleGroup, CollapsibleTrigger, CollapsibleCaret, CollapsibleContent} from '@/components/sodium/ui/collapsible'"
+    },
+    {
+     "name": "Combobox",
+     "kind": "component",
+     "path": "sodium/components/combobox.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/combobox.json",
+     "import": "import {Combobox, ComboboxChip, ComboboxChips, ComboboxChipsInput, ComboboxClear, ComboboxCollection, ComboboxContent, ComboboxCreate, ComboboxEmpty, ComboboxField, ComboboxGroup, ComboboxInput, ComboboxItem, ComboboxLabel, ComboboxList, ComboboxSeparator, ComboboxTrigger, ComboboxValue, normalizeEmail, splitEmails, validateEmail, useComboboxAnchor} from '@/components/sodium/ui/combobox'"
+    },
+    {
+     "name": "Command",
+     "kind": "component",
+     "path": "sodium/components/command.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/command.json",
+     "import": "import {Command, CommandDialog, CommandInput, CommandList, CommandEmpty, CommandLoading, CommandGroup, CommandItem, CommandLabel, CommandShortcut, CommandSeparator, CommandFooter, CommandHint, useCommand} from '@/components/sodium/ui/command'"
+    },
+    {
+     "name": "Copy button",
+     "kind": "component",
+     "path": "sodium/components/copy-button.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/copy-button.json",
+     "import": "import {CopyButton} from '@/components/sodium/ui/copy-button'"
+    },
+    {
+     "name": "Data list",
+     "kind": "component",
+     "path": "sodium/components/data-list.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/data-list.json",
+     "import": "import {DataList, DataListItem, DataListLabel, DataListValue, DataListEmpty, dataListVariants} from '@/components/sodium/ui/data-list'"
+    },
+    {
+     "name": "Dialog",
+     "kind": "component",
+     "path": "sodium/components/dialog.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/dialog.json",
+     "import": "import {Dialog, DialogTrigger, DialogPortal, DialogOverlay, DialogContent, DialogHeader, DialogBody, DialogFooter, DialogTitle, DialogDescription, DialogClose, DialogAction, DialogConfirmField, dialogVariants, useDialog} from '@/components/sodium/ui/dialog'"
+    },
+    {
+     "name": "Dropdown menu",
+     "kind": "component",
+     "path": "sodium/components/dropdown-menu.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/dropdown-menu.json",
+     "import": "import {DropdownMenu, DropdownMenuPortal, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuGroup, DropdownMenuLabel, DropdownMenuItem, DropdownMenuLinkItem, DropdownMenuCheckboxItem, DropdownMenuRadioGroup, DropdownMenuRadioItem, DropdownMenuSeparator, DropdownMenuShortcut, DropdownMenuSub, DropdownMenuSubTrigger, DropdownMenuSubContent} from '@/components/sodium/ui/dropdown-menu'"
+    },
+    {
+     "name": "Empty state",
+     "kind": "component",
+     "path": "sodium/components/empty-state.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/empty-state.json",
+     "import": "import {Empty, EmptyIcon, EmptyHeader, EmptyTitle, EmptyDescription, EmptyContent, EmptyCode, EmptyRetry, emptyVariants} from '@/components/sodium/ui/empty-state'"
+    },
+    {
+     "name": "Field",
+     "kind": "component",
+     "path": "sodium/components/field.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/field.json",
+     "import": "import {Field, FieldContent, FieldDescription, FieldError, FieldGroup, FieldLabel, FieldLegend, FieldSeparator, FieldSet, FieldTitle, Form, FormActions, FormStatus, Label, LabelHint, labelClasses, useFieldDisabled} from '@/components/sodium/ui/field'"
+    },
+    {
+     "name": "Filter bar",
+     "kind": "component",
+     "path": "sodium/components/filter-bar.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/filter-bar.json",
+     "import": "import {FilterBar, FilterBarSearch, FilterToggle, FilterBarSelect, FilterBarClear, FilterBarCount, useFilteredRows} from '@/components/sodium/ui/filter-bar'"
+    },
+    {
+     "name": "Frame",
+     "kind": "component",
+     "path": "sodium/components/frame.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/frame.json",
+     "import": "import {Frame, FrameHeader, FrameTitle, FrameStatus, FrameValue, FrameActions, FrameBody, FrameDescription, FrameFooter, FrameMeta, frameVariants} from '@/components/sodium/ui/frame'"
+    },
+    {
+     "name": "Input",
+     "kind": "component",
+     "path": "sodium/components/input.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/input.json",
+     "import": "import {Input, InputAction, InputControl, InputLeading, InputPending, InputRoot, InputTrailing} from '@/components/sodium/ui/input'"
+    },
+    {
+     "name": "Item",
+     "kind": "component",
+     "path": "sodium/components/item.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/item.json",
+     "import": "import {Item, ItemGroup, ItemMedia, ItemContent, ItemTitle, ItemDescription, ItemMeta, ItemLink, ItemActions, itemVariants, itemGroupVariants} from '@/components/sodium/ui/item'"
+    },
+    {
+     "name": "JSON view",
+     "kind": "component",
+     "path": "sodium/components/json-view.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/json-view.json",
+     "import": "import {JsonView, pathOf} from '@/components/sodium/ui/json-view'"
+    },
+    {
+     "name": "Kbd",
+     "kind": "component",
+     "path": "sodium/components/kbd.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/kbd.json",
+     "import": "import {Kbd, KbdGroup, shortcut} from '@/components/sodium/ui/kbd'"
+    },
+    {
+     "name": "Log viewer",
+     "kind": "component",
+     "path": "sodium/components/log-viewer.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/log-viewer.json",
+     "import": "import {LogViewer} from '@/components/sodium/ui/log-viewer'"
+    },
+    {
+     "name": "Message",
+     "kind": "component",
+     "path": "sodium/components/message.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/message.json",
+     "import": "import {Message, MessageGroup, MessageDivider} from '@/components/sodium/ai/message'"
+    },
+    {
+     "name": "Meter",
+     "kind": "component",
+     "path": "sodium/components/meter.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/meter.json",
+     "import": "import {Meter, MeterLabel, MeterValue, MeterStack, meterStatus} from '@/components/sodium/ui/meter'"
+    },
+    {
+     "name": "Numbered tabs",
+     "kind": "component",
+     "path": "sodium/components/numbered-tabs.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/numbered-tabs.json",
+     "import": "import {NumberedTabs, NumberedTabsList, NumberedTabsTrigger, NumberedTabsContent, NumberedTabsPanels} from '@/components/sodium/ui/numbered-tabs'"
+    },
+    {
+     "name": "Pagination",
+     "kind": "component",
+     "path": "sodium/components/pagination.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/pagination.json",
+     "import": "import {Pagination, PaginationContent, PaginationItem, PaginationLink, PaginationPrevious, PaginationNext, PaginationEllipsis, PaginationInfo, PaginationNav, paginationRange} from '@/components/sodium/ui/pagination'"
+    },
+    {
+     "name": "Popover",
+     "kind": "component",
+     "path": "sodium/components/popover.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/popover.json",
+     "import": "import {Popover, PopoverTrigger, PopoverClose, PopoverContent, PopoverHeader, PopoverTitle, PopoverDescription, PopoverInfo} from '@/components/sodium/ui/popover'"
+    },
+    {
+     "name": "Progress",
+     "kind": "component",
+     "path": "sodium/components/progress.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/progress.json",
+     "import": "import {Progress, ProgressLabel, ProgressValue} from '@/components/sodium/ui/progress'"
+    },
+    {
+     "name": "Prompt input",
+     "kind": "component",
+     "path": "sodium/components/prompt-input.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/prompt-input.json",
+     "import": "import {PromptInput} from '@/components/sodium/ai/prompt-input'"
+    },
+    {
+     "name": "Radio group",
+     "kind": "component",
+     "path": "sodium/components/radio-group.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/radio-group.json",
+     "import": "import {RadioGroup, RadioGroupItem, RadioGroupOption} from '@/components/sodium/ui/radio-group'"
+    },
+    {
+     "name": "Response",
+     "kind": "component",
+     "path": "sodium/components/response.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/response.json",
+     "import": "import {Response, usePacedText, splitChunks, parseMarkdown, closeDangling, nextCut, paceStep, safeHref} from '@/components/sodium/ai/response'"
+    },
+    {
+     "name": "Segmented control",
+     "kind": "component",
+     "path": "sodium/components/segmented-control.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/segmented-control.json",
+     "import": "import {SegmentedControl, SegmentedControlItem, segmentedVariants} from '@/components/sodium/ui/segmented-control'"
+    },
+    {
+     "name": "Select",
+     "kind": "component",
+     "path": "sodium/components/select.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/select.json",
+     "import": "import {Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectScrollDownButton, SelectScrollUpButton, SelectSeparator, SelectTrigger, SelectValue, NativeSelect, fieldTriggerClass, fieldTriggerSize} from '@/components/sodium/ui/select'"
+    },
+    {
+     "name": "Sheet",
+     "kind": "component",
+     "path": "sodium/components/sheet.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/sheet.json",
+     "import": "import {Sheet, SheetTrigger, SheetClose, SheetPortal, SheetOverlay, SheetContent, SheetHeader, SheetBody, SheetFooter, SheetTitle, SheetDescription, SheetAction, SheetSection, SheetField, useSheet} from '@/components/sodium/ui/sheet'"
+    },
+    {
+     "name": "Skeleton",
+     "kind": "component",
+     "path": "sodium/components/skeleton.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/skeleton.json",
+     "import": "import {Skeleton, SkeletonText, SkeletonRows, SkeletonSwap} from '@/components/sodium/ui/skeleton'"
+    },
+    {
+     "name": "Slider",
+     "kind": "component",
+     "path": "sodium/components/slider.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/slider.json",
+     "import": "import {Slider} from '@/components/sodium/ui/slider'"
+    },
+    {
+     "name": "Status strip",
+     "kind": "component",
+     "path": "sodium/components/status-strip.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/status-strip.json",
+     "import": "import {StatusStrip, StatusStripCell, StatusStripLabel, StatusStripValue, StatusStripUnit, stripVariants} from '@/components/sodium/ui/status-strip'"
+    },
+    {
+     "name": "Status",
+     "kind": "component",
+     "path": "sodium/components/status.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/status.json",
+     "import": "import {Status, StatusMark, statusVariants, statuses, statusLabels, statusRank} from '@/components/sodium/ui/status'"
+    },
+    {
+     "name": "Stem chart",
+     "kind": "component",
+     "path": "sodium/components/stem-chart.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/stem-chart.json",
+     "import": "import {StemChart} from '@/components/sodium/ui/stem-chart'"
+    },
+    {
+     "name": "Swimlanes",
+     "kind": "component",
+     "path": "sodium/components/swimlanes.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/swimlanes.json",
+     "import": "import {Swimlanes, stepVariants} from '@/components/sodium/ui/swimlanes'"
+    },
+    {
+     "name": "Switch",
+     "kind": "component",
+     "path": "sodium/components/switch.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/switch.json",
+     "import": "import {Switch} from '@/components/sodium/ui/switch'"
+    },
+    {
+     "name": "Table",
+     "kind": "component",
+     "path": "sodium/components/table.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/table.json",
+     "import": "import {Table, TableHeader, TableBody, TableFooter, TableRow, TableHead, TableCell, TableCaption, TableEmpty, TableLoading, TableTitle, TableToolbar, TableSortButton, TableRowActions, TableRowAction, tableClassName, bodyClassName, rowClassName, headClassName, cellClassName} from '@/components/sodium/ui/table'"
+    },
+    {
+     "name": "Tabs",
+     "kind": "component",
+     "path": "sodium/components/tabs.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/tabs.json",
+     "import": "import {Tabs, TabsList, TabsTrigger, TabsContent, TabsCount, tabsListVariants, tabBase, useActiveInView} from '@/components/sodium/ui/tabs'"
+    },
+    {
+     "name": "Tag",
+     "kind": "component",
+     "path": "sodium/components/tag.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/tag.json",
+     "import": "import {Tag, tagVariants} from '@/components/sodium/ui/tag'"
+    },
+    {
+     "name": "Textarea",
+     "kind": "component",
+     "path": "sodium/components/textarea.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/textarea.json",
+     "import": "import {Textarea} from '@/components/sodium/ui/textarea'"
+    },
+    {
+     "name": "Toast",
+     "kind": "component",
+     "path": "sodium/components/toast.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/toast.json",
+     "import": "import {Toaster, toast, toastManager, readingTimeout} from '@/components/sodium/ui/toast'"
+    },
+    {
+     "name": "Tool-call row",
+     "kind": "component",
+     "path": "sodium/components/tool-call-row.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/tool-call-row.json",
+     "import": "import {ToolCallStack, ToolCallRow, formatElapsed, stepWords} from '@/components/sodium/ai/tool-call-row'"
+    },
+    {
+     "name": "Tool call",
+     "kind": "component",
+     "path": "sodium/components/tool-call.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/tool-call.json",
+     "import": "import {ToolCall, ToolCallList, toolCallsReducer, useToolCalls, registerTool, resolveTool, isTerminal, cleanOutput} from '@/components/sodium/ai/tool-call'"
+    },
+    {
+     "name": "Tooltip",
+     "kind": "component",
+     "path": "sodium/components/tooltip.md",
+     "install": "npx shadcn@latest add https://design.how/r/sodium/tooltip.json",
+     "import": "import {Tooltip, TooltipTrigger, TooltipContent, TooltipChip, TooltipProvider, TooltipShortcut, tooltipPopupClass, tooltipMotionClass} from '@/components/sodium/ui/tooltip'"
+    }
+   ],
+   "registry_items": [
+    {
+     "name": "button",
+     "type": "registry:ui",
+     "title": "Button"
+    },
+    {
+     "name": "button-group",
+     "type": "registry:ui",
+     "title": "Button group"
+    },
+    {
+     "name": "copy-button",
+     "type": "registry:ui",
+     "title": "Copy button"
+    },
+    {
+     "name": "field",
+     "type": "registry:ui",
+     "title": "Field"
+    },
+    {
+     "name": "input",
+     "type": "registry:ui",
+     "title": "Input"
+    },
+    {
+     "name": "textarea",
+     "type": "registry:ui",
+     "title": "Textarea"
+    },
+    {
+     "name": "select",
+     "type": "registry:ui",
+     "title": "Select"
+    },
+    {
+     "name": "combobox",
+     "type": "registry:ui",
+     "title": "Combobox"
+    },
+    {
+     "name": "overlay",
+     "type": "registry:lib",
+     "title": "Overlay"
+    },
+    {
+     "name": "checkbox",
+     "type": "registry:ui",
+     "title": "Checkbox"
+    },
+    {
+     "name": "radio-group",
+     "type": "registry:ui",
+     "title": "Radio group"
+    },
+    {
+     "name": "switch",
+     "type": "registry:ui",
+     "title": "Switch"
+    },
+    {
+     "name": "slider",
+     "type": "registry:ui",
+     "title": "Slider"
+    },
+    {
+     "name": "segmented-control",
+     "type": "registry:ui",
+     "title": "Segmented control"
+    },
+    {
+     "name": "tag",
+     "type": "registry:ui",
+     "title": "Tag"
+    },
+    {
+     "name": "status-strip",
+     "type": "registry:ui",
+     "title": "Status strip"
+    },
+    {
+     "name": "avatar",
+     "type": "registry:ui",
+     "title": "Avatar"
+    },
+    {
+     "name": "kbd",
+     "type": "registry:ui",
+     "title": "Kbd"
+    },
+    {
+     "name": "item",
+     "type": "registry:ui",
+     "title": "Item"
+    },
+    {
+     "name": "data-list",
+     "type": "registry:ui",
+     "title": "Data list"
+    },
+    {
+     "name": "status",
+     "type": "registry:ui",
+     "title": "Status"
+    },
+    {
+     "name": "meter",
+     "type": "registry:ui",
+     "title": "Meter"
+    },
+    {
+     "name": "progress",
+     "type": "registry:ui",
+     "title": "Progress"
+    },
+    {
+     "name": "alert",
+     "type": "registry:ui",
+     "title": "Alert"
+    },
+    {
+     "name": "toast",
+     "type": "registry:ui",
+     "title": "Toast"
+    },
+    {
+     "name": "empty-state",
+     "type": "registry:ui",
+     "title": "Empty state"
+    },
+    {
+     "name": "skeleton",
+     "type": "registry:ui",
+     "title": "Skeleton"
+    },
+    {
+     "name": "dialog",
+     "type": "registry:ui",
+     "title": "Dialog"
+    },
+    {
+     "name": "sheet",
+     "type": "registry:ui",
+     "title": "Sheet"
+    },
+    {
+     "name": "popover",
+     "type": "registry:ui",
+     "title": "Popover"
+    },
+    {
+     "name": "tooltip",
+     "type": "registry:ui",
+     "title": "Tooltip"
+    },
+    {
+     "name": "dropdown-menu",
+     "type": "registry:ui",
+     "title": "Dropdown menu"
+    },
+    {
+     "name": "command",
+     "type": "registry:ui",
+     "title": "Command"
+    },
+    {
+     "name": "tabs",
+     "type": "registry:ui",
+     "title": "Tabs"
+    },
+    {
+     "name": "numbered-tabs",
+     "type": "registry:ui",
+     "title": "Numbered tabs"
+    },
+    {
+     "name": "breadcrumb",
+     "type": "registry:ui",
+     "title": "Breadcrumb"
+    },
+    {
+     "name": "pagination",
+     "type": "registry:ui",
+     "title": "Pagination"
+    },
+    {
+     "name": "collapsible",
+     "type": "registry:ui",
+     "title": "Collapsible"
+    },
+    {
+     "name": "frame",
+     "type": "registry:ui",
+     "title": "Frame"
+    },
+    {
+     "name": "table",
+     "type": "registry:ui",
+     "title": "Table"
+    },
+    {
+     "name": "filter-bar",
+     "type": "registry:ui",
+     "title": "Filter bar"
+    },
+    {
+     "name": "code-block",
+     "type": "registry:ui",
+     "title": "Code block"
+    },
+    {
+     "name": "code-window",
+     "type": "registry:ui",
+     "title": "Code window"
+    },
+    {
+     "name": "json-view",
+     "type": "registry:ui",
+     "title": "JSON view"
+    },
+    {
+     "name": "log-viewer",
+     "type": "registry:ui",
+     "title": "Log viewer"
+    },
+    {
+     "name": "scroll",
+     "type": "registry:lib",
+     "title": "Scroll"
+    },
+    {
+     "name": "chart",
+     "type": "registry:ui",
+     "title": "Chart"
+    },
+    {
+     "name": "stem-chart",
+     "type": "registry:ui",
+     "title": "Stem chart"
+    },
+    {
+     "name": "swimlanes",
+     "type": "registry:ui",
+     "title": "Swimlanes"
+    },
+    {
+     "name": "bar-blocks",
+     "type": "registry:ui",
+     "title": "Bar blocks"
+    },
+    {
+     "name": "tool-call-row",
+     "type": "registry:component",
+     "title": "Tool-call row"
+    },
+    {
+     "name": "tool-call",
+     "type": "registry:component",
+     "title": "Tool call"
+    },
+    {
+     "name": "activity",
+     "type": "registry:component",
+     "title": "Activity"
+    },
+    {
+     "name": "prompt-input",
+     "type": "registry:component",
+     "title": "Prompt input"
+    },
+    {
+     "name": "message",
+     "type": "registry:component",
+     "title": "Message"
+    },
+    {
+     "name": "response",
+     "type": "registry:component",
+     "title": "Response"
+    },
+    {
+     "name": "use-timeline",
+     "type": "registry:hook",
+     "title": "useTimeline"
+    },
+    {
+     "name": "use-typing",
+     "type": "registry:hook",
+     "title": "useTyping"
+    },
+    {
+     "name": "use-scramble",
+     "type": "registry:hook",
+     "title": "useScramble"
+    },
+    {
+     "name": "use-draw",
+     "type": "registry:hook",
+     "title": "useDraw"
+    },
+    {
+     "name": "job-runs",
+     "type": "registry:block",
+     "title": "Job runs"
+    },
+    {
+     "name": "failed-load",
+     "type": "registry:block",
+     "title": "Failed load"
+    },
+    {
+     "name": "on-call",
+     "type": "registry:block",
+     "title": "On call"
+    },
+    {
+     "name": "run-progress",
+     "type": "registry:block",
+     "title": "Run progress"
+    },
+    {
+     "name": "warehouse-capacity",
+     "type": "registry:block",
+     "title": "Warehouse capacity"
+    },
+    {
+     "name": "sync-flow",
+     "type": "registry:block",
+     "title": "Sync flow"
+    },
+    {
+     "name": "pipeline-history",
+     "type": "registry:block",
+     "title": "Pipeline history"
+    },
+    {
+     "name": "utils",
+     "type": "registry:lib",
+     "title": "cn"
+    },
+    {
+     "name": "icon",
+     "type": "registry:component",
+     "title": "Icon"
+    },
+    {
+     "name": "portal",
+     "type": "registry:lib",
+     "title": "Portal"
+    },
+    {
+     "name": "direction",
+     "type": "registry:lib",
+     "title": "Direction"
+    },
+    {
+     "name": "lint",
+     "type": "registry:item",
+     "title": "Sodium lint"
+    },
+    {
+     "name": "theme",
+     "type": "registry:item",
+     "title": "Sodium theme"
+    },
+    {
+     "name": "skill",
+     "type": "registry:item",
+     "title": "Sodium skill"
+    }
+   ],
+   "src_files": [
+    "src/registry/sodium/.agents/SKILL.md",
+    "src/registry/sodium/SKILL.md",
+    "src/registry/sodium/ai/activity.tsx",
+    "src/registry/sodium/ai/message.tsx",
+    "src/registry/sodium/ai/prompt-input.tsx",
+    "src/registry/sodium/ai/response.tsx",
+    "src/registry/sodium/ai/tool-call-row.tsx",
+    "src/registry/sodium/ai/tool-call.tsx",
+    "src/registry/sodium/base.css",
+    "src/registry/sodium/blocks/failed-load.tsx",
+    "src/registry/sodium/blocks/job-runs.tsx",
+    "src/registry/sodium/blocks/on-call.tsx",
+    "src/registry/sodium/blocks/pipeline-history.tsx",
+    "src/registry/sodium/blocks/run-progress.tsx",
+    "src/registry/sodium/blocks/sync-flow.tsx",
+    "src/registry/sodium/blocks/warehouse-capacity.tsx",
+    "src/registry/sodium/hooks/use-draw.ts",
+    "src/registry/sodium/hooks/use-scramble.ts",
+    "src/registry/sodium/hooks/use-timeline.ts",
+    "src/registry/sodium/hooks/use-typing.ts",
+    "src/registry/sodium/icon.tsx",
+    "src/registry/sodium/lib/direction.ts",
+    "src/registry/sodium/lib/overlay.ts",
+    "src/registry/sodium/lib/portal.ts",
+    "src/registry/sodium/lib/scroll.ts",
+    "src/registry/sodium/lib/utils.ts",
+    "src/registry/sodium/lint/classes.json",
+    "src/registry/sodium/lint/core.mjs",
+    "src/registry/sodium/lint/eslint.config.mjs",
+    "src/registry/sodium/lint/plugin.mjs",
+    "src/registry/sodium/lint/value-rules.mjs",
+    "src/registry/sodium/styles.css",
+    "src/registry/sodium/tokens.css",
+    "src/registry/sodium/ui/alert.tsx",
+    "src/registry/sodium/ui/avatar.tsx",
+    "src/registry/sodium/ui/bar-blocks.tsx",
+    "src/registry/sodium/ui/breadcrumb.tsx",
+    "src/registry/sodium/ui/button-group.tsx",
+    "src/registry/sodium/ui/button.tsx",
+    "src/registry/sodium/ui/chart-parts.tsx",
+    "src/registry/sodium/ui/chart-scale.ts",
+    "src/registry/sodium/ui/chart.tsx",
+    "src/registry/sodium/ui/checkbox.tsx",
+    "src/registry/sodium/ui/code-block.tsx",
+    "src/registry/sodium/ui/code-window.tsx",
+    "src/registry/sodium/ui/collapsible.tsx",
+    "src/registry/sodium/ui/combobox.tsx",
+    "src/registry/sodium/ui/command.tsx",
+    "src/registry/sodium/ui/copy-button.tsx",
+    "src/registry/sodium/ui/data-list.tsx",
+    "src/registry/sodium/ui/dialog.tsx",
+    "src/registry/sodium/ui/dropdown-menu.tsx",
+    "src/registry/sodium/ui/empty-state.tsx",
+    "src/registry/sodium/ui/field.tsx",
+    "src/registry/sodium/ui/filter-bar.tsx",
+    "src/registry/sodium/ui/frame.tsx",
+    "src/registry/sodium/ui/input.tsx",
+    "src/registry/sodium/ui/item.tsx",
+    "src/registry/sodium/ui/json-view.tsx",
+    "src/registry/sodium/ui/kbd.tsx",
+    "src/registry/sodium/ui/log-viewer.tsx",
+    "src/registry/sodium/ui/meter.tsx",
+    "src/registry/sodium/ui/numbered-tabs.tsx",
+    "src/registry/sodium/ui/pagination.tsx",
+    "src/registry/sodium/ui/popover.tsx",
+    "src/registry/sodium/ui/progress.tsx",
+    "src/registry/sodium/ui/radio-group.tsx",
+    "src/registry/sodium/ui/running-mark.tsx",
+    "src/registry/sodium/ui/segmented-control.tsx",
+    "src/registry/sodium/ui/select.tsx",
+    "src/registry/sodium/ui/sheet.tsx",
+    "src/registry/sodium/ui/skeleton.tsx",
+    "src/registry/sodium/ui/slider.tsx",
+    "src/registry/sodium/ui/status-strip.tsx",
+    "src/registry/sodium/ui/status.tsx",
+    "src/registry/sodium/ui/stem-chart.tsx",
+    "src/registry/sodium/ui/swimlanes.tsx",
+    "src/registry/sodium/ui/switch.tsx",
+    "src/registry/sodium/ui/table.tsx",
+    "src/registry/sodium/ui/tabs.tsx",
+    "src/registry/sodium/ui/tag.tsx",
+    "src/registry/sodium/ui/textarea.tsx",
+    "src/registry/sodium/ui/toast.tsx",
+    "src/registry/sodium/ui/tooltip.tsx"
+   ]
+  },
+  {
+   "slug": "glaze",
+   "title": "Glaze",
+   "summary": "Glaze is compact black and white for AI products: ink and paper, greys as ink at alphas, colour only for status, and glass only on the one action a group leads with; i…",
+   "version": "",
+   "last_updated": "",
+   "foundations": [
+    {
+     "name": "Anti-slop",
+     "kind": "foundation",
+     "path": "glaze/foundations/anti-slop.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Borders and lines",
+     "kind": "foundation",
+     "path": "glaze/foundations/borders-and-lines.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Color",
+     "kind": "foundation",
+     "path": "glaze/foundations/color.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Elevation",
+     "kind": "foundation",
+     "path": "glaze/foundations/elevation.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Iconography",
+     "kind": "foundation",
+     "path": "glaze/foundations/iconography.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Motion",
+     "kind": "foundation",
+     "path": "glaze/foundations/motion.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Radius",
+     "kind": "foundation",
+     "path": "glaze/foundations/radius.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Space",
+     "kind": "foundation",
+     "path": "glaze/foundations/space.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Typography",
+     "kind": "foundation",
+     "path": "glaze/foundations/typography.md",
+     "install": "",
+     "import": ""
+    }
+   ],
+   "components": [
+    {
+     "name": "Action receipt",
+     "kind": "component",
+     "path": "glaze/components/action-receipt.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/action-receipt.json",
+     "import": "import {ActionReceipt} from '@/components/glaze/ai/action-receipt'"
+    },
+    {
+     "name": "Activity",
+     "kind": "component",
+     "path": "glaze/components/activity.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/activity.json",
+     "import": "import {Activity, ActivityText, ActivityArc, ActivityGroup, Disclosure, StepGlyph, pastTense, joinSummary, pickActivity, useAntiFlicker, useHeldPhrase, splitForce, formatElapsed, formatCount, MIN_DISPLAY, activityVariants, rowVariants} from '@/components/glaze/ai/activity'"
+    },
+    {
+     "name": "Alert",
+     "kind": "component",
+     "path": "glaze/components/alert.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/alert.json",
+     "import": "import {Alert, AlertTitle, AlertDescription, AlertAction, AlertClose, alertVariants} from '@/components/glaze/ui/alert'"
+    },
+    {
+     "name": "Attachment",
+     "kind": "component",
+     "path": "glaze/components/attachment.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/attachment.json",
+     "import": "import {Attachment, AttachmentMedia, AttachmentContent, AttachmentTitle, AttachmentDescription, AttachmentProgress, AttachmentActions, AttachmentAction, AttachmentGroup, AttachmentGlyph, AttachmentDrop, AttachmentDropTitle, AttachmentDropDescription, AttachmentDropTrigger, useAttachmentDrop, fileGlyph, formatBytes, formatByteProgress, rejectionReason, describeAccept, attachmentVariants} from '@/components/glaze/ui/attachment'"
+    },
+    {
+     "name": "Autonomy rule",
+     "kind": "component",
+     "path": "glaze/components/autonomy-rule.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/autonomy-rule.json",
+     "import": "import {AutonomyRule} from '@/components/glaze/ai/autonomy-rule'"
+    },
+    {
+     "name": "Avatar",
+     "kind": "component",
+     "path": "glaze/components/avatar.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/avatar.json",
+     "import": "import {Avatar, AvatarImage, AvatarFallback, AvatarGroup, AvatarGroupCount, avatarVariants, initialsOf} from '@/components/glaze/ui/avatar'"
+    },
+    {
+     "name": "Badge",
+     "kind": "component",
+     "path": "glaze/components/badge.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/badge.json",
+     "import": "import {Badge, badgeVariants} from '@/components/glaze/ui/badge'"
+    },
+    {
+     "name": "Breadcrumb",
+     "kind": "component",
+     "path": "glaze/components/breadcrumb.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/breadcrumb.json",
+     "import": "import {Breadcrumb, BreadcrumbList, BreadcrumbItem, BreadcrumbLink, BreadcrumbPage, BreadcrumbSeparator, BreadcrumbEllipsis, BreadcrumbId, BreadcrumbTrail} from '@/components/glaze/ui/breadcrumb'"
+    },
+    {
+     "name": "Bulk action bar",
+     "kind": "component",
+     "path": "glaze/components/bulk-action-bar.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/bulk-action-bar.json",
+     "import": "import {BulkActionBar, BulkAction} from '@/components/glaze/ui/bulk-action-bar'"
+    },
+    {
+     "name": "Button group",
+     "kind": "component",
+     "path": "glaze/components/button-group.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/button-group.json",
+     "import": "import {ButtonGroup, ButtonGroupMenu, ButtonGroupSeparator, ButtonGroupText, buttonGroupVariants} from '@/components/glaze/ui/button-group'"
+    },
+    {
+     "name": "Button",
+     "kind": "component",
+     "path": "glaze/components/button.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/button.json",
+     "import": "import {Button, buttonVariants} from '@/components/glaze/ui/button'"
+    },
+    {
+     "name": "Card",
+     "kind": "component",
+     "path": "glaze/components/card.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/card.json",
+     "import": "import {Card, CardHeader, CardTitle, CardDescription, CardAction, CardContent, CardFooter, CardMeta, CardLink} from '@/components/glaze/ui/card'"
+    },
+    {
+     "name": "Chart",
+     "kind": "component",
+     "path": "glaze/components/chart.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/chart.json",
+     "import": "import {Chart, unitFormat, ChartContainer, ChartPlot, ChartSwatch, WithChart, useChart, useOptionalChart, useElementWidth, useElementDirection, useRovingPoints, seriesTone, seriesClass, niceScale, formatCompact, numberAt, ChartTooltip, ChartTooltipContent, ChartTooltipRow, ChartDataTable, ChartLegend, chartLegendVariants, LineChart, monotonePath, linearPath, stepPath, BarChart, Sparkline, sparklineVariants, StatusBar, statusBarVariants, ChartFrame} from '@/components/glaze/ui/chart'"
+    },
+    {
+     "name": "Checkbox",
+     "kind": "component",
+     "path": "glaze/components/checkbox.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/checkbox.json",
+     "import": "import {Checkbox, CheckboxGroup} from '@/components/glaze/ui/checkbox'"
+    },
+    {
+     "name": "Chip",
+     "kind": "component",
+     "path": "glaze/components/chip.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/chip.json",
+     "import": "import {Chip, ChipCount, ChipGroup, chipVariants, chipToggleClasses, chipValueClasses, chipRemoveClasses} from '@/components/glaze/ui/chip'"
+    },
+    {
+     "name": "Code block",
+     "kind": "component",
+     "path": "glaze/components/code-block.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/code-block.json",
+     "import": "import {CodeBlock, CopyCodeButton, TokenLine, tokenize, parseLines, commandLines, maskSecret, matchClass, currentMatchClass, languageLabels} from '@/components/glaze/ui/code-block'"
+    },
+    {
+     "name": "Collapsible",
+     "kind": "component",
+     "path": "glaze/components/collapsible.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/collapsible.json",
+     "import": "import {Collapsible, CollapsibleGroup, CollapsibleTrigger, CollapsibleCaret, CollapsibleContent} from '@/components/glaze/ui/collapsible'"
+    },
+    {
+     "name": "Combobox",
+     "kind": "component",
+     "path": "glaze/components/combobox.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/combobox.json",
+     "import": "import {Combobox, ComboboxChip, ComboboxChips, ComboboxChipsInput, ComboboxClear, ComboboxCollection, ComboboxContent, ComboboxCreate, ComboboxEmpty, ComboboxField, ComboboxGroup, ComboboxInput, ComboboxItem, ComboboxLabel, ComboboxList, ComboboxSeparator, ComboboxTrigger, ComboboxValue, normalizeEmail, splitEmails, validateEmail, useComboboxAnchor} from '@/components/glaze/ui/combobox'"
+    },
+    {
+     "name": "Command",
+     "kind": "component",
+     "path": "glaze/components/command.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/command.json",
+     "import": "import {Command, CommandDialog, CommandInput, CommandList, CommandEmpty, CommandLoading, CommandGroup, CommandItem, CommandLabel, CommandShortcut, CommandSeparator, CommandFooter, CommandHint, useCommand} from '@/components/glaze/ui/command'"
+    },
+    {
+     "name": "Conversation",
+     "kind": "component",
+     "path": "glaze/components/conversation.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/conversation.json",
+     "import": "import {Conversation, ConversationProvider, ConversationViewport, ConversationContent, ConversationItem, ConversationTail, ConversationJump, ConversationTimeline, ConversationRetry, ConversationError, useConversation, useStickToBottom, useStableRows, useCountdown, STICK, REATTACH} from '@/components/glaze/ai/conversation'"
+    },
+    {
+     "name": "Copy button",
+     "kind": "component",
+     "path": "glaze/components/copy-button.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/copy-button.json",
+     "import": "import {CopyButton} from '@/components/glaze/ui/copy-button'"
+    },
+    {
+     "name": "Data grid",
+     "kind": "component",
+     "path": "glaze/components/data-grid.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/data-grid.json",
+     "import": "import {DataGrid, DataGridColumnHeader, DataGridColumnsMenu, selectColumn, severitySort, statusSeverity} from '@/components/glaze/ui/data-grid'"
+    },
+    {
+     "name": "Data list",
+     "kind": "component",
+     "path": "glaze/components/data-list.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/data-list.json",
+     "import": "import {DataList, DataListItem, DataListLabel, DataListValue, DataListEmpty, dataListVariants} from '@/components/glaze/ui/data-list'"
+    },
+    {
+     "name": "Date picker",
+     "kind": "component",
+     "path": "glaze/components/date-picker.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/date-picker.json",
+     "import": "import {Calendar, DatePicker, TimeField, addDays, addMonths, daysBetween, formatTime, parseTime} from '@/components/glaze/ui/date-picker'"
+    },
+    {
+     "name": "Dialog",
+     "kind": "component",
+     "path": "glaze/components/dialog.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/dialog.json",
+     "import": "import {Dialog, DialogTrigger, DialogPortal, DialogOverlay, DialogContent, DialogHeader, DialogBody, DialogFooter, DialogTitle, DialogDescription, DialogClose, DialogAction, DialogConfirmField, dialogVariants, useDialogFootSlot, useDialog} from '@/components/glaze/ui/dialog'"
+    },
+    {
+     "name": "Dropdown menu",
+     "kind": "component",
+     "path": "glaze/components/dropdown-menu.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/dropdown-menu.json",
+     "import": "import {DropdownMenu, DropdownMenuPortal, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuGroup, DropdownMenuLabel, DropdownMenuItem, DropdownMenuLinkItem, DropdownMenuCheckboxItem, DropdownMenuRadioGroup, DropdownMenuRadioItem, DropdownMenuSeparator, DropdownMenuShortcut, DropdownMenuSub, DropdownMenuSubTrigger, DropdownMenuSubContent} from '@/components/glaze/ui/dropdown-menu'"
+    },
+    {
+     "name": "Empty state",
+     "kind": "component",
+     "path": "glaze/components/empty-state.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/empty-state.json",
+     "import": "import {Empty, EmptyHeader, EmptyTitle, EmptyDescription, EmptyContent, EmptyCode, EmptyRetry, emptyVariants} from '@/components/glaze/ui/empty-state'"
+    },
+    {
+     "name": "Field",
+     "kind": "component",
+     "path": "glaze/components/field.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/field.json",
+     "import": "import {Field, FieldContent, FieldDescription, FieldError, FieldGroup, FieldLabel, FieldLegend, FieldSeparator, FieldSet, FieldTitle, Form, FormActions, FormStatus, Label, LabelHint, labelClasses, useFieldDisabled} from '@/components/glaze/ui/field'"
+    },
+    {
+     "name": "Filter bar",
+     "kind": "component",
+     "path": "glaze/components/filter-bar.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/filter-bar.json",
+     "import": "import {FilterBar, FilterBarSearch, FilterBarChips, FilterChip, FilterToggle, FilterBarSelect, FilterBarAdd, FilterBarClear, FilterBarCount, useFilteredRows} from '@/components/glaze/ui/filter-bar'"
+    },
+    {
+     "name": "Follow-ups",
+     "kind": "component",
+     "path": "glaze/components/follow-ups.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/follow-ups.json",
+     "import": "import {FollowUps, followUpVariants} from '@/components/glaze/ai/follow-ups'"
+    },
+    {
+     "name": "Input",
+     "kind": "component",
+     "path": "glaze/components/input.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/input.json",
+     "import": "import {Input, InputAction, InputControl, InputLeading, InputRoot, InputTrailing} from '@/components/glaze/ui/input'"
+    },
+    {
+     "name": "Item",
+     "kind": "component",
+     "path": "glaze/components/item.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/item.json",
+     "import": "import {Item, ItemGroup, ItemMedia, ItemContent, ItemTitle, ItemDescription, ItemMeta, ItemLink, ItemActions, itemVariants, itemGroupVariants} from '@/components/glaze/ui/item'"
+    },
+    {
+     "name": "JSON view",
+     "kind": "component",
+     "path": "glaze/components/json-view.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/json-view.json",
+     "import": "import {JsonView, pathOf} from '@/components/glaze/ui/json-view'"
+    },
+    {
+     "name": "Kbd",
+     "kind": "component",
+     "path": "glaze/components/kbd.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/kbd.json",
+     "import": "import {Kbd, KbdGroup, shortcut} from '@/components/glaze/ui/kbd'"
+    },
+    {
+     "name": "Log viewer",
+     "kind": "component",
+     "path": "glaze/components/log-viewer.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/log-viewer.json",
+     "import": "import {LogViewer} from '@/components/glaze/ui/log-viewer'"
+    },
+    {
+     "name": "Mention",
+     "kind": "component",
+     "path": "glaze/components/mention.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/mention.json",
+     "import": "import {Mention, mentionVariants, mentionTypeLabels, mentionToText, encodeMentionId, parseMentions, uniqueLabel} from '@/components/glaze/ai/mention'"
+    },
+    {
+     "name": "Message",
+     "kind": "component",
+     "path": "glaze/components/message.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/message.json",
+     "import": "import {MessageGroup, Message, AgentTurn, MessageContent, MessageHeader, MessageMeta, MessageTime, MessageModel, MessageStatus, MessageFooter, MessageWorked, MessageBubble, MessageBubbleContent, MessageReactions, MessageSendState, MessageDivider, messageVariants, bubbleVariants, dividerVariants} from '@/components/glaze/ai/message'"
+    },
+    {
+     "name": "Number input",
+     "kind": "component",
+     "path": "glaze/components/number-input.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/number-input.json",
+     "import": "import {NumberInput} from '@/components/glaze/ui/number-input'"
+    },
+    {
+     "name": "OTP input",
+     "kind": "component",
+     "path": "glaze/components/otp-input.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/otp-input.json",
+     "import": "import {OtpInput} from '@/components/glaze/ui/otp-input'"
+    },
+    {
+     "name": "Pagination",
+     "kind": "component",
+     "path": "glaze/components/pagination.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/pagination.json",
+     "import": "import {Pagination, PaginationContent, PaginationItem, PaginationLink, PaginationPrevious, PaginationNext, PaginationEllipsis, PaginationInfo, PaginationNav, paginationRange} from '@/components/glaze/ui/pagination'"
+    },
+    {
+     "name": "Panel",
+     "kind": "component",
+     "path": "glaze/components/panel.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/panel.json",
+     "import": "import {Panel, panelVariants} from '@/components/glaze/ui/panel'"
+    },
+    {
+     "name": "Popover",
+     "kind": "component",
+     "path": "glaze/components/popover.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/popover.json",
+     "import": "import {Popover, PopoverTrigger, PopoverClose, PopoverContent, PopoverHeader, PopoverTitle, PopoverDescription, PopoverInfo} from '@/components/glaze/ui/popover'"
+    },
+    {
+     "name": "Progress",
+     "kind": "component",
+     "path": "glaze/components/progress.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/progress.json",
+     "import": "import {Progress, ProgressLabel, ProgressValue, meterStatus} from '@/components/glaze/ui/progress'"
+    },
+    {
+     "name": "Prompt input",
+     "kind": "component",
+     "path": "glaze/components/prompt-input.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/prompt-input.json",
+     "import": "import {PromptInput, PromptInputModel, PromptAttachment, PromptQueue, PromptInputMic, serializePrompt, acceptsFile} from '@/components/glaze/ai/prompt-input'"
+    },
+    {
+     "name": "Radio group",
+     "kind": "component",
+     "path": "glaze/components/radio-group.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/radio-group.json",
+     "import": "import {RadioGroup, RadioGroupItem, RadioGroupOption} from '@/components/glaze/ui/radio-group'"
+    },
+    {
+     "name": "Reasoning",
+     "kind": "component",
+     "path": "glaze/components/reasoning.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/reasoning.json",
+     "import": "import {Reasoning, ReasoningTrigger, ReasoningContent, reasoningHeading} from '@/components/glaze/ai/reasoning'"
+    },
+    {
+     "name": "Relative time",
+     "kind": "component",
+     "path": "glaze/components/relative-time.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/relative-time.json",
+     "import": "import {RelativeTime, formatRelative, untilChange} from '@/components/glaze/ui/relative-time'"
+    },
+    {
+     "name": "Response",
+     "kind": "component",
+     "path": "glaze/components/response.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/response.json",
+     "import": "import {Response, usePacedText, splitChunks, parseMarkdown, resolveTag, viableLength, completeJsonEnd, closeJson, nextCut, paceStep, safeHref, responseVariants} from '@/components/glaze/ai/response'"
+    },
+    {
+     "name": "Segmented control",
+     "kind": "component",
+     "path": "glaze/components/segmented-control.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/segmented-control.json",
+     "import": "import {SegmentedControl, SegmentedControlItem, segmentedVariants} from '@/components/glaze/ui/segmented-control'"
+    },
+    {
+     "name": "Select",
+     "kind": "component",
+     "path": "glaze/components/select.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/select.json",
+     "import": "import {Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectScrollDownButton, SelectScrollUpButton, SelectSeparator, SelectTrigger, SelectValue, NativeSelect, fieldTriggerClass, fieldTriggerSize} from '@/components/glaze/ui/select'"
+    },
+    {
+     "name": "Send button",
+     "kind": "component",
+     "path": "glaze/components/send-button.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/send-button.json",
+     "import": "import {SendButton} from '@/components/glaze/ai/send-button'"
+    },
+    {
+     "name": "Sheet",
+     "kind": "component",
+     "path": "glaze/components/sheet.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/sheet.json",
+     "import": "import {Sheet, SheetTrigger, SheetClose, SheetPortal, SheetOverlay, SheetContent, SheetHeader, SheetBody, SheetFooter, SheetTitle, SheetDescription, SheetAction, SheetSection, SheetField, useSheet} from '@/components/glaze/ui/sheet'"
+    },
+    {
+     "name": "Skeleton",
+     "kind": "component",
+     "path": "glaze/components/skeleton.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/skeleton.json",
+     "import": "import {Skeleton, SkeletonText, SkeletonSwap} from '@/components/glaze/ui/skeleton'"
+    },
+    {
+     "name": "Slider",
+     "kind": "component",
+     "path": "glaze/components/slider.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/slider.json",
+     "import": "import {Slider} from '@/components/glaze/ui/slider'"
+    },
+    {
+     "name": "Status",
+     "kind": "component",
+     "path": "glaze/components/status.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/status.json",
+     "import": "import {Status, StatusMark, statusVariants, statusGlyph, statuses, statusLabels, statusRank} from '@/components/glaze/ui/status'"
+    },
+    {
+     "name": "Steps",
+     "kind": "component",
+     "path": "glaze/components/steps.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/steps.json",
+     "import": "import {Steps, Step, StepTrigger, StepIndicator, StepText, StepTitle, StepDescription, StepSeparator} from '@/components/glaze/ui/steps'"
+    },
+    {
+     "name": "Switch",
+     "kind": "component",
+     "path": "glaze/components/switch.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/switch.json",
+     "import": "import {Switch} from '@/components/glaze/ui/switch'"
+    },
+    {
+     "name": "Table",
+     "kind": "component",
+     "path": "glaze/components/table.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/table.json",
+     "import": "import {Table, TableHeader, TableBody, TableFooter, TableRow, TableHead, TableCell, TableCaption, TableEmpty, TableLoading, TableTitle, TableToolbar, TableFrameBox, TableSortButton, TableRowActions, TableRowAction, TableRowActionsMenu, TableRowActionsItem, TableRowActionsSeparator, tableClassName, bodyClassName, rowClassName, headClassName, cellClassName} from '@/components/glaze/ui/table'"
+    },
+    {
+     "name": "Tabs",
+     "kind": "component",
+     "path": "glaze/components/tabs.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/tabs.json",
+     "import": "import {Tabs, TabsList, TabsTrigger, TabsContent, TabsCount, tabsListVariants} from '@/components/glaze/ui/tabs'"
+    },
+    {
+     "name": "Textarea",
+     "kind": "component",
+     "path": "glaze/components/textarea.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/textarea.json",
+     "import": "import {Textarea} from '@/components/glaze/ui/textarea'"
+    },
+    {
+     "name": "Timeline",
+     "kind": "component",
+     "path": "glaze/components/timeline.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/timeline.json",
+     "import": "import {Timeline} from '@/components/glaze/ui/timeline'"
+    },
+    {
+     "name": "Toast",
+     "kind": "component",
+     "path": "glaze/components/toast.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/toast.json",
+     "import": "import {Toaster, toast, toastManager, readingTimeout} from '@/components/glaze/ui/toast'"
+    },
+    {
+     "name": "Tool call",
+     "kind": "component",
+     "path": "glaze/components/tool-call.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/tool-call.json",
+     "import": "import {ToolCall, ToolCallGroup, ToolCallList, CappedOutput, DiffCount, toolCallsReducer, useToolCalls, groupToolCalls, registerTool, resolveTool, summarizeToolCalls, toolActivity, toolLabel, formatDuration, cleanOutput, isTerminal} from '@/components/glaze/ai/tool-call'"
+    },
+    {
+     "name": "Toolbar",
+     "kind": "component",
+     "path": "glaze/components/toolbar.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/toolbar.json",
+     "import": "import {Toolbar, ToolbarGroup, ToolbarButton, ToolbarToggle, ToolbarSeparator} from '@/components/glaze/ui/toolbar'"
+    },
+    {
+     "name": "Tooltip",
+     "kind": "component",
+     "path": "glaze/components/tooltip.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/tooltip.json",
+     "import": "import {Tooltip, TooltipTrigger, TooltipContent, TooltipChip, TooltipProvider, TooltipShortcut, tooltipPopupClass, tooltipMotionClass} from '@/components/glaze/ui/tooltip'"
+    },
+    {
+     "name": "Truncate",
+     "kind": "component",
+     "path": "glaze/components/truncate.md",
+     "install": "npx shadcn@latest add https://design.how/r/glaze/truncate.json",
+     "import": "import {Truncate, TextHint, textHintClass, splitTail} from '@/components/glaze/ui/truncate'"
+    }
+   ],
+   "registry_items": [
+    {
+     "name": "button",
+     "type": "registry:ui",
+     "title": "Button"
+    },
+    {
+     "name": "toolbar",
+     "type": "registry:ui",
+     "title": "Toolbar"
+    },
+    {
+     "name": "field",
+     "type": "registry:ui",
+     "title": "Field"
+    },
+    {
+     "name": "input",
+     "type": "registry:ui",
+     "title": "Input"
+    },
+    {
+     "name": "textarea",
+     "type": "registry:ui",
+     "title": "Textarea"
+    },
+    {
+     "name": "chip",
+     "type": "registry:ui",
+     "title": "Chip"
+    },
+    {
+     "name": "checkbox",
+     "type": "registry:ui",
+     "title": "Checkbox"
+    },
+    {
+     "name": "radio-group",
+     "type": "registry:ui",
+     "title": "Radio group"
+    },
+    {
+     "name": "switch",
+     "type": "registry:ui",
+     "title": "Switch"
+    },
+    {
+     "name": "slider",
+     "type": "registry:ui",
+     "title": "Slider"
+    },
+    {
+     "name": "segmented-control",
+     "type": "registry:ui",
+     "title": "Segmented control"
+    },
+    {
+     "name": "kbd",
+     "type": "registry:ui",
+     "title": "Kbd"
+    },
+    {
+     "name": "copy-button",
+     "type": "registry:ui",
+     "title": "Copy button"
+    },
+    {
+     "name": "button-group",
+     "type": "registry:ui",
+     "title": "Button group"
+    },
+    {
+     "name": "select",
+     "type": "registry:ui",
+     "title": "Select"
+    },
+    {
+     "name": "combobox",
+     "type": "registry:ui",
+     "title": "Combobox"
+    },
+    {
+     "name": "date-picker",
+     "type": "registry:ui",
+     "title": "Date picker"
+    },
+    {
+     "name": "number-input",
+     "type": "registry:ui",
+     "title": "Number input"
+    },
+    {
+     "name": "otp-input",
+     "type": "registry:ui",
+     "title": "OTP input"
+    },
+    {
+     "name": "filter-bar",
+     "type": "registry:ui",
+     "title": "Filter bar"
+    },
+    {
+     "name": "card",
+     "type": "registry:ui",
+     "title": "Card"
+    },
+    {
+     "name": "panel",
+     "type": "registry:ui",
+     "title": "Panel"
+    },
+    {
+     "name": "badge",
+     "type": "registry:ui",
+     "title": "Badge"
+    },
+    {
+     "name": "status",
+     "type": "registry:ui",
+     "title": "Status"
+    },
+    {
+     "name": "avatar",
+     "type": "registry:ui",
+     "title": "Avatar"
+    },
+    {
+     "name": "item",
+     "type": "registry:ui",
+     "title": "Item"
+    },
+    {
+     "name": "data-list",
+     "type": "registry:ui",
+     "title": "Data list"
+    },
+    {
+     "name": "truncate",
+     "type": "registry:ui",
+     "title": "Truncate"
+    },
+    {
+     "name": "skeleton",
+     "type": "registry:ui",
+     "title": "Skeleton"
+    },
+    {
+     "name": "progress",
+     "type": "registry:ui",
+     "title": "Progress"
+    },
+    {
+     "name": "empty-state",
+     "type": "registry:ui",
+     "title": "Empty state"
+    },
+    {
+     "name": "alert",
+     "type": "registry:ui",
+     "title": "Alert"
+    },
+    {
+     "name": "relative-time",
+     "type": "registry:ui",
+     "title": "Relative time"
+    },
+    {
+     "name": "code-block",
+     "type": "registry:ui",
+     "title": "Code block"
+    },
+    {
+     "name": "json-view",
+     "type": "registry:ui",
+     "title": "JSON view"
+    },
+    {
+     "name": "attachment",
+     "type": "registry:ui",
+     "title": "Attachment"
+    },
+    {
+     "name": "dialog",
+     "type": "registry:ui",
+     "title": "Dialog"
+    },
+    {
+     "name": "sheet",
+     "type": "registry:ui",
+     "title": "Sheet"
+    },
+    {
+     "name": "popover",
+     "type": "registry:ui",
+     "title": "Popover"
+    },
+    {
+     "name": "tooltip",
+     "type": "registry:ui",
+     "title": "Tooltip"
+    },
+    {
+     "name": "dropdown-menu",
+     "type": "registry:ui",
+     "title": "Dropdown menu"
+    },
+    {
+     "name": "command",
+     "type": "registry:ui",
+     "title": "Command"
+    },
+    {
+     "name": "toast",
+     "type": "registry:ui",
+     "title": "Toast"
+    },
+    {
+     "name": "collapsible",
+     "type": "registry:ui",
+     "title": "Collapsible"
+    },
+    {
+     "name": "overlay",
+     "type": "registry:lib",
+     "title": "Overlay"
+    },
+    {
+     "name": "children",
+     "type": "registry:lib",
+     "title": "Children"
+    },
+    {
+     "name": "tabs",
+     "type": "registry:ui",
+     "title": "Tabs"
+    },
+    {
+     "name": "breadcrumb",
+     "type": "registry:ui",
+     "title": "Breadcrumb"
+    },
+    {
+     "name": "steps",
+     "type": "registry:ui",
+     "title": "Steps"
+    },
+    {
+     "name": "table",
+     "type": "registry:ui",
+     "title": "Table"
+    },
+    {
+     "name": "data-grid",
+     "type": "registry:ui",
+     "title": "Data grid"
+    },
+    {
+     "name": "pagination",
+     "type": "registry:ui",
+     "title": "Pagination"
+    },
+    {
+     "name": "bulk-action-bar",
+     "type": "registry:ui",
+     "title": "Bulk action bar"
+    },
+    {
+     "name": "chart",
+     "type": "registry:ui",
+     "title": "Chart"
+    },
+    {
+     "name": "timeline",
+     "type": "registry:ui",
+     "title": "Timeline"
+    },
+    {
+     "name": "log-viewer",
+     "type": "registry:ui",
+     "title": "Log viewer"
+    },
+    {
+     "name": "data-units",
+     "type": "registry:lib",
+     "title": "Data units"
+    },
+    {
+     "name": "prompt-input",
+     "type": "registry:component",
+     "title": "Prompt input"
+    },
+    {
+     "name": "send-button",
+     "type": "registry:component",
+     "title": "Send button"
+    },
+    {
+     "name": "mention",
+     "type": "registry:component",
+     "title": "Mention"
+    },
+    {
+     "name": "message",
+     "type": "registry:component",
+     "title": "Message"
+    },
+    {
+     "name": "conversation",
+     "type": "registry:component",
+     "title": "Conversation"
+    },
+    {
+     "name": "response",
+     "type": "registry:component",
+     "title": "Response"
+    },
+    {
+     "name": "reasoning",
+     "type": "registry:component",
+     "title": "Reasoning"
+    },
+    {
+     "name": "tool-call",
+     "type": "registry:component",
+     "title": "Tool call"
+    },
+    {
+     "name": "activity",
+     "type": "registry:component",
+     "title": "Activity"
+    },
+    {
+     "name": "follow-ups",
+     "type": "registry:component",
+     "title": "Follow-ups"
+    },
+    {
+     "name": "action-receipt",
+     "type": "registry:component",
+     "title": "Action receipt"
+    },
+    {
+     "name": "autonomy-rule",
+     "type": "registry:component",
+     "title": "Autonomy rule"
+    },
+    {
+     "name": "today",
+     "type": "registry:block",
+     "title": "Today"
+    },
+    {
+     "name": "voice-capture",
+     "type": "registry:block",
+     "title": "Voice capture"
+    },
+    {
+     "name": "note-recap",
+     "type": "registry:block",
+     "title": "Note recap"
+    },
+    {
+     "name": "booking-approval",
+     "type": "registry:block",
+     "title": "Booking approval"
+    },
+    {
+     "name": "assistant-limits",
+     "type": "registry:block",
+     "title": "Assistant limits"
+    },
+    {
+     "name": "conversation-insights",
+     "type": "registry:block",
+     "title": "Conversation insights"
+    },
+    {
+     "name": "cited-answer",
+     "type": "registry:block",
+     "title": "Cited answer"
+    },
+    {
+     "name": "agent-plan",
+     "type": "registry:block",
+     "title": "Agent plan"
+    },
+    {
+     "name": "agent-procedure",
+     "type": "registry:block",
+     "title": "Agent procedure"
+    },
+    {
+     "name": "simulations",
+     "type": "registry:block",
+     "title": "Simulations"
+    },
+    {
+     "name": "experiment",
+     "type": "registry:block",
+     "title": "Experiment"
+    },
+    {
+     "name": "utils",
+     "type": "registry:lib",
+     "title": "cn"
+    },
+    {
+     "name": "icon",
+     "type": "registry:component",
+     "title": "Icon"
+    },
+    {
+     "name": "portal",
+     "type": "registry:lib",
+     "title": "Portal"
+    },
+    {
+     "name": "direction",
+     "type": "registry:lib",
+     "title": "Direction"
+    },
+    {
+     "name": "lint",
+     "type": "registry:item",
+     "title": "Glaze lint"
+    },
+    {
+     "name": "theme",
+     "type": "registry:item",
+     "title": "Glaze theme"
+    },
+    {
+     "name": "skill",
+     "type": "registry:item",
+     "title": "Glaze skill"
+    }
+   ],
+   "src_files": [
+    "src/registry/glaze/.agents/SKILL.md",
+    "src/registry/glaze/SKILL.md",
+    "src/registry/glaze/ai/action-receipt.tsx",
+    "src/registry/glaze/ai/activity.tsx",
+    "src/registry/glaze/ai/autonomy-rule.tsx",
+    "src/registry/glaze/ai/conversation.tsx",
+    "src/registry/glaze/ai/follow-ups.tsx",
+    "src/registry/glaze/ai/mention.tsx",
+    "src/registry/glaze/ai/message.tsx",
+    "src/registry/glaze/ai/prompt-input.tsx",
+    "src/registry/glaze/ai/prompt-input/attachment.tsx",
+    "src/registry/glaze/ai/prompt-input/caret.ts",
+    "src/registry/glaze/ai/prompt-input/codec.ts",
+    "src/registry/glaze/ai/prompt-input/menu.tsx",
+    "src/registry/glaze/ai/prompt-input/mic.tsx",
+    "src/registry/glaze/ai/prompt-queue.tsx",
+    "src/registry/glaze/ai/reasoning.tsx",
+    "src/registry/glaze/ai/request-ticker.tsx",
+    "src/registry/glaze/ai/response.tsx",
+    "src/registry/glaze/ai/send-button.tsx",
+    "src/registry/glaze/ai/tool-call.tsx",
+    "src/registry/glaze/base.css",
+    "src/registry/glaze/blocks/agent-plan.tsx",
+    "src/registry/glaze/blocks/agent-procedure.tsx",
+    "src/registry/glaze/blocks/assistant-limits.tsx",
+    "src/registry/glaze/blocks/booking-approval.tsx",
+    "src/registry/glaze/blocks/cited-answer.tsx",
+    "src/registry/glaze/blocks/conversation-insights.tsx",
+    "src/registry/glaze/blocks/experiment.tsx",
+    "src/registry/glaze/blocks/note-recap.tsx",
+    "src/registry/glaze/blocks/simulations.tsx",
+    "src/registry/glaze/blocks/today.tsx",
+    "src/registry/glaze/blocks/voice-capture.tsx",
+    "src/registry/glaze/icon.tsx",
+    "src/registry/glaze/lib/children.ts",
+    "src/registry/glaze/lib/data.ts",
+    "src/registry/glaze/lib/direction.ts",
+    "src/registry/glaze/lib/overlay.ts",
+    "src/registry/glaze/lib/portal.ts",
+    "src/registry/glaze/lib/utils.ts",
+    "src/registry/glaze/lint/classes.json",
+    "src/registry/glaze/lint/core.mjs",
+    "src/registry/glaze/lint/eslint.config.mjs",
+    "src/registry/glaze/lint/plugin.mjs",
+    "src/registry/glaze/lint/value-rules.mjs",
+    "src/registry/glaze/styles.css",
+    "src/registry/glaze/tokens.css",
+    "src/registry/glaze/ui/alert.tsx",
+    "src/registry/glaze/ui/attachment.tsx",
+    "src/registry/glaze/ui/avatar.tsx",
+    "src/registry/glaze/ui/badge.tsx",
+    "src/registry/glaze/ui/breadcrumb.tsx",
+    "src/registry/glaze/ui/bulk-action-bar.tsx",
+    "src/registry/glaze/ui/button-group.tsx",
+    "src/registry/glaze/ui/button.tsx",
+    "src/registry/glaze/ui/card.tsx",
+    "src/registry/glaze/ui/chart-parts.tsx",
+    "src/registry/glaze/ui/chart-plot.tsx",
+    "src/registry/glaze/ui/chart-scale.ts",
+    "src/registry/glaze/ui/chart-strip.tsx",
+    "src/registry/glaze/ui/chart.tsx",
+    "src/registry/glaze/ui/checkbox.tsx",
+    "src/registry/glaze/ui/chip.tsx",
+    "src/registry/glaze/ui/code-block.tsx",
+    "src/registry/glaze/ui/collapsible.tsx",
+    "src/registry/glaze/ui/combobox.tsx",
+    "src/registry/glaze/ui/command.tsx",
+    "src/registry/glaze/ui/copy-button.tsx",
+    "src/registry/glaze/ui/data-grid.tsx",
+    "src/registry/glaze/ui/data-list.tsx",
+    "src/registry/glaze/ui/date-picker.tsx",
+    "src/registry/glaze/ui/dialog.tsx",
+    "src/registry/glaze/ui/dropdown-menu.tsx",
+    "src/registry/glaze/ui/empty-state.tsx",
+    "src/registry/glaze/ui/field.tsx",
+    "src/registry/glaze/ui/filter-bar.tsx",
+    "src/registry/glaze/ui/input.tsx",
+    "src/registry/glaze/ui/item.tsx",
+    "src/registry/glaze/ui/json-view.tsx",
+    "src/registry/glaze/ui/kbd.tsx",
+    "src/registry/glaze/ui/log-viewer.tsx",
+    "src/registry/glaze/ui/number-input.tsx",
+    "src/registry/glaze/ui/otp-input.tsx",
+    "src/registry/glaze/ui/pagination.tsx",
+    "src/registry/glaze/ui/panel.tsx",
+    "src/registry/glaze/ui/popover.tsx",
+    "src/registry/glaze/ui/progress.tsx",
+    "src/registry/glaze/ui/radio-group.tsx",
+    "src/registry/glaze/ui/relative-time.tsx",
+    "src/registry/glaze/ui/segmented-control.tsx",
+    "src/registry/glaze/ui/select.tsx",
+    "src/registry/glaze/ui/sheet.tsx",
+    "src/registry/glaze/ui/skeleton.tsx",
+    "src/registry/glaze/ui/slider.tsx",
+    "src/registry/glaze/ui/status.tsx",
+    "src/registry/glaze/ui/steps.tsx",
+    "src/registry/glaze/ui/switch.tsx",
+    "src/registry/glaze/ui/table.tsx",
+    "src/registry/glaze/ui/tabs.tsx",
+    "src/registry/glaze/ui/textarea.tsx",
+    "src/registry/glaze/ui/timeline.tsx",
+    "src/registry/glaze/ui/toast.tsx",
+    "src/registry/glaze/ui/toolbar.tsx",
+    "src/registry/glaze/ui/tooltip.tsx",
+    "src/registry/glaze/ui/truncate.tsx"
+   ]
+  },
+  {
+   "slug": "quartz",
+   "title": "Quartz",
+   "summary": "Black and white chassis with five muted kind hues and warm trouble colors, for AI support products and agent consoles.",
+   "version": "",
+   "last_updated": "",
+   "foundations": [
+    {
+     "name": "Anti-slop",
+     "kind": "foundation",
+     "path": "quartz/foundations/anti-slop.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Borders and lines",
+     "kind": "foundation",
+     "path": "quartz/foundations/borders-and-lines.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Color",
+     "kind": "foundation",
+     "path": "quartz/foundations/color.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Elevation",
+     "kind": "foundation",
+     "path": "quartz/foundations/elevation.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Grid",
+     "kind": "foundation",
+     "path": "quartz/foundations/grid.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Iconography",
+     "kind": "foundation",
+     "path": "quartz/foundations/iconography.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Motion",
+     "kind": "foundation",
+     "path": "quartz/foundations/motion.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Radius",
+     "kind": "foundation",
+     "path": "quartz/foundations/radius.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Space",
+     "kind": "foundation",
+     "path": "quartz/foundations/space.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Typography",
+     "kind": "foundation",
+     "path": "quartz/foundations/typography.md",
+     "install": "",
+     "import": ""
+    }
+   ],
+   "components": [
+    {
+     "name": "Activity",
+     "kind": "component",
+     "path": "quartz/components/activity.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/activity.json",
+     "import": "import {Activity, ActivityText, ActivityGroup, Disclosure, StepGlyph, pastTense, joinSummary, pickActivity, useAntiFlicker, useHeldPhrase, MIN_DISPLAY, activityVariants, rowVariants} from '@/components/quartz/ai/activity'"
+    },
+    {
+     "name": "Alert",
+     "kind": "component",
+     "path": "quartz/components/alert.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/alert.json",
+     "import": "import {Alert, AlertTitle, AlertDescription, AlertAction, AlertClose, alertVariants} from '@/components/quartz/ui/alert'"
+    },
+    {
+     "name": "Attachment",
+     "kind": "component",
+     "path": "quartz/components/attachment.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/attachment.json",
+     "import": "import {Attachment, AttachmentGroup, AttachmentMedia, AttachmentContent, AttachmentTitle, AttachmentDescription, AttachmentProgress, AttachmentActions, AttachmentAction, AttachmentTrigger, AttachmentGlyph, AttachmentDrop, AttachmentDropIcon, AttachmentDropTitle, AttachmentDropDescription, AttachmentDropTrigger, AttachmentTile, attachmentVariants, attachmentDropVariants, attachmentTileVariants, fileGlyph, formatBytes, formatProgress, rejectionReason, acceptTokens, dragVerdict, describeAccept, useAttachmentDrop} from '@/components/quartz/ui/attachment'"
+    },
+    {
+     "name": "Avatar",
+     "kind": "component",
+     "path": "quartz/components/avatar.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/avatar.json",
+     "import": "import {Avatar, AvatarImage, AvatarFallback, AvatarBadge, AvatarInitials, AvatarGroup, AvatarGroupCount, avatarVariants, initialsOf} from '@/components/quartz/ui/avatar'"
+    },
+    {
+     "name": "Badge",
+     "kind": "component",
+     "path": "quartz/components/badge.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/badge.json",
+     "import": "import {Badge, badgeVariants, CodeTag, codeStatus, codeTone, kindLabels} from '@/components/quartz/ui/badge'"
+    },
+    {
+     "name": "Breadcrumb",
+     "kind": "component",
+     "path": "quartz/components/breadcrumb.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/breadcrumb.json",
+     "import": "import {Breadcrumb, BreadcrumbList, BreadcrumbItem, BreadcrumbLink, BreadcrumbPage, BreadcrumbSeparator, BreadcrumbEllipsis, BreadcrumbId, BreadcrumbTrail} from '@/components/quartz/ui/breadcrumb'"
+    },
+    {
+     "name": "Button group",
+     "kind": "component",
+     "path": "quartz/components/button-group.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/button-group.json",
+     "import": "import {ButtonGroup, ButtonGroupMenu, ButtonGroupMenuGroup, ButtonGroupMenuItem, ButtonGroupMenuSeparator, ButtonGroupSeparator, ButtonGroupText, buttonGroupVariants} from '@/components/quartz/ui/button-group'"
+    },
+    {
+     "name": "Button",
+     "kind": "component",
+     "path": "quartz/components/button.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/button.json",
+     "import": "import {Button, ButtonSize, buttonVariants, useNameCheck} from '@/components/quartz/ui/button'"
+    },
+    {
+     "name": "Card",
+     "kind": "component",
+     "path": "quartz/components/card.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/card.json",
+     "import": "import {Card, CardHeader, CardTrigger, CardFooter, CardTitle, CardMeta, CardAction, CardDescription, CardContent, cardVariants} from '@/components/quartz/ui/card'"
+    },
+    {
+     "name": "Chart",
+     "kind": "component",
+     "path": "quartz/components/chart.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/chart.json",
+     "import": "import {Chart, unitFormat, ChartContainer, ChartPlot, ChartSwatch, WithChart, useChart, useOptionalChart, useElementWidth, useElementDirection, useRovingPoints, seriesTone, inkSteps, niceScale, formatCompact, numberAt, ChartTooltip, ChartTooltipContent, ChartTooltipRow, ChartDataTable, ChartLegend, chartLegendVariants, LineChart, monotonePath, linearPath, stepPath, BarChart, Sparkline, sparklineVariants, StatusBar, statusBarVariants, ChartFrame, chartFrameVariants} from '@/components/quartz/ui/chart'"
+    },
+    {
+     "name": "Checkbox",
+     "kind": "component",
+     "path": "quartz/components/checkbox.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/checkbox.json",
+     "import": "import {Checkbox, CheckboxGroup} from '@/components/quartz/ui/checkbox'"
+    },
+    {
+     "name": "Chip",
+     "kind": "component",
+     "path": "quartz/components/chip.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/chip.json",
+     "import": "import {Chip, ChipButton, ChipCount, ChipGroup, ChipGroupContext, chipVariants} from '@/components/quartz/ui/chip'"
+    },
+    {
+     "name": "Code block",
+     "kind": "component",
+     "path": "quartz/components/code-block.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/code-block.json",
+     "import": "import {CodeBlock, Code, CopyCodeButton, MaskedKey, TokenLine, tokenize, parseLines, commandLines, codeVariants, refClass, matchClass, currentMatchClass, languageLabels} from '@/components/quartz/ui/code-block'"
+    },
+    {
+     "name": "Collapsible",
+     "kind": "component",
+     "path": "quartz/components/collapsible.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/collapsible.json",
+     "import": "import {Collapsible, CollapsibleGroup, CollapsibleTrigger, CollapsibleCaret, CollapsibleContent} from '@/components/quartz/ui/collapsible'"
+    },
+    {
+     "name": "Combobox",
+     "kind": "component",
+     "path": "quartz/components/combobox.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/combobox.json",
+     "import": "import {Combobox, ComboboxChip, ComboboxChips, ComboboxChipsInput, ComboboxClear, ComboboxCollection, ComboboxContent, ComboboxCreate, ComboboxEmpty, ComboboxField, ComboboxGroup, ComboboxInput, ComboboxItem, ComboboxLabel, ComboboxList, ComboboxSeparator, ComboboxTrigger, ComboboxValue, normalizeEmail, splitEmails, useComboboxAnchor, validateEmail} from '@/components/quartz/ui/combobox'"
+    },
+    {
+     "name": "Command",
+     "kind": "component",
+     "path": "quartz/components/command.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/command.json",
+     "import": "import {Command, CommandDialog, CommandInput, CommandList, CommandEmpty, CommandLoading, CommandGroup, CommandItem, CommandLabel, CommandShortcut, CommandSeparator, CommandFooter, CommandHint, useCommand} from '@/components/quartz/ui/command'"
+    },
+    {
+     "name": "Conversation",
+     "kind": "component",
+     "path": "quartz/components/conversation.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/conversation.json",
+     "import": "import {Conversation, ConversationProvider, ConversationViewport, ConversationContent, ConversationItem, ConversationTail, ConversationJump, ConversationTimeline, ConversationRetry, ConversationError, useConversation, useStickToBottom, useStableRows, useCountdown, STICK, REATTACH} from '@/components/quartz/ai/conversation'"
+    },
+    {
+     "name": "Copy button",
+     "kind": "component",
+     "path": "quartz/components/copy-button.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/copy-button.json",
+     "import": "import {CopyButton} from '@/components/quartz/ui/copy-button'"
+    },
+    {
+     "name": "Data grid",
+     "kind": "component",
+     "path": "quartz/components/data-grid.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/data-grid.json",
+     "import": "import {DataGrid, DataGridTable, DataGridHeader, DataGridBody, DataGridRow, DataGridHead, DataGridCell, DataGridHelp, useDataGrid, formatCellValue, parseCellValue} from '@/components/quartz/ui/data-grid'"
+    },
+    {
+     "name": "Data list",
+     "kind": "component",
+     "path": "quartz/components/data-list.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/data-list.json",
+     "import": "import {DataList, DataListItem, DataListLabel, DataListValue, DataListEmpty, dataListVariants} from '@/components/quartz/ui/data-list'"
+    },
+    {
+     "name": "Date picker",
+     "kind": "component",
+     "path": "quartz/components/date-picker.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/date-picker.json",
+     "import": "import {Calendar, DatePicker, TimeField, addDays, addMonths, daysBetween, formatTime, parseTime} from '@/components/quartz/ui/date-picker'"
+    },
+    {
+     "name": "Dialog",
+     "kind": "component",
+     "path": "quartz/components/dialog.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/dialog.json",
+     "import": "import {Dialog, DialogTrigger, DialogPortal, DialogOverlay, DialogContent, DialogHeader, DialogBody, DialogFooter, DialogTitle, DialogDescription, DialogClose, DialogAction, DialogConfirmField, dialogVariants, dialogSurface, useDialog} from '@/components/quartz/ui/dialog'"
+    },
+    {
+     "name": "Dropdown menu",
+     "kind": "component",
+     "path": "quartz/components/dropdown-menu.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/dropdown-menu.json",
+     "import": "import {DropdownMenu, DropdownMenuPortal, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuGroup, DropdownMenuLabel, DropdownMenuItem, DropdownMenuLinkItem, DropdownMenuCheckboxItem, DropdownMenuRadioGroup, DropdownMenuRadioItem, DropdownMenuSeparator, DropdownMenuShortcut, DropdownMenuSub, DropdownMenuSubTrigger, DropdownMenuSubContent, menuPopupClass, menuItemClass, menuCheckItemClass, menuLabelClass, menuSeparatorClass, menuShortcutClass} from '@/components/quartz/ui/dropdown-menu'"
+    },
+    {
+     "name": "Empty state",
+     "kind": "component",
+     "path": "quartz/components/empty-state.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/empty-state.json",
+     "import": "import {Empty, EmptyHeader, EmptyMedia, EmptyTitle, EmptyDescription, EmptyContent, EmptyStatus, EmptyCode, EmptyQuery, EmptyRetry, emptyVariants} from '@/components/quartz/ui/empty-state'"
+    },
+    {
+     "name": "Field",
+     "kind": "component",
+     "path": "quartz/components/field.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/field.json",
+     "import": "import {Field, FieldContent, FieldDescription, FieldError, FieldGroup, FieldLabel, FieldLegend, FieldSeparator, FieldSet, FieldTitle, Form, FormActions, FormStatus, Label, LabelHint, fieldBoxVariants, fieldControlVariants, labelClasses, useFieldDisabled} from '@/components/quartz/ui/field'"
+    },
+    {
+     "name": "Filter bar",
+     "kind": "component",
+     "path": "quartz/components/filter-bar.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/filter-bar.json",
+     "import": "import {FilterBar, FilterBarSearch, FilterBarChips, FilterChip, FilterToggle, FilterBarSelect, FilterBarAdd, FilterBarClear, FilterBarCount, useFilteredRows} from '@/components/quartz/ui/filter-bar'"
+    },
+    {
+     "name": "Input",
+     "kind": "component",
+     "path": "quartz/components/input.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/input.json",
+     "import": "import {Input, InputAction, InputControl, InputPrefix, InputRoot, InputSuffix, autoStep, generatePassword, maskSecret} from '@/components/quartz/ui/input'"
+    },
+    {
+     "name": "Item",
+     "kind": "component",
+     "path": "quartz/components/item.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/item.json",
+     "import": "import {Item, ItemMedia, ItemContent, ItemActions, ItemLink, ItemGroup, ItemSeparator, ItemTitle, ItemDescription, ItemMeta, ItemStatus, ItemHeader, ItemFooter, itemVariants} from '@/components/quartz/ui/item'"
+    },
+    {
+     "name": "JSON view",
+     "kind": "component",
+     "path": "quartz/components/json-view.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/json-view.json",
+     "import": "import {JsonView, pathOf} from '@/components/quartz/ui/json-view'"
+    },
+    {
+     "name": "Kbd",
+     "kind": "component",
+     "path": "quartz/components/kbd.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/kbd.json",
+     "import": "import {Kbd, KbdGroup, shortcut} from '@/components/quartz/ui/kbd'"
+    },
+    {
+     "name": "Log viewer",
+     "kind": "component",
+     "path": "quartz/components/log-viewer.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/log-viewer.json",
+     "import": "import {LogViewer} from '@/components/quartz/ui/log-viewer'"
+    },
+    {
+     "name": "Message",
+     "kind": "component",
+     "path": "quartz/components/message.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/message.json",
+     "import": "import {MessageGroup, Message, AgentTurn, MessageAvatar, MessageAgentAvatar, MessageContent, MessageHeader, MessageMeta, MessageTime, MessageModel, MessageStatus, MessageFooter, MessageWorked, MessageBubble, MessageBubbleContent, MessageReactions, MessageSendState, MessageDivider, MessageDividerIcon, messageVariants, bubbleVariants, dividerVariants} from '@/components/quartz/ai/message'"
+    },
+    {
+     "name": "Pagination",
+     "kind": "component",
+     "path": "quartz/components/pagination.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/pagination.json",
+     "import": "import {Pagination, PaginationContent, PaginationEllipsis, PaginationItem, PaginationLink, PaginationNext, PaginationPrevious, PaginationInfo, PaginationNav, paginationRange} from '@/components/quartz/ui/pagination'"
+    },
+    {
+     "name": "Panel",
+     "kind": "component",
+     "path": "quartz/components/panel.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/panel.json",
+     "import": "import {Panel, PanelHeader, PanelTitle, PanelMeta, PanelAction, PanelBody, PanelFooter} from '@/components/quartz/ui/panel'"
+    },
+    {
+     "name": "Popover",
+     "kind": "component",
+     "path": "quartz/components/popover.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/popover.json",
+     "import": "import {Popover, PopoverTrigger, PopoverClose, PopoverContent, PopoverHeader, PopoverTitle, PopoverDescription, PopoverInfo} from '@/components/quartz/ui/popover'"
+    },
+    {
+     "name": "Progress",
+     "kind": "component",
+     "path": "quartz/components/progress.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/progress.json",
+     "import": "import {Progress, ProgressLabel, ProgressValue, ProgressRing, ProgressSteps, ProgressStep, ProgressStepTrigger, ProgressStepIndicator, ProgressStepTitle, ProgressStepDescription, ProgressStepText, ProgressStepSeparator, ProgressItem, ProgressList, meterStatus} from '@/components/quartz/ui/progress'"
+    },
+    {
+     "name": "Prompt input",
+     "kind": "component",
+     "path": "quartz/components/prompt-input.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/prompt-input.json",
+     "import": "import {PromptInput, PromptInputModel, PromptAttachment, PromptQueue, PromptInputMic, serializePrompt, acceptsFile} from '@/components/quartz/ai/prompt-input'"
+    },
+    {
+     "name": "Radio group",
+     "kind": "component",
+     "path": "quartz/components/radio-group.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/radio-group.json",
+     "import": "import {RadioGroup, RadioGroupItem, RadioGroupOption} from '@/components/quartz/ui/radio-group'"
+    },
+    {
+     "name": "Reasoning",
+     "kind": "component",
+     "path": "quartz/components/reasoning.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/reasoning.json",
+     "import": "import {Reasoning, ReasoningTrigger, ReasoningContent, reasoningHeading} from '@/components/quartz/ai/reasoning'"
+    },
+    {
+     "name": "Relative time",
+     "kind": "component",
+     "path": "quartz/components/relative-time.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/relative-time.json",
+     "import": "import {RelativeTime, formatRelative, untilChange} from '@/components/quartz/ui/relative-time'"
+    },
+    {
+     "name": "Response",
+     "kind": "component",
+     "path": "quartz/components/response.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/response.json",
+     "import": "import {Response, usePacedText, splitChunks, parseMarkdown, resolveTag, viableLength, completeJsonEnd, closeJson, nextCut, paceStep, safeHref, responseVariants} from '@/components/quartz/ai/response'"
+    },
+    {
+     "name": "Segmented control",
+     "kind": "component",
+     "path": "quartz/components/segmented-control.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/segmented-control.json",
+     "import": "import {SegmentedControl, SegmentedControlItem, segmentedVariants} from '@/components/quartz/ui/segmented-control'"
+    },
+    {
+     "name": "Select",
+     "kind": "component",
+     "path": "quartz/components/select.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/select.json",
+     "import": "import {NativeSelect, NativeSelectOptGroup, NativeSelectOption, Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectScrollDownButton, SelectScrollUpButton, SelectSeparator, SelectTrigger, SelectValue, listPopupClassName, listItemClassName, listGroupLabelClassName, listSeparatorClassName, fieldTriggerClassName} from '@/components/quartz/ui/select'"
+    },
+    {
+     "name": "Sheet",
+     "kind": "component",
+     "path": "quartz/components/sheet.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/sheet.json",
+     "import": "import {Sheet, SheetTrigger, SheetClose, SheetPortal, SheetOverlay, SheetContent, SheetHeader, SheetBody, SheetFooter, SheetTitle, SheetDescription, SheetAction, SheetSection, SheetField, useSheet, useScrollFade, fadeClass} from '@/components/quartz/ui/sheet'"
+    },
+    {
+     "name": "Skeleton",
+     "kind": "component",
+     "path": "quartz/components/skeleton.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/skeleton.json",
+     "import": "import {Skeleton, SkeletonText, SkeletonSwap} from '@/components/quartz/ui/skeleton'"
+    },
+    {
+     "name": "Slider",
+     "kind": "component",
+     "path": "quartz/components/slider.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/slider.json",
+     "import": "import {Slider} from '@/components/quartz/ui/slider'"
+    },
+    {
+     "name": "Stat",
+     "kind": "component",
+     "path": "quartz/components/stat.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/stat.json",
+     "import": "import {Stat, StatGroup, StatLabel, StatValue, StatUnit, StatDelta, StatDescription, StatTrend, StatRow, statVariants, deltaOf} from '@/components/quartz/ui/stat'"
+    },
+    {
+     "name": "Status",
+     "kind": "component",
+     "path": "quartz/components/status.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/status.json",
+     "import": "import {Status, StatusArc, InkSlot, inkSlotVariants, statuses, statusLabels, statusRank, statusWordVariants} from '@/components/quartz/ui/status'"
+    },
+    {
+     "name": "Switch",
+     "kind": "component",
+     "path": "quartz/components/switch.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/switch.json",
+     "import": "import {Switch} from '@/components/quartz/ui/switch'"
+    },
+    {
+     "name": "Table",
+     "kind": "component",
+     "path": "quartz/components/table.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/table.json",
+     "import": "import {Table, TableHeader, TableBody, TableFooter, TableHead, TableRow, TableCell, TableCaption, TableEmpty, TableFrameHeader, TableToolbar, tableFrameClassName, tableRowClassName, TableRowActions, TableRowAction, TableRowActionsMenu, TableRowActionsItem, TableRowActionsSeparator, DataTable, DataTableCheckbox, DataTableColumnHeader, DataTableColumnsMenu, selectColumn, severitySort, statusSeverity, useWindowedRows} from '@/components/quartz/ui/table'"
+    },
+    {
+     "name": "Tabs",
+     "kind": "component",
+     "path": "quartz/components/tabs.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/tabs.json",
+     "import": "import {Tabs, TabsList, TabsTrigger, TabsContent, TabsCount, tabsListVariants} from '@/components/quartz/ui/tabs'"
+    },
+    {
+     "name": "Textarea",
+     "kind": "component",
+     "path": "quartz/components/textarea.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/textarea.json",
+     "import": "import {Textarea} from '@/components/quartz/ui/textarea'"
+    },
+    {
+     "name": "Timeline",
+     "kind": "component",
+     "path": "quartz/components/timeline.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/timeline.json",
+     "import": "import {Timeline} from '@/components/quartz/ui/timeline'"
+    },
+    {
+     "name": "Toast",
+     "kind": "component",
+     "path": "quartz/components/toast.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/toast.json",
+     "import": "import {Toaster, toast, toastManager, readingTimeout} from '@/components/quartz/ui/toast'"
+    },
+    {
+     "name": "Tool call",
+     "kind": "component",
+     "path": "quartz/components/tool-call.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/tool-call.json",
+     "import": "import {splitForce, ToolCall, ToolCallGroup, ToolCallList, CappedOutput, DiffCount, toolCallsReducer, useToolCalls, groupToolCalls, registerTool, resolveTool, summarizeToolCalls, toolActivity, toolLabel, formatDuration, cleanOutput, isTerminal} from '@/components/quartz/ai/tool-call'"
+    },
+    {
+     "name": "Tooltip",
+     "kind": "component",
+     "path": "quartz/components/tooltip.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/tooltip.json",
+     "import": "import {Tooltip, TooltipTrigger, TooltipContent, TooltipChip, TooltipProvider, TooltipShortcut, tooltipPopupClass, tooltipMotionClass} from '@/components/quartz/ui/tooltip'"
+    },
+    {
+     "name": "Truncate",
+     "kind": "component",
+     "path": "quartz/components/truncate.md",
+     "install": "npx shadcn@latest add https://design.how/r/quartz/truncate.json",
+     "import": "import {Truncate, TextHint, textHintClass, splitTail} from '@/components/quartz/ui/truncate'"
+    }
+   ],
+   "registry_items": [
+    {
+     "name": "button",
+     "type": "registry:ui",
+     "title": "Button"
+    },
+    {
+     "name": "button-group",
+     "type": "registry:ui",
+     "title": "Button group"
+    },
+    {
+     "name": "copy-button",
+     "type": "registry:ui",
+     "title": "Copy button"
+    },
+    {
+     "name": "input",
+     "type": "registry:ui",
+     "title": "Input"
+    },
+    {
+     "name": "textarea",
+     "type": "registry:ui",
+     "title": "Textarea"
+    },
+    {
+     "name": "field",
+     "type": "registry:ui",
+     "title": "Field"
+    },
+    {
+     "name": "date-picker",
+     "type": "registry:ui",
+     "title": "Date picker"
+    },
+    {
+     "name": "combobox",
+     "type": "registry:ui",
+     "title": "Combobox"
+    },
+    {
+     "name": "checkbox",
+     "type": "registry:ui",
+     "title": "Checkbox"
+    },
+    {
+     "name": "radio-group",
+     "type": "registry:ui",
+     "title": "Radio group"
+    },
+    {
+     "name": "switch",
+     "type": "registry:ui",
+     "title": "Switch"
+    },
+    {
+     "name": "slider",
+     "type": "registry:ui",
+     "title": "Slider"
+    },
+    {
+     "name": "select",
+     "type": "registry:ui",
+     "title": "Select"
+    },
+    {
+     "name": "segmented-control",
+     "type": "registry:ui",
+     "title": "Segmented control"
+    },
+    {
+     "name": "badge",
+     "type": "registry:ui",
+     "title": "Badge"
+    },
+    {
+     "name": "chip",
+     "type": "registry:ui",
+     "title": "Chip"
+    },
+    {
+     "name": "status",
+     "type": "registry:ui",
+     "title": "Status"
+    },
+    {
+     "name": "stat",
+     "type": "registry:ui",
+     "title": "Stat"
+    },
+    {
+     "name": "avatar",
+     "type": "registry:ui",
+     "title": "Avatar"
+    },
+    {
+     "name": "kbd",
+     "type": "registry:ui",
+     "title": "Kbd"
+    },
+    {
+     "name": "relative-time",
+     "type": "registry:ui",
+     "title": "Relative time"
+    },
+    {
+     "name": "truncate",
+     "type": "registry:ui",
+     "title": "Truncate"
+    },
+    {
+     "name": "item",
+     "type": "registry:ui",
+     "title": "Item"
+    },
+    {
+     "name": "card",
+     "type": "registry:ui",
+     "title": "Card"
+    },
+    {
+     "name": "panel",
+     "type": "registry:ui",
+     "title": "Panel"
+    },
+    {
+     "name": "data-list",
+     "type": "registry:ui",
+     "title": "Data list"
+    },
+    {
+     "name": "alert",
+     "type": "registry:ui",
+     "title": "Alert"
+    },
+    {
+     "name": "toast",
+     "type": "registry:ui",
+     "title": "Toast"
+    },
+    {
+     "name": "empty-state",
+     "type": "registry:ui",
+     "title": "Empty state"
+    },
+    {
+     "name": "skeleton",
+     "type": "registry:ui",
+     "title": "Skeleton"
+    },
+    {
+     "name": "progress",
+     "type": "registry:ui",
+     "title": "Progress"
+    },
+    {
+     "name": "dialog",
+     "type": "registry:ui",
+     "title": "Dialog"
+    },
+    {
+     "name": "sheet",
+     "type": "registry:ui",
+     "title": "Sheet"
+    },
+    {
+     "name": "popover",
+     "type": "registry:ui",
+     "title": "Popover"
+    },
+    {
+     "name": "tooltip",
+     "type": "registry:ui",
+     "title": "Tooltip"
+    },
+    {
+     "name": "dropdown-menu",
+     "type": "registry:ui",
+     "title": "Dropdown menu"
+    },
+    {
+     "name": "command",
+     "type": "registry:ui",
+     "title": "Command"
+    },
+    {
+     "name": "tabs",
+     "type": "registry:ui",
+     "title": "Tabs"
+    },
+    {
+     "name": "breadcrumb",
+     "type": "registry:ui",
+     "title": "Breadcrumb"
+    },
+    {
+     "name": "pagination",
+     "type": "registry:ui",
+     "title": "Pagination"
+    },
+    {
+     "name": "collapsible",
+     "type": "registry:ui",
+     "title": "Collapsible"
+    },
+    {
+     "name": "page-header",
+     "type": "registry:ui",
+     "title": "Page header"
+    },
+    {
+     "name": "table",
+     "type": "registry:ui",
+     "title": "Table"
+    },
+    {
+     "name": "filter-bar",
+     "type": "registry:ui",
+     "title": "Filter bar"
+    },
+    {
+     "name": "timeline",
+     "type": "registry:ui",
+     "title": "Timeline"
+    },
+    {
+     "name": "code-block",
+     "type": "registry:ui",
+     "title": "Code block"
+    },
+    {
+     "name": "json-view",
+     "type": "registry:ui",
+     "title": "JSON view"
+    },
+    {
+     "name": "log-viewer",
+     "type": "registry:ui",
+     "title": "Log viewer"
+    },
+    {
+     "name": "attachment",
+     "type": "registry:ui",
+     "title": "Attachment"
+    },
+    {
+     "name": "chart",
+     "type": "registry:ui",
+     "title": "Chart"
+    },
+    {
+     "name": "message",
+     "type": "registry:component",
+     "title": "Message"
+    },
+    {
+     "name": "conversation",
+     "type": "registry:component",
+     "title": "Conversation"
+    },
+    {
+     "name": "response",
+     "type": "registry:component",
+     "title": "Response"
+    },
+    {
+     "name": "reasoning",
+     "type": "registry:component",
+     "title": "Reasoning"
+    },
+    {
+     "name": "tool-call",
+     "type": "registry:component",
+     "title": "Tool call"
+    },
+    {
+     "name": "activity",
+     "type": "registry:component",
+     "title": "Activity"
+    },
+    {
+     "name": "prompt-input",
+     "type": "registry:component",
+     "title": "Prompt input"
+    },
+    {
+     "name": "send-button",
+     "type": "registry:component",
+     "title": "Send button"
+    },
+    {
+     "name": "mention",
+     "type": "registry:component",
+     "title": "Mention"
+    },
+    {
+     "name": "bulk-action-bar",
+     "type": "registry:ui",
+     "title": "Bulk action bar"
+    },
+    {
+     "name": "data-grid",
+     "type": "registry:ui",
+     "title": "Data grid"
+    },
+    {
+     "name": "project-home",
+     "type": "registry:block",
+     "title": "Workspace home"
+    },
+    {
+     "name": "agent-session",
+     "type": "registry:block",
+     "title": "Agent session"
+    },
+    {
+     "name": "tool-approval",
+     "type": "registry:block",
+     "title": "Tool approval"
+    },
+    {
+     "name": "api-keys",
+     "type": "registry:block",
+     "title": "API keys"
+    },
+    {
+     "name": "deploy-detail",
+     "type": "registry:block",
+     "title": "Prompt release"
+    },
+    {
+     "name": "run-trace",
+     "type": "registry:block",
+     "title": "Run trace"
+    },
+    {
+     "name": "live-requests",
+     "type": "registry:block",
+     "title": "Live activity"
+    },
+    {
+     "name": "utils",
+     "type": "registry:lib",
+     "title": "cn"
+    },
+    {
+     "name": "icon",
+     "type": "registry:component",
+     "title": "Icon"
+    },
+    {
+     "name": "portal",
+     "type": "registry:lib",
+     "title": "Portal"
+    },
+    {
+     "name": "overlay",
+     "type": "registry:lib",
+     "title": "Overlay"
+    },
+    {
+     "name": "kind",
+     "type": "registry:lib",
+     "title": "Kinds"
+    },
+    {
+     "name": "format",
+     "type": "registry:lib",
+     "title": "Column formatters"
+    },
+    {
+     "name": "css-var",
+     "type": "registry:lib",
+     "title": "CSS token reader"
+    },
+    {
+     "name": "direction",
+     "type": "registry:lib",
+     "title": "Direction"
+    },
+    {
+     "name": "use-focus-when-replaced",
+     "type": "registry:lib",
+     "title": "useFocusWhenReplaced"
+    },
+    {
+     "name": "use-offscreen",
+     "type": "registry:lib",
+     "title": "useOffscreen"
+    },
+    {
+     "name": "children",
+     "type": "registry:lib",
+     "title": "Compound parts"
+    },
+    {
+     "name": "scroll-focus",
+     "type": "registry:lib",
+     "title": "Scroll tab stop"
+    },
+    {
+     "name": "lint",
+     "type": "registry:item",
+     "title": "Quartz lint"
+    },
+    {
+     "name": "theme",
+     "type": "registry:item",
+     "title": "Quartz theme"
+    },
+    {
+     "name": "skill",
+     "type": "registry:item",
+     "title": "Quartz skill"
+    }
+   ],
+   "src_files": [
+    "src/registry/quartz/.agents/SKILL.md",
+    "src/registry/quartz/SKILL.md",
+    "src/registry/quartz/ai/activity.tsx",
+    "src/registry/quartz/ai/conversation.tsx",
+    "src/registry/quartz/ai/mention.tsx",
+    "src/registry/quartz/ai/message.tsx",
+    "src/registry/quartz/ai/prompt-input.tsx",
+    "src/registry/quartz/ai/prompt-input/attachment.tsx",
+    "src/registry/quartz/ai/prompt-input/caret.ts",
+    "src/registry/quartz/ai/prompt-input/codec.ts",
+    "src/registry/quartz/ai/prompt-input/menu.tsx",
+    "src/registry/quartz/ai/prompt-input/mic.tsx",
+    "src/registry/quartz/ai/prompt-queue.tsx",
+    "src/registry/quartz/ai/reasoning.tsx",
+    "src/registry/quartz/ai/request-ticker.tsx",
+    "src/registry/quartz/ai/response.tsx",
+    "src/registry/quartz/ai/send-button.tsx",
+    "src/registry/quartz/ai/tool-call.tsx",
+    "src/registry/quartz/base.css",
+    "src/registry/quartz/blocks/agent-session.tsx",
+    "src/registry/quartz/blocks/api-keys.tsx",
+    "src/registry/quartz/blocks/deploy-detail.tsx",
+    "src/registry/quartz/blocks/live-requests.tsx",
+    "src/registry/quartz/blocks/project-home.tsx",
+    "src/registry/quartz/blocks/run-trace.tsx",
+    "src/registry/quartz/blocks/tool-approval.tsx",
+    "src/registry/quartz/icon.tsx",
+    "src/registry/quartz/lib/children.ts",
+    "src/registry/quartz/lib/css-var.ts",
+    "src/registry/quartz/lib/direction.ts",
+    "src/registry/quartz/lib/format.ts",
+    "src/registry/quartz/lib/kind.ts",
+    "src/registry/quartz/lib/overlay.ts",
+    "src/registry/quartz/lib/portal.ts",
+    "src/registry/quartz/lib/scroll-focus.ts",
+    "src/registry/quartz/lib/use-focus-when-replaced.ts",
+    "src/registry/quartz/lib/use-offscreen.ts",
+    "src/registry/quartz/lib/utils.ts",
+    "src/registry/quartz/lint/classes.json",
+    "src/registry/quartz/lint/core.mjs",
+    "src/registry/quartz/lint/eslint.config.mjs",
+    "src/registry/quartz/lint/plugin.mjs",
+    "src/registry/quartz/lint/value-rules.mjs",
+    "src/registry/quartz/styles.css",
+    "src/registry/quartz/tokens.css",
+    "src/registry/quartz/ui/alert.tsx",
+    "src/registry/quartz/ui/attachment.tsx",
+    "src/registry/quartz/ui/avatar.tsx",
+    "src/registry/quartz/ui/badge.tsx",
+    "src/registry/quartz/ui/breadcrumb.tsx",
+    "src/registry/quartz/ui/bulk-action-bar.tsx",
+    "src/registry/quartz/ui/button-group.tsx",
+    "src/registry/quartz/ui/button.tsx",
+    "src/registry/quartz/ui/card.tsx",
+    "src/registry/quartz/ui/chart-parts.tsx",
+    "src/registry/quartz/ui/chart-plot.tsx",
+    "src/registry/quartz/ui/chart-scale.ts",
+    "src/registry/quartz/ui/chart-strip.tsx",
+    "src/registry/quartz/ui/chart.tsx",
+    "src/registry/quartz/ui/checkbox.tsx",
+    "src/registry/quartz/ui/chip.tsx",
+    "src/registry/quartz/ui/code-block.tsx",
+    "src/registry/quartz/ui/collapsible.tsx",
+    "src/registry/quartz/ui/combobox.tsx",
+    "src/registry/quartz/ui/command.tsx",
+    "src/registry/quartz/ui/copy-button.tsx",
+    "src/registry/quartz/ui/data-grid.tsx",
+    "src/registry/quartz/ui/data-list.tsx",
+    "src/registry/quartz/ui/date-picker.tsx",
+    "src/registry/quartz/ui/dialog.tsx",
+    "src/registry/quartz/ui/dropdown-menu.tsx",
+    "src/registry/quartz/ui/empty-state.tsx",
+    "src/registry/quartz/ui/field.tsx",
+    "src/registry/quartz/ui/filter-bar.tsx",
+    "src/registry/quartz/ui/input.tsx",
+    "src/registry/quartz/ui/input/copy.tsx",
+    "src/registry/quartz/ui/input/number.tsx",
+    "src/registry/quartz/ui/input/otp.tsx",
+    "src/registry/quartz/ui/input/parts.tsx",
+    "src/registry/quartz/ui/input/password.tsx",
+    "src/registry/quartz/ui/input/search.tsx",
+    "src/registry/quartz/ui/input/secret.tsx",
+    "src/registry/quartz/ui/item.tsx",
+    "src/registry/quartz/ui/json-view.tsx",
+    "src/registry/quartz/ui/kbd.tsx",
+    "src/registry/quartz/ui/log-viewer.tsx",
+    "src/registry/quartz/ui/page-header.tsx",
+    "src/registry/quartz/ui/pagination.tsx",
+    "src/registry/quartz/ui/panel.tsx",
+    "src/registry/quartz/ui/popover.tsx",
+    "src/registry/quartz/ui/progress.tsx",
+    "src/registry/quartz/ui/radio-group.tsx",
+    "src/registry/quartz/ui/relative-time.tsx",
+    "src/registry/quartz/ui/segmented-control.tsx",
+    "src/registry/quartz/ui/select.tsx",
+    "src/registry/quartz/ui/sheet.tsx",
+    "src/registry/quartz/ui/skeleton.tsx",
+    "src/registry/quartz/ui/slider.tsx",
+    "src/registry/quartz/ui/stat.tsx",
+    "src/registry/quartz/ui/status.tsx",
+    "src/registry/quartz/ui/switch.tsx",
+    "src/registry/quartz/ui/table.tsx",
+    "src/registry/quartz/ui/tabs.tsx",
+    "src/registry/quartz/ui/textarea.tsx",
+    "src/registry/quartz/ui/timeline.tsx",
+    "src/registry/quartz/ui/toast.tsx",
+    "src/registry/quartz/ui/tooltip.tsx",
+    "src/registry/quartz/ui/truncate.tsx"
+   ]
+  },
+  {
+   "slug": "lime",
+   "title": "Lime",
+   "summary": "Lime is a white page, warm-grey surfaces and near-black text with one acid lime on the main action, for consumer apps.",
+   "version": "",
+   "last_updated": "",
+   "foundations": [
+    {
+     "name": "Anti-slop",
+     "kind": "foundation",
+     "path": "lime/foundations/anti-slop.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Color",
+     "kind": "foundation",
+     "path": "lime/foundations/color.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Elevation",
+     "kind": "foundation",
+     "path": "lime/foundations/elevation.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Iconography",
+     "kind": "foundation",
+     "path": "lime/foundations/iconography.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Motion",
+     "kind": "foundation",
+     "path": "lime/foundations/motion.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Radius",
+     "kind": "foundation",
+     "path": "lime/foundations/radius.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Spacing",
+     "kind": "foundation",
+     "path": "lime/foundations/spacing.md",
+     "install": "",
+     "import": ""
+    },
+    {
+     "name": "Typography",
+     "kind": "foundation",
+     "path": "lime/foundations/typography.md",
+     "install": "",
+     "import": ""
+    }
+   ],
+   "components": [
+    {
+     "name": "Accordion",
+     "kind": "component",
+     "path": "lime/components/accordion.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/accordion.json",
+     "import": "import {Accordion, AccordionItem, AccordionTrigger, AccordionContent} from '@/components/lime/ui/accordion'"
+    },
+    {
+     "name": "Action receipt",
+     "kind": "component",
+     "path": "lime/components/action-receipt.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/action-receipt.json",
+     "import": "import {ActionReceipt} from '@/components/lime/ai/action-receipt'"
+    },
+    {
+     "name": "Alert dialog",
+     "kind": "component",
+     "path": "lime/components/alert-dialog.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/alert-dialog.json",
+     "import": "import {AlertDialog, AlertDialogTrigger, AlertDialogContent, AlertDialogHeader, AlertDialogFooter, AlertDialogTitle, AlertDialogDescription, AlertDialogClose} from '@/components/lime/ui/alert-dialog'"
+    },
+    {
+     "name": "Amount",
+     "kind": "component",
+     "path": "lime/components/amount.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/amount.json",
+     "import": "import {Amount, amountAffordability, formatAmount, spokenAmount, toMoney, amountVariants} from '@/components/lime/ui/amount'"
+    },
+    {
+     "name": "Approval request",
+     "kind": "component",
+     "path": "lime/components/approval-request.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/approval-request.json",
+     "import": "import {ApprovalRequest} from '@/components/lime/ai/approval-request'"
+    },
+    {
+     "name": "Autonomy rule",
+     "kind": "component",
+     "path": "lime/components/autonomy-rule.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/autonomy-rule.json",
+     "import": "import {AutonomyRule} from '@/components/lime/ai/autonomy-rule'"
+    },
+    {
+     "name": "Avatar",
+     "kind": "component",
+     "path": "lime/components/avatar.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/avatar.json",
+     "import": "import {Avatar, AvatarGroup, avatarVariants} from '@/components/lime/ui/avatar'"
+    },
+    {
+     "name": "Badge",
+     "kind": "component",
+     "path": "lime/components/badge.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/badge.json",
+     "import": "import {Badge, badgeVariants} from '@/components/lime/ui/badge'"
+    },
+    {
+     "name": "Balance",
+     "kind": "component",
+     "path": "lime/components/balance.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/balance.json",
+     "import": "import {Balance, balanceVariants} from '@/components/lime/ui/balance'"
+    },
+    {
+     "name": "Bill schedule",
+     "kind": "component",
+     "path": "lime/components/bill-schedule.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/bill-schedule.json",
+     "import": "import {BillSchedule} from '@/components/lime/ui/bill-schedule'"
+    },
+    {
+     "name": "Button",
+     "kind": "component",
+     "path": "lime/components/button.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/button.json",
+     "import": "import {Button, Spinner, buttonVariants} from '@/components/lime/ui/button'"
+    },
+    {
+     "name": "Card",
+     "kind": "component",
+     "path": "lime/components/card.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/card.json",
+     "import": "import {Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter, cardVariants} from '@/components/lime/ui/card'"
+    },
+    {
+     "name": "Chat input",
+     "kind": "component",
+     "path": "lime/components/chat-input.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/chat-input.json",
+     "import": "import {ChatInput} from '@/components/lime/ai/chat-input'"
+    },
+    {
+     "name": "Checkbox",
+     "kind": "component",
+     "path": "lime/components/checkbox.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/checkbox.json",
+     "import": "import {Checkbox} from '@/components/lime/ui/checkbox'"
+    },
+    {
+     "name": "Chip",
+     "kind": "component",
+     "path": "lime/components/chip.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/chip.json",
+     "import": "import {Chip, chipClass} from '@/components/lime/ui/chip'"
+    },
+    {
+     "name": "Combobox",
+     "kind": "component",
+     "path": "lime/components/combobox.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/combobox.json",
+     "import": "import {Combobox, ComboboxInput, ComboboxContent, ComboboxList, ComboboxItem, ComboboxEmpty} from '@/components/lime/ui/combobox'"
+    },
+    {
+     "name": "Copy button",
+     "kind": "component",
+     "path": "lime/components/copy-button.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/copy-button.json",
+     "import": "import {CopyButton} from '@/components/lime/ui/copy-button'"
+    },
+    {
+     "name": "Dialog",
+     "kind": "component",
+     "path": "lime/components/dialog.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/dialog.json",
+     "import": "import {Dialog, DialogTrigger, DialogContent, DialogHeader, DialogFooter, DialogTitle, DialogDescription, DialogClose, backdropClass, dialogVariants} from '@/components/lime/ui/dialog'"
+    },
+    {
+     "name": "Dropdown menu",
+     "kind": "component",
+     "path": "lime/components/dropdown-menu.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/dropdown-menu.json",
+     "import": "import {DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuGroup, DropdownMenuLabel, DropdownMenuItem, DropdownMenuSub, DropdownMenuSubTrigger, DropdownMenuSubContent, DropdownMenuCheckboxItem, DropdownMenuRadioGroup, DropdownMenuRadioItem, DropdownMenuSeparator} from '@/components/lime/ui/dropdown-menu'"
+    },
+    {
+     "name": "Dropzone",
+     "kind": "component",
+     "path": "lime/components/dropzone.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/dropzone.json",
+     "import": "import {Dropzone} from '@/components/lime/ui/dropzone'"
+    },
+    {
+     "name": "Empty",
+     "kind": "component",
+     "path": "lime/components/empty.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/empty.json",
+     "import": "import {Empty, EmptyIcon, EmptyTitle, EmptyDescription, EmptyActions} from '@/components/lime/ui/empty'"
+    },
+    {
+     "name": "Error state",
+     "kind": "component",
+     "path": "lime/components/error-state.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/error-state.json",
+     "import": "import {ErrorState} from '@/components/lime/ui/error-state'"
+    },
+    {
+     "name": "Field",
+     "kind": "component",
+     "path": "lime/components/field.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/field.json",
+     "import": "import {Field, FieldLabel, FieldDescription, FieldError} from '@/components/lime/ui/field'"
+    },
+    {
+     "name": "Follow ups",
+     "kind": "component",
+     "path": "lime/components/follow-ups.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/follow-ups.json",
+     "import": "import {FollowUps} from '@/components/lime/ai/follow-ups'"
+    },
+    {
+     "name": "Input",
+     "kind": "component",
+     "path": "lime/components/input.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/input.json",
+     "import": "import {Input, fieldControl} from '@/components/lime/ui/input'"
+    },
+    {
+     "name": "Insight",
+     "kind": "component",
+     "path": "lime/components/insight.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/insight.json",
+     "import": "import {Insight} from '@/components/lime/ai/insight'"
+    },
+    {
+     "name": "Keypad",
+     "kind": "component",
+     "path": "lime/components/keypad.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/keypad.json",
+     "import": "import {Keypad, pressKey} from '@/components/lime/ui/keypad'"
+    },
+    {
+     "name": "List",
+     "kind": "component",
+     "path": "lime/components/list.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/list.json",
+     "import": "import {List, ListItem, ListIcon, listVariants} from '@/components/lime/ui/list'"
+    },
+    {
+     "name": "Message",
+     "kind": "component",
+     "path": "lime/components/message.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/message.json",
+     "import": "import {Message, messageVariants} from '@/components/lime/ai/message'"
+    },
+    {
+     "name": "Popover",
+     "kind": "component",
+     "path": "lime/components/popover.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/popover.json",
+     "import": "import {Popover, PopoverTrigger, PopoverContent, PopoverTitle, PopoverDescription, PopoverClose} from '@/components/lime/ui/popover'"
+    },
+    {
+     "name": "Progress",
+     "kind": "component",
+     "path": "lime/components/progress.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/progress.json",
+     "import": "import {Progress} from '@/components/lime/ui/progress'"
+    },
+    {
+     "name": "Radio",
+     "kind": "component",
+     "path": "lime/components/radio.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/radio.json",
+     "import": "import {RadioGroup, Radio} from '@/components/lime/ui/radio'"
+    },
+    {
+     "name": "Receipt match",
+     "kind": "component",
+     "path": "lime/components/receipt-match.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/receipt-match.json",
+     "import": "import {ReceiptMatch} from '@/components/lime/ai/receipt-match'"
+    },
+    {
+     "name": "Scroll area",
+     "kind": "component",
+     "path": "lime/components/scroll-area.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/scroll-area.json",
+     "import": "import {ScrollArea} from '@/components/lime/ui/scroll-area'"
+    },
+    {
+     "name": "Segmented",
+     "kind": "component",
+     "path": "lime/components/segmented.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/segmented.json",
+     "import": "import {Segmented, SegmentedItem, trackVariants} from '@/components/lime/ui/segmented'"
+    },
+    {
+     "name": "Select",
+     "kind": "component",
+     "path": "lime/components/select.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/select.json",
+     "import": "import {Select, SelectGroup, SelectLabel, SelectTrigger, SelectContent, SelectItem, triggerVariants} from '@/components/lime/ui/select'"
+    },
+    {
+     "name": "Separator",
+     "kind": "component",
+     "path": "lime/components/separator.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/separator.json",
+     "import": "import {Separator} from '@/components/lime/ui/separator'"
+    },
+    {
+     "name": "Sheet",
+     "kind": "component",
+     "path": "lime/components/sheet.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/sheet.json",
+     "import": "import {Sheet, SheetTrigger, SheetContent, SheetHeader, SheetTitle, SheetDescription, SheetBody, SheetFooter, SheetClose, useSheetSide} from '@/components/lime/ui/sheet'"
+    },
+    {
+     "name": "Skeleton",
+     "kind": "component",
+     "path": "lime/components/skeleton.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/skeleton.json",
+     "import": "import {Skeleton, skeletonVariants} from '@/components/lime/ui/skeleton'"
+    },
+    {
+     "name": "Slider",
+     "kind": "component",
+     "path": "lime/components/slider.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/slider.json",
+     "import": "import {Slider} from '@/components/lime/ui/slider'"
+    },
+    {
+     "name": "Status",
+     "kind": "component",
+     "path": "lime/components/status.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/status.json",
+     "import": "import {Status, STATUS_META} from '@/components/lime/ui/status'"
+    },
+    {
+     "name": "Switch",
+     "kind": "component",
+     "path": "lime/components/switch.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/switch.json",
+     "import": "import {Switch} from '@/components/lime/ui/switch'"
+    },
+    {
+     "name": "Table",
+     "kind": "component",
+     "path": "lime/components/table.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/table.json",
+     "import": "import {Table, TableHeader, TableBody, TableFooter, TableRow, TableHead, TableCell, TableCaption} from '@/components/lime/ui/table'"
+    },
+    {
+     "name": "Tabs",
+     "kind": "component",
+     "path": "lime/components/tabs.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/tabs.json",
+     "import": "import {Tabs, TabsList, TabsTrigger, TabsContent} from '@/components/lime/ui/tabs'"
+    },
+    {
+     "name": "Textarea",
+     "kind": "component",
+     "path": "lime/components/textarea.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/textarea.json",
+     "import": "import {Textarea} from '@/components/lime/ui/textarea'"
+    },
+    {
+     "name": "Toast",
+     "kind": "component",
+     "path": "lime/components/toast.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/toast.json",
+     "import": "import {ToastProvider, useToast, createToastManager} from '@/components/lime/ui/toast'"
+    },
+    {
+     "name": "Tool call",
+     "kind": "component",
+     "path": "lime/components/tool-call.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/tool-call.json",
+     "import": "import {ToolCall} from '@/components/lime/ai/tool-call'"
+    },
+    {
+     "name": "Toolbar",
+     "kind": "component",
+     "path": "lime/components/toolbar.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/toolbar.json",
+     "import": "import {Toolbar, ToolbarGroup, ToolbarButton, ToolbarToggle, ToolbarSeparator} from '@/components/lime/ui/toolbar'"
+    },
+    {
+     "name": "Tooltip",
+     "kind": "component",
+     "path": "lime/components/tooltip.md",
+     "install": "npx shadcn@latest add https://design.how/r/lime/tooltip.json",
+     "import": "import {Tooltip, TooltipTrigger, TooltipContent, TooltipProvider} from '@/components/lime/ui/tooltip'"
+    }
+   ],
+   "registry_items": [
+    {
+     "name": "button",
+     "type": "registry:ui",
+     "title": "Button"
+    },
+    {
+     "name": "copy-button",
+     "type": "registry:ui",
+     "title": "Copy button"
+    },
+    {
+     "name": "input",
+     "type": "registry:ui",
+     "title": "Input"
+    },
+    {
+     "name": "textarea",
+     "type": "registry:ui",
+     "title": "Textarea"
+    },
+    {
+     "name": "field",
+     "type": "registry:ui",
+     "title": "Field"
+    },
+    {
+     "name": "select",
+     "type": "registry:ui",
+     "title": "Select"
+    },
+    {
+     "name": "combobox",
+     "type": "registry:ui",
+     "title": "Combobox"
+    },
+    {
+     "name": "dropzone",
+     "type": "registry:ui",
+     "title": "Dropzone"
+    },
+    {
+     "name": "keypad",
+     "type": "registry:ui",
+     "title": "Keypad"
+    },
+    {
+     "name": "checkbox",
+     "type": "registry:ui",
+     "title": "Checkbox"
+    },
+    {
+     "name": "radio",
+     "type": "registry:ui",
+     "title": "Radio"
+    },
+    {
+     "name": "switch",
+     "type": "registry:ui",
+     "title": "Switch"
+    },
+    {
+     "name": "slider",
+     "type": "registry:ui",
+     "title": "Slider"
+    },
+    {
+     "name": "segmented",
+     "type": "registry:ui",
+     "title": "Segmented"
+    },
+    {
+     "name": "chip",
+     "type": "registry:ui",
+     "title": "Chip"
+    },
+    {
+     "name": "badge",
+     "type": "registry:ui",
+     "title": "Badge"
+    },
+    {
+     "name": "avatar",
+     "type": "registry:ui",
+     "title": "Avatar"
+    },
+    {
+     "name": "card",
+     "type": "registry:ui",
+     "title": "Card"
+    },
+    {
+     "name": "table",
+     "type": "registry:ui",
+     "title": "Table"
+    },
+    {
+     "name": "list",
+     "type": "registry:ui",
+     "title": "List"
+    },
+    {
+     "name": "list-item-menu",
+     "type": "registry:ui",
+     "title": "List item menu"
+    },
+    {
+     "name": "progress",
+     "type": "registry:ui",
+     "title": "Progress"
+    },
+    {
+     "name": "amount",
+     "type": "registry:ui",
+     "title": "Amount"
+    },
+    {
+     "name": "status",
+     "type": "registry:ui",
+     "title": "Status"
+    },
+    {
+     "name": "empty",
+     "type": "registry:ui",
+     "title": "Empty"
+    },
+    {
+     "name": "skeleton",
+     "type": "registry:ui",
+     "title": "Skeleton"
+    },
+    {
+     "name": "error-state",
+     "type": "registry:ui",
+     "title": "Error state"
+    },
+    {
+     "name": "toast",
+     "type": "registry:ui",
+     "title": "Toast"
+    },
+    {
+     "name": "dialog",
+     "type": "registry:ui",
+     "title": "Dialog"
+    },
+    {
+     "name": "alert-dialog",
+     "type": "registry:ui",
+     "title": "Alert dialog"
+    },
+    {
+     "name": "sheet",
+     "type": "registry:ui",
+     "title": "Sheet"
+    },
+    {
+     "name": "popover",
+     "type": "registry:ui",
+     "title": "Popover"
+    },
+    {
+     "name": "dropdown-menu",
+     "type": "registry:ui",
+     "title": "Dropdown menu"
+    },
+    {
+     "name": "tooltip",
+     "type": "registry:ui",
+     "title": "Tooltip"
+    },
+    {
+     "name": "tabs",
+     "type": "registry:ui",
+     "title": "Tabs"
+    },
+    {
+     "name": "toolbar",
+     "type": "registry:ui",
+     "title": "Toolbar"
+    },
+    {
+     "name": "accordion",
+     "type": "registry:ui",
+     "title": "Accordion"
+    },
+    {
+     "name": "collapsible",
+     "type": "registry:ui",
+     "title": "Collapsible"
+    },
+    {
+     "name": "separator",
+     "type": "registry:ui",
+     "title": "Separator"
+    },
+    {
+     "name": "scroll-area",
+     "type": "registry:ui",
+     "title": "Scroll area"
+    },
+    {
+     "name": "chat-input",
+     "type": "registry:ui",
+     "title": "Chat input"
+    },
+    {
+     "name": "message",
+     "type": "registry:ui",
+     "title": "Message"
+    },
+    {
+     "name": "tool-call",
+     "type": "registry:ui",
+     "title": "Tool call"
+    },
+    {
+     "name": "follow-ups",
+     "type": "registry:ui",
+     "title": "Follow ups"
+    },
+    {
+     "name": "approval-request",
+     "type": "registry:ui",
+     "title": "Approval request"
+    },
+    {
+     "name": "action-receipt",
+     "type": "registry:ui",
+     "title": "Action receipt"
+    },
+    {
+     "name": "autonomy-rule",
+     "type": "registry:ui",
+     "title": "Autonomy rule"
+    },
+    {
+     "name": "receipt-match",
+     "type": "registry:ui",
+     "title": "Receipt match"
+    },
+    {
+     "name": "insight",
+     "type": "registry:ui",
+     "title": "Insight"
+    },
+    {
+     "name": "bill-schedule",
+     "type": "registry:ui",
+     "title": "Bill schedule"
+    },
+    {
+     "name": "balance",
+     "type": "registry:ui",
+     "title": "Balance"
+    },
+    {
+     "name": "home",
+     "type": "registry:block",
+     "title": "Home screen"
+    },
+    {
+     "name": "assistant-approval",
+     "type": "registry:block",
+     "title": "Assistant approval"
+    },
+    {
+     "name": "assistant-alert",
+     "type": "registry:block",
+     "title": "Assistant alert"
+    },
+    {
+     "name": "settings-rules",
+     "type": "registry:block",
+     "title": "Settings rules"
+    },
+    {
+     "name": "split-request",
+     "type": "registry:block",
+     "title": "Split request"
+    },
+    {
+     "name": "utils",
+     "type": "registry:lib",
+     "title": "cn"
+    },
+    {
+     "name": "icon",
+     "type": "registry:component",
+     "title": "Icon"
+    },
+    {
+     "name": "portal",
+     "type": "registry:lib",
+     "title": "Portal"
+    },
+    {
+     "name": "use-focus-when-replaced",
+     "type": "registry:lib",
+     "title": "useFocusWhenReplaced"
+    },
+    {
+     "name": "popup",
+     "type": "registry:lib",
+     "title": "Popup classes"
+    },
+    {
+     "name": "lint",
+     "type": "registry:item",
+     "title": "Lime lint"
+    },
+    {
+     "name": "theme",
+     "type": "registry:item",
+     "title": "Lime theme"
+    },
+    {
+     "name": "skill",
+     "type": "registry:item",
+     "title": "Lime skill"
+    }
+   ],
+   "src_files": [
+    "src/registry/lime/.agents/SKILL.md",
+    "src/registry/lime/SKILL.md",
+    "src/registry/lime/ai/action-receipt.tsx",
+    "src/registry/lime/ai/approval-request.tsx",
+    "src/registry/lime/ai/autonomy-rule.tsx",
+    "src/registry/lime/ai/chat-input.tsx",
+    "src/registry/lime/ai/follow-ups.tsx",
+    "src/registry/lime/ai/insight.tsx",
+    "src/registry/lime/ai/message.tsx",
+    "src/registry/lime/ai/receipt-match.tsx",
+    "src/registry/lime/ai/tool-call.tsx",
+    "src/registry/lime/base.css",
+    "src/registry/lime/blocks/assistant-alert.tsx",
+    "src/registry/lime/blocks/assistant-approval.tsx",
+    "src/registry/lime/blocks/home.tsx",
+    "src/registry/lime/blocks/settings-rules.tsx",
+    "src/registry/lime/blocks/split-request.tsx",
+    "src/registry/lime/icon.tsx",
+    "src/registry/lime/lib/popup.ts",
+    "src/registry/lime/lib/portal.tsx",
+    "src/registry/lime/lib/use-focus-when-replaced.ts",
+    "src/registry/lime/lib/utils.ts",
+    "src/registry/lime/lint/classes.json",
+    "src/registry/lime/lint/core.mjs",
+    "src/registry/lime/lint/eslint.config.mjs",
+    "src/registry/lime/lint/plugin.mjs",
+    "src/registry/lime/lint/value-rules.mjs",
+    "src/registry/lime/styles.css",
+    "src/registry/lime/tokens.css",
+    "src/registry/lime/ui/accordion.tsx",
+    "src/registry/lime/ui/alert-dialog.tsx",
+    "src/registry/lime/ui/amount.tsx",
+    "src/registry/lime/ui/avatar.tsx",
+    "src/registry/lime/ui/badge.tsx",
+    "src/registry/lime/ui/balance.tsx",
+    "src/registry/lime/ui/bill-schedule.tsx",
+    "src/registry/lime/ui/button.tsx",
+    "src/registry/lime/ui/card.tsx",
+    "src/registry/lime/ui/checkbox.tsx",
+    "src/registry/lime/ui/chip.tsx",
+    "src/registry/lime/ui/collapsible.tsx",
+    "src/registry/lime/ui/combobox.tsx",
+    "src/registry/lime/ui/copy-button.tsx",
+    "src/registry/lime/ui/dialog.tsx",
+    "src/registry/lime/ui/dropdown-menu.tsx",
+    "src/registry/lime/ui/dropzone.tsx",
+    "src/registry/lime/ui/empty.tsx",
+    "src/registry/lime/ui/error-state.tsx",
+    "src/registry/lime/ui/field.tsx",
+    "src/registry/lime/ui/input.tsx",
+    "src/registry/lime/ui/keypad.tsx",
+    "src/registry/lime/ui/list-item-menu.tsx",
+    "src/registry/lime/ui/list.tsx",
+    "src/registry/lime/ui/popover.tsx",
+    "src/registry/lime/ui/progress.tsx",
+    "src/registry/lime/ui/radio.tsx",
+    "src/registry/lime/ui/scroll-area.tsx",
+    "src/registry/lime/ui/segmented.tsx",
+    "src/registry/lime/ui/select.tsx",
+    "src/registry/lime/ui/separator.tsx",
+    "src/registry/lime/ui/sheet.tsx",
+    "src/registry/lime/ui/skeleton.tsx",
+    "src/registry/lime/ui/slider.tsx",
+    "src/registry/lime/ui/status.tsx",
+    "src/registry/lime/ui/switch.tsx",
+    "src/registry/lime/ui/table.tsx",
+    "src/registry/lime/ui/tabs.tsx",
+    "src/registry/lime/ui/textarea.tsx",
+    "src/registry/lime/ui/toast.tsx",
+    "src/registry/lime/ui/toolbar.tsx",
+    "src/registry/lime/ui/tooltip.tsx"
+   ]
+  }
+ ]
+}

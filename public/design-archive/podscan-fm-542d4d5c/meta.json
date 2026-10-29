@@ -1,0 +1,132 @@
+{
+ "id": "542d4d5c-fd8f-4a8b-a4f7-4694728f7e12",
+ "slug": "podscan-fm-542d4d5c",
+ "name": "Podscan.fm",
+ "site_url": "https://podscan.fm",
+ "lastmod": "2026-06-03T19:01:17.307Z",
+ "extracted_at": "2026-06-03T19:01:17.300Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Green-lit podcast radar on white paper — a quiet instrument panel where one emerald signal cuts through grayscale data.",
+ "fonts": [
+  "Inter Tight",
+  "ui-sans-serif (system stack)",
+  "ui-monospace (system stack)"
+ ],
+ "colors": [
+  {
+   "hex": "#059669",
+   "name": "Emerald Signal"
+  },
+  {
+   "hex": "#10b981",
+   "name": "Mint Pulse"
+  },
+  {
+   "hex": "#18181b",
+   "name": "Onyx Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure Canvas"
+  },
+  {
+   "hex": "#f4f4f5",
+   "name": "Fog"
+  },
+  {
+   "hex": "#71717a",
+   "name": "Slate Whisper"
+  },
+  {
+   "hex": "#52525b",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#a1a1aa",
+   "name": "Zinc Veil"
+  },
+  {
+   "hex": "#3f3f46",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Ash Border"
+  },
+  {
+   "hex": "#d4d4d8",
+   "name": "Silver Trace"
+  },
+  {
+   "hex": "#9333ea",
+   "name": "Violet Tier"
+  },
+  {
+   "hex": "#4f46e5",
+   "name": "Indigo Spark"
+  },
+  {
+   "hex": "#ec4899",
+   "name": "Pink Pulse"
+  },
+  {
+   "hex": "#2563eb",
+   "name": "Cobalt Signal"
+  },
+  {
+   "hex": "#60a5fa",
+   "name": "Sky Veil"
+  },
+  {
+   "hex": "#14b8a6",
+   "name": "Teal Trace"
+  },
+  {
+   "hex": "#d1fae5",
+   "name": "Sprout Wash"
+  },
+  {
+   "hex": "#b91c1c",
+   "name": "Crimson Ink"
+  },
+  {
+   "hex": "#db2777",
+   "name": "Rose Blush"
+  },
+  {
+   "hex": "#16a34a",
+   "name": "Forest Verdant"
+  },
+  {
+   "hex": "#eab308",
+   "name": "Marigold Spark"
+  },
+  {
+   "hex": "#ecfdf5",
+   "name": "Mint Mist"
+  },
+  {
+   "hex": "#eff6ff",
+   "name": "Sky Mist"
+  },
+  {
+   "hex": "#f3e8ff",
+   "name": "Lilac Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/251c78b8-ba55-4af6-b873-e75a4d32310e.mp4",
+  "poster": "https://happyhands.cc/design-archive/podscan-fm-542d4d5c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/podscan-fm-542d4d5c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/podscan-fm-542d4d5c/thumbnail.jpg"
+}

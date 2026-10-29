@@ -1,0 +1,86 @@
+{
+ "id": "0ab4c544-6147-4998-8365-3a0f6191e54f",
+ "slug": "workable-0ab4c544",
+ "name": "Workable",
+ "site_url": "https://www.workable.com",
+ "lastmod": "2026-07-03T11:20:35.628Z",
+ "extracted_at": "2026-07-03T03:39:59.467Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "warm newsroom with teal ink",
+ "fonts": [
+  "Proxima Nova"
+ ],
+ "colors": [
+  {
+   "hex": "#0f161e",
+   "name": "Workable Ink"
+  },
+  {
+   "hex": "#fbfaf8",
+   "name": "Page Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#3d3e45",
+   "name": "Body Graphite"
+  },
+  {
+   "hex": "#6f7073",
+   "name": "Muted Slate"
+  },
+  {
+   "hex": "#efefef",
+   "name": "Hairline Gray"
+  },
+  {
+   "hex": "#004038",
+   "name": "Forest Teal"
+  },
+  {
+   "hex": "#1d0953",
+   "name": "Midnight Violet"
+  },
+  {
+   "hex": "#e5d3f7",
+   "name": "Lavender Wash"
+  },
+  {
+   "hex": "#fef1e1",
+   "name": "Peach Cream"
+  },
+  {
+   "hex": "#fde8ce",
+   "name": "Butter Yellow"
+  },
+  {
+   "hex": "#c6c4f4",
+   "name": "Periwinkle"
+  },
+  {
+   "hex": "#bee9f4",
+   "name": "Sky Tint"
+  },
+  {
+   "hex": "#00f5dc",
+   "name": "Agent Spectrum"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/62e41a9f-73c2-4b86-a5eb-9d1ed8087126.mp4",
+  "poster": "https://happyhands.cc/design-archive/workable-0ab4c544/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/workable-0ab4c544/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/workable-0ab4c544/thumbnail.jpg"
+}

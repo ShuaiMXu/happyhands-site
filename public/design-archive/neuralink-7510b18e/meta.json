@@ -1,0 +1,50 @@
+{
+ "id": "7510b18e-63c3-4c2a-97c3-39fa7dfa6ae3",
+ "slug": "neuralink-7510b18e",
+ "name": "Neuralink",
+ "site_url": "https://neuralink.com",
+ "lastmod": "2026-06-03T17:54:24.911Z",
+ "extracted_at": "2026-06-03T17:54:24.904Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "ai",
+ "north_star": "obsidian laboratory with a single color synapse — a black void where only light, shadow, and one thin spectrum of color speak",
+ "fonts": [
+  "UntitledSans"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f5f5f5",
+   "name": "Ash"
+  },
+  {
+   "hex": "#bababa",
+   "name": "Fog"
+  },
+  {
+   "hex": "#6452d8",
+   "name": "Synapse Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/be0d17aa-c83f-4a08-8ff3-e0a266864724.mp4",
+  "poster": "https://happyhands.cc/design-archive/neuralink-7510b18e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/neuralink-7510b18e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/neuralink-7510b18e/thumbnail.jpg"
+}

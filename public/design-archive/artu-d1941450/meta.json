@@ -1,0 +1,46 @@
+{
+ "id": "d1941450-00be-4988-beaa-76bb68ae09ff",
+ "slug": "artu-d1941450",
+ "name": "ARTU",
+ "site_url": "https://artu.works",
+ "lastmod": "2026-06-03T20:16:00.455Z",
+ "extracted_at": "2026-06-03T20:16:00.450Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Gallery wall on white paper. ARTU treats the browser as a museum spread — massive product photography, hairline rules, and a single shock of lime at the bottom edge to close the room.",
+ "fonts": [
+  "HelveticaNeuePro"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Canvas White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#d7ff66",
+   "name": "Terminal Lime"
+  },
+  {
+   "hex": "#ff1313",
+   "name": "Signal Red"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/9cfbc79d-deb9-4c96-a848-d51e4fc1fd38.mp4",
+  "poster": "https://happyhands.cc/design-archive/artu-d1941450/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/artu-d1941450/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/artu-d1941450/thumbnail.jpg"
+}

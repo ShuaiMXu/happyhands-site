@@ -1,0 +1,66 @@
+{
+ "id": "63d44e1f-e3e9-40dc-bba4-1aa6efc4db87",
+ "slug": "raise-63d44e1f",
+ "name": "Raise",
+ "site_url": "https://opencollective.com",
+ "lastmod": "2026-06-03T19:43:11.258Z",
+ "extracted_at": "2026-06-03T19:43:11.253Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "sunlit open ledger — a near-white page with a single deep-navy headline and a hand-drawn illustration pulling warmth into a financial interface.",
+ "fonts": [
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#0c2764",
+   "name": "Collective Navy"
+  },
+  {
+   "hex": "#0f172b",
+   "name": "Inkwell"
+  },
+  {
+   "hex": "#1d293d",
+   "name": "Slate Ink"
+  },
+  {
+   "hex": "#314158",
+   "name": "Pencil Graphite"
+  },
+  {
+   "hex": "#45556c",
+   "name": "Muted Slate"
+  },
+  {
+   "hex": "#62748e",
+   "name": "Distant Mist"
+  },
+  {
+   "hex": "#e2e8f0",
+   "name": "Frost Border"
+  },
+  {
+   "hex": "#c3c6cb",
+   "name": "Silver Whisper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/aaac13e8-59ba-4b64-a407-6ce1e3122885.mp4",
+  "poster": "https://happyhands.cc/design-archive/raise-63d44e1f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/raise-63d44e1f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/raise-63d44e1f/thumbnail.jpg"
+}

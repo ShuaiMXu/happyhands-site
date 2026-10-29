@@ -1,0 +1,75 @@
+{
+ "id": "e8a1d114-6924-4f03-acd2-996dd30f15a6",
+ "slug": "monzo-e8a1d114",
+ "name": "Monzo",
+ "site_url": "https://monzo.com",
+ "lastmod": "2026-06-05T09:07:11.459Z",
+ "extracted_at": "2026-06-03T20:05:20.171Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "Warm coral on cool mint paper — confident restraint with a single hot accent.",
+ "fonts": [
+  "MonzoSansText",
+  "MonzoSansDisplay"
+ ],
+ "colors": [
+  {
+   "hex": "#ff4f40",
+   "name": "Hot Coral"
+  },
+  {
+   "hex": "#091723",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#112231",
+   "name": "Deep Navy"
+  },
+  {
+   "hex": "#f2f8f3",
+   "name": "Page Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#e3ebe4",
+   "name": "Soft Mint"
+  },
+  {
+   "hex": "#b5b9bd",
+   "name": "Fog"
+  },
+  {
+   "hex": "#6b747b",
+   "name": "Steel"
+  },
+  {
+   "hex": "#75817e",
+   "name": "Ash"
+  },
+  {
+   "hex": "#3b4c54",
+   "name": "Slate Button"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/def31a56-9f36-4c3f-86c6-3204c6db5fc1.mp4",
+  "poster": "https://happyhands.cc/design-archive/monzo-e8a1d114/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/monzo-e8a1d114/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/monzo-e8a1d114/thumbnail.jpg"
+}

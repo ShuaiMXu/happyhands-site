@@ -1,0 +1,54 @@
+{
+ "id": "3e397dc6-0e68-435f-9dee-1966a9d245d3",
+ "slug": "riptype-foundry-3e397dc6",
+ "name": "Riptype Foundry",
+ "site_url": "https://www.riptype.xyz",
+ "lastmod": "2026-06-05T12:57:01.052Z",
+ "extracted_at": "2026-06-03T22:06:14.473Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "other",
+ "north_star": "ink on black paper — the type is the only bright thing in the room",
+ "fonts": [
+  "Office"
+ ],
+ "colors": [
+  {
+   "hex": "#121212",
+   "name": "Workshop Black"
+  },
+  {
+   "hex": "#292929",
+   "name": "Platen Gray"
+  },
+  {
+   "hex": "#d0d0d0",
+   "name": "Bone"
+  },
+  {
+   "hex": "#a0a0a0",
+   "name": "Ash"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#d9ff00",
+   "name": "Acid Flash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5d687381-21bc-4523-bab2-74ae964460bc.mp4",
+  "poster": "https://happyhands.cc/design-archive/riptype-foundry-3e397dc6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/riptype-foundry-3e397dc6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/riptype-foundry-3e397dc6/thumbnail.jpg"
+}

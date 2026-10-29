@@ -1,0 +1,71 @@
+{
+ "id": "6eb5fc89-d0db-4293-8bff-13c5aa530a28",
+ "slug": "motto-6eb5fc89",
+ "name": "Motto®",
+ "site_url": "https://wearemotto.com",
+ "lastmod": "2026-06-05T01:17:38.161Z",
+ "extracted_at": "2026-06-03T16:17:14.466Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Typographic monolith on paper — a single confident voice announcing itself on bone-white stock.",
+ "fonts": [
+  "disp (custom display face)",
+  "sans (custom sans face)"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Motto Ink"
+  },
+  {
+   "hex": "#1b1b1c",
+   "name": "Soft Carbon"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone Paper"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#d8d8d8",
+   "name": "Ash Rule"
+  },
+  {
+   "hex": "#717476",
+   "name": "Slate"
+  },
+  {
+   "hex": "#4d5153",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#848484",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#c8cacd",
+   "name": "Fog Border"
+  },
+  {
+   "hex": "#666666",
+   "name": "Pewter"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6eb6e6d2-ba89-4af5-9c07-e79050b17a4e.mp4",
+  "poster": "https://happyhands.cc/design-archive/motto-6eb5fc89/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/motto-6eb5fc89/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/motto-6eb5fc89/thumbnail.jpg"
+}

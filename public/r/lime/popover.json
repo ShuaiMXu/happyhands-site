@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "popover",
+  "type": "registry:ui",
+  "title": "Popover",
+  "description": "An anchored panel with controls, such as splitting a bill.",
+  "author": "design.how",
+  "categories": [
+    "overlays"
+  ],
+  "dependencies": [
+    "@base-ui/react@^1.8.0"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/portal.json",
+    "https://happyhands.cc/r/lime/theme.json",
+    "https://happyhands.cc/r/lime/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/lime/components/popover.md",
+    "page": "https://happyhands.cc/design-how/lime/components/popover.md"
+  },
+  "files": [
+    {
+      "path": "registry/lime/ui/popover.tsx",
+      "content": "'use client';\n\nimport {Popover as PopoverPrimitive} from '@base-ui/react/popover';\nimport {useLimePortal} from '@/lib/lime/portal';\nimport {mergeClass} from '@/lib/lime/utils';\n\n// A small floating panel anchored to its trigger, holding content a person can interact with: a filter, a\n// share link, a short form. It opens on click, closes on Escape or an outside press and returns focus to\n// the trigger. A label for hover is a Tooltip; a list of commands is a DropdownMenu.\n\nfunction Popover(props: PopoverPrimitive.Root.Props) {\n  return <PopoverPrimitive.Root data-slot=\"popover\" {...props}/>;\n}\n\nfunction PopoverTrigger(props: PopoverPrimitive.Trigger.Props) {\n  return <PopoverPrimitive.Trigger data-slot=\"popover-trigger\" {...props}/>;\n}\n\ntype PopoverContentProps = PopoverPrimitive.Popup.Props & Pick<PopoverPrimitive.Positioner.Props, 'side' | 'align' | 'sideOffset' | 'alignOffset'>;\n\nfunction PopoverContent({className, side = 'bottom', align = 'center', sideOffset = 8, alignOffset = 0, ...props}: PopoverContentProps) {\n  const container = useLimePortal();\n  return (\n    <PopoverPrimitive.Portal container={container}>\n      <PopoverPrimitive.Positioner side={side} align={align} sideOffset={sideOffset} alignOffset={alignOffset} collisionPadding={8} className=\"isolate z-(--z-popover)\">\n        <PopoverPrimitive.Popup\n          data-slot=\"popover-content\"\n          className={mergeClass([\n            'flex w-72 max-w-(--available-width) origin-(--transform-origin) flex-col gap-3 rounded-panel bg-raised p-4 text-sm text-fg shadow-menu outline-none',\n            'transition-[opacity,scale] duration-(--dur-base) ease-(--ease-out)',\n            'data-starting-style:scale-(--scale-enter) data-starting-style:opacity-0 data-ending-style:scale-(--scale-enter) data-ending-style:opacity-0 data-ending-style:duration-(--dur-fast)',\n          ], className)}\n          {...props}\n        />\n      </PopoverPrimitive.Positioner>\n    </PopoverPrimitive.Portal>\n  );\n}\n\nfunction PopoverTitle({className, ...props}: PopoverPrimitive.Title.Props) {\n  return <PopoverPrimitive.Title data-slot=\"popover-title\" className={mergeClass('text-base leading-tight font-semibold', className)} {...props}/>;\n}\n\nfunction PopoverDescription({className, ...props}: PopoverPrimitive.Description.Props) {\n  return <PopoverPrimitive.Description data-slot=\"popover-description\" className={mergeClass('text-sm text-fg-2', className)} {...props}/>;\n}\n\nfunction PopoverClose(props: PopoverPrimitive.Close.Props) {\n  return <PopoverPrimitive.Close data-slot=\"popover-close\" {...props}/>;\n}\n\nexport {Popover, PopoverTrigger, PopoverContent, PopoverTitle, PopoverDescription, PopoverClose};\n",
+      "type": "registry:ui",
+      "target": "@components/lime/ui/popover.tsx"
+    }
+  ]
+}

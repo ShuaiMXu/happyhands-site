@@ -1,0 +1,56 @@
+{
+ "id": "ccbb774f-d1a9-4cc6-b1be-31379ba0baf1",
+ "slug": "sandclock-ccbb774f",
+ "name": "Sandclock",
+ "site_url": "https://www.sandclock.org",
+ "lastmod": "2026-06-03T19:24:02.483Z",
+ "extracted_at": "2026-06-03T19:24:02.480Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "crypto",
+ "north_star": "DeFi command terminal at midnight — green signal lights on a matte black console",
+ "fonts": [
+  "Aeonik",
+  "Inter",
+  "DM Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#0a0a0a",
+   "name": "Abyss"
+  },
+  {
+   "hex": "#171717",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#222222",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#9b9b9b",
+   "name": "Ash"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#3fe280",
+   "name": "Signal Mint"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b8b2e649-9115-4e70-9ab9-ee5865da6145.mp4",
+  "poster": "https://happyhands.cc/design-archive/sandclock-ccbb774f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/sandclock-ccbb774f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/sandclock-ccbb774f/thumbnail.jpg"
+}

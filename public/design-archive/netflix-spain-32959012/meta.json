@@ -1,0 +1,66 @@
+{
+ "id": "32959012-f50d-4465-bb01-2aa4d506e0a8",
+ "slug": "netflix-spain-32959012",
+ "name": "Netflix Spain",
+ "site_url": "https://netflix.com",
+ "lastmod": "2026-05-11T16:25:39.831Z",
+ "extracted_at": "2026-04-11T17:50:41.173Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "",
+ "north_star": "The Infinite Digital Shelf. A cinematic experience where an endless library of content is presented against a pure black, theatrical backdrop.",
+ "fonts": [
+  "Netflix Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#e50914",
+   "name": "Netflix Red"
+  },
+  {
+   "hex": "#1d153f",
+   "name": "Feature Card Gradient"
+  },
+  {
+   "hex": "#000000",
+   "name": "Deep Space"
+  },
+  {
+   "hex": "#2d2d2d",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#414141",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#5a5a5a",
+   "name": "Slate"
+  },
+  {
+   "hex": "#808080",
+   "name": "Ash"
+  },
+  {
+   "hex": "#b3b3b3",
+   "name": "Silver"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Chalk White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f3dcd21d-350c-4bae-beda-d82ef7aa43a4.mp4",
+  "poster": "https://happyhands.cc/design-archive/netflix-spain-32959012/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/netflix-spain-32959012/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/netflix-spain-32959012/thumbnail.jpg"
+}

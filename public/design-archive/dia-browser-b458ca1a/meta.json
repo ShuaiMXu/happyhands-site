@@ -1,0 +1,82 @@
+{
+ "id": "b458ca1a-70f0-4f85-b745-f879a4d08457",
+ "slug": "dia-browser-b458ca1a",
+ "name": "Dia Browser",
+ "site_url": "https://diabrowser.com",
+ "lastmod": "2026-07-03T10:07:38.458Z",
+ "extracted_at": "2026-07-03T02:58:05.117Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "productivity",
+ "north_star": "blackroom gallery meets editorial broadsheet. A pitch-dark stage opens onto a sunlit paper spread where a single serif headline anchors each section.",
+ "fonts": [
+  "Exposure Variable",
+  "Exposure VAR",
+  "ABC Oracle",
+  "ABC Oracle Triple",
+  "ABC Favorit Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#020204",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#636363",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#888888",
+   "name": "Slate"
+  },
+  {
+   "hex": "#c6c6c6",
+   "name": "Silver"
+  },
+  {
+   "hex": "#575757",
+   "name": "Soft Graphite"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f8f8f8",
+   "name": "Bone"
+  },
+  {
+   "hex": "#efefef",
+   "name": "Linen"
+  },
+  {
+   "hex": "#f2fcb3",
+   "name": "Lime Wash"
+  },
+  {
+   "hex": "#ffdc5c",
+   "name": "Saffron"
+  },
+  {
+   "hex": "#FA3D1D",
+   "name": "Spectrum Marquee"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2ccce24d-3398-4c7a-b72e-e22e3f13b9f8.mp4",
+  "poster": "https://happyhands.cc/design-archive/dia-browser-b458ca1a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/dia-browser-b458ca1a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/dia-browser-b458ca1a/thumbnail.jpg"
+}

@@ -1,0 +1,59 @@
+{
+ "id": "47f15da7-8905-45b3-bcab-06a4277c6168",
+ "slug": "hungry-tiger-47f15da7",
+ "name": "Hungry Tiger",
+ "site_url": "https://www.eathungrytiger.com",
+ "lastmod": "2026-06-05T06:26:02.563Z",
+ "extracted_at": "2026-06-03T19:04:45.766Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ecommerce",
+ "north_star": "Turmeric-bright graffiti on a tandoor wall. A single gold-on-rust palette with display type so large it reads as a spice market sign, not a webpage.",
+ "fonts": [
+  "Salmond",
+  "Graphikx"
+ ],
+ "colors": [
+  {
+   "hex": "#faae33",
+   "name": "Tiger Gold"
+  },
+  {
+   "hex": "#823513",
+   "name": "Ember Rust"
+  },
+  {
+   "hex": "#9f531b",
+   "name": "Saffron Glow"
+  },
+  {
+   "hex": "#402011",
+   "name": "Dark Spice"
+  },
+  {
+   "hex": "#281006",
+   "name": "Charred Clove"
+  },
+  {
+   "hex": "#6b2e12",
+   "name": "Cardamom Brown"
+  },
+  {
+   "hex": "#d1255c",
+   "name": "Chili Red"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6cd45311-6e5a-4da7-ac71-6cca8096c141.mp4",
+  "poster": "https://happyhands.cc/design-archive/hungry-tiger-47f15da7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/hungry-tiger-47f15da7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/hungry-tiger-47f15da7/thumbnail.jpg"
+}

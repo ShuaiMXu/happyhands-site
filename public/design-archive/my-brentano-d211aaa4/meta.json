@@ -1,0 +1,44 @@
+{
+ "id": "d211aaa4-e09b-4ef9-a9bf-f6fa8495de73",
+ "slug": "my-brentano-d211aaa4",
+ "name": "My Brentano",
+ "site_url": "https://mybrentano.ch",
+ "lastmod": "2026-06-05T12:39:14.435Z",
+ "extracted_at": "2026-06-03T21:56:18.721Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Pharmacy broadsheet on cream paper. A Swiss editorial layout where one typewriter voice does all the speaking and warm-toned product photography supplies the only color.",
+ "fonts": [
+  "Studio Feixen Sans Writer Book Regular",
+  "Studio Feixen Sans Writer",
+  "Studio Feixen Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#212529",
+   "name": "Charcoal Ink"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Press"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d83f949e-f561-40c8-a1e1-68765e1317d1.mp4",
+  "poster": "https://happyhands.cc/design-archive/my-brentano-d211aaa4/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/my-brentano-d211aaa4/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/my-brentano-d211aaa4/thumbnail.jpg"
+}

@@ -1,0 +1,62 @@
+{
+ "id": "2175034b-96d7-417e-886f-ff5a4d8551ae",
+ "slug": "playdate-2175034b",
+ "name": "Playdate",
+ "site_url": "https://play.date",
+ "lastmod": "2026-06-03T17:10:18.602Z",
+ "extracted_at": "2026-06-03T17:10:18.598Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "other",
+ "north_star": "A yellow Game Boy under museum lights. Playdate's whole identity is that single bright product held against neutral gray, with one violet spark doing all the interactive work.",
+ "fonts": [
+  "Roobert"
+ ],
+ "colors": [
+  {
+   "hex": "#ffc500",
+   "name": "Sunbeam Yellow"
+  },
+  {
+   "hex": "#7700ff",
+   "name": "Electric Violet"
+  },
+  {
+   "hex": "#312f27",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#788086",
+   "name": "Slate Gray"
+  },
+  {
+   "hex": "#efefef",
+   "name": "Fog"
+  },
+  {
+   "hex": "#e9e4d9",
+   "name": "Sand"
+  },
+  {
+   "hex": "#b1afa7",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6e12cb00-e324-472e-9998-97a258b0ead7.mp4",
+  "poster": "https://happyhands.cc/design-archive/playdate-2175034b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/playdate-2175034b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/playdate-2175034b/thumbnail.jpg"
+}

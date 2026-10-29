@@ -1,0 +1,47 @@
+{
+ "id": "9929101b-90d4-4306-bc4a-4d8f65b527f5",
+ "slug": "fora-9929101b",
+ "name": "FORA",
+ "site_url": "https://fora-concept.com",
+ "lastmod": "2026-06-05T10:31:32.916Z",
+ "extracted_at": "2026-06-03T20:52:40.941Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Swiss editorial mosaic on white. A grid of monumental color tiles and airy geometric type, where each panel of terracotta or lilac functions as a full-bleed typographic stage.",
+ "fonts": [
+  "Theinhardt",
+  "Theinhardt Medium"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#a9553c",
+   "name": "Terracotta"
+  },
+  {
+   "hex": "#ddbdea",
+   "name": "Lilac Veil"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4af01c8f-1a1e-46d7-8eff-17052b6f168c.mp4",
+  "poster": "https://happyhands.cc/design-archive/fora-9929101b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/fora-9929101b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/fora-9929101b/thumbnail.jpg"
+}

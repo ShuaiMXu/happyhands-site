@@ -1,0 +1,56 @@
+{
+ "id": "cf49b88a-fb38-4520-8fbb-ab3efa983517",
+ "slug": "off-white-cf49b88a",
+ "name": "OFF WHITE",
+ "site_url": "https://off-white.valeriafrancis.com",
+ "lastmod": "2026-06-03T21:19:15.462Z",
+ "extracted_at": "2026-06-03T21:19:15.455Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "Glitched editorial monolith on midnight — a wall of pixelated green typography in which portrait photographs of a single human face are pressed into the negative space between monumental letterforms, all on absolute black.",
+ "fonts": [
+  "Offwhite",
+  "Times",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#00fb34",
+   "name": "Voltage Green"
+  },
+  {
+   "hex": "#ff0000",
+   "name": "Alarm Red"
+  },
+  {
+   "hex": "#fff500",
+   "name": "Caution Yellow"
+  },
+  {
+   "hex": "#000000",
+   "name": "Absolute Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#aba4a4",
+   "name": "Ashen Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3f755bc2-ba1d-4572-b506-814d92562267.mp4",
+  "poster": "https://happyhands.cc/design-archive/off-white-cf49b88a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/off-white-cf49b88a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/off-white-cf49b88a/thumbnail.jpg"
+}

@@ -1,0 +1,85 @@
+{
+ "id": "95913740-3ff7-45ec-a05b-4acf040850a0",
+ "slug": "reworkd-95913740",
+ "name": "Reworkd",
+ "site_url": "https://www.reworkd.ai",
+ "lastmod": "2026-06-03T17:15:28.965Z",
+ "extracted_at": "2026-06-03T17:15:28.960Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Soft daylight over a product blueprint — the only color that speaks is the action button and the gradient headline above it.",
+ "fonts": [
+  "Selecta",
+  "Suisse Intl",
+  "Geist Mono",
+  "Geist Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#3161df",
+   "name": "Iris Blue"
+  },
+  {
+   "hex": "#3e79ea",
+   "name": "Cobalt"
+  },
+  {
+   "hex": "#3e9ed0",
+   "name": "Sky Glow"
+  },
+  {
+   "hex": "#89ecb0",
+   "name": "Mint Pulse"
+  },
+  {
+   "hex": "#2c65d3",
+   "name": "Midnight Iris"
+  },
+  {
+   "hex": "#272c30",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#f0f5fe",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#e3e8ea",
+   "name": "Pale Slate"
+  },
+  {
+   "hex": "#a6b4ba",
+   "name": "Dove Gray"
+  },
+  {
+   "hex": "#526068",
+   "name": "Iron"
+  },
+  {
+   "hex": "#60737a",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#7b8e95",
+   "name": "Slate Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/db3f17b9-244a-4926-85c7-080e0f76fdec.mp4",
+  "poster": "https://happyhands.cc/design-archive/reworkd-95913740/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/reworkd-95913740/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/reworkd-95913740/thumbnail.jpg"
+}

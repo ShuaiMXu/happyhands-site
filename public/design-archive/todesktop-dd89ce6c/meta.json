@@ -1,0 +1,80 @@
+{
+ "id": "dd89ce6c-f0aa-4ca8-bd63-19dcd81920a7",
+ "slug": "todesktop-dd89ce6c",
+ "name": "ToDesktop",
+ "site_url": "https://www.todesktop.com",
+ "lastmod": "2026-06-05T02:00:27.280Z",
+ "extracted_at": "2026-06-03T17:11:15.635Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "devtools",
+ "north_star": "Cosmic command deck transitioning into a bright spec sheet. Dark gradient hero with a single electric blue accent button; below, a calm, light, hairline-bordered document surface with pill navigation and floating product mockups.",
+ "fonts": [
+  "Aeonik Pro",
+  "Inter",
+  "Geist Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#0036ff",
+   "name": "Electric Iris"
+  },
+  {
+   "hex": "#0093ff",
+   "name": "Signal Cyan"
+  },
+  {
+   "hex": "#05061b",
+   "name": "Deep Void"
+  },
+  {
+   "hex": "#141414",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Hairline Gray"
+  },
+  {
+   "hex": "#c2c2c9",
+   "name": "Quiet Gray"
+  },
+  {
+   "hex": "#d6d6db",
+   "name": "Soft Mist"
+  },
+  {
+   "hex": "#656565",
+   "name": "Dim Steel"
+  },
+  {
+   "hex": "#e1ecff",
+   "name": "Lavender Frost"
+  },
+  {
+   "hex": "#e6fff7",
+   "name": "Mint Whisper"
+  },
+  {
+   "hex": "#333333",
+   "name": "Charcoal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/9fbb6920-b05c-4627-a32a-22ec03f3e90e.mp4",
+  "poster": "https://happyhands.cc/design-archive/todesktop-dd89ce6c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/todesktop-dd89ce6c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/todesktop-dd89ce6c/thumbnail.jpg"
+}

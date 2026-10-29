@@ -1,0 +1,31 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "data-list",
+ "type": "registry:ui",
+ "title": "Data list",
+ "description": "Label and value pairs for a detail view.",
+ "author": "design.how",
+ "categories": [
+  "display"
+ ],
+ "dependencies": [
+  "class-variance-authority@^0.7.1"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/quartz/format.json",
+  "https://design.how/r/quartz/theme.json",
+  "https://design.how/r/quartz/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/quartz/components/data-list.md",
+  "page": "https://design.how/systems/quartz/components/data-list"
+ },
+ "files": [
+  {
+   "path": "registry/quartz/ui/data-list.tsx",
+   "content": "import * as React from 'react';\nimport {cva, type VariantProps} from 'class-variance-authority';\nimport {cn} from '@/lib/quartz/utils';\nimport {EMPTY_VALUE} from '@/lib/quartz/format';\n\n// Label and value pairs for a detail view: an eval run, a key, a prompt release. A real <dl> with each pair in a\n// <div>, which HTML allows, inside a frame that measures the width. className goes on the frame (it\n// places the list); every other prop goes on the <dl>.\n//\n// Horizontal lists share one grid: the label column is as wide as the longest label and no wider than\n// 160px (fit-content), and every pair is a subgrid row of it, so all values start on one left edge\n// without a fixed 160px gutter wasting space next to short labels like \"ID\". The list measures its own\n// width: under 448px it stacks each label above its value, so it works in a 320px panel and on a page.\n// An empty value (null, undefined or \"\") says \"None\" in text-3 on its own, so a missing field never\n// renders as a blank that looks like a bug.\n//\n// variant=\"framed\" (card and frame are the old names, kept) puts the list in its own frame with the pairs split by the row\n// rule. Inside another frame use plain.\n\nconst dataListVariants = cva('group/data-list min-w-0', {\n  variants: {\n    variant: {\n      plain: '',\n      framed: 'frame bg-page px-4',\n      /** @deprecated Use framed. */\n      card: 'frame bg-page px-4',\n      /** @deprecated Use framed. */\n      frame: 'frame bg-page px-4',\n    },\n    orientation: {\n      horizontal: '',\n      vertical: '',\n    },\n    size: {\n      sm: '',\n      default: '',\n    },\n  },\n  defaultVariants: {variant: 'plain', orientation: 'horizontal', size: 'default'},\n});\n\ntype DataListProps = React.ComponentProps<'dl'> & VariantProps<typeof dataListVariants>;\n\nfunction DataList({className, variant = 'plain', orientation = 'horizontal', size = 'default', ...props}: DataListProps) {\n  return <div\n    data-slot=\"data-list-frame\"\n    // framed, frame and card are one look; the items key off \"framed\".\n    data-variant={variant === 'card' || variant === 'frame' ? 'framed' : variant}\n    data-orientation={orientation}\n    data-size={size}\n    className={cn('@container/data-list', dataListVariants({variant, orientation, size}), className)}\n  >\n    <dl\n      data-slot=\"data-list\"\n      className={cn(\n        'grid min-w-0 grid-cols-1',\n        orientation === 'horizontal' && '@md/data-list:grid-cols-[fit-content(var(--label-column))_minmax(0,1fr)] @md/data-list:gap-x-4',\n      )}\n      {...props}\n    />\n  </div>;\n}\n\nfunction DataListItem({className, ...props}: React.ComponentProps<'div'>) {\n  return <div\n    data-slot=\"data-list-item\"\n    className={cn(\n      'col-span-full flex min-h-(--row) min-w-0 flex-col justify-center gap-1 py-2',\n      // The item's own gap would replace the list's 16px column gap in the subgrid, so it repeats it: the longest label never touches its value.\n      'group-data-[orientation=horizontal]/data-list:@md/data-list:grid group-data-[orientation=horizontal]/data-list:@md/data-list:grid-cols-subgrid group-data-[orientation=horizontal]/data-list:@md/data-list:items-baseline group-data-[orientation=horizontal]/data-list:@md/data-list:gap-x-4',\n      'group-data-[size=sm]/data-list:min-h-(--row-sm) group-data-[size=sm]/data-list:py-1.5',\n      'group-data-[variant=framed]/data-list:[&+&]:rule-top',\n      className,\n    )}\n    {...props}\n  />;\n}\n\nfunction DataListLabel({className, ...props}: React.ComponentProps<'dt'>) {\n  return <dt\n    data-slot=\"data-list-label\"\n    className={cn('min-w-0 type-label text-start text-text-3 [overflow-wrap:anywhere] group-data-[size=sm]/data-list:type-label-sm', className)}\n    {...props}\n  />;\n}\n\nconst isEmpty = (node: React.ReactNode) => node === null || node === undefined || node === false || (typeof node === 'string' && node.trim() === '');\n\nfunction DataListValue({className, mono = false, numeric = false, children, ...props}: React.ComponentProps<'dd'> & {\n  /** Set identifiers, hashes and paths in mono. */\n  mono?: boolean;\n  /** Tabular figures, for a count, a time or a price that lines up with its neighbours. */\n  numeric?: boolean;\n}) {\n  return <dd\n    data-slot=\"data-list-value\"\n    data-empty={isEmpty(children) || undefined}\n    className={cn(\n      'flex min-w-0 flex-wrap items-center gap-2 type-body text-start text-text-1 [overflow-wrap:anywhere]',\n      'group-data-[size=sm]/data-list:type-body-sm',\n      mono && 'type-tag',\n      numeric && 'data',\n      className,\n    )}\n    {...props}\n  >{isEmpty(children) ? <DataListEmpty/> : children}</dd>;\n}\n\n/** The placeholder for a field with no value. DataListValue shows it on its own for an empty value. */\nfunction DataListEmpty({className, children = EMPTY_VALUE, ...props}: React.ComponentProps<'span'>) {\n  return <span data-slot=\"data-list-empty\" className={cn('font-sans text-text-3', className)} {...props}>{children}</span>;\n}\n\nexport {DataList, DataListItem, DataListLabel, DataListValue, DataListEmpty, dataListVariants};\n",
+   "type": "registry:ui",
+   "target": "@components/quartz/ui/data-list.tsx"
+  }
+ ]
+}

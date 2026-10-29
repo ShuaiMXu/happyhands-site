@@ -1,0 +1,85 @@
+{
+ "id": "1a03b8d7-9204-4c16-ad3c-16306f99fba9",
+ "slug": "mesh-1a03b8d7",
+ "name": "Mesh",
+ "site_url": "https://clay.earth",
+ "lastmod": "2026-06-05T02:21:40.237Z",
+ "extracted_at": "2026-06-03T15:51:10.744Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "saas",
+ "north_star": "Bronze ink on midnight paper. A dark editorial spread where warm amber rules and serif-slim sans type guide the eye through a dense, unhurried layout.",
+ "fonts": [
+  "Verlag",
+  "Verlag Condensed",
+  "Chronicle Text G1 Roman",
+  "system-ui"
+ ],
+ "colors": [
+  {
+   "hex": "#0f0f10",
+   "name": "Obsidian Canvas"
+  },
+  {
+   "hex": "#1d1d1f",
+   "name": "Graphite Layer"
+  },
+  {
+   "hex": "#fefef7",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#f7f3ee",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#b3b3b3",
+   "name": "Ash Border"
+  },
+  {
+   "hex": "#666666",
+   "name": "Slate Mute"
+  },
+  {
+   "hex": "#868f97",
+   "name": "Cool Steel"
+  },
+  {
+   "hex": "#86868b",
+   "name": "Warm Pewter"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Pale Mist"
+  },
+  {
+   "hex": "#000000",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#f2b98b",
+   "name": "Bronze Glow"
+  },
+  {
+   "hex": "#ffaf7c",
+   "name": "Apricot Highlight"
+  },
+  {
+   "hex": "#d49065",
+   "name": "Amber Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b2eb55ae-9e5f-4571-b534-caa875476ccf.mp4",
+  "poster": "https://happyhands.cc/design-archive/mesh-1a03b8d7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/mesh-1a03b8d7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/mesh-1a03b8d7/thumbnail.jpg"
+}

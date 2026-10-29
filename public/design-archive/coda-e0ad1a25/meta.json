@@ -1,0 +1,97 @@
+{
+ "id": "e0ad1a25-5609-45e6-a355-9bdeec86c5ae",
+ "slug": "coda-e0ad1a25",
+ "name": "Coda",
+ "site_url": "https://www.coda.co",
+ "lastmod": "2026-06-03T16:57:55.781Z",
+ "extracted_at": "2026-06-03T16:57:55.775Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "Monumental letters on warm cream parchment — Coda reads like a hand-set marketplace poster, not a SaaS dashboard.",
+ "fonts": [
+  "ui-sans-serif",
+  "Monument Grotesk (custom)",
+  "JetBrains Mono",
+  "System UI Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#f8f9eb",
+   "name": "Cream Parchment"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#202020",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#c0c2a9",
+   "name": "Sage Mist"
+  },
+  {
+   "hex": "#5a5a4f",
+   "name": "Olive Slate"
+  },
+  {
+   "hex": "#7c7d76",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#edeee1",
+   "name": "Bone"
+  },
+  {
+   "hex": "#003d21",
+   "name": "Forest Depths"
+  },
+  {
+   "hex": "#aafdc0",
+   "name": "Mint Sprout"
+  },
+  {
+   "hex": "#041668",
+   "name": "Cobalt Ink"
+  },
+  {
+   "hex": "#2d0078",
+   "name": "Plum Depth"
+  },
+  {
+   "hex": "#3f0929",
+   "name": "Wine Shadow"
+  },
+  {
+   "hex": "#d3beff",
+   "name": "Lilac Wash"
+  },
+  {
+   "hex": "#b0f4ff",
+   "name": "Sky Wash"
+  },
+  {
+   "hex": "#ffc0e6",
+   "name": "Rose Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/88a8d4c2-d30c-40fe-bfe8-b4f91d7921a5.mp4",
+  "poster": "https://happyhands.cc/design-archive/coda-e0ad1a25/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/coda-e0ad1a25/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/coda-e0ad1a25/thumbnail.jpg"
+}

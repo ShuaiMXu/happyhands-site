@@ -1,0 +1,100 @@
+{
+ "id": "5076959f-f849-4b50-8f8a-2040d4756f98",
+ "slug": "daylit-5076959f",
+ "name": "Daylit",
+ "site_url": "https://www.daylit.com",
+ "lastmod": "2026-06-05T11:22:24.686Z",
+ "extracted_at": "2026-06-03T21:20:52.340Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "Burgundy ink on cream parchment — a modern ledger rewritten for the AI era.",
+ "fonts": [
+  "Tt Commons Pro Variable",
+  "Geist Mono",
+  "Open Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#4d1520",
+   "name": "Wine Ink"
+  },
+  {
+   "hex": "#360912",
+   "name": "Midnight Wine"
+  },
+  {
+   "hex": "#faffa7",
+   "name": "Lemon Whisper"
+  },
+  {
+   "hex": "#662f3d",
+   "name": "Blush Rust"
+  },
+  {
+   "hex": "#e6b800",
+   "name": "Citrine Pop"
+  },
+  {
+   "hex": "#825b63",
+   "name": "Mauve Ash"
+  },
+  {
+   "hex": "#fbf9f6",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#f2eee7",
+   "name": "Linen Beige"
+  },
+  {
+   "hex": "#d3cac3",
+   "name": "Sandstone"
+  },
+  {
+   "hex": "#aaa49f",
+   "name": "Driftwood"
+  },
+  {
+   "hex": "#717182",
+   "name": "Slate Smoke"
+  },
+  {
+   "hex": "#101828",
+   "name": "Charcoal Ink"
+  },
+  {
+   "hex": "#feffe1",
+   "name": "Butter Cream"
+  },
+  {
+   "hex": "#e9e3d8",
+   "name": "Dawn Glow"
+  },
+  {
+   "hex": "#d7a0a0",
+   "name": "Rose Whisper"
+  },
+  {
+   "hex": "#906c7b",
+   "name": "Plum Echo"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/38e18a69-e770-4229-9f64-fd8481a871ad.mp4",
+  "poster": "https://happyhands.cc/design-archive/daylit-5076959f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/daylit-5076959f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/daylit-5076959f/thumbnail.jpg"
+}

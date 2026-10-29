@@ -1,0 +1,63 @@
+{
+ "id": "e2e9b80c-b548-4f86-a4d7-7a6b07d1c2e1",
+ "slug": "josh-warner-e2e9b80c",
+ "name": "Josh Warner",
+ "site_url": "https://www.joshwarner.design",
+ "lastmod": "2026-06-05T10:37:41.687Z",
+ "extracted_at": "2026-06-03T20:58:25.017Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "design",
+ "north_star": "black void gallery wall",
+ "fonts": [
+  "Inter Display",
+  "System sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#0f0f0f",
+   "name": "Void"
+  },
+  {
+   "hex": "#000000",
+   "name": "Absolute"
+  },
+  {
+   "hex": "#1a1a1a",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#080808",
+   "name": "Faint"
+  },
+  {
+   "hex": "#f0f0f0",
+   "name": "Bone"
+  },
+  {
+   "hex": "#b8b8b8",
+   "name": "Ash"
+  },
+  {
+   "hex": "#696969",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#08ff00",
+   "name": "Live Wire"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/08494770-8f9f-4502-a714-8f8412aa2d02.mp4",
+  "poster": "https://happyhands.cc/design-archive/josh-warner-e2e9b80c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/josh-warner-e2e9b80c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/josh-warner-e2e9b80c/thumbnail.jpg"
+}

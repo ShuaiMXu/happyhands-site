@@ -1,0 +1,58 @@
+{
+ "id": "679f08af-741f-4b04-bb44-0a9b97e96ad3",
+ "slug": "cleanshot-x-679f08af",
+ "name": "CleanShot X",
+ "site_url": "https://cleanshot.com",
+ "lastmod": "2026-09-24T17:50:33.344Z",
+ "extracted_at": "2026-09-24T17:35:16.141Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Blue-lit desktop studio. Build quiet white space around compact black type, then let saturated blue controls and layered Mac-product imagery create the focal points.",
+ "fonts": [
+  "Google Sans Flex"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Absolute Ink"
+  },
+  {
+   "hex": "#161618",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#6a6a6b",
+   "name": "Soft Charcoal"
+  },
+  {
+   "hex": "#0f0f12",
+   "name": "Studio Black"
+  },
+  {
+   "hex": "#0d44e8",
+   "name": "Electric Capture Blue"
+  },
+  {
+   "hex": "#174ef2",
+   "name": "Electric Blue Sweep"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/cc6e3c44-4deb-428e-8d9a-c6a3287e0597.mp4",
+  "poster": "https://happyhands.cc/design-archive/cleanshot-x-679f08af/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/cleanshot-x-679f08af/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/cleanshot-x-679f08af/thumbnail.jpg"
+}

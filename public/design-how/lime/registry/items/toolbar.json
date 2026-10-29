@@ -1,0 +1,30 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "toolbar",
+ "type": "registry:ui",
+ "title": "Toolbar",
+ "description": "A row of related controls with one tab stop.",
+ "author": "design.how",
+ "categories": [
+  "navigation"
+ ],
+ "dependencies": [
+  "@base-ui/react@^1.8.0"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/lime/theme.json",
+  "https://design.how/r/lime/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/lime/components/toolbar.md",
+  "page": "https://design.how/systems/lime/components/toolbar"
+ },
+ "files": [
+  {
+   "path": "registry/lime/ui/toolbar.tsx",
+   "content": "'use client';\n\nimport {Toggle as TogglePrimitive} from '@base-ui/react/toggle';\nimport {Toolbar as ToolbarPrimitive} from '@base-ui/react/toolbar';\nimport {cn, mergeClass} from '@/lib/lime/utils';\n\n// A row of related controls that act on one thing, such as formatting or playback. It is one tab stop;\n// arrow keys move between the controls inside. Icon buttons need an aria-label. A pressed toggle takes the\n// soft lime wash.\n// Items never wrap. A toolbar wider than its container scrolls sideways, and keeps its 32px pill.\n\nfunction Toolbar({className, ...props}: ToolbarPrimitive.Root.Props) {\n  return <ToolbarPrimitive.Root data-slot=\"toolbar\" className={mergeClass('inline-flex w-fit max-w-full items-center gap-0.5 overflow-x-auto rounded-control bg-surface p-1', className)} {...props}/>;\n}\n\nfunction ToolbarGroup({className, ...props}: ToolbarPrimitive.Group.Props) {\n  return <ToolbarPrimitive.Group data-slot=\"toolbar-group\" className={mergeClass('flex items-center gap-0.5', className)} {...props}/>;\n}\n\nconst itemClass = cn(\n  'inline-flex h-(--control-sm) min-w-(--control-sm) shrink-0 items-center justify-center gap-1.5 rounded-control px-2 text-sm font-medium whitespace-nowrap text-fg-2 select-none',\n  'transition-[background-color,color] duration-(--dur-instant) hover:not-data-disabled:bg-surface-2 hover:not-data-disabled:text-fg',\n  'data-disabled:cursor-not-allowed data-disabled:text-fg-disabled [&_svg]:shrink-0',\n);\n\nfunction ToolbarButton({className, ...props}: ToolbarPrimitive.Button.Props) {\n  return <ToolbarPrimitive.Button data-slot=\"toolbar-button\" className={mergeClass(itemClass, className)} {...props}/>;\n}\n\nfunction ToolbarToggle({className, ...props}: TogglePrimitive.Props) {\n  return (\n    <ToolbarPrimitive.Button\n      data-slot=\"toolbar-toggle\"\n      render={<TogglePrimitive className={mergeClass([itemClass, 'data-pressed:bg-accent-wash data-pressed:text-fg data-pressed:hover:not-data-disabled:bg-accent-wash'], className)} {...props}/>}\n    />\n  );\n}\n\nfunction ToolbarSeparator({className, ...props}: ToolbarPrimitive.Separator.Props) {\n  return <ToolbarPrimitive.Separator data-slot=\"toolbar-separator\" className={mergeClass('mx-1 h-5 w-px bg-line-strong', className)} {...props}/>;\n}\n\nexport {Toolbar, ToolbarGroup, ToolbarButton, ToolbarToggle, ToolbarSeparator};\n",
+   "type": "registry:ui",
+   "target": "@components/lime/ui/toolbar.tsx"
+  }
+ ]
+}

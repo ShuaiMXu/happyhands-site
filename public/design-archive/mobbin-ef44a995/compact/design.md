@@ -159,4 +159,3 @@ Max-width centered (~1280px), white background throughout. Hero is vertically ce
 - **Dribbble** — Pill-button navigation and 3-column content grid for design inspiration browsing
 - **Lookup.design** — Identical concept — no-chroma UI wrapping colorful screenshot content — with similar nav and filter-pill patterns
 - **Linear** — Fractional-weight custom typography as the primary brand differentiator in an otherwise near-monochrome system
-- **Refero.design** — App screenshot library with the same white/gray achromatic chrome and pill-shaped filter chips above a grid

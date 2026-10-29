@@ -1,0 +1,82 @@
+{
+ "id": "1f32d914-6fdd-4692-b4fc-fcee2c414766",
+ "slug": "jeton-1f32d914",
+ "name": "Jeton",
+ "site_url": "https://www.jeton.com",
+ "lastmod": "2026-07-03T10:41:50.814Z",
+ "extracted_at": "2026-07-03T03:16:30.698Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "Editorial fintech on warm marble",
+ "fonts": [
+  "Sequel Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#f73b20",
+   "name": "Signal Orange"
+  },
+  {
+   "hex": "#f84d35",
+   "name": "Brand Orange Tint"
+  },
+  {
+   "hex": "#360802",
+   "name": "Ink Roast"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon Black"
+  },
+  {
+   "hex": "#ababab",
+   "name": "Ash Grey"
+  },
+  {
+   "hex": "#e7dcdb",
+   "name": "Sand Wash"
+  },
+  {
+   "hex": "#fdedea",
+   "name": "Linen Blush"
+  },
+  {
+   "hex": "#f5ffbb",
+   "name": "Citrus Wash"
+  },
+  {
+   "hex": "#bcffbb",
+   "name": "Mint Wash"
+  },
+  {
+   "hex": "#fb2d54",
+   "name": "Coral Red"
+  },
+  {
+   "hex": "#477ee9",
+   "name": "Cobalt Blue"
+  },
+  {
+   "hex": "#34c771",
+   "name": "Emerald Green"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b8ffcaf5-f19c-462d-9ab1-7e3d32707195.mp4",
+  "poster": "https://happyhands.cc/design-archive/jeton-1f32d914/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/jeton-1f32d914/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/jeton-1f32d914/thumbnail.jpg"
+}

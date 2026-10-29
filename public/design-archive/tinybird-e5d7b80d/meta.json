@@ -1,0 +1,79 @@
+{
+ "id": "e5d7b80d-f473-439f-87a5-84716c448a05",
+ "slug": "tinybird-e5d7b80d",
+ "name": "Tinybird",
+ "site_url": "https://tinybird.co",
+ "lastmod": "2026-06-03T19:20:51.733Z",
+ "extracted_at": "2026-06-03T19:20:51.731Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "developer terminal at midnight — black void, one electric green cursor, monospace whispers",
+ "fonts": [
+  "Roboto",
+  "Roboto Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#27f795",
+   "name": "Cursor Green"
+  },
+  {
+   "hex": "#008060",
+   "name": "Hover Green"
+  },
+  {
+   "hex": "#800000",
+   "name": "Terminal Red"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#0a0a0a",
+   "name": "Console Black"
+  },
+  {
+   "hex": "#151515",
+   "name": "Panel Charcoal"
+  },
+  {
+   "hex": "#262626",
+   "name": "Card Graphite"
+  },
+  {
+   "hex": "#353535",
+   "name": "Border Smoke"
+  },
+  {
+   "hex": "#8d8d8d",
+   "name": "Muted Ash"
+  },
+  {
+   "hex": "#999999",
+   "name": "Tertiary Fog"
+  },
+  {
+   "hex": "#d9d9d9",
+   "name": "Highlight Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8e768ed6-ab51-4409-8aa1-9f38844b4b38.mp4",
+  "poster": "https://happyhands.cc/design-archive/tinybird-e5d7b80d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/tinybird-e5d7b80d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/tinybird-e5d7b80d/thumbnail.jpg"
+}

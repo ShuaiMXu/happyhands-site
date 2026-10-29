@@ -1,0 +1,70 @@
+{
+ "id": "48971df7-919d-453c-9d0b-4600cd24c583",
+ "slug": "trunk-48971df7",
+ "name": "Trunk",
+ "site_url": "https://trunk.io",
+ "lastmod": "2026-06-03T21:48:00.111Z",
+ "extracted_at": "2026-06-03T21:48:00.085Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "monochrome control room with one green signal light. A dark, technical, near-grayscale interface where the only color that matters is a single dot of green confirming the pipeline is alive.",
+ "fonts": [
+  "Neue"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#08090b",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#232323",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#89898d",
+   "name": "Slate Mist"
+  },
+  {
+   "hex": "#b3b3b5",
+   "name": "Fog"
+  },
+  {
+   "hex": "#c1c5c8",
+   "name": "Ash"
+  },
+  {
+   "hex": "#dddddd",
+   "name": "Bone"
+  },
+  {
+   "hex": "#e2e8f0",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#22c550",
+   "name": "Signal Green"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/358e1c1e-ba1f-4149-9e5f-8fa0f7a1db5e.mp4",
+  "poster": "https://happyhands.cc/design-archive/trunk-48971df7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/trunk-48971df7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/trunk-48971df7/thumbnail.jpg"
+}

@@ -1,0 +1,31 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "chip",
+ "type": "registry:ui",
+ "title": "Chip",
+ "description": "A filter the person toggles, such as a spending category.",
+ "author": "design.how",
+ "categories": [
+  "selection"
+ ],
+ "dependencies": [
+  "@base-ui/react@^1.8.0"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/lime/icon.json",
+  "https://design.how/r/lime/theme.json",
+  "https://design.how/r/lime/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/lime/components/chip.md",
+  "page": "https://design.how/systems/lime/components/chip"
+ },
+ "files": [
+  {
+   "path": "registry/lime/ui/chip.tsx",
+   "content": "'use client';\n\nimport {Toggle as TogglePrimitive} from '@base-ui/react/toggle';\nimport {Checkmark, Close, Icon} from '@/components/lime/icon';\nimport {cn, mergeClass} from '@/lib/lime/utils';\n\n// Something the person acts on: a filter, a topic, a model to pick. Chosen takes the soft lime wash, an\n// olive edge and a check that appears in front of the label (the chip grows by the check's width), so it reads without colour. Badge is the static one. With `onRemove` the chip\n// grows a close button as a sibling control, so there are never two buttons inside one button.\n\nconst chipClass = cn(\n  'group/chip inline-flex h-(--control-sm) items-center gap-1.5 rounded-control border border-line-strong bg-page px-3 text-sm font-medium whitespace-nowrap text-fg select-none',\n  'transition-[background-color,border-color] duration-(--dur-instant) ease-out [-webkit-tap-highlight-color:transparent]',\n  'hover:not-data-disabled:bg-surface data-pressed:border-accent-line data-pressed:bg-accent-wash data-pressed:hover:not-data-disabled:bg-accent-wash',\n  'data-disabled:cursor-not-allowed data-disabled:text-fg-disabled [&_svg]:shrink-0',\n);\n\ntype ChipProps = TogglePrimitive.Props & {\n  /** Adds a close button after the label. Name the chip in `removeLabel`: \"Remove Dining\". */\n  onRemove?: () => void;\n  removeLabel?: string;\n};\n\nfunction Chip({className, onRemove, removeLabel = 'Remove', children, ...props}: ChipProps) {\n  const toggle = (\n    <TogglePrimitive\n      data-slot=\"chip\"\n      className={mergeClass([chipClass, onRemove && 'rounded-e-none border-e-0 pe-2'], className)}\n      {...props}\n    >\n      <Icon icon={Checkmark} size={16} data-slot=\"chip-check\" className=\"hidden group-data-pressed/chip:block\"/>\n      {children}\n    </TogglePrimitive>\n  );\n  if (!onRemove) return toggle;\n  return (\n    <span data-slot=\"chip-group\" className=\"inline-flex\">\n      {toggle}\n      <button\n        type=\"button\"\n        data-slot=\"chip-remove\"\n        aria-label={removeLabel}\n        onClick={onRemove}\n        className=\"inline-flex h-(--control-sm) items-center rounded-e-control border border-s-0 border-line-strong bg-page ps-1 pe-2.5 text-fg-3 hover:bg-surface hover:text-fg focus-visible:-outline-offset-2\"\n      >\n        <Icon icon={Close} size={16}/>\n      </button>\n    </span>\n  );\n}\n\nexport {Chip, chipClass, type ChipProps};\n",
+   "type": "registry:ui",
+   "target": "@components/lime/ui/chip.tsx"
+  }
+ ]
+}

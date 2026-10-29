@@ -1,0 +1,59 @@
+{
+ "id": "7be94705-3666-4fb1-a389-0cfd7cb223cd",
+ "slug": "penpot-7be94705",
+ "name": "Penpot",
+ "site_url": "https://penpot.app",
+ "lastmod": "2026-06-03T21:57:44.245Z",
+ "extracted_at": "2026-06-03T21:57:44.239Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "design",
+ "north_star": "midnight design studio with teal sparks — a deep violet hero stage where one bright teal button and one teal word ignite an otherwise monochrome canvas.",
+ "fonts": [
+  "Work Sans",
+  "Times"
+ ],
+ "colors": [
+  {
+   "hex": "#151035",
+   "name": "Deep Space Violet"
+  },
+  {
+   "hex": "#1ccac7",
+   "name": "Bright Teal"
+  },
+  {
+   "hex": "#2f226c",
+   "name": "Rich Violet"
+  },
+  {
+   "hex": "#fafafa",
+   "name": "Off-White"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Light Gray"
+  },
+  {
+   "hex": "#d3d3d3",
+   "name": "Silver"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5ea499e3-3fc5-4813-83b8-c2200a850f41.mp4",
+  "poster": "https://happyhands.cc/design-archive/penpot-7be94705/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/penpot-7be94705/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/penpot-7be94705/thumbnail.jpg"
+}

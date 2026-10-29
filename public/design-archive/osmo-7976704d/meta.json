@@ -1,0 +1,82 @@
+{
+ "id": "7976704d-549b-4ba6-9a0f-c792766a9df3",
+ "slug": "osmo-7976704d",
+ "name": "Osmo",
+ "site_url": "https://www.osmo.supply",
+ "lastmod": "2026-06-03T19:59:03.593Z",
+ "extracted_at": "2026-06-03T19:59:03.587Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "developer museum on concrete gray",
+ "fonts": [
+  "Haffer VF",
+  "Haffer XH",
+  "Haffer Mono",
+  "Brisa Pro",
+  "-apple-system"
+ ],
+ "colors": [
+  {
+   "hex": "#f4f4f4",
+   "name": "Concrete"
+  },
+  {
+   "hex": "#eaeaea",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#e1e1e1",
+   "name": "Bone"
+  },
+  {
+   "hex": "#b8b8b8",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#4f4c4c",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#7a7a7a",
+   "name": "Steel"
+  },
+  {
+   "hex": "#312e2e",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#201d1d",
+   "name": "Ink"
+  },
+  {
+   "hex": "#151313",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#a1ff62",
+   "name": "Volt"
+  },
+  {
+   "hex": "#6840ff",
+   "name": "Ultraviolet"
+  },
+  {
+   "hex": "#f84131",
+   "name": "Vermillion"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/20331730-a22b-43bd-89ff-5ad015e92a99.mp4",
+  "poster": "https://happyhands.cc/design-archive/osmo-7976704d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/osmo-7976704d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/osmo-7976704d/thumbnail.jpg"
+}

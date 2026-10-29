@@ -1,0 +1,59 @@
+{
+ "id": "f61cf515-ccd5-4494-bdd1-be9fe4d7258c",
+ "slug": "hyer-aviation-f61cf515",
+ "name": "Hyer Aviation",
+ "site_url": "https://www.flyhyer.com",
+ "lastmod": "2026-07-03T10:36:23.431Z",
+ "extracted_at": "2026-07-03T03:14:39.142Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "other",
+ "north_star": "Cockpit twilight over parchment. A pale dawn-sky meets a slab-serif logo the size of a fuselage, with one warm clay accent breaking the monochrome restraint.",
+ "fonts": [
+  "HelveticaNowDisplay",
+  "sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#000d10",
+   "name": "Deep Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#8e8e95",
+   "name": "Cool Ash"
+  },
+  {
+   "hex": "#d5d3d4",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#0f0f1c",
+   "name": "Midnight Hull"
+  },
+  {
+   "hex": "#151623",
+   "name": "Charcoal Deck"
+  },
+  {
+   "hex": "#bc7155",
+   "name": "Clay Ember"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/71a70678-43cd-4266-b12a-4b0c1d5fb295.mp4",
+  "poster": "https://happyhands.cc/design-archive/hyer-aviation-f61cf515/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/hyer-aviation-f61cf515/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/hyer-aviation-f61cf515/thumbnail.jpg"
+}

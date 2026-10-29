@@ -1,0 +1,31 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "checkbox",
+ "type": "registry:ui",
+ "title": "Checkbox",
+ "description": "One option on or off, with a mixed state.",
+ "author": "design.how",
+ "categories": [
+  "selection"
+ ],
+ "dependencies": [
+  "@base-ui/react@^1.8.0"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/lime/icon.json",
+  "https://design.how/r/lime/theme.json",
+  "https://design.how/r/lime/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/lime/components/checkbox.md",
+  "page": "https://design.how/systems/lime/components/checkbox"
+ },
+ "files": [
+  {
+   "path": "registry/lime/ui/checkbox.tsx",
+   "content": "'use client';\n\nimport {Checkbox as CheckboxPrimitive} from '@base-ui/react/checkbox';\nimport {Checkmark, Subtract} from '@/components/lime/icon';\nimport {mergeClass} from '@/lib/lime/utils';\n\n// A 20px box with a 3:1 outline. Checked fills with the lime and an olive edge, the check is near-black.\n// Put it in a label, or inside a Field, so the box has a name.\n\nfunction Checkbox({className, ...props}: CheckboxPrimitive.Root.Props) {\n  return (\n    <CheckboxPrimitive.Root\n      data-slot=\"checkbox\"\n      className={mergeClass([\n        'inline-flex size-5 shrink-0 items-center justify-center rounded-sm border border-control bg-page text-on-accent',\n        'transition-[background-color,border-color] duration-(--dur-fast) ease-out',\n        'hover:not-data-disabled:border-fg-2',\n        'data-checked:not-data-disabled:border-accent-line data-checked:not-data-disabled:bg-accent data-indeterminate:not-data-disabled:border-accent-line data-indeterminate:not-data-disabled:bg-accent',\n        'data-disabled:cursor-not-allowed data-disabled:border-line-strong data-disabled:bg-surface-2 data-disabled:text-fg-disabled',\n        'data-checked:hover:not-data-disabled:bg-accent-hover data-indeterminate:hover:not-data-disabled:bg-accent-hover',\n        // Invalid keeps its red edge when checked too.\n        'aria-invalid:not-data-disabled:border-danger!',\n      ], className)}\n      {...props}\n    >\n      <CheckboxPrimitive.Indicator data-slot=\"checkbox-indicator\" className=\"flex items-center justify-center\" keepMounted={false}>\n        <CheckboxIcon/>\n      </CheckboxPrimitive.Indicator>\n    </CheckboxPrimitive.Root>\n  );\n}\n\n// The indicator also renders for the indeterminate state, which Base UI reports through data-indeterminate.\nfunction CheckboxIcon() {\n  return (\n    <>\n      <Checkmark size={16} className=\"in-data-indeterminate:hidden\"/>\n      <Subtract size={16} className=\"hidden in-data-indeterminate:block\"/>\n    </>\n  );\n}\n\nexport {Checkbox};\n",
+   "type": "registry:ui",
+   "target": "@components/lime/ui/checkbox.tsx"
+  }
+ ]
+}

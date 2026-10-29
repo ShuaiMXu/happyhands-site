@@ -1,0 +1,72 @@
+{
+ "id": "efd8dda0-b7dc-4b0b-b65f-348849d2cd65",
+ "slug": "glossier-efd8dda0",
+ "name": "Glossier",
+ "site_url": "https://glossier.com",
+ "lastmod": "2026-06-05T06:20:11.676Z",
+ "extracted_at": "2026-06-03T19:12:24.093Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Sunlit beauty editorial — paper white, ink black, one flash of yellow",
+ "fonts": [
+  "Apercu",
+  "Apercu Mono",
+  "GTStandard-M"
+ ],
+ "colors": [
+  {
+   "hex": "#fff116",
+   "name": "Glossier Yellow"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f7f7f7",
+   "name": "Fog"
+  },
+  {
+   "hex": "#faf2f4",
+   "name": "Blush"
+  },
+  {
+   "hex": "#f0f0f0",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e8e8e8",
+   "name": "Ash"
+  },
+  {
+   "hex": "#666666",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#464545",
+   "name": "Slate"
+  },
+  {
+   "hex": "#0600ff",
+   "name": "Cobalt Tag"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/341dff7c-58d9-414e-af8d-0536b3b3e3b1.mp4",
+  "poster": "https://happyhands.cc/design-archive/glossier-efd8dda0/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/glossier-efd8dda0/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/glossier-efd8dda0/thumbnail.jpg"
+}

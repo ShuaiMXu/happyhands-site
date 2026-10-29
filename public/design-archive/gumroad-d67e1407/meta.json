@@ -1,0 +1,66 @@
+{
+ "id": "d67e1407-6d16-47e8-89cf-22f5c5f2dd88",
+ "slug": "gumroad-d67e1407",
+ "name": "Gumroad",
+ "site_url": "https://gumroad.com",
+ "lastmod": "2026-06-05T00:39:39.360Z",
+ "extracted_at": "2026-06-03T15:01:11.612Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Pink coin on a cream sketchbook. Warm off-white canvas, inky geometric type, and a single hot-pink coin mascot stamped across every page like a sticker on a notebook.",
+ "fonts": [
+  "ABC Favorit"
+ ],
+ "colors": [
+  {
+   "hex": "#f4f4f0",
+   "name": "Canvas Cream"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#242423",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#d1d5dc",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#ff90e8",
+   "name": "Coin Pink"
+  },
+  {
+   "hex": "#ffc900",
+   "name": "Highlight Yellow"
+  },
+  {
+   "hex": "#f1f333",
+   "name": "Highlight Lime"
+  },
+  {
+   "hex": "#dc341e",
+   "name": "Highlight Vermillion"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/83903a9c-2cca-4c62-9d43-013ec1ada7cd.mp4",
+  "poster": "https://happyhands.cc/design-archive/gumroad-d67e1407/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/gumroad-d67e1407/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/gumroad-d67e1407/thumbnail.jpg"
+}

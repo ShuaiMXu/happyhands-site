@@ -1,0 +1,67 @@
+{
+ "id": "be5cf0d7-fc29-4b7f-bf86-f87185b122fc",
+ "slug": "monotype-be5cf0d7",
+ "name": "Monotype.",
+ "site_url": "https://variable-fonts.com",
+ "lastmod": "2026-06-03T20:23:34.789Z",
+ "extracted_at": "2026-06-03T20:23:34.786Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "Curated typography showcase on paper. Monotype's interface behaves like a gallery wall: white surfaces, hairline dividers, generous whitespace, and type itself as the only ornament.",
+ "fonts": [
+  "sans-serif",
+  "HelveticaNowMTDisplayMedium",
+  "HelveticaNowMTTextRegular",
+  "HelveticaNowMTTextBold",
+  "HelveticaNowMTMicroRegular",
+  "TypecaseVar"
+ ],
+ "colors": [
+  {
+   "hex": "#1e242c",
+   "name": "Ink"
+  },
+  {
+   "hex": "#576579",
+   "name": "Steel"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#e7eaee",
+   "name": "Mist"
+  },
+  {
+   "hex": "#dbdfe5",
+   "name": "Fog"
+  },
+  {
+   "hex": "#cfd5dd",
+   "name": "Ash"
+  },
+  {
+   "hex": "#1a73e8",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#000000",
+   "name": "Coal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/18f9f32e-a989-4e1e-8886-87cbf45c8670.mp4",
+  "poster": "https://happyhands.cc/design-archive/monotype-be5cf0d7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/monotype-be5cf0d7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/monotype-be5cf0d7/thumbnail.jpg"
+}

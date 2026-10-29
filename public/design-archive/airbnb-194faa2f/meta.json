@@ -1,0 +1,54 @@
+{
+ "id": "194faa2f-2f69-4bbf-9e29-290f28fa8ca2",
+ "slug": "airbnb-194faa2f",
+ "name": "Airbnb",
+ "site_url": "https://airbnb.org",
+ "lastmod": "2026-06-05T03:34:48.359Z",
+ "extracted_at": "2026-06-03T17:47:17.707Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Editorial masthead on white paper — the page speaks through scale and silence, not color or ornament.",
+ "fonts": [
+  "Airbnb Cereal VF"
+ ],
+ "colors": [
+  {
+   "hex": "#222222",
+   "name": "Carbon Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f7f7f7",
+   "name": "Newsprint Gray"
+  },
+  {
+   "hex": "#ebebeb",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#6a6a6a",
+   "name": "Fog"
+  },
+  {
+   "hex": "#a6a6a6",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c6ddf4f1-34a2-4940-9e45-693a651917f5.mp4",
+  "poster": "https://happyhands.cc/design-archive/airbnb-194faa2f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/airbnb-194faa2f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/airbnb-194faa2f/thumbnail.jpg"
+}

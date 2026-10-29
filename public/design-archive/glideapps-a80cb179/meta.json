@@ -1,0 +1,79 @@
+{
+ "id": "a80cb179-2d90-4896-b52d-4e674b421498",
+ "slug": "glideapps-a80cb179",
+ "name": "Glideapps",
+ "site_url": "https://www.glideapps.com",
+ "lastmod": "2026-06-05T01:33:35.194Z",
+ "extracted_at": "2026-06-03T16:33:17.286Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "monochrome drafting table with one electric teal spark",
+ "fonts": [
+  "bootonFont (custom — likely a neo-grotesque or geometric sans similar to Inter, Söhne, or GT America)",
+  "affairsFont (custom — a distinctive display face, possibly a high-contrast serif or a wide neo-grotesque)"
+ ],
+ "colors": [
+  {
+   "hex": "#71eaee",
+   "name": "Glide Teal"
+  },
+  {
+   "hex": "#e4feff",
+   "name": "Teal Mist"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#303030",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#5c5c5c",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#171715",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#242421",
+   "name": "Slate"
+  },
+  {
+   "hex": "#80807c",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#999991",
+   "name": "Fog"
+  },
+  {
+   "hex": "#d9dad3",
+   "name": "Stone"
+  },
+  {
+   "hex": "#edede8",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2ee47faf-d823-4bfc-bc6c-004af83150e0.mp4",
+  "poster": "https://happyhands.cc/design-archive/glideapps-a80cb179/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/glideapps-a80cb179/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/glideapps-a80cb179/thumbnail.jpg"
+}

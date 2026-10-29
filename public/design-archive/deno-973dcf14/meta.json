@@ -1,0 +1,113 @@
+{
+ "id": "973dcf14-2237-4346-81af-3d8c811666c2",
+ "slug": "deno-973dcf14",
+ "name": "Deno",
+ "site_url": "https://deno.com",
+ "lastmod": "2026-06-03T18:11:02.564Z",
+ "extracted_at": "2026-06-03T18:11:02.558Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "whitepaper schematic with mint highlighter — a developer reading desk under daylight",
+ "fonts": [
+  "Moranga",
+  "Inter",
+  "Menlo",
+  "Recursive"
+ ],
+ "colors": [
+  {
+   "hex": "#f8f9fc",
+   "name": "Canvas Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#0a0e1c",
+   "name": "Inkstone"
+  },
+  {
+   "hex": "#25272b",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#121417",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#475269",
+   "name": "Slate"
+  },
+  {
+   "hex": "#56575a",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#868789",
+   "name": "Fog"
+  },
+  {
+   "hex": "#9ea0a5",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#a8b2c8",
+   "name": "Lavender Stone"
+  },
+  {
+   "hex": "#cbd1e1",
+   "name": "Frost"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Chalk Line"
+  },
+  {
+   "hex": "#70ffaf",
+   "name": "Electric Mint"
+  },
+  {
+   "hex": "#ffdb1e",
+   "name": "Daffodil"
+  },
+  {
+   "hex": "#66c2ff",
+   "name": "Sky Pop"
+  },
+  {
+   "hex": "#b3e0ff",
+   "name": "Sky Wash"
+  },
+  {
+   "hex": "#116329",
+   "name": "Moss"
+  },
+  {
+   "hex": "#cf222e",
+   "name": "Crimson"
+  },
+  {
+   "hex": "#6639ba",
+   "name": "Iris"
+  },
+  {
+   "hex": "#0550ae",
+   "name": "Cobalt"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/72e6d353-f73a-4708-9b4b-e291fd361ba3.mp4",
+  "poster": "https://happyhands.cc/design-archive/deno-973dcf14/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/deno-973dcf14/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/deno-973dcf14/thumbnail.jpg"
+}

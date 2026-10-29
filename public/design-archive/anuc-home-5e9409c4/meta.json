@@ -1,0 +1,71 @@
+{
+ "id": "5e9409c4-d130-42f3-b224-5bd66cdfbe28",
+ "slug": "anuc-home-5e9409c4",
+ "name": "Anuc Home",
+ "site_url": "https://www.anuchome.com",
+ "lastmod": "2026-06-03T20:31:22.395Z",
+ "extracted_at": "2026-06-03T20:31:22.390Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "editorial gallery in warm white — a quiet, magazine-like space where oversized serif headlines and monumental rounded geometric letterforms frame intimate interior photography",
+ "fonts": [
+  "Instrument Sans",
+  "Instrument Serif"
+ ],
+ "colors": [
+  {
+   "hex": "#1a1a1e",
+   "name": "Ink"
+  },
+  {
+   "hex": "#f3f3f2",
+   "name": "Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#d1d1d2",
+   "name": "Ash"
+  },
+  {
+   "hex": "#c1c2bd",
+   "name": "Stone"
+  },
+  {
+   "hex": "#e7e6e4",
+   "name": "Linen"
+  },
+  {
+   "hex": "#4d4942",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#8d8d8f",
+   "name": "Mist"
+  },
+  {
+   "hex": "#9a682c",
+   "name": "Bronze"
+  },
+  {
+   "hex": "#4a626f",
+   "name": "Slate"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a5b0a8b5-00ce-46b6-8f75-1b4a7ff01f0e.mp4",
+  "poster": "https://happyhands.cc/design-archive/anuc-home-5e9409c4/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/anuc-home-5e9409c4/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/anuc-home-5e9409c4/thumbnail.jpg"
+}

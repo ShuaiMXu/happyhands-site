@@ -1,0 +1,51 @@
+{
+ "id": "92857b05-1c01-4c7a-b196-beb4e4871998",
+ "slug": "julia-krantz-92857b05",
+ "name": "Julia Krantz",
+ "site_url": "https://juliakrantz.com",
+ "lastmod": "2026-06-05T12:02:38.260Z",
+ "extracted_at": "2026-04-28T21:33:21.869Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "Darkroom contact sheet — a grid of photographic tiles on pure black, identity spelled in barely-visible weight-300 letterforms.",
+ "fonts": [
+  "DM Sans",
+  "ClashDisplay"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void"
+  },
+  {
+   "hex": "#f8f8f8",
+   "name": "Salt"
+  },
+  {
+   "hex": "#707070",
+   "name": "Ash"
+  },
+  {
+   "hex": "#f8f8f8",
+   "name": "Ghost Line"
+  },
+  {
+   "hex": "#f8f8f8",
+   "name": "Veil"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/39e5f264-c5d5-4ea3-bd7a-0f0bd48e9e77.mp4",
+  "poster": "https://happyhands.cc/design-archive/julia-krantz-92857b05/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/julia-krantz-92857b05/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/julia-krantz-92857b05/thumbnail.jpg"
+}

@@ -1,0 +1,78 @@
+{
+ "id": "e4e8fe86-47ed-4ddd-a6c6-2c28eae9aabe",
+ "slug": "eight-sleep-e4e8fe86",
+ "name": "Eight Sleep",
+ "site_url": "https://eightsleep.com",
+ "lastmod": "2026-06-03T19:50:37.136Z",
+ "extracted_at": "2026-06-03T19:50:37.133Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "other",
+ "north_star": "midnight observatory with single neon pulse",
+ "fonts": [
+  "NeueMontreal"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f9f8f7",
+   "name": "Warm Cream"
+  },
+  {
+   "hex": "#f1f2f4",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#8e8d92",
+   "name": "Stone"
+  },
+  {
+   "hex": "#696765",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#a0a0a0",
+   "name": "Ash"
+  },
+  {
+   "hex": "#363636",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#ececec",
+   "name": "Fog Border"
+  },
+  {
+   "hex": "#2e2e2e",
+   "name": "Steel Border"
+  },
+  {
+   "hex": "#4158ee",
+   "name": "Pulse Blue"
+  },
+  {
+   "hex": "#3f5975",
+   "name": "Midnight Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5b60ed81-b632-4e05-8ffa-b6e9c15d9b1c.mp4",
+  "poster": "https://happyhands.cc/design-archive/eight-sleep-e4e8fe86/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/eight-sleep-e4e8fe86/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/eight-sleep-e4e8fe86/thumbnail.jpg"
+}

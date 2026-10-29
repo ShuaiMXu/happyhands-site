@@ -1,0 +1,87 @@
+{
+ "id": "74417603-5cb1-49d1-96bd-435382f054bd",
+ "slug": "replay-74417603",
+ "name": "Replay",
+ "site_url": "https://www.replay.io",
+ "lastmod": "2026-06-03T21:50:52.701Z",
+ "extracted_at": "2026-06-03T21:50:52.694Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "editorial red-pen on white blueprint. A debugging instrument that speaks in a whisper and marks its targets in coral.",
+ "fonts": [
+  "Inter",
+  "ui-monospace"
+ ],
+ "colors": [
+  {
+   "hex": "#111827",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#374151",
+   "name": "Slate 600"
+  },
+  {
+   "hex": "#1f2937",
+   "name": "Graphite 800"
+  },
+  {
+   "hex": "#6b7280",
+   "name": "Steel 500"
+  },
+  {
+   "hex": "#9ca3af",
+   "name": "Fog 400"
+  },
+  {
+   "hex": "#d1d5db",
+   "name": "Mist 300"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Cloud 200"
+  },
+  {
+   "hex": "#f3f4f6",
+   "name": "Paper 100"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Snow 50"
+  },
+  {
+   "hex": "#f02d5e",
+   "name": "Coral Pulse"
+  },
+  {
+   "hex": "#f43f5e",
+   "name": "Coral 500"
+  },
+  {
+   "hex": "#3762e2",
+   "name": "Cobalt Link"
+  },
+  {
+   "hex": "#e9d5ff",
+   "name": "Lilac Whisper"
+  },
+  {
+   "hex": "#ff80b5",
+   "name": "Banner Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f6efe835-a0cf-44ce-8b41-6c854e99121f.mp4",
+  "poster": "https://happyhands.cc/design-archive/replay-74417603/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/replay-74417603/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/replay-74417603/thumbnail.jpg"
+}

@@ -1,0 +1,50 @@
+{
+ "id": "5d9e1cc2-4b81-40fe-aa92-640f2e1d7420",
+ "slug": "decide-ai-5d9e1cc2",
+ "name": "Decide AI",
+ "site_url": "https://decideai.xyz",
+ "lastmod": "2026-06-03T18:58:30.846Z",
+ "extracted_at": "2026-06-03T18:58:30.843Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ai",
+ "north_star": "Observatory at midnight — mint signal",
+ "fonts": [
+  "PP Neue Montreal"
+ ],
+ "colors": [
+  {
+   "hex": "#030303",
+   "name": "Deep Obsidian"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Frost"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Silver Haze"
+  },
+  {
+   "hex": "#73ffb9",
+   "name": "Mint Signal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/83fb38c1-2a85-4916-8e7e-b75d394171db.mp4",
+  "poster": "https://happyhands.cc/design-archive/decide-ai-5d9e1cc2/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/decide-ai-5d9e1cc2/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/decide-ai-5d9e1cc2/thumbnail.jpg"
+}

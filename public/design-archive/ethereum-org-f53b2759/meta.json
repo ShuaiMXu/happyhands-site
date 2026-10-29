@@ -1,0 +1,79 @@
+{
+ "id": "f53b2759-5b4a-4509-9311-51ab74238326",
+ "slug": "ethereum-org-f53b2759",
+ "name": "ethereum.org",
+ "site_url": "https://ethereum.org",
+ "lastmod": "2026-06-05T08:47:40.671Z",
+ "extracted_at": "2026-06-03T19:59:28.120Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "crypto",
+ "north_star": "Lilac architecture in flat editorial space — a printed open-source almanac where the Ethereum diamond floats above duotone crowds of people.",
+ "fonts": [
+  "Inter",
+  "IBM Plex Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#ece0ff",
+   "name": "Lavender Paper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#cfcfcf",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#121212",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#616161",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#8c8c8c",
+   "name": "Fog"
+  },
+  {
+   "hex": "#6c24e0",
+   "name": "Ethereum Violet"
+  },
+  {
+   "hex": "#41128c",
+   "name": "Deep Iris"
+  },
+  {
+   "hex": "#f60e9d",
+   "name": "Hot Magenta"
+  },
+  {
+   "hex": "#3d4ceb",
+   "name": "Sapphire"
+  },
+  {
+   "hex": "#0f9972",
+   "name": "Mint"
+  },
+  {
+   "hex": "#9357f4",
+   "name": "Lilac Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8d27d2c3-c9dd-4a72-bf6b-4cf7760ebc6a.mp4",
+  "poster": "https://happyhands.cc/design-archive/ethereum-org-f53b2759/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ethereum-org-f53b2759/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ethereum-org-f53b2759/thumbnail.jpg"
+}

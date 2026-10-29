@@ -1,0 +1,97 @@
+{
+ "id": "6fd5c4e6-7003-4768-bc62-1b9c0c774054",
+ "slug": "affinity-6fd5c4e6",
+ "name": "Affinity",
+ "site_url": "https://www.affinity.studio",
+ "lastmod": "2026-06-03T22:01:38.646Z",
+ "extracted_at": "2026-06-03T22:01:38.639Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "design",
+ "north_star": "floating gallery in a black void — a dark editorial stage where one green accent is the only spot of light",
+ "fonts": [
+  "Times (system)",
+  "Affinity Serif Variable",
+  "Canva Sans",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#a7f175",
+   "name": "Spring Pulse"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void"
+  },
+  {
+   "hex": "#211d1d",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#0f1015",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone"
+  },
+  {
+   "hex": "#373434",
+   "name": "Ash"
+  },
+  {
+   "hex": "#707477",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#c4c4c4",
+   "name": "Fog"
+  },
+  {
+   "hex": "#b0a79e",
+   "name": "Taupe"
+  },
+  {
+   "hex": "#e0dcd6",
+   "name": "Sand"
+  },
+  {
+   "hex": "#505050",
+   "name": "Slate"
+  },
+  {
+   "hex": "#9e9eff",
+   "name": "Iris"
+  },
+  {
+   "hex": "#a370fc",
+   "name": "Amethyst"
+  },
+  {
+   "hex": "#3860be",
+   "name": "Cobalt"
+  },
+  {
+   "hex": "#83d9e1",
+   "name": "Tide"
+  },
+  {
+   "hex": "#fdbd68",
+   "name": "Saffron"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3f755bc2-ba1d-4572-b506-814d92562267.mp4",
+  "poster": "https://happyhands.cc/design-archive/affinity-6fd5c4e6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/affinity-6fd5c4e6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/affinity-6fd5c4e6/thumbnail.jpg"
+}

@@ -1,0 +1,87 @@
+{
+ "id": "fff821ec-a3bf-41a5-aea2-626185bcd227",
+ "slug": "veed-fff821ec",
+ "name": "VEED",
+ "site_url": "https://www.veed.io",
+ "lastmod": "2026-06-05T04:38:18.835Z",
+ "extracted_at": "2026-06-03T18:32:02.467Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "white gallery wall with neon-green ignition buttons",
+ "fonts": [
+  "SwissNow",
+  "PPEditorialNew"
+ ],
+ "colors": [
+  {
+   "hex": "#96ff1a",
+   "name": "Lime Spark"
+  },
+  {
+   "hex": "#d6ffa6",
+   "name": "Spring Wash"
+  },
+  {
+   "hex": "#083300",
+   "name": "Forest Ink"
+  },
+  {
+   "hex": "#e6ffc8",
+   "name": "Mint Mist"
+  },
+  {
+   "hex": "#0c0a09",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#323232",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#292a2e",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#121212",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#4d4d51",
+   "name": "Slate"
+  },
+  {
+   "hex": "#71737a",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#444446",
+   "name": "Ash"
+  },
+  {
+   "hex": "#f2f1f0",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e6e6e7",
+   "name": "Fog"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/78c29fbf-be4e-4fc4-ad25-b377b1c6c751.mp4",
+  "poster": "https://happyhands.cc/design-archive/veed-fff821ec/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/veed-fff821ec/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/veed-fff821ec/thumbnail.jpg"
+}

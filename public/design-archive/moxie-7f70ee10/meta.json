@@ -1,0 +1,47 @@
+{
+ "id": "7f70ee10-123b-43cc-bd04-498cfc5b5ac0",
+ "slug": "moxie-7f70ee10",
+ "name": "Moxie",
+ "site_url": "https://moxiegrouppr.com",
+ "lastmod": "2026-06-03T21:33:53.998Z",
+ "extracted_at": "2026-06-03T21:33:53.994Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "Editorial darkroom with a single periwinkle flare — serif headlines float on a black void while a vivid blue accent punctuates the silence.",
+ "fonts": [
+  "IBM Plex Serif",
+  "IBM Plex Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#84acfb",
+   "name": "Periwinkle Flare"
+  },
+  {
+   "hex": "#f4efd4",
+   "name": "Warm Cream"
+  },
+  {
+   "hex": "#626055",
+   "name": "Warm Ash"
+  },
+  {
+   "hex": "#333333",
+   "name": "Charcoal Veil"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f3d30b30-c914-45bc-9515-6021d8c79860.mp4",
+  "poster": "https://happyhands.cc/design-archive/moxie-7f70ee10/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/moxie-7f70ee10/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/moxie-7f70ee10/thumbnail.jpg"
+}

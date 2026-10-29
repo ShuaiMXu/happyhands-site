@@ -1,0 +1,59 @@
+{
+ "id": "565bfc50-3a19-4224-9a4c-125edaeb7bef",
+ "slug": "cthdrl-565bfc50",
+ "name": "cthdrl",
+ "site_url": "https://cthdrl.co",
+ "lastmod": "2026-06-05T01:23:32.999Z",
+ "extracted_at": "2026-06-03T16:25:20.533Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "gallery wall at midnight",
+ "fonts": [
+  "NB Akademie",
+  "NB Akademie Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#e7ded1",
+   "name": "Bone"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void"
+  },
+  {
+   "hex": "#4c0b02",
+   "name": "Maroon Gradient"
+  },
+  {
+   "hex": "#1e1594",
+   "name": "Violet Gradient"
+  },
+  {
+   "hex": "#6e1815",
+   "name": "Crimson Gradient"
+  },
+  {
+   "hex": "#6d0251",
+   "name": "Plum Gradient"
+  },
+  {
+   "hex": "#a8b428",
+   "name": "Olive Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/1372a6dd-8f7b-4f90-a31e-dee5739722b8.mp4",
+  "poster": "https://happyhands.cc/design-archive/cthdrl-565bfc50/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/cthdrl-565bfc50/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/cthdrl-565bfc50/thumbnail.jpg"
+}

@@ -1,0 +1,67 @@
+{
+ "id": "6bc9448b-5d39-4aba-9007-25c7a2aedbad",
+ "slug": "relate-dot-app-6bc9448b",
+ "name": "Relate dot App",
+ "site_url": "https://relate.app",
+ "lastmod": "2026-06-03T22:09:31.773Z",
+ "extracted_at": "2026-06-03T22:09:31.766Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Diversity mosaic behind frosted notes. A wall of color-blocked portraits carries every visual mood the system needs; every UI element is a clean white card or a flat colored chip floating above it.",
+ "fonts": [
+  "roboto",
+  "proximacapsbold",
+  "proxima",
+  "Georgia",
+  "Arial",
+  "sourcesanspro"
+ ],
+ "colors": [
+  {
+   "hex": "#7bd428",
+   "name": "Lime Pulse"
+  },
+  {
+   "hex": "#2484f2",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#2374c4",
+   "name": "Deep Signal"
+  },
+  {
+   "hex": "#222222",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#444444",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/1ab317df-cb17-4c0b-876a-2ccbdd8cf0e4.mp4",
+  "poster": "https://happyhands.cc/design-archive/relate-dot-app-6bc9448b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/relate-dot-app-6bc9448b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/relate-dot-app-6bc9448b/thumbnail.jpg"
+}

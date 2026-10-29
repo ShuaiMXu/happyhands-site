@@ -1,0 +1,111 @@
+{
+ "id": "e26cb9b0-f876-41ff-9f24-fd67a6b9776c",
+ "slug": "slack-e26cb9b0",
+ "name": "Slack",
+ "site_url": "https://slack.com",
+ "lastmod": "2026-07-03T10:57:19.944Z",
+ "extracted_at": "2026-07-03T03:28:46.188Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Aubergine stage with white spotlights. Deep plum dominates dark sections while a near-white canvas lets oversized Avant-Garde headlines breathe.",
+ "fonts": [
+  "Salesforce-Avant-Garde",
+  "Salesforce-Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#611f69",
+   "name": "Aubergine"
+  },
+  {
+   "hex": "#481a54",
+   "name": "Deep Plum"
+  },
+  {
+   "hex": "#f9f0ff",
+   "name": "Purple Haze"
+  },
+  {
+   "hex": "#eac8fe",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#9602c7",
+   "name": "Vivid Violet"
+  },
+  {
+   "hex": "#3d0157",
+   "name": "Plum Shadow"
+  },
+  {
+   "hex": "#730394",
+   "name": "Iris"
+  },
+  {
+   "hex": "#d17dfe",
+   "name": "Iris Light"
+  },
+  {
+   "hex": "#1264a3",
+   "name": "Channel Blue"
+  },
+  {
+   "hex": "#0b4c8c",
+   "name": "Mid Blue"
+  },
+  {
+   "hex": "#2f8ab7",
+   "name": "Sky Mist"
+  },
+  {
+   "hex": "#1d1c1d",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#454245",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#696969",
+   "name": "Mid Gray"
+  },
+  {
+   "hex": "#808080",
+   "name": "Steel"
+  },
+  {
+   "hex": "#edeaed",
+   "name": "Fog"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#fefbff",
+   "name": "Soft White"
+  },
+  {
+   "hex": "#e8f5fa",
+   "name": "Ice Blue"
+  },
+  {
+   "hex": "#000000",
+   "name": "Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0c65c729-9adc-4702-8f3e-7908b98bb94a.mp4",
+  "poster": "https://happyhands.cc/design-archive/slack-e26cb9b0/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/slack-e26cb9b0/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/slack-e26cb9b0/thumbnail.jpg"
+}

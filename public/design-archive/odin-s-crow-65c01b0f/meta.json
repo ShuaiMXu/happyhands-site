@@ -1,0 +1,62 @@
+{
+ "id": "65c01b0f-7ae5-42ff-ad5b-162bbdce8e01",
+ "slug": "odin-s-crow-65c01b0f",
+ "name": "Odin's Crow",
+ "site_url": "https://odins-crow.com",
+ "lastmod": "2026-06-05T04:06:42.182Z",
+ "extracted_at": "2026-06-03T18:07:27.708Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Swiss broadsheet on warm bone — a single typographic grid held together by hairline rules, where one massive headline bleeds past the fold while a 10px wordmark anchors the corner.",
+ "fonts": [
+  "Plain"
+ ],
+ "colors": [
+  {
+   "hex": "#dbd7d3",
+   "name": "Bone"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Ash"
+  },
+  {
+   "hex": "#2b2b2b",
+   "name": "Inkstone"
+  },
+  {
+   "hex": "#535251",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#e5d5c3",
+   "name": "Sand"
+  },
+  {
+   "hex": "#cdc0b1",
+   "name": "Linen"
+  },
+  {
+   "hex": "#c9c8c9",
+   "name": "Frost"
+  },
+  {
+   "hex": "#82887c",
+   "name": "Sage Stone"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/bcc75f34-90a4-49ef-af83-cff818d67220.mp4",
+  "poster": "https://happyhands.cc/design-archive/odin-s-crow-65c01b0f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/odin-s-crow-65c01b0f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/odin-s-crow-65c01b0f/thumbnail.jpg"
+}

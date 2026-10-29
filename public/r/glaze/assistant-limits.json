@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "assistant-limits",
+  "type": "registry:block",
+  "title": "Assistant limits",
+  "description": "A list of what a personal assistant may do on its own, one rule per kind of action with its level.",
+  "author": "design.how",
+  "categories": [
+    "block",
+    "ai",
+    "mobile"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/autonomy-rule.json",
+    "https://happyhands.cc/r/glaze/item.json",
+    "https://happyhands.cc/r/glaze/theme.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/glaze/index.md",
+    "page": "https://happyhands.cc/design-how/glaze/index.md"
+  },
+  "files": [
+    {
+      "path": "registry/glaze/blocks/assistant-limits.tsx",
+      "content": "'use client';\n\nimport {AutonomyRule, type AutonomyLevel} from '@/components/glaze/ai/autonomy-rule';\nimport {ItemGroup} from '@/components/glaze/ui/item';\n\n// A block: what the assistant may do on its own, one AutonomyRule per kind of action with its limit in the title.\n// A change applies at once, so it has no Save and no glass key; each level is a Select at the row's end, which keeps a\n// rule to one row at phone width.\n// Wire `rules` to your assistant's permissions.\n\nconst rules: {title: string; level: AutonomyLevel}[] = [\n  {title: 'Pay bills under $50', level: 'auto'},\n  {title: 'Book tables and visits', level: 'ask'},\n  {title: 'Message people for you', level: 'ask'},\n  {title: 'Spend over $200', level: 'never'},\n];\n\n/** Four rules for what the assistant does on its own. */\nexport function AssistantLimits({className}: {className?: string}) {\n  return (\n    <ItemGroup aria-label=\"On its own\" className={className ?? 'w-full max-w-sm'}>\n      {rules.map(r => <AutonomyRule key={r.title} title={r.title} defaultValue={r.level} control=\"select\"/>)}\n    </ItemGroup>\n  );\n}\n",
+      "type": "registry:block",
+      "target": "@components/glaze/blocks/assistant-limits.tsx"
+    }
+  ]
+}

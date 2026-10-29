@@ -1,3 +1,4 @@
+import { DesignHowLibrary } from "./DesignHowLibrary";
 import { ResourceExport } from "./ResourceExport";
 import "./archive-gallery.css";
 import React, { useEffect, useState, useRef } from "react";
@@ -19,6 +20,18 @@ const systems = [
     name: "Lime",
     zh: "个人助手与消费类应用",
     en: "Personal assistants and consumer apps",
+  },
+  {
+    id: "sodium",
+    name: "Sodium",
+    zh: "基础设施与数据工具",
+    en: "Infrastructure and data tools",
+  },
+  {
+    id: "glaze",
+    name: "Glaze",
+    zh: "AI 产品与简洁黑白界面",
+    en: "AI products with compact black and white interfaces",
   },
 ] as const;
 export function SystemLibrary({ lang }: { lang: string }) {
@@ -76,10 +89,10 @@ export function SystemLibrary({ lang }: { lang: string }) {
               }}
             >
               <img
-                src={`/system-covers/${id}.svg`}
+                src={`/system-covers/${id}.png`}
                 alt=""
-                width="600"
-                height="320"
+                width="1500"
+                height="938"
               />
               <div className="system-cover-label">
                 <strong>{name}</strong>
@@ -94,21 +107,24 @@ export function SystemLibrary({ lang }: { lang: string }) {
           ))}
         </nav>
       )}
-        {selected && (
-          <>
-            <div className="system-detail-toolbar">
-              <button
-                onClick={() => {
-                  setSelected("");
-                  history.pushState(null, "", "?provider=systems");
-                }}
-              >
-                {t("← 返回设计系统", "← All design systems")}
-              </button>
-            </div>
-            <div className="resource-detail-heading">
-              <h2>{name}</h2>
-            </div>
+      {selected && (
+        <>
+          <div className="system-detail-toolbar">
+            <button
+              onClick={() => {
+                setSelected("");
+                history.pushState(null, "", "?provider=systems");
+              }}
+            >
+              {t("← 返回设计系统", "← All design systems")}
+            </button>
+          </div>
+          <div className="resource-detail-heading">
+            <h2>{name}</h2>
+          </div>
+          {selected !== "happyhands" ? (
+            <DesignHowLibrary key={selected} system={selected} lang={lang} />
+          ) : (
             <div className="resource-detail-layout system-reference-layout">
               <div className="resource-detail-preview">
                 <iframe
@@ -143,8 +159,9 @@ export function SystemLibrary({ lang }: { lang: string }) {
                 ]}
               />
             </div>
-          </>
-        )}
+          )}
+        </>
+      )}
     </main>
   );
 }

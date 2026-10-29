@@ -1,0 +1,82 @@
+{
+ "id": "4fc7a535-3c99-4ffe-8365-7d025d33274e",
+ "slug": "surfshark-4fc7a535",
+ "name": "Surfshark",
+ "site_url": "https://surfshark.com",
+ "lastmod": "2026-06-05T10:46:21.276Z",
+ "extracted_at": "2026-06-03T21:03:35.803Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "crisp ocean horizon at golden hour — warm coral sun meets teal sea, all floating on white sand",
+ "fonts": [
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#1ebfbf",
+   "name": "Surfshark Teal"
+  },
+  {
+   "hex": "#fa3556",
+   "name": "Coral Pulse"
+  },
+  {
+   "hex": "#ffc200",
+   "name": "Promo Gold"
+  },
+  {
+   "hex": "#16191c",
+   "name": "Charcoal Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#f9f9f9",
+   "name": "Fog White"
+  },
+  {
+   "hex": "#e8f7f8",
+   "name": "Tide Tint"
+  },
+  {
+   "hex": "#dadadd",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#bfbfc0",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#5b6065",
+   "name": "Slate"
+  },
+  {
+   "hex": "#393e41",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#1e2327",
+   "name": "Deep Abyss"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/7e3d9268-e308-4b13-9fac-b901aa0cdb88.mp4",
+  "poster": "https://happyhands.cc/design-archive/surfshark-4fc7a535/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/surfshark-4fc7a535/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/surfshark-4fc7a535/thumbnail.jpg"
+}

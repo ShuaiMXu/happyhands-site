@@ -1,0 +1,50 @@
+{
+ "id": "82d52a5f-b1bb-4a69-91a3-15a7eb8bbe99",
+ "slug": "thoughtlab-82d52a5f",
+ "name": "ThoughtLab",
+ "site_url": "https://www.thoughtlab.com",
+ "lastmod": "2026-07-03T11:23:15.270Z",
+ "extracted_at": "2026-07-03T03:42:08.490Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "Obsidian monument with crimson signal. A void-black canvas where a single saturated red pill is the only chromatic object in a cathedral of oversized white type.",
+ "fonts": [
+  "sui"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Ash"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Frost"
+  },
+  {
+   "hex": "#4c4c4c",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#fc1c46",
+   "name": "Crimson Signal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/504bf76a-aab7-459c-9496-1f520fd0324a.mp4",
+  "poster": "https://happyhands.cc/design-archive/thoughtlab-82d52a5f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/thoughtlab-82d52a5f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/thoughtlab-82d52a5f/thumbnail.jpg"
+}

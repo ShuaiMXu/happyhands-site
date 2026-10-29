@@ -1,0 +1,68 @@
+{
+ "id": "8b91f4c9-74e5-4925-90a3-3dd31fd5725e",
+ "slug": "say-briefly-8b91f4c9",
+ "name": "Say Briefly",
+ "site_url": "https://saybriefly.com",
+ "lastmod": "2026-06-03T20:25:11.566Z",
+ "extracted_at": "2026-06-03T20:25:11.561Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "creative agency sketchbook on cream paper",
+ "fonts": [
+  "Bricolage Grotesque",
+  "Inter",
+  "Roboto Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#1a3300",
+   "name": "Forest Ink"
+  },
+  {
+   "hex": "#ffe95c",
+   "name": "Highlighter Yellow"
+  },
+  {
+   "hex": "#fcfaf5",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#b6b6b6",
+   "name": "Pencil Gray"
+  },
+  {
+   "hex": "#f1f1f1",
+   "name": "Whisper Gray"
+  },
+  {
+   "hex": "#a8e5e5",
+   "name": "Sticky Note Teal"
+  },
+  {
+   "hex": "#d5f5c2",
+   "name": "Sticky Note Mint"
+  },
+  {
+   "hex": "#f6d0ff",
+   "name": "Sticky Note Blush"
+  },
+  {
+   "hex": "#cb5521",
+   "name": "Terracotta"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a7059b6f-eb40-4185-aa75-1fd5ea1f1648.mp4",
+  "poster": "https://happyhands.cc/design-archive/say-briefly-8b91f4c9/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/say-briefly-8b91f4c9/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/say-briefly-8b91f4c9/thumbnail.jpg"
+}

@@ -1,0 +1,82 @@
+{
+ "id": "4ce66adb-ed8b-4e71-8066-15d92c4d2be0",
+ "slug": "status-4ce66adb",
+ "name": "Status",
+ "site_url": "https://status.app",
+ "lastmod": "2026-06-05T07:16:48.070Z",
+ "extracted_at": "2026-06-03T19:22:22.652Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "crypto",
+ "north_star": "encrypted vault behind midnight glass — a dark security console where the only color is a single violet signal lamp",
+ "fonts": [
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#09101c",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#131d2f",
+   "name": "Slate Depth"
+  },
+  {
+   "hex": "#1b273d",
+   "name": "Steel Edge"
+  },
+  {
+   "hex": "#3a4049",
+   "name": "Graphite Plate"
+  },
+  {
+   "hex": "#647084",
+   "name": "Slate Mist"
+  },
+  {
+   "hex": "#a1abbd",
+   "name": "Ash Light"
+  },
+  {
+   "hex": "#dce0e5",
+   "name": "Pale Mist"
+  },
+  {
+   "hex": "#f0f2f5",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#2a4af5",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#7140fd",
+   "name": "Status Violet"
+  },
+  {
+   "hex": "#2a799b",
+   "name": "Deep Teal"
+  },
+  {
+   "hex": "#f6b03c",
+   "name": "Amber Glow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/40fe681b-2b22-4b7d-b772-75797a2b04d5.mp4",
+  "poster": "https://happyhands.cc/design-archive/status-4ce66adb/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/status-4ce66adb/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/status-4ce66adb/thumbnail.jpg"
+}

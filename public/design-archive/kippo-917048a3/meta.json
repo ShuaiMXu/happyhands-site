@@ -1,0 +1,58 @@
+{
+ "id": "917048a3-53b3-44e6-ab33-faefc4dcc9df",
+ "slug": "kippo-917048a3",
+ "name": "Kippo",
+ "site_url": "https://kippo.com",
+ "lastmod": "2026-06-05T10:34:40.210Z",
+ "extracted_at": "2026-06-03T20:51:47.605Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "other",
+ "north_star": "Pixel arcade boot screen in a black void. Monospace glyphs traced in white neon against a pure black void, with a single hot-pink power-up color that should feel rare and electric when it appears.",
+ "fonts": [
+  "Source Code Pro"
+ ],
+ "colors": [
+  {
+   "hex": "#ee1f66",
+   "name": "Kippo Pink"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#29292a",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#333333",
+   "name": "Ash"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Ghost White"
+  },
+  {
+   "hex": "#ffc400",
+   "name": "Sunset Gradient"
+  },
+  {
+   "hex": "#33beff",
+   "name": "Terminal Cyan"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/dfca15fd-0067-4d33-8242-0b38597abb05.mp4",
+  "poster": "https://happyhands.cc/design-archive/kippo-917048a3/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/kippo-917048a3/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/kippo-917048a3/thumbnail.jpg"
+}

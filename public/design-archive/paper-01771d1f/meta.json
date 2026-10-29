@@ -1,0 +1,96 @@
+{
+ "id": "01771d1f-43c6-4e91-88c5-e4d213fe4ff2",
+ "slug": "paper-01771d1f",
+ "name": "Paper",
+ "site_url": "https://paper.design",
+ "lastmod": "2026-06-03T21:09:54.609Z",
+ "extracted_at": "2026-06-03T21:09:54.602Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "warm paper notebook under studio lights",
+ "fonts": [
+  "Matter",
+  "Inter",
+  "Paper Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#efefe4",
+   "name": "Bone Canvas"
+  },
+  {
+   "hex": "#fcfcf9",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bright Card"
+  },
+  {
+   "hex": "#f3f3f4",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e3e3e3",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#d7d7d6",
+   "name": "Stone"
+  },
+  {
+   "hex": "#c1c1c0",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#a8a8a8",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#909090",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#83837e",
+   "name": "Slate"
+  },
+  {
+   "hex": "#666666",
+   "name": "Iron"
+  },
+  {
+   "hex": "#434341",
+   "name": "Lava"
+  },
+  {
+   "hex": "#222222",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#181818",
+   "name": "Ink"
+  },
+  {
+   "hex": "#5d8cd7",
+   "name": "Studio Blue"
+  },
+  {
+   "hex": "#81adec",
+   "name": "Wash Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/528ce8c4-3a5d-438b-b11d-de5dede50267.mp4",
+  "poster": "https://happyhands.cc/design-archive/paper-01771d1f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/paper-01771d1f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/paper-01771d1f/thumbnail.jpg"
+}

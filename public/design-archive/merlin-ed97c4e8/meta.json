@@ -1,0 +1,86 @@
+{
+ "id": "ed97c4e8-4b0c-46b7-9957-c814854229f7",
+ "slug": "merlin-ed97c4e8",
+ "name": "Merlin",
+ "site_url": "https://www.merlin.computer",
+ "lastmod": "2026-06-03T19:40:20.467Z",
+ "extracted_at": "2026-06-03T19:40:20.463Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Handwritten margin notes on white paper. A calm off-white page where one vivid green dot says yes, soft pastel light bleeds in from the edges, and Inter does the heavy talking.",
+ "fonts": [
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#f5f5f4",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Card Snow"
+  },
+  {
+   "hex": "#fdf8f7",
+   "name": "Blush Mist"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#1c1d1f",
+   "name": "Body Charcoal"
+  },
+  {
+   "hex": "#6a6b6c",
+   "name": "Steel Gray"
+  },
+  {
+   "hex": "#808080",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#aaaaaa",
+   "name": "Ash"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#dddddd",
+   "name": "Mist"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#34c759",
+   "name": "Signal Green"
+  },
+  {
+   "hex": "#3575f8",
+   "name": "Link Blue"
+  },
+  {
+   "hex": "#96dfff",
+   "name": "Dawn Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ec57bf30-3f55-47f1-895e-bb333174899f.mp4",
+  "poster": "https://happyhands.cc/design-archive/merlin-ed97c4e8/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/merlin-ed97c4e8/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/merlin-ed97c4e8/thumbnail.jpg"
+}

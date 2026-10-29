@@ -1,0 +1,47 @@
+{
+ "id": "4433dfe7-315a-4459-bfd7-f59ccdc09bad",
+ "slug": "atoms-4433dfe7",
+ "name": "Atoms",
+ "site_url": "https://atoms.co",
+ "lastmod": "2026-06-03T18:52:37.329Z",
+ "extracted_at": "2026-06-03T18:52:37.323Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ai",
+ "north_star": "obsidian monolith in candlelight — a near-black canvas where a single warm champagne accent cuts like a blade through the darkness",
+ "fonts": [
+  "Switzer",
+  "system-ui sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#c8ad86",
+   "name": "Champagne Gold"
+  },
+  {
+   "hex": "#fff7dd",
+   "name": "Candlelight Cream"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian Black"
+  },
+  {
+   "hex": "#66635f",
+   "name": "Ember Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8e7caba7-0fb9-45a9-87a6-80226fafafb8.mp4",
+  "poster": "https://happyhands.cc/design-archive/atoms-4433dfe7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/atoms-4433dfe7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/atoms-4433dfe7/thumbnail.jpg"
+}

@@ -1,0 +1,108 @@
+{
+ "id": "b5ca4e9a-2322-4796-b4c5-3b3bf194821f",
+ "slug": "clay-b5ca4e9a",
+ "name": "Clay",
+ "site_url": "https://clay.com",
+ "lastmod": "2026-06-05T00:49:37.602Z",
+ "extracted_at": "2026-06-03T15:15:51.913Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Bright playroom of clay shapes on white paper. A monochrome workspace punctuated by vivid, hand-rolled chromatic objects that feel weighty and tactile.",
+ "fonts": [
+  "Roobert",
+  "Phosphor",
+  "Phosphor-Bold"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f9f8f6",
+   "name": "Warm Cream"
+  },
+  {
+   "hex": "#dad4c8",
+   "name": "Sand Border"
+  },
+  {
+   "hex": "#e6e8ec",
+   "name": "Cool Mist"
+  },
+  {
+   "hex": "#55534e",
+   "name": "Stone Gray"
+  },
+  {
+   "hex": "#9f9b93",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#222222",
+   "name": "Slate Gray"
+  },
+  {
+   "hex": "#3859f9",
+   "name": "Violet Pulse"
+  },
+  {
+   "hex": "#b8a5e8",
+   "name": "Lavender Banner"
+  },
+  {
+   "hex": "#0ec5b0",
+   "name": "Teal Mark"
+  },
+  {
+   "hex": "#cbd810",
+   "name": "Lime Slide"
+  },
+  {
+   "hex": "#ff7614",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#429dff",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#3bd3fd",
+   "name": "Aqua Splash"
+  },
+  {
+   "hex": "#0667d9",
+   "name": "Cobalt"
+  },
+  {
+   "hex": "#02693e",
+   "name": "Forest"
+  },
+  {
+   "hex": "#8b045c",
+   "name": "Magenta"
+  },
+  {
+   "hex": "#f8b9e3",
+   "name": "Blush"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/1b70d739-8478-4f47-baa7-07d68f8ff84c.mp4",
+  "poster": "https://happyhands.cc/design-archive/clay-b5ca4e9a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/clay-b5ca4e9a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/clay-b5ca4e9a/thumbnail.jpg"
+}

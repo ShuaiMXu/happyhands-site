@@ -1,0 +1,68 @@
+{
+ "id": "3c605c8e-daf2-4d46-94d7-2cb705a93b7b",
+ "slug": "arket-3c605c8e",
+ "name": "ARKET",
+ "site_url": "https://arket.com",
+ "lastmod": "2026-06-03T18:04:39.062Z",
+ "extracted_at": "2026-06-03T18:04:39.057Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Scandinavian white gallery. Full-bleed photography on bone-white canvases, hairline rules, and a small-caps monospace labeling each section like a museum wall tag.",
+ "fonts": [
+  "Arket Sans",
+  "arketSansMono",
+  "arketSCSansMono"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#eaeae8",
+   "name": "Linen"
+  },
+  {
+   "hex": "#e0e0e0",
+   "name": "Mist"
+  },
+  {
+   "hex": "#333333",
+   "name": "Slate"
+  },
+  {
+   "hex": "#666666",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#767676",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#080808",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#3860be",
+   "name": "Indigo Whisper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/de5a52c5-2aa8-4837-b962-ec09d7760963.mp4",
+  "poster": "https://happyhands.cc/design-archive/arket-3c605c8e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/arket-3c605c8e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/arket-3c605c8e/thumbnail.jpg"
+}

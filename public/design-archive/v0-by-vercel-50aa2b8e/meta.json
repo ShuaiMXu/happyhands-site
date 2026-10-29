@@ -1,0 +1,59 @@
+{
+ "id": "50aa2b8e-4760-4379-a3c1-59b65d8576a7",
+ "slug": "v0-by-vercel-50aa2b8e",
+ "name": "v0 by Vercel",
+ "site_url": "https://v0.dev",
+ "lastmod": "2026-06-05T03:21:22.269Z",
+ "extracted_at": "2026-04-11T17:39:37.040Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "",
+ "north_star": "A Machinist's Blueprint. Precision and function are paramount, with every element serving a clear purpose on a clean, technical surface.",
+ "fonts": [
+  "GeistSans",
+  "GeistMono"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#fafafa",
+   "name": "Canvas"
+  },
+  {
+   "hex": "#eaeaea",
+   "name": "Line"
+  },
+  {
+   "hex": "#666666",
+   "name": "Subtext"
+  },
+  {
+   "hex": "#7d7d7d",
+   "name": "Icon"
+  },
+  {
+   "hex": "#171717",
+   "name": "Ink"
+  },
+  {
+   "hex": "#000000",
+   "name": "Onyx"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5976b4e0-597a-466c-9146-9463f72eb575.mp4",
+  "poster": "https://happyhands.cc/design-archive/v0-by-vercel-50aa2b8e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/v0-by-vercel-50aa2b8e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/v0-by-vercel-50aa2b8e/thumbnail.jpg"
+}

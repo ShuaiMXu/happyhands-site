@@ -1,0 +1,75 @@
+{
+ "id": "19f92be1-65ac-4432-a82b-0aa1e685d97d",
+ "slug": "sst-19f92be1",
+ "name": "SST",
+ "site_url": "https://sst.dev",
+ "lastmod": "2026-06-05T04:53:49.700Z",
+ "extracted_at": "2026-06-03T18:26:05.623Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "Code terminal in a gallery. The config file is the artwork; everything else is a clean white frame.",
+ "fonts": [
+  "IBM Plex Mono",
+  "Rubik Variable"
+ ],
+ "colors": [
+  {
+   "hex": "#303055",
+   "name": "SST Ink"
+  },
+  {
+   "hex": "#8844ae",
+   "name": "Code Plum"
+  },
+  {
+   "hex": "#3b61b0",
+   "name": "Code Cobalt"
+  },
+  {
+   "hex": "#096e72",
+   "name": "Code Teal"
+  },
+  {
+   "hex": "#984e4d",
+   "name": "Code Rust"
+  },
+  {
+   "hex": "#403f53",
+   "name": "Slate"
+  },
+  {
+   "hex": "#767682",
+   "name": "Fog"
+  },
+  {
+   "hex": "#a8a8b0",
+   "name": "Mist"
+  },
+  {
+   "hex": "#111111",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#e8e8f2",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/1cd63ef5-9049-4485-901d-b53bd96a638f.mp4",
+  "poster": "https://happyhands.cc/design-archive/sst-19f92be1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/sst-19f92be1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/sst-19f92be1/thumbnail.jpg"
+}

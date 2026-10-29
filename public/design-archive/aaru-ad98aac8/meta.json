@@ -1,0 +1,67 @@
+{
+ "id": "ad98aac8-347c-47da-91c5-9c020febeb92",
+ "slug": "aaru-ad98aac8",
+ "name": "Aaru",
+ "site_url": "https://aaru.com",
+ "lastmod": "2026-06-03T18:10:01.781Z",
+ "extracted_at": "2026-06-03T18:10:01.777Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ai",
+ "north_star": "Particle-field observatory at midnight",
+ "fonts": [
+  "abcOracle",
+  "gtPantheon"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#0a0a0a",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#18181b",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Frost"
+  },
+  {
+   "hex": "#bababa",
+   "name": "Ash"
+  },
+  {
+   "hex": "#9d9d9d",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#858484",
+   "name": "Slate"
+  },
+  {
+   "hex": "#ebfb10",
+   "name": "Reactor Lime"
+  },
+  {
+   "hex": "#1019ec",
+   "name": "Plasma Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/9c29c2fd-1f82-440b-be2a-6510014d3fca.mp4",
+  "poster": "https://happyhands.cc/design-archive/aaru-ad98aac8/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/aaru-ad98aac8/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/aaru-ad98aac8/thumbnail.jpg"
+}

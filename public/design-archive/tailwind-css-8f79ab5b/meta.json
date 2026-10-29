@@ -1,0 +1,103 @@
+{
+ "id": "8f79ab5b-a91a-4bf4-a64f-4a5ba3ada7d5",
+ "slug": "tailwind-css-8f79ab5b",
+ "name": "Tailwind CSS",
+ "site_url": "https://tailwindcss.com",
+ "lastmod": "2026-05-11T16:25:39.831Z",
+ "extracted_at": "2026-04-11T18:03:36.589Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "",
+ "north_star": "Type specimen as product demo — a typographer's proof sheet where the headline IS the interface, bold black at 96px demanding attention through size alone.",
+ "fonts": [
+  "Inter",
+  "IBM Plex Mono (plexMono)"
+ ],
+ "colors": [
+  {
+   "hex": "#030712",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#4a5565",
+   "name": "Slate Mist"
+  },
+  {
+   "hex": "#6a7282",
+   "name": "Slate Mid"
+  },
+  {
+   "hex": "#364153",
+   "name": "Slate Cool"
+  },
+  {
+   "hex": "#90a1b9",
+   "name": "Steel Veil"
+  },
+  {
+   "hex": "#cad5e2",
+   "name": "Fog Line"
+  },
+  {
+   "hex": "#1e2939",
+   "name": "Slate Deep"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#bfbfbf",
+   "name": "Off White"
+  },
+  {
+   "hex": "#00a6f4",
+   "name": "Syntax Sky"
+  },
+  {
+   "hex": "#74d4ff",
+   "name": "Syntax Cyan"
+  },
+  {
+   "hex": "#e60076",
+   "name": "Syntax Rose"
+  },
+  {
+   "hex": "#f6339a",
+   "name": "Neon Pink"
+  },
+  {
+   "hex": "#e12afb",
+   "name": "Electric Violet"
+  },
+  {
+   "hex": "#96f7e4",
+   "name": "Mint Glow"
+  },
+  {
+   "hex": "#00598a",
+   "name": "Ocean Depth"
+  },
+  {
+   "hex": "#fb64b6",
+   "name": "Blush Silk"
+  },
+  {
+   "hex": "#bedbff",
+   "name": "Powder Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4dca95a1-20e1-41b1-988d-42f2bfbd97c0.mp4",
+  "poster": "https://happyhands.cc/design-archive/tailwind-css-8f79ab5b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/tailwind-css-8f79ab5b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/tailwind-css-8f79ab5b/thumbnail.jpg"
+}

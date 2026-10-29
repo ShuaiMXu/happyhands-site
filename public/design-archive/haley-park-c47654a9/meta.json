@@ -1,0 +1,52 @@
+{
+ "id": "c47654a9-7d7a-4b2c-8e0a-cd9296719c69",
+ "slug": "haley-park-c47654a9",
+ "name": "Haley Park",
+ "site_url": "https://haleys.design",
+ "lastmod": "2026-06-05T05:16:04.427Z",
+ "extracted_at": "2026-06-03T18:37:23.330Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "design",
+ "north_star": "Illuminated manuscript on forest vellum",
+ "fonts": [
+  "EditorialOld",
+  "Wispy",
+  "Old Standard TT",
+  "GTA",
+  "bodoni-classic-ornaments",
+  "altesse-std-24pt",
+  "ui-sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#143930",
+   "name": "Pine Vellum"
+  },
+  {
+   "hex": "#456859",
+   "name": "Cedar Stroke"
+  },
+  {
+   "hex": "#f8f2de",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#bead89",
+   "name": "Aged Tan"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/7f283c77-fc8a-4474-bfd8-43096e9bc5d1.mp4",
+  "poster": "https://happyhands.cc/design-archive/haley-park-c47654a9/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/haley-park-c47654a9/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/haley-park-c47654a9/thumbnail.jpg"
+}

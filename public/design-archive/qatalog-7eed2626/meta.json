@@ -1,0 +1,76 @@
+{
+ "id": "7eed2626-ab11-472c-b04a-603476ff8957",
+ "slug": "qatalog-7eed2626",
+ "name": "Qatalog",
+ "site_url": "https://qatalog.com",
+ "lastmod": "2026-06-05T06:32:33.734Z",
+ "extracted_at": "2026-06-03T19:08:14.403Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "ink on paper with two violet sparks",
+ "fonts": [
+  "Plus Jakarta Sans",
+  "Inter",
+  "Sometype Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#292d34",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#646464",
+   "name": "Slate"
+  },
+  {
+   "hex": "#202020",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Black"
+  },
+  {
+   "hex": "#838383",
+   "name": "Ash"
+  },
+  {
+   "hex": "#e8e8e8",
+   "name": "Fog"
+  },
+  {
+   "hex": "#f0f0f0",
+   "name": "Mist"
+  },
+  {
+   "hex": "#7b68ee",
+   "name": "Iris"
+  },
+  {
+   "hex": "#514b81",
+   "name": "Aubergine"
+  },
+  {
+   "hex": "#a43cb4",
+   "name": "Prism"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5e512ce4-54fc-4a44-9866-679d4b2868df.mp4",
+  "poster": "https://happyhands.cc/design-archive/qatalog-7eed2626/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/qatalog-7eed2626/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/qatalog-7eed2626/thumbnail.jpg"
+}

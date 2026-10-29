@@ -1,0 +1,66 @@
+{
+ "id": "8d315332-6267-4dc0-a14c-e8b49c26b0e1",
+ "slug": "sonos-8d315332",
+ "name": "Sonos",
+ "site_url": "https://sonos.com",
+ "lastmod": "2026-06-03T18:34:54.176Z",
+ "extracted_at": "2026-06-03T18:34:54.165Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Gallery wall of warm light",
+ "fonts": [
+  "aktiv-grotesk"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f5f5f5",
+   "name": "Concrete"
+  },
+  {
+   "hex": "#2e2e2e",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#e0e0e0",
+   "name": "Mist"
+  },
+  {
+   "hex": "#cdcdcd",
+   "name": "Ash"
+  },
+  {
+   "hex": "#bfbfbf",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#737373",
+   "name": "Slate"
+  },
+  {
+   "hex": "#5f5f5f",
+   "name": "Charcoal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/fd94b564-92ae-44b1-8621-8b15e93fabf4.mp4",
+  "poster": "https://happyhands.cc/design-archive/sonos-8d315332/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/sonos-8d315332/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/sonos-8d315332/thumbnail.jpg"
+}

@@ -1,0 +1,84 @@
+{
+ "id": "87574d45-e35d-4ffd-8560-99fee4008d2b",
+ "slug": "kikin-87574d45",
+ "name": "Kikin",
+ "site_url": "https://www.kikin.io",
+ "lastmod": "2026-06-03T21:22:45.757Z",
+ "extracted_at": "2026-06-03T21:22:45.752Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "fintech",
+ "north_star": "Vintage park-poster on cream paper — a financial product wearing a patch jacket.",
+ "fonts": [
+  "Deacon",
+  "Graphik",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#122315",
+   "name": "Forest Ink"
+  },
+  {
+   "hex": "#55dd4a",
+   "name": "Meadow"
+  },
+  {
+   "hex": "#566053",
+   "name": "Sage Border"
+  },
+  {
+   "hex": "#77e46e",
+   "name": "Lichen"
+  },
+  {
+   "hex": "#f3ede4",
+   "name": "Paper Cream"
+  },
+  {
+   "hex": "#333333",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#141414",
+   "name": "Slate"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Frost"
+  },
+  {
+   "hex": "#999c91",
+   "name": "Moss Gray"
+  },
+  {
+   "hex": "#626d66",
+   "name": "Driftwood"
+  },
+  {
+   "hex": "#73d3eb",
+   "name": "River Blue"
+  },
+  {
+   "hex": "#ffed52",
+   "name": "Sun Yellow"
+  },
+  {
+   "hex": "#0a071b",
+   "name": "Deep Navy"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c9f610b8-ff9e-4478-bf49-a8d93ab1f43a.mp4",
+  "poster": "https://happyhands.cc/design-archive/kikin-87574d45/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/kikin-87574d45/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/kikin-87574d45/thumbnail.jpg"
+}

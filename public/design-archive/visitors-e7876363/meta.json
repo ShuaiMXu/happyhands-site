@@ -1,0 +1,90 @@
+{
+ "id": "e7876363-181a-44a9-9e5c-2255cf98aea5",
+ "slug": "visitors-e7876363",
+ "name": "Visitors",
+ "site_url": "https://visitors.now",
+ "lastmod": "2026-07-03T10:55:30.097Z",
+ "extracted_at": "2026-07-03T03:27:12.471Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "white engineering blueprint",
+ "fonts": [
+  "OpenRunde"
+ ],
+ "colors": [
+  {
+   "hex": "#181925",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#fafafa",
+   "name": "Linen"
+  },
+  {
+   "hex": "#f5f5f5",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e8e8e8",
+   "name": "Fog"
+  },
+  {
+   "hex": "#999999",
+   "name": "Ash"
+  },
+  {
+   "hex": "#666666",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#918df6",
+   "name": "Lavender"
+  },
+  {
+   "hex": "#9580ff",
+   "name": "Iris"
+  },
+  {
+   "hex": "#33c758",
+   "name": "Mint"
+  },
+  {
+   "hex": "#def6e4",
+   "name": "Mint Wash"
+  },
+  {
+   "hex": "#ffa600",
+   "name": "Amber"
+  },
+  {
+   "hex": "#2c78fc",
+   "name": "Sky"
+  },
+  {
+   "hex": "#d6409f",
+   "name": "Magenta"
+  },
+  {
+   "hex": "#ff3e00",
+   "name": "Ember"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8fd35090-e656-45b5-9c11-e62f403297d9.mp4",
+  "poster": "https://happyhands.cc/design-archive/visitors-e7876363/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/visitors-e7876363/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/visitors-e7876363/thumbnail.jpg"
+}

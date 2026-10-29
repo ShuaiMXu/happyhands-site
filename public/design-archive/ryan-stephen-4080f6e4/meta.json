@@ -1,0 +1,47 @@
+{
+ "id": "4080f6e4-e61c-4d3c-ab93-de74a1b5dfc2",
+ "slug": "ryan-stephen-4080f6e4",
+ "name": "Ryan Stephen",
+ "site_url": "https://www.ryanstephen.co",
+ "lastmod": "2026-06-05T11:22:55.395Z",
+ "extracted_at": "2026-06-03T21:18:51.229Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "Quiet gallery wall on white plaster — the portfolio is the product, the UI is invisible.",
+ "fonts": [
+  "sans-serif",
+  "system-ui"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#404040",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#8b8b94",
+   "name": "Warm Ash"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Plaster White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/7509a965-b409-472b-b6d3-6fc5eadd4921.mp4",
+  "poster": "https://happyhands.cc/design-archive/ryan-stephen-4080f6e4/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ryan-stephen-4080f6e4/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ryan-stephen-4080f6e4/thumbnail.jpg"
+}

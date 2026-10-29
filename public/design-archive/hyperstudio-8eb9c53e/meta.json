@@ -1,0 +1,71 @@
+{
+ "id": "8eb9c53e-d69c-497a-b640-610856cf3a60",
+ "slug": "hyperstudio-8eb9c53e",
+ "name": "Hyperstudio",
+ "site_url": "https://hyperstudio.org",
+ "lastmod": "2026-07-03T10:00:29.488Z",
+ "extracted_at": "2026-07-03T02:53:12.382Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "blueprint scratched into obsidian. Type and hairline borders carve white space from pure black, with the occasional gold compass-mark to show the way.",
+ "fonts": [
+  "Aeonik",
+  "Input"
+ ],
+ "colors": [
+  {
+   "hex": "#101010",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#080808",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#f3f3f3",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#9c9c9c",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#c1c1c1",
+   "name": "Ash"
+  },
+  {
+   "hex": "#212121",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#474747",
+   "name": "Iron"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Signal White"
+  },
+  {
+   "hex": "#6f6759",
+   "name": "Compass Gold"
+  },
+  {
+   "hex": "#3b3d45",
+   "name": "Card Slate"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/04ca64c8-c090-4178-b691-6d44a6959d9c.mp4",
+  "poster": "https://happyhands.cc/design-archive/hyperstudio-8eb9c53e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/hyperstudio-8eb9c53e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/hyperstudio-8eb9c53e/thumbnail.jpg"
+}

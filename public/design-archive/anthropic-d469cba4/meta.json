@@ -1,0 +1,76 @@
+{
+ "id": "d469cba4-c448-4a43-a033-883f8bfcdc42",
+ "slug": "anthropic-d469cba4",
+ "name": "Anthropic",
+ "site_url": "https://anthropic.com",
+ "lastmod": "2026-07-03T10:12:17.026Z",
+ "extracted_at": "2026-07-03T03:04:05.854Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "scientific field journal on warm parchment — quiet ivory surfaces, editorial serif headlines, and a single clay accent that only appears when you must act",
+ "fonts": [
+  "Anthropic Serif",
+  "Anthropic Sans",
+  "Anthropic Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#141413",
+   "name": "Slate Dark"
+  },
+  {
+   "hex": "#f0eee6",
+   "name": "Ivory Medium"
+  },
+  {
+   "hex": "#faf9f5",
+   "name": "Ivory Light"
+  },
+  {
+   "hex": "#b0aea5",
+   "name": "Cloud Medium"
+  },
+  {
+   "hex": "#87867f",
+   "name": "Cloud Dark"
+  },
+  {
+   "hex": "#cccbc8",
+   "name": "Stone"
+  },
+  {
+   "hex": "#3d3d3a",
+   "name": "Slate Medium"
+  },
+  {
+   "hex": "#e3dacc",
+   "name": "Oat Warm"
+  },
+  {
+   "hex": "#f5e3c7",
+   "name": "Manilla"
+  },
+  {
+   "hex": "#d97757",
+   "name": "Clay"
+  },
+  {
+   "hex": "#c6613f",
+   "name": "Clay Deep"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ab07727d-2f9a-4368-b39b-34b7420003ec.mp4",
+  "poster": "https://happyhands.cc/design-archive/anthropic-d469cba4/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/anthropic-d469cba4/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/anthropic-d469cba4/thumbnail.jpg"
+}

@@ -1,0 +1,102 @@
+{
+ "id": "abbaa70a-5fe2-44a9-9c5f-272e68c450c3",
+ "slug": "customer-io-abbaa70a",
+ "name": "Customer.io",
+ "site_url": "https://customer.io",
+ "lastmod": "2026-07-03T10:56:23.495Z",
+ "extracted_at": "2026-07-03T03:27:31.150Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "saas",
+ "north_star": "dark spruce forest meeting cream paper",
+ "fonts": [
+  "Saans"
+ ],
+ "colors": [
+  {
+   "hex": "#00191c",
+   "name": "Spruce Abyss"
+  },
+  {
+   "hex": "#032125",
+   "name": "Spruce 900"
+  },
+  {
+   "hex": "#0b363b",
+   "name": "Spruce 700"
+  },
+  {
+   "hex": "#437278",
+   "name": "Spruce 500"
+  },
+  {
+   "hex": "#a1c2c6",
+   "name": "Spruce 200"
+  },
+  {
+   "hex": "#354d51",
+   "name": "Spruce Mist"
+  },
+  {
+   "hex": "#ebebeb",
+   "name": "Charcoal 100"
+  },
+  {
+   "hex": "#fafafa",
+   "name": "Charcoal Mist"
+  },
+  {
+   "hex": "#fffcf6",
+   "name": "Cream Warm"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#abffae",
+   "name": "Verdant 300"
+  },
+  {
+   "hex": "#eafde8",
+   "name": "Verdant Whisper"
+  },
+  {
+   "hex": "#123a88",
+   "name": "Wave 700"
+  },
+  {
+   "hex": "#0a6de6",
+   "name": "Wave 500"
+  },
+  {
+   "hex": "#e2f4ff",
+   "name": "Wave Frost"
+  },
+  {
+   "hex": "#863d1c",
+   "name": "Zest 700"
+  },
+  {
+   "hex": "#fdf0e9",
+   "name": "Zest Blush"
+  },
+  {
+   "hex": "#83611c",
+   "name": "Mustard 700"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/7326c195-3c35-4d2e-ad6a-487ec6841c03.mp4",
+  "poster": "https://happyhands.cc/design-archive/customer-io-abbaa70a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/customer-io-abbaa70a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/customer-io-abbaa70a/thumbnail.jpg"
+}

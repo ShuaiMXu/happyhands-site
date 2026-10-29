@@ -1,0 +1,55 @@
+{
+ "id": "707a1648-eaef-4629-9c5a-b835cedde250",
+ "slug": "earlydog-707a1648",
+ "name": "Earlydog",
+ "site_url": "https://www.earlydog.com",
+ "lastmod": "2026-06-05T01:47:30.836Z",
+ "extracted_at": "2026-06-03T16:52:39.979Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "Bauhaus poster pinned to a cloud architect's corkboard — cream paper, primary-color shapes, oversized geometric type.",
+ "fonts": [
+  "degular-display",
+  "usual"
+ ],
+ "colors": [
+  {
+   "hex": "#fff9f0",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#000609",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#0a65db",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#ee4623",
+   "name": "Ember Red"
+  },
+  {
+   "hex": "#ffd23f",
+   "name": "Saffron Yellow"
+  },
+  {
+   "hex": "#f4c6c6",
+   "name": "Blush Pink"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b52bda63-c4e0-4af8-84a7-aa9373c55354.mp4",
+  "poster": "https://happyhands.cc/design-archive/earlydog-707a1648/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/earlydog-707a1648/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/earlydog-707a1648/thumbnail.jpg"
+}

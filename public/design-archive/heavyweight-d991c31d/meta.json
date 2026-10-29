@@ -1,0 +1,54 @@
+{
+ "id": "d991c31d-2ffa-4a94-ab37-7f7d8f7d6a0c",
+ "slug": "heavyweight-d991c31d",
+ "name": "Heavyweight",
+ "site_url": "https://heavyweight-type.com",
+ "lastmod": "2026-06-03T21:02:00.460Z",
+ "extracted_at": "2026-06-03T21:02:00.456Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "Paper specimen archive. A wall of photographed letterforms printed on textured stock, hung on a cool off-white gallery wall with hairline frames.",
+ "fonts": [
+  "Nuckle"
+ ],
+ "colors": [
+  {
+   "hex": "#f3f5fa",
+   "name": "Canvas Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Card White"
+  },
+  {
+   "hex": "#222222",
+   "name": "Press Black"
+  },
+  {
+   "hex": "#2d2d2d",
+   "name": "Hairline Char"
+  },
+  {
+   "hex": "#888888",
+   "name": "Mute Slate"
+  },
+  {
+   "hex": "#39d17f",
+   "name": "New Mint"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/33a78428-e60d-41a7-be8e-5f2bd8887290.mp4",
+  "poster": "https://happyhands.cc/design-archive/heavyweight-d991c31d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/heavyweight-d991c31d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/heavyweight-d991c31d/thumbnail.jpg"
+}

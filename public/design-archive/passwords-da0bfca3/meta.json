@@ -1,0 +1,67 @@
+{
+ "id": "da0bfca3-df1d-49d9-ae25-61d8f348426f",
+ "slug": "passwords-da0bfca3",
+ "name": "Passwords",
+ "site_url": "https://1password.com",
+ "lastmod": "2026-05-11T16:25:39.831Z",
+ "extracted_at": "2026-04-11T17:49:18.534Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "",
+ "north_star": "Secure Airlock Behind Glass. A system that moves from the protective dark of an airlock to the bright clarity of a control room.",
+ "fonts": [
+  "agileSans",
+  "ui-sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#145fe4",
+   "name": "Brand Blue"
+  },
+  {
+   "hex": "#145fe4",
+   "name": "Hero Fade"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#1d1d21",
+   "name": "Deep Space"
+  },
+  {
+   "hex": "#242529",
+   "name": "Void"
+  },
+  {
+   "hex": "#303136",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#d7d7db",
+   "name": "Ash"
+  },
+  {
+   "hex": "#cbb88",
+   "name": "Warning Tan"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5bcfc11b-17ac-419f-92d6-1b31b77ccfb0.mp4",
+  "poster": "https://happyhands.cc/design-archive/passwords-da0bfca3/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/passwords-da0bfca3/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/passwords-da0bfca3/thumbnail.jpg"
+}

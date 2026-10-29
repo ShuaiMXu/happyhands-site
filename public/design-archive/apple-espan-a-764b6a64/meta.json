@@ -1,0 +1,86 @@
+{
+ "id": "764b6a64-c233-4e0f-b8e1-bc01e2f8aa16",
+ "slug": "apple-espan-a-764b6a64",
+ "name": "Apple (España)",
+ "site_url": "https://www.apple.com/macbook-pro",
+ "lastmod": "2026-07-03T03:37:17.050Z",
+ "extracted_at": "2026-07-03T03:37:16.981Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ecommerce",
+ "north_star": "black theater with luminous hardware",
+ "fonts": [
+  "SF Pro Display",
+  "SF Pro Display",
+  "SF Pro Text",
+  "SF Pro Text",
+  "SF Pro Text"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "True Black"
+  },
+  {
+   "hex": "#1d1d1f",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#333336",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#424245",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#86868b",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Platinum"
+  },
+  {
+   "hex": "#f5f5f7",
+   "name": "Silk"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#0071e3",
+   "name": "Apple Blue"
+  },
+  {
+   "hex": "#2997ff",
+   "name": "Link Blue"
+  },
+  {
+   "hex": "#0066cc",
+   "name": "Deep Link"
+  },
+  {
+   "hex": "#b64400",
+   "name": "Ember"
+  },
+  {
+   "hex": "#45657d",
+   "name": "M5 Spectrum Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/371d1284-32f3-417a-889c-39b771518a16.mp4",
+  "poster": "https://happyhands.cc/design-archive/apple-espan-a-764b6a64/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/apple-espan-a-764b6a64/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/apple-espan-a-764b6a64/thumbnail.jpg"
+}

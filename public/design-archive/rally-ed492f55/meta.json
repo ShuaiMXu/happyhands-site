@@ -1,0 +1,47 @@
+{
+ "id": "ed492f55-eddf-40ed-81cb-550b013787c8",
+ "slug": "rally-ed492f55",
+ "name": "Rally",
+ "site_url": "https://rally.space",
+ "lastmod": "2026-06-03T22:10:03.794Z",
+ "extracted_at": "2026-06-03T22:10:03.790Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "saas",
+ "north_star": "Cosmic farewell observatory",
+ "fonts": [
+  "TikTok Sans Variable",
+  "system-ui sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#0d100d",
+   "name": "Void"
+  },
+  {
+   "hex": "#08102b",
+   "name": "Midnight Surface"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Halo"
+  },
+  {
+   "hex": "#000000",
+   "name": "Hairline"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a7f50124-13c5-4b3f-acaf-6a4abef39886.mp4",
+  "poster": "https://happyhands.cc/design-archive/rally-ed492f55/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/rally-ed492f55/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/rally-ed492f55/thumbnail.jpg"
+}

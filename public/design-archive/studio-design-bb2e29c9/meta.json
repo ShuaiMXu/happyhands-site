@@ -1,0 +1,58 @@
+{
+ "id": "bb2e29c9-d20a-4b8d-8959-5b506f517ec4",
+ "slug": "studio-design-bb2e29c9",
+ "name": "Studio.Design",
+ "site_url": "https://studio.design",
+ "lastmod": "2026-09-20T22:07:51.418Z",
+ "extracted_at": "2026-09-20T22:02:50.965Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "Gallery wall in motion. Build each screen as a quiet gray exhibition surface where editorial typography and overlapping creative work compete for attention.",
+ "fonts": [
+  "sans-serif",
+  "Inter",
+  "Inter Tight",
+  "Arial",
+  "Font Awesome 6 Brands"
+ ],
+ "colors": [
+  {
+   "hex": "#eeeeee",
+   "name": "Studio Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#222222",
+   "name": "Charcoal Ink"
+  },
+  {
+   "hex": "#333333",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#555555",
+   "name": "Soft Ash"
+  },
+  {
+   "hex": "#000000",
+   "name": "Absolute Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/56a7fee9-5711-4844-b21f-7d99e488b465.mp4",
+  "poster": "https://happyhands.cc/design-archive/studio-design-bb2e29c9/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/studio-design-bb2e29c9/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/studio-design-bb2e29c9/thumbnail.jpg"
+}

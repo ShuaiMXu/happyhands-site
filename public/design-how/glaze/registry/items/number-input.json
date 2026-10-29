@@ -1,0 +1,33 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "number-input",
+ "type": "registry:ui",
+ "title": "Number input",
+ "description": "Takes a number and steps it.",
+ "author": "design.how",
+ "categories": [
+  "inputs"
+ ],
+ "dependencies": [
+  "@base-ui/react@^1.8.0"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/glaze/field.json",
+  "https://design.how/r/glaze/icon.json",
+  "https://design.how/r/glaze/input.json",
+  "https://design.how/r/glaze/theme.json",
+  "https://design.how/r/glaze/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/glaze/components/number-input.md",
+  "page": "https://design.how/systems/glaze/components/number-input"
+ },
+ "files": [
+  {
+   "path": "registry/glaze/ui/number-input.tsx",
+   "content": "'use client';\n\nimport type {ReactNode, Ref} from 'react';\nimport {NumberField as NumberFieldPrimitive} from '@base-ui/react/number-field';\nimport {Icon, Add, Subtract} from '@/components/glaze/icon';\nimport {cn} from '@/lib/glaze/utils';\nimport {useFieldDisabled} from '@/components/glaze/ui/field';\nimport {InputAction, InputLeading, InputRoot, InputTrailing, type InputSize} from '@/components/glaze/ui/input';\n\n// Glaze's number input, on Base UI's NumberField: a number in Input's pill, with a step down at its start and a step\n// up at its end. The steppers are InputActions, ghost and round, 3px inside the line like every action in a field, so\n// the pill reads − value + and stays concentric. The value is centred in tabular figures; a unit (\"ms\", \"tokens\")\n// follows it in text-3, inside the pill.\n//\n// Base UI does the arithmetic: the arrow keys step, Shift steps by largeStep and Alt by smallStep, holding a stepper\n// repeats, and a typed number is read and clamped on blur. A stepper turns off at its bound. The steppers stay out of\n// the tab order: the keys already step from the text, so one tab stop is enough.\n\ntype NumberInputProps = Omit<NumberFieldPrimitive.Root.Props, 'className' | 'render' | 'onValueChange'> & {\n  /** 26, 32 or 36px. Match the buttons and fields beside it. */\n  size?: InputSize;\n  /** Text after the value, inside the pill: \"ms\", \"tokens\", \"USD\". Also read after the value. */\n  unit?: string;\n  /** Before the steppers: an icon or a currency sign. */\n  leading?: ReactNode;\n  onValueChange?: (value: number | null) => void;\n  placeholder?: string;\n  className?: string;\n  'aria-label'?: string;\n  'aria-describedby'?: string;\n  'aria-invalid'?: boolean;\n  ref?: Ref<HTMLInputElement>;\n};\n\n/** A stepper is a control, so its glyph is text-2 at rest; at its bound, or in a disabled field, it drops to\n    text-disabled and loses its wash. At text-3 the drop to text-disabled was too small to read as off. */\nconst stepperClass = '[&_svg]:text-text-2 disabled:bg-transparent disabled:text-text-disabled data-disabled:bg-transparent data-disabled:text-text-disabled aria-disabled:text-text-disabled aria-disabled:hover:bg-transparent disabled:[&_svg]:text-text-disabled! aria-disabled:[&_svg]:text-text-disabled!';\n\nconst textSize: Record<InputSize, string> = {sm: 'type-caption', default: 'type-body-sm', lg: 'type-body'};\n\nfunction NumberInput({size = 'default', unit, leading, placeholder, className, disabled: disabledProp, onValueChange, 'aria-label': ariaLabel, 'aria-describedby': describedBy, 'aria-invalid': invalid, ref, ...props}: NumberInputProps) {\n  const disabled = useFieldDisabled() || !!disabledProp;\n  const forced = Object.fromEntries(Object.entries(props).filter(([k]) => k.startsWith('data-force-')));\n  const rest = Object.fromEntries(Object.entries(props).filter(([k]) => !k.startsWith('data-force-'))) as typeof props;\n  return <NumberFieldPrimitive.Root\n    data-slot=\"number-input\"\n    disabled={disabled}\n    onValueChange={v => onValueChange?.(v)}\n    {...rest}\n  >\n    <NumberFieldPrimitive.Group\n      data-slot=\"number-input-group\"\n      render={<InputRoot size={size} disabled={disabled} readOnly={props.readOnly}/>}\n      data-invalid={invalid || undefined}\n      // A stepper at its bound is a disabled button inside the pill, which the field recipe would read as a disabled field.\n      className={cn('gap-1 px-3 not-data-disabled:bg-paper! not-data-disabled:text-text-1!', className)}\n      {...forced}\n    >\n      {leading !== undefined && <InputLeading>{leading}</InputLeading>}\n      <InputLeading>\n        <NumberFieldPrimitive.Decrement data-slot=\"number-input-decrement\" aria-label=\"Decrease\" tabIndex={-1} render={<InputAction className={stepperClass}/>}><Icon icon={Subtract}/></NumberFieldPrimitive.Decrement>\n      </InputLeading>\n      <span className=\"flex min-w-0 flex-1 items-center justify-center gap-1\">\n        <NumberFieldPrimitive.Input\n          ref={ref}\n          data-slot=\"number-input-control\"\n          data-control=\"\"\n          placeholder={placeholder}\n          aria-label={ariaLabel}\n          aria-describedby={describedBy}\n          aria-invalid={invalid || undefined}\n          className={cn('h-full w-full min-w-0 bg-transparent text-text-1 data disabled:text-text-disabled placeholder:text-text-3 disabled:cursor-not-allowed', textSize[size], unit ? 'w-auto min-w-4 text-end field-sizing-content' : 'text-center')}\n        />\n        {unit && <span data-slot=\"number-input-unit\" aria-hidden className={cn('shrink-0 text-text-3 group-data-disabled/input:text-text-disabled', textSize[size])}>{unit}</span>}\n      </span>\n      <InputTrailing>\n        <NumberFieldPrimitive.Increment data-slot=\"number-input-increment\" aria-label=\"Increase\" tabIndex={-1} render={<InputAction className={stepperClass}/>}><Icon icon={Add}/></NumberFieldPrimitive.Increment>\n      </InputTrailing>\n    </NumberFieldPrimitive.Group>\n  </NumberFieldPrimitive.Root>;\n}\n\nexport {NumberInput, type NumberInputProps};\n",
+   "type": "registry:ui",
+   "target": "@components/glaze/ui/number-input.tsx"
+  }
+ ]
+}

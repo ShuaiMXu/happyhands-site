@@ -1,0 +1,74 @@
+{
+ "id": "8d4a4e15-31f1-4509-8d13-7746f85c20d7",
+ "slug": "rows-8d4a4e15",
+ "name": "Rows",
+ "site_url": "https://rows.com",
+ "lastmod": "2026-06-05T04:27:56.172Z",
+ "extracted_at": "2026-06-03T18:13:51.806Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "blank spreadsheet at dawn — calm, precise, one warm spark on cold white",
+ "fonts": [
+  "Output Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#1a1a1a",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f7f7f7",
+   "name": "Mist"
+  },
+  {
+   "hex": "#eaeaea",
+   "name": "Ash"
+  },
+  {
+   "hex": "#e1e1e1",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#838383",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#989898",
+   "name": "Steel"
+  },
+  {
+   "hex": "#6f6f6f",
+   "name": "Slate"
+  },
+  {
+   "hex": "#ffb84d",
+   "name": "Marigold"
+  },
+  {
+   "hex": "#ffe480",
+   "name": "Buttercream"
+  },
+  {
+   "hex": "#fff6d4",
+   "name": "Cream"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/bc142462-ca72-4746-9fc2-c20d858efb47.mp4",
+  "poster": "https://happyhands.cc/design-archive/rows-8d4a4e15/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/rows-8d4a4e15/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/rows-8d4a4e15/thumbnail.jpg"
+}

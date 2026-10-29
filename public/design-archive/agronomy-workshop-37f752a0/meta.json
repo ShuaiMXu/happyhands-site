@@ -1,0 +1,70 @@
+{
+ "id": "37f752a0-879e-4451-a4a4-0a82896e3890",
+ "slug": "agronomy-workshop-37f752a0",
+ "name": "Agronomy Workshop",
+ "site_url": "https://agronomywork.shop",
+ "lastmod": "2026-06-03T21:02:25.019Z",
+ "extracted_at": "2026-06-03T21:02:25.014Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "newsprint zine taped to a workshop wall",
+ "fonts": [
+  "Gerstner Programm FSL Regular",
+  "OT Neue Montreal Medium Semi Squeezed",
+  "Gerstner Programm FSL",
+  "ABC Marfa Mono",
+  "system sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#0076ff",
+   "name": "Workshop Blue"
+  },
+  {
+   "hex": "#f4eb59",
+   "name": "Hail Yellow"
+  },
+  {
+   "hex": "#c3d7ee",
+   "name": "Pale Sky"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Canvas"
+  },
+  {
+   "hex": "#eeede8",
+   "name": "Bone"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#1e1e1e",
+   "name": "Press Black"
+  },
+  {
+   "hex": "#888888",
+   "name": "Smudge"
+  },
+  {
+   "hex": "#666666",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0ae4f411-a5b7-4085-8c8e-51545a306f30.mp4",
+  "poster": "https://happyhands.cc/design-archive/agronomy-workshop-37f752a0/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/agronomy-workshop-37f752a0/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/agronomy-workshop-37f752a0/thumbnail.jpg"
+}

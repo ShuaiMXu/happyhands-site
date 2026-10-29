@@ -1,0 +1,31 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "segmented",
+ "type": "registry:ui",
+ "title": "Segmented",
+ "description": "A short row of exclusive options, such as Week, Month and Year.",
+ "author": "design.how",
+ "categories": [
+  "selection"
+ ],
+ "dependencies": [
+  "@base-ui/react@^1.8.0",
+  "class-variance-authority@^0.7.1"
+ ],
+ "registryDependencies": [
+  "https://design.how/r/lime/theme.json",
+  "https://design.how/r/lime/utils.json"
+ ],
+ "meta": {
+  "docs": "https://design.how/systems/lime/components/segmented.md",
+  "page": "https://design.how/systems/lime/components/segmented"
+ },
+ "files": [
+  {
+   "path": "registry/lime/ui/segmented.tsx",
+   "content": "'use client';\n\nimport {Radio as RadioPrimitive} from '@base-ui/react/radio';\nimport {RadioGroup as RadioGroupPrimitive} from '@base-ui/react/radio-group';\nimport {cva, type VariantProps} from 'class-variance-authority';\nimport {createContext, useContext} from 'react';\nimport {mergeClass} from '@/lib/lime/utils';\n\n// A short row of exclusive options that sets a value: Grid or List, Weekly or Monthly, 9:16 or 16:9. The\n// chosen segment is a white pill lifted off the grey track. Arrow keys move and choose. Two to five\n// segments; for more use Select, and to switch a panel of content use Tabs.\n\nconst trackVariants = cva('inline-flex w-fit max-w-full items-stretch gap-0.5 rounded-control bg-surface-2 p-0.5', {\n  variants: {\n    size: {sm: 'h-(--control-sm)', md: 'h-(--control-md)'},\n    fill: {true: 'flex w-full *:flex-1', false: ''},\n  },\n  defaultVariants: {size: 'md', fill: false},\n});\n\nconst SizeContext = createContext<'sm' | 'md'>('md');\n\ntype SegmentedProps = Omit<RadioGroupPrimitive.Props, 'onValueChange'> & VariantProps<typeof trackVariants> & {\n  onValueChange?: (value: string) => void;\n};\n\nfunction Segmented({className, size = 'md', fill, onValueChange, children, ...props}: SegmentedProps) {\n  return (\n    <SizeContext.Provider value={size ?? 'md'}>\n      <RadioGroupPrimitive\n        data-slot=\"segmented\"\n        onValueChange={value => onValueChange?.(value as string)}\n        className={mergeClass(trackVariants({size, fill}), className)}\n        {...props}\n      >\n        {children}\n      </RadioGroupPrimitive>\n    </SizeContext.Provider>\n  );\n}\n\nfunction SegmentedItem({className, children, ...props}: RadioPrimitive.Root.Props) {\n  const size = useContext(SizeContext);\n  return (\n    <RadioPrimitive.Root\n      data-slot=\"segmented-item\"\n      className={mergeClass([\n        'inline-flex min-w-0 cursor-pointer items-center justify-center gap-1.5 rounded-control px-3 font-medium whitespace-nowrap text-fg-2 select-none',\n        'transition-[background-color,color,box-shadow] duration-(--dur-fast) ease-out',\n        'hover:not-data-disabled:not-data-checked:text-fg data-checked:bg-raised data-checked:text-fg data-checked:shadow-card',\n        'data-disabled:cursor-not-allowed data-disabled:text-fg-disabled',\n        size === 'sm' ? 'text-xs' : 'text-sm',\n      ], className)}\n      {...props}\n    >\n      {/* A text label truncates when the track runs out of room, rather than spilling into its neighbour. */}\n      {typeof children === 'string' ? <span className=\"truncate\">{children}</span> : children}\n    </RadioPrimitive.Root>\n  );\n}\n\nexport {Segmented, SegmentedItem, trackVariants};\n",
+   "type": "registry:ui",
+   "target": "@components/lime/ui/segmented.tsx"
+  }
+ ]
+}

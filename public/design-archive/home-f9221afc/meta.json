@@ -1,0 +1,44 @@
+{
+ "id": "f9221afc-f5cb-4de8-89cd-40172e765124",
+ "slug": "home-f9221afc",
+ "name": "Home",
+ "site_url": "https://www.airtree.vc",
+ "lastmod": "2026-06-05T10:50:21.548Z",
+ "extracted_at": "2026-06-03T21:07:46.701Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "Sunlit eucalyptus grove on warm parchment — the design rests on a cream page where ink-black type and a single electric yellow accent do all the talking.",
+ "fonts": [
+  "Prody",
+  "SuisseIntl",
+  "SuisseIntl Book"
+ ],
+ "colors": [
+  {
+   "hex": "#f7f6e3",
+   "name": "Parchment Cream"
+  },
+  {
+   "hex": "#262d29",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffff48",
+   "name": "Electric Lemon"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/25795c44-a860-4e47-950f-b0150b5baddf.mp4",
+  "poster": "https://happyhands.cc/design-archive/home-f9221afc/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/home-f9221afc/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/home-f9221afc/thumbnail.jpg"
+}

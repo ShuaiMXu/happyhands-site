@@ -1,0 +1,72 @@
+{
+ "id": "ea8a4150-e062-4c0e-94ca-668a3033eb63",
+ "slug": "gitbook-ea8a4150",
+ "name": "Gitbook",
+ "site_url": "https://www.gitbook.com",
+ "lastmod": "2026-06-05T04:41:33.863Z",
+ "extracted_at": "2026-06-03T18:19:14.652Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "warm-white architecture studio with orange highlighter marks",
+ "fonts": [
+  "sans-serif",
+  "General Sans Variable",
+  "General Sans",
+  "Inter",
+  "Geist Mono",
+  "General Sans Variable Variable Bold",
+  "Space Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#fe551b",
+   "name": "Flame Orange"
+  },
+  {
+   "hex": "#1c1917",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#fafaf9",
+   "name": "Bone"
+  },
+  {
+   "hex": "#efeeed",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#57534d",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#79716b",
+   "name": "Stone"
+  },
+  {
+   "hex": "#948d89",
+   "name": "Ash"
+  },
+  {
+   "hex": "#000000",
+   "name": "True Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8fa1efbb-8c22-45a4-a9b0-e7a262973076.mp4",
+  "poster": "https://happyhands.cc/design-archive/gitbook-ea8a4150/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/gitbook-ea8a4150/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/gitbook-ea8a4150/thumbnail.jpg"
+}

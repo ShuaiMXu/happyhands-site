@@ -1,0 +1,74 @@
+{
+ "id": "80b2cc74-62c5-4898-bc2b-12aa94ed2943",
+ "slug": "design-full-time-80b2cc74",
+ "name": "Design Full-Time",
+ "site_url": "https://designfulltime.com",
+ "lastmod": "2026-06-05T11:34:34.235Z",
+ "extracted_at": "2026-06-03T21:30:15.398Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "other",
+ "north_star": "black-box cinema with a single warm spotlight",
+ "fonts": [
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#111111",
+   "name": "Surface Black"
+  },
+  {
+   "hex": "#252525",
+   "name": "Lifted Charcoal"
+  },
+  {
+   "hex": "#343434",
+   "name": "Border Gray"
+  },
+  {
+   "hex": "#4d4d4d",
+   "name": "Edge Gray"
+  },
+  {
+   "hex": "#888888",
+   "name": "Muted Text"
+  },
+  {
+   "hex": "#a0a0a0",
+   "name": "Helper Gray"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#ffc840",
+   "name": "Amber Glow"
+  },
+  {
+   "hex": "#ff8a00",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#fa3a19",
+   "name": "Crimson Heat"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6c0daecb-65d8-45f0-b3af-95b2a8f7e710.mp4",
+  "poster": "https://happyhands.cc/design-archive/design-full-time-80b2cc74/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/design-full-time-80b2cc74/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/design-full-time-80b2cc74/thumbnail.jpg"
+}

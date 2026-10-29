@@ -1,0 +1,87 @@
+{
+ "id": "04793c2a-ca1a-4edd-a661-56c965e42aec",
+ "slug": "grain-04793c2a",
+ "name": "Grain",
+ "site_url": "https://www.grain.com",
+ "lastmod": "2026-06-05T05:08:30.946Z",
+ "extracted_at": "2026-06-03T18:32:42.477Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "frosted glass desk with a single green pen",
+ "fonts": [
+  "Inter Variable",
+  "Poppins"
+ ],
+ "colors": [
+  {
+   "hex": "#009959",
+   "name": "Forest Ink"
+  },
+  {
+   "hex": "#00b96c",
+   "name": "Vine"
+  },
+  {
+   "hex": "#00ff95",
+   "name": "Neon Sprout"
+  },
+  {
+   "hex": "#3de1ff",
+   "name": "Ice Blue"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#141414",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#313232",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#545454",
+   "name": "Slate"
+  },
+  {
+   "hex": "#707070",
+   "name": "Fog"
+  },
+  {
+   "hex": "#949494",
+   "name": "Ash"
+  },
+  {
+   "hex": "#d6d6d6",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e6e6e6",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#f0f0f0",
+   "name": "Veil"
+  },
+  {
+   "hex": "#fafafa",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ebf7ce6f-2322-4468-aa77-c3abea40ab4a.mp4",
+  "poster": "https://happyhands.cc/design-archive/grain-04793c2a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/grain-04793c2a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/grain-04793c2a/thumbnail.jpg"
+}

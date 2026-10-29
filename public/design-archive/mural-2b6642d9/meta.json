@@ -1,0 +1,91 @@
+{
+ "id": "2b6642d9-fa66-4c06-9804-30f56e544a6d",
+ "slug": "mural-2b6642d9",
+ "name": "Mural",
+ "site_url": "https://mural.co",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-11T19:05:34.543Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "",
+ "north_star": "Blackboard flipping to whiteboard — same hand, same authority, opposite ground.",
+ "fonts": [
+  "STK Bureau",
+  "ABC Social"
+ ],
+ "colors": [
+  {
+   "hex": "#00c27a",
+   "name": "Jade CTA"
+  },
+  {
+   "hex": "#b4f5c8",
+   "name": "Mint Surface"
+  },
+  {
+   "hex": "#00843f",
+   "name": "Forest"
+  },
+  {
+   "hex": "#d5f8e0",
+   "name": "Badge Leaf"
+  },
+  {
+   "hex": "#007b3b",
+   "name": "Badge Text"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f3f3f3",
+   "name": "Fog"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Ash"
+  },
+  {
+   "hex": "#dce1e5",
+   "name": "Cool Grey"
+  },
+  {
+   "hex": "#8c8c8c",
+   "name": "Slate"
+  },
+  {
+   "hex": "#808080",
+   "name": "Stone"
+  },
+  {
+   "hex": "#4f5457",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#333333",
+   "name": "Ink"
+  },
+  {
+   "hex": "#626262",
+   "name": "Charcoal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6e2a5194-d9f2-44f6-9ad1-3b435f9e21e3.mp4",
+  "poster": "https://happyhands.cc/design-archive/mural-2b6642d9/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/mural-2b6642d9/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/mural-2b6642d9/thumbnail.jpg"
+}

@@ -1,0 +1,69 @@
+{
+ "id": "d91841cf-c717-43ef-97a2-400778fa6e1a",
+ "slug": "sweetgreen-d91841cf",
+ "name": "sweetgreen",
+ "site_url": "https://www.sweetgreen.com",
+ "lastmod": "2026-06-05T02:23:52.535Z",
+ "extracted_at": "2026-06-03T15:48:11.711Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "farm-stand chalkboard at golden hour",
+ "fonts": [
+  "SweetSans",
+  "Grenette",
+  "SweetSansText",
+  "SweetSansText-Regular"
+ ],
+ "colors": [
+  {
+   "hex": "#00473c",
+   "name": "Deep Forest"
+  },
+  {
+   "hex": "#e6ff55",
+   "name": "Lime Glow"
+  },
+  {
+   "hex": "#d8e5d6",
+   "name": "Sage Mist"
+  },
+  {
+   "hex": "#e8dcc6",
+   "name": "Warm Sand"
+  },
+  {
+   "hex": "#f4f3e7",
+   "name": "Cream Canvas"
+  },
+  {
+   "hex": "#0e150e",
+   "name": "Forest Shadow"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Ink"
+  },
+  {
+   "hex": "#8c8c82",
+   "name": "Warm Gray"
+  },
+  {
+   "hex": "#555555",
+   "name": "Slate Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/09530661-b0f4-48ba-a1f4-769c82cad061.mp4",
+  "poster": "https://happyhands.cc/design-archive/sweetgreen-d91841cf/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/sweetgreen-d91841cf/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/sweetgreen-d91841cf/thumbnail.jpg"
+}

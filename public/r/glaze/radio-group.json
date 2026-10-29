@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "radio-group",
+  "type": "registry:ui",
+  "title": "Radio group",
+  "description": "Picks one of a few choices.",
+  "author": "design.how",
+  "categories": [
+    "selection"
+  ],
+  "dependencies": [
+    "@base-ui/react@^1.8.0"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/theme.json",
+    "https://happyhands.cc/r/glaze/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/glaze/components/radio-group.md",
+    "page": "https://happyhands.cc/design-how/glaze/components/radio-group.md"
+  },
+  "files": [
+    {
+      "path": "registry/glaze/ui/radio-group.tsx",
+      "content": "'use client';\n\nimport {Radio as RadioPrimitive} from '@base-ui/react/radio';\nimport {RadioGroup as RadioGroupPrimitive} from '@base-ui/react/radio-group';\nimport {useId, type ReactNode} from 'react';\nimport {cn} from '@/lib/glaze/utils';\n\n// Glaze's radio group, on Base UI's RadioGroup and Radio. One tab stop for the group; the arrow keys move the choice.\n// Each radio is a 16px circle with a 1px line at ink 45%, the 3:1 edge a control needs, which turns text-2 under the\n// pointer. The chosen one is small glaze (glaze-sm) with a 6px dot in its glyph colour, so it reads from the fill and the\n// dot in both themes. Invalid (aria-invalid on the group) turns every unchosen circle's line coral. Disabled drops the\n// glaze to the flat grey field.\n//\n// Radios exist to compare a few choices, so RadioGroupOption carries each choice's consequence: a label and a line\n// under it, both inside one label so the whole row is the target, the line tied by aria-describedby. Arrowing through\n// the group, a screen reader hears \"Fast, about 2 seconds a reply, radio button, 2 of 3\", not three bare names.\n\ntype RadioGroupProps = RadioGroupPrimitive.Props & {'aria-invalid'?: boolean | 'true' | 'false'};\n\nfunction RadioGroup({className, 'aria-invalid': invalid, ...props}: RadioGroupProps) {\n  const isInvalid = invalid === true || invalid === 'true';\n  return <RadioGroupPrimitive\n    data-slot=\"radio-group\"\n    data-invalid={isInvalid || undefined}\n    aria-invalid={isInvalid || undefined}\n    className={state => cn('group/radio-group grid w-full gap-3', typeof className === 'function' ? className(state) : className)}\n    {...props}\n  />;\n}\n\nconst base = [\n  'peer relative inline-flex size-4 shrink-0 cursor-pointer items-center justify-center rounded-pill focus-sm [-webkit-tap-highlight-color:transparent]',\n  'after:absolute after:-inset-1.5',\n  'data-disabled:cursor-not-allowed data-readonly:cursor-default',\n  'forced-colors:border forced-colors:border-solid forced-colors:border-[CanvasText]',\n].join(' ');\nconst chosen = 'glaze-sm forced-colors:[forced-color-adjust:none] forced-colors:bg-[Highlight]';\nconst open = [\n  'border border-line-strong bg-paper transition-[border-color,background-color] duration-(--dur-state) ease-out',\n  'hover:not-data-disabled:not-data-readonly:group-not-data-invalid/radio-group:border-text-2 active:not-data-disabled:not-data-readonly:bg-pressed',\n  'group-data-invalid/radio-group:border-fail',\n  'data-disabled:border-line-control data-disabled:bg-field',\n].join(' ');\n\nfunction RadioGroupItem({className, ...props}: RadioPrimitive.Root.Props) {\n  return <RadioPrimitive.Root\n    data-slot=\"radio-group-item\"\n    className={state => cn(base, state.checked ? chosen : open, typeof className === 'function' ? className(state) : className)}\n    {...props}\n  >\n    <RadioPrimitive.Indicator data-slot=\"radio-group-indicator\" className=\"size-1.5 rounded-pill bg-current forced-colors:bg-[HighlightText]\"/>\n  </RadioPrimitive.Root>;\n}\n\ntype RadioGroupOptionProps = Omit<RadioPrimitive.Root.Props, 'children' | 'className'> & {\n  /** Classes for the row, a plain label around the radio. */\n  className?: string;\n  /** The choice's name, one to three words. */\n  label: ReactNode;\n  /** What picking it means: a limit, a price, a consequence. Read with the name. */\n  description?: ReactNode;\n};\n\n/** A radio with its label and an optional description in one target row. */\nfunction RadioGroupOption({label, description, className, ...props}: RadioGroupOptionProps) {\n  const id = useId();\n  return <label data-slot=\"radio-group-option\" className={cn('flex cursor-pointer items-start gap-3 has-data-disabled:cursor-not-allowed', className)}>\n    <RadioGroupItem aria-labelledby={`${id}-l`} aria-describedby={description ? `${id}-d` : undefined} {...props}/>\n    <span className=\"flex min-w-0 flex-col gap-0.5 peer-data-disabled:*:text-text-disabled\">\n      <span id={`${id}-l`} className=\"type-label text-text-1\">{label}</span>\n      {description && <span id={`${id}-d`} className=\"type-body-sm text-text-2\">{description}</span>}\n    </span>\n  </label>;\n}\n\nexport {RadioGroup, RadioGroupItem, RadioGroupOption, type RadioGroupProps, type RadioGroupOptionProps};\n",
+      "type": "registry:ui",
+      "target": "@components/glaze/ui/radio-group.tsx"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+ "id": "c072c00a-ee7f-4160-bd06-645cca12f7a8",
+ "slug": "dnco-c072c00a",
+ "name": "DNCO",
+ "site_url": "https://dnco.com",
+ "lastmod": "2026-06-05T11:26:28.349Z",
+ "extracted_at": "2026-06-03T20:17:25.554Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "editorial gallery on white linen.",
+ "fonts": [
+  "Neue Haas Unica Pro"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Canvas White"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Hairline Mist"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#a3a3a3",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4b26db23-aa46-469c-a423-39effbbc9504.mp4",
+  "poster": "https://happyhands.cc/design-archive/dnco-c072c00a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/dnco-c072c00a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/dnco-c072c00a/thumbnail.jpg"
+}

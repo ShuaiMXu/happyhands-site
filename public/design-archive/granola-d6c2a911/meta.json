@@ -1,0 +1,105 @@
+{
+ "id": "d6c2a911-45ed-4860-a992-43df22793c2a",
+ "slug": "granola-d6c2a911",
+ "name": "Granola",
+ "site_url": "https://www.granola.ai",
+ "lastmod": "2026-05-11T16:28:56.275Z",
+ "extracted_at": "2026-05-07T22:41:01.983Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Field notes on warm parchment — Granola reads like a well-worn Moleskine open on a sunlit desk: serifed headlines with editorial gravity, organic green accents like ink from a plant-based pen, and hairline-ruled card borders that suggest hand-drawn note margins.",
+ "fonts": [
+  "Melange",
+  "Quadrant",
+  "-apple-system / system-ui",
+  "system-ui"
+ ],
+ "colors": [
+  {
+   "hex": "#f7f7f2",
+   "name": "Parchment Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure Surface"
+  },
+  {
+   "hex": "#0e0f0c",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#292929",
+   "name": "Deep Charcoal"
+  },
+  {
+   "hex": "#454745",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#72726e",
+   "name": "Slate"
+  },
+  {
+   "hex": "#818179",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#e3e3e3",
+   "name": "Ash Border"
+  },
+  {
+   "hex": "#d5d5d2",
+   "name": "Stone Border"
+  },
+  {
+   "hex": "#eaebe5",
+   "name": "Fog Surface"
+  },
+  {
+   "hex": "#b2c248",
+   "name": "Olive Press"
+  },
+  {
+   "hex": "#5b6f00",
+   "name": "Forest CTA"
+  },
+  {
+   "hex": "#788c15",
+   "name": "Fern Border"
+  },
+  {
+   "hex": "#e5eacd",
+   "name": "Sprout Tint"
+  },
+  {
+   "hex": "#1d9bf0",
+   "name": "Twitter Blue"
+  },
+  {
+   "hex": "#006fd6",
+   "name": "Link Cobalt"
+  },
+  {
+   "hex": "#e95d3d",
+   "name": "Ember Fill"
+  },
+  {
+   "hex": "#bd4a30",
+   "name": "Ember Border"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/84f7a3c1-ca40-48c3-8a00-6ddd961e7360.mp4",
+  "poster": "https://happyhands.cc/design-archive/granola-d6c2a911/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/granola-d6c2a911/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/granola-d6c2a911/thumbnail.jpg"
+}

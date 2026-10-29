@@ -1,0 +1,67 @@
+{
+ "id": "46c16139-b0bb-49e6-95dc-74bef576e5ce",
+ "slug": "enviar-dinero-46c16139",
+ "name": "Enviar Dinero",
+ "site_url": "https://paypal.com",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-11T19:14:39.744Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "",
+ "north_star": "Electric Sky Wallet — a sky that you can spend from.",
+ "fonts": [
+  "Plain",
+  "PayPal Pro"
+ ],
+ "colors": [
+  {
+   "hex": "#60CDFF",
+   "name": "Cerulean Surge"
+  },
+  {
+   "hex": "#002991",
+   "name": "Cobalt Vault"
+  },
+  {
+   "hex": "#B8E9FF",
+   "name": "Ice Mist"
+  },
+  {
+   "hex": "#002991",
+   "name": "Cobalt Fade"
+  },
+  {
+   "hex": "#000000",
+   "name": "Midnight"
+  },
+  {
+   "hex": "#FFFFFF",
+   "name": "Snow"
+  },
+  {
+   "hex": "#F1EFEA",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#B3B3B3",
+   "name": "Ash"
+  },
+  {
+   "hex": "#CCCCCC",
+   "name": "Fog"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0ab0a7a2-7fa5-43e9-92f0-2039e467801a.mp4",
+  "poster": "https://happyhands.cc/design-archive/enviar-dinero-46c16139/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/enviar-dinero-46c16139/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/enviar-dinero-46c16139/thumbnail.jpg"
+}

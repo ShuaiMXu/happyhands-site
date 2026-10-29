@@ -1,0 +1,65 @@
+{
+ "id": "4d42420f-a7d4-499f-8025-5af294fff0f5",
+ "slug": "high-protein-4d42420f",
+ "name": "High Protein",
+ "site_url": "https://magicspoon.com",
+ "lastmod": "2026-09-24T17:58:47.014Z",
+ "extracted_at": "2026-09-24T17:41:21.018Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Magic Spoon — neon cereal arcade. Build expansive pastel aisles where vivid violet typography and playful packaged-product collisions feel like a snack shelf lit by an arcade glow.",
+ "fonts": [
+  "Poppins",
+  "Mabry Pro",
+  "Arial",
+  "Font Awesome 5 Pro"
+ ],
+ "colors": [
+  {
+   "hex": "#5b00ed",
+   "name": "Electric Grape"
+  },
+  {
+   "hex": "#3f0791",
+   "name": "Deep Concord"
+  },
+  {
+   "hex": "#e30ba6",
+   "name": "Bubblegum Flash"
+  },
+  {
+   "hex": "#bfefff",
+   "name": "Sky Scoop"
+  },
+  {
+   "hex": "#dad9ff",
+   "name": "Lilac Aisle"
+  },
+  {
+   "hex": "#cac4f4",
+   "name": "Soft Grape"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Marshmallow"
+  },
+  {
+   "hex": "#000000",
+   "name": "Midnight Cereal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c71ea138-670e-45e5-ae88-8fb5cb29bb1d.mp4",
+  "poster": "https://happyhands.cc/design-archive/high-protein-4d42420f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/high-protein-4d42420f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/high-protein-4d42420f/thumbnail.jpg"
+}

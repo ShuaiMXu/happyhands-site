@@ -1,0 +1,62 @@
+{
+ "id": "a74d60e1-0a09-48a1-8721-13f1f45727f1",
+ "slug": "safepal-a74d60e1",
+ "name": "Safepal",
+ "site_url": "https://www.safepal.com",
+ "lastmod": "2026-06-03T20:54:58.354Z",
+ "extracted_at": "2026-06-03T20:54:58.347Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "crypto",
+ "north_star": "Electric violet cosmos with mint stars. SafPal lives in a deep indigo night where the only warmth is a neon mint accent and a single violet that burns like a signal flare.",
+ "fonts": [
+  "AlibabaPuHuiTi-2"
+ ],
+ "colors": [
+  {
+   "hex": "#4a21ef",
+   "name": "Signal Violet"
+  },
+  {
+   "hex": "#79efbd",
+   "name": "Mint Pulse"
+  },
+  {
+   "hex": "#18d26e",
+   "name": "Terminal Green"
+  },
+  {
+   "hex": "#0d0b33",
+   "name": "Deep Indigo"
+  },
+  {
+   "hex": "#1d1d1d",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#f7f6ff",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#666666",
+   "name": "Steel Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6c86f983-f4bf-4813-9b3c-cb1ab5019b74.mp4",
+  "poster": "https://happyhands.cc/design-archive/safepal-a74d60e1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/safepal-a74d60e1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/safepal-a74d60e1/thumbnail.jpg"
+}

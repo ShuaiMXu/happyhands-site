@@ -1,0 +1,72 @@
+{
+ "id": "7368cfab-6313-4e50-97e5-c3318c52e7fe",
+ "slug": "heptabase-7368cfab",
+ "name": "Heptabase",
+ "site_url": "https://heptabase.com",
+ "lastmod": "2026-09-24T17:55:38.787Z",
+ "extracted_at": "2026-09-24T17:39:07.447Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Sunlit research desk. Warm paper-like surfaces, charcoal controls, and floating research windows make the interface feel like an organized study space rather than a software dashboard.",
+ "fonts": [
+  "Instrument Sans",
+  "Inter",
+  "ui-monospace"
+ ],
+ "colors": [
+  {
+   "hex": "#fdfcfb",
+   "name": "Eggshell Canvas"
+  },
+  {
+   "hex": "#f7f7f7",
+   "name": "Cloud Surface"
+  },
+  {
+   "hex": "#f0f0ea",
+   "name": "Paper Beige"
+  },
+  {
+   "hex": "#eeeded",
+   "name": "Whiteboard Gray"
+  },
+  {
+   "hex": "#e4ded3",
+   "name": "Linen Border"
+  },
+  {
+   "hex": "#2e2e2e",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#454545",
+   "name": "Charcoal Copy"
+  },
+  {
+   "hex": "#6a6972",
+   "name": "Quiet Gray"
+  },
+  {
+   "hex": "#a8a8a8",
+   "name": "Disabled Ash"
+  },
+  {
+   "hex": "#207dff",
+   "name": "Research Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e5a4f716-3e1a-45be-a687-9314826978b3.mp4",
+  "poster": "https://happyhands.cc/design-archive/heptabase-7368cfab/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/heptabase-7368cfab/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/heptabase-7368cfab/thumbnail.jpg"
+}

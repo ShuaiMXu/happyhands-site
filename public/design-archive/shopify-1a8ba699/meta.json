@@ -1,0 +1,95 @@
+{
+ "id": "1a8ba699-24cb-4b35-8db1-c595c578199c",
+ "slug": "shopify-1a8ba699",
+ "name": "Shopify",
+ "site_url": "https://shopify.com",
+ "lastmod": "2026-06-03T16:08:11.799Z",
+ "extracted_at": "2026-06-03T16:08:11.792Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ecommerce",
+ "north_star": "midnight bazaar under mint lanterns",
+ "fonts": [
+  "NeueHaasGrotesk",
+  "Inter-Variable"
+ ],
+ "colors": [
+  {
+   "hex": "#02090a",
+   "name": "Abyssal Ink"
+  },
+  {
+   "hex": "#041e18",
+   "name": "Forest Floor"
+  },
+  {
+   "hex": "#072720",
+   "name": "Deep Canopy"
+  },
+  {
+   "hex": "#000a1e",
+   "name": "Midnight Tinge"
+  },
+  {
+   "hex": "#093329",
+   "name": "Moss Border"
+  },
+  {
+   "hex": "#1e2c31",
+   "name": "Iron Veil"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Ghost White"
+  },
+  {
+   "hex": "#a1a1aa",
+   "name": "Ash Label"
+  },
+  {
+   "hex": "#71717a",
+   "name": "Slate Caption"
+  },
+  {
+   "hex": "#9dabad",
+   "name": "Sea Mist"
+  },
+  {
+   "hex": "#99b3ad",
+   "name": "Tide Pool"
+  },
+  {
+   "hex": "#36f4a4",
+   "name": "Mint Signal"
+  },
+  {
+   "hex": "#30deee",
+   "name": "Cyan Pulse"
+  },
+  {
+   "hex": "#5fd5b6",
+   "name": "Aurora Gradient"
+  },
+  {
+   "hex": "#244749",
+   "name": "Twilight Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c3d82ba5-f169-4eb7-ab9f-72c1fe7cf6cd.mp4",
+  "poster": "https://happyhands.cc/design-archive/shopify-1a8ba699/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/shopify-1a8ba699/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/shopify-1a8ba699/thumbnail.jpg"
+}

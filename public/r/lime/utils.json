@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "utils",
+  "type": "registry:lib",
+  "title": "cn",
+  "description": "Support file: cn, which merges class names and knows Lime's radius and shadow names, and mergeClass, which keeps Lime's classes when className is a function of state.",
+  "author": "design.how",
+  "categories": [
+    "internal"
+  ],
+  "dependencies": [
+    "clsx@^2.1.1",
+    "tailwind-merge@^3.7.0"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/lime/index.md",
+    "page": "https://happyhands.cc/design-how/lime/index.md"
+  },
+  "files": [
+    {
+      "path": "registry/lime/lib/utils.ts",
+      "content": "import {clsx, type ClassValue} from 'clsx';\nimport {extendTailwindMerge} from 'tailwind-merge';\n\n// Lime's own radius and shadow names, registered so tailwind-merge resolves conflicts between them:\n// rounded-panel replaces rounded-md, shadow-menu replaces shadow-card.\nconst twMerge = extendTailwindMerge({\n  extend: {\n    theme: {\n      radius: ['field', 'panel', 'sheet', 'control'],\n      shadow: ['card', 'menu', 'overlay'],\n    },\n  },\n});\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs));\n}\n\n/**\n * Lime's classes and the caller's, for a Base UI part whose className may be a function of its state (data-checked,\n * open, disabled ...). A function is composed, not passed through, so Lime's classes stay either way.\n */\nexport function mergeClass<State>(base: ClassValue, className: string | ((state: State) => string | undefined) | undefined): string | ((state: State) => string) {\n  return typeof className === 'function' ? (state: State) => cn(base, className(state)) : cn(base, className);\n}\n",
+      "type": "registry:lib",
+      "target": "@lib/lime/utils.ts"
+    }
+  ]
+}

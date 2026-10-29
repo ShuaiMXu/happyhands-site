@@ -1,0 +1,87 @@
+{
+ "id": "fabacd2a-acb6-46c4-939c-4a464df15440",
+ "slug": "aboard-fabacd2a",
+ "name": "Aboard",
+ "site_url": "https://aboardhr.com",
+ "lastmod": "2026-06-03T18:06:00.779Z",
+ "extracted_at": "2026-06-03T18:06:00.772Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "pastel paper notebook on a white desk",
+ "fonts": [
+  "system-ui",
+  "sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#fafafa",
+   "name": "Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#262626",
+   "name": "Ink"
+  },
+  {
+   "hex": "#757577",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#aeaeaf",
+   "name": "Ash"
+  },
+  {
+   "hex": "#000000",
+   "name": "Outline"
+  },
+  {
+   "hex": "#cdcdcd",
+   "name": "Shadow"
+  },
+  {
+   "hex": "#008ae8",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#e0f2fe",
+   "name": "Sky Tint"
+  },
+  {
+   "hex": "#fbcfe8",
+   "name": "Blush"
+  },
+  {
+   "hex": "#e6dafd",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#b6edee",
+   "name": "Mint Foam"
+  },
+  {
+   "hex": "#afe4ff",
+   "name": "Powder Blue"
+  },
+  {
+   "hex": "#ffe77a",
+   "name": "Butter"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4d4ca898-f81f-4e7d-bbc9-598d3ca25801.mp4",
+  "poster": "https://happyhands.cc/design-archive/aboard-fabacd2a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/aboard-fabacd2a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/aboard-fabacd2a/thumbnail.jpg"
+}

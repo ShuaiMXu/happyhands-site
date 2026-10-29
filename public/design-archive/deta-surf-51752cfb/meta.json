@@ -1,0 +1,77 @@
+{
+ "id": "51752cfb-4fd4-464f-8b78-ecbc813830e1",
+ "slug": "deta-surf-51752cfb",
+ "name": "Deta Surf",
+ "site_url": "https://deta.surf",
+ "lastmod": "2026-06-05T05:06:31.941Z",
+ "extracted_at": "2026-06-03T18:34:01.932Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Open notebook floating in a clear blue sky. A serif headline drifts above a pill-shaped search bar while tilted content cards orbit like ideas in a thought bubble.",
+ "fonts": [
+  "Switzer",
+  "Gambarino",
+  "Tanker",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#009afc",
+   "name": "Surf Blue"
+  },
+  {
+   "hex": "#006dc8",
+   "name": "Deep Current"
+  },
+  {
+   "hex": "#cfe9fd",
+   "name": "Sky Wash"
+  },
+  {
+   "hex": "#a8d5ff",
+   "name": "Sky Veil"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f3f4f6",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#d1d1d1",
+   "name": "Stone"
+  },
+  {
+   "hex": "#5b6882",
+   "name": "Slate Blue"
+  },
+  {
+   "hex": "#808080",
+   "name": "Silver"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6d16be97-4482-4311-85bd-4c26facf1c16.mp4",
+  "poster": "https://happyhands.cc/design-archive/deta-surf-51752cfb/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/deta-surf-51752cfb/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/deta-surf-51752cfb/thumbnail.jpg"
+}

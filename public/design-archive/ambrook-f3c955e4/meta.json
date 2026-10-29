@@ -1,0 +1,80 @@
+{
+ "id": "f3c955e4-0fea-462d-b05f-868552e9628c",
+ "slug": "ambrook-f3c955e4",
+ "name": "Ambrook",
+ "site_url": "https://ambrook.com",
+ "lastmod": "2026-06-03T20:05:27.382Z",
+ "extracted_at": "2026-06-03T20:05:27.377Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "harvest ledger on butcher paper",
+ "fonts": [
+  "Lateral",
+  "Lateral Narrow",
+  "Lateral Display"
+ ],
+ "colors": [
+  {
+   "hex": "#fcfaf1",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#efe9e0",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#c7bcaf",
+   "name": "Loam"
+  },
+  {
+   "hex": "#96897b",
+   "name": "Bark"
+  },
+  {
+   "hex": "#50463c",
+   "name": "Saddle"
+  },
+  {
+   "hex": "#211b15",
+   "name": "Ink"
+  },
+  {
+   "hex": "#252a23",
+   "name": "Charcoal Olive"
+  },
+  {
+   "hex": "#434f40",
+   "name": "Deep Olive"
+  },
+  {
+   "hex": "#7a9779",
+   "name": "Sage"
+  },
+  {
+   "hex": "#e8b672",
+   "name": "Honey Amber"
+  },
+  {
+   "hex": "#f0c891",
+   "name": "Wheat"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ff3e7a63-dbd6-44a9-b328-f7e49c7fa342.mp4",
+  "poster": "https://happyhands.cc/design-archive/ambrook-f3c955e4/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ambrook-f3c955e4/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ambrook-f3c955e4/thumbnail.jpg"
+}

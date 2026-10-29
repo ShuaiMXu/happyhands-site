@@ -1,0 +1,81 @@
+{
+ "id": "367c0c6e-73a7-441c-a8ff-91d139ac60dc",
+ "slug": "wise-367c0c6e",
+ "name": "Wise",
+ "site_url": "https://wise.com",
+ "lastmod": "2026-06-03T15:11:59.683Z",
+ "extracted_at": "2026-06-03T15:11:59.678Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "deep moss with lime voltage. Lime sparks on a near-black forest floor, with massive blocky display type announcing every move.",
+ "fonts": [
+  "Inter",
+  "Wise Sans",
+  "monospace",
+  "sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#163300",
+   "name": "Forest Ink"
+  },
+  {
+   "hex": "#9fe870",
+   "name": "Lime Voltage"
+  },
+  {
+   "hex": "#054d28",
+   "name": "Spruce"
+  },
+  {
+   "hex": "#e2f6d5",
+   "name": "Linen Mist"
+  },
+  {
+   "hex": "#0b4c72",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#cb272f",
+   "name": "Alarm Red"
+  },
+  {
+   "hex": "#454745",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#0e0f0c",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#868685",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#6a6c6a",
+   "name": "Slate"
+  },
+  {
+   "hex": "#e8ebe6",
+   "name": "Fog"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6e6ad2ff-26c5-4fb6-90dc-ee4c3d596ca7.mp4",
+  "poster": "https://happyhands.cc/design-archive/wise-367c0c6e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/wise-367c0c6e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/wise-367c0c6e/thumbnail.jpg"
+}

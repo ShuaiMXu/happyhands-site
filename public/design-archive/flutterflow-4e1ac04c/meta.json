@@ -1,0 +1,67 @@
+{
+ "id": "4e1ac04c-02ae-41cf-b588-3f6226a882f8",
+ "slug": "flutterflow-4e1ac04c",
+ "name": "FlutterFlow",
+ "site_url": "https://flutterflow.io",
+ "lastmod": "2026-06-05T04:39:30.955Z",
+ "extracted_at": "2026-06-03T18:18:05.828Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "violet control room at midnight",
+ "fonts": [
+  "Urbanist",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#5800fd",
+   "name": "Electric Violet"
+  },
+  {
+   "hex": "#2415c6",
+   "name": "Deep Indigo"
+  },
+  {
+   "hex": "#7066ed",
+   "name": "Periwinkle Glow"
+  },
+  {
+   "hex": "#4b39ef",
+   "name": "Halo Violet"
+  },
+  {
+   "hex": "#060311",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#161320",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#9ba1ae",
+   "name": "Slate Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "True Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/716415d3-1eaf-4f74-a335-55fb2a14dee3.mp4",
+  "poster": "https://happyhands.cc/design-archive/flutterflow-4e1ac04c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/flutterflow-4e1ac04c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/flutterflow-4e1ac04c/thumbnail.jpg"
+}

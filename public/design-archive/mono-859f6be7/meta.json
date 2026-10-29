@@ -1,0 +1,45 @@
+{
+ "id": "859f6be7-9d2d-4da6-a9b7-baa658172696",
+ "slug": "mono-859f6be7",
+ "name": "mono",
+ "site_url": "https://mono.frm.fm/en",
+ "lastmod": "2026-07-03T11:24:50.681Z",
+ "extracted_at": "2026-07-03T03:42:01.498Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "White-walled gallery grid. A page organized like a museum contact sheet — stark white cells, thin black rules, and type that floats without shadow or ornament.",
+ "fonts": [
+  "NH",
+  "S-Condensed",
+  "EV",
+  "S-Works"
+ ],
+ "colors": [
+  {
+   "hex": "#292929",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/9a3806cd-98fa-44b0-9346-4bcab325e5ce.mp4",
+  "poster": "https://happyhands.cc/design-archive/mono-859f6be7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/mono-859f6be7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/mono-859f6be7/thumbnail.jpg"
+}

@@ -1,0 +1,80 @@
+{
+ "id": "49dba9e1-0d9d-4997-805a-bfea7525252d",
+ "slug": "klarna-es-49dba9e1",
+ "name": "Klarna ES",
+ "site_url": "https://klarna.com",
+ "lastmod": "2026-06-03T18:25:49.320Z",
+ "extracted_at": "2026-06-03T18:25:49.316Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "midnight gallery with candy accents — a near-black plum void opens onto a warm bone-white floor scattered with vibrant product cards, anchored by oversized geometric type and pill-shaped controls.",
+ "fonts": [
+  "Klarna Title",
+  "Klarna Text",
+  "-apple-system"
+ ],
+ "colors": [
+  {
+   "hex": "#0b051d",
+   "name": "Midnight Plum"
+  },
+  {
+   "hex": "#2c2242",
+   "name": "Deep Plum"
+  },
+  {
+   "hex": "#aa89f2",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#e6ffa9",
+   "name": "Lime Sherbet"
+  },
+  {
+   "hex": "#ffa8cd",
+   "name": "Bubblegum Pink"
+  },
+  {
+   "hex": "#f9f8f5",
+   "name": "Warm Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#e2e2e7",
+   "name": "Silver Mist"
+  },
+  {
+   "hex": "#615f6d",
+   "name": "Storm Gray"
+  },
+  {
+   "hex": "#75727f",
+   "name": "Slate Gray"
+  },
+  {
+   "hex": "#373544",
+   "name": "Charcoal Plum"
+  },
+  {
+   "hex": "#999999",
+   "name": "Ash Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/80c32eee-46e2-406f-a820-a859c93dc0ac.mp4",
+  "poster": "https://happyhands.cc/design-archive/klarna-es-49dba9e1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/klarna-es-49dba9e1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/klarna-es-49dba9e1/thumbnail.jpg"
+}

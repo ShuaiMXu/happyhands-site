@@ -1,0 +1,63 @@
+{
+ "id": "37dd9612-4df0-4cdd-b942-bd97dd0efbd2",
+ "slug": "paragraph-37dd9612",
+ "name": "Paragraph",
+ "site_url": "https://mirror.xyz",
+ "lastmod": "2026-06-05T09:51:29.596Z",
+ "extracted_at": "2026-06-03T20:33:31.523Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "crypto",
+ "north_star": "Editorial letterpress on warm parchment — a literary journal where the only color is ink-blue and every border is a page edge",
+ "fonts": [
+  "IvyOra",
+  "Google Sans Flex"
+ ],
+ "colors": [
+  {
+   "hex": "#dbd5d2",
+   "name": "Page Parchment"
+  },
+  {
+   "hex": "#271f1b",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Sheet White"
+  },
+  {
+   "hex": "#ededed",
+   "name": "Felt Gray"
+  },
+  {
+   "hex": "#888786",
+   "name": "Margin Gray"
+  },
+  {
+   "hex": "#4a83f5",
+   "name": "Periwinkle Action"
+  },
+  {
+   "hex": "#b1cafb",
+   "name": "Cornflower Wash"
+  },
+  {
+   "hex": "#cedaf3",
+   "name": "Dusk Periwinkle"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5c12145c-d361-43b3-9b4a-2a7280f69b18.mp4",
+  "poster": "https://happyhands.cc/design-archive/paragraph-37dd9612/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/paragraph-37dd9612/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/paragraph-37dd9612/thumbnail.jpg"
+}

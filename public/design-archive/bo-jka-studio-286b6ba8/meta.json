@@ -1,0 +1,52 @@
+{
+ "id": "286b6ba8-a45d-48e0-b556-ff6aeac68058",
+ "slug": "bo-jka-studio-286b6ba8",
+ "name": "Bōjka Studio",
+ "site_url": "https://bojka.studio",
+ "lastmod": "2026-06-03T20:19:51.953Z",
+ "extracted_at": "2026-06-03T20:19:51.946Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "fluorescent gallery wall",
+ "fonts": [
+  "custom_15364 (Bōjka Display)",
+  "-apple-system / BlinkMacSystemFont (System UI)",
+  "Roboto"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#282828",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone"
+  },
+  {
+   "hex": "#0af500",
+   "name": "Fluorescent"
+  },
+  {
+   "hex": "#ff4600",
+   "name": "Ember"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/7b783a8c-b355-428b-b2dd-d42de2f8f3e0.mp4",
+  "poster": "https://happyhands.cc/design-archive/bo-jka-studio-286b6ba8/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/bo-jka-studio-286b6ba8/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/bo-jka-studio-286b6ba8/thumbnail.jpg"
+}

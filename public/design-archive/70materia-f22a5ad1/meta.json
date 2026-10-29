@@ -1,0 +1,47 @@
+{
+ "id": "f22a5ad1-2770-48d5-aff4-d1aaf0b789b8",
+ "slug": "70materia-f22a5ad1",
+ "name": "70Materia",
+ "site_url": "https://70materia.com",
+ "lastmod": "2026-06-03T20:47:01.887Z",
+ "extracted_at": "2026-06-03T20:47:01.880Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "Architectural sample board on white paper — the UI is the mount, never the artwork.",
+ "fonts": [
+  "Matter",
+  "Matter Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone"
+  },
+  {
+   "hex": "#1e1e1e",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#bababa",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ab0fd923-4e78-4918-9f56-3007df348f57.mp4",
+  "poster": "https://happyhands.cc/design-archive/70materia-f22a5ad1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/70materia-f22a5ad1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/70materia-f22a5ad1/thumbnail.jpg"
+}

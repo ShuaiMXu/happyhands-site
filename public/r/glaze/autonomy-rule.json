@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "autonomy-rule",
+  "type": "registry:component",
+  "title": "Autonomy rule",
+  "description": "Sets what an agent may do alone.",
+  "author": "design.how",
+  "categories": [
+    "agent"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/item.json",
+    "https://happyhands.cc/r/glaze/segmented-control.json",
+    "https://happyhands.cc/r/glaze/select.json",
+    "https://happyhands.cc/r/glaze/theme.json",
+    "https://happyhands.cc/r/glaze/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/glaze/components/autonomy-rule.md",
+    "page": "https://happyhands.cc/design-how/glaze/components/autonomy-rule.md"
+  },
+  "files": [
+    {
+      "path": "registry/glaze/ai/autonomy-rule.tsx",
+      "content": "'use client';\n\nimport {useId, type ReactNode} from 'react';\nimport {cn} from '@/lib/glaze/utils';\nimport {Item, ItemActions, ItemContent, ItemDescription, ItemTitle} from '@/components/glaze/ui/item';\nimport {SegmentedControl, SegmentedControlItem} from '@/components/glaze/ui/segmented-control';\nimport {Select, SelectContent, SelectItem, SelectTrigger, SelectValue} from '@/components/glaze/ui/select';\n\n// One setting for what an agent may do on its own: the action and its limit as the row's title (\"Refunds under $50\"),\n// an optional line under it, and the level at the end: Do it, Ask first or Never. It is an Item row, so a page of\n// rules is an ItemGroup, one hairline between rows.\n//\n// The level is a value chosen inside a control, so the chosen one is the segmented control's glass thumb. control\n// \"select\" puts the same levels in a Select, for a narrow column or more than three levels. The title names the\n// control, so a screen reader hears \"Refunds under $50, Ask first\".\n//\n// A change takes effect at once; there is no Save per row. disabled holds a rule someone else set (an admin, a plan\n// limit), with the reason in the description.\n//\n// On a narrow row the control drops under the title instead of squeezing it.\n\ntype AutonomyLevel = 'auto' | 'ask' | 'never';\n\ntype AutonomyOption<Value extends string> = {value: Value; label: string};\n\nconst defaultOptions: AutonomyOption<AutonomyLevel>[] = [\n  {value: 'auto', label: 'Do it'},\n  {value: 'ask', label: 'Ask first'},\n  {value: 'never', label: 'Never'},\n];\n\ntype AutonomyRuleProps<Value extends string = AutonomyLevel> = Omit<React.ComponentProps<'div'>, 'title' | 'children' | 'defaultValue' | 'onChange'> & {\n  /** The action and its limit: \"Refunds under $50\". */\n  title: ReactNode;\n  /** One line under it: what the action touches, or why the rule is locked. */\n  description?: ReactNode;\n  value?: Value;\n  defaultValue?: Value;\n  onValueChange?: (value: Value) => void;\n  /** The levels, most freedom first. Defaults to Do it, Ask first, Never. */\n  options?: AutonomyOption<Value>[];\n  /** segmented for up to three levels; select for a narrow column or more. */\n  control?: 'segmented' | 'select';\n  /** The rule is set elsewhere and cannot change here. */\n  disabled?: boolean;\n};\n\nfunction AutonomyRule<Value extends string = AutonomyLevel>({\n  title, description, value, defaultValue, onValueChange, options = defaultOptions as unknown as AutonomyOption<Value>[],\n  control = 'segmented', disabled, className, ...props\n}: AutonomyRuleProps<Value>) {\n  const titleId = useId();\n  const change = (next: string | null) => { if (next !== null) onValueChange?.(next as Value); };\n  return <Item\n    data-slot=\"autonomy-rule\"\n    data-control={control}\n    disabled={disabled}\n    className={cn('flex-wrap gap-y-2', className)}\n    {...props}\n  >\n    <ItemContent className=\"min-w-40 basis-40\">\n      <ItemTitle id={titleId} data-slot=\"autonomy-rule-title\"><span>{title}</span></ItemTitle>\n      {description && <ItemDescription data-slot=\"autonomy-rule-description\">{description}</ItemDescription>}\n    </ItemContent>\n    <ItemActions className=\"me-0 ms-auto\">\n      {control === 'select'\n        ? <Select items={options} value={value} defaultValue={defaultValue} onValueChange={change} disabled={disabled}>\n            <SelectTrigger size=\"sm\" aria-labelledby={titleId} className=\"w-32\"><SelectValue/></SelectTrigger>\n            <SelectContent size=\"sm\" align=\"end\">{options.map(o => <SelectItem key={o.value} value={o.value}>{o.label}</SelectItem>)}</SelectContent>\n          </Select>\n        : <SegmentedControl size=\"sm\" aria-labelledby={titleId} value={value} defaultValue={defaultValue} onValueChange={change} disabled={disabled}>\n            {options.map(o => <SegmentedControlItem key={o.value} value={o.value}>{o.label}</SegmentedControlItem>)}\n          </SegmentedControl>}\n    </ItemActions>\n  </Item>;\n}\n\nexport {AutonomyRule, type AutonomyRuleProps, type AutonomyLevel, type AutonomyOption};\n",
+      "type": "registry:component",
+      "target": "@components/glaze/ai/autonomy-rule.tsx"
+    }
+  ]
+}

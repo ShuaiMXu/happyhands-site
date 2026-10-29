@@ -1,0 +1,57 @@
+{
+ "id": "3f6e3076-e77f-487e-b212-3b5946a34e87",
+ "slug": "miranda-3f6e3076",
+ "name": "Miranda",
+ "site_url": "https://www.niccolomiranda.com",
+ "lastmod": "2026-06-05T06:42:22.358Z",
+ "extracted_at": "2026-06-03T19:16:57.231Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "Old-world broadsheet on warm cream — newspaper editorial for the digital age.",
+ "fonts": [
+  "Editorial New",
+  "Canopee",
+  "Domaine Display",
+  "Germgoth"
+ ],
+ "colors": [
+  {
+   "hex": "#e2dedb",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#cdc6be",
+   "name": "Bone Cream"
+  },
+  {
+   "hex": "#1d1d1b",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#69645f",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#c03f13",
+   "name": "Ember Orange"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/92148570-f652-4102-91d4-b8bbf8e755fe.mp4",
+  "poster": "https://happyhands.cc/design-archive/miranda-3f6e3076/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/miranda-3f6e3076/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/miranda-3f6e3076/thumbnail.jpg"
+}

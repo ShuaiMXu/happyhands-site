@@ -1,0 +1,71 @@
+{
+ "id": "34788d94-1147-4d38-8df7-6f47ef7efb12",
+ "slug": "tracky-34788d94",
+ "name": "Tracky",
+ "site_url": "https://tracky.so",
+ "lastmod": "2026-06-03T19:09:19.853Z",
+ "extracted_at": "2026-06-03T19:09:19.849Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "doodled planner on warm paper",
+ "fonts": [
+  "GRIFTER",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#151b31",
+   "name": "Inkwell Navy"
+  },
+  {
+   "hex": "#ff5858",
+   "name": "Coral Emphasis"
+  },
+  {
+   "hex": "#86e0c1",
+   "name": "Mint Pulse"
+  },
+  {
+   "hex": "#fedf89",
+   "name": "Butter Yellow"
+  },
+  {
+   "hex": "#333333",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#6d6f75",
+   "name": "Slate"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Ash Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Ink"
+  },
+  {
+   "hex": "#e8e7e5",
+   "name": "Warm Stone"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ffaebe29-bed2-44f9-9b5c-8dc1e7ddc51b.mp4",
+  "poster": "https://happyhands.cc/design-archive/tracky-34788d94/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/tracky-34788d94/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/tracky-34788d94/thumbnail.jpg"
+}

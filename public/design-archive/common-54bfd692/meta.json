@@ -1,0 +1,83 @@
+{
+ "id": "54bfd692-3299-48ab-8cf5-784e632227b1",
+ "slug": "common-54bfd692",
+ "name": "Common",
+ "site_url": "https://www.common.xyz",
+ "lastmod": "2026-06-03T19:43:32.752Z",
+ "extracted_at": "2026-06-03T19:43:32.747Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "crypto",
+ "north_star": "graph paper under neon streaks",
+ "fonts": [
+  "NeueHaasUnica",
+  "Silka"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f0eff0",
+   "name": "Fog"
+  },
+  {
+   "hex": "#e0dfe1",
+   "name": "Silver"
+  },
+  {
+   "hex": "#c1c0c2",
+   "name": "Mist"
+  },
+  {
+   "hex": "#a09da1",
+   "name": "Ash"
+  },
+  {
+   "hex": "#282729",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#141315",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#3d3a3e",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#338fff",
+   "name": "Cobalt Pulse"
+  },
+  {
+   "hex": "#7a33ff",
+   "name": "Ultraviolet"
+  },
+  {
+   "hex": "#0079cc",
+   "name": "Spectrum Bridge"
+  },
+  {
+   "hex": "#ff80d7",
+   "name": "Aurora Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ab66d3fd-4c82-4642-b89b-52804b36546f.mp4",
+  "poster": "https://happyhands.cc/design-archive/common-54bfd692/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/common-54bfd692/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/common-54bfd692/thumbnail.jpg"
+}

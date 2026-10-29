@@ -1,0 +1,91 @@
+{
+ "id": "bc2c6ecc-7a0d-4693-86e5-9fa93b165601",
+ "slug": "loom-bc2c6ecc",
+ "name": "Loom",
+ "site_url": "https://loom.com",
+ "lastmod": "2026-06-03T16:16:05.864Z",
+ "extracted_at": "2026-06-03T16:16:05.858Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Sunlit message lounge — a bright, pill-shaped communication booth on white marble, lit by one confident blue lamp.",
+ "fonts": [
+  "Charlie Display",
+  "Charlie Text"
+ ],
+ "colors": [
+  {
+   "hex": "#1868db",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#e9f2fe",
+   "name": "Pale Wash"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#101214",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#292a2e",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#000000",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Ash Border"
+  },
+  {
+   "hex": "#7d818a",
+   "name": "Steel"
+  },
+  {
+   "hex": "#48245d",
+   "name": "Deep Plum"
+  },
+  {
+   "hex": "#bf63f3",
+   "name": "Orchid"
+  },
+  {
+   "hex": "#ff613d",
+   "name": "Ember"
+  },
+  {
+   "hex": "#82b536",
+   "name": "Leaf"
+  },
+  {
+   "hex": "#fff5d4",
+   "name": "Butter"
+  },
+  {
+   "hex": "#efffd6",
+   "name": "Mint"
+  },
+  {
+   "hex": "#123263",
+   "name": "Navy Field"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6a2e233e-fca6-4e2a-9289-ed71ee096b2e.mp4",
+  "poster": "https://happyhands.cc/design-archive/loom-bc2c6ecc/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/loom-bc2c6ecc/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/loom-bc2c6ecc/thumbnail.jpg"
+}

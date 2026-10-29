@@ -1,0 +1,50 @@
+{
+ "id": "03e03554-d7aa-40da-9764-79320ecfa1d0",
+ "slug": "ohzi-interactive-studio-dive-into-digital-magic-03e03554",
+ "name": "OHZI Interactive Studio / Dive into digital magic.",
+ "site_url": "https://ohzi.io",
+ "lastmod": "2026-06-03T19:35:15.944Z",
+ "extracted_at": "2026-06-03T19:35:15.938Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "A glowing cube suspended in a dark gallery",
+ "fonts": [
+  "Unbounded"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#111111",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#f5f5f7",
+   "name": "Fog"
+  },
+  {
+   "hex": "#cfcfcf",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8ddce8f1-b591-4b50-991e-cf2b7cb8ab58.mp4",
+  "poster": "https://happyhands.cc/design-archive/ohzi-interactive-studio-dive-into-digital-magic-03e03554/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ohzi-interactive-studio-dive-into-digital-magic-03e03554/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ohzi-interactive-studio-dive-into-digital-magic-03e03554/thumbnail.jpg"
+}

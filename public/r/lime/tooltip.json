@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tooltip",
+  "type": "registry:ui",
+  "title": "Tooltip",
+  "description": "A short label on hover and focus.",
+  "author": "design.how",
+  "categories": [
+    "overlays"
+  ],
+  "dependencies": [
+    "@base-ui/react@^1.8.0"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/portal.json",
+    "https://happyhands.cc/r/lime/theme.json",
+    "https://happyhands.cc/r/lime/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/design-how/lime/components/tooltip.md",
+    "page": "https://happyhands.cc/design-how/lime/components/tooltip.md"
+  },
+  "files": [
+    {
+      "path": "registry/lime/ui/tooltip.tsx",
+      "content": "'use client';\n\nimport {Tooltip as TooltipPrimitive} from '@base-ui/react/tooltip';\nimport {useLimePortal} from '@/lib/lime/portal';\nimport {mergeClass} from '@/lib/lime/utils';\n\n// A short label for a control, shown on hover and keyboard focus. One line of plain text in sentence case,\n// such as \"Copy link\". Never put a link, a button or a second sentence in it; use Popover for that.\n// An icon button must name itself with aria-label, and the tooltip repeats it for sighted people.\n// The chip is ink on light and light on ink in the dark theme.\n\nfunction TooltipProvider({delay = 400, closeDelay = 0, ...props}: TooltipPrimitive.Provider.Props) {\n  return <TooltipPrimitive.Provider delay={delay} closeDelay={closeDelay} {...props}/>;\n}\n\nfunction Tooltip(props: TooltipPrimitive.Root.Props) {\n  return <TooltipPrimitive.Root data-slot=\"tooltip\" {...props}/>;\n}\n\nfunction TooltipTrigger(props: TooltipPrimitive.Trigger.Props) {\n  return <TooltipPrimitive.Trigger data-slot=\"tooltip-trigger\" {...props}/>;\n}\n\ntype TooltipContentProps = TooltipPrimitive.Popup.Props & Pick<TooltipPrimitive.Positioner.Props, 'side' | 'align' | 'sideOffset'>;\n\nfunction TooltipContent({className, side = 'top', align = 'center', sideOffset = 6, ...props}: TooltipContentProps) {\n  const container = useLimePortal();\n  return (\n    <TooltipPrimitive.Portal container={container}>\n      <TooltipPrimitive.Positioner side={side} align={align} sideOffset={sideOffset} collisionPadding={8} className=\"isolate z-(--z-popover)\">\n        <TooltipPrimitive.Popup\n          data-slot=\"tooltip-content\"\n          className={mergeClass([\n            'max-w-64 origin-(--transform-origin) rounded-md bg-ink px-2.5 py-1.5 text-xs font-medium text-fg-inverse break-words',\n            'transition-[opacity,scale] duration-(--dur-fast) ease-out data-starting-style:scale-(--scale-enter) data-starting-style:opacity-0 data-ending-style:opacity-0 data-instant:duration-0',\n          ], className)}\n          {...props}\n        />\n      </TooltipPrimitive.Positioner>\n    </TooltipPrimitive.Portal>\n  );\n}\n\nexport {Tooltip, TooltipTrigger, TooltipContent, TooltipProvider, type TooltipContentProps};\n",
+      "type": "registry:ui",
+      "target": "@components/lime/ui/tooltip.tsx"
+    }
+  ]
+}

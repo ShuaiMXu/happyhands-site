@@ -1,0 +1,60 @@
+{
+ "id": "d7d9c36d-fec9-4218-9e17-3d129dfb2dee",
+ "slug": "neon-rated-d7d9c36d",
+ "name": "NEON Rated",
+ "site_url": "https://neonrated.com",
+ "lastmod": "2026-06-05T05:27:47.034Z",
+ "extracted_at": "2026-06-03T18:46:08.905Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "cinematic gallery behind crimson neon",
+ "fonts": [
+  "Flatspot",
+  "Girott",
+  "Flatspot"
+ ],
+ "colors": [
+  {
+   "hex": "#821e1e",
+   "name": "Crimson Marquee"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#f3f3f3",
+   "name": "Bone"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Silver"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#9dc1fb",
+   "name": "Cornflower"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c556b3e3-4d5c-4047-bfed-cb8a7602dac6.mp4",
+  "poster": "https://happyhands.cc/design-archive/neon-rated-d7d9c36d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/neon-rated-d7d9c36d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/neon-rated-d7d9c36d/thumbnail.jpg"
+}

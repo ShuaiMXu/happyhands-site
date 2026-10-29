@@ -1,0 +1,51 @@
+{
+ "id": "2e4ce685-9f49-47a3-9577-bc4f196bd8f7",
+ "slug": "glein-2e4ce685",
+ "name": "Glein",
+ "site_url": "https://glein.wien",
+ "lastmod": "2026-06-05T08:23:59.787Z",
+ "extracted_at": "2026-06-03T19:47:42.676Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Atelier lookbook on warm linen — full-bleed photography, hairline rules, one whisper-weight voice.",
+ "fonts": [
+  "F-Grotesk",
+  "Maison-Neue-Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#ebe6dc",
+   "name": "Warm Sand"
+  },
+  {
+   "hex": "#8c8c8c",
+   "name": "Concrete Gray"
+  },
+  {
+   "hex": "#b3b3b3",
+   "name": "Ash Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/9ab04441-81d8-47f4-a028-2946489c5be1.mp4",
+  "poster": "https://happyhands.cc/design-archive/glein-2e4ce685/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/glein-2e4ce685/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/glein-2e4ce685/thumbnail.jpg"
+}

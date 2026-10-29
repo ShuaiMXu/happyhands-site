@@ -1,0 +1,71 @@
+{
+ "id": "476fea7c-d578-4625-b9e6-36e95faa6ca4",
+ "slug": "preply-476fea7c",
+ "name": "Preply",
+ "site_url": "https://preply.com",
+ "lastmod": "2026-06-03T17:54:14.573Z",
+ "extracted_at": "2026-06-03T17:54:14.567Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Pink billboard with human stickers",
+ "fonts": [
+  "Platform",
+  "Figtree"
+ ],
+ "colors": [
+  {
+   "hex": "#ff7aac",
+   "name": "Preply Pink"
+  },
+  {
+   "hex": "#121117",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Soft White"
+  },
+  {
+   "hex": "#f4f4f8",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#dcdce5",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#6a697c",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#4d4c5c",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#ffdf3d",
+   "name": "Signal Yellow"
+  },
+  {
+   "hex": "#99c5ff",
+   "name": "Sky Pop"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/863ab34b-8ee3-48ce-a310-4331da852174.mp4",
+  "poster": "https://happyhands.cc/design-archive/preply-476fea7c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/preply-476fea7c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/preply-476fea7c/thumbnail.jpg"
+}

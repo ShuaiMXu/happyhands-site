@@ -1,0 +1,78 @@
+{
+ "id": "a7530405-e523-4268-bba5-ef13549fd61c",
+ "slug": "datalands-a7530405",
+ "name": "Datalands",
+ "site_url": "https://datalands.co",
+ "lastmod": "2026-06-05T04:35:40.709Z",
+ "extracted_at": "2026-06-03T18:20:46.760Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "Black cathedral with a single neon heartbeat. The wordmark fills the nave; everything else is a whispered caption beneath it.",
+ "fonts": [
+  "sans-serif",
+  "OZIK Black",
+  "Basis Grotesque Pro",
+  "Martian Mono",
+  "Martian Mono Std xLt Extra-light",
+  "Martian Mono Std xLt",
+  "Martian Mono Nr xLt",
+  "Martian Mono Extra-light",
+  "Martian Mono ExtraLight"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone"
+  },
+  {
+   "hex": "#1d1a1a",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#111212",
+   "name": "Ink"
+  },
+  {
+   "hex": "#3d3d3d",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#d9d9d9",
+   "name": "Mist"
+  },
+  {
+   "hex": "#f3f3ef",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#fc74dd",
+   "name": "Neon Magenta"
+  },
+  {
+   "hex": "#ff4c33",
+   "name": "Ember Dot"
+  },
+  {
+   "hex": "#122d8b",
+   "name": "Deep Violet"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b238c26c-7492-4d1e-8fbb-6b8f6fe0f0d7.mp4",
+  "poster": "https://happyhands.cc/design-archive/datalands-a7530405/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/datalands-a7530405/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/datalands-a7530405/thumbnail.jpg"
+}

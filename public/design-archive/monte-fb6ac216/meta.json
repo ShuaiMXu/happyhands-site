@@ -1,0 +1,67 @@
+{
+ "id": "fb6ac216-c11a-47c3-88e8-0423541da69c",
+ "slug": "monte-fb6ac216",
+ "name": "Monte",
+ "site_url": "https://montecafe.com.au",
+ "lastmod": "2026-06-05T04:07:32.574Z",
+ "extracted_at": "2026-06-03T18:05:30.528Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "rust-tinted coastal morning",
+ "fonts": [
+  "Riposte",
+  "Apercu Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#b84b30",
+   "name": "Corten"
+  },
+  {
+   "hex": "#5f1d1a",
+   "name": "Bordeaux"
+  },
+  {
+   "hex": "#f8f4e9",
+   "name": "Sandstone"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Driftwood"
+  },
+  {
+   "hex": "#000000",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone"
+  },
+  {
+   "hex": "#666666",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#999999",
+   "name": "Ash"
+  },
+  {
+   "hex": "#3e3d3a",
+   "name": "Espresso"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8537512b-3716-4035-94fd-d8c6d0ed3195.mp4",
+  "poster": "https://happyhands.cc/design-archive/monte-fb6ac216/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/monte-fb6ac216/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/monte-fb6ac216/thumbnail.jpg"
+}

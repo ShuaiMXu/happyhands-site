@@ -1,0 +1,62 @@
+{
+ "id": "b5532c58-620a-4d69-8861-35b2b6443956",
+ "slug": "escape-coffee-company-b5532c58",
+ "name": "Escape Coffee Company",
+ "site_url": "https://escape.cafe",
+ "lastmod": "2026-06-03T21:24:15.755Z",
+ "extracted_at": "2026-06-03T21:24:15.747Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Frost-bleached editorial broadsheet — large display type cut into warm off-white, all atmosphere carried by raw photography.",
+ "fonts": [
+  "TWK Lausanne",
+  "Molitor",
+  "Garaje",
+  "Arial",
+  "GTStandard-M"
+ ],
+ "colors": [
+  {
+   "hex": "#f5f4f2",
+   "name": "Bone"
+  },
+  {
+   "hex": "#151515",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ebe9e6",
+   "name": "Ash"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#8a8a8a",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#929292",
+   "name": "Fog"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8e00e7e9-cdb3-41c3-916a-a500ac3bd614.mp4",
+  "poster": "https://happyhands.cc/design-archive/escape-coffee-company-b5532c58/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/escape-coffee-company-b5532c58/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/escape-coffee-company-b5532c58/thumbnail.jpg"
+}

@@ -1,0 +1,63 @@
+{
+ "id": "989d8d71-c161-4410-8157-ad6ade0bd4be",
+ "slug": "artboard-989d8d71",
+ "name": "Artboard",
+ "site_url": "https://artboard.studio",
+ "lastmod": "2026-06-03T20:23:43.808Z",
+ "extracted_at": "2026-06-03T20:23:43.803Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "Lime-voltage designer's tabletop. White paper, ink-black type, and one electric green that powers the whole studio.",
+ "fonts": [
+  "Vend Sans",
+  "system-ui"
+ ],
+ "colors": [
+  {
+   "hex": "#0d1400",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#aaff00",
+   "name": "Lime Voltage"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#838976",
+   "name": "Olive Stone"
+  },
+  {
+   "hex": "#e6e7e4",
+   "name": "Soft Mist"
+  },
+  {
+   "hex": "#ffe4c3",
+   "name": "Peach Wash"
+  },
+  {
+   "hex": "#cbedff",
+   "name": "Sky Wash"
+  },
+  {
+   "hex": "#caf3aa",
+   "name": "Mint Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ea4eb2cf-1b43-41bb-a00e-e0885a29a565.mp4",
+  "poster": "https://happyhands.cc/design-archive/artboard-989d8d71/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/artboard-989d8d71/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/artboard-989d8d71/thumbnail.jpg"
+}

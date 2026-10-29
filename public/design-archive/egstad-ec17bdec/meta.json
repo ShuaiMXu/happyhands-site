@@ -1,0 +1,44 @@
+{
+ "id": "ec17bdec-c8fa-4221-abd6-da717bf38d96",
+ "slug": "egstad-ec17bdec",
+ "name": "Egstad",
+ "site_url": "https://egstad.com",
+ "lastmod": "2026-06-05T04:18:26.761Z",
+ "extracted_at": "2026-06-03T18:11:32.341Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "editorial broadside in warm ink — monumental type, one paper color, zero decoration",
+ "fonts": [
+  "EG Metaphor",
+  "Times",
+  "S85"
+ ],
+ "colors": [
+  {
+   "hex": "#252422",
+   "name": "Press Ink"
+  },
+  {
+   "hex": "#e2e0d9",
+   "name": "Bone Paper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Carbon"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/bcc2d76b-7071-4a90-a2b5-3c4f8429c393.mp4",
+  "poster": "https://happyhands.cc/design-archive/egstad-ec17bdec/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/egstad-ec17bdec/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/egstad-ec17bdec/thumbnail.jpg"
+}

@@ -1,0 +1,58 @@
+{
+ "id": "af3641fb-7d3c-40f4-aba1-42770dfaf091",
+ "slug": "exante-af3641fb",
+ "name": "Exante",
+ "site_url": "https://www.exante.app",
+ "lastmod": "2026-06-03T19:31:20.962Z",
+ "extracted_at": "2026-06-03T19:31:20.956Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "neon greenhouse at midnight",
+ "fonts": [
+  "sans-serif",
+  "Alliance No.2",
+  "Geist",
+  "Geist Variable",
+  "Geist Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#1e211e",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#4b4d4b",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#d2d3d2",
+   "name": "Ash"
+  },
+  {
+   "hex": "#90fc95",
+   "name": "Neon Mint"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/85563607-e287-4a0e-883a-0127867b0254.mp4",
+  "poster": "https://happyhands.cc/design-archive/exante-af3641fb/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/exante-af3641fb/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/exante-af3641fb/thumbnail.jpg"
+}

@@ -1,0 +1,62 @@
+{
+ "id": "2b41e7c4-1e8c-4ea2-a87f-51e24c57886e",
+ "slug": "dropbox-com-2b41e7c4",
+ "name": "Dropbox.com",
+ "site_url": "https://dropbox.com",
+ "lastmod": "2026-06-03T22:38:25.681Z",
+ "extracted_at": "2026-06-03T22:38:25.677Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "warm cream workspace — editorial confidence on paper",
+ "fonts": [
+  "Times",
+  "Atlas Grotesk Web",
+  "Sharp Grotesk",
+  "Sharp Grotesk 23",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#0061fe",
+   "name": "Dropbox Blue"
+  },
+  {
+   "hex": "#f7f5f2",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#1e1919",
+   "name": "Warm Ink"
+  },
+  {
+   "hex": "#716b61",
+   "name": "Stone Gray"
+  },
+  {
+   "hex": "#eee9e2",
+   "name": "Sand Card"
+  },
+  {
+   "hex": "#cd2f7b",
+   "name": "Magenta Accent"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/36d9a636-5201-4b3c-91c4-4b98a08244f3.mp4",
+  "poster": "https://happyhands.cc/design-archive/dropbox-com-2b41e7c4/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/dropbox-com-2b41e7c4/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/dropbox-com-2b41e7c4/thumbnail.jpg"
+}

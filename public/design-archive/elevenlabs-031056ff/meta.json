@@ -1,0 +1,68 @@
+{
+ "id": "031056ff-7af1-46db-8daa-115f731c5d26",
+ "slug": "elevenlabs-031056ff",
+ "name": "ElevenLabs",
+ "site_url": "https://elevenlabs.io",
+ "lastmod": "2026-07-03T09:46:28.681Z",
+ "extracted_at": "2026-07-03T03:50:38.646Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Warm cream editorial with whispered headlines. A Bauhaus studio notebook — eggshell paper, black ink, a single violet and orange spark for product moments.",
+ "fonts": [
+  "Waldenburg",
+  "Inter",
+  "Geist Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#fdfcfc",
+   "name": "Eggshell"
+  },
+  {
+   "hex": "#f5f3f1",
+   "name": "Warm Taupe"
+  },
+  {
+   "hex": "#ebe8e4",
+   "name": "Stone"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#44403b",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#777169",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#a59f97",
+   "name": "Ash"
+  },
+  {
+   "hex": "#0447ff",
+   "name": "Violet Spark"
+  },
+  {
+   "hex": "#ff4704",
+   "name": "Ember Orange"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3e8b5dea-0085-4d86-b3ee-1de336f3ac53.mp4",
+  "poster": "https://happyhands.cc/design-archive/elevenlabs-031056ff/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/elevenlabs-031056ff/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/elevenlabs-031056ff/thumbnail.jpg"
+}

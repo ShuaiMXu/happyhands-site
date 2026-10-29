@@ -1,0 +1,66 @@
+{
+ "id": "715a3ad2-5b6d-421f-b72b-3aa6fec86351",
+ "slug": "era-715a3ad2",
+ "name": "Era",
+ "site_url": "https://era.app",
+ "lastmod": "2026-06-03T20:53:47.521Z",
+ "extracted_at": "2026-06-03T20:53:47.514Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "Quiet ledger on warm paper",
+ "fonts": [
+  "Saans VF"
+ ],
+ "colors": [
+  {
+   "hex": "#191a17",
+   "name": "Ink"
+  },
+  {
+   "hex": "#f3f3f1",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#e6e6e4",
+   "name": "Ash"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#868784",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#3d3d3d",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#add2d1",
+   "name": "Sage Wash"
+  },
+  {
+   "hex": "#9dbebe",
+   "name": "Slate Teal"
+  },
+  {
+   "hex": "#c9c5e1",
+   "name": "Dusk Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/cd351a3d-a40e-4cf9-8f71-093a1c22af5c.mp4",
+  "poster": "https://happyhands.cc/design-archive/era-715a3ad2/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/era-715a3ad2/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/era-715a3ad2/thumbnail.jpg"
+}

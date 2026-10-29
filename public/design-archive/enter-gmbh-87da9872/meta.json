@@ -1,0 +1,60 @@
+{
+ "id": "87da9872-f6cc-4354-bf6a-1c02f0394d45",
+ "slug": "enter-gmbh-87da9872",
+ "name": "Enter GmbH",
+ "site_url": "https://enter-support.de",
+ "lastmod": "2026-06-05T07:29:32.566Z",
+ "extracted_at": "2026-06-03T19:39:24.742Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "devtools",
+ "north_star": "Bauhaus poster workshop, midday sun",
+ "fonts": [
+  "Maax Mono",
+  "Sofia-Regular",
+  "Helvetica"
+ ],
+ "colors": [
+  {
+   "hex": "#ff5000",
+   "name": "Signal Orange"
+  },
+  {
+   "hex": "#a5d3d4",
+   "name": "Seafoam Panel"
+  },
+  {
+   "hex": "#f9f8ea",
+   "name": "Cream Stock"
+  },
+  {
+   "hex": "#282828",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#6a6a6a",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/19d5ef68-1458-4745-a97e-ef6e929eda28.mp4",
+  "poster": "https://happyhands.cc/design-archive/enter-gmbh-87da9872/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/enter-gmbh-87da9872/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/enter-gmbh-87da9872/thumbnail.jpg"
+}

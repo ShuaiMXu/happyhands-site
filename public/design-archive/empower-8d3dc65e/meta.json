@@ -1,0 +1,74 @@
+{
+ "id": "8d3dc65e-4443-4bb3-b1a9-b0fc98381db9",
+ "slug": "empower-8d3dc65e",
+ "name": "Empower",
+ "site_url": "https://empower.me",
+ "lastmod": "2026-06-05T07:02:26.995Z",
+ "extracted_at": "2026-06-03T19:19:29.646Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "fintech",
+ "north_star": "Chartreuse zine on midnight paper",
+ "fonts": [
+  "Gravity",
+  "EmpowerSerif",
+  "GTAmericaExtendedRegular",
+  "GTAmericaExpandedMedium",
+  "GTAmericaExtendedMedium"
+ ],
+ "colors": [
+  {
+   "hex": "#e4e24e",
+   "name": "Chartreuse Pulse"
+  },
+  {
+   "hex": "#faf9b6",
+   "name": "Lemon Cream"
+  },
+  {
+   "hex": "#100f0f",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#fffdf6",
+   "name": "Bone Paper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#64635c",
+   "name": "Stone"
+  },
+  {
+   "hex": "#3a3a3a",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#262525",
+   "name": "Iron"
+  },
+  {
+   "hex": "#171616",
+   "name": "Smoke"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a6223775-7bb6-4277-abc1-d9bd129823c1.mp4",
+  "poster": "https://happyhands.cc/design-archive/empower-8d3dc65e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/empower-8d3dc65e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/empower-8d3dc65e/thumbnail.jpg"
+}

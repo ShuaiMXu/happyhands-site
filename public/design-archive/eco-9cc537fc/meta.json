@@ -1,0 +1,78 @@
+{
+ "id": "9cc537fc-97d8-4632-8703-f9aa296c2206",
+ "slug": "eco-9cc537fc",
+ "name": "Eco",
+ "site_url": "https://eco.com",
+ "lastmod": "2026-06-03T16:14:59.844Z",
+ "extracted_at": "2026-06-03T16:14:59.838Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "crypto",
+ "north_star": "skyline vault at dusk — a near-monochrome ledger where negative space and oversized display type carry the entire brand weight, interrupted only by tiny electric-blue marks.",
+ "fonts": [
+  "Interdisplay",
+  "Roobert",
+  "Inter 24 Pt",
+  "Fragmentmono",
+  "Aeonik Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Bone"
+  },
+  {
+   "hex": "#efefef",
+   "name": "Ash Mist"
+  },
+  {
+   "hex": "#0f111a",
+   "name": "Vault Ink"
+  },
+  {
+   "hex": "#000000",
+   "name": "Absolute"
+  },
+  {
+   "hex": "#141414",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#2a2a2a",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#222222",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#aeaeae",
+   "name": "Silver Veil"
+  },
+  {
+   "hex": "#a6b8d1",
+   "name": "Frost"
+  },
+  {
+   "hex": "#1c53bd",
+   "name": "Cobalt Signal"
+  },
+  {
+   "hex": "#53adfe",
+   "name": "Electric Sky"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/15b49c44-867d-4ea7-b798-f684bd4c972c.mp4",
+  "poster": "https://happyhands.cc/design-archive/eco-9cc537fc/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/eco-9cc537fc/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/eco-9cc537fc/thumbnail.jpg"
+}

@@ -1,0 +1,112 @@
+{
+ "id": "b0d80806-b724-4ed1-a1d1-074edd3c9bc9",
+ "slug": "dub-b0d80806",
+ "name": "Dub",
+ "site_url": "https://dub.co",
+ "lastmod": "2026-07-03T11:08:55.359Z",
+ "extracted_at": "2026-07-03T03:35:52.880Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "frosted link dashboard on rice paper",
+ "fonts": [
+  "Satoshi",
+  "Inter",
+  "Geist Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Canvas White"
+  },
+  {
+   "hex": "#f5f5f5",
+   "name": "Paper Mist"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Ash"
+  },
+  {
+   "hex": "#d4d4d4",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#c8c8c8",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#0a0a0a",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#171717",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#262626",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#404040",
+   "name": "Slate"
+  },
+  {
+   "hex": "#525252",
+   "name": "Steel"
+  },
+  {
+   "hex": "#737373",
+   "name": "Fog"
+  },
+  {
+   "hex": "#a3a3a3",
+   "name": "Silver"
+  },
+  {
+   "hex": "#2563eb",
+   "name": "Electric Blue"
+  },
+  {
+   "hex": "#1e40af",
+   "name": "Deep Sapphire"
+  },
+  {
+   "hex": "#dcfce7",
+   "name": "Soft Mint"
+  },
+  {
+   "hex": "#16a34a",
+   "name": "Vivid Green"
+  },
+  {
+   "hex": "#ea580c",
+   "name": "Tangerine"
+  },
+  {
+   "hex": "#7c3aed",
+   "name": "Lavender"
+  },
+  {
+   "hex": "#8b5cf6",
+   "name": "Conic Spectrum"
+  },
+  {
+   "hex": "#000000",
+   "name": "Primary Action Fill"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/75d5176d-6a7b-4383-bbdf-02cfe6d83a08.mp4",
+  "poster": "https://happyhands.cc/design-archive/dub-b0d80806/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/dub-b0d80806/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/dub-b0d80806/thumbnail.jpg"
+}

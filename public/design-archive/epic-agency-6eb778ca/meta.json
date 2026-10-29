@@ -1,0 +1,48 @@
+{
+ "id": "6eb778ca-6808-4cc6-ac8a-7beea5a25c36",
+ "slug": "epic-agency-6eb778ca",
+ "name": "EPIC agency",
+ "site_url": "https://epic.net",
+ "lastmod": "2026-06-05T07:43:46.969Z",
+ "extracted_at": "2026-06-03T19:38:10.872Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "violet observatory with gilded instruments — a gallery-as-night-sky where pale lavender light and warm gold details float over an infinite aubergine void.",
+ "fonts": [
+  "Inter",
+  "Sang Bleu (custom)",
+  "object-fit: cover"
+ ],
+ "colors": [
+  {
+   "hex": "#271a47",
+   "name": "Aubergine Canvas"
+  },
+  {
+   "hex": "#dbc9ff",
+   "name": "Moonlight Lavender"
+  },
+  {
+   "hex": "#bc994e",
+   "name": "Gilded Brass"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/1a06b35c-1f6d-454b-9eca-c42265e69e65.mp4",
+  "poster": "https://happyhands.cc/design-archive/epic-agency-6eb778ca/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/epic-agency-6eb778ca/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/epic-agency-6eb778ca/thumbnail.jpg"
+}

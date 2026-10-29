@@ -1,0 +1,63 @@
+{
+ "id": "198d4f13-0e88-4372-86fd-7abf34a668b1",
+ "slug": "ecosia-198d4f13",
+ "name": "Ecosia",
+ "site_url": "https://www.ecosia.org",
+ "lastmod": "2026-06-03T20:45:16.425Z",
+ "extracted_at": "2026-06-03T20:45:16.420Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "verdant search clearing — a white-canvas interface with a single lime-green accent and full-bleed leaf photography as the only chromatic noise.",
+ "fonts": [
+  "Inter",
+  "Founders Grotesk"
+ ],
+ "colors": [
+  {
+   "hex": "#d7eb80",
+   "name": "Lime Canopy"
+  },
+  {
+   "hex": "#333333",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f8f8f6",
+   "name": "Warm Mist"
+  },
+  {
+   "hex": "#f0f0eb",
+   "name": "Linen Cream"
+  },
+  {
+   "hex": "#6c6c6c",
+   "name": "Stone Gray"
+  },
+  {
+   "hex": "#bebeb9",
+   "name": "Ash Border"
+  },
+  {
+   "hex": "#b6b6b6",
+   "name": "Silver Surface"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a4f8e2a6-a713-44f5-bbee-658fd75759fb.mp4",
+  "poster": "https://happyhands.cc/design-archive/ecosia-198d4f13/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ecosia-198d4f13/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ecosia-198d4f13/thumbnail.jpg"
+}

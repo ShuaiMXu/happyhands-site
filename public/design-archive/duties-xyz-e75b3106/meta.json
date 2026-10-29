@@ -1,0 +1,53 @@
+{
+ "id": "e75b3106-fc5b-4bb8-8d7d-a7ab224fd27d",
+ "slug": "duties-xyz-e75b3106",
+ "name": "Duties.xyz",
+ "site_url": "https://duties.xyz",
+ "lastmod": "2026-06-05T05:29:57.063Z",
+ "extracted_at": "2026-06-03T18:47:38.049Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Monochrome broadside manifesto — a cream-paper zine where the only ink is black and the only type that matters is shouting.",
+ "fonts": [
+  "AS Therma Bold Condensed",
+  "PP Neue Montreal Mono Medium",
+  "PP Neue Montreal SemiBold",
+  "sans-serif (system)"
+ ],
+ "colors": [
+  {
+   "hex": "#f1f0ee",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Ink"
+  },
+  {
+   "hex": "#252525",
+   "name": "Charcoal Press"
+  },
+  {
+   "hex": "#dbdad9",
+   "name": "Bone Gray"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a3731c30-44fb-4df5-ba91-eececdba9be6.mp4",
+  "poster": "https://happyhands.cc/design-archive/duties-xyz-e75b3106/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/duties-xyz-e75b3106/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/duties-xyz-e75b3106/thumbnail.jpg"
+}

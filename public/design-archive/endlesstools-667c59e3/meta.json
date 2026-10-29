@@ -1,0 +1,66 @@
+{
+ "id": "667c59e3-aaba-46e8-a2b3-255254328b6e",
+ "slug": "endlesstools-667c59e3",
+ "name": "Endlesstools",
+ "site_url": "https://endlesstools.io",
+ "lastmod": "2026-06-03T20:50:34.824Z",
+ "extracted_at": "2026-06-03T20:50:34.817Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "design",
+ "north_star": "Black-box gallery wall for digital art",
+ "fonts": [
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#080808",
+   "name": "Obsidian Canvas"
+  },
+  {
+   "hex": "#181818",
+   "name": "Onyx Card"
+  },
+  {
+   "hex": "#1e1e1e",
+   "name": "Graphite Layer"
+  },
+  {
+   "hex": "#373737",
+   "name": "Slate Border"
+  },
+  {
+   "hex": "#505050",
+   "name": "Iron Border"
+  },
+  {
+   "hex": "#959595",
+   "name": "Ash Mute"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#1d9bf0",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#ff00b8",
+   "name": "Prism Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5325797b-62d0-4e75-acc7-a0d374973c50.mp4",
+  "poster": "https://happyhands.cc/design-archive/endlesstools-667c59e3/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/endlesstools-667c59e3/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/endlesstools-667c59e3/thumbnail.jpg"
+}

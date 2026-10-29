@@ -1,0 +1,107 @@
+{
+ "id": "5bfe6c1d-1b15-4f8d-b0c9-677a33291c5d",
+ "slug": "mymind-5bfe6c1d",
+ "name": "mymind",
+ "site_url": "https://mymind.com",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-29T10:42:11.503Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Sunlit personal archive — a warm afternoon light spilling across a private collection of saved thoughts, images, and bookmarks, curated without folders.",
+ "fonts": [
+  "Open Sans",
+  "Louize-Regular-205TF",
+  "Louize-Italic-205TF",
+  "Nunito-SemiBold / Nunito-Regular",
+  "Avenir LT W01_45 Book1475508",
+  "Inter-Medium / Inter-Regular",
+  "neue-haas-grotesk-display",
+  "Louize-Bold-205TF",
+  "Louize-Medium-205TF",
+  "mymindai-Regular"
+ ],
+ "colors": [
+  {
+   "hex": "#ff5924",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#1573dd",
+   "name": "Cobalt Link"
+  },
+  {
+   "hex": "#000000",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#f9fafc",
+   "name": "Canvas White"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#fff1f1",
+   "name": "Blush Tint"
+  },
+  {
+   "hex": "#e2e2e2",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e5eaf2",
+   "name": "Slate Blue Card"
+  },
+  {
+   "hex": "#f3f0e7",
+   "name": "Parchment Card"
+  },
+  {
+   "hex": "#dde9d3",
+   "name": "Sage Card"
+  },
+  {
+   "hex": "#3a475a",
+   "name": "Deep Slate"
+  },
+  {
+   "hex": "#4a5465",
+   "name": "Storm"
+  },
+  {
+   "hex": "#717286",
+   "name": "Steel"
+  },
+  {
+   "hex": "#748297",
+   "name": "Slate"
+  },
+  {
+   "hex": "#24272d",
+   "name": "Graphite Nav"
+  },
+  {
+   "hex": "#afb5c1",
+   "name": "Ash"
+  },
+  {
+   "hex": "#a6a8aa",
+   "name": "Chalk"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ccb190c8-57c5-47c9-93f4-4596fe67b757.mp4",
+  "poster": "https://happyhands.cc/design-archive/mymind-5bfe6c1d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/mymind-5bfe6c1d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/mymind-5bfe6c1d/thumbnail.jpg"
+}

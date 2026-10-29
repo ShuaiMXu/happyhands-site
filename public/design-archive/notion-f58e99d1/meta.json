@@ -1,0 +1,91 @@
+{
+ "id": "f58e99d1-940d-4254-8822-5d856bba6505",
+ "slug": "notion-f58e99d1",
+ "name": "Notion",
+ "site_url": "https://www.notion.com",
+ "lastmod": "2026-06-05T11:52:58.187Z",
+ "extracted_at": "2026-06-03T21:46:11.701Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "productivity",
+ "north_star": "midnight workspace, warm paper below",
+ "fonts": [
+  "NotionInter",
+  "Lyon Text"
+ ],
+ "colors": [
+  {
+   "hex": "#02093a",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#0075de",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#62aef0",
+   "name": "Sky Tint"
+  },
+  {
+   "hex": "#2537b1",
+   "name": "Royal Violet"
+  },
+  {
+   "hex": "#455dd3",
+   "name": "Periwinkle"
+  },
+  {
+   "hex": "#097fe8",
+   "name": "Cerulean"
+  },
+  {
+   "hex": "#f6f5f4",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#0b0b0b",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#615d59",
+   "name": "Warm Gray"
+  },
+  {
+   "hex": "#a39e98",
+   "name": "Stone"
+  },
+  {
+   "hex": "#c6c6c5",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#dddddd",
+   "name": "Faint Line"
+  },
+  {
+   "hex": "#31302e",
+   "name": "Charcoal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/efe456c7-500b-407e-87c0-a23a730643b6.mp4",
+  "poster": "https://happyhands.cc/design-archive/notion-f58e99d1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/notion-f58e99d1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/notion-f58e99d1/thumbnail.jpg"
+}

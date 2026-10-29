@@ -1,0 +1,71 @@
+{
+ "id": "17e5ff99-38c1-4ad6-8910-648f5798b3a5",
+ "slug": "norgram-17e5ff99",
+ "name": "Norgram",
+ "site_url": "https://www.norgram.co",
+ "lastmod": "2026-06-03T19:47:11.768Z",
+ "extracted_at": "2026-06-03T19:47:11.765Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "white-walled art gallery",
+ "fonts": [
+  "Helvetica Now Display",
+  "Times"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#141414",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#efefef",
+   "name": "Bone"
+  },
+  {
+   "hex": "#cecece",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#b2b2b2",
+   "name": "Ash"
+  },
+  {
+   "hex": "#999999",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#777777",
+   "name": "Iron"
+  },
+  {
+   "hex": "#5e5e5e",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#1f1f1f",
+   "name": "Onyx"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/214804af-19c7-4e2d-af75-3970a84dcdb7.mp4",
+  "poster": "https://happyhands.cc/design-archive/norgram-17e5ff99/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/norgram-17e5ff99/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/norgram-17e5ff99/thumbnail.jpg"
+}

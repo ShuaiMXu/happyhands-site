@@ -1,0 +1,47 @@
+{
+ "id": "d69af89b-cb31-426d-b9aa-c21d127b8947",
+ "slug": "ohdada-d69af89b",
+ "name": "OhDada",
+ "site_url": "https://ohdada.de",
+ "lastmod": "2026-06-05T11:34:11.080Z",
+ "extracted_at": "2026-06-03T21:25:36.041Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Editorial gallery wall",
+ "fonts": [
+  "GrandSlang-Roman",
+  "Neue Haas Grotesk Display"
+ ],
+ "colors": [
+  {
+   "hex": "#e6e0d9",
+   "name": "Chalk Cream"
+  },
+  {
+   "hex": "#b7b3be",
+   "name": "Lavender Stone"
+  },
+  {
+   "hex": "#5d3a19",
+   "name": "Saddle Brown"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3bb5b307-e594-4d01-a153-d837370cf8cb.mp4",
+  "poster": "https://happyhands.cc/design-archive/ohdada-d69af89b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ohdada-d69af89b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ohdada-d69af89b/thumbnail.jpg"
+}

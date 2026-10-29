@@ -1,0 +1,88 @@
+{
+ "id": "c21fd0f0-1375-4094-83e7-0de484940100",
+ "slug": "obviously-c21fd0f0",
+ "name": "Obviously",
+ "site_url": "https://www.obviously.ai",
+ "lastmod": "2026-06-03T21:43:51.349Z",
+ "extracted_at": "2026-06-03T21:43:51.344Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Whimsical claymation on white paper. Zams stages friendly geometric play-doh creatures on a clean, almost clinical white backdrop, letting one vivid violet do all the chromatic work and a warm serif handle the typographic warmth.",
+ "fonts": [
+  "Lustria",
+  "DM Sans",
+  "Martian Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#7451f2",
+   "name": "Iris Violet"
+  },
+  {
+   "hex": "#5952a1",
+   "name": "Deep Iris"
+  },
+  {
+   "hex": "#0072c6",
+   "name": "Cobalt Info"
+  },
+  {
+   "hex": "#d6e5ff",
+   "name": "Powder Blue"
+  },
+  {
+   "hex": "#272727",
+   "name": "Graphite Ink"
+  },
+  {
+   "hex": "#5d5d5d",
+   "name": "Slate"
+  },
+  {
+   "hex": "#4f4f4f",
+   "name": "Ash"
+  },
+  {
+   "hex": "#a69ea7",
+   "name": "Mauve Dust"
+  },
+  {
+   "hex": "#858585",
+   "name": "Fog"
+  },
+  {
+   "hex": "#333333",
+   "name": "Charcoal Hairline"
+  },
+  {
+   "hex": "#e0e0e0",
+   "name": "Mist"
+  },
+  {
+   "hex": "#f6f6f6",
+   "name": "Soft Snow"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/781d6d52-cbdb-42e2-8444-9cec8d056bb2.mp4",
+  "poster": "https://happyhands.cc/design-archive/obviously-c21fd0f0/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/obviously-c21fd0f0/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/obviously-c21fd0f0/thumbnail.jpg"
+}

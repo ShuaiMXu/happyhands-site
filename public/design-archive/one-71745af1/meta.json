@@ -1,0 +1,42 @@
+{
+ "id": "71745af1-2e53-4925-992e-82773e55ccd6",
+ "slug": "one-71745af1",
+ "name": "ONE",
+ "site_url": "https://one-is.com",
+ "lastmod": "2026-06-05T09:25:35.754Z",
+ "extracted_at": "2026-06-03T20:19:46.835Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "art monograph on warm paper",
+ "fonts": [
+  "MagicUiPro"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#fbfbfa",
+   "name": "Paper"
+  },
+  {
+   "hex": "#bec0c5",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b7576022-a7e8-40e8-950f-220449ca32e3.mp4",
+  "poster": "https://happyhands.cc/design-archive/one-71745af1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/one-71745af1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/one-71745af1/thumbnail.jpg"
+}

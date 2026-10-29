@@ -1,0 +1,88 @@
+{
+ "id": "a26f1a4d-758c-4df0-a61e-88a7ca0931ce",
+ "slug": "mux-a26f1a4d",
+ "name": "Mux",
+ "site_url": "https://www.mux.com",
+ "lastmod": "2026-06-03T19:42:57.989Z",
+ "extracted_at": "2026-06-03T19:42:57.983Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "Sunlit video workshop on olive paper — warm sage canvas with crisp white cards, orange CTAs, and a chunky display headline that feels hand-lettered",
+ "fonts": [
+  "Aeonik",
+  "Rotonto",
+  "JetBrains Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#e2e4dd",
+   "name": "Olive Drafting"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Snow Card"
+  },
+  {
+   "hex": "#000000",
+   "name": "Inkstone"
+  },
+  {
+   "hex": "#242628",
+   "name": "Forge Dark"
+  },
+  {
+   "hex": "#f4f6f4",
+   "name": "Mist Surface"
+  },
+  {
+   "hex": "#d0d2c8",
+   "name": "Linen Border"
+  },
+  {
+   "hex": "#828c97",
+   "name": "Steel"
+  },
+  {
+   "hex": "#adb9c6",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#565e67",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#ff6100",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#ffb200",
+   "name": "Amber Signal"
+  },
+  {
+   "hex": "#bd8209",
+   "name": "Marigold Deep"
+  },
+  {
+   "hex": "#0091ff",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#00be43",
+   "name": "Sprout Green"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5c6eda5d-462c-4faa-9fc1-e6a99b739d7b.mp4",
+  "poster": "https://happyhands.cc/design-archive/mux-a26f1a4d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/mux-a26f1a4d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/mux-a26f1a4d/thumbnail.jpg"
+}

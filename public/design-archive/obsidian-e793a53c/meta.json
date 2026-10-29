@@ -1,0 +1,82 @@
+{
+ "id": "e793a53c-537e-46b0-881d-b15b63b9ff26",
+ "slug": "obsidian-e793a53c",
+ "name": "Obsidian",
+ "site_url": "https://obsidian.md",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-11T17:51:43.812Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "",
+ "north_star": "Crystalline Knowledge Vault. A sharp, faceted digital space built for clarity and focus, with glowing violet veins of interaction.",
+ "fonts": [
+  "ui-sans-serif, system-ui"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Bright Gray"
+  },
+  {
+   "hex": "#bcbcbc",
+   "name": "Medium Gray"
+  },
+  {
+   "hex": "#a3a3a3",
+   "name": "Muted Gray"
+  },
+  {
+   "hex": "#3f3f3f",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#1e1e1",
+   "name": "Surface"
+  },
+  {
+   "hex": "#171717",
+   "name": "Abyss"
+  },
+  {
+   "hex": "#7c3aed",
+   "name": "Amethyst"
+  },
+  {
+   "hex": "#a78bfa",
+   "name": "Lavender"
+  },
+  {
+   "hex": "#8a5cf5",
+   "name": "Tag Background"
+  },
+  {
+   "hex": "#4ade80",
+   "name": "Success Green"
+  },
+  {
+   "hex": "#facc15",
+   "name": "Warning Yellow"
+  },
+  {
+   "hex": "#f87171",
+   "name": "Error Red"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/98d9eef9-9225-41a3-adae-6b2c58e17a20.mp4",
+  "poster": "https://happyhands.cc/design-archive/obsidian-e793a53c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/obsidian-e793a53c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/obsidian-e793a53c/thumbnail.jpg"
+}

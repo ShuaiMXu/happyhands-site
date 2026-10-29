@@ -1,0 +1,83 @@
+{
+ "id": "cc38369a-41e3-4bcd-b619-230ccffe7e8e",
+ "slug": "neon-cc38369a",
+ "name": "Neon",
+ "site_url": "https://neon.tech",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-11T17:38:19.074Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "",
+ "north_star": "Server Room After Dark. A deep black environment where data and interactions are the only sources of light.",
+ "fonts": [
+  "Inter",
+  "GeistMono"
+ ],
+ "colors": [
+  {
+   "hex": "#34d59a",
+   "name": "Neon Glow"
+  },
+  {
+   "hex": "#285d49",
+   "name": "Neon Muted"
+  },
+  {
+   "hex": "#39a57d",
+   "name": "Scanline Fade"
+  },
+  {
+   "hex": "#ff3621",
+   "name": "System Warning"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Whiteout"
+  },
+  {
+   "hex": "#797d86",
+   "name": "Ash"
+  },
+  {
+   "hex": "#94979",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#c9cbcf",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#303236",
+   "name": "Graphite Light"
+  },
+  {
+   "hex": "#242628",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#151617",
+   "name": "Graphite Deep"
+  },
+  {
+   "hex": "#0a0a0b",
+   "name": "Depth"
+  },
+  {
+   "hex": "#000000",
+   "name": "Blackout"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/065b22a8-fb9d-49e6-bfe2-abc4866d27a7.mp4",
+  "poster": "https://happyhands.cc/design-archive/neon-cc38369a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/neon-cc38369a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/neon-cc38369a/thumbnail.jpg"
+}

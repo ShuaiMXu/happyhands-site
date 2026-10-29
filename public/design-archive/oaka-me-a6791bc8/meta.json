@@ -1,0 +1,46 @@
+{
+ "id": "a6791bc8-c49d-4e7a-a09d-877afcd04c25",
+ "slug": "oaka-me-a6791bc8",
+ "name": "Oakâme",
+ "site_url": "https://www.oakame.com",
+ "lastmod": "2026-06-03T17:29:32.944Z",
+ "extracted_at": "2026-06-03T17:29:32.935Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Sunlit Provençal atelier carved in warm stone",
+ "fonts": [
+  "BwGradual"
+ ],
+ "colors": [
+  {
+   "hex": "#403a34",
+   "name": "Walnut Ink"
+  },
+  {
+   "hex": "#f6f1eb",
+   "name": "Linen Canvas"
+  },
+  {
+   "hex": "#333333",
+   "name": "Charcoal Note"
+  },
+  {
+   "hex": "#555555",
+   "name": "Slate Whisper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/7a889a9f-a725-44be-80ba-8e8b38957f9f.mp4",
+  "poster": "https://happyhands.cc/design-archive/oaka-me-a6791bc8/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/oaka-me-a6791bc8/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/oaka-me-a6791bc8/thumbnail.jpg"
+}

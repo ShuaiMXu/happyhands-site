@@ -1,0 +1,57 @@
+{
+ "id": "01d6013d-a176-4a22-b7dd-fbd113592956",
+ "slug": "oevra-01d6013d",
+ "name": "Oevra",
+ "site_url": "https://oevra.com",
+ "lastmod": "2026-06-05T05:23:50.837Z",
+ "extracted_at": "2026-06-03T18:43:22.345Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "sage greenhouse at dawn",
+ "fonts": [
+  "space-regular",
+  "Suisse Int'l",
+  "Suisse Int'l",
+  "Space Grotesk",
+  "System Sans",
+  "ui-sans-serif",
+  "suisse-light",
+  "suisse-regular"
+ ],
+ "colors": [
+  {
+   "hex": "#778643",
+   "name": "Eucalyptus"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure Canvas"
+  },
+  {
+   "hex": "#4e4e4e",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#c8c8c8",
+   "name": "Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4a825da4-26ca-4199-b727-24e0a54239d9.mp4",
+  "poster": "https://happyhands.cc/design-archive/oevra-01d6013d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/oevra-01d6013d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/oevra-01d6013d/thumbnail.jpg"
+}

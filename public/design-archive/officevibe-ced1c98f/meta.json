@@ -1,0 +1,72 @@
+{
+ "id": "ced1c98f-d489-48f7-a01f-1fa59a07b706",
+ "slug": "officevibe-ced1c98f",
+ "name": "Officevibe",
+ "site_url": "https://officevibe.com",
+ "lastmod": "2026-06-05T00:28:52.670Z",
+ "extracted_at": "2026-06-03T15:05:52.842Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Editorial journal on warm cream paper. Think a thoughtful HR essay rendered as a product — serif italics whispering through a modern blue interface.",
+ "fonts": [
+  "Martinaplantijn",
+  "Abcfavoritvariable",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#0c1754",
+   "name": "Ink Navy"
+  },
+  {
+   "hex": "#2545ff",
+   "name": "Electric Cobalt"
+  },
+  {
+   "hex": "#171417",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#f9f8f6",
+   "name": "Warm Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f0e9e1",
+   "name": "Cream Border"
+  },
+  {
+   "hex": "#222222",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#969696",
+   "name": "Stone"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#eaebf8",
+   "name": "Lavender Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d5eeb495-6484-4007-8043-0adc28d1ae75.mp4",
+  "poster": "https://happyhands.cc/design-archive/officevibe-ced1c98f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/officevibe-ced1c98f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/officevibe-ced1c98f/thumbnail.jpg"
+}

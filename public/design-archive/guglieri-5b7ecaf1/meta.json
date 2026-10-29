@@ -1,0 +1,61 @@
+{
+ "id": "5b7ecaf1-de2d-4fb9-9995-9f0665e77862",
+ "slug": "guglieri-5b7ecaf1",
+ "name": "Guglieri",
+ "site_url": "https://guglieri.com",
+ "lastmod": "2026-06-03T21:08:07.947Z",
+ "extracted_at": "2026-06-03T21:08:07.941Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "design",
+ "north_star": "monochrome typographic gallery. Every pixel is either ink-black, paper-white, or a gray between — hierarchy lives in the weight of Raveo Variable, never in color.",
+ "fonts": [
+  "Arial",
+  "Raveo Variable Variable",
+  "System Sans-Serif",
+  "Inter Display"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#111111",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#1c1c1c",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#454545",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#575757",
+   "name": "Ash"
+  },
+  {
+   "hex": "#050505",
+   "name": "Near Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/214804af-19c7-4e2d-af75-3970a84dcdb7.mp4",
+  "poster": "https://happyhands.cc/design-archive/guglieri-5b7ecaf1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/guglieri-5b7ecaf1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/guglieri-5b7ecaf1/thumbnail.jpg"
+}

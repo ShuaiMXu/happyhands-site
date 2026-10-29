@@ -1,0 +1,70 @@
+{
+ "id": "6a8bf4c2-8cf2-463a-bcb9-36c15ea177c2",
+ "slug": "hashnode-6a8bf4c2",
+ "name": "Hashnode",
+ "site_url": "https://hashnode.com",
+ "lastmod": "2026-06-03T20:47:55.292Z",
+ "extracted_at": "2026-06-03T20:47:55.284Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "Editorial newsroom on a gray runway — a clean monochrome feed where one electric blue accent carries all the energy.",
+ "fonts": [
+  "suisseIntl",
+  "Suisse Int'l",
+  "Font Awesome 7 Jelly / Pro",
+  "Suisse Mono",
+  "Font Awesome 7 Pro"
+ ],
+ "colors": [
+  {
+   "hex": "#1d52de",
+   "name": "Blueprint Blue"
+  },
+  {
+   "hex": "#16191c",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#1c2024",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#7b8187",
+   "name": "Slate"
+  },
+  {
+   "hex": "#d1d4d9",
+   "name": "Fog"
+  },
+  {
+   "hex": "#f4f5f7",
+   "name": "Paper"
+  },
+  {
+   "hex": "#e6e8eb",
+   "name": "Stone"
+  },
+  {
+   "hex": "#f9fafb",
+   "name": "Canvas"
+  },
+  {
+   "hex": "#00bc7d",
+   "name": "Mint"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/acd1682d-6bcb-4042-b9ab-dac1b4460912.mp4",
+  "poster": "https://happyhands.cc/design-archive/hashnode-6a8bf4c2/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/hashnode-6a8bf4c2/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/hashnode-6a8bf4c2/thumbnail.jpg"
+}

@@ -1,0 +1,67 @@
+{
+ "id": "7de578bc-9fbd-4664-a731-6223515bb601",
+ "slug": "hnst-studio-7de578bc",
+ "name": "HNST Studio",
+ "site_url": "https://www.letsbehonest.eu",
+ "lastmod": "2026-06-05T07:19:38.204Z",
+ "extracted_at": "2026-06-03T19:22:18.964Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "earthy atelier with rust on linen — a slow-fashion gallery where a single burnt-orange accent warms an otherwise monastic cream and charcoal interior",
+ "fonts": [
+  "Raleway",
+  "Poppins"
+ ],
+ "colors": [
+  {
+   "hex": "#892500",
+   "name": "Rust Hearth"
+  },
+  {
+   "hex": "#ea9195",
+   "name": "Blush Whisper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Linen"
+  },
+  {
+   "hex": "#f9f6f2",
+   "name": "Raw Silk"
+  },
+  {
+   "hex": "#eee5d9",
+   "name": "Sand Plaster"
+  },
+  {
+   "hex": "#0e0e0e",
+   "name": "Charcoal Ink"
+  },
+  {
+   "hex": "#868686",
+   "name": "Stone"
+  },
+  {
+   "hex": "#b7b7b7",
+   "name": "Ash"
+  },
+  {
+   "hex": "#d7d7d7",
+   "name": "Frost"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4cd5c66d-8654-49c1-9935-1830971e3d0a.mp4",
+  "poster": "https://happyhands.cc/design-archive/hnst-studio-7de578bc/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/hnst-studio-7de578bc/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/hnst-studio-7de578bc/thumbnail.jpg"
+}

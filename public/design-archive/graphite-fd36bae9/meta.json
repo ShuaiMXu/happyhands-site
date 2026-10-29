@@ -1,0 +1,74 @@
+{
+ "id": "fd36bae9-dbf4-4b0f-a48b-e8c6f92edca3",
+ "slug": "graphite-fd36bae9",
+ "name": "Graphite",
+ "site_url": "https://graphite.dev",
+ "lastmod": "2026-09-24T17:54:40.255Z",
+ "extracted_at": "2026-09-24T17:37:54.849Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "Luminous terminal lattice. Build dark, bordered product surfaces around precise white typography and sparse bursts of spectral light.",
+ "fonts": [
+  "matterFont"
+ ],
+ "colors": [
+  {
+   "hex": "#0a0a0a",
+   "name": "Obsidian Canvas"
+  },
+  {
+   "hex": "#000000",
+   "name": "True Black"
+  },
+  {
+   "hex": "#171717",
+   "name": "Charcoal Surface"
+  },
+  {
+   "hex": "#262626",
+   "name": "Graphite Edge"
+  },
+  {
+   "hex": "#464646",
+   "name": "Steel Border"
+  },
+  {
+   "hex": "#fafafa",
+   "name": "Cloud White"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#a1a1a1",
+   "name": "Fog"
+  },
+  {
+   "hex": "#737373",
+   "name": "Ash"
+  },
+  {
+   "hex": "#ff8833",
+   "name": "Signal Orange"
+  },
+  {
+   "hex": "#ffb931",
+   "name": "Solar Spectrum"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/069e2611-2a51-42c2-9d0b-6993323e2a93.mp4",
+  "poster": "https://happyhands.cc/design-archive/graphite-fd36bae9/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/graphite-fd36bae9/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/graphite-fd36bae9/thumbnail.jpg"
+}

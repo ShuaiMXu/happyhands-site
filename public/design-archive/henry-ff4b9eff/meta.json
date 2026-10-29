@@ -1,0 +1,61 @@
+{
+ "id": "ff4b9eff-dc0b-4886-bd65-c2f5e9069318",
+ "slug": "henry-ff4b9eff",
+ "name": "Henry",
+ "site_url": "https://henry.codes",
+ "lastmod": "2026-06-05T04:16:14.106Z",
+ "extracted_at": "2026-06-03T18:12:39.112Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "agency",
+ "north_star": "Gothic broadside poster on warm cream paper. One hundred percent monochrome, no chromatic accent, all visual intensity carried by display type and full-bleed paper-to-ink inversions.",
+ "fonts": [
+  "Neue Montreal",
+  "Louize Display",
+  "Louize",
+  "Manuka"
+ ],
+ "colors": [
+  {
+   "hex": "#fafafa",
+   "name": "Paper"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#9f9f9f",
+   "name": "Midstone"
+  },
+  {
+   "hex": "#666666",
+   "name": "Ash"
+  },
+  {
+   "hex": "#b3b3b3",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#3e3b36",
+   "name": "Sepia"
+  },
+  {
+   "hex": "#2a2722",
+   "name": "Headline Ink"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/18f9f32e-a989-4e1e-8886-87cbf45c8670.mp4",
+  "poster": "https://happyhands.cc/design-archive/henry-ff4b9eff/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/henry-ff4b9eff/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/henry-ff4b9eff/thumbnail.jpg"
+}

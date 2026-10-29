@@ -1,0 +1,100 @@
+{
+ "id": "834ce97f-61f2-4b12-bf5c-e9fad2544456",
+ "slug": "hashicorp-834ce97f",
+ "name": "HashiCorp",
+ "site_url": "https://hashicorp.com",
+ "lastmod": "2026-06-05T05:36:25.794Z",
+ "extracted_at": "2026-06-03T18:51:13.137Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "midnight control room with violet neon — a dark technical surface where a glowing hexagonal cube serves as the only chromatic anchor",
+ "fonts": [
+  "system-ui",
+  "Hashicorp Sans",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void Canvas"
+  },
+  {
+   "hex": "#0d0e12",
+   "name": "Onyx Surface"
+  },
+  {
+   "hex": "#15181e",
+   "name": "Obsidian Plate"
+  },
+  {
+   "hex": "#656a76",
+   "name": "Ash Text"
+  },
+  {
+   "hex": "#3b3d45",
+   "name": "Steel Secondary"
+  },
+  {
+   "hex": "#b2b6bd",
+   "name": "Graphite Border"
+  },
+  {
+   "hex": "#d5d7db",
+   "name": "Fog Divider"
+  },
+  {
+   "hex": "#e0e2e5",
+   "name": "Bone"
+  },
+  {
+   "hex": "#efeff1",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#2264d6",
+   "name": "Brand Cobalt"
+  },
+  {
+   "hex": "#2b89ff",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#1060ff",
+   "name": "Hyperlink Violet"
+  },
+  {
+   "hex": "#42225b",
+   "name": "Plum Glass"
+  },
+  {
+   "hex": "#b457ff",
+   "name": "Amethyst Edge"
+  },
+  {
+   "hex": "#6c81ff",
+   "name": "Violet Dawn"
+  },
+  {
+   "hex": "#c08dff",
+   "name": "Iris Glow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/eb88865f-81f8-4b76-bcc2-cc433b6faa5f.mp4",
+  "poster": "https://happyhands.cc/design-archive/hashicorp-834ce97f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/hashicorp-834ce97f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/hashicorp-834ce97f/thumbnail.jpg"
+}

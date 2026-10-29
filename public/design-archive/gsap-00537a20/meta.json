@@ -1,0 +1,82 @@
+{
+ "id": "00537a20-e99e-4ef2-b119-c6f532c44cc9",
+ "slug": "gsap-00537a20",
+ "name": "Gsap",
+ "site_url": "https://gsap.com",
+ "lastmod": "2026-07-03T10:42:45.458Z",
+ "extracted_at": "2026-07-03T03:17:18.650Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "animated chalkboard in a design studio. A near-black wall, warm cream chalk, and five color-coded highlighters — one for each animation discipline.",
+ "fonts": [
+  "Mori"
+ ],
+ "colors": [
+  {
+   "hex": "#0e100f",
+   "name": "Just Black"
+  },
+  {
+   "hex": "#fffce1",
+   "name": "Surface Cream"
+  },
+  {
+   "hex": "#7c7c6f",
+   "name": "Surface 50"
+  },
+  {
+   "hex": "#42433d",
+   "name": "Surface 25"
+  },
+  {
+   "hex": "#191919",
+   "name": "Off Black"
+  },
+  {
+   "hex": "#0ae448",
+   "name": "Shockingly Green"
+  },
+  {
+   "hex": "#abff84",
+   "name": "Light Green"
+  },
+  {
+   "hex": "#ff8709",
+   "name": "Orangey"
+  },
+  {
+   "hex": "#fec5fb",
+   "name": "Pink"
+  },
+  {
+   "hex": "#9d95ff",
+   "name": "Lilac"
+  },
+  {
+   "hex": "#00bae2",
+   "name": "Blue"
+  },
+  {
+   "hex": "#dfffd1",
+   "name": "Core Green"
+  },
+  {
+   "hex": "#f100cb",
+   "name": "Lipstick Pink"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e8588409-43c0-4d73-8aa0-479693ca8e24.mp4",
+  "poster": "https://happyhands.cc/design-archive/gsap-00537a20/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/gsap-00537a20/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/gsap-00537a20/thumbnail.jpg"
+}

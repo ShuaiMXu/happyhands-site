@@ -1,0 +1,108 @@
+{
+ "id": "6f3652cf-583f-411d-a117-3a03f6342917",
+ "slug": "harness-io-6f3652cf",
+ "name": "Harness.io",
+ "site_url": "https://gitness.com",
+ "lastmod": "2026-06-03T17:53:43.032Z",
+ "extracted_at": "2026-06-03T17:53:43.027Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "midnight mission control with phosphor-green accents",
+ "fonts": [
+  "Geist",
+  "Calsans",
+  "Helvetica"
+ ],
+ "colors": [
+  {
+   "hex": "#070707",
+   "name": "Void Canvas"
+  },
+  {
+   "hex": "#0d0e12",
+   "name": "Carbon Plate"
+  },
+  {
+   "hex": "#141418",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#2e3038",
+   "name": "Iron Edge"
+  },
+  {
+   "hex": "#22222a",
+   "name": "Steel Border"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#f0f0f0",
+   "name": "Cloud Mist"
+  },
+  {
+   "hex": "#d9dae5",
+   "name": "Fog"
+  },
+  {
+   "hex": "#c8cad0",
+   "name": "Ash"
+  },
+  {
+   "hex": "#aeaeb7",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#a2a4a9",
+   "name": "Slate Mute"
+  },
+  {
+   "hex": "#60606c",
+   "name": "Cinder"
+  },
+  {
+   "hex": "#70dcd3",
+   "name": "Phosphor Mint"
+  },
+  {
+   "hex": "#0092e4",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#a6e5f2",
+   "name": "Ice Blue"
+  },
+  {
+   "hex": "#00ade4",
+   "name": "Current Blue"
+  },
+  {
+   "hex": "#0677d4",
+   "name": "Deep Signal"
+  },
+  {
+   "hex": "#75ae4c",
+   "name": "Verdant Edge"
+  },
+  {
+   "hex": "#929dbd",
+   "name": "Steel Iris"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/dd457bb3-d7ae-407c-b929-cf2423c17b9c.mp4",
+  "poster": "https://happyhands.cc/design-archive/harness-io-6f3652cf/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/harness-io-6f3652cf/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/harness-io-6f3652cf/thumbnail.jpg"
+}

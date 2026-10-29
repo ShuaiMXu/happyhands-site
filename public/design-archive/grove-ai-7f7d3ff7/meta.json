@@ -1,0 +1,66 @@
+{
+ "id": "7f7d3ff7-7a74-40f1-9098-a946ce53d4d4",
+ "slug": "grove-ai-7f7d3ff7",
+ "name": "Grove AI",
+ "site_url": "https://www.grovetrials.com",
+ "lastmod": "2026-06-03T20:09:22.337Z",
+ "extracted_at": "2026-06-03T20:09:22.333Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "clinical journal in morning light — a single green word anchors a page of measured prose",
+ "fonts": [
+  "sans-serif",
+  "Libre Caslon Text",
+  "Geist",
+  "Geist Mono",
+  "Geist Medium"
+ ],
+ "colors": [
+  {
+   "hex": "#0b835c",
+   "name": "Forest Grove"
+  },
+  {
+   "hex": "#1c2b27",
+   "name": "Pine Shadow"
+  },
+  {
+   "hex": "#1c1c1e",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#303033",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#676768",
+   "name": "Slate Mid"
+  },
+  {
+   "hex": "#eff1f6",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#bfbfbf",
+   "name": "Shadow Smoke"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/98fde14f-a231-4695-9137-e53c6732c6e8.mp4",
+  "poster": "https://happyhands.cc/design-archive/grove-ai-7f7d3ff7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/grove-ai-7f7d3ff7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/grove-ai-7f7d3ff7/thumbnail.jpg"
+}

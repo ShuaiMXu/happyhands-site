@@ -1,0 +1,82 @@
+{
+ "id": "be2af3f3-3886-4d70-973f-f7b5ab8d1a99",
+ "slug": "grammarly-be2af3f3",
+ "name": "Grammarly",
+ "site_url": "https://grammarly.com",
+ "lastmod": "2026-06-03T19:52:13.714Z",
+ "extracted_at": "2026-06-03T19:52:13.706Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Thoughtful editor's desk — restrained, precise, one confident accent",
+ "fonts": [
+  "Glyph",
+  "matter",
+  "Inter",
+  "Arial",
+  "sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#027e6f",
+   "name": "Grammarly Teal"
+  },
+  {
+   "hex": "#1f243c",
+   "name": "Midnight Navy"
+  },
+  {
+   "hex": "#0e101a",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#545454",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#707070",
+   "name": "Steel"
+  },
+  {
+   "hex": "#b7b7b7",
+   "name": "Silver"
+  },
+  {
+   "hex": "#d9d9d9",
+   "name": "Ash"
+  },
+  {
+   "hex": "#ebebeb",
+   "name": "Fog"
+  },
+  {
+   "hex": "#f5f5f5",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#1c1c1c",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#4d536e",
+   "name": "Slate"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/8f8a0e2a-e7d8-43c4-8b96-3b3070c9266f.mp4",
+  "poster": "https://happyhands.cc/design-archive/grammarly-be2af3f3/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/grammarly-be2af3f3/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/grammarly-be2af3f3/thumbnail.jpg"
+}

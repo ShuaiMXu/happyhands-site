@@ -1,0 +1,61 @@
+{
+ "id": "b3f7b44d-6564-4015-902a-259b4790b9de",
+ "slug": "herokit-b3f7b44d",
+ "name": "HeroKit",
+ "site_url": "https://herokit.design",
+ "lastmod": "2026-06-03T20:45:06.499Z",
+ "extracted_at": "2026-06-03T20:45:06.494Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "design",
+ "north_star": "Pale lemon neon on an obsidian void — an editorial poster that happens to be a product page.",
+ "fonts": [
+  "PP Neue Montreal",
+  "PP Neue Montreal Medium",
+  "ABC Monument Grotesk",
+  "System Sans-Serif"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffa7",
+   "name": "Pale Lemon"
+  },
+  {
+   "hex": "#fddd05",
+   "name": "Electric Yellow"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#333333",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#999999",
+   "name": "Mist"
+  },
+  {
+   "hex": "#808080",
+   "name": "Steel"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4e03e9de-637e-472f-93a7-dac84d56048b.mp4",
+  "poster": "https://happyhands.cc/design-archive/herokit-b3f7b44d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/herokit-b3f7b44d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/herokit-b3f7b44d/thumbnail.jpg"
+}

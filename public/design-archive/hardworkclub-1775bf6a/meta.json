@@ -1,0 +1,47 @@
+{
+ "id": "1775bf6a-afdd-48b1-8435-b92ec585c674",
+ "slug": "hardworkclub-1775bf6a",
+ "name": "Hardworkclub",
+ "site_url": "https://www.hardworkclub.com",
+ "lastmod": "2026-06-03T21:38:44.629Z",
+ "extracted_at": "2026-06-03T21:38:44.624Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "midnight black-box theater — a dark room where one round blue light glows above a stage, and the only thing louder than the silence is the film playing",
+ "fonts": [
+  "Maligna",
+  "Founders Grotesk"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Pitch Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#313130",
+   "name": "Charcoal Whisper"
+  },
+  {
+   "hex": "#1200e3",
+   "name": "Electric Cobalt"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5c6d3de5-4317-45f2-9570-a4af338f57d9.mp4",
+  "poster": "https://happyhands.cc/design-archive/hardworkclub-1775bf6a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/hardworkclub-1775bf6a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/hardworkclub-1775bf6a/thumbnail.jpg"
+}

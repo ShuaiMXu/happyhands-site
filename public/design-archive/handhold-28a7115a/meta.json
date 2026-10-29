@@ -1,0 +1,55 @@
+{
+ "id": "28a7115a-bcf8-4b05-89a5-5290f5842a3c",
+ "slug": "handhold-28a7115a",
+ "name": "Handhold",
+ "site_url": "https://handhold.io",
+ "lastmod": "2026-06-03T20:03:58.664Z",
+ "extracted_at": "2026-06-03T20:03:58.657Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "warm parchment under whispered serifs — a hand-set editorial spread with zero chromatic noise, where a hairline serif at weight 200 carries all the voice.",
+ "fonts": [
+  "bureauSerif",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#f2f1ed",
+   "name": "Paper Cream"
+  },
+  {
+   "hex": "#dbd7cd",
+   "name": "Warm Border"
+  },
+  {
+   "hex": "#737373",
+   "name": "Stone Gray"
+  },
+  {
+   "hex": "#999999",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/99b3767a-a29a-4a8c-8a62-1909ccc6ce56.mp4",
+  "poster": "https://happyhands.cc/design-archive/handhold-28a7115a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/handhold-28a7115a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/handhold-28a7115a/thumbnail.jpg"
+}

@@ -1,0 +1,68 @@
+{
+ "id": "7829a500-242b-4932-b42d-7ce40c254101",
+ "slug": "hey-low-7829a500",
+ "name": "Hey Low",
+ "site_url": "https://heylow.world",
+ "lastmod": "2026-06-05T04:55:22.214Z",
+ "extracted_at": "2026-06-03T18:28:04.459Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "botanical field journal on cream paper — Measured, organic, and mostly silent, with one lime-green note singing on the page.",
+ "fonts": [
+  "UntitledSans",
+  "BoogyBrutPoster",
+  "sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#003329",
+   "name": "Forest Ink"
+  },
+  {
+   "hex": "#e6ffa3",
+   "name": "Chartreuse Sprig"
+  },
+  {
+   "hex": "#042725",
+   "name": "Deep Moss"
+  },
+  {
+   "hex": "#9bff48",
+   "name": "Vivid Lime"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Mist Paper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White Sheet"
+  },
+  {
+   "hex": "#000000",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#52756e",
+   "name": "Sage Dust"
+  },
+  {
+   "hex": "#33544c",
+   "name": "Pine Shadow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b4a66fe3-00ec-415b-9ab5-1394184e52ad.mp4",
+  "poster": "https://happyhands.cc/design-archive/hey-low-7829a500/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/hey-low-7829a500/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/hey-low-7829a500/thumbnail.jpg"
+}

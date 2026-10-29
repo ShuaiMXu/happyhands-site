@@ -1,0 +1,42 @@
+{
+ "id": "0057e55a-8a66-4ffc-9c21-f0b757e580b3",
+ "slug": "haus-otto-0057e55a",
+ "name": "Haus Otto",
+ "site_url": "https://hausotto.com",
+ "lastmod": "2026-06-05T07:53:29.123Z",
+ "extracted_at": "2026-06-03T19:18:01.351Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Monumental wordmark on white void",
+ "fonts": [
+  "Monument"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#af7653",
+   "name": "Terracotta"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/7b783a8c-b355-428b-b2dd-d42de2f8f3e0.mp4",
+  "poster": "https://happyhands.cc/design-archive/haus-otto-0057e55a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/haus-otto-0057e55a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/haus-otto-0057e55a/thumbnail.jpg"
+}

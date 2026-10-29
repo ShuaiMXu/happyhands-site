@@ -1,0 +1,60 @@
+{
+ "id": "dba3eb4f-c1c2-437f-beb2-708e9d074729",
+ "slug": "handshake-dba3eb4f",
+ "name": "Handshake",
+ "site_url": "https://joinhandshake.com",
+ "lastmod": "2026-06-05T01:38:48.911Z",
+ "extracted_at": "2026-06-03T16:38:04.247Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "neon highlighter on white paper",
+ "fonts": [
+  "NoiGrotesk",
+  "SansPlomb",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#d3fb52",
+   "name": "Voltage Lime"
+  },
+  {
+   "hex": "#7af3ff",
+   "name": "Cyan Spark"
+  },
+  {
+   "hex": "#052326",
+   "name": "Mid Abyss"
+  },
+  {
+   "hex": "#14151c",
+   "name": "Carbon Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "True Black"
+  },
+  {
+   "hex": "#666666",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/47995155-9aca-4bb2-a31e-1fd3f97ce18c.mp4",
+  "poster": "https://happyhands.cc/design-archive/handshake-dba3eb4f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/handshake-dba3eb4f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/handshake-dba3eb4f/thumbnail.jpg"
+}

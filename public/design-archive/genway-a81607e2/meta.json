@@ -1,0 +1,83 @@
+{
+ "id": "a81607e2-254f-4f53-b357-68c39c9cfc03",
+ "slug": "genway-a81607e2",
+ "name": "Genway",
+ "site_url": "https://www.genway.ai",
+ "lastmod": "2026-06-03T19:13:40.207Z",
+ "extracted_at": "2026-06-03T19:13:40.204Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Indigo observatory at lavender dawn — a research terminal floating above a violet mist.",
+ "fonts": [
+  "sans-serif",
+  "Geist",
+  "Geist Regular",
+  "Geist SemiBold",
+  "Geist Bold",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#0a0449",
+   "name": "Deep Indigo"
+  },
+  {
+   "hex": "#6b5ee0",
+   "name": "Vivid Violet"
+  },
+  {
+   "hex": "#0a0163",
+   "name": "Midnight Iris"
+  },
+  {
+   "hex": "#706e87",
+   "name": "Slate Lavender"
+  },
+  {
+   "hex": "#a89fc7",
+   "name": "Soft Mauve"
+  },
+  {
+   "hex": "#a085a6",
+   "name": "Dusty Rose"
+  },
+  {
+   "hex": "#efb9fd",
+   "name": "Blush Petal"
+  },
+  {
+   "hex": "#f7f6fd",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#e2e0f9",
+   "name": "Pale Wisteria"
+  },
+  {
+   "hex": "#cfccf5",
+   "name": "Morning Lilac"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/915e5adb-dcda-460e-8188-8dac24e3bf67.mp4",
+  "poster": "https://happyhands.cc/design-archive/genway-a81607e2/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/genway-a81607e2/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/genway-a81607e2/thumbnail.jpg"
+}

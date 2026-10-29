@@ -1,0 +1,71 @@
+{
+ "id": "6d9b6fe6-51f4-4978-82dd-a791c28db5cf",
+ "slug": "glow-6d9b6fe6",
+ "name": "Glow",
+ "site_url": "https://glow.app",
+ "lastmod": "2026-06-05T03:14:59.996Z",
+ "extracted_at": "2026-06-03T17:37:15.370Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "crypto",
+ "north_star": "Magenta pulse on porcelain white. A single saturated brand color cuts through a quiet, gallery-bright canvas where phone screens are the art and a peach badge is the only warmth.",
+ "fonts": [
+  "Roobert",
+  "-apple-system"
+ ],
+ "colors": [
+  {
+   "hex": "#cc62d5",
+   "name": "Voltage Magenta"
+  },
+  {
+   "hex": "#a732d6",
+   "name": "Plasma Gradient"
+  },
+  {
+   "hex": "#ec660d",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#e83b47",
+   "name": "Signal Red"
+  },
+  {
+   "hex": "#131517",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#f4f5f6",
+   "name": "Porcelain"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#333537",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#737577",
+   "name": "Stone"
+  },
+  {
+   "hex": "#b3b5b7",
+   "name": "Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/46ecebf1-655d-4937-a2cf-f1bd295bf757.mp4",
+  "poster": "https://happyhands.cc/design-archive/glow-6d9b6fe6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/glow-6d9b6fe6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/glow-6d9b6fe6/thumbnail.jpg"
+}

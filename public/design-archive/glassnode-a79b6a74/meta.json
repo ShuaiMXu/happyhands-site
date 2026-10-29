@@ -1,0 +1,87 @@
+{
+ "id": "a79b6a74-6b67-4c9f-9d69-bff80869b943",
+ "slug": "glassnode-a79b6a74",
+ "name": "Glassnode",
+ "site_url": "https://glassnode.com",
+ "lastmod": "2026-06-05T03:19:29.448Z",
+ "extracted_at": "2026-06-03T17:44:52.271Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "crypto",
+ "north_star": "Bloomberg terminal in a glass-walled research lab",
+ "fonts": [
+  "Inter",
+  "Fraktion"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#1a1a1a",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#333333",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#5a5a5a",
+   "name": "Iron"
+  },
+  {
+   "hex": "#666666",
+   "name": "Slate"
+  },
+  {
+   "hex": "#808080",
+   "name": "Steel"
+  },
+  {
+   "hex": "#a0a0a0",
+   "name": "Fog"
+  },
+  {
+   "hex": "#bfbfbf",
+   "name": "Ash"
+  },
+  {
+   "hex": "#dedfe1",
+   "name": "Mist"
+  },
+  {
+   "hex": "#edeff2",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#f7f8fa",
+   "name": "Paper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#e2e7fc",
+   "name": "Glacier Tint"
+  },
+  {
+   "hex": "#6f6f6f",
+   "name": "Badge Slate"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/995cbad4-8e47-48c8-b638-31e0737202a4.mp4",
+  "poster": "https://happyhands.cc/design-archive/glassnode-a79b6a74/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/glassnode-a79b6a74/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/glassnode-a79b6a74/thumbnail.jpg"
+}

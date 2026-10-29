@@ -1,0 +1,71 @@
+{
+ "id": "1c1d3939-8d82-4907-aa3c-c9b2fcfbab4f",
+ "slug": "grafbase-1c1d3939",
+ "name": "Grafbase",
+ "site_url": "https://grafbase.com",
+ "lastmod": "2026-06-03T16:06:30.187Z",
+ "extracted_at": "2026-06-03T16:06:30.182Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "engineering blueprint on cool marble",
+ "fonts": [
+  "Inter",
+  "sans (custom utility)"
+ ],
+ "colors": [
+  {
+   "hex": "#1b1b1b",
+   "name": "Graphite Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Marble"
+  },
+  {
+   "hex": "#eaeaea",
+   "name": "Drafting Gray"
+  },
+  {
+   "hex": "#60646c",
+   "name": "Steel"
+  },
+  {
+   "hex": "#7c7c7c",
+   "name": "Ash"
+  },
+  {
+   "hex": "#e0e1e6",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#00f2e6",
+   "name": "Mint Signal"
+  },
+  {
+   "hex": "#8dc63f",
+   "name": "Moss"
+  },
+  {
+   "hex": "#00b9f1",
+   "name": "Sky"
+  },
+  {
+   "hex": "#19a05f",
+   "name": "Forest-to-Deep Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/1c488f4c-b3ec-46ba-ad13-ff938c179708.mp4",
+  "poster": "https://happyhands.cc/design-archive/grafbase-1c1d3939/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/grafbase-1c1d3939/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/grafbase-1c1d3939/thumbnail.jpg"
+}

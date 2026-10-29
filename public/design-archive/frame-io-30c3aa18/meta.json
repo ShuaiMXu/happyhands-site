@@ -1,0 +1,77 @@
+{
+ "id": "30c3aa18-4323-4448-8ddd-3ca933fe5780",
+ "slug": "frame-io-30c3aa18",
+ "name": "Frame.io",
+ "site_url": "https://frame.io",
+ "lastmod": "2026-06-03T17:25:20.908Z",
+ "extracted_at": "2026-06-03T17:25:20.903Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "design",
+ "north_star": "Midnight cinema projection room.\n\nA dark suite where a single blue spotlight does all the work and the UI recedes so creative content can project forward.",
+ "fonts": [
+  "Times",
+  "FrameGothic",
+  "NeueMachinaInktrap",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#fcfcfc",
+   "name": "Carbon Vellum"
+  },
+  {
+   "hex": "#0a0a13",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pitch"
+  },
+  {
+   "hex": "#040407",
+   "name": "Void"
+  },
+  {
+   "hex": "#08080c",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#757580",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#a3a3b3",
+   "name": "Ash"
+  },
+  {
+   "hex": "#2a2a32",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#6199f6",
+   "name": "Iris Glow"
+  },
+  {
+   "hex": "#4f4f80",
+   "name": "Twilight"
+  },
+  {
+   "hex": "#dedfee",
+   "name": "Specter Lilac"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/983a4e28-7471-4e8e-93ee-12c7a88931f2.mp4",
+  "poster": "https://happyhands.cc/design-archive/frame-io-30c3aa18/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/frame-io-30c3aa18/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/frame-io-30c3aa18/thumbnail.jpg"
+}

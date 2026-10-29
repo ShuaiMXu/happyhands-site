@@ -1,0 +1,50 @@
+{
+ "id": "8472cc85-e4fa-4011-b742-1b9fc7966d76",
+ "slug": "glitch-blog-8472cc85",
+ "name": "Glitch Blog",
+ "site_url": "https://glitch.com",
+ "lastmod": "2026-06-03T19:55:05.948Z",
+ "extracted_at": "2026-06-03T19:55:05.942Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Neon zine on white paper",
+ "fonts": [
+  "InterVariable"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Page White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#e4e4e4",
+   "name": "Hairline Gray"
+  },
+  {
+   "hex": "#b4b4b4",
+   "name": "Input Border"
+  },
+  {
+   "hex": "#ff00bc",
+   "name": "Glitch Magenta"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/15c5b69e-1d8e-4524-8008-03999a315747.mp4",
+  "poster": "https://happyhands.cc/design-archive/glitch-blog-8472cc85/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/glitch-blog-8472cc85/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/glitch-blog-8472cc85/thumbnail.jpg"
+}

@@ -1,0 +1,108 @@
+{
+ "id": "d417b42f-824d-45ba-a02e-cbef3b8ea0d8",
+ "slug": "framer-d417b42f",
+ "name": "Framer",
+ "site_url": "https://framer.com",
+ "lastmod": "2026-07-03T11:24:26.020Z",
+ "extracted_at": "2026-07-03T03:41:58.678Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "design",
+ "north_star": "neon gallery in the void",
+ "fonts": [
+  "sans-serif",
+  "GT Walsheim",
+  "Inter Variable",
+  "Inter",
+  "Input Mono",
+  "JetBrains Mono",
+  "Inter Medium"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void"
+  },
+  {
+   "hex": "#111111",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#171717",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#242424",
+   "name": "Slate"
+  },
+  {
+   "hex": "#333333",
+   "name": "Ash"
+  },
+  {
+   "hex": "#666666",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#888888",
+   "name": "Fog"
+  },
+  {
+   "hex": "#999999",
+   "name": "Mist"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Pearl"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone"
+  },
+  {
+   "hex": "#0099ff",
+   "name": "Electric Blue"
+  },
+  {
+   "hex": "#00406b",
+   "name": "Deep Current"
+  },
+  {
+   "hex": "#002238",
+   "name": "Midnight Tide"
+  },
+  {
+   "hex": "#4cd963",
+   "name": "Signal Green"
+  },
+  {
+   "hex": "#0066ff",
+   "name": "Vivid Violet"
+  },
+  {
+   "hex": "#ff0022",
+   "name": "Alert Red"
+  },
+  {
+   "hex": "#ffbb00",
+   "name": "Amber"
+  },
+  {
+   "hex": "#cbff00",
+   "name": "Lime"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/92712a3f-88ba-4de2-a406-dcd3585678cc.mp4",
+  "poster": "https://happyhands.cc/design-archive/framer-d417b42f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/framer-d417b42f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/framer-d417b42f/thumbnail.jpg"
+}

@@ -1,0 +1,87 @@
+{
+ "id": "532b3211-cca9-4207-a11c-812cfabc1a73",
+ "slug": "ghost-532b3211",
+ "name": "Ghost",
+ "site_url": "https://ghost.org",
+ "lastmod": "2026-06-03T19:27:27.524Z",
+ "extracted_at": "2026-06-03T19:27:27.517Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "saas",
+ "north_star": "Monumental type on infinite white paper",
+ "fonts": [
+  "InterDisplay",
+  "InterVariable"
+ ],
+ "colors": [
+  {
+   "hex": "#15171a",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#94a3b8",
+   "name": "Slate Veil"
+  },
+  {
+   "hex": "#64748b",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#334155",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#112220",
+   "name": "Deep Forest"
+  },
+  {
+   "hex": "#1f2937",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#cbd5e1",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#d1ff19",
+   "name": "Voltage Lime"
+  },
+  {
+   "hex": "#1a2e05",
+   "name": "Moss"
+  },
+  {
+   "hex": "#bef264",
+   "name": "Lime Highlight"
+  },
+  {
+   "hex": "#fec137",
+   "name": "Amber Pulse"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0bc93cf2-1fc9-47e0-8535-2557a433a54a.mp4",
+  "poster": "https://happyhands.cc/design-archive/ghost-532b3211/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ghost-532b3211/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ghost-532b3211/thumbnail.jpg"
+}

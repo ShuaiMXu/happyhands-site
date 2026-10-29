@@ -1,0 +1,67 @@
+{
+ "id": "c57ba3f8-1d76-4660-8ba4-48ddce26e759",
+ "slug": "google-for-education-c57ba3f8",
+ "name": "Google for Education",
+ "site_url": "https://classroom.google.com",
+ "lastmod": "2026-06-03T17:37:16.474Z",
+ "extracted_at": "2026-06-03T17:37:16.469Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Open notebook in morning light — a digital classroom where whitespace, type, and one blue accent do all the work.",
+ "fonts": [
+  "Google Sans Display",
+  "Google Sans Text"
+ ],
+ "colors": [
+  {
+   "hex": "#f8f9fa",
+   "name": "Canvas White"
+  },
+  {
+   "hex": "#202124",
+   "name": "Charcoal Ink"
+  },
+  {
+   "hex": "#3c4043",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#5f6368",
+   "name": "Slate"
+  },
+  {
+   "hex": "#dadce0",
+   "name": "Mist"
+  },
+  {
+   "hex": "#c4c6c7",
+   "name": "Cloud Shadow"
+  },
+  {
+   "hex": "#1a73e8",
+   "name": "Google Blue"
+  },
+  {
+   "hex": "#1967d2",
+   "name": "Google Blue Deep"
+  },
+  {
+   "hex": "#188038",
+   "name": "Classroom Green"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3bb85780-d994-4cf6-a609-1eeaa4c5acfa.mp4",
+  "poster": "https://happyhands.cc/design-archive/google-for-education-c57ba3f8/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/google-for-education-c57ba3f8/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/google-for-education-c57ba3f8/thumbnail.jpg"
+}

@@ -1,0 +1,43 @@
+{
+ "id": "002cc5a7-0d34-4d8d-afa0-c5fad69477d5",
+ "slug": "getburnt-002cc5a7",
+ "name": "Getburnt",
+ "site_url": "https://www.getburnt.ai",
+ "lastmod": "2026-06-03T18:41:18.811Z",
+ "extracted_at": "2026-06-03T18:41:18.806Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "editorial monochrome on warm paper — a minimal typeset spread where warm-black ink, a light display serif, and pill-shaped controls turn a B2B tool into something that reads like a quarterly journal.",
+ "fonts": [
+  "Nyght Serif",
+  "Switzer"
+ ],
+ "colors": [
+  {
+   "hex": "#1a1a17",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#5f5f5d",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/baf1ea96-aa5c-4cab-9c28-965bbabe19c3.mp4",
+  "poster": "https://happyhands.cc/design-archive/getburnt-002cc5a7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/getburnt-002cc5a7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/getburnt-002cc5a7/thumbnail.jpg"
+}

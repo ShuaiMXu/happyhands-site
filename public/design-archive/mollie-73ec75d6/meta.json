@@ -1,0 +1,95 @@
+{
+ "id": "73ec75d6-edec-4ed2-bc09-debb261b6ee0",
+ "slug": "mollie-73ec75d6",
+ "name": "Mollie",
+ "site_url": "https://www.mollie.com",
+ "lastmod": "2026-09-24T18:01:06.289Z",
+ "extracted_at": "2026-09-24T17:42:55.719Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "cashmere counter, dark ledger. Keep broad white editorial space around black type, then anchor product moments in warm cream, espresso-brown, and tactile real-world payment photography.",
+ "fonts": [
+  "sans-serif",
+  "Inter Variable",
+  "Inter",
+  "IBM Plex Mono",
+  "Adamina",
+  "Inter Tight"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#111111",
+   "name": "Near Black"
+  },
+  {
+   "hex": "#595959",
+   "name": "Quiet Graphite"
+  },
+  {
+   "hex": "#919191",
+   "name": "Soft Gray"
+  },
+  {
+   "hex": "#f7f4f1",
+   "name": "Oat Surface"
+  },
+  {
+   "hex": "#3b281d",
+   "name": "Ledger Brown"
+  },
+  {
+   "hex": "#211006",
+   "name": "Espresso Panel"
+  },
+  {
+   "hex": "#e07122",
+   "name": "Copper Link"
+  },
+  {
+   "hex": "#d66733",
+   "name": "Terracotta Disc"
+  },
+  {
+   "hex": "#1e681d",
+   "name": "Active Green"
+  },
+  {
+   "hex": "#288a26",
+   "name": "Active Green Surface"
+  },
+  {
+   "hex": "#8b6900",
+   "name": "Pending Ochre"
+  },
+  {
+   "hex": "#99001c",
+   "name": "Expiry Red"
+  },
+  {
+   "hex": "#060b0e",
+   "name": "Harbor Depth Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/82e2aa23-67b1-47cb-b2aa-88fff6ab5ba2.mp4",
+  "poster": "https://happyhands.cc/design-archive/mollie-73ec75d6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/mollie-73ec75d6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/mollie-73ec75d6/thumbnail.jpg"
+}

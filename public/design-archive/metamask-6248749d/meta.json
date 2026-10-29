@@ -1,0 +1,96 @@
+{
+ "id": "6248749d-b440-4561-b4d7-2d39c0fd4fd3",
+ "slug": "metamask-6248749d",
+ "name": "Metamask",
+ "site_url": "https://metamask.io",
+ "lastmod": "2026-06-03T20:14:06.642Z",
+ "extracted_at": "2026-06-03T20:14:06.637Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "crypto",
+ "north_star": "Warm peach workshop with giant purple type — cozy, loud headlines, quiet controls.",
+ "fonts": [
+  "MMPolyVariable",
+  "MMSansVariable",
+  "MMEuclidCircularB"
+ ],
+ "colors": [
+  {
+   "hex": "#fff1eb",
+   "name": "Peach Cream"
+  },
+  {
+   "hex": "#0a0a0a",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#e9edf6",
+   "name": "Cool Mist"
+  },
+  {
+   "hex": "#393d46",
+   "name": "Slate"
+  },
+  {
+   "hex": "#c8ceda",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#3d065f",
+   "name": "Deep Violet"
+  },
+  {
+   "hex": "#190066",
+   "name": "Midnight Plum"
+  },
+  {
+   "hex": "#e5ffc3",
+   "name": "Lime Wash"
+  },
+  {
+   "hex": "#baf24a",
+   "name": "Acid Lime"
+  },
+  {
+   "hex": "#eac2ff",
+   "name": "Lilac Haze"
+  },
+  {
+   "hex": "#d075ff",
+   "name": "Orchid Pop"
+  },
+  {
+   "hex": "#cce7ff",
+   "name": "Sky Wash"
+  },
+  {
+   "hex": "#89b0ff",
+   "name": "Periwinkle"
+  },
+  {
+   "hex": "#ffa680",
+   "name": "Apricot"
+  },
+  {
+   "hex": "#661800",
+   "name": "Burnt Sienna"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5e4c5221-08ba-4e57-8710-ac10012ad1ba.mp4",
+  "poster": "https://happyhands.cc/design-archive/metamask-6248749d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/metamask-6248749d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/metamask-6248749d/thumbnail.jpg"
+}

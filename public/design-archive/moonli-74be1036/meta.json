@@ -1,0 +1,54 @@
+{
+ "id": "74be1036-f867-4cee-959a-a9a9129111c0",
+ "slug": "moonli-74be1036",
+ "name": "Moonli",
+ "site_url": "https://moonli.me",
+ "lastmod": "2026-06-03T20:18:39.116Z",
+ "extracted_at": "2026-06-03T20:18:39.108Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "crypto",
+ "north_star": "Electric lime on white canvas — one vivid room carved out of monochrome space, framed by generous rounded edges.",
+ "fonts": [
+  "DM Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#b8ff65",
+   "name": "Lime Voltage"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f3f3f3",
+   "name": "Fog White"
+  },
+  {
+   "hex": "#e2e2e2",
+   "name": "Ash Border"
+  },
+  {
+   "hex": "#757575",
+   "name": "Smoke"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5743fd0b-36c5-4410-9499-c67c7393a580.mp4",
+  "poster": "https://happyhands.cc/design-archive/moonli-74be1036/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/moonli-74be1036/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/moonli-74be1036/thumbnail.jpg"
+}

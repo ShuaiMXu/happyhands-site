@@ -1,0 +1,67 @@
+{
+ "id": "e1497817-b9f1-4d7a-842f-58a08dd9e455",
+ "slug": "memorisely-e1497817",
+ "name": "Memorisely",
+ "site_url": "https://www.memorisely.com",
+ "lastmod": "2026-06-03T21:56:40.278Z",
+ "extracted_at": "2026-06-03T21:56:40.271Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Architect's drafting table on warm parchment — a quiet, monochrome workspace where every element is a typographic decision.",
+ "fonts": [
+  "sans-serif",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#faf9f6",
+   "name": "Warm Parchment"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f2f0e9",
+   "name": "Soft Linen"
+  },
+  {
+   "hex": "#171717",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "Jet Black"
+  },
+  {
+   "hex": "#212121",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#6e6e6e",
+   "name": "Stone"
+  },
+  {
+   "hex": "#878787",
+   "name": "Ash"
+  },
+  {
+   "hex": "#414141",
+   "name": "Graphite"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2435ece8-e3a4-4b31-afb7-5b01e5bc7c63.mp4",
+  "poster": "https://happyhands.cc/design-archive/memorisely-e1497817/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/memorisely-e1497817/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/memorisely-e1497817/thumbnail.jpg"
+}

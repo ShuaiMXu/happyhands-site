@@ -1,0 +1,38 @@
+{
+ "id": "04f6cb02-de90-4d78-9c5f-0eb52f826484",
+ "slug": "mike-matas-04f6cb02",
+ "name": "Mike Matas",
+ "site_url": "https://mikematas.com",
+ "lastmod": "2026-06-05T00:38:33.121Z",
+ "extracted_at": "2026-06-03T14:58:31.833Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Ink on fresh snow. A personal page reduced to one whisper-thin display headline floating in vast white space, with product photography as the only color.",
+ "fonts": [
+  "Lab Grotesque"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#999999",
+   "name": "Ash Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/92b00ce5-4b2b-4f00-8c90-a80473b6c3d6.mp4",
+  "poster": "https://happyhands.cc/design-archive/mike-matas-04f6cb02/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/mike-matas-04f6cb02/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/mike-matas-04f6cb02/thumbnail.jpg"
+}

@@ -1,0 +1,84 @@
+{
+ "id": "fc84e9f0-2058-4a0a-8d26-9cc1ba84ec9c",
+ "slug": "monad-fc84e9f0",
+ "name": "Monad",
+ "site_url": "https://www.monad.com",
+ "lastmod": "2026-07-03T10:26:42.928Z",
+ "extracted_at": "2026-07-03T03:11:40.065Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "editorial tech journal on warm parchment",
+ "fonts": [
+  "ABC Diatype Mono",
+  "Untitled Serif",
+  "Untitled Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#f6f3f1",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#2b59d1",
+   "name": "Lake Blue"
+  },
+  {
+   "hex": "#cfdaf5",
+   "name": "Periwinkle Mist"
+  },
+  {
+   "hex": "#a0b5eb",
+   "name": "Sky Blue"
+  },
+  {
+   "hex": "#a7fccd",
+   "name": "Mint"
+  },
+  {
+   "hex": "#ff9473",
+   "name": "Coral"
+  },
+  {
+   "hex": "#ecda98",
+   "name": "Gold"
+  },
+  {
+   "hex": "#f37a0a",
+   "name": "Crimson"
+  },
+  {
+   "hex": "#242424",
+   "name": "Off-Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#4e4d4d",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#797776",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#cecac8",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2fbbd813-c5a9-4536-aa67-3586b71cc6bb.mp4",
+  "poster": "https://happyhands.cc/design-archive/monad-fc84e9f0/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/monad-fc84e9f0/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/monad-fc84e9f0/thumbnail.jpg"
+}

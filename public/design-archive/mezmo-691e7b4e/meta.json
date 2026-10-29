@@ -1,0 +1,119 @@
+{
+ "id": "691e7b4e-fee9-4f08-a2e9-9a2742c22b7b",
+ "slug": "mezmo-691e7b4e",
+ "name": "Mezmo",
+ "site_url": "https://www.mezmo.com",
+ "lastmod": "2026-06-03T21:31:54.364Z",
+ "extracted_at": "2026-06-03T21:31:54.359Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "observatory at dawn",
+ "fonts": [
+  "Onest Variable",
+  "monospace (system)"
+ ],
+ "colors": [
+  {
+   "hex": "#0a090c",
+   "name": "Deep Ink"
+  },
+  {
+   "hex": "#031403",
+   "name": "Near-Black Green"
+  },
+  {
+   "hex": "#e6e6e5",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f4f4f4",
+   "name": "Frost"
+  },
+  {
+   "hex": "#8a8a8a",
+   "name": "Stone"
+  },
+  {
+   "hex": "#696969",
+   "name": "Slate"
+  },
+  {
+   "hex": "#777777",
+   "name": "Ash"
+  },
+  {
+   "hex": "#d1d5db",
+   "name": "Dust"
+  },
+  {
+   "hex": "#2d2d2d",
+   "name": "Cinder"
+  },
+  {
+   "hex": "#5a5a5a",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#404040",
+   "name": "Iron"
+  },
+  {
+   "hex": "#7561b1",
+   "name": "Iris"
+  },
+  {
+   "hex": "#96beca",
+   "name": "Coastal Teal"
+  },
+  {
+   "hex": "#74a9b9",
+   "name": "Slate Blue"
+  },
+  {
+   "hex": "#f4b811",
+   "name": "Amber Glow"
+  },
+  {
+   "hex": "#9db161",
+   "name": "Moss"
+  },
+  {
+   "hex": "#ccc6df",
+   "name": "Lilac Mist"
+  },
+  {
+   "hex": "#d5e8ed",
+   "name": "Pale Aqua"
+  },
+  {
+   "hex": "#dfe4d1",
+   "name": "Sand Sage"
+  },
+  {
+   "hex": "#b4cfd7",
+   "name": "Faded Aqua"
+  },
+  {
+   "hex": "#3a344b",
+   "name": "Dusk"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6355770c-cdfa-4ffa-aed3-6107064333b4.mp4",
+  "poster": "https://happyhands.cc/design-archive/mezmo-691e7b4e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/mezmo-691e7b4e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/mezmo-691e7b4e/thumbnail.jpg"
+}

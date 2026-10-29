@@ -1,0 +1,59 @@
+{
+ "id": "a9dd8050-c03a-4901-b7fa-a9cc0ca54812",
+ "slug": "monarch-a9dd8050",
+ "name": "Monarch",
+ "site_url": "https://www.monarchmoney.com",
+ "lastmod": "2026-06-05T06:58:02.348Z",
+ "extracted_at": "2026-06-03T19:18:40.533Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "warm linen notebook under morning light",
+ "fonts": [
+  "ABC Oracle",
+  "Copernicus"
+ ],
+ "colors": [
+  {
+   "hex": "#ff692d",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#efecea",
+   "name": "Linen"
+  },
+  {
+   "hex": "#22201d",
+   "name": "Ink"
+  },
+  {
+   "hex": "#777573",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#dcd9d6",
+   "name": "Stone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Smoke"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e9eab355-5c3a-4865-9ef3-0ae84f5220e6.mp4",
+  "poster": "https://happyhands.cc/design-archive/monarch-a9dd8050/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/monarch-a9dd8050/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/monarch-a9dd8050/thumbnail.jpg"
+}

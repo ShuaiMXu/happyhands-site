@@ -1,0 +1,82 @@
+{
+ "id": "6b2777fd-7021-4a96-add3-ec4a32374214",
+ "slug": "mews-6b2777fd",
+ "name": "Mews",
+ "site_url": "https://www.mews.com/en",
+ "lastmod": "2026-06-05T07:49:51.469Z",
+ "extracted_at": "2026-06-03T19:44:30.042Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Hospitality command center at pink dawn. A white-walled, sunlit workspace where bold black type, warm cream cards, and a single candy-pink action button define every screen — playful confidence over enterprise restraint.",
+ "fonts": [
+  "Soehne"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Canvas White"
+  },
+  {
+   "hex": "#fffcf6",
+   "name": "Warm Cream"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#333333",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#161616",
+   "name": "Deep Panel"
+  },
+  {
+   "hex": "#8c8c8c",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#c4c9dd",
+   "name": "Lilac Mist"
+  },
+  {
+   "hex": "#ff83da",
+   "name": "Bubblegum"
+  },
+  {
+   "hex": "#ffc5ee",
+   "name": "Cotton Pink"
+  },
+  {
+   "hex": "#f7e1f7",
+   "name": "Blush Mist"
+  },
+  {
+   "hex": "#d2f4ff",
+   "name": "Ice Blue"
+  },
+  {
+   "hex": "#e8ff5b",
+   "name": "Voltage Lime"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e96578c1-3e47-4234-a390-3fa4cfffa6e2.mp4",
+  "poster": "https://happyhands.cc/design-archive/mews-6b2777fd/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/mews-6b2777fd/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/mews-6b2777fd/thumbnail.jpg"
+}

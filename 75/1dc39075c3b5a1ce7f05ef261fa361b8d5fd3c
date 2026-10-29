@@ -1,0 +1,20 @@
+apps/portal/resource-feed.js
+  h_8f87e56e705bcf 13
+components/SystemLibrary.tsx
+  h_8f87e56e705bcf 92,94-95
+docs/design-resource-import-2026-10-29.md
+  h_8f87e56e705bcf 40-45
+scripts/capture-system-covers.mjs
+  h_8f87e56e705bcf 1-72
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "751dc39075c3b5a1ce7f05ef261fa361b8d5fd3c",
+  "prompts": {},
+  "humans": {
+    "h_8f87e56e705bcf": {
+      "author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

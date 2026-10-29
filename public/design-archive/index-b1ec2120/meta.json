@@ -1,0 +1,45 @@
+{
+ "id": "b1ec2120-ceb0-42d1-9f96-2c9db2bf009b",
+ "slug": "index-b1ec2120",
+ "name": "Index",
+ "site_url": "https://index-space.org",
+ "lastmod": "2026-06-03T21:50:47.861Z",
+ "extracted_at": "2026-06-03T21:50:47.852Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "editorial broadsheet with yellow highlighter — a stark black-and-white printed publication where #ffd600 marks the only point of emphasis",
+ "fonts": [
+  "ITCGaramondStdLtCond",
+  "ABCDiatypeLight",
+  "IndexLogotype",
+  "Times"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Index Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#ffd600",
+   "name": "Highlighter Yellow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/062b1edf-3238-4bd3-acf3-ffcdf5276226.mp4",
+  "poster": "https://happyhands.cc/design-archive/index-b1ec2120/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/index-b1ec2120/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/index-b1ec2120/thumbnail.jpg"
+}

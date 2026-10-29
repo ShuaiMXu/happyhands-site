@@ -1,0 +1,102 @@
+{
+ "id": "635b7769-7517-48ac-bb95-2ad7fa337e54",
+ "slug": "ifttt-635b7769",
+ "name": "IFTTT",
+ "site_url": "https://ifttt.com",
+ "lastmod": "2026-06-03T22:04:39.325Z",
+ "extracted_at": "2026-06-03T22:04:39.318Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "saas",
+ "north_star": "Editorial darkroom with neon service tiles. A near-black gallery wall where each connected app brings its own paint.",
+ "fonts": [
+  "Avenir Next"
+ ],
+ "colors": [
+  {
+   "hex": "#222222",
+   "name": "Canvas Charcoal"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#333333",
+   "name": "Border Stone"
+  },
+  {
+   "hex": "#666666",
+   "name": "Muted Graphite"
+  },
+  {
+   "hex": "#999999",
+   "name": "Whisper Gray"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Fog Line"
+  },
+  {
+   "hex": "#0099ff",
+   "name": "IFTTT Signal Blue"
+  },
+  {
+   "hex": "#2cbe60",
+   "name": "Applet Green"
+  },
+  {
+   "hex": "#2c6efc",
+   "name": "Automate Violet"
+  },
+  {
+   "hex": "#23448b",
+   "name": "Deep Navy"
+  },
+  {
+   "hex": "#e44332",
+   "name": "Alert Red"
+  },
+  {
+   "hex": "#1d9a59",
+   "name": "Forest Green"
+  },
+  {
+   "hex": "#ec7505",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#ff0000",
+   "name": "Pure Red"
+  },
+  {
+   "hex": "#4a154b",
+   "name": "Slack Plum"
+  },
+  {
+   "hex": "#8cc251",
+   "name": "Lime Pulse"
+  },
+  {
+   "hex": "#e8655c",
+   "name": "Coral Warning"
+  },
+  {
+   "hex": "#e4405f",
+   "name": "Magenta Pop"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e1f94f56-62f2-403b-849f-0aa52d767fc5.mp4",
+  "poster": "https://happyhands.cc/design-archive/ifttt-635b7769/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ifttt-635b7769/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ifttt-635b7769/thumbnail.jpg"
+}

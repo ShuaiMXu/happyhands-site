@@ -1,0 +1,62 @@
+{
+ "id": "e2125e17-6a67-4c27-8817-adf8537303d8",
+ "slug": "hopper-e2125e17",
+ "name": "Hopper",
+ "site_url": "https://hopper.com",
+ "lastmod": "2026-09-24T17:57:09.953Z",
+ "extracted_at": "2026-09-24T17:40:06.094Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Santorini window at dusk. A softened destination photograph acts as the atmospheric top layer, with compact white navigation and booking controls suspended over it.",
+ "fonts": [
+  "Proxima Nova"
+ ],
+ "colors": [
+  {
+   "hex": "#1878ec",
+   "name": "Hopper Blue"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#f6f6f6",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#ededed",
+   "name": "Mist"
+  },
+  {
+   "hex": "#d9d9d9",
+   "name": "Divider Gray"
+  },
+  {
+   "hex": "#111111",
+   "name": "Ink"
+  },
+  {
+   "hex": "#606060",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#b3b3b3",
+   "name": "Placeholder Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ad841273-1f2b-4cbf-952f-783900d1d008.mp4",
+  "poster": "https://happyhands.cc/design-archive/hopper-e2125e17/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/hopper-e2125e17/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/hopper-e2125e17/thumbnail.jpg"
+}

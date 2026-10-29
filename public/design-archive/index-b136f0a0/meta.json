@@ -1,0 +1,96 @@
+{
+ "id": "b136f0a0-8064-4978-a18e-db54b9362c24",
+ "slug": "index-b136f0a0",
+ "name": "Index",
+ "site_url": "https://index.inc",
+ "lastmod": "2026-06-03T16:41:33.848Z",
+ "extracted_at": "2026-06-03T16:41:33.843Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "productivity",
+ "north_star": "twilight summit command center — a violet-tinted dark dashboard crowned by a single mountain horizon at dusk, where the only warm light is the coral CTA",
+ "fonts": [
+  "Index",
+  "Inter",
+  "-apple-system"
+ ],
+ "colors": [
+  {
+   "hex": "#02030b",
+   "name": "Abyss Black"
+  },
+  {
+   "hex": "#04061c",
+   "name": "Midnight Indigo"
+  },
+  {
+   "hex": "#0c0a2b",
+   "name": "Slate Indigo"
+  },
+  {
+   "hex": "#13151f",
+   "name": "Carbon Iris"
+  },
+  {
+   "hex": "#2c2b52",
+   "name": "Twilight Plum"
+  },
+  {
+   "hex": "#292a4d",
+   "name": "Iris Border"
+  },
+  {
+   "hex": "#202333",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#353545",
+   "name": "Steel"
+  },
+  {
+   "hex": "#9b9ba4",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#b4b4bb",
+   "name": "Ash"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ff3a63",
+   "name": "Ember Coral"
+  },
+  {
+   "hex": "#0067ff",
+   "name": "Electric Blue"
+  },
+  {
+   "hex": "#665eff",
+   "name": "Arc Violet"
+  },
+  {
+   "hex": "#4859eb",
+   "name": "Alpine Gradient"
+  },
+  {
+   "hex": "#ffff00",
+   "name": "Chartreuse"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c0a19641-29ed-443c-8248-f37827b7db68.mp4",
+  "poster": "https://happyhands.cc/design-archive/index-b136f0a0/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/index-b136f0a0/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/index-b136f0a0/thumbnail.jpg"
+}

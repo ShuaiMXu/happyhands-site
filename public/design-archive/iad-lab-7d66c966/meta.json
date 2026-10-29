@@ -1,0 +1,47 @@
+{
+ "id": "7d66c966-6cee-4c82-b2e4-2bf1ca7b2ccd",
+ "slug": "iad-lab-7d66c966",
+ "name": "Iad-lab",
+ "site_url": "https://iad-lab.ch",
+ "lastmod": "2026-06-05T10:49:46.645Z",
+ "extracted_at": "2026-06-03T21:06:52.967Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "design",
+ "north_star": "art-school exhibition on charcoal",
+ "fonts": [
+  "Neue Haas Unica",
+  "Display (custom or system fallback)"
+ ],
+ "colors": [
+  {
+   "hex": "#222222",
+   "name": "Charcoal Canvas"
+  },
+  {
+   "hex": "#f8f8f8",
+   "name": "Bone"
+  },
+  {
+   "hex": "#2a2b2d",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#757577",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d85ceeed-e593-4eb2-bb21-5404388c8865.mp4",
+  "poster": "https://happyhands.cc/design-archive/iad-lab-7d66c966/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/iad-lab-7d66c966/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/iad-lab-7d66c966/thumbnail.jpg"
+}

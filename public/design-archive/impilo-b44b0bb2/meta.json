@@ -1,0 +1,90 @@
+{
+ "id": "b44b0bb2-4ba3-4599-9706-3c3e0c8c2522",
+ "slug": "impilo-b44b0bb2",
+ "name": "Impilo",
+ "site_url": "https://impilo.health",
+ "lastmod": "2026-06-03T19:11:00.884Z",
+ "extracted_at": "2026-06-03T19:11:00.879Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "other",
+ "north_star": "Midnight clinical observatory — a violet command console where health data glows in cyan.",
+ "fonts": [
+  "Gilroy"
+ ],
+ "colors": [
+  {
+   "hex": "#16165c",
+   "name": "Deep Iris"
+  },
+  {
+   "hex": "#232269",
+   "name": "Iris Shadow"
+  },
+  {
+   "hex": "#403cd5",
+   "name": "Iris Glow"
+  },
+  {
+   "hex": "#5350cc",
+   "name": "Iris Pulse"
+  },
+  {
+   "hex": "#4846c6",
+   "name": "Iris Border"
+  },
+  {
+   "hex": "#524fe1",
+   "name": "Iris Veil"
+  },
+  {
+   "hex": "#b1a6f6",
+   "name": "Lilac Mist"
+  },
+  {
+   "hex": "#00b1ff",
+   "name": "Clinical Cyan"
+  },
+  {
+   "hex": "#59b4ff",
+   "name": "Cyan Soft"
+  },
+  {
+   "hex": "#00ffaa",
+   "name": "Mint Vital"
+  },
+  {
+   "hex": "#2ee9ff",
+   "name": "Teal Signal"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Cloud White"
+  },
+  {
+   "hex": "#f4f4f6",
+   "name": "Pearl"
+  },
+  {
+   "hex": "#d8d8e3",
+   "name": "Ash"
+  },
+  {
+   "hex": "#9494a9",
+   "name": "Fog"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0e7677aa-03f5-4b4d-96d6-341444f21281.mp4",
+  "poster": "https://happyhands.cc/design-archive/impilo-b44b0bb2/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/impilo-b44b0bb2/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/impilo-b44b0bb2/thumbnail.jpg"
+}

@@ -1,0 +1,58 @@
+{
+ "id": "6262b0bb-ea6f-481b-b706-65df29507b6c",
+ "slug": "ink-6262b0bb",
+ "name": "INK",
+ "site_url": "https://weareink.co.uk",
+ "lastmod": "2026-06-05T07:58:00.985Z",
+ "extracted_at": "2026-06-03T19:38:11.951Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Editorial spread on warm paper. A single humanist voice, monochrome with a whisper of taupe, interrupted only by full-bleed photography and a slim band of warm orange.",
+ "fonts": [
+  "Good Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#2e2a2b",
+   "name": "Ink Carbon"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#afa697",
+   "name": "Whisper Taupe"
+  },
+  {
+   "hex": "#e6dcd4",
+   "name": "Bone Cream"
+  },
+  {
+   "hex": "#212121",
+   "name": "Lampblack"
+  },
+  {
+   "hex": "#fe5431",
+   "name": "Signal Orange"
+  },
+  {
+   "hex": "#ff8000",
+   "name": "Amber Pulse"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/28cc6f81-b67e-474c-90c8-d9428dbb0266.mp4",
+  "poster": "https://happyhands.cc/design-archive/ink-6262b0bb/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ink-6262b0bb/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ink-6262b0bb/thumbnail.jpg"
+}

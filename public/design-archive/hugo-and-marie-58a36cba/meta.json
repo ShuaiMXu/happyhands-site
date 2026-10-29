@@ -1,0 +1,56 @@
+{
+ "id": "58a36cba-3fc4-48fa-a7d9-7f14592b7857",
+ "slug": "hugo-and-marie-58a36cba",
+ "name": "Hugo & Marie",
+ "site_url": "https://www.hugoandmarie.com",
+ "lastmod": "2026-06-05T10:59:04.450Z",
+ "extracted_at": "2026-06-03T21:21:13.226Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Monochrome gallery catalog — editorial photography mounted on infinite white, framed by whisper-thin serif.",
+ "fonts": [
+  "saol-display",
+  "soehne",
+  "soehne-mono"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#0a0a0a",
+   "name": "Soft Ink"
+  },
+  {
+   "hex": "#767676",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#b3b3b3",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/74c6b055-6fe2-48b6-897a-87650cfd4593.mp4",
+  "poster": "https://happyhands.cc/design-archive/hugo-and-marie-58a36cba/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/hugo-and-marie-58a36cba/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/hugo-and-marie-58a36cba/thumbnail.jpg"
+}

@@ -1,0 +1,55 @@
+{
+ "id": "6665a3dd-606f-4fd1-80dd-a84e3b3a6226",
+ "slug": "hyper-tria-6665a3dd",
+ "name": "Hyper Tria",
+ "site_url": "https://hypertria.com",
+ "lastmod": "2026-06-05T09:50:58.401Z",
+ "extracted_at": "2026-06-03T20:42:45.387Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "agency",
+ "north_star": "chrome monolith in a white gallery",
+ "fonts": [
+  "Aeonik",
+  "-apple-system"
+ ],
+ "colors": [
+  {
+   "hex": "#ee3a49",
+   "name": "Ember Red"
+  },
+  {
+   "hex": "#0fa64b",
+   "name": "Hyper Green"
+  },
+  {
+   "hex": "#007bff",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#666666",
+   "name": "Graphite"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/db99af6b-67b0-420e-8aed-a2469b0a86b4.mp4",
+  "poster": "https://happyhands.cc/design-archive/hyper-tria-6665a3dd/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/hyper-tria-6665a3dd/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/hyper-tria-6665a3dd/thumbnail.jpg"
+}

@@ -1,0 +1,76 @@
+{
+ "id": "3e70af05-a07f-4c11-98ca-6ecb4765e967",
+ "slug": "itsnicethat-3e70af05",
+ "name": "Itsnicethat",
+ "site_url": "https://itsnicethat.com",
+ "lastmod": "2026-06-03T18:36:08.747Z",
+ "extracted_at": "2026-06-03T18:36:08.743Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "Art-school broadsheet on a desk. A near-white page dressed in monochrome type, with one violet accent for navigation and vivid Risograph prints exploding through the grid.",
+ "fonts": [
+  "LabilVariable",
+  "Bradford",
+  "Labil"
+ ],
+ "colors": [
+  {
+   "hex": "#f0efef",
+   "name": "Page Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Card White"
+  },
+  {
+   "hex": "#2b2b2b",
+   "name": "Ink"
+  },
+  {
+   "hex": "#676767",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#555555",
+   "name": "Slate"
+  },
+  {
+   "hex": "#c2c2c2",
+   "name": "Faint Line"
+  },
+  {
+   "hex": "#929292",
+   "name": "Ash"
+  },
+  {
+   "hex": "#faead9",
+   "name": "Banner Cream"
+  },
+  {
+   "hex": "#8147ff",
+   "name": "Signal Violet"
+  },
+  {
+   "hex": "#6219ff",
+   "name": "Deep Iris"
+  },
+  {
+   "hex": "#ffd519",
+   "name": "Hi-Vis Yellow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/bf56d618-324b-492c-942f-554a6484b133.mp4",
+  "poster": "https://happyhands.cc/design-archive/itsnicethat-3e70af05/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/itsnicethat-3e70af05/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/itsnicethat-3e70af05/thumbnail.jpg"
+}

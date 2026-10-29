@@ -1,0 +1,63 @@
+{
+ "id": "ca4708f7-7175-4da2-a47f-ce8f5e601f99",
+ "slug": "honk-ca4708f7",
+ "name": "Honk",
+ "site_url": "https://honk.me",
+ "lastmod": "2026-06-05T07:59:25.038Z",
+ "extracted_at": "2026-06-03T19:48:33.783Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Cobalt billboard with a yellow highlighter slash",
+ "fonts": [
+  "Honk Header",
+  "Honk Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#008fff",
+   "name": "Honk Blue"
+  },
+  {
+   "hex": "#00a0ff",
+   "name": "Honk Sky"
+  },
+  {
+   "hex": "#ffe400",
+   "name": "Signal Yellow"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Honk White"
+  },
+  {
+   "hex": "#111111",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#000000",
+   "name": "True Black"
+  },
+  {
+   "hex": "#363636",
+   "name": "Slate"
+  },
+  {
+   "hex": "#3fcc6b",
+   "name": "Game Green"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d25689ab-2928-465c-81a7-5b8ffe0d58ee.mp4",
+  "poster": "https://happyhands.cc/design-archive/honk-ca4708f7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/honk-ca4708f7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/honk-ca4708f7/thumbnail.jpg"
+}

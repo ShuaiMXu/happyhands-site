@@ -1,0 +1,89 @@
+{
+ "id": "62e8e59e-17a5-4eba-a6c6-1c7f67ded518",
+ "slug": "inngest-62e8e59e",
+ "name": "Inngest",
+ "site_url": "https://inngest.com",
+ "lastmod": "2026-06-03T16:18:24.055Z",
+ "extracted_at": "2026-06-03T16:18:24.048Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "Warm-black observatory — quiet, instrument-grade, lit by a single amber pilot light",
+ "fonts": [
+  "CircularXX",
+  "Whyte",
+  "Whyte Inktrap",
+  "CircularXXMono"
+ ],
+ "colors": [
+  {
+   "hex": "#0c0a09",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#1c1917",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#292524",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#44403c",
+   "name": "Slate"
+  },
+  {
+   "hex": "#57534e",
+   "name": "Stone"
+  },
+  {
+   "hex": "#78716c",
+   "name": "Ash"
+  },
+  {
+   "hex": "#a8a29e",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#d6d3d1",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Fog"
+  },
+  {
+   "hex": "#f6f6f6",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure"
+  },
+  {
+   "hex": "#cab16a",
+   "name": "Pilot Gold"
+  },
+  {
+   "hex": "#89b482",
+   "name": "Circuit Green"
+  },
+  {
+   "hex": "#ea6962",
+   "name": "Signal Red"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b1e621a8-dc31-41c9-adaa-eb2cf141558f.mp4",
+  "poster": "https://happyhands.cc/design-archive/inngest-62e8e59e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/inngest-62e8e59e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/inngest-62e8e59e/thumbnail.jpg"
+}

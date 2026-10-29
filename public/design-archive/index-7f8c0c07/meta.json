@@ -1,0 +1,60 @@
+{
+ "id": "7f8c0c07-86e9-4b7c-a042-a7563b169143",
+ "slug": "index-7f8c0c07",
+ "name": "Index",
+ "site_url": "https://index.app",
+ "lastmod": "2026-06-03T18:42:56.952Z",
+ "extracted_at": "2026-06-03T18:42:56.947Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "saas",
+ "north_star": "Blueprint on a backlit drafting table — the entire interface is a wireframe drawing, with one periwinkle annotation pen.",
+ "fonts": [
+  "sans-serif",
+  "Raveo Variable",
+  "Geist Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void"
+  },
+  {
+   "hex": "#1c1c1c",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#4d4d4d",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#808080",
+   "name": "Steel"
+  },
+  {
+   "hex": "#ababab",
+   "name": "Ash"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#7089ba",
+   "name": "Periwinkle Annotation"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/65aa916b-0190-4f17-a228-0fc4df6078cc.mp4",
+  "poster": "https://happyhands.cc/design-archive/index-7f8c0c07/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/index-7f8c0c07/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/index-7f8c0c07/thumbnail.jpg"
+}

@@ -1,0 +1,53 @@
+{
+ "id": "9307193e-7ce3-48c1-b650-8ab77aa83c3f",
+ "slug": "redbrick-coffee-9307193e",
+ "name": "Redbrick Coffee",
+ "site_url": "https://redbrick.coffee",
+ "lastmod": "2026-06-05T04:28:36.222Z",
+ "extracted_at": "2026-06-03T18:15:41.140Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Scarlet ink editorial on butcher paper",
+ "fonts": [
+  "Surt",
+  "Editorial Old",
+  "GTStandard-M",
+  "system-ui"
+ ],
+ "colors": [
+  {
+   "hex": "#e82c2a",
+   "name": "Brick Red"
+  },
+  {
+   "hex": "#212529",
+   "name": "Press Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Cream White"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Soft Grey"
+  },
+  {
+   "hex": "#121212",
+   "name": "Carbon"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a96dc854-f163-4261-b506-bc6d0a8e96ae.mp4",
+  "poster": "https://happyhands.cc/design-archive/redbrick-coffee-9307193e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/redbrick-coffee-9307193e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/redbrick-coffee-9307193e/thumbnail.jpg"
+}

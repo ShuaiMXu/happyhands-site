@@ -1,0 +1,52 @@
+{
+ "id": "4406799b-1586-4d84-aac9-e6acdee0f679",
+ "slug": "redis-agency-4406799b",
+ "name": "Redis Agency",
+ "site_url": "https://www.redis.agency",
+ "lastmod": "2026-06-03T19:41:59.800Z",
+ "extracted_at": "2026-06-03T19:41:59.796Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "After-hours editorial atelier — a pitch-black gallery where serif type and a single red radish do all the brand work.",
+ "fonts": [
+  "Times New Roman",
+  "Suisse Intl WebM",
+  "Editorial New"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#808080",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#333333",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#eb516d",
+   "name": "Radish Bloom"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3f755bc2-ba1d-4572-b506-814d92562267.mp4",
+  "poster": "https://happyhands.cc/design-archive/redis-agency-4406799b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/redis-agency-4406799b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/redis-agency-4406799b/thumbnail.jpg"
+}

@@ -1,0 +1,87 @@
+{
+ "id": "e7f92774-3c08-402b-917d-020ba1f3d489",
+ "slug": "reflect-notes-e7f92774",
+ "name": "Reflect Notes",
+ "site_url": "https://reflect.app",
+ "lastmod": "2026-06-03T18:11:39.063Z",
+ "extracted_at": "2026-06-03T18:11:39.052Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "productivity",
+ "north_star": "starlit violet cosmos — a dark observatory where notes float like constellations against a near-black indigo void.",
+ "fonts": [
+  "AeonikPro",
+  "Inter V"
+ ],
+ "colors": [
+  {
+   "hex": "#030014",
+   "name": "Void Canvas"
+  },
+  {
+   "hex": "#060317",
+   "name": "Midnight Surface"
+  },
+  {
+   "hex": "#10093a",
+   "name": "Deep Indigo"
+  },
+  {
+   "hex": "#f4f0ff",
+   "name": "Lilac White"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pearl"
+  },
+  {
+   "hex": "#a8a6b7",
+   "name": "Ash"
+  },
+  {
+   "hex": "#918ea0",
+   "name": "Fog"
+  },
+  {
+   "hex": "#54525f",
+   "name": "Steel"
+  },
+  {
+   "hex": "#cdccd0",
+   "name": "Mercury"
+  },
+  {
+   "hex": "#72707b",
+   "name": "Dusk"
+  },
+  {
+   "hex": "#9382ff",
+   "name": "Lavender Accent"
+  },
+  {
+   "hex": "#5046e4",
+   "name": "Iris"
+  },
+  {
+   "hex": "#ba9cff",
+   "name": "Cosmic Gradient"
+  },
+  {
+   "hex": "#7d62ff",
+   "name": "Aurora"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e812bc35-ac64-4b32-82aa-207c0895211f.mp4",
+  "poster": "https://happyhands.cc/design-archive/reflect-notes-e7f92774/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/reflect-notes-e7f92774/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/reflect-notes-e7f92774/thumbnail.jpg"
+}

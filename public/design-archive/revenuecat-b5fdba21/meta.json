@@ -1,0 +1,107 @@
+{
+ "id": "b5fdba21-fd4d-427e-b551-1e22c51e42db",
+ "slug": "revenuecat-b5fdba21",
+ "name": "Revenuecat",
+ "site_url": "https://revenuecat.com",
+ "lastmod": "2026-06-03T16:50:09.520Z",
+ "extracted_at": "2026-06-03T16:50:09.516Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "Periwinkle dashboard on a cloud-white canvas — generous, airy, and confidently understated.",
+ "fonts": [
+  "Object Sans",
+  "Helvetica Neue"
+ ],
+ "colors": [
+  {
+   "hex": "#576cdb",
+   "name": "Periwinkle Signal"
+  },
+  {
+   "hex": "#1f1f47",
+   "name": "Deep Indigo"
+  },
+  {
+   "hex": "#3d3d5c",
+   "name": "Storm Violet"
+  },
+  {
+   "hex": "#575775",
+   "name": "Slate"
+  },
+  {
+   "hex": "#6c7693",
+   "name": "Fog"
+  },
+  {
+   "hex": "#84849a",
+   "name": "Ash"
+  },
+  {
+   "hex": "#171a1c",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#f9f9fb",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#eaedf6",
+   "name": "Mist"
+  },
+  {
+   "hex": "#d1d6e1",
+   "name": "Haze"
+  },
+  {
+   "hex": "#e3e6e8",
+   "name": "Bone"
+  },
+  {
+   "hex": "#d6dbf5",
+   "name": "Lilac Wash"
+  },
+  {
+   "hex": "#c1c9f6",
+   "name": "Periwinkle Mist"
+  },
+  {
+   "hex": "#abb6ed",
+   "name": "Sky Tint"
+  },
+  {
+   "hex": "#f25a5a",
+   "name": "Coral Ember"
+  },
+  {
+   "hex": "#f7d4d4",
+   "name": "Coral Blush"
+  },
+  {
+   "hex": "#a6f2d2",
+   "name": "Mint Whisper"
+  },
+  {
+   "hex": "#c1f6e0",
+   "name": "Mint Veil"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d820a09b-aa7a-4c94-ace1-5078a25f3bb6.mp4",
+  "poster": "https://happyhands.cc/design-archive/revenuecat-b5fdba21/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/revenuecat-b5fdba21/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/revenuecat-b5fdba21/thumbnail.jpg"
+}

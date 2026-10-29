@@ -1,0 +1,97 @@
+{
+ "id": "66eb1c37-a8e5-4e6c-b17f-a75385b462e7",
+ "slug": "rox-66eb1c37",
+ "name": "Rox",
+ "site_url": "https://rox.com",
+ "lastmod": "2026-06-03T15:05:41.197Z",
+ "extracted_at": "2026-06-03T15:05:41.193Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Editorial broadsheet meets product UI — black serif masthead on warm newsprint, hairline rules, one blue button",
+ "fonts": [
+  "sans-serif",
+  "FH Total Display",
+  "Geist",
+  "system-ui"
+ ],
+ "colors": [
+  {
+   "hex": "#ececea",
+   "name": "Newsprint"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bright White"
+  },
+  {
+   "hex": "#f5f5f4",
+   "name": "Bone"
+  },
+  {
+   "hex": "#d4d2d1",
+   "name": "Stone 200"
+  },
+  {
+   "hex": "#a6a09b",
+   "name": "Stone 400"
+  },
+  {
+   "hex": "#87827d",
+   "name": "Stone 500"
+  },
+  {
+   "hex": "#57534d",
+   "name": "Stone 600"
+  },
+  {
+   "hex": "#44403b",
+   "name": "Stone 700"
+  },
+  {
+   "hex": "#292524",
+   "name": "Stone 800"
+  },
+  {
+   "hex": "#1c1917",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#0c0a09",
+   "name": "Char"
+  },
+  {
+   "hex": "#0b64e9",
+   "name": "Volt Blue"
+  },
+  {
+   "hex": "#f9b703",
+   "name": "Amber Signal"
+  },
+  {
+   "hex": "#f24149",
+   "name": "Alert Coral"
+  },
+  {
+   "hex": "#f97006",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#6b4aff",
+   "name": "Iris Violet"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/27f5b061-5aec-41b6-850f-fe516d1d5654.mp4",
+  "poster": "https://happyhands.cc/design-archive/rox-66eb1c37/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/rox-66eb1c37/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/rox-66eb1c37/thumbnail.jpg"
+}

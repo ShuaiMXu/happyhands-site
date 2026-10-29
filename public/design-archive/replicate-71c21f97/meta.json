@@ -1,0 +1,76 @@
+{
+ "id": "71c21f97-ba85-4439-b259-198a66f4b3d2",
+ "slug": "replicate-71c21f97",
+ "name": "Replicate",
+ "site_url": "https://replicate.com",
+ "lastmod": "2026-06-03T18:10:30.100Z",
+ "extracted_at": "2026-06-03T18:10:30.093Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Golden hour API workshop",
+ "fonts": [
+  "RB Freigeist Neue",
+  "Basier Square",
+  "JetBrains Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#ea2804",
+   "name": "Sunset Gradient"
+  },
+  {
+   "hex": "#2b9a66",
+   "name": "Forest Signal"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#202020",
+   "name": "Ink"
+  },
+  {
+   "hex": "#646464",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#bfbfbf",
+   "name": "Silver"
+  },
+  {
+   "hex": "#d9d9d9",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#f0f0f0",
+   "name": "Fog"
+  },
+  {
+   "hex": "#f9f9f9",
+   "name": "Vellum"
+  },
+  {
+   "hex": "#fefce9",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6585c2ef-50fc-4b6a-ba51-92d9b4fe4a4b.mp4",
+  "poster": "https://happyhands.cc/design-archive/replicate-71c21f97/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/replicate-71c21f97/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/replicate-71c21f97/thumbnail.jpg"
+}

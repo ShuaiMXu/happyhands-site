@@ -1,0 +1,66 @@
+{
+ "id": "30dfffb4-ff6d-4128-b3e5-39046ba258f0",
+ "slug": "robot-com-30dfffb4",
+ "name": "robot.com",
+ "site_url": "https://www.robot.com",
+ "lastmod": "2026-06-05T03:43:17.591Z",
+ "extracted_at": "2026-06-03T17:52:52.524Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "a printed editorial spread with a yellow highlighter\n\nWarm off-white paper, ink-black type, and a single neon-yellow accent that marks what matters — the system behaves like a confident magazine layout, not a software dashboard.",
+ "fonts": [
+  "Yellix"
+ ],
+ "colors": [
+  {
+   "hex": "#fff65d",
+   "name": "Yellix Yellow"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#f8f6f3",
+   "name": "Warm Parchment"
+  },
+  {
+   "hex": "#d9d7d5",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#8f8e8d",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#727272",
+   "name": "Stone Gray"
+  },
+  {
+   "hex": "#262626",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#2d2d2d",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/9d261a04-e693-4528-a503-0f8e892e0e51.mp4",
+  "poster": "https://happyhands.cc/design-archive/robot-com-30dfffb4/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/robot-com-30dfffb4/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/robot-com-30dfffb4/thumbnail.jpg"
+}

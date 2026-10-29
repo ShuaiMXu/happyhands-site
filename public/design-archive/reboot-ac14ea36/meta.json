@@ -1,0 +1,62 @@
+{
+ "id": "ac14ea36-ea3e-4a25-bd16-11fb50d806fb",
+ "slug": "reboot-ac14ea36",
+ "name": "reboot",
+ "site_url": "https://reboot.studio",
+ "lastmod": "2026-06-05T07:46:52.002Z",
+ "extracted_at": "2026-06-03T19:33:34.511Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "quiet atelier on cream paper — a design studio's homepage that reads like a printed monograph, where the only color is the one blue mark in the margin",
+ "fonts": [
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#e5e7eb",
+   "name": "Paper Gray"
+  },
+  {
+   "hex": "#000000",
+   "name": "Editorial Black"
+  },
+  {
+   "hex": "#232323",
+   "name": "Charcoal Ink"
+  },
+  {
+   "hex": "#a7a7a7",
+   "name": "Soft Graphite"
+  },
+  {
+   "hex": "#c8c8c8",
+   "name": "Faded Pencil"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#00c8fb",
+   "name": "Sapphire Beam"
+  },
+  {
+   "hex": "#ef3313",
+   "name": "Ember Sunset"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4ea91502-276a-44b3-826e-8f81c12078fc.mp4",
+  "poster": "https://happyhands.cc/design-archive/reboot-ac14ea36/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/reboot-ac14ea36/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/reboot-ac14ea36/thumbnail.jpg"
+}

@@ -1,0 +1,56 @@
+{
+ "id": "f6b396e6-0ad6-402e-9ab9-0034df0d204d",
+ "slug": "san-rita-f6b396e6",
+ "name": "San Rita",
+ "site_url": "https://sanrita.ca/about",
+ "lastmod": "2026-06-03T17:19:53.820Z",
+ "extracted_at": "2026-06-03T17:19:53.815Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "ecommerce",
+ "north_star": "alpine field guide on sage paper",
+ "fonts": [
+  "F37stout",
+  "mono",
+  "Times"
+ ],
+ "colors": [
+  {
+   "hex": "#e2ffcc",
+   "name": "Highlighter Mint"
+  },
+  {
+   "hex": "#84907f",
+   "name": "Sage Stone"
+  },
+  {
+   "hex": "#161b13",
+   "name": "Carbon Ink"
+  },
+  {
+   "hex": "#2d3329",
+   "name": "Forest Charcoal"
+  },
+  {
+   "hex": "#dde2e4",
+   "name": "Topo Gray"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c5a50221-d3c7-4d9d-beb7-2f0b621fb69c.mp4",
+  "poster": "https://happyhands.cc/design-archive/san-rita-f6b396e6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/san-rita-f6b396e6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/san-rita-f6b396e6/thumbnail.jpg"
+}

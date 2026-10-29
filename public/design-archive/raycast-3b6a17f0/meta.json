@@ -1,0 +1,101 @@
+{
+ "id": "3b6a17f0-3bdf-418c-a95e-0b89e5a8b2f8",
+ "slug": "raycast-3b6a17f0",
+ "name": "Raycast",
+ "site_url": "https://raycast.com",
+ "lastmod": "2026-07-03T10:02:01.791Z",
+ "extracted_at": "2026-07-03T02:55:06.053Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "productivity",
+ "north_star": "Midnight command center, coral neon",
+ "fonts": [
+  "Inter",
+  "GeistMono",
+  "SF Pro Text",
+  "SF Pro"
+ ],
+ "colors": [
+  {
+   "hex": "#040506",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#07080a",
+   "name": "Ink"
+  },
+  {
+   "hex": "#111214",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#1b1c1e",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#6a6b6c",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#9c9c9d",
+   "name": "Ash"
+  },
+  {
+   "hex": "#e6e6e6",
+   "name": "Mist"
+  },
+  {
+   "hex": "#454647",
+   "name": "Iron"
+  },
+  {
+   "hex": "#2f3031",
+   "name": "Slate"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#ff6363",
+   "name": "Coral Pulse"
+  },
+  {
+   "hex": "#452324",
+   "name": "Ember Hush"
+  },
+  {
+   "hex": "#63a1ff",
+   "name": "Electric Sky"
+  },
+  {
+   "hex": "#143ca3",
+   "name": "Cobalt Edge"
+  },
+  {
+   "hex": "#02193b",
+   "name": "Deep Space"
+  },
+  {
+   "hex": "#56c2ff",
+   "name": "Info Blue"
+  },
+  {
+   "hex": "#59d499",
+   "name": "Success Green"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a989ff7d-8e4b-4dd2-afd0-df531da1497e.mp4",
+  "poster": "https://happyhands.cc/design-archive/raycast-3b6a17f0/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/raycast-3b6a17f0/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/raycast-3b6a17f0/thumbnail.jpg"
+}

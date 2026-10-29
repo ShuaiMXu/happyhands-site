@@ -1,0 +1,80 @@
+{
+ "id": "c45b115b-dcb5-446d-8952-85aef740f8e4",
+ "slug": "retool-c45b115b",
+ "name": "Retool",
+ "site_url": "https://retool.com",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-29T23:05:34.544Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "Warm obsidian workshop — a precision tool surface lit by ember glow, where everything is built.",
+ "fonts": [
+  "saansFont",
+  "pxGroteskFont",
+  "ui-sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#151515",
+   "name": "Obsidian Canvas"
+  },
+  {
+   "hex": "#0e0e0e",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#242424",
+   "name": "Ember Surface"
+  },
+  {
+   "hex": "#3f403d",
+   "name": "Charcoal Rim"
+  },
+  {
+   "hex": "#8b867f",
+   "name": "Copper Wire"
+  },
+  {
+   "hex": "#94958e",
+   "name": "Ash Text"
+  },
+  {
+   "hex": "#cbccc4",
+   "name": "Fog Text"
+  },
+  {
+   "hex": "#b6b8af",
+   "name": "Limestone"
+  },
+  {
+   "hex": "#e9ebdf",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#185849",
+   "name": "Forest Deep"
+  },
+  {
+   "hex": "#0e352c",
+   "name": "Midnight Moss"
+  },
+  {
+   "hex": "#e87650",
+   "name": "Spectrum Shimmer"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/78da5e9c-f33f-4d3b-865c-3f5f8d6a8990.mp4",
+  "poster": "https://happyhands.cc/design-archive/retool-c45b115b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/retool-c45b115b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/retool-c45b115b/thumbnail.jpg"
+}

@@ -1,0 +1,91 @@
+{
+ "id": "1287abc9-da90-410d-a997-96b8b11ad646",
+ "slug": "readymag-1287abc9",
+ "name": "Readymag",
+ "site_url": "https://readymag.com",
+ "lastmod": "2026-06-05T06:21:28.916Z",
+ "extracted_at": "2026-06-03T19:02:23.700Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "Designer's editorial playground — a restrained white shell around bold, magazine-grade color blocks.",
+ "fonts": [
+  "-apple-system",
+  "Readymag Display (custom)",
+  "Graphik",
+  "System UI",
+  "custom_37866",
+  "xgnl"
+ ],
+ "colors": [
+  {
+   "hex": "#8800ff",
+   "name": "Electric Violet"
+  },
+  {
+   "hex": "#2c0fb1",
+   "name": "Deep Violet"
+  },
+  {
+   "hex": "#ff5000",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#ec520b",
+   "name": "Burnt Orange"
+  },
+  {
+   "hex": "#ffcc00",
+   "name": "Signal Yellow"
+  },
+  {
+   "hex": "#1551ff",
+   "name": "Cobalt Blue"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#282828",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#141414",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#0f0e0e",
+   "name": "Near Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f4f4f4",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#e7e7e7",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#808080",
+   "name": "Steel Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/0961824d-ba3d-4311-914c-2ca55596e1b6.mp4",
+  "poster": "https://happyhands.cc/design-archive/readymag-1287abc9/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/readymag-1287abc9/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/readymag-1287abc9/thumbnail.jpg"
+}

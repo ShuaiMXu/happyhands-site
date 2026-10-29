@@ -1,0 +1,107 @@
+{
+ "id": "0d914ef0-fa84-4c60-a9aa-cef0b5eb6e5d",
+ "slug": "resend-0d914ef0",
+ "name": "Resend",
+ "site_url": "https://resend.com",
+ "lastmod": "2026-07-03T10:13:18.715Z",
+ "extracted_at": "2026-07-03T03:05:25.246Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "black velvet with violet neon",
+ "fonts": [
+  "Inter",
+  "Domaine",
+  "aBC Favorit",
+  "Commit Mono",
+  "Helvetica",
+  "-apple-system"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#292d30",
+   "name": "Graphite Hairline"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#f0f0f0",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#a1a4a5",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#abafb4",
+   "name": "Smoke Gray"
+  },
+  {
+   "hex": "#6e727a",
+   "name": "Iron"
+  },
+  {
+   "hex": "#464a4d",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#9281f7",
+   "name": "Iris Violet"
+  },
+  {
+   "hex": "#baa7ff",
+   "name": "Iris Violet Glow"
+  },
+  {
+   "hex": "#3b9eff",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#70b8ff",
+   "name": "Sky Blue"
+  },
+  {
+   "hex": "#3ad389",
+   "name": "Pulse Green"
+  },
+  {
+   "hex": "#ff9592",
+   "name": "Alarm Red"
+  },
+  {
+   "hex": "#ff6465",
+   "name": "Crimson"
+  },
+  {
+   "hex": "#ffca16",
+   "name": "Amber"
+  },
+  {
+   "hex": "#ffd60a",
+   "name": "Amber Glow"
+  },
+  {
+   "hex": "#0b0e14",
+   "name": "Surface Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/7b76f1c1-600b-444f-a1a1-c51c831ec51a.mp4",
+  "poster": "https://happyhands.cc/design-archive/resend-0d914ef0/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/resend-0d914ef0/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/resend-0d914ef0/thumbnail.jpg"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "f451c085-f048-4c9c-ae3b-03acc88320ab",
+ "slug": "resident-f451c085",
+ "name": "Resident",
+ "site_url": "https://resident.co.nz",
+ "lastmod": "2026-06-05T06:07:17.192Z",
+ "extracted_at": "2026-06-03T19:07:07.606Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "Architecture monograph on cream paper",
+ "fonts": [
+  "MessinaSansWeb",
+  "system-ui sans-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#979797",
+   "name": "Soft Graphite"
+  },
+  {
+   "hex": "#333333",
+   "name": "Charcoal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a3e88038-6a2f-4ad2-a46f-14e1663f52e7.mp4",
+  "poster": "https://happyhands.cc/design-archive/resident-f451c085/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/resident-f451c085/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/resident-f451c085/thumbnail.jpg"
+}

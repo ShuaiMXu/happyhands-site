@@ -1,0 +1,51 @@
+{
+ "id": "3e497155-bd96-4134-a4a5-855bd885a25c",
+ "slug": "roberta-s-pizza-3e497155",
+ "name": "Roberta's Pizza",
+ "site_url": "https://www.robertaspizza.com",
+ "lastmod": "2026-06-03T19:01:52.820Z",
+ "extracted_at": "2026-06-03T19:01:52.815Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Brooklyn pizza punk parlor — a checkered tablecloth lit by neon red signage, where every screen is a poster.",
+ "fonts": [
+  "Offset TM",
+  "Borensa"
+ ],
+ "colors": [
+  {
+   "hex": "#ed2023",
+   "name": "Roberta Red"
+  },
+  {
+   "hex": "#2b2f36",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#bfbfbf",
+   "name": "Shadow Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a96dc854-f163-4261-b506-bc6d0a8e96ae.mp4",
+  "poster": "https://happyhands.cc/design-archive/roberta-s-pizza-3e497155/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/roberta-s-pizza-3e497155/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/roberta-s-pizza-3e497155/thumbnail.jpg"
+}

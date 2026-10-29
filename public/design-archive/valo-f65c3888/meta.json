@@ -1,0 +1,58 @@
+{
+ "id": "f65c3888-2eb3-41a1-87b3-f410b667097e",
+ "slug": "valo-f65c3888",
+ "name": "Valo",
+ "site_url": "https://www.valohealth.com",
+ "lastmod": "2026-06-05T10:06:19.236Z",
+ "extracted_at": "2026-06-03T20:45:04.791Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ai",
+ "north_star": "noir observatory at midnight — weight-300 typography floats on pure black while a single teal-violet gradient passes through like a laser line across the room.",
+ "fonts": [
+  "Valo"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Void"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#4d4d4d",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#1b66f8",
+   "name": "Spectrum Wash"
+  },
+  {
+   "hex": "#1e233c",
+   "name": "Deep Field"
+  },
+  {
+   "hex": "#1951a2",
+   "name": "Atmospheric Fade"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ffa63779-c8d2-4752-b344-799aaf9e7bbb.mp4",
+  "poster": "https://happyhands.cc/design-archive/valo-f65c3888/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/valo-f65c3888/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/valo-f65c3888/thumbnail.jpg"
+}

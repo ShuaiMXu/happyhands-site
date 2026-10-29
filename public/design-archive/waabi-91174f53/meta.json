@@ -1,0 +1,63 @@
+{
+ "id": "91174f53-6770-4398-b3e7-ad14b1c39b6d",
+ "slug": "waabi-91174f53",
+ "name": "Waabi",
+ "site_url": "https://waabi.ai",
+ "lastmod": "2026-06-03T21:48:39.757Z",
+ "extracted_at": "2026-06-03T21:48:39.751Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Concrete monolith with molten-pink ignition. Warm gray editorial canvas where a single chromatic accent cuts through like a signal flare.",
+ "fonts": [
+  "Zagma",
+  "NeueHaas"
+ ],
+ "colors": [
+  {
+   "hex": "#ff2c6b",
+   "name": "Hot Signal"
+  },
+  {
+   "hex": "#191818",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#e8e6e3",
+   "name": "Concrete"
+  },
+  {
+   "hex": "#8c8b8b",
+   "name": "Ash"
+  },
+  {
+   "hex": "#808080",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#d1d5dc",
+   "name": "Slate"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/43c95884-3095-4b8a-a10b-455116ae014b.mp4",
+  "poster": "https://happyhands.cc/design-archive/waabi-91174f53/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/waabi-91174f53/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/waabi-91174f53/thumbnail.jpg"
+}

@@ -1,0 +1,88 @@
+{
+ "id": "a31f5b99-6e7d-4e13-9b80-cd60e455bd76",
+ "slug": "wix-com-a31f5b99",
+ "name": "wix.com",
+ "site_url": "https://www.wix.com",
+ "lastmod": "2026-06-03T21:18:56.567Z",
+ "extracted_at": "2026-06-03T21:18:56.559Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Daylight gallery wall with electric blue signposts",
+ "fonts": [
+  "Arial",
+  "madefor-display",
+  "madefor-text",
+  "madefor-text-mediumbold",
+  "wix-madefor-display-v2",
+  "wix-madefor-text-v2",
+  "madefor-text-bold"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Pure Canvas"
+  },
+  {
+   "hex": "#f1f5f9",
+   "name": "Slate Mist"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon Ink"
+  },
+  {
+   "hex": "#1c1d21",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#d0d0d0",
+   "name": "Ash Border"
+  },
+  {
+   "hex": "#e8e6e6",
+   "name": "Fog Border"
+  },
+  {
+   "hex": "#166aea",
+   "name": "Electric Blue"
+  },
+  {
+   "hex": "#101585",
+   "name": "Deep Violet"
+  },
+  {
+   "hex": "#2c34af",
+   "name": "Indigo Pulse"
+  },
+  {
+   "hex": "#dff994",
+   "name": "Lime Highlight"
+  },
+  {
+   "hex": "#fdf4a1",
+   "name": "Lemon Note"
+  },
+  {
+   "hex": "#bfc8e8",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#538ab6",
+   "name": "Input Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d274d936-168d-49a7-b103-32fc47466de7.mp4",
+  "poster": "https://happyhands.cc/design-archive/wix-com-a31f5b99/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/wix-com-a31f5b99/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/wix-com-a31f5b99/thumbnail.jpg"
+}

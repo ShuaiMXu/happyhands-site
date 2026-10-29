@@ -1,0 +1,86 @@
+{
+ "id": "390cfba6-8c2f-4273-8c9e-750d470b6e2e",
+ "slug": "viture-390cfba6",
+ "name": "VITURE",
+ "site_url": "https://www.viture.com",
+ "lastmod": "2026-06-03T20:33:14.203Z",
+ "extracted_at": "2026-06-03T20:33:14.195Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "ecommerce",
+ "north_star": "neon product stage behind midnight glass — a blacked-out showroom where one orange beam cuts through the dark to illuminate a pair of glasses on a pedestal.",
+ "fonts": [
+  "FontSeasonSans"
+ ],
+ "colors": [
+  {
+   "hex": "#ff5f34",
+   "name": "VITURE Ember"
+  },
+  {
+   "hex": "#f31010",
+   "name": "Crimson Core"
+  },
+  {
+   "hex": "#fe7a60",
+   "name": "Aurora Wash"
+  },
+  {
+   "hex": "#581dff",
+   "name": "Ultra Violet"
+  },
+  {
+   "hex": "#1271ff",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#0c0c0c",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#7e7e7f",
+   "name": "Ash"
+  },
+  {
+   "hex": "#5b5c5d",
+   "name": "Slate"
+  },
+  {
+   "hex": "#abacae",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#949597",
+   "name": "Fog"
+  },
+  {
+   "hex": "#f7f7f8",
+   "name": "Snow"
+  },
+  {
+   "hex": "#eff0f3",
+   "name": "Mist"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b62bdfe1-314a-4ecd-91ce-36db93b078b1.mp4",
+  "poster": "https://happyhands.cc/design-archive/viture-390cfba6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/viture-390cfba6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/viture-390cfba6/thumbnail.jpg"
+}

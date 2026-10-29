@@ -1,0 +1,99 @@
+{
+ "id": "bab34295-03fc-4993-ae42-b440fe78647b",
+ "slug": "vapi-bab34295",
+ "name": "Vapi",
+ "site_url": "https://vapi.ai",
+ "lastmod": "2026-06-03T20:59:12.870Z",
+ "extracted_at": "2026-06-03T20:59:12.863Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ai",
+ "north_star": "Neon spectrogram across midnight concrete",
+ "fonts": [
+  "seasonSans",
+  "Geist Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#0e0e13",
+   "name": "Void Canvas"
+  },
+  {
+   "hex": "#09090b",
+   "name": "Carbon Surface"
+  },
+  {
+   "hex": "#18181b",
+   "name": "Slab Elevated"
+  },
+  {
+   "hex": "#27272a",
+   "name": "Iron Border"
+  },
+  {
+   "hex": "#3f3f46",
+   "name": "Steel Border"
+  },
+  {
+   "hex": "#71717a",
+   "name": "Zinc Mute"
+  },
+  {
+   "hex": "#d8d7d4",
+   "name": "Pearl Border"
+  },
+  {
+   "hex": "#d9e6ef",
+   "name": "Ice Border"
+  },
+  {
+   "hex": "#fffaea",
+   "name": "Cream Text"
+  },
+  {
+   "hex": "#f4f4f5",
+   "name": "Bone Text"
+  },
+  {
+   "hex": "#a1a1aa",
+   "name": "Mercury Text"
+  },
+  {
+   "hex": "#e96b34",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#62f6b5",
+   "name": "Mint Pulse"
+  },
+  {
+   "hex": "#4dcafa",
+   "name": "Spectrogram Blue"
+  },
+  {
+   "hex": "#de94e2",
+   "name": "Spectrogram Pink"
+  },
+  {
+   "hex": "#ffdd03",
+   "name": "Spectrogram Yellow"
+  },
+  {
+   "hex": "#9977ff",
+   "name": "Spectrogram Violet"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/9e6cd34c-0c57-4c4c-8876-914c9556191e.mp4",
+  "poster": "https://happyhands.cc/design-archive/vapi-bab34295/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/vapi-bab34295/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/vapi-bab34295/thumbnail.jpg"
+}

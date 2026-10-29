@@ -1,0 +1,66 @@
+{
+ "id": "8875b14e-c59a-492f-8780-8027a480f21c",
+ "slug": "vivid-co-8875b14e",
+ "name": "Vivid+Co",
+ "site_url": "https://vividand.co",
+ "lastmod": "2026-07-03T10:24:54.333Z",
+ "extracted_at": "2026-07-03T03:09:37.717Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "prismatic light through obsidian",
+ "fonts": [
+  "Neue Montreal"
+ ],
+ "colors": [
+  {
+   "hex": "#fffdf9",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#101010",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#495764",
+   "name": "Graphite Veil"
+  },
+  {
+   "hex": "#403f3f",
+   "name": "Ash Border"
+  },
+  {
+   "hex": "#6f879c",
+   "name": "Fog Blue"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#ff2a2a",
+   "name": "Prism Red"
+  },
+  {
+   "hex": "#2a7fff",
+   "name": "Prism Cyan"
+  },
+  {
+   "hex": "#2aff2a",
+   "name": "Prism Lime"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b6c4f041-4451-4b9b-be43-9470a7cea1d2.mp4",
+  "poster": "https://happyhands.cc/design-archive/vivid-co-8875b14e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/vivid-co-8875b14e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/vivid-co-8875b14e/thumbnail.jpg"
+}

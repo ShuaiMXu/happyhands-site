@@ -1,0 +1,87 @@
+{
+ "id": "6b4c8ca5-476e-442b-b713-d5fc58cf04ac",
+ "slug": "vanta-6b4c8ca5",
+ "name": "Vanta",
+ "site_url": "https://www.vanta.com",
+ "lastmod": "2026-06-03T17:29:52.188Z",
+ "extracted_at": "2026-06-03T17:29:52.183Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Editorial violet ledger on parchment",
+ "fonts": [
+  "Reckless",
+  "Inter Variable"
+ ],
+ "colors": [
+  {
+   "hex": "#260048",
+   "name": "Indigo Ink"
+  },
+  {
+   "hex": "#5e05c4",
+   "name": "Vivid Violet"
+  },
+  {
+   "hex": "#8f47d5",
+   "name": "Mid Violet"
+  },
+  {
+   "hex": "#ba9dff",
+   "name": "Soft Violet"
+  },
+  {
+   "hex": "#ddd6ff",
+   "name": "Lavender Wash"
+  },
+  {
+   "hex": "#181822",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#484960",
+   "name": "Slate"
+  },
+  {
+   "hex": "#6d6e87",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#9e9fb7",
+   "name": "Steel"
+  },
+  {
+   "hex": "#dfdfe9",
+   "name": "Ash"
+  },
+  {
+   "hex": "#eaeaf1",
+   "name": "Fog"
+  },
+  {
+   "hex": "#f7f8fa",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#ffbe0f",
+   "name": "Amber Signal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/a73cc400-32f6-4559-9476-18cf122512ef.mp4",
+  "poster": "https://happyhands.cc/design-archive/vanta-6b4c8ca5/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/vanta-6b4c8ca5/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/vanta-6b4c8ca5/thumbnail.jpg"
+}

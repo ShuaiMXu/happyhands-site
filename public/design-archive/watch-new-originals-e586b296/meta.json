@@ -1,0 +1,82 @@
+{
+ "id": "e586b296-bfac-4e93-add2-daa384712b39",
+ "slug": "watch-new-originals-e586b296",
+ "name": "Watch new Originals",
+ "site_url": "https://www.disneyplus.com",
+ "lastmod": "2026-06-05T10:00:20.798Z",
+ "extracted_at": "2026-06-03T20:37:55.488Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "media",
+ "north_star": "Cinematic void with electric spotlight. Picture a darkened theater lobby where a single cyan marquee light is the only chromatic thing in sight — everything else is monochrome depth leading the eye to the posters on the wall.",
+ "fonts": [
+  "Inspire"
+ ],
+ "colors": [
+  {
+   "hex": "#040714",
+   "name": "Midnight Canvas"
+  },
+  {
+   "hex": "#010104",
+   "name": "Abyss"
+  },
+  {
+   "hex": "#0e0b14",
+   "name": "Eclipse"
+  },
+  {
+   "hex": "#1e1f24",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#282a36",
+   "name": "Slate Veil"
+  },
+  {
+   "hex": "#fafafa",
+   "name": "Luminous"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Pearl"
+  },
+  {
+   "hex": "#b7b8bd",
+   "name": "Mist"
+  },
+  {
+   "hex": "#c0c0c0",
+   "name": "Fog"
+  },
+  {
+   "hex": "#02172a",
+   "name": "Deep Ink"
+  },
+  {
+   "hex": "#17171c",
+   "name": "Onyx Label"
+  },
+  {
+   "hex": "#33ddff",
+   "name": "Electric Cyan"
+  },
+  {
+   "hex": "#02d6e8",
+   "name": "Teal Pulse"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f189db2b-25e3-4a8c-a20d-407f9bfe1300.mp4",
+  "poster": "https://happyhands.cc/design-archive/watch-new-originals-e586b296/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/watch-new-originals-e586b296/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/watch-new-originals-e586b296/thumbnail.jpg"
+}

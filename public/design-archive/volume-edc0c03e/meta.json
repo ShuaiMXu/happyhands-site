@@ -1,0 +1,66 @@
+{
+ "id": "edc0c03e-8c20-4e22-badd-2735fcb9f4a8",
+ "slug": "volume-edc0c03e",
+ "name": "Volume",
+ "site_url": "https://vol.co",
+ "lastmod": "2026-06-03T17:20:14.129Z",
+ "extracted_at": "2026-06-03T17:20:14.125Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "gallery wall with whispers — editorial restraint on paper-white canvas, the chrome is invisible, the imagery is the only color",
+ "fonts": [
+  "Messina Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#272727",
+   "name": "Ink"
+  },
+  {
+   "hex": "#717171",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#949494",
+   "name": "Ash"
+  },
+  {
+   "hex": "#cdcccc",
+   "name": "Fog"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void"
+  },
+  {
+   "hex": "#e75a00",
+   "name": "Ember"
+  },
+  {
+   "hex": "#c52910",
+   "name": "Signal Red"
+  },
+  {
+   "hex": "#962921",
+   "name": "Brick"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/abce6b49-bf11-4baa-86a9-f6671cde4c61.mp4",
+  "poster": "https://happyhands.cc/design-archive/volume-edc0c03e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/volume-edc0c03e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/volume-edc0c03e/thumbnail.jpg"
+}

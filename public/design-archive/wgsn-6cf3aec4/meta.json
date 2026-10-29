@@ -1,0 +1,74 @@
+{
+ "id": "6cf3aec4-d028-44b0-b634-cc93e6c08e3c",
+ "slug": "wgsn-6cf3aec4",
+ "name": "WGSN",
+ "site_url": "https://www.wgsn.com/en",
+ "lastmod": "2026-06-05T12:22:19.829Z",
+ "extracted_at": "2026-06-03T21:52:45.915Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "editorial monochrome showroom",
+ "fonts": [
+  "DM Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f6f2eb",
+   "name": "Bone Warm"
+  },
+  {
+   "hex": "#f5f5f5",
+   "name": "Ash Mist"
+  },
+  {
+   "hex": "#666666",
+   "name": "Graphite Border"
+  },
+  {
+   "hex": "#999999",
+   "name": "Smoke Border"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Pearl Border"
+  },
+  {
+   "hex": "#bdbdbd",
+   "name": "Silver Border"
+  },
+  {
+   "hex": "#333333",
+   "name": "Slate Text"
+  },
+  {
+   "hex": "#495057",
+   "name": "Carbon Input"
+  },
+  {
+   "hex": "#212121",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d15465c6-20db-4193-8458-3524d76b6400.mp4",
+  "poster": "https://happyhands.cc/design-archive/wgsn-6cf3aec4/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/wgsn-6cf3aec4/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/wgsn-6cf3aec4/thumbnail.jpg"
+}

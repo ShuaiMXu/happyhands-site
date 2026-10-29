@@ -1,0 +1,48 @@
+{
+ "id": "0a2bcda6-b5b9-463d-bc8d-2c7ccaa2b776",
+ "slug": "wallpaper-projects-0a2bcda6",
+ "name": "Wallpaper Projects",
+ "site_url": "https://wallpaperprojects.com",
+ "lastmod": "2026-06-05T11:49:44.063Z",
+ "extracted_at": "2026-06-03T21:29:17.654Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Editorial gallery on warm paper — a spread from a 12×16 art monograph where cream stock, near-black ink, and one enormous serif do all the talking.",
+ "fonts": [
+  "Cardinal Fruit",
+  "Soehne Breit Buch",
+  "Soehne Mono Buch"
+ ],
+ "colors": [
+  {
+   "hex": "#1e1e1e",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#fbf9f3",
+   "name": "Warm Cream"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/bab6c101-4ddf-4b4f-a994-227c3f42b45e.mp4",
+  "poster": "https://happyhands.cc/design-archive/wallpaper-projects-0a2bcda6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/wallpaper-projects-0a2bcda6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/wallpaper-projects-0a2bcda6/thumbnail.jpg"
+}

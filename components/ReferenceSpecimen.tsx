@@ -218,11 +218,11 @@ export function ReferenceSpecimen({
           </h3>
           <p>
             {zh
-              ? "依据提取规范重建的示例"
-              : "Examples reconstructed from extracted guidelines"}
+              ? "依据规范重建的静态示例，包含补充状态与示例内容"
+              : "Static guideline reconstructions with illustrative states and content"}
           </p>
           {system.components.map((component, i) => {
-            const preview = buildComponentPreview(component, system);
+            const preview = buildComponentPreview(component, system, lang);
             return (
               <article className="reference-component" key={i}>
                 <h4>{component.name}</h4>

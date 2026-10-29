@@ -1,3 +1,4 @@
+import { ResourceCard } from "./ResourcePresentation";
 import React, { useEffect, useState, useRef } from "react";
 import type { ArchiveEntry } from "./archive-catalog";
 export function ArchiveCard({
@@ -64,7 +65,10 @@ export function ArchiveCard({
           onPreview(null);
       }}
     >
-      <a
+      <ResourceCard
+        title={entry.name}
+        description={new URL(entry.site_url).hostname}
+        mediaClassName="archive-card-media"
         id={`archive-${entry.slug}`}
         className="archive-card-open"
         href={`?provider=design-md&design=${entry.slug}`}
@@ -76,37 +80,34 @@ export function ArchiveCard({
           e.preventDefault();
           onOpen();
         }}
-      >
-        <div className="archive-card-media">
-          <img
-            loading="lazy"
-            width="480"
-            height="300"
-            src={`/design-archive/${entry.slug}/thumbnail.jpg`}
-            alt=""
-          />
-          {active && !failed && (
-            <video
-              key={entry.slug}
-              autoPlay
-              muted
-              loop
-              playsInline
-              preload="none"
-              poster={`/design-archive/${entry.slug}/thumbnail.jpg`}
-              src={entry.video}
-              aria-hidden="true"
-              className={playing ? "is-playing" : ""}
-              onPlaying={() => setPlaying(true)}
-              onError={() => setFailed(true)}
+        media={
+          <>
+            <img
+              loading="lazy"
+              width="480"
+              height="300"
+              src={`/design-archive/${entry.slug}/thumbnail.jpg`}
+              alt=""
             />
-          )}
-        </div>
-        <span className="archive-card-caption">
-          <strong>{entry.name}</strong>
-          <small>{new URL(entry.site_url).hostname}</small>
-        </span>
-      </a>
+            {active && !failed && (
+              <video
+                key={entry.slug}
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="none"
+                poster={`/design-archive/${entry.slug}/thumbnail.jpg`}
+                src={entry.video}
+                aria-hidden="true"
+                className={playing ? "is-playing" : ""}
+                onPlaying={() => setPlaying(true)}
+                onError={() => setFailed(true)}
+              />
+            )}
+          </>
+        }
+      />
       {failed && (
         <span className="archive-preview-error" role="status">
           {zh ? "视频暂不可用" : "Video unavailable"}

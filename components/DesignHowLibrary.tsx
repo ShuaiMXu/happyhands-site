@@ -143,35 +143,14 @@ export function DesignHowLibrary({
   );
   return (
     <div className="design-how-library">
-      <div className="design-how-summary">
-        <p>
-          {t(
-            `${data.documents.filter((d) => d.kind === "foundation").length} 篇基础规范，${data.documents.filter((d) => d.kind === "component").length} 篇组件文档`,
-            `${data.documents.filter((d) => d.kind === "foundation").length} foundations, ${data.documents.filter((d) => d.kind === "component").length} component documents`,
-          )}
-        </p>
-        <div className="design-how-actions">
-          <a className="hh-button" href={data.download} download>
-            {t("下载完整资料", "Download complete archive")}
-          </a>
-          <a href={`/systems/${system}/`}>{t("系统概览", "System overview")}</a>
-          <a
-            href={`https://design.how/systems/${system}`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            design.how ↗
-          </a>
-        </div>
-      </div>
       <div
-        className="design-how-view-tabs"
+        className="design-how-view-tabs resource-content-tabs"
         role="tablist"
         aria-label={t("查看方式", "View mode")}
       >
         {[
-          ["preview", t("样式预览", "Style preview")],
-          ["documents", t("规范文档", "Documentation")],
+          ["preview", t("预览", "Preview")],
+          ["documents", t("资料与下载", "Files and downloads")],
         ].map(([id, label], i) => (
           <button
             key={id}
@@ -203,6 +182,31 @@ export function DesignHowLibrary({
           </button>
         ))}
       </div>
+      {view === "documents" && (
+        <div className="design-how-summary">
+          <p>
+            {t(
+              `${data.documents.filter((d) => d.kind === "foundation").length} 篇基础规范，${data.documents.filter((d) => d.kind === "component").length} 篇组件文档`,
+              `${data.documents.filter((d) => d.kind === "foundation").length} foundations, ${data.documents.filter((d) => d.kind === "component").length} component documents`,
+            )}
+          </p>
+          <div className="design-how-actions">
+            <a className="hh-button" href={data.download} download>
+              {t("下载完整资料", "Download complete archive")}
+            </a>
+            <a href={`/systems/${system}/`}>
+              {t("系统概览", "System overview")}
+            </a>
+            <a
+              href={`https://design.how/systems/${system}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              design.how ↗
+            </a>
+          </div>
+        </div>
+      )}
       {view === "preview" ? (
         <div
           role="tabpanel"
@@ -305,7 +309,12 @@ export function DesignHowLibrary({
                 >
                   {t("复制 Markdown", "Copy Markdown")}
                 </Button>
-                <a href={file} download>
+                <a
+                  className="hh-button"
+                  data-variant="secondary"
+                  href={file}
+                  download
+                >
                   {t("下载 Markdown", "Download Markdown")}
                 </a>
                 <span role="status">{notice}</span>

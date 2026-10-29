@@ -1,3 +1,9 @@
+import {
+  ResourceCard,
+  ResourceDetailHeader,
+  ResourceDetailContent,
+} from "./ResourcePresentation";
+import { ResourceToolbar } from "./ResourceToolbar";
 import { DesignHowLibrary } from "./DesignHowLibrary";
 import { ResourceExport } from "./ResourceExport";
 import "./archive-gallery.css";
@@ -42,6 +48,12 @@ export function SystemLibrary({ lang }: { lang: string }) {
         system.id === new URLSearchParams(location.search).get("system"),
     )?.id || "";
   const [selected, setSelected] = useState(read);
+  const [query, setQuery] = useState("");
+  const filtered = systems.filter((s) =>
+    `${s.name} ${s.zh} ${s.en}`
+      .toLowerCase()
+      .includes(query.trim().toLowerCase()),
+  );
   useEffect(() => {
     const update = () => setSelected(read());
     addEventListener("popstate", update);
@@ -72,61 +84,70 @@ export function SystemLibrary({ lang }: { lang: string }) {
   return (
     <main id="catalog-main" className="system-library-full" tabIndex={-1}>
       {!selected && (
-        <nav
-          className="provider-navigation system-cover-navigation"
-          aria-label={t("资源来源", "Resource sources")}
-        >
-          {systems.map(({ id, name, zh, en }) => (
-            <a
-              href={`?provider=systems&system=${id}`}
-              key={id}
-              aria-current={selected === id ? "page" : undefined}
-              onClick={(e) => {
-                if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
-                e.preventDefault();
-                setSelected(id);
-                history.pushState(null, "", `?provider=systems&system=${id}`);
-              }}
-            >
-              <img
-                src={`/system-covers/${id}.png`}
-                alt=""
-                width="1500"
-                height="938"
+        <>
+          <ResourceToolbar
+            label={t("搜索设计系统", "Search design systems")}
+            placeholder={t("搜索", "Search")}
+            query={query}
+            onQueryChange={setQuery}
+            status={`${filtered.length} ${t("个结果", "results")}`}
+          >
+            {null}
+          </ResourceToolbar>
+          <nav
+            className="provider-navigation system-cover-navigation"
+            aria-label={t("资源来源", "Resource sources")}
+          >
+            {filtered.map(({ id, name, zh, en }) => (
+              <ResourceCard
+                title={name}
+                description={t(zh, en)}
+                media={
+                  <img
+                    src={`/system-covers/${id}.png`}
+                    alt=""
+                    width="1500"
+                    height="938"
+                    loading="lazy"
+                  />
+                }
+                href={`?provider=systems&system=${id}`}
+                key={id}
+                aria-current={selected === id ? "page" : undefined}
+                onClick={(e) => {
+                  if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
+                  e.preventDefault();
+                  setSelected(id);
+                  history.pushState(null, "", `?provider=systems&system=${id}`);
+                }}
               />
-              <div className="system-cover-label">
-                <strong>{name}</strong>
-                <p>{t(zh, en)}</p>
-                <small>
-                  {selected === id
-                    ? t("正在查看", "Selected")
-                    : t("查看设计系统", "Explore system")}
-                </small>
-              </div>
-            </a>
-          ))}
-        </nav>
+            ))}
+          </nav>
+          {!filtered.length && (
+            <div className="catalog-empty">
+              <p>{t("没有匹配的设计系统", "No matching design systems")}</p>
+              <button onClick={() => setQuery("")}>
+                {t("清除筛选", "Clear filters")}
+              </button>
+            </div>
+          )}
+        </>
       )}
       {selected && (
         <>
-          <div className="system-detail-toolbar">
-            <button
-              onClick={() => {
-                setSelected("");
-                history.pushState(null, "", "?provider=systems");
-              }}
-            >
-              {t("← 返回设计系统", "← All design systems")}
-            </button>
-          </div>
-          <div className="resource-detail-heading">
-            <h2>{name}</h2>
-          </div>
+          <ResourceDetailHeader
+            title={name}
+            backLabel={t("返回设计系统", "All design systems")}
+            onBack={() => {
+              setSelected("");
+              history.pushState(null, "", "?provider=systems");
+            }}
+          />
           {selected !== "happyhands" ? (
             <DesignHowLibrary key={selected} system={selected} lang={lang} />
           ) : (
-            <div className="resource-detail-layout system-reference-layout">
-              <div className="resource-detail-preview">
+            <ResourceDetailContent lang={lang}>
+              <div className="resource-detail-preview system-reference-layout">
                 <iframe
                   ref={frame}
                   key={selected}
@@ -158,7 +179,7 @@ export function SystemLibrary({ lang }: { lang: string }) {
                   },
                 ]}
               />
-            </div>
+            </ResourceDetailContent>
           )}
         </>
       )}

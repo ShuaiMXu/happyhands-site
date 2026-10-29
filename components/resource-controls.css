@@ -14,7 +14,7 @@
  .resource-facets .archive-filter-trigger { padding-inline:0; }
 }
 @media(max-width:540px) {
- .resource-toolbar:has(.resource-facets > button ~ button) .resource-search { flex-basis:100%; max-width:none; margin-bottom:6px; }
+ .resource-toolbar:has(.resource-facets > button ~ button) .resource-search { flex-basis:100%; max-width:none; margin-bottom:0; }
 }
 @media(pointer:coarse) { .resource-search input[type="search"] { font-size:16px; } }
 .archive-filter-trigger { display:inline-flex; gap:8px; align-items:center; justify-content:space-between; min-height:44px; max-width:100%; padding:8px 10px; font:inherit; font-size:14px; font-weight:500; color:var(--hh-ink); background:transparent; border:0; border-radius:var(--hh-radius-sm); cursor:pointer; }

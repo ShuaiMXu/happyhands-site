@@ -124,7 +124,7 @@
 }
 .design-how-prose a {
   color: var(--hh-brand-text);
-  text-decoration: underline;
+  text-decoration: none;
   text-underline-offset: 4px;
 }
 .design-how-prose code {

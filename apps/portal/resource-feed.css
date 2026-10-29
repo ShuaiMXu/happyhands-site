@@ -48,3 +48,11 @@
 .feed-more { display:block; margin:32px auto 0; min-height:44px; padding:8px 20px; font:inherit; font-size:14px; color:var(--hh-ink-muted); background:transparent; border:0; border-radius:var(--hh-radius-sm); cursor:pointer; }
 .feed-more[hidden] { display:none; }
 .feed-more:focus-visible { outline:2px solid var(--hh-ring); outline-offset:3px; }
+.resource-feed [data-feed-controls] .resource-toolbar { margin:20px 0 24px; }
+.resource-feed .resource-search { flex-basis:340px; max-width:380px; }
+.feed-empty { padding:40px 0; color:var(--hh-ink-muted); }
+.feed-empty button { min-height:44px; padding:8px 16px; border:.5px solid var(--hh-line); border-radius:var(--hh-radius-sm); background:var(--hh-bg); color:var(--hh-ink); cursor:pointer; }
+@media(max-width:700px) {
+ .resource-feed .resource-search { flex-basis:100%; max-width:none; }
+ .resource-feed .resource-result-count { margin-left:auto; }
+}

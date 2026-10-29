@@ -1,0 +1,77 @@
+{
+ "id": "7d254296-6817-487a-a58c-4d5eca89cbf3",
+ "slug": "flying-papers-7d254296",
+ "name": "Flying Papers",
+ "site_url": "https://www.flyingpapers.com",
+ "lastmod": "2026-06-05T01:53:45.898Z",
+ "extracted_at": "2026-06-03T17:03:21.797Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "Saturday morning cartoon confessional",
+ "fonts": [
+  "ObviouslyVariable",
+  "DegularVariable",
+  "bergen_monoregular",
+  "DegularDisplay-Bold"
+ ],
+ "colors": [
+  {
+   "hex": "#8584bd",
+   "name": "Dusk Violet"
+  },
+  {
+   "hex": "#f4ed36",
+   "name": "Hi-Vis Yellow"
+  },
+  {
+   "hex": "#f9cc73",
+   "name": "Buttery Yellow"
+  },
+  {
+   "hex": "#61609a",
+   "name": "Lilac Shadow"
+  },
+  {
+   "hex": "#f8c1ba",
+   "name": "Bubblegum Pink"
+  },
+  {
+   "hex": "#b5c995",
+   "name": "Matcha Cream"
+  },
+  {
+   "hex": "#ac4f98",
+   "name": "Magenta Punch"
+  },
+  {
+   "hex": "#c94245",
+   "name": "Firecracker Red"
+  },
+  {
+   "hex": "#f9f5f2",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#1a1a1a",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/42d599f3-830d-482a-a7f4-37c26c4fef8c.mp4",
+  "poster": "https://happyhands.cc/design-archive/flying-papers-7d254296/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/flying-papers-7d254296/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/flying-papers-7d254296/thumbnail.jpg"
+}

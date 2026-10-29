@@ -1,0 +1,71 @@
+{
+ "id": "8fd92584-c3c1-421b-92f8-338ae80ba72e",
+ "slug": "flox-8fd92584",
+ "name": "Flox",
+ "site_url": "https://flox.dev",
+ "lastmod": "2026-06-03T21:26:23.529Z",
+ "extracted_at": "2026-06-03T21:26:23.523Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "terminal at sunrise, violet glow",
+ "fonts": [
+  "GeistSans",
+  "GeistMono"
+ ],
+ "colors": [
+  {
+   "hex": "#020817",
+   "name": "Graphite Ink"
+  },
+  {
+   "hex": "#e2e8f0",
+   "name": "Hairline Slate"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#1b1b1b",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#f3f3f3",
+   "name": "Mist"
+  },
+  {
+   "hex": "#0c0c0c",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#8247ff",
+   "name": "Iris Glow"
+  },
+  {
+   "hex": "#f47bff",
+   "name": "Magenta Pulse"
+  },
+  {
+   "hex": "#ff8a3d",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#ff4fae",
+   "name": "Rose Hot"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b7ed304d-ff61-413a-8b01-efeca4ef4659.mp4",
+  "poster": "https://happyhands.cc/design-archive/flox-8fd92584/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/flox-8fd92584/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/flox-8fd92584/thumbnail.jpg"
+}

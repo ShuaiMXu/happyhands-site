@@ -3,9 +3,9 @@
     "siteName": "Figma Config",
     "url": "https://config.figma.com/events/figma-config-2022",
     "extractedAt": "2026-06-03T18:01:59.688Z",
-    "thumbnailUrl": "https://images.refero.design/styles/refero.design/image/129dce59-1b19-4c87-a24d-e3a32173c2a4.jpg",
+    "thumbnailUrl": "https://happyhands.cc/design-archive/figma-config-8caa5004/thumbnail.jpg",
     "screenshotUrls": [
-      "https://images.refero.design/styles/refero.design/image/1e478043-e192-4f29-a84a-81a0945e5236.jpg"
+      "https://happyhands.cc/design-archive/figma-config-8caa5004/screenshot.jpg"
     ]
   },
   "description": "Figma Config operates in a stark typographic gallery mode: pure black canvas, one near-white text color, and a single ultra-tight custom sans-serif that does all the visual work. There is no decorative chrome, no soft cards, no color coding — hierarchy comes from scale jumps (16px to 80px) and extremely tight tracking, not from fills or elevation. Navigation is reduced to a logo and three ghost-bordered text links, and CTAs are inverted-outline buttons rather than filled pills, so the user feels they are walking through a modernist poster exhibit rather than using a product UI. The colored squares and abstract shapes that appear in error/empty states are event-specific illustration, not interface tokens — the system itself is almost entirely achromatic. Density is compact and edges are hard: borders are hairline, corners are sharp, and the only texture is the rhythm of oversized type sitting on void.",

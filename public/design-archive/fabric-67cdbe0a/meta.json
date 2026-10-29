@@ -1,0 +1,78 @@
+{
+ "id": "67cdbe0a-a9d5-4a41-91a6-5b26550efc69",
+ "slug": "fabric-67cdbe0a",
+ "name": "Fabric",
+ "site_url": "https://fabric.so",
+ "lastmod": "2026-06-03T21:46:17.296Z",
+ "extracted_at": "2026-06-03T21:46:17.289Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "editorial manuscript on a drafting table",
+ "fonts": [
+  "sans-serif",
+  "GT Alpina Light",
+  "Inter",
+  "Manrope",
+  "system-ui"
+ ],
+ "colors": [
+  {
+   "hex": "#1100ff",
+   "name": "Electric Violet"
+  },
+  {
+   "hex": "#19154e",
+   "name": "Ink Violet"
+  },
+  {
+   "hex": "#0a0a0a",
+   "name": "Press Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f3f3f3",
+   "name": "Newsprint"
+  },
+  {
+   "hex": "#666666",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#333333",
+   "name": "Slate"
+  },
+  {
+   "hex": "#404040",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#b3b3b3",
+   "name": "Ash"
+  },
+  {
+   "hex": "#737373",
+   "name": "Smoke"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ed7fb73e-3e61-4757-a7f7-d8b0ebaaf415.mp4",
+  "poster": "https://happyhands.cc/design-archive/fabric-67cdbe0a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/fabric-67cdbe0a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/fabric-67cdbe0a/thumbnail.jpg"
+}

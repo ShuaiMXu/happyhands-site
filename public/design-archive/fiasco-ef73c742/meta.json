@@ -1,0 +1,85 @@
+{
+ "id": "ef73c742-1c3b-48b9-a174-de365ecc4691",
+ "slug": "fiasco-ef73c742",
+ "name": "Fiasco",
+ "site_url": "https://fiasco.design",
+ "lastmod": "2026-06-05T12:34:07.619Z",
+ "extracted_at": "2026-06-03T20:28:20.439Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "\"editorial gallery on cream paper\" — warm off-white canvas with confident black type and single-color project cards.",
+ "fonts": [
+  "area-normal",
+  "HAL Timezone",
+  "Gooper",
+  "OC Highway"
+ ],
+ "colors": [
+  {
+   "hex": "#f8f9f3",
+   "name": "Canvas Cream"
+  },
+  {
+   "hex": "#1d1e19",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#e9eae2",
+   "name": "Stone Mist"
+  },
+  {
+   "hex": "#d0d1cc",
+   "name": "Shadow Stone"
+  },
+  {
+   "hex": "#151612",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#686e77",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#fff714",
+   "name": "Sulfur Yellow"
+  },
+  {
+   "hex": "#fbc2d1",
+   "name": "Carnation Pink"
+  },
+  {
+   "hex": "#84bdff",
+   "name": "Sky Blue"
+  },
+  {
+   "hex": "#fd6b01",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#204ce5",
+   "name": "Cobalt Violet"
+  },
+  {
+   "hex": "#112337",
+   "name": "Midnight"
+  },
+  {
+   "hex": "#03ac47",
+   "name": "Lichen Green"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/07644224-f78e-442c-9eb3-384bec5d6186.mp4",
+  "poster": "https://happyhands.cc/design-archive/fiasco-ef73c742/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/fiasco-ef73c742/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/fiasco-ef73c742/thumbnail.jpg"
+}

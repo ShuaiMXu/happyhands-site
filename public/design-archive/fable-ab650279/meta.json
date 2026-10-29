@@ -1,0 +1,68 @@
+{
+ "id": "ab650279-aa18-43e5-a998-34190d7bedc7",
+ "slug": "fable-ab650279",
+ "name": "Fable",
+ "site_url": "https://fable.co",
+ "lastmod": "2026-06-05T06:53:01.452Z",
+ "extracted_at": "2026-06-03T19:18:53.735Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "media",
+ "north_star": "a literary reading nook with cream paper and ink — the book is the art",
+ "fonts": [
+  "Inter",
+  "Heldane Display",
+  "Aktiv Grotesk"
+ ],
+ "colors": [
+  {
+   "hex": "#064c37",
+   "name": "Fable Forest"
+  },
+  {
+   "hex": "#43a1d7",
+   "name": "Storybook Sky"
+  },
+  {
+   "hex": "#f7f4ee",
+   "name": "Paper Cream"
+  },
+  {
+   "hex": "#161015",
+   "name": "Ink"
+  },
+  {
+   "hex": "#292229",
+   "name": "Charcoal Plum"
+  },
+  {
+   "hex": "#3f383d",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#070607",
+   "name": "Char"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#ededed",
+   "name": "Fog"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/835bc34a-0e34-4c07-a479-1b6c5c4d3f44.mp4",
+  "poster": "https://happyhands.cc/design-archive/fable-ab650279/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/fable-ab650279/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/fable-ab650279/thumbnail.jpg"
+}

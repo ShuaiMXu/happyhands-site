@@ -1,0 +1,79 @@
+{
+ "id": "0c77bb2a-c7cd-499b-b5cd-90268eefe906",
+ "slug": "fly-io-0c77bb2a",
+ "name": "Fly.io",
+ "site_url": "https://fly.io",
+ "lastmod": "2026-06-03T17:10:23.758Z",
+ "extracted_at": "2026-06-03T17:10:23.751Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "surrealist cloud atlas in violet ink",
+ "fonts": [
+  "Fricolage Grotesque",
+  "Mackinac"
+ ],
+ "colors": [
+  {
+   "hex": "#7c3aed",
+   "name": "Electric Violet"
+  },
+  {
+   "hex": "#281950",
+   "name": "Deep Ink Violet"
+  },
+  {
+   "hex": "#5e537c",
+   "name": "Heather Violet"
+  },
+  {
+   "hex": "#a39ac1",
+   "name": "Mist Violet"
+  },
+  {
+   "hex": "#191034",
+   "name": "Midnight Plum"
+  },
+  {
+   "hex": "#202237",
+   "name": "Slate Dusk"
+  },
+  {
+   "hex": "#676b89",
+   "name": "Overcast"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure Paper"
+  },
+  {
+   "hex": "#e7e6f4",
+   "name": "Lavender Mist"
+  },
+  {
+   "hex": "#f1f2f9",
+   "name": "Iris Haze"
+  },
+  {
+   "hex": "#a5b4fc",
+   "name": "Dawn Wash"
+  },
+  {
+   "hex": "#a02be4",
+   "name": "Plum Veil"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6138124a-5e75-471e-afaa-7d3a5c59ed6b.mp4",
+  "poster": "https://happyhands.cc/design-archive/fly-io-0c77bb2a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/fly-io-0c77bb2a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/fly-io-0c77bb2a/thumbnail.jpg"
+}

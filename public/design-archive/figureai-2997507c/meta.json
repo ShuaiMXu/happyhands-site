@@ -1,0 +1,51 @@
+{
+ "id": "2997507c-ba60-4653-b217-3eca4858dec8",
+ "slug": "figureai-2997507c",
+ "name": "FigureAI",
+ "site_url": "https://www.figure.ai/figure",
+ "lastmod": "2026-09-20T22:17:33.431Z",
+ "extracted_at": "2026-09-20T22:15:01.223Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Robotics lab catalog. White technical documentation is interrupted by cinematic evidence of a humanoid moving through real interiors.",
+ "fonts": [
+  "pp-neue-machina-plain",
+  "neue-haas-grot-text"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Lab White"
+  },
+  {
+   "hex": "#0c0c0c",
+   "name": "Figure Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "Absolute Black"
+  },
+  {
+   "hex": "#6d6d6d",
+   "name": "Machine Gray"
+  },
+  {
+   "hex": "#cecece",
+   "name": "Calibration Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5eaed485-f4c1-4ef2-974c-06a5cf28ad15.mp4",
+  "poster": "https://happyhands.cc/design-archive/figureai-2997507c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/figureai-2997507c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/figureai-2997507c/thumbnail.jpg"
+}

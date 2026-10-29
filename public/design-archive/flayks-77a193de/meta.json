@@ -1,0 +1,92 @@
+{
+ "id": "77a193de-2472-4637-802f-d930ec61c180",
+ "slug": "flayks-77a193de",
+ "name": "Flayks",
+ "site_url": "https://flayks.com",
+ "lastmod": "2026-06-03T21:31:04.577Z",
+ "extracted_at": "2026-06-03T21:31:04.571Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "Oversized editorial broadsheet — dark forest green page, peach ink headlines bleeding off the page edges, tiny Nohemi caption text anchoring the corners.",
+ "fonts": [
+  "Mango Grotesque",
+  "Nohemi",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#00381c",
+   "name": "Forest Ink"
+  },
+  {
+   "hex": "#002d16",
+   "name": "Forest Deep"
+  },
+  {
+   "hex": "#ffe0ce",
+   "name": "Peach Cream"
+  },
+  {
+   "hex": "#f6e9d9",
+   "name": "Bone"
+  },
+  {
+   "hex": "#272221",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#2c2f34",
+   "name": "Slate"
+  },
+  {
+   "hex": "#c3bfbc",
+   "name": "Fog"
+  },
+  {
+   "hex": "#ff8370",
+   "name": "Coral Flame"
+  },
+  {
+   "hex": "#d1adff",
+   "name": "Lavender"
+  },
+  {
+   "hex": "#546f57",
+   "name": "Sage"
+  },
+  {
+   "hex": "#2d0458",
+   "name": "Ultraviolet"
+  },
+  {
+   "hex": "#1e1779",
+   "name": "Indigo Depth"
+  },
+  {
+   "hex": "#977eac",
+   "name": "Heather"
+  },
+  {
+   "hex": "#002a3b",
+   "name": "Navy Depths"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3f755bc2-ba1d-4572-b506-814d92562267.mp4",
+  "poster": "https://happyhands.cc/design-archive/flayks-77a193de/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/flayks-77a193de/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/flayks-77a193de/thumbnail.jpg"
+}

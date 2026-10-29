@@ -1,0 +1,62 @@
+{
+ "id": "b054773d-2d14-4a35-b366-81b4ac00f171",
+ "slug": "expo-b054773d",
+ "name": "Expo",
+ "site_url": "https://expo.dev",
+ "lastmod": "2026-06-03T21:03:20.621Z",
+ "extracted_at": "2026-06-03T21:03:20.614Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "precision notebook in graphite and signal blue — every control a rounded chip, every screen a quiet page of ink and paper until blue says \"look here.\"",
+ "fonts": [
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#1c2024",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Canvas White"
+  },
+  {
+   "hex": "#60646c",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#80838d",
+   "name": "Steel"
+  },
+  {
+   "hex": "#d9d9e0",
+   "name": "Mist"
+  },
+  {
+   "hex": "#f0f0f3",
+   "name": "Fog"
+  },
+  {
+   "hex": "#0090ff",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#0072de",
+   "name": "Deep Signal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/1c488f4c-b3ec-46ba-ad13-ff938c179708.mp4",
+  "poster": "https://happyhands.cc/design-archive/expo-b054773d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/expo-b054773d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/expo-b054773d/thumbnail.jpg"
+}

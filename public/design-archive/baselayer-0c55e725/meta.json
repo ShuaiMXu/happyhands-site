@@ -1,0 +1,76 @@
+{
+ "id": "0c55e725-e933-41b6-9fb7-2505a6659ee5",
+ "slug": "baselayer-0c55e725",
+ "name": "Baselayer",
+ "site_url": "https://baselayer.com",
+ "lastmod": "2026-09-20T20:29:32.441Z",
+ "extracted_at": "2026-09-20T19:28:44.819Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "Baselayer — electric ledger in midnight. Treat the interface as an institutional document opened onto a luminous risk-analysis console.",
+ "fonts": [
+  "Season VF",
+  "Uncut Sans",
+  "Modern Era Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#09234f",
+   "name": "Ledger Navy"
+  },
+  {
+   "hex": "#384ce3",
+   "name": "Registry Blue"
+  },
+  {
+   "hex": "#1888a2",
+   "name": "Network Teal"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#121012",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#eff5f0",
+   "name": "Mint Paper"
+  },
+  {
+   "hex": "#c4f0ff",
+   "name": "Sky Paper"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Rule Gray"
+  },
+  {
+   "hex": "#ced3dc",
+   "name": "Steel Rule"
+  },
+  {
+   "hex": "#595959",
+   "name": "Quiet Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/14fabaab-8a64-47da-8293-4b1ae359d4a2.mp4",
+  "poster": "https://happyhands.cc/design-archive/baselayer-0c55e725/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/baselayer-0c55e725/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/baselayer-0c55e725/thumbnail.jpg"
+}

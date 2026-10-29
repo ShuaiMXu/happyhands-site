@@ -1,0 +1,79 @@
+{
+ "id": "a5c06875-c374-4af3-923b-6e66a5d58493",
+ "slug": "basis-theory-a5c06875",
+ "name": "Basis Theory",
+ "site_url": "https://basistheory.com",
+ "lastmod": "2026-09-20T21:04:32.911Z",
+ "extracted_at": "2026-09-20T19:28:17.333Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "payment rails in a drafting studio. White technical paper, stacked translucent transaction layers, and one switched-on aqua control define the visual direction.",
+ "fonts": [
+  "sans-serif",
+  "Neo Grotesk Medium",
+  "Neo Grotesk Bold",
+  "Inter",
+  "Chivo Mono",
+  "Kode Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#18181b",
+   "name": "Ink"
+  },
+  {
+   "hex": "#27272a",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#f4f4f5",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#d4d4d8",
+   "name": "Steel"
+  },
+  {
+   "hex": "#71717a",
+   "name": "Slate"
+  },
+  {
+   "hex": "#3f3f46",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#94faf0",
+   "name": "Aqua Relay"
+  },
+  {
+   "hex": "#d4f796",
+   "name": "Lime Notice"
+  },
+  {
+   "hex": "#bff660",
+   "name": "Volt Lime"
+  },
+  {
+   "hex": "#07cddf",
+   "name": "Signal Sweep"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/dec0f4ba-c097-45b1-a9f3-e7dc12f9cdbb.mp4",
+  "poster": "https://happyhands.cc/design-archive/basis-theory-a5c06875/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/basis-theory-a5c06875/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/basis-theory-a5c06875/thumbnail.jpg"
+}

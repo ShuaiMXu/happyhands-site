@@ -1,0 +1,69 @@
+{
+ "id": "7d10f1d6-f2a8-43ce-b055-6ddd74e3c7e1",
+ "slug": "blok-7d10f1d6",
+ "name": "Blok",
+ "site_url": "https://blokwatches.com",
+ "lastmod": "2026-06-03T21:14:21.431Z",
+ "extracted_at": "2026-06-03T21:14:21.425Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "ecommerce",
+ "north_star": "Swiss showroom on teal-tinted paper",
+ "fonts": [
+  "Poppins",
+  "Jost",
+  "Cabin",
+  "GTStandard-M"
+ ],
+ "colors": [
+  {
+   "hex": "#0a0d0f",
+   "name": "Carbon Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#2e3438",
+   "name": "Slate Veil"
+  },
+  {
+   "hex": "#000000",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#f7f7f7",
+   "name": "Bone"
+  },
+  {
+   "hex": "#efefef",
+   "name": "Footer Ash"
+  },
+  {
+   "hex": "#d5d6d7",
+   "name": "Silver Mist"
+  },
+  {
+   "hex": "#656565",
+   "name": "Graphite Tag"
+  },
+  {
+   "hex": "#1dd8e1",
+   "name": "Signal Teal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b62bdfe1-314a-4ecd-91ce-36db93b078b1.mp4",
+  "poster": "https://happyhands.cc/design-archive/blok-7d10f1d6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/blok-7d10f1d6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/blok-7d10f1d6/thumbnail.jpg"
+}

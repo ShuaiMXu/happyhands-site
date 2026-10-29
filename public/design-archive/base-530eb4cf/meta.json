@@ -1,0 +1,70 @@
+{
+ "id": "530eb4cf-7e75-4833-95c9-746818050db7",
+ "slug": "base-530eb4cf",
+ "name": "Base",
+ "site_url": "https://www.base.org",
+ "lastmod": "2026-06-05T04:40:35.425Z",
+ "extracted_at": "2026-06-03T18:26:44.810Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "crypto",
+ "north_star": "Blueprint globe, blue pulse.",
+ "fonts": [
+  "Doto",
+  "Coinbase Sans",
+  "Coinbase Display",
+  "Coinbase Mono",
+  "Base Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#0000ff",
+   "name": "Electric Blue"
+  },
+  {
+   "hex": "#098551",
+   "name": "Wireframe Green"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Ash"
+  },
+  {
+   "hex": "#323232",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#717886",
+   "name": "Slate"
+  },
+  {
+   "hex": "#999999",
+   "name": "Fog"
+  },
+  {
+   "hex": "#b1b7c3",
+   "name": "Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f31c7d5a-7763-4d8a-aa13-32b9150e1ffe.mp4",
+  "poster": "https://happyhands.cc/design-archive/base-530eb4cf/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/base-530eb4cf/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/base-530eb4cf/thumbnail.jpg"
+}

@@ -1,0 +1,63 @@
+{
+ "id": "84a0fc5e-3610-4c10-a922-7848daa68b92",
+ "slug": "bee-84a0fc5e",
+ "name": "Bee",
+ "site_url": "https://www.bee.computer",
+ "lastmod": "2026-09-20T20:33:03.798Z",
+ "extracted_at": "2026-09-20T19:29:54.519Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Sunlit honey-yellow talisman. Build each screen as a tactile editorial spread: intimate wrist-worn product imagery contained in generously rounded frames beside bold, near-black type on yellow or pale neutral fields.",
+ "fonts": [
+  "Fff Acidgrotesk",
+  "Inter Variable"
+ ],
+ "colors": [
+  {
+   "hex": "#21200b",
+   "name": "Bee Ink"
+  },
+  {
+   "hex": "#ffd900",
+   "name": "Pioneer Yellow"
+  },
+  {
+   "hex": "#d2c4ff",
+   "name": "Lavender Memory"
+  },
+  {
+   "hex": "#e5e0dd",
+   "name": "Putty"
+  },
+  {
+   "hex": "#f7f3f1",
+   "name": "Paper"
+  },
+  {
+   "hex": "#000000",
+   "name": "True Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#150a45",
+   "name": "Recruiter Indigo"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/626e54a8-8be4-4a22-929e-3a04c26f24bc.mp4",
+  "poster": "https://happyhands.cc/design-archive/bee-84a0fc5e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/bee-84a0fc5e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/bee-84a0fc5e/thumbnail.jpg"
+}

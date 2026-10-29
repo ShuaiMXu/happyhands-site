@@ -1,0 +1,71 @@
+{
+ "id": "ac53627e-5738-4121-8f5d-05e4d8475a5b",
+ "slug": "bose-ac53627e",
+ "name": "Bose",
+ "site_url": "https://www.bose.com/home",
+ "lastmod": "2026-09-24T17:46:50.155Z",
+ "extracted_at": "2026-09-24T17:31:26.443Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "Coastal soundstage. A wind-swept campaign image fills the frame while sharp black-and-white commerce controls sit like precision hardware around it.",
+ "fonts": [
+  "Bose Headline",
+  "Bose Text"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Soprano White"
+  },
+  {
+   "hex": "#f8f8f8",
+   "name": "Studio Mist"
+  },
+  {
+   "hex": "#f1efee",
+   "name": "Warm Porcelain"
+  },
+  {
+   "hex": "#131317",
+   "name": "Bass Black"
+  },
+  {
+   "hex": "#b4bec7",
+   "name": "Countertenor Gray"
+  },
+  {
+   "hex": "#949494",
+   "name": "Steel Gray"
+  },
+  {
+   "hex": "#40464b",
+   "name": "Charcoal Helper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#545454",
+   "name": "Quiet Placeholder"
+  },
+  {
+   "hex": "#005bff",
+   "name": "Chord Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/40e05f13-1803-4437-a3b3-99d4efa6b45c.mp4",
+  "poster": "https://happyhands.cc/design-archive/bose-ac53627e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/bose-ac53627e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/bose-ac53627e/thumbnail.jpg"
+}

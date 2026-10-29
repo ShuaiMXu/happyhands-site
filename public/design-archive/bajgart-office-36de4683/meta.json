@@ -1,0 +1,55 @@
+{
+ "id": "36de4683-cce3-4a01-820b-65ef8815747b",
+ "slug": "bajgart-office-36de4683",
+ "name": "Bajgart Office",
+ "site_url": "https://bajgartoffice.com",
+ "lastmod": "2026-09-20T21:49:15.963Z",
+ "extracted_at": "2026-09-20T19:27:08.127Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Editorial gallery wall. Use a vast white field where whisper-weight serif statements and raw portfolio crops carry more visual mass than interface chrome.",
+ "fonts": [
+  "sans-serif",
+  "Rhymes Text Light",
+  "Rhymes Text Light Italic",
+  "Saans Regular",
+  "Saans Medium",
+  "Satoshi"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Gallery White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#f6f6f6",
+   "name": "Paper Gray"
+  },
+  {
+   "hex": "#878787",
+   "name": "Quiet Gray"
+  },
+  {
+   "hex": "#189e48",
+   "name": "Availability Green"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/21ff6741-9685-42a4-9ae8-36cc0677545f.mp4",
+  "poster": "https://happyhands.cc/design-archive/bajgart-office-36de4683/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/bajgart-office-36de4683/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/bajgart-office-36de4683/thumbnail.jpg"
+}

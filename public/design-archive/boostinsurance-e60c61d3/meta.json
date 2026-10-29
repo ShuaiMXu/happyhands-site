@@ -1,0 +1,87 @@
+{
+ "id": "e60c61d3-2657-429e-a581-568aea27a448",
+ "slug": "boostinsurance-e60c61d3",
+ "name": "Boostinsurance",
+ "site_url": "https://boostinsurance.com",
+ "lastmod": "2026-06-03T21:33:18.277Z",
+ "extracted_at": "2026-06-03T21:33:18.271Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "fintech",
+ "north_star": "Abyssal mission control",
+ "fonts": [
+  "Gellix",
+  "Times"
+ ],
+ "colors": [
+  {
+   "hex": "#002025",
+   "name": "Abyss Teal"
+  },
+  {
+   "hex": "#244348",
+   "name": "Slate Reef"
+  },
+  {
+   "hex": "#455c60",
+   "name": "Tidewater"
+  },
+  {
+   "hex": "#54696c",
+   "name": "Lichen"
+  },
+  {
+   "hex": "#05333a",
+   "name": "Deep Kelp"
+  },
+  {
+   "hex": "#7d8f92",
+   "name": "Storm Glass"
+  },
+  {
+   "hex": "#9eaeb0",
+   "name": "Sea Mist"
+  },
+  {
+   "hex": "#b7c6c9",
+   "name": "Pale Foam"
+  },
+  {
+   "hex": "#fffffa",
+   "name": "Bone"
+  },
+  {
+   "hex": "#79fa4b",
+   "name": "Lime Voltage"
+  },
+  {
+   "hex": "#a4ed8a",
+   "name": "Pale Lime"
+  },
+  {
+   "hex": "#0b3222",
+   "name": "Voltage Dark"
+  },
+  {
+   "hex": "#30d7f1",
+   "name": "Cyan Pulse"
+  },
+  {
+   "hex": "#fce344",
+   "name": "Solar Yellow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/807c94c0-825c-4898-a05f-27c0bcc4437b.mp4",
+  "poster": "https://happyhands.cc/design-archive/boostinsurance-e60c61d3/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/boostinsurance-e60c61d3/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/boostinsurance-e60c61d3/thumbnail.jpg"
+}

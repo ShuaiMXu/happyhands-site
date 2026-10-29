@@ -1,0 +1,58 @@
+{
+ "id": "c73ba3d8-42fe-4d53-bec1-b6643949c582",
+ "slug": "beau-c73ba3d8",
+ "name": "Beau",
+ "site_url": "https://beau.to",
+ "lastmod": "2026-06-05T12:42:13.381Z",
+ "extracted_at": "2026-06-03T21:59:55.809Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Ink on warm parchment — confident monochromatic editorial with a single theatrical gradient spotlight.",
+ "fonts": [
+  "Geist"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f6f4f1",
+   "name": "Warm Parchment"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#666666",
+   "name": "Soft Graphite"
+  },
+  {
+   "hex": "#999999",
+   "name": "Mid Ash"
+  },
+  {
+   "hex": "#b3b3b3",
+   "name": "Pale Mist"
+  },
+  {
+   "hex": "#ff8308",
+   "name": "Broadcast Gradient"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/1883d52b-514f-4a2d-8744-bd953c588e0b.mp4",
+  "poster": "https://happyhands.cc/design-archive/beau-c73ba3d8/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/beau-c73ba3d8/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/beau-c73ba3d8/thumbnail.jpg"
+}

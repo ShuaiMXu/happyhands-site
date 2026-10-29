@@ -1,0 +1,68 @@
+{
+ "id": "711a2c41-a5f4-49d5-930b-f0abaad6933d",
+ "slug": "bolt-711a2c41",
+ "name": "Bolt",
+ "site_url": "https://www.bolt.com",
+ "lastmod": "2026-06-03T20:04:25.931Z",
+ "extracted_at": "2026-06-03T20:04:25.925Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "fintech",
+ "north_star": "Electric lavender at dawn. A hushed lilac canvas wakes up to a single jolt of vivid blue — the rest of the world stays cool gray, letting the brand mark and its lightning typography do the talking.",
+ "fonts": [
+  "agrandir-bolt",
+  "Inter",
+  "Google Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#f8f6fe",
+   "name": "Lilac Mist"
+  },
+  {
+   "hex": "#04091a",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#111426",
+   "name": "Deep Navy"
+  },
+  {
+   "hex": "#454a66",
+   "name": "Slate"
+  },
+  {
+   "hex": "#8e92af",
+   "name": "Fog"
+  },
+  {
+   "hex": "#d3d7ed",
+   "name": "Periwinkle"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#006cff",
+   "name": "Bolt Blue"
+  },
+  {
+   "hex": "#262a42",
+   "name": "Steel Border"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/358496ca-25e7-49cb-a714-bf93228d5692.mp4",
+  "poster": "https://happyhands.cc/design-archive/bolt-711a2c41/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/bolt-711a2c41/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/bolt-711a2c41/thumbnail.jpg"
+}

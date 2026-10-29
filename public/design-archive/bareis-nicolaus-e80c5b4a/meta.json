@@ -1,0 +1,44 @@
+{
+ "id": "e80c5b4a-fd03-460e-a577-49928a4ab5db",
+ "slug": "bareis-nicolaus-e80c5b4a",
+ "name": "Bareis + Nicolaus",
+ "site_url": "https://www.bareis-nicolaus.com",
+ "lastmod": "2026-06-05T06:09:36.960Z",
+ "extracted_at": "2026-06-03T18:58:13.400Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "White chalk on black slate. A typographic control panel and a full-bleed visual index share one strict monochrome stage, with pill-shaped outlines as the only punctuation.",
+ "fonts": [
+  "Lausanne",
+  "Victor Serif",
+  "Black Tie"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone"
+  },
+  {
+   "hex": "#a9a9a9",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ee5d583d-706a-47a6-a910-726fa36c26bb.mp4",
+  "poster": "https://happyhands.cc/design-archive/bareis-nicolaus-e80c5b4a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/bareis-nicolaus-e80c5b4a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/bareis-nicolaus-e80c5b4a/thumbnail.jpg"
+}

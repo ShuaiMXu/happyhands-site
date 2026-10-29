@@ -1,0 +1,90 @@
+{
+ "id": "729ba7a8-35d5-44f3-abc0-1078ff6a3467",
+ "slug": "todoist-729ba7a8",
+ "name": "Todoist",
+ "site_url": "https://todoist.com",
+ "lastmod": "2026-06-03T16:45:48.414Z",
+ "extracted_at": "2026-06-03T16:45:48.410Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Sunlit workspace with a paper planner — warm off-white desk, ink notes, one red pen",
+ "fonts": [
+  "Graphik",
+  "Inter",
+  "Caecilia",
+  "Shantell Sans",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#e34432",
+   "name": "Ember Red"
+  },
+  {
+   "hex": "#cf3520",
+   "name": "Deep Ember"
+  },
+  {
+   "hex": "#0f66ae",
+   "name": "Cobalt Link"
+  },
+  {
+   "hex": "#25221e",
+   "name": "Ink"
+  },
+  {
+   "hex": "#fefdfc",
+   "name": "Paper"
+  },
+  {
+   "hex": "#fff6f0",
+   "name": "Cream"
+  },
+  {
+   "hex": "#d7d6d4",
+   "name": "Stone"
+  },
+  {
+   "hex": "#6f6c69",
+   "name": "Pencil"
+  },
+  {
+   "hex": "#94928f",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#4a4744",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#497d7e",
+   "name": "Teal Dusk"
+  },
+  {
+   "hex": "#f0f6df",
+   "name": "Mint Wash"
+  },
+  {
+   "hex": "#dceaff",
+   "name": "Sky Wash"
+  },
+  {
+   "hex": "#446c3d",
+   "name": "Forest"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/2f30775f-dfdb-4214-8fda-f677141984b8.mp4",
+  "poster": "https://happyhands.cc/design-archive/todoist-729ba7a8/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/todoist-729ba7a8/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/todoist-729ba7a8/thumbnail.jpg"
+}

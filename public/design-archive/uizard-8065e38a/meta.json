@@ -1,0 +1,79 @@
+{
+ "id": "8065e38a-cdb7-4645-b168-98e6f80e7118",
+ "slug": "uizard-8065e38a",
+ "name": "Uizard",
+ "site_url": "https://uizard.io",
+ "lastmod": "2026-06-03T18:13:38.978Z",
+ "extracted_at": "2026-06-03T18:13:38.973Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "design",
+ "north_star": "violet aurora over obsidian — a single charged accent glowing against an ink-dark product canvas",
+ "fonts": [
+  "Satoshi-Variable",
+  "ClashGrotesk-Variable"
+ ],
+ "colors": [
+  {
+   "hex": "#a881fe",
+   "name": "Violet Glow"
+  },
+  {
+   "hex": "#6419ff",
+   "name": "Deep Iris"
+  },
+  {
+   "hex": "#ccb2ff",
+   "name": "Soft Lilac"
+  },
+  {
+   "hex": "#1e90ff",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#0b0b0b",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#2e2e2e",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#212121",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#525252",
+   "name": "Slate"
+  },
+  {
+   "hex": "#f5f5f5",
+   "name": "Frost"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#aeaeae",
+   "name": "Pewter"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5706a380-5b23-4144-bcad-9a3a9d466e91.mp4",
+  "poster": "https://happyhands.cc/design-archive/uizard-8065e38a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/uizard-8065e38a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/uizard-8065e38a/thumbnail.jpg"
+}

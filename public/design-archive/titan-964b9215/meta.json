@@ -1,0 +1,67 @@
+{
+ "id": "964b9215-396b-492c-abec-7bd778d7b1c9",
+ "slug": "titan-964b9215",
+ "name": "Titan",
+ "site_url": "https://www.titan.com",
+ "lastmod": "2026-07-03T10:48:26.652Z",
+ "extracted_at": "2026-07-03T03:22:10.162Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "warm-toned monochrome archive",
+ "fonts": [
+  "Geist",
+  "Geist Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#111111",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#e9eaeb",
+   "name": "Mist Border"
+  },
+  {
+   "hex": "#f3efeb",
+   "name": "Cream Surface"
+  },
+  {
+   "hex": "#d8d3cc",
+   "name": "Tan Divider"
+  },
+  {
+   "hex": "#615e5b",
+   "name": "Warm Subtle"
+  },
+  {
+   "hex": "#888888",
+   "name": "Mid Gray"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#1e1e1d",
+   "name": "Obsidian"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/dbbb4107-172d-4aac-985f-eebf17b37cb2.mp4",
+  "poster": "https://happyhands.cc/design-archive/titan-964b9215/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/titan-964b9215/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/titan-964b9215/thumbnail.jpg"
+}

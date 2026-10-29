@@ -1,0 +1,64 @@
+{
+ "id": "6da76890-6e04-452a-834d-ff019e232c2b",
+ "slug": "touchy-coffee-6da76890",
+ "name": "Touchy Coffee",
+ "site_url": "https://touchycoffee.com",
+ "lastmod": "2026-06-03T19:59:16.917Z",
+ "extracted_at": "2026-06-03T19:59:16.914Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "ecommerce",
+ "north_star": "Hand-painted coffee zine — earthy paint bands, typewriter labels, and extreme pill buttons on warm matte surfaces.",
+ "fonts": [
+  "Apercu Mono",
+  "Touchy Script (custom)",
+  "Apercu Mono Bold"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#788c8c",
+   "name": "Sage"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Cream"
+  },
+  {
+   "hex": "#9f4920",
+   "name": "Terracotta"
+  },
+  {
+   "hex": "#a697c6",
+   "name": "Lavender"
+  },
+  {
+   "hex": "#5b9133",
+   "name": "Moss"
+  },
+  {
+   "hex": "#fff78f",
+   "name": "Sunshine"
+  },
+  {
+   "hex": "#d0eaf4",
+   "name": "Sky"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/37012ca8-64c8-48ea-b9a7-351f57e2c481.mp4",
+  "poster": "https://happyhands.cc/design-archive/touchy-coffee-6da76890/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/touchy-coffee-6da76890/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/touchy-coffee-6da76890/thumbnail.jpg"
+}

@@ -1,0 +1,60 @@
+{
+ "id": "ae175f23-1ec7-47ea-9380-7bff7041028b",
+ "slug": "timescale-ae175f23",
+ "name": "Timescale",
+ "site_url": "https://www.timescale.com",
+ "lastmod": "2026-06-03T20:26:39.607Z",
+ "extracted_at": "2026-06-03T20:26:39.604Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "Engineering blueprint on warm graph paper",
+ "fonts": [
+  "Geist",
+  "Geist Mono",
+  "ui-sans-serif (system fallback)"
+ ],
+ "colors": [
+  {
+   "hex": "#ff5b29",
+   "name": "Signal Orange"
+  },
+  {
+   "hex": "#f5ff80",
+   "name": "Chartreuse Highlight"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon Black"
+  },
+  {
+   "hex": "#fafafa",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#242424",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#6c6c6c",
+   "name": "Steel"
+  },
+  {
+   "hex": "#b3b3b3",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/80488c5f-9c82-4ffa-9553-cb0a6bad5609.mp4",
+  "poster": "https://happyhands.cc/design-archive/timescale-ae175f23/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/timescale-ae175f23/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/timescale-ae175f23/thumbnail.jpg"
+}

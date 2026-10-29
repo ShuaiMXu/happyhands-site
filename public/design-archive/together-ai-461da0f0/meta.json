@@ -1,0 +1,71 @@
+{
+ "id": "461da0f0-fde6-46bc-8137-7eca006260a8",
+ "slug": "together-ai-461da0f0",
+ "name": "Together AI",
+ "site_url": "https://together.ai",
+ "lastmod": "2026-06-05T01:01:26.990Z",
+ "extracted_at": "2026-06-03T16:03:15.890Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "ai",
+ "north_star": "Research console on glacier paper",
+ "fonts": [
+  "The Future",
+  "PP Neue Montreal Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#4d4d4d",
+   "name": "Slate"
+  },
+  {
+   "hex": "#d6d6d6",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#010120",
+   "name": "Midnight Ink"
+  },
+  {
+   "hex": "#bdbbff",
+   "name": "Periwinkle"
+  },
+  {
+   "hex": "#c8f6f9",
+   "name": "Mint Cyan"
+  },
+  {
+   "hex": "#c1dff9",
+   "name": "Sky"
+  },
+  {
+   "hex": "#fde3f6",
+   "name": "Blush"
+  },
+  {
+   "hex": "#ffdccd",
+   "name": "Peach"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f5997731-52c0-4d8f-b7ae-8903481400f7.mp4",
+  "poster": "https://happyhands.cc/design-archive/together-ai-461da0f0/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/together-ai-461da0f0/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/together-ai-461da0f0/thumbnail.jpg"
+}

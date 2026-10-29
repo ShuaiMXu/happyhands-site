@@ -1,0 +1,82 @@
+{
+ "id": "5a7ec81f-03b6-4d21-a706-0d1d323d8899",
+ "slug": "turso-5a7ec81f",
+ "name": "Turso",
+ "site_url": "https://turso.tech",
+ "lastmod": "2026-06-05T05:30:49.362Z",
+ "extracted_at": "2026-06-03T18:46:29.525Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "Terminal glow in a server closet — the mint LED on a rack of dark steel.",
+ "fonts": [
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#0d1318",
+   "name": "Deep Space"
+  },
+  {
+   "hex": "#121b1f",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#162129",
+   "name": "Carbon Teal"
+  },
+  {
+   "hex": "#283945",
+   "name": "Slate Drift"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#c5cace",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#b6b8ba",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#86898c",
+   "name": "Smoke Gray"
+  },
+  {
+   "hex": "#9ea1a3",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#4ff7d1",
+   "name": "Mint Signal"
+  },
+  {
+   "hex": "#0e342d",
+   "name": "Deep Teal"
+  },
+  {
+   "hex": "#d946ef",
+   "name": "Electric Magenta"
+  },
+  {
+   "hex": "#a21caf",
+   "name": "Plum Edge"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/7b443cea-8d49-4a71-8e5e-b8f538fa9191.mp4",
+  "poster": "https://happyhands.cc/design-archive/turso-5a7ec81f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/turso-5a7ec81f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/turso-5a7ec81f/thumbnail.jpg"
+}

@@ -1,0 +1,93 @@
+{
+ "id": "813be405-c2b9-41be-9864-7b53d66483dc",
+ "slug": "toggl-track-813be405",
+ "name": "Toggl Track",
+ "site_url": "https://toggl.com",
+ "lastmod": "2026-06-05T09:29:31.713Z",
+ "extracted_at": "2026-06-03T20:34:31.164Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "productivity",
+ "north_star": "Plum theater marquee — a deep aubergine stage where a single magenta spotlight word illuminates each headline.",
+ "fonts": [
+  "Inter",
+  "GT Haptik",
+  "GT Haptik Rotalic",
+  "GT Haptik Medium Rotalic"
+ ],
+ "colors": [
+  {
+   "hex": "#2c1338",
+   "name": "Plum"
+  },
+  {
+   "hex": "#412a4c",
+   "name": "Heather"
+  },
+  {
+   "hex": "#e57cd8",
+   "name": "Magenta"
+  },
+  {
+   "hex": "#564260",
+   "name": "Lavender Smoke"
+  },
+  {
+   "hex": "#6b5a74",
+   "name": "Dusty Mauve"
+  },
+  {
+   "hex": "#817187",
+   "name": "Stone Violet"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#fefbfa",
+   "name": "Bone"
+  },
+  {
+   "hex": "#d5d0d7",
+   "name": "Silver"
+  },
+  {
+   "hex": "#c0b8c3",
+   "name": "Fog"
+  },
+  {
+   "hex": "#fdeae2",
+   "name": "Blush"
+  },
+  {
+   "hex": "#fcf1f8",
+   "name": "Petal"
+  },
+  {
+   "hex": "#fae5f7",
+   "name": "Orchid Mist"
+  },
+  {
+   "hex": "#f7d8f3",
+   "name": "Bubblegum Wash"
+  },
+  {
+   "hex": "#ffde91",
+   "name": "Amber"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/164b57d0-4a71-40d2-85ad-e117bc800331.mp4",
+  "poster": "https://happyhands.cc/design-archive/toggl-track-813be405/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/toggl-track-813be405/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/toggl-track-813be405/thumbnail.jpg"
+}

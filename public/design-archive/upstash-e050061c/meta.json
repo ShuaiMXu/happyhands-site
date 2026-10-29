@@ -1,0 +1,96 @@
+{
+ "id": "e050061c-346d-44cc-92ba-6b22beb4a91f",
+ "slug": "upstash-e050061c",
+ "name": "Upstash",
+ "site_url": "https://upstash.com",
+ "lastmod": "2026-06-03T16:36:46.389Z",
+ "extracted_at": "2026-06-03T16:36:46.382Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "Emerald terminals in a sunlit workshop — bright white surfaces with one deep green accent that makes every action feel switched on.",
+ "fonts": [
+  "Inter",
+  "Inter Tight",
+  "ui-monospace"
+ ],
+ "colors": [
+  {
+   "hex": "#022c22",
+   "name": "Forest Ink"
+  },
+  {
+   "hex": "#00bc7d",
+   "name": "Emerald Pulse"
+  },
+  {
+   "hex": "#007a55",
+   "name": "Pine"
+  },
+  {
+   "hex": "#34d399",
+   "name": "Mint Glow"
+  },
+  {
+   "hex": "#10b981",
+   "name": "Jade Wash"
+  },
+  {
+   "hex": "#6ee7b7",
+   "name": "Spearmint"
+  },
+  {
+   "hex": "#dc2626",
+   "name": "Signal Red"
+  },
+  {
+   "hex": "#e9d5ff",
+   "name": "Lilac Whisper"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Snow"
+  },
+  {
+   "hex": "#f5f5f5",
+   "name": "Paper"
+  },
+  {
+   "hex": "#c9dbd6",
+   "name": "Pale Sage"
+  },
+  {
+   "hex": "#d2f2e7",
+   "name": "Mint Mist"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#71717a",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#3d3d3f",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/cb207ed9-fd0e-4e92-b5c8-2434697da023.mp4",
+  "poster": "https://happyhands.cc/design-archive/upstash-e050061c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/upstash-e050061c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/upstash-e050061c/thumbnail.jpg"
+}

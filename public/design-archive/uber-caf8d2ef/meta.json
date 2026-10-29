@@ -1,0 +1,68 @@
+{
+ "id": "caf8d2ef-4173-4431-9d26-05be0272e9f8",
+ "slug": "uber-caf8d2ef",
+ "name": "Uber",
+ "site_url": "https://uber.com",
+ "lastmod": "2026-06-03T16:14:29.451Z",
+ "extracted_at": "2026-06-03T16:14:29.443Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Black-and-white transit kiosk. Picture a monochrome wayfinding panel where the only color comes from editorial illustrations mounted beside the input form.",
+ "fonts": [
+  "sans-serif",
+  "UberMove",
+  "UberMoveText"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Jet Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f6f6f6",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#333333",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#767676",
+   "name": "Iron Gray"
+  },
+  {
+   "hex": "#afafaf",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#5e5e5e",
+   "name": "Slate"
+  },
+  {
+   "hex": "#4b4b4b",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#9dcdd6",
+   "name": "Faded Teal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c9303ec3-6de0-4d55-8701-8d4705a55005.mp4",
+  "poster": "https://happyhands.cc/design-archive/uber-caf8d2ef/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/uber-caf8d2ef/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/uber-caf8d2ef/thumbnail.jpg"
+}

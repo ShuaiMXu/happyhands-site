@@ -1,0 +1,80 @@
+{
+ "id": "6bd8007f-01bc-46cc-8599-b396a39c1474",
+ "slug": "unicorn-studio-6bd8007f",
+ "name": "Unicorn Studio",
+ "site_url": "https://www.unicorn.studio",
+ "lastmod": "2026-06-03T20:12:22.807Z",
+ "extracted_at": "2026-06-03T20:12:22.803Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "design",
+ "north_star": "aurora behind smoked glass — a black velvet void pierced by prismatic violet light, with type that breathes quietly beside it",
+ "fonts": [
+  "Overused Grotesk",
+  "Sprat",
+  "-apple-system"
+ ],
+ "colors": [
+  {
+   "hex": "#08080a",
+   "name": "Void"
+  },
+  {
+   "hex": "#0d0d12",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#17171c",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#25252d",
+   "name": "Slate"
+  },
+  {
+   "hex": "#31313a",
+   "name": "Iron"
+  },
+  {
+   "hex": "#62626f",
+   "name": "Ash"
+  },
+  {
+   "hex": "#8b8e9c",
+   "name": "Fog"
+  },
+  {
+   "hex": "#aeaac0",
+   "name": "Pearl"
+  },
+  {
+   "hex": "#dad7de",
+   "name": "Chalk"
+  },
+  {
+   "hex": "#ab8ff1",
+   "name": "Lavender Beam"
+  },
+  {
+   "hex": "#8960f0",
+   "name": "Iris Glow"
+  },
+  {
+   "hex": "#8e6ce4",
+   "name": "WebGL Aurora"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/5706a380-5b23-4144-bcad-9a3a9d466e91.mp4",
+  "poster": "https://happyhands.cc/design-archive/unicorn-studio-6bd8007f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/unicorn-studio-6bd8007f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/unicorn-studio-6bd8007f/thumbnail.jpg"
+}

@@ -1,0 +1,60 @@
+{
+ "id": "c46ecd77-9c92-4a85-9162-c6d4afd99d95",
+ "slug": "typewolf-c46ecd77",
+ "name": "Typewolf",
+ "site_url": "https://typewolf.com",
+ "lastmod": "2026-06-05T07:19:18.461Z",
+ "extracted_at": "2026-06-03T19:24:34.052Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "design",
+ "north_star": "Warm parchment typography atelier. Every element is a brownish-ink stamp on dusty rose paper, with no color allowed to compete with the type.",
+ "fonts": [
+  "DomaineText",
+  "Dia",
+  "DomaineDisplayNarrow"
+ ],
+ "colors": [
+  {
+   "hex": "#f8f5f5",
+   "name": "Parchment Rose"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Specimen White"
+  },
+  {
+   "hex": "#443235",
+   "name": "Ink Brown"
+  },
+  {
+   "hex": "#654a4e",
+   "name": "Walnut"
+  },
+  {
+   "hex": "#2e2c2c",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#cfc6c7",
+   "name": "Hairline Ash"
+  },
+  {
+   "hex": "#916a70",
+   "name": "Dusty Rose"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c6a6b54a-cc85-4d6e-b0e4-a889c6d1687f.mp4",
+  "poster": "https://happyhands.cc/design-archive/typewolf-c46ecd77/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/typewolf-c46ecd77/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/typewolf-c46ecd77/thumbnail.jpg"
+}

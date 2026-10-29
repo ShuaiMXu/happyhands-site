@@ -1,0 +1,58 @@
+{
+ "id": "14f6777e-1f6e-4b33-a7ed-d89c33f35722",
+ "slug": "acme-cups-new-zealand-14f6777e",
+ "name": "Acme Cups New Zealand",
+ "site_url": "https://acmecups.nz",
+ "lastmod": "2026-06-03T19:30:05.266Z",
+ "extracted_at": "2026-06-03T19:30:05.260Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "editorial ceramics gallery. A stark white-walled room with a single massive black headline and quiet gray dividers, where handmade cups in terracotta, forest, and teal are the only vivid things visible.",
+ "fonts": [
+  "Helvetica Neue"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#fefefe",
+   "name": "Gallery White"
+  },
+  {
+   "hex": "#e3e2e2",
+   "name": "Concrete Canvas"
+  },
+  {
+   "hex": "#c3c3c3",
+   "name": "Ash Border"
+  },
+  {
+   "hex": "#aeaaaa",
+   "name": "Steel Mute"
+  },
+  {
+   "hex": "#666666",
+   "name": "Pewter Caption"
+  },
+  {
+   "hex": "#9b1b01",
+   "name": "Terracotta Alert"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/bd94e3d2-b03c-4d81-a023-ac1083a7ecfb.mp4",
+  "poster": "https://happyhands.cc/design-archive/acme-cups-new-zealand-14f6777e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/acme-cups-new-zealand-14f6777e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/acme-cups-new-zealand-14f6777e/thumbnail.jpg"
+}

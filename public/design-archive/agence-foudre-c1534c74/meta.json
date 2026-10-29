@@ -1,0 +1,63 @@
+{
+ "id": "c1534c74-f7b8-44de-a913-586d0f78fb08",
+ "slug": "agence-foudre-c1534c74",
+ "name": "Agence Foudre",
+ "site_url": "https://www.agencefoudre.com",
+ "lastmod": "2026-06-03T15:10:07.517Z",
+ "extracted_at": "2026-06-03T15:10:07.512Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Magazine splash page in lipstick pink.",
+ "fonts": [
+  "Beni",
+  "Clash Grotesk"
+ ],
+ "colors": [
+  {
+   "hex": "#db3c8a",
+   "name": "Lipstick Magenta"
+  },
+  {
+   "hex": "#00522d",
+   "name": "Forest Ink"
+  },
+  {
+   "hex": "#fce5df",
+   "name": "Blush Cream"
+  },
+  {
+   "hex": "#fff8f6",
+   "name": "Warm Chalk"
+  },
+  {
+   "hex": "#000000",
+   "name": "Charcoal Black"
+  },
+  {
+   "hex": "#d1cfe4",
+   "name": "Lilac Mist"
+  },
+  {
+   "hex": "#f29ebd",
+   "name": "Bubblegum"
+  },
+  {
+   "hex": "#e878b2",
+   "name": "Cotton Pink"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/97dbdf08-1fe6-479d-a3a7-dd7aedcfbd1d.mp4",
+  "poster": "https://happyhands.cc/design-archive/agence-foudre-c1534c74/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/agence-foudre-c1534c74/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/agence-foudre-c1534c74/thumbnail.jpg"
+}

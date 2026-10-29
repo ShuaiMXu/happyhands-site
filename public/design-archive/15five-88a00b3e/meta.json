@@ -1,0 +1,63 @@
+{
+ "id": "88a00b3e-1c1e-49d3-ae0f-9fbc1f35ad99",
+ "slug": "15five-88a00b3e",
+ "name": "15five",
+ "site_url": "https://www.15five.com",
+ "lastmod": "2026-06-05T06:40:51.908Z",
+ "extracted_at": "2026-06-03T19:15:20.969Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "Sunrise over a clean desk",
+ "fonts": [
+  "DM Serif Display",
+  "Manrope"
+ ],
+ "colors": [
+  {
+   "hex": "#2f115b",
+   "name": "Royal Violet"
+  },
+  {
+   "hex": "#1a0d3f",
+   "name": "Midnight Plum"
+  },
+  {
+   "hex": "#3b1572",
+   "name": "Iris"
+  },
+  {
+   "hex": "#5e5777",
+   "name": "Slate Mute"
+  },
+  {
+   "hex": "#ff4b11",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#fff2e8",
+   "name": "Cream Wash"
+  },
+  {
+   "hex": "#ffdacf",
+   "name": "Peach Blush"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f7ded4bc-b014-4686-8a0a-ddfb3bc0dd44.mp4",
+  "poster": "https://happyhands.cc/design-archive/15five-88a00b3e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/15five-88a00b3e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/15five-88a00b3e/thumbnail.jpg"
+}

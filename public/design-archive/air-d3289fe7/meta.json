@@ -1,0 +1,57 @@
+{
+ "id": "d3289fe7-a85e-42d8-96b7-eb7faa62a104",
+ "slug": "air-d3289fe7",
+ "name": "Air",
+ "site_url": "https://air.inc",
+ "lastmod": "2026-07-03T10:25:53.746Z",
+ "extracted_at": "2026-07-03T03:08:34.002Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "saas",
+ "north_star": "midnight sky through glass sculpture",
+ "fonts": [
+  "Control",
+  "Control Compressed",
+  "Control Cursive",
+  "Control TNT"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Whiteout"
+  },
+  {
+   "hex": "#f5f5f5",
+   "name": "Haze"
+  },
+  {
+   "hex": "#1b1b1b",
+   "name": "Ink"
+  },
+  {
+   "hex": "#000000",
+   "name": "Black Void"
+  },
+  {
+   "hex": "#426188",
+   "name": "Twilight Blue"
+  },
+  {
+   "hex": "#2b7fff",
+   "name": "Signal Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/7c9c3a55-d9c8-4024-87ae-5b61121f6486.mp4",
+  "poster": "https://happyhands.cc/design-archive/air-d3289fe7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/air-d3289fe7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/air-d3289fe7/thumbnail.jpg"
+}

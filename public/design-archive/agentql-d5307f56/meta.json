@@ -1,0 +1,96 @@
+{
+ "id": "d5307f56-76de-4d13-9741-f969c42e9aa5",
+ "slug": "agentql-d5307f56",
+ "name": "AgentQL",
+ "site_url": "https://www.agentql.com",
+ "lastmod": "2026-06-03T15:49:51.641Z",
+ "extracted_at": "2026-06-03T15:49:51.633Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ai",
+ "north_star": "Aurora glow over a midnight terminal",
+ "fonts": [
+  "Inter",
+  "IBM Plex Mono",
+  "Figtree"
+ ],
+ "colors": [
+  {
+   "hex": "#0b0c0e",
+   "name": "Void"
+  },
+  {
+   "hex": "#0e111b",
+   "name": "Abyss"
+  },
+  {
+   "hex": "#0d172b",
+   "name": "Deep Sea"
+  },
+  {
+   "hex": "#12244f",
+   "name": "Cobalt Panel"
+  },
+  {
+   "hex": "#85a6e9",
+   "name": "Frosted Lilac"
+  },
+  {
+   "hex": "#2862d7",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#305fbd",
+   "name": "Pulse Violet"
+  },
+  {
+   "hex": "#625fff",
+   "name": "Aurora Purple"
+  },
+  {
+   "hex": "#ff7dda",
+   "name": "Plasma Pink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Quartz"
+  },
+  {
+   "hex": "#abaebb",
+   "name": "Ash"
+  },
+  {
+   "hex": "#c7c9d1",
+   "name": "Mist"
+  },
+  {
+   "hex": "#3c3f44",
+   "name": "Slate"
+  },
+  {
+   "hex": "#172540",
+   "name": "Obsidian Edge"
+  },
+  {
+   "hex": "#151e32",
+   "name": "Inkline"
+  },
+  {
+   "hex": "#24375a",
+   "name": "Sapphire Hairline"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3b99d502-7912-4b58-9b49-351a6d803752.mp4",
+  "poster": "https://happyhands.cc/design-archive/agentql-d5307f56/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/agentql-d5307f56/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/agentql-d5307f56/thumbnail.jpg"
+}

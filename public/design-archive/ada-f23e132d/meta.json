@@ -1,0 +1,66 @@
+{
+ "id": "f23e132d-3bfb-498d-a2e4-6d069b4dbc59",
+ "slug": "ada-f23e132d",
+ "name": "Ada",
+ "site_url": "https://www.ada.cx",
+ "lastmod": "2026-06-03T18:20:26.169Z",
+ "extracted_at": "2026-06-03T18:20:26.162Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Daylight gallery with pastel punctuation — a quiet off-white room where four jewel-tone colors are allowed to speak, and everything else stays in charcoal.",
+ "fonts": [
+  "Roobert"
+ ],
+ "colors": [
+  {
+   "hex": "#0a0b0c",
+   "name": "Inkstone"
+  },
+  {
+   "hex": "#f9f9f9",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#d8d8d8",
+   "name": "Ash"
+  },
+  {
+   "hex": "#392c38",
+   "name": "Plum Ash"
+  },
+  {
+   "hex": "#00543d",
+   "name": "Forest Depth"
+  },
+  {
+   "hex": "#abcbf9",
+   "name": "Periwinkle"
+  },
+  {
+   "hex": "#ffbbfc",
+   "name": "Candy Pink"
+  },
+  {
+   "hex": "#fce88b",
+   "name": "Butter"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/1aed7298-0131-4e33-9dd9-abc4eb45a492.mp4",
+  "poster": "https://happyhands.cc/design-archive/ada-f23e132d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ada-f23e132d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ada-f23e132d/thumbnail.jpg"
+}

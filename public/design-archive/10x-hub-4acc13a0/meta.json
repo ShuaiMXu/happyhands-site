@@ -1,0 +1,70 @@
+{
+ "id": "4acc13a0-c553-40d7-b78d-a9b6a4e94486",
+ "slug": "10x-hub-4acc13a0",
+ "name": "10X HUB",
+ "site_url": "https://10xdesigners.co",
+ "lastmod": "2026-06-05T03:13:40.016Z",
+ "extracted_at": "2026-06-03T17:36:34.354Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "design",
+ "north_star": "ink and ember poster wall",
+ "fonts": [
+  "Arial",
+  "10X Display (custom — madefor-text variant)",
+  "Helvetica W01 Roman",
+  "wfont_9aea05_daebdda91ced4d119f7837b7bae26e19",
+  "madefor-text"
+ ],
+ "colors": [
+  {
+   "hex": "#ff1841",
+   "name": "Ember Red"
+  },
+  {
+   "hex": "#7b0016",
+   "name": "Bloodline"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#e8e6e6",
+   "name": "Ash"
+  },
+  {
+   "hex": "#949494",
+   "name": "Steel"
+  },
+  {
+   "hex": "#212121",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#bebcbc",
+   "name": "Fog"
+  },
+  {
+   "hex": "#c7c7c7",
+   "name": "Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/cb035fae-af6c-4cf1-a5e2-dc940113002d.mp4",
+  "poster": "https://happyhands.cc/design-archive/10x-hub-4acc13a0/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/10x-hub-4acc13a0/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/10x-hub-4acc13a0/thumbnail.jpg"
+}

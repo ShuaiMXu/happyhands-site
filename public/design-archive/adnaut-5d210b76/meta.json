@@ -1,0 +1,72 @@
+{
+ "id": "5d210b76-702a-45cf-97ed-ed90c47b1eb0",
+ "slug": "adnaut-5d210b76",
+ "name": "Adnaut",
+ "site_url": "https://www.adnaut.digital",
+ "lastmod": "2026-06-03T19:52:14.320Z",
+ "extracted_at": "2026-06-03T19:52:14.316Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "After-hours mission control lit by sodium lamps",
+ "fonts": [
+  "Archivo",
+  "Geist",
+  "Geist Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#ffe900",
+   "name": "Sodium Yellow"
+  },
+  {
+   "hex": "#00ff1a",
+   "name": "Lime Pulse"
+  },
+  {
+   "hex": "#1f1d01",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#282828",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#707070",
+   "name": "Slate"
+  },
+  {
+   "hex": "#d7d7d7",
+   "name": "Frost"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#8d8d8d",
+   "name": "Ash"
+  },
+  {
+   "hex": "#333333",
+   "name": "Charcoal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/33aa80e2-3443-49e4-b85e-5ef212e6d04d.mp4",
+  "poster": "https://happyhands.cc/design-archive/adnaut-5d210b76/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/adnaut-5d210b76/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/adnaut-5d210b76/thumbnail.jpg"
+}

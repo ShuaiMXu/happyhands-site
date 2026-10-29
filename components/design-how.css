@@ -235,3 +235,42 @@
 body:has(.design-how-library) .library-heading {
   display: none;
 }
+.system-style-preview {
+  min-width: 0;
+  border: 0.5px solid var(--hh-line);
+  border-radius: var(--hh-radius-lg);
+  overflow: hidden;
+  background: var(--hh-bg);
+}
+.system-library-full .system-style-preview iframe,
+.system-style-preview iframe {
+  display: block;
+  width: 100%;
+  min-height: 200px;
+  border: 0;
+}
+.design-how-view-tabs {
+  display: flex;
+  gap: 24px;
+  border-bottom: 0.5px solid var(--hh-line);
+  margin-bottom: 24px;
+}
+.design-how-view-tabs button {
+  min-height: 44px;
+  border: 0;
+  border-bottom: 0.5px solid transparent;
+  border-radius: 0;
+  background: transparent;
+  color: var(--hh-ink-muted);
+  font: inherit;
+  cursor: pointer;
+  padding: 8px 0;
+}
+.design-how-view-tabs button[aria-selected="true"] {
+  color: var(--hh-ink);
+  border-bottom-color: var(--hh-ink);
+  font-weight: 600;
+}
+.design-how-document .system-style-preview {
+  margin-bottom: 24px;
+}

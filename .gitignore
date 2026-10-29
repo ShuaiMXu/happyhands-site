@@ -30,3 +30,6 @@ test-results/
 *.key
 *.p12
 *.pfx
+
+# Rebuilt from the pinned, unchanged source archive.
+/systems/preview/generated/

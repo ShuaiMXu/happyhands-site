@@ -5,6 +5,7 @@ import rehypeSlug from "rehype-slug";
 import catalog from "../public/design-how/catalog.json";
 import { Button } from "../packages/ui";
 import "./design-how.css";
+import { SystemStylePreview, previewComponents } from "./SystemStylePreview";
 
 type Document = { path: string; title: string; kind: string };
 export const designHowSystems = catalog.systems;
@@ -62,6 +63,9 @@ export function DesignHowLibrary({
     const path = new URLSearchParams(location.search).get("doc");
     return documents.find((d) => d.path === path)?.path || "index.md";
   };
+  const [view, setView] = useState(() =>
+    new URLSearchParams(location.search).has("doc") ? "documents" : "preview",
+  );
   const [path, setPath] = useState(read),
     [query, setQuery] = useState("");
   const [text, setText] = useState(""),
@@ -78,7 +82,14 @@ export function DesignHowLibrary({
   const file = `/design-how/${reading ? path : `${system}/${path}`}`;
   const title = documents.find((d) => d.path === path)?.title || data.name;
   useEffect(() => {
-    const update = () => setPath(read());
+    const update = () => {
+      setPath(read());
+      setView(
+        new URLSearchParams(location.search).has("doc")
+          ? "documents"
+          : "preview",
+      );
+    };
     addEventListener("popstate", update);
     return () => removeEventListener("popstate", update);
   }, [system]);
@@ -123,6 +134,7 @@ export function DesignHowLibrary({
     url.searchParams.set("doc", next);
     history.pushState(null, "", url.pathname + url.search);
     setPath(next);
+    setView("documents");
     if (innerWidth < 900) setDirectoryOpen(false);
     requestAnimationFrame(() => heading.current?.focus());
   }
@@ -152,166 +164,235 @@ export function DesignHowLibrary({
           </a>
         </div>
       </div>
-      <div className="design-how-layout">
-        <details
-          className="design-how-directory"
-          open={directoryOpen}
-          onToggle={(e) => setDirectoryOpen(e.currentTarget.open)}
-        >
-          <summary>{t("文档目录", "Documents")}</summary>
-          <label className="design-how-search">
-            {t("搜索文档", "Search documents")}
-            <input
-              type="search"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              placeholder={t("名称或组件", "Title or component")}
-            />
-          </label>
-          <nav aria-label={t("设计系统文档", "Design system documents")}>
-            {[
-              ["overview", t("总纲", "Overview")],
-              ["foundation", t("基础规范", "Foundations")],
-              ["component", t("组件", "Components")],
-              ["guides", t("使用指南", "Guides")],
-              ["articles", t("设计系统文章", "Articles")],
-            ].map(([kind, label]) => {
-              const items = filtered.filter((d) => d.kind === kind);
-              return (
-                items.length > 0 && (
-                  <div className="design-how-group" key={kind}>
-                    <h3>{label}</h3>
-                    {items.map((doc) => (
-                      <a
-                        key={doc.path}
-                        aria-current={path === doc.path ? "page" : undefined}
-                        href={`?provider=systems&system=${system}&doc=${encodeURIComponent(doc.path)}`}
-                        onClick={(e) => {
-                          if (e.metaKey || e.ctrlKey || e.altKey || e.shiftKey)
-                            return;
-                          e.preventDefault();
-                          select(doc.path);
-                        }}
-                      >
-                        {doc.title}
-                      </a>
-                    ))}
-                  </div>
-                )
-              );
-            })}
-            {filtered.length === 0 && (
-              <p role="status">
-                {t("没有匹配的文档。", "No matching documents.")}
-              </p>
-            )}
-          </nav>
-        </details>
-        <article
-          ref={content}
-          className="design-how-document"
-          aria-busy={loading}
-        >
-          <header>
-            <h2 ref={heading} tabIndex={-1}>
-              {path === "index.md" ? t("系统总纲", "System overview") : title}
-            </h2>
-            <div className="design-how-actions">
-              <Button
-                disabled={!text || loading || error}
-                onClick={async () => {
-                  try {
-                    await navigator.clipboard.writeText(text);
-                    setNotice(t("已复制", "Copied"));
-                  } catch {
-                    setNotice(
-                      t(
-                        "复制失败，请下载文件。",
-                        "Could not copy. Download the file instead.",
-                      ),
-                    );
-                  }
-                }}
-              >
-                {t("复制 Markdown", "Copy Markdown")}
-              </Button>
-              <a href={file} download>
-                {t("下载 Markdown", "Download Markdown")}
-              </a>
-              <span role="status">{notice}</span>
-            </div>
-          </header>
-          {path.startsWith("components/") && (
-            <div className="design-how-install">
-              <code>
-                npx shadcn@latest add https://happyhands.cc/r/{system}/
-                {path.split("/").at(-1)!.replace(/\.md$/, ".json")}
-              </code>
-              <a
-                href={`/r/${system}/${path.split("/").at(-1)!.replace(/\.md$/, ".json")}`}
-                download
-              >
-                {t("下载组件源码", "Download component source")}
-              </a>
-            </div>
-          )}
-          {loading && (
-            <p role="status">{t("正在加载文档…", "Loading document…")}</p>
-          )}
-          {error && (
-            <div role="alert">
-              <p>
-                {t(
-                  "文档加载失败，请重试。",
-                  "Could not load this document. Please retry.",
-                )}
-              </p>
-              <Button onClick={() => setRetry((n) => n + 1)}>
-                {t("重试", "Retry")}
-              </Button>
-            </div>
-          )}
-          {!loading && !error && (
-            <div className="design-how-prose" lang="en">
-              <Markdown
-                remarkPlugins={[remarkGfm]}
-                rehypePlugins={[rehypeSlug]}
-                components={{
-                  h1: () => null,
-                  pre: ({ children }) => <pre tabIndex={0}>{children}</pre>,
-                  table: ({ children }) => (
-                    <div
-                      className="design-how-table"
-                      tabIndex={0}
-                      role="region"
-                      aria-label={t("文档表格", "Document table")}
-                    >
-                      <table>{children}</table>
-                    </div>
-                  ),
-                  a: ({ href, children }) => (
-                    <a href={designHowLink(href || "", system, path)}>
-                      {children}
-                    </a>
-                  ),
-                }}
-              >
-                {text
-                  .replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/, "")
-                  .replace(
-                    /^(?:kind|version|last-updated|install-base|human):.*\r?$/gm,
-                    "",
-                  )}
-              </Markdown>
-            </div>
-          )}
-          <footer className="design-how-source">
-            {t("原始文档与组件来源：", "Original documents and components: ")}
-            <a href="https://design.how">design.how</a> /{" "}
-            {catalog.generatedAt.slice(0, 10)}
-          </footer>
-        </article>
+      <div
+        className="design-how-view-tabs"
+        role="tablist"
+        aria-label={t("查看方式", "View mode")}
+      >
+        {[
+          ["preview", t("样式预览", "Style preview")],
+          ["documents", t("规范文档", "Documentation")],
+        ].map(([id, label], i) => (
+          <button
+            key={id}
+            id={`system-view-${id}`}
+            role="tab"
+            aria-selected={view === id}
+            aria-controls={`system-panel-${id}`}
+            tabIndex={view === id ? 0 : -1}
+            onClick={() => setView(id)}
+            onKeyDown={(event) => {
+              if (
+                ["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)
+              ) {
+                event.preventDefault();
+                const next =
+                  event.key === "Home"
+                    ? "preview"
+                    : event.key === "End"
+                      ? "documents"
+                      : id === "preview"
+                        ? "documents"
+                        : "preview";
+                setView(next);
+                document.getElementById(`system-view-${next}`)?.focus();
+              }
+            }}
+          >
+            {label}
+          </button>
+        ))}
       </div>
+      {view === "preview" ? (
+        <div
+          role="tabpanel"
+          id="system-panel-preview"
+          aria-labelledby="system-view-preview"
+        >
+          <SystemStylePreview system={system} lang={lang} />
+        </div>
+      ) : (
+        <div
+          className="design-how-layout"
+          role="tabpanel"
+          id="system-panel-documents"
+          aria-labelledby="system-view-documents"
+        >
+          <details
+            className="design-how-directory"
+            open={directoryOpen}
+            onToggle={(e) => setDirectoryOpen(e.currentTarget.open)}
+          >
+            <summary>{t("文档目录", "Documents")}</summary>
+            <label className="design-how-search">
+              {t("搜索文档", "Search documents")}
+              <input
+                type="search"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder={t("名称或组件", "Title or component")}
+              />
+            </label>
+            <nav aria-label={t("设计系统文档", "Design system documents")}>
+              {[
+                ["overview", t("总纲", "Overview")],
+                ["foundation", t("基础规范", "Foundations")],
+                ["component", t("组件", "Components")],
+                ["guides", t("使用指南", "Guides")],
+                ["articles", t("设计系统文章", "Articles")],
+              ].map(([kind, label]) => {
+                const items = filtered.filter((d) => d.kind === kind);
+                return (
+                  items.length > 0 && (
+                    <div className="design-how-group" key={kind}>
+                      <h3>{label}</h3>
+                      {items.map((doc) => (
+                        <a
+                          key={doc.path}
+                          aria-current={path === doc.path ? "page" : undefined}
+                          href={`?provider=systems&system=${system}&doc=${encodeURIComponent(doc.path)}`}
+                          onClick={(e) => {
+                            if (
+                              e.metaKey ||
+                              e.ctrlKey ||
+                              e.altKey ||
+                              e.shiftKey
+                            )
+                              return;
+                            e.preventDefault();
+                            select(doc.path);
+                          }}
+                        >
+                          {doc.title}
+                        </a>
+                      ))}
+                    </div>
+                  )
+                );
+              })}
+              {filtered.length === 0 && (
+                <p role="status">
+                  {t("没有匹配的文档。", "No matching documents.")}
+                </p>
+              )}
+            </nav>
+          </details>
+          <article
+            ref={content}
+            className="design-how-document"
+            aria-busy={loading}
+          >
+            <header>
+              <h2 ref={heading} tabIndex={-1}>
+                {path === "index.md" ? t("系统总纲", "System overview") : title}
+              </h2>
+              <div className="design-how-actions">
+                <Button
+                  disabled={!text || loading || error}
+                  onClick={async () => {
+                    try {
+                      await navigator.clipboard.writeText(text);
+                      setNotice(t("已复制", "Copied"));
+                    } catch {
+                      setNotice(
+                        t(
+                          "复制失败，请下载文件。",
+                          "Could not copy. Download the file instead.",
+                        ),
+                      );
+                    }
+                  }}
+                >
+                  {t("复制 Markdown", "Copy Markdown")}
+                </Button>
+                <a href={file} download>
+                  {t("下载 Markdown", "Download Markdown")}
+                </a>
+                <span role="status">{notice}</span>
+              </div>
+            </header>
+            {path.startsWith("components/") &&
+              previewComponents.has(
+                path.split("/").at(-1)!.replace(/\.md$/, ""),
+              ) && (
+                <SystemStylePreview
+                  system={system}
+                  lang={lang}
+                  component={path.split("/").at(-1)!.replace(/\.md$/, "")}
+                />
+              )}
+            {path.startsWith("components/") && (
+              <div className="design-how-install">
+                <code>
+                  npx shadcn@latest add https://happyhands.cc/r/{system}/
+                  {path.split("/").at(-1)!.replace(/\.md$/, ".json")}
+                </code>
+                <a
+                  href={`/r/${system}/${path.split("/").at(-1)!.replace(/\.md$/, ".json")}`}
+                  download
+                >
+                  {t("下载组件源码", "Download component source")}
+                </a>
+              </div>
+            )}
+            {loading && (
+              <p role="status">{t("正在加载文档…", "Loading document…")}</p>
+            )}
+            {error && (
+              <div role="alert">
+                <p>
+                  {t(
+                    "文档加载失败，请重试。",
+                    "Could not load this document. Please retry.",
+                  )}
+                </p>
+                <Button onClick={() => setRetry((n) => n + 1)}>
+                  {t("重试", "Retry")}
+                </Button>
+              </div>
+            )}
+            {!loading && !error && (
+              <div className="design-how-prose" lang="en">
+                <Markdown
+                  remarkPlugins={[remarkGfm]}
+                  rehypePlugins={[rehypeSlug]}
+                  components={{
+                    h1: () => null,
+                    pre: ({ children }) => <pre tabIndex={0}>{children}</pre>,
+                    table: ({ children }) => (
+                      <div
+                        className="design-how-table"
+                        tabIndex={0}
+                        role="region"
+                        aria-label={t("文档表格", "Document table")}
+                      >
+                        <table>{children}</table>
+                      </div>
+                    ),
+                    a: ({ href, children }) => (
+                      <a href={designHowLink(href || "", system, path)}>
+                        {children}
+                      </a>
+                    ),
+                  }}
+                >
+                  {text
+                    .replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/, "")
+                    .replace(
+                      /^(?:kind|version|last-updated|install-base|human):.*\r?$/gm,
+                      "",
+                    )}
+                </Markdown>
+              </div>
+            )}
+            <footer className="design-how-source">
+              {t("原始文档与组件来源：", "Original documents and components: ")}
+              <a href="https://design.how">design.how</a> /{" "}
+              {catalog.generatedAt.slice(0, 10)}
+            </footer>
+          </article>
+        </div>
+      )}
     </div>
   );
 }

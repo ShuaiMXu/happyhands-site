@@ -55,6 +55,7 @@ try {
         });
         await check();
         await page.getByRole("link", { name: /Sodium/ }).click();
+        await page.getByRole("tab", { name: lang === "zh" ? "规范文档" : "Documentation", exact: true }).click();
         await page.locator(".design-how-prose").waitFor();
         await page.screenshot({
           path: `${dir}/sodium-${width}-${theme}-${lang}.png`,
@@ -147,7 +148,7 @@ try {
   const page = await browser.newPage();
   for (const system of ["sodium", "glaze"]) {
     await page.goto(`${base}/systems/${system}/`);
-    await page.locator(".design-how-prose").waitFor();
+    await page.locator(".system-style-preview iframe").waitFor();
     assert.equal(
       await page.locator("main > h1").innerText(),
       system[0].toUpperCase() + system.slice(1),

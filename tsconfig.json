@@ -27,9 +27,11 @@
     "systems/lime",
     "systems/sodium",
     "systems/glaze",
-    "systems/design-how-main.tsx"
+    "systems/design-how-main.tsx",
+    "systems/preview/main.tsx"
   ],
   "exclude": [
-    "components/preview/adapters"
+    "components/preview/adapters",
+    "systems/preview/generated"
   ]
 }

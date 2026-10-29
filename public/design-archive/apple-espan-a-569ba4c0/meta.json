@@ -1,0 +1,95 @@
+{
+ "id": "569ba4c0-0431-44fb-92df-0dbea7f3e63d",
+ "slug": "apple-espan-a-569ba4c0",
+ "name": "Apple (España)",
+ "site_url": "https://www.apple.com/apple-watch-se-3",
+ "lastmod": "2026-06-03T19:27:03.561Z",
+ "extracted_at": "2026-06-03T19:27:03.556Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "white museum gallery at noon",
+ "fonts": [
+  "SF Pro Display",
+  "SF Pro Text"
+ ],
+ "colors": [
+  {
+   "hex": "#f5f5f7",
+   "name": "Pure Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#1d1d1f",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#707070",
+   "name": "Iron Gray"
+  },
+  {
+   "hex": "#474747",
+   "name": "Slate"
+  },
+  {
+   "hex": "#333336",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#e2e2e5",
+   "name": "Mist"
+  },
+  {
+   "hex": "#d6d6d6",
+   "name": "Fog"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void"
+  },
+  {
+   "hex": "#0071e3",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#0066cc",
+   "name": "Deep Link Blue"
+  },
+  {
+   "hex": "#03aa49",
+   "name": "Pulse Green"
+  },
+  {
+   "hex": "#03873a",
+   "name": "Deep Green"
+  },
+  {
+   "hex": "#8668ff",
+   "name": "Ultraviolet"
+  },
+  {
+   "hex": "#ed6300",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#00a1b3",
+   "name": "Lagoon Teal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b40d2c44-ce44-4a09-8008-f58c6308935e.mp4",
+  "poster": "https://happyhands.cc/design-archive/apple-espan-a-569ba4c0/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/apple-espan-a-569ba4c0/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/apple-espan-a-569ba4c0/thumbnail.jpg"
+}

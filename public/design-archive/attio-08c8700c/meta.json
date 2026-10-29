@@ -1,0 +1,116 @@
+{
+ "id": "08c8700c-f278-42bc-812e-f60dc6ce996e",
+ "slug": "attio-08c8700c",
+ "name": "Attio",
+ "site_url": "https://attio.com",
+ "lastmod": "2026-07-03T03:43:47.574Z",
+ "extracted_at": "2026-07-03T03:43:47.505Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Architectural editorial on white marble",
+ "fonts": [
+  "Inter",
+  "InterDisplay",
+  "TiemposText"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Page Canvas"
+  },
+  {
+   "hex": "#1c1d1f",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#232529",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#101113",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#2e3238",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#505967",
+   "name": "Slate 500"
+  },
+  {
+   "hex": "#6f7988",
+   "name": "Slate 600"
+  },
+  {
+   "hex": "#8f99a8",
+   "name": "Slate 700"
+  },
+  {
+   "hex": "#9fa1a7",
+   "name": "Fog 400"
+  },
+  {
+   "hex": "#b5bdc9",
+   "name": "Mist 300"
+  },
+  {
+   "hex": "#cad0d9",
+   "name": "Cloud 200"
+  },
+  {
+   "hex": "#d3d8df",
+   "name": "Cloud 100"
+  },
+  {
+   "hex": "#e4e7ec",
+   "name": "Mist 50"
+  },
+  {
+   "hex": "#eeeff1",
+   "name": "Haze"
+  },
+  {
+   "hex": "#f4f5f6",
+   "name": "Paper"
+  },
+  {
+   "hex": "#266df0",
+   "name": "Cobalt Core"
+  },
+  {
+   "hex": "#407ff2",
+   "name": "Cobalt Bright"
+  },
+  {
+   "hex": "#538bf3",
+   "name": "Cobalt Soft"
+  },
+  {
+   "hex": "#bad0fa",
+   "name": "Periwinkle"
+  },
+  {
+   "hex": "#e4edff",
+   "name": "Ice Wash"
+  },
+  {
+   "hex": "#000000",
+   "name": "Onyx Footer"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/7a02e499-e2a2-4232-8dd4-057847e5db98.mp4",
+  "poster": "https://happyhands.cc/design-archive/attio-08c8700c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/attio-08c8700c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/attio-08c8700c/thumbnail.jpg"
+}

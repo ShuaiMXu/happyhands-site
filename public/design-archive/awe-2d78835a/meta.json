@@ -1,0 +1,64 @@
+{
+ "id": "2d78835a-fffe-4416-8e3d-ac37207fbd6b",
+ "slug": "awe-2d78835a",
+ "name": "AWE",
+ "site_url": "https://www.awenetwork.ai",
+ "lastmod": "2026-09-20T20:36:31.924Z",
+ "extracted_at": "2026-09-20T19:23:25.686Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ai",
+ "north_star": "robot observatory after midnight. Build black, gallery-like screens where pale editorial type floats above contained AI-world imagery and tiny instrument-panel labels.",
+ "fonts": [
+  "Office Times Round",
+  "Messina Sans",
+  "ABC Laica Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#010101",
+   "name": "Void"
+  },
+  {
+   "hex": "#1f1f23",
+   "name": "Charcoal Control"
+  },
+  {
+   "hex": "#e0e0e0",
+   "name": "Porcelain"
+  },
+  {
+   "hex": "#16191b",
+   "name": "Machine Well"
+  },
+  {
+   "hex": "#252525",
+   "name": "Hairline Ash"
+  },
+  {
+   "hex": "#828b8d",
+   "name": "Muted Steel"
+  },
+  {
+   "hex": "#444444",
+   "name": "Dormant Graphite"
+  },
+  {
+   "hex": "#646e71",
+   "name": "Faint Steel"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/eea54e18-cd89-4cc0-bba8-faab7389a362.mp4",
+  "poster": "https://happyhands.cc/design-archive/awe-2d78835a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/awe-2d78835a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/awe-2d78835a/thumbnail.jpg"
+}

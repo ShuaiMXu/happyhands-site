@@ -1,0 +1,58 @@
+{
+ "id": "0f7da1b2-9d06-4ef5-b5a8-ef7f92e57ab2",
+ "slug": "augen-pro-0f7da1b2",
+ "name": "Augen Pro",
+ "site_url": "https://augen.pro",
+ "lastmod": "2026-07-03T10:46:29.819Z",
+ "extracted_at": "2026-07-03T03:18:40.191Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Apple keynote on surgical white — clinical, weightless, electric blue as single accent in monochrome void",
+ "fonts": [
+  "PP Neue Montreal"
+ ],
+ "colors": [
+  {
+   "hex": "#0f1012",
+   "name": "Off-Black"
+  },
+  {
+   "hex": "#020201",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#f2f2f4",
+   "name": "Off-White"
+  },
+  {
+   "hex": "#fdfdfd",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#5e5e5e",
+   "name": "Steel Gray"
+  },
+  {
+   "hex": "#8f8f8f",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#0071e3",
+   "name": "Signal Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/019f3cdc-8f0b-4ddf-b1ab-45feebc606b5.mp4",
+  "poster": "https://happyhands.cc/design-archive/augen-pro-0f7da1b2/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/augen-pro-0f7da1b2/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/augen-pro-0f7da1b2/thumbnail.jpg"
+}

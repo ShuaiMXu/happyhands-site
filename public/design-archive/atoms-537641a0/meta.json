@@ -1,0 +1,87 @@
+{
+ "id": "537641a0-5a24-4203-ae9b-cd29516aa3f8",
+ "slug": "atoms-537641a0",
+ "name": "Atoms",
+ "site_url": "https://atoms.dev",
+ "lastmod": "2026-06-05T05:05:25.764Z",
+ "extracted_at": "2026-06-03T18:28:58.687Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "white atelier with one blue spark",
+ "fonts": [
+  "IBM Plex Sans",
+  "IBM Plex Serif"
+ ],
+ "colors": [
+  {
+   "hex": "#4267ff",
+   "name": "Atoms Blue"
+  },
+  {
+   "hex": "#425ce1",
+   "name": "Atoms Blue Deep"
+  },
+  {
+   "hex": "#ff5f56",
+   "name": "Mac Red"
+  },
+  {
+   "hex": "#ffbd2e",
+   "name": "Mac Yellow"
+  },
+  {
+   "hex": "#27c93f",
+   "name": "Mac Green"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Canvas Mist"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Surface White"
+  },
+  {
+   "hex": "#f6f6f6",
+   "name": "Surface Fog"
+  },
+  {
+   "hex": "#0d0d0d",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#3c3c3c",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#767676",
+   "name": "Mid Gray"
+  },
+  {
+   "hex": "#b0b0b0",
+   "name": "Silver"
+  },
+  {
+   "hex": "#d1d1d1",
+   "name": "Border Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c2fddb84-ede9-45dd-ad48-f9d7251dd87a.mp4",
+  "poster": "https://happyhands.cc/design-archive/atoms-537641a0/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/atoms-537641a0/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/atoms-537641a0/thumbnail.jpg"
+}

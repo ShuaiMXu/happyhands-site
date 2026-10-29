@@ -1,0 +1,41 @@
+{
+ "id": "bab94db1-25ec-459d-8c81-5905a0324b65",
+ "slug": "artworld-bab94db1",
+ "name": "ARTWORLD",
+ "site_url": "https://artworld.agency",
+ "lastmod": "2026-06-05T09:59:25.222Z",
+ "extracted_at": "2026-06-03T20:41:49.027Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "fashion masthead on white linen",
+ "fonts": [
+  "Graphik Light",
+  "Cardinal Fruit (and Italic / Classic Italic variants)",
+  "Cardinal Fruit Italic",
+  "Cardinal Classic Italic"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ba302f3c-b02c-4952-96a0-2455f69d3104.mp4",
+  "poster": "https://happyhands.cc/design-archive/artworld-bab94db1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/artworld-bab94db1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/artworld-bab94db1/thumbnail.jpg"
+}

@@ -1,0 +1,109 @@
+{
+ "id": "56cd3725-3ff0-459e-894d-5da58d1fc549",
+ "slug": "posthog-56cd3725",
+ "name": "PostHog",
+ "site_url": "https://posthog.com",
+ "lastmod": "2026-07-03T11:11:06.864Z",
+ "extracted_at": "2026-07-03T03:36:06.150Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "Warm paper desktop pinned to cork — a tactile beige workspace where every interface element is a printed artifact, not a floating panel.",
+ "fonts": [
+  "Open Runde",
+  "IBM Plex Sans Variable",
+  "ui-monospace",
+  "Source Code Pro"
+ ],
+ "colors": [
+  {
+   "hex": "#e1d7c2",
+   "name": "Sandy Desk"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#fdfdf8",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#eeefe9",
+   "name": "Soft Linen"
+  },
+  {
+   "hex": "#e5e7e0",
+   "name": "Pale Stone"
+  },
+  {
+   "hex": "#23251d",
+   "name": "Deep Moss"
+  },
+  {
+   "hex": "#4d4f46",
+   "name": "Olive Char"
+  },
+  {
+   "hex": "#65675e",
+   "name": "Sage Gray"
+  },
+  {
+   "hex": "#9ea096",
+   "name": "Ash Green"
+  },
+  {
+   "hex": "#b3b3af",
+   "name": "Faded Pewter"
+  },
+  {
+   "hex": "#bfc1b7",
+   "name": "Warm Mist"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#2f80fa",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#eb9d2a",
+   "name": "Amber Glow"
+  },
+  {
+   "hex": "#cd8407",
+   "name": "Dark Amber"
+  },
+  {
+   "hex": "#b17816",
+   "name": "Burnished Gold"
+  },
+  {
+   "hex": "#f1a82c",
+   "name": "Marigold"
+  },
+  {
+   "hex": "#f54e00",
+   "name": "Flame Orange"
+  },
+  {
+   "hex": "#6aa84f",
+   "name": "Moss Green"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/86dc175b-fd41-405a-960b-4400d250540e.mp4",
+  "poster": "https://happyhands.cc/design-archive/posthog-56cd3725/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/posthog-56cd3725/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/posthog-56cd3725/thumbnail.jpg"
+}

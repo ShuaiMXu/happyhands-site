@@ -1,0 +1,105 @@
+{
+ "id": "7421c174-a1b1-4695-a9e7-a82dc6f5ea3b",
+ "slug": "rainbowkit-7421c174",
+ "name": "RainbowKit",
+ "site_url": "https://www.rainbowkit.com",
+ "lastmod": "2026-06-05T12:16:06.326Z",
+ "extracted_at": "2026-06-03T21:09:42.622Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "crypto",
+ "north_star": "Neon wallet modal floating in a black void — the blue-to-violet aurora glows through the dark.",
+ "fonts": [
+  "SFRounded",
+  "SFMono",
+  "system-ui",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#0e76fd",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#3898ff",
+   "name": "Aurora Gradient"
+  },
+  {
+   "hex": "#7a70ff",
+   "name": "Electric Violet"
+  },
+  {
+   "hex": "#38228f",
+   "name": "Deep Iris"
+  },
+  {
+   "hex": "#ff5ca0",
+   "name": "Hyper Pink"
+  },
+  {
+   "hex": "#fa423c",
+   "name": "Ember Red"
+  },
+  {
+   "hex": "#ff801f",
+   "name": "Solar Orange"
+  },
+  {
+   "hex": "#1db847",
+   "name": "Toxic Green"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void"
+  },
+  {
+   "hex": "#1b1c1e",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#121314",
+   "name": "Shadow"
+  },
+  {
+   "hex": "#25292e",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#2f3334",
+   "name": "Slate"
+  },
+  {
+   "hex": "#353a3b",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#646566",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#95979c",
+   "name": "Fog"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Snow"
+  },
+  {
+   "hex": "#f0f1f5",
+   "name": "Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e7d90c13-fe4d-46b4-951b-0811a9b2cbdd.mp4",
+  "poster": "https://happyhands.cc/design-archive/rainbowkit-7421c174/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/rainbowkit-7421c174/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/rainbowkit-7421c174/thumbnail.jpg"
+}

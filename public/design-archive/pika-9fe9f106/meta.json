@@ -1,0 +1,55 @@
+{
+ "id": "9fe9f106-44d2-45fc-9873-10c6ddcfa59b",
+ "slug": "pika-9fe9f106",
+ "name": "Pika",
+ "site_url": "https://pika.art",
+ "lastmod": "2026-06-05T02:05:44.617Z",
+ "extracted_at": "2026-06-03T17:12:25.763Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "ai",
+ "north_star": "Cream diptych meets cinema void",
+ "fonts": [
+  "telka",
+  "telkaExtended"
+ ],
+ "colors": [
+  {
+   "hex": "#ffedd2",
+   "name": "Cream Paper"
+  },
+  {
+   "hex": "#0d0d0d",
+   "name": "Void Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Polished White"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Hairline Gray"
+  },
+  {
+   "hex": "#9e9e9e",
+   "name": "Muted Ash"
+  },
+  {
+   "hex": "#1f1f1f",
+   "name": "Surface Charcoal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ae801cea-fdaa-4b0e-bc50-8dd32d2baf6f.mp4",
+  "poster": "https://happyhands.cc/design-archive/pika-9fe9f106/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/pika-9fe9f106/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/pika-9fe9f106/thumbnail.jpg"
+}

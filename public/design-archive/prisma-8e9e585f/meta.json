@@ -1,0 +1,74 @@
+{
+ "id": "8e9e585f-5ad4-4273-8418-e1f82cdb51cf",
+ "slug": "prisma-8e9e585f",
+ "name": "Prisma",
+ "site_url": "https://prisma.io",
+ "lastmod": "2026-06-03T20:14:16.969Z",
+ "extracted_at": "2026-06-03T20:14:16.963Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "engineer's blueprint on frosted glass",
+ "fonts": [
+  "Inter",
+  "Mona Sans VF",
+  "Mona Sans Mono VF",
+  "Font Awesome 7 Pro",
+  "Font Awesome 7 Brands"
+ ],
+ "colors": [
+  {
+   "hex": "#14b8a6",
+   "name": "Prism Teal"
+  },
+  {
+   "hex": "#0d9488",
+   "name": "Deep Teal"
+  },
+  {
+   "hex": "#1d242f",
+   "name": "Carbon Ink"
+  },
+  {
+   "hex": "#111827",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#6b7280",
+   "name": "Slate"
+  },
+  {
+   "hex": "#718096",
+   "name": "Steel"
+  },
+  {
+   "hex": "#9ca3af",
+   "name": "Fog"
+  },
+  {
+   "hex": "#e2e8f0",
+   "name": "Mist"
+  },
+  {
+   "hex": "#f3f4f6",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/1c488f4c-b3ec-46ba-ad13-ff938c179708.mp4",
+  "poster": "https://happyhands.cc/design-archive/prisma-8e9e585f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/prisma-8e9e585f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/prisma-8e9e585f/thumbnail.jpg"
+}

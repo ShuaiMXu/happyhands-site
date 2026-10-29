@@ -1,0 +1,74 @@
+{
+ "id": "8ff3bfb4-6f5e-4e07-83be-56e62ce80d2f",
+ "slug": "pinterest-8ff3bfb4",
+ "name": "Pinterest",
+ "site_url": "https://pinterest.com",
+ "lastmod": "2026-06-03T17:55:58.811Z",
+ "extracted_at": "2026-06-03T17:55:58.808Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "A pinboard under warm gallery light — white walls, one bold red thumbtack, everything else quietly waiting to be discovered.",
+ "fonts": [
+  "Pin Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#e60023",
+   "name": "Pin Red"
+  },
+  {
+   "hex": "#211922",
+   "name": "Ink Plum"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Gallery White"
+  },
+  {
+   "hex": "#666666",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#8c8c8c",
+   "name": "Stone Gray"
+  },
+  {
+   "hex": "#e5e5e0",
+   "name": "Linen"
+  },
+  {
+   "hex": "#000000",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#fffd92",
+   "name": "Halo Yellow"
+  },
+  {
+   "hex": "#fa5f2e",
+   "name": "Ember Coral"
+  },
+  {
+   "hex": "#9270d7",
+   "name": "Lavender Veil"
+  },
+  {
+   "hex": "#2b48d4",
+   "name": "Link Cobalt"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/cf13d02d-fb61-498d-a742-f989b1fa17d3.mp4",
+  "poster": "https://happyhands.cc/design-archive/pinterest-8ff3bfb4/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/pinterest-8ff3bfb4/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/pinterest-8ff3bfb4/thumbnail.jpg"
+}

@@ -1,0 +1,69 @@
+{
+ "id": "e7d4a7de-aeaf-4d49-8c0c-0dedd05a8992",
+ "slug": "pop-site-e7d4a7de",
+ "name": "Pop Site",
+ "site_url": "https://pop.site",
+ "lastmod": "2026-06-03T17:27:29.610Z",
+ "extracted_at": "2026-06-03T17:27:29.605Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Stark typographic gallery — monumental black headlines floating on white walls, with one blue dot of intent.",
+ "fonts": [
+  "sans-serif",
+  "Satoshi",
+  "Inter",
+  "system-ui"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Page White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#171717",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#5e5e5e",
+   "name": "Granite"
+  },
+  {
+   "hex": "#6e6e73",
+   "name": "Slate"
+  },
+  {
+   "hex": "#d2d2d7",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e3eeff",
+   "name": "Wash Blue"
+  },
+  {
+   "hex": "#3b82f6",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#6ea5ff",
+   "name": "Link Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/80938f29-b0c8-4cd4-a1cf-0da9948a862f.mp4",
+  "poster": "https://happyhands.cc/design-archive/pop-site-e7d4a7de/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/pop-site-e7d4a7de/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/pop-site-e7d4a7de/thumbnail.jpg"
+}

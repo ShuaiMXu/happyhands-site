@@ -1,0 +1,63 @@
+{
+ "id": "792089e6-c045-498c-8ba1-48d72c206c66",
+ "slug": "quo-formerly-openphone-792089e6",
+ "name": "Quo (formerly OpenPhone)",
+ "site_url": "https://www.openphone.com",
+ "lastmod": "2026-06-03T20:16:47.003Z",
+ "extracted_at": "2026-06-03T20:16:46.998Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "highlighter on newsprint — a single chartreuse stroke against stark black-and-white editorial layout.",
+ "fonts": [
+  "Roobert",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#f7f6f5",
+   "name": "Newsprint"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Press Black"
+  },
+  {
+   "hex": "#0a0a0c",
+   "name": "Midnight"
+  },
+  {
+   "hex": "#4d4d4d",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#808080",
+   "name": "Ash"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Silver"
+  },
+  {
+   "hex": "#edfc47",
+   "name": "Highlighter"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/da99669d-cacc-4cbb-a6c1-5d6419d340a7.mp4",
+  "poster": "https://happyhands.cc/design-archive/quo-formerly-openphone-792089e6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/quo-formerly-openphone-792089e6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/quo-formerly-openphone-792089e6/thumbnail.jpg"
+}

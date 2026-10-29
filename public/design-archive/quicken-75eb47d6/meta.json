@@ -1,0 +1,78 @@
+{
+ "id": "75eb47d6-2526-4936-b15a-7474cf4cdc69",
+ "slug": "quicken-75eb47d6",
+ "name": "Quicken",
+ "site_url": "https://www.quicken.com",
+ "lastmod": "2026-06-05T09:00:44.784Z",
+ "extracted_at": "2026-06-03T20:07:56.407Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "fintech",
+ "north_star": "electric violet on white marble",
+ "fonts": [
+  "Haffer"
+ ],
+ "colors": [
+  {
+   "hex": "#471cff",
+   "name": "Voltage Violet"
+  },
+  {
+   "hex": "#0f0733",
+   "name": "Deep Iris"
+  },
+  {
+   "hex": "#eb0130",
+   "name": "Signal Red"
+  },
+  {
+   "hex": "#dbd3ff",
+   "name": "Lilac Whisper"
+  },
+  {
+   "hex": "#bbc5fa",
+   "name": "Periwinkle Mist"
+  },
+  {
+   "hex": "#ff5a43",
+   "name": "Coral Burst"
+  },
+  {
+   "hex": "#7ae7fb",
+   "name": "Aqua Pop"
+  },
+  {
+   "hex": "#18181f",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#494949",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#f0f5fa",
+   "name": "Frost Blue"
+  },
+  {
+   "hex": "#eaecf7",
+   "name": "Linen Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/6671bbc7-cf3e-4a9c-a7fb-36b8e0fc95d1.mp4",
+  "poster": "https://happyhands.cc/design-archive/quicken-75eb47d6/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/quicken-75eb47d6/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/quicken-75eb47d6/thumbnail.jpg"
+}

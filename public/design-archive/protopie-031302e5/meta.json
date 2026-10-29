@@ -1,0 +1,72 @@
+{
+ "id": "031302e5-3269-4735-ab56-d4c7d02edc01",
+ "slug": "protopie-031302e5",
+ "name": "ProtoPie",
+ "site_url": "https://protopie.io",
+ "lastmod": "2026-06-03T20:40:15.789Z",
+ "extracted_at": "2026-06-03T20:40:15.784Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "sunlit prototyping workshop with violet ink — a designer's clean white drafting table where one electric purple pencil marks every interactive idea.",
+ "fonts": [
+  "Gilroy",
+  "Inter",
+  "Palmer Lake Print"
+ ],
+ "colors": [
+  {
+   "hex": "#8169ff",
+   "name": "Electric Violet"
+  },
+  {
+   "hex": "#6d4ff0",
+   "name": "Deep Iris"
+  },
+  {
+   "hex": "#c9bfff",
+   "name": "Soft Lilac"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#181818",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#555555",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#999999",
+   "name": "Silver"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#81dbdb",
+   "name": "Aqua Wash"
+  },
+  {
+   "hex": "#e3deff",
+   "name": "Lilac Bleed"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c63f4b7a-1341-4e52-aafd-95afec5e7aeb.mp4",
+  "poster": "https://happyhands.cc/design-archive/protopie-031302e5/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/protopie-031302e5/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/protopie-031302e5/thumbnail.jpg"
+}

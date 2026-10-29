@@ -1,0 +1,74 @@
+{
+ "id": "342f1c3b-a123-49b6-a980-3491bc7793db",
+ "slug": "podia-342f1c3b",
+ "name": "Podia",
+ "site_url": "https://www.podia.com",
+ "lastmod": "2026-06-05T01:51:09.300Z",
+ "extracted_at": "2026-06-03T16:59:00.804Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Warm papercraft afternoon. Organic blob shapes float across a matte white canvas in terracotta, lavender, and dusty blue, framing compressed geometric headlines and generous colored product cards.",
+ "fonts": [
+  "StabilGrotesk"
+ ],
+ "colors": [
+  {
+   "hex": "#06040e",
+   "name": "Ink"
+  },
+  {
+   "hex": "#10242f",
+   "name": "Deep Teal"
+  },
+  {
+   "hex": "#452623",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#f5f5f5",
+   "name": "Fog"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#e1edf2",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e39a4d",
+   "name": "Terracotta"
+  },
+  {
+   "hex": "#cbb0eb",
+   "name": "Lavender"
+  },
+  {
+   "hex": "#1f1738",
+   "name": "Plum"
+  },
+  {
+   "hex": "#a5c8d8",
+   "name": "Sky"
+  },
+  {
+   "hex": "#f6ddc4",
+   "name": "Cream"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/fb192965-8ef9-4865-8ba2-f56f963bcd86.mp4",
+  "poster": "https://happyhands.cc/design-archive/podia-342f1c3b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/podia-342f1c3b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/podia-342f1c3b/thumbnail.jpg"
+}

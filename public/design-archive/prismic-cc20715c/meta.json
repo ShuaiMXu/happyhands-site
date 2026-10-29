@@ -1,0 +1,105 @@
+{
+ "id": "cc20715c-e9ab-42a7-a34b-d43d76677219",
+ "slug": "prismic-cc20715c",
+ "name": "Prismic",
+ "site_url": "https://prismic.io",
+ "lastmod": "2026-06-03T20:03:47.837Z",
+ "extracted_at": "2026-06-03T20:03:47.833Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "Isometric workshop on white paper — a clean editorial canvas where vivid 3D devices float beside pastel mood-board cards and one charcoal workshop band anchors the floor.",
+ "fonts": [
+  "copyFont",
+  "Prismic Headings (custom)",
+  "Prismic Copy (custom)",
+  "headingsFont"
+ ],
+ "colors": [
+  {
+   "hex": "#151515",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Fog Border"
+  },
+  {
+   "hex": "#505050",
+   "name": "Steel"
+  },
+  {
+   "hex": "#a4a4a4",
+   "name": "Silver Mist"
+  },
+  {
+   "hex": "#303030",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#f7f7f7",
+   "name": "Plaster"
+  },
+  {
+   "hex": "#8e44ec",
+   "name": "Prismic Violet"
+  },
+  {
+   "hex": "#59b5f8",
+   "name": "Prismic Blue"
+  },
+  {
+   "hex": "#3bbb96",
+   "name": "Prismic Green"
+  },
+  {
+   "hex": "#e8c7ff",
+   "name": "Lavender Wash"
+  },
+  {
+   "hex": "#f5e6ff",
+   "name": "Lavender Cream"
+  },
+  {
+   "hex": "#c3eefe",
+   "name": "Sky Wash"
+  },
+  {
+   "hex": "#fcdac4",
+   "name": "Peach Wash"
+  },
+  {
+   "hex": "#fef1e9",
+   "name": "Peach Cream"
+  },
+  {
+   "hex": "#d4f2e9",
+   "name": "Mint Wash"
+  },
+  {
+   "hex": "#e8f8f3",
+   "name": "Mint Cream"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/323511b4-2dbb-461d-b940-b6b209fe63cc.mp4",
+  "poster": "https://happyhands.cc/design-archive/prismic-cc20715c/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/prismic-cc20715c/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/prismic-cc20715c/thumbnail.jpg"
+}

@@ -1,0 +1,79 @@
+{
+ "id": "f93ac72e-73b2-4b2c-80eb-351ddfa56f4d",
+ "slug": "playful-f93ac72e",
+ "name": "Playful",
+ "site_url": "https://playful.software",
+ "lastmod": "2026-06-05T01:01:53.186Z",
+ "extracted_at": "2026-06-03T16:03:07.634Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "sunlit paper notebook with a hot-pink highlighter. A friendly, editorial product surface printed on warm cream stock, where one vivid magenta accent punctuates an otherwise monochrome warm-gray world.",
+ "fonts": [
+  "Inter",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#ff2e95",
+   "name": "Hot Magenta"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#f6f2ee",
+   "name": "Oat Canvas"
+  },
+  {
+   "hex": "#111111",
+   "name": "Soft Ink"
+  },
+  {
+   "hex": "#0f172a",
+   "name": "Slate"
+  },
+  {
+   "hex": "#414040",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#848383",
+   "name": "Stone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#e8e5e0",
+   "name": "Warm Mist"
+  },
+  {
+   "hex": "#e2dcd6",
+   "name": "Sand"
+  },
+  {
+   "hex": "#c3c1bf",
+   "name": "Driftwood"
+  },
+  {
+   "hex": "#202126",
+   "name": "Midnight"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/90b34001-424a-4ccf-884b-438697eff19c.mp4",
+  "poster": "https://happyhands.cc/design-archive/playful-f93ac72e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/playful-f93ac72e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/playful-f93ac72e/thumbnail.jpg"
+}

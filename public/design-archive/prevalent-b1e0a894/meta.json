@@ -1,0 +1,55 @@
+{
+ "id": "b1e0a894-7440-44b8-9737-0ea4c988fc24",
+ "slug": "prevalent-b1e0a894",
+ "name": "Prevalent",
+ "site_url": "https://prevalent.ai",
+ "lastmod": "2026-06-03T21:39:59.573Z",
+ "extracted_at": "2026-06-03T21:39:59.568Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "saas",
+ "north_star": "Editorial command observatory — serif intelligence briefings under a navy planetarium dome",
+ "fonts": [
+  "Tiempos Headline",
+  "Matter"
+ ],
+ "colors": [
+  {
+   "hex": "#6360d8",
+   "name": "Iris Voltage"
+  },
+  {
+   "hex": "#060b25",
+   "name": "Midnight Vault"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#383c51",
+   "name": "Graphite Slate"
+  },
+  {
+   "hex": "#dad9ed",
+   "name": "Lavender Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c86dc0c9-d4cd-451f-b760-05fd5b7713d5.mp4",
+  "poster": "https://happyhands.cc/design-archive/prevalent-b1e0a894/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/prevalent-b1e0a894/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/prevalent-b1e0a894/thumbnail.jpg"
+}

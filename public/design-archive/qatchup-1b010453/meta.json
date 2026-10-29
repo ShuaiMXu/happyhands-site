@@ -1,0 +1,76 @@
+{
+ "id": "1b010453-80df-406a-8b1a-72630c4a5165",
+ "slug": "qatchup-1b010453",
+ "name": "Qatchup",
+ "site_url": "https://www.qatchup.com",
+ "lastmod": "2026-06-03T19:25:40.026Z",
+ "extracted_at": "2026-06-03T19:25:40.019Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Ink on warm paper, whispered quietly.",
+ "fonts": [
+  "Aspekta",
+  "Fasthand",
+  "Aspekta 500"
+ ],
+ "colors": [
+  {
+   "hex": "#080808",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#222222",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#292929",
+   "name": "Mid Ink"
+  },
+  {
+   "hex": "#696969",
+   "name": "Steel"
+  },
+  {
+   "hex": "#999999",
+   "name": "Fog"
+  },
+  {
+   "hex": "#b2b2b2",
+   "name": "Ash"
+  },
+  {
+   "hex": "#8d8d8d",
+   "name": "Slate"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e4e4e7",
+   "name": "Silk"
+  },
+  {
+   "hex": "#fafafa",
+   "name": "Bone"
+  },
+  {
+   "hex": "#f4f4f5",
+   "name": "Cream"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3dd419e2-f92f-466e-b91c-336231e20f77.mp4",
+  "poster": "https://happyhands.cc/design-archive/qatchup-1b010453/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/qatchup-1b010453/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/qatchup-1b010453/thumbnail.jpg"
+}

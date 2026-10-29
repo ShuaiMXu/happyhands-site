@@ -1,0 +1,88 @@
+{
+ "id": "5dc8ca28-26fe-41f2-979a-cda2669c262a",
+ "slug": "quin-5dc8ca28",
+ "name": "Quin",
+ "site_url": "https://www.heyquin.io",
+ "lastmod": "2026-06-03T22:07:21.913Z",
+ "extracted_at": "2026-06-03T22:07:21.905Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "warm cream notebook with stamped yellow ink",
+ "fonts": [
+  "Instrument Sans",
+  "Geist Mono",
+  "Font Awesome 7 Sharp"
+ ],
+ "colors": [
+  {
+   "hex": "#fffcf2",
+   "name": "Ivory Page"
+  },
+  {
+   "hex": "#f0ecdf",
+   "name": "Sandstone"
+  },
+  {
+   "hex": "#d0cec6",
+   "name": "Pebble Border"
+  },
+  {
+   "hex": "#a19c8c",
+   "name": "Driftwood"
+  },
+  {
+   "hex": "#68655b",
+   "name": "Stone Mid"
+  },
+  {
+   "hex": "#545454",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#222222",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#141414",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#000000",
+   "name": "Jet Black"
+  },
+  {
+   "hex": "#393737",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#f7cf49",
+   "name": "Honey Yellow"
+  },
+  {
+   "hex": "#492812",
+   "name": "Burnt Umber"
+  },
+  {
+   "hex": "#a9e1ff",
+   "name": "Powder Blue"
+  },
+  {
+   "hex": "#8a8883",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/da99669d-cacc-4cbb-a6c1-5d6419d340a7.mp4",
+  "poster": "https://happyhands.cc/design-archive/quin-5dc8ca28/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/quin-5dc8ca28/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/quin-5dc8ca28/thumbnail.jpg"
+}

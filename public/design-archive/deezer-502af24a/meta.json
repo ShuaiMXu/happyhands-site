@@ -1,0 +1,71 @@
+{
+ "id": "502af24a-b765-44b2-828f-dd610f27a125",
+ "slug": "deezer-502af24a",
+ "name": "Deezer",
+ "site_url": "https://deezer.com",
+ "lastmod": "2026-06-03T19:18:55.083Z",
+ "extracted_at": "2026-06-03T19:18:55.080Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "media",
+ "north_star": "Festival poster meets dark arena",
+ "fonts": [
+  "Deezer Brand (custom condensed display)",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#fdfcfe",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#0f0d13",
+   "name": "Carbon Black"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#191922",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#555257",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#a9a6aa",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#6f6d71",
+   "name": "Steel Gray"
+  },
+  {
+   "hex": "#d1d1d7",
+   "name": "Pearl Gray"
+  },
+  {
+   "hex": "#a238ff",
+   "name": "Signal Violet"
+  },
+  {
+   "hex": "#d09aff",
+   "name": "Lilac Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/69b2b2e2-b7a0-45a7-ac57-8fd9f6949508.mp4",
+  "poster": "https://happyhands.cc/design-archive/deezer-502af24a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/deezer-502af24a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/deezer-502af24a/thumbnail.jpg"
+}

@@ -1,0 +1,52 @@
+{
+ "id": "bd9fdad0-ebe6-4546-a5c0-ed132ed0a471",
+ "slug": "dna-bd9fdad0",
+ "name": "DNA",
+ "site_url": "https://dnacapital.com",
+ "lastmod": "2026-06-03T16:51:51.513Z",
+ "extracted_at": "2026-06-03T16:51:51.506Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "fintech",
+ "north_star": "Midnight observatory through a particle lens",
+ "fonts": [
+  "Graphik",
+  "Darius",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#070708",
+   "name": "Abyss Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#8f8f93",
+   "name": "Steel Gray"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#1954ec",
+   "name": "Electric Cobalt"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/7d51b341-a1bc-44af-99c8-1721daa8377c.mp4",
+  "poster": "https://happyhands.cc/design-archive/dna-bd9fdad0/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/dna-bd9fdad0/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/dna-bd9fdad0/thumbnail.jpg"
+}

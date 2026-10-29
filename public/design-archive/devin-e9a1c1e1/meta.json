@@ -1,0 +1,63 @@
+{
+ "id": "e9a1c1e1-2c35-47c0-864f-d1e9fea57579",
+ "slug": "devin-e9a1c1e1",
+ "name": "Devin",
+ "site_url": "https://devin.ai",
+ "lastmod": "2026-09-20T22:06:58.860Z",
+ "extracted_at": "2026-09-20T22:02:07.054Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Electric ink on drafting paper. Let near-black type and pale technical surfaces do nearly all of the work, with #2200ff appearing as a deliberate switched-on signal.",
+ "fonts": [
+  "nbInternationalPro",
+  "geistMono"
+ ],
+ "colors": [
+  {
+   "hex": "#f7f6f5",
+   "name": "Paper"
+  },
+  {
+   "hex": "#141414",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#efefef",
+   "name": "Tile Gray"
+  },
+  {
+   "hex": "#e7e7e7",
+   "name": "Mist"
+  },
+  {
+   "hex": "#1f1f1f",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#7d7d7d",
+   "name": "Steel"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#2200ff",
+   "name": "Electric Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/03786cf4-26e2-40f0-96f1-dab45566597b.mp4",
+  "poster": "https://happyhands.cc/design-archive/devin-e9a1c1e1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/devin-e9a1c1e1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/devin-e9a1c1e1/thumbnail.jpg"
+}

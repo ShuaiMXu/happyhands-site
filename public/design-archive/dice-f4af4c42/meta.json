@@ -1,0 +1,59 @@
+{
+ "id": "f4af4c42-2cba-4aa6-8d06-2f728bce702d",
+ "slug": "dice-f4af4c42",
+ "name": "DICE",
+ "site_url": "https://dice.fm",
+ "lastmod": "2026-06-05T03:24:40.921Z",
+ "extracted_at": "2026-06-03T17:44:42.754Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "Monochrome gig flyer — black ink on white paper, headlines screaming, everything else dead quiet.",
+ "fonts": [
+  "Favorit",
+  "Foggy"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Pitch Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#d9d9d9",
+   "name": "Concrete"
+  },
+  {
+   "hex": "#333333",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#595959",
+   "name": "Slate"
+  },
+  {
+   "hex": "#808080",
+   "name": "Stone"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4375e0bf-4fab-415d-ae26-bfef9da1e227.mp4",
+  "poster": "https://happyhands.cc/design-archive/dice-f4af4c42/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/dice-f4af4c42/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/dice-f4af4c42/thumbnail.jpg"
+}

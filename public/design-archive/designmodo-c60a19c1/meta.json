@@ -1,0 +1,102 @@
+{
+ "id": "c60a19c1-259a-4001-95d9-6a3826f5c06e",
+ "slug": "designmodo-c60a19c1",
+ "name": "Designmodo",
+ "site_url": "https://designmodo.com",
+ "lastmod": "2026-05-11T16:26:20.547Z",
+ "extracted_at": "2026-04-11T19:25:33.174Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "",
+ "north_star": "Forest clearing at dawn — dark canopy above, open light below, a single green glow marking the path forward.",
+ "fonts": [
+  "InterVariable"
+ ],
+ "colors": [
+  {
+   "hex": "#0e231c",
+   "name": "Forest Floor"
+  },
+  {
+   "hex": "#1a3029",
+   "name": "Canopy Shadow"
+  },
+  {
+   "hex": "#233630",
+   "name": "Pine Border"
+  },
+  {
+   "hex": "#313942",
+   "name": "Slate Ink"
+  },
+  {
+   "hex": "#656a75",
+   "name": "Ash"
+  },
+  {
+   "hex": "#c3cecb",
+   "name": "Mist"
+  },
+  {
+   "hex": "#879b93",
+   "name": "Fog"
+  },
+  {
+   "hex": "#f4f7f2",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#e4ebe2",
+   "name": "Dew"
+  },
+  {
+   "hex": "#27ae60",
+   "name": "Sprout"
+  },
+  {
+   "hex": "#defaca",
+   "name": "Sage Whisper"
+  },
+  {
+   "hex": "#edf9f2",
+   "name": "Mint Card"
+  },
+  {
+   "hex": "#5c51e0",
+   "name": "Iris"
+  },
+  {
+   "hex": "#186bff",
+   "name": "Sky Link"
+  },
+  {
+   "hex": "#ff5722",
+   "name": "Tangerine CTA"
+  },
+  {
+   "hex": "#f49a40",
+   "name": "Amber Nav"
+  },
+  {
+   "hex": "#2f80ed",
+   "name": "Azure Action"
+  },
+  {
+   "hex": "#f1ebff",
+   "name": "Lavender Tint"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e92bd76f-fa7e-4946-9db1-b2023f73e594.mp4",
+  "poster": "https://happyhands.cc/design-archive/designmodo-c60a19c1/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/designmodo-c60a19c1/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/designmodo-c60a19c1/thumbnail.jpg"
+}

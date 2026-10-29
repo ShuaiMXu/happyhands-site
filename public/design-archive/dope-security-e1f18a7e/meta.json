@@ -1,0 +1,70 @@
+{
+ "id": "e1f18a7e-5af1-46b3-8f89-bce6c78b80d4",
+ "slug": "dope-security-e1f18a7e",
+ "name": "dope.security",
+ "site_url": "https://dope.security",
+ "lastmod": "2026-07-03T10:51:49.117Z",
+ "extracted_at": "2026-07-03T03:26:00.046Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "Midnight terminal with violet beacons",
+ "fonts": [
+  "Whyte Inktrap",
+  "Whyte Inktrap Mono",
+  "GrandSlang",
+  "system-ui",
+  "Karla"
+ ],
+ "colors": [
+  {
+   "hex": "#090909",
+   "name": "Near Black"
+  },
+  {
+   "hex": "#f7f9fa",
+   "name": "Almost White"
+  },
+  {
+   "hex": "#f0f0f0",
+   "name": "Soft White"
+  },
+  {
+   "hex": "#828384",
+   "name": "Steel"
+  },
+  {
+   "hex": "#474747",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#423738",
+   "name": "Iron"
+  },
+  {
+   "hex": "#6b6b6b",
+   "name": "Ash"
+  },
+  {
+   "hex": "#af50ff",
+   "name": "Signal Violet"
+  },
+  {
+   "hex": "#e1bdff",
+   "name": "Lavender Mist"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b74fd7a0-f340-4fbb-88af-6633533478ba.mp4",
+  "poster": "https://happyhands.cc/design-archive/dope-security-e1f18a7e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/dope-security-e1f18a7e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/dope-security-e1f18a7e/thumbnail.jpg"
+}

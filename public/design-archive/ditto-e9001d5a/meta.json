@@ -1,0 +1,67 @@
+{
+ "id": "e9001d5a-504d-47ed-aef0-d0d35fa86418",
+ "slug": "ditto-e9001d5a",
+ "name": "Ditto",
+ "site_url": "https://trustditto.com",
+ "lastmod": "2026-06-03T18:10:42.863Z",
+ "extracted_at": "2026-06-03T18:10:42.858Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "Sunlit wildflower compliance atelier. Warm cream surfaces, vivid yellow primary action, deep navy ink, organic color shapes blooming behind the product.",
+ "fonts": [
+  "Hedvig Letters Serif",
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#130e30",
+   "name": "Deep Ink"
+  },
+  {
+   "hex": "#ffe228",
+   "name": "Hi-Yellow"
+  },
+  {
+   "hex": "#59e25d",
+   "name": "Moss Green"
+  },
+  {
+   "hex": "#e261e5",
+   "name": "Fuchsia"
+  },
+  {
+   "hex": "#5f5c6e",
+   "name": "Slate"
+  },
+  {
+   "hex": "#f9fbf2",
+   "name": "Canvas"
+  },
+  {
+   "hex": "#eff2e5",
+   "name": "Soft Meadow"
+  },
+  {
+   "hex": "#222222",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Onyx"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/97159cf7-501e-4c1e-a3e2-8ed785c894d9.mp4",
+  "poster": "https://happyhands.cc/design-archive/ditto-e9001d5a/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ditto-e9001d5a/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ditto-e9001d5a/thumbnail.jpg"
+}

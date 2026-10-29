@@ -1,0 +1,49 @@
+{
+ "id": "14f10100-a102-427a-88d1-7cc80cbb332d",
+ "slug": "daniel-triendl-14f10100",
+ "name": "Daniel Triendl",
+ "site_url": "https://www.danieltriendl.com",
+ "lastmod": "2026-06-05T05:44:23.324Z",
+ "extracted_at": "2026-06-03T18:51:06.348Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "White gallery wall for loud art",
+ "fonts": [
+  "Times",
+  "UniversalSans 425",
+  "UniversalSans 625",
+  "Rza"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Canvas White"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Plaster Gray"
+  },
+  {
+   "hex": "#9b9b9b",
+   "name": "Ash Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/f4548674-ceca-4c7f-9661-22961caa27f3.mp4",
+  "poster": "https://happyhands.cc/design-archive/daniel-triendl-14f10100/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/daniel-triendl-14f10100/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/daniel-triendl-14f10100/thumbnail.jpg"
+}

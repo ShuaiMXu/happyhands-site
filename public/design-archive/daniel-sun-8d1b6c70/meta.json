@@ -1,0 +1,71 @@
+{
+ "id": "8d1b6c70-e045-4ce6-891d-aba5d5c00e0d",
+ "slug": "daniel-sun-8d1b6c70",
+ "name": "Daniel Sun",
+ "site_url": "https://danielsun.space",
+ "lastmod": "2026-06-05T08:10:45.542Z",
+ "extracted_at": "2026-06-03T19:43:36.477Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Solar monolith on a white gallery wall — one yellow beam, one obsidian name, all the breathing room in the world.",
+ "fonts": [
+  "sans-serif",
+  "Reddit Sans Condensed",
+  "Inter Display",
+  "Inter",
+  "Caveat",
+  "System Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#ffd500",
+   "name": "Solar Beam"
+  },
+  {
+   "hex": "#000000",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f5f5f5",
+   "name": "Concrete"
+  },
+  {
+   "hex": "#808080",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#a6a6a6",
+   "name": "Ash"
+  },
+  {
+   "hex": "#999999",
+   "name": "Fog"
+  },
+  {
+   "hex": "#b8b8b8",
+   "name": "Silver"
+  },
+  {
+   "hex": "#cfcfcf",
+   "name": "Soft Shadow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/3a107d12-464d-4827-b5e3-701344e5ecba.mp4",
+  "poster": "https://happyhands.cc/design-archive/daniel-sun-8d1b6c70/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/daniel-sun-8d1b6c70/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/daniel-sun-8d1b6c70/thumbnail.jpg"
+}

@@ -1,0 +1,63 @@
+{
+ "id": "6036b661-3886-4f76-a5e6-bb8960eb7db5",
+ "slug": "dash-digital-studio-6036b661",
+ "name": "Dash Digital Studio",
+ "site_url": "https://dashdigital.studio",
+ "lastmod": "2026-06-05T03:04:42.978Z",
+ "extracted_at": "2026-06-03T17:43:17.802Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Editorial museum on warm paper. A gallery where giant whisper-weight typography floats over off-white walls and full-bleed product photography does all the talking.",
+ "fonts": [
+  "Founders Grotesk",
+  "Editorial Neue"
+ ],
+ "colors": [
+  {
+   "hex": "#2a2a2a",
+   "name": "Carbon Black"
+  },
+  {
+   "hex": "#f0f0f0",
+   "name": "Bone"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink"
+  },
+  {
+   "hex": "#fafafa",
+   "name": "Linen"
+  },
+  {
+   "hex": "#d6d6d6",
+   "name": "Ash"
+  },
+  {
+   "hex": "#f0edea",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#bcbcb4",
+   "name": "Stone"
+  },
+  {
+   "hex": "#ccc4b9",
+   "name": "Clay"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4b26db23-aa46-469c-a423-39effbbc9504.mp4",
+  "poster": "https://happyhands.cc/design-archive/dash-digital-studio-6036b661/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/dash-digital-studio-6036b661/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/dash-digital-studio-6036b661/thumbnail.jpg"
+}

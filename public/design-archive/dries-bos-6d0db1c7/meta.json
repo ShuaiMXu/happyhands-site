@@ -1,0 +1,47 @@
+{
+ "id": "6d0db1c7-5500-40cd-b2f3-d3d9abbd3a2f",
+ "slug": "dries-bos-6d0db1c7",
+ "name": "Dries Bos",
+ "site_url": "https://www.driesbos.com",
+ "lastmod": "2026-06-05T01:58:01.524Z",
+ "extracted_at": "2026-06-03T17:05:22.539Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "editorial ink on warm vellum",
+ "fonts": [
+  "Sohne Buch",
+  "myFont"
+ ],
+ "colors": [
+  {
+   "hex": "#e8e7e3",
+   "name": "Vellum"
+  },
+  {
+   "hex": "#dddbd5",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#050200",
+   "name": "India Ink"
+  },
+  {
+   "hex": "#747472",
+   "name": "Graphite"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/d0ca80e4-f1ff-4f26-9b3f-410b8278237a.mp4",
+  "poster": "https://happyhands.cc/design-archive/dries-bos-6d0db1c7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/dries-bos-6d0db1c7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/dries-bos-6d0db1c7/thumbnail.jpg"
+}

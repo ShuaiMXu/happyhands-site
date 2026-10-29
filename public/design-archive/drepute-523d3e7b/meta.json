@@ -1,0 +1,66 @@
+{
+ "id": "523d3e7b-b0a2-4979-a626-00f1487b6e4d",
+ "slug": "drepute-523d3e7b",
+ "name": "Drepute",
+ "site_url": "https://drepute.xyz",
+ "lastmod": "2026-06-05T09:52:49.352Z",
+ "extracted_at": "2026-06-03T20:35:36.073Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "other",
+ "north_star": "midnight observatory over still water — a single sentence floats beneath a field of stars",
+ "fonts": [
+  "Source Sans Pro",
+  "Playfair Display",
+  "Montserrat",
+  "GD Sherpa",
+  "Times"
+ ],
+ "colors": [
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#000000",
+   "name": "Deep Ink"
+  },
+  {
+   "hex": "#161616",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#bfbfbf",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#a9a9a9",
+   "name": "Fog"
+  },
+  {
+   "hex": "#7f8080",
+   "name": "Steel"
+  },
+  {
+   "hex": "#8995a9",
+   "name": "Slate Blue"
+  },
+  {
+   "hex": "#00a4a6",
+   "name": "Lagoon Teal"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/bfda2a82-524d-48af-842f-aead165c0b11.mp4",
+  "poster": "https://happyhands.cc/design-archive/drepute-523d3e7b/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/drepute-523d3e7b/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/drepute-523d3e7b/thumbnail.jpg"
+}

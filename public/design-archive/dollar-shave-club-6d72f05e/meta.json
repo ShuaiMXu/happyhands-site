@@ -1,0 +1,81 @@
+{
+ "id": "6d72f05e-dce6-43ad-9532-f61bf211ed46",
+ "slug": "dollar-shave-club-6d72f05e",
+ "name": "Dollar Shave Club",
+ "site_url": "https://www.dollarshaveclub.com",
+ "lastmod": "2026-06-03T21:06:22.475Z",
+ "extracted_at": "2026-06-03T21:06:22.469Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "ecommerce",
+ "north_star": "Navy warehouse with a single orange flare",
+ "fonts": [
+  "DSC Specter",
+  "Gelica",
+  "GTStandard-M",
+  "Font Awesome 5 Pro"
+ ],
+ "colors": [
+  {
+   "hex": "#142978",
+   "name": "Midnight Navy"
+  },
+  {
+   "hex": "#fe5000",
+   "name": "Flame Orange"
+  },
+  {
+   "hex": "#82163f",
+   "name": "Wine Burgundy"
+  },
+  {
+   "hex": "#001233",
+   "name": "Deep Ink"
+  },
+  {
+   "hex": "#0a153c",
+   "name": "Abyss Navy"
+  },
+  {
+   "hex": "#dbebf5",
+   "name": "Powder Blue"
+  },
+  {
+   "hex": "#f3e0c8",
+   "name": "Warm Cream"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Snow White"
+  },
+  {
+   "hex": "#404040",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#e3e3e3",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Fog"
+  },
+  {
+   "hex": "#949596",
+   "name": "Stone"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c3d82ba5-f169-4eb7-ab9f-72c1fe7cf6cd.mp4",
+  "poster": "https://happyhands.cc/design-archive/dollar-shave-club-6d72f05e/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/dollar-shave-club-6d72f05e/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/dollar-shave-club-6d72f05e/thumbnail.jpg"
+}

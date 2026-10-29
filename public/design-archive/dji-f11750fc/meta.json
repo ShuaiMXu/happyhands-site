@@ -1,0 +1,71 @@
+{
+ "id": "f11750fc-d7c0-4d26-b32a-3b1d2098ae34",
+ "slug": "dji-f11750fc",
+ "name": "DJI",
+ "site_url": "https://dji.com",
+ "lastmod": "2026-06-05T01:40:18.634Z",
+ "extracted_at": "2026-06-03T16:42:12.976Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "ecommerce",
+ "north_star": "aerospace black canvas with a single electric blue thrust",
+ "fonts": [
+  "Open Sans",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#ededed",
+   "name": "Fog"
+  },
+  {
+   "hex": "#6c7073",
+   "name": "Slate"
+  },
+  {
+   "hex": "#595959",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#303233",
+   "name": "Iron"
+  },
+  {
+   "hex": "#8c8c8c",
+   "name": "Ash"
+  },
+  {
+   "hex": "#272727",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#0070d5",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#3b63a9",
+   "name": "Indigo Steel"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/62849a87-21f2-4b7a-b20e-fd9bbbe20a34.mp4",
+  "poster": "https://happyhands.cc/design-archive/dji-f11750fc/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/dji-f11750fc/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/dji-f11750fc/thumbnail.jpg"
+}

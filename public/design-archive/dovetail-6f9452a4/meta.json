@@ -1,0 +1,71 @@
+{
+ "id": "6f9452a4-3b64-4c6f-a05e-528d7a586f24",
+ "slug": "dovetail-6f9452a4",
+ "name": "Dovetail",
+ "site_url": "https://dovetailapp.com",
+ "lastmod": "2026-06-03T16:59:46.677Z",
+ "extracted_at": "2026-06-03T16:59:46.670Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "saas",
+ "north_star": "blueprint control room at midnight.",
+ "fonts": [
+  "Inter",
+  "JetBrains Mono"
+ ],
+ "colors": [
+  {
+   "hex": "#6798ff",
+   "name": "Blue Cornflower"
+  },
+  {
+   "hex": "#0a0a0a",
+   "name": "Page Ink"
+  },
+  {
+   "hex": "#1e1e1e",
+   "name": "Card Carbon"
+  },
+  {
+   "hex": "#141414",
+   "name": "Deep Coal"
+  },
+  {
+   "hex": "#000000",
+   "name": "Onyx"
+  },
+  {
+   "hex": "#313131",
+   "name": "Steel Border"
+  },
+  {
+   "hex": "#454545",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#7c7c7c",
+   "name": "Fog"
+  },
+  {
+   "hex": "#a7a7a7",
+   "name": "Ash"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Snow"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/81283453-1408-4ae1-9955-a4a6bba7cbb0.mp4",
+  "poster": "https://happyhands.cc/design-archive/dovetail-6f9452a4/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/dovetail-6f9452a4/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/dovetail-6f9452a4/thumbnail.jpg"
+}

@@ -1,0 +1,78 @@
+{
+ "id": "10654184-eb92-4b75-a7af-bd92bc6cdc5c",
+ "slug": "doppler-10654184",
+ "name": "Doppler",
+ "site_url": "https://doppler.com",
+ "lastmod": "2026-06-05T05:15:46.001Z",
+ "extracted_at": "2026-06-03T18:42:16.816Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "devtools",
+ "north_star": "violet-lit vault at midnight. A near-black canvas glows with a single lavender signal and a green confirmation light, every surface rounded just enough to feel handled.",
+ "fonts": [
+  "Doppler Repro"
+ ],
+ "colors": [
+  {
+   "hex": "#1c1624",
+   "name": "Midnight Plum"
+  },
+  {
+   "hex": "#2d2734",
+   "name": "Shadow Plum"
+  },
+  {
+   "hex": "#f1f0ec",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Fog Line"
+  },
+  {
+   "hex": "#d0c9c4",
+   "name": "Ash Veil"
+  },
+  {
+   "hex": "#a5a2a5",
+   "name": "Mid Ash"
+  },
+  {
+   "hex": "#55505b",
+   "name": "Iron Edge"
+  },
+  {
+   "hex": "#b997ff",
+   "name": "Lavender Spark"
+  },
+  {
+   "hex": "#00f575",
+   "name": "Signal Green"
+  },
+  {
+   "hex": "#6b13f5",
+   "name": "Neon Violet"
+  },
+  {
+   "hex": "#ff5632",
+   "name": "Ember Orange"
+  },
+  {
+   "hex": "#ff9efa",
+   "name": "Plasma Pink"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/aded447a-7bbf-4822-a442-89abba16e3d8.mp4",
+  "poster": "https://happyhands.cc/design-archive/doppler-10654184/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/doppler-10654184/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/doppler-10654184/thumbnail.jpg"
+}

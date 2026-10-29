@@ -1,0 +1,59 @@
+{
+ "id": "981d90e9-7be3-497f-a899-52a0a9ec16f4",
+ "slug": "dot-connect-981d90e9",
+ "name": "(dot)connect",
+ "site_url": "https://dotconnect.vc",
+ "lastmod": "2026-06-03T15:06:24.550Z",
+ "extracted_at": "2026-06-03T15:06:24.539Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "Swiss engineering blueprint with a single ember",
+ "fonts": [
+  "AeonikPro",
+  "DotConnect"
+ ],
+ "colors": [
+  {
+   "hex": "#fcfbf8",
+   "name": "Bone Canvas"
+  },
+  {
+   "hex": "#001011",
+   "name": "Charcoal Ink"
+  },
+  {
+   "hex": "#0f1e1f",
+   "name": "Smoke Veil"
+  },
+  {
+   "hex": "#ededea",
+   "name": "Ash Layer"
+  },
+  {
+   "hex": "#c1c4c2",
+   "name": "Mist Border"
+  },
+  {
+   "hex": "#fd5321",
+   "name": "Ember"
+  },
+  {
+   "hex": "#007aff",
+   "name": "Signal Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ea3ddf01-bb8a-46ba-bfe7-f960c7f48b5e.mp4",
+  "poster": "https://happyhands.cc/design-archive/dot-connect-981d90e9/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/dot-connect-981d90e9/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/dot-connect-981d90e9/thumbnail.jpg"
+}

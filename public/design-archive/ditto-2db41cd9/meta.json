@@ -1,0 +1,92 @@
+{
+ "id": "2db41cd9-c898-4f59-b704-3042c0d87f45",
+ "slug": "ditto-2db41cd9",
+ "name": "Ditto",
+ "site_url": "https://www.dittowords.com",
+ "lastmod": "2026-06-05T06:19:09.191Z",
+ "extracted_at": "2026-06-03T19:01:41.956Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "marked-up manuscript on warm parchment",
+ "fonts": [
+  "ABC Social",
+  "ABC Social Extended",
+  "ABC Social Condensed"
+ ],
+ "colors": [
+  {
+   "hex": "#f7f5f3",
+   "name": "Parchment"
+  },
+  {
+   "hex": "#000000",
+   "name": "India Ink"
+  },
+  {
+   "hex": "#222222",
+   "name": "Charcoal Warm"
+  },
+  {
+   "hex": "#6a6559",
+   "name": "Graphite Warm"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#e2e2e2",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#dcd8cf",
+   "name": "Linen"
+  },
+  {
+   "hex": "#3e6b15",
+   "name": "Highlight Green"
+  },
+  {
+   "hex": "#ffdd33",
+   "name": "Marker Yellow"
+  },
+  {
+   "hex": "#ff6137",
+   "name": "Edit Orange"
+  },
+  {
+   "hex": "#b26dc2",
+   "name": "Markup Purple"
+  },
+  {
+   "hex": "#0097e6",
+   "name": "Comment Blue"
+  },
+  {
+   "hex": "#f5c4cc",
+   "name": "Sticky Pink"
+  },
+  {
+   "hex": "#aa7e2e",
+   "name": "Olive Gold"
+  },
+  {
+   "hex": "#bbb809",
+   "name": "Mustard"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/7a16c35f-0ab8-4e09-8d6d-0a194b959d4a.mp4",
+  "poster": "https://happyhands.cc/design-archive/ditto-2db41cd9/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/ditto-2db41cd9/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/ditto-2db41cd9/thumbnail.jpg"
+}

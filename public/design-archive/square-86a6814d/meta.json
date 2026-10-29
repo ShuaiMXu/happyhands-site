@@ -1,0 +1,68 @@
+{
+ "id": "86a6814d-2485-4fad-b6fd-56c2d0a23620",
+ "slug": "square-86a6814d",
+ "name": "Square",
+ "site_url": "https://squareup.com",
+ "lastmod": "2026-06-03T18:30:24.836Z",
+ "extracted_at": "2026-06-03T18:30:24.831Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "fintech",
+ "north_star": "blue signal on white steel.",
+ "fonts": [
+  "Square Sans Display VF",
+  "Square Sans Text VF",
+  "Cash Sans"
+ ],
+ "colors": [
+  {
+   "hex": "#006aff",
+   "name": "Signal Blue"
+  },
+  {
+   "hex": "#1a1a1a",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#737373",
+   "name": "Slate Gray"
+  },
+  {
+   "hex": "#d9d9d9",
+   "name": "Platinum"
+  },
+  {
+   "hex": "#b3b3b3",
+   "name": "Ash"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#030303",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#000000",
+   "name": "True Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/49f9255b-b47e-43f6-8e8d-48d77329b695.mp4",
+  "poster": "https://happyhands.cc/design-archive/square-86a6814d/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/square-86a6814d/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/square-86a6814d/thumbnail.jpg"
+}

@@ -1,0 +1,62 @@
+{
+ "id": "d703d9f7-4821-468e-8fe4-c8b5790b00ed",
+ "slug": "sunday-d703d9f7",
+ "name": "sunday",
+ "site_url": "https://sundayapp.com",
+ "lastmod": "2026-06-05T02:38:56.695Z",
+ "extracted_at": "2026-06-03T17:23:01.116Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "fintech",
+ "north_star": "white gallery with a neon pulse — a clean Helvetica poster where one hot pink line cuts through the black-and-white calm.",
+ "fonts": [
+  "Helvetica Neue"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Carbon Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#736f7c",
+   "name": "Warm Gray"
+  },
+  {
+   "hex": "#dedede",
+   "name": "Mist"
+  },
+  {
+   "hex": "#bdbdbd",
+   "name": "Fog"
+  },
+  {
+   "hex": "#7f7f7f",
+   "name": "Slate"
+  },
+  {
+   "hex": "#8b8893",
+   "name": "Iris Shadow"
+  },
+  {
+   "hex": "#ff17e9",
+   "name": "Neon Pulse"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ac33064f-22a7-4359-a0d6-f8e29fab22a3.mp4",
+  "poster": "https://happyhands.cc/design-archive/sunday-d703d9f7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/sunday-d703d9f7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/sunday-d703d9f7/thumbnail.jpg"
+}

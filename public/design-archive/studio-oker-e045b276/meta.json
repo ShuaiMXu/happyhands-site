@@ -1,0 +1,59 @@
+{
+ "id": "e045b276-ae8d-442e-98de-fa8650e284de",
+ "slug": "studio-oker-e045b276",
+ "name": "Studio Oker",
+ "site_url": "https://oker.com",
+ "lastmod": "2026-06-05T10:19:36.327Z",
+ "extracted_at": "2026-06-03T21:03:14.903Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "agency",
+ "north_star": "darkened gallery with scarlet punctuation — a black-walled portfolio room where white type floats and one red whisper cuts through the silence.",
+ "fonts": [
+  "NextBook",
+  "Circular Std"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#101010",
+   "name": "Soft Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Bone White"
+  },
+  {
+   "hex": "#a0a0a0",
+   "name": "Fog Gray"
+  },
+  {
+   "hex": "#484848",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#e4002b",
+   "name": "Scarlet Signal"
+  },
+  {
+   "hex": "#e85a5a",
+   "name": "Rose Brand Spectrum"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e062cc5d-8ef9-43bb-a474-9ed34217f17b.mp4",
+  "poster": "https://happyhands.cc/design-archive/studio-oker-e045b276/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/studio-oker-e045b276/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/studio-oker-e045b276/thumbnail.jpg"
+}

@@ -1,0 +1,51 @@
+{
+ "id": "d56508d7-c307-47f7-ad30-052e5a69f01f",
+ "slug": "spring-summer-d56508d7",
+ "name": "Spring/Summer",
+ "site_url": "https://springsummer.dk",
+ "lastmod": "2026-06-05T03:38:36.031Z",
+ "extracted_at": "2026-06-03T17:47:28.357Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Scandinavian design annual on celadon paper",
+ "fonts": [
+  "Montreal",
+  "Grotesk"
+ ],
+ "colors": [
+  {
+   "hex": "#e5ebda",
+   "name": "Sage Paper"
+  },
+  {
+   "hex": "#44394c",
+   "name": "Plum Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#c0c3b6",
+   "name": "Stone Border"
+  },
+  {
+   "hex": "#b0b2a9",
+   "name": "Ash Border"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/55a342e9-e55d-4f8d-af65-288c57ba1bb3.mp4",
+  "poster": "https://happyhands.cc/design-archive/spring-summer-d56508d7/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/spring-summer-d56508d7/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/spring-summer-d56508d7/thumbnail.jpg"
+}

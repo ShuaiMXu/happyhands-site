@@ -1,0 +1,74 @@
+{
+ "id": "5b90e218-b325-4901-a1c5-ea1134339826",
+ "slug": "spatialchat-5b90e218",
+ "name": "SpatialChat",
+ "site_url": "https://spatial.chat",
+ "lastmod": "2026-06-05T09:40:21.211Z",
+ "extracted_at": "2026-06-03T20:39:01.373Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "violet pulse on white parchment",
+ "fonts": [
+  "Satoshi"
+ ],
+ "colors": [
+  {
+   "hex": "#5727e7",
+   "name": "Brand Violet"
+  },
+  {
+   "hex": "#f2f2ff",
+   "name": "Tinted Highlight"
+  },
+  {
+   "hex": "#030712",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#222222",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#4b5563",
+   "name": "Slate"
+  },
+  {
+   "hex": "#5c5c5c",
+   "name": "Mid Gray"
+  },
+  {
+   "hex": "#6b7280",
+   "name": "Steel"
+  },
+  {
+   "hex": "#d1d5db",
+   "name": "Mist"
+  },
+  {
+   "hex": "#e5e7eb",
+   "name": "Fog"
+  },
+  {
+   "hex": "#f9fafb",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/491cb37a-4306-4197-99d2-286905f5f8c2.mp4",
+  "poster": "https://happyhands.cc/design-archive/spatialchat-5b90e218/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/spatialchat-5b90e218/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/spatialchat-5b90e218/thumbnail.jpg"
+}

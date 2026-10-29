@@ -1,0 +1,99 @@
+{
+ "id": "cbd8a058-6ecb-4f1b-9b5a-2bf2597826ee",
+ "slug": "sprig-cbd8a058",
+ "name": "Sprig",
+ "site_url": "https://sprig.com",
+ "lastmod": "2026-06-05T10:31:13.037Z",
+ "extracted_at": "2026-06-03T20:53:59.378Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "editorial research notebook on warm paper — quiet, almost inkless, with warm light leaking in at the edges",
+ "fonts": [
+  "TT Commons Pro",
+  "ABC Diatype"
+ ],
+ "colors": [
+  {
+   "hex": "#0b2330",
+   "name": "Abyssal Ink"
+  },
+  {
+   "hex": "#faf9f8",
+   "name": "Bone"
+  },
+  {
+   "hex": "#141312",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#272420",
+   "name": "Espresso"
+  },
+  {
+   "hex": "#000000",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#f3f3f3",
+   "name": "Ash"
+  },
+  {
+   "hex": "#e8e7e6",
+   "name": "Mist"
+  },
+  {
+   "hex": "#dddcd9",
+   "name": "Vapor"
+  },
+  {
+   "hex": "#c4c4bc",
+   "name": "Pebble"
+  },
+  {
+   "hex": "#9a9a91",
+   "name": "Fog"
+  },
+  {
+   "hex": "#8f8d8b",
+   "name": "Smoke"
+  },
+  {
+   "hex": "#6e6d6a",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#575653",
+   "name": "Slate"
+  },
+  {
+   "hex": "#322e2a",
+   "name": "Coffee"
+  },
+  {
+   "hex": "#efdcb6",
+   "name": "Dusk"
+  },
+  {
+   "hex": "#eba370",
+   "name": "Ember"
+  },
+  {
+   "hex": "#7d7a8f",
+   "name": "Twilight"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/abd66407-5f63-4b17-a3ee-34568641c49c.mp4",
+  "poster": "https://happyhands.cc/design-archive/sprig-cbd8a058/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/sprig-cbd8a058/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/sprig-cbd8a058/thumbnail.jpg"
+}

@@ -1,0 +1,75 @@
+{
+ "id": "80392d80-3970-46f0-a7ed-f213f316c933",
+ "slug": "sublime-80392d80",
+ "name": "Sublime",
+ "site_url": "https://sublime.app",
+ "lastmod": "2026-06-03T22:02:57.114Z",
+ "extracted_at": "2026-06-03T22:02:57.107Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "productivity",
+ "north_star": "white-walled curator's atelier — a quiet gallery where one bold black headline holds the room and a single green object is always the only thing worth picking up",
+ "fonts": [
+  "Control Upright",
+  "Times New Roman"
+ ],
+ "colors": [
+  {
+   "hex": "#38744d",
+   "name": "Moss Green"
+  },
+  {
+   "hex": "#00aaff",
+   "name": "Signal Cyan"
+  },
+  {
+   "hex": "#e0f5ff",
+   "name": "Ice Wash"
+  },
+  {
+   "hex": "#cbffa6",
+   "name": "Mint Whisper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#181816",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#efefef",
+   "name": "Bone"
+  },
+  {
+   "hex": "#908f8e",
+   "name": "Stone"
+  },
+  {
+   "hex": "#a29e9c",
+   "name": "Fog"
+  },
+  {
+   "hex": "#6a6967",
+   "name": "Slate"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/4c33d741-c667-400d-a931-e5343956b61f.mp4",
+  "poster": "https://happyhands.cc/design-archive/sublime-80392d80/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/sublime-80392d80/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/sublime-80392d80/thumbnail.jpg"
+}

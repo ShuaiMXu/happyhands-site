@@ -1,0 +1,66 @@
+{
+ "id": "efdd6d8f-4488-4312-86a7-4ee8e016c83a",
+ "slug": "strava-efdd6d8f",
+ "name": "Strava",
+ "site_url": "https://strava.com",
+ "lastmod": "2026-06-05T03:01:55.364Z",
+ "extracted_at": "2026-06-03T17:33:21.537Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "other",
+ "north_star": "athlete's logbook on warm paper — a single orange highlighter mark against black-and-white print",
+ "fonts": [
+  "Boathouse"
+ ],
+ "colors": [
+  {
+   "hex": "#fc5200",
+   "name": "Strava Orange"
+  },
+  {
+   "hex": "#0060d0",
+   "name": "Link Blue"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f9f8f5",
+   "name": "Warm Linen"
+  },
+  {
+   "hex": "#000000",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#21211f",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#43423f",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#64635e",
+   "name": "Pewter"
+  },
+  {
+   "hex": "#e0e0de",
+   "name": "Bone"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/39c2fe5b-e7ff-4ff2-acc3-4a91241390d0.mp4",
+  "poster": "https://happyhands.cc/design-archive/strava-efdd6d8f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/strava-efdd6d8f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/strava-efdd6d8f/thumbnail.jpg"
+}

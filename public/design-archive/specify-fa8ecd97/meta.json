@@ -1,0 +1,95 @@
+{
+ "id": "fa8ecd97-5052-4909-a4b4-50419ad9d00a",
+ "slug": "specify-fa8ecd97",
+ "name": "Specify",
+ "site_url": "https://specifyapp.com",
+ "lastmod": "2026-06-03T18:41:53.833Z",
+ "extracted_at": "2026-06-03T18:41:53.827Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "mixed",
+ "industry": "design",
+ "north_star": "Black studio wall with neon violet sign",
+ "fonts": [
+  "sans-serif",
+  "Inter",
+  "Fira Code",
+  "Inter-Medium",
+  "Inter-SemiBold",
+  "Inter-Bold"
+ ],
+ "colors": [
+  {
+   "hex": "#624de3",
+   "name": "Iris"
+  },
+  {
+   "hex": "#8d4af7",
+   "name": "Soft Iris"
+  },
+  {
+   "hex": "#1a1d1e",
+   "name": "Studio Slate"
+  },
+  {
+   "hex": "#151718",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#f6f7f9",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#ebedef",
+   "name": "Mist"
+  },
+  {
+   "hex": "#8d8e8f",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#5f6162",
+   "name": "Iron"
+  },
+  {
+   "hex": "#000000",
+   "name": "Noir"
+  },
+  {
+   "hex": "#1d58c0",
+   "name": "Cobalt Pop"
+  },
+  {
+   "hex": "#009639",
+   "name": "Fern Pop"
+  },
+  {
+   "hex": "#f1eefe",
+   "name": "Lilac Wash"
+  },
+  {
+   "hex": "#e5fbeb",
+   "name": "Mint Wash"
+  },
+  {
+   "hex": "#feeadd",
+   "name": "Apricot Wash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/e87790c7-cb6c-4368-8100-bd0de707a64e.mp4",
+  "poster": "https://happyhands.cc/design-archive/specify-fa8ecd97/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/specify-fa8ecd97/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/specify-fa8ecd97/thumbnail.jpg"
+}

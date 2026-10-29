@@ -1,0 +1,79 @@
+{
+ "id": "eefc0305-818c-4f57-80ce-a4bc1f7aac92",
+ "slug": "sparkles-eefc0305",
+ "name": "Sparkles",
+ "site_url": "https://sparkles.dev",
+ "lastmod": "2026-06-03T17:38:33.608Z",
+ "extracted_at": "2026-06-03T17:38:33.603Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "devtools",
+ "north_star": "Ink-on-paper broadsheet guarded by crayon mascots",
+ "fonts": [
+  "Gelica",
+  "Articulat CF"
+ ],
+ "colors": [
+  {
+   "hex": "#0a0a0a",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#18181b",
+   "name": "Zinc Ink"
+  },
+  {
+   "hex": "#27272a",
+   "name": "Slate 700"
+  },
+  {
+   "hex": "#3f3f46",
+   "name": "Slate 600"
+  },
+  {
+   "hex": "#52525c",
+   "name": "Slate 500"
+  },
+  {
+   "hex": "#71717b",
+   "name": "Zinc 500"
+  },
+  {
+   "hex": "#d4d4d8",
+   "name": "Zinc 300"
+  },
+  {
+   "hex": "#e5e5e5",
+   "name": "Zinc 200"
+  },
+  {
+   "hex": "#f4f4f5",
+   "name": "Zinc 100"
+  },
+  {
+   "hex": "#fafafa",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure White"
+  },
+  {
+   "hex": "#54b16c",
+   "name": "Footer Green"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/ea1d9651-11ce-4e42-b280-6e8489abc8dc.mp4",
+  "poster": "https://happyhands.cc/design-archive/sparkles-eefc0305/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/sparkles-eefc0305/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/sparkles-eefc0305/thumbnail.jpg"
+}

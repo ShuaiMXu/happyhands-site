@@ -1,0 +1,74 @@
+{
+ "id": "14e563d8-a35a-4867-b4bf-15d1620ddae7",
+ "slug": "substack-14e563d8",
+ "name": "Substack",
+ "site_url": "https://substack.com",
+ "lastmod": "2026-06-05T02:34:52.363Z",
+ "extracted_at": "2026-06-03T17:19:55.187Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "media",
+ "north_star": "orange ink on a newsroom desk",
+ "fonts": [
+  "system-ui",
+  "Cahuenga",
+  "Spectral",
+  "JetBrains Mono",
+  "-apple-system-ui-serif"
+ ],
+ "colors": [
+  {
+   "hex": "#ff6719",
+   "name": "Signal Orange"
+  },
+  {
+   "hex": "#363737",
+   "name": "Ink"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper"
+  },
+  {
+   "hex": "#232525",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#777777",
+   "name": "Stone"
+  },
+  {
+   "hex": "#b6b6b6",
+   "name": "Ash"
+  },
+  {
+   "hex": "#c8c8c8",
+   "name": "Mist"
+  },
+  {
+   "hex": "#eeeeee",
+   "name": "Cloud"
+  },
+  {
+   "hex": "#5e5e5e",
+   "name": "Slate"
+  },
+  {
+   "hex": "#000000",
+   "name": "Black"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/acd1682d-6bcb-4042-b9ab-dac1b4460912.mp4",
+  "poster": "https://happyhands.cc/design-archive/substack-14e563d8/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/substack-14e563d8/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/substack-14e563d8/thumbnail.jpg"
+}

@@ -1,0 +1,62 @@
+{
+ "id": "35f89ccd-614d-4f8f-9cce-bb94309df237",
+ "slug": "soundcloud-35f89ccd",
+ "name": "SoundCloud",
+ "site_url": "https://soundcloud.com",
+ "lastmod": "2026-06-05T05:33:26.252Z",
+ "extracted_at": "2026-06-03T18:49:18.048Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "media",
+ "north_star": "concert darkroom with neon blue signal — a near-black gallery where album art and one cool accent color do all the work, and the chrome around them stays invisible.",
+ "fonts": [
+  "Söhne (custom)"
+ ],
+ "colors": [
+  {
+   "hex": "#121212",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#303030",
+   "name": "Graphite"
+  },
+  {
+   "hex": "#666666",
+   "name": "Mid Gray"
+  },
+  {
+   "hex": "#999999",
+   "name": "Fog"
+  },
+  {
+   "hex": "#cccccc",
+   "name": "Silver"
+  },
+  {
+   "hex": "#f2f2f2",
+   "name": "Bone"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#699fff",
+   "name": "Signal Blue"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/13a26a4e-a9fa-4e01-9126-6b84097fde43.mp4",
+  "poster": "https://happyhands.cc/design-archive/soundcloud-35f89ccd/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/soundcloud-35f89ccd/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/soundcloud-35f89ccd/thumbnail.jpg"
+}

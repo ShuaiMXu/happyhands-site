@@ -1,0 +1,42 @@
+{
+ "id": "670869ea-9576-4f9d-af3a-038910f8b9b8",
+ "slug": "studio-emmerer-670869ea",
+ "name": "Studio Emmerer",
+ "site_url": "https://emmerer.com",
+ "lastmod": "2026-06-05T10:30:36.515Z",
+ "extracted_at": "2026-06-03T20:51:35.223Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "agency",
+ "north_star": "Typeset on drafting paper",
+ "fonts": [
+  "NHaasGrotesk"
+ ],
+ "colors": [
+  {
+   "hex": "#000000",
+   "name": "Pure Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Drafting White"
+  },
+  {
+   "hex": "#999999",
+   "name": "Index Gray"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/06818ff8-ee90-4c90-af3b-ea7619af5cce.mp4",
+  "poster": "https://happyhands.cc/design-archive/studio-emmerer-670869ea/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/studio-emmerer-670869ea/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/studio-emmerer-670869ea/thumbnail.jpg"
+}

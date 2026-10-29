@@ -1,0 +1,82 @@
+{
+ "id": "c363a216-873c-4112-b960-8e823db76f74",
+ "slug": "stable-audio-c363a216",
+ "name": "Stable Audio",
+ "site_url": "https://stableaudio.com",
+ "lastmod": "2026-06-05T06:52:05.679Z",
+ "extracted_at": "2026-06-03T19:17:24.601Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ai",
+ "north_star": "Sunlit studio on warm paper.",
+ "fonts": [
+  "Inter"
+ ],
+ "colors": [
+  {
+   "hex": "#f9a916",
+   "name": "Amber Pulse"
+  },
+  {
+   "hex": "#a0f32f",
+   "name": "Lime Signal"
+  },
+  {
+   "hex": "#c4bae3",
+   "name": "Lavender Wash"
+  },
+  {
+   "hex": "#e1ca46",
+   "name": "Mustard Field"
+  },
+  {
+   "hex": "#9fc2c7",
+   "name": "Sage Mist"
+  },
+  {
+   "hex": "#e5dfc8",
+   "name": "Khaki Paper"
+  },
+  {
+   "hex": "#f4f1ec",
+   "name": "Warm Canvas"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Pure Paper"
+  },
+  {
+   "hex": "#e2e2e7",
+   "name": "Pale Mist"
+  },
+  {
+   "hex": "#d2d1db",
+   "name": "Hairline"
+  },
+  {
+   "hex": "#27262b",
+   "name": "Ink Stone"
+  },
+  {
+   "hex": "#000000",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#737170",
+   "name": "Ash"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/9edbd862-756a-44bf-85ec-57632ae88bd9.mp4",
+  "poster": "https://happyhands.cc/design-archive/stable-audio-c363a216/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/stable-audio-c363a216/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/stable-audio-c363a216/thumbnail.jpg"
+}

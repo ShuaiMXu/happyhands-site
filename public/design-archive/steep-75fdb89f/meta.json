@@ -1,0 +1,67 @@
+{
+ "id": "75fdb89f-ca64-41b3-af36-7a78bd09448e",
+ "slug": "steep-75fdb89f",
+ "name": "Steep",
+ "site_url": "https://steep.app",
+ "lastmod": "2026-07-03T09:11:11.344Z",
+ "extracted_at": "2026-07-03T02:46:12.201Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "saas",
+ "north_star": "serif analytics on warm paper",
+ "fonts": [
+  "Signifier",
+  "Sohne"
+ ],
+ "colors": [
+  {
+   "hex": "#17191c",
+   "name": "Ink Black"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "Paper White"
+  },
+  {
+   "hex": "#f2f2f3",
+   "name": "Mist Gray"
+  },
+  {
+   "hex": "#fafafb",
+   "name": "Fog White"
+  },
+  {
+   "hex": "#777b86",
+   "name": "Slate Gray"
+  },
+  {
+   "hex": "#979799",
+   "name": "Ash Gray"
+  },
+  {
+   "hex": "#a3a6af",
+   "name": "Smoke Gray"
+  },
+  {
+   "hex": "#fbe1d1",
+   "name": "Blush Peach"
+  },
+  {
+   "hex": "#5d2a1a",
+   "name": "Sienna Brown"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/58dae4b0-22f8-4d2b-8916-76eb92a961ee.mp4",
+  "poster": "https://happyhands.cc/design-archive/steep-75fdb89f/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/steep-75fdb89f/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/steep-75fdb89f/thumbnail.jpg"
+}

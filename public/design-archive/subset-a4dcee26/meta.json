@@ -1,0 +1,72 @@
+{
+ "id": "a4dcee26-dd31-415a-ac99-64299959e7f1",
+ "slug": "subset-a4dcee26",
+ "name": "Subset",
+ "site_url": "https://knickey.com",
+ "lastmod": "2026-06-03T19:05:10.475Z",
+ "extracted_at": "2026-06-03T19:05:10.461Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "light",
+ "industry": "ecommerce",
+ "north_star": "editorial boutique on raw linen",
+ "fonts": [
+  "FoundersGrotesk",
+  "TTRamillas_Light",
+  "GTStandard-M"
+ ],
+ "colors": [
+  {
+   "hex": "#241f20",
+   "name": "Ink"
+  },
+  {
+   "hex": "#f5f4ee",
+   "name": "Raw Linen"
+  },
+  {
+   "hex": "#ffffff",
+   "name": "White"
+  },
+  {
+   "hex": "#808080",
+   "name": "Fog"
+  },
+  {
+   "hex": "#edcdc2",
+   "name": "Blush"
+  },
+  {
+   "hex": "#26262a",
+   "name": "Charcoal"
+  },
+  {
+   "hex": "#8bbd78",
+   "name": "Sage Leaf"
+  },
+  {
+   "hex": "#6487ba",
+   "name": "Heritage Blue"
+  },
+  {
+   "hex": "#233735",
+   "name": "Midnight Forest"
+  },
+  {
+   "hex": "#ff965b",
+   "name": "Ember"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/b585a19f-15c9-43d7-bd6f-104fa972a546.mp4",
+  "poster": "https://happyhands.cc/design-archive/subset-a4dcee26/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/subset-a4dcee26/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/subset-a4dcee26/thumbnail.jpg"
+}

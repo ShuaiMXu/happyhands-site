@@ -1,0 +1,67 @@
+{
+ "id": "6b4e6620-5c06-4dc1-931b-82265116f6f2",
+ "slug": "stryds-6b4e6620",
+ "name": "Stryds",
+ "site_url": "https://stryds.com",
+ "lastmod": "2026-06-05T07:39:05.657Z",
+ "extracted_at": "2026-06-03T19:25:55.782Z",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "theme": "dark",
+ "industry": "other",
+ "north_star": "Aurora ringed midnight void",
+ "fonts": [
+  "SF Pro Display",
+  "Arial"
+ ],
+ "colors": [
+  {
+   "hex": "#a6ff00",
+   "name": "Electric Lime"
+  },
+  {
+   "hex": "#040126",
+   "name": "Deep Violet"
+  },
+  {
+   "hex": "#101010",
+   "name": "Obsidian"
+  },
+  {
+   "hex": "#171717",
+   "name": "Carbon"
+  },
+  {
+   "hex": "#333333",
+   "name": "Slate"
+  },
+  {
+   "hex": "#3d3d3d",
+   "name": "Steel"
+  },
+  {
+   "hex": "#6f6f6f",
+   "name": "Fog"
+  },
+  {
+   "hex": "#fdfdfd",
+   "name": "Paper"
+  },
+  {
+   "hex": "#000000",
+   "name": "Void"
+  }
+ ],
+ "screenshot": "screenshot.jpg",
+ "thumbnail": "thumbnail.jpg",
+ "video": {
+  "url": "https://images.refero.design/styles/refero.design/video/c80e1d56-a57e-46a7-9081-2e8407757909.mp4",
+  "poster": "https://happyhands.cc/design-archive/stryds-6b4e6620/preview-poster.jpg",
+  "file": "preview.mp4",
+  "poster_file": "preview-poster.jpg"
+ },
+ "screenshot_url": "https://happyhands.cc/design-archive/stryds-6b4e6620/screenshot.jpg",
+ "thumbnail_url": "https://happyhands.cc/design-archive/stryds-6b4e6620/thumbnail.jpg"
+}

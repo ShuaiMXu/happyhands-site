@@ -75,6 +75,8 @@ try {
             .filter({ hasText: "Mercury" })
             .waitFor();
         }
+        const decoratedLinks = await p.locator("#catalog-main a:visible").evaluateAll(links => links.filter(link => getComputedStyle(link).textDecorationLine !== "none").map(link => link.textContent));
+        assert.deepEqual(decoratedLinks, [], "resource links must not underline text");
         await tabs.first().click();
         if (provider === "design-md") await p.locator("video").waitFor();
         await p.waitForTimeout(400);

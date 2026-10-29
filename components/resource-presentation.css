@@ -61,3 +61,8 @@ body:has(.resource-detail-header) .design-md-import { display:none; }
 }
 .resource-export-actions .hh-button,.design-how-actions .hh-button,.preview-toolbar .hh-button { min-height:44px; font-size:14px; text-decoration:none; }
 .system-style-preview,.preview-frame-wrap { border-radius:var(--hh-radius-md); }
+/* Owned resource links never decorate their text, including hover/focus states.
+   Navigation selection indicators and third-party iframe styles stay separate. */
+:is(.system-library-full,.provider-reference,.library-layout) a,
+:is(.system-library-full,.provider-reference,.library-layout) a:hover,
+:is(.system-library-full,.provider-reference,.library-layout) a:focus-visible { text-decoration:none; }

@@ -10,5 +10,5 @@
 
 .resource-tool-panel { min-width:0; }
 .resource-tool-panel[hidden] { display:none; }
-.resource-tool-panel iframe { display:block; width:100%; height:calc(100dvh - 160px); min-height:640px; border:0; background:transparent; }
+.resource-tool-panel iframe { display:block; width:100%; height:640px; min-height:0; border:0; background:transparent; }
 .catalog-resource-navigation ~ .resource-tool-panel { margin:24px var(--page-inset); }

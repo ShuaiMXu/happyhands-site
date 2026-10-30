@@ -1,5 +1,6 @@
+import {autoSizeFrame} from "../../packages/ui/frame-sizing";
 import { Input } from "../../packages/ui";
-import { useMemo, useState } from "react";
+import { useEffect,useRef,useMemo, useState } from "react";
 import { Button } from "../../packages/ui";
 import { Select } from "../../packages/ui/Select";
 import {
@@ -25,6 +26,10 @@ export function ComponentWorkbench({
   lang: "zh" | "en";
   onExport: (name: string, text: string) => void;
 }) {
+  const [overview,setOverview]=useState(true);
+  const frame=useRef<HTMLIFrameElement>(null);
+  useEffect(()=>frame.current?autoSizeFrame(frame.current,"hh:component-height",true):undefined,[]);
+  const previewDocument=useMemo(()=>componentDocument(config,styles,mode,lang,overview),[config,styles,mode,lang,overview]);
   const [query, setQuery] = useState("");
   const en = lang === "en";
   const copy = (zh: string, english: string) => (en ? english : zh);
@@ -47,6 +52,12 @@ export function ComponentWorkbench({
       className="component-workbench"
       aria-label={copy("组件工作台", "Component workbench")}
     >
+      <div className="workbench-view-switch" role="group" aria-label={copy("预览范围","Preview scope")}>
+       <Button aria-pressed={overview} onClick={()=>setOverview(true)}>{copy("全部组件","All components")}</Button>
+       <Button aria-pressed={!overview} onClick={()=>setOverview(false)}>{copy("自定义单个组件","Customize a component")}</Button>
+      </div>
+      <p className="workbench-summary">{copy("12 项交互预览，随项目主题实时更新。按钮、输入框和卡片支持独立配置与导出。","12 interactive previews follow your project theme. Button, Input and Card support individual configuration and export.")}</p>
+      <div hidden={overview}>
       <div className="workbench-config">
         <label>
           {copy("组件", "Component")}
@@ -139,14 +150,16 @@ export function ComponentWorkbench({
           {copy("导出可运行组件", "Export runnable component")}
         </Button>
       </div>
+      </div>
       <iframe
+        ref={frame}
         title={copy("可交互组件预览", "Interactive component preview")}
         sandbox="allow-scripts allow-forms"
-        srcDoc={document}
+        srcDoc={previewDocument}
       />
       <details className="workbench-coverage">
         <summary>
-          {copy("可配置组件", "Configurable components")} /{" "}
+          {copy("查看组件接入进度", "Component integration progress")} /{" "}
           {registry.filter((i) => i.capabilities.preview).length} /{" "}
           {registry.length}
         </summary>

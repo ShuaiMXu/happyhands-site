@@ -1,6 +1,7 @@
 import "../../packages/ui/embedded-tool";
 import { Textarea } from "../../packages/ui";
 import { Input } from "../../packages/ui";
+import {SourceDesignPreview} from "./SourceDesignPreview";
 import { DesignImport } from "./DesignImport";
 import { ComponentWorkbench } from "./ComponentWorkbench";
 import { applySiteMetadata } from "../../packages/ui/site-seo";
@@ -492,37 +493,6 @@ function App() {
           }}
         />
 
-        {draft.designSource && (
-          <details className="studio-design-import">
-            <summary>
-              {lang === "zh"
-                ? "设计参考与映射"
-                : "Design reference and mappings"}
-              : {draft.designSource.name}
-            </summary>
-            <p>
-              {lang === "zh"
-                ? "来源已保留；当前为颜色映射预览，组件形态和字体待还原。"
-                : "Source preserved. This is a color-mapping preview; component shapes and fonts still need adaptation."}
-            </p>
-            <a
-              className="hh-button"
-              href={`/components/?provider=design-md&design=${draft.designSource.slug}`}
-            >
-              {lang === "zh" ? "查看原始参考" : "View original reference"}
-            </a>
-            <Button
-              onClick={() =>
-                download(
-                  "design-source.json",
-                  JSON.stringify(draft.designSource, null, 2),
-                )
-              }
-            >
-              {lang === "zh" ? "导出来源与映射" : "Export source and mappings"}
-            </Button>
-          </details>
-        )}
         <div className="studio-title">
           <div>
             <h1>{t("项目设计系统")}</h1>
@@ -536,7 +506,7 @@ function App() {
                 onChange={(e) => switchProject(e.target.value)}
               >
                 {projectIds.map((id) => (
-                  <option key={id}>{id}</option>
+                  <option key={id} value={id}>{id===draft.id ? draft.project : (()=>{try{return read(id).project||id}catch{return id}})()}</option>
                 ))}
               </Select>
               <Button
@@ -1397,6 +1367,7 @@ function App() {
               </div>
             )}
             <div className={`preview-stage viewport-${viewport}`}>
+              {draft.designSource && scene === "Workbench" && <SourceDesignPreview key={draft.id} source={draft.designSource} lang={lang}/>}
               {scene === "Workbench" ? (
                 <ComponentWorkbench
                   key={draft.id}

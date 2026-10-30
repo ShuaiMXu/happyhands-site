@@ -326,7 +326,7 @@ export function SystemScenes({
                 {t("完成后通知我", "Notify me when complete")}
               </label>
               <div className="scene-form-actions">
-                <Button className="scene-primary">
+                <Button type="submit" className="scene-primary">
                   {t("保存示例", "Save example")}
                 </Button>
                 <Button

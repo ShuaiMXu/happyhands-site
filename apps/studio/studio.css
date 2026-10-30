@@ -1577,3 +1577,14 @@ button[aria-pressed="true"] {
 .studio-recovery-actions {display:flex;flex-wrap:wrap;gap:8px;}
 .studio-recovery-actions button {margin:0;}
 @media(max-width:540px){.studio-recovery-actions {width:100%;}.studio-recovery-actions button {flex:1;}}
+
+/* The page carries preview content; only the editing controls keep a bounded scroll area. */
+.editor-grid{overflow:visible;min-height:0;align-items:start;background:transparent}
+.editor-grid > .controls{position:sticky;top:20px;height:auto;min-height:0;max-height:min(840px,calc(100dvh - 40px));align-self:start}
+.preview-stage{max-height:none;min-height:0;overflow:visible}
+.preview-workspace{min-width:0}
+.studio-reference-entry{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:0 0 24px;color:var(--hh-ink-muted);font-size:14px}
+.studio-reference-entry p{margin:0}.studio-reference-entry a{color:var(--hh-ink);text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
+@media(max-width:720px){.editor-grid > .controls{position:static;max-height:none}}
+
+.project-select{min-width:0;max-width:100%}.project-select > .hh-select-field{width:min(220px,calc(100vw - 110px));min-width:0;max-width:100%}.project-select [data-slot="select-trigger"]{min-width:0;max-width:100%}.project-select [data-slot="select-value"]{display:block;min-width:0;overflow:hidden;text-overflow:ellipsis}

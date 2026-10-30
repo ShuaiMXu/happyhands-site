@@ -34,6 +34,7 @@ function SetupContent({html}:{html:string}) {
     const summary=node.querySelector(':scope > summary');
     return <Accordion key={key} type="single" collapsible className={node.className}><AccordionItem value="content"><AccordionTrigger>{summary?.textContent}</AccordionTrigger><AccordionContent forceMount>{Array.from(node.childNodes).filter(n=>n!==summary).map(render)}</AccordionContent></AccordionItem></Accordion>;
    }
+   if(node.tagName==='A'&&/^https?:/.test(node.getAttribute('href')||'')){props.target='_blank';props.rel='noopener noreferrer';}
    if(node.tagName==='BUTTON')return <Button variant="secondary" {...props}>{children}</Button>;
    if(node.tagName==='INPUT')return <Input {...props} defaultValue={node.getAttribute('value')||undefined} value={undefined}/>;
    if(node.tagName==='TEXTAREA')return <Textarea {...props} defaultValue={node.textContent||''}/>;

@@ -169,7 +169,7 @@ export function Preview({
           </h1>
           <p>{t("创建项目，分配任务，与团队分享最新进展。")}</p>
           <div className="sample-actions">
-            <Button data-token="primary">
+            <Button variant="primary" data-token="primary">
               <Icon name="right" />
               {t("开始使用")}
             </Button>
@@ -196,7 +196,7 @@ export function Preview({
               <h3>{t("文字与操作")}</h3>
               <p>{t("正文要容易阅读，辅助说明也应清楚。")}</p>
               <div className="sample-actions">
-                <Button data-token="primary" onClick={() => setChecked(true)}>
+                <Button variant="primary" data-token="primary" onClick={() => setChecked(true)}>
                   {t("保存示例")}
                 </Button>
                 <Button
@@ -292,7 +292,7 @@ export function Preview({
                 </h2>
                 <p>{t("查看项目、任务和最近更新。")}</p>
               </div>
-              <Button data-token="primary">
+              <Button variant="primary" data-token="primary">
                 <Icon name="plus" />
                 {t("新建项目")}
               </Button>
@@ -320,7 +320,7 @@ export function Preview({
                   aria-label={t("预览回复")}
                   placeholder={t("写下你的回复…")}
                 />
-                <Button data-token="primary">{t("发送回复")}</Button>
+                <Button variant="primary" data-token="primary">{t("发送回复")}</Button>
               </article>
             ) : (
               <>
@@ -386,7 +386,7 @@ export function Preview({
                       {t("完成后通知我")}
                     </label>
                     <div className="sample-actions">
-                      <Button data-token="primary">{t("创建任务")}</Button>
+                      <Button variant="primary" data-token="primary">{t("创建任务")}</Button>
                       <Button disabled>{t("处理中…")}</Button>
                     </div>
                   </article>
@@ -396,7 +396,7 @@ export function Preview({
                       {t("连接中断，请检查后重试。")}
                     </p>
                     <div className="sample-actions">
-                      <Button className="destructive" data-token="destructive">
+                      <Button variant="danger" className="destructive" data-token="destructive">
                         {t("重试连接")}
                       </Button>
                       <Button className="secondary" data-token="secondary">

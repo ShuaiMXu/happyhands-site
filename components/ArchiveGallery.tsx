@@ -151,8 +151,9 @@ export function ArchiveGallery({ lang }: { lang: string }) {
             <a
               className="hh-button"
               href={`/apps/studio/?design=${encodeURIComponent(selected.slug)}`}
+              target="_top"
             >
-              {zh ? "以此创建 UI 系统" : "Create a UI system"}
+              {zh ? "接入设计系统" : "Use this design"}
             </a>
           </ResourceDetailHeader>
           <ResourceDetailContent key={selected.slug} lang={lang}>

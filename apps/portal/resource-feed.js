@@ -1,3 +1,4 @@
+import {autoSizeFrame} from '../../packages/ui/frame-sizing';
 import {resourceSections,resourceTools} from "../../packages/ui/resource-navigation";
 import React from "react";
 import { randomizeArchive } from "../../components/archive-order";
@@ -120,7 +121,7 @@ export function setupResourceFeed(root, ResourceFeedControls) {
     root.querySelector('[data-feed-controls]').hidden = !!tool;
     if (tool) {
       const frame=root.querySelector(`#feed-panel-${tool.id} iframe`);
-      if (!frame.hasAttribute('src')) frame.src=frame.dataset.toolSrc;
+      if (!frame.hasAttribute('src')) {const dispose=autoSizeFrame(frame);controller.signal.addEventListener('abort',dispose,{once:true});frame.src=frame.dataset.toolSrc;}
     } else refreshCollection(tab.dataset.feedTab);
   };
   tabs.forEach((tab, index) => {

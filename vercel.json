@@ -45,6 +45,56 @@
       "permanent": true
     },
     {
+      "source": "/portal/",
+      "destination": "/apps/portal/",
+      "permanent": true
+    },
+    {
+      "source": "/portal",
+      "destination": "/apps/portal/",
+      "permanent": true
+    },
+    {
+      "source": "/quartz/",
+      "destination": "/systems/quartz/",
+      "permanent": true
+    },
+    {
+      "source": "/quartz",
+      "destination": "/systems/quartz/",
+      "permanent": true
+    },
+    {
+      "source": "/lime/",
+      "destination": "/systems/lime/",
+      "permanent": true
+    },
+    {
+      "source": "/lime",
+      "destination": "/systems/lime/",
+      "permanent": true
+    },
+    {
+      "source": "/happyhands/",
+      "destination": "/systems/happyhands/",
+      "permanent": true
+    },
+    {
+      "source": "/happyhands",
+      "destination": "/systems/happyhands/",
+      "permanent": true
+    },
+    {
+      "source": "/studio/",
+      "destination": "/apps/studio/",
+      "permanent": true
+    },
+    {
+      "source": "/studio",
+      "destination": "/apps/studio/",
+      "permanent": true
+    },
+    {
       "source": "/apps/web/",
       "destination": "/apps/portal/",
       "permanent": true
@@ -91,6 +141,98 @@
           "value": "*"
         }
       ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/components/",
+      "has": [
+        {
+          "type": "query",
+          "key": "provider",
+          "value": "systems"
+        },
+        {
+          "type": "query",
+          "key": "system",
+          "value": "(?<system>[a-z0-9-]+)"
+        },
+        {
+          "type": "query",
+          "key": "doc",
+          "value": "(?<document>(?:[a-zA-Z0-9_-]+/)*[a-zA-Z0-9_-]+\\.md)"
+        }
+      ],
+      "destination": "/resource-pages/systems/:system/:document/index.html"
+    },
+    {
+      "source": "/components/",
+      "has": [
+        {
+          "type": "query",
+          "key": "provider",
+          "value": "systems"
+        },
+        {
+          "type": "query",
+          "key": "doc"
+        }
+      ],
+      "destination": "/resource-pages/not-found.html"
+    },
+    {
+      "source": "/components/",
+      "has": [
+        {
+          "type": "query",
+          "key": "provider",
+          "value": "systems"
+        },
+        {
+          "type": "query",
+          "key": "system",
+          "value": "(?<system>[a-z0-9-]+)"
+        }
+      ],
+      "destination": "/resource-pages/systems/:system/index.html"
+    },
+    {
+      "source": "/components/",
+      "has": [
+        {
+          "type": "query",
+          "key": "provider",
+          "value": "(?:design-md|kage|refero)"
+        },
+        {
+          "type": "query",
+          "key": "design",
+          "value": "(?<design>[a-z0-9-]+)"
+        }
+      ],
+      "destination": "/resource-pages/design-md/:design/index.html"
+    },
+    {
+      "source": "/components/",
+      "has": [
+        {
+          "type": "query",
+          "key": "component",
+          "value": "(?<component>[a-zA-Z0-9_-]+)"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "provider",
+          "value": "(?:systems|design-md|kage|refero)"
+        }
+      ],
+      "destination": "/resource-pages/cult-ui/:component/index.html"
+    },
+    {
+      "source": "/components/",
+      "destination": "/resource-pages/index.html"
     }
   ]
 }

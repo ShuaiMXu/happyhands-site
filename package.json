@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "node scripts/release-metadata.mjs && npm run catalog:build && npm run systems:previews && vite build",
+    "build": "node scripts/release-metadata.mjs && npm run catalog:build && npm run systems:previews && vite build && node --import tsx scripts/prerender-resources.mjs",
     "preview": "vite preview --host 127.0.0.1",
     "typecheck": "npm run catalog:build && npm run systems:previews && tsc --noEmit",
     "test:studio": "node --import tsx --test tests/studio-core.test.ts tests/studio-bridge.test.mjs",
@@ -28,7 +28,7 @@
     "quartz:sync": "node scripts/sync-design-catalog.mjs quartz",
     "lime:sync": "node scripts/sync-design-catalog.mjs lime",
     "test:lime:browser": "node tests/lime-browser.mjs",
-    "test:seo": "node --import tsx --test tests/site-seo.test.mjs",
+    "test:seo": "node --import tsx --test tests/site-seo.test.mjs tests/resource-seo.test.mjs tests/legacy-redirects.test.mjs",
     "test:seo:browser": "node tests/seo-browser.mjs",
     "test:analytics": "node --import tsx --test tests/site-analytics.test.ts",
     "test:analytics:browser": "node tests/site-analytics-browser.mjs",
@@ -39,7 +39,8 @@
     "test:systems:live": "node tests/design-system-live-browser.mjs",
     "test:design-resources": "node --test tests/design-how.test.mjs tests/design-archive.test.mjs",
     "test:resources:browser": "node tests/resource-presentation-browser.mjs",
-    "test:home:search": "node tests/home-resource-search-browser.mjs"
+    "test:home:search": "node tests/home-resource-search-browser.mjs",
+    "test:seo:resources:browser": "node tests/resource-seo-browser.mjs"
   },
   "dependencies": {
     "@base-ui/react": "1.9.0",

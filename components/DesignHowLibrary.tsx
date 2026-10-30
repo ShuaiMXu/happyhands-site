@@ -1,3 +1,4 @@
+import { applyResourceMetadata, systemSeo } from "../packages/ui/resource-seo";
 import React, { useEffect, useRef, useState } from "react";
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -93,6 +94,9 @@ export function DesignHowLibrary({
     addEventListener("popstate", update);
     return () => removeEventListener("popstate", update);
   }, [system]);
+  useEffect(() => {
+    applyResourceMetadata(systemSeo(data, view === 'documents' ? documents.find(d => d.path === path) : undefined), lang);
+  }, [system, path, view, lang]);
   useEffect(() => {
     const controller = new AbortController();
     setLoading(true);

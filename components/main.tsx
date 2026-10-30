@@ -1,7 +1,7 @@
 import { Button } from "../packages/ui";
 import { ResourceDetailHeader } from "./ResourcePresentation";
 import { resolveCatalogItem, searchCatalog } from "./catalog-search";
-import { applySiteMetadata } from "../packages/ui/site-seo";
+import { applyResourceMetadata, componentSeo } from "../packages/ui/resource-seo";
 import { ComponentTile } from "./ComponentTile";
 import { ArchiveFilter } from "./ArchiveFilter";
 import { ResourceToolbar } from "./ResourceToolbar";
@@ -111,8 +111,8 @@ function App() {
             ),
           }[reason] || reason;
   useEffect(() => {
-    applySiteMetadata("components", lang);
-  }, [lang]);
+    if (provider === "cult-ui") applyResourceMetadata(selected ? componentSeo(item) : null, lang);
+  }, [lang, provider, selected]);
   useEffect(() => {
     const handle = () => {
       setProvider(readProvider());

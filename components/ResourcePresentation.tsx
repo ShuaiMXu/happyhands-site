@@ -1,3 +1,5 @@
+import {Tabs,TabsList,TabsTrigger,TabsContent} from "../packages/ui/shadcn/tabs";
+import {Card} from "../packages/ui/shadcn/card";
 import React, { forwardRef, useId, useState } from "react";
 import { Button } from "../packages/ui";
 
@@ -15,12 +17,12 @@ export const ResourceCard = forwardRef<
 ) {
   return (
     <a {...props} ref={ref} className={`resource-card ${className}`}>
-      <div
+      <Card
         className={`resource-card-media ${mediaClassName}`}
         aria-hidden="true"
       >
         {media}
-      </div>
+      </Card>
       <div className="resource-card-caption">
         <h2>{title}</h2>
         <p>{description}</p>
@@ -61,62 +63,7 @@ export function ResourceDetailContent({
   lang: string;
   children: React.ReactNode;
 }) {
-  const [active, setActive] = useState(0);
-  const id = useId();
   const panels = React.Children.toArray(children);
-  const labels =
-    lang === "zh" ? ["预览", "资料与下载"] : ["Preview", "Files and downloads"];
-  return (
-    <div className="resource-detail-content">
-      <div
-        className="resource-content-tabs"
-        role="tablist"
-        aria-label={lang === "zh" ? "资源内容" : "Resource content"}
-      >
-        {panels.map((_, i) => (
-          <button
-            key={i}
-            id={`${id}-tab-${i}`}
-            role="tab"
-            aria-selected={active === i}
-            aria-controls={`${id}-panel-${i}`}
-            tabIndex={active === i ? 0 : -1}
-            onClick={() => setActive(i)}
-            onKeyDown={(event) => {
-              if (
-                !["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)
-              )
-                return;
-              event.preventDefault();
-              const next =
-                event.key === "Home"
-                  ? 0
-                  : event.key === "End"
-                    ? panels.length - 1
-                    : (i +
-                        (event.key === "ArrowRight" ? 1 : -1) +
-                        panels.length) %
-                      panels.length;
-              setActive(next);
-              document.getElementById(`${id}-tab-${next}`)?.focus();
-            }}
-          >
-            {labels[i]}
-          </button>
-        ))}
-      </div>
-      {panels.map((panel, i) => (
-        <section
-          key={i}
-          id={`${id}-panel-${i}`}
-          role="tabpanel"
-          aria-labelledby={`${id}-tab-${i}`}
-          hidden={active !== i}
-          className="resource-content-panel"
-        >
-          {active === i && panel}
-        </section>
-      ))}
-    </div>
-  );
+  const labels = lang === 'zh' ? ['预览','资料与下载'] : ['Preview','Files and downloads'];
+  return <Tabs defaultValue="0" className="resource-detail-content"><TabsList variant="line" className="resource-content-tabs" aria-label={lang==='zh'?'资源内容':'Resource content'}>{panels.map((_,i)=><TabsTrigger key={i} value={String(i)}>{labels[i]}</TabsTrigger>)}</TabsList>{panels.map((panel,i)=><TabsContent key={i} value={String(i)} className="resource-content-panel">{panel}</TabsContent>)}</Tabs>;
 }

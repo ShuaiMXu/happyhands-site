@@ -1,3 +1,4 @@
+import { Button } from ".";
 import { Icon } from "./Icon";
 import React, { useEffect, useRef } from "react";
 import { setupSiteMenu } from "./site-menu";
@@ -30,7 +31,7 @@ export function SiteHeader({
           alt="HappyHands"
         />
       </a>
-      <button
+      <Button
         className="hh-site-menu-toggle"
         type="button"
         aria-controls="site-navigation"
@@ -38,7 +39,7 @@ export function SiteHeader({
         aria-label={lang === "zh" ? "菜单" : "Menu"}
       >
         <Icon name="menu" />
-      </button>
+      </Button>
       <nav
         id="site-navigation"
         aria-label={lang === "zh" ? "主要导航" : "Main navigation"}
@@ -61,7 +62,7 @@ export function SiteHeader({
         ))}
       </nav>
       <div className="hh-site-tools">
-        <button
+        <Button
           onClick={onTheme}
           type="button"
           aria-label={
@@ -80,8 +81,8 @@ export function SiteHeader({
                 ? "深色"
                 : "Dark"}
           </span>
-        </button>
-        <button
+        </Button>
+        <Button
           onClick={onLanguage}
           type="button"
           aria-label={lang === "zh" ? "English" : "中文"}
@@ -90,7 +91,7 @@ export function SiteHeader({
           <span className="hh-tool-label">
             {lang === "zh" ? "English" : "中文"}
           </span>
-        </button>
+        </Button>
       </div>
     </header>
   );

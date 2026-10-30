@@ -1,3 +1,5 @@
+import { validateDesignSource } from "../component-studio/design-import";
+import { validateConfig } from "../component-studio/registry";
 import {
   keys,
   colorKeys,
@@ -108,6 +110,12 @@ export function validateDraft(input: unknown): Draft {
     throw Error("草稿格式无效");
   return {
     ...d,
+    designSource: d.designSource
+      ? validateDesignSource(d.designSource)
+      : undefined,
+    componentConfig: d.componentConfig
+      ? validateConfig(d.componentConfig)
+      : undefined,
     styles: validateStyles(d.styles),
     baseline: validateStyles(d.baseline),
     foundation: d.foundation ? validateFoundation(d.foundation) : undefined,

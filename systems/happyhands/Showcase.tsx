@@ -1,3 +1,4 @@
+import { Input } from "../../packages/ui";
 import { useState } from "react";
 import { Button } from "../../packages/ui";
 import { Select } from "../../packages/ui/Select";
@@ -43,7 +44,7 @@ export function ComponentShowcase({ lang }: { lang: string }) {
           </Select>
         </label>
         <label className="reference-checkbox">
-          <input
+          <Input
             type="checkbox"
             checked={notify}
             onChange={(event) => setNotify(event.target.checked)}
@@ -88,7 +89,7 @@ export function ComponentShowcase({ lang }: { lang: string }) {
         </div>
         <label>
           {t("搜索示例页面", "Search example pages")}
-          <input
+          <Input
             type="search"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
@@ -214,7 +215,7 @@ export function ScreenPatterns({ lang }: { lang: string }) {
               <h3>{t("工作空间信息", "Workspace details")}</h3>
               <label>
                 {t("工作空间名称", "Workspace name")}
-                <input
+                <Input
                   required
                   value={name}
                   onChange={(event) => setName(event.target.value)}

@@ -1,3 +1,4 @@
+import { Input } from "../packages/ui";
 import React, { useEffect, useRef, useState } from "react";
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -152,7 +153,7 @@ export function DesignHowLibrary({
           ["preview", t("预览", "Preview")],
           ["documents", t("资料与下载", "Files and downloads")],
         ].map(([id, label], i) => (
-          <button
+          <Button
             key={id}
             id={`system-view-${id}`}
             role="tab"
@@ -179,7 +180,7 @@ export function DesignHowLibrary({
             }}
           >
             {label}
-          </button>
+          </Button>
         ))}
       </div>
       {view === "documents" && (
@@ -230,7 +231,7 @@ export function DesignHowLibrary({
             <summary>{t("文档目录", "Documents")}</summary>
             <label className="design-how-search">
               {t("搜索文档", "Search documents")}
-              <input
+              <Input
                 type="search"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}

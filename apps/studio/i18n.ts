@@ -63,6 +63,7 @@ export function t(value: string): string {
   return value;
 }
 const scenes: Record<string, string> = {
+  Workbench: "组件工作台",
   Components: "组件",
   Dashboard: "仪表盘",
   Marketing: "营销页",

@@ -35,7 +35,7 @@
 .hh-button[data-variant] {
   min-height: 44px;
   position: relative;
-  border-radius: var(--hh-radius-md);
+  border-radius: var(--hh-radius-control);
   transition:
     background-color 250ms ease-out,
     border-color 250ms ease-out,
@@ -117,3 +117,11 @@
     font-size: 16px;
   }
 }
+
+/* Luma preset adaptation; retain 44px touch targets and 400 text weight. */
+.hh-button[data-variant] {padding:10px 16px;font-weight:400;border-width:.5px;cursor:pointer;}
+.hh-button[data-variant="secondary"] {background:var(--hh-bg-sunken);color:var(--hh-ink);border-color:transparent;}
+.hh-button[data-variant="secondary"]:not(:disabled):hover,
+.hh-button[data-variant="ghost"]:not(:disabled):hover {background:var(--hh-bg-hover);color:var(--hh-ink);}
+.hh-button[data-variant]:disabled {cursor:not-allowed;}
+.hh-button[data-variant][aria-busy="true"] {cursor:progress;}

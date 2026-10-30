@@ -1,3 +1,9 @@
+import React from 'react';
+import {Button,Input} from '../../packages/ui';
+import {Card} from '../../packages/ui/shadcn/card';
+import {Badge} from '../../packages/ui/shadcn/badge';
+import {Switch} from '../../packages/ui/shadcn/switch';
+import {Dialog,DialogContent,DialogHeader,DialogTitle,DialogDescription,DialogFooter,DialogClose} from '../../packages/ui/shadcn/dialog';
 import "./component-examples.css";
 import { useRef, useState } from "react";
 import { t } from "./i18n";
@@ -7,7 +13,9 @@ export function ComponentExamples() {
   const [progress, setProgress] = useState(64);
   const [filter, setFilter] = useState("");
   const [saved, setSaved] = useState(false);
-  const dialog = useRef<HTMLDialogElement>(null);
+  const [open,setOpen]=useState(false);
+  const dialogTrigger=useRef<HTMLButtonElement>(null);
+  const [portalStyle,setPortalStyle]=useState<React.CSSProperties>({});
   const rows = [
     ["产品首页", "已完成"],
     ["账户设置", "进行中"],
@@ -15,11 +23,11 @@ export function ComponentExamples() {
   ];
   return (
     <>
-      <article data-token="card">
+      <Card data-token="card">
         <h3>{t("列表与标签")}</h3>
         <label>
           {t("搜索示例页面")}
-          <input
+          <Input
             value={filter}
             onChange={(e) => setFilter(e.target.value)}
             placeholder={t("输入页面名称")}
@@ -40,7 +48,7 @@ export function ComponentExamples() {
                 <tr key={name}>
                   <td>{t(name)}</td>
                   <td>
-                    <span className="sample-badge">{t(status)}</span>
+                    <Badge variant="secondary">{t(status)}</Badge>
                   </td>
                 </tr>
               ))}
@@ -49,21 +57,13 @@ export function ComponentExamples() {
         {!rows.some(([name]) => t(name).includes(filter)) && (
           <p role="status">{t("没有匹配的页面")}</p>
         )}
-      </article>
-      <article data-token="card">
+      </Card>
+      <Card data-token="card">
         <h3>{t("开关与进度")}</h3>
         <label className="specimen-switch-row">
           {t("接收更新通知")}
-          <button
-            type="button"
-            role="switch"
-            aria-label={t("接收更新通知")}
-            aria-checked={enabled}
-            className="specimen-switch"
-            onClick={() => setEnabled(!enabled)}
-          >
-            <span />
-          </button>
+          <Switch aria-label={t("接收更新通知")} checked={enabled} onCheckedChange={setEnabled}/>
+
         </label>
         <label>
           {t("完成进度")} / {progress}%
@@ -77,8 +77,8 @@ export function ComponentExamples() {
         </label>
         <progress aria-label={t("完成进度")} max={100} value={progress} />
         <p>{enabled ? t("通知已开启") : t("通知已关闭")}</p>
-      </article>
-      <article data-token="card">
+      </Card>
+      <Card data-token="card">
         <h3>{t("提示与反馈")}</h3>
         <div className="specimen-notice" data-token="muted">
           <b>{t("草稿已保存")}</b>
@@ -91,29 +91,15 @@ export function ComponentExamples() {
           <b>{t("示例连接失败")}</b>
           <p>{t("请检查地址后重试。")}</p>
         </div>
-      </article>
-      <article data-token="card">
+      </Card>
+      <Card data-token="card">
         <h3>{t("弹窗与确认")}</h3>
         <p>{t("打开弹窗，检查浮层、背景遮罩与键盘操作。")}</p>
-        <button onClick={() => dialog.current?.showModal()}>
-          {t("打开示例弹窗")}
-        </button>
-        <p role="status">
-          {saved ? t("示例设置已确认") : t("此处操作不会修改项目。")}
-        </p>
-        <dialog
-          ref={dialog}
-          className="specimen-dialog"
-          aria-label={t("确认示例设置")}
-        >
-          <h3>{t("确认示例设置")}</h3>
-          <p>{t("此处操作不会修改项目。")}</p>
-          <form method="dialog" className="sample-actions">
-            <button className="secondary">{t("取消")}</button>
-            <button onClick={() => setSaved(true)}>{t("确认")}</button>
-          </form>
-        </dialog>
-      </article>
+        <Button ref={dialogTrigger} onClick={event=>{const styles=getComputedStyle(event.currentTarget);setPortalStyle(Object.fromEntries(['bg','ink','bg-raised','bg-sunken','bg-hover','ink-muted','primary','on-primary','line','line-strong','ring','danger','font-sans'].map(k=>['--hh-'+k,styles.getPropertyValue('--hh-'+k)])));setOpen(true);}}>{t("打开示例弹窗")}</Button>
+        <p role="status">{saved?t("示例设置已确认"):t("此处操作不会修改项目。")}</p>
+        <Dialog open={open} onOpenChange={setOpen}><DialogContent style={portalStyle} onCloseAutoFocus={event=>{event.preventDefault();dialogTrigger.current?.focus();}}><DialogHeader><DialogTitle>{t("确认示例设置")}</DialogTitle><DialogDescription>{t("此处操作不会修改项目。")}</DialogDescription></DialogHeader><DialogFooter><DialogClose asChild><Button>{t("取消")}</Button></DialogClose><Button variant="primary" onClick={()=>{setSaved(true);setOpen(false);}}>{t("确认")}</Button></DialogFooter></DialogContent></Dialog>
+
+      </Card>
     </>
   );
 }

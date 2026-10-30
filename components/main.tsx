@@ -1,3 +1,8 @@
+import {ResourceToolPanels} from "../packages/ui/ResourceToolPanels";
+import {resourceSections,resourceTools} from "../packages/ui/resource-navigation";
+import "../packages/ui/resource-navigation.css";
+import { Textarea } from "../packages/ui";
+import { Input } from "../packages/ui";
 import { Button } from "../packages/ui";
 import { ResourceDetailHeader } from "./ResourcePresentation";
 import { resolveCatalogItem, searchCatalog } from "./catalog-search";
@@ -43,6 +48,7 @@ const readSelection = () =>
 function App() {
   const readProvider = () => {
     const value = new URLSearchParams(location.search).get("provider");
+    if(value === "studio" || value === "setup") return value;
     return value === "kage" || value === "refero" || value === "design-md"
       ? "design-md"
       : value === "systems"
@@ -189,20 +195,12 @@ function App() {
         onTheme={toggleTheme}
         active="/apps/portal/#explore"
       />
-      <div className="library-heading">
-        <div>
-          <h1>{t("设计资源", "Design resources")}</h1>
-        </div>
-      </div>
       <nav
-        className="resource-sections"
+        className="hh-resource-navigation catalog-resource-navigation"
         aria-label={t("设计资源分类", "Design resource sections")}
       >
-        {[
-          ["systems", t("设计系统", "Design systems")],
-          ["design-md", "Design.md"],
-          ["cult-ui", t("组件库", "Components")],
-        ].map(([id, label]) => (
+        <div className="hh-resource-group">
+        {[...resourceSections,...resourceTools].map(({id,zh,en}) => (
           <a
             key={id}
             href={`?provider=${id}`}
@@ -215,11 +213,14 @@ function App() {
               history.pushState(null, "", `?provider=${id}`);
             }}
           >
-            {label}
+            {lang === "zh" ? zh : en}
           </a>
         ))}
+        </div>
+
       </nav>
-      {provider === "systems" ? (
+      <ResourceToolPanels active={provider} lang={lang}/>
+      {provider === "studio" || provider === "setup" ? null : provider === "systems" ? (
         <SystemLibrary lang={lang} />
       ) : provider === "design-md" ? (
         <DesignMdLibrary lang={lang} />
@@ -271,14 +272,14 @@ function App() {
                 {!filtered.length && (
                   <div className="catalog-empty">
                     <h2>{t("没有匹配的组件", "No matching components")}</h2>
-                    <button
+                    <Button
                       onClick={() => {
                         setQuery("");
                         setGroup("all");
                       }}
                     >
                       {t("清除筛选", "Clear filters")}
-                    </button>
+                    </Button>
                   </div>
                 )}
                 {filtered.length > 18 && (
@@ -286,7 +287,7 @@ function App() {
                     className="gallery-pagination"
                     aria-label={t("组件分页", "Component pages")}
                   >
-                    <button
+                    <Button
                       disabled={page === 0}
                       onClick={() => {
                         setPage(page - 1);
@@ -294,11 +295,11 @@ function App() {
                       }}
                     >
                       {t("上一页", "Previous")}
-                    </button>
+                    </Button>
                     <span>
                       {page + 1} / {Math.ceil(filtered.length / 18)}
                     </span>
-                    <button
+                    <Button
                       disabled={(page + 1) * 18 >= filtered.length}
                       onClick={() => {
                         setPage(page + 1);
@@ -306,7 +307,7 @@ function App() {
                       }}
                     >
                       {t("下一页", "Next")}
-                    </button>
+                    </Button>
                   </nav>
                 )}
               </main>
@@ -334,7 +335,7 @@ function App() {
                 aria-label={t("组件内容", "Component content")}
               >
                 {tabs.map(([id, label], i) => (
-                  <button
+                  <Button
                     key={id}
                     role="tab"
                     id={`tab-${id}`}
@@ -361,7 +362,7 @@ function App() {
                     }}
                   >
                     {label}
-                  </button>
+                  </Button>
                 ))}
               </div>
               <section
@@ -385,7 +386,7 @@ function App() {
                     <>
                       <div className="preview-toolbar">
                         <label>
-                          <input
+                          <Input
                             type="checkbox"
                             checked={motion}
                             onChange={(e) => setMotion(e.target.checked)}
@@ -453,9 +454,9 @@ function App() {
                             )}
                       </p>
                       {item.aliasOf && (
-                        <button onClick={() => select(item.aliasOf!)}>
+                        <Button onClick={() => select(item.aliasOf!)}>
                           {item.aliasOf} →
-                        </button>
+                        </Button>
                       )}
                       <ul>
                         {!item.aliasOf &&
@@ -557,16 +558,16 @@ function App() {
                     <h3>
                       {t("交给项目代理", "Guidance for your project agent")}
                     </h3>
-                    <textarea
+                    <Textarea
                       aria-label={t("接入说明", "Integration guidance")}
                       readOnly
                       value={guidance}
                       rows={10}
                     />
                     <div className="catalog-actions">
-                      <button onClick={copy}>
+                      <Button onClick={copy}>
                         {t("复制接入说明", "Copy guidance")}
-                      </button>
+                      </Button>
                       <a href="/components/cult-ui/catalog.json" download>
                         {t("下载 Harness 组件目录", "Download Harness catalog")}
                       </a>

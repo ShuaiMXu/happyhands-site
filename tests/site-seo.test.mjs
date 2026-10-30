@@ -42,7 +42,11 @@ test('shared portal renderer provides real content in both languages without bro
     for(const id of ['design-resources'])assert.equal((html.match(new RegExp(`id="${id}"`,'g'))||[]).length,1,id);
     assert.ok(!html.includes('pnpm workbench'));
     assert.ok(!html.includes('homepage-case'));
-    assert.equal((html.match(/role="tab"/g)||[]).length,3);
+    assert.equal((html.match(/role="tab"/g)||[]).length,5);
+    for(const id of ['design-md','systems','cult-ui','studio','setup']){
+      assert.ok(html.includes(`id="feed-tab-${id}"`));
+      assert.ok(html.includes(`id="feed-panel-${id}"`));
+    }
     assert.ok(!html.includes('undefined'));
     assert.ok(!html.includes('happyhands-design.vercel.app'));
     assert.ok(!html.includes('handoff-repo'));

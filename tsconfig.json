@@ -19,6 +19,7 @@
   "include": [
     "guide",
     "apps/studio",
+    "apps/setup",
     "systems/happyhands",
     "systems/quartz",
     "packages/contracts",

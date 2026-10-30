@@ -1,4 +1,7 @@
+import {autoSizeFrame} from '../../packages/ui/frame-sizing';
+import {resourceSections,resourceTools} from "../../packages/ui/resource-navigation";
 import React from "react";
+import { randomizeArchive } from "../../components/archive-order";
 import { createRoot } from "react-dom/client";
 import { archiveTypeRules } from "../../components/archive-facets";
 import references from "./resource-feed-data.json";
@@ -45,18 +48,15 @@ export function resourceFeed(lang) {
   const zh = lang === "zh";
 
   return `<section class="content-section resource-feed" id="design-resources" data-feed-lang="${lang}">
-    <div class="feed-tabs" role="tablist" aria-label="${zh ? "设计资源" : "Design resources"}">${[
-      ["design-md", "Design.md"],
-      ["systems", zh ? "设计系统" : "Design systems"],
-      ["cult-ui", zh ? "组件库" : "Components"],
-    ]
+    <div class="feed-navigation hh-resource-navigation"><div class="feed-tabs hh-resource-group" role="tablist" aria-label="${zh ? "设计资源" : "Design resources"}">${[...resourceSections,...resourceTools]
       .map(
-        ([id, label], i) =>
-          `<button type="button" role="tab" id="feed-tab-${id}" aria-controls="feed-panel-${id}" aria-selected="${i === 0}" tabindex="${i === 0 ? 0 : -1}" data-feed-tab="${id}">${label}</button>`,
+        ({id, zh: chinese, en: english}, i) =>
+          `<button type="button" role="tab" id="feed-tab-${id}" aria-controls="feed-panel-${id}" aria-selected="${i === 0}" tabindex="${i === 0 ? 0 : -1}" data-feed-tab="${id}">${zh ? chinese : english}</button>`,
       )
-      .join("")}</div>
+      .join("")}</div></div>
+    ${resourceTools.map(tool=>`<section class="resource-tool-panel" role="tabpanel" id="feed-panel-${tool.id}" aria-labelledby="feed-tab-${tool.id}" hidden><iframe title="${zh?tool.zh:tool.en}" data-tool-src="${tool.href}?embedded=1"></iframe></section>`).join('')}
     <div data-feed-controls></div>
-    <div class="feed-collection" role="tabpanel" id="feed-panel-design-md" aria-labelledby="feed-tab-design-md"><div class="feed-grid">${references.map((item) => referenceCard(item)).join("")}</div></div>
+    <div class="feed-collection" role="tabpanel" id="feed-panel-design-md" aria-labelledby="feed-tab-design-md"><div class="feed-grid">${randomizeArchive(references).map((item) => referenceCard(item)).join("")}</div></div>
     <div class="feed-collection" role="tabpanel" id="feed-panel-systems" aria-labelledby="feed-tab-systems" hidden><div class="feed-grid">${systems.map((id) => `<a class="feed-item" href="/components/?provider=systems&system=${id}"><div class="feed-art feed-system"><img src="/system-covers/${id}.png" alt="" loading="lazy" width="1500" height="938"></div><div class="feed-caption"><h3>${id === "happyhands" ? "HappyHands" : id.charAt(0).toUpperCase() + id.slice(1)}</h3></div></a>`).join("")}</div></div>
     <div class="feed-collection" role="tabpanel" id="feed-panel-cult-ui" aria-labelledby="feed-tab-cult-ui" hidden><div class="feed-grid">${components.map(([id, title]) => componentCard([id, title], lang)).join("")}</div></div>
   </section>`;
@@ -117,7 +117,12 @@ export function setupResourceFeed(root, ResourceFeedControls) {
           .querySelectorAll("[data-feed-component]")
           .forEach((frame) => frame.removeAttribute("src"));
     });
-    refreshCollection(tab.dataset.feedTab);
+    const tool = resourceTools.find(item=>item.id===tab.dataset.feedTab);
+    root.querySelector('[data-feed-controls]').hidden = !!tool;
+    if (tool) {
+      const frame=root.querySelector(`#feed-panel-${tool.id} iframe`);
+      if (!frame.hasAttribute('src')) {const dispose=autoSizeFrame(frame);controller.signal.addEventListener('abort',dispose,{once:true});frame.src=frame.dataset.toolSrc;}
+    } else refreshCollection(tab.dataset.feedTab);
   };
   tabs.forEach((tab, index) => {
     tab.addEventListener("click", () => activate(tab), {
@@ -240,7 +245,7 @@ export function setupResourceFeed(root, ResourceFeedControls) {
   ];
   const catalogs = {
     "design-md": {
-      items: references,
+      items: randomizeArchive(references),
       loaded: false,
       path: "/design-archive/index.json",
       categories: archiveTypeRules,
@@ -281,18 +286,11 @@ export function setupResourceFeed(root, ResourceFeedControls) {
         ? !x.types?.length
         : x.types?.includes(id)
       : x.category === id);
-  const moreObserver = new IntersectionObserver(
-    (entries) => {
-      for (const entry of entries)
-        if (
-          entry.isIntersecting &&
-          !entry.target.closest("[hidden]") &&
-          entry.target.isConnected
-        )
-          entry.target.click();
-    },
-    { rootMargin: "400px" },
-  );
+  const moreObserver = new IntersectionObserver((entries) => {
+    for (const entry of entries) {
+      if (entry.isIntersecting && !entry.target.closest('[hidden]') && entry.target.isConnected) entry.target.click();
+    }
+  }, { rootMargin: '400px' });
   const render = () => {
     if (controller.signal.aborted) return;
     stop();
@@ -419,7 +417,7 @@ export function setupResourceFeed(root, ResourceFeedControls) {
         id === "design-md"
           ? references.map((x) => x.slug)
           : components.map((x) => x[0]);
-      catalog.items = [
+      catalog.items = id === "design-md" ? randomizeArchive(items) : [
         ...featured
           .map((key) => items.find((x) => (x.slug || x.id) === key))
           .filter(Boolean),

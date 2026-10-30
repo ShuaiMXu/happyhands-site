@@ -26,3 +26,16 @@ body { font-size:var(--hh-type-body); }
 :where(button,.button,summary) { touch-action:manipulation; }
 :where(button,.button) { transition:background-color 150ms ease-out, border-color 150ms ease-out, color 150ms ease-out; }
 @media(prefers-reduced-motion:reduce) { :where(button,.button) { transition:none; } }
+
+/* Owned interface headings: keep hierarchy without heavy browser-default bold. */
+.studio-title h1, .library-heading h1, .resource-detail-header h2,
+.control-section h3, .panel-title h2, .catalog-item-head h2 { font-weight:400; }
+
+/* User-selected shadcn b1VlItwO / Radix Luma, 2026-10-30. Shell only. */
+:where(button,[role="button"]):not(:disabled) {cursor:pointer;}
+.studio-shell input:not([type="color"]):not([type="range"]):not([type="checkbox"]):not([type="radio"]),
+.studio-shell select {border-radius:var(--hh-radius-field);}
+.studio-shell input:not([type="color"]):not([type="range"]):not([type="checkbox"]):not([type="radio"]):not(.theme-preview input),
+.studio-shell select:not(.theme-preview select) {background:color-mix(in oklch,var(--hh-line-strong) 35%,var(--hh-bg));}
+.studio-shell .theme-preview input,.studio-shell .theme-preview select {border-radius:var(--radius);}
+.resource-card .resource-card-media,.feed-item .feed-art {border-radius:var(--hh-radius-card);}

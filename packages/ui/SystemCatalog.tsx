@@ -1,3 +1,4 @@
+import { Input } from ".";
 import { useState } from "react";
 import { Button } from "./index";
 import { Select } from "./Select";
@@ -360,7 +361,7 @@ export function SystemCatalog({
       <div className="reference-toolbar">
         <label>
           {t("查找组件或模板", "Find a component or screen")}
-          <input
+          <Input
             type="search"
             value={query}
             onChange={(event) => {

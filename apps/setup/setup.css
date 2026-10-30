@@ -19,7 +19,7 @@
 .setup-page .hero-agent-choices button[aria-pressed="true"] { background:var(--hh-ink); color:var(--hh-bg); border-color:var(--hh-ink); }
 .setup-page #connect-agent { padding:0; background:transparent; display:flex; flex-direction:column; gap:20px; }
 .setup-page .section-head { display:none; }
-.setup-page .agent-setup-help { order:-1; display:flex; flex-direction:column; gap:16px; padding:24px; margin:0; border-radius:26px; }
+.setup-page .agent-setup-help { order:-1; display:flex; flex-direction:column; gap:16px; padding:24px; margin:0; border-radius:var(--hh-radius-card); }
 .setup-page .agent-setup-help > :is(h3,p,a,div,section) { margin:0; }
 .setup-page .agent-setup-help h3 { font-size:20px; font-weight:400; line-height:1.5; }
 .setup-page .agent-setup-help p { font-size:14px; line-height:1.7; max-width:none; }
@@ -28,11 +28,11 @@
 .setup-page .setup-prompt-heading { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px; margin-bottom:12px; }
 .setup-page .setup-prompt-heading label { margin:0; font-size:14px; }
 .setup-page .setup-prompt-actions { display:flex; align-items:center; gap:8px; }
-.setup-page #agent-prompt { display:block; width:100%; box-sizing:border-box; height:auto; min-height:360px; field-sizing:content; resize:none; overflow:hidden; padding:20px; border-radius:18px; background:var(--hh-bg); color:var(--hh-ink); font:400 14px/1.8 var(--hh-font-sans); white-space:pre-wrap; }
+.setup-page #agent-prompt { display:block; width:100%; box-sizing:border-box; height:auto; min-height:360px; field-sizing:content; resize:none; overflow:hidden; padding:20px; border-radius:var(--hh-radius-card); background:var(--hh-bg); color:var(--hh-ink); font:400 14px/1.8 var(--hh-font-sans); white-space:pre-wrap; }
 .setup-page .connect-actions { display:flex; flex-wrap:wrap; align-items:center; gap:20px; }
 .setup-page .text-link { display:inline-flex; align-items:center; gap:8px; min-height:44px; font-size:14px; font-weight:400; text-decoration:none; }
 .setup-page .connect-note { color:var(--hh-ink-muted); }
-.setup-page #connect-agent :is(.connect-process,.project-handoff-details,.connect-faq) { margin:0; padding:0; border:.5px solid var(--hh-line); border-radius:18px; }
+.setup-page #connect-agent :is(.connect-process,.project-handoff-details,.connect-faq) { margin:0; padding:0; border:.5px solid var(--hh-line); border-radius:var(--hh-radius-card); }
 .setup-page [data-slot="accordion-item"] { border:0; }
 .setup-page [data-slot="accordion-trigger"] { min-height:56px; padding:16px 20px; font-size:14px; line-height:1.6; }
 .setup-page [data-slot="accordion-content"] > div { padding:0 20px 20px; }
@@ -59,14 +59,14 @@
 .setup-page .local-workbench-connect { gap:20px; }
 .setup-page .local-workbench-connect h3 { font-size:20px; font-weight:400; line-height:1.5; }
 .setup-page .handoff-field { gap:8px; min-width:0; }
-.setup-page .handoff-field :is(input,textarea) { box-sizing:border-box; width:100%; border-radius:22px; padding:12px 16px; font:400 16px/1.5 var(--hh-font-sans); }
+.setup-page .handoff-field :is(input,textarea) { box-sizing:border-box; width:100%; border-radius:var(--hh-radius-field); padding:12px 16px; font:400 16px/1.5 var(--hh-font-sans); }
 .setup-page .handoff-field small { font-size:14px; line-height:1.6; }
 .setup-page .handoff-options { border:0; border-block:.5px solid var(--hh-line); border-radius:0; }
 .setup-page .handoff-options [data-slot="accordion-trigger"] { padding-inline:0; }
 .setup-page .handoff-options [data-slot="accordion-content"] > div { padding:0 0 20px; display:grid; gap:20px; }
 .setup-page .handoff-options .handoff-field { margin:0; }
 .setup-page .local-workbench-connect .connect-actions { gap:12px; margin:0; }
-.setup-page .local-workbench-connect .connect-actions button { min-height:44px; padding:10px 18px; border-radius:26px; font:400 14px/1.5 var(--hh-font-sans); }
+.setup-page .local-workbench-connect .connect-actions button { min-height:44px; padding:10px 18px; border-radius:var(--hh-radius-control); font:400 14px/1.5 var(--hh-font-sans); }
 .setup-page .connect-steps { list-style:none; padding:0; margin:0; display:grid; gap:20px; }
 .setup-page .connect-steps li { display:grid; grid-template-columns:28px minmax(0,1fr); gap:12px; padding:0; }
 .setup-page .connect-steps li > span { color:var(--hh-ink-muted); font-size:14px; line-height:30px; }
@@ -88,7 +88,7 @@
  .setup-page .local-workbench-connect .connect-actions { align-items:stretch; flex-direction:column; }
 }
 .setup-page [hidden] { display:none!important; }
-.setup-page .local-workbench-connect .connect-actions .button { display:inline-flex; justify-content:center; align-items:center; min-height:44px; padding:10px 18px; border-radius:26px; font:400 14px/1.5 var(--hh-font-sans); }
+.setup-page .local-workbench-connect .connect-actions .button { display:inline-flex; justify-content:center; align-items:center; min-height:44px; padding:10px 18px; border-radius:var(--hh-radius-control); font:400 14px/1.5 var(--hh-font-sans); }
 .setup-page :is(.handoff-options,.connect-faq [data-slot="accordion-content"]) [data-slot="accordion-item"][data-state="open"] { background:transparent; }
 .setup-page .how-to-steps { margin:0; }
 /* The final FAQ row ends with whitespace, without an extra bottom divider. */
@@ -103,3 +103,14 @@
 /* The prompt keeps a visible boundary even when its surface is transparent. */
 .setup-page #agent-prompt {border:.5px solid var(--hh-line-strong);box-shadow:none;}
 .setup-page #agent-prompt:focus-visible {outline:2px solid var(--hh-ring);outline-offset:2px;}
+
+/* Validation occupies a stable slot, so the note below never jumps on submit. */
+.setup-page #handoff-status,
+.setup-page #handoff-status:empty {
+ display:block;
+ min-block-size:calc(2 * 1.7em);
+ margin:0;
+ font-size:14px;
+ line-height:1.7;
+ color:var(--hh-ink-muted);
+}

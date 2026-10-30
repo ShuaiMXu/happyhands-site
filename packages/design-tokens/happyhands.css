@@ -49,19 +49,21 @@
   --hh-space-12: 48px;
   --hh-space-16: 64px;
   --hh-space-20: 80px;
-  --hh-radius-sm: 6px;
-  --hh-radius-md: 8px;
-  --hh-radius-lg: 10px;
-  --hh-radius-xl: 14px;
+  --hh-radius-sm: 8px;
+  --hh-radius-md: 12px;
+  --hh-radius-lg: 16px;
+  --hh-radius-xl: 16px;
   --hh-radius-pill: 999px;
   --hh-z-sticky: 10;
   --hh-z-overlay: 40;
   --hh-z-toast: 60;
   --hh-font-sans: "Inter", "PingFang SC", "Noto Sans SC", "Microsoft YaHei", system-ui, sans-serif;
   --hh-font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-  --hh-radius-control: 26px;
-  --hh-radius-field: 22px;
-  --hh-radius-card: 26px;
+  --hh-radius-control: 12px;
+  --hh-radius-field: 12px;
+  --hh-radius-card: 16px;
+  --hh-radius-group: 16px;
+  --hh-radius-option: 12px;
 }
 :root[data-hh-theme="dark"], :root[data-theme="dark"] {
   --hh-bg: oklch(0.145 0 0);
@@ -112,17 +114,19 @@
   --hh-space-12: 48px;
   --hh-space-16: 64px;
   --hh-space-20: 80px;
-  --hh-radius-sm: 6px;
-  --hh-radius-md: 8px;
-  --hh-radius-lg: 10px;
-  --hh-radius-xl: 14px;
+  --hh-radius-sm: 8px;
+  --hh-radius-md: 12px;
+  --hh-radius-lg: 16px;
+  --hh-radius-xl: 16px;
   --hh-radius-pill: 999px;
   --hh-z-sticky: 10;
   --hh-z-overlay: 40;
   --hh-z-toast: 60;
   --hh-font-sans: "Inter", "PingFang SC", "Noto Sans SC", "Microsoft YaHei", system-ui, sans-serif;
   --hh-font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-  --hh-radius-control: 26px;
-  --hh-radius-field: 22px;
-  --hh-radius-card: 26px;
+  --hh-radius-control: 12px;
+  --hh-radius-field: 12px;
+  --hh-radius-card: 16px;
+  --hh-radius-group: 16px;
+  --hh-radius-option: 12px;
 }

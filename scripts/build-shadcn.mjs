@@ -10,7 +10,7 @@ const source=`${variants}
 @import "tailwindcss/utilities.css" layer(utilities) prefix(sc);
 @custom-variant dark (&:where(:root[data-hh-theme=dark] *, :root[data-theme=dark] *, .dark *));
 @theme inline {${Object.entries(roles).map(([role,token])=>`--color-${role}:var(--hh-${token});`).join('')}
---font-sans:var(--hh-font-sans);--radius-sm:6px;--radius-md:8px;--radius-lg:10px;--radius-xl:14px;--radius-2xl:18px;--radius-3xl:22px;--radius-4xl:26px;}
+--font-sans:var(--hh-font-sans);--radius-sm:var(--hh-radius-sm);--radius-md:var(--hh-radius-md);--radius-lg:var(--hh-radius-lg);--radius-xl:var(--hh-radius-xl);--radius-2xl:var(--hh-radius-card);--radius-3xl:var(--hh-radius-card);--radius-4xl:var(--hh-radius-card);}
 @layer base {.hh-shadcn{margin:0;box-sizing:border-box;border:0 solid var(--hh-line);font-family:var(--hh-font-sans);}button.hh-shadcn,input.hh-shadcn,textarea.hh-shadcn{font:inherit;}button.hh-shadcn{background:transparent;color:inherit;}}
 `;
 const result=await compile(source,{base:process.cwd(),onDependency:()=>{}});

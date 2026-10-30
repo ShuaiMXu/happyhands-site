@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useLayoutEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { Button } from "../ui/shadcn/button";
 import { Input } from "../ui/shadcn/input";
@@ -61,11 +61,16 @@ function Preview() {
   const t = (a: string, b: string) => (zh ? a : b);
   const [notice, setNotice] = useState(""),
     [notifications, setNotifications] = useState(true);
-  useEffect(() => {
-    let scheduled = 0;
+  useLayoutEffect(() => {
+    let queued = false;
+    let active = true;
     const send = () => {
-      cancelAnimationFrame(scheduled);
-      scheduled = requestAnimationFrame(() => {
+      if (queued) return;
+      queued = true;
+      // Offscreen iframes can suspend animation frames. Sizing must still run.
+      queueMicrotask(() => {
+        queued = false;
+        if (!active) return;
         parent.postMessage(
           {
             type: "hh:component-height",
@@ -77,12 +82,17 @@ function Preview() {
         );
       });
     };
+    const measure = (event: MessageEvent) => {
+      if (event.source === parent && event.data?.type === "hh:measure-component") send();
+    };
+    window.addEventListener("message", measure);
     const observer = new ResizeObserver(send);
     observer.observe(document.getElementById("component-root")!);
     send();
     return () => {
+      window.removeEventListener("message", measure);
       observer.disconnect();
-      cancelAnimationFrame(scheduled);
+      active = false;
     };
   }, []);
   const variant =

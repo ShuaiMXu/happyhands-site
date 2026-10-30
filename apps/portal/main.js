@@ -10,6 +10,7 @@ import * as zh from './content.zh.js';
 import {siteNavigation} from '../../packages/ui/site-navigation.ts';
 import '../../packages/ui/site-shell.css';
 import './glass-header.css';
+import {setupLiquidGlass} from './liquid-glass.js';
 import { setupConnect, heroConnectMarkup } from './connect.js';
 import './hero-connect.css';
 import * as en from './content.en.js';
@@ -245,3 +246,6 @@ renderLangSwitch();
 renderContent();
 
 import "../../packages/ui/resource-navigation.css";
+
+const disposeLiquidGlass = setupLiquidGlass();
+if (import.meta.hot) import.meta.hot.dispose(disposeLiquidGlass);

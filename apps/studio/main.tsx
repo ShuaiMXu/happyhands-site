@@ -308,14 +308,25 @@ function App() {
     return stored;
   }
   useEffect(() => {
-    const timer = setTimeout(() => {
+    let pending = true;
+    const flush = () => {
+      if (!pending) return;
+      pending = false;
+      clearTimeout(timer);
       try {
         persist();
       } catch (e) {
         setError((e as Error).message);
       }
-    }, 400);
-    return () => clearTimeout(timer);
+    };
+    const timer = setTimeout(flush, 400);
+    // localStorage is synchronous: finish the pending edit before reload/navigation.
+    // persist still checks the stored revision and the cross-window conflict flag.
+    window.addEventListener("pagehide", flush);
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener("pagehide", flush);
+    };
   }, [
     styles,
     draft.id,

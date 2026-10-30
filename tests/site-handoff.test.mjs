@@ -6,7 +6,8 @@ import {randomUUID} from 'node:crypto';
 import {assertSiteHandoff,decodeSiteHandoff,localWorkbenchURL} from '../packages/contracts/site-handoff.js';
 test('the website and core use identical data-only handoff contracts',async()=>{
  const root=resolve(process.env.HARNESS_ROOT||'../happyhands');
- assert.equal(await readFile(new URL('../packages/contracts/site-handoff.js',import.meta.url),'utf8'),await readFile(resolve(root,'packages/workbench/site-handoff-contract.js'),'utf8'));
+ const normalize = text => text.replaceAll('\r\n', '\n');
+ assert.equal(normalize(await readFile(new URL('../packages/contracts/site-handoff.js',import.meta.url),'utf8')),normalize(await readFile(resolve(root,'packages/workbench/site-handoff-contract.js'),'utf8')));
  const data={schemaVersion:'0.1',id:randomUUID(),repo:'/Users/test/项目',task:'检查快速开始',designSources:['DESIGN.md','src/components']};
  const url=new URL(localWorkbenchURL('http://127.0.0.1:4190/apps/designer/',data));
  assert.equal(url.search,'');assert.deepEqual(decodeSiteHandoff(url.hash.slice(9)),data);

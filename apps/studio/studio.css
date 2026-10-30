@@ -52,6 +52,7 @@ input,
 select,
 textarea {
   min-width: 0;
+  min-height: 44px;
   background: var(--hh-bg-raised);
   color: var(--hh-ink);
   border: 0.5px solid var(--hh-line-strong);
@@ -188,11 +189,13 @@ p {
   display: flex;
   background: var(--hh-bg-sunken);
   padding: var(--hh-space-1);
-  border-radius: var(--hh-radius-sm);
+  border-radius: var(--hh-radius-group);
   gap: var(--hh-space-1);
   margin: var(--hh-space-4) 0;
 }
 .segmented button {
+  min-height: 44px;
+  border-radius: var(--hh-radius-option);
   flex: 1;
   border: 0;
   background: transparent;
@@ -444,7 +447,7 @@ p {
   font-family: var(--font-sans);
   letter-spacing: var(--letter-spacing);
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: var(--radius);
   overflow: hidden;
   min-width: 0;
   font-size: 13px;
@@ -1266,7 +1269,7 @@ button[aria-pressed="true"] {
   text-overflow: ellipsis;
 }
 .studio-title-tools .project-select > .hh-button {
-  width: 40px;
+  width: 44px;
   padding: 0;
   flex-shrink: 0;
 }
@@ -1309,7 +1312,7 @@ button[aria-pressed="true"] {
   align-items: center;
   justify-content: center;
   gap: var(--hh-space-2);
-  min-height: 40px;
+  min-height: 44px;
   padding: var(--hh-space-2) var(--hh-space-3);
   border: 0.5px solid var(--hh-line-strong);
   border-radius: var(--hh-radius-md);
@@ -1501,18 +1504,18 @@ button[aria-pressed="true"] {
 .controls .token-row:hover { background: var(--hh-bg-sunken); }
 .controls .token-row:focus-within { background: var(--hh-bg-hover); }
 .controls .token-row input:not([type="color"]):not([type="range"]) {
-  min-height: 32px;
+  min-height: 44px;
   background: transparent;
   border-color: transparent;
-  border-radius: var(--hh-radius-sm);
+  border-radius: var(--hh-radius-field);
 }
 .controls .token-row input:not([type="range"]):focus-visible {
   outline: 2px solid var(--hh-ring);
   outline-offset: 1px;
 }
 .controls .token-row input[type="color"] {
-  width: 28px;
-  height: 28px;
+  width: 44px;
+  height: 44px;
   padding: 2px;
   background: var(--hh-bg-raised);
   border-color: var(--hh-line-strong);
@@ -1521,7 +1524,7 @@ button[aria-pressed="true"] {
 .controls .hh-select-field > select,
 .studio-title-tools .hh-select-field > select,
 .preview-toolbar .hh-select-field > select {
-  min-height: 36px;
+  min-height: 44px;
   border-color: var(--hh-line);
   background: var(--hh-bg-raised);
   padding-inline-start: var(--hh-space-3);
@@ -1545,9 +1548,9 @@ button[aria-pressed="true"] {
   gap: var(--hh-space-1);
   background: var(--hh-bg-sunken);
   border: 0;
-  border-radius: var(--hh-radius-md);
+  border-radius: var(--hh-radius-group);
 }
-.control-tabs button { border-radius: var(--hh-radius-sm); color: var(--hh-ink-muted); }
+.control-tabs button { min-height: 44px; border-radius: var(--hh-radius-option); color: var(--hh-ink-muted); }
 .control-tabs button[aria-pressed="true"] {
   border: 0;
   background: var(--hh-bg-raised);
@@ -1559,7 +1562,7 @@ button[aria-pressed="true"] {
   .control-tabs button[aria-pressed="true"] { outline: 1px solid Highlight; }
 }
 
-.studio-new-project { margin-block: var(--hh-space-4); padding: var(--hh-space-4); border: 0.5px solid var(--hh-line); border-radius: var(--hh-radius-md); background: var(--hh-bg-raised); }
+.studio-new-project { margin-block: var(--hh-space-4); padding: var(--hh-space-4); border: 0.5px solid var(--hh-line); border-radius: var(--hh-radius-card); background: var(--hh-bg-raised); }
 .studio-new-project label { display: block; margin-bottom: 8px; font-weight: 400; }
 .studio-new-project-controls { display: flex; align-items: center; gap: 12px; max-width: 600px; }
 .studio-new-project-controls input { flex: 1; min-width: 0; min-height: 44px; border: 0.5px solid var(--hh-line); border-radius: var(--hh-radius-md); padding: 8px 12px; background: var(--hh-bg-raised); color: var(--hh-ink); }

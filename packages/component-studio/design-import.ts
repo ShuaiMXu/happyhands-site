@@ -40,8 +40,8 @@ export function importDesign(
   const mappings: DesignSource["mappings"] = [];
   const rules: [Key, RegExp][] = [
     ["background", /page background|dominant.*background|canvas/i],
-    ["foreground", /primary text|dominant foreground/i],
-    ["card", /card.*surface|card.*background|elevated card/i],
+    ["foreground", /primary (?:text|typography)|dominant foreground/i],
+    ["card", /card.*surface|card.*background|elevated card|(?:elevated|floating).*panel.*base/i],
     ["muted-foreground", /muted.*text|muted.*copy|secondary.*text/i],
     ["primary", /primary\s+(?:action|button|cta)|action color/i],
     [

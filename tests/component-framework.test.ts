@@ -73,8 +73,8 @@ test("user labels cannot escape into markup or script and disabled state is expl
 });
 import { readFileSync } from "node:fs";
 import { importDesign } from "../packages/component-studio/design-import";
-test("archive import preserves evidence and maps Mercury and a light reference without overwriting defaults", () => {
-  for (const slug of ["mercury-3172cd4d", "dot-connect-981d90e9"]) {
+test("archive import preserves evidence and maps Mercury, Figma and a light reference without overwriting defaults", () => {
+  for (const slug of ["mercury-3172cd4d", "figma-60793669", "dot-connect-981d90e9"]) {
     const raw = JSON.parse(
       readFileSync(`public/design-archive/${slug}/design-system.json`, "utf8"),
     );
@@ -87,6 +87,11 @@ test("archive import preserves evidence and maps Mercury and a light reference w
     assert.deepEqual(d.designSource?.system, raw);
     assert.ok(d.designSource!.mappings.length > 0);
     assert.deepEqual(validateDraft(d).designSource, d.designSource);
+    if (slug.startsWith("figma")) {
+      assert.equal(d.styles.light.foreground, "#000000");
+      assert.equal(d.styles.light.card, "#ffffff");
+      assert.equal(d.styles.light.primary, "#4d49fc");
+    }
     if (slug.startsWith("mercury")) {
       assert.equal(d.styles.dark.background, "#171721");
       assert.equal(d.styles.dark.primary, "#5266eb");

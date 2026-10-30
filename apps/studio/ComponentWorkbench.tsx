@@ -1,6 +1,6 @@
 import {autoSizeFrame} from "../../packages/ui/frame-sizing";
 import { Input } from "../../packages/ui";
-import { useEffect,useRef,useMemo, useState } from "react";
+import { useLayoutEffect,useRef,useMemo, useState } from "react";
 import { Button } from "../../packages/ui";
 import { Select } from "../../packages/ui/Select";
 import {
@@ -28,7 +28,27 @@ export function ComponentWorkbench({
 }) {
   const [overview,setOverview]=useState(true);
   const frame=useRef<HTMLIFrameElement>(null);
-  useEffect(()=>frame.current?autoSizeFrame(frame.current,"hh:component-height",true):undefined,[]);
+  useLayoutEffect(() => {
+    const node = frame.current;
+    if (!node) return;
+    const dispose = autoSizeFrame(node, "hh:component-height", true);
+    const measure = () => node.contentWindow?.postMessage({type:"hh:measure-component"}, "*");
+    node.addEventListener("load", measure);
+    window.addEventListener("resize", measure);
+    let width = 0;
+    const observer = new ResizeObserver(([entry]) => {
+      const next = Math.round(entry.contentRect.width);
+      if (next > 0 && next !== width) { width = next; measure(); }
+    });
+    observer.observe(node);
+    measure();
+    return () => {
+      node.removeEventListener("load", measure);
+      window.removeEventListener("resize", measure);
+      observer.disconnect();
+      dispose();
+    };
+  }, []);
   const previewDocument=useMemo(()=>componentDocument(config,styles,mode,lang,overview),[config,styles,mode,lang,overview]);
   const [query, setQuery] = useState("");
   const en = lang === "en";

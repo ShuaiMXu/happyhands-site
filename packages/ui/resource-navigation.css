@@ -8,7 +8,7 @@
 .catalog-resource-navigation { margin:24px var(--page-inset) 0; }
 @media(max-width:540px) { .hh-resource-navigation,.hh-resource-navigation > .hh-resource-group { column-gap:20px; } }
 
-.resource-tool-panel { min-width:0; }
+.resource-tool-panel { min-width:0; overflow-anchor:none; }
 .resource-tool-panel[hidden] { display:none; }
 .resource-tool-panel iframe { display:block; width:100%; height:640px; min-height:0; border:0; background:transparent; }
 .catalog-resource-navigation ~ .resource-tool-panel { margin:24px var(--page-inset); }

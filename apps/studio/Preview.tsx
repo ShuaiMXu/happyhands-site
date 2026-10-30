@@ -1,3 +1,6 @@
+import { Textarea } from "../../packages/ui";
+import { Input } from "../../packages/ui";
+import { Button } from "../../packages/ui";
 import { ComponentExamples } from "./ComponentExamples";
 import { Select } from "../../packages/ui/Select";
 import { Icon } from "../../packages/ui/Icon";
@@ -78,13 +81,13 @@ export function Preview({
               ["disabled", "禁用"],
               ["ready", "完成"],
             ].map(([value, label]) => (
-              <button
+              <Button
                 key={value}
                 className={componentState === value ? "" : "secondary"}
                 onClick={() => setComponentState(value)}
               >
                 {t(label)}
-              </button>
+              </Button>
             ))}
           </div>
           <article
@@ -95,9 +98,9 @@ export function Preview({
               <>
                 <h3>{t("还没有设计审阅")}</h3>
                 <p>{t("选择一个页面，开始记录你的第一轮设计判断。")}</p>
-                <button onClick={() => setComponentState("loading")}>
+                <Button onClick={() => setComponentState("loading")}>
                   {t("新建审阅示例")}
-                </button>
+                </Button>
               </>
             ) : componentState === "loading" ? (
               <>
@@ -107,12 +110,12 @@ export function Preview({
                 </div>
                 <div className="sample-skeleton" aria-hidden="true" />
                 <p>{t("示例状态。可以取消，或切换到「完成」检查结果。")}</p>
-                <button
+                <Button
                   className="secondary"
                   onClick={() => setComponentState("empty")}
                 >
                   {t("取消示例")}
-                </button>
+                </Button>
               </>
             ) : componentState === "error" ? (
               <>
@@ -120,21 +123,21 @@ export function Preview({
                   <h3>{t("未能连接预览页面")}</h3>
                   <p>{t("页面没有返回内容。请检查地址，或重新尝试。")}</p>
                 </div>
-                <button onClick={() => setComponentState("ready")}>
+                <Button onClick={() => setComponentState("ready")}>
                   {t("重试示例")}
-                </button>
-                <button
+                </Button>
+                <Button
                   className="secondary"
                   onClick={() => setComponentState("empty")}
                 >
                   {t("返回选择")}
-                </button>
+                </Button>
               </>
             ) : componentState === "disabled" ? (
               <>
                 <h3>{t("请先选择一个页面")}</h3>
                 <p>{t("完成选择后才能开始审阅。禁用操作始终附有原因。")}</p>
-                <button disabled>{t("开始审阅")}</button>
+                <Button disabled>{t("开始审阅")}</Button>
               </>
             ) : (
               <>
@@ -144,9 +147,9 @@ export function Preview({
                     "结果已经可以查看。真实项目仍需检查证据后，才能判断是否通过。",
                   )}
                 </p>
-                <button onClick={() => setComponentState("empty")}>
+                <Button onClick={() => setComponentState("empty")}>
                   {t("开始下一轮示例")}
-                </button>
+                </Button>
               </>
             )}
           </article>
@@ -166,13 +169,13 @@ export function Preview({
           </h1>
           <p>{t("创建项目，分配任务，与团队分享最新进展。")}</p>
           <div className="sample-actions">
-            <button data-token="primary">
+            <Button data-token="primary">
               <Icon name="right" />
               {t("开始使用")}
-            </button>
-            <button className="secondary" data-token="secondary">
+            </Button>
+            <Button className="secondary" data-token="secondary">
               {t("查看案例")}
-            </button>
+            </Button>
           </div>
           <div className="sample-grid">
             {["快速开始", "保持一致", "持续改进"].map((item, i) => (
@@ -193,17 +196,17 @@ export function Preview({
               <h3>{t("文字与操作")}</h3>
               <p>{t("正文要容易阅读，辅助说明也应清楚。")}</p>
               <div className="sample-actions">
-                <button data-token="primary" onClick={() => setChecked(true)}>
+                <Button data-token="primary" onClick={() => setChecked(true)}>
                   {t("保存示例")}
-                </button>
-                <button
+                </Button>
+                <Button
                   className="secondary"
                   data-token="secondary"
                   onClick={() => setChecked(false)}
                 >
                   {t("重置示例")}
-                </button>
-                <button disabled>{t("不可用")}</button>
+                </Button>
+                <Button disabled>{t("不可用")}</Button>
               </div>
               <p role="status">
                 {checked
@@ -215,7 +218,7 @@ export function Preview({
               <h3>{t("输入与选择")}</h3>
               <label>
                 {t("示例名称")}
-                <input data-token="input" placeholder={t("例如：产品首页")} />
+                <Input data-token="input" placeholder={t("例如：产品首页")} />
               </label>
               <label>
                 {t("优先级")}
@@ -225,7 +228,7 @@ export function Preview({
                 </Select>
               </label>
               <label className="sample-check">
-                <input type="checkbox" />
+                <Input type="checkbox" />
                 {t("完成后通知我")}
               </label>
             </article>
@@ -289,22 +292,22 @@ export function Preview({
                 </h2>
                 <p>{t("查看项目、任务和最近更新。")}</p>
               </div>
-              <button data-token="primary">
+              <Button data-token="primary">
                 <Icon name="plus" />
                 {t("新建项目")}
-              </button>
+              </Button>
             </div>
             {scene === "Mail" ? (
               <article className="sample-mail" data-token="card">
                 <div>
                   {["设计评审", "新一轮迭代", "团队更新"].map((item) => (
-                    <button
+                    <Button
                       key={item}
                       className="secondary"
                       onClick={() => setTab(item)}
                     >
                       {t(item)}
-                    </button>
+                    </Button>
                   ))}
                 </div>
                 <h3>{tab === "全部" ? t("设计评审") : t(tab)}</h3>
@@ -313,11 +316,11 @@ export function Preview({
                     "Hi Alex，新的设计方案已经准备好。请查看改动并留下你的判断。",
                   )}
                 </p>
-                <textarea
+                <Textarea
                   aria-label={t("预览回复")}
                   placeholder={t("写下你的回复…")}
                 />
-                <button data-token="primary">{t("发送回复")}</button>
+                <Button data-token="primary">{t("发送回复")}</Button>
               </article>
             ) : (
               <>
@@ -348,13 +351,13 @@ export function Preview({
                     </div>
                     <div className="sample-tabs">
                       {["全部", "进行中", "已完成"].map((item) => (
-                        <button
+                        <Button
                           className={tab === item ? "" : "secondary"}
                           key={item}
                           onClick={() => setTab(item)}
                         >
                           {t(item)}
-                        </button>
+                        </Button>
                       ))}
                     </div>
                   </article>
@@ -362,7 +365,7 @@ export function Preview({
                     <h3>{t("新建审阅")}</h3>
                     <label>
                       {t("项目名称")}
-                      <input
+                      <Input
                         data-token="input"
                         placeholder={t("例如：产品首页")}
                       />
@@ -375,7 +378,7 @@ export function Preview({
                       </Select>
                     </label>
                     <label className="sample-check">
-                      <input
+                      <Input
                         type="checkbox"
                         checked={checked}
                         onChange={(e) => setChecked(e.target.checked)}
@@ -383,8 +386,8 @@ export function Preview({
                       {t("完成后通知我")}
                     </label>
                     <div className="sample-actions">
-                      <button data-token="primary">{t("创建任务")}</button>
-                      <button disabled>{t("处理中…")}</button>
+                      <Button data-token="primary">{t("创建任务")}</Button>
+                      <Button disabled>{t("处理中…")}</Button>
                     </div>
                   </article>
                   <article data-token="card">
@@ -393,12 +396,12 @@ export function Preview({
                       {t("连接中断，请检查后重试。")}
                     </p>
                     <div className="sample-actions">
-                      <button className="destructive" data-token="destructive">
+                      <Button className="destructive" data-token="destructive">
                         {t("重试连接")}
-                      </button>
-                      <button className="secondary" data-token="secondary">
+                      </Button>
+                      <Button className="secondary" data-token="secondary">
                         {t("取消")}
-                      </button>
+                      </Button>
                     </div>
                     <p className="sample-muted" data-token="muted-foreground">
                       {t("辅助说明与不可用状态也需要足够清晰。")}

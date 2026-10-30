@@ -3,7 +3,7 @@
 .resource-search { position:relative; display:block; flex:0 1 280px; min-width:0; max-width:300px; margin:0; }
 .resource-search-icon { position:absolute; left:12px; top:50%; transform:translateY(-50%); color:var(--hh-ink-muted); pointer-events:none; }
 .resource-search-label { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
-.resource-search input[type="search"] { width:100%; height:44px; padding:10px 12px 10px 36px; font:inherit; font-size:14px; line-height:22px; color:var(--hh-ink); background:transparent; border:0.5px solid var(--hh-line-strong); border-radius:var(--hh-radius-sm); }
+.resource-search input[type="search"] { width:100%; height:44px; padding:10px 12px 10px 36px; font:inherit; font-size:14px; line-height:22px; color:var(--hh-ink); background:transparent; border:0.5px solid var(--hh-line-strong); border-radius:var(--hh-radius-field); }
 .resource-search input[type="search"]::placeholder { color:var(--hh-ink-muted); }
 .resource-facets { display:flex; align-items:center; gap:12px; min-width:0; }
 .resource-result-count { margin-left:auto; font-size:12px; color:var(--hh-ink-muted); white-space:nowrap; font-variant-numeric:tabular-nums; }
@@ -11,14 +11,14 @@
  .resource-toolbar { gap:4px 8px; margin-block:20px 24px; }
  .resource-search { flex:1 1 140px; max-width:300px; }
  .resource-facets { gap:12px; max-width:100%; }
- .resource-facets .archive-filter-trigger { padding-inline:0; }
+ .resource-facets .archive-filter-trigger { padding-inline:12px; }
 }
 @media(max-width:540px) {
  .resource-toolbar:has(.resource-facets > button ~ button) .resource-search { flex-basis:100%; max-width:none; margin-bottom:0; }
 }
 @media(pointer:coarse) { .resource-search input[type="search"] { font-size:16px; } }
-.archive-filter-trigger { display:inline-flex; gap:8px; align-items:center; justify-content:space-between; min-height:44px; max-width:100%; padding:8px 10px; font:inherit; font-size:14px; font-weight:500; color:var(--hh-ink); background:transparent; border:0; border-radius:var(--hh-radius-sm); cursor:pointer; }
-.archive-filter-trigger:hover,.archive-filter-trigger[data-popup-open] { background:var(--hh-bg-raised); }
+.archive-filter-trigger { display:inline-flex; gap:8px; align-items:center; justify-content:space-between; min-height:44px; max-width:100%; padding:8px 10px; font:inherit; font-size:14px; font-weight:500; color:var(--hh-ink); background:transparent; border:0; border-radius:var(--hh-radius-field); cursor:pointer; }
+.archive-filter-trigger:hover,.archive-filter-trigger[data-state="open"] { background:var(--hh-bg-raised); }
 .archive-filter-trigger svg { flex:none; }
 .archive-filter-trigger:focus-visible { outline:2px solid var(--hh-ring); outline-offset:2px; }
 .archive-filter-positioner { z-index:60; }
@@ -39,7 +39,7 @@
 .resource-search input[type="search"] { transition:border-color 150ms ease-out, background-color 150ms ease-out; }
 .archive-filter-trigger { transition:background-color 150ms ease-out, color 150ms ease-out; }
 .archive-filter-trigger svg { transition:transform 250ms ease-out; }
-.archive-filter-trigger[data-popup-open] svg { transform:rotate(180deg); }
+.archive-filter-trigger[data-state="open"] svg { transform:rotate(180deg); }
 .archive-filter-popup { transform-origin:var(--transform-origin); transition:opacity 250ms ease-out, transform 250ms ease-out; }
 .archive-filter-popup[data-starting-style] { opacity:0; transform:translateY(-4px); }
 .archive-filter-popup[data-ending-style] { opacity:0; transform:translateY(-2px); transition-duration:150ms; }
@@ -49,3 +49,42 @@
 
 .archive-filter-search { border-radius:calc(var(--hh-radius-md) - 6px); }
 .archive-filter-popup[data-pointer-open] .archive-filter-search:focus { outline:none; box-shadow:none; border-bottom-color:var(--hh-ink-muted); }
+
+/* Applied selection, open state and keyboard focus are distinct. */
+.resource-facets .archive-filter-trigger { padding:8px 12px; border:.5px solid transparent; color:var(--hh-ink-muted); font-weight:400; }
+.resource-facets .archive-filter-trigger[data-filter-active="true"] { color:var(--hh-ink); background:var(--hh-bg-raised); border-color:var(--hh-line-strong); }
+.resource-facets .archive-filter-trigger[data-state="open"] { color:var(--hh-ink); background:var(--hh-bg-hover); border-color:var(--hh-line-strong); }
+.resource-facets .archive-filter-trigger:focus-visible { outline:2px solid var(--hh-ring); outline-offset:2px; box-shadow:none; }
+.resource-facets .archive-filter-trigger[data-pointer-focus]:focus-visible { outline:none; box-shadow:none; }
+.hh-catalog-popover .archive-filter-option { display:grid; grid-template-columns:minmax(0,1fr) auto 16px; gap:12px; padding:10px 12px; }
+.hh-catalog-popover .archive-filter-option > svg { margin:0; opacity:0; }
+.hh-catalog-popover .archive-filter-option[data-checked="true"] > svg { opacity:1; }
+.hh-catalog-popover .archive-filter-option[data-checked="true"] { color:var(--hh-ink); }
+.hh-catalog-popover [data-slot="command-list"] { max-height:min(320px,calc(var(--radix-popover-content-available-height) - 64px)); }
+
+.hh-catalog-popover[data-pointer-open] [data-slot="input-group"]:has([data-slot="command-input"]:focus-visible) { outline:none; box-shadow:none; }
+
+/* One layout contract for the homepage and every resource collection. */
+.resource-toolbar { display:grid; grid-template-columns:minmax(180px,300px) minmax(0,1fr) auto; gap:12px; }
+.resource-toolbar .resource-search { width:100%; max-width:none; }
+.resource-toolbar .resource-facets { flex-wrap:wrap; min-height:44px; gap:8px; }
+.resource-facets .archive-filter-trigger { min-width:0; white-space:normal; text-align:start; }
+@media(max-width:700px) {
+ .resource-toolbar { grid-template-columns:minmax(0,1fr) auto; gap:8px 12px; }
+ .resource-toolbar .resource-search { grid-column:1 / -1; margin:0; }
+ .resource-toolbar .resource-result-count { grid-column:2; }
+}
+@media(max-width:420px) {
+ .resource-toolbar { grid-template-columns:minmax(0,1fr); }
+ .resource-toolbar .resource-result-count { grid-column:1; margin-left:0; }
+}
+
+/* Searchable facets share the same inset rhythm as the form Select menus. */
+.hh-catalog-popover [data-slot="command"] { padding:8px; gap:8px; height:auto; border-radius:26px; }
+.hh-catalog-popover [data-slot="command-input-wrapper"] { padding:0; }
+.hh-catalog-popover [data-slot="input-group"] { min-height:44px; border-radius:18px; }
+.hh-catalog-popover [data-slot="command-list"] { padding:0; max-height:min(264px,calc(var(--radix-popover-content-available-height) - 76px)); overscroll-behavior:contain; scroll-padding-block:4px; }
+.hh-catalog-popover .archive-filter-option { min-height:44px; border-radius:18px; line-height:24px; }
+.hh-catalog-popover .archive-filter-option + .archive-filter-option { margin-top:4px; }
+.hh-catalog-popover .archive-filter-option > span:first-child { min-width:0; overflow-wrap:break-word; }
+.hh-catalog-popover .archive-filter-count { text-align:end; }

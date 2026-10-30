@@ -97,7 +97,7 @@
   flex-shrink: 0;
   accent-color: var(--ex-ink);
 }
-.system-landing .system-example button {
+.system-landing .system-example button:not([data-slot="checkbox"]) {
   padding: var(--hh-space-2) var(--hh-space-3);
   min-height: 44px;
   border: 1px solid var(--ex-line);

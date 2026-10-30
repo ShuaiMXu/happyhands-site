@@ -1,0 +1,105 @@
+.setup-header { display:flex; justify-content:space-between; align-items:center; gap:20px; padding:16px clamp(20px,5vw,72px); border-bottom:.5px solid var(--hh-line); }
+.setup-header div { display:flex; gap:12px; }
+.setup-header a,.setup-header button { display:inline-flex; align-items:center; min-height:44px; color:var(--hh-ink); text-decoration:none; }
+.setup-header button { font:inherit; border:.5px solid var(--hh-line); border-radius:var(--hh-radius-control); padding:8px 16px; background:var(--hh-bg-raised); cursor:pointer; }
+.setup-start { padding:48px clamp(20px,5vw,72px) 24px; }
+.setup-start h1 { font-size:32px; font-weight:400; }
+.setup-start p { line-height:1.7; color:var(--hh-ink-muted); }
+.setup-start .hero-agent-choices { justify-content:flex-start; margin:24px 0; }
+#connect-agent { padding-top:24px; }
+#setup-copy-status { min-height:24px; }
+
+/* Setup owns its reading rhythm rather than inheriting the portal's hero spacing. */
+.setup-page { max-width:1040px; margin:0 auto; padding:40px 32px 64px; font-size:14px; }
+.setup-page .setup-start { padding:0 0 24px; }
+.setup-page .setup-start h1 { margin:20px 0 12px; font-size:32px; }
+.setup-page .setup-start p { margin:0; }
+.setup-page .hero-agent-choices { margin:20px 0 0; gap:8px; }
+.setup-page .hero-agent-choices button { background:transparent; color:var(--hh-ink-muted); border:.5px solid var(--hh-line); padding:8px 14px; font-size:14px; }
+.setup-page .hero-agent-choices button[aria-pressed="true"] { background:var(--hh-ink); color:var(--hh-bg); border-color:var(--hh-ink); }
+.setup-page #connect-agent { padding:0; background:transparent; display:flex; flex-direction:column; gap:20px; }
+.setup-page .section-head { display:none; }
+.setup-page .agent-setup-help { order:-1; display:flex; flex-direction:column; gap:16px; padding:24px; margin:0; border-radius:26px; }
+.setup-page .agent-setup-help > :is(h3,p,a,div,section) { margin:0; }
+.setup-page .agent-setup-help h3 { font-size:20px; font-weight:400; line-height:1.5; }
+.setup-page .agent-setup-help p { font-size:14px; line-height:1.7; max-width:none; }
+.setup-page .agent-setup-help .agent-status { font-size:14px; }
+.setup-page .agent-prompt-preview { border:0; padding:0; min-width:0; }
+.setup-page .setup-prompt-heading { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px; margin-bottom:12px; }
+.setup-page .setup-prompt-heading label { margin:0; font-size:14px; }
+.setup-page .setup-prompt-actions { display:flex; align-items:center; gap:8px; }
+.setup-page #agent-prompt { display:block; width:100%; box-sizing:border-box; height:auto; min-height:360px; field-sizing:content; resize:none; overflow:hidden; padding:20px; border-radius:18px; background:var(--hh-bg); color:var(--hh-ink); font:400 14px/1.8 var(--hh-font-sans); white-space:pre-wrap; }
+.setup-page .connect-actions { display:flex; flex-wrap:wrap; align-items:center; gap:20px; }
+.setup-page .text-link { display:inline-flex; align-items:center; gap:8px; min-height:44px; font-size:14px; font-weight:400; text-decoration:none; }
+.setup-page .connect-note { color:var(--hh-ink-muted); }
+.setup-page #connect-agent :is(.connect-process,.project-handoff-details,.connect-faq) { margin:0; padding:0; border:.5px solid var(--hh-line); border-radius:18px; }
+.setup-page [data-slot="accordion-item"] { border:0; }
+.setup-page [data-slot="accordion-trigger"] { min-height:56px; padding:16px 20px; font-size:14px; line-height:1.6; }
+.setup-page [data-slot="accordion-content"] > div { padding:0 20px 20px; }
+.setup-page .steps-grid { gap:16px; }
+.setup-page .step-card { min-height:0; padding:16px; border:0; background:var(--hh-bg-raised); color:var(--hh-ink); border-radius:12px; }
+.setup-page .step-card h3 { margin:12px 0 8px; font-size:20px; font-weight:400; }
+.setup-page .step-card p { font-size:14px; line-height:1.7; }
+@media(max-width:620px) {
+ .setup-page { padding:24px 20px 40px; }
+ .setup-page .agent-setup-help { padding:20px; }
+ .setup-page .setup-prompt-heading { align-items:flex-start; }
+ .setup-page #agent-prompt { padding:16px; font-size:16px; }
+ .setup-page .connect-grid { grid-template-columns:1fr; }
+}
+
+/* Expanded disclosures share one inset; nested fields do not add another card. */
+.setup-page [data-slot="accordion-content"] { padding-inline:0; }
+.setup-page [data-slot="accordion-content"] > div { height:auto; padding:4px 20px 20px; }
+.setup-page [data-slot="accordion-content"] p { margin:0; line-height:1.7; color:var(--hh-ink-muted); }
+.setup-page [data-slot="accordion-trigger"] { align-items:center; }
+.setup-page [data-slot="accordion-trigger-icon"] { flex-shrink:0; }
+.setup-page .connect-grid { display:grid; grid-template-columns:minmax(0,1.3fr) minmax(0,1fr); align-items:start; gap:32px; margin:0; }
+.setup-page .project-handoff-details .connect-panel { padding:0; border:0; border-radius:0; background:transparent; min-width:0; }
+.setup-page .local-workbench-connect { gap:20px; }
+.setup-page .local-workbench-connect h3 { font-size:20px; font-weight:400; line-height:1.5; }
+.setup-page .handoff-field { gap:8px; min-width:0; }
+.setup-page .handoff-field :is(input,textarea) { box-sizing:border-box; width:100%; border-radius:22px; padding:12px 16px; font:400 16px/1.5 var(--hh-font-sans); }
+.setup-page .handoff-field small { font-size:14px; line-height:1.6; }
+.setup-page .handoff-options { border:0; border-block:.5px solid var(--hh-line); border-radius:0; }
+.setup-page .handoff-options [data-slot="accordion-trigger"] { padding-inline:0; }
+.setup-page .handoff-options [data-slot="accordion-content"] > div { padding:0 0 20px; display:grid; gap:20px; }
+.setup-page .handoff-options .handoff-field { margin:0; }
+.setup-page .local-workbench-connect .connect-actions { gap:12px; margin:0; }
+.setup-page .local-workbench-connect .connect-actions button { min-height:44px; padding:10px 18px; border-radius:26px; font:400 14px/1.5 var(--hh-font-sans); }
+.setup-page .connect-steps { list-style:none; padding:0; margin:0; display:grid; gap:20px; }
+.setup-page .connect-steps li { display:grid; grid-template-columns:28px minmax(0,1fr); gap:12px; padding:0; }
+.setup-page .connect-steps li > span { color:var(--hh-ink-muted); font-size:14px; line-height:30px; }
+.setup-page .connect-steps h3 { margin:0 0 8px; font-size:20px; line-height:1.5; font-weight:400; }
+.setup-page .connect-steps p { font-size:14px; }
+.setup-page .connect-faq [data-slot="accordion-content"] [data-slot="accordion"] { border:0; border-bottom:.5px solid var(--hh-line); border-radius:0; }
+.setup-page .connect-faq [data-slot="accordion-content"] [data-slot="accordion-trigger"] { padding-inline:0; }
+.setup-page .connect-faq [data-slot="accordion-content"] [data-slot="accordion-content"] > div { padding:0 0 16px; }
+.setup-page .steps-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); }
+.setup-page .step-card > span { font:400 14px/1.5 var(--hh-font-sans); color:var(--hh-ink-muted); }
+@media(max-width:800px) {
+ .setup-page .connect-grid,.setup-page .steps-grid { grid-template-columns:minmax(0,1fr); gap:20px; }
+ .setup-page .connect-steps { padding-top:20px; border-top:.5px solid var(--hh-line); }
+ .setup-page .step-card { padding:16px; }
+}
+@media(max-width:420px) {
+ .setup-page [data-slot="accordion-trigger"] { padding-inline:16px; }
+ .setup-page [data-slot="accordion-content"] > div { padding-inline:16px; }
+ .setup-page .local-workbench-connect .connect-actions { align-items:stretch; flex-direction:column; }
+}
+.setup-page [hidden] { display:none!important; }
+.setup-page .local-workbench-connect .connect-actions .button { display:inline-flex; justify-content:center; align-items:center; min-height:44px; padding:10px 18px; border-radius:26px; font:400 14px/1.5 var(--hh-font-sans); }
+.setup-page :is(.handoff-options,.connect-faq [data-slot="accordion-content"]) [data-slot="accordion-item"][data-state="open"] { background:transparent; }
+.setup-page .how-to-steps { margin:0; }
+/* The final FAQ row ends with whitespace, without an extra bottom divider. */
+.setup-page .connect-faq [data-slot="accordion-content"] [data-slot="accordion"]:last-child { border-bottom:0; }
+.setup-page #connect-agent { border-bottom:0; }
+/* Keep sibling FAQ disclosures visually separate in both open and closed states. */
+.setup-page .connect-faq > [data-slot="accordion-item"] > [data-slot="accordion-content"] > div { display:flex; flex-direction:column; gap:12px; }
+
+/* No extra painted panels around setup content. */
+.setup-page :is(.agent-setup-help,.connect-process,.project-handoff-details,.connect-faq,.connect-panel,.step-card,.steps-grid,.handoff-options,[data-slot="accordion"],[data-slot="accordion-item"],[data-slot="accordion-content"],#agent-prompt) { background:transparent; }
+
+/* The prompt keeps a visible boundary even when its surface is transparent. */
+.setup-page #agent-prompt {border:.5px solid var(--hh-line-strong);box-shadow:none;}
+.setup-page #agent-prompt:focus-visible {outline:2px solid var(--hh-ring);outline-offset:2px;}

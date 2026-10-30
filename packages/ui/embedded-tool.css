@@ -1,0 +1,11 @@
+html[data-embedded-tool] header.hh-site-header { display:none; }
+html[data-embedded-tool] .setup-start > a { display:none; }
+html[data-embedded-tool] .setup-page { padding-top:0; }
+html[data-embedded-tool] .studio-shell { padding-top:0; }
+
+/* Embedded tools share the surrounding page canvas without another painted layer. */
+html[data-embedded-tool],
+html[data-embedded-tool] body,
+html[data-embedded-tool] #root,
+html[data-embedded-tool] .studio-shell,
+html[data-embedded-tool] .setup-page { background:transparent; }

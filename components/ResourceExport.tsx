@@ -1,3 +1,5 @@
+import {Tabs,TabsList,TabsTrigger,TabsContent} from "../packages/ui/shadcn/tabs";
+import {Button as LinkButton} from "../packages/ui/shadcn/button";
 import { Button } from "../packages/ui";
 import React, { useEffect, useState } from "react";
 export type ExportFile = { label: string; url: string; name: string };
@@ -9,6 +11,7 @@ export function ResourceExport({
   lang: string;
 }) {
   const [active, setActive] = useState(0),
+    [retry, setRetry] = useState(0),
     [text, setText] = useState(""),
     [loading, setLoading] = useState(false),
     [error, setError] = useState(false),
@@ -21,6 +24,7 @@ export function ResourceExport({
     setText("");
     setError(false);
     setNotice("");
+    if (!file) { setLoading(false); return () => c.abort(); }
     fetch(file.url, { signal: c.signal })
       .then((r) => {
         if (!r.ok) throw Error();
@@ -36,47 +40,19 @@ export function ResourceExport({
         if (!c.signal.aborted) setLoading(false);
       });
     return () => c.abort();
-  }, [file.url]);
+  }, [file?.url, retry]);
+  if (!file) return null;
   return (
     <aside
       className="resource-export"
       aria-label={zh ? "规范文件" : "Guideline files"}
     >
-      <div
-        className="resource-export-tabs"
-        role="tablist"
-        aria-label={zh ? "文件格式" : "File format"}
-      >
-        {files.map((f, i) => (
-          <button
-            key={f.url}
-            role="tab"
-            aria-selected={i === active}
-            aria-controls="resource-export-content"
-            id={`resource-format-${i}`}
-            tabIndex={i === active ? 0 : -1}
-            onKeyDown={(e) => {
-              if (["ArrowLeft", "ArrowRight", "Home", "End"].includes(e.key)) {
-                e.preventDefault();
-                const next =
-                  e.key === "Home"
-                    ? 0
-                    : e.key === "End"
-                      ? files.length - 1
-                      : (i + (e.key === "ArrowRight" ? 1 : -1) + files.length) %
-                        files.length;
-                setActive(next);
-                document.getElementById(`resource-format-${next}`)?.focus();
-              }
-            }}
-            onClick={() => setActive(i)}
-          >
-            {f.label}
-          </button>
-        ))}
-      </div>
+      <Tabs value={String(active)} onValueChange={v=>setActive(Number(v))}>
+      <TabsList variant="line" className="resource-export-tabs" aria-label={zh?'文件格式':'File format'}>{files.map((f,i)=><TabsTrigger key={f.url} value={String(i)}>{f.label}</TabsTrigger>)}</TabsList>
+      <TabsContent value={String(active)}>
       <div className="resource-export-actions">
         <span role="status">{notice}</span>
+        {error && <Button onClick={() => setRetry(value => value + 1)}>{zh ? "重试" : "Retry"}</Button>}
         <Button
           disabled={!text || loading || error}
           onClick={async () => {
@@ -90,20 +66,15 @@ export function ResourceExport({
         >
           {zh ? "复制" : "Copy"}
         </Button>
-        <a
-          className="hh-button"
-          data-variant="secondary"
+        <LinkButton asChild variant="secondary"><a
           href={file.url}
           download={file.name}
         >
           {zh ? "下载" : "Download"}
-        </a>
+        </a></LinkButton>
       </div>
       <pre
-        id="resource-export-content"
-        role="tabpanel"
         tabIndex={0}
-        aria-labelledby={`resource-format-${active}`}
         aria-busy={loading}
       >
         {loading
@@ -116,6 +87,7 @@ export function ResourceExport({
               : "Could not load the file. Download is available."
             : text}
       </pre>
+      </TabsContent></Tabs>
     </aside>
   );
 }

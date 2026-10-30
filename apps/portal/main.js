@@ -1,3 +1,4 @@
+import { populateGitHubStars } from './github-stars.js';
 import { ResourceFeedControls } from "./ResourceFeedControls";
 import { applySiteMetadata } from "../../packages/ui/site-seo";
 import {setupSiteMenu} from '../../packages/ui/site-menu.ts';
@@ -8,6 +9,7 @@ import {readLanguage, readTheme, savePreference} from '../../packages/ui/site-pr
 import * as zh from './content.zh.js';
 import {siteNavigation} from '../../packages/ui/site-navigation.ts';
 import '../../packages/ui/site-shell.css';
+import './glass-header.css';
 import { setupConnect, heroConnectMarkup } from './connect.js';
 import './hero-connect.css';
 import * as en from './content.en.js';
@@ -25,7 +27,7 @@ let disposeHomepageMotion;
 
 let lang = readLanguage();
 const t = () => lang === 'zh' ? zh : en;
-document.querySelector('.site-header').classList.add('hh-site-header');
+document.querySelector('.site-header').classList.add('hh-site-header','portal-glass-header');
 document.querySelector('.header-cta')?.remove();
 
 const systemTheme = matchMedia('(prefers-color-scheme: dark)');
@@ -86,7 +88,7 @@ function updateNavigation() {
     else link.removeAttribute('aria-current');
   });
 }
-function routeLegacyResources(){if(location.hash==='#explore')location.replace('/components/?provider=systems');}
+function routeLegacyResources(){if(location.hash==='#connect-agent'){location.replace('/apps/setup/');return;}if(location.hash==='#explore')location.replace('/components/?provider=systems');}
 routeLegacyResources();
 window.addEventListener('hashchange',()=>{routeLegacyResources();updateNavigation();});
 
@@ -96,7 +98,8 @@ function renderContent() {
   document.querySelector('.skip-link').textContent=lang==='zh'?'跳到主要内容':'Skip to content';
   document.querySelector('.desktop-nav').setAttribute('aria-label',lang==='zh'?'主要导航':'Main navigation');
   document.querySelector('.wordmark').setAttribute('aria-label','HappyHands');
-  document.querySelector('.desktop-nav').innerHTML=`<a href="${repositories.core}">GitHub ${iconMarkup('external')}</a>`;
+  document.querySelector('.desktop-nav').innerHTML=`<a href="${repositories.core}"><span>GitHub</span> ${iconMarkup('star')}<span data-github-stars hidden></span></a>`;
+  populateGitHubStars(document.querySelector('.desktop-nav a'), repositories.core, lang);
   updateNavigation();
   applyTheme(document.documentElement.dataset.theme);
 
@@ -240,3 +243,5 @@ document.addEventListener('click', async e => {
 let disposeMenu;
 renderLangSwitch();
 renderContent();
+
+import "../../packages/ui/resource-navigation.css";

@@ -1,3 +1,5 @@
+import { Input } from "./index";
+import { Button } from "./index";
 import React, { useState, type CSSProperties } from "react";
 import { SystemExample } from "./SystemExample";
 import { LimeExample } from "../../systems/lime/LimeExample";
@@ -107,12 +109,12 @@ export function SystemScenes({
           role="group"
           aria-label={t("场景外观", "Scene appearance")}
         >
-          <button aria-pressed={!isDark} onClick={() => setAppearance(false)}>
+          <Button aria-pressed={!isDark} onClick={() => setAppearance(false)}>
             {t("浅色", "Light")}
-          </button>
-          <button aria-pressed={isDark} onClick={() => setAppearance(true)}>
+          </Button>
+          <Button aria-pressed={isDark} onClick={() => setAppearance(true)}>
             {t("深色", "Dark")}
-          </button>
+          </Button>
         </div>
       </div>
       <div
@@ -121,7 +123,7 @@ export function SystemScenes({
         aria-label={t("选择应用场景", "Choose a scene")}
       >
         {scenes[system].map((label, index) => (
-          <button
+          <Button
             key={index}
             aria-pressed={scene === index}
             onClick={() => {
@@ -131,7 +133,7 @@ export function SystemScenes({
           >
             <span>0{index + 1}</span>
             <strong>{label[zh ? 0 : 1]}</strong>
-          </button>
+          </Button>
         ))}
       </div>
       <div
@@ -197,7 +199,7 @@ export function SystemScenes({
               <h3>{scenes[system][1][zh ? 0 : 1]}</h3>
               <label className="scene-search">
                 {t("搜索条目", "Search entries")}
-                <input
+                <Input
                   type="search"
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
@@ -214,7 +216,7 @@ export function SystemScenes({
                         .includes(query.toLowerCase()),
                     )
                     .map(({ label, i }) => (
-                      <button
+                      <Button
                         key={i}
                         aria-pressed={active === i}
                         onClick={() => {
@@ -225,7 +227,7 @@ export function SystemScenes({
                         <span>0{i + 1}</span>
                         <strong>{label[zh ? 0 : 1]}</strong>
                         <span>↗</span>
-                      </button>
+                      </Button>
                     ))}
                   {!labels.some((l) =>
                     l[zh ? 0 : 1].toLowerCase().includes(query.toLowerCase()),
@@ -263,14 +265,14 @@ export function SystemScenes({
                       </dd>
                     </div>
                   </dl>
-                  <button
+                  <Button
                     className="scene-primary"
                     onClick={() => setDone(!done)}
                   >
                     {done
                       ? t("重置状态", "Reset state")
                       : t("标记已处理", "Mark as handled")}
-                  </button>
+                  </Button>
                   <p role="status">
                     {done ? t("示例状态已更新。", "Demo state updated.") : ""}
                   </p>
@@ -305,7 +307,7 @@ export function SystemScenes({
             >
               <label>
                 {t("名称", "Name")}
-                <input
+                <Input
                   value={name}
                   aria-invalid={!!message && !name.trim()}
                   onChange={(e) => {
@@ -316,7 +318,7 @@ export function SystemScenes({
                 />
               </label>
               <label className="scene-checkbox">
-                <input
+                <Input
                   type="checkbox"
                   checked={notification}
                   onChange={(e) => setNotification(e.target.checked)}
@@ -324,10 +326,10 @@ export function SystemScenes({
                 {t("完成后通知我", "Notify me when complete")}
               </label>
               <div className="scene-form-actions">
-                <button className="scene-primary">
+                <Button className="scene-primary">
                   {t("保存示例", "Save example")}
-                </button>
-                <button
+                </Button>
+                <Button
                   type="button"
                   onClick={() => {
                     setName("");
@@ -336,7 +338,7 @@ export function SystemScenes({
                   }}
                 >
                   {t("重置", "Reset")}
-                </button>
+                </Button>
               </div>
               <p role="status">{message}</p>
             </form>

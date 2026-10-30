@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "node scripts/release-metadata.mjs && npm run catalog:build && npm run systems:previews && vite build",
+    "build": "npm run ui:build && node scripts/release-metadata.mjs && npm run catalog:build && npm run systems:previews && vite build",
     "preview": "vite preview --host 127.0.0.1",
     "typecheck": "npm run catalog:build && npm run systems:previews && tsc --noEmit",
     "test:studio": "node --import tsx --test tests/studio-core.test.ts tests/studio-bridge.test.mjs",
@@ -20,7 +20,7 @@
     "test:site:examples": "node tests/site-examples-export-browser.mjs",
     "catalog:build": "node scripts/build-cult-catalog.mjs",
     "catalog:sync": "node scripts/sync-cult-registry.mjs",
-    "predev": "npm run catalog:build && npm run systems:previews",
+    "predev": "npm run ui:build && npm run catalog:build && npm run systems:previews",
     "test:components:browser": "node tests/component-library-browser.mjs",
     "test:components": "npm run catalog:build && node --test tests/component-catalog.test.mjs",
     "verify:alpha": "node --import tsx scripts/verify-alpha-release.mjs",
@@ -39,7 +39,8 @@
     "test:systems:live": "node tests/design-system-live-browser.mjs",
     "test:design-resources": "node --test tests/design-how.test.mjs tests/design-archive.test.mjs",
     "test:resources:browser": "node tests/resource-presentation-browser.mjs",
-    "test:home:search": "node tests/home-resource-search-browser.mjs"
+    "test:home:search": "node tests/home-resource-search-browser.mjs",
+    "ui:build": "node scripts/prepare-shadcn.mjs && node scripts/build-shadcn.mjs && node scripts/build-component-runtime.mjs"
   },
   "dependencies": {
     "@base-ui/react": "1.9.0",

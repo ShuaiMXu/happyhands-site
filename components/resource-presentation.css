@@ -10,12 +10,12 @@
 .system-cover-navigation,.archive-grid,.component-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:28px 24px; }
 .resource-card,
 .system-cover-navigation .resource-card { display:block; min-width:0; padding:0; color:var(--hh-ink); text-decoration:none; background:transparent; border:0; border-radius:0; overflow:visible; }
-.resource-card .resource-card-media { position:relative; display:block; aspect-ratio:1.6; width:100%; overflow:hidden; border:0.5px solid var(--hh-line); border-radius:var(--hh-radius-md); background:var(--hh-bg-sunken); }
+.resource-card .resource-card-media { position:relative; display:block; aspect-ratio:1.6; width:100%; overflow:hidden; border:0.5px solid var(--hh-line); border-radius:var(--hh-radius-card); background:var(--hh-bg-sunken); }
 .resource-card-media > img { display:block; width:100%; height:100%; object-fit:contain; border:0; border-radius:0; }
 .resource-card .archive-card-media > img { object-fit:cover; }
 .resource-card-media.component-tile-art iframe { width:200%; height:200%; min-height:0; border:0; transform:scale(.5); transform-origin:top left; pointer-events:none; }
 .resource-card .resource-card-caption { display:grid; gap:4px; padding:12px 0 0; margin:0; }
-.resource-card .resource-card-caption h2 { margin:0; font-size:16px; line-height:24px; font-weight:600; letter-spacing:0; }
+.resource-card .resource-card-caption h2 { margin:0; font-size:16px; line-height:24px; font-weight:400; letter-spacing:0; }
 .resource-card .resource-card-caption p { margin:0; font-size:12px; line-height:20px; color:var(--hh-ink-muted); overflow-wrap:anywhere; }
 .resource-card:hover .resource-card-media { border-color:var(--hh-line-strong); }
 .resource-card:focus-visible { outline:2px solid var(--hh-ring); outline-offset:5px; border-radius:var(--hh-radius-md); }
@@ -29,7 +29,7 @@ body:has(.resource-detail-header) .design-md-import { display:none; }
 .resource-content-tabs,
 .catalog-tabs.resource-content-tabs,
 .design-how-view-tabs.resource-content-tabs { display:flex; gap:24px; margin:0 0 24px; padding:0; border-bottom:0.5px solid var(--hh-line); overflow-x:auto; }
-.resource-content-tabs > button { flex:none; min-height:44px; margin:0; padding:10px 0; border:0; border-radius:0; background:transparent; color:var(--hh-ink-muted); font-size:14px; line-height:24px; font-weight:500; cursor:pointer; }
+.resource-content-tabs > button { flex:none; min-height:44px; margin:0; padding:10px 0; border:0; border-radius:0; background:transparent; color:var(--hh-ink-muted); font-size:14px; line-height:24px; font-weight:400; cursor:pointer; }
 .resource-content-tabs > button[aria-selected="true"] { color:var(--hh-ink); box-shadow:inset 0 -2px var(--hh-ink); }
 .resource-content-tabs > button:focus-visible { outline:2px solid var(--hh-ring); outline-offset:-2px; }
 .resource-content-panel { min-width:0; }
@@ -50,15 +50,6 @@ body:has(.resource-detail-header) .design-md-import { display:none; }
   .resource-detail-header-actions { margin-bottom:16px; }
   .resource-content-tabs { gap:20px; }
 }
-/* Keep the search and result rows stable when one collection has extra facets. */
-.resource-toolbar { display:grid; grid-template-columns:minmax(180px,300px) minmax(0,1fr) auto; gap:12px; }
-.resource-toolbar .resource-search { width:100%; max-width:none; }
-.resource-toolbar .resource-facets { min-height:44px; }
-@media(max-width:700px) {
-  .resource-toolbar { grid-template-columns:minmax(0,1fr) auto; gap:8px 12px; }
-  .resource-toolbar .resource-search { grid-column:1 / -1; margin:0; }
-  .resource-toolbar .resource-result-count { grid-column:2; }
-}
 .resource-export-actions .hh-button,.design-how-actions .hh-button,.preview-toolbar .hh-button { min-height:44px; font-size:14px; text-decoration:none; }
 .system-style-preview,.preview-frame-wrap { border-radius:var(--hh-radius-md); }
 /* Owned resource links never decorate their text, including hover/focus states.
@@ -66,3 +57,6 @@ body:has(.resource-detail-header) .design-md-import { display:none; }
 :is(.system-library-full,.provider-reference,.library-layout) a,
 :is(.system-library-full,.provider-reference,.library-layout) a:hover,
 :is(.system-library-full,.provider-reference,.library-layout) a:focus-visible { text-decoration:none; }
+
+.resource-sections a { font-weight:400; }
+.resource-sections a[aria-current="page"], .resource-sections a:hover { font-weight:400; }

@@ -7,7 +7,7 @@
 .feed-heading a:hover { color:var(--hh-ink); }
 .feed-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; }
 .feed-item { display:block; min-width:0; text-decoration:none; color:var(--hh-ink); }
-.feed-art { position:relative; aspect-ratio:1.6; overflow:hidden; background:var(--hh-bg-raised); border:0.5px solid var(--hh-line); border-radius:var(--hh-radius-sm); }
+.feed-art { position:relative; aspect-ratio:1.6; overflow:hidden; background:var(--hh-bg-raised); border:0.5px solid var(--hh-line); border-radius:var(--hh-radius-card); }
 .feed-art img,.feed-art video { display:block; width:100%; height:100%; object-fit:cover; }
 .feed-art video { position:absolute; inset:0; opacity:0; pointer-events:none; }
 .feed-art video.is-playing { opacity:1; }
@@ -15,7 +15,7 @@
 .feed-component { pointer-events:none; }
 .feed-component iframe { display:block; width:200%; height:200%; border:0; transform:scale(.5); transform-origin:top left; pointer-events:none; }
 .feed-caption { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:baseline; gap:6px 12px; padding-top:12px; }
-.feed-caption h3 { margin:0; font-size:14px; font-weight:600; line-height:1.5; }
+.feed-caption h3 { margin:0; font-size:14px; font-weight:400; line-height:1.5; }
 .feed-caption span { font-size:12px; color:var(--hh-ink-muted); }
 .feed-item:focus-visible,.feed-heading a:focus-visible { outline:2px solid var(--hh-ring); outline-offset:4px; }
 #connect-agent .connect-process { margin-bottom:20px; border-block:0.5px solid var(--hh-line); }
@@ -33,26 +33,26 @@
  .feed-heading h2 { font-size:24px; }
 }
 
-.feed-tabs { display:flex; gap:24px; border-bottom:0.5px solid var(--hh-line); margin-bottom:24px; }
-.feed-tabs [role="tab"] { min-height:48px; padding:8px 0; background:transparent; color:var(--hh-ink-muted); border:0; border-radius:0; font:600 14px var(--hh-font-sans); cursor:pointer; white-space:nowrap; }
-.feed-tabs [aria-selected="true"] { color:var(--hh-ink); box-shadow:inset 0 -2px var(--hh-ink); }
-.feed-tabs [role="tab"]:focus-visible { outline:2px solid var(--hh-ring); outline-offset:3px; }
 .resource-feed .feed-collection { margin-top:0; }
 .resource-feed .feed-collection[hidden] { display:none; }
 .feed-collection .feed-heading h2 { font-size:20px; }
 @media(min-width:1200px) { .feed-grid { grid-template-columns:repeat(4,minmax(0,1fr)); } #feed-panel-systems .feed-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } }
-@media(max-width:540px) { .feed-tabs { gap:20px; } }
 
 .feed-collection .feed-heading { justify-content:flex-end; margin-bottom:12px; }
 
-.feed-more { display:block; margin:32px auto 0; min-height:44px; padding:8px 20px; font:inherit; font-size:14px; color:var(--hh-ink-muted); background:transparent; border:0; border-radius:var(--hh-radius-sm); cursor:pointer; }
+.feed-more { display:block; margin:32px auto 0; min-height:44px; padding:8px 20px; font:inherit; font-size:14px; color:var(--hh-ink-muted); background:transparent; border:0; border-radius:var(--hh-radius-card); cursor:pointer; }
 .feed-more[hidden] { display:none; }
 .feed-more:focus-visible { outline:2px solid var(--hh-ring); outline-offset:3px; }
 .resource-feed [data-feed-controls] .resource-toolbar { margin:20px 0 24px; }
 .resource-feed .resource-search { flex-basis:340px; max-width:380px; }
 .feed-empty { padding:40px 0; color:var(--hh-ink-muted); }
-.feed-empty button { min-height:44px; padding:8px 16px; border:.5px solid var(--hh-line); border-radius:var(--hh-radius-sm); background:var(--hh-bg); color:var(--hh-ink); cursor:pointer; }
+.feed-empty button { min-height:44px; padding:8px 16px; border:.5px solid var(--hh-line); border-radius:var(--hh-radius-card); background:var(--hh-bg); color:var(--hh-ink); cursor:pointer; }
 @media(max-width:700px) {
  .resource-feed .resource-search { flex-basis:100%; max-width:none; }
  .resource-feed .resource-result-count { margin-left:auto; }
 }
+
+/* Resource tabs and direct tool links share a row without pretending links are tabs. */
+#connect-agent { scroll-margin-top:88px; }
+#connect-agent h2,#connect-agent h3 { font-weight:400; }
+#connect-agent a,#connect-agent a:hover,#connect-agent a:focus-visible { text-decoration:none; }

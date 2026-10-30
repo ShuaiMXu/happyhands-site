@@ -48,3 +48,17 @@ The user approved placing the core tool picker and copy action in the Hero on202
 
 ## Interaction refinement (2026-10-27)
 User-approved softer shared radius scale: 8/12/16/20px for small controls, fields, cards and large panels. Derive nested corners from outer radius minus inset. Search is immediately editable, with subtle pointer focus and a retained keyboard focus indicator; never add an activation click. Use 150ms color feedback, 250ms floating-surface entry and 150ms dismissal, without delaying filtering. Honor reduced motion and preserve external component demos. Verify pointer, keyboard, IME input, empty results, popup dismissal and narrow-screen containment, not only resting screenshots.
+
+
+## User-selected Luma profile (2026-10-30)
+
+The user selected `shadcn init --preset b1VlItwO --base radix --template vite --monorepo --pointer`. This newer choice supersedes the older shell palette, font and radius rules above: use the exact Neutral light/dark semantic values from `docs/references/shadcn-luma/preset.json`, Inter for Latin with PingFang/Chinese fallbacks, and shared Lucide icons. Radix is the selected interaction foundation for new integrations; existing native and Base UI consumers remain explicitly identified until migrated.
+
+Base radius is 10px; Luma buttons/cards use 26px and fields 22px. Preserve the user's 400 weight, no text-link underlines, 0.5px borders, 44px touch targets, keyboard focus and restrained shadows. These are deliberate HappyHands adaptations to the preset. Third-party previews and existing saved project themes retain their own values. Sources, generated reference components and deviations are recorded in `docs/references/shadcn-luma/README.md`.
+
+
+## Actual shadcn integration (2026-10-30)
+
+The shared owned UI now imports official radix-luma component source from `packages/ui/shadcn`, with Radix interaction primitives. This supersedes earlier descriptions of the shared Button/Select and resource facets as native/Base UI implementations. Button, Input, Textarea, Checkbox, Select, Tabs, Card, Popover/Command, Tooltip, Accordion, Dialog, Switch and Badge have real consumers across resource pages, the project design system, Studio and setup. Browser color/range/file widgets remain native deliberately. Third-party source previews retain their own implementations.
+
+Use `npm run ui:build` to generate namespaced `sc:` utility CSS and the self-contained React component preview/export runtime. Never copy the three-component count into a claim that all 66 catalog entries are implemented: that count tracks configurable standalone export adapters, separately from page UI adoption.

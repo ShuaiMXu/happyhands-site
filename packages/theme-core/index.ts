@@ -1,3 +1,4 @@
+import luma from "../../docs/references/shadcn-luma/preset.json";
 import { parse, converter, formatHex8, formatRgb, wcagContrast } from "culori";
 import postcss from "postcss";
 import { defaultThemeState, COMMON_STYLES } from "./vendor/config/theme";
@@ -27,6 +28,7 @@ export function presetStyles(id: string): ThemeStyles {
   const styles = structuredClone(defaultThemeState.styles);
   for (const mode of ["light", "dark"] as const) {
     Object.assign(styles[mode], preset?.styles.light, preset?.styles[mode]);
+    // Legacy preset font defaults remain independent of the owned shell.
     // Project UI always defaults to the requested sans-serif stack; fonts remain editable.
     styles[mode]["font-sans"] = fontStack;
     if (id === "happyhands") {
@@ -44,8 +46,8 @@ export function presetStyles(id: string): ThemeStyles {
         "secondary-foreground": b["ink-2"],
         muted: b["bg-sunken"],
         "muted-foreground": b["ink-muted"],
-        accent: b["brand-soft"],
-        "accent-foreground": b["brand-text"],
+        accent: luma.cssVars[mode].accent,
+        "accent-foreground": luma.cssVars[mode]["accent-foreground"],
         destructive: b.danger,
         "destructive-foreground": b.bg,
         border: b.line,

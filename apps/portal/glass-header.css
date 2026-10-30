@@ -1,0 +1,31 @@
+/* Portal-only glass surface. Keep opaque fallback and readable semantic ink. */
+header.hh-site-header.portal-glass-header {
+ position:sticky;
+ top:0;
+ isolation:isolate;
+ background:var(--hh-bg-raised);
+ border-bottom:.5px solid var(--hh-line);
+ box-shadow:0 4px 18px color-mix(in srgb,var(--hh-ink) 4%,transparent);
+}
+@supports ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))) {
+ header.hh-site-header.portal-glass-header {
+  background:linear-gradient(135deg,color-mix(in srgb,var(--hh-bg) 76%,transparent),color-mix(in srgb,var(--hh-bg-raised) 48%,transparent) 55%,color-mix(in srgb,var(--hh-bg) 66%,transparent));
+  -webkit-backdrop-filter:blur(24px) saturate(160%);
+  backdrop-filter:blur(24px) saturate(160%);
+  box-shadow:inset 0 .5px 0 color-mix(in srgb,white 55%,transparent),inset 0 -.5px 0 color-mix(in srgb,white 18%,transparent),0 4px 18px color-mix(in srgb,var(--hh-ink) 4%,transparent);
+ }
+ :root[data-theme="dark"] header.hh-site-header.portal-glass-header {
+  box-shadow:inset 0 .5px 0 rgb(255 255 255 / 16%),inset 0 -.5px 0 rgb(255 255 255 / 6%),0 4px 18px rgb(0 0 0 / 12%);
+ }
+}
+header.hh-site-header.portal-glass-header :is(#theme-toggle,#lang-switch button) {
+ background:color-mix(in srgb,var(--hh-bg-raised) 35%,transparent);
+ border:.5px solid var(--hh-line);
+ box-shadow:inset 0 .5px 0 color-mix(in srgb,var(--hh-bg) 65%,transparent);
+}
+header.hh-site-header.portal-glass-header :is(#theme-toggle,#lang-switch button):hover {
+ background:color-mix(in srgb,var(--hh-bg-hover) 75%,transparent);
+}
+@media(prefers-reduced-transparency:reduce) {
+ header.hh-site-header.portal-glass-header { background:var(--hh-bg-raised);backdrop-filter:none;-webkit-backdrop-filter:none; }
+}

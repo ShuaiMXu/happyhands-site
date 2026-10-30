@@ -1,0 +1,121 @@
+.component-workbench {
+  padding: 20px;
+  min-width: 0;
+  color: var(--hh-ink);
+  background: var(--hh-bg);
+}
+.workbench-config {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+.workbench-config label,
+.workbench-coverage label {
+  display: grid;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.workbench-config input,
+.workbench-coverage input {
+  width: 100%;
+  min-height: 44px;
+  border: 0.5px solid var(--hh-line-strong);
+  border-radius: var(--hh-radius-field);
+  padding: 8px 12px;
+  background: var(--hh-bg);
+  color: var(--hh-ink);
+  font: inherit;
+}
+.workbench-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.component-workbench iframe {
+  width: 100%;
+  height: 440px;
+  display: block;
+  border: 0.5px solid var(--hh-line);
+  border-radius: var(--hh-radius-md);
+  background: var(--hh-bg);
+}
+.workbench-coverage {
+  margin-top: 24px;
+}
+.workbench-coverage summary {
+  min-height: 44px;
+  cursor: pointer;
+}
+.workbench-coverage p {
+  color: var(--hh-ink-muted);
+  font-size: 14px;
+}
+.workbench-ledger {
+  max-height: 400px;
+  overflow: auto;
+  margin-block: 20px;
+}
+.workbench-ledger > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 0.5px solid var(--hh-line);
+  font-size: 12px;
+}
+.workbench-ledger > div span:last-child {
+  color: var(--hh-ink-muted);
+}
+@media (max-width: 600px) {
+  .component-workbench {
+    padding: 12px;
+  }
+  .workbench-config {
+    grid-template-columns: 1fr;
+  }
+  .workbench-config input,
+  .workbench-coverage input {
+    font-size: 16px;
+  }
+}
+.studio-design-import {
+  margin: 20px 0;
+  padding: 16px;
+  border: 0.5px solid var(--hh-line);
+  border-radius: var(--hh-radius-md);
+}
+.studio-design-import summary {
+  cursor: pointer;
+  min-height: 44px;
+}
+.studio-design-import label {
+  display: grid;
+  gap: 8px;
+}
+.studio-design-import input {
+  min-height: 44px;
+  padding: 8px 12px;
+  background: var(--hh-bg);
+  color: var(--hh-ink);
+  border: 0.5px solid var(--hh-line-strong);
+  border-radius: var(--hh-radius-field);
+  font: inherit;
+}
+.design-import-results {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  max-height: 180px;
+  overflow: auto;
+  margin-block: 16px;
+}
+.studio-design-import h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.studio-design-import p {
+  font-size: 14px;
+  color: var(--hh-ink-muted);
+}

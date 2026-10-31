@@ -60,3 +60,11 @@ body:has(.resource-detail-header) .design-md-import { display:none; }
 
 .resource-sections a { font-weight:400; }
 .resource-sections a[aria-current="page"], .resource-sections a:hover { font-weight:400; }
+
+/* Resource tabs share the homepage navigation rhythm. The shadcn line marker
+   extends below its trigger; owned resource tabs already draw an inset marker. */
+:is(.resource-content-tabs,.resource-export-tabs),
+.hh-shadcn[data-slot="tabs-list"]:is(.resource-content-tabs,.resource-export-tabs){height:auto;min-height:49px;padding-block:0;flex-wrap:nowrap;align-items:stretch;justify-content:flex-start;overflow-x:auto;overflow-y:hidden;}
+:is(.resource-content-tabs,.resource-export-tabs)>button,
+.hh-shadcn:is(.resource-content-tabs,.resource-export-tabs)>[data-slot="tabs-trigger"]{flex:0 0 auto;height:48px;min-height:48px;line-height:21px;}
+.hh-shadcn:is(.resource-content-tabs,.resource-export-tabs)>[data-slot="tabs-trigger"]::after{display:none;}

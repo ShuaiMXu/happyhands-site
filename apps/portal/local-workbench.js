@@ -1,5 +1,14 @@
 import {assertSiteHandoff,localWorkbenchURL} from '../../packages/contracts/site-handoff.js';
 
+function handoffMessage(error, zh) {
+  const message = error instanceof Error ? error.message : '';
+  if (message === 'Invalid handoff repo.') return zh ? '请填写项目文件夹。' : 'Enter the project folder.';
+  if (message === 'Invalid handoff task.') return zh ? '请填写希望改善的任务。' : 'Describe the task to improve.';
+  if (message.startsWith('Design sources')) return zh ? '设计规范请填写项目内的相对路径。' : 'Use project-relative paths for design rules.';
+  if (message.startsWith('Use a local workbench address') || error instanceof TypeError) return zh ? '请检查本地工作台地址。' : 'Check the local workbench address.';
+  return zh ? '请检查项目信息后重试。' : 'Check the project details and try again.';
+}
+
 const key='happyhands-local-handoff-v1';
 let last=null,draft=null;
 try { const stored=JSON.parse(sessionStorage.getItem(key)||'null');if(stored){assertSiteHandoff(stored.handoff);localWorkbenchURL(stored.address,stored.handoff);last=stored;} } catch { /* Invalid or unavailable storage cannot initiate a connection. */ }
@@ -35,7 +44,7 @@ export function setupLocalWorkbench(lang) {
       try{sessionStorage.setItem(key,JSON.stringify(last));}catch{saved=false;}
       result.href=open.href;result.hidden=false;
       status.textContent=!saved?(zh?'浏览器未保存交接链接，请保留本地页面。':'The browser did not save this link. Keep the local page open.') : zh?'交接链接已准备。若本地页面无法打开，先启动 pnpm workbench，再点此入口；重复打开会回到同一任务。':'Handoff prepared. If the local page is unavailable, start pnpm workbench and try again. Reopening returns to the same task.';
-    } catch(error) {event.preventDefault();status.textContent=(zh?'请填写项目目录、任务并核对设计来源和本地地址。 ':'Enter a repository and task, and check design sources and the local address. ')+error.message;}
+    } catch(error) {event.preventDefault();status.textContent=handoffMessage(error,zh);}
   });
   if(last||draft){try{prepare();}catch{open.removeAttribute('href');}}
 }

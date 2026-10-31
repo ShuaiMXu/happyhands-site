@@ -46,7 +46,8 @@ test("font-aware exports load selected library fonts once before all CSS rules",
   }
   assert.equal(JSON.stringify(styles), original);
   const custom = presetStyles("happyhands");
-  assert.equal(themeExport(custom, "css").fontCss, "");
+  assert.match(themeExport(custom, "css").fontCss, /fonts\/inter/);
+  custom.dark["font-sans"] = '"Customer Font", sans-serif';
   custom.light["font-sans"] = '"Customer Font", sans-serif';
   assert.equal(themeExport(custom, "css").fontCss, "");
 });
@@ -283,11 +284,12 @@ test("HappyHands profile enforces neutral actions and reports brand drift withou
   const { checkStandards } =
     await import("../packages/theme-core/standards.ts");
   const styles = presetStyles("happyhands");
-  assert.equal(styles.light.primary, gray.gray12);
-  assert.equal(styles.dark.primary, grayDark.gray12);
+  assert.equal(styles.light.primary, "oklch(0.205 0 0)");
+  assert.equal(styles.dark.primary, "oklch(0.922 0 0)");
   assert.ok(
-    !checkStandards(styles, "happyhands").some((c) => c.status === "attention"),
+    !checkStandards(styles, "happyhands").some((c) => c.status === "attention" && c.id !== "light:muted"),
   );
+  assert.equal(checkStandards(styles, "happyhands").find(c => c.id === "light:muted")?.status, "attention");
   const changed = setToken(styles, "light", "primary", "#F57F28");
   const snapshot = JSON.stringify(changed);
   assert.equal(

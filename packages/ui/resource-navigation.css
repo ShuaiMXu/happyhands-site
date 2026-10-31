@@ -1,0 +1,14 @@
+/* Shared visual contract; homepage switches panels, catalog links change routes. */
+.hh-resource-navigation { display:flex; flex-wrap:wrap; align-items:center; gap:0 24px; border-bottom:.5px solid var(--hh-line); margin-bottom:24px; }
+.hh-resource-navigation > .hh-resource-group { display:flex; flex-wrap:wrap; gap:0 24px; margin:0; padding:0; border:0; }
+.hh-resource-navigation :is(a,button) { display:inline-flex; align-items:center; min-height:48px; padding:8px 0; margin:0; border:0; border-radius:0; background:transparent; color:var(--hh-ink-muted); font:400 14px/1.5 var(--hh-font-sans); white-space:nowrap; text-decoration:none; cursor:pointer; }
+.hh-resource-navigation :is(a,button):hover { color:var(--hh-ink); text-decoration:none; }
+.hh-resource-navigation :is([aria-selected="true"],[aria-current="page"]) { color:var(--hh-ink); box-shadow:inset 0 -2px var(--hh-ink); }
+.hh-resource-navigation :is(a,button):focus-visible { outline:2px solid var(--hh-ring); outline-offset:3px; }
+.catalog-resource-navigation { margin:24px var(--page-inset) 0; }
+@media(max-width:540px) { .hh-resource-navigation,.hh-resource-navigation > .hh-resource-group { column-gap:20px; } }
+
+.resource-tool-panel { min-width:0; overflow-anchor:none; }
+.resource-tool-panel[hidden] { display:none; }
+.resource-tool-panel iframe { display:block; width:100%; height:640px; min-height:0; border:0; background:transparent; }
+.catalog-resource-navigation ~ .resource-tool-panel { margin:24px var(--page-inset); }

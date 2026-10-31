@@ -1,3 +1,4 @@
+import { Input } from "../../packages/ui";
 import { useState } from "react";
 import { Button } from "../../packages/ui";
 import { Select } from "../../packages/ui/Select";
@@ -119,7 +120,7 @@ export function TokenReference({
       <div className="reference-toolbar">
         <label>
           {t("查找变量", "Find a token")}
-          <input
+          <Input
             type="search"
             value={query}
             onChange={(event) => {

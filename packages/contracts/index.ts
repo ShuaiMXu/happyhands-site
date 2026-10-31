@@ -9,6 +9,8 @@ export type Draft = {
   baseline: ThemeStyles;
   provenance: { revision: string; source: string };
   foundation?: FoundationApproval;
+  designSource?: import("../component-studio/design-import").DesignSource;
+  componentConfig?: import("../component-studio/registry").ComponentConfig;
 };
 type Entry = {
   name: string;

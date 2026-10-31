@@ -1,3 +1,5 @@
+import { Input } from "../packages/ui";
+import { Button } from "../packages/ui";
 import { ArchiveGallery } from "./ArchiveGallery";
 import React, { useRef, useState } from "react";
 import { Icon } from "../packages/ui/Icon";
@@ -52,7 +54,7 @@ export function DesignMdLibrary({ lang }: { lang: string }) {
         <section className="reference-import">
           <label>
             {zh ? "导入 DESIGN.md" : "Import DESIGN.md"}
-            <input
+            <Input
               ref={input}
               type="file"
               accept=".md,text/markdown"
@@ -70,7 +72,7 @@ export function DesignMdLibrary({ lang }: { lang: string }) {
           <section className="reference-document">
             <div className="reference-document-heading">
               <h3>{name}</h3>
-              <button
+              <Button
                 onClick={() => {
                   version.current++;
                   setContent("");
@@ -79,7 +81,7 @@ export function DesignMdLibrary({ lang }: { lang: string }) {
                 }}
               >
                 {zh ? "清除文件" : "Clear file"}
-              </button>
+              </Button>
             </div>
             <p>
               {zh

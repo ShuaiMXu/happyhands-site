@@ -1,3 +1,9 @@
+import "../../packages/ui/embedded-tool";
+import { Textarea } from "../../packages/ui";
+import { Input } from "../../packages/ui";
+import {SourceDesignPreview} from "./SourceDesignPreview";
+import { DesignImport } from "./DesignImport";
+import { ComponentWorkbench } from "./ComponentWorkbench";
 import { applySiteMetadata } from "../../packages/ui/site-seo";
 import { Select } from "../../packages/ui/Select";
 import { Icon } from "../../packages/ui/Icon";
@@ -156,14 +162,14 @@ function TokenInput({
       </span>
       <div className="token-input-fields">
         {colorKeys.includes(name) && (
-          <input
+          <Input
             type="color"
             aria-label={`${t(name)} picker`}
             value={hex(value)}
             onChange={(e) => onChange(e.target.value)}
           />
         )}
-        <input
+        <Input
           aria-label={t(name)}
           value={text}
           onChange={(e) => setText(e.target.value)}
@@ -175,7 +181,7 @@ function TokenInput({
           }}
         />
         {numeric && (
-          <input
+          <Input
             type="range"
             aria-label={`${t(name)} slider`}
             min={negative ? -maximum : 0}
@@ -197,12 +203,15 @@ function Section({ title, children }: { title: string; children: ReactNode }) {
     </section>
   );
 }
-const presetCandidates = Object.keys(presets).map(id => ({ id, styles: presetStyles(id) }));
+const presetCandidates = Object.keys(presets).map((id) => ({
+  id,
+  styles: presetStyles(id),
+}));
 
 function App() {
   const { lang, dark, toggleLanguage, toggleTheme } = useSitePreferences();
   useEffect(() => {
-    applySiteMetadata('studio',lang);
+    applySiteMetadata("studio", lang);
   }, [lang]);
   const [panelWidth, setPanelWidth] = useState(320);
   const moreDetails = useRef<HTMLDetailsElement>(null);
@@ -221,9 +230,11 @@ function App() {
   }
   const saved = useRef(boot.draft.revision);
   const blocked = useRef(false);
-  const [mode, setMode] = useState<Mode>("light"),
+  const [mode, setMode] = useState<Mode>(
+      boot.draft.designSource?.mode || "light",
+    ),
     [tab, setTab] = useState("colors"),
-    [scene, setScene] = useState("Components"),
+    [scene, setScene] = useState("Workbench"),
     [viewport, setViewport] = useState("desktop"),
     [mobile, setMobile] = useState("preview");
   const [notice, setNotice] = useState(boot.error || "本地项目 / 自动保存"),
@@ -260,11 +271,12 @@ function App() {
   const styles = h.present,
     values = styles[mode],
     changes = differences(draft.baseline, styles);
-  const preset = presetCandidates.find(({styles: candidate}) => {
-    return (["light", "dark"] as const).every((m) =>
-      keys.every((key) => candidate[m][key] === styles[m][key]),
-    );
-  })?.id || "custom";
+  const preset =
+    presetCandidates.find(({ styles: candidate }) => {
+      return (["light", "dark"] as const).every((m) =>
+        keys.every((key) => candidate[m][key] === styles[m][key]),
+      );
+    })?.id || "custom";
   const liveImportTarget = useRef({ id: draft.id, styles });
   const previewFonts = useFontLoading(
     (["font-sans", "font-serif", "font-mono"] as const).flatMap((key) => [
@@ -296,15 +308,34 @@ function App() {
     return stored;
   }
   useEffect(() => {
-    const timer = setTimeout(() => {
+    let pending = true;
+    const flush = () => {
+      if (!pending) return;
+      pending = false;
+      clearTimeout(timer);
       try {
         persist();
       } catch (e) {
         setError((e as Error).message);
       }
-    }, 400);
-    return () => clearTimeout(timer);
-  }, [styles, draft.id, draft.project, draft.foundation, draft.provenance]);
+    };
+    const timer = setTimeout(flush, 400);
+    // localStorage is synchronous: finish the pending edit before reload/navigation.
+    // persist still checks the stored revision and the cross-window conflict flag.
+    window.addEventListener("pagehide", flush);
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener("pagehide", flush);
+    };
+  }, [
+    styles,
+    draft.id,
+    draft.project,
+    draft.foundation,
+    draft.provenance,
+    draft.componentConfig,
+    draft.designSource,
+  ]);
   useEffect(() => {
     const listener = (e: StorageEvent) => {
       if (e.key === `hh-studio:${draft.id}`) {
@@ -377,6 +408,7 @@ function App() {
       saved.current = next.revision;
       blocked.current = false;
       setDraft(next);
+      setMode(next.designSource?.mode || "light");
       setH(history(next.styles));
       setPanel("");
       setPending(null);
@@ -455,6 +487,23 @@ function App() {
         active="/apps/studio/"
       />
       <main className="studio-shell">
+        <DesignImport
+          lang={lang}
+          onCreate={(next) => {
+            return guard(() => {
+              persist();
+              const stored = saveDraft(localStorage, next, 0);
+              saved.current = stored.revision;
+              blocked.current = false;
+              setDraft(stored);
+              setH(history(stored.styles));
+              setMode(stored.designSource?.mode || "light");
+              setScene("Workbench");
+              historyURL(stored.id);
+            });
+          }}
+        />
+
         <div className="studio-title">
           <div>
             <h1>{t("项目设计系统")}</h1>
@@ -468,7 +517,7 @@ function App() {
                 onChange={(e) => switchProject(e.target.value)}
               >
                 {projectIds.map((id) => (
-                  <option key={id}>{id}</option>
+                  <option key={id} value={id}>{id===draft.id ? draft.project : (()=>{try{return read(id).project||id}catch{return id}})()}</option>
                 ))}
               </Select>
               <Button
@@ -594,7 +643,7 @@ function App() {
           >
             <label htmlFor="new-project-id">{t("项目 ID")}</label>
             <div className="studio-new-project-controls">
-              <input
+              <Input
                 id="new-project-id"
                 autoFocus
                 value={projectId}
@@ -628,8 +677,9 @@ function App() {
           <span role="status">{t(notice)}</span>
         </div>
         {error && (
-          <div className="error" role="alert">
-            {t(error)}
+          <div className="error studio-recovery" role="alert">
+            <p>{t(error)}</p>
+            <div className="studio-recovery-actions">
             <Button
               onClick={() =>
                 download(
@@ -641,6 +691,7 @@ function App() {
               {t("导出备份")}
             </Button>
             <Button onClick={() => location.reload()}>{t("重新载入")}</Button>
+            </div>
           </div>
         )}
         <div className="mobile-tabs">
@@ -696,7 +747,7 @@ function App() {
                     "支持 :root / .dark CSS，或 Studio 草稿 JSON。导入前会展示无法应用的内容。",
                   )}
                 </p>
-                <input
+                <Input
                   aria-label={t("导入主题文件")}
                   type="file"
                   accept=".css,.json"
@@ -716,7 +767,7 @@ function App() {
                     })
                   }
                 />
-                <textarea
+                <Textarea
                   aria-label={t("导入源代码")}
                   value={source}
                   onChange={(e) => {
@@ -830,7 +881,7 @@ function App() {
                     <ul>
                       {exported.fonts.map((font) => (
                         <li key={font.id}>
-                          {font.family}  / {" "}
+                          {font.family} /{" "}
                           <a
                             href={fontAssetOrigin + font.licenseUrl}
                             target="_blank"
@@ -878,7 +929,7 @@ function App() {
                     </p>
                     <label>
                       {t("导入现有 foundation-approval.json")}
-                      <input
+                      <Input
                         type="file"
                         accept=".json"
                         onChange={(e) => {
@@ -967,7 +1018,7 @@ function App() {
                     ))}
                     <label>
                       {t("新版本")}
-                      <input
+                      <Input
                         aria-label={t("Foundation 版本")}
                         value={version}
                         onChange={(e) => setVersion(e.target.value)}
@@ -975,7 +1026,7 @@ function App() {
                     </label>
                     <label>
                       {t("审核人")}
-                      <input
+                      <Input
                         aria-label={t("审核人")}
                         value={reviewer}
                         onChange={(e) => setReviewer(e.target.value)}
@@ -983,14 +1034,14 @@ function App() {
                     </label>
                     <label>
                       {t("批准理由")}
-                      <textarea
+                      <Textarea
                         aria-label={t("批准理由")}
                         value={reason}
                         onChange={(e) => setReason(e.target.value)}
                       />
                     </label>
                     <label className="check">
-                      <input
+                      <Input
                         type="checkbox"
                         checked={confirmed}
                         onChange={(e) => setConfirmed(e.target.checked)}
@@ -1032,7 +1083,7 @@ function App() {
           <aside className="controls">
             <details className="panel-settings">
               <summary>{t("面板宽度")}</summary>
-              <input
+              <Input
                 type="range"
                 aria-label={t("面板宽度")}
                 min="260"
@@ -1043,7 +1094,7 @@ function App() {
             </details>
             <label className="project-name">
               {t("项目名称")}
-              <input
+              <Input
                 value={draft.project}
                 maxLength={200}
                 onChange={(e) =>
@@ -1060,11 +1111,18 @@ function App() {
                   onChange={(e) => {
                     const id = e.target.value;
                     replace(presetStyles(id));
-                    setDraft((d) => ({ ...d, provenance: { revision, source: id } }));
+                    setDraft((d) => ({
+                      ...d,
+                      provenance: { revision, source: id },
+                    }));
                     setConfirmed(false);
                   }}
                 >
-                  {preset === "custom" && <option value="custom" disabled>{t("自定义主题")}</option>}
+                  {preset === "custom" && (
+                    <option value="custom" disabled>
+                      {t("自定义主题")}
+                    </option>
+                  )}
                   {Object.entries(presets).map(([id, p]) => (
                     <option value={id} key={id}>
                       {p.label || id}
@@ -1072,7 +1130,6 @@ function App() {
                   ))}
                 </Select>
               </label>
-
             </div>
             <p className="micro">
               {t("选择后立即预览浅色与深色主题，可随时撤销。")}
@@ -1106,7 +1163,7 @@ function App() {
             </div>
             {tab === "colors" ? (
               <>
-                <input
+                <Input
                   className="token-search"
                   aria-label={t("搜索设计变量")}
                   placeholder={t("搜索设计变量…")}
@@ -1132,7 +1189,7 @@ function App() {
                 <Section title={t("整体色彩调整")}>
                   <label>
                     {t("色相偏移")} {hue}°
-                    <input
+                    <Input
                       aria-label={t("色相偏移")}
                       type="range"
                       min="-180"
@@ -1143,7 +1200,7 @@ function App() {
                   </label>
                   <label>
                     {t("饱和度 ×")} {saturation}
-                    <input
+                    <Input
                       type="range"
                       min="0"
                       max="2"
@@ -1154,7 +1211,7 @@ function App() {
                   </label>
                   <label>
                     {t("明度 ×")} {lightness}
-                    <input
+                    <Input
                       type="range"
                       min="0"
                       max="2"
@@ -1245,6 +1302,7 @@ function App() {
                 onChange={(e) => setScene(e.target.value)}
               >
                 {[
+                  "Workbench",
                   "Components",
                   "Dashboard",
                   "Marketing",
@@ -1259,6 +1317,7 @@ function App() {
                 ))}
               </Select>
               <Button
+                disabled={scene === "Workbench"}
                 aria-pressed={compare}
                 onClick={() => setCompare(!compare)}
               >
@@ -1287,6 +1346,7 @@ function App() {
                     <option value="mobile">{t("手机 / 390")}</option>
                   </Select>
                   <Button
+                    disabled={scene === "Workbench"}
                     aria-pressed={inspector}
                     onClick={() => setInspector(!inspector)}
                   >
@@ -1307,7 +1367,7 @@ function App() {
                 </div>
               </details>
             </div>
-            {inspector && (
+            {inspector && scene !== "Workbench" && (
               <div className="inspector-bar">
                 <b>{selected}</b>
                 <code>{values[selected]}</code>
@@ -1318,7 +1378,20 @@ function App() {
               </div>
             )}
             <div className={`preview-stage viewport-${viewport}`}>
-              {scene === "Connected page" ? (
+              {draft.designSource && scene === "Workbench" && <SourceDesignPreview key={draft.id} source={draft.designSource} lang={lang}/>}
+              {scene === "Workbench" ? (
+                <ComponentWorkbench
+                  key={draft.id}
+                  config={draft.componentConfig}
+                  onChange={(componentConfig) =>
+                    setDraft((d) => ({ ...d, componentConfig }))
+                  }
+                  styles={styles}
+                  mode={mode}
+                  lang={lang}
+                  onExport={download}
+                />
+              ) : scene === "Connected page" ? (
                 <ConnectedPreview styles={styles} mode={mode} />
               ) : (
                 <>

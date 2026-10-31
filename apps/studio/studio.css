@@ -52,6 +52,7 @@ input,
 select,
 textarea {
   min-width: 0;
+  min-height: 44px;
   background: var(--hh-bg-raised);
   color: var(--hh-ink);
   border: 0.5px solid var(--hh-line-strong);
@@ -188,11 +189,13 @@ p {
   display: flex;
   background: var(--hh-bg-sunken);
   padding: var(--hh-space-1);
-  border-radius: var(--hh-radius-sm);
+  border-radius: var(--hh-radius-group);
   gap: var(--hh-space-1);
   margin: var(--hh-space-4) 0;
 }
 .segmented button {
+  min-height: 44px;
+  border-radius: var(--hh-radius-option);
   flex: 1;
   border: 0;
   background: transparent;
@@ -444,7 +447,7 @@ p {
   font-family: var(--font-sans);
   letter-spacing: var(--letter-spacing);
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: var(--radius);
   overflow: hidden;
   min-width: 0;
   font-size: 13px;
@@ -1024,7 +1027,7 @@ p {
 .studio-title h1 {
   font-size: 32px;
   line-height: 42px;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: -0.025em;
 }
 .eyebrow {
@@ -1092,7 +1095,7 @@ button[aria-pressed="true"] {
 }
 .standards-panel h3 {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
 }
 .standards-panel p {
   font-size: 12px;
@@ -1266,7 +1269,7 @@ button[aria-pressed="true"] {
   text-overflow: ellipsis;
 }
 .studio-title-tools .project-select > .hh-button {
-  width: 40px;
+  width: 44px;
   padding: 0;
   flex-shrink: 0;
 }
@@ -1309,7 +1312,7 @@ button[aria-pressed="true"] {
   align-items: center;
   justify-content: center;
   gap: var(--hh-space-2);
-  min-height: 40px;
+  min-height: 44px;
   padding: var(--hh-space-2) var(--hh-space-3);
   border: 0.5px solid var(--hh-line-strong);
   border-radius: var(--hh-radius-md);
@@ -1501,18 +1504,18 @@ button[aria-pressed="true"] {
 .controls .token-row:hover { background: var(--hh-bg-sunken); }
 .controls .token-row:focus-within { background: var(--hh-bg-hover); }
 .controls .token-row input:not([type="color"]):not([type="range"]) {
-  min-height: 32px;
+  min-height: 44px;
   background: transparent;
   border-color: transparent;
-  border-radius: var(--hh-radius-sm);
+  border-radius: var(--hh-radius-field);
 }
 .controls .token-row input:not([type="range"]):focus-visible {
   outline: 2px solid var(--hh-ring);
   outline-offset: 1px;
 }
 .controls .token-row input[type="color"] {
-  width: 28px;
-  height: 28px;
+  width: 44px;
+  height: 44px;
   padding: 2px;
   background: var(--hh-bg-raised);
   border-color: var(--hh-line-strong);
@@ -1521,7 +1524,7 @@ button[aria-pressed="true"] {
 .controls .hh-select-field > select,
 .studio-title-tools .hh-select-field > select,
 .preview-toolbar .hh-select-field > select {
-  min-height: 36px;
+  min-height: 44px;
   border-color: var(--hh-line);
   background: var(--hh-bg-raised);
   padding-inline-start: var(--hh-space-3);
@@ -1545,22 +1548,22 @@ button[aria-pressed="true"] {
   gap: var(--hh-space-1);
   background: var(--hh-bg-sunken);
   border: 0;
-  border-radius: var(--hh-radius-md);
+  border-radius: var(--hh-radius-group);
 }
-.control-tabs button { border-radius: var(--hh-radius-sm); color: var(--hh-ink-muted); }
+.control-tabs button { min-height: 44px; border-radius: var(--hh-radius-option); color: var(--hh-ink-muted); }
 .control-tabs button[aria-pressed="true"] {
   border: 0;
   background: var(--hh-bg-raised);
   color: var(--hh-ink);
-  font-weight: 600;
+  font-weight: 400;
 }
 @media (forced-colors: active) {
   .controls .token-row:focus-within { outline: 1px solid Highlight; }
   .control-tabs button[aria-pressed="true"] { outline: 1px solid Highlight; }
 }
 
-.studio-new-project { margin-block: var(--hh-space-4); padding: var(--hh-space-4); border: 0.5px solid var(--hh-line); border-radius: var(--hh-radius-md); background: var(--hh-bg-raised); }
-.studio-new-project label { display: block; margin-bottom: 8px; font-weight: 600; }
+.studio-new-project { margin-block: var(--hh-space-4); padding: var(--hh-space-4); border: 0.5px solid var(--hh-line); border-radius: var(--hh-radius-card); background: var(--hh-bg-raised); }
+.studio-new-project label { display: block; margin-bottom: 8px; font-weight: 400; }
 .studio-new-project-controls { display: flex; align-items: center; gap: 12px; max-width: 600px; }
 .studio-new-project-controls input { flex: 1; min-width: 0; min-height: 44px; border: 0.5px solid var(--hh-line); border-radius: var(--hh-radius-md); padding: 8px 12px; background: var(--hh-bg-raised); color: var(--hh-ink); }
 .studio-new-project p { margin: 8px 0 0; color: var(--hh-ink); font-size: 12px; }
@@ -1568,3 +1571,23 @@ button[aria-pressed="true"] {
   .studio-new-project-controls { flex-wrap: wrap; }
   .studio-new-project-controls input { flex-basis: 100%; }
 }
+
+/* Tool sections sit directly on the page canvas. */
+.studio-shell :is(.editor-grid,.controls,.preview-workspace,.preview-toolbar,.preview-stage,.inspector-bar,.utility-panel,.studio-new-project,.studio-design-import,.component-workbench,.workbench-config) { background:transparent; }
+
+.studio-shell .studio-recovery {display:flex;flex-wrap:wrap;align-items:center;gap:16px;padding:16px 20px;background:transparent;color:var(--hh-ink);border:.5px solid var(--hh-line-strong);font-size:14px;line-height:1.6;}
+.studio-recovery > p {flex:1 1 320px;min-width:0;margin:0;}
+.studio-recovery-actions {display:flex;flex-wrap:wrap;gap:8px;}
+.studio-recovery-actions button {margin:0;}
+@media(max-width:540px){.studio-recovery-actions {width:100%;}.studio-recovery-actions button {flex:1;}}
+
+/* The page carries preview content; only the editing controls keep a bounded scroll area. */
+.editor-grid{overflow:visible;min-height:0;align-items:start;background:transparent}
+.editor-grid > .controls{position:sticky;top:20px;height:auto;min-height:0;max-height:min(840px,calc(100dvh - 40px));align-self:start}
+.preview-stage{max-height:none;min-height:0;overflow:visible}
+.preview-workspace{min-width:0}
+.studio-reference-entry{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:0 0 24px;color:var(--hh-ink-muted);font-size:14px}
+.studio-reference-entry p{margin:0}.studio-reference-entry a{color:var(--hh-ink);text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
+@media(max-width:720px){.editor-grid > .controls{position:static;max-height:none}}
+
+.project-select{min-width:0;max-width:100%}.project-select > .hh-select-field{width:min(220px,calc(100vw - 110px));min-width:0;max-width:100%}.project-select [data-slot="select-trigger"]{min-width:0;max-width:100%}.project-select [data-slot="select-value"]{display:block;min-width:0;overflow:hidden;text-overflow:ellipsis}

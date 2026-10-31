@@ -1,4 +1,6 @@
 import { applyResourceMetadata, archiveSeo } from "../packages/ui/resource-seo";
+import { randomizeArchive } from "./archive-order";
+import { Button } from "../packages/ui";
 import {
   ResourceDetailHeader,
   ResourceDetailContent,
@@ -44,7 +46,7 @@ export function ArchiveGallery({ lang }: { lang: string }) {
       })
       .then((value) => {
         if (!Array.isArray(value)) throw Error();
-        setEntries(value);
+        setEntries(randomizeArchive(value));
       })
       .catch((e) => {
         if (e.name !== "AbortError")
@@ -149,7 +151,15 @@ export function ArchiveGallery({ lang }: { lang: string }) {
                 document.getElementById(`archive-${slug}`)?.focus(),
               );
             }}
-          />
+          >
+            <a
+              className="hh-button"
+              href={`/apps/studio/?design=${encodeURIComponent(selected.slug)}`}
+              target="_top"
+            >
+              {zh ? "接入设计系统" : "Use this design"}
+            </a>
+          </ResourceDetailHeader>
           <ResourceDetailContent key={selected.slug} lang={lang}>
             <div className="resource-detail-preview">
               <video
@@ -173,7 +183,7 @@ export function ArchiveGallery({ lang }: { lang: string }) {
                       ? "视频预览暂不可用。"
                       : "Video preview is unavailable."}
                   </p>
-                  <button
+                  <Button
                     type="button"
                     onClick={() => {
                       setVideoFailed(false);
@@ -181,7 +191,7 @@ export function ArchiveGallery({ lang }: { lang: string }) {
                     }}
                   >
                     {zh ? "重试预览" : "Retry preview"}
-                  </button>
+                  </Button>
                 </div>
               )}
               {!system && !systemError && (
@@ -192,12 +202,12 @@ export function ArchiveGallery({ lang }: { lang: string }) {
               {systemError && (
                 <div role="alert" className="archive-detail-error">
                   <p>{systemError}</p>
-                  <button
+                  <Button
                     type="button"
                     onClick={() => setSystemRetry((value) => value + 1)}
                   >
                     {zh ? "重试" : "Retry"}
-                  </button>
+                  </Button>
                 </div>
               )}
               {system && <ReferenceSpecimen system={system} lang={lang} />}
@@ -322,9 +332,9 @@ export function ArchiveGallery({ lang }: { lang: string }) {
           {error && (
             <p role="alert">
               {error}
-              <button onClick={() => setRetry((x) => x + 1)}>
+              <Button onClick={() => setRetry((x) => x + 1)}>
                 {zh ? "重试" : "Retry"}
-              </button>
+              </Button>
             </p>
           )}
           <div className="archive-grid">
@@ -343,28 +353,28 @@ export function ArchiveGallery({ lang }: { lang: string }) {
             ))}
           </div>
           {!error && !loading && filtered.length === 0 && (
-            <p>{zh ? "没有匹配的参考。" : "No matching references."}</p>
+            <div className="catalog-empty"><p>{zh ? "没有匹配的参考。" : "No matching references."}</p><Button onClick={() => { setQuery(""); setStyle(""); setCategory(""); setPage(1); }}>{zh ? "清除筛选" : "Clear filters"}</Button></div>
           )}
           {filtered.length > 24 && (
             <nav
               className="archive-pagination"
               aria-label={zh ? "参考分页" : "Reference pagination"}
             >
-              <button
+              <Button
                 disabled={page === 1}
                 onClick={() => setPage((p) => p - 1)}
               >
                 {zh ? "上一页" : "Previous"}
-              </button>
+              </Button>
               <span>
                 {page} / {Math.ceil(filtered.length / 24)}
               </span>
-              <button
+              <Button
                 disabled={page * 24 >= filtered.length}
                 onClick={() => setPage((p) => p + 1)}
               >
                 {zh ? "下一页" : "Next"}
-              </button>
+              </Button>
             </nav>
           )}
         </>

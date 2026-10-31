@@ -1,3 +1,5 @@
+import { Textarea } from "../packages/ui";
+import { Button } from "../packages/ui";
 import React, { useState } from "react";
 export function ReferenceActions({
   lang,
@@ -22,13 +24,13 @@ export function ReferenceActions({
             ? "复制到你正在使用的 Agent，先对照项目规范，再确认采用哪些规则。"
             : "Copy to your Agent to compare with project guidelines before adopting changes."}
         </p>
-        <textarea
+        <Textarea
           aria-label={zh ? "项目接入提示词" : "Project instructions"}
           readOnly
           rows={7}
           value={instruction}
         />
-        <button
+        <Button
           onClick={async () => {
             try {
               await navigator.clipboard.writeText(instruction);
@@ -43,7 +45,7 @@ export function ReferenceActions({
           }}
         >
           {zh ? "复制项目提示词" : "Copy project instructions"}
-        </button>
+        </Button>
         <p role="status">{notice}</p>
       </details>
     </div>

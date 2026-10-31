@@ -85,8 +85,65 @@ try {
       await page.locator('link[rel="canonical"]').getAttribute("href"),
       "https://happyhands.cc/components/?provider=cult-ui&component=cosmic-button",
     );
+    for (const provider of ["studio", "setup"]) {
+      await page
+        .locator(`.catalog-resource-navigation a[href="?provider=${provider}"]`)
+        .click();
+      await page.waitForFunction(
+        () => !document.title.includes("Cosmic Button"),
+      );
+      assert.equal(
+        await page.locator('link[rel="canonical"]').getAttribute("href"),
+        "https://happyhands.cc/components/",
+      );
+      const oldLanguage = await page.locator("html").getAttribute("lang");
+      await page
+        .getByRole("button", {
+          name: oldLanguage === "en" ? "中文" : "English",
+          exact: true,
+        })
+        .click();
+      await page.waitForFunction(
+        (previous) => document.documentElement.lang !== previous,
+        oldLanguage,
+      );
+      const graph = JSON.parse(
+        await page.locator("#site-structured-data").textContent(),
+      );
+      assert.equal(
+        graph["@graph"].find((node) => node["@type"] === "WebPage").url,
+        "https://happyhands.cc/components/",
+      );
+      assert.equal(
+        await page.locator('meta[property="og:title"]').getAttribute("content"),
+        await page.title(),
+      );
+      await page.goBack();
+      await page.waitForFunction(() =>
+        document.title.includes("Cosmic Button"),
+      );
+      assert.equal(
+        await page.locator('link[rel="canonical"]').getAttribute("href"),
+        "https://happyhands.cc/components/?provider=cult-ui&component=cosmic-button",
+      );
+      await page.goForward();
+      await page.waitForFunction(
+        () => !document.title.includes("Cosmic Button"),
+      );
+      await page.goBack();
+      await page.waitForFunction(() =>
+        document.title.includes("Cosmic Button"),
+      );
+    }
     assert.deepEqual(errors, []);
-    results.push({ width, javaScript: true, backForward: true, pass: true });
+    results.push({
+      width,
+      javaScript: true,
+      backForward: true,
+      embeddedTools: true,
+      language: true,
+      pass: true,
+    });
     await context.close();
   }
   console.log(JSON.stringify(results, null, 2));

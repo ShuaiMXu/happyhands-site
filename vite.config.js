@@ -75,6 +75,7 @@ export default defineConfig({
     'system-preview': resolve('systems/preview/index.html'),
     components: resolve('components/index.html'),
     portal: resolve('apps/portal/index.html'),
+    setup: resolve('apps/setup/index.html'),
     guide: resolve('guide/index.html'),
     'guide-en': resolve('en/guide/index.html'),
     studio: resolve('apps/studio/index.html'),

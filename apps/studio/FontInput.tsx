@@ -1,3 +1,5 @@
+import { Textarea } from "../../packages/ui";
+import { Button } from "../../packages/ui";
 import { Select } from "../../packages/ui/Select";
 import { useEffect, useRef, useState } from "react";
 import { presetStyles, validateValue } from "../../packages/theme-core";
@@ -141,7 +143,7 @@ export function FontInput({
       <label className="font-stack-label" htmlFor={`${name}-custom`}>
         {t("字体与备用字体")}
       </label>
-      <textarea
+      <Textarea
         ref={input}
         id={`${name}-custom`}
         aria-label={name}
@@ -189,9 +191,9 @@ export function FontInput({
               )}
             </span>
             {status === "error" && (
-              <button type="button" onClick={retry}>
+              <Button type="button" onClick={retry}>
                 {t("重试加载")}
-              </button>
+              </Button>
             )}
           </div>
           <details className="font-install">
@@ -211,8 +213,8 @@ export function FontInput({
             <p className="micro">
               {t("将以下引用放在项目全局 CSS 顶部；自托管时请一并保留许可证。")}
             </p>
-            <textarea readOnly value={imports} aria-label={t("字体引用代码")} />
-            <button
+            <Textarea readOnly value={imports} aria-label={t("字体引用代码")} />
+            <Button
               type="button"
               onClick={async () => {
                 try {
@@ -225,7 +227,7 @@ export function FontInput({
               }}
             >
               {t(copied ? "已复制字体引用" : "复制字体引用")}
-            </button>
+            </Button>
             {copyFailed && (
               <p role="status" className="micro">
                 {t("复制不可用，请手动复制上方代码。")}

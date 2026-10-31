@@ -49,8 +49,8 @@ export function checkStandards(
           !/serif/i.test(values["font-sans"].replaceAll("sans-serif", ""))
             ? "pass"
             : "attention",
-        detail: "苹方优先，并保留平台备用字体。实际字体取决于设备安装情况。",
-        source: "用户字体要求（覆盖品牌书的衬线标题规则）",
+        detail: "Inter 用于拉丁字符，中文保留苹方等备用字体。",
+        source: "用户指定 shadcn Luma 预设（2026-10-30）",
       });
       checks.push({
         id: `${mode}:shadow`,

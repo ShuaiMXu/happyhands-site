@@ -225,7 +225,7 @@
         {
           "type": "query",
           "key": "provider",
-          "value": "(?:systems|design-md|kage|refero)"
+          "value": "(?:systems|design-md|kage|refero|studio|setup)"
         }
       ],
       "destination": "/resource-pages/cult-ui/:component/index.html"

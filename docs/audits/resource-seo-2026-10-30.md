@@ -27,3 +27,13 @@ The post-build step moves the generic components HTML to `resource-pages`, so a 
 - Browser regression script added: `npm run test:seo:resources:browser`. Browser execution is not yet verified in this environment. It covers no-JavaScript resource content, normal desktop/phone viewports, canonical metadata, invalid IDs and component Back/Forward navigation.
 
 Remaining gates: real Vercel query rewrites and HTTP redirects; browser desktop/phone and language/navigation checks; user preview confirmation. These changes do not prove search-engine indexing, rankings or analytics collection.
+
+## October 31: synchronize with merged redesign
+
+Merged main `1624489f` (PR #47) into the existing SEO branch without rewriting its history. Preserved the redesigned resource controls, archive ordering, embedded Studio/setup tools and UI generation pipeline. Resolved three import conflicts and combined package scripts.
+
+Fixed two integration regressions: parent metadata now resets when switching from a resource detail to an embedded tool, and query rewrites ignore stale component IDs on Studio/setup routes. Extended the browser regression to cover detail → tool → language change → Back/Forward; execution still requires a usable browser/authorized preview.
+
+The built-artifact checker now reads the relocated resource index and verifies every resource sitemap canonical against its generated HTML and routing rule, rather than expecting the removed generic components shell.
+
+Validation after synchronization: typecheck and build passed; 16 SEO, 18 Studio, 6 analytics, 4 source-integrity, 4 component-catalog, and 8 framework/frame-sizing/handoff tests passed. The handoff test used the public core source at `6d546c7`. Built-artifact verification passed for eight primary pages and all 1,761 resource canonicals. No production deployment or merge approval is implied. Preview authentication and GitHub Actions billing remain independent validation blockers until checked again for the new commit.

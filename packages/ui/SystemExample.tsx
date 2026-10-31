@@ -1,3 +1,4 @@
+import { Input } from "./index";
 import { useState, type CSSProperties } from "react";
 import brandTokens from "../design-tokens/happyhands.json";
 import { Button } from "./index";
@@ -48,7 +49,7 @@ export function SystemExample({
     >
       <div className="example-top">
         <span>{t("可操作示例", "Interactive example")}</span>
-        <button
+        <Button
           type="button"
           aria-label={t("切换示例外观", "Switch example appearance")}
           onClick={() => setAppearance(!isDark)}
@@ -57,7 +58,7 @@ export function SystemExample({
             isDark ? "查看浅色" : "查看深色",
             isDark ? "View light" : "View dark",
           )}
-        </button>
+        </Button>
       </div>
       <h2>
         {t(
@@ -86,7 +87,7 @@ export function SystemExample({
           ] as const
         ).map(([id, zh, en]) => (
           <label key={id} className="example-row">
-            <input
+            <Input
               type="checkbox"
               checked={selected.includes(id)}
               onChange={() => toggle(id)}
@@ -113,18 +114,18 @@ export function SystemExample({
       </fieldset>
       <div className="example-bottom">
         {confirmed ? (
-          <button type="button" onClick={() => setConfirmed(false)}>
+          <Button type="button" onClick={() => setConfirmed(false)}>
             {t("重新选择", "Choose again")}
-          </button>
+          </Button>
         ) : quartz ? (
-          <button
+          <Button
             type="button"
             className="example-primary"
             disabled={!selected.length}
             onClick={() => setConfirmed(true)}
           >
             {action}
-          </button>
+          </Button>
         ) : (
           <Button
             variant="primary"

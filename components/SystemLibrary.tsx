@@ -1,4 +1,5 @@
 import { applyResourceMetadata, systemSeo } from "../packages/ui/resource-seo";
+import { Button } from "../packages/ui";
 import {
   ResourceCard,
   ResourceDetailHeader,
@@ -131,9 +132,9 @@ export function SystemLibrary({ lang }: { lang: string }) {
           {!filtered.length && (
             <div className="catalog-empty">
               <p>{t("没有匹配的设计系统", "No matching design systems")}</p>
-              <button onClick={() => setQuery("")}>
+              <Button onClick={() => setQuery("")}>
                 {t("清除筛选", "Clear filters")}
-              </button>
+              </Button>
             </div>
           )}
         </>

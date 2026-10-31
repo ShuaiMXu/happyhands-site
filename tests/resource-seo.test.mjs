@@ -140,3 +140,12 @@ test("identical overview and shared reading documents have one canonical identit
     "provider=systems&system=sodium&doc=guides%2Fapproval-ui-for-ai-agents.md",
   );
 });
+
+test("embedded tool routes ignore stale component identity", () => {
+  for (const provider of ["studio", "setup"]) {
+    assert.equal(
+      route(`provider=${provider}&component=cosmic-button`),
+      "/resource-pages/index.html",
+    );
+  }
+});

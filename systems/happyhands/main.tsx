@@ -1,3 +1,6 @@
+import { Select } from "../../packages/ui/Select";
+import { Textarea } from "../../packages/ui";
+import { Input } from "../../packages/ui";
 import { applySiteMetadata } from "../../packages/ui/site-seo";
 import { SystemScenes } from "../../packages/ui/SystemScenes";
 import { SystemExample } from "../../packages/ui/SystemExample";
@@ -106,8 +109,8 @@ function App() {
                 <h3>{t("文字", "Type")}</h3>
                 <p>
                   {t(
-                    "苹方优先的无衬线字体。标题明确，正文自然换行，技术编号才使用等宽。",
-                    "PingFang-first sans serif. Clear headings, natural wrapping; monospace for technical identifiers.",
+                    "Inter 用于西文，中文回退苹方。界面字重 400，正文自然换行，技术编号使用等宽。",
+                    "Inter with PingFang for Chinese. Interface weight 400; natural wrapping and monospace for technical identifiers.",
                   )}
                 </p>
               </article>
@@ -115,8 +118,8 @@ function App() {
                 <h3>{t("空间与形状", "Space & shape")}</h3>
                 <p>
                   {t(
-                    "间距使用 4 / 8 / 12 / 16 / 24 / 32；控件圆角 10，浮层 18。平面内容不堆阴影。",
-                    "Spacing: 4 / 8 / 12 / 16 / 24 / 32. Controls: radius 10; floating surfaces: 18. Keep flat content free of stacked shadows.",
+                    "间距使用 4 / 8 / 12 / 16 / 24 / 32；Luma 基础圆角 10，按钮与卡片 26，输入框 22。平面内容不堆阴影。",
+                    "Spacing: 4 / 8 / 12 / 16 / 24 / 32. Luma base radius: 10; buttons and cards: 26; inputs: 22. Keep flat content free of stacked shadows.",
                   )}
                 </p>
               </article>
@@ -198,7 +201,7 @@ function App() {
               >
                 <label>
                   {t("项目名称", "Project name")}
-                  <input
+                  <Input
                     required
                     name="project"
                     placeholder={t(
@@ -211,13 +214,13 @@ function App() {
                   {t("验证表单", "Validate form")}
                 </Button>
               </form>
-              <button
+              <Button
                 ref={opener}
                 className="action secondary"
                 onClick={() => dialog.current?.showModal()}
               >
                 {t("打开确认弹窗", "Open confirmation dialog")}
-              </button>
+              </Button>
               <dialog
                 ref={dialog}
                 onClose={() => opener.current?.focus()}
@@ -334,7 +337,7 @@ function App() {
             </p>
             <label>
               {t("接入方式", "Setup mode")}
-              <select value={mode} onChange={(e) => setMode(e.target.value)}>
+              <Select value={mode} onChange={(e) => setMode(e.target.value)}>
                 <option value="existing">
                   {t(
                     "已有项目 / 逐页迁移",
@@ -344,9 +347,9 @@ function App() {
                 <option value="new">
                   {t("新项目 / 从首屏开始", "New project / first screen")}
                 </option>
-              </select>
+              </Select>
             </label>
-            <textarea
+            <Textarea
               aria-label={t("接入指令", "Setup prompt")}
               value={prompt}
               readOnly

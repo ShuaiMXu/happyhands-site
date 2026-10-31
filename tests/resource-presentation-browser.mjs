@@ -22,7 +22,7 @@ try {
       for (const provider of ["systems", "design-md", "cult-ui"]) {
         const p = await context.newPage();
         const errors = [];
-        p.on("pageerror", (e) => errors.push(e.message));
+        p.on("pageerror", (e) => {console.error(e.stack);errors.push(e.message);});
         await p.goto(`${base}/components/?provider=${provider}`);
         const card = p.locator(".resource-card").first();
         await card.waitFor();
@@ -67,6 +67,7 @@ try {
         await tabs.first().waitFor();
         await tabs.first().focus();
         await p.keyboard.press("ArrowRight");
+        await p.waitForFunction(()=>document.querySelectorAll(".resource-content-tabs [role=tab]")[1]?.getAttribute("aria-selected")==="true");
         assert.equal(await tabs.nth(1).getAttribute("aria-selected"), "true");
         if (provider === "design-md") {
           await p.locator(".resource-export pre").waitFor();
@@ -75,6 +76,8 @@ try {
             .filter({ hasText: "Mercury" })
             .waitFor();
         }
+        const tabGeometry = await p.locator('.resource-content-tabs,.resource-export-tabs').evaluateAll(lists => lists.map(list => ({className:list.className,height:list.getBoundingClientRect().height,client:list.clientHeight,scroll:list.scrollHeight,overflowY:getComputedStyle(list).overflowY,triggerHeight:list.querySelector('[role=tab]')?.getBoundingClientRect().height})));
+        for(const list of tabGeometry){console.log(provider,width,dark,list);assert.equal(list.overflowY,'hidden','tabs must not expose vertical scrollbars');assert(list.scroll<=list.client+1,'tab decoration must remain inside its row');assert(Math.abs(list.triggerHeight-48)<1,'match homepage tab height');}
         const decoratedLinks = await p.locator("#catalog-main a:visible").evaluateAll(links => links.filter(link => getComputedStyle(link).textDecorationLine !== "none").map(link => link.textContent));
         assert.deepEqual(decoratedLinks, [], "resource links must not underline text");
         await tabs.first().click();

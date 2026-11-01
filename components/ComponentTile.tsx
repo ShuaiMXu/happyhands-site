@@ -1,3 +1,4 @@
+import { HistorySafeFrame } from "../packages/ui/HistorySafeFrame";
 import { ResourceCard } from "./ResourcePresentation";
 import React, { useEffect, useRef, useState } from "react";
 
@@ -33,7 +34,7 @@ export function ComponentTile({
       mediaClassName="component-tile-art"
       media={
         visible && (
-          <iframe
+          <HistorySafeFrame
             title={`${name} preview`}
             src={`/components/preview/?component=${encodeURIComponent(id)}&theme=${dark ? "dark" : "light"}&lang=${lang}&motion=off`}
             tabIndex={-1}

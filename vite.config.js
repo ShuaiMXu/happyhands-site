@@ -8,6 +8,7 @@ import { heroConnectMarkup } from './apps/portal/connect.js';
 import { seoPages, seoData, enhanceSeoHtml } from './packages/ui/site-seo.ts';
 import { guideContent } from './guide/content.ts';
 import { siteAnalyticsPlugin } from './scripts/site-analytics-plugin.mjs';
+import { resourcePreviewPlugin } from './scripts/resource-preview-plugin.mjs';
 
 const root = dirname(fileURLToPath(import.meta.url));
 
@@ -36,7 +37,7 @@ export default defineConfig({
       const [,kind,system,rest]=match;
       const file=resolve(root,'systems/preview/generated',system,kind==='components'?rest:`${kind}/${rest}`);
       for(const suffix of ['.tsx','.ts','/index.tsx','/index.ts',''])if(existsSync(file+suffix)&&statSync(file+suffix).isFile())return file+suffix;
-    }},siteAnalyticsPlugin(root),{
+    }},siteAnalyticsPlugin(root),resourcePreviewPlugin(root),{
     name: 'public-page-content-and-metadata',
     transformIndexHtml(html, context) {
       const filename=relative(root,context.filename).replaceAll('\\','/');

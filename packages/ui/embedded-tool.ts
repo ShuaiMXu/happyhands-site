@@ -1,6 +1,11 @@
 import './embedded-tool.css';
 if(new URLSearchParams(location.search).get('embedded')==='1'){
  document.documentElement.dataset.embeddedTool='true';
+ window.addEventListener('message',event=>{
+  if(event.source===window.parent&&event.origin===location.origin&&event.data?.type==='hh:tool-active'){
+   window.dispatchEvent(new Event('hh:preview-resume'));
+  }
+ });
  const start=()=>{
   const root=document.getElementById('root')||document.getElementById('setup-page')||document.body;
   let pending=0;

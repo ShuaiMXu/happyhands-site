@@ -1,3 +1,4 @@
+import { HistorySafeFrame } from "../packages/ui/HistorySafeFrame";
 import {ResourceToolPanels} from "../packages/ui/ResourceToolPanels";
 import {resourceSections,resourceTools} from "../packages/ui/resource-navigation";
 import "../packages/ui/resource-navigation.css";
@@ -6,7 +7,7 @@ import { Input } from "../packages/ui";
 import { Button } from "../packages/ui";
 import { ResourceDetailHeader } from "./ResourcePresentation";
 import { resolveCatalogItem, searchCatalog } from "./catalog-search";
-import { applySiteMetadata } from "../packages/ui/site-seo";
+import { applyResourceMetadata, componentSeo } from "../packages/ui/resource-seo";
 import { ComponentTile } from "./ComponentTile";
 import { ArchiveFilter } from "./ArchiveFilter";
 import { ResourceToolbar } from "./ResourceToolbar";
@@ -117,8 +118,10 @@ function App() {
             ),
           }[reason] || reason;
   useEffect(() => {
-    applySiteMetadata("components", lang);
-  }, [lang]);
+    if (provider === "cult-ui") applyResourceMetadata(selected ? componentSeo(item) : null, lang);
+    // Embedded tools do not own the parent document's resource metadata.
+    if (provider === "studio" || provider === "setup") applyResourceMetadata(null, lang);
+  }, [lang, provider, selected]);
   useEffect(() => {
     const handle = () => {
       setProvider(readProvider());
@@ -411,8 +414,7 @@ function App() {
                         className={`preview-frame-wrap ${mobile ? "mobile" : ""}`}
                       >
                         {running ? (
-                          <iframe
-                            key={`${selected}-${dark}-${motion}`}
+                          <HistorySafeFrame
                             title={`${title(item)} ${t("交互预览", "interactive preview")}`}
                             src={`/components/preview/?component=${item.id}&theme=${dark ? "dark" : "light"}&lang=${lang}&motion=${motion ? "on" : "off"}`}
                             sandbox={`allow-scripts${item.id === "bg-image-texture" ? " allow-downloads" : ""}`}

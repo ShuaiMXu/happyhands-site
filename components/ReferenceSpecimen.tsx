@@ -1,4 +1,5 @@
 import React from "react";
+import {HistorySafeFrame} from "../packages/ui/HistorySafeFrame";
 import {
   buildComponentPreview,
   componentPreviewKind,
@@ -227,7 +228,7 @@ export function ReferenceSpecimen({
               <article className="reference-component" key={i}>
                 <h4>{component.name}</h4>
                 {preview && (
-                  <iframe
+                  <HistorySafeFrame
                     data-kind={
                       component.html
                         ? "source"

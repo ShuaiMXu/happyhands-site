@@ -1,3 +1,4 @@
+import { applyResourceMetadata, systemSeo } from "../packages/ui/resource-seo";
 import { Button } from "../packages/ui";
 import {
   ResourceCard,
@@ -49,6 +50,10 @@ export function SystemLibrary({ lang }: { lang: string }) {
         system.id === new URLSearchParams(location.search).get("system"),
     )?.id || "";
   const [selected, setSelected] = useState(read);
+  useEffect(() => {
+    if (!selected) applyResourceMetadata(null, lang);
+    if (selected === 'happyhands') applyResourceMetadata(systemSeo({id:'happyhands',name:'HappyHands',summary:'HappyHands brand rules, semantic tokens and product components.'}),lang);
+  }, [selected,lang]);
   const [query, setQuery] = useState("");
   const filtered = systems.filter((s) =>
     `${s.name} ${s.zh} ${s.en}`

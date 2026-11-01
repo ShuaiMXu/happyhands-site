@@ -1,3 +1,4 @@
+import { applyResourceMetadata, archiveSeo } from "../packages/ui/resource-seo";
 import { randomizeArchive } from "./archive-order";
 import { Button } from "../packages/ui";
 import {
@@ -98,6 +99,9 @@ export function ArchiveGallery({ lang }: { lang: string }) {
     addEventListener("popstate", restore);
     return () => removeEventListener("popstate", restore);
   }, [entries]);
+  useEffect(() => {
+    if (!loading) applyResourceMetadata(selected ? archiveSeo(selected) : null, lang);
+  }, [selected, loading, lang]);
   const selectEntry = (entry: Entry | null) => {
     const url = new URL(location.href);
     url.searchParams.set("provider", "design-md");

@@ -1,4 +1,5 @@
 import {autoSizeFrame} from "../../packages/ui/frame-sizing";
+import {HistorySafeFrame} from "../../packages/ui/HistorySafeFrame";
 import { Input } from "../../packages/ui";
 import { useLayoutEffect,useRef,useMemo, useState } from "react";
 import { Button } from "../../packages/ui";
@@ -27,6 +28,12 @@ export function ComponentWorkbench({
   onExport: (name: string, text: string) => void;
 }) {
   const [overview,setOverview]=useState(true);
+  const [previewEpoch,setPreviewEpoch]=useState(0);
+  useLayoutEffect(()=>{
+    const resume=()=>setPreviewEpoch(epoch=>epoch+1);
+    window.addEventListener('hh:preview-resume',resume);
+    return ()=>window.removeEventListener('hh:preview-resume',resume);
+  },[]);
   const frame=useRef<HTMLIFrameElement>(null);
   useLayoutEffect(() => {
     const node = frame.current;
@@ -48,7 +55,7 @@ export function ComponentWorkbench({
       observer.disconnect();
       dispose();
     };
-  }, []);
+  }, [previewEpoch]);
   const previewDocument=useMemo(()=>componentDocument(config,styles,mode,lang,overview),[config,styles,mode,lang,overview]);
   const [query, setQuery] = useState("");
   const en = lang === "en";
@@ -171,7 +178,8 @@ export function ComponentWorkbench({
         </Button>
       </div>
       </div>
-      <iframe
+      <HistorySafeFrame
+        key={previewEpoch}
         ref={frame}
         title={copy("可交互组件预览", "Interactive component preview")}
         sandbox="allow-scripts allow-forms"

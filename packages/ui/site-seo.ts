@@ -60,6 +60,7 @@ export function enhanceSeoHtml(html:string,key:SeoPage) {
 }
 export function applySiteMetadata(key:SeoPage,lang:SeoLanguage) {
  const x=seoData(key,lang);document.title=x.title;
+ let canonical=document.head.querySelector('link[rel="canonical"]');if(!canonical){canonical=document.createElement('link');canonical.setAttribute('rel','canonical');document.head.append(canonical)}canonical.setAttribute('href',x.url);
  const set=(selector:string,attributes:Record<string,string>)=>{let el=document.head.querySelector(selector);if(!el){el=document.createElement("meta");document.head.append(el)}for(const[k,v]of Object.entries(attributes))el.setAttribute(k,v)};
  set('meta[name="description"]',{name:"description",content:x.description});
  for(const[name,content]of Object.entries({"og:title":x.title,"og:description":x.description,"og:url":x.url,"og:image":x.image,"og:locale":x.lang==="zh"?"zh_CN":"en_US"}))set(`meta[property="${name}"]`,{property:name,content});

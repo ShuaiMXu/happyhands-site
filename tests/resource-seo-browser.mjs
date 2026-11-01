@@ -73,6 +73,9 @@ try {
     await page.goto(base + "/components/?provider=cult-ui");
     await page.locator('a[href*="component=cosmic-button"]').first().click();
     await page.waitForFunction(() => document.title.includes("Cosmic Button"));
+    await page.frameLocator('.preview-frame-wrap iframe')
+      .locator('[data-preview="cosmic-button"]').waitFor();
+    assert.equal(await page.locator('.preview-frame-wrap iframe').getAttribute('sandbox'), 'allow-scripts');
     await page.goBack();
     await page.waitForFunction(() => !document.title.includes("Cosmic Button"));
     assert.equal(
@@ -81,6 +84,8 @@ try {
     );
     await page.goForward();
     await page.waitForFunction(() => document.title.includes("Cosmic Button"));
+    await page.frameLocator('.preview-frame-wrap iframe')
+      .locator('[data-preview="cosmic-button"]').waitFor();
     assert.equal(
       await page.locator('link[rel="canonical"]').getAttribute("href"),
       "https://happyhands.cc/components/?provider=cult-ui&component=cosmic-button",
@@ -92,6 +97,12 @@ try {
       await page.waitForFunction(
         () => !document.title.includes("Cosmic Button"),
       );
+      const tool = page.frameLocator('.resource-tool-panel:not([hidden]) iframe');
+      await tool.locator('h1').waitFor();
+      if (provider === 'studio') {
+        await tool.frameLocator('.component-workbench iframe').locator('#component-root').waitFor();
+        assert.equal(await tool.locator('.component-workbench iframe').getAttribute('sandbox'), 'allow-scripts allow-forms');
+      }
       assert.equal(
         await page.locator('link[rel="canonical"]').getAttribute("href"),
         "https://happyhands.cc/components/",
@@ -130,6 +141,10 @@ try {
       await page.waitForFunction(
         () => !document.title.includes("Cosmic Button"),
       );
+      await tool.locator('h1').waitFor();
+      if (provider === 'studio') {
+        await tool.frameLocator('.component-workbench iframe').locator('#component-root').waitFor();
+      }
       await page.goBack();
       await page.waitForFunction(() =>
         document.title.includes("Cosmic Button"),

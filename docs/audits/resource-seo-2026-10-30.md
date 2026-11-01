@@ -37,3 +37,13 @@ Fixed two integration regressions: parent metadata now resets when switching fro
 The built-artifact checker now reads the relocated resource index and verifies every resource sitemap canonical against its generated HTML and routing rule, rather than expecting the removed generic components shell.
 
 Validation after synchronization: typecheck and build passed; 16 SEO, 18 Studio, 6 analytics, 4 source-integrity, 4 component-catalog, and 8 framework/frame-sizing/handoff tests passed. The handoff test used the public core source at `6d546c7`. Built-artifact verification passed for eight primary pages and all 1,761 resource canonicals. No production deployment or merge approval is implied. Preview authentication and GitHub Actions billing remain independent validation blockers until checked again for the new commit.
+
+## November 1: repair nested preview history
+
+Merged current main `104c4efc` to retain #49's tab overflow and navigation alignment fixes. Real Chrome runs reproduced a pre-existing history defect: changing language while Studio is embedded updated its HTML preview through `srcDoc`, creating nested history entries. Back/Forward could then remain on a component detail or consume a step inside a hidden frame.
+
+Shared `HistorySafeFrame` replaces preview navigations instead of adding child history. Self-contained HTML previews use data documents with their original CSP and sandbox, so history restoration does not depend on a Blob URL owned by an unloaded frame. Same-origin URL previews use the same replacement path. Lazy loading and offscreen tile cleanup remain. No layout, theme, source component or protection settings changed.
+
+When an embedded tool becomes active, a parent/origin-checked activation message recreates only Studio's inner component demonstration and reattaches its sizing listeners. This fixes a zero-sized restored child viewport without discarding the editor draft or undo state. Regression assertions check actual preview visibility after Forward, not only the parent title.
+
+Local validation: 42 SEO/Studio/framework/sizing/handoff tests, typecheck, production client build and resource prerender, and eight-page/1,761-canonical artifact verification passed. Chrome resource SEO checks passed for four no-JavaScript detail types and desktop/phone metadata, language and Back/Forward through both embedded tools. The regression also verifies loaded preview content and unchanged sandbox attributes. All 18 list/detail layout checks passed at 390/768/1440 widths and light/dark themes. Vercel's prior PR deployment returned matching Quartz Color static metadata/content; the amended commit still needs its own deployment check. GitHub Actions remains separately blocked by the account billing lock.

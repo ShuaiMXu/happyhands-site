@@ -424,6 +424,7 @@ function App() {
                 <select
                   aria-label="Page example"
                   value={selected}
+                  disabled={!blocks.length}
                   onChange={(e) => setSelected(e.target.value)}
                 >
                   {blocks.map((b) => (
@@ -435,7 +436,7 @@ function App() {
               </label>
             </div>
             <div className="demo-block">
-              <Block file={block.file} name={block.name} />
+              {block ? <Block file={block.file} name={block.name} /> : <p className="demo-copy" role="status">Page examples are not available in this build.</p>}
             </div>
           </section>
         )}

@@ -53,7 +53,7 @@ export function resourceFeed(lang) {
           `<button type="button" role="tab" id="feed-tab-${id}" aria-controls="feed-panel-${id}" aria-selected="${i === 0}" tabindex="${i === 0 ? 0 : -1}" data-feed-tab="${id}">${zh ? chinese : english}</button>`,
       )
       .join("")}</div></div>
-    <div data-feed-tools></div>
+    <div data-feed-tools>${resourceTools.map(tool=>`<section class="resource-tool-panel" role="tabpanel" id="feed-panel-${tool.id}" aria-labelledby="feed-tab-${tool.id}" hidden></section>`).join('')}</div>
     <div data-feed-controls></div>
     <div class="feed-collection" role="tabpanel" id="feed-panel-design-md" aria-labelledby="feed-tab-design-md"><div class="feed-grid">${randomizeArchive(references).map((item) => referenceCard(item)).join("")}</div></div>
     <div class="feed-collection" role="tabpanel" id="feed-panel-systems" aria-labelledby="feed-tab-systems" hidden><div class="feed-grid">${systems.map((id) => `<a class="feed-item" href="/components/?provider=systems&system=${id}"><div class="feed-art feed-system"><img src="/system-covers/${id}.png" alt="" loading="lazy" width="1500" height="938"></div><div class="feed-caption"><h3>${id === "happyhands" ? "HappyHands" : id.charAt(0).toUpperCase() + id.slice(1)}</h3></div></a>`).join("")}</div></div>

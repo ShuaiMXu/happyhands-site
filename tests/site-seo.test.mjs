@@ -16,7 +16,7 @@ test('public metadata consistently identifies the production domain',async()=>{
     assert.ok(!html.includes('happyhands-design.vercel.app'),path);
     assert.ok(sitemap.includes(`<loc>${origin}/${path}/</loc>`),path);
   }
-  assert.equal((sitemap.match(/<loc>/g)||[]).length,paths.length+2);
+  assert.equal((sitemap.match(/<loc>/g)||[]).length,paths.length+6);
   for(const path of ['guide','en/guide'])assert.ok(sitemap.includes(`<loc>${origin}/${path}/</loc>`));
   const robots=await read('public/robots.txt');
   assert.ok(robots.includes(`Sitemap: ${origin}/sitemap.xml`));

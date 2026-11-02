@@ -4,6 +4,8 @@ const pages = new Set([
   'apps/portal/index.html', 'apps/studio/index.html', 'components/index.html',
   'systems/happyhands/index.html', 'systems/quartz/index.html', 'systems/lime/index.html',
   'guide/index.html', 'en/guide/index.html',
+  'ai-ui-review/index.html', 'en/ai-ui-review/index.html',
+  'ai-website-design/index.html', 'en/ai-website-design/index.html',
 ]);
 
 export function siteAnalyticsPlugin(root) {

@@ -11,6 +11,13 @@
 - [Harness documentation](https://github.com/ShuaiMXu/happyhands/blob/main/docs/harness.md): Commands and execution boundaries.
 - [Website source](https://github.com/ShuaiMXu/happyhands-site): Public website and Theme Studio implementation.
 
+## Design and review workflows
+
+- [AI UI review](https://happyhands.cc/en/ai-ui-review/): Screenshot evidence, project rules, scoped repair and human acceptance; not general code review.
+- [AI 界面评审](https://happyhands.cc/ai-ui-review/): 可复现问题、截图证据与前后复核。
+- [AI website design workflow](https://happyhands.cc/en/ai-website-design/): Improve an existing AI-generated interface; not a hosted website builder.
+- [AI 网站设计](https://happyhands.cc/ai-website-design/): 从初稿、设计方向到可复核的界面优化。
+
 ## Product facts
 
 - The website provides guidance, design resources and Theme Studio. Review execution uses the local workbench and Harness.

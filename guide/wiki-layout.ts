@@ -55,6 +55,48 @@ export function createFloatingHeader(header: HTMLElement, hero: HTMLElement, red
   };
 }
 
+/** A token-owned fixed-body lock also prevents background touch scrolling on Safari. */
+export function createPageScrollLock(doc: Document, view: Window) {
+  let active: { token: object; restore: () => void } | undefined;
+  return {
+    acquire(owner: object) {
+      active?.restore();
+      const token = { owner };
+      const x = view.scrollX, y = view.scrollY;
+      const scrollbarGap = Math.max(0, view.innerWidth - doc.documentElement.clientWidth);
+      const snapshots: Array<() => void> = [];
+      const set = (style: CSSStyleDeclaration, property: string, value: string) => {
+        const previous = style.getPropertyValue(property), priority = style.getPropertyPriority(property);
+        style.setProperty(property, value, 'important');
+        const applied = style.getPropertyValue(property);
+        snapshots.push(() => {
+          // Do not clobber a concurrent change made by another interface.
+          if (style.getPropertyValue(property) !== applied || style.getPropertyPriority(property) !== 'important') return;
+          if (previous) style.setProperty(property, previous, priority);
+          else style.removeProperty(property);
+        });
+      };
+      set(doc.documentElement.style, 'overflow', 'hidden');
+      set(doc.documentElement.style, 'overscroll-behavior', 'none');
+      set(doc.body.style, 'position', 'fixed');
+      set(doc.body.style, 'top', `${-y}px`);
+      set(doc.body.style, 'left', `${-x}px`);
+      set(doc.body.style, 'width', scrollbarGap > 0 ? `calc(100% - ${scrollbarGap}px)` : '100%');
+      set(doc.body.style, 'overflow', 'hidden');
+      const restore = () => {
+        if (active?.token !== token) return;
+        active = undefined;
+        snapshots.reverse().forEach(restoreStyle => restoreStyle());
+        // Explicit instant behavior avoids inherited smooth scrolling on unlock.
+        view.scrollTo({ left: x, top: y, behavior: 'instant' });
+      };
+      active = { token, restore };
+      return restore;
+    },
+    release() { active?.restore(); },
+  };
+}
+
 /** Shared enhancement for the statically rendered guide and workflow pages. */
 export function setupWikiLayout() {
   const root = document.querySelector<HTMLElement>('.wiki-layout');
@@ -148,25 +190,40 @@ export function setupWikiLayout() {
   listen(reduced, 'change', () => floatingHeader.update());
 
   const dialogs = Array.from(document.querySelectorAll<HTMLDialogElement>('#wiki-pages-dialog, #wiki-outline-dialog'));
+  const scrollLock = createPageScrollLock(document, window);
+  const closeDialogs = new Map<HTMLDialogElement, () => void>();
   dialogs.forEach(dialog => {
     let opener: HTMLElement | null = null;
     const triggers = Array.from(document.querySelectorAll<HTMLElement>(`[data-wiki-open="${dialog.id}"]`));
-    const close = () => { if (dialog.open) dialog.close(); };
+    let unlock: (() => void) | undefined;
+    const cleanup = () => {
+      unlock?.();
+      unlock = undefined;
+      triggers.forEach(button => button.setAttribute('aria-expanded', 'false'));
+      if (opener && !dialogs.some(other => other.open) && opener.getClientRects().length) opener.focus({ preventScroll: true });
+      opener = null;
+    };
+    const close = () => {
+      if (dialog.open) dialog.close();
+      // Restore before the clicked anchor's native default navigation runs.
+      cleanup();
+    };
+    closeDialogs.set(dialog, close);
     triggers.forEach(trigger => trigger.setAttribute('aria-expanded', 'false'));
     triggers.forEach(trigger => listen(trigger, 'click', () => {
       if (dialog.open) return;
-      dialogs.forEach(other => { if (other.open) other.close(); });
+      dialogs.forEach(other => { if (other.open) closeDialogs.get(other)?.(); });
       opener = trigger;
-      dialog.showModal();
+      unlock = scrollLock.acquire(dialog);
+      try { dialog.showModal(); } catch (error) { cleanup(); throw error; }
       triggers.forEach(button => button.setAttribute('aria-expanded', 'true'));
       dialog.querySelector<HTMLElement>('[aria-current]')?.scrollIntoView({ block: 'center', behavior: 'instant' });
     }));
     listen(dialog, 'close', () => {
-      triggers.forEach(button => button.setAttribute('aria-expanded', 'false'));
-      // Native dialog handles Escape and focus containment; also restore on custom closes.
-      if (opener && opener.getClientRects().length) opener.focus({ preventScroll: true });
-      opener = null;
+      // A queued close from an earlier opening must not unlock a reopened sheet.
+      if (!dialog.open) cleanup();
     });
+    listen(dialog, 'cancel', event => { event.preventDefault(); close(); });
     listen(dialog, 'click', event => {
       const mouse = event as MouseEvent;
       const target = event.target instanceof Element ? event.target : null;
@@ -176,6 +233,7 @@ export function setupWikiLayout() {
         if (mouse.clientX < rect.left || mouse.clientX > rect.right || mouse.clientY < rect.top || mouse.clientY > rect.bottom) close();
       }
     });
+    listen(window, 'resize', close);
     listen(narrow, 'change', close);
     listen(phone, 'change', close);
     disposers.push(close);
@@ -207,6 +265,7 @@ export function setupWikiLayout() {
   return () => {
     alive = false;
     disposers.forEach(dispose => dispose());
+    scrollLock.release();
     observer.disconnect();
     floatingHeader.destroy();
     cancelAnimationFrame(frame);

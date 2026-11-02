@@ -12,7 +12,7 @@ for(const lang of ['zh','en']) for(const kind of ['guide','review','design']) {
   assert.ok(html.indexOf('id="site-navigation"')<html.indexOf('class="wiki-columns"'));
   assert.equal((html.match(/class="wiki-header-slot"/g)||[]).length,1);
   assert.equal((html.match(/<dialog /g)||[]).length,2);
-  assert.equal((html.match(/aria-current="page"/g)||[]).length,2);
+  assert.equal((html.match(/aria-current="page"/g)||[]).length,3);
   const outline=html.match(/class="guide-contents wiki-outline"[\s\S]*?<\/nav>/)[0];
   const ids=[...html.matchAll(/<section id="([^"]+)"/g)].map(x=>x[1]);
   for(const id of ids) assert.ok(outline.includes(`href="#${id}"`),`missing ${id}`);
@@ -45,4 +45,12 @@ test('narrow navigation has a no-JavaScript fallback before enhancement',()=>{
  assert.match(css,/\.wiki-enhanced \.wiki-mobile-bar \{ display:grid/);
  assert.match(css,/\.wiki-layout:not\(\.wiki-enhanced\) \.wiki-columns \{ display:block/);
  assert.ok(!guideContent('en').includes('class="wiki-layout wiki-enhanced"'));
+});
+
+
+test('footer offers real guide, resource and support destinations',()=>{
+ const html=guideContent('en');
+ const footer=html.match(/<footer class="guide-footer">([\s\S]*?)<\/footer>/)[1];
+ assert.equal((footer.match(/class="wiki-footer-section"/g)||[]).length,3);
+ for(const href of ['/en/guide/','/en/ai-ui-review/','/en/ai-website-design/','/apps/studio/','/components/?provider=systems','https://github.com/ShuaiMXu/happyhands/issues','/llms.txt']) assert.ok(footer.includes(`href="${href}"`));
 });

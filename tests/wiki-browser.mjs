@@ -65,6 +65,12 @@ try {
     assert.equal(await page.locator('.hh-site-header').evaluate(el => getComputedStyle(el).position), 'relative');
     assert.equal(await page.locator('.hh-site-header').evaluate(el => el.classList.contains('is-floating')), false);
     await noOverflow(page, route);
+    const alignment = await page.evaluate(() => ({
+      hero: document.querySelector('.guide-heading').getBoundingClientRect().left,
+      article: document.querySelector('.guide-body').getBoundingClientRect().left,
+    }));
+    assert.ok(Math.abs(alignment.hero - alignment.article) <= 2, `${route}: hero/article left edges diverge`);
+    assert.equal(await page.locator('.guide-footer nav').count(), 3, `${route}: footer useful navigation groups`);
     await capture(page, route, 'desktop-top');
 
     // The transition must not remove the header's flow box and move its own threshold.
@@ -115,6 +121,29 @@ try {
     const outlineTrigger = page.locator('[data-wiki-open="wiki-outline-dialog"]');
     const pageDialog = page.locator('#wiki-pages-dialog');
     const outlineDialog = page.locator('#wiki-outline-dialog');
+    // Native showModal alone does not lock page scrolling, especially on Safari.
+    for (const [trigger, dialogId] of [[pagesTrigger, 'wiki-pages-dialog'], [outlineTrigger, 'wiki-outline-dialog']]) {
+      await settleScroll(page, 900);
+      const before = await page.evaluate(() => ({ x: scrollX, y: scrollY, heroTop: document.querySelector('.guide-heading').getBoundingClientRect().top }));
+      await trigger.click();
+      assert.equal(await page.evaluate(() => getComputedStyle(document.body).position), 'fixed');
+      const locked = await page.evaluate(() => ({ x: scrollX, y: scrollY }));
+      await page.mouse.move(1, 1);
+      await page.mouse.wheel(0, 440);
+      await page.waitForTimeout(250); // Allow the asynchronous wheel/scroll pipeline to settle.
+      const afterWheel = await page.evaluate(() => ({ x: scrollX, y: scrollY, heroTop: document.querySelector('.guide-heading').getBoundingClientRect().top }));
+      assert.deepEqual({ x: afterWheel.x, y: afterWheel.y }, locked, `${dialogId}: background wheel moved document`);
+      assert.ok(Math.abs(afterWheel.heroTop - before.heroTop) <= 1, `${dialogId}: background visibly moved`);
+      await page.keyboard.press('Escape');
+      await page.waitForFunction(id => !document.getElementById(id).open, dialogId);
+      assert.deepEqual(await page.evaluate(() => ({ x: scrollX, y: scrollY })), { x: before.x, y: before.y }, `${dialogId}: close did not restore scroll`);
+      assert.notEqual(await page.evaluate(() => getComputedStyle(document.body).position), 'fixed');
+    }
+    await pagesTrigger.click();
+    await page.setViewportSize({ width: 392, height: 844 });
+    await page.waitForFunction(() => !document.querySelector('#wiki-pages-dialog').open);
+    assert.notEqual(await page.evaluate(() => getComputedStyle(document.body).position), 'fixed');
+    await page.setViewportSize({ width: 390, height: 844 });
     await pagesTrigger.click();
     assert.equal(await pageDialog.evaluate(el => el.open && el.matches(':modal')), true);
     assert.equal(await pageDialog.locator('[aria-current="page"]').count(), 1);
@@ -136,6 +165,12 @@ try {
     const hash = await entry.getAttribute('href');
     await entry.click();
     await page.waitForFunction(hash => location.hash === hash && !document.querySelector('#wiki-outline-dialog').open, hash);
+    await page.waitForFunction(hash => {
+      const target = document.getElementById(hash.slice(1));
+      const heading = target?.querySelector('h2,h3') || target;
+      const top = heading?.getBoundingClientRect().top;
+      return top >= 0 && top < innerHeight * 0.4 && getComputedStyle(document.body).position !== 'fixed';
+    }, hash);
     await verifyOutline(page);
     await noOverflow(page, `${route} phone after anchor`);
 

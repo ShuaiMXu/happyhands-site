@@ -52,3 +52,58 @@ test('floating header leaves at 120ms and a reversal cancels the exit without re
   assert.equal(classes.has('is-floating'), false);
   state.destroy();
 });
+
+function fakeStyle(initial = {}) {
+  const values = new Map(Object.entries(initial).map(([name, value]) => [name, Array.isArray(value) ? value : [value, '']]));
+  return {
+    getPropertyValue: name => values.get(name)?.[0] || '',
+    getPropertyPriority: name => values.get(name)?.[1] || '',
+    setProperty: (name, value, priority = '') => values.set(name, [value, priority]),
+    removeProperty: name => values.delete(name),
+  };
+}
+
+test('sheet scroll lock preserves styles and position; stale releases cannot unlock a new owner', async () => {
+  const { createPageScrollLock } = await import('../guide/wiki-layout.ts');
+  const body = fakeStyle({ position: ['relative', 'important'], top: '2px', width: '90%' });
+  const html = fakeStyle({ overflow: 'clip', 'overscroll-behavior': 'contain' });
+  const calls = [];
+  const view = { innerWidth: 1000, scrollX: 12, scrollY: 900, scrollTo(value) { calls.push(value); this.scrollX = value.left; this.scrollY = value.top; } };
+  const lock = createPageScrollLock({ body: { style: body }, documentElement: { style: html, clientWidth: 985 } }, view);
+  const releaseFirst = lock.acquire({ id: 'pages' });
+  assert.equal(body.getPropertyValue('position'), 'fixed');
+  assert.equal(body.getPropertyValue('width'), 'calc(100% - 15px)');
+  assert.equal(body.getPropertyValue('top'), '-900px');
+  assert.equal(body.getPropertyValue('left'), '-12px');
+  assert.equal(html.getPropertyValue('overflow'), 'hidden');
+  view.scrollX = 0; view.scrollY = 0;
+  const releaseSecond = lock.acquire({ id: 'outline' });
+  assert.equal(body.getPropertyValue('top'), '-900px');
+  releaseFirst(); // Delayed native close from the previous sheet.
+  assert.equal(body.getPropertyValue('position'), 'fixed');
+  releaseSecond();
+  assert.equal(body.getPropertyValue('position'), 'relative');
+  assert.equal(body.getPropertyPriority('position'), 'important');
+  assert.equal(body.getPropertyValue('top'), '2px');
+  assert.equal(body.getPropertyValue('left'), '');
+  assert.equal(body.getPropertyValue('width'), '90%');
+  assert.equal(html.getPropertyValue('overflow'), 'clip');
+  assert.equal(html.getPropertyValue('overscroll-behavior'), 'contain');
+  assert.deepEqual(calls.at(-1), { left: 12, top: 900, behavior: 'instant' });
+  const count = calls.length;
+  body.setProperty('top', '7px');
+  releaseSecond(); lock.release();
+  assert.equal(calls.length, count);
+  assert.equal(body.getPropertyValue('top'), '7px', 'duplicate cleanup must not overwrite later styles');
+});
+
+test('sheet lock cleanup does not overwrite a property changed by another interface', async () => {
+  const { createPageScrollLock } = await import('../guide/wiki-layout.ts');
+  const style = fakeStyle();
+  const lock = createPageScrollLock({ body: { style }, documentElement: { style: fakeStyle() } }, { scrollX: 0, scrollY: 0, scrollTo() {} });
+  const release = lock.acquire({});
+  style.setProperty('width', '95%');
+  release();
+  assert.equal(style.getPropertyValue('width'), '95%');
+  assert.equal(style.getPropertyValue('position'), '');
+});

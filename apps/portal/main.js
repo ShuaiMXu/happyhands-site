@@ -1,3 +1,4 @@
+import { ResourceToolPanels } from '../../packages/ui/ResourceToolPanels';
 import { populateGitHubStars } from './github-stars.js';
 import { ResourceFeedControls } from "./ResourceFeedControls";
 import { applySiteMetadata } from "../../packages/ui/site-seo";
@@ -135,7 +136,7 @@ function renderContent() {
   if (content) {
     disposeResourceFeed?.();
     content.innerHTML = portalContent(lang);
-    disposeResourceFeed = setupResourceFeed(content, ResourceFeedControls);
+    disposeResourceFeed = setupResourceFeed(content, ResourceFeedControls, ResourceToolPanels);
   }
 
   // footer

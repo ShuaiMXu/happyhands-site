@@ -32,6 +32,8 @@ import {
   newDraft,
   validateDraft,
   saveDraft,
+  draftContent,
+  reconcileDraft,
   history,
   edit,
   undo,
@@ -229,6 +231,8 @@ function App() {
     projectTrigger.current?.focus();
   }
   const saved = useRef(boot.draft.revision);
+  const baseline = useRef(boot.draft);
+  const liveDraft = useRef(boot.draft);
   const blocked = useRef(false);
   const [mode, setMode] = useState<Mode>(
       boot.draft.designSource?.mode || "light",
@@ -289,6 +293,7 @@ function App() {
   function current(): Draft {
     return { ...draft, styles, revision: saved.current };
   }
+  liveDraft.current = current();
   function guard(action: () => void) {
     try {
       setError("");
@@ -304,17 +309,22 @@ function App() {
       throw Error("项目存在外部修改，请导出当前草稿后重新载入");
     const stored = saveDraft(localStorage, next, saved.current);
     saved.current = stored.revision;
+    baseline.current = stored;
+    liveDraft.current = stored;
     setNotice(`已保存在此浏览器 / 修订 ${stored.revision}`);
     return stored;
   }
   useEffect(() => {
+    if (draftContent(current()) === draftContent(baseline.current)) return;
+    const projectId = draft.id;
     let pending = true;
     const flush = () => {
       if (!pending) return;
       pending = false;
       clearTimeout(timer);
+      if (liveDraft.current.id !== projectId || draftContent(liveDraft.current) === draftContent(baseline.current)) return;
       try {
-        persist();
+        persist(liveDraft.current);
       } catch (e) {
         setError((e as Error).message);
       }
@@ -338,10 +348,29 @@ function App() {
   ]);
   useEffect(() => {
     const listener = (e: StorageEvent) => {
-      if (e.key === `hh-studio:${draft.id}`) {
-        blocked.current = true;
-        setError("另一个窗口修改了这个项目。请导出当前草稿，再重新载入。");
-      }
+      if (e.storageArea !== localStorage || (e.key !== null && e.key !== `hh-studio:${draft.id}`)) return;
+      try {
+        // Read the newest version; queued storage events can refer to older writes.
+        const raw = localStorage.getItem(`hh-studio:${draft.id}`);
+        const remote = raw ? validateDraft(JSON.parse(raw)) : null;
+        const decision = reconcileDraft(baseline.current, liveDraft.current, remote);
+        if (decision === "ignore") return;
+        if (decision === "sync" && remote) {
+          baseline.current = remote;
+          liveDraft.current = remote;
+          saved.current = remote.revision;
+          blocked.current = false;
+          setDraft(remote);
+          setH(history(remote.styles));
+          setPending(null);
+          setConfirmed(false);
+          setError("");
+          setNotice(`已保存在此浏览器 / 修订 ${remote.revision}`);
+          return;
+        }
+      } catch { /* Preserve local input when the external draft cannot be read. */ }
+      blocked.current = true;
+      setError("另一个窗口修改了这个项目。请导出当前草稿，再重新载入。");
     };
     window.addEventListener("storage", listener);
     return () => window.removeEventListener("storage", listener);
@@ -405,6 +434,8 @@ function App() {
     return guard(() => {
       persist();
       const next = read(id);
+      baseline.current = next;
+      liveDraft.current = next;
       saved.current = next.revision;
       blocked.current = false;
       setDraft(next);
@@ -493,6 +524,8 @@ function App() {
             return guard(() => {
               persist();
               const stored = saveDraft(localStorage, next, 0);
+              baseline.current = stored;
+              liveDraft.current = stored;
               saved.current = stored.revision;
               blocked.current = false;
               setDraft(stored);

@@ -1,6 +1,6 @@
 # Shared guide / SEO Wiki layout
 
-Base: `af7cd57dd65573951ee8c243d00545fd55345ae8` (main, PR #52).
+Initial reviewed base: `af7cd57dd65573951ee8c243d00545fd55345ae8` (PR #52). Latest main `24110e9c834738f0c6aabec8f95cc17c71ae144b` (PR #51) was subsequently merged into this branch without conflicts; its three Studio/theme-core files are preserved unchanged.
 Scope: `/guide/`, `/en/guide/`, and the four existing localized AI UI review / AI website design pages. No homepage, resource-preview, URL, metadata, sitemap, robots, or article-copy changes.
 
 ## Implementation
@@ -33,8 +33,9 @@ Scope: `/guide/`, `/en/guide/`, and the four existing localized AI UI review / A
 
 - Six article body strings compared byte-for-byte against base renderers: unchanged.
 - `npm run test:seo`: 19 passed.
-- `npm run test:wiki`: 11 passed.
-- `NODE_OPTIONS=--max-old-space-size=768 npm run typecheck`: passed.
+- `npm run test:wiki`: 11 passed again after latest-main integration.
+- `node --import tsx --test tests/studio-core.test.ts`: 18 passed after integration; all three incoming Studio files exactly match latest main.
+- `NODE_OPTIONS=--max-old-space-size=768 npm run typecheck`: passed before final no-JS fallback patch. Subsequent standalone and latest-main full typecheck reruns were killed with exit 137; do not count them as fresh passes.
 - `npm run ui:audit`: 24 files scanned, no findings (narrow static audit only).
 - `git diff --check`: passed.
 - Six-route scoped production Vite build (existing config/plugins, input limited to Wiki routes, public asset copy disabled): passed. This verifies changed page bundles, not the full site.

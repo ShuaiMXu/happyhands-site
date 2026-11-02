@@ -1,4 +1,3 @@
-import {autoSizeFrame} from '../../packages/ui/frame-sizing';
 import {resourceSections,resourceTools} from "../../packages/ui/resource-navigation";
 import React from "react";
 import { randomizeArchive } from "../../components/archive-order";
@@ -54,7 +53,7 @@ export function resourceFeed(lang) {
           `<button type="button" role="tab" id="feed-tab-${id}" aria-controls="feed-panel-${id}" aria-selected="${i === 0}" tabindex="${i === 0 ? 0 : -1}" data-feed-tab="${id}">${zh ? chinese : english}</button>`,
       )
       .join("")}</div></div>
-    ${resourceTools.map(tool=>`<section class="resource-tool-panel" role="tabpanel" id="feed-panel-${tool.id}" aria-labelledby="feed-tab-${tool.id}" hidden><iframe title="${zh?tool.zh:tool.en}" data-tool-src="${tool.href}?embedded=1"></iframe></section>`).join('')}
+    <div data-feed-tools></div>
     <div data-feed-controls></div>
     <div class="feed-collection" role="tabpanel" id="feed-panel-design-md" aria-labelledby="feed-tab-design-md"><div class="feed-grid">${randomizeArchive(references).map((item) => referenceCard(item)).join("")}</div></div>
     <div class="feed-collection" role="tabpanel" id="feed-panel-systems" aria-labelledby="feed-tab-systems" hidden><div class="feed-grid">${systems.map((id) => `<a class="feed-item" href="/components/?provider=systems&system=${id}"><div class="feed-art feed-system"><img src="/system-covers/${id}.png" alt="" loading="lazy" width="1500" height="938"></div><div class="feed-caption"><h3>${id === "happyhands" ? "HappyHands" : id.charAt(0).toUpperCase() + id.slice(1)}</h3></div></a>`).join("")}</div></div>
@@ -77,7 +76,7 @@ export function syncResourceFeedTheme(root, theme) {
   });
 }
 
-export function setupResourceFeed(root, ResourceFeedControls) {
+export function setupResourceFeed(root, ResourceFeedControls, ResourceToolPanels) {
   syncResourceFeedTheme(
     root,
     document.documentElement.dataset.theme === "dark" ? "dark" : "light",
@@ -102,6 +101,11 @@ export function setupResourceFeed(root, ResourceFeedControls) {
   root
     .querySelectorAll("[data-feed-component]")
     .forEach((frame) => frames.observe(frame));
+  const tools = createRoot(root.querySelector('[data-feed-tools]'));
+  const renderTools = active => tools.render(React.createElement(ResourceToolPanels, {
+    active, lang: root.querySelector('[data-feed-lang]').dataset.feedLang, tabPrefix: 'feed',
+  }));
+  renderTools('design-md');
   const tabs = [...root.querySelectorAll("[data-feed-tab]")];
   let refreshCollection = () => {};
   const activate = (tab) => {
@@ -111,6 +115,7 @@ export function setupResourceFeed(root, ResourceFeedControls) {
       item.setAttribute("aria-selected", String(active));
       item.tabIndex = active ? 0 : -1;
       const panel = root.querySelector(`#feed-panel-${item.dataset.feedTab}`);
+      if (!panel || resourceTools.some(tool => tool.id === item.dataset.feedTab)) return;
       panel.hidden = !active;
       if (!active)
         panel
@@ -119,10 +124,8 @@ export function setupResourceFeed(root, ResourceFeedControls) {
     });
     const tool = resourceTools.find(item=>item.id===tab.dataset.feedTab);
     root.querySelector('[data-feed-controls]').hidden = !!tool;
-    if (tool) {
-      const frame=root.querySelector(`#feed-panel-${tool.id} iframe`);
-      if (!frame.hasAttribute('src')) {const dispose=autoSizeFrame(frame);controller.signal.addEventListener('abort',dispose,{once:true});frame.src=frame.dataset.toolSrc;}
-    } else refreshCollection(tab.dataset.feedTab);
+    renderTools(tab.dataset.feedTab);
+    if (!tool) refreshCollection(tab.dataset.feedTab);
   };
   tabs.forEach((tab, index) => {
     tab.addEventListener("click", () => activate(tab), {
@@ -444,5 +447,6 @@ export function setupResourceFeed(root, ResourceFeedControls) {
     frames.disconnect();
     moreObserver.disconnect();
     controls.unmount();
+    tools.unmount();
   };
 }

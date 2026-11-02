@@ -1,11 +1,9 @@
 import "../../packages/ui/embedded-tool";
 import React,{useEffect,useMemo} from 'react';
 import {createRoot} from 'react-dom/client';
-import '../portal/portal.css';
 import '../../packages/design-tokens/portal.css';
 import '../../packages/ui/icons.css';
 import '../portal/hero-connect.css';
-import '../portal/resource-feed.css';
 import '../../packages/ui/owned-ui.css';
 import './setup.css';
 import {Button,Input,Textarea} from '../../packages/ui';

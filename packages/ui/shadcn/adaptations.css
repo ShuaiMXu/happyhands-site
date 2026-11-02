@@ -17,7 +17,6 @@
 .hh-shadcn[data-slot="card"] {box-shadow:none;border:.5px solid var(--hh-line);}
 @media(prefers-reduced-motion:reduce){.hh-shadcn{animation:none!important;transition:none!important;}}
 .hh-select-field {display:inline-grid;min-width:0;}
-.hh-shadcn[data-slot="accordion-trigger"]:hover {text-decoration:none;}
 .hh-button[aria-busy="true"] {position:relative;}
 .hh-button[aria-busy="true"] .hh-spinner {position:absolute;inset:auto;}
 .hh-catalog-popover {width:min(320px,calc(100vw - 32px));padding:0;z-index:100;}
@@ -37,15 +36,16 @@ html .hh-shadcn:is([data-slot="card"],[data-slot="popover-content"],[data-slot="
 .hh-shadcn[data-slot="command-item"] {border-radius:var(--hh-radius-option);}
 .hh-shadcn[data-slot="command-input"] {border:0;background:transparent;color:inherit;outline:none;box-shadow:none;padding:8px;min-width:0;}
 .hh-shadcn[data-slot="input-group"]:has([data-slot="command-input"]:focus-visible) {outline:2px solid var(--hh-ring);outline-offset:2px;}
-.hh-shadcn[data-slot="accordion-content"][data-state="closed"] {display:none;}
 .theme-preview {--hh-radius-control:var(--radius);--hh-radius-field:var(--radius);--hh-radius-card:var(--radius);--hh-bg:var(--background);--hh-ink:var(--foreground);--hh-bg-raised:var(--card);--hh-bg-sunken:var(--secondary);--hh-bg-hover:var(--accent);--hh-ink-muted:var(--muted-foreground);--hh-primary:var(--primary);--hh-on-primary:var(--primary-foreground);--hh-line:var(--border);--hh-line-strong:var(--input);--hh-ring:var(--ring);--hh-danger:var(--destructive);--hh-font-sans:var(--font-sans);}
 .theme-preview .hh-shadcn[data-slot="button"],.theme-preview .hh-shadcn[data-slot="input"] {border-radius:var(--radius);}
 html .hh-shadcn[data-slot="checkbox"] {width:18px;height:18px;min-width:18px;min-height:18px;padding:0;border-radius:5px;display:inline-flex;flex-shrink:0;}
 html .hh-shadcn[data-slot="switch"] {padding:0;min-height:0;}
-html .hh-shadcn[data-slot="accordion-trigger"] {font-size:14px;min-height:44px;text-align:start;}
 .happyhands-system h1,.happyhands-system h2,.happyhands-system h3,.happyhands-system .system-tagline {font-weight:400;}
 
-/* Normalize default browser heading margins and natural disclosure content size. */
+/* Disclosure contract: geometry, hidden content and typography live together. */
+html .hh-shadcn[data-slot="accordion-trigger"] {font-size:14px;min-height:44px;text-align:start;}
+.hh-shadcn[data-slot="accordion-trigger"]:hover {text-decoration:none;}
+.hh-shadcn[data-slot="accordion-content"][data-state="closed"] {display:none;}
 .hh-shadcn[data-slot="accordion-item"] > h3 { margin:0; font:inherit; }
 .hh-shadcn[data-slot="accordion-content"] > div { height:auto; }
 .hh-shadcn[data-slot="accordion-trigger"] { white-space:normal; align-items:center; }

@@ -248,6 +248,27 @@ export interface StorageLike {
   getItem(key: string): string | null;
   setItem(key: string, value: string): void;
 }
+// Compare persisted content independently of revision and object key order.
+export function draftContent(draft: Draft): string {
+  const canonical = (value: unknown): unknown => {
+    if (Array.isArray(value)) return value.map(canonical);
+    if (value && typeof value === "object") return Object.fromEntries(
+      Object.entries(value).filter(([, v]) => v !== undefined)
+        .sort(([a], [b]) => a.localeCompare(b)).map(([k, v]) => [k, canonical(v)]),
+    );
+    return value;
+  };
+  const { revision: _revision, ...content } = draft;
+  return JSON.stringify(canonical(content));
+}
+
+export function reconcileDraft(base: Draft, local: Draft, remote: Draft | null): "ignore" | "sync" | "conflict" {
+  if (!remote || remote.id !== local.id) return "conflict";
+  if (remote.revision <= base.revision) return "ignore";
+  return draftContent(local) === draftContent(base) || draftContent(local) === draftContent(remote)
+    ? "sync" : "conflict";
+}
+
 export function saveDraft(
   storage: StorageLike,
   draft: Draft,
@@ -259,7 +280,10 @@ export function saveDraft(
     throw Error("项目草稿已被删除，请重新载入或导出备份");
   if (stored && validateDraft(JSON.parse(stored)).revision !== expected)
     throw Error("另一个窗口修改了该项目。请先导出备份，再重新载入，避免覆盖。");
-  const next = validateDraft({ ...draft, revision: expected + 1 });
+  const validated = validateDraft(draft);
+  if (stored && draftContent(validateDraft(JSON.parse(stored))) === draftContent(validated))
+    return validateDraft(JSON.parse(stored));
+  const next = validateDraft({ ...validated, revision: expected + 1 });
   storage.setItem(key, JSON.stringify(next));
   return next;
 }

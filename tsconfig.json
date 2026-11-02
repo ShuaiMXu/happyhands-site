@@ -18,6 +18,7 @@
   },
   "include": [
     "guide",
+    "workflows",
     "apps/studio",
     "apps/setup",
     "systems/happyhands",

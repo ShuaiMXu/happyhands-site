@@ -1,7 +1,13 @@
+import {workflowMetadata,workflowPaths} from "../../workflows/metadata.ts";
 export const siteOrigin = "https://happyhands.cc";
 const core = "https://github.com/ShuaiMXu/happyhands";
 export type SeoLanguage = "zh" | "en";
 export const seoPages = {
+  review:{path:"/ai-ui-review/",file:"ai-ui-review/index.html",zh:workflowMetadata.review.zh,en:workflowMetadata.review.en},
+  reviewEn:{path:"/en/ai-ui-review/",file:"en/ai-ui-review/index.html",zh:workflowMetadata.review.zh,en:workflowMetadata.review.en},
+  design:{path:"/ai-website-design/",file:"ai-website-design/index.html",zh:workflowMetadata.design.zh,en:workflowMetadata.design.en},
+  designEn:{path:"/en/ai-website-design/",file:"en/ai-website-design/index.html",zh:workflowMetadata.design.zh,en:workflowMetadata.design.en},
+
   portal: {path:"/apps/portal/",file:"apps/portal/index.html",zh:["HappyHands | AI 网站审阅、设计系统提取与代码优化","HappyHands 是开源 AI 网站审阅工具，帮助独立开发者发现 UI 与使用体验问题、提取设计系统和组件，并通过本地 Coding Agent 修改代码、对照前后效果。"],en:["HappyHands | AI Website Review and Design System Extraction","Review UI issues, confirm scoped changes, and compare screenshots in a local workbench for products built with coding agents. Original core code is MIT licensed. Local Web Alpha."]},
   components:{path:"/components/",file:"components/index.html",zh:["设计系统、Design.md 与组件库 / HappyHands","探索 HappyHands、Quartz 和 Lime 设计系统，查看完整 Design.md、网站预览与 Cult UI 组件库。第三方资源保留来源与各自许可。"],en:["Design systems, Design.md and components / HappyHands","Explore HappyHands, Quartz and Lime design systems, complete Design.md guidelines, website previews and Cult UI components. Third-party resources retain their sources and licenses."]},
   studio:{path:"/apps/studio/",file:"apps/studio/index.html",zh:["主题工作室 / 配色、字体与设计变量 / HappyHands","在 HappyHands 主题工作室选择预设，调整配色、字体和设计变量，实时预览浅色与深色界面，并导出 CSS、Tailwind 或设计基础审批文件。"],en:["Theme Studio / Colors, typography and design tokens / HappyHands","Choose a theme preset, customize colors, typography and design tokens, preview light and dark interfaces, and export CSS, Tailwind or a Harness Foundation approval file."]},
@@ -34,7 +40,7 @@ export const guideFaq = {
 } as const;
 const esc=(s:string)=>s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]!));
 export function seoData(key:SeoPage,language:SeoLanguage="zh") {
- const page=seoPages[key],lang=key==="guideEn"?"en":key==="guide"?"zh":language;
+ const page=seoPages[key],lang=key.endsWith("En")?"en":["guide","review","design"].includes(key)?"zh":language;
  const [title,description]=page[lang],url=siteOrigin+page.path;
  const graph:Record<string,unknown>[]=[
   {"@type":"Organization","@id":siteOrigin+"/#project",name:"HappyHands",url:siteOrigin,logo:siteOrigin+"/brand/happyhands-logo-ink.png",sameAs:[core,core+"-site"]},
@@ -47,7 +53,8 @@ export function seoData(key:SeoPage,language:SeoLanguage="zh") {
 }
 export function seoHead(key:SeoPage,language:SeoLanguage="zh") {
  const x=seoData(key,language),tags:Record<string,string>={"og:type":"website","og:site_name":"HappyHands","og:title":x.title,"og:description":x.description,"og:url":x.url,"og:image":x.image,"og:image:width":"1200","og:image:height":"630","og:image:alt":"HappyHands / Open-source UI design review","og:locale":x.lang==="zh"?"zh_CN":"en_US","twitter:card":"summary_large_image","twitter:title":x.title,"twitter:description":x.description,"twitter:image":x.image,"twitter:image:alt":"HappyHands / Open-source UI design review"};
- const alternates=key.startsWith("guide")?`<link rel="alternate" hreflang="zh-CN" href="${siteOrigin}/guide/"><link rel="alternate" hreflang="en" href="${siteOrigin}/en/guide/"><link rel="alternate" hreflang="x-default" href="${siteOrigin}/en/guide/">`:"";
+ const alternatePath=key.startsWith("guide")?"/guide/":key.startsWith("review")?workflowPaths.review:key.startsWith("design")?workflowPaths.design:null;
+ const alternates=alternatePath?`<link rel="alternate" hreflang="zh-CN" href="${siteOrigin}${alternatePath}"><link rel="alternate" hreflang="en" href="${siteOrigin}/en${alternatePath}"><link rel="alternate" hreflang="x-default" href="${siteOrigin}/en${alternatePath}">`:"";
  return `<title>${esc(x.title)}</title><meta name="description" content="${esc(x.description)}"><link rel="canonical" href="${x.url}">${Object.entries(tags).map(([k,v])=>`<meta ${k.startsWith("og:")?"property":"name"}="${k}" content="${esc(v)}">`).join("")}${alternates}<script id="site-structured-data" type="application/ld+json">${JSON.stringify(x.graph).replace(/</g,"\\u003c")}</script>`;
 }
 export function enhanceSeoHtml(html:string,key:SeoPage) {

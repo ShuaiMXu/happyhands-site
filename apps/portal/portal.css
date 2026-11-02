@@ -104,3 +104,5 @@ header.hh-site-header.portal-compact-header .hh-site-menu-toggle { display:none;
 header.hh-site-header.portal-compact-header nav { display:flex; position:static; grid-column:auto; grid-row:auto; width:auto; padding:0; }
 header.hh-site-header.portal-compact-header nav a { gap:6px; }
 @media(max-width:540px) { header.hh-site-header.portal-compact-header { gap:8px; } header.hh-site-header.portal-compact-header nav a { font-size:12px; } }
+
+.workflow-links{max-width:960px;margin:48px auto;padding:0 24px 48px;color:var(--hh-ink)}.workflow-links h2{font-size:20px;font-weight:400}.workflow-links p{font-size:14px;color:var(--hh-ink-muted)}.workflow-links a{display:inline-flex;align-items:center;min-height:44px;margin-right:24px;font-size:14px;text-decoration:none}.workflow-links a:focus-visible{outline:2px solid currentColor;outline-offset:4px}

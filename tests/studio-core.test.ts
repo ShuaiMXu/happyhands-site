@@ -72,6 +72,8 @@ import {
   undo,
   redo,
   saveDraft,
+  draftContent,
+  reconcileDraft,
   approve,
   validateFoundation,
 } from "../packages/theme-core/project.ts";
@@ -304,4 +306,34 @@ test("HappyHands profile enforces neutral actions and reports brand drift withou
     ),
   );
   assert.equal(JSON.stringify(changed), snapshot);
+});
+
+
+test("unchanged saves do not write or increment revisions", () => {
+  const map = new Map<string, string>();
+  let writes = 0;
+  const storage = {getItem: (k: string) => map.get(k) ?? null, setItem: (k: string, v: string) => {writes++; map.set(k,v);}};
+  const initial = saveDraft(storage, newDraft("unchanged", "Unchanged"), 0);
+  const opened = structuredClone(initial);
+  assert.equal(draftContent(opened), draftContent(initial));
+  assert.equal(saveDraft(storage, opened, initial.revision).revision, 1);
+  assert.equal(writes, 1);
+  const changed = saveDraft(storage, {...opened, project: "Changed"}, 1);
+  assert.equal(changed.revision, 2);
+  assert.equal(writes, 2);
+  assert.throws(() => saveDraft(storage, {...opened, project: "Other edit"}, 1));
+  assert.equal(JSON.parse(map.get("hh-studio:unchanged")!).project, "Changed");
+});
+
+test("two-window reconciliation synchronizes clean drafts and preserves competing edits", () => {
+  const base = {...newDraft("shared", "Original"), revision: 1};
+  const remote = {...base, project: "Remote", revision: 2};
+  assert.equal(reconcileDraft(base, structuredClone(base), remote), "sync");
+  assert.equal(reconcileDraft(base, {...base, project: "Local"}, remote), "conflict");
+  assert.equal(reconcileDraft(base, {...base, project: "Remote"}, remote), "sync");
+  assert.equal(reconcileDraft(remote, remote, base), "ignore");
+  assert.equal(reconcileDraft(base, base, null), "conflict");
+  assert.equal(draftContent({...base, revision: 99}), draftContent(base));
+  const reordered = Object.fromEntries(Object.entries(base).reverse()) as typeof base;
+  assert.equal(draftContent(reordered), draftContent(base));
 });

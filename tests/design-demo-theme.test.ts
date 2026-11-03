@@ -24,3 +24,18 @@ test('unsafe CSS values and unresolved references use documented defaults',()=>{
  const theme=designDemoTheme('---\ncolors:\n  primary: "red; background:url(https://bad.example)"\ncomponents:\n  button-primary:\n    rounded: "{missing.value}"\ntypography:\n  body-md:\n    fontFamily: "</style><script>alert(1)</script>"\n---\n## Sample');
  assert.equal(theme.accent,'#171717');assert.equal(theme.radius,'8px');assert.equal(theme.font,'system-ui, sans-serif');assert.ok(theme.fallback.includes('accent'));
 });
+test('Manga preview keeps surface and action text readable without rewriting source',()=>{
+ const theme=designDemoTheme(read('designmd-library-manga-instructional-comic'));
+ assert.equal(theme.background,'#FFFFFF');assert.equal(theme.surface,'#000000');
+ assert.equal(theme.onSurface,'#ffffff');assert.equal(theme.onAccent,'#000000');
+ assert.deepEqual(theme.adjustments,['surface text','button text']);
+});
+
+test('all generated themes have readable page, surface and action text',async()=>{
+ const {contrastRatio}=await import('../components/design-demo-theme');
+ const entries=JSON.parse(readFileSync('public/design-archive/index.json','utf8'));
+ for(const entry of entries){
+  const theme=designDemoTheme(read(entry.slug),entry.source?undefined:JSON.parse(read(entry.slug,'design-system.json')));
+  for(const [fg,bg] of [[theme.ink,theme.background],[theme.onSurface,theme.surface],[theme.onAccent,theme.accent]])assert.ok(contrastRatio(fg,bg)>=4.5,entry.slug);
+ }
+});

@@ -1,0 +1,44 @@
+components/ArchiveGallery.tsx
+  s_c3a809bd8a1ec1::t_8a8ccc0ef36590 215
+tests/design-demo-theme.test.ts
+  s_c3a809bd8a1ec1::t_361638167b78ad 1-26
+components/reference-component-preview.ts
+  s_c3a809bd8a1ec1::t_603057a9931b19 21-29,104-111
+  s_c3a809bd8a1ec1::t_3018748cb914e6 155
+docs/audits/design-preview-completeness-2026-11-03.md
+  s_c3a809bd8a1ec1::t_08d7611c7e760e 1-24
+components/ReferenceSpecimen.tsx
+  s_c3a809bd8a1ec1::t_e8998ce07243e2 9-11,58,102,183,228-229,246,252-253,314-315
+components/DesignDocumentPreview.tsx
+  s_c3a809bd8a1ec1::t_8a8ccc0ef36590 7-8,10,23,30
+docs/audits/design-component-coverage-2026-11-03.json
+  s_c3a809bd8a1ec1::t_31789c55558d2b 1-10048
+components/design-demo-theme.ts
+  s_c3a809bd8a1ec1::t_7d9cf592e94760 1-10,12-34,39
+  s_c3a809bd8a1ec1::t_faa3850f1b32b5 11,35-38
+components/DesignComponentDemo.tsx
+  s_c3a809bd8a1ec1::t_d63a960079e2de 12,17,20
+  s_c3a809bd8a1ec1::t_8a8ccc0ef36590 1,24-25,28
+  s_c3a809bd8a1ec1::t_7d9cf592e94760 2-8,10-11,13-16,18-19,21-23,26-27,29
+  s_c3a809bd8a1ec1::t_4902830bd0a2df 9
+components/design-document.css
+  s_c3a809bd8a1ec1::t_e8998ce07243e2 24-28
+tests/reference-specimen.test.tsx
+  s_c3a809bd8a1ec1::t_af1212f2b9b0df 35,99
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "e6014dbaaf03256d8efb7b2b0fd46c705bb8fd67",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

@@ -25,6 +25,6 @@ export function designDocumentComponents(markdown:string):ReferenceComponent[]{
   if(current&&line.trim())current.description+='\n'+line.trim();
  }
  const unique=new Map<string,ReferenceComponent>();
- for(const component of result){const key=component.name.toLowerCase().split(/[^a-z0-9]+/).filter(Boolean).sort().join('');const existing=unique.get(key);if(existing)existing.description+='\n'+component.description;else unique.set(key,component);}
+ for(const component of result){const key=component.name.normalize('NFKC').toLowerCase().split(/[^\p{L}\p{N}]+/u).filter(Boolean).sort().join('') || component.name;const existing=unique.get(key);if(existing)existing.description+='\n'+component.description;else unique.set(key,component);}
  return [...unique.values()];
 }

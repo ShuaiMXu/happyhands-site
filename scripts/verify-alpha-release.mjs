@@ -5,7 +5,7 @@ import {guideFaq} from '../packages/ui/site-seo.ts';
 import {resourceRewritePath} from './resource-preview-plugin.mjs';
 const origin='https://happyhands.cc';
 const builtPage = path => path === 'components' ? 'dist/resource-pages/index.html' : `dist/${path}/index.html`;
-const pages=['apps/portal','systems/happyhands','systems/quartz','systems/lime','apps/studio','components','guide','en/guide','ai-ui-review','en/ai-ui-review','ai-website-design','en/ai-website-design'];
+const pages=['nonprofit-website-design','en/nonprofit-website-design','apps/portal','systems/happyhands','systems/quartz','systems/lime','apps/studio','components','guide','en/guide','ai-ui-review','en/ai-ui-review','ai-website-design','en/ai-website-design'];
 const release=JSON.parse(await readFile('dist/release.json','utf8'));
 const expected=process.env.VERCEL_GIT_COMMIT_SHA||execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim();
 assert.equal(release.revision,expected,'Built revision does not match the expected source');

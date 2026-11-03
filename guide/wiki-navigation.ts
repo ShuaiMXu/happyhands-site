@@ -7,6 +7,7 @@ const pages = [
  {path:'/guide/', zh:'HappyHands 使用指南', en:'The HappyHands guide'},
  {path:'/ai-ui-review/', zh:'AI 界面评审，让每次修改有依据', en:'AI UI review for agent-built websites'},
  {path:'/ai-website-design/', zh:'AI 网站设计，从初稿走向可复核的界面', en:'AI website design, from first build to reviewed UI'},
+ {path:'/nonprofit-website-design/', zh:'公益网站设计评审', en:'Nonprofit website design review'},
 ];
 const localized = (path:string,lang:Language) => `${lang==='en'?'/en':''}${path}`;
 const escape = (text:string) => text.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');

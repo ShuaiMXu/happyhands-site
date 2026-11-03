@@ -21,7 +21,7 @@ for(const lang of ['zh','en']) for(const kind of ['guide','review','design']) {
   assert.ok(html.indexOf('class="wiki-pagination"')<html.indexOf('class="guide-footer"'));
   if(kind==='guide') assert.ok(html.includes('rel="prev" href="/apps/portal/"'));
   const links=html.match(/class="wiki-page-scroll">([\s\S]*?)<\/div>/)[1];
-  assert.equal((links.match(/<a /g)||[]).length,3);
+  assert.equal((links.match(/<a /g)||[]).length,4);
   assert.ok(links.includes(`href="${lang==='en'?'/en':''}/guide/"`));
  });
 }

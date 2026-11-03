@@ -6,6 +6,7 @@ import kageHandler from './api/kage.mjs';
 import { portalContent } from './apps/portal/render-content.js';
 import { heroConnectMarkup } from './apps/portal/connect.js';
 import { seoPages, seoData, enhanceSeoHtml } from './packages/ui/site-seo.ts';
+import { nonprofitContent } from './workflows/nonprofit.ts';
 import { workflowContent } from './workflows/content.ts';
 import { guideContent } from './guide/content.ts';
 import { siteAnalyticsPlugin } from './scripts/site-analytics-plugin.mjs';
@@ -49,6 +50,7 @@ export default defineConfig({
       if(key==='portal')return html.replace('<div id="hero-connect"></div>', `<div id="hero-connect">${heroConnectMarkup('zh')}</div>`).replace('<div id="portal-content"></div>', `<div id="portal-content">${portalContent('zh')}</div>`);
       if(key==='guide'||key==='guideEn')return html.replace('<div id="guide-content"></div>',`<div id="guide-content">${guideContent(key==='guideEn'?'en':'zh')}</div>`);
       if(['review','reviewEn','design','designEn'].includes(key))return html.replace('<div id="workflow-content"></div>',`<div id="workflow-content">${workflowContent(key.startsWith('review')?'review':'design',key.endsWith('En')?'en':'zh')}</div>`);
+      if(key==='nonprofit'||key==='nonprofitEn')return html.replace('<div id="workflow-content"></div>',`<div id="workflow-content">${nonprofitContent(key==='nonprofitEn'?'en':'zh')}</div>`);
       const data=seoData(key);
       return html.replace('<div id="root"></div>',`<div id="root"><noscript><main><h1>${data.title}</h1><p>${data.description}</p><p>交互预览需要启用 JavaScript。<a href="/guide/">阅读使用指南</a> / <a href="/en/guide/">Read the English guide</a></p><nav aria-label="设计资源"><a href="/systems/happyhands/">HappyHands</a> / <a href="/systems/quartz/">Quartz</a> / <a href="/systems/lime/">Lime</a> / <a href="/apps/studio/">主题工作室</a> / <a href="/components/">组件与参考</a></nav></main></noscript></div>`);
     }
@@ -68,6 +70,8 @@ export default defineConfig({
   }],
   build: { rollupOptions: { input: {
     home: resolve('index.html'),
+    'nonprofit-website-design': resolve('nonprofit-website-design/index.html'),
+    'en/nonprofit-website-design': resolve('en/nonprofit-website-design/index.html'),
     'ai-ui-review': resolve('ai-ui-review/index.html'),
     'en/ai-ui-review': resolve('en/ai-ui-review/index.html'),
     'ai-website-design': resolve('ai-website-design/index.html'),

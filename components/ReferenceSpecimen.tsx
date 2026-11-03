@@ -178,10 +178,9 @@ export function ReferenceSpecimen({
           <div className="reference-type-scale">
             {system.typeScale.map((step, i) => (
               <div key={i}>
-                <span>{step.role}</span>
-                <code>{step.size}px</code>
-                <span>{zh?'行高':'Line height'}: {step.lineHeight ?? '—'} / {zh?'字距':'Tracking'}: {step.letterSpacing ?? '—'}</span>
+                <span className="reference-type-role">{step.role}</span>
                 <span
+                  className="reference-type-preview"
                   style={{
                     fontSize: Math.min(
                       Math.max(Number(step.size) || 14, 12),
@@ -191,6 +190,11 @@ export function ReferenceSpecimen({
                 >
                   Aa
                 </span>
+                <div className="reference-type-metrics">
+                  <span>{step.size}px</span>
+                  <span>{zh ? '行高' : 'Line height'}: {step.lineHeight ?? '—'}</span>
+                  <span>{zh ? '字距' : 'Tracking'}: {step.letterSpacing ?? '—'}</span>
+                </div>
               </div>
             ))}
           </div>

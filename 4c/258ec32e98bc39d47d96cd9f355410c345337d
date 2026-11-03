@@ -1,0 +1,33 @@
+components/archive-facets.ts
+  s_c3a809bd8a1ec1::t_a59eabdb3f89d9 4,8,10,127-130
+  s_c3a809bd8a1ec1::t_a64ef1563ba2a1 18,131-135
+  s_c3a809bd8a1ec1::t_e5628274393997 5-7,9,11-13
+scripts/build-archive-facets.mjs
+  s_c3a809bd8a1ec1::t_120a6ed8487a1d 6,22-32,63-68
+  s_c3a809bd8a1ec1::t_e5628274393997 37-38,40-41
+docs/audits/archive-classification-2026-11-03.json
+  s_c3a809bd8a1ec1::t_a45efe83db70b3 1-19
+tests/archive-catalog.test.ts
+  s_c3a809bd8a1ec1::t_5a19ebcdc491d3 107-122
+scripts/archive-facet-overrides.json
+  s_c3a809bd8a1ec1::t_a59eabdb3f89d9 1-74,76-191,193-272,274-380,382-407,409-671,673-1639
+  s_c3a809bd8a1ec1::t_b24c0a2895b2e2 75,192,273,381,408,672
+public/design-archive/index.json
+  s_c3a809bd8a1ec1::t_26d98360fe4831 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "4c258ec32e98bc39d47d96cd9f355410c345337d",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

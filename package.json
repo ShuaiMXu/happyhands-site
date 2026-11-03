@@ -32,7 +32,7 @@
     "test:wiki": "node --import tsx --test tests/wiki-layout.test.mjs tests/wiki-runtime.test.mjs",
     "test:wiki:browser": "node tests/wiki-browser.mjs",
     "test:seo:browser": "node tests/seo-browser.mjs",
-    "test:analytics": "node --import tsx --test tests/site-analytics.test.ts",
+    "test:analytics": "node --import tsx --test tests/site-analytics.test.ts tests/github-stars.test.mjs",
     "test:analytics:browser": "node tests/site-analytics-browser.mjs",
     "check:search": "node scripts/check-search-discovery.mjs",
     "ui:audit": "node scripts/audit-owned-ui.mjs",

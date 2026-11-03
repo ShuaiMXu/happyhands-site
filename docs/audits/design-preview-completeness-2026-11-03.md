@@ -22,3 +22,16 @@ The common showcase covers every reference; that does not mean every custom sour
 - Ten focused tests pass; TypeScript check passes.
 - Browser verification: Swiss desktop save feedback, invalid and valid email input, card favorite, tabs; Mercury desktop and 390px phone dark palette, card and controls, keyboard tab switching. Embedded frames resize with content and viewport.
 - Preview screenshots saved during review. Production publication and merge are not part of this change.
+
+
+## Follow-up: complete preview coverage and image hover
+
+The former 2,509 entries without previews now have rendered examples. All 15,214 legacy component entries render: 165 preserve original HTML and the others use authored, isolated examples. The 806 imported documents additionally expose 4,924 individually declared components. See the refreshed JSON inventory for category counts and the explicit schematic subset; zero missing previews does not imply pixel-exact fidelity or possession of original brand/media assets.
+
+Added dedicated treatments for brand layout, avatars, ratings, loaders, carousels, before/after comparison, tabs, dialogs, diagrams, metrics, chat, palettes, progress, breadcrumbs, icons, media frames, quotations, code and custom compositions. Unknown compositions receive labeled role-based diagrams, not falsely attributed original artwork. Generic interactive samples remain available. Authored comparison sliders support keyboard input. Generated frames resize to their content; imported HTML stays inert and network restricted. Only generated markup runs the owned height/interaction scripts.
+
+Image-only Design.md cards in both homepage and catalog scale to 1.045 on hover or keyboard focus with a 250ms ease-out transition. Video cards are excluded by metadata, even if playback fails. Reduced-motion and coarse-pointer contexts do not animate images. Card layout, captions and image aspect ratios remain unchanged.
+
+Validation: 14 focused tests pass, including every legacy component, every imported declared component, original HTML isolation, missing asset labels and hover exclusions. TypeScript and production build pass. Browser checks covered image hover/focus, video hover without image scaling, homepage focus preview, new document individual buttons, legacy comparison slider keyboard control and 390px mobile layout. Screenshot evidence is retained in the local review output. No merge or production deployment.
+
+Re-run the inventory with `node --import tsx scripts/audit-component-previews.ts --write`.

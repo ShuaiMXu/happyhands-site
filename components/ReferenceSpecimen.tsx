@@ -233,6 +233,7 @@ export function ReferenceSpecimen({
             return (
               <article className="reference-component" key={i}>
                 <h4>{component.name}</h4>
+                {['brand','avatar','icon','media','diagram','bespoke','composition'].includes(componentPreviewKind(component.name)) && !component.html && <p>{zh?'形态示意，专用图形及细节请对照原始页面。':'Form illustration; compare the original page for bespoke artwork and details.'} <a href="#reference-original">{zh?'对照原始页面':'View original page'}</a></p>}
                 {preview && (
                   <HistorySafeFrame
                     data-kind={
@@ -242,7 +243,8 @@ export function ReferenceSpecimen({
                     }
                     title={`${component.name} ${zh ? "规范示例" : "guideline example"}`}
                     srcDoc={preview}
-                    sandbox=""
+                    sandbox={component.html ? "" : "allow-scripts"}
+                    autoHeight={!component.html}
                     tabIndex={component.html ? -1 : 0}
                     loading="lazy"
                     referrerPolicy="no-referrer"

@@ -1,3 +1,4 @@
+import "../packages/ui/resource-image-hover.css";
 import { ResourceCard } from "./ResourcePresentation";
 import React, { useEffect, useState, useRef } from "react";
 import { archiveCover, type ArchiveEntry } from "./archive-catalog";
@@ -50,7 +51,7 @@ export function ArchiveCard({
   return (
     <article
       ref={root}
-      className="archive-card"
+      className={`archive-card${entry.video ? '' : ' archive-card-image-only'}`}
       onPointerEnter={(e) => {
         if (e.pointerType === "mouse") autoPreview();
       }}

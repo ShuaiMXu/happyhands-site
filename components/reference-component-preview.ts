@@ -1,4 +1,5 @@
 import type { ReferenceSystem } from "./ReferenceSpecimen";
+import {extendedComponentKind,extendedComponentBody} from './extended-component-preview';
 export type ReferenceComponent = {
   name: string;
   role: string;
@@ -36,7 +37,7 @@ export function componentPreviewKind(name: string) {
   if (/button|cta|link/i.test(name)) return "button";
   if (/badge|tag|chip|pill/i.test(name)) return "badge";
   if (/card|panel|tile/i.test(name)) return "card";
-  return null;
+  return extendedComponentKind(name) || 'bespoke';
 }
 export function buildComponentPreview(
   component: ReferenceComponent,
@@ -65,7 +66,7 @@ export function buildComponentPreview(
       ) || bg;
   const radius =
     String(system.spacing?.radius?.buttons || "4px").match(
-      /^\d+(?:\.\d+)?px$/,
+      /^\d+(?:\.\d+)?(?:px|rem|em)$/,
     )?.[0] || "4px";
   const rgb = (accent || "#171717").replace("#", "");
   const expanded =
@@ -83,20 +84,23 @@ export function buildComponentPreview(
   const actionText = luminance > 0.179 ? "#171717" : "#ffffff";
   const cardRadius =
     String(system.spacing?.radius?.cards || "4px").match(
-      /^\d+(?:\.\d+)?px$/,
+      /^\d+(?:\.\d+)?(?:px|rem|em)$/,
     )?.[0] || "4px";
   const cardPadding =
     String(system.spacing?.cardPadding || "24px").match(
-      /^\d+(?:\.\d+)?px$/,
+      /^\d+(?:\.\d+)?(?:px|rem|em)$/,
     )?.[0] || "24px";
   const cardBorder = /no border|borderless|zero border/i.test(
     component.description,
   )
     ? "0"
     : ".5px solid currentColor";
+  const family = system.typography?.find(item=>/body|UI/i.test(item.role||''))?.family || system.typography?.[0]?.family || 'system-ui';
+  const safeFamily = /^[\w\s,\x27\x22-]+$/.test(family) ? family : 'system-ui';
   const label = escape(component.name),
     kind = componentPreviewKind(component.name);
   let body = component.html || "";
+  if(!body && kind && !['navigation','divider'].includes(kind))body=extendedComponentBody(kind,component.name,component.role,lang==='zh')||'';
   if (!body) {
     if (!kind) return null;
     const action = escape(t("继续", "Continue"));
@@ -151,6 +155,6 @@ export function buildComponentPreview(
         body = `<section class="layout-example"><h2>${label}</h2><p>${escape(component.role)}</p><div class="card-grid"><article><h3>${t("主要内容", "Primary content")}</h3><div class="placeholder-lines"><i></i><i></i></div></article><article><h3>${t("相关内容", "Related content")}</h3><div class="placeholder-lines"><i></i><i></i></div></article></div></section>`;
     }
   }
-  // Original HTML is inert and network-isolated. Never grant scripts, forms or origin access.
-  return `<!doctype html><html><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; form-action 'none'; base-uri 'none'"><meta name="viewport" content="width=device-width,initial-scale=1"><style>:root{--canvas:${bg};--ink:${fg};--accent:${accent};--surface:${surface}}*{box-sizing:border-box}body{margin:0;min-height:100vh;padding:28px;background:var(--canvas);color:var(--ink);font:14px/1.6 system-ui;display:grid;place-items:center}button{font:inherit;padding:12px 20px;border:0;border-radius:${radius};background:var(--accent);color:${actionText};cursor:pointer}h2{font-size:24px;line-height:1.2;margin:0 0 16px}p{margin:0 0 20px;max-width:42ch}article{background:var(--surface);padding:${cardPadding};border:${cardBorder};border-radius:${cardRadius}}nav{display:flex;align-items:center;gap:20px;flex-wrap:wrap}nav strong{margin-right:auto}form{display:flex;align-items:end;gap:12px;flex-wrap:wrap}label{display:grid;gap:8px}input{font:inherit;max-width:100%;padding:12px;background:transparent;color:var(--ink);border:.5px solid currentColor;border-radius:${radius}}.badge{padding:6px 14px;border:.5px solid currentColor;border-radius:${radius}}section{padding-block:12px}a{color:inherit}button:focus-visible,input:focus-visible{outline:2px solid currentColor;outline-offset:3px}.state-grid,.card-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;width:100%;max-width:760px}.sample{display:flex;flex-direction:column;align-items:flex-start;gap:16px;padding:12px 0}small{display:block;font-size:12px;opacity:.7}button:disabled{opacity:.4}button.secondary{background:transparent;color:var(--ink);border:.5px solid currentColor}.field-stack{display:grid;gap:20px;width:100%;max-width:600px}.field-stack input{width:100%;min-width:0}form label{flex:1;min-width:160px}form input{width:100%}.nav-example,.layout-example,.footer-example{width:100%}.nav-context{padding-top:40px}.placeholder-lines{display:grid;gap:12px;margin-top:24px}.placeholder-lines i{display:block;height:8px;background:var(--ink);opacity:.1}.placeholder-lines i:last-child{width:64%}.card-grid article{min-width:0}.card-grid h2{margin-top:16px}.card-grid p{font-size:14px}.accent{background:var(--accent);color:${actionText}}.hero-example{width:100%;text-align:center;max-width:680px;padding-block:40px}.hero-example p{margin:16px auto 28px}.hero-example h2{font-size:36px}.hero-example form{text-align:left;justify-content:center}.footer-links{display:flex;gap:24px;flex-wrap:wrap;margin-bottom:32px}h2,h3,p{overflow-wrap:anywhere}.footer-example{border-top:.5px solid currentColor;padding-top:32px}@media(max-width:480px){body{padding:20px}.card-grid{grid-template-columns:1fr;gap:16px}.card-grid article{padding:20px}.card-grid h2{font-size:20px}.hero-example h2{font-size:28px}.state-grid{gap:16px}button{padding:10px 14px}nav{gap:12px}.hero-example{padding-block:12px}}</style></head><body ${component.html ? "inert" : ""}>${body}</body></html>`;
+  // Original HTML stays inert. Only generated examples may run authored scripts; no forms or origin access.
+  return `<!doctype html><html><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; ${component.html ? '' : "script-src 'unsafe-inline';"} img-src data:; form-action 'none'; base-uri 'none'"><meta name="viewport" content="width=device-width,initial-scale=1"><style>:root{--canvas:${bg};--ink:${fg};--accent:${accent};--surface:${surface}}*{box-sizing:border-box}body{margin:0;min-height:0;padding:28px;background:var(--canvas);color:var(--ink);font:14px/1.6 ${safeFamily},system-ui,sans-serif;display:grid;place-items:center}button{font:inherit;padding:12px 20px;border:0;border-radius:${radius};background:var(--accent);color:${actionText};cursor:pointer}h2{font-size:24px;line-height:1.2;margin:0 0 16px}p{margin:0 0 20px;max-width:42ch}article{background:var(--surface);padding:${cardPadding};border:${cardBorder};border-radius:${cardRadius}}nav{display:flex;align-items:center;gap:20px;flex-wrap:wrap}nav strong{margin-right:auto}form{display:flex;align-items:end;gap:12px;flex-wrap:wrap}label{display:grid;gap:8px}input{font:inherit;max-width:100%;padding:12px;background:transparent;color:var(--ink);border:.5px solid currentColor;border-radius:${radius}}input[type=range]{padding:0;border:0;border-radius:0;height:44px}.badge{padding:6px 14px;border:.5px solid currentColor;border-radius:${radius}}section{padding-block:12px}a{color:inherit}button:focus-visible,input:focus-visible{outline:2px solid currentColor;outline-offset:3px}.state-grid,.card-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;width:100%;max-width:760px}.sample{display:flex;flex-direction:column;align-items:flex-start;gap:16px;padding:12px 0}small{display:block;font-size:12px;opacity:.7}button:disabled{opacity:.4}button.secondary{background:transparent;color:var(--ink);border:.5px solid currentColor}.field-stack{display:grid;gap:20px;width:100%;max-width:600px}.field-stack input{width:100%;min-width:0}form label{flex:1;min-width:160px}form input{width:100%}.nav-example,.layout-example,.footer-example{width:100%}.nav-context{padding-top:40px}.placeholder-lines{display:grid;gap:12px;margin-top:24px}.placeholder-lines i{display:block;height:8px;background:var(--ink);opacity:.1}.placeholder-lines i:last-child{width:64%}.card-grid article{min-width:0}.card-grid h2{margin-top:16px}.card-grid p{font-size:14px}.accent{background:var(--accent);color:${actionText}}.hero-example{width:100%;text-align:center;max-width:680px;padding-block:40px}.hero-example p{margin:16px auto 28px}.hero-example h2{font-size:36px}.hero-example form{text-align:left;justify-content:center}.footer-links{display:flex;gap:24px;flex-wrap:wrap;margin-bottom:32px}h2,h3,p{overflow-wrap:anywhere}.footer-example{border-top:.5px solid currentColor;padding-top:32px}@media(max-width:480px){body{padding:20px}.card-grid{grid-template-columns:1fr;gap:16px}.card-grid article{padding:20px}.card-grid h2{font-size:20px}.hero-example h2{font-size:28px}.state-grid{gap:16px}button{padding:10px 14px}nav{gap:12px}.hero-example{padding-block:12px}}</style></head><body ${component.html ? "inert" : ""}>${body}${component.html ? '' : `<script>new ResizeObserver(()=>parent.postMessage({type:'hh:component-height',height:Math.ceil(document.body.getBoundingClientRect().height)},'*')).observe(document.body);</script>`}</body></html>`;
 }

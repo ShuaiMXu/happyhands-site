@@ -6,6 +6,7 @@ import {parseDesignDocument} from './designmd-document';
 import './design-document.css';
 import {DesignComponentDemo} from './DesignComponentDemo';
 import type {ReferenceSystem} from './ReferenceSpecimen';
+import {DesignDeclaredComponents} from './DesignDeclaredComponents';
 
 export function DesignDocumentPreview({slug,lang,system,supplement=false}:{slug:string;lang:string;system?:ReferenceSystem;supplement?:boolean}){
  const zh=lang==='zh';
@@ -27,5 +28,5 @@ export function DesignDocumentPreview({slug,lang,system,supplement=false}:{slug:
   <div className="design-document-body"><Markdown remarkPlugins={[remarkGfm]} skipHtml components={{h1:heading,h2:heading,h3:({children})=><h4>{children}</h4>,table:({children})=><div className="design-document-table" tabIndex={0}><table>{children}</table></div>,img:({alt})=><span>{alt}</span>,a:({href,children})=><a href={href} target="_blank" rel="noopener noreferrer">{children}</a>}}>{doc.body}</Markdown></div>
   {doc.frontmatter&&<details><summary>{zh?'原始结构化参数':'Original structured parameters'}</summary><pre>{doc.frontmatter}</pre></details>}
  </section>;
- return <><DesignComponentDemo markdown={text} system={system} lang={lang}/>{supplement?<details className="design-document"><summary>{zh?'完整 Design.md 原文':'Complete Design.md reference'}</summary>{content}</details>:content}</>;
+ return <><DesignComponentDemo markdown={text} system={system} lang={lang}/>{!supplement&&<DesignDeclaredComponents markdown={text} lang={lang}/ >}{supplement?<details className="design-document"><summary>{zh?'完整 Design.md 原文':'Complete Design.md reference'}</summary>{content}</details>:content}</>;
 }

@@ -163,7 +163,7 @@ export function ArchiveGallery({ lang }: { lang: string }) {
             </a>}
           </ResourceDetailHeader>
           <ResourceDetailContent key={selected.slug} lang={lang}>
-            <div className="resource-detail-preview">
+            <div className="resource-detail-preview" id="reference-original">
               {selected.video ? <video
                 key={`${selected.slug}:${videoRetry}`}
                 onError={() => setVideoFailed(true)}

@@ -37,11 +37,19 @@ test('non-Latin component names remain separate declarations',()=>{
  const components=designDocumentComponents('## Components\n- **主要按钮:** 保存\n- **输入框:** 录入\n- **内容卡片:** 展示');
  assert.deepEqual(components.map(c=>c.name),['主要按钮','输入框','内容卡片']);
 });
-test('authored selects share one inset chevron and reserve its space',async()=>{
+test('authored selects share the isolated Radix runtime and constrained geometry',async()=>{
  const {buildDesignDemo}=await import('../components/DesignComponentDemo');
  const html=buildDesignDemo('',undefined,true);
- assert.match(html,/class="preview-select"/);assert.match(html,/padding:10px 44px 10px 12px/);
- assert.match(html,/inset-inline-end:14px/);assert.match(html,/max-width:320px/);
+ assert.match(html,/class="preview-select"/);assert.match(html,/preview-select-trigger/);
+ assert.match(html,/inset-inline-end:12px/);assert.match(html,/max-width:320px/);
  const individual=buildComponentPreview({name:'Dropdown',role:'Choose a project',description:''},{},'en')!;
  assert.match(individual,/class="preview-select"/);assert.match(individual,/aria-label="Dropdown"/);
+});
+
+test('select runtime is excluded from original HTML and non-select standalone examples',()=>{
+ const original=buildComponentPreview({name:'Source dropdown',role:'',description:'',html:'<select><option>Original</option></select>'},{},'en')!;
+ assert.ok(!original.includes('preview-select-trigger'));
+ assert.ok(!original.includes('script-src'));
+ const button=buildComponentPreview({name:'Button',role:'',description:''},{},'en')!;
+ assert.ok(!button.includes('createRoot'));
 });

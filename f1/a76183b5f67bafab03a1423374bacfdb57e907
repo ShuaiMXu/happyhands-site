@@ -1,0 +1,34 @@
+components/reference-component-preview.ts
+  s_c3a809bd8a1ec1::t_defcf070510d4c 149
+  s_c3a809bd8a1ec1::t_cb8f8c9e78aad8 1
+components/DesignComponentDemo.tsx
+  s_c3a809bd8a1ec1::t_defcf070510d4c 1,16,20-21
+components/preview-controls.ts
+  s_c3a809bd8a1ec1::t_0186c7b07748ed 1-3,5-19,21
+components/preview-select-runtime.tsx
+  s_c3a809bd8a1ec1::t_ddda752373b62a 1-39
+docs/audits/select-states-2026-11-03.md
+  s_c3a809bd8a1ec1::t_9dc0ceedd7ec25 1-25
+scripts/build-component-runtime.mjs
+  s_c3a809bd8a1ec1::t_d28d7ada799d6b 6-9
+tests/component-completeness.test.ts
+  s_c3a809bd8a1ec1::t_edc685590ad617 40,43-44,48-55
+components/preview-select-bundle.json
+  s_c3a809bd8a1ec1::t_5825e58341aeb6 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "f1a76183b5f67bafab03a1423374bacfdb57e907",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

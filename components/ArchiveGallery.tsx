@@ -12,6 +12,7 @@ import "./archive-gallery.css";
 import { ArchiveFilter } from "./ArchiveFilter";
 import { ResourceToolbar } from "./ResourceToolbar";
 import { ArchiveCard } from "./ArchiveCard";
+import {DesignDocumentPreview} from './DesignDocumentPreview';
 import {
   archiveCover,
   archiveTypes,
@@ -176,7 +177,7 @@ export function ArchiveGallery({ lang }: { lang: string }) {
                     ? `${selected.name} 整页预览`
                     : `${selected.name} full-page preview`
                 }
-              /> : archiveCover(selected, true) ? <img src={archiveCover(selected, true)!} alt={selected.name} style={{width:'100%',height:'auto',display:'block'}} /> : <p>{zh ? "此参考暂无封面，完整文档可在资料与下载中查看。" : "No cover is available. Read the complete document in Files & downloads."}</p>}
+              /> : archiveCover(selected, true) ? <img src={archiveCover(selected, true)!} alt={selected.name} style={{width:'100%',height:'auto',maxHeight:420,objectFit:'contain',display:'block'}} /> : <p>{zh ? "此参考暂无封面，完整文档可在资料与下载中查看。" : "No cover is available. Read the complete document in Files & downloads."}</p>}
               {videoFailed && (
                 <div role="alert" className="archive-detail-error">
                   <p>
@@ -212,6 +213,7 @@ export function ArchiveGallery({ lang }: { lang: string }) {
                 </div>
               )}
               {system && <ReferenceSpecimen system={system} lang={lang} />}
+              {selected.source === 'designmd.app' && <DesignDocumentPreview key={selected.slug} slug={selected.slug} lang={lang}/>}
             </div>
             <ResourceExport
               key={selected.slug}

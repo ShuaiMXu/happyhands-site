@@ -166,6 +166,8 @@ export function setupResourceFeed(root, ResourceFeedControls, ResourceToolPanels
   });
   const registerCards = (cards) =>
     cards.forEach((card) => {
+      // Static references use CSS image inspection, never a placeholder video.
+      if (!card.dataset.preview) return;
       observer.observe(card);
       const start = () => {
         stop();

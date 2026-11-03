@@ -21,3 +21,8 @@
 .design-document pre { overflow:auto; padding:16px; background:var(--hh-bg-raised); border-radius:12px; font-size:12px; }
 .design-document details { margin-top:24px; }
 .design-document summary { min-height:44px; cursor:pointer; padding:12px 0; }
+.design-live-demo { margin:32px 0; min-width:0; }
+.design-live-demo > h3 { font:400 20px/1.4 var(--hh-font-sans); margin:0 0 12px; }
+.design-live-demo > p,.design-live-demo details { font:400 14px/1.6 var(--hh-font-sans); color:var(--hh-ink-muted); }
+.design-live-demo summary { cursor:pointer; min-height:44px; padding:12px 0; }
+.design-live-demo details p { overflow-wrap:anywhere; }

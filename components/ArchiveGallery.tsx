@@ -212,8 +212,8 @@ export function ArchiveGallery({ lang }: { lang: string }) {
                   </Button>
                 </div>
               )}
+              {(selected.source === 'designmd.app' || system) && <DesignDocumentPreview key={selected.slug} slug={selected.slug} lang={lang} system={system||undefined} supplement={selected.source !== 'designmd.app'}/>}
               {system && <ReferenceSpecimen system={system} lang={lang} />}
-              {selected.source === 'designmd.app' && <DesignDocumentPreview key={selected.slug} slug={selected.slug} lang={lang}/>}
             </div>
             <ResourceExport
               key={selected.slug}

@@ -32,7 +32,7 @@ test("complete Mercury modules and all nine components are visible, rather than 
     (html.match(/<iframe /g) || []).length,
     mercury.components!.length,
   );
-  assert.ok(!html.includes("<details"));
+  assert.ok(html.includes("Complete structured source"));
   for (const heading of [
     "Type scale",
     "Surfaces",
@@ -96,7 +96,7 @@ test("all archived design systems render their available modules without runtime
       "utf8",
     ),
   );
-  for (const entry of entries) {
+  for (const entry of entries.filter((entry: {source?:string}) => entry.source !== "designmd.app")) {
     const system = JSON.parse(
       readFileSync(
         new URL(

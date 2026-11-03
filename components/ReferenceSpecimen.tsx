@@ -6,6 +6,9 @@ import {
   type ReferenceComponent,
 } from "./reference-component-preview";
 export type ReferenceSystem = {
+  description?: string;
+  northStar?: string;
+  similar?: unknown;
   theme?: string;
   typeScale?: {
     role: string;
@@ -52,6 +55,7 @@ export function ReferenceSpecimen({
   const zh = lang === "zh";
   return (
     <div className="reference-specimen">
+      {system.description && <section><h3>{zh?'设计说明':'Design overview'}</h3>{system.northStar&&<p>{system.northStar}</p>}<p>{system.description}</p></section>}
       <nav
         className="reference-section-nav"
         aria-label={zh ? "规范目录" : "Guideline sections"}
@@ -95,6 +99,7 @@ export function ReferenceSpecimen({
           {system.typography.map((f, i) => (
             <div className="reference-font" key={i}>
               <strong>{f.family}</strong>
+              {f.role && <p>{f.role}</p>}
               <dl>
                 <div>
                   <dt>{zh ? "字重" : "Weight"}</dt>
@@ -175,6 +180,7 @@ export function ReferenceSpecimen({
               <div key={i}>
                 <span>{step.role}</span>
                 <code>{step.size}px</code>
+                <span>{zh?'行高':'Line height'}: {step.lineHeight ?? '—'} / {zh?'字距':'Tracking'}: {step.letterSpacing ?? '—'}</span>
                 <span
                   style={{
                     fontSize: Math.min(
@@ -219,8 +225,8 @@ export function ReferenceSpecimen({
           </h3>
           <p>
             {zh
-              ? "依据规范重建的静态示例，包含补充状态与示例内容"
-              : "Static guideline reconstructions with illustrative states and content"}
+              ? "依据规范重建的示例，包含补充状态与示例内容；原始 HTML 保持静态"
+              : "Guideline reconstructions with illustrative states and content; source HTML stays static"}
           </p>
           {system.components.map((component, i) => {
             const preview = buildComponentPreview(component, system, lang);
@@ -237,12 +243,14 @@ export function ReferenceSpecimen({
                     title={`${component.name} ${zh ? "规范示例" : "guideline example"}`}
                     srcDoc={preview}
                     sandbox=""
-                    tabIndex={-1}
+                    tabIndex={component.html ? -1 : 0}
                     loading="lazy"
                     referrerPolicy="no-referrer"
                   />
                 )}
                 <p>{component.description}</p>
+                <p>{component.role}</p>
+                {!preview && <p>{zh?'此组件尚无可靠的独立还原，保留完整用途与规范；上方可操作示例用于查看通用控件效果。':'No reliable standalone reconstruction is available. Full specifications are retained; the interactive examples above demonstrate common controls.'}</p>}
               </article>
             );
           })}
@@ -303,6 +311,8 @@ export function ReferenceSpecimen({
           ))}
         </section>
       ) : null}
+      {!!system.similar && <section><h3>{zh?'相关参考':'Related references'}</h3><pre className="reference-source-text">{typeof system.similar==='string'?system.similar:JSON.stringify(system.similar,null,2)}</pre></section>}
+      <details><summary>{zh?'完整结构化资料':'Complete structured source'}</summary><pre className="reference-source-text" style={{overflow:'auto',maxHeight:600}}>{JSON.stringify(system,null,2)}</pre></details>
     </div>
   );
 }

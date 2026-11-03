@@ -114,6 +114,8 @@ export const archiveStyles = [
   ],
 ] as const;
 export const archiveTypeRules = [
+  ["style-template", "风格模板", "Style templates", "(?!)"],
+  ["brand-reference", "品牌参考", "Brand references", "(?!)"],
   [
     "portfolio",
     "个人作品集",

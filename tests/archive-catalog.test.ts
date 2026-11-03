@@ -19,11 +19,11 @@ test("industry categories cover every archive entry exactly once", () => {
   );
   assert.equal(
     counts.reduce((a, b) => a + b, 0),
-    1342,
+    2148,
   );
   assert.equal(
     entries.filter((entry) => categoryOf(entry) === "other").length,
-    145,
+    951,
   );
 });
 test("search category and theme work together and empty states recover", () => {
@@ -34,7 +34,7 @@ test("search category and theme work together and empty states recover", () => {
     filterArchive(entries, "mercury.com", "light", "fintech").length,
     0,
   );
-  assert.equal(filterArchive(entries, "", "", "").length, 1342);
+  assert.equal(filterArchive(entries, "", "", "").length, 2148);
   assert.ok(
     filterArchive(entries, "金融", "", "").every(
       (entry) => entry.industry === "fintech",
@@ -90,4 +90,17 @@ test("gallery cards expose one detail link and no manual playback control", asyn
   assert.equal((previewing.match(/<video\b/g) || []).length, 1);
   assert.match(previewing, /\bmuted\b/);
   assert.doesNotMatch(previewing, /<button\b|\bcontrols=/);
+});
+
+test("document-only references never attempt video playback and keep missing-cover cards", async () => {
+  const { createElement } = await import("react");
+  const { renderToStaticMarkup } = await import("react-dom/server");
+  const { ArchiveCard } = await import("../components/ArchiveCard");
+  for (const entry of [entries.find(e=>e.source === 'designmd.app' && e.cover)!, entries.find(e=>e.source === 'designmd.app' && !e.cover)!]) {
+    const html = renderToStaticMarkup(createElement(ArchiveCard, {entry,active:true,onPreview:()=>{},onOpen:()=>{},lang:'en'}));
+    assert.doesNotMatch(html, /<video\b/);
+    assert.equal((html.match(/<a\b/g)||[]).length,1);
+    assert.match(html, new RegExp(entry.slug));
+    if (!entry.cover) assert.match(html, /No cover available/);
+  }
 });

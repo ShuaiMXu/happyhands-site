@@ -1,3 +1,4 @@
+import { archiveCover } from '../../components/archive-catalog';
 import {resourceSections,resourceTools} from "../../packages/ui/resource-navigation";
 import React from "react";
 import { randomizeArchive } from "../../components/archive-order";
@@ -39,8 +40,10 @@ const components = [
   ["halo-input", "Halo Input"],
   ["halo-select", "Halo Select"],
 ];
-const referenceCard = (item) =>
-  `<a class="feed-item feed-reference" href="/components/?provider=design-md&design=${escape(item.slug)}" data-preview="${escape(item.video)}"><div class="feed-art"><img src="/design-archive/${escape(item.slug)}/thumbnail.jpg" alt="" loading="lazy" width="640" height="400"></div><div class="feed-caption"><h3>${escape(item.name)}</h3><span>${escape(new URL(item.site_url).hostname)}</span></div></a>`;
+const referenceCard = (item) => {
+  const cover = archiveCover(item);
+  return `<a class="feed-item feed-reference" href="/components/?provider=design-md&design=${escape(item.slug)}"${item.video ? ` data-preview="${escape(item.video)}"` : ''}><div class="feed-art">${cover ? `<img src="${escape(cover)}" alt="" loading="lazy" width="640" height="400">` : `<span>${escape(item.name)}</span>`}</div><div class="feed-caption"><h3>${escape(item.name)}</h3><span>${escape(new URL(item.site_url).hostname)}</span></div></a>`;
+};
 const componentCard = ([id, title], lang) =>
   `<a class="feed-item" href="/components/?provider=cult-ui&component=${id}"><div class="feed-art feed-component" aria-hidden="true"><iframe title="${escape(title)} preview" data-feed-component data-src="/components/preview/?component=${id}&theme=light&lang=${lang}&motion=off" loading="lazy" tabindex="-1" inert sandbox="allow-scripts" referrerpolicy="no-referrer"></iframe></div><div class="feed-caption"><h3>${escape(title)}</h3><span>Cult UI</span></div></a>`;
 export function resourceFeed(lang) {

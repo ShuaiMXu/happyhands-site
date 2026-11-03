@@ -19,7 +19,7 @@ const positiveMatch = (text, pattern) =>
   });
 const entries = JSON.parse(await readFile(new URL("index.json", root), "utf8"));
 for (const entry of entries) {
-  const system = JSON.parse(
+  const system = entry.source === "designmd.app" ? {description: entry.north_star} : JSON.parse(
     await readFile(new URL(`${entry.slug}/design-system.json`, root), "utf8"),
   );
   const styleText = [
@@ -37,6 +37,7 @@ for (const entry of entries) {
     .map(([id]) => id);
   entry.types = [
     ...new Set([
+      ...(entry.sourceKind ? [entry.sourceKind === "library" ? "style-template" : "brand-reference"] : []),
       ...(entry.industry && entry.industry !== "other" ? [entry.industry] : []),
       ...archiveTypeRules
         .filter(([, , , pattern]) => new RegExp(pattern, "i").test(purposeText))

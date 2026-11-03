@@ -1,6 +1,6 @@
 import { ResourceCard } from "./ResourcePresentation";
 import React, { useEffect, useState, useRef } from "react";
-import type { ArchiveEntry } from "./archive-catalog";
+import { archiveCover, type ArchiveEntry } from "./archive-catalog";
 export function ArchiveCard({
   entry,
   active,
@@ -44,7 +44,7 @@ export function ArchiveCard({
     };
   }, [active, onPreview]);
   const autoPreview = () => {
-    if (!matchMedia("(prefers-reduced-motion: reduce)").matches)
+    if (entry.video && !matchMedia("(prefers-reduced-motion: reduce)").matches)
       onPreview(entry.slug);
   };
   return (
@@ -82,14 +82,14 @@ export function ArchiveCard({
         }}
         media={
           <>
-            <img
+            {archiveCover(entry) ? <img
               loading="lazy"
               width="480"
               height="300"
-              src={`/design-archive/${entry.slug}/thumbnail.jpg`}
+              src={archiveCover(entry)!}
               alt=""
-            />
-            {active && !failed && (
+            /> : <span>{zh ? "暂无封面" : "No cover available"}</span>}
+            {entry.video && active && !failed && (
               <video
                 key={entry.slug}
                 autoPlay

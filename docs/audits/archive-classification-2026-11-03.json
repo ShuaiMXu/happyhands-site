@@ -1,0 +1,19 @@
+{
+  "entries": 2148,
+  "before": {
+    "types": 113,
+    "styles": 532
+  },
+  "after": {
+    "types": 0,
+    "styles": 0
+  },
+  "reviewedOverrides": 200,
+  "preserved": "All non-facet fields and source documents unchanged",
+  "checks": [
+    "catalog and archive tests (CSS import loader)",
+    "TypeScript noEmit",
+    "deterministic regeneration",
+    "browser style selection"
+  ]
+}

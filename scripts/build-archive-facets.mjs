@@ -3,6 +3,7 @@ import {
   archiveStyles,
   archiveTypeRules,
 } from "../components/archive-facets.ts";
+import { archiveCategories } from "../components/archive-catalog.ts";
 const root = new URL("../public/design-archive/", import.meta.url);
 const positiveMatch = (text, pattern) =>
   [...text.matchAll(new RegExp(pattern, "ig"))].some((match) => {
@@ -18,11 +19,26 @@ const positiveMatch = (text, pattern) =>
     );
   });
 const entries = JSON.parse(await readFile(new URL("index.json", root), "utf8"));
+const overrides = JSON.parse(await readFile(new URL("archive-facet-overrides.json", import.meta.url), "utf8"));
+const validStyles = new Set(archiveStyles.map(([id]) => id));
+const validTypes = new Set([...archiveCategories, ...archiveTypeRules].map(([id]) => id));
+for (const [slug, review] of Object.entries(overrides)) {
+  if (!entries.some((entry) => entry.slug === slug)) throw new Error(`Unknown reviewed archive: ${slug}`);
+  for (const [field, valid] of [["styles", validStyles], ["types", validTypes]]) {
+    for (const id of review[field] ?? []) {
+      if (!valid.has(id) || id === "other") throw new Error(`Invalid ${field} classification: ${slug}/${id}`);
+    }
+  }
+}
 for (const entry of entries) {
   const system = entry.source === "designmd.app" ? {description: entry.north_star} : JSON.parse(
     await readFile(new URL(`${entry.slug}/design-system.json`, root), "utf8"),
   );
+  const document = entry.source === "designmd.app" ? await readFile(new URL(`${entry.slug}/design.md`, root), "utf8") : "";
+  const overview = document.match(/## Overview\s*\n([\s\S]*?)(?=\n## |$)/i)?.[1] || "";
   const styleText = [
+    entry.name,
+    overview,
     system.description,
     system.northStar,
     entry.north_star,
@@ -44,6 +60,12 @@ for (const entry of entries) {
         .map(([id]) => id),
     ]),
   ];
+  const review = overrides[entry.slug];
+  // Reviewed classifications survive regeneration; unreviewed additions still
+  // remain unclassified when no evidence matches, rather than using a fallback.
+  for (const field of ["styles", "types"]) {
+    if (review?.[field]) entry[field] = [...new Set([...entry[field], ...review[field]])];
+  }
 }
 await writeFile(new URL("index.json", root), JSON.stringify(entries) + "\n");
 console.log(

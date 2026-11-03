@@ -104,3 +104,19 @@ test("document-only references never attempt video playback and keep missing-cov
     if (!entry.cover) assert.match(html, /No cover available/);
   }
 });
+
+test("current archive has meaningful type and style coverage", () => {
+  for (const entry of entries) {
+    assert.ok(entry.types?.length, `${entry.slug}: missing type`);
+    assert.ok(entry.styles?.length, `${entry.slug}: missing style`);
+    assert.ok(!entry.types.includes("other"), `${entry.slug}: generic fallback`);
+  }
+});
+
+test("reviewed purposes and newly supported styles are searchable", () => {
+  for (const [slug, type] of [["mono-859f6be7", "hardware"], ["arva-15846be3", "agriculture"], ["drepute-523d3e7b", "launch"]]) {
+    assert.ok(filterArchive(entries, "", "", "", "", type).some(e => e.slug === slug));
+  }
+  assert.ok(filterArchive(entries, "", "", "", "maximal").some(e => e.slug === "designmd-library-illuminated-manuscript"));
+  assert.ok(!entries.find(e => e.slug === "ditto-2db41cd9")?.styles?.includes("glass"), "negated glassmorphism is not a style");
+});

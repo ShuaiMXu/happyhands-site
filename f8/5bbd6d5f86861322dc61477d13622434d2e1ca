@@ -1,0 +1,28 @@
+components/ArchiveGallery.tsx
+  s_c3a809bd8a1ec1::t_81fc220db34d0a 15,216
+  s_c3a809bd8a1ec1::t_d310f3a2518f31 180
+components/designmd-document.ts
+  s_c3a809bd8a1ec1::t_81fc220db34d0a 1-22
+tests/designmd-document.test.ts
+  s_c3a809bd8a1ec1::t_ce189be0220c0f 1-22
+components/design-document.css
+  s_c3a809bd8a1ec1::t_81fc220db34d0a 1-23
+components/DesignDocumentPreview.tsx
+  s_c3a809bd8a1ec1::t_81fc220db34d0a 1-28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "f85bbd6d5f86861322dc61477d13622434d2e1ca",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

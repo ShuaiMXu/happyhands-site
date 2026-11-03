@@ -177,3 +177,5 @@ header.hh-site-header .hh-site-menu-toggle {
     padding: 8px;
   }
 }
+
+header.hh-site-header.hh-site-header-compact { grid-template-columns:minmax(0,1fr) auto; }

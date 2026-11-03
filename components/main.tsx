@@ -1,6 +1,6 @@
 import { HistorySafeFrame } from "../packages/ui/HistorySafeFrame";
 import {ResourceToolPanels} from "../packages/ui/ResourceToolPanels";
-import {resourceSections,resourceTools} from "../packages/ui/resource-navigation";
+import {ResourceNavigation} from "../packages/ui/ResourceNavigation";
 import "../packages/ui/resource-navigation.css";
 import { Textarea } from "../packages/ui";
 import { Input } from "../packages/ui";
@@ -191,37 +191,16 @@ function App() {
       <a className="catalog-skip" href="#catalog-main">
         {t("跳到内容", "Skip to content")}
       </a>
-      <SiteHeader
+      <SiteHeader navigation={false}
         lang={lang}
         dark={dark}
         onLanguage={toggleLanguage}
         onTheme={toggleTheme}
         active="/apps/portal/#explore"
       />
-      <nav
-        className="hh-resource-navigation catalog-resource-navigation"
-        aria-label={t("设计资源分类", "Design resource sections")}
-      >
-        <div className="hh-resource-group">
-        {[...resourceSections,...resourceTools].map(({id,zh,en}) => (
-          <a
-            key={id}
-            href={`?provider=${id}`}
-            aria-current={provider === id ? "page" : undefined}
-            onClick={(e) => {
-              if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
-              e.preventDefault();
-              setProvider(id);
-              setSelected("");
-              history.pushState(null, "", `?provider=${id}`);
-            }}
-          >
-            {lang === "zh" ? zh : en}
-          </a>
-        ))}
-        </div>
-
-      </nav>
+      <ResourceNavigation active={provider} lang={lang} onSelect={id=>{
+        setProvider(id);setSelected("");history.pushState(null,"",`?provider=${id}`);
+      }}/>
       <ResourceToolPanels active={provider} lang={lang}/>
       {provider === "studio" || provider === "setup" ? null : provider === "systems" ? (
         <SystemLibrary lang={lang} />

@@ -29,6 +29,8 @@
     "lime:sync": "node scripts/sync-design-catalog.mjs lime",
     "test:lime:browser": "node tests/lime-browser.mjs",
     "test:seo": "node --import tsx --test tests/site-seo.test.mjs tests/resource-seo.test.mjs tests/legacy-redirects.test.mjs tests/keyword-workflows.test.mjs",
+    "test:wiki": "node --import tsx --test tests/wiki-layout.test.mjs tests/wiki-runtime.test.mjs",
+    "test:wiki:browser": "node tests/wiki-browser.mjs",
     "test:seo:browser": "node tests/seo-browser.mjs",
     "test:analytics": "node --import tsx --test tests/site-analytics.test.ts",
     "test:analytics:browser": "node tests/site-analytics-browser.mjs",

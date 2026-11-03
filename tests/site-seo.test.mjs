@@ -120,3 +120,29 @@ test('metadata reconciliation preserves product identity and replaces stale grap
  }
  assert.equal(seoData('portal').title,'HappyHands | AI 网站审阅、设计系统提取与代码优化');
 });
+
+// Importing the checker must not run a live network check during unit tests.
+import {assertSearchContent} from '../scripts/check-search-discovery.mjs';
+import {workflowContent} from '../workflows/content.ts';
+test('production discovery checks the current resource homepage, not removed setup copy',()=>{
+ const body=portalContent('zh'),url=origin+'/apps/portal/';
+ assert.ok(!body.includes('pnpm workbench'));assert.ok(!body.includes('常见问题'));
+ assert.doesNotThrow(()=>assertSearchContent(url,`<body>${body}</body>`));
+ assert.throws(()=>assertSearchContent(url,'<body><div id="app"></div></body>'),/resource feed/);
+ assert.throws(()=>assertSearchContent(url,`<head>${body}</head><body></body>`),/resource feed/);
+ assert.throws(()=>assertSearchContent(url,`<body><script>${body}</script></body>`),/resource feed/);
+ assert.throws(()=>assertSearchContent(url,`<body>${body.replaceAll('href="/ai-ui-review/"','href="#"')}</body>`),/workflow link/);
+});
+test('production discovery requires real prerendered guide and workflow content in both languages',()=>{
+ for(const lang of ['zh','en']){
+  const prefix=lang==='en'?'/en':'';
+  assert.doesNotThrow(()=>assertSearchContent(origin+prefix+'/guide/',`<body>${guideContent(lang)}</body>`));
+  assert.throws(()=>assertSearchContent(origin+prefix+'/guide/','<body><h1>Guide</h1></body>'),/setup guide/);
+  for(const [kind,path] of [['review','ai-ui-review'],['design','ai-website-design']]){
+   const url=origin+prefix+'/'+path+'/',body=workflowContent(kind,lang);
+   assert.doesNotThrow(()=>assertSearchContent(url,`<body>${body}</body>`));
+   assert.throws(()=>assertSearchContent(url,'<body><h1>Workflow</h1></body>'),/workflow content/);
+   assert.throws(()=>assertSearchContent(url,`<body><script>${body}</script></body>`),/workflow heading/);
+  }
+ }
+});

@@ -13,3 +13,7 @@ function applyTheme(){const theme=readTheme();document.documentElement.dataset.t
 button?.addEventListener("click",()=>{savePreference("hh-theme",readTheme()==="dark"?"light":"dark");applyTheme()});
 matchMedia("(prefers-color-scheme: dark)").addEventListener("change",applyTheme);applyTheme();
 setupSiteMenu(document.querySelector<HTMLElement>(".hh-site-header")!,lang);
+
+import "./wiki-layout.css";
+import {setupWikiLayout} from "./wiki-layout";
+setupWikiLayout();

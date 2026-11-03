@@ -1,5 +1,6 @@
+import {wikiHeader,wikiColumnsStart,wikiColumnsEnd,wikiFooter,type WikiSection} from '../guide/wiki-navigation.ts';
 import {iconMarkup} from '../packages/ui/icons.ts';
-import {siteNavigation} from '../packages/ui/site-navigation.ts';
+
 import {workflowPaths,workflowMetadata,type Workflow,type Language} from './metadata.ts';
 export {workflowPaths} from './metadata.ts';
 const core='https://github.com/ShuaiMXu/happyhands';
@@ -37,11 +38,13 @@ export function workflowContent(kind:Workflow,lang:Language){
  const c=workflowCopy[kind][lang],t=(zh:string,en:string)=>lang==='zh'?zh:en;
  const path=workflowPaths[kind],other=kind==='review'?'design':'review';
  const localized=(p:string)=>`${lang==='en'?'/en':''}${p}`;
- return `<a class="guide-skip" href="#main">${t('跳到内容','Skip to content')}</a>
- <header class="hh-site-header"><a class="wordmark" href="/apps/portal/" aria-label="HappyHands"><img class="guide-logo-light" src="/brand/happyhands-logo-ink.png" alt="HappyHands"><img class="guide-logo-dark" src="/brand/happyhands-logo-paper.png" alt="HappyHands"></a><button class="hh-site-menu-toggle" type="button" aria-controls="site-navigation" aria-expanded="false" aria-label="${t('菜单','Menu')}">${iconMarkup('menu')}</button><nav id="site-navigation" aria-label="${t('主要导航','Main navigation')}">${siteNavigation.map(x=>`<a href="${x.href}">${x[lang]}</a>`).join('')}</nav><div class="hh-site-tools"><button id="theme-toggle" type="button" aria-label="${t('切换主题','Switch theme')}">${iconMarkup('moon')}</button><a class="guide-language" href="${lang==='zh'?'/en'+path:path}" lang="${lang==='zh'?'en':'zh-CN'}" hreflang="${lang==='zh'?'en':'zh-CN'}">${iconMarkup('globe')}${t('English','中文')}</a></div></header>
+ const wikiPath=path;
+ const wikiSections:WikiSection[]=[...c.sections.map(([id,title])=>[id,title] as const),['requirements',t('开始前需要什么','Before you start')],['next',t('继续阅读','Continue reading')]];
+ return `<div class="wiki-layout"><a class="guide-skip" href="#main">${t('跳到内容','Skip to content')}</a>
+ ${wikiHeader(lang,wikiPath)}
  <main id="main" class="guide-shell"><div class="guide-heading"><h1>${c.h1}</h1><p>${c.intro}</p><div class="guide-actions"><a href="${localized('/guide/')}#setup">${t('安装本地工作台','Set up the local workbench')}</a><a href="/components/">${t('探索设计资源','Explore design resources')}</a></div></div>
- <nav class="guide-contents" aria-label="${t('本页内容','On this page')}">${c.sections.map(([id,title])=>`<a href="#${id}">${title}</a>`).join('')}<a href="#requirements">${t('开始前需要什么','Before you start')}</a></nav>
+ ${wikiColumnsStart(lang,wikiPath,wikiSections)}
  <div class="guide-body">${c.sections.map(([id,title,...paragraphs])=>`<section id="${id}"><h2>${title}</h2>${paragraphs.map(p=>`<p>${p}</p>`).join('')}</section>`).join('')}
  <section id="requirements"><h2>${t('开始前需要什么','Before you start')}</h2><p>${t('准备可访问的本地仓库、可运行预览和项目设计来源，按指南安装工作台。内置模型诊断与截图复核需要已配置并登录的 Codex CLI。HappyHands 支持开放的 AI CLI 工作流，但不代表每个 CLI 都有专用适配器，也不代表所有功能均已验证。','Bring an accessible local repository, a working preview and project design sources, then follow the installation guide. Built-in model diagnosis and screenshot review require a configured, signed-in Codex CLI. HappyHands supports an open AI CLI workflow, but that does not mean every CLI has a dedicated adapter or every feature is validated.')}</p><p>${t('当前为免费 Local Web Alpha，外部模型与 CLI 服务可能另行收费。运行记录保存在本地 .harness/，模型辅助步骤会将选定的源码上下文与截图发送给配置的模型服务。Git worktree 和检查是工作流保障，不是安全沙箱。','HappyHands is a free Local Web Alpha; external model and CLI services may charge separately. Run records stay in local .harness/ storage, while model-assisted steps send selected source context and screenshots to the configured model service. Git worktrees and repository checks are workflow safeguards, not a security sandbox.')}</p><p><a href="${core}/blob/main/README${lang==='zh'?'.zh-CN':''}.md">${t('产品能力与当前边界','Current product capabilities and limits')}</a> / <a href="${core}/blob/main/docs/local-workbench.md">${t('数据与执行说明','Data and execution details')}</a></p></section>
- <section id="next"><h2>${t('继续阅读','Continue reading')}</h2><ul><li><a href="${localized(workflowPaths[other])}">${workflowCopy[other][lang].h1}</a></li><li><a href="${localized('/guide/')}">${t('HappyHands 使用指南与本地安装','HappyHands guide and local setup')}</a></li><li><a href="/apps/studio/">${t('主题工作室：预览与导出设计变量','Theme Studio: preview and export design tokens')}</a></li></ul></section></div></main><footer class="guide-footer"><a href="/apps/portal/">HappyHands</a><a href="${core}">${t('核心源码','Core source')}</a><a href="/llms.txt">${t('产品信息摘要','Product facts')}</a></footer>`;
+ <section id="next"><h2>${t('继续阅读','Continue reading')}</h2><ul><li><a href="${localized(workflowPaths[other])}">${workflowCopy[other][lang].h1}</a></li><li><a href="${localized('/guide/')}">${t('HappyHands 使用指南与本地安装','HappyHands guide and local setup')}</a></li><li><a href="/apps/studio/">${t('主题工作室：预览与导出设计变量','Theme Studio: preview and export design tokens')}</a></li></ul></section></div>${wikiColumnsEnd(lang,wikiPath)}</main>${wikiFooter(lang,wikiPath,wikiSections)}</div>`;
 }

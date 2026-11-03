@@ -1,7 +1,9 @@
+import designCovers from './hero-images.json';
+
 export const repositories = { core: 'https://github.com/ShuaiMXu/happyhands', site: 'https://github.com/ShuaiMXu/happyhands-site', happyclaw: 'https://github.com/ShuaiMXu/happyclaw-site' };
 
-// Temporary reference imagery, reused from the local Appllama collection.
-export const heroScreens = Array.from({length:111}, (_, i) => `/assets/hero/screen-${String(i+1).padStart(3,'0')}.webp`);
+// Design.md archive thumbnails, deduplicated by image content.
+export const heroScreens = designCovers;
 
 export const heroCopy = '你的应用能跑了，但看起来不像被人设计过。我们做的事很简单：看一遍真实页面，挑一个最值得改的地方，改完再截图对比。你来说好还是不好。';
 

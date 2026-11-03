@@ -61,10 +61,16 @@ body:has(.resource-detail-header) .design-md-import { display:none; }
 .resource-sections a { font-weight:400; }
 .resource-sections a[aria-current="page"], .resource-sections a:hover { font-weight:400; }
 
-/* Resource tabs share the homepage navigation rhythm. The shadcn line marker
-   extends below its trigger; owned resource tabs already draw an inset marker. */
+/* Keep the selection marker inside the scrollable tab strip. Focus is separate. */
 :is(.resource-content-tabs,.resource-export-tabs),
 .hh-shadcn[data-slot="tabs-list"]:is(.resource-content-tabs,.resource-export-tabs){height:auto;min-height:49px;padding-block:0;flex-wrap:nowrap;align-items:stretch;justify-content:flex-start;overflow-x:auto;overflow-y:hidden;}
 :is(.resource-content-tabs,.resource-export-tabs)>button,
 .hh-shadcn:is(.resource-content-tabs,.resource-export-tabs)>[data-slot="tabs-trigger"]{flex:0 0 auto;height:48px;min-height:48px;line-height:21px;}
-.hh-shadcn:is(.resource-content-tabs,.resource-export-tabs)>[data-slot="tabs-trigger"]::after{display:none;}
+html .hh-shadcn:is(.resource-content-tabs,.resource-export-tabs)>[data-slot="tabs-trigger"]{position:relative;box-shadow:none;border-radius:6px;background:transparent;color:var(--hh-ink-muted);outline:none;transition:color 150ms ease-out;}
+html .hh-shadcn.resource-content-tabs>[data-slot="tabs-trigger"]{padding-inline:8px;}
+html .hh-shadcn:is(.resource-content-tabs,.resource-export-tabs)>[data-slot="tabs-trigger"][aria-selected="true"]{color:var(--hh-ink);}
+html .hh-shadcn:is(.resource-content-tabs,.resource-export-tabs)>[data-slot="tabs-trigger"]::after{content:"";display:block;position:absolute;inset:auto 8px 0;height:2px;width:auto;background:var(--hh-ink);opacity:0;pointer-events:none;transition:none;}
+html .hh-shadcn:is(.resource-content-tabs,.resource-export-tabs)>[data-slot="tabs-trigger"][aria-selected="true"]::after{opacity:1;}
+html .hh-shadcn:is(.resource-content-tabs,.resource-export-tabs)>[data-slot="tabs-trigger"]:focus-visible{outline:none;}
+html .hh-shadcn:is(.resource-content-tabs,.resource-export-tabs)>[data-slot="tabs-trigger"]:focus-visible::before{content:"";position:absolute;inset:5px 3px 6px;border:2px solid var(--hh-ring);border-radius:4px;pointer-events:none;}
+@media(forced-colors:active){html .hh-shadcn:is(.resource-content-tabs,.resource-export-tabs)>[data-slot="tabs-trigger"]:focus-visible::before{border-color:Highlight;}html .hh-shadcn:is(.resource-content-tabs,.resource-export-tabs)>[data-slot="tabs-trigger"][aria-selected="true"]::after{background:CanvasText;forced-color-adjust:none;}}

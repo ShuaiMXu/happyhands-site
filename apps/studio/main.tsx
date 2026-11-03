@@ -1,3 +1,4 @@
+import {ResourceNavigation} from "../../packages/ui/ResourceNavigation";
 import "../../packages/ui/embedded-tool";
 import { Textarea } from "../../packages/ui";
 import { Input } from "../../packages/ui";
@@ -510,13 +511,14 @@ function App() {
   const exported = themeExport(styles, format);
   return (
     <>
-      <SiteHeader
+      <SiteHeader navigation={false}
         lang={lang}
         dark={dark}
         onLanguage={toggleLanguage}
         onTheme={toggleTheme}
         active="/apps/studio/"
       />
+      <ResourceNavigation active="studio" lang={lang}/>
       <main className="studio-shell">
         <DesignImport
           lang={lang}

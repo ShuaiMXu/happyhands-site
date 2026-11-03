@@ -19,5 +19,7 @@ jobs:
       - run: npm run test:studio
       - run: npm run test:analytics
       - run: npm run test:seo
+      - run: npm run test:archive
+      - run: npm run test:wiki
       - run: npm run build
       - run: npm run verify:alpha

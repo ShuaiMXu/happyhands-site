@@ -12,7 +12,9 @@ import "./archive-gallery.css";
 import { ArchiveFilter } from "./ArchiveFilter";
 import { ResourceToolbar } from "./ResourceToolbar";
 import { ArchiveCard } from "./ArchiveCard";
+import {DesignDocumentPreview} from './DesignDocumentPreview';
 import {
+  archiveCover,
   archiveTypes,
   archiveStyles,
   filterArchive,
@@ -64,7 +66,7 @@ export function ArchiveGallery({ lang }: { lang: string }) {
   useEffect(() => {
     setSystem(null);
     setSystemError("");
-    if (!selected) return;
+    if (!selected || selected.source === "designmd.app") return;
     const c = new AbortController();
     fetch(`/design-archive/${selected.slug}/design-system.json`, {
       signal: c.signal,
@@ -152,30 +154,30 @@ export function ArchiveGallery({ lang }: { lang: string }) {
               );
             }}
           >
-            <a
+            {selected.source !== "designmd.app" && <a
               className="hh-button"
               href={`/apps/studio/?design=${encodeURIComponent(selected.slug)}`}
               target="_top"
             >
               {zh ? "接入设计系统" : "Use this design"}
-            </a>
+            </a>}
           </ResourceDetailHeader>
           <ResourceDetailContent key={selected.slug} lang={lang}>
-            <div className="resource-detail-preview">
-              <video
+            <div className="resource-detail-preview" id="reference-original">
+              {selected.video ? <video
                 key={`${selected.slug}:${videoRetry}`}
                 onError={() => setVideoFailed(true)}
                 controls
                 playsInline
                 preload="metadata"
-                poster={`/design-archive/${selected.slug}/screenshot.jpg`}
+                poster={archiveCover(selected, true) || undefined}
                 src={selected.video}
                 aria-label={
                   zh
                     ? `${selected.name} 整页预览`
                     : `${selected.name} full-page preview`
                 }
-              />
+              /> : archiveCover(selected, true) ? <img src={archiveCover(selected, true)!} alt={selected.name} style={{width:'100%',height:'auto',maxHeight:420,objectFit:'contain',display:'block'}} /> : <p>{zh ? "此参考暂无封面，完整文档可在资料与下载中查看。" : "No cover is available. Read the complete document in Files & downloads."}</p>}
               {videoFailed && (
                 <div role="alert" className="archive-detail-error">
                   <p>
@@ -194,7 +196,7 @@ export function ArchiveGallery({ lang }: { lang: string }) {
                   </Button>
                 </div>
               )}
-              {!system && !systemError && (
+              {selected.source !== "designmd.app" && !system && !systemError && (
                 <p role="status">
                   {zh ? "正在加载设计规范…" : "Loading design rules…"}
                 </p>
@@ -210,12 +212,13 @@ export function ArchiveGallery({ lang }: { lang: string }) {
                   </Button>
                 </div>
               )}
+              {(selected.source === 'designmd.app' || system) && <DesignDocumentPreview key={selected.slug} slug={selected.slug} lang={lang} system={system||undefined} supplement={selected.source !== 'designmd.app'}/>}
               {system && <ReferenceSpecimen system={system} lang={lang} />}
             </div>
             <ResourceExport
               key={selected.slug}
               lang={lang}
-              files={[
+              files={selected.source === "designmd.app" ? [{label:"Design.md",url:`/design-archive/${selected.slug}/design.md`,name:`${selected.slug}-design.md`}] : [
                 {
                   label: "Design.md",
                   url: `/design-archive/${selected.slug}/design.md`,
@@ -253,9 +256,9 @@ export function ArchiveGallery({ lang }: { lang: string }) {
       ) : (
         <>
           <ResourceToolbar
-            label={zh ? "搜索网站" : "Search websites"}
+            label={zh ? "搜索设计参考" : "Search design references"}
             placeholder={
-              zh ? "网站、类型、风格或字体" : "Website, type, style or font"
+              zh ? "名称、类型、风格或字体" : "Name, type, style or font"
             }
             query={query}
             onQueryChange={(value) => {
@@ -271,11 +274,11 @@ export function ArchiveGallery({ lang }: { lang: string }) {
                   ? zh
                     ? "目录加载失败"
                     : "Collection unavailable"
-                  : `${filtered.length} ${zh ? "个网站" : "websites"}`
+                  : `${filtered.length} ${zh ? "份参考" : "references"}`
             }
           >
             <ArchiveFilter
-              label={zh ? "网站类型" : "Website type"}
+              label={zh ? "参考类型" : "Reference type"}
               zh={zh}
               value={category}
               onChange={(value) => {

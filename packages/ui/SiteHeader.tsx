@@ -5,12 +5,14 @@ import { setupSiteMenu } from "./site-menu";
 import { siteNavigation } from "./site-navigation";
 import "./site-shell.css";
 export function SiteHeader({
+  navigation = true,
   lang,
   dark,
   onLanguage,
   onTheme,
   active = "/apps/portal/#explore",
 }: {
+  navigation?: boolean;
   lang: string;
   dark: boolean;
   onLanguage: () => void;
@@ -18,9 +20,9 @@ export function SiteHeader({
   active?: string;
 }) {
   const header = useRef<HTMLElement>(null);
-  useEffect(() => setupSiteMenu(header.current!, lang), [lang]);
+  useEffect(() => navigation ? setupSiteMenu(header.current!, lang) : undefined, [lang,navigation]);
   return (
-    <header className="hh-site-header" ref={header}>
+    <header className={`hh-site-header${navigation ? "" : " hh-site-header-compact"}`} ref={header}>
       <a href="/apps/portal/" aria-label="HappyHands">
         <img
           src={
@@ -31,7 +33,7 @@ export function SiteHeader({
           alt="HappyHands"
         />
       </a>
-      <Button
+      {navigation && <Button
         className="hh-site-menu-toggle"
         type="button"
         aria-controls="site-navigation"
@@ -39,8 +41,8 @@ export function SiteHeader({
         aria-label={lang === "zh" ? "菜单" : "Menu"}
       >
         <Icon name="menu" />
-      </Button>
-      <nav
+      </Button>}
+      {navigation && <nav
         id="site-navigation"
         aria-label={lang === "zh" ? "主要导航" : "Main navigation"}
       >
@@ -60,7 +62,7 @@ export function SiteHeader({
             {lang === "zh" ? item.zh : item.en}
           </a>
         ))}
-      </nav>
+      </nav>}
       <div className="hh-site-tools">
         <Button
           onClick={onTheme}

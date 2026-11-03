@@ -1,3 +1,4 @@
+import "../../packages/ui/resource-image-hover.css";
 import { ResourceToolPanels } from '../../packages/ui/ResourceToolPanels';
 import { populateGitHubStars } from './github-stars.js';
 import { ResourceFeedControls } from "./ResourceFeedControls";

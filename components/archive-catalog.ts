@@ -23,6 +23,9 @@ export type ArchiveEntry = {
   north_star: string;
   fonts: string[];
   video: string;
+  source?: "designmd.app";
+  sourceKind?: "library" | "brands";
+  cover?: string | null;
   styles?: string[];
   types?: string[];
 };
@@ -79,3 +82,6 @@ export const archiveTypes = [
     .map(([id, zh, en]) => [id, zh, en] as const),
   ...archiveTypeRules.map(([id, zh, en]) => [id, zh, en] as const),
 ];
+
+export const archiveCover = (entry: Pick<ArchiveEntry, 'source' | 'cover' | 'slug'>, full = false) =>
+  entry.source === 'designmd.app' ? entry.cover : `/design-archive/${entry.slug}/${full ? 'screenshot' : 'thumbnail'}.jpg`;

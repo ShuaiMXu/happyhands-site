@@ -1496,10 +1496,32 @@ button[aria-pressed="true"] {
 
 /* Editor controls use the site theme; the sample keeps its editable theme. */
 .controls .token-row {
+  flex-direction: column;
+  align-items: stretch;
   padding: var(--hh-space-2);
   margin-inline: calc(-1 * var(--hh-space-2));
   border-bottom-color: transparent;
   border-radius: var(--hh-radius-md);
+}
+.controls .token-row > span {
+  max-width: none;
+}
+.controls .token-input-fields {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.controls .token-input-fields input:not([type="color"]):not([type="range"]) {
+  flex: 1 1 0;
+  width: 0;
+  min-width: 0;
+}
+.controls .token-input-fields input[type="range"] {
+  flex-basis: 100%;
+  width: 100%;
+  min-width: 0;
 }
 .controls .token-row:hover { background: var(--hh-bg-sunken); }
 .controls .token-row:focus-within { background: var(--hh-bg-hover); }
@@ -1589,5 +1611,24 @@ button[aria-pressed="true"] {
 .studio-reference-entry{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:0 0 24px;color:var(--hh-ink-muted);font-size:14px}
 .studio-reference-entry p{margin:0}.studio-reference-entry a{color:var(--hh-ink);text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
 @media(max-width:720px){.editor-grid > .controls{position:static;max-height:none}}
+
+/* Embedded tools have less room than the outer page. Switch to a single
+   workspace before the editor and preview become two unusably narrow columns. */
+@media (max-width: 1024px) {
+  .editor-grid { display: block; min-height: 0; }
+  .mobile-tabs { display: flex; gap: 8px; margin-block: 16px; }
+  .mobile-tabs button { flex: 1; min-height: 44px; }
+  .mobile-preview > .controls { display: none; }
+  .mobile-edit > .preview-workspace { display: none; }
+  .editor-grid > .controls {
+    position: static;
+    height: auto;
+    max-height: none;
+    min-width: 0;
+    overflow: visible;
+    border-right: 0;
+  }
+  .controls .panel-settings { display: none; }
+}
 
 .project-select{min-width:0;max-width:100%}.project-select > .hh-select-field{width:min(220px,calc(100vw - 110px));min-width:0;max-width:100%}.project-select [data-slot="select-trigger"]{min-width:0;max-width:100%}.project-select [data-slot="select-value"]{display:block;min-width:0;overflow:hidden;text-overflow:ellipsis}

@@ -1,0 +1,1639 @@
+{
+  "dot-connect-981d90e9": {
+    "source": "public/design-archive/dot-connect-981d90e9/design.md",
+    "basis": "Swiss engineering blueprint with a single ember",
+    "types": [
+      "agency"
+    ],
+    "purposeReference": "https://dotconnect.vc",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "basement-studio-e06224b2": {
+    "source": "public/design-archive/basement-studio-e06224b2/design.md",
+    "basis": "Void print shop at 3am — massive compressed type bleeding off a pitch-black canvas, one ember of orange light on the nav, everything else white or ghost-gray.",
+    "types": [
+      "agency"
+    ],
+    "styles": [
+      "typographic"
+    ],
+    "purposeReference": "https://basement.studio",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "design-full-time-80b2cc74": {
+    "source": "public/design-archive/design-full-time-80b2cc74/design.md",
+    "basis": "black-box cinema with a single warm spotlight",
+    "types": [
+      "agency"
+    ],
+    "purposeReference": "https://designfulltime.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "aker-4aa6d64c": {
+    "source": "public/design-archive/aker-4aa6d64c/design.md",
+    "basis": "darkroom gallery wall\nMonumental type floats over muted landscape photography like exhibit labels in a high-end architectural gallery — white walls, warm terracotta spotlights, everything else recedes.",
+    "types": [
+      "realestate"
+    ],
+    "purposeReference": "https://www.akercompanies.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "apollo-3963a727": {
+    "source": "public/design-archive/apollo-3963a727/design.md",
+    "basis": "Sun-baked limestone with highlighter-pen accents — editorial warmth over corporate coldness",
+    "types": [
+      "realestate"
+    ],
+    "purposeReference": "https://www.apollo.io",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "apollo-5fbdad0a": {
+    "source": "public/design-archive/apollo-5fbdad0a/design.md",
+    "basis": "Warm brick atelier at golden hour",
+    "types": [
+      "realestate"
+    ],
+    "purposeReference": "https://apolloworkspace.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "aspelin-reitan-3a331157": {
+    "source": "public/design-archive/aspelin-reitan-3a331157/design.md",
+    "basis": "Candlelit architectural archive — the page reads like a portfolio of built places pinned to a warm cream wall, with a single line of white type floating over each full-bleed image.",
+    "types": [
+      "realestate"
+    ],
+    "purposeReference": "https://www.aspelineiendom.no",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "index-b1ec2120": {
+    "source": "public/design-archive/index-b1ec2120/design.md",
+    "basis": "editorial broadsheet with yellow highlighter — a stark black-and-white printed publication where #ffd600 marks the only point of emphasis",
+    "types": [
+      "realestate"
+    ],
+    "purposeReference": "https://index-space.org",
+    "purposeBasis": "Official site describes coworking studios and event spaces."
+  },
+  "tripolis-parktm-bce52fd3": {
+    "source": "public/design-archive/tripolis-parktm-bce52fd3/design.md",
+    "basis": "luminous violet portal — soft lavender light bleeding through frosted glass edges, achromatic content floating above.",
+    "types": [
+      "realestate"
+    ],
+    "purposeReference": "https://www.tripolis-park.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "alison-roman-b2ace2c1": {
+    "source": "public/design-archive/alison-roman-b2ace2c1/design.md",
+    "basis": "cookbook pages on warm cream paper — a printed spread from an artisan food memoir, translated to screen with zero loss of tactility",
+    "types": [
+      "food"
+    ],
+    "purposeReference": "https://www.alisoneroman.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "amrit-palace-b753dfda": {
+    "source": "public/design-archive/amrit-palace-b753dfda/design.md",
+    "basis": "spiced parchment gallery — a candlelit beige wall holding sparse saffron punctuation beneath breath-soft serif headlines.",
+    "types": [
+      "food"
+    ],
+    "purposeReference": "https://amritpalace.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "anna-jo-na-71717c5a": {
+    "source": "public/design-archive/anna-jo-na-71717c5a/design.md",
+    "basis": "a love letter on blush paper",
+    "types": [
+      "food"
+    ],
+    "purposeReference": "https://annajona.is",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "essie-wine-07f5281d": {
+    "source": "public/design-archive/essie-wine-07f5281d/design.md",
+    "basis": "Dusty rose chapbook with mustard chapter breaks",
+    "types": [
+      "food"
+    ],
+    "purposeReference": "https://www.essiewine.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "hartzler-family-dairy-14efe0a8": {
+    "source": "public/design-archive/hartzler-family-dairy-14efe0a8/design.md",
+    "basis": "Creamery billboard at golden hour — the products are the type and the type is the room.",
+    "types": [
+      "food"
+    ],
+    "purposeReference": "https://www.hartzlerdairy.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "home-84c9c7ab": {
+    "source": "public/design-archive/home-84c9c7ab/design.md",
+    "basis": "Botanical specimen on vellum — an oxblood-stamped plate of golden fat, edges sharp, paper warm, nothing rounded.",
+    "types": [
+      "food"
+    ],
+    "purposeReference": "https://www.savor.it",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "limo-n-f1b6a7d6": {
+    "source": "public/design-archive/limo-n-f1b6a7d6/design.md",
+    "basis": "moody brasserie under candlelight",
+    "types": [
+      "food"
+    ],
+    "purposeReference": "https://limonoslo.no",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "monte-fb6ac216": {
+    "source": "public/design-archive/monte-fb6ac216/design.md",
+    "basis": "rust-tinted coastal morning",
+    "types": [
+      "food"
+    ],
+    "purposeReference": "https://montecafe.com.au",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "pa-lais-5ef5e1ff": {
+    "source": "public/design-archive/pa-lais-5ef5e1ff/design.md",
+    "basis": "Botanical sketchbook dipped in honey. The cream paper canvas, blue toile-style line illustrations, and warm color blobs recall a hand-bound recipe journal, while the bold condensed display type and generous whitespace give it modern editorial confidence.",
+    "types": [
+      "food"
+    ],
+    "purposeReference": "https://www.palais.bio",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "alpine-bio-1995b916": {
+    "source": "public/design-archive/alpine-bio-1995b916/design.md",
+    "basis": "Sun-drenched botanical apothecary on cream parchment",
+    "types": [
+      "science"
+    ],
+    "purposeReference": "https://alpbio.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "on-energy-31e00a99": {
+    "source": "public/design-archive/on-energy-31e00a99/design.md",
+    "basis": "High-voltage caution yellow on midnight steel",
+    "types": [
+      "science"
+    ],
+    "purposeReference": "https://www.on.energy",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "arva-15846be3": {
+    "source": "public/design-archive/arva-15846be3/design.md",
+    "basis": "Pastoral editorial magazine spread on a cream field",
+    "types": [
+      "agriculture"
+    ],
+    "purposeReference": "https://arva.com",
+    "purposeBasis": "Official site describes regenerative agriculture services for farmers."
+  },
+  "inversa-8a6dc9c8": {
+    "source": "public/design-archive/inversa-8a6dc9c8/design.md",
+    "basis": "topographic field terminal at midnight. A dark command surface where massive editorial type and a single neon-lime marker layer over satellite earth photography, every label set in mono as if reading mission coordinates.",
+    "types": [
+      "agriculture"
+    ],
+    "purposeReference": "https://inversa.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "apple-06ee0fd5": {
+    "source": "public/design-archive/apple-06ee0fd5/design.md",
+    "basis": "Midnight endurance instrument. Build screens as a sequence of black exhibition bays where oversized SF Pro headlines frame precision hardware, active data, and carefully rationed electric color.",
+    "types": [
+      "hardware"
+    ],
+    "purposeReference": "https://www.apple.com/apple-watch-ultra-4",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "apple-375e255f": {
+    "source": "public/design-archive/apple-375e255f/design.md",
+    "basis": "Bronze sensor in darkness. Treat the watch hardware and its health readings as illuminated objects suspended in a near-black gallery.",
+    "types": [
+      "hardware"
+    ],
+    "purposeReference": "https://www.apple.com/apple-watch-series-12",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "apple-40be36d7": {
+    "source": "public/design-archive/apple-40be36d7/design.md",
+    "basis": "Midnight hardware gallery. Treat each section as a dark, museum-like plinth for one precisely lit product detail, with typography and blue controls operating as restrained labels around it.",
+    "types": [
+      "hardware"
+    ],
+    "purposeReference": "https://www.apple.com/iphone-18-pro",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "apple-a73148b9": {
+    "source": "public/design-archive/apple-a73148b9/design.md",
+    "basis": "foldable device in a white gallery. Center product renders as the visual event, with typography and blue controls kept deliberately quiet around it.",
+    "types": [
+      "hardware"
+    ],
+    "purposeReference": "https://www.apple.com/iphone-duo",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "apple-aecac5da": {
+    "source": "public/design-archive/apple-aecac5da/design.md",
+    "basis": "white room with a single blue switch.",
+    "types": [
+      "hardware"
+    ],
+    "purposeReference": "https://www.apple.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "apple-cfcd001c": {
+    "source": "public/design-archive/apple-cfcd001c/design.md",
+    "basis": "Apple - cinema on white. Vast white editorial space gives way to full-bleed product films, where silhouetted movement and saturated light carry the visual drama.",
+    "types": [
+      "hardware"
+    ],
+    "purposeReference": "https://www.apple.com/airpods-5",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "custo-3ad131ed": {
+    "source": "public/design-archive/custo-3ad131ed/design.md",
+    "basis": "Gunmetal gallery with monolithic type. A muted gray-green showroom where a single dark object and 57px type do all the talking.",
+    "types": [
+      "hardware"
+    ],
+    "purposeReference": "https://custo.io",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "mono-859f6be7": {
+    "source": "public/design-archive/mono-859f6be7/design.md",
+    "basis": "White-walled gallery grid. A page organized like a museum contact sheet — stark white cells, thin black rules, and type that floats without shadow or ornament.",
+    "types": [
+      "hardware"
+    ],
+    "purposeReference": "https://mono.frm.fm/en",
+    "purposeBasis": "Internet-connected 17.3-inch display; official product page confirms physical hardware."
+  },
+  "asana-6b2a0513": {
+    "source": "public/design-archive/asana-6b2a0513/design.md",
+    "basis": "Productivity whiteboard lit by a coral lamp — authoritative black type on a breathing white field, with a warm coral flash and a deep-navy flicker to signal where action lives.",
+    "types": [
+      "productivity"
+    ],
+    "purposeReference": "https://asana.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "cal-com-5d7aa503": {
+    "source": "public/design-archive/cal-com-5d7aa503/design.md",
+    "basis": "Monochrome Utility, Human Touch. A system that prioritizes clarity and function with a stark black-and-white palette, but softens it with friendly typography and rounded forms.",
+    "types": [
+      "productivity"
+    ],
+    "purposeReference": "https://cal.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "craft-docs-9f228e72": {
+    "source": "public/design-archive/craft-docs-9f228e72/design.md",
+    "basis": "Digital Scrapbook Collage. The design feels like a thoughtful, tactile scrapbook where structured digital notes meet soft, organic textures.",
+    "types": [
+      "productivity"
+    ],
+    "purposeReference": "https://craft.do",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "equals-dae7cbf2": {
+    "source": "public/design-archive/equals-dae7cbf2/design.md",
+    "basis": "Broadsheet meets spreadsheet — editorial serif authority on warm cream, punctuated by floating pastel data cells.",
+    "types": [
+      "productivity"
+    ],
+    "purposeReference": "https://equals.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "mural-2b6642d9": {
+    "source": "public/design-archive/mural-2b6642d9/design.md",
+    "basis": "Blackboard flipping to whiteboard — same hand, same authority, opposite ground.",
+    "types": [
+      "productivity"
+    ],
+    "purposeReference": "https://mural.co",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "obsidian-e793a53c": {
+    "source": "public/design-archive/obsidian-e793a53c/design.md",
+    "basis": "Crystalline Knowledge Vault. A sharp, faceted digital space built for clarity and focus, with glowing violet veins of interaction.",
+    "types": [
+      "productivity"
+    ],
+    "purposeReference": "https://obsidian.md",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "paste-742b500d": {
+    "source": "public/design-archive/paste-742b500d/design.md",
+    "basis": "Amber lantern on white marble — the brand's warm gradient logo floats in vast white space, like a single lit window in a snow-covered building.",
+    "types": [
+      "productivity"
+    ],
+    "purposeReference": "https://pasteapp.io",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "videoconferencia-206c6c51": {
+    "source": "public/design-archive/videoconferencia-206c6c51/design.md",
+    "basis": "Collaborative daylight workspace — every surface a white panel under fluorescent clarity, single violet pulse marking where to act.",
+    "types": [
+      "productivity"
+    ],
+    "purposeReference": "https://microsoft.com/teams",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "ashton-bespoke-34534515": {
+    "source": "public/design-archive/ashton-bespoke-34534515/design.md",
+    "basis": "Stone cathedral of craftsmanship — warm parchment surface, one whisper of burgundy, letterspaced serif that breathes.",
+    "types": [
+      "home"
+    ],
+    "purposeReference": "https://www.ashtonbespoke.co.uk",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "nornorm-0769ff4c": {
+    "source": "public/design-archive/nornorm-0769ff4c/design.md",
+    "basis": "Scandinavian showroom, cobalt punctuation — a white-walled furniture gallery where one deep blue stroke cuts through warm bone and ink.",
+    "types": [
+      "home"
+    ],
+    "purposeReference": "https://nornorm.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "atlantic-vc-6f365ecd": {
+    "source": "public/design-archive/atlantic-vc-6f365ecd/design.md",
+    "basis": "Midnight observatory wireframe — electric blue and ice-white type on layered charcoal, traced with cool-white borders.",
+    "types": [
+      "consulting"
+    ],
+    "purposeReference": "https://atlantic.vc",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "le-camp-45267374": {
+    "source": "public/design-archive/le-camp-45267374/design.md",
+    "basis": "Alpine summit base camp at dusk — a field command post where one red signal flare cuts through mountain twilight, and everything else is topo-line restraint.",
+    "types": [
+      "consulting"
+    ],
+    "purposeReference": "https://lecampquebec.com",
+    "purposeBasis": "Official about page describes a startup accelerator and incubator."
+  },
+  "mindmarket-9130ad37": {
+    "source": "public/design-archive/mindmarket-9130ad37/design.md",
+    "basis": "Warm storybook on cream paper — a friendly editorial canvas where oversized Inter headlines and paper-cut characters share a sunlit, sticker-soft surface.",
+    "types": [
+      "consulting"
+    ],
+    "purposeReference": "https://mindmarket.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "sequel-1bd3b2ba": {
+    "source": "public/design-archive/sequel-1bd3b2ba/design.md",
+    "basis": "Private screening after dark — a single warm lamp in an otherwise unlit cinema.",
+    "types": [
+      "consulting"
+    ],
+    "purposeReference": "https://sequel.co",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "beings-398a603a": {
+    "source": "public/design-archive/beings-398a603a/design.md",
+    "basis": "portrait gallery on warm paper. Build with monumental type, tightly cropped human photography, and sharp rectangular compositions punctuated by pale peach and dark cocoa fields.",
+    "types": [
+      "recruitment"
+    ],
+    "purposeReference": "https://beings.co",
+    "purposeBasis": "Official site describes a casting and talent directory."
+  },
+  "deel-5ec4eb4f": {
+    "source": "public/design-archive/deel-5ec4eb4f/design.md",
+    "basis": "Global command split-screen — a war-room purple panel beside a neon product showcase, then warm cream scrolls below.",
+    "types": [
+      "recruitment"
+    ],
+    "purposeReference": "https://deel.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "bumble-f32595cf": {
+    "source": "public/design-archive/bumble-f32595cf/design.md",
+    "basis": "Sunlit honey editorial",
+    "types": [
+      "social"
+    ],
+    "purposeReference": "https://bumble.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "discord-faec4b0c": {
+    "source": "public/design-archive/discord-faec4b0c/design.md",
+    "basis": "Game world behind a chat bubble — every section is a self-contained environment with its own lighting and cast of characters.",
+    "types": [
+      "social"
+    ],
+    "purposeReference": "https://discord.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "kippo-917048a3": {
+    "source": "public/design-archive/kippo-917048a3/design.md",
+    "basis": "Pixel arcade boot screen in a black void. Monospace glyphs traced in white neon against a pure black void, with a single hot-pink power-up color that should feel rare and electric when it appears.",
+    "types": [
+      "social"
+    ],
+    "purposeReference": "https://kippo.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "portrait-6b51388b": {
+    "source": "public/design-archive/portrait-6b51388b/design.md",
+    "basis": "polaroid memory wall on cream paper. A bright, off-white scrapbook where deep-navy ink provides the only text, the only structural lines, and the only border color — with a single hand-drawn rainbow that appears once, on the Sign up button and on the italicized word forever, and never again.",
+    "types": [
+      "social"
+    ],
+    "purposeReference": "https://portrait.so",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "promly-9117a4f5": {
+    "source": "public/design-archive/promly-9117a4f5/design.md",
+    "basis": "Midnight pulse through violet glass — a youth sanctuary lit by neon accents on near-black surfaces, where rounded photo collages float like screensavers behind sharp confident type.",
+    "types": [
+      "social"
+    ],
+    "purposeReference": "https://promlyapp.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "wizz-408d0b89": {
+    "source": "public/design-archive/wizz-408d0b89/design.md",
+    "basis": "Neon pink highlighter on a black-and-white editorial — like a single fluorescent mark on a fashion magazine spread.",
+    "types": [
+      "social"
+    ],
+    "purposeReference": "https://wizzapp.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "busuu-72b85d0a": {
+    "source": "public/design-archive/busuu-72b85d0a/design.md",
+    "basis": "playful passport of global connection. Vivid gradient skies, bubble greetings, and circular flags make the whole interface feel like a warm invitation to the world.",
+    "types": [
+      "education"
+    ],
+    "purposeReference": "https://busuu.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "duolingo-7088d695": {
+    "source": "public/design-archive/duolingo-7088d695/design.md",
+    "basis": "Playful classroom mascot on white paper",
+    "types": [
+      "education"
+    ],
+    "purposeReference": "https://duolingo.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "duolingo-95b472c5": {
+    "source": "public/design-archive/duolingo-95b472c5/design.md",
+    "basis": "Green playground with thick marker outlines",
+    "types": [
+      "education"
+    ],
+    "purposeReference": "https://www.duolingo.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "memorisely-e1497817": {
+    "source": "public/design-archive/memorisely-e1497817/design.md",
+    "basis": "Architect's drafting table on warm parchment — a quiet, monochrome workspace where every element is a typographic decision.",
+    "types": [
+      "education"
+    ],
+    "purposeReference": "https://www.memorisely.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "promova-dae5e893": {
+    "source": "public/design-archive/promova-dae5e893/design.md",
+    "basis": "midnight magazine with one yellow highlighter — a black page, white type, and a vivid lemon swatch that says 'press here'.",
+    "types": [
+      "education"
+    ],
+    "purposeReference": "https://promova.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "skillshare-162e9ba9": {
+    "source": "public/design-archive/skillshare-162e9ba9/design.md",
+    "basis": "Poster studio on matte black — bold instructor faces, chalk-white type, single neon pulse.",
+    "types": [
+      "education"
+    ],
+    "purposeReference": "https://skillshare.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "superhi-plus-a1f9e844": {
+    "source": "public/design-archive/superhi-plus-a1f9e844/design.md",
+    "basis": "Cobalt blueprint scattered with emoji marbles. The page lives half in electric blue, half in ice white, swapping sides as you scroll.",
+    "types": [
+      "education"
+    ],
+    "purposeReference": "https://superhi.plus",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "udemy-c03afcbd": {
+    "source": "public/design-archive/udemy-c03afcbd/design.md",
+    "basis": "Modern classroom whiteboard with violet ink.",
+    "types": [
+      "education"
+    ],
+    "purposeReference": "https://www.udemy.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "chantlings-5090ce54": {
+    "source": "public/design-archive/chantlings-5090ce54/design.md",
+    "basis": "Candlelit cave, ember in the void",
+    "types": [
+      "entertainment"
+    ],
+    "purposeReference": "https://www.iorama.studio/chantlings",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "netflix-spain-0e4d933c": {
+    "source": "public/design-archive/netflix-spain-0e4d933c/design.md",
+    "basis": "A black cinema lobby with one red exit sign.",
+    "types": [
+      "entertainment"
+    ],
+    "purposeReference": "https://www.netflix.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "netflix-spain-32959012": {
+    "source": "public/design-archive/netflix-spain-32959012/design.md",
+    "basis": "The Infinite Digital Shelf. A cinematic experience where an endless library of content is presented against a pure black, theatrical backdrop.",
+    "types": [
+      "entertainment"
+    ],
+    "purposeReference": "https://netflix.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "chester-s-garden-a639fa6c": {
+    "source": "public/design-archive/chester-s-garden-a639fa6c/design.md",
+    "basis": "Flimsy art-zine on drafting paper",
+    "types": [
+      "portfolio"
+    ],
+    "purposeReference": "https://chester.how",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "ldd-e186e08f": {
+    "source": "public/design-archive/ldd-e186e08f/design.md",
+    "basis": "Dot-matrix broadsheet on cream paper — a single sheet of warm stock, overprinted once with massive black type and nothing else.",
+    "types": [
+      "portfolio"
+    ],
+    "purposeReference": "https://lorenzodaldosso.it",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "coinbase-spain-df5e2be4": {
+    "source": "public/design-archive/coinbase-spain-df5e2be4/design.md",
+    "basis": "Digital Trust, Blueprinted. A system built on the clarity of an architectural plan, energized by a single, electric blue neuron.",
+    "types": [
+      "crypto"
+    ],
+    "purposeReference": "https://coinbase.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "designmodo-c60a19c1": {
+    "source": "public/design-archive/designmodo-c60a19c1/design.md",
+    "basis": "Forest clearing at dawn — dark canopy above, open light below, a single green glow marking the path forward.",
+    "types": [
+      "design"
+    ],
+    "styles": [
+      "minimal"
+    ],
+    "purposeReference": "https://designmodo.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "elementor-4bbc63cf": {
+    "source": "public/design-archive/elementor-4bbc63cf/design.md",
+    "basis": "High-stakes monochrome printing press — a system where black and white do all the heavy lifting, Roobert's compressed weight-900 headlines stamped like bold ink on paper.",
+    "types": [
+      "design"
+    ],
+    "purposeReference": "https://elementor.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "lottiefiles-a80507cb": {
+    "source": "public/design-archive/lottiefiles-a80507cb/design.md",
+    "basis": "Bright motion studio with teal accent",
+    "types": [
+      "design"
+    ],
+    "purposeReference": "https://lottiefiles.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "mobbin-ef44a995": {
+    "source": "public/design-archive/mobbin-ef44a995/design.md",
+    "basis": "Grayscale specimen board — a printer's proof sheet where typographic weight IS color.",
+    "types": [
+      "design"
+    ],
+    "purposeReference": "https://mobbin.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "riptype-foundry-3e397dc6": {
+    "source": "public/design-archive/riptype-foundry-3e397dc6/design.md",
+    "basis": "ink on black paper — the type is the only bright thing in the room",
+    "types": [
+      "design"
+    ],
+    "purposeReference": "https://www.riptype.xyz",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "spline-b36d5c7c": {
+    "source": "public/design-archive/spline-b36d5c7c/design.md",
+    "basis": "Glowing Forms in the Void",
+    "types": [
+      "design"
+    ],
+    "purposeReference": "https://spline.design",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "wise-design-c5326639": {
+    "source": "public/design-archive/wise-design-c5326639/design.md",
+    "basis": "Neon market stall on a global street — electric lime signage that shouts across a crowded marketplace, then polished product UI slips in behind it.",
+    "types": [
+      "design"
+    ],
+    "purposeReference": "https://wise.design",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "drepute-523d3e7b": {
+    "source": "public/design-archive/drepute-523d3e7b/design.md",
+    "basis": "midnight observatory over still water — a single sentence floats beneath a field of stars",
+    "types": [
+      "launch"
+    ],
+    "purposeReference": "https://drepute.xyz",
+    "purposeBasis": "Archived description explicitly identifies a teaser landing page; business sector is not asserted."
+  },
+  "ease-health-e9f5e976": {
+    "source": "public/design-archive/ease-health-e9f5e976/design.md",
+    "basis": "Botanical greenhouse on cream paper",
+    "types": [
+      "health"
+    ],
+    "purposeReference": "https://easehealth.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "eight-sleep-e4e8fe86": {
+    "source": "public/design-archive/eight-sleep-e4e8fe86/design.md",
+    "basis": "midnight observatory with single neon pulse",
+    "types": [
+      "health"
+    ],
+    "purposeReference": "https://eightsleep.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "impilo-b44b0bb2": {
+    "source": "public/design-archive/impilo-b44b0bb2/design.md",
+    "basis": "Midnight clinical observatory — a violet command console where health data glows in cyan.",
+    "types": [
+      "health"
+    ],
+    "purposeReference": "https://impilo.health",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "leandra-isler-515da65c": {
+    "source": "public/design-archive/leandra-isler-515da65c/design.md",
+    "basis": "dried botanicals pressed into warm vellum — calm, tactile, editorial, almost reverent.",
+    "types": [
+      "health"
+    ],
+    "purposeReference": "https://www.leandra-isler.ch",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "seed-cd723d5a": {
+    "source": "public/design-archive/seed-cd723d5a/design.md",
+    "basis": "living organism under laboratory glass",
+    "types": [
+      "health"
+    ],
+    "purposeReference": "https://seed.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "stryds-6b4e6620": {
+    "source": "public/design-archive/stryds-6b4e6620/design.md",
+    "basis": "Aurora ringed midnight void",
+    "types": [
+      "health"
+    ],
+    "purposeReference": "https://stryds.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "superpower-5d34568d": {
+    "source": "public/design-archive/superpower-5d34568d/design.md",
+    "basis": "Bioluminescent health command center",
+    "types": [
+      "health"
+    ],
+    "purposeReference": "https://superpower.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "ecosia-198d4f13": {
+    "source": "public/design-archive/ecosia-198d4f13/design.md",
+    "basis": "verdant search clearing — a white-canvas interface with a single lime-green accent and full-bleed leaf photography as the only chromatic noise.",
+    "types": [
+      "saas"
+    ],
+    "purposeReference": "https://www.ecosia.org",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "kit-7f7d24b9": {
+    "source": "public/design-archive/kit-7f7d24b9/design.md",
+    "basis": "Warm creator notebook — parchment pages, highlighter-blue ink, heavy type on linen.",
+    "types": [
+      "saas"
+    ],
+    "purposeReference": "https://kit.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "mailchimp-24929007": {
+    "source": "public/design-archive/mailchimp-24929007/design.md",
+    "basis": "Vintage press meets electric yellow — an editorial print house with one neon switch.",
+    "types": [
+      "saas"
+    ],
+    "purposeReference": "https://mailchimp.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "microsoft-5f39e778": {
+    "source": "public/design-archive/microsoft-5f39e778/design.md",
+    "basis": "Retail shelf behind plate glass — products float forward, chrome recedes.",
+    "types": [
+      "saas"
+    ],
+    "purposeReference": "https://microsoft.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "microsoft-c70a9990": {
+    "source": "public/design-archive/microsoft-c70a9990/design.md",
+    "basis": "Corporate blue retail catalog — think 4-square logo against a white showroom floor with one accent blue guiding every interaction.",
+    "types": [
+      "saas"
+    ],
+    "purposeReference": "https://www.microsoft.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "typeform-a0d54731": {
+    "source": "public/design-archive/typeform-a0d54731/design.md",
+    "basis": "Publishing house meets product dashboard — serif headlines borrowed from a literary journal, UI chrome stripped to bare minimum so the type can own every screen.",
+    "types": [
+      "saas"
+    ],
+    "purposeReference": "https://typeform.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "zendesk-240234ba": {
+    "source": "public/design-archive/zendesk-240234ba/design.md",
+    "basis": "Lime signal in a forest clearing — precision SaaS dressed in warm organic ink, where the single electric-green accent cuts through like a backlit leaf.",
+    "types": [
+      "saas"
+    ],
+    "purposeReference": "https://zendesk.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "enviar-dinero-46c16139": {
+    "source": "public/design-archive/enviar-dinero-46c16139/design.md",
+    "basis": "Electric Sky Wallet — a sky that you can spend from.",
+    "types": [
+      "fintech"
+    ],
+    "purposeReference": "https://paypal.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "stripe-48e5de76": {
+    "source": "public/design-archive/stripe-48e5de76/design.md",
+    "basis": "indigo-ink ledger on frosted glass",
+    "types": [
+      "fintech"
+    ],
+    "purposeReference": "https://stripe.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "home-7e21f6e1": {
+    "source": "public/design-archive/home-7e21f6e1/design.md",
+    "basis": "Primary-color toy aisle — the brightness of a freshly opened set box on a white table.",
+    "types": [
+      "ecommerce"
+    ],
+    "purposeReference": "https://lego.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "relate-dot-app-6bc9448b": {
+    "source": "public/design-archive/relate-dot-app-6bc9448b/design.md",
+    "basis": "Diversity mosaic behind frosted notes. A wall of color-blocked portraits carries every visual mood the system needs; every UI element is a clean white card or a flat colored chip floating above it.",
+    "types": [
+      "ecommerce"
+    ],
+    "purposeReference": "https://relate.app",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "jetbrains-bc4fb98b": {
+    "source": "public/design-archive/jetbrains-bc4fb98b/design.md",
+    "basis": "Neon nebula on obsidian — a black-ground page where violet-blue gradients bloom upward like deep-space imagery, punctuated by hot-pink neon and per-product chromatic icon light.",
+    "types": [
+      "devtools"
+    ],
+    "purposeReference": "https://jetbrains.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "mapbox-be34bbe8": {
+    "source": "public/design-archive/mapbox-be34bbe8/design.md",
+    "basis": "Satellite console at midnight — a dark control room where glowing map tiles are the only light source, surrounded by near-black instrument panels.",
+    "types": [
+      "devtools"
+    ],
+    "purposeReference": "https://mapbox.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "n8n-8601c8ef": {
+    "source": "public/design-archive/n8n-8601c8ef/design.md",
+    "basis": "Workflow engine at midnight — the feeling of a live automation canvas running in a dark server room, lit by status indicators and data flows.",
+    "types": [
+      "devtools"
+    ],
+    "purposeReference": "https://n8n.io",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "neon-cc38369a": {
+    "source": "public/design-archive/neon-cc38369a/design.md",
+    "basis": "Server Room After Dark. A deep black environment where data and interactions are the only sources of light.",
+    "types": [
+      "devtools"
+    ],
+    "purposeReference": "https://neon.tech",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "railway-5c32375f": {
+    "source": "public/design-archive/railway-5c32375f/design.md",
+    "basis": "Cosmic Midnight Express. A calm, powerful journey through a dark, starlit environment, guided by clear signals.",
+    "types": [
+      "devtools"
+    ],
+    "purposeReference": "https://railway.app",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "tailwind-css-8f79ab5b": {
+    "source": "public/design-archive/tailwind-css-8f79ab5b/design.md",
+    "basis": "Type specimen as product demo — a typographer's proof sheet where the headline IS the interface, bold black at 96px demanding attention through size alone.",
+    "types": [
+      "devtools"
+    ],
+    "styles": [
+      "typographic"
+    ],
+    "purposeReference": "https://tailwindcss.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "midjourney-225059ac": {
+    "source": "public/design-archive/midjourney-225059ac/design.md",
+    "basis": "Deep-ocean bioluminescent terminal. A pressurized darkness where intelligence visibly generates itself in ASCII streams, and controls appear as faintly glowing specimens.",
+    "types": [
+      "ai"
+    ],
+    "purposeReference": "https://midjourney.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "v0-by-vercel-50aa2b8e": {
+    "source": "public/design-archive/v0-by-vercel-50aa2b8e/design.md",
+    "basis": "A Machinist's Blueprint. Precision and function are paramount, with every element serving a clear purpose on a clean, technical surface.",
+    "types": [
+      "ai"
+    ],
+    "purposeReference": "https://v0.dev",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "miti-navi-887f0c74": {
+    "source": "public/design-archive/miti-navi-887f0c74/design.md",
+    "basis": "Tuscan sea-view chapbook on raw linen",
+    "types": [
+      "travel"
+    ],
+    "purposeReference": "https://miti-navi.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "nglora-24c0de95": {
+    "source": "public/design-archive/nglora-24c0de95/design.md",
+    "basis": "NGLORA - Apothecary's Formulary. A meticulously organized space where typography and product photography are treated with scientific precision.",
+    "types": [
+      "beauty"
+    ],
+    "purposeReference": "https://aesop.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "passwords-da0bfca3": {
+    "source": "public/design-archive/passwords-da0bfca3/design.md",
+    "basis": "Secure Airlock Behind Glass. A system that moves from the protective dark of an airlock to the bright clarity of a control room.",
+    "types": [
+      "security"
+    ],
+    "styles": [
+      "product-ui"
+    ],
+    "purposeReference": "https://1password.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "playdate-2175034b": {
+    "source": "public/design-archive/playdate-2175034b/design.md",
+    "basis": "A yellow Game Boy under museum lights. Playdate's whole identity is that single bright product held against neutral gray, with one violet spark doing all the interactive work.",
+    "types": [
+      "games"
+    ],
+    "purposeReference": "https://play.date",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "samara-934a61aa": {
+    "source": "public/design-archive/samara-934a61aa/design.md",
+    "basis": "Sunlit architectural model. The design combines the precision of a blueprint with the warmth and airiness of natural light.",
+    "types": [
+      "architecture"
+    ],
+    "purposeReference": "https://samara.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "superhi-basic-income-e57d9536": {
+    "source": "public/design-archive/superhi-basic-income-e57d9536/design.md",
+    "basis": "violet column beside white broadsheet",
+    "types": [
+      "nonprofit"
+    ],
+    "purposeReference": "https://www.superhibasicincome.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "tech-barcelona-271172f7": {
+    "source": "public/design-archive/tech-barcelona-271172f7/design.md",
+    "basis": "Editorial tech manifesto on white marble",
+    "types": [
+      "nonprofit"
+    ],
+    "purposeReference": "https://techbarcelona.com/en",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "descript-fe955d4a": {
+    "source": "public/design-archive/descript-fe955d4a/design.md",
+    "basis": "Broadcast booth meets editorial press — deep burgundy theater dark, editorial serif headlines, coral on-air signals.",
+    "types": [
+      "media"
+    ],
+    "purposeReference": "https://descript.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "tella-41547c7a": {
+    "source": "public/design-archive/tella-41547c7a/design.md",
+    "basis": "Violet broadcast signal — the design feels like a TV network's on-air package: full-bleed chromatic fields, bold compressed display type, hard cuts between saturated and white.",
+    "types": [
+      "media"
+    ],
+    "styles": [
+      "gradient"
+    ],
+    "purposeReference": "https://tella.tv",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "uber-caf8d2ef": {
+    "source": "public/design-archive/uber-caf8d2ef/design.md",
+    "basis": "Black-and-white transit kiosk. Picture a monochrome wayfinding panel where the only color comes from editorial illustrations mounted beside the input form.",
+    "types": [
+      "transport"
+    ],
+    "purposeReference": "https://uber.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "zoox-e85a82b1": {
+    "source": "public/design-archive/zoox-e85a82b1/design.md",
+    "basis": "serene sage showroom. A pale mint gallery space where one vivid teal accent and one dark forest panel interrupt the quiet — spacious, premium, and forward-looking.",
+    "types": [
+      "transport"
+    ],
+    "purposeReference": "https://zoox.com",
+    "purposeBasis": "Reviewed site identity and archived content; categories describe purpose independently of visual style."
+  },
+  "aaply-357e6fee": {
+    "source": "public/design-archive/aaply-357e6fee/design.md",
+    "basis": "Digital sketchpad with electric highlighter",
+    "styles": [
+      "flat"
+    ]
+  },
+  "front-3281b445": {
+    "source": "public/design-archive/front-3281b445/design.md",
+    "basis": "Midnight plum control room, one lime spark. Deep aubergine walls, lavender mist borders, and a single chartreuse beacon that pulls every eye.",
+    "styles": [
+      "flat"
+    ]
+  },
+  "apollographql-65b30976": {
+    "source": "public/design-archive/apollographql-65b30976/design.md",
+    "basis": "Mission control at midnight — a starfield console where orange is the only dial that glows.",
+    "styles": [
+      "futuristic"
+    ]
+  },
+  "gt-planar-3f22028a": {
+    "source": "public/design-archive/gt-planar-3f22028a/design.md",
+    "basis": "cockpit HUD at warp speed",
+    "styles": [
+      "futuristic"
+    ]
+  },
+  "bear-markdown-notes-4afe77ff": {
+    "source": "public/design-archive/bear-markdown-notes-4afe77ff/design.md",
+    "basis": "Quiet notebook on white linen",
+    "styles": [
+      "editorial"
+    ]
+  },
+  "bluesky-social-aa9234ca": {
+    "source": "public/design-archive/bluesky-social-aa9234ca/design.md",
+    "basis": "Morning dispatch beneath open sky",
+    "styles": [
+      "editorial"
+    ]
+  },
+  "ditto-2db41cd9": {
+    "source": "public/design-archive/ditto-2db41cd9/design.md",
+    "basis": "marked-up manuscript on warm parchment",
+    "styles": [
+      "paper"
+    ]
+  },
+  "ditto-e9001d5a": {
+    "source": "public/design-archive/ditto-e9001d5a/design.md",
+    "basis": "Sunlit wildflower compliance atelier. Warm cream surfaces, vivid yellow primary action, deep navy ink, organic color shapes blooming behind the product.",
+    "styles": [
+      "paper"
+    ]
+  },
+  "quin-5dc8ca28": {
+    "source": "public/design-archive/quin-5dc8ca28/design.md",
+    "basis": "warm cream notebook with stamped yellow ink",
+    "styles": [
+      "paper"
+    ]
+  },
+  "tailscale-5b679fb6": {
+    "source": "public/design-archive/tailscale-5b679fb6/design.md",
+    "basis": "Engineer's whiteboard on cream paper. A warm off-white canvas with a single red marker stroke, soft 16px corners, and Inter at whisper weights — the visual language of infrastructure documentation that respects the reader.",
+    "styles": [
+      "paper"
+    ]
+  },
+  "dopper-734ab03c": {
+    "source": "public/design-archive/dopper-734ab03c/design.md",
+    "basis": "Sunlit cream lagoon with a vivid blue current. A warm beige expanse where one electric blue channel and full-bleed candy-bright cards cut through like sunlight on water.",
+    "styles": [
+      "playful"
+    ]
+  },
+  "fictional-af2e0bc4": {
+    "source": "public/design-archive/fictional-af2e0bc4/design.md",
+    "basis": "Sticker-bombed tabletop — vivid decals scattered across a warm cream surface, held down by chunky rounded type.",
+    "styles": [
+      "playful"
+    ]
+  },
+  "dovetail-108e2695": {
+    "source": "public/design-archive/dovetail-108e2695/design.md",
+    "basis": "Blueprint grid under a black moon — faint graph lines, white type, one violet spark.",
+    "styles": [
+      "industrial"
+    ]
+  },
+  "dovetail-1d51a2db": {
+    "source": "public/design-archive/dovetail-1d51a2db/design.md",
+    "basis": "Cream-paper editorial magazine on a sunlit table",
+    "styles": [
+      "industrial"
+    ]
+  },
+  "dovetail-6f9452a4": {
+    "source": "public/design-archive/dovetail-6f9452a4/design.md",
+    "basis": "blueprint control room at midnight.",
+    "styles": [
+      "industrial"
+    ]
+  },
+  "forner-2a830d03": {
+    "source": "public/design-archive/forner-2a830d03/design.md",
+    "basis": "Warm earthen atelier — imagine a ceramics studio at golden hour, where every surface is clay, bone, or roasted coffee, and the only chrome is the potter's hand-lettered note pinned to the wall.",
+    "styles": [
+      "organic"
+    ]
+  },
+  "gamma-4782832c": {
+    "source": "public/design-archive/gamma-4782832c/design.md",
+    "basis": "white-walled art gallery. The UI is a silent frame; the artwork is the only thing that should be loud.",
+    "styles": [
+      "gallery"
+    ]
+  },
+  "shop-4fa67bd1": {
+    "source": "public/design-archive/shop-4fa67bd1/design.md",
+    "basis": "Floating shopping constellation on white marble",
+    "styles": [
+      "gallery"
+    ]
+  },
+  "thomas-hedger-9fe18d8b": {
+    "source": "public/design-archive/thomas-hedger-9fe18d8b/design.md",
+    "basis": "Silent frame, loud prints",
+    "styles": [
+      "gallery"
+    ]
+  },
+  "increase-1ad4f49f": {
+    "source": "public/design-archive/increase-1ad4f49f/design.md",
+    "basis": "institutional blueprint on vellum — one electric chartreuse stripe cuts the navy calm, mint data signals pulse beneath it.",
+    "styles": [
+      "gradient"
+    ]
+  },
+  "morphic-1d4cbd69": {
+    "source": "public/design-archive/morphic-1d4cbd69/design.md",
+    "basis": "Dark cinema canvas for AI storytelling. Pure black absorbs everything except the blue pulse of a single accent and the glow of generated imagery.",
+    "styles": [
+      "cinematic"
+    ]
+  },
+  "reclaim-71c7b9ad": {
+    "source": "public/design-archive/reclaim-71c7b9ad/design.md",
+    "basis": "lavender productivity workshop with violet ink",
+    "styles": [
+      "pastel"
+    ]
+  },
+  "cake-equity-4c33d8fe": {
+    "source": "public/design-archive/cake-equity-4c33d8fe/design.md",
+    "basis": "founder's command center on warm bone-white, electric violet switches, chartreuse receipts",
+    "styles": [
+      "product-ui"
+    ]
+  },
+  "cleanshot-x-679f08af": {
+    "source": "public/design-archive/cleanshot-x-679f08af/design.md",
+    "basis": "Blue-lit desktop studio. Build quiet white space around compact black type, then let saturated blue controls and layered Mac-product imagery create the focal points.",
+    "styles": [
+      "product-ui"
+    ]
+  },
+  "flighty-0d0de64c": {
+    "source": "public/design-archive/flighty-0d0de64c/design.md",
+    "basis": "Control tower at midnight — a luminous control room with glowing screens floating around a single device",
+    "styles": [
+      "product-ui"
+    ]
+  },
+  "relate-337ade6a": {
+    "source": "public/design-archive/relate-337ade6a/design.md",
+    "basis": "cool dawn over product canvas",
+    "styles": [
+      "product-ui"
+    ]
+  },
+  "status-4ce66adb": {
+    "source": "public/design-archive/status-4ce66adb/design.md",
+    "basis": "encrypted vault behind midnight glass — a dark security console where the only color is a single violet signal lamp",
+    "styles": [
+      "product-ui"
+    ]
+  },
+  "superlist-13f27e7a": {
+    "source": "public/design-archive/superlist-13f27e7a/design.md",
+    "basis": "midnight workspace with coral embers — a quiet aubergine app surface where one warm orange spark signals every action",
+    "styles": [
+      "product-ui"
+    ]
+  },
+  "wrike-e1c7cab3": {
+    "source": "public/design-archive/wrike-e1c7cab3/design.md",
+    "basis": "Lime switch on a clean engineer's console — vivid green accents powered against deep navy authority, floating on white.",
+    "styles": [
+      "product-ui"
+    ]
+  },
+  "relief-e6b53c1e": {
+    "source": "public/design-archive/relief-e6b53c1e/design.md",
+    "basis": "Cream-paper harbor under flat sky-blue",
+    "styles": [
+      "skeuomorphic"
+    ]
+  },
+  "gsap-00537a20": {
+    "source": "public/design-archive/gsap-00537a20/design.md",
+    "basis": "animated chalkboard in a design studio. A near-black wall, warm cream chalk, and five color-coded highlighters — one for each animation discipline.",
+    "styles": [
+      "typographic"
+    ]
+  },
+  "haus-otto-0057e55a": {
+    "source": "public/design-archive/haus-otto-0057e55a/design.md",
+    "basis": "Monumental wordmark on white void",
+    "styles": [
+      "typographic"
+    ]
+  },
+  "mezmo-691e7b4e": {
+    "source": "public/design-archive/mezmo-691e7b4e/design.md",
+    "basis": "observatory at dawn",
+    "styles": [
+      "typographic"
+    ]
+  },
+  "thoughtlab-82d52a5f": {
+    "source": "public/design-archive/thoughtlab-82d52a5f/design.md",
+    "basis": "Obsidian monument with crimson signal. A void-black canvas where a single saturated red pill is the only chromatic object in a cathedral of oversized white type.",
+    "styles": [
+      "typographic"
+    ]
+  },
+  "designmd-library-ant-design": {
+    "source": "public/design-archive/designmd-library-ant-design/design.md",
+    "basis": "Reference for flat, material & plataformas Ant Design. Ant Group / Alibaba (Chinese enterprise ecosystem).",
+    "styles": [
+      "flat"
+    ]
+  },
+  "designmd-library-apple-hig": {
+    "source": "public/design-archive/designmd-library-apple-hig/design.md",
+    "basis": "Reference for flat, material & plataformas Apple HIG (pre-Liquid flat). Apple, iOS 7 through iOS 18.",
+    "styles": [
+      "flat"
+    ]
+  },
+  "designmd-library-base-web": {
+    "source": "public/design-archive/designmd-library-base-web/design.md",
+    "basis": "Reference for flat, material & plataformas Base Web. Uber.",
+    "styles": [
+      "flat"
+    ]
+  },
+  "designmd-library-lightning-design": {
+    "source": "public/design-archive/designmd-library-lightning-design/design.md",
+    "basis": "Reference for flat, material & plataformas Salesforce Lightning. Salesforce.",
+    "styles": [
+      "flat"
+    ]
+  },
+  "designmd-library-one-ui": {
+    "source": "public/design-archive/designmd-library-one-ui/design.md",
+    "basis": "Reference for flat, material & plataformas Samsung One UI. Samsung, One UI (2018).",
+    "styles": [
+      "flat"
+    ]
+  },
+  "designmd-library-primer": {
+    "source": "public/design-archive/designmd-library-primer/design.md",
+    "basis": "Reference for flat, material & plataformas Primer. GitHub.",
+    "styles": [
+      "flat"
+    ]
+  },
+  "designmd-library-spectrum": {
+    "source": "public/design-archive/designmd-library-spectrum/design.md",
+    "basis": "Reference for flat, material & plataformas Adobe Spectrum. Adobe.",
+    "styles": [
+      "flat"
+    ]
+  },
+  "designmd-library-angelcore": {
+    "source": "public/design-archive/designmd-library-angelcore/design.md",
+    "basis": "Reference for subculturas & estéticas de nicho Angelcore. Ethereal celestial/religious-art aesthetic.",
+    "styles": [
+      "pastel"
+    ]
+  },
+  "designmd-library-balletcore": {
+    "source": "public/design-archive/designmd-library-balletcore/design.md",
+    "basis": "Reference for subculturas & estéticas de nicho Balletcore. Ballet-inspired soft feminine aesthetic.",
+    "styles": [
+      "pastel"
+    ]
+  },
+  "designmd-library-light-academia": {
+    "source": "public/design-archive/designmd-library-light-academia/design.md",
+    "basis": "Reference for subculturas & estéticas de nicho Light Academia. Optimistic counterpart to dark academia.",
+    "styles": [
+      "pastel"
+    ]
+  },
+  "designmd-library-vsco-girl": {
+    "source": "public/design-archive/designmd-library-vsco-girl/design.md",
+    "basis": "Reference for subculturas & estéticas de nicho VSCO Girl. Summer-2019 teen aesthetic (named after VSCO app).",
+    "styles": [
+      "pastel"
+    ]
+  },
+  "designmd-library-blueprint": {
+    "source": "public/design-archive/designmd-library-blueprint/design.md",
+    "basis": "Reference for textura, material & renderização Blueprint / Technical Drawing. Architectural/engineering cyanotype drawings.",
+    "styles": [
+      "industrial"
+    ]
+  },
+  "designmd-library-clockwork-escapement": {
+    "source": "public/design-archive/designmd-library-clockwork-escapement/design.md",
+    "basis": "Time/Clock style inspired by \"ESCAPEMENT — clockwork mechanism\". Flexbox, Transitions, Transforms. With animations.",
+    "styles": [
+      "industrial"
+    ]
+  },
+  "designmd-library-oscilloscope-waveform-lab": {
+    "source": "public/design-archive/designmd-library-oscilloscope-waveform-lab/design.md",
+    "basis": "Audio/Music style inspired by \"WAVEFORM — the shape of sound\". CSS Grid, Flexbox, Transitions.",
+    "styles": [
+      "industrial"
+    ]
+  },
+  "designmd-library-sonar-deep-sea": {
+    "source": "public/design-archive/designmd-library-sonar-deep-sea/design.md",
+    "basis": "Interactive/Animated style inspired by \"PING — deep survey\". CSS Grid, Flexbox, Blend Modes. With animations.",
+    "styles": [
+      "industrial"
+    ]
+  },
+  "designmd-library-brat": {
+    "source": "public/design-archive/designmd-library-brat/design.md",
+    "basis": "Reference for subculturas & estéticas de nicho Brat. Charli XCX 'Brat' album (2024).",
+    "styles": [
+      "playful"
+    ]
+  },
+  "designmd-library-comic-book-pop-art": {
+    "source": "public/design-archive/designmd-library-comic-book-pop-art/design.md",
+    "basis": "Comic book pop art interface. Ideal for landing pages, saas. AI-ready template.",
+    "styles": [
+      "playful"
+    ]
+  },
+  "designmd-library-edtech-plataforma-de-cursos": {
+    "source": "public/design-archive/designmd-library-edtech-plataforma-de-cursos/design.md",
+    "basis": "Edtech landing, online courses, gamification, progress badges, vibrant colors, students, learning path, challenges, modern UI. Ideal for landing pages, modern websites. AI-ready template.",
+    "styles": [
+      "playful"
+    ]
+  },
+  "designmd-library-graffiti": {
+    "source": "public/design-archive/designmd-library-graffiti/design.md",
+    "basis": "Graffiti-inspired landing page with bright spray-paint colors on gritty urban backgrounds. Ideal for campanhas de marcas provocadoras, pôsteres de música, linhas de streetwear, eventos urbanos. AI-ready template.",
+    "styles": [
+      "playful"
+    ]
+  },
+  "designmd-library-cartography-atlas": {
+    "source": "public/design-archive/designmd-library-cartography-atlas/design.md",
+    "basis": "Artistic/Creative style inspired by \"Terra Incognita\". CSS Grid, Flexbox, Keyframe Animations. With animations.",
+    "styles": [
+      "paper"
+    ]
+  },
+  "designmd-library-chalkboard-physics-lecture": {
+    "source": "public/design-archive/designmd-library-chalkboard-physics-lecture/design.md",
+    "basis": "Interactive/Game style inspired by \"LECTURE 3 — on pendulums\". Flexbox, Keyframe Animations, Transforms. With animations.",
+    "styles": [
+      "paper"
+    ]
+  },
+  "designmd-library-origami-folding-steps": {
+    "source": "public/design-archive/designmd-library-origami-folding-steps/design.md",
+    "basis": "Artistic/Creative style inspired by \"FOLD — one thousand cranes\". Flexbox, CSS Filters, Keyframe Animations. With animations.",
+    "styles": [
+      "paper"
+    ]
+  },
+  "designmd-library-paper-collage-zine": {
+    "source": "public/design-archive/designmd-library-paper-collage-zine/design.md",
+    "basis": "Artistic/Creative style inspired by \"CUT &amp; PASTE — a paper-collage zine\". Flexbox, Clip Path, Blend Modes. With animations.",
+    "styles": [
+      "paper"
+    ]
+  },
+  "designmd-library-color-lab-mixer": {
+    "source": "public/design-archive/designmd-library-color-lab-mixer/design.md",
+    "basis": "Scientific style inspired by \"CHROMA LAB — a color theory bench\". CSS Grid, Flexbox, Blend Modes. With animations.",
+    "styles": [
+      "experimental"
+    ]
+  },
+  "designmd-library-flea-circus-physics": {
+    "source": "public/design-archive/designmd-library-flea-circus-physics/design.md",
+    "basis": "Interactive/Game style inspired by \"LA PUCE — the smallest show on earth\". Flexbox, Keyframe Animations, Transitions. With animations.",
+    "styles": [
+      "experimental"
+    ]
+  },
+  "designmd-library-fluid-spinner-loader": {
+    "source": "public/design-archive/designmd-library-fluid-spinner-loader/design.md",
+    "basis": "Interactive/Animated style inspired by \"SUSPENSION — a study of beautiful waiting\". Flexbox, Keyframe Animations, Transitions. With animations.",
+    "styles": [
+      "experimental"
+    ]
+  },
+  "designmd-library-kite-festival-physics": {
+    "source": "public/design-archive/designmd-library-kite-festival-physics/design.md",
+    "basis": "Interactive/Game style inspired by \"KITE FESTIVAL — paper winds\". Flexbox, Backdrop Filter, CSS Filters.",
+    "styles": [
+      "experimental"
+    ]
+  },
+  "designmd-library-prism-light-puzzle": {
+    "source": "public/design-archive/designmd-library-prism-light-puzzle/design.md",
+    "basis": "Interactive/Game style inspired by \"PRISM BREAK — an optics puzzle\". Flexbox, Transitions, Transforms.",
+    "styles": [
+      "experimental"
+    ]
+  },
+  "designmd-library-rally-pong-gallery": {
+    "source": "public/design-archive/designmd-library-rally-pong-gallery/design.md",
+    "basis": "Interactive/Game style inspired by \"RALLY — pong, reconsidered\". Flexbox, Transitions, Transforms.",
+    "styles": [
+      "experimental"
+    ]
+  },
+  "designmd-library-transit-map-journey": {
+    "source": "public/design-archive/designmd-library-transit-map-journey/design.md",
+    "basis": "Interactive/Animated style inspired by \"LINE 7 — TRANSIT\". CSS Grid, Flexbox, Keyframe Animations. With animations.",
+    "styles": [
+      "experimental"
+    ]
+  },
+  "designmd-library-constellation-field": {
+    "source": "public/design-archive/designmd-library-constellation-field/design.md",
+    "basis": "Space/Cosmic style inspired by \"SIGNAL &amp; SILENCE — a quiet field\". Backdrop Filter, CSS Filters, Keyframe Animations. With animations.",
+    "styles": [
+      "futuristic"
+    ]
+  },
+  "designmd-library-cosmos-scroll-journey": {
+    "source": "public/design-archive/designmd-library-cosmos-scroll-journey/design.md",
+    "basis": "Space/Cosmic style inspired by \"ONE SMALL STEP — Earth to Moon\". Flexbox, Backdrop Filter, CSS Filters. With animations.",
+    "styles": [
+      "futuristic"
+    ]
+  },
+  "designmd-library-floating-planets": {
+    "source": "public/design-archive/designmd-library-floating-planets/design.md",
+    "basis": "Space/Cosmic style inspired by \"wander. — a daydream of planets\". Backdrop Filter, CSS Filters, Keyframe Animations. With animations.",
+    "styles": [
+      "futuristic"
+    ]
+  },
+  "designmd-library-gravity-orbits": {
+    "source": "public/design-archive/designmd-library-gravity-orbits/design.md",
+    "basis": "Space/Cosmic style inspired by \"THREE BODY — a gravity playground\". Flexbox, Backdrop Filter, CSS Filters.",
+    "styles": [
+      "futuristic"
+    ]
+  },
+  "designmd-library-helios-mission-control": {
+    "source": "public/design-archive/designmd-library-helios-mission-control/design.md",
+    "basis": "Interactive/Animated style inspired by \"HELIOS-9 // MISSION CONTROL\". CSS Grid, Flexbox, Keyframe Animations. With animations.",
+    "styles": [
+      "futuristic"
+    ]
+  },
+  "designmd-library-observatory-star-chart": {
+    "source": "public/design-archive/designmd-library-observatory-star-chart/design.md",
+    "basis": "Space/Cosmic style inspired by \"THE OBSERVATORY\". Flexbox, Backdrop Filter, CSS Filters. With animations.",
+    "styles": [
+      "futuristic"
+    ]
+  },
+  "designmd-library-darkroom-film-timer": {
+    "source": "public/design-archive/designmd-library-darkroom-film-timer/design.md",
+    "basis": "Time/Clock style inspired by \"THE DARKROOM — a film development timer\". Flexbox, Keyframe Animations, Transitions. With animations.",
+    "styles": [
+      "retro"
+    ]
+  },
+  "designmd-library-flight-departures-board": {
+    "source": "public/design-archive/designmd-library-flight-departures-board/design.md",
+    "basis": "Artistic/Creative style inspired by \"DEPARTURES — the split-flap board\". CSS Grid, Flexbox, Keyframe Animations. With animations.",
+    "styles": [
+      "retro"
+    ]
+  },
+  "designmd-library-nautical-maritime": {
+    "source": "public/design-archive/designmd-library-nautical-maritime/design.md",
+    "basis": "Reference for subculturas & estéticas de nicho Nautical / Maritime. Visual language of sailing and coastal life: naval uniform stripes, signal-flag systems, rope craft, and brass ship fittings, later adopted by New England yacht clubs and coastal resort branding.",
+    "styles": [
+      "retro"
+    ]
+  },
+  "designmd-library-noise-radio-tuner": {
+    "source": "public/design-archive/designmd-library-noise-radio-tuner/design.md",
+    "basis": "Audio/Music style inspired by \"BETWEEN STATIONS — a night radio\". Flexbox, Transitions, Transforms.",
+    "styles": [
+      "retro"
+    ]
+  },
+  "designmd-library-de-stijl": {
+    "source": "public/design-archive/designmd-library-de-stijl/design.md",
+    "basis": "Reference for movimentos históricos De Stijl / Neoplasticism. Netherlands (Theo van Doesburg, Piet Mondrian).",
+    "styles": [
+      "geometric"
+    ]
+  },
+  "designmd-library-mandala-studio": {
+    "source": "public/design-archive/designmd-library-mandala-studio/design.md",
+    "basis": "Artistic/Creative style inspired by \"MANDALA — radial symmetry studio\". Flexbox, Backdrop Filter, CSS Filters.",
+    "styles": [
+      "geometric"
+    ]
+  },
+  "designmd-library-tiled-mosaic-mandala": {
+    "source": "public/design-archive/designmd-library-tiled-mosaic-mandala/design.md",
+    "basis": "Artistic/Creative style inspired by \"ZELLIGE — the mosaic maker\". CSS Grid, Flexbox, Backdrop Filter.",
+    "styles": [
+      "geometric"
+    ]
+  },
+  "designmd-library-fauvism": {
+    "source": "public/design-archive/designmd-library-fauvism/design.md",
+    "basis": "Reference for movimentos históricos Fauvism. Paris (Henri Matisse, Andre Derain, Maurice de Vlaminck); named after a critic called the painters 'les fauves' (wild beasts).",
+    "styles": [
+      "artistic"
+    ]
+  },
+  "designmd-library-goth": {
+    "source": "public/design-archive/designmd-library-goth/design.md",
+    "basis": "Reference for subculturas & estéticas de nicho Goth / Gothic. Post-punk goth subculture.",
+    "styles": [
+      "artistic"
+    ]
+  },
+  "designmd-library-herbarium-specimen-plates": {
+    "source": "public/design-archive/designmd-library-herbarium-specimen-plates/design.md",
+    "basis": "Scientific style inspired by \"HERBARIUM — folio XII\". Flexbox, Backdrop Filter, CSS Filters. With animations.",
+    "styles": [
+      "organic"
+    ]
+  },
+  "designmd-library-tidepool-lowtide": {
+    "source": "public/design-archive/designmd-library-tidepool-lowtide/design.md",
+    "basis": "Weather/Nature style inspired by \"LOW TIDE — an interactive tide pool\". Flexbox, Backdrop Filter, CSS Filters.",
+    "styles": [
+      "organic"
+    ]
+  },
+  "designmd-library-weather-orb": {
+    "source": "public/design-archive/designmd-library-weather-orb/design.md",
+    "basis": "Weather/Nature style inspired by \"TEMPER — a weather instrument\". CSS Grid, Flexbox, Backdrop Filter. With animations.",
+    "styles": [
+      "organic"
+    ]
+  },
+  "designmd-library-horologe-watch": {
+    "source": "public/design-archive/designmd-library-horologe-watch/design.md",
+    "basis": "Time/Clock style inspired by \"HOROLOGÉ — Time, considered.\". CSS Grid, Flexbox, CSS Filters. With animations.",
+    "styles": [
+      "luxury"
+    ]
+  },
+  "designmd-library-warming-stripes": {
+    "source": "public/design-archive/designmd-library-warming-stripes/design.md",
+    "basis": "Interactive/Animated style inspired by \"WARMING STRIPES — 1880→2025\". Flexbox, Keyframe Animations, Transitions. With animations.",
+    "styles": [
+      "dashboard"
+    ]
+  },
+  "azak-5f128a23": {
+    "styles": [
+      "industrial"
+    ],
+    "source": "public/design-archive/azak-5f128a23/design.md",
+    "basis": "expedition vehicle in twilight. Build pages as a sequence of stark technical exhibits: black field, pale specification sheet, then a rendered mobility system."
+  },
+  "cards-against-humanity-51b5d80e": {
+    "styles": [
+      "skeuomorphic"
+    ],
+    "source": "public/design-archive/cards-against-humanity-51b5d80e/design.md",
+    "basis": "Scattered playing cards on a velvet game table — the design language is the game itself, not a wrapper around it."
+  },
+  "cqcm-12db22d6": {
+    "styles": [
+      "geometric"
+    ],
+    "source": "public/design-archive/cqcm-12db22d6/design.md",
+    "basis": "Verdant cooperative megaphone. A vivid green slab screams a civic message across a white grid while black pill buttons ground the chromatic energy."
+  },
+  "todoist-729ba7a8": {
+    "styles": [
+      "product-ui"
+    ],
+    "source": "public/design-archive/todoist-729ba7a8/design.md",
+    "basis": "Sunlit workspace with a paper planner — warm off-white desk, ink notes, one red pen"
+  },
+  "designmd-library-illuminated-manuscript": {
+    "styles": [
+      "maximal"
+    ],
+    "source": "public/design-archive/designmd-library-illuminated-manuscript/design.md",
+    "basis": "Reference for movimentos históricos Illuminated Manuscript. Medieval European monastic scriptoria."
+  }
+}

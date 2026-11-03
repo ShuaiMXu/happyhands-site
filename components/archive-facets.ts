@@ -1,11 +1,21 @@
 // Conservative, source-backed facets. They describe archived references rather
 // than changing their design tokens. No match remains unclassified.
 export const archiveStyles = [
+  ["artistic", "艺术表现", "Artistic", "fauvism|expressionism|gothic"],
+  ["glass", "玻璃质感", "Glass", "glassmorph|frosted|liquid.glass|translucen|acrylic"],
+  ["soft-ui", "柔性拟物", "Soft UI", "neumorph|soft.ui|soft.3d|claymorph"],
+  ["skeuomorphic", "写实拟物", "Skeuomorphic", "skeuomorph|material.realism|physical.material|leather|wood.grain|metallic|brushed.metal"],
+  ["pixel", "像素与终端", "Pixel & Terminal", "pixel|terminal|ascii|8.bit|16.bit|\\bdos\\b|command.line|dot.matrix"],
+  ["flat", "扁平设计", "Flat", "flat.design|flat.ui|material.design|fluent.design"],
+  ["maximal", "繁复装饰", "Maximalist", "maximal|ornament|baroque|rococo|art.nouveau|art.deco"],
+  ["photographic", "摄影主导", "Photography-led", "photograph|photo.led|photo.first|photo.driven|full.screen.video|full.bleed.image"],
+  ["dashboard", "数据界面", "Data UI", "dashboard|data.dense|data.clarity|data.visualization|infographic|bento"],
+  ["product-ui", "产品界面", "Product UI", "design.system|component.library|interface.pattern|mobile.first|functional.interface|utility.first"],
   [
     "minimal",
     "极简",
     "Minimal",
-    "minimalis[t m]|minimal design|restrained|understated",
+    "\\bminimal(?:ism|ist)?\\b|restrained|restraint|understated|zen|wabi.sabi|negative.space",
   ],
   [
     "swiss",
@@ -114,6 +124,17 @@ export const archiveStyles = [
   ],
 ] as const;
 export const archiveTypeRules = [
+  ["agriculture", "农业与生态", "Agriculture & Ecology", "regenerative agriculture|agricultural platform"],
+  ["beauty", "美妆与护理", "Beauty & Care", "skincare|cosmetics"],
+  ["games", "游戏与互动", "Games", "gaming console|video game"],
+  ["launch", "发布预告", "Launch Pages", "coming.soon|pre.launch|teaser"],
+  ["transport", "汽车与出行", "Mobility & Transport", "automotive|aviation|ride.hailing|transportation"],
+  ["social", "社交与通讯", "Social & Messaging", "messaging app|social app|dating|messenger"],
+  ["events", "活动与婚礼", "Events & Weddings", "wedding|event.discovery|event platform"],
+  ["science", "科学与能源", "Science & Energy", "biotech|biotechnology|climate.policy|energy storage"],
+  ["government", "政府与公共服务", "Government & Public Services", "government|public service|gov\\.br|\\.gov\\b"],
+  ["style-template", "风格模板", "Style templates", "(?!)"],
+  ["brand-reference", "品牌参考", "Brand references", "(?!)"],
   [
     "portfolio",
     "个人作品集",

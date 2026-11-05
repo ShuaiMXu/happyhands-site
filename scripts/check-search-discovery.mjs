@@ -17,7 +17,7 @@ export function assertSearchContent(url,html){
  if(['/guide/','/en/guide/'].includes(path)){
   assert.ok(body.includes('pnpm workbench')&&body.includes('.harness/'),'Missing prerendered setup guide');
  }
- if(['/ai-ui-review/','/en/ai-ui-review/','/ai-website-design/','/en/ai-website-design/'].includes(path)){
+ if(['/nonprofit-website-design/','/en/nonprofit-website-design/','/ai-ui-review/','/en/ai-ui-review/','/ai-website-design/','/en/ai-website-design/'].includes(path)){
   assert.match(body,/<h1\b[^>]*>[^<]+<\/h1>/,'Missing prerendered workflow heading');
   assert.ok(body.includes('Codex CLI')&&body.includes('Local Web Alpha')&&body.includes('.harness/'),'Missing prerendered workflow content');
  }

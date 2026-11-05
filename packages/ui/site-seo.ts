@@ -1,8 +1,11 @@
 import {workflowMetadata,workflowPaths} from "../../workflows/metadata.ts";
+import {nonprofitMetadata,nonprofitPath} from "../../workflows/nonprofit-metadata.ts";
 export const siteOrigin = "https://happyhands.cc";
 const core = "https://github.com/ShuaiMXu/happyhands";
 export type SeoLanguage = "zh" | "en";
 export const seoPages = {
+ nonprofit:{path:nonprofitPath,file:"nonprofit-website-design/index.html",zh:[nonprofitMetadata.zh.title,nonprofitMetadata.zh.description],en:[nonprofitMetadata.en.title,nonprofitMetadata.en.description]},
+ nonprofitEn:{path:"/en"+nonprofitPath,file:"en/nonprofit-website-design/index.html",zh:[nonprofitMetadata.zh.title,nonprofitMetadata.zh.description],en:[nonprofitMetadata.en.title,nonprofitMetadata.en.description]},
   review:{path:"/ai-ui-review/",file:"ai-ui-review/index.html",zh:workflowMetadata.review.zh,en:workflowMetadata.review.en},
   reviewEn:{path:"/en/ai-ui-review/",file:"en/ai-ui-review/index.html",zh:workflowMetadata.review.zh,en:workflowMetadata.review.en},
   design:{path:"/ai-website-design/",file:"ai-website-design/index.html",zh:workflowMetadata.design.zh,en:workflowMetadata.design.en},
@@ -40,7 +43,7 @@ export const guideFaq = {
 } as const;
 const esc=(s:string)=>s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]!));
 export function seoData(key:SeoPage,language:SeoLanguage="zh") {
- const page=seoPages[key],lang=key.endsWith("En")?"en":["guide","review","design"].includes(key)?"zh":language;
+ const page=seoPages[key],lang=key.endsWith("En")?"en":["guide","review","design","nonprofit"].includes(key)?"zh":language;
  const [title,description]=page[lang],url=siteOrigin+page.path;
  const graph:Record<string,unknown>[]=[
   {"@type":"Organization","@id":siteOrigin+"/#project",name:"HappyHands",url:siteOrigin,logo:siteOrigin+"/brand/happyhands-logo-ink.png",sameAs:[core,core+"-site"]},
@@ -53,7 +56,7 @@ export function seoData(key:SeoPage,language:SeoLanguage="zh") {
 }
 export function seoHead(key:SeoPage,language:SeoLanguage="zh") {
  const x=seoData(key,language),tags:Record<string,string>={"og:type":"website","og:site_name":"HappyHands","og:title":x.title,"og:description":x.description,"og:url":x.url,"og:image":x.image,"og:image:width":"1200","og:image:height":"630","og:image:alt":"HappyHands / Open-source UI design review","og:locale":x.lang==="zh"?"zh_CN":"en_US","twitter:card":"summary_large_image","twitter:title":x.title,"twitter:description":x.description,"twitter:image":x.image,"twitter:image:alt":"HappyHands / Open-source UI design review"};
- const alternatePath=key.startsWith("guide")?"/guide/":key.startsWith("review")?workflowPaths.review:key.startsWith("design")?workflowPaths.design:null;
+ const alternatePath=key.startsWith("nonprofit")?nonprofitPath:key.startsWith("guide")?"/guide/":key.startsWith("review")?workflowPaths.review:key.startsWith("design")?workflowPaths.design:null;
  const alternates=alternatePath?`<link rel="alternate" hreflang="zh-CN" href="${siteOrigin}${alternatePath}"><link rel="alternate" hreflang="en" href="${siteOrigin}/en${alternatePath}"><link rel="alternate" hreflang="x-default" href="${siteOrigin}/en${alternatePath}">`:"";
  return `<title>${esc(x.title)}</title><meta name="description" content="${esc(x.description)}"><link rel="canonical" href="${x.url}">${Object.entries(tags).map(([k,v])=>`<meta ${k.startsWith("og:")?"property":"name"}="${k}" content="${esc(v)}">`).join("")}${alternates}<script id="site-structured-data" type="application/ld+json">${JSON.stringify(x.graph).replace(/</g,"\\u003c")}</script>`;
 }

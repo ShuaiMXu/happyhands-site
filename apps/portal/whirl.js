@@ -45,7 +45,13 @@ export function startWhirl(container, images) {
   if (!container || !images.length) return;
   const motion = matchMedia('(prefers-reduced-motion: reduce)');
   const lut = buildSpiral();
-  const count = lut.count;
+  // Shuffle without replacement so each tile has its own cover on every visit.
+  const pool = [...new Set(images)];
+  for (let i = pool.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [pool[i], pool[j]] = [pool[j], pool[i]];
+  }
+  const count = Math.min(lut.count, pool.length);
   const widths = [120, 118, 85];
   const rotor = document.createElement('div');
   rotor.className = 'pd-whirl-rotor';
@@ -59,7 +65,7 @@ export function startWhirl(container, images) {
     img.alt = '';
     img.decoding = 'async';
     img.addEventListener('load', () => { img.style.opacity = '1'; }, {once:true});
-    img.src = images[i % images.length];
+    img.src = pool[i];
     tile.appendChild(img);
     rotor.appendChild(tile);
     return tile;

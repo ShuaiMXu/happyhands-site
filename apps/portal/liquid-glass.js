@@ -7,7 +7,7 @@ function lensMap(width, height, radius) {
   const w = Math.max(1, Math.round(width * ratio));
   const h = Math.max(1, Math.round(height * ratio));
   const r = Math.min(radius * ratio, w / 2, h / 2);
-  const bevel = Math.max(4, Math.min(24 * ratio, h / 2));
+  const bevel = Math.max(4, Math.min(32 * ratio, h / 2));
   const canvas = document.createElement("canvas");
   canvas.width = w;
   canvas.height = h;
@@ -36,7 +36,7 @@ function lensMap(width, height, radius) {
       else ny = Math.sign(py);
       const i = (y * w + x) * 4;
       // Low-frequency surface variation adds optical roughness without a noise overlay.
-      const ripple = Math.sin(x / 28) * Math.sin(y / 11) * 5;
+      const ripple = Math.sin(x / 28) * Math.sin(y / 11) * 2.5;
       pixels.data[i] = 128 + nx * bend * 108 + ripple;
       pixels.data[i + 1] = 128 + ny * bend * 108 + ripple;
       pixels.data[i + 2] = 128;
@@ -80,13 +80,27 @@ export function setupLiquidGlass() {
     image.setAttribute("width", "100%");
     image.setAttribute("height", "100%");
     image.setAttribute("preserveAspectRatio", "none");
-    const displace = document.createElementNS(svgNS, "feDisplacementMap");
-    displace.setAttribute("in", "SourceGraphic");
-    displace.setAttribute("in2", "lens-map");
-    displace.setAttribute("scale", "34");
-    displace.setAttribute("xChannelSelector", "R");
-    displace.setAttribute("yChannelSelector", "G");
-    filter.append(image, displace);
+    // Three slightly different edge bends split the background into a prism-like fringe.
+    // The content is outside this surface, so labels and controls remain sharp.
+    filter.append(image);
+    const bends=[];
+    for (const [channel, scale, matrix] of [
+      ['red', 64, '1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0'],
+      ['green', 60, '0 0 0 0 0  0 1 0 0 0  0 0 0 0 0  0 0 0 1 0'],
+      ['blue', 56, '0 0 0 0 0  0 0 0 0 0  0 0 1 0 0  0 0 0 1 0'],
+    ]) {
+      const bend=document.createElementNS(svgNS,'feDisplacementMap');
+      for(const [key,value] of Object.entries({in:'SourceGraphic',in2:'lens-map',scale:String(scale),xChannelSelector:'R',yChannelSelector:'G',result:channel+'-bend'}))bend.setAttribute(key,value);
+      const tint=document.createElementNS(svgNS,'feColorMatrix');
+      tint.setAttribute('in',channel+'-bend');tint.setAttribute('type','matrix');tint.setAttribute('values',matrix);tint.setAttribute('result',channel);
+      filter.append(bend,tint);
+      bends.push([bend,scale]);
+    }
+    for(const [a,b,result]of [['red','green','red-green'],['red-green','blue','prism']]) {
+      const combine=document.createElementNS(svgNS,'feComposite');
+      for(const [key,value]of Object.entries({in:a,in2:b,operator:'arithmetic',k2:'1',k3:'1',result}))combine.setAttribute(key,value);
+      filter.append(combine);
+    }
     defs.append(filter);
     let sizeKey = "",
       resizeFrame = 0,
@@ -94,6 +108,7 @@ export function setupLiquidGlass() {
     const resize = () => {
       resizeFrame = 0;
       const { width, height } = target.getBoundingClientRect();
+      for(const [bend,scale] of bends) bend.setAttribute("scale",String(scale*(width<620?.7:1)));
       const radius = parseFloat(getComputedStyle(target).borderRadius) || 0;
       const key = `${Math.round(width)}:${Math.round(height)}:${radius}`;
       if (!width || !height || key === sizeKey) return;

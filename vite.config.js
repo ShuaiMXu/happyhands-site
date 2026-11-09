@@ -46,13 +46,14 @@ export default defineConfig({
       const entry=Object.entries(seoPages).find(([,page])=>page.file===filename);
       if(!entry)return html;
       const [key]=entry;
+      if(key==='studio')return html;
       html=enhanceSeoHtml(html,key);
       if(key==='portal')return html.replace('<div id="hero-connect"></div>', `<div id="hero-connect">${heroConnectMarkup('zh')}</div>`).replace('<div id="portal-content"></div>', `<div id="portal-content">${portalContent('zh')}</div>`);
       if(key==='guide'||key==='guideEn')return html.replace('<div id="guide-content"></div>',`<div id="guide-content">${guideContent(key==='guideEn'?'en':'zh')}</div>`);
       if(['review','reviewEn','design','designEn'].includes(key))return html.replace('<div id="workflow-content"></div>',`<div id="workflow-content">${workflowContent(key.startsWith('review')?'review':'design',key.endsWith('En')?'en':'zh')}</div>`);
       if(key==='nonprofit'||key==='nonprofitEn')return html.replace('<div id="workflow-content"></div>',`<div id="workflow-content">${nonprofitContent(key==='nonprofitEn'?'en':'zh')}</div>`);
       const data=seoData(key);
-      return html.replace('<div id="root"></div>',`<div id="root"><noscript><main><h1>${data.title}</h1><p>${data.description}</p><p>交互预览需要启用 JavaScript。<a href="/guide/">阅读使用指南</a> / <a href="/en/guide/">Read the English guide</a></p><nav aria-label="设计资源"><a href="/systems/happyhands/">HappyHands</a> / <a href="/systems/quartz/">Quartz</a> / <a href="/systems/lime/">Lime</a> / <a href="/apps/studio/">主题工作室</a> / <a href="/components/">组件与参考</a></nav></main></noscript></div>`);
+      return html.replace('<div id="root"></div>',`<div id="root"><noscript><main><h1>${data.title}</h1><p>${data.description}</p><p>交互预览需要启用 JavaScript。<a href="/guide/">阅读使用指南</a> / <a href="/en/guide/">Read the English guide</a></p><nav aria-label="设计资源"><a href="/systems/happyhands/">HappyHands</a> / <a href="/systems/quartz/">Quartz</a> / <a href="/systems/lime/">Lime</a> / <a href="/components/">组件与参考</a></nav></main></noscript></div>`);
     }
   },{name:'kage-reference-search',configureServer(server){server.middlewares.use('/api/kage',kageHandler)},configurePreviewServer(server){server.middlewares.use('/api/kage',kageHandler)}},{
     name: 'skillry-mirror-dir-index',

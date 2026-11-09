@@ -154,13 +154,7 @@ export function ArchiveGallery({ lang }: { lang: string }) {
               );
             }}
           >
-            {selected.source !== "designmd.app" && <a
-              className="hh-button"
-              href={`/apps/studio/?design=${encodeURIComponent(selected.slug)}`}
-              target="_top"
-            >
-              {zh ? "接入设计系统" : "Use this design"}
-            </a>}
+
           </ResourceDetailHeader>
           <ResourceDetailContent key={selected.slug} lang={lang}>
             <div className="resource-detail-preview" id="reference-original">

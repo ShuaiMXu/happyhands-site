@@ -5,7 +5,7 @@ import {portalContent} from '../apps/portal/render-content.js';
 import {seoPages,seoData,seoHead,enhanceSeoHtml,guideFaq} from '../packages/ui/site-seo.ts';
 import {guideContent} from '../guide/content.ts';
 const origin='https://happyhands.cc';
-const paths=['apps/portal','systems/happyhands','systems/quartz','systems/lime','apps/studio','components'];
+const paths=['apps/portal','systems/happyhands','systems/quartz','systems/lime','components'];
 const read=path=>readFile(new URL(`../${path}`,import.meta.url),'utf8');
 test('public metadata consistently identifies the production domain',async()=>{
   const sitemap=await read('public/sitemap.xml');
@@ -42,8 +42,8 @@ test('shared portal renderer provides real content in both languages without bro
     for(const id of ['design-resources'])assert.equal((html.match(new RegExp(`id="${id}"`,'g'))||[]).length,1,id);
     assert.ok(!html.includes('pnpm workbench'));
     assert.ok(!html.includes('homepage-case'));
-    assert.equal((html.match(/role="tab"/g)||[]).length,5);
-    for(const id of ['design-md','systems','cult-ui','studio','setup']){
+    assert.equal((html.match(/role="tab"/g)||[]).length,4);
+    for(const id of ['design-md','systems','cult-ui','setup']){
       assert.ok(html.includes(`id="feed-tab-${id}"`));
       assert.ok(html.includes(`id="feed-panel-${id}"`));
     }
@@ -85,7 +85,7 @@ test('translated guides are complete without JavaScript and match their FAQ sche
 
 test('machine reading aid links to user-facing facts and preserves crawler exclusions',async()=>{
  const text=await read('public/llms.txt');
- for(const href of ['/guide/','/en/guide/','/apps/studio/','/components/','github.com/ShuaiMXu/happyhands'])assert.ok(text.includes(href));
+ for(const href of ['/guide/','/en/guide/','/components/','github.com/ShuaiMXu/happyhands'])assert.ok(text.includes(href));
  assert.ok(text.includes('processing')||text.includes('Processing'));
  assert.ok(text.includes('not an indexing requirement'));
  const robots=await read('public/robots.txt');

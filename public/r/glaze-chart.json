@@ -1,0 +1,14 @@
+{
+  "name": "glaze-chart",
+  "type": "registry:item",
+  "title": "glaze / Chart",
+  "description": "Shows numbers over time or by bucket.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/chart.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "chart",
+    "version": "2026-11-09.1"
+  }
+}

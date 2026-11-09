@@ -1,0 +1,14 @@
+{
+  "name": "quartz-scroll-focus",
+  "type": "registry:item",
+  "title": "quartz / Scroll tab stop",
+  "description": "Support file: puts a scroll box in the tab order while its content overflows, so a keyboard can scroll it.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/scroll-focus.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "scroll-focus",
+    "version": "2026-11-09.1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "quartz-skeleton",
+  "type": "registry:item",
+  "title": "quartz / Skeleton",
+  "description": "Holds the shape of loading content.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/skeleton.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "skeleton",
+    "version": "2026-11-09.1"
+  }
+}

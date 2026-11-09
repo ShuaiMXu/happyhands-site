@@ -9,8 +9,14 @@
     "internal"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/index.md",
-    "page": "https://happyhands.cc/design-how/quartz/index.md"
+    "docs": "https://happyhands.cc/systems/quartz/index.md",
+    "page": "https://happyhands.cc/systems/quartz/index.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/quartz/registry/items/skill.json",
+      "sourceSha256": "37722e6995168b948d72117c0295eb9d23dae1c846252611a3fabb530c677e22",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

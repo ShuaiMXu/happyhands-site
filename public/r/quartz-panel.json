@@ -1,0 +1,14 @@
+{
+  "name": "quartz-panel",
+  "type": "registry:item",
+  "title": "quartz / Panel",
+  "description": "A grey widget for an overview or settings screen: header on the grey, content in a white body.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/panel.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "panel",
+    "version": "2026-11-09.1"
+  }
+}

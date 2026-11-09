@@ -1,0 +1,14 @@
+{
+  "name": "sodium-tooltip",
+  "type": "registry:item",
+  "title": "sodium / Tooltip",
+  "description": "Names a control on hover or focus.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/tooltip.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "tooltip",
+    "version": "2026-11-09.1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "sodium-button",
+  "type": "registry:item",
+  "title": "sodium / Button",
+  "description": "Starts an action.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/button.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "button",
+    "version": "2026-11-09.1"
+  }
+}

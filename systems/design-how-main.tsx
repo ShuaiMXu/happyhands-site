@@ -14,7 +14,8 @@ import "../packages/ui/owned-ui.css";
 function App() {
   const { lang, dark, toggleTheme, toggleLanguage } = useSitePreferences();
   const system = location.pathname.split("/")[2];
-  const data = designHowSystems.find((s) => s.id === system)!;
+  const data = designHowSystems.find((s) => s.id === system);
+  if(!data)return <main><h1>{lang==='zh'?'找不到设计系统':'Design system not found'}</h1><a href="/components/?provider=systems">{lang==='zh'?'浏览设计系统':'Browse design systems'}</a></main>;
   return (
     <>
       <SiteHeader

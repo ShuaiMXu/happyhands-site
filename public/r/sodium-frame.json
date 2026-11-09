@@ -1,0 +1,14 @@
+{
+  "name": "sodium-frame",
+  "type": "registry:item",
+  "title": "sodium / Frame",
+  "description": "Boxes a region once and divides it by rules.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/frame.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "frame",
+    "version": "2026-11-09.1"
+  }
+}

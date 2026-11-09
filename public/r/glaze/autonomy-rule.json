@@ -16,8 +16,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/autonomy-rule.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/autonomy-rule.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/autonomy-rule.md",
+    "page": "https://happyhands.cc/systems/glaze/components/autonomy-rule.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/glaze/registry/items/autonomy-rule.json",
+      "sourceSha256": "fcc905cb8984f202f6b5b448b27df141ec13558337bae53974f8a5ac79ee9872",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

@@ -1,0 +1,14 @@
+{
+  "name": "quartz-dialog",
+  "type": "registry:item",
+  "title": "quartz / Dialog",
+  "description": "Modal work, with alert and typed-confirm variants.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/dialog.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "dialog",
+    "version": "2026-11-09.1"
+  }
+}

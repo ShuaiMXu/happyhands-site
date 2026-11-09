@@ -18,8 +18,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/chip.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/chip.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/chip.md",
+    "page": "https://happyhands.cc/systems/glaze/components/chip.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/glaze/registry/items/chip.json",
+      "sourceSha256": "4c164419356b54b51d7ff4aa08c6f7b31564fc76ff64aae43d7c36b743127fee",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

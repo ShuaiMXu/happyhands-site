@@ -1,0 +1,14 @@
+{
+  "name": "glaze-relative-time",
+  "type": "registry:item",
+  "title": "glaze / Relative time",
+  "description": "Shows a time as distance from now.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/relative-time.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "relative-time",
+    "version": "2026-11-09.1"
+  }
+}

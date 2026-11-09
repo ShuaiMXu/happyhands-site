@@ -1,0 +1,14 @@
+{
+  "name": "glaze-status",
+  "type": "registry:item",
+  "title": "glaze / Status",
+  "description": "Says where a piece of work stands.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/status.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "status",
+    "version": "2026-11-09.1"
+  }
+}

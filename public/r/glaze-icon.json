@@ -1,0 +1,14 @@
+{
+  "name": "glaze-icon",
+  "type": "registry:item",
+  "title": "glaze / Icon",
+  "description": "Support file: the one import point for icons: Phosphor at regular weight, 14px in controls.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/icon.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "icon",
+    "version": "2026-11-09.1"
+  }
+}

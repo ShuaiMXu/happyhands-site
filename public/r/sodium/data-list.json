@@ -16,8 +16,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/data-list.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/data-list.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/data-list.md",
+    "page": "https://happyhands.cc/systems/sodium/components/data-list.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/sodium/registry/items/data-list.json",
+      "sourceSha256": "5ba1d58d24e035740f34cfd4efe819eefbf27a8820907000b98c11b37df63279",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

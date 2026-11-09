@@ -1,0 +1,14 @@
+{
+  "name": "sodium-alert",
+  "type": "registry:item",
+  "title": "sodium / Alert",
+  "description": "Reports a problem or a change in the current view.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/alert.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "alert",
+    "version": "2026-11-09.1"
+  }
+}

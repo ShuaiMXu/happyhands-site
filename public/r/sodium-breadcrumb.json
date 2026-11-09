@@ -1,0 +1,14 @@
+{
+  "name": "sodium-breadcrumb",
+  "type": "registry:item",
+  "title": "sodium / Breadcrumb",
+  "description": "Shows where the page sits, as a path.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/breadcrumb.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "breadcrumb",
+    "version": "2026-11-09.1"
+  }
+}

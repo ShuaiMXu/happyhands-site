@@ -1,0 +1,14 @@
+{
+  "name": "lime-checkbox",
+  "type": "registry:item",
+  "title": "lime / Checkbox",
+  "description": "One option on or off, with a mixed state.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/checkbox.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "checkbox",
+    "version": "2026-11-09.1"
+  }
+}

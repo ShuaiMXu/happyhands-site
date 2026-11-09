@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/checkbox.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/checkbox.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/checkbox.md",
+    "page": "https://happyhands.cc/systems/quartz/components/checkbox.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/quartz/registry/items/checkbox.json",
+      "sourceSha256": "6a5c63d72e6f12ef371390113305d6d8f52a7f1f9bdc12c41150a1f52f663afa",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

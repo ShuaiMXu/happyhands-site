@@ -1,0 +1,14 @@
+{
+  "name": "glaze-bulk-action-bar",
+  "type": "registry:item",
+  "title": "glaze / Bulk action bar",
+  "description": "Acts on the rows a person selected.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/bulk-action-bar.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "bulk-action-bar",
+    "version": "2026-11-09.1"
+  }
+}

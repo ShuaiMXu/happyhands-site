@@ -1,0 +1,4319 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "happyhands",
+  "homepage": "https://happyhands.cc",
+  "items": [
+    {
+      "name": "quartz-button",
+      "type": "registry:item",
+      "title": "quartz / Button",
+      "description": "Starts an action now. States: pressed and pending, which keeps the label.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/button.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "button",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-button-group",
+      "type": "registry:item",
+      "title": "quartz / Button group",
+      "description": "Joins related buttons, including a split menu.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/button-group.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "button-group",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-copy-button",
+      "type": "registry:item",
+      "title": "quartz / Copy button",
+      "description": "Copies a value and confirms in place.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/copy-button.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "copy-button",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-input",
+      "type": "registry:item",
+      "title": "quartz / Input",
+      "description": "One line of text. Variants: text, password, secret, copy, search, number and OTP, with prefix and suffix slots.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/input.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "input",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-textarea",
+      "type": "registry:item",
+      "title": "quartz / Textarea",
+      "description": "Several lines of text that grow.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/textarea.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "textarea",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-field",
+      "type": "registry:item",
+      "title": "quartz / Field",
+      "description": "Label, control, hint and error as one unit, plus the Form part.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/field.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "field",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-date-picker",
+      "type": "registry:item",
+      "title": "quartz / Date picker",
+      "description": "A date, range, date-time or time, with Calendar as its popup part.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/date-picker.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "date-picker",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-combobox",
+      "type": "registry:item",
+      "title": "quartz / Combobox",
+      "description": "A searchable choice, single, multiple or creatable.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/combobox.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "combobox",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-checkbox",
+      "type": "registry:item",
+      "title": "quartz / Checkbox",
+      "description": "One option on or off, with a mixed state.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/checkbox.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "checkbox",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-radio-group",
+      "type": "registry:item",
+      "title": "quartz / Radio group",
+      "description": "One choice from a short visible list.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/radio-group.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "radio-group",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-switch",
+      "type": "registry:item",
+      "title": "quartz / Switch",
+      "description": "A setting that applies immediately.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/switch.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "switch",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-slider",
+      "type": "registry:item",
+      "title": "quartz / Slider",
+      "description": "A value or range on a track.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/slider.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "slider",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-select",
+      "type": "registry:item",
+      "title": "quartz / Select",
+      "description": "One choice from a popup list, or the native select.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/select.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "select",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-segmented-control",
+      "type": "registry:item",
+      "title": "quartz / Segmented control",
+      "description": "Two to five views, single or multiple.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/segmented-control.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "segmented-control",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-badge",
+      "type": "registry:item",
+      "title": "quartz / Badge",
+      "description": "A static label for a count, category or kind, shown as a tinted word.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/badge.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "badge",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-chip",
+      "type": "registry:item",
+      "title": "quartz / Chip",
+      "description": "An interactive token: filter toggle, removable value or menu trigger.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/chip.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "chip",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-status",
+      "type": "registry:item",
+      "title": "quartz / Status",
+      "description": "Idle, queued, running, waiting, ok, warn and fail, as a mark or a word.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/status.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "status",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-stat",
+      "type": "registry:item",
+      "title": "quartz / Stat",
+      "description": "A plain numeral with its label, delta and trend.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/stat.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "stat",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-avatar",
+      "type": "registry:item",
+      "title": "quartz / Avatar",
+      "description": "A person, agent or source icon, alone or grouped.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/avatar.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "avatar",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-kbd",
+      "type": "registry:item",
+      "title": "quartz / Kbd",
+      "description": "A key or a shortcut.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/kbd.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "kbd",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-relative-time",
+      "type": "registry:item",
+      "title": "quartz / Relative time",
+      "description": "\"3m ago\", with the exact time on hover and focus.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/relative-time.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "relative-time",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-truncate",
+      "type": "registry:item",
+      "title": "quartz / Truncate",
+      "description": "Long IDs and text cut at the middle or the end, with the full value reachable.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/truncate.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "truncate",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-item",
+      "type": "registry:item",
+      "title": "quartz / Item",
+      "description": "The list row: media, title, meta, status and actions.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/item.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "item",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-card",
+      "type": "registry:item",
+      "title": "quartz / Card",
+      "description": "A white working surface for one topic, optionally collapsible.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/card.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "card",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-panel",
+      "type": "registry:item",
+      "title": "quartz / Panel",
+      "description": "A grey widget for an overview or settings screen: header on the grey, content in a white body.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/panel.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "panel",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-data-list",
+      "type": "registry:item",
+      "title": "quartz / Data list",
+      "description": "Label and value pairs for a detail view.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/data-list.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "data-list",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-alert",
+      "type": "registry:item",
+      "title": "quartz / Alert",
+      "description": "A message about the current view, inline or across the page.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/alert.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "alert",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-toast",
+      "type": "registry:item",
+      "title": "quartz / Toast",
+      "description": "Confirms an action or reports a background event, then leaves.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/toast.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "toast",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-empty-state",
+      "type": "registry:item",
+      "title": "quartz / Empty state",
+      "description": "A region with nothing to show, that failed, or that the person cannot see.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/empty-state.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "empty-state",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-skeleton",
+      "type": "registry:item",
+      "title": "quartz / Skeleton",
+      "description": "Holds the shape of loading content.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/skeleton.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "skeleton",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-progress",
+      "type": "registry:item",
+      "title": "quartz / Progress",
+      "description": "Bar, ring, steps or meter.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/progress.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "progress",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-dialog",
+      "type": "registry:item",
+      "title": "quartz / Dialog",
+      "description": "Modal work, with alert and typed-confirm variants.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/dialog.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "dialog",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-sheet",
+      "type": "registry:item",
+      "title": "quartz / Sheet",
+      "description": "A panel from an edge, modal or docked.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/sheet.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "sheet",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-popover",
+      "type": "registry:item",
+      "title": "quartz / Popover",
+      "description": "Anchored rich content, including the info toggletip and the hover preview.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/popover.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "popover",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-tooltip",
+      "type": "registry:item",
+      "title": "quartz / Tooltip",
+      "description": "Names an icon button or shows a shortcut; never holds anything essential.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/tooltip.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "tooltip",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-dropdown-menu",
+      "type": "registry:item",
+      "title": "quartz / Dropdown menu",
+      "description": "Actions from a trigger or a right click.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/dropdown-menu.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "dropdown-menu",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-command",
+      "type": "registry:item",
+      "title": "quartz / Command",
+      "description": "A searchable command list, the core of the command palette.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/command.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "command",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-tabs",
+      "type": "registry:item",
+      "title": "quartz / Tabs",
+      "description": "Panels of one view, with closable and reorderable document tabs.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/tabs.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "tabs",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-breadcrumb",
+      "type": "registry:item",
+      "title": "quartz / Breadcrumb",
+      "description": "Where the page sits.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/breadcrumb.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "breadcrumb",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-pagination",
+      "type": "registry:item",
+      "title": "quartz / Pagination",
+      "description": "Moves through pages of results.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/pagination.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "pagination",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-collapsible",
+      "type": "registry:item",
+      "title": "quartz / Collapsible",
+      "description": "Shows and hides one region, or a group of them.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/collapsible.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "collapsible",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-page-header",
+      "type": "registry:item",
+      "title": "quartz / Page header",
+      "description": "Support file: title, description, stats and actions.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/page-header.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "page-header",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-table",
+      "type": "registry:item",
+      "title": "quartz / Table",
+      "description": "Rows and columns with sort, selection, row actions and virtualization.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/table.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "table",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-filter-bar",
+      "type": "registry:item",
+      "title": "quartz / Filter bar",
+      "description": "Search plus filter chips and clear-all.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/filter-bar.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "filter-bar",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-timeline",
+      "type": "registry:item",
+      "title": "quartz / Timeline",
+      "description": "Shows when each step of a run started and how long it took, with the slow and failed ones marked.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/timeline.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "timeline",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-code-block",
+      "type": "registry:item",
+      "title": "quartz / Code block",
+      "description": "Highlighted code, one-line commands and inline code, with copy.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/code-block.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "code-block",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-json-view",
+      "type": "registry:item",
+      "title": "quartz / JSON view",
+      "description": "Foldable structured output.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/json-view.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "json-view",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-log-viewer",
+      "type": "registry:item",
+      "title": "quartz / Log viewer",
+      "description": "Streaming lines with levels, search and follow.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/log-viewer.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "log-viewer",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-attachment",
+      "type": "registry:item",
+      "title": "quartz / Attachment",
+      "description": "A file in a form, prompt or message, with drop zone and image tile.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/attachment.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "attachment",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-chart",
+      "type": "registry:item",
+      "title": "quartz / Chart",
+      "description": "Line, bar, sparkline or status buckets, with frame states, legend, tooltip and data table built in.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/chart.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "chart",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-message",
+      "type": "registry:item",
+      "title": "quartz / Message",
+      "description": "One turn from the person or the agent, plus dividers.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/message.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "message",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-conversation",
+      "type": "registry:item",
+      "title": "quartz / Conversation",
+      "description": "Keeps a streaming thread pinned to the bottom until the person scrolls.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/conversation.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "conversation",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-response",
+      "type": "registry:item",
+      "title": "quartz / Response",
+      "description": "Markdown that renders as it streams.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/response.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "response",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-reasoning",
+      "type": "registry:item",
+      "title": "quartz / Reasoning",
+      "description": "The model's thinking, open while it streams and folded when done.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/reasoning.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "reasoning",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-tool-call",
+      "type": "registry:item",
+      "title": "quartz / Tool call",
+      "description": "One call with its name, arguments, status, duration and output.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/tool-call.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "tool-call",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-activity",
+      "type": "registry:item",
+      "title": "quartz / Activity",
+      "description": "What the agent is doing now, with the first-wait loader.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/activity.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "activity",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-prompt-input",
+      "type": "registry:item",
+      "title": "quartz / Prompt input",
+      "description": "The composer editor with mentions, slash commands and voice.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/prompt-input.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "prompt-input",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-send-button",
+      "type": "registry:item",
+      "title": "quartz / Send button",
+      "description": "Support file: send, which becomes stop while the agent streams.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/send-button.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "send-button",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-mention",
+      "type": "registry:item",
+      "title": "quartz / Mention",
+      "description": "Support file: a resource named in a prompt or an answer.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/mention.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "mention",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-bulk-action-bar",
+      "type": "registry:item",
+      "title": "quartz / Bulk action bar",
+      "description": "Support file: actions for the rows a person has selected.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/bulk-action-bar.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "bulk-action-bar",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-data-grid",
+      "type": "registry:item",
+      "title": "quartz / Data grid",
+      "description": "A table with spreadsheet behavior: cell focus, editing and paste.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/data-grid.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "data-grid",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-project-home",
+      "type": "registry:item",
+      "title": "quartz / Workspace home",
+      "description": "A workspace home for a team of agents: the workspace and New agent, a strip of four numbers, the Conversations chart, what needs a look, the conversations table and the last prompt releases.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/project-home.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "project-home",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-agent-session",
+      "type": "registry:item",
+      "title": "quartz / Agent session",
+      "description": "One agent turn in a thread: tool calls under one live Activity header, the answer, a queued follow-up and the composer with Stop.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/agent-session.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "agent-session",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-tool-approval",
+      "type": "registry:item",
+      "title": "quartz / Tool approval",
+      "description": "An agent asks before it sends a refund, with Allow and Deny; the outcome takes focus after a choice.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/tool-approval.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "tool-approval",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-api-keys",
+      "type": "registry:item",
+      "title": "quartz / API keys",
+      "description": "Create a key and see it once at its full length, masked with reveal and copy; then the keys by their last four characters with Revoke.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/api-keys.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "api-keys",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-deploy-detail",
+      "type": "registry:item",
+      "title": "quartz / Prompt release",
+      "description": "A prompt release paused on a failed eval: the release card with the decision and Roll back, the rollout on one clock, the evals with the failure first, the log and the releases before it.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/deploy-detail.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "deploy-detail",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-run-trace",
+      "type": "registry:item",
+      "title": "quartz / Run trace",
+      "description": "One agent run as a waterfall of its steps and model calls, with the live step growing and the open step's details beside it.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/run-trace.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "run-trace",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-live-requests",
+      "type": "registry:item",
+      "title": "quartz / Live activity",
+      "description": "An agent's tool calls as they happen: result, tool and agent, trouble marked, with filters, Pause and the call docked beside the list.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/live-requests.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "live-requests",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-utils",
+      "type": "registry:item",
+      "title": "quartz / cn",
+      "description": "Support file: cn, which merges class names and resolves conflicts between Quartz's type roles and text colors; mergeClass, which keeps Quartz's classes when a caller passes a className function; and mergeRefs.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/utils.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "utils",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-icon",
+      "type": "registry:item",
+      "title": "quartz / Icon",
+      "description": "Support file: the one import point for icons: Font Awesome Free, Classic Solid.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/icon.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "icon",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-portal",
+      "type": "registry:item",
+      "title": "quartz / Portal",
+      "description": "Support file: puts overlays inside the .quartz scope so they keep its tokens.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/portal.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "portal",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-overlay",
+      "type": "registry:item",
+      "title": "quartz / Overlay",
+      "description": "Support file: what every overlay shares: the paper surface with its frame line and the way it appears; and for Dialog and Sheet, the open state that waits for a running action, Enter on the footer's default action, the backdrop and the scroll fade.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/overlay.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "overlay",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-kind",
+      "type": "registry:item",
+      "title": "quartz / Kinds",
+      "description": "Support file: the five kinds and two reserved statuses, as a type and an ordered list.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/kind.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "kind",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-format",
+      "type": "registry:item",
+      "title": "quartz / Column formatters",
+      "description": "Support file: picks one unit for a numeric column from its largest value.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/format.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "format",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-css-var",
+      "type": "registry:item",
+      "title": "quartz / CSS token reader",
+      "description": "Support file: reads a design token from the page for charts and canvases.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/css-var.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "css-var",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-direction",
+      "type": "registry:item",
+      "title": "quartz / Direction",
+      "description": "Support file: hands the document direction to Base UI.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/direction.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "direction",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-use-focus-when-replaced",
+      "type": "registry:item",
+      "title": "quartz / useFocusWhenReplaced",
+      "description": "Support file: moves focus to an outcome when the buttons that had it are replaced, so a keyboard user is not dropped to the top.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/use-focus-when-replaced.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "use-focus-when-replaced",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-use-offscreen",
+      "type": "registry:item",
+      "title": "quartz / useOffscreen",
+      "description": "Support file: marks a live frame with data-offscreen while it is out of view, so its running arc pauses.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/use-offscreen.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "use-offscreen",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-children",
+      "type": "registry:item",
+      "title": "quartz / Compound parts",
+      "description": "Support file: finds the compound parts of a component among its children.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/children.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "children",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-scroll-focus",
+      "type": "registry:item",
+      "title": "quartz / Scroll tab stop",
+      "description": "Support file: puts a scroll box in the tab order while its content overflows, so a keyboard can scroll it.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/scroll-focus.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "scroll-focus",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-lint",
+      "type": "registry:item",
+      "title": "quartz / Quartz lint",
+      "description": "One command that flags what Quartz's rules forbid in your app, such as a raw color, a hue filling a region or a status dot, and says what to use instead.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/lint.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "lint",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-theme",
+      "type": "registry:item",
+      "title": "quartz / Quartz theme",
+      "description": "Support file: tokens, scoped base styles and the Tailwind v4 theme mapping.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/theme.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "theme",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "quartz-skill",
+      "type": "registry:item",
+      "title": "quartz / Quartz skill",
+      "description": "Support file: teaches your coding agent Quartz's rules and components.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/quartz/skill.json"
+      ],
+      "meta": {
+        "system": "quartz",
+        "item": "skill",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-button",
+      "type": "registry:item",
+      "title": "lime / Button",
+      "description": "Starts an action, such as Send money. The lime primary is the one glowing action on a screen.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/button.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "button",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-copy-button",
+      "type": "registry:item",
+      "title": "lime / Copy button",
+      "description": "Copies a value, such as a payment link, and confirms with a check.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/copy-button.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "copy-button",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-input",
+      "type": "registry:item",
+      "title": "lime / Input",
+      "description": "One line of text, such as a merchant name or a search.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/input.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "input",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-textarea",
+      "type": "registry:item",
+      "title": "lime / Textarea",
+      "description": "Several lines of text, such as a note on a payment.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/textarea.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "textarea",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-field",
+      "type": "registry:item",
+      "title": "lime / Field",
+      "description": "A label, a control, a hint and an error, wired together.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/field.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "field",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-select",
+      "type": "registry:item",
+      "title": "lime / Select",
+      "description": "One choice from a list, such as an account or a category.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/select.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "select",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-combobox",
+      "type": "registry:item",
+      "title": "lime / Combobox",
+      "description": "A searchable choice from a long list, such as friends or merchants.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/combobox.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "combobox",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-dropzone",
+      "type": "registry:item",
+      "title": "lime / Dropzone",
+      "description": "A target for receipts and statements, with type and size checks.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/dropzone.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "dropzone",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-keypad",
+      "type": "registry:item",
+      "title": "lime / Keypad",
+      "description": "The number pad for entering an amount on a phone, such as how much to send.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/keypad.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "keypad",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-checkbox",
+      "type": "registry:item",
+      "title": "lime / Checkbox",
+      "description": "One option on or off, with a mixed state.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/checkbox.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "checkbox",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-radio",
+      "type": "registry:item",
+      "title": "lime / Radio",
+      "description": "One choice from a short visible list, such as a transfer speed.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/radio.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "radio",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-switch",
+      "type": "registry:item",
+      "title": "lime / Switch",
+      "description": "A setting that applies at once, such as round-ups.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/switch.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "switch",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-slider",
+      "type": "registry:item",
+      "title": "lime / Slider",
+      "description": "A value or a range on a track, such as a monthly savings amount.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/slider.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "slider",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-segmented",
+      "type": "registry:item",
+      "title": "lime / Segmented",
+      "description": "A short row of exclusive options, such as Week, Month and Year.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/segmented.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "segmented",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-chip",
+      "type": "registry:item",
+      "title": "lime / Chip",
+      "description": "A filter the person toggles, such as a spending category.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/chip.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "chip",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-badge",
+      "type": "registry:item",
+      "title": "lime / Badge",
+      "description": "A short fact that never changes on its own, such as Plus or New.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/badge.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "badge",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-avatar",
+      "type": "registry:item",
+      "title": "lime / Avatar",
+      "description": "A person, such as a friend you split a bill with, with initials as the fallback.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/avatar.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "avatar",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-card",
+      "type": "registry:item",
+      "title": "lime / Card",
+      "description": "A grouped block, such as a savings goal or a card, on warm grey, outlined or raised.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/card.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "card",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-table",
+      "type": "registry:item",
+      "title": "lime / Table",
+      "description": "Rows of transactions you scan across, with amounts at the end.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/table.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "table",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-list",
+      "type": "registry:item",
+      "title": "lime / List",
+      "description": "Rows of transactions, accounts or settings, each with a mark, a title and a value or a chevron.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/list.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "list",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-list-item-menu",
+      "type": "registry:item",
+      "title": "lime / List item menu",
+      "description": "A row's other actions behind a more button, for ListItem's menu.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/list-item-menu.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "list-item-menu",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-progress",
+      "type": "registry:item",
+      "title": "lime / Progress",
+      "description": "How far a goal has come, such as $640 of $1,000 saved, as a bar or a ring.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/progress.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "progress",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-amount",
+      "type": "registry:item",
+      "title": "lime / Amount",
+      "description": "A money amount with its sign, currency and tabular figures.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/amount.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "amount",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-status",
+      "type": "registry:item",
+      "title": "lime / Status",
+      "description": "The state of a payment as a dot and a word.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/status.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "status",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-empty",
+      "type": "registry:item",
+      "title": "lime / Empty",
+      "description": "An empty state with one action, such as Add a card.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/empty.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "empty",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-skeleton",
+      "type": "registry:item",
+      "title": "lime / Skeleton",
+      "description": "Still grey shapes in place of content that is loading, such as recent activity.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/skeleton.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "skeleton",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-error-state",
+      "type": "registry:item",
+      "title": "lime / Error state",
+      "description": "What failed to load, in its place, with Try again.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/error-state.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "error-state",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-toast",
+      "type": "registry:item",
+      "title": "lime / Toast",
+      "description": "A short note after an action, such as Moved $50 to savings, with an optional Undo.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/toast.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "toast",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-dialog",
+      "type": "registry:item",
+      "title": "lime / Dialog",
+      "description": "A focused task over a scrim, such as sending money.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/dialog.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "dialog",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-alert-dialog",
+      "type": "registry:item",
+      "title": "lime / Alert dialog",
+      "description": "A blocking decision, such as deleting a goal, that cannot be dismissed from outside.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/alert-dialog.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "alert-dialog",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-sheet",
+      "type": "registry:item",
+      "title": "lime / Sheet",
+      "description": "A panel from an edge, such as transaction details, that keeps the page visible.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/sheet.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "sheet",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-popover",
+      "type": "registry:item",
+      "title": "lime / Popover",
+      "description": "An anchored panel with controls, such as splitting a bill.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/popover.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "popover",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-dropdown-menu",
+      "type": "registry:item",
+      "title": "lime / Dropdown menu",
+      "description": "A list of commands behind a button.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/dropdown-menu.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "dropdown-menu",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-tooltip",
+      "type": "registry:item",
+      "title": "lime / Tooltip",
+      "description": "A short label on hover and focus.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/tooltip.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "tooltip",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-tabs",
+      "type": "registry:item",
+      "title": "lime / Tabs",
+      "description": "Switches between views of one list, such as Activity and Scheduled.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/tabs.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "tabs",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-toolbar",
+      "type": "registry:item",
+      "title": "lime / Toolbar",
+      "description": "A row of related controls with one tab stop.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/toolbar.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "toolbar",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-accordion",
+      "type": "registry:item",
+      "title": "lime / Accordion",
+      "description": "A stack of questions that open one at a time.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/accordion.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "accordion",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-collapsible",
+      "type": "registry:item",
+      "title": "lime / Collapsible",
+      "description": "One section that opens and closes, the base of the Why? in Approval request.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/collapsible.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "collapsible",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-separator",
+      "type": "registry:item",
+      "title": "lime / Separator",
+      "description": "A hairline between groups.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/separator.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "separator",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-scroll-area",
+      "type": "registry:item",
+      "title": "lime / Scroll area",
+      "description": "A scrolling region with a slim thumb.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/scroll-area.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "scroll-area",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-chat-input",
+      "type": "registry:item",
+      "title": "lime / Chat input",
+      "description": "The box a request to the assistant is written in, with the amount and send.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/chat-input.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "chat-input",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-message",
+      "type": "registry:item",
+      "title": "lime / Message",
+      "description": "One turn in a conversation with the assistant.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/message.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "message",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-tool-call",
+      "type": "registry:item",
+      "title": "lime / Tool call",
+      "description": "One step the assistant took, such as Moved $50 to Vacation fund, as a single line.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/tool-call.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "tool-call",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-follow-ups",
+      "type": "registry:item",
+      "title": "lime / Follow ups",
+      "description": "Suggested next requests under an answer.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/follow-ups.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "follow-ups",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-approval-request",
+      "type": "registry:item",
+      "title": "lime / Approval request",
+      "description": "The assistant asking before it moves money, with the amount, one reason, and Approve, Edit or Decline.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/approval-request.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "approval-request",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-action-receipt",
+      "type": "registry:item",
+      "title": "lime / Action receipt",
+      "description": "A message listing what the assistant just did, one line per action, with Undo.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/action-receipt.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "action-receipt",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-autonomy-rule",
+      "type": "registry:item",
+      "title": "lime / Autonomy rule",
+      "description": "How far the assistant may go on its own, as one sentence with the limit typed into it.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/autonomy-rule.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "autonomy-rule",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-receipt-match",
+      "type": "registry:item",
+      "title": "lime / Receipt match",
+      "description": "A receipt paired with its payment, with whether the two match.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/receipt-match.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "receipt-match",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-insight",
+      "type": "registry:item",
+      "title": "lime / Insight",
+      "description": "One thing the assistant noticed, as a sentence, the number behind it and a tiny line.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/insight.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "insight",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-bill-schedule",
+      "type": "registry:item",
+      "title": "lime / Bill schedule",
+      "description": "The bills coming up in date order, each under a date tile, with who pays it.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/bill-schedule.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "bill-schedule",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-balance",
+      "type": "registry:item",
+      "title": "lime / Balance",
+      "description": "The amount left in an account, kept in the header.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/balance.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "balance",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-home",
+      "type": "registry:item",
+      "title": "lime / Home screen",
+      "description": "An app home: a greeting, the balance, three quick actions with Add as the glow, and a savings goal.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/home.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "home",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-assistant-approval",
+      "type": "registry:item",
+      "title": "lime / Assistant approval",
+      "description": "You ask the assistant to pay a bill and it asks before it pays, with Approve as the glow.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/assistant-approval.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "assistant-approval",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-assistant-alert",
+      "type": "registry:item",
+      "title": "lime / Assistant alert",
+      "description": "The assistant flags an unusual charge or an unused subscription, with one row and the answers to it.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/assistant-alert.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "assistant-alert",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-settings-rules",
+      "type": "registry:item",
+      "title": "lime / Settings rules",
+      "description": "Payday rules and the assistant's limits as settings lists, one row per rule.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/settings-rules.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "settings-rules",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-split-request",
+      "type": "registry:item",
+      "title": "lime / Split request",
+      "description": "A bill you paid, split by what each person owes, with one request to send.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/split-request.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "split-request",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-utils",
+      "type": "registry:item",
+      "title": "lime / cn",
+      "description": "Support file: cn, which merges class names and knows Lime's radius and shadow names, and mergeClass, which keeps Lime's classes when className is a function of state.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/utils.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "utils",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-icon",
+      "type": "registry:item",
+      "title": "lime / Icon",
+      "description": "Support file: the one import point for Carbon icons.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/icon.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "icon",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-portal",
+      "type": "registry:item",
+      "title": "lime / Portal",
+      "description": "Support file: puts overlays inside the .lime scope so they keep its tokens.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/portal.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "portal",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-use-focus-when-replaced",
+      "type": "registry:item",
+      "title": "lime / useFocusWhenReplaced",
+      "description": "Support file: moves focus to an outcome when the buttons that had it are replaced, so a keyboard user is not dropped to the top.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/use-focus-when-replaced.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "use-focus-when-replaced",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-popup",
+      "type": "registry:item",
+      "title": "lime / Popup classes",
+      "description": "Support file: the panel, item and separator classes every floating list shares.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/popup.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "popup",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-lint",
+      "type": "registry:item",
+      "title": "lime / Lime lint",
+      "description": "One command that flags what Lime's rules forbid in your app, such as a raw color, a class Lime's theme lacks or a second primary action, and says what to use instead.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/lint.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "lint",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-theme",
+      "type": "registry:item",
+      "title": "lime / Lime theme",
+      "description": "Support file: tokens, scoped base and the Tailwind v4 theme mapping.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/theme.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "theme",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "lime-skill",
+      "type": "registry:item",
+      "title": "lime / Lime skill",
+      "description": "Support file: teaches your coding agent Lime's rules and components.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/lime/skill.json"
+      ],
+      "meta": {
+        "system": "lime",
+        "item": "skill",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-button",
+      "type": "registry:item",
+      "title": "glaze / Button",
+      "description": "Starts an action.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "button",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-toolbar",
+      "type": "registry:item",
+      "title": "glaze / Toolbar",
+      "description": "Holds a row of actions on one thing.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/toolbar.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "toolbar",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-field",
+      "type": "registry:item",
+      "title": "glaze / Field",
+      "description": "Gives an input its label and error.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/field.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "field",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-input",
+      "type": "registry:item",
+      "title": "glaze / Input",
+      "description": "Takes one line of text.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/input.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "input",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-textarea",
+      "type": "registry:item",
+      "title": "glaze / Textarea",
+      "description": "Takes several lines of text.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/textarea.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "textarea",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-chip",
+      "type": "registry:item",
+      "title": "glaze / Chip",
+      "description": "Shows a filter or a chosen value.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/chip.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "chip",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-checkbox",
+      "type": "registry:item",
+      "title": "glaze / Checkbox",
+      "description": "Turns one option on or off.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/checkbox.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "checkbox",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-radio-group",
+      "type": "registry:item",
+      "title": "glaze / Radio group",
+      "description": "Picks one of a few choices.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/radio-group.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "radio-group",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-switch",
+      "type": "registry:item",
+      "title": "glaze / Switch",
+      "description": "Turns a setting on or off at once.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/switch.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "switch",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-slider",
+      "type": "registry:item",
+      "title": "glaze / Slider",
+      "description": "Picks a number or a range.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/slider.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "slider",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-segmented-control",
+      "type": "registry:item",
+      "title": "glaze / Segmented control",
+      "description": "Switches between a few views of one thing.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/segmented-control.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "segmented-control",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-kbd",
+      "type": "registry:item",
+      "title": "glaze / Kbd",
+      "description": "Shows a key or a shortcut.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/kbd.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "kbd",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-copy-button",
+      "type": "registry:item",
+      "title": "glaze / Copy button",
+      "description": "Copies a value.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/copy-button.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "copy-button",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-button-group",
+      "type": "registry:item",
+      "title": "glaze / Button group",
+      "description": "Joins related buttons into one control.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/button-group.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "button-group",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-select",
+      "type": "registry:item",
+      "title": "glaze / Select",
+      "description": "Picks one option from a list.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/select.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "select",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-combobox",
+      "type": "registry:item",
+      "title": "glaze / Combobox",
+      "description": "Finds one or more values by typing.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/combobox.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "combobox",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-date-picker",
+      "type": "registry:item",
+      "title": "glaze / Date picker",
+      "description": "Sets a date, a range or a time.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/date-picker.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "date-picker",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-number-input",
+      "type": "registry:item",
+      "title": "glaze / Number input",
+      "description": "Takes a number and steps it.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/number-input.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "number-input",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-otp-input",
+      "type": "registry:item",
+      "title": "glaze / OTP input",
+      "description": "Takes a one-time code.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/otp-input.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "otp-input",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-filter-bar",
+      "type": "registry:item",
+      "title": "glaze / Filter bar",
+      "description": "Narrows a long list.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/filter-bar.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "filter-bar",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-card",
+      "type": "registry:item",
+      "title": "glaze / Card",
+      "description": "Groups content about one thing.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/card.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "card",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-panel",
+      "type": "registry:item",
+      "title": "glaze / Panel",
+      "description": "Holds a few rows inside a card.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/panel.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "panel",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-badge",
+      "type": "registry:item",
+      "title": "glaze / Badge",
+      "description": "Labels what something is or how it stands.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/badge.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "badge",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-status",
+      "type": "registry:item",
+      "title": "glaze / Status",
+      "description": "Says where a piece of work stands.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/status.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "status",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-avatar",
+      "type": "registry:item",
+      "title": "glaze / Avatar",
+      "description": "Shows who or what acted.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/avatar.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "avatar",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-item",
+      "type": "registry:item",
+      "title": "glaze / Item",
+      "description": "Shows one thing as a row in a list.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/item.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "item",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-data-list",
+      "type": "registry:item",
+      "title": "glaze / Data list",
+      "description": "Lists label and value pairs about one thing.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/data-list.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "data-list",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-truncate",
+      "type": "registry:item",
+      "title": "glaze / Truncate",
+      "description": "Cuts a long line and keeps the whole value.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/truncate.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "truncate",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-skeleton",
+      "type": "registry:item",
+      "title": "glaze / Skeleton",
+      "description": "Holds the shape of content while it loads.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/skeleton.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "skeleton",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-progress",
+      "type": "registry:item",
+      "title": "glaze / Progress",
+      "description": "Shows how far a task got.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/progress.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "progress",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-empty-state",
+      "type": "registry:item",
+      "title": "glaze / Empty state",
+      "description": "Explains why a region is empty.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/empty-state.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "empty-state",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-alert",
+      "type": "registry:item",
+      "title": "glaze / Alert",
+      "description": "Reports a problem with the current view.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/alert.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "alert",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-relative-time",
+      "type": "registry:item",
+      "title": "glaze / Relative time",
+      "description": "Shows a time as distance from now.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/relative-time.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "relative-time",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-code-block",
+      "type": "registry:item",
+      "title": "glaze / Code block",
+      "description": "Shows code or commands to copy.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/code-block.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "code-block",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-json-view",
+      "type": "registry:item",
+      "title": "glaze / JSON view",
+      "description": "Shows structured data as a foldable tree.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/json-view.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "json-view",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-attachment",
+      "type": "registry:item",
+      "title": "glaze / Attachment",
+      "description": "Shows a file and its upload state.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/attachment.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "attachment",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-dialog",
+      "type": "registry:item",
+      "title": "glaze / Dialog",
+      "description": "Asks for a decision on top of the page.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/dialog.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "dialog",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-sheet",
+      "type": "registry:item",
+      "title": "glaze / Sheet",
+      "description": "Opens the details of one thing at the side.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/sheet.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "sheet",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-popover",
+      "type": "registry:item",
+      "title": "glaze / Popover",
+      "description": "Shows a few lines next to a control.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/popover.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "popover",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-tooltip",
+      "type": "registry:item",
+      "title": "glaze / Tooltip",
+      "description": "Names a control on hover or focus.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/tooltip.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "tooltip",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-dropdown-menu",
+      "type": "registry:item",
+      "title": "glaze / Dropdown menu",
+      "description": "Lists the actions on one thing.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/dropdown-menu.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "dropdown-menu",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-command",
+      "type": "registry:item",
+      "title": "glaze / Command",
+      "description": "Finds and runs a command by typing.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/command.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "command",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-toast",
+      "type": "registry:item",
+      "title": "glaze / Toast",
+      "description": "Confirms an action or reports an event.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/toast.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "toast",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-collapsible",
+      "type": "registry:item",
+      "title": "glaze / Collapsible",
+      "description": "Shows and hides a region.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/collapsible.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "collapsible",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-overlay",
+      "type": "registry:item",
+      "title": "glaze / Overlay",
+      "description": "Support file: what every overlay shares: the ringed paper surface and the card-shaped modal, the way they appear, the list rows, and for Dialog and Sheet the open state that waits for a running action and Enter on the footer's default action.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/overlay.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "overlay",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-children",
+      "type": "registry:item",
+      "title": "glaze / Children",
+      "description": "Support file: isPart, which tells which part a child element is even when a server component composed it, for the compound components that read their children.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/children.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "children",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-tabs",
+      "type": "registry:item",
+      "title": "glaze / Tabs",
+      "description": "Switches between panels of one view.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/tabs.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "tabs",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-breadcrumb",
+      "type": "registry:item",
+      "title": "glaze / Breadcrumb",
+      "description": "Shows where the page sits.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/breadcrumb.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "breadcrumb",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-steps",
+      "type": "registry:item",
+      "title": "glaze / Steps",
+      "description": "Shows the steps of a flow.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/steps.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "steps",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-table",
+      "type": "registry:item",
+      "title": "glaze / Table",
+      "description": "Lists records that share the same fields.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/table.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "table",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-data-grid",
+      "type": "registry:item",
+      "title": "glaze / Data grid",
+      "description": "Sorts, selects and pages records from data.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/data-grid.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "data-grid",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-pagination",
+      "type": "registry:item",
+      "title": "glaze / Pagination",
+      "description": "Moves through pages of results.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/pagination.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "pagination",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-bulk-action-bar",
+      "type": "registry:item",
+      "title": "glaze / Bulk action bar",
+      "description": "Acts on the rows a person selected.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/bulk-action-bar.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "bulk-action-bar",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-chart",
+      "type": "registry:item",
+      "title": "glaze / Chart",
+      "description": "Shows numbers over time or by bucket.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/chart.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "chart",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-timeline",
+      "type": "registry:item",
+      "title": "glaze / Timeline",
+      "description": "Shows when each step of a run happened.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/timeline.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "timeline",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-log-viewer",
+      "type": "registry:item",
+      "title": "glaze / Log viewer",
+      "description": "Shows a run's output lines as they stream.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/log-viewer.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "log-viewer",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-data-units",
+      "type": "registry:item",
+      "title": "glaze / Data units",
+      "description": "Support file: support file: one unit per column of numbers, a token read at runtime, the scroll box tab stop and the placeholder timing the data components share.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/data-units.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "data-units",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-prompt-input",
+      "type": "registry:item",
+      "title": "glaze / Prompt input",
+      "description": "Takes the next message for an agent.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/prompt-input.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "prompt-input",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-send-button",
+      "type": "registry:item",
+      "title": "glaze / Send button",
+      "description": "Sends a prompt, or stops the reply.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/send-button.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "send-button",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-mention",
+      "type": "registry:item",
+      "title": "glaze / Mention",
+      "description": "Names a resource inside a prompt or answer.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/mention.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "mention",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-message",
+      "type": "registry:item",
+      "title": "glaze / Message",
+      "description": "Shows one turn of a conversation.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/message.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "message",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-conversation",
+      "type": "registry:item",
+      "title": "glaze / Conversation",
+      "description": "Holds a thread that follows new replies.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/conversation.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "conversation",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-response",
+      "type": "registry:item",
+      "title": "glaze / Response",
+      "description": "Renders an answer as it streams.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/response.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "response",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-reasoning",
+      "type": "registry:item",
+      "title": "glaze / Reasoning",
+      "description": "Shows what the model thought before answering.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/reasoning.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "reasoning",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-tool-call",
+      "type": "registry:item",
+      "title": "glaze / Tool call",
+      "description": "Shows one tool an agent called.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/tool-call.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "tool-call",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-activity",
+      "type": "registry:item",
+      "title": "glaze / Activity",
+      "description": "Says what the agent is doing now.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/activity.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "activity",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-follow-ups",
+      "type": "registry:item",
+      "title": "glaze / Follow-ups",
+      "description": "Suggests next prompts to send.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/follow-ups.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "follow-ups",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-action-receipt",
+      "type": "registry:item",
+      "title": "glaze / Action receipt",
+      "description": "Records what an agent did.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/action-receipt.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "action-receipt",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-autonomy-rule",
+      "type": "registry:item",
+      "title": "glaze / Autonomy rule",
+      "description": "Sets what an agent may do alone.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/autonomy-rule.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "autonomy-rule",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-today",
+      "type": "registry:item",
+      "title": "glaze / Today",
+      "description": "The morning of a personal assistant, at phone width: the day in a line, a card of what it handled and Ask by voice.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/today.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "today",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-voice-capture",
+      "type": "registry:item",
+      "title": "glaze / Voice capture",
+      "description": "The assistant listening, at phone width: the time, the words as they are heard, Cancel and Send it.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/voice-capture.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "voice-capture",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-note-recap",
+      "type": "registry:item",
+      "title": "glaze / Note recap",
+      "description": "A note the assistant wrote from a voice note: a one line summary and a card of to-dos with Share note.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/note-recap.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "note-recap",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-booking-approval",
+      "type": "registry:item",
+      "title": "glaze / Booking approval",
+      "description": "The assistant asks before it pays a deposit, at phone width: the ask, why it checks and the booking card with Book table.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/booking-approval.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "booking-approval",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-assistant-limits",
+      "type": "registry:item",
+      "title": "glaze / Assistant limits",
+      "description": "A list of what a personal assistant may do on its own, one rule per kind of action with its level.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/assistant-limits.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "assistant-limits",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-conversation-insights",
+      "type": "registry:item",
+      "title": "glaze / Conversation insights",
+      "description": "A question asked of a week of support conversations: the answer in a line, the week as a number and a line, and the three topics behind it.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/conversation-insights.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "conversation-insights",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-cited-answer",
+      "type": "registry:item",
+      "title": "glaze / Cited answer",
+      "description": "A question asked of the workspace: a short answer with numbered citations and the sources they point to.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/cited-answer.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "cited-answer",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-agent-plan",
+      "type": "registry:item",
+      "title": "glaze / Agent plan",
+      "description": "An agent builds another agent: the ask, its changes with their status, and Publish agent as the confirm.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/agent-plan.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "agent-plan",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-agent-procedure",
+      "type": "registry:item",
+      "title": "glaze / Agent procedure",
+      "description": "The steps an agent follows, in plain sentences with its tools, documents and teams as mention chips, and Test and Publish.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/agent-procedure.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "agent-procedure",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-simulations",
+      "type": "registry:item",
+      "title": "glaze / Simulations",
+      "description": "Simulated customers run against an agent: the pass count, the last 30 runs as a status strip and each scenario with its status, failures first.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/simulations.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "simulations",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-experiment",
+      "type": "registry:item",
+      "title": "glaze / Experiment",
+      "description": "Two prompts split live traffic: each arm's resolution rate, both by day, and Ship as the confirm.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/experiment.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "experiment",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-utils",
+      "type": "registry:item",
+      "title": "glaze / cn",
+      "description": "Support file: cn, which merges class names and resolves conflicts between Glaze's type roles and glass keys; mergeClass, which keeps Glaze's classes when a caller passes a className function; mergeRefs; and controlHeight, the one height formula for one-line controls.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/utils.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "utils",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-icon",
+      "type": "registry:item",
+      "title": "glaze / Icon",
+      "description": "Support file: the one import point for icons: Phosphor at regular weight, 14px in controls.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/icon.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "icon",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-portal",
+      "type": "registry:item",
+      "title": "glaze / Portal",
+      "description": "Support file: puts overlays inside the .glaze scope so they keep its tokens, and makes the page inert behind a modal.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/portal.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "portal",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-direction",
+      "type": "registry:item",
+      "title": "glaze / Direction",
+      "description": "Support file: hands the reading direction to Base UI and to popups opened from a right-to-left subtree.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/direction.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "direction",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-lint",
+      "type": "registry:item",
+      "title": "glaze / Glaze lint",
+      "description": "One command that flags what Glaze's rules forbid in your app, such as two ink buttons side by side, glass on something you cannot press or a shadow, and says what to use instead.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/lint.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "lint",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-theme",
+      "type": "registry:item",
+      "title": "glaze / Glaze theme",
+      "description": "Support file: tokens, scoped base styles, the Tailwind v4 theme mapping and Glaze's recipes: glass, the card shell, the pill field and the overlay.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/theme.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "theme",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "glaze-skill",
+      "type": "registry:item",
+      "title": "glaze / Glaze skill",
+      "description": "Support file: teaches your coding agent Glaze's rules and components.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/glaze/skill.json"
+      ],
+      "meta": {
+        "system": "glaze",
+        "item": "skill",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-button",
+      "type": "registry:item",
+      "title": "sodium / Button",
+      "description": "Starts an action.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/button.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "button",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-button-group",
+      "type": "registry:item",
+      "title": "sodium / Button group",
+      "description": "Joins related buttons into one control.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/button-group.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "button-group",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-copy-button",
+      "type": "registry:item",
+      "title": "sodium / Copy button",
+      "description": "Copies a value.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/copy-button.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "copy-button",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-field",
+      "type": "registry:item",
+      "title": "sodium / Field",
+      "description": "Gives an input its label and error.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/field.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "field",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-input",
+      "type": "registry:item",
+      "title": "sodium / Input",
+      "description": "Takes one line of text.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/input.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "input",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-textarea",
+      "type": "registry:item",
+      "title": "sodium / Textarea",
+      "description": "Takes several lines of text.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/textarea.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "textarea",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-select",
+      "type": "registry:item",
+      "title": "sodium / Select",
+      "description": "Picks one option from a list.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/select.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "select",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-combobox",
+      "type": "registry:item",
+      "title": "sodium / Combobox",
+      "description": "Finds one or more values by typing.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/combobox.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "combobox",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-overlay",
+      "type": "registry:item",
+      "title": "sodium / Overlay",
+      "description": "Support file: what every overlay shares: the edged panel surface, the way it arrives, and the list rows of selects, comboboxes and menus.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/overlay.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "overlay",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-checkbox",
+      "type": "registry:item",
+      "title": "sodium / Checkbox",
+      "description": "Turns one option on or off.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/checkbox.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "checkbox",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-radio-group",
+      "type": "registry:item",
+      "title": "sodium / Radio group",
+      "description": "Picks one of a few choices.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/radio-group.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "radio-group",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-switch",
+      "type": "registry:item",
+      "title": "sodium / Switch",
+      "description": "Turns a setting on or off at once.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/switch.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "switch",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-slider",
+      "type": "registry:item",
+      "title": "sodium / Slider",
+      "description": "Picks a number or a range.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/slider.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "slider",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-segmented-control",
+      "type": "registry:item",
+      "title": "sodium / Segmented control",
+      "description": "Switches between a few views of one thing.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/segmented-control.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "segmented-control",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-tag",
+      "type": "registry:item",
+      "title": "sodium / Tag",
+      "description": "Labels what something is or how it stands.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/tag.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "tag",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-status-strip",
+      "type": "registry:item",
+      "title": "sodium / Status strip",
+      "description": "Shows the few numbers to check first, in one ruled row.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/status-strip.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "status-strip",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-avatar",
+      "type": "registry:item",
+      "title": "sodium / Avatar",
+      "description": "Shows who or what acted.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/avatar.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "avatar",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-kbd",
+      "type": "registry:item",
+      "title": "sodium / Kbd",
+      "description": "Shows a key or a shortcut.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/kbd.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "kbd",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-item",
+      "type": "registry:item",
+      "title": "sodium / Item",
+      "description": "Shows one thing as a row in a list.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/item.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "item",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-data-list",
+      "type": "registry:item",
+      "title": "sodium / Data list",
+      "description": "Lists label and value pairs about one thing.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/data-list.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "data-list",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-status",
+      "type": "registry:item",
+      "title": "sodium / Status",
+      "description": "Says where a job or a run stands.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/status.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "status",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-meter",
+      "type": "registry:item",
+      "title": "sodium / Meter",
+      "description": "Shows how full something is.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/meter.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "meter",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-progress",
+      "type": "registry:item",
+      "title": "sodium / Progress",
+      "description": "Shows how far a task got.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/progress.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "progress",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-alert",
+      "type": "registry:item",
+      "title": "sodium / Alert",
+      "description": "Reports a problem or a change in the current view.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/alert.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "alert",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-toast",
+      "type": "registry:item",
+      "title": "sodium / Toast",
+      "description": "Reports something that happened out of view.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/toast.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "toast",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-empty-state",
+      "type": "registry:item",
+      "title": "sodium / Empty state",
+      "description": "Explains why a region is empty.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/empty-state.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "empty-state",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-skeleton",
+      "type": "registry:item",
+      "title": "sodium / Skeleton",
+      "description": "Holds the shape of content while it loads.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/skeleton.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "skeleton",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-dialog",
+      "type": "registry:item",
+      "title": "sodium / Dialog",
+      "description": "Asks for a decision on top of the page.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/dialog.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "dialog",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-sheet",
+      "type": "registry:item",
+      "title": "sodium / Sheet",
+      "description": "Opens the details of one thing at the side.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/sheet.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "sheet",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-popover",
+      "type": "registry:item",
+      "title": "sodium / Popover",
+      "description": "Shows a few lines next to a control.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/popover.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "popover",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-tooltip",
+      "type": "registry:item",
+      "title": "sodium / Tooltip",
+      "description": "Names a control on hover or focus.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/tooltip.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "tooltip",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-dropdown-menu",
+      "type": "registry:item",
+      "title": "sodium / Dropdown menu",
+      "description": "Lists the actions on one thing.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/dropdown-menu.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "dropdown-menu",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-command",
+      "type": "registry:item",
+      "title": "sodium / Command",
+      "description": "Finds and runs a command by typing.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/command.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "command",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-tabs",
+      "type": "registry:item",
+      "title": "sodium / Tabs",
+      "description": "Switches between panels of one view.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/tabs.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "tabs",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-numbered-tabs",
+      "type": "registry:item",
+      "title": "sodium / Numbered tabs",
+      "description": "Steps through the few numbered sections of one page.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/numbered-tabs.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "numbered-tabs",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-breadcrumb",
+      "type": "registry:item",
+      "title": "sodium / Breadcrumb",
+      "description": "Shows where the page sits, as a path.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/breadcrumb.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "breadcrumb",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-pagination",
+      "type": "registry:item",
+      "title": "sodium / Pagination",
+      "description": "Moves through pages of results.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/pagination.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "pagination",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-collapsible",
+      "type": "registry:item",
+      "title": "sodium / Collapsible",
+      "description": "Shows and hides a region.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/collapsible.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "collapsible",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-frame",
+      "type": "registry:item",
+      "title": "sodium / Frame",
+      "description": "Boxes a region once and divides it by rules.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/frame.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "frame",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-table",
+      "type": "registry:item",
+      "title": "sodium / Table",
+      "description": "Lists records that share the same fields.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/table.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "table",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-filter-bar",
+      "type": "registry:item",
+      "title": "sodium / Filter bar",
+      "description": "Narrows a table, a log or a list in one row.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/filter-bar.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "filter-bar",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-code-block",
+      "type": "registry:item",
+      "title": "sodium / Code block",
+      "description": "Shows code or commands to copy.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/code-block.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "code-block",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-code-window",
+      "type": "registry:item",
+      "title": "sodium / Code window",
+      "description": "Shows a file as a numbered window, with the line that failed.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/code-window.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "code-window",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-json-view",
+      "type": "registry:item",
+      "title": "sodium / JSON view",
+      "description": "Shows structured data as a foldable tree.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/json-view.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "json-view",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-log-viewer",
+      "type": "registry:item",
+      "title": "sodium / Log viewer",
+      "description": "Shows a job's output lines as they stream.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/log-viewer.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "log-viewer",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-scroll",
+      "type": "registry:item",
+      "title": "sodium / Scroll",
+      "description": "Support file: support file: the tab stop a scrolling data region takes while it overflows, and the case-free search matcher.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/scroll.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "scroll",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-chart",
+      "type": "registry:item",
+      "title": "sodium / Chart",
+      "description": "Shows numbers over time as a line or an area.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/chart.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "chart",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-stem-chart",
+      "type": "registry:item",
+      "title": "sodium / Stem chart",
+      "description": "Prints one value per period on a square-headed stem.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/stem-chart.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "stem-chart",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-swimlanes",
+      "type": "registry:item",
+      "title": "sodium / Swimlanes",
+      "description": "Shows the steps of a flow across the systems they run in.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/swimlanes.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "swimlanes",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-bar-blocks",
+      "type": "registry:item",
+      "title": "sodium / Bar blocks",
+      "description": "Splits one total into its parts as blocks as wide as their share.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/bar-blocks.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "bar-blocks",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-tool-call-row",
+      "type": "registry:item",
+      "title": "sodium / Tool-call row",
+      "description": "Draws a run's steps as ruled boxes, joined by connectors.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/tool-call-row.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "tool-call-row",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-tool-call",
+      "type": "registry:item",
+      "title": "sodium / Tool call",
+      "description": "Shows one tool an agent called in a run.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/tool-call.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "tool-call",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-activity",
+      "type": "registry:item",
+      "title": "sodium / Activity",
+      "description": "Says what a run is doing now.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/activity.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "activity",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-prompt-input",
+      "type": "registry:item",
+      "title": "sodium / Prompt input",
+      "description": "Takes the next instruction for an agent.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/prompt-input.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "prompt-input",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-message",
+      "type": "registry:item",
+      "title": "sodium / Message",
+      "description": "Shows one turn of a run's thread.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/message.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "message",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-response",
+      "type": "registry:item",
+      "title": "sodium / Response",
+      "description": "Renders an agent's answer as it streams.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/response.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "response",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-use-timeline",
+      "type": "registry:item",
+      "title": "sodium / useTimeline",
+      "description": "Support file: the frame clock under Sodium's typing, scrambles and connectors: deterministic given a clock, final at once under reduced motion.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/use-timeline.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "use-timeline",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-use-typing",
+      "type": "registry:item",
+      "title": "sodium / useTyping",
+      "description": "Support file: types text in at about 55 characters a second behind a caret shown only while typing.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/use-typing.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "use-typing",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-use-scramble",
+      "type": "registry:item",
+      "title": "sodium / useScramble",
+      "description": "Support file: resolves a mono label through glyphs in about 0.4 seconds.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/use-scramble.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "use-scramble",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-use-draw",
+      "type": "registry:item",
+      "title": "sodium / useDraw",
+      "description": "Support file: draws connectors out one hop at a time, about 0.3 seconds a hop.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/use-draw.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "use-draw",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-job-runs",
+      "type": "registry:item",
+      "title": "sodium / Job runs",
+      "description": "Every pipeline's runs as one table: a Status word per row, IDs and numbers in mono and Run now.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/job-runs.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "job-runs",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-failed-load",
+      "type": "registry:item",
+      "title": "sodium / Failed load",
+      "description": "A load that failed: the alert with Retry load, the model with its failing line banded, and the step's log.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/failed-load.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "failed-load",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-on-call",
+      "type": "registry:item",
+      "title": "sodium / On call",
+      "description": "A failed job at phone width: its header, the failure in a sentence, its facts in a 2x2 grid, Acknowledge and Retry step.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/on-call.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "on-call",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-run-progress",
+      "type": "registry:item",
+      "title": "sodium / Run progress",
+      "description": "A backfill followed at phone width: the live step, partitions done, the run's numbers as a strip and its steps.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/run-progress.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "run-progress",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-warehouse-capacity",
+      "type": "registry:item",
+      "title": "sodium / Warehouse capacity",
+      "description": "How full a warehouse is: credits, storage and concurrency as meters, storage by schema, queries by hour and Resize warehouse.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/warehouse-capacity.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "warehouse-capacity",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-sync-flow",
+      "type": "registry:item",
+      "title": "sodium / Sync flow",
+      "description": "A nightly sync across the systems it touches as swimlanes, the rows it loaded by source, and Run sync.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/sync-flow.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "sync-flow",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-pipeline-history",
+      "type": "registry:item",
+      "title": "sodium / Pipeline history",
+      "description": "A pipeline's page under its path: runs per day, its latest partitions and its schedule as numbered tabs.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/pipeline-history.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "pipeline-history",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-utils",
+      "type": "registry:item",
+      "title": "sodium / cn",
+      "description": "Support file: cn, which merges class names and resolves conflicts between Sodium's type roles and button surfaces; mergeClass, which keeps Sodium's classes when a caller passes a className function; mergeRefs; and controlHeight, the one height formula for one-line controls.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/utils.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "utils",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-icon",
+      "type": "registry:item",
+      "title": "sodium / Icon",
+      "description": "Support file: the one import point for icons: Lucide, squared off with square ends, mitred joins and a 1.25px line.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/icon.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "icon",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-portal",
+      "type": "registry:item",
+      "title": "sodium / Portal",
+      "description": "Support file: puts overlays inside the .sodium scope so they keep its tokens, and makes the page inert behind a modal.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/portal.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "portal",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-direction",
+      "type": "registry:item",
+      "title": "sodium / Direction",
+      "description": "Support file: hands the reading direction to Base UI and to popups opened from a right-to-left subtree.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/direction.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "direction",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-lint",
+      "type": "registry:item",
+      "title": "sodium / Sodium lint",
+      "description": "One command that flags what Sodium's rules forbid in your app, such as a rounded corner, yellow text on a light ground, two primary buttons side by side or a grid behind the page, and says what to use instead.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/lint.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "lint",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-theme",
+      "type": "registry:item",
+      "title": "sodium / Sodium theme",
+      "description": "Support file: tokens, the two OFL faces, scoped base styles, the Tailwind v4 theme mapping and Sodium's recipes: the yellow slab, frames and rules, the field and the overlay.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/theme.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "theme",
+        "version": "2026-11-09.1"
+      }
+    },
+    {
+      "name": "sodium-skill",
+      "type": "registry:item",
+      "title": "sodium / Sodium skill",
+      "description": "Support file: teaches your coding agent Sodium's rules and components.",
+      "registryDependencies": [
+        "https://happyhands.cc/r/sodium/skill.json"
+      ],
+      "meta": {
+        "system": "sodium",
+        "item": "skill",
+        "version": "2026-11-09.1"
+      }
+    }
+  ]
+}

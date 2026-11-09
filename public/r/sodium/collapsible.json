@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/collapsible.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/collapsible.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/collapsible.md",
+    "page": "https://happyhands.cc/systems/sodium/components/collapsible.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/sodium/registry/items/collapsible.json",
+      "sourceSha256": "b83d31cf0800c444f59057e00b8cdd15642f7ee04a2374590b70d10013987675",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

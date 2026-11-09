@@ -14,8 +14,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/panel.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/panel.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/panel.md",
+    "page": "https://happyhands.cc/systems/quartz/components/panel.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/quartz/registry/items/panel.json",
+      "sourceSha256": "6d1c5795a0efe274943035e73b350ef03700c05cba01a71dcdf232ad3d028cc4",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

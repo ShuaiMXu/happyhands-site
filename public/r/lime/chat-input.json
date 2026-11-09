@@ -16,8 +16,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/chat-input.md",
-    "page": "https://happyhands.cc/design-how/lime/components/chat-input.md"
+    "docs": "https://happyhands.cc/systems/lime/components/chat-input.md",
+    "page": "https://happyhands.cc/systems/lime/components/chat-input.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/lime/registry/items/chat-input.json",
+      "sourceSha256": "a381c58adbdfc692ed17a9f4142b2c402485e7fbcd34b8c4ba73d68642ef8190",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

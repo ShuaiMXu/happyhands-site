@@ -1,0 +1,14 @@
+{
+  "name": "lime-insight",
+  "type": "registry:item",
+  "title": "lime / Insight",
+  "description": "One thing the assistant noticed, as a sentence, the number behind it and a tiny line.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/insight.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "insight",
+    "version": "2026-11-09.1"
+  }
+}

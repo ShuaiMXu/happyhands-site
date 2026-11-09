@@ -1,0 +1,14 @@
+{
+  "name": "lime-bill-schedule",
+  "type": "registry:item",
+  "title": "lime / Bill schedule",
+  "description": "The bills coming up in date order, each under a date tile, with who pays it.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/bill-schedule.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "bill-schedule",
+    "version": "2026-11-09.1"
+  }
+}

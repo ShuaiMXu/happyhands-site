@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/input.md",
-    "page": "https://happyhands.cc/design-how/lime/components/input.md"
+    "docs": "https://happyhands.cc/systems/lime/components/input.md",
+    "page": "https://happyhands.cc/systems/lime/components/input.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/lime/registry/items/input.json",
+      "sourceSha256": "c58ec815f780f94228f261f60dfc18680b9066285239b7e4f9604d467b650fde",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

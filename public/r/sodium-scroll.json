@@ -1,0 +1,14 @@
+{
+  "name": "sodium-scroll",
+  "type": "registry:item",
+  "title": "sodium / Scroll",
+  "description": "Support file: support file: the tab stop a scrolling data region takes while it overflows, and the case-free search matcher.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/scroll.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "scroll",
+    "version": "2026-11-09.1"
+  }
+}

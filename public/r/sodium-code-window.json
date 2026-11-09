@@ -1,0 +1,14 @@
+{
+  "name": "sodium-code-window",
+  "type": "registry:item",
+  "title": "sodium / Code window",
+  "description": "Shows a file as a numbered window, with the line that failed.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/code-window.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "code-window",
+    "version": "2026-11-09.1"
+  }
+}

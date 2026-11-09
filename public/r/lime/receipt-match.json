@@ -15,8 +15,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/receipt-match.md",
-    "page": "https://happyhands.cc/design-how/lime/components/receipt-match.md"
+    "docs": "https://happyhands.cc/systems/lime/components/receipt-match.md",
+    "page": "https://happyhands.cc/systems/lime/components/receipt-match.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/lime/registry/items/receipt-match.json",
+      "sourceSha256": "083f27e9ad0ecf62b144120c5ff3d9380530c76fdae2a763fa033066b9470086",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

@@ -1,0 +1,14 @@
+{
+  "name": "sodium-textarea",
+  "type": "registry:item",
+  "title": "sodium / Textarea",
+  "description": "Takes several lines of text.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/textarea.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "textarea",
+    "version": "2026-11-09.1"
+  }
+}

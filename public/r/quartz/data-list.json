@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/data-list.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/data-list.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/data-list.md",
+    "page": "https://happyhands.cc/systems/quartz/components/data-list.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/quartz/registry/items/data-list.json",
+      "sourceSha256": "9f8b7bcd7b474ecf24e864ed92d5dfb2de563a39f755f6437ac9bff773fd313c",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

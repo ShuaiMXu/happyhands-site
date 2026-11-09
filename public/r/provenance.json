@@ -1,0 +1,4541 @@
+{
+  "schemaVersion": 1,
+  "source": "design-how/manifest.json",
+  "files": [
+    {
+      "path": "design-how/glaze.zip",
+      "sha256": "5dbde6da81b74f17b5b8a0b4b62f09c9a965199bee4964827984d56bcbf750a6",
+      "bytes": 1619701
+    },
+    {
+      "path": "design-how/lime.zip",
+      "sha256": "6d4b6b561b00649569d37b45a0bc087e6d1f2977fc18e34ed00208c4a7e479ba",
+      "bytes": 590019
+    },
+    {
+      "path": "design-how/quartz.zip",
+      "sha256": "9083c73e8a8a8813e54b1e61e0796bc540e73c05e4d8ef5462793b8050a3c7f7",
+      "bytes": 1872179
+    },
+    {
+      "path": "design-how/sodium.zip",
+      "sha256": "ec377622fb66c632778033aef0e3060d2b5ceccb1dd538c55cf0c690fc4bd18f",
+      "bytes": 1225871
+    },
+    {
+      "path": "r/glaze-action-receipt.json",
+      "sha256": "44a5d93d0ad95d43c778d5615568e39b0b14e4fc234d13db455e3e09ed20e66b",
+      "bytes": 337
+    },
+    {
+      "path": "r/glaze-activity.json",
+      "sha256": "97edb7918a2afb02c1beb56f54815bb150a1f4d4a519e23757677916731f7ce5",
+      "bytes": 320
+    },
+    {
+      "path": "r/glaze-agent-plan.json",
+      "sha256": "d0c8757d4b8bcc92c1420a674e462c17da1332f5decf3a6ae6e7cee41cf213e5",
+      "bytes": 399
+    },
+    {
+      "path": "r/glaze-agent-procedure.json",
+      "sha256": "f42886b5beb1d88ad1bd56a93ea628628d32481e257cc5c4e49859f340479ec7",
+      "bytes": 437
+    },
+    {
+      "path": "r/glaze-alert.json",
+      "sha256": "e5097832ec11cd725ae2c143e1e395b12a404245a3e143181aaa7c3cc4747320",
+      "bytes": 315
+    },
+    {
+      "path": "r/glaze-assistant-limits.json",
+      "sha256": "9f32e207a2c620d208dca22716ffc63e231b1765412cefca5da8a4e7062bc245",
+      "bytes": 417
+    },
+    {
+      "path": "r/glaze-attachment.json",
+      "sha256": "18bf683c9d72e56ab5245e7bdcc1a32b5bdf1d3a374a53087eb62a8c33e1a752",
+      "bytes": 329
+    },
+    {
+      "path": "r/glaze-autonomy-rule.json",
+      "sha256": "37a1037b7692d6fce91708c7137229ce2ea4563fc792b312351cbad118b72fff",
+      "bytes": 339
+    },
+    {
+      "path": "r/glaze-avatar.json",
+      "sha256": "a12b94424c0a7682c509cd82db0befc05efaed0c8b9e32e52559dca88435d490",
+      "bytes": 303
+    },
+    {
+      "path": "r/glaze-badge.json",
+      "sha256": "bc4f65f02cc59fa38fb813f79d215bd3b17f5f2c9869b0c513b280a667b30d88",
+      "bytes": 317
+    },
+    {
+      "path": "r/glaze-booking-approval.json",
+      "sha256": "839d75130462a4b91cf67df12df6c79d1c43b315adf4c73fd1e23da794c49aa5",
+      "bytes": 440
+    },
+    {
+      "path": "r/glaze-breadcrumb.json",
+      "sha256": "d1ed54a36e7013fbe47e343a2477c116c7c3d63642b8723a704d7581148354d6",
+      "bytes": 321
+    },
+    {
+      "path": "r/glaze-bulk-action-bar.json",
+      "sha256": "353801f0b8f10068355ead36c1f6a5f1b73287de8de20ff8902059670a82ba06",
+      "bytes": 350
+    },
+    {
+      "path": "r/glaze-button-group.json",
+      "sha256": "de49d43bea1c911ca6801746661df7fd5757050ffaa3e2da3aff55bccaadb2ef",
+      "bytes": 342
+    },
+    {
+      "path": "r/glaze-button.json",
+      "sha256": "08e38027ed7e73fb9b6e783072a84c320d84e00f3ae0317dbba969caa3ed1fc8",
+      "bytes": 296
+    },
+    {
+      "path": "r/glaze-card.json",
+      "sha256": "72fbb422e6770571b0796fb1c5315be9cd829eebfc5eb706f083a3360f532318",
+      "bytes": 302
+    },
+    {
+      "path": "r/glaze-chart.json",
+      "sha256": "fa38af5b0015cf4cbe060919ae10d68690f2b329c25eff2a79bcb6d818be6064",
+      "bytes": 312
+    },
+    {
+      "path": "r/glaze-checkbox.json",
+      "sha256": "136c7149fcb6c89907fe600879aa6af5eeed7749b0352d91cbcbac7042e6e2ed",
+      "bytes": 314
+    },
+    {
+      "path": "r/glaze-children.json",
+      "sha256": "7d3930201f0db639126cb14a12f566904fe4ec4c96ec17431160bc5de464d787",
+      "bytes": 446
+    },
+    {
+      "path": "r/glaze-chip.json",
+      "sha256": "5edd98c71912234e2664215e86fb421f44171d6b9f89896956a0e778c127f3e4",
+      "bytes": 304
+    },
+    {
+      "path": "r/glaze-cited-answer.json",
+      "sha256": "ceb6530ebfc05ce0ea90463ed9cca3275d807dc68426354955f0e7852032df62",
+      "bytes": 407
+    },
+    {
+      "path": "r/glaze-code-block.json",
+      "sha256": "154dedc2c3302bb0dab72746f8b66838c72c8129a1e415737b6b2dd570ab8132",
+      "bytes": 326
+    },
+    {
+      "path": "r/glaze-collapsible.json",
+      "sha256": "336ac21d5dbf31d3468cea99952ca3d6249b9c7ece03068b2b30ca090cbfbff0",
+      "bytes": 324
+    },
+    {
+      "path": "r/glaze-combobox.json",
+      "sha256": "679a1e930f8626e32f8b23df9ac497d7480c6e8ab89cd171bea6edcd0618b6fb",
+      "bytes": 322
+    },
+    {
+      "path": "r/glaze-command.json",
+      "sha256": "146f6055ebb47047dfeef7503bc0720be715a72eb821c4c29784a39700a80ce8",
+      "bytes": 318
+    },
+    {
+      "path": "r/glaze-conversation-insights.json",
+      "sha256": "a483523d1f5ec33c248609be0e28ce1fc2736958d582d4c345bbf6ca0102ae6b",
+      "bytes": 478
+    },
+    {
+      "path": "r/glaze-conversation.json",
+      "sha256": "e2faeefde4577e70b33081a09b06d1ebb9b6d8a77ef7be4978613f6af5a52ca9",
+      "bytes": 343
+    },
+    {
+      "path": "r/glaze-copy-button.json",
+      "sha256": "5fba65dd84fff0cb26c2114079feec52285db87f24ae396a998bf7028923fee5",
+      "bytes": 314
+    },
+    {
+      "path": "r/glaze-data-grid.json",
+      "sha256": "50fdcec546021a36922af884eb762181f76488cfc4e6367472e001e365b7afcb",
+      "bytes": 334
+    },
+    {
+      "path": "r/glaze-data-list.json",
+      "sha256": "1680ffd708075123b2550f25cd148b062ce0e45617fdf33d962d62459f1983fd",
+      "bytes": 335
+    },
+    {
+      "path": "r/glaze-data-units.json",
+      "sha256": "1b6a006543c93a503f8805d99164d82d12f2963cd7999ce3b3e802e85caac62d",
+      "bytes": 457
+    },
+    {
+      "path": "r/glaze-date-picker.json",
+      "sha256": "6c8529df651c2adbc7ed27562e0b4ddefe39a13d741c7df75323de5db4c9cc0e",
+      "bytes": 330
+    },
+    {
+      "path": "r/glaze-dialog.json",
+      "sha256": "595bf79f5f387d038dc0710b90b1d0b7074a0e485e6120454e015f707b050098",
+      "bytes": 318
+    },
+    {
+      "path": "r/glaze-direction.json",
+      "sha256": "58c3099bba2cfbafe5e05d810cf8e7335b36fe80cbce5fbc75b87236f1f1d9f2",
+      "bytes": 394
+    },
+    {
+      "path": "r/glaze-dropdown-menu.json",
+      "sha256": "f968db6b76aa30e53dd44c2a09315a272226779bcd9e47343932d9456587ecbf",
+      "bytes": 338
+    },
+    {
+      "path": "r/glaze-empty-state.json",
+      "sha256": "3f93cc8ba547f7480f1c6116918b702e06742645b654c8ad495ecb55693f75f4",
+      "bytes": 330
+    },
+    {
+      "path": "r/glaze-experiment.json",
+      "sha256": "ffb98f1576c5207933fe55fae6c6bd8987e8699160ae15ab2d34e8d62899a301",
+      "bytes": 392
+    },
+    {
+      "path": "r/glaze-field.json",
+      "sha256": "8d863efdc2a130d2017c80d97d365d41773cd164300305050203b9c5133373a5",
+      "bytes": 310
+    },
+    {
+      "path": "r/glaze-filter-bar.json",
+      "sha256": "ae490b2654dbf0d014b555b283f413a4c39effcc6200ba329a33069df801e3cf",
+      "bytes": 315
+    },
+    {
+      "path": "r/glaze-follow-ups.json",
+      "sha256": "7cba1b5e75741dc512d54bf74453e2904e0efb987913a7684d8529422738e0eb",
+      "bytes": 325
+    },
+    {
+      "path": "r/glaze-icon.json",
+      "sha256": "f6de56954d4fc97edac83b607099985c46082d36a4846817b2a992f1e1110900",
+      "bytes": 362
+    },
+    {
+      "path": "r/glaze-input.json",
+      "sha256": "8efb4affd5f0fae6ac2d0ccf52498718ca28433f2f85d2620e7b0c71dbab94b2",
+      "bytes": 298
+    },
+    {
+      "path": "r/glaze-item.json",
+      "sha256": "d8d34f2e8073aa7fc6421905e076756f3dc65e93e4d25e398f581330f285eb5d",
+      "bytes": 306
+    },
+    {
+      "path": "r/glaze-json-view.json",
+      "sha256": "6fcaf02acc96360980117e53e109ecedd2502c24b53d652d8c66e55684629d07",
+      "bytes": 332
+    },
+    {
+      "path": "r/glaze-kbd.json",
+      "sha256": "ee822a724f72e4a25ed1aeab6cd076aa9e23a740c38fcac50279a8fc47ca5021",
+      "bytes": 293
+    },
+    {
+      "path": "r/glaze-lint.json",
+      "sha256": "0763f4bea84b6b6f10f7e05024005ec43c65953d60ee471f448a83fa2811412e",
+      "bytes": 455
+    },
+    {
+      "path": "r/glaze-log-viewer.json",
+      "sha256": "1f28dd82e91e1b3fa601fb6bcff9c4bff0ced6997d95ab15fcc94cadc1eabade",
+      "bytes": 337
+    },
+    {
+      "path": "r/glaze-mention.json",
+      "sha256": "e80f10aebce3e38b6af011b6b2c38b3bb12f27f23aa171032f954c6ad4e469de",
+      "bytes": 326
+    },
+    {
+      "path": "r/glaze-message.json",
+      "sha256": "310833d2546840afc23300f3ccca4754f9a09b7f5c96a52ef3c031b05f8037ce",
+      "bytes": 316
+    },
+    {
+      "path": "r/glaze-note-recap.json",
+      "sha256": "accded1e1e49537d36dd269fd8742e5b8d035daacc474aaf9c1f732b8d6a260d",
+      "bytes": 397
+    },
+    {
+      "path": "r/glaze-number-input.json",
+      "sha256": "22268272efcb2df65b2c3f411d4090dd0a529a6cef8e230dc3a37e6f6f7ce7e4",
+      "bytes": 331
+    },
+    {
+      "path": "r/glaze-otp-input.json",
+      "sha256": "72852cae0b6f67c8783f146980d662fa204c8f099a00e401b4fb95b8cd9a9831",
+      "bytes": 313
+    },
+    {
+      "path": "r/glaze-overlay.json",
+      "sha256": "81404c6d13b723b9544633edc469299520a0a95b7bab8f6200b050a7ff439bbc",
+      "bytes": 525
+    },
+    {
+      "path": "r/glaze-pagination.json",
+      "sha256": "ad2760cda02a6374ae4ff798f7321c5d83a408e408e1cc80cf68ffb5dfc8e994",
+      "bytes": 326
+    },
+    {
+      "path": "r/glaze-panel.json",
+      "sha256": "c184f4ae2a7a128e4d92ff809992511152374e934b90b66b8e20edeb5c2e0822",
+      "bytes": 306
+    },
+    {
+      "path": "r/glaze-popover.json",
+      "sha256": "ef073c318131ef4d19ed3b19abcb4ebe8f0b2e0ef40fcea370f4b61fcaead005",
+      "bytes": 319
+    },
+    {
+      "path": "r/glaze-portal.json",
+      "sha256": "6178057b1198c3eb703d182ccce209892bfb66e06c25af10f318f92bcc1cded2",
+      "bytes": 396
+    },
+    {
+      "path": "r/glaze-progress.json",
+      "sha256": "89ee178b2fe5b4cf24681024a43a57e8695cade074b2734a4e5ab4f300ac41e7",
+      "bytes": 312
+    },
+    {
+      "path": "r/glaze-prompt-input.json",
+      "sha256": "150d7fc0fec3c89e002647c63749aa0310f008eb0c5beaaddd648c2bc00ff18e",
+      "bytes": 339
+    },
+    {
+      "path": "r/glaze-radio-group.json",
+      "sha256": "a606197a1565fbbd462b953e5920476ffd401f542286a820a2dd594eb4b35cb6",
+      "bytes": 326
+    },
+    {
+      "path": "r/glaze-reasoning.json",
+      "sha256": "fb4416f8d4a60f690d8b04c77f827b6510934ef984f7eeac0a3d3d3575874d08",
+      "bytes": 337
+    },
+    {
+      "path": "r/glaze-relative-time.json",
+      "sha256": "040f6d322d28460126cb27e7fc82e1ab804d1320fa6534361e29c85e8df17962",
+      "bytes": 341
+    },
+    {
+      "path": "r/glaze-response.json",
+      "sha256": "098af2ea704f5adf13dfe906b18446eaeb0eb9bfd502ecbb24234077d5b400b7",
+      "bytes": 319
+    },
+    {
+      "path": "r/glaze-segmented-control.json",
+      "sha256": "7c861c95ec48b9cd6630ab9265b542e4f480c653f30d6ee0f44dc2eb509d5aca",
+      "bytes": 365
+    },
+    {
+      "path": "r/glaze-select.json",
+      "sha256": "cc0e55c41bc3e3cf8ffd3d8db5952f52985744fc71dcb3f804d7c8491fb1ebfe",
+      "bytes": 308
+    },
+    {
+      "path": "r/glaze-send-button.json",
+      "sha256": "3d49ad398377d37d554464dbd4f734d759002fb2c384ecd8d0701ff30b576aeb",
+      "bytes": 334
+    },
+    {
+      "path": "r/glaze-sheet.json",
+      "sha256": "32474075590387e61794a0388f2e2dbe1c233437920160844c920256fd1ed004",
+      "bytes": 318
+    },
+    {
+      "path": "r/glaze-simulations.json",
+      "sha256": "8044edaa4f7b5a17404c8f77e4c1cb604835b8cfb0c8f6cd26b3467293f41bfa",
+      "bytes": 442
+    },
+    {
+      "path": "r/glaze-skeleton.json",
+      "sha256": "819b5faf9c56b23b58173098953915e18b4efd1729b8e257cdb8b6b1b446921d",
+      "bytes": 329
+    },
+    {
+      "path": "r/glaze-skill.json",
+      "sha256": "b8e3e88fab79b3ef6f5d074af1a77d294bc2ce90fcd594e9133455c358c50f3d",
+      "bytes": 350
+    },
+    {
+      "path": "r/glaze-slider.json",
+      "sha256": "e1340b6cc51021cc8fff920aba6d4f56d1ac808a00826b14010b02efea340dbe",
+      "bytes": 305
+    },
+    {
+      "path": "r/glaze-status.json",
+      "sha256": "27884e4ffd0e56512d89d1529e035ef0022ffaad57e0cedac66b5426ed803cf4",
+      "bytes": 313
+    },
+    {
+      "path": "r/glaze-steps.json",
+      "sha256": "60ef382338017c2f11ffb28f1a100b3714d0260f48461041353b4c1977a83cae",
+      "bytes": 301
+    },
+    {
+      "path": "r/glaze-switch.json",
+      "sha256": "2d3754844ffaa9d3cb2244fb29f277bc7f83d5195aef2d9d20cb0367a5df749c",
+      "bytes": 313
+    },
+    {
+      "path": "r/glaze-table.json",
+      "sha256": "2e8f23f8d7160abbed91cca1a6ada324184b33922e72884af7c62b45a20c309b",
+      "bytes": 316
+    },
+    {
+      "path": "r/glaze-tabs.json",
+      "sha256": "cdda749442074678bca3f6fc2bf343879c8c601016a279faf88748cf62867339",
+      "bytes": 307
+    },
+    {
+      "path": "r/glaze-textarea.json",
+      "sha256": "18ac0df72e052d14f981c4f0d8d21bade8318254914dfe1cc254ca527f596ab7",
+      "bytes": 315
+    },
+    {
+      "path": "r/glaze-theme.json",
+      "sha256": "ca0a82941beeb7320bc6483375598f34db428b377db83651ede696d9c1a0ee25",
+      "bytes": 428
+    },
+    {
+      "path": "r/glaze-timeline.json",
+      "sha256": "41c4403a02ad1b94bdc5721442fa4b7b62bdd7d1bc00a8e1a1eaae40c1ac6d52",
+      "bytes": 326
+    },
+    {
+      "path": "r/glaze-toast.json",
+      "sha256": "9892dafd688eacb35ce55802d0c996a42f418bde7bd6f05b4132c715eb0cad49",
+      "bytes": 314
+    },
+    {
+      "path": "r/glaze-today.json",
+      "sha256": "5434fc9c4cc27d113397efd0023b97b82b711520fa54d5d73e3feaa8d1477f0d",
+      "bytes": 390
+    },
+    {
+      "path": "r/glaze-tool-call.json",
+      "sha256": "b8e08467fa2db0add1c95c89811790258a58d73c8d7cfe672c91217cad263ad5",
+      "bytes": 322
+    },
+    {
+      "path": "r/glaze-toolbar.json",
+      "sha256": "d3de0db08e74435f1b2b9bfce0c1d1157b5c311699865d2e0ae3973ce6276681",
+      "bytes": 319
+    },
+    {
+      "path": "r/glaze-tooltip.json",
+      "sha256": "fd8d0a3051e2f91857447fe566e85072f2004bad6603fe2fb37ad607a361b80d",
+      "bytes": 317
+    },
+    {
+      "path": "r/glaze-truncate.json",
+      "sha256": "682b031df13160157c1f6a30075bedf420f20849840d3dec68db66f5588b20d4",
+      "bytes": 330
+    },
+    {
+      "path": "r/glaze-utils.json",
+      "sha256": "d42704737506c96669e41abb12d7881abc15a814eb1cddaad348201011183d39",
+      "bytes": 539
+    },
+    {
+      "path": "r/glaze-voice-capture.json",
+      "sha256": "090a977fa3fd1664ec759900677dcef52e99b77032f7b7b1470b81d3348f6043",
+      "bytes": 406
+    },
+    {
+      "path": "r/glaze/action-receipt.json",
+      "sha256": "8873655c2545a482d8ebfa6fe4a634fc6dd4d8d63119bef95b12f288d6f9215f",
+      "bytes": 8563
+    },
+    {
+      "path": "r/glaze/activity.json",
+      "sha256": "280a65cad8030795f0877ea0761a5f9808b276671ab5d14f9bd1eda7f54cbf7f",
+      "bytes": 19931
+    },
+    {
+      "path": "r/glaze/agent-plan.json",
+      "sha256": "1a8b59e6c03631cc75086a0abd15e4334d5433c92159c9368f467a0094a2dade",
+      "bytes": 4349
+    },
+    {
+      "path": "r/glaze/agent-procedure.json",
+      "sha256": "e804371330153eeefbe3894da4e6ae09d56ac5b15210a3cc17119bed182aff7a",
+      "bytes": 3648
+    },
+    {
+      "path": "r/glaze/alert.json",
+      "sha256": "f93b142cd1ea35dc60c1fabbb00d9d09de63ec40b01d6f80f4fbeb803ba9bbcd",
+      "bytes": 9691
+    },
+    {
+      "path": "r/glaze/assistant-limits.json",
+      "sha256": "78de11420ad097317eb46e9b751daa8a978328ce49f064b2fdf9370197e5c5ae",
+      "bytes": 2322
+    },
+    {
+      "path": "r/glaze/attachment.json",
+      "sha256": "1c1cad8e2957705f9a9366b9fb87c6e95fb67a6ff90e9d11c3106159a92b3316",
+      "bytes": 23968
+    },
+    {
+      "path": "r/glaze/autonomy-rule.json",
+      "sha256": "5efbb06aa698955acb59de4babecdd11a4e72c07d97a8cd646248d6f7173f09c",
+      "bytes": 5339
+    },
+    {
+      "path": "r/glaze/avatar.json",
+      "sha256": "1086f999dab962ae8e4174594764b50d6de678e76fb3e14f4def7bb31bbccdff",
+      "bytes": 10239
+    },
+    {
+      "path": "r/glaze/badge.json",
+      "sha256": "3a491c6551048b664aa9f6abf66eb0e6578228decef86c35893fb89d68c96042",
+      "bytes": 4042
+    },
+    {
+      "path": "r/glaze/booking-approval.json",
+      "sha256": "209969dfd320afbcb300efae1485de73b058cc031a996b99b9e29fdb27306f23",
+      "bytes": 3981
+    },
+    {
+      "path": "r/glaze/breadcrumb.json",
+      "sha256": "66cdde8a4d6e3babe910d8ddd524777cf0a24e2a1997fa1bd14b2af2a094546a",
+      "bytes": 12089
+    },
+    {
+      "path": "r/glaze/bulk-action-bar.json",
+      "sha256": "81758329367988e6c2278383e062b874d0cb41fed5261ec912bd0deb4a3fb22d",
+      "bytes": 5890
+    },
+    {
+      "path": "r/glaze/button-group.json",
+      "sha256": "e574fd2c6455c7b709e0185eefb30371887b23d0146c455e5288cda34d662afc",
+      "bytes": 10128
+    },
+    {
+      "path": "r/glaze/button.json",
+      "sha256": "dc68b09d09ab3c7c52e6edc1ec048378270edb2015ad52f081130878367e9aac",
+      "bytes": 8696
+    },
+    {
+      "path": "r/glaze/card.json",
+      "sha256": "b1eda791fae679355de3cdf2c5a5e0d4f75567eb293cfb3dbbdeb4e1af4c7fe0",
+      "bytes": 7436
+    },
+    {
+      "path": "r/glaze/chart.json",
+      "sha256": "dac7874cf9d9239b83dfb77a8194f5f6b11e3dd74e6c7753316108d80f92b75b",
+      "bytes": 79093
+    },
+    {
+      "path": "r/glaze/checkbox.json",
+      "sha256": "3aadd0288d2d47d010cf83a1cc604a97cbeed64fe1594da62e7769b9b9ec3034",
+      "bytes": 5280
+    },
+    {
+      "path": "r/glaze/children.json",
+      "sha256": "b60f3cb16c67d0c4ed37dffcf4c0b51efb541e690778524a66fa34a0193f8e07",
+      "bytes": 3008
+    },
+    {
+      "path": "r/glaze/chip.json",
+      "sha256": "cd36984591492061d8d8e2df78834668a49604586f2e9215f3419e1f9b081b91",
+      "bytes": 8732
+    },
+    {
+      "path": "r/glaze/cited-answer.json",
+      "sha256": "343e96f12144516af06c78a61a4bb3cffaf318f0c643e7a89ae0c26f27e7e2d5",
+      "bytes": 3651
+    },
+    {
+      "path": "r/glaze/code-block.json",
+      "sha256": "7c420d90391b3d3aff7f23d8e073b797ea99eb0925fc272929df763c1db7fd3f",
+      "bytes": 20648
+    },
+    {
+      "path": "r/glaze/collapsible.json",
+      "sha256": "2ee2e2fbc66cab085327b4242e501633354f10db9574f8c1cce720536317cc7e",
+      "bytes": 9689
+    },
+    {
+      "path": "r/glaze/combobox.json",
+      "sha256": "6fa4b170d2f67883c2b635a9e9e692522c93c88ffaa845bd150a7002b98584c4",
+      "bytes": 31149
+    },
+    {
+      "path": "r/glaze/command.json",
+      "sha256": "f5c5688b0438396c90684ca5e0af6990c155c34ce2bacd30ba83a9f34f0aebf3",
+      "bytes": 24640
+    },
+    {
+      "path": "r/glaze/conversation-insights.json",
+      "sha256": "82836247ad6eb9ab6a6f025e9da1e1db67cf0793e23e4031ea21ca3787df4d49",
+      "bytes": 4701
+    },
+    {
+      "path": "r/glaze/conversation.json",
+      "sha256": "d34b257e81bc9effd0db85bbad0df171de1169bc4246a207247b1ed650dc145c",
+      "bytes": 35519
+    },
+    {
+      "path": "r/glaze/copy-button.json",
+      "sha256": "c58ed3237e86c2175ee927b1ede8ead19556c8fcbfe011751079c5418ff64d43",
+      "bytes": 6734
+    },
+    {
+      "path": "r/glaze/data-grid.json",
+      "sha256": "6b4f07f09426aed55b397bc20fbc4e03065fbb3eae203cb8bb142459a8123347",
+      "bytes": 37031
+    },
+    {
+      "path": "r/glaze/data-list.json",
+      "sha256": "15d9077421b63b843403405108d1ce7956153695d5c2c6e46f10ad66ac1b7f61",
+      "bytes": 5269
+    },
+    {
+      "path": "r/glaze/data-units.json",
+      "sha256": "133ce0dbeb55d8c8dcbfe70fe05068390285afd3c5f8d1a698e438ffebf69f73",
+      "bytes": 7582
+    },
+    {
+      "path": "r/glaze/date-picker.json",
+      "sha256": "8ad5ce1f41e3c3c060a50409c7503913446216ffce432e156f657893935e5da8",
+      "bytes": 43269
+    },
+    {
+      "path": "r/glaze/dialog.json",
+      "sha256": "b6e9964f322e1bf70b92a58222ee3098f5c27eda4c624df478d070db767261e1",
+      "bytes": 19820
+    },
+    {
+      "path": "r/glaze/direction.json",
+      "sha256": "478dd2615955ca495fc48567fc06b07243a1767e299d16934a0360a2539290bd",
+      "bytes": 3802
+    },
+    {
+      "path": "r/glaze/dropdown-menu.json",
+      "sha256": "6c7f2dc3931d4b2061b6799c821f3327f59f7c321724459a61c11e1af15df560",
+      "bytes": 16978
+    },
+    {
+      "path": "r/glaze/empty-state.json",
+      "sha256": "6535a54152bb5a579811a3bb6715394d2cf4590b3542dcf57c3a0c7cb9a77c5c",
+      "bytes": 9023
+    },
+    {
+      "path": "r/glaze/experiment.json",
+      "sha256": "066775fdbab5759c800fe56dc0ef386e910f7c9868474bbf23ff4cd32ea3a958",
+      "bytes": 3923
+    },
+    {
+      "path": "r/glaze/field.json",
+      "sha256": "25a3edb35cce2157a1aa16f4176e16dc13e31dca5ccf10bf5996fe2e22270cee",
+      "bytes": 16304
+    },
+    {
+      "path": "r/glaze/filter-bar.json",
+      "sha256": "ba8eb630eb2b3cbfd695a7940fdcb1b76116260b0ce8e2c8c35bc4b5ddfe3835",
+      "bytes": 20577
+    },
+    {
+      "path": "r/glaze/follow-ups.json",
+      "sha256": "df101b4f22348d09071edee5583d85dfe9e23efc2fdcc7026e85e21b26509351",
+      "bytes": 5567
+    },
+    {
+      "path": "r/glaze/icon.json",
+      "sha256": "5065a1e504234293b7a0bba8930ab6318887b883a5d68f023144d2030c0e12ef",
+      "bytes": 7502
+    },
+    {
+      "path": "r/glaze/input.json",
+      "sha256": "1cbd883f5d7cf1cf2f96ebbdfe3ac71903c61e74c4cca7d71f273081963cd575",
+      "bytes": 20067
+    },
+    {
+      "path": "r/glaze/item.json",
+      "sha256": "d148372f935bbab36387a6a6d3d17254fd4516c2d47246f6b3faad6bfb0b14fe",
+      "bytes": 8062
+    },
+    {
+      "path": "r/glaze/json-view.json",
+      "sha256": "8400967d8afdd9cd75f22f5e325ae897606663b8d52c07b69631d157d44290c3",
+      "bytes": 20569
+    },
+    {
+      "path": "r/glaze/kbd.json",
+      "sha256": "c5e75510e2b1fa81771c3bcebe379e2122dadf6df7c3c85dbbf3b8187f075663",
+      "bytes": 6511
+    },
+    {
+      "path": "r/glaze/lint.json",
+      "sha256": "6228df98283057a16671a9f3f57d990e31c9efe8a3fad71a765a74675db13cac",
+      "bytes": 120861
+    },
+    {
+      "path": "r/glaze/log-viewer.json",
+      "sha256": "2170c8b97ac223ad83d261cffea55f86cfc6fb545f2ea8226fc2318941b183d5",
+      "bytes": 16033
+    },
+    {
+      "path": "r/glaze/mention.json",
+      "sha256": "c3d1441dfd2ea0bd97ba8189487d90c37db16873c351f8d8b9e65a12984886ab",
+      "bytes": 10006
+    },
+    {
+      "path": "r/glaze/message.json",
+      "sha256": "4a21cef5b17a054726b69a6f4a8133d799aa0366149cb20851ec1232ef6b0a37",
+      "bytes": 20087
+    },
+    {
+      "path": "r/glaze/note-recap.json",
+      "sha256": "025265dba75e579edaae98e6ec690740d0e47e866d99276ec960ee58c19694ea",
+      "bytes": 3090
+    },
+    {
+      "path": "r/glaze/number-input.json",
+      "sha256": "1a27432fb5106afe5962a09d2e776f16936ac91e2e1fff15b3eac8c72c98f823",
+      "bytes": 6374
+    },
+    {
+      "path": "r/glaze/otp-input.json",
+      "sha256": "bfb82f2a5b83ca90a655f08822e098b3dc70b02db49e68742c1852d76890d9b4",
+      "bytes": 6637
+    },
+    {
+      "path": "r/glaze/overlay.json",
+      "sha256": "06472348a233c20b91ca701bce4a4afb41cf162a773462fb365ca6f04dbece0a",
+      "bytes": 18543
+    },
+    {
+      "path": "r/glaze/pagination.json",
+      "sha256": "39f07b3de18a505d7411d42281a1a279c10bcec910ead0f9c40e85da23a70a56",
+      "bytes": 12569
+    },
+    {
+      "path": "r/glaze/panel.json",
+      "sha256": "2788f7e1a08488c2a0400dd44e604d9fb3d59fc344b6957e57204f9b4aded1de",
+      "bytes": 2461
+    },
+    {
+      "path": "r/glaze/popover.json",
+      "sha256": "939ff9f7a983395a895862f4777618506d623cc501f9a727b46b380ea0c69859",
+      "bytes": 14588
+    },
+    {
+      "path": "r/glaze/portal.json",
+      "sha256": "d7552cf668b0e70853b3266f4835049e9201e8693934d79d31c56be98555d385",
+      "bytes": 8454
+    },
+    {
+      "path": "r/glaze/progress.json",
+      "sha256": "567c1ccdf7abab9e190d83044b0f2da809e210475c7a2dfde9e6c635e3d96084",
+      "bytes": 11928
+    },
+    {
+      "path": "r/glaze/prompt-input.json",
+      "sha256": "4de2719fb5b789d5b8effba1939bec74829a132d360941eeec1439468b201235",
+      "bytes": 92223
+    },
+    {
+      "path": "r/glaze/radio-group.json",
+      "sha256": "d5b804e2aff2417ba3fb5c6e9f36f9c08508dc340e5616ffb21e9f13eb179e45",
+      "bytes": 5405
+    },
+    {
+      "path": "r/glaze/reasoning.json",
+      "sha256": "faa22b5e63dd0455ef85a4202af4b275d789cc83c7fcd1bb03ffba856a09278e",
+      "bytes": 13698
+    },
+    {
+      "path": "r/glaze/registry.json",
+      "sha256": "bbcfc95165962a332405ea95de74cdd4fbd7b19da49677fc9492128f2081f869",
+      "bytes": 85788
+    },
+    {
+      "path": "r/glaze/relative-time.json",
+      "sha256": "c05dfc9fd6a976ae06a83dcacaa430551ab3fc50961aff6edbcd7b5fd8b5e1d6",
+      "bytes": 7579
+    },
+    {
+      "path": "r/glaze/response.json",
+      "sha256": "cd8b0628c8576b0ab1d30345df9de08866341cf279915791637add2eac43d244",
+      "bytes": 29817
+    },
+    {
+      "path": "r/glaze/segmented-control.json",
+      "sha256": "8fc0fe5ba8753325bcaf9776dd69bd2ea7385e892cc28cebde010f5de5ec41b8",
+      "bytes": 12270
+    },
+    {
+      "path": "r/glaze/select.json",
+      "sha256": "c7f04cbd73893f9a49813e5e766d33253996d57a4bcb5772014f17e0396e1cc0",
+      "bytes": 13022
+    },
+    {
+      "path": "r/glaze/send-button.json",
+      "sha256": "5b9880791c2664f6a7ded852cbd6d1008f844013e045042b9fb0cda3d5789530",
+      "bytes": 7128
+    },
+    {
+      "path": "r/glaze/sheet.json",
+      "sha256": "182a39148898c0639969b47fd36cd61133757af8cdf338c101bb7974dadbf6dc",
+      "bytes": 25343
+    },
+    {
+      "path": "r/glaze/simulations.json",
+      "sha256": "3aee25f12c6ea80cc931a2ee49674efb5ead5816d825234a09310e525079162f",
+      "bytes": 4281
+    },
+    {
+      "path": "r/glaze/skeleton.json",
+      "sha256": "c79ff8127a3f00e9373c94ce6f215f0acfc6beec8485fc00b01a10dec68215f2",
+      "bytes": 7544
+    },
+    {
+      "path": "r/glaze/skill.json",
+      "sha256": "525e1fa2d028d7c7c0c7d05f855ee249972d19ab9657d0a798f37ea2785ae44c",
+      "bytes": 81473
+    },
+    {
+      "path": "r/glaze/slider.json",
+      "sha256": "431323d6dc4f3ac2d833838c441d03e5b31015352e7ddce54561ff0917974b77",
+      "bytes": 7374
+    },
+    {
+      "path": "r/glaze/status.json",
+      "sha256": "e103cd7161b53b7ad04260bf5eddac590bf6bae9f2225f1866a468d75423d465",
+      "bytes": 6884
+    },
+    {
+      "path": "r/glaze/steps.json",
+      "sha256": "a3435cf53dba376a9f1b02bf9522c56a8f4662e1ed7f87636cdcc90c50d5bf44",
+      "bytes": 11945
+    },
+    {
+      "path": "r/glaze/switch.json",
+      "sha256": "3cd48f60165c39cca0789df6c9ecd44444761f9e17bd9dabc598155b2ae6987d",
+      "bytes": 5311
+    },
+    {
+      "path": "r/glaze/table.json",
+      "sha256": "d69120be160ff3ebd5dc0b42abc3768a39c870d442263a013add89c9b12b4c9c",
+      "bytes": 20761
+    },
+    {
+      "path": "r/glaze/tabs.json",
+      "sha256": "ef1a8e903e068ed0d12011127994a98f256eec79d6717b7d3f2c97d8efade807",
+      "bytes": 7883
+    },
+    {
+      "path": "r/glaze/textarea.json",
+      "sha256": "e068ef8ba974fd5ce792088ed8930dafb45adbbbe271115538a7c27eb46319a6",
+      "bytes": 7617
+    },
+    {
+      "path": "r/glaze/theme.json",
+      "sha256": "ca6ef2388b207c8455fe4abdae6aa7b77aab019515ac2c54dcaf0cbe8bec1fc8",
+      "bytes": 65624
+    },
+    {
+      "path": "r/glaze/timeline.json",
+      "sha256": "221f67c1bcccdb6dc3ad4f1ccee3e63af74359d477483151ffad4ccc36337297",
+      "bytes": 18861
+    },
+    {
+      "path": "r/glaze/toast.json",
+      "sha256": "94dbd3b57574bfe81d7fcbd64d9e67b1ffe534e4dd26ab6335461a2860bc469f",
+      "bytes": 18621
+    },
+    {
+      "path": "r/glaze/today.json",
+      "sha256": "9f9edc36538bae84d6d999d972a14f91e215c754cb439059ae92013fff991a8e",
+      "bytes": 3264
+    },
+    {
+      "path": "r/glaze/tool-call.json",
+      "sha256": "aca09e5395c65967b40d956055735da2af5e1b180f94e23dec84d4030e0951d4",
+      "bytes": 55706
+    },
+    {
+      "path": "r/glaze/toolbar.json",
+      "sha256": "4ed699a87b571dd12d99f420b5c14706f9355d95c6e1f255b089c8f81a872ace",
+      "bytes": 6206
+    },
+    {
+      "path": "r/glaze/tooltip.json",
+      "sha256": "3167a863c962ec1ed7ee97897c560b6e499910f6910ad3aa5a87b15bf60df674",
+      "bytes": 9646
+    },
+    {
+      "path": "r/glaze/truncate.json",
+      "sha256": "a261a7d23222af56f0ba9952906f774cf98ae4d311af183111083dd6bb79d338",
+      "bytes": 12054
+    },
+    {
+      "path": "r/glaze/utils.json",
+      "sha256": "879aa9a6f991543f98b4660092a7a743d25e9d6a5d37dedba519c6a7ef5cfe3b",
+      "bytes": 3446
+    },
+    {
+      "path": "r/glaze/voice-capture.json",
+      "sha256": "1348789e4fe13c199b33948481b0bab1344d7998a3c10fbb7a1e33bc8ff5d959",
+      "bytes": 2607
+    },
+    {
+      "path": "r/index.json",
+      "sha256": "b1df76c58c5315bca62ca4c23b20d684180097f40cc31273f1e3e48cc433c2e0",
+      "bytes": 126950
+    },
+    {
+      "path": "r/lime-accordion.json",
+      "sha256": "62b2f2ab0d5d8e03a20987a1dedc33625e07769b95f22281208c644502258d7b",
+      "bytes": 332
+    },
+    {
+      "path": "r/lime-action-receipt.json",
+      "sha256": "c3b251bd3ea021b8627b3df031b9bab2b5fcb91d25dcf7ea5e707f026bd5906f",
+      "bytes": 385
+    },
+    {
+      "path": "r/lime-alert-dialog.json",
+      "sha256": "2843cf00d3b4a8fceff32544ed5a4d790fa6509a4e58e96a862a0d0cad4b0349",
+      "bytes": 383
+    },
+    {
+      "path": "r/lime-amount.json",
+      "sha256": "0d4e09fe094728d8be76fb61632226682f83dd830cbee3ddf97edbe4ed9f8308",
+      "bytes": 334
+    },
+    {
+      "path": "r/lime-approval-request.json",
+      "sha256": "c327bac12653521a09264bd23a4191f3ee836100e428982c935a0798eefb3d33",
+      "bytes": 417
+    },
+    {
+      "path": "r/lime-assistant-alert.json",
+      "sha256": "05e823fdc52b121cfaf02372df446387527f6dcbb585b29446a671d0a133c1f0",
+      "bytes": 411
+    },
+    {
+      "path": "r/lime-assistant-approval.json",
+      "sha256": "14b7972e81f37e34445a937fc82ebab063656055628e2bf6b15940cb9a3dd7d8",
+      "bytes": 412
+    },
+    {
+      "path": "r/lime-autonomy-rule.json",
+      "sha256": "a1d3ce0c96f4f59a6dd9a715abd66e910b23bd6e158f630dafeb6d59c35b302e",
+      "bytes": 389
+    },
+    {
+      "path": "r/lime-avatar.json",
+      "sha256": "0fc77cda20ed88e5c1bdf08099cfd37f2815a7b96f3f0834b4b97f7285b40d0d",
+      "bytes": 355
+    },
+    {
+      "path": "r/lime-badge.json",
+      "sha256": "c4c2a4a6e8c5881371fcb853f7fd3f5c86bf4b568d0846e4ea2d5cb982103439",
+      "bytes": 335
+    },
+    {
+      "path": "r/lime-balance.json",
+      "sha256": "c2a30d942a88e9409570aab7f68eec420fc31f775107bd832a5107e9193d5b61",
+      "bytes": 329
+    },
+    {
+      "path": "r/lime-bill-schedule.json",
+      "sha256": "db2e360daf3b72b2eebfc2e4b18d2d01676c20e58eb0c7e244f568ea67b60215",
+      "bytes": 379
+    },
+    {
+      "path": "r/lime-button.json",
+      "sha256": "c8fd01470e422a68c573f1b3c8ecbaf8e858146a7da5bf27b229c9bd1d19c0d3",
+      "bytes": 368
+    },
+    {
+      "path": "r/lime-card.json",
+      "sha256": "e7912fb8c195b0eaaa008930ed3d4070aa68d50cfb3c2aba23dc1a9006875dbd",
+      "bytes": 351
+    },
+    {
+      "path": "r/lime-chat-input.json",
+      "sha256": "a1ef76d08ad997e7b2481c0f2747eafddac3d2bc388ec4c90068fa83da49570d",
+      "bytes": 366
+    },
+    {
+      "path": "r/lime-checkbox.json",
+      "sha256": "9ba38a8762b45f17919227f53a2801931369b7657bba1d65dfaffb8c13fe4f9f",
+      "bytes": 324
+    },
+    {
+      "path": "r/lime-chip.json",
+      "sha256": "dc99689ca002d6dd574ac66db8cf4c163de16bfdae83a3e5d4fbd6990a710478",
+      "bytes": 324
+    },
+    {
+      "path": "r/lime-collapsible.json",
+      "sha256": "e81531587cab98a8d5ad6dcab9200ab0f2924da726ef78033211fe790729b42b",
+      "bytes": 371
+    },
+    {
+      "path": "r/lime-combobox.json",
+      "sha256": "0e5b3a4415c9cac4e69636bf65a73880280686019dacd082b0ff36ec81df4b38",
+      "bytes": 350
+    },
+    {
+      "path": "r/lime-copy-button.json",
+      "sha256": "6fffabddc14e9f888b88dbb6dd623374be4f36937d35f6cf1f051c4230d2d22c",
+      "bytes": 361
+    },
+    {
+      "path": "r/lime-dialog.json",
+      "sha256": "7d1d6a8ea1e1948390192fa35de9afb76b68ae815bc1599c14e0dcc468a27185",
+      "bytes": 326
+    },
+    {
+      "path": "r/lime-dropdown-menu.json",
+      "sha256": "ae267c867e6d8c2901d6fb0dd9e2c5d5efc773eaa848617e98c7b6ae7c5780aa",
+      "bytes": 338
+    },
+    {
+      "path": "r/lime-dropzone.json",
+      "sha256": "9302b32d05217933f9e0b6585b90def640139a81a8a0ca56ac526770cebdc4e4",
+      "bytes": 347
+    },
+    {
+      "path": "r/lime-empty.json",
+      "sha256": "b969322574ccdc0f5b9e90d126b57f1ce5cb1667162d1092adfab79ab1133352",
+      "bytes": 322
+    },
+    {
+      "path": "r/lime-error-state.json",
+      "sha256": "3d5141c397acbbc2c822b0de519d5a0b155d6fe71ef5feb11c9cf2b02cf73533",
+      "bytes": 345
+    },
+    {
+      "path": "r/lime-field.json",
+      "sha256": "006f877c9d9b1cbe371e11ea7071abae622ae6e3b8b713bc521bcd89826f1cae",
+      "bytes": 327
+    },
+    {
+      "path": "r/lime-follow-ups.json",
+      "sha256": "38889228c2b1fbfbcab80a8b42e73bf54f317b79106e02571c57ff4834c5a97f",
+      "bytes": 331
+    },
+    {
+      "path": "r/lime-home.json",
+      "sha256": "5554293941eb95bb9d55ee53b735bc633a38319a3746b8be00cd504840dbfe27",
+      "bytes": 373
+    },
+    {
+      "path": "r/lime-icon.json",
+      "sha256": "3c2b5c6cfa970f748451b7a9e8fa4c8365604005bddcc551c26a7a2c92e8071e",
+      "bytes": 319
+    },
+    {
+      "path": "r/lime-input.json",
+      "sha256": "cc5766cfd9a8c0d0522be479df40d6d8e8f95a6e92928daf994bc242ac629a7e",
+      "bytes": 325
+    },
+    {
+      "path": "r/lime-insight.json",
+      "sha256": "bdc9fdacf97fd2d7c5558b40280c0fb065fb67fffcda9f75e4537fdfa4b53bcb",
+      "bytes": 364
+    },
+    {
+      "path": "r/lime-keypad.json",
+      "sha256": "a912a5dc5719f350120caef0ba0d29f2f73391f45032e0a3de240570c683d343",
+      "bytes": 350
+    },
+    {
+      "path": "r/lime-lint.json",
+      "sha256": "eeb5c025510b16c27f9c0190d4cde2b6b62713b081e56312f789529f4876fd92",
+      "bytes": 438
+    },
+    {
+      "path": "r/lime-list-item-menu.json",
+      "sha256": "64fbc7deffbfca5bf6ca5e1023e15c2758f98d66098ff44c51ccb586e8a94f08",
+      "bytes": 371
+    },
+    {
+      "path": "r/lime-list.json",
+      "sha256": "80660c92957c1589bcfa8aa8459bf7f529f53e7eff081d7718dc2157b42fc33d",
+      "bytes": 362
+    },
+    {
+      "path": "r/lime-message.json",
+      "sha256": "63fbba715c4ca7645502a61a652764c872c921d569d326d3a0404b3401b2d312",
+      "bytes": 325
+    },
+    {
+      "path": "r/lime-popover.json",
+      "sha256": "f60d8b040b7a0326bc8b27ab2070a292fc10068451f46d4642300113968bbb59",
+      "bytes": 337
+    },
+    {
+      "path": "r/lime-popup.json",
+      "sha256": "7b7771f290d3c3141e8e49e420f35642ae575224fc8710a689398b041ec25b14",
+      "bytes": 358
+    },
+    {
+      "path": "r/lime-portal.json",
+      "sha256": "7ef6b29d175823b7d42a965b3d841df566bed46bdfa7b3d08c579158daeb2cf2",
+      "bytes": 350
+    },
+    {
+      "path": "r/lime-progress.json",
+      "sha256": "aaef815cee25edbe8d67c44e0f9e821fb96cf71a00bb44eda8e854bacdcfc791",
+      "bytes": 357
+    },
+    {
+      "path": "r/lime-radio.json",
+      "sha256": "c4bc2b77718eed4e555eeac04bab5dcb50cd90e5ee4042b81eda1498cddc7a06",
+      "bytes": 334
+    },
+    {
+      "path": "r/lime-receipt-match.json",
+      "sha256": "a79e7012484c2223229da8b456bd0ccb44e2b035679be7bd7bffcdd392fa071f",
+      "bytes": 365
+    },
+    {
+      "path": "r/lime-scroll-area.json",
+      "sha256": "b7cabf222a3e9660d628fd9395b1835f181f7d028a9f3632889cd8528403b601",
+      "bytes": 332
+    },
+    {
+      "path": "r/lime-segmented.json",
+      "sha256": "83c1458fcfaab3dae93ae689ea36c2f8223f7a09ec284638fba7efbce0d8b5f8",
+      "bytes": 350
+    },
+    {
+      "path": "r/lime-select.json",
+      "sha256": "ba715cbbd77d66fee6c2c6a8ba326b980719738a543bd3a4fd9f5f975371c3e7",
+      "bytes": 332
+    },
+    {
+      "path": "r/lime-separator.json",
+      "sha256": "c5d414f8263ffecff95f68d24178a60207617b0e21437a2d369fb923e7677efb",
+      "bytes": 313
+    },
+    {
+      "path": "r/lime-settings-rules.json",
+      "sha256": "e785e7b287657b29147c2f3089eea64cb2229fb71d62d9de28818b506bc58774",
+      "bytes": 383
+    },
+    {
+      "path": "r/lime-sheet.json",
+      "sha256": "ea2eb26255748e9d6d02e5ad8c54fdfde73554c88a2d193e6cb8cb08bbf47907",
+      "bytes": 350
+    },
+    {
+      "path": "r/lime-skeleton.json",
+      "sha256": "ae1280102ded3d293cad9885eb5016f25fd800378143dc65088f17674eae64e6",
+      "bytes": 362
+    },
+    {
+      "path": "r/lime-skill.json",
+      "sha256": "e25e34c0919ccbaf56be91c64d12a9ba1c1c9bdbe4e540149c347d8f0e73ada1",
+      "bytes": 344
+    },
+    {
+      "path": "r/lime-slider.json",
+      "sha256": "6204c1f5894c42e02194c7f55a5ffbe1bb54d20556c97e4b72f3e393a1d09e38",
+      "bytes": 339
+    },
+    {
+      "path": "r/lime-split-request.json",
+      "sha256": "832caa77e211aca624cc3b6160993d81b26d909e8f87576d14337fa4562de8de",
+      "bytes": 377
+    },
+    {
+      "path": "r/lime-status.json",
+      "sha256": "2eddc49e8488a021430744c0c18f37f85b0f78f236bf11bd3f0ed46cf6860614",
+      "bytes": 318
+    },
+    {
+      "path": "r/lime-switch.json",
+      "sha256": "79577c742d02e7c8d6f7173591a8caf2f82b028cd16eb21e8482334a53dadd25",
+      "bytes": 325
+    },
+    {
+      "path": "r/lime-table.json",
+      "sha256": "ae3acf1808ef83555c75cc7ced3ce114f3f12cad50f7d1d90967bb4fb2bf9f8d",
+      "bytes": 333
+    },
+    {
+      "path": "r/lime-tabs.json",
+      "sha256": "96bb425c95ed6b83eeb2a2f948b435d780f0dcec9bac71ccf708f729be42d7da",
+      "bytes": 334
+    },
+    {
+      "path": "r/lime-textarea.json",
+      "sha256": "6df5ac58b0c6abfed9601226b640c2a7b9689559053371be90476024721d2228",
+      "bytes": 334
+    },
+    {
+      "path": "r/lime-theme.json",
+      "sha256": "2ab17a809a73b5d5bb6a9a9cc7988d48125bed218ee83623ee54142e7897db79",
+      "bytes": 344
+    },
+    {
+      "path": "r/lime-toast.json",
+      "sha256": "b22598f180e3024da879ea758118aad4a8eecc2e62aff11498133046c1a5935e",
+      "bytes": 353
+    },
+    {
+      "path": "r/lime-tool-call.json",
+      "sha256": "929d5b945d09f0484e009f2e8ec9ee60ced8f528aa8a51403532228c487a4b09",
+      "bytes": 369
+    },
+    {
+      "path": "r/lime-toolbar.json",
+      "sha256": "a295d9c732ad63e0f9f1a6e836534fbb7a81133503e5c9f6f16c3ae6ad607e68",
+      "bytes": 323
+    },
+    {
+      "path": "r/lime-tooltip.json",
+      "sha256": "f0fd076a166e317f2046c7b1a65e3768852bd808278dec94c123bb33bb24d272",
+      "bytes": 312
+    },
+    {
+      "path": "r/lime-use-focus-when-replaced.json",
+      "sha256": "201120493e5ba2dbf891fddde4821d38779de3aa33e6a2ef645b8dee18ca3e08",
+      "bytes": 468
+    },
+    {
+      "path": "r/lime-utils.json",
+      "sha256": "0e1a1d5b6f00378af955eb907aee4eaf68709dcbe79dd0efd5ea75c05875299a",
+      "bytes": 434
+    },
+    {
+      "path": "r/lime/accordion.json",
+      "sha256": "69011a88b0d15d3709ea4779e222a3f24e7d8405edbb8f4ffbcd4182a63a56ea",
+      "bytes": 3510
+    },
+    {
+      "path": "r/lime/action-receipt.json",
+      "sha256": "860ca8e76e21d8354cf565b0a535d0e9139b7fafce9f247e5b436eca73dec226",
+      "bytes": 5043
+    },
+    {
+      "path": "r/lime/alert-dialog.json",
+      "sha256": "30c57141987b0f888a985345e7af9072971552f5ddbe8e61b0ce75a3c33728bd",
+      "bytes": 4015
+    },
+    {
+      "path": "r/lime/amount.json",
+      "sha256": "e687dfe35c42de7ab98e374458a7f47eb0f3ae6e786c5416f8b7f666a00183c1",
+      "bytes": 6384
+    },
+    {
+      "path": "r/lime/approval-request.json",
+      "sha256": "aa7f5696f2e069333476fc54da48cc6c7698459ac5c6a84c6a4a54aef2930a18",
+      "bytes": 8149
+    },
+    {
+      "path": "r/lime/assistant-alert.json",
+      "sha256": "e96621c5d76ed82a89c0cf48b100f2ff29caf06fb113b9698021d37b986e6ef8",
+      "bytes": 4611
+    },
+    {
+      "path": "r/lime/assistant-approval.json",
+      "sha256": "67b382e1a8bf439dba10d40949aa27ba2f797e0c8ba96f4bd1acc5eb44e0de4f",
+      "bytes": 2470
+    },
+    {
+      "path": "r/lime/autonomy-rule.json",
+      "sha256": "8417bd3abf32448254bcdf4d6e2c702329885dba551d5d87dc3ffb5593a8d78c",
+      "bytes": 4765
+    },
+    {
+      "path": "r/lime/avatar.json",
+      "sha256": "ad4ed1f05eef2c82e25f1a93759aff406acc65c46273428aba816c7cbf42077c",
+      "bytes": 4211
+    },
+    {
+      "path": "r/lime/badge.json",
+      "sha256": "6b5e3b5df77c04b99769a492287cb4b6dd3556b426bbe6ab3aa176568d04b7bc",
+      "bytes": 2353
+    },
+    {
+      "path": "r/lime/balance.json",
+      "sha256": "3689aaa3233c731dd9ac21230e1b82b93549bd7757f6d89a16dcec20507b9741",
+      "bytes": 3500
+    },
+    {
+      "path": "r/lime/bill-schedule.json",
+      "sha256": "5d87b39b7c0bd0a3f37d4f7060f13f7273377fee5b70b4c41a76b1282218e2a7",
+      "bytes": 4605
+    },
+    {
+      "path": "r/lime/button.json",
+      "sha256": "bd3f0c157708014c0db5d883a2d9de74b5b4b5b3c9397c22914412f108d54da7",
+      "bytes": 7058
+    },
+    {
+      "path": "r/lime/card.json",
+      "sha256": "35862d68f9332ee9dd01b1bd31d5db9651f713325f1becbc17c512d282a30750",
+      "bytes": 5344
+    },
+    {
+      "path": "r/lime/chat-input.json",
+      "sha256": "2033e2b46f7a7c80bee9ee7338a66ed2be4ab6a8d51d0b8c8175b2e70c7b86d3",
+      "bytes": 6607
+    },
+    {
+      "path": "r/lime/checkbox.json",
+      "sha256": "960b9065d9af5e579fb8dedbd766176a20ad9d8071a2592f0e6caaf3b2042ba1",
+      "bytes": 3162
+    },
+    {
+      "path": "r/lime/chip.json",
+      "sha256": "baff30f3d68c301bf96841adadd577317afbf50bfc9c7b18aedd1ae50c7aee8a",
+      "bytes": 3543
+    },
+    {
+      "path": "r/lime/collapsible.json",
+      "sha256": "b448568e174d182e61b635b1e7e8d69084d431dd6fc33c63a9376b2a48da5da8",
+      "bytes": 3222
+    },
+    {
+      "path": "r/lime/combobox.json",
+      "sha256": "e369929b5610b3cac70a089997c9fb1bd9641e53efe0db587247eec45aeff4d8",
+      "bytes": 5231
+    },
+    {
+      "path": "r/lime/copy-button.json",
+      "sha256": "f64947dfd447f20307ec28c3eca3713994a6cedfdfdc7c597f901c256e000d3c",
+      "bytes": 3430
+    },
+    {
+      "path": "r/lime/dialog.json",
+      "sha256": "f7b8c8c0e4b1872e11b12d31265ab89d9866bd9cc7a4948dd7700748d47e24b6",
+      "bytes": 5596
+    },
+    {
+      "path": "r/lime/dropdown-menu.json",
+      "sha256": "44f3738427b1aaeea5d8fbd16f01b9cea25068c29c12df904a7887b3761bb385",
+      "bytes": 6347
+    },
+    {
+      "path": "r/lime/dropzone.json",
+      "sha256": "7165dc11ceeb5aa5783803462772afbd2a83b815d04b2d9df98a345597743b24",
+      "bytes": 5738
+    },
+    {
+      "path": "r/lime/empty.json",
+      "sha256": "803b20dcfb7778b28478d245ecb07cac47467dfd36e9ebe8e76874091fcf4d00",
+      "bytes": 2547
+    },
+    {
+      "path": "r/lime/error-state.json",
+      "sha256": "03a5a64843773eee130e31224e999dab45d4719f316204b1289496fe845c06eb",
+      "bytes": 4165
+    },
+    {
+      "path": "r/lime/field.json",
+      "sha256": "9da95812a6eaf8d2d207e354f08de0eec11a42c1f20f9c45859a8bf006e0f8ac",
+      "bytes": 2568
+    },
+    {
+      "path": "r/lime/follow-ups.json",
+      "sha256": "e52ffcac6414bfb52b134ca1ac2714ec4b412cc0a55c033e6ef57aac84f71fdb",
+      "bytes": 2619
+    },
+    {
+      "path": "r/lime/home.json",
+      "sha256": "e0c0e4e3d374164f02c3911fe08bafdc3fa63ef59de23153dcb8484147d3d285",
+      "bytes": 3654
+    },
+    {
+      "path": "r/lime/icon.json",
+      "sha256": "c30422fdcb73887397bc6a968b78f9892cff8e0b9c6f18d54291ba79becf2555",
+      "bytes": 2748
+    },
+    {
+      "path": "r/lime/input.json",
+      "sha256": "a6c4b1c0a6d936f59461371dd1a9f93a424d07a24ce76274bb32d35eda4daf01",
+      "bytes": 2587
+    },
+    {
+      "path": "r/lime/insight.json",
+      "sha256": "5c6404821d33fe81cd0a778eb26a5338d15633bdff2bae8e5830224b7de35341",
+      "bytes": 3920
+    },
+    {
+      "path": "r/lime/keypad.json",
+      "sha256": "1944956a0719341b0a3191d542c9ab22fc092ff9f8f6923429fcfccdcd9178da",
+      "bytes": 4868
+    },
+    {
+      "path": "r/lime/lint.json",
+      "sha256": "f02be156600295d01599525172db8c788a9e1f4c57262386149c10351cc32da0",
+      "bytes": 111632
+    },
+    {
+      "path": "r/lime/list-item-menu.json",
+      "sha256": "cf58a56aa4c38a9de7023b6bffb0060e2de9fec6b160024482b1fd703d3cdc7b",
+      "bytes": 2507
+    },
+    {
+      "path": "r/lime/list.json",
+      "sha256": "7e3e926bdaa3a3a8adf15e349d624ddbafe68b5214cf01b690801a49fde5f8f7",
+      "bytes": 6564
+    },
+    {
+      "path": "r/lime/message.json",
+      "sha256": "c649e748876d4feb8a8d557923a5b4f3b432c7ad2f5fadb287fa3a4bebdaacf3",
+      "bytes": 2927
+    },
+    {
+      "path": "r/lime/popover.json",
+      "sha256": "a6881412ebdbbf379fe7b3b79e563631e48b70edd362a5d50d23febe45b0a603",
+      "bytes": 3890
+    },
+    {
+      "path": "r/lime/popup.json",
+      "sha256": "bc59c0e27f7d926363d67b12738d55824ba3692bf04bc24df01f0a4dbb452d9f",
+      "bytes": 2520
+    },
+    {
+      "path": "r/lime/portal.json",
+      "sha256": "956f70ea2c023ab3aa6d8db9c73c28f11e6ce13a5380fa23ccf4ec2b31e6a8e2",
+      "bytes": 2780
+    },
+    {
+      "path": "r/lime/progress.json",
+      "sha256": "024f21e5957edfe2c16454861b3a56b9022dfc0366d9e4f675f1f370a79d5ee0",
+      "bytes": 4695
+    },
+    {
+      "path": "r/lime/radio.json",
+      "sha256": "969fa24226ca08a300fe47b930e27292f789d3cc7a6e05b9011c662620b97392",
+      "bytes": 2545
+    },
+    {
+      "path": "r/lime/receipt-match.json",
+      "sha256": "f8b59674f10dd9162b0644544789d947a92d9398aef54d83556195b5028729ce",
+      "bytes": 4781
+    },
+    {
+      "path": "r/lime/registry.json",
+      "sha256": "d3c1fcd33356a97afb3f5476f4831c6f2c3c03635f8214329f2648bc044aaa43",
+      "bytes": 57514
+    },
+    {
+      "path": "r/lime/scroll-area.json",
+      "sha256": "acd1582fc5ff5ab08ad587b1663c65a33821e3f5b8748ce14a602a61c4073d50",
+      "bytes": 2974
+    },
+    {
+      "path": "r/lime/segmented.json",
+      "sha256": "ca37ad76e528d0ab232d2a28cf056c3862bd81174d1c0c4d10b8ff6fbd674f53",
+      "bytes": 3864
+    },
+    {
+      "path": "r/lime/select.json",
+      "sha256": "cc4a3584915edbdcd031e546ce4743ce90eabd042af1f959211a9679b91b54eb",
+      "bytes": 5567
+    },
+    {
+      "path": "r/lime/separator.json",
+      "sha256": "8e4d3b9181984fe9ec42fbb85036cb8db85319a190dab60797876b41f4e0c167",
+      "bytes": 2457
+    },
+    {
+      "path": "r/lime/settings-rules.json",
+      "sha256": "f1b2c5c4e6e823d1a47e9bf483adbdee79ad9f6c6d0d4b0112ff0289fbb2985f",
+      "bytes": 3867
+    },
+    {
+      "path": "r/lime/sheet.json",
+      "sha256": "54ca6b8fc7cac436a44d2a8bfd5c8a001857ccb5bfa8227af2050b998e2ff870",
+      "bytes": 8499
+    },
+    {
+      "path": "r/lime/skeleton.json",
+      "sha256": "50e096c02350c658be4e0625c7d5933255c98081146fe029c2bca09312dcf9b0",
+      "bytes": 2726
+    },
+    {
+      "path": "r/lime/skill.json",
+      "sha256": "36603294b1025fa843f76e7992c494913bc3bd9d4b4145504387d58204f69611",
+      "bytes": 65206
+    },
+    {
+      "path": "r/lime/slider.json",
+      "sha256": "ddcd6473334fd3a600119740f6c8ca88404f0455d974459222e2d631bacc0abc",
+      "bytes": 4028
+    },
+    {
+      "path": "r/lime/split-request.json",
+      "sha256": "6a67c1d389a53bc51928e684e6bc80ebda1fd6d3a7146bc3eea8582f67d26752",
+      "bytes": 2724
+    },
+    {
+      "path": "r/lime/status.json",
+      "sha256": "b5b09504a5e0bcb6d17440be4c7d91f741fce935f4bcbc034b525edf0dcd0fa9",
+      "bytes": 2763
+    },
+    {
+      "path": "r/lime/switch.json",
+      "sha256": "dc30f0fb7d670e424aed2daaffa159a402c028a529dced7a675e74328dcb40da",
+      "bytes": 2656
+    },
+    {
+      "path": "r/lime/table.json",
+      "sha256": "08670ab798ccd94126b05d6317c0012c22ef3585399e387344527c234cf94805",
+      "bytes": 3303
+    },
+    {
+      "path": "r/lime/tabs.json",
+      "sha256": "2379d1bd090096c0bed4f4bdf3d1484a73ddf0890605d487354a2fa3f4ec9f6e",
+      "bytes": 3343
+    },
+    {
+      "path": "r/lime/textarea.json",
+      "sha256": "c87e2e3dac4e9c48345047b2ee0250e375acdc5c2507ff5b14e41666312b3930",
+      "bytes": 3760
+    },
+    {
+      "path": "r/lime/theme.json",
+      "sha256": "9df49ea15cab942e8999ade1f8eefe9b41a23a8e85fe355d8683082932316dfb",
+      "bytes": 41376
+    },
+    {
+      "path": "r/lime/toast.json",
+      "sha256": "ba8761f6d24786ab0ff838d687426eb632a8209e2f86538cc0615b5715889762",
+      "bytes": 6943
+    },
+    {
+      "path": "r/lime/tool-call.json",
+      "sha256": "48975faec0806f46a03375d6c9db29626697f38c91e463ae45287bb1dd82a0a9",
+      "bytes": 3531
+    },
+    {
+      "path": "r/lime/toolbar.json",
+      "sha256": "caed42c44cc9c073131394932113750a48739926e9edf8ddbbb979b9149c6444",
+      "bytes": 3461
+    },
+    {
+      "path": "r/lime/tooltip.json",
+      "sha256": "4a176b8691a4ef875f02c695cc6bbaaf0cab190d7168f2b04a24c62c71e2284e",
+      "bytes": 3343
+    },
+    {
+      "path": "r/lime/use-focus-when-replaced.json",
+      "sha256": "5c4426e50212074f477c1bce7388cc6be959c26c878804897f5372e5f262d6df",
+      "bytes": 2311
+    },
+    {
+      "path": "r/lime/utils.json",
+      "sha256": "1f2dad19401f2b2fd10c8db51312f6b47aa920c97e624c48d5e702b34506bb59",
+      "bytes": 2111
+    },
+    {
+      "path": "r/quartz-activity.json",
+      "sha256": "d3bbd066d110797dff6f9d243d925017c7c34a72ea6c3565c36694f61c5c2fab",
+      "bytes": 347
+    },
+    {
+      "path": "r/quartz-agent-session.json",
+      "sha256": "5198a013c1c75c01c6eba28dbbc3db8de2862c1abab8be656115b490f9e3936d",
+      "bytes": 440
+    },
+    {
+      "path": "r/quartz-alert.json",
+      "sha256": "e58f6eefd25c3672260a1ba2688653848431119ca3eecfb7a19ffa0fc1d5e05e",
+      "bytes": 339
+    },
+    {
+      "path": "r/quartz-api-keys.json",
+      "sha256": "90eb3c067294ec6bdf72c9c735434bf0552ba83710d49562ab0b6a94c096db08",
+      "bytes": 425
+    },
+    {
+      "path": "r/quartz-attachment.json",
+      "sha256": "7dccba0970aeb0650bc82d953c6d4eb412a097e106babb2844062066a18aeffd",
+      "bytes": 366
+    },
+    {
+      "path": "r/quartz-avatar.json",
+      "sha256": "9032c16e0a00f27746a69e697081d945ffcf501a6babe282bd8254f0bddfa74c",
+      "bytes": 332
+    },
+    {
+      "path": "r/quartz-badge.json",
+      "sha256": "930844d98ac230f8a3da68d1f124994ed8d01d87fe172fa412a11f7fadcb1c2a",
+      "bytes": 348
+    },
+    {
+      "path": "r/quartz-breadcrumb.json",
+      "sha256": "12880cb9dd5616d471f524aaafa858b8be5fb5c961976ba91232e53f91be3757",
+      "bytes": 319
+    },
+    {
+      "path": "r/quartz-bulk-action-bar.json",
+      "sha256": "42fb72e114180b3ab8be7ee0f089dde018332a1176645998c988ac4825ea3b53",
+      "bytes": 376
+    },
+    {
+      "path": "r/quartz-button-group.json",
+      "sha256": "84209450fd34bb3ef92d903109ed24117577dfdd4df46ab0fcb04ab25a0be52b",
+      "bytes": 353
+    },
+    {
+      "path": "r/quartz-button.json",
+      "sha256": "bbaff45c6c51d645fdb8322f528069d54914b138f874abd4b84fa03fdce08f38",
+      "bytes": 356
+    },
+    {
+      "path": "r/quartz-card.json",
+      "sha256": "0aa92d509995bd768f6791fb03727d386a81c87117dd464f86784315dfee9c3d",
+      "bytes": 337
+    },
+    {
+      "path": "r/quartz-chart.json",
+      "sha256": "d035018689c0e063880ee42b74dd81b1f39baa553f21b85d635535d636c12346",
+      "bytes": 378
+    },
+    {
+      "path": "r/quartz-checkbox.json",
+      "sha256": "2a02b8f7bc9ba2dba31633c1b16ed87d33a908b2fb485d40fe94a1a263919c45",
+      "bytes": 332
+    },
+    {
+      "path": "r/quartz-children.json",
+      "sha256": "1319302bd170b0947e88cf1ab8543643f5c5f714ea7b7e590cea03f5e632618d",
+      "bytes": 370
+    },
+    {
+      "path": "r/quartz-chip.json",
+      "sha256": "7c59748d8fe4639208f2864aec135119b4c3b424075a8af78b73d6567d4fafba",
+      "bytes": 344
+    },
+    {
+      "path": "r/quartz-code-block.json",
+      "sha256": "43ea12976e3df02caddf397dd4db26ec4d4562797d6024a1dd76503b74cd7582",
+      "bytes": 362
+    },
+    {
+      "path": "r/quartz-collapsible.json",
+      "sha256": "1204fd632ff010b11c81eb1f08779bd5f925bba9cf5648a3cf052fd88ced316a",
+      "bytes": 350
+    },
+    {
+      "path": "r/quartz-combobox.json",
+      "sha256": "b114e21ab1142ffabc80d3798b4a54548037da430bed37ff8e922f6d666a21c9",
+      "bytes": 342
+    },
+    {
+      "path": "r/quartz-command.json",
+      "sha256": "076e2f4aa4a412ea657480e8bd3901f18ad8a9bd63702faf877fb91f571a455b",
+      "bytes": 346
+    },
+    {
+      "path": "r/quartz-conversation.json",
+      "sha256": "33b5cb73d252c4cfcf2d516d72550512d00bb8f8ae628e23edc52a58ecf81650",
+      "bytes": 378
+    },
+    {
+      "path": "r/quartz-copy-button.json",
+      "sha256": "16e0a29a9adcc76c407678000d0f4e95faf94fd021e7f604dd7b05574fd0798f",
+      "bytes": 340
+    },
+    {
+      "path": "r/quartz-css-var.json",
+      "sha256": "f507bd608c91281e073e4783f8c4a8f8988475a1856f24141fe4af457cbb0f86",
+      "bytes": 369
+    },
+    {
+      "path": "r/quartz-data-grid.json",
+      "sha256": "b23a37d150a63778fedcffc796fe1f7118afe21fa936f4a1ce000fc6e0924025",
+      "bytes": 360
+    },
+    {
+      "path": "r/quartz-data-list.json",
+      "sha256": "c9d902c450d715a6e6a337492ebc3d2ea73b8f583a3123c359721d0ed9830f9f",
+      "bytes": 335
+    },
+    {
+      "path": "r/quartz-date-picker.json",
+      "sha256": "3b509e3a09736369f09adf8935a931d199719952c8b0f9c7b0fd2dfa5b4ff14a",
+      "bytes": 369
+    },
+    {
+      "path": "r/quartz-deploy-detail.json",
+      "sha256": "d35ee7ab644cb231767916867a350c232fff02e3252be2eb34de95248611f436",
+      "bytes": 499
+    },
+    {
+      "path": "r/quartz-dialog.json",
+      "sha256": "93da74d8c901e2396a6c5e13babd2fc913bbb4414c4fc14240fecc31b330fecb",
+      "bytes": 333
+    },
+    {
+      "path": "r/quartz-direction.json",
+      "sha256": "b9acc8f2697eda78f712d6ae8de83bdf7300b2c3bc492f683cf9987d66bb060d",
+      "bytes": 349
+    },
+    {
+      "path": "r/quartz-dropdown-menu.json",
+      "sha256": "1d3de62a70de1da8eaaee28f238ec9bbe8819f5bc2edc68125a808d4776a38e9",
+      "bytes": 351
+    },
+    {
+      "path": "r/quartz-empty-state.json",
+      "sha256": "63282241e28c07e31c603b590475fd07cff873be11597446938d884a865df55b",
+      "bytes": 377
+    },
+    {
+      "path": "r/quartz-field.json",
+      "sha256": "14cad3478f3a0f3d5ae9f5b3ce3fba9ac5e29ae4a02e7c5d6131d73681597ab2",
+      "bytes": 342
+    },
+    {
+      "path": "r/quartz-filter-bar.json",
+      "sha256": "9b76513a8b8bb865be561ea6d182fdc57089829bbca5a3466f4c52925af4c90f",
+      "bytes": 338
+    },
+    {
+      "path": "r/quartz-format.json",
+      "sha256": "5ae2d3c0f2df6988cbcc57f930ad3734625dfedb885419acdc99ac4bdeb14720",
+      "bytes": 367
+    },
+    {
+      "path": "r/quartz-icon.json",
+      "sha256": "27900657a72ba6b2f9b8683fbc76f108d2361ad3fdbee110d57a71ae0b4efb69",
+      "bytes": 354
+    },
+    {
+      "path": "r/quartz-input.json",
+      "sha256": "66a3fb09d2ca11910d71f29fe27f42fdf2a7c136380e052161ad260269cdf944",
+      "bytes": 390
+    },
+    {
+      "path": "r/quartz-item.json",
+      "sha256": "f784e8fc34897785e0016719d1b8ce8cfe833bc388ae602623d913eaf0b48cf3",
+      "bytes": 328
+    },
+    {
+      "path": "r/quartz-json-view.json",
+      "sha256": "49ae85c375d1e4d5b13202e09cdef64de318f3a4a92efe47e1d4b367b4ed8f84",
+      "bytes": 322
+    },
+    {
+      "path": "r/quartz-kbd.json",
+      "sha256": "6a0e68bb9c1a35aca4eff1c8d21e56d2a6be49f323d70590226f2c2b747bf34d",
+      "bytes": 291
+    },
+    {
+      "path": "r/quartz-kind.json",
+      "sha256": "708921cf5dc7fd6e92323c97ab53bc9b72f12b3d0237da6925b167ea2d1ed454",
+      "bytes": 362
+    },
+    {
+      "path": "r/quartz-lint.json",
+      "sha256": "9338d3ea149c5782750873bb5210372b1b9bc840a2cb29d53f94588382233c1e",
+      "bytes": 435
+    },
+    {
+      "path": "r/quartz-live-requests.json",
+      "sha256": "8d4cefd66447f2138ab4536dc7d8f3d159bfaf3b1349837d431c56cb3d5e9994",
+      "bytes": 445
+    },
+    {
+      "path": "r/quartz-log-viewer.json",
+      "sha256": "3f14651dfdec219f1b6686f87d6b1d122282388e806d789e5265680b0b2d88a6",
+      "bytes": 346
+    },
+    {
+      "path": "r/quartz-mention.json",
+      "sha256": "25d4da9073f75a790565d9b1f000e2388cac3563d60f73179aa4a518bbf8dc36",
+      "bytes": 343
+    },
+    {
+      "path": "r/quartz-message.json",
+      "sha256": "9f8635f4922257b440da9cbbff5622abba3ab16ce225b3a1ab7cbef70b2332e3",
+      "bytes": 340
+    },
+    {
+      "path": "r/quartz-overlay.json",
+      "sha256": "9c8619d66ec846dbddcb651e4aeec55094a16fe424737d837aa6f349023ab1c2",
+      "bytes": 535
+    },
+    {
+      "path": "r/quartz-page-header.json",
+      "sha256": "b7fa0b5833bbec2664c0a922714d45fc16226cae4fffe23cfaf78571fc0727b5",
+      "bytes": 355
+    },
+    {
+      "path": "r/quartz-pagination.json",
+      "sha256": "d918b2b3044939e2c9ac62e0b2dc7a7515d5b72689c2f01515821f0f0404a9e2",
+      "bytes": 330
+    },
+    {
+      "path": "r/quartz-panel.json",
+      "sha256": "6bd3ae0d0d821737f5c7ccd73e7d103819d0e70afed8bf627324a5eeff2cf163",
+      "bytes": 373
+    },
+    {
+      "path": "r/quartz-popover.json",
+      "sha256": "6bc6d5cae3211a57f8867ee1e8fe4bde8ca0dae3450f9acf94c7759dada30906",
+      "bytes": 361
+    },
+    {
+      "path": "r/quartz-portal.json",
+      "sha256": "8ecd3d7d0507eab4298ddabf04fa08c1212947fb43005d421750ab961d93153d",
+      "bytes": 360
+    },
+    {
+      "path": "r/quartz-progress.json",
+      "sha256": "dc7a59a1004d5c5c809e58c91628afb0c8bf54264c1355855f8cf337da9988c4",
+      "bytes": 317
+    },
+    {
+      "path": "r/quartz-project-home.json",
+      "sha256": "ca172ea51f965172cd4703590af12790ba6a948b6d6e8ef149bac0b0e41e1aaf",
+      "bytes": 499
+    },
+    {
+      "path": "r/quartz-prompt-input.json",
+      "sha256": "c919751d4ac30684fcf80c546090ab2e1b0ec4cb3f8ac94883f6660213e6808e",
+      "bytes": 367
+    },
+    {
+      "path": "r/quartz-radio-group.json",
+      "sha256": "c16b4cfc44362cb5094cdff24909e6ea2a1fdc9c02a544645afe8699c4bdc3ef",
+      "bytes": 340
+    },
+    {
+      "path": "r/quartz-reasoning.json",
+      "sha256": "e9f6e67ef3781da97051247436b1176951d5e8f5bd99c153dea6a0550e739769",
+      "bytes": 360
+    },
+    {
+      "path": "r/quartz-relative-time.json",
+      "sha256": "6d745aaefc36f428507c3bcaae551fd2f207a1122eb3e23878a5567c8b0bb3ba",
+      "bytes": 362
+    },
+    {
+      "path": "r/quartz-response.json",
+      "sha256": "f109d0db0a353bb14229a1f51360d989dbd624901208f993a2faf7909ea122fa",
+      "bytes": 327
+    },
+    {
+      "path": "r/quartz-run-trace.json",
+      "sha256": "cd0810843e64c00d207d50f52bc57445db4fdd86f9316bc539275f53d6636750",
+      "bytes": 419
+    },
+    {
+      "path": "r/quartz-scroll-focus.json",
+      "sha256": "c716d62da8d8870b5a7067106dd492d71ce18a500cdec167b0cd546cf760fc4e",
+      "bytes": 416
+    },
+    {
+      "path": "r/quartz-segmented-control.json",
+      "sha256": "a269fe7f000ccf6d537ef03659f49473387804c4812a53d2ba75b5a012f7dbbc",
+      "bytes": 365
+    },
+    {
+      "path": "r/quartz-select.json",
+      "sha256": "c132ed77899d457c1a14dea3c1eef957dc5a01322cb474089852ba65450e26cb",
+      "bytes": 334
+    },
+    {
+      "path": "r/quartz-send-button.json",
+      "sha256": "aa22402b8058fec61636c0eedb6f6bb74f54f9f1a0728cf94c9ae940c59e92d4",
+      "bytes": 366
+    },
+    {
+      "path": "r/quartz-sheet.json",
+      "sha256": "eb0d864477be75ff8eb58b98f54e638632e2d8f8335f55f1b9bd639055e383dd",
+      "bytes": 317
+    },
+    {
+      "path": "r/quartz-skeleton.json",
+      "sha256": "c52d515c5a96b5d4980cb0336ec3b88eb19f4797bacfeb16e35e2ae32991f863",
+      "bytes": 326
+    },
+    {
+      "path": "r/quartz-skill.json",
+      "sha256": "a8f0541fb5fd9b626102be5de75a3e7991f8513369a2ec35b91b5c5aa78b7d93",
+      "bytes": 356
+    },
+    {
+      "path": "r/quartz-slider.json",
+      "sha256": "3cfd679476a34cdda1e91744913c237fef018dbd3742c5435ade795d80e74349",
+      "bytes": 311
+    },
+    {
+      "path": "r/quartz-stat.json",
+      "sha256": "b691471c4367ebb046ffe6e42bf64618351d6b5ac128d79b282c286a6e887c71",
+      "bytes": 323
+    },
+    {
+      "path": "r/quartz-status.json",
+      "sha256": "d90f5087d5d1551edeccb2e9a4150a3525601f734bde4e9fac699f85736cd6b4",
+      "bytes": 354
+    },
+    {
+      "path": "r/quartz-switch.json",
+      "sha256": "cf832d1b3d813e8fca29b31d389a33df7551c90c34ff26820320a80473c41412",
+      "bytes": 318
+    },
+    {
+      "path": "r/quartz-table.json",
+      "sha256": "19f6c92ce4600a77b7d8c0b0037e5910bc7e832aea2f1b2d10d211c2be773ea9",
+      "bytes": 349
+    },
+    {
+      "path": "r/quartz-tabs.json",
+      "sha256": "471625997db367117a1bff91656f36fd5717102c56d4862204dfa45306506ced",
+      "bytes": 339
+    },
+    {
+      "path": "r/quartz-textarea.json",
+      "sha256": "ea1173746cdd1fd0b0964011f76bcf660c19e4066bac9150968cc7948d7fd642",
+      "bytes": 323
+    },
+    {
+      "path": "r/quartz-theme.json",
+      "sha256": "aa6e3681fb6ba290aecc2caa4cf509a14d31b150d5af102a78ab47d6e193940e",
+      "bytes": 361
+    },
+    {
+      "path": "r/quartz-timeline.json",
+      "sha256": "ec78abe8ab8687d21c58485ad36c7ecbfc2d42f42f302c91762f763203daf9ab",
+      "bytes": 388
+    },
+    {
+      "path": "r/quartz-toast.json",
+      "sha256": "5185d56c523da2eec655c1b3c7026e942f5c8a0ee25c206959d213f31a586010",
+      "bytes": 341
+    },
+    {
+      "path": "r/quartz-tool-approval.json",
+      "sha256": "c7a98ed8e5b0aac4db0e84ce3edb0a7ca94339df343876719a555ce0f4606627",
+      "bytes": 411
+    },
+    {
+      "path": "r/quartz-tool-call.json",
+      "sha256": "4f066e7d222e9bae3c8c3841dc9542db4bad420f305c1220f4d0980949d3e353",
+      "bytes": 358
+    },
+    {
+      "path": "r/quartz-tooltip.json",
+      "sha256": "48256b9ca1bac11c86fc601ffd345e820b01224c2680917e38d36e70868b1af1",
+      "bytes": 360
+    },
+    {
+      "path": "r/quartz-truncate.json",
+      "sha256": "e1d354cd583360807b75f5231c3a1e6d411862ae93bb202f8345b4f133c1fa42",
+      "bytes": 369
+    },
+    {
+      "path": "r/quartz-use-focus-when-replaced.json",
+      "sha256": "3abf85f79fb95257c8eceeb5900217f3f8d5a37224da74bf6798662aeb1a45c0",
+      "bytes": 476
+    },
+    {
+      "path": "r/quartz-use-offscreen.json",
+      "sha256": "1f42562f1f65b120fc7927982e4fdd7591fb82a18dab99e34da67c8c33c3455e",
+      "bytes": 414
+    },
+    {
+      "path": "r/quartz-utils.json",
+      "sha256": "2cab1937428004d1c697a1e52ab7ec8e9c16126d6d0609c63a2c1bb7c63b8225",
+      "bytes": 485
+    },
+    {
+      "path": "r/quartz/activity.json",
+      "sha256": "3ee983688c0873b2eea74d3a6927f5a042d880c1f34d5536f8270012984f2330",
+      "bytes": 18400
+    },
+    {
+      "path": "r/quartz/agent-session.json",
+      "sha256": "0f8863341d9c4b65f6f3ea2ec3689f3f2b5d76ffb5936ccb53f97a297a53f675",
+      "bytes": 15511
+    },
+    {
+      "path": "r/quartz/alert.json",
+      "sha256": "1a091f5a841e655ba0148654c5206c1c12d4f3a7da46365fde6e6de05c8670bb",
+      "bytes": 13356
+    },
+    {
+      "path": "r/quartz/api-keys.json",
+      "sha256": "339f3a7a7523b42e09ee9fce7001b249b8b37832df89d0713c6567a021a42bc0",
+      "bytes": 19428
+    },
+    {
+      "path": "r/quartz/attachment.json",
+      "sha256": "934e0f2ca0036aae6124159fa352ca6dbecd6197b266915874c1cce9c97c04d8",
+      "bytes": 34824
+    },
+    {
+      "path": "r/quartz/avatar.json",
+      "sha256": "3f9497224b6a088301c0203c9e9face309efe07ce1fec43ae101d1ac52a19a28",
+      "bytes": 15337
+    },
+    {
+      "path": "r/quartz/badge.json",
+      "sha256": "435a0bfde1b357bd4cd0956af24695334a7b1afceace6f0aee5b4b654315e251",
+      "bytes": 9157
+    },
+    {
+      "path": "r/quartz/breadcrumb.json",
+      "sha256": "21ed563e4074c85c87aee68f168cc1703e5ffb4f4f435c63796a523ebbb4add4",
+      "bytes": 12415
+    },
+    {
+      "path": "r/quartz/bulk-action-bar.json",
+      "sha256": "83641176ca4a08af29824951fff44160a4eef15b73d41b073990ced18d462212",
+      "bytes": 5656
+    },
+    {
+      "path": "r/quartz/button-group.json",
+      "sha256": "6ff57ef81c6fa45d07a2381e8114dedb673b7ff816ee0ae8b753f97edd7e158d",
+      "bytes": 9832
+    },
+    {
+      "path": "r/quartz/button.json",
+      "sha256": "c609d98a37b7a6c707cddb11670dd1ec2f07e5c77859dab2a17af5e9ac4afe0c",
+      "bytes": 13846
+    },
+    {
+      "path": "r/quartz/card.json",
+      "sha256": "d65458b9e5ef4cbc4a07a49ab6c544fe81391d65bb90706c07de3eaef6be0f1b",
+      "bytes": 10093
+    },
+    {
+      "path": "r/quartz/chart.json",
+      "sha256": "1908204fd9a6dbc73a076db528c61a291517945141a11dfd03ca0760f7818ff4",
+      "bytes": 80793
+    },
+    {
+      "path": "r/quartz/checkbox.json",
+      "sha256": "5028369b548da48d894d6c3053b193ec978a54803c5bdbaf5753ed69031424ae",
+      "bytes": 5924
+    },
+    {
+      "path": "r/quartz/children.json",
+      "sha256": "d80353443fc7ea5e6fcdb76010db88ec7610a5e452a3c09f50e2358cae6cac65",
+      "bytes": 2933
+    },
+    {
+      "path": "r/quartz/chip.json",
+      "sha256": "51d79267e0a5df923b5c5081cbb6db189cb90224cca69ec7c1018fde4c1d31eb",
+      "bytes": 13850
+    },
+    {
+      "path": "r/quartz/code-block.json",
+      "sha256": "d283b1bf4481f58b7beeb9762f9d70c32e3ca0d7d7faa082005102a093169119",
+      "bytes": 29149
+    },
+    {
+      "path": "r/quartz/collapsible.json",
+      "sha256": "da9b805f0e57903a55009d6c97422f723d859604495ff212ac7497726fa63cb9",
+      "bytes": 10636
+    },
+    {
+      "path": "r/quartz/combobox.json",
+      "sha256": "0b9538558ec72a8502bb7b5ac367419c815fba48c7a909c6f78c713444688724",
+      "bytes": 31140
+    },
+    {
+      "path": "r/quartz/command.json",
+      "sha256": "0edccf5efa4569826665aafe35b52bbbbe4eb8c4841c4a67e4f7be5189c7bac5",
+      "bytes": 23001
+    },
+    {
+      "path": "r/quartz/conversation.json",
+      "sha256": "1523b17a49f89dfaf17a9803b6e1084ba5749751a0f2e103a02f9493e2401377",
+      "bytes": 35772
+    },
+    {
+      "path": "r/quartz/copy-button.json",
+      "sha256": "34c388b7bb06ce1bf17d62863c2de1dbd2cc12c0581dd93d0803931dc4d20618",
+      "bytes": 7119
+    },
+    {
+      "path": "r/quartz/css-var.json",
+      "sha256": "828cbae90882ba51f1c12a4cf1ef9e07f26016daac9820d09ee0f3525afd02d5",
+      "bytes": 1795
+    },
+    {
+      "path": "r/quartz/data-grid.json",
+      "sha256": "e3f5ee8e5f6cd5d2df6e1f6e9648bd103fd26a97e6d953cd7bf69c335f6c2d02",
+      "bytes": 30414
+    },
+    {
+      "path": "r/quartz/data-list.json",
+      "sha256": "ae3458bbcdf33f21e1002d6f50c8809904afdd33e3b2c2c727471502d8667f4a",
+      "bytes": 6320
+    },
+    {
+      "path": "r/quartz/date-picker.json",
+      "sha256": "ccf8e890d25b8c7a535ca4fe5555dfbac59000a99ea500c1ecffff42b8620ef4",
+      "bytes": 45354
+    },
+    {
+      "path": "r/quartz/deploy-detail.json",
+      "sha256": "94bd29cbcfaaf74961710dcd2e331dc665dbd07fb9d6c7230fc470c86a619819",
+      "bytes": 17310
+    },
+    {
+      "path": "r/quartz/dialog.json",
+      "sha256": "7145c9309d88ac3f70454fb208e1c010d9eaccc7000218094bb4c3fa50ebc195",
+      "bytes": 20203
+    },
+    {
+      "path": "r/quartz/direction.json",
+      "sha256": "77e3774e6f79267132728409d3cf80294f03ffaa80c3ac754e576c30006f7f99",
+      "bytes": 3768
+    },
+    {
+      "path": "r/quartz/dropdown-menu.json",
+      "sha256": "7d842cd57b3f72f7b0b616665dbac8c693ee26c0313bd1796577b4115294a140",
+      "bytes": 17125
+    },
+    {
+      "path": "r/quartz/empty-state.json",
+      "sha256": "6424dd70c9c0fea292742039cbd733a742a39d172fcf6c9f9627e1210162bd55",
+      "bytes": 10361
+    },
+    {
+      "path": "r/quartz/field.json",
+      "sha256": "bfc4ea2818c990315adf37a7c24d11c02de35d2bf1bed40a80c24a05dcdfa0ce",
+      "bytes": 19962
+    },
+    {
+      "path": "r/quartz/filter-bar.json",
+      "sha256": "3e9073066c048fb61cede2b2f96d2a02700248bd0043ade47b3c4e73c2aa77d2",
+      "bytes": 24956
+    },
+    {
+      "path": "r/quartz/format.json",
+      "sha256": "89caac9fc46f74679466c2d161f420d10d20fdce76e6d9dfc65154fec3ed1ba3",
+      "bytes": 8048
+    },
+    {
+      "path": "r/quartz/icon.json",
+      "sha256": "be28e2a77e3519815a11c1cb952ea3a358ae7be823236e3d454b0f371b3e20a2",
+      "bytes": 15743
+    },
+    {
+      "path": "r/quartz/input.json",
+      "sha256": "0e075ca5f485c11870bbbed3839cfb4c33dc4fde5ffb2b24ab3fe4e641e10ada",
+      "bytes": 50700
+    },
+    {
+      "path": "r/quartz/item.json",
+      "sha256": "e3508eaced2514d02bc319936dcd324418f37209bb550d751f378a2c2d6f3647",
+      "bytes": 11924
+    },
+    {
+      "path": "r/quartz/json-view.json",
+      "sha256": "72d8fcbaee866e41eeebe40573f8738abf9df6a6215073655cc0f4787e893df4",
+      "bytes": 20298
+    },
+    {
+      "path": "r/quartz/kbd.json",
+      "sha256": "e3d461f55af0a4dd4100d1da07d06636661e5da13a5f7ee3dd878a2ed4180b0e",
+      "bytes": 6861
+    },
+    {
+      "path": "r/quartz/kind.json",
+      "sha256": "9a4244e3a44cb88076f897d0f78edc43bf8147f68e450d1587c7bba3ba0fb131",
+      "bytes": 1422
+    },
+    {
+      "path": "r/quartz/lint.json",
+      "sha256": "454becbba08ede7ebdf54750b6c8017911a74665c2305a9901a67a524b1ed7e0",
+      "bytes": 132166
+    },
+    {
+      "path": "r/quartz/live-requests.json",
+      "sha256": "8bc43c865548ef61e636142d8b2a656226e36a7cf6ea43b162517eed597e54fc",
+      "bytes": 15617
+    },
+    {
+      "path": "r/quartz/log-viewer.json",
+      "sha256": "5a8691e2281d0f7155ffe1e4b78209b8ca1b233700b9ce6f31a56be5edbe7ee2",
+      "bytes": 18250
+    },
+    {
+      "path": "r/quartz/mention.json",
+      "sha256": "492d8845f61247996303a1aa1058b67ad1cc93356af1a226673528af4c641558",
+      "bytes": 10852
+    },
+    {
+      "path": "r/quartz/message.json",
+      "sha256": "8ef61143471479d88196ea6473d607734f1bec7cc0f58a181e670a25d8d6e427",
+      "bytes": 25598
+    },
+    {
+      "path": "r/quartz/overlay.json",
+      "sha256": "2218ef477d1bfe42d14d6e1c85c85cef596699a07323e4e513a8927173f492d5",
+      "bytes": 16027
+    },
+    {
+      "path": "r/quartz/page-header.json",
+      "sha256": "dc20590556759b6323c2a09af3f27bba667dd7432ea8bb1dbd8961cd0a989208",
+      "bytes": 9952
+    },
+    {
+      "path": "r/quartz/pagination.json",
+      "sha256": "9c0601a8a3284f55c8b84d7efffd362801c5a70aa33fc741d1954550c436655c",
+      "bytes": 11996
+    },
+    {
+      "path": "r/quartz/panel.json",
+      "sha256": "02f3b103e83cac72486f2a3b8646f5f4a355922ce320c0e4a36a638f5171af7a",
+      "bytes": 5173
+    },
+    {
+      "path": "r/quartz/popover.json",
+      "sha256": "2e8072b70dceab6601ba070c408372f9a8ebd56e8c33bddba95a897004c73e8a",
+      "bytes": 14284
+    },
+    {
+      "path": "r/quartz/portal.json",
+      "sha256": "fc494b80d7e51ddd44d67e9f84733b66279055155d3439deab3aca4a985f95df",
+      "bytes": 8439
+    },
+    {
+      "path": "r/quartz/progress.json",
+      "sha256": "8caf2f40a548f3c97cb0325f5cbd2363237fa3090bf8f93304194f66df0defb9",
+      "bytes": 23289
+    },
+    {
+      "path": "r/quartz/project-home.json",
+      "sha256": "a4711632bd137e2a0f6431d6059aab7d6ba31c61f8803e73b58f848a8398cefa",
+      "bytes": 15438
+    },
+    {
+      "path": "r/quartz/prompt-input.json",
+      "sha256": "8551740dd3836d4d13b2fe011aee5c684983fd369d306fddceef0b9144b67fdd",
+      "bytes": 91511
+    },
+    {
+      "path": "r/quartz/radio-group.json",
+      "sha256": "3edfb416bfe2f35c8ccc1e90ec6cd74c9498505b508458c7dce885af46b55cc1",
+      "bytes": 5996
+    },
+    {
+      "path": "r/quartz/reasoning.json",
+      "sha256": "ea4b4f44065e64c6e5ebdf5dd36940edc33ac7d7f0070728fd33f6ac34f8d1d3",
+      "bytes": 13261
+    },
+    {
+      "path": "r/quartz/registry.json",
+      "sha256": "bdef850d6c81ac338f7d8794e220130473d381aca16664727da05a92e7d1a8fd",
+      "bytes": 89166
+    },
+    {
+      "path": "r/quartz/relative-time.json",
+      "sha256": "ee54735eed605ef97bd5a5418ad185873dfc720be918c309ba14139b6bce58a3",
+      "bytes": 7491
+    },
+    {
+      "path": "r/quartz/response.json",
+      "sha256": "62f0e80c22f2349baa58666a074686041e8b047ab492917c84e649e09b76e832",
+      "bytes": 30281
+    },
+    {
+      "path": "r/quartz/run-trace.json",
+      "sha256": "a59f50c10172a3d450f9764367b630a8fdd41d9fc59382dfb4c9fb8425c6471d",
+      "bytes": 8596
+    },
+    {
+      "path": "r/quartz/scroll-focus.json",
+      "sha256": "ba6495ce103004183d33a4f5d37fa0de31ba417e88900e15f418846e6d98b492",
+      "bytes": 2381
+    },
+    {
+      "path": "r/quartz/segmented-control.json",
+      "sha256": "554bb5e61d50b74392dac1838255653b94fd124315145fd625cd0937093fe87e",
+      "bytes": 13112
+    },
+    {
+      "path": "r/quartz/select.json",
+      "sha256": "d031e89d888c3e02035524f36216b4b3a1202c16f597818280a5bd49a6bef351",
+      "bytes": 16215
+    },
+    {
+      "path": "r/quartz/send-button.json",
+      "sha256": "d4058061bd541d4b7e3c21ec173d2d50a3deb030b02c90a04efa9352c3048389",
+      "bytes": 7268
+    },
+    {
+      "path": "r/quartz/sheet.json",
+      "sha256": "0c30a2201b619e75b6733e99f6cabc3462beb94739676e5d3434de9d2239df08",
+      "bytes": 28130
+    },
+    {
+      "path": "r/quartz/skeleton.json",
+      "sha256": "5758ce8c236fb92f5985f7481a301d28d8da935c20163d1d99c86c3a4df73760",
+      "bytes": 7481
+    },
+    {
+      "path": "r/quartz/skill.json",
+      "sha256": "3467bf107ca679fabb22f77d8ae8648c17c9201b95e7732219aefcfa3816ed8d",
+      "bytes": 100958
+    },
+    {
+      "path": "r/quartz/slider.json",
+      "sha256": "fc8a957cb27717fa7f8cc7445a9ffd3f33babaa37477824cb57b8f08eaeaa6cc",
+      "bytes": 7634
+    },
+    {
+      "path": "r/quartz/stat.json",
+      "sha256": "e0154358c470231888e186a2a8b13ef8fb7d6e90247d5116a8c56d0f3d38fc34",
+      "bytes": 11660
+    },
+    {
+      "path": "r/quartz/status.json",
+      "sha256": "462e4793acb27a54dda32fb9483aa744d305383f333713e65cca4800a84c9ea9",
+      "bytes": 9216
+    },
+    {
+      "path": "r/quartz/switch.json",
+      "sha256": "23ca9cfd5a70abf220715ba410fdee3175685929ac0c11b78c30c4a737c46fed",
+      "bytes": 5427
+    },
+    {
+      "path": "r/quartz/table.json",
+      "sha256": "c678139a656193cedc07fe29407c720c3f33fa181d14771c6f4c5df0f603ef34",
+      "bytes": 65571
+    },
+    {
+      "path": "r/quartz/tabs.json",
+      "sha256": "061bc1c0d682023b63bdb7aca89c1a7803aaa78be9a204df7a5e14ee6b22eb02",
+      "bytes": 24359
+    },
+    {
+      "path": "r/quartz/textarea.json",
+      "sha256": "c1c5e5cb89bcac0655a9f6a6c30fd415187bba21e90c763cded834bdf55f4e2b",
+      "bytes": 6933
+    },
+    {
+      "path": "r/quartz/theme.json",
+      "sha256": "0b1f6e8fe691f53a620c2d28a256c6861a99e127337e429e6c4e23f5dda17604",
+      "bytes": 89248
+    },
+    {
+      "path": "r/quartz/timeline.json",
+      "sha256": "23d2f53bca6e7bdf19d7fb94494edf6f5d2268d12d555c6bf51bc17225dc0205",
+      "bytes": 20230
+    },
+    {
+      "path": "r/quartz/toast.json",
+      "sha256": "37bc58503679e4e699b102d4df4111684b0dbdfb9bf7bac201ddded8fa5cd744",
+      "bytes": 17903
+    },
+    {
+      "path": "r/quartz/tool-approval.json",
+      "sha256": "8dae7d757cb616619ac6e660f88cd0e8a3f7dbda4f94019de54e77d413390936",
+      "bytes": 6528
+    },
+    {
+      "path": "r/quartz/tool-call.json",
+      "sha256": "5bd3b96c6b850d7d27dfc24245dc63747c90b9a7585dd230b431037f110f2784",
+      "bytes": 56909
+    },
+    {
+      "path": "r/quartz/tooltip.json",
+      "sha256": "4716f2c403d73b7a73e6f87a63f20fcaf45576d1229981a8a48dd4dc6b81ec98",
+      "bytes": 10078
+    },
+    {
+      "path": "r/quartz/truncate.json",
+      "sha256": "b8617845b267131897d28f9014537f55e8ee5d97437c180d2cb50fb321b00f3f",
+      "bytes": 13267
+    },
+    {
+      "path": "r/quartz/use-focus-when-replaced.json",
+      "sha256": "004d62d00a841e628df77b690d4a61bed68a97d673db3c08d9d3dbcb19c372cb",
+      "bytes": 2334
+    },
+    {
+      "path": "r/quartz/use-offscreen.json",
+      "sha256": "6fefe7b704109206b2aac378cd662510ea14cbff87b8bf77d0644390ce56c9d1",
+      "bytes": 1998
+    },
+    {
+      "path": "r/quartz/utils.json",
+      "sha256": "21f64043af97d6bc837f5af50e4e65abf86171b36b0e7131932ffe00e6fe6e51",
+      "bytes": 4172
+    },
+    {
+      "path": "r/registry.json",
+      "sha256": "b1df76c58c5315bca62ca4c23b20d684180097f40cc31273f1e3e48cc433c2e0",
+      "bytes": 126950
+    },
+    {
+      "path": "r/sodium-activity.json",
+      "sha256": "939ab462137a0bbe81a8207c4972295f2a69b378f8a486ddf3edf8a71ff80f02",
+      "bytes": 320
+    },
+    {
+      "path": "r/sodium-alert.json",
+      "sha256": "5207e29f565450395ba5d73489fa6f23924c4df3fc941e25514d2f6c1d649c62",
+      "bytes": 329
+    },
+    {
+      "path": "r/sodium-avatar.json",
+      "sha256": "3dcc053aeaf0f830500ebb51e7930e1cb94cbcc191a0817f2f8c5b88c8d5d98b",
+      "bytes": 307
+    },
+    {
+      "path": "r/sodium-bar-blocks.json",
+      "sha256": "799546aaadec05f1cb109e7619a3cd50b26c5b5da8f1d035133f9421a32b9341",
+      "bytes": 364
+    },
+    {
+      "path": "r/sodium-breadcrumb.json",
+      "sha256": "6b7aecebe497b7bcae9cad35780ffd8f40984e73b96cd8cc73ea571e1ef9ae74",
+      "bytes": 336
+    },
+    {
+      "path": "r/sodium-button-group.json",
+      "sha256": "e10692325c63bf7c0528fc4a486f797b88c3970cca4dd6d785b217806da7149d",
+      "bytes": 346
+    },
+    {
+      "path": "r/sodium-button.json",
+      "sha256": "cf8bd9437c0e6a22b8f901747e92553099f037c90337d9f7316501149378fd04",
+      "bytes": 300
+    },
+    {
+      "path": "r/sodium-chart.json",
+      "sha256": "943d5aa2f2776a98042fc28cf2c4e830c502b013553631e36c2d5f523e1d1ae0",
+      "bytes": 324
+    },
+    {
+      "path": "r/sodium-checkbox.json",
+      "sha256": "d90b14da1d2409e89af6ccc439858f83d4a5ed9d6ec3f584f2eb5289e37d60e5",
+      "bytes": 318
+    },
+    {
+      "path": "r/sodium-code-block.json",
+      "sha256": "43d0e0bb34241a64292fb01dba4bbce964f2c6603068bcb05e75812cc07857be",
+      "bytes": 330
+    },
+    {
+      "path": "r/sodium-code-window.json",
+      "sha256": "7795fcca372fb094c136f3f5e58466bcb8ca19619fa9bf4e81e25af2bacbb646",
+      "bytes": 364
+    },
+    {
+      "path": "r/sodium-collapsible.json",
+      "sha256": "f6afdb9979c1b228453e912ed154103e362cfdd1c82b66028470f7be707cd8f9",
+      "bytes": 328
+    },
+    {
+      "path": "r/sodium-combobox.json",
+      "sha256": "a1840b95f03796a4229a62f8204284b0d06567abb4701297a9873fd000d35e84",
+      "bytes": 326
+    },
+    {
+      "path": "r/sodium-command.json",
+      "sha256": "520a72f8b63e581e7d794071c3cb5e52f617e232eea45bf9aedd425a04e873be",
+      "bytes": 322
+    },
+    {
+      "path": "r/sodium-copy-button.json",
+      "sha256": "94efab3543617eee38377a53d0ff487f79b7973f31823242e1b4f1559e5115a8",
+      "bytes": 318
+    },
+    {
+      "path": "r/sodium-data-list.json",
+      "sha256": "57ec56f0d7d3326c8b4f4d973b2ed0cfc7d08f7eb2c91d1fdb16ca98255e53a4",
+      "bytes": 339
+    },
+    {
+      "path": "r/sodium-dialog.json",
+      "sha256": "1e6f87ad7552ae36190cd1e4eff7c4e6924ecd814fd97dd024adf72063000158",
+      "bytes": 322
+    },
+    {
+      "path": "r/sodium-direction.json",
+      "sha256": "1413be4b990ec922011d5abac130644c53bdde8181e445bfc6a60551c9a90dd1",
+      "bytes": 398
+    },
+    {
+      "path": "r/sodium-dropdown-menu.json",
+      "sha256": "400a38594b570b7e8bd97fccc7796121eb78adf00651854b98ce7904160a8ec4",
+      "bytes": 342
+    },
+    {
+      "path": "r/sodium-empty-state.json",
+      "sha256": "78f244cd413a2ecd53ade2ba4d01087625772265499fc4d14db5fc28ca8e725c",
+      "bytes": 334
+    },
+    {
+      "path": "r/sodium-failed-load.json",
+      "sha256": "4abd246cbfd5fb0319299a78dd81d3a9e7310acaa6d1101bcdf6b656f5a2f807",
+      "bytes": 409
+    },
+    {
+      "path": "r/sodium-field.json",
+      "sha256": "426d8600823b76c7c51b6fee72a9cc15f1d1ca25f0c8e5cfc0379220f1621816",
+      "bytes": 314
+    },
+    {
+      "path": "r/sodium-filter-bar.json",
+      "sha256": "5503bcebbca3bf2d7da9e38eda766eab294b258838370c3533bccbfcd8df8d78",
+      "bytes": 343
+    },
+    {
+      "path": "r/sodium-frame.json",
+      "sha256": "2b80b0816594f6023aca5cd3bb73e5d36b7d696a0834a2d3ea2c5dc4e488d2ee",
+      "bytes": 323
+    },
+    {
+      "path": "r/sodium-icon.json",
+      "sha256": "0790c7187c1d5a529fed58b1b5f7455300a86f8ba23e437f007a0913959482fa",
+      "bytes": 390
+    },
+    {
+      "path": "r/sodium-input.json",
+      "sha256": "9549f8b38512cebae55ee3ae2c642ca2d9a8bb49aa75a8f7c3e3c6f51434576a",
+      "bytes": 302
+    },
+    {
+      "path": "r/sodium-item.json",
+      "sha256": "b3409455d7014d35bd130057b0f39e3c7f0171af531c25b4d419c8fb412a3bda",
+      "bytes": 310
+    },
+    {
+      "path": "r/sodium-job-runs.json",
+      "sha256": "113d36f42275e806d512f0ba901ddf7d7d6e540d17fdb3e3a3df2cdc599d8bc7",
+      "bytes": 386
+    },
+    {
+      "path": "r/sodium-json-view.json",
+      "sha256": "a98e8d4c3a80fbbb5a519a8018e86ab7af7f735531a82b9c7f10aec904742cb6",
+      "bytes": 336
+    },
+    {
+      "path": "r/sodium-kbd.json",
+      "sha256": "e344470edb90c25093e39906319dc4a1933ae371fbd99e0239447feab336a699",
+      "bytes": 297
+    },
+    {
+      "path": "r/sodium-lint.json",
+      "sha256": "c55aed26e8886131bc9fc34004be13f21ee4bf4a693eb3d3ad57faeb27a897b6",
+      "bytes": 491
+    },
+    {
+      "path": "r/sodium-log-viewer.json",
+      "sha256": "9e2ff1f735833d55af15d4a661b9e8821786b486bf1d0373e1cf9b25e10264a7",
+      "bytes": 341
+    },
+    {
+      "path": "r/sodium-message.json",
+      "sha256": "7d5fe2336c1b31fccffe069913a22bbfc012396c0ae190d7e68799773fde8b93",
+      "bytes": 320
+    },
+    {
+      "path": "r/sodium-meter.json",
+      "sha256": "8800f80d0884364b059d30514d34647a4161e4a791cd380b6b42951e568c5e65",
+      "bytes": 307
+    },
+    {
+      "path": "r/sodium-numbered-tabs.json",
+      "sha256": "adf154f8c0db2efa4977c06e0f1ab03974ab2e8aabb1349462fcfe47f7f10543",
+      "bytes": 363
+    },
+    {
+      "path": "r/sodium-on-call.json",
+      "sha256": "bbe6043da3c26390d542578312a39d63686509629161b2bb7ff20b27e603f7f7",
+      "bytes": 407
+    },
+    {
+      "path": "r/sodium-overlay.json",
+      "sha256": "8308521bcf1199f0e68a20f0ed76a62b92ce0b32c7aade9802473529e4952409",
+      "bytes": 424
+    },
+    {
+      "path": "r/sodium-pagination.json",
+      "sha256": "6688d3a2acf7bc0418ef9c18d91186a9a1b76d9d7503f02fb016f6ea196dad6d",
+      "bytes": 330
+    },
+    {
+      "path": "r/sodium-pipeline-history.json",
+      "sha256": "0d13e6a1438ec7f0fef9751ec5380cfbec7a388ca58612d7c645f58efebea604",
+      "bytes": 427
+    },
+    {
+      "path": "r/sodium-popover.json",
+      "sha256": "b353f407fef1faec178613f41cf19a6c2c8d770604a3803694d4392fc40b08ae",
+      "bytes": 323
+    },
+    {
+      "path": "r/sodium-portal.json",
+      "sha256": "b2b363786dc9b766200c8f24952f62d746d7419964eb65cbf0d92f6fc18f53cf",
+      "bytes": 401
+    },
+    {
+      "path": "r/sodium-progress.json",
+      "sha256": "86b0835dea2be068817cb8a71863e4691834fb27a1e6d47809e83bbab1f6a0ce",
+      "bytes": 316
+    },
+    {
+      "path": "r/sodium-prompt-input.json",
+      "sha256": "6003f99912a53d8624ece9992dabe998fc0e6af6d278487b752c0b7645e6acef",
+      "bytes": 347
+    },
+    {
+      "path": "r/sodium-radio-group.json",
+      "sha256": "2ae852144fdbc9165870cc1cadec7a9ea1df4e61ce209726a043b42587f0460e",
+      "bytes": 330
+    },
+    {
+      "path": "r/sodium-response.json",
+      "sha256": "6caa5099d6e94f5981fb965048cc00800198a826e20133da2aff28574cd0e65d",
+      "bytes": 331
+    },
+    {
+      "path": "r/sodium-run-progress.json",
+      "sha256": "6113c5caa9938609110bc03d751f1fb1c612354446a7e17666fa84aebde17192",
+      "bytes": 418
+    },
+    {
+      "path": "r/sodium-scroll.json",
+      "sha256": "895d61e97e5335c642595f84846c8c804ae5b15d05e677bca2db1d7ab8592319",
+      "bytes": 407
+    },
+    {
+      "path": "r/sodium-segmented-control.json",
+      "sha256": "d25e1cea8b3d650d29b03236b9f5e37b945e47f4e5586766cb01771e1baeaf0b",
+      "bytes": 369
+    },
+    {
+      "path": "r/sodium-select.json",
+      "sha256": "a6967e07735bf89d4d64dfa78a1a9574570ddd184bdc64867eae07cc0d35ccad",
+      "bytes": 312
+    },
+    {
+      "path": "r/sodium-sheet.json",
+      "sha256": "ee61e1ac74d72bab4560becf74dc192132d5f41516a6d4b5aef81e227ad11590",
+      "bytes": 322
+    },
+    {
+      "path": "r/sodium-skeleton.json",
+      "sha256": "51b8c4bc8e6893cbe4d4107683ec4282236315fd9243d540ae53c5ed71e761d0",
+      "bytes": 333
+    },
+    {
+      "path": "r/sodium-skill.json",
+      "sha256": "895e437d5f5d245b1175fb8bced1662d79fb98b6c9e49d7835dddb3d16e100ef",
+      "bytes": 356
+    },
+    {
+      "path": "r/sodium-slider.json",
+      "sha256": "decc32696a74d8ad74e97ab26eeda3d7ede6a4fb960b1ca911a03dfd4111e056",
+      "bytes": 309
+    },
+    {
+      "path": "r/sodium-status-strip.json",
+      "sha256": "ba2f6f4f23da4a99ab2498a6cf547d22da6e4b778efd207bdea4c626bda8a912",
+      "bytes": 362
+    },
+    {
+      "path": "r/sodium-status.json",
+      "sha256": "c3ab703c74ef0f52dda91269478f4f9c69652c3bcf1df01ab47c8cd1c54cd802",
+      "bytes": 316
+    },
+    {
+      "path": "r/sodium-stem-chart.json",
+      "sha256": "e0578b6dcaa6942b34ebb4a159fe3cc936e8d3547bbf5be97882db046671fa4e",
+      "bytes": 351
+    },
+    {
+      "path": "r/sodium-swimlanes.json",
+      "sha256": "6dd93d560858bb16e959c7408cc7305d9d34a416861607fb7a176f5b74455700",
+      "bytes": 352
+    },
+    {
+      "path": "r/sodium-switch.json",
+      "sha256": "6d77a5c46be07cfcc272679d3959edd0ab41f656ab386218ccc5b12a12e1e683",
+      "bytes": 317
+    },
+    {
+      "path": "r/sodium-sync-flow.json",
+      "sha256": "28aaa711cd99e74b6d5c980e527651111abab431bec21ae4ae09bab34be7ff49",
+      "bytes": 397
+    },
+    {
+      "path": "r/sodium-table.json",
+      "sha256": "42bdc06a1b9dbe61ae2633c77a73211a00d829caa63a40cb7490fdf5031381ed",
+      "bytes": 320
+    },
+    {
+      "path": "r/sodium-tabs.json",
+      "sha256": "e310a6f56b79cb0c13748afa5686bde0b18a9e4db7515ab74a757b1cebfd720a",
+      "bytes": 311
+    },
+    {
+      "path": "r/sodium-tag.json",
+      "sha256": "8bd5e0ec5ac7d8653c0d24872265edf783f37d723721dceb04185451c98da826",
+      "bytes": 313
+    },
+    {
+      "path": "r/sodium-textarea.json",
+      "sha256": "570203bc29be3801d786a3e299bf2f1b39d8dea910a03aa2aee2a655162e593a",
+      "bytes": 319
+    },
+    {
+      "path": "r/sodium-theme.json",
+      "sha256": "bfc4eee46afe4dc0e095745656af9dae70ea03e9fa2eddeeba41a44bdbd0ece4",
+      "bytes": 460
+    },
+    {
+      "path": "r/sodium-toast.json",
+      "sha256": "94ad7a579c49e9052e7b4757b5eaa683e5766d71596e5c72b7c00f4e6b5cb89b",
+      "bytes": 323
+    },
+    {
+      "path": "r/sodium-tool-call-row.json",
+      "sha256": "a38a95ab8aaea9d94c7d708e02f731615bd9ebd02ec17d38f6b9cb673715f75a",
+      "bytes": 368
+    },
+    {
+      "path": "r/sodium-tool-call.json",
+      "sha256": "04b2478a2ef3a9a409fa41f378c2a5fbdab21180e7012181788032b02da6d7ce",
+      "bytes": 335
+    },
+    {
+      "path": "r/sodium-tooltip.json",
+      "sha256": "e682c46aeede0e91ff4e445522ca36a25cdab61bf9c9e4c2819ee35661be6c80",
+      "bytes": 321
+    },
+    {
+      "path": "r/sodium-use-draw.json",
+      "sha256": "45767ea74d60f0d5745def9887c0b052d52f2ae7958e178c377a081e513a461f",
+      "bytes": 368
+    },
+    {
+      "path": "r/sodium-use-scramble.json",
+      "sha256": "6a21f5052fdd8e640a89e1b7aa19246ede53b8d47dd3b2f6c1d5f2ad757ed5f5",
+      "bytes": 378
+    },
+    {
+      "path": "r/sodium-use-timeline.json",
+      "sha256": "d5201c70b643c7bd0b4f9edb2695e321c3354eda629b24931e2022c13c1ce849",
+      "bytes": 449
+    },
+    {
+      "path": "r/sodium-use-typing.json",
+      "sha256": "17d559eb6d41bdb0bf859261e18863eb2c3ffb3f4dbeccac4b035cf707a61c46",
+      "bytes": 397
+    },
+    {
+      "path": "r/sodium-utils.json",
+      "sha256": "5af8ee9f330949637a497cdb01b4cedacdfaa9ae1fda3ef19473752df2390fd5",
+      "bytes": 550
+    },
+    {
+      "path": "r/sodium-warehouse-capacity.json",
+      "sha256": "4a0ae1ed0de43dd835f40456b54fdb8919faeae652331f0683f3f38f3d209f68",
+      "bytes": 456
+    },
+    {
+      "path": "r/sodium/activity.json",
+      "sha256": "91e6de0893c2c232a9576e34f92853f642ceb0737df103b2d6c7fa938e3d0fe9",
+      "bytes": 9555
+    },
+    {
+      "path": "r/sodium/alert.json",
+      "sha256": "39ae4d9fb949f7bed5be0d59bd4805cc92ee411ac24ca04da258f8a2c284c3e6",
+      "bytes": 9976
+    },
+    {
+      "path": "r/sodium/avatar.json",
+      "sha256": "f7ea02d6857822afe282e483ad8e96d58910a8a4f83dad92aa5c51e0f32e1ca7",
+      "bytes": 8077
+    },
+    {
+      "path": "r/sodium/bar-blocks.json",
+      "sha256": "810fb2c9b7e4cbc9ca00e6351ecd8cab7b2e96cf49e246c1557c840d0bc35dac",
+      "bytes": 8385
+    },
+    {
+      "path": "r/sodium/breadcrumb.json",
+      "sha256": "86839e1d7b537cd7db0a85e488cd79392ef6a2270086d8ed91fca2b5d615b44b",
+      "bytes": 12384
+    },
+    {
+      "path": "r/sodium/button-group.json",
+      "sha256": "62de796d35b1d80bb9c8cddbe6a8adb4aded0213f206daf4af64d37b46758926",
+      "bytes": 8294
+    },
+    {
+      "path": "r/sodium/button.json",
+      "sha256": "f511da7f5940e54c2462738a2abd16de584de0894d1fd2b772375e77f0667f1e",
+      "bytes": 8723
+    },
+    {
+      "path": "r/sodium/chart.json",
+      "sha256": "eba8b21777b32158a6621db40156b577a9995ab1404ebf12661a59c78f5ce042",
+      "bytes": 51774
+    },
+    {
+      "path": "r/sodium/checkbox.json",
+      "sha256": "c498c463bfc52ed7ac28a75ff93f4bec1a7564f3708844b4f547016312320b5a",
+      "bytes": 5279
+    },
+    {
+      "path": "r/sodium/code-block.json",
+      "sha256": "05d644973707753a6addf06f87e19ce454abd49a6105a70caaf0c21dad200b38",
+      "bytes": 21760
+    },
+    {
+      "path": "r/sodium/code-window.json",
+      "sha256": "ff8939949b60ef43fc2628017b6e653ae8868425a5e4e6e8a7678b987a27fda3",
+      "bytes": 7300
+    },
+    {
+      "path": "r/sodium/collapsible.json",
+      "sha256": "c18b40d6b3a4f5d5002580869531f4c0226e489ad304827ab156bd0963aacfd0",
+      "bytes": 9344
+    },
+    {
+      "path": "r/sodium/combobox.json",
+      "sha256": "0d657a7fda9bb181d5b1b50d3b3aaa2f19ca2f4e4abd8222eb18737ddb930de3",
+      "bytes": 31074
+    },
+    {
+      "path": "r/sodium/command.json",
+      "sha256": "e56857e5d1389924f50d34c56c3275bc3ea8b16b7a96319c2c2f059ac96a23f5",
+      "bytes": 23525
+    },
+    {
+      "path": "r/sodium/copy-button.json",
+      "sha256": "d6ed602aed3e52ebe47dab88615ad30288d7039587ebd0b344257efa13769e84",
+      "bytes": 7006
+    },
+    {
+      "path": "r/sodium/data-list.json",
+      "sha256": "47332e2a6d0b63d3e4913a1418a56f394dec8abcb6994cc505b08e77f874b831",
+      "bytes": 5491
+    },
+    {
+      "path": "r/sodium/dialog.json",
+      "sha256": "e38f5689a97dc2a919966c6c610ada684bbf4d9147fb5ac171e67bb880ee3dc8",
+      "bytes": 18902
+    },
+    {
+      "path": "r/sodium/direction.json",
+      "sha256": "1762758a8aa2d5e193261f54280317e478614744f1f4ba2198b42d132fb76ca6",
+      "bytes": 3817
+    },
+    {
+      "path": "r/sodium/dropdown-menu.json",
+      "sha256": "9a6e396d86fe8c2286e114f94f457c32a6fbc58f60d4d79387e8aec0e45adcd2",
+      "bytes": 16165
+    },
+    {
+      "path": "r/sodium/empty-state.json",
+      "sha256": "ec6c17b46bc91e3c0f4ca27a4da593201039dcec2166be2a60e06dbc5ccc80d3",
+      "bytes": 8633
+    },
+    {
+      "path": "r/sodium/failed-load.json",
+      "sha256": "75066475ef36e5ab816a3419fb901241c7255495cb6deaf3248fc28aab27ffec",
+      "bytes": 3598
+    },
+    {
+      "path": "r/sodium/field.json",
+      "sha256": "1820036cea3c8445606abcbb23f198b02629f13ad07078ce8bdae46ffe7f84ab",
+      "bytes": 16529
+    },
+    {
+      "path": "r/sodium/filter-bar.json",
+      "sha256": "07b987cd0be22b28ad2b15fa1da201e36b23c3fdb3e8af5ebb160b0fa10c128c",
+      "bytes": 19616
+    },
+    {
+      "path": "r/sodium/frame.json",
+      "sha256": "fc55bdfa142c84234ad9d326791d6c82816c9e2c5ec86c713b6083701d223d58",
+      "bytes": 7760
+    },
+    {
+      "path": "r/sodium/icon.json",
+      "sha256": "7243975a147a1ff82d95ae7a79437aed0b6d1390baaee3008a9e519e27dd8abd",
+      "bytes": 8117
+    },
+    {
+      "path": "r/sodium/input.json",
+      "sha256": "2711061f7cb60d29c5d1fdd3f4b4b30b871093c46aa62f114b1a05b5bd2d3356",
+      "bytes": 22213
+    },
+    {
+      "path": "r/sodium/item.json",
+      "sha256": "556bdb8a600cd16dda4e7ede724de235575f39d694cfbbe73d7ae4c5d15641db",
+      "bytes": 8486
+    },
+    {
+      "path": "r/sodium/job-runs.json",
+      "sha256": "b0bc10bcbc74a53ac6da9ca5066ca283d352b7c763718fe6c8198fcc21b0a6e2",
+      "bytes": 4565
+    },
+    {
+      "path": "r/sodium/json-view.json",
+      "sha256": "c76f8f8b685dc97b0c0102897cdebdbf44b056645e53d52b4e1fc83bf6702a3f",
+      "bytes": 19423
+    },
+    {
+      "path": "r/sodium/kbd.json",
+      "sha256": "f969e22340b3e09d4e59017c0887ab36c44ada6db8358f228718233f9561d452",
+      "bytes": 6335
+    },
+    {
+      "path": "r/sodium/lint.json",
+      "sha256": "1d6f626a6eb258af6b9e299ea8de12092f93f44774bdae6066b171744188aa08",
+      "bytes": 121066
+    },
+    {
+      "path": "r/sodium/log-viewer.json",
+      "sha256": "89b9017e3f8d7697343e3946e3fd0875a1edabb3dca1374ab4d60019344210c4",
+      "bytes": 16129
+    },
+    {
+      "path": "r/sodium/message.json",
+      "sha256": "632c22a4f533ae2b7333053379b3a422d01a50b0620758f32453013fe03051cc",
+      "bytes": 7125
+    },
+    {
+      "path": "r/sodium/meter.json",
+      "sha256": "6c57daaea5abc0665d90d0bf4fd8c2e08ddb4a0e1a7e4c1d3bb26282a89518bf",
+      "bytes": 9847
+    },
+    {
+      "path": "r/sodium/numbered-tabs.json",
+      "sha256": "fad7296c2f6581bcb33f7d0f1d06fcd8536249ed185e5e4e52b95046e9791304",
+      "bytes": 7049
+    },
+    {
+      "path": "r/sodium/on-call.json",
+      "sha256": "f180f8b1d3977fe2da0400040dbd8495d25539d24f66ac03516bc692ab035a16",
+      "bytes": 3620
+    },
+    {
+      "path": "r/sodium/overlay.json",
+      "sha256": "b4e964db459f114d6b9c44aa5a0e4c64ea84f20bd1af38d742fe33bbc75e3443",
+      "bytes": 21676
+    },
+    {
+      "path": "r/sodium/pagination.json",
+      "sha256": "d57aa1e306043f60e0ac28e472eafc54298a168251e476d64181371f0d66690e",
+      "bytes": 12397
+    },
+    {
+      "path": "r/sodium/pipeline-history.json",
+      "sha256": "c9f55b09e673db0dbb35cb25f05d93a45082a57b0d6898906e1f87debbd199a9",
+      "bytes": 5496
+    },
+    {
+      "path": "r/sodium/popover.json",
+      "sha256": "c170837170bb73bd4e05bf891669b6c550a13e60e8fff3d50048cefa4ce722fd",
+      "bytes": 13948
+    },
+    {
+      "path": "r/sodium/portal.json",
+      "sha256": "1358448111d626781c483ba9c1070b3c4c9206d7030df83b588b5d940ab86cb4",
+      "bytes": 8480
+    },
+    {
+      "path": "r/sodium/progress.json",
+      "sha256": "d16e143ff9049ece89959acfb1f12b1cf0ca8aa5c9c72fb7e1607b262401b06c",
+      "bytes": 6878
+    },
+    {
+      "path": "r/sodium/prompt-input.json",
+      "sha256": "b795b347f2e4ce6db768013f550f0a14925283ca9b119b1ed332a8b3b51bda48",
+      "bytes": 10864
+    },
+    {
+      "path": "r/sodium/radio-group.json",
+      "sha256": "010837b13322937c2cedcb51584a07852c1f65c8597f59eca33312b69864dc07",
+      "bytes": 5561
+    },
+    {
+      "path": "r/sodium/registry.json",
+      "sha256": "b4f04d5390ee562a0cf0f52356a1e277d03e3594bea60b74369e03a5750f9419",
+      "bytes": 69714
+    },
+    {
+      "path": "r/sodium/response.json",
+      "sha256": "7eb7c2a00ee52423b8b78e2e0ecfc4ffa98629cda3b10b80b78ba69f74e55cd1",
+      "bytes": 16625
+    },
+    {
+      "path": "r/sodium/run-progress.json",
+      "sha256": "859cac4e3650b1d8d56b158d122d4e0b9ad49198cf237e3778d4a95e444308c6",
+      "bytes": 5193
+    },
+    {
+      "path": "r/sodium/scroll.json",
+      "sha256": "b7e8483f6edd88d7b50a63d9f39a6edcaaed478493467b208371a1b5e0048e85",
+      "bytes": 2426
+    },
+    {
+      "path": "r/sodium/segmented-control.json",
+      "sha256": "8360007afab9763d72068f723f4e93a3cb0f9aa5e472d92f284bdc14e70c1247",
+      "bytes": 9927
+    },
+    {
+      "path": "r/sodium/select.json",
+      "sha256": "34aa3341c1569c1cc3f102306e0442546d76618f277453f664a142d1537339df",
+      "bytes": 14046
+    },
+    {
+      "path": "r/sodium/sheet.json",
+      "sha256": "606ef1314660db9576ee4b7ca540b23337629ee709346c682b6617244051ab80",
+      "bytes": 25520
+    },
+    {
+      "path": "r/sodium/skeleton.json",
+      "sha256": "252838fcd4c7ab039cda6d9ee90db4179bc742f1b6c4809651f052d2e267d3a3",
+      "bytes": 7707
+    },
+    {
+      "path": "r/sodium/skill.json",
+      "sha256": "ed25bd312f8caa706fb08daacb1fdcb275aee471546eaa015cd4a5f9978387de",
+      "bytes": 76194
+    },
+    {
+      "path": "r/sodium/slider.json",
+      "sha256": "1730c4dc113b5fcc76bf85f1abe777a5f8d42ebce4ec914d7df90b3eb79d5378",
+      "bytes": 7332
+    },
+    {
+      "path": "r/sodium/status-strip.json",
+      "sha256": "8332d7bb749637fdb26f47bdf3cf310e286b2a025380892d9a9535bbc93de247",
+      "bytes": 6589
+    },
+    {
+      "path": "r/sodium/status.json",
+      "sha256": "1e07d1cd2491a3b603eeb870e742afce11e5d474c5cd83e382b115505f17f1db",
+      "bytes": 8985
+    },
+    {
+      "path": "r/sodium/stem-chart.json",
+      "sha256": "5003ea8a669968b77a6a1400d6b01c16ce6cd46bd1274b171e083f87fd21a62d",
+      "bytes": 11483
+    },
+    {
+      "path": "r/sodium/swimlanes.json",
+      "sha256": "39cc472a4363c5a7bb7cb9d330e21fac4a94a775ecf3cbbd6da4a8d3edd81962",
+      "bytes": 9793
+    },
+    {
+      "path": "r/sodium/switch.json",
+      "sha256": "a7ad7c7b025255fd25779cb85cd62e189f1844a7d45d29f48cf6ba0d44e88084",
+      "bytes": 5155
+    },
+    {
+      "path": "r/sodium/sync-flow.json",
+      "sha256": "cf43f7c8ce0ac23d49177812320ab0cfd4dfc14ef21f4284f1fbc757bf1250bf",
+      "bytes": 3829
+    },
+    {
+      "path": "r/sodium/table.json",
+      "sha256": "c1e5b5c9ec65be3f08b8ede4d612aa7856dea9158ba9969436d88f0c138ca4ce",
+      "bytes": 18905
+    },
+    {
+      "path": "r/sodium/tabs.json",
+      "sha256": "58e883e5294f5c6286b435e04d3dd618bb472018dee78504b121e3a783f89db4",
+      "bytes": 6669
+    },
+    {
+      "path": "r/sodium/tag.json",
+      "sha256": "e1d54157892cbe8d42d071aa2856a2aac5479ad5662481a79983aee182d6c41d",
+      "bytes": 4089
+    },
+    {
+      "path": "r/sodium/textarea.json",
+      "sha256": "10ac7c67e86123bd4d00e5f47a9902cdc1b855b7e7f2d218a7ec6fb8d9d19eee",
+      "bytes": 7470
+    },
+    {
+      "path": "r/sodium/theme.json",
+      "sha256": "f636861ddabeb3859c6ead207071e8673e8e5266c360deab26e9a54a686b0605",
+      "bytes": 72286
+    },
+    {
+      "path": "r/sodium/toast.json",
+      "sha256": "78172e98183bc75ed0abccf2d44cc53d4026f9a79e39649c5ca2c6e6c7e37860",
+      "bytes": 18187
+    },
+    {
+      "path": "r/sodium/tool-call-row.json",
+      "sha256": "9b7197a9383e845d31a89efe03b7fe13e0f0c6a4a6d9a88e440aadc4f41684e2",
+      "bytes": 15608
+    },
+    {
+      "path": "r/sodium/tool-call.json",
+      "sha256": "d82f2a2009cc2c8b0dbd97ea441ba21e77fbd6a8f7a0c6a8e8376eb9104e33f1",
+      "bytes": 22632
+    },
+    {
+      "path": "r/sodium/tooltip.json",
+      "sha256": "f6642341523f3f008d58b6af0d13f9642634f49865ab3c573739473944913404",
+      "bytes": 9306
+    },
+    {
+      "path": "r/sodium/use-draw.json",
+      "sha256": "07e417d9325cab6d5a6f17b1390f40431628af3275ffd6753c36f1842811678f",
+      "bytes": 4309
+    },
+    {
+      "path": "r/sodium/use-scramble.json",
+      "sha256": "2c829996581b69a7c0d8062938e094b99f9fb15e6d4d5974fed18f1450b492dc",
+      "bytes": 4700
+    },
+    {
+      "path": "r/sodium/use-timeline.json",
+      "sha256": "e7265b59a400e2cc3fdde20a4d2735a85fd7bf083f42ba9426561706b95e85ea",
+      "bytes": 7077
+    },
+    {
+      "path": "r/sodium/use-typing.json",
+      "sha256": "015bc5f0e6a6564911f9494b57a8f990c240a6558bff53919cfec2877395da3c",
+      "bytes": 4309
+    },
+    {
+      "path": "r/sodium/utils.json",
+      "sha256": "38a6213a1ca747ec79e38580482c8d3252dcdab3366ceab9488442a8b0cfc5db",
+      "bytes": 4087
+    },
+    {
+      "path": "r/sodium/warehouse-capacity.json",
+      "sha256": "db3caf9e2e7a8b31207fe7f2b08767cef1670255f7a212aede00fd647177c104",
+      "bytes": 4167
+    },
+    {
+      "path": "systems/articles/best-design-system-for-ai-agents.md",
+      "sha256": "d08fbaddfd4c3138694d047c0e9ca080cbebbd5bd6a1f226ed6c524e51beca39",
+      "bytes": 6192
+    },
+    {
+      "path": "systems/articles/claude-code-design-system.md",
+      "sha256": "34201e0c383bb5eece5cbda64bfe50f199cf075994d92e802b2f41b20b1939dc",
+      "bytes": 4867
+    },
+    {
+      "path": "systems/articles/compare-design-md.md",
+      "sha256": "35732ec14ca183ce0e84d5c413dc8e787a1ecea0c268772c1aa195bdda239894",
+      "bytes": 4348
+    },
+    {
+      "path": "systems/articles/design-systems-for-agents.md",
+      "sha256": "d1306408c6edb20a2ba92b249e42f6063da521068ebaa748d6de7ef74e8af1fb",
+      "bytes": 5450
+    },
+    {
+      "path": "systems/glaze/components/action-receipt.md",
+      "sha256": "4a0f2bd4f3d19a3ec812b54d457789917c6575ee28896fe1089c51b3afee06c5",
+      "bytes": 5820
+    },
+    {
+      "path": "systems/glaze/components/activity.md",
+      "sha256": "c2379740c8954506fdccc1704c60a7da1142a5922416e3c49fd5ff59fa10510a",
+      "bytes": 5456
+    },
+    {
+      "path": "systems/glaze/components/alert.md",
+      "sha256": "505af7f2d76373639bad198271a2fd133587ba1237801b05f299e7e5b46fdcd1",
+      "bytes": 5322
+    },
+    {
+      "path": "systems/glaze/components/attachment.md",
+      "sha256": "74fb5c1f04c874fa10dce6643025d13174394c146dad88f92cd6b17959566565",
+      "bytes": 6202
+    },
+    {
+      "path": "systems/glaze/components/autonomy-rule.md",
+      "sha256": "034b0c8b259157bcb8c25012a5a6fc0f3166a9c5369458b62e6602fd2218f828",
+      "bytes": 5478
+    },
+    {
+      "path": "systems/glaze/components/avatar.md",
+      "sha256": "6361ef9113da25ea661c9653a855b23a9ae334c63753c491647a8528c7187e7a",
+      "bytes": 5511
+    },
+    {
+      "path": "systems/glaze/components/badge.md",
+      "sha256": "758d9890511001bf902b4b5f075802c7d4a03332cfa28ea1776e204df5b78306",
+      "bytes": 5083
+    },
+    {
+      "path": "systems/glaze/components/breadcrumb.md",
+      "sha256": "b8788feff8f1bfa688f488adacf6e80bf97d6029ab36f6cff49310f4d007821c",
+      "bytes": 5914
+    },
+    {
+      "path": "systems/glaze/components/bulk-action-bar.md",
+      "sha256": "09dce2aee9f33364537b8cfb6e4c1f032660898945c927a3c8979e7316bd0de3",
+      "bytes": 5632
+    },
+    {
+      "path": "systems/glaze/components/button-group.md",
+      "sha256": "349c9f0f2688eecf1271b2c4f1819928ac095c7a97959f318ed9567dcbdd1c99",
+      "bytes": 6660
+    },
+    {
+      "path": "systems/glaze/components/button.md",
+      "sha256": "4efb370f75e84f9572b5dedc3db98b2504dd17b32462aa01bb8cf5b558bded99",
+      "bytes": 9481
+    },
+    {
+      "path": "systems/glaze/components/card.md",
+      "sha256": "e92f9f067ba54d50abb462f9299be129c5a52a20ed926dc24faa0808a7dbbac0",
+      "bytes": 7397
+    },
+    {
+      "path": "systems/glaze/components/chart.md",
+      "sha256": "7f06c653327addee044b161b9f86d56720a8ab0a79bb73906380e6c22b8663da",
+      "bytes": 8567
+    },
+    {
+      "path": "systems/glaze/components/checkbox.md",
+      "sha256": "34f89bf52b5175df0147a19c71f7871242ab5708447fd2520c603fbb002592ab",
+      "bytes": 6330
+    },
+    {
+      "path": "systems/glaze/components/chip.md",
+      "sha256": "8f84afa6bb897dfedb229b95818a63d40c1f0de62b67ca18f60fffd0290e7722",
+      "bytes": 5254
+    },
+    {
+      "path": "systems/glaze/components/code-block.md",
+      "sha256": "10f7430d2775e4e204e69200b7188da92b817da6899e7542ff4d0f0002967dd1",
+      "bytes": 5724
+    },
+    {
+      "path": "systems/glaze/components/collapsible.md",
+      "sha256": "71e0af8232a8b77b0ca149f423477259154748b77975cfbcacf229baebff0bfe",
+      "bytes": 6377
+    },
+    {
+      "path": "systems/glaze/components/combobox.md",
+      "sha256": "ec37461d3e654759e3777bd5e4ea97ef80950b6db399459cc8eb2f801c98b4b2",
+      "bytes": 7988
+    },
+    {
+      "path": "systems/glaze/components/command.md",
+      "sha256": "bea142fd55d0428c28b25f2a845b28f1a3ec4fd68100581e360e1557a9614779",
+      "bytes": 6913
+    },
+    {
+      "path": "systems/glaze/components/conversation.md",
+      "sha256": "93927a467c450679c065f236d521dca4258c4c87dd6f774091d077cbcf2d1914",
+      "bytes": 6269
+    },
+    {
+      "path": "systems/glaze/components/copy-button.md",
+      "sha256": "c5e767c624f00a203e54310d3828176f671228ad5a5caa4192b22e47cc0e4f02",
+      "bytes": 5190
+    },
+    {
+      "path": "systems/glaze/components/data-grid.md",
+      "sha256": "527dd11dd6d9f0817337501fce1ae0e76ec94d3f5ca47abeecc0de081b669b17",
+      "bytes": 9219
+    },
+    {
+      "path": "systems/glaze/components/data-list.md",
+      "sha256": "b3cb9bc12e56374cff886a1a634344fd4d97a419b21e1fc23578cdb60114a712",
+      "bytes": 4592
+    },
+    {
+      "path": "systems/glaze/components/date-picker.md",
+      "sha256": "82674aa048d90767cbdfa3b0fa39773feb724cbb1e7b5dc2dd773465a30b79b9",
+      "bytes": 7500
+    },
+    {
+      "path": "systems/glaze/components/dialog.md",
+      "sha256": "f000811aa3ff8f49404118bd882ebb5a260d056bb4cf56b828a8f45eb2645059",
+      "bytes": 9671
+    },
+    {
+      "path": "systems/glaze/components/dropdown-menu.md",
+      "sha256": "c8b9368e55dd07c5ad505dba9047bfca8ca646e6631b043b48c9e5b291a70e8b",
+      "bytes": 7775
+    },
+    {
+      "path": "systems/glaze/components/empty-state.md",
+      "sha256": "8c8520d3c427e81583f59a042a25f947d6c7d26a3af5eb2a1389cdbabc5f8f4a",
+      "bytes": 6629
+    },
+    {
+      "path": "systems/glaze/components/field.md",
+      "sha256": "e10dc3e7893ef4770c4802f39f0dc66ba0eba51c6ddc35ae4611e935711115fb",
+      "bytes": 8041
+    },
+    {
+      "path": "systems/glaze/components/filter-bar.md",
+      "sha256": "7b02e0d17251748c8531b73f41f27c560b433c4df25fe95906f3d8a9b9557abc",
+      "bytes": 7647
+    },
+    {
+      "path": "systems/glaze/components/follow-ups.md",
+      "sha256": "25e08b38a729225407b2a1a45b52bf071d44feda230f81fca9e468c272e96efe",
+      "bytes": 5141
+    },
+    {
+      "path": "systems/glaze/components/input.md",
+      "sha256": "0bcf6b0e46bf7c7988b55e1a15bb3c72542a998458743b6bdea27ae9f4fb593a",
+      "bytes": 8820
+    },
+    {
+      "path": "systems/glaze/components/item.md",
+      "sha256": "75d8f1f9a06d32ac28b1e78cd5f9e4e14bfb34017efea45d824704d6125b1944",
+      "bytes": 6193
+    },
+    {
+      "path": "systems/glaze/components/json-view.md",
+      "sha256": "3930300e6f6f70eee2393c9dd1b4364da1b3d249e7e6c59f0a0bde414b73a0e7",
+      "bytes": 4820
+    },
+    {
+      "path": "systems/glaze/components/kbd.md",
+      "sha256": "a5c1387ad6f846298d7a7f53bc4710cf0dd4f0efdc31c02f52671c084c1463f4",
+      "bytes": 4085
+    },
+    {
+      "path": "systems/glaze/components/log-viewer.md",
+      "sha256": "89dc9f771aa745051c0f8d1d7f487e0feabefea1823e21037ce8d678e5c4a16d",
+      "bytes": 5891
+    },
+    {
+      "path": "systems/glaze/components/mention.md",
+      "sha256": "4773fc427449f3176c51c65d8a4e6b2d95c62a87dbd1f2fe9a0f757e8cdd0ac5",
+      "bytes": 5274
+    },
+    {
+      "path": "systems/glaze/components/message.md",
+      "sha256": "1e85a3a8b437454f215abb668d4cb3f0bb4b36cc8de029924119052e9995a5a1",
+      "bytes": 6469
+    },
+    {
+      "path": "systems/glaze/components/number-input.md",
+      "sha256": "455e579e826b12683da23c3aca8ca4f0e32ac7ed3657b7bd346f268c77beff4d",
+      "bytes": 5081
+    },
+    {
+      "path": "systems/glaze/components/otp-input.md",
+      "sha256": "a24df14eefa24b0b9d25aec318e48adfba31dcc3ab26f46b4b7c53fb8f2529b9",
+      "bytes": 4802
+    },
+    {
+      "path": "systems/glaze/components/pagination.md",
+      "sha256": "3241c0a252eccde059e542c3ac35abee97a9e9efce0c3ddcad87f9473fe64c60",
+      "bytes": 6358
+    },
+    {
+      "path": "systems/glaze/components/panel.md",
+      "sha256": "d4e63c37f063de45ab40c6ba9b51ae48f530af0ab7baca50461d29159a361d60",
+      "bytes": 4091
+    },
+    {
+      "path": "systems/glaze/components/popover.md",
+      "sha256": "9a4604a757bf36ae2142854fa3ad03810ea9fd938c16036152c32a00e3b585a6",
+      "bytes": 7235
+    },
+    {
+      "path": "systems/glaze/components/progress.md",
+      "sha256": "767b791f94a3c37c2224f119bc54f8a69e5aa92202b7b2f68c5f11dabd59f003",
+      "bytes": 6828
+    },
+    {
+      "path": "systems/glaze/components/prompt-input.md",
+      "sha256": "72f5e3354426fe28d0d547a1f3f5edc7ea801a3c1b4544b2e9fda51fec4802f3",
+      "bytes": 8960
+    },
+    {
+      "path": "systems/glaze/components/radio-group.md",
+      "sha256": "32c6cad2dbe68cee10efe8732f342d6a9f7117442035e9a2b108c05ae836b979",
+      "bytes": 5559
+    },
+    {
+      "path": "systems/glaze/components/reasoning.md",
+      "sha256": "2350612fa8bfd1682480920c643e5051ab27cfb7eeab5863657f09f63f8b85b3",
+      "bytes": 5084
+    },
+    {
+      "path": "systems/glaze/components/relative-time.md",
+      "sha256": "ed61547022cd833f8d3163e50dcf0b4972d130706eee590e79fc8b6d224a7b90",
+      "bytes": 4220
+    },
+    {
+      "path": "systems/glaze/components/response.md",
+      "sha256": "4b275e83804c4bbfc67ac0fb5f0d32ff863dddf8c87022f5cb51ac3dc159fc2b",
+      "bytes": 5598
+    },
+    {
+      "path": "systems/glaze/components/segmented-control.md",
+      "sha256": "efcffa1119eabcd86d339e18ca3135e4df331c44a28b0cfc1e734f2ae1ac4520",
+      "bytes": 6339
+    },
+    {
+      "path": "systems/glaze/components/select.md",
+      "sha256": "00a68133d9a514f3f27de78576b051812bdc0a3997a6840e7d2fd65e8e12c2b6",
+      "bytes": 7711
+    },
+    {
+      "path": "systems/glaze/components/send-button.md",
+      "sha256": "1590503541546ded3325bda7f770842d9061fa0d938dfd7c06ec5aa4f6b43741",
+      "bytes": 5682
+    },
+    {
+      "path": "systems/glaze/components/sheet.md",
+      "sha256": "525c6e9a358927d4f986e23661c9382a4cd4ea50a443cd99eec592668773ed40",
+      "bytes": 8131
+    },
+    {
+      "path": "systems/glaze/components/skeleton.md",
+      "sha256": "3fc1af69a205b869d912e5b0cb6409335ba8ca170d05738e6122682339249007",
+      "bytes": 4916
+    },
+    {
+      "path": "systems/glaze/components/slider.md",
+      "sha256": "10505c9ddae12273839d93334749db3d1103d12247744866d4401e420ff418ab",
+      "bytes": 5283
+    },
+    {
+      "path": "systems/glaze/components/status.md",
+      "sha256": "d3d8d2f1f8e1ac17650f932520df58223eb3f68ea25d68dce69b515d8438f031",
+      "bytes": 6352
+    },
+    {
+      "path": "systems/glaze/components/steps.md",
+      "sha256": "156290e1b7abb08a95a282c706c515a05271f018c6d77d9353437f432300ec67",
+      "bytes": 7925
+    },
+    {
+      "path": "systems/glaze/components/switch.md",
+      "sha256": "a554bd3a58c63d2dce2f5b9127980b6ea464c467518b08c0fadb5a2716527f49",
+      "bytes": 5418
+    },
+    {
+      "path": "systems/glaze/components/table.md",
+      "sha256": "3fac04a8271aad1b162447c98e73cb9eeed485a178433ebcf3d6a519589eecaa",
+      "bytes": 8799
+    },
+    {
+      "path": "systems/glaze/components/tabs.md",
+      "sha256": "eb6fc44d169cca094b3ee36421795819959b7bd85e59986af85a779485f21e90",
+      "bytes": 6597
+    },
+    {
+      "path": "systems/glaze/components/textarea.md",
+      "sha256": "466eec1ae577f765aceba57ad7126f695f19906f072089d9f321ccfd3c6ccb97",
+      "bytes": 5343
+    },
+    {
+      "path": "systems/glaze/components/timeline.md",
+      "sha256": "409f7ca4de165b637a2bb86a361ee9c7c47a9a9f031a338abe6c69bc45875396",
+      "bytes": 6116
+    },
+    {
+      "path": "systems/glaze/components/toast.md",
+      "sha256": "c943f5c581799db5814d5305ae4cc35e8b84539c1a934e1142c0623a570a018e",
+      "bytes": 6388
+    },
+    {
+      "path": "systems/glaze/components/tool-call.md",
+      "sha256": "a61727bcfa9334b315b78396cfaf08c406b0d3876540219e07fb00ad79f01277",
+      "bytes": 8149
+    },
+    {
+      "path": "systems/glaze/components/toolbar.md",
+      "sha256": "a2068e3dd25612d89f5a58a134b37f5b5272dc9cdce1cf57c06aaeb8609d6c35",
+      "bytes": 6847
+    },
+    {
+      "path": "systems/glaze/components/tooltip.md",
+      "sha256": "3e13f0e27c8872308750ebb3cf5845d6472cbd1f77dc18899fa1b1e6a3bc512d",
+      "bytes": 7042
+    },
+    {
+      "path": "systems/glaze/components/truncate.md",
+      "sha256": "10a1b0da022a5b2a1f9e7285f635f85e2ffe1a2c1551159d6300c55049816a85",
+      "bytes": 4646
+    },
+    {
+      "path": "systems/glaze/foundations/anti-slop.md",
+      "sha256": "57db22d962d4316f9faed14c1b037f3373af31d7b45c0e21a9a8323475471abb",
+      "bytes": 5954
+    },
+    {
+      "path": "systems/glaze/foundations/borders-and-lines.md",
+      "sha256": "c046cfe08afa29fae97120f57e655dcc7a52435b1508c63f24d29e45832e225f",
+      "bytes": 4279
+    },
+    {
+      "path": "systems/glaze/foundations/color.md",
+      "sha256": "7e51e3dedc56d1f567d0eb95e5aca296898e423ed5ecbfae46684fa1aebd1b2f",
+      "bytes": 7669
+    },
+    {
+      "path": "systems/glaze/foundations/elevation.md",
+      "sha256": "135577d76ac719d192cea88ac3675ef79bf2e664dbc58483ec71b80bb84fae06",
+      "bytes": 4579
+    },
+    {
+      "path": "systems/glaze/foundations/iconography.md",
+      "sha256": "9e101ef00ca7549a6fae4918b9c532ebb698f3972e3e804ef4ee8ea281c5fda3",
+      "bytes": 3958
+    },
+    {
+      "path": "systems/glaze/foundations/motion.md",
+      "sha256": "f0fb7c11c8e0ce9708e61f62cb88f78e20b576d6b7230916996b3c552a6a37ce",
+      "bytes": 6706
+    },
+    {
+      "path": "systems/glaze/foundations/radius.md",
+      "sha256": "3fb4cc8e1e8feeaf3d84d3343c6f67167cc62f3870bc1bfd3a7c23c48f87ad28",
+      "bytes": 3296
+    },
+    {
+      "path": "systems/glaze/foundations/space.md",
+      "sha256": "47955006f67c94596f2c663aefb9636ddc02031c2c7c501b09a918c1c82070fb",
+      "bytes": 5993
+    },
+    {
+      "path": "systems/glaze/foundations/typography.md",
+      "sha256": "d9c3c90225f83af8a57dd458c9f904234a6333bf9f2f1f2dc04b5f0f4e4eb378",
+      "bytes": 6645
+    },
+    {
+      "path": "systems/glaze/index.md",
+      "sha256": "da285676d4d2569fbf20609257cd8d66e39871388128151f6b0e8f7610f642b1",
+      "bytes": 12332
+    },
+    {
+      "path": "systems/guides/anti-ai-slop-ui-skill-checks-its-lint-runs.md",
+      "sha256": "b81473798bdba56bbca9a5a871896e274eb84b661292d20d7b396b8100837995",
+      "bytes": 12355
+    },
+    {
+      "path": "systems/guides/approval-ui-for-ai-agents.md",
+      "sha256": "c0c7affb1bab90fb32af559dd94da866a436c5a1733d3f775646bead7d980d03",
+      "bytes": 9552
+    },
+    {
+      "path": "systems/guides/give-cursor-a-design-system-in-one-project-rules-file.md",
+      "sha256": "be40c5941a2f72ec94b6670b02c76df42621ce87d7e2b5fff96628b2fe397536",
+      "bytes": 12671
+    },
+    {
+      "path": "systems/guides/how-to-make-claude-code-ui-look-better-in-five-steps.md",
+      "sha256": "1ef6ebce6b34f7ef00d8750cc4b1e4be96a7f6c525fa993014a78b82dc92a3d7",
+      "bytes": 11438
+    },
+    {
+      "path": "systems/guides/index.md",
+      "sha256": "1e72cc86a0f97a4ff2331bacdff41e3a2bef9b2d934447c62533072d92325dc5",
+      "bytes": 3077
+    },
+    {
+      "path": "systems/guides/lint-hardcoded-colors-in-tailwind-with-quartz.md",
+      "sha256": "22f5b8141e12902db57a0e0c751bc516f900688ef73d739b23b3f1e17e0ba79d",
+      "bytes": 11194
+    },
+    {
+      "path": "systems/guides/name-tailwind-4-semantic-tokens-by-their-job.md",
+      "sha256": "571ab42cee2f099c74296f20e98338566b26d22b5486f074b8751fa57aba06fa",
+      "bytes": 12044
+    },
+    {
+      "path": "systems/guides/shadcn-theme-for-ai-chat-app-install-lines.md",
+      "sha256": "d124543b1ec390f232e57d62fb1b842436902ddeffce5f1a853e92203e1a4590",
+      "bytes": 13915
+    },
+    {
+      "path": "systems/guides/tool-call-ui-rules.md",
+      "sha256": "c2cfb75eb8d3f71d936c440c5905ce8dd91c9d44a2f1f86af597cf890ce92492",
+      "bytes": 10630
+    },
+    {
+      "path": "systems/guides/what-an-agent-ready-design-system-does-to-your-css.md",
+      "sha256": "b43f64143bf3f335d9c86f52451c3dfd8f7dda7ff86359e6cfe64742417f7d92",
+      "bytes": 10832
+    },
+    {
+      "path": "systems/guides/what-makes-design-system-rules-for-ai-checkable.md",
+      "sha256": "36f8e676ecde9822daf57a20dfa266e9f5888dff43293f6e01a02a04007eb00e",
+      "bytes": 5414
+    },
+    {
+      "path": "systems/lime/components/accordion.md",
+      "sha256": "23d092a597cd3e0f6ba9529272429bab038b6960a222cb2ae2465bf9206bfe06",
+      "bytes": 5142
+    },
+    {
+      "path": "systems/lime/components/action-receipt.md",
+      "sha256": "c75d17c53f382aba316b2adf4245e0c53ca2a76953aef16ca265e9f3a3b11a30",
+      "bytes": 4163
+    },
+    {
+      "path": "systems/lime/components/alert-dialog.md",
+      "sha256": "8eb3ce3a8857d07adc731139e202899f0cf3014f18d495cde8e8cd7b07a3e6b8",
+      "bytes": 6096
+    },
+    {
+      "path": "systems/lime/components/amount.md",
+      "sha256": "1c67dfbd1e3fe9b752f40edcfb765a38869df249b268e29b0fec39d6ec7579c1",
+      "bytes": 6125
+    },
+    {
+      "path": "systems/lime/components/approval-request.md",
+      "sha256": "39addb3a09d7343690b4db0e6af5a4a778856e225f8c4587454129ffe67e1162",
+      "bytes": 6701
+    },
+    {
+      "path": "systems/lime/components/autonomy-rule.md",
+      "sha256": "21358fe77b6b77c50744dd570776e1d5ce1352c19b7b0a46e9ce96654059a11a",
+      "bytes": 4831
+    },
+    {
+      "path": "systems/lime/components/avatar.md",
+      "sha256": "5ca15d2b4285c678c33208c62ff9beffda840ff117244a7071478b6c9146338e",
+      "bytes": 4512
+    },
+    {
+      "path": "systems/lime/components/badge.md",
+      "sha256": "ece3b9376541002472b5f6056a1e7d0dca17fbaac074ca1e34d23b8ce2bf04c0",
+      "bytes": 4508
+    },
+    {
+      "path": "systems/lime/components/balance.md",
+      "sha256": "b12f9d2cfd94abf00430e2a375f657d84ed2754e540a6283aefe3f6add298883",
+      "bytes": 4783
+    },
+    {
+      "path": "systems/lime/components/bill-schedule.md",
+      "sha256": "80bdf1c15946fd4f4bb1185d80e08f8ef10a3f71b371651ef96c2c6324de4db8",
+      "bytes": 3937
+    },
+    {
+      "path": "systems/lime/components/button.md",
+      "sha256": "7bf4fd5f9130071d6fda651d3f1171eb11f6f497b9b586475b39b741eaeadbef",
+      "bytes": 7937
+    },
+    {
+      "path": "systems/lime/components/card.md",
+      "sha256": "2951b856250c761d84fc88d90dc0dda2d9dfedfb205194e9a917ef3dc35e2b82",
+      "bytes": 5372
+    },
+    {
+      "path": "systems/lime/components/chat-input.md",
+      "sha256": "3cf1df15b1b5edc2077f7a59de05190093c20776b80cdc8752bd33616cc8b338",
+      "bytes": 6622
+    },
+    {
+      "path": "systems/lime/components/checkbox.md",
+      "sha256": "8aff9b38c8b2b144066828c6c7655723de790270555ff40d0a7b9f904ee98494",
+      "bytes": 4689
+    },
+    {
+      "path": "systems/lime/components/chip.md",
+      "sha256": "fe1964ce32445bce4086be9168f3a08953727276d3f6ce9691612620c93ffd0b",
+      "bytes": 5093
+    },
+    {
+      "path": "systems/lime/components/combobox.md",
+      "sha256": "0731a1964c55fa222ed03914659174fa0be2962bd5aaf4358328f21900977cfe",
+      "bytes": 6845
+    },
+    {
+      "path": "systems/lime/components/copy-button.md",
+      "sha256": "771894b0b239f681efd0242932a28e405133189e71a0ff6cfa5dbba19d8cdc5e",
+      "bytes": 5481
+    },
+    {
+      "path": "systems/lime/components/dialog.md",
+      "sha256": "15aead38eae1b466247a7a2a2bf771ebfa53ef4f6dfb0a9a88951105d1a81736",
+      "bytes": 6223
+    },
+    {
+      "path": "systems/lime/components/dropdown-menu.md",
+      "sha256": "051b755d3b26b5c6a9598a7c1239ec0c3ec8d4caf3dcb9d8e451cbf387a28e1d",
+      "bytes": 6762
+    },
+    {
+      "path": "systems/lime/components/dropzone.md",
+      "sha256": "fe5191159638fa7ed392f00802e708212c6fa53e7e839faf4f06135eaaf4f4d8",
+      "bytes": 5141
+    },
+    {
+      "path": "systems/lime/components/empty.md",
+      "sha256": "d6ddc8f6d3c38e7e66f781084c4722efbc7bd387565a084626f45967b93912dc",
+      "bytes": 5563
+    },
+    {
+      "path": "systems/lime/components/error-state.md",
+      "sha256": "5a178edd9d65b8cc00563bca00f7f8d85f66b688588fc6226316611e3c8b1fa4",
+      "bytes": 4524
+    },
+    {
+      "path": "systems/lime/components/field.md",
+      "sha256": "37788acfe0b9f0c5dfdb322f65f2b7464e8b6d020ea4de4da7ad49b52a9d46e1",
+      "bytes": 6341
+    },
+    {
+      "path": "systems/lime/components/follow-ups.md",
+      "sha256": "9a10d122d0ccea0efbe5117ce2e34662c4f0f92694dd6dcc59f94a4a0040b45d",
+      "bytes": 5155
+    },
+    {
+      "path": "systems/lime/components/input.md",
+      "sha256": "058fdf0dbfa8d25ec9e3996188347142358281d9b43a7f48985cd5d301b67feb",
+      "bytes": 5069
+    },
+    {
+      "path": "systems/lime/components/insight.md",
+      "sha256": "502ca361796d700cfa5f470a946f294f30b9e43e3499cd1af33c63527ad661dc",
+      "bytes": 4285
+    },
+    {
+      "path": "systems/lime/components/keypad.md",
+      "sha256": "67754fc35f9f39b55465d05135cb481408e715adf3565cc051324888552c3815",
+      "bytes": 4566
+    },
+    {
+      "path": "systems/lime/components/list.md",
+      "sha256": "edc5fe4bd3335b2c34393f908405decc9cd943f2b3477217300c931138e2054f",
+      "bytes": 6125
+    },
+    {
+      "path": "systems/lime/components/message.md",
+      "sha256": "90f79870954d871e245daec387bb25c2e4869cf6308dfa12701b754abc451336",
+      "bytes": 5170
+    },
+    {
+      "path": "systems/lime/components/popover.md",
+      "sha256": "72ec3784148174ec78abb9727a839fd8882940c6ecb091a18e6c492e6426e29a",
+      "bytes": 5520
+    },
+    {
+      "path": "systems/lime/components/progress.md",
+      "sha256": "e027a52e78f44649a91c31b8dcb84b359c1f39c3ca39fa8bcb69b8c651e60d74",
+      "bytes": 4833
+    },
+    {
+      "path": "systems/lime/components/radio.md",
+      "sha256": "13abe71fba7aa48e92d8980582d121ef1112c8e0379df6ce7f6a011ba0f14f14",
+      "bytes": 5217
+    },
+    {
+      "path": "systems/lime/components/receipt-match.md",
+      "sha256": "6ac80c390fc510950d396365f8ec915fb3d8115c0e09610620e545c577fb6056",
+      "bytes": 4077
+    },
+    {
+      "path": "systems/lime/components/scroll-area.md",
+      "sha256": "b5e7228625cfcd33bdf6ce14003bd90416b92990987604b213ef6aaf6f091d79",
+      "bytes": 4450
+    },
+    {
+      "path": "systems/lime/components/segmented.md",
+      "sha256": "106096d8114c8029c18b516f13b2215ef6bca2bd55811dfab080f894712b9524",
+      "bytes": 5042
+    },
+    {
+      "path": "systems/lime/components/select.md",
+      "sha256": "4ffdca907dc081d60961ca5376d748d56731e129c44ac03cd64bc91939e4057b",
+      "bytes": 5838
+    },
+    {
+      "path": "systems/lime/components/separator.md",
+      "sha256": "14b971fc857542e3b18bd37bbbbccb66b1df4adb8764a1b500ed36d1ee13aebd",
+      "bytes": 4034
+    },
+    {
+      "path": "systems/lime/components/sheet.md",
+      "sha256": "11e2f91dcf01f1fab168f72c0074d2c3fdd7c40fc0f750c91b9085f23a12f691",
+      "bytes": 5878
+    },
+    {
+      "path": "systems/lime/components/skeleton.md",
+      "sha256": "ba5f5a098f9c3cb693ac615fd3b4fe76db60b728ad2a2cd0431ba0376e8c0f47",
+      "bytes": 4411
+    },
+    {
+      "path": "systems/lime/components/slider.md",
+      "sha256": "f152f78cee3a0faf126af6daa85a6e5c37ef7efb050d14b7caae6a5033ed3469",
+      "bytes": 4990
+    },
+    {
+      "path": "systems/lime/components/status.md",
+      "sha256": "2500c6615ee264e957f370de8dcdcd5fdf8ec46b053bd1058bfe430bb8c6dfba",
+      "bytes": 4962
+    },
+    {
+      "path": "systems/lime/components/switch.md",
+      "sha256": "50ab1c24d829dd739e4f638ecb575d382d4f13dec5704b373d5e9357341b2c2f",
+      "bytes": 4867
+    },
+    {
+      "path": "systems/lime/components/table.md",
+      "sha256": "951ad2c2de1a5b39aeff5db5331b7ed152be6f087b9ba3a547cf90f29550d9ec",
+      "bytes": 5133
+    },
+    {
+      "path": "systems/lime/components/tabs.md",
+      "sha256": "0a668b0afacf6c96e391c7c046c057ed79fc03ffc7a2c2c04baf0586274b8f1d",
+      "bytes": 4908
+    },
+    {
+      "path": "systems/lime/components/textarea.md",
+      "sha256": "300303d043a5c029e00159d2c0cf8c23a16674d7ad4cd47a582906f16aba5393",
+      "bytes": 4714
+    },
+    {
+      "path": "systems/lime/components/toast.md",
+      "sha256": "d253d918db75a30362a959863de14451f464635a81cbef8685a07549341024e7",
+      "bytes": 5232
+    },
+    {
+      "path": "systems/lime/components/tool-call.md",
+      "sha256": "f46282fb43c56197d243afca7df24845df6670e3a6d1c7d02a3f1e064936320b",
+      "bytes": 4555
+    },
+    {
+      "path": "systems/lime/components/toolbar.md",
+      "sha256": "4db44d90ef52de36d6b2a9f79702b8a7fee8272cb7eb1eafa454da36f3e7d7f7",
+      "bytes": 4843
+    },
+    {
+      "path": "systems/lime/components/tooltip.md",
+      "sha256": "4ee84b5bd5e16b818fafcb92450fe74ee0fe35af5f1ab88f15ddcb3644a9cca1",
+      "bytes": 5273
+    },
+    {
+      "path": "systems/lime/foundations/anti-slop.md",
+      "sha256": "1efdcfb136b2a536c8431bb49b15ea5430647802517409e1bf426bfe8db2044c",
+      "bytes": 7343
+    },
+    {
+      "path": "systems/lime/foundations/color.md",
+      "sha256": "41e510338b854ba61243332a44cd7f061bdfe9fdfd8faa4b1c818c51e0e15110",
+      "bytes": 8850
+    },
+    {
+      "path": "systems/lime/foundations/elevation.md",
+      "sha256": "af996540e8596206714945409cb47f0c6097a6eae80c5870da45f169ee41c6b0",
+      "bytes": 4085
+    },
+    {
+      "path": "systems/lime/foundations/iconography.md",
+      "sha256": "11c9b6f01ae806b495e79604343e49369bf91028f04aa35ef69058e4f03e61dc",
+      "bytes": 3949
+    },
+    {
+      "path": "systems/lime/foundations/motion.md",
+      "sha256": "0b548fd7b25308d5885afe43ed393c062480da00f75f0f6051f49e25e3a8eaef",
+      "bytes": 3915
+    },
+    {
+      "path": "systems/lime/foundations/radius.md",
+      "sha256": "0fd0138156a2ac03497bcea63fe4a6f373e4d1e3aec38b3a6044afb684b19c6c",
+      "bytes": 2671
+    },
+    {
+      "path": "systems/lime/foundations/spacing.md",
+      "sha256": "78ad31b1575146e1ea79c436cd22573dd3293c3d2441cb63d51ee7b1064a6c47",
+      "bytes": 3474
+    },
+    {
+      "path": "systems/lime/foundations/typography.md",
+      "sha256": "c5a7439dfd2449024ef567ea255223e96c39a4fe81790a5e26796210aba8b512",
+      "bytes": 5615
+    },
+    {
+      "path": "systems/lime/index.md",
+      "sha256": "ce49eece475eab8e40ebddff1cb1f9c705e031292c84d7cf349dd71e42303590",
+      "bytes": 11238
+    },
+    {
+      "path": "systems/quartz/components/activity.md",
+      "sha256": "652a4da4577f3fe050c303ba6225d17648d9081297255107d09a6a371b577d16",
+      "bytes": 8834
+    },
+    {
+      "path": "systems/quartz/components/alert.md",
+      "sha256": "697d694445c0641382a69659fb6bcb48fa3e9c5287bc9fec85be7bcd65ea4585",
+      "bytes": 8834
+    },
+    {
+      "path": "systems/quartz/components/attachment.md",
+      "sha256": "f366abef18aa32ba283a715c4e99dede707e77c250195c345a8d1080805d79b3",
+      "bytes": 10811
+    },
+    {
+      "path": "systems/quartz/components/avatar.md",
+      "sha256": "ac84362c8fc9b2022a1d94de83a68168ee9ea307f9d811592e3dc37934dcab1e",
+      "bytes": 7377
+    },
+    {
+      "path": "systems/quartz/components/badge.md",
+      "sha256": "727c0d9dcca19ea22887a735aa04d99ee798c19da600683e3db290e414946eb4",
+      "bytes": 8207
+    },
+    {
+      "path": "systems/quartz/components/breadcrumb.md",
+      "sha256": "2d3ed1977559fac0f970500426da003ee99c87275887d4068b8861f692de5297",
+      "bytes": 5830
+    },
+    {
+      "path": "systems/quartz/components/button-group.md",
+      "sha256": "57f7531f2091bb02e0a2bafe8af1780b75f309641785807a6963c1681dc8ba9e",
+      "bytes": 8266
+    },
+    {
+      "path": "systems/quartz/components/button.md",
+      "sha256": "5fa34106cf62d2c7868b291bf4199e2212efff1c8b2873b4e7861412f72780bc",
+      "bytes": 9458
+    },
+    {
+      "path": "systems/quartz/components/card.md",
+      "sha256": "71729092fd38cd98355aa10f0764b91925dd2c27b1810f6bc3ecf3f5cc4b5ce7",
+      "bytes": 8010
+    },
+    {
+      "path": "systems/quartz/components/chart.md",
+      "sha256": "ad395c5761480d50c052d22706b0f4c6fbac8e8e06e33031755a40bb584511f7",
+      "bytes": 9757
+    },
+    {
+      "path": "systems/quartz/components/checkbox.md",
+      "sha256": "8f062c1003e9134acf52092b8d4c6aa64d4c3ffdfb433f461ec8f733a92ba098",
+      "bytes": 6239
+    },
+    {
+      "path": "systems/quartz/components/chip.md",
+      "sha256": "a9844cc9198de502786505c63414321da10d905c1be59d91123a3bf500fd0338",
+      "bytes": 8647
+    },
+    {
+      "path": "systems/quartz/components/code-block.md",
+      "sha256": "1d56f7eb95265f5565a771bc46e205b137f68ded450d3d2fb1ff7033d16f4bfd",
+      "bytes": 7899
+    },
+    {
+      "path": "systems/quartz/components/collapsible.md",
+      "sha256": "215a0af396451f7c81042a29a22909795f35bf01706bcb9955c1731c39237924",
+      "bytes": 7067
+    },
+    {
+      "path": "systems/quartz/components/combobox.md",
+      "sha256": "c77b8923d4b089ca8e39cc7c91009d0c1b122ff35d742808fd408c336de0336c",
+      "bytes": 8346
+    },
+    {
+      "path": "systems/quartz/components/command.md",
+      "sha256": "0030615278dbb14cb793b070ab3eda6942d467b7cda93b6742c2f929daaf18c4",
+      "bytes": 7661
+    },
+    {
+      "path": "systems/quartz/components/conversation.md",
+      "sha256": "2f466810548d39c09f4a1e7a86b9ecdd98973d39dd7210d65a2cc59abeef0bf9",
+      "bytes": 8558
+    },
+    {
+      "path": "systems/quartz/components/copy-button.md",
+      "sha256": "06fdb50759762fcf8d611d85c62e45602ced8f02363a203cdd113db1df7fab2a",
+      "bytes": 6199
+    },
+    {
+      "path": "systems/quartz/components/data-grid.md",
+      "sha256": "d8313b934154e18fbc26b025114cd5e62a9a44cac86f3ef0704e3f3f4ecd65c3",
+      "bytes": 8724
+    },
+    {
+      "path": "systems/quartz/components/data-list.md",
+      "sha256": "69c0abb19537b6ab6414a11c1c6248355aa8f2ce591d742f937f5b0a0a743920",
+      "bytes": 6481
+    },
+    {
+      "path": "systems/quartz/components/date-picker.md",
+      "sha256": "7d7046cfb885c89ad51c9d13c73b84cdcef8b25503a0f48a1123f0623acd5343",
+      "bytes": 7764
+    },
+    {
+      "path": "systems/quartz/components/dialog.md",
+      "sha256": "d5296fd4cb9bffa99e0e0f6c7b21e63e5d8501908a6c367fa4f9bcf5003a669f",
+      "bytes": 10927
+    },
+    {
+      "path": "systems/quartz/components/dropdown-menu.md",
+      "sha256": "51ff104e47e6db5af6c2928ca2836f5a70a70ebe7c62b4b8fc96282371cf4553",
+      "bytes": 7942
+    },
+    {
+      "path": "systems/quartz/components/empty-state.md",
+      "sha256": "687c3dd7862ef942b18f5b5b80cfb4dd5d9ae3df7cc11195d582ee70e87ed00a",
+      "bytes": 7994
+    },
+    {
+      "path": "systems/quartz/components/field.md",
+      "sha256": "634cf063301464cd303fc999b169fa10f3154d8810a34ef95b8046e2d08f6403",
+      "bytes": 6770
+    },
+    {
+      "path": "systems/quartz/components/filter-bar.md",
+      "sha256": "6b6e5b833c8f4baede28c2b163902efb696ae72d1f9e92630340da7c70a84598",
+      "bytes": 10391
+    },
+    {
+      "path": "systems/quartz/components/input.md",
+      "sha256": "33b49adae2d8618d077152ac48d4ce76667ce877ffdc9f5a373d16bee8c58f9a",
+      "bytes": 9531
+    },
+    {
+      "path": "systems/quartz/components/item.md",
+      "sha256": "f89d8f36901f350947b68b101263a6905888f8b47e9a55a21bb7caa04734bdca",
+      "bytes": 6395
+    },
+    {
+      "path": "systems/quartz/components/json-view.md",
+      "sha256": "efe8dbdc3752ad00f73a52df04efaef88529fa9fe448b31a8524f6c16f26f7fb",
+      "bytes": 6509
+    },
+    {
+      "path": "systems/quartz/components/kbd.md",
+      "sha256": "ee5d999f821f86b8844dc6873b952bc68de185da4eb7005915679ece6dbbf3b0",
+      "bytes": 4737
+    },
+    {
+      "path": "systems/quartz/components/log-viewer.md",
+      "sha256": "b06856705ca43cb918e955972b0e56e912cdff1e569f3f0c68803339f83aa076",
+      "bytes": 7614
+    },
+    {
+      "path": "systems/quartz/components/message.md",
+      "sha256": "6931b9f4512679ca304c58ca3e6f377e1332f503c635f0362b03979ec2b2966a",
+      "bytes": 9536
+    },
+    {
+      "path": "systems/quartz/components/pagination.md",
+      "sha256": "558ded5e590f408cdf0d8876a32364de7fc9743f3a4693d9142dd80d269f6a85",
+      "bytes": 5531
+    },
+    {
+      "path": "systems/quartz/components/panel.md",
+      "sha256": "cb8da2d2e807e8f35661471920d8d3633f352894496e481ce22ebd19eda04ec1",
+      "bytes": 5995
+    },
+    {
+      "path": "systems/quartz/components/popover.md",
+      "sha256": "1963ce687b2e6451f4f93d076b0e793539bd935d25d17cca5ebbf5635395def8",
+      "bytes": 7193
+    },
+    {
+      "path": "systems/quartz/components/progress.md",
+      "sha256": "6b29311d79e9d68b036e4d46dab4dc62cdbb0ee23b391666478e6fdf4eaef37b",
+      "bytes": 8347
+    },
+    {
+      "path": "systems/quartz/components/prompt-input.md",
+      "sha256": "b90c8cb1061fa99e3e8ffbba940ef974d0454b5da32d439b9e9bb464afd0c563",
+      "bytes": 12834
+    },
+    {
+      "path": "systems/quartz/components/radio-group.md",
+      "sha256": "5c28b4729718e94c58942bbd410b82a68a8cbe6366d8bccc56998c469974ef45",
+      "bytes": 5465
+    },
+    {
+      "path": "systems/quartz/components/reasoning.md",
+      "sha256": "afebce0b0d729c185f007bfeef3784ae5d99851dbe073e0c5fd7f160689a3a65",
+      "bytes": 5572
+    },
+    {
+      "path": "systems/quartz/components/relative-time.md",
+      "sha256": "bbd6bceab623ef5004c59cc0e16be0a5c6bee4222f2b52a3124e3e51bca9c649",
+      "bytes": 5964
+    },
+    {
+      "path": "systems/quartz/components/response.md",
+      "sha256": "a69b3d07e69cc21f553b7fbf26cc8ba218f1297e8955a0443c6930afebb1e42a",
+      "bytes": 6297
+    },
+    {
+      "path": "systems/quartz/components/segmented-control.md",
+      "sha256": "09d2307e967d5026126cec2851c82e2eec6a77046b5b553e94c77e8878c3264b",
+      "bytes": 7359
+    },
+    {
+      "path": "systems/quartz/components/select.md",
+      "sha256": "8423b2bab2a1f826ff065c9430ecc92d78b1a4c0fbc26aca96815efcacd47782",
+      "bytes": 7678
+    },
+    {
+      "path": "systems/quartz/components/sheet.md",
+      "sha256": "aa1aae1ad04a6fac04f41d203fe7ab9c28b01fb432ce50c4a208de1582ea2893",
+      "bytes": 9200
+    },
+    {
+      "path": "systems/quartz/components/skeleton.md",
+      "sha256": "a1af0397967d4c499100d2a63d1ec8da3c64f283c24a1c3c026f3d9b11d901d0",
+      "bytes": 5994
+    },
+    {
+      "path": "systems/quartz/components/slider.md",
+      "sha256": "d493135fbcb78f6e8e4d644b49d372ce29f7dcc49e5982ea2b958c808ee622fb",
+      "bytes": 6106
+    },
+    {
+      "path": "systems/quartz/components/stat.md",
+      "sha256": "c834e5a8ca083b428452a46eb5af60a4e168d0e8d80dd0ffe6dc187896c89f92",
+      "bytes": 7761
+    },
+    {
+      "path": "systems/quartz/components/status.md",
+      "sha256": "b246bb0005d70fd36474b9141f5689f6b69d97dae28d8db2be36b8d2a8796cb1",
+      "bytes": 7822
+    },
+    {
+      "path": "systems/quartz/components/switch.md",
+      "sha256": "8196fed8cc31662bf6e02c3847b091d2125c6df788c0fbf9f58c205fb9a8c92a",
+      "bytes": 5847
+    },
+    {
+      "path": "systems/quartz/components/table.md",
+      "sha256": "caeb856e1a2d495151a6e5391778eff029f636c6003c5f015911bff81e9e98fb",
+      "bytes": 11719
+    },
+    {
+      "path": "systems/quartz/components/tabs.md",
+      "sha256": "2164af61f3771d73440262c8b4fd4249e06defd91858d5d3e9350e24f9562cb4",
+      "bytes": 8016
+    },
+    {
+      "path": "systems/quartz/components/textarea.md",
+      "sha256": "6f1db12be3808d97bad5c075603d69766db907091e02ca3661afd93996b328c5",
+      "bytes": 5936
+    },
+    {
+      "path": "systems/quartz/components/timeline.md",
+      "sha256": "494a57008f48733a130b2ddfafdbc48f9626a8308ef5ffccac143c9ba180496e",
+      "bytes": 6351
+    },
+    {
+      "path": "systems/quartz/components/toast.md",
+      "sha256": "2beb7ba931f9145031fc22cb56e9fdb04362ceb877c22cbf9360c498b034da62",
+      "bytes": 7901
+    },
+    {
+      "path": "systems/quartz/components/tool-call.md",
+      "sha256": "202d7aad8cc383781b108443abf6d7cf487504571d4e6b8c6da52339d4c541ef",
+      "bytes": 12241
+    },
+    {
+      "path": "systems/quartz/components/tooltip.md",
+      "sha256": "a29a6962763cebc6948c8b4f71be6a35d847fe987953f596d7abfcb065599d3f",
+      "bytes": 7466
+    },
+    {
+      "path": "systems/quartz/components/truncate.md",
+      "sha256": "c20d7db0dcc27990b55207c0ac7372eccba9c05b1dfd79069481d43b08abc1ed",
+      "bytes": 6150
+    },
+    {
+      "path": "systems/quartz/foundations/anti-slop.md",
+      "sha256": "59e8980d3b408b5ad3f370d3177126e7dc4d9419d4c99db97f0a5027f37d4654",
+      "bytes": 9266
+    },
+    {
+      "path": "systems/quartz/foundations/borders-and-lines.md",
+      "sha256": "a9a272be77b758667cba7ee3cf1551f02fd1a9c5c715c57d0571acb2ec832e12",
+      "bytes": 8350
+    },
+    {
+      "path": "systems/quartz/foundations/color.md",
+      "sha256": "0ae19554a831cbc09bc1c793ca16c611a26db3f856b309c3e0864f0482bb1243",
+      "bytes": 8720
+    },
+    {
+      "path": "systems/quartz/foundations/elevation.md",
+      "sha256": "fcd18b90952b79db7fb01d4062c8a4e4de3eec1235441dbe9a75e7749ef0644e",
+      "bytes": 7431
+    },
+    {
+      "path": "systems/quartz/foundations/grid.md",
+      "sha256": "3e51690899010f79af7eab5deffa3976ab92884183c5f9a0ac8033c0946e2a47",
+      "bytes": 8473
+    },
+    {
+      "path": "systems/quartz/foundations/iconography.md",
+      "sha256": "7f13f1ef7106c177d01355eb57cb35b531c9a76720acec9c24907aca12520f51",
+      "bytes": 3930
+    },
+    {
+      "path": "systems/quartz/foundations/motion.md",
+      "sha256": "e024644434afcc64820ef1d02f650530155315d82545022c43161d7577b07918",
+      "bytes": 7710
+    },
+    {
+      "path": "systems/quartz/foundations/radius.md",
+      "sha256": "de9d8ca4a1350db95a384f0fedb682cfaa65510119495508fd82a0a2c82d608f",
+      "bytes": 4996
+    },
+    {
+      "path": "systems/quartz/foundations/space.md",
+      "sha256": "c676d5a30cd4374652ebb0df8d3b386da624da4891ba5e17ec50242da616330d",
+      "bytes": 3810
+    },
+    {
+      "path": "systems/quartz/foundations/typography.md",
+      "sha256": "0b305b383fe74d15117fd73bcee5fb25d3017e6d588095374bd8be9c90c59064",
+      "bytes": 8036
+    },
+    {
+      "path": "systems/quartz/index.md",
+      "sha256": "7a2a1af9b3f1c9f67e5f6efeed32959fc1c0e8bed37ed3a0d1a3f1f8696a3e39",
+      "bytes": 14606
+    },
+    {
+      "path": "systems/sodium/components/activity.md",
+      "sha256": "95c4a74140028dbf26dd6e5fd896d18e6a3ce4969db90fe23b8e36b60d81828b",
+      "bytes": 5168
+    },
+    {
+      "path": "systems/sodium/components/alert.md",
+      "sha256": "b2d93184289a3eecf033e811cc33f08f48ed1326a94397b12b39acc7c0ffc9f4",
+      "bytes": 6379
+    },
+    {
+      "path": "systems/sodium/components/avatar.md",
+      "sha256": "49aa26e8f7118e4b6af4f691e09fb20a7a1e2a133214b4864bbaae44a10e101d",
+      "bytes": 4319
+    },
+    {
+      "path": "systems/sodium/components/bar-blocks.md",
+      "sha256": "5d2b6474f9df595411b9af27ecfb301e9cf575eff136b7df34033bdcd2af1d84",
+      "bytes": 5635
+    },
+    {
+      "path": "systems/sodium/components/breadcrumb.md",
+      "sha256": "153b3302e21a4466214d0ebce44c58c4c1ad0ece9f5f8c8637e149b1e766439b",
+      "bytes": 4629
+    },
+    {
+      "path": "systems/sodium/components/button-group.md",
+      "sha256": "2b40722dec27658fa6175632825311323397d0c160f91862b365871163ac2b7e",
+      "bytes": 6531
+    },
+    {
+      "path": "systems/sodium/components/button.md",
+      "sha256": "953538b22abfbc7c36b60a801ee6292df238410bc605effff302e9b90464a7b8",
+      "bytes": 9871
+    },
+    {
+      "path": "systems/sodium/components/chart.md",
+      "sha256": "737ef7e7bfe10a2bb55249983426f50e32a1051c00a410d4dfcab004f42941bb",
+      "bytes": 9018
+    },
+    {
+      "path": "systems/sodium/components/checkbox.md",
+      "sha256": "6eef0268f38a551205e0eddd996f64cf3e5a7a0d994fe1389cc11fe4c8865988",
+      "bytes": 6244
+    },
+    {
+      "path": "systems/sodium/components/code-block.md",
+      "sha256": "d69f75831b42852a52c679751210e6401bf4882060e4173d70229c2295a8a853",
+      "bytes": 6217
+    },
+    {
+      "path": "systems/sodium/components/code-window.md",
+      "sha256": "b07de4df68244129fc401c8f84b80f45a3f1ebeea7b276695efa3b8fb16c5040",
+      "bytes": 5217
+    },
+    {
+      "path": "systems/sodium/components/collapsible.md",
+      "sha256": "00295c30d41a1eb77d7181cb39af113322e41b9aaa4b6caaa89eb125dc926262",
+      "bytes": 5135
+    },
+    {
+      "path": "systems/sodium/components/combobox.md",
+      "sha256": "783d5e572f66424749ce61d7bf1e4205fba20fcc7f07c90468bc3fdec00120b7",
+      "bytes": 7994
+    },
+    {
+      "path": "systems/sodium/components/command.md",
+      "sha256": "158c7201dfe2da94535dc8822275022c3a9d76b1b417ac4213f8625b97b56996",
+      "bytes": 6305
+    },
+    {
+      "path": "systems/sodium/components/copy-button.md",
+      "sha256": "a8e1fec9ae399552933493c6414e79054867163b042a610ff7ab90cf31c9144c",
+      "bytes": 5228
+    },
+    {
+      "path": "systems/sodium/components/data-list.md",
+      "sha256": "30bc9885c09e3360f973746d20cc0d6d976ff6eed7ea7fad7d22385dd6553df8",
+      "bytes": 4293
+    },
+    {
+      "path": "systems/sodium/components/dialog.md",
+      "sha256": "3a7b561d65e68cacd75613e80b8c21147940add788b3458877eafb5e85e89473",
+      "bytes": 9761
+    },
+    {
+      "path": "systems/sodium/components/dropdown-menu.md",
+      "sha256": "8f721d97c8bf58566a0745510a7526f08821171a85a3872a3c147797cf46733f",
+      "bytes": 7898
+    },
+    {
+      "path": "systems/sodium/components/empty-state.md",
+      "sha256": "47d0d798e05c5989c2186ad373dfad97e280168732c91ed0a2007facdccb7d2a",
+      "bytes": 4801
+    },
+    {
+      "path": "systems/sodium/components/field.md",
+      "sha256": "29b4770ddfd355c0720ca96ab87bd7986cacaad6ea73f8e024351e26911ffd04",
+      "bytes": 7966
+    },
+    {
+      "path": "systems/sodium/components/filter-bar.md",
+      "sha256": "d1aac3407e94478c780f7d3fe3d47fa38d90a1b15b5a7a21e54965c3b3ef1c0f",
+      "bytes": 7848
+    },
+    {
+      "path": "systems/sodium/components/frame.md",
+      "sha256": "26ab63708a10b1af880cbccf38631764a0449c542f88014b94e2e96bf0563871",
+      "bytes": 6595
+    },
+    {
+      "path": "systems/sodium/components/input.md",
+      "sha256": "7dd3ab0fd006bc27c01ef148a0103d4b85276d7f8f5e67599eb8d0a1f13a1a73",
+      "bytes": 9251
+    },
+    {
+      "path": "systems/sodium/components/item.md",
+      "sha256": "ebe1958933fe686db8731ebc901e807c2774de11507e2a38eb960760e4ed8ce9",
+      "bytes": 5274
+    },
+    {
+      "path": "systems/sodium/components/json-view.md",
+      "sha256": "e1562c58794ad748001b81159b253046bd7e5d394824b92e89112c7601555f63",
+      "bytes": 5060
+    },
+    {
+      "path": "systems/sodium/components/kbd.md",
+      "sha256": "b238caf5f985e18d85195cf4f6d8fb096b84c2411b146ef034f2aa3ab9c20225",
+      "bytes": 3598
+    },
+    {
+      "path": "systems/sodium/components/log-viewer.md",
+      "sha256": "94e966e73dcc0c1ea16287454cef58c370e91c6928fdd0d48ad7e552151b4e8a",
+      "bytes": 6269
+    },
+    {
+      "path": "systems/sodium/components/message.md",
+      "sha256": "740ebc1b4d741daf29d3c598dd5130461381db468ef6f45039cfbd40cb762338",
+      "bytes": 5313
+    },
+    {
+      "path": "systems/sodium/components/meter.md",
+      "sha256": "d51587fcd0756901c317ef32d4ee9bc364dbfc3025fbd7d1c39238af457a4e01",
+      "bytes": 5322
+    },
+    {
+      "path": "systems/sodium/components/numbered-tabs.md",
+      "sha256": "335da6b5d5e5697ff73de8384f95b07ab2e3b81436c0334b4d6fd2657c341344",
+      "bytes": 5148
+    },
+    {
+      "path": "systems/sodium/components/pagination.md",
+      "sha256": "276d7115aea4b7e2c2afae0e968a1594e6cc2791ff1b313127469ff16ae9930c",
+      "bytes": 4980
+    },
+    {
+      "path": "systems/sodium/components/popover.md",
+      "sha256": "ca63d9084587371fe29e0ba5880054571359e6fa66eb9b08ae4b8c5815b5821c",
+      "bytes": 6012
+    },
+    {
+      "path": "systems/sodium/components/progress.md",
+      "sha256": "1c9e2250c05d64b6494155dcc8b298d74edd549a8914371ea53a39d15fc02a74",
+      "bytes": 5023
+    },
+    {
+      "path": "systems/sodium/components/prompt-input.md",
+      "sha256": "5494b9f496cd0ee785d4ad89eb8da58fe7c85d747292289ef1a924efd6f850e6",
+      "bytes": 6424
+    },
+    {
+      "path": "systems/sodium/components/radio-group.md",
+      "sha256": "cf9cdcbf7fef3bf2ede95ac936afff1ef4daaa8e829388d4f57c174f0d8afa03",
+      "bytes": 5711
+    },
+    {
+      "path": "systems/sodium/components/response.md",
+      "sha256": "fd62dac365fda9a79c228af31908ff5e42de12c91a22e8d2dba4ec9b2e1127ba",
+      "bytes": 4383
+    },
+    {
+      "path": "systems/sodium/components/segmented-control.md",
+      "sha256": "78021c7684e1c5cf0e461c3220e0d139fba4f3ffffb91c3a426e033b7aa99127",
+      "bytes": 6686
+    },
+    {
+      "path": "systems/sodium/components/select.md",
+      "sha256": "fd868c2390ee72dfddd6932e508b497f5bc6b978640644a7abc0f796f725bb69",
+      "bytes": 8436
+    },
+    {
+      "path": "systems/sodium/components/sheet.md",
+      "sha256": "8a75966c5d359f1361cef6c53565d62bc0cc99a2d7580049b0c2ab526177a844",
+      "bytes": 7804
+    },
+    {
+      "path": "systems/sodium/components/skeleton.md",
+      "sha256": "08abb62bb10ab69a5a7261e571b01b1461cb28daa772dfa1bb6eadb5623af42a",
+      "bytes": 4164
+    },
+    {
+      "path": "systems/sodium/components/slider.md",
+      "sha256": "63371f01f910dbda1f378c2110d4eec39bb420c71a8d271bdffa913b7771c2db",
+      "bytes": 5193
+    },
+    {
+      "path": "systems/sodium/components/status-strip.md",
+      "sha256": "cd3bec5a9e28321b0234d7b639b12bc716c3a92c3c43a412b5ac7122a18113e2",
+      "bytes": 6138
+    },
+    {
+      "path": "systems/sodium/components/status.md",
+      "sha256": "aaa65be6896388ee776611d0d1b09509ca63f34eebf9543b1ce9948b2ad2d863",
+      "bytes": 6263
+    },
+    {
+      "path": "systems/sodium/components/stem-chart.md",
+      "sha256": "500efd4ad09769ed7bc47ee0e925d2deb46f2bcf6655980b6b12146408ace679",
+      "bytes": 5555
+    },
+    {
+      "path": "systems/sodium/components/swimlanes.md",
+      "sha256": "4354e93bca8693ea18a6325fa92d63698b1140c334b8322d81da1dbf1abc1fde",
+      "bytes": 5641
+    },
+    {
+      "path": "systems/sodium/components/switch.md",
+      "sha256": "8ee3692eaaa6947231ddf2b9693e4c0aba198714f9eb9fea987099ef6a820903",
+      "bytes": 5445
+    },
+    {
+      "path": "systems/sodium/components/table.md",
+      "sha256": "ba302b539d6a73a033c260e97b737367e029f71c7798a420db2744d8c650484e",
+      "bytes": 8087
+    },
+    {
+      "path": "systems/sodium/components/tabs.md",
+      "sha256": "dd44abfd0937d6a8afbdfb95ae5b825ca8af66368b6af08eb30ee8b956140edd",
+      "bytes": 4602
+    },
+    {
+      "path": "systems/sodium/components/tag.md",
+      "sha256": "87be6d1a77ad6e4fadff380689649f918e662f73ca05c605774b70aae8dbc333",
+      "bytes": 4694
+    },
+    {
+      "path": "systems/sodium/components/textarea.md",
+      "sha256": "3c140d089e81c3aeb59e47607a2c39819fb780ccd5b7e4b2e616807cd41ea330",
+      "bytes": 5449
+    },
+    {
+      "path": "systems/sodium/components/toast.md",
+      "sha256": "849e36b5708b724fed623d2d421fc4b95e37a61f10869658869347068441add4",
+      "bytes": 5431
+    },
+    {
+      "path": "systems/sodium/components/tool-call-row.md",
+      "sha256": "a3f1b129676d48a81ea1b8d2ae48c69975e3ceba46477dd9edf79555c698bdfd",
+      "bytes": 6977
+    },
+    {
+      "path": "systems/sodium/components/tool-call.md",
+      "sha256": "486a182968cdde39240cb843a70670e8dac528737f5387b7de2556892b26f3f3",
+      "bytes": 7263
+    },
+    {
+      "path": "systems/sodium/components/tooltip.md",
+      "sha256": "5ef8e02f32ea6a128268eb77da3b1b14e23829849b4b426cf8e986bb94b14006",
+      "bytes": 4642
+    },
+    {
+      "path": "systems/sodium/foundations/anti-slop.md",
+      "sha256": "95bf6a0c3bc96442c79a97ff2eef777feefa0ed79d33a42fe6e3ac811ef87046",
+      "bytes": 6910
+    },
+    {
+      "path": "systems/sodium/foundations/borders-and-lines.md",
+      "sha256": "9a3b32c57ad66934304741e5bd1935f861fb88011909fbae5aec17891d514d6d",
+      "bytes": 7631
+    },
+    {
+      "path": "systems/sodium/foundations/color.md",
+      "sha256": "e58df69413c4c0480df6c80360abe1fa7343414304fff691491871035f900985",
+      "bytes": 8832
+    },
+    {
+      "path": "systems/sodium/foundations/elevation.md",
+      "sha256": "909aa8ad5d5f816a3a36ff3b8b3ed769f2ee0c88ad209f90f525640dff121cf8",
+      "bytes": 5011
+    },
+    {
+      "path": "systems/sodium/foundations/iconography.md",
+      "sha256": "7fdcf937bf4239421b70b50db45fdc4983e690ab01fc4234362753d51e45a367",
+      "bytes": 4177
+    },
+    {
+      "path": "systems/sodium/foundations/motion.md",
+      "sha256": "87b5ce45f0f9eb7bd9bc1a17c954246543143ab8fed452a73f1aa039dfbe65be",
+      "bytes": 6842
+    },
+    {
+      "path": "systems/sodium/foundations/radius.md",
+      "sha256": "a2de777260619c09d8615449df38349c2e72d7554e585476bc9cab8a7ec4e23e",
+      "bytes": 1833
+    },
+    {
+      "path": "systems/sodium/foundations/space.md",
+      "sha256": "5dd1574c0ae8d6844b83f680d3205de90ea4bf8b1e4fb63ee7267dfbc5b1ebbc",
+      "bytes": 9727
+    },
+    {
+      "path": "systems/sodium/foundations/typography.md",
+      "sha256": "bdfa6682b3ac25d94692cee95d186d35232035330743b170550ff49eac840f32",
+      "bytes": 8225
+    },
+    {
+      "path": "systems/sodium/index.md",
+      "sha256": "39125e50be49e138460719ec114ac8c9c40ccca73298e3443f84163a409a984e",
+      "bytes": 11115
+    }
+  ]
+}

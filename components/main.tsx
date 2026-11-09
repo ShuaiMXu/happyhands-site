@@ -46,6 +46,8 @@ const readSelection = () =>
     new URLSearchParams(location.search).get("component"),
   )?.id || "";
 
+// Retired public tool: keep old bookmarks understandable without opening the editor.
+if (new URLSearchParams(location.search).get('provider') === 'studio') location.replace('/apps/studio/');
 function App() {
   const readProvider = () => {
     const value = new URLSearchParams(location.search).get("provider");

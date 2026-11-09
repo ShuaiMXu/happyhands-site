@@ -1,0 +1,14 @@
+{
+  "name": "quartz-timeline",
+  "type": "registry:item",
+  "title": "quartz / Timeline",
+  "description": "Shows when each step of a run started and how long it took, with the slow and failed ones marked.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/timeline.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "timeline",
+    "version": "2026-11-09.1"
+  }
+}

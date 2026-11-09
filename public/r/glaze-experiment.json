@@ -1,0 +1,14 @@
+{
+  "name": "glaze-experiment",
+  "type": "registry:item",
+  "title": "glaze / Experiment",
+  "description": "Two prompts split live traffic: each arm's resolution rate, both by day, and Ship as the confirm.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/experiment.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "experiment",
+    "version": "2026-11-09.1"
+  }
+}

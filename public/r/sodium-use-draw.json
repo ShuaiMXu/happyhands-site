@@ -1,0 +1,14 @@
+{
+  "name": "sodium-use-draw",
+  "type": "registry:item",
+  "title": "sodium / useDraw",
+  "description": "Support file: draws connectors out one hop at a time, about 0.3 seconds a hop.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/use-draw.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "use-draw",
+    "version": "2026-11-09.1"
+  }
+}

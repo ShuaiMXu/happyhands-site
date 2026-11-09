@@ -1,0 +1,14 @@
+{
+  "name": "sodium-pipeline-history",
+  "type": "registry:item",
+  "title": "sodium / Pipeline history",
+  "description": "A pipeline's page under its path: runs per day, its latest partitions and its schedule as numbered tabs.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/pipeline-history.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "pipeline-history",
+    "version": "2026-11-09.1"
+  }
+}

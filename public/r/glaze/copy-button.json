@@ -15,8 +15,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/copy-button.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/copy-button.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/copy-button.md",
+    "page": "https://happyhands.cc/systems/glaze/components/copy-button.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/glaze/registry/items/copy-button.json",
+      "sourceSha256": "6d3f4c493a033b2af45d764ce574880a10c5629fe7e0d072eadb2b64a8a95f5f",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

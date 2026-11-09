@@ -1,0 +1,14 @@
+{
+  "name": "lime-home",
+  "type": "registry:item",
+  "title": "lime / Home screen",
+  "description": "An app home: a greeting, the balance, three quick actions with Add as the glow, and a savings goal.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/home.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "home",
+    "version": "2026-11-09.1"
+  }
+}

@@ -14,8 +14,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/card.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/card.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/card.md",
+    "page": "https://happyhands.cc/systems/glaze/components/card.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/glaze/registry/items/card.json",
+      "sourceSha256": "c499f3bca534e0f030eda26eaed206ba0a47e248321b0002ad80d217c3612672",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

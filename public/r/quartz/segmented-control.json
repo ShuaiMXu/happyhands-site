@@ -18,8 +18,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/segmented-control.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/segmented-control.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/segmented-control.md",
+    "page": "https://happyhands.cc/systems/quartz/components/segmented-control.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/quartz/registry/items/segmented-control.json",
+      "sourceSha256": "be17d9fea7d3d0b4c16c5602035240d09e8a980954c840a17b0a5cdfc318fe88",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

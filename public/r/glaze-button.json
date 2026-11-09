@@ -1,0 +1,14 @@
+{
+  "name": "glaze-button",
+  "type": "registry:item",
+  "title": "glaze / Button",
+  "description": "Starts an action.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/button.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "button",
+    "version": "2026-11-09.1"
+  }
+}

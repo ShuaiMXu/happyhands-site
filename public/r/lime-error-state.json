@@ -1,0 +1,14 @@
+{
+  "name": "lime-error-state",
+  "type": "registry:item",
+  "title": "lime / Error state",
+  "description": "What failed to load, in its place, with Try again.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/error-state.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "error-state",
+    "version": "2026-11-09.1"
+  }
+}

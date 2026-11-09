@@ -22,8 +22,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/toast.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/toast.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/toast.md",
+    "page": "https://happyhands.cc/systems/quartz/components/toast.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/quartz/registry/items/toast.json",
+      "sourceSha256": "f537deabc5271eb7f5ea9397cff88443eaaddff1a076385daf4227641b5a681e",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

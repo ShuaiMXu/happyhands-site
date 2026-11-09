@@ -1,0 +1,14 @@
+{
+  "name": "sodium-icon",
+  "type": "registry:item",
+  "title": "sodium / Icon",
+  "description": "Support file: the one import point for icons: Lucide, squared off with square ends, mitred joins and a 1.25px line.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/icon.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "icon",
+    "version": "2026-11-09.1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "glaze-assistant-limits",
+  "type": "registry:item",
+  "title": "glaze / Assistant limits",
+  "description": "A list of what a personal assistant may do on its own, one rule per kind of action with its level.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/assistant-limits.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "assistant-limits",
+    "version": "2026-11-09.1"
+  }
+}

@@ -19,8 +19,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/button.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/button.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/button.md",
+    "page": "https://happyhands.cc/systems/quartz/components/button.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/quartz/registry/items/button.json",
+      "sourceSha256": "781603d91e4054baa7c27780c5a5c1c64d781162d241e6e4f590c312da60d5e4",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

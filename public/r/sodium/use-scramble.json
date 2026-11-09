@@ -12,8 +12,14 @@
     "https://happyhands.cc/r/sodium/use-timeline.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/index.md",
-    "page": "https://happyhands.cc/design-how/sodium/index.md"
+    "docs": "https://happyhands.cc/systems/sodium/index.md",
+    "page": "https://happyhands.cc/systems/sodium/index.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/sodium/registry/items/use-scramble.json",
+      "sourceSha256": "521766ef7fcd7ca4c8b8ced3ef3883e29df19f67ab9f86e8d0f9e610da7f741d",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

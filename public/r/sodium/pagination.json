@@ -14,8 +14,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/pagination.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/pagination.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/pagination.md",
+    "page": "https://happyhands.cc/systems/sodium/components/pagination.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/sodium/registry/items/pagination.json",
+      "sourceSha256": "471f47178c844e7740b1118cc8ad1c938c337147fc18c3e1b16d1d23dd128d86",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

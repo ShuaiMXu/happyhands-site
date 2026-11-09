@@ -1,0 +1,14 @@
+{
+  "name": "sodium-code-block",
+  "type": "registry:item",
+  "title": "sodium / Code block",
+  "description": "Shows code or commands to copy.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/code-block.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "code-block",
+    "version": "2026-11-09.1"
+  }
+}

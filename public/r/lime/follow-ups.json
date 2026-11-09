@@ -13,8 +13,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/follow-ups.md",
-    "page": "https://happyhands.cc/design-how/lime/components/follow-ups.md"
+    "docs": "https://happyhands.cc/systems/lime/components/follow-ups.md",
+    "page": "https://happyhands.cc/systems/lime/components/follow-ups.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/lime/registry/items/follow-ups.json",
+      "sourceSha256": "40f44f8da66b123155fd082a27b235de70061dd02d9679d9bc85748864776977",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

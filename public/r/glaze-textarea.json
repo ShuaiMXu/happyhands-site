@@ -1,0 +1,14 @@
+{
+  "name": "glaze-textarea",
+  "type": "registry:item",
+  "title": "glaze / Textarea",
+  "description": "Takes several lines of text.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/textarea.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "textarea",
+    "version": "2026-11-09.1"
+  }
+}

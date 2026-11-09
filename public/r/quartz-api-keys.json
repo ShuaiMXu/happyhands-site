@@ -1,0 +1,14 @@
+{
+  "name": "quartz-api-keys",
+  "type": "registry:item",
+  "title": "quartz / API keys",
+  "description": "Create a key and see it once at its full length, masked with reveal and copy; then the keys by their last four characters with Revoke.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/api-keys.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "api-keys",
+    "version": "2026-11-09.1"
+  }
+}

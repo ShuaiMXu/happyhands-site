@@ -1,0 +1,14 @@
+{
+  "name": "lime-assistant-approval",
+  "type": "registry:item",
+  "title": "lime / Assistant approval",
+  "description": "You ask the assistant to pay a bill and it asks before it pays, with Approve as the glow.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/assistant-approval.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "assistant-approval",
+    "version": "2026-11-09.1"
+  }
+}

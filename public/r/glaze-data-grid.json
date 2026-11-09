@@ -1,0 +1,14 @@
+{
+  "name": "glaze-data-grid",
+  "type": "registry:item",
+  "title": "glaze / Data grid",
+  "description": "Sorts, selects and pages records from data.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/data-grid.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "data-grid",
+    "version": "2026-11-09.1"
+  }
+}

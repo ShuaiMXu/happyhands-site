@@ -1,0 +1,14 @@
+{
+  "name": "quartz-chip",
+  "type": "registry:item",
+  "title": "quartz / Chip",
+  "description": "An interactive token: filter toggle, removable value or menu trigger.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/chip.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "chip",
+    "version": "2026-11-09.1"
+  }
+}

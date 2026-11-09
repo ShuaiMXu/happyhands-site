@@ -1,0 +1,14 @@
+{
+  "name": "lime-utils",
+  "type": "registry:item",
+  "title": "lime / cn",
+  "description": "Support file: cn, which merges class names and knows Lime's radius and shadow names, and mergeClass, which keeps Lime's classes when className is a function of state.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/utils.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "utils",
+    "version": "2026-11-09.1"
+  }
+}

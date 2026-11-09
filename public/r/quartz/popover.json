@@ -20,8 +20,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/popover.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/popover.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/popover.md",
+    "page": "https://happyhands.cc/systems/quartz/components/popover.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/quartz/registry/items/popover.json",
+      "sourceSha256": "2fe7022ad8bf95a7600ed7f40a77abf1ed926357296dd7c93800e6bf308580e4",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

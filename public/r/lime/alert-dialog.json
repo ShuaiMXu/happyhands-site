@@ -18,8 +18,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/alert-dialog.md",
-    "page": "https://happyhands.cc/design-how/lime/components/alert-dialog.md"
+    "docs": "https://happyhands.cc/systems/lime/components/alert-dialog.md",
+    "page": "https://happyhands.cc/systems/lime/components/alert-dialog.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/lime/registry/items/alert-dialog.json",
+      "sourceSha256": "2fb58a886148e4e4107ae8663441fc14ff01b3908631964e428ccf5cd7c1f62e",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

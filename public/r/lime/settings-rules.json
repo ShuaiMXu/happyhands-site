@@ -16,8 +16,14 @@
     "https://happyhands.cc/r/lime/theme.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/index.md",
-    "page": "https://happyhands.cc/design-how/lime/index.md"
+    "docs": "https://happyhands.cc/systems/lime/index.md",
+    "page": "https://happyhands.cc/systems/lime/index.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/lime/registry/items/settings-rules.json",
+      "sourceSha256": "c62e489e2d6235fb4e47503d3c49440b70c7575cafcbd39fcfcbd2af83e7bf8d",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

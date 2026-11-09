@@ -23,8 +23,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/tool-call.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/tool-call.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/tool-call.md",
+    "page": "https://happyhands.cc/systems/quartz/components/tool-call.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/quartz/registry/items/tool-call.json",
+      "sourceSha256": "0383f38c9e745755c1cfe72e9e160b207d65b7ef3ae959b58c9fac2a6cc9ffb0",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

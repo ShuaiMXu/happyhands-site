@@ -1,0 +1,14 @@
+{
+  "name": "lime-autonomy-rule",
+  "type": "registry:item",
+  "title": "lime / Autonomy rule",
+  "description": "How far the assistant may go on its own, as one sentence with the limit typed into it.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/autonomy-rule.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "autonomy-rule",
+    "version": "2026-11-09.1"
+  }
+}

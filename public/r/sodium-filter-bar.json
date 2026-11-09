@@ -1,0 +1,14 @@
+{
+  "name": "sodium-filter-bar",
+  "type": "registry:item",
+  "title": "sodium / Filter bar",
+  "description": "Narrows a table, a log or a list in one row.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/filter-bar.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "filter-bar",
+    "version": "2026-11-09.1"
+  }
+}

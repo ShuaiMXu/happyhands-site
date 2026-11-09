@@ -16,8 +16,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/radio-group.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/radio-group.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/radio-group.md",
+    "page": "https://happyhands.cc/systems/glaze/components/radio-group.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/glaze/registry/items/radio-group.json",
+      "sourceSha256": "bc6bc63fac449c639db9644aea5b5f8d5a0ebf3585dae47a2b94e371f1963b89",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

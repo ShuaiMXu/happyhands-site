@@ -18,8 +18,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/mention.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/mention.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/mention.md",
+    "page": "https://happyhands.cc/systems/glaze/components/mention.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/glaze/registry/items/mention.json",
+      "sourceSha256": "e657eb858759672fbeb6c279cb8164de08539bc84a5067fcd2b806f524706f59",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

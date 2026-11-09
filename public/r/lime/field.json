@@ -16,8 +16,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/field.md",
-    "page": "https://happyhands.cc/design-how/lime/components/field.md"
+    "docs": "https://happyhands.cc/systems/lime/components/field.md",
+    "page": "https://happyhands.cc/systems/lime/components/field.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/lime/registry/items/field.json",
+      "sourceSha256": "d26c2cc187b869ba744d0fdf8ddc591649e9c562c4b271635b235f288c4fb153",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

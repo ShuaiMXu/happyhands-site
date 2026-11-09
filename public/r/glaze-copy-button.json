@@ -1,0 +1,14 @@
+{
+  "name": "glaze-copy-button",
+  "type": "registry:item",
+  "title": "glaze / Copy button",
+  "description": "Copies a value.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/copy-button.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "copy-button",
+    "version": "2026-11-09.1"
+  }
+}

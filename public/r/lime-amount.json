@@ -1,0 +1,14 @@
+{
+  "name": "lime-amount",
+  "type": "registry:item",
+  "title": "lime / Amount",
+  "description": "A money amount with its sign, currency and tabular figures.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/amount.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "amount",
+    "version": "2026-11-09.1"
+  }
+}

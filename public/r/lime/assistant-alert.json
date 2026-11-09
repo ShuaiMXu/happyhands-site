@@ -21,8 +21,14 @@
     "https://happyhands.cc/r/lime/use-focus-when-replaced.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/index.md",
-    "page": "https://happyhands.cc/design-how/lime/index.md"
+    "docs": "https://happyhands.cc/systems/lime/index.md",
+    "page": "https://happyhands.cc/systems/lime/index.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/lime/registry/items/assistant-alert.json",
+      "sourceSha256": "29c5ab72e355f5821ac8540785947766a050eae71cbc8826c5a3cdc50eac4ce7",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

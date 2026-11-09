@@ -1,0 +1,14 @@
+{
+  "name": "sodium-json-view",
+  "type": "registry:item",
+  "title": "sodium / JSON view",
+  "description": "Shows structured data as a foldable tree.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/json-view.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "json-view",
+    "version": "2026-11-09.1"
+  }
+}

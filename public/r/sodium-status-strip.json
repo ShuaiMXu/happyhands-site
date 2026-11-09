@@ -1,0 +1,14 @@
+{
+  "name": "sodium-status-strip",
+  "type": "registry:item",
+  "title": "sodium / Status strip",
+  "description": "Shows the few numbers to check first, in one ruled row.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/status-strip.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "status-strip",
+    "version": "2026-11-09.1"
+  }
+}

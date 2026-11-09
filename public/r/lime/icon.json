@@ -15,8 +15,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/index.md",
-    "page": "https://happyhands.cc/design-how/lime/index.md"
+    "docs": "https://happyhands.cc/systems/lime/index.md",
+    "page": "https://happyhands.cc/systems/lime/index.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/lime/registry/items/icon.json",
+      "sourceSha256": "9f393e54f5355e982fcf5566844d74684ed80be13b2e594076ff74b0fdcfb379",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

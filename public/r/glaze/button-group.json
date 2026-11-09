@@ -20,8 +20,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/button-group.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/button-group.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/button-group.md",
+    "page": "https://happyhands.cc/systems/glaze/components/button-group.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/glaze/registry/items/button-group.json",
+      "sourceSha256": "a22177343aec0dbde9225945dd4a65c8c21857ecc7cca4cd3ae277e95caff112",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/status.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/status.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/status.md",
+    "page": "https://happyhands.cc/systems/glaze/components/status.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/glaze/registry/items/status.json",
+      "sourceSha256": "9b81d30e0e90ee194569efe3425d399ec6bc033a7db7eab76838b4ba5d287aab",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

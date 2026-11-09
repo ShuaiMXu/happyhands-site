@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/button.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/button.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/button.md",
+    "page": "https://happyhands.cc/systems/sodium/components/button.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/sodium/registry/items/button.json",
+      "sourceSha256": "ea0a8427c575eaa63698149389a01ed862261385e03669aa6f58879d98232be5",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

@@ -13,8 +13,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/kbd.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/kbd.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/kbd.md",
+    "page": "https://happyhands.cc/systems/glaze/components/kbd.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/glaze/registry/items/kbd.json",
+      "sourceSha256": "089253d007ab1b494030bb7dbe05d60a8959e37226f1052c9cdd9282b8e85558",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

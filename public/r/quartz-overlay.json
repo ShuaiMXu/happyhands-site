@@ -1,0 +1,14 @@
+{
+  "name": "quartz-overlay",
+  "type": "registry:item",
+  "title": "quartz / Overlay",
+  "description": "Support file: what every overlay shares: the paper surface with its frame line and the way it appears; and for Dialog and Sheet, the open state that waits for a running action, Enter on the footer's default action, the backdrop and the scroll fade.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/overlay.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "overlay",
+    "version": "2026-11-09.1"
+  }
+}

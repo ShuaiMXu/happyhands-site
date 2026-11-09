@@ -1,0 +1,14 @@
+{
+  "name": "sodium-radio-group",
+  "type": "registry:item",
+  "title": "sodium / Radio group",
+  "description": "Picks one of a few choices.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/radio-group.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "radio-group",
+    "version": "2026-11-09.1"
+  }
+}

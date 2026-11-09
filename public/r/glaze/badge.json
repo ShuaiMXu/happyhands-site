@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/badge.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/badge.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/badge.md",
+    "page": "https://happyhands.cc/systems/glaze/components/badge.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/glaze/registry/items/badge.json",
+      "sourceSha256": "65b0c01f6608ca2db365bba42ebde266b21a0506f4d7c1403dae0a7d37f006e7",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

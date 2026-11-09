@@ -1,0 +1,14 @@
+{
+  "name": "sodium-direction",
+  "type": "registry:item",
+  "title": "sodium / Direction",
+  "description": "Support file: hands the reading direction to Base UI and to popups opened from a right-to-left subtree.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/direction.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "direction",
+    "version": "2026-11-09.1"
+  }
+}

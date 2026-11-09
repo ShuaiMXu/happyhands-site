@@ -1,0 +1,14 @@
+{
+  "name": "quartz-command",
+  "type": "registry:item",
+  "title": "quartz / Command",
+  "description": "A searchable command list, the core of the command palette.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/command.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "command",
+    "version": "2026-11-09.1"
+  }
+}

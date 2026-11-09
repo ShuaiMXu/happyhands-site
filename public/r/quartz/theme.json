@@ -13,13 +13,18 @@
     "@tailwindcss/postcss@^4.3.3"
   ],
   "registryDependencies": [
-    "https://happyhands.cc/r/quartz/skill.json",
     "https://happyhands.cc/r/quartz/portal.json"
   ],
   "docs": "Quartz is scoped: its styles apply only inside an element with the class quartz.\n1. Import the theme once, in the root layout, as its own stylesheet (not an @import in globals.css): import '@/components/quartz/styles.css'\n2. Put className=\"quartz\" on the element that holds Quartz UI, usually <body>. Quartz's classes work on the elements inside it, in your own code too, not on that element itself.\n3. Wrap the app inside that element in <QuartzPortalProvider> from '@/lib/quartz/portal', so dialogs and menus keep the theme.\nDark mode: put data-theme=\"dark\" or the class dark on the quartz element or any ancestor, such as <html>. The theme does not follow the system setting (prefers-color-scheme) on its own.\nComponents: npx shadcn@latest add https://happyhands.cc/r/quartz/<name>.json; https://happyhands.cc/r/quartz/registry.json lists them all.",
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/index.md",
-    "page": "https://happyhands.cc/design-how/quartz/index.md"
+    "docs": "https://happyhands.cc/systems/quartz/index.md",
+    "page": "https://happyhands.cc/systems/quartz/index.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/quartz/registry/items/theme.json",
+      "sourceSha256": "e79fd4076657d9d56313ef59c59edbadeee723072145676aeeaad15235109c7d",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

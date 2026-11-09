@@ -1,0 +1,14 @@
+{
+  "name": "glaze-otp-input",
+  "type": "registry:item",
+  "title": "glaze / OTP input",
+  "description": "Takes a one-time code.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/otp-input.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "otp-input",
+    "version": "2026-11-09.1"
+  }
+}

@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/switch.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/switch.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/switch.md",
+    "page": "https://happyhands.cc/systems/glaze/components/switch.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/glaze/registry/items/switch.json",
+      "sourceSha256": "a55b90a90842a61d8312bc01c7eb958abeceae3e91439d829441e442517d6159",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

@@ -11,50 +11,30 @@ header.hh-site-header.portal-glass-header {
  -webkit-backdrop-filter:none;
 }
 .liquid-glass-surface {
- --glass-fill:color-mix(in srgb,var(--hh-bg) 28%,transparent);
  position:absolute;
  inset:0;
  z-index:-1;
  overflow:hidden;
  pointer-events:none;
  border-radius:inherit;
- background:var(--hh-bg-raised);
+ background:transparent;
  box-shadow:none;
  -webkit-mask-image:linear-gradient(transparent,#000 8px,#000 calc(100% - 8px),transparent);
  mask-image:linear-gradient(transparent,#000 8px,#000 calc(100% - 8px),transparent);
 }
-@supports (backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px)) {
- .liquid-glass-surface {
-  background:var(--glass-fill);
-  -webkit-backdrop-filter:blur(1px) saturate(160%);
-  backdrop-filter:blur(1px) saturate(160%);
- }
- .liquid-glass-surface[data-refraction] {
-  backdrop-filter:var(--glass-lens) blur(1px) saturate(160%);
- }
+/* A clear optical lens: no fill, blur, saturation boost or painted reflections. */
+.liquid-glass-surface {
+ -webkit-backdrop-filter:none;
+ backdrop-filter:none;
 }
-/* Reflections sit above the refracted backdrop, below all content. */
-.liquid-glass-surface::before,.liquid-glass-surface::after {
- content:"";
- position:absolute;
- inset:0;
- border-radius:inherit;
- pointer-events:none;
-}
-.liquid-glass-surface::before {
- display:none;
-}
-.liquid-glass-surface::after {
- background:radial-gradient(ellipse at 18% 50%,color-mix(in srgb,var(--hh-info) 16%,transparent),transparent 55%),radial-gradient(ellipse at 88% 50%,color-mix(in srgb,var(--hh-brand) 14%,transparent),transparent 50%);
-}
-header.portal-glass-header > .liquid-glass-surface { --glass-fill:color-mix(in srgb,var(--hh-bg) 32%,transparent); }
+.liquid-glass-surface[data-refraction] { backdrop-filter:var(--glass-lens); }
+.liquid-glass-surface::before,.liquid-glass-surface::after { content:none; display:none; }
 header.hh-site-header.portal-glass-header :is(#theme-toggle,#lang-switch button) {
- background:color-mix(in srgb,var(--hh-bg-raised) 14%,transparent);
+ background:transparent;
  border:.5px solid var(--hh-line);
  box-shadow:none;
 }
 header.hh-site-header.portal-glass-header :is(#theme-toggle,#lang-switch button):hover { background:var(--hh-bg-hover); }
-:root[data-theme="light"] .liquid-glass-surface { --glass-fill:color-mix(in srgb,var(--hh-bg) 42%,transparent); }
 .liquid-glass-defs { position:fixed; width:0; height:0; pointer-events:none; }
 @media(prefers-reduced-transparency:reduce),(forced-colors:active) {
  .liquid-glass-surface,.liquid-glass-surface[data-refraction] {background:var(--hh-bg);-webkit-backdrop-filter:none!important;backdrop-filter:none!important;box-shadow:none;border:.5px solid var(--hh-line);-webkit-mask-image:none;mask-image:none;}
@@ -89,9 +69,4 @@ header.hh-site-header.portal-glass-header :is(#theme-toggle,#lang-switch button)
  .hero-center .core-mark img {filter:none;}
  :root[data-theme="light"] .hero-center .core-mark img {filter:brightness(0);}
  .core-mark::before {display:none;}
-}
-
-/* The smaller lens has less optical travel and a denser fill under touch controls. */
-@media(max-width:620px) {
- header.hh-site-header.portal-glass-header.portal-compact-header > .liquid-glass-surface { --glass-fill:color-mix(in srgb,var(--hh-bg) 52%,transparent); }
 }

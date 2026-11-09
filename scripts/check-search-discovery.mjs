@@ -8,11 +8,13 @@ export function assertSearchContent(url,html){
  // Do not mistake metadata or client-side script strings for crawlable content.
  const body=(html.match(/<body\b[^>]*>([\s\S]*?)<\/body>/i)?.[1]||'')
   .replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi,'');
- if(path==='/apps/portal/'){
+ if(path==='/apps/portal/'||path==='/en/apps/portal/'){
   assert.match(body,/id=["']design-resources["']/,'Missing prerendered resource feed');
-  assert.match(body,/<h2\b[^>]*>AI 网站设计与界面评审<\/h2>/,'Missing prerendered workflow introduction');
+  const prefix=path.startsWith('/en/')?'/en':'';
+  assert.match(body,prefix?/<h2\b[^>]*>AI website design and UI review<\/h2>/:/<h2\b[^>]*>AI 网站设计与界面评审<\/h2>/,'Missing prerendered workflow introduction');
+  assert.ok(body.includes('HappyHands')&&body.includes('Local Web Alpha'),'Missing visible product identity and scope');
   for(const target of ['/ai-ui-review/','/ai-website-design/'])
-   assert.ok(body.includes(`href="${target}"`),`Missing crawlable workflow link: ${target}`);
+   assert.ok(body.includes(`href="${prefix}${target}"`),`Missing crawlable workflow link: ${target}`);
  }
  if(['/guide/','/en/guide/'].includes(path)){
   assert.ok(body.includes('pnpm workbench')&&body.includes('.harness/'),'Missing prerendered setup guide');

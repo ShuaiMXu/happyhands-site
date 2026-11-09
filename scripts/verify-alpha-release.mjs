@@ -3,9 +3,10 @@ import {execFileSync} from 'node:child_process';
 import {readFile} from 'node:fs/promises';
 import {guideFaq} from '../packages/ui/site-seo.ts';
 import {resourceRewritePath} from './resource-preview-plugin.mjs';
+import {assertSearchContent} from './check-search-discovery.mjs';
 const origin='https://happyhands.cc';
 const builtPage = path => path === 'components' ? 'dist/resource-pages/index.html' : `dist/${path}/index.html`;
-const pages=['nonprofit-website-design','en/nonprofit-website-design','apps/portal','systems/happyhands','systems/quartz','systems/lime','apps/studio','components','guide','en/guide','ai-ui-review','en/ai-ui-review','ai-website-design','en/ai-website-design'];
+const pages=['nonprofit-website-design','en/nonprofit-website-design','apps/portal','en/apps/portal','systems/happyhands','systems/quartz','systems/lime','apps/studio','components','guide','en/guide','ai-ui-review','en/ai-ui-review','ai-website-design','en/ai-website-design'];
 const release=JSON.parse(await readFile('dist/release.json','utf8'));
 const expected=process.env.VERCEL_GIT_COMMIT_SHA||execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim();
 assert.equal(release.revision,expected,'Built revision does not match the expected source');
@@ -21,6 +22,13 @@ const portal=await readFile('dist/apps/portal/index.html','utf8');
 for(const text of ['feed-panel-design-md','feed-panel-systems','feed-panel-cult-ui','docs/harness.md'])assert.ok(portal.includes(text),'Missing prerendered content: '+text);
 assert.ok(!portal.includes('class="homepage-case"'),'Removed homepage case must not return');
 assert.ok(!portal.includes('<div id="portal-content"></div>'),'Portal must not be an empty client-only shell');
+for(const path of ['apps/portal','en/apps/portal']){
+ const html=await readFile(builtPage(path),'utf8');
+ assertSearchContent(`${origin}/${path}/`,html);
+ assert.ok(html.includes(`<html lang="${path.startsWith('en/')?'en':'zh-CN'}"`));
+ for(const code of ['zh-CN','en','x-default'])assert.ok(html.includes(`hreflang="${code}"`));
+}
+
 for(const path of pages){
   const html=await readFile(builtPage(path),'utf8');
   const scripts=[...html.matchAll(/<script\b[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)];

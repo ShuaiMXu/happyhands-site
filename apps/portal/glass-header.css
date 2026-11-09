@@ -44,12 +44,12 @@ header.hh-site-header.portal-glass-header {
 }
 .liquid-glass-surface::after { display:none; }
 header.portal-glass-header > .liquid-glass-surface { --glass-fill:color-mix(in srgb,var(--hh-bg) 48%,transparent); }
-header.hh-site-header.portal-glass-header :is(#theme-toggle,#lang-switch button) {
+header.hh-site-header.portal-glass-header :is(#theme-toggle,#lang-switch :is(a,button)) {
  background:color-mix(in srgb,var(--hh-bg-raised) 14%,transparent);
  border:.5px solid var(--hh-line);
  box-shadow:inset 0 .5px 0 rgb(255 255 255 / 16%);
 }
-header.hh-site-header.portal-glass-header :is(#theme-toggle,#lang-switch button):hover { background:var(--hh-bg-hover); }
+header.hh-site-header.portal-glass-header :is(#theme-toggle,#lang-switch :is(a,button)):hover { background:var(--hh-bg-hover); }
 :root[data-theme="light"] .liquid-glass-surface { --glass-fill:color-mix(in srgb,var(--hh-bg) 58%,transparent); }
 .liquid-glass-defs { position:fixed; width:0; height:0; pointer-events:none; }
 @media(prefers-reduced-transparency:reduce),(forced-colors:active) {

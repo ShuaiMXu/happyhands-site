@@ -4,7 +4,8 @@
 
 ## Official sources
 
-- [Product website](https://happyhands.cc/apps/portal/): Product workflow and setup entry.
+- [English product website](https://happyhands.cc/en/apps/portal/): Product scope, design resources and local setup entry.
+- [中文官网](https://happyhands.cc/apps/portal/): 产品范围、设计资源与本地安装入口。
 - [English guide](https://happyhands.cc/en/guide/): Local setup, supported tool roles, design resources, review workflow, data handling and limitations.
 - [中文使用指南](https://happyhands.cc/guide/): 本地安装、编码工具接入、设计资源、审阅流程、数据与限制。
 - [Core source](https://github.com/ShuaiMXu/happyhands): Original HappyHands core code is MIT licensed. Third-party dependencies retain their own terms.

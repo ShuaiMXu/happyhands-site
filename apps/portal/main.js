@@ -7,7 +7,8 @@ import {setupSiteMenu} from '../../packages/ui/site-menu.ts';
 import '../../packages/ui/site-layout.css';
 import '../../packages/ui/icons.css';
 import {iconMarkup} from '../../packages/ui/icons.ts';
-import {readLanguage, readTheme, savePreference} from '../../packages/ui/site-preferences.ts';
+import {readTheme, savePreference} from '../../packages/ui/site-preferences.ts';
+import {portalLanguage, portalPath} from './language.ts';
 import * as zh from './content.zh.js';
 import {siteNavigation} from '../../packages/ui/site-navigation.ts';
 import '../../packages/ui/site-shell.css';
@@ -28,7 +29,8 @@ import './homepage-motion.css';
 import "../../packages/ui/owned-ui.css";
 let disposeHomepageMotion;
 
-let lang = readLanguage();
+const lang = portalLanguage(location.pathname);
+savePreference('pd-lang', lang);
 const t = () => lang === 'zh' ? zh : en;
 document.querySelector('.site-header').classList.add('hh-site-header','portal-glass-header');
 document.querySelector('.header-cta')?.remove();
@@ -58,31 +60,20 @@ themeButton.addEventListener('click', () => {
 systemTheme.addEventListener('change', () => applyTheme(readTheme()));
 window.addEventListener('storage', event => {
   if (event.key === 'hh-theme' || event.key === null) applyTheme(readTheme());
-  if (event.key === 'pd-lang' || event.key === null) {lang = readLanguage(); renderContent();}
 });
 applyTheme(readTheme());
 
 // -- language switcher --
-function renderLangSwitch() {
-  const existing = document.getElementById('lang-switch');
-  if (existing) return;
-  const actions = document.querySelector('.header-actions');
-  if (!actions) return;
-  const switcher = document.createElement('div');
-  switcher.id = 'lang-switch';
-  switcher.setAttribute('role', 'group');
-  switcher.setAttribute('aria-label', 'Language / 语言');
-  const btn = document.createElement('button');
-  btn.type = 'button';
-  btn.addEventListener('click', () => setLang(lang === 'zh' ? 'en' : 'zh'));
-  switcher.appendChild(btn);
-  actions.appendChild(switcher);
+function syncLanguageLink() {
+  const link = document.querySelector('#lang-switch a');
+  const next = lang === 'zh' ? 'en' : 'zh';
+  link.href = portalPath(next) + location.search + location.hash;
 }
-
-function setLang(code) {
-  lang = code;
-  savePreference('pd-lang', code);
-  renderContent();
+function renderLangSwitch() {
+  syncLanguageLink();
+  const link = document.querySelector('#lang-switch a');
+  const next = lang === 'zh' ? 'en' : 'zh';
+  link.addEventListener('click', () => savePreference('pd-lang', next));
 }
 
 function updateNavigation() {
@@ -93,7 +84,7 @@ function updateNavigation() {
 }
 function routeLegacyResources(){if(location.hash==='#connect-agent'){location.replace('/apps/setup/');return;}if(location.hash==='#explore')location.replace('/components/?provider=systems');}
 routeLegacyResources();
-window.addEventListener('hashchange',()=>{routeLegacyResources();updateNavigation();});
+window.addEventListener('hashchange',()=>{routeLegacyResources();updateNavigation();syncLanguageLink();});
 
 // -- render all sections from the active language pack --
 function renderContent() {
@@ -106,13 +97,13 @@ function renderContent() {
   updateNavigation();
   applyTheme(document.documentElement.dataset.theme);
 
-  document.querySelector('#lang-switch button').innerHTML = iconMarkup('globe') + '<span class="hh-tool-label">' + (lang === 'zh' ? 'English' : '中文') + '</span>';
-  document.querySelector('#lang-switch button').setAttribute('aria-label',lang === 'zh' ? 'English' : '中文');
+  document.querySelector('#lang-switch a').innerHTML = iconMarkup('globe') + '<span class="hh-tool-label">' + (lang === 'zh' ? 'English' : '中文') + '</span>';
+  document.querySelector('#lang-switch a').setAttribute('aria-label',lang === 'zh' ? 'English' : '中文');
   disposeMenu?.();
   document.querySelector('.site-header').classList.add('portal-compact-header');
   // hero
   document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
-  applySiteMetadata('portal',lang);
+  applySiteMetadata(lang === 'en' ? 'portalEn' : 'portal',lang);
   const eyebrow = document.querySelector('.eyebrow');
   if (eyebrow) eyebrow.innerHTML = c.hero.eyebrow.map(s => `<span>${s}</span>`).join('');
   const h1 = document.querySelector('h1');

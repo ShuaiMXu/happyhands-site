@@ -4,12 +4,12 @@ export const workflowPaths = {review:'/ai-ui-review/',design:'/ai-website-design
 export const workflowMetadata = {
   "review": {
     "zh": [
-      "AI UI Review / AI 界面评审与截图复核 / HappyHands",
-      "用 HappyHands 对 AI 编程项目进行界面评审：结合页面截图、交互状态与项目设计规范，定位可复现问题，执行限定范围的修复，再对照前后结果。"
+      "AI UI Review / 设计审查与截图复核 / HappyHands",
+      "用 HappyHands 将“AI 味”转成可复核的产品体验问题：结合截图、交互状态与项目规则进行设计审查，限定修复范围并对照前后结果。"
     ],
     "en": [
       "AI UI Review / Evidence-Based Design Review / HappyHands",
-      "Review agent-built interfaces with HappyHands: connect screenshots, interaction states and project design rules, repair reproducible UI issues, then compare before and after."
+      "Review AI slop as concrete UI issues with HappyHands: check task clarity, hierarchy and interaction states against project rules, then compare scoped changes."
     ]
   },
   "design": {

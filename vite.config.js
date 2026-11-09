@@ -3,8 +3,7 @@ import { resolve, dirname, join, relative, isAbsolute } from 'node:path';
 import { existsSync, statSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import kageHandler from './api/kage.mjs';
-import { portalContent } from './apps/portal/render-content.js';
-import { heroConnectMarkup } from './apps/portal/connect.js';
+import { renderPortalHtml } from './apps/portal/render-content.js';
 import { seoPages, seoData, enhanceSeoHtml } from './packages/ui/site-seo.ts';
 import { nonprofitContent } from './workflows/nonprofit.ts';
 import { workflowContent } from './workflows/content.ts';
@@ -47,7 +46,7 @@ export default defineConfig({
       if(!entry)return html;
       const [key]=entry;
       html=enhanceSeoHtml(html,key);
-      if(key==='portal')return html.replace('<div id="hero-connect"></div>', `<div id="hero-connect">${heroConnectMarkup('zh')}</div>`).replace('<div id="portal-content"></div>', `<div id="portal-content">${portalContent('zh')}</div>`);
+      if(key==='portal'||key==='portalEn')return renderPortalHtml(html,key==='portalEn'?'en':'zh');
       if(key==='guide'||key==='guideEn')return html.replace('<div id="guide-content"></div>',`<div id="guide-content">${guideContent(key==='guideEn'?'en':'zh')}</div>`);
       if(['review','reviewEn','design','designEn'].includes(key))return html.replace('<div id="workflow-content"></div>',`<div id="workflow-content">${workflowContent(key.startsWith('review')?'review':'design',key.endsWith('En')?'en':'zh')}</div>`);
       if(key==='nonprofit'||key==='nonprofitEn')return html.replace('<div id="workflow-content"></div>',`<div id="workflow-content">${nonprofitContent(key==='nonprofitEn'?'en':'zh')}</div>`);
@@ -86,6 +85,7 @@ export default defineConfig({
     'system-preview': resolve('systems/preview/index.html'),
     components: resolve('components/index.html'),
     portal: resolve('apps/portal/index.html'),
+    'portal-en': resolve('en/apps/portal/index.html'),
     setup: resolve('apps/setup/index.html'),
     guide: resolve('guide/index.html'),
     'guide-en': resolve('en/guide/index.html'),

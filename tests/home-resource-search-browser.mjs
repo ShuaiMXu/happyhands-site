@@ -24,7 +24,7 @@ try {
       const p = await c.newPage();
       const errors = [];
       p.on("pageerror", (e) => errors.push(e.message));
-      await p.goto(base + "/apps/portal/");
+      await p.goto(base + (dark ? "/en/apps/portal/" : "/apps/portal/"));
       const feed = p.locator(".resource-feed");
       await feed
         .locator(".resource-result-count")

@@ -1,11 +1,12 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {portalContent} from '../apps/portal/render-content.js';
+import {portalContent,renderPortalHtml} from '../apps/portal/render-content.js';
+import {portalLanguage,portalPath} from '../apps/portal/language.ts';
 import {seoPages,seoData,seoHead,enhanceSeoHtml,guideFaq} from '../packages/ui/site-seo.ts';
 import {guideContent} from '../guide/content.ts';
 const origin='https://happyhands.cc';
-const paths=['apps/portal','systems/happyhands','systems/quartz','systems/lime','apps/studio','components'];
+const paths=['apps/portal','en/apps/portal','systems/happyhands','systems/quartz','systems/lime','apps/studio','components'];
 const read=path=>readFile(new URL(`../${path}`,import.meta.url),'utf8');
 test('public metadata consistently identifies the production domain',async()=>{
   const sitemap=await read('public/sitemap.xml');
@@ -62,12 +63,12 @@ test('search metadata has one canonical and a factual entity graph for each publ
   assert.equal((html.match(/name="description"/g)||[]).length,1,key);
   const graph=JSON.parse(html.match(/<script id="site-structured-data" type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
   assert.equal(graph['@context'],'https://schema.org');
-  assert.ok(graph['@graph'].some(x=>x['@type']==='SoftwareSourceCode'&&x.codeRepository==='https://github.com/ShuaiMXu/happyhands'));
+  if(!['quartz','lime'].includes(key))assert.ok(graph['@graph'].some(x=>x['@type']==='SoftwareSourceCode'&&x.codeRepository==='https://github.com/ShuaiMXu/happyhands'));
   assert.ok(!/aggregateRating|reviewCount|offers/.test(JSON.stringify(graph)),'No fabricated ratings or prices');
   assert.ok(html.includes('summary_large_image'));assert.ok(html.includes('happyhands-social.png'));
  }
  assert.notEqual(seoData('studio','en').description,seoData('studio','zh').description);
- assert.ok(seoData('portal','en').title.includes('AI Website Review'));
+ assert.ok(seoData('portalEn').title.includes('AI Website Review'));
 });
 
 test('translated guides are complete without JavaScript and match their FAQ schema',()=>{
@@ -109,7 +110,7 @@ test('metadata reconciliation preserves product identity and replaces stale grap
  for(const key of ['portal','guide','guideEn']){
   const once=enhanceSeoHtml(source,key),twice=enhanceSeoHtml(once,key);
   assert.equal((twice.match(/type="application\/ld\+json"/g)||[]).length,1);
-  assert.equal((twice.match(/hreflang=/g)||[]).length,key==='portal'?0:3);
+  assert.equal((twice.match(/<link\b[^>]*hreflang=/g)||[]).length,3);
   const graph=seoData(key).graph['@graph'];
   const app=graph.find(x=>x['@type']==='SoftwareApplication');
   assert.equal(app['@id'],origin+'/#software');
@@ -144,5 +145,60 @@ test('production discovery requires real prerendered guide and workflow content 
    assert.throws(()=>assertSearchContent(url,'<body><h1>Workflow</h1></body>'),/workflow content/);
    assert.throws(()=>assertSearchContent(url,`<body><script>${body}</script></body>`),/workflow heading/);
   }
+ }
+});
+
+test('both homepage URLs have complete language-specific static content and reciprocal identity',async()=>{
+ const sitemap=await read('public/sitemap.xml');
+ const config=await read('vite.config.js');
+ for(const lang of ['zh','en']){
+  const key=lang==='en'?'portalEn':'portal',path=portalPath(lang),other=portalPath(lang==='en'?'zh':'en');
+  const source=await read(seoPages[key].file);
+  const html=renderPortalHtml(enhanceSeoHtml(source,key),lang);
+  assert.equal(portalLanguage(path),lang);
+  assert.ok(html.includes(`<html lang="${lang==='en'?'en':'zh-CN'}">`));
+  assert.equal((html.match(/<h1\b/g)||[]).length,1);
+  assert.ok(html.includes(lang==='en'?'Make your product ':'让你的产品，'));
+  assert.ok(html.includes(lang==='en'?'open-source local AI-assisted UI review workbench':'开源的本地 AI 界面审阅工作台'));
+  assert.ok(html.includes(lang==='en'?'A person accepts or rejects':'由人决定接受或拒绝'));
+  assert.ok(html.includes(`href="${lang==='en'?'/en':''}/guide/"`));
+  assert.ok(html.includes(`href="${lang==='en'?'/en':''}/ai-ui-review/#ai-slop"`));
+  assert.ok(html.includes('Local Web Alpha'));
+  assert.ok(html.includes(`rel="canonical" href="${origin}${path}"`));
+  assert.ok(source.includes(`<a href="${other}" hreflang=`),'Language link must work without JavaScript');
+  for(const [code,target] of [['zh-CN','/apps/portal/'],['en','/en/apps/portal/'],['x-default','/en/apps/portal/']])
+   assert.ok(html.includes(`hreflang="${code}" href="${origin}${target}"`));
+  assert.ok(sitemap.includes(`<loc>${origin}${path}</loc>`));
+  assert.ok(config.includes(`resolve('${seoPages[key].file}')`));
+  assert.doesNotThrow(()=>assertSearchContent(origin+path,html));
+  assert.throws(()=>assertSearchContent(origin+path,html.replaceAll('Local Web Alpha','')),/product identity/);
+  const page=seoData(key).graph['@graph'].find(node=>node['@type']==='WebPage');
+  assert.equal(page.inLanguage,lang==='en'?'en':'zh-CN');
+  assert.equal(page.url,origin+path);
+ }
+});
+
+test('homepage language is URL-authoritative rather than localStorage-dependent',async()=>{
+ assert.equal(portalLanguage('/en/apps/portal/'),'en');
+ assert.equal(portalLanguage('/apps/portal/'),'zh');
+ const source=await read('apps/portal/main.js');
+ assert.ok(source.includes('const lang = portalLanguage(location.pathname)'));
+ assert.ok(!source.includes('readLanguage('));
+ assert.ok(source.includes("querySelector('#lang-switch a')"));
+ assert.ok(source.includes('portalPath(next) + location.search + location.hash'));
+ assert.match(source,/addEventListener\('hashchange',[^\n]*syncLanguageLink/);
+});
+
+test('third-party system pages identify the referenced work and preserve original attribution',()=>{
+ for(const key of ['quartz','lime']){
+  const data=seoData(key),graph=data.graph['@graph'];
+  const page=graph.find(node=>node['@type']==='WebPage');
+  const source=`https://design.how/systems/${key}`;
+  assert.equal(page.citation,source);
+  assert.deepEqual(page.about,{'@id':source});
+  assert.ok(graph.some(node=>node['@type']==='CreativeWork'&&node['@id']===source&&node.url===source));
+  assert.ok(!graph.some(node=>['SoftwareApplication','SoftwareSourceCode'].includes(node['@type'])));
+  assert.ok(graph.some(node=>node['@type']==='WebSite'&&node['@id']===origin+'/#website'));
+  assert.ok(!/sameAs|creator|copyrightHolder/.test(JSON.stringify(page)),'Do not invent ownership or affiliation');
  }
 });

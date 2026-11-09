@@ -19,8 +19,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/stat.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/stat.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/stat.md",
+    "page": "https://happyhands.cc/systems/quartz/components/stat.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/quartz/registry/items/stat.json",
+      "sourceSha256": "a81cb95bcffa4e3b9ca9c1e1ac3e3f51a6256822e7d524addd64eb57d40b1dd1",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

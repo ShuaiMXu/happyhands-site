@@ -9,8 +9,14 @@
     "internal"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/index.md",
-    "page": "https://happyhands.cc/design-how/glaze/index.md"
+    "docs": "https://happyhands.cc/systems/glaze/index.md",
+    "page": "https://happyhands.cc/systems/glaze/index.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/glaze/registry/items/data-units.json",
+      "sourceSha256": "fa5bdb01ac6f3c06075a0f942228fcab78d9c831726db495bfad9cc98e48ef89",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

@@ -21,8 +21,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/card.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/card.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/card.md",
+    "page": "https://happyhands.cc/systems/quartz/components/card.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/quartz/registry/items/card.json",
+      "sourceSha256": "218bd83ef4bb84d38e33c4f4f572e752b7778855d17b12d2b89de53d21f278ce",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

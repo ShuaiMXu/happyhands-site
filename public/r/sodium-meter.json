@@ -1,0 +1,14 @@
+{
+  "name": "sodium-meter",
+  "type": "registry:item",
+  "title": "sodium / Meter",
+  "description": "Shows how full something is.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/meter.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "meter",
+    "version": "2026-11-09.1"
+  }
+}

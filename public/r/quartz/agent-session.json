@@ -21,8 +21,14 @@
     "https://happyhands.cc/r/quartz/tool-call.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/index.md",
-    "page": "https://happyhands.cc/design-how/quartz/index.md"
+    "docs": "https://happyhands.cc/systems/quartz/index.md",
+    "page": "https://happyhands.cc/systems/quartz/index.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/quartz/registry/items/agent-session.json",
+      "sourceSha256": "e3c64a613b109d2135060f96bbcc8914da83595f0dd78591bd923b37f8b3f328",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

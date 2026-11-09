@@ -1,0 +1,14 @@
+{
+  "name": "quartz-empty-state",
+  "type": "registry:item",
+  "title": "quartz / Empty state",
+  "description": "A region with nothing to show, that failed, or that the person cannot see.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/empty-state.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "empty-state",
+    "version": "2026-11-09.1"
+  }
+}

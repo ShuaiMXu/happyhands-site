@@ -1,0 +1,14 @@
+{
+  "name": "sodium-kbd",
+  "type": "registry:item",
+  "title": "sodium / Kbd",
+  "description": "Shows a key or a shortcut.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/kbd.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "kbd",
+    "version": "2026-11-09.1"
+  }
+}

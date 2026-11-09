@@ -1,0 +1,14 @@
+{
+  "name": "lime-slider",
+  "type": "registry:item",
+  "title": "lime / Slider",
+  "description": "A value or a range on a track, such as a monthly savings amount.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/slider.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "slider",
+    "version": "2026-11-09.1"
+  }
+}

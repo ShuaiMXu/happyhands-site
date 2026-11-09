@@ -1,0 +1,14 @@
+{
+  "name": "glaze-chip",
+  "type": "registry:item",
+  "title": "glaze / Chip",
+  "description": "Shows a filter or a chosen value.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/chip.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "chip",
+    "version": "2026-11-09.1"
+  }
+}

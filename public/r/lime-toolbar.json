@@ -1,0 +1,14 @@
+{
+  "name": "lime-toolbar",
+  "type": "registry:item",
+  "title": "lime / Toolbar",
+  "description": "A row of related controls with one tab stop.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/toolbar.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "toolbar",
+    "version": "2026-11-09.1"
+  }
+}

@@ -14,8 +14,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/response.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/response.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/response.md",
+    "page": "https://happyhands.cc/systems/sodium/components/response.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/sodium/registry/items/response.json",
+      "sourceSha256": "171d918ec5531f450dbe5a2b528c77ac39c306b4ac21c686dad82dd07dc14668",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

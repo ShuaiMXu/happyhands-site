@@ -1,0 +1,14 @@
+{
+  "name": "glaze-conversation-insights",
+  "type": "registry:item",
+  "title": "glaze / Conversation insights",
+  "description": "A question asked of a week of support conversations: the answer in a line, the week as a number and a line, and the three topics behind it.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/conversation-insights.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "conversation-insights",
+    "version": "2026-11-09.1"
+  }
+}

@@ -13,8 +13,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/kbd.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/kbd.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/kbd.md",
+    "page": "https://happyhands.cc/systems/sodium/components/kbd.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/sodium/registry/items/kbd.json",
+      "sourceSha256": "bdab822be7b0f4afb356632fbc3e8f3badad619c07cc975753bb973cf8650d55",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

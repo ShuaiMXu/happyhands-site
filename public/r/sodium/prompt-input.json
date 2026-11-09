@@ -15,8 +15,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/prompt-input.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/prompt-input.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/prompt-input.md",
+    "page": "https://happyhands.cc/systems/sodium/components/prompt-input.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/sodium/registry/items/prompt-input.json",
+      "sourceSha256": "5e8f6c9991eafdbf4bed29406ca0a3928f9c9ae4b389516a567420c12d733f17",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

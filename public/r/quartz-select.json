@@ -1,0 +1,14 @@
+{
+  "name": "quartz-select",
+  "type": "registry:item",
+  "title": "quartz / Select",
+  "description": "One choice from a popup list, or the native select.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/select.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "select",
+    "version": "2026-11-09.1"
+  }
+}

@@ -20,8 +20,14 @@
     "https://happyhands.cc/r/glaze/theme.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/index.md",
-    "page": "https://happyhands.cc/design-how/glaze/index.md"
+    "docs": "https://happyhands.cc/systems/glaze/index.md",
+    "page": "https://happyhands.cc/systems/glaze/index.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/glaze/registry/items/agent-plan.json",
+      "sourceSha256": "7a9172d2611263b3d70c5b527a459bd44f8f5b2a75555c6394870af8f3bf2fcc",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

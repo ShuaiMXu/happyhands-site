@@ -1,0 +1,14 @@
+{
+  "name": "sodium-empty-state",
+  "type": "registry:item",
+  "title": "sodium / Empty state",
+  "description": "Explains why a region is empty.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/empty-state.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "empty-state",
+    "version": "2026-11-09.1"
+  }
+}

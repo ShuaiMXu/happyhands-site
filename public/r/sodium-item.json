@@ -1,0 +1,14 @@
+{
+  "name": "sodium-item",
+  "type": "registry:item",
+  "title": "sodium / Item",
+  "description": "Shows one thing as a row in a list.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/item.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "item",
+    "version": "2026-11-09.1"
+  }
+}

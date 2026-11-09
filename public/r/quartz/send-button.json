@@ -15,8 +15,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/index.md",
-    "page": "https://happyhands.cc/design-how/quartz/index.md"
+    "docs": "https://happyhands.cc/systems/quartz/index.md",
+    "page": "https://happyhands.cc/systems/quartz/index.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/quartz/registry/items/send-button.json",
+      "sourceSha256": "6b9963528de9b4bd0ab930552cf3ef4821f69466e8a3884fb73a7df5384d68ab",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

@@ -1,0 +1,14 @@
+{
+  "name": "lime-avatar",
+  "type": "registry:item",
+  "title": "lime / Avatar",
+  "description": "A person, such as a friend you split a bill with, with initials as the fallback.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/avatar.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "avatar",
+    "version": "2026-11-09.1"
+  }
+}

@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/textarea.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/textarea.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/textarea.md",
+    "page": "https://happyhands.cc/systems/quartz/components/textarea.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/quartz/registry/items/textarea.json",
+      "sourceSha256": "41f545b63257d9bad856d97d07e575cda919096e21f7a2796f854161ec39cdc2",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

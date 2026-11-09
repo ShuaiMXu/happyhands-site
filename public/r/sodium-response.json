@@ -1,0 +1,14 @@
+{
+  "name": "sodium-response",
+  "type": "registry:item",
+  "title": "sodium / Response",
+  "description": "Renders an agent's answer as it streams.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/response.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "response",
+    "version": "2026-11-09.1"
+  }
+}

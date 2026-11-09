@@ -1,0 +1,14 @@
+{
+  "name": "sodium-slider",
+  "type": "registry:item",
+  "title": "sodium / Slider",
+  "description": "Picks a number or a range.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/slider.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "slider",
+    "version": "2026-11-09.1"
+  }
+}

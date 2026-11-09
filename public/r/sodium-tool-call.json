@@ -1,0 +1,14 @@
+{
+  "name": "sodium-tool-call",
+  "type": "registry:item",
+  "title": "sodium / Tool call",
+  "description": "Shows one tool an agent called in a run.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/tool-call.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "tool-call",
+    "version": "2026-11-09.1"
+  }
+}

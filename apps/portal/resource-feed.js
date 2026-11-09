@@ -79,7 +79,7 @@ export function syncResourceFeedTheme(root, theme) {
   });
 }
 
-export function setupResourceFeed(root, ResourceFeedControls, ResourceToolPanels) {
+export function setupResourceFeed(root, ResourceFeedControls, ResourceToolPanels, previous={}) {
   syncResourceFeedTheme(
     root,
     document.documentElement.dataset.theme === "dark" ? "dark" : "light",
@@ -282,7 +282,7 @@ export function setupResourceFeed(root, ResourceFeedControls, ResourceToolPanels
   const states = Object.fromEntries(
     Object.keys(catalogs).map((id) => [
       id,
-      { query: "", category: "", limit: 24 },
+      { query: "", category: "", limit: 24, ...previous.states?.[id] },
     ]),
   );
   const systemCard = (x) =>
@@ -444,8 +444,9 @@ export function setupResourceFeed(root, ResourceFeedControls, ResourceToolPanels
     render();
     void load(id);
   };
-  refreshCollection(provider);
-  return () => {
+  const priorTab=tabs.find(tab=>tab.dataset.feedTab===previous.active);
+  if(priorTab)activate(priorTab);else refreshCollection(provider);
+  const dispose = () => {
     stop();
     controller.abort();
     observer.disconnect();
@@ -454,4 +455,6 @@ export function setupResourceFeed(root, ResourceFeedControls, ResourceToolPanels
     controls.unmount();
     tools.unmount();
   };
+  dispose.snapshot=()=>({active:tabs.find(tab=>tab.getAttribute('aria-selected')==='true')?.dataset.feedTab,states:structuredClone(states)});
+  return dispose;
 }

@@ -16,8 +16,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/chart.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/chart.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/chart.md",
+    "page": "https://happyhands.cc/systems/sodium/components/chart.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/sodium/registry/items/chart.json",
+      "sourceSha256": "2142c6f50cf9bfc6c527f816a15ad90354aef4007b889ac62167646600f93c4d",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

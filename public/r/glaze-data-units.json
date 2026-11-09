@@ -1,0 +1,14 @@
+{
+  "name": "glaze-data-units",
+  "type": "registry:item",
+  "title": "glaze / Data units",
+  "description": "Support file: support file: one unit per column of numbers, a token read at runtime, the scroll box tab stop and the placeholder timing the data components share.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/data-units.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "data-units",
+    "version": "2026-11-09.1"
+  }
+}

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "npm run ui:build && node scripts/release-metadata.mjs && npm run catalog:build && npm run systems:previews && vite build && node --import tsx scripts/prerender-resources.mjs",
+    "build": "npm run ui:build && node scripts/release-metadata.mjs && node scripts/build-hosted-registry.mjs && npm run catalog:build && npm run systems:previews && vite build && node --import tsx scripts/prerender-resources.mjs",
     "preview": "vite preview --host 127.0.0.1",
     "typecheck": "npm run catalog:build && npm run systems:previews && tsc --noEmit",
     "test:studio": "node --import tsx --test tests/studio-core.test.ts tests/studio-bridge.test.mjs",

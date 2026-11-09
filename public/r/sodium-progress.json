@@ -1,0 +1,14 @@
+{
+  "name": "sodium-progress",
+  "type": "registry:item",
+  "title": "sodium / Progress",
+  "description": "Shows how far a task got.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/progress.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "progress",
+    "version": "2026-11-09.1"
+  }
+}

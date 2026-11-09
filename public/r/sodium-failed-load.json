@@ -1,0 +1,14 @@
+{
+  "name": "sodium-failed-load",
+  "type": "registry:item",
+  "title": "sodium / Failed load",
+  "description": "A load that failed: the alert with Retry load, the model with its failing line banded, and the step's log.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/failed-load.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "failed-load",
+    "version": "2026-11-09.1"
+  }
+}

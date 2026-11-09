@@ -18,8 +18,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/command.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/command.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/command.md",
+    "page": "https://happyhands.cc/systems/glaze/components/command.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/glaze/registry/items/command.json",
+      "sourceSha256": "0426eae17b83689ac7c17882d9e5b9a0b3002766842daf33e57b7638fe2fd3ad",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

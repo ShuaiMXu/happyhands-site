@@ -1,0 +1,14 @@
+{
+  "name": "lime-switch",
+  "type": "registry:item",
+  "title": "lime / Switch",
+  "description": "A setting that applies at once, such as round-ups.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/switch.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "switch",
+    "version": "2026-11-09.1"
+  }
+}

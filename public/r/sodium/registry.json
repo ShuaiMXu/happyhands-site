@@ -21,8 +21,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/button.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/button.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/button.md",
+        "page": "https://happyhands.cc/systems/sodium/components/button.md"
       },
       "files": [
         {
@@ -53,8 +53,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/button-group.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/button-group.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/button-group.md",
+        "page": "https://happyhands.cc/systems/sodium/components/button-group.md"
       },
       "files": [
         {
@@ -80,8 +80,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/copy-button.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/copy-button.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/copy-button.md",
+        "page": "https://happyhands.cc/systems/sodium/components/copy-button.md"
       },
       "files": [
         {
@@ -109,8 +109,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/field.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/field.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/field.md",
+        "page": "https://happyhands.cc/systems/sodium/components/field.md"
       },
       "files": [
         {
@@ -142,8 +142,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/input.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/input.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/input.md",
+        "page": "https://happyhands.cc/systems/sodium/components/input.md"
       },
       "files": [
         {
@@ -170,8 +170,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/textarea.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/textarea.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/textarea.md",
+        "page": "https://happyhands.cc/systems/sodium/components/textarea.md"
       },
       "files": [
         {
@@ -202,8 +202,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/select.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/select.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/select.md",
+        "page": "https://happyhands.cc/systems/sodium/components/select.md"
       },
       "files": [
         {
@@ -236,8 +236,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/combobox.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/combobox.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/combobox.md",
+        "page": "https://happyhands.cc/systems/sodium/components/combobox.md"
       },
       "files": [
         {
@@ -264,8 +264,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/index.md",
-        "page": "https://happyhands.cc/design-how/sodium/index.md"
+        "docs": "https://happyhands.cc/systems/sodium/index.md",
+        "page": "https://happyhands.cc/systems/sodium/index.md"
       },
       "files": [
         {
@@ -292,8 +292,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/checkbox.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/checkbox.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/checkbox.md",
+        "page": "https://happyhands.cc/systems/sodium/components/checkbox.md"
       },
       "files": [
         {
@@ -320,8 +320,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/radio-group.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/radio-group.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/radio-group.md",
+        "page": "https://happyhands.cc/systems/sodium/components/radio-group.md"
       },
       "files": [
         {
@@ -348,8 +348,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/switch.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/switch.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/switch.md",
+        "page": "https://happyhands.cc/systems/sodium/components/switch.md"
       },
       "files": [
         {
@@ -377,8 +377,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/slider.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/slider.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/slider.md",
+        "page": "https://happyhands.cc/systems/sodium/components/slider.md"
       },
       "files": [
         {
@@ -406,8 +406,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/segmented-control.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/segmented-control.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/segmented-control.md",
+        "page": "https://happyhands.cc/systems/sodium/components/segmented-control.md"
       },
       "files": [
         {
@@ -435,8 +435,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/tag.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/tag.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/tag.md",
+        "page": "https://happyhands.cc/systems/sodium/components/tag.md"
       },
       "files": [
         {
@@ -464,8 +464,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/status-strip.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/status-strip.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/status-strip.md",
+        "page": "https://happyhands.cc/systems/sodium/components/status-strip.md"
       },
       "files": [
         {
@@ -494,8 +494,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/avatar.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/avatar.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/avatar.md",
+        "page": "https://happyhands.cc/systems/sodium/components/avatar.md"
       },
       "files": [
         {
@@ -519,8 +519,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/kbd.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/kbd.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/kbd.md",
+        "page": "https://happyhands.cc/systems/sodium/components/kbd.md"
       },
       "files": [
         {
@@ -548,8 +548,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/item.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/item.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/item.md",
+        "page": "https://happyhands.cc/systems/sodium/components/item.md"
       },
       "files": [
         {
@@ -576,8 +576,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/data-list.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/data-list.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/data-list.md",
+        "page": "https://happyhands.cc/systems/sodium/components/data-list.md"
       },
       "files": [
         {
@@ -604,8 +604,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/status.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/status.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/status.md",
+        "page": "https://happyhands.cc/systems/sodium/components/status.md"
       },
       "files": [
         {
@@ -637,8 +637,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/meter.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/meter.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/meter.md",
+        "page": "https://happyhands.cc/systems/sodium/components/meter.md"
       },
       "files": [
         {
@@ -665,8 +665,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/progress.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/progress.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/progress.md",
+        "page": "https://happyhands.cc/systems/sodium/components/progress.md"
       },
       "files": [
         {
@@ -696,8 +696,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/alert.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/alert.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/alert.md",
+        "page": "https://happyhands.cc/systems/sodium/components/alert.md"
       },
       "files": [
         {
@@ -729,8 +729,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/toast.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/toast.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/toast.md",
+        "page": "https://happyhands.cc/systems/sodium/components/toast.md"
       },
       "files": [
         {
@@ -759,8 +759,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/empty-state.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/empty-state.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/empty-state.md",
+        "page": "https://happyhands.cc/systems/sodium/components/empty-state.md"
       },
       "files": [
         {
@@ -784,8 +784,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/skeleton.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/skeleton.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/skeleton.md",
+        "page": "https://happyhands.cc/systems/sodium/components/skeleton.md"
       },
       "files": [
         {
@@ -817,8 +817,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/dialog.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/dialog.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/dialog.md",
+        "page": "https://happyhands.cc/systems/sodium/components/dialog.md"
       },
       "files": [
         {
@@ -850,8 +850,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/sheet.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/sheet.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/sheet.md",
+        "page": "https://happyhands.cc/systems/sodium/components/sheet.md"
       },
       "files": [
         {
@@ -882,8 +882,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/popover.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/popover.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/popover.md",
+        "page": "https://happyhands.cc/systems/sodium/components/popover.md"
       },
       "files": [
         {
@@ -913,8 +913,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/tooltip.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/tooltip.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/tooltip.md",
+        "page": "https://happyhands.cc/systems/sodium/components/tooltip.md"
       },
       "files": [
         {
@@ -945,8 +945,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/dropdown-menu.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/dropdown-menu.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/dropdown-menu.md",
+        "page": "https://happyhands.cc/systems/sodium/components/dropdown-menu.md"
       },
       "files": [
         {
@@ -974,8 +974,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/command.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/command.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/command.md",
+        "page": "https://happyhands.cc/systems/sodium/components/command.md"
       },
       "files": [
         {
@@ -1003,8 +1003,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/tabs.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/tabs.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/tabs.md",
+        "page": "https://happyhands.cc/systems/sodium/components/tabs.md"
       },
       "files": [
         {
@@ -1032,8 +1032,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/numbered-tabs.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/numbered-tabs.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/numbered-tabs.md",
+        "page": "https://happyhands.cc/systems/sodium/components/numbered-tabs.md"
       },
       "files": [
         {
@@ -1063,8 +1063,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/breadcrumb.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/breadcrumb.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/breadcrumb.md",
+        "page": "https://happyhands.cc/systems/sodium/components/breadcrumb.md"
       },
       "files": [
         {
@@ -1089,8 +1089,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/pagination.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/pagination.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/pagination.md",
+        "page": "https://happyhands.cc/systems/sodium/components/pagination.md"
       },
       "files": [
         {
@@ -1118,8 +1118,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/collapsible.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/collapsible.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/collapsible.md",
+        "page": "https://happyhands.cc/systems/sodium/components/collapsible.md"
       },
       "files": [
         {
@@ -1146,8 +1146,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/frame.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/frame.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/frame.md",
+        "page": "https://happyhands.cc/systems/sodium/components/frame.md"
       },
       "files": [
         {
@@ -1176,8 +1176,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/table.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/table.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/table.md",
+        "page": "https://happyhands.cc/systems/sodium/components/table.md"
       },
       "files": [
         {
@@ -1209,8 +1209,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/filter-bar.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/filter-bar.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/filter-bar.md",
+        "page": "https://happyhands.cc/systems/sodium/components/filter-bar.md"
       },
       "files": [
         {
@@ -1238,8 +1238,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/code-block.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/code-block.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/code-block.md",
+        "page": "https://happyhands.cc/systems/sodium/components/code-block.md"
       },
       "files": [
         {
@@ -1266,8 +1266,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/code-window.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/code-window.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/code-window.md",
+        "page": "https://happyhands.cc/systems/sodium/components/code-window.md"
       },
       "files": [
         {
@@ -1297,8 +1297,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/json-view.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/json-view.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/json-view.md",
+        "page": "https://happyhands.cc/systems/sodium/components/json-view.md"
       },
       "files": [
         {
@@ -1332,8 +1332,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/log-viewer.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/log-viewer.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/log-viewer.md",
+        "page": "https://happyhands.cc/systems/sodium/components/log-viewer.md"
       },
       "files": [
         {
@@ -1353,8 +1353,8 @@
         "internal"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/index.md",
-        "page": "https://happyhands.cc/design-how/sodium/index.md"
+        "docs": "https://happyhands.cc/systems/sodium/index.md",
+        "page": "https://happyhands.cc/systems/sodium/index.md"
       },
       "files": [
         {
@@ -1381,8 +1381,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/chart.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/chart.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/chart.md",
+        "page": "https://happyhands.cc/systems/sodium/components/chart.md"
       },
       "files": [
         {
@@ -1417,8 +1417,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/stem-chart.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/stem-chart.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/stem-chart.md",
+        "page": "https://happyhands.cc/systems/sodium/components/stem-chart.md"
       },
       "files": [
         {
@@ -1446,8 +1446,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/swimlanes.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/swimlanes.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/swimlanes.md",
+        "page": "https://happyhands.cc/systems/sodium/components/swimlanes.md"
       },
       "files": [
         {
@@ -1475,8 +1475,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/bar-blocks.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/bar-blocks.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/bar-blocks.md",
+        "page": "https://happyhands.cc/systems/sodium/components/bar-blocks.md"
       },
       "files": [
         {
@@ -1504,8 +1504,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/tool-call-row.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/tool-call-row.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/tool-call-row.md",
+        "page": "https://happyhands.cc/systems/sodium/components/tool-call-row.md"
       },
       "files": [
         {
@@ -1531,8 +1531,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/tool-call.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/tool-call.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/tool-call.md",
+        "page": "https://happyhands.cc/systems/sodium/components/tool-call.md"
       },
       "files": [
         {
@@ -1558,8 +1558,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/activity.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/activity.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/activity.md",
+        "page": "https://happyhands.cc/systems/sodium/components/activity.md"
       },
       "files": [
         {
@@ -1585,8 +1585,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/prompt-input.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/prompt-input.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/prompt-input.md",
+        "page": "https://happyhands.cc/systems/sodium/components/prompt-input.md"
       },
       "files": [
         {
@@ -1611,8 +1611,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/message.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/message.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/message.md",
+        "page": "https://happyhands.cc/systems/sodium/components/message.md"
       },
       "files": [
         {
@@ -1637,8 +1637,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/components/response.md",
-        "page": "https://happyhands.cc/design-how/sodium/components/response.md"
+        "docs": "https://happyhands.cc/systems/sodium/components/response.md",
+        "page": "https://happyhands.cc/systems/sodium/components/response.md"
       },
       "files": [
         {
@@ -1658,8 +1658,8 @@
         "internal"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/index.md",
-        "page": "https://happyhands.cc/design-how/sodium/index.md"
+        "docs": "https://happyhands.cc/systems/sodium/index.md",
+        "page": "https://happyhands.cc/systems/sodium/index.md"
       },
       "files": [
         {
@@ -1682,8 +1682,8 @@
         "https://happyhands.cc/r/sodium/use-timeline.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/index.md",
-        "page": "https://happyhands.cc/design-how/sodium/index.md"
+        "docs": "https://happyhands.cc/systems/sodium/index.md",
+        "page": "https://happyhands.cc/systems/sodium/index.md"
       },
       "files": [
         {
@@ -1706,8 +1706,8 @@
         "https://happyhands.cc/r/sodium/use-timeline.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/index.md",
-        "page": "https://happyhands.cc/design-how/sodium/index.md"
+        "docs": "https://happyhands.cc/systems/sodium/index.md",
+        "page": "https://happyhands.cc/systems/sodium/index.md"
       },
       "files": [
         {
@@ -1730,8 +1730,8 @@
         "https://happyhands.cc/r/sodium/use-timeline.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/index.md",
-        "page": "https://happyhands.cc/design-how/sodium/index.md"
+        "docs": "https://happyhands.cc/systems/sodium/index.md",
+        "page": "https://happyhands.cc/systems/sodium/index.md"
       },
       "files": [
         {
@@ -1761,8 +1761,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/index.md",
-        "page": "https://happyhands.cc/design-how/sodium/index.md"
+        "docs": "https://happyhands.cc/systems/sodium/index.md",
+        "page": "https://happyhands.cc/systems/sodium/index.md"
       },
       "files": [
         {
@@ -1791,8 +1791,8 @@
         "https://happyhands.cc/r/sodium/theme.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/index.md",
-        "page": "https://happyhands.cc/design-how/sodium/index.md"
+        "docs": "https://happyhands.cc/systems/sodium/index.md",
+        "page": "https://happyhands.cc/systems/sodium/index.md"
       },
       "files": [
         {
@@ -1821,8 +1821,8 @@
         "https://happyhands.cc/r/sodium/theme.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/index.md",
-        "page": "https://happyhands.cc/design-how/sodium/index.md"
+        "docs": "https://happyhands.cc/systems/sodium/index.md",
+        "page": "https://happyhands.cc/systems/sodium/index.md"
       },
       "files": [
         {
@@ -1853,8 +1853,8 @@
         "https://happyhands.cc/r/sodium/tool-call-row.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/index.md",
-        "page": "https://happyhands.cc/design-how/sodium/index.md"
+        "docs": "https://happyhands.cc/systems/sodium/index.md",
+        "page": "https://happyhands.cc/systems/sodium/index.md"
       },
       "files": [
         {
@@ -1883,8 +1883,8 @@
         "https://happyhands.cc/r/sodium/theme.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/index.md",
-        "page": "https://happyhands.cc/design-how/sodium/index.md"
+        "docs": "https://happyhands.cc/systems/sodium/index.md",
+        "page": "https://happyhands.cc/systems/sodium/index.md"
       },
       "files": [
         {
@@ -1913,8 +1913,8 @@
         "https://happyhands.cc/r/sodium/theme.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/index.md",
-        "page": "https://happyhands.cc/design-how/sodium/index.md"
+        "docs": "https://happyhands.cc/systems/sodium/index.md",
+        "page": "https://happyhands.cc/systems/sodium/index.md"
       },
       "files": [
         {
@@ -1945,8 +1945,8 @@
         "https://happyhands.cc/r/sodium/theme.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/index.md",
-        "page": "https://happyhands.cc/design-how/sodium/index.md"
+        "docs": "https://happyhands.cc/systems/sodium/index.md",
+        "page": "https://happyhands.cc/systems/sodium/index.md"
       },
       "files": [
         {
@@ -1970,8 +1970,8 @@
         "tailwind-merge@^3.7.0"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/index.md",
-        "page": "https://happyhands.cc/design-how/sodium/index.md"
+        "docs": "https://happyhands.cc/systems/sodium/index.md",
+        "page": "https://happyhands.cc/systems/sodium/index.md"
       },
       "files": [
         {
@@ -1997,8 +1997,8 @@
         "https://happyhands.cc/r/sodium/utils.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/index.md",
-        "page": "https://happyhands.cc/design-how/sodium/index.md"
+        "docs": "https://happyhands.cc/systems/sodium/index.md",
+        "page": "https://happyhands.cc/systems/sodium/index.md"
       },
       "files": [
         {
@@ -2018,8 +2018,8 @@
         "internal"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/index.md",
-        "page": "https://happyhands.cc/design-how/sodium/index.md"
+        "docs": "https://happyhands.cc/systems/sodium/index.md",
+        "page": "https://happyhands.cc/systems/sodium/index.md"
       },
       "files": [
         {
@@ -2045,8 +2045,8 @@
         "https://happyhands.cc/r/sodium/portal.json"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/index.md",
-        "page": "https://happyhands.cc/design-how/sodium/index.md"
+        "docs": "https://happyhands.cc/systems/sodium/index.md",
+        "page": "https://happyhands.cc/systems/sodium/index.md"
       },
       "files": [
         {
@@ -2070,8 +2070,8 @@
         "@typescript-eslint/parser@^8.71.0"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/index.md",
-        "page": "https://happyhands.cc/design-how/sodium/index.md"
+        "docs": "https://happyhands.cc/systems/sodium/index.md",
+        "page": "https://happyhands.cc/systems/sodium/index.md"
       },
       "files": [
         {
@@ -2115,13 +2115,12 @@
         "@tailwindcss/postcss@^4.3.3"
       ],
       "registryDependencies": [
-        "https://happyhands.cc/r/sodium/skill.json",
         "https://happyhands.cc/r/sodium/portal.json"
       ],
       "docs": "Sodium is scoped: its styles apply only inside an element with the class sodium.\n1. Import the theme once, in the root layout, as its own stylesheet (not an @import in globals.css): import '@/components/sodium/styles.css'\n2. Put className=\"sodium\" on the element that holds Sodium UI, usually <body>. Sodium's classes work on the elements inside it, in your own code too, not on that element itself.\n3. Wrap the app inside that element in <SodiumPortalProvider> from '@/lib/sodium/portal', so dialogs and menus keep the theme.\nDark mode: put data-theme=\"dark\" on the sodium element or any ancestor, such as <html>. The theme does not follow the system setting (prefers-color-scheme) on its own.\nComponents: npx shadcn@latest add https://happyhands.cc/r/sodium/<name>.json; https://happyhands.cc/r/sodium/registry.json lists them all.",
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/index.md",
-        "page": "https://happyhands.cc/design-how/sodium/index.md"
+        "docs": "https://happyhands.cc/systems/sodium/index.md",
+        "page": "https://happyhands.cc/systems/sodium/index.md"
       },
       "files": [
         {
@@ -2151,8 +2150,8 @@
         "internal"
       ],
       "meta": {
-        "docs": "https://happyhands.cc/design-how/sodium/index.md",
-        "page": "https://happyhands.cc/design-how/sodium/index.md"
+        "docs": "https://happyhands.cc/systems/sodium/index.md",
+        "page": "https://happyhands.cc/systems/sodium/index.md"
       },
       "files": [
         {

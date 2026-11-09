@@ -1,0 +1,14 @@
+{
+  "name": "glaze-tooltip",
+  "type": "registry:item",
+  "title": "glaze / Tooltip",
+  "description": "Names a control on hover or focus.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/tooltip.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "tooltip",
+    "version": "2026-11-09.1"
+  }
+}

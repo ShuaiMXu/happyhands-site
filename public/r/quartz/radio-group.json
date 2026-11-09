@@ -16,8 +16,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/radio-group.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/radio-group.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/radio-group.md",
+    "page": "https://happyhands.cc/systems/quartz/components/radio-group.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/quartz/registry/items/radio-group.json",
+      "sourceSha256": "11954c54403f5a2bb8c8f18f7aed6a8e66d3702d5da3e264b7ec9e9726504208",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

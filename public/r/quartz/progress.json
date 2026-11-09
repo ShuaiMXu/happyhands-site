@@ -20,8 +20,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/progress.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/progress.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/progress.md",
+    "page": "https://happyhands.cc/systems/quartz/components/progress.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/quartz/registry/items/progress.json",
+      "sourceSha256": "a470617d8fae939caf0dcdfce9ead3a51a1b039608068c1fa6e0703ba2dcb142",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

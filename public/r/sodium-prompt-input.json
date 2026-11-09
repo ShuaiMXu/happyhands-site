@@ -1,0 +1,14 @@
+{
+  "name": "sodium-prompt-input",
+  "type": "registry:item",
+  "title": "sodium / Prompt input",
+  "description": "Takes the next instruction for an agent.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/prompt-input.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "prompt-input",
+    "version": "2026-11-09.1"
+  }
+}

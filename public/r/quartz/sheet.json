@@ -22,8 +22,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/sheet.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/sheet.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/sheet.md",
+    "page": "https://happyhands.cc/systems/quartz/components/sheet.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/quartz/registry/items/sheet.json",
+      "sourceSha256": "008d0253f4f2249b6669b62013ab3fc0909245c2d4acba2fd8309a5404771ff4",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

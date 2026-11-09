@@ -21,8 +21,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/toast.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/toast.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/toast.md",
+    "page": "https://happyhands.cc/systems/glaze/components/toast.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/glaze/registry/items/toast.json",
+      "sourceSha256": "86119bfbbf8ef2fc690325a5a1dcd650111e8e87ed128617062af2967077a26f",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

@@ -1,0 +1,14 @@
+{
+  "name": "sodium-dropdown-menu",
+  "type": "registry:item",
+  "title": "sodium / Dropdown menu",
+  "description": "Lists the actions on one thing.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/dropdown-menu.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "dropdown-menu",
+    "version": "2026-11-09.1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "quartz-format",
+  "type": "registry:item",
+  "title": "quartz / Column formatters",
+  "description": "Support file: picks one unit for a numeric column from its largest value.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/format.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "format",
+    "version": "2026-11-09.1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "quartz-radio-group",
+  "type": "registry:item",
+  "title": "quartz / Radio group",
+  "description": "One choice from a short visible list.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/radio-group.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "radio-group",
+    "version": "2026-11-09.1"
+  }
+}

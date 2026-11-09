@@ -1,0 +1,14 @@
+{
+  "name": "quartz-copy-button",
+  "type": "registry:item",
+  "title": "quartz / Copy button",
+  "description": "Copies a value and confirms in place.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/copy-button.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "copy-button",
+    "version": "2026-11-09.1"
+  }
+}

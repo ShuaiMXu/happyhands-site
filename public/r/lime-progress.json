@@ -1,0 +1,14 @@
+{
+  "name": "lime-progress",
+  "type": "registry:item",
+  "title": "lime / Progress",
+  "description": "How far a goal has come, such as $640 of $1,000 saved, as a bar or a ring.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/progress.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "progress",
+    "version": "2026-11-09.1"
+  }
+}

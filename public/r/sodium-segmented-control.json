@@ -1,0 +1,14 @@
+{
+  "name": "sodium-segmented-control",
+  "type": "registry:item",
+  "title": "sodium / Segmented control",
+  "description": "Switches between a few views of one thing.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/segmented-control.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "segmented-control",
+    "version": "2026-11-09.1"
+  }
+}

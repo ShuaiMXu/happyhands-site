@@ -1,0 +1,14 @@
+{
+  "name": "quartz-skill",
+  "type": "registry:item",
+  "title": "quartz / Quartz skill",
+  "description": "Support file: teaches your coding agent Quartz's rules and components.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/skill.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "skill",
+    "version": "2026-11-09.1"
+  }
+}

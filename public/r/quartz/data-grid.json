@@ -22,8 +22,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/data-grid.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/data-grid.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/data-grid.md",
+    "page": "https://happyhands.cc/systems/quartz/components/data-grid.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/quartz/registry/items/data-grid.json",
+      "sourceSha256": "eb028b04e4d681b8a69fc9ba040410b91748fc05599457ada2e7aac723f67606",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

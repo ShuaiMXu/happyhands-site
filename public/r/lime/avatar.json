@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/avatar.md",
-    "page": "https://happyhands.cc/design-how/lime/components/avatar.md"
+    "docs": "https://happyhands.cc/systems/lime/components/avatar.md",
+    "page": "https://happyhands.cc/systems/lime/components/avatar.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/lime/registry/items/avatar.json",
+      "sourceSha256": "bdfcc5dfbfe61c93252f0b9f8c0d934b2cc63e98f9165e09d786d4fab6375121",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

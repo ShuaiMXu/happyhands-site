@@ -76,7 +76,7 @@ test("published archives contain no placeholder media hosts", () => {
   const entries = read("design-archive/index.json");
   for (const entry of entries) {
     assert.ok(!entry.video.includes("example.com"));
-    const system = read(`design-archive/${entry.slug}/design-system.json`);
+    const system = entry.source === "designmd.app" ? readFileSync(new URL(`design-archive/${entry.slug}/design.md`,root),"utf8") : read(`design-archive/${entry.slug}/design-system.json`);
     assert.ok(
       !JSON.stringify(system).includes("assets.example.com"),
       entry.slug,

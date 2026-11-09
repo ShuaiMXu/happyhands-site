@@ -16,8 +16,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/amount.md",
-    "page": "https://happyhands.cc/design-how/lime/components/amount.md"
+    "docs": "https://happyhands.cc/systems/lime/components/amount.md",
+    "page": "https://happyhands.cc/systems/lime/components/amount.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/lime/registry/items/amount.json",
+      "sourceSha256": "49c7dc781a74c63a973bd7e16d8929431d68de9b72fffda4d276f295739a5e00",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/field.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/field.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/field.md",
+    "page": "https://happyhands.cc/systems/quartz/components/field.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/quartz/registry/items/field.json",
+      "sourceSha256": "8cd3e0fd1b1de7c6c53d33148b56493c3f6a469864a3e79e88afe1c51261c14a",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

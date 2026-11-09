@@ -18,8 +18,14 @@
     "https://happyhands.cc/r/glaze/theme.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/index.md",
-    "page": "https://happyhands.cc/design-how/glaze/index.md"
+    "docs": "https://happyhands.cc/systems/glaze/index.md",
+    "page": "https://happyhands.cc/systems/glaze/index.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/glaze/registry/items/note-recap.json",
+      "sourceSha256": "0436fd13c0c284783e9147e7835518535a4f1de2d1de429d375b43b28d133aee",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

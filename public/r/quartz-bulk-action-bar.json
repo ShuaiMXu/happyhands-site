@@ -1,0 +1,14 @@
+{
+  "name": "quartz-bulk-action-bar",
+  "type": "registry:item",
+  "title": "quartz / Bulk action bar",
+  "description": "Support file: actions for the rows a person has selected.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/bulk-action-bar.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "bulk-action-bar",
+    "version": "2026-11-09.1"
+  }
+}

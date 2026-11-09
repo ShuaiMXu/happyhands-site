@@ -13,8 +13,14 @@
     "tailwind-merge@^3.7.0"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/index.md",
-    "page": "https://happyhands.cc/design-how/glaze/index.md"
+    "docs": "https://happyhands.cc/systems/glaze/index.md",
+    "page": "https://happyhands.cc/systems/glaze/index.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/glaze/registry/items/utils.json",
+      "sourceSha256": "5644cc836c08e421976ac1a77679d4aa2af69e067a896f8930f85f06e7674c09",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

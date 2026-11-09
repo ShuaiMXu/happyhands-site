@@ -1,0 +1,14 @@
+{
+  "name": "quartz-run-trace",
+  "type": "registry:item",
+  "title": "quartz / Run trace",
+  "description": "One agent run as a waterfall of its steps and model calls, with the live step growing and the open step's details beside it.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/run-trace.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "run-trace",
+    "version": "2026-11-09.1"
+  }
+}

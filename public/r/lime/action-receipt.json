@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/action-receipt.md",
-    "page": "https://happyhands.cc/design-how/lime/components/action-receipt.md"
+    "docs": "https://happyhands.cc/systems/lime/components/action-receipt.md",
+    "page": "https://happyhands.cc/systems/lime/components/action-receipt.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/lime/registry/items/action-receipt.json",
+      "sourceSha256": "ffe8c8d53149ac43b6013e54261816a1328f8731a1f58d0c2c485e1a31955939",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

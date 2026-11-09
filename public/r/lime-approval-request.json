@@ -1,0 +1,14 @@
+{
+  "name": "lime-approval-request",
+  "type": "registry:item",
+  "title": "lime / Approval request",
+  "description": "The assistant asking before it moves money, with the amount, one reason, and Approve, Edit or Decline.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/approval-request.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "approval-request",
+    "version": "2026-11-09.1"
+  }
+}

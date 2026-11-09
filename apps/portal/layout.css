@@ -101,7 +101,7 @@
 .rail-toolbar>div { display:flex; gap:8px; }
 .rail-toolbar button { width:44px; height:44px; border:0.5px solid currentColor; border-radius:50%; color:inherit; background:transparent; cursor:pointer; font-size:20px; }
 .rail-toolbar button:disabled { opacity:.25; cursor:default; }
-[id$="-rail"]:focus-visible { outline:2px solid var(--brand); outline-offset:4px; }
+[id$="-rail"]:focus-visible { outline:2px solid var(--brand-text); outline-offset:4px; }
 @media(max-width:1100px) { #explore .system-grid,#elements .elements-grid { grid-auto-columns:calc((100% - 48px)/2); } }
 @media(max-width:620px) { #explore .system-grid,#elements .elements-grid,#screens .screen-pairs { grid-auto-columns:90%; gap:16px; } }
 

@@ -1,0 +1,14 @@
+{
+  "name": "lime-icon",
+  "type": "registry:item",
+  "title": "lime / Icon",
+  "description": "Support file: the one import point for Carbon icons.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/icon.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "icon",
+    "version": "2026-11-09.1"
+  }
+}

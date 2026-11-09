@@ -15,8 +15,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/error-state.md",
-    "page": "https://happyhands.cc/design-how/lime/components/error-state.md"
+    "docs": "https://happyhands.cc/systems/lime/components/error-state.md",
+    "page": "https://happyhands.cc/systems/lime/components/error-state.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/lime/registry/items/error-state.json",
+      "sourceSha256": "8b760887aebba043bec3e8fb631459457b37501a9de166ff9c7dec7ec89821d0",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

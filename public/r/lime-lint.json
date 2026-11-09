@@ -1,0 +1,14 @@
+{
+  "name": "lime-lint",
+  "type": "registry:item",
+  "title": "lime / Lime lint",
+  "description": "One command that flags what Lime's rules forbid in your app, such as a raw color, a class Lime's theme lacks or a second primary action, and says what to use instead.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/lint.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "lint",
+    "version": "2026-11-09.1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "sodium-stem-chart",
+  "type": "registry:item",
+  "title": "sodium / Stem chart",
+  "description": "Prints one value per period on a square-headed stem.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/stem-chart.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "stem-chart",
+    "version": "2026-11-09.1"
+  }
+}

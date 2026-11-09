@@ -14,8 +14,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/pagination.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/pagination.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/pagination.md",
+    "page": "https://happyhands.cc/systems/glaze/components/pagination.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/glaze/registry/items/pagination.json",
+      "sourceSha256": "1de73dc5e80064b9a2a8021ddb68f71f5637c6d987c283520d84600b10ae97cc",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

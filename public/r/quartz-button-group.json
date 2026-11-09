@@ -1,0 +1,14 @@
+{
+  "name": "quartz-button-group",
+  "type": "registry:item",
+  "title": "quartz / Button group",
+  "description": "Joins related buttons, including a split menu.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/button-group.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "button-group",
+    "version": "2026-11-09.1"
+  }
+}

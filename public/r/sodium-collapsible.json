@@ -1,0 +1,14 @@
+{
+  "name": "sodium-collapsible",
+  "type": "registry:item",
+  "title": "sodium / Collapsible",
+  "description": "Shows and hides a region.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/collapsible.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "collapsible",
+    "version": "2026-11-09.1"
+  }
+}

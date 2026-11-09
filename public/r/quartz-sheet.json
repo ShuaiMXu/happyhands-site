@@ -1,0 +1,14 @@
+{
+  "name": "quartz-sheet",
+  "type": "registry:item",
+  "title": "quartz / Sheet",
+  "description": "A panel from an edge, modal or docked.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/sheet.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "sheet",
+    "version": "2026-11-09.1"
+  }
+}

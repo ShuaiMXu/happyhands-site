@@ -1,0 +1,14 @@
+{
+  "name": "quartz-activity",
+  "type": "registry:item",
+  "title": "quartz / Activity",
+  "description": "What the agent is doing now, with the first-wait loader.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/activity.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "activity",
+    "version": "2026-11-09.1"
+  }
+}

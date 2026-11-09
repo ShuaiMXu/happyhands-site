@@ -20,8 +20,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/dropdown-menu.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/dropdown-menu.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/dropdown-menu.md",
+    "page": "https://happyhands.cc/systems/glaze/components/dropdown-menu.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/glaze/registry/items/dropdown-menu.json",
+      "sourceSha256": "8b88f2a00e9a8aca421425acdf26f81df9d4d99775fd6a74f9e7f4072de48d5e",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

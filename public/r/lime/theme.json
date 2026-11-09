@@ -13,13 +13,18 @@
     "@tailwindcss/postcss@^4.3.3"
   ],
   "registryDependencies": [
-    "https://happyhands.cc/r/lime/skill.json",
     "https://happyhands.cc/r/lime/portal.json"
   ],
   "docs": "Lime is scoped: its styles apply only inside an element with the class lime.\n1. Import the theme once, in the root layout, as its own stylesheet (not an @import in globals.css): import '@/components/lime/styles.css'\n2. Put className=\"lime\" on the element that holds Lime UI, usually <body>. Lime's classes work on the elements inside it, in your own code too, not on that element itself.\n3. Wrap the app inside that element in <LimePortalProvider> from '@/lib/lime/portal', so dialogs and menus keep the theme.\nDark mode: put data-theme=\"dark\" on the lime element or any ancestor, such as <html>. The theme does not follow the system setting (prefers-color-scheme) on its own.\nComponents: npx shadcn@latest add https://happyhands.cc/r/lime/<name>.json; https://happyhands.cc/r/lime/registry.json lists them all.",
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/index.md",
-    "page": "https://happyhands.cc/design-how/lime/index.md"
+    "docs": "https://happyhands.cc/systems/lime/index.md",
+    "page": "https://happyhands.cc/systems/lime/index.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/lime/registry/items/theme.json",
+      "sourceSha256": "2d3ca283ad560aa63a6c75c48d651abb1c7eafa40dddd2b76f96fac99c73084f",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

@@ -9,8 +9,14 @@
     "internal"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/index.md",
-    "page": "https://happyhands.cc/design-how/quartz/index.md"
+    "docs": "https://happyhands.cc/systems/quartz/index.md",
+    "page": "https://happyhands.cc/systems/quartz/index.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/quartz/registry/items/use-focus-when-replaced.json",
+      "sourceSha256": "f3846a6a9a51e5464a59e238ccb80017ec2dde8032388e5a742a5fd04fc77634",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

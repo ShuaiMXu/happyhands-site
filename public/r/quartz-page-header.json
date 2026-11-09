@@ -1,0 +1,14 @@
+{
+  "name": "quartz-page-header",
+  "type": "registry:item",
+  "title": "quartz / Page header",
+  "description": "Support file: title, description, stats and actions.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/page-header.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "page-header",
+    "version": "2026-11-09.1"
+  }
+}

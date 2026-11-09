@@ -67,14 +67,14 @@ export async function resourceEntries(root) {
   });
   for (const system of systems.systems) {
     const overview = await readFile(
-      resolve(root, `public/design-how/${system.id}/index.md`),
+      resolve(root, `public/systems/${system.id}/index.md`),
       "utf8",
     );
     entries.push({
       seo: systemSeo(system),
       file: `systems/${system.id}/index.html`,
       body: overview,
-      download: `/design-how/${system.id}/index.md`,
+      download: `/systems/${system.id}/index.md`,
     });
     for (const doc of [...system.documents, ...systems.reading]) {
       const filename =
@@ -85,10 +85,10 @@ export async function resourceEntries(root) {
         seo: systemSeo(system, doc),
         file: `systems/${system.id}/${doc.path}/index.html`,
         body: await readFile(
-          resolve(root, `public/design-how/${filename}`),
+          resolve(root, `public/systems/${filename}`),
           "utf8",
         ),
-        download: `/design-how/${filename}`,
+        download: `/systems/${filename}`,
       });
     }
   }

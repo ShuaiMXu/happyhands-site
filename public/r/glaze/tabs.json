@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/tabs.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/tabs.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/tabs.md",
+    "page": "https://happyhands.cc/systems/glaze/components/tabs.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/glaze/registry/items/tabs.json",
+      "sourceSha256": "bdfa9e75a3496d6bace1b3f8e4a32960a81e823355d417ed96787cd123ff62de",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

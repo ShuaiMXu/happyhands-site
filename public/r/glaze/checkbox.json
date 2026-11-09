@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/checkbox.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/checkbox.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/checkbox.md",
+    "page": "https://happyhands.cc/systems/glaze/components/checkbox.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/glaze/registry/items/checkbox.json",
+      "sourceSha256": "f3863daa54297e0d715d2beb480f47ef8055f87c24d6fcd3aade264c8f1a1cfc",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

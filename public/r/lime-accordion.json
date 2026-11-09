@@ -1,0 +1,14 @@
+{
+  "name": "lime-accordion",
+  "type": "registry:item",
+  "title": "lime / Accordion",
+  "description": "A stack of questions that open one at a time.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/accordion.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "accordion",
+    "version": "2026-11-09.1"
+  }
+}

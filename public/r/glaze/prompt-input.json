@@ -23,8 +23,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/prompt-input.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/prompt-input.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/prompt-input.md",
+    "page": "https://happyhands.cc/systems/glaze/components/prompt-input.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/glaze/registry/items/prompt-input.json",
+      "sourceSha256": "62cc28064111cfe44ab6896811e0b5dafa43410a7bdb01072c841b89661928df",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

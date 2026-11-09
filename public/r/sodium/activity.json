@@ -15,8 +15,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/activity.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/activity.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/activity.md",
+    "page": "https://happyhands.cc/systems/sodium/components/activity.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/sodium/registry/items/activity.json",
+      "sourceSha256": "d4f6f76b1e41f4d2070d73c72e20abfb6fc3092ded6752307d8bf6bd65b4cc77",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

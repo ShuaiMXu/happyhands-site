@@ -14,8 +14,14 @@
     "https://happyhands.cc/r/lime/theme.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/copy-button.md",
-    "page": "https://happyhands.cc/design-how/lime/components/copy-button.md"
+    "docs": "https://happyhands.cc/systems/lime/components/copy-button.md",
+    "page": "https://happyhands.cc/systems/lime/components/copy-button.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/lime/registry/items/copy-button.json",
+      "sourceSha256": "8c35dcb3a6f40a52439ac5aa0562850ab1c2866a64c75d57e0db49000d578fcc",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

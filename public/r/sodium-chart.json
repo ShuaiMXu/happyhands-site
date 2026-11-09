@@ -1,0 +1,14 @@
+{
+  "name": "sodium-chart",
+  "type": "registry:item",
+  "title": "sodium / Chart",
+  "description": "Shows numbers over time as a line or an area.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/chart.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "chart",
+    "version": "2026-11-09.1"
+  }
+}

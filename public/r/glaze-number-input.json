@@ -1,0 +1,14 @@
+{
+  "name": "glaze-number-input",
+  "type": "registry:item",
+  "title": "glaze / Number input",
+  "description": "Takes a number and steps it.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/number-input.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "number-input",
+    "version": "2026-11-09.1"
+  }
+}

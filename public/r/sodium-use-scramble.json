@@ -1,0 +1,14 @@
+{
+  "name": "sodium-use-scramble",
+  "type": "registry:item",
+  "title": "sodium / useScramble",
+  "description": "Support file: resolves a mono label through glyphs in about 0.4 seconds.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/use-scramble.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "use-scramble",
+    "version": "2026-11-09.1"
+  }
+}

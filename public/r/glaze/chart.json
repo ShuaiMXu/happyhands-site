@@ -25,8 +25,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/chart.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/chart.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/chart.md",
+    "page": "https://happyhands.cc/systems/glaze/components/chart.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/glaze/registry/items/chart.json",
+      "sourceSha256": "61f24affa9ae6e1c9c246bf09ef44311a431af0903124b3916f2dbb8e41471f3",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

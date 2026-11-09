@@ -29,6 +29,7 @@ await writeFile(
     {
       source,
       checkedAt: new Date().toISOString().slice(0, 10),
+      sourceHashKind: "upstream-registry-bytes",
       sourceHash: createHash("sha256").update(bytes).digest("hex"),
       items,
     },

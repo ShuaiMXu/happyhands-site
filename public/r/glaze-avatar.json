@@ -1,0 +1,14 @@
+{
+  "name": "glaze-avatar",
+  "type": "registry:item",
+  "title": "glaze / Avatar",
+  "description": "Shows who or what acted.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/avatar.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "avatar",
+    "version": "2026-11-09.1"
+  }
+}

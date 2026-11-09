@@ -27,8 +27,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/index.md",
-    "page": "https://happyhands.cc/design-how/quartz/index.md"
+    "docs": "https://happyhands.cc/systems/quartz/index.md",
+    "page": "https://happyhands.cc/systems/quartz/index.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/quartz/registry/items/deploy-detail.json",
+      "sourceSha256": "ef7d7d07a4cfaf814c6517764710269b89fcc30a90ce5463e5755e44019e4f54",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

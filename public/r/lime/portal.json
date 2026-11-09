@@ -9,8 +9,14 @@
     "internal"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/index.md",
-    "page": "https://happyhands.cc/design-how/lime/index.md"
+    "docs": "https://happyhands.cc/systems/lime/index.md",
+    "page": "https://happyhands.cc/systems/lime/index.md",
+    "happyhands": {
+      "version": "2026-11-09.1",
+      "source": "design-how/lime/registry/items/portal.json",
+      "sourceSha256": "0a7cfeacc1f7fab4a75b305e8efc6d596581c93a29060d7df80736a60eb51a33",
+      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+    }
   },
   "files": [
     {

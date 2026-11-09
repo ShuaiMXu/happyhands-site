@@ -36,7 +36,7 @@ export function resourcePreviewPlugin(root) {
     configurePreviewServer(server) {
       server.middlewares.use(async (req, res, next) => {
         const url = new URL(req.url || "/", "http://localhost");
-        if (url.pathname !== "/components/") return next();
+        if (!["/components/","/en/components/"].includes(url.pathname)) return next();
         try {
           const config = JSON.parse(
             await readFile(resolve(root, "vercel.json"), "utf8"),

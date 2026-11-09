@@ -94,9 +94,9 @@ export async function resourceEntries(root) {
   }
   return entries;
 }
-export function renderResourceHtml(shell, entry) {
-  const data = resourceSeoData(entry.seo);
-  let html = shell
+export function renderResourceHtml(shell, entry, lang="zh") {
+  const data = resourceSeoData(entry.seo,lang);
+  let html = shell.replace(/<html[^>]*lang="[^"]*"/, `<html lang="${lang==='en'?'en':'zh-CN'}"`).replace(/content="zh_CN"/g,`content="${lang==='en'?'en_US':'zh_CN'}"`)
     .replace(
       /<title>[\s\S]*?<\/title>/gi,
       () => `<title>${esc(data.title)}</title>`,
@@ -122,6 +122,7 @@ export function renderResourceHtml(shell, entry) {
       () =>
         `<script id="site-structured-data" type="application/ld+json">${JSON.stringify(data.graph).replace(/</g, "\\u003c")}</script>`,
     );
+  html=html.replace(/<link\b(?=[^>]*hreflang=)[^>]*>/gi,'').replace('</head>',`<link rel="alternate" hreflang="zh-CN" href="https://happyhands.cc/components/?${esc(entry.seo.query)}"><link rel="alternate" hreflang="en" href="https://happyhands.cc/en/components/?${esc(entry.seo.query)}"></head>`);
   const content = `<main id="resource-static"><nav><a href="/components/">设计资源 / Design resources</a></nav><h1>${esc(entry.seo.name)}</h1><p>${esc(entry.seo.description)}</p><p>第三方参考保留原始来源与许可。请核对上游要求后使用。 Third-party references retain their sources and licenses.</p>${entry.seo.source ? `<p><a href="${esc(entry.seo.source)}">原始来源 / Source</a></p>` : ""}<p><a href="${esc(entry.download)}">完整资源 / Full resource</a></p><pre style="white-space:pre-wrap;overflow-wrap:anywhere">${esc(entry.body)}</pre></main>`;
   return html.replace(
     /<div id="root">[\s\S]*?<\/div>/,
@@ -147,6 +148,8 @@ export async function prerender(root = process.cwd()) {
       `<div id="root"><main><h1>设计资源 / Design resources</h1><ul>${links}</ul></main></div>`,
   );
   await writeFile(resolve(out, "index.html"), list);
+  await mkdir(resolve(out,'en'),{recursive:true});
+  await writeFile(resolve(out,'en/index.html'),list.replace('lang="zh-CN"','lang="en"').replaceAll('href="/components/','href="/en/components/'));
   await rename(
     resolve(dist, "components/index.html"),
     resolve(out, "shell.html"),
@@ -155,9 +158,12 @@ export async function prerender(root = process.cwd()) {
     const file = resolve(out, entry.file);
     await mkdir(dirname(file), { recursive: true });
     await writeFile(file, renderResourceHtml(shell, entry));
+    const enFile=resolve(out,'en',entry.file);await mkdir(dirname(enFile),{recursive:true});
+    await writeFile(enFile,renderResourceHtml(shell,entry,'en'));
   }
   const urls = [
     ...new Set(entries.map((entry) => resourceSeoData(entry.seo).url)),
+    ...new Set(entries.map(entry=>resourceSeoData(entry.seo,"en").url)),
   ];
   await writeFile(
     resolve(dist, "resource-sitemap.xml"),

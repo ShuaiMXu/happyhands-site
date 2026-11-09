@@ -109,7 +109,7 @@ test('metadata reconciliation preserves product identity and replaces stale grap
  for(const key of ['portal','guide','guideEn']){
   const once=enhanceSeoHtml(source,key),twice=enhanceSeoHtml(once,key);
   assert.equal((twice.match(/type="application\/ld\+json"/g)||[]).length,1);
-  assert.equal((twice.match(/hreflang=/g)||[]).length,key==='portal'?0:3);
+  assert.equal((twice.match(/hreflang=/g)||[]).length,3);
   const graph=seoData(key).graph['@graph'];
   const app=graph.find(x=>x['@type']==='SoftwareApplication');
   assert.equal(app['@id'],origin+'/#software');

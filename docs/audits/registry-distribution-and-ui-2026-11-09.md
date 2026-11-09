@@ -25,6 +25,9 @@
 | P2 | 主题为补丁层，48 个硬编码色绕过 token | `apps/portal/portal.css:1` |
 | P2 | 双语内容只有中文可索引，无 hreflang | `packages/ui/site-seo.ts:57` |
 | P2 | 四个系统页使用两套模板，信息密度不一致 | `systems/design-how-main.tsx:19` |
+| P1（流程） | 唯一校验 308 项依赖图的测试没有接入 CI | `.github/workflows/studio.yml` |
+
+另有 3 个流程层问题（见第四节）。它们不是第 11 条 bug，而是上面这些问题会复发的原因。
 
 ---
 
@@ -70,6 +73,17 @@ npx shadcn@latest add https://design.how/r/quartz/button.json
 - `public/design-how` 下 290 个 md，**272 个含 design.how 安装命令，0 个含 happyhands.cc**。
 - registry 正文中 design.how 引用：quartz 156、lime 132、glaze 180、sodium 150。
 - 前端源码中 design.how 出现 43 次。
+
+改了一半最直接的证据是 `skill.json`：它写两份 `SKILL.md`（`.claude/skills/<sys>/` 与 `.agents/skills/<sys>/`），而 `theme.json` 依赖 `skill.json`、每个组件又依赖 `theme.json`。也就是说**装任意一个组件，都会把一份写着 design.how 安装命令的指令文件放进用户仓库，交给对方的 coding agent 去读**：
+
+```text
+ 89 处  skill → ~/.claude/skills/glaze/SKILL.md     （同内容另写 .agents/ 一份）
+ 77 处  skill → ~/.claude/skills/quartz/SKILL.md
+ 73 处  skill → ~/.claude/skills/sodium/SKILL.md
+ 65 处  skill → ~/.claude/skills/lime/SKILL.md
+```
+
+这一处无法靠改 `meta` 修掉，因为它在 `files[].content` 里，而 `hosted_registry()` 是刻意跳过 `files` 的。所以 1.1 的修法取决于一个定位决策，见 4.1。
 
 影响：镜像在可用性和归因上都没有收益；上游改版或下线时，站点所有安装指引一起失效；预渲染的 SEO 页面把外部域名当作唯一入口。
 
@@ -212,18 +226,79 @@ npx shadcn@latest add https://design.how/r/quartz/button.json
 
 ---
 
-## 四、建议修复顺序
+## 四、流程层：这些问题为什么会复发
 
-1. `scripts/import-design-how.py:53` 一行修正，连带解决 272 个文档、`meta.docs` 与预渲染 SEO。
-2. `SystemCatalog.tsx:407,467` 与 `design-systems.js` 的 host 收敛，并补防回归测试。
+把前两节的 10 条放在一起看：除了对比度和几个 JS 缺陷，其余都能追溯到三个没有做的决策。单独修 bug 会复发，做决策不会。
+
+### 4.1 身份未定：镜像、分叉，还是主入口
+
+| 已改写 | 未改写 |
+| --- | --- |
+| `registryDependencies` | `files[].content` |
+| `meta.docs` / `meta.page` | `public/design-how/**` 正文 |
+| `registry.json` 的 `homepage` | 前端 4 处硬编码、预渲染正文 |
+
+代码里同时存在两种答案：导入脚本说「我们是镜像」——`scripts/import-design-how.py:45-46` 刻意跳过 `files`，保上游保真；registry 的依赖 URL 说「我们是主入口」——全部指向 happyhands.cc。
+
+两者不可能同时成立，所以这个定位决策决定了 1.1 的修法：
+
+- **不允许改写上游正文** → 定位为「带出处的归档镜像」。那么 272 处 design.how 是正确行为，1.1 降级为 P2，正确做法是在页面明确写「安装请走上游」，并且**不要**把 `registryDependencies` 改写成自己（否则用户装了本地副本，指令又让他去上游装第二份）。
+- **允许改写上游正文** → 定位为主入口。此时 `files` 必须进改写范围，`public/design-how` 的未改写副本应从发布产物移除、只保留归档。
+
+现在的「改一半」比两个极端都危险：既没有保真，也没有主权。
+
+### 4.2 护栏写了，但没有接线
+
+| 资产 | 有哈希 | 合并前会被校验 |
+| --- | --- | --- |
+| `public/design-how/**`（963 个归档文件） | 是 | 是（`tests/design-how.test.mjs:8`） |
+| `public/r/**`（312 个、真正被安装的） | 否 | 否 |
+| `systems/*/catalog.json:sourceHash` | 是 | 否，且结构上永不可能相等 |
+
+`tests/design-how.test.mjs` 就是守着 308 项依赖图的那道门（依赖可解析、文档存在、`files` 与归档副本一致）。但它挂在 `test:design-resources` 下，而 `.github/workflows/studio.yml` 只跑：
+
+```text
+typecheck / test:studio / test:analytics / test:seo / test:archive / test:wiki / build / verify:alpha
+```
+
+**不含 `test:design-resources`，也不含 `test:components`。** 有测试不等于有护栏；护栏等于「合并会因此变红」。
+
+### 4.3 发布看起来像产物，实际是文件堆
+
+聚合 index、版本、缓存策略、namespace 四项都缺（见 1.4）。一个 registry 对外就是 API，API 的底线是可发现、可锁定、可缓存，现在一样没有。漂移同样不可见：`sync-design-catalog.mjs` 只拉元数据而且是手动执行，上游变了不会有任何信号。
+
+### 4.4 建议的流水线契约
+
+| 阶段 | 现在 | 应该 |
+| --- | --- | --- |
+| normalize | 字段白名单，默认不改写 | 整棵树一遍过，**默认改写**，只对确需保真的字段显式 opt-out。现在的逻辑反了，上游一加字段就漏 |
+| verify | 验归档 | 哈希边界移到 `public/r`；断言「发布物不得出现外部 host」；`test:design-how` 进 CI |
+| publish | 文件堆 | `/r/registry.json` 聚合、`version`、`/r/*` 缓存头 |
+| drift-watch | 无 | 定时 diff 上游，变更开 issue 由人批准（`sync-cult-registry.mjs` 的 pinned revision + `provenance.json` 已是这个思路，可直接复用） |
+
+第四行有个现成对照：同一仓库里 cult-ui 那条管线做对了——`scripts/build-cult-catalog.mjs:15-19` 在构建期校验哈希并 `throw`；design.how 这条没有。两套治理标准并存，说明治理靠的是习惯，不是流程。
+
+### 4.5 一个判断
+
+这份审查文档不应该是主要交付物。更该进仓库的是一个 `scripts/audit-registry.mjs`，把本文手工做过的检查固化成一条命令并挂到 CI：395 个 URL 可解析、index 与 item 无漂移、发布物不含外部 host、zip 与 registry 逐字节一致。
+
+理由是仓库里已有反例：`sourceHash` 曾经为真，后来变成恒假，无人察觉。**文档会腐烂，断言不会。**
+
+## 五、建议修复顺序
+
+0. **先决策**（4.1）：happyhands.cc 上这四个系统是主入口、归档镜像，还是只做展示。它决定 1.1 是 P0 修复还是 P2 措辞调整，也决定 `files` 是否进改写范围。
+1. 接护栏：`test:design-how`（经 `test:design-resources`）与 `test:components` 进 CI。这一步先做，后面每一条才有人守。
+2. 视 4.1 结论执行：`scripts/import-design-how.py:53` 一行修正（连带 272 个文档、`meta.docs` 与预渲染 SEO），并处理 `SystemCatalog.tsx:407,467`、`design-systems.js` 的 host。
 3. 删除或重做 `sourceHash`，将 `public/r/**` 纳入完整性记录。
 4. UI 三连：toast 定时器、hero `inert`、两处对比度与浅色焦点色。
-5. 减重：`skill` 与 `theme` 解耦；CSS 合并或使用说明澄清。
+5. 减重：`skill` 与 `theme` 解耦；CSS 合并或在使用说明中澄清只 import `styles.css`。
 6. 分发补件：`/r/registry.json` 聚合、`/r/*` 缓存头、item `version`。
-7. 主题 token 收敛（独立排期）。
+7. 把本文检查固化为 `scripts/audit-registry.mjs`（4.5）。
+8. 主题 token 收敛（独立排期，工作量最大）。
 
-## 五、本次未完成
+## 六、本次未完成
 
-- 未运行 `npm run build`、`npm run typecheck`、`npm run test:*` 与浏览器回归：项目在会话工作区之外，`node_modules` 写入被沙箱拒绝。
+- 未运行 `npm run build`、`npm run typecheck`、`npm run test:*` 与浏览器回归：审查时项目在会话工作区之外，`node_modules` 写入被沙箱拒绝。
 - 未验证修复后的表现，本文全部结论为基线上的只读追踪与生产实测。
+- 未与仓库 open issues、roadmap 去重，部分条目可能已在计划中。
 - 未改动任何业务代码、registry 数据或上游快照。

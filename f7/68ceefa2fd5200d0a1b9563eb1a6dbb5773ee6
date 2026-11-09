@@ -1,0 +1,55 @@
+vercel.json
+  s_c3a809bd8a1ec1::t_bfb1455b7a3c9a 160-249
+tests/language-routes.test.ts
+  s_c3a809bd8a1ec1::t_9e4e8c2d9b85ac 1-9
+scripts/prerender-resources.mjs
+  s_c3a809bd8a1ec1::t_bfb1455b7a3c9a 97-99,151-152,161-162,166
+  s_c3a809bd8a1ec1::t_c6460a8f52b5ce 125
+package.json
+  s_c3a809bd8a1ec1::t_23ef705c3a73d3 31
+  s_c3a809bd8a1ec1::t_370aab105769fd 8,26
+scripts/build-language-pages.mjs
+  s_c3a809bd8a1ec1::t_2e7319846eaa19 3-30
+  s_c3a809bd8a1ec1::t_5233e31b7b2d61 36
+  s_c3a809bd8a1ec1::t_0d3437307d4afa 1-2,31-35,37
+packages/ui/site-preferences.ts
+  s_c3a809bd8a1ec1::t_23ef705c3a73d3 37-43
+  s_c3a809bd8a1ec1::t_bfb1455b7a3c9a 1,7,26-29
+apps/portal/portal.css
+  s_c3a809bd8a1ec1::t_23ef705c3a73d3 1,7,9-10,13-15
+scripts/verify-language-pages.mjs
+  s_c3a809bd8a1ec1::t_5233e31b7b2d61 1-4
+packages/ui/resource-seo.ts
+  s_c3a809bd8a1ec1::t_bfb1455b7a3c9a 77
+apps/portal/layout.css
+  s_c3a809bd8a1ec1::t_23ef705c3a73d3 6-7,11
+  s_c3a809bd8a1ec1::t_69bd884a6ff85b 63-70
+packages/ui/site-seo.ts
+  s_c3a809bd8a1ec1::t_bfb1455b7a3c9a 1,48,60
+packages/ui/language-route.ts
+  s_c3a809bd8a1ec1::t_bfb1455b7a3c9a 1-8
+docs/audits/english-resources-and-css-2026-11-09.md
+  s_c3a809bd8a1ec1::t_4ed267910c3f35 1-12
+scripts/resource-preview-plugin.mjs
+  s_c3a809bd8a1ec1::t_0476a9f853bbd5 39
+systems/design-how-main.tsx
+  s_c3a809bd8a1ec1::t_a4cd44a249b58e 16
+tests/site-seo.test.mjs
+  s_c3a809bd8a1ec1::t_5966858d1eae0e 112
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "f768ceefa2fd5200d0a1b9563eb1a6dbb5773ee6",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

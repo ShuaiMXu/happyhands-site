@@ -1,0 +1,23 @@
+packages/ui/github-stars-snapshot.js
+  s_c3a809bd8a1ec1::t_93264025d553cf 4-5
+apps/portal/index.html
+  s_c3a809bd8a1ec1::t_93264025d553cf 56
+tests/github-stars.test.mjs
+  s_c3a809bd8a1ec1::t_93264025d553cf 5-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "79cb93f7d132133835e1bafa628868503fb59c7e",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

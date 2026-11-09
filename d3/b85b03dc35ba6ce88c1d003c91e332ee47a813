@@ -1,0 +1,40 @@
+tests/site-seo.test.mjs
+  s_c3a809bd8a1ec1::t_5840daccaefd99 8,45-46,88
+scripts/verify-alpha-release.mjs
+  s_c3a809bd8a1ec1::t_5840daccaefd99 8
+tests/studio-retirement.test.mjs
+  s_c3a809bd8a1ec1::t_5840daccaefd99 1-16
+packages/ui/site-seo.ts
+  s_c3a809bd8a1ec1::t_5840daccaefd99 16
+  s_c3a809bd8a1ec1::t_5ebdbdc7661402 27,29,36,38
+tests/wiki-layout.test.mjs
+  s_c3a809bd8a1ec1::t_5840daccaefd99 55
+apps/studio/index.html
+  s_c3a809bd8a1ec1::t_f526cdb99ae97d 1
+components/ArchiveGallery.tsx
+  s_c3a809bd8a1ec1::t_350b5783c1190c 157
+components/main.tsx
+  s_c3a809bd8a1ec1::t_a0232b9f06a32c 49-50
+guide/content.ts
+  s_c3a809bd8a1ec1::t_217d2c3adfa479 27
+public/llms.txt
+  s_c3a809bd8a1ec1::t_a3656f9a521a6d 12,26
+vite.config.js
+  s_c3a809bd8a1ec1::t_3833a97287a05c 49,56
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "d3b85b03dc35ba6ce88c1d003c91e332ee47a813",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

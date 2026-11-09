@@ -60,35 +60,6 @@ export function setupLiquidGlass() {
     <feMerge><feMergeNode in="body"/><feMergeNode in="edge-light"/></feMerge>
   </filter>`;
   document.body.append(defs);
-  // Clear glass needs a separate scroll-edge treatment for dense content.
-  // Dissolve the content underneath navigation, rather than painting a glass fill.
-  const content=document.querySelector('#portal-content');
-  const header=targets[0];
-  const logo=header?.querySelector('.wordmark');
-  const nav=header?.querySelector('.desktop-nav');
-  const actions=header?.querySelector('.header-actions');
-  let edgeFrame=0;
-  const updateEdge=()=>{
-    edgeFrame=0;
-    if(!content || !header)return;
-    const top=content.getBoundingClientRect().top;
-    const bottom=header.getBoundingClientRect().bottom;
-    const overlaps=top<bottom;
-    content.toggleAttribute('data-glass-overlap',overlaps);
-    if(overlaps){
-      content.style.setProperty('--portal-scroll-cutoff',`${Math.max(0,bottom-top)}px`);
-      const offset=content.getBoundingClientRect().left;
-      const start=(logo?.getBoundingClientRect().right||0)-offset+16;
-      const end=Math.min(nav?.getBoundingClientRect().left||innerWidth,actions?.getBoundingClientRect().left||innerWidth)-offset-16;
-      content.style.setProperty('--portal-open-window',end>start+24?`linear-gradient(to right,transparent ${start}px,#000 ${start+12}px,#000 ${end-12}px,transparent ${end}px)`:'linear-gradient(transparent,transparent)');
-    }
-  };
-  const scheduleEdge=()=>{if(!edgeFrame)edgeFrame=requestAnimationFrame(updateEdge);};
-  addEventListener('scroll',scheduleEdge,{passive:true});
-  addEventListener('resize',scheduleEdge,{passive:true});
-  scheduleEdge();
-  const edgeObserver=new ResizeObserver(scheduleEdge);
-  for(const element of [header,logo,nav,actions])if(element)edgeObserver.observe(element);
   const cleanup = [];
   for (const [index, target] of targets.entries()) {
     const surface = document.createElement("div");
@@ -162,13 +133,6 @@ export function setupLiquidGlass() {
     });
   }
   return () => {
-    removeEventListener('scroll',scheduleEdge);
-    removeEventListener('resize',scheduleEdge);
-    cancelAnimationFrame(edgeFrame);
-    edgeObserver.disconnect();
-    content?.removeAttribute('data-glass-overlap');
-    content?.style.removeProperty('--portal-scroll-cutoff');
-    content?.style.removeProperty('--portal-open-window');
     cleanup.forEach((dispose) => dispose());
     defs.remove();
     document.documentElement.style.removeProperty("--portal-header-height");

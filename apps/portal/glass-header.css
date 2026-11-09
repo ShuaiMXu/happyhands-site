@@ -70,14 +70,3 @@ header.hh-site-header.portal-glass-header :is(#theme-toggle,#lang-switch button)
  :root[data-theme="light"] .hero-center .core-mark img {filter:brightness(0);}
  .core-mark::before {display:none;}
 }
-
-/* Dissolve content under the labels; keep the clear central lens exposed. */
-#portal-content[data-glass-overlap] {
- -webkit-mask-image:linear-gradient(to bottom,transparent var(--portal-scroll-cutoff),#000 calc(var(--portal-scroll-cutoff) + 8px)),var(--portal-open-window);
- mask-image:linear-gradient(to bottom,transparent var(--portal-scroll-cutoff),#000 calc(var(--portal-scroll-cutoff) + 8px)),var(--portal-open-window);
-}
-@media(forced-colors:active) {
- #portal-content[data-glass-overlap] { -webkit-mask-image:none;mask-image:none; }
-}
-
-#portal-content :is(a,button,input,[tabindex]) { scroll-margin-top:calc(var(--portal-header-height,64px) + 32px); }

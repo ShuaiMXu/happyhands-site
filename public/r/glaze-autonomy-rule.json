@@ -1,0 +1,14 @@
+{
+  "name": "glaze-autonomy-rule",
+  "type": "registry:item",
+  "title": "glaze / Autonomy rule",
+  "description": "Sets what an agent may do alone.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/autonomy-rule.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "autonomy-rule",
+    "version": "2026-11-09.2"
+  }
+}

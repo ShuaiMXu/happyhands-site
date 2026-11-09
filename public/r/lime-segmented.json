@@ -1,0 +1,14 @@
+{
+  "name": "lime-segmented",
+  "type": "registry:item",
+  "title": "lime / Segmented",
+  "description": "A short row of exclusive options, such as Week, Month and Year.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/segmented.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "segmented",
+    "version": "2026-11-09.2"
+  }
+}

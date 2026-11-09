@@ -1,0 +1,14 @@
+{
+  "name": "sodium-use-typing",
+  "type": "registry:item",
+  "title": "sodium / useTyping",
+  "description": "Support file: types text in at about 55 characters a second behind a caret shown only while typing.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/sodium/use-typing.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "use-typing",
+    "version": "2026-11-09.2"
+  }
+}

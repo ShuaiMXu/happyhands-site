@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/collapsible.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/collapsible.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/collapsible.md",
+    "page": "https://happyhands.cc/systems/glaze/components/collapsible.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/glaze/registry/items/collapsible.json",
+      "sourceSha256": "34af4b8b99e3d4de275bfbde38d45435ccc6f99af6a5f70cd54a73fd4d4a8807",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

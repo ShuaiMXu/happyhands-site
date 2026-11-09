@@ -18,8 +18,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/filter-bar.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/filter-bar.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/filter-bar.md",
+    "page": "https://happyhands.cc/systems/glaze/components/filter-bar.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/glaze/registry/items/filter-bar.json",
+      "sourceSha256": "f9078e90675d15cd61ca8ae7e27aa304abedf34d2266ff7d70161c84962e5b50",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

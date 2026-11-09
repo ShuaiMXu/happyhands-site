@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/bulk-action-bar.js
 registryDependencies: [button, icon, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/bulk-action-bar
+human: https://happyhands.cc/systems/glaze/components/bulk-action-bar.md
 ---
 
 # Bulk action bar

@@ -1,0 +1,14 @@
+{
+  "name": "sodium-table",
+  "type": "registry:item",
+  "title": "sodium / Table",
+  "description": "Lists records that share the same fields.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/table.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "table",
+    "version": "2026-11-09.2"
+  }
+}

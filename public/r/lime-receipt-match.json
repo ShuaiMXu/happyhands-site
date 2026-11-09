@@ -1,0 +1,14 @@
+{
+  "name": "lime-receipt-match",
+  "type": "registry:item",
+  "title": "lime / Receipt match",
+  "description": "A receipt paired with its payment, with whether the two match.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/receipt-match.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "receipt-match",
+    "version": "2026-11-09.2"
+  }
+}

@@ -19,8 +19,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/json-view.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/json-view.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/json-view.md",
+    "page": "https://happyhands.cc/systems/quartz/components/json-view.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/quartz/registry/items/json-view.json",
+      "sourceSha256": "f9a668b554113c44d9a5db6e20d116972c4720e6f5f21e68ac94d84b9fd998da",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

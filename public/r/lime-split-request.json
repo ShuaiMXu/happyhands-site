@@ -1,0 +1,14 @@
+{
+  "name": "lime-split-request",
+  "type": "registry:item",
+  "title": "lime / Split request",
+  "description": "A bill you paid, split by what each person owes, with one request to send.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/split-request.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "split-request",
+    "version": "2026-11-09.2"
+  }
+}

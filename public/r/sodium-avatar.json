@@ -1,0 +1,14 @@
+{
+  "name": "sodium-avatar",
+  "type": "registry:item",
+  "title": "sodium / Avatar",
+  "description": "Shows who or what acted.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/avatar.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "avatar",
+    "version": "2026-11-09.2"
+  }
+}

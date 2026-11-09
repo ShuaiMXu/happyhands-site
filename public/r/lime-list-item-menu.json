@@ -1,0 +1,14 @@
+{
+  "name": "lime-list-item-menu",
+  "type": "registry:item",
+  "title": "lime / List item menu",
+  "description": "A row's other actions behind a more button, for ListItem's menu.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/list-item-menu.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "list-item-menu",
+    "version": "2026-11-09.2"
+  }
+}

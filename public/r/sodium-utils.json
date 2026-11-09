@@ -1,0 +1,14 @@
+{
+  "name": "sodium-utils",
+  "type": "registry:item",
+  "title": "sodium / cn",
+  "description": "Support file: cn, which merges class names and resolves conflicts between Sodium's type roles and button surfaces; mergeClass, which keeps Sodium's classes when a caller passes a className function; mergeRefs; and controlHeight, the one height formula for one-line controls.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/utils.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "utils",
+    "version": "2026-11-09.2"
+  }
+}

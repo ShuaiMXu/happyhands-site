@@ -8,7 +8,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/tool-call.json"
 registryDependencies: [activity, badge, button, card, status, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/tool-call
+human: https://happyhands.cc/systems/glaze/components/tool-call.md
 ---
 
 # Tool call

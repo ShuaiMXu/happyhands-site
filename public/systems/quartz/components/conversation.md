@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/conversation.json
 registryDependencies: [button, icon, message, status, theme, tool-call, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/conversation
+human: https://happyhands.cc/systems/quartz/components/conversation.md
 ---
 
 # Conversation

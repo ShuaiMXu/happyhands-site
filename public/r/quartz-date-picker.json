@@ -1,0 +1,14 @@
+{
+  "name": "quartz-date-picker",
+  "type": "registry:item",
+  "title": "quartz / Date picker",
+  "description": "A date, range, date-time or time, with Calendar as its popup part.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/date-picker.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "date-picker",
+    "version": "2026-11-09.2"
+  }
+}

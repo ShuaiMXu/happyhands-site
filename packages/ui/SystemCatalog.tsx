@@ -404,7 +404,7 @@ export function SystemCatalog({
       </p>
       <div className="registry-grid">
         {items.slice(0, limit).map((item) => {
-          const command = `npx shadcn@latest add https://design.how/r/${system}/${item.name}.json`;
+          const command = `npx shadcn@latest add https://happyhands.cc/r/${system}/${item.name}.json`;
           return (
             <article
               key={item.name}
@@ -464,7 +464,7 @@ export function SystemCatalog({
                     {t("复制命令", "Copy command")}
                   </Button>
                   <a
-                    href={`https://design.how/r/${system}/${item.name}.json`}
+                    href={`https://happyhands.cc/r/${system}/${item.name}.json`}
                     target="_blank"
                     rel="noreferrer"
                   >

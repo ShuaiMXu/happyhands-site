@@ -9,8 +9,14 @@
     "internal"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/index.md",
-    "page": "https://happyhands.cc/design-how/sodium/index.md"
+    "docs": "https://happyhands.cc/systems/sodium/index.md",
+    "page": "https://happyhands.cc/systems/sodium/index.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/sodium/registry/items/scroll.json",
+      "sourceSha256": "733f32f6a160b47c0f341c97b8e7375c5275e79405ed3c91b0b4ad4bb0e74557",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

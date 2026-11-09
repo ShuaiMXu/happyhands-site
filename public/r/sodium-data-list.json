@@ -1,0 +1,14 @@
+{
+  "name": "sodium-data-list",
+  "type": "registry:item",
+  "title": "sodium / Data list",
+  "description": "Lists label and value pairs about one thing.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/data-list.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "data-list",
+    "version": "2026-11-09.2"
+  }
+}

@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/table.json"
 registryDependencies: [badge, button, checkbox, css-var, dropdown-menu, empty-state, format, icon, kind, overlay, portal, scroll-focus, status, theme, use-offscreen, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/table
+human: https://happyhands.cc/systems/quartz/components/table.md
 ---
 
 # Table

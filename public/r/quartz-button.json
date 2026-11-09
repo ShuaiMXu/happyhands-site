@@ -1,0 +1,14 @@
+{
+  "name": "quartz-button",
+  "type": "registry:item",
+  "title": "quartz / Button",
+  "description": "Starts an action now. States: pressed and pending, which keeps the label.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/button.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "button",
+    "version": "2026-11-09.2"
+  }
+}

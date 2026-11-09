@@ -4,7 +4,7 @@ system: glaze
 kind: foundation
 source: registry/glaze/tokens.css
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/foundations/color
+human: https://happyhands.cc/systems/glaze/foundations/color.md
 ---
 
 # Color
@@ -68,7 +68,7 @@ Ink and paper with greys as ink at alphas, and colour only for status.
 | `--fail-tint` | the failure ground | error badge, error alert |  | `#fbe9e5` | `#2c1714` |
 
 ## Contrast
-[The table on the human page](https://design.how/systems/glaze/foundations/color#contrast).
+[The table on the human page](https://happyhands.cc/systems/glaze/foundations/color.md#contrast).
 
 ## Decision table
 | You need | Use |

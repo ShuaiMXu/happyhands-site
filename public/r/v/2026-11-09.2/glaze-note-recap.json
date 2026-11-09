@@ -1,0 +1,14 @@
+{
+  "name": "glaze-note-recap",
+  "type": "registry:item",
+  "title": "glaze / Note recap",
+  "description": "A note the assistant wrote from a voice note: a one line summary and a card of to-dos with Share note.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/glaze/note-recap.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "note-recap",
+    "version": "2026-11-09.2"
+  }
+}

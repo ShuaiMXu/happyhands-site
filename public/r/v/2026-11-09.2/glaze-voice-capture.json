@@ -1,0 +1,14 @@
+{
+  "name": "glaze-voice-capture",
+  "type": "registry:item",
+  "title": "glaze / Voice capture",
+  "description": "The assistant listening, at phone width: the time, the words as they are heard, Cancel and Send it.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/glaze/voice-capture.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "voice-capture",
+    "version": "2026-11-09.2"
+  }
+}

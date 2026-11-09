@@ -16,8 +16,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/separator.md",
-    "page": "https://happyhands.cc/design-how/lime/components/separator.md"
+    "docs": "https://happyhands.cc/systems/lime/components/separator.md",
+    "page": "https://happyhands.cc/systems/lime/components/separator.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/lime/registry/items/separator.json",
+      "sourceSha256": "4b76d4b15af407feef478bd31c498e9873d43a00059d167489d9b08e55299875",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

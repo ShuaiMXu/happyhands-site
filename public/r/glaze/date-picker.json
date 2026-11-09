@@ -23,8 +23,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/date-picker.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/date-picker.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/date-picker.md",
+    "page": "https://happyhands.cc/systems/glaze/components/date-picker.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/glaze/registry/items/date-picker.json",
+      "sourceSha256": "784f9d8a5161f007e7dc352409fb92e85120c34b76a243a0af99ecf3609697bf",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

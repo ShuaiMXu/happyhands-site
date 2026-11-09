@@ -81,7 +81,7 @@ export function DesignHowLibrary({
     () => matchMedia("(min-width: 900px)").matches,
   );
   const reading = path.startsWith("guides/") || path.startsWith("articles/");
-  const file = `/design-how/${reading ? path : `${system}/${path}`}`;
+  const file = `/systems/${reading ? path : `${system}/${path}`}`;
   const title = documents.find((d) => d.path === path)?.title || data.name;
   useEffect(() => {
     const update = () => {

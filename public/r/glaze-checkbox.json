@@ -1,0 +1,14 @@
+{
+  "name": "glaze-checkbox",
+  "type": "registry:item",
+  "title": "glaze / Checkbox",
+  "description": "Turns one option on or off.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/checkbox.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "checkbox",
+    "version": "2026-11-09.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "quartz-collapsible",
+  "type": "registry:item",
+  "title": "quartz / Collapsible",
+  "description": "Shows and hides one region, or a group of them.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/collapsible.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "collapsible",
+    "version": "2026-11-09.2"
+  }
+}

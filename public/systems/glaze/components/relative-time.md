@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/relative-time.json
 registryDependencies: [theme, truncate, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/relative-time
+human: https://happyhands.cc/systems/glaze/components/relative-time.md
 ---
 
 # Relative time

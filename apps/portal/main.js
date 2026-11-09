@@ -1,3 +1,4 @@
+import {createFeedback} from './feedback.js';
 import "../../packages/ui/resource-image-hover.css";
 import { ResourceToolPanels } from '../../packages/ui/ResourceToolPanels';
 import { populateGitHubStars } from './github-stars.js';
@@ -29,7 +30,7 @@ import './homepage-motion.css';
 import "../../packages/ui/owned-ui.css";
 let disposeHomepageMotion;
 
-const lang = portalLanguage(location.pathname);
+let lang = portalLanguage(location.pathname);
 savePreference('pd-lang', lang);
 const t = () => lang === 'zh' ? zh : en;
 document.querySelector('.site-header').classList.add('hh-site-header','portal-glass-header');
@@ -68,13 +69,30 @@ function syncLanguageLink() {
   const link = document.querySelector('#lang-switch a');
   const next = lang === 'zh' ? 'en' : 'zh';
   link.href = portalPath(next) + location.search + location.hash;
+  link.hreflang = next === 'en' ? 'en' : 'zh-CN';
+  link.lang = next === 'en' ? 'en' : 'zh-CN';
 }
 function renderLangSwitch() {
   syncLanguageLink();
   const link = document.querySelector('#lang-switch a');
-  const next = lang === 'zh' ? 'en' : 'zh';
-  link.addEventListener('click', () => savePreference('pd-lang', next));
+  link.addEventListener('click', event => {
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    history.pushState(history.state, '', link.href);
+    setLang(portalLanguage(location.pathname));
+  });
 }
+
+function setLang(code) {
+  const y = window.scrollY;
+  lang = code;
+  savePreference('pd-lang', code);
+  renderContent();
+  syncLanguageLink();
+  window.scrollTo({top:y,behavior:'instant'});
+  document.querySelector('#lang-switch a')?.focus({preventScroll:true});
+}
+window.addEventListener('popstate', () => setLang(portalLanguage(location.pathname)));
 
 function updateNavigation() {
   document.querySelectorAll('.desktop-nav a').forEach(link => {
@@ -91,7 +109,7 @@ function renderContent() {
   const c = t();
   document.querySelector('.skip-link').textContent=lang==='zh'?'跳到主要内容':'Skip to content';
   document.querySelector('.desktop-nav').setAttribute('aria-label',lang==='zh'?'主要导航':'Main navigation');
-  document.querySelector('.wordmark').setAttribute('aria-label','HappyHands');
+  document.querySelector('.wordmark').setAttribute('aria-label',lang==='zh'?'HappyHands 首页':'HappyHands home');
   document.querySelector('.desktop-nav').innerHTML=`<a href="${repositories.core}"><span>GitHub</span> ${iconMarkup('star')}<span data-github-stars hidden></span></a>`;
   populateGitHubStars(document.querySelector('.desktop-nav a'), repositories.core, lang);
   updateNavigation();
@@ -107,9 +125,7 @@ function renderContent() {
   const eyebrow = document.querySelector('.eyebrow');
   if (eyebrow) eyebrow.innerHTML = c.hero.eyebrow.map(s => `<span>${s}</span>`).join('');
   const h1 = document.querySelector('h1');
-  if (h1) h1.innerHTML = lang === 'zh'
-    ? `${c.hero.h1}<span>${c.hero.h1Accent}</span>${c.hero.h1Suffix}`
-    : `${c.hero.h1}<span>${c.hero.h1Accent}</span>${c.hero.h1Suffix}`;
+  if (h1) h1.innerHTML = `${c.hero.h1}<span>${c.hero.h1Accent}</span>${c.hero.h1Suffix}`;
   const heroCopy = document.querySelector('.hero-copy');
   if (heroCopy) heroCopy.textContent = c.hero.copy;
   document.querySelector('#hero-connect').innerHTML = heroConnectMarkup(lang);
@@ -126,9 +142,10 @@ function renderContent() {
   // sections
   const content = document.querySelector('#portal-content');
   if (content) {
+    const previous=disposeResourceFeed?.snapshot?.();
     disposeResourceFeed?.();
     content.innerHTML = portalContent(lang);
-    disposeResourceFeed = setupResourceFeed(content, ResourceFeedControls, ResourceToolPanels);
+    disposeResourceFeed = setupResourceFeed(content, ResourceFeedControls, ResourceToolPanels,previous);
   }
 
   // footer
@@ -149,6 +166,13 @@ function renderContent() {
 // We replicate with a rAF loop that lerps toward the scroll target each frame.
 const heroStage = document.querySelector('.hero-scroll-stage');
 const heroCenter = document.querySelector('.hero-center');
+let heroWhirl = document.querySelector('.hero-whirl-host');
+function setHeroHidden(hidden) {
+ if(!heroCenter)return;
+ if(hidden&&heroCenter.contains(document.activeElement))document.querySelector('[role=tab][aria-selected=true]')?.focus({preventScroll:true});
+ heroCenter.inert=hidden;
+ if(hidden)heroCenter.setAttribute('aria-hidden','true');else heroCenter.removeAttribute('aria-hidden');
+}
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
 let _raf = null;
 
@@ -170,14 +194,16 @@ function _progress() {
 function _apply() {
   _raf = null;
   if (reduceMotion.matches) {
+    setHeroHidden(false);
     heroCenter?.style.removeProperty("opacity");
     heroCenter?.style.removeProperty("transform");
-    const whirl = document.querySelector(".hero-whirl-host");
+    const whirl = heroWhirl;
     whirl?.style.removeProperty("opacity");
     whirl?.style.removeProperty("transform");
     return;
   }
   const p = _progress();
+  setHeroHidden(p >= .35);
   // 1. Text fades + shrinks over [0, 0.35]
   if (heroCenter) {
     heroCenter.style.opacity = _map(p, [0, .35], [1, 0]).toFixed(4);
@@ -186,7 +212,7 @@ function _apply() {
   // 2. Whirl expands (zooms past you) + 3. fades out over [0.4, 0.85].
   // Their CSS: scale(1 + p * 0.75) on the whirl, plus the outer fade.
   // The expansion makes the spiral feel like it's rushing outward as you scroll.
-  const whirl = document.querySelector('.hero-whirl-host');
+  const whirl = heroWhirl;
   if (whirl) {
     const scale = 1 + p * 0.75;
     const fade = _map(p, [.4, .85], [1, 0]);
@@ -216,21 +242,21 @@ const whirlHost = document.querySelector('.hero-whirl-host') || (() => {
   hero.insertBefore(mask, hero.firstChild);
   return host;
 })();
+heroWhirl = whirlHost;
 if (whirlHost && heroScreens?.length) {
   startWhirl(whirlHost, heroScreens);
   _apply();
 }
 
 // -- copy to clipboard --
-let toastTimer;
+const showToast=createFeedback(()=>document.querySelector('#toast'));
 document.addEventListener('click', async e => {
   const btn = e.target.closest('[data-copy]');
   if (!btn) return;
   try {
     await navigator.clipboard.writeText(btn.dataset.copy);
-    const toast = document.querySelector('#toast');
-    if (toast) { toast.textContent = btn.id === 'copy-agent' ? (lang === 'zh' ? '已复制，请粘贴到所选 AI 工具' : 'Copied. Paste into your selected AI tool.') : (lang === 'zh' ? '已复制' : 'Copied'); toast.classList.add('show'); clearTimeout(toastTimer); toastTimer = setTimeout(() => toast.classList.remove('show'), 1800); }
-  } catch { const toast = document.querySelector('#toast'); if (toast) { toast.textContent = btn.id === 'copy-agent' ? (lang === 'zh' ? '无法复制，请重试，或按 GitHub 接入指南操作。' : 'Copy unavailable. Retry or follow the setup guide on GitHub.') : (lang === 'zh' ? '无法复制，请手动选择上方命令。' : 'Copy unavailable. Select the command above manually.'); toast.classList.add('show'); } }
+    showToast(btn.id === 'copy-agent' ? (lang === 'zh' ? '已复制，请粘贴到所选 AI 工具' : 'Copied. Paste into your selected AI tool.') : (lang === 'zh' ? '已复制' : 'Copied'));
+  } catch { showToast(btn.id === 'copy-agent' ? (lang === 'zh' ? '无法复制，请重试，或按 GitHub 接入指南操作。' : 'Copy unavailable. Retry or follow the setup guide on GitHub.') : (lang === 'zh' ? '无法复制，请手动选择上方命令。' : 'Copy unavailable. Select the command above manually.'),6000); }
 });
 
 // -- boot --

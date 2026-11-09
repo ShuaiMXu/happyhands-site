@@ -21,8 +21,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/input.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/input.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/input.md",
+    "page": "https://happyhands.cc/systems/glaze/components/input.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/glaze/registry/items/input.json",
+      "sourceSha256": "ef7bf4ed124f48e820e35ffdc714e320ecf5adebfcc0e02f4f456b346afcce95",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

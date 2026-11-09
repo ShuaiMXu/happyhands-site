@@ -24,8 +24,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/combobox.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/combobox.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/combobox.md",
+    "page": "https://happyhands.cc/systems/quartz/components/combobox.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/quartz/registry/items/combobox.json",
+      "sourceSha256": "3158ee21eb688ab98904ac71c59ec43f5a62659de41bcf6e65bb3664c0098ece",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

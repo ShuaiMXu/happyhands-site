@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/combobox.json"
 registryDependencies: [chip, field, icon, input, kbd, overlay, portal, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/combobox
+human: https://happyhands.cc/systems/glaze/components/combobox.md
 ---
 
 # Combobox

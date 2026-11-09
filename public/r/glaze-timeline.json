@@ -1,0 +1,14 @@
+{
+  "name": "glaze-timeline",
+  "type": "registry:item",
+  "title": "glaze / Timeline",
+  "description": "Shows when each step of a run happened.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/timeline.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "timeline",
+    "version": "2026-11-09.2"
+  }
+}

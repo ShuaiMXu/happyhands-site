@@ -12,8 +12,14 @@
     "https://happyhands.cc/r/sodium/use-timeline.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/index.md",
-    "page": "https://happyhands.cc/design-how/sodium/index.md"
+    "docs": "https://happyhands.cc/systems/sodium/index.md",
+    "page": "https://happyhands.cc/systems/sodium/index.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/sodium/registry/items/use-typing.json",
+      "sourceSha256": "aafd91d26a5d9f6184f345903619839faf50b3d309b247de2d30436319d7d4b0",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

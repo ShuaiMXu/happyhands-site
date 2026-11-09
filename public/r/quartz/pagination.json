@@ -14,8 +14,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/pagination.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/pagination.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/pagination.md",
+    "page": "https://happyhands.cc/systems/quartz/components/pagination.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/quartz/registry/items/pagination.json",
+      "sourceSha256": "eb6f07845a4a544ccd502e31fa147957ed5358081872e75af8cd4daffd6709d0",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

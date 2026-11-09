@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/skeleton.json"
 registryDependencies: [theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/skeleton
+human: https://happyhands.cc/systems/glaze/components/skeleton.md
 ---
 
 # Skeleton

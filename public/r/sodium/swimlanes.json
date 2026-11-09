@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/swimlanes.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/swimlanes.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/swimlanes.md",
+    "page": "https://happyhands.cc/systems/sodium/components/swimlanes.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/sodium/registry/items/swimlanes.json",
+      "sourceSha256": "651a9fc9bbb0d19be38eb5dd7753099a3f169179715aefae16e75a22c3caf7d1",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/code-block.json"
 registryDependencies: [button, copy-button, icon, input, kind, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/code-block
+human: https://happyhands.cc/systems/quartz/components/code-block.md
 ---
 
 # Code block

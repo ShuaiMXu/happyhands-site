@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/chip.md",
-    "page": "https://happyhands.cc/design-how/lime/components/chip.md"
+    "docs": "https://happyhands.cc/systems/lime/components/chip.md",
+    "page": "https://happyhands.cc/systems/lime/components/chip.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/lime/registry/items/chip.json",
+      "sourceSha256": "17971db1522af09b6c40ac8478d4b8165155cf4e42132df981ec4f3dd597267c",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

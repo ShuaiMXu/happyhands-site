@@ -4,7 +4,7 @@ system: quartz
 kind: foundation
 source: registry/quartz/tokens.css
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/foundations/typography
+human: https://happyhands.cc/systems/quartz/foundations/typography.md
 ---
 
 # Typography

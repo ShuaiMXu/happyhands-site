@@ -14,8 +14,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/message.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/message.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/message.md",
+    "page": "https://happyhands.cc/systems/sodium/components/message.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/sodium/registry/items/message.json",
+      "sourceSha256": "9e00bc834a7f665e8aa1c936dea4a278ee9596421bf4ecef3667b73aa6d86ae6",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

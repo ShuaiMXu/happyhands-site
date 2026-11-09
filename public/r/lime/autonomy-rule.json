@@ -14,8 +14,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/autonomy-rule.md",
-    "page": "https://happyhands.cc/design-how/lime/components/autonomy-rule.md"
+    "docs": "https://happyhands.cc/systems/lime/components/autonomy-rule.md",
+    "page": "https://happyhands.cc/systems/lime/components/autonomy-rule.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/lime/registry/items/autonomy-rule.json",
+      "sourceSha256": "de4109eaf6c163b2e5657dcb593680c4890362f50578d9bccb63fdb92f454c61",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

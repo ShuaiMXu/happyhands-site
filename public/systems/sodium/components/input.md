@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/sodium/input.json"
 registryDependencies: [button, copy-button, field, icon, kbd, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/sodium/components/input
+human: https://happyhands.cc/systems/sodium/components/input.md
 ---
 
 # Input

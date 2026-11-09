@@ -1,0 +1,14 @@
+{
+  "name": "sodium-field",
+  "type": "registry:item",
+  "title": "sodium / Field",
+  "description": "Gives an input its label and error.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/field.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "field",
+    "version": "2026-11-09.2"
+  }
+}

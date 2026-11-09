@@ -1,0 +1,14 @@
+{
+  "name": "quartz-direction",
+  "type": "registry:item",
+  "title": "quartz / Direction",
+  "description": "Support file: hands the document direction to Base UI.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/direction.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "direction",
+    "version": "2026-11-09.2"
+  }
+}

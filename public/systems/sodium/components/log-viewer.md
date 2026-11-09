@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/sodium/log-viewer.json"
 registryDependencies: [button, code-block, copy-button, icon, input, scroll, segmented-control, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/sodium/components/log-viewer
+human: https://happyhands.cc/systems/sodium/components/log-viewer.md
 ---
 
 # Log viewer

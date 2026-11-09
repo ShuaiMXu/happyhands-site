@@ -16,8 +16,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/progress.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/progress.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/progress.md",
+    "page": "https://happyhands.cc/systems/sodium/components/progress.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/sodium/registry/items/progress.json",
+      "sourceSha256": "14efeb71ceb2d141ebd7dd56c1892181c4f5221347e4e93e143b9c4d6259f434",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

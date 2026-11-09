@@ -2,6 +2,14 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readGitHubStars } from '../api/github-stars.mjs';
 import { githubStarsSnapshot } from '../packages/ui/github-stars-snapshot.js';
+import {readFile} from 'node:fs/promises';
+
+test('initial HTML exposes the verified count before JavaScript or network refresh', async () => {
+  const html=await readFile(new URL('../apps/portal/index.html',import.meta.url),'utf8');
+  assert.ok(html.includes(`<span data-github-stars>${githubStarsSnapshot.count}</span>`));
+  assert.ok(html.includes(`HappyHands GitHub / ${githubStarsSnapshot.count} stars`));
+  assert.ok(!html.includes('data-github-stars hidden'));
+});
 
 test('GitHub count accepts zero and real counts', async () => {
   for (const count of [0, 33, 1500]) {

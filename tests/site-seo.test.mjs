@@ -6,7 +6,7 @@ import {portalLanguage,portalPath} from '../apps/portal/language.ts';
 import {seoPages,seoData,seoHead,enhanceSeoHtml,guideFaq} from '../packages/ui/site-seo.ts';
 import {guideContent} from '../guide/content.ts';
 const origin='https://happyhands.cc';
-const paths=['apps/portal','en/apps/portal','systems/happyhands','systems/quartz','systems/lime','apps/studio','components'];
+const paths=['apps/portal','en/apps/portal','systems/happyhands','systems/quartz','systems/lime','components'];
 const read=path=>readFile(new URL(`../${path}`,import.meta.url),'utf8');
 test('public metadata consistently identifies the production domain',async()=>{
   const sitemap=await read('public/sitemap.xml');
@@ -43,8 +43,8 @@ test('shared portal renderer provides real content in both languages without bro
     for(const id of ['design-resources'])assert.equal((html.match(new RegExp(`id="${id}"`,'g'))||[]).length,1,id);
     assert.ok(!html.includes('pnpm workbench'));
     assert.ok(!html.includes('homepage-case'));
-    assert.equal((html.match(/role="tab"/g)||[]).length,5);
-    for(const id of ['design-md','systems','cult-ui','studio','setup']){
+    assert.equal((html.match(/role="tab"/g)||[]).length,4);
+    for(const id of ['design-md','systems','cult-ui','setup']){
       assert.ok(html.includes(`id="feed-tab-${id}"`));
       assert.ok(html.includes(`id="feed-panel-${id}"`));
     }
@@ -52,6 +52,9 @@ test('shared portal renderer provides real content in both languages without bro
     assert.ok(!html.includes('happyhands-design.vercel.app'));
     assert.ok(!html.includes('handoff-repo'));
   }
+  assert.ok(en.includes('href="/en/components/?'));
+  assert.ok(!en.includes('href="/components/?'));
+  assert.ok(!zh.includes('href="/en/components/?'));
   assert.ok(!zh.includes('常见问题'));assert.ok(!zh.includes('待人工验收'));
   assert.ok(!en.includes('Frequently asked questions'));assert.ok(!en.includes('human acceptance pending'));
 });
@@ -86,7 +89,7 @@ test('translated guides are complete without JavaScript and match their FAQ sche
 
 test('machine reading aid links to user-facing facts and preserves crawler exclusions',async()=>{
  const text=await read('public/llms.txt');
- for(const href of ['/guide/','/en/guide/','/apps/studio/','/components/','github.com/ShuaiMXu/happyhands'])assert.ok(text.includes(href));
+ for(const href of ['/guide/','/en/guide/','/components/','github.com/ShuaiMXu/happyhands'])assert.ok(text.includes(href));
  assert.ok(text.includes('processing')||text.includes('Processing'));
  assert.ok(text.includes('not an indexing requirement'));
  const robots=await read('public/robots.txt');
@@ -182,7 +185,7 @@ test('homepage language is URL-authoritative rather than localStorage-dependent'
  assert.equal(portalLanguage('/en/apps/portal/'),'en');
  assert.equal(portalLanguage('/apps/portal/'),'zh');
  const source=await read('apps/portal/main.js');
- assert.ok(source.includes('const lang = portalLanguage(location.pathname)'));
+ assert.ok(source.includes('let lang = portalLanguage(location.pathname)'));
  assert.ok(!source.includes('readLanguage('));
  assert.ok(source.includes("querySelector('#lang-switch a')"));
  assert.ok(source.includes('portalPath(next) + location.search + location.hash'));
@@ -201,4 +204,16 @@ test('third-party system pages identify the referenced work and preserve origina
   assert.ok(graph.some(node=>node['@type']==='WebSite'&&node['@id']===origin+'/#website'));
   assert.ok(!/sameAs|creator|copyrightHolder/.test(JSON.stringify(page)),'Do not invent ownership or affiliation');
  }
+});
+
+
+test('homepage language navigation preserves active state and current history language',async()=>{
+ const source=await read('apps/portal/main.js');
+ assert.match(source,/event\.button !== 0.*event\.metaKey.*event\.ctrlKey.*event\.shiftKey.*event\.altKey/);
+ assert.match(source,/history\.pushState\(history\.state, '', link\.href\)/);
+ assert.match(source,/addEventListener\('popstate', \(\) => setLang\(portalLanguage\(location\.pathname\)\)\)/);
+ assert.ok(source.includes('disposeResourceFeed?.snapshot?.()'));
+ assert.ok(source.includes('ResourceToolPanels,previous'));
+ assert.ok(source.includes("document.querySelector('#lang-switch a')?.focus({preventScroll:true})"));
+ assert.ok(source.includes("window.scrollTo({top:y,behavior:'instant'})"));
 });

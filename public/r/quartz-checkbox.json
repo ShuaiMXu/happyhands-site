@@ -1,0 +1,14 @@
+{
+  "name": "quartz-checkbox",
+  "type": "registry:item",
+  "title": "quartz / Checkbox",
+  "description": "One option on or off, with a mixed state.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/checkbox.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "checkbox",
+    "version": "2026-11-09.2"
+  }
+}

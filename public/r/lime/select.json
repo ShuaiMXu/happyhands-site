@@ -20,8 +20,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/select.md",
-    "page": "https://happyhands.cc/design-how/lime/components/select.md"
+    "docs": "https://happyhands.cc/systems/lime/components/select.md",
+    "page": "https://happyhands.cc/systems/lime/components/select.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/lime/registry/items/select.json",
+      "sourceSha256": "0017ec5254d14ae1c27718c9fa1b02f302832d1f42b4a47736937c4e9cc023ad",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

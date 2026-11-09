@@ -4,7 +4,7 @@ system: quartz
 kind: foundation
 source: registry/quartz/tokens.css
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/foundations/color
+human: https://happyhands.cc/systems/quartz/foundations/color.md
 ---
 
 # Color
@@ -73,7 +73,7 @@ Read only through their classes; never set or read them in a component.
 `--button-primary`, `--key-primary-body`, `--key-primary-body-hover`, `--key-primary-edge`, `--key-primary-edge-press`, `--key-primary-sheen`, `--key-secondary-body`, `--key-secondary-body-hover`, `--key-secondary-edge`, `--key-secondary-edge-press`, `--key-secondary-sheen`, `--button-primary-hover`, `--button-secondary`, `--button-secondary-hover`, `--button-ghost`, `--button-ghost-hover`, `--surface-disabled`, `--ring-thumb`
 
 ## Contrast
-[The table on the human page](https://design.how/systems/quartz/foundations/color#contrast).
+[The table on the human page](https://happyhands.cc/systems/quartz/foundations/color.md#contrast).
 
 ## Decision table
 | You need | Use |

@@ -23,8 +23,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/dialog.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/dialog.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/dialog.md",
+    "page": "https://happyhands.cc/systems/quartz/components/dialog.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/quartz/registry/items/dialog.json",
+      "sourceSha256": "251cc10561b7c7e20eb449a8b66a5f87c8eb17892541f37d8d38cb39085073a0",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

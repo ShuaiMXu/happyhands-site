@@ -1,0 +1,14 @@
+{
+  "name": "sodium-sheet",
+  "type": "registry:item",
+  "title": "sodium / Sheet",
+  "description": "Opens the details of one thing at the side.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/sheet.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "sheet",
+    "version": "2026-11-09.2"
+  }
+}

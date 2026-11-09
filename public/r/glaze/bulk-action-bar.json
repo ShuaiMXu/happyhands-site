@@ -18,8 +18,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/bulk-action-bar.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/bulk-action-bar.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/bulk-action-bar.md",
+    "page": "https://happyhands.cc/systems/glaze/components/bulk-action-bar.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/glaze/registry/items/bulk-action-bar.json",
+      "sourceSha256": "4b133d33dfede864814e815126f17a5938e39d35bf628d394b29c7caa4be7faa",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

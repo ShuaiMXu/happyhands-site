@@ -1,0 +1,14 @@
+{
+  "name": "quartz-stat",
+  "type": "registry:item",
+  "title": "quartz / Stat",
+  "description": "A plain numeral with its label, delta and trend.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/stat.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "stat",
+    "version": "2026-11-09.2"
+  }
+}

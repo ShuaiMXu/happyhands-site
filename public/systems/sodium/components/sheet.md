@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/sodium/sheet.json"
 registryDependencies: [button, direction, icon, overlay, portal, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/sodium/components/sheet
+human: https://happyhands.cc/systems/sodium/components/sheet.md
 ---
 
 # Sheet

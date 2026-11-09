@@ -1,0 +1,14 @@
+{
+  "name": "quartz-data-list",
+  "type": "registry:item",
+  "title": "quartz / Data list",
+  "description": "Label and value pairs for a detail view.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/data-list.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "data-list",
+    "version": "2026-11-09.2"
+  }
+}

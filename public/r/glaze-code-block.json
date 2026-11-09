@@ -1,0 +1,14 @@
+{
+  "name": "glaze-code-block",
+  "type": "registry:item",
+  "title": "glaze / Code block",
+  "description": "Shows code or commands to copy.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/code-block.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "code-block",
+    "version": "2026-11-09.2"
+  }
+}

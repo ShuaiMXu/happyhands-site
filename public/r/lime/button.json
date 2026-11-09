@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/button.md",
-    "page": "https://happyhands.cc/design-how/lime/components/button.md"
+    "docs": "https://happyhands.cc/systems/lime/components/button.md",
+    "page": "https://happyhands.cc/systems/lime/components/button.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/lime/registry/items/button.json",
+      "sourceSha256": "0dc1d96cb6291fb5a548acb69bdb8cab4387da3cdb69f5ee2a3ff8b40c692297",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

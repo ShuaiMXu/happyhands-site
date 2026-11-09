@@ -1,0 +1,14 @@
+{
+  "name": "lime-dropdown-menu",
+  "type": "registry:item",
+  "title": "lime / Dropdown menu",
+  "description": "A list of commands behind a button.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/dropdown-menu.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "dropdown-menu",
+    "version": "2026-11-09.2"
+  }
+}

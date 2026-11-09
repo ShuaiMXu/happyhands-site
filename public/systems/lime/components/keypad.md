@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/lime/keypad.json"
 registryDependencies: [icon, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/lime/components/keypad
+human: https://happyhands.cc/systems/lime/components/keypad.md
 ---
 
 # Keypad

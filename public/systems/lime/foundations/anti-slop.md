@@ -3,7 +3,7 @@ name: Anti-slop
 system: lime
 kind: foundation
 last-updated: 2026-10-26
-human: https://design.how/systems/lime/foundations/anti-slop
+human: https://happyhands.cc/systems/lime/foundations/anti-slop.md
 ---
 
 # Anti-slop

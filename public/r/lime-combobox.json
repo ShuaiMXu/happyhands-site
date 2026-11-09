@@ -1,0 +1,14 @@
+{
+  "name": "lime-combobox",
+  "type": "registry:item",
+  "title": "lime / Combobox",
+  "description": "A searchable choice from a long list, such as friends or merchants.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/combobox.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "combobox",
+    "version": "2026-11-09.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "glaze-response",
+  "type": "registry:item",
+  "title": "glaze / Response",
+  "description": "Renders an answer as it streams.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/response.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "response",
+    "version": "2026-11-09.2"
+  }
+}

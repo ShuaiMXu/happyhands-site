@@ -1,0 +1,14 @@
+{
+  "name": "lime-skeleton",
+  "type": "registry:item",
+  "title": "lime / Skeleton",
+  "description": "Still grey shapes in place of content that is loading, such as recent activity.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/skeleton.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "skeleton",
+    "version": "2026-11-09.2"
+  }
+}

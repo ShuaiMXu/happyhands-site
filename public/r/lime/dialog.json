@@ -20,8 +20,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/dialog.md",
-    "page": "https://happyhands.cc/design-how/lime/components/dialog.md"
+    "docs": "https://happyhands.cc/systems/lime/components/dialog.md",
+    "page": "https://happyhands.cc/systems/lime/components/dialog.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/lime/registry/items/dialog.json",
+      "sourceSha256": "c9865d65a8988820e42ad0ed1e9166144459aded8ced82130de5d7ba5aadffc8",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

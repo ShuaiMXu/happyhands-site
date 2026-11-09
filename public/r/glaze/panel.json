@@ -16,8 +16,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/panel.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/panel.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/panel.md",
+    "page": "https://happyhands.cc/systems/glaze/components/panel.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/glaze/registry/items/panel.json",
+      "sourceSha256": "3dfa36c954377668570b0a589a9e3b864d97527cbafa45f352aed8542e967714",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

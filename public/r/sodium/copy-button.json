@@ -15,8 +15,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/copy-button.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/copy-button.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/copy-button.md",
+    "page": "https://happyhands.cc/systems/sodium/components/copy-button.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/sodium/registry/items/copy-button.json",
+      "sourceSha256": "4cc97fb21f6917823a0fa9383fd59b88e988da867ec2ea26959626a46e2a4867",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

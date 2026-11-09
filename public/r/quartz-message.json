@@ -1,0 +1,14 @@
+{
+  "name": "quartz-message",
+  "type": "registry:item",
+  "title": "quartz / Message",
+  "description": "One turn from the person or the agent, plus dividers.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/message.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "message",
+    "version": "2026-11-09.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "lime-use-focus-when-replaced",
+  "type": "registry:item",
+  "title": "lime / useFocusWhenReplaced",
+  "description": "Support file: moves focus to an outcome when the buttons that had it are replaced, so a keyboard user is not dropped to the top.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/use-focus-when-replaced.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "use-focus-when-replaced",
+    "version": "2026-11-09.2"
+  }
+}

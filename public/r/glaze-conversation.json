@@ -1,0 +1,14 @@
+{
+  "name": "glaze-conversation",
+  "type": "registry:item",
+  "title": "glaze / Conversation",
+  "description": "Holds a thread that follows new replies.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/conversation.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "conversation",
+    "version": "2026-11-09.2"
+  }
+}

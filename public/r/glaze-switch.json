@@ -1,0 +1,14 @@
+{
+  "name": "glaze-switch",
+  "type": "registry:item",
+  "title": "glaze / Switch",
+  "description": "Turns a setting on or off at once.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/switch.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "switch",
+    "version": "2026-11-09.2"
+  }
+}

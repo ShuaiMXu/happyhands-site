@@ -1,0 +1,14 @@
+{
+  "name": "quartz-card",
+  "type": "registry:item",
+  "title": "quartz / Card",
+  "description": "A white working surface for one topic, optionally collapsible.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/card.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "card",
+    "version": "2026-11-09.2"
+  }
+}

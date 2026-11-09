@@ -1,0 +1,14 @@
+{
+  "name": "quartz-mention",
+  "type": "registry:item",
+  "title": "quartz / Mention",
+  "description": "Support file: a resource named in a prompt or an answer.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/mention.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "mention",
+    "version": "2026-11-09.2"
+  }
+}

@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/number-input.json"
 registryDependencies: [field, icon, input, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/number-input
+human: https://happyhands.cc/systems/glaze/components/number-input.md
 ---
 
 # Number input

@@ -16,8 +16,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/meter.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/meter.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/meter.md",
+    "page": "https://happyhands.cc/systems/sodium/components/meter.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/sodium/registry/items/meter.json",
+      "sourceSha256": "966b1ffa5296a006cdd76d2e36f21072c9a9169ddb48592ada6dc8090a321aa3",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

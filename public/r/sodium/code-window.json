@@ -16,8 +16,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/code-window.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/code-window.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/code-window.md",
+    "page": "https://happyhands.cc/systems/sodium/components/code-window.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/sodium/registry/items/code-window.json",
+      "sourceSha256": "2358b44ad9a37206145bcddebb54442a37e7644bc22ab0241b47c90d5a36dd55",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

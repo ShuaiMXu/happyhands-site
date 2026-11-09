@@ -1,0 +1,14 @@
+{
+  "name": "lime-tabs",
+  "type": "registry:item",
+  "title": "lime / Tabs",
+  "description": "Switches between views of one list, such as Activity and Scheduled.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/tabs.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "tabs",
+    "version": "2026-11-09.2"
+  }
+}

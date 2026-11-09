@@ -1,0 +1,14 @@
+{
+  "name": "sodium-theme",
+  "type": "registry:item",
+  "title": "sodium / Sodium theme",
+  "description": "Support file: tokens, the two OFL faces, scoped base styles, the Tailwind v4 theme mapping and Sodium's recipes: the yellow slab, frames and rules, the field and the overlay.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/sodium/theme.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "theme",
+    "version": "2026-11-09.2"
+  }
+}

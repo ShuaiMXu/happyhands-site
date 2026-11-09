@@ -13,8 +13,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/empty.md",
-    "page": "https://happyhands.cc/design-how/lime/components/empty.md"
+    "docs": "https://happyhands.cc/systems/lime/components/empty.md",
+    "page": "https://happyhands.cc/systems/lime/components/empty.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/lime/registry/items/empty.json",
+      "sourceSha256": "f7c9dae924dd43a96c80e99f96c6e8248be4da0591624080c15c3d7c804b08ff",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

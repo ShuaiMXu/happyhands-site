@@ -19,8 +19,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/sheet.md",
-    "page": "https://happyhands.cc/design-how/lime/components/sheet.md"
+    "docs": "https://happyhands.cc/systems/lime/components/sheet.md",
+    "page": "https://happyhands.cc/systems/lime/components/sheet.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/lime/registry/items/sheet.json",
+      "sourceSha256": "9a4a480f17fea3cda7a159144cb4840ebeda01ccc22e898a0849441c1aa054eb",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

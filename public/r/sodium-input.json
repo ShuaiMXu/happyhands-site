@@ -1,0 +1,14 @@
+{
+  "name": "sodium-input",
+  "type": "registry:item",
+  "title": "sodium / Input",
+  "description": "Takes one line of text.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/input.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "input",
+    "version": "2026-11-09.2"
+  }
+}

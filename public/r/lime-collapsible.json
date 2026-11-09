@@ -1,0 +1,14 @@
+{
+  "name": "lime-collapsible",
+  "type": "registry:item",
+  "title": "lime / Collapsible",
+  "description": "One section that opens and closes, the base of the Why? in Approval request.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/collapsible.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "collapsible",
+    "version": "2026-11-09.2"
+  }
+}

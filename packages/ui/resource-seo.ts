@@ -74,7 +74,7 @@ export function resourceSeoData(
   lang: "zh" | "en" = "zh",
 ) {
   const base = seoData("components", lang),
-    url = `${siteOrigin}/components/?${resource.query}`;
+    url = `${siteOrigin}${lang === "en" ? "/en" : ""}/components/?${resource.query}`;
   // A reference page describes the source resource, not the HappyHands software.
   const graph = base.graph["@graph"].filter(
     (node) => node["@type"] === "Organization" || node["@type"] === "WebSite",

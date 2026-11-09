@@ -16,8 +16,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/message.md",
-    "page": "https://happyhands.cc/design-how/lime/components/message.md"
+    "docs": "https://happyhands.cc/systems/lime/components/message.md",
+    "page": "https://happyhands.cc/systems/lime/components/message.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/lime/registry/items/message.json",
+      "sourceSha256": "26a4289a7f647f2a7af317a020ca7eca96335837d9f317f43f966b023c65236a",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

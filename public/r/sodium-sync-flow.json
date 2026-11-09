@@ -1,0 +1,14 @@
+{
+  "name": "sodium-sync-flow",
+  "type": "registry:item",
+  "title": "sodium / Sync flow",
+  "description": "A nightly sync across the systems it touches as swimlanes, the rows it loaded by source, and Run sync.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/sync-flow.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "sync-flow",
+    "version": "2026-11-09.2"
+  }
+}

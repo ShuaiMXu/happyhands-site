@@ -19,8 +19,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/table.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/table.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/table.md",
+    "page": "https://happyhands.cc/systems/glaze/components/table.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/glaze/registry/items/table.json",
+      "sourceSha256": "f58e7e1f1472ee178c55330f6702356542f807147c4cd26bcf9ae5d92b29811e",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

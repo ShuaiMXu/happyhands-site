@@ -1,0 +1,14 @@
+{
+  "name": "glaze-booking-approval",
+  "type": "registry:item",
+  "title": "glaze / Booking approval",
+  "description": "The assistant asks before it pays a deposit, at phone width: the ask, why it checks and the booking card with Book table.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/booking-approval.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "booking-approval",
+    "version": "2026-11-09.2"
+  }
+}

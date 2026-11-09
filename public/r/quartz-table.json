@@ -1,0 +1,14 @@
+{
+  "name": "quartz-table",
+  "type": "registry:item",
+  "title": "quartz / Table",
+  "description": "Rows and columns with sort, selection, row actions and virtualization.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/table.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "table",
+    "version": "2026-11-09.2"
+  }
+}

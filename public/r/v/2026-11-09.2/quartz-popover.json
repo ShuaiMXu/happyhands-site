@@ -1,0 +1,14 @@
+{
+  "name": "quartz-popover",
+  "type": "registry:item",
+  "title": "quartz / Popover",
+  "description": "Anchored rich content, including the info toggletip and the hover preview.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/popover.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "popover",
+    "version": "2026-11-09.2"
+  }
+}

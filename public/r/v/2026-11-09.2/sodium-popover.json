@@ -1,0 +1,14 @@
+{
+  "name": "sodium-popover",
+  "type": "registry:item",
+  "title": "sodium / Popover",
+  "description": "Shows a few lines next to a control.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/sodium/popover.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "popover",
+    "version": "2026-11-09.2"
+  }
+}

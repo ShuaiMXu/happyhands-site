@@ -18,8 +18,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/truncate.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/truncate.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/truncate.md",
+    "page": "https://happyhands.cc/systems/quartz/components/truncate.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/quartz/registry/items/truncate.json",
+      "sourceSha256": "ff63eb11b18ab80ee63d730ccee77391006b533188c2719fb8c09a74e5104fd7",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

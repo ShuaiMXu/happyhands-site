@@ -1,0 +1,14 @@
+{
+  "name": "lime-popup",
+  "type": "registry:item",
+  "title": "lime / Popup classes",
+  "description": "Support file: the panel, item and separator classes every floating list shares.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/lime/popup.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "popup",
+    "version": "2026-11-09.2"
+  }
+}

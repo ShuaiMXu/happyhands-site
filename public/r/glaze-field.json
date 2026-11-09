@@ -1,0 +1,14 @@
+{
+  "name": "glaze-field",
+  "type": "registry:item",
+  "title": "glaze / Field",
+  "description": "Gives an input its label and error.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/field.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "field",
+    "version": "2026-11-09.2"
+  }
+}

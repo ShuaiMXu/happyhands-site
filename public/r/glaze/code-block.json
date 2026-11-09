@@ -15,8 +15,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/code-block.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/code-block.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/code-block.md",
+    "page": "https://happyhands.cc/systems/glaze/components/code-block.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/glaze/registry/items/code-block.json",
+      "sourceSha256": "9c99a046efc136051a968e968e3fd05362ba2ea8fa275390a95d2a1027d88897",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

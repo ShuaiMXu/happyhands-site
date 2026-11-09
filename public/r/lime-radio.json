@@ -1,0 +1,14 @@
+{
+  "name": "lime-radio",
+  "type": "registry:item",
+  "title": "lime / Radio",
+  "description": "One choice from a short visible list, such as a transfer speed.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/radio.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "radio",
+    "version": "2026-11-09.2"
+  }
+}

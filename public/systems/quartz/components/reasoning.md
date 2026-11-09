@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/reasoning.json"
 registryDependencies: [activity, conversation, kind, response, scroll-focus, status, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/reasoning
+human: https://happyhands.cc/systems/quartz/components/reasoning.md
 ---
 
 # Reasoning

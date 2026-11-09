@@ -1,0 +1,14 @@
+{
+  "name": "lime-chip",
+  "type": "registry:item",
+  "title": "lime / Chip",
+  "description": "A filter the person toggles, such as a spending category.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/chip.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "chip",
+    "version": "2026-11-09.2"
+  }
+}

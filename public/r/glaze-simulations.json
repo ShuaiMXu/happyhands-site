@@ -1,0 +1,14 @@
+{
+  "name": "glaze-simulations",
+  "type": "registry:item",
+  "title": "glaze / Simulations",
+  "description": "Simulated customers run against an agent: the pass count, the last 30 runs as a status strip and each scenario with its status, failures first.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/simulations.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "simulations",
+    "version": "2026-11-09.2"
+  }
+}

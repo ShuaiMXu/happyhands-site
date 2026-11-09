@@ -1,0 +1,14 @@
+{
+  "name": "lime-chat-input",
+  "type": "registry:item",
+  "title": "lime / Chat input",
+  "description": "The box a request to the assistant is written in, with the amount and send.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/chat-input.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "chat-input",
+    "version": "2026-11-09.2"
+  }
+}

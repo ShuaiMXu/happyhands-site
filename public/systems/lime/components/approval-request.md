@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/lime/approval-request.js
 registryDependencies: [amount, button, card, collapsible, icon, status, theme, use-focus-when-replaced, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/lime/components/approval-request
+human: https://happyhands.cc/systems/lime/components/approval-request.md
 ---
 
 # Approval request

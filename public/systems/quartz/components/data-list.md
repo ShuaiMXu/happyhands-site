@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/data-list.json"
 registryDependencies: [format, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/data-list
+human: https://happyhands.cc/systems/quartz/components/data-list.md
 ---
 
 # Data list

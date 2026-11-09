@@ -1,0 +1,14 @@
+{
+  "name": "quartz-use-focus-when-replaced",
+  "type": "registry:item",
+  "title": "quartz / useFocusWhenReplaced",
+  "description": "Support file: moves focus to an outcome when the buttons that had it are replaced, so a keyboard user is not dropped to the top.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/use-focus-when-replaced.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "use-focus-when-replaced",
+    "version": "2026-11-09.2"
+  }
+}

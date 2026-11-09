@@ -10,6 +10,7 @@ import re
 import shutil
 import sys
 import zipfile
+import subprocess
 
 source = pathlib.Path(sys.argv[1]).resolve()
 root = pathlib.Path(__file__).resolve().parents[1]
@@ -50,7 +51,7 @@ def hosted_registry(value):
                 path = item.removeprefix(upstream + '/systems/').removesuffix('.md').strip('/')
                 if '/' not in path:
                     path += '/index'
-                result[key] = f'{base}/design-how/{path}.md'
+                result[key] = f'{base}/systems/{path}.md'
         else:
             result[key] = hosted_registry(item)
     return result
@@ -100,3 +101,6 @@ publish(source / 'index.json', archive / 'source-index.json')
 (archive / 'catalog.json').write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + '\n')
 (archive / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
 print(f'Published {len(catalog["systems"])} systems, {sum(len(s["documents"]) for s in catalog["systems"])} system documents, {len(catalog["reading"])} reading documents and {sum(s["registryCount"] for s in catalog["systems"])} registry entries')
+
+# Rebuild published adaptations and their separate provenance after preserving originals.
+subprocess.run(["node", str(root / "scripts/build-hosted-registry.mjs")], check=True)

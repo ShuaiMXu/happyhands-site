@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/prompt-input.json"
 registryDependencies: [attachment, button, icon, input, mention, overlay, portal, send-button, status, theme, tooltip, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/prompt-input
+human: https://happyhands.cc/systems/glaze/components/prompt-input.md
 ---
 
 # Prompt input

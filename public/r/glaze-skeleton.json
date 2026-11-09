@@ -1,0 +1,14 @@
+{
+  "name": "glaze-skeleton",
+  "type": "registry:item",
+  "title": "glaze / Skeleton",
+  "description": "Holds the shape of content while it loads.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/skeleton.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "skeleton",
+    "version": "2026-11-09.2"
+  }
+}

@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/bar-blocks.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/bar-blocks.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/bar-blocks.md",
+    "page": "https://happyhands.cc/systems/sodium/components/bar-blocks.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/sodium/registry/items/bar-blocks.json",
+      "sourceSha256": "7b87d0f33f0df886207e807a6382d0339c296d5ec8b9d4989adee7f16d08a7e2",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

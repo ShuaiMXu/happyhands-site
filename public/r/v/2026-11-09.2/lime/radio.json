@@ -1,0 +1,36 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "radio",
+  "type": "registry:ui",
+  "title": "Radio",
+  "description": "One choice from a short visible list, such as a transfer speed.",
+  "author": "design.how",
+  "categories": [
+    "selection"
+  ],
+  "dependencies": [
+    "@base-ui/react@^1.8.0"
+  ],
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/lime/theme.json",
+    "https://happyhands.cc/r/v/2026-11-09.2/lime/utils.json"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/systems/lime/components/radio.md",
+    "page": "https://happyhands.cc/systems/lime/components/radio.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/lime/registry/items/radio.json",
+      "sourceSha256": "29165b4c9a821b9e42364d563d7193ef372b253c73db3b956aa4e3d1b1142545",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
+  },
+  "files": [
+    {
+      "path": "registry/lime/ui/radio.tsx",
+      "content": "'use client';\n\nimport {Radio as RadioPrimitive} from '@base-ui/react/radio';\nimport {RadioGroup as RadioGroupPrimitive} from '@base-ui/react/radio-group';\nimport {mergeClass} from '@/lib/lime/utils';\n\n// One choice from a short list, all options visible. Chosen fills with the lime, an olive edge and a\n// near-black dot. For more than about six options use Select. For a view switch use Segmented.\n\nfunction RadioGroup({className, ...props}: RadioGroupPrimitive.Props) {\n  return <RadioGroupPrimitive data-slot=\"radio-group\" className={mergeClass('flex flex-col gap-3', className)} {...props}/>;\n}\n\nfunction Radio({className, ...props}: RadioPrimitive.Root.Props) {\n  return (\n    <RadioPrimitive.Root\n      data-slot=\"radio\"\n      className={mergeClass([\n        'inline-flex size-5 shrink-0 items-center justify-center rounded-full border border-control bg-page',\n        'transition-[background-color,border-color] duration-(--dur-fast) ease-out',\n        'hover:not-data-disabled:border-fg-2',\n        'data-checked:border-accent-line data-checked:bg-accent',\n        'data-disabled:cursor-not-allowed data-disabled:border-line-strong data-disabled:bg-surface-2',\n      ], className)}\n      {...props}\n    >\n      <RadioPrimitive.Indicator data-slot=\"radio-indicator\" className=\"size-2 rounded-full bg-on-accent data-disabled:bg-fg-disabled\"/>\n    </RadioPrimitive.Root>\n  );\n}\n\nexport {RadioGroup, Radio};\n",
+      "type": "registry:ui",
+      "target": "@components/lime/ui/radio.tsx"
+    }
+  ]
+}

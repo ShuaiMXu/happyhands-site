@@ -1,0 +1,14 @@
+{
+  "name": "glaze-input",
+  "type": "registry:item",
+  "title": "glaze / Input",
+  "description": "Takes one line of text.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/input.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "input",
+    "version": "2026-11-09.2"
+  }
+}

@@ -15,11 +15,12 @@ import { resourceRewritePath, resourcePreviewPlugin } from "../scripts/resource-
 const rules = JSON.parse(
   await readFile(new URL("../vercel.json", import.meta.url), "utf8"),
 ).rewrites;
-const route = (query) =>
-  resourceRewritePath(
-    new URL("https://happyhands.cc/components/?" + query),
-    rules,
-  );
+const route = (query) => {
+  const zh = resourceRewritePath(new URL("https://happyhands.cc/components/?" + query), rules);
+  const en = resourceRewritePath(new URL("https://happyhands.cc/en/components/?" + query), rules);
+  assert.equal(en, zh?.replace("/resource-pages/", "/resource-pages/en/"), "English routing parity: " + query);
+  return zh;
+};
 test("query routing chooses each detail type before list fallback", () => {
   assert.equal(
     route("provider=design-md&design=example-123&utm_source=x"),
@@ -193,9 +194,9 @@ test("provider ownership preserves lists and ignores inactive stale selectors", 
 test("preview middleware returns 404 for invalid selectors and 200 for provider lists", async () => {
   const root = await mkdtemp(join(tmpdir(), "happyhands-resource-routing-"));
   try {
-    await mkdir(join(root, "dist/resource-pages"), { recursive: true });
+    await mkdir(join(root, "dist/resource-pages/en"), { recursive: true });
     await writeFile(join(root, "vercel.json"), JSON.stringify({ rewrites: rules }));
-    await writeFile(join(root, "dist/resource-pages/index.html"), "Resource catalog");
+    for (const prefix of ["", "en/"]) await writeFile(join(root, `dist/resource-pages/${prefix}index.html`), "Resource catalog");
     let middleware;
     resourcePreviewPlugin(root).configurePreviewServer({
       middlewares: { use(handler) { middleware = handler; } },
@@ -215,11 +216,13 @@ test("preview middleware returns 404 for invalid selectors and 200 for provider 
       ["provider=studio&component=bad!", 200],
       ["provider=setup&system=bad!&doc=bad!&design=bad!", 200],
     ]) {
+      for (const prefix of ["", "/en"]) {
       let body;
       const response = { statusCode: 200, setHeader() {}, end(value) { body = value; } };
-      await middleware({ url: "/components/?" + query }, response, () => assert.fail("Unexpected fallthrough"));
+      await middleware({ url: prefix + "/components/?" + query }, response, () => assert.fail("Unexpected fallthrough"));
       assert.equal(response.statusCode, expectedStatus, query);
       assert.equal(String(body), expectedStatus === 404 ? "Not found" : "Resource catalog", query);
+      }
     }
   } finally {
     await rm(root, { recursive: true, force: true });

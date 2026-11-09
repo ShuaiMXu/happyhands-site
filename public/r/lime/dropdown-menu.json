@@ -19,8 +19,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/dropdown-menu.md",
-    "page": "https://happyhands.cc/design-how/lime/components/dropdown-menu.md"
+    "docs": "https://happyhands.cc/systems/lime/components/dropdown-menu.md",
+    "page": "https://happyhands.cc/systems/lime/components/dropdown-menu.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/lime/registry/items/dropdown-menu.json",
+      "sourceSha256": "8deda00b1011eed95a8756a97faa04e08211a4edb9dd34d7f3ebd702065a4ed7",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

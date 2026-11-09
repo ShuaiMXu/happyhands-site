@@ -16,8 +16,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/skeleton.md",
-    "page": "https://happyhands.cc/design-how/lime/components/skeleton.md"
+    "docs": "https://happyhands.cc/systems/lime/components/skeleton.md",
+    "page": "https://happyhands.cc/systems/lime/components/skeleton.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/lime/registry/items/skeleton.json",
+      "sourceSha256": "323e95fcf0265e6387ad05a207de51345b70b18bdbfc6d15a3a0296f60cd9695",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

@@ -80,12 +80,12 @@ test("old production host canonicalization stays scoped and precedes path aliase
 
 test("Sodium and Glaze standalone aliases consolidate on their prerendered resource", () => {
   for (const system of ["sodium", "glaze"]) {
-    for (const suffix of ["/", ""]) {
-      const source = `/systems/${system}${suffix}`;
+    for (const prefix of ["", "/en"]) for (const suffix of ["/", ""]) {
+      const source = `${prefix}/systems/${system}${suffix}`;
       const rules = config.redirects.filter((rule) => rule.source === source);
       assert.deepEqual(rules, [{
         source,
-        destination: `/components/?provider=systems&system=${system}`,
+        destination: `${prefix}/components/?provider=systems&system=${system}`,
         permanent: true,
       }]);
       const rule = rules[0];

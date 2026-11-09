@@ -1,0 +1,14 @@
+{
+  "name": "lime-alert-dialog",
+  "type": "registry:item",
+  "title": "lime / Alert dialog",
+  "description": "A blocking decision, such as deleting a goal, that cannot be dismissed from outside.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/alert-dialog.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "alert-dialog",
+    "version": "2026-11-09.2"
+  }
+}

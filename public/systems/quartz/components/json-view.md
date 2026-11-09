@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/json-view.json"
 registryDependencies: [badge, button, code-block, copy-button, icon, scroll-focus, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/json-view
+human: https://happyhands.cc/systems/quartz/components/json-view.md
 ---
 
 # JSON view

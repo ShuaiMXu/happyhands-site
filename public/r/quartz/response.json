@@ -19,8 +19,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/response.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/response.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/response.md",
+    "page": "https://happyhands.cc/systems/quartz/components/response.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/quartz/registry/items/response.json",
+      "sourceSha256": "e0c87245070f49c1e8d7b04e9f9feb643c9e998de7af34ceea46bac3ed8ad894",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

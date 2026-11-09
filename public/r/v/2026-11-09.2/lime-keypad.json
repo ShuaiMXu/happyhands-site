@@ -1,0 +1,14 @@
+{
+  "name": "lime-keypad",
+  "type": "registry:item",
+  "title": "lime / Keypad",
+  "description": "The number pad for entering an amount on a phone, such as how much to send.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/lime/keypad.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "keypad",
+    "version": "2026-11-09.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "lime-empty",
+  "type": "registry:item",
+  "title": "lime / Empty",
+  "description": "An empty state with one action, such as Add a card.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/empty.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "empty",
+    "version": "2026-11-09.2"
+  }
+}

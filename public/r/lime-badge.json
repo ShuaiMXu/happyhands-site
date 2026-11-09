@@ -1,0 +1,14 @@
+{
+  "name": "lime-badge",
+  "type": "registry:item",
+  "title": "lime / Badge",
+  "description": "A short fact that never changes on its own, such as Plus or New.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/badge.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "badge",
+    "version": "2026-11-09.2"
+  }
+}

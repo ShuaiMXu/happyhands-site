@@ -1,0 +1,14 @@
+{
+  "name": "glaze-follow-ups",
+  "type": "registry:item",
+  "title": "glaze / Follow-ups",
+  "description": "Suggests next prompts to send.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/follow-ups.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "follow-ups",
+    "version": "2026-11-09.2"
+  }
+}

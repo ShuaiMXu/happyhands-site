@@ -14,8 +14,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/bill-schedule.md",
-    "page": "https://happyhands.cc/design-how/lime/components/bill-schedule.md"
+    "docs": "https://happyhands.cc/systems/lime/components/bill-schedule.md",
+    "page": "https://happyhands.cc/systems/lime/components/bill-schedule.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/lime/registry/items/bill-schedule.json",
+      "sourceSha256": "58ec79c9e95150d77af3a79044210a082e13e453d5d02e301872b394c16fb642",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

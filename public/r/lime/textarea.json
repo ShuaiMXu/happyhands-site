@@ -18,8 +18,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/textarea.md",
-    "page": "https://happyhands.cc/design-how/lime/components/textarea.md"
+    "docs": "https://happyhands.cc/systems/lime/components/textarea.md",
+    "page": "https://happyhands.cc/systems/lime/components/textarea.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/lime/registry/items/textarea.json",
+      "sourceSha256": "0c7ee7f36576d1a6df276ba1dd12bdd57945ee01c63219e2c9534ca6917efc6a",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

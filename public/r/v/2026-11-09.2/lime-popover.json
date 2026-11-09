@@ -1,0 +1,14 @@
+{
+  "name": "lime-popover",
+  "type": "registry:item",
+  "title": "lime / Popover",
+  "description": "An anchored panel with controls, such as splitting a bill.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/lime/popover.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "popover",
+    "version": "2026-11-09.2"
+  }
+}

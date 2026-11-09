@@ -19,8 +19,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/avatar.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/avatar.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/avatar.md",
+    "page": "https://happyhands.cc/systems/glaze/components/avatar.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/glaze/registry/items/avatar.json",
+      "sourceSha256": "0e6ae6ef4045dfa853f38b1275d833a3fe3eb5c28ed5603eb96aa1634176a0e6",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

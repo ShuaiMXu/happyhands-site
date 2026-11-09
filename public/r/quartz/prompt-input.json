@@ -27,8 +27,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/prompt-input.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/prompt-input.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/prompt-input.md",
+    "page": "https://happyhands.cc/systems/quartz/components/prompt-input.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/quartz/registry/items/prompt-input.json",
+      "sourceSha256": "7ec7b3919db50154efa879db78d3446b4ea81fb7b0a061503c32545041f7a06a",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

@@ -1,0 +1,14 @@
+{
+  "name": "glaze-overlay",
+  "type": "registry:item",
+  "title": "glaze / Overlay",
+  "description": "Support file: what every overlay shares: the ringed paper surface and the card-shaped modal, the way they appear, the list rows, and for Dialog and Sheet the open state that waits for a running action and Enter on the footer's default action.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/overlay.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "overlay",
+    "version": "2026-11-09.2"
+  }
+}

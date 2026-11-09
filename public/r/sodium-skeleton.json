@@ -1,0 +1,14 @@
+{
+  "name": "sodium-skeleton",
+  "type": "registry:item",
+  "title": "sodium / Skeleton",
+  "description": "Holds the shape of content while it loads.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/skeleton.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "skeleton",
+    "version": "2026-11-09.2"
+  }
+}

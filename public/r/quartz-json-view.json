@@ -1,0 +1,14 @@
+{
+  "name": "quartz-json-view",
+  "type": "registry:item",
+  "title": "quartz / JSON view",
+  "description": "Foldable structured output.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/json-view.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "json-view",
+    "version": "2026-11-09.2"
+  }
+}

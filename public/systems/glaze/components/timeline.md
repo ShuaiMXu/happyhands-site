@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/timeline.json"
 registryDependencies: [chart, data-units, skeleton, status, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/timeline
+human: https://happyhands.cc/systems/glaze/components/timeline.md
 ---
 
 # Timeline

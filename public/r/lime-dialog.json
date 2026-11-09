@@ -1,0 +1,14 @@
+{
+  "name": "lime-dialog",
+  "type": "registry:item",
+  "title": "lime / Dialog",
+  "description": "A focused task over a scrim, such as sending money.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/dialog.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "dialog",
+    "version": "2026-11-09.2"
+  }
+}

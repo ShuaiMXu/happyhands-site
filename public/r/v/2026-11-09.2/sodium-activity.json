@@ -1,0 +1,14 @@
+{
+  "name": "sodium-activity",
+  "type": "registry:item",
+  "title": "sodium / Activity",
+  "description": "Says what a run is doing now.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/sodium/activity.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "activity",
+    "version": "2026-11-09.2"
+  }
+}

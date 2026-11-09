@@ -1,0 +1,14 @@
+{
+  "name": "glaze-collapsible",
+  "type": "registry:item",
+  "title": "glaze / Collapsible",
+  "description": "Shows and hides a region.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/collapsible.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "collapsible",
+    "version": "2026-11-09.2"
+  }
+}

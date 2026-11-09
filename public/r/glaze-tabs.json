@@ -1,0 +1,14 @@
+{
+  "name": "glaze-tabs",
+  "type": "registry:item",
+  "title": "glaze / Tabs",
+  "description": "Switches between panels of one view.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/tabs.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "tabs",
+    "version": "2026-11-09.2"
+  }
+}

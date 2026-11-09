@@ -22,8 +22,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/reasoning.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/reasoning.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/reasoning.md",
+    "page": "https://happyhands.cc/systems/quartz/components/reasoning.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/quartz/registry/items/reasoning.json",
+      "sourceSha256": "8fc36df166c3350ee4e19df467b437d70dcae03b60b43ea668e8db44e28b9552",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

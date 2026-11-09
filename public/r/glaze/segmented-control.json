@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/segmented-control.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/segmented-control.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/segmented-control.md",
+    "page": "https://happyhands.cc/systems/glaze/components/segmented-control.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/glaze/registry/items/segmented-control.json",
+      "sourceSha256": "dc89d1106e94dbdd9c30d61f0caa0feb4b0d5718fb8f911630552e77681f4630",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

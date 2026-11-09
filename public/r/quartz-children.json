@@ -1,0 +1,14 @@
+{
+  "name": "quartz-children",
+  "type": "registry:item",
+  "title": "quartz / Compound parts",
+  "description": "Support file: finds the compound parts of a component among its children.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/children.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "children",
+    "version": "2026-11-09.2"
+  }
+}

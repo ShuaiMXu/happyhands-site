@@ -1,0 +1,14 @@
+{
+  "name": "quartz-code-block",
+  "type": "registry:item",
+  "title": "quartz / Code block",
+  "description": "Highlighted code, one-line commands and inline code, with copy.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/code-block.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "code-block",
+    "version": "2026-11-09.2"
+  }
+}

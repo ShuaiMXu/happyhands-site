@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/input.json"
 registryDependencies: [button, copy-button, field, icon, kbd, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/input
+human: https://happyhands.cc/systems/glaze/components/input.md
 ---
 
 # Input

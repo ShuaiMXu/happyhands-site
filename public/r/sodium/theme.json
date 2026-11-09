@@ -13,13 +13,18 @@
     "@tailwindcss/postcss@^4.3.3"
   ],
   "registryDependencies": [
-    "https://happyhands.cc/r/sodium/skill.json",
     "https://happyhands.cc/r/sodium/portal.json"
   ],
   "docs": "Sodium is scoped: its styles apply only inside an element with the class sodium.\n1. Import the theme once, in the root layout, as its own stylesheet (not an @import in globals.css): import '@/components/sodium/styles.css'\n2. Put className=\"sodium\" on the element that holds Sodium UI, usually <body>. Sodium's classes work on the elements inside it, in your own code too, not on that element itself.\n3. Wrap the app inside that element in <SodiumPortalProvider> from '@/lib/sodium/portal', so dialogs and menus keep the theme.\nDark mode: put data-theme=\"dark\" on the sodium element or any ancestor, such as <html>. The theme does not follow the system setting (prefers-color-scheme) on its own.\nComponents: npx shadcn@latest add https://happyhands.cc/r/sodium/<name>.json; https://happyhands.cc/r/sodium/registry.json lists them all.",
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/index.md",
-    "page": "https://happyhands.cc/design-how/sodium/index.md"
+    "docs": "https://happyhands.cc/systems/sodium/index.md",
+    "page": "https://happyhands.cc/systems/sodium/index.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/sodium/registry/items/theme.json",
+      "sourceSha256": "ad706a28fa1726964aa9c536af4f2f87689bd0bd6f8b55e38de13776f0d8f765",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

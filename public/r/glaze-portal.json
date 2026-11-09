@@ -1,0 +1,14 @@
+{
+  "name": "glaze-portal",
+  "type": "registry:item",
+  "title": "glaze / Portal",
+  "description": "Support file: puts overlays inside the .glaze scope so they keep its tokens, and makes the page inert behind a modal.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/portal.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "portal",
+    "version": "2026-11-09.2"
+  }
+}

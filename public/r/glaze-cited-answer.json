@@ -1,0 +1,14 @@
+{
+  "name": "glaze-cited-answer",
+  "type": "registry:item",
+  "title": "glaze / Cited answer",
+  "description": "A question asked of the workspace: a short answer with numbered citations and the sources they point to.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/cited-answer.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "cited-answer",
+    "version": "2026-11-09.2"
+  }
+}

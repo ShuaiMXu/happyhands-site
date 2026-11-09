@@ -6,7 +6,7 @@ kind: system-index
 version: 1
 last-updated: 2026-10-26
 install-base: `npx shadcn@latest add https://happyhands.cc/r/sodium/<name>.json`
-human: https://design.how/systems/sodium
+human: https://happyhands.cc/systems/sodium/index.md
 
 ## How to use this system
 1. Read this page. Follow the global rules and the priority order.
@@ -102,4 +102,4 @@ Whole screens built only from the components above. For a whole screen, start fr
 - Pipeline history: A pipeline's page under its path: runs per day, its latest partitions and its schedule as numbered tabs. `npx shadcn@latest add https://happyhands.cc/r/sodium/pipeline-history.json`
 
 ## Optional
-- [Human docs](https://design.how/systems/sodium): visual reference
+- [Human docs](https://happyhands.cc/systems/sodium/index.md): visual reference

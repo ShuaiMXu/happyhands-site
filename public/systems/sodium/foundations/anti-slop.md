@@ -3,7 +3,7 @@ name: Anti-slop
 system: sodium
 kind: foundation
 last-updated: 2026-10-26
-human: https://design.how/systems/sodium/foundations/anti-slop
+human: https://happyhands.cc/systems/sodium/foundations/anti-slop.md
 ---
 
 # Anti-slop

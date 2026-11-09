@@ -20,8 +20,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/tabs.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/tabs.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/tabs.md",
+    "page": "https://happyhands.cc/systems/quartz/components/tabs.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/quartz/registry/items/tabs.json",
+      "sourceSha256": "9e47b59bb0e8a4c6cccbad8e186d22c2d10e94c4c223e3e71cb82ba116f7b386",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

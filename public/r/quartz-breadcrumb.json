@@ -1,0 +1,14 @@
+{
+  "name": "quartz-breadcrumb",
+  "type": "registry:item",
+  "title": "quartz / Breadcrumb",
+  "description": "Where the page sits.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/breadcrumb.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "breadcrumb",
+    "version": "2026-11-09.2"
+  }
+}

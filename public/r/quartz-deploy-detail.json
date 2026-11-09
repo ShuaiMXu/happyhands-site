@@ -1,0 +1,14 @@
+{
+  "name": "quartz-deploy-detail",
+  "type": "registry:item",
+  "title": "quartz / Prompt release",
+  "description": "A prompt release paused on a failed eval: the release card with the decision and Roll back, the rollout on one clock, the evals with the failure first, the log and the releases before it.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/deploy-detail.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "deploy-detail",
+    "version": "2026-11-09.2"
+  }
+}

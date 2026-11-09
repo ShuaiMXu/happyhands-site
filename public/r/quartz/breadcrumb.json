@@ -18,8 +18,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/breadcrumb.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/breadcrumb.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/breadcrumb.md",
+    "page": "https://happyhands.cc/systems/quartz/components/breadcrumb.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/quartz/registry/items/breadcrumb.json",
+      "sourceSha256": "b81c214967bce0f69059458e5a160160e61d2bcdc41abba119ad4242d7e0234c",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

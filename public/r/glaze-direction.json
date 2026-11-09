@@ -1,0 +1,14 @@
+{
+  "name": "glaze-direction",
+  "type": "registry:item",
+  "title": "glaze / Direction",
+  "description": "Support file: hands the reading direction to Base UI and to popups opened from a right-to-left subtree.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/direction.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "direction",
+    "version": "2026-11-09.2"
+  }
+}

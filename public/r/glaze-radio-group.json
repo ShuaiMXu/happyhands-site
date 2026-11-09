@@ -1,0 +1,14 @@
+{
+  "name": "glaze-radio-group",
+  "type": "registry:item",
+  "title": "glaze / Radio group",
+  "description": "Picks one of a few choices.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/radio-group.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "radio-group",
+    "version": "2026-11-09.2"
+  }
+}

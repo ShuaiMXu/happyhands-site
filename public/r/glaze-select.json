@@ -1,0 +1,14 @@
+{
+  "name": "glaze-select",
+  "type": "registry:item",
+  "title": "glaze / Select",
+  "description": "Picks one option from a list.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/select.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "select",
+    "version": "2026-11-09.2"
+  }
+}

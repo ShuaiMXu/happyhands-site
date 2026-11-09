@@ -1,0 +1,14 @@
+{
+  "name": "lime-textarea",
+  "type": "registry:item",
+  "title": "lime / Textarea",
+  "description": "Several lines of text, such as a note on a payment.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/textarea.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "textarea",
+    "version": "2026-11-09.2"
+  }
+}

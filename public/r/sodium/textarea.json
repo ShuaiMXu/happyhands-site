@@ -16,8 +16,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/textarea.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/textarea.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/textarea.md",
+    "page": "https://happyhands.cc/systems/sodium/components/textarea.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/sodium/registry/items/textarea.json",
+      "sourceSha256": "94a62eba582790679db239a8ba3058b3298d646c47ea6f1fda6fe50f683a5ec3",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

@@ -1,0 +1,14 @@
+{
+  "name": "glaze-toolbar",
+  "type": "registry:item",
+  "title": "glaze / Toolbar",
+  "description": "Holds a row of actions on one thing.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/toolbar.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "toolbar",
+    "version": "2026-11-09.2"
+  }
+}

@@ -1,3 +1,4 @@
+import {hostedDocument} from '../scripts/hosted-document.mjs';
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync, existsSync } from "node:fs";
@@ -34,7 +35,7 @@ test("the hosted registry resolves all dependencies and docs, preserving compone
       const original = read(
         `design-how/${system.id}/registry/items/${item.name}.json`,
       );
-      assert.deepEqual(payload.files, original.files);
+      assert.deepEqual(payload.files, item.name === "skill" ? original.files.map(file=>({...file,content:hostedDocument(file.content)})) : original.files);
       assert.equal(payload.author, original.author);
       for (const dep of payload.registryDependencies || []) {
         if (!dep.startsWith("https://")) continue;
@@ -76,7 +77,7 @@ test("published archives contain no placeholder media hosts", () => {
   const entries = read("design-archive/index.json");
   for (const entry of entries) {
     assert.ok(!entry.video.includes("example.com"));
-    const system = read(`design-archive/${entry.slug}/design-system.json`);
+    const system = entry.source === "designmd.app" ? readFileSync(new URL(`design-archive/${entry.slug}/design.md`,root),"utf8") : read(`design-archive/${entry.slug}/design-system.json`);
     assert.ok(
       !JSON.stringify(system).includes("assets.example.com"),
       entry.slug,

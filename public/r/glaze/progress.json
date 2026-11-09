@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/progress.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/progress.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/progress.md",
+    "page": "https://happyhands.cc/systems/glaze/components/progress.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/glaze/registry/items/progress.json",
+      "sourceSha256": "6ae18cbf10c1e9aa0ea6640daa717fbd9b6c592fad74db639b54d77c299e328e",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

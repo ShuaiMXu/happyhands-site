@@ -1,0 +1,14 @@
+{
+  "name": "sodium-overlay",
+  "type": "registry:item",
+  "title": "sodium / Overlay",
+  "description": "Support file: what every overlay shares: the edged panel surface, the way it arrives, and the list rows of selects, comboboxes and menus.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/overlay.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "overlay",
+    "version": "2026-11-09.2"
+  }
+}

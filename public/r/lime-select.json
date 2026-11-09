@@ -1,0 +1,14 @@
+{
+  "name": "lime-select",
+  "type": "registry:item",
+  "title": "lime / Select",
+  "description": "One choice from a list, such as an account or a category.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/select.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "select",
+    "version": "2026-11-09.2"
+  }
+}

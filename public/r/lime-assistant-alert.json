@@ -1,0 +1,14 @@
+{
+  "name": "lime-assistant-alert",
+  "type": "registry:item",
+  "title": "lime / Assistant alert",
+  "description": "The assistant flags an unusual charge or an unused subscription, with one row and the answers to it.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/assistant-alert.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "assistant-alert",
+    "version": "2026-11-09.2"
+  }
+}

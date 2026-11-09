@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/slider.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/slider.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/slider.md",
+    "page": "https://happyhands.cc/systems/sodium/components/slider.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/sodium/registry/items/slider.json",
+      "sourceSha256": "801bc0e403f99e171822da5ce3dafe99ba2bfa786bcdbc2d5454ecb50a7a0b37",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

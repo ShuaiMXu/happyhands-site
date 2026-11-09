@@ -1,0 +1,14 @@
+{
+  "name": "lime-scroll-area",
+  "type": "registry:item",
+  "title": "lime / Scroll area",
+  "description": "A scrolling region with a slim thumb.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/scroll-area.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "scroll-area",
+    "version": "2026-11-09.2"
+  }
+}

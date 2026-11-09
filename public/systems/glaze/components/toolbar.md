@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/toolbar.json"
 registryDependencies: [button, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/toolbar
+human: https://happyhands.cc/systems/glaze/components/toolbar.md
 ---
 
 # Toolbar

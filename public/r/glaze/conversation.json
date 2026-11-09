@@ -19,8 +19,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/conversation.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/conversation.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/conversation.md",
+    "page": "https://happyhands.cc/systems/glaze/components/conversation.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/glaze/registry/items/conversation.json",
+      "sourceSha256": "c5d5f5817e3b509e3233afa483635d23fbcfea7593722dca2ffcd287564c4c6e",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

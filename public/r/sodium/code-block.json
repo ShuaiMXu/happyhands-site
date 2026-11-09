@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/code-block.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/code-block.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/code-block.md",
+    "page": "https://happyhands.cc/systems/sodium/components/code-block.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/sodium/registry/items/code-block.json",
+      "sourceSha256": "452d069bdc0bfaea3e2f474812be962722b49c8af3fbf35ff69cc27f099f3623",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

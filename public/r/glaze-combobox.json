@@ -1,0 +1,14 @@
+{
+  "name": "glaze-combobox",
+  "type": "registry:item",
+  "title": "glaze / Combobox",
+  "description": "Finds one or more values by typing.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/combobox.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "combobox",
+    "version": "2026-11-09.2"
+  }
+}

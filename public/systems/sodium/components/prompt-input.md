@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/sodium/prompt-input.json
 registryDependencies: [button, icon, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/sodium/components/prompt-input
+human: https://happyhands.cc/systems/sodium/components/prompt-input.md
 ---
 
 # Prompt input

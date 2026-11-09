@@ -20,8 +20,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/reasoning.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/reasoning.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/reasoning.md",
+    "page": "https://happyhands.cc/systems/glaze/components/reasoning.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/glaze/registry/items/reasoning.json",
+      "sourceSha256": "813bf4f79d56329bf3e674dc15494df3144bb0f2544067f40b1ba383f90cfbaa",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

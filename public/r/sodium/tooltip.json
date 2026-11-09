@@ -19,8 +19,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/tooltip.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/tooltip.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/tooltip.md",
+    "page": "https://happyhands.cc/systems/sodium/components/tooltip.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/sodium/registry/items/tooltip.json",
+      "sourceSha256": "1cf5c027fed5821d77516281053f30772e890026efd8ce3b85e4eeb80e2a75fe",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

@@ -14,8 +14,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/relative-time.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/relative-time.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/relative-time.md",
+    "page": "https://happyhands.cc/systems/glaze/components/relative-time.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/glaze/registry/items/relative-time.json",
+      "sourceSha256": "61fa39fc1934dcee2e71b5aaff13672c0e2506a9f60f1c6821b504d98c606855",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

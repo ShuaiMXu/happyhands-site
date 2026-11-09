@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/slider.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/slider.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/slider.md",
+    "page": "https://happyhands.cc/systems/quartz/components/slider.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/quartz/registry/items/slider.json",
+      "sourceSha256": "deed1cca14910a86aba3fbb7fa4dc6b3fc5546c262c41b7cbe7e2effb787c762",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

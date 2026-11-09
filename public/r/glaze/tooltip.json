@@ -18,8 +18,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/tooltip.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/tooltip.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/tooltip.md",
+    "page": "https://happyhands.cc/systems/glaze/components/tooltip.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/glaze/registry/items/tooltip.json",
+      "sourceSha256": "4af9e155c15bebde7696784da8cad20ebc8de63ee53b6185d2941b859a4c032b",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

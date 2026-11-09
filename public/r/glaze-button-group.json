@@ -1,0 +1,14 @@
+{
+  "name": "glaze-button-group",
+  "type": "registry:item",
+  "title": "glaze / Button group",
+  "description": "Joins related buttons into one control.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/button-group.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "button-group",
+    "version": "2026-11-09.2"
+  }
+}

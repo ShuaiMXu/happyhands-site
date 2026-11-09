@@ -16,8 +16,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/switch.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/switch.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/switch.md",
+    "page": "https://happyhands.cc/systems/sodium/components/switch.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/sodium/registry/items/switch.json",
+      "sourceSha256": "461de6e1e9baf0916077d4d8fa5c3f7e64bb77a4f0759745945a466bbeec1e9c",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

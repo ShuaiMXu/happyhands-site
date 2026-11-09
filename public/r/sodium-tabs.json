@@ -1,0 +1,14 @@
+{
+  "name": "sodium-tabs",
+  "type": "registry:item",
+  "title": "sodium / Tabs",
+  "description": "Switches between panels of one view.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/tabs.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "tabs",
+    "version": "2026-11-09.2"
+  }
+}

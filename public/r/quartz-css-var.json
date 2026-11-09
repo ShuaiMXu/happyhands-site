@@ -1,0 +1,14 @@
+{
+  "name": "quartz-css-var",
+  "type": "registry:item",
+  "title": "quartz / CSS token reader",
+  "description": "Support file: reads a design token from the page for charts and canvases.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/css-var.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "css-var",
+    "version": "2026-11-09.2"
+  }
+}

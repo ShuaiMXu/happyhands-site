@@ -1,0 +1,14 @@
+{
+  "name": "sodium-dialog",
+  "type": "registry:item",
+  "title": "sodium / Dialog",
+  "description": "Asks for a decision on top of the page.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/sodium/dialog.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "dialog",
+    "version": "2026-11-09.2"
+  }
+}

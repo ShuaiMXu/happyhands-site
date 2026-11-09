@@ -1,0 +1,14 @@
+{
+  "name": "glaze-segmented-control",
+  "type": "registry:item",
+  "title": "glaze / Segmented control",
+  "description": "Switches between a few views of one thing.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/segmented-control.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "segmented-control",
+    "version": "2026-11-09.2"
+  }
+}

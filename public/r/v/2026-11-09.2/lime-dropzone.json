@@ -1,0 +1,14 @@
+{
+  "name": "lime-dropzone",
+  "type": "registry:item",
+  "title": "lime / Dropzone",
+  "description": "A target for receipts and statements, with type and size checks.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/lime/dropzone.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "dropzone",
+    "version": "2026-11-09.2"
+  }
+}

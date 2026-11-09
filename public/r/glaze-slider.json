@@ -1,0 +1,14 @@
+{
+  "name": "glaze-slider",
+  "type": "registry:item",
+  "title": "glaze / Slider",
+  "description": "Picks a number or a range.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/slider.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "slider",
+    "version": "2026-11-09.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "glaze-breadcrumb",
+  "type": "registry:item",
+  "title": "glaze / Breadcrumb",
+  "description": "Shows where the page sits.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/breadcrumb.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "breadcrumb",
+    "version": "2026-11-09.2"
+  }
+}

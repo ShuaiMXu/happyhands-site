@@ -16,8 +16,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/switch.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/switch.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/switch.md",
+    "page": "https://happyhands.cc/systems/quartz/components/switch.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/quartz/registry/items/switch.json",
+      "sourceSha256": "20d0c215ad1475dd92c724ac3b962e9f89bc0b3d1fc1d952dec605138119566b",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

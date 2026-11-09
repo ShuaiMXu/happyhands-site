@@ -20,8 +20,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/timeline.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/timeline.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/timeline.md",
+    "page": "https://happyhands.cc/systems/glaze/components/timeline.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/glaze/registry/items/timeline.json",
+      "sourceSha256": "54a364c1ce4d3860091a53ede4141489578ca93331aa9d4ed05a40b6c0c6ecc2",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

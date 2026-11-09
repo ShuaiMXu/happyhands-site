@@ -1,0 +1,14 @@
+{
+  "name": "glaze-theme",
+  "type": "registry:item",
+  "title": "glaze / Glaze theme",
+  "description": "Support file: tokens, scoped base styles, the Tailwind v4 theme mapping and Glaze's recipes: glass, the card shell, the pill field and the overlay.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/theme.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "theme",
+    "version": "2026-11-09.2"
+  }
+}

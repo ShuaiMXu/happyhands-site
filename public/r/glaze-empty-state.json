@@ -1,0 +1,14 @@
+{
+  "name": "glaze-empty-state",
+  "type": "registry:item",
+  "title": "glaze / Empty state",
+  "description": "Explains why a region is empty.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/empty-state.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "empty-state",
+    "version": "2026-11-09.2"
+  }
+}

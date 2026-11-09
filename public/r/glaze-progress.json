@@ -1,0 +1,14 @@
+{
+  "name": "glaze-progress",
+  "type": "registry:item",
+  "title": "glaze / Progress",
+  "description": "Shows how far a task got.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/progress.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "progress",
+    "version": "2026-11-09.2"
+  }
+}

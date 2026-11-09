@@ -16,8 +16,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/card.md",
-    "page": "https://happyhands.cc/design-how/lime/components/card.md"
+    "docs": "https://happyhands.cc/systems/lime/components/card.md",
+    "page": "https://happyhands.cc/systems/lime/components/card.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/lime/registry/items/card.json",
+      "sourceSha256": "72331b4a3f3be1722a226f73824856ba68211f77b2e6243f0d6b1fba12106021",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

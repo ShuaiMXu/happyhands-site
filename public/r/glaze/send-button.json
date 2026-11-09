@@ -15,8 +15,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/send-button.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/send-button.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/send-button.md",
+    "page": "https://happyhands.cc/systems/glaze/components/send-button.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/glaze/registry/items/send-button.json",
+      "sourceSha256": "7f9e97811179471663819eddfded924cfc050940fbfa87f28b2a2c8f3970a8ab",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

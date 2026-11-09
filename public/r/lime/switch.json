@@ -16,8 +16,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/switch.md",
-    "page": "https://happyhands.cc/design-how/lime/components/switch.md"
+    "docs": "https://happyhands.cc/systems/lime/components/switch.md",
+    "page": "https://happyhands.cc/systems/lime/components/switch.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/lime/registry/items/switch.json",
+      "sourceSha256": "82c0c70bbe7fb7d1ea6f637020ce749df16e2d53ad37a3daeca7d44635ecccaa",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

@@ -1,0 +1,14 @@
+{
+  "name": "sodium-numbered-tabs",
+  "type": "registry:item",
+  "title": "sodium / Numbered tabs",
+  "description": "Steps through the few numbered sections of one page.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/numbered-tabs.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "numbered-tabs",
+    "version": "2026-11-09.2"
+  }
+}

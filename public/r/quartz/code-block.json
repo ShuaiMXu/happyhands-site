@@ -21,8 +21,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/code-block.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/code-block.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/code-block.md",
+    "page": "https://happyhands.cc/systems/quartz/components/code-block.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/quartz/registry/items/code-block.json",
+      "sourceSha256": "b95236ca44f81d6adb1cad273993e9e1a2a3cddf8983a9150bfb61cff05eb676",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

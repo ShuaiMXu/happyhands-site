@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/lime/action-receipt.json
 registryDependencies: [button, icon, message, status, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/lime/components/action-receipt
+human: https://happyhands.cc/systems/lime/components/action-receipt.md
 ---
 
 # Action receipt

@@ -1,0 +1,14 @@
+{
+  "name": "quartz-lint",
+  "type": "registry:item",
+  "title": "quartz / Quartz lint",
+  "description": "One command that flags what Quartz's rules forbid in your app, such as a raw color, a hue filling a region or a status dot, and says what to use instead.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/lint.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "lint",
+    "version": "2026-11-09.2"
+  }
+}

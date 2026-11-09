@@ -1,0 +1,14 @@
+{
+  "name": "glaze-card",
+  "type": "registry:item",
+  "title": "glaze / Card",
+  "description": "Groups content about one thing.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/glaze/card.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "card",
+    "version": "2026-11-09.2"
+  }
+}

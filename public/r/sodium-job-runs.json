@@ -1,0 +1,14 @@
+{
+  "name": "sodium-job-runs",
+  "type": "registry:item",
+  "title": "sodium / Job runs",
+  "description": "Every pipeline's runs as one table: a Status word per row, IDs and numbers in mono and Run now.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/job-runs.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "job-runs",
+    "version": "2026-11-09.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "lime-copy-button",
+  "type": "registry:item",
+  "title": "lime / Copy button",
+  "description": "Copies a value, such as a payment link, and confirms with a check.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/copy-button.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "copy-button",
+    "version": "2026-11-09.2"
+  }
+}

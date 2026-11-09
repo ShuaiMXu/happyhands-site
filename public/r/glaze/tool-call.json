@@ -21,8 +21,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/tool-call.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/tool-call.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/tool-call.md",
+    "page": "https://happyhands.cc/systems/glaze/components/tool-call.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/glaze/registry/items/tool-call.json",
+      "sourceSha256": "1e785bd36f31882d95b821a737a7ee90a22f49508dfad969ba067483f3e1d8f0",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

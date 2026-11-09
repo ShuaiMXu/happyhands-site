@@ -17,8 +17,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/item.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/item.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/item.md",
+    "page": "https://happyhands.cc/systems/sodium/components/item.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/sodium/registry/items/item.json",
+      "sourceSha256": "81d9a8af6252cac9434db74c18de60ff16c79476ee6896b90915cd3bd93f4cc6",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

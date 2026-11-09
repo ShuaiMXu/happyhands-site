@@ -20,8 +20,14 @@
     "https://happyhands.cc/r/sodium/tool-call-row.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/index.md",
-    "page": "https://happyhands.cc/design-how/sodium/index.md"
+    "docs": "https://happyhands.cc/systems/sodium/index.md",
+    "page": "https://happyhands.cc/systems/sodium/index.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/sodium/registry/items/run-progress.json",
+      "sourceSha256": "9a78c09bd996727ca28ab331cb5d95d63b8fcde59673f4e8fd44b39dac9c89cb",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

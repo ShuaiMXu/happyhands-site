@@ -1,0 +1,14 @@
+{
+  "name": "sodium-run-progress",
+  "type": "registry:item",
+  "title": "sodium / Run progress",
+  "description": "A backfill followed at phone width: the live step, partitions done, the run's numbers as a strip and its steps.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/run-progress.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "run-progress",
+    "version": "2026-11-09.2"
+  }
+}

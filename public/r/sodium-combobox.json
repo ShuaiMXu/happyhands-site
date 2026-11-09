@@ -1,0 +1,14 @@
+{
+  "name": "sodium-combobox",
+  "type": "registry:item",
+  "title": "sodium / Combobox",
+  "description": "Finds one or more values by typing.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/combobox.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "combobox",
+    "version": "2026-11-09.2"
+  }
+}

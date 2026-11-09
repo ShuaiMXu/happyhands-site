@@ -19,8 +19,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/alert.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/alert.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/alert.md",
+    "page": "https://happyhands.cc/systems/sodium/components/alert.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/sodium/registry/items/alert.json",
+      "sourceSha256": "8b7276102e0e91b6cfb9b8f3bf9020b24c30951328fd0becf313bbcc7d76a774",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

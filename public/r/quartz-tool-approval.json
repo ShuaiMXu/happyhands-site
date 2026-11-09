@@ -1,0 +1,14 @@
+{
+  "name": "quartz-tool-approval",
+  "type": "registry:item",
+  "title": "quartz / Tool approval",
+  "description": "An agent asks before it sends a refund, with Allow and Deny; the outcome takes focus after a choice.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/tool-approval.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "tool-approval",
+    "version": "2026-11-09.2"
+  }
+}

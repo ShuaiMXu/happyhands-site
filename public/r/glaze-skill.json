@@ -1,0 +1,14 @@
+{
+  "name": "glaze-skill",
+  "type": "registry:item",
+  "title": "glaze / Glaze skill",
+  "description": "Support file: teaches your coding agent Glaze's rules and components.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/skill.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "skill",
+    "version": "2026-11-09.2"
+  }
+}

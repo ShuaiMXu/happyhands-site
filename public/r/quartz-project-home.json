@@ -1,0 +1,14 @@
+{
+  "name": "quartz-project-home",
+  "type": "registry:item",
+  "title": "quartz / Workspace home",
+  "description": "A workspace home for a team of agents: the workspace and New agent, a strip of four numbers, the Conversations chart, what needs a look, the conversations table and the last prompt releases.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/project-home.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "project-home",
+    "version": "2026-11-09.2"
+  }
+}

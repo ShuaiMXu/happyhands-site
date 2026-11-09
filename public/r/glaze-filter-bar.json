@@ -1,0 +1,14 @@
+{
+  "name": "glaze-filter-bar",
+  "type": "registry:item",
+  "title": "glaze / Filter bar",
+  "description": "Narrows a long list.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/filter-bar.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "filter-bar",
+    "version": "2026-11-09.2"
+  }
+}

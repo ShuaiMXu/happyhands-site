@@ -14,8 +14,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/relative-time.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/relative-time.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/relative-time.md",
+    "page": "https://happyhands.cc/systems/quartz/components/relative-time.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/quartz/registry/items/relative-time.json",
+      "sourceSha256": "6ecf88186f8f9ff066dd9a2aa60d9b12dd175c1edb285dd20a15e4d7abecf6d0",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

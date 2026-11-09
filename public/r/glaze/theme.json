@@ -13,13 +13,18 @@
     "@tailwindcss/postcss@^4.3.3"
   ],
   "registryDependencies": [
-    "https://happyhands.cc/r/glaze/skill.json",
     "https://happyhands.cc/r/glaze/portal.json"
   ],
   "docs": "Glaze is scoped: its styles apply only inside an element with the class glaze.\n1. Import the theme once, in the root layout, as its own stylesheet (not an @import in globals.css): import '@/components/glaze/styles.css'\n2. Put className=\"glaze\" on the element that holds Glaze UI, usually <body>. Glaze's classes work on the elements inside it, in your own code too, not on that element itself.\n3. Wrap the app inside that element in <GlazePortalProvider> from '@/lib/glaze/portal', so dialogs and menus keep the theme.\nDark mode: put data-theme=\"dark\" on the glaze element or any ancestor, such as <html>. The theme does not follow the system setting (prefers-color-scheme) on its own.\nComponents: npx shadcn@latest add https://happyhands.cc/r/glaze/<name>.json; https://happyhands.cc/r/glaze/registry.json lists them all.",
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/index.md",
-    "page": "https://happyhands.cc/design-how/glaze/index.md"
+    "docs": "https://happyhands.cc/systems/glaze/index.md",
+    "page": "https://happyhands.cc/systems/glaze/index.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/glaze/registry/items/theme.json",
+      "sourceSha256": "9bfc0137ab75def5a1e2c745ec4a706a8c6cef5b9442020180a394a0dc4b17f1",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

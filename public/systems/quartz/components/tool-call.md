@@ -8,7 +8,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/tool-call.json"
 registryDependencies: [activity, badge, button, format, panel, status, theme, use-focus-when-replaced, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/tool-call
+human: https://happyhands.cc/systems/quartz/components/tool-call.md
 ---
 
 # Tool call

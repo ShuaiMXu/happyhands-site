@@ -1,0 +1,14 @@
+{
+  "name": "glaze-tool-call",
+  "type": "registry:item",
+  "title": "glaze / Tool call",
+  "description": "Shows one tool an agent called.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/tool-call.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "tool-call",
+    "version": "2026-11-09.2"
+  }
+}

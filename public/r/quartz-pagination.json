@@ -1,0 +1,14 @@
+{
+  "name": "quartz-pagination",
+  "type": "registry:item",
+  "title": "quartz / Pagination",
+  "description": "Moves through pages of results.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/pagination.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "pagination",
+    "version": "2026-11-09.2"
+  }
+}

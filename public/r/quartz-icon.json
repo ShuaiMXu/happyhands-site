@@ -1,0 +1,14 @@
+{
+  "name": "quartz-icon",
+  "type": "registry:item",
+  "title": "quartz / Icon",
+  "description": "Support file: the one import point for icons: Font Awesome Free, Classic Solid.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/icon.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "icon",
+    "version": "2026-11-09.2"
+  }
+}

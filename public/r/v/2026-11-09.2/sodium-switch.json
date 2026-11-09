@@ -1,0 +1,14 @@
+{
+  "name": "sodium-switch",
+  "type": "registry:item",
+  "title": "sodium / Switch",
+  "description": "Turns a setting on or off at once.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/sodium/switch.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "switch",
+    "version": "2026-11-09.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "quartz-progress",
+  "type": "registry:item",
+  "title": "quartz / Progress",
+  "description": "Bar, ring, steps or meter.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/progress.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "progress",
+    "version": "2026-11-09.2"
+  }
+}

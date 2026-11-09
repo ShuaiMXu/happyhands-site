@@ -4,7 +4,7 @@ system: lime
 kind: foundation
 source: registry/lime/tokens.css
 last-updated: 2026-10-26
-human: https://design.how/systems/lime/foundations/color
+human: https://happyhands.cc/systems/lime/foundations/color.md
 ---
 
 # Color
@@ -81,7 +81,7 @@ Read only through their classes; never set or read them in a component.
 `--glow-accent-from`, `--glow-accent-to`, `--glow-accent-edge`, `--glow-accent-bloom`, `--glow-accent-cast`, `--glow-accent-light`, `--glow-accent-from-lit`, `--glow-accent-to-lit`, `--glow-accent-edge-lit`, `--glow-accent-bloom-lit`, `--glow-accent-from-press`, `--glow-accent-to-press`, `--glow-danger-from`, `--glow-danger-to`, `--glow-danger-edge`, `--glow-danger-bloom`, `--glow-danger-cast`, `--glow-danger-light`, `--glow-danger-from-lit`, `--glow-danger-to-lit`, `--glow-danger-edge-lit`, `--glow-danger-bloom-lit`, `--glow-danger-from-press`, `--glow-danger-to-press`, `--glow-success-from`, `--glow-success-to`, `--glow-success-edge`, `--glow-success-bloom`, `--glow-success-cast`, `--glow-success-light`, `--glow-success-fg`, `--glow-success-from-lit`, `--glow-success-to-lit`, `--glow-success-edge-lit`, `--glow-success-bloom-lit`, `--glow-success-from-press`, `--glow-success-to-press`
 
 ## Contrast
-[The table on the human page](https://design.how/systems/lime/foundations/color#contrast).
+[The table on the human page](https://happyhands.cc/systems/lime/foundations/color.md#contrast).
 
 ## Decision table
 | You need | Use |

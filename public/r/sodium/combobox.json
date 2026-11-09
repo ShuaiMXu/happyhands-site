@@ -22,8 +22,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/combobox.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/combobox.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/combobox.md",
+    "page": "https://happyhands.cc/systems/sodium/components/combobox.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/sodium/registry/items/combobox.json",
+      "sourceSha256": "22e6e4e6555b4f6b4299c22617fe424e4d6399bbb289c5cbc6c325251b8038cd",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

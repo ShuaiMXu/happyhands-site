@@ -1,0 +1,14 @@
+{
+  "name": "quartz-alert",
+  "type": "registry:item",
+  "title": "quartz / Alert",
+  "description": "A message about the current view, inline or across the page.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/alert.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "alert",
+    "version": "2026-11-09.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "quartz-log-viewer",
+  "type": "registry:item",
+  "title": "quartz / Log viewer",
+  "description": "Streaming lines with levels, search and follow.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/log-viewer.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "log-viewer",
+    "version": "2026-11-09.2"
+  }
+}

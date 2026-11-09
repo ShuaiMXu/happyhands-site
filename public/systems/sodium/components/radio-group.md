@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/sodium/radio-group.json"
 registryDependencies: [theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/sodium/components/radio-group
+human: https://happyhands.cc/systems/sodium/components/radio-group.md
 ---
 
 # Radio group

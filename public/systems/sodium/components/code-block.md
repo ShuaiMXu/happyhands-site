@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/sodium/code-block.json"
 registryDependencies: [button, copy-button, icon, scroll, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/sodium/components/code-block
+human: https://happyhands.cc/systems/sodium/components/code-block.md
 ---
 
 # Code block

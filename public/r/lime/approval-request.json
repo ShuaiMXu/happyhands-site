@@ -21,8 +21,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/approval-request.md",
-    "page": "https://happyhands.cc/design-how/lime/components/approval-request.md"
+    "docs": "https://happyhands.cc/systems/lime/components/approval-request.md",
+    "page": "https://happyhands.cc/systems/lime/components/approval-request.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/lime/registry/items/approval-request.json",
+      "sourceSha256": "fb8b30a0c8e6b264a1819eab2d62b0489cafd6d859bb448ccf80adff254b4e53",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

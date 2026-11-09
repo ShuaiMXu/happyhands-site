@@ -1,0 +1,14 @@
+{
+  "name": "glaze-mention",
+  "type": "registry:item",
+  "title": "glaze / Mention",
+  "description": "Names a resource inside a prompt or answer.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/mention.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "mention",
+    "version": "2026-11-09.2"
+  }
+}

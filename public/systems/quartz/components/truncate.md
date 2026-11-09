@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/truncate.json"
 registryDependencies: [portal, theme, tooltip, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/truncate
+human: https://happyhands.cc/systems/quartz/components/truncate.md
 ---
 
 # Truncate

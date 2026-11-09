@@ -18,8 +18,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/alert.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/alert.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/alert.md",
+    "page": "https://happyhands.cc/systems/quartz/components/alert.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/quartz/registry/items/alert.json",
+      "sourceSha256": "0a05e929e2f62004f02b4457dc2d6894057e0d953ffb806466ff986526a00bd3",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

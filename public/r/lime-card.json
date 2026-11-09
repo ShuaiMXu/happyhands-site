@@ -1,0 +1,14 @@
+{
+  "name": "lime-card",
+  "type": "registry:item",
+  "title": "lime / Card",
+  "description": "A grouped block, such as a savings goal or a card, on warm grey, outlined or raised.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/card.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "card",
+    "version": "2026-11-09.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "quartz-kbd",
+  "type": "registry:item",
+  "title": "quartz / Kbd",
+  "description": "A key or a shortcut.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/kbd.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "kbd",
+    "version": "2026-11-09.2"
+  }
+}

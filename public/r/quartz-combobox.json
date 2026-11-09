@@ -1,0 +1,14 @@
+{
+  "name": "quartz-combobox",
+  "type": "registry:item",
+  "title": "quartz / Combobox",
+  "description": "A searchable choice, single, multiple or creatable.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/combobox.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "combobox",
+    "version": "2026-11-09.2"
+  }
+}

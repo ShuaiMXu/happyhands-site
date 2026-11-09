@@ -18,8 +18,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/balance.md",
-    "page": "https://happyhands.cc/design-how/lime/components/balance.md"
+    "docs": "https://happyhands.cc/systems/lime/components/balance.md",
+    "page": "https://happyhands.cc/systems/lime/components/balance.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/lime/registry/items/balance.json",
+      "sourceSha256": "3058ff9c4d5cc3b79b73c7e40cdea4c88f68840b9bbcaffec7ffe6080aeefab0",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

@@ -14,8 +14,14 @@
     "https://happyhands.cc/r/lime/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/lime/components/insight.md",
-    "page": "https://happyhands.cc/design-how/lime/components/insight.md"
+    "docs": "https://happyhands.cc/systems/lime/components/insight.md",
+    "page": "https://happyhands.cc/systems/lime/components/insight.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/lime/registry/items/insight.json",
+      "sourceSha256": "85cc19287b8c46f663e9c703567a8e5382be07104cba9e747d9a66467c8c2938",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

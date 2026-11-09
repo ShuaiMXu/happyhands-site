@@ -1,0 +1,14 @@
+{
+  "name": "quartz-prompt-input",
+  "type": "registry:item",
+  "title": "quartz / Prompt input",
+  "description": "The composer editor with mentions, slash commands and voice.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/prompt-input.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "prompt-input",
+    "version": "2026-11-09.2"
+  }
+}

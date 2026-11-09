@@ -21,8 +21,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/sheet.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/sheet.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/sheet.md",
+    "page": "https://happyhands.cc/systems/glaze/components/sheet.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/glaze/registry/items/sheet.json",
+      "sourceSha256": "34ff04f40cb1b992da846b86b89852cb726d4a60731f5b3befd6be68e5312e9b",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

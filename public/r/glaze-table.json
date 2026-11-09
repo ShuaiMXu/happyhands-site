@@ -1,0 +1,14 @@
+{
+  "name": "glaze-table",
+  "type": "registry:item",
+  "title": "glaze / Table",
+  "description": "Lists records that share the same fields.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/table.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "table",
+    "version": "2026-11-09.2"
+  }
+}

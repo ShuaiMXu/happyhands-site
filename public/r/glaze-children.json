@@ -1,0 +1,14 @@
+{
+  "name": "glaze-children",
+  "type": "registry:item",
+  "title": "glaze / Children",
+  "description": "Support file: isPart, which tells which part a child element is even when a server component composed it, for the compound components that read their children.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/children.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "children",
+    "version": "2026-11-09.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "quartz-toast",
+  "type": "registry:item",
+  "title": "quartz / Toast",
+  "description": "Confirms an action or reports a background event, then leaves.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/toast.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "toast",
+    "version": "2026-11-09.2"
+  }
+}

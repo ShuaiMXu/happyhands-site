@@ -1,0 +1,14 @@
+{
+  "name": "sodium-toast",
+  "type": "registry:item",
+  "title": "sodium / Toast",
+  "description": "Reports something that happened out of view.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/toast.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "toast",
+    "version": "2026-11-09.2"
+  }
+}

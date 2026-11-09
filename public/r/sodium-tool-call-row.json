@@ -1,0 +1,14 @@
+{
+  "name": "sodium-tool-call-row",
+  "type": "registry:item",
+  "title": "sodium / Tool-call row",
+  "description": "Draws a run's steps as ruled boxes, joined by connectors.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/tool-call-row.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "tool-call-row",
+    "version": "2026-11-09.2"
+  }
+}

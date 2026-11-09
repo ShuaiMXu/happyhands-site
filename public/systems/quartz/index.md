@@ -6,7 +6,7 @@ kind: system-index
 version: 1
 last-updated: 2026-10-26
 install-base: `npx shadcn@latest add https://happyhands.cc/r/quartz/<name>.json`
-human: https://design.how/systems/quartz
+human: https://happyhands.cc/systems/quartz/index.md
 
 ## How to use this system
 1. Read this page. Follow the global rules and the priority order.
@@ -118,4 +118,4 @@ Whole screens built only from the components above. For a whole screen, start fr
 - Live activity: An agent's tool calls as they happen: result, tool and agent, trouble marked, with filters, Pause and the call docked beside the list. `npx shadcn@latest add https://happyhands.cc/r/quartz/live-requests.json`
 
 ## Optional
-- [Human docs](https://design.how/systems/quartz): visual reference
+- [Human docs](https://happyhands.cc/systems/quartz/index.md): visual reference

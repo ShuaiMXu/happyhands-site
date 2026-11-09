@@ -1,0 +1,14 @@
+{
+  "name": "lime-field",
+  "type": "registry:item",
+  "title": "lime / Field",
+  "description": "A label, a control, a hint and an error, wired together.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/lime/field.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "field",
+    "version": "2026-11-09.2"
+  }
+}

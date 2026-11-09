@@ -1,0 +1,14 @@
+{
+  "name": "glaze-date-picker",
+  "type": "registry:item",
+  "title": "glaze / Date picker",
+  "description": "Sets a date, a range or a time.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/date-picker.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "date-picker",
+    "version": "2026-11-09.2"
+  }
+}

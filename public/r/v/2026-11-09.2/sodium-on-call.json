@@ -1,0 +1,14 @@
+{
+  "name": "sodium-on-call",
+  "type": "registry:item",
+  "title": "sodium / On call",
+  "description": "A failed job at phone width: its header, the failure in a sentence, its facts in a 2x2 grid, Acknowledge and Retry step.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/sodium/on-call.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "on-call",
+    "version": "2026-11-09.2"
+  }
+}

@@ -18,8 +18,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/empty-state.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/empty-state.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/empty-state.md",
+    "page": "https://happyhands.cc/systems/sodium/components/empty-state.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/sodium/registry/items/empty-state.json",
+      "sourceSha256": "ef447bde2ced7491f97bf37eb0d4a7a096c1afb0dd784eda77217e526abea89c",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

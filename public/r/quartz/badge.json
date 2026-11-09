@@ -18,8 +18,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/badge.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/badge.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/badge.md",
+    "page": "https://happyhands.cc/systems/quartz/components/badge.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/quartz/registry/items/badge.json",
+      "sourceSha256": "0fad71a5f65a47c3f299ba45dba512a8504591d6454ec7343749efd1c634f347",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

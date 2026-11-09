@@ -1,0 +1,14 @@
+{
+  "name": "sodium-pagination",
+  "type": "registry:item",
+  "title": "sodium / Pagination",
+  "description": "Moves through pages of results.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/pagination.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "pagination",
+    "version": "2026-11-09.2"
+  }
+}

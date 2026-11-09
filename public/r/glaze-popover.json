@@ -1,0 +1,14 @@
+{
+  "name": "glaze-popover",
+  "type": "registry:item",
+  "title": "glaze / Popover",
+  "description": "Shows a few lines next to a control.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/popover.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "popover",
+    "version": "2026-11-09.2"
+  }
+}

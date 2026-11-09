@@ -1,0 +1,14 @@
+{
+  "name": "sodium-log-viewer",
+  "type": "registry:item",
+  "title": "sodium / Log viewer",
+  "description": "Shows a job's output lines as they stream.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/log-viewer.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "log-viewer",
+    "version": "2026-11-09.2"
+  }
+}

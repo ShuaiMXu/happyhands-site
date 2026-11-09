@@ -13,8 +13,14 @@
     "https://happyhands.cc/r/sodium/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/sodium/components/skeleton.md",
-    "page": "https://happyhands.cc/design-how/sodium/components/skeleton.md"
+    "docs": "https://happyhands.cc/systems/sodium/components/skeleton.md",
+    "page": "https://happyhands.cc/systems/sodium/components/skeleton.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/sodium/registry/items/skeleton.json",
+      "sourceSha256": "e4fa10263cdd1b12abbc872cf30cdae4d62f535ecd95750d6b521b094835e9a2",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

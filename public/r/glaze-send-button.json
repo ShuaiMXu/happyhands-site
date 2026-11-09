@@ -1,0 +1,14 @@
+{
+  "name": "glaze-send-button",
+  "type": "registry:item",
+  "title": "glaze / Send button",
+  "description": "Sends a prompt, or stops the reply.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/glaze/send-button.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "send-button",
+    "version": "2026-11-09.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "sodium-button-group",
+  "type": "registry:item",
+  "title": "sodium / Button group",
+  "description": "Joins related buttons into one control.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/sodium/button-group.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "button-group",
+    "version": "2026-11-09.2"
+  }
+}

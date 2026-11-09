@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/input.json"
 registryDependencies: [button, copy-button, field, format, icon, kbd, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/input
+human: https://happyhands.cc/systems/quartz/components/input.md
 ---
 
 # Input

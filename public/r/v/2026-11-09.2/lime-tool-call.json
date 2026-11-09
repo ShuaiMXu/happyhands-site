@@ -1,0 +1,14 @@
+{
+  "name": "lime-tool-call",
+  "type": "registry:item",
+  "title": "lime / Tool call",
+  "description": "One step the assistant took, such as Moved $50 to Vacation fund, as a single line.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/lime/tool-call.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "tool-call",
+    "version": "2026-11-09.2"
+  }
+}

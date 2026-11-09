@@ -1,0 +1,14 @@
+{
+  "name": "quartz-tool-call",
+  "type": "registry:item",
+  "title": "quartz / Tool call",
+  "description": "One call with its name, arguments, status, duration and output.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/tool-call.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "tool-call",
+    "version": "2026-11-09.2"
+  }
+}

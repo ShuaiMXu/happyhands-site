@@ -19,8 +19,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/activity.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/activity.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/activity.md",
+    "page": "https://happyhands.cc/systems/glaze/components/activity.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/glaze/registry/items/activity.json",
+      "sourceSha256": "08b64fab47baf15f52fa9e1dee89fe29bc6d3023e801d48447af72d4d5637855",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

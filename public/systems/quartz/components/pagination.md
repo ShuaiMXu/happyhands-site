@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/pagination.json"
 registryDependencies: [icon, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/pagination
+human: https://happyhands.cc/systems/quartz/components/pagination.md
 ---
 
 # Pagination

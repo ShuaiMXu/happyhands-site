@@ -16,8 +16,14 @@
     "https://happyhands.cc/r/glaze/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/glaze/components/json-view.md",
-    "page": "https://happyhands.cc/design-how/glaze/components/json-view.md"
+    "docs": "https://happyhands.cc/systems/glaze/components/json-view.md",
+    "page": "https://happyhands.cc/systems/glaze/components/json-view.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/glaze/registry/items/json-view.json",
+      "sourceSha256": "66f7c39f9cbf57cf4da5fda24e7d1861dc00688ff5f09c899d3dba4c42212dd1",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

@@ -1,0 +1,14 @@
+{
+  "name": "sodium-copy-button",
+  "type": "registry:item",
+  "title": "sodium / Copy button",
+  "description": "Copies a value.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/copy-button.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "copy-button",
+    "version": "2026-11-09.2"
+  }
+}

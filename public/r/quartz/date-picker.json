@@ -22,8 +22,14 @@
     "https://happyhands.cc/r/quartz/utils.json"
   ],
   "meta": {
-    "docs": "https://happyhands.cc/design-how/quartz/components/date-picker.md",
-    "page": "https://happyhands.cc/design-how/quartz/components/date-picker.md"
+    "docs": "https://happyhands.cc/systems/quartz/components/date-picker.md",
+    "page": "https://happyhands.cc/systems/quartz/components/date-picker.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/quartz/registry/items/date-picker.json",
+      "sourceSha256": "e472481ef9ed4d85246fbc3652a2538df9d2bee0e01bd5f99adf72dd99dc655a",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
   },
   "files": [
     {

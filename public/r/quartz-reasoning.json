@@ -1,0 +1,14 @@
+{
+  "name": "quartz-reasoning",
+  "type": "registry:item",
+  "title": "quartz / Reasoning",
+  "description": "The model's thinking, open while it streams and folded when done.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/reasoning.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "reasoning",
+    "version": "2026-11-09.2"
+  }
+}

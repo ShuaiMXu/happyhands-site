@@ -1,0 +1,14 @@
+{
+  "name": "quartz-send-button",
+  "type": "registry:item",
+  "title": "quartz / Send button",
+  "description": "Support file: send, which becomes stop while the agent streams.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/send-button.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "send-button",
+    "version": "2026-11-09.2"
+  }
+}

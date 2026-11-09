@@ -1,0 +1,14 @@
+{
+  "name": "quartz-attachment",
+  "type": "registry:item",
+  "title": "quartz / Attachment",
+  "description": "A file in a form, prompt or message, with drop zone and image tile.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/quartz/attachment.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "attachment",
+    "version": "2026-11-09.2"
+  }
+}

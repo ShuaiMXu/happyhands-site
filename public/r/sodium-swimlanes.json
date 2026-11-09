@@ -1,0 +1,14 @@
+{
+  "name": "sodium-swimlanes",
+  "type": "registry:item",
+  "title": "sodium / Swimlanes",
+  "description": "Shows the steps of a flow across the systems they run in.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/sodium/swimlanes.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "swimlanes",
+    "version": "2026-11-09.2"
+  }
+}

@@ -13,15 +13,15 @@
 
 [Star history](https://www.star-history.com/?repos=ShuaiMXu%2Fhappyhands-site&type=date) | [Core workbench](https://github.com/ShuaiMXu/happyhands)
 
-The public website for HappyHands: product guidance, design systems, component previews, and Theme Studio. The local workbench and Harness are maintained separately in [happyhands](https://github.com/ShuaiMXu/happyhands).
+The public website for HappyHands: product guidance, design systems, Design.md references, and component previews. The local workbench and Harness are maintained separately in [happyhands](https://github.com/ShuaiMXu/happyhands).
 
-HappyHands 官网提供产品指引、设计系统、组件预览和主题工作室。本地工作台与 Harness 由核心仓库独立维护。
+HappyHands 官网提供产品指引、设计系统、Design.md 参考和组件预览。本地工作台与 Harness 由核心仓库独立维护。
 
 ```text
 apps/portal/    中文门户 — Apps / Explore / Screens / UI Elements / Get Started
 apps/web/       Historical URL — redirects to the shared portal
 apps/designer/  Review Workbench — reads exported harness runs
-apps/studio/    Theme Studio — project themes, previews, exports and Foundation approval
+apps/studio/    Retired Theme Studio notice; historical editor source is preserved
 packages/theme-core/  Adapted tweakcn engine, presets, import/export and project logic
 packages/contracts/   Versioned drafts and Harness Foundation schema snapshot
 public/runs/    Run artifacts published by `pnpm harness export` in happyhands
@@ -40,30 +40,33 @@ npm run dev
 - Portal: `http://127.0.0.1:4173/apps/portal/`
 - Product entry: `http://127.0.0.1:4173/apps/portal/`
 - Workbench: `http://127.0.0.1:4173/apps/designer/?case=happyclaw`
-- Theme Studio: `http://127.0.0.1:4173/apps/studio/`
+- Design resources: `http://127.0.0.1:4173/components/`
 
-## Theme Studio
+## Retired Theme Studio
 
-The local editor integrates theme configuration, built-in presets, shadow calculation
-and Tailwind generation from [tweakcn](https://github.com/jnsahaj/tweakcn), pinned to
-`a3b47b37`. Its HappyHands interface includes 44 presets, 44 variables per mode,
-undo/redo, project drafts, five preview scenes, before/after comparison, token
-inspection, controlled-page preview, CSS import and CSS/Tailwind/registry exports.
+The public Theme Studio has been retired. `/apps/studio/` displays a retirement
+notice, not an editor. Existing browser drafts are not deleted. The editor source,
+adapted [tweakcn](https://github.com/jnsahaj/tweakcn) engine pinned to `a3b47b37`,
+and contracts remain in this repository for maintenance and compatibility.
 
-Reviewed themes can be exported as Harness-compatible Foundation approvals. Existing
-brand, component and pattern records are preserved. Drafts are stored in the browser;
-the editor does not automatically write repositories or connect upstream SaaS services.
+Use the [design resource library](https://happyhands.cc/en/components/) for design
+references, system documents and component source. Follow the
+[local workbench guide](https://happyhands.cc/en/guide/) to connect your project;
+confirm design rules and scope before implementation.
 
-See [architecture and usage](docs/studio-architecture.md),
-[integration details](docs/tweakcn-integration.md), and
+主题工作室已停用，旧地址仅显示停用说明；现有浏览器草稿与编辑器源码保留。
+请使用[设计资源库](https://happyhands.cc/components/)查看参考与组件，并按
+[本地工作台指南](https://happyhands.cc/guide/)接入项目。
+
+[Studio architecture](docs/studio-architecture.md) and
+[tweakcn integration](docs/tweakcn-integration.md) describe the retained historical
+implementation, not currently available website features. Preserve
 [source attribution](packages/theme-core/vendor/NOTICE.md).
 
 ```sh
 npm run typecheck
-npm run test:studio
+npm run test:studio  # retained source and contract tests
 npm run build
-npm run test:studio:browser  # dev server running; Edge by default
-npm run test:studio:harness # sibling ../happyhands checkout required
 ```
 
 ## Data flow
@@ -84,8 +87,7 @@ issues or Workbench evidence.
 The portal uses the HappyHands identity and design-system semantics: ink and
 paper establish hierarchy, brand orange is reserved for a small point of
 emphasis, and product actions remain neutral. Chinese and Latin copy share a
-PingFang-first sans-serif stack; the portal uses no serif typeface. Studio can
-preview a project's optional serif token independently. The
+PingFang-first sans-serif stack; the portal uses no serif typeface. The
 official dark-background logo and mark live in `public/brand/`.
 
 ## Local Web Alpha
@@ -98,6 +100,6 @@ Builds publish `release.json` with the source revision and known/unknown dirty s
 
 ### 官网到本地工作台
 
-接入区可填写仓库目录、任务和项目内 DESIGN.md/token/组件源码路径，通过 loopback 工作台链接交接。先运行主仓库 `pnpm workbench`，本地确认后复用原 onboard 流程；官网的“查看本次记录”恢复同一持久任务/run。没有跨域本地 API 调用，也不会从链接自动批准规范或执行代码。数据保留在当前标签页 sessionStorage，源码只在本地读取。需配套包含 site-handoff 协议的新版本主仓库；Studio 的未导出主题草稿仍走原审批导出/导入流程。
+接入区可填写仓库目录、任务和项目内 DESIGN.md/token/组件源码路径，通过 loopback 工作台链接交接。先运行主仓库 `pnpm workbench`，本地确认后复用原 onboard 流程；官网的“查看本次记录”恢复同一持久任务/run。没有跨域本地 API 调用，也不会从链接自动批准规范或执行代码。数据保留在当前标签页 sessionStorage，源码只在本地读取。需配套包含 site-handoff 协议的新版本主仓库。退休 Studio 的既有浏览器草稿不会被清除，官网不再提供编辑或导出入口。
 
 协议集成校验：`node --test tests/site-handoff.test.mjs`（主仓库默认 `../happyhands`，可用 `HARNESS_ROOT` 指定）。

@@ -65,3 +65,14 @@ test('AI slop guidance ties subjective impressions to evidence and product tasks
   for(const [id] of workflowCopy.review[lang].sections)assert.equal((body.match(new RegExp(`id="${id}"`,'g'))||[]).length,1,`Unique section ${id}`);
  }
 });
+
+
+test('public workflows recommend available resources, not the retired theme editor',()=>{
+ for(const kind of ['review','design'])for(const lang of ['zh','en']){
+  const body=workflowContent(kind,lang),prefix=lang==='en'?'/en':'';
+  assert.doesNotMatch(body,/Theme Studio|主题工作室|\/apps\/studio\//);
+  assert.ok(body.includes(`href="${prefix}/components/"`));
+  assert.ok(body.includes(`href="${prefix}/guide/"`));
+  if(kind==='design')assert.ok(body.includes(lang==='zh'?'浏览参考或取得资源不会自动修改仓库':'Browsing or obtaining a resource does not modify your repository'));
+ }
+});

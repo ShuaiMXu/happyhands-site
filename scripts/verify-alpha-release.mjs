@@ -31,6 +31,8 @@ for(const path of ['apps/portal','en/apps/portal']){
 
 for(const path of pages){
   const html=await readFile(builtPage(path),'utf8');
+  assert.ok(!html.includes('href="/apps/studio/"'),path+' promotes retired Studio');
+  assert.doesNotMatch(html,/Theme Studio previews themes|Theme Studio 可预览主题|theme customization|主题自定义/,path+' has stale editor claims');
   const scripts=[...html.matchAll(/<script\b[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)];
   assert.equal(scripts.length,1,path+' structured data');
   const graph=JSON.parse(scripts[0][1]);

@@ -33,6 +33,7 @@ function App() {
     applySiteMetadata('happyhands',lang);
   }, [lang]);
   const t = (zh: string, en: string) => (lang === "zh" ? zh : en);
+  const localized = (path: string) => `${lang === "en" ? "/en" : ""}${path}`;
   const buttonLabels = {
     primary: t("主要操作", "Primary action"),
     secondary: t("次要操作", "Secondary action"),
@@ -70,8 +71,8 @@ function App() {
               </p>
               <p className="lead">
                 {t(
-                  "统一页面颜色、字体与交互反馈，提供可复用的设计规范。本站与主题工作室均采用这套规范。",
-                  "Reusable guidelines for consistent colors, typography and interaction feedback, used throughout this website and Theme Studio.",
+                  "统一页面颜色、字体与交互反馈，提供本站采用的可复用设计规范。",
+                  "Reusable guidelines for consistent colors, typography and interaction feedback across this website.",
                 )}
               </p>
               <div className="actions">
@@ -302,15 +303,15 @@ function App() {
                 <a href="/apps/portal/">{t("打开官网", "Open portal")}</a>
               </article>
               <article>
-                <h3>{t("主题工作室", "Theme Studio")}</h3>
+                <h3>{t("设计资源", "Design resources")}</h3>
                 <p>
                   {t(
-                    "设计变量编辑和组件状态预览。",
-                    "Token editing and component-state previews.",
+                    "设计系统文档、Design.md 参考与组件源码。",
+                    "Design-system documents, Design.md references and component source.",
                   )}
                 </p>
-                <a href="/apps/studio/">
-                  {t("打开主题工作室", "Open Theme Studio")}
+                <a href={localized("/components/")}>
+                  {t("浏览设计资源", "Browse design resources")}
                 </a>
               </article>
               <article>
@@ -321,7 +322,7 @@ function App() {
                     "A separate project; alignment is still in progress.",
                   )}
                 </p>
-                <a href="https://github.com/ShuaiMXu/creative-os/blob/main/docs/local-workbench.md">
+                <a href={localized("/guide/") + "#setup"}>
                   {t("启动说明", "Startup guide")}
                 </a>
               </article>
@@ -395,17 +396,17 @@ function App() {
                   {t("把规范用到你的项目", "Apply the rules to your project")}
                 </p>
                 <h2>
-                  {t("在主题工作室中调整", "Make it yours in Theme Studio")}
+                  {t("按项目规范接入", "Adopt within your project")}
                 </h2>
                 <p>
                   {t(
-                    "编辑设计变量、选择字体，再查看组件的实际表现。",
-                    "Edit tokens, choose fonts and preview component behavior.",
+                    "核对设计文档、组件源码与许可，确认采用范围后再在本地项目中实施。",
+                    "Check design documents, component source and licensing, then confirm the scope before implementing in your local project.",
                   )}
                 </p>
               </div>
-              <a className="action secondary" href="/apps/studio/">
-                {t("打开主题工作室", "Open Theme Studio")} <Icon name="right" />
+              <a className="action secondary" href={localized("/guide/") + "#design"}>
+                {t("阅读接入指南", "Read the setup guide")} <Icon name="right" />
               </a>
             </div>
             <div className="system-return">
@@ -423,8 +424,8 @@ function App() {
               </summary>
               <p>
                 {t(
-                  "官网与主题工作室共用设计变量。审阅工作台属于独立工程，组件统一仍在进行。",
-                  "The portal and Theme Studio share tokens. The review workbench is a separate project; component alignment is still in progress.",
+                  "官网使用这套设计变量。审阅工作台属于独立工程，组件统一仍在进行。",
+                  "The portal uses these design tokens. The review workbench is a separate project; component alignment is still in progress.",
                 )}
               </p>
               {t(

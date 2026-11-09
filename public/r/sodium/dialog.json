@@ -24,10 +24,10 @@
     "docs": "https://happyhands.cc/systems/sodium/components/dialog.md",
     "page": "https://happyhands.cc/systems/sodium/components/dialog.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/sodium/registry/items/dialog.json",
       "sourceSha256": "b9ed77f6a09271d9558fc30d379df0264e8e4e774ac7f7cddbb30e61f8711d2f",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

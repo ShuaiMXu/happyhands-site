@@ -26,10 +26,10 @@
     "docs": "https://happyhands.cc/systems/glaze/components/log-viewer.md",
     "page": "https://happyhands.cc/systems/glaze/components/log-viewer.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/glaze/registry/items/log-viewer.json",
       "sourceSha256": "e537ef5a100fb0e5b81725d5e32fb7eb2744a268509cd344e0574966e0e2361e",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

@@ -1,0 +1,14 @@
+{
+  "name": "quartz-kind",
+  "type": "registry:item",
+  "title": "quartz / Kinds",
+  "description": "Support file: the five kinds and two reserved statuses, as a type and an ordered list.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/kind.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "kind",
+    "version": "2026-11-09.2"
+  }
+}

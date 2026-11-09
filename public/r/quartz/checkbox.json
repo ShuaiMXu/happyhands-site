@@ -20,10 +20,10 @@
     "docs": "https://happyhands.cc/systems/quartz/components/checkbox.md",
     "page": "https://happyhands.cc/systems/quartz/components/checkbox.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/quartz/registry/items/checkbox.json",
       "sourceSha256": "6a5c63d72e6f12ef371390113305d6d8f52a7f1f9bdc12c41150a1f52f663afa",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

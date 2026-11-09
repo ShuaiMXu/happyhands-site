@@ -20,10 +20,10 @@
     "docs": "https://happyhands.cc/systems/lime/components/popover.md",
     "page": "https://happyhands.cc/systems/lime/components/popover.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/lime/registry/items/popover.json",
       "sourceSha256": "643bd0a407140031bebd3e6d3e0e297e2b38ca8e701a91d53bf9f203d2714d53",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

@@ -24,10 +24,10 @@
     "docs": "https://happyhands.cc/systems/quartz/index.md",
     "page": "https://happyhands.cc/systems/quartz/index.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/quartz/registry/items/run-trace.json",
       "sourceSha256": "ea9bcd0d032a447b6ccbdc3fa8873eacb0e85c3d24eb74e30d524834f2109b37",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

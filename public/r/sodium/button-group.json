@@ -23,10 +23,10 @@
     "docs": "https://happyhands.cc/systems/sodium/components/button-group.md",
     "page": "https://happyhands.cc/systems/sodium/components/button-group.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/sodium/registry/items/button-group.json",
       "sourceSha256": "8139bf323734c2fc24b2e82955e9af8d123368b205a5b50b5305df7ccb833be6",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

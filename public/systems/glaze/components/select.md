@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/select.json"
 registryDependencies: [field, icon, overlay, portal, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/select
+human: https://happyhands.cc/systems/glaze/components/select.md
 ---
 
 # Select

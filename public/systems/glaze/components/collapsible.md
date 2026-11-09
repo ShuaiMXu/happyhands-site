@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/collapsible.json"
 registryDependencies: [icon, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/collapsible
+human: https://happyhands.cc/systems/glaze/components/collapsible.md
 ---
 
 # Collapsible

@@ -1,0 +1,14 @@
+{
+  "name": "quartz-relative-time",
+  "type": "registry:item",
+  "title": "quartz / Relative time",
+  "description": "\"3m ago\", with the exact time on hover and focus.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/relative-time.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "relative-time",
+    "version": "2026-11-09.2"
+  }
+}

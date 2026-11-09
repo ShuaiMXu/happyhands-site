@@ -1,0 +1,14 @@
+{
+  "name": "quartz-chart",
+  "type": "registry:item",
+  "title": "quartz / Chart",
+  "description": "Line, bar, sparkline or status buckets, with frame states, legend, tooltip and data table built in.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/chart.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "chart",
+    "version": "2026-11-09.2"
+  }
+}

@@ -17,10 +17,10 @@
     "docs": "https://happyhands.cc/systems/quartz/components/skeleton.md",
     "page": "https://happyhands.cc/systems/quartz/components/skeleton.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/quartz/registry/items/skeleton.json",
       "sourceSha256": "2c9867f712351cbf77efabb5fc9c2c9d05f6abc73dfb61e7bbb78ac604559e54",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

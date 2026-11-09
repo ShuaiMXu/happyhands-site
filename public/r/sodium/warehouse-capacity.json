@@ -21,10 +21,10 @@
     "docs": "https://happyhands.cc/systems/sodium/index.md",
     "page": "https://happyhands.cc/systems/sodium/index.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/sodium/registry/items/warehouse-capacity.json",
       "sourceSha256": "41f64c49f6cfeb77a12a55599a8caadaf46a1aae90e24e679dffbaef86156a12",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

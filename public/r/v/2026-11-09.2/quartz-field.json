@@ -1,0 +1,14 @@
+{
+  "name": "quartz-field",
+  "type": "registry:item",
+  "title": "quartz / Field",
+  "description": "Label, control, hint and error as one unit, plus the Form part.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/field.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "field",
+    "version": "2026-11-09.2"
+  }
+}

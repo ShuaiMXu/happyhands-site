@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/lime/status.json"
 registryDependencies: [button, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/lime/components/status
+human: https://happyhands.cc/systems/lime/components/status.md
 ---
 
 # Status

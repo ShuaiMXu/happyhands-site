@@ -1,0 +1,14 @@
+{
+  "name": "quartz-agent-session",
+  "type": "registry:item",
+  "title": "quartz / Agent session",
+  "description": "One agent turn in a thread: tool calls under one live Activity header, the answer, a queued follow-up and the composer with Stop.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/agent-session.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "agent-session",
+    "version": "2026-11-09.2"
+  }
+}

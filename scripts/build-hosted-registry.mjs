@@ -1,5 +1,6 @@
+import {hostedDocument, registryVersion} from "./hosted-document.mjs";
 import { zipEntries } from "./registry-zip.mjs";
-// Publish a provenance-preserving adaptation of the archived registry. Never rewrite files[].content.
+// Preserve executable component source; adapt only opt-in Skill navigation and install URLs.
 import { readFile, writeFile, mkdir, readdir } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { resolve } from "node:path";
@@ -67,6 +68,7 @@ for (const system of ["quartz", "lime", "glaze", "sodium"]) {
     const path = `design-how/${system}/registry/items/${item.name}.json`,
       source = await readFile(resolve(root, path));
     const payload = hosted(JSON.parse(source));
+    if (item.name === "skill") payload.files = payload.files.map(file => ({...file, content: hostedDocument(file.content)}));
     if (item.name === "theme")
       payload.registryDependencies = (
         payload.registryDependencies || []
@@ -74,11 +76,11 @@ for (const system of ["quartz", "lime", "glaze", "sodium"]) {
     payload.meta = {
       ...payload.meta,
       happyhands: {
-        version: "2026-11-09.1",
+        version: registryVersion,
         source: path,
         sourceSha256: sha(source),
         adaptation:
-          "hosted metadata and optional Skill dependency; embedded source preserved",
+          "hosted metadata and opt-in Skill links; executable component source preserved",
       },
     };
     await publish(`r/${system}/${item.name}.json`, encode(payload));
@@ -88,7 +90,7 @@ for (const system of ["quartz", "lime", "glaze", "sodium"]) {
       title: `${system} / ${item.title || item.name}`,
       description: item.description || `${system} ${item.name}`,
       registryDependencies: [`${base}/r/${system}/${item.name}.json`],
-      meta: { system, item: item.name, version: "2026-11-09.1" },
+      meta: { system, item: item.name, version: registryVersion },
     };
     aggregate.push(alias);
     await publish(`r/${alias.name}.json`, encode(alias));
@@ -130,10 +132,7 @@ for (const system of ["quartz", "lime", "glaze", "sodium"]) {
       )
         await publish(
           `systems/${system}/${relative}`,
-          (await readFile(resolve(folder, entry.name), "utf8")).replaceAll(
-            upstream + "/r/",
-            base + "/r/",
-          ),
+          hostedDocument(await readFile(resolve(folder, entry.name), "utf8")),
         );
     }
   };
@@ -142,7 +141,7 @@ for (const system of ["quartz", "lime", "glaze", "sodium"]) {
 // Reading guides are published adaptations too; originals remain in design-how/.
 for (const section of ['guides','articles']) {
  for(const name of await readdir(resolve(root,`design-how/${section}`))) {
-  if(name.endsWith('.md'))await publish(`systems/${section}/${name}`,(await readFile(resolve(root,`design-how/${section}/${name}`),'utf8')).replaceAll(upstream+'/r/',base+'/r/'));
+  if(name.endsWith('.md'))await publish(`systems/${section}/${name}`,hostedDocument(await readFile(resolve(root,`design-how/${section}/${name}`),'utf8')));
  }
 }
 // Archives expose the same hosted install payloads while retaining original source folders.
@@ -173,6 +172,50 @@ const registry = {
 };
 await publish("r/registry.json", encode(registry));
 await publish("r/index.json", encode(registry));
+await publish('r/README.md', `# HappyHands registry
+
+Current adaptation: ${registryVersion}. Original sources remain archived under /design-how/.
+
+Install a pinned component:
+
+\`npx shadcn@latest add https://happyhands.cc/r/v/${registryVersion}/quartz/button.json\`
+
+Opt-in hosted Skill (both agent clients):
+
+\`npx shadcn@latest add https://happyhands.cc/r/v/${registryVersion}/quartz/skill.json\`
+
+For a pinned namespace, set components.json registries to:
+
+\`{"@happyhands":"https://happyhands.cc/r/v/${registryVersion}/{name}.json"}\`
+
+Then install \`@happyhands/quartz-button\`. Unversioned URLs follow the current adaptation. Versioned registry dependencies remain pinned; upstream npm dependencies retain their source ranges.
+
+Import only the generated styles.css once; tokens.css and base.css are bundled source references, not additional imports. Skill prose has only hosted navigation/install URLs adapted; executable components and original archives retain their source.
+`);
+// Immutable releases keep their entire registry dependency graph on the same version.
+for (const entry of [...files].filter(f => f.path.startsWith('r/') && f.path.endsWith('.json'))) {
+  const path = entry.path.replace('r/', `r/v/${registryVersion}/`);
+  const payload = JSON.parse(await readFile(resolve(root, entry.path), 'utf8'));
+  const pin = value => {
+    if (typeof value === 'string') return value.replaceAll(base+'/r/', base+`/r/v/${registryVersion}/`);
+    if (Array.isArray(value)) return value.map(pin);
+    if (value && typeof value === 'object') return Object.fromEntries(Object.entries(value).map(([k,v])=>[k,k==='files' && payload.name!=='skill' ? v : pin(v)]));
+    return value;
+  };
+  const bytes=encode(pin(payload));
+  try { if (await readFile(resolve(root,path),'utf8') !== bytes) throw Error('Immutable release changed: '+path); }
+  catch(error) { if(error.code!=='ENOENT') throw error; }
+  await publish(path,bytes);
+}
+// Retain and cover older immutable releases as newer adaptations are published.
+async function coverVersions(dir) {
+ for(const entry of await readdir(resolve(root,dir),{withFileTypes:true})) {
+  const path=dir+'/'+entry.name;
+  if(entry.isDirectory()) await coverVersions(path);
+  else if(!files.some(f=>f.path===path)) {const bytes=await readFile(resolve(root,path));files.push({path,sha256:sha(bytes),bytes:bytes.length});}
+ }
+}
+await coverVersions('r/v');
 await publish(
   "r/provenance.json",
   encode({

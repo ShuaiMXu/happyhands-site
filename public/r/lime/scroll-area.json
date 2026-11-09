@@ -19,10 +19,10 @@
     "docs": "https://happyhands.cc/systems/lime/components/scroll-area.md",
     "page": "https://happyhands.cc/systems/lime/components/scroll-area.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/lime/registry/items/scroll-area.json",
       "sourceSha256": "c641271b31fe4bb328f5e5d6f4ea293a930ac059c1b0eaec374055a50f0a81f3",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

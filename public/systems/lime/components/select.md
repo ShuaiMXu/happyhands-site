@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/lime/select.json"
 registryDependencies: [icon, popup, portal, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/lime/components/select
+human: https://happyhands.cc/systems/lime/components/select.md
 ---
 
 # Select

@@ -25,10 +25,10 @@
     "docs": "https://happyhands.cc/systems/quartz/components/filter-bar.md",
     "page": "https://happyhands.cc/systems/quartz/components/filter-bar.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/quartz/registry/items/filter-bar.json",
       "sourceSha256": "540682405ae84d487b71a20fa5a64120ea4c6447a4e5665c946aa44ff4faedd0",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

@@ -1,0 +1,14 @@
+{
+  "name": "quartz-switch",
+  "type": "registry:item",
+  "title": "quartz / Switch",
+  "description": "A setting that applies immediately.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/switch.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "switch",
+    "version": "2026-11-09.2"
+  }
+}

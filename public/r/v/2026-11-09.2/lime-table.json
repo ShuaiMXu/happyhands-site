@@ -1,0 +1,14 @@
+{
+  "name": "lime-table",
+  "type": "registry:item",
+  "title": "lime / Table",
+  "description": "Rows of transactions you scan across, with amounts at the end.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/lime/table.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "table",
+    "version": "2026-11-09.2"
+  }
+}

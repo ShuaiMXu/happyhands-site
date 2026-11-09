@@ -33,10 +33,10 @@
     "docs": "https://happyhands.cc/systems/quartz/index.md",
     "page": "https://happyhands.cc/systems/quartz/index.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/quartz/registry/items/api-keys.json",
       "sourceSha256": "297bdb7d6830d119b5b7dccf1557a6d1fad9c33baae019618cc0823f681348c0",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

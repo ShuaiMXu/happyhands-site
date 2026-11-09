@@ -23,10 +23,10 @@
     "docs": "https://happyhands.cc/systems/sodium/components/dropdown-menu.md",
     "page": "https://happyhands.cc/systems/sodium/components/dropdown-menu.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/sodium/registry/items/dropdown-menu.json",
       "sourceSha256": "1edee9f08c10fb0b535eaf37a91b24aff774fe292f08a4e0e8db16b1511aa4f5",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

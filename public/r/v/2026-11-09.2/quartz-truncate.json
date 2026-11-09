@@ -1,0 +1,14 @@
+{
+  "name": "quartz-truncate",
+  "type": "registry:item",
+  "title": "quartz / Truncate",
+  "description": "Long IDs and text cut at the middle or the end, with the full value reachable.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/truncate.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "truncate",
+    "version": "2026-11-09.2"
+  }
+}

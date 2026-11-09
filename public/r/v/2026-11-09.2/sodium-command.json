@@ -1,0 +1,14 @@
+{
+  "name": "sodium-command",
+  "type": "registry:item",
+  "title": "sodium / Command",
+  "description": "Finds and runs a command by typing.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/sodium/command.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "command",
+    "version": "2026-11-09.2"
+  }
+}

@@ -3,6 +3,7 @@ import {localWorkbenchMarkup,setupLocalWorkbench} from './local-workbench.js';
 import {iconMarkup} from '../../packages/ui/icons.ts';
 const guide = 'https://github.com/ShuaiMXu/happyhands/blob/main/docs/harness.md';
 let selectedAgent = 'codex';
+try {const saved=sessionStorage.getItem('hh-setup-agent');if(agentPresets.some(p=>p.id===saved))selectedAgent=saved;}catch{}
 export function heroConnectMarkup(lang) {
   const zh = lang === 'zh';
   const shortNames = {codex:'Codex', 'claude-code':'Claude Code', cursor:'Cursor', kimi:'Kimi', workbuddy:'WorkBuddy'};
@@ -31,6 +32,6 @@ export function setupConnect(lang) {
     const docs = document.getElementById('agent-tool-docs');
     if (docs) docs.href = agent.url;
   };
-  document.querySelectorAll('[data-agent]').forEach(button => button.addEventListener('click', () => { selectedAgent = button.dataset.agent; apply(); }));
+  document.querySelectorAll('[data-agent]').forEach(button => button.addEventListener('click', () => { selectedAgent = button.dataset.agent; try{sessionStorage.setItem('hh-setup-agent',selectedAgent);}catch{} apply(); }));
   apply();
 }

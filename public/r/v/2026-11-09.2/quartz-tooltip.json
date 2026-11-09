@@ -1,0 +1,14 @@
+{
+  "name": "quartz-tooltip",
+  "type": "registry:item",
+  "title": "quartz / Tooltip",
+  "description": "Names an icon button or shows a shortcut; never holds anything essential.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/tooltip.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "tooltip",
+    "version": "2026-11-09.2"
+  }
+}

@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/json-view.json"
 registryDependencies: [button, code-block, icon, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/json-view
+human: https://happyhands.cc/systems/glaze/components/json-view.md
 ---
 
 # JSON view

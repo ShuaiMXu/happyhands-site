@@ -1,0 +1,14 @@
+{
+  "name": "lime-button",
+  "type": "registry:item",
+  "title": "lime / Button",
+  "description": "Starts an action, such as Send money. The lime primary is the one glowing action on a screen.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/lime/button.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "button",
+    "version": "2026-11-09.2"
+  }
+}

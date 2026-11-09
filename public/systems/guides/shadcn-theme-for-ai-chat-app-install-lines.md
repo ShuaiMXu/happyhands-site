@@ -54,7 +54,7 @@ The agent-session block assembles one turn from these parts. It puts tool calls 
 
 Quartz's rules also cover what a waiting thread looks like. [Quartz's anti-slop page](/systems/quartz/foundations/anti-slop) has 26 rules, and `anti-slop-no-shimmer-text` bans sweeping a gradient through in-progress text. It asks for still text and the running status instead, and its incorrect code is a shimmering "Thinking" label.
 
-Rule `anti-slop-no-shimmer-text` (never) from the Quartz docs (https://design.how/systems/quartz/foundations/anti-slop). Never sweep a gradient through in-progress text; keep the text still and show the running status. Because the sweep drops the text under its contrast floor mid-pass and never says when the work stops.
+Rule `anti-slop-no-shimmer-text` (never) from the Quartz docs (https://happyhands.cc/systems/quartz/foundations/anti-slop.md). Never sweep a gradient through in-progress text; keep the text still and show the running status. Because the sweep drops the text under its contrast floor mid-pass and never says when the work stops.
 
 Incorrect:
 

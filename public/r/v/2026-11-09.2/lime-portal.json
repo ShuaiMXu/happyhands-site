@@ -1,0 +1,14 @@
+{
+  "name": "lime-portal",
+  "type": "registry:item",
+  "title": "lime / Portal",
+  "description": "Support file: puts overlays inside the .lime scope so they keep its tokens.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/lime/portal.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "portal",
+    "version": "2026-11-09.2"
+  }
+}

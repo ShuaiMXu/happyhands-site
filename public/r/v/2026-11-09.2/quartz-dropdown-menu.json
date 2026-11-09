@@ -1,0 +1,14 @@
+{
+  "name": "quartz-dropdown-menu",
+  "type": "registry:item",
+  "title": "quartz / Dropdown menu",
+  "description": "Actions from a trigger or a right click.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/dropdown-menu.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "dropdown-menu",
+    "version": "2026-11-09.2"
+  }
+}

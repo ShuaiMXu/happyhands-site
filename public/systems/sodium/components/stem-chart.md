@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/sodium/stem-chart.json"
 registryDependencies: [chart, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/sodium/components/stem-chart
+human: https://happyhands.cc/systems/sodium/components/stem-chart.md
 ---
 
 # Stem chart

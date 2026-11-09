@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/attachment.json"
 registryDependencies: [button, icon, theme, truncate, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/attachment
+human: https://happyhands.cc/systems/glaze/components/attachment.md
 ---
 
 # Attachment

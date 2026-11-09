@@ -21,10 +21,10 @@
     "docs": "https://happyhands.cc/systems/lime/components/toast.md",
     "page": "https://happyhands.cc/systems/lime/components/toast.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/lime/registry/items/toast.json",
       "sourceSha256": "16e9f7d846f62a3eaed5d1d209882ea765607d2790759b20db520859f031b42a",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

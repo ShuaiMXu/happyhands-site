@@ -12,10 +12,10 @@
     "docs": "https://happyhands.cc/systems/glaze/index.md",
     "page": "https://happyhands.cc/systems/glaze/index.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/glaze/registry/items/children.json",
       "sourceSha256": "5ef9651e2344cabeee3f9f9bb4118b9fb1e7f0825d19697462dbdfbf6cde4d68",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

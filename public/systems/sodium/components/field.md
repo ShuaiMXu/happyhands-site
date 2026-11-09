@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/sodium/field.json"
 registryDependencies: [theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/sodium/components/field
+human: https://happyhands.cc/systems/sodium/components/field.md
 ---
 
 # Field

@@ -17,10 +17,10 @@
     "docs": "https://happyhands.cc/systems/sodium/components/stem-chart.md",
     "page": "https://happyhands.cc/systems/sodium/components/stem-chart.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/sodium/registry/items/stem-chart.json",
       "sourceSha256": "d1f8d72b91d7a34dce6be27980cdfdfef689b56d943729d3b51b3c0c7c377c92",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

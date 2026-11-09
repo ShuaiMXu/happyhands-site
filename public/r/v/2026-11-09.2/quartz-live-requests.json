@@ -1,0 +1,14 @@
+{
+  "name": "quartz-live-requests",
+  "type": "registry:item",
+  "title": "quartz / Live activity",
+  "description": "An agent's tool calls as they happen: result, tool and agent, trouble marked, with filters, Pause and the call docked beside the list.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/live-requests.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "live-requests",
+    "version": "2026-11-09.2"
+  }
+}

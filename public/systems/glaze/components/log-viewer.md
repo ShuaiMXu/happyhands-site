@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/log-viewer.json"
 registryDependencies: [button, code-block, empty-state, icon, input, segmented-control, status, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/log-viewer
+human: https://happyhands.cc/systems/glaze/components/log-viewer.md
 ---
 
 # Log viewer

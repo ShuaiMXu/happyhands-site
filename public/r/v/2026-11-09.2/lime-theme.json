@@ -1,0 +1,14 @@
+{
+  "name": "lime-theme",
+  "type": "registry:item",
+  "title": "lime / Lime theme",
+  "description": "Support file: tokens, scoped base and the Tailwind v4 theme mapping.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/lime/theme.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "theme",
+    "version": "2026-11-09.2"
+  }
+}

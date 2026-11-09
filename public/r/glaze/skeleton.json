@@ -16,10 +16,10 @@
     "docs": "https://happyhands.cc/systems/glaze/components/skeleton.md",
     "page": "https://happyhands.cc/systems/glaze/components/skeleton.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/glaze/registry/items/skeleton.json",
       "sourceSha256": "68dcf344dcbf1fcba45d145e3f9e8702e3070c90f5795511c52c6b75ce7eb4b9",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

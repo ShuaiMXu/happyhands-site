@@ -16,10 +16,10 @@
     "docs": "https://happyhands.cc/systems/glaze/index.md",
     "page": "https://happyhands.cc/systems/glaze/index.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/glaze/registry/items/utils.json",
       "sourceSha256": "5644cc836c08e421976ac1a77679d4aa2af69e067a896f8930f85f06e7674c09",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

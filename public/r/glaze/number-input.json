@@ -22,10 +22,10 @@
     "docs": "https://happyhands.cc/systems/glaze/components/number-input.md",
     "page": "https://happyhands.cc/systems/glaze/components/number-input.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/glaze/registry/items/number-input.json",
       "sourceSha256": "ac8883fdcaf613a1562c70045d77d3f21e1e9f6d85450db67b420e3bcf9ad046",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

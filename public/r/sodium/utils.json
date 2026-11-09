@@ -16,10 +16,10 @@
     "docs": "https://happyhands.cc/systems/sodium/index.md",
     "page": "https://happyhands.cc/systems/sodium/index.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/sodium/registry/items/utils.json",
       "sourceSha256": "b438c29f0643f8fecfc4c95bca3b79cd512d64720ed1850d94692565f6ede5eb",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

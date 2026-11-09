@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/checkbox.json"
 registryDependencies: [icon, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/checkbox
+human: https://happyhands.cc/systems/quartz/components/checkbox.md
 ---
 
 # Checkbox

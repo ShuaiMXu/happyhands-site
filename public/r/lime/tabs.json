@@ -19,10 +19,10 @@
     "docs": "https://happyhands.cc/systems/lime/components/tabs.md",
     "page": "https://happyhands.cc/systems/lime/components/tabs.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/lime/registry/items/tabs.json",
       "sourceSha256": "f64c3887d8267b001ceb85bb37b63bb84ce5281020a9bb23abff890a914b3fc7",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

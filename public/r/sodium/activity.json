@@ -18,10 +18,10 @@
     "docs": "https://happyhands.cc/systems/sodium/components/activity.md",
     "page": "https://happyhands.cc/systems/sodium/components/activity.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/sodium/registry/items/activity.json",
       "sourceSha256": "d4f6f76b1e41f4d2070d73c72e20abfb6fc3092ded6752307d8bf6bd65b4cc77",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

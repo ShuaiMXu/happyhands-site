@@ -20,10 +20,10 @@
     "docs": "https://happyhands.cc/systems/lime/components/tooltip.md",
     "page": "https://happyhands.cc/systems/lime/components/tooltip.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/lime/registry/items/tooltip.json",
       "sourceSha256": "86f363de39cc79fedbc2cae9e67f878279dc58dd6286d9c866eedfc00cf4a9c7",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

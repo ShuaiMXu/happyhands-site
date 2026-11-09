@@ -18,10 +18,10 @@
     "docs": "https://happyhands.cc/systems/quartz/components/copy-button.md",
     "page": "https://happyhands.cc/systems/quartz/components/copy-button.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/quartz/registry/items/copy-button.json",
       "sourceSha256": "66cf8a9afe779ae0ee97f4fd2ed8e2170bd2f148865e25ccd558d7ef87a20a2c",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

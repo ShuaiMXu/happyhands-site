@@ -26,10 +26,10 @@
     "docs": "https://happyhands.cc/systems/quartz/components/log-viewer.md",
     "page": "https://happyhands.cc/systems/quartz/components/log-viewer.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/quartz/registry/items/log-viewer.json",
       "sourceSha256": "9bd91b0938abbf9cf2f42692afcd8da131dc5f616788dc800cf5cdefa8898629",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

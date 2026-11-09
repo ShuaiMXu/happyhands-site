@@ -24,10 +24,10 @@
     "docs": "https://happyhands.cc/systems/quartz/components/button-group.md",
     "page": "https://happyhands.cc/systems/quartz/components/button-group.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/quartz/registry/items/button-group.json",
       "sourceSha256": "4a762337ba8ed089c8a101d5e8564654c6d3486895c7b0b531e4329a4e641ea9",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

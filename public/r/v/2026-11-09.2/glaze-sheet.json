@@ -1,0 +1,14 @@
+{
+  "name": "glaze-sheet",
+  "type": "registry:item",
+  "title": "glaze / Sheet",
+  "description": "Opens the details of one thing at the side.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/glaze/sheet.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "sheet",
+    "version": "2026-11-09.2"
+  }
+}

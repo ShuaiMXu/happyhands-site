@@ -1,0 +1,14 @@
+{
+  "name": "quartz-badge",
+  "type": "registry:item",
+  "title": "quartz / Badge",
+  "description": "A static label for a count, category or kind, shown as a tinted word.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/badge.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "badge",
+    "version": "2026-11-09.2"
+  }
+}

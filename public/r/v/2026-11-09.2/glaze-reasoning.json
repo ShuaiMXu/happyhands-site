@@ -1,0 +1,14 @@
+{
+  "name": "glaze-reasoning",
+  "type": "registry:item",
+  "title": "glaze / Reasoning",
+  "description": "Shows what the model thought before answering.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/glaze/reasoning.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "reasoning",
+    "version": "2026-11-09.2"
+  }
+}

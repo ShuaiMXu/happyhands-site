@@ -1,0 +1,14 @@
+{
+  "name": "sodium-status",
+  "type": "registry:item",
+  "title": "sodium / Status",
+  "description": "Says where a job or a run stands.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/sodium/status.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "status",
+    "version": "2026-11-09.2"
+  }
+}

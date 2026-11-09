@@ -1,0 +1,14 @@
+{
+  "name": "lime-follow-ups",
+  "type": "registry:item",
+  "title": "lime / Follow ups",
+  "description": "Suggested next requests under an answer.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/lime/follow-ups.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "follow-ups",
+    "version": "2026-11-09.2"
+  }
+}

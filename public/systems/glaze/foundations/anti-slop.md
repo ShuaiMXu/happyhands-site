@@ -3,7 +3,7 @@ name: Anti-slop
 system: glaze
 kind: foundation
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/foundations/anti-slop
+human: https://happyhands.cc/systems/glaze/foundations/anti-slop.md
 ---
 
 # Anti-slop

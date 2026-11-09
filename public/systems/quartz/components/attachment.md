@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/attachment.json"
 registryDependencies: [button, format, icon, kind, theme, truncate, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/attachment
+human: https://happyhands.cc/systems/quartz/components/attachment.md
 ---
 
 # Attachment

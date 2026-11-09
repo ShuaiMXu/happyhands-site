@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/reasoning.json"
 registryDependencies: [activity, conversation, response, status, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/reasoning
+human: https://happyhands.cc/systems/glaze/components/reasoning.md
 ---
 
 # Reasoning

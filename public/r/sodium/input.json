@@ -24,10 +24,10 @@
     "docs": "https://happyhands.cc/systems/sodium/components/input.md",
     "page": "https://happyhands.cc/systems/sodium/components/input.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/sodium/registry/items/input.json",
       "sourceSha256": "69471e28372f5085259355ffd739c6448cfd6c8e55493fca981548c188b653e3",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

@@ -140,7 +140,7 @@ export function AgentPanel() {
 
 Quartz's color page has 9 rules, and some are not the docs rule behind any of the 35 lint rules. The first is `color-line-step`, which asks for a 2px line or ring in a hue to use the line step, `--accent-line`.
 
-Rule `color-line-step` (must) from the Quartz docs (https://design.how/systems/quartz/foundations/color). Draw a 2px line or ring in a hue with the line step, --accent-line. Because the mark step is a fill that falls under 3:1 on paper, and only the line step clears 3:1 for a stroke.
+Rule `color-line-step` (must) from the Quartz docs (https://happyhands.cc/systems/quartz/foundations/color.md). Draw a 2px line or ring in a hue with the line step, --accent-line. Because the mark step is a fill that falls under 3:1 on paper, and only the line step clears 3:1 for a stroke.
 
 Incorrect:
 

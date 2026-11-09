@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/copy-button.json"
 registryDependencies: [button, icon, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/copy-button
+human: https://happyhands.cc/systems/glaze/components/copy-button.md
 ---
 
 # Copy button

@@ -14,7 +14,7 @@
       "meta": {
         "system": "quartz",
         "item": "button",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -28,7 +28,7 @@
       "meta": {
         "system": "quartz",
         "item": "button-group",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -42,7 +42,7 @@
       "meta": {
         "system": "quartz",
         "item": "copy-button",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -56,7 +56,7 @@
       "meta": {
         "system": "quartz",
         "item": "input",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -70,7 +70,7 @@
       "meta": {
         "system": "quartz",
         "item": "textarea",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -84,7 +84,7 @@
       "meta": {
         "system": "quartz",
         "item": "field",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -98,7 +98,7 @@
       "meta": {
         "system": "quartz",
         "item": "date-picker",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -112,7 +112,7 @@
       "meta": {
         "system": "quartz",
         "item": "combobox",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -126,7 +126,7 @@
       "meta": {
         "system": "quartz",
         "item": "checkbox",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -140,7 +140,7 @@
       "meta": {
         "system": "quartz",
         "item": "radio-group",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -154,7 +154,7 @@
       "meta": {
         "system": "quartz",
         "item": "switch",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -168,7 +168,7 @@
       "meta": {
         "system": "quartz",
         "item": "slider",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -182,7 +182,7 @@
       "meta": {
         "system": "quartz",
         "item": "select",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -196,7 +196,7 @@
       "meta": {
         "system": "quartz",
         "item": "segmented-control",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -210,7 +210,7 @@
       "meta": {
         "system": "quartz",
         "item": "badge",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -224,7 +224,7 @@
       "meta": {
         "system": "quartz",
         "item": "chip",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -238,7 +238,7 @@
       "meta": {
         "system": "quartz",
         "item": "status",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -252,7 +252,7 @@
       "meta": {
         "system": "quartz",
         "item": "stat",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -266,7 +266,7 @@
       "meta": {
         "system": "quartz",
         "item": "avatar",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -280,7 +280,7 @@
       "meta": {
         "system": "quartz",
         "item": "kbd",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -294,7 +294,7 @@
       "meta": {
         "system": "quartz",
         "item": "relative-time",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -308,7 +308,7 @@
       "meta": {
         "system": "quartz",
         "item": "truncate",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -322,7 +322,7 @@
       "meta": {
         "system": "quartz",
         "item": "item",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -336,7 +336,7 @@
       "meta": {
         "system": "quartz",
         "item": "card",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -350,7 +350,7 @@
       "meta": {
         "system": "quartz",
         "item": "panel",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -364,7 +364,7 @@
       "meta": {
         "system": "quartz",
         "item": "data-list",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -378,7 +378,7 @@
       "meta": {
         "system": "quartz",
         "item": "alert",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -392,7 +392,7 @@
       "meta": {
         "system": "quartz",
         "item": "toast",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -406,7 +406,7 @@
       "meta": {
         "system": "quartz",
         "item": "empty-state",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -420,7 +420,7 @@
       "meta": {
         "system": "quartz",
         "item": "skeleton",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -434,7 +434,7 @@
       "meta": {
         "system": "quartz",
         "item": "progress",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -448,7 +448,7 @@
       "meta": {
         "system": "quartz",
         "item": "dialog",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -462,7 +462,7 @@
       "meta": {
         "system": "quartz",
         "item": "sheet",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -476,7 +476,7 @@
       "meta": {
         "system": "quartz",
         "item": "popover",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -490,7 +490,7 @@
       "meta": {
         "system": "quartz",
         "item": "tooltip",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -504,7 +504,7 @@
       "meta": {
         "system": "quartz",
         "item": "dropdown-menu",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -518,7 +518,7 @@
       "meta": {
         "system": "quartz",
         "item": "command",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -532,7 +532,7 @@
       "meta": {
         "system": "quartz",
         "item": "tabs",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -546,7 +546,7 @@
       "meta": {
         "system": "quartz",
         "item": "breadcrumb",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -560,7 +560,7 @@
       "meta": {
         "system": "quartz",
         "item": "pagination",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -574,7 +574,7 @@
       "meta": {
         "system": "quartz",
         "item": "collapsible",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -588,7 +588,7 @@
       "meta": {
         "system": "quartz",
         "item": "page-header",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -602,7 +602,7 @@
       "meta": {
         "system": "quartz",
         "item": "table",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -616,7 +616,7 @@
       "meta": {
         "system": "quartz",
         "item": "filter-bar",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -630,7 +630,7 @@
       "meta": {
         "system": "quartz",
         "item": "timeline",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -644,7 +644,7 @@
       "meta": {
         "system": "quartz",
         "item": "code-block",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -658,7 +658,7 @@
       "meta": {
         "system": "quartz",
         "item": "json-view",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -672,7 +672,7 @@
       "meta": {
         "system": "quartz",
         "item": "log-viewer",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -686,7 +686,7 @@
       "meta": {
         "system": "quartz",
         "item": "attachment",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -700,7 +700,7 @@
       "meta": {
         "system": "quartz",
         "item": "chart",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -714,7 +714,7 @@
       "meta": {
         "system": "quartz",
         "item": "message",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -728,7 +728,7 @@
       "meta": {
         "system": "quartz",
         "item": "conversation",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -742,7 +742,7 @@
       "meta": {
         "system": "quartz",
         "item": "response",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -756,7 +756,7 @@
       "meta": {
         "system": "quartz",
         "item": "reasoning",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -770,7 +770,7 @@
       "meta": {
         "system": "quartz",
         "item": "tool-call",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -784,7 +784,7 @@
       "meta": {
         "system": "quartz",
         "item": "activity",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -798,7 +798,7 @@
       "meta": {
         "system": "quartz",
         "item": "prompt-input",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -812,7 +812,7 @@
       "meta": {
         "system": "quartz",
         "item": "send-button",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -826,7 +826,7 @@
       "meta": {
         "system": "quartz",
         "item": "mention",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -840,7 +840,7 @@
       "meta": {
         "system": "quartz",
         "item": "bulk-action-bar",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -854,7 +854,7 @@
       "meta": {
         "system": "quartz",
         "item": "data-grid",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -868,7 +868,7 @@
       "meta": {
         "system": "quartz",
         "item": "project-home",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -882,7 +882,7 @@
       "meta": {
         "system": "quartz",
         "item": "agent-session",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -896,7 +896,7 @@
       "meta": {
         "system": "quartz",
         "item": "tool-approval",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -910,7 +910,7 @@
       "meta": {
         "system": "quartz",
         "item": "api-keys",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -924,7 +924,7 @@
       "meta": {
         "system": "quartz",
         "item": "deploy-detail",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -938,7 +938,7 @@
       "meta": {
         "system": "quartz",
         "item": "run-trace",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -952,7 +952,7 @@
       "meta": {
         "system": "quartz",
         "item": "live-requests",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -966,7 +966,7 @@
       "meta": {
         "system": "quartz",
         "item": "utils",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -980,7 +980,7 @@
       "meta": {
         "system": "quartz",
         "item": "icon",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -994,7 +994,7 @@
       "meta": {
         "system": "quartz",
         "item": "portal",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1008,7 +1008,7 @@
       "meta": {
         "system": "quartz",
         "item": "overlay",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1022,7 +1022,7 @@
       "meta": {
         "system": "quartz",
         "item": "kind",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1036,7 +1036,7 @@
       "meta": {
         "system": "quartz",
         "item": "format",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1050,7 +1050,7 @@
       "meta": {
         "system": "quartz",
         "item": "css-var",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1064,7 +1064,7 @@
       "meta": {
         "system": "quartz",
         "item": "direction",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1078,7 +1078,7 @@
       "meta": {
         "system": "quartz",
         "item": "use-focus-when-replaced",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1092,7 +1092,7 @@
       "meta": {
         "system": "quartz",
         "item": "use-offscreen",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1106,7 +1106,7 @@
       "meta": {
         "system": "quartz",
         "item": "children",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1120,7 +1120,7 @@
       "meta": {
         "system": "quartz",
         "item": "scroll-focus",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1134,7 +1134,7 @@
       "meta": {
         "system": "quartz",
         "item": "lint",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1148,7 +1148,7 @@
       "meta": {
         "system": "quartz",
         "item": "theme",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1162,7 +1162,7 @@
       "meta": {
         "system": "quartz",
         "item": "skill",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1176,7 +1176,7 @@
       "meta": {
         "system": "lime",
         "item": "button",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1190,7 +1190,7 @@
       "meta": {
         "system": "lime",
         "item": "copy-button",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1204,7 +1204,7 @@
       "meta": {
         "system": "lime",
         "item": "input",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1218,7 +1218,7 @@
       "meta": {
         "system": "lime",
         "item": "textarea",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1232,7 +1232,7 @@
       "meta": {
         "system": "lime",
         "item": "field",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1246,7 +1246,7 @@
       "meta": {
         "system": "lime",
         "item": "select",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1260,7 +1260,7 @@
       "meta": {
         "system": "lime",
         "item": "combobox",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1274,7 +1274,7 @@
       "meta": {
         "system": "lime",
         "item": "dropzone",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1288,7 +1288,7 @@
       "meta": {
         "system": "lime",
         "item": "keypad",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1302,7 +1302,7 @@
       "meta": {
         "system": "lime",
         "item": "checkbox",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1316,7 +1316,7 @@
       "meta": {
         "system": "lime",
         "item": "radio",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1330,7 +1330,7 @@
       "meta": {
         "system": "lime",
         "item": "switch",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1344,7 +1344,7 @@
       "meta": {
         "system": "lime",
         "item": "slider",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1358,7 +1358,7 @@
       "meta": {
         "system": "lime",
         "item": "segmented",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1372,7 +1372,7 @@
       "meta": {
         "system": "lime",
         "item": "chip",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1386,7 +1386,7 @@
       "meta": {
         "system": "lime",
         "item": "badge",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1400,7 +1400,7 @@
       "meta": {
         "system": "lime",
         "item": "avatar",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1414,7 +1414,7 @@
       "meta": {
         "system": "lime",
         "item": "card",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1428,7 +1428,7 @@
       "meta": {
         "system": "lime",
         "item": "table",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1442,7 +1442,7 @@
       "meta": {
         "system": "lime",
         "item": "list",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1456,7 +1456,7 @@
       "meta": {
         "system": "lime",
         "item": "list-item-menu",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1470,7 +1470,7 @@
       "meta": {
         "system": "lime",
         "item": "progress",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1484,7 +1484,7 @@
       "meta": {
         "system": "lime",
         "item": "amount",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1498,7 +1498,7 @@
       "meta": {
         "system": "lime",
         "item": "status",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1512,7 +1512,7 @@
       "meta": {
         "system": "lime",
         "item": "empty",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1526,7 +1526,7 @@
       "meta": {
         "system": "lime",
         "item": "skeleton",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1540,7 +1540,7 @@
       "meta": {
         "system": "lime",
         "item": "error-state",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1554,7 +1554,7 @@
       "meta": {
         "system": "lime",
         "item": "toast",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1568,7 +1568,7 @@
       "meta": {
         "system": "lime",
         "item": "dialog",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1582,7 +1582,7 @@
       "meta": {
         "system": "lime",
         "item": "alert-dialog",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1596,7 +1596,7 @@
       "meta": {
         "system": "lime",
         "item": "sheet",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1610,7 +1610,7 @@
       "meta": {
         "system": "lime",
         "item": "popover",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1624,7 +1624,7 @@
       "meta": {
         "system": "lime",
         "item": "dropdown-menu",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1638,7 +1638,7 @@
       "meta": {
         "system": "lime",
         "item": "tooltip",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1652,7 +1652,7 @@
       "meta": {
         "system": "lime",
         "item": "tabs",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1666,7 +1666,7 @@
       "meta": {
         "system": "lime",
         "item": "toolbar",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1680,7 +1680,7 @@
       "meta": {
         "system": "lime",
         "item": "accordion",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1694,7 +1694,7 @@
       "meta": {
         "system": "lime",
         "item": "collapsible",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1708,7 +1708,7 @@
       "meta": {
         "system": "lime",
         "item": "separator",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1722,7 +1722,7 @@
       "meta": {
         "system": "lime",
         "item": "scroll-area",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1736,7 +1736,7 @@
       "meta": {
         "system": "lime",
         "item": "chat-input",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1750,7 +1750,7 @@
       "meta": {
         "system": "lime",
         "item": "message",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1764,7 +1764,7 @@
       "meta": {
         "system": "lime",
         "item": "tool-call",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1778,7 +1778,7 @@
       "meta": {
         "system": "lime",
         "item": "follow-ups",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1792,7 +1792,7 @@
       "meta": {
         "system": "lime",
         "item": "approval-request",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1806,7 +1806,7 @@
       "meta": {
         "system": "lime",
         "item": "action-receipt",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1820,7 +1820,7 @@
       "meta": {
         "system": "lime",
         "item": "autonomy-rule",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1834,7 +1834,7 @@
       "meta": {
         "system": "lime",
         "item": "receipt-match",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1848,7 +1848,7 @@
       "meta": {
         "system": "lime",
         "item": "insight",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1862,7 +1862,7 @@
       "meta": {
         "system": "lime",
         "item": "bill-schedule",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1876,7 +1876,7 @@
       "meta": {
         "system": "lime",
         "item": "balance",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1890,7 +1890,7 @@
       "meta": {
         "system": "lime",
         "item": "home",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1904,7 +1904,7 @@
       "meta": {
         "system": "lime",
         "item": "assistant-approval",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1918,7 +1918,7 @@
       "meta": {
         "system": "lime",
         "item": "assistant-alert",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1932,7 +1932,7 @@
       "meta": {
         "system": "lime",
         "item": "settings-rules",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1946,7 +1946,7 @@
       "meta": {
         "system": "lime",
         "item": "split-request",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1960,7 +1960,7 @@
       "meta": {
         "system": "lime",
         "item": "utils",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1974,7 +1974,7 @@
       "meta": {
         "system": "lime",
         "item": "icon",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -1988,7 +1988,7 @@
       "meta": {
         "system": "lime",
         "item": "portal",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2002,7 +2002,7 @@
       "meta": {
         "system": "lime",
         "item": "use-focus-when-replaced",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2016,7 +2016,7 @@
       "meta": {
         "system": "lime",
         "item": "popup",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2030,7 +2030,7 @@
       "meta": {
         "system": "lime",
         "item": "lint",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2044,7 +2044,7 @@
       "meta": {
         "system": "lime",
         "item": "theme",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2058,7 +2058,7 @@
       "meta": {
         "system": "lime",
         "item": "skill",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2072,7 +2072,7 @@
       "meta": {
         "system": "glaze",
         "item": "button",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2086,7 +2086,7 @@
       "meta": {
         "system": "glaze",
         "item": "toolbar",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2100,7 +2100,7 @@
       "meta": {
         "system": "glaze",
         "item": "field",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2114,7 +2114,7 @@
       "meta": {
         "system": "glaze",
         "item": "input",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2128,7 +2128,7 @@
       "meta": {
         "system": "glaze",
         "item": "textarea",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2142,7 +2142,7 @@
       "meta": {
         "system": "glaze",
         "item": "chip",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2156,7 +2156,7 @@
       "meta": {
         "system": "glaze",
         "item": "checkbox",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2170,7 +2170,7 @@
       "meta": {
         "system": "glaze",
         "item": "radio-group",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2184,7 +2184,7 @@
       "meta": {
         "system": "glaze",
         "item": "switch",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2198,7 +2198,7 @@
       "meta": {
         "system": "glaze",
         "item": "slider",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2212,7 +2212,7 @@
       "meta": {
         "system": "glaze",
         "item": "segmented-control",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2226,7 +2226,7 @@
       "meta": {
         "system": "glaze",
         "item": "kbd",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2240,7 +2240,7 @@
       "meta": {
         "system": "glaze",
         "item": "copy-button",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2254,7 +2254,7 @@
       "meta": {
         "system": "glaze",
         "item": "button-group",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2268,7 +2268,7 @@
       "meta": {
         "system": "glaze",
         "item": "select",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2282,7 +2282,7 @@
       "meta": {
         "system": "glaze",
         "item": "combobox",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2296,7 +2296,7 @@
       "meta": {
         "system": "glaze",
         "item": "date-picker",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2310,7 +2310,7 @@
       "meta": {
         "system": "glaze",
         "item": "number-input",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2324,7 +2324,7 @@
       "meta": {
         "system": "glaze",
         "item": "otp-input",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2338,7 +2338,7 @@
       "meta": {
         "system": "glaze",
         "item": "filter-bar",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2352,7 +2352,7 @@
       "meta": {
         "system": "glaze",
         "item": "card",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2366,7 +2366,7 @@
       "meta": {
         "system": "glaze",
         "item": "panel",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2380,7 +2380,7 @@
       "meta": {
         "system": "glaze",
         "item": "badge",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2394,7 +2394,7 @@
       "meta": {
         "system": "glaze",
         "item": "status",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2408,7 +2408,7 @@
       "meta": {
         "system": "glaze",
         "item": "avatar",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2422,7 +2422,7 @@
       "meta": {
         "system": "glaze",
         "item": "item",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2436,7 +2436,7 @@
       "meta": {
         "system": "glaze",
         "item": "data-list",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2450,7 +2450,7 @@
       "meta": {
         "system": "glaze",
         "item": "truncate",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2464,7 +2464,7 @@
       "meta": {
         "system": "glaze",
         "item": "skeleton",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2478,7 +2478,7 @@
       "meta": {
         "system": "glaze",
         "item": "progress",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2492,7 +2492,7 @@
       "meta": {
         "system": "glaze",
         "item": "empty-state",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2506,7 +2506,7 @@
       "meta": {
         "system": "glaze",
         "item": "alert",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2520,7 +2520,7 @@
       "meta": {
         "system": "glaze",
         "item": "relative-time",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2534,7 +2534,7 @@
       "meta": {
         "system": "glaze",
         "item": "code-block",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2548,7 +2548,7 @@
       "meta": {
         "system": "glaze",
         "item": "json-view",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2562,7 +2562,7 @@
       "meta": {
         "system": "glaze",
         "item": "attachment",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2576,7 +2576,7 @@
       "meta": {
         "system": "glaze",
         "item": "dialog",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2590,7 +2590,7 @@
       "meta": {
         "system": "glaze",
         "item": "sheet",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2604,7 +2604,7 @@
       "meta": {
         "system": "glaze",
         "item": "popover",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2618,7 +2618,7 @@
       "meta": {
         "system": "glaze",
         "item": "tooltip",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2632,7 +2632,7 @@
       "meta": {
         "system": "glaze",
         "item": "dropdown-menu",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2646,7 +2646,7 @@
       "meta": {
         "system": "glaze",
         "item": "command",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2660,7 +2660,7 @@
       "meta": {
         "system": "glaze",
         "item": "toast",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2674,7 +2674,7 @@
       "meta": {
         "system": "glaze",
         "item": "collapsible",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2688,7 +2688,7 @@
       "meta": {
         "system": "glaze",
         "item": "overlay",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2702,7 +2702,7 @@
       "meta": {
         "system": "glaze",
         "item": "children",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2716,7 +2716,7 @@
       "meta": {
         "system": "glaze",
         "item": "tabs",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2730,7 +2730,7 @@
       "meta": {
         "system": "glaze",
         "item": "breadcrumb",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2744,7 +2744,7 @@
       "meta": {
         "system": "glaze",
         "item": "steps",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2758,7 +2758,7 @@
       "meta": {
         "system": "glaze",
         "item": "table",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2772,7 +2772,7 @@
       "meta": {
         "system": "glaze",
         "item": "data-grid",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2786,7 +2786,7 @@
       "meta": {
         "system": "glaze",
         "item": "pagination",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2800,7 +2800,7 @@
       "meta": {
         "system": "glaze",
         "item": "bulk-action-bar",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2814,7 +2814,7 @@
       "meta": {
         "system": "glaze",
         "item": "chart",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2828,7 +2828,7 @@
       "meta": {
         "system": "glaze",
         "item": "timeline",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2842,7 +2842,7 @@
       "meta": {
         "system": "glaze",
         "item": "log-viewer",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2856,7 +2856,7 @@
       "meta": {
         "system": "glaze",
         "item": "data-units",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2870,7 +2870,7 @@
       "meta": {
         "system": "glaze",
         "item": "prompt-input",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2884,7 +2884,7 @@
       "meta": {
         "system": "glaze",
         "item": "send-button",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2898,7 +2898,7 @@
       "meta": {
         "system": "glaze",
         "item": "mention",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2912,7 +2912,7 @@
       "meta": {
         "system": "glaze",
         "item": "message",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2926,7 +2926,7 @@
       "meta": {
         "system": "glaze",
         "item": "conversation",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2940,7 +2940,7 @@
       "meta": {
         "system": "glaze",
         "item": "response",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2954,7 +2954,7 @@
       "meta": {
         "system": "glaze",
         "item": "reasoning",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2968,7 +2968,7 @@
       "meta": {
         "system": "glaze",
         "item": "tool-call",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2982,7 +2982,7 @@
       "meta": {
         "system": "glaze",
         "item": "activity",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -2996,7 +2996,7 @@
       "meta": {
         "system": "glaze",
         "item": "follow-ups",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3010,7 +3010,7 @@
       "meta": {
         "system": "glaze",
         "item": "action-receipt",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3024,7 +3024,7 @@
       "meta": {
         "system": "glaze",
         "item": "autonomy-rule",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3038,7 +3038,7 @@
       "meta": {
         "system": "glaze",
         "item": "today",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3052,7 +3052,7 @@
       "meta": {
         "system": "glaze",
         "item": "voice-capture",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3066,7 +3066,7 @@
       "meta": {
         "system": "glaze",
         "item": "note-recap",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3080,7 +3080,7 @@
       "meta": {
         "system": "glaze",
         "item": "booking-approval",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3094,7 +3094,7 @@
       "meta": {
         "system": "glaze",
         "item": "assistant-limits",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3108,7 +3108,7 @@
       "meta": {
         "system": "glaze",
         "item": "conversation-insights",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3122,7 +3122,7 @@
       "meta": {
         "system": "glaze",
         "item": "cited-answer",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3136,7 +3136,7 @@
       "meta": {
         "system": "glaze",
         "item": "agent-plan",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3150,7 +3150,7 @@
       "meta": {
         "system": "glaze",
         "item": "agent-procedure",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3164,7 +3164,7 @@
       "meta": {
         "system": "glaze",
         "item": "simulations",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3178,7 +3178,7 @@
       "meta": {
         "system": "glaze",
         "item": "experiment",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3192,7 +3192,7 @@
       "meta": {
         "system": "glaze",
         "item": "utils",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3206,7 +3206,7 @@
       "meta": {
         "system": "glaze",
         "item": "icon",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3220,7 +3220,7 @@
       "meta": {
         "system": "glaze",
         "item": "portal",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3234,7 +3234,7 @@
       "meta": {
         "system": "glaze",
         "item": "direction",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3248,7 +3248,7 @@
       "meta": {
         "system": "glaze",
         "item": "lint",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3262,7 +3262,7 @@
       "meta": {
         "system": "glaze",
         "item": "theme",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3276,7 +3276,7 @@
       "meta": {
         "system": "glaze",
         "item": "skill",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3290,7 +3290,7 @@
       "meta": {
         "system": "sodium",
         "item": "button",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3304,7 +3304,7 @@
       "meta": {
         "system": "sodium",
         "item": "button-group",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3318,7 +3318,7 @@
       "meta": {
         "system": "sodium",
         "item": "copy-button",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3332,7 +3332,7 @@
       "meta": {
         "system": "sodium",
         "item": "field",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3346,7 +3346,7 @@
       "meta": {
         "system": "sodium",
         "item": "input",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3360,7 +3360,7 @@
       "meta": {
         "system": "sodium",
         "item": "textarea",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3374,7 +3374,7 @@
       "meta": {
         "system": "sodium",
         "item": "select",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3388,7 +3388,7 @@
       "meta": {
         "system": "sodium",
         "item": "combobox",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3402,7 +3402,7 @@
       "meta": {
         "system": "sodium",
         "item": "overlay",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3416,7 +3416,7 @@
       "meta": {
         "system": "sodium",
         "item": "checkbox",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3430,7 +3430,7 @@
       "meta": {
         "system": "sodium",
         "item": "radio-group",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3444,7 +3444,7 @@
       "meta": {
         "system": "sodium",
         "item": "switch",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3458,7 +3458,7 @@
       "meta": {
         "system": "sodium",
         "item": "slider",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3472,7 +3472,7 @@
       "meta": {
         "system": "sodium",
         "item": "segmented-control",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3486,7 +3486,7 @@
       "meta": {
         "system": "sodium",
         "item": "tag",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3500,7 +3500,7 @@
       "meta": {
         "system": "sodium",
         "item": "status-strip",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3514,7 +3514,7 @@
       "meta": {
         "system": "sodium",
         "item": "avatar",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3528,7 +3528,7 @@
       "meta": {
         "system": "sodium",
         "item": "kbd",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3542,7 +3542,7 @@
       "meta": {
         "system": "sodium",
         "item": "item",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3556,7 +3556,7 @@
       "meta": {
         "system": "sodium",
         "item": "data-list",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3570,7 +3570,7 @@
       "meta": {
         "system": "sodium",
         "item": "status",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3584,7 +3584,7 @@
       "meta": {
         "system": "sodium",
         "item": "meter",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3598,7 +3598,7 @@
       "meta": {
         "system": "sodium",
         "item": "progress",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3612,7 +3612,7 @@
       "meta": {
         "system": "sodium",
         "item": "alert",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3626,7 +3626,7 @@
       "meta": {
         "system": "sodium",
         "item": "toast",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3640,7 +3640,7 @@
       "meta": {
         "system": "sodium",
         "item": "empty-state",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3654,7 +3654,7 @@
       "meta": {
         "system": "sodium",
         "item": "skeleton",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3668,7 +3668,7 @@
       "meta": {
         "system": "sodium",
         "item": "dialog",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3682,7 +3682,7 @@
       "meta": {
         "system": "sodium",
         "item": "sheet",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3696,7 +3696,7 @@
       "meta": {
         "system": "sodium",
         "item": "popover",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3710,7 +3710,7 @@
       "meta": {
         "system": "sodium",
         "item": "tooltip",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3724,7 +3724,7 @@
       "meta": {
         "system": "sodium",
         "item": "dropdown-menu",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3738,7 +3738,7 @@
       "meta": {
         "system": "sodium",
         "item": "command",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3752,7 +3752,7 @@
       "meta": {
         "system": "sodium",
         "item": "tabs",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3766,7 +3766,7 @@
       "meta": {
         "system": "sodium",
         "item": "numbered-tabs",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3780,7 +3780,7 @@
       "meta": {
         "system": "sodium",
         "item": "breadcrumb",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3794,7 +3794,7 @@
       "meta": {
         "system": "sodium",
         "item": "pagination",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3808,7 +3808,7 @@
       "meta": {
         "system": "sodium",
         "item": "collapsible",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3822,7 +3822,7 @@
       "meta": {
         "system": "sodium",
         "item": "frame",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3836,7 +3836,7 @@
       "meta": {
         "system": "sodium",
         "item": "table",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3850,7 +3850,7 @@
       "meta": {
         "system": "sodium",
         "item": "filter-bar",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3864,7 +3864,7 @@
       "meta": {
         "system": "sodium",
         "item": "code-block",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3878,7 +3878,7 @@
       "meta": {
         "system": "sodium",
         "item": "code-window",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3892,7 +3892,7 @@
       "meta": {
         "system": "sodium",
         "item": "json-view",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3906,7 +3906,7 @@
       "meta": {
         "system": "sodium",
         "item": "log-viewer",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3920,7 +3920,7 @@
       "meta": {
         "system": "sodium",
         "item": "scroll",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3934,7 +3934,7 @@
       "meta": {
         "system": "sodium",
         "item": "chart",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3948,7 +3948,7 @@
       "meta": {
         "system": "sodium",
         "item": "stem-chart",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3962,7 +3962,7 @@
       "meta": {
         "system": "sodium",
         "item": "swimlanes",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3976,7 +3976,7 @@
       "meta": {
         "system": "sodium",
         "item": "bar-blocks",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -3990,7 +3990,7 @@
       "meta": {
         "system": "sodium",
         "item": "tool-call-row",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -4004,7 +4004,7 @@
       "meta": {
         "system": "sodium",
         "item": "tool-call",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -4018,7 +4018,7 @@
       "meta": {
         "system": "sodium",
         "item": "activity",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -4032,7 +4032,7 @@
       "meta": {
         "system": "sodium",
         "item": "prompt-input",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -4046,7 +4046,7 @@
       "meta": {
         "system": "sodium",
         "item": "message",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -4060,7 +4060,7 @@
       "meta": {
         "system": "sodium",
         "item": "response",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -4074,7 +4074,7 @@
       "meta": {
         "system": "sodium",
         "item": "use-timeline",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -4088,7 +4088,7 @@
       "meta": {
         "system": "sodium",
         "item": "use-typing",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -4102,7 +4102,7 @@
       "meta": {
         "system": "sodium",
         "item": "use-scramble",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -4116,7 +4116,7 @@
       "meta": {
         "system": "sodium",
         "item": "use-draw",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -4130,7 +4130,7 @@
       "meta": {
         "system": "sodium",
         "item": "job-runs",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -4144,7 +4144,7 @@
       "meta": {
         "system": "sodium",
         "item": "failed-load",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -4158,7 +4158,7 @@
       "meta": {
         "system": "sodium",
         "item": "on-call",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -4172,7 +4172,7 @@
       "meta": {
         "system": "sodium",
         "item": "run-progress",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -4186,7 +4186,7 @@
       "meta": {
         "system": "sodium",
         "item": "warehouse-capacity",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -4200,7 +4200,7 @@
       "meta": {
         "system": "sodium",
         "item": "sync-flow",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -4214,7 +4214,7 @@
       "meta": {
         "system": "sodium",
         "item": "pipeline-history",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -4228,7 +4228,7 @@
       "meta": {
         "system": "sodium",
         "item": "utils",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -4242,7 +4242,7 @@
       "meta": {
         "system": "sodium",
         "item": "icon",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -4256,7 +4256,7 @@
       "meta": {
         "system": "sodium",
         "item": "portal",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -4270,7 +4270,7 @@
       "meta": {
         "system": "sodium",
         "item": "direction",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -4284,7 +4284,7 @@
       "meta": {
         "system": "sodium",
         "item": "lint",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -4298,7 +4298,7 @@
       "meta": {
         "system": "sodium",
         "item": "theme",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     },
     {
@@ -4312,7 +4312,7 @@
       "meta": {
         "system": "sodium",
         "item": "skill",
-        "version": "2026-11-09.1"
+        "version": "2026-11-09.2"
       }
     }
   ]

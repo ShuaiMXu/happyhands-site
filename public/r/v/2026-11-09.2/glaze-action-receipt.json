@@ -1,0 +1,14 @@
+{
+  "name": "glaze-action-receipt",
+  "type": "registry:item",
+  "title": "glaze / Action receipt",
+  "description": "Records what an agent did.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/glaze/action-receipt.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "action-receipt",
+    "version": "2026-11-09.2"
+  }
+}

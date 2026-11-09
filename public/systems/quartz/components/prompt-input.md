@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/prompt-input.json
 registryDependencies: [attachment, badge, button, css-var, empty-state, field, format, icon, mention, overlay, portal, send-button, status, theme, tooltip, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/prompt-input
+human: https://happyhands.cc/systems/quartz/components/prompt-input.md
 ---
 
 # Prompt input

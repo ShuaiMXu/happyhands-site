@@ -1,0 +1,14 @@
+{
+  "name": "lime-input",
+  "type": "registry:item",
+  "title": "lime / Input",
+  "description": "One line of text, such as a merchant name or a search.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/lime/input.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "input",
+    "version": "2026-11-09.2"
+  }
+}

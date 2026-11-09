@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/avatar.json"
 registryDependencies: [icon, theme, truncate, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/avatar
+human: https://happyhands.cc/systems/glaze/components/avatar.md
 ---
 
 # Avatar

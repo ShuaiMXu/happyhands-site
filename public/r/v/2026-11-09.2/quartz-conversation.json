@@ -1,0 +1,14 @@
+{
+  "name": "quartz-conversation",
+  "type": "registry:item",
+  "title": "quartz / Conversation",
+  "description": "Keeps a streaming thread pinned to the bottom until the person scrolls.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/conversation.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "conversation",
+    "version": "2026-11-09.2"
+  }
+}

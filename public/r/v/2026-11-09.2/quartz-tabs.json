@@ -1,0 +1,14 @@
+{
+  "name": "quartz-tabs",
+  "type": "registry:item",
+  "title": "quartz / Tabs",
+  "description": "Panels of one view, with closable and reorderable document tabs.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/tabs.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "tabs",
+    "version": "2026-11-09.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "lime-message",
+  "type": "registry:item",
+  "title": "lime / Message",
+  "description": "One turn in a conversation with the assistant.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/lime/message.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "message",
+    "version": "2026-11-09.2"
+  }
+}

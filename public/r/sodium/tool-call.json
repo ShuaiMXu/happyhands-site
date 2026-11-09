@@ -18,10 +18,10 @@
     "docs": "https://happyhands.cc/systems/sodium/components/tool-call.md",
     "page": "https://happyhands.cc/systems/sodium/components/tool-call.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/sodium/registry/items/tool-call.json",
       "sourceSha256": "3a2a1ab889c1648c2dd700f63bacd67da3b6f5df030db0643cb318ebe05973f7",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

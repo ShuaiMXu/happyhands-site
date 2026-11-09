@@ -1,0 +1,14 @@
+{
+  "name": "glaze-dialog",
+  "type": "registry:item",
+  "title": "glaze / Dialog",
+  "description": "Asks for a decision on top of the page.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/glaze/dialog.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "dialog",
+    "version": "2026-11-09.2"
+  }
+}

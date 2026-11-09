@@ -1,0 +1,14 @@
+{
+  "name": "glaze-agent-procedure",
+  "type": "registry:item",
+  "title": "glaze / Agent procedure",
+  "description": "The steps an agent follows, in plain sentences with its tools, documents and teams as mention chips, and Test and Publish.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/glaze/agent-procedure.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "agent-procedure",
+    "version": "2026-11-09.2"
+  }
+}

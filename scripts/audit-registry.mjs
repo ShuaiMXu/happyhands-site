@@ -1,3 +1,4 @@
+import {hostedDocument} from './hosted-document.mjs';
 import { readFile, readdir } from "node:fs/promises";
 import { resolve } from "node:path";
 import { createHash } from "node:crypto";
@@ -36,6 +37,13 @@ export async function auditRegistry(
     }
   };
   await walk("r");
+  for (const system of ["quartz", "lime"]) {
+    const catalog = await json(`../systems/${system}/catalog.json`);
+    assert.equal(catalog.sourceHashKind, "upstream-registry-bytes");
+    assert.equal(catalog.publishedHash,
+      hash(await readFile(resolve(root, `r/${system}/registry.json`))),
+      `catalog publishedHash drift: ${system}`);
+  }
   let items = 0,
     bytesBefore = 0,
     bytesAfter = 0;
@@ -59,8 +67,8 @@ export async function auditRegistry(
         );
       assert.deepEqual(
         payload.files,
-        original.files,
-        "embedded source changed",
+        item.name === "skill" ? original.files.map(file=>({...file,content:hostedDocument(file.content)})) : original.files,
+        "source or declared Skill adaptation changed",
       );
       for (const key of [
         "name",

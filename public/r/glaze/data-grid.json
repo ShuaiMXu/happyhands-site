@@ -28,10 +28,10 @@
     "docs": "https://happyhands.cc/systems/glaze/components/data-grid.md",
     "page": "https://happyhands.cc/systems/glaze/components/data-grid.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/glaze/registry/items/data-grid.json",
       "sourceSha256": "a7f12ea80100bde2688e6ae45055ae39911fedec0890c1d509ba6fcb6495538a",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

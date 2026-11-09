@@ -23,10 +23,10 @@
     "docs": "https://happyhands.cc/systems/lime/components/combobox.md",
     "page": "https://happyhands.cc/systems/lime/components/combobox.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/lime/registry/items/combobox.json",
       "sourceSha256": "5c0389aae036d2f839630137b23b2a6c57f1839fd564d11647808b87bd5903f4",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

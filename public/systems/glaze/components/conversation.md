@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/conversation.json"
 registryDependencies: [badge, button, icon, message, status, theme, tool-call, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/conversation
+human: https://happyhands.cc/systems/glaze/components/conversation.md
 ---
 
 # Conversation

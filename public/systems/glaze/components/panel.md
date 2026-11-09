@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/panel.json"
 registryDependencies: [theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/panel
+human: https://happyhands.cc/systems/glaze/components/panel.md
 ---
 
 # Panel

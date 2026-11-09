@@ -20,10 +20,10 @@
     "docs": "https://happyhands.cc/systems/quartz/components/collapsible.md",
     "page": "https://happyhands.cc/systems/quartz/components/collapsible.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/quartz/registry/items/collapsible.json",
       "sourceSha256": "b9ebd780b783b29e54220e3a123fc5945b033f711fc5cb9d6ba921380edd8c96",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

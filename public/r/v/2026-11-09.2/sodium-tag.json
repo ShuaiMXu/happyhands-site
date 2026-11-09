@@ -1,0 +1,14 @@
+{
+  "name": "sodium-tag",
+  "type": "registry:item",
+  "title": "sodium / Tag",
+  "description": "Labels what something is or how it stands.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/sodium/tag.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "tag",
+    "version": "2026-11-09.2"
+  }
+}

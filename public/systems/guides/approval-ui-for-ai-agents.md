@@ -14,7 +14,7 @@ Keep approvals out of modal dialogs for this reason. A modal covers the turn tha
 
 Don't wrap the agent's turn in a frame or a bubble to make the card stand out, either. The Quartz message docs ban it, because a frame around the whole turn nests the approval card in a second box.
 
-Rule `message-no-agent-bubble` (never) from the Quartz docs (https://design.how/systems/quartz/components/message). Never put the agent's turn in a bubble or a frame. It is flow: sections and a footer, with no name line or avatar. Because a bubble squeezes code blocks and tool rows, and a frame around a whole turn nests the approval card and the code wells in a second box.
+Rule `message-no-agent-bubble` (never) from the Quartz docs (https://happyhands.cc/systems/quartz/components/message.md). Never put the agent's turn in a bubble or a frame. It is flow: sections and a footer, with no name line or avatar. Because a bubble squeezes code blocks and tool rows, and a frame around a whole turn nests the approval card and the code wells in a second box.
 
 Incorrect:
 
@@ -32,7 +32,7 @@ Correct:
 
 The card shows its detail in full under the question and the cost, and the person decides on those. So the most important line in an approval UI is the one the agent's developer writes: `permission.message`. A call with no message asks "Allow?" with nothing to weigh. A card with a hand-made Allow button and no `onReply` has no way to answer at all.
 
-Rule `tool-call-approval-card` (must) from the Quartz docs (https://design.how/systems/quartz/components/tool-call). Pass onReply to a waiting call, and put what the call does in permission.message. Because the ask card shows the detail in full under the question and the cost, and the person decides on those; a call with no message asks the question with nothing to weigh, and with no onReply the card has no way to answer.
+Rule `tool-call-approval-card` (must) from the Quartz docs (https://happyhands.cc/systems/quartz/components/tool-call.md). Pass onReply to a waiting call, and put what the call does in permission.message. Because the ask card shows the detail in full under the question and the cost, and the person decides on those; a call with no message asks the question with nothing to weigh, and with no onReply the card has no way to answer.
 
 Incorrect:
 
@@ -52,7 +52,7 @@ What goes in the message is the action in plain words and its object. "Refund th
 
 An agent's turn has one status, and it lives in the message header as `MessageStatus`. The running tool row is the live state. When the turn stops to wait for an approval, a word like Working in the header goes stale on the spot, and the screen says two different things about the same moment.
 
-Rule `message-no-header-word` (never) from the Quartz docs (https://design.how/systems/quartz/components/message). Never put a Working or Paused word, a badge or the model in the agent header. The running tool row is the live state; the model goes in the footer. Because a word in the header and the arc in a row say the same thing twice, and the header word goes stale the moment the turn waits on an approval.
+Rule `message-no-header-word` (never) from the Quartz docs (https://happyhands.cc/systems/quartz/components/message.md). Never put a Working or Paused word, a badge or the model in the agent header. The running tool row is the live state; the model goes in the footer. Because a word in the header and the arc in a row say the same thing twice, and the header word goes stale the moment the turn waits on an approval.
 
 Incorrect:
 
@@ -72,7 +72,7 @@ That sounds minor, yet a person looking for why the agent stopped then finds two
 
 Long turns get noisy, so the natural move is to show only what is running. That filter is the worst bug an approval UI can ship, because a call waiting for permission is not running. It vanishes, the agent stalls on an approval nobody can see, and the person thinks the agent froze.
 
-Rule `tool-call-show-trouble` (must) from the Quartz docs (https://design.how/systems/quartz/components/tool-call). Hide finished calls with ToolCallList hideCompleted, not a filter of your own. Because a hand filter for running drops failed and awaiting-permission rows, so the run stalls on an approval no one sees.
+Rule `tool-call-show-trouble` (must) from the Quartz docs (https://happyhands.cc/systems/quartz/components/tool-call.md). Hide finished calls with ToolCallList hideCompleted, not a filter of your own. Because a hand filter for running drops failed and awaiting-permission rows, so the run stalls on an approval no one sees.
 
 Incorrect:
 
@@ -92,7 +92,7 @@ Correct:
 
 The call ends as denied, with the person's feedback as the reason. It never becomes an error. Marked as an error, the row opens on a failure message and counts as a failed call in the turn's line, which blames the agent, or worse the person, for a choice that was theirs to make.
 
-Rule `tool-call-denied-not-error` (must) from the Quartz docs (https://design.how/systems/quartz/components/tool-call). Use status: 'denied' with the person's feedback as reason for a refused call; never status: 'error'. Because a refusal is the person's choice; as an error it opens on a failure message and counts as a failed call in the turn's line.
+Rule `tool-call-denied-not-error` (must) from the Quartz docs (https://happyhands.cc/systems/quartz/components/tool-call.md). Use status: 'denied' with the person's feedback as reason for a refused call; never status: 'error'. Because a refusal is the person's choice; as an error it opens on a failure message and counts as a failed call in the turn's line.
 
 Incorrect:
 

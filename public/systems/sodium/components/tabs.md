@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/sodium/tabs.json"
 registryDependencies: [theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/sodium/components/tabs
+human: https://happyhands.cc/systems/sodium/components/tabs.md
 ---
 
 # Tabs

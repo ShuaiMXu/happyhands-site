@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/sodium/tool-call-row.jso
 registryDependencies: [icon, theme, use-draw, use-scramble, use-typing, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/sodium/components/tool-call-row
+human: https://happyhands.cc/systems/sodium/components/tool-call-row.md
 ---
 
 # Tool-call row

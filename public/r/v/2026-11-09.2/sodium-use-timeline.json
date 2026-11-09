@@ -1,0 +1,14 @@
+{
+  "name": "sodium-use-timeline",
+  "type": "registry:item",
+  "title": "sodium / useTimeline",
+  "description": "Support file: the frame clock under Sodium's typing, scrambles and connectors: deterministic given a clock, final at once under reduced motion.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/sodium/use-timeline.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "use-timeline",
+    "version": "2026-11-09.2"
+  }
+}

@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/table.json"
 registryDependencies: [button, data-units, dropdown-menu, empty-state, icon, skeleton, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/table
+human: https://happyhands.cc/systems/glaze/components/table.md
 ---
 
 # Table

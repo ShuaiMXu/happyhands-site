@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/code-block.json"
 registryDependencies: [button, icon, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/code-block
+human: https://happyhands.cc/systems/glaze/components/code-block.md
 ---
 
 # Code block

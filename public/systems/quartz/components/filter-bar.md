@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/filter-bar.json"
 registryDependencies: [chip, icon, input, kind, overlay, portal, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/filter-bar
+human: https://happyhands.cc/systems/quartz/components/filter-bar.md
 ---
 
 # Filter bar

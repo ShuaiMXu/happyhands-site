@@ -1,0 +1,14 @@
+{
+  "name": "quartz-response",
+  "type": "registry:item",
+  "title": "quartz / Response",
+  "description": "Markdown that renders as it streams.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/response.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "response",
+    "version": "2026-11-09.2"
+  }
+}

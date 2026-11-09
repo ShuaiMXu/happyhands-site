@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/sodium/segmented-control
 registryDependencies: [theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/sodium/components/segmented-control
+human: https://happyhands.cc/systems/sodium/components/segmented-control.md
 ---
 
 # Segmented control

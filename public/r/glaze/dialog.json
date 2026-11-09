@@ -24,10 +24,10 @@
     "docs": "https://happyhands.cc/systems/glaze/components/dialog.md",
     "page": "https://happyhands.cc/systems/glaze/components/dialog.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/glaze/registry/items/dialog.json",
       "sourceSha256": "c7cb1af83b8fa9eea153c714cdb6f8b622163edba39659c799b46a98d1b64084",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

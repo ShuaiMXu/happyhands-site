@@ -19,10 +19,10 @@
     "docs": "https://happyhands.cc/systems/glaze/components/textarea.md",
     "page": "https://happyhands.cc/systems/glaze/components/textarea.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/glaze/registry/items/textarea.json",
       "sourceSha256": "ce312845b7a3cba9a841e0356e099ac81c0cca377a7f5f8526d1f3291657f95d",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

@@ -4,7 +4,7 @@ system: quartz
 kind: foundation
 source: registry/quartz/tokens.css
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/foundations/grid
+human: https://happyhands.cc/systems/quartz/foundations/grid.md
 ---
 
 # Grid

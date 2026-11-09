@@ -1,0 +1,14 @@
+{
+  "name": "glaze-item",
+  "type": "registry:item",
+  "title": "glaze / Item",
+  "description": "Shows one thing as a row in a list.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/glaze/item.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "item",
+    "version": "2026-11-09.2"
+  }
+}

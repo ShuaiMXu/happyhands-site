@@ -1,3 +1,4 @@
+import {hostedDocument} from '../scripts/hosted-document.mjs';
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync, existsSync } from "node:fs";
@@ -34,7 +35,7 @@ test("the hosted registry resolves all dependencies and docs, preserving compone
       const original = read(
         `design-how/${system.id}/registry/items/${item.name}.json`,
       );
-      assert.deepEqual(payload.files, original.files);
+      assert.deepEqual(payload.files, item.name === "skill" ? original.files.map(file=>({...file,content:hostedDocument(file.content)})) : original.files);
       assert.equal(payload.author, original.author);
       for (const dep of payload.registryDependencies || []) {
         if (!dep.startsWith("https://")) continue;

@@ -1,0 +1,14 @@
+{
+  "name": "sodium-checkbox",
+  "type": "registry:item",
+  "title": "sodium / Checkbox",
+  "description": "Turns one option on or off.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/sodium/checkbox.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "checkbox",
+    "version": "2026-11-09.2"
+  }
+}

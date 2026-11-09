@@ -1,0 +1,14 @@
+{
+  "name": "glaze-pagination",
+  "type": "registry:item",
+  "title": "glaze / Pagination",
+  "description": "Moves through pages of results.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/glaze/pagination.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "pagination",
+    "version": "2026-11-09.2"
+  }
+}

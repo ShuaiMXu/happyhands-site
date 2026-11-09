@@ -1,0 +1,14 @@
+{
+  "name": "glaze-json-view",
+  "type": "registry:item",
+  "title": "glaze / JSON view",
+  "description": "Shows structured data as a foldable tree.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/glaze/json-view.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "json-view",
+    "version": "2026-11-09.2"
+  }
+}

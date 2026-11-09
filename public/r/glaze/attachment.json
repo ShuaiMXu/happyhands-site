@@ -22,10 +22,10 @@
     "docs": "https://happyhands.cc/systems/glaze/components/attachment.md",
     "page": "https://happyhands.cc/systems/glaze/components/attachment.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/glaze/registry/items/attachment.json",
       "sourceSha256": "13d5647d8eb43c21901e831b80dddc594597150acc24b118c6d30c2f94b8104c",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

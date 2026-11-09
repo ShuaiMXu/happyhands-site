@@ -4,7 +4,7 @@ system: glaze
 kind: foundation
 source: registry/glaze/tokens.css
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/foundations/elevation
+human: https://happyhands.cc/systems/glaze/foundations/elevation.md
 ---
 
 # Elevation

@@ -23,10 +23,10 @@
     "docs": "https://happyhands.cc/systems/sodium/components/select.md",
     "page": "https://happyhands.cc/systems/sodium/components/select.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/sodium/registry/items/select.json",
       "sourceSha256": "67f47b186f0b0ec3318f040fe7671f8f8414adae261382f35ed939406ef73f2c",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/segmented-control
 registryDependencies: [kind, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/segmented-control
+human: https://happyhands.cc/systems/quartz/components/segmented-control.md
 ---
 
 # Segmented control

@@ -1,0 +1,14 @@
+{
+  "name": "glaze-activity",
+  "type": "registry:item",
+  "title": "glaze / Activity",
+  "description": "Says what the agent is doing now.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/glaze/activity.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "activity",
+    "version": "2026-11-09.2"
+  }
+}

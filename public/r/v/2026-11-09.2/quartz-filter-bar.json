@@ -1,0 +1,14 @@
+{
+  "name": "quartz-filter-bar",
+  "type": "registry:item",
+  "title": "quartz / Filter bar",
+  "description": "Search plus filter chips and clear-all.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/filter-bar.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "filter-bar",
+    "version": "2026-11-09.2"
+  }
+}

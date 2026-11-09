@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/activity.json"
 registryDependencies: [icon, status, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/activity
+human: https://happyhands.cc/systems/glaze/components/activity.md
 ---
 
 # Activity

@@ -1,0 +1,14 @@
+{
+  "name": "lime-status",
+  "type": "registry:item",
+  "title": "lime / Status",
+  "description": "The state of a payment as a dot and a word.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/lime/status.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "status",
+    "version": "2026-11-09.2"
+  }
+}

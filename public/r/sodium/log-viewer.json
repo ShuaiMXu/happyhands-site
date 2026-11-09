@@ -26,10 +26,10 @@
     "docs": "https://happyhands.cc/systems/sodium/components/log-viewer.md",
     "page": "https://happyhands.cc/systems/sodium/components/log-viewer.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/sodium/registry/items/log-viewer.json",
       "sourceSha256": "6cfbd9f19859aa2b5f769a1ca6e11fb1ded9fd09df9e62ea70a51ba5ddf0316a",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

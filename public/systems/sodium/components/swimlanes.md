@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/sodium/swimlanes.json"
 registryDependencies: [chart, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/sodium/components/swimlanes
+human: https://happyhands.cc/systems/sodium/components/swimlanes.md
 ---
 
 # Swimlanes

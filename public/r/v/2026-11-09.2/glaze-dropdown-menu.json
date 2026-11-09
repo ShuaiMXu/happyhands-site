@@ -1,0 +1,14 @@
+{
+  "name": "glaze-dropdown-menu",
+  "type": "registry:item",
+  "title": "glaze / Dropdown menu",
+  "description": "Lists the actions on one thing.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/glaze/dropdown-menu.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "dropdown-menu",
+    "version": "2026-11-09.2"
+  }
+}

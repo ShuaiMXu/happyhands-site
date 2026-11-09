@@ -1,0 +1,14 @@
+{
+  "name": "lime-toast",
+  "type": "registry:item",
+  "title": "lime / Toast",
+  "description": "A short note after an action, such as Moved $50 to savings, with an optional Undo.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/lime/toast.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "toast",
+    "version": "2026-11-09.2"
+  }
+}

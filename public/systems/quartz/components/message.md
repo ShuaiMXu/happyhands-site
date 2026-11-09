@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/message.json"
 registryDependencies: [avatar, badge, button, icon, kind, status, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/message
+human: https://happyhands.cc/systems/quartz/components/message.md
 ---
 
 # Message

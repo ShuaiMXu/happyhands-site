@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/otp-input.json"
 registryDependencies: [field, input, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/otp-input
+human: https://happyhands.cc/systems/glaze/components/otp-input.md
 ---
 
 # OTP input

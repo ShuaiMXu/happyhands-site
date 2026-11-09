@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/lime/copy-button.json"
 registryDependencies: [button, icon, theme]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/lime/components/copy-button
+human: https://happyhands.cc/systems/lime/components/copy-button.md
 ---
 
 # Copy button

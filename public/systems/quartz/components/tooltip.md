@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/tooltip.json"
 registryDependencies: [children, kbd, portal, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/tooltip
+human: https://happyhands.cc/systems/quartz/components/tooltip.md
 ---
 
 # Tooltip

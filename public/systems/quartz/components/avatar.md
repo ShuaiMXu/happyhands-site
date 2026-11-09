@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/avatar.json"
 registryDependencies: [icon, status, theme, truncate, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/avatar
+human: https://happyhands.cc/systems/quartz/components/avatar.md
 ---
 
 # Avatar

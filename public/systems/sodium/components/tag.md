@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/sodium/tag.json"
 registryDependencies: [theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/sodium/components/tag
+human: https://happyhands.cc/systems/sodium/components/tag.md
 ---
 
 # Tag

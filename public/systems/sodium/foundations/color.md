@@ -4,7 +4,7 @@ system: sodium
 kind: foundation
 source: registry/sodium/tokens.css
 last-updated: 2026-10-26
-human: https://design.how/systems/sodium/foundations/color
+human: https://happyhands.cc/systems/sodium/foundations/color.md
 ---
 
 # Color
@@ -69,7 +69,7 @@ White and warm near-black, rules for structure, and one sodium yellow that chang
 | `--fail-tint` | the failure ground | error tag, failed row, failing code line |  | `#fdecea` | `#3a1915` |
 
 ## Contrast
-[The table on the human page](https://design.how/systems/sodium/foundations/color#contrast).
+[The table on the human page](https://happyhands.cc/systems/sodium/foundations/color.md#contrast).
 
 ## Decision table
 | You need | Use |

@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/response.json"
 registryDependencies: [code-block, status, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/response
+human: https://happyhands.cc/systems/glaze/components/response.md
 ---
 
 # Response

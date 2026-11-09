@@ -19,10 +19,10 @@
     "docs": "https://happyhands.cc/systems/glaze/index.md",
     "page": "https://happyhands.cc/systems/glaze/index.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/glaze/registry/items/overlay.json",
       "sourceSha256": "77f2f53f8b0028c4e7f94030c4b497058f386baeb839dd5b03450c0203016033",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

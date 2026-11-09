@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/sodium/toast.json"
 registryDependencies: [button, direction, icon, portal, status, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/sodium/components/toast
+human: https://happyhands.cc/systems/sodium/components/toast.md
 ---
 
 # Toast

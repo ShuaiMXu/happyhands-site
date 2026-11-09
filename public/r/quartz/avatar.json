@@ -23,10 +23,10 @@
     "docs": "https://happyhands.cc/systems/quartz/components/avatar.md",
     "page": "https://happyhands.cc/systems/quartz/components/avatar.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/quartz/registry/items/avatar.json",
       "sourceSha256": "955a206c91b4bb118d615adcd19e9dd9797fd0fe32db54009034ca7542144785",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

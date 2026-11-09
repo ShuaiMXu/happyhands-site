@@ -1,0 +1,14 @@
+{
+  "name": "glaze-lint",
+  "type": "registry:item",
+  "title": "glaze / Glaze lint",
+  "description": "One command that flags what Glaze's rules forbid in your app, such as two ink buttons side by side, glass on something you cannot press or a shadow, and says what to use instead.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/glaze/lint.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "lint",
+    "version": "2026-11-09.2"
+  }
+}

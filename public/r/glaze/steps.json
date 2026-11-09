@@ -17,10 +17,10 @@
     "docs": "https://happyhands.cc/systems/glaze/components/steps.md",
     "page": "https://happyhands.cc/systems/glaze/components/steps.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/glaze/registry/items/steps.json",
       "sourceSha256": "b7914beb59c0d97d2b9c38d67fb9aa5ca2532922a281079202c468735ca30baf",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

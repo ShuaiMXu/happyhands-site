@@ -1,0 +1,14 @@
+{
+  "name": "sodium-warehouse-capacity",
+  "type": "registry:item",
+  "title": "sodium / Warehouse capacity",
+  "description": "How full a warehouse is: credits, storage and concurrency as meters, storage by schema, queries by hour and Resize warehouse.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/sodium/warehouse-capacity.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "warehouse-capacity",
+    "version": "2026-11-09.2"
+  }
+}

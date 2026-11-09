@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/lime/error-state.json"
 registryDependencies: [button, icon, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/lime/components/error-state
+human: https://happyhands.cc/systems/lime/components/error-state.md
 ---
 
 # Error state

@@ -1,0 +1,14 @@
+{
+  "name": "glaze-alert",
+  "type": "registry:item",
+  "title": "glaze / Alert",
+  "description": "Reports a problem with the current view.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/glaze/alert.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "alert",
+    "version": "2026-11-09.2"
+  }
+}

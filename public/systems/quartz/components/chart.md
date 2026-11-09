@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/chart.json"
 registryDependencies: [button, css-var, direction, format, icon, kind, portal, scroll-focus, segmented-control, status, theme, use-offscreen, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/chart
+human: https://happyhands.cc/systems/quartz/components/chart.md
 ---
 
 # Chart

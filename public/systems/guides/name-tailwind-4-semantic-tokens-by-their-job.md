@@ -61,7 +61,7 @@ Step 3 is reading the names before an agent writes against them. [Quartz's color
 
 Hue follows the same idea. The color page gives each kind one hue everywhere, in the order agent, key, run, deploy and model, and always shows the word. Components never name the hue. The rule below sets `data-kind` on a panel and reads `bg-accent-wash` inside it:
 
-Rule `color-set-kind-attribute` (must) from the Quartz docs (https://design.how/systems/quartz/foundations/color). Set data-kind or data-status on a panel and read --accent-wash and --accent-line; never name a hue in a component. Because a hard-coded hue skips the dark theme value and keeps its color when the kind changes.
+Rule `color-set-kind-attribute` (must) from the Quartz docs (https://happyhands.cc/systems/quartz/foundations/color.md). Set data-kind or data-status on a panel and read --accent-wash and --accent-line; never name a hue in a component. Because a hard-coded hue skips the dark theme value and keeps its color when the kind changes.
 
 Incorrect:
 

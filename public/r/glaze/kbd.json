@@ -16,10 +16,10 @@
     "docs": "https://happyhands.cc/systems/glaze/components/kbd.md",
     "page": "https://happyhands.cc/systems/glaze/components/kbd.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/glaze/registry/items/kbd.json",
       "sourceSha256": "089253d007ab1b494030bb7dbe05d60a8959e37226f1052c9cdd9282b8e85558",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

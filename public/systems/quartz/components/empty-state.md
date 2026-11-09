@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/empty-state.json"
 registryDependencies: [badge, button, icon, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/empty-state
+human: https://happyhands.cc/systems/quartz/components/empty-state.md
 ---
 
 # Empty state

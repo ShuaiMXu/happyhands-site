@@ -4,7 +4,7 @@ Install a design system that ships its own skill. One shadcn command adds the to
 
 Updated 19 October 2026. By Arlan Marat (https://design.how/about).
 
-The steps below use [Quartz](https://design.how/systems/quartz). For [Sodium](https://design.how/systems/sodium) or [Glaze](https://design.how/systems/glaze) or [Lime](https://design.how/systems/lime), swap `quartz` for its name in every command. Run them in a React project from its root.
+The steps below use [Quartz](https://happyhands.cc/systems/quartz/index.md). For [Sodium](https://happyhands.cc/systems/sodium/index.md) or [Glaze](https://happyhands.cc/systems/glaze/index.md) or [Lime](https://happyhands.cc/systems/lime/index.md), swap `quartz` for its name in every command. Run them in a React project from its root.
 
 ## Claude Code
 

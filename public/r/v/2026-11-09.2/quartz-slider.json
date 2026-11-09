@@ -1,0 +1,14 @@
+{
+  "name": "quartz-slider",
+  "type": "registry:item",
+  "title": "quartz / Slider",
+  "description": "A value or range on a track.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/slider.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "slider",
+    "version": "2026-11-09.2"
+  }
+}

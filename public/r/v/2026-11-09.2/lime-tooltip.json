@@ -1,0 +1,14 @@
+{
+  "name": "lime-tooltip",
+  "type": "registry:item",
+  "title": "lime / Tooltip",
+  "description": "A short label on hover and focus.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/lime/tooltip.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "tooltip",
+    "version": "2026-11-09.2"
+  }
+}

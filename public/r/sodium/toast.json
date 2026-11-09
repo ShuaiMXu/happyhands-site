@@ -24,10 +24,10 @@
     "docs": "https://happyhands.cc/systems/sodium/components/toast.md",
     "page": "https://happyhands.cc/systems/sodium/components/toast.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/sodium/registry/items/toast.json",
       "sourceSha256": "761629263307af0ceff29b99a5fd20fb73952f3b13ca9ddf1179b3154ec80282",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

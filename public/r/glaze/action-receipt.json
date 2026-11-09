@@ -22,10 +22,10 @@
     "docs": "https://happyhands.cc/systems/glaze/components/action-receipt.md",
     "page": "https://happyhands.cc/systems/glaze/components/action-receipt.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/glaze/registry/items/action-receipt.json",
       "sourceSha256": "8a78e64ec07efc8f45bf7b31ef9cf4059130e2907fc4a9a504ac81ff4c89cb4a",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

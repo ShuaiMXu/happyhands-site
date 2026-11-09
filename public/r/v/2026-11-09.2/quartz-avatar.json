@@ -1,0 +1,14 @@
+{
+  "name": "quartz-avatar",
+  "type": "registry:item",
+  "title": "quartz / Avatar",
+  "description": "A person, agent or source icon, alone or grouped.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/avatar.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "avatar",
+    "version": "2026-11-09.2"
+  }
+}

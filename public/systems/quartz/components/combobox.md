@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/combobox.json"
 registryDependencies: [badge, empty-state, field, icon, input, kbd, portal, select, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/combobox
+human: https://happyhands.cc/systems/quartz/components/combobox.md
 ---
 
 # Combobox

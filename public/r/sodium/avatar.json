@@ -21,10 +21,10 @@
     "docs": "https://happyhands.cc/systems/sodium/components/avatar.md",
     "page": "https://happyhands.cc/systems/sodium/components/avatar.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/sodium/registry/items/avatar.json",
       "sourceSha256": "a775481b45942f1ff7887b502ee682f97c9e050f3fc1dc0e074134c181d4b964",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

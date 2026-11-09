@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/progress.json"
 registryDependencies: [button, icon, kind, status, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/progress
+human: https://happyhands.cc/systems/quartz/components/progress.md
 ---
 
 # Progress

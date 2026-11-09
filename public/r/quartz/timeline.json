@@ -24,10 +24,10 @@
     "docs": "https://happyhands.cc/systems/quartz/components/timeline.md",
     "page": "https://happyhands.cc/systems/quartz/components/timeline.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/quartz/registry/items/timeline.json",
       "sourceSha256": "ca8d78b89a2d2b76cbbd4d6867dcd9eb04ab3225773b916eab06756495950436",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

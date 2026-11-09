@@ -16,10 +16,10 @@
     "docs": "https://happyhands.cc/systems/quartz/components/kbd.md",
     "page": "https://happyhands.cc/systems/quartz/components/kbd.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/quartz/registry/items/kbd.json",
       "sourceSha256": "5e0e87f06eb64ea343a30388bbbc98bc98bcddd3068c8ae338e6072e22b77a37",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

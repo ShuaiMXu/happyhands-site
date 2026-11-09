@@ -1,0 +1,14 @@
+{
+  "name": "glaze-truncate",
+  "type": "registry:item",
+  "title": "glaze / Truncate",
+  "description": "Cuts a long line and keeps the whole value.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/glaze/truncate.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "truncate",
+    "version": "2026-11-09.2"
+  }
+}

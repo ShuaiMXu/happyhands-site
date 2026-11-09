@@ -22,10 +22,10 @@
     "docs": "https://happyhands.cc/systems/sodium/components/json-view.md",
     "page": "https://happyhands.cc/systems/sodium/components/json-view.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/sodium/registry/items/json-view.json",
       "sourceSha256": "33c8e4002a8a6a715193ad0d865de2ecf2addc471c001d92b67a41d53f030d48",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

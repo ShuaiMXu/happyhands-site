@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/lime/follow-ups.json"
 registryDependencies: [theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/lime/components/follow-ups
+human: https://happyhands.cc/systems/lime/components/follow-ups.md
 ---
 
 # Follow ups

@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/toast.json"
 registryDependencies: [button, direction, icon, overlay, portal, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/toast
+human: https://happyhands.cc/systems/glaze/components/toast.md
 ---
 
 # Toast

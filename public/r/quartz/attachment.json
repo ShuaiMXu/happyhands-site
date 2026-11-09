@@ -25,10 +25,10 @@
     "docs": "https://happyhands.cc/systems/quartz/components/attachment.md",
     "page": "https://happyhands.cc/systems/quartz/components/attachment.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/quartz/registry/items/attachment.json",
       "sourceSha256": "c59c1d18ac0d4564d20e6c3c68d13a6228d257c8a7e54e7efc3c7ccdc3ab94b0",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

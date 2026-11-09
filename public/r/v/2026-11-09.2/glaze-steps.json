@@ -1,0 +1,14 @@
+{
+  "name": "glaze-steps",
+  "type": "registry:item",
+  "title": "glaze / Steps",
+  "description": "Shows the steps of a flow.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/glaze/steps.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "steps",
+    "version": "2026-11-09.2"
+  }
+}

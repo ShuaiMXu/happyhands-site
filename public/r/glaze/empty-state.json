@@ -21,10 +21,10 @@
     "docs": "https://happyhands.cc/systems/glaze/components/empty-state.md",
     "page": "https://happyhands.cc/systems/glaze/components/empty-state.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/glaze/registry/items/empty-state.json",
       "sourceSha256": "e983c727db2c6679973f68b9f042131f121c35382c744a85868096ac06e9eef9",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

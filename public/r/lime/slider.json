@@ -19,10 +19,10 @@
     "docs": "https://happyhands.cc/systems/lime/components/slider.md",
     "page": "https://happyhands.cc/systems/lime/components/slider.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/lime/registry/items/slider.json",
       "sourceSha256": "e898a1131158172beb3a10cf17b4b8a45b5cac51758e8f19c1359d61f836795a",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

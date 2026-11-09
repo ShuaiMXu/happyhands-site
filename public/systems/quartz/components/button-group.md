@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/button-group.json
 registryDependencies: [button, icon, overlay, portal, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/button-group
+human: https://happyhands.cc/systems/quartz/components/button-group.md
 ---
 
 # Button group

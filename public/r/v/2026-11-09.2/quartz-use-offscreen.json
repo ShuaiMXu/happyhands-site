@@ -1,0 +1,14 @@
+{
+  "name": "quartz-use-offscreen",
+  "type": "registry:item",
+  "title": "quartz / useOffscreen",
+  "description": "Support file: marks a live frame with data-offscreen while it is out of view, so its running arc pauses.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/use-offscreen.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "use-offscreen",
+    "version": "2026-11-09.2"
+  }
+}

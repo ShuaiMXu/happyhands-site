@@ -1,0 +1,14 @@
+{
+  "name": "glaze-panel",
+  "type": "registry:item",
+  "title": "glaze / Panel",
+  "description": "Holds a few rows inside a card.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/glaze/panel.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "panel",
+    "version": "2026-11-09.2"
+  }
+}

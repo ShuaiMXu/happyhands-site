@@ -1,0 +1,14 @@
+{
+  "name": "sodium-select",
+  "type": "registry:item",
+  "title": "sodium / Select",
+  "description": "Picks one option from a list.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/sodium/select.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "select",
+    "version": "2026-11-09.2"
+  }
+}

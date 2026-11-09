@@ -17,10 +17,10 @@
     "docs": "https://happyhands.cc/systems/lime/components/keypad.md",
     "page": "https://happyhands.cc/systems/lime/components/keypad.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/lime/registry/items/keypad.json",
       "sourceSha256": "d4c06b48afc8709aa20012bf6e205fddeb34a1ab2b8cb07e5ccb9cd275ccb2cb",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

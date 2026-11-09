@@ -1,0 +1,14 @@
+{
+  "name": "glaze-data-list",
+  "type": "registry:item",
+  "title": "glaze / Data list",
+  "description": "Lists label and value pairs about one thing.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/glaze/data-list.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "data-list",
+    "version": "2026-11-09.2"
+  }
+}

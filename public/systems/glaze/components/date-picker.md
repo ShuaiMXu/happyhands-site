@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/date-picker.json"
 registryDependencies: [button, field, icon, input, overlay, portal, select, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/date-picker
+human: https://happyhands.cc/systems/glaze/components/date-picker.md
 ---
 
 # Date picker

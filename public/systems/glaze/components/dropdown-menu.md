@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/dropdown-menu.json
 registryDependencies: [icon, kbd, overlay, portal, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/dropdown-menu
+human: https://happyhands.cc/systems/glaze/components/dropdown-menu.md
 ---
 
 # Dropdown menu

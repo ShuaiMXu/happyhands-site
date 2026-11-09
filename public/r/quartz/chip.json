@@ -22,10 +22,10 @@
     "docs": "https://happyhands.cc/systems/quartz/components/chip.md",
     "page": "https://happyhands.cc/systems/quartz/components/chip.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/quartz/registry/items/chip.json",
       "sourceSha256": "2a32a9329cf84558d4d4cebc3f48b32174bb7dc4ede6532ec9d2f5e10e463b34",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

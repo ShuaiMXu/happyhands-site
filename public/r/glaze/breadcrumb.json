@@ -22,10 +22,10 @@
     "docs": "https://happyhands.cc/systems/glaze/components/breadcrumb.md",
     "page": "https://happyhands.cc/systems/glaze/components/breadcrumb.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/glaze/registry/items/breadcrumb.json",
       "sourceSha256": "830e8e6b8c1d4838a968e55b60efe666e0103b000f0b31be3e78162bfefd8489",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

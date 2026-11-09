@@ -1,0 +1,14 @@
+{
+  "name": "lime-separator",
+  "type": "registry:item",
+  "title": "lime / Separator",
+  "description": "A hairline between groups.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/lime/separator.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "separator",
+    "version": "2026-11-09.2"
+  }
+}

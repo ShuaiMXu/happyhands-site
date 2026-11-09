@@ -17,10 +17,10 @@
     "docs": "https://happyhands.cc/systems/sodium/components/pagination.md",
     "page": "https://happyhands.cc/systems/sodium/components/pagination.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/sodium/registry/items/pagination.json",
       "sourceSha256": "471f47178c844e7740b1118cc8ad1c938c337147fc18c3e1b16d1d23dd128d86",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

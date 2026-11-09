@@ -14,7 +14,7 @@ Each Quartz rule has an id, a level and its text. Quartz's docs hold 605 rules a
 
 One of its never rules is `anti-slop-no-arrow-links`:
 
-Rule `anti-slop-no-arrow-links` (never) from the Quartz docs (https://design.how/systems/quartz/foundations/anti-slop). Never end link text in an arrow or write Learn more; name where the link goes. Because a screen reader listing links hears ten Learn mores and no destination.
+Rule `anti-slop-no-arrow-links` (never) from the Quartz docs (https://happyhands.cc/systems/quartz/foundations/anti-slop.md). Never end link text in an arrow or write Learn more; name where the link goes. Because a screen reader listing links hears ten Learn mores and no destination.
 
 Incorrect:
 

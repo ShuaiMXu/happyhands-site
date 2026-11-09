@@ -16,10 +16,10 @@
     "docs": "https://happyhands.cc/systems/sodium/components/kbd.md",
     "page": "https://happyhands.cc/systems/sodium/components/kbd.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/sodium/registry/items/kbd.json",
       "sourceSha256": "bdab822be7b0f4afb356632fbc3e8f3badad619c07cc975753bb973cf8650d55",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

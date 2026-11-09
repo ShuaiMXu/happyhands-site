@@ -1,0 +1,14 @@
+{
+  "name": "sodium-message",
+  "type": "registry:item",
+  "title": "sodium / Message",
+  "description": "Shows one turn of a run's thread.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/sodium/message.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "message",
+    "version": "2026-11-09.2"
+  }
+}

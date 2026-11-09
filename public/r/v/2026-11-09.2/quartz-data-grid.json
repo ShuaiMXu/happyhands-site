@@ -1,0 +1,14 @@
+{
+  "name": "quartz-data-grid",
+  "type": "registry:item",
+  "title": "quartz / Data grid",
+  "description": "A table with spreadsheet behavior: cell focus, editing and paste.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/data-grid.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "data-grid",
+    "version": "2026-11-09.2"
+  }
+}

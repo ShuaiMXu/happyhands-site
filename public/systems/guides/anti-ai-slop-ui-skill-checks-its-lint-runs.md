@@ -97,7 +97,7 @@ Start with check 9. `anti-slop-no-decorative-motion` bans a pulse, ping, bounce,
 
 The card grid is the next one to read for. `anti-slop-no-card-grid` bans several numbers shown as three equal icon cards and asks for one stats strip, a table or a sentence. Equal cards give every number the same weight and push the table the person came for below the fold.
 
-Rule `anti-slop-no-card-grid` (never) from the Quartz docs (https://design.how/systems/quartz/foundations/anti-slop). Never show several numbers as three equal icon cards; compose one stats strip, a table or a sentence. Because equal cards give every number the same weight and push the table the person came for below the fold.
+Rule `anti-slop-no-card-grid` (never) from the Quartz docs (https://happyhands.cc/systems/quartz/foundations/anti-slop.md). Never show several numbers as three equal icon cards; compose one stats strip, a table or a sentence. Because equal cards give every number the same weight and push the table the person came for below the fold.
 
 Incorrect:
 

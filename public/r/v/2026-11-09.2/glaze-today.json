@@ -1,0 +1,14 @@
+{
+  "name": "glaze-today",
+  "type": "registry:item",
+  "title": "glaze / Today",
+  "description": "The morning of a personal assistant, at phone width: the day in a line, a card of what it handled and Ask by voice.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/glaze/today.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "today",
+    "version": "2026-11-09.2"
+  }
+}

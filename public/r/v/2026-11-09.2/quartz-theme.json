@@ -1,0 +1,14 @@
+{
+  "name": "quartz-theme",
+  "type": "registry:item",
+  "title": "quartz / Quartz theme",
+  "description": "Support file: tokens, scoped base styles and the Tailwind v4 theme mapping.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/theme.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "theme",
+    "version": "2026-11-09.2"
+  }
+}

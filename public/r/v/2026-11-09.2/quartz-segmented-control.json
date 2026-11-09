@@ -1,0 +1,14 @@
+{
+  "name": "quartz-segmented-control",
+  "type": "registry:item",
+  "title": "quartz / Segmented control",
+  "description": "Two to five views, single or multiple.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/segmented-control.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "segmented-control",
+    "version": "2026-11-09.2"
+  }
+}

@@ -26,10 +26,10 @@
     "docs": "https://happyhands.cc/systems/glaze/components/combobox.md",
     "page": "https://happyhands.cc/systems/glaze/components/combobox.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/glaze/registry/items/combobox.json",
       "sourceSha256": "e76351831c76f02afaaa2cec024cbf2145c63cf074fd7de1333ce4aec5daf04f",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

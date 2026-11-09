@@ -22,10 +22,10 @@
     "docs": "https://happyhands.cc/systems/sodium/components/breadcrumb.md",
     "page": "https://happyhands.cc/systems/sodium/components/breadcrumb.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/sodium/registry/items/breadcrumb.json",
       "sourceSha256": "aa6a04c11c46c1d729746989f0f97959654907fdef823f3efb52fbaed1e8f807",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

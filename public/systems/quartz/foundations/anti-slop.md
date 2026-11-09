@@ -3,7 +3,7 @@ name: Anti-slop
 system: quartz
 kind: foundation
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/foundations/anti-slop
+human: https://happyhands.cc/systems/quartz/foundations/anti-slop.md
 ---
 
 # Anti-slop

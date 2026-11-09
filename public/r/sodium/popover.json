@@ -23,10 +23,10 @@
     "docs": "https://happyhands.cc/systems/sodium/components/popover.md",
     "page": "https://happyhands.cc/systems/sodium/components/popover.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/sodium/registry/items/popover.json",
       "sourceSha256": "7f7882a54bfdf14220ad5f5c91dbf50baae6b2ce74d8cda8e291141301402e75",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

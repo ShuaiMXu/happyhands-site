@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/action-receipt.jso
 registryDependencies: [activity, button, card, icon, relative-time, status, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/action-receipt
+human: https://happyhands.cc/systems/glaze/components/action-receipt.md
 ---
 
 # Action receipt

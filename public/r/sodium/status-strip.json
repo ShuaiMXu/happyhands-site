@@ -20,10 +20,10 @@
     "docs": "https://happyhands.cc/systems/sodium/components/status-strip.md",
     "page": "https://happyhands.cc/systems/sodium/components/status-strip.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/sodium/registry/items/status-strip.json",
       "sourceSha256": "946e8c58c99580d7c436c04394b66ed4bdedb3f33f536f1de1e1ef695a95d915",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

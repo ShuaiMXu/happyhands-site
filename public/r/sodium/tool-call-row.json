@@ -20,10 +20,10 @@
     "docs": "https://happyhands.cc/systems/sodium/components/tool-call-row.md",
     "page": "https://happyhands.cc/systems/sodium/components/tool-call-row.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/sodium/registry/items/tool-call-row.json",
       "sourceSha256": "031dd5c1f371866bad80da18ca0e277720abed97d97a1e6315305cdeed2a4b9c",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/sodium/filter-bar.json"
 registryDependencies: [button, icon, input, overlay, portal, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/sodium/components/filter-bar
+human: https://happyhands.cc/systems/sodium/components/filter-bar.md
 ---
 
 # Filter bar

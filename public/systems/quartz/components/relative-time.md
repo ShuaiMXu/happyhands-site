@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/relative-time.jso
 registryDependencies: [theme, truncate, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/relative-time
+human: https://happyhands.cc/systems/quartz/components/relative-time.md
 ---
 
 # Relative time

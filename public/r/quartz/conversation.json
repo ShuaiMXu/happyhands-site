@@ -21,10 +21,10 @@
     "docs": "https://happyhands.cc/systems/quartz/components/conversation.md",
     "page": "https://happyhands.cc/systems/quartz/components/conversation.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/quartz/registry/items/conversation.json",
       "sourceSha256": "8483b7d44fd08228406bb7520421af09e6200e74d687a9a74a162cac6fad87a9",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

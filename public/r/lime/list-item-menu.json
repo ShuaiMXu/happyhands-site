@@ -18,10 +18,10 @@
     "docs": "https://happyhands.cc/systems/lime/index.md",
     "page": "https://happyhands.cc/systems/lime/index.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/lime/registry/items/list-item-menu.json",
       "sourceSha256": "c1979507b32d5c30c10d9a8e759a21f625ef67c20ce9dfa006e155e8681551ec",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

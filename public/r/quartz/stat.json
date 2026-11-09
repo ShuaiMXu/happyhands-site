@@ -22,10 +22,10 @@
     "docs": "https://happyhands.cc/systems/quartz/components/stat.md",
     "page": "https://happyhands.cc/systems/quartz/components/stat.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/quartz/registry/items/stat.json",
       "sourceSha256": "a81cb95bcffa4e3b9ca9c1e1ac3e3f51a6256822e7d524addd64eb57d40b1dd1",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

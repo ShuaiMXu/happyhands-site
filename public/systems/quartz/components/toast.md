@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/toast.json"
 registryDependencies: [button, css-var, direction, icon, portal, status, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/toast
+human: https://happyhands.cc/systems/quartz/components/toast.md
 ---
 
 # Toast

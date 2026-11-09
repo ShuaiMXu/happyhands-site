@@ -22,10 +22,10 @@
     "docs": "https://happyhands.cc/systems/quartz/components/tooltip.md",
     "page": "https://happyhands.cc/systems/quartz/components/tooltip.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/quartz/registry/items/tooltip.json",
       "sourceSha256": "bc377ba9b0be34fe9c631697320efcf56dc9262098c06e5333c4cb02b6459dcf",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

@@ -1,0 +1,14 @@
+{
+  "name": "quartz-item",
+  "type": "registry:item",
+  "title": "quartz / Item",
+  "description": "The list row: media, title, meta, status and actions.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/item.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "item",
+    "version": "2026-11-09.2"
+  }
+}

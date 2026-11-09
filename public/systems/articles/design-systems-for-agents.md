@@ -29,7 +29,7 @@ A design system for people is mostly pictures and prose: a design library, a doc
 
 ## A rule, as the agent reads it
 
-This is one of the global rules in the Quartz skill, word for word. The same text is on the Quartz [agent view](https://design.how/systems/quartz.md).
+This is one of the global rules in the Quartz skill, word for word. The same text is on the Quartz [agent view](https://happyhands.cc/systems/quartz/index.md).
 
 ```md
 1. quartz-components-first MUST Use a component from this system before writing custom markup. Because hand-built markup skips the component's focus ring, keyboard handling and states, which people notice one at a time.

@@ -1,0 +1,14 @@
+{
+  "name": "sodium-bar-blocks",
+  "type": "registry:item",
+  "title": "sodium / Bar blocks",
+  "description": "Splits one total into its parts as blocks as wide as their share.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/sodium/bar-blocks.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "bar-blocks",
+    "version": "2026-11-09.2"
+  }
+}

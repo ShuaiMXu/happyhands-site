@@ -1,0 +1,14 @@
+{
+  "name": "lime-sheet",
+  "type": "registry:item",
+  "title": "lime / Sheet",
+  "description": "A panel from an edge, such as transaction details, that keeps the page visible.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/lime/sheet.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "sheet",
+    "version": "2026-11-09.2"
+  }
+}

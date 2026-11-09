@@ -24,10 +24,10 @@
     "docs": "https://happyhands.cc/systems/sodium/components/filter-bar.md",
     "page": "https://happyhands.cc/systems/sodium/components/filter-bar.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/sodium/registry/items/filter-bar.json",
       "sourceSha256": "120222e17fbd5217b253eae08d92bbda32ab7a1ac708fee49f1b2131e90f26a6",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

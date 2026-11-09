@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/filter-bar.json"
 registryDependencies: [button, chip, dropdown-menu, icon, input, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/filter-bar
+human: https://happyhands.cc/systems/glaze/components/filter-bar.md
 ---
 
 # Filter bar

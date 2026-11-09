@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/quartz/data-grid.json"
 registryDependencies: [checkbox, icon, input, kbd, popover, select, status, table, textarea, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/quartz/components/data-grid
+human: https://happyhands.cc/systems/quartz/components/data-grid.md
 ---
 
 # Data grid

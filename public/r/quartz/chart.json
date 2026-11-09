@@ -30,10 +30,10 @@
     "docs": "https://happyhands.cc/systems/quartz/components/chart.md",
     "page": "https://happyhands.cc/systems/quartz/components/chart.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/quartz/registry/items/chart.json",
       "sourceSha256": "a41cdf40c89a05b2af466052ecebba04baac30034b43eece2f146d56ea130071",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

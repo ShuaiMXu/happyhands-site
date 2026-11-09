@@ -11,6 +11,7 @@ function handoffMessage(error, zh) {
 
 const key='happyhands-local-handoff-v1';
 let last=null,draft=null;
+try { const value=JSON.parse(sessionStorage.getItem(key+"-draft")||"null"); if(value && ["repo","task","sources","address"].every(k=>typeof value[k]==="string")) draft=value; } catch {}
 try { const stored=JSON.parse(sessionStorage.getItem(key)||'null');if(stored){assertSiteHandoff(stored.handoff);localWorkbenchURL(stored.address,stored.handoff);last=stored;} } catch { /* Invalid or unavailable storage cannot initiate a connection. */ }
 export function localWorkbenchMarkup(lang) {
   const zh=lang==='zh';
@@ -36,7 +37,7 @@ export function setupLocalWorkbench(lang) {
     open.href=localWorkbenchURL(address.value.trim(),prepared);
     return prepared;
   }
-  for(const field of [repo,task,sources,address])field.addEventListener('input',()=>{draft={repo:repo.value,task:task.value,sources:sources.value,address:address.value};try{prepare();status.textContent='';}catch{open.removeAttribute('href');}});
+  for(const field of [repo,task,sources,address])field.addEventListener('input',()=>{draft={repo:repo.value,task:task.value,sources:sources.value,address:address.value};try{sessionStorage.setItem(key+'-draft',JSON.stringify(draft));}catch{}try{prepare();status.textContent='';}catch{open.removeAttribute('href');}});
   open.addEventListener('click',event=>{
     try {
       const handoff=prepare();last={address:address.value.trim(),handoff};

@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/sodium/breadcrumb.json"
 registryDependencies: [button, dropdown-menu, icon, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/sodium/components/breadcrumb
+human: https://happyhands.cc/systems/sodium/components/breadcrumb.md
 ---
 
 # Breadcrumb

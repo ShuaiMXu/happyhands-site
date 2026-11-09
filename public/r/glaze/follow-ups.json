@@ -20,10 +20,10 @@
     "docs": "https://happyhands.cc/systems/glaze/components/follow-ups.md",
     "page": "https://happyhands.cc/systems/glaze/components/follow-ups.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/glaze/registry/items/follow-ups.json",
       "sourceSha256": "780ab1431af9f858ac0a96417d850299231a69f76fa8a06c4a445e19c2d84a89",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

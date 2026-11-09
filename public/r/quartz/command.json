@@ -21,10 +21,10 @@
     "docs": "https://happyhands.cc/systems/quartz/components/command.md",
     "page": "https://happyhands.cc/systems/quartz/components/command.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/quartz/registry/items/command.json",
       "sourceSha256": "dfddf4cfa767836f28bff8cab5035c7f79d0fa50ed0713f77b170a32a1495274",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

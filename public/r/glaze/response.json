@@ -21,10 +21,10 @@
     "docs": "https://happyhands.cc/systems/glaze/components/response.md",
     "page": "https://happyhands.cc/systems/glaze/components/response.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/glaze/registry/items/response.json",
       "sourceSha256": "8568e2c87b73ceff2d27c7124aaac2f361bd2f67f3449befb2342de29cff16ac",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

@@ -21,10 +21,10 @@
     "docs": "https://happyhands.cc/systems/glaze/components/alert.md",
     "page": "https://happyhands.cc/systems/glaze/components/alert.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/glaze/registry/items/alert.json",
       "sourceSha256": "263f9dc74195d4da5130a97b24b3b6be7c6cff1a9f3ec3612d4e942ae87391d6",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

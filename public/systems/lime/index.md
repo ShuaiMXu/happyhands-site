@@ -6,7 +6,7 @@ kind: system-index
 version: 1
 last-updated: 2026-10-26
 install-base: `npx shadcn@latest add https://happyhands.cc/r/lime/<name>.json`
-human: https://design.how/systems/lime
+human: https://happyhands.cc/systems/lime/index.md
 
 ## How to use this system
 1. Read this page. Follow the global rules and the priority order.
@@ -105,4 +105,4 @@ Whole screens built only from the components above. For a whole screen, start fr
 - Split request: A bill you paid, split by what each person owes, with one request to send. `npx shadcn@latest add https://happyhands.cc/r/lime/split-request.json`
 
 ## Optional
-- [Human docs](https://design.how/systems/lime): visual reference
+- [Human docs](https://happyhands.cc/systems/lime/index.md): visual reference

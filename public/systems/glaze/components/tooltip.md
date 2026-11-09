@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/tooltip.json"
 registryDependencies: [children, portal, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/tooltip
+human: https://happyhands.cc/systems/glaze/components/tooltip.md
 ---
 
 # Tooltip

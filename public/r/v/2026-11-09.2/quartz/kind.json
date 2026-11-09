@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "kind",
+  "type": "registry:lib",
+  "title": "Kinds",
+  "description": "Support file: the five kinds and two reserved statuses, as a type and an ordered list.",
+  "author": "design.how",
+  "categories": [
+    "internal"
+  ],
+  "meta": {
+    "docs": "https://happyhands.cc/systems/quartz/index.md",
+    "page": "https://happyhands.cc/systems/quartz/index.md",
+    "happyhands": {
+      "version": "2026-11-09.2",
+      "source": "design-how/quartz/registry/items/kind.json",
+      "sourceSha256": "925b6dec1ff82ef49d71a14a38a993df02582119617f52efd2860cd04606c62e",
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
+    }
+  },
+  "files": [
+    {
+      "path": "registry/quartz/lib/kind.ts",
+      "content": "// The five kinds Quartz maps to hue slots, and the two reserved statuses. tokens.css holds the map from\n// kind to slot; this file is the type and the order, so components and docs never spell the list again.\n\nexport const kinds = ['agent', 'key', 'run', 'deploy', 'model'] as const;\nexport type Kind = (typeof kinds)[number];\n\n/** Reserved hues. Warm means warn or fail: no kind may take either. */\nexport const reserved = ['warn', 'fail'] as const;\nexport type Reserved = (typeof reserved)[number];\n",
+      "type": "registry:lib",
+      "target": "@lib/quartz/kind.ts"
+    }
+  ]
+}

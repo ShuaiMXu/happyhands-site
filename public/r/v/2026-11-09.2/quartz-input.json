@@ -1,0 +1,14 @@
+{
+  "name": "quartz-input",
+  "type": "registry:item",
+  "title": "quartz / Input",
+  "description": "One line of text. Variants: text, password, secret, copy, search, number and OTP, with prefix and suffix slots.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/input.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "input",
+    "version": "2026-11-09.2"
+  }
+}

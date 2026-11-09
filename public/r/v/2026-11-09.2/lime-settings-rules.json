@@ -1,0 +1,14 @@
+{
+  "name": "lime-settings-rules",
+  "type": "registry:item",
+  "title": "lime / Settings rules",
+  "description": "Payday rules and the assistant's limits as settings lists, one row per rule.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/lime/settings-rules.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "settings-rules",
+    "version": "2026-11-09.2"
+  }
+}

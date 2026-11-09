@@ -1,0 +1,14 @@
+{
+  "name": "quartz-utils",
+  "type": "registry:item",
+  "title": "quartz / cn",
+  "description": "Support file: cn, which merges class names and resolves conflicts between Quartz's type roles and text colors; mergeClass, which keeps Quartz's classes when a caller passes a className function; and mergeRefs.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/utils.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "utils",
+    "version": "2026-11-09.2"
+  }
+}

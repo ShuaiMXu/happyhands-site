@@ -4,7 +4,7 @@ system: lime
 kind: foundation
 source: registry/lime/tokens.css
 last-updated: 2026-10-26
-human: https://design.how/systems/lime/foundations/motion
+human: https://happyhands.cc/systems/lime/foundations/motion.md
 ---
 
 # Motion

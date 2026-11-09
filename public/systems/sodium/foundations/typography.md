@@ -4,7 +4,7 @@ system: sodium
 kind: foundation
 source: registry/sodium/tokens.css
 last-updated: 2026-10-26
-human: https://design.how/systems/sodium/foundations/typography
+human: https://happyhands.cc/systems/sodium/foundations/typography.md
 ---
 
 # Typography

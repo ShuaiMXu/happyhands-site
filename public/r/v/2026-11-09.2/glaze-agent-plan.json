@@ -1,0 +1,14 @@
+{
+  "name": "glaze-agent-plan",
+  "type": "registry:item",
+  "title": "glaze / Agent plan",
+  "description": "An agent builds another agent: the ask, its changes with their status, and Publish agent as the confirm.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/glaze/agent-plan.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "agent-plan",
+    "version": "2026-11-09.2"
+  }
+}

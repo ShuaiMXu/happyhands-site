@@ -20,10 +20,10 @@
     "docs": "https://happyhands.cc/systems/glaze/components/toolbar.md",
     "page": "https://happyhands.cc/systems/glaze/components/toolbar.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/glaze/registry/items/toolbar.json",
       "sourceSha256": "bea3e1b677969f393b8236ac28f86fbed302be9c6b8947c0bdce16f980e38f0e",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

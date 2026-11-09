@@ -85,7 +85,7 @@ A rule file adds context and checks nothing. The Cursor docs say that when a rul
 
 [Quartz's anti-slop page](/systems/quartz/foundations/anti-slop) has 26 rules, 25 of them never rules, and two of them name the habits in this heading. `anti-slop-no-caps` bans setting text in capitals or tracked out and asks for sentence case, because capitals read slower and make every label shout, so a real warning no longer stands out.
 
-Rule `anti-slop-no-caps` (never) from the Quartz docs (https://design.how/systems/quartz/foundations/anti-slop). Never set text in capitals or tracked out; keep sentence case. Because capitals read slower and make every label shout, so a real warning no longer stands out.
+Rule `anti-slop-no-caps` (never) from the Quartz docs (https://happyhands.cc/systems/quartz/foundations/anti-slop.md). Never set text in capitals or tracked out; keep sentence case. Because capitals read slower and make every label shout, so a real warning no longer stands out.
 
 Incorrect:
 

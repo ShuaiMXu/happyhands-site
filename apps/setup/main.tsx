@@ -17,6 +17,10 @@ function CopyPrompt({zh}:{zh:boolean}){
  const [notice,setNotice]=React.useState('');
  return <div className="setup-prompt-actions"><Button id="copy-agent" onClick={async event=>{try{await navigator.clipboard.writeText(event.currentTarget.dataset.copy||'');setNotice(zh?'已复制':'Copied');}catch{setNotice(zh?'复制失败，请选择下方文本复制。':'Select the text below to copy.');}}}>{zh?'复制提示词':'Copy prompt'}</Button><span role="status">{notice}</span></div>;
 }
+function SetupDisclosure({id,className,children}:{id:string;className:string;children:React.ReactNode}) {
+ const [value,setValue]=React.useState(()=>{try{return sessionStorage.getItem('hh-setup-disclosure:'+id)||'';}catch{return '';}});
+ return <Accordion type="single" collapsible className={className} value={value} onValueChange={next=>{setValue(next);try{sessionStorage.setItem('hh-setup-disclosure:'+id,next);}catch{}}}>{children}</Accordion>;
+}
 /** Internal authored setup content stays shared with the portal; all form controls render through shadcn. */
 function SetupContent({html}:{html:string}) {
  const nodes=useMemo(()=>{
@@ -31,7 +35,7 @@ function SetupContent({html}:{html:string}) {
    if(node.classList.contains('agent-prompt-preview'))return <section key={key} className="agent-prompt-preview"><div className="setup-prompt-heading"><label htmlFor="agent-prompt">{node.querySelector('label')?.textContent}</label><CopyPrompt zh={node.querySelector('label')?.textContent?.includes('复制')||false}/></div><Textarea id="agent-prompt" readOnly rows={16}/></section>;
    if(node.tagName==='DETAILS'){
     const summary=node.querySelector(':scope > summary');
-    return <Accordion key={key} type="single" collapsible className={node.className}><AccordionItem value="content"><AccordionTrigger>{summary?.textContent}</AccordionTrigger><AccordionContent forceMount>{Array.from(node.childNodes).filter(n=>n!==summary).map(render)}</AccordionContent></AccordionItem></Accordion>;
+    return <SetupDisclosure key={key} id={node.id||`${node.className}:${key}`} className={node.className}><AccordionItem value="content"><AccordionTrigger>{summary?.textContent}</AccordionTrigger><AccordionContent forceMount>{Array.from(node.childNodes).filter(n=>n!==summary).map(render)}</AccordionContent></AccordionItem></SetupDisclosure>;
    }
    if(node.tagName==='A'&&/^https?:/.test(node.getAttribute('href')||'')){props.target='_blank';props.rel='noopener noreferrer';}
    if(node.tagName==='BUTTON')return <Button variant="secondary" {...props}>{children}</Button>;

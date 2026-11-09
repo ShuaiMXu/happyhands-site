@@ -1,0 +1,14 @@
+{
+  "name": "sodium-lint",
+  "type": "registry:item",
+  "title": "sodium / Sodium lint",
+  "description": "One command that flags what Sodium's rules forbid in your app, such as a rounded corner, yellow text on a light ground, two primary buttons side by side or a grid behind the page, and says what to use instead.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/sodium/lint.json"
+  ],
+  "meta": {
+    "system": "sodium",
+    "item": "lint",
+    "version": "2026-11-09.2"
+  }
+}

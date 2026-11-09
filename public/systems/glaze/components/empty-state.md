@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/empty-state.json"
 registryDependencies: [button, icon, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/empty-state
+human: https://happyhands.cc/systems/glaze/components/empty-state.md
 ---
 
 # Empty state

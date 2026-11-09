@@ -10,10 +10,10 @@ Updated 19 October 2026. By Arlan Marat (https://design.how/about).
 
 | System | For | Components | Blocks |
 |-|-|-|-|
-| [Sodium](https://design.how/systems/sodium) | Infrastructure and data tools: pipelines, runs, warehouses, on-call | 54 | 7 |
-| [Glaze](https://design.how/systems/glaze) | Compact AI products, such as assistants and voice notes | 66 | 11 |
-| [Quartz](https://design.how/systems/quartz) | AI agents and developer tools: runs, approvals, keys, releases | 57 | 7 |
-| [Lime](https://design.how/systems/lime) | Consumer apps, such as a money app on a phone | 49 | 5 |
+| [Sodium](https://happyhands.cc/systems/sodium/index.md) | Infrastructure and data tools: pipelines, runs, warehouses, on-call | 54 | 7 |
+| [Glaze](https://happyhands.cc/systems/glaze/index.md) | Compact AI products, such as assistants and voice notes | 66 | 11 |
+| [Quartz](https://happyhands.cc/systems/quartz/index.md) | AI agents and developer tools: runs, approvals, keys, releases | 57 | 7 |
+| [Lime](https://happyhands.cc/systems/lime/index.md) | Consumer apps, such as a money app on a phone | 49 | 5 |
 
 Counts are from each system's registry on 2026-10-19. A block is a whole screen built only from the system's components, installed as code you edit.
 
@@ -47,10 +47,10 @@ npx shadcn@latest add https://happyhands.cc/r/lime/theme.json
 
 ## How to choose
 
-- Pick [Sodium](https://design.how/systems/sodium) when the screens watch systems run: pipelines and backfills, job runs, schedules, alerts and on-call. Its blocks are Job runs, Failed load, On call, Run progress, Warehouse capacity, Sync flow, Pipeline history. It is sharp and monospaced, with 1px rules, no shadows and one yellow action per view.
-- Pick [Glaze](https://design.how/systems/glaze) for a compact AI product, such as an assistant that takes voice notes or books on someone's behalf. Its blocks are Today, Voice capture, Note recap, Booking approval, Assistant limits, Conversation insights, Cited answer, Agent plan, Agent procedure, Simulations, Experiment. It is black and white, with glass only on the one action you press next.
-- Pick [Quartz](https://design.how/systems/quartz) when the screens show work an agent did or is doing: runs, tool calls, approvals, API keys, deploys. Its blocks are Workspace home, Agent session, Tool approval, API keys, Prompt release, Run trace, Live activity. It is black and white, with a hue only for the kind of thing and warm colors only for trouble.
-- Pick [Lime](https://design.how/systems/lime) for a consumer app, such as one where people manage their own money. Its blocks are Home screen, Assistant approval, Assistant alert, Settings rules, Split request. It is warm and light, with one glowing action per screen.
+- Pick [Sodium](https://happyhands.cc/systems/sodium/index.md) when the screens watch systems run: pipelines and backfills, job runs, schedules, alerts and on-call. Its blocks are Job runs, Failed load, On call, Run progress, Warehouse capacity, Sync flow, Pipeline history. It is sharp and monospaced, with 1px rules, no shadows and one yellow action per view.
+- Pick [Glaze](https://happyhands.cc/systems/glaze/index.md) for a compact AI product, such as an assistant that takes voice notes or books on someone's behalf. Its blocks are Today, Voice capture, Note recap, Booking approval, Assistant limits, Conversation insights, Cited answer, Agent plan, Agent procedure, Simulations, Experiment. It is black and white, with glass only on the one action you press next.
+- Pick [Quartz](https://happyhands.cc/systems/quartz/index.md) when the screens show work an agent did or is doing: runs, tool calls, approvals, API keys, deploys. Its blocks are Workspace home, Agent session, Tool approval, API keys, Prompt release, Run trace, Live activity. It is black and white, with a hue only for the kind of thing and warm colors only for trouble.
+- Pick [Lime](https://happyhands.cc/systems/lime/index.md) for a consumer app, such as one where people manage their own money. Its blocks are Home screen, Assistant approval, Assistant alert, Settings rules, Split request. It is warm and light, with one glowing action per screen.
 
 ## What every one of them brings
 

@@ -20,10 +20,10 @@
     "docs": "https://happyhands.cc/systems/sodium/components/numbered-tabs.md",
     "page": "https://happyhands.cc/systems/sodium/components/numbered-tabs.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/sodium/registry/items/numbered-tabs.json",
       "sourceSha256": "0b3cc169993daa14c7f506904c8ffda12b74b3fa54e28ad63ce3cd053ec0747d",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

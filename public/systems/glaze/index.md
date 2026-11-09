@@ -6,7 +6,7 @@ kind: system-index
 version: 1
 last-updated: 2026-10-26
 install-base: `npx shadcn@latest add https://happyhands.cc/r/glaze/<name>.json`
-human: https://design.how/systems/glaze
+human: https://happyhands.cc/systems/glaze/index.md
 
 ## How to use this system
 1. Read this page. Follow the global rules and the priority order.
@@ -105,4 +105,4 @@ Whole screens built only from the components above. For a whole screen, start fr
 - Experiment: Two prompts split live traffic: each arm's resolution rate, both by day, and Ship as the confirm. `npx shadcn@latest add https://happyhands.cc/r/glaze/experiment.json`
 
 ## Optional
-- [Human docs](https://design.how/systems/glaze): visual reference
+- [Human docs](https://happyhands.cc/systems/glaze/index.md): visual reference

@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/data-grid.json"
 registryDependencies: [button, checkbox, data-units, dropdown-menu, icon, pagination, status, table, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/data-grid
+human: https://happyhands.cc/systems/glaze/components/data-grid.md
 ---
 
 # Data grid

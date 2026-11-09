@@ -1,0 +1,14 @@
+{
+  "name": "quartz-textarea",
+  "type": "registry:item",
+  "title": "quartz / Textarea",
+  "description": "Several lines of text that grow.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/quartz/textarea.json"
+  ],
+  "meta": {
+    "system": "quartz",
+    "item": "textarea",
+    "version": "2026-11-09.2"
+  }
+}

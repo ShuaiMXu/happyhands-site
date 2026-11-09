@@ -1,0 +1,14 @@
+{
+  "name": "lime-balance",
+  "type": "registry:item",
+  "title": "lime / Balance",
+  "description": "The amount left in an account, kept in the header.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/lime/balance.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "balance",
+    "version": "2026-11-09.2"
+  }
+}

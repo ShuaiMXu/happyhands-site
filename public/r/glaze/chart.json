@@ -28,10 +28,10 @@
     "docs": "https://happyhands.cc/systems/glaze/components/chart.md",
     "page": "https://happyhands.cc/systems/glaze/components/chart.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/glaze/registry/items/chart.json",
       "sourceSha256": "61f24affa9ae6e1c9c246bf09ef44311a431af0903124b3916f2dbb8e41471f3",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

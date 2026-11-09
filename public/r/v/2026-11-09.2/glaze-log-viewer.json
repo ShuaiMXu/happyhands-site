@@ -1,0 +1,14 @@
+{
+  "name": "glaze-log-viewer",
+  "type": "registry:item",
+  "title": "glaze / Log viewer",
+  "description": "Shows a run's output lines as they stream.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/glaze/log-viewer.json"
+  ],
+  "meta": {
+    "system": "glaze",
+    "item": "log-viewer",
+    "version": "2026-11-09.2"
+  }
+}

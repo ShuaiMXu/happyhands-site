@@ -7,7 +7,7 @@ install: "npx shadcn@latest add https://happyhands.cc/r/glaze/card.json"
 registryDependencies: [panel, theme, utils]
 version: 1
 last-updated: 2026-10-26
-human: https://design.how/systems/glaze/components/card
+human: https://happyhands.cc/systems/glaze/components/card.md
 ---
 
 # Card

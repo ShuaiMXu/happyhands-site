@@ -26,10 +26,10 @@
     "docs": "https://happyhands.cc/systems/quartz/components/message.md",
     "page": "https://happyhands.cc/systems/quartz/components/message.md",
     "happyhands": {
-      "version": "2026-11-09.1",
+      "version": "2026-11-09.2",
       "source": "design-how/quartz/registry/items/message.json",
       "sourceSha256": "7b3f8df3a33ba05d637808c4161c9bb72607008129bc353f0d2820ff7c33e5b0",
-      "adaptation": "hosted metadata and optional Skill dependency; embedded source preserved"
+      "adaptation": "hosted metadata and opt-in Skill links; executable component source preserved"
     }
   },
   "files": [

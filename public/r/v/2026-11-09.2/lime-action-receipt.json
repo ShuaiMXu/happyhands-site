@@ -1,0 +1,14 @@
+{
+  "name": "lime-action-receipt",
+  "type": "registry:item",
+  "title": "lime / Action receipt",
+  "description": "A message listing what the assistant just did, one line per action, with Undo.",
+  "registryDependencies": [
+    "https://happyhands.cc/r/v/2026-11-09.2/lime/action-receipt.json"
+  ],
+  "meta": {
+    "system": "lime",
+    "item": "action-receipt",
+    "version": "2026-11-09.2"
+  }
+}

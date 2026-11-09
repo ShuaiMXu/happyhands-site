@@ -103,8 +103,7 @@ export function setupLiquidGlass() {
     }
     defs.append(filter);
     let sizeKey = "",
-      resizeFrame = 0,
-      pointerFrame = 0;
+      resizeFrame = 0;
     const resize = () => {
       resizeFrame = 0;
       const { width, height } = target.getBoundingClientRect();
@@ -127,37 +126,9 @@ export function setupLiquidGlass() {
       if (!resizeFrame) resizeFrame = requestAnimationFrame(resize);
     });
     observer.observe(target);
-    const motion = matchMedia("(prefers-reduced-motion: reduce)");
-    let x = 24,
-      y = 0;
-    const move = (event) => {
-      if (motion.matches || event.pointerType === "touch") return;
-      const bounds = target.getBoundingClientRect();
-      x = ((event.clientX - bounds.left) / bounds.width) * 100;
-      y = ((event.clientY - bounds.top) / bounds.height) * 100;
-      if (!pointerFrame)
-        pointerFrame = requestAnimationFrame(() => {
-          pointerFrame = 0;
-          surface.style.setProperty("--glass-x", `${x}%`);
-          surface.style.setProperty("--glass-y", `${y}%`);
-        });
-    };
-    const leave = () => {
-      cancelAnimationFrame(pointerFrame);
-      pointerFrame = 0;
-      surface.style.removeProperty("--glass-x");
-      surface.style.removeProperty("--glass-y");
-    };
-    target.addEventListener("pointermove", move, { passive: true });
-    target.addEventListener("pointerleave", leave);
-    motion.addEventListener("change", leave);
     cleanup.push(() => {
       observer.disconnect();
       cancelAnimationFrame(resizeFrame);
-      leave();
-      target.removeEventListener("pointermove", move);
-      target.removeEventListener("pointerleave", leave);
-      motion.removeEventListener("change", leave);
       surface.remove();
     });
   }

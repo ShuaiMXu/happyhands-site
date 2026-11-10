@@ -4,6 +4,7 @@ import React, { useEffect, useRef } from "react";
 import { setupSiteMenu } from "./site-menu";
 import { siteNavigation } from "./site-navigation";
 import "./site-shell.css";
+import {setupHeaderMaterial} from "./header-material.js";
 export function SiteHeader({
   navigation = true,
   lang,
@@ -21,8 +22,9 @@ export function SiteHeader({
 }) {
   const header = useRef<HTMLElement>(null);
   useEffect(() => navigation ? setupSiteMenu(header.current!, lang) : undefined, [lang,navigation]);
+  useEffect(() => setupHeaderMaterial({targets:[header.current!]}), []);
   return (
-    <header className={`hh-site-header${navigation ? "" : " hh-site-header-compact"}`} ref={header}>
+    <header className={`hh-site-header hh-glass-header${navigation ? "" : " hh-site-header-compact"}`} ref={header}>
       <a href="/apps/portal/" aria-label="HappyHands">
         <img
           src={

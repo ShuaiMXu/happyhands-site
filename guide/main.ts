@@ -1,3 +1,4 @@
+import {setupHeaderMaterial} from "../packages/ui/header-material.js";
 import "../packages/design-tokens/happyhands.css";
 import "../packages/ui/site-layout.css";
 import "../packages/ui/site-shell.css";
@@ -17,3 +18,6 @@ setupSiteMenu(document.querySelector<HTMLElement>(".hh-site-header")!,lang);
 import "./wiki-layout.css";
 import {setupWikiLayout} from "./wiki-layout";
 setupWikiLayout();
+
+const disposeHeaderMaterial=setupHeaderMaterial();
+if(import.meta.hot)import.meta.hot.dispose(disposeHeaderMaterial);

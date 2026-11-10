@@ -1,0 +1,49 @@
+/* The approved homepage lens is shared by every owned website header. */
+:root {scroll-padding-top:var(--hh-sticky-header-offset,0px);}
+header.hh-site-header.hh-glass-header {
+ position:sticky;
+ top:0;
+ isolation:isolate;
+ background:transparent;
+ border-bottom:0;
+ box-shadow:none;
+ backdrop-filter:none;
+ -webkit-backdrop-filter:none;
+}
+header.hh-glass-header > .liquid-glass-surface {
+ position:absolute;
+ inset:0;
+ z-index:-1;
+ overflow:hidden;
+ pointer-events:none;
+ border-radius:inherit;
+ background:transparent;
+ box-shadow:none;
+ -webkit-mask-image:linear-gradient(transparent,#000 8px,#000 calc(100% - 8px),transparent);
+ mask-image:linear-gradient(transparent,#000 8px,#000 calc(100% - 8px),transparent);
+}
+/* A clear optical lens: no fill, blur, saturation boost or painted reflections. */
+header.hh-glass-header > .liquid-glass-surface {
+ -webkit-backdrop-filter:none;
+ backdrop-filter:none;
+}
+header.hh-glass-header > .liquid-glass-surface[data-refraction] { backdrop-filter:var(--glass-lens); }
+header.hh-glass-header > .liquid-glass-surface::before,header.hh-glass-header > .liquid-glass-surface::after { content:none; display:none; }
+header.hh-site-header.hh-glass-header :is(.hh-site-tools,.header-actions) > :is(a,button),
+header.hh-site-header.hh-glass-header #theme-toggle,
+header.hh-site-header.hh-glass-header #lang-switch :is(a,button),
+header.hh-site-header.hh-glass-header .hh-site-menu-toggle {
+ background:transparent;
+ border:.5px solid var(--hh-line);
+ box-shadow:none;
+}
+header.hh-site-header.hh-glass-header :is(.hh-site-tools,.header-actions) > :is(a,button):hover,
+header.hh-site-header.hh-glass-header #theme-toggle:hover,
+header.hh-site-header.hh-glass-header #lang-switch :is(a,button):hover,
+header.hh-site-header.hh-glass-header .hh-site-menu-toggle:hover {background:var(--hh-bg-hover);}
+.liquid-glass-defs { position:fixed; width:0; height:0; pointer-events:none; }
+@media(prefers-reduced-transparency:reduce),(forced-colors:active) {
+ header.hh-glass-header > .liquid-glass-surface,header.hh-glass-header > .liquid-glass-surface[data-refraction] {background:var(--hh-bg);-webkit-backdrop-filter:none!important;backdrop-filter:none!important;box-shadow:none;border:.5px solid var(--hh-line);-webkit-mask-image:none;mask-image:none;}
+ header.hh-glass-header > .liquid-glass-surface::before,header.hh-glass-header > .liquid-glass-surface::after {display:none;}
+}
+

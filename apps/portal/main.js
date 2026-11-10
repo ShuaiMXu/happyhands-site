@@ -33,7 +33,7 @@ let disposeHomepageMotion;
 let lang = portalLanguage(location.pathname);
 savePreference('pd-lang', lang);
 const t = () => lang === 'zh' ? zh : en;
-document.querySelector('.site-header').classList.add('hh-site-header','portal-glass-header');
+document.querySelector('.site-header').classList.add('hh-site-header','portal-glass-header','hh-glass-header');
 document.querySelector('.header-cta')?.remove();
 
 const systemTheme = matchMedia('(prefers-color-scheme: dark)');

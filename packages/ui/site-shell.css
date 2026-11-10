@@ -1,5 +1,6 @@
 @import "./site-disclosure.css";
 @import "./site-links.css";
+@import "./header-material.css";
 
 header.hh-site-header {
   position: relative;
@@ -169,7 +170,9 @@ header.hh-site-header .hh-site-menu-toggle {
   header.hh-site-header .hh-tool-label {
     display: none;
   }
-  header.hh-site-header .hh-site-tools button,
+  header.hh-site-header .hh-site-tools :is(a,button),
+  header.hh-site-header #theme-toggle,
+  header.hh-site-header #lang-switch :is(a,button),
   header.hh-site-header .header-actions button {
     box-sizing: border-box;
     width: 44px;

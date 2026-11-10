@@ -49,7 +49,7 @@ function SetupContent({html}:{html:string}) {
  return <>{nodes}</>;
 }
 function App(){
- const {lang,dark,toggleLanguage,toggleTheme}=useSitePreferences(); const zh=lang==='zh';
+ const {lang,dark,toggleLanguage,toggleTheme}=useSitePreferences({embeddedLanguage:true}); const zh=lang==='zh';
  useEffect(()=>{setupConnect(lang);document.title=`${zh?'接入详情':'Setup details'} / HappyHands`;},[lang]);
  const content=connectMarkup(lang).replace('<h2>接入详情</h2>','<h2>接入与使用</h2>').replace('<h2>Setup details</h2>','<h2>Setup and usage</h2>').replaceAll('href="#top"','href="#agent-choice"').replace('首屏复制','下方复制').replace('from the first screen','below');
  return <><SiteHeader navigation={false} lang={lang} dark={dark} onTheme={toggleTheme} onLanguage={toggleLanguage} active="/apps/setup/"/><ResourceNavigation active="setup" lang={lang}/><main key={lang} className="setup-page"><section className="setup-start" id="agent-choice"><a href="/apps/portal/#design-resources">{zh?'返回首页':'Back to home'}</a><h1>{zh?'接入详情':'Setup details'}</h1><p>{zh?'选择你的 AI 工具，复制提示词开始。':'Choose your AI tool and copy the setup prompt.'}</p><SetupContent html={heroConnectMarkup(lang)}/></section><SetupContent html={content}/></main></>;

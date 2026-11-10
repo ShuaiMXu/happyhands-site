@@ -28,24 +28,46 @@ export function setupLocalWorkbench(lang) {
   const zh=lang==='zh',repo=document.getElementById('handoff-repo'),task=document.getElementById('handoff-task'),sources=document.getElementById('handoff-sources'),address=document.getElementById('handoff-address'),open=document.getElementById('handoff-open'),result=document.getElementById('handoff-result'),status=document.getElementById('handoff-status');
   if(last){repo.value=last.handoff.repo;task.value=last.handoff.task;sources.value=last.handoff.designSources.join('\n');address.value=last.address;result.href=localWorkbenchURL(last.address,last.handoff);result.hidden=false;}
   if(draft){repo.value=draft.repo;task.value=draft.task;sources.value=draft.sources;address.value=draft.address;}
-  let prepared=null;
+  let prepared=null,validationStarted=false,spacePressed=false;
+  function setStatus(message){if(status.textContent!==message)status.textContent=message;}
+  // Retain the same focusable node when validation changes it back into a link.
+  function invalidate(){
+    open.removeAttribute('href');
+    open.setAttribute('role','button');
+    open.setAttribute('tabindex','0');
+  }
   function prepare(){
     const input={repo:repo.value.trim(),task:task.value.trim(),designSources:[...new Set(sources.value.split(/\r?\n/).map(path=>path.trim()).filter(Boolean))]};
     const same=value=>value&&value.repo===input.repo&&value.task===input.task&&JSON.stringify(value.designSources)===JSON.stringify(input.designSources);
     const id=same(prepared)?prepared.id:same(last?.handoff)?last.handoff.id:crypto.randomUUID();
     prepared=assertSiteHandoff({schemaVersion:'0.1',id,...input});
     open.href=localWorkbenchURL(address.value.trim(),prepared);
+    open.removeAttribute('role');
+    open.removeAttribute('tabindex');
+    spacePressed=false;
     return prepared;
   }
-  for(const field of [repo,task,sources,address])field.addEventListener('input',()=>{draft={repo:repo.value,task:task.value,sources:sources.value,address:address.value};try{sessionStorage.setItem(key+'-draft',JSON.stringify(draft));}catch{}try{prepare();status.textContent='';}catch{open.removeAttribute('href');}});
+  for(const field of [repo,task,sources,address])field.addEventListener('input',()=>{draft={repo:repo.value,task:task.value,sources:sources.value,address:address.value};try{sessionStorage.setItem(key+'-draft',JSON.stringify(draft));}catch{}try{prepare();setStatus('');}catch(error){invalidate();if(validationStarted)setStatus(handoffMessage(error,zh));}});
   open.addEventListener('click',event=>{
+    validationStarted=true;
     try {
       const handoff=prepare();last={address:address.value.trim(),handoff};
       let saved=true;
       try{sessionStorage.setItem(key,JSON.stringify(last));}catch{saved=false;}
       result.href=open.href;result.hidden=false;
       status.textContent=!saved?(zh?'浏览器未保存交接链接，请保留本地页面。':'The browser did not save this link. Keep the local page open.') : zh?'交接链接已准备。若本地页面无法打开，先启动 pnpm workbench，再点此入口；重复打开会回到同一任务。':'Handoff prepared. If the local page is unavailable, start pnpm workbench and try again. Reopening returns to the same task.';
-    } catch(error) {event.preventDefault();status.textContent=handoffMessage(error,zh);}
+    } catch(error) {event.preventDefault();invalidate();setStatus(handoffMessage(error,zh));}
   });
-  if(last||draft){try{prepare();}catch{open.removeAttribute('href');}}
+  open.addEventListener('keydown',event=>{
+    if(open.hasAttribute('href'))return;
+    if(event.key==='Enter') {event.preventDefault();if(!event.repeat)open.click();}
+    if(event.key===' ') {event.preventDefault();spacePressed=true;}
+  });
+  open.addEventListener('keyup',event=>{
+    if(event.key!==' '||open.hasAttribute('href'))return;
+    event.preventDefault();
+    if(spacePressed){spacePressed=false;open.click();}
+  });
+  open.addEventListener('blur',()=>{spacePressed=false;});
+  try{prepare();}catch{invalidate();}
 }

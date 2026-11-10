@@ -3,6 +3,19 @@ for(const path of ['en/apps/portal','en/systems/quartz','en/systems/lime','en/sy
 for(const p of ['design-md/mercury-3172cd4d','systems/quartz/components/button.md']){const html=await readFile(`dist/resource-pages/en/${p}/index.html`,'utf8');assert.match(html,/<html lang="en"/);assert.match(html,/hreflang="zh-CN"/);assert.match(html,/https:\/\/happyhands.cc\/en\/components\//);assert.match(html,/resource-static/);}
 console.log('English page outputs, canonicals, alternates and crawler content OK');
 
+for(const system of ['quartz','lime']){
+ const html=await readFile(`dist/en/systems/${system}/index.html`,'utf8');
+ const fallback=html.match(/<noscript>([\s\S]*?)<\/noscript>/)?.[1];
+ assert.ok(fallback,`${system} English fallback`);
+ assert.equal((fallback.match(/<h1>/g)||[]).length,1);
+ assert.equal(fallback.match(/<h1>(.*?)<\/h1>/)?.[1],html.match(/<title>(.*?)<\/title>/)?.[1]);
+ assert.ok(fallback.includes(html.match(/<meta name="description" content="([^"]+)"/)?.[1]));
+ assert.doesNotMatch(fallback,/[\u3400-\u9fff]/,`${system} fallback must be completely English`);
+ assert.match(fallback,/Interactive previews require JavaScript/);
+ for(const href of ['guide','components','systems/happyhands','systems/quartz','systems/lime'])assert.ok(fallback.includes(`href="/en/${href}/"`));
+}
+console.log('Quartz and Lime English fallback headings, descriptions and navigation OK');
+
 const portal=await readFile('dist/en/apps/portal/index.html','utf8');
 const body=portal.slice(portal.indexOf('<body'));
 assert.ok(body.includes('open-source local AI-assisted UI review workbench'));

@@ -78,7 +78,7 @@ header.hh-site-header .header-actions {
 }
 header.hh-site-header button,
 header.hh-site-header #theme-toggle,
-header.hh-site-header #lang-switch button {
+header.hh-site-header #lang-switch :is(a,button) {
   width: auto;
   min-height: 44px;
   padding: 8px 12px;

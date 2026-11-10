@@ -36,17 +36,36 @@ try{
    results.push({route,width,overflow:false,pageErrors:errors,themeToggle:true,languageLink:true});await context.close();
   }
  }
- const context=await browser.newContext({reducedMotion:'reduce'});
- await context.addInitScript(()=>{if(!localStorage.getItem('pd-lang'))localStorage.setItem('pd-lang','en')});
- const page=await context.newPage();await page.goto(base+'/apps/portal/');
- await page.waitForFunction(()=>document.documentElement.lang==='en');
- assert.ok((await page.title()).includes('AI Website Review'));
- const en=await page.locator('meta[name="description"]').getAttribute('content');
- await page.locator('#lang-switch button').click();await page.waitForFunction(()=>document.documentElement.lang==='zh-CN');
- assert.notEqual(await page.locator('meta[name="description"]').getAttribute('content'),en);
- assert.equal(await page.locator('meta[property="og:title"]').getAttribute('content'),await page.title());
- await page.goto(base+'/apps/studio/');await page.waitForFunction(()=>document.title.includes('主题工作室'));
- assert.equal(await page.locator('meta[property="og:title"]').getAttribute('content'),await page.title());
- results.push({sharedMetadata:'portal language change and Studio route',pass:true});await context.close();
+ // URL identity wins over a conflicting saved language, with and without JS.
+ for(const lang of ['zh','en']){
+  const route=lang==='en'?'/en/apps/portal/':'/apps/portal/';
+  const other=lang==='en'?'/apps/portal/':'/en/apps/portal/';
+  const plain=await browser.newContext({javaScriptEnabled:false});
+  const raw=await plain.newPage();await raw.goto(base+route);
+  assert.equal(await raw.locator('html').getAttribute('lang'),lang==='en'?'en':'zh-CN');
+  assert.ok((await raw.locator('#portal-content').innerText()).includes('Local Web Alpha'));
+  assert.equal(await raw.locator('#lang-switch a').getAttribute('href'),other);
+  await plain.close();
+  for(const width of [1280,390]){
+   const context=await browser.newContext({viewport:{width,height:900},reducedMotion:'reduce'});
+   await context.addInitScript(code=>localStorage.setItem('pd-lang',code),lang==='en'?'zh':'en');
+   const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
+   await page.goto(base+route);await page.locator('#lang-switch .hh-tool-label').waitFor();
+   assert.equal(await page.locator('html').getAttribute('lang'),lang==='en'?'en':'zh-CN');
+   assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'),'https://happyhands.cc'+route);
+   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+   await page.screenshot({path:`test-results/seo/portal-${lang}-${width}.png`});
+   await page.locator('.scroll-note').click();
+   await page.waitForURL(base+route+'#design-resources');
+   await page.locator('#lang-switch a').click();await page.waitForURL(base+other+'#design-resources');
+   await page.locator('#lang-switch .hh-tool-label').waitFor();
+   assert.equal(await page.locator('html').getAttribute('lang'),lang==='en'?'zh-CN':'en');
+   assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'),'https://happyhands.cc'+other);
+   await page.goBack();await page.waitForURL(base+route+'#design-resources');
+   assert.equal(await page.locator('html').getAttribute('lang'),lang==='en'?'en':'zh-CN');
+   assert.deepEqual(errors,[]);results.push({route,width,urlLanguage:true,languageNavigation:true,pageErrors:errors});
+   await context.close();
+  }
+ }
  await writeFile('test-results/seo/browser.json',JSON.stringify(results,null,2));console.log(JSON.stringify(results,null,2));
 }finally{await browser.close()}

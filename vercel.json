@@ -108,6 +108,46 @@
       "source": "/apps/web/:path*",
       "destination": "/apps/portal/",
       "permanent": true
+    },
+    {
+      "source": "/en/systems/sodium/",
+      "destination": "/en/components/?provider=systems&system=sodium",
+      "permanent": true
+    },
+    {
+      "source": "/en/systems/sodium",
+      "destination": "/en/components/?provider=systems&system=sodium",
+      "permanent": true
+    },
+    {
+      "source": "/en/systems/glaze/",
+      "destination": "/en/components/?provider=systems&system=glaze",
+      "permanent": true
+    },
+    {
+      "source": "/en/systems/glaze",
+      "destination": "/en/components/?provider=systems&system=glaze",
+      "permanent": true
+    },
+    {
+      "source": "/systems/sodium/",
+      "destination": "/components/?provider=systems&system=sodium",
+      "permanent": true
+    },
+    {
+      "source": "/systems/sodium",
+      "destination": "/components/?provider=systems&system=sodium",
+      "permanent": true
+    },
+    {
+      "source": "/systems/glaze/",
+      "destination": "/components/?provider=systems&system=glaze",
+      "permanent": true
+    },
+    {
+      "source": "/systems/glaze",
+      "destination": "/components/?provider=systems&system=glaze",
+      "permanent": true
     }
   ],
   "headers": [
@@ -215,6 +255,21 @@
         {
           "type": "query",
           "key": "provider",
+          "value": "systems"
+        },
+        {
+          "type": "query",
+          "key": "system"
+        }
+      ],
+      "destination": "/resource-pages/en/not-found.html"
+    },
+    {
+      "source": "/en/components/",
+      "has": [
+        {
+          "type": "query",
+          "key": "provider",
           "value": "(?:design-md|kage|refero)"
         },
         {
@@ -224,6 +279,21 @@
         }
       ],
       "destination": "/resource-pages/en/design-md/:design/index.html"
+    },
+    {
+      "source": "/en/components/",
+      "has": [
+        {
+          "type": "query",
+          "key": "provider",
+          "value": "(?:design-md|kage|refero)"
+        },
+        {
+          "type": "query",
+          "key": "design"
+        }
+      ],
+      "destination": "/resource-pages/en/not-found.html"
     },
     {
       "source": "/en/components/",
@@ -242,6 +312,23 @@
         }
       ],
       "destination": "/resource-pages/en/cult-ui/:component/index.html"
+    },
+    {
+      "source": "/en/components/",
+      "has": [
+        {
+          "type": "query",
+          "key": "component"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "provider",
+          "value": "(?:systems|design-md|kage|refero|studio|setup)"
+        }
+      ],
+      "destination": "/resource-pages/en/not-found.html"
     },
     {
       "source": "/en/components/",
@@ -305,6 +392,21 @@
         {
           "type": "query",
           "key": "provider",
+          "value": "systems"
+        },
+        {
+          "type": "query",
+          "key": "system"
+        }
+      ],
+      "destination": "/resource-pages/not-found.html"
+    },
+    {
+      "source": "/components/",
+      "has": [
+        {
+          "type": "query",
+          "key": "provider",
           "value": "(?:design-md|kage|refero)"
         },
         {
@@ -314,6 +416,21 @@
         }
       ],
       "destination": "/resource-pages/design-md/:design/index.html"
+    },
+    {
+      "source": "/components/",
+      "has": [
+        {
+          "type": "query",
+          "key": "provider",
+          "value": "(?:design-md|kage|refero)"
+        },
+        {
+          "type": "query",
+          "key": "design"
+        }
+      ],
+      "destination": "/resource-pages/not-found.html"
     },
     {
       "source": "/components/",
@@ -332,6 +449,23 @@
         }
       ],
       "destination": "/resource-pages/cult-ui/:component/index.html"
+    },
+    {
+      "source": "/components/",
+      "has": [
+        {
+          "type": "query",
+          "key": "component"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "provider",
+          "value": "(?:systems|design-md|kage|refero|studio|setup)"
+        }
+      ],
+      "destination": "/resource-pages/not-found.html"
     },
     {
       "source": "/components/",

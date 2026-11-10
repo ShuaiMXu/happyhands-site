@@ -10,10 +10,9 @@ function translate(html,a,b){
  return html;
 }
 function head(html,key){return html.replace(/<html[^>]*>/,'<html lang="en">').replace(/<title>[\s\S]*?<\/title>/gi,'').replace(/<meta\b[^>]*(?:name|property)="(?:description|og:[^"]+|twitter:[^"]+)"[^>]*>/gi,'').replace(/<link[^>]*(?:rel="canonical"|hreflang=)[^>]*>/gi,'').replace(/<script[^>]*type="application\/ld\+json"[^>]*>[\s\S]*?<\/script>/gi,'').replace('</head>',seoHead(key,'en')+'</head>');}
-for(const [key,path]of [['portal','apps/portal'],['quartz','systems/quartz'],['lime','systems/lime'],['components','resource-pages']]){
+for(const [key,path]of [['quartz','systems/quartz'],['lime','systems/lime'],['components','resource-pages/en']]){
  let html=await readFile(`dist/${path}/index.html`,'utf8');html=head(translate(html,zh,en),key);
  html=html.replaceAll('设计资源 / Design resources','Design resources').replaceAll('设计系统','Design systems').replaceAll('组件库','Components').replaceAll('接入详情','Setup details');
- if(key==='portal')html=html.replaceAll('href="/components/','href="/en/components/');
  const out=key==='components'?'dist/resource-pages/en/index.html':`dist/en/${path}/index.html`;await mkdir(dirname(out),{recursive:true});await writeFile(out,html);
 }
 
@@ -33,5 +32,5 @@ for(const system of ['happyhands','glaze','sodium']) {
 try {await writeFile('dist/resource-pages/en/not-found.html',(await readFile('dist/resource-pages/not-found.html','utf8')).replace('lang="zh-CN"','lang="en"'));}catch(error){if(error.code!=='ENOENT')throw error;}
 
 const sitemap=await readFile('dist/sitemap.xml','utf8');
-const extra=['apps/portal','systems/quartz','systems/lime','systems/glaze','systems/sodium','systems/happyhands','components'].filter(path=>!sitemap.includes(`https://happyhands.cc/en/${path}/`)).map(path=>`<url><loc>https://happyhands.cc/en/${path}/</loc></url>`).join('\n');
+const extra=['apps/portal','systems/quartz','systems/lime','systems/happyhands','components'].filter(path=>!sitemap.includes(`https://happyhands.cc/en/${path}/`)).map(path=>`<url><loc>https://happyhands.cc/en/${path}/</loc></url>`).join('\n');
 await writeFile('dist/sitemap.xml',sitemap.replace('</urlset>',extra+'\n</urlset>'));

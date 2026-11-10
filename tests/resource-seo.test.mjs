@@ -1,6 +1,8 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { readFile, mkdtemp, mkdir, writeFile, rm } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
 import {
   archiveSeo,
   componentSeo,
@@ -9,15 +11,16 @@ import {
 } from "../packages/ui/resource-seo.ts";
 import { renderResourceHtml } from "../scripts/prerender-resources.mjs";
 import { enhanceSeoHtml } from "../packages/ui/site-seo.ts";
-import { resourceRewritePath } from "../scripts/resource-preview-plugin.mjs";
+import { resourceRewritePath, resourcePreviewPlugin } from "../scripts/resource-preview-plugin.mjs";
 const rules = JSON.parse(
   await readFile(new URL("../vercel.json", import.meta.url), "utf8"),
 ).rewrites;
-const route = (query) =>
-  resourceRewritePath(
-    new URL("https://happyhands.cc/components/?" + query),
-    rules,
-  );
+const route = (query) => {
+  const zh = resourceRewritePath(new URL("https://happyhands.cc/components/?" + query), rules);
+  const en = resourceRewritePath(new URL("https://happyhands.cc/en/components/?" + query), rules);
+  assert.equal(en, zh?.replace("/resource-pages/", "/resource-pages/en/"), "English routing parity: " + query);
+  return zh;
+};
 test("query routing chooses each detail type before list fallback", () => {
   assert.equal(
     route("provider=design-md&design=example-123&utm_source=x"),
@@ -147,5 +150,81 @@ test("embedded tool routes ignore stale component identity", () => {
       route(`provider=${provider}&component=cosmic-button`),
       "/resource-pages/index.html",
     );
+  }
+});
+
+test("malformed active resource selectors never fall back to the catalog", () => {
+  const invalid = ["", "bad!", "../secret", "%2e%2e%2fsecret", "a b"];
+  for (const value of invalid) {
+    const encoded = encodeURIComponent(value);
+    for (const query of [
+      `provider=systems&system=${encoded}`,
+      `provider=systems&system=quartz&doc=${encoded}`,
+      `provider=systems&doc=${encoded}`,
+      ...["design-md", "kage", "refero"].map(
+        (provider) => `provider=${provider}&design=${encoded}`,
+      ),
+      `provider=cult-ui&component=${encoded}`,
+      `component=${encoded}`,
+    ]) assert.equal(route(query), "/resource-pages/not-found.html", query);
+  }
+  assert.equal(route("provider=design-md&design=does_not_exist"), "/resource-pages/not-found.html");
+  assert.equal(route("component=does.not.exist"), "/resource-pages/not-found.html");
+});
+
+test("provider ownership preserves lists and ignores inactive stale selectors", () => {
+  // Only selectors owned by the active provider are validated. The UI retains
+  // unrelated query state when switching panels; tool panels own no resource.
+  for (const query of [
+    "", "provider=systems", "provider=design-md", "provider=kage", "provider=refero", "provider=cult-ui",
+    "provider=systems&design=bad!&component=bad!",
+    "provider=design-md&system=bad!&doc=bad!&component=bad!",
+    ...["studio", "setup"].map(
+      (provider) => `provider=${provider}&system=bad!&doc=bad!&design=bad!&component=bad!`,
+    ),
+  ]) assert.equal(route(query), "/resource-pages/index.html", query);
+  assert.equal(route("provider=systems&system=quartz&design=bad!&component=bad!"), "/resource-pages/systems/quartz/index.html");
+  assert.equal(route("provider=design-md&design=example-123&system=bad!&doc=bad!&component=bad!"), "/resource-pages/design-md/example-123/index.html");
+  // Unknown providers follow the UI's existing Cult UI default.
+  assert.equal(route("provider=unknown&component=button"), "/resource-pages/cult-ui/button/index.html");
+  assert.equal(route("provider=unknown&component=bad!"), "/resource-pages/not-found.html");
+});
+
+
+test("preview middleware returns 404 for invalid selectors and 200 for provider lists", async () => {
+  const root = await mkdtemp(join(tmpdir(), "happyhands-resource-routing-"));
+  try {
+    await mkdir(join(root, "dist/resource-pages/en"), { recursive: true });
+    await writeFile(join(root, "vercel.json"), JSON.stringify({ rewrites: rules }));
+    for (const prefix of ["", "en/"]) await writeFile(join(root, `dist/resource-pages/${prefix}index.html`), "Resource catalog");
+    let middleware;
+    resourcePreviewPlugin(root).configurePreviewServer({
+      middlewares: { use(handler) { middleware = handler; } },
+    });
+    for (const [query, expectedStatus] of [
+      ["provider=systems&system=bad!", 404],
+      ["provider=systems&system=quartz&doc=bad!", 404],
+      ["provider=design-md&design=does_not_exist", 404],
+      ["provider=refero&design=", 404],
+      ["provider=cult-ui&component=does.not.exist", 404],
+      ["provider=cult-ui&component=", 404],
+      // Valid-shaped but nonexistent details still fail at file resolution.
+      ["provider=systems&system=not-a-real-system", 404],
+      ["provider=design-md&design=not-a-real-design", 404],
+      ["component=not-a-real-component", 404],
+      ["provider=design-md", 200],
+      ["provider=studio&component=bad!", 200],
+      ["provider=setup&system=bad!&doc=bad!&design=bad!", 200],
+    ]) {
+      for (const prefix of ["", "/en"]) {
+      let body;
+      const response = { statusCode: 200, setHeader() {}, end(value) { body = value; } };
+      await middleware({ url: prefix + "/components/?" + query }, response, () => assert.fail("Unexpected fallthrough"));
+      assert.equal(response.statusCode, expectedStatus, query);
+      assert.equal(String(body), expectedStatus === 404 ? "Not found" : "Resource catalog", query);
+      }
+    }
+  } finally {
+    await rm(root, { recursive: true, force: true });
   }
 });

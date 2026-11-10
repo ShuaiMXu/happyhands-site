@@ -24,7 +24,7 @@ try {
       const p = await c.newPage();
       const errors = [];
       p.on("pageerror", (e) => errors.push(e.message));
-      await p.goto(base + "/apps/portal/");
+      await p.goto(base + (dark ? "/en/apps/portal/" : "/apps/portal/"));
       const feed = p.locator(".resource-feed");
       await feed
         .locator(".resource-result-count")
@@ -60,6 +60,14 @@ try {
       );
       await feed.locator('[data-feed-tab="systems"]').click();
       assert.equal(await search.inputValue(), "quartz");
+      await p.locator('#lang-switch a').click();
+      await p.waitForURL('**/en/apps/portal/**');
+      assert.equal(await search.inputValue(), "quartz");
+      assert.equal(await feed.locator('[data-feed-tab="systems"]').getAttribute('aria-selected'), 'true');
+      assert.ok((await feed.locator('#feed-panel-systems .feed-item').first().getAttribute('href')).startsWith('/en/components/'));
+      await p.goBack();
+      assert.equal(await search.inputValue(), "quartz");
+      assert.equal(await p.locator('html').getAttribute('lang'), 'zh-CN');
       await search.fill("");
       await feed.scrollIntoViewIfNeeded();
       await p.waitForTimeout(300);

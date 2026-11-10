@@ -7,13 +7,13 @@ try {
     const page = await browser.newPage({viewport:{width,height:1000},reducedMotion:"reduce"});
     await page.addInitScript(({lang,width}) => {localStorage.setItem("pd-lang",lang);localStorage.setItem("hh-theme",width===768?"dark":"light");},{lang,width});
     const errors=[];page.on("pageerror",e=>errors.push(e.message));
-    await page.goto(base+"/apps/portal/");
+    await page.goto(base+(lang==="en"?"/en/apps/portal/":"/apps/portal/"));
     assert.equal(await page.locator(".hero-demo").count(),0);
     assert.ok(await page.locator(".pd-whirl-tile").count()>0);
     assert.equal(await page.locator(".hero-actions .button-primary").getAttribute("href"),"#apps");
     assert.equal(await page.locator("#design-resources .resource-cover").count(),2);
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
-    await page.locator("#lang-switch button").click();
+    await page.locator("#lang-switch a").click();
     assert.equal(await page.locator(".hero-demo").count(),0);
     assert.equal(await page.locator("#design-resources .resource-cover").count(),2);
     assert.deepEqual(errors,[]);

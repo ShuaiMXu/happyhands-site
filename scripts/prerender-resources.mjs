@@ -123,7 +123,7 @@ export function renderResourceHtml(shell, entry, lang="zh") {
         `<script id="site-structured-data" type="application/ld+json">${JSON.stringify(data.graph).replace(/</g, "\\u003c")}</script>`,
     );
   html=html.replace(/<link\b(?=[^>]*hreflang=)[^>]*>/gi,'').replace('</head>',`<link rel="alternate" hreflang="zh-CN" href="https://happyhands.cc/components/?${esc(entry.seo.query)}"><link rel="alternate" hreflang="en" href="https://happyhands.cc/en/components/?${esc(entry.seo.query)}"></head>`);
-  const content = `<main id="resource-static"><nav><a href="/components/">设计资源 / Design resources</a></nav><h1>${esc(entry.seo.name)}</h1><p>${esc(entry.seo.description)}</p><p>第三方参考保留原始来源与许可。请核对上游要求后使用。 Third-party references retain their sources and licenses.</p>${entry.seo.source ? `<p><a href="${esc(entry.seo.source)}">原始来源 / Source</a></p>` : ""}<p><a href="${esc(entry.download)}">完整资源 / Full resource</a></p><pre style="white-space:pre-wrap;overflow-wrap:anywhere">${esc(entry.body)}</pre></main>`;
+  const content = `<main id="resource-static"><nav><a href="${lang==='en'?'/en':''}/components/">设计资源 / Design resources</a></nav><h1>${esc(entry.seo.name)}</h1><p>${esc(entry.seo.description)}</p><p>第三方参考保留原始来源与许可。请核对上游要求后使用。 Third-party references retain their sources and licenses.</p>${entry.seo.source ? `<p><a href="${esc(entry.seo.source)}">原始来源 / Source</a></p>` : ""}<p><a href="${esc(entry.download)}">完整资源 / Full resource</a></p><pre style="white-space:pre-wrap;overflow-wrap:anywhere">${esc(entry.body)}</pre></main>`;
   return html.replace(
     /<div id="root">[\s\S]*?<\/div>/,
     () => `<div id="root">${content}</div>`,

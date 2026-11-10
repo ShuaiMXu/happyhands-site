@@ -40,12 +40,12 @@ const components = [
   ["halo-input", "Halo Input"],
   ["halo-select", "Halo Select"],
 ];
-const referenceCard = (item) => {
+const referenceCard = (item, lang) => {
   const cover = archiveCover(item);
-  return `<a class="feed-item feed-reference" href="/components/?provider=design-md&design=${escape(item.slug)}"${item.video ? ` data-preview="${escape(item.video)}"` : ''}><div class="feed-art">${cover ? `<img src="${escape(cover)}" alt="" loading="lazy" width="640" height="400">` : `<span>${escape(item.name)}</span>`}</div><div class="feed-caption"><h3>${escape(item.name)}</h3><span>${escape(new URL(item.site_url).hostname)}</span></div></a>`;
+  return `<a class="feed-item feed-reference" href="${lang === 'en' ? '/en' : ''}/components/?provider=design-md&design=${escape(item.slug)}"${item.video ? ` data-preview="${escape(item.video)}"` : ''}><div class="feed-art">${cover ? `<img src="${escape(cover)}" alt="" loading="lazy" width="640" height="400">` : `<span>${escape(item.name)}</span>`}</div><div class="feed-caption"><h3>${escape(item.name)}</h3><span>${escape(new URL(item.site_url).hostname)}</span></div></a>`;
 };
 const componentCard = ([id, title], lang) =>
-  `<a class="feed-item" href="/components/?provider=cult-ui&component=${id}"><div class="feed-art feed-component" aria-hidden="true"><iframe title="${escape(title)} preview" data-feed-component data-src="/components/preview/?component=${id}&theme=light&lang=${lang}&motion=off" loading="lazy" tabindex="-1" inert sandbox="allow-scripts" referrerpolicy="no-referrer"></iframe></div><div class="feed-caption"><h3>${escape(title)}</h3><span>Cult UI</span></div></a>`;
+  `<a class="feed-item" href="${lang === 'en' ? '/en' : ''}/components/?provider=cult-ui&component=${id}"><div class="feed-art feed-component" aria-hidden="true"><iframe title="${escape(title)} preview" data-feed-component data-src="/components/preview/?component=${id}&theme=light&lang=${lang}&motion=off" loading="lazy" tabindex="-1" inert sandbox="allow-scripts" referrerpolicy="no-referrer"></iframe></div><div class="feed-caption"><h3>${escape(title)}</h3><span>Cult UI</span></div></a>`;
 export function resourceFeed(lang) {
   const zh = lang === "zh";
 
@@ -58,8 +58,8 @@ export function resourceFeed(lang) {
       .join("")}</div></div>
     <div data-feed-tools>${resourceTools.map(tool=>`<section class="resource-tool-panel" role="tabpanel" id="feed-panel-${tool.id}" aria-labelledby="feed-tab-${tool.id}" hidden></section>`).join('')}</div>
     <div data-feed-controls></div>
-    <div class="feed-collection" role="tabpanel" id="feed-panel-design-md" aria-labelledby="feed-tab-design-md"><div class="feed-grid">${randomizeArchive(references).map((item) => referenceCard(item)).join("")}</div></div>
-    <div class="feed-collection" role="tabpanel" id="feed-panel-systems" aria-labelledby="feed-tab-systems" hidden><div class="feed-grid">${systems.map((id) => `<a class="feed-item" href="/components/?provider=systems&system=${id}"><div class="feed-art feed-system"><img src="/system-covers/${id}.png" alt="" loading="lazy" width="1500" height="938"></div><div class="feed-caption"><h3>${id === "happyhands" ? "HappyHands" : id.charAt(0).toUpperCase() + id.slice(1)}</h3></div></a>`).join("")}</div></div>
+    <div class="feed-collection" role="tabpanel" id="feed-panel-design-md" aria-labelledby="feed-tab-design-md"><div class="feed-grid">${randomizeArchive(references).map((item) => referenceCard(item, lang)).join("")}</div></div>
+    <div class="feed-collection" role="tabpanel" id="feed-panel-systems" aria-labelledby="feed-tab-systems" hidden><div class="feed-grid">${systems.map((id) => `<a class="feed-item" href="${lang === 'en' ? '/en' : ''}/components/?provider=systems&system=${id}"><div class="feed-art feed-system"><img src="/system-covers/${id}.png" alt="" loading="lazy" width="1500" height="938"></div><div class="feed-caption"><h3>${id === "happyhands" ? "HappyHands" : id.charAt(0).toUpperCase() + id.slice(1)}</h3></div></a>`).join("")}</div></div>
     <div class="feed-collection" role="tabpanel" id="feed-panel-cult-ui" aria-labelledby="feed-tab-cult-ui" hidden><div class="feed-grid">${components.map(([id, title]) => componentCard([id, title], lang)).join("")}</div></div>
   </section>`;
 }
@@ -286,7 +286,7 @@ export function setupResourceFeed(root, ResourceFeedControls, ResourceToolPanels
     ]),
   );
   const systemCard = (x) =>
-    `<a class="feed-item" href="/components/?provider=systems&system=${x.id}"><div class="feed-art feed-system"><img src="/system-covers/${x.id}.png" alt="" width="1500" height="938" loading="lazy"></div><div class="feed-caption"><h3>${x.name}</h3><span>${escape(x.description)}</span></div></a>`;
+    `<a class="feed-item" href="${lang === 'en' ? '/en' : ''}/components/?provider=systems&system=${x.id}"><div class="feed-art feed-system"><img src="/system-covers/${x.id}.png" alt="" width="1500" height="938" loading="lazy"></div><div class="feed-caption"><h3>${x.name}</h3><span>${escape(x.description)}</span></div></a>`;
   const matchingCategory = (x, id) =>
     !id ||
     (provider === "design-md"
@@ -363,7 +363,7 @@ export function setupResourceFeed(root, ResourceFeedControls, ResourceToolPanels
       .slice(0, state.limit)
       .map((x) =>
         provider === "design-md"
-          ? referenceCard(x)
+          ? referenceCard(x, lang)
           : provider === "systems"
             ? systemCard(x)
             : componentCard([x.id, x.title], lang),

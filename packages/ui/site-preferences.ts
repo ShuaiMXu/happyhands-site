@@ -37,7 +37,7 @@ export function savePreference(key: "pd-lang" | "hh-theme", value: string) {
 
 // Keep owned internal navigation on the explicit language route, including newly rendered cards.
 if(typeof document!=='undefined') document.addEventListener('click',event=>{
- const link=(event.target as Element)?.closest?.('a[href]');if(!link||link.hasAttribute('download'))return;
+ const link=(event.target as Element)?.closest?.('a[href]');if(!link||link.hasAttribute('download')||link.hasAttribute('hreflang'))return;
  const url=new URL(link.getAttribute('href')!,location.href);
  if(url.origin===location.origin && hasLanguageRoute(url.pathname) && readLanguage()==='en') link.setAttribute('href',languagePath(url.pathname,'en')+url.search+url.hash);
 },true);

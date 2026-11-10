@@ -77,3 +77,29 @@ test("old production host canonicalization stays scoped and precedes path aliase
     },
   );
 });
+
+test("Sodium and Glaze standalone aliases consolidate on their prerendered resource", () => {
+  for (const system of ["sodium", "glaze"]) {
+    for (const prefix of ["", "/en"]) for (const suffix of ["/", ""]) {
+      const source = `${prefix}/systems/${system}${suffix}`;
+      const rules = config.redirects.filter((rule) => rule.source === source);
+      assert.deepEqual(rules, [{
+        source,
+        destination: `${prefix}/components/?provider=systems&system=${system}`,
+        permanent: true,
+      }]);
+      const rule = rules[0];
+      // Keep selectors authoritative while allowing Vercel's normal incoming
+      // doc/tracking query forwarding. Verify actual forwarding on deployment.
+      const target = new URL(rule.destination, "https://happyhands.cc");
+      assert.equal(target.searchParams.get("provider"), "systems");
+      assert.equal(target.searchParams.get("system"), system);
+      assert.ok(!target.searchParams.has("doc"));
+      assert.ok(!rule.has && !rule.missing);
+      assert.ok(config.redirects.filter((r) => r.has?.some((c) => c.type === "host"))
+        .every((r) => config.redirects.indexOf(r) < config.redirects.indexOf(rule)));
+    }
+    // Exact aliases must not intercept system document and asset paths.
+    assert.ok(!config.redirects.some((rule) => rule.source.startsWith(`/systems/${system}/:`)));
+  }
+});

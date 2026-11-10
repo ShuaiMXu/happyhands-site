@@ -46,3 +46,33 @@ test('workflow routes are crawlable build inputs included in sitemap and alpha v
  }
  assert.ok(config.includes('workflowContent('));
 });
+
+test('AI slop guidance ties subjective impressions to evidence and product tasks in both languages',()=>{
+ for(const lang of ['zh','en']){
+  const body=workflowContent('review',lang);
+  const section=workflowCopy.review[lang].sections.find(([id])=>id==='ai-slop');
+  assert.ok(section,'One substantive review section, not a separate keyword page');
+  assert.equal(workflowCopy.review[lang].sections.filter(([id])=>id==='ai-slop').length,1);
+  assert.ok(body.includes('id="ai-slop"'));
+  assert.ok(body.includes('href="#ai-slop"'),'Generated table of contents includes new section');
+  for(const term of lang==='zh'?['AI slop','AI 味','设计审查','产品体验','不能证明','主次层级','加载、空状态和错误状态','注册并创建第一个项目','截图、源码与项目设计规则','由人接受或拒绝','不是已验证的用户研究']:['AI slop','product experience','not a quality standard or proof','hierarchy','loading, empty and error states','signing up and creating a first project','screenshots, source and project design rules','person accept or reject','not validated user research']){
+   assert.ok(section.join(' ').includes(term),term);
+  }
+  const design=workflowContent('design',lang),prefix=lang==='en'?'/en':'';
+  assert.ok(design.includes(`href="${prefix}${workflowPaths.review}#ai-slop"`));
+  const metadata=seoData(lang==='en'?'reviewEn':'review');
+  assert.ok(metadata.description.includes(lang==='zh'?'AI 味':'AI slop'));
+  for(const [id] of workflowCopy.review[lang].sections)assert.equal((body.match(new RegExp(`id="${id}"`,'g'))||[]).length,1,`Unique section ${id}`);
+ }
+});
+
+
+test('public workflows recommend available resources, not the retired theme editor',()=>{
+ for(const kind of ['review','design'])for(const lang of ['zh','en']){
+  const body=workflowContent(kind,lang),prefix=lang==='en'?'/en':'';
+  assert.doesNotMatch(body,/Theme Studio|主题工作室|\/apps\/studio\//);
+  assert.ok(body.includes(`href="${prefix}/components/"`));
+  assert.ok(body.includes(`href="${prefix}/guide/"`));
+  if(kind==='design')assert.ok(body.includes(lang==='zh'?'浏览参考或取得资源不会自动修改仓库':'Browsing or obtaining a resource does not modify your repository'));
+ }
+});

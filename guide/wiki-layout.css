@@ -1,12 +1,10 @@
 /* Shared guide/workflow geometry only; existing theme tokens and article copy remain authoritative. */
 .wiki-layout { --wiki-header-height: 72px; }
 .wiki-layout a,.wiki-layout a:hover,.wiki-layout a:focus { text-decoration: none; }
-.wiki-layout header.hh-site-header { background: transparent; border-bottom-color: transparent; }
+.wiki-layout header.hh-site-header { position:relative; background:transparent; border-bottom:0; }
 .wiki-layout header.hh-site-header.is-floating {
  position: fixed; inset: 0 0 auto; z-index: 40;
- background: color-mix(in srgb,var(--hh-bg-raised) 88%,transparent);
- border-bottom-color: var(--hh-line); backdrop-filter: blur(18px);
- box-shadow: 0 8px 24px color-mix(in srgb,var(--hh-ink) 8%,transparent);
+ background:transparent; border-bottom:0; backdrop-filter:none; box-shadow:none;
 
 }
 .wiki-layout header.hh-site-header.is-floating.is-entering { animation:wiki-header-enter 320ms ease-out both; }

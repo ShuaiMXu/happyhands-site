@@ -2,6 +2,10 @@
 
 These supplement the complete eleven-rule profile. Apply to owned controls and page chrome, not embedded third-party examples or a project's editable theme. A frozen page remains frozen; check shared-selector reach before modifying it.
 
+## Shared website header material
+
+The homepage, resource lists/details, setup, design-system chrome and reading pages use `header-material.css` and `setupHeaderMaterial`. Use the approved transparent lens with its existing prism parameters, transparent controls, 0.5px frames and 12px control corners. Do not reintroduce a painted header, white light bands, frosted fill or page-specific material overrides. Preserve the portal's separate Hero geometry and original mark treatment. Guide headers retain their reading/floating behavior while sharing the same material. Hidden embedded headers must not create duplicate lenses; cleanup must dispose observers and definitions. Keep text/controls outside the refracted backdrop, preserve focus, and retain reduced-transparency/forced-colors fallbacks. Check resting, hover, focus, language/theme changes, scrolling and normal phone dimensions across the shared consumers.
+
 ## Control geometry and states
 
 | Component | Contract | Verify |

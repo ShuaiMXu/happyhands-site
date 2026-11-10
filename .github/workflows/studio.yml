@@ -22,7 +22,7 @@ jobs:
       - run: npm run test:components
       - run: npm run test:design-resources
       - run: node --test tests/hosted-registry.test.mjs
-      - run: node --import tsx --test tests/portal-feedback.test.mjs tests/studio-retirement.test.mjs
+      - run: node --import tsx --test tests/portal-feedback.test.mjs tests/studio-retirement.test.mjs tests/header-material.test.mjs
       - run: npm run test:archive
       - run: npm run test:wiki
       - run: npm run build

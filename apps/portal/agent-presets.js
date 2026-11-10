@@ -4,7 +4,7 @@ export const agentPresets = [
   {id:'cursor',name:'Cursor',logo:'cursor.png',url:'https://cursor.com/docs'},
   {id:'kimi',name:'Kimi Code',logo:'kimi.png',url:'https://www.kimi.com/code/docs/'},
   {id:'workbuddy',name:'WorkBuddy',logo:'workbuddy.svg',url:'https://www.workbuddy.cn/'},
-  {id:'dsh',name:'DeepSeek Harness (DSH)',url:'https://github.com/ShuaiMXu/happyhands/blob/main/docs/dsh.md'}
+  {id:'dsh',name:'DeepSeek Harness (DSH)',logo:'dsh.png',url:'https://github.com/ShuaiMXu/happyhands/blob/main/docs/dsh.md'}
 ];
 export function setupAgent(search='',saved='codex'){
  const requested=new URLSearchParams(search).get('agent');

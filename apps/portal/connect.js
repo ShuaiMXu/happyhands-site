@@ -1,13 +1,14 @@
-import {agentPresets,harnessPrompt} from './agent-presets.js';
+import {agentPresets,harnessPrompt,setupAgent} from './agent-presets.js';
 import {localWorkbenchMarkup,setupLocalWorkbench} from './local-workbench.js';
 import {iconMarkup} from '../../packages/ui/icons.ts';
 const guide = 'https://github.com/ShuaiMXu/happyhands/blob/main/docs/harness.md';
-let selectedAgent = 'codex';
-try {const saved=sessionStorage.getItem('hh-setup-agent');if(agentPresets.some(p=>p.id===saved))selectedAgent=saved;}catch{}
+let savedAgent = 'codex';
+try {savedAgent=sessionStorage.getItem('hh-setup-agent')||'codex';}catch{}
+let selectedAgent=setupAgent(typeof location==='undefined'?'':location.search,savedAgent);
 export function heroConnectMarkup(lang) {
   const zh = lang === 'zh';
-  const shortNames = {codex:'Codex', 'claude-code':'Claude Code', cursor:'Cursor', kimi:'Kimi', workbuddy:'WorkBuddy'};
-  return `<div class="hero-agent-choices" role="group" aria-label="${zh ? '选择 AI 工具' : 'Choose your AI tool'}">${agentPresets.map(agent => `<button type="button" data-agent="${agent.id}" aria-label="${agent.name}" aria-pressed="${agent.id === selectedAgent}"><img src="/brand/agents/${agent.logo}" alt="" width="20" height="20"><span>${shortNames[agent.id]}</span></button>`).join('')}</div>`;
+  const shortNames = {codex:'Codex', 'claude-code':'Claude Code', cursor:'Cursor', kimi:'Kimi', workbuddy:'WorkBuddy',dsh:'DSH'};
+  return `<div class="hero-agent-choices" role="group" aria-label="${zh ? '选择 AI 工具' : 'Choose your AI tool'}">${agentPresets.map(agent => `<button type="button" data-agent="${agent.id}" aria-label="${agent.name}" aria-pressed="${agent.id === selectedAgent}">${agent.logo?`<img src="/brand/agents/${agent.logo}" alt="" width="20" height="20">`:''}<span>${shortNames[agent.id]}</span></button>`).join('')}</div>`;
 }
 
 export function connectMarkup(lang) {
@@ -28,9 +29,9 @@ export function setupConnect(lang) {
     document.getElementById('copy-agent').dataset.copy = prompt;
     document.querySelectorAll('[data-agent]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.agent === selectedAgent)));
     const status = document.getElementById('agent-status');
-    if (status) status.textContent = agent.adapter ? (zh ? '已有执行适配器；使用前检查本机安装与登录。Claude Code 完整执行流程仍需验证。' : 'Executor registered; verify local installation and sign-in. The full Claude Code execution flow still needs verification.') : (zh ? '通过此工具操作 Harness。修改阶段需选择已注册的执行器；此工具的专用执行适配器尚未接通。' : 'Operate Harness through this tool. Choose a registered executor for edits; a dedicated executor for this tool is not yet connected.');
+    if (status) status.textContent = selectedAgent==='dsh' ? (zh ? '在 DSH 对话中操作 HappyHands，复用同一份审阅记录。内置诊断与视觉复核仍需 Codex；修改执行器由你选择。DSH 专用执行适配器尚未接通。' : 'Use your DSH conversation to operate HappyHands and retain one review record. Built-in diagnosis and visual review still need Codex; choose the implementation executor. A dedicated DSH executor is not connected yet.') : agent.adapter ? (zh ? '已有执行适配器；使用前检查本机安装与登录。Claude Code 完整执行流程仍需验证。' : 'Executor registered; verify local installation and sign-in. The full Claude Code execution flow still needs verification.') : (zh ? '通过此工具操作 Harness。修改阶段需选择已注册的执行器；此工具的专用执行适配器尚未接通。' : 'Operate Harness through this tool. Choose a registered executor for edits; a dedicated executor for this tool is not yet connected.');
     const docs = document.getElementById('agent-tool-docs');
-    if (docs) docs.href = agent.url;
+    if (docs) {docs.href = selectedAgent==='dsh' ? `${zh?'/guide/':'/en/guide/'}#dsh` : agent.url;docs.innerHTML=(selectedAgent==='dsh'?(zh?'DSH 调用流程':'DSH workflow'):(zh?'工具官方指南':'Official tool guide'))+' '+iconMarkup('external');}
   };
   document.querySelectorAll('[data-agent]').forEach(button => button.addEventListener('click', () => { selectedAgent = button.dataset.agent; try{sessionStorage.setItem('hh-setup-agent',selectedAgent);}catch{} apply(); }));
   apply();

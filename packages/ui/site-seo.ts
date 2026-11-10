@@ -27,7 +27,7 @@ export const guideFaq = {
  zh:[
   ["HappyHands 是什么？","HappyHands 是面向 AI 编程项目的本地设计审阅工作台。它把页面截图、项目设计来源、问题、修改计划和复核记录放在同一流程中，最终由人决定接受或拒绝修改。"],
   ["官网可以直接输入网址并自动改代码吗？","官网提供接入提示词和设计资源。本地工作台与 Harness 执行审阅流程；提供网址后，编码工具仍需核对预览和采集条件。代码修改需要可访问的本地仓库、确认的范围与执行适配器。"],
-  ["支持哪些编码工具？","Codex CLI 可用于模型诊断、截图复核与代码执行。Claude Code 有代码执行适配器，完整端到端验证仍在进行。Cursor、Kimi Code、WorkBuddy 在具备本地浏览器、终端及仓库访问能力时可操作 Harness，目前没有各自的专用执行适配器。"],
+  ["支持哪些编码工具？","Codex CLI 可用于模型诊断、截图复核与代码执行。Claude Code 有代码执行适配器，完整端到端验证仍在进行。Cursor、Kimi Code、WorkBuddy、DSH 在具备本地浏览器、终端及仓库访问能力时可操作 Harness，目前没有各自的专用执行适配器。"],
   ["如何使用现有设计规范？","提供项目自己的 DESIGN.md、样式 token 和组件源码。提取到的设计规则先作为待确认候选，不能自动成为已批准规范。采用前需在项目中确认适用范围。"],
   ["源码是否开源？使用是否产生费用？","自有 HappyHands 核心源码采用 MIT 许可。第三方代码、素材与依赖保留各自许可，tldraw 的生产使用有独立要求。你配置的模型服务可能另行计费。"],
   ["数据会发送到哪里？","运行记录保存在本地 .harness/。模型辅助步骤通过配置的 CLI 将选中的源码上下文和截图发送给模型服务，并非所有计算都在本机完成。分享导出记录前应检查敏感信息。"],
@@ -36,7 +36,7 @@ export const guideFaq = {
  en:[
   ["What is HappyHands?","HappyHands is a local design review workbench for products built with coding agents. It connects screenshots, project design sources, findings, change plans and review records. A person makes the final accept or reject decision."],
   ["Can I enter a URL on the website and have code fixed automatically?","The website provides setup prompts and design resources. The local workbench and Harness run the review workflow. Your coding tool must check preview and capture requirements; code changes require an accessible local repository, confirmed scope and an implementation adapter."],
-  ["Which coding tools can I use?","Codex CLI supports model diagnosis, screenshot-aware review and implementation. Claude Code has an implementation adapter; complete end-to-end validation remains open. Cursor, Kimi Code and WorkBuddy can operate the Harness with local browser, terminal and repository access, but do not have dedicated implementation adapters here."],
+  ["Which coding tools can I use?","Codex CLI supports model diagnosis, screenshot-aware review and implementation. Claude Code has an implementation adapter; complete end-to-end validation remains open. Cursor, Kimi Code, WorkBuddy and DSH can operate the Harness with local browser, terminal and repository access, but do not have dedicated implementation adapters here."],
   ["How do I use my existing design system?","Provide your project’s DESIGN.md, style tokens and component source. Extracted rules start as candidates for review, not approved constraints. Confirm their applicable scope in your project before adoption."],
   ["Is the source open, and does using it cost money?","Original HappyHands core code is MIT licensed. Third-party code, assets and dependencies retain their own terms, including tldraw’s separate production-use requirements. Your configured model provider may charge separately."],
   ["Where does my data go?","Run records stay in the local .harness/ directory. Model-assisted steps use your configured CLI to send selected source context and screenshots to the model service; processing is not entirely local. Check exports for sensitive information before sharing."],

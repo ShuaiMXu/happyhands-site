@@ -9,3 +9,5 @@
 Logo 来自工具官方网站的图标及 OpenAI 官方 GitHub 组织头像，URL 记录在 `public/brand/agents/sources.json`；只用于标识相应第三方工具，不表示合作背书。OpenAI 使用组织标识，并非独立 Codex 产品图标。
 
 验证：生产构建通过；Chrome 390/1280px × 深浅色 × 中英文，逐项检查五种工具的选中状态、图片加载、预设切换及剪贴板内容；页面无横向溢出，项目交接默认收起。首次启动命令的中英文复制与手机布局已验证。未部署。
+
+2026-11-10：新增 DeepSeek Harness（DSH）外部操作入口。首页和接入详情共用预设，指南链接可直接选中 DSH。内置诊断/视觉复核仍使用 Codex；未注册 DSH 修改执行器。本机 headless 试运行因 MISSING_CREDENTIAL 停止，桌面登录默认不被 headless 复用，未宣称完整验证通过。

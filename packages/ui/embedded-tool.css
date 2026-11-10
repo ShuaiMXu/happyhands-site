@@ -1,7 +1,7 @@
 html[data-embedded-tool] header.hh-site-header { display:none; }
 html[data-embedded-tool] .catalog-resource-navigation { display:none; }
 html[data-embedded-tool] .setup-start > a { display:none; }
-html[data-embedded-tool] .setup-page { padding-top:0; }
+html[data-embedded-tool] .setup-page { padding-top:0; padding-inline:0; }
 html[data-embedded-tool] .studio-shell { padding-top:0; }
 
 /* Embedded tools share the surrounding page canvas without another painted layer. */

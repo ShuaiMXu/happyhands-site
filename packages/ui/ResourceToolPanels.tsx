@@ -17,11 +17,13 @@ function ToolPanel({tool, active, lang, tabPrefix}: Props & {tool: typeof resour
   }, [visited]);
   useEffect(() => { if (visible) resume(frame.current); }, [visible, visited]);
   const title = lang === 'zh' ? tool.zh : tool.en;
+  const agent=typeof location==='undefined'?null:new URLSearchParams(location.search).get('agent');
+  const source=`${tool.href}?embedded=1${tool.id==='setup'&&agent?'&agent='+encodeURIComponent(agent):''}`;
   return <section hidden={!visible} className="resource-tool-panel" aria-label={title}
     role={tabPrefix ? 'tabpanel' : undefined}
     id={tabPrefix ? `${tabPrefix}-panel-${tool.id}` : undefined}
     aria-labelledby={tabPrefix ? `${tabPrefix}-tab-${tool.id}` : undefined}>
-    {visited && <HistorySafeFrame ref={frame} title={title} src={`${tool.href}?embedded=1`}
+    {visited && <HistorySafeFrame ref={frame} title={title} src={source}
       onLoad={() => { if (visible) resume(frame.current); }} />}
   </section>;
 }

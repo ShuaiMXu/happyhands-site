@@ -3,12 +3,17 @@ export const agentPresets = [
   {id:'claude-code',name:'Claude Code',logo:'claude-code.png',adapter:'claude-code',url:'https://code.claude.com/docs/'},
   {id:'cursor',name:'Cursor',logo:'cursor.png',url:'https://cursor.com/docs'},
   {id:'kimi',name:'Kimi Code',logo:'kimi.png',url:'https://www.kimi.com/code/docs/'},
-  {id:'workbuddy',name:'WorkBuddy',logo:'workbuddy.svg',url:'https://www.workbuddy.cn/'}
+  {id:'workbuddy',name:'WorkBuddy',logo:'workbuddy.svg',url:'https://www.workbuddy.cn/'},
+  {id:'dsh',name:'DeepSeek Harness (DSH)',url:'https://github.com/ShuaiMXu/happyhands/blob/main/docs/dsh.md'}
 ];
+export function setupAgent(search='',saved='codex'){
+ const requested=new URLSearchParams(search).get('agent');
+ return [requested,saved,'codex'].find(id=>agentPresets.some(agent=>agent.id===id));
+}
 export function harnessPrompt(id,lang){
  const agent=agentPresets.find(item=>item.id===id);
  if(!agent)throw Error('Unknown tool');
- const guide='https://github.com/ShuaiMXu/happyhands/blob/main/docs/harness.md';
+ const guide=`https://github.com/ShuaiMXu/happyhands/blob/main/docs/${id==='dsh'?(lang==='zh'?'dsh.zh-CN.md':'dsh.md'):'harness.md'}`;
  return lang==='zh' ? `请在 ${agent.name} 中帮助我按 HappyHands Harness 流程审阅产品。先阅读 ${guide}，检查当前工程的命令与能力，不编造命令。
 1. 先询问我要诊断的网站地址与主要用户任务。检查本机浏览器、终端和工程访问能力；缺少能力时说明需要的设置。复用已有 happyhands 工程，否则指导获取工程并安装依赖。
 2. 通过 Harness 创建审阅记录、采集页面截图并诊断。先尝试网址诊断，按实际命令要求补充最少配置；如当前版本必须提供仓库，请解释限制，不假装已完成在线诊断。主动提取页面的设计语言、组件状态和一致性问题，区分观察与推断。

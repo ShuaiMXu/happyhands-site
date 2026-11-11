@@ -3,6 +3,7 @@ import { resolve, dirname, join, relative, isAbsolute } from 'node:path';
 import { existsSync, statSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import kageHandler from './api/kage.mjs';
+import githubStarsHandler from './api/github-stars.mjs';
 import { renderPortalHtml } from './apps/portal/render-content.js';
 import { seoPages, seoData, enhanceSeoHtml } from './packages/ui/site-seo.ts';
 import { nonprofitContent } from './workflows/nonprofit.ts';
@@ -30,6 +31,13 @@ function mirrorIndex(urlPath) {
   return null;
 }
 
+function serveGitHubStars(server) {
+  server.middlewares.use((request, response, next) => {
+    if (request.url?.split('?', 1)[0] !== '/api/github-stars') return next();
+    return githubStarsHandler(request, response).catch(next);
+  });
+}
+
 export default defineConfig({
   server: { cors: { origin: [/^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/, 'null'] }, port: 4173, strictPort: true, fs: { strict: true } },
   plugins: [{name:'archived-design-system-source',enforce:'pre',resolveId(id){
@@ -54,7 +62,7 @@ export default defineConfig({
       const data=seoData(key);
       return html.replace('<div id="root"></div>',`<div id="root"><noscript><main><h1>${data.title}</h1><p>${data.description}</p><p>交互预览需要启用 JavaScript。<a href="/guide/">阅读使用指南</a> / <a href="/en/guide/">Read the English guide</a></p><nav aria-label="设计资源"><a href="/systems/happyhands/">HappyHands</a> / <a href="/systems/quartz/">Quartz</a> / <a href="/systems/lime/">Lime</a> / <a href="/components/">组件与参考</a></nav></main></noscript></div>`);
     }
-  },{name:'kage-reference-search',configureServer(server){server.middlewares.use('/api/kage',kageHandler)},configurePreviewServer(server){server.middlewares.use('/api/kage',kageHandler)}},{
+  },{name:'github-stars',configureServer:serveGitHubStars,configurePreviewServer:serveGitHubStars},{name:'kage-reference-search',configureServer(server){server.middlewares.use('/api/kage',kageHandler)},configurePreviewServer(server){server.middlewares.use('/api/kage',kageHandler)}},{
     name: 'skillry-mirror-dir-index',
     configureServer(server) {
       server.middlewares.use((req, res, next) => {

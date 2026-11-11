@@ -18,9 +18,12 @@ export async function readGitHubStars(fetcher = fetch) {
 export default async function handler(request, response) {
   if (request.method !== 'GET') {
     response.setHeader('Allow', 'GET');
-    return response.status(405).end();
+    response.statusCode = 405;
+    response.end();
+    return;
   }
   const result = await readGitHubStars();
   response.setHeader('Cache-Control', 'public, max-age=300, s-maxage=3600, stale-while-revalidate=86400');
-  return response.status(200).json(result);
+  response.setHeader('Content-Type', 'application/json; charset=utf-8');
+  response.end(JSON.stringify(result));
 }

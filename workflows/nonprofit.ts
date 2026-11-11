@@ -41,8 +41,8 @@ export const nonprofitCopy={
       [
         "workflow",
         "在 HappyHands 中做有限范围修复",
-        "将自己的仓库、运行中的预览和任务说明接入本地工作台，确认采集范围并提供项目设计规则。内置模型诊断和截图复核需要配置并登录 Codex CLI。对可复现且有依据的问题确认修复范围，修改后查看同一任务的前后记录，再由人接受或拒绝；提交草稿 PR 是单独操作，不会自动合并或部署。",
-        "当前为 Local Web Alpha。运行记录位于 .harness/，选定的源码与截图会经配置的 CLI 发送给模型服务，外部服务可能收费。采集前移除真实捐赠人、志愿者、受助者资料与密钥。这套方法不保证捐赠或报名增长，也不替代支付安全、隐私与无障碍审计。"
+        "通过轻量 Skill 或可选本地工作台接入自己的仓库、运行中的预览和任务说明，确认采集范围并提供项目设计规则。内置模型诊断和截图复核需要配置并登录 Codex CLI。对可复现且有依据的问题确认修复范围，修改后查看同一任务的前后记录，再由人接受或拒绝；提交草稿 PR 是单独操作，不会自动合并或部署。",
+        "当前为 Local Web Alpha。轻量 Skill 的运行记录默认位于 ~/.happyhands/runs，源码 CLI 与工作台默认使用 .harness/；可显式指定其他输出目录。选定的源码与截图会经配置的 CLI 发送给模型服务，外部服务可能收费。采集前移除真实捐赠人、志愿者、受助者资料与密钥。这套方法不保证捐赠或报名增长，也不替代支付安全、隐私与无障碍审计。"
       ]
     ]
   },
@@ -85,8 +85,8 @@ export const nonprofitCopy={
       [
         "workflow",
         "Use HappyHands for a scoped UI repair",
-        "Connect your repository, running preview and task to the local workbench. Confirm capture scope and supply project design rules. Built-in model diagnosis and screenshot review require a configured, signed-in Codex CLI. Scope a reproducible, supported issue, compare the same task after repair and let a person accept or reject it. Submitting a draft PR is a separate action; HappyHands does not merge or deploy it.",
-        "This is a Local Web Alpha. Records live in .harness/; selected source and screenshots are sent through your configured CLI to the model service, which may charge separately. Remove real donor, volunteer and beneficiary data and secrets before capture. This method does not guarantee donation or signup growth, or replace payment-security, privacy or accessibility audits."
+        "Use the lightweight Skill or optional local workbench with your repository, running preview and task. Confirm capture scope and supply project design rules. Built-in model diagnosis and screenshot review require a configured, signed-in Codex CLI. Scope a reproducible, supported issue, compare the same task after repair and let a person accept or reject it. Submitting a draft PR is a separate action; HappyHands does not merge or deploy it.",
+        "This is a Local Web Alpha. Lightweight runs default to ~/.happyhands/runs; the source CLI and workbench default to .harness/. An explicit output path can override these locations; selected source and screenshots are sent through your configured CLI to the model service, which may charge separately. Remove real donor, volunteer and beneficiary data and secrets before capture. This method does not guarantee donation or signup growth, or replace payment-security, privacy or accessibility audits."
       ]
     ]
   }

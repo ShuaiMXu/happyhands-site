@@ -162,7 +162,7 @@ test('both homepage URLs have complete language-specific static content and reci
   assert.ok(html.includes(`<html lang="${lang==='en'?'en':'zh-CN'}">`));
   assert.equal((html.match(/<h1\b/g)||[]).length,1);
   assert.ok(html.includes(lang==='en'?'Make your product ':'让你的产品，'));
-  assert.ok(html.includes(lang==='en'?'open-source local AI-assisted UI review workbench':'开源的本地 AI 界面审阅工作台'));
+  assert.ok(html.includes(lang==='en'?'open-source local AI-assisted UI review tool':'开源的本地 AI 界面审阅工具'));
   assert.ok(html.includes(lang==='en'?'A person accepts or rejects':'由人决定接受或拒绝'));
   assert.ok(html.includes(`href="${lang==='en'?'/en':''}/guide/"`));
   assert.ok(html.includes(`href="${lang==='en'?'/en':''}/ai-ui-review/#ai-slop"`));
@@ -216,4 +216,38 @@ test('homepage language navigation preserves active state and current history la
  assert.ok(source.includes('ResourceToolPanels,previous'));
  assert.ok(source.includes("document.querySelector('#lang-switch a')?.focus({preventScroll:true})"));
  assert.ok(source.includes("window.scrollTo({top:y,behavior:'instant'})"));
+});
+
+test('Alpha.2 discovery distinguishes the lightweight Skill from the optional workbench',async()=>{
+ const install='npx --yes --package=https://github.com/ShuaiMXu/happyhands/releases/download/v0.1.0-alpha.2/happyhands-lite-0.1.0-alpha.2.tgz happyhands install';
+ const {nonprofitContent}=await import('../workflows/nonprofit.ts');
+ for(const lang of ['zh','en']){
+  const guide=guideContent(lang),prefix=lang==='en'?'/en':'';
+  const setup=guide.match(/<section id="setup">([\s\S]*?)<\/section>/)?.[1];
+  const workbench=guide.match(/<section id="workbench">([\s\S]*?)<\/section>/)?.[1];
+  assert.ok(setup?.includes(install),'Pinned release command is crawlable without JavaScript');
+  assert.ok(setup.includes('~/.codex/skills/happyhands')&&setup.includes('CODEX_HOME'));
+  assert.ok(setup.includes('$happyhands')&&setup.includes('install --agent claude-code'));
+  assert.ok(setup.includes(lang==='zh'?'不会覆盖已有 Skill':'refusing to overwrite an existing Skill'));
+  assert.ok(setup.includes(lang==='zh'?'完整执行闭环仍未验证':'full execution loop remains unverified'));
+  assert.ok(!setup.includes('pnpm workbench'),'Lightweight entry does not require the workbench');
+  assert.ok(workbench?.includes('pnpm workbench'));
+  assert.ok(workbench.includes(lang==='zh'?'可选':'Optional'));
+  assert.ok(guide.includes('href="#setup"')&&guide.includes('href="#workbench"'));
+  for(const body of [guide,workflowContent('review',lang),workflowContent('design',lang),nonprofitContent(lang)]){
+   assert.ok(body.includes(lang==='zh'?'轻量 Skill':'lightweight Skill'));
+   assert.ok(body.includes('~/.happyhands/runs')&&body.includes('.harness/'),'Both storage defaults are explicit');
+   assert.ok(body.includes('Codex CLI')&&body.includes('Local Web Alpha'));
+  }
+  const app=seoData(lang==='en'?'portalEn':'portal').graph['@graph'].find(x=>x['@type']==='SoftwareApplication');
+  assert.equal(app.operatingSystem,undefined,'Do not imply unverified cross-platform coverage');
+  const homepage=portalContent(lang);
+  assert.ok(homepage.includes(lang==='zh'?'轻量 Skill 或可选工作台':'lightweight Skill or optional workbench'));
+  assert.ok(homepage.includes(`href="${prefix}/guide/"`));
+  const faq=guideFaq[lang].map(row=>row.join(' ')).join(' ');
+  assert.ok(faq.includes('~/.happyhands/runs')&&faq.includes('.harness/'));
+  assert.ok(faq.includes(lang==='zh'?'轻量 Skill':'lightweight Skill'));
+ }
+ const facts=await read('public/llms.txt');
+ for(const term of ['Alpha.2','docs/lightweight.md','releases/tag/v0.1.0-alpha.2','~/.happyhands/runs','.harness/','optional local workbench','not a verified repair'])assert.ok(facts.includes(term),term);
 });

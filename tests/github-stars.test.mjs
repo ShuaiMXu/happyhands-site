@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readGitHubStars } from '../api/github-stars.mjs';
+import { readGitHubStars, readPreviewGitHubStars } from '../api/github-stars.mjs';
 import { githubStarsSnapshot } from '../packages/ui/github-stars-snapshot.js';
 import {readFile} from 'node:fs/promises';
 
@@ -36,4 +36,25 @@ test('browser keeps a visible snapshot when same-origin refresh fails', async ()
     assert.match(link.title,/更新于/);
     assert.match(attributes['aria-label'],/stars/);
   } finally {globalThis.fetch=previous}
+});
+
+test('preview retries GitHub when the production cache is stale and retains a snapshot if both fail', async () => {
+  for (const gitHubAvailable of [true, false]) {
+    const requests = [];
+    const result = await readPreviewGitHubStars(async url => {
+      requests.push(url);
+      if (requests.length === 1) {
+        return new Response(JSON.stringify({ ...githubStarsSnapshot, stale: true }));
+      }
+      return gitHubAvailable
+        ? new Response(JSON.stringify({ stargazers_count: 401 }))
+        : new Response(null, { status: 403 });
+    });
+    assert.deepEqual(requests, [
+      'https://happyhands.cc/api/github-stars',
+      'https://api.github.com/repos/ShuaiMXu/happyhands',
+    ]);
+    assert.equal(result.count, gitHubAvailable ? 401 : githubStarsSnapshot.count);
+    assert.equal(result.stale, !gitHubAvailable);
+  }
 });

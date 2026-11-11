@@ -15,8 +15,11 @@ test('mirror directory middleware rejects decoded traversal and malformed encodi
 test('Vite dev and preview serve the GitHub count as JSON at the exact API path', async t => {
   const originalFetch = globalThis.fetch;
   globalThis.fetch = async url => {
-    assert.equal(url, 'https://api.github.com/repos/ShuaiMXu/happyhands');
-    return new Response(JSON.stringify({ stargazers_count: 432 }));
+    assert.equal(url, 'https://happyhands.cc/api/github-stars');
+    return new Response(JSON.stringify({
+      repository: 'https://github.com/ShuaiMXu/happyhands', count: 432,
+      checkedAt: '2026-11-11T08:00:00Z', stale: false,
+    }));
   };
   t.after(() => { globalThis.fetch = originalFetch; });
 

@@ -3,7 +3,7 @@ import { resolve, dirname, join, relative, isAbsolute } from 'node:path';
 import { existsSync, statSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import kageHandler from './api/kage.mjs';
-import githubStarsHandler from './api/github-stars.mjs';
+import { createGitHubStarsHandler, readPreviewGitHubStars } from './api/github-stars.mjs';
 import { renderPortalHtml } from './apps/portal/render-content.js';
 import { seoPages, seoData, enhanceSeoHtml } from './packages/ui/site-seo.ts';
 import { nonprofitContent } from './workflows/nonprofit.ts';
@@ -31,10 +31,12 @@ function mirrorIndex(urlPath) {
   return null;
 }
 
+const previewGitHubStars = createGitHubStarsHandler(readPreviewGitHubStars);
+
 function serveGitHubStars(server) {
   server.middlewares.use((request, response, next) => {
     if (request.url?.split('?', 1)[0] !== '/api/github-stars') return next();
-    return githubStarsHandler(request, response).catch(next);
+    return previewGitHubStars(request, response).catch(next);
   });
 }
 

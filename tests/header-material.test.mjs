@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {setupHeaderMaterial} from '../packages/ui/header-material.js';
 
-function browserFixture(t){
+function browserFixture(t,vendor=""){
  class Element {
   constructor(tag='header'){this.tag=tag;this.children=[];this.attrs={};this.dataset={};this.width=1280;this.height=64;this.className='';this.values=new Map();this.style={setProperty:(k,v)=>this.values.set(k,v),removeProperty:k=>this.values.delete(k)};this.classList={add:n=>this.className+=' '+n,contains:n=>this.className.split(' ').includes(n)};}
   closest(){return this.embedded?{}:null;}
@@ -14,6 +14,7 @@ function browserFixture(t){
  }
  const body=new Element('body'),root=new Element('html'),frames=new Map(),observers=[],maps=[];let next=0;
  const globals={
+  navigator:{vendor},
   document:{body,documentElement:root,createElementNS:(_,tag)=>new Element(tag),createElement:tag=>tag==='canvas'?{getContext:()=>({createImageData:(width,height)=>({width,height,data:new Uint8ClampedArray(width*height*4)}),putImageData:map=>maps.push(map)}),toDataURL:()=>`data:image/png;base64,fixture-${next}`} :new Element(tag)},
   getComputedStyle:node=>({position:node.position||'sticky',borderRadius:'0'}),
   requestAnimationFrame:callback=>{frames.set(++next,callback);return next;},cancelAnimationFrame:id=>frames.delete(id),
@@ -77,6 +78,22 @@ test('lens neutralizes both fixed side edges while preserving center refraction'
    assert.ok(channels(center,0)[1]<75,'the center of the upper bevel still refracts');
    assert.ok(channels(center,map.height-1)[1]>180,'the center of the lower bevel still refracts');
   }
+ } finally {
+  dispose();
+ }
+});
+
+test('Safari uses clear CSS glass without generating an unsupported displacement map',t=>{
+ const f=browserFixture(t,'Apple Computer, Inc.');
+ const header=new f.Element();
+ header.className='portal-glass-header';
+ const dispose=setupHeaderMaterial({targets:[header]});
+ try {
+  f.flush();
+  assert.ok(Object.hasOwn(header.children[0].dataset,'clearGlass'));
+  assert.equal(Object.hasOwn(header.children[0].dataset,'refraction'),false);
+  assert.equal(f.maps.length,0);
+  assert.equal(f.root.values.get('--portal-header-height'),'64px');
  } finally {
   dispose();
  }

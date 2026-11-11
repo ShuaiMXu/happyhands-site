@@ -55,6 +55,8 @@ function lensMap(width, height, radius) {
 export function setupHeaderMaterial({targets = document.querySelectorAll("header.hh-glass-header"), heroMark = false} = {}) {
   const headers = [...targets].filter(target => !mountedHeaders.has(target) && !target.closest('html[data-embedded-tool],.system-embedded'));
   if (!headers.length) return () => {};
+  // Safari accepts the SVG backdrop syntax but does not render this displacement chain.
+  const useClearGlass = globalThis.navigator?.vendor === 'Apple Computer, Inc.';
   const hasPortal = headers.some(target => target.classList.contains('portal-glass-header'));
   const hasSticky = headers.some(target => !target.classList.contains('portal-glass-header') && getComputedStyle(target).position === 'sticky');
   const defs = document.createElementNS(svgNS, "svg");
@@ -75,6 +77,7 @@ export function setupHeaderMaterial({targets = document.querySelectorAll("header
     const surface = document.createElement("div");
     surface.className = "liquid-glass-surface";
     surface.setAttribute("aria-hidden", "true");
+    if (useClearGlass) surface.dataset.clearGlass = "";
     target.prepend(surface);
     const filter = document.createElementNS(svgNS, "filter");
     filter.id = `hh-glass-lens-${nextLensId++}`;
@@ -126,6 +129,7 @@ export function setupHeaderMaterial({targets = document.querySelectorAll("header
       sizeKey = key;
       if (target.classList.contains('portal-glass-header')) document.documentElement.style.setProperty("--portal-header-height", `${height}px`);
       else if (getComputedStyle(target).position === 'sticky') document.documentElement.style.setProperty("--hh-sticky-header-offset", `${height + 16}px`);
+      if (useClearGlass) return;
       const map = lensMap(width, height, radius);
       if (!map) return;
       image.setAttribute("href", map);

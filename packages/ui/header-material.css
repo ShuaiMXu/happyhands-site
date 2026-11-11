@@ -19,9 +19,9 @@ header.hh-glass-header > .liquid-glass-surface {
  border-radius:inherit;
  background:transparent;
  box-shadow:none;
- /* Taper the filtered backdrop at all four edges to hide its sampling boundary. */
+ /* The side clearance covers the largest RGB sampling offset before the lens fades in. */
  --glass-vertical-mask:linear-gradient(transparent,#000 8px,#000 calc(100% - 8px),transparent);
- --glass-horizontal-mask:linear-gradient(90deg,transparent,#000 28px,#000 calc(100% - 28px),transparent);
+ --glass-horizontal-mask:linear-gradient(90deg,transparent 44px,#000 96px,#000 calc(100% - 96px),transparent calc(100% - 44px));
  -webkit-mask-image:var(--glass-vertical-mask),var(--glass-horizontal-mask);
  -webkit-mask-composite:source-in;
  mask-image:var(--glass-vertical-mask),var(--glass-horizontal-mask);

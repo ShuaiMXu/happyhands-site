@@ -1,0 +1,24 @@
+tests/header-material.test.mjs
+  s_c3a809bd8a1ec1::t_6dc2ba040813ad 15,17,26,60-79
+  s_c3a809bd8a1ec1::t_70cb47880e051f 80-83
+packages/ui/header-material.css
+  s_c3a809bd8a1ec1::t_6dc2ba040813ad 22-28
+packages/ui/header-material.js
+  s_c3a809bd8a1ec1::t_6dc2ba040813ad 13,41-43,45-46
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "09f1de8bab0577dc919f1b8d6272a5d919ff868d",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import {dirname} from 'node:path';
 import {resourceSeoData,systemSeo} from '../packages/ui/resource-seo.ts';
-import {seoHead} from '../packages/ui/site-seo.ts';
+import {seoData,seoHead} from '../packages/ui/site-seo.ts';
 import * as zh from '../apps/portal/content.zh.js';
 import * as en from '../apps/portal/content.en.js';
 function translate(html,a,b){
@@ -10,9 +10,16 @@ function translate(html,a,b){
  return html;
 }
 function head(html,key){return html.replace(/<html[^>]*>/,'<html lang="en">').replace(/<title>[\s\S]*?<\/title>/gi,'').replace(/<meta\b[^>]*(?:name|property)="(?:description|og:[^"]+|twitter:[^"]+)"[^>]*>/gi,'').replace(/<link[^>]*(?:rel="canonical"|hreflang=)[^>]*>/gi,'').replace(/<script[^>]*type="application\/ld\+json"[^>]*>[\s\S]*?<\/script>/gi,'').replace('</head>',seoHead(key,'en')+'</head>');}
+const escapeHtml=text=>text.replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+function englishSystemFallback(key){
+ const {title,description}=seoData(key,'en');
+ return `<noscript><main><h1>${escapeHtml(title)}</h1><p>${escapeHtml(description)}</p><p>Interactive previews require JavaScript. <a href="/en/guide/">Read the guide</a></p><nav aria-label="Design resources"><a href="/en/systems/happyhands/">HappyHands</a> / <a href="/en/systems/quartz/">Quartz</a> / <a href="/en/systems/lime/">Lime</a> / <a href="/en/components/">Components and references</a></nav></main></noscript>`;
+}
 for(const [key,path]of [['quartz','systems/quartz'],['lime','systems/lime'],['components','resource-pages/en']]){
  let html=await readFile(`dist/${path}/index.html`,'utf8');html=head(translate(html,zh,en),key);
  html=html.replaceAll('设计资源 / Design resources','Design resources').replaceAll('设计系统','Design systems').replaceAll('组件库','Components').replaceAll('接入详情','Setup details');
+ // Portal vocabulary cannot translate system metadata or the no-JavaScript body.
+ if(key==='quartz'||key==='lime')html=html.replace(/<noscript>[\s\S]*?<\/noscript>/,englishSystemFallback(key));
  const out=key==='components'?'dist/resource-pages/en/index.html':`dist/en/${path}/index.html`;await mkdir(dirname(out),{recursive:true});await writeFile(out,html);
 }
 

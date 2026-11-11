@@ -10,6 +10,7 @@ function lensMap(width, height, radius) {
   const h = Math.max(1, Math.round(height * ratio));
   const r = Math.min(radius * ratio, w / 2, h / 2);
   const bevel = Math.max(4, Math.min(32 * ratio, h / 2));
+  const sideFade = Math.max(1, 40 * ratio);
   const canvas = document.createElement("canvas");
   canvas.width = w;
   canvas.height = h;
@@ -37,10 +38,12 @@ function lensMap(width, height, radius) {
       } else if (qx > qy) nx = Math.sign(px);
       else ny = Math.sign(py);
       const i = (y * w + x) * 4;
-      // Low-frequency surface variation adds optical roughness without a noise overlay.
+      // Bring the displacement back to neutral before the fixed viewport edge.
+      const side = Math.min(1, (w / 2 - Math.abs(px)) / sideFade);
+      const aperture = side * side * (3 - 2 * side);
       const ripple = Math.sin(x / 28) * Math.sin(y / 11) * 2.5;
-      pixels.data[i] = 128 + nx * bend * 108 + ripple;
-      pixels.data[i + 1] = 128 + ny * bend * 108 + ripple;
+      pixels.data[i] = 128 + aperture * (nx * bend * 108 + ripple);
+      pixels.data[i + 1] = 128 + aperture * (ny * bend * 108 + ripple);
       pixels.data[i + 2] = 128;
       pixels.data[i + 3] = 255;
     }

@@ -12,9 +12,9 @@ function browserFixture(t){
   setAttribute(key,value){this.attrs[key]=value;}
   getBoundingClientRect(){return {width:this.width,height:this.height};}
  }
- const body=new Element('body'),root=new Element('html'),frames=new Map(),observers=[];let next=0;
+ const body=new Element('body'),root=new Element('html'),frames=new Map(),observers=[],maps=[];let next=0;
  const globals={
-  document:{body,documentElement:root,createElementNS:(_,tag)=>new Element(tag),createElement:tag=>tag==='canvas'?{getContext:()=>({createImageData:(w,h)=>({data:new Uint8ClampedArray(w*h*4)}),putImageData:()=>{}}),toDataURL:()=>`data:image/png;base64,fixture-${next}`} :new Element(tag)},
+  document:{body,documentElement:root,createElementNS:(_,tag)=>new Element(tag),createElement:tag=>tag==='canvas'?{getContext:()=>({createImageData:(width,height)=>({width,height,data:new Uint8ClampedArray(width*height*4)}),putImageData:map=>maps.push(map)}),toDataURL:()=>`data:image/png;base64,fixture-${next}`} :new Element(tag)},
   getComputedStyle:node=>({position:node.position||'sticky',borderRadius:'0'}),
   requestAnimationFrame:callback=>{frames.set(++next,callback);return next;},cancelAnimationFrame:id=>frames.delete(id),
   ResizeObserver:class {constructor(callback){this.callback=callback;observers.push(this);}observe(){this.callback();}disconnect(){this.disconnected=true;}}
@@ -23,7 +23,7 @@ function browserFixture(t){
  for(const [key,value] of Object.entries(globals))Object.defineProperty(globalThis,key,{value,configurable:true,writable:true});
  t.after(()=>{for(const [key,value]of Object.entries(prior)){if(value)Object.defineProperty(globalThis,key,value);else delete globalThis[key];}});
  const flush=()=>{for(const [id,callback]of frames){frames.delete(id);callback();}};
- return {Element,body,root,observers,frames,flush};
+ return {Element,body,root,observers,frames,maps,flush};
 }
 
 test('one lens per header survives repeated setup and resizing, with complete cleanup',t=>{
@@ -56,4 +56,28 @@ test('embedded tools create no hidden duplicate surface or observer',t=>{
  const f=browserFixture(t),header=new f.Element();header.embedded=true;
  setupHeaderMaterial({targets:[header]})();
  assert.equal(header.children.length,0);assert.equal(f.body.children.length,0);assert.equal(f.observers.length,0);
+});
+
+test('lens neutralizes both fixed side edges while preserving center refraction',t=>{
+ const f=browserFixture(t);
+ const header=new f.Element();
+ const dispose=setupHeaderMaterial({targets:[header]});
+ try {
+  for(const width of [390,689,1440]){
+   header.width=width;
+   f.observers[0].callback();
+   f.flush();
+   const map=f.maps.at(-1);
+   const channels=(x,y)=>Array.from(map.data.slice((y*map.width+x)*4,(y*map.width+x)*4+2));
+   for(const y of [0,Math.floor(map.height/2),map.height-1]){
+    assert.deepEqual(channels(0,y),[128,128]);
+    assert.deepEqual(channels(map.width-1,y),[128,128]);
+   }
+   const center=Math.floor(map.width/2);
+   assert.ok(channels(center,0)[1]<75,'the center of the upper bevel still refracts');
+   assert.ok(channels(center,map.height-1)[1]>180,'the center of the lower bevel still refracts');
+  }
+ } finally {
+  dispose();
+ }
 });

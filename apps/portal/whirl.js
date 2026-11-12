@@ -1,4 +1,4 @@
-// DOM rendering of the reference WebGL spiral motion, with the same phase and velocity model.
+// The DOM fallback and WebGL enhancement share the original spiral and capture seed.
 import {captureShuffleRandom} from './hero-capture-seed.js';
 
 function buildSpiral() {
@@ -75,9 +75,71 @@ export function startWhirl(container, images) {
   });
   let phase = 0, velocity = 0, lastScroll = window.scrollY;
   const start = performance.now();
-  let previous = start, frame, visible = true;
-  const observer = new IntersectionObserver(([entry]) => { visible = entry.isIntersecting; });
-  observer.observe(container);
+  let previous = start, frame = 0, visible = true, disposed = false;
+  let renderer, loading = false, failed = false;
+  const hero = container.closest('.hero');
+  const events = new AbortController();
+  const pointer = {x: 0, y: 0};
+  const positions = [];
+  function canAnimate() {
+    return !disposed && visible && !document.hidden && !motion.matches && !failed
+      && container.style.opacity !== '0.0000' && container.style.opacity !== '0';
+  }
+  function fallback() {
+    renderer?.dispose();
+    renderer = undefined;
+    rotor.hidden = false;
+    container.dataset.whirlRenderer = 'dom';
+  }
+  function fail() {
+    failed = true;
+    fallback();
+    cancelAnimationFrame(frame);
+    frame = 0;
+    draw();
+  }
+  function sync() {
+    if (motion.matches) {
+      fallback();
+      phase = 0;
+      pointer.x = pointer.y = 0;
+      draw();
+    }
+    if (!canAnimate()) {
+      cancelAnimationFrame(frame);
+      frame = 0;
+      velocity = 0;
+      return;
+    }
+    if (!frame) {
+      previous = performance.now();
+      lastScroll = window.scrollY;
+      frame = requestAnimationFrame(tick);
+    }
+    if (renderer || loading) return;
+    loading = true;
+    import('./whirl-webgl.js').then(({createWhirlRenderer}) => {
+      if (!canAnimate()) return;
+      renderer = createWhirlRenderer(container, tiles.map(tile => tile.firstChild), widths, fail);
+      draw();
+    }).catch(fail).finally(() => { loading = false; });
+  }
+  const observer = new IntersectionObserver(([entry]) => { visible = entry.isIntersecting; sync(); });
+  observer.observe(container.parentElement);
+  // The existing scroll controller owns the host's fade; stop actual draws at its exit.
+  const fadeObserver = new MutationObserver(sync);
+  fadeObserver.observe(container, {attributes:true, attributeFilter:['style']});
+  const resizeObserver = new ResizeObserver(() => { renderer?.resize(); draw(); });
+  resizeObserver.observe(container.parentElement);
+  hero?.addEventListener('pointermove', event => {
+    if (event.pointerType !== 'mouse' || motion.matches) return;
+    const bounds = hero.getBoundingClientRect();
+    pointer.x = Math.max(-1, Math.min(1, (event.clientX - bounds.left) / bounds.width * 2 - 1));
+    pointer.y = Math.max(-1, Math.min(1, (event.clientY - bounds.top) / bounds.height * 2 - 1));
+  }, {passive:true, signal:events.signal});
+  hero?.addEventListener('pointerleave', () => { pointer.x = pointer.y = 0; }, {signal:events.signal});
+  document.addEventListener('visibilitychange', sync, {signal:events.signal});
+  motion.addEventListener('change', sync, {signal:events.signal});
   function draw() {
     tiles.forEach((tile, i) => {
       const u = (phase + i / count) % 1;
@@ -90,13 +152,25 @@ export function startWhirl(container, images) {
       const radius = 1875 * (d / 1875) ** 1.0526315789473684;
       const h = d > 0 ? radius / d : 1;
       const scale = Math.min(radius / 1875,1) ** .35;
+      positions[i] = {x:x*h, y:y*h, angle, scale, opacity:u < .08 ? u/.08 : u > .92 ? (1-u)/.08 : 1};
+      if (renderer && !motion.matches) return;
       tile.style.left = `${50 + x*h/2500*100}%`;
       tile.style.top = `${50 + y*h/2500*100}%`;
       tile.style.transform = `translate(-50%,-50%) rotate(${angle}rad) scale(${scale})`;
       tile.style.opacity = String(u < .08 ? u/.08 : u > .92 ? (1-u)/.08 : 1);
     });
+    if (renderer && !motion.matches && canAnimate()) {
+      try {
+        if (renderer.render(positions, pointer, performance.now() - start)) {
+          rotor.hidden = true;
+          container.dataset.whirlRenderer = 'webgl';
+        }
+      } catch { fail(); }
+    }
   }
   function tick(now) {
+    frame = 0;
+    if (!canAnimate()) return;
     const dt = Math.min(now - previous,150)/1000;
     previous = now;
     if (dt > 0 && visible && !document.hidden && !motion.matches) {
@@ -112,6 +186,16 @@ export function startWhirl(container, images) {
   }
   draw();
   rotor.style.opacity = '1';
-  frame = requestAnimationFrame(tick);
-  return () => { cancelAnimationFrame(frame); observer.disconnect(); rotor.remove(); };
+  sync();
+  return () => {
+    disposed = true;
+    cancelAnimationFrame(frame);
+    events.abort();
+    observer.disconnect();
+    fadeObserver.disconnect();
+    resizeObserver.disconnect();
+    fallback();
+    rotor.remove();
+    delete container.dataset.whirlRenderer;
+  };
 }

@@ -218,8 +218,8 @@ test('homepage language navigation preserves active state and current history la
  assert.ok(source.includes("window.scrollTo({top:y,behavior:'instant'})"));
 });
 
-test('Alpha.2 discovery distinguishes the lightweight Skill from the optional workbench',async()=>{
- const install='npx --yes --package=https://github.com/ShuaiMXu/happyhands/releases/download/v0.1.0-alpha.2/happyhands-lite-0.1.0-alpha.2.tgz happyhands install';
+test('Alpha.4 discovery distinguishes the lightweight Skill from the optional workbench',async()=>{
+ const install='npx --yes --package=https://github.com/ShuaiMXu/happyhands/releases/download/v0.1.0-alpha.4/happyhands-lite-0.1.0-alpha.4.tgz happyhands install';
  const {nonprofitContent}=await import('../workflows/nonprofit.ts');
  for(const lang of ['zh','en']){
   const guide=guideContent(lang),prefix=lang==='en'?'/en':'';
@@ -249,5 +249,5 @@ test('Alpha.2 discovery distinguishes the lightweight Skill from the optional wo
   assert.ok(faq.includes(lang==='zh'?'轻量 Skill':'lightweight Skill'));
  }
  const facts=await read('public/llms.txt');
- for(const term of ['Alpha.2','docs/lightweight.md','releases/tag/v0.1.0-alpha.2','~/.happyhands/runs','.harness/','optional local workbench','not a verified repair'])assert.ok(facts.includes(term),term);
+ for(const term of ['Alpha.4','docs/lightweight.md','releases/tag/v0.1.0-alpha.4','~/.happyhands/runs','.harness/','optional local workbench','not a verified repair'])assert.ok(facts.includes(term),term);
 });

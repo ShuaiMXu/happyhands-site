@@ -244,7 +244,8 @@ const whirlHost = document.querySelector('.hero-whirl-host') || (() => {
 })();
 heroWhirl = whirlHost;
 if (whirlHost && heroScreens?.length) {
-  startWhirl(whirlHost, heroScreens);
+  const disposeWhirl = startWhirl(whirlHost, heroScreens);
+  if (import.meta.hot) import.meta.hot.dispose(() => disposeWhirl?.());
   _apply();
 }
 

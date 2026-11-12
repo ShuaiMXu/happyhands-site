@@ -65,10 +65,12 @@ export function setupHeaderMaterial({targets = document.querySelectorAll("header
   // Specular light follows the actual logo alpha, rather than a rounded tile.
   defs.innerHTML = heroMark ? `<filter id="hh-glass-mark" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB">
     <feGaussianBlur in="SourceAlpha" stdDeviation=".65" result="bevel"/>
-    <feSpecularLighting in="bevel" surfaceScale="4" specularConstant="1.4" specularExponent="28" lighting-color="white" result="shine"><feDistantLight azimuth="225" elevation="50"/></feSpecularLighting>
+    <feSpecularLighting in="bevel" surfaceScale="1" specularConstant=".3" specularExponent="28" lighting-color="white" result="shine"><feDistantLight azimuth="225" elevation="50"/></feSpecularLighting>
     <feComposite in="shine" in2="SourceAlpha" operator="in" result="edge-light"/>
-    <feComponentTransfer in="SourceGraphic" result="body"><feFuncA type="linear" slope=".16"/></feComponentTransfer>
-    <feMerge><feMergeNode in="body"/><feMergeNode in="edge-light"/></feMerge>
+    <feFlood flood-color="var(--hh-ink)" flood-opacity=".38" result="tint"/>
+    <feComposite in="tint" in2="SourceAlpha" operator="in" result="body"/>
+    <feMerge result="glass"><feMergeNode in="body"/><feMergeNode in="edge-light"/></feMerge>
+    <feComposite in="glass" in2="SourceAlpha" operator="in"/>
   </filter>` : "";
   document.body.append(defs);
   const cleanup = [];

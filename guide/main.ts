@@ -8,6 +8,15 @@ import {readTheme,savePreference} from "../packages/ui/site-preferences";
 import {setupSiteMenu} from "../packages/ui/site-menu";
 import {iconMarkup} from "../packages/ui/icons";
 const lang=location.pathname.startsWith("/en/")?"en":"zh";
+// Language changes keep the reader's section and incoming query context.
+const languageLink=document.querySelector<HTMLAnchorElement>('.guide-language');
+const syncLanguageLink=()=>{
+ if(!languageLink)return;
+ const target=new URL(languageLink.href,location.href);
+ languageLink.href=target.pathname+location.search+location.hash;
+};
+syncLanguageLink();
+window.addEventListener('hashchange',syncLanguageLink);
 savePreference("pd-lang",lang);
 const button=document.querySelector<HTMLButtonElement>("#theme-toggle");
 function applyTheme(){const theme=readTheme();document.documentElement.dataset.theme=theme;document.documentElement.dataset.hhTheme=theme;document.documentElement.style.colorScheme=theme;if(button)button.innerHTML=iconMarkup(theme==="dark"?"sun":"moon")+`<span class="hh-tool-label">${lang==="zh"?(theme==="dark"?"浅色":"深色"):(theme==="dark"?"Light":"Dark")}</span>`;}

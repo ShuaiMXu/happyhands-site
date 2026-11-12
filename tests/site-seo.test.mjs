@@ -162,11 +162,11 @@ test('both homepage URLs have complete language-specific static content and reci
   assert.ok(html.includes(`<html lang="${lang==='en'?'en':'zh-CN'}">`));
   assert.equal((html.match(/<h1\b/g)||[]).length,1);
   assert.ok(html.includes(lang==='en'?'Make your product ':'让你的产品，'));
-  assert.ok(html.includes(lang==='en'?'open-source local AI-assisted UI review tool':'开源的本地 AI 界面审阅工具'));
-  assert.ok(html.includes(lang==='en'?'A person accepts or rejects':'由人决定接受或拒绝'));
+  assert.ok(html.includes(lang==='en'?'Review and code changes run locally.':'审查与代码修改在本地执行'));
+  assert.ok(html.includes(lang==='en'?'You decide which changes to accept or reject.':'由你决定接受或拒绝修改'));
   assert.ok(html.includes(`href="${lang==='en'?'/en':''}/guide/"`));
   assert.ok(html.includes(`href="${lang==='en'?'/en':''}/ai-ui-review/#ai-slop"`));
-  assert.ok(html.includes('Local Web Alpha'));
+  assert.ok(html.includes('id="workflow-heading"'));
   assert.ok(html.includes(`rel="canonical" href="${origin}${path}"`));
   assert.ok(source.includes(`<a href="${other}" hreflang=`),'Language link must work without JavaScript');
   for(const [code,target] of [['zh-CN','/apps/portal/'],['en','/en/apps/portal/'],['x-default','/en/apps/portal/']])
@@ -174,7 +174,7 @@ test('both homepage URLs have complete language-specific static content and reci
   assert.ok(sitemap.includes(`<loc>${origin}${path}</loc>`));
   assert.ok(config.includes(`resolve('${seoPages[key].file}')`));
   assert.doesNotThrow(()=>assertSearchContent(origin+path,html));
-  assert.throws(()=>assertSearchContent(origin+path,html.replaceAll('Local Web Alpha','')),/product identity/);
+  assert.throws(()=>assertSearchContent(origin+path,html.replaceAll(lang==='en'?'Review and code changes run locally.':'审查与代码修改在本地执行','')),/local execution/);
   const page=seoData(key).graph['@graph'].find(node=>node['@type']==='WebPage');
   assert.equal(page.inLanguage,lang==='en'?'en':'zh-CN');
   assert.equal(page.url,origin+path);
@@ -242,7 +242,7 @@ test('Alpha.2 discovery distinguishes the lightweight Skill from the optional wo
   const app=seoData(lang==='en'?'portalEn':'portal').graph['@graph'].find(x=>x['@type']==='SoftwareApplication');
   assert.equal(app.operatingSystem,undefined,'Do not imply unverified cross-platform coverage');
   const homepage=portalContent(lang);
-  assert.ok(homepage.includes(lang==='zh'?'轻量 Skill 或可选工作台':'lightweight Skill or optional workbench'));
+  assert.ok(homepage.includes(lang==='zh'?'由你决定接受或拒绝修改':'You decide which changes to accept or reject.'));
   assert.ok(homepage.includes(`href="${prefix}/guide/"`));
   const faq=guideFaq[lang].map(row=>row.join(' ')).join(' ');
   assert.ok(faq.includes('~/.happyhands/runs')&&faq.includes('.harness/'));

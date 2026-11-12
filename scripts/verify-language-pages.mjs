@@ -18,7 +18,7 @@ console.log('Quartz and Lime English fallback headings, descriptions and navigat
 
 const portal=await readFile('dist/en/apps/portal/index.html','utf8');
 const body=portal.slice(portal.indexOf('<body'));
-assert.ok(body.includes('open-source local AI-assisted UI review tool'));
+assert.ok(body.includes('Review and code changes run locally.')&&body.includes('You decide which changes to accept or reject.'));
 assert.ok(body.includes('Make your product '));
 assert.ok(body.includes('href="/en/components/?'));
 assert.ok(!body.includes('href="/components/?'));

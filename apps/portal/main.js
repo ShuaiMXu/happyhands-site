@@ -1,3 +1,4 @@
+import {setupBackToTop} from './back-to-top.js';
 import {createFeedback} from './feedback.js';
 import "../../packages/ui/resource-image-hover.css";
 import { ResourceToolPanels } from '../../packages/ui/ResourceToolPanels';
@@ -5,7 +6,6 @@ import { populateGitHubStars } from './github-stars.js';
 import { ResourceFeedControls } from "./ResourceFeedControls";
 import { applySiteMetadata } from "../../packages/ui/site-seo";
 import {setupSiteMenu} from '../../packages/ui/site-menu.ts';
-import '../../packages/ui/site-layout.css';
 import '../../packages/ui/icons.css';
 import {iconMarkup} from '../../packages/ui/icons.ts';
 import {readTheme, savePreference} from '../../packages/ui/site-preferences.ts';
@@ -107,6 +107,7 @@ window.addEventListener('hashchange',()=>{routeLegacyResources();updateNavigatio
 // -- render all sections from the active language pack --
 function renderContent() {
   const c = t();
+  document.querySelector('#back-to-top').innerHTML = iconMarkup('up') + '<span>' + (lang === 'zh' ? '返回顶部' : 'Back to top') + '</span>';
   document.querySelector('.skip-link').textContent=lang==='zh'?'跳到主要内容':'Skip to content';
   document.querySelector('.desktop-nav').setAttribute('aria-label',lang==='zh'?'主要导航':'Main navigation');
   document.querySelector('.wordmark').setAttribute('aria-label',lang==='zh'?'HappyHands 首页':'HappyHands home');
@@ -261,6 +262,16 @@ document.addEventListener('click', async e => {
 
 // -- boot --
 let disposeMenu;
+const backTopRow = document.createElement('div');
+backTopRow.className = 'back-to-top-row';
+const backTopButton = document.createElement('button');
+backTopButton.id = 'back-to-top';
+backTopButton.type = 'button';
+backTopButton.hidden = true;
+backTopRow.append(backTopButton);
+document.querySelector('main').append(backTopRow);
+const disposeBackToTop = setupBackToTop({ button: backTopButton, target: document.querySelector('.site-header .wordmark') });
+if (import.meta.hot) import.meta.hot.dispose(() => { disposeBackToTop(); backTopRow.remove(); });
 renderLangSwitch();
 renderContent();
 

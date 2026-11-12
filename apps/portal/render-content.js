@@ -8,6 +8,22 @@ export function renderPortalHtml(html, lang) {
 }
 
 export function portalContent(lang = 'zh') {
-  const prefix = lang === 'en' ? '/en' : '';
-  return resourceFeed(lang)+`<section class="workflow-links" aria-label="${lang==='zh'?'AI 设计与评审工作流':'AI design and review workflows'}"><h2>${lang==='zh'?'AI 网站设计与界面评审':'AI website design and UI review'}</h2><p>${lang==='zh'?'HappyHands 是开源的本地 AI 界面审阅工具，目前为 Local Web Alpha，可通过轻量 Skill 或可选工作台使用。它结合项目设计规范、截图证据和编码工具，改进已有界面。官网提供设计资源；审阅和代码修改在本地执行，需要可访问的项目仓库与可采集的页面，最终由人决定接受或拒绝修改。':'HappyHands is an open-source local AI-assisted UI review tool, currently a Local Web Alpha, available through a lightweight Skill or optional workbench. It combines project design rules, screenshot evidence and coding agents to improve existing interfaces. This website provides design resources; review and code changes run locally with an accessible repository and a page that can be captured. A person accepts or rejects the changes.'}</p><a href="${prefix}/guide/">${lang==='zh'?'使用指南与本地安装':'Product guide and local setup'}</a><a href="${prefix}/ai-website-design/">${lang==='zh'?'AI 网站设计工作流':'AI website design workflow'}</a><a href="${prefix}/ai-ui-review/">${lang==='zh'?'AI 设计审查与界面复核':'AI UI review and verification'}</a><a href="${prefix}/ai-ui-review/#ai-slop">${lang==='zh'?'检查 AI 味与产品体验问题':'Review AI slop and product experience'}</a></section>`;
+  const english = lang === 'en';
+  const prefix = english ? '/en' : '';
+  const entries = english ? [
+    ['/guide/', 'Quick start', 'Set up your local tools and run a first review.'],
+    ['/ai-website-design/', 'Design workflow', 'Take an existing website from brief to scoped changes.'],
+    ['/ai-ui-review/', 'UI review', 'Review evidence, confirm scope and compare results.'],
+    ['/ai-ui-review/#ai-slop', 'AI slop review', 'Separate generic styling from verifiable usability issues.'],
+  ] : [
+    ['/guide/', '快速开始', '配置本地工具，完成第一次界面审查。'],
+    ['/ai-website-design/', '设计工作流', '从设计目标出发，逐步改进已有网站。'],
+    ['/ai-ui-review/', '界面审查', '检查页面证据，确认范围并对照修改结果。'],
+    ['/ai-ui-review/#ai-slop', 'AI Slop检查', '区分风格雷同与可验证的使用体验问题。'],
+  ];
+  return resourceFeed(lang) + `<section class="workflow-links" aria-labelledby="workflow-heading">
+    <div class="workflow-intro"><h2 id="workflow-heading">${english ? 'Guides' : '使用指南'}</h2>
+    <p>${english ? 'Review and code changes run locally. You decide which changes to accept or reject.' : '审查与代码修改在本地执行，由你决定接受或拒绝修改。'}</p></div>
+    <ul class="workflow-entries">${entries.map(([path, title, purpose]) => `<li><a href="${prefix}${path}"><span class="workflow-title">${title}</span><span class="workflow-purpose">${purpose}</span></a></li>`).join('')}</ul>
+  </section>`;
 }

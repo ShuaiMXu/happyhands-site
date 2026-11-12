@@ -4,7 +4,9 @@ import { setupBackToTop } from '../apps/portal/back-to-top.js';
 
 function fixture(reduce = false) {
   const document = { activeElement: null };
-  const button = Object.assign(new EventTarget(), { hidden: true, ownerDocument: document });
+  const button = Object.assign(new EventTarget(), { hidden: true, ownerDocument: document,
+    contains(node) { return node === this; },
+  });
   const target = { focus(options) { assert.equal(options.preventScroll, true); document.activeElement = target; } };
   const media = Object.assign(new EventTarget(), { matches: reduce });
   let frame = 0;
@@ -73,4 +75,48 @@ test('interrupted pointer return does not later steal focus', () => {
   const other = {}; f.document.activeElement = other;
   f.scroll(0); assert.equal(f.document.activeElement, other);
   f.dispose();
+});
+
+// Module-level regression tests, not substitutes for native Tab/click QA.
+test('a new focus choice during smooth return survives completion', () => {
+  const f = fixture(); f.scroll(1600);
+  f.document.activeElement = f.button;
+  f.button.dispatchEvent(new Event('click'));
+  const other = {};
+  f.document.activeElement = other;
+  const focus = new Event('focusin');
+  Object.defineProperty(focus, 'target', { value: other });
+  f.view.dispatchEvent(focus);
+  f.scroll(400);
+  f.scroll(0);
+  assert.equal(f.document.activeElement, other);
+  assert.equal(f.button.hidden, true);
+  f.dispose();
+});
+
+test('pointer interruption cancels a pending handoff without forcing scroll completion', () => {
+  const f = fixture(); f.scroll(1600);
+  f.button.dispatchEvent(new Event('click'));
+  const other = {};
+  const pointer = new Event('pointerdown');
+  Object.defineProperty(pointer, 'target', { value: other });
+  f.view.dispatchEvent(pointer);
+  f.document.activeElement = other;
+  f.scroll(200);
+  f.media.matches = true; f.media.dispatchEvent(new Event('change')); f.flush();
+  assert.equal(f.view.scrollY, 200);
+  assert.equal(f.calls.length, 1);
+  f.scroll(0);
+  assert.equal(f.document.activeElement, other);
+  f.dispose();
+});
+
+test('disposal removes focus and pointer interruption listeners', () => {
+  const f = fixture();
+  const removed = [];
+  const remove = f.view.removeEventListener.bind(f.view);
+  f.view.removeEventListener = (type, fn) => { removed.push(type); remove(type, fn); };
+  f.dispose();
+  assert.ok(removed.includes('focusin'));
+  assert.ok(removed.includes('pointerdown'));
 });

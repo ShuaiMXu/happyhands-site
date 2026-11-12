@@ -17,6 +17,7 @@
     "test:studio:open-fonts": "node tests/studio-open-font-browser.mjs",
     "fonts:vendor": "node scripts/vendor-open-fonts.mjs",
     "test:site:browser": "node tests/site-flow-browser.mjs",
+    "test:portal": "node --import tsx --test tests/portal-feedback.test.mjs tests/portal-back-to-top.test.mjs tests/portal-guides.test.mjs",
     "test:site:examples": "node tests/site-examples-export-browser.mjs",
     "catalog:build": "node scripts/build-cult-catalog.mjs",
     "catalog:sync": "node scripts/sync-cult-registry.mjs",

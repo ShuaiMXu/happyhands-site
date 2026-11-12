@@ -270,7 +270,7 @@ backTopButton.type = 'button';
 backTopButton.hidden = true;
 backTopRow.append(backTopButton);
 document.querySelector('main').append(backTopRow);
-const disposeBackToTop = setupBackToTop({ button: backTopButton, target: document.querySelector('.site-header .wordmark') });
+const disposeBackToTop = setupBackToTop({ button: backTopButton, target: document.querySelector('.site-header .wordmark'), notice: document.querySelector('#toast') });
 if (import.meta.hot) import.meta.hot.dispose(() => { disposeBackToTop(); backTopRow.remove(); });
 renderLangSwitch();
 renderContent();

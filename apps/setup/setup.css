@@ -123,3 +123,13 @@ a:focus-visible,button:focus-visible { outline:2px solid var(--hh-ring); outline
  line-height:1.7;
  color:var(--hh-ink-muted);
 }
+
+/* Installation and task handoff share the existing reading column and tokens. */
+.setup-page .setup-install { display:grid; gap:var(--hh-space-3); margin-bottom:var(--hh-space-8); min-width:0; }
+.setup-page :is(.setup-install,.setup-tools) h2 { margin:0; font-size:20px; font-weight:400; line-height:1.5; }
+.setup-page .setup-install p { margin:0; font-size:14px; line-height:1.7; color:var(--hh-ink-muted); }
+.setup-page .setup-install pre { min-width:0; max-width:100%; margin:0; padding:var(--hh-space-4); overflow-x:auto; white-space:pre; border:.5px solid var(--hh-line); border-radius:var(--hh-radius-field); font:400 14px/1.7 var(--hh-font-mono); }
+.setup-page .setup-install pre:focus-visible { outline:2px solid var(--hh-ring); outline-offset:2px; }
+.setup-page .setup-copy-group { display:flex; align-items:center; flex-wrap:wrap; gap:var(--hh-space-3); }
+.setup-page .setup-copy-group [role="status"] { font-size:14px; line-height:1.7; }
+.setup-page .setup-tools { margin-bottom:var(--hh-space-6); }

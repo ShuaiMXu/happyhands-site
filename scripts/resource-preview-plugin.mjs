@@ -33,6 +33,16 @@ export function resourceRewritePath(url, rules) {
 export function resourcePreviewPlugin(root) {
   return {
     name: "resource-static-preview",
+    configureServer(server) {
+      // Production uses generated English resource pages. In development serve
+      // the shared entry without changing the browser URL or its query context.
+      server.middlewares.use((req, _res, next) => {
+        if (req.url?.split('?')[0] === '/en/components/') {
+          req.url = req.url.replace('/en/components/', '/components/');
+        }
+        next();
+      });
+    },
     configurePreviewServer(server) {
       server.middlewares.use(async (req, res, next) => {
         const url = new URL(req.url || "/", "http://localhost");

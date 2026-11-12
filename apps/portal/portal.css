@@ -93,11 +93,12 @@ header.hh-site-header.portal-compact-header nav a { gap:6px; }
 .workflow-entries a:is(:hover,:active) .workflow-title { color:var(--hh-brand-text); }
 .workflow-entries a:focus-visible { outline:2px solid currentColor; outline-offset:4px; }
 .back-to-top-row { display:flex; justify-content:flex-end; min-height:92px; padding:0 max(var(--page-inset),env(safe-area-inset-right)) max(48px,env(safe-area-inset-bottom)); }
-#back-to-top { display:inline-flex; align-items:center; justify-content:center; gap:8px; min-width:44px; min-height:44px; padding:10px 16px; border:0.5px solid var(--hh-line-strong); border-radius:var(--hh-radius-control); background:var(--hh-bg-raised); color:var(--hh-ink); font-size:14px; line-height:1.5; font-weight:400; cursor:pointer; }
+#back-to-top { display:inline-flex; align-items:center; justify-content:center; width:44px; height:44px; min-width:44px; min-height:44px; padding:0; border:0.5px solid var(--hh-line-strong); border-radius:var(--hh-radius-control); background:var(--hh-bg-raised); color:var(--hh-ink); box-shadow:var(--hh-shadow-float); font-size:14px; line-height:1.5; font-weight:400; cursor:pointer; }
 #back-to-top[hidden] { display:none; }
 /* Keep the original footer spacing, but make the one control reachable in the
    default infinite feed. Header, menus and notices retain their higher layers. */
-#back-to-top { position:fixed; z-index:var(--hh-z-sticky); right:max(var(--page-inset),calc(env(safe-area-inset-right) + 16px)); bottom:max(24px,calc(env(safe-area-inset-bottom) + 16px),var(--back-to-top-notice-clearance,0px)); }
+/* Stable icon geometry keeps this utility independent of notice transitions. */
+#back-to-top { position:fixed; z-index:var(--hh-z-sticky); right:max(var(--page-inset),calc(env(safe-area-inset-right) + 16px)); bottom:max(24px,calc(env(safe-area-inset-bottom) + 16px)); }
 #back-to-top:hover { background:var(--hh-bg-hover); }
 #back-to-top:active { background:var(--hh-bg-sunken); }
 #back-to-top:focus-visible { outline:2px solid var(--hh-ink); outline-offset:4px; }

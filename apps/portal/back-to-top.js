@@ -1,5 +1,5 @@
 // Native portal control: no React root or parallel navigation state is needed.
-export function setupBackToTop({ button, target, notice, view = window }) {
+export function setupBackToTop({ button, target, view = window }) {
   const reducedMotion = view.matchMedia('(prefers-reduced-motion: reduce)');
   let returning = false;
   let frame = 0;
@@ -17,14 +17,6 @@ export function setupBackToTop({ button, target, notice, view = window }) {
       target.focus({ preventScroll: true });
     }
     button.hidden = !visible;
-    // A wrapped copy/error notice can be taller than a single-line toast.
-    // Reserve its final position, including during its entrance transition.
-    if (notice) {
-      const clearance = notice.classList.contains('show')
-        ? parseFloat(view.getComputedStyle(notice).bottom) + notice.offsetHeight + 16
-        : 0;
-      button.style.setProperty('--back-to-top-notice-clearance', `${clearance}px`);
-    }
   }
 
   function schedule() {
@@ -59,10 +51,6 @@ export function setupBackToTop({ button, target, notice, view = window }) {
   view.addEventListener('focusin', focusChanged);
   view.addEventListener('pointerdown', pointerStarted, { passive: true });
   reducedMotion.addEventListener('change', motionChanged);
-  const noticeChanges = notice ? new view.MutationObserver(schedule) : null;
-  noticeChanges?.observe(notice, { attributes: true, childList: true, characterData: true, subtree: true });
-  const noticeSize = notice ? new view.ResizeObserver(schedule) : null;
-  noticeSize?.observe(notice);
   update();
   return () => {
     disposed = true;
@@ -75,9 +63,6 @@ export function setupBackToTop({ button, target, notice, view = window }) {
     view.removeEventListener('focusin', focusChanged);
     view.removeEventListener('pointerdown', pointerStarted);
     reducedMotion.removeEventListener('change', motionChanged);
-    noticeChanges?.disconnect();
-    noticeSize?.disconnect();
-    if (notice) button.style.removeProperty('--back-to-top-notice-clearance');
     button.hidden = true;
   };
 }

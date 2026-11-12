@@ -107,7 +107,11 @@ window.addEventListener('hashchange',()=>{routeLegacyResources();updateNavigatio
 // -- render all sections from the active language pack --
 function renderContent() {
   const c = t();
-  document.querySelector('#back-to-top').innerHTML = iconMarkup('up') + '<span>' + (lang === 'zh' ? '返回顶部' : 'Back to top') + '</span>';
+  const backTop = document.querySelector('#back-to-top');
+  const backTopLabel = lang === 'zh' ? '返回顶部' : 'Back to top';
+  backTop.innerHTML = iconMarkup('up');
+  backTop.setAttribute('aria-label', backTopLabel);
+  backTop.title = backTopLabel;
   document.querySelector('.skip-link').textContent=lang==='zh'?'跳到主要内容':'Skip to content';
   document.querySelector('.desktop-nav').setAttribute('aria-label',lang==='zh'?'主要导航':'Main navigation');
   document.querySelector('.wordmark').setAttribute('aria-label',lang==='zh'?'HappyHands 首页':'HappyHands home');
@@ -270,7 +274,7 @@ backTopButton.type = 'button';
 backTopButton.hidden = true;
 backTopRow.append(backTopButton);
 document.querySelector('main').append(backTopRow);
-const disposeBackToTop = setupBackToTop({ button: backTopButton, target: document.querySelector('.site-header .wordmark'), notice: document.querySelector('#toast') });
+const disposeBackToTop = setupBackToTop({ button: backTopButton, target: document.querySelector('.site-header .wordmark') });
 if (import.meta.hot) import.meta.hot.dispose(() => { disposeBackToTop(); backTopRow.remove(); });
 renderLangSwitch();
 renderContent();

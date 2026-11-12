@@ -5,6 +5,7 @@ import {join} from 'node:path';
 import {createHash} from 'node:crypto';
 import {parseArgs} from 'node:util';
 import {normalizeHeroContexts,heroFrameNames} from './helpers/hero-motion-contexts.mjs';
+import {normalHeroStatus,contextLossStatus,heroLayoutFails} from './helpers/hero-motion-result.mjs';
 
 const {values}=parseArgs({options:{url:{type:'string'},out:{type:'string'},context:{type:'string'},contexts:{type:'string'}}});
 if(values.context&&values.contexts)throw Error('Use the bound verification context or an explicit context declaration, not both.');
@@ -108,38 +109,43 @@ try{
         await page.waitForFunction(previous=>window.__hhHeroProbe.draws>previous,later.draws,{timeout:5000});
         item.scroll={paused:paused.draws===later.draws,resumed:(await sample(page)).draws>later.draws,samples:[paused,later,await sample(page)]};
       }else item.scroll={paused:false,resumed:false,reason:'No WebGL motion to verify.'};
-      result.checks.push({name:'normal-context',stateId:context.stateId,configurationId:context.configurationId,
-        status:motionObserved&&item.openingSampled&&item.pointerEventObserved&&item.scroll.paused&&item.scroll.resumed&&geometry.singleMark&&!geometry.overflow&&geometry.actionsVisible&&geometry.coverCount>0&&!errors.length?'pass':'needs-evidence'});
+      result.checks.push({name:'normal-context',stateId:context.stateId,configurationId:context.configurationId,status:normalHeroStatus(item)});
     }finally{await page.close();}
   }
   const desktop=contexts.reduce((a,b)=>a.width>b.width?a:b),phone=contexts.reduce((a,b)=>a.width<b.width?a:b);
   // 1. A live preference change must stop the cover motion, preserving fallback artwork.
   {
-    const {page,errors}=await open(phone);
+    const {page,errors}=await open(phone);let recovered=false,still=false,failure;
     try{
-      await page.emulateMedia({reducedMotion:'reduce'});await fallback(page);
-      const tile=page.locator('.pd-whirl-tile:not([hidden])').first(),before=await tile.getAttribute('style');await page.waitForTimeout(160);
-      const still=before===await tile.getAttribute('style');await frame(page,'reduced-motion-static',phone);
-      result.checks.push({name:'reduced-motion-change',status:still&&!errors.length?'pass':'fail',still,errors});
+      try{
+        await page.emulateMedia({reducedMotion:'reduce'});await fallback(page);recovered=true;
+        const tile=page.locator('.pd-whirl-tile:not([hidden])').first(),before=await tile.getAttribute('style');await page.waitForTimeout(160);
+        still=before===await tile.getAttribute('style');
+      }catch(error){failure=error.message;}
+      await frame(page,'reduced-motion-static',phone);const geometry=await layout(page);
+      result.checks.push({name:'reduced-motion-change',status:recovered&&still&&!heroLayoutFails(geometry)&&!errors.length?'pass':'fail',fallbackRecovered:recovered,still,layout:geometry,errors,...(failure?{error:failure}:{})});
     }finally{await page.close();}
   }
   // 2. Devices without WebGL retain real covers and a usable primary action.
   {
-    const {page,errors}=await open(phone,{noWebGL:true});
-    try{await fallback(page);await frame(page,'webgl-unavailable-fallback',phone);const geometry=await layout(page);
-      result.checks.push({name:'webgl-unavailable',status:geometry.actionsVisible&&!geometry.overflow&&!errors.length?'pass':'fail',layout:geometry,errors});
+    const {page,errors}=await open(phone,{noWebGL:true});let recovered=false,failure;
+    try{
+      try{await fallback(page);recovered=true;}catch(error){failure=error.message;}
+      await frame(page,'webgl-unavailable-fallback',phone);const geometry=await layout(page);
+      result.checks.push({name:'webgl-unavailable',status:recovered&&!heroLayoutFails(geometry)&&!errors.length?'pass':'fail',fallbackRecovered:recovered,layout:geometry,errors,...(failure?{error:failure}:{})});
     }finally{await page.close();}
   }
   // 3. Real context loss must recover rather than leaving an empty canvas.
   {
-    const {page,errors}=await open(desktop);let lost=false;
+    const {page,errors}=await open(desktop);let lost=false,recovered=false,failure;
     try{
       try{await page.waitForFunction(()=>window.__hhHeroProbe.draws>0,undefined,{timeout:5000});
         lost=await page.locator('.pd-whirl-canvas').evaluate(canvas=>{const gl=canvas.getContext('webgl2'),ext=gl?.getExtension('WEBGL_lose_context');if(!ext)return false;ext.loseContext();return true;});
-        if(lost)await fallback(page);
-      }catch{}
+        if(lost){await fallback(page);recovered=true;}
+      }catch(error){failure=error.message;}
       await frame(page,'context-loss-fallback',desktop);
-      result.checks.push({name:'context-loss',status:lost&&!errors.length?'pass':'needs-evidence',contextLost:lost,errors});
+      const geometry=await layout(page);
+      result.checks.push({name:'context-loss',status:contextLossStatus({contextLost:lost,fallbackRecovered:recovered,errors,layout:geometry}),contextLost:lost,fallbackRecovered:recovered,layout:geometry,errors,...(failure?{error:failure}:{})});
     }finally{await page.close();}
   }
   // 4. The actual language control must navigate, with a working Hero after reload.
@@ -150,7 +156,7 @@ try{
       await page.waitForURL(url=>next==='en'?url.pathname.startsWith('/en/'):!url.pathname.startsWith('/en/'));
       await page.locator('.hero h1').waitFor();await page.evaluate(()=>document.fonts.ready);
       await frame(page,'language-switch',phone);const geometry=await layout(page);
-      result.checks.push({name:'language-switch',status:geometry.actionsVisible&&!geometry.overflow&&!errors.length?'pass':'fail',language:next,finalUrl:page.url(),layout:geometry,errors});
+      result.checks.push({name:'language-switch',status:!heroLayoutFails(geometry)&&!errors.length?'pass':'fail',language:next,finalUrl:page.url(),layout:geometry,errors});
     }finally{await page.close();}
   }
   result.status=result.checks.some(check=>check.status==='fail')?'fail':result.checks.every(check=>check.status==='pass')?'pass':'needs-evidence';

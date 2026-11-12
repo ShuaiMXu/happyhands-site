@@ -1,4 +1,6 @@
 // DOM rendering of the reference WebGL spiral motion, with the same phase and velocity model.
+import {captureShuffleRandom} from './hero-capture-seed.js';
+
 function buildSpiral() {
   const TURNS = 8 * Math.PI * 2;
   const SAMPLES = 16384;
@@ -47,8 +49,9 @@ export function startWhirl(container, images) {
   const lut = buildSpiral();
   // Shuffle without replacement so each tile has its own cover on every visit.
   const pool = [...new Set(images)];
+  const random = captureShuffleRandom(window.location.search, import.meta.env.DEV);
   for (let i = pool.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
+    const j = Math.floor(random() * (i + 1));
     [pool[i], pool[j]] = [pool[j], pool[i]];
   }
   const count = Math.min(lut.count, pool.length);

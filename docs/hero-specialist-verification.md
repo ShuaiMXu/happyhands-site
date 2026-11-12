@@ -1,6 +1,6 @@
 # Homepage motion verification
 
-`tests/homepage-motion-browser.mjs` is a specialist evidence producer for the explicitly adopted HappyHands homepage-Hero profile. It writes real viewport PNGs and a `result.json` consumed by the existing Harness verification stage. It does not grant visual or human acceptance. An unchanged DOM-only homepage returns `needs-evidence` for the WebGL task; do not substitute this result with the earlier reduced-motion smoke-test pass.
+`tests/homepage-motion-browser.mjs` is a specialist evidence producer for the explicitly adopted HappyHands homepage-Hero profile. It writes real viewport PNGs and a `result.json` consumed by the existing Harness verification stage. It does not grant visual or human acceptance. Missing WebGL motion returns `needs-evidence`; a reproduced duplicate mark, overflow, hidden action, changed 189-cover count or runtime error returns `fail`. Do not substitute this result with the earlier reduced-motion smoke-test pass.
 
 ## Bound invocation
 
@@ -30,5 +30,13 @@ For a local engineering check without a bound Run, `--contexts FILE` accepts `{ 
 `heroMotion.version` is 1. Every context retains its captured IDs, measured viewport, theme/language, real sample times and the indexes of its two distinct motion originals. A `motionObserved:true` context needs actual WebGL draw progression and changed canvas pixels in that context. Pointer events, scroll pause/resume and the single logo layer are recorded separately. Static theme pairs and desktop-only evidence cannot stand in for another context.
 
 Fallback and language images are supplemental originals, with explicit roles and runtime checks. A failed page, missing context, missing motion, wrong route or failed preference/fallback check remains `fail` or `needs-evidence`. Inspect `result.json` and retained originals; do not infer success from process termination alone. The existing host must archive all declared PNGs and bind them to the actual after source and preview before independent QA can accept the record.
+
+Context-loss verification separately records `contextLost` and `fallbackRecovered`. Firing the loss event does not establish recovery: an induced loss followed by a missing/empty fallback is `fail`, even when the page has no JavaScript exception. Preference-change and unavailable-WebGL checks also retain their failure and screenshot rather than turning a fallback timeout into missing evidence.
+
+## Reproducible development originals
+
+An explicit `?hh-capture-seed=CASE_ID` controls only the development cover shuffle. Use the same valid ID (letters, digits, hyphens or underscores, at most 80 characters) in both Capture Plans. It retains the original pool, 189 tiles, widths, positions and phase/speed model. Production ignores the parameter and ordinary development visits without it stay randomized. No global random function is replaced.
+
+The primary Harness capture already uses reduced motion, so the same seed yields the same original covers at the static phase for matched before/after review. This is separate from the producer's actual running RAF/draw/pointer evidence. A seed neither freezes that motion nor establishes its quality. If an implementation replaces the renderer, it must retain this same development shuffle contract; selecting nicer different media cannot count as a repair.
 
 The producer cannot certify aesthetic quality or all browsers. In particular, a pointer event and continued drawing do not by themselves isolate causal parallax. Independent review must inspect the actual camera/material implementation, complete original frames, foreground readability, preserved cover pool/orbit/scale, both themes and fallback composition. Randomized decorative covers must be controlled or explicitly recorded as a comparison limitation; replacing media is not a quality improvement.

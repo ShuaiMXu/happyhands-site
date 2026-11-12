@@ -1,0 +1,27 @@
+scripts/check-search-discovery.mjs
+  s_c3a809bd8a1ec1::t_4411d5fe80fd2f 14-21
+docs/plans/remaining-2026-11-12.md
+  s_c3a809bd8a1ec1::t_4411d5fe80fd2f 1-16
+scripts/verify-language-pages.mjs
+  s_c3a809bd8a1ec1::t_4411d5fe80fd2f 21
+tests/site-seo.test.mjs
+  s_c3a809bd8a1ec1::t_4411d5fe80fd2f 165-166,169,177,245
+tests/seo-browser.mjs
+  s_c3a809bd8a1ec1::t_4411d5fe80fd2f 46-51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "ea8c5bd2f8c8b5492fcf4f0f270afafebfcf387e",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

@@ -301,7 +301,8 @@ export const ui = {
   "footer": {
     "left": "HappyHands / AI Product Designer",
     "middle": "Product experience optimization",
-    "right": "View source"
+    "right": "View source",
+    "friends": "Design friends"
   }
 };
 

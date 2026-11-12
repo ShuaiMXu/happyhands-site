@@ -1,3 +1,4 @@
+import {setupBackToTop} from './back-to-top.js';
 import {createFeedback} from './feedback.js';
 import "../../packages/ui/resource-image-hover.css";
 import { ResourceToolPanels } from '../../packages/ui/ResourceToolPanels';
@@ -5,7 +6,6 @@ import { populateGitHubStars } from './github-stars.js';
 import { ResourceFeedControls } from "./ResourceFeedControls";
 import { applySiteMetadata } from "../../packages/ui/site-seo";
 import {setupSiteMenu} from '../../packages/ui/site-menu.ts';
-import '../../packages/ui/site-layout.css';
 import '../../packages/ui/icons.css';
 import {iconMarkup} from '../../packages/ui/icons.ts';
 import {readTheme, savePreference} from '../../packages/ui/site-preferences.ts';
@@ -107,6 +107,11 @@ window.addEventListener('hashchange',()=>{routeLegacyResources();updateNavigatio
 // -- render all sections from the active language pack --
 function renderContent() {
   const c = t();
+  const backTop = document.querySelector('#back-to-top');
+  const backTopLabel = lang === 'zh' ? '返回顶部' : 'Back to top';
+  backTop.innerHTML = iconMarkup('up');
+  backTop.setAttribute('aria-label', backTopLabel);
+  backTop.title = backTopLabel;
   document.querySelector('.skip-link').textContent=lang==='zh'?'跳到主要内容':'Skip to content';
   document.querySelector('.desktop-nav').setAttribute('aria-label',lang==='zh'?'主要导航':'Main navigation');
   document.querySelector('.wordmark').setAttribute('aria-label',lang==='zh'?'HappyHands 首页':'HappyHands home');
@@ -151,7 +156,7 @@ function renderContent() {
   // footer
   const footer = document.querySelector('footer');
   if (footer) {
-    footer.innerHTML = `<span>${c.ui.footer.left}</span><span>${c.ui.footer.middle}</span><a href="${repositories.core}">${c.ui.footer.right} ${iconMarkup('external')}</a>`;
+    footer.innerHTML = `<span>${c.ui.footer.left}</span><span>${c.ui.footer.middle}</span><a href="${repositories.core}">${c.ui.footer.right} ${iconMarkup('external')}</a><div class="footer-friends" role="group" aria-labelledby="footer-friends-label"><span id="footer-friends-label">${c.ui.footer.friends}</span><a href="https://icons.kubai.design/">Kubai Icons</a></div>`;
   }
 
   setupConnect(lang);
@@ -261,6 +266,16 @@ document.addEventListener('click', async e => {
 
 // -- boot --
 let disposeMenu;
+const backTopRow = document.createElement('div');
+backTopRow.className = 'back-to-top-row';
+const backTopButton = document.createElement('button');
+backTopButton.id = 'back-to-top';
+backTopButton.type = 'button';
+backTopButton.hidden = true;
+backTopRow.append(backTopButton);
+document.querySelector('main').append(backTopRow);
+const disposeBackToTop = setupBackToTop({ button: backTopButton, target: document.querySelector('.site-header .wordmark') });
+if (import.meta.hot) import.meta.hot.dispose(() => { disposeBackToTop(); backTopRow.remove(); });
 renderLangSwitch();
 renderContent();
 

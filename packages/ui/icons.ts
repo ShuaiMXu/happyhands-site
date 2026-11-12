@@ -9,6 +9,7 @@ export const iconPaths = {
   "external": "<path d=\"M15 3h6v6\"></path><path d=\"M10 14 21 3\"></path><path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"></path>",
   "right": "<path d=\"m9 18 6-6-6-6\"></path>",
   "left": "<path d=\"m15 18-6-6 6-6\"></path>",
+  "up": '<path d="m18 15-6-6-6 6"></path>',
   "down": "<path d=\"m6 9 6 6 6-6\"></path>",
   "undo": "<path d=\"M9 14 4 9l5-5\"></path><path d=\"M4 9h10.5a5.5 5.5 0 0 1 5.5 5.5a5.5 5.5 0 0 1-5.5 5.5H11\"></path>",
   "redo": "<path d=\"m15 14 5-5-5-5\"></path><path d=\"M20 9H9.5A5.5 5.5 0 0 0 4 14.5A5.5 5.5 0 0 0 9.5 20H13\"></path>",

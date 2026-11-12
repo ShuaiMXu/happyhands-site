@@ -1,3 +1,4 @@
+@import "../../packages/ui/site-layout.css";
 /* Shared page grid. Hero geometry and motion stay in portal.css / whirl.js. */
 .agent-prompt-preview { margin-block:16px; border-block:0.5px solid var(--hh-line); }
 .agent-prompt-preview summary { display:flex; align-items:center; min-height:44px; font-size:14px; }
@@ -22,6 +23,10 @@
 .pair-head>span { line-height:1.5; }
 .final-actions { justify-content:flex-start; }
 .site-footer { padding:32px var(--page-inset); grid-template-columns:minmax(0,1fr) auto auto; align-items:center; gap:24px; line-height:1.6; }
+.site-footer .footer-friends { grid-column:1/-1; display:flex; flex-wrap:wrap; align-items:center; gap:var(--hh-space-4); }
+.footer-friends a { display:inline-flex; align-items:center; min-height:44px; min-width:44px; text-decoration:none; }
+.footer-friends a:is(:hover,:active,:focus-visible) { color:var(--hh-ink); text-decoration:none; }
+.footer-friends a:focus-visible { outline:2px solid currentColor; outline-offset:3px; }
 @media(max-width:1100px) {
   .site-header { padding-inline:var(--page-inset); gap:12px; }
   .desktop-nav { gap:12px; font-size:12px; }

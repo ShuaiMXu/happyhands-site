@@ -43,7 +43,12 @@ try{
   const plain=await browser.newContext({javaScriptEnabled:false});
   const raw=await plain.newPage();await raw.goto(base+route);
   assert.equal(await raw.locator('html').getAttribute('lang'),lang==='en'?'en':'zh-CN');
-  assert.ok((await raw.locator('#portal-content').innerText()).includes('Local Web Alpha'));
+  const guides=raw.locator('.workflow-links');
+  const guideText=await guides.innerText();
+  assert.ok(guideText.includes(lang==='en'?'Review and code changes run locally.':'审查与代码修改在本地执行'));
+  assert.ok(guideText.includes(lang==='en'?'You decide which changes to accept or reject.':'由你决定接受或拒绝修改'));
+  for(const href of ['/guide/','/ai-website-design/','/ai-ui-review/','/ai-ui-review/#ai-slop'])
+   assert.equal(await guides.locator(`a[href="${lang==='en'?'/en':''}${href}"]`).count(),1);
   assert.equal(await raw.locator('#lang-switch a').getAttribute('href'),other);
   await plain.close();
   for(const width of [1280,390]){

@@ -301,7 +301,8 @@ export const ui = {
   "footer": {
     "left": "HappyHands / AI Product Designer",
     "middle": "产品体验优化",
-    "right": "查看源码"
+    "right": "查看源码",
+    "friends": "设计友链"
   }
 };
 

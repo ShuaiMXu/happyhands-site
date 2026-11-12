@@ -151,7 +151,7 @@ function renderContent() {
   // footer
   const footer = document.querySelector('footer');
   if (footer) {
-    footer.innerHTML = `<span>${c.ui.footer.left}</span><span>${c.ui.footer.middle}</span><a href="${repositories.core}">${c.ui.footer.right} ${iconMarkup('external')}</a>`;
+    footer.innerHTML = `<span>${c.ui.footer.left}</span><span>${c.ui.footer.middle}</span><a href="${repositories.core}">${c.ui.footer.right} ${iconMarkup('external')}</a><div class="footer-friends" role="group" aria-labelledby="footer-friends-label"><span id="footer-friends-label">${c.ui.footer.friends}</span><a href="https://icons.kubai.design/">Kubai Icons</a></div>`;
   }
 
   setupConnect(lang);

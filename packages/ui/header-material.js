@@ -10,6 +10,7 @@ function lensMap(width, height, radius) {
   const h = Math.max(1, Math.round(height * ratio));
   const r = Math.min(radius * ratio, w / 2, h / 2);
   const bevel = Math.max(4, Math.min(32 * ratio, h / 2));
+  const sideFade = Math.max(1, 40 * ratio);
   const canvas = document.createElement("canvas");
   canvas.width = w;
   canvas.height = h;
@@ -37,10 +38,12 @@ function lensMap(width, height, radius) {
       } else if (qx > qy) nx = Math.sign(px);
       else ny = Math.sign(py);
       const i = (y * w + x) * 4;
-      // Low-frequency surface variation adds optical roughness without a noise overlay.
+      // Bring the displacement back to neutral before the fixed viewport edge.
+      const side = Math.min(1, (w / 2 - Math.abs(px)) / sideFade);
+      const aperture = side * side * (3 - 2 * side);
       const ripple = Math.sin(x / 28) * Math.sin(y / 11) * 2.5;
-      pixels.data[i] = 128 + nx * bend * 108 + ripple;
-      pixels.data[i + 1] = 128 + ny * bend * 108 + ripple;
+      pixels.data[i] = 128 + aperture * (nx * bend * 108 + ripple);
+      pixels.data[i + 1] = 128 + aperture * (ny * bend * 108 + ripple);
       pixels.data[i + 2] = 128;
       pixels.data[i + 3] = 255;
     }
@@ -52,6 +55,8 @@ function lensMap(width, height, radius) {
 export function setupHeaderMaterial({targets = document.querySelectorAll("header.hh-glass-header"), heroMark = false} = {}) {
   const headers = [...targets].filter(target => !mountedHeaders.has(target) && !target.closest('html[data-embedded-tool],.system-embedded'));
   if (!headers.length) return () => {};
+  // Safari accepts the SVG backdrop syntax but does not render this displacement chain.
+  const useClearGlass = globalThis.navigator?.vendor === 'Apple Computer, Inc.';
   const hasPortal = headers.some(target => target.classList.contains('portal-glass-header'));
   const hasSticky = headers.some(target => !target.classList.contains('portal-glass-header') && getComputedStyle(target).position === 'sticky');
   const defs = document.createElementNS(svgNS, "svg");
@@ -72,6 +77,7 @@ export function setupHeaderMaterial({targets = document.querySelectorAll("header
     const surface = document.createElement("div");
     surface.className = "liquid-glass-surface";
     surface.setAttribute("aria-hidden", "true");
+    if (useClearGlass) surface.dataset.clearGlass = "";
     target.prepend(surface);
     const filter = document.createElementNS(svgNS, "filter");
     filter.id = `hh-glass-lens-${nextLensId++}`;
@@ -123,6 +129,7 @@ export function setupHeaderMaterial({targets = document.querySelectorAll("header
       sizeKey = key;
       if (target.classList.contains('portal-glass-header')) document.documentElement.style.setProperty("--portal-header-height", `${height}px`);
       else if (getComputedStyle(target).position === 'sticky') document.documentElement.style.setProperty("--hh-sticky-header-offset", `${height + 16}px`);
+      if (useClearGlass) return;
       const map = lensMap(width, height, radius);
       if (!map) return;
       image.setAttribute("href", map);

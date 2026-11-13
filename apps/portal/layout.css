@@ -73,3 +73,18 @@
  .site-header.portal-compact-header .desktop-nav a { gap:4px; font-size:12px; }
  .site-header.portal-compact-header .desktop-nav .hh-icon { width:16px; height:16px; }
 }
+
+/* Portal directory: native navigation links shared by SSR and language updates. */
+.site-footer.portal-footer { display:block; padding:32px var(--page-inset); color:var(--hh-ink-muted); font:400 12px/1.6 var(--hh-font-sans); }
+.portal-footer .footer-directory { display:grid; grid-template-columns:minmax(0,2fr) minmax(0,1fr) minmax(0,1fr); gap:var(--grid-gap); }
+.portal-footer .footer-directory section { min-width:0; }
+.portal-footer h2 { margin:0 0 12px; color:var(--hh-ink); font-size:14px; line-height:1.5; font-weight:400; }
+.portal-footer .footer-directory-links { display:flex; flex-direction:column; align-items:flex-start; gap:8px; }
+.portal-footer a { display:inline-flex; align-items:center; gap:8px; min-height:44px; min-width:44px; max-width:100%; color:var(--hh-ink-muted); text-decoration:none; }
+.portal-footer a:is(:hover,:active,:focus-visible) { color:var(--hh-ink); text-decoration:none; }
+.portal-footer a:focus-visible { outline:2px solid var(--hh-ink); outline-offset:3px; }
+.portal-footer a .hh-icon { width:16px; height:16px; margin:0; }
+.portal-footer .footer-friends { margin-top:24px; gap:16px; }
+.portal-footer .footer-meta { display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px 24px; margin-top:24px; padding-inline-end:64px; }
+@media(max-width:900px) { .portal-footer .footer-directory { grid-template-columns:minmax(0,1fr) minmax(0,1fr); } .portal-footer .footer-resource-group { grid-column:1/-1; } }
+@media(max-width:620px) { .portal-footer .footer-directory { grid-template-columns:minmax(0,1fr); gap:24px; } .portal-footer .footer-resource-group { grid-column:auto; } .portal-footer .footer-meta { flex-direction:column; } }

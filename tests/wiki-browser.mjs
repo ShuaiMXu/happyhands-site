@@ -10,7 +10,7 @@ await mkdir(output, { recursive: true });
 const browser = await chromium.launch({ channel: process.env.BROWSER_CHANNEL || 'chrome' });
 const checks = [];
 const screenshots = [];
-const routes = ['/guide/', '/en/guide/', '/ai-ui-review/', '/en/ai-ui-review/', '/ai-website-design/', '/en/ai-website-design/'];
+const routes = ['/guide/', '/en/guide/', '/ai-ui-review/', '/en/ai-ui-review/', '/ai-website-design/', '/en/ai-website-design/', '/nonprofit-website-design/', '/en/nonprofit-website-design/'];
 const name = route => route.split('/').filter(Boolean).join('-');
 async function capture(page, route, state, fullPage = false) {
   const path = resolve(output, `${name(route)}-${state}.png`);
@@ -22,9 +22,41 @@ async function ready(page, route) {
   await page.locator('header[data-menu-ready]').waitFor();
   await page.evaluate(() => document.fonts.ready);
   await page.waitForFunction(() => document.querySelector('.wiki-header-slot')?.style.height);
+  assert.equal(await page.locator('.guide-body p').first().evaluate(el => getComputedStyle(el).fontSize), '16px', `${route}: actual body reading size`);
 }
 async function noOverflow(page, label) {
   assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1), false, `${label}: horizontal overflow`);
+}
+async function verifyFooter(page, route) {
+  const footer = page.locator('.guide-footer');
+  const layout = await footer.evaluate(el => {
+    const grid = el.querySelector('.wiki-footer-grid').getBoundingClientRect();
+    return {
+      height: el.getBoundingClientRect().height,
+      inset: grid.left,
+      viewport: innerWidth,
+      links: [...el.querySelectorAll('a')].map(a => a.getBoundingClientRect().height),
+    };
+  });
+  assert.ok(layout.height < 460, `${route}: footer must stay compact`);
+  assert.ok(layout.links.every(height => height >= 44), `${route}: footer touch targets`);
+  const inset = layout.viewport < 600 ? 20 : layout.viewport <= 1100 ? 24 : Math.max(32, (layout.viewport - 1168) / 2);
+  assert.ok(Math.abs(layout.inset - inset) < 1, `${route}: footer follows page grid`);
+  const github = footer.getByRole('link', { name: 'GitHub', exact: true });
+  assert.equal(await github.count(), 1, `${route}: named GitHub icon link`);
+  assert.equal(await github.locator('.wiki-footer-github-icon').isVisible(), true);
+  if (layout.viewport <= 1100) {
+    const alignment = await footer.evaluate(el => ({
+      brand: el.querySelector('.wiki-footer-brand > a').getBoundingClientRect().left,
+      links: el.querySelector('.wiki-footer-links').getBoundingClientRect().left,
+      columns: [...el.querySelectorAll('.wiki-footer-section')].map(n => n.getBoundingClientRect().left),
+    }));
+    assert.ok(Math.abs(alignment.brand - alignment.columns[0]) < 1 && Math.abs(alignment.links - alignment.columns[1]) < 1, `${route}: brand row matches navigation columns`);
+  }
+  const prefix = route.startsWith('/en/') ? '/en' : '';
+  for (const provider of ['design-md', 'systems', 'cult-ui']) {
+    assert.equal(await footer.locator(`a[href="${prefix}/components/?provider=${provider}"]`).count(), 1);
+  }
 }
 async function verifyOutline(page) {
   await page.waitForFunction(() => {
@@ -70,7 +102,8 @@ try {
       article: document.querySelector('.guide-body').getBoundingClientRect().left,
     }));
     assert.ok(Math.abs(alignment.hero - alignment.article) <= 2, `${route}: hero/article left edges diverge`);
-    assert.equal(await page.locator('.guide-footer nav').count(), 3, `${route}: footer useful navigation groups`);
+    assert.equal(await page.locator('.guide-footer nav').count(), 2, `${route}: guide and resource navigation groups`);
+    assert.equal(await page.locator('.wiki-help a[href="https://github.com/ShuaiMXu/happyhands/issues"]').count(), 1, `${route}: help retained above footer`);
     await capture(page, route, 'desktop-top');
 
     // The transition must not remove the header's flow box and move its own threshold.
@@ -97,6 +130,7 @@ try {
     await settleScroll(page, await page.evaluate(() => document.documentElement.scrollHeight));
     await verifyOutline(page);
     await page.locator('.guide-footer').waitFor();
+    await verifyFooter(page, route);
     await capture(page, route, 'desktop-end');
     await capture(page, route, 'desktop-full', true);
 
@@ -184,20 +218,47 @@ try {
     await page.locator('#theme-toggle').click();
     assert.equal(await page.locator('html').getAttribute('data-theme'), 'dark');
     await noOverflow(page, `${route} dark phone`);
+    await verifyFooter(page, route);
     await capture(page, route, 'phone-dark');
     assert.deepEqual(errors, [], `${route}: browser errors`);
     checks.push({ route, desktop: true, phone: true, headerThreshold: true, outline: true, dialogs: true, reducedMotion: true, dark: true, errors });
     await context.close();
   }
-  // Intermediate tablet state: outline hidden, page list retained.
+  // The tablet uses the existing page/outline drawers, freeing the duplicate rail's width.
   const tablet = await browser.newContext({ viewport: { width: 768, height: 1024 } });
   const page = await tablet.newPage();
-  await ready(page, '/en/guide/');
-  assert.equal(await page.locator('.wiki-pages').isVisible(), true);
-  assert.equal(await page.locator('.wiki-outline').isVisible(), false);
-  await noOverflow(page, 'tablet');
-  await capture(page, '/en/guide/', 'tablet');
+  for (const route of routes) {
+    await ready(page, route);
+    assert.equal(await page.locator('.wiki-pages').isVisible(), false);
+    assert.equal(await page.locator('.wiki-outline').isVisible(), false);
+    assert.equal(await page.locator('.wiki-mobile-bar').isVisible(), true);
+    const geometry = await page.evaluate(() => {
+      const rect = selector => document.querySelector(selector).getBoundingClientRect();
+      const article = rect('.guide-body');
+      return { width: article.width, left: article.left, heading: rect('.guide-heading').left, end: rect('.wiki-article-end').left };
+    });
+    assert.ok(Math.abs(geometry.width - 672) <= 1, `${route}: tablet reading width`);
+    assert.ok(Math.abs(geometry.left - geometry.heading) <= 1 && Math.abs(geometry.left - geometry.end) <= 1, `${route}: tablet reading edges`);
+    await page.locator('[data-wiki-open="wiki-pages-dialog"]').click();
+    assert.equal(await page.locator('#wiki-pages-dialog [aria-current="page"]').count(), 1);
+    await page.keyboard.press('Tab');
+    assert.equal(await page.locator('#wiki-pages-dialog').evaluate(el => el.contains(document.activeElement)), true);
+    await page.keyboard.press('Escape');
+    await page.waitForFunction(() => !document.querySelector('#wiki-pages-dialog').open && document.activeElement?.getAttribute('data-wiki-open') === 'wiki-pages-dialog');
+    await noOverflow(page, `${route} tablet`);
+    await capture(page, route, 'tablet');
+  }
   await tablet.close();
+  const plainTablet = await browser.newContext({ javaScriptEnabled:false, viewport:{width:768,height:1024} });
+  const plainTabletPage = await plainTablet.newPage();
+  for (const route of routes) {
+    await plainTabletPage.goto(new URL(route, base).href);
+    assert.equal(await plainTabletPage.locator('.wiki-pages').isVisible(), true);
+    assert.equal(await plainTabletPage.locator('.wiki-outline').isVisible(), true);
+    assert.equal(await plainTabletPage.locator('.wiki-mobile-bar').isVisible(), false);
+    await noOverflow(plainTabletPage, `${route} tablet without JavaScript`);
+  }
+  await plainTablet.close();
   await writeFile(resolve(output, 'report.json'), JSON.stringify({ base, checks, screenshots, status: 'passed' }, null, 2));
   console.log(JSON.stringify({ status: 'passed', pages: checks.length, output, screenshots: screenshots.length }, null, 2));
 } catch (error) {

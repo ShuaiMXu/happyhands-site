@@ -11,9 +11,9 @@
 .wiki-layout header.hh-site-header.is-floating.is-leaving { animation: wiki-header-exit 120ms ease-out both; }
 @keyframes wiki-header-enter { from { transform:translateY(-24px);filter:blur(8px);opacity:0; } to { transform:translateY(0);filter:blur(0);opacity:1; } }
 @keyframes wiki-header-exit { from { transform:translateY(0);filter:blur(0);opacity:1; } to { transform:translateY(-24px);filter:blur(8px);opacity:0; } }
-.wiki-layout .guide-shell { width:min(1440px,100% - 64px);margin:56px auto 0; }
+.wiki-layout .guide-shell { width:min(1168px,100% - 64px);margin:56px auto 0; }
 .wiki-layout .guide-heading { max-width:800px;margin:0 248px 64px; }
-.wiki-columns { display:grid;grid-template-columns:208px minmax(0,800px) 208px;gap:0 40px;align-items:start;padding-bottom:64px; }
+.wiki-columns { display:grid;grid-template-columns:208px minmax(0,672px) 208px;gap:0 40px;align-items:start;padding-bottom:64px; }
 .wiki-layout .guide-body { min-width:0;max-width:none;grid-column:2;grid-row:1; }
 .wiki-layout .guide-body section,.wiki-layout .guide-body :is(h2,h3) { scroll-margin-top:calc(var(--wiki-header-height) + 24px); }
 .wiki-pages,.wiki-layout .wiki-outline { position:sticky;top:calc(var(--wiki-header-height) + 24px);max-height:calc(100dvh - var(--wiki-header-height) - 48px);align-self:start; }
@@ -64,6 +64,10 @@
  .wiki-layout .guide-heading { margin-left:212px;margin-right:0; }
  .wiki-footer-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
  .wiki-columns { grid-template-columns:180px minmax(0,1fr);gap:0 32px; }
+ /* Once the existing drawers are ready, give their duplicate page rail's space back to reading. */
+ .wiki-enhanced .guide-heading { margin-left:auto;margin-right:auto; }
+ .wiki-enhanced .wiki-columns { display:block;max-width:672px;margin-inline:auto; }
+ .wiki-enhanced .wiki-pages { display:none; }
  .wiki-layout.wiki-enhanced .wiki-outline { display:none; }
  .wiki-pages { max-height:calc(100dvh - var(--wiki-header-height) - 112px); }
  .wiki-enhanced .wiki-mobile-bar { display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);position:fixed;inset:auto 0 0;z-index:45;border-top:.5px solid var(--hh-line);background:var(--hh-bg-raised);padding:8px 16px calc(8px + env(safe-area-inset-bottom)); }
@@ -82,7 +86,6 @@
  .wiki-layout .guide-shell { width:calc(100% - 40px);margin-top:32px; }
  .wiki-layout .guide-heading { margin:0 0 40px; }
  .wiki-columns { display:block;padding-bottom:40px; }
- .wiki-enhanced .wiki-pages { display:none; }
  .wiki-help { padding:20px; }
  .wiki-pagination { gap:20px; }
  .wiki-layout .guide-footer { padding-left:20px;padding-right:20px; }
@@ -92,3 +95,10 @@
  .wiki-layout *, .wiki-layout { scroll-behavior:auto!important; }
  .wiki-layout header.hh-site-header.is-floating,.wiki-layout header.hh-site-header.is-floating.is-leaving,.wiki-sheet[open] { animation:none; }
 }
+
+/* Reading roles share four sizes; navigation and code remain distinct from prose. */
+body.wiki-layout { font-size:16px; }
+.wiki-layout .guide-heading { max-width:672px; }
+.wiki-layout .guide-heading h1 { font-size:32px;font-weight:400; }
+.wiki-layout .guide-body :is(h2,h3) { font-weight:400; }
+.wiki-layout :is(.hh-site-header,.guide-actions,.wiki-pages,.wiki-outline,.wiki-mobile-bar,.wiki-sheet nav,.guide-footer,.wiki-pagination,.wiki-help a) { font-size:14px; }

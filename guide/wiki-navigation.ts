@@ -4,10 +4,10 @@ type Language = 'zh' | 'en';
 export type WikiSection = readonly [string, string];
 const core = 'https://github.com/ShuaiMXu/happyhands';
 const pages = [
- {path:'/guide/', zh:'HappyHands 使用指南', en:'The HappyHands guide'},
- {path:'/ai-ui-review/', zh:'AI 界面评审，让每次修改有依据', en:'AI UI review for agent-built websites'},
- {path:'/ai-website-design/', zh:'AI 网站设计，从初稿走向可复核的界面', en:'AI website design, from first build to reviewed UI'},
- {path:'/nonprofit-website-design/', zh:'公益网站设计评审', en:'Nonprofit website design review'},
+ {path:'/guide/', zh:'使用指南', en:'Guide'},
+ {path:'/ai-ui-review/', zh:'界面审查', en:'UI review'},
+ {path:'/ai-website-design/', zh:'网站设计', en:'Website design'},
+ {path:'/nonprofit-website-design/', zh:'公益网站', en:'Nonprofit websites'},
 ];
 const localized = (path:string,lang:Language) => `${lang==='en'?'/en':''}${path}`;
 const escape = (text:string) => text.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');

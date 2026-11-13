@@ -21,6 +21,7 @@ import * as en from './content.en.js';
 import { repositories, heroScreens } from './content.js';
 import { startWhirl } from './whirl.js';
 import { portalContent } from './render-content.js';
+import { portalFooter } from './render-footer.js';
 import { setupResourceFeed, syncResourceFeedTheme } from './resource-feed.js';
 import './resource-feed.css';
 let disposeResourceFeed;
@@ -156,7 +157,8 @@ function renderContent() {
   // footer
   const footer = document.querySelector('footer');
   if (footer) {
-    footer.innerHTML = `<span>${c.ui.footer.left}</span><span>${c.ui.footer.middle}</span><a href="${repositories.core}">${c.ui.footer.right} ${iconMarkup('external')}</a><div class="footer-friends" role="group" aria-labelledby="footer-friends-label"><span id="footer-friends-label">${c.ui.footer.friends}</span><a href="https://icons.kubai.design/">Kubai Icons</a></div>`;
+    footer.classList.add('portal-footer');
+    footer.innerHTML = portalFooter(lang);
   }
 
   setupConnect(lang);

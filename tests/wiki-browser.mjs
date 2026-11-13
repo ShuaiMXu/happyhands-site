@@ -10,7 +10,7 @@ await mkdir(output, { recursive: true });
 const browser = await chromium.launch({ channel: process.env.BROWSER_CHANNEL || 'chrome' });
 const checks = [];
 const screenshots = [];
-const routes = ['/guide/', '/en/guide/', '/ai-ui-review/', '/en/ai-ui-review/', '/ai-website-design/', '/en/ai-website-design/'];
+const routes = ['/guide/', '/en/guide/', '/ai-ui-review/', '/en/ai-ui-review/', '/ai-website-design/', '/en/ai-website-design/', '/nonprofit-website-design/', '/en/nonprofit-website-design/'];
 const name = route => route.split('/').filter(Boolean).join('-');
 async function capture(page, route, state, fullPage = false) {
   const path = resolve(output, `${name(route)}-${state}.png`);
@@ -189,15 +189,41 @@ try {
     checks.push({ route, desktop: true, phone: true, headerThreshold: true, outline: true, dialogs: true, reducedMotion: true, dark: true, errors });
     await context.close();
   }
-  // Intermediate tablet state: outline hidden, page list retained.
+  // The tablet uses the existing page/outline drawers, freeing the duplicate rail's width.
   const tablet = await browser.newContext({ viewport: { width: 768, height: 1024 } });
   const page = await tablet.newPage();
-  await ready(page, '/en/guide/');
-  assert.equal(await page.locator('.wiki-pages').isVisible(), true);
-  assert.equal(await page.locator('.wiki-outline').isVisible(), false);
-  await noOverflow(page, 'tablet');
-  await capture(page, '/en/guide/', 'tablet');
+  for (const route of routes) {
+    await ready(page, route);
+    assert.equal(await page.locator('.wiki-pages').isVisible(), false);
+    assert.equal(await page.locator('.wiki-outline').isVisible(), false);
+    assert.equal(await page.locator('.wiki-mobile-bar').isVisible(), true);
+    const geometry = await page.evaluate(() => {
+      const rect = selector => document.querySelector(selector).getBoundingClientRect();
+      const article = rect('.guide-body');
+      return { width: article.width, left: article.left, heading: rect('.guide-heading').left, end: rect('.wiki-article-end').left };
+    });
+    assert.ok(Math.abs(geometry.width - 672) <= 1, `${route}: tablet reading width`);
+    assert.ok(Math.abs(geometry.left - geometry.heading) <= 1 && Math.abs(geometry.left - geometry.end) <= 1, `${route}: tablet reading edges`);
+    await page.locator('[data-wiki-open="wiki-pages-dialog"]').click();
+    assert.equal(await page.locator('#wiki-pages-dialog [aria-current="page"]').count(), 1);
+    await page.keyboard.press('Tab');
+    assert.equal(await page.locator('#wiki-pages-dialog').evaluate(el => el.contains(document.activeElement)), true);
+    await page.keyboard.press('Escape');
+    await page.waitForFunction(() => !document.querySelector('#wiki-pages-dialog').open && document.activeElement?.getAttribute('data-wiki-open') === 'wiki-pages-dialog');
+    await noOverflow(page, `${route} tablet`);
+    await capture(page, route, 'tablet');
+  }
   await tablet.close();
+  const plainTablet = await browser.newContext({ javaScriptEnabled:false, viewport:{width:768,height:1024} });
+  const plainTabletPage = await plainTablet.newPage();
+  for (const route of routes) {
+    await plainTabletPage.goto(new URL(route, base).href);
+    assert.equal(await plainTabletPage.locator('.wiki-pages').isVisible(), true);
+    assert.equal(await plainTabletPage.locator('.wiki-outline').isVisible(), true);
+    assert.equal(await plainTabletPage.locator('.wiki-mobile-bar').isVisible(), false);
+    await noOverflow(plainTabletPage, `${route} tablet without JavaScript`);
+  }
+  await plainTablet.close();
   await writeFile(resolve(output, 'report.json'), JSON.stringify({ base, checks, screenshots, status: 'passed' }, null, 2));
   console.log(JSON.stringify({ status: 'passed', pages: checks.length, output, screenshots: screenshots.length }, null, 2));
 } catch (error) {

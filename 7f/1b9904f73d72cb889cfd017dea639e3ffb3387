@@ -1,0 +1,48 @@
+tests/portal-footer.test.mjs
+  s_c3a809bd8a1ec1::t_fde5e38e29e5de 1-26
+apps/portal/index.html
+  s_c3a809bd8a1ec1::t_fde5e38e29e5de 73
+guide/wiki-navigation.ts
+  s_c3a809bd8a1ec1::t_69323f9a005ad1 7-10
+apps/portal/render-content.js
+  s_c3a809bd8a1ec1::t_fde5e38e29e5de 1,7
+docs/plans/remaining-2026-11-12.md
+  s_c3a809bd8a1ec1::t_77fed73697f9cb 22
+  s_c3a809bd8a1ec1::t_85b72f888da444 7-8,17-21
+  s_c3a809bd8a1ec1::t_e7bc4a85239752 23
+apps/portal/render-footer.js
+  s_c3a809bd8a1ec1::t_fde5e38e29e5de 1-23
+apps/portal/footer-directory.js
+  s_c3a809bd8a1ec1::t_fde5e38e29e5de 1-13
+en/apps/portal/index.html
+  s_c3a809bd8a1ec1::t_fde5e38e29e5de 73
+guide/wiki-layout.css
+  s_c3a809bd8a1ec1::t_fde5e38e29e5de 67-68,70
+  s_c3a809bd8a1ec1::t_6f5d97f92417cc 14,16,69,98-104
+apps/portal/layout.css
+  s_c3a809bd8a1ec1::t_101501bc5a9a31 88
+  s_c3a809bd8a1ec1::t_fde5e38e29e5de 76-87,89-90
+package.json
+  s_c3a809bd8a1ec1::t_0f4a79cd09f5c4 20
+apps/portal/main.js
+  s_c3a809bd8a1ec1::t_fde5e38e29e5de 24,160-161
+tests/wiki-browser.mjs
+  s_c3a809bd8a1ec1::t_fde5e38e29e5de 13,192,195-204,206-215,217-226
+  s_c3a809bd8a1ec1::t_afb6d36ee3b44a 205
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "7f1b9904f73d72cb889cfd017dea639e3ffb3387",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

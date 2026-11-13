@@ -41,6 +41,17 @@ async function verifyFooter(page, route) {
   assert.ok(layout.links.every(height => height >= 44), `${route}: footer touch targets`);
   const inset = layout.viewport < 600 ? 20 : layout.viewport <= 1100 ? 24 : Math.max(32, (layout.viewport - 1168) / 2);
   assert.ok(Math.abs(layout.inset - inset) < 1, `${route}: footer follows page grid`);
+  const github = footer.getByRole('link', { name: 'GitHub', exact: true });
+  assert.equal(await github.count(), 1, `${route}: named GitHub icon link`);
+  assert.equal(await github.locator('.wiki-footer-github-icon').isVisible(), true);
+  if (layout.viewport <= 1100) {
+    const alignment = await footer.evaluate(el => ({
+      brand: el.querySelector('.wiki-footer-brand > a').getBoundingClientRect().left,
+      links: el.querySelector('.wiki-footer-links').getBoundingClientRect().left,
+      columns: [...el.querySelectorAll('.wiki-footer-section')].map(n => n.getBoundingClientRect().left),
+    }));
+    assert.ok(Math.abs(alignment.brand - alignment.columns[0]) < 1 && Math.abs(alignment.links - alignment.columns[1]) < 1, `${route}: brand row matches navigation columns`);
+  }
   const prefix = route.startsWith('/en/') ? '/en' : '';
   for (const provider of ['design-md', 'systems', 'cult-ui']) {
     assert.equal(await footer.locator(`a[href="${prefix}/components/?provider=${provider}"]`).count(), 1);

@@ -50,6 +50,9 @@
 .wiki-footer-brand,.wiki-footer-section { display:flex;flex-direction:column;align-items:flex-start;gap:0;min-width:0; }
 .wiki-footer-section h2,.wiki-footer-brand>a:first-child { color:var(--hh-ink);font-size:14px;line-height:1.5;font-weight:400;margin:0 0 8px; }
 .wiki-footer-section a,.wiki-footer-brand a { display:flex;align-items:center;min-height:44px; }
+.wiki-footer-links { display:flex;align-items:center;flex-wrap:wrap;gap:0 12px;min-width:0; }
+.wiki-footer-github { justify-content:center;min-width:44px; }
+.wiki-footer-github-icon { display:block;width:20px;height:20px;background:currentColor;mask:url("/brand/github-mark.svg") center/contain no-repeat;-webkit-mask:url("/brand/github-mark.svg") center/contain no-repeat; }
 .wiki-footer-section a[aria-current="page"] { color:var(--hh-ink); }
 .wiki-mobile-bar { display:none; }
 .wiki-sheet { position:fixed;inset:auto 0 0;margin:0 auto;width:min(100%,640px);max-width:100%;max-height:80dvh;padding:24px 24px calc(24px + env(safe-area-inset-bottom));border:.5px solid var(--hh-line);border-radius:var(--hh-radius-card) var(--hh-radius-card) 0 0;background:var(--hh-bg-raised);color:var(--hh-ink);box-shadow:0 -8px 32px color-mix(in srgb,var(--hh-ink) 10%,transparent);overflow-y:auto; }
@@ -63,8 +66,8 @@
  .wiki-layout .guide-shell { width:calc(100% - 48px); }
  .wiki-layout .guide-heading { margin-left:212px;margin-right:0; }
  .wiki-footer-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
- .wiki-footer-brand { grid-column:1/-1;flex-direction:row;align-items:center;flex-wrap:wrap;gap:0 24px; }
- .wiki-footer-brand>a:first-child { margin:0 auto 0 0; }
+ .wiki-footer-brand { grid-column:1/-1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:center;gap:0 40px; }
+ .wiki-footer-brand>a:first-child { margin:0; }
  .wiki-layout .guide-footer { padding-inline:24px; }
  .wiki-columns { grid-template-columns:180px minmax(0,1fr);gap:0 32px; }
  /* Once the existing drawers are ready, give their duplicate page rail's space back to reading. */
@@ -93,6 +96,7 @@
  .wiki-pagination { gap:20px; }
  .wiki-layout .guide-footer { padding-left:20px;padding-right:20px; }
  .wiki-footer-grid { gap:24px; }
+ .wiki-footer-brand { column-gap:24px; }
 }
 @media(prefers-reduced-motion:reduce) {
  .wiki-layout *, .wiki-layout { scroll-behavior:auto!important; }

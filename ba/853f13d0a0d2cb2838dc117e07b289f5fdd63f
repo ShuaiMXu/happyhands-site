@@ -1,0 +1,27 @@
+tests/wiki-browser.mjs
+  s_c3a809bd8a1ec1::t_99b644f7fdb86c 44-54
+guide/wiki-navigation.ts
+  s_c3a809bd8a1ec1::t_17f74142a17908 36
+public/brand/github-mark.svg
+  s_c3a809bd8a1ec1::t_17f74142a17908 1-2
+guide/wiki-layout.css
+  s_c3a809bd8a1ec1::t_17f74142a17908 53-55,69-70,99
+public/brand/github-mark.LICENSE
+  s_c3a809bd8a1ec1::t_17f74142a17908 1-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "ba853f13d0a0d2cb2838dc117e07b289f5fdd63f",
+  "prompts": {},
+  "sessions": {
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

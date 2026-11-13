@@ -22,6 +22,7 @@ async function ready(page, route) {
   await page.locator('header[data-menu-ready]').waitFor();
   await page.evaluate(() => document.fonts.ready);
   await page.waitForFunction(() => document.querySelector('.wiki-header-slot')?.style.height);
+  assert.equal(await page.locator('.guide-body p').first().evaluate(el => getComputedStyle(el).fontSize), '16px', `${route}: actual body reading size`);
 }
 async function noOverflow(page, label) {
   assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1), false, `${label}: horizontal overflow`);

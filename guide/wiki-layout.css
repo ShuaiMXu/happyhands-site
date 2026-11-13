@@ -104,7 +104,7 @@
 }
 
 /* Reading roles share four sizes; navigation and code remain distinct from prose. */
-body.wiki-layout { font-size:16px; }
+.wiki-layout { font-size:16px; }
 .wiki-layout .guide-heading { max-width:672px; }
 .wiki-layout .guide-heading h1 { font-size:32px;font-weight:400; }
 .wiki-layout .guide-body :is(h2,h3) { font-weight:400; }

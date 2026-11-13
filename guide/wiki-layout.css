@@ -45,10 +45,10 @@
 .wiki-pagination a { display:flex;flex-direction:column;min-height:44px; }
 .wiki-pagination a[rel="next"] { text-align:right; }
 .wiki-pagination span { color:var(--hh-ink-muted);margin-bottom:8px; }
-.wiki-layout .guide-footer { display:grid;min-height:55svh;align-items:center;background:var(--hh-bg-sunken);margin:0;padding:64px 32px; }
-.wiki-footer-grid { display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr) repeat(2,minmax(0,1fr));gap:40px;width:min(1296px,100%);margin:0 auto; }
-.wiki-footer-brand,.wiki-footer-section { display:flex;flex-direction:column;align-items:flex-start;gap:12px;min-width:0; }
-.wiki-footer-section h2,.wiki-footer-brand>a:first-child { color:var(--hh-ink);font-size:20px;line-height:1.5;font-weight:400;margin:0 0 8px; }
+.wiki-layout .guide-footer { display:block;min-height:0;background:transparent;margin:0;padding:32px; }
+.wiki-footer-grid { display:grid;grid-template-columns:minmax(0,2fr) repeat(2,minmax(0,1fr));gap:24px 40px;width:min(1168px,100%);margin:0 auto; }
+.wiki-footer-brand,.wiki-footer-section { display:flex;flex-direction:column;align-items:flex-start;gap:0;min-width:0; }
+.wiki-footer-section h2,.wiki-footer-brand>a:first-child { color:var(--hh-ink);font-size:14px;line-height:1.5;font-weight:400;margin:0 0 8px; }
 .wiki-footer-section a,.wiki-footer-brand a { display:flex;align-items:center;min-height:44px; }
 .wiki-footer-section a[aria-current="page"] { color:var(--hh-ink); }
 .wiki-mobile-bar { display:none; }
@@ -63,6 +63,9 @@
  .wiki-layout .guide-shell { width:calc(100% - 48px); }
  .wiki-layout .guide-heading { margin-left:212px;margin-right:0; }
  .wiki-footer-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+ .wiki-footer-brand { grid-column:1/-1;flex-direction:row;align-items:center;flex-wrap:wrap;gap:0 24px; }
+ .wiki-footer-brand>a:first-child { margin:0 auto 0 0; }
+ .wiki-layout .guide-footer { padding-inline:24px; }
  .wiki-columns { grid-template-columns:180px minmax(0,1fr);gap:0 32px; }
  /* Once the existing drawers are ready, give their duplicate page rail's space back to reading. */
  .wiki-enhanced .guide-heading { margin-left:auto;margin-right:auto; }
@@ -75,7 +78,7 @@
  .wiki-mobile-bar button+button { border-left:.5px solid var(--hh-line); }
  .wiki-mobile-bar span { overflow:hidden;text-overflow:ellipsis;white-space:nowrap; }
  .wiki-mobile-bar .hh-icon { flex:none; }
- .wiki-layout .guide-footer { padding-bottom:calc(88px + env(safe-area-inset-bottom)); }
+ .wiki-layout .guide-footer { padding-bottom:calc(76px + env(safe-area-inset-bottom)); }
 }
 @media(max-width:1100px) {
  .wiki-layout:not(.wiki-enhanced) .wiki-columns { display:block; }
@@ -89,7 +92,7 @@
  .wiki-help { padding:20px; }
  .wiki-pagination { gap:20px; }
  .wiki-layout .guide-footer { padding-left:20px;padding-right:20px; }
- .wiki-footer-grid { grid-template-columns:1fr;gap:32px; }
+ .wiki-footer-grid { gap:24px; }
 }
 @media(prefers-reduced-motion:reduce) {
  .wiki-layout *, .wiki-layout { scroll-behavior:auto!important; }

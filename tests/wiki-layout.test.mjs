@@ -51,6 +51,6 @@ test('narrow navigation has a no-JavaScript fallback before enhancement',()=>{
 test('footer offers real guide, resource and support destinations',()=>{
  const html=guideContent('en');
  const footer=html.match(/<footer class="guide-footer">([\s\S]*?)<\/footer>/)[1];
- assert.equal((footer.match(/class="wiki-footer-section"/g)||[]).length,3);
- for(const href of ['/en/guide/','/en/ai-ui-review/','/en/ai-website-design/','/components/?provider=systems','https://github.com/ShuaiMXu/happyhands/issues','/llms.txt']) assert.ok(footer.includes(`href="${href}"`));
+ assert.equal((footer.match(/class="wiki-footer-section"/g)||[]).length,2);
+ for(const href of ['/en/guide/','/en/ai-ui-review/','/en/ai-website-design/','/en/components/?provider=systems','/en/components/?provider=design-md','/en/components/?provider=cult-ui','/llms.txt']) assert.ok(footer.includes(`href="${href}"`));
 });

@@ -26,6 +26,26 @@ async function ready(page, route) {
 async function noOverflow(page, label) {
   assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1), false, `${label}: horizontal overflow`);
 }
+async function verifyFooter(page, route) {
+  const footer = page.locator('.guide-footer');
+  const layout = await footer.evaluate(el => {
+    const grid = el.querySelector('.wiki-footer-grid').getBoundingClientRect();
+    return {
+      height: el.getBoundingClientRect().height,
+      inset: grid.left,
+      viewport: innerWidth,
+      links: [...el.querySelectorAll('a')].map(a => a.getBoundingClientRect().height),
+    };
+  });
+  assert.ok(layout.height < 460, `${route}: footer must stay compact`);
+  assert.ok(layout.links.every(height => height >= 44), `${route}: footer touch targets`);
+  const inset = layout.viewport < 600 ? 20 : layout.viewport <= 1100 ? 24 : Math.max(32, (layout.viewport - 1168) / 2);
+  assert.ok(Math.abs(layout.inset - inset) < 1, `${route}: footer follows page grid`);
+  const prefix = route.startsWith('/en/') ? '/en' : '';
+  for (const provider of ['design-md', 'systems', 'cult-ui']) {
+    assert.equal(await footer.locator(`a[href="${prefix}/components/?provider=${provider}"]`).count(), 1);
+  }
+}
 async function verifyOutline(page) {
   await page.waitForFunction(() => {
     const links = [...document.querySelectorAll('.wiki-outline a[href^="#"]')];
@@ -70,7 +90,8 @@ try {
       article: document.querySelector('.guide-body').getBoundingClientRect().left,
     }));
     assert.ok(Math.abs(alignment.hero - alignment.article) <= 2, `${route}: hero/article left edges diverge`);
-    assert.equal(await page.locator('.guide-footer nav').count(), 3, `${route}: footer useful navigation groups`);
+    assert.equal(await page.locator('.guide-footer nav').count(), 2, `${route}: guide and resource navigation groups`);
+    assert.equal(await page.locator('.wiki-help a[href="https://github.com/ShuaiMXu/happyhands/issues"]').count(), 1, `${route}: help retained above footer`);
     await capture(page, route, 'desktop-top');
 
     // The transition must not remove the header's flow box and move its own threshold.
@@ -97,6 +118,7 @@ try {
     await settleScroll(page, await page.evaluate(() => document.documentElement.scrollHeight));
     await verifyOutline(page);
     await page.locator('.guide-footer').waitFor();
+    await verifyFooter(page, route);
     await capture(page, route, 'desktop-end');
     await capture(page, route, 'desktop-full', true);
 
@@ -184,6 +206,7 @@ try {
     await page.locator('#theme-toggle').click();
     assert.equal(await page.locator('html').getAttribute('data-theme'), 'dark');
     await noOverflow(page, `${route} dark phone`);
+    await verifyFooter(page, route);
     await capture(page, route, 'phone-dark');
     assert.deepEqual(errors, [], `${route}: browser errors`);
     checks.push({ route, desktop: true, phone: true, headerThreshold: true, outline: true, dialogs: true, reducedMotion: true, dark: true, errors });

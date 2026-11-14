@@ -18,7 +18,7 @@ test('four language routes have unique metadata, one H1 and reciprocal alternate
   assert.ok(head.includes(`href="${origin}${workflowPaths[kind]}"`));assert.ok(head.includes(`href="${origin}/en${workflowPaths[kind]}"`));
   const html=enhanceSeoHtml(enhanceSeoHtml('<html><head></head></html>',key),key);
   assert.equal((html.match(/rel="canonical"/g)||[]).length,1);assert.equal((html.match(/application\/ld\+json/g)||[]).length,1);
-  assert.ok(body.includes('Codex CLI'));assert.ok(body.includes('Local Web Alpha'));assert.ok(body.includes('.harness/'));
+  assert.ok(body.includes('Codex CLI'));assert.ok(body.includes('v1.0.0'));assert.ok(body.includes('.harness/'));
   assert.ok(!body.includes('undefined'));assert.ok(!body.includes('·'));
  }
  assert.equal(titles.size,4);assert.equal(descriptions.size,4);

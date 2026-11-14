@@ -42,7 +42,7 @@ console.log('English portal body, language links, resource links, canonical site
 for(const prefix of ['', 'en/']){
  const guide=await readFile(`dist/${prefix}guide/index.html`,'utf8');
  const lang=prefix?'en':'zh';
- for(const token of ['id="setup"','id="workbench"','happyhands-lite-0.1.0-alpha.2.tgz happyhands install','pnpm workbench','~/.happyhands/runs','.harness/'])assert.ok(guide.includes(token),`${prefix}guide ${token}`);
+ for(const token of ['id="setup"','id="workbench"','happyhands-lite-1.0.0.tgz happyhands install','pnpm workbench','~/.happyhands/runs','.harness/'])assert.ok(guide.includes(token),`${prefix}guide ${token}`);
  const schema=JSON.parse(guide.match(/<script id="site-structured-data" type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
  const faq=schema['@graph'].find(x=>x['@type']==='FAQPage');
  for(const row of faq.mainEntity){assert.ok(guide.includes(row.name));assert.ok(guide.includes(row.acceptedAnswer.text));}
@@ -52,4 +52,4 @@ for(const prefix of ['', 'en/']){
   assert.ok(html.includes('~/.happyhands/runs')&&html.includes('.harness/'),`${prefix}${route} storage defaults`);
  }
 }
-console.log('Bilingual Alpha.2 setup, optional workbench, workflow storage and FAQ parity OK');
+console.log('Bilingual v1.0.0 setup, optional workbench, workflow storage and FAQ parity OK');

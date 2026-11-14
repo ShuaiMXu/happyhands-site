@@ -1,2 +1,4 @@
 # Integrity checks require byte-identical upstream snapshots on every host.
 vendor/cult-ui/upstream/** -text
+public/design-how/** -text
+public/r/** -text

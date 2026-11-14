@@ -27,7 +27,7 @@ test('English system builds use complete localized fallback content, not partial
   for(const key of ['glaze','sodium'])await write(`dist/systems/${key}/index.html`,'<html><head></head><body></body></html>');
   await write('public/design-how/catalog.json',JSON.stringify({systems:['glaze','sodium'].map(id=>({id,name:id,summary:'Source reference'}))}));
   await write('dist/sitemap.xml','<urlset></urlset>');
-  execFileSync(process.execPath,['--import',fileURLToPath(import.meta.resolve('tsx')),fileURLToPath(new URL('../scripts/build-language-pages.mjs',import.meta.url))],{cwd,stdio:'pipe'});
+  execFileSync(process.execPath,['--import',import.meta.resolve('tsx'),fileURLToPath(new URL('../scripts/build-language-pages.mjs',import.meta.url))],{cwd,stdio:'pipe'});
   for(const key of ['quartz','lime'] as const){
    const html=await readFile(join(cwd,`dist/en/systems/${key}/index.html`),'utf8');
    const fallback=html.match(/<noscript>([\s\S]*?)<\/noscript>/)?.[1];

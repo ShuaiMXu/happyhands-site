@@ -1,6 +1,6 @@
 # HappyHands
 
-> HappyHands is an open-source local design review tool for products built with coding agents. Use the lightweight Skill or optional workbench. It helps connect screenshots, project design rules, scoped code changes and review decisions. Current status: Local Web Alpha.
+> HappyHands is an open-source local design review tool for products built with coding agents. Use the lightweight Skill or optional workbench. It helps connect screenshots, project design rules, scoped code changes and review decisions. Current status: v1.0.0.
 
 ## Official sources
 
@@ -9,8 +9,8 @@
 - [English guide](https://happyhands.cc/en/guide/): Local setup, supported tool roles, design resources, review workflow, data handling and limitations.
 - [中文使用指南](https://happyhands.cc/guide/): 本地安装、编码工具接入、设计资源、审阅流程、数据与限制。
 - [Core source](https://github.com/ShuaiMXu/happyhands): Original HappyHands core code is MIT licensed. Third-party dependencies retain their own terms.
-- [Lightweight Alpha.2 guide](https://github.com/ShuaiMXu/happyhands/blob/main/docs/lightweight.md): Skill installation, reference selection, default run storage and execution limits.
-- [Alpha.2 release](https://github.com/ShuaiMXu/happyhands/releases/tag/v0.1.0-alpha.2): Release asset and actual validation scope.
+- [Lightweight v1.0.0 guide](https://github.com/ShuaiMXu/happyhands/blob/main/docs/lightweight.md): Skill installation, reference selection, default run storage and execution limits.
+- [v1.0.0 release](https://github.com/ShuaiMXu/happyhands/releases/tag/v1.0.0): Release asset and actual validation scope.
 - [Harness documentation](https://github.com/ShuaiMXu/happyhands/blob/main/docs/harness.md): Commands and execution boundaries.
 - [Website source](https://github.com/ShuaiMXu/happyhands-site): Public website implementation.
 
@@ -27,7 +27,7 @@
 ## Product facts
 
 - The website provides guidance and design resources. Review execution uses the Harness through the lightweight Skill, source CLI or optional local workbench.
-- Start with the Alpha.2 lightweight Skill using Node.js 22.15+, npm, Git, Chrome or Edge and a configured agent. Follow the linked guide for the pinned release install command. The default destination is the Codex user Skill directory, leaving product source untouched and refusing to overwrite an existing Skill.
+- Start with the v1.0.0 lightweight Skill using Node.js 22.15+, npm, Git, Chrome or Edge and a configured agent. Follow the linked guide for the pinned release install command. The default destination is the Codex user Skill directory, leaving product source untouched and refusing to overwrite an existing Skill.
 - The source CLI and visual workbench remain optional. With pnpm 11.19.0, clone the core repository, run `pnpm install --frozen-lockfile`, then `pnpm workbench`.
 - Codex CLI supports model diagnosis, screenshot-aware review and implementation. Claude Code has an implementation adapter; complete end-to-end validation remains open.
 - Cursor, Kimi Code, WorkBuddy and DSH can operate the Harness with local browser, terminal and repository access. They do not have dedicated implementation adapters in this version.

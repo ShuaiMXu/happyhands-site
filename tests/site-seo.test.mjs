@@ -218,8 +218,8 @@ test('homepage language navigation preserves active state and current history la
  assert.ok(source.includes("window.scrollTo({top:y,behavior:'instant'})"));
 });
 
-test('Alpha.2 discovery distinguishes the lightweight Skill from the optional workbench',async()=>{
- const install='npx --yes --package=https://github.com/ShuaiMXu/happyhands/releases/download/v0.1.0-alpha.2/happyhands-lite-0.1.0-alpha.2.tgz happyhands install';
+test('v1.0.0 discovery distinguishes the lightweight Skill from the optional workbench',async()=>{
+ const install='npx --yes --package=https://github.com/ShuaiMXu/happyhands/releases/download/v1.0.0/happyhands-lite-1.0.0.tgz happyhands install';
  const {nonprofitContent}=await import('../workflows/nonprofit.ts');
  for(const lang of ['zh','en']){
   const guide=guideContent(lang),prefix=lang==='en'?'/en':'';
@@ -237,9 +237,12 @@ test('Alpha.2 discovery distinguishes the lightweight Skill from the optional wo
   for(const body of [guide,workflowContent('review',lang),workflowContent('design',lang),nonprofitContent(lang)]){
    assert.ok(body.includes(lang==='zh'?'轻量 Skill':'lightweight Skill'));
    assert.ok(body.includes('~/.happyhands/runs')&&body.includes('.harness/'),'Both storage defaults are explicit');
-   assert.ok(body.includes('Codex CLI')&&body.includes('Local Web Alpha'));
+   assert.ok(body.includes('Codex CLI')&&body.includes('v1.0.0'));
   }
   const app=seoData(lang==='en'?'portalEn':'portal').graph['@graph'].find(x=>x['@type']==='SoftwareApplication');
+  assert.equal(app.softwareVersion,'1.0.0');
+  const source=await read(`${prefix.slice(1)?prefix.slice(1)+'/':''}apps/portal/index.html`);
+  assert.ok(source.includes(`href="${prefix}/guide/#setup">${lang==='zh'?'安装':'Install'} v1.0.0`),'Homepage installation CTA keeps its language and opens setup');
   assert.equal(app.operatingSystem,undefined,'Do not imply unverified cross-platform coverage');
   const homepage=portalContent(lang);
   assert.ok(homepage.includes(lang==='zh'?'由你决定接受或拒绝修改':'You decide which changes to accept or reject.'));
@@ -249,5 +252,5 @@ test('Alpha.2 discovery distinguishes the lightweight Skill from the optional wo
   assert.ok(faq.includes(lang==='zh'?'轻量 Skill':'lightweight Skill'));
  }
  const facts=await read('public/llms.txt');
- for(const term of ['Alpha.2','docs/lightweight.md','releases/tag/v0.1.0-alpha.2','~/.happyhands/runs','.harness/','optional local workbench','not a verified repair'])assert.ok(facts.includes(term),term);
+ for(const term of ['v1.0.0','docs/lightweight.md','releases/tag/v1.0.0','~/.happyhands/runs','.harness/','optional local workbench','not a verified repair'])assert.ok(facts.includes(term),term);
 });

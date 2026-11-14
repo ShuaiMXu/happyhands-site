@@ -96,14 +96,14 @@ export const elements = [
 export const hero = {
   "eyebrow": [
     "面向独立开发者",
-    "Alpha / 开源 / 本地运行"
+    "v1.0.0 / 开源 / 本地运行"
   ],
   "h1": "让你的产品，",
   "h1Accent": "更专业",
   "h1Suffix": "。",
   "copy": "系统优化页面布局、交互流程与组件一致性。结合 AI 辅助修改与效果复核，提升产品体验。",
   "cta": "复制接入提示词",
-  "ctaSecondary": "接入指南"
+  "ctaSecondary": "安装 v1.0.0"
 };
 
 export const screenPairs = [

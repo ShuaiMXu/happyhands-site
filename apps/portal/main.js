@@ -139,8 +139,8 @@ function renderContent() {
   if (primary) primary.innerHTML = `${iconMarkup('copy')} ${c.hero.cta}`;
   const secondary = document.querySelector('.hero-actions .button-secondary');
   if (secondary) {
-    secondary.href = `${repositories.core}/blob/main/docs/harness.md`;
-    secondary.innerHTML = `${c.hero.ctaSecondary} ${iconMarkup('external')}`;
+    secondary.href = `${lang === 'en' ? '/en' : ''}/guide/#setup`;
+    secondary.textContent = c.hero.ctaSecondary;
   }
   const scrollNote = document.querySelector('.scroll-note');
   if (scrollNote) scrollNote.innerHTML = `${c.ui.scrollNote} ${iconMarkup('down')}`;

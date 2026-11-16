@@ -14,3 +14,7 @@ The integrated directory keeps Design.md, design systems and component source in
 ## Limits
 
 Rendering is not exhaustive interaction acceptance. Permission-dependent microphone, clipboard, file and WebGPU features need their appropriate browser capabilities. The checks do not certify every combination of third-party controls, Safari, or a physical iPhone. Existing build warnings for legacy view-layout images and Sodium fallback font paths remain outside this change. No formal Harness acceptance or user approval is implied by these browser records.
+
+## System-document entry-point correction
+
+The first rendering sweep covered source component URLs, but 452 matching component-document entries in the systems section did not connect to them. Those entries now embed the exact same source preview and reuse its captured cover. This does not add 452 distinct component implementations or inflate the 725-route evidence count. All eight systems' button-document entry points were browser-checked; results are in system-docs.json. Pure foundation guidance and platform documentation remain readable documents; this correction does not certify custom visualizations for every foundation article.

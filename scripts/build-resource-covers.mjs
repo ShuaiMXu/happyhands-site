@@ -153,3 +153,5 @@ try {
 } finally {
   await browser.close();
 }
+
+await import("./link-system-preview-covers.mjs");

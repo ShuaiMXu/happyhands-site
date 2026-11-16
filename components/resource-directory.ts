@@ -51,7 +51,7 @@ export function previewFor(row: ResourceEntry) {
     .at(-1)!
     .replace(/\.[^.]+$/, "");
   if (
-    row.type === "component" &&
+    (row.type === "component" || (row.type === "system" && row.path.includes("/components/"))) &&
     row.system &&
     (controls.has(name) ||
       Boolean(

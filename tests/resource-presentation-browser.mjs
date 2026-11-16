@@ -31,6 +31,7 @@ try {
           const h = el.querySelector("h2");
           const d = el.querySelector("p");
           return {
+            toolbarGap: el.getBoundingClientRect().top - document.querySelector(".resource-toolbar").getBoundingClientRect().bottom,
             x: el.getBoundingClientRect().x,
             y: el.getBoundingClientRect().y,
             width: el.getBoundingClientRect().width,
@@ -101,7 +102,8 @@ try {
       for (const g of geometry.slice(1)) {
         assert(Math.abs(g.width - geometry[0].width) < 1, "card width differs");
         assert(Math.abs(g.x - geometry[0].x) < 1, "left alignment differs");
-        assert(Math.abs(g.y - geometry[0].y) < 1, "top alignment differs");
+        // Facet counts differ; wrapped toolbars must retain the same spacing below them.
+        assert(Math.abs(g.toolbarGap - geometry[0].toolbarGap) < 1, "toolbar spacing differs");
         assert.equal(g.radius, geometry[0].radius);
       }
       await context.close();

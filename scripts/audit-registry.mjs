@@ -26,6 +26,23 @@ export async function auditRegistry(
       file.path,
     );
   }
+  // Supplied brand derivatives have their own byte-preserving archive manifest.
+  // Verify the sole declared URL substitution before including these hosted files.
+  const archive = await json("resources/v1/assets.json");
+  let derivedArtifacts = 0;
+  for (const file of archive.files.filter(file =>
+    /^collections\/brand-registry\/r\/meridian-(mono|glass|slate|clay)\/[a-z0-9-]+\.json$/.test(file.path))) {
+    const path = file.path.replace("collections/brand-registry/", "");
+    assert.ok(!covered.has(path), "duplicate derived provenance");
+    const original = await readFile(resolve(root, file.path));
+    assert.equal(hash(original), file.sha256, file.path);
+    assert.equal(original.length, file.bytes, file.path);
+    assert.equal(await readFile(resolve(root, path), "utf8"),
+      original.toString("utf8").replaceAll("http://localhost:8080", "https://happyhands.cc"),
+      "undeclared brand adaptation: " + path);
+    covered.add(path);
+    derivedArtifacts++;
+  }
   const walk = async (dir) => {
     for (const entry of await readdir(resolve(root, dir), {
       withFileTypes: true,
@@ -132,6 +149,7 @@ export async function auditRegistry(
     assert.deepEqual(await json(`r/${alias.name}.json`), alias);
   return {
     items,
+    derivedArtifacts,
     publishedArtifacts: covered.size,
     buttonBytesAcrossFourSystems: { before: bytesBefore, after: bytesAfter },
     source: "archived originals unchanged",

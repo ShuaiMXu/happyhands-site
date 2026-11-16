@@ -1,0 +1,207 @@
+{
+ "slug": "cyber-layer",
+ "sourceSlug": "cyber-layer",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Cyber Layer"
+ },
+ "title": "Cyber Layer",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/ec82c66fd9484296.webp",
+  "still": "https://cdn.ottermind.ai/public/c7487d5cceadbad7.webp",
+  "preview": "https://cdn.ottermind.ai/public/fc582a78ea7e733e.mp4",
+  "full": "https://cdn.ottermind.ai/public/55e77bca784abe87.mp4",
+  "aspectRatio": 1.3519,
+  "width": 1460,
+  "height": 1080,
+  "duration": 7
+ },
+ "seo": {
+  "title": "Cyber Layer AI & SaaS Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an AI or SaaS product — looping video, 1000ms transitions, a stats row and fluid type. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS landing page design",
+   "video-backed SaaS landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Cyber Layer — AI & SaaS Landing Page Design",
+ "tagline": "Landing page reference for an AI or SaaS product, captured at 1460x1080 with the layout, timings and palette specified in the brief.",
+ "summary": "Landing page reference for an AI or SaaS product — looping video, 1000ms transitions, a stats row and fluid type.",
+ "about": "Cyber Layer is the landing page reference for an AI or SaaS product, and the brief behind it is a full build spec rather than a mood board. The palette runs red #B01617 underneath and tint #E6E6E6 for the type, and the type is Space Grotesk. Delivery is one self-contained HTML file, captured at 1460x1080 so the frame is fixed before any code is written. The page keeps its motion to 1000ms transitions, cubic-bezier(.16,1.3,1) and a looping video bed. Keep it open while you write: the 14,235-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "Navigation without a background",
+   "body": "The bar overlays the landing page instead of pushing it down, so the composition keeps the full height of the first screen. Labels are short enough to fit one line at 599px, and the active item is marked with weight rather than with a pill."
+  },
+  {
+   "title": "The video is the background, not a panel",
+   "body": "The media is doing atmospheric work rather than storytelling: one 7s loop at 1460x1080 behind everything else. The loop is short enough (7s) that the eye reads it as texture rather than as a timeline."
+  },
+  {
+   "title": "Type does the styling",
+   "body": "The type is Space Grotesk at the top of the scale, with the supporting copy dropped well below it so the hierarchy needs no colour to read. A face swap is safe as long as the sizes and weights stay where the brief put them. Do not add a size without a job."
+  },
+  {
+   "title": "The scale is clamped, not stepped",
+   "body": "The top of the scale is fluid (a clamp between 25px and 82px) and the rest is fixed, so the frame stays composed as the viewport narrows. The mobile menu is part of the same brief, so the collapsed state is designed too."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Entrance as the signature",
+   "body": "The first frame is deliberately incomplete: each line rises out of an overflow-hidden window, with the rest of the composition already in place underneath it. The effect runs once per element rather than repeating while the page is open. The reference was captured at 1460x1080."
+  },
+  {
+   "title": "A live canvas at the centre",
+   "body": "The visual is produced at runtime (a WebGL canvas) rather than loaded as a still, so the 1460x1080 frame has one fewer asset. The composition has to survive the render failing, because nothing else fills that space."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#C81B1C",
+    "name": "Red",
+    "role": "saturated"
+   },
+   {
+    "hex": "#E6E6E6",
+    "name": "Tint",
+    "role": "Headline"
+   },
+   {
+    "hex": "#949494",
+    "name": "Tint — darker",
+    "role": "lighter step"
+   },
+   {
+    "hex": "#B01617",
+    "name": "Red — darker",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Space Grotesk",
+    "weights": "Weight not fixed in the brief",
+    "role": "UI text"
+   },
+   {
+    "name": "JetBrains Mono",
+    "weights": "Weight not fixed in the brief",
+    "role": "Labels, numerals and technical detail"
+   }
+  ],
+  "notes": [
+   "The navigation collapses at max-width 599px and max-width 1023px, so the bar has a designed narrow state.",
+   "The clip is one asset at 1460x1080 and a 7s loop, so the composition has a single media dependency.",
+   "Nothing sits between the type and the 1460x1080 clip, so a replacement has to work under the copy directly."
+  ]
+ },
+ "customize": [
+  "Write the replacement headline first, then confirm it still fits the 1460x1080 frame at the reference's type size.",
+  "Keep Space Grotesk or pick a face with the same proportions; the size scale is set for those widths, not for a substitute.",
+  "Keep 1460x1080 for the media and re-crop your own asset into it rather than resizing the frame.",
+  "The brief behind this page is written out in full below, so any rewrite can be checked against it value by value; the reference was captured at 1460x1080."
+ ],
+ "editorial": [
+  {
+   "title": "How Cyber Layer sequences the first read",
+   "body": "The trade-off is patience: the page withholds the detail a scannable grid would hand over immediately. What it buys is a first screen where navigation, the headline, the stats row, the background clip and the footer cannot be misread. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "Making the landing page yours",
+   "body": "If your brand runs a heavier palette, test it against the frame before you commit. red #B01617 carries the page, so a darker accent needs more contrast than the reference uses. Your accent has to survive the same contrast test as the reference accent."
+  },
+  {
+   "title": "The numbers behind the landing page",
+   "body": "Take the landing page apart and the values still describe it: 100vh sections and 82px spacing steps for the frame and the rhythm below. Nothing in this landing page depends on a default."
+  }
+ ],
+ "steps": [
+  "Check your build against the reference measurements: 100vh sections, 82px spacing steps and 1000ms transitions.",
+  "Copy 100vh sections, 82px spacing steps and 1000ms transitions into your own brief before you rewrite anything else.",
+  "Keep the measurements the brief spells out: 100vh sections, 82px spacing steps and 1000ms transitions.",
+  "Pin the reference measurements before you restyle anything: 100vh sections, 82px spacing steps and 1000ms transitions.",
+  "Add the entrance first at 1000ms, and only then the hover and scroll behaviour."
+ ],
+ "faq": [
+  {
+   "question": "Why does the entry name one self-contained HTML file at all?",
+   "answer": "Cyber Layer was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Is the Cyber Layer prompt a finished spec or a starting point?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1460x1080, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Can I keep the Cyber Layer transitions and change the timings?",
+   "answer": "Transitions are attached to interface states rather than to a scroll timeline, and they resolve in the 1000ms range using cubic-bezier(.16,1.3,1). The brief records the values so a port can match them without guessing."
+  }
+ ],
+ "audience": [
+  "If the build starts from one self-contained HTML file, lift 100vh sections and 82px spacing steps first and leave the palette alone until the grid settles.",
+  "The landing page is aimed at teams that already know one self-contained HTML file and only need one self-contained HTML file written down.",
+  "This landing page serves founders who need one screen of proof that SaaS copy can carry 7s of looping video."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Landing page"
+  },
+  {
+   "label": "Category",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Canvas",
+   "value": "1460x1080 · 1.35:1"
+  },
+  {
+   "label": "Loop length",
+   "value": "7s loop"
+  },
+  {
+   "label": "Prompt",
+   "value": "14,235 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Typefaces",
+   "value": "Space Grotesk, JetBrains Mono"
+  },
+  {
+   "label": "Tools",
+   "value": "single HTML file"
+  },
+  {
+   "label": "Motion",
+   "value": "1000ms transitions, cubic-bezier(.16,1.3,1) easing and a 7s media loop"
+  }
+ ],
+ "related": [
+  "forecast-center",
+  "growth-decisions",
+  "haul-footer",
+  "intelligence-layer",
+  "intelligent-operations",
+  "intelligent-performance"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 14235,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

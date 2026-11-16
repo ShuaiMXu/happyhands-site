@@ -1,0 +1,199 @@
+{
+ "slug": "taskly-hero",
+ "sourceSlug": "taskly-hero",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Taskly"
+ },
+ "title": "Taskly",
+ "industry": "creative",
+ "industryLabel": "Agencies & Studios",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/a7dbf11438ba525a.webp",
+  "still": "https://cdn.ottermind.ai/public/2783c234147f1dd8.webp",
+  "preview": "https://cdn.ottermind.ai/public/b22fffaa535d9990.mp4",
+  "full": "https://cdn.ottermind.ai/public/f2687af0846b72e9.mp4",
+  "aspectRatio": 1.3514,
+  "width": 800,
+  "height": 592,
+  "duration": 10.57
+ },
+ "seo": {
+  "title": "Taskly Agencies & Studios Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an agency or studio — glass panels, a 800x592 frame, Inter and a logo row. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "agency website design",
+   "agency hero section design",
+   "glass agency landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Taskly — Agencies & Studios Hero Section Design",
+ "tagline": "Hero section reference built on blue #60B1FF and bright orange #FF801E, set in Inter and measured against 16px spacing steps.",
+ "summary": "Hero section reference for an agency or studio — glass panels, a 800x592 frame, Inter and a logo row.",
+ "about": "Taskly was captured at 800x592 and kept as a specification rather than as a gallery image. The headline reads “Work smarter, achieve faster”, and the rest of the hero section is arranged around it. The palette is blue #60B1FF underneath, deep blue #041320 for the type and bright orange #FF801E carrying the accents, set in Inter. The build is a single component; every measurement in it is written down, which is what makes it reusable. Treat it as the brief for an agency or studio hero section that has to hold up under a rebuild, not just a first look.",
+ "layout": [
+  {
+   "title": "One row, no drawers",
+   "body": "The row spends its contrast in one place: the #FF801E action, with the wordmark and the links held back on the ink colour. The links are set below the wordmark in size, and the #FF801E action is the only element in the bar with any weight."
+  },
+  {
+   "title": "One scale for type and frame",
+   "body": "The values are the specification: 16px spacing steps, captured at 800x592 rather than inferred from a screenshot. The list is short enough that a reviewer can check it element by element. Keep the named values when you port the page."
+  },
+  {
+   "title": "Faces with one job each",
+   "body": "The display line is set in Inter at a size the brief fixes, which makes the headline a composition element rather than a paragraph. The size steps are fixed values, which is what lets a face swap keep the same hierarchy."
+  },
+  {
+   "title": "A bar with nothing spare",
+   "body": "The bar sits over the 800x592 composition without a background of its own, so the media runs edge to edge underneath it."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Hover where it means something",
+   "body": "States are handled per component (hover states on the buttons and links rather than on every card and a sticky element that holds position while the content moves under it) rather than by a global animation layer. A control that looks interactive behaves interactively, so there are no false affordances."
+  },
+  {
+   "title": "Static by design",
+   "body": "This one is delivered as a still composition at 800x592, so the hierarchy has to work without motion, and it does. Motion is treated as feedback rather than as decoration."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#60B1FF",
+    "name": "Blue",
+    "role": "composition"
+   },
+   {
+    "hex": "#319AFF",
+    "name": "Bright blue",
+    "role": "darker"
+   },
+   {
+    "hex": "#FF801E",
+    "name": "Bright orange",
+    "role": "accent"
+   },
+   {
+    "hex": "#041320",
+    "name": "Deep blue",
+    "role": "Headline"
+   }
+  ],
+  "glass": "Panels are translucent over blue #60B1FF, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Accent use is limited to bright orange #FF801E; everything else sits on blue #60B1FF.",
+   "The accent is spent on bright orange #FF801E and the rest of the composition holds blue #60B1FF.",
+   "Accent and ground are both named (bright orange #FF801E on blue #60B1FF), so a brand swap moves one value."
+  ]
+ },
+ "customize": [
+  "Change the copy first, then the accent, then the media: the 800x592 frame was solved in that order and reversing it costs a re-layout.",
+  "Change #FF801E for your brand accent and re-check it against #60B1FF, because the accent is the only saturated value in this composition.",
+  "Draft the new copy to the 800x592 frame, then check that the entrance still lands on the same number of lines.",
+  "The brief behind this page is written out in full below, so any rewrite can be checked against it value by value; the reference was captured at 800x592."
+ ],
+ "editorial": [
+  {
+   "title": "Reading Taskly as a spec",
+   "body": "If you are handing this to a developer, the brief is the useful artefact. It states 16px spacing steps and leaves nothing for the two of you to interpret. Nothing in this hero section depends on a default."
+  },
+  {
+   "title": "The order behind the hero section",
+   "body": "Attention is directed rather than left to chance. “Work smarter, achieve faster” is doing that work from the first frame. The sequence runs navigation, the headline, the announcement badge, the stats row and the client row, and each stop is sized against 16px spacing steps so nothing arrives out of order. A agency reader gets the offer before the options."
+  },
+  {
+   "title": "Why this composition works for agency",
+   "body": "Where a template fills the fold with modules, this hero section uses navigation, the headline, the announcement badge, the stats row and the client row and stops. The difference shows in 16px spacing steps: nothing is padded to fill space. It gives a agency reader the shortest honest route to the offer."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 800x592 capture before you generate.",
+  "Set the brand first: product name, the #FF801E accent and a headline that replaces the reference's.",
+  "Set your brand first: product name, the #FF801E accent and the headline that replaces the reference's.",
+  "Drop your product name in, then replace #FF801E with your own accent and re-check the contrast.",
+  "Type the product name and the #FF801E accent before you touch the layout."
+ ],
+ "faq": [
+  {
+   "question": "Is the Taskly prompt a finished spec or a starting point?",
+   "answer": "The captured brief runs 2,465 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Can I rebuild the Taskly hero section in a different stack?",
+   "answer": "Taskly was built in a single component, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What can I do with the Taskly brief once I have it?",
+   "answer": "Everything quoted on the page comes from the captured 2,465-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  }
+ ],
+ "audience": [
+  "If the build starts from a single component, lift 16px spacing steps first and leave the palette alone until the grid settles.",
+  "Front-end developers who have to ship this normally will use a single component as the reference implementation.",
+  "This hero section serves designers who have to hand a a single component build to an engineer and want the motion written down."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Hero section"
+  },
+  {
+   "label": "Field",
+   "value": "Agencies & Studios"
+  },
+  {
+   "label": "Canvas size",
+   "value": "800x592 · 1.35:1"
+  },
+  {
+   "label": "Prompt",
+   "value": "2,465 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent",
+   "value": "bright orange #FF801E"
+  },
+  {
+   "label": "Faces",
+   "value": "Inter"
+  },
+  {
+   "label": "Motion spec",
+   "value": "state changes only"
+  }
+ ],
+ "related": [
+  "launchex-about",
+  "stories-in-light-hero",
+  "neurolink-memorial-hero",
+  "portiva-hero",
+  "adventra-hero",
+  "averra-testimonial-slider"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 2465,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

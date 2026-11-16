@@ -1,0 +1,31 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "split-request",
+ "type": "registry:block",
+ "title": "Split request",
+ "description": "A bill you paid, split by what each person owes, with one request to send.",
+ "author": "localhost:8080",
+ "categories": [
+  "block",
+  "payments"
+ ],
+ "registryDependencies": [
+  "http://localhost:8080/r/meridian-clay/amount.json",
+  "http://localhost:8080/r/meridian-clay/avatar.json",
+  "http://localhost:8080/r/meridian-clay/button.json",
+  "http://localhost:8080/r/meridian-clay/list.json",
+  "http://localhost:8080/r/meridian-clay/theme.json"
+ ],
+ "meta": {
+  "docs": "http://localhost:8080/systems/meridian-clay.md",
+  "page": "http://localhost:8080/systems/meridian-clay"
+ },
+ "files": [
+  {
+   "path": "registry/meridian-clay/blocks/split-request.tsx",
+   "content": "import {Amount, formatAmount} from '@/components/meridian-clay/ui/amount';\nimport {Avatar} from '@/components/meridian-clay/ui/avatar';\nimport {Button} from '@/components/meridian-clay/ui/button';\nimport {List, ListItem} from '@/components/meridian-clay/ui/list';\n\n// A block: a bill you paid, split by what each person owes, with one request to send and its total beside it.\n\n/** Dinner you paid for, split by what each person ordered, with one request to send. */\nexport function SplitDinner() {\n  const people = [\n    {name: 'Maya Chen', value: 34.5},\n    {name: 'Sam Ortiz', value: 28},\n  ];\n  const owed = people.reduce((sum, p) => sum + p.value, 0);\n  return (\n    <section aria-label=\"Split the dinner\" className=\"flex w-full max-w-sm flex-col gap-4\">\n      <div className=\"flex items-baseline justify-between gap-3\">\n        <p className=\"font-medium\">Olive Room</p>\n        <p className=\"text-sm text-fg-3 tabular-nums\">You paid {formatAmount(96)}</p>\n      </div>\n      <List className=\"-mx-4\">\n        {people.map(p => (\n          <ListItem key={p.name} leading={<Avatar name={p.name}/>} title={p.name} trailing={formatAmount(p.value)}/>\n        ))}\n      </List>\n      {/* The label is the action; the total sits beside it, so the button reads the same whatever the sum. */}\n      <div className=\"flex items-center gap-3\">\n        <Button className=\"flex-1\">Request payment</Button>\n        <Amount value={owed} size=\"lg\"/>\n      </div>\n    </section>\n  );\n}\n",
+   "type": "registry:block",
+   "target": "@components/meridian-clay/blocks/split-request.tsx"
+  }
+ ]
+}

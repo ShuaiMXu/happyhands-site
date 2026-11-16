@@ -1,0 +1,203 @@
+{
+ "slug": "organic-odyssey",
+ "sourceSlug": "organic-odyssey",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Organic Odyssey"
+ },
+ "title": "Organic Odyssey",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/9a0abfbf1cc31315.webp",
+  "still": "https://cdn.ottermind.ai/public/8efdc3c2fabce114.webp",
+  "preview": "https://cdn.ottermind.ai/public/8efdc3c2fabce114.webp",
+  "full": "https://cdn.ottermind.ai/public/8efdc3c2fabce114.webp",
+  "aspectRatio": 1.3617,
+  "width": 640,
+  "height": 470,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Organic Odyssey AI & SaaS Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an AI or SaaS product — a dark stage, a stats row, a 640x470 frame and 300ms transitions. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS hero section design",
+   "video-backed SaaS landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Organic Odyssey — AI & SaaS Hero Section Design",
+ "tagline": "Hero section reference built around “An odyssey through delicate living forms”, with the layout, timings and palette written down in the brief.",
+ "summary": "Hero section reference for an AI or SaaS product — a dark stage, a stats row, a 640x470 frame and 300ms transitions.",
+ "about": "Organic Odyssey shows one way to build the hero section for an AI or SaaS product, and publishes the instructions that produced it. The headline reads “An odyssey through delicate living forms”, and the rest of the hero section is arranged around it. The colour scheme is black #000000 underneath, and the page is set in Geist. The entry names the stack that produced the page (React and Tailwind CSS) rather than hiding it. Motion is limited to 300ms transitions. Keep it open while you write: the 4,802-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "The nav is deliberately thin",
+   "body": "A slim bar sits over the hero section with the wordmark on the left and the links set in Geist, so the composition reads as content first and chrome second. A mobile overlay takes over below the tablet breakpoint. The bar sits over the 640x470 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "One scale for type and frame",
+   "body": "The layout is solved against fixed values (20px spacing steps and 300ms transitions), which is what keeps the first screen composed at any width. Values are quoted from the captured prompt rather than inferred, so they survive a re-render. Where the brief is silent, it is silent on purpose."
+  },
+  {
+   "title": "Proof in one row",
+   "body": "A compact stats strip carries the claims that would otherwise need a paragraph, which keeps the hero section from turning into a feature list. The row is aligned to the same margin as the headline above it."
+  },
+  {
+   "title": "A navigation bar that gets out of the way",
+   "body": "Keep the row to one line. The reference was captured at 640x470."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Short, matched timings",
+   "body": "State changes are specified at 300ms, so the feedback on the controls is a designed value rather than a browser default. Nothing waits on a scroll position, so the page responds the moment you touch it. One duration per behaviour."
+  },
+  {
+   "title": "Pointer states, nothing more",
+   "body": "Feedback is limited to hover states on the buttons and links rather than on every card, so the rest of the layout is a fixed composition. Feedback is limited to the controls, so the composition stays still around them."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#010101",
+    "name": "Near-black",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#000000",
+    "name": "Near-black — darker",
+    "role": "composition"
+   },
+   {
+    "hex": "#48483F",
+    "name": "Deep yellow",
+    "role": "lightest"
+   },
+   {
+    "hex": "#020003",
+    "name": "Near-black — darker",
+    "role": "Secondary"
+   }
+  ],
+  "glass": "The brief uses blur(20px) for the panels over a translucent fill, which is what makes them read as material rather than as a lighter rectangle.",
+  "fonts": [
+   {
+    "name": "Geist",
+    "weights": "300 / 400 / 500",
+    "role": "Interface"
+   },
+   {
+    "name": "Garamond",
+    "weights": "300 / 400 / 500",
+    "role": "Display lines — the editorial voice of the page"
+   }
+  ],
+  "notes": [
+   "Glass surfaces use blur(20px), and the blur is what makes the panels read as material rather than as fill.",
+   "Transitions are specified at 300ms, short enough that the page never feels like it is waiting for an animation. The reference was captured at 640x470, and every value quoted on this page comes from the same brief."
+  ]
+ },
+ "customize": [
+  "Replace “An odyssey through delicate living forms” with your own line and keep the same number of words, because the brief sizes the type for that rhythm.",
+  "Set 300ms to your own build speed and check that a standard ease-out still lands the copy before the media starts.",
+  "Change the copy first, then the accent, then the media: the 640x470 frame was solved in that order and reversing it costs a re-layout.",
+  "Keep Geist or pick a face with the same proportions; the size scale is set for those widths, not for a substitute."
+ ],
+ "editorial": [
+  {
+   "title": "How the hero section reflows",
+   "body": "Most responsive work stops at hiding elements. Here the layout changes shape: the navigation collapses into a mobile menu, and nothing important is dropped to make the fold fit. The hierarchy is what survives the reflow."
+  },
+  {
+   "title": "The order behind the hero section",
+   "body": "Order is the design here. navigation, the headline, the stats row and the background clip are placed so the offer lands before the proof, and 20px spacing steps and 300ms transitions set the gap between them. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "The numbers behind the hero section",
+   "body": "Compare this with a template that calls its spacing a preference. Here the same values are named (20px spacing steps and 300ms transitions), so an edit either keeps them or visibly breaks the composition. Nothing in this hero section depends on a default."
+  }
+ ],
+ "steps": [
+  "Copy 20px spacing steps and 300ms transitions into your own brief before you rewrite anything else.",
+  "Check your build against the reference measurements: 20px spacing steps and 300ms transitions.",
+  "Keep the measurements the brief spells out: 20px spacing steps and 300ms transitions.",
+  "Pin the reference measurements before you restyle anything: 20px spacing steps and 300ms transitions.",
+  "Rebuild the motion last and keep the 300ms entrance; the hover and scroll states come after it."
+ ],
+ "faq": [
+  {
+   "question": "Is the Organic Odyssey prompt a finished spec or a starting point?",
+   "answer": "The captured brief runs 4,802 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Can I rebuild the Organic Odyssey hero section in a different stack?",
+   "answer": "Organic Odyssey was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What drives the motion in Organic Odyssey?",
+   "answer": "Transitions are attached to interface states rather than to a scroll timeline, and they resolve in the 300ms range. The brief records the values so a port can match them without guessing."
+  }
+ ],
+ "audience": [
+  "Engineers who need the hero section to survive a slow connection will use 640x470 and the type scale as the weight budget.",
+  "Made for content leads rewriting a hero section whose headline has to stay as long as Organic Odyssey's.",
+  "Keep Geist and rebuild the hero section around it rather than opening a new type scale for your brand."
+ ],
+ "specs": [
+  {
+   "label": "Page section",
+   "value": "Hero section"
+  },
+  {
+   "label": "Sector",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Frame",
+   "value": "640x470 · 1.36:1"
+  },
+  {
+   "label": "Prompt",
+   "value": "4,802 characters"
+  },
+  {
+   "label": "Captured",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type scale",
+   "value": "Geist, Garamond"
+  },
+  {
+   "label": "Tech stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Transitions",
+   "value": "300ms transitions"
+  }
+ ],
+ "related": [
+  "quantum-core",
+  "quantum-lucid",
+  "real-time-alerts",
+  "rocket-cta",
+  "rocket-pricing",
+  "scaling-platform"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 4802,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

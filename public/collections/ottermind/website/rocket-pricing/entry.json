@@ -1,0 +1,197 @@
+{
+ "slug": "rocket-pricing",
+ "sourceSlug": "rocket-pricing",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Rocket Pricing"
+ },
+ "title": "Rocket Pricing",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "pricing",
+ "sectionLabel": "Pricing section",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/77ffdb494035f584.webp",
+  "still": "https://cdn.ottermind.ai/public/280b414e754a2dbc.webp",
+  "preview": "https://cdn.ottermind.ai/public/280b414e754a2dbc.webp",
+  "full": "https://cdn.ottermind.ai/public/280b414e754a2dbc.webp",
+  "aspectRatio": 1.3559,
+  "width": 640,
+  "height": 472,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Rocket Pricing AI & SaaS Pricing Section Design & Prompt | Ottermind",
+  "description": "Pricing section reference for an AI or SaaS product — #0E0D0E base, a 640x472 frame, React and Tailwind CSS and a dark stage. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS pricing section design",
+   "gradient SaaS landing page",
+   "pricing section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Rocket Pricing — AI & SaaS Pricing Section Design",
+ "tagline": "Pricing section reference built around “Clear pricing plans that scale with you”, with the layout, timings and palette written down in the brief.",
+ "summary": "Pricing section reference for an AI or SaaS product — #0E0D0E base, a 640x472 frame, React and Tailwind CSS and a dark stage.",
+ "about": "Rocket Pricing solves the pricing section problem for an AI or SaaS product with a single captured brief. It leads with “Clear pricing plans that scale with you” and gives that line the frame rather than shrinking it into a card. The colour scheme is black #0E0D0E underneath, and the page is set in Inter. It ships as React and Tailwind CSS, so the whole pricing section can be lifted into a project without a design handoff. Borrow the structure and not the subject: the pricing section and its numbers move to your brand unchanged.",
+ "layout": [
+  {
+   "title": "The spacing steps are quoted",
+   "body": "The layout works on absolute values rather than ratios: 11px spacing steps. Values are quoted from the captured prompt rather than inferred, so they survive a re-render. Port the values with the layout."
+  },
+  {
+   "title": "The announcement pill",
+   "body": "One badge, one message: the pill sits above the headline in Inter at the smallest step, and nothing else competes for that slot. There is one announcement only, which is what makes the badge feel like news."
+  },
+  {
+   "title": "The composition is the content",
+   "body": "Everything above the fold earns its place. The brief names the copy, the 640x472 frame and the type sizes, and leaves nothing decorative competing with them. The page is one composition at 640x472, which is why it holds together when the copy changes. The brief is the specification."
+  },
+  {
+   "title": "Numbers carried into the build",
+   "body": "Spacing is quoted the same way (11px spacing steps), not as a scale that grows on its own."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Interaction is on the controls",
+   "body": "The interactive layer is small and predictable: hover states on the buttons and links rather than on every card. Everything else stays still, which keeps the emphasis on the composition. A control that looks interactive behaves interactively, so there are no false affordances."
+  },
+  {
+   "title": "Static by design",
+   "body": "This one is delivered as a still composition at 640x472, so the hierarchy has to work without motion, and it does. There is no animation library in the brief, which keeps the rebuild small."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#000000",
+    "name": "Near-black",
+    "role": "darkest"
+   },
+   {
+    "hex": "#161616",
+    "name": "Near-black — lighter",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#252525",
+    "name": "Black",
+    "role": "lightest"
+   },
+   {
+    "hex": "#0E0D0E",
+    "name": "Near-black — lighter",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "The reference was captured at 640x472, and every value quoted on this page comes from the same brief.",
+   "The page keeps to 4 values, so the statistics and the controls draw from one palette. The reference keeps to 4 values — one bed, one ink and one accent — and adds no decorative gradients."
+  ]
+ },
+ "customize": [
+  "The brief behind this page is written out in full below, so any rewrite can be checked against it value by value; the reference was captured at 640x472.",
+  "Swap in your own headline where “Clear pricing plans that scale with you” sits and keep the line breaks, because the entrance animates per line.",
+  "Load your own face beside Inter and compare the headline at full width before committing to the swap.",
+  "Hold the pricing section to one screen on desktop; the brief never asks the reader to scroll past the fold."
+ ],
+ "editorial": [
+  {
+   "title": "What to change first in Rocket Pricing",
+   "body": "Change the copy and the media first, the colour second, the layout last. The 640x472 frame and the Inter scale are what hold the page together, so substitute around them rather than through them. Rewrite the copy and the media before you re-colour anything."
+  },
+  {
+   "title": "Why the SaaS brief holds",
+   "body": "There is one promise on this page, and 11px spacing steps hold it in place. “Clear pricing plans that scale with you” is doing that work from the first frame. Nothing below the fold is asked to carry the offer as well. Rocket Pricing states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "The order behind the pricing section",
+   "body": "Read the first screen in one pass and the offer is already clear. the announcement badge, the stats row, the card grid and the feature list arrive in sequence, separated by 11px spacing steps rather than by decorative dividers. A SaaS reader gets the offer before the options."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 640x472 capture before you generate.",
+  "Keep the measurements the brief spells out: 11px spacing steps.",
+  "Check your build against the reference measurements: 11px spacing steps.",
+  "Copy 11px spacing steps into your own brief before you rewrite anything else.",
+  "Pin the reference measurements before you restyle anything: 11px spacing steps."
+ ],
+ "faq": [
+  {
+   "question": "What can I do with the Rocket Pricing brief once I have it?",
+   "answer": "Everything quoted on the page comes from the captured 8,841-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "Is the Rocket Pricing prompt a finished spec or a starting point?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 640x472, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Do I need React and Tailwind CSS to rebuild Rocket Pricing?",
+   "answer": "Rocket Pricing was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  }
+ ],
+ "audience": [
+  "Growth teams reskinning an AI or SaaS product pricing section who want the 640x472 frame kept while the offer copy changes.",
+  "This pricing section answers the builder who wants to know what 11px spacing steps actually controls in the layout.",
+  "Product teams writing their own Pricing section copy who need every line to keep the length the display type was sized for."
+ ],
+ "specs": [
+  {
+   "label": "Page part",
+   "value": "Pricing section"
+  },
+  {
+   "label": "Vertical",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Frame",
+   "value": "640x472 · 1.36:1"
+  },
+  {
+   "label": "Prompt",
+   "value": "8,841 characters"
+  },
+  {
+   "label": "Captured",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Typefaces",
+   "value": "Inter"
+  },
+  {
+   "label": "Stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Motion",
+   "value": "state changes only"
+  }
+ ],
+ "related": [
+  "convix-software-hero",
+  "cyber-layer",
+  "cybersecurity-hero",
+  "data-signal",
+  "datacore-booking-hero",
+  "deepthink"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 8841,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

@@ -1,0 +1,198 @@
+{
+ "slug": "404",
+ "sourceSlug": "404",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Nexto 404"
+ },
+ "title": "Nexto 404",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "404",
+ "sectionLabel": "404 page",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/18f09262ee858c46.webp",
+  "still": "https://cdn.ottermind.ai/public/64a2cc2d156e2aa7.webp",
+  "preview": "https://cdn.ottermind.ai/public/64a2cc2d156e2aa7.webp",
+  "full": "https://cdn.ottermind.ai/public/64a2cc2d156e2aa7.webp",
+  "aspectRatio": 1.3734,
+  "width": 1986,
+  "height": 1446,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Nexto 404 AI & SaaS 404 Page Design & Prompt | Ottermind",
+  "description": "404 page reference for an AI or SaaS product — 5s transitions, React and Tailwind CSS, a dark stage and #F5F5F5 base. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS 404 page design",
+   "dark SaaS landing page",
+   "404 page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Nexto 404 — AI & SaaS 404 Page Design",
+ "tagline": "404 page reference for an AI or SaaS product, captured at 1986x1446 with the layout, timings and palette specified in the brief.",
+ "summary": "404 page reference for an AI or SaaS product — 5s transitions, React and Tailwind CSS, a dark stage and #F5F5F5 base.",
+ "about": "Nexto 404 was captured at 1986x1446 and kept as a specification rather than as a gallery image. The palette runs neutral #F5F5F5 underneath and near-black #1A1A1A for the type, and the type is DM Sans. Delivery is React and Tailwind CSS, captured at 1986x1446 so the frame is fixed before any code is written. Motion is limited to 5s transitions and cubic-bezier(0.77, 0, 0.175, 1). Take it on when the 404 page needs a decided order before any new sections are added.",
+ "layout": [
+  {
+   "title": "Navigation held to one row",
+   "body": "A slim bar sits over the 404 page with the wordmark on the left and the links set in DM Sans, so the composition reads as content first and chrome second. A mobile overlay takes over below the tablet breakpoint. The bar sits over the 1986x1446 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "Sizes fixed in the brief",
+   "body": "The layout works on absolute values rather than ratios: 100vh sections, 20px spacing steps, 5s transitions and cubic-bezier(0.77, 0, 0.175, 1) easing. Because the values are fixed, a substitution changes the look without changing the rhythm."
+  },
+  {
+   "title": "A stat row instead of a claim",
+   "body": "A compact stats strip carries the claims that would otherwise need a paragraph, which keeps the 404 page from turning into a feature list. Figures are set at one weight, so the row does not rank its own statistics."
+  },
+  {
+   "title": "One row, no drawers",
+   "body": "The mobile menu is part of the brief, so the collapsed state is designed rather than improvised. Test the bar over your own media before giving it a background."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Fast enough to feel deliberate",
+   "body": "The brief fixes the transition value at 5s, so a rebuild cannot substitute a slower default. Easing is specified alongside the duration (5s), so a rebuild cannot quietly substitute a different feel."
+  },
+  {
+   "title": "The controls are the interactive layer",
+   "body": "The pointer work is small and specified: hover states on the buttons and links rather than on every card, applied to the elements that already look interactive. A control that looks interactive behaves interactively, so there are no false affordances."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#F5F5F5",
+    "name": "Neutral",
+    "role": "composition"
+   },
+   {
+    "hex": "#1A1A1A",
+    "name": "Near-black",
+    "role": "Headline"
+   },
+   {
+    "hex": "#888888",
+    "name": "Shade",
+    "role": "darker step"
+   },
+   {
+    "hex": "#FFFFFF",
+    "name": "Neutral — lighter",
+    "role": "lightest"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "DM Sans",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 5s, short enough that the page never feels like it is waiting for an animation.",
+   "The timing budget is state feedback rather than page choreography (5s), so a slower rebuild reads as a different design.",
+   "Transitions are specified at 5s, which is the value to keep when the palette changes."
+  ]
+ },
+ "customize": [
+  "Keep the 1986x1446 frame when you swap the content, because the composition was solved against that ratio.",
+  "Set 5s to your own build speed and check that cubic-bezier(0.77, 0, 0.175, 1) still lands the copy before the media starts.",
+  "Replace the headline and the supporting line with your own copy, keeping the same line count so the entrance still lands over the 1986x1446 frame.",
+  "Retime the entrance to taste. 5s with cubic-bezier(0.77, 0, 0.175, 1) is what the reference uses."
+ ],
+ "editorial": [
+  {
+   "title": "How the 404 page reflows",
+   "body": "Test this 404 page at 1986x1446 and then at phone width: the same order holds, with the scale is fluid rather than stepped, the section is held at 100vh and the navigation collapses into a mobile menu. The reflow keeps the action reachable at every width."
+  },
+  {
+   "title": "Reading Nexto 404 as a spec",
+   "body": "Specific numbers age: a value that suits 1986x1446 may not suit your frame. The brief states 100vh sections and 20px spacing steps anyway, because a stated value is easier to change than an unstated one. Nothing in this 404 page depends on a default."
+  },
+  {
+   "title": "The argument this 404 page makes",
+   "body": "Most SaaS pages add another section when the first screen is weak. This one removes options instead: navigation, the headline, the stats row and the card grid, in that order, and nothing that repeats the offer. It gives a SaaS reader the shortest honest route to the offer."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1986x1446 capture before you generate.",
+  "Copy 100vh sections, 20px spacing steps and 5s transitions into your own brief before you rewrite anything else.",
+  "Pin the reference measurements before you restyle anything: 100vh sections, 20px spacing steps and 5s transitions.",
+  "Keep the measurements the brief spells out: 100vh sections, 20px spacing steps and 5s transitions.",
+  "Check your build against the reference measurements: 100vh sections, 20px spacing steps and 5s transitions."
+ ],
+ "faq": [
+  {
+   "question": "What can I do with the Nexto 404 brief once I have it?",
+   "answer": "Everything quoted on the page comes from the captured 5,689-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "What does the brief behind Nexto 404 actually contain?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1986x1446, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Can I rebuild the Nexto 404 404 page in a different stack?",
+   "answer": "Nexto 404 was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  }
+ ],
+ "audience": [
+  "Made for agencies that bill by the round and want 100vh sections and 20px spacing steps agreed before the first one.",
+  "Product teams writing their own 404 page copy who need every line to keep the length the display type was sized for.",
+  "Made for a solo founder shipping one 404 page for an AI or SaaS product and no design system behind them."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "404 page"
+  },
+  {
+   "label": "Vertical",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Format",
+   "value": "1986x1446 · 1.37:1"
+  },
+  {
+   "label": "Prompt text",
+   "value": "5,689 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type",
+   "value": "DM Sans"
+  },
+  {
+   "label": "Tech stack",
+   "value": "Tailwind CSS, React, Vite"
+  },
+  {
+   "label": "Transitions",
+   "value": "5s transitions and cubic-bezier(0.77, 0, 0.175, 1) easing"
+  }
+ ],
+ "related": [
+  "arceage-stats",
+  "asme-hero",
+  "autonomous-ops",
+  "axion-about",
+  "bloom-ai-hero",
+  "build-with-us"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 5689,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

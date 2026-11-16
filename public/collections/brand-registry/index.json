@@ -1,0 +1,29 @@
+{
+ "base": "http://localhost:8080",
+ "systems": [
+  {
+   "system": "meridian-clay",
+   "items": 64,
+   "index": "http://localhost:8080/r/meridian-clay/registry.json",
+   "install_example": "http://localhost:8080/r/meridian-clay/button.json"
+  },
+  {
+   "system": "meridian-glass",
+   "items": 87,
+   "index": "http://localhost:8080/r/meridian-glass/registry.json",
+   "install_example": "http://localhost:8080/r/meridian-glass/button.json"
+  },
+  {
+   "system": "meridian-mono",
+   "items": 74,
+   "index": "http://localhost:8080/r/meridian-mono/registry.json",
+   "install_example": "http://localhost:8080/r/meridian-mono/button.json"
+  },
+  {
+   "system": "meridian-slate",
+   "items": 83,
+   "index": "http://localhost:8080/r/meridian-slate/registry.json",
+   "install_example": "http://localhost:8080/r/meridian-slate/button.json"
+  }
+ ]
+}

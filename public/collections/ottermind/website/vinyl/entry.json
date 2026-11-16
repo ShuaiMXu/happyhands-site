@@ -1,0 +1,208 @@
+{
+ "slug": "vinyl",
+ "sourceSlug": "vinyl",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Vinyl"
+ },
+ "title": "Vinyl",
+ "industry": "lifestyle",
+ "industryLabel": "Lifestyle",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/50fa4dd8af73ae64.webp",
+  "still": "https://cdn.ottermind.ai/public/56a3c454b121d21d.webp",
+  "preview": "https://cdn.ottermind.ai/public/75c7b13899b4b0e6.mp4",
+  "full": "https://cdn.ottermind.ai/public/0c5f3a44e8cd2001.mp4",
+  "aspectRatio": 1.3521,
+  "width": 1920,
+  "height": 1420,
+  "duration": 6.6
+ },
+ "seo": {
+  "title": "Vinyl Lifestyle Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for a lifestyle brand — looping video, one self-contained HTML file, a dark stage and a masked headline reveal. Copy the prompt or open it staged in.",
+  "keywords": [
+   "lifestyle website design",
+   "lifestyle landing page design",
+   "video-backed lifestyle landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Vinyl — Lifestyle Landing Page Design",
+ "tagline": "Landing page reference for a lifestyle brand, captured at 1920x1420 with the layout, timings and palette specified in the brief.",
+ "summary": "Landing page reference for a lifestyle brand — looping video, one self-contained HTML file, a dark stage and a masked headline reveal.",
+ "about": "Before rebuilding a landing page for a lifestyle brand, read Vinyl: the composition and the specification behind it are both here. The palette runs sky #DBE6EE underneath and #0B0B0C for the type, and the type is Instrument Serif. The entry names the stack that produced the page (one self-contained HTML file) rather than hiding it. The brief spends its motion budget on 1.2s transitions, cubic-bezier(.22,1.36,1) and a looping video bed. Use it as the reference when you are building a lifestyle brand landing page and want a finished composition instead of a starting point.",
+ "layout": [
+  {
+   "title": "Top row: wordmark, links, one action",
+   "body": "The wordmark holds the left edge and the links run to the right of it, all of it set in Instrument Serif so the bar belongs to the page below rather than to a separate system. Below 380px the links collapse instead of wrapping onto a second line."
+  },
+  {
+   "title": "A clip, not an illustration",
+   "body": "One 6.6s asset carries the whole first screen, and the page has no second media element to keep in sync. A poster frame at 1920x1420 holds the composition when autoplay is unavailable, so the layout never collapses."
+  },
+  {
+   "title": "The scale is clamped, not stepped",
+   "body": "The top of the scale is fluid (a clamp between 24px and 22px) and the rest is fixed, so the frame stays composed as the viewport narrows. The type changes size, not role, as the viewport narrows. Check the first screen on a phone."
+  },
+  {
+   "title": "A bar with nothing spare",
+   "body": "Design the collapsed state before adding a sixth link. The reference was captured at 1920x1420."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Motion on the copy only",
+   "body": "A masked line reveal carries the first screen. The composition is static underneath it, so the movement reads as the page assembling itself rather than as decoration. Under reduced motion the element simply appears and the layout is unchanged. Copy the intent, not the exact curve; the point is the order of arrival."
+  },
+  {
+   "title": "Short, named durations",
+   "body": "Hover, press and focus all resolve in 1.2s, which is what makes the interface feel immediate. Easing is specified alongside the duration (1.2s), so a rebuild cannot quietly substitute a different feel. If you change the easing, change it everywhere."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#DBE6EE",
+    "name": "Sky",
+    "role": "composition"
+   },
+   {
+    "hex": "#0B0B0C",
+    "name": "Near-black",
+    "role": "Headline"
+   },
+   {
+    "hex": "#1E1E21",
+    "name": "Black",
+    "role": "darker step"
+   },
+   {
+    "hex": "#152014",
+    "name": "Deep green",
+    "role": "Secondary"
+   }
+  ],
+  "glass": "Panels are translucent over sky #DBE6EE, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Instrument Serif",
+    "weights": "Weight not fixed in the brief",
+    "role": "Title face"
+   },
+   {
+    "name": "UnifrakturCook",
+    "weights": "Weight not fixed in the brief",
+    "role": "Body face"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 1.2s, short enough that the page never feels like it is waiting for an animation.",
+   "The clip is one asset at 1920x1420 and a 6.6s loop, so the composition has a single media dependency.",
+   "Transitions are specified at 1.2s, which is the value to keep when the palette changes."
+  ]
+ },
+ "customize": [
+  "Replace the video with a still at 1920x1420 if the 6.6s loop is too heavy for the page you are shipping.",
+  "Hold the 1920x1420 frame when you swap the content; the composition was solved against that ratio and a wider export pushes the type off.",
+  "Swap the clip for your own. Export at 1920x1420 or wider, keep it muted, and make the 6.6s loop seamless so the cut is invisible.",
+  "Recut your footage to the 6.6s loop, then export at 1920x1420 so the crop the reference specifies survives."
+ ],
+ "editorial": [
+  {
+   "title": "The numbers behind the landing page",
+   "body": "Almost every decision here is a value you can check: 100vh sections, 22px spacing steps, 1.2s transitions, cubic-bezier(.22,1.36,1) easing and a 380px breakpoint. The media is a 6.6s 1920x1420 loop. The type stays in Instrument Serif, so a substitution has to keep the same proportions. Nothing in this landing page depends on a default."
+  },
+  {
+   "title": "The timing behind the landing page",
+   "body": "Port the motion last. The brief fixes it as 1.2s transitions, a 6.6s media loop and a masked line reveal, which is easier to match once the layout is in place. Nothing animates for its own sake in this landing page."
+  },
+  {
+   "title": "Making the landing page yours",
+   "body": "The composition is the reusable part and the subject is yours. Keep 100vh sections and 22px spacing steps and replace the words, the media and the brand marks. If a new element does not help explain the offer or the next action, it belongs below the fold."
+  }
+ ],
+ "steps": [
+  "Check your build against the reference measurements: 100vh sections, 22px spacing steps and 1.2s transitions.",
+  "Copy 100vh sections, 22px spacing steps and 1.2s transitions into your own brief before you rewrite anything else.",
+  "Pin the reference measurements before you restyle anything: 100vh sections, 22px spacing steps and 1.2s transitions.",
+  "Keep the measurements the brief spells out: 100vh sections, 22px spacing steps and 1.2s transitions.",
+  "Port the motion last: the entrance, the 1.2s states and the hover behaviour, in that order."
+ ],
+ "faq": [
+  {
+   "question": "What do I get when I copy the Vinyl brief?",
+   "answer": "The captured brief runs 18,878 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "How much of Vinyl depends on one self-contained HTML file?",
+   "answer": "Vinyl was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "How is this Vinyl entry organised?",
+   "answer": "Everything quoted on the page comes from the captured 18,878-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  }
+ ],
+ "audience": [
+  "Hand one self-contained HTML file to the engineer with the 1920x1420 crop attached, then let them rebuild it.",
+  "If the reference is only a starting point, designers can keep one self-contained HTML file and rebuild the rest of the landing page.",
+  "The landing page is aimed at teams that already know one self-contained HTML file and only need a 380px breakpoint written down."
+ ],
+ "specs": [
+  {
+   "label": "Page section",
+   "value": "Landing page"
+  },
+  {
+   "label": "Vertical",
+   "value": "Lifestyle"
+  },
+  {
+   "label": "Format",
+   "value": "1920x1420 · 1.35:1"
+  },
+  {
+   "label": "Clip length",
+   "value": "6.6s loop"
+  },
+  {
+   "label": "Brief",
+   "value": "18,878 characters"
+  },
+  {
+   "label": "Date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Fonts",
+   "value": "Instrument Serif, UnifrakturCook"
+  },
+  {
+   "label": "Tools",
+   "value": "vanilla JS, single HTML file"
+  },
+  {
+   "label": "Timing",
+   "value": "1.2s transitions, cubic-bezier(.22,1.36,1) easing and a 6.6s media loop"
+  }
+ ],
+ "related": [
+  "portal-hero",
+  "audio-showcase",
+  "aurora-onboard",
+  "dot-hero",
+  "f1-racing-hub",
+  "orbis-hello"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 18878,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

@@ -1,0 +1,197 @@
+{
+ "slug": "bold-studio",
+ "sourceSlug": "bold-studio",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Bold Studio"
+ },
+ "title": "Bold Studio",
+ "industry": "creative",
+ "industryLabel": "Agencies & Studios",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/f8efccb4c9ec554c.webp",
+  "still": "https://cdn.ottermind.ai/public/54d623ef6414cfa7.webp",
+  "preview": "https://cdn.ottermind.ai/public/54d623ef6414cfa7.webp",
+  "full": "https://cdn.ottermind.ai/public/54d623ef6414cfa7.webp",
+  "aspectRatio": 1.3502,
+  "width": 640,
+  "height": 474,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Bold Studio Agencies & Studios Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an agency or studio — Inter, React and Tailwind CSS, 100ms transitions and a stats row. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "agency website design",
+   "agency hero section design",
+   "video-backed agency landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Bold Studio — Agencies & Studios Hero Section Design",
+ "tagline": "Hero section reference built around “FSP DEMO - PODIUM Sharp 4.11”, with the layout, timings and palette written down in the brief.",
+ "summary": "Hero section reference for an agency or studio — Inter, React and Tailwind CSS, 100ms transitions and a stats row.",
+ "about": "Bold Studio is a agency hero section built from one written brief, and this page documents that brief. It leads with “FSP DEMO - PODIUM Sharp 4.11” and gives that line the frame rather than shrinking it into a card. The palette runs red #A60D29 underneath and white #F6E9EB for the type, and the type is Inter. Delivery is React and Tailwind CSS, captured at 640x474 so the frame is fixed before any code is written. Motion comes down to 100ms transitions. Keep it open while you write: the 6,067-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "A navigation bar that gets out of the way",
+   "body": "A slim bar sits over the hero section with the wordmark on the left and the links set in Inter, so the composition reads as content first and chrome second. A mobile overlay takes over below the tablet breakpoint. The bar sits over the 640x474 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "Numbers carried into the build",
+   "body": "The brief fixes 30px spacing steps and 100ms transitions and leaves the rest to the arrangement, which is the opposite of a scale that grows on its own. Because the values are fixed, a substitution changes the look without changing the rhythm."
+  },
+  {
+   "title": "Proof above the fold",
+   "body": "A compact stats strip carries the claims that would otherwise need a paragraph, which keeps the hero section from turning into a feature list. The row belongs to the first screen rather than to a separate band, which keeps the proof close to the claim."
+  },
+  {
+   "title": "Top row, one action",
+   "body": "The mobile menu is part of the brief, so the collapsed state is designed rather than improvised. If your own page has more sections, group them rather than widening the bar."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Fast enough to feel deliberate",
+   "body": "The controls resolve in 100ms, fast enough that the page answers as it is touched rather than after it. Nothing waits on a scroll position, so the page responds the moment you touch it."
+  },
+  {
+   "title": "Interaction kept local",
+   "body": "The page answers only where it can be acted on: hover states on the buttons and links rather than on every card. The states are drawn from the page's own palette rather than from a component default. Do not animate layout on hover."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#240C10",
+    "name": "Deep red",
+    "role": "darkest"
+   },
+   {
+    "hex": "#F6E9EB",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#900B23",
+    "name": "Red",
+    "role": "saturated"
+   },
+   {
+    "hex": "#A60D29",
+    "name": "Red — lighter",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "400 / 500 / 600 / 700",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 100ms, short enough that the page never feels like it is waiting for an animation.",
+   "The reference was captured at 640x474, and every value quoted on this page comes from the same brief."
+  ]
+ },
+ "customize": [
+  "Set 100ms to your own build speed and check that a standard ease-out still lands the copy before the media starts.",
+  "Replace the headline and the supporting line with your own copy, keeping the same line count so the entrance still lands over the 640x474 frame.",
+  "Keep the 640x474 frame when you swap the content, because the composition was solved against that ratio.",
+  "Retime the entrance to taste. 100ms with a standard ease-out is what the reference uses."
+ ],
+ "editorial": [
+  {
+   "title": "The order behind the hero section",
+   "body": "You could shuffle these blocks and the page would still load. It would stop reading as an argument, though: navigation, the headline, the announcement badge, the stats row and the background clip are a sequence, and 30px spacing steps and 100ms transitions only work in that order. A agency reader gets the offer before the options."
+  },
+  {
+   "title": "What holds up for Agencies & Studios",
+   "body": "Count the decisions in this hero section and they trace back to one document: 6,067 characters naming the frame at 640x474, the type and the rhythm. It gives a agency reader the shortest honest route to the offer."
+  },
+  {
+   "title": "Making the hero section yours",
+   "body": "The brief names Inter and the scale beside it. Substitute a face with the same proportions and the composition survives. If a new element does not help explain the offer or the next action, it belongs below the fold."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 640x474 capture before you generate.",
+  "Keep the measurements the brief spells out: 30px spacing steps and 100ms transitions.",
+  "Check your build against the reference measurements: 30px spacing steps and 100ms transitions.",
+  "Copy 30px spacing steps and 100ms transitions into your own brief before you rewrite anything else.",
+  "Pin the reference measurements before you restyle anything: 30px spacing steps and 100ms transitions."
+ ],
+ "faq": [
+  {
+   "question": "How long is the prompt behind Bold Studio?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 640x474, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Do I need React and Tailwind CSS to rebuild Bold Studio?",
+   "answer": "Bold Studio was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "How should I handle the Bold Studio media in a client build?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 640x474."
+  }
+ ],
+ "audience": [
+  "Made for content leads rewriting a hero section whose headline has to stay as long as Bold Studio's.",
+  "Founders shipping a first version who would rather adapt a composition set in Inter than assemble a template.",
+  "Keep Inter and rebuild the hero section around it rather than opening a new type scale for your brand."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Hero section"
+  },
+  {
+   "label": "Category",
+   "value": "Agencies & Studios"
+  },
+  {
+   "label": "Frame",
+   "value": "640x474 · 1.35:1"
+  },
+  {
+   "label": "Source text",
+   "value": "6,067 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type",
+   "value": "Inter"
+  },
+  {
+   "label": "Reference stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Transitions",
+   "value": "100ms transitions"
+  }
+ ],
+ "related": [
+  "velorah-hero",
+  "vision-reveal",
+  "vortex-studio-hero",
+  "3d-character-studio",
+  "aethera-hero",
+  "blog-showcase"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 6067,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+ "name": "today",
+ "type": "registry:block",
+ "title": "Today",
+ "description": "The morning of a personal assistant, at phone width: the day in a line, a card of what it handled and Ask by voice.",
+ "author": "localhost:8080",
+ "categories": [
+  "block",
+  "ai",
+  "mobile"
+ ],
+ "registryDependencies": [
+  "https://happyhands.cc/r/meridian-glass/button.json",
+  "https://happyhands.cc/r/meridian-glass/card.json",
+  "https://happyhands.cc/r/meridian-glass/item.json",
+  "https://happyhands.cc/r/meridian-glass/response.json",
+  "https://happyhands.cc/r/meridian-glass/status.json",
+  "https://happyhands.cc/r/meridian-glass/theme.json"
+ ],
+ "meta": {
+  "docs": "https://happyhands.cc/systems/meridian-glass/index.md",
+  "page": "https://happyhands.cc/systems/meridian-glass/index.md"
+ },
+ "files": [
+  {
+   "path": "registry/meridian-glass/blocks/today.tsx",
+   "content": "'use client';\n\nimport {Response} from '@/components/meridian-glass/ai/response';\nimport {Button} from '@/components/meridian-glass/ui/button';\nimport {Card, CardContent, CardFooter, CardHeader, CardMeta, CardTitle} from '@/components/meridian-glass/ui/card';\nimport {Item, ItemContent, ItemGroup, ItemTitle} from '@/components/meridian-glass/ui/item';\nimport {Status, type StatusValue} from '@/components/meridian-glass/ui/status';\n\n// A block: a personal assistant's morning at phone width. The day in one line, then what it handled as a card of\n// rows, each ending in its Status word; the one that waits on the person says so. Ask by voice is the card's one glass\n// key. Wire `handled` to your assistant's log.\n\nconst handled: {task: string; status: StatusValue; word: string}[] = [\n  {task: 'Renewed the car insurance', status: 'ok', word: 'Paid'},\n  {task: 'Dentist moved to Thursday', status: 'ok', word: 'Moved'},\n  {task: 'Table for four on Friday', status: 'waiting', word: 'Needs you'},\n];\n\n/** The day in a line, three things handled and Ask by voice. */\nexport function Today({className}: {className?: string}) {\n  return (\n    <section aria-label=\"Today\" className={className ?? 'flex w-full max-w-sm flex-col gap-3'}>\n      <Response>Nothing until 4 pm. One thing waits on you.</Response>\n      <Card>\n        <CardHeader>\n          <CardTitle>Since 7 am</CardTitle>\n        </CardHeader>\n        <CardContent flush>\n          <ItemGroup variant=\"plain\" aria-label=\"Handled\">\n            {handled.map(h => <Item key={h.task}>\n              <ItemContent><ItemTitle>{h.task}</ItemTitle></ItemContent>\n              <Status status={h.status} size=\"sm\" className=\"shrink-0\">{h.word}</Status>\n            </Item>)}\n          </ItemGroup>\n        </CardContent>\n        <CardFooter>\n          <CardMeta>Saturday, Oct 17</CardMeta>\n          <Button size=\"sm\">Ask by voice</Button>\n        </CardFooter>\n      </Card>\n    </section>\n  );\n}\n",
+   "type": "registry:block",
+   "target": "@components/meridian-glass/blocks/today.tsx"
+  }
+ ]
+}

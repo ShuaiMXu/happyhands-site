@@ -1,0 +1,203 @@
+{
+ "slug": "alumica-hero",
+ "sourceSlug": "lp-086-69f0201971796897c08b6bab",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "Alumica"
+ },
+ "title": "Alumica",
+ "industry": "fintech",
+ "industryLabel": "Fintech",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/447911a1547c913a.webp",
+  "still": "https://cdn.ottermind.ai/public/25e15fa3f62049d5.webp",
+  "preview": "https://cdn.ottermind.ai/public/13974b9ea68cd20c.mp4",
+  "full": "https://cdn.ottermind.ai/public/1ec2f76377f0a4e4.mp4",
+  "aspectRatio": 1.4724,
+  "width": 1920,
+  "height": 1304,
+  "duration": 5.833
+ },
+ "seo": {
+  "title": "Alumica Fintech Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for a fintech product — 0.3s transitions, glass panels, Inter and #080210 base. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "fintech website design",
+   "fintech hero section design",
+   "video-backed fintech landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Alumica — Fintech Hero Section Design",
+ "tagline": "Hero section reference built on deep indigo #080210 and bright orange #FF8A00, set in Inter and measured against 10px spacing steps.",
+ "summary": "Hero section reference for a fintech product — 0.3s transitions, glass panels, Inter and #080210 base.",
+ "about": "Alumica was captured at 2056x1396 and kept as a specification rather than as a gallery image. The page's own headline reads “Automation & Fintech”, and the composition is built around those exact words. The palette is deep indigo #080210 underneath and bright orange #FF8A00 carrying the accents, set in Inter. Delivery is a single component — one page, no plugin, no build tooling between you and the design. Motion comes down to 0.3s transitions and a looping video bed. It is the right reference for a fintech product hero section that has to look deliberate on the first screen.",
+ "layout": [
+  {
+   "title": "The bar shares the page grid",
+   "body": "Links sit on one line at a single size, and the #FF8A00 action closes the row on the right so the eye finishes where the navigation ends. The links are set below the wordmark in size, and the #FF8A00 action is the only element in the bar with any weight."
+  },
+  {
+   "title": "The spacing steps are quoted",
+   "body": "The brief states its sizes at capture (10px spacing steps and 0.3s transitions), so a rebuild can be verified instead of approximated. The type and the layout share the same steps, so nothing drifts when one of them is substituted."
+  },
+  {
+   "title": "A full-bleed clip behind the type",
+   "body": "The 2056x1396 video runs 5.8s on a loop behind the copy, muted and inline, with no tint layer between the two. A poster frame at 2056x1396 holds the composition when autoplay is unavailable, so the layout never collapses."
+  },
+  {
+   "title": "The scale steps down hard",
+   "body": "Type is the styling system here: Inter at the display size, the same face across the interface, and no second accent colour doing the work. A face swap is safe as long as the sizes and weights stay where the brief put them."
+  }
+ ],
+ "motion": [
+  {
+   "title": "The whole animation budget",
+   "body": "Motion in the controls is short and repeatable: 0.3s on each state change. Easing is specified alongside the duration (0.3s), so a rebuild cannot quietly substitute a different feel."
+  },
+  {
+   "title": "Pointers only where they help",
+   "body": "Feedback is limited to hover states on the buttons and links rather than on every card, which is what keeps a dense first screen from feeling busy. The states are drawn from the page's own palette rather than from a component default. Keep the pointer effects on the controls."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#FF8A00",
+    "name": "Bright orange",
+    "role": "accent"
+   },
+   {
+    "hex": "#EA580C",
+    "name": "Bright orange — darker",
+    "role": "lighter"
+   },
+   {
+    "hex": "#080210",
+    "name": "Near-black",
+    "role": "composition"
+   },
+   {
+    "hex": "#766E6F",
+    "name": "Gray",
+    "role": "lighter step"
+   }
+  ],
+  "glass": "Panels are translucent over deep indigo #080210, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 0.3s, short enough that the page never feels like it is waiting for an animation.",
+   "The timing budget is state feedback rather than page choreography (0.3s), so a slower rebuild reads as a different design.",
+   "Accent use is limited to bright orange #FF8A00; everything else sits on deep indigo #080210."
+  ]
+ },
+ "customize": [
+  "Replace the video with a still at 2056x1396 if the 5.8s loop is too heavy for the page you are shipping.",
+  "Set 0.3s to your own build speed and check that a standard ease-out still lands the copy before the media starts.",
+  "Rewrite “Automation & Fintech” to the same line count; the mask reveals each line in turn.",
+  "Retime the entrance to taste. 0.3s with a standard ease-out is what the reference uses."
+ ],
+ "editorial": [
+  {
+   "title": "Reading Alumica as a spec",
+   "body": "Where a mood board leaves the scale open, this brief closes it: 10px spacing steps and 0.3s transitions, with the surrounding values derived from that decision. Nothing in this hero section depends on a default."
+  },
+  {
+   "title": "Making the hero section yours",
+   "body": "Suppose you only have one afternoon. Change the headline and the action label, leave 10px spacing steps and 0.3s transitions alone, and you have a page that looks intentional. A different brand can reuse the whole frame."
+  },
+  {
+   "title": "How Alumica sequences the first read",
+   "body": "A page like this usually buries the action under a feature grid. This one puts navigation, the headline, the announcement badge, the stats row and the background clip in a fixed sequence, with the action inside the first screen rather than after three scroll lengths. A fintech reader gets the offer before the options."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 2056x1396 capture before you generate.",
+  "Set your brand first: product name, the #FF8A00 accent and the headline that replaces the reference's.",
+  "Type the product name and the #FF8A00 accent before you touch the layout.",
+  "Drop your product name in, then replace #FF8A00 with your own accent and re-check the contrast.",
+  "Set the brand first: product name, the #FF8A00 accent and a headline that replaces the reference's."
+ ],
+ "faq": [
+  {
+   "question": "How much of Alumica depends on a single component?",
+   "answer": "Alumica was built in a single component, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Why is Alumica's prompt not printed here?",
+   "answer": "Everything quoted on the page comes from the captured 2,424-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "What does the brief behind Alumica actually contain?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 2056x1396, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  }
+ ],
+ "audience": [
+  "The hero section is aimed at teams that already know a single component and only need a single component written down.",
+  "Write your own headline, then rebuild this hero section in a single component with the measurements intact.",
+  "Teams rebuilding a competitor's fintech hero section who want a single component named before anyone commits to a framework."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Hero section"
+  },
+  {
+   "label": "Field",
+   "value": "Fintech"
+  },
+  {
+   "label": "Frame",
+   "value": "2056x1396 · 1.47:1"
+  },
+  {
+   "label": "Clip length",
+   "value": "5.8s loop"
+  },
+  {
+   "label": "Brief",
+   "value": "2,424 characters"
+  },
+  {
+   "label": "Date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key tone",
+   "value": "bright orange #FF8A00"
+  },
+  {
+   "label": "Type scale",
+   "value": "Inter"
+  },
+  {
+   "label": "Transitions",
+   "value": "0.3s transitions and a 5.8s media loop"
+  }
+ ],
+ "related": [
+  "rivr-hero",
+  "sellix",
+  "tech-forward",
+  "trustflow",
+  "vaultshield",
+  "vex-ventures-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 2424,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

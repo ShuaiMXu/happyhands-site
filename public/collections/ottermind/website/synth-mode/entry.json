@@ -1,0 +1,216 @@
+{
+ "slug": "synth-mode",
+ "sourceSlug": "synth-mode",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Synth Mode"
+ },
+ "title": "Synth Mode",
+ "industry": "ecommerce",
+ "industryLabel": "Ecommerce",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/54ef9041e419564c.webp",
+  "still": "https://cdn.ottermind.ai/public/5b4d824c2a7feae7.webp",
+  "preview": "https://cdn.ottermind.ai/public/b56ea9f277f6586b.mp4",
+  "full": "https://cdn.ottermind.ai/public/fa893594f120b51a.mp4",
+  "aspectRatio": 1.3754,
+  "width": 1920,
+  "height": 1396,
+  "duration": 7.267
+ },
+ "seo": {
+  "title": "Synth Mode Ecommerce Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an ecommerce brand — React and Tailwind CSS, looping video, Plus Jakarta Sans and #EBEBED base. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "ecommerce website design",
+   "ecommerce landing page design",
+   "WebGL ecommerce landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Synth Mode — Ecommerce Landing Page Design",
+ "tagline": "“LGPSM — Future Forward Fashion” — the whole landing page is composed around that line, down to the animation timings.",
+ "summary": "Landing page reference for an ecommerce brand — React and Tailwind CSS, looping video, Plus Jakarta Sans and #EBEBED base.",
+ "about": "Synth Mode is a ecommerce landing page built from one written brief, and this page documents that brief. “LGPSM — Future Forward Fashion” is the line the layout is built to carry. Colour is limited to white #EBEBED underneath and muted blue #64748B carrying the accents, set in Plus Jakarta Sans. Delivery is React and Tailwind CSS, captured at 1920x1396 so the frame is fixed before any code is written. Motion comes down to 3s transitions and a looping video bed. It is most useful when the Ecommerce landing page has to survive a copy change without a redesign.",
+ "layout": [
+  {
+   "title": "Links collapse at one width",
+   "body": "The top row holds the wordmark, four to five links and a single action tinted #64748B, sized to stay quiet against the rest of the page. The links are set below the wordmark in size, and the #64748B action is the only element in the bar with any weight."
+  },
+  {
+   "title": "One scale for type and frame",
+   "body": "The layout works on absolute values rather than ratios: 3s transitions. Spacing is quoted in the same units as the type, so the two can be compared directly."
+  },
+  {
+   "title": "Panels carry the middle",
+   "body": "The grid does the reading order for you: panels of equal weight, one idea each, set in Plus Jakarta Sans at a small size so the structure stays visible. Each panel pairs one idea with an icon, so the scan path stays horizontal. One idea per panel."
+  },
+  {
+   "title": "A navigation bar that gets out of the way",
+   "body": "The bar sits over the 1920x1396 composition without a background of its own, so the media runs edge to edge underneath it."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Interaction is on the controls",
+   "body": "Interaction is local to each control here (hover states on the buttons and links rather than on every card), so nothing on the page moves as a side effect. Each state changes one property, which keeps the feedback legible. Fewer states, fully specified."
+  },
+  {
+   "title": "A loop, not a timeline",
+   "body": "Ambient movement is one 7.3s clip at 1920x1396, looping quietly behind the copy rather than reacting to the pointer. The loop is cropped to cover, which means the composition does not depend on a particular frame size. Shoot or export at 1920x1396 or wider."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#64748B",
+    "name": "Muted blue",
+    "role": "accent"
+   },
+   {
+    "hex": "#8B817E",
+    "name": "Gray",
+    "role": "darker step"
+   },
+   {
+    "hex": "#EFEFF1",
+    "name": "White",
+    "role": "lightest"
+   },
+   {
+    "hex": "#EBEBED",
+    "name": "White — darker",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Plus Jakarta Sans",
+    "weights": "Weight not fixed in the brief",
+    "role": "UI text"
+   },
+   {
+    "name": "Orbitron",
+    "weights": "Weight not fixed in the brief",
+    "role": "Body copy"
+   },
+   {
+    "name": "Chakra Petch",
+    "weights": "Weight not fixed in the brief",
+    "role": "Fallback and supporting interface text"
+   }
+  ],
+  "notes": [
+   "Media is specified at 1920x1396 and a 7.3s loop, so a replacement should match the crop and the loop length.",
+   "The timing budget is state feedback rather than page choreography (3s), so a slower rebuild reads as a different design.",
+   "Nothing sits between the type and the 1920x1396 clip, so a replacement has to work under the copy directly."
+  ]
+ },
+ "customize": [
+  "Retime the entrance to your own 3s, but keep a standard ease-out as the curve, because the easing is what reads as this design.",
+  "Change the copy first, then the accent, then the media: the 1920x1396 frame was solved in that order and reversing it costs a re-layout.",
+  "Keep the 1920x1396 frame when you swap the content, because the composition was solved against that ratio.",
+  "Swap Plus Jakarta Sans for a face with the same x-height and cap height, then re-measure the headline block."
+ ],
+ "editorial": [
+  {
+   "title": "How Synth Mode sequences the first read",
+   "body": "A strict order costs you flexibility later. Add a section above the fold and 3s transitions have to be re-cut, because the sequence is load-bearing rather than decorative. A ecommerce reader gets the offer before the options."
+  },
+  {
+   "title": "The numbers behind the landing page",
+   "body": "The landing page is measured, not eyeballed. 3s transitions come from the brief, and the layout is arranged to those steps rather than nudged into place. Nothing in this landing page depends on a default."
+  },
+  {
+   "title": "What moves in Synth Mode",
+   "body": "Motion is limited to 3s transitions, a 7.3s media loop and parallax layers; it runs once on entry and then gets out of the way, which is the right budget for the landing page to stay readable. Nothing animates for its own sake in this landing page."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1920x1396 capture before you generate.",
+  "Set the brand first: product name, the #64748B accent and a headline that replaces the reference's.",
+  "Drop your product name in, then replace #64748B with your own accent and re-check the contrast.",
+  "Set your brand first: product name, the #64748B accent and the headline that replaces the reference's.",
+  "Type the product name and the #64748B accent before you touch the layout."
+ ],
+ "faq": [
+  {
+   "question": "How long is the prompt behind Synth Mode?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1920x1396, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Why does the entry name React and Tailwind CSS at all?",
+   "answer": "Synth Mode was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Can I ship a page rebuilt from Synth Mode without crediting it?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1920x1396."
+  }
+ ],
+ "audience": [
+  "People who brief a model on a landing page will use the 10,533-character prompt as the starting point.",
+  "Made for content leads rewriting a landing page whose headline has to stay as long as Synth Mode's.",
+  "If you only have one afternoon, retint this landing page around #64748B and leave 1920x1396 and the grid where they are."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Landing page"
+  },
+  {
+   "label": "Field",
+   "value": "Ecommerce"
+  },
+  {
+   "label": "Viewport",
+   "value": "1920x1396 · 1.38:1"
+  },
+  {
+   "label": "Loop",
+   "value": "7.3s loop"
+  },
+  {
+   "label": "Brief",
+   "value": "10,533 characters"
+  },
+  {
+   "label": "Date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key tone",
+   "value": "muted blue #64748B"
+  },
+  {
+   "label": "Typefaces",
+   "value": "Plus Jakarta Sans, Orbitron, Chakra Petch"
+  },
+  {
+   "label": "Tech stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Timing",
+   "value": "3s transitions and a 7.3s media loop"
+  }
+ ],
+ "related": [
+  "heritage-grove",
+  "skybridge-404",
+  "task-engine",
+  "vertex",
+  "beauty-categories",
+  "coffee-rewards"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 10533,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

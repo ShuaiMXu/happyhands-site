@@ -1,0 +1,204 @@
+{
+ "slug": "transform-data-hero",
+ "sourceSlug": "transform-data-hero",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Transform Data"
+ },
+ "title": "Transform Data",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/4debb8e0b84d9ed5.webp",
+  "still": "https://cdn.ottermind.ai/public/599e837a850de028.webp",
+  "preview": "https://cdn.ottermind.ai/public/bdb43fc96baf5fcd.mp4",
+  "full": "https://cdn.ottermind.ai/public/ea04630abbdcf80b.mp4",
+  "aspectRatio": 1.3514,
+  "width": 800,
+  "height": 592,
+  "duration": 8.05
+ },
+ "seo": {
+  "title": "Transform Data AI & SaaS Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an AI or SaaS product — 250ms transitions, #505050 base, a dark stage and a stats row. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS hero section design",
+   "video-backed SaaS landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Transform Data — AI & SaaS Hero Section Design",
+ "tagline": "“Transform Data Quickly” — the whole hero section is composed around that line, down to the animation timings.",
+ "summary": "Hero section reference for an AI or SaaS product — 250ms transitions, #505050 base, a dark stage and a stats row.",
+ "about": "Transform Data keeps its decision trail: the brief that produced this hero section runs 3,605 characters. It leads with “Transform Data Quickly” and gives that line the frame rather than shrinking it into a card. The palette is gray #505050 underneath and white #F8F8F8 for the type, set in Inter. Delivery is a single component, captured at 800x592 so the frame is fixed before any code is written. The motion budget is 250ms transitions. Keep it open while you write: the 3,605-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "Top row, one action",
+   "body": "Navigation is a single row with no second level under it. The bar sits over the 800x592 composition without a background of its own, so the media runs edge to edge underneath it. The bar is a handful of elements, so it rebuilds without a component library."
+  },
+  {
+   "title": "The brief names the steps",
+   "body": "Sizes are quoted rather than inherited: 16px spacing steps and 250ms transitions. Swap the face or the copy and those relationships still hold. The type and the layout share the same steps, so nothing drifts when one of them is substituted. The numbers are the design; the rest is arrangement."
+  },
+  {
+   "title": "One face, used with discipline",
+   "body": "Type is the styling system here: Inter at the display size, the same face across the interface, and no second accent colour doing the work. Weights are specified per role, so the hierarchy does not depend on guesswork at build time."
+  },
+  {
+   "title": "Top row: wordmark, links, one action",
+   "body": "Keep the row to one line. The reference was captured at 800x592."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Timing kept in the brief",
+   "body": "The animation budget is small and explicit: 250ms, applied to state changes rather than to entrances. Focus states are timed with the same value as hover, so keyboard and pointer feedback match. One duration per behaviour."
+  },
+  {
+   "title": "Almost no motion",
+   "body": "This one is delivered as a still composition at 800x592, so the hierarchy has to work without motion, and it does. Motion is treated as feedback rather than as decoration. Stillness is a valid choice."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#505050",
+    "name": "Gray",
+    "role": "composition"
+   },
+   {
+    "hex": "#000000",
+    "name": "Near-black",
+    "role": "darkest"
+   },
+   {
+    "hex": "#F8F8F8",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#0E1311",
+    "name": "Near-black — lighter",
+    "role": "surface"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "400 / 500 / 600 / 700",
+    "role": "Control text"
+   },
+   {
+    "name": "Transform Data Quickly",
+    "weights": "400 / 500 / 600 / 700",
+    "role": "Secondary copy, captions and labels"
+   },
+   {
+    "name": "Schibsted Grotesk",
+    "weights": "400 / 500 / 600 / 700",
+    "role": "Fallback and supporting interface text"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 250ms, which is the value to keep when the palette changes.",
+   "Transitions are specified at 250ms, short enough that the page never feels like it is waiting for an animation.",
+   "The timing budget is state feedback rather than page choreography (250ms), so a slower rebuild reads as a different design."
+  ]
+ },
+ "customize": [
+  "Retime the entrance to your own 250ms, but keep a standard ease-out as the curve, because the easing is what reads as this design.",
+  "Replace the headline and the supporting line with your own copy, keeping the same line count so the entrance still lands over the 800x592 frame.",
+  "Rewrite “Transform Data Quickly” to the same line count; the mask reveals each line in turn.",
+  "Hold the 800x592 frame when you swap the content; the composition was solved against that ratio and a wider export pushes the type off."
+ ],
+ "editorial": [
+  {
+   "title": "How the hero section reflows",
+   "body": "You cannot fix a narrow screen by shrinking it. This brief handles the change in the type and the navigation instead: the scale is fluid rather than stepped. The scale changes with the viewport; the sequence does not."
+  },
+  {
+   "title": "What holds up for AI & SaaS",
+   "body": "3,605 characters of brief produce one screen with no filler. The values in it are explicit (16px spacing steps and 250ms transitions), which is why the composition still reads when the words change. Transform Data states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "The numbers behind the hero section",
+   "body": "Where a mood board leaves the scale open, this brief closes it: 16px spacing steps and 250ms transitions, with the surrounding values derived from that decision. Nothing in this hero section depends on a default."
+  }
+ ],
+ "steps": [
+  "Pin the reference measurements before you restyle anything: 16px spacing steps and 250ms transitions.",
+  "Keep the measurements the brief spells out: 16px spacing steps and 250ms transitions.",
+  "Check your build against the reference measurements: 16px spacing steps and 250ms transitions.",
+  "Copy 16px spacing steps and 250ms transitions into your own brief before you rewrite anything else.",
+  "Port the motion last: the entrance, the 250ms states and the hover behaviour, in that order."
+ ],
+ "faq": [
+  {
+   "question": "Why does the entry name a single component at all?",
+   "answer": "Transform Data was built in a single component, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What do I get when I copy the Transform Data brief?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 800x592, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "How much of Transform Data is animated?",
+   "answer": "Entrances and state changes are in the 250ms range. They are driven by state changes rather than a scroll library, and they never hold up the copy."
+  }
+ ],
+ "audience": [
+  "Borrow the hero section structure whole and replace the copy line by line against a single component.",
+  "Made for content leads rewriting a hero section whose headline has to stay as long as Transform Data's.",
+  "Made for a team that already has Inter loaded, a 800x592 export waiting and a build slot this week."
+ ],
+ "specs": [
+  {
+   "label": "Block",
+   "value": "Hero section"
+  },
+  {
+   "label": "Sector",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Format",
+   "value": "800x592 · 1.35:1"
+  },
+  {
+   "label": "Prompt",
+   "value": "3,605 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type scale",
+   "value": "Inter, Transform Data Quickly, Schibsted Grotesk"
+  },
+  {
+   "label": "Timing",
+   "value": "250ms transitions"
+  }
+ ],
+ "related": [
+  "intelligence-layer",
+  "intelligent-operations",
+  "intelligent-performance",
+  "intelligentx",
+  "junglemind",
+  "kresna-footer"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 3605,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

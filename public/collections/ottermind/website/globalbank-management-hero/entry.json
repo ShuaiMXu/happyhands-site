@@ -1,0 +1,206 @@
+{
+ "slug": "globalbank-management-hero",
+ "sourceSlug": "lp-065-6a3a7b9c8ac91f6202e080e1",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "GlobalBank"
+ },
+ "title": "GlobalBank",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/41b4307143b51397.webp",
+  "still": "https://cdn.ottermind.ai/public/849920188ed2df39.webp",
+  "preview": "https://cdn.ottermind.ai/public/5dbf0f62648b3a9f.mp4",
+  "full": "https://cdn.ottermind.ai/public/dce74e4cd4e31de3.mp4",
+  "aspectRatio": 1.3593,
+  "width": 1468,
+  "height": 1080,
+  "duration": 4.867
+ },
+ "seo": {
+  "title": "GlobalBank AI & SaaS Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an AI or SaaS product — Inter, #22C55E accent, a dark stage and one self-contained HTML file. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS hero section design",
+   "video-backed SaaS landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "GlobalBank — AI & SaaS Hero Section Design",
+ "tagline": "Hero section reference built on white #FFFFFF and green #22C55E, set in Inter and measured against type from 14px to 46px.",
+ "summary": "Hero section reference for an AI or SaaS product — Inter, #22C55E accent, a dark stage and one self-contained HTML file.",
+ "about": "This is the hero section from GlobalBank, published with the brief that produced it rather than as a screenshot. It leads with “Think Ahead. Move Fast. Exceed Expectations” and gives that line the frame rather than shrinking it into a card. The palette is white #FFFFFF underneath, deep green #1A2E24 for the type and green #22C55E carrying the accents, set in Inter. Delivery is one self-contained HTML file, captured at 1468x1080 so the frame is fixed before any code is written. Motion comes down to 4.1s transitions and a looping video bed. Keep it open while you write: the 31,093-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "One row, no drawers",
+   "body": "The top row holds the wordmark, four to five links and a single action tinted #22C55E, sized to stay quiet against the rest of the page. A mobile overlay takes over below the tablet breakpoint. The links are set below the wordmark in size, and the #22C55E action is the only element in the bar with any weight. Keep the link count to four or five; the row is sized for that."
+  },
+  {
+   "title": "Numbers carried into the build",
+   "body": "The layout works on absolute values rather than ratios: type from 14px to 46px, 14px spacing steps and 4.1s transitions. The list is short enough that a reviewer can check it element by element."
+  },
+  {
+   "title": "The video is the background, not a panel",
+   "body": "The 1468x1080 frame is filled by a single loop that plays behind the copy and asks for no controls. A poster frame at 1468x1080 holds the composition when autoplay is unavailable, so the layout never collapses."
+  },
+  {
+   "title": "Links before the action",
+   "body": "Design the collapsed state before adding a sixth link. The reference was captured at 1468x1080."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Durations from the brief",
+   "body": "The timings are short and consistent (4.1s), so hover and press states read as one system instead of a set of separate effects. Easing is specified alongside the duration (4.1s), so a rebuild cannot quietly substitute a different feel."
+  },
+  {
+   "title": "A loop, not a timeline",
+   "body": "One 4.9s clip is the entire ambient layer: it plays behind the copy, loops without a visible cut and never reacts to the pointer. The clip is short enough to loop without a visible seam, which matters more than its resolution."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#FFFFFF",
+    "name": "White",
+    "role": "composition"
+   },
+   {
+    "hex": "#22C55E",
+    "name": "Green",
+    "role": "accent"
+   },
+   {
+    "hex": "#EEF1F0",
+    "name": "White — darker",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#1A2E24",
+    "name": "Deep green",
+    "role": "Headline"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "14–46px",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "The timing budget is state feedback rather than page choreography (4.1s), so a slower rebuild reads as a different design.",
+   "Media is specified at 1468x1080 and a 4.9s loop, so a replacement should match the crop and the loop length.",
+   "Accent use is limited to green #22C55E; everything else sits on white #FFFFFF."
+  ]
+ },
+ "customize": [
+  "Keep the supporting line as short as the reference's and measure the pair against the 1468x1080 crop.",
+  "Replace the copy in the Inter stack first, then re-check the #22C55E accent against the media behind it.",
+  "Hold the 1468x1080 frame when you swap the content; the composition was solved against that ratio and a wider export pushes the type off.",
+  "Rewrite “Think Ahead. Move Fast. Exceed Expectations” to the same line count; the mask reveals each line in turn."
+ ],
+ "editorial": [
+  {
+   "title": "The timing behind the hero section",
+   "body": "Where a template animates every section on entry, this one animates 4.1s transitions, a 4.9s media loop and a word-by-word headline and then holds. Nothing animates for its own sake in this hero section."
+  },
+  {
+   "title": "The order behind the hero section",
+   "body": "Attention is routed rather than scattered. The page says it out loud: “Think Ahead. Move Fast. Exceed Expectations”. The eye lands on the display line first, then the supporting copy, then the action. That sequence is the design. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "Reading GlobalBank as a spec",
+   "body": "The brief is a specification, not a mood board. It fixes type from 14px to 46px, 14px spacing steps and 4.1s transitions, and it names the media at 1468x1080 and a 4.9s loop. That level of detail is why the design survives a rebuild: change the copy and the relationships still hold. Nothing in this hero section depends on a default."
+  }
+ ],
+ "steps": [
+  "Drop your product name in, then replace #22C55E with your own accent and re-check the contrast.",
+  "Set the brand first: product name, the #22C55E accent and a headline that replaces the reference's.",
+  "Type the product name and the #22C55E accent before you touch the layout.",
+  "Set your brand first: product name, the #22C55E accent and the headline that replaces the reference's.",
+  "Keep the measurements the brief spells out: type from 14px to 46px, 14px spacing steps and 4.1s transitions."
+ ],
+ "faq": [
+  {
+   "question": "Can I rebuild the GlobalBank hero section in a different stack?",
+   "answer": "GlobalBank was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "How long is the prompt behind GlobalBank?",
+   "answer": "The captured brief runs 31,093 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "How do the 4.1s transitions in GlobalBank behave?",
+   "answer": "Transitions are attached to interface states rather than to a scroll timeline, and they resolve in the 4.1s range. The brief records the values so a port can match them without guessing."
+  }
+ ],
+ "audience": [
+  "Borrow the hero section structure whole and replace the copy line by line against one self-contained HTML file.",
+  "Teams rebuilding a competitor's SaaS hero section who want one self-contained HTML file named before anyone commits to a framework.",
+  "Start from type from 14px to 46px and 14px spacing steps and let the palette follow, because the spacing is what makes this hero section read."
+ ],
+ "specs": [
+  {
+   "label": "Block",
+   "value": "Hero section"
+  },
+  {
+   "label": "Industry",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Frame",
+   "value": "1468x1080 · 1.36:1"
+  },
+  {
+   "label": "Duration",
+   "value": "4.9s loop"
+  },
+  {
+   "label": "Brief",
+   "value": "31,093 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent hex",
+   "value": "green #22C55E"
+  },
+  {
+   "label": "Type",
+   "value": "Inter · 14–46px"
+  },
+  {
+   "label": "Reference stack",
+   "value": "Tailwind CSS, vanilla JS, single HTML file"
+  },
+  {
+   "label": "Motion spec",
+   "value": "4.1s transitions and a 4.9s media loop"
+  }
+ ],
+ "related": [
+  "palomar-labs",
+  "portal",
+  "power-ai-hero",
+  "quantum-core",
+  "quantum-lucid",
+  "real-time-alerts"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 31093,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

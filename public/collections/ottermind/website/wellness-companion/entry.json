@@ -1,0 +1,197 @@
+{
+ "slug": "wellness-companion",
+ "sourceSlug": "wellness-companion",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Wellness Companion"
+ },
+ "title": "Wellness Companion",
+ "industry": "health",
+ "industryLabel": "Health",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/28221c924aace1e3.webp",
+  "still": "https://cdn.ottermind.ai/public/cb36aa40cb3ce14f.webp",
+  "preview": "https://cdn.ottermind.ai/public/812a2dbd8363cda8.mp4",
+  "full": "https://cdn.ottermind.ai/public/930e1c342eb938fb.mp4",
+  "aspectRatio": 1.3333,
+  "width": 1440,
+  "height": 1080,
+  "duration": 5.9
+ },
+ "seo": {
+  "title": "Wellness Companion Health Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for a health or wellbeing product — 0.5s transitions, Helvetica, Arial, #1A1A1E base and a stats row. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "health website design",
+   "health landing page design",
+   "gradient health landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Wellness Companion — Health Landing Page Design",
+ "tagline": "Landing page reference for a health or wellbeing product, captured at 1440x1080 with the layout, timings and palette specified in the brief.",
+ "summary": "Landing page reference for a health or wellbeing product — 0.5s transitions, Helvetica, Arial, #1A1A1E base and a stats row.",
+ "about": "Wellness Companion is the landing page reference for a health or wellbeing product, and the brief behind it is a full build spec rather than a mood board. The palette runs deep blue #1A1A1E underneath, and the type is Helvetica, Arial. Delivery is React and Tailwind CSS, captured at 1440x1080 so the frame is fixed before any code is written. Motion is 0.5s transitions, cubic-bezier(0.22, 1, 0.36, 1) and a looping video bed, kept quiet enough that the copy still leads. Use it as the reference when you are building a health or wellbeing product landing page and want a finished composition instead of a starting point.",
+ "layout": [
+  {
+   "title": "Measured against the viewport",
+   "body": "The brief fixes 12px spacing steps, 0.5s transitions and cubic-bezier(0.22, 1, 0.36, 1) easing and leaves the rest to the arrangement, which is the opposite of a scale that grows on its own. Spacing is quoted in the same units as the type, so the two can be compared directly. Measure before you adjust."
+  },
+  {
+   "title": "A full-bleed clip behind the type",
+   "body": "The background is a single 5.9s loop at 1440x1080, cropped to cover and left un-tinted. Everything else floats above it on a higher layer. A poster frame at 1440x1080 holds the composition when autoplay is unavailable, so the layout never collapses."
+  },
+  {
+   "title": "One idea per panel",
+   "body": "The grid does the reading order for you: panels of equal weight, one idea each, set in Helvetica, Arial at a small size so the structure stays visible. The grid collapses to one column without changing the panel order."
+  },
+  {
+   "title": "Measured, not eyeballed",
+   "body": "Spacing is quoted the same way (12px spacing steps, 0.5s transitions and cubic-bezier(0.22, 1, 0.36, 1) easing), not as a scale that grows on its own."
+  }
+ ],
+ "motion": [
+  {
+   "title": "A loop, not a timeline",
+   "body": "One 5.9s clip is the entire ambient layer: it plays behind the copy, loops without a visible cut and never reacts to the pointer. Because it is muted, the loop can run under the copy without competing for sound or focus."
+  },
+  {
+   "title": "State changes, timed",
+   "body": "The animation budget is small and explicit: 0.5s using cubic-bezier(0.22, 1, 0.36, 1), applied to state changes rather than to entrances. Easing is specified alongside the duration (0.5s), so a rebuild cannot quietly substitute a different feel."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#8A9AAA",
+    "name": "Muted blue",
+    "role": "lightest"
+   },
+   {
+    "hex": "#1A1A1E",
+    "name": "Near-black",
+    "role": "composition"
+   },
+   {
+    "hex": "#232328",
+    "name": "Tint",
+    "role": "supporting"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Helvetica, Arial",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one stack for the whole page"
+   }
+  ],
+  "notes": [
+   "The clip is one asset at 1440x1080 and a 5.9s loop, so the composition has a single media dependency.",
+   "The timing budget is state feedback rather than page choreography (0.5s), so a slower rebuild reads as a different design.",
+   "Nothing sits between the type and the 1440x1080 clip, so a replacement has to work under the copy directly."
+  ]
+ },
+ "customize": [
+  "Hold the 1440x1080 frame when you swap the content; the composition was solved against that ratio and a wider export pushes the type off.",
+  "Replace the video with a still at 1440x1080 if the 5.9s loop is too heavy for the page you are shipping.",
+  "Retime the entrance to taste. 0.5s with cubic-bezier(0.22, 1, 0.36, 1) is what the reference uses.",
+  "Draft the new copy to the 1440x1080 frame, then check that the entrance still lands on the same number of lines."
+ ],
+ "editorial": [
+  {
+   "title": "What moves in Wellness Companion",
+   "body": "Compare the motion here with a scroll-driven page. Both move; this one moves where the brief says (0.5s transitions and a 5.9s media loop), so the copy stays in front. Nothing animates for its own sake in this landing page."
+  },
+  {
+   "title": "The numbers behind the landing page",
+   "body": "You cannot fix a composition by eye when two people are rebuilding it. The brief removes the argument: 12px spacing steps, 0.5s transitions and cubic-bezier(0.22, 1, 0.36, 1) easing, stated once. Nothing in this landing page depends on a default."
+  },
+  {
+   "title": "Why this composition works for health",
+   "body": "A stock hero and this landing page use the same parts. Here they are ordered by the headline, the announcement badge, the stats row, the card grid and the countdown and measured with 12px spacing steps, 0.5s transitions and cubic-bezier(0.22, 1, 0.36, 1) easing, so the screen reads as a sequence rather than a container. It gives a health reader the shortest honest route to the offer."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1440x1080 capture before you generate.",
+  "Pin the reference measurements before you restyle anything: 12px spacing steps, 0.5s transitions and cubic-bezier(0.22, 1, 0.36, 1) easing.",
+  "Keep the measurements the brief spells out: 12px spacing steps, 0.5s transitions and cubic-bezier(0.22, 1, 0.36, 1) easing.",
+  "Check your build against the reference measurements: 12px spacing steps, 0.5s transitions and cubic-bezier(0.22, 1, 0.36, 1) easing.",
+  "Copy 12px spacing steps, 0.5s transitions and cubic-bezier(0.22, 1, 0.36, 1) easing into your own brief before you rewrite anything else."
+ ],
+ "faq": [
+  {
+   "question": "Is the Wellness Companion prompt a finished spec or a starting point?",
+   "answer": "The captured brief runs 4,095 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "How much of Wellness Companion depends on React and Tailwind CSS?",
+   "answer": "Wellness Companion was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "How should I handle the Wellness Companion media in a client build?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1440x1080."
+  }
+ ],
+ "audience": [
+  "Product marketers who need the landing page to still read with 5.9s of looping video behind the copy.",
+  "People who brief a model on a landing page will use the 4,095-character prompt as the starting point.",
+  "Made for content leads rewriting a landing page whose headline has to stay as long as Wellness Companion's."
+ ],
+ "specs": [
+  {
+   "label": "Page part",
+   "value": "Landing page"
+  },
+  {
+   "label": "Industry",
+   "value": "Health"
+  },
+  {
+   "label": "Canvas size",
+   "value": "1440x1080 · 1.33:1"
+  },
+  {
+   "label": "Loop length",
+   "value": "5.9s loop"
+  },
+  {
+   "label": "Prompt text",
+   "value": "4,095 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Fonts",
+   "value": "Helvetica, Arial"
+  },
+  {
+   "label": "Built with",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Transitions",
+   "value": "0.5s transitions, cubic-bezier(0.22, 1, 0.36, 1) easing and a 5.9s media loop"
+  }
+ ],
+ "related": [
+  "adhd-planner",
+  "celestial-renewal",
+  "faq-cta",
+  "health-portal",
+  "healcure-clinic-landing",
+  "mind-ai"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 4095,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

@@ -1,0 +1,198 @@
+{
+ "slug": "digitwist-hero",
+ "sourceSlug": "digitwist-hero",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Digitwist AI Builder"
+ },
+ "title": "Digitwist AI Builder",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/78917905cd7563b3.webp",
+  "still": "https://cdn.ottermind.ai/public/3fa9c6ac68789ca8.webp",
+  "preview": "https://cdn.ottermind.ai/public/8d2f335dfa3e5a69.mp4",
+  "full": "https://cdn.ottermind.ai/public/70c3a7dd6e836472.mp4",
+  "aspectRatio": 1.4388,
+  "width": 800,
+  "height": 556,
+  "duration": 10.92
+ },
+ "seo": {
+  "title": "Digitwist AI Builder AI & SaaS Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an AI or SaaS product — React and Lucide icons, a 800x556 frame, a stats row and 0.6s transitions. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS hero section design",
+   "video-backed SaaS landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Digitwist AI Builder — AI & SaaS Hero Section Design",
+ "tagline": "Hero section reference built around “Design at the speed of thought”, with the layout, timings and palette written down in the brief.",
+ "summary": "Hero section reference for an AI or SaaS product — React and Lucide icons, a 800x556 frame, a stats row and 0.6s transitions.",
+ "about": "Digitwist AI Builder keeps its decision trail: the brief that produced this hero section runs 6,001 characters. The headline reads “Design at the speed of thought”, and the rest of the hero section is arranged around it. The palette is bright blue #3054FF underneath and muted blue #B4C0FF for the type, set in Instrument Sans. Delivery is React and Lucide icons — one page, no plugin, no build tooling between you and the design. Motion is 0.6s transitions, kept quiet enough that the copy still leads. Keep it open while you write: the 6,001-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "Navigation held to one row",
+   "body": "A slim bar sits over the hero section with the wordmark on the left and the links set in Instrument Sans, so the composition reads as content first and chrome second. The bar sits over the 800x556 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "Links collapse at one width",
+   "body": "A short run of links and a single action sit over the hero section, held at type from 20px to 136px and 120px spacing steps so the bar never competes with the composition behind it."
+  },
+  {
+   "title": "One scale for type and frame",
+   "body": "Sizes were read off the render at 800x556: type from 20px to 136px, 120px spacing steps and 0.6s transitions. The type and the layout share the same steps, so nothing drifts when one of them is substituted."
+  },
+  {
+   "title": "The type carries the tone",
+   "body": "Type is the styling system here: Instrument Sans at the display size, the same face across the interface, and no second accent colour doing the work. Tracking tightens as the size grows, which is why the display line holds together across 20–136px. Keep the steps, swap the face."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Feedback on the controls",
+   "body": "Feedback is limited to hover states on the buttons and links rather than on every card, which is what keeps a dense first screen from feeling busy. Interactive targets are large enough to tap and the pointer treatment is consistent across them. Fewer states, fully specified."
+  },
+  {
+   "title": "Durations from the brief",
+   "body": "Every state change in the specification has a duration attached: transitions settle around 0.6s. Nothing is left at the browser default, which is why the page feels authored rather than animated. Easing is specified alongside the duration (0.6s), so a rebuild cannot quietly substitute a different feel. Time the feedback exactly."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#000000",
+    "name": "Near-black",
+    "role": "darkest"
+   },
+   {
+    "hex": "#B4C0FF",
+    "name": "Muted blue",
+    "role": "Headline"
+   },
+   {
+    "hex": "#0A0400",
+    "name": "Near-black — lighter",
+    "role": "darker step"
+   },
+   {
+    "hex": "#3054FF",
+    "name": "Bright blue",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Instrument Sans",
+    "weights": "20–136px",
+    "role": "Display tone"
+   }
+  ],
+  "notes": [
+   "The type is set in Instrument Sans on a 20–136px scale, and the spacing follows the same steps.",
+   "Font roles are assigned rather than mixed here, and 20–136px is the range the whole scale works in.",
+   "The display line is Instrument Sans at the top of a 20–136px scale, with the interface text on the same face."
+  ]
+ },
+ "customize": [
+  "Swap in your own headline where “Design at the speed of thought” sits and keep the line breaks, because the entrance animates per line.",
+  "Keep 800x556 for the media and re-crop your own asset into it rather than resizing the frame.",
+  "Draft the new copy to the 800x556 frame, then check that the entrance still lands on the same number of lines.",
+  "Replace the headline and the supporting line with your own copy, keeping the same line count so the entrance still lands over the 800x556 frame."
+ ],
+ "editorial": [
+  {
+   "title": "The order behind the hero section",
+   "body": "The brief runs 6,001 characters and names the reading order explicitly: navigation, the headline, the announcement badge, the stats row and the background clip, with type from 20px to 136px and 120px spacing steps between them. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "The numbers behind the hero section",
+   "body": "If you are handing this to a developer, the brief is the useful artefact. It states type from 20px to 136px, 120px spacing steps and 0.6s transitions and leaves nothing for the two of you to interpret. Nothing in this hero section depends on a default."
+  },
+  {
+   "title": "What an AI or SaaS product gains here",
+   "body": "The claim is made once, at display size. “Design at the speed of thought” is doing that work from the first frame. Everything else in the hero section is ordered around that line: navigation, the headline, the announcement badge, the stats row and the background clip, and no second promise competes for the first read. Digitwist AI Builder states the offer once and lets the composition repeat it rather than adding a second claim."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 800x556 capture before you generate.",
+  "Copy type from 20px to 136px, 120px spacing steps and 0.6s transitions into your own brief before you rewrite anything else.",
+  "Pin the reference measurements before you restyle anything: type from 20px to 136px, 120px spacing steps and 0.6s transitions.",
+  "Keep the measurements the brief spells out: type from 20px to 136px, 120px spacing steps and 0.6s transitions.",
+  "Check your build against the reference measurements: type from 20px to 136px, 120px spacing steps and 0.6s transitions."
+ ],
+ "faq": [
+  {
+   "question": "What does the brief behind Digitwist AI Builder actually contain?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 800x556, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "How much of Digitwist AI Builder depends on React and Lucide icons?",
+   "answer": "Digitwist AI Builder was built in React and Lucide icons, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Where did the Digitwist AI Builder design come from?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 800x556."
+  }
+ ],
+ "audience": [
+  "Contract teams taking over this hero section who need a 800x556 frame pinned in the repo before the first commit.",
+  "Teams building an AI or SaaS product hero section who want the measured detail (type from 20px to 136px and 120px spacing steps) rather than a screenshot to copy.",
+  "Made for content leads rewriting a hero section whose headline has to stay as long as Digitwist AI Builder's."
+ ],
+ "specs": [
+  {
+   "label": "Page part",
+   "value": "Hero section"
+  },
+  {
+   "label": "Field",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Format",
+   "value": "800x556 · 1.44:1"
+  },
+  {
+   "label": "Input brief",
+   "value": "6,001 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Fonts",
+   "value": "Instrument Sans · 20–136px"
+  },
+  {
+   "label": "Reference stack",
+   "value": "React, TypeScript, Lucide icons"
+  },
+  {
+   "label": "Animation",
+   "value": "0.6s transitions"
+  }
+ ],
+ "related": [
+  "palomar-labs",
+  "portal",
+  "power-ai-hero",
+  "quantum-core",
+  "quantum-lucid",
+  "real-time-alerts"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 6001,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

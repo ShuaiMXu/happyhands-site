@@ -1,0 +1,202 @@
+{
+ "slug": "scaling-platform",
+ "sourceSlug": "scaling-platform",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Scaling Platform"
+ },
+ "title": "Scaling Platform",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/70165ced1763692c.webp",
+  "still": "https://cdn.ottermind.ai/public/0236c210f966729c.webp",
+  "preview": "https://cdn.ottermind.ai/public/ed854e3a254b6754.mp4",
+  "full": "https://cdn.ottermind.ai/public/34ec54636be576b1.mp4",
+  "aspectRatio": 1.7741,
+  "width": 1916,
+  "height": 1080,
+  "duration": 5.133
+ },
+ "seo": {
+  "title": "Scaling Platform AI & SaaS Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an AI or SaaS product — looping video, Quantico, 1s transitions and a masked headline reveal. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS landing page design",
+   "video-backed SaaS landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Scaling Platform — AI & SaaS Landing Page Design",
+ "tagline": "Landing page reference built on white #F2F1F0 and bright teal #15BCDF, set in Quantico and measured against 100vh sections.",
+ "summary": "Landing page reference for an AI or SaaS product — looping video, Quantico, 1s transitions and a masked headline reveal.",
+ "about": "Scaling Platform is a working reference for an AI or SaaS product: the landing page laid out, measured and ready to rebuild. The palette runs white #F2F1F0 underneath, black #3A3A3A for the type and bright teal #15BCDF carrying the accents, and the type is Quantico. It ships as a single component, so the whole landing page can be lifted into a project without a design handoff. Motion is confined to 1s transitions and a looping video bed. Use it as the reference when you are building an AI or SaaS product landing page and want a finished composition instead of a starting point.",
+ "layout": [
+  {
+   "title": "Top row, one action",
+   "body": "The row spends its contrast in one place: the #15BCDF action, with the wordmark and the links held back on the ink colour. A mobile overlay takes over below the tablet breakpoint. The links are set below the wordmark in size, and the #15BCDF action is the only element in the bar with any weight."
+  },
+  {
+   "title": "Measured, not eyeballed",
+   "body": "The brief states its sizes at capture (100vh sections, 20px spacing steps and 1s transitions), so a rebuild can be verified instead of approximated. The type and the layout share the same steps, so nothing drifts when one of them is substituted."
+  },
+  {
+   "title": "Weights named per role",
+   "body": "The size steps and tracking in the brief are what give this its tone: Quantico at a tight display size, then a clear drop to the supporting copy. Substituting the face is possible, but the proportions have to survive the swap. One face, clear roles."
+  },
+  {
+   "title": "A bar with nothing spare",
+   "body": "The bar sits over the 1916x1080 composition without a background of its own, so the media runs edge to edge underneath it."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Short, named durations",
+   "body": "Transitions are specified at 1s, which is the timing the controls are held to. Easing is specified alongside the duration (1s), so a rebuild cannot quietly substitute a different feel. Do not ship the browser default."
+  },
+  {
+   "title": "A small interactive surface",
+   "body": "The interactive layer is deliberately small: hover states on the buttons and links rather than on every card. Nothing on the page opens a modal or hijacks the scroll; the interactions stay local to the element. Fewer states, fully specified."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#F2F1F0",
+    "name": "White",
+    "role": "composition"
+   },
+   {
+    "hex": "#15BCDF",
+    "name": "Bright teal",
+    "role": "accent"
+   },
+   {
+    "hex": "#3A3A3A",
+    "name": "Black",
+    "role": "Headline"
+   },
+   {
+    "hex": "#3FD0EF",
+    "name": "Bright teal — lighter",
+    "role": "darker"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Quantico",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 1s, which is the value to keep when the palette changes.",
+   "Nothing sits between the type and the 1916x1080 clip, so a replacement has to work under the copy directly.",
+   "Transitions are specified at 1s, short enough that the page never feels like it is waiting for an animation."
+  ]
+ },
+ "customize": [
+  "Keep 1916x1080 for the media and re-crop your own asset into it rather than resizing the frame.",
+  "Replace the video with a still at 1916x1080 if the 5.1s loop is too heavy for the page you are shipping.",
+  "Recut your footage to the 5.1s loop, then export at 1916x1080 so the crop the reference specifies survives.",
+  "Retime the entrance to your own 1s, but keep a standard ease-out as the curve, because the easing is what reads as this design."
+ ],
+ "editorial": [
+  {
+   "title": "The timing behind the landing page",
+   "body": "A preset animation library would give you more movement than this. The brief asks for less: 1s transitions, a 5.1s media loop and a masked line reveal, and nothing decorative on top. Nothing animates for its own sake in this landing page."
+  },
+  {
+   "title": "How Scaling Platform sequences the first read",
+   "body": "A strict order costs you flexibility later. Add a section above the fold and 100vh sections and 20px spacing steps have to be re-cut, because the sequence is load-bearing rather than decorative. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "What to change first in Scaling Platform",
+   "body": "Most people start with the accent colour. Start with the promise instead: rewrite the display line, then re-test bright teal #15BCDF against your own media. Set the new copy at the same display size and re-check the contrast before you add anything."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1916x1080 capture before you generate.",
+  "Set the brand first: product name, the #15BCDF accent and a headline that replaces the reference's.",
+  "Drop your product name in, then replace #15BCDF with your own accent and re-check the contrast.",
+  "Set your brand first: product name, the #15BCDF accent and the headline that replaces the reference's.",
+  "Type the product name and the #15BCDF accent before you touch the layout."
+ ],
+ "faq": [
+  {
+   "question": "Can I rebuild the Scaling Platform landing page in a different stack?",
+   "answer": "Scaling Platform was built in a single component, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What can I do with the Scaling Platform brief once I have it?",
+   "answer": "Everything quoted on the page comes from the captured 5,231-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "What does the brief behind Scaling Platform actually contain?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1916x1080, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  }
+ ],
+ "audience": [
+  "Hand a single component to the engineer with the 1916x1080 crop attached, then let them rebuild it.",
+  "Made for a designer joining a project that already ships a single component and only needs the copy replaced.",
+  "Write your own headline, then rebuild this landing page in a single component with the measurements intact."
+ ],
+ "specs": [
+  {
+   "label": "Page section",
+   "value": "Landing page"
+  },
+  {
+   "label": "Vertical",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Canvas size",
+   "value": "1916x1080 · 1.77:1"
+  },
+  {
+   "label": "Clip length",
+   "value": "5.1s loop"
+  },
+  {
+   "label": "Prompt",
+   "value": "5,231 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent hex",
+   "value": "bright teal #15BCDF"
+  },
+  {
+   "label": "Typefaces",
+   "value": "Quantico"
+  },
+  {
+   "label": "Motion",
+   "value": "1s transitions and a 5.1s media loop"
+  }
+ ],
+ "related": [
+  "fastshot",
+  "forecast-center",
+  "growth-decisions",
+  "haul-footer",
+  "intelligence-layer",
+  "intelligent-operations"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 5231,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

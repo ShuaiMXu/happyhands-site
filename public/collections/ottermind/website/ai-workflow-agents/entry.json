@@ -1,0 +1,207 @@
+{
+ "slug": "ai-workflow-agents",
+ "sourceSlug": "ai-workflow-agents",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "AI Workflow Agents"
+ },
+ "title": "AI Workflow Agents",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "portfolio",
+ "sectionLabel": "Portfolio",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/1327cc22cf2ced0d.webp",
+  "still": "https://cdn.ottermind.ai/public/3d4146773d58ffa7.webp",
+  "preview": "https://cdn.ottermind.ai/public/9aa7855dd4cccf31.mp4",
+  "full": "https://cdn.ottermind.ai/public/4a15926c3f5d5685.mp4",
+  "aspectRatio": 1.337,
+  "width": 1444,
+  "height": 1080,
+  "duration": 6.866
+ },
+ "seo": {
+  "title": "AI Workflow Agents AI & SaaS Portfolio Design & Prompt | Ottermind",
+  "description": "Portfolio reference for an AI or SaaS product — #E8E6F1 base, #7A4064 accent, looping video and a stats row. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS portfolio page design",
+   "video-backed SaaS landing page",
+   "portfolio page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "AI Workflow Agents — AI & SaaS Portfolio Design",
+ "tagline": "Portfolio reference built on white #E8E6F1 and magenta #7A4064, set in Instrument Serif and measured against 100vh sections.",
+ "summary": "Portfolio reference for an AI or SaaS product — #E8E6F1 base, #7A4064 accent, looping video and a stats row.",
+ "about": "This is the portfolio page from AI Workflow Agents, published with the brief that produced it rather than as a screenshot. “Axon — Digital Workers for Mundane Workflows” is the line the layout is built to carry. The palette runs white #E8E6F1 underneath, deep indigo #1B133C for the type and magenta #7A4064 carrying the accents, and the type is Instrument Serif. The reference is built with a single component, and the layout decisions are stated independently of it. The motion budget is a looping video bed. It is most useful when the AI & SaaS portfolio page has to survive a copy change without a redesign.",
+ "layout": [
+  {
+   "title": "Top row, one action",
+   "body": "Navigation is a thin strip rather than a band: wordmark left, links centre-right, one #7A4064 action, all of it sitting above the portfolio page without a background of its own. The links are set below the wordmark in size, and the #7A4064 action is the only element in the bar with any weight."
+  },
+  {
+   "title": "Measured, not eyeballed",
+   "body": "The brief states its sizes at capture (100vh sections), so a rebuild can be verified instead of approximated. Values are quoted from the captured prompt rather than inferred, so they survive a re-render."
+  },
+  {
+   "title": "A clip, not an illustration",
+   "body": "The 1444x1080 frame is filled by a single loop that plays behind the copy and asks for no controls. Export at 1444x1080 or wider and the cover crop keeps working."
+  },
+  {
+   "title": "One face, used with discipline",
+   "body": "Typography is Instrument Serif, and the brief assigns the face a job rather than mixing for variety. Weight, tracking and size steps are all specified, so the hierarchy survives a substitution. Substituting the face is possible, but the proportions have to survive the swap. One family with clear roles beats two that compete."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Hover, but sparingly",
+   "body": "The page answers only where it can be acted on: hover states on the buttons and links rather than on every card. The states are drawn from the page's own palette rather than from a component default."
+  },
+  {
+   "title": "A loop, not a timeline",
+   "body": "One 6.9s clip is the entire ambient layer: it plays behind the copy, loops without a visible cut and never reacts to the pointer. The clip is muted and inline, so the first frame is available without an interaction. Shoot or export at 1444x1080 or wider."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#1B133C",
+    "name": "Deep indigo",
+    "role": "Headline"
+   },
+   {
+    "hex": "#FEFEFE",
+    "name": "White",
+    "role": "lightest"
+   },
+   {
+    "hex": "#7A4064",
+    "name": "Magenta",
+    "role": "accent"
+   },
+   {
+    "hex": "#E8E6F1",
+    "name": "White — darker",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Instrument Serif",
+    "weights": "400 / 500 / 600",
+    "role": "Display face"
+   },
+   {
+    "name": "Inter",
+    "weights": "400 / 500 / 600",
+    "role": "Text face"
+   }
+  ],
+  "notes": [
+   "The accent is spent on magenta #7A4064 and the rest of the composition holds white #E8E6F1.",
+   "Nothing sits between the type and the 1444x1080 clip, so a replacement has to work under the copy directly.",
+   "Accent and ground are both named (magenta #7A4064 on white #E8E6F1), so a brand swap moves one value."
+  ]
+ },
+ "customize": [
+  "Check #7A4064 against the copy size in Instrument Serif before you swap either, because the accent only reads on a large line.",
+  "Replace the video with a still at 1444x1080 if the 6.9s loop is too heavy for the page you are shipping.",
+  "Swap the clip for your own footage at 1444x1080 or wider, keep it muted, and match the 6.9s loop point.",
+  "Keep the supporting line as short as the reference's and measure the pair against the 1444x1080 crop."
+ ],
+ "editorial": [
+  {
+   "title": "How the portfolio page reflows",
+   "body": "There is no separate mobile design to maintain. the section is held at 100vh, and the same hierarchy carries across. The narrow layout is a decision rather than a squeeze, and the hierarchy survives it."
+  },
+  {
+   "title": "What moves in AI Workflow Agents",
+   "body": "The trade-off is that nothing here rewards a second look for its animation. What it rewards is the reading order, with hover and press states and a 6.9s media loop confirming state rather than decorating it. Nothing animates for its own sake in this portfolio page."
+  },
+  {
+   "title": "What to change first in AI Workflow Agents",
+   "body": "Start with the copy, not the colour. Rewrite “Axon — Digital Workers for Mundane Workflows” as one sentence about your product, then set it in Instrument Serif at the size the brief uses. Rewrite the display line before you touch the colour."
+  }
+ ],
+ "steps": [
+  "Start in Studio with the prompt prefilled, then delete the parts of the portfolio page you do not need.",
+  "Open the reference in Studio with the prompt staged, and read the portfolio brief before you send it.",
+  "Stage the prompt in Studio and read it once against the 1444x1080 capture before you generate.",
+  "Type the product name and the #7A4064 accent before you touch the layout.",
+  "Drop your product name in, then replace #7A4064 with your own accent and re-check the contrast."
+ ],
+ "faq": [
+  {
+   "question": "Is the AI Workflow Agents prompt a finished spec or a starting point?",
+   "answer": "The captured brief runs 3,215 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Do I need a single component to rebuild AI Workflow Agents?",
+   "answer": "No. The brief is a specification, not a dependency list. It was written for a single component, but the same composition rebuilds in whatever you already use. The stack is named so you know how the reference was made."
+  },
+  {
+   "question": "How should I handle the AI Workflow Agents media in a client build?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1444x1080."
+  }
+ ],
+ "audience": [
+  "Studio teams briefing a build and looking for a single component to react to.",
+  "Front-end developers rebuilding this in a single component who want the transitions specified rather than guessed.",
+  "The page serves front-end developers rebuilding an AI or SaaS product portfolio page in a single component and looking for the numbers behind the look."
+ ],
+ "specs": [
+  {
+   "label": "Block",
+   "value": "Portfolio"
+  },
+  {
+   "label": "Vertical",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Canvas",
+   "value": "1444x1080 · 1.34:1"
+  },
+  {
+   "label": "Loop",
+   "value": "6.9s loop"
+  },
+  {
+   "label": "Brief",
+   "value": "3,215 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent",
+   "value": "magenta #7A4064"
+  },
+  {
+   "label": "Type",
+   "value": "Instrument Serif, Inter"
+  },
+  {
+   "label": "Timing",
+   "value": "a 6.9s media loop"
+  }
+ ],
+ "related": [
+  "quantum-lucid",
+  "real-time-alerts",
+  "rocket-cta",
+  "rocket-pricing",
+  "scaling-platform",
+  "securify-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 3215,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

@@ -1,0 +1,198 @@
+{
+ "slug": "glow-features",
+ "sourceSlug": "glow-features",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Glow Features"
+ },
+ "title": "Glow Features",
+ "industry": "creative",
+ "industryLabel": "Agencies & Studios",
+ "section": "features",
+ "sectionLabel": "Features section",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/6ab21fe985cbd726.webp",
+  "still": "https://cdn.ottermind.ai/public/c4c981819bbaa852.webp",
+  "preview": "https://cdn.ottermind.ai/public/c4c981819bbaa852.webp",
+  "full": "https://cdn.ottermind.ai/public/c4c981819bbaa852.webp",
+  "aspectRatio": 1.3465,
+  "width": 1834,
+  "height": 1362,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Glow Features Features Section Design & Prompt | Ottermind",
+  "description": "Features section reference for an agency or studio — a 1834x1362 frame, a stats row, #FF3D77 accent and a dark stage. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "agency website design",
+   "agency features section design",
+   "WebGL agency landing page",
+   "features section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Glow Features — Agencies & Studios Features Section Design",
+ "tagline": "Features section reference built around “My entire desktop setup is built for power. It is silent, durable, and holds my focus”, with the layout, timings and palette written down in the brief.",
+ "summary": "Features section reference for an agency or studio — a 1834x1362 frame, a stats row, #FF3D77 accent and a dark stage.",
+ "about": "This is the features section from Glow Features, published with the brief that produced it rather than as a screenshot. It leads with “My entire desktop setup is built for power. It is silent, durable, and holds my focus” and gives that line the frame rather than shrinking it into a card. The whole page is built on black #0A0A0B underneath, muted red #FFB1CE for the type and bright red #FF3D77 carrying the accents. It ships as React and Tailwind CSS, so the whole features section can be lifted into a project without a design handoff. Keep it open while you write: the 3,072-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "The spacing steps are quoted",
+   "body": "Sizes were read off the render at 1834x1362: a fixed 14px display size and 40px spacing steps. Each value maps to one job: a type step, a gap, a radius or a transition."
+  },
+  {
+   "title": "A stat strip, not a table",
+   "body": "The row is placed high in the features section as proof rather than as decoration. The figures carry the #FF3D77 accent while everything around them stays on the ink colour."
+  },
+  {
+   "title": "Nothing here is inherited",
+   "body": "Spacing is quoted the same way (a fixed 14px display size and 40px spacing steps), not as a scale that grows on its own."
+  },
+  {
+   "title": "Labels under the figures",
+   "body": "Statistics are handled as typography: figures at the display size, labels at the smallest step in the brief, all of it on #FF3D77 or the ink colour rather than a coloured card."
+  }
+ ],
+ "motion": [
+  {
+   "title": "A live canvas at the centre",
+   "body": "The centrepiece is rendered live (a WebGL canvas) rather than shipped as an image, so the 1834x1362 composition reacts to the viewport instead of sitting behind it. Budget for the render: it is the element most likely to cost frames on a low-end device."
+  },
+  {
+   "title": "Motion that stays out of the way",
+   "body": "The brief leaves animation out and lets the 1834x1362 layout carry the page, with hover and press states the only changes. There is no animation library in the brief, which keeps the rebuild small."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#1A1A1C",
+    "name": "Near-black",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#0A0A0B",
+    "name": "Near-black — darker",
+    "role": "composition"
+   },
+   {
+    "hex": "#FF3D77",
+    "name": "Bright red",
+    "role": "accent"
+   },
+   {
+    "hex": "#FFB1CE",
+    "name": "Muted red",
+    "role": "Headline"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Face not specified",
+    "weights": "14px",
+    "role": "The brief fixes the type scale but leaves the face to the build"
+   }
+  ],
+  "notes": [
+   "The accent is spent on bright red #FF3D77 and the rest of the composition holds black #0A0A0B.",
+   "Accent and ground are both named (bright red #FF3D77 on black #0A0A0B), so a brand swap moves one value.",
+   "Accent use is limited to bright red #FF3D77; everything else sits on black #0A0A0B."
+  ]
+ },
+ "customize": [
+  "Hold the 1834x1362 frame when you swap the content; the composition was solved against that ratio and a wider export pushes the type off.",
+  "Draft the new copy to the 1834x1362 frame, then check that the entrance still lands on the same number of lines.",
+  "Swap #FF3D77 for your brand colour and re-check it against #0A0A0B, since the accent is the only place saturation is allowed.",
+  "Read the brief value by value against the 1834x1362 capture before you edit anything; the numbers are the part that is easiest to lose."
+ ],
+ "editorial": [
+  {
+   "title": "What to change first in Glow Features",
+   "body": "Change the content first and check the frame afterwards. a fixed 14px display size and 40px spacing steps are the values to protect while you swap the copy. Keep the media crop; it is doing as much work as the type."
+  },
+  {
+   "title": "How the features section reflows",
+   "body": "The cost of a fluid scale is less control over exact sizes. What you get is a display line that stays proportionate, which is why a clamp between 14px and 40px is in the brief. Nothing important is dropped at narrow widths."
+  },
+  {
+   "title": "The argument this features section makes",
+   "body": "Count the decisions in this features section and they trace back to one document: 3,072 characters naming the frame at 1834x1362, the type and the rhythm. It gives a agency reader the shortest honest route to the offer."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1834x1362 capture before you generate.",
+  "Set the brand first: product name, the #FF3D77 accent and a headline that replaces the reference's.",
+  "Set your brand first: product name, the #FF3D77 accent and the headline that replaces the reference's.",
+  "Type the product name and the #FF3D77 accent before you touch the layout.",
+  "Drop your product name in, then replace #FF3D77 with your own accent and re-check the contrast."
+ ],
+ "faq": [
+  {
+   "question": "How long is the prompt behind Glow Features?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1834x1362, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Why does the entry name React and Tailwind CSS at all?",
+   "answer": "Glow Features was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Can I ship a page rebuilt from Glow Features without crediting it?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1834x1362."
+  }
+ ],
+ "audience": [
+  "Made for agencies that pitch agency work and need a 1834x1362 frame in the first reply to the client.",
+  "If three people have to edit this features section, give content leads a fixed 14px display size and 40px spacing steps rather than a screenshot.",
+  "Product teams writing their own Features section copy who need every line to keep the length the display type was sized for."
+ ],
+ "specs": [
+  {
+   "label": "Page part",
+   "value": "Features section"
+  },
+  {
+   "label": "Sector",
+   "value": "Agencies & Studios"
+  },
+  {
+   "label": "Viewport",
+   "value": "1834x1362 · 1.35:1"
+  },
+  {
+   "label": "Input brief",
+   "value": "3,072 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent hex",
+   "value": "bright red #FF3D77"
+  },
+  {
+   "label": "Tech stack",
+   "value": "Tailwind CSS, React, Vite"
+  },
+  {
+   "label": "Timing",
+   "value": "state changes only"
+  }
+ ],
+ "related": [
+  "immersive-ocean",
+  "innovation-lab",
+  "innovation-landing",
+  "launchex-about",
+  "stories-in-light-hero",
+  "neurolink-memorial-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 3072,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

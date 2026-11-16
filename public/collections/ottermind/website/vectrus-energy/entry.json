@@ -1,0 +1,202 @@
+{
+ "slug": "vectrus-energy",
+ "sourceSlug": "vectrus-energy",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Vectrus Energy"
+ },
+ "title": "Vectrus Energy",
+ "industry": "industrial",
+ "industryLabel": "Industrial",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/4dae5ab9ba36dee3.webp",
+  "still": "https://cdn.ottermind.ai/public/28ac858eaf859fcf.webp",
+  "preview": "https://cdn.ottermind.ai/public/cd67e01cbe730585.mp4",
+  "full": "https://cdn.ottermind.ai/public/c8f210ab76a6e806.mp4",
+  "aspectRatio": 1.3593,
+  "width": 1468,
+  "height": 1080,
+  "duration": 5.6
+ },
+ "seo": {
+  "title": "Vectrus Energy Industrial Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an industrial company — Helvetica, Arial, #C7CED7 base, fluid type and cubic-bezier(0.16,1,0.3,1) easing. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "industrial website design",
+   "industrial landing page design",
+   "WebGL industrial landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Vectrus Energy — Industrial Landing Page Design",
+ "tagline": "Landing page reference built around “Advancing resources for a cleaner future”, with the layout, timings and palette written down in the brief.",
+ "summary": "Landing page reference for an industrial company — Helvetica, Arial, #C7CED7 base, fluid type and cubic-bezier(0.16,1,0.3,1) easing.",
+ "about": "Vectrus Energy is a working reference for an industrial company: the landing page laid out, measured and ready to rebuild. The headline reads “Advancing resources for a cleaner future”, and the rest of the landing page is arranged around it. The colour scheme is gray #C7CED7 underneath and deep blue #1D3045 for the type, and the page is set in Helvetica, Arial. The reference is built with React and Tailwind CSS, and the layout decisions are stated independently of it. Motion comes down to 200ms transitions, cubic-bezier(0.16,1,0.3,1) and a looping video bed. Treat it as the brief for an industrial company landing page that has to hold up under a rebuild, not just a first look.",
+ "layout": [
+  {
+   "title": "One row, no drawers",
+   "body": "A slim bar sits over the landing page with the wordmark on the left and the links set in Helvetica, Arial, so the composition reads as content first and chrome second. A mobile overlay takes over below the tablet breakpoint. The bar sits over the 1468x1080 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "Measured, not eyeballed",
+   "body": "Nothing in the layout is left to feel: the brief quotes 500vh sections, 40px spacing steps, 200ms transitions and cubic-bezier(0.16,1,0.3,1) easing and the build has to hit those values. A rebuild that hits those numbers looks like the reference without further tuning."
+  },
+  {
+   "title": "Links before the action",
+   "body": "Give the wordmark no more room than its type needs. The reference was captured at 1468x1080."
+  },
+  {
+   "title": "One scale for type and frame",
+   "body": "Spacing is quoted the same way (500vh sections, 40px spacing steps, 200ms transitions and cubic-bezier(0.16,1,0.3,1) easing), not as a scale that grows on its own."
+  }
+ ],
+ "motion": [
+  {
+   "title": "A loop, not a timeline",
+   "body": "One 5.6s clip is the entire ambient layer: it plays behind the copy, loops without a visible cut and never reacts to the pointer. The clip is short enough to loop without a visible seam, which matters more than its resolution. Shoot or export at 1468x1080 or wider."
+  },
+  {
+   "title": "Durations from the brief",
+   "body": "Motion is measured in milliseconds here: 200ms using cubic-bezier(0.16,1,0.3,1). That is the whole animation budget, and it is spent on state changes rather than on a scroll timeline. Focus states are timed with the same value as hover, so keyboard and pointer feedback match. The timings are part of the design, not a finishing pass."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#1D3045",
+    "name": "Deep blue",
+    "role": "Headline"
+   },
+   {
+    "hex": "#7F8A96",
+    "name": "Muted blue",
+    "role": "darker step"
+   },
+   {
+    "hex": "#E4E8EE",
+    "name": "White",
+    "role": "lightest"
+   },
+   {
+    "hex": "#C7CED7",
+    "name": "Gray",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Helvetica, Arial",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one stack for the whole page"
+   }
+  ],
+  "notes": [
+   "Media is specified at 1468x1080 and a 5.6s loop, so a replacement should match the crop and the loop length.",
+   "The clip is one asset at 1468x1080 and a 5.6s loop, so the composition has a single media dependency.",
+   "The reference was captured at 1468x1080, and every value quoted on this page comes from the same brief."
+  ]
+ },
+ "customize": [
+  "Set your own headline in Helvetica, Arial at the size the reference uses, so the landing page keeps the same optical weight.",
+  "Rewrite “Advancing resources for a cleaner future” to the same line count; the mask reveals each line in turn.",
+  "Set 200ms to your own build speed and check that cubic-bezier(0.16,1,0.3,1) still lands the copy before the media starts.",
+  "Retime the entrance to your own 200ms, but keep cubic-bezier(0.16,1,0.3,1) as the curve, because the easing is what reads as this design."
+ ],
+ "editorial": [
+  {
+   "title": "Making the landing page yours",
+   "body": "One line, one font, one accent: those three substitutions change the design most. 500vh sections, 40px spacing steps, 200ms transitions and cubic-bezier(0.16,1,0.3,1) easing are the values that should not move. Rewrite the display line before you touch the colour."
+  },
+  {
+   "title": "The order behind the landing page",
+   "body": "The brief runs 8,300 characters and names the reading order explicitly: navigation, the headline, the stats row, the feature list and the background clip, with 500vh sections and 40px spacing steps between them. A industrial reader gets the offer before the options."
+  },
+  {
+   "title": "How the landing page reflows",
+   "body": "Most responsive work stops at hiding elements. Here the layout changes shape: the scale is fluid rather than stepped, the section is held at 500vh and the navigation collapses into a mobile menu, and nothing important is dropped to make the fold fit. Nothing important is dropped at narrow widths."
+  }
+ ],
+ "steps": [
+  "Check your build against the reference measurements: 500vh sections, 40px spacing steps and 200ms transitions.",
+  "Copy 500vh sections, 40px spacing steps and 200ms transitions into your own brief before you rewrite anything else.",
+  "Pin the reference measurements before you restyle anything: 500vh sections, 40px spacing steps and 200ms transitions.",
+  "Keep the measurements the brief spells out: 500vh sections, 40px spacing steps and 200ms transitions.",
+  "Add the entrance first at 200ms, and only then the hover and scroll behaviour."
+ ],
+ "faq": [
+  {
+   "question": "What does the brief behind Vectrus Energy actually contain?",
+   "answer": "The captured brief runs 8,300 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Is the Vectrus Energy brief the same as the prompt I would write?",
+   "answer": "Everything quoted on the page comes from the captured 8,300-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "Why does the entry name React and Tailwind CSS at all?",
+   "answer": "Vectrus Energy was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  }
+ ],
+ "audience": [
+  "Founders who brief an agency will use the 1468x1080 frame as the acceptance test for the first round.",
+  "If the motion has to be dropped, the landing page still reads, with 500vh sections and 40px spacing steps doing the hierarchy work.",
+  "Product marketers who need the landing page to still read with 5.6s of looping video behind the copy."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Landing page"
+  },
+  {
+   "label": "Industry",
+   "value": "Industrial"
+  },
+  {
+   "label": "Frame",
+   "value": "1468x1080 · 1.36:1"
+  },
+  {
+   "label": "Loop",
+   "value": "5.6s loop"
+  },
+  {
+   "label": "Input brief",
+   "value": "8,300 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Typefaces",
+   "value": "Helvetica, Arial"
+  },
+  {
+   "label": "Reference stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Motion spec",
+   "value": "200ms transitions, cubic-bezier(0.16,1,0.3,1) easing and a 5.6s media loop"
+  }
+ ],
+ "related": [
+  "coreos-product-hero",
+  "stark-minimal-footer",
+  "veyra-electric",
+  "cordex",
+  "cross-border",
+  "interactive-discovery"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 8300,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

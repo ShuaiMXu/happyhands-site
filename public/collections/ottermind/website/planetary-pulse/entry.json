@@ -1,0 +1,203 @@
+{
+ "slug": "planetary-pulse",
+ "sourceSlug": "planetary-pulse",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Planetary Pulse"
+ },
+ "title": "Planetary Pulse",
+ "industry": "education",
+ "industryLabel": "Education & Community",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/7e1f225b9abb7f7a.webp",
+  "still": "https://cdn.ottermind.ai/public/a11098c1fdbd97c8.webp",
+  "preview": "https://cdn.ottermind.ai/public/bf8eb7d399fba39e.mp4",
+  "full": "https://cdn.ottermind.ai/public/d54a988df1799c5d.mp4",
+  "aspectRatio": 1.6907,
+  "width": 1826,
+  "height": 1080,
+  "duration": 5.9
+ },
+ "seo": {
+  "title": "Planetary Pulse Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an education or community brand — 300ms transitions, cubic-bezier(0.16, 1, 0.3, 1) easing and a stats row. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "education website design",
+   "education hero section design",
+   "video-backed education landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Planetary Pulse — Education & Community Hero Section Design",
+ "tagline": "Hero section reference for an education or community brand, captured at 1826x1080 with the layout, timings and palette specified in the brief.",
+ "summary": "Hero section reference for an education or community brand — 300ms transitions, cubic-bezier(0.16, 1, 0.3, 1) easing and a stats row.",
+ "about": "This is the hero section from Planetary Pulse, published with the brief that produced it rather than as a screenshot. Colour is limited to gray #C2CCD3 underneath, set in Helvetica, Arial. The entry names the stack that produced the page (Tailwind and vanilla JavaScript) rather than hiding it. The motion budget is 300ms transitions, cubic-bezier(0.16, 1, 0.3, 1) and a looping video bed. Treat it as the brief for an education or community brand hero section that has to hold up under a rebuild, not just a first look.",
+ "layout": [
+  {
+   "title": "One row, no drawers",
+   "body": "The bar overlays the hero section instead of pushing it down, so the composition keeps the full height of the first screen. Below 280px the links collapse instead of wrapping onto a second line."
+  },
+  {
+   "title": "One clip does the work",
+   "body": "The clip runs 5.9s at 1826x1080 and loops without a visible cut, so it reads as surface rather than as footage. Export at 1826x1080 or wider and the cover crop keeps working."
+  },
+  {
+   "title": "Faces with one job each",
+   "body": "The display line is set in Helvetica, Arial at a size the brief fixes, which makes the headline a composition element rather than a paragraph. The interface text stays on one face, so the page never mixes two voices at the same size."
+  },
+  {
+   "title": "A navigation bar that gets out of the way",
+   "body": "Labels are short enough to fit one line at 280px, and the active item is marked with weight rather than with a pill."
+  }
+ ],
+ "motion": [
+  {
+   "title": "A loop, not a timeline",
+   "body": "The background clip runs 5.9s at 1826x1080 on an endless loop, muted and inline, so the page keeps moving while the reader's attention is on the copy. No scroll library is required, because the only ambient motion is the media itself. A poster frame stands in when autoplay is blocked, so the motion is additive rather than required."
+  },
+  {
+   "title": "Timings in milliseconds",
+   "body": "The timings are short and consistent (300ms using cubic-bezier(0.16, 1, 0.3, 1)), so hover and press states read as one system instead of a set of separate effects. Short timings are why the page reads as authored; a slow default would undo the composition. Time the feedback exactly."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#C2CCD3",
+    "name": "Gray",
+    "role": "composition"
+   },
+   {
+    "hex": "#F5F4F0",
+    "name": "White",
+    "role": "lightest"
+   },
+   {
+    "hex": "#9895A7",
+    "name": "Gray — darker",
+    "role": "darkest"
+   },
+   {
+    "hex": "#DDE1E1",
+    "name": "White — darker",
+    "role": "panel edges"
+   }
+  ],
+  "glass": "The brief uses blur(12px) for the panels over a translucent fill, which is what makes them read as material rather than as a lighter rectangle.",
+  "fonts": [
+   {
+    "name": "Helvetica, Arial",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one stack for the whole page"
+   }
+  ],
+  "notes": [
+   "Corner treatment is specified in the brief: 9999px and 48px.",
+   "The clip is one asset at 1826x1080 and a 5.9s loop, so the composition has a single media dependency.",
+   "Glass surfaces use blur(12px), and the blur is what makes the panels read as material rather than as fill."
+  ]
+ },
+ "customize": [
+  "Keep 1826x1080 for the media and re-crop your own asset into it rather than resizing the frame.",
+  "Swap the clip for your own footage at 1826x1080 or wider, keep it muted, and match the 5.9s loop point.",
+  "Replace the headline and the supporting line with your own copy, keeping the same line count so the entrance still lands over the 1826x1080 frame.",
+  "Replace the video with a still at 1826x1080 if the 5.9s loop is too heavy for the page you are shipping."
+ ],
+ "editorial": [
+  {
+   "title": "How Planetary Pulse sequences the first read",
+   "body": "Attention is directed rather than left to chance. The sequence runs navigation, the stats row, the card grid, the feature list and the background clip, and each stop is sized against 100vh sections and 9999px corners so nothing arrives out of order. A education reader gets the offer before the options."
+  },
+  {
+   "title": "The timing behind the hero section",
+   "body": "You could drop a preset library onto this composition and it would look busier, not better. The brief keeps 300ms transitions, a 5.9s media loop and a masked line reveal and spends the budget there. Nothing animates for its own sake in this hero section."
+  },
+  {
+   "title": "How the hero section reflows",
+   "body": "A fixed desktop scale would have been easier. The brief adds a clamp between 20px and 14px, which is what keeps the display line proportionate between widths. The narrow layout is a decision rather than a squeeze, and the hierarchy survives it."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1826x1080 capture before you generate.",
+  "Check your build against the reference measurements: 100vh sections, 9999px corners and 14px spacing steps.",
+  "Keep the measurements the brief spells out: 100vh sections, 9999px corners and 14px spacing steps.",
+  "Copy 100vh sections, 9999px corners and 14px spacing steps into your own brief before you rewrite anything else.",
+  "Pin the reference measurements before you restyle anything: 100vh sections, 9999px corners and 14px spacing steps."
+ ],
+ "faq": [
+  {
+   "question": "What does the brief behind Planetary Pulse actually contain?",
+   "answer": "The captured brief runs 26,446 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Why does the entry name Tailwind and vanilla JavaScript at all?",
+   "answer": "The reference happens to be built in Tailwind and vanilla JavaScript. Nothing in the layout depends on that choice: the spacing, type and motion values transfer to whatever you already use."
+  },
+  {
+   "question": "Is the Planetary Pulse brief the same as the prompt I would write?",
+   "answer": "Everything quoted on the page comes from the captured 26,446-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  }
+ ],
+ "audience": [
+  "Made for a designer joining a project that already ships Tailwind and vanilla JavaScript and only needs the copy replaced.",
+  "Hand Tailwind and vanilla JavaScript to the engineer with the 1826x1080 crop attached, then let them rebuild it.",
+  "This hero section serves designers who have to hand a Tailwind and vanilla JavaScript build to an engineer and want the motion written down."
+ ],
+ "specs": [
+  {
+   "label": "Page section",
+   "value": "Hero section"
+  },
+  {
+   "label": "Field",
+   "value": "Education & Community"
+  },
+  {
+   "label": "Frame",
+   "value": "1826x1080 · 1.69:1"
+  },
+  {
+   "label": "Clip length",
+   "value": "5.9s loop"
+  },
+  {
+   "label": "Brief",
+   "value": "26,446 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Typefaces",
+   "value": "Helvetica, Arial"
+  },
+  {
+   "label": "Tech stack",
+   "value": "Tailwind CSS, vanilla JS"
+  },
+  {
+   "label": "Motion spec",
+   "value": "300ms transitions, cubic-bezier(0.16, 1, 0.3, 1) easing and a 5.9s media loop"
+  }
+ ],
+ "related": [
+  "trueearth",
+  "church-community",
+  "codenest-hero",
+  "designpro-hero",
+  "fun-404-page",
+  "lumina-footer"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 26446,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

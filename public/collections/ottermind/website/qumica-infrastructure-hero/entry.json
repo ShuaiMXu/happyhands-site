@@ -1,0 +1,203 @@
+{
+ "slug": "qumica-infrastructure-hero",
+ "sourceSlug": "lp-083-69ef0b46f15dc209f8f5c102",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "Infrastructure"
+ },
+ "title": "Infrastructure",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/0b5415f22e6bd0fd.webp",
+  "still": "https://cdn.ottermind.ai/public/0e5f04da1717f3d4.webp",
+  "preview": "https://cdn.ottermind.ai/public/c749b344148c9286.mp4",
+  "full": "https://cdn.ottermind.ai/public/e6eccb90f5760f1f.mp4",
+  "aspectRatio": 1.3873,
+  "width": 1920,
+  "height": 1384,
+  "duration": 8
+ },
+ "seo": {
+  "title": "Infrastructure AI & SaaS Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an AI or SaaS product — looping video, a logo row, React and Tailwind CSS and #010002 base. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS hero section design",
+   "video-backed SaaS landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Infrastructure — AI & SaaS Hero Section Design",
+ "tagline": "Hero section reference built around “Ready to elevate your digital infrastructure?”, with the layout, timings and palette written down in the brief.",
+ "summary": "Hero section reference for an AI or SaaS product — looping video, a logo row, React and Tailwind CSS and #010002 base.",
+ "about": "Before rebuilding a hero section for an AI or SaaS product, read Infrastructure: the composition and the specification behind it are both here. It leads with “Ready to elevate your digital infrastructure?” and gives that line the frame rather than shrinking it into a card. The whole page is built on deep indigo #010002 underneath, white #DAD6DB for the type and blue #0F2F65 carrying the accents. Delivery is React and Tailwind CSS, captured at 2076x1498 so the frame is fixed before any code is written. Motion is confined to 4s transitions and a looping video bed. Keep it open while you write: the 2,467-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "Top row: wordmark, links, one action",
+   "body": "The bar carries the wordmark, the section links and one #0F2F65 button, measured at 10px spacing steps and 4s transitions so it never grows into a second header. The links are set below the wordmark in size, and the #0F2F65 action is the only element in the bar with any weight."
+  },
+  {
+   "title": "Full-frame video, no panel",
+   "body": "One 8s asset carries the whole first screen, and the page has no second media element to keep in sync. The loop is short enough (8s) that the eye reads it as texture rather than as a timeline."
+  },
+  {
+   "title": "The composition is the content",
+   "body": "The hero section is built so the copy lands before anything else: the type carries the hierarchy, the 2076x1498 frame holds the composition, and the supporting values stay quiet. The page is one composition at 2076x1498, which is why it holds together when the copy changes."
+  },
+  {
+   "title": "Links collapse at one width",
+   "body": "The bar sits over the 2076x1498 composition without a background of its own, so the media runs edge to edge underneath it."
+  }
+ ],
+ "motion": [
+  {
+   "title": "One duration for the controls",
+   "body": "The animation budget is small and explicit: 4s, applied to state changes rather than to entrances. Easing is specified alongside the duration (4s), so a rebuild cannot quietly substitute a different feel."
+  },
+  {
+   "title": "The loop does the ambient work",
+   "body": "Ambient movement is one 8s clip at 2076x1498, looping quietly behind the copy rather than reacting to the pointer. The clip is muted and inline, so the first frame is available without an interaction."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#010002",
+    "name": "Near-black",
+    "role": "composition"
+   },
+   {
+    "hex": "#DAD6DB",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#0F2F65",
+    "name": "Blue",
+    "role": "accent"
+   },
+   {
+    "hex": "#251528",
+    "name": "Deep magenta",
+    "role": "panel edges"
+   }
+  ],
+  "glass": "Panels are translucent over deep indigo #010002, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Face not specified",
+    "weights": "Sizes and weights only",
+    "role": "The brief fixes the type scale but leaves the face to the build"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 4s, which is the value to keep when the palette changes.",
+   "Nothing sits between the type and the 2076x1498 clip, so a replacement has to work under the copy directly.",
+   "Accent and ground are both named (blue #0F2F65 on deep indigo #010002), so a brand swap moves one value."
+  ]
+ },
+ "customize": [
+  "Hold the 2076x1498 frame when you swap the content; the composition was solved against that ratio and a wider export pushes the type off.",
+  "Keep the supporting line as short as the reference's and measure the pair against the 2076x1498 crop.",
+  "Set 4s to your own build speed and check that a standard ease-out still lands the copy before the media starts.",
+  "Rewrite “Ready to elevate your digital infrastructure?” to the same line count; the mask reveals each line in turn."
+ ],
+ "editorial": [
+  {
+   "title": "How the hero section reflows",
+   "body": "A designed narrow layout takes more decisions than a squeeze. The brief pays for them: the scale is fluid rather than stepped, stated rather than discovered at build time. Autoplay and motion are handled honestly, so the page still communicates when they are unavailable."
+  },
+  {
+   "title": "What to change first in Infrastructure",
+   "body": "Change the content first and check the frame afterwards. 10px spacing steps and 4s transitions are the values to protect while you swap the copy. Rewrite the display line before you touch the colour."
+  },
+  {
+   "title": "The numbers behind the hero section",
+   "body": "A rebuild usually starts with a screenshot and a guess. Here it starts with 2,467 characters of specification: the frame, the spacing and the motion are written down before the first line of code. Nothing in this hero section depends on a default."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 2076x1498 capture before you generate.",
+  "Drop your product name in, then replace #0F2F65 with your own accent and re-check the contrast.",
+  "Set your brand first: product name, the #0F2F65 accent and the headline that replaces the reference's.",
+  "Type the product name and the #0F2F65 accent before you touch the layout.",
+  "Set the brand first: product name, the #0F2F65 accent and a headline that replaces the reference's."
+ ],
+ "faq": [
+  {
+   "question": "How long is the prompt behind Infrastructure?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 2076x1498, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Do I need React and Tailwind CSS to rebuild Infrastructure?",
+   "answer": "Infrastructure was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "How should I handle the Infrastructure media in a client build?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 2076x1498."
+  }
+ ],
+ "audience": [
+  "This hero section serves founders who need one screen of proof that SaaS copy can carry 8s of looping video.",
+  "Made for content leads rewriting a hero section whose headline has to stay as long as Infrastructure's.",
+  "Made for designers who would rather retune #0F2F65 than rebuild the hero section from the grid up."
+ ],
+ "specs": [
+  {
+   "label": "Block",
+   "value": "Hero section"
+  },
+  {
+   "label": "Sector",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Format",
+   "value": "2076x1498 · 1.39:1"
+  },
+  {
+   "label": "Duration",
+   "value": "8s loop"
+  },
+  {
+   "label": "Input brief",
+   "value": "2,467 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent tone",
+   "value": "blue #0F2F65"
+  },
+  {
+   "label": "Built with",
+   "value": "Tailwind CSS, React, Lucide icons"
+  },
+  {
+   "label": "Timing",
+   "value": "4s transitions and a 8s media loop"
+  }
+ ],
+ "related": [
+  "transform-data-hero",
+  "vela-ul",
+  "visual-hero",
+  "vize-footer",
+  "404",
+  "404-planet"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 2467,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

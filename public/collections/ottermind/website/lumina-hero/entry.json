@@ -1,0 +1,198 @@
+{
+ "slug": "lumina-hero",
+ "sourceSlug": "lp-096-69ef909999cd4ecd6fe807ba",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "Lumina"
+ },
+ "title": "Lumina",
+ "industry": "creative",
+ "industryLabel": "Agencies & Studios",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/6a8f68f379c100a2.webp",
+  "still": "https://cdn.ottermind.ai/public/ec4ec75a6ade33e9.webp",
+  "preview": "https://cdn.ottermind.ai/public/9f056efd9dccfc57.mp4",
+  "full": "https://cdn.ottermind.ai/public/799388a439a8bd4d.mp4",
+  "aspectRatio": 1.3913,
+  "width": 1920,
+  "height": 1380,
+  "duration": 5.967
+ },
+ "seo": {
+  "title": "Lumina Agencies & Studios Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an agency or studio — glass panels, a stats row, #EC4899 base and a moving marquee. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "agency website design",
+   "agency hero section design",
+   "video-backed agency landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Lumina — Agencies & Studios Hero Section Design",
+ "tagline": "Hero section reference for an agency or studio, captured at 2056x1478 with the layout, timings and palette specified in the brief.",
+ "summary": "Hero section reference for an agency or studio — glass panels, a stats row, #EC4899 base and a moving marquee.",
+ "about": "Lumina solves the hero section problem for an agency or studio with a single captured brief. The palette is red #EC4899 underneath and bright blue #3B82F6 carrying the accents. It ships as a single component, so the whole hero section can be lifted into a project without a design handoff. The page keeps its motion to a looping video bed. If you are briefing a agency hero section, start from this composition and replace the subject.",
+ "layout": [
+  {
+   "title": "Navigation without a background",
+   "body": "Wordmark, links and the #3B82F6 action share one baseline, which is what keeps a thin row from looking accidental. The links are set below the wordmark in size, and the #3B82F6 action is the only element in the bar with any weight."
+  },
+  {
+   "title": "Values you can check",
+   "body": "Sizes were read off the render at 2056x1478: 70px spacing steps. Every value can be checked against the captured prompt, which is what makes a rebuild verifiable rather than approximate."
+  },
+  {
+   "title": "The bar shares the page grid",
+   "body": "The bar sits over the 2056x1478 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "Every measurement is written down",
+   "body": "Spacing is quoted the same way (70px spacing steps), not as a scale that grows on its own."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Interaction kept local",
+   "body": "The interactive layer is deliberately small: hover states on the buttons and links rather than on every card. Press states are specified as well as hover, so a tap gives the same confirmation as a click. Fewer states, fully specified."
+  },
+  {
+   "title": "Ambient motion without a scroll library",
+   "body": "One 6s clip is the entire ambient layer: it plays behind the copy, loops without a visible cut and never reacts to the pointer. The clip is muted and inline, so the first frame is available without an interaction."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#3B82F6",
+    "name": "Bright blue",
+    "role": "accent"
+   },
+   {
+    "hex": "#A855F7",
+    "name": "Indigo",
+    "role": "saturated"
+   },
+   {
+    "hex": "#EC4899",
+    "name": "Red",
+    "role": "composition"
+   },
+   {
+    "hex": "#F8A170",
+    "name": "Orange",
+    "role": "lighter"
+   }
+  ],
+  "glass": "Panels are translucent over red #EC4899, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Face not specified",
+    "weights": "Sizes and weights only",
+    "role": "The brief fixes the type scale but leaves the face to the build"
+   }
+  ],
+  "notes": [
+   "Accent and ground are both named (bright blue #3B82F6 on red #EC4899), so a brand swap moves one value.",
+   "Media is specified at 2056x1478 and a 6s loop, so a replacement should match the crop and the loop length.",
+   "The accent is spent on bright blue #3B82F6 and the rest of the composition holds red #EC4899."
+  ]
+ },
+ "customize": [
+  "Swap the clip for your own. Export at 2056x1478 or wider, keep it muted, and make the 6s loop seamless so the cut is invisible.",
+  "Change #3B82F6 for your brand accent and re-check it against #EC4899, because the accent is the only saturated value in this composition.",
+  "Change the copy first, then the accent, then the media: the 2056x1478 frame was solved in that order and reversing it costs a re-layout."
+ ],
+ "editorial": [
+  {
+   "title": "The numbers behind the hero section",
+   "body": "The cost of a fixed scale is less room to improvise. 70px spacing steps keep the composition coherent, but a new element has to be fitted rather than placed. Nothing in this hero section depends on a default."
+  },
+  {
+   "title": "The timing behind the hero section",
+   "body": "Compare the motion here with a scroll-driven page. Both move; this one moves where the brief says (hover and press states, a 6s media loop and a looping marquee), so the copy stays in front. Nothing animates for its own sake in this hero section."
+  },
+  {
+   "title": "Making the hero section yours",
+   "body": "Most people start with the accent colour. Start with the promise instead: rewrite the display line, then re-test bright blue #3B82F6 against your own media. The composition is the reusable part, and it survives a different brand."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 2056x1478 capture before you generate.",
+  "Set the brand first: product name, the #3B82F6 accent and a headline that replaces the reference's.",
+  "Set your brand first: product name, the #3B82F6 accent and the headline that replaces the reference's.",
+  "Type the product name and the #3B82F6 accent before you touch the layout.",
+  "Drop your product name in, then replace #3B82F6 with your own accent and re-check the contrast."
+ ],
+ "faq": [
+  {
+   "question": "Is the Lumina prompt a finished spec or a starting point?",
+   "answer": "The captured brief runs 2,677 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Why does the entry name a single component at all?",
+   "answer": "The reference happens to be built in a single component. Nothing in the layout depends on that choice: the spacing, type and motion values transfer to whatever you already use."
+  },
+  {
+   "question": "What can I do with the Lumina brief once I have it?",
+   "answer": "Everything quoted on the page comes from the captured 2,677-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  }
+ ],
+ "audience": [
+  "Agencies pitching an agency or studio hero section who want 70px spacing steps quoted in the deck so the estimate still holds after the kickoff.",
+  "Product marketers who need the hero section to still read with 6s of looping video behind the copy.",
+  "Contract teams taking over this hero section who need a 2056x1478 frame pinned in the repo before the first commit."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Hero section"
+  },
+  {
+   "label": "Vertical",
+   "value": "Agencies & Studios"
+  },
+  {
+   "label": "Frame",
+   "value": "2056x1478 · 1.39:1"
+  },
+  {
+   "label": "Runtime",
+   "value": "6s loop"
+  },
+  {
+   "label": "Brief",
+   "value": "2,677 characters"
+  },
+  {
+   "label": "Date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent",
+   "value": "bright blue #3B82F6"
+  },
+  {
+   "label": "Animation",
+   "value": "a 6s media loop"
+  }
+ ],
+ "related": [
+  "velorah-hero",
+  "vision-reveal",
+  "vortex-studio-hero",
+  "3d-character-studio",
+  "aethera-hero",
+  "blog-showcase"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 2677,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

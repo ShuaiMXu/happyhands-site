@@ -1,0 +1,207 @@
+{
+ "slug": "aetheris-voyage-hero",
+ "sourceSlug": "aetheris-voyage-hero",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Aetheris Voyage"
+ },
+ "title": "Aetheris Voyage",
+ "industry": "travel",
+ "industryLabel": "Travel",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/ab6f7b2a2c4918ee.webp",
+  "still": "https://cdn.ottermind.ai/public/e26e994512ac2438.webp",
+  "preview": "https://cdn.ottermind.ai/public/47f8f4d9508e0eb7.mp4",
+  "full": "https://cdn.ottermind.ai/public/f844c777ddf902ee.mp4",
+  "aspectRatio": 1.4035,
+  "width": 800,
+  "height": 570,
+  "duration": 8.75
+ },
+ "seo": {
+  "title": "Aetheris Voyage Travel Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for a travel brand — looping video, glass panels, Instrument Serif and a stats row. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "travel website design",
+   "travel hero section design",
+   "video-backed travel landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Aetheris Voyage — Travel Hero Section Design",
+ "tagline": "Hero section reference built around “Venture Past Our Sky Across the Universe”, with the layout, timings and palette written down in the brief.",
+ "summary": "Hero section reference for a travel brand — looping video, glass panels, Instrument Serif and a stats row.",
+ "about": "Aetheris Voyage keeps its decision trail: the brief that produced this hero section runs 10,190 characters. The page's own headline reads “Venture Past Our Sky Across the Universe”, and the composition is built around those exact words. The palette runs black #181719 underneath and muted orange #ECD9C1 for the type, and the type is Instrument Serif. Delivery is React and Tailwind CSS, captured at 800x570 so the frame is fixed before any code is written. Motion comes down to 100ms transitions and a looping video bed. It is most useful when the Travel hero section has to survive a copy change without a redesign.",
+ "layout": [
+  {
+   "title": "Top row: wordmark, links, one action",
+   "body": "A slim bar sits over the hero section with the wordmark on the left and the links set in Instrument Serif, so the composition reads as content first and chrome second. The bar sits over the 800x570 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "The sizes are in the brief, not in a scale",
+   "body": "The brief states its sizes at capture (10px spacing steps and 100ms transitions), so a rebuild can be verified instead of approximated. A rebuild that hits those numbers looks like the reference without further tuning."
+  },
+  {
+   "title": "Links collapse at one width",
+   "body": "The wordmark holds the left edge and the links run to the right of it, all of it set in Instrument Serif so the bar belongs to the page below rather than to a separate system. If your own page has more sections, group them rather than widening the bar."
+  },
+  {
+   "title": "Every measurement is written down",
+   "body": "Spacing is quoted the same way (10px spacing steps and 100ms transitions), not as a scale that grows on its own."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Sections arrive with scroll",
+   "body": "Scroll reveal is the page's single scroll behaviour, so the effect has a defined place in the composition. Reduced motion drops the effect without changing the composition's final state."
+  },
+  {
+   "title": "The loop does the ambient work",
+   "body": "One 8.8s clip is the entire ambient layer: it plays behind the copy, loops without a visible cut and never reacts to the pointer. A poster frame stands in when autoplay is blocked, so the motion is additive rather than required."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#010000",
+    "name": "Near-black",
+    "role": "darkest"
+   },
+   {
+    "hex": "#ECD9C1",
+    "name": "Muted orange",
+    "role": "Headline"
+   },
+   {
+    "hex": "#0E0D0E",
+    "name": "Near-black — lighter",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#181719",
+    "name": "Near-black — lighter",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Instrument Serif",
+    "weights": "Weight not fixed in the brief",
+    "role": "Display face"
+   },
+   {
+    "name": "Barlow",
+    "weights": "Weight not fixed in the brief",
+    "role": "Body face"
+   }
+  ],
+  "notes": [
+   "Media is specified at 800x570 and a 8.8s loop, so a replacement should match the crop and the loop length.",
+   "Nothing sits between the type and the 800x570 clip, so a replacement has to work under the copy directly.",
+   "The clip is one asset at 800x570 and a 8.8s loop, so the composition has a single media dependency."
+  ]
+ },
+ "customize": [
+  "Keep the 800x570 frame when you swap the content, because the composition was solved against that ratio.",
+  "Replace the video with a still at 800x570 if the 8.8s loop is too heavy for the page you are shipping.",
+  "Swap the clip for your own footage at 800x570 or wider, keep it muted, and match the 8.8s loop point.",
+  "Draft the new copy to the 800x570 frame, then check that the entrance still lands on the same number of lines."
+ ],
+ "editorial": [
+  {
+   "title": "How Aetheris Voyage sequences the first read",
+   "body": "Set your own copy into this hero section and the sequence still holds, because the elements are not interchangeable: navigation, the headline, the announcement badge, the stats row and the card grid each carry one job. A travel reader gets the offer before the options."
+  },
+  {
+   "title": "How the hero section reflows",
+   "body": "A fixed desktop scale would have been easier. The brief adds a clamp between 11px and 10px, which is what keeps the display line proportionate between widths. A squeeze would have been cheaper and would not hold."
+  },
+  {
+   "title": "What to change first in Aetheris Voyage",
+   "body": "Compare this with starting from a blank page. Here the frame (800x570) and 10px spacing steps and 100ms transitions are already decided, so the work is substitution rather than composition. Set the new copy at the same display size and re-check the contrast before you add anything."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 800x570 capture before you generate.",
+  "Pin the reference measurements before you restyle anything: 10px spacing steps and 100ms transitions.",
+  "Copy 10px spacing steps and 100ms transitions into your own brief before you rewrite anything else.",
+  "Keep the measurements the brief spells out: 10px spacing steps and 100ms transitions.",
+  "Check your build against the reference measurements: 10px spacing steps and 100ms transitions."
+ ],
+ "faq": [
+  {
+   "question": "Is the Aetheris Voyage prompt a finished spec or a starting point?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 800x570, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Why does the entry name React and Tailwind CSS at all?",
+   "answer": "Aetheris Voyage was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Can I use Aetheris Voyage in a client project?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 800x570."
+  }
+ ],
+ "audience": [
+  "Product marketers who need the hero section to still read with 8.8s of looping video behind the copy.",
+  "Made for content leads rewriting a hero section whose headline has to stay as long as Aetheris Voyage's.",
+  "Founders launching a travel brand hero section who need the Instrument Serif decision and the type scale settled before a developer starts."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Hero section"
+  },
+  {
+   "label": "Category",
+   "value": "Travel"
+  },
+  {
+   "label": "Viewport",
+   "value": "800x570 · 1.4:1"
+  },
+  {
+   "label": "Duration",
+   "value": "8.8s loop"
+  },
+  {
+   "label": "Input brief",
+   "value": "10,190 characters"
+  },
+  {
+   "label": "Date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type scale",
+   "value": "Instrument Serif, Barlow"
+  },
+  {
+   "label": "Stack",
+   "value": "Tailwind CSS, React, Framer Motion"
+  },
+  {
+   "label": "Motion",
+   "value": "100ms transitions and a 8.8s media loop"
+  }
+ ],
+ "related": [
+  "airlines-hero",
+  "velora-car-rental-hero",
+  "jetcrest-private-jet-hero",
+  "paradiso-cta",
+  "mostar-guide",
+  "place-saver"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 10190,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

@@ -1,0 +1,203 @@
+{
+ "slug": "f1-racing-hub",
+ "sourceSlug": "f1-racing-hub",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "F1 Racing Hub"
+ },
+ "title": "F1 Racing Hub",
+ "industry": "lifestyle",
+ "industryLabel": "Lifestyle",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/e16d867f6d3c2bbb.webp",
+  "still": "https://cdn.ottermind.ai/public/1b6fd9680ca782a7.webp",
+  "preview": "https://cdn.ottermind.ai/public/295462ec45ebecc6.mp4",
+  "full": "https://cdn.ottermind.ai/public/f2749a8939e77fe0.mp4",
+  "aspectRatio": 1.3611,
+  "width": 1470,
+  "height": 1080,
+  "duration": 7.033
+ },
+ "seo": {
+  "title": "F1 Racing Hub Lifestyle Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for a lifestyle brand — looping video, #EDB40B accent, min-width 768px and min-width 1280px breakpoints and fluid type. Copy the prompt or open it staged.",
+  "keywords": [
+   "lifestyle website design",
+   "lifestyle hero section design",
+   "glass lifestyle landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "F1 Racing Hub — Lifestyle Hero Section Design",
+ "tagline": "Hero section reference for a lifestyle brand, captured at 1470x1080 with the layout, timings and palette specified in the brief.",
+ "summary": "Hero section reference for a lifestyle brand — looping video, #EDB40B accent, min-width 768px and min-width 1280px breakpoints and fluid type.",
+ "about": "F1 Racing Hub keeps its decision trail: the brief that produced this hero section runs 10,448 characters. The whole page is built on deep blue #0A0E1C underneath and bright orange #EDB40B carrying the accents. Delivery is React and Tailwind CSS — one page, no plugin, no build tooling between you and the design. Motion is 400ms transitions, cubic-bezier(0.16,1,0.3,1) and a looping video bed, kept quiet enough that the copy still leads. If you are briefing a lifestyle hero section, start from this composition and replace the subject.",
+ "layout": [
+  {
+   "title": "The nav is deliberately thin",
+   "body": "Links sit on one line at a single size, and the #EDB40B action closes the row on the right so the eye finishes where the navigation ends. Below 768px the links collapse instead of wrapping onto a second line."
+  },
+  {
+   "title": "A full-bleed clip behind the type",
+   "body": "The 1470x1080 video runs 7s on a loop behind the copy, muted and inline, with no tint layer between the two. The loop is short enough (7s) that the eye reads it as texture rather than as a timeline."
+  },
+  {
+   "title": "Fluid where it needs to be",
+   "body": "The brief uses a clamp between 13px and 120px for the headline, which is what keeps a long line from breaking awkwardly. The type changes size, not role, as the viewport narrows."
+  },
+  {
+   "title": "The bar shares the page grid",
+   "body": "Labels are short enough to fit one line at 768px, and the active item is marked with weight rather than with a pill."
+  }
+ ],
+ "motion": [
+  {
+   "title": "The controls are the interactive layer",
+   "body": "The interactive layer is small and predictable: hover states on the buttons and links rather than on every card and a slider that pages through content on demand. Everything else stays still, which keeps the emphasis on the composition. Interactive targets are large enough to tap and the pointer treatment is consistent across them. If a state does not confirm an action, drop it."
+  },
+  {
+   "title": "Fast enough to feel deliberate",
+   "body": "Motion is measured in milliseconds here: 400ms on cubic-bezier(0.16,1,0.3,1). That is the whole animation budget, and it is spent on state changes rather than on a scroll timeline. If the easing changes, the duration has to be revisited with it."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#EDB40B",
+    "name": "Bright orange",
+    "role": "accent"
+   },
+   {
+    "hex": "#0A0E1C",
+    "name": "Near-black",
+    "role": "composition"
+   },
+   {
+    "hex": "#1A0000",
+    "name": "Near-black — darker",
+    "role": "darkest"
+   },
+   {
+    "hex": "#8B0000",
+    "name": "Red",
+    "role": "saturated"
+   }
+  ],
+  "glass": "Panels are translucent over deep blue #0A0E1C, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Face not specified",
+    "weights": "13–120px",
+    "role": "The brief fixes the type scale but leaves the face to the build"
+   }
+  ],
+  "notes": [
+   "The clip is one asset at 1470x1080 and a 7s loop, so the composition has a single media dependency.",
+   "The navigation collapses at min-width 768px and min-width 1280px, so the bar has a designed narrow state.",
+   "Accent use is limited to bright orange #EDB40B; everything else sits on deep blue #0A0E1C."
+  ]
+ },
+ "customize": [
+  "Retint #EDB40B toward your palette but keep the step against #0A0E1C; flatten the two and the primary action stops reading.",
+  "Replace #EDB40B last, after the copy is final, and test it against #0A0E1C at the smallest text size on the page.",
+  "Replace the headline and the supporting line with your own copy, keeping the same line count so the entrance still lands over the 1470x1080 frame.",
+  "Swap the clip for your own footage at 1470x1080 or wider, keep it muted, and match the 7s loop point."
+ ],
+ "editorial": [
+  {
+   "title": "What to change first in F1 Racing Hub",
+   "body": "Where a theme hands you components, this brief hands you a composition: type from 13px to 120px, 42vh sections, 20px spacing steps and 400ms transitions and a media frame, with the subject left to you. Substitution is cheaper than composition, and that is the point."
+  },
+  {
+   "title": "The timing behind the hero section",
+   "body": "A preset animation library would give you more movement than this. The brief asks for less: 400ms transitions, a 7s media loop and hover and press states, and nothing decorative on top. Nothing animates for its own sake in this hero section."
+  },
+  {
+   "title": "What holds up for Lifestyle",
+   "body": "You could rebuild this as a stack of separate cards and lose only the argument. The hero section reads as one decision instead: navigation, the headline, the stats row and the card grid in a single sequence. It gives a lifestyle reader the shortest honest route to the offer."
+  }
+ ],
+ "steps": [
+  "Drop your product name in, then replace #EDB40B with your own accent and re-check the contrast.",
+  "Set the brand first: product name, the #EDB40B accent and a headline that replaces the reference's.",
+  "Set your brand first: product name, the #EDB40B accent and the headline that replaces the reference's.",
+  "Type the product name and the #EDB40B accent before you touch the layout.",
+  "Copy type from 13px to 120px, 42vh sections and 20px spacing steps into your own brief before you rewrite anything else."
+ ],
+ "faq": [
+  {
+   "question": "What do I get when I copy the F1 Racing Hub brief?",
+   "answer": "The captured brief runs 10,448 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Can I rebuild the F1 Racing Hub hero section in a different stack?",
+   "answer": "F1 Racing Hub was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What drives the motion in F1 Racing Hub?",
+   "answer": "Transitions are attached to interface states rather than to a scroll timeline, and they resolve in the 400ms range on cubic-bezier(0.16,1,0.3,1). The brief records the values so a port can match them without guessing."
+  }
+ ],
+ "audience": [
+  "Take the 1470x1080 frame and type from 13px to 120px and 42vh sections from this hero section before you take anything else.",
+  "This hero section serves founders who need one screen of proof that lifestyle copy can carry 7s of looping video.",
+  "Made for content leads rewriting a hero section whose headline has to stay as long as F1 Racing Hub's."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Hero section"
+  },
+  {
+   "label": "Sector",
+   "value": "Lifestyle"
+  },
+  {
+   "label": "Format",
+   "value": "1470x1080 · 1.36:1"
+  },
+  {
+   "label": "Duration",
+   "value": "7s loop"
+  },
+  {
+   "label": "Source text",
+   "value": "10,448 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key colour",
+   "value": "bright orange #EDB40B"
+  },
+  {
+   "label": "Stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Timing",
+   "value": "400ms transitions, cubic-bezier(0.16,1,0.3,1) easing and a 7s media loop"
+  }
+ ],
+ "related": [
+  "orbis-hello",
+  "orbit-flora",
+  "portal-hero",
+  "vinyl",
+  "audio-showcase",
+  "aurora-onboard"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 10448,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

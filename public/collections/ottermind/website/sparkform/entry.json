@@ -1,0 +1,216 @@
+{
+ "slug": "sparkform",
+ "sourceSlug": "sparkform",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Sparkform"
+ },
+ "title": "Sparkform",
+ "industry": "creative",
+ "industryLabel": "Agencies & Studios",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/11b97c03b18493e0.webp",
+  "still": "https://cdn.ottermind.ai/public/00ef573d6d07dc34.webp",
+  "preview": "https://cdn.ottermind.ai/public/ee7a8f6d92982cf9.mp4",
+  "full": "https://cdn.ottermind.ai/public/ab4f5d06d5dc6dc5.mp4",
+  "aspectRatio": 1.3519,
+  "width": 1460,
+  "height": 1080,
+  "duration": 7.6
+ },
+ "seo": {
+  "title": "Sparkform Agencies & Studios Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an agency or studio — fluid type, a stats row, #89CFF0 accent and a moving marquee. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "agency website design",
+   "agency landing page design",
+   "marquee-led agency landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Sparkform — Agencies & Studios Landing Page Design",
+ "tagline": "Landing page reference built on bright orange #EC612C and teal #89CFF0, set in Inter and measured against 120vh sections.",
+ "summary": "Landing page reference for an agency or studio — fluid type, a stats row, #89CFF0 accent and a moving marquee.",
+ "about": "Sparkform is a working reference for an agency or studio: the landing page laid out, measured and ready to rebuild. The palette is bright orange #EC612C underneath, white #FFFFFF for the type and teal #89CFF0 carrying the accents, set in Inter. Delivery is React and Tailwind CSS — one page, no plugin, no build tooling between you and the design. Motion is confined to 0.05s transitions and a looping video bed. Keep it open while you write: the 6,724-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "A navigation bar that gets out of the way",
+   "body": "The row spends its contrast in one place: the #89CFF0 action, with the wordmark and the links held back on the ink colour. The links are set below the wordmark in size, and the #89CFF0 action is the only element in the bar with any weight. One action per bar."
+  },
+  {
+   "title": "Numbers carried into the build",
+   "body": "Every measurement in the brief is a number you can measure back: 120vh sections, 12px spacing steps and 0.05s transitions. The frame proportions are recorded with the sizes, so a rebuild gets the aspect right as well."
+  },
+  {
+   "title": "The loop is the backdrop",
+   "body": "One 7.6s asset carries the whole first screen, and the page has no second media element to keep in sync. Export at 1460x1080 or wider and the cover crop keeps working."
+  },
+  {
+   "title": "Display size does the talking",
+   "body": "With Inter doing the work, the sizes step down hard from the headline to the supporting copy and letter-spacing tightens as the size grows, so the hierarchy is carried by type rather than colour. The size steps are fixed values, which is what lets a face swap keep the same hierarchy."
+  }
+ ],
+ "motion": [
+  {
+   "title": "A loop, not a timeline",
+   "body": "The background clip runs 7.6s at 1460x1080 on an endless loop, muted and inline, so the page keeps moving while the reader's attention is on the copy. No scroll library is required, because the only ambient motion is the media itself. Because it is muted, the loop can run under the copy without competing for sound or focus."
+  },
+  {
+   "title": "Hover where it means something",
+   "body": "The pointer work is small and specified: a sticky element that holds position while the content moves under it, applied to the elements that already look interactive. Because the states are simple, they port into any component system."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#EC612C",
+    "name": "Bright orange",
+    "role": "composition"
+   },
+   {
+    "hex": "#FFFFFF",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#90EE90",
+    "name": "Muted green",
+    "role": "lighter"
+   },
+   {
+    "hex": "#89CFF0",
+    "name": "Teal",
+    "role": "accent"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "UI face"
+   },
+   {
+    "name": "Poppins",
+    "weights": "Weight not fixed in the brief",
+    "role": "Secondary copy, captions and labels"
+   },
+   {
+    "name": "Bamboly Demo",
+    "weights": "Weight not fixed in the brief",
+    "role": "Fallback and supporting interface text"
+   }
+  ],
+  "notes": [
+   "Media is specified at 1460x1080 and a 7.6s loop, so a replacement should match the crop and the loop length.",
+   "The timing budget is state feedback rather than page choreography (0.05s), so a slower rebuild reads as a different design.",
+   "Accent and ground are both named (teal #89CFF0 on bright orange #EC612C), so a brand swap moves one value."
+  ]
+ },
+ "customize": [
+  "Swap the clip for your own. Export at 1460x1080 or wider, keep it muted, and make the 7.6s loop seamless so the cut is invisible.",
+  "Draft the new copy to the 1460x1080 frame, then check that the entrance still lands on the same number of lines.",
+  "Keep the supporting line as short as the reference's and measure the pair against the 1460x1080 crop.",
+  "Move #89CFF0 to your own hue and leave #EC612C where it is; the distance between them is doing the hierarchy work."
+ ],
+ "editorial": [
+  {
+   "title": "Making the landing page yours",
+   "body": "The composition is the reusable part; the subject is yours. Swap the headline, keep the type scale (a fluid type scale), and re-test the #89CFF0 accent over your own media. If a new element does not help explain the offer or the next action, it belongs below the fold. Your accent has to survive the same contrast test as the reference accent."
+  },
+  {
+   "title": "The order behind the landing page",
+   "body": "The trade-off is patience: the page withholds the detail a scannable grid would hand over immediately. What it buys is a first screen where navigation, the stats row and the feature list cannot be misread. A agency reader gets the offer before the options."
+  },
+  {
+   "title": "What holds up for Agencies & Studios",
+   "body": "One screen means one decision for the reader, and that is the cost of this layout: everything else moves below the fold. The brief states 120vh sections, 12px spacing steps and 0.05s transitions so the lower sections keep the same rhythm. It gives a agency reader the shortest honest route to the offer."
+  }
+ ],
+ "steps": [
+  "Set the brand first: product name, the #89CFF0 accent and a headline that replaces the reference's.",
+  "Drop your product name in, then replace #89CFF0 with your own accent and re-check the contrast.",
+  "Type the product name and the #89CFF0 accent before you touch the layout.",
+  "Set your brand first: product name, the #89CFF0 accent and the headline that replaces the reference's.",
+  "Pin the reference measurements before you restyle anything: 120vh sections, 12px spacing steps and 0.05s transitions."
+ ],
+ "faq": [
+  {
+   "question": "Is the Sparkform prompt a finished spec or a starting point?",
+   "answer": "The captured brief runs 6,724 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "How much of Sparkform depends on React and Tailwind CSS?",
+   "answer": "Sparkform was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Can I keep the Sparkform transitions and change the timings?",
+   "answer": "Entrances and state changes are in the 0.05s range. They are driven by state changes rather than a scroll library, and they never hold up the copy."
+  }
+ ],
+ "audience": [
+  "This landing page is built for agencies that need the 1460x1080 frame to survive three rounds of client edits.",
+  "Designers who need the numbers first: 120vh sections and 12px spacing steps, all of it quoted from the brief.",
+  "Product marketers who need the landing page to still read with 7.6s of looping video behind the copy."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Landing page"
+  },
+  {
+   "label": "Sector",
+   "value": "Agencies & Studios"
+  },
+  {
+   "label": "Canvas size",
+   "value": "1460x1080 · 1.35:1"
+  },
+  {
+   "label": "Duration",
+   "value": "7.6s loop"
+  },
+  {
+   "label": "Source text",
+   "value": "6,724 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent",
+   "value": "teal #89CFF0"
+  },
+  {
+   "label": "Type",
+   "value": "Inter, Poppins, Bamboly Demo"
+  },
+  {
+   "label": "Stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Motion spec",
+   "value": "0.05s transitions and a 7.6s media loop"
+  }
+ ],
+ "related": [
+  "modern-agency",
+  "network-hero",
+  "northstar",
+  "personal-showcase",
+  "pixel-grid-hover",
+  "playful-idea"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 6724,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

@@ -1,0 +1,2653 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry.json",
+ "name": "meridian-slate",
+ "homepage": "http://localhost:8080/systems/meridian-slate",
+ "items": [
+  {
+   "name": "button",
+   "type": "registry:ui",
+   "title": "Button",
+   "description": "Starts an action now. States: pressed and pending, which keeps the label.",
+   "author": "localhost:8080",
+   "categories": [
+    "actions"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/button.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/button"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/button.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/button.tsx"
+    }
+   ]
+  },
+  {
+   "name": "button-group",
+   "type": "registry:ui",
+   "title": "Button group",
+   "description": "Joins related buttons, including a split menu.",
+   "author": "localhost:8080",
+   "categories": [
+    "actions"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/overlay.json",
+    "http://localhost:8080/r/meridian-slate/portal.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/button-group.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/button-group"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/button-group.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/button-group.tsx"
+    }
+   ]
+  },
+  {
+   "name": "copy-button",
+   "type": "registry:ui",
+   "title": "Copy button",
+   "description": "Copies a value and confirms in place.",
+   "author": "localhost:8080",
+   "categories": [
+    "actions"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/copy-button.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/copy-button"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/copy-button.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/copy-button.tsx"
+    }
+   ]
+  },
+  {
+   "name": "input",
+   "type": "registry:ui",
+   "title": "Input",
+   "description": "One line of text. Variants: text, password, secret, copy, search, number and OTP, with prefix and suffix slots.",
+   "author": "localhost:8080",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/copy-button.json",
+    "http://localhost:8080/r/meridian-slate/field.json",
+    "http://localhost:8080/r/meridian-slate/format.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/kbd.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/input.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/input"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/input.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/input.tsx"
+    },
+    {
+     "path": "registry/meridian-slate/ui/input/parts.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/input/parts.tsx"
+    },
+    {
+     "path": "registry/meridian-slate/ui/input/password.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/input/password.tsx"
+    },
+    {
+     "path": "registry/meridian-slate/ui/input/secret.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/input/secret.tsx"
+    },
+    {
+     "path": "registry/meridian-slate/ui/input/copy.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/input/copy.tsx"
+    },
+    {
+     "path": "registry/meridian-slate/ui/input/search.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/input/search.tsx"
+    },
+    {
+     "path": "registry/meridian-slate/ui/input/number.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/input/number.tsx"
+    },
+    {
+     "path": "registry/meridian-slate/ui/input/otp.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/input/otp.tsx"
+    }
+   ]
+  },
+  {
+   "name": "textarea",
+   "type": "registry:ui",
+   "title": "Textarea",
+   "description": "Several lines of text that grow.",
+   "author": "localhost:8080",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/field.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/textarea.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/textarea"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/textarea.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/textarea.tsx"
+    }
+   ]
+  },
+  {
+   "name": "field",
+   "type": "registry:ui",
+   "title": "Field",
+   "description": "Label, control, hint and error as one unit, plus the Form part.",
+   "author": "localhost:8080",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/field.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/field"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/field.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/field.tsx"
+    }
+   ]
+  },
+  {
+   "name": "date-picker",
+   "type": "registry:ui",
+   "title": "Date picker",
+   "description": "A date, range, date-time or time, with Calendar as its popup part.",
+   "author": "localhost:8080",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/field.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/input.json",
+    "http://localhost:8080/r/meridian-slate/overlay.json",
+    "http://localhost:8080/r/meridian-slate/portal.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/date-picker.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/date-picker"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/date-picker.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/date-picker.tsx"
+    }
+   ]
+  },
+  {
+   "name": "combobox",
+   "type": "registry:ui",
+   "title": "Combobox",
+   "description": "A searchable choice, single, multiple or creatable.",
+   "author": "localhost:8080",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/badge.json",
+    "http://localhost:8080/r/meridian-slate/empty-state.json",
+    "http://localhost:8080/r/meridian-slate/field.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/input.json",
+    "http://localhost:8080/r/meridian-slate/kbd.json",
+    "http://localhost:8080/r/meridian-slate/portal.json",
+    "http://localhost:8080/r/meridian-slate/select.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/combobox.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/combobox"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/combobox.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/combobox.tsx"
+    }
+   ]
+  },
+  {
+   "name": "checkbox",
+   "type": "registry:ui",
+   "title": "Checkbox",
+   "description": "One option on or off, with a mixed state.",
+   "author": "localhost:8080",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/checkbox.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/checkbox"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/checkbox.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/checkbox.tsx"
+    }
+   ]
+  },
+  {
+   "name": "radio-group",
+   "type": "registry:ui",
+   "title": "Radio group",
+   "description": "One choice from a short visible list.",
+   "author": "localhost:8080",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/radio-group.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/radio-group"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/radio-group.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/radio-group.tsx"
+    }
+   ]
+  },
+  {
+   "name": "switch",
+   "type": "registry:ui",
+   "title": "Switch",
+   "description": "A setting that applies immediately.",
+   "author": "localhost:8080",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/switch.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/switch"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/switch.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/switch.tsx"
+    }
+   ]
+  },
+  {
+   "name": "slider",
+   "type": "registry:ui",
+   "title": "Slider",
+   "description": "A value or range on a track.",
+   "author": "localhost:8080",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/direction.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/slider.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/slider"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/slider.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/slider.tsx"
+    }
+   ]
+  },
+  {
+   "name": "select",
+   "type": "registry:ui",
+   "title": "Select",
+   "description": "One choice from a popup list, or the native select.",
+   "author": "localhost:8080",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/badge.json",
+    "http://localhost:8080/r/meridian-slate/field.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/overlay.json",
+    "http://localhost:8080/r/meridian-slate/portal.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/select.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/select"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/select.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/select.tsx"
+    }
+   ]
+  },
+  {
+   "name": "segmented-control",
+   "type": "registry:ui",
+   "title": "Segmented control",
+   "description": "Two to five views, single or multiple.",
+   "author": "localhost:8080",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/segmented-control.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/segmented-control"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/segmented-control.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/segmented-control.tsx"
+    }
+   ]
+  },
+  {
+   "name": "badge",
+   "type": "registry:ui",
+   "title": "Badge",
+   "description": "A static label for a count, category or kind, shown as a tinted word.",
+   "author": "localhost:8080",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/badge.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/badge"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/badge.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/badge.tsx"
+    }
+   ]
+  },
+  {
+   "name": "chip",
+   "type": "registry:ui",
+   "title": "Chip",
+   "description": "An interactive token: filter toggle, removable value or menu trigger.",
+   "author": "localhost:8080",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/chip.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/chip"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/chip.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/chip.tsx"
+    }
+   ]
+  },
+  {
+   "name": "status",
+   "type": "registry:ui",
+   "title": "Status",
+   "description": "Idle, queued, running, waiting, ok, warn and fail, as a mark or a word.",
+   "author": "localhost:8080",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/status.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/status"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/status.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/status.tsx"
+    }
+   ]
+  },
+  {
+   "name": "stat",
+   "type": "registry:ui",
+   "title": "Stat",
+   "description": "A plain numeral with its label, delta and trend.",
+   "author": "localhost:8080",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/chart.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/stat.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/stat"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/stat.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/stat.tsx"
+    }
+   ]
+  },
+  {
+   "name": "avatar",
+   "type": "registry:ui",
+   "title": "Avatar",
+   "description": "A person, agent or source icon, alone or grouped.",
+   "author": "localhost:8080",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/status.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/truncate.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/avatar.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/avatar"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/avatar.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/avatar.tsx"
+    }
+   ]
+  },
+  {
+   "name": "kbd",
+   "type": "registry:ui",
+   "title": "Kbd",
+   "description": "A key or a shortcut.",
+   "author": "localhost:8080",
+   "categories": [
+    "display"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/kbd.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/kbd"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/kbd.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/kbd.tsx"
+    }
+   ]
+  },
+  {
+   "name": "relative-time",
+   "type": "registry:ui",
+   "title": "Relative time",
+   "description": "\"3m ago\", with the exact time on hover and focus.",
+   "author": "localhost:8080",
+   "categories": [
+    "display"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/truncate.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/relative-time.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/relative-time"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/relative-time.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/relative-time.tsx"
+    }
+   ]
+  },
+  {
+   "name": "truncate",
+   "type": "registry:ui",
+   "title": "Truncate",
+   "description": "Long IDs and text cut at the middle or the end, with the full value reachable.",
+   "author": "localhost:8080",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/portal.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/tooltip.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/truncate.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/truncate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/truncate.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/truncate.tsx"
+    }
+   ]
+  },
+  {
+   "name": "item",
+   "type": "registry:ui",
+   "title": "Item",
+   "description": "The list row: media, title, meta, status and actions.",
+   "author": "localhost:8080",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/status.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/item.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/item"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/item.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/item.tsx"
+    }
+   ]
+  },
+  {
+   "name": "card",
+   "type": "registry:ui",
+   "title": "Card",
+   "description": "A white working surface for one topic, optionally collapsible.",
+   "author": "localhost:8080",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/badge.json",
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/card.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/card"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/card.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/card.tsx"
+    }
+   ]
+  },
+  {
+   "name": "panel",
+   "type": "registry:ui",
+   "title": "Panel",
+   "description": "A grey widget for an overview or settings screen: header on the grey, content in a white body.",
+   "author": "localhost:8080",
+   "categories": [
+    "display"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/panel.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/panel"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/panel.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/panel.tsx"
+    }
+   ]
+  },
+  {
+   "name": "data-list",
+   "type": "registry:ui",
+   "title": "Data list",
+   "description": "Label and value pairs for a detail view.",
+   "author": "localhost:8080",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/format.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/data-list.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/data-list"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/data-list.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/data-list.tsx"
+    }
+   ]
+  },
+  {
+   "name": "alert",
+   "type": "registry:ui",
+   "title": "Alert",
+   "description": "A message about the current view, inline or across the page.",
+   "author": "localhost:8080",
+   "categories": [
+    "feedback"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/alert.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/alert"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/alert.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/alert.tsx"
+    }
+   ]
+  },
+  {
+   "name": "toast",
+   "type": "registry:ui",
+   "title": "Toast",
+   "description": "Confirms an action or reports a background event, then leaves.",
+   "author": "localhost:8080",
+   "categories": [
+    "feedback"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/css-var.json",
+    "http://localhost:8080/r/meridian-slate/direction.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/portal.json",
+    "http://localhost:8080/r/meridian-slate/status.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/toast.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/toast"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/toast.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/toast.tsx"
+    }
+   ]
+  },
+  {
+   "name": "empty-state",
+   "type": "registry:ui",
+   "title": "Empty state",
+   "description": "A region with nothing to show, that failed, or that the person cannot see.",
+   "author": "localhost:8080",
+   "categories": [
+    "feedback"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/badge.json",
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/empty-state.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/empty-state"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/empty-state.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/empty-state.tsx"
+    }
+   ]
+  },
+  {
+   "name": "skeleton",
+   "type": "registry:ui",
+   "title": "Skeleton",
+   "description": "Holds the shape of loading content.",
+   "author": "localhost:8080",
+   "categories": [
+    "feedback"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/css-var.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/skeleton.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/skeleton"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/skeleton.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/skeleton.tsx"
+    }
+   ]
+  },
+  {
+   "name": "progress",
+   "type": "registry:ui",
+   "title": "Progress",
+   "description": "Bar, ring, steps or meter.",
+   "author": "localhost:8080",
+   "categories": [
+    "feedback"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/status.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/progress.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/progress"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/progress.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/progress.tsx"
+    }
+   ]
+  },
+  {
+   "name": "dialog",
+   "type": "registry:ui",
+   "title": "Dialog",
+   "description": "Modal work, with alert and typed-confirm variants.",
+   "author": "localhost:8080",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/badge.json",
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/field.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/overlay.json",
+    "http://localhost:8080/r/meridian-slate/portal.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/dialog.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/dialog"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/dialog.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/dialog.tsx"
+    }
+   ]
+  },
+  {
+   "name": "sheet",
+   "type": "registry:ui",
+   "title": "Sheet",
+   "description": "A panel from an edge, modal or docked.",
+   "author": "localhost:8080",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/direction.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/overlay.json",
+    "http://localhost:8080/r/meridian-slate/portal.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/sheet.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/sheet"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/sheet.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/sheet.tsx"
+    }
+   ]
+  },
+  {
+   "name": "popover",
+   "type": "registry:ui",
+   "title": "Popover",
+   "description": "Anchored rich content, including the info toggletip and the hover preview.",
+   "author": "localhost:8080",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/overlay.json",
+    "http://localhost:8080/r/meridian-slate/portal.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/popover.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/popover"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/popover.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/popover.tsx"
+    }
+   ]
+  },
+  {
+   "name": "tooltip",
+   "type": "registry:ui",
+   "title": "Tooltip",
+   "description": "Names an icon button or shows a shortcut; never holds anything essential.",
+   "author": "localhost:8080",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/children.json",
+    "http://localhost:8080/r/meridian-slate/kbd.json",
+    "http://localhost:8080/r/meridian-slate/portal.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/tooltip.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/tooltip"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/tooltip.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/tooltip.tsx"
+    }
+   ]
+  },
+  {
+   "name": "dropdown-menu",
+   "type": "registry:ui",
+   "title": "Dropdown menu",
+   "description": "Actions from a trigger or a right click.",
+   "author": "localhost:8080",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/kbd.json",
+    "http://localhost:8080/r/meridian-slate/overlay.json",
+    "http://localhost:8080/r/meridian-slate/portal.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/dropdown-menu.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/dropdown-menu"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/dropdown-menu.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/dropdown-menu.tsx"
+    }
+   ]
+  },
+  {
+   "name": "command",
+   "type": "registry:ui",
+   "title": "Command",
+   "description": "A searchable command list, the core of the command palette.",
+   "author": "localhost:8080",
+   "categories": [
+    "overlays"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/dialog.json",
+    "http://localhost:8080/r/meridian-slate/empty-state.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/kbd.json",
+    "http://localhost:8080/r/meridian-slate/overlay.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/command.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/command"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/command.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/command.tsx"
+    }
+   ]
+  },
+  {
+   "name": "tabs",
+   "type": "registry:ui",
+   "title": "Tabs",
+   "description": "Panels of one view, with closable and reorderable document tabs.",
+   "author": "localhost:8080",
+   "categories": [
+    "navigation"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/css-var.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/tabs.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/tabs"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/tabs.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/tabs.tsx"
+    }
+   ]
+  },
+  {
+   "name": "breadcrumb",
+   "type": "registry:ui",
+   "title": "Breadcrumb",
+   "description": "Where the page sits.",
+   "author": "localhost:8080",
+   "categories": [
+    "navigation"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/dropdown-menu.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/breadcrumb.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/breadcrumb"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/breadcrumb.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/breadcrumb.tsx"
+    }
+   ]
+  },
+  {
+   "name": "pagination",
+   "type": "registry:ui",
+   "title": "Pagination",
+   "description": "Moves through pages of results.",
+   "author": "localhost:8080",
+   "categories": [
+    "navigation"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/pagination.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/pagination"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/pagination.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/pagination.tsx"
+    }
+   ]
+  },
+  {
+   "name": "collapsible",
+   "type": "registry:ui",
+   "title": "Collapsible",
+   "description": "Shows and hides one region, or a group of them.",
+   "author": "localhost:8080",
+   "categories": [
+    "layout"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/collapsible.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/collapsible"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/collapsible.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/collapsible.tsx"
+    }
+   ]
+  },
+  {
+   "name": "page-header",
+   "type": "registry:ui",
+   "title": "Page header",
+   "description": "Support file: title, description, stats and actions.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/page-header.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/page-header.tsx"
+    }
+   ]
+  },
+  {
+   "name": "table",
+   "type": "registry:ui",
+   "title": "Table",
+   "description": "Rows and columns with sort, selection, row actions and virtualization.",
+   "author": "localhost:8080",
+   "categories": [
+    "data"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "@tanstack/react-table@^8.21.3",
+    "@tanstack/react-virtual@^3.14.13"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/badge.json",
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/checkbox.json",
+    "http://localhost:8080/r/meridian-slate/css-var.json",
+    "http://localhost:8080/r/meridian-slate/dropdown-menu.json",
+    "http://localhost:8080/r/meridian-slate/empty-state.json",
+    "http://localhost:8080/r/meridian-slate/format.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/overlay.json",
+    "http://localhost:8080/r/meridian-slate/portal.json",
+    "http://localhost:8080/r/meridian-slate/scroll-focus.json",
+    "http://localhost:8080/r/meridian-slate/status.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/use-offscreen.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/table.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/table"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/table.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/table.tsx"
+    }
+   ]
+  },
+  {
+   "name": "filter-bar",
+   "type": "registry:ui",
+   "title": "Filter bar",
+   "description": "Search plus filter chips and clear-all.",
+   "author": "localhost:8080",
+   "categories": [
+    "data"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/chip.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/input.json",
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/overlay.json",
+    "http://localhost:8080/r/meridian-slate/portal.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/filter-bar.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/filter-bar"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/filter-bar.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/filter-bar.tsx"
+    }
+   ]
+  },
+  {
+   "name": "timeline",
+   "type": "registry:ui",
+   "title": "Timeline",
+   "description": "Shows when each step of a run started and how long it took, with the slow and failed ones marked.",
+   "author": "localhost:8080",
+   "categories": [
+    "data"
+   ],
+   "dependencies": [
+    "@tanstack/react-virtual@^3.14.13"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/chart.json",
+    "http://localhost:8080/r/meridian-slate/format.json",
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/status.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/use-offscreen.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/timeline.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/timeline"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/timeline.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/timeline.tsx"
+    }
+   ]
+  },
+  {
+   "name": "code-block",
+   "type": "registry:ui",
+   "title": "Code block",
+   "description": "Highlighted code, one-line commands and inline code, with copy.",
+   "author": "localhost:8080",
+   "categories": [
+    "code"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/copy-button.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/input.json",
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/code-block.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/code-block"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/code-block.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/code-block.tsx"
+    }
+   ]
+  },
+  {
+   "name": "json-view",
+   "type": "registry:ui",
+   "title": "JSON view",
+   "description": "Foldable structured output.",
+   "author": "localhost:8080",
+   "categories": [
+    "code"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/badge.json",
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/code-block.json",
+    "http://localhost:8080/r/meridian-slate/copy-button.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/scroll-focus.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/json-view.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/json-view"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/json-view.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/json-view.tsx"
+    }
+   ]
+  },
+  {
+   "name": "log-viewer",
+   "type": "registry:ui",
+   "title": "Log viewer",
+   "description": "Streaming lines with levels, search and follow.",
+   "author": "localhost:8080",
+   "categories": [
+    "code"
+   ],
+   "dependencies": [
+    "@tanstack/react-virtual@^3.14.13"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/badge.json",
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/code-block.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/status.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/use-offscreen.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/log-viewer.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/log-viewer"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/log-viewer.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/log-viewer.tsx"
+    }
+   ]
+  },
+  {
+   "name": "attachment",
+   "type": "registry:ui",
+   "title": "Attachment",
+   "description": "A file in a form, prompt or message, with drop zone and image tile.",
+   "author": "localhost:8080",
+   "categories": [
+    "media"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/format.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/truncate.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/attachment.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/attachment"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/attachment.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/attachment.tsx"
+    }
+   ]
+  },
+  {
+   "name": "chart",
+   "type": "registry:ui",
+   "title": "Chart",
+   "description": "Line, bar, sparkline or status buckets, with frame states, legend, tooltip and data table built in.",
+   "author": "localhost:8080",
+   "categories": [
+    "media"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/css-var.json",
+    "http://localhost:8080/r/meridian-slate/direction.json",
+    "http://localhost:8080/r/meridian-slate/format.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/portal.json",
+    "http://localhost:8080/r/meridian-slate/scroll-focus.json",
+    "http://localhost:8080/r/meridian-slate/segmented-control.json",
+    "http://localhost:8080/r/meridian-slate/status.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/use-offscreen.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/chart.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/chart"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/chart.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/chart.tsx"
+    },
+    {
+     "path": "registry/meridian-slate/ui/chart-scale.ts",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/chart-scale.ts"
+    },
+    {
+     "path": "registry/meridian-slate/ui/chart-parts.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/chart-parts.tsx"
+    },
+    {
+     "path": "registry/meridian-slate/ui/chart-plot.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/chart-plot.tsx"
+    },
+    {
+     "path": "registry/meridian-slate/ui/chart-strip.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/chart-strip.tsx"
+    }
+   ]
+  },
+  {
+   "name": "message",
+   "type": "registry:component",
+   "title": "Message",
+   "description": "One turn from the person or the agent, plus dividers.",
+   "author": "localhost:8080",
+   "categories": [
+    "agent"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/avatar.json",
+    "http://localhost:8080/r/meridian-slate/badge.json",
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/status.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/message.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/message"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ai/message.tsx",
+     "type": "registry:component",
+     "target": "@components/meridian-slate/ai/message.tsx"
+    }
+   ]
+  },
+  {
+   "name": "conversation",
+   "type": "registry:component",
+   "title": "Conversation",
+   "description": "Keeps a streaming thread pinned to the bottom until the person scrolls.",
+   "author": "localhost:8080",
+   "categories": [
+    "agent"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/message.json",
+    "http://localhost:8080/r/meridian-slate/status.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/tool-call.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/conversation.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/conversation"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ai/conversation.tsx",
+     "type": "registry:component",
+     "target": "@components/meridian-slate/ai/conversation.tsx"
+    }
+   ]
+  },
+  {
+   "name": "response",
+   "type": "registry:component",
+   "title": "Response",
+   "description": "Markdown that renders as it streams.",
+   "author": "localhost:8080",
+   "categories": [
+    "agent"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/copy-button.json",
+    "http://localhost:8080/r/meridian-slate/format.json",
+    "http://localhost:8080/r/meridian-slate/status.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/response.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/response"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ai/response.tsx",
+     "type": "registry:component",
+     "target": "@components/meridian-slate/ai/response.tsx"
+    }
+   ]
+  },
+  {
+   "name": "reasoning",
+   "type": "registry:component",
+   "title": "Reasoning",
+   "description": "The model's thinking, open while it streams and folded when done.",
+   "author": "localhost:8080",
+   "categories": [
+    "agent"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/activity.json",
+    "http://localhost:8080/r/meridian-slate/conversation.json",
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/response.json",
+    "http://localhost:8080/r/meridian-slate/scroll-focus.json",
+    "http://localhost:8080/r/meridian-slate/status.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/reasoning.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/reasoning"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ai/reasoning.tsx",
+     "type": "registry:component",
+     "target": "@components/meridian-slate/ai/reasoning.tsx"
+    }
+   ]
+  },
+  {
+   "name": "tool-call",
+   "type": "registry:component",
+   "title": "Tool call",
+   "description": "One call with its name, arguments, status, duration and output.",
+   "author": "localhost:8080",
+   "categories": [
+    "agent"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/activity.json",
+    "http://localhost:8080/r/meridian-slate/badge.json",
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/format.json",
+    "http://localhost:8080/r/meridian-slate/panel.json",
+    "http://localhost:8080/r/meridian-slate/status.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/use-focus-when-replaced.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/tool-call.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/tool-call"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ai/tool-call.tsx",
+     "type": "registry:component",
+     "target": "@components/meridian-slate/ai/tool-call.tsx"
+    },
+    {
+     "path": "registry/meridian-slate/ai/request-ticker.tsx",
+     "type": "registry:component",
+     "target": "@components/meridian-slate/ai/request-ticker.tsx"
+    }
+   ]
+  },
+  {
+   "name": "activity",
+   "type": "registry:component",
+   "title": "Activity",
+   "description": "What the agent is doing now, with the first-wait loader.",
+   "author": "localhost:8080",
+   "categories": [
+    "agent"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/status.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/activity.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/activity"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ai/activity.tsx",
+     "type": "registry:component",
+     "target": "@components/meridian-slate/ai/activity.tsx"
+    }
+   ]
+  },
+  {
+   "name": "prompt-input",
+   "type": "registry:component",
+   "title": "Prompt input",
+   "description": "The composer editor with mentions, slash commands and voice.",
+   "author": "localhost:8080",
+   "categories": [
+    "agent"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/attachment.json",
+    "http://localhost:8080/r/meridian-slate/badge.json",
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/css-var.json",
+    "http://localhost:8080/r/meridian-slate/empty-state.json",
+    "http://localhost:8080/r/meridian-slate/field.json",
+    "http://localhost:8080/r/meridian-slate/format.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/mention.json",
+    "http://localhost:8080/r/meridian-slate/overlay.json",
+    "http://localhost:8080/r/meridian-slate/portal.json",
+    "http://localhost:8080/r/meridian-slate/send-button.json",
+    "http://localhost:8080/r/meridian-slate/status.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/tooltip.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/prompt-input.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/prompt-input"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ai/prompt-input.tsx",
+     "type": "registry:component",
+     "target": "@components/meridian-slate/ai/prompt-input.tsx"
+    },
+    {
+     "path": "registry/meridian-slate/ai/prompt-input/codec.ts",
+     "type": "registry:component",
+     "target": "@components/meridian-slate/ai/prompt-input/codec.ts"
+    },
+    {
+     "path": "registry/meridian-slate/ai/prompt-input/attachment.tsx",
+     "type": "registry:component",
+     "target": "@components/meridian-slate/ai/prompt-input/attachment.tsx"
+    },
+    {
+     "path": "registry/meridian-slate/ai/prompt-input/mic.tsx",
+     "type": "registry:component",
+     "target": "@components/meridian-slate/ai/prompt-input/mic.tsx"
+    },
+    {
+     "path": "registry/meridian-slate/ai/prompt-input/menu.tsx",
+     "type": "registry:component",
+     "target": "@components/meridian-slate/ai/prompt-input/menu.tsx"
+    },
+    {
+     "path": "registry/meridian-slate/ai/prompt-input/caret.ts",
+     "type": "registry:component",
+     "target": "@components/meridian-slate/ai/prompt-input/caret.ts"
+    },
+    {
+     "path": "registry/meridian-slate/ai/prompt-queue.tsx",
+     "type": "registry:component",
+     "target": "@components/meridian-slate/ai/prompt-queue.tsx"
+    }
+   ]
+  },
+  {
+   "name": "send-button",
+   "type": "registry:component",
+   "title": "Send button",
+   "description": "Support file: send, which becomes stop while the agent streams.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ai/send-button.tsx",
+     "type": "registry:component",
+     "target": "@components/meridian-slate/ai/send-button.tsx"
+    }
+   ]
+  },
+  {
+   "name": "mention",
+   "type": "registry:component",
+   "title": "Mention",
+   "description": "Support file: a resource named in a prompt or an answer.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ai/mention.tsx",
+     "type": "registry:component",
+     "target": "@components/meridian-slate/ai/mention.tsx"
+    }
+   ]
+  },
+  {
+   "name": "bulk-action-bar",
+   "type": "registry:ui",
+   "title": "Bulk action bar",
+   "description": "Support file: actions for the rows a person has selected.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/bulk-action-bar.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/bulk-action-bar.tsx"
+    }
+   ]
+  },
+  {
+   "name": "data-grid",
+   "type": "registry:ui",
+   "title": "Data grid",
+   "description": "A table with spreadsheet behavior: cell focus, editing and paste.",
+   "author": "localhost:8080",
+   "categories": [
+    "data"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/checkbox.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/input.json",
+    "http://localhost:8080/r/meridian-slate/kbd.json",
+    "http://localhost:8080/r/meridian-slate/popover.json",
+    "http://localhost:8080/r/meridian-slate/select.json",
+    "http://localhost:8080/r/meridian-slate/status.json",
+    "http://localhost:8080/r/meridian-slate/table.json",
+    "http://localhost:8080/r/meridian-slate/textarea.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate/components/data-grid.md",
+    "page": "http://localhost:8080/systems/meridian-slate/components/data-grid"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/ui/data-grid.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-slate/ui/data-grid.tsx"
+    }
+   ]
+  },
+  {
+   "name": "project-home",
+   "type": "registry:block",
+   "title": "Workspace home",
+   "description": "A workspace home for a team of agents: the workspace and New agent, a strip of four numbers, the Conversations chart, what needs a look, the conversations table and the last prompt releases.",
+   "author": "localhost:8080",
+   "categories": [
+    "block",
+    "home"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/badge.json",
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/chart.json",
+    "http://localhost:8080/r/meridian-slate/filter-bar.json",
+    "http://localhost:8080/r/meridian-slate/item.json",
+    "http://localhost:8080/r/meridian-slate/panel.json",
+    "http://localhost:8080/r/meridian-slate/segmented-control.json",
+    "http://localhost:8080/r/meridian-slate/stat.json",
+    "http://localhost:8080/r/meridian-slate/status.json",
+    "http://localhost:8080/r/meridian-slate/table.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/blocks/project-home.tsx",
+     "type": "registry:block",
+     "target": "@components/meridian-slate/blocks/project-home.tsx"
+    }
+   ]
+  },
+  {
+   "name": "agent-session",
+   "type": "registry:block",
+   "title": "Agent session",
+   "description": "One agent turn in a thread: tool calls under one live Activity header, the answer, a queued follow-up and the composer with Stop.",
+   "author": "localhost:8080",
+   "categories": [
+    "block",
+    "ai",
+    "chat"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/conversation.json",
+    "http://localhost:8080/r/meridian-slate/copy-button.json",
+    "http://localhost:8080/r/meridian-slate/message.json",
+    "http://localhost:8080/r/meridian-slate/prompt-input.json",
+    "http://localhost:8080/r/meridian-slate/response.json",
+    "http://localhost:8080/r/meridian-slate/send-button.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/tool-call.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/blocks/agent-session.tsx",
+     "type": "registry:block",
+     "target": "@components/meridian-slate/blocks/agent-session.tsx"
+    }
+   ]
+  },
+  {
+   "name": "tool-approval",
+   "type": "registry:block",
+   "title": "Tool approval",
+   "description": "An agent asks before it sends a refund, with Allow and Deny; the outcome takes focus after a choice.",
+   "author": "localhost:8080",
+   "categories": [
+    "block",
+    "ai",
+    "approval"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/format.json",
+    "http://localhost:8080/r/meridian-slate/message.json",
+    "http://localhost:8080/r/meridian-slate/response.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/tool-call.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/blocks/tool-approval.tsx",
+     "type": "registry:block",
+     "target": "@components/meridian-slate/blocks/tool-approval.tsx"
+    }
+   ]
+  },
+  {
+   "name": "api-keys",
+   "type": "registry:block",
+   "title": "API keys",
+   "description": "Create a key and see it once at its full length, masked with reveal and copy; then the keys by their last four characters with Revoke.",
+   "author": "localhost:8080",
+   "categories": [
+    "block",
+    "settings",
+    "keys"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/badge.json",
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/code-block.json",
+    "http://localhost:8080/r/meridian-slate/collapsible.json",
+    "http://localhost:8080/r/meridian-slate/copy-button.json",
+    "http://localhost:8080/r/meridian-slate/dialog.json",
+    "http://localhost:8080/r/meridian-slate/field.json",
+    "http://localhost:8080/r/meridian-slate/format.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/input.json",
+    "http://localhost:8080/r/meridian-slate/page-header.json",
+    "http://localhost:8080/r/meridian-slate/panel.json",
+    "http://localhost:8080/r/meridian-slate/status.json",
+    "http://localhost:8080/r/meridian-slate/table.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/tooltip.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/blocks/api-keys.tsx",
+     "type": "registry:block",
+     "target": "@components/meridian-slate/blocks/api-keys.tsx"
+    }
+   ]
+  },
+  {
+   "name": "deploy-detail",
+   "type": "registry:block",
+   "title": "Prompt release",
+   "description": "A prompt release paused on a failed eval: the release card with the decision and Roll back, the rollout on one clock, the evals with the failure first, the log and the releases before it.",
+   "author": "localhost:8080",
+   "categories": [
+    "block",
+    "deploy"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/avatar.json",
+    "http://localhost:8080/r/meridian-slate/badge.json",
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/card.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/item.json",
+    "http://localhost:8080/r/meridian-slate/log-viewer.json",
+    "http://localhost:8080/r/meridian-slate/panel.json",
+    "http://localhost:8080/r/meridian-slate/progress.json",
+    "http://localhost:8080/r/meridian-slate/status.json",
+    "http://localhost:8080/r/meridian-slate/table.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/timeline.json",
+    "http://localhost:8080/r/meridian-slate/tool-call.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/blocks/deploy-detail.tsx",
+     "type": "registry:block",
+     "target": "@components/meridian-slate/blocks/deploy-detail.tsx"
+    }
+   ]
+  },
+  {
+   "name": "run-trace",
+   "type": "registry:block",
+   "title": "Run trace",
+   "description": "One agent run as a waterfall of its steps and model calls, with the live step growing and the open step's details beside it.",
+   "author": "localhost:8080",
+   "categories": [
+    "block",
+    "ai",
+    "trace"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/card.json",
+    "http://localhost:8080/r/meridian-slate/data-list.json",
+    "http://localhost:8080/r/meridian-slate/format.json",
+    "http://localhost:8080/r/meridian-slate/json-view.json",
+    "http://localhost:8080/r/meridian-slate/status.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/timeline.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/blocks/run-trace.tsx",
+     "type": "registry:block",
+     "target": "@components/meridian-slate/blocks/run-trace.tsx"
+    }
+   ]
+  },
+  {
+   "name": "live-requests",
+   "type": "registry:block",
+   "title": "Live activity",
+   "description": "An agent's tool calls as they happen: result, tool and agent, trouble marked, with filters, Pause and the call docked beside the list.",
+   "author": "localhost:8080",
+   "categories": [
+    "block",
+    "api",
+    "logs"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/badge.json",
+    "http://localhost:8080/r/meridian-slate/button.json",
+    "http://localhost:8080/r/meridian-slate/dropdown-menu.json",
+    "http://localhost:8080/r/meridian-slate/filter-bar.json",
+    "http://localhost:8080/r/meridian-slate/icon.json",
+    "http://localhost:8080/r/meridian-slate/input.json",
+    "http://localhost:8080/r/meridian-slate/kind.json",
+    "http://localhost:8080/r/meridian-slate/page-header.json",
+    "http://localhost:8080/r/meridian-slate/sheet.json",
+    "http://localhost:8080/r/meridian-slate/stat.json",
+    "http://localhost:8080/r/meridian-slate/status.json",
+    "http://localhost:8080/r/meridian-slate/table.json",
+    "http://localhost:8080/r/meridian-slate/theme.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/blocks/live-requests.tsx",
+     "type": "registry:block",
+     "target": "@components/meridian-slate/blocks/live-requests.tsx"
+    }
+   ]
+  },
+  {
+   "name": "utils",
+   "type": "registry:lib",
+   "title": "cn",
+   "description": "Support file: cn, which merges class names and resolves conflicts between Meridian Slate's type roles and text colors; mergeClass, which keeps Meridian Slate's classes when a caller passes a className function; and mergeRefs.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "clsx@^2.1.1",
+    "tailwind-merge@^3.7.0"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/lib/utils.ts",
+     "type": "registry:lib",
+     "target": "@lib/meridian-slate/utils.ts"
+    }
+   ]
+  },
+  {
+   "name": "icon",
+   "type": "registry:component",
+   "title": "Icon",
+   "description": "Support file: the one import point for icons: Font Awesome Free, Classic Solid.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "@fortawesome/free-solid-svg-icons@^7.3.1"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/icon.tsx",
+     "type": "registry:component",
+     "target": "@components/meridian-slate/icon.tsx"
+    }
+   ]
+  },
+  {
+   "name": "portal",
+   "type": "registry:lib",
+   "title": "Portal",
+   "description": "Support file: puts overlays inside the .meridian-slate scope so they keep its tokens.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/lib/portal.ts",
+     "type": "registry:lib",
+     "target": "@lib/meridian-slate/portal.ts"
+    }
+   ]
+  },
+  {
+   "name": "overlay",
+   "type": "registry:lib",
+   "title": "Overlay",
+   "description": "Support file: what every overlay shares: the paper surface with its frame line and the way it appears; and for Dialog and Sheet, the open state that waits for a running action, Enter on the footer's default action, the backdrop and the scroll fade.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/portal.json",
+    "http://localhost:8080/r/meridian-slate/utils.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/lib/overlay.ts",
+     "type": "registry:lib",
+     "target": "@lib/meridian-slate/overlay.ts"
+    }
+   ]
+  },
+  {
+   "name": "kind",
+   "type": "registry:lib",
+   "title": "Kinds",
+   "description": "Support file: the five kinds and two reserved statuses, as a type and an ordered list.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/lib/kind.ts",
+     "type": "registry:lib",
+     "target": "@lib/meridian-slate/kind.ts"
+    }
+   ]
+  },
+  {
+   "name": "format",
+   "type": "registry:lib",
+   "title": "Column formatters",
+   "description": "Support file: picks one unit for a numeric column from its largest value.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/lib/format.ts",
+     "type": "registry:lib",
+     "target": "@lib/meridian-slate/format.ts"
+    }
+   ]
+  },
+  {
+   "name": "css-var",
+   "type": "registry:lib",
+   "title": "CSS token reader",
+   "description": "Support file: reads a design token from the page for charts and canvases.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/lib/css-var.ts",
+     "type": "registry:lib",
+     "target": "@lib/meridian-slate/css-var.ts"
+    }
+   ]
+  },
+  {
+   "name": "direction",
+   "type": "registry:lib",
+   "title": "Direction",
+   "description": "Support file: hands the document direction to Base UI.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/portal.json"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/lib/direction.ts",
+     "type": "registry:lib",
+     "target": "@lib/meridian-slate/direction.ts"
+    }
+   ]
+  },
+  {
+   "name": "use-focus-when-replaced",
+   "type": "registry:lib",
+   "title": "useFocusWhenReplaced",
+   "description": "Support file: moves focus to an outcome when the buttons that had it are replaced, so a keyboard user is not dropped to the top.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/lib/use-focus-when-replaced.ts",
+     "type": "registry:lib",
+     "target": "@lib/meridian-slate/use-focus-when-replaced.ts"
+    }
+   ]
+  },
+  {
+   "name": "use-offscreen",
+   "type": "registry:lib",
+   "title": "useOffscreen",
+   "description": "Support file: marks a live frame with data-offscreen while it is out of view, so its running arc pauses.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/lib/use-offscreen.ts",
+     "type": "registry:lib",
+     "target": "@lib/meridian-slate/use-offscreen.ts"
+    }
+   ]
+  },
+  {
+   "name": "children",
+   "type": "registry:lib",
+   "title": "Compound parts",
+   "description": "Support file: finds the compound parts of a component among its children.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/lib/children.ts",
+     "type": "registry:lib",
+     "target": "@lib/meridian-slate/children.ts"
+    }
+   ]
+  },
+  {
+   "name": "scroll-focus",
+   "type": "registry:lib",
+   "title": "Scroll tab stop",
+   "description": "Support file: puts a scroll box in the tab order while its content overflows, so a keyboard can scroll it.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/lib/scroll-focus.ts",
+     "type": "registry:lib",
+     "target": "@lib/meridian-slate/scroll-focus.ts"
+    }
+   ]
+  },
+  {
+   "name": "lint",
+   "type": "registry:item",
+   "title": "Meridian Slate lint",
+   "description": "One command that flags what Meridian Slate's rules forbid in your app, such as a raw color, a hue filling a region or a status dot, and says what to use instead.",
+   "author": "localhost:8080",
+   "categories": [
+    "lint"
+   ],
+   "devDependencies": [
+    "eslint@^9.39.5",
+    "@typescript-eslint/parser@^8.71.0"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/lint/eslint.config.mjs",
+     "type": "registry:file",
+     "target": "~/quartz.eslint.config.mjs"
+    },
+    {
+     "path": "registry/meridian-slate/lint/plugin.mjs",
+     "type": "registry:lib",
+     "target": "@lib/meridian-slate/lint/plugin.mjs"
+    },
+    {
+     "path": "registry/meridian-slate/lint/core.mjs",
+     "type": "registry:lib",
+     "target": "@lib/meridian-slate/lint/core.mjs"
+    },
+    {
+     "path": "registry/meridian-slate/lint/value-rules.mjs",
+     "type": "registry:lib",
+     "target": "@lib/meridian-slate/lint/value-rules.mjs"
+    },
+    {
+     "path": "registry/meridian-slate/lint/classes.json",
+     "type": "registry:lib",
+     "target": "@lib/meridian-slate/lint/classes.json"
+    }
+   ]
+  },
+  {
+   "name": "theme",
+   "type": "registry:item",
+   "title": "Meridian Slate theme",
+   "description": "Support file: tokens, scoped base styles and the Tailwind v4 theme mapping.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "tailwindcss@^4.3.3",
+    "@tailwindcss/postcss@^4.3.3"
+   ],
+   "registryDependencies": [
+    "http://localhost:8080/r/meridian-slate/skill.json",
+    "http://localhost:8080/r/meridian-slate/portal.json"
+   ],
+   "docs": "Meridian Slate is scoped: its styles apply only inside an element with the class meridian-slate.\n1. Import the theme once, in the root layout, as its own stylesheet (not an @import in globals.css): import '@/components/meridian-slate/styles.css'\n2. Put className=\"meridian-slate\" on the element that holds Meridian Slate UI, usually <body>. Meridian Slate's classes work on the elements inside it, in your own code too, not on that element itself.\n3. Wrap the app inside that element in <MeridianSlatePortalProvider> from '@/lib/meridian-slate/portal', so dialogs and menus keep the theme.\nDark mode: put data-theme=\"dark\" or the class dark on the meridian-slate element or any ancestor, such as <html>. The theme does not follow the system setting (prefers-color-scheme) on its own.\nComponents: npx shadcn@latest add http://localhost:8080/r/meridian-slate/<name>.json; http://localhost:8080/r/meridian-slate/registry.json lists them all.",
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/tokens.css",
+     "type": "registry:file",
+     "target": "@components/meridian-slate/tokens.css"
+    },
+    {
+     "path": "registry/meridian-slate/base.css",
+     "type": "registry:file",
+     "target": "@components/meridian-slate/base.css"
+    },
+    {
+     "path": "registry/meridian-slate/styles.css",
+     "type": "registry:file",
+     "target": "@components/meridian-slate/styles.css"
+    }
+   ]
+  },
+  {
+   "name": "skill",
+   "type": "registry:item",
+   "title": "Meridian Slate skill",
+   "description": "Support file: teaches your coding agent Meridian Slate's rules and components.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "http://localhost:8080/systems/meridian-slate.md",
+    "page": "http://localhost:8080/systems/meridian-slate"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-slate/SKILL.md",
+     "type": "registry:file",
+     "target": "~/.claude/skills/meridian-slate/SKILL.md"
+    },
+    {
+     "path": "registry/meridian-slate/.agents/SKILL.md",
+     "type": "registry:file",
+     "target": "~/.agents/skills/meridian-slate/SKILL.md"
+    }
+   ]
+  }
+ ]
+}

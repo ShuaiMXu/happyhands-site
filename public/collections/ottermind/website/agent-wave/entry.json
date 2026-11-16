@@ -1,0 +1,204 @@
+{
+ "slug": "agent-wave",
+ "sourceSlug": "agent-wave",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Agent Wave"
+ },
+ "title": "Agent Wave",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/25654104885d7441.webp",
+  "still": "https://cdn.ottermind.ai/public/e4314266c57209bf.webp",
+  "preview": "https://cdn.ottermind.ai/public/1ab4fd48452013de.mp4",
+  "full": "https://cdn.ottermind.ai/public/5e815d5a4644220d.mp4",
+  "aspectRatio": 1.3685,
+  "width": 1478,
+  "height": 1080,
+  "duration": 6.867
+ },
+ "seo": {
+  "title": "Agent Wave AI & SaaS Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an AI or SaaS product — a stats row, 0.28s transitions, cubic-bezier(0.16, 1, 0.3, 1) easing and looping video. Copy the prompt or open it staged in.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS landing page design",
+   "glass SaaS landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Agent Wave — AI & SaaS Landing Page Design",
+ "tagline": "Landing page reference for an AI or SaaS product, captured at 1478x1080 with the layout, timings and palette specified in the brief.",
+ "summary": "Landing page reference for an AI or SaaS product — a stats row, 0.28s transitions, cubic-bezier(0.16, 1, 0.3, 1) easing and looping video.",
+ "about": "Agent Wave is a SaaS landing page built from one written brief, and this page documents that brief. The palette is #000000 underneath and #FFFFFF for the type, set in Inter. Delivery is a single component, captured at 1478x1080 so the frame is fixed before any code is written. The page keeps its motion to 0.28s transitions, cubic-bezier(0.16, 1, 0.3, 1) and a looping video bed. Keep it open while you write: the 16,675-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "The nav is deliberately thin",
+   "body": "The bar is one row of text and one action, measured at a fixed 19px display size and 100vh sections so it reads as a strip rather than as a band. Labels are short enough to fit one line at 901px, and the active item is marked with weight rather than with a pill. If your own page has more sections, group them rather than widening the bar."
+  },
+  {
+   "title": "Full-frame video, no panel",
+   "body": "The clip runs 6.9s at 1478x1080 and loops without a visible cut, so it reads as surface rather than as footage. A poster frame at 1478x1080 holds the composition when autoplay is unavailable, so the layout never collapses."
+  },
+  {
+   "title": "The announcement pill",
+   "body": "One badge, one message: the pill sits above the headline in Inter at the smallest step, and nothing else competes for that slot. The pill sits at the smallest step in the brief, so it reads as a label rather than as a second title."
+  },
+  {
+   "title": "One row, no drawers",
+   "body": "Below 901px the links collapse instead of wrapping onto a second line."
+  }
+ ],
+ "motion": [
+  {
+   "title": "A loop, not a timeline",
+   "body": "Ambient movement is one 6.9s clip at 1478x1080, looping quietly behind the copy rather than reacting to the pointer. The loop is cropped to cover, which means the composition does not depend on a particular frame size. Shoot or export at 1478x1080 or wider."
+  },
+  {
+   "title": "Arrival order is the trick",
+   "body": "Entrance motion is spent on one element only (each line rises out of an overflow-hidden window), which is what keeps a busy first screen from feeling busy. Under reduced motion the element simply appears and the layout is unchanged."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#FFFFFF",
+    "name": "Tint",
+    "role": "Headline"
+   },
+   {
+    "hex": "#000000",
+    "name": "Near-black",
+    "role": "background"
+   },
+   {
+    "hex": "#9A9A9A",
+    "name": "Tint — darker",
+    "role": "Secondary"
+   },
+   {
+    "hex": "#D8D8D8",
+    "name": "Tint — darker",
+    "role": "lighter step"
+   }
+  ],
+  "glass": "The brief uses blur(16px) for the panels over a translucent fill, which is what makes them read as material rather than as a lighter rectangle.",
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "19px",
+    "role": "Interface"
+   },
+   {
+    "name": "Instrument Serif",
+    "weights": "19px",
+    "role": "Second face"
+   }
+  ],
+  "notes": [
+   "The layout shifts at min-width 901px, so the narrow composition is designed rather than inherited.",
+   "The navigation collapses at min-width 901px, so the bar has a designed narrow state.",
+   "Media is specified at 1478x1080 and a 6.9s loop, so a replacement should match the crop and the loop length."
+  ]
+ },
+ "customize": [
+  "Recut your footage to the 6.9s loop, then export at 1478x1080 so the crop the reference specifies survives.",
+  "Retime the entrance to taste. 0.28s with cubic-bezier(0.16, 1, 0.3, 1) is what the reference uses.",
+  "Set 0.28s to your own build speed and check that cubic-bezier(0.16, 1, 0.3, 1) still lands the copy before the media starts.",
+  "Retime the entrance to your own 0.28s, but keep cubic-bezier(0.16, 1, 0.3, 1) as the curve, because the easing is what reads as this design."
+ ],
+ "editorial": [
+  {
+   "title": "Reading Agent Wave as a spec",
+   "body": "The landing page is measured, not eyeballed. a fixed 19px display size and 100vh sections come from the brief, and the layout is arranged to those steps rather than nudged into place. Nothing in this landing page depends on a default."
+  },
+  {
+   "title": "Why this composition works for SaaS",
+   "body": "Count the decisions in this landing page and they trace back to one document: 16,675 characters naming the frame at 1478x1080, the type and the rhythm. It gives a SaaS reader the shortest honest route to the offer."
+  },
+  {
+   "title": "How the landing page reflows",
+   "body": "Wide, the composition is dense; narrow, the layout shifts at 901px, the section is held at 100vh and the motion has a reduced-motion branch. Both states are described in the brief. Both states are described in the same brief."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1478x1080 capture before you generate.",
+  "Copy a fixed 19px display size, 100vh sections and 7px corners into your own brief before you rewrite anything else.",
+  "Keep the measurements the brief spells out: a fixed 19px display size, 100vh sections and 7px corners.",
+  "Pin the reference measurements before you restyle anything: a fixed 19px display size, 100vh sections and 7px corners.",
+  "Check your build against the reference measurements: a fixed 19px display size, 100vh sections and 7px corners."
+ ],
+ "faq": [
+  {
+   "question": "How much of Agent Wave depends on a single component?",
+   "answer": "Agent Wave was built in a single component, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "How long is the prompt behind Agent Wave?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1478x1080, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Where did the Agent Wave design come from?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1478x1080."
+  }
+ ],
+ "audience": [
+  "Product managers who have to estimate the build will read a single component as the scope of the work.",
+  "Studio teams briefing a build and looking for a 901px breakpoint to react to.",
+  "Teams rebuilding a competitor's SaaS landing page who want a single component named before anyone commits to a framework."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Landing page"
+  },
+  {
+   "label": "Category",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Canvas",
+   "value": "1478x1080 · 1.37:1"
+  },
+  {
+   "label": "Clip length",
+   "value": "6.9s loop"
+  },
+  {
+   "label": "Input brief",
+   "value": "16,675 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type",
+   "value": "Inter, Instrument Serif · 19px"
+  },
+  {
+   "label": "Transitions",
+   "value": "0.28s transitions, cubic-bezier(0.16, 1, 0.3, 1) easing and a 6.9s media loop"
+  }
+ ],
+ "related": [
+  "zyphor-hero",
+  "ltx-video",
+  "luminex-hero",
+  "mindloop-landing",
+  "neon-logic",
+  "neuralyn-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 16675,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

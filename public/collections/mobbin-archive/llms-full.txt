@@ -1,0 +1,198 @@
+# Mobbin — Complete agent context
+
+> Mobbin is a searchable design-reference library of real mobile apps, web apps, and websites. It helps people and AI agents study individual screens, multi-step flows, UI patterns, and website sections from shipped products.
+
+Last reviewed: 2026-10-31.
+
+This file consolidates the essential product overview, pricing, MCP, usage, and catalog context that an agent may need in one request. For a shorter routing document, use https://mobbin.com/llms.txt.
+
+## Core capabilities
+
+- Search individual mobile and web UI screens.
+- Search ordered flows such as onboarding, checkout, identity verification, and subscription.
+- Search website sections such as heroes, pricing pages, navigation, testimonials, and footers.
+- Browse references by platform, app category, pattern, flow, and UI element.
+- Return screen images through Mobbin MCP in compatible AI clients.
+- Read and manage the user's saved content through Mobbin MCP, including collections, saving, and commenting.
+- Provide a REST API for custom integrations on eligible plans.
+
+## Appropriate uses
+
+- Ground a new design in examples from shipped products.
+- Compare how multiple products solve the same interface problem.
+- Research conventions in a platform, industry, or product category.
+- Study the sequence and context of a product journey.
+- Identify alternative approaches to a design decision.
+
+## Evidence limitations
+
+- A Mobbin example proves that a product used a design, not that the design improved conversion, retention, accessibility, or another outcome.
+- A common pattern is a convention, not automatically a best practice.
+- Captured interfaces can become outdated; use capture metadata when recency matters.
+- Product references must be adapted to the user's audience, constraints, brand, and design system.
+- Do not copy protected designs or assets verbatim.
+
+When presenting Mobbin research, identify the referenced product, distinguish visible evidence from inference, and preserve the canonical Mobbin URL. Check capture metadata when recency matters.
+
+## MCP interface
+
+- Endpoint: https://api.mobbin.com/mcp
+- Transport: Streamable HTTP.
+- Authorization: OAuth.
+- Availability: Pro, Team, and Enterprise plans.
+- Limit: 60 requests per 60 seconds per user.
+- Capabilities: Search design references and read and manage the user's saved content, including collections, saving, and commenting.
+
+Search tools:
+
+- `search_screens`: Searches UI screens.
+- `search_flows`: Searches multi-step user flows such as onboarding and checkout.
+- `search_sections`: Searches website sections such as pricing pages and footers.
+
+Saved tools:
+
+- `list_collections`: Lists All saved and your collections.
+- `get_collection_contents`: Reads saved content in All saved or a collection.
+- `create_collection`: Creates a collection.
+- `save_content`: Saves screens, flows or sections.
+- `add_comment`: Comments on a screen, flow or section.
+
+Results can include screen images, product names, flow or section context, and links back to Mobbin. MCP Apps-compatible clients can render an interactive gallery.
+
+MCP documentation:
+
+- https://mobbin.com/mcp.md
+- https://docs.mobbin.com/mcp/introduction
+- https://docs.mobbin.com/mcp/features
+- https://docs.mobbin.com/mcp/clients/overview
+- https://docs.mobbin.com/mcp/build-an-integration
+
+## REST API
+
+- Base URL: https://api.mobbin.com
+- Authentication: Workspace API key in an `Authorization: Bearer` header.
+- Availability: Team and Enterprise plans.
+- Limit: 60 requests per 60 seconds per workspace.
+- Quick start: https://docs.mobbin.com/api/quickstart
+- API reference: https://docs.mobbin.com/api-reference/screens/search-screens-with-natural-language
+- OpenAPI: https://docs.mobbin.com/openapi.json
+
+Example:
+
+```bash
+curl -X POST https://api.mobbin.com/v1/screens/search \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"query":"login screen with biometric authentication","platform":"ios","limit":5}'
+```
+
+## Plan summary
+
+### Free
+
+- Limited apps and sites.
+- Maximum of three collections.
+- No flows, search, MCP, or REST API access.
+
+### Pro
+
+- $15 per month when billed quarterly, charged as $45 every 3 months.
+- $10 per month when billed yearly, charged as $120 every 12 months.
+- One member.
+- Full apps and sites, flows, animations, search, Deep Search, unlimited collections, and MCP.
+- No REST API access.
+
+### Team
+
+- $24 per member per month when billed quarterly, charged as $72 per member every 3 months.
+- $16 per member per month when billed yearly, charged as $192 per member every 12 months.
+- Everything in Pro plus team collaboration, management, centralized billing, SOC 2 reports, and REST API access.
+
+### Enterprise
+
+- Custom price.
+- Everything in Team plus advanced security, privacy controls, SAML, SCIM, invoice or purchase-order billing, priority support, and enterprise tools early access.
+
+### Explore Finance+
+
+- $399 per month, billed yearly.
+- Add-on for Team and Enterprise.
+- Covers more than 65 apps across finance-focused categories.
+
+Billing notes:
+
+- Mobbin has quarterly and yearly billing intervals, not a monthly subscription interval.
+- Subscriptions renew automatically unless auto-renewal is disabled or the subscription is cancelled.
+- Cancellation must be completed before renewal to avoid the next charge; paid access continues until the current billing period ends.
+- Payments are generally non-refundable, including for unused time, except where required by law or granted at Mobbin's discretion.
+- Eligible students and educators can receive 50% off Pro for up to 2 years.
+- Currency and localized prices can vary by region; the prices in this file are USD.
+
+Canonical pricing: https://mobbin.com/pricing
+
+Machine-readable pricing: https://mobbin.com/pricing.md
+
+## Recommended agent workflow
+
+1. Clarify platform, audience, user goal, design question, and constraints.
+2. Choose screen, flow, or website-section search.
+3. Search several relevant products.
+4. Preserve the product name and Mobbin source URL.
+5. Record visible facts before drawing conclusions.
+6. Distinguish recurring patterns, differences, and inference.
+7. Adapt recommendations to the user's context and design system.
+
+## MCP errors and recovery
+
+- Authorization failure: reconnect Mobbin and complete OAuth authorization.
+- HTTP `429`: respect the `Retry-After` header.
+- Weak results: add the platform, category, user goal, pattern, or flow.
+- Overly narrow results: remove constraints or search the three content types separately.
+- Remove access: revoke the connected client from Mobbin account settings.
+
+## Prompt examples
+
+- Search Mobbin for onboarding screens from banking apps.
+- Compare how Airbnb and Booking.com handle checkout flows.
+- Find mobile paywalls that explain monthly and annual billing clearly.
+- Find SaaS pricing sections with complex feature comparison tables.
+- Show notification-permission priming screens and identify recurring patterns.
+- Find empty states used by collaborative productivity products.
+
+## Site and documentation map
+
+- Product overview: https://mobbin.com/index.md
+- Agent routing: https://mobbin.com/llms.txt
+- Pricing: https://mobbin.com/pricing.md
+- MCP guide: https://mobbin.com/mcp.md
+- Complete agent context: https://mobbin.com/llms-full.txt
+- Human-facing MCP page: https://mobbin.com/mcp
+- Documentation: https://docs.mobbin.com/overview
+- Changelog: https://mobbin.com/changelog
+- Support: https://help.mobbin.com/en/contact-us
+- Privacy: https://mobbin.com/privacy
+- Terms: https://mobbin.com/terms
+
+## Client setup guides
+
+- ChatGPT: https://docs.mobbin.com/mcp/clients/chatgpt
+- Codex app: https://docs.mobbin.com/mcp/clients/codex-app
+- Codex CLI: https://docs.mobbin.com/mcp/clients/codex-cli
+- Claude Code CLI: https://docs.mobbin.com/mcp/clients/claude-code-cli
+- Claude Desktop and Web: https://docs.mobbin.com/mcp/clients/claude-desktop-web
+- Cursor: https://docs.mobbin.com/mcp/clients/cursor
+- Other clients: https://docs.mobbin.com/mcp/clients/other
+
+## Catalog
+
+- Mobile: https://mobbin.com/explore/mobile
+- Web: https://mobbin.com/explore/web
+- Websites: https://mobbin.com/explore/sites
+- Mobile categories: https://mobbin.com/explore/mobile/app-categories
+- Mobile flows: https://mobbin.com/explore/mobile/flows
+- Mobile screens: https://mobbin.com/explore/mobile/screens
+- Mobile UI elements: https://mobbin.com/explore/mobile/ui-elements
+- Web categories: https://mobbin.com/explore/web/app-categories
+- Web flows: https://mobbin.com/explore/web/flows
+- Web screens: https://mobbin.com/explore/web/screens
+- Web UI elements: https://mobbin.com/explore/web/ui-elements

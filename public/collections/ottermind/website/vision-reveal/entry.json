@@ -1,0 +1,206 @@
+{
+ "slug": "vision-reveal",
+ "sourceSlug": "vision-reveal",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Vision Reveal"
+ },
+ "title": "Vision Reveal",
+ "industry": "creative",
+ "industryLabel": "Agencies & Studios",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/5cc1b129d7fadbcb.webp",
+  "still": "https://cdn.ottermind.ai/public/e0186f55859c304c.webp",
+  "preview": "https://cdn.ottermind.ai/public/10fc972c2bc9caff.mp4",
+  "full": "https://cdn.ottermind.ai/public/9900bce72f3c1e11.mp4",
+  "aspectRatio": 1.3519,
+  "width": 1460,
+  "height": 1080,
+  "duration": 5.78
+ },
+ "seo": {
+  "title": "Vision Reveal Agencies & Studios Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an agency or studio — max-width 447px and min-width 768px breakpoints, 0.3s transitions, a dark stage and Inter. Copy the prompt or open it staged in.",
+  "keywords": [
+   "agency website design",
+   "agency hero section design",
+   "glass agency landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Vision Reveal — Agencies & Studios Hero Section Design",
+ "tagline": "“I build compelling visual stories & motion that make ideas shine” — the whole hero section is composed around that line, down to the animation timings.",
+ "summary": "Hero section reference for an agency or studio — max-width 447px and min-width 768px breakpoints, 0.3s transitions, a dark stage and Inter.",
+ "about": "Vision Reveal keeps its decision trail: the brief that produced this hero section runs 16,723 characters. It leads with “I build compelling visual stories & motion that make ideas shine” and gives that line the frame rather than shrinking it into a card. The palette is white #E4E4E4 underneath, black #111111 for the type and teal #75C5DE carrying the accents, set in Inter. The entry names the stack that produced the page (Framer Motion) rather than hiding it. The motion budget is 0.3s transitions, cubic-bezier(0.96,-0.02,0.38,1.01) and a looping video bed. Keep it open while you write: the 16,723-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "The bar shares the page grid",
+   "body": "Links sit on one line at a single size, and the #75C5DE action closes the row on the right so the eye finishes where the navigation ends. Labels are short enough to fit one line at 447px, and the active item is marked with weight rather than with a pill."
+  },
+  {
+   "title": "The loop is the backdrop",
+   "body": "The composition is built on top of the 1460x1080 clip rather than beside it, so the media never gets a panel or a border. A poster frame at 1460x1080 holds the composition when autoplay is unavailable, so the layout never collapses."
+  },
+  {
+   "title": "Tracking tightens as it grows",
+   "body": "With Inter doing the work, the sizes step down hard from the headline to the supporting copy and letter-spacing tightens as the size grows, so the hierarchy is carried by type rather than colour. Tracking tightens as the size grows, which is why the display line holds together across 14–42px."
+  },
+  {
+   "title": "Links collapse at one width",
+   "body": "Test the bar over your own media before giving it a background. The reference was captured at 1460x1080."
+  }
+ ],
+ "motion": [
+  {
+   "title": "The scene is the visual",
+   "body": "A WebGL canvas is the page's only spectacle, and the interface is arranged not to compete with it. Because it is a render rather than a still, the focal element holds up at any size."
+  },
+  {
+   "title": "Motion can be switched off",
+   "body": "The motion layer has an off switch. Under prefers-reduced-motion, the entrance and the loop is dropped and everything else stays where it is. Interaction feedback still works under reduced motion; only the entrances are dropped. The layout has to survive without the animation."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#F4F1E8",
+    "name": "White",
+    "role": "lightest"
+   },
+   {
+    "hex": "#111111",
+    "name": "Near-black",
+    "role": "Headline"
+   },
+   {
+    "hex": "#75C5DE",
+    "name": "Teal",
+    "role": "accent"
+   },
+   {
+    "hex": "#E4E4E4",
+    "name": "White — darker",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "14–42px",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "The display line is Inter at the top of a 14–42px scale, with the interface text on the same face.",
+   "The navigation collapses at max-width 447px and min-width 768px, so the bar has a designed narrow state.",
+   "The clip is one asset at 1460x1080 and a 5.8s loop, so the composition has a single media dependency."
+  ]
+ },
+ "customize": [
+  "Check #75C5DE against the copy size in Inter before you swap either, because the accent only reads on a large line.",
+  "Retune #75C5DE for your brand only after the Inter copy is final, and re-check the contrast on the darkest band.",
+  "Swap the clip for your own. Export at 1460x1080 or wider, keep it muted, and make the 5.8s loop seamless so the cut is invisible.",
+  "Replace “I build compelling visual stories & motion that make ideas shine” with your own line and keep the same number of words, because the brief sizes the type for that rhythm."
+ ],
+ "editorial": [
+  {
+   "title": "Why the agency brief holds",
+   "body": "A tint layer over the media would have been the easy fix. The brief leaves it off. The media is a 5.8s 1460x1080 loop. The copy still holds because type from 14px to 42px and 100vh sections keep the frame calm. Vision Reveal states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "The order behind the hero section",
+   "body": "Where a marketing page stacks proof below the fold and hopes, this hero section puts navigation, the headline, the stats row and the feature list in front of the reader and holds the rest back. A agency reader gets the offer before the options."
+  },
+  {
+   "title": "Making the hero section yours",
+   "body": "Set the new copy at the display size the brief names (type from 14px to 42px and 100vh sections), and the rest of the scale follows without a redesign. Keep the media crop; it is doing as much work as the type."
+  }
+ ],
+ "steps": [
+  "Load the prompt in Studio and check that it names Framer Motion before you press send.",
+  "Drop your product name in, then replace #75C5DE with your own accent and re-check the contrast.",
+  "Set the brand first: product name, the #75C5DE accent and a headline that replaces the reference's.",
+  "Type the product name and the #75C5DE accent before you touch the layout.",
+  "Set your brand first: product name, the #75C5DE accent and the headline that replaces the reference's."
+ ],
+ "faq": [
+  {
+   "question": "How long is the prompt behind Vision Reveal?",
+   "answer": "The captured brief runs 16,723 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Can I rebuild the Vision Reveal hero section in a different stack?",
+   "answer": "The reference happens to be built in Framer Motion. Nothing in the layout depends on that choice: the spacing, type and motion values transfer to whatever you already use."
+  },
+  {
+   "question": "How do the 0.3s transitions in Vision Reveal behave?",
+   "answer": "The motion is specified at the same level of detail as the layout: state changes settle in the 0.3s range using cubic-bezier(0.96,-0.02,0.38,1.01). Port the composition first and the timings second, because they are easier to match once the layout holds."
+  }
+ ],
+ "audience": [
+  "If you brief a model rather than a designer, start from the hero section and let the prompt hold a 447px breakpoint.",
+  "Growth teams reskinning an agency or studio hero section who want the 1460x1080 frame kept while the offer copy changes.",
+  "This hero section serves founders who need one screen of proof that agency copy can carry 5.8s of looping video."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Hero section"
+  },
+  {
+   "label": "Field",
+   "value": "Agencies & Studios"
+  },
+  {
+   "label": "Format",
+   "value": "1460x1080 · 1.35:1"
+  },
+  {
+   "label": "Loop length",
+   "value": "5.8s loop"
+  },
+  {
+   "label": "Source text",
+   "value": "16,723 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent tone",
+   "value": "teal #75C5DE"
+  },
+  {
+   "label": "Fonts",
+   "value": "Inter · 14–42px"
+  },
+  {
+   "label": "Reference stack",
+   "value": "Framer Motion"
+  },
+  {
+   "label": "Motion",
+   "value": "0.3s transitions, cubic-bezier(0.96,-0.02,0.38,1.01) easing and a 5.8s media loop"
+  }
+ ],
+ "related": [
+  "vortex-studio-hero",
+  "3d-character-studio",
+  "aethera-hero",
+  "blog-showcase",
+  "bold-studio",
+  "creative-portfolio"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 16723,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

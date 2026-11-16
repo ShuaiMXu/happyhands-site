@@ -2,3 +2,7 @@
 vendor/cult-ui/upstream/** -text
 public/design-how/** -text
 public/r/** -text
+
+# Supplied reference archives preserve original bytes; catalog artifacts are generated.
+public/collections/** -text linguist-vendored
+public/resources/** -text linguist-generated

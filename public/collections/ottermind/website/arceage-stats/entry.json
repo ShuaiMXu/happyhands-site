@@ -1,0 +1,203 @@
+{
+ "slug": "arceage-stats",
+ "sourceSlug": "arceage-stats",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Arceage Stats"
+ },
+ "title": "Arceage Stats",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "features",
+ "sectionLabel": "Features section",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/7205acab8df44371.webp",
+  "still": "https://cdn.ottermind.ai/public/2f574728a75b6cbf.webp",
+  "preview": "https://cdn.ottermind.ai/public/2f574728a75b6cbf.webp",
+  "full": "https://cdn.ottermind.ai/public/2f574728a75b6cbf.webp",
+  "aspectRatio": 1.3617,
+  "width": 640,
+  "height": 470,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Arceage Stats AI & SaaS Features Section Design & Prompt | Ottermind",
+  "description": "Features section reference for an AI or SaaS product — Instrument Serif, React and Tailwind CSS, a 640x470 frame and #101010 base. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS features section design",
+   "minimal SaaS landing page",
+   "features section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Arceage Stats — AI & SaaS Features Section Design",
+ "tagline": "Features section reference built around “Maximize Your Yield”, with the layout, timings and palette written down in the brief.",
+ "summary": "Features section reference for an AI or SaaS product — Instrument Serif, React and Tailwind CSS, a 640x470 frame and #101010 base.",
+ "about": "Arceage Stats was captured at 640x470 and kept as a specification rather than as a gallery image. The page's own headline reads “Maximize Your Yield”, and the composition is built around those exact words. Colour is limited to black #101010 underneath, set in Instrument Serif. The reference is built with React and Tailwind CSS, and the layout decisions are stated independently of it. Treat it as the brief for an AI or SaaS product features section that has to hold up under a rebuild, not just a first look.",
+ "layout": [
+  {
+   "title": "The spacing steps are quoted",
+   "body": "Type and spacing are drawn from one list here: a fixed 56px display size and 120px spacing steps. The type and the layout share the same steps, so nothing drifts when one of them is substituted."
+  },
+  {
+   "title": "Figures as typography",
+   "body": "The figures are set as type rather than in a card: Instrument Serif at the display size with labels one step below. The figures sit on the same baseline as the copy around them, so the row reads as one object. Keep the figures to one line."
+  },
+  {
+   "title": "Structure in one screen",
+   "body": "The features section is built so the copy lands before anything else: the type carries the hierarchy, the 640x470 frame holds the composition, and the supporting values stay quiet. The page is one composition at 640x470, which is why it holds together when the copy changes."
+  },
+  {
+   "title": "One scale for type and frame",
+   "body": "Spacing is quoted the same way (a fixed 56px display size and 120px spacing steps), not as a scale that grows on its own."
+  }
+ ],
+ "motion": [
+  {
+   "title": "The entrance is the signature",
+   "body": "A typewriter pass is the whole gesture: nothing else on the page performs. The finished frame is the same composition the brief describes as a still, so the motion is additive."
+  },
+  {
+   "title": "Motion that stays out of the way",
+   "body": "This one is delivered as a still composition at 640x470, so the hierarchy has to work without motion, and it does. Motion is treated as feedback rather than as decoration. Stillness is a valid choice."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#0D0C0D",
+    "name": "Near-black",
+    "role": "darkest"
+   },
+   {
+    "hex": "#686D50",
+    "name": "Muted lime",
+    "role": "lightest"
+   },
+   {
+    "hex": "#101010",
+    "name": "Near-black — lighter",
+    "role": "composition"
+   },
+   {
+    "hex": "#110F12",
+    "name": "Near-black — lighter",
+    "role": "panel edges"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Instrument Serif",
+    "weights": "56px",
+    "role": "Title face"
+   },
+   {
+    "name": "Barlow",
+    "weights": "56px",
+    "role": "Copy face"
+   }
+  ],
+  "notes": [
+   "Font roles are assigned rather than mixed here, and 56px is the range the whole scale works in.",
+   "The type is set in Instrument Serif on a 56px scale, and the spacing follows the same steps.",
+   "The display line is Instrument Serif at the top of a 56px scale, with the interface text on the same face."
+  ]
+ },
+ "customize": [
+  "Swap in your own headline where “Maximize Your Yield” sits and keep the line breaks, because the entrance animates per line.",
+  "Read the brief value by value against the 640x470 capture before you edit anything; the numbers are the part that is easiest to lose.",
+  "Keep the supporting line as short as the reference's and measure the pair against the 640x470 crop.",
+  "Replace “Maximize Your Yield” with your own line and keep the same number of words, because the brief sizes the type for that rhythm."
+ ],
+ "editorial": [
+  {
+   "title": "What moves in Arceage Stats",
+   "body": "Copy the pattern rather than the values: keep a typewriter pass and let your own brand set the durations. Nothing animates for its own sake in this features section."
+  },
+  {
+   "title": "Making the features section yours",
+   "body": "Where a theme hands you components, this brief hands you a composition: a fixed 56px display size and 120px spacing steps and a media frame, with the subject left to you. Keep the frame and the scale; the subject is the part that should change."
+  },
+  {
+   "title": "The order behind the features section",
+   "body": "Attention is routed rather than scattered. “Maximize Your Yield” is doing that work from the first frame. The eye lands on the display line first, then the supporting copy, then the action. Proof, where it appears, stays a strip or a row rather than a wall of testimonials. That sequence is the design. A SaaS reader gets the offer before the options."
+  }
+ ],
+ "steps": [
+  "Check your build against the reference measurements: a fixed 56px display size and 120px spacing steps.",
+  "Keep the measurements the brief spells out: a fixed 56px display size and 120px spacing steps.",
+  "Pin the reference measurements before you restyle anything: a fixed 56px display size and 120px spacing steps.",
+  "Copy a fixed 56px display size and 120px spacing steps into your own brief before you rewrite anything else.",
+  "Port the markup to React and Tailwind CSS and leave the spacing values as they are."
+ ],
+ "faq": [
+  {
+   "question": "What does the brief behind Arceage Stats actually contain?",
+   "answer": "The captured brief runs 7,826 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Do I need React and Tailwind CSS to rebuild Arceage Stats?",
+   "answer": "Arceage Stats was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "How do the sub-second transitions in Arceage Stats behave?",
+   "answer": "Entrances and state changes are in the sub-second range. They are driven by state changes rather than a scroll library, and they never hold up the copy. The reference was captured at 640x470."
+  }
+ ],
+ "audience": [
+  "Agencies pitching an AI or SaaS product features section who want a fixed 56px display size and 120px spacing steps quoted in the deck so the estimate still holds after the kickoff.",
+  "People who brief a model on a features section will use the 7,826-character prompt as the starting point.",
+  "Made for content leads rewriting a features section whose headline has to stay as long as Arceage Stats's."
+ ],
+ "specs": [
+  {
+   "label": "Page part",
+   "value": "Features section"
+  },
+  {
+   "label": "Vertical",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Viewport",
+   "value": "640x470 · 1.36:1"
+  },
+  {
+   "label": "Input brief",
+   "value": "7,826 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type",
+   "value": "Instrument Serif, Barlow · 56px"
+  },
+  {
+   "label": "Built with",
+   "value": "Tailwind CSS, React, Vite"
+  },
+  {
+   "label": "Transitions",
+   "value": "state changes only"
+  }
+ ],
+ "related": [
+  "intelligence-layer",
+  "intelligent-operations",
+  "intelligent-performance",
+  "intelligentx",
+  "junglemind",
+  "kresna-footer"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 7826,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

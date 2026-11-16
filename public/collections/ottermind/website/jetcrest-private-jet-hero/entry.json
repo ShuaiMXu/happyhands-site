@@ -1,0 +1,207 @@
+{
+ "slug": "jetcrest-private-jet-hero",
+ "sourceSlug": "lp-076-6a07487cbf2024a645b290df",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "Gulfselite"
+ },
+ "title": "Gulfselite",
+ "industry": "travel",
+ "industryLabel": "Travel",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/4c8674b9bca78e5a.webp",
+  "still": "https://cdn.ottermind.ai/public/32b32283f3aaa74e.webp",
+  "preview": "https://cdn.ottermind.ai/public/b00382792d88340c.mp4",
+  "full": "https://cdn.ottermind.ai/public/09a66e32128be008.mp4",
+  "aspectRatio": 1.326,
+  "width": 1920,
+  "height": 1448,
+  "duration": 9.917
+ },
+ "seo": {
+  "title": "Gulfselite Travel Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for a travel brand — a stats row, Tailwind and vanilla JavaScript, a word-by-word headline and Inter. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "travel website design",
+   "travel hero section design",
+   "video-backed travel landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Gulfselite — Travel Hero Section Design",
+ "tagline": "Hero section reference for a travel brand, captured at 1920x1448 with the layout, timings and palette specified in the brief.",
+ "summary": "Hero section reference for a travel brand — a stats row, Tailwind and vanilla JavaScript, a word-by-word headline and Inter.",
+ "about": "Gulfselite gives a travel brand a finished first screen and the numbers that produced it. Colour is limited to muted orange #69574B underneath and white #FEFEFE for the type, set in Inter. The build is Tailwind and vanilla JavaScript; every measurement in it is written down, which is what makes it reusable. Motion is 120ms transitions and a looping video bed, kept quiet enough that the copy still leads. This reference is for a travel brand that wants the first screen settled before the build starts.",
+ "layout": [
+  {
+   "title": "The bar shares the page grid",
+   "body": "The bar is one row of text and one action, measured at 20px spacing steps and 120ms transitions so it reads as a strip rather than as a band. The bar sits over the 1920x1448 composition without a background of its own, so the media runs edge to edge underneath it. Keep the row to one line."
+  },
+  {
+   "title": "The announcement pill",
+   "body": "One badge, one message: the pill sits above the headline in Inter at the smallest step, and nothing else competes for that slot. It is positioned so the headline keeps the centre of the composition. Remove it when the news is old."
+  },
+  {
+   "title": "Top row, one action",
+   "body": "Focus and hover states are specified for each link rather than inherited from the browser. Copy this pattern when you need navigation that survives a loud first screen."
+  },
+  {
+   "title": "The sizes are in the brief, not in a scale",
+   "body": "The brief names the numbers: 20px spacing steps and 120ms transitions. That is why the composition holds together, because there is no invented spacing step between the type and the frame. The smallest and largest values in that list set the range the composition works in."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Durations from the brief",
+   "body": "The animation budget is small and explicit: 120ms, applied to state changes rather than to entrances. Every state change names a value, so the browser default is never used."
+  },
+  {
+   "title": "The loop does the ambient work",
+   "body": "Ambient movement is one 9.9s clip at 1920x1448, looping quietly behind the copy rather than reacting to the pointer. Nothing else on the page animates continuously, so the media is the only thing asking for attention."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#463E39",
+    "name": "Deep orange",
+    "role": "darkest"
+   },
+   {
+    "hex": "#FEFEFE",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#69574B",
+    "name": "Muted orange",
+    "role": "composition"
+   },
+   {
+    "hex": "#9D8C7C",
+    "name": "Muted orange — lighter",
+    "role": "surface"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text"
+   },
+   {
+    "name": "Playfair Display",
+    "weights": "Weight not fixed in the brief",
+    "role": "Accent type"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 120ms, which is the value to keep when the palette changes.",
+   "Transitions are specified at 120ms, short enough that the page never feels like it is waiting for an animation.",
+   "Nothing sits between the type and the 1920x1448 clip, so a replacement has to work under the copy directly."
+  ]
+ },
+ "customize": [
+  "Replace the video with a still at 1920x1448 if the 9.9s loop is too heavy for the page you are shipping.",
+  "Keep 1920x1448 for the media and re-crop your own asset into it rather than resizing the frame.",
+  "Set 120ms to your own build speed and check that a standard ease-out still lands the copy before the media starts.",
+  "Recut your footage to the 9.9s loop, then export at 1920x1448 so the crop the reference specifies survives."
+ ],
+ "editorial": [
+  {
+   "title": "The timing behind the hero section",
+   "body": "Count the animated elements and the list is short: 120ms transitions, a 9.9s media loop and a word-by-word headline. Nothing animates for its own sake in this hero section."
+  },
+  {
+   "title": "Making the hero section yours",
+   "body": "Set the new copy at the display size the brief names (20px spacing steps and 120ms transitions), and the rest of the scale follows without a redesign. Your accent has to survive the same contrast test as the reference accent."
+  },
+  {
+   "title": "How the hero section reflows",
+   "body": "The desktop composition is solved against 1920x1448, and the narrow layout is designed rather than inherited: the scale is fluid rather than stepped. Motion has a reduced-motion branch, and the media carries a poster frame so the page still communicates when autoplay is unavailable. The hierarchy is what survives the reflow."
+  }
+ ],
+ "steps": [
+  "Load the prompt in Studio and check that it names Tailwind and vanilla JavaScript before you press send.",
+  "Stage the prompt in Studio and read it once against the 1920x1448 capture before you generate.",
+  "Check your build against the reference measurements: 20px spacing steps and 120ms transitions.",
+  "Copy 20px spacing steps and 120ms transitions into your own brief before you rewrite anything else.",
+  "Keep the measurements the brief spells out: 20px spacing steps and 120ms transitions."
+ ],
+ "faq": [
+  {
+   "question": "Can I rebuild the Gulfselite hero section in a different stack?",
+   "answer": "No. The brief is a specification, not a dependency list. It was written for Tailwind and vanilla JavaScript, but the same composition rebuilds in whatever you already use. The stack is named so you know how the reference was made."
+  },
+  {
+   "question": "How is this Gulfselite entry organised?",
+   "answer": "Everything quoted on the page comes from the captured 2,498-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "What does the brief behind Gulfselite actually contain?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1920x1448, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  }
+ ],
+ "audience": [
+  "Front-end developers who have to ship this normally will use Tailwind and vanilla JavaScript as the reference implementation.",
+  "The hero section is aimed at teams that already know Tailwind and vanilla JavaScript and only need a 1920x1448 frame written down.",
+  "Front-end developers rebuilding this in Tailwind and vanilla JavaScript who want the transitions specified rather than guessed."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Hero section"
+  },
+  {
+   "label": "Category",
+   "value": "Travel"
+  },
+  {
+   "label": "Format",
+   "value": "1920x1448 · 1.33:1"
+  },
+  {
+   "label": "Clip length",
+   "value": "9.9s loop"
+  },
+  {
+   "label": "Prompt",
+   "value": "2,498 characters"
+  },
+  {
+   "label": "Captured",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Faces",
+   "value": "Inter, Playfair Display"
+  },
+  {
+   "label": "Tools",
+   "value": "Tailwind CSS, vanilla JS"
+  },
+  {
+   "label": "Motion spec",
+   "value": "120ms transitions and a 9.9s media loop"
+  }
+ ],
+ "related": [
+  "place-saver",
+  "skyelite-hero",
+  "travel-journal",
+  "wanderful-hero",
+  "aetheris-voyage-hero",
+  "ai-trip-planner"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 2498,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

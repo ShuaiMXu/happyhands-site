@@ -1,0 +1,202 @@
+{
+ "slug": "adventra-hero",
+ "sourceSlug": "lp-037-6a05316611f6ab71b2b946ce",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "Adventra"
+ },
+ "title": "Adventra",
+ "industry": "creative",
+ "industryLabel": "Agencies & Studios",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/93d3aab31a3555ea.webp",
+  "still": "https://cdn.ottermind.ai/public/53eb5e2153fab083.webp",
+  "preview": "https://cdn.ottermind.ai/public/2dca796f4129f833.mp4",
+  "full": "https://cdn.ottermind.ai/public/5294dbc6f2686f75.mp4",
+  "aspectRatio": 1.3276,
+  "width": 1856,
+  "height": 1398,
+  "duration": 6.95
+ },
+ "seo": {
+  "title": "Adventra Agencies & Studios Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an agency or studio — one self-contained HTML file, a word-by-word headline, looping video and #303230 base. Copy the prompt or open it staged in.",
+  "keywords": [
+   "agency website design",
+   "agency hero section design",
+   "video-backed agency landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Adventra — Agencies & Studios Hero Section Design",
+ "tagline": "“Home, Our Story, FAQ, Policies” — the whole hero section is composed around that line, down to the animation timings.",
+ "summary": "Hero section reference for an agency or studio — one self-contained HTML file, a word-by-word headline, looping video and #303230 base.",
+ "about": "Adventra is the hero section reference for an agency or studio, and the brief behind it is a full build spec rather than a mood board. The headline reads “Home, Our Story, FAQ, Policies”, and the rest of the hero section is arranged around it. The palette runs black #303230 underneath and gray #CAC7BD for the type, and the type is Inter. The build is one self-contained HTML file; every measurement in it is written down, which is what makes it reusable. The brief spends its motion budget on a looping video bed. It is the right reference for an agency or studio hero section that has to look deliberate on the first screen.",
+ "layout": [
+  {
+   "title": "Links before the action",
+   "body": "A slim bar sits over the hero section with the wordmark on the left and the links set in Inter, so the composition reads as content first and chrome second. A mobile overlay takes over below the tablet breakpoint. The bar sits over the 1856x1398 composition without a background of its own, so the media runs edge to edge underneath it. Keep the link count to four or five; the row is sized for that."
+  },
+  {
+   "title": "Every measurement is written down",
+   "body": "The layout is solved against fixed values (a fixed 60px display size, 100vh sections and 16px spacing steps), which is what keeps the first screen composed at any width. The smallest and largest values in that list set the range the composition works in."
+  },
+  {
+   "title": "One row, no drawers",
+   "body": "The wordmark is treated as type rather than as a logo lockup, which keeps the top row on one baseline. Copy this pattern when you need navigation that survives a loud first screen."
+  },
+  {
+   "title": "Measured, not eyeballed",
+   "body": "Spacing is quoted the same way (a fixed 60px display size, 100vh sections and 16px spacing steps), not as a scale that grows on its own."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Ambient motion without a scroll library",
+   "body": "The background clip runs 7s at 1856x1398 on an endless loop, muted and inline, so the page keeps moving while the reader's attention is on the copy. No scroll library is required, because the only ambient motion is the media itself. A poster frame stands in when autoplay is blocked, so the motion is additive rather than required."
+  },
+  {
+   "title": "Interaction is on the controls",
+   "body": "Every interactive element does one thing (hover states on the buttons and links rather than on every card), which is what keeps the states predictable. A control that looks interactive behaves interactively, so there are no false affordances. Fewer states, fully specified."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#2F2215",
+    "name": "Deep orange",
+    "role": "darkest"
+   },
+   {
+    "hex": "#CAC7BD",
+    "name": "Gray",
+    "role": "Headline"
+   },
+   {
+    "hex": "#51381A",
+    "name": "Orange",
+    "role": "saturated"
+   },
+   {
+    "hex": "#303230",
+    "name": "Black",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "300 / 400 / 500 / 600 / 700",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Font roles are assigned rather than mixed here, and 60px is the range the whole scale works in.",
+   "Nothing sits between the type and the 1856x1398 clip, so a replacement has to work under the copy directly.",
+   "The clip is one asset at 1856x1398 and a 7s loop, so the composition has a single media dependency."
+  ]
+ },
+ "customize": [
+  "Replace “Home, Our Story, FAQ, Policies” with your own line and keep the same number of words, because the brief sizes the type for that rhythm.",
+  "Swap the clip for your own footage at 1856x1398 or wider, keep it muted, and match the 7s loop point.",
+  "Swap the clip for your own. Export at 1856x1398 or wider, keep it muted, and make the 7s loop seamless so the cut is invisible.",
+  "Swap in your own headline where “Home, Our Story, FAQ, Policies” sits and keep the line breaks, because the entrance animates per line."
+ ],
+ "editorial": [
+  {
+   "title": "What moves in Adventra",
+   "body": "Motion here is a set of decisions, not a library: a word-by-word headline, a 7s media loop and hover and press states, and nothing animates on scroll. The result is a page that feels authored: short durations, one entrance, and state changes that confirm an action rather than decorate it. Nothing animates for its own sake in this hero section."
+  },
+  {
+   "title": "What to change first in Adventra",
+   "body": "Re-skinning the palette first is the usual mistake. It changes the mood without touching the composition, and a fixed 60px display size and 100vh sections still carry the layout; do the copy and media first and the palette last. Rewrite the copy and the media before you re-colour anything."
+  },
+  {
+   "title": "How Adventra sequences the first read",
+   "body": "Nothing here competes with the first decision. “Home, Our Story, FAQ, Policies” is doing that work from the first frame. The supporting material waits below the fold, and navigation and the background clip carry the top of the page alone. A agency reader gets the offer before the options."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1856x1398 capture before you generate.",
+  "Copy a fixed 60px display size, 100vh sections and 16px spacing steps into your own brief before you rewrite anything else.",
+  "Pin the reference measurements before you restyle anything: a fixed 60px display size, 100vh sections and 16px spacing steps.",
+  "Keep the measurements the brief spells out: a fixed 60px display size, 100vh sections and 16px spacing steps.",
+  "Check your build against the reference measurements: a fixed 60px display size, 100vh sections and 16px spacing steps."
+ ],
+ "faq": [
+  {
+   "question": "Can I rebuild the Adventra hero section in a different stack?",
+   "answer": "Adventra was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Why is Adventra's prompt not printed here?",
+   "answer": "Everything quoted on the page comes from the captured 3,134-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "What do I get when I copy the Adventra brief?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1856x1398, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  }
+ ],
+ "audience": [
+  "Engineers who need the hero section to survive a slow connection will use 1856x1398 and the type scale as the weight budget.",
+  "Front-end developers who have to ship this normally will use one self-contained HTML file as the reference implementation.",
+  "Front-end developers rebuilding this in one self-contained HTML file who want the transitions specified rather than guessed."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Hero section"
+  },
+  {
+   "label": "Category",
+   "value": "Agencies & Studios"
+  },
+  {
+   "label": "Canvas size",
+   "value": "1856x1398 · 1.33:1"
+  },
+  {
+   "label": "Clip length",
+   "value": "7s loop"
+  },
+  {
+   "label": "Source text",
+   "value": "3,134 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Faces",
+   "value": "Inter · 60px"
+  },
+  {
+   "label": "Stack",
+   "value": "Tailwind CSS, vanilla JS, single HTML file"
+  },
+  {
+   "label": "Motion spec",
+   "value": "a 7s media loop"
+  }
+ ],
+ "related": [
+  "blog-showcase",
+  "bold-studio",
+  "creative-portfolio",
+  "creative-studio",
+  "digital-director",
+  "digital-epoch-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 3134,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

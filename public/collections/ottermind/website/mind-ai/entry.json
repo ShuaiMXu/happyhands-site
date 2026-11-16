@@ -1,0 +1,206 @@
+{
+ "slug": "mind-ai",
+ "sourceSlug": "mind-ai",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Mind AI"
+ },
+ "title": "Mind AI",
+ "industry": "health",
+ "industryLabel": "Health",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/4ba700b1c0ac4efe.webp",
+  "still": "https://cdn.ottermind.ai/public/0a4f01e5ea89f88e.webp",
+  "preview": "https://cdn.ottermind.ai/public/b77d82a8244cea51.mp4",
+  "full": "https://cdn.ottermind.ai/public/c8198a408d4a6e27.mp4",
+  "aspectRatio": 1.3579,
+  "width": 1920,
+  "height": 1414,
+  "duration": 5.025
+ },
+ "seo": {
+  "title": "Mind AI Health Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for a health or wellbeing product — looping video, max-width 520px and max-width 899px breakpoints, fluid type and a stats row. Copy the prompt or open it.",
+  "keywords": [
+   "health website design",
+   "health landing page design",
+   "glass health landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Mind AI — Health Landing Page Design",
+ "tagline": "Landing page reference built on #F6EAF2 and indigo #A069C9, set in Questrial and measured against type from 14px to 28px.",
+ "summary": "Landing page reference for a health or wellbeing product — looping video, max-width 520px and max-width 899px breakpoints, fluid type and a stats row.",
+ "about": "Mind AI is the landing page reference for a health or wellbeing product, and the brief behind it is a full build spec rather than a mood board. The palette is #F6EAF2 underneath, #000000 for the type and indigo #A069C9 carrying the accents, set in Questrial. Delivery is one self-contained HTML file, captured at 1920x1414 so the frame is fixed before any code is written. The page keeps its motion to 4.042s transitions, cubic-bezier(.16,1.3,1) and a looping video bed. Treat it as the brief for a health or wellbeing product landing page that has to hold up under a rebuild, not just a first look.",
+ "layout": [
+  {
+   "title": "Top row, one action",
+   "body": "Links sit on one line at a single size, and the #A069C9 action closes the row on the right so the eye finishes where the navigation ends. Labels are short enough to fit one line at 520px, and the active item is marked with weight rather than with a pill."
+  },
+  {
+   "title": "Media without an overlay",
+   "body": "The 1920x1414 video runs 5s on a loop behind the copy, muted and inline, with no tint layer between the two. The loop is short enough (5s) that the eye reads it as texture rather than as a timeline. Export at 1920x1414 or wider to keep the crop honest."
+  },
+  {
+   "title": "The scale is clamped, not stepped",
+   "body": "Type is sized with a clamp between 14px and 28px rather than fixed steps, so the display line stays proportionate between breakpoints instead of jumping. The mobile menu is part of the same brief, so the collapsed state is designed too."
+  },
+  {
+   "title": "A list, not a card wall",
+   "body": "Features are set as a list in Questrial rather than a grid of cards, which keeps the page dense and quick to scan on a narrow screen. Items share one size and one marker, which keeps a long list scannable. Keep markers consistent."
+  }
+ ],
+ "motion": [
+  {
+   "title": "The loop does the ambient work",
+   "body": "Ambient movement is one 5s clip at 1920x1414, looping quietly behind the copy rather than reacting to the pointer. A poster frame stands in when autoplay is blocked, so the motion is additive rather than required."
+  },
+  {
+   "title": "A live scene on the first screen",
+   "body": "Depth comes from the render rather than from illustration: a WebGL canvas. The render is the last element to be ready, so the page has to work in the state before it loads. The reference was captured at 1920x1414."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#F6EAF2",
+    "name": "Neutral",
+    "role": "background"
+   },
+   {
+    "hex": "#000000",
+    "name": "Near-black",
+    "role": "Headline"
+   },
+   {
+    "hex": "#E8D8DC",
+    "name": "White",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#A069C9",
+    "name": "Indigo",
+    "role": "accent"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Questrial",
+    "weights": "14–28px",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "The display line is Questrial at the top of a 14–28px scale, with the interface text on the same face.",
+   "The type is set in Questrial on a 14–28px scale, and the spacing follows the same steps.",
+   "The timing budget is state feedback rather than page choreography (4.042s), so a slower rebuild reads as a different design."
+  ]
+ },
+ "customize": [
+  "Replace #A069C9 last, after the copy is final, and test it against #F6EAF2 at the smallest text size on the page.",
+  "Move #A069C9 to your own hue and leave #F6EAF2 where it is; the distance between them is doing the hierarchy work.",
+  "Load your own face beside Questrial and compare the headline at full width before committing to the swap.",
+  "Swap the clip for your own footage at 1920x1414 or wider, keep it muted, and match the 5s loop point."
+ ],
+ "editorial": [
+  {
+   "title": "How the landing page reflows",
+   "body": "Where a template collapses to a single column and hopes, this brief states what happens (the type is clamped between 14px and 28px, the layout shifts at 520px and the section is held at 100vh) and keeps the order intact. The scale changes with the viewport; the sequence does not."
+  },
+  {
+   "title": "Why the health brief holds",
+   "body": "When you brief a health landing page, the hard part is deciding what the first screen refuses to say. Mind AI answers that in advance: one display line, navigation, the headline, the announcement badge, the stats row and the feature list behind it. It gives a health reader the shortest honest route to the offer."
+  },
+  {
+   "title": "How Mind AI sequences the first read",
+   "body": "Set your own copy into this landing page and the sequence still holds, because the elements are not interchangeable: navigation, the headline, the announcement badge, the stats row and the feature list each carry one job. A health reader gets the offer before the options."
+  }
+ ],
+ "steps": [
+  "Drop your product name in, then replace #A069C9 with your own accent and re-check the contrast.",
+  "Set the brand first: product name, the #A069C9 accent and a headline that replaces the reference's.",
+  "Type the product name and the #A069C9 accent before you touch the layout.",
+  "Set your brand first: product name, the #A069C9 accent and the headline that replaces the reference's.",
+  "Keep the measurements the brief spells out: type from 14px to 28px, 100vh sections and 16.0rem corners."
+ ],
+ "faq": [
+  {
+   "question": "Is the Mind AI prompt a finished spec or a starting point?",
+   "answer": "The captured brief runs 37,004 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Can I rebuild the Mind AI landing page in a different stack?",
+   "answer": "Mind AI was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What can I do with the Mind AI brief once I have it?",
+   "answer": "Everything quoted on the page comes from the captured 37,004-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  }
+ ],
+ "audience": [
+  "If the reference is only a starting point, designers can keep cubic-bezier(.16,1.3,1) easing and rebuild the rest of the landing page.",
+  "Quote one self-contained HTML file in the handoff note so the next build does not have to re-derive it from the page.",
+  "Made for agencies that pitch health work and need a 520px breakpoint in the first reply to the client."
+ ],
+ "specs": [
+  {
+   "label": "Block",
+   "value": "Landing page"
+  },
+  {
+   "label": "Field",
+   "value": "Health"
+  },
+  {
+   "label": "Frame",
+   "value": "1920x1414 · 1.36:1"
+  },
+  {
+   "label": "Loop length",
+   "value": "5s loop"
+  },
+  {
+   "label": "Prompt",
+   "value": "37,004 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key colour",
+   "value": "indigo #A069C9"
+  },
+  {
+   "label": "Fonts",
+   "value": "Questrial · 14–28px"
+  },
+  {
+   "label": "Tech stack",
+   "value": "vanilla JS, single HTML file"
+  },
+  {
+   "label": "Motion",
+   "value": "4.042s transitions, cubic-bezier(.16,1.3,1) easing and a 5s media loop"
+  }
+ ],
+ "related": [
+  "wellness-device",
+  "wellness-hero",
+  "adhd-planner",
+  "celestial-renewal",
+  "faq-cta",
+  "health-portal"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 37004,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

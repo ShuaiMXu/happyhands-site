@@ -1,0 +1,203 @@
+{
+ "slug": "velorah-hero",
+ "sourceSlug": "velorah-hero",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Velorah"
+ },
+ "title": "Velorah",
+ "industry": "creative",
+ "industryLabel": "Agencies & Studios",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/97130dc82bb1f747.webp",
+  "still": "https://cdn.ottermind.ai/public/93a9178534637576.webp",
+  "preview": "https://cdn.ottermind.ai/public/3813b0de0d6ec2f6.mp4",
+  "full": "https://cdn.ottermind.ai/public/75089b22a8a237f6.mp4",
+  "aspectRatio": 1.3605,
+  "width": 800,
+  "height": 588,
+  "duration": 10.99
+ },
+ "seo": {
+  "title": "Velorah Agencies & Studios Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an agency or studio — glass panels, 0.8s transitions, a 800x589 frame and #01405F base. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "agency website design",
+   "agency hero section design",
+   "video-backed agency landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Velorah — Agencies & Studios Hero Section Design",
+ "tagline": "Hero section reference built around “Where dreams rise through the silence”, with the layout, timings and palette written down in the brief.",
+ "summary": "Hero section reference for an agency or studio — glass panels, 0.8s transitions, a 800x589 frame and #01405F base.",
+ "about": "Velorah gives an agency or studio a finished first screen and the numbers that produced it. The page's own headline reads “Where dreams rise through the silence”, and the composition is built around those exact words. The colour scheme is teal #01405F underneath and yellow #D9BF63 for the type, and the page is set in Inter. Delivery is React and Tailwind CSS — one page, no plugin, no build tooling between you and the design. The brief spends its motion budget on 0.8s transitions. Keep it open while you write: the 3,788-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "Top row, one action",
+   "body": "The wordmark holds the left edge and the links run to the right of it, all of it set in Inter so the bar belongs to the page below rather than to a separate system. The bar sits over the 800x589 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "The brief names the steps",
+   "body": "The brief names the numbers: 90px spacing steps and 0.8s transitions. That is why the composition holds together, because there is no invented spacing step between the type and the frame. The brief states values rather than proportions, so the composition keeps its relationships when the copy changes length."
+  },
+  {
+   "title": "One row, no drawers",
+   "body": "The bar is one row of text and one action, measured at 90px spacing steps and 0.8s transitions so it reads as a strip rather than as a band."
+  },
+  {
+   "title": "Every measurement is written down",
+   "body": "Spacing is quoted the same way (90px spacing steps and 0.8s transitions), not as a scale that grows on its own."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Hover, but sparingly",
+   "body": "Every interactive element does one thing (hover states on the buttons and links rather than on every card), which is what keeps the states predictable. Interactive targets are large enough to tap and the pointer treatment is consistent across them."
+  },
+  {
+   "title": "Timing kept in the brief",
+   "body": "Transitions are specified at 0.8s, which is the timing the controls are held to. Easing is specified alongside the duration (0.8s), so a rebuild cannot quietly substitute a different feel."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#2C2B17",
+    "name": "Deep yellow",
+    "role": "darkest"
+   },
+   {
+    "hex": "#D9BF63",
+    "name": "Yellow",
+    "role": "Headline"
+   },
+   {
+    "hex": "#01405F",
+    "name": "Teal",
+    "role": "composition"
+   },
+   {
+    "hex": "#0A435F",
+    "name": "Teal — lighter",
+    "role": "saturated"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "UI face"
+   },
+   {
+    "name": "Instrument Serif",
+    "weights": "Weight not fixed in the brief",
+    "role": "Accent face"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 0.8s, which is the value to keep when the palette changes.",
+   "The reference was captured at 800x589, and every value quoted on this page comes from the same brief.",
+   "Transitions are specified at 0.8s, short enough that the page never feels like it is waiting for an animation. The timing budget is state feedback rather than page choreography (0.8s), so a slower rebuild reads as a different design."
+  ]
+ },
+ "customize": [
+  "Swap in your own headline where “Where dreams rise through the silence” sits and keep the line breaks, because the entrance animates per line.",
+  "The brief behind this page is written out in full below, so any rewrite can be checked against it value by value; the reference was captured at 800x589.",
+  "Rewrite “Where dreams rise through the silence” to the same line count; the mask reveals each line in turn.",
+  "Replace “Where dreams rise through the silence” with your own line and keep the same number of words, because the brief sizes the type for that rhythm."
+ ],
+ "editorial": [
+  {
+   "title": "Reading Velorah as a spec",
+   "body": "Take the hero section apart and the values still describe it: 90px spacing steps and 0.8s transitions for the frame and the rhythm below. Nothing in this hero section depends on a default."
+  },
+  {
+   "title": "The order behind the hero section",
+   "body": "One screen, one action, and navigation, the stats row and the background clip between them. The brief fixes that order rather than leaving the first screen to a stack of sections. A agency reader gets the offer before the options."
+  },
+  {
+   "title": "The timing behind the hero section",
+   "body": "Copy the pattern rather than the values: keep 0.8s transitions and hover and press states and let your own brand set the durations. Nothing animates for its own sake in this hero section."
+  }
+ ],
+ "steps": [
+  "Pin the reference measurements before you restyle anything: 90px spacing steps and 0.8s transitions.",
+  "Copy 90px spacing steps and 0.8s transitions into your own brief before you rewrite anything else.",
+  "Keep the measurements the brief spells out: 90px spacing steps and 0.8s transitions.",
+  "Check your build against the reference measurements: 90px spacing steps and 0.8s transitions.",
+  "Rebuild the motion last and keep the 0.8s entrance; the hover and scroll states come after it."
+ ],
+ "faq": [
+  {
+   "question": "What do I get when I copy the Velorah brief?",
+   "answer": "The captured brief runs 3,788 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Do I need React and Tailwind CSS to rebuild Velorah?",
+   "answer": "Velorah was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What drives the motion in Velorah?",
+   "answer": "The motion is specified at the same level of detail as the layout: state changes settle in the 0.8s range. Port the composition first and the timings second, because they are easier to match once the layout holds."
+  }
+ ],
+ "audience": [
+  "This hero section is built for agencies that need the 800x589 frame to survive three rounds of client edits.",
+  "Made for content leads rewriting a hero section whose headline has to stay as long as Velorah's.",
+  "If you are redrawing Velorah's hero section in your own face, keep Inter's proportions or the size scale stops matching."
+ ],
+ "specs": [
+  {
+   "label": "Page section",
+   "value": "Hero section"
+  },
+  {
+   "label": "Vertical",
+   "value": "Agencies & Studios"
+  },
+  {
+   "label": "Canvas",
+   "value": "800x589 · 1.36:1"
+  },
+  {
+   "label": "Prompt",
+   "value": "3,788 characters"
+  },
+  {
+   "label": "Captured",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type scale",
+   "value": "Inter, Instrument Serif"
+  },
+  {
+   "label": "Reference stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Animation",
+   "value": "0.8s transitions"
+  }
+ ],
+ "related": [
+  "innovation-landing",
+  "launchex-about",
+  "stories-in-light-hero",
+  "neurolink-memorial-hero",
+  "portiva-hero",
+  "adventra-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 3788,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

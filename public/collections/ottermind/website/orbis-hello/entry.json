@@ -1,0 +1,207 @@
+{
+ "slug": "orbis-hello",
+ "sourceSlug": "orbis-hello",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Orbis Hello"
+ },
+ "title": "Orbis Hello",
+ "industry": "lifestyle",
+ "industryLabel": "Lifestyle",
+ "section": "about",
+ "sectionLabel": "About page",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/777acc4f08abbab0.webp",
+  "still": "https://cdn.ottermind.ai/public/7a9fc408adec5e9b.webp",
+  "preview": "https://cdn.ottermind.ai/public/7a9fc408adec5e9b.webp",
+  "full": "https://cdn.ottermind.ai/public/7a9fc408adec5e9b.webp",
+  "aspectRatio": 1.3617,
+  "width": 640,
+  "height": 470,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Orbis Hello Lifestyle About Page Design & Prompt | Ottermind",
+  "description": "About page reference for a lifestyle brand — React and Tailwind CSS, Anton, a 640x470 frame and a stats row. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "lifestyle website design",
+   "lifestyle about page design",
+   "video-backed lifestyle landing page",
+   "about page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Orbis Hello — Lifestyle About Page Design",
+ "tagline": "About page reference built on deep blue #13142D and bright lime #6FFF00, set in Anton and measured against type from 14px to 68px.",
+ "summary": "About page reference for a lifestyle brand — React and Tailwind CSS, Anton, a 640x470 frame and a stats row.",
+ "about": "Orbis Hello was captured at 640x470 and kept as a specification rather than as a gallery image. The palette is deep blue #13142D underneath, white #EFF4FF for the type and bright lime #6FFF00 carrying the accents, set in Anton. The build is React and Tailwind CSS; every measurement in it is written down, which is what makes it reusable. It is most useful when the Lifestyle about page has to survive a copy change without a redesign.",
+ "layout": [
+  {
+   "title": "Nothing here is inherited",
+   "body": "Sizes are quoted rather than inherited: type from 14px to 68px and 20px spacing steps. Swap the face or the copy and those relationships still hold. The frame proportions are recorded with the sizes, so a rebuild gets the aspect right as well."
+  },
+  {
+   "title": "Proof above the fold",
+   "body": "Statistics are handled as typography: figures at the display size, labels at the smallest step in the brief, all of it on #6FFF00 or the ink colour rather than a coloured card. The figures carry the #6FFF00 accent while everything around them stays on the ink colour."
+  },
+  {
+   "title": "The brief names the steps",
+   "body": "Spacing is quoted the same way (type from 14px to 68px and 20px spacing steps), not as a scale that grows on its own."
+  },
+  {
+   "title": "A stat strip, not a table",
+   "body": "A row of stats sits above the fold, set in Anton at the top of the scale, with #6FFF00 left for the figures that carry a claim."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Feedback on the controls",
+   "body": "Interaction is local to each control here (hover states on the buttons and links rather than on every card), so nothing on the page moves as a side effect. The interactive states do not move layout, so nothing jumps under the pointer. Do not animate layout on hover."
+  },
+  {
+   "title": "Motion that stays out of the way",
+   "body": "This one is delivered as a still composition at 640x470, so the hierarchy has to work without motion, and it does. The composition holds still, so the hierarchy has to carry the page and it does."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#EFF4FF",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#6FFF00",
+    "name": "Bright lime",
+    "role": "accent"
+   },
+   {
+    "hex": "#010828",
+    "name": "Deep blue",
+    "role": "saturated"
+   },
+   {
+    "hex": "#13142D",
+    "name": "Deep blue — lighter",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Anton",
+    "weights": "14–68px",
+    "role": "Control text"
+   },
+   {
+    "name": "Condiment",
+    "weights": "14–68px",
+    "role": "Body face"
+   }
+  ],
+  "notes": [
+   "The accent is spent on bright lime #6FFF00 and the rest of the composition holds deep blue #13142D.",
+   "The display line is Anton at the top of a 14–68px scale, with the interface text on the same face.",
+   "Accent and ground are both named (bright lime #6FFF00 on deep blue #13142D), so a brand swap moves one value."
+  ]
+ },
+ "customize": [
+  "Change #6FFF00 for your brand accent and re-check it against #13142D, because the accent is the only saturated value in this composition.",
+  "Swap #6FFF00 for your brand colour and re-check it against #13142D, since the accent is the only place saturation is allowed.",
+  "Change the copy before the colour: rewrite the Anton paragraphs first, then check #6FFF00 against the media behind them.",
+  "Replace the copy in the Anton stack first, then re-check the #6FFF00 accent against the media behind it."
+ ],
+ "editorial": [
+  {
+   "title": "What this about page gets right",
+   "body": "The reason this works for a lifestyle brand is that it never asks the reader to assemble the message. Layout, type and colour are decided (deep blue #13142D and bright lime #6FFF00, set in Anton), so the first screen reads as a finished argument rather than a pile of parts. Orbis Hello states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "What moves in Orbis Hello",
+   "body": "Count the animated elements and the list is short: hover and press states. Nothing animates for its own sake in this about page."
+  },
+  {
+   "title": "How the about page reflows",
+   "body": "The cost of a fluid scale is less control over exact sizes. What you get is a display line that stays proportionate, which is why a clamp between 14px and 68px is in the brief. The reflow keeps the action reachable at every width."
+  }
+ ],
+ "steps": [
+  "Keep the measurements the brief spells out: type from 14px to 68px and 20px spacing steps.",
+  "Copy type from 14px to 68px and 20px spacing steps into your own brief before you rewrite anything else.",
+  "Check your build against the reference measurements: type from 14px to 68px and 20px spacing steps.",
+  "Pin the reference measurements before you restyle anything: type from 14px to 68px and 20px spacing steps.",
+  "Export and check the first screen on a phone, then compare it against the 640x470 reference before you widen the copy."
+ ],
+ "faq": [
+  {
+   "question": "What does the brief behind Orbis Hello actually contain?",
+   "answer": "The full prompt behind the page, describing the layout, the palette, the typography and the transitions, plus a one-click handoff into Studio with the brief already staged. The prompt itself is not printed here; copy it or send it to Studio. The reference was captured at 640x470."
+  },
+  {
+   "question": "How much of Orbis Hello depends on React and Tailwind CSS?",
+   "answer": "Orbis Hello was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What are the colours in Orbis Hello?",
+   "answer": "The accent is bright lime #6FFF00 and it appears on the elements you are meant to press. Everything else stays on deep blue #13142D, so the emphasis never has to compete with the layout."
+  }
+ ],
+ "audience": [
+  "Agencies pitching a lifestyle brand about page who want type from 14px to 68px and 20px spacing steps quoted in the deck so the estimate still holds after the kickoff.",
+  "Made for a solo founder shipping one about page for a lifestyle brand and no design system behind them.",
+  "People who brief a model on a about page will use the 5,232-character prompt as the starting point."
+ ],
+ "specs": [
+  {
+   "label": "Page part",
+   "value": "About page"
+  },
+  {
+   "label": "Industry",
+   "value": "Lifestyle"
+  },
+  {
+   "label": "Canvas",
+   "value": "640x470 · 1.36:1"
+  },
+  {
+   "label": "Prompt",
+   "value": "5,232 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent tone",
+   "value": "bright lime #6FFF00"
+  },
+  {
+   "label": "Faces",
+   "value": "Anton, Condiment · 14–68px"
+  },
+  {
+   "label": "Stack",
+   "value": "Tailwind CSS, React"
+  },
+  {
+   "label": "Animation",
+   "value": "state changes only"
+  }
+ ],
+ "related": [
+  "f1-racing-hub",
+  "orbit-flora",
+  "portal-hero",
+  "vinyl",
+  "audio-showcase",
+  "aurora-onboard"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 5232,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

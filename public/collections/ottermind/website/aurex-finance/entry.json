@@ -1,0 +1,211 @@
+{
+ "slug": "aurex-finance",
+ "sourceSlug": "aurex-finance",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Aurex Finance"
+ },
+ "title": "Aurex Finance",
+ "industry": "fintech",
+ "industryLabel": "Fintech",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/7e809394d752c6de.webp",
+  "still": "https://cdn.ottermind.ai/public/92140e970a5fbcc7.webp",
+  "preview": "https://cdn.ottermind.ai/public/76a650a2e618049e.mp4",
+  "full": "https://cdn.ottermind.ai/public/4e6fe31fc5da029a.mp4",
+  "aspectRatio": 1.3617,
+  "width": 1920,
+  "height": 1410,
+  "duration": 6.5
+ },
+ "seo": {
+  "title": "Aurex Finance Fintech Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for a fintech product — #000000 base, #AFDDFF accent, cubic-bezier(0.16, 1, 0.3, 1) easing and looping video. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "fintech website design",
+   "fintech landing page design",
+   "video-backed fintech landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Aurex Finance — Fintech Landing Page Design",
+ "tagline": "Landing page reference built on black #000000 and muted blue #AFDDFF, set in Manrope and measured against type from 12px to 68px.",
+ "summary": "Landing page reference for a fintech product — #000000 base, #AFDDFF accent, cubic-bezier(0.16, 1, 0.3, 1) easing and looping video.",
+ "about": "Before rebuilding a landing page for a fintech product, read Aurex Finance: the composition and the specification behind it are both here. The palette runs black #000000 underneath, white #FFFFFF for the type and muted blue #AFDDFF carrying the accents, and the type is Manrope. Delivery is React and Tailwind CSS, captured at 1920x1410 so the frame is fixed before any code is written. The brief spends its motion budget on 900ms transitions, cubic-bezier(0.16, 1, 0.3, 1) and a looping video bed. It is the right reference for a fintech product landing page that has to look deliberate on the first screen.",
+ "layout": [
+  {
+   "title": "Links collapse at one width",
+   "body": "Wordmark, links and the #AFDDFF action share one baseline, which is what keeps a thin row from looking accidental. The links are set below the wordmark in size, and the #AFDDFF action is the only element in the bar with any weight."
+  },
+  {
+   "title": "Measured against the viewport",
+   "body": "The brief names the numbers: type from 12px to 68px, 20px spacing steps, 900ms transitions and cubic-bezier(0.16, 1, 0.3, 1) easing. That is why the composition holds together, because there is no invented spacing step between the type and the frame. The brief states values rather than proportions, so the composition keeps its relationships when the copy changes length. Change the subject, not the steps."
+  },
+  {
+   "title": "The video is the background, not a panel",
+   "body": "The 1920x1410 video runs 6.5s on a loop behind the copy, muted and inline, with no tint layer between the two. Export at 1920x1410 or wider and the cover crop keeps working."
+  },
+  {
+   "title": "Panels carry the middle",
+   "body": "The grid is the structure: panels of the same size, set in Manrope, arranged so the eye moves across rather than down. Panel heights are driven by the copy, so a longer line does not break the alignment of the row."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Ambient motion without a scroll library",
+   "body": "The background clip runs 6.5s at 1920x1410 on an endless loop, muted and inline, so the page keeps moving while the reader's attention is on the copy. No scroll library is required, because the only ambient motion is the media itself. The loop is cropped to cover, which means the composition does not depend on a particular frame size."
+  },
+  {
+   "title": "Durations from the brief",
+   "body": "The timings are short and consistent (900ms using cubic-bezier(0.16, 1, 0.3, 1)), so hover and press states read as one system instead of a set of separate effects. If the easing changes, the duration has to be revisited with it. Time the feedback exactly."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#AFDDFF",
+    "name": "Muted blue",
+    "role": "accent"
+   },
+   {
+    "hex": "#C8E8FF",
+    "name": "Muted blue — lighter",
+    "role": "lighter"
+   },
+   {
+    "hex": "#FFFFFF",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#000000",
+    "name": "Near-black",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Manrope",
+    "weights": "12–68px",
+    "role": "Headline and interface text"
+   },
+   {
+    "name": "Graphik LCG Regular Regular",
+    "weights": "12–68px",
+    "role": "Body face"
+   }
+  ],
+  "notes": [
+   "The type is set in Manrope on a 12–68px scale, and the spacing follows the same steps.",
+   "Nothing sits between the type and the 1920x1410 clip, so a replacement has to work under the copy directly.",
+   "The accent is spent on muted blue #AFDDFF and the rest of the composition holds black #000000."
+  ]
+ },
+ "customize": [
+  "Change the copy first, then the accent, then the media: the 1920x1410 frame was solved in that order and reversing it costs a re-layout.",
+  "Draft the new copy to the 1920x1410 frame, then check that the entrance still lands on the same number of lines.",
+  "Retime the entrance to taste. 900ms with cubic-bezier(0.16, 1, 0.3, 1) is what the reference uses.",
+  "Change the copy before the colour: rewrite the Manrope paragraphs first, then check #AFDDFF against the media behind them."
+ ],
+ "editorial": [
+  {
+   "title": "What to change first in Aurex Finance",
+   "body": "When you drop your own media in, keep the crop and the layer order. The media is a 6.5s 1920x1410 loop. That placement is what keeps the copy legible. Set the new copy at the same display size and re-check the contrast before you add anything."
+  },
+  {
+   "title": "What a fintech product gains here",
+   "body": "Count the decisions in this landing page and they trace back to one document: 29,337 characters naming the frame at 1920x1410, the type and the rhythm. It gives a fintech reader the shortest honest route to the offer."
+  },
+  {
+   "title": "How the landing page reflows",
+   "body": "A fluid scale and a stepped one look similar on a wide screen. Narrow the viewport and the difference shows: a clamp between 12px and 68px against fixed jumps. The order is the last thing to change."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1920x1410 capture before you generate.",
+  "Drop your product name in, then replace #AFDDFF with your own accent and re-check the contrast.",
+  "Set the brand first: product name, the #AFDDFF accent and a headline that replaces the reference's.",
+  "Type the product name and the #AFDDFF accent before you touch the layout.",
+  "Set your brand first: product name, the #AFDDFF accent and the headline that replaces the reference's."
+ ],
+ "faq": [
+  {
+   "question": "Is the Aurex Finance prompt a finished spec or a starting point?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1920x1410, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Can I rebuild the Aurex Finance landing page in a different stack?",
+   "answer": "Aurex Finance was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Where did the Aurex Finance design come from?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1920x1410."
+  }
+ ],
+ "audience": [
+  "If three people have to edit this landing page, give content leads type from 12px to 68px and 20px spacing steps rather than a screenshot.",
+  "Product marketers who need the landing page to still read with 6.5s of looping video behind the copy.",
+  "People who brief a model on a landing page will use the 29,337-character prompt as the starting point."
+ ],
+ "specs": [
+  {
+   "label": "Block",
+   "value": "Landing page"
+  },
+  {
+   "label": "Category",
+   "value": "Fintech"
+  },
+  {
+   "label": "Canvas",
+   "value": "1920x1410 · 1.36:1"
+  },
+  {
+   "label": "Runtime",
+   "value": "6.5s loop"
+  },
+  {
+   "label": "Source text",
+   "value": "29,337 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent hex",
+   "value": "muted blue #AFDDFF"
+  },
+  {
+   "label": "Fonts",
+   "value": "Manrope, Graphik LCG Regular Regular · 12–68px"
+  },
+  {
+   "label": "Reference stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Transitions",
+   "value": "900ms transitions, cubic-bezier(0.16, 1, 0.3, 1) easing and a 6.5s media loop"
+  }
+ ],
+ "related": [
+  "halo-usd-landing",
+  "halo-use-case",
+  "impact-ventures",
+  "alumica-hero",
+  "launchpad-blog",
+  "orbis-nft-landing"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 29337,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

@@ -1,0 +1,203 @@
+{
+ "slug": "intelligent-operations",
+ "sourceSlug": "intelligent-operations",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Intelligent Operations"
+ },
+ "title": "Intelligent Operations",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/c645feb5918741e9.webp",
+  "still": "https://cdn.ottermind.ai/public/2799b47d5564f4fe.webp",
+  "preview": "https://cdn.ottermind.ai/public/26ea5c9bfbd9b014.mp4",
+  "full": "https://cdn.ottermind.ai/public/84590c43ecbac8f5.mp4",
+  "aspectRatio": 1.3667,
+  "width": 1476,
+  "height": 1080,
+  "duration": 7.933
+ },
+ "seo": {
+  "title": "Intelligent Operations AI & SaaS Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an AI or SaaS product — glass panels, looping video, a dark stage and scroll-triggered reveals. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS landing page design",
+   "video-backed SaaS landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Intelligent Operations — AI & SaaS Landing Page Design",
+ "tagline": "Landing page reference for an AI or SaaS product, captured at 1476x1080 with the layout, timings and palette specified in the brief.",
+ "summary": "Landing page reference for an AI or SaaS product — glass panels, looping video, a dark stage and scroll-triggered reveals.",
+ "about": "Read Intelligent Operations as a landing page spec: the values were written down before the page was built. The palette is gray #BCCCD4 underneath and black #0A0A0A for the type, set in Inter. Delivery is React and Tailwind CSS, captured at 1476x1080 so the frame is fixed before any code is written. The brief spends its motion budget on 700ms transitions and a looping video bed. It is most useful when the AI & SaaS landing page has to survive a copy change without a redesign.",
+ "layout": [
+  {
+   "title": "A bar with nothing spare",
+   "body": "The wordmark holds the left edge and the links run to the right of it, all of it set in Inter so the bar belongs to the page below rather than to a separate system. The bar sits over the 1476x1080 composition without a background of its own, so the media runs edge to edge underneath it. One action per bar."
+  },
+  {
+   "title": "The nav is deliberately thin",
+   "body": "Focus and hover states are specified for each link rather than inherited from the browser. Design the collapsed state before adding a sixth link."
+  },
+  {
+   "title": "Measured against the viewport",
+   "body": "Nothing here is eyeballed. The spec fixes 100vh sections, 10px spacing steps and 700ms transitions, and the rest of the layout derives from those values. There is no invented intermediate value between the named ones; the measurement list is the whole system. Measure before you adjust."
+  },
+  {
+   "title": "Media behind the type",
+   "body": "One muted, looping clip fills the frame at 1476x1080 and 7.9s, set to cover with the copy stacked above it. The brief keeps overlays off the video so nothing greys it out. A poster frame at 1476x1080 holds the composition when autoplay is unavailable, so the layout never collapses."
+  }
+ ],
+ "motion": [
+  {
+   "title": "State changes, timed",
+   "body": "One duration covers the interactions (700ms), which is what keeps hover and press reading as one system. The durations are short enough that feedback reads as a response rather than as an animation."
+  },
+  {
+   "title": "Pointer states, nothing more",
+   "body": "Feedback is limited to hover states on the buttons and links rather than on every card and a sticky element that holds position while the content moves under it, which is what keeps a dense first screen from feeling busy. Because the states are simple, they port into any component system."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#0A0A0A",
+    "name": "Near-black",
+    "role": "Headline"
+   },
+   {
+    "hex": "#9B9492",
+    "name": "Gray",
+    "role": "darker step"
+   },
+   {
+    "hex": "#E4E3E4",
+    "name": "White",
+    "role": "lightest"
+   },
+   {
+    "hex": "#BCCCD4",
+    "name": "Gray — lighter",
+    "role": "composition"
+   }
+  ],
+  "glass": "Panels are translucent over gray #BCCCD4, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Media is specified at 1476x1080 and a 7.9s loop, so a replacement should match the crop and the loop length.",
+   "Nothing sits between the type and the 1476x1080 clip, so a replacement has to work under the copy directly.",
+   "The clip is one asset at 1476x1080 and a 7.9s loop, so the composition has a single media dependency."
+  ]
+ },
+ "customize": [
+  "Keep the 1476x1080 frame when you swap the content, because the composition was solved against that ratio.",
+  "Replace the video with a still at 1476x1080 if the 7.9s loop is too heavy for the page you are shipping.",
+  "Retime the entrance to taste. 700ms with a standard ease-out is what the reference uses.",
+  "Draft the new copy to the 1476x1080 frame, then check that the entrance still lands on the same number of lines."
+ ],
+ "editorial": [
+  {
+   "title": "The numbers behind the landing page",
+   "body": "Every relationship on this page is a value you can check: 100vh sections, 10px spacing steps and 700ms transitions. That is what makes Intelligent Operations rebuildable rather than merely reproducible. Nothing in this landing page depends on a default."
+  },
+  {
+   "title": "What moves in Intelligent Operations",
+   "body": "The timing is explicit: 700ms transitions, a 7.9s media loop and a scroll reveal, all of it written into the brief rather than tuned by feel. Nothing animates for its own sake in this landing page."
+  },
+  {
+   "title": "How the landing page reflows",
+   "body": "Type is clamped rather than stepped here (a clamp between 80px and 10px), so the display line does not jump between widths. The reflow keeps the action reachable at every width."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1476x1080 capture before you generate.",
+  "Check your build against the reference measurements: 100vh sections, 10px spacing steps and 700ms transitions.",
+  "Copy 100vh sections, 10px spacing steps and 700ms transitions into your own brief before you rewrite anything else.",
+  "Keep the measurements the brief spells out: 100vh sections, 10px spacing steps and 700ms transitions.",
+  "Pin the reference measurements before you restyle anything: 100vh sections, 10px spacing steps and 700ms transitions."
+ ],
+ "faq": [
+  {
+   "question": "Is the Intelligent Operations prompt a finished spec or a starting point?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1476x1080, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Do I need React and Tailwind CSS to rebuild Intelligent Operations?",
+   "answer": "Intelligent Operations was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Can I ship a page rebuilt from Intelligent Operations without crediting it?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1476x1080."
+  }
+ ],
+ "audience": [
+  "In-house squads extending this landing page who need 100vh sections and 10px spacing steps carried into the new blocks unchanged.",
+  "This landing page serves founders who need one screen of proof that SaaS copy can carry 7.9s of looping video.",
+  "People who brief a model on a landing page will use the 10,447-character prompt as the starting point."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Landing page"
+  },
+  {
+   "label": "Vertical",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Frame",
+   "value": "1476x1080 · 1.37:1"
+  },
+  {
+   "label": "Loop",
+   "value": "7.9s loop"
+  },
+  {
+   "label": "Source text",
+   "value": "10,447 characters"
+  },
+  {
+   "label": "Date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Typefaces",
+   "value": "Inter"
+  },
+  {
+   "label": "Reference stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Transitions",
+   "value": "700ms transitions and a 7.9s media loop"
+  }
+ ],
+ "related": [
+  "datacore-booking-hero",
+  "deepthink",
+  "design-rocket-email-hero",
+  "digitwist-hero",
+  "email-landing-page",
+  "equilibrium"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 10447,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

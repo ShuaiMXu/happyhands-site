@@ -1,0 +1,203 @@
+{
+ "slug": "growth-decisions",
+ "sourceSlug": "growth-decisions",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Growth Decisions"
+ },
+ "title": "Growth Decisions",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/981239437c49371f.webp",
+  "still": "https://cdn.ottermind.ai/public/73d7735d674cc0d0.webp",
+  "preview": "https://cdn.ottermind.ai/public/02823322b25af017.mp4",
+  "full": "https://cdn.ottermind.ai/public/e076a5eb2f08c755.mp4",
+  "aspectRatio": 1.3593,
+  "width": 1468,
+  "height": 1080,
+  "duration": 7.067
+ },
+ "seo": {
+  "title": "Growth Decisions AI & SaaS Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an AI or SaaS product — Inter, #FFFFFF base, #006CD2 accent and min-width 821px breakpoints. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS landing page design",
+   "video-backed SaaS landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Growth Decisions — AI & SaaS Landing Page Design",
+ "tagline": "Landing page reference built on #FFFFFF and blue #006CD2, set in Inter and measured against 100vh sections.",
+ "summary": "Landing page reference for an AI or SaaS product — Inter, #FFFFFF base, #006CD2 accent and min-width 821px breakpoints.",
+ "about": "Read Growth Decisions as a landing page spec: the values were written down before the page was built. Colour is limited to #FFFFFF underneath, #0A0A0A for the type and blue #006CD2 carrying the accents, set in Inter. Delivery is a single component, captured at 1468x1080 so the frame is fixed before any code is written. Motion is limited to 0.16s transitions, cubic-bezier(0.16, 1, 0.3, 1) and a looping video bed. Keep it open while you write: the 11,164-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "The nav is deliberately thin",
+   "body": "The bar carries the wordmark, the section links and one #006CD2 button, measured at 100vh sections and 18px spacing steps so it never grows into a second header. Labels are short enough to fit one line at 821px, and the active item is marked with weight rather than with a pill. Keep the link count to four or five; the row is sized for that."
+  },
+  {
+   "title": "Full-frame video, no panel",
+   "body": "The 1468x1080 video runs 7.1s on a loop behind the copy, muted and inline, with no tint layer between the two. The loop is short enough (7.1s) that the eye reads it as texture rather than as a timeline."
+  },
+  {
+   "title": "The type carries the tone",
+   "body": "With Inter doing the work, the sizes step down hard from the headline to the supporting copy and letter-spacing tightens as the size grows, so the hierarchy is carried by type rather than colour. The display face is used at one size only, so it never competes with itself. Keep the size steps even if you change the face."
+  },
+  {
+   "title": "The bar shares the page grid",
+   "body": "If your own page has more sections, group them rather than widening the bar. The reference was captured at 1468x1080."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Short, matched timings",
+   "body": "Hover, press and focus all resolve in 0.16s, which is what makes the interface feel immediate. Easing is specified alongside the duration (0.16s), so a rebuild cannot quietly substitute a different feel."
+  },
+  {
+   "title": "The reveal is the memory point",
+   "body": "A masked line reveal is the only entrance on the page, so there is one motion idea to maintain. Under reduced motion the element simply appears and the layout is unchanged."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#006CD2",
+    "name": "Blue",
+    "role": "accent"
+   },
+   {
+    "hex": "#0A0A0A",
+    "name": "Near-black",
+    "role": "Headline"
+   },
+   {
+    "hex": "#FFFFFF",
+    "name": "Neutral",
+    "role": "background"
+   },
+   {
+    "hex": "#0053A3",
+    "name": "Blue dark",
+    "role": "darker"
+   }
+  ],
+  "glass": "Panels are translucent over #FFFFFF, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "300 / 400 / 500 / 600 / 700",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "The accent is spent on blue #006CD2 and the rest of the composition holds #FFFFFF.",
+   "Transitions are specified at 0.16s, which is the value to keep when the palette changes.",
+   "Transitions are specified at 0.16s, short enough that the page never feels like it is waiting for an animation."
+  ]
+ },
+ "customize": [
+  "Replace #006CD2 last, after the copy is final, and test it against #FFFFFF at the smallest text size on the page.",
+  "Swap #006CD2 for your brand colour and re-check it against #FFFFFF, since the accent is the only place saturation is allowed.",
+  "Read the brief value by value against the 1468x1080 capture before you edit anything; the numbers are the part that is easiest to lose.",
+  "Change the copy before the colour: rewrite the Inter paragraphs first, then check #006CD2 against the media behind them."
+ ],
+ "editorial": [
+  {
+   "title": "The argument this landing page makes",
+   "body": "Compared with a template hero, the difference is what is missing. There is no card grid, no carousel and no second call to action: only navigation, the headline, the announcement badge, the stats row and the background clip, sized against 100vh sections and 18px spacing steps. It gives a SaaS reader the shortest honest route to the offer."
+  },
+  {
+   "title": "How Growth Decisions sequences the first read",
+   "body": "Set your own copy into this landing page and the sequence still holds, because the elements are not interchangeable: navigation, the headline, the announcement badge, the stats row and the background clip each carry one job. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "How the landing page reflows",
+   "body": "Type is clamped rather than stepped here (a clamp between 28px and 18px), so the display line does not jump between widths. Both states are described in the same brief."
+  }
+ ],
+ "steps": [
+  "Drop your product name in, then replace #006CD2 with your own accent and re-check the contrast.",
+  "Set the brand first: product name, the #006CD2 accent and a headline that replaces the reference's.",
+  "Type the product name and the #006CD2 accent before you touch the layout.",
+  "Set your brand first: product name, the #006CD2 accent and the headline that replaces the reference's.",
+  "Pin the reference measurements before you restyle anything: 100vh sections, 18px spacing steps and 0.16s transitions."
+ ],
+ "faq": [
+  {
+   "question": "Why does the entry name a single component at all?",
+   "answer": "Growth Decisions was built in a single component, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What do I get when I copy the Growth Decisions brief?",
+   "answer": "The captured brief runs 11,164 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "How much of Growth Decisions is animated?",
+   "answer": "The motion is specified at the same level of detail as the layout: state changes settle in the 0.16s range on cubic-bezier(0.16, 1, 0.3, 1). Port the composition first and the timings second, because they are easier to match once the layout holds."
+  }
+ ],
+ "audience": [
+  "This landing page serves designers who have to hand a a single component build to an engineer and want the motion written down.",
+  "If the reference is only a starting point, designers can keep a 821px breakpoint and rebuild the rest of the landing page.",
+  "The page serves front-end developers rebuilding an AI or SaaS product landing page in a single component and looking for the numbers behind the look."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Landing page"
+  },
+  {
+   "label": "Industry",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Canvas size",
+   "value": "1468x1080 · 1.36:1"
+  },
+  {
+   "label": "Duration",
+   "value": "7.1s loop"
+  },
+  {
+   "label": "Input brief",
+   "value": "11,164 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent hex",
+   "value": "blue #006CD2"
+  },
+  {
+   "label": "Fonts",
+   "value": "Inter"
+  },
+  {
+   "label": "Transitions",
+   "value": "0.16s transitions, cubic-bezier(0.16, 1, 0.3, 1) easing and a 7.1s media loop"
+  }
+ ],
+ "related": [
+  "arceage-stats",
+  "asme-hero",
+  "autonomous-ops",
+  "axion-about",
+  "bloom-ai-hero",
+  "build-with-us"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 11164,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

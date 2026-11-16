@@ -1,0 +1,202 @@
+{
+ "slug": "animated-cards",
+ "sourceSlug": "animated-cards",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Animated Cards"
+ },
+ "title": "Animated Cards",
+ "industry": "fintech",
+ "industryLabel": "Fintech",
+ "section": "features",
+ "sectionLabel": "Features section",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/d86e2dbfa0ba782b.webp",
+  "still": "https://cdn.ottermind.ai/public/7a731c6ccb15438e.webp",
+  "preview": "https://cdn.ottermind.ai/public/7a731c6ccb15438e.webp",
+  "full": "https://cdn.ottermind.ai/public/7a731c6ccb15438e.webp",
+  "aspectRatio": 1.3793,
+  "width": 640,
+  "height": 464,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Animated Cards Fintech Features Section Design & Prompt | Ottermind",
+  "description": "Features section reference for a fintech product — a dark stage, #FF9500 accent, a stats row and a 640x464 frame. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "fintech website design",
+   "fintech features section design",
+   "video-backed fintech landing page",
+   "features section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Animated Cards — Fintech Features Section Design",
+ "tagline": "Features section reference built on black #000000 and bright orange #FF9500, set in JetBrains Mono and measured against a fixed 12px display size.",
+ "summary": "Features section reference for a fintech product — a dark stage, #FF9500 accent, a stats row and a 640x464 frame.",
+ "about": "Read Animated Cards as a features section spec: the values were written down before the page was built. Colour is limited to black #000000 underneath and bright orange #FF9500 carrying the accents, set in JetBrains Mono. Delivery is React and Tailwind CSS, captured at 640x464 so the frame is fixed before any code is written. Take it on when the features section needs a decided order before any new sections are added.",
+ "layout": [
+  {
+   "title": "Sizes fixed in the brief",
+   "body": "Type and spacing are drawn from one list here: a fixed 12px display size and 16px spacing steps. The frame proportions are recorded with the sizes, so a rebuild gets the aspect right as well."
+  },
+  {
+   "title": "Colour with a job description",
+   "body": "There is one accent (bright orange #FF9500) against black #000000, and the type does the rest of the work rather than a second colour. Everything else sits on black #000000, which is what keeps a saturated palette legible."
+  },
+  {
+   "title": "Panels carry the middle",
+   "body": "The grid does the reading order for you: panels of equal weight, one idea each, set in JetBrains Mono at a small size so the structure stays visible. Every panel uses the same internal arrangement, so the grid can be scanned by shape."
+  },
+  {
+   "title": "The brief names the steps",
+   "body": "Spacing is quoted the same way (a fixed 12px display size and 16px spacing steps), not as a scale that grows on its own."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Interaction kept local",
+   "body": "The pointer work is small and specified: a slider that pages through content on demand, applied to the elements that already look interactive. The states are named in the brief, so the page does not depend on a hover-effect library. A few reliable states beat a long list of effects."
+  },
+  {
+   "title": "A canvas, not an image",
+   "body": "A 3D transform is doing the visual work on the 640x464 frame, with the type set over or beside it. The scene responds to the viewport instead of sitting behind it as an image. Keep the interface flat around it."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#000000",
+    "name": "Near-black",
+    "role": "composition"
+   },
+   {
+    "hex": "#808080",
+    "name": "Gray",
+    "role": "lighter step"
+   },
+   {
+    "hex": "#FF3B30",
+    "name": "Bright red",
+    "role": "lighter"
+   },
+   {
+    "hex": "#FF9500",
+    "name": "Bright orange",
+    "role": "accent"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "JetBrains Mono",
+    "weights": "12px",
+    "role": "Numerals"
+   }
+  ],
+  "notes": [
+   "The type is set in JetBrains Mono on a 12px scale, and the spacing follows the same steps.",
+   "Accent and ground are both named (bright orange #FF9500 on black #000000), so a brand swap moves one value.",
+   "The accent is spent on bright orange #FF9500 and the rest of the composition holds black #000000."
+  ]
+ },
+ "customize": [
+  "Keep JetBrains Mono or substitute a face with the same proportions, because the brief pairs specific weights with specific sizes.",
+  "Hold the features section to one screen on desktop; the composition is solved for a reader who never scrolls.",
+  "Retint #FF9500 toward your palette but keep the step against #000000; flatten the two and the primary action stops reading.",
+  "Load your own face beside JetBrains Mono and compare the headline at full width before committing to the swap."
+ ],
+ "editorial": [
+  {
+   "title": "The numbers behind the features section",
+   "body": "Specific numbers age: a value that suits 640x464 may not suit your frame. The brief states a fixed 12px display size and 16px spacing steps anyway, because a stated value is easier to change than an unstated one. Nothing in this features section depends on a default."
+  },
+  {
+   "title": "What this features section gets right",
+   "body": "Animated Cards works because its hierarchy is decided rather than decorated. The brief sets a fixed 12px display size and 16px spacing steps, so new copy lands inside the frame instead of reopening it. It gives a fintech reader the shortest honest route to the offer."
+  },
+  {
+   "title": "How Animated Cards sequences the first read",
+   "body": "Order is the design here. the stats row, the card grid, the feature list and the background clip are placed so the offer lands before the proof, and a fixed 12px display size and 16px spacing steps set the gap between them. A fintech reader gets the offer before the options."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 640x464 capture before you generate.",
+  "Set the brand first: product name, the #FF9500 accent and a headline that replaces the reference's.",
+  "Set your brand first: product name, the #FF9500 accent and the headline that replaces the reference's.",
+  "Drop your product name in, then replace #FF9500 with your own accent and re-check the contrast.",
+  "Type the product name and the #FF9500 accent before you touch the layout."
+ ],
+ "faq": [
+  {
+   "question": "What do I get when I copy the Animated Cards brief?",
+   "answer": "The captured brief runs 36,212 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Why does the entry name React and Tailwind CSS at all?",
+   "answer": "Animated Cards was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Can I use Animated Cards in a client project?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 640x464."
+  }
+ ],
+ "audience": [
+  "If the motion has to be dropped, the features section still reads, with a fixed 12px display size and 16px spacing steps doing the hierarchy work.",
+  "People who brief a model on a features section will use the 36,212-character prompt as the starting point.",
+  "Made for content leads rewriting a features section whose headline has to stay as long as Animated Cards's."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Features section"
+  },
+  {
+   "label": "Field",
+   "value": "Fintech"
+  },
+  {
+   "label": "Canvas",
+   "value": "640x464 · 1.38:1"
+  },
+  {
+   "label": "Brief",
+   "value": "36,212 characters"
+  },
+  {
+   "label": "Date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key tone",
+   "value": "bright orange #FF9500"
+  },
+  {
+   "label": "Faces",
+   "value": "JetBrains Mono · 12px"
+  },
+  {
+   "label": "Tech stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Animation",
+   "value": "state changes only"
+  }
+ ],
+ "related": [
+  "halo-usd-landing",
+  "halo-use-case",
+  "impact-ventures",
+  "alumica-hero",
+  "launchpad-blog",
+  "orbis-nft-landing"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 36212,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

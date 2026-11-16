@@ -1,0 +1,50 @@
+{
+ "base": "http://localhost:8080",
+ "author": "Meridian Design",
+ "accent": "#2f5cff",
+ "color_name": "blue",
+ "systems": {
+  "sodium": {
+   "slug": "meridian-mono",
+   "title": "Meridian Mono",
+   "words": [
+    [
+     "sodium yellow",
+     "meridian blue"
+    ],
+    [
+     "yellow",
+     "blue"
+    ],
+    [
+     "gold",
+     "indigo"
+    ]
+   ]
+  },
+  "glaze": {
+   "slug": "meridian-glass",
+   "title": "Meridian Glass",
+   "words": []
+  },
+  "quartz": {
+   "slug": "meridian-slate",
+   "title": "Meridian Slate",
+   "words": []
+  },
+  "lime": {
+   "slug": "meridian-clay",
+   "title": "Meridian Clay",
+   "words": [
+    [
+     "acid lime",
+     "electric blue"
+    ],
+    [
+     "lime",
+     "blue"
+    ]
+   ]
+  }
+ }
+}

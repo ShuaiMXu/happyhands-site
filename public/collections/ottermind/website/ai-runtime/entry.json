@@ -1,0 +1,212 @@
+{
+ "slug": "ai-runtime",
+ "sourceSlug": "ai-runtime",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "AI Runtime"
+ },
+ "title": "AI Runtime",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/ff91f2bbdf35b550.webp",
+  "still": "https://cdn.ottermind.ai/public/57629fd240ee53d8.webp",
+  "preview": "https://cdn.ottermind.ai/public/1bd26b7d53cc457f.mp4",
+  "full": "https://cdn.ottermind.ai/public/09f275188fe50400.mp4",
+  "aspectRatio": 1.363,
+  "width": 1472,
+  "height": 1080,
+  "duration": 6.867
+ },
+ "seo": {
+  "title": "AI Runtime AI & SaaS Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an AI or SaaS product — fluid type, Inter, a stats row and 0.85s transitions. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS landing page design",
+   "video-backed SaaS landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "AI Runtime — AI & SaaS Landing Page Design",
+ "tagline": "Landing page reference for an AI or SaaS product, captured at 1472x1080 with the layout, timings and palette specified in the brief.",
+ "summary": "Landing page reference for an AI or SaaS product — fluid type, Inter, a stats row and 0.85s transitions.",
+ "about": "This is the landing page from AI Runtime, published with the brief that produced it rather than as a screenshot. Colour is limited to neutral #28282A underneath and tint #C8C8C8 for the type, set in Inter. The build is React; every measurement in it is written down, which is what makes it reusable. Motion comes down to 0.85s transitions, cubic-bezier(0.22, 1, 0.36, 1) and a looping video bed. Keep it open while you write: the 9,593-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "The bar shares the page grid",
+   "body": "Navigation is a single row with no second level under it. A mobile overlay takes over below the tablet breakpoint. The bar sits over the 1472x1080 composition without a background of its own, so the media runs edge to edge underneath it. Test the bar over your own media before giving it a background."
+  },
+  {
+   "title": "Measured, not eyeballed",
+   "body": "Sizes are quoted rather than inherited: 100vh sections, 28px spacing steps, 0.85s transitions and cubic-bezier(0.22, 1, 0.36, 1) easing. Swap the face or the copy and those relationships still hold. The smallest and largest values in that list set the range the composition works in."
+  },
+  {
+   "title": "A stat strip, not a table",
+   "body": "The figures are set as type rather than in a card: Inter at the display size with labels one step below. Figures are set at one weight, so the row does not rank its own statistics. Cut a figure before you shrink the label."
+  },
+  {
+   "title": "Top row, one action",
+   "body": "Keep the row to one line. The reference was captured at 1472x1080."
+  }
+ ],
+ "motion": [
+  {
+   "title": "A quieter branch is included",
+   "body": "The brief includes a prefers-reduced-motion branch, so the entrance and the loop can be switched off without losing the layout. Copy that branch straight into your build. With reduced motion on, the composition holds its final state rather than snapping mid-transition."
+  },
+  {
+   "title": "The loop does the ambient work",
+   "body": "Ambient movement comes from the 6.9s 1472x1080 loop rather than from scroll effects, which keeps the page calm and the type readable. The clip is muted and inline, so the first frame is available without an interaction. Shoot or export at 1472x1080 or wider."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#28282A",
+    "name": "Neutral",
+    "role": "composition"
+   },
+   {
+    "hex": "#8E8E8E",
+    "name": "Tint",
+    "role": "Secondary"
+   },
+   {
+    "hex": "#2E2E2E",
+    "name": "Neutral — lighter",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#C8C8C8",
+    "name": "Tint — lighter",
+    "role": "Headline"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "UI text"
+   },
+   {
+    "name": "Geist",
+    "weights": "Weight not fixed in the brief",
+    "role": "Secondary copy, captions and labels"
+   },
+   {
+    "name": "BubbledotICG-FinePos",
+    "weights": "Weight not fixed in the brief",
+    "role": "Fallback and supporting interface text"
+   }
+  ],
+  "notes": [
+   "The timing budget is state feedback rather than page choreography (0.85s), so a slower rebuild reads as a different design.",
+   "Transitions are specified at 0.85s, short enough that the page never feels like it is waiting for an animation.",
+   "Transitions are specified at 0.85s, which is the value to keep when the palette changes."
+  ]
+ },
+ "customize": [
+  "Replace the video with a still at 1472x1080 if the 6.9s loop is too heavy for the page you are shipping.",
+  "Set 0.85s to your own build speed and check that cubic-bezier(0.22, 1, 0.36, 1) still lands the copy before the media starts.",
+  "Keep 1472x1080 for the media and re-crop your own asset into it rather than resizing the frame.",
+  "Swap the clip for your own. Export at 1472x1080 or wider, keep it muted, and make the 6.9s loop seamless so the cut is invisible."
+ ],
+ "editorial": [
+  {
+   "title": "How the landing page reflows",
+   "body": "Responsive here means the scale changes, not the hierarchy: the scale is fluid rather than stepped, the section is held at 100vh and the navigation collapses into a mobile menu. Text stays above the fold, controls stay large enough to tap, and reduced motion is honoured. The order is the last thing to change."
+  },
+  {
+   "title": "The order behind the landing page",
+   "body": "Compare the top of this page with a typical SaaS landing screen. Both carry a headline and an action; here navigation, the headline, the announcement badge, the stats row and the client row sit in a fixed order instead of competing at the same weight. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "What an AI or SaaS product gains here",
+   "body": "Where a template fills the fold with modules, this landing page uses navigation, the headline, the announcement badge, the stats row and the client row and stops. The difference shows in 100vh sections and 28px spacing steps: nothing is padded to fill space. AI Runtime states the offer once and lets the composition repeat it rather than adding a second claim."
+  }
+ ],
+ "steps": [
+  "Check your build against the reference measurements: 100vh sections, 28px spacing steps and 0.85s transitions.",
+  "Keep the measurements the brief spells out: 100vh sections, 28px spacing steps and 0.85s transitions.",
+  "Copy 100vh sections, 28px spacing steps and 0.85s transitions into your own brief before you rewrite anything else.",
+  "Pin the reference measurements before you restyle anything: 100vh sections, 28px spacing steps and 0.85s transitions.",
+  "Rebuild the motion last and keep the 0.85s entrance; the hover and scroll states come after it."
+ ],
+ "faq": [
+  {
+   "question": "What does the brief behind AI Runtime actually contain?",
+   "answer": "The captured brief runs 9,593 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Can I rebuild the AI Runtime landing page in a different stack?",
+   "answer": "The reference happens to be built in React. Nothing in the layout depends on that choice: the spacing, type and motion values transfer to whatever you already use."
+  },
+  {
+   "question": "How much of AI Runtime is animated?",
+   "answer": "Entrances and state changes are in the 0.85s range on cubic-bezier(0.22, 1, 0.36, 1) with a reduced-motion branch in the brief. They are driven by state changes rather than a scroll library, and they never hold up the copy."
+  }
+ ],
+ "audience": [
+  "Take the 1472x1080 frame and 100vh sections and 28px spacing steps from this landing page before you take anything else.",
+  "This landing page serves founders who need one screen of proof that SaaS copy can carry 6.9s of looping video.",
+  "Made for content leads rewriting a landing page whose headline has to stay as long as AI Runtime's."
+ ],
+ "specs": [
+  {
+   "label": "Page section",
+   "value": "Landing page"
+  },
+  {
+   "label": "Field",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Frame",
+   "value": "1472x1080 · 1.36:1"
+  },
+  {
+   "label": "Loop",
+   "value": "6.9s loop"
+  },
+  {
+   "label": "Brief",
+   "value": "9,593 characters"
+  },
+  {
+   "label": "Date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Fonts",
+   "value": "Inter, Geist, BubbledotICG-FinePos"
+  },
+  {
+   "label": "Stack",
+   "value": "React"
+  },
+  {
+   "label": "Animation",
+   "value": "0.85s transitions, cubic-bezier(0.22, 1, 0.36, 1) easing and a 6.9s media loop"
+  }
+ ],
+ "related": [
+  "stellar-ai-hero",
+  "tech-noir-about",
+  "transform-data-hero",
+  "vela-ul",
+  "visual-hero",
+  "vize-footer"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 9593,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

@@ -1,0 +1,207 @@
+{
+ "slug": "playful-idea",
+ "sourceSlug": "playful-idea",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Playful Idea"
+ },
+ "title": "Playful Idea",
+ "industry": "creative",
+ "industryLabel": "Agencies & Studios",
+ "section": "footer",
+ "sectionLabel": "Footer",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/bbbae149d6aade5b.webp",
+  "still": "https://cdn.ottermind.ai/public/a76266528d6d9913.webp",
+  "preview": "https://cdn.ottermind.ai/public/a071356317e88f19.mp4",
+  "full": "https://cdn.ottermind.ai/public/2bcace10a5d1eafc.mp4",
+  "aspectRatio": 1.4481,
+  "width": 1564,
+  "height": 1080,
+  "duration": 6.9
+ },
+ "seo": {
+  "title": "Playful Idea Agencies & Studios Footer Design & Prompt | Ottermind",
+  "description": "Footer reference for an agency or studio — #F0EEFA base, fluid type, looping video and Epilogue. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "agency website design",
+   "agency footer design",
+   "video-backed agency landing page",
+   "footer design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Playful Idea — Agencies & Studios Footer Design",
+ "tagline": "Footer reference for an agency or studio, captured at 1564x1080 with the layout, timings and palette specified in the brief.",
+ "summary": "Footer reference for an agency or studio — #F0EEFA base, fluid type, looping video and Epilogue.",
+ "about": "Before rebuilding a footer for an agency or studio, read Playful Idea: the composition and the specification behind it are both here. The palette runs #F0EEFA underneath and near-black #080909 for the type, and the type is Epilogue. Delivery is one self-contained HTML file, captured at 1564x1080 so the frame is fixed before any code is written. The motion budget is 2.54167s transitions and a looping video bed. If you are briefing a agency footer, start from this composition and replace the subject.",
+ "layout": [
+  {
+   "title": "Links collapse at one width",
+   "body": "The wordmark holds the left edge and the links run to the right of it, all of it set in Epilogue so the bar belongs to the page below rather than to a separate system. Labels are short enough to fit one line at 700px, and the active item is marked with weight rather than with a pill."
+  },
+  {
+   "title": "The video is the background, not a panel",
+   "body": "A 6.9s clip at 1564x1080 does the atmospheric work; the brief fixes its crop and leaves the type untouched on top of it. Export at 1564x1080 or wider and the cover crop keeps working."
+  },
+  {
+   "title": "Fluid where it needs to be",
+   "body": "Width changes are handled in the type itself: a clamp between 14px and 17px carries the headline from phone to desktop without a separate mobile composition. Controls stay large enough to tap and the copy keeps its reading order at every width."
+  },
+  {
+   "title": "Figures as typography",
+   "body": "A compact stats strip carries the claims that would otherwise need a paragraph, which keeps the footer from turning into a feature list. There are no dividers inside the row; spacing alone separates the figures."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Motion can be switched off",
+   "body": "The motion layer ships with an off switch: the entrance and the loop is dropped under prefers-reduced-motion. Interaction feedback still works under reduced motion; only the entrances are dropped."
+  },
+  {
+   "title": "The canvas holds the first screen",
+   "body": "The visual is produced at runtime (a WebGL canvas) rather than loaded as a still, so the 1564x1080 frame has one fewer asset. The scene is drawn at the size of its container, so it does not depend on a fixed render resolution."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#080909",
+    "name": "Near-black",
+    "role": "Headline"
+   },
+   {
+    "hex": "#F0EEFA",
+    "name": "Neutral",
+    "role": "background"
+   },
+   {
+    "hex": "#DFE4F2",
+    "name": "Neutral — darker",
+    "role": "Background"
+   },
+   {
+    "hex": "#F7F8FA",
+    "name": "White",
+    "role": "lightest"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Epilogue",
+    "weights": "14–17px",
+    "role": "Interface"
+   },
+   {
+    "name": "DM Sans",
+    "weights": "14–17px",
+    "role": "Text face"
+   }
+  ],
+  "notes": [
+   "Nothing sits between the type and the 1564x1080 clip, so a replacement has to work under the copy directly.",
+   "Media is specified at 1564x1080 and a 6.9s loop, so a replacement should match the crop and the loop length.",
+   "Card widths come from the 2-column grid rather than from the copy, so the panels stay equal."
+  ]
+ },
+ "customize": [
+  "Replace the video with a still at 1564x1080 if the 6.9s loop is too heavy for the page you are shipping.",
+  "Keep Epilogue or pick a face with the same proportions; the size scale is set for those widths, not for a substitute.",
+  "Keep 1564x1080 for the media and re-crop your own asset into it rather than resizing the frame.",
+  "Keep Epilogue or substitute a face with the same proportions, because the brief pairs specific weights with specific sizes."
+ ],
+ "editorial": [
+  {
+   "title": "Reading Playful Idea as a spec",
+   "body": "Every relationship on this page is a value you can check: type from 14px to 17px, 100vh sections, a 2-column grid, 100px corners and 30px spacing steps. That is what makes Playful Idea rebuildable rather than merely reproducible. Nothing in this footer depends on a default."
+  },
+  {
+   "title": "What to change first in Playful Idea",
+   "body": "Change the copy and the media first, the colour second, the layout last. The 1564x1080 frame and the Epilogue scale are what hold the page together, so substitute around them rather than through them. Rewrite the copy and the media before you re-colour anything."
+  },
+  {
+   "title": "How Playful Idea sequences the first read",
+   "body": "The footer has a stated reading path. Navigation establishes the product and gives a returning visitor a familiar way around. From there the eye takes navigation, the headline, the announcement badge, the stats row and the background clip in sequence, which is what keeps a single screen from reading as a list. A agency reader gets the offer before the options."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1564x1080 capture before you generate.",
+  "Keep the measurements the brief spells out: type from 14px to 17px, 100vh sections and a 2-column grid.",
+  "Pin the reference measurements before you restyle anything: type from 14px to 17px, 100vh sections and a 2-column grid.",
+  "Copy type from 14px to 17px, 100vh sections and a 2-column grid into your own brief before you rewrite anything else.",
+  "Check your build against the reference measurements: type from 14px to 17px, 100vh sections and a 2-column grid."
+ ],
+ "faq": [
+  {
+   "question": "Why does the entry name one self-contained HTML file at all?",
+   "answer": "Playful Idea was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "How is this Playful Idea entry organised?",
+   "answer": "Everything quoted on the page comes from the captured 30,665-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "What does the brief behind Playful Idea actually contain?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1564x1080, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  }
+ ],
+ "audience": [
+  "Borrow the footer structure whole and replace the copy line by line against one self-contained HTML file.",
+  "Teams building an agency or studio footer who need a 700px breakpoint on the record before an estimate goes out.",
+  "This footer serves designers who have to hand a one self-contained HTML file build to an engineer and want the motion written down."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Footer"
+  },
+  {
+   "label": "Vertical",
+   "value": "Agencies & Studios"
+  },
+  {
+   "label": "Canvas",
+   "value": "1564x1080 · 1.45:1"
+  },
+  {
+   "label": "Clip length",
+   "value": "6.9s loop"
+  },
+  {
+   "label": "Input brief",
+   "value": "30,665 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type scale",
+   "value": "Epilogue, DM Sans · 14–17px"
+  },
+  {
+   "label": "Reference stack",
+   "value": "React, TypeScript, single HTML file"
+  },
+  {
+   "label": "Animation",
+   "value": "2.54167s transitions and a 6.9s media loop"
+  }
+ ],
+ "related": [
+  "vortex-studio-hero",
+  "3d-character-studio",
+  "aethera-hero",
+  "blog-showcase",
+  "bold-studio",
+  "creative-portfolio"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 30665,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "slug": "velora-car-rental-hero",
+ "sourceSlug": "lp-009-6a69da520cd891fdf74d7178",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "Velora Hero Section"
+ },
+ "title": "Velora Hero Section",
+ "industry": "travel",
+ "industryLabel": "Travel",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/0fda0b4074c547ab.webp",
+  "still": "https://cdn.ottermind.ai/public/e7a4d730a37535dd.webp",
+  "preview": "https://cdn.ottermind.ai/public/f08155b1ff3a2a21.mp4",
+  "full": "https://cdn.ottermind.ai/public/67e7129f0fd72522.mp4",
+  "aspectRatio": 1.3889,
+  "width": 1500,
+  "height": 1080,
+  "duration": 4.9
+ },
+ "seo": {
+  "title": "Velora Hero Section Travel Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for a travel brand — Archivo, #0A0A0B base, a dark stage and looping video. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "travel website design",
+   "travel hero section design",
+   "video-backed travel landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Velora Hero Section — Travel Hero Section Design",
+ "tagline": "Hero section reference built around “Rent Your Dream Luxury Car Today”, with the layout, timings and palette written down in the brief.",
+ "summary": "Hero section reference for a travel brand — Archivo, #0A0A0B base, a dark stage and looping video.",
+ "about": "Velora Hero Section is a travel hero section built from one written brief, and this page documents that brief. It leads with “Rent Your Dream Luxury Car Today” and gives that line the frame rather than shrinking it into a card. The palette runs black #0A0A0B underneath and white #FFFFFF for the type, and the type is Archivo. Delivery is one self-contained HTML file — one page, no plugin, no build tooling between you and the design. The brief spends its motion budget on a looping video bed. Borrow the structure and not the subject: the hero section and its numbers move to your brand unchanged.",
+ "layout": [
+  {
+   "title": "Top row: wordmark, links, one action",
+   "body": "Navigation is a single row with no second level under it. The bar sits over the 1500x1080 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "Sizes fixed in the brief",
+   "body": "The brief names the numbers: 100vh sections and 56px spacing steps. That is why the composition holds together, because there is no invented spacing step between the type and the frame. Because the values are fixed, a substitution changes the look without changing the rhythm."
+  },
+  {
+   "title": "Figures as typography",
+   "body": "The figures are set in Archivo at a size closer to the headline than to the body copy. The label step is quoted in the brief, so it stays below the figures after a substitution. Do not box the numbers."
+  },
+  {
+   "title": "Links before the action",
+   "body": "The mobile menu is part of the brief, so the collapsed state is designed rather than improvised. Copy this pattern when you need navigation that survives a loud first screen."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Hover, but sparingly",
+   "body": "Every interactive element does one thing (hover states on the buttons and links rather than on every card), which is what keeps the states predictable. Press states are specified as well as hover, so a tap gives the same confirmation as a click."
+  },
+  {
+   "title": "A loop, not a timeline",
+   "body": "The background clip runs 4.9s at 1500x1080 on an endless loop, muted and inline, so the page keeps moving while the reader's attention is on the copy. No scroll library is required, because the only ambient motion is the media itself. Nothing else on the page animates continuously, so the media is the only thing asking for attention."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#0A0A0B",
+    "name": "Near-black",
+    "role": "composition"
+   },
+   {
+    "hex": "#FAF9F5",
+    "name": "White",
+    "role": "lighter step"
+   },
+   {
+    "hex": "#E9E9EC",
+    "name": "White — darker",
+    "role": "Hover tint"
+   },
+   {
+    "hex": "#FFFFFF",
+    "name": "White — lighter",
+    "role": "Headline"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Archivo",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Nothing sits between the type and the 1500x1080 clip, so a replacement has to work under the copy directly.",
+   "Media is specified at 1500x1080 and a 4.9s loop, so a replacement should match the crop and the loop length.",
+   "The clip is one asset at 1500x1080 and a 4.9s loop, so the composition has a single media dependency."
+  ]
+ },
+ "customize": [
+  "Replace the video with a still at 1500x1080 if the 4.9s loop is too heavy for the page you are shipping.",
+  "Replace “Rent Your Dream Luxury Car Today” with your own line and keep the same number of words, because the brief sizes the type for that rhythm.",
+  "Keep Archivo or pick a face with the same proportions; the size scale is set for those widths, not for a substitute.",
+  "Replace the headline and the supporting line with your own copy, keeping the same line count so the entrance still lands over the 1500x1080 frame."
+ ],
+ "editorial": [
+  {
+   "title": "Making the hero section yours",
+   "body": "A template asks you to accept its layout; this reference asks you to keep it and change everything inside. The difference is that 100vh sections and 56px spacing steps stay fixed while the subject moves. Your accent has to survive the same contrast test as the reference accent."
+  },
+  {
+   "title": "Reading Velora Hero Section as a spec",
+   "body": "Most references show the result and keep the numbers. This one reverses that: 100vh sections and 56px spacing steps are published beside the page, so the result can be reproduced instead of approximated. Nothing in this hero section depends on a default."
+  },
+  {
+   "title": "The order behind the hero section",
+   "body": "When a travel reader lands on a single screen, they scan before they read. The layout answers that: navigation, the headline, the stats row and the background clip are sized to be scanned, with 100vh sections and 56px spacing steps keeping each stop distinct. A travel reader gets the offer before the options."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1500x1080 capture before you generate.",
+  "Keep the measurements the brief spells out: 100vh sections and 56px spacing steps.",
+  "Pin the reference measurements before you restyle anything: 100vh sections and 56px spacing steps.",
+  "Copy 100vh sections and 56px spacing steps into your own brief before you rewrite anything else.",
+  "Check your build against the reference measurements: 100vh sections and 56px spacing steps."
+ ],
+ "faq": [
+  {
+   "question": "Do I need one self-contained HTML file to rebuild Velora Hero Section?",
+   "answer": "Velora Hero Section was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What can I do with the Velora Hero Section brief once I have it?",
+   "answer": "Everything quoted on the page comes from the captured 3,216-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "Is the Velora Hero Section prompt a finished spec or a starting point?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1500x1080, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  }
+ ],
+ "audience": [
+  "Made for a designer joining a project that already ships one self-contained HTML file and only needs the copy replaced.",
+  "Hand one self-contained HTML file to the engineer with the 1500x1080 crop attached, then let them rebuild it.",
+  "If the build starts from one self-contained HTML file, lift 100vh sections and 56px spacing steps first and leave the palette alone until the grid settles."
+ ],
+ "specs": [
+  {
+   "label": "Block",
+   "value": "Hero section"
+  },
+  {
+   "label": "Vertical",
+   "value": "Travel"
+  },
+  {
+   "label": "Canvas size",
+   "value": "1500x1080 · 1.39:1"
+  },
+  {
+   "label": "Duration",
+   "value": "4.9s loop"
+  },
+  {
+   "label": "Source text",
+   "value": "3,216 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type",
+   "value": "Archivo"
+  },
+  {
+   "label": "Reference stack",
+   "value": "single HTML file"
+  },
+  {
+   "label": "Motion",
+   "value": "a 4.9s media loop"
+  }
+ ],
+ "related": [
+  "mostar-guide",
+  "place-saver",
+  "skyelite-hero",
+  "travel-journal",
+  "wanderful-hero",
+  "aetheris-voyage-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 3216,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

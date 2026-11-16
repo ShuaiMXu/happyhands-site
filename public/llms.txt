@@ -44,3 +44,9 @@
 - [Lime reference](https://happyhands.cc/systems/lime/): Personal assistants and consumer apps; upstream source is design.how.
 
 This file is a factual reading aid, not an indexing requirement or a guarantee of search ranking or AI citations. The linked user-facing guides contain the same scope and limitations.
+
+## Unified design resources
+
+- [Resource collections](https://happyhands.cc/components/?provider=collections): task-grouped archives, tokens, guidelines and source registries.
+- [Versioned catalog](https://happyhands.cc/resources/v1/index.json): resource IDs, full-document paths, SHA-256, source, platform, system and license notes. Use the HappyHands resource MCP or existing resources search/select commands to choose and freeze references before diagnosis.
+- [Resource MCP guide](https://github.com/ShuaiMXu/happyhands/blob/main/docs/resource-mcp.md): local stdio search/read, source verification and existing Harness Run handoff.

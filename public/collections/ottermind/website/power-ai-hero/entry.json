@@ -1,0 +1,203 @@
+{
+ "slug": "power-ai-hero",
+ "sourceSlug": "power-ai-hero",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Power AI"
+ },
+ "title": "Power AI",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/fe72ec26671b3e70.webp",
+  "still": "https://cdn.ottermind.ai/public/7484451b31f85367.webp",
+  "preview": "https://cdn.ottermind.ai/public/1ceaf2a3cf1c1fbb.mp4",
+  "full": "https://cdn.ottermind.ai/public/7ea4408daa5ae22b.mp4",
+  "aspectRatio": 1.3245,
+  "width": 800,
+  "height": 604,
+  "duration": 11.9
+ },
+ "seo": {
+  "title": "Power AI AI & SaaS Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an AI or SaaS product — #000000 base, #A855F7 accent, a stats row and a moving marquee. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS hero section design",
+   "video-backed SaaS landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Power AI — AI & SaaS Hero Section Design",
+ "tagline": "Hero section reference built on black #000000 and indigo #A855F7, set in Geist and measured against a fixed 220px display size.",
+ "summary": "Hero section reference for an AI or SaaS product — #000000 base, #A855F7 accent, a stats row and a moving marquee.",
+ "about": "This is the hero section from Power AI, published with the brief that produced it rather than as a screenshot. The headline reads “The most powerful AI ever deployed in talent acquisition”, and the rest of the hero section is arranged around it. The palette is black #000000 underneath, yellow #FCD34D for the type and indigo #A855F7 carrying the accents, set in Geist. Delivery is a single component, captured at 800x604 so the frame is fixed before any code is written. Motion is confined to 100ms transitions. Keep it open while you write: the 3,838-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "The bar shares the page grid",
+   "body": "The bar is the quietest part of the composition: wordmark, a short row of links and one #A855F7 action, all held at the smallest type step in the brief. The links are set below the wordmark in size, and the #A855F7 action is the only element in the bar with any weight."
+  },
+  {
+   "title": "The spacing steps are quoted",
+   "body": "Nothing in the layout is left to feel: the brief quotes a fixed 220px display size, 82px spacing steps and 100ms transitions and the build has to hit those values. Values are quoted from the captured prompt rather than inferred, so they survive a re-render."
+  },
+  {
+   "title": "Logo strip on the baseline",
+   "body": "Logos sit on the baseline in a single Geist row, unlabelled, which keeps the claim implicit and the composition intact. There is no heading and no border, so the row stays part of the first screen. Keep the row unlabelled."
+  },
+  {
+   "title": "Links before the action",
+   "body": "The bar sits over the 800x604 composition without a background of its own, so the media runs edge to edge underneath it."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Pointer states, nothing more",
+   "body": "The interactive layer is deliberately small: hover states on the buttons and links rather than on every card. The interactive states do not move layout, so nothing jumps under the pointer. A few reliable states beat a long list of effects."
+  },
+  {
+   "title": "The strip that never stops",
+   "body": "The horizontal strip is the loudest element after the headline: continuous motion, #A855F7 on the active item, and it never asks the reader to interact. The active item is marked with #A855F7 rather than with a size change."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#6366F1",
+    "name": "Blue",
+    "role": "lighter"
+   },
+   {
+    "hex": "#A855F7",
+    "name": "Indigo",
+    "role": "accent"
+   },
+   {
+    "hex": "#FCD34D",
+    "name": "Yellow",
+    "role": "Headline"
+   },
+   {
+    "hex": "#000000",
+    "name": "Near-black",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Geist",
+    "weights": "220px",
+    "role": "Headline and interface text"
+   },
+   {
+    "name": "General Sans",
+    "weights": "220px",
+    "role": "Text face"
+   }
+  ],
+  "notes": [
+   "Font roles are assigned rather than mixed here, and 220px is the range the whole scale works in.",
+   "The display line is Geist at the top of a 220px scale, with the interface text on the same face.",
+   "The accent is spent on indigo #A855F7 and the rest of the composition holds black #000000."
+  ]
+ },
+ "customize": [
+  "Write the replacement headline first, then confirm it still fits the 800x604 frame at the reference's type size.",
+  "Replace “The most powerful AI ever deployed in talent acquisition” with your own line and keep the word count, because the entrance is timed per line.",
+  "Replace “The most powerful AI ever deployed in talent acquisition” with your own line and keep the same number of words, because the brief sizes the type for that rhythm.",
+  "Replace #A855F7 last, after the copy is final, and test it against #000000 at the smallest text size on the page."
+ ],
+ "editorial": [
+  {
+   "title": "What holds up for AI & SaaS",
+   "body": "If your first screen currently explains three things, this is the version that explains one. navigation, the headline, the stats row, the client row and the background clip are staged in reading order, with a fixed 220px display size and 82px spacing steps setting the rhythm. Power AI states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "What moves in Power AI",
+   "body": "A preset animation pack would have been quicker to ship. The brief specifies 100ms transitions, hover and press states and a looping marquee instead, which is why the page reads as authored rather than staged. Nothing animates for its own sake in this hero section."
+  },
+  {
+   "title": "Making the hero section yours",
+   "body": "Start with the copy, not the colour. Rewrite “The most powerful AI ever deployed in talent acquisition” as one sentence about your product, then set it in Geist at the size the brief uses. Your accent has to survive the same contrast test as the reference accent."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 800x604 capture before you generate.",
+  "Drop your product name in, then replace #A855F7 with your own accent and re-check the contrast.",
+  "Set the brand first: product name, the #A855F7 accent and a headline that replaces the reference's.",
+  "Set your brand first: product name, the #A855F7 accent and the headline that replaces the reference's.",
+  "Type the product name and the #A855F7 accent before you touch the layout."
+ ],
+ "faq": [
+  {
+   "question": "Why does the entry name a single component at all?",
+   "answer": "Power AI was built in a single component, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Is the Power AI prompt a finished spec or a starting point?",
+   "answer": "The captured brief runs 3,838 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Can I use Power AI in a client project?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 800x604."
+  }
+ ],
+ "audience": [
+  "The page serves front-end developers rebuilding an AI or SaaS product hero section in a single component and looking for the numbers behind the look.",
+  "If the build starts from a single component, lift a fixed 220px display size and 82px spacing steps first and leave the palette alone until the grid settles.",
+  "Teams rebuilding a competitor's SaaS hero section who want a single component named before anyone commits to a framework."
+ ],
+ "specs": [
+  {
+   "label": "Block",
+   "value": "Hero section"
+  },
+  {
+   "label": "Category",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Frame",
+   "value": "800x604 · 1.32:1"
+  },
+  {
+   "label": "Input brief",
+   "value": "3,838 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key colour",
+   "value": "indigo #A855F7"
+  },
+  {
+   "label": "Type",
+   "value": "Geist, General Sans · 220px"
+  },
+  {
+   "label": "Motion spec",
+   "value": "100ms transitions"
+  }
+ ],
+ "related": [
+  "tenlas-cta-footer",
+  "peakflow-contact-footer",
+  "zyphor-hero",
+  "ltx-video",
+  "luminex-hero",
+  "mindloop-landing"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 3838,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

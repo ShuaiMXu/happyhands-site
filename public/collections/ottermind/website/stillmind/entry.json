@@ -1,0 +1,206 @@
+{
+ "slug": "stillmind",
+ "sourceSlug": "stillmind",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Stillmind"
+ },
+ "title": "Stillmind",
+ "industry": "health",
+ "industryLabel": "Health",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/371c86a70ea90d6e.webp",
+  "still": "https://cdn.ottermind.ai/public/eb00e264af5e073e.webp",
+  "preview": "https://cdn.ottermind.ai/public/7c155fdc148b9fba.mp4",
+  "full": "https://cdn.ottermind.ai/public/6ab685bcad7de78a.mp4",
+  "aspectRatio": 1.363,
+  "width": 1472,
+  "height": 1080,
+  "duration": 6.167
+ },
+ "seo": {
+  "title": "Stillmind Health Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for a health or wellbeing product — a dark stage, 1000ms transitions, cubic-bezier(0.4,0,0.2,1) easing and looping video. Copy the prompt or open it.",
+  "keywords": [
+   "health website design",
+   "health hero section design",
+   "video-backed health landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Stillmind — Health Hero Section Design",
+ "tagline": "Hero section reference built on deep red #48292F and deep blue #182C41, set in Instrument Serif and measured against 1000ms transitions.",
+ "summary": "Hero section reference for a health or wellbeing product — a dark stage, 1000ms transitions, cubic-bezier(0.4,0,0.2,1) easing and looping video.",
+ "about": "This is the hero section from Stillmind, published with the brief that produced it rather than as a screenshot. The colour scheme is deep red #48292F underneath and deep blue #182C41 carrying the accents, and the page is set in Instrument Serif. Delivery is React and Tailwind CSS, captured at 1472x1080 so the frame is fixed before any code is written. The motion budget is 1000ms transitions, cubic-bezier(0.4,0,0.2,1) and a looping video bed. Treat it as the brief for a health or wellbeing product hero section that has to hold up under a rebuild, not just a first look.",
+ "layout": [
+  {
+   "title": "Navigation held to one row",
+   "body": "The bar carries the wordmark, the section links and one #182C41 button, measured at 1000ms transitions and cubic-bezier(0.4,0,0.2,1) easing so it never grows into a second header. The links are set below the wordmark in size, and the #182C41 action is the only element in the bar with any weight."
+  },
+  {
+   "title": "The poster frame matters",
+   "body": "A 6.2s clip at 1472x1080 does the atmospheric work; the brief fixes its crop and leaves the type untouched on top of it. A poster frame at 1472x1080 holds the composition when autoplay is unavailable, so the layout never collapses. Export at 1472x1080 or wider to keep the crop honest."
+  },
+  {
+   "title": "The type carries the tone",
+   "body": "Type is the styling system here: Instrument Serif at the display size, the same face across the interface, and no second accent colour doing the work. Numerals share the interface face, so statistics and labels belong to the same system."
+  },
+  {
+   "title": "Top row, one action",
+   "body": "The bar sits over the 1472x1080 composition without a background of its own, so the media runs edge to edge underneath it."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Pointer states, nothing more",
+   "body": "Feedback is limited to hover states on the buttons and links rather than on every card, so the rest of the layout is a fixed composition. Each state changes one property, which keeps the feedback legible. If a state does not confirm an action, drop it."
+  },
+  {
+   "title": "Timings in milliseconds",
+   "body": "The controls resolve in 1000ms, fast enough that the page answers as it is touched rather than after it. The durations are short enough that feedback reads as a response rather than as an animation."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#182C41",
+    "name": "Deep blue",
+    "role": "accent"
+   },
+   {
+    "hex": "#20141B",
+    "name": "Deep magenta",
+    "role": "darkest"
+   },
+   {
+    "hex": "#C4ACA4",
+    "name": "Muted orange",
+    "role": "lightest"
+   },
+   {
+    "hex": "#48292F",
+    "name": "Deep red",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Instrument Serif",
+    "weights": "Weight not fixed in the brief",
+    "role": "Display"
+   }
+  ],
+  "notes": [
+   "Nothing sits between the type and the 1472x1080 clip, so a replacement has to work under the copy directly.",
+   "The accent is spent on deep blue #182C41 and the rest of the composition holds deep red #48292F.",
+   "The clip is one asset at 1472x1080 and a 6.2s loop, so the composition has a single media dependency."
+  ]
+ },
+ "customize": [
+  "Retime the entrance to your own 1000ms, but keep cubic-bezier(0.4,0,0.2,1) as the curve, because the easing is what reads as this design.",
+  "Read the brief value by value against the 1472x1080 capture before you edit anything; the numbers are the part that is easiest to lose.",
+  "Recut your footage to the 6.2s loop, then export at 1472x1080 so the crop the reference specifies survives.",
+  "Draft the new copy to the 1472x1080 frame, then check that the entrance still lands on the same number of lines."
+ ],
+ "editorial": [
+  {
+   "title": "The numbers behind the hero section",
+   "body": "The brief is a specification, not a mood board. It fixes 1000ms transitions and cubic-bezier(0.4,0,0.2,1) easing, and it names the media at 1472x1080 and a 6.2s loop. That level of detail is why the design survives a rebuild: change the copy and the relationships still hold. Nothing in this hero section depends on a default."
+  },
+  {
+   "title": "How Stillmind sequences the first read",
+   "body": "One screen, one action, and navigation, the announcement badge, the stats row, the feature list and the background clip between them. The brief fixes that order rather than leaving the first screen to a stack of sections. A health reader gets the offer before the options."
+  },
+  {
+   "title": "The timing behind the hero section",
+   "body": "A short motion budget costs you drama on the first frame. It buys legibility, and it means 1000ms transitions, a 6.2s media loop and hover and press states can be ported without a library. Nothing animates for its own sake in this hero section."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1472x1080 capture before you generate.",
+  "Set the brand first: product name, the #182C41 accent and a headline that replaces the reference's.",
+  "Drop your product name in, then replace #182C41 with your own accent and re-check the contrast.",
+  "Type the product name and the #182C41 accent before you touch the layout.",
+  "Set your brand first: product name, the #182C41 accent and the headline that replaces the reference's."
+ ],
+ "faq": [
+  {
+   "question": "How long is the prompt behind Stillmind?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1472x1080, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Why does the entry name React and Tailwind CSS at all?",
+   "answer": "Stillmind was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Where did the Stillmind design come from?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1472x1080."
+  }
+ ],
+ "audience": [
+  "Product marketers who need the hero section to still read with 6.2s of looping video behind the copy.",
+  "People who brief a model on a hero section will use the 6,025-character prompt as the starting point.",
+  "Made for content leads rewriting a hero section whose headline has to stay as long as Stillmind's."
+ ],
+ "specs": [
+  {
+   "label": "Page part",
+   "value": "Hero section"
+  },
+  {
+   "label": "Industry",
+   "value": "Health"
+  },
+  {
+   "label": "Canvas size",
+   "value": "1472x1080 · 1.36:1"
+  },
+  {
+   "label": "Loop",
+   "value": "6.2s loop"
+  },
+  {
+   "label": "Brief",
+   "value": "6,025 characters"
+  },
+  {
+   "label": "Captured",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key tone",
+   "value": "deep blue #182C41"
+  },
+  {
+   "label": "Type",
+   "value": "Instrument Serif"
+  },
+  {
+   "label": "Tools",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Timing",
+   "value": "1000ms transitions, cubic-bezier(0.4,0,0.2,1) easing and a 6.2s media loop"
+  }
+ ],
+ "related": [
+  "prosthetics-hero",
+  "wellbeing-os",
+  "wellness-balance",
+  "wellness-companion",
+  "wellness-device",
+  "wellness-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 6025,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

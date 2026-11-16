@@ -1,0 +1,203 @@
+{
+ "slug": "neuralyn-hero",
+ "sourceSlug": "neuralyn-hero",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Neuralyn"
+ },
+ "title": "Neuralyn",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/dd3e3e46848e0180.webp",
+  "still": "https://cdn.ottermind.ai/public/871e3a1f948cdd05.webp",
+  "preview": "https://cdn.ottermind.ai/public/bb8a8fc1a578bb3c.mp4",
+  "full": "https://cdn.ottermind.ai/public/875ea3dca5a7c6d7.mp4",
+  "aspectRatio": 1.3559,
+  "width": 800,
+  "height": 590,
+  "duration": 2.3
+ },
+ "seo": {
+  "title": "Neuralyn AI & SaaS Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an AI or SaaS product — glass panels, React and Tailwind CSS, #000000 base and a stats row. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS hero section design",
+   "video-backed SaaS landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Neuralyn — AI & SaaS Hero Section Design",
+ "tagline": "Hero section reference built around “One Clear Overview”, with the layout, timings and palette written down in the brief.",
+ "summary": "Hero section reference for an AI or SaaS product — glass panels, React and Tailwind CSS, #000000 base and a stats row.",
+ "about": "Neuralyn gives an AI or SaaS product a finished first screen and the numbers that produced it. “One Clear Overview” is the line the layout is built to carry. Colour is limited to black #000000 underneath, set in Inter. Delivery is React and Tailwind CSS, captured at 800x590 so the frame is fixed before any code is written. The page keeps its motion to 0.6s transitions. Keep it open while you write: the 5,257-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "Top row: wordmark, links, one action",
+   "body": "The bar overlays the hero section instead of pushing it down, so the composition keeps the full height of the first screen. The bar sits over the 800x590 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "Panels carry the middle",
+   "body": "Where a run of copy would go, this page puts a set of panels, which is what keeps the hero section scannable. Panels share the interface face at one size, which keeps the grid from becoming a second layout."
+  },
+  {
+   "title": "Navigation without a background",
+   "body": "Focus and hover states are specified for each link rather than inherited from the browser. Keep the row to one line."
+  },
+  {
+   "title": "Measured against the viewport",
+   "body": "Sizes were read off the render at 800x590: 0.6s transitions. Each value maps to one job: a type step, a gap, a radius or a transition."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Scroll drives the composition",
+   "body": "Parallax is the page's single scroll behaviour, so the effect has a defined place in the composition. Because it is tied to position, the effect resolves the same way on every visit."
+  },
+  {
+   "title": "Timing kept in the brief",
+   "body": "The animation budget is small and explicit: 0.6s, applied to state changes rather than to entrances. Easing is specified alongside the duration (0.6s), so a rebuild cannot quietly substitute a different feel. Keep the durations when you re-skin the page."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#000000",
+    "name": "Near-black",
+    "role": "composition"
+   },
+   {
+    "hex": "#79786F",
+    "name": "Gray",
+    "role": "lightest"
+   },
+   {
+    "hex": "#010001",
+    "name": "Near-black — lighter",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#031214",
+    "name": "Near-black — lighter",
+    "role": "Secondary"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "UI face"
+   },
+   {
+    "name": "Instrument Serif",
+    "weights": "Weight not fixed in the brief",
+    "role": "Accent type"
+   }
+  ],
+  "notes": [
+   "The timing budget is state feedback rather than page choreography (0.6s), so a slower rebuild reads as a different design.",
+   "Transitions are specified at 0.6s, short enough that the page never feels like it is waiting for an animation.",
+   "Transitions are specified at 0.6s, which is the value to keep when the palette changes."
+  ]
+ },
+ "customize": [
+  "Rewrite “One Clear Overview” to the same line count; the mask reveals each line in turn.",
+  "Retime the entrance to taste. 0.6s with a standard ease-out is what the reference uses.",
+  "Retime the entrance to your own 0.6s, but keep a standard ease-out as the curve, because the easing is what reads as this design.",
+  "Write the replacement headline first, then confirm it still fits the 800x590 frame at the reference's type size."
+ ],
+ "editorial": [
+  {
+   "title": "The order behind the hero section",
+   "body": "Where a marketing page stacks proof below the fold and hopes, this hero section puts navigation, the headline, the announcement badge, the stats row and the card grid in front of the reader and holds the rest back. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "What moves in Neuralyn",
+   "body": "The timing is explicit: 0.6s transitions, parallax layers and a sticky element, all of it written into the brief rather than tuned by feel. Nothing animates for its own sake in this hero section."
+  },
+  {
+   "title": "What to change first in Neuralyn",
+   "body": "The composition is the reusable part and the subject is yours. Keep 0.6s transitions and replace the words, the media and the brand marks. The frame and the scale are what to leave alone."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 800x590 capture before you generate.",
+  "Check your build against the reference measurements: 0.6s transitions.",
+  "Copy 0.6s transitions into your own brief before you rewrite anything else.",
+  "Pin the reference measurements before you restyle anything: 0.6s transitions.",
+  "Keep the measurements the brief spells out: 0.6s transitions."
+ ],
+ "faq": [
+  {
+   "question": "Is the Neuralyn prompt a finished spec or a starting point?",
+   "answer": "The captured brief runs 5,257 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Can I rebuild the Neuralyn hero section in a different stack?",
+   "answer": "Neuralyn was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Can I use Neuralyn in a client project?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 800x590."
+  }
+ ],
+ "audience": [
+  "Made for content leads rewriting a hero section whose headline has to stay as long as Neuralyn's.",
+  "The hero section suits growth teams that will A/B the headline without touching Inter.",
+  "Replace the hero section copy before you touch Inter, because the sizes are set for the current line lengths."
+ ],
+ "specs": [
+  {
+   "label": "Block",
+   "value": "Hero section"
+  },
+  {
+   "label": "Vertical",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Viewport",
+   "value": "800x590 · 1.36:1"
+  },
+  {
+   "label": "Source text",
+   "value": "5,257 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type scale",
+   "value": "Inter, Instrument Serif"
+  },
+  {
+   "label": "Built with",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Animation",
+   "value": "0.6s transitions"
+  }
+ ],
+ "related": [
+  "cybersecurity-hero",
+  "data-signal",
+  "datacore-booking-hero",
+  "deepthink",
+  "design-rocket-email-hero",
+  "digitwist-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 5257,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

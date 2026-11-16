@@ -1,0 +1,207 @@
+{
+ "slug": "portiva-hero",
+ "sourceSlug": "lp-034-6a61dae40cd891fdf74d7092",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "Portiva Hero"
+ },
+ "title": "Portiva Hero",
+ "industry": "creative",
+ "industryLabel": "Agencies & Studios",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/e5a19b8aa0864c69.webp",
+  "still": "https://cdn.ottermind.ai/public/ecd2afb77ddb0d41.webp",
+  "preview": "https://cdn.ottermind.ai/public/c6326e2300d7233c.mp4",
+  "full": "https://cdn.ottermind.ai/public/fd2977580460ed43.mp4",
+  "aspectRatio": 1.3574,
+  "width": 1466,
+  "height": 1080,
+  "duration": 4.5
+ },
+ "seo": {
+  "title": "Portiva Hero Agencies & Studios Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an agency or studio — Inter, #C25E2E accent, glass panels and a word-by-word headline. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "agency website design",
+   "agency hero section design",
+   "video-backed agency landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Portiva Hero — Agencies & Studios Hero Section Design",
+ "tagline": "“Less complexity, more impact in every project” — the whole hero section is composed around that line, down to the animation timings.",
+ "summary": "Hero section reference for an agency or studio — Inter, #C25E2E accent, glass panels and a word-by-word headline.",
+ "about": "Portiva Hero shows one way to build the hero section for an agency or studio, and publishes the instructions that produced it. “Less complexity, more impact in every project” is the line the layout is built to carry. Colour is limited to teal #087573 underneath, white #D1E5E7 for the type and orange #C25E2E carrying the accents, set in Inter. It ships as one self-contained HTML file, so the whole hero section can be lifted into a project without a design handoff. Motion is confined to 120ms transitions and a looping video bed. Use it as the reference when you are building an agency or studio hero section and want a finished composition instead of a starting point.",
+ "layout": [
+  {
+   "title": "Navigation without a background",
+   "body": "Wordmark, links and the #C25E2E action share one baseline, which is what keeps a thin row from looking accidental. The links are set below the wordmark in size, and the #C25E2E action is the only element in the bar with any weight."
+  },
+  {
+   "title": "The sizes are in the brief, not in a scale",
+   "body": "Nothing in the layout is left to feel: the brief quotes 62px spacing steps and 120ms transitions and the build has to hit those values. A rebuild that hits those numbers looks like the reference without further tuning."
+  },
+  {
+   "title": "Full-frame video, no panel",
+   "body": "The media is doing atmospheric work rather than storytelling: one 4.5s loop at 1466x1080 behind everything else. Export at 1466x1080 or wider and the cover crop keeps working. Export at 1466x1080 or wider to keep the crop honest."
+  },
+  {
+   "title": "Two faces, clear jobs",
+   "body": "Typography is Inter, and the brief assigns the face a job rather than mixing for variety. Weight, tracking and size steps are all specified, so the hierarchy survives a substitution. A face swap is safe as long as the sizes and weights stay where the brief put them."
+  }
+ ],
+ "motion": [
+  {
+   "title": "One duration for the controls",
+   "body": "Motion is measured in milliseconds here: 120ms. That is the whole animation budget, and it is spent on state changes rather than on a scroll timeline. One value is reused across the controls, so their timing cannot drift apart. Fast state changes, no scroll timelines."
+  },
+  {
+   "title": "A loop, not a timeline",
+   "body": "One 4.5s clip is the entire ambient layer: it plays behind the copy, loops without a visible cut and never reacts to the pointer. The clip is muted and inline, so the first frame is available without an interaction."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#C25E2E",
+    "name": "Orange",
+    "role": "accent"
+   },
+   {
+    "hex": "#032223",
+    "name": "Deep teal",
+    "role": "darkest"
+   },
+   {
+    "hex": "#D1E5E7",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#087573",
+    "name": "Teal",
+    "role": "composition"
+   }
+  ],
+  "glass": "Panels are translucent over teal #087573, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Media is specified at 1466x1080 and a 4.5s loop, so a replacement should match the crop and the loop length.",
+   "The clip is one asset at 1466x1080 and a 4.5s loop, so the composition has a single media dependency.",
+   "The timing budget is state feedback rather than page choreography (120ms), so a slower rebuild reads as a different design."
+  ]
+ },
+ "customize": [
+  "Replace the headline and the supporting line with your own copy, keeping the same line count so the entrance still lands over the 1466x1080 frame.",
+  "Swap the clip for your own. Export at 1466x1080 or wider, keep it muted, and make the 4.5s loop seamless so the cut is invisible.",
+  "Write the replacement headline first, then confirm it still fits the 1466x1080 frame at the reference's type size.",
+  "Replace #C25E2E last, after the copy is final, and test it against #087573 at the smallest text size on the page."
+ ],
+ "editorial": [
+  {
+   "title": "The order behind the hero section",
+   "body": "Read it in order: navigation, the announcement badge, the card grid and the background clip. Each element has one job, and the orange #C25E2E accent is spent only on the element you are meant to press. A agency reader gets the offer before the options."
+  },
+  {
+   "title": "Reading Portiva Hero as a spec",
+   "body": "When a rebuild drifts, the spacing goes first. Portiva Hero avoids that by publishing 62px spacing steps and 120ms transitions with the composition. Nothing in this hero section depends on a default."
+  },
+  {
+   "title": "How the hero section reflows",
+   "body": "The hero section is composed at 1466x1080 and then re-composed for narrow widths. the navigation collapses into a mobile menu, so the phone version is a decision rather than a squeeze. The reflow keeps the action reachable at every width."
+  }
+ ],
+ "steps": [
+  "Type the product name and the #C25E2E accent before you touch the layout.",
+  "Set the brand first: product name, the #C25E2E accent and a headline that replaces the reference's.",
+  "Drop your product name in, then replace #C25E2E with your own accent and re-check the contrast.",
+  "Set your brand first: product name, the #C25E2E accent and the headline that replaces the reference's.",
+  "Check your build against the reference measurements: 62px spacing steps and 120ms transitions."
+ ],
+ "faq": [
+  {
+   "question": "What does the brief behind Portiva Hero actually contain?",
+   "answer": "The captured brief runs 2,639 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Can I rebuild the Portiva Hero hero section in a different stack?",
+   "answer": "Portiva Hero was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Is the Portiva Hero brief the same as the prompt I would write?",
+   "answer": "Everything quoted on the page comes from the captured 2,639-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  }
+ ],
+ "audience": [
+  "Studio teams briefing a build and looking for one self-contained HTML file to react to.",
+  "Borrow the hero section structure whole and replace the copy line by line against a 1466x1080 frame.",
+  "This hero section serves designers who have to hand a one self-contained HTML file build to an engineer and want the motion written down."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Hero section"
+  },
+  {
+   "label": "Industry",
+   "value": "Agencies & Studios"
+  },
+  {
+   "label": "Frame",
+   "value": "1466x1080 · 1.36:1"
+  },
+  {
+   "label": "Loop",
+   "value": "4.5s loop"
+  },
+  {
+   "label": "Input brief",
+   "value": "2,639 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent hex",
+   "value": "orange #C25E2E"
+  },
+  {
+   "label": "Type scale",
+   "value": "Inter"
+  },
+  {
+   "label": "Tech stack",
+   "value": "Tailwind CSS, vanilla JS, single HTML file"
+  },
+  {
+   "label": "Timing",
+   "value": "120ms transitions and a 4.5s media loop"
+  }
+ ],
+ "related": [
+  "innovation-landing",
+  "launchex-about",
+  "stories-in-light-hero",
+  "neurolink-memorial-hero",
+  "adventra-hero",
+  "averra-testimonial-slider"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 2639,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

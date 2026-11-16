@@ -1,0 +1,74 @@
+/* Scoped base for Meridian Mono. Replaces Tailwind preflight inside .meridian-mono only; imported before the utilities. */
+
+[data-system="meridian-mono"], .meridian-mono {
+  background: var(--page);
+  color: var(--text-1);
+  font: var(--type-body);
+  letter-spacing: var(--tracking-body);
+  text-wrap: pretty;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: light;
+}
+/* The same four dark selectors as tokens.css, so native controls and scrollbars turn dark with the tokens. */
+[data-system="meridian-mono"][data-theme="dark"], .meridian-mono[data-theme="dark"], [data-theme="dark"] [data-system="meridian-mono"], [data-theme="dark"] .meridian-mono { color-scheme: dark; }
+/* The reset sits in the base layer, beside Tailwind's own preflight, so a project's layered utilities (mx-auto,
+   px-4) beat it, and Meridian Mono's unlayered ones still do. What must win over a page's own rules stays out of the layer:
+   the selection colour, the focus ring and the phone zoom guard. */
+@layer base {
+  .meridian-mono :where(*, ::before, ::after), [data-system="meridian-mono"] :where(*, ::before, ::after) { box-sizing: border-box; border: 0 solid var(--line); border-radius: 0; margin: 0; padding: 0; }
+  .meridian-mono :where(h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd, pre) { margin: 0; font: inherit; }
+  .meridian-mono :where(ul, ol) { list-style: none; }
+  .meridian-mono :where(a) { color: inherit; text-decoration: inherit; }
+  .meridian-mono :where(button, input, select, textarea) { font: inherit; letter-spacing: inherit; color: inherit; background: transparent; }
+  .meridian-mono :where(button, [role="button"]) { cursor: pointer; }
+  .meridian-mono :where(button:disabled, [aria-disabled="true"]) { cursor: not-allowed; }
+  .meridian-mono :where(img, video, canvas, svg) { display: block; max-width: 100%; }
+  /* Lucide draws a few glyphs' boxes with rounded corners (Copy, Calendar, Lock); Meridian Mono is square everywhere. */
+  .meridian-mono :where(svg.lucide rect) { rx: 0; ry: 0; }
+  .meridian-mono :where(table) { border-collapse: collapse; }
+  /* Mono in a sentence of sans: Commit Mono's letters are 22% wider than Inter Display's at one size, so it takes
+     --mono-scale of the text around it and keeps that text's line height and baseline. A block of code sets its own
+     role (type-code). */
+  .meridian-mono :where(code, kbd, samp) { font-family: var(--font-mono); font-size: calc(1em * var(--mono-scale)); letter-spacing: 0; }
+  .meridian-mono :where(pre) { font-family: var(--font-mono); }
+  /* Code inside a pre is the block's own line, not mono inside a sentence, so it keeps the block's size. */
+  .meridian-mono :where(pre code, pre kbd, pre samp) { font-size: inherit; }
+  .meridian-mono :where(td, th, time, data, output) { font-variant-numeric: tabular-nums; }
+  /* Every interactive element declares its transition, so no control cuts while its neighbour tweens. */
+  .meridian-mono :where(a, button, summary, input, select, textarea, label, [role="button"], [role="tab"], [role="menuitem"], [role="option"], [role="switch"], [role="checkbox"], [role="radio"]) {
+    transition-property: color, background-color, border-color, opacity;
+    transition-duration: var(--dur-state);
+    transition-timing-function: var(--ease-out);
+  }
+  /* The ring's colour is set at rest, so a control that transitions its colours never fades the ring in from black. */
+  .meridian-mono :where(*, ::before, ::after), [data-system="meridian-mono"] :where(*, ::before, ::after) { outline-color: var(--focus); }
+}
+.meridian-mono ::selection { background: var(--selected); color: var(--text-1); }
+/* Focus is a 2px outline in --focus (dark indigo in light, blue in dark), 2px out and square, on every focusable. Two
+   classes of specificity beat a site-wide a:focus-visible. A field (the field recipe) draws its own focus on its edge. */
+.meridian-mono :where(*):is(:focus-visible, [data-force-focus-visible]) { outline: var(--focus-width) solid var(--focus); outline-offset: var(--focus-offset); }
+/* One thin square scrollbar for every scrolling region, portalled overlays included: a 6px thumb in --scrollbar-thumb
+   with --scrollbar-gap of clear around it (a transparent border, the background clipped inside it), no track, no
+   arrows. The thumb shows only while the pointer is over the region or focus is in it, the way the OS overlay bars
+   do, so a log or a table at rest shows its content and no chrome. Browsers with the ::-webkit-scrollbar parts draw it
+   from them; the standard pair goes only to the others. */
+@supports selector(::-webkit-scrollbar) {
+  @layer base { .meridian-mono, .meridian-mono *, [data-system="meridian-mono"], [data-system="meridian-mono"] * { scrollbar-color: auto; } }
+}
+.meridian-mono ::-webkit-scrollbar, .meridian-mono::-webkit-scrollbar, [data-system="meridian-mono"] ::-webkit-scrollbar { width: var(--scrollbar-size); height: var(--scrollbar-size); background: transparent; }
+.meridian-mono ::-webkit-scrollbar-thumb, .meridian-mono::-webkit-scrollbar-thumb, [data-system="meridian-mono"] ::-webkit-scrollbar-thumb { background-color: transparent; background-clip: padding-box; border: var(--scrollbar-gap) solid transparent; border-radius: var(--radius); }
+.meridian-mono :is(:hover, :focus-within)::-webkit-scrollbar-thumb, .meridian-mono:is(:hover, :focus-within)::-webkit-scrollbar-thumb, [data-system="meridian-mono"] :is(:hover, :focus-within)::-webkit-scrollbar-thumb { background-color: var(--scrollbar-thumb); }
+.meridian-mono ::-webkit-scrollbar-track, .meridian-mono ::-webkit-scrollbar-corner, [data-system="meridian-mono"] ::-webkit-scrollbar-track, [data-system="meridian-mono"] ::-webkit-scrollbar-corner { background: transparent; }
+.meridian-mono ::-webkit-scrollbar-button, [data-system="meridian-mono"] ::-webkit-scrollbar-button { display: none; }
+@supports not selector(::-webkit-scrollbar) {
+  .meridian-mono, .meridian-mono *, [data-system="meridian-mono"], [data-system="meridian-mono"] * { scrollbar-width: thin; scrollbar-color: transparent transparent; }
+  .meridian-mono :is(:hover, :focus-within), [data-system="meridian-mono"] :is(:hover, :focus-within) { scrollbar-color: var(--scrollbar-thumb) transparent; }
+}
+
+/* A phone browser zooms the page when a field under 16px takes focus. On a coarse pointer every text field is at least 16px. */
+@media (pointer: coarse) {
+  .meridian-mono input:not([type="checkbox"], [type="radio"], [type="range"], [type="button"], [type="submit"], [type="file"]),
+  .meridian-mono textarea,
+  .meridian-mono select { font-size: max(16px, 1em); }
+}

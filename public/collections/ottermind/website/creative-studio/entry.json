@@ -1,0 +1,198 @@
+{
+ "slug": "creative-studio",
+ "sourceSlug": "creative-studio",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Creative Studio"
+ },
+ "title": "Creative Studio",
+ "industry": "creative",
+ "industryLabel": "Agencies & Studios",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/ddaf6c6992a68c92.webp",
+  "still": "https://cdn.ottermind.ai/public/b1e4789b92d55d62.webp",
+  "preview": "https://cdn.ottermind.ai/public/b1e4789b92d55d62.webp",
+  "full": "https://cdn.ottermind.ai/public/b1e4789b92d55d62.webp",
+  "aspectRatio": 1.3853,
+  "width": 640,
+  "height": 462,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Creative Studio Agencies & Studios Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an agency or studio — Inter, #F3F3F3 base, 0.1s transitions and React and Tailwind CSS. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "agency website design",
+   "agency landing page design",
+   "minimal agency landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Creative Studio — Agencies & Studios Landing Page Design",
+ "tagline": "“Creative Studios Built Around Elevating Your Vision Into Striking Reality” — the whole landing page is composed around that line, down to the animation timings.",
+ "summary": "Landing page reference for an agency or studio — Inter, #F3F3F3 base, 0.1s transitions and React and Tailwind CSS.",
+ "about": "Creative Studio gives an agency or studio a finished first screen and the numbers that produced it. “Creative Studios Built Around Elevating Your Vision Into Striking Reality” is the line the layout is built to carry. Colour is limited to white #F3F3F3 underneath and indigo #5E0ED7 for the type, set in Inter. The build is React and Tailwind CSS; every measurement in it is written down, which is what makes it reusable. Motion is limited to 0.1s transitions. Use it as the reference when you are building an agency or studio landing page and want a finished composition instead of a starting point.",
+ "layout": [
+  {
+   "title": "A navigation bar that gets out of the way",
+   "body": "A slim bar sits over the landing page with the wordmark on the left and the links set in Inter, so the composition reads as content first and chrome second. A mobile overlay takes over below the tablet breakpoint. The bar sits over the 640x462 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "One scale for type and frame",
+   "body": "The layout is solved against fixed values (10px spacing steps and 0.1s transitions), which is what keeps the first screen composed at any width. The frame proportions are recorded with the sizes, so a rebuild gets the aspect right as well."
+  },
+  {
+   "title": "Navigation without a background",
+   "body": "The mobile menu is part of the brief, so the collapsed state is designed rather than improvised. Design the collapsed state before adding a sixth link."
+  },
+  {
+   "title": "The sizes are in the brief, not in a scale",
+   "body": "Spacing is quoted the same way (10px spacing steps and 0.1s transitions), not as a scale that grows on its own."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Durations from the brief",
+   "body": "One duration covers the interactions (0.1s), which is what keeps hover and press reading as one system. Easing is specified alongside the duration (0.1s), so a rebuild cannot quietly substitute a different feel."
+  },
+  {
+   "title": "Almost no motion",
+   "body": "There is no scroll library here: the 640x462 composition holds still and only the elements that respond to you move. There is no animation library in the brief, which keeps the rebuild small."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#5E0ED7",
+    "name": "Indigo",
+    "role": "Headline"
+   },
+   {
+    "hex": "#52455C",
+    "name": "Muted indigo",
+    "role": "darker step"
+   },
+   {
+    "hex": "#F7F7F7",
+    "name": "White",
+    "role": "lightest"
+   },
+   {
+    "hex": "#F3F3F3",
+    "name": "White — darker",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 0.1s, which is the value to keep when the palette changes.",
+   "The timing budget is state feedback rather than page choreography (0.1s), so a slower rebuild reads as a different design.",
+   "Transitions are specified at 0.1s, short enough that the page never feels like it is waiting for an animation."
+  ]
+ },
+ "customize": [
+  "Rewrite “Creative Studios Built Around Elevating Your Vision Into Striking Reality” to the same line count; the mask reveals each line in turn.",
+  "Draft the new copy to the 640x462 frame, then check that the entrance still lands on the same number of lines.",
+  "Write the replacement headline first, then confirm it still fits the 640x462 frame at the reference's type size.",
+  "Swap in your own headline where “Creative Studios Built Around Elevating Your Vision Into Striking Reality” sits and keep the line breaks, because the entrance animates per line."
+ ],
+ "editorial": [
+  {
+   "title": "The argument this landing page makes",
+   "body": "Most agency pages add another section when the first screen is weak. This one removes options instead: navigation, the headline, the stats row, the card grid and the feature list, in that order, and nothing that repeats the offer. It gives a agency reader the shortest honest route to the offer."
+  },
+  {
+   "title": "What to change first in Creative Studio",
+   "body": "Suppose you only have one afternoon. Change the headline and the action label, leave 10px spacing steps and 0.1s transitions alone, and you have a page that looks intentional. The composition is the reusable part, and it survives a different brand."
+  },
+  {
+   "title": "The timing behind the landing page",
+   "body": "Copy the pattern rather than the values: keep 0.1s transitions and let your own brand set the durations. Nothing animates for its own sake in this landing page."
+  }
+ ],
+ "steps": [
+  "Copy 10px spacing steps and 0.1s transitions into your own brief before you rewrite anything else.",
+  "Check your build against the reference measurements: 10px spacing steps and 0.1s transitions.",
+  "Keep the measurements the brief spells out: 10px spacing steps and 0.1s transitions.",
+  "Pin the reference measurements before you restyle anything: 10px spacing steps and 0.1s transitions.",
+  "Rebuild the motion last and keep the 0.1s entrance; the hover and scroll states come after it."
+ ],
+ "faq": [
+  {
+   "question": "What does the brief behind Creative Studio actually contain?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 640x462, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "How much of Creative Studio depends on React and Tailwind CSS?",
+   "answer": "Creative Studio was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What drives the motion in Creative Studio?",
+   "answer": "The motion is specified at the same level of detail as the layout: state changes settle in the 0.1s range. Port the composition first and the timings second, because they are easier to match once the layout holds."
+  }
+ ],
+ "audience": [
+  "Quote a 640x462 frame in the handoff note so the next build does not have to re-derive it from the page.",
+  "People who brief a model on a landing page will use the 5,481-character prompt as the starting point.",
+  "Made for content leads rewriting a landing page whose headline has to stay as long as Creative Studio's."
+ ],
+ "specs": [
+  {
+   "label": "Page part",
+   "value": "Landing page"
+  },
+  {
+   "label": "Industry",
+   "value": "Agencies & Studios"
+  },
+  {
+   "label": "Canvas",
+   "value": "640x462 · 1.39:1"
+  },
+  {
+   "label": "Prompt text",
+   "value": "5,481 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Faces",
+   "value": "Inter"
+  },
+  {
+   "label": "Tech stack",
+   "value": "Tailwind CSS, React, Framer Motion"
+  },
+  {
+   "label": "Transitions",
+   "value": "0.1s transitions"
+  }
+ ],
+ "related": [
+  "3d-character-studio",
+  "aethera-hero",
+  "blog-showcase",
+  "bold-studio",
+  "creative-portfolio",
+  "digital-director"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 5481,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

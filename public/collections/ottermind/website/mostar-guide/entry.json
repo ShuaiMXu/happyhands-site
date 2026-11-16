@@ -1,0 +1,211 @@
+{
+ "slug": "mostar-guide",
+ "sourceSlug": "mostar-guide",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Mostar Guide"
+ },
+ "title": "Mostar Guide",
+ "industry": "travel",
+ "industryLabel": "Travel",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/0d897e0400d8e34d.webp",
+  "still": "https://cdn.ottermind.ai/public/df28b1e0240b4079.webp",
+  "preview": "https://cdn.ottermind.ai/public/733116248bbd55b1.mp4",
+  "full": "https://cdn.ottermind.ai/public/9d0bc74731727f55.mp4",
+  "aspectRatio": 1.3664,
+  "width": 798,
+  "height": 584,
+  "duration": 7.423
+ },
+ "seo": {
+  "title": "Mostar Guide Travel Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for a travel brand — vanilla JS, max-width 560px and max-width 640px breakpoints, looping video and #111411 base. Copy the prompt or open it staged in.",
+  "keywords": [
+   "travel website design",
+   "travel landing page design",
+   "dark travel landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Mostar Guide — Travel Landing Page Design",
+ "tagline": "Landing page reference built around “A cinematic three-screen scroll story for Mostar city”, with the layout, timings and palette written down in the brief.",
+ "summary": "Landing page reference for a travel brand — vanilla JS, max-width 560px and max-width 640px breakpoints, looping video and #111411 base.",
+ "about": "Mostar Guide gives a travel brand a finished first screen and the numbers that produced it. The headline reads “A cinematic three-screen scroll story for Mostar city”, and the rest of the landing page is arranged around it. Colour is limited to #111411 underneath, tint #FDF1E1 for the type and blue #7FB4D4 carrying the accents, set in Inter. The build is vanilla JS; every measurement in it is written down, which is what makes it reusable. Motion is limited to 640ms transitions, cubic-bezier(0.22, 1, 0.36, 1) and a looping video bed. Use it as the reference when you are building a travel brand landing page and want a finished composition instead of a starting point.",
+ "layout": [
+  {
+   "title": "One row, no drawers",
+   "body": "The top row holds the wordmark, four to five links and a single action tinted #7FB4D4, sized to stay quiet against the rest of the page. Under 560px the links collapse into a full-screen overlay. Labels are short enough to fit one line at 560px, and the active item is marked with weight rather than with a pill. Test the bar over your own media before giving it a background."
+  },
+  {
+   "title": "Full-frame video, no panel",
+   "body": "The 798x584 frame is filled by a single loop that plays behind the copy and asks for no controls. The loop is short enough (7.4s) that the eye reads it as texture rather than as a timeline."
+  },
+  {
+   "title": "Top row: wordmark, links, one action",
+   "body": "Below 560px the links collapse instead of wrapping onto a second line."
+  },
+  {
+   "title": "Measured against the viewport",
+   "body": "Sizes are quoted rather than inherited: type from 12px to 24px, 19vh sections, a 2-column grid and 24px corners. Swap the face or the copy and those relationships still hold. The smallest and largest values in that list set the range the composition works in. Keep the named values when you port the page."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Short, matched timings",
+   "body": "Transitions are specified at 640ms using cubic-bezier(0.22, 1, 0.36, 1), which is the timing the controls are held to. The values are short enough to read as feedback rather than as animation."
+  },
+  {
+   "title": "Interaction is on the controls",
+   "body": "The interactive layer is deliberately small: a sticky element that holds position while the content moves under it and a slider that pages through content on demand. The states are drawn from the page's own palette rather than from a component default."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#FDF1E1",
+    "name": "Tint",
+    "role": "Headline"
+   },
+   {
+    "hex": "#111411",
+    "name": "Near-black",
+    "role": "Body text"
+   },
+   {
+    "hex": "#0B1110",
+    "name": "Near-black — darker",
+    "role": "darkest"
+   },
+   {
+    "hex": "#7FB4D4",
+    "name": "Blue",
+    "role": "accent"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "12–24px",
+    "role": "UI face"
+   },
+   {
+    "name": "Satoshi",
+    "weights": "12–24px",
+    "role": "Text face"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 640ms, short enough that the page never feels like it is waiting for an animation.",
+   "Accent use is limited to blue #7FB4D4; everything else sits on #111411.",
+   "The display line is Inter at the top of a 12–24px scale, with the interface text on the same face."
+  ]
+ },
+ "customize": [
+  "Replace “A cinematic three-screen scroll story for Mostar city” with your own line and keep the word count, because the entrance is timed per line.",
+  "Swap the clip for your own. Export at 798x584 or wider, keep it muted, and make the 7.4s loop seamless so the cut is invisible.",
+  "Change the copy first, then the accent, then the media: the 798x584 frame was solved in that order and reversing it costs a re-layout.",
+  "Rewrite “A cinematic three-screen scroll story for Mostar city” to the same line count; the mask reveals each line in turn."
+ ],
+ "editorial": [
+  {
+   "title": "Making the landing page yours",
+   "body": "A straight substitution has a limit: if your product needs a different hierarchy, type from 12px to 24px and 19vh sections will fight it. Change the order first in that case, and the values second. The frame and the scale are what to leave alone."
+  },
+  {
+   "title": "How the landing page reflows",
+   "body": "Type is clamped rather than stepped here (a clamp between 12px and 24px), so the display line does not jump between widths. The hierarchy is what survives the reflow."
+  },
+  {
+   "title": "The order behind the landing page",
+   "body": "One screen, one action, and navigation, the announcement badge, the stats row, the card grid and the feature list between them. The brief fixes that order rather than leaving the first screen to a stack of sections. A travel reader gets the offer before the options."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 798x584 capture before you generate.",
+  "Drop your product name in, then replace #7FB4D4 with your own accent and re-check the contrast.",
+  "Set the brand first: product name, the #7FB4D4 accent and a headline that replaces the reference's.",
+  "Set your brand first: product name, the #7FB4D4 accent and the headline that replaces the reference's.",
+  "Type the product name and the #7FB4D4 accent before you touch the layout."
+ ],
+ "faq": [
+  {
+   "question": "Is the Mostar Guide brief the same as the prompt I would write?",
+   "answer": "Everything quoted on the page comes from the captured 27,876-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "What do I get when I copy the Mostar Guide brief?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 798x584, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Can I rebuild the Mostar Guide landing page in a different stack?",
+   "answer": "Mostar Guide was built in vanilla JS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  }
+ ],
+ "audience": [
+  "Studio teams briefing a build and looking for a 560px breakpoint to react to.",
+  "Product managers who have to estimate the build will read a 798x584 frame as the scope of the work.",
+  "This landing page serves founders who need one screen of proof that travel copy can carry 7.4s of looping video."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Landing page"
+  },
+  {
+   "label": "Vertical",
+   "value": "Travel"
+  },
+  {
+   "label": "Canvas size",
+   "value": "798x584 · 1.37:1"
+  },
+  {
+   "label": "Loop",
+   "value": "7.4s loop"
+  },
+  {
+   "label": "Prompt",
+   "value": "27,876 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key tone",
+   "value": "blue #7FB4D4"
+  },
+  {
+   "label": "Type scale",
+   "value": "Inter, Satoshi · 12–24px"
+  },
+  {
+   "label": "Stack",
+   "value": "vanilla JS"
+  },
+  {
+   "label": "Motion spec",
+   "value": "640ms transitions, cubic-bezier(0.22, 1, 0.36, 1) easing and a 7.4s media loop"
+  }
+ ],
+ "related": [
+  "place-saver",
+  "skyelite-hero",
+  "travel-journal",
+  "wanderful-hero",
+  "aetheris-voyage-hero",
+  "ai-trip-planner"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 27876,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

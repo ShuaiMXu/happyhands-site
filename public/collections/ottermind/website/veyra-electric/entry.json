@@ -1,0 +1,202 @@
+{
+ "slug": "veyra-electric",
+ "sourceSlug": "veyra-electric",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Veyra Electric"
+ },
+ "title": "Veyra Electric",
+ "industry": "industrial",
+ "industryLabel": "Industrial",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/590007a1a9b419db.webp",
+  "still": "https://cdn.ottermind.ai/public/93cf0e6b4823884d.webp",
+  "preview": "https://cdn.ottermind.ai/public/271a43f7f32ccb8d.mp4",
+  "full": "https://cdn.ottermind.ai/public/9adeb39c0f932640.mp4",
+  "aspectRatio": 1.3598,
+  "width": 1920,
+  "height": 1412,
+  "duration": 6.325
+ },
+ "seo": {
+  "title": "Veyra Electric Industrial Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an industrial company — Space Grotesk, #6B879D base, looping video and React and Vite. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "industrial website design",
+   "industrial landing page design",
+   "WebGL industrial landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Veyra Electric — Industrial Landing Page Design",
+ "tagline": "Landing page reference for an industrial company, captured at 1920x1412 with the layout, timings and palette specified in the brief.",
+ "summary": "Landing page reference for an industrial company — Space Grotesk, #6B879D base, looping video and React and Vite.",
+ "about": "Veyra Electric shows one way to build the landing page for an industrial company, and publishes the instructions that produced it. The palette is muted blue #6B879D underneath and white #FFFFFF for the type, set in Space Grotesk. The entry names the stack that produced the page (React and Vite) rather than hiding it. Motion is confined to a looping video bed. This reference is for an industrial company that wants the first screen settled before the build starts.",
+ "layout": [
+  {
+   "title": "Top row, one action",
+   "body": "The wordmark holds the left edge and the links run to the right of it, all of it set in Space Grotesk so the bar belongs to the page below rather than to a separate system. The bar sits over the 1920x1412 composition without a background of its own, so the media runs edge to edge underneath it. The bar is a handful of elements, so it rebuilds without a component library."
+  },
+  {
+   "title": "Measured against the viewport",
+   "body": "The layout is solved against fixed values (12px spacing steps), which is what keeps the first screen composed at any width. The smallest and largest values in that list set the range the composition works in."
+  },
+  {
+   "title": "One field, one action",
+   "body": "There is one decision to make here: fill the form or leave. Everything else on the screen supports that decision. The action sits directly under the last field, so the decision is never more than a glance away."
+  },
+  {
+   "title": "The footer is a full composition",
+   "body": "Links are grouped into columns with the wordmark in its own block, which keeps a long footer readable instead of turning it into a list. The accent is reused on one footer action rather than across the whole band. Keep the accent for a single action."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Rendered, not illustrated",
+   "body": "The visual is produced at runtime (a WebGL canvas) rather than loaded as a still, so the 1920x1412 frame has one fewer asset. The scene is drawn at the size of its container, so it does not depend on a fixed render resolution."
+  },
+  {
+   "title": "Pointer states, nothing more",
+   "body": "The pointer work is small and specified: hover states on the buttons and links rather than on every card, applied to the elements that already look interactive. Nothing on the page opens a modal or hijacks the scroll; the interactions stay local to the element. If a state does not confirm an action, drop it."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#6B879D",
+    "name": "Muted blue",
+    "role": "composition"
+   },
+   {
+    "hex": "#708FA2",
+    "name": "Muted blue — lighter",
+    "role": "saturated"
+   },
+   {
+    "hex": "#FFFFFF",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#E1EAF0",
+    "name": "White — darker",
+    "role": "lighter step"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Space Grotesk",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Nothing sits between the type and the 1920x1412 clip, so a replacement has to work under the copy directly.",
+   "The clip is one asset at 1920x1412 and a 6.3s loop, so the composition has a single media dependency.",
+   "Media is specified at 1920x1412 and a 6.3s loop, so a replacement should match the crop and the loop length."
+  ]
+ },
+ "customize": [
+  "Change the copy first, then the accent, then the media: the 1920x1412 frame was solved in that order and reversing it costs a re-layout.",
+  "Replace the video with a still at 1920x1412 if the 6.3s loop is too heavy for the page you are shipping.",
+  "Hold the landing page to one screen on desktop; the brief never asks the reader to scroll past the fold.",
+  "Swap Space Grotesk for a face with the same x-height and cap height, then re-measure the headline block."
+ ],
+ "editorial": [
+  {
+   "title": "The numbers behind the landing page",
+   "body": "Compare this with a template that calls its spacing a preference. Here the same values are named (12px spacing steps), so an edit either keeps them or visibly breaks the composition. Nothing in this landing page depends on a default."
+  },
+  {
+   "title": "The order behind the landing page",
+   "body": "A page like this usually buries the action under a feature grid. This one puts navigation, the stats row, the form, the countdown and the background clip in a fixed sequence, with the action inside the first screen rather than after three scroll lengths. A industrial reader gets the offer before the options."
+  },
+  {
+   "title": "What this landing page gets right",
+   "body": "A stock hero and this landing page use the same parts. Here they are ordered by navigation, the stats row, the form, the countdown and the background clip and measured with 12px spacing steps, so the screen reads as a sequence rather than a container. It gives a industrial reader the shortest honest route to the offer."
+  }
+ ],
+ "steps": [
+  "Load the prompt in Studio and check that it names React and Vite before you press send.",
+  "Open the reference in Studio with the prompt staged, and read the landing page brief before you send it.",
+  "Start in Studio with the prompt prefilled, then delete the parts of the landing page you do not need.",
+  "Stage the prompt in Studio and read it once against the 1920x1412 capture before you generate.",
+  "Copy 12px spacing steps into your own brief before you rewrite anything else."
+ ],
+ "faq": [
+  {
+   "question": "What can I do with the Veyra Electric brief once I have it?",
+   "answer": "Everything quoted on the page comes from the captured 12,080-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "How long is the prompt behind Veyra Electric?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1920x1412, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Can I rebuild the Veyra Electric landing page in a different stack?",
+   "answer": "The reference happens to be built in React and Vite. Nothing in the layout depends on that choice: the spacing, type and motion values transfer to whatever you already use."
+  }
+ ],
+ "audience": [
+  "Take the 1920x1412 frame and 12px spacing steps from this landing page before you take anything else.",
+  "Product teams writing their own Landing page copy who need every line to keep the length the display type was sized for.",
+  "Made for a solo founder shipping one landing page for an industrial company and no design system behind them."
+ ],
+ "specs": [
+  {
+   "label": "Page section",
+   "value": "Landing page"
+  },
+  {
+   "label": "Category",
+   "value": "Industrial"
+  },
+  {
+   "label": "Viewport",
+   "value": "1920x1412 · 1.36:1"
+  },
+  {
+   "label": "Duration",
+   "value": "6.3s loop"
+  },
+  {
+   "label": "Prompt text",
+   "value": "12,080 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Faces",
+   "value": "Space Grotesk"
+  },
+  {
+   "label": "Built with",
+   "value": "React, TypeScript, Vite"
+  },
+  {
+   "label": "Motion spec",
+   "value": "a 6.3s media loop"
+  }
+ ],
+ "related": [
+  "interactive-discovery",
+  "coreos-product-hero",
+  "stark-minimal-footer",
+  "vectrus-energy",
+  "cordex",
+  "cross-border"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 12080,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

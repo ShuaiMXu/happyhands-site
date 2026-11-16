@@ -1,0 +1,207 @@
+{
+ "slug": "interactive-discovery",
+ "sourceSlug": "interactive-discovery",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Interactive Discovery"
+ },
+ "title": "Interactive Discovery",
+ "industry": "industrial",
+ "industryLabel": "Industrial",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/2f2332abb348dcc7.webp",
+  "still": "https://cdn.ottermind.ai/public/f2e090acee27afee.webp",
+  "preview": "https://cdn.ottermind.ai/public/f2e090acee27afee.webp",
+  "full": "https://cdn.ottermind.ai/public/f2e090acee27afee.webp",
+  "aspectRatio": 1.3502,
+  "width": 640,
+  "height": 474,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Interactive Discovery Industrial Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an industrial company — a 640x474 frame, a stats row, Inter and cubic-bezier(0.16,1,0.3,1) easing. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "industrial website design",
+   "industrial hero section design",
+   "WebGL industrial landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Interactive Discovery — Industrial Hero Section Design",
+ "tagline": "Hero section reference built on black #000000 and bright orange #E8702A, set in Inter and measured against 100vh sections.",
+ "summary": "Hero section reference for an industrial company — a 640x474 frame, a stats row, Inter and cubic-bezier(0.16,1,0.3,1) easing.",
+ "about": "Interactive Discovery solves the hero section problem for an industrial company with a single captured brief. Colour is limited to black #000000 underneath, white #FFFFFF for the type and bright orange #E8702A carrying the accents, set in Inter. Delivery is React and Tailwind CSS — one page, no plugin, no build tooling between you and the design. Motion is 1.1s transitions and cubic-bezier(0.16,1,0.3,1), kept quiet enough that the copy still leads. Use it as the reference when you are building an industrial company hero section and want a finished composition instead of a starting point.",
+ "layout": [
+  {
+   "title": "Links before the action",
+   "body": "The bar is the quietest part of the composition: wordmark, a short row of links and one #E8702A action, all held at the smallest type step in the brief. The links are set below the wordmark in size, and the #E8702A action is the only element in the bar with any weight."
+  },
+  {
+   "title": "Measured against the viewport",
+   "body": "The brief fixes 100vh sections, 28px spacing steps, 1.1s transitions and cubic-bezier(0.16,1,0.3,1) easing and leaves the rest to the arrangement, which is the opposite of a scale that grows on its own. The list is short enough that a reviewer can check it element by element. Port the values with the layout."
+  },
+  {
+   "title": "One face, used with discipline",
+   "body": "The faces are assigned roles rather than mixed: Inter carries the display and the interface together. The interface text stays on one face, so the page never mixes two voices at the same size."
+  },
+  {
+   "title": "Structure in one screen",
+   "body": "The hero section is built so the copy lands before anything else: the type carries the hierarchy, the 640x474 frame holds the composition, and the supporting values stay quiet. The page is one composition at 640x474, which is why it holds together when the copy changes."
+  }
+ ],
+ "motion": [
+  {
+   "title": "A quieter branch is included",
+   "body": "Reduced motion is specified rather than bolted on: with it on, the entrance stops and the composition holds its final state. The layout is identical with the motion disabled, so nothing depends on the animation."
+  },
+  {
+   "title": "Depth from a render",
+   "body": "A WebGL canvas gives the page its depth, and the surrounding layout stays flat so the render is the only thing asking for attention. The render carries its own colour, so the palette around it is kept quiet. The reference was captured at 640x474."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#E8702A",
+    "name": "Bright orange",
+    "role": "accent"
+   },
+   {
+    "hex": "#D2611F",
+    "name": "Orange",
+    "role": "lighter"
+   },
+   {
+    "hex": "#FFFFFF",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#000000",
+    "name": "Near-black",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Control text"
+   },
+   {
+    "name": "Playfair Display",
+    "weights": "Weight not fixed in the brief",
+    "role": "Emphasis"
+   }
+  ],
+  "notes": [
+   "Accent and ground are both named (bright orange #E8702A on black #000000), so a brand swap moves one value.",
+   "Transitions are specified at 1.1s, which is the value to keep when the palette changes.",
+   "Accent use is limited to bright orange #E8702A; everything else sits on black #000000."
+  ]
+ },
+ "customize": [
+  "Check #E8702A against the copy size in Inter before you swap either, because the accent only reads on a large line.",
+  "Retint #E8702A toward your palette but keep the step against #000000; flatten the two and the primary action stops reading.",
+  "Retune #E8702A for your brand only after the Inter copy is final, and re-check the contrast on the darkest band.",
+  "Set 1.1s to your own build speed and check that cubic-bezier(0.16,1,0.3,1) still lands the copy before the media starts."
+ ],
+ "editorial": [
+  {
+   "title": "The timing behind the hero section",
+   "body": "Keeping motion this small means the page leans on the type and the frame instead. If 1.1s transitions, hover and press states and a live canvas were removed entirely, the composition would still stand. Nothing animates for its own sake in this hero section."
+  },
+  {
+   "title": "The order behind the hero section",
+   "body": "Attention is directed rather than left to chance. The sequence runs navigation, the announcement badge and the stats row, and each stop is sized against 100vh sections and 28px spacing steps so nothing arrives out of order. A industrial reader gets the offer before the options."
+  },
+  {
+   "title": "What to change first in Interactive Discovery",
+   "body": "When you drop your own media in, keep the crop and the layer order. The media is a still at 640x474. That placement is what keeps the copy legible. The frame and the scale are what to leave alone."
+  }
+ ],
+ "steps": [
+  "Drop your product name in, then replace #E8702A with your own accent and re-check the contrast.",
+  "Set the brand first: product name, the #E8702A accent and a headline that replaces the reference's.",
+  "Set your brand first: product name, the #E8702A accent and the headline that replaces the reference's.",
+  "Type the product name and the #E8702A accent before you touch the layout.",
+  "Check your build against the reference measurements: 100vh sections, 28px spacing steps and 1.1s transitions."
+ ],
+ "faq": [
+  {
+   "question": "Is the Interactive Discovery prompt a finished spec or a starting point?",
+   "answer": "The captured brief runs 6,894 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Do I need React and Tailwind CSS to rebuild Interactive Discovery?",
+   "answer": "Interactive Discovery was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Can I keep the Interactive Discovery transitions and change the timings?",
+   "answer": "Entrances and state changes are in the 1.1s range using cubic-bezier(0.16,1,0.3,1) with a reduced-motion branch in the brief. They are driven by state changes rather than a scroll library, and they never hold up the copy."
+  }
+ ],
+ "audience": [
+  "If you brief a model rather than a designer, start from the hero section and let the prompt hold a 640x474 frame.",
+  "This hero section answers the builder who wants to know what 100vh sections and 28px spacing steps actually controls in the layout.",
+  "People who brief a model on a hero section will use the 6,894-character prompt as the starting point."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Hero section"
+  },
+  {
+   "label": "Sector",
+   "value": "Industrial"
+  },
+  {
+   "label": "Viewport",
+   "value": "640x474 · 1.35:1"
+  },
+  {
+   "label": "Prompt",
+   "value": "6,894 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent hex",
+   "value": "bright orange #E8702A"
+  },
+  {
+   "label": "Typefaces",
+   "value": "Inter, Playfair Display"
+  },
+  {
+   "label": "Built with",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Motion spec",
+   "value": "1.1s transitions and cubic-bezier(0.16,1,0.3,1) easing"
+  }
+ ],
+ "related": [
+  "coreos-product-hero",
+  "stark-minimal-footer",
+  "vectrus-energy",
+  "veyra-electric",
+  "cordex",
+  "cross-border"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 6894,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

@@ -1,0 +1,198 @@
+{
+ "slug": "scalable-saas-analytics-hero",
+ "sourceSlug": "lp-103-69eeda1be1b4c8bd55beb52b",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "Scalable"
+ },
+ "title": "Scalable",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/ca3cf21e99f39b9b.webp",
+  "still": "https://cdn.ottermind.ai/public/5c54fc4d790f0d89.webp",
+  "preview": "https://cdn.ottermind.ai/public/ec6dcdac444fb410.mp4",
+  "full": "https://cdn.ottermind.ai/public/8c8fe88a48fc4410.mp4",
+  "aspectRatio": 1.206,
+  "width": 1920,
+  "height": 1592,
+  "duration": 10.5
+ },
+ "seo": {
+  "title": "Scalable AI & SaaS Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an AI or SaaS product — a dark stage, #2B1F36 base, looping video and a stats row. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS hero section design",
+   "video-backed SaaS landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Scalable — AI & SaaS Hero Section Design",
+ "tagline": "Hero section reference for an AI or SaaS product, captured at 1920x1592 with the layout, timings and palette specified in the brief.",
+ "summary": "Hero section reference for an AI or SaaS product — a dark stage, #2B1F36 base, looping video and a stats row.",
+ "about": "Scalable is a working reference for an AI or SaaS product: the hero section laid out, measured and ready to rebuild. The page's own headline reads “New Feature: Zapier Integration”, and the composition is built around those exact words. The whole page is built on deep indigo #2B1F36 underneath. The build is React and Tailwind CSS; every measurement in it is written down, which is what makes it reusable. Motion is a looping video bed, kept quiet enough that the copy still leads. This reference is for an AI or SaaS product that wants the first screen settled before the build starts.",
+ "layout": [
+  {
+   "title": "Top row, one action",
+   "body": "Navigation is a single row with no second level under it. The bar sits over the 1920x1592 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "Badge above the fold",
+   "body": "A small pill sits above the headline for a single announcement, and the brief keeps it to one, because the point is to signal movement without turning the top of the page into a noticeboard. There is one announcement only, which is what makes the badge feel like news. Keep it above the headline, never beside it."
+  },
+  {
+   "title": "Proof in one row",
+   "body": "A compact stats strip carries the claims that would otherwise need a paragraph, which keeps the hero section from turning into a feature list. Figures are set at one weight, so the row does not rank its own statistics. If a figure needs a paragraph, it is not a stat."
+  },
+  {
+   "title": "A navigation bar that gets out of the way",
+   "body": "The action is the only element in the row with a fill, which keeps the links reading as text. Copy this pattern when you need navigation that survives a loud first screen."
+  }
+ ],
+ "motion": [
+  {
+   "title": "A loop, not a timeline",
+   "body": "Ambient movement comes from the 10.5s 1920x1592 loop rather than from scroll effects, which keeps the page calm and the type readable. The clip is short enough to loop without a visible seam, which matters more than its resolution."
+  },
+  {
+   "title": "Static by design",
+   "body": "This one is delivered as a still composition at 1920x1592, so the hierarchy has to work without motion, and it does. Motion is treated as feedback rather than as decoration."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#000002",
+    "name": "Near-black",
+    "role": "darkest"
+   },
+   {
+    "hex": "#A79AAC",
+    "name": "Gray",
+    "role": "lightest"
+   },
+   {
+    "hex": "#2B1F36",
+    "name": "Deep indigo",
+    "role": "composition"
+   },
+   {
+    "hex": "#30121F",
+    "name": "Deep red",
+    "role": "panel edges"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Face not specified",
+    "weights": "Sizes and weights only",
+    "role": "The brief fixes the type scale but leaves the face to the build"
+   }
+  ],
+  "notes": [
+   "Nothing sits between the type and the 1920x1592 clip, so a replacement has to work under the copy directly.",
+   "Media is specified at 1920x1592 and a 10.5s loop, so a replacement should match the crop and the loop length.",
+   "The clip is one asset at 1920x1592 and a 10.5s loop, so the composition has a single media dependency."
+  ]
+ },
+ "customize": [
+  "Recut your footage to the 10.5s loop, then export at 1920x1592 so the crop the reference specifies survives.",
+  "Swap the clip for your own. Export at 1920x1592 or wider, keep it muted, and make the 10.5s loop seamless so the cut is invisible.",
+  "Draft the new copy to the 1920x1592 frame, then check that the entrance still lands on the same number of lines.",
+  "Replace the video with a still at 1920x1592 if the 10.5s loop is too heavy for the page you are shipping."
+ ],
+ "editorial": [
+  {
+   "title": "Making the hero section yours",
+   "body": "The composition is the reusable part and the subject is yours. Keep a 1920x1592 frame and replace the words, the media and the brand marks. Rewrite the copy and the media before you re-colour anything."
+  },
+  {
+   "title": "How Scalable sequences the first read",
+   "body": "Order is the design here. navigation, the headline, the announcement badge, the stats row and the card grid are placed so the offer lands before the proof, and a 1920x1592 frame set the gap between them. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "What moves in Scalable",
+   "body": "Motion is limited to a sticky element and a 10.5s media loop; it runs once on entry and then gets out of the way, which is the right budget for the hero section to stay readable. Nothing animates for its own sake in this hero section."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1920x1592 capture before you generate.",
+  "Load the prompt in Studio and check that it names React and Tailwind CSS before you press send.",
+  "Put your own name and colours in first; the layout is already solved around them.",
+  "Check your build against the reference measurements: The page keeps to 4 values, so the statistics and the controls draw from one palette..",
+  "Keep the measurements the brief spells out: The page keeps to 4 values, so the statistics and the controls draw from one palette.."
+ ],
+ "faq": [
+  {
+   "question": "Can I ship a page rebuilt from Scalable without crediting it?",
+   "answer": "The prompt was published publicly by sceneai.art, and the preview here is their render. Treat it as a reference for structure and motion, check the source site's terms, and rebuild the composition with your own copy, media and palette before shipping it."
+  },
+  {
+   "question": "Is the Scalable brief the same as the prompt I would write?",
+   "answer": "Everything quoted on the page comes from the captured 8,462-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "How long is the prompt behind Scalable?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1920x1592, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  }
+ ],
+ "audience": [
+  "Teams building an AI or SaaS product hero section who need a 1920x1592 frame on the record before an estimate goes out.",
+  "Made for content leads rewriting a hero section whose headline has to stay as long as Scalable's.",
+  "Designers who need the numbers first: 1920x1592, all of it quoted from the brief."
+ ],
+ "specs": [
+  {
+   "label": "Page part",
+   "value": "Hero section"
+  },
+  {
+   "label": "Industry",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Canvas size",
+   "value": "1920x1592 · 1.21:1"
+  },
+  {
+   "label": "Clip length",
+   "value": "10.5s loop"
+  },
+  {
+   "label": "Prompt",
+   "value": "8,462 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Built with",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Motion spec",
+   "value": "a 10.5s media loop"
+  }
+ ],
+ "related": [
+  "asme-hero",
+  "autonomous-ops",
+  "axion-about",
+  "bloom-ai-hero",
+  "build-with-us",
+  "cognitra-feature"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 8462,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

@@ -1,0 +1,48 @@
+# Mobbin
+
+> Mobbin is a searchable design-reference library of real mobile apps, web apps, and websites. Use it to find and compare individual screens, multi-step product flows, UI patterns, and website sections from shipped digital products.
+
+## When to use Mobbin
+
+Use Mobbin when an agent needs to:
+
+- Find real examples of screens, UI patterns, product flows, or website sections.
+- Compare how shipped products solve the same design problem.
+- Ground an interface critique or design recommendation in visual references.
+- Read and manage the user's saved content, including collections, saving, and commenting.
+
+Use `search_screens` for individual interface states, `search_flows` for ordered journeys, and `search_sections` for website composition. Prefer Mobbin MCP for screen, flow, and section searches; use the REST API for repeatable programmatic screen searches.
+
+Compare several relevant products, preserve the product name and Mobbin URL, and separate visible observations from recommendations.
+
+## Important limitations
+
+- A Mobbin example shows that a product used a design; it does not prove that the design improved conversion or another metric.
+- A recurring pattern is a convention, not automatically a best practice.
+- Check capture metadata when recency matters.
+- Do not copy protected designs, branding, text, or assets verbatim.
+- Evaluate accessibility and suitability for the intended audience separately.
+
+## Programmatic access
+
+- Mobbin MCP uses Streamable HTTP and OAuth. It is available on Pro, Team, and Enterprise plans.
+- MCP tools search design references and can also read and manage the user's saved content: list and read collections, create collections, save screens, flows or sections, and add comments.
+- The REST API uses workspace bearer keys and is available on Team and Enterprise plans.
+- MCP and API requests are limited to 60 requests per 60 seconds. Respect `Retry-After` after an HTTP 429 response.
+
+## Start here
+
+- [Product overview](https://mobbin.com/index.md): What Mobbin contains, who it serves, and the available access methods.
+- [Pricing and plan access](https://mobbin.com/pricing.md): Current prices, billing terms, plan limits, MCP eligibility, and API eligibility.
+- [Mobbin MCP](https://mobbin.com/mcp.md): Agent tools, authentication, setup, rate limits, usage guidance, and examples.
+- [Complete agent context](https://mobbin.com/llms-full.txt): Consolidated product, access, workflow, pricing, and catalog context.
+
+## Product and support
+
+- [Explore Mobbin](https://mobbin.com/explore): Browse design references by platform, product, category, flow, screen pattern, and UI element.
+- [Human-facing MCP page](https://mobbin.com/mcp): Product explanation, examples, setup overview, and frequently asked questions.
+- [Mobbin documentation](https://docs.mobbin.com/overview): MCP and REST API documentation.
+- [OpenAPI specification](https://docs.mobbin.com/openapi.json): Machine-readable REST API description.
+- [Support](https://help.mobbin.com/en/contact-us): Contact Mobbin support.
+
+Last reviewed: 2026-10-31.

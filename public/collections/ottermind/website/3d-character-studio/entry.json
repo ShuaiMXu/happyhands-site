@@ -1,0 +1,211 @@
+{
+ "slug": "3d-character-studio",
+ "sourceSlug": "3d-character-studio",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "3D Character Studio"
+ },
+ "title": "3D Character Studio",
+ "industry": "creative",
+ "industryLabel": "Agencies & Studios",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/b092b4cf91f8aed2.webp",
+  "still": "https://cdn.ottermind.ai/public/baaadd1cc7d55783.webp",
+  "preview": "https://cdn.ottermind.ai/public/d87f1084c5aba064.mp4",
+  "full": "https://cdn.ottermind.ai/public/57934297e0871ee9.mp4",
+  "aspectRatio": 1.6111,
+  "width": 1740,
+  "height": 1080,
+  "duration": 6.567
+ },
+ "seo": {
+  "title": "3D Character Studio Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an agency or studio — HelveticaNowDisplay-Medium, React and Tailwind CSS, #E12444 accent and looping video. Copy the prompt or open it staged in.",
+  "keywords": [
+   "agency website design",
+   "agency landing page design",
+   "video-backed agency landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "3D Character Studio — Agencies & Studios Landing Page Design",
+ "tagline": "“Glad you stopped in. Good taste tends to find us. Now, what are we building?” — the whole landing page is composed around that line, down to the animation timings.",
+ "summary": "Landing page reference for an agency or studio — HelveticaNowDisplay-Medium, React and Tailwind CSS, #E12444 accent and looping video.",
+ "about": "Read 3D Character Studio as a landing page spec: the values were written down before the page was built. “Glad you stopped in. Good taste tends to find us. Now, what are we building?” is the line the layout is built to carry. The colour scheme is red #800014 underneath and bright red #E12444 carrying the accents, and the page is set in HelveticaNowDisplay-Medium. Delivery is React and Tailwind CSS, captured at 1740x1080 so the frame is fixed before any code is written. The brief spends its motion budget on 38ms transitions and a looping video bed. Keep it open while you write: the 5,726-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "One row, no drawers",
+   "body": "Wordmark, links and the #E12444 action share one baseline, which is what keeps a thin row from looking accidental. The links are set below the wordmark in size, and the #E12444 action is the only element in the bar with any weight. Keep the row to one line."
+  },
+  {
+   "title": "One scale for type and frame",
+   "body": "Nothing in the layout is left to feel: the brief quotes type from 13px to 32px, 26px spacing steps and 38ms transitions and the build has to hit those values. Every value can be checked against the captured prompt, which is what makes a rebuild verifiable rather than approximate. Verify a rebuild against the same numbers."
+  },
+  {
+   "title": "Video at the bottom layer",
+   "body": "The clip runs 6.6s at 1740x1080 and loops without a visible cut, so it reads as surface rather than as footage. Export at 1740x1080 or wider and the cover crop keeps working."
+  },
+  {
+   "title": "Links before the action",
+   "body": "The bar sits over the 1740x1080 composition without a background of its own, so the media runs edge to edge underneath it."
+  }
+ ],
+ "motion": [
+  {
+   "title": "The entrance is the signature",
+   "body": "Entrance motion is spent on the page's own message rather than on the frame around it: a typewriter pass types the intro line. The animation runs once on load rather than on every scroll, so the page never re-performs while you read it. Make sure the still frame works on its own."
+  },
+  {
+   "title": "Feedback on the controls",
+   "body": "Interaction is local to each control here (hover states on the buttons and links rather than on every card), so nothing on the page moves as a side effect. The interactive states do not move layout, so nothing jumps under the pointer. A few reliable states beat a long list of effects."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#780011",
+    "name": "Red",
+    "role": "saturated"
+   },
+   {
+    "hex": "#D79780",
+    "name": "Orange",
+    "role": "lighter"
+   },
+   {
+    "hex": "#800014",
+    "name": "Red — lighter",
+    "role": "composition"
+   },
+   {
+    "hex": "#E12444",
+    "name": "Bright red",
+    "role": "accent"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "HelveticaNowDisplay-Medium",
+    "weights": "13–32px",
+    "role": "UI text"
+   },
+   {
+    "name": "HelveticaNowDisplayW01-Rg",
+    "weights": "13–32px",
+    "role": "Copy face"
+   }
+  ],
+  "notes": [
+   "Media is specified at 1740x1080 and a 6.6s loop, so a replacement should match the crop and the loop length.",
+   "Nothing sits between the type and the 1740x1080 clip, so a replacement has to work under the copy directly.",
+   "Accent use is limited to bright red #E12444; everything else sits on red #800014."
+  ]
+ },
+ "customize": [
+  "Set 38ms to your own build speed and check that a standard ease-out still lands the copy before the media starts.",
+  "Replace “Glad you stopped in. Now, what are we building?” with your own line and keep the same number of words, because the brief sizes the type for that rhythm.",
+  "Read the brief value by value against the 1740x1080 capture before you edit anything; the numbers are the part that is easiest to lose.",
+  "Move #E12444 to your own hue and leave #800014 where it is; the distance between them is doing the hierarchy work."
+ ],
+ "editorial": [
+  {
+   "title": "How 3D Character Studio sequences the first read",
+   "body": "A page like this usually buries the action under a feature grid. This one puts navigation, the announcement badge, the stats row and the background clip in a fixed sequence, with the action inside the first screen rather than after three scroll lengths. A agency reader gets the offer before the options."
+  },
+  {
+   "title": "The numbers behind the landing page",
+   "body": "This is what makes the reference reusable: type from 13px to 32px, 26px spacing steps and 38ms transitions. Nothing is left to a default, so a substitution that keeps those numbers keeps the composition. Nothing in this landing page depends on a default."
+  },
+  {
+   "title": "What moves in 3D Character Studio",
+   "body": "Compare the motion here with a scroll-driven page. Both move; this one moves where the brief says (38ms transitions, a 6.6s media loop and a typewriter pass), so the copy stays in front. Nothing animates for its own sake in this landing page."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1740x1080 capture before you generate.",
+  "Set the brand first: product name, the #E12444 accent and a headline that replaces the reference's.",
+  "Drop your product name in, then replace #E12444 with your own accent and re-check the contrast.",
+  "Set your brand first: product name, the #E12444 accent and the headline that replaces the reference's.",
+  "Type the product name and the #E12444 accent before you touch the layout."
+ ],
+ "faq": [
+  {
+   "question": "What does the brief behind 3D Character Studio actually contain?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1740x1080, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Do I need React and Tailwind CSS to rebuild 3D Character Studio?",
+   "answer": "3D Character Studio was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Can I ship a page rebuilt from 3D Character Studio without crediting it?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1740x1080."
+  }
+ ],
+ "audience": [
+  "Made for agencies that bill by the round and want type from 13px to 32px and 26px spacing steps agreed before the first one.",
+  "This landing page serves founders who need one screen of proof that agency copy can carry 6.6s of looping video.",
+  "Made for content leads rewriting a landing page whose headline has to stay as long as 3D Character Studio's."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Landing page"
+  },
+  {
+   "label": "Sector",
+   "value": "Agencies & Studios"
+  },
+  {
+   "label": "Canvas size",
+   "value": "1740x1080 · 1.61:1"
+  },
+  {
+   "label": "Clip length",
+   "value": "6.6s loop"
+  },
+  {
+   "label": "Source text",
+   "value": "5,726 characters"
+  },
+  {
+   "label": "Captured",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent hex",
+   "value": "bright red #E12444"
+  },
+  {
+   "label": "Type",
+   "value": "HelveticaNowDisplay-Medium, HelveticaNowDisplayW01-Rg · 13–32px"
+  },
+  {
+   "label": "Stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Animation",
+   "value": "38ms transitions and a 6.6s media loop"
+  }
+ ],
+ "related": [
+  "prompt-hero",
+  "radial-diagram",
+  "rare-gallery",
+  "retro-futurist",
+  "sparkform",
+  "subscription-agency"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 5726,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

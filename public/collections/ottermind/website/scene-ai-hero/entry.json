@@ -1,0 +1,203 @@
+{
+ "slug": "scene-ai-hero",
+ "sourceSlug": "lp-092-69ef9de7f4d5236f91d13060",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "Scene AI"
+ },
+ "title": "Scene AI",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/75f5722ec6045beb.webp",
+  "still": "https://cdn.ottermind.ai/public/9cbcf64cf4acd6af.webp",
+  "preview": "https://cdn.ottermind.ai/public/3369b6b6f0260bcb.mp4",
+  "full": "https://cdn.ottermind.ai/public/d30f19fc3a152e1b.mp4",
+  "aspectRatio": 1.3933,
+  "width": 1920,
+  "height": 1378,
+  "duration": 8
+ },
+ "seo": {
+  "title": "Scene AI AI & SaaS Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an AI or SaaS product — a stats row, Tailwind CSS, Inter and a dark stage. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS hero section design",
+   "video-backed SaaS landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Scene AI — AI & SaaS Hero Section Design",
+ "tagline": "Hero section reference built around “Create awesome 3D scenes with AI”, with the layout, timings and palette written down in the brief.",
+ "summary": "Hero section reference for an AI or SaaS product — a stats row, Tailwind CSS, Inter and a dark stage.",
+ "about": "Scene AI shows one way to build the hero section for an AI or SaaS product, and publishes the instructions that produced it. “Create awesome 3D scenes with AI” is the line the layout is built to carry. The colour scheme is black #000000 underneath and white #EBEAD0 for the type, and the page is set in Inter. Delivery is Tailwind CSS — one page, no plugin, no build tooling between you and the design. The motion budget is a looping video bed. It is most useful when the AI & SaaS hero section has to survive a copy change without a redesign.",
+ "layout": [
+  {
+   "title": "One row, no drawers",
+   "body": "A slim bar sits over the hero section with the wordmark on the left and the links set in Inter, so the composition reads as content first and chrome second. The bar sits over the 2056x1476 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "The footer is a full composition",
+   "body": "Links are grouped into columns with the wordmark in its own block, which keeps a long footer readable instead of turning it into a list. Columns align to the same grid as the page above, so the footer feels like the same design."
+  },
+  {
+   "title": "Links collapse at one width",
+   "body": "Link spacing comes from padding rather than from dividers, so the row reads as one object. Copy this pattern when you need navigation that survives a loud first screen."
+  },
+  {
+   "title": "The video is the background, not a panel",
+   "body": "One muted, looping clip fills the frame at 2056x1476 and 8s, set to cover with the copy stacked above it. The brief keeps overlays off the video so nothing greys it out. Export at 2056x1476 or wider and the cover crop keeps working. Export at 2056x1476 or wider to keep the crop honest."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Hover, but sparingly",
+   "body": "Feedback is limited to hover states on the buttons and links rather than on every card, which is what keeps a dense first screen from feeling busy. The states are named in the brief, so the page does not depend on a hover-effect library."
+  },
+  {
+   "title": "A loop, not a timeline",
+   "body": "Ambient movement is one 8s clip at 2056x1476, looping quietly behind the copy rather than reacting to the pointer. A poster frame stands in when autoplay is blocked, so the motion is additive rather than required."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#000000",
+    "name": "Near-black",
+    "role": "composition"
+   },
+   {
+    "hex": "#EBEAD0",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#000100",
+    "name": "Near-black — lighter",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#0D0602",
+    "name": "Near-black — lighter",
+    "role": "Secondary"
+   }
+  ],
+  "glass": "Panels are translucent over black #000000, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Nothing sits between the type and the 2056x1476 clip, so a replacement has to work under the copy directly.",
+   "Media is specified at 2056x1476 and a 8s loop, so a replacement should match the crop and the loop length.",
+   "The clip is one asset at 2056x1476 and a 8s loop, so the composition has a single media dependency."
+  ]
+ },
+ "customize": [
+  "Keep 2056x1476 for the media and re-crop your own asset into it rather than resizing the frame.",
+  "Replace “Create awesome 3D scenes with AI” with your own line and keep the word count, because the entrance is timed per line.",
+  "Hold the 2056x1476 frame when you swap the content; the composition was solved against that ratio and a wider export pushes the type off.",
+  "Draft the new copy to the 2056x1476 frame, then check that the entrance still lands on the same number of lines."
+ ],
+ "editorial": [
+  {
+   "title": "What to change first in Scene AI",
+   "body": "A straight substitution has a limit: if your product needs a different hierarchy, a 2056x1476 frame will fight it. Change the order first in that case, and the values second. Keep the frame and the scale; the subject is the part that should change."
+  },
+  {
+   "title": "Reading Scene AI as a spec",
+   "body": "This is what makes the reference reusable: a 2056x1476 frame. Nothing is left to a default, so a substitution that keeps those numbers keeps the composition. Nothing in this hero section depends on a default."
+  },
+  {
+   "title": "What this hero section gets right",
+   "body": "Compared with a template hero, the difference is what is missing. There is no card grid, no carousel and no second call to action: only navigation, the announcement badge, the stats row, the background clip and the footer, sized against a 2056x1476 frame. It gives a SaaS reader the shortest honest route to the offer."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 2056x1476 capture before you generate.",
+  "Pin the reference measurements before you restyle anything: The page keeps to 4 values, so the statistics and the controls draw from one palette..",
+  "Copy The page keeps to 4 values, so the statistics and the controls draw from one palette. into your own brief before you rewrite anything else.",
+  "Port the motion last: the entrance and the hover states, in that order.",
+  "Add the entrance last and rebuild the hover states after it; nothing else in the composition moves."
+ ],
+ "faq": [
+  {
+   "question": "Is the Scene AI brief the same as the prompt I would write?",
+   "answer": "Everything quoted on the page comes from the captured 2,425-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "How long is the prompt behind Scene AI?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 2056x1476, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Can I rebuild the Scene AI hero section in a different stack?",
+   "answer": "Scene AI was built in Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  }
+ ],
+ "audience": [
+  "If the motion has to be dropped, the hero section still reads, with 2056x1476 doing the hierarchy work.",
+  "Made for a solo founder shipping one hero section for an AI or SaaS product and no design system behind them.",
+  "Product marketers who need the hero section to still read with 8s of looping video behind the copy."
+ ],
+ "specs": [
+  {
+   "label": "Page section",
+   "value": "Hero section"
+  },
+  {
+   "label": "Sector",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Format",
+   "value": "2056x1476 · 1.39:1"
+  },
+  {
+   "label": "Duration",
+   "value": "8s loop"
+  },
+  {
+   "label": "Input brief",
+   "value": "2,425 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type",
+   "value": "Inter"
+  },
+  {
+   "label": "Tech stack",
+   "value": "Tailwind CSS"
+  },
+  {
+   "label": "Timing",
+   "value": "a 8s media loop"
+  }
+ ],
+ "related": [
+  "scalable-saas-analytics-hero",
+  "tenlas-cta-footer",
+  "peakflow-contact-footer",
+  "zyphor-hero",
+  "ltx-video",
+  "luminex-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 2425,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

@@ -1,0 +1,206 @@
+{
+ "slug": "church-community",
+ "sourceSlug": "church-community",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Church Community"
+ },
+ "title": "Church Community",
+ "industry": "education",
+ "industryLabel": "Education & Community",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/c700f1929b0ef398.webp",
+  "still": "https://cdn.ottermind.ai/public/e34d4ea203ba4fa1.webp",
+  "preview": "https://cdn.ottermind.ai/public/c307bd27a190ea32.mp4",
+  "full": "https://cdn.ottermind.ai/public/80e7d314b8a5098d.mp4",
+  "aspectRatio": 1.3407,
+  "width": 1448,
+  "height": 1080,
+  "duration": 5.5
+ },
+ "seo": {
+  "title": "Church Community Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an education or community brand — Manrope, a stats row, #5A4C41 base and #F1E5C6 accent. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "education website design",
+   "education landing page design",
+   "dark education landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Church Community — Education & Community Landing Page Design",
+ "tagline": "Landing page reference built on muted orange #5A4C41 and muted orange #F1E5C6, set in Manrope and measured against 36px spacing steps.",
+ "summary": "Landing page reference for an education or community brand — Manrope, a stats row, #5A4C41 base and #F1E5C6 accent.",
+ "about": "Read Church Community as a landing page spec: the values were written down before the page was built. “Take a step toward the light” is the line the layout is built to carry. The colour scheme is muted orange #5A4C41 underneath, white #FFFFFF for the type and muted orange #F1E5C6 carrying the accents, and the page is set in Manrope. The reference is built with React and Framer Motion, and the layout decisions are stated independently of it. Motion comes down to a looping video bed. Borrow the structure and not the subject: the landing page and its numbers move to your brand unchanged.",
+ "layout": [
+  {
+   "title": "A bar with nothing spare",
+   "body": "Navigation is a thin strip rather than a band: wordmark left, links centre-right, one #F1E5C6 action, all of it sitting above the landing page without a background of its own. The links are set below the wordmark in size, and the #F1E5C6 action is the only element in the bar with any weight."
+  },
+  {
+   "title": "Measured, not eyeballed",
+   "body": "Type and spacing are drawn from one list here: 36px spacing steps. The list is short enough that a reviewer can check it element by element."
+  },
+  {
+   "title": "The loop is the backdrop",
+   "body": "The clip runs 5.5s at 1448x1080 and loops without a visible cut, so it reads as surface rather than as footage. Export at 1448x1080 or wider and the cover crop keeps working."
+  },
+  {
+   "title": "Display size does the talking",
+   "body": "The faces are assigned roles rather than mixed: Manrope carries the display and the interface together. The face is paired with fixed sizes, which is what keeps the display line and the interface text related. Check the scale in greyscale."
+  }
+ ],
+ "motion": [
+  {
+   "title": "The reveal is the memory point",
+   "body": "Entrance motion is concentrated on one element: a typewriter pass types the intro line. Everything else is already in place when the page loads. Under reduced motion the element simply appears and the layout is unchanged."
+  },
+  {
+   "title": "A loop, not a timeline",
+   "body": "Ambient movement comes from the 5.5s 1448x1080 loop rather than from scroll effects, which keeps the page calm and the type readable. Because it is muted, the loop can run under the copy without competing for sound or focus. Shoot or export at 1448x1080 or wider."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#F1E5C6",
+    "name": "Muted orange",
+    "role": "accent"
+   },
+   {
+    "hex": "#5A4C41",
+    "name": "Muted orange — darker",
+    "role": "composition"
+   },
+   {
+    "hex": "#2A2A2A",
+    "name": "Black",
+    "role": "darkest"
+   },
+   {
+    "hex": "#FFFFFF",
+    "name": "White",
+    "role": "Headline"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Manrope",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "The clip is one asset at 1448x1080 and a 5.5s loop, so the composition has a single media dependency.",
+   "Nothing sits between the type and the 1448x1080 clip, so a replacement has to work under the copy directly.",
+   "Media is specified at 1448x1080 and a 5.5s loop, so a replacement should match the crop and the loop length."
+  ]
+ },
+ "customize": [
+  "Retint #F1E5C6 toward your palette but keep the step against #5A4C41; flatten the two and the primary action stops reading.",
+  "Hold the landing page to one screen on desktop; the composition is solved for a reader who never scrolls.",
+  "Keep Manrope or pick a face with the same proportions; the size scale is set for those widths, not for a substitute.",
+  "Replace “Take a step toward the light” with your own line and keep the same number of words, because the brief sizes the type for that rhythm."
+ ],
+ "editorial": [
+  {
+   "title": "Reading Church Community as a spec",
+   "body": "When a rebuild drifts, the spacing goes first. Church Community avoids that by publishing 36px spacing steps with the composition. Nothing in this landing page depends on a default."
+  },
+  {
+   "title": "Making the landing page yours",
+   "body": "Start with the promise, not the decoration. Rewrite “Take a step toward the light” as one sentence that names what you do, then set it in Manrope at the display size the brief uses. Replace muted orange #F1E5C6 with your own accent and check it against muted orange #5A4C41 before you touch anything else. The subject is the part that should change."
+  },
+  {
+   "title": "What moves in Church Community",
+   "body": "The animation budget is stated: a typewriter pass and a 5.5s media loop. Nothing in the landing page moves without a value attached to it. Nothing animates for its own sake in this landing page."
+  }
+ ],
+ "steps": [
+  "Load the prompt in Studio and check that it names React and Framer Motion before you press send.",
+  "Stage the prompt in Studio and read it once against the 1448x1080 capture before you generate.",
+  "Set your brand first: product name, the #F1E5C6 accent and the headline that replaces the reference's.",
+  "Set the brand first: product name, the #F1E5C6 accent and a headline that replaces the reference's.",
+  "Drop your product name in, then replace #F1E5C6 with your own accent and re-check the contrast."
+ ],
+ "faq": [
+  {
+   "question": "What does the brief behind Church Community actually contain?",
+   "answer": "The captured brief runs 5,380 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Is the Church Community brief the same as the prompt I would write?",
+   "answer": "Everything quoted on the page comes from the captured 5,380-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "How much of Church Community depends on React and Framer Motion?",
+   "answer": "The reference happens to be built in React and Framer Motion. Nothing in the layout depends on that choice: the spacing, type and motion values transfer to whatever you already use."
+  }
+ ],
+ "audience": [
+  "Quote a 1448x1080 frame in the handoff note so the next build does not have to re-derive it from the page.",
+  "This landing page answers the builder who wants to know what 36px spacing steps actually controls in the layout.",
+  "Product marketers who need the landing page to still read with 5.5s of looping video behind the copy."
+ ],
+ "specs": [
+  {
+   "label": "Page section",
+   "value": "Landing page"
+  },
+  {
+   "label": "Vertical",
+   "value": "Education & Community"
+  },
+  {
+   "label": "Viewport",
+   "value": "1448x1080 · 1.34:1"
+  },
+  {
+   "label": "Loop",
+   "value": "5.5s loop"
+  },
+  {
+   "label": "Input brief",
+   "value": "5,380 characters"
+  },
+  {
+   "label": "Date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent hex",
+   "value": "muted orange #F1E5C6"
+  },
+  {
+   "label": "Fonts",
+   "value": "Manrope"
+  },
+  {
+   "label": "Tools",
+   "value": "React, Framer Motion"
+  },
+  {
+   "label": "Animation",
+   "value": "a 5.5s media loop"
+  }
+ ],
+ "related": [
+  "space-planet",
+  "trueearth",
+  "codenest-hero",
+  "designpro-hero",
+  "fun-404-page",
+  "lumina-footer"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 5380,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

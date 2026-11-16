@@ -1,0 +1,212 @@
+{
+ "slug": "tech-noir-about",
+ "sourceSlug": "tech-noir-about",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Tech-Noir About"
+ },
+ "title": "Tech-Noir About",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "about",
+ "sectionLabel": "About page",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/ced5121d2571643e.webp",
+  "still": "https://cdn.ottermind.ai/public/f2b7f46e0b232856.webp",
+  "preview": "https://cdn.ottermind.ai/public/f2b7f46e0b232856.webp",
+  "full": "https://cdn.ottermind.ai/public/f2b7f46e0b232856.webp",
+  "aspectRatio": 1.3617,
+  "width": 640,
+  "height": 470,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Tech-Noir About AI & SaaS About Page Design & Prompt | Ottermind",
+  "description": "About page reference for an AI or SaaS product — Manrope, #C40010 base, #FF0000 accent and React and Tailwind CSS. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS about page design",
+   "minimal SaaS landing page",
+   "about page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Tech-Noir About — AI & SaaS About Page Design",
+ "tagline": "About page reference built on red #C40010 and bright red #FF0000, set in Manrope and measured against type from 16px to 120px.",
+ "summary": "About page reference for an AI or SaaS product — Manrope, #C40010 base, #FF0000 accent and React and Tailwind CSS.",
+ "about": "Tech-Noir About keeps its decision trail: the brief that produced this about page runs 3,555 characters. The palette is red #C40010 underneath and bright red #FF0000 carrying the accents, set in Manrope. The build is React and Tailwind CSS; every measurement in it is written down, which is what makes it reusable. Borrow the structure and not the subject: the about page and its numbers move to your brand unchanged.",
+ "layout": [
+  {
+   "title": "Numbers carried into the build",
+   "body": "The brief fixes type from 16px to 120px and 100px spacing steps and leaves the rest to the arrangement, which is the opposite of a scale that grows on its own. The frame proportions are recorded with the sizes, so a rebuild gets the aspect right as well."
+  },
+  {
+   "title": "Nothing decorative in colour",
+   "body": "The accent carries every action on the page: bright red #FF0000 for buttons and links, red #C40010 for the frame behind them. Everything else sits on red #C40010, which is what keeps a saturated palette legible. Keep the ground quiet."
+  },
+  {
+   "title": "One scale for type and frame",
+   "body": "Spacing is quoted the same way (type from 16px to 120px and 100px spacing steps), not as a scale that grows on its own."
+  },
+  {
+   "title": "Type does the styling",
+   "body": "The face is quoted with its sizes (Manrope across 16–120px), which is what makes the type portable between builds. Tracking tightens as the size grows, which is why the display line holds together across 16–120px."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Static by design",
+   "body": "This one is delivered as a still composition at 640x470, so the hierarchy has to work without motion, and it does. Motion is treated as feedback rather than as decoration. Keep motion to the controls."
+  },
+  {
+   "title": "Almost no motion",
+   "body": "The brief leaves animation out and lets the 640x470 layout carry the page, with hover and press states the only changes."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#FF0000",
+    "name": "Bright red",
+    "role": "accent"
+   },
+   {
+    "hex": "#2B1716",
+    "name": "Deep red",
+    "role": "darkest"
+   },
+   {
+    "hex": "#9C8065",
+    "name": "Muted orange",
+    "role": "lighter"
+   },
+   {
+    "hex": "#C40010",
+    "name": "Red",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Manrope",
+    "weights": "16–120px",
+    "role": "Interface"
+   },
+   {
+    "name": "Italiana",
+    "weights": "16–120px",
+    "role": "Copy face"
+   },
+   {
+    "name": "Marck Script",
+    "weights": "16–120px",
+    "role": "Fallback and supporting interface text"
+   }
+  ],
+  "notes": [
+   "Font roles are assigned rather than mixed here, and 16–120px is the range the whole scale works in.",
+   "The display line is Manrope at the top of a 16–120px scale, with the interface text on the same face.",
+   "The accent is spent on bright red #FF0000 and the rest of the composition holds red #C40010."
+  ]
+ },
+ "customize": [
+  "Move #FF0000 to your own hue and leave #C40010 where it is; the distance between them is doing the hierarchy work.",
+  "Retune #FF0000 for your brand only after the Manrope copy is final, and re-check the contrast on the darkest band.",
+  "Hold the 640x470 frame when you swap the content; the composition was solved against that ratio and a wider export pushes the type off.",
+  "Replace #FF0000 last, after the copy is final, and test it against #C40010 at the smallest text size on the page."
+ ],
+ "editorial": [
+  {
+   "title": "The order behind the about page",
+   "body": "A feature-led layout lists what the product does; this one routes the reader to a single decision. The route is visible in the background clip and in how type from 16px to 120px and 100px spacing steps space them. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "How the about page reflows",
+   "body": "A fluid scale and a stepped one look similar on a wide screen. Narrow the viewport and the difference shows: a clamp between 16px and 120px against fixed jumps. Both states are described in the same brief."
+  },
+  {
+   "title": "Reading Tech-Noir About as a spec",
+   "body": "If you are handing this to a developer, the brief is the useful artefact. It states type from 16px to 120px and 100px spacing steps and leaves nothing for the two of you to interpret. Nothing in this about page depends on a default."
+  }
+ ],
+ "steps": [
+  "Drop your product name in, then replace #FF0000 with your own accent and re-check the contrast.",
+  "Set the brand first: product name, the #FF0000 accent and a headline that replaces the reference's.",
+  "Set your brand first: product name, the #FF0000 accent and the headline that replaces the reference's.",
+  "Type the product name and the #FF0000 accent before you touch the layout.",
+  "Pin the reference measurements before you restyle anything: type from 16px to 120px and 100px spacing steps."
+ ],
+ "faq": [
+  {
+   "question": "What do I get when I copy the Tech-Noir About brief?",
+   "answer": "The captured brief runs 3,555 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Do I need React and Tailwind CSS to rebuild Tech-Noir About?",
+   "answer": "Tech-Noir About was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What drives the motion in Tech-Noir About?",
+   "answer": "Transitions are attached to interface states rather than to a scroll timeline, and they resolve in the sub-second range. The brief records the values so a port can match them without guessing. The reference was captured at 640x470."
+  }
+ ],
+ "audience": [
+  "Founders who brief an agency will use the 640x470 frame as the acceptance test for the first round.",
+  "This about page answers the builder who wants to know what type from 16px to 120px and 100px spacing steps actually controls in the layout.",
+  "Made for a solo founder shipping one about page for an AI or SaaS product and no design system behind them."
+ ],
+ "specs": [
+  {
+   "label": "Page part",
+   "value": "About page"
+  },
+  {
+   "label": "Vertical",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Canvas",
+   "value": "640x470 · 1.36:1"
+  },
+  {
+   "label": "Prompt",
+   "value": "3,555 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent",
+   "value": "bright red #FF0000"
+  },
+  {
+   "label": "Type scale",
+   "value": "Manrope, Italiana, Marck Script · 16–120px"
+  },
+  {
+   "label": "Tech stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Transitions",
+   "value": "state changes only"
+  }
+ ],
+ "related": [
+  "ai-runtime",
+  "ai-workflow",
+  "ai-workflow-agents",
+  "arceage-stats",
+  "asme-hero",
+  "autonomous-ops"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 3555,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

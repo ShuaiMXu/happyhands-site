@@ -1,0 +1,194 @@
+{
+ "slug": "daisy-wild",
+ "sourceSlug": "daisy-wild",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Daisy Wild"
+ },
+ "title": "Daisy Wild",
+ "industry": "ecommerce",
+ "industryLabel": "Ecommerce",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/0a9c165a050363c0.webp",
+  "still": "https://cdn.ottermind.ai/public/f0d0421a735d7b88.webp",
+  "preview": "https://cdn.ottermind.ai/public/f0d0421a735d7b88.webp",
+  "full": "https://cdn.ottermind.ai/public/f0d0421a735d7b88.webp",
+  "aspectRatio": 1.3445,
+  "width": 640,
+  "height": 476,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Daisy Wild Ecommerce Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an ecommerce brand — fluid type, scroll-triggered reveals, cubic-bezier(0.22, 1, 0.36, 1) easing and a 640x476 frame. Copy the prompt or open it.",
+  "keywords": [
+   "ecommerce website design",
+   "ecommerce landing page design",
+   "dark ecommerce landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Daisy Wild — Ecommerce Landing Page Design",
+ "tagline": "Landing page reference built around “`), the note LABELS (”, with the layout, timings and palette written down in the brief.",
+ "summary": "Landing page reference for an ecommerce brand — fluid type, scroll-triggered reveals, cubic-bezier(0.22, 1, 0.36, 1) easing and a 640x476 frame.",
+ "about": "Daisy Wild is the landing page reference for an ecommerce brand, and the brief behind it is a full build spec rather than a mood board. The page's own headline reads “`), the note LABELS (”, and the composition is built around those exact words. The palette is lime #BDE84F underneath and black #000000 for the type. Delivery is React and Tailwind CSS, captured at 640x476 so the frame is fixed before any code is written. Motion comes down to 1400ms transitions and cubic-bezier(0.22, 1, 0.36, 1). This reference is for an ecommerce brand that wants the first screen settled before the build starts.",
+ "layout": [
+  {
+   "title": "Values you can check",
+   "body": "The brief names the numbers: 16px spacing steps, 1400ms transitions and cubic-bezier(0.22, 1, 0.36, 1) easing. That is why the composition holds together, because there is no invented spacing step between the type and the frame. Each value maps to one job: a type step, a gap, a radius or a transition."
+  },
+  {
+   "title": "A stat row instead of a claim",
+   "body": "A compact stats strip carries the claims that would otherwise need a paragraph, which keeps the landing page from turning into a feature list. The accent is spent on the figures that make a claim, not on the row as a whole."
+  },
+  {
+   "title": "Structure in one screen",
+   "body": "The landing page is built so the copy lands before anything else: the type carries the hierarchy, the 640x476 frame holds the composition, and the supporting values stay quiet. The page is one composition at 640x476, which is why it holds together when the copy changes."
+  },
+  {
+   "title": "The spacing steps are quoted",
+   "body": "Spacing is quoted the same way (16px spacing steps, 1400ms transitions and cubic-bezier(0.22, 1, 0.36, 1) easing), not as a scale that grows on its own."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Durations from the brief",
+   "body": "Motion in the controls is short and repeatable: 1400ms on each state change. The quoted timing covers state changes, so the feedback is the part of the motion that is specified."
+  },
+  {
+   "title": "Feedback on the controls",
+   "body": "The pointer work is small and specified: hover states on the buttons and links rather than on every card, applied to the elements that already look interactive. The states are named in the brief, so the page does not depend on a hover-effect library."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#000000",
+    "name": "Near-black",
+    "role": "Headline"
+   },
+   {
+    "hex": "#BDE84F",
+    "name": "Lime",
+    "role": "composition"
+   },
+   {
+    "hex": "#D9D9D9",
+    "name": "White",
+    "role": "surface"
+   },
+   {
+    "hex": "#FFFFFF",
+    "name": "White — lighter",
+    "role": "lightest"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Face not specified",
+    "weights": "Sizes and weights only",
+    "role": "The brief fixes the type scale but leaves the face to the build"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 1400ms, short enough that the page never feels like it is waiting for an animation.",
+   "Transitions are specified at 1400ms, which is the value to keep when the palette changes.",
+   "The timing budget is state feedback rather than page choreography (1400ms), so a slower rebuild reads as a different design."
+  ]
+ },
+ "customize": [
+  "Retime the entrance to taste. 1400ms with cubic-bezier(0.22, 1, 0.36, 1) is what the reference uses.",
+  "Change the copy first, then the accent, then the media: the 640x476 frame was solved in that order and reversing it costs a re-layout.",
+  "Swap in your own headline where “`), the note LABELS (” sits and keep the line breaks, because the entrance animates per line.",
+  "Hold the 640x476 frame when you swap the content; the composition was solved against that ratio and a wider export pushes the type off."
+ ],
+ "editorial": [
+  {
+   "title": "The order behind the landing page",
+   "body": "When a ecommerce reader lands on a single screen, they scan before they read. The layout answers that: the stats row and the background clip are sized to be scanned, with 16px spacing steps and 1400ms transitions keeping each stop distinct. A ecommerce reader gets the offer before the options."
+  },
+  {
+   "title": "What holds up for Ecommerce",
+   "body": "When you brief a ecommerce landing page, the hard part is deciding what the first screen refuses to say. Daisy Wild answers that in advance: one display line, the stats row and the background clip behind it. It gives a ecommerce reader the shortest honest route to the offer."
+  },
+  {
+   "title": "What to change first in Daisy Wild",
+   "body": "A straight substitution has a limit: if your product needs a different hierarchy, 16px spacing steps and 1400ms transitions will fight it. Change the order first in that case, and the values second. The frame and the scale are what to leave alone."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 640x476 capture before you generate.",
+  "Copy 16px spacing steps, 1400ms transitions and cubic-bezier(0.22, 1, 0.36, 1) easing into your own brief before you rewrite anything else.",
+  "Keep the measurements the brief spells out: 16px spacing steps, 1400ms transitions and cubic-bezier(0.22, 1, 0.36, 1) easing.",
+  "Check your build against the reference measurements: 16px spacing steps, 1400ms transitions and cubic-bezier(0.22, 1, 0.36, 1) easing.",
+  "Pin the reference measurements before you restyle anything: 16px spacing steps, 1400ms transitions and cubic-bezier(0.22, 1, 0.36, 1) easing."
+ ],
+ "faq": [
+  {
+   "question": "What do I get when I copy the Daisy Wild brief?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 640x476, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Why does the entry name React and Tailwind CSS at all?",
+   "answer": "Daisy Wild was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "How should I handle the Daisy Wild media in a client build?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 640x476."
+  }
+ ],
+ "audience": [
+  "Made for a solo founder shipping one landing page for an ecommerce brand and no design system behind them.",
+  "People who brief a model on a landing page will use the 10,292-character prompt as the starting point.",
+  "Made for content leads rewriting a landing page whose headline has to stay as long as Daisy Wild's."
+ ],
+ "specs": [
+  {
+   "label": "Block",
+   "value": "Landing page"
+  },
+  {
+   "label": "Category",
+   "value": "Ecommerce"
+  },
+  {
+   "label": "Viewport",
+   "value": "640x476 · 1.34:1"
+  },
+  {
+   "label": "Source text",
+   "value": "10,292 characters"
+  },
+  {
+   "label": "Captured",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Tech stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Motion spec",
+   "value": "1400ms transitions and cubic-bezier(0.22, 1, 0.36, 1) easing"
+  }
+ ],
+ "related": [
+  "skybridge-404",
+  "synth-mode",
+  "task-engine",
+  "vertex",
+  "beauty-categories",
+  "coffee-rewards"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 10292,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

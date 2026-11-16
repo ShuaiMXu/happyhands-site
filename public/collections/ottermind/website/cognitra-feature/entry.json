@@ -1,0 +1,198 @@
+{
+ "slug": "cognitra-feature",
+ "sourceSlug": "cognitra-feature",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Cognitra Feature"
+ },
+ "title": "Cognitra Feature",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "features",
+ "sectionLabel": "Features section",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/5173022c17af6eda.webp",
+  "still": "https://cdn.ottermind.ai/public/bf779b00faafbc42.webp",
+  "preview": "https://cdn.ottermind.ai/public/bf779b00faafbc42.webp",
+  "full": "https://cdn.ottermind.ai/public/bf779b00faafbc42.webp",
+  "aspectRatio": 1.3617,
+  "width": 640,
+  "height": 470,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Cognitra Feature AI & SaaS Features Section Design & Prompt | Ottermind",
+  "description": "Features section reference for an AI or SaaS product — React and Tailwind CSS, Helvetica, Arial, fluid type and #877A73 base. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS features section design",
+   "video-backed SaaS landing page",
+   "features section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Cognitra Feature — AI & SaaS Features Section Design",
+ "tagline": "“We provide all-in-one AI automation services in one place” — the whole features section is composed around that line, down to the animation timings.",
+ "summary": "Features section reference for an AI or SaaS product — React and Tailwind CSS, Helvetica, Arial, fluid type and #877A73 base.",
+ "about": "Cognitra Feature is a SaaS features section built from one written brief, and this page documents that brief. “We provide all-in-one AI automation services in one place” is the line the layout is built to carry. The colour scheme is muted orange #877A73 underneath and gray #D2CDC5 for the type, and the page is set in Helvetica, Arial. The build is React and Tailwind CSS; every measurement in it is written down, which is what makes it reusable. Motion is confined to 0.08s transitions. It is the right reference for an AI or SaaS product features section that has to look deliberate on the first screen.",
+ "layout": [
+  {
+   "title": "The bar shares the page grid",
+   "body": "A short run of links and a single action sit over the features section, held at a fixed 14px display size and 100vh sections so the bar never competes with the composition behind it. Below 260px the links collapse instead of wrapping onto a second line. If your own page has more sections, group them rather than widening the bar."
+  },
+  {
+   "title": "A stat strip, not a table",
+   "body": "The figures are set in Helvetica, Arial at a size closer to the headline than to the body copy. The label step is quoted in the brief, so it stays below the figures after a substitution. Give each figure a short label."
+  },
+  {
+   "title": "Behaviour is defined per width",
+   "body": "Width changes are handled in the type itself: a clamp between 26px and 32px carries the headline from phone to desktop without a separate mobile composition. Controls stay large enough to tap and the copy keeps its reading order at every width."
+  },
+  {
+   "title": "Copy first, decoration second",
+   "body": "The whole composition fits one screen and is delivered as React and Tailwind CSS, with the copy, the media and the controls named in the brief. The page is one composition at 640x470, which is why it holds together when the copy changes. Nothing decorative belongs above the fold."
+  }
+ ],
+ "motion": [
+  {
+   "title": "State changes, timed",
+   "body": "Hover, press and focus all resolve in 0.08s, which is what makes the interface feel immediate. Easing is specified alongside the duration (0.08s), so a rebuild cannot quietly substitute a different feel."
+  },
+  {
+   "title": "Almost no motion",
+   "body": "There is no scroll library here: the 640x470 composition holds still and only the elements that respond to you move. Motion is treated as feedback rather than as decoration."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#5A504D",
+    "name": "Muted red",
+    "role": "darkest"
+   },
+   {
+    "hex": "#D2CDC5",
+    "name": "Gray",
+    "role": "Headline"
+   },
+   {
+    "hex": "#877A73",
+    "name": "Muted orange",
+    "role": "composition"
+   },
+   {
+    "hex": "#63605E",
+    "name": "Gray — darker",
+    "role": "panel edges"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Helvetica, Arial",
+    "weights": "14px",
+    "role": "Headline and interface text — one stack for the whole page"
+   }
+  ],
+  "notes": [
+   "Font roles are assigned rather than mixed here, and 14px is the range the whole scale works in.",
+   "The type is set in Helvetica, Arial on a 14px scale, and the spacing follows the same steps.",
+   "The navigation collapses at max-width 260px and max-width 720px, so the bar has a designed narrow state."
+  ]
+ },
+ "customize": [
+  "Set your own headline in Helvetica, Arial at the size the reference uses, so the features section keeps the same optical weight.",
+  "Rewrite “We provide all-in-one AI automation services in one place” to the same line count; the mask reveals each line in turn.",
+  "Keep Helvetica, Arial or pick a face with the same proportions; the size scale is set for those widths, not for a substitute.",
+  "Set 0.08s to your own build speed and check that a standard ease-out still lands the copy before the media starts."
+ ],
+ "editorial": [
+  {
+   "title": "Why this composition works for SaaS",
+   "body": "The design argues its case on one screen. The media is a still at 640x470. The media carries the atmosphere, the copy carries the offer, and a fixed 14px display size and 100vh sections keep the two apart. Cognitra Feature states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "Reading Cognitra Feature as a spec",
+   "body": "If you are handing this to a developer, the brief is the useful artefact. It states a fixed 14px display size, 100vh sections, 32px spacing steps, 0.08s transitions and a 260px breakpoint and leaves nothing for the two of you to interpret. Nothing in this features section depends on a default."
+  },
+  {
+   "title": "What to change first in Cognitra Feature",
+   "body": "The trade-off is recognisability. Keep too much of Cognitra Feature and the page reads as someone else's; keep the numbers and change the content and it reads as yours. Rewrite the display line before you touch the colour. The reference was captured at 640x470."
+  }
+ ],
+ "steps": [
+  "Check your build against the reference measurements: a fixed 14px display size, 100vh sections and 32px spacing steps.",
+  "Copy a fixed 14px display size, 100vh sections and 32px spacing steps into your own brief before you rewrite anything else.",
+  "Keep the measurements the brief spells out: a fixed 14px display size, 100vh sections and 32px spacing steps.",
+  "Pin the reference measurements before you restyle anything: a fixed 14px display size, 100vh sections and 32px spacing steps.",
+  "Port the motion last: the entrance, the 0.08s states and the hover behaviour, in that order."
+ ],
+ "faq": [
+  {
+   "question": "How long is the prompt behind Cognitra Feature?",
+   "answer": "The captured brief runs 3,241 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Can I rebuild the Cognitra Feature features section in a different stack?",
+   "answer": "Cognitra Feature was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What drives the motion in Cognitra Feature?",
+   "answer": "The motion is specified at the same level of detail as the layout: state changes settle in the 0.08s range. Port the composition first and the timings second, because they are easier to match once the layout holds."
+  }
+ ],
+ "audience": [
+  "Take the 640x470 frame and a fixed 14px display size and 100vh sections from this features section before you take anything else.",
+  "People who brief a model on a features section will use the 3,241-character prompt as the starting point.",
+  "Made for content leads rewriting a features section whose headline has to stay as long as Cognitra Feature's."
+ ],
+ "specs": [
+  {
+   "label": "Page section",
+   "value": "Features section"
+  },
+  {
+   "label": "Vertical",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Canvas size",
+   "value": "640x470 · 1.36:1"
+  },
+  {
+   "label": "Source text",
+   "value": "3,241 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type",
+   "value": "Helvetica, Arial · 14px"
+  },
+  {
+   "label": "Reference stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Animation",
+   "value": "0.08s transitions"
+  }
+ ],
+ "related": [
+  "design-rocket-email-hero",
+  "digitwist-hero",
+  "email-landing-page",
+  "equilibrium",
+  "fastshot",
+  "forecast-center"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 3241,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

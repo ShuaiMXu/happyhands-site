@@ -1,0 +1,202 @@
+{
+ "slug": "task-engine",
+ "sourceSlug": "task-engine",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Task Engine"
+ },
+ "title": "Task Engine",
+ "industry": "ecommerce",
+ "industryLabel": "Ecommerce",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/001e54d4dcef8145.webp",
+  "still": "https://cdn.ottermind.ai/public/c1d05afd46c4bac5.webp",
+  "preview": "https://cdn.ottermind.ai/public/98c4d19ad81af0ab.mp4",
+  "full": "https://cdn.ottermind.ai/public/2dd0c8d4838aa80a.mp4",
+  "aspectRatio": 1.9473,
+  "width": 1920,
+  "height": 986,
+  "duration": 10.566
+ },
+ "seo": {
+  "title": "Task Engine Ecommerce Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an ecommerce brand — #F0F0F0 base, a dark stage, looping video and Plus Jakarta Sans. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "ecommerce website design",
+   "ecommerce landing page design",
+   "gradient ecommerce landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Task Engine — Ecommerce Landing Page Design",
+ "tagline": "Landing page reference for an ecommerce brand, captured at 2104x1080 with the layout, timings and palette specified in the brief.",
+ "summary": "Landing page reference for an ecommerce brand — #F0F0F0 base, a dark stage, looping video and Plus Jakarta Sans.",
+ "about": "Task Engine solves the landing page problem for an ecommerce brand with a single captured brief. The palette is white #F0F0F0 underneath and black #0D0D0D for the type, set in Plus Jakarta Sans. Delivery is one self-contained HTML file, captured at 2104x1080 so the frame is fixed before any code is written. The page keeps its motion to 2400ms transitions, cubic-bezier(.16,1.3,1) and a looping video bed. Use it as the reference when you are building an ecommerce brand landing page and want a finished composition instead of a starting point.",
+ "layout": [
+  {
+   "title": "Numbers carried into the build",
+   "body": "The values are the specification: 100vh sections, 30px spacing steps, 2400ms transitions and cubic-bezier(.16,1.3,1) easing, captured at 2104x1080 rather than inferred from a screenshot. The list is short enough that a reviewer can check it element by element."
+  },
+  {
+   "title": "Faces with one job each",
+   "body": "With Plus Jakarta Sans doing the work, the sizes step down hard from the headline to the supporting copy and letter-spacing tightens as the size grows, so the hierarchy is carried by type rather than colour. Substituting the face is possible, but the proportions have to survive the swap."
+  },
+  {
+   "title": "Nothing here is inherited",
+   "body": "Spacing is quoted the same way (100vh sections, 30px spacing steps, 2400ms transitions and cubic-bezier(.16,1.3,1) easing), not as a scale that grows on its own."
+  },
+  {
+   "title": "A clip, not an illustration",
+   "body": "The composition is built on top of the 2104x1080 clip rather than beside it, so the media never gets a panel or a border. A poster frame at 2104x1080 holds the composition when autoplay is unavailable, so the layout never collapses."
+  }
+ ],
+ "motion": [
+  {
+   "title": "The whole animation budget",
+   "body": "Motion in the controls is short and repeatable: 2400ms on each state change. If the easing changes, the duration has to be revisited with it."
+  },
+  {
+   "title": "Ambient motion without a scroll library",
+   "body": "The background clip runs 10.6s at 2104x1080 on an endless loop, muted and inline, so the page keeps moving while the reader's attention is on the copy. No scroll library is required, because the only ambient motion is the media itself. A poster frame stands in when autoplay is blocked, so the motion is additive rather than required."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#F0F0F0",
+    "name": "White",
+    "role": "composition"
+   },
+   {
+    "hex": "#141414",
+    "name": "Near-black",
+    "role": "darker step"
+   },
+   {
+    "hex": "#FFFFFF",
+    "name": "White — lighter",
+    "role": "lightest"
+   },
+   {
+    "hex": "#0D0D0D",
+    "name": "Near-black — darker",
+    "role": "Headline"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Plus Jakarta Sans",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "The clip is one asset at 2104x1080 and a 10.6s loop, so the composition has a single media dependency.",
+   "The navigation collapses at max-width 700px and min-width 701px, so the bar has a designed narrow state.",
+   "Nothing sits between the type and the 2104x1080 clip, so a replacement has to work under the copy directly."
+  ]
+ },
+ "customize": [
+  "Keep the supporting line as short as the reference's and measure the pair against the 2104x1080 crop.",
+  "Keep the 2104x1080 frame when you swap the content, because the composition was solved against that ratio.",
+  "Replace the video with a still at 2104x1080 if the 10.6s loop is too heavy for the page you are shipping.",
+  "Replace the headline and the supporting line with your own copy, keeping the same line count so the entrance still lands over the 2104x1080 frame."
+ ],
+ "editorial": [
+  {
+   "title": "What this landing page gets right",
+   "body": "There is one promise on this page, and 100vh sections and 30px spacing steps hold it in place. Nothing below the fold is asked to carry the offer as well. Task Engine states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "How the landing page reflows",
+   "body": "Wide, the composition is dense; narrow, the layout shifts at 700px, the section is held at 100vh and the motion has a reduced-motion branch. Both states are described in the brief. The order is the last thing to change."
+  },
+  {
+   "title": "What to change first in Task Engine",
+   "body": "Set the new copy at the display size the brief names (100vh sections and 30px spacing steps), and the rest of the scale follows without a redesign. Set the new copy at the same display size and re-check the contrast before you add anything."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 2104x1080 capture before you generate.",
+  "Keep the measurements the brief spells out: 100vh sections, 30px spacing steps and 2400ms transitions.",
+  "Copy 100vh sections, 30px spacing steps and 2400ms transitions into your own brief before you rewrite anything else.",
+  "Pin the reference measurements before you restyle anything: 100vh sections, 30px spacing steps and 2400ms transitions.",
+  "Check your build against the reference measurements: 100vh sections, 30px spacing steps and 2400ms transitions."
+ ],
+ "faq": [
+  {
+   "question": "Do I need one self-contained HTML file to rebuild Task Engine?",
+   "answer": "Task Engine was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Is the Task Engine brief the same as the prompt I would write?",
+   "answer": "Everything quoted on the page comes from the captured 14,503-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "What do I get when I copy the Task Engine brief?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 2104x1080, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  }
+ ],
+ "audience": [
+  "Borrow the landing page structure whole and replace the copy line by line against cubic-bezier(.16,1.3,1) easing.",
+  "Anyone using an AI builder who wants a brief that already contains one self-contained HTML file instead of leaving it to the model.",
+  "If you brief a model rather than a designer, start from the landing page and let the prompt hold a 700px breakpoint."
+ ],
+ "specs": [
+  {
+   "label": "Page part",
+   "value": "Landing page"
+  },
+  {
+   "label": "Field",
+   "value": "Ecommerce"
+  },
+  {
+   "label": "Viewport",
+   "value": "2104x1080 · 1.95:1"
+  },
+  {
+   "label": "Clip length",
+   "value": "10.6s loop"
+  },
+  {
+   "label": "Source text",
+   "value": "14,503 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type scale",
+   "value": "Plus Jakarta Sans"
+  },
+  {
+   "label": "Stack",
+   "value": "single HTML file"
+  },
+  {
+   "label": "Timing",
+   "value": "2400ms transitions, cubic-bezier(.16,1.3,1) easing and a 10.6s media loop"
+  }
+ ],
+ "related": [
+  "beauty-categories",
+  "coffee-rewards",
+  "cozypaws",
+  "daisy-wild",
+  "heritage-grove",
+  "skybridge-404"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 14503,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

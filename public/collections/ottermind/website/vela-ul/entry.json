@@ -1,0 +1,208 @@
+{
+ "slug": "vela-ul",
+ "sourceSlug": "vela-ul",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Vela Ul"
+ },
+ "title": "Vela Ul",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "features",
+ "sectionLabel": "Features section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/22b5cbe18c03810a.webp",
+  "still": "https://cdn.ottermind.ai/public/8620196d7754170f.webp",
+  "preview": "https://cdn.ottermind.ai/public/49cb5533ae01632b.mp4",
+  "full": "https://cdn.ottermind.ai/public/06bfa8a1836b339a.mp4",
+  "aspectRatio": 1.354,
+  "width": 1920,
+  "height": 1418,
+  "duration": 4.7
+ },
+ "seo": {
+  "title": "Vela Ul AI & SaaS Features Section Design & Prompt | Ottermind",
+  "description": "Features section reference for an AI or SaaS product — cubic-bezier(.22,1.36,1) easing, a masked headline reveal, glass panels and a stats row. Copy the prompt or open it staged.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS features section design",
+   "glass SaaS landing page",
+   "features section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Vela Ul — AI & SaaS Features Section Design",
+ "tagline": "Features section reference for an AI or SaaS product, captured at 1920x1418 with the layout, timings and palette specified in the brief.",
+ "summary": "Features section reference for an AI or SaaS product — cubic-bezier(.22,1.36,1) easing, a masked headline reveal, glass panels and a stats row.",
+ "about": "Read Vela Ul as a features section spec: the values were written down before the page was built. The colour scheme is #16120C underneath and #F7F5F2 for the type, and the page is set in Arial, Helvetica. It ships as one self-contained HTML file, so the whole features section can be lifted into a project without a design handoff. The brief spends its motion budget on 720ms transitions, cubic-bezier(.22,1.36,1) and a looping video bed. It is most useful when the AI & SaaS features section has to survive a copy change without a redesign.",
+ "layout": [
+  {
+   "title": "Links before the action",
+   "body": "A short run of links and a single action sit over the features section, held at a fixed 25px display size and 100vh sections so the bar never competes with the composition behind it. Below 410px the links collapse instead of wrapping onto a second line."
+  },
+  {
+   "title": "One media element carries the mood",
+   "body": "The composition is built on top of the 1920x1418 clip rather than beside it, so the media never gets a panel or a border. A poster frame at 1920x1418 holds the composition when autoplay is unavailable, so the layout never collapses."
+  },
+  {
+   "title": "Figures at display size",
+   "body": "The figures are set in Arial, Helvetica at a size closer to the headline than to the body copy. Labels sit under the figures at the smallest step in the brief, so the row reads as data rather than decoration. If a figure needs a paragraph, it is not a stat."
+  },
+  {
+   "title": "Behaviour is defined per width",
+   "body": "Type is sized with a clamp between 14px and 20px rather than fixed steps, so the display line stays proportionate between breakpoints instead of jumping. Because the scale is clamped, the display line never jumps between breakpoints."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Timings in milliseconds",
+   "body": "Transitions are specified at 720ms using cubic-bezier(.22,1.36,1), which is the timing the controls are held to. The values are short enough to read as feedback rather than as animation. Keep the durations when you re-skin the page."
+  },
+  {
+   "title": "Ambient motion without a scroll library",
+   "body": "Ambient movement comes from the 4.7s 1920x1418 loop rather than from scroll effects, which keeps the page calm and the type readable. The clip is short enough to loop without a visible seam, which matters more than its resolution."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#16120C",
+    "name": "Near-black",
+    "role": "panels"
+   },
+   {
+    "hex": "#F7F5F2",
+    "name": "Tint",
+    "role": "Headline"
+   },
+   {
+    "hex": "#AAA7AA",
+    "name": "Tint — darker",
+    "role": "Secondary"
+   },
+   {
+    "hex": "#17130E",
+    "name": "Near-black — lighter",
+    "role": "panel edges"
+   }
+  ],
+  "glass": "Panels are translucent over #16120C, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Arial, Helvetica",
+    "weights": "25px",
+    "role": "UI face"
+   },
+   {
+    "name": "Times New Roman",
+    "weights": "25px",
+    "role": "Accent face"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 720ms, which is the value to keep when the palette changes.",
+   "The clip is one asset at 1920x1418 and a 4.7s loop, so the composition has a single media dependency.",
+   "Media is specified at 1920x1418 and a 4.7s loop, so a replacement should match the crop and the loop length."
+  ]
+ },
+ "customize": [
+  "Retime the entrance to your own 720ms, but keep cubic-bezier(.22,1.36,1) as the curve, because the easing is what reads as this design.",
+  "Replace the headline and the supporting line with your own copy, keeping the same line count so the entrance still lands over the 1920x1418 frame.",
+  "Keep Arial, Helvetica or pick a face with the same proportions; the size scale is set for those widths, not for a substitute.",
+  "Keep the supporting line as short as the reference's and measure the pair against the 1920x1418 crop."
+ ],
+ "editorial": [
+  {
+   "title": "Making the features section yours",
+   "body": "Re-skinning the palette first is the usual mistake. It changes the mood without touching the composition, and a fixed 25px display size and 100vh sections still carry the layout; do the copy and media first and the palette last. Keep the media crop; it is doing as much work as the type."
+  },
+  {
+   "title": "What an AI or SaaS product gains here",
+   "body": "You could rebuild this as a stack of separate cards and lose only the argument. The features section reads as one decision instead: navigation, the headline, the announcement badge, the stats row and the card grid in a single sequence. Vela Ul states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "How the features section reflows",
+   "body": "Compared with a mobile layout that hides sections, this one keeps them and changes their shape: the scale is fluid rather than stepped, the layout shifts at 410px and the section is held at 100vh. Width changes the measurements, not the reading path."
+  }
+ ],
+ "steps": [
+  "Copy a fixed 25px display size, 100vh sections and a 3-column grid into your own brief before you rewrite anything else.",
+  "Check your build against the reference measurements: a fixed 25px display size, 100vh sections and a 3-column grid.",
+  "Keep the measurements the brief spells out: a fixed 25px display size, 100vh sections and a 3-column grid.",
+  "Pin the reference measurements before you restyle anything: a fixed 25px display size, 100vh sections and a 3-column grid.",
+  "Port the motion last: the entrance, the 720ms states and the hover behaviour, in that order."
+ ],
+ "faq": [
+  {
+   "question": "How long is the prompt behind Vela Ul?",
+   "answer": "The captured brief runs 25,889 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Why does the entry name one self-contained HTML file at all?",
+   "answer": "Vela Ul was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "How is this Vela Ul entry organised?",
+   "answer": "Everything quoted on the page comes from the captured 25,889-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  }
+ ],
+ "audience": [
+  "Growth teams reskinning an AI or SaaS product features section who want the 1920x1418 frame kept while the offer copy changes.",
+  "Contract teams taking over this features section who need one self-contained HTML file pinned in the repo before the first commit.",
+  "Product managers who have to estimate the build will read a 410px breakpoint as the scope of the work."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Features section"
+  },
+  {
+   "label": "Vertical",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Format",
+   "value": "1920x1418 · 1.35:1"
+  },
+  {
+   "label": "Loop",
+   "value": "4.7s loop"
+  },
+  {
+   "label": "Source text",
+   "value": "25,889 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type",
+   "value": "Arial, Helvetica, Times New Roman · 25px"
+  },
+  {
+   "label": "Tools",
+   "value": "vanilla JS, single HTML file"
+  },
+  {
+   "label": "Timing",
+   "value": "720ms transitions, cubic-bezier(.22,1.36,1) easing and a 4.7s media loop"
+  }
+ ],
+ "related": [
+  "bloom-ai-hero",
+  "build-with-us",
+  "cognitra-feature",
+  "contact-cybernetic",
+  "convix-software-hero",
+  "cyber-layer"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 25889,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

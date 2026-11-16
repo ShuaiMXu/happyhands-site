@@ -1,0 +1,198 @@
+{
+ "slug": "kresna-footer",
+ "sourceSlug": "kresna-footer",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Kresna Footer"
+ },
+ "title": "Kresna Footer",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "footer",
+ "sectionLabel": "Footer",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/17fb7e3d2f0e1d81.webp",
+  "still": "https://cdn.ottermind.ai/public/d44f5ad2af3cceae.webp",
+  "preview": "https://cdn.ottermind.ai/public/79645070636b39c6.mp4",
+  "full": "https://cdn.ottermind.ai/public/b14fbcd300965930.mp4",
+  "aspectRatio": 1.3652,
+  "width": 800,
+  "height": 586,
+  "duration": 8.61
+ },
+ "seo": {
+  "title": "Kresna Footer AI & SaaS Footer Design & Prompt | Ottermind",
+  "description": "Footer reference for an AI or SaaS product — max-width 560px and max-width 860px breakpoints, one self-contained HTML file, #FFFFFF base and a 800x586 frame. Copy the prompt or.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS footer design",
+   "video-backed SaaS landing page",
+   "footer design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Kresna Footer — AI & SaaS Footer Design",
+ "tagline": "Footer reference for an AI or SaaS product, captured at 800x586 with the layout, timings and palette specified in the brief.",
+ "summary": "Footer reference for an AI or SaaS product — max-width 560px and max-width 860px breakpoints, one self-contained HTML file, #FFFFFF base and a 800x586 frame.",
+ "about": "Kresna Footer is a working reference for an AI or SaaS product: the footer laid out, measured and ready to rebuild. The palette runs white #FFFFFF underneath and deep blue #111827 for the type, and the type is DM Sans. It ships as one self-contained HTML file, so the whole footer can be lifted into a project without a design handoff. The brief spends its motion budget on 0.2s transitions. Borrow the structure and not the subject: the footer and its numbers move to your brand unchanged.",
+ "layout": [
+  {
+   "title": "Links collapse at one width",
+   "body": "A short run of links and a single action sit over the footer, held at 28px spacing steps and 0.2s transitions so the bar never competes with the composition behind it. Below 560px the links collapse instead of wrapping onto a second line."
+  },
+  {
+   "title": "Figures as typography",
+   "body": "The row is placed high in the footer as proof rather than as decoration. The row is aligned to the same margin as the headline above it."
+  },
+  {
+   "title": "One family, two roles",
+   "body": "The type is DM Sans at the top of the scale, with the supporting copy dropped well below it so the hierarchy needs no colour to read. Line height follows the size steps rather than a single global value."
+  },
+  {
+   "title": "Panels, not paragraphs",
+   "body": "Where a run of copy would go, this page puts a set of panels, which is what keeps the footer scannable. The grid collapses to one column without changing the panel order."
+  }
+ ],
+ "motion": [
+  {
+   "title": "The surface has grain",
+   "body": "A grain overlay sits on white #FFFFFF, which stops large flat areas from reading as plain colour without adding a gradient. It replaces the gradient a page like this would normally use for depth."
+  },
+  {
+   "title": "Fast enough to feel deliberate",
+   "body": "The timings are short and consistent (0.2s), so hover and press states read as one system instead of a set of separate effects. Easing is specified alongside the duration (0.2s), so a rebuild cannot quietly substitute a different feel."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#9CA3AF",
+    "name": "Gray",
+    "role": "darker step"
+   },
+   {
+    "hex": "#111827",
+    "name": "Deep blue",
+    "role": "Headline"
+   },
+   {
+    "hex": "#FFFFFF",
+    "name": "White",
+    "role": "composition"
+   },
+   {
+    "hex": "#2D3148",
+    "name": "Deep blue — lighter",
+    "role": "Secondary"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "DM Sans",
+    "weights": "400 / 500 / 600 / 700",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 0.2s, short enough that the page never feels like it is waiting for an animation.",
+   "The timing budget is state feedback rather than page choreography (0.2s), so a slower rebuild reads as a different design.",
+   "The navigation collapses at max-width 560px and max-width 860px, so the bar has a designed narrow state."
+  ]
+ },
+ "customize": [
+  "Keep DM Sans or pick a face with the same proportions; the size scale is set for those widths, not for a substitute.",
+  "Draft the new copy to the 800x586 frame, then check that the entrance still lands on the same number of lines.",
+  "Retime the entrance to your own 0.2s, but keep a standard ease-out as the curve, because the easing is what reads as this design.",
+  "Write the replacement headline first, then confirm it still fits the 800x586 frame at the reference's type size."
+ ],
+ "editorial": [
+  {
+   "title": "Why the SaaS brief holds",
+   "body": "A stock hero and this footer use the same parts. Here they are ordered by navigation, the headline, the announcement badge, the stats row and the card grid and measured with 28px spacing steps, 0.2s transitions and a 560px breakpoint, so the screen reads as a sequence rather than a container. Kresna Footer states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "How the footer reflows",
+   "body": "Most responsive work stops at hiding elements. Here the layout changes shape: the layout shifts at 560px, and nothing important is dropped to make the fold fit. A squeeze would have been cheaper and would not hold."
+  },
+  {
+   "title": "The numbers behind the footer",
+   "body": "Almost every decision here is a value you can check: 28px spacing steps, 0.2s transitions and a 560px breakpoint. The media is a still at 800x586. The type stays in DM Sans, so a substitution has to keep the same proportions. Nothing in this footer depends on a default."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 800x586 capture before you generate.",
+  "Copy 28px spacing steps, 0.2s transitions and a 560px breakpoint into your own brief before you rewrite anything else.",
+  "Check your build against the reference measurements: 28px spacing steps, 0.2s transitions and a 560px breakpoint.",
+  "Keep the measurements the brief spells out: 28px spacing steps, 0.2s transitions and a 560px breakpoint.",
+  "Pin the reference measurements before you restyle anything: 28px spacing steps, 0.2s transitions and a 560px breakpoint."
+ ],
+ "faq": [
+  {
+   "question": "What does the brief behind Kresna Footer actually contain?",
+   "answer": "The captured brief runs 9,163 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "How much of Kresna Footer depends on one self-contained HTML file?",
+   "answer": "Kresna Footer was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What can I do with the Kresna Footer brief once I have it?",
+   "answer": "Everything quoted on the page comes from the captured 9,163-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  }
+ ],
+ "audience": [
+  "Growth teams reskinning an AI or SaaS product footer who want the 800x586 frame kept while the offer copy changes.",
+  "Made for studios that have to explain 560px behaviour to a client without building a prototype first.",
+  "Teams rebuilding a competitor's SaaS footer who want one self-contained HTML file named before anyone commits to a framework."
+ ],
+ "specs": [
+  {
+   "label": "Block",
+   "value": "Footer"
+  },
+  {
+   "label": "Vertical",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Viewport",
+   "value": "800x586 · 1.37:1"
+  },
+  {
+   "label": "Prompt text",
+   "value": "9,163 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Typefaces",
+   "value": "DM Sans"
+  },
+  {
+   "label": "Built with",
+   "value": "single HTML file"
+  },
+  {
+   "label": "Motion spec",
+   "value": "0.2s transitions"
+  }
+ ],
+ "related": [
+  "digitwist-hero",
+  "email-landing-page",
+  "equilibrium",
+  "fastshot",
+  "forecast-center",
+  "growth-decisions"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 9163,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

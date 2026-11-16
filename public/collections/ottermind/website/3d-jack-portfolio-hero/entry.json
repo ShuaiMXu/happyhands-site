@@ -1,0 +1,198 @@
+{
+ "slug": "3d-jack-portfolio-hero",
+ "sourceSlug": "3d-jack-portfolio-hero",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "3D Portfolio"
+ },
+ "title": "3D Portfolio",
+ "industry": "3d-games",
+ "industryLabel": "3D & Games",
+ "section": "portfolio",
+ "sectionLabel": "Portfolio",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/518bfbebe93d7c8b.webp",
+  "still": "https://cdn.ottermind.ai/public/2ad811743e0ee39d.webp",
+  "preview": "https://cdn.ottermind.ai/public/06c71b41d35caa31.mp4",
+  "full": "https://cdn.ottermind.ai/public/cdb72c47f4f8df27.mp4",
+  "aspectRatio": 1.363,
+  "width": 1472,
+  "height": 1080,
+  "duration": 6.367
+ },
+ "seo": {
+  "title": "3D Portfolio 3D & Games Portfolio Design & Prompt | Ottermind",
+  "description": "Portfolio reference for a 3D, game or entertainment brand — React and Tailwind CSS, #0C0C0C base, 200ms transitions and a stats row. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "3D website design",
+   "3D portfolio page design",
+   "marquee-led 3D landing page",
+   "portfolio page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "3D Portfolio — 3D & Games Portfolio Design",
+ "tagline": "Portfolio reference built around “Jack — 3D Creator”, with the layout, timings and palette written down in the brief.",
+ "summary": "Portfolio reference for a 3D, game or entertainment brand — React and Tailwind CSS, #0C0C0C base, 200ms transitions and a stats row.",
+ "about": "This is the portfolio page from 3D Portfolio, published with the brief that produced it rather than as a screenshot. “Jack — 3D Creator” is the line the layout is built to carry. The whole page is built on black #0C0C0C underneath and white #D7E2EA for the type. Delivery is React and Tailwind CSS — one page, no plugin, no build tooling between you and the design. Motion is confined to 200ms transitions and a looping video bed. This reference is for a 3D, game or entertainment brand that wants the first screen settled before the build starts.",
+ "layout": [
+  {
+   "title": "Links before the action",
+   "body": "The bar overlays the portfolio page instead of pushing it down, so the composition keeps the full height of the first screen. The bar sits over the 1472x1080 composition without a background of its own, so the media runs edge to edge underneath it. One action per bar."
+  },
+  {
+   "title": "The spacing steps are quoted",
+   "body": "The layout is solved against fixed values (85vh sections, 160px spacing steps and 200ms transitions), which is what keeps the first screen composed at any width. Spacing is quoted in the same units as the type, so the two can be compared directly. Keep the named values when you port the page."
+  },
+  {
+   "title": "Badge above the fold",
+   "body": "The badge is the only element allowed above the headline, which is what makes it read as an announcement instead of chrome. There is one announcement only, which is what makes the badge feel like news. One badge, one message."
+  },
+  {
+   "title": "Numbers on the baseline",
+   "body": "A compact stats strip carries the claims that would otherwise need a paragraph, which keeps the portfolio page from turning into a feature list. The label step is quoted in the brief, so it stays below the figures after a substitution."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Timings in milliseconds",
+   "body": "Motion is measured in milliseconds here: 200ms. That is the whole animation budget, and it is spent on state changes rather than on a scroll timeline. If the easing changes, the duration has to be revisited with it. The timings are part of the design, not a finishing pass."
+  },
+  {
+   "title": "The canvas is the visual",
+   "body": "Runtime rendering is the design decision here (a 3D transform on the main element), and the layout is built to leave it room. The render is the last element to be ready, so the page has to work in the state before it loads."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#D7E2EA",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#0C0C0C",
+    "name": "Near-black",
+    "role": "composition"
+   },
+   {
+    "hex": "#646973",
+    "name": "Muted blue",
+    "role": "lighter step"
+   },
+   {
+    "hex": "#BBCCD7",
+    "name": "Muted blue — lighter",
+    "role": "Hover tint"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Face not specified",
+    "weights": "Sizes and weights only",
+    "role": "The brief fixes the type scale but leaves the face to the build"
+   }
+  ],
+  "notes": [
+   "The clip is one asset at 1472x1080 and a 6.4s loop, so the composition has a single media dependency.",
+   "Media is specified at 1472x1080 and a 6.4s loop, so a replacement should match the crop and the loop length.",
+   "The timing budget is state feedback rather than page choreography (200ms), so a slower rebuild reads as a different design. Nothing sits between the type and the 1472x1080 clip, so a replacement has to work under the copy directly."
+  ]
+ },
+ "customize": [
+  "Change the copy first, then the accent, then the media: the 1472x1080 frame was solved in that order and reversing it costs a re-layout.",
+  "Hold the 1472x1080 frame when you swap the content; the composition was solved against that ratio and a wider export pushes the type off.",
+  "Swap the clip for your own footage at 1472x1080 or wider, keep it muted, and match the 6.4s loop point.",
+  "Replace the video with a still at 1472x1080 if the 6.4s loop is too heavy for the page you are shipping."
+ ],
+ "editorial": [
+  {
+   "title": "What to change first in 3D Portfolio",
+   "body": "One line, one font, one accent: those three substitutions change the design most. 85vh sections, 160px spacing steps and 200ms transitions are the values that should not move. The subject is the part that should change."
+  },
+  {
+   "title": "The numbers behind the portfolio page",
+   "body": "Type is the first number: 85vh sections and 160px spacing steps. The spacing follows from it, and everything else on the page is positioned against those two values. Nothing in this portfolio page depends on a default."
+  },
+  {
+   "title": "How the portfolio page reflows",
+   "body": "The cost of a fluid scale is less control over exact sizes. What you get is a display line that stays proportionate, which is why a clamp between 120px and 160px is in the brief. The mobile version is a decision, not a fallback."
+  }
+ ],
+ "steps": [
+  "Keep the measurements the brief spells out: 85vh sections, 160px spacing steps and 200ms transitions.",
+  "Copy 85vh sections, 160px spacing steps and 200ms transitions into your own brief before you rewrite anything else.",
+  "Check your build against the reference measurements: 85vh sections, 160px spacing steps and 200ms transitions.",
+  "Pin the reference measurements before you restyle anything: 85vh sections, 160px spacing steps and 200ms transitions.",
+  "Copy the 200ms timing exactly, then rebuild the entrance before the hover states."
+ ],
+ "faq": [
+  {
+   "question": "What does the brief behind 3D Portfolio actually contain?",
+   "answer": "The captured brief runs 13,877 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Is the 3D Portfolio brief the same as the prompt I would write?",
+   "answer": "Everything quoted on the page comes from the captured 13,877-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "Why does the entry name React and Tailwind CSS at all?",
+   "answer": "3D Portfolio was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  }
+ ],
+ "audience": [
+  "Quote a 1472x1080 frame in the handoff note so the next build does not have to re-derive it from the page.",
+  "If the motion has to be dropped, the portfolio page still reads, with 85vh sections and 160px spacing steps doing the hierarchy work.",
+  "Product teams writing their own Portfolio copy who need every line to keep the length the display type was sized for."
+ ],
+ "specs": [
+  {
+   "label": "Block",
+   "value": "Portfolio"
+  },
+  {
+   "label": "Sector",
+   "value": "3D & Games"
+  },
+  {
+   "label": "Canvas size",
+   "value": "1472x1080 · 1.36:1"
+  },
+  {
+   "label": "Loop length",
+   "value": "6.4s loop"
+  },
+  {
+   "label": "Prompt text",
+   "value": "13,877 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Tech stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Motion",
+   "value": "200ms transitions and a 6.4s media loop"
+  }
+ ],
+ "related": [
+  "portfolio-cosmic-hero",
+  "3d-collectible-hero",
+  "cast-and-render",
+  "cyber-ronin",
+  "3d-character-studio",
+  "404"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 13877,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

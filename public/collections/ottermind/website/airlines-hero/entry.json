@@ -1,0 +1,206 @@
+{
+ "slug": "airlines-hero",
+ "sourceSlug": "lp-005-6a5cba37f2a29290ea72db3e",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "Airlines Hero Section"
+ },
+ "title": "Airlines Hero Section",
+ "industry": "travel",
+ "industryLabel": "Travel",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/883cd72c8e400fdb.webp",
+  "still": "https://cdn.ottermind.ai/public/69c25202faa65121.webp",
+  "preview": "https://cdn.ottermind.ai/public/62b5ed183586c3a4.mp4",
+  "full": "https://cdn.ottermind.ai/public/b9739ecd7717d825.mp4",
+  "aspectRatio": 1.3574,
+  "width": 1466,
+  "height": 1080,
+  "duration": 2.2
+ },
+ "seo": {
+  "title": "Airlines Hero Section Travel Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for a travel brand — a stats row, one self-contained HTML file, looping video and a moving marquee. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "travel website design",
+   "travel hero section design",
+   "video-backed travel landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Airlines Hero Section — Travel Hero Section Design",
+ "tagline": "Hero section reference built on deep indigo #20153E and indigo #56489B, set in Inter and measured against 100vh sections.",
+ "summary": "Hero section reference for a travel brand — a stats row, one self-contained HTML file, looping video and a moving marquee.",
+ "about": "Airlines Hero Section is a working reference for a travel brand: the hero section laid out, measured and ready to rebuild. The palette is deep indigo #20153E underneath and indigo #56489B carrying the accents, set in Inter. The entry names the stack that produced the page (one self-contained HTML file) rather than hiding it. The brief spends its motion budget on a looping video bed. Use it as the reference when you are building a travel brand hero section and want a finished composition instead of a starting point.",
+ "layout": [
+  {
+   "title": "The nav is deliberately thin",
+   "body": "The top row holds the wordmark, four to five links and a single action tinted #56489B, sized to stay quiet against the rest of the page. A mobile overlay takes over below the tablet breakpoint. The links are set below the wordmark in size, and the #56489B action is the only element in the bar with any weight."
+  },
+  {
+   "title": "The sizes are in the brief, not in a scale",
+   "body": "Nothing here is eyeballed. The spec fixes 100vh sections and 14px spacing steps, and the rest of the layout derives from those values. The brief states values rather than proportions, so the composition keeps its relationships when the copy changes length. Change the subject, not the steps."
+  },
+  {
+   "title": "Video at the bottom layer",
+   "body": "The background is a single 2.2s loop at 1466x1080, cropped to cover and left un-tinted. Everything else floats above it on a higher layer. The loop is short enough (2.2s) that the eye reads it as texture rather than as a timeline."
+  },
+  {
+   "title": "One face, used with discipline",
+   "body": "Type is the styling system here: Inter at the display size, the same face across the interface, and no second accent colour doing the work. Substituting the face is possible, but the proportions have to survive the swap."
+  }
+ ],
+ "motion": [
+  {
+   "title": "The controls are the interactive layer",
+   "body": "The interactive layer is small and predictable: hover states on the buttons and links rather than on every card. Everything else stays still, which keeps the emphasis on the composition. Hover and focus are specified together, so the pointer and the keyboard get the same information. Check the states on a touch device."
+  },
+  {
+   "title": "The loop does the ambient work",
+   "body": "Ambient movement is one 2.2s clip at 1466x1080, looping quietly behind the copy rather than reacting to the pointer. A poster frame stands in when autoplay is blocked, so the motion is additive rather than required."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#1D0511",
+    "name": "Near-black",
+    "role": "darkest"
+   },
+   {
+    "hex": "#CAA490",
+    "name": "Muted orange",
+    "role": "lighter"
+   },
+   {
+    "hex": "#56489B",
+    "name": "Indigo",
+    "role": "accent"
+   },
+   {
+    "hex": "#20153E",
+    "name": "Deep indigo",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Accent and ground are both named (indigo #56489B on deep indigo #20153E), so a brand swap moves one value.",
+   "The accent is spent on indigo #56489B and the rest of the composition holds deep indigo #20153E.",
+   "The clip is one asset at 1466x1080 and a 2.2s loop, so the composition has a single media dependency."
+  ]
+ },
+ "customize": [
+  "Replace the copy in the Inter stack first, then re-check the #56489B accent against the media behind it.",
+  "Keep 1466x1080 for the media and re-crop your own asset into it rather than resizing the frame.",
+  "Draft the new copy to the 1466x1080 frame, then check that the entrance still lands on the same number of lines.",
+  "Change #56489B for your brand accent and re-check it against #20153E, because the accent is the only saturated value in this composition."
+ ],
+ "editorial": [
+  {
+   "title": "What holds up for Travel",
+   "body": "Most travel pages add another section when the first screen is weak. This one removes options instead: navigation, the headline, the stats row and the background clip, in that order, and nothing that repeats the offer. Airlines Hero Section states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "The order behind the hero section",
+   "body": "The page has a deliberate order. Navigation establishes the product and gives a returning visitor a familiar way around. The headline takes the display size, the supporting line explains the offer, and the indigo #56489B accent marks the primary action, so the next step is never in question. Nothing else competes: there is no card grid before the first decision, which is what keeps the hero section from feeling heavy in travel work. A travel reader gets the offer before the options."
+  },
+  {
+   "title": "The timing behind the hero section",
+   "body": "Count the animated elements and the list is short: hover and press states, a 2.2s media loop and a looping marquee. Nothing animates for its own sake in this hero section."
+  }
+ ],
+ "steps": [
+  "Set the brand first: product name, the #56489B accent and a headline that replaces the reference's.",
+  "Type the product name and the #56489B accent before you touch the layout.",
+  "Drop your product name in, then replace #56489B with your own accent and re-check the contrast.",
+  "Set your brand first: product name, the #56489B accent and the headline that replaces the reference's.",
+  "Check your build against the reference measurements: 100vh sections and 14px spacing steps."
+ ],
+ "faq": [
+  {
+   "question": "What does the brief behind Airlines Hero Section actually contain?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1466x1080, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Do I need one self-contained HTML file to rebuild Airlines Hero Section?",
+   "answer": "The reference happens to be built in one self-contained HTML file. Nothing in the layout depends on that choice: the spacing, type and motion values transfer to whatever you already use."
+  },
+  {
+   "question": "Where did the Airlines Hero Section design come from?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1466x1080."
+  }
+ ],
+ "audience": [
+  "Write your own headline, then rebuild this hero section in one self-contained HTML file with the measurements intact.",
+  "Teams rebuilding a competitor's travel hero section who want one self-contained HTML file named before anyone commits to a framework.",
+  "The page serves front-end developers rebuilding a travel brand hero section in one self-contained HTML file and looking for the numbers behind the look."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Hero section"
+  },
+  {
+   "label": "Industry",
+   "value": "Travel"
+  },
+  {
+   "label": "Frame",
+   "value": "1466x1080 · 1.36:1"
+  },
+  {
+   "label": "Clip length",
+   "value": "2.2s loop"
+  },
+  {
+   "label": "Prompt",
+   "value": "2,222 characters"
+  },
+  {
+   "label": "Captured",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key colour",
+   "value": "indigo #56489B"
+  },
+  {
+   "label": "Typefaces",
+   "value": "Inter"
+  },
+  {
+   "label": "Stack",
+   "value": "Tailwind CSS, single HTML file"
+  },
+  {
+   "label": "Motion spec",
+   "value": "a 2.2s media loop"
+  }
+ ],
+ "related": [
+  "jetcrest-private-jet-hero",
+  "paradiso-cta",
+  "mostar-guide",
+  "place-saver",
+  "skyelite-hero",
+  "travel-journal"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 2222,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

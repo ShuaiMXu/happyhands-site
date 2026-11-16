@@ -1,0 +1,211 @@
+{
+ "slug": "quantum-lucid",
+ "sourceSlug": "quantum-lucid",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Quantum Lucid"
+ },
+ "title": "Quantum Lucid",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/203a432a4bf5b6c2.webp",
+  "still": "https://cdn.ottermind.ai/public/8064103a5534b0fa.webp",
+  "preview": "https://cdn.ottermind.ai/public/3478d5e09a372551.mp4",
+  "full": "https://cdn.ottermind.ai/public/59e6bf552a785d7c.mp4",
+  "aspectRatio": 1.3598,
+  "width": 1920,
+  "height": 1412,
+  "duration": 6.65
+ },
+ "seo": {
+  "title": "Quantum Lucid AI & SaaS Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an AI or SaaS product — cubic-bezier(.22, 1.36, 1) easing, looping video, one self-contained HTML file and Figtree. Copy the prompt or open it staged.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS landing page design",
+   "dark SaaS landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Quantum Lucid — AI & SaaS Landing Page Design",
+ "tagline": "Landing page reference built on neutral #F2F2F2 and shade #38C6EC, set in Figtree and measured against 100vh sections.",
+ "summary": "Landing page reference for an AI or SaaS product — cubic-bezier(.22, 1.36, 1) easing, looping video, one self-contained HTML file and Figtree.",
+ "about": "Quantum Lucid is the landing page reference for an AI or SaaS product, and the brief behind it is a full build spec rather than a mood board. The palette is neutral #F2F2F2 underneath, near-black #000000 for the type and shade #38C6EC carrying the accents, set in Figtree. Delivery is one self-contained HTML file, captured at 1920x1412 so the frame is fixed before any code is written. Motion is 1200ms transitions, cubic-bezier(.22, 1.36, 1) and a looping video bed, kept quiet enough that the copy still leads. Keep it open while you write: the 20,249-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "The bar shares the page grid",
+   "body": "The row spends its contrast in one place: the #38C6EC action, with the wordmark and the links held back on the ink colour. Under 216px the links collapse into a full-screen overlay. Labels are short enough to fit one line at 216px, and the active item is marked with weight rather than with a pill."
+  },
+  {
+   "title": "The video is the background, not a panel",
+   "body": "The first screen is a single clip at 1920x1412, and everything else is arranged on top of it. Export at 1920x1412 or wider and the cover crop keeps working."
+  },
+  {
+   "title": "The type carries the tone",
+   "body": "The type is Figtree at the top of the scale, with the supporting copy dropped well below it so the hierarchy needs no colour to read. Substituting the face is possible, but the proportions have to survive the swap."
+  },
+  {
+   "title": "A navigation bar that gets out of the way",
+   "body": "Design the collapsed state before adding a sixth link. The reference was captured at 1920x1412."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Timing kept in the brief",
+   "body": "Hover, press and focus all resolve in 1200ms, which is what makes the interface feel immediate. Every state change names a value, so the browser default is never used."
+  },
+  {
+   "title": "One element arrives",
+   "body": "The entrance gives the page its arrival, and the composition is unchanged once it has run: each line rises out of an overflow-hidden window. Under reduced motion the element simply appears and the layout is unchanged."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#38C6EC",
+    "name": "Shade",
+    "role": "accent"
+   },
+   {
+    "hex": "#000000",
+    "name": "Near-black",
+    "role": "Headline"
+   },
+   {
+    "hex": "#F2F2F2",
+    "name": "Neutral",
+    "role": "composition"
+   },
+   {
+    "hex": "#2E2E2E",
+    "name": "Shade — darker",
+    "role": "darker step"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Figtree",
+    "weights": "Weight not fixed in the brief",
+    "role": "Control text"
+   },
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Body copy"
+   }
+  ],
+  "notes": [
+   "The clip is one asset at 1920x1412 and a 6.7s loop, so the composition has a single media dependency.",
+   "The navigation collapses at min-width 216px and min-width 940px, so the bar has a designed narrow state.",
+   "Panel corners reuse the radius list in the brief (26px and 17px), so the grid needs no separate treatment."
+  ]
+ },
+ "customize": [
+  "Retime the entrance to your own 1200ms, but keep cubic-bezier(.22, 1.36, 1) as the curve, because the easing is what reads as this design.",
+  "Load your own face beside Figtree and compare the headline at full width before committing to the swap.",
+  "Set 1200ms to your own build speed and check that cubic-bezier(.22, 1.36, 1) still lands the copy before the media starts.",
+  "Keep Figtree or pick a face with the same proportions; the size scale is set for those widths, not for a substitute."
+ ],
+ "editorial": [
+  {
+   "title": "What holds up for AI & SaaS",
+   "body": "Where a template fills the fold with modules, this landing page uses navigation, the headline, the announcement badge, the stats row and the card grid and stops. The difference shows in 100vh sections and 26px corners: nothing is padded to fill space. It gives a SaaS reader the shortest honest route to the offer."
+  },
+  {
+   "title": "How Quantum Lucid sequences the first read",
+   "body": "A strict order costs you flexibility later. Add a section above the fold and 100vh sections and 26px corners have to be re-cut, because the sequence is load-bearing rather than decorative. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "What to change first in Quantum Lucid",
+   "body": "Change the copy and the media first, the colour second, the layout last. The 1920x1412 frame and the Figtree scale are what hold the page together, so substitute around them rather than through them. Keep the frame and the scale; the subject is the part that should change."
+  }
+ ],
+ "steps": [
+  "Set the brand first: product name, the #38C6EC accent and a headline that replaces the reference's.",
+  "Drop your product name in, then replace #38C6EC with your own accent and re-check the contrast.",
+  "Type the product name and the #38C6EC accent before you touch the layout.",
+  "Set your brand first: product name, the #38C6EC accent and the headline that replaces the reference's.",
+  "Pin the reference measurements before you restyle anything: 100vh sections, 26px corners and 14px spacing steps."
+ ],
+ "faq": [
+  {
+   "question": "Can I rebuild the Quantum Lucid landing page in a different stack?",
+   "answer": "Quantum Lucid was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What does the brief behind Quantum Lucid actually contain?",
+   "answer": "The captured brief runs 20,249 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "How much of Quantum Lucid is animated?",
+   "answer": "Entrances and state changes are in the 1200ms range using cubic-bezier(.22, 1.36, 1) with a reduced-motion branch in the brief. They are driven by state changes rather than a scroll library, and they never hold up the copy."
+  }
+ ],
+ "audience": [
+  "Teams building an AI or SaaS product landing page who need cubic-bezier(.22, 1.36, 1) easing on the record before an estimate goes out.",
+  "Borrow the landing page structure whole and replace the copy line by line against one self-contained HTML file.",
+  "If the reference is only a starting point, designers can keep a 216px breakpoint and rebuild the rest of the landing page."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Landing page"
+  },
+  {
+   "label": "Industry",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Viewport",
+   "value": "1920x1412 · 1.36:1"
+  },
+  {
+   "label": "Duration",
+   "value": "6.7s loop"
+  },
+  {
+   "label": "Brief",
+   "value": "20,249 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent tone",
+   "value": "shade #38C6EC"
+  },
+  {
+   "label": "Typefaces",
+   "value": "Figtree, Inter"
+  },
+  {
+   "label": "Tech stack",
+   "value": "Tailwind CSS, React, single HTML file"
+  },
+  {
+   "label": "Transitions",
+   "value": "1200ms transitions, cubic-bezier(.22, 1.36, 1) easing and a 6.7s media loop"
+  }
+ ],
+ "related": [
+  "sentinel-ai-hero",
+  "signal-id",
+  "stellar-ai-hero",
+  "tech-noir-about",
+  "transform-data-hero",
+  "vela-ul"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 20249,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

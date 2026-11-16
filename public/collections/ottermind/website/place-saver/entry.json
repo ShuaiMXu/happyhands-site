@@ -1,0 +1,208 @@
+{
+ "slug": "place-saver",
+ "sourceSlug": "place-saver",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Place Saver"
+ },
+ "title": "Place Saver",
+ "industry": "travel",
+ "industryLabel": "Travel",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/bbfacea45e47b16c.webp",
+  "still": "https://cdn.ottermind.ai/public/73f66a8a39848e0e.webp",
+  "preview": "https://cdn.ottermind.ai/public/eb313474772f5523.mp4",
+  "full": "https://cdn.ottermind.ai/public/772a10977af9dcfc.mp4",
+  "aspectRatio": 1.3704,
+  "width": 1480,
+  "height": 1080,
+  "duration": 5.6
+ },
+ "seo": {
+  "title": "Place Saver Travel Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for a travel brand — cubic-bezier(0.16, 1, 0.3, 1) easing, #F4F4F4 base, Playfair Display and a stats row. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "travel website design",
+   "travel landing page design",
+   "video-backed travel landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Place Saver — Travel Landing Page Design",
+ "tagline": "Landing page reference built around “The place for all your places”, with the layout, timings and palette written down in the brief.",
+ "summary": "Landing page reference for a travel brand — cubic-bezier(0.16, 1, 0.3, 1) easing, #F4F4F4 base, Playfair Display and a stats row.",
+ "about": "Place Saver is a travel landing page built from one written brief, and this page documents that brief. The page's own headline reads “The place for all your places”, and the composition is built around those exact words. The palette runs white #F4F4F4 underneath and deep blue #0C0C0E for the type, and the type is Playfair Display. Delivery is a single component, captured at 1480x1080 so the frame is fixed before any code is written. The motion budget is 0.9s transitions, cubic-bezier(0.16, 1, 0.3, 1) and a looping video bed. It is the right reference for a travel brand landing page that has to look deliberate on the first screen.",
+ "layout": [
+  {
+   "title": "The spacing steps are quoted",
+   "body": "The brief fixes 48px corners, 28px spacing steps, 0.9s transitions and cubic-bezier(0.16, 1, 0.3, 1) easing and leaves the rest to the arrangement, which is the opposite of a scale that grows on its own. The brief states values rather than proportions, so the composition keeps its relationships when the copy changes length. Measure before you adjust."
+  },
+  {
+   "title": "One media element carries the mood",
+   "body": "Video sits on the bottom layer of the 1480x1080 composition, with the type arranged above it and nothing in between. A poster frame at 1480x1080 holds the composition when autoplay is unavailable, so the layout never collapses. Export at 1480x1080 or wider to keep the crop honest."
+  },
+  {
+   "title": "Weights named per role",
+   "body": "Typography is Playfair Display, and the brief assigns the face a job rather than mixing for variety. Weight, tracking and size steps are all specified, so the hierarchy survives a substitution. The face is paired with fixed sizes, which is what keeps the display line and the interface text related."
+  },
+  {
+   "title": "Measured, not eyeballed",
+   "body": "Spacing is quoted the same way (48px corners, 28px spacing steps, 0.9s transitions and cubic-bezier(0.16, 1, 0.3, 1) easing), not as a scale that grows on its own."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Ambient motion without a scroll library",
+   "body": "One 5.6s clip is the entire ambient layer: it plays behind the copy, loops without a visible cut and never reacts to the pointer. The clip is short enough to loop without a visible seam, which matters more than its resolution."
+  },
+  {
+   "title": "The whole animation budget",
+   "body": "Motion in the controls is short and repeatable: 0.9s on each state change. Easing is specified alongside the duration (0.9s), so a rebuild cannot quietly substitute a different feel. Keep the durations when you re-skin the page."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#14151D",
+    "name": "Near-black",
+    "role": "darker step"
+   },
+   {
+    "hex": "#F4F4F4",
+    "name": "White",
+    "role": "composition"
+   },
+   {
+    "hex": "#1A1A1A",
+    "name": "Near-black — lighter",
+    "role": "Secondary"
+   },
+   {
+    "hex": "#0C0C0E",
+    "name": "Near-black — darker",
+    "role": "Headline"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Playfair Display",
+    "weights": "Weight not fixed in the brief",
+    "role": "Display"
+   },
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Body copy"
+   },
+   {
+    "name": "ITC Garamond Std Narrow",
+    "weights": "Weight not fixed in the brief",
+    "role": "Second face"
+   }
+  ],
+  "notes": [
+   "Corner treatment is specified in the brief: 48px.",
+   "Transitions are specified at 0.9s, short enough that the page never feels like it is waiting for an animation.",
+   "The clip is one asset at 1480x1080 and a 5.6s loop, so the composition has a single media dependency."
+  ]
+ },
+ "customize": [
+  "Draft the new copy to the 1480x1080 frame, then check that the entrance still lands on the same number of lines.",
+  "Swap the clip for your own footage at 1480x1080 or wider, keep it muted, and match the 5.6s loop point.",
+  "Swap in your own headline where “The place for all your places” sits and keep the line breaks, because the entrance animates per line.",
+  "Keep 1480x1080 for the media and re-crop your own asset into it rather than resizing the frame."
+ ],
+ "editorial": [
+  {
+   "title": "Reading Place Saver as a spec",
+   "body": "Almost every decision here is a value you can check: 48px corners, 28px spacing steps, 0.9s transitions and cubic-bezier(0.16, 1, 0.3, 1) easing. The media is a 5.6s 1480x1080 loop. The type stays in Playfair Display, so a substitution has to keep the same proportions. Nothing in this landing page depends on a default."
+  },
+  {
+   "title": "How the landing page reflows",
+   "body": "A fluid scale and a stepped one look similar on a wide screen. Narrow the viewport and the difference shows: a clamp between 66px and 28px against fixed jumps. The reflow keeps the action reachable at every width."
+  },
+  {
+   "title": "What moves in Place Saver",
+   "body": "Every transition here has a number attached. That is why 0.9s transitions and a 5.6s media loop can be ported value by value instead of re-tuned by feel. Nothing animates for its own sake in this landing page."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1480x1080 capture before you generate.",
+  "Pin the reference measurements before you restyle anything: 48px corners, 28px spacing steps and 0.9s transitions.",
+  "Copy 48px corners, 28px spacing steps and 0.9s transitions into your own brief before you rewrite anything else.",
+  "Check your build against the reference measurements: 48px corners, 28px spacing steps and 0.9s transitions.",
+  "Keep the measurements the brief spells out: 48px corners, 28px spacing steps and 0.9s transitions."
+ ],
+ "faq": [
+  {
+   "question": "Why does the entry name a single component at all?",
+   "answer": "Place Saver was built in a single component, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Why is Place Saver's prompt not printed here?",
+   "answer": "Everything quoted on the page comes from the captured 8,226-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "How long is the prompt behind Place Saver?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1480x1080, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  }
+ ],
+ "audience": [
+  "This landing page serves teams who have to justify a single component to someone who was not in the kickoff.",
+  "Teams rebuilding a competitor's travel landing page who want a single component named before anyone commits to a framework.",
+  "The page serves front-end developers rebuilding a travel brand landing page in a single component and looking for the numbers behind the look."
+ ],
+ "specs": [
+  {
+   "label": "Page section",
+   "value": "Landing page"
+  },
+  {
+   "label": "Field",
+   "value": "Travel"
+  },
+  {
+   "label": "Canvas size",
+   "value": "1480x1080 · 1.37:1"
+  },
+  {
+   "label": "Duration",
+   "value": "5.6s loop"
+  },
+  {
+   "label": "Input brief",
+   "value": "8,226 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type scale",
+   "value": "Playfair Display, Inter, ITC Garamond Std Narrow"
+  },
+  {
+   "label": "Motion spec",
+   "value": "0.9s transitions, cubic-bezier(0.16, 1, 0.3, 1) easing and a 5.6s media loop"
+  }
+ ],
+ "related": [
+  "skyelite-hero",
+  "travel-journal",
+  "wanderful-hero",
+  "aetheris-voyage-hero",
+  "ai-trip-planner",
+  "airlines-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 8226,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

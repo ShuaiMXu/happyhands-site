@@ -1,0 +1,4308 @@
+[
+ {
+  "slug": "3d-character-studio",
+  "title": "3D Character Studio",
+  "industry": "Agencies & Studios",
+  "section": "Landing page",
+  "summary": "Landing page reference for an agency or studio — HelveticaNowDisplay-Medium, React and Tailwind CSS, #E12444 accent and looping video.",
+  "palette": [
+   "#780011",
+   "#D79780",
+   "#800014",
+   "#E12444"
+  ],
+  "fonts": [
+   "HelveticaNowDisplay-Medium",
+   "HelveticaNowDisplayW01-Rg"
+  ],
+  "canvas": "1740x1080",
+  "has_video": true,
+  "folder": "website/3d-character-studio",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "3d-collectible-hero",
+  "title": "3D Collectible Hero",
+  "industry": "3D & Games",
+  "section": "Hero section",
+  "summary": "Hero section reference for a 3D, game or entertainment brand — cubic-bezier(0.4,0,0.2,1) easing, a 640x470 frame, #85CC92 base and 650ms transitions.",
+  "palette": [
+   "#F4845F",
+   "#F79B7F",
+   "#6BBF7A",
+   "#85CC92"
+  ],
+  "fonts": [
+   "Anton",
+   "Inter"
+  ],
+  "canvas": "640x470",
+  "has_video": true,
+  "folder": "website/3d-collectible-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "3d-jack-portfolio-hero",
+  "title": "3D Portfolio",
+  "industry": "3D & Games",
+  "section": "Portfolio",
+  "summary": "Portfolio reference for a 3D, game or entertainment brand — React and Tailwind CSS, #0C0C0C base, 200ms transitions and a stats row.",
+  "palette": [
+   "#D7E2EA",
+   "#0C0C0C",
+   "#646973",
+   "#BBCCD7"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "1472x1080",
+  "has_video": true,
+  "folder": "website/3d-jack-portfolio-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "404",
+  "title": "Nexto 404",
+  "industry": "AI & SaaS",
+  "section": "404 page",
+  "summary": "404 page reference for an AI or SaaS product — 5s transitions, React and Tailwind CSS, a dark stage and #F5F5F5 base.",
+  "palette": [
+   "#F5F5F5",
+   "#1A1A1A",
+   "#888888",
+   "#FFFFFF"
+  ],
+  "fonts": [
+   "DM Sans"
+  ],
+  "canvas": "1986x1446",
+  "has_video": true,
+  "folder": "website/404",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "404-planet",
+  "title": "404 Planet",
+  "industry": "AI & SaaS",
+  "section": "404 page",
+  "summary": "404 page reference for an AI or SaaS product — #01010C base, glass panels, 200ms transitions and #0D214E accent.",
+  "palette": [
+   "#000001",
+   "#D1ECF4",
+   "#01010C",
+   "#0D214E"
+  ],
+  "fonts": [
+   "Helvetica, Arial"
+  ],
+  "canvas": "640x468",
+  "has_video": true,
+  "folder": "website/404-planet",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "adhd-planner",
+  "title": "ADHD Planner",
+  "industry": "Health",
+  "section": "Pricing section",
+  "summary": "Pricing section reference for a health or wellbeing product — a stats row, 300ms transitions, cubic-bezier(0.77,0,0.175,1) easing and #D9C4AA accent.",
+  "palette": [
+   "#321C04",
+   "#D9C4AA",
+   "#F6E4CF",
+   "#FFF9F2"
+  ],
+  "fonts": [
+   "Inter",
+   "Instrument Serif"
+  ],
+  "canvas": "1458x1080",
+  "has_video": true,
+  "folder": "website/adhd-planner",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "adventra-hero",
+  "title": "Adventra",
+  "industry": "Agencies & Studios",
+  "section": "Hero section",
+  "summary": "Hero section reference for an agency or studio — one self-contained HTML file, a word-by-word headline, looping video and #303230 base.",
+  "palette": [
+   "#2F2215",
+   "#CAC7BD",
+   "#51381A",
+   "#303230"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1856x1398",
+  "has_video": true,
+  "folder": "website/adventra-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "aesthetic-login-onboarding",
+  "title": "Aesthetic Onboarding",
+  "industry": "AI & SaaS",
+  "section": "Sign-in flow",
+  "summary": "Sign-in flow reference for an AI or SaaS product — #00C6FF accent, looping video, a dark stage and React and Tailwind CSS.",
+  "palette": [
+   "#FF512F",
+   "#F09819",
+   "#00C6FF",
+   "#0C0C0E"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "1894x1378",
+  "has_video": true,
+  "folder": "website/aesthetic-login-onboarding",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "aethera-hero",
+  "title": "Aethera Studio",
+  "industry": "Agencies & Studios",
+  "section": "Hero section",
+  "summary": "Hero section reference for an agency or studio — React and Tailwind CSS, #FFFFFF base, a 800x582 frame and 100ms transitions.",
+  "palette": [
+   "#000000",
+   "#6F6F6F",
+   "#FFFFFF",
+   "#232B13"
+  ],
+  "fonts": [
+   "Instrument Serif",
+   "Inter"
+  ],
+  "canvas": "800x582",
+  "has_video": true,
+  "folder": "website/aethera-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "aetheris-voyage-hero",
+  "title": "Aetheris Voyage",
+  "industry": "Travel",
+  "section": "Hero section",
+  "summary": "Hero section reference for a travel brand — looping video, glass panels, Instrument Serif and a stats row.",
+  "palette": [
+   "#010000",
+   "#ECD9C1",
+   "#0E0D0E",
+   "#181719"
+  ],
+  "fonts": [
+   "Instrument Serif",
+   "Barlow"
+  ],
+  "canvas": "800x570",
+  "has_video": true,
+  "folder": "website/aetheris-voyage-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "agent-grove",
+  "title": "Agent Grove",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — a dark stage, React and Tailwind CSS, a stats row and 300ms transitions.",
+  "palette": [
+   "#010101",
+   "#2B2B2B",
+   "#101010",
+   "#161C1F"
+  ],
+  "fonts": [
+   "Geist",
+   "Silkscreen"
+  ],
+  "canvas": "1484x1080",
+  "has_video": true,
+  "folder": "website/agent-grove",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "agent-wave",
+  "title": "Agent Wave",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — a stats row, 0.28s transitions, cubic-bezier(0.16, 1, 0.3, 1) easing and looping video.",
+  "palette": [
+   "#FFFFFF",
+   "#000000",
+   "#9A9A9A",
+   "#D8D8D8"
+  ],
+  "fonts": [
+   "Inter",
+   "Instrument Serif"
+  ],
+  "canvas": "1478x1080",
+  "has_video": true,
+  "folder": "website/agent-wave",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "ai-runtime",
+  "title": "AI Runtime",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — fluid type, Inter, a stats row and 0.85s transitions.",
+  "palette": [
+   "#28282A",
+   "#8E8E8E",
+   "#2E2E2E",
+   "#C8C8C8"
+  ],
+  "fonts": [
+   "Inter",
+   "Geist",
+   "BubbledotICG-FinePos"
+  ],
+  "canvas": "1472x1080",
+  "has_video": true,
+  "folder": "website/ai-runtime",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "ai-trip-planner",
+  "title": "AI Trip Planner",
+  "industry": "Travel",
+  "section": "Pricing section",
+  "summary": "Pricing section reference for a travel brand — looping video, max-width 760px breakpoints, Geist and a dark stage.",
+  "palette": [
+   "#FAFAFA",
+   "#0A0A0A",
+   "#1A1A1A",
+   "#767676"
+  ],
+  "fonts": [
+   "Geist",
+   "Special Elite"
+  ],
+  "canvas": "1470x1080",
+  "has_video": true,
+  "folder": "website/ai-trip-planner",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "ai-workflow",
+  "title": "AI Workflow Hero",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — a stats row, React and Tailwind CSS, cubic-bezier(0.22,1,0.36,1) easing and Inter.",
+  "palette": [
+   "#1F2A1D",
+   "#3D5638",
+   "#2D3A2A",
+   "#2A3827"
+  ],
+  "fonts": [
+   "Inter",
+   "Neue Haas Grotesk"
+  ],
+  "canvas": "640x470",
+  "has_video": true,
+  "folder": "website/ai-workflow",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "ai-workflow-agents",
+  "title": "AI Workflow Agents",
+  "industry": "AI & SaaS",
+  "section": "Portfolio",
+  "summary": "Portfolio reference for an AI or SaaS product — #E8E6F1 base, #7A4064 accent, looping video and a stats row.",
+  "palette": [
+   "#1B133C",
+   "#FEFEFE",
+   "#7A4064",
+   "#E8E6F1"
+  ],
+  "fonts": [
+   "Instrument Serif",
+   "Inter"
+  ],
+  "canvas": "1444x1080",
+  "has_video": true,
+  "folder": "website/ai-workflow-agents",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "airlines-hero",
+  "title": "Airlines Hero Section",
+  "industry": "Travel",
+  "section": "Hero section",
+  "summary": "Hero section reference for a travel brand — a stats row, one self-contained HTML file, looping video and a moving marquee.",
+  "palette": [
+   "#1D0511",
+   "#CAA490",
+   "#56489B",
+   "#20153E"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1466x1080",
+  "has_video": true,
+  "folder": "website/airlines-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "alertix-hero",
+  "title": "Alertix",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — a dark stage, looping video, #0A0F14 base and React and Tailwind CSS.",
+  "palette": [
+   "#0A0F14",
+   "#010102",
+   "#C3DFE8",
+   "#1D1D6D"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "1920x1390",
+  "has_video": true,
+  "folder": "website/alertix-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "alumica-hero",
+  "title": "Alumica",
+  "industry": "Fintech",
+  "section": "Hero section",
+  "summary": "Hero section reference for a fintech product — 0.3s transitions, glass panels, Inter and #080210 base.",
+  "palette": [
+   "#FF8A00",
+   "#EA580C",
+   "#080210",
+   "#766E6F"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1920x1304",
+  "has_video": true,
+  "folder": "website/alumica-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "animated-cards",
+  "title": "Animated Cards",
+  "industry": "Fintech",
+  "section": "Features section",
+  "summary": "Features section reference for a fintech product — a dark stage, #FF9500 accent, a stats row and a 640x464 frame.",
+  "palette": [
+   "#000000",
+   "#808080",
+   "#FF3B30",
+   "#FF9500"
+  ],
+  "fonts": [
+   "JetBrains Mono"
+  ],
+  "canvas": "640x464",
+  "has_video": true,
+  "folder": "website/animated-cards",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "arceage-stats",
+  "title": "Arceage Stats",
+  "industry": "AI & SaaS",
+  "section": "Features section",
+  "summary": "Features section reference for an AI or SaaS product — Instrument Serif, React and Tailwind CSS, a 640x470 frame and #101010 base.",
+  "palette": [
+   "#0D0C0D",
+   "#686D50",
+   "#101010",
+   "#110F12"
+  ],
+  "fonts": [
+   "Instrument Serif",
+   "Barlow"
+  ],
+  "canvas": "640x470",
+  "has_video": true,
+  "folder": "website/arceage-stats",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "asme-hero",
+  "title": "Asme",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — a stats row, glass panels, #000000 base and a 800x582 frame.",
+  "palette": [
+   "#000000",
+   "#C9CAB9",
+   "#000102",
+   "#A09D7F"
+  ],
+  "fonts": [
+   "Instrument Serif"
+  ],
+  "canvas": "800x582",
+  "has_video": true,
+  "folder": "website/asme-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "audio-showcase",
+  "title": "Audio Showcase",
+  "industry": "Lifestyle",
+  "section": "Hero section",
+  "summary": "Hero section reference for a lifestyle brand — Helvetica, Arial, cubic-bezier(0.22, 1, 0.36, 1) easing, React and Tailwind CSS and a stats row.",
+  "palette": [
+   "#16140A",
+   "#C7D5D5",
+   "#074FBB",
+   "#216CD1"
+  ],
+  "fonts": [
+   "Helvetica, Arial"
+  ],
+  "canvas": "640x474",
+  "has_video": true,
+  "folder": "website/audio-showcase",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "aurelion-feature-blog",
+  "title": "Aurelion Blog",
+  "industry": "AI & SaaS",
+  "section": "Blog section",
+  "summary": "Blog section reference for an AI or SaaS product — 700ms transitions, #F3F4F4 base, looping video and React and Tailwind CSS.",
+  "palette": [
+   "#F3DE58",
+   "#F3F4F4",
+   "#1A1A1A",
+   "#1C1C1C"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "1400x1080",
+  "has_video": true,
+  "folder": "website/aurelion-feature-blog",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "aurex-finance",
+  "title": "Aurex Finance",
+  "industry": "Fintech",
+  "section": "Landing page",
+  "summary": "Landing page reference for a fintech product — #000000 base, #AFDDFF accent, cubic-bezier(0.16, 1, 0.3, 1) easing and looping video.",
+  "palette": [
+   "#AFDDFF",
+   "#C8E8FF",
+   "#FFFFFF",
+   "#000000"
+  ],
+  "fonts": [
+   "Manrope",
+   "Graphik LCG Regular Regular"
+  ],
+  "canvas": "1920x1410",
+  "has_video": true,
+  "folder": "website/aurex-finance",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "aurora-onboard",
+  "title": "Aurora Onboard",
+  "industry": "Lifestyle",
+  "section": "Sign-in flow",
+  "summary": "Sign-in flow reference for a lifestyle brand — #000000 base, a 1850x1352 frame, a stats row and Inter.",
+  "palette": [
+   "#1A1A1A",
+   "#000000",
+   "#DBCDE9",
+   "#000003"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1850x1352",
+  "has_video": true,
+  "folder": "website/aurora-onboard",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "autonomous-ops",
+  "title": "Autonomous Ops",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — Segoe UI, Arial, Helvetica, looping video, a stats row and cubic-bezier(.16,1.3,1) easing.",
+  "palette": [
+   "#F0F0F0",
+   "#282828",
+   "#FFFAF6",
+   "#FF6900"
+  ],
+  "fonts": [
+   "Segoe UI, Arial, Helvetica"
+  ],
+  "canvas": "1920x1022",
+  "has_video": true,
+  "folder": "website/autonomous-ops",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "averra-testimonial-slider",
+  "title": "Averra Testimonials",
+  "industry": "Agencies & Studios",
+  "section": "Testimonials",
+  "summary": "Testimonials reference for an agency or studio — React and Tailwind CSS, #EBEFE5 base, #A5E038 accent and looping video.",
+  "palette": [
+   "#A5E038",
+   "#EBEFE5",
+   "#111111",
+   "#181A15"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "1920x1208",
+  "has_video": true,
+  "folder": "website/averra-testimonial-slider",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "axion-about",
+  "title": "Axion About",
+  "industry": "AI & SaaS",
+  "section": "About page",
+  "summary": "About page reference for an AI or SaaS product — cubic-bezier(0.25,0.1,0.25,1) easing, fluid type, #F26522 accent and a 640x468 frame.",
+  "palette": [
+   "#F26522",
+   "#E05A1A",
+   "#3E3133",
+   "#EDEDEE"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "640x468",
+  "has_video": true,
+  "folder": "website/axion-about",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "beauty-categories",
+  "title": "Beauty Categories",
+  "industry": "Ecommerce",
+  "section": "Features section",
+  "summary": "Features section reference for an ecommerce brand — scroll-triggered reveals, a stats row, 150ms transitions and #EBEBEB base.",
+  "palette": [
+   "#251E18",
+   "#EFEEEB",
+   "#593C2D",
+   "#EBEBEB"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "640x470",
+  "has_video": true,
+  "folder": "website/beauty-categories",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "blog-showcase",
+  "title": "Blog Showcase",
+  "industry": "Agencies & Studios",
+  "section": "Blog section",
+  "summary": "Blog section reference for an agency or studio — Outfit, #FCFCFC base, a 640x478 frame and cubic-bezier(0.33, 1, 0.68, 1) easing.",
+  "palette": [
+   "#F4F4F4",
+   "#F0F0F0",
+   "#FCFCFC",
+   "#7D1A4A"
+  ],
+  "fonts": [
+   "Outfit",
+   "Inter"
+  ],
+  "canvas": "640x478",
+  "has_video": true,
+  "folder": "website/blog-showcase",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "bloom-ai-hero",
+  "title": "Bloom AI",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — a stats row, #030E1A base, Poppins and #2E5648 accent.",
+  "palette": [
+   "#02060F",
+   "#AAD9C3",
+   "#030E1A",
+   "#2E5648"
+  ],
+  "fonts": [
+   "Poppins"
+  ],
+  "canvas": "800x564",
+  "has_video": true,
+  "folder": "website/bloom-ai-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "bold-studio",
+  "title": "Bold Studio",
+  "industry": "Agencies & Studios",
+  "section": "Hero section",
+  "summary": "Hero section reference for an agency or studio — Inter, React and Tailwind CSS, 100ms transitions and a stats row.",
+  "palette": [
+   "#240C10",
+   "#F6E9EB",
+   "#900B23",
+   "#A60D29"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "640x474",
+  "has_video": true,
+  "folder": "website/bold-studio",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "brightly-hero",
+  "title": "Brightly",
+  "industry": "Agencies & Studios",
+  "section": "Hero section",
+  "summary": "Hero section reference for an agency or studio — 3.5s transitions, #050505 base, looping video and a word-by-word headline.",
+  "palette": [
+   "#F97316",
+   "#FF4D4D",
+   "#EC4899",
+   "#050505"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "1920x1314",
+  "has_video": true,
+  "folder": "website/brightly-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "build-with-us",
+  "title": "Build With Us",
+  "industry": "AI & SaaS",
+  "section": "About page",
+  "summary": "About page reference for an AI or SaaS product — #337EC8 accent, Inter, a stats row and a 640x472 frame.",
+  "palette": [
+   "#434437",
+   "#FFFFFF",
+   "#337EC8",
+   "#B7CBE2"
+  ],
+  "fonts": [
+   "Inter",
+   "Instrument Serif"
+  ],
+  "canvas": "640x472",
+  "has_video": true,
+  "folder": "website/build-with-us",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "cast-and-render",
+  "title": "Cast and Render",
+  "industry": "3D & Games",
+  "section": "Landing page",
+  "summary": "Landing page reference for a 3D, game or entertainment brand — looping video, scroll-triggered reveals and one self-contained HTML file.",
+  "palette": [
+   "#0D0C0B",
+   "#F2F0EC",
+   "#0A0908",
+   "#FFFFFF"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1920x1432",
+  "has_video": true,
+  "folder": "website/cast-and-render",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "celestial-renewal",
+  "title": "Celestial Renewal",
+  "industry": "Health",
+  "section": "Landing page",
+  "summary": "Landing page reference for a health or wellbeing product — a dark stage, glass panels, React and Tailwind CSS and #010A17 base.",
+  "palette": [
+   "#0A0608",
+   "#0A0A0C",
+   "#010A17",
+   "#0A4267"
+  ],
+  "fonts": [
+   "Instrument Serif",
+   "Inter",
+   "Dancing Script"
+  ],
+  "canvas": "1464x1080",
+  "has_video": true,
+  "folder": "website/celestial-renewal",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "church-community",
+  "title": "Church Community",
+  "industry": "Education & Community",
+  "section": "Landing page",
+  "summary": "Landing page reference for an education or community brand — Manrope, a stats row, #5A4C41 base and #F1E5C6 accent.",
+  "palette": [
+   "#F1E5C6",
+   "#5A4C41",
+   "#2A2A2A",
+   "#FFFFFF"
+  ],
+  "fonts": [
+   "Manrope"
+  ],
+  "canvas": "1448x1080",
+  "has_video": true,
+  "folder": "website/church-community",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "clarionai-landing",
+  "title": "ClarionAI",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — a logo row, 1000ms transitions, a moving marquee and #000000 base.",
+  "palette": [
+   "#1F1F22",
+   "#1C1C1E",
+   "#2A2A2D",
+   "#000000"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "1920x1416",
+  "has_video": true,
+  "folder": "website/clarionai-landing",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "cliently-agency-testimonials",
+  "title": "Cliently Testimonials",
+  "industry": "Agencies & Studios",
+  "section": "Testimonials",
+  "summary": "Testimonials reference for an agency or studio — 1500ms transitions, #18181B base, React and Tailwind CSS and a word-by-word headline.",
+  "palette": [
+   "#18181B",
+   "#71717A",
+   "#F4F4F5",
+   "#E4E4E7"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "1920x1392",
+  "has_video": true,
+  "folder": "website/cliently-agency-testimonials",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "codenest-hero",
+  "title": "CodeNest Coding Platform",
+  "industry": "Education & Community",
+  "section": "Hero section",
+  "summary": "Hero section reference for an education or community brand — Instrument Serif, #000000 base, a 800x576 frame and React and Tailwind CSS.",
+  "palette": [
+   "#5ED29C",
+   "#070B0A",
+   "#000000",
+   "#99A9A3"
+  ],
+  "fonts": [
+   "Instrument Serif",
+   "Plus Jakarta Sans",
+   "Inter"
+  ],
+  "canvas": "800x576",
+  "has_video": true,
+  "folder": "website/codenest-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "coffee-rewards",
+  "title": "Coffee Rewards",
+  "industry": "Ecommerce",
+  "section": "Landing page",
+  "summary": "Landing page reference for an ecommerce brand — cubic-bezier(0.16, 1, 0.3, 1) easing, glass panels, Vite and a stats row.",
+  "palette": [
+   "#180A06",
+   "#EDE4D8",
+   "#070402",
+   "#010000"
+  ],
+  "fonts": [
+   "Helvetica Now Display",
+   "Inter"
+  ],
+  "canvas": "1482x1080",
+  "has_video": true,
+  "folder": "website/coffee-rewards",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "cognitra-feature",
+  "title": "Cognitra Feature",
+  "industry": "AI & SaaS",
+  "section": "Features section",
+  "summary": "Features section reference for an AI or SaaS product — React and Tailwind CSS, Helvetica, Arial, fluid type and #877A73 base.",
+  "palette": [
+   "#5A504D",
+   "#D2CDC5",
+   "#877A73",
+   "#63605E"
+  ],
+  "fonts": [
+   "Helvetica, Arial"
+  ],
+  "canvas": "640x470",
+  "has_video": true,
+  "folder": "website/cognitra-feature",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "contact-cybernetic",
+  "title": "Contact Cybernetic",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — 1s transitions, a 640x458 frame, a stats row and Inter.",
+  "palette": [
+   "#1C2E1E",
+   "#F1F3F1",
+   "#EAECE9",
+   "#5A635A"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "640x458",
+  "has_video": true,
+  "folder": "website/contact-cybernetic",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "convix-software-hero",
+  "title": "Convix Software",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — Inter, #EF4D23 accent, a stats row and a 800x578 frame.",
+  "palette": [
+   "#EF4D23",
+   "#EDEDED",
+   "#D9D9D9",
+   "#0B0F1A"
+  ],
+  "fonts": [
+   "Inter",
+   "Instrument Serif"
+  ],
+  "canvas": "800x578",
+  "has_video": true,
+  "folder": "website/convix-software-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "cordex",
+  "title": "Cordex",
+  "industry": "Industrial",
+  "section": "Landing page",
+  "summary": "Landing page reference for an industrial company — a stats row, #0A0A0B base, one self-contained HTML file and 0.7s transitions.",
+  "palette": [
+   "#F7F7F8",
+   "#E23B32",
+   "#0A0A0B",
+   "#0D0D0E"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1920x1416",
+  "has_video": true,
+  "folder": "website/cordex",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "coreos-product-hero",
+  "title": "CoreOS",
+  "industry": "Industrial",
+  "section": "Hero section",
+  "summary": "Hero section reference for an industrial company — a word-by-word headline, 0.5s transitions, #2E3233 base and looping video.",
+  "palette": [
+   "#020202",
+   "#626A6A",
+   "#2A3234",
+   "#2E3233"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "1468x1080",
+  "has_video": true,
+  "folder": "website/coreos-product-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "cortexa-faq",
+  "title": "Cortexa FAQ",
+  "industry": "AI & SaaS",
+  "section": "FAQ section",
+  "summary": "FAQ section reference for an AI or SaaS product — 400ms transitions, React and Tailwind CSS, a word-by-word headline and looping video.",
+  "palette": [
+   "#111111",
+   "#FFFFFF",
+   "#A78BFA"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "1826x1302",
+  "has_video": true,
+  "folder": "website/cortexa-faq",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "cozypaws",
+  "title": "CozyPaws",
+  "industry": "Ecommerce",
+  "section": "Hero section",
+  "summary": "Hero section reference for an ecommerce brand — cubic-bezier(0.16, 1, 0.3, 1) easing, a stats row, React and Tailwind CSS and Inter.",
+  "palette": [
+   "#1A3D1A",
+   "#EFFDF0",
+   "#2A5A2A",
+   "#E86A10"
+  ],
+  "fonts": [
+   "Inter",
+   "DM Serif Display"
+  ],
+  "canvas": "1460x1080",
+  "has_video": true,
+  "folder": "website/cozypaws",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "creative-portfolio",
+  "title": "Creative Portfolio",
+  "industry": "Agencies & Studios",
+  "section": "Portfolio",
+  "summary": "Portfolio reference for an agency or studio — Figtree, React and Tailwind CSS, #309ADA accent and fluid type.",
+  "palette": [
+   "#F598F2",
+   "#181B17",
+   "#DED9CF",
+   "#309ADA"
+  ],
+  "fonts": [
+   "Figtree"
+  ],
+  "canvas": "640x468",
+  "has_video": true,
+  "folder": "website/creative-portfolio",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "creative-studio",
+  "title": "Creative Studio",
+  "industry": "Agencies & Studios",
+  "section": "Landing page",
+  "summary": "Landing page reference for an agency or studio — Inter, #F3F3F3 base, 0.1s transitions and React and Tailwind CSS.",
+  "palette": [
+   "#5E0ED7",
+   "#52455C",
+   "#F7F7F7",
+   "#F3F3F3"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "640x462",
+  "has_video": true,
+  "folder": "website/creative-studio",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "cross-border",
+  "title": "Cross-Border",
+  "industry": "Industrial",
+  "section": "Landing page",
+  "summary": "Landing page reference for an industrial company — 0.6s transitions, React and Tailwind CSS, fluid type and Helvetica, Arial.",
+  "palette": [
+   "#FFDA00",
+   "#1A1A1A",
+   "#0A1F2B",
+   "#002A35"
+  ],
+  "fonts": [
+   "Helvetica, Arial"
+  ],
+  "canvas": "1440x1080",
+  "has_video": true,
+  "folder": "website/cross-border",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "cyber-layer",
+  "title": "Cyber Layer",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — looping video, 1000ms transitions, a stats row and fluid type.",
+  "palette": [
+   "#C81B1C",
+   "#E6E6E6",
+   "#949494",
+   "#B01617"
+  ],
+  "fonts": [
+   "Space Grotesk",
+   "JetBrains Mono"
+  ],
+  "canvas": "1460x1080",
+  "has_video": true,
+  "folder": "website/cyber-layer",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "cyber-ronin",
+  "title": "Cyber Ronin",
+  "industry": "3D & Games",
+  "section": "Landing page",
+  "summary": "Landing page reference for a 3D, game or entertainment brand — looping video, Inter, scroll-triggered reveals and one self-contained HTML file.",
+  "palette": [
+   "#FBDBAF",
+   "#E07020",
+   "#C45A18",
+   "#080503"
+  ],
+  "fonts": [
+   "Inter",
+   "Orbitron-Medium"
+  ],
+  "canvas": "1920x1420",
+  "has_video": true,
+  "folder": "website/cyber-ronin",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "cybersecurity-hero",
+  "title": "Cybersecurity Hero",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — a logo row, fluid type, a dark stage and Inter.",
+  "palette": [
+   "#0A0A0F",
+   "#C8A0E0",
+   "#B04090",
+   "#111118"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "640x472",
+  "has_video": true,
+  "folder": "website/cybersecurity-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "daisy-wild",
+  "title": "Daisy Wild",
+  "industry": "Ecommerce",
+  "section": "Landing page",
+  "summary": "Landing page reference for an ecommerce brand — fluid type, scroll-triggered reveals, cubic-bezier(0.22, 1, 0.36, 1) easing and a 640x476 frame.",
+  "palette": [
+   "#000000",
+   "#BDE84F",
+   "#D9D9D9",
+   "#FFFFFF"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "640x476",
+  "has_video": true,
+  "folder": "website/daisy-wild",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "data-signal",
+  "title": "Data Signal",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — 520ms transitions, cubic-bezier(.16,1.3,1) easing, #050606 base and Inter.",
+  "palette": [
+   "#000000",
+   "#EDEDED",
+   "#050606",
+   "#737778"
+  ],
+  "fonts": [
+   "Inter",
+   "Playfair Display"
+  ],
+  "canvas": "1482x1080",
+  "has_video": true,
+  "folder": "website/data-signal",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "datacore-booking-hero",
+  "title": "Datacore Booking",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — a 800x553 frame, React and Tailwind CSS, #171717 base and glass panels.",
+  "palette": [
+   "#7B39FC",
+   "#2B2344",
+   "#D4D4D4",
+   "#171717"
+  ],
+  "fonts": [
+   "Manrope",
+   "Instrument Serif",
+   "Inter"
+  ],
+  "canvas": "800x552",
+  "has_video": true,
+  "folder": "website/datacore-booking-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "deepthink",
+  "title": "DeepThink",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — Inter, scroll-triggered reveals, #0C0C0C base and a stats row.",
+  "palette": [
+   "#0C0C0C",
+   "#FAFAFA",
+   "#111111",
+   "#9E9E9E"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1280x1928",
+  "has_video": true,
+  "folder": "website/deepthink",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "design-rocket-email-hero",
+  "title": "Email Marketing",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — a stats row, a 800x702 frame, #D8F90A accent and Instrument Serif.",
+  "palette": [
+   "#1E1E1E",
+   "#DCFF00",
+   "#0A0A0A",
+   "#D8F90A"
+  ],
+  "fonts": [
+   "Instrument Serif",
+   "Inter"
+  ],
+  "canvas": "800x702",
+  "has_video": true,
+  "folder": "website/design-rocket-email-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "designpro-hero",
+  "title": "DesignPro Academy",
+  "industry": "Education & Community",
+  "section": "Hero section",
+  "summary": "Hero section reference for an education or community brand — a dark stage, a 800x569 frame, React and Tailwind CSS and Inter.",
+  "palette": [
+   "#000000",
+   "#64CEFB",
+   "#FFFFFF",
+   "#B2DAF3"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "800x568",
+  "has_video": true,
+  "folder": "website/designpro-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "designy-footer",
+  "title": "Designy Footer",
+  "industry": "AI & SaaS",
+  "section": "Footer",
+  "summary": "Footer reference for an AI or SaaS product — a dark stage, looping video, a stats row and #FAFAFA base.",
+  "palette": [
+   "#0A0A0A",
+   "#71717A",
+   "#FAFAFA",
+   "#F9FAFB"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "1920x1392",
+  "has_video": true,
+  "folder": "website/designy-footer",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "digital-director",
+  "title": "Digital Director",
+  "industry": "Agencies & Studios",
+  "section": "Portfolio",
+  "summary": "Portfolio reference for an agency or studio — Inter, #000000 base, React and Tailwind CSS and a dark stage.",
+  "palette": [
+   "#0B0B0B",
+   "#000000",
+   "#FFFFFF",
+   "#DBD2CE"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1472x1080",
+  "has_video": true,
+  "folder": "website/digital-director",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "digital-epoch-hero",
+  "title": "Digital Epoch",
+  "industry": "Agencies & Studios",
+  "section": "Hero section",
+  "summary": "Hero section reference for an agency or studio — a dark stage, a moving marquee, #F9FAFB base and #0A1B33 accent.",
+  "palette": [
+   "#0A1B33",
+   "#F9FAFB",
+   "#64748B",
+   "#0A152D"
+  ],
+  "fonts": [
+   "Inter",
+   "Outfit"
+  ],
+  "canvas": "800x588",
+  "has_video": true,
+  "folder": "website/digital-epoch-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "digital-experiences",
+  "title": "Digital Experiences",
+  "industry": "Agencies & Studios",
+  "section": "Landing page",
+  "summary": "Landing page reference for an agency or studio — a stats row, Instrument Serif, React and Tailwind CSS and a word-by-word headline.",
+  "palette": [
+   "#000000",
+   "#B6B7B0",
+   "#000002",
+   "#0D0D0C"
+  ],
+  "fonts": [
+   "Instrument Serif",
+   "Barlow"
+  ],
+  "canvas": "640x458",
+  "has_video": true,
+  "folder": "website/digital-experiences",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "digitwist-hero",
+  "title": "Digitwist AI Builder",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — React and Lucide icons, a 800x556 frame, a stats row and 0.6s transitions.",
+  "palette": [
+   "#000000",
+   "#B4C0FF",
+   "#0A0400",
+   "#3054FF"
+  ],
+  "fonts": [
+   "Instrument Sans"
+  ],
+  "canvas": "800x556",
+  "has_video": true,
+  "folder": "website/digitwist-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "dot-hero",
+  "title": "Dot",
+  "industry": "Lifestyle",
+  "section": "Hero section",
+  "summary": "Hero section reference for a lifestyle brand — #0871E7 accent, a dark stage, React and Tailwind CSS and 100ms transitions.",
+  "palette": [
+   "#1A1A1A",
+   "#0871E7",
+   "#2A3616",
+   "#DEF0FC"
+  ],
+  "fonts": [
+   "Instrument Serif",
+   "Inter",
+   "In index.html"
+  ],
+  "canvas": "800x588",
+  "has_video": true,
+  "folder": "website/dot-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "email-landing-page",
+  "title": "Email Landing Page",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — glass panels, a dark stage, #00D2FF accent and 0.3s transitions.",
+  "palette": [
+   "#00D2FF",
+   "#091020",
+   "#0B2551",
+   "#A4F4FD"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "640x478",
+  "has_video": true,
+  "folder": "website/email-landing-page",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "equilibrium",
+  "title": "Equilibrium",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — React and Tailwind CSS, Geist, a stats row and a 640x472 frame.",
+  "palette": [
+   "#0F1118",
+   "#CDBAB2",
+   "#102030",
+   "#0F161F"
+  ],
+  "fonts": [
+   "Geist"
+  ],
+  "canvas": "640x472",
+  "has_video": true,
+  "folder": "website/equilibrium",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "f1-racing-hub",
+  "title": "F1 Racing Hub",
+  "industry": "Lifestyle",
+  "section": "Hero section",
+  "summary": "Hero section reference for a lifestyle brand — looping video, #EDB40B accent, min-width 768px and min-width 1280px breakpoints and fluid type.",
+  "palette": [
+   "#EDB40B",
+   "#0A0E1C",
+   "#1A0000",
+   "#8B0000"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "1470x1080",
+  "has_video": true,
+  "folder": "website/f1-racing-hub",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "faq-cta",
+  "title": "FAQ CTA",
+  "industry": "Health",
+  "section": "Call to action",
+  "summary": "Call to action reference for a health or wellbeing product — Inter, 6.5s transitions, a stats row and React and Tailwind CSS.",
+  "palette": [
+   "#F0F0F0",
+   "#FF8E53",
+   "#FFF1AA",
+   "#FF4B2B"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "640x468",
+  "has_video": true,
+  "folder": "website/faq-cta",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "fastshot",
+  "title": "Fastshot",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — fluid type, glass panels, a stats row and Inter.",
+  "palette": [
+   "#0A0D12",
+   "#98999C",
+   "#A9AAAD",
+   "#9C86CE"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1920x1406",
+  "has_video": true,
+  "folder": "website/fastshot",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "forecast-center",
+  "title": "Forecast Center",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — one self-contained HTML file, #04121B base, a dark stage and a masked headline reveal.",
+  "palette": [
+   "#FFFFFF",
+   "#04121B",
+   "#051413",
+   "#9E9B7C"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1466x1080",
+  "has_video": true,
+  "folder": "website/forecast-center",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "fun-404-page",
+  "title": "Fun 404 Page",
+  "industry": "Education & Community",
+  "section": "404 page",
+  "summary": "404 page reference for an education or community brand — 500ms transitions, a stats row, fluid type and React and Tailwind CSS.",
+  "palette": [
+   "#F16524",
+   "#FFFFFF",
+   "#FF8233",
+   "#FDAC55"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1664x1248",
+  "has_video": true,
+  "folder": "website/fun-404-page",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "globalbank-management-hero",
+  "title": "GlobalBank",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — Inter, #22C55E accent, a dark stage and one self-contained HTML file.",
+  "palette": [
+   "#FFFFFF",
+   "#22C55E",
+   "#EEF1F0",
+   "#1A2E24"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1468x1080",
+  "has_video": true,
+  "folder": "website/globalbank-management-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "glow-features",
+  "title": "Glow Features",
+  "industry": "Agencies & Studios",
+  "section": "Features section",
+  "summary": "Features section reference for an agency or studio — a 1834x1362 frame, a stats row, #FF3D77 accent and a dark stage.",
+  "palette": [
+   "#1A1A1C",
+   "#0A0A0B",
+   "#FF3D77",
+   "#FFB1CE"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "1834x1362",
+  "has_video": true,
+  "folder": "website/glow-features",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "growth-decisions",
+  "title": "Growth Decisions",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — Inter, #FFFFFF base, #006CD2 accent and min-width 821px breakpoints.",
+  "palette": [
+   "#006CD2",
+   "#0A0A0A",
+   "#FFFFFF",
+   "#0053A3"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1468x1080",
+  "has_video": true,
+  "folder": "website/growth-decisions",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "guardnet-benefits",
+  "title": "Guardnet Benefits",
+  "industry": "Fintech",
+  "section": "Features section",
+  "summary": "Features section reference for a fintech product — a dark stage, React and Tailwind CSS, a stats row and a 640x466 frame.",
+  "palette": [
+   "#1E3A8A",
+   "#000000",
+   "#0E0E0F",
+   "#3E3C40"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "640x466",
+  "has_video": true,
+  "folder": "website/guardnet-benefits",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "halo-usd-landing",
+  "title": "USD Halo",
+  "industry": "Fintech",
+  "section": "Landing page",
+  "summary": "Landing page reference for a fintech product — Inter, #F5F5F5 base, a moving marquee and a stats row.",
+  "palette": [
+   "#F5F5F5",
+   "#2B2644",
+   "#454063",
+   "#FDFDFD"
+  ],
+  "fonts": [
+   "Inter",
+   "Matter"
+  ],
+  "canvas": "458x800",
+  "has_video": true,
+  "folder": "website/halo-usd-landing",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "halo-use-case",
+  "title": "Halo Use Case",
+  "industry": "Fintech",
+  "section": "Features section",
+  "summary": "Features section reference for a fintech product — #E2E2E2 base, a 640x470 frame, glass panels and #695D8B accent.",
+  "palette": [
+   "#F5F5F5",
+   "#695D8B",
+   "#E9EAEA",
+   "#E2E2E2"
+  ],
+  "fonts": [
+   "TT Norms Pro Regular"
+  ],
+  "canvas": "640x470",
+  "has_video": true,
+  "folder": "website/halo-use-case",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "haul-footer",
+  "title": "HAUL!",
+  "industry": "AI & SaaS",
+  "section": "Footer",
+  "summary": "Footer reference for an AI or SaaS product — 0.8s transitions, a 1832x1354 frame, Inter and #FFFFFF base.",
+  "palette": [
+   "#F8F9FA",
+   "#FDFDFD",
+   "#BB420D",
+   "#FFFFFF"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1832x1354",
+  "has_video": true,
+  "folder": "website/haul-footer",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "healcure-clinic-landing",
+  "title": "Healcure",
+  "industry": "Health",
+  "section": "Hero section",
+  "summary": "Hero section reference for a health or wellbeing product — Tailwind CSS, looping video, #374251 base and a stats row.",
+  "palette": [
+   "#14191C",
+   "#979DA6",
+   "#5F4638",
+   "#374251"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "1466x1080",
+  "has_video": true,
+  "folder": "website/healcure-clinic-landing",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "health-portal",
+  "title": "Health Portal",
+  "industry": "Health",
+  "section": "Landing page",
+  "summary": "Landing page reference for a health or wellbeing product — #990A09 accent, fluid type, #F9F8F9 base and cubic-bezier(0.16,1,0.3,1) easing.",
+  "palette": [
+   "#1D110C",
+   "#FEFEFE",
+   "#990A09",
+   "#F9F8F9"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "640x472",
+  "has_video": true,
+  "folder": "website/health-portal",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "heritage-grove",
+  "title": "Heritage Grove",
+  "industry": "Ecommerce",
+  "section": "Footer",
+  "summary": "Footer reference for an ecommerce brand — a dark stage, #EAE3DE base, one self-contained HTML file and fluid type.",
+  "palette": [
+   "#EAE3DE",
+   "#175A67",
+   "#2A707C",
+   "#0F454F"
+  ],
+  "fonts": [
+   "Poppins",
+   "Cormorant Garamond"
+  ],
+  "canvas": "1920x1424",
+  "has_video": true,
+  "folder": "website/heritage-grove",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "immersive-ocean",
+  "title": "Immersive Ocean",
+  "industry": "Agencies & Studios",
+  "section": "Hero section",
+  "summary": "Hero section reference for an agency or studio — a 640x478 frame, Geist, #000410 base and cubic-bezier(0.16,1,0.3,1) easing.",
+  "palette": [
+   "#00020D",
+   "#C2CFCA",
+   "#000410",
+   "#0E4154"
+  ],
+  "fonts": [
+   "Geist"
+  ],
+  "canvas": "640x478",
+  "has_video": true,
+  "folder": "website/immersive-ocean",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "impact-ventures",
+  "title": "Impact Ventures",
+  "industry": "Fintech",
+  "section": "Hero section",
+  "summary": "Hero section reference for a fintech product — 700ms transitions, React and Tailwind CSS, Instrument Serif and cubic-bezier(0.76,0,0.24,1) easing.",
+  "palette": [
+   "#263349",
+   "#C5D5DE",
+   "#2351A4",
+   "#2D64B0"
+  ],
+  "fonts": [
+   "Instrument Serif",
+   "Inter"
+  ],
+  "canvas": "640x472",
+  "has_video": true,
+  "folder": "website/impact-ventures",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "innovation-lab",
+  "title": "Innovation Lab",
+  "industry": "Agencies & Studios",
+  "section": "Landing page",
+  "summary": "Landing page reference for an agency or studio — cubic-bezier(0.16, 1, 0.3, 1) easing, glass panels, React and Tailwind CSS and looping video.",
+  "palette": [
+   "#000000",
+   "#010007",
+   "#F8F3EF",
+   "#080219"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1466x1080",
+  "has_video": true,
+  "folder": "website/innovation-lab",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "innovation-landing",
+  "title": "Innovation",
+  "industry": "Agencies & Studios",
+  "section": "Landing page",
+  "summary": "Landing page reference for an agency or studio — #020D14 base, React and Tailwind CSS, a stats row and 500ms transitions.",
+  "palette": [
+   "#000000",
+   "#8B8E82",
+   "#000001",
+   "#020D14"
+  ],
+  "fonts": [
+   "Instrument Serif"
+  ],
+  "canvas": "446x800",
+  "has_video": true,
+  "folder": "website/innovation-landing",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "intelligence-layer",
+  "title": "Intelligence Layer",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — a logo row, 0.9s transitions, a moving marquee and #050505 base.",
+  "palette": [
+   "#050505",
+   "#8B8A8A",
+   "#FAFAFA",
+   "#A7A6A6"
+  ],
+  "fonts": [
+   "Manrope",
+   "Inter"
+  ],
+  "canvas": "1462x1080",
+  "has_video": true,
+  "folder": "website/intelligence-layer",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "intelligent-operations",
+  "title": "Intelligent Operations",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — glass panels, looping video, a dark stage and scroll-triggered reveals.",
+  "palette": [
+   "#0A0A0A",
+   "#9B9492",
+   "#E4E3E4",
+   "#BCCCD4"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1476x1080",
+  "has_video": true,
+  "folder": "website/intelligent-operations",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "intelligent-performance",
+  "title": "Intelligent Performance",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — cubic-bezier(.16,1.3,1) easing, glass panels, one self-contained HTML file and a masked headline reveal.",
+  "palette": [
+   "#ECECEB",
+   "#222222",
+   "#4A4A4A",
+   "#FF6796"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1920x1418",
+  "has_video": true,
+  "folder": "website/intelligent-performance",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "intelligentx",
+  "title": "IntelligentX",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — React and Tailwind CSS, #9FFF00 accent, a 640x462 frame and Inter.",
+  "palette": [
+   "#EDEEF5",
+   "#1A1A1A",
+   "#8E8E8E",
+   "#9FFF00"
+  ],
+  "fonts": [
+   "Inter",
+   "Outfit"
+  ],
+  "canvas": "640x462",
+  "has_video": true,
+  "folder": "website/intelligentx",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "interactive-discovery",
+  "title": "Interactive Discovery",
+  "industry": "Industrial",
+  "section": "Hero section",
+  "summary": "Hero section reference for an industrial company — a 640x474 frame, a stats row, Inter and cubic-bezier(0.16,1,0.3,1) easing.",
+  "palette": [
+   "#E8702A",
+   "#D2611F",
+   "#FFFFFF",
+   "#000000"
+  ],
+  "fonts": [
+   "Inter",
+   "Playfair Display"
+  ],
+  "canvas": "640x474",
+  "has_video": true,
+  "folder": "website/interactive-discovery",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "jetcrest-private-jet-hero",
+  "title": "Gulfselite",
+  "industry": "Travel",
+  "section": "Hero section",
+  "summary": "Hero section reference for a travel brand — a stats row, Tailwind and vanilla JavaScript, a word-by-word headline and Inter.",
+  "palette": [
+   "#463E39",
+   "#FEFEFE",
+   "#69574B",
+   "#9D8C7C"
+  ],
+  "fonts": [
+   "Inter",
+   "Playfair Display"
+  ],
+  "canvas": "1920x1448",
+  "has_video": true,
+  "folder": "website/jetcrest-private-jet-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "junglemind",
+  "title": "JungleMind",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — fluid type, 70ms transitions, #5C5C5C base and cubic-bezier(0.16, 1, 0.3, 1) easing.",
+  "palette": [
+   "#111111",
+   "#5C5C5C",
+   "#141414",
+   "#1A1A1A"
+  ],
+  "fonts": [
+   "Poppins"
+  ],
+  "canvas": "1920x1422",
+  "has_video": true,
+  "folder": "website/junglemind",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "kova-onboarding",
+  "title": "Kova Mobile App",
+  "industry": "AI & SaaS",
+  "section": "Onboarding",
+  "summary": "Onboarding reference for an AI or SaaS product — a stats row, 800ms transitions, a dark stage and Helvetica Neue.",
+  "palette": [
+   "#FFFFFF",
+   "#E9D5FF",
+   "#2E1065",
+   "#000000"
+  ],
+  "fonts": [
+   "Helvetica Neue"
+  ],
+  "canvas": "1252x864",
+  "has_video": true,
+  "folder": "website/kova-onboarding",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "kresna-footer",
+  "title": "Kresna Footer",
+  "industry": "AI & SaaS",
+  "section": "Footer",
+  "summary": "Footer reference for an AI or SaaS product — max-width 560px and max-width 860px breakpoints, one self-contained HTML file, #FFFFFF base and a 800x586 frame.",
+  "palette": [
+   "#9CA3AF",
+   "#111827",
+   "#FFFFFF",
+   "#2D3148"
+  ],
+  "fonts": [
+   "DM Sans"
+  ],
+  "canvas": "800x586",
+  "has_video": true,
+  "folder": "website/kresna-footer",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "launchex-about",
+  "title": "LaunchEx About",
+  "industry": "Agencies & Studios",
+  "section": "About page",
+  "summary": "About page reference for an agency or studio — a 640x464 frame, #4BBDF0 accent, a masked headline reveal and React and Tailwind CSS.",
+  "palette": [
+   "#154359",
+   "#F0F5F7",
+   "#185B7B",
+   "#4BBDF0"
+  ],
+  "fonts": [
+   "Inter",
+   "TT Firs Neue"
+  ],
+  "canvas": "640x464",
+  "has_video": true,
+  "folder": "website/launchex-about",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "launchpad-blog",
+  "title": "LaunchPad Blog",
+  "industry": "Fintech",
+  "section": "Blog section",
+  "summary": "Blog section reference for a fintech product — one self-contained HTML file, #933551 accent, looping video and Inter.",
+  "palette": [
+   "#3E23A5",
+   "#FFFFFF",
+   "#B9B5C8",
+   "#933551"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1920x1414",
+  "has_video": true,
+  "folder": "website/launchpad-blog",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "liquid-glass-cta",
+  "title": "Liquid Glass CTA",
+  "industry": "AI & SaaS",
+  "section": "Call to action",
+  "summary": "Call to action reference for an AI or SaaS product — #9A83AB accent, a stats row, React and Tailwind CSS and a 640x466 frame.",
+  "palette": [
+   "#0D0C0E",
+   "#9A83AB",
+   "#211927",
+   "#111111"
+  ],
+  "fonts": [
+   "Instrument Serif",
+   "Barlow"
+  ],
+  "canvas": "640x466",
+  "has_video": true,
+  "folder": "website/liquid-glass-cta",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "ltx-video",
+  "title": "LTX Video",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — #FFD7E6 base, cubic-bezier(0.22, 1, 0.36, 1) easing, one self-contained HTML file and a stats row.",
+  "palette": [
+   "#7FE3FF",
+   "#0B1A26",
+   "#FFFFFF",
+   "#FFD7E6"
+  ],
+  "fonts": [
+   "Manrope"
+  ],
+  "canvas": "1920x1400",
+  "has_video": true,
+  "folder": "website/ltx-video",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "lumina-footer",
+  "title": "Lumina",
+  "industry": "Education & Community",
+  "section": "Footer",
+  "summary": "Footer reference for an education or community brand — React and Tailwind CSS, Helvetica, #2F4458 base and a stats row.",
+  "palette": [
+   "#2C3130",
+   "#CFC2B7",
+   "#23384F",
+   "#2F4458"
+  ],
+  "fonts": [
+   "Helvetica"
+  ],
+  "canvas": "800x584",
+  "has_video": true,
+  "folder": "website/lumina-footer",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "lumina-hero",
+  "title": "Lumina",
+  "industry": "Agencies & Studios",
+  "section": "Hero section",
+  "summary": "Hero section reference for an agency or studio — glass panels, a stats row, #EC4899 base and a moving marquee.",
+  "palette": [
+   "#3B82F6",
+   "#A855F7",
+   "#EC4899",
+   "#F8A170"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "1920x1380",
+  "has_video": true,
+  "folder": "website/lumina-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "luminex-hero",
+  "title": "Luminex",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — #143F62 accent, #010A12 base, a 800x600 frame and React.",
+  "palette": [
+   "#000000",
+   "#CFDDD8",
+   "#010A12",
+   "#143F62"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "800x600",
+  "has_video": true,
+  "folder": "website/luminex-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "max-reed-portfolio",
+  "title": "Max Reed Portfolio",
+  "industry": "Agencies & Studios",
+  "section": "Features section",
+  "summary": "Features section reference for an agency or studio — a stats row, React and Tailwind CSS, a moving marquee and #324444 base.",
+  "palette": [
+   "#324444",
+   "#0A0A0A",
+   "#0B0A0C",
+   "#9BAD9D"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "640x470",
+  "has_video": true,
+  "folder": "website/max-reed-portfolio",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "mind-ai",
+  "title": "Mind AI",
+  "industry": "Health",
+  "section": "Landing page",
+  "summary": "Landing page reference for a health or wellbeing product — looping video, max-width 520px and max-width 899px breakpoints, fluid type and a stats row.",
+  "palette": [
+   "#F6EAF2",
+   "#000000",
+   "#E8D8DC",
+   "#A069C9"
+  ],
+  "fonts": [
+   "Questrial"
+  ],
+  "canvas": "1920x1414",
+  "has_video": true,
+  "folder": "website/mind-ai",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "mind-body-healing",
+  "title": "Mind-Body Healing",
+  "industry": "Health",
+  "section": "Landing page",
+  "summary": "Landing page reference for a health or wellbeing product — looping video, glass panels, Inter and a stats row.",
+  "palette": [
+   "#AD4A80",
+   "#E6D8F0",
+   "#94A5E8",
+   "#D1C4E9"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1468x1080",
+  "has_video": true,
+  "folder": "website/mind-body-healing",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "mindloop-landing",
+  "title": "Mindloop Landing",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — #010713 base, Inter, a word-by-word headline and glass panels.",
+  "palette": [
+   "#000000",
+   "#9CA494",
+   "#00050F",
+   "#010713"
+  ],
+  "fonts": [
+   "Inter",
+   "Instrument Serif"
+  ],
+  "canvas": "454x800",
+  "has_video": true,
+  "folder": "website/mindloop-landing",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "modern-agency",
+  "title": "Modern Agency",
+  "industry": "Agencies & Studios",
+  "section": "Landing page",
+  "summary": "Landing page reference for an agency or studio — cubic-bezier(0.25,0.1,0.25,1) easing, fluid type, React and Tailwind CSS and #FFFFFF base.",
+  "palette": [
+   "#FFFFFF",
+   "#F26522",
+   "#EFEFEF",
+   "#F0F0F0"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "364x640",
+  "has_video": true,
+  "folder": "website/modern-agency",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "mostar-guide",
+  "title": "Mostar Guide",
+  "industry": "Travel",
+  "section": "Landing page",
+  "summary": "Landing page reference for a travel brand — vanilla JS, max-width 560px and max-width 640px breakpoints, looping video and #111411 base.",
+  "palette": [
+   "#FDF1E1",
+   "#111411",
+   "#0B1110",
+   "#7FB4D4"
+  ],
+  "fonts": [
+   "Inter",
+   "Satoshi"
+  ],
+  "canvas": "798x584",
+  "has_video": true,
+  "folder": "website/mostar-guide",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "neo-museum",
+  "title": "Neo Museum",
+  "industry": "Education & Community",
+  "section": "Landing page",
+  "summary": "Landing page reference for an education or community brand — 2800ms transitions, Inter, a stats row and cubic-bezier(0.16,1,0.3,1) easing.",
+  "palette": [
+   "#FCFCFC",
+   "#1A1A1A",
+   "#0A0A0A",
+   "#39332B"
+  ],
+  "fonts": [
+   "Inter",
+   "JetBrains Mono"
+  ],
+  "canvas": "640x468",
+  "has_video": true,
+  "folder": "website/neo-museum",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "neon-logic",
+  "title": "Neon Logic",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — #010103 base, React and Tailwind CSS, fluid type and Space Mono.",
+  "palette": [
+   "#FFFFFF",
+   "#8E7F94",
+   "#E2E2E6",
+   "#010103"
+  ],
+  "fonts": [
+   "Space Mono",
+   "Anton"
+  ],
+  "canvas": "640x474",
+  "has_video": true,
+  "folder": "website/neon-logic",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "network-hero",
+  "title": "Network Hero",
+  "industry": "Agencies & Studios",
+  "section": "Hero section",
+  "summary": "Hero section reference for an agency or studio — 35ms transitions, #070319 base, a 640x472 frame and React and Vite.",
+  "palette": [
+   "#A068FF",
+   "#000000",
+   "#FFFFFF",
+   "#070319"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "640x472",
+  "has_video": true,
+  "folder": "website/network-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "neuralyn-hero",
+  "title": "Neuralyn",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — glass panels, React and Tailwind CSS, #000000 base and a stats row.",
+  "palette": [
+   "#000000",
+   "#79786F",
+   "#010001",
+   "#031214"
+  ],
+  "fonts": [
+   "Inter",
+   "Instrument Serif"
+  ],
+  "canvas": "800x590",
+  "has_video": true,
+  "folder": "website/neuralyn-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "neurolink-memorial-hero",
+  "title": "Neurolink Hero Section",
+  "industry": "Agencies & Studios",
+  "section": "Hero section",
+  "summary": "Hero section reference for an agency or studio — looping video, a dark stage, glass panels and vanilla JS.",
+  "palette": [
+   "#FFFFFF",
+   "#FFB733",
+   "#0D1017",
+   "#E8DDC4"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1526x1080",
+  "has_video": true,
+  "folder": "website/neurolink-memorial-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "nexacore-control",
+  "title": "NexaCore Control",
+  "industry": "AI & SaaS",
+  "section": "Features section",
+  "summary": "Features section reference for an AI or SaaS product — React and Tailwind CSS, #EBEBEB base, a 640x468 frame and Mazzard H.",
+  "palette": [
+   "#FFFFFF",
+   "#BCB0C5",
+   "#EEEDEF",
+   "#EBEBEB"
+  ],
+  "fonts": [
+   "Mazzard H"
+  ],
+  "canvas": "640x468",
+  "has_video": true,
+  "folder": "website/nexacore-control",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "nexacore-results",
+  "title": "NexaCore Results",
+  "industry": "AI & SaaS",
+  "section": "Features section",
+  "summary": "Features section reference for an AI or SaaS product — Mazzard H, a stats row, #C86FFF accent and fluid type.",
+  "palette": [
+   "#C86FFF",
+   "#B2A5B7",
+   "#EEEDEE",
+   "#EBEBEB"
+  ],
+  "fonts": [
+   "Mazzard H"
+  ],
+  "canvas": "640x466",
+  "has_video": true,
+  "folder": "website/nexacore-results",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "nexora-hero",
+  "title": "Nexora Automation",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — 0.6s transitions, a 800x552 frame, glass panels and React and Tailwind CSS.",
+  "palette": [
+   "#092128",
+   "#FFFFFF",
+   "#1C3A38",
+   "#F8F9F8"
+  ],
+  "fonts": [
+   "Instrument Serif",
+   "Inter"
+  ],
+  "canvas": "800x552",
+  "has_video": true,
+  "folder": "website/nexora-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "no-code-waitlist",
+  "title": "No-Code Waitlist",
+  "industry": "AI & SaaS",
+  "section": "Call to action",
+  "summary": "Call to action reference for an AI or SaaS product — looping video, React and Tailwind CSS, #020004 base and #7C78C7 accent.",
+  "palette": [
+   "#000000",
+   "#FFFFFF",
+   "#7C78C7",
+   "#020004"
+  ],
+  "fonts": [
+   "Inter",
+   "Instrument Serif"
+  ],
+  "canvas": "988x720",
+  "has_video": true,
+  "folder": "website/no-code-waitlist",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "northstar",
+  "title": "Northstar",
+  "industry": "Agencies & Studios",
+  "section": "Landing page",
+  "summary": "Landing page reference for an agency or studio — #F0DAC8 accent, Instrument Serif, a 1280x956 frame and #1D8FB8 base.",
+  "palette": [
+   "#1D8FB8",
+   "#EEF2F3",
+   "#3F3F3C",
+   "#F0DAC8"
+  ],
+  "fonts": [
+   "Instrument Serif",
+   "Plus Jakarta Sans"
+  ],
+  "canvas": "1280x956",
+  "has_video": true,
+  "folder": "website/northstar",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "orbis-hello",
+  "title": "Orbis Hello",
+  "industry": "Lifestyle",
+  "section": "About page",
+  "summary": "About page reference for a lifestyle brand — React and Tailwind CSS, Anton, a 640x470 frame and a stats row.",
+  "palette": [
+   "#EFF4FF",
+   "#6FFF00",
+   "#010828",
+   "#13142D"
+  ],
+  "fonts": [
+   "Anton",
+   "Condiment"
+  ],
+  "canvas": "640x470",
+  "has_video": true,
+  "folder": "website/orbis-hello",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "orbis-nft-landing",
+  "title": "Orbis NFT",
+  "industry": "Fintech",
+  "section": "Landing page",
+  "summary": "Landing page reference for a fintech product — #6FFF00 accent, Anton, a dark stage and #010828 base.",
+  "palette": [
+   "#010828",
+   "#EFF4FF",
+   "#6FFF00",
+   "#B724FF"
+  ],
+  "fonts": [
+   "Anton",
+   "Condiment"
+  ],
+  "canvas": "452x800",
+  "has_video": true,
+  "folder": "website/orbis-nft-landing",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "orbit-flora",
+  "title": "Orbit Flora",
+  "industry": "Lifestyle",
+  "section": "Landing page",
+  "summary": "Landing page reference for a lifestyle brand — glass panels, #161616 base, looping video and fluid type.",
+  "palette": [
+   "#161616",
+   "#FFFFFF",
+   "#FFC5DC",
+   "#FD86DB"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1454x1080",
+  "has_video": true,
+  "folder": "website/orbit-flora",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "organic-odyssey",
+  "title": "Organic Odyssey",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — a dark stage, a stats row, a 640x470 frame and 300ms transitions.",
+  "palette": [
+   "#010101",
+   "#000000",
+   "#48483F",
+   "#020003"
+  ],
+  "fonts": [
+   "Geist",
+   "Garamond"
+  ],
+  "canvas": "640x470",
+  "has_video": true,
+  "folder": "website/organic-odyssey",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "palomar-labs",
+  "title": "Palomar Labs",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — glass panels, looping video, React and Tailwind CSS and 240ms transitions.",
+  "palette": [
+   "#FAF8F5",
+   "#2D3A2E",
+   "#3D5A3E",
+   "#F5F3EF"
+  ],
+  "fonts": [
+   "Montserrat",
+   "Raleway",
+   "Playfair Display"
+  ],
+  "canvas": "1920x1422",
+  "has_video": true,
+  "folder": "website/palomar-labs",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "paradiso-cta",
+  "title": "Paradiso CTA",
+  "industry": "Travel",
+  "section": "Call to action",
+  "summary": "Call to action reference for a travel brand — #EFF3F4 base, one self-contained HTML file, a word-by-word headline and looping video.",
+  "palette": [
+   "#1B200B",
+   "#F6F7F8",
+   "#EFF3F4",
+   "#4B4748"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "1920x1414",
+  "has_video": true,
+  "folder": "website/paradiso-cta",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "peakflow-contact-footer",
+  "title": "Peakflow Footer",
+  "industry": "AI & SaaS",
+  "section": "Footer",
+  "summary": "Footer reference for an AI or SaaS product — #111111 base, scroll-triggered reveals, Tailwind CSS and 100ms transitions.",
+  "palette": [
+   "#FAFAFA",
+   "#111111",
+   "#1A1A1A",
+   "#2A2A2A"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1920x1470",
+  "has_video": true,
+  "folder": "website/peakflow-contact-footer",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "personal-showcase",
+  "title": "Personal Showcase",
+  "industry": "Agencies & Studios",
+  "section": "Portfolio",
+  "summary": "Portfolio reference for an agency or studio — a moving marquee, #050E13 base, a stats row and React and Tailwind CSS.",
+  "palette": [
+   "#EFEEE9",
+   "#141414",
+   "#050E13",
+   "#BCB7B4"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1462x1080",
+  "has_video": true,
+  "folder": "website/personal-showcase",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "pet-diagnostics",
+  "title": "Pet Diagnostics",
+  "industry": "Health",
+  "section": "Landing page",
+  "summary": "Landing page reference for a health or wellbeing product — a dark stage, one self-contained HTML file, Inter and fluid type.",
+  "palette": [
+   "#EEF0D0",
+   "#101010",
+   "#0D0D0D",
+   "#0B0B0B"
+  ],
+  "fonts": [
+   "Inter",
+   "Instrument Serif"
+  ],
+  "canvas": "1920x888",
+  "has_video": true,
+  "folder": "website/pet-diagnostics",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "pixel-grid-hover",
+  "title": "Pixel Grid Hover",
+  "industry": "Agencies & Studios",
+  "section": "Portfolio",
+  "summary": "Portfolio reference for an agency or studio — a stats row, a 640x472 frame, a moving marquee and #EBEBEB base.",
+  "palette": [
+   "#1A1819",
+   "#EEEEEE",
+   "#727A83",
+   "#EBEBEB"
+  ],
+  "fonts": [
+   "DM Sans"
+  ],
+  "canvas": "640x472",
+  "has_video": true,
+  "folder": "website/pixel-grid-hover",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "place-saver",
+  "title": "Place Saver",
+  "industry": "Travel",
+  "section": "Landing page",
+  "summary": "Landing page reference for a travel brand — cubic-bezier(0.16, 1, 0.3, 1) easing, #F4F4F4 base, Playfair Display and a stats row.",
+  "palette": [
+   "#14151D",
+   "#F4F4F4",
+   "#1A1A1A",
+   "#0C0C0E"
+  ],
+  "fonts": [
+   "Playfair Display",
+   "Inter",
+   "ITC Garamond Std Narrow"
+  ],
+  "canvas": "1480x1080",
+  "has_video": true,
+  "folder": "website/place-saver",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "planetary-pulse",
+  "title": "Planetary Pulse",
+  "industry": "Education & Community",
+  "section": "Hero section",
+  "summary": "Hero section reference for an education or community brand — 300ms transitions, cubic-bezier(0.16, 1, 0.3, 1) easing and a stats row.",
+  "palette": [
+   "#C2CCD3",
+   "#F5F4F0",
+   "#9895A7",
+   "#DDE1E1"
+  ],
+  "fonts": [
+   "Helvetica, Arial"
+  ],
+  "canvas": "1826x1080",
+  "has_video": true,
+  "folder": "website/planetary-pulse",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "planor-hero",
+  "title": "Planor",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — 0.2s transitions, looping video, #634635 base and one self-contained HTML file.",
+  "palette": [
+   "#E5E7EB",
+   "#1D1A1B",
+   "#C7C9C6",
+   "#634635"
+  ],
+  "fonts": [
+   "Inter",
+   "Playfair Display",
+   "Import 'Inter"
+  ],
+  "canvas": "1920x1370",
+  "has_video": true,
+  "folder": "website/planor-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "playful-idea",
+  "title": "Playful Idea",
+  "industry": "Agencies & Studios",
+  "section": "Footer",
+  "summary": "Footer reference for an agency or studio — #F0EEFA base, fluid type, looping video and Epilogue.",
+  "palette": [
+   "#080909",
+   "#F0EEFA",
+   "#DFE4F2",
+   "#F7F8FA"
+  ],
+  "fonts": [
+   "Epilogue",
+   "DM Sans"
+  ],
+  "canvas": "1564x1080",
+  "has_video": true,
+  "folder": "website/playful-idea",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "portal",
+  "title": "Portal",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — fluid type, #7342E2 accent, 0.3s transitions and React and Tailwind CSS.",
+  "palette": [
+   "#7342E2",
+   "#192837",
+   "#F2F2EE",
+   "#CFC8C5"
+  ],
+  "fonts": [
+   "Helvetica Now Display",
+   "Inter"
+  ],
+  "canvas": "640x474",
+  "has_video": true,
+  "folder": "website/portal",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "portal-hero",
+  "title": "Portal",
+  "industry": "Lifestyle",
+  "section": "Hero section",
+  "summary": "Hero section reference for a lifestyle brand — a stats row, a 800x609 frame, glass panels and #E1836B accent.",
+  "palette": [
+   "#221F1C",
+   "#F3BC9E",
+   "#E1836B",
+   "#292926"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "800x608",
+  "has_video": true,
+  "folder": "website/portal-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "portfolio-about",
+  "title": "Portfolio About",
+  "industry": "Agencies & Studios",
+  "section": "About page",
+  "summary": "About page reference for an agency or studio — a stats row, a dark stage, 200ms transitions and fluid type.",
+  "palette": [
+   "#0C0C0C",
+   "#646973",
+   "#BBCCD7",
+   "#D7E2EA"
+  ],
+  "fonts": [
+   "Kanit"
+  ],
+  "canvas": "640x468",
+  "has_video": true,
+  "folder": "website/portfolio-about",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "portfolio-cosmic-hero",
+  "title": "Portfolio Cosmic",
+  "industry": "3D & Games",
+  "section": "Portfolio",
+  "summary": "Portfolio reference for a 3D, game or entertainment brand — 2700ms transitions, #000000 base, #4E85BF accent and Inter.",
+  "palette": [
+   "#89AACC",
+   "#4E85BF",
+   "#000000",
+   "#D1DAD8"
+  ],
+  "fonts": [
+   "Inter",
+   "Instrument Serif"
+  ],
+  "canvas": "800x562",
+  "has_video": true,
+  "folder": "website/portfolio-cosmic-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "portiva-hero",
+  "title": "Portiva Hero",
+  "industry": "Agencies & Studios",
+  "section": "Hero section",
+  "summary": "Hero section reference for an agency or studio — Inter, #C25E2E accent, glass panels and a word-by-word headline.",
+  "palette": [
+   "#C25E2E",
+   "#032223",
+   "#D1E5E7",
+   "#087573"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1466x1080",
+  "has_video": true,
+  "folder": "website/portiva-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "power-ai-hero",
+  "title": "Power AI",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — #000000 base, #A855F7 accent, a stats row and a moving marquee.",
+  "palette": [
+   "#6366F1",
+   "#A855F7",
+   "#FCD34D",
+   "#000000"
+  ],
+  "fonts": [
+   "Geist",
+   "General Sans"
+  ],
+  "canvas": "800x604",
+  "has_video": true,
+  "folder": "website/power-ai-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "price-calculator",
+  "title": "Price Calculator",
+  "industry": "Fintech",
+  "section": "Pricing section",
+  "summary": "Pricing section reference for a fintech product — #FF5656 accent, a dark stage, #000000 base and a 800x648 frame.",
+  "palette": [
+   "#FF5656",
+   "#0D0D0D",
+   "#1E1E1E",
+   "#000000"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "800x648",
+  "has_video": true,
+  "folder": "website/price-calculator",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "prisma-landing",
+  "title": "Prisma Creative Studio",
+  "industry": "Agencies & Studios",
+  "section": "Landing page",
+  "summary": "Landing page reference for an agency or studio — 0.08s transitions, a dark stage, a 455x800 frame and React and Tailwind CSS.",
+  "palette": [
+   "#E1E0CC",
+   "#DEDBC8",
+   "#101010",
+   "#212121"
+  ],
+  "fonts": [
+   "Instrument Serif",
+   "Almarai"
+  ],
+  "canvas": "454x800",
+  "has_video": true,
+  "folder": "website/prisma-landing",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "prompt-hero",
+  "title": "PROMPT",
+  "industry": "Agencies & Studios",
+  "section": "Hero section",
+  "summary": "Hero section reference for an agency or studio — Inter Tight, 80ms transitions, a stats row and a dark stage.",
+  "palette": [
+   "#FFFFFF",
+   "#000000",
+   "#FEFEFE",
+   "#010000"
+  ],
+  "fonts": [
+   "Inter Tight"
+  ],
+  "canvas": "1472x1080",
+  "has_video": true,
+  "folder": "website/prompt-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "prosthetics-hero",
+  "title": "Prosthetics Hero",
+  "industry": "Health",
+  "section": "Hero section",
+  "summary": "Hero section reference for a health or wellbeing product — 200ms transitions, #FDFCFC base, a 640x464 frame and React and Tailwind CSS.",
+  "palette": [
+   "#EDEDED",
+   "#F0F0EE",
+   "#8F8F8E",
+   "#FDFCFC"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "640x464",
+  "has_video": true,
+  "folder": "website/prosthetics-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "quantum-core",
+  "title": "Quantum Core",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — cubic-bezier(0.16, 1, 0.3, 1) easing, looping video, a stats row and 700ms transitions.",
+  "palette": [
+   "#E9E9E9",
+   "#080A19",
+   "#0A0707",
+   "#000C12"
+  ],
+  "fonts": [
+   "Suisse Intl"
+  ],
+  "canvas": "1920x1420",
+  "has_video": true,
+  "folder": "website/quantum-core",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "quantum-lucid",
+  "title": "Quantum Lucid",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — cubic-bezier(.22, 1.36, 1) easing, looping video, one self-contained HTML file and Figtree.",
+  "palette": [
+   "#38C6EC",
+   "#000000",
+   "#F2F2F2",
+   "#2E2E2E"
+  ],
+  "fonts": [
+   "Figtree",
+   "Inter"
+  ],
+  "canvas": "1920x1412",
+  "has_video": true,
+  "folder": "website/quantum-lucid",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "qumica-infrastructure-hero",
+  "title": "Infrastructure",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — looping video, a logo row, React and Tailwind CSS and #010002 base.",
+  "palette": [
+   "#010002",
+   "#DAD6DB",
+   "#0F2F65",
+   "#251528"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "1920x1384",
+  "has_video": true,
+  "folder": "website/qumica-infrastructure-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "radial-diagram",
+  "title": "Radial Diagram",
+  "industry": "Agencies & Studios",
+  "section": "Features section",
+  "summary": "Features section reference for an agency or studio — fluid type, React and Tailwind CSS, a 640x476 frame and DM Sans.",
+  "palette": [
+   "#0F0F0F",
+   "#6E6E6E",
+   "#191919",
+   "#EAEAEA"
+  ],
+  "fonts": [
+   "DM Sans"
+  ],
+  "canvas": "640x476",
+  "has_video": true,
+  "folder": "website/radial-diagram",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "rare-gallery",
+  "title": "Rare Gallery",
+  "industry": "Agencies & Studios",
+  "section": "Portfolio",
+  "summary": "Portfolio reference for an agency or studio — 400ms transitions, looping video, Instrument Serif and React and Tailwind CSS.",
+  "palette": [
+   "#020202",
+   "#AD948C",
+   "#070804",
+   "#222518"
+  ],
+  "fonts": [
+   "Instrument Serif"
+  ],
+  "canvas": "1920x1414",
+  "has_video": true,
+  "folder": "website/rare-gallery",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "real-time-alerts",
+  "title": "Real-Time Alerts",
+  "industry": "AI & SaaS",
+  "section": "Sign-in flow",
+  "summary": "Sign-in flow reference for an AI or SaaS product — one self-contained HTML file, fluid type and max-width 370px and max-width 500px breakpoints.",
+  "palette": [
+   "#2C3343",
+   "#797979",
+   "#2F2A27",
+   "#606060"
+  ],
+  "fonts": [
+   "Eloquia"
+  ],
+  "canvas": "1738x1080",
+  "has_video": true,
+  "folder": "website/real-time-alerts",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "retro-futurist",
+  "title": "Retro-Futurist",
+  "industry": "Agencies & Studios",
+  "section": "Hero section",
+  "summary": "Hero section reference for an agency or studio — HelveticaNowDisplay-Medium, React and Tailwind CSS, #B3B1B3 base and fluid type.",
+  "palette": [
+   "#4E4D46",
+   "#C7C5C7",
+   "#73716D",
+   "#B3B1B3"
+  ],
+  "fonts": [
+   "HelveticaNowDisplay-Medium",
+   "HelveticaNowDisplayW01-Rg"
+  ],
+  "canvas": "640x474",
+  "has_video": true,
+  "folder": "website/retro-futurist",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "rivr-hero",
+  "title": "RIVR",
+  "industry": "Fintech",
+  "section": "Hero section",
+  "summary": "Hero section reference for a fintech product — glass panels, #969BA2 base, a 800x599 frame and Helvetica.",
+  "palette": [
+   "#F0F0F0",
+   "#5E6470",
+   "#454E57",
+   "#969BA2"
+  ],
+  "fonts": [
+   "Helvetica"
+  ],
+  "canvas": "800x598",
+  "has_video": true,
+  "folder": "website/rivr-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "rocket-cta",
+  "title": "Rocket CTA",
+  "industry": "AI & SaaS",
+  "section": "Call to action",
+  "summary": "Call to action reference for an AI or SaaS product — React and Tailwind CSS, a dark stage, a stats row and #14191E base.",
+  "palette": [
+   "#14191E",
+   "#000000",
+   "#101010",
+   "#8F916F"
+  ],
+  "fonts": [
+   "Inter",
+   "Instrument Serif"
+  ],
+  "canvas": "640x468",
+  "has_video": true,
+  "folder": "website/rocket-cta",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "rocket-pricing",
+  "title": "Rocket Pricing",
+  "industry": "AI & SaaS",
+  "section": "Pricing section",
+  "summary": "Pricing section reference for an AI or SaaS product — #0E0D0E base, a 640x472 frame, React and Tailwind CSS and a dark stage.",
+  "palette": [
+   "#000000",
+   "#161616",
+   "#252525",
+   "#0E0D0E"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "640x472",
+  "has_video": true,
+  "folder": "website/rocket-pricing",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "scalable-saas-analytics-hero",
+  "title": "Scalable",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — a dark stage, #2B1F36 base, looping video and a stats row.",
+  "palette": [
+   "#000002",
+   "#A79AAC",
+   "#2B1F36",
+   "#30121F"
+  ],
+  "fonts": [
+   "Face not specified"
+  ],
+  "canvas": "1920x1592",
+  "has_video": true,
+  "folder": "website/scalable-saas-analytics-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "scaling-platform",
+  "title": "Scaling Platform",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — looping video, Quantico, 1s transitions and a masked headline reveal.",
+  "palette": [
+   "#F2F1F0",
+   "#15BCDF",
+   "#3A3A3A",
+   "#3FD0EF"
+  ],
+  "fonts": [
+   "Quantico"
+  ],
+  "canvas": "1916x1080",
+  "has_video": true,
+  "folder": "website/scaling-platform",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "scene-ai-hero",
+  "title": "Scene AI",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — a stats row, Tailwind CSS, Inter and a dark stage.",
+  "palette": [
+   "#000000",
+   "#EBEAD0",
+   "#000100",
+   "#0D0602"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1920x1378",
+  "has_video": true,
+  "folder": "website/scene-ai-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "securify-hero",
+  "title": "Securify Data Security",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — Readex Pro, React and Tailwind CSS, #01090E base and a 800x551 frame.",
+  "palette": [
+   "#FFFFFF",
+   "#03070A",
+   "#F6F6F5",
+   "#01090E"
+  ],
+  "fonts": [
+   "Readex Pro"
+  ],
+  "canvas": "800x550",
+  "has_video": true,
+  "folder": "website/securify-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "sellix",
+  "title": "Sellix",
+  "industry": "Fintech",
+  "section": "Landing page hero",
+  "summary": "One-file cross-border finance hero with a masked headline reveal, a looping globe clip and one reference unit for every measurement.",
+  "palette": [
+   "#000000",
+   "#FFFFFF",
+   "#A78BFA"
+  ],
+  "fonts": [
+   "Plus Jakarta Sans"
+  ],
+  "canvas": "1920x1408",
+  "has_video": true,
+  "folder": "website/sellix",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "sentinel-ai-hero",
+  "title": "Sentinel AI",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — fluid type, a 800x594 frame, #8EB992 accent and 0.7s transitions.",
+  "palette": [
+   "#000000",
+   "#8EB992",
+   "#000101",
+   "#080C0D"
+  ],
+  "fonts": [
+   "Sora",
+   "fontFamily"
+  ],
+  "canvas": "800x594",
+  "has_video": true,
+  "folder": "website/sentinel-ai-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "signal-id",
+  "title": "Signal ID",
+  "industry": "AI & SaaS",
+  "section": "Landing page",
+  "summary": "Landing page reference for an AI or SaaS product — 70ms transitions, fluid type, React and Tailwind CSS and cubic-bezier(0.16, 1, 0.3, 1) easing.",
+  "palette": [
+   "#000000",
+   "#FFFFFF",
+   "#768993",
+   "#000003"
+  ],
+  "fonts": [
+   "Sora",
+   "JetBrains Mono"
+  ],
+  "canvas": "1686x1080",
+  "has_video": true,
+  "folder": "website/signal-id",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "skybridge-404",
+  "title": "Skybridge 404",
+  "industry": "Ecommerce",
+  "section": "404 page",
+  "summary": "404 page reference for an ecommerce brand — a stats row, Geist Mono, looping video and max-width 640px breakpoints.",
+  "palette": [
+   "#17282E",
+   "#E7E1D8",
+   "#1165B4",
+   "#253740"
+  ],
+  "fonts": [
+   "Geist Mono"
+  ],
+  "canvas": "1456x1080",
+  "has_video": true,
+  "folder": "website/skybridge-404",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "skyelite-hero",
+  "title": "SkyElite Private Jets",
+  "industry": "Travel",
+  "section": "Hero section",
+  "summary": "Hero section reference for a travel brand — React and Tailwind CSS, #1A2229 base, Inter and a 1920x1455 frame.",
+  "palette": [
+   "#202A36",
+   "#1A2229",
+   "#232D37"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1920x1455",
+  "has_video": true,
+  "folder": "website/skyelite-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "space-planet",
+  "title": "Space planet",
+  "industry": "Education & Community",
+  "section": "Hero section",
+  "summary": "Hero section reference for an education or community brand — a stats row, Poppins and one self-contained HTML file.",
+  "palette": [
+   "#FFFFFF",
+   "#79DCE8",
+   "#5FD0E1",
+   "#071227"
+  ],
+  "fonts": [
+   "Poppins"
+  ],
+  "canvas": "1920x1420",
+  "has_video": true,
+  "folder": "website/space-planet",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "sparkform",
+  "title": "Sparkform",
+  "industry": "Agencies & Studios",
+  "section": "Landing page",
+  "summary": "Landing page reference for an agency or studio — fluid type, a stats row, #89CFF0 accent and a moving marquee.",
+  "palette": [
+   "#EC612C",
+   "#FFFFFF",
+   "#90EE90",
+   "#89CFF0"
+  ],
+  "fonts": [
+   "Inter",
+   "Poppins",
+   "Bamboly Demo"
+  ],
+  "canvas": "1460x1080",
+  "has_video": true,
+  "folder": "website/sparkform",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "stark-minimal-footer",
+  "title": "Stark Minimal Footer",
+  "industry": "Industrial",
+  "section": "Footer",
+  "summary": "Footer reference for an industrial company — #0A0A0A base, Geist, 180ms transitions and max-width 1820px breakpoints.",
+  "palette": [
+   "#FFFFFF",
+   "#000000",
+   "#0A0A0A",
+   "#EDEDED"
+  ],
+  "fonts": [
+   "Geist",
+   "Inter"
+  ],
+  "canvas": "640x472",
+  "has_video": true,
+  "folder": "website/stark-minimal-footer",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "stellar-ai-hero",
+  "title": "Stellar AI",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — 0.1s transitions, a logo row, #FFFFFF base and a 800x708 frame.",
+  "palette": [
+   "#101117",
+   "#FFFFFF",
+   "#1D212F",
+   "#C8BFD3"
+  ],
+  "fonts": [
+   "Inter",
+   "Import Inter"
+  ],
+  "canvas": "800x708",
+  "has_video": true,
+  "folder": "website/stellar-ai-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "stillmind",
+  "title": "Stillmind",
+  "industry": "Health",
+  "section": "Hero section",
+  "summary": "Hero section reference for a health or wellbeing product — a dark stage, 1000ms transitions, cubic-bezier(0.4,0,0.2,1) easing and looping video.",
+  "palette": [
+   "#182C41",
+   "#20141B",
+   "#C4ACA4",
+   "#48292F"
+  ],
+  "fonts": [
+   "Instrument Serif"
+  ],
+  "canvas": "1472x1080",
+  "has_video": true,
+  "folder": "website/stillmind",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "stories-in-light-hero",
+  "title": "Stories in Light",
+  "industry": "Agencies & Studios",
+  "section": "Hero section",
+  "summary": "Hero section reference for an agency or studio — max-width 560px breakpoints, a stats row, 0.4s transitions and looping video.",
+  "palette": [
+   "#F0F0EE",
+   "#2B3342",
+   "#F3F2F2",
+   "#FFFFFF"
+  ],
+  "fonts": [
+   "Archivo"
+  ],
+  "canvas": "1920x1328",
+  "has_video": true,
+  "folder": "website/stories-in-light-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "subscription-agency",
+  "title": "Subscription Agency",
+  "industry": "Agencies & Studios",
+  "section": "Hero section",
+  "summary": "Hero section reference for an agency or studio — a moving marquee, React and Tailwind CSS, 0.4s transitions and a dark stage.",
+  "palette": [
+   "#FFFFFF",
+   "#0A0A0A",
+   "#6B6B6B",
+   "#17C964"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1476x1080",
+  "has_video": true,
+  "folder": "website/subscription-agency",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "synth-mode",
+  "title": "Synth Mode",
+  "industry": "Ecommerce",
+  "section": "Landing page",
+  "summary": "Landing page reference for an ecommerce brand — React and Tailwind CSS, looping video, Plus Jakarta Sans and #EBEBED base.",
+  "palette": [
+   "#64748B",
+   "#8B817E",
+   "#EFEFF1",
+   "#EBEBED"
+  ],
+  "fonts": [
+   "Plus Jakarta Sans",
+   "Orbitron",
+   "Chakra Petch"
+  ],
+  "canvas": "1920x1396",
+  "has_video": true,
+  "folder": "website/synth-mode",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "talent-collective",
+  "title": "Talent Collective",
+  "industry": "Agencies & Studios",
+  "section": "Landing page",
+  "summary": "Landing page reference for an agency or studio — React and Tailwind CSS, a stats row, Geist and 700ms transitions.",
+  "palette": [
+   "#7A685E",
+   "#D7D6D5",
+   "#9B958E",
+   "#BAB8B5"
+  ],
+  "fonts": [
+   "Geist"
+  ],
+  "canvas": "1904x1080",
+  "has_video": true,
+  "folder": "website/talent-collective",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "task-engine",
+  "title": "Task Engine",
+  "industry": "Ecommerce",
+  "section": "Landing page",
+  "summary": "Landing page reference for an ecommerce brand — #F0F0F0 base, a dark stage, looping video and Plus Jakarta Sans.",
+  "palette": [
+   "#F0F0F0",
+   "#141414",
+   "#FFFFFF",
+   "#0D0D0D"
+  ],
+  "fonts": [
+   "Plus Jakarta Sans"
+  ],
+  "canvas": "1920x986",
+  "has_video": true,
+  "folder": "website/task-engine",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "taskly-hero",
+  "title": "Taskly",
+  "industry": "Agencies & Studios",
+  "section": "Hero section",
+  "summary": "Hero section reference for an agency or studio — glass panels, a 800x592 frame, Inter and a logo row.",
+  "palette": [
+   "#60B1FF",
+   "#319AFF",
+   "#FF801E",
+   "#041320"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "800x592",
+  "has_video": true,
+  "folder": "website/taskly-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "tech-forward",
+  "title": "Tech-Forward",
+  "industry": "Fintech",
+  "section": "Hero section",
+  "summary": "Hero section reference for a fintech product — Inter, a stats row, 0.8s transitions and #FDFBFA base.",
+  "palette": [
+   "#F4F4F6",
+   "#FFFFFF",
+   "#9D9D9C",
+   "#FDFBFA"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1464x1080",
+  "has_video": true,
+  "folder": "website/tech-forward",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "tech-noir-about",
+  "title": "Tech-Noir About",
+  "industry": "AI & SaaS",
+  "section": "About page",
+  "summary": "About page reference for an AI or SaaS product — Manrope, #C40010 base, #FF0000 accent and React and Tailwind CSS.",
+  "palette": [
+   "#FF0000",
+   "#2B1716",
+   "#9C8065",
+   "#C40010"
+  ],
+  "fonts": [
+   "Manrope",
+   "Italiana",
+   "Marck Script"
+  ],
+  "canvas": "640x470",
+  "has_video": true,
+  "folder": "website/tech-noir-about",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "tenlas-cta-footer",
+  "title": "Tenlas Footer",
+  "industry": "AI & SaaS",
+  "section": "Footer",
+  "summary": "Footer reference for an AI or SaaS product — #DBFF00 accent, scroll-triggered reveals, looping video and #050505 base.",
+  "palette": [
+   "#DBFF00",
+   "#050505",
+   "#F5F5F2",
+   "#6B7280"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1920x1556",
+  "has_video": true,
+  "folder": "website/tenlas-cta-footer",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "transform-data-hero",
+  "title": "Transform Data",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — 250ms transitions, #505050 base, a dark stage and a stats row.",
+  "palette": [
+   "#505050",
+   "#000000",
+   "#F8F8F8",
+   "#0E1311"
+  ],
+  "fonts": [
+   "Inter",
+   "Transform Data Quickly",
+   "Schibsted Grotesk"
+  ],
+  "canvas": "800x592",
+  "has_video": true,
+  "folder": "website/transform-data-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "travel-journal",
+  "title": "Travel Journal",
+  "industry": "Travel",
+  "section": "Blog section",
+  "summary": "Blog section reference for a travel brand — React and Tailwind CSS, a stats row, 150ms transitions and Inter.",
+  "palette": [
+   "#0A0A0C",
+   "#1A1A1E",
+   "#101518",
+   "#77A0B0"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1470x1080",
+  "has_video": true,
+  "folder": "website/travel-journal",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "trueearth",
+  "title": "TrueEarth",
+  "industry": "Education & Community",
+  "section": "Landing page",
+  "summary": "Landing page reference for an education or community brand — looping video, #FFFFFF base, max-width 360px and max-width 420px breakpoints and a stats row.",
+  "palette": [
+   "#111417",
+   "#6B7178",
+   "#FFFFFF",
+   "#0B2A3A"
+  ],
+  "fonts": [
+   "Plus Jakarta Sans"
+  ],
+  "canvas": "1920x1422",
+  "has_video": true,
+  "folder": "website/trueearth",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "trustflow",
+  "title": "TrustFlow",
+  "industry": "Fintech",
+  "section": "Landing page",
+  "summary": "Landing page reference for a fintech product — #FFFFFF base, looping video, a stats row and React and Tailwind CSS.",
+  "palette": [
+   "#191919",
+   "#F4F3F3",
+   "#FFFFFF",
+   "#EAEAEA"
+  ],
+  "fonts": [
+   "Inter",
+   "P22 Mackinac W01 Book"
+  ],
+  "canvas": "1462x1080",
+  "has_video": true,
+  "folder": "website/trustflow",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "vaultshield",
+  "title": "VaultShield",
+  "industry": "Fintech",
+  "section": "Hero section",
+  "summary": "Hero section reference for a fintech product — 0.45s transitions, a stats row, React and Tailwind CSS and a 640x468 frame.",
+  "palette": [
+   "#192837",
+   "#7342E2",
+   "#F2F2EE",
+   "#CFC8C5"
+  ],
+  "fonts": [
+   "Helvetica Now Display",
+   "Inter"
+  ],
+  "canvas": "640x468",
+  "has_video": true,
+  "folder": "website/vaultshield",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "vectrus-energy",
+  "title": "Vectrus Energy",
+  "industry": "Industrial",
+  "section": "Landing page",
+  "summary": "Landing page reference for an industrial company — Helvetica, Arial, #C7CED7 base, fluid type and cubic-bezier(0.16,1,0.3,1) easing.",
+  "palette": [
+   "#1D3045",
+   "#7F8A96",
+   "#E4E8EE",
+   "#C7CED7"
+  ],
+  "fonts": [
+   "Helvetica, Arial"
+  ],
+  "canvas": "1468x1080",
+  "has_video": true,
+  "folder": "website/vectrus-energy",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "vela-ul",
+  "title": "Vela Ul",
+  "industry": "AI & SaaS",
+  "section": "Features section",
+  "summary": "Features section reference for an AI or SaaS product — cubic-bezier(.22,1.36,1) easing, a masked headline reveal, glass panels and a stats row.",
+  "palette": [
+   "#16120C",
+   "#F7F5F2",
+   "#AAA7AA",
+   "#17130E"
+  ],
+  "fonts": [
+   "Arial, Helvetica",
+   "Times New Roman"
+  ],
+  "canvas": "1920x1418",
+  "has_video": true,
+  "folder": "website/vela-ul",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "velora-car-rental-hero",
+  "title": "Velora Hero Section",
+  "industry": "Travel",
+  "section": "Hero section",
+  "summary": "Hero section reference for a travel brand — Archivo, #0A0A0B base, a dark stage and looping video.",
+  "palette": [
+   "#0A0A0B",
+   "#FAF9F5",
+   "#E9E9EC",
+   "#FFFFFF"
+  ],
+  "fonts": [
+   "Archivo"
+  ],
+  "canvas": "1500x1080",
+  "has_video": true,
+  "folder": "website/velora-car-rental-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "velorah-hero",
+  "title": "Velorah",
+  "industry": "Agencies & Studios",
+  "section": "Hero section",
+  "summary": "Hero section reference for an agency or studio — glass panels, 0.8s transitions, a 800x589 frame and #01405F base.",
+  "palette": [
+   "#2C2B17",
+   "#D9BF63",
+   "#01405F",
+   "#0A435F"
+  ],
+  "fonts": [
+   "Inter",
+   "Instrument Serif"
+  ],
+  "canvas": "800x588",
+  "has_video": true,
+  "folder": "website/velorah-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "vertex",
+  "title": "Vertex",
+  "industry": "Ecommerce",
+  "section": "Landing page",
+  "summary": "Landing page reference for an ecommerce brand — a masked headline reveal, #020204 base, a stats row and 620ms transitions.",
+  "palette": [
+   "#17181C",
+   "#16171B",
+   "#020204",
+   "#0A111D"
+  ],
+  "fonts": [
+   "Poppins",
+   "Inter",
+   "Playfair Display"
+  ],
+  "canvas": "1920x1414",
+  "has_video": true,
+  "folder": "website/vertex",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "vex-ventures-hero",
+  "title": "VEX Ventures",
+  "industry": "Fintech",
+  "section": "Hero section",
+  "summary": "Hero section reference for a fintech product — glass panels, React and Tailwind CSS, Inter and 1000ms transitions.",
+  "palette": [
+   "#111111",
+   "#FFFFFF",
+   "#A78BFA"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "800x602",
+  "has_video": true,
+  "folder": "website/vex-ventures-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "veyra-electric",
+  "title": "Veyra Electric",
+  "industry": "Industrial",
+  "section": "Landing page",
+  "summary": "Landing page reference for an industrial company — Space Grotesk, #6B879D base, looping video and React and Vite.",
+  "palette": [
+   "#6B879D",
+   "#708FA2",
+   "#FFFFFF",
+   "#E1EAF0"
+  ],
+  "fonts": [
+   "Space Grotesk"
+  ],
+  "canvas": "1920x1412",
+  "has_video": true,
+  "folder": "website/veyra-electric",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "vinyl",
+  "title": "Vinyl",
+  "industry": "Lifestyle",
+  "section": "Landing page",
+  "summary": "Landing page reference for a lifestyle brand — looping video, one self-contained HTML file, a dark stage and a masked headline reveal.",
+  "palette": [
+   "#DBE6EE",
+   "#0B0B0C",
+   "#1E1E21",
+   "#152014"
+  ],
+  "fonts": [
+   "Instrument Serif",
+   "UnifrakturCook"
+  ],
+  "canvas": "1920x1420",
+  "has_video": true,
+  "folder": "website/vinyl",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "vision-reveal",
+  "title": "Vision Reveal",
+  "industry": "Agencies & Studios",
+  "section": "Hero section",
+  "summary": "Hero section reference for an agency or studio — max-width 447px and min-width 768px breakpoints, 0.3s transitions, a dark stage and Inter.",
+  "palette": [
+   "#F4F1E8",
+   "#111111",
+   "#75C5DE",
+   "#E4E4E4"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1460x1080",
+  "has_video": true,
+  "folder": "website/vision-reveal",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "visual-hero",
+  "title": "Visual Hero",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — fluid type, a stats row, glass panels and React and Tailwind CSS.",
+  "palette": [
+   "#111111",
+   "#FFFFFF",
+   "#A78BFA"
+  ],
+  "fonts": [
+   "Instrument Serif",
+   "Dirtyline",
+   "Barlow"
+  ],
+  "canvas": "996x720",
+  "has_video": true,
+  "folder": "website/visual-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "vize-footer",
+  "title": "Vize Footer",
+  "industry": "AI & SaaS",
+  "section": "Footer",
+  "summary": "Footer reference for an AI or SaaS product — #31A8FF accent, #000000 base, a stats row and a dark stage.",
+  "palette": [
+   "#64748B",
+   "#1E293B",
+   "#31A8FF",
+   "#000000"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1838x1350",
+  "has_video": true,
+  "folder": "website/vize-footer",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "vortex-studio-hero",
+  "title": "AI Designer Portfolio",
+  "industry": "Agencies & Studios",
+  "section": "Hero section",
+  "summary": "Hero section reference for an agency or studio — cubic-bezier(0.4, 0, 0.2, 1) easing, 0.1s transitions, a stats row and a moving marquee.",
+  "palette": [
+   "#051A24",
+   "#0D212C",
+   "#F6FCFF",
+   "#273C46"
+  ],
+  "fonts": [
+   "Neue Montreal",
+   "PP Neue Montreal"
+  ],
+  "canvas": "604x476",
+  "has_video": true,
+  "folder": "website/vortex-studio-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "wanderful-hero",
+  "title": "Wanderful Hero",
+  "industry": "Travel",
+  "section": "Hero section",
+  "summary": "Hero section reference for a travel brand — fluid type, Inter, React and Tailwind CSS and glass panels.",
+  "palette": [
+   "#111111",
+   "#FFFFFF",
+   "#A78BFA"
+  ],
+  "fonts": [
+   "Inter",
+   "Dirtyline",
+   "Barlow"
+  ],
+  "canvas": "640x470",
+  "has_video": true,
+  "folder": "website/wanderful-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "wellbeing-os",
+  "title": "Wellbeing OS",
+  "industry": "Health",
+  "section": "Hero section",
+  "summary": "Hero section reference for a health or wellbeing product — Helvetica, Segoe UI, Roboto, a stats row, React and Tailwind CSS and 400ms transitions.",
+  "palette": [
+   "#2C221C",
+   "#010101",
+   "#DBB64D",
+   "#BF9423"
+  ],
+  "fonts": [
+   "Helvetica, Segoe UI, Roboto"
+  ],
+  "canvas": "1460x1080",
+  "has_video": true,
+  "folder": "website/wellbeing-os",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "wellness-balance",
+  "title": "Wellness Balance",
+  "industry": "Health",
+  "section": "Hero section",
+  "summary": "Hero section reference for a health or wellbeing product — DM Sans, fluid type, React and Tailwind CSS and cubic-bezier(0.16, 1, 0.3, 1) easing.",
+  "palette": [
+   "#ECEDEC",
+   "#FEFDF9",
+   "#FFFFFF"
+  ],
+  "fonts": [
+   "DM Sans",
+   "Inter"
+  ],
+  "canvas": "640x472",
+  "has_video": true,
+  "folder": "website/wellness-balance",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "wellness-companion",
+  "title": "Wellness Companion",
+  "industry": "Health",
+  "section": "Landing page",
+  "summary": "Landing page reference for a health or wellbeing product — 0.5s transitions, Helvetica, Arial, #1A1A1E base and a stats row.",
+  "palette": [
+   "#8A9AAA",
+   "#1A1A1E",
+   "#232328"
+  ],
+  "fonts": [
+   "Helvetica, Arial"
+  ],
+  "canvas": "1440x1080",
+  "has_video": true,
+  "folder": "website/wellness-companion",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "wellness-device",
+  "title": "Wellness Devicex",
+  "industry": "Health",
+  "section": "Landing page",
+  "summary": "Landing page reference for a health or wellbeing product — Inter, cubic-bezier(0.77, 0, 0.18, 1) easing, glass panels and 60ms transitions.",
+  "palette": [
+   "#0A0A0A",
+   "#64748B",
+   "#879CBB"
+  ],
+  "fonts": [
+   "Inter",
+   "Instrument Serif",
+   "Applied via a"
+  ],
+  "canvas": "1460x1080",
+  "has_video": true,
+  "folder": "website/wellness-device",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "wellness-hero",
+  "title": "Wellness Hero",
+  "industry": "Health",
+  "section": "Hero section",
+  "summary": "Hero section reference for a health or wellbeing product — a 640x468 frame, a stats row, glass panels and Inter.",
+  "palette": [
+   "#111111",
+   "#FFFFFF",
+   "#A78BFA"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "640x468",
+  "has_video": true,
+  "folder": "website/wellness-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ },
+ {
+  "slug": "zyphor-hero",
+  "title": "Zyphor",
+  "industry": "AI & SaaS",
+  "section": "Hero section",
+  "summary": "Hero section reference for an AI or SaaS product — a word-by-word headline, looping video, #0B0C10 base and a dark stage.",
+  "palette": [
+   "#0E0F14",
+   "#A1A1AA",
+   "#1C1D22",
+   "#0B0C10"
+  ],
+  "fonts": [
+   "Inter"
+  ],
+  "canvas": "1920x1392",
+  "has_video": true,
+  "folder": "website/zyphor-hero",
+  "still": "still.webp",
+  "poster": "poster.webp"
+ }
+]

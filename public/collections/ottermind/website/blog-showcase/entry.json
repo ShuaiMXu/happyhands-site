@@ -1,0 +1,203 @@
+{
+ "slug": "blog-showcase",
+ "sourceSlug": "blog-showcase",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Blog Showcase"
+ },
+ "title": "Blog Showcase",
+ "industry": "creative",
+ "industryLabel": "Agencies & Studios",
+ "section": "blog",
+ "sectionLabel": "Blog section",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/4923bf02841531b1.webp",
+  "still": "https://cdn.ottermind.ai/public/8cad9ffece532b34.webp",
+  "preview": "https://cdn.ottermind.ai/public/8cad9ffece532b34.webp",
+  "full": "https://cdn.ottermind.ai/public/8cad9ffece532b34.webp",
+  "aspectRatio": 1.3389,
+  "width": 640,
+  "height": 478,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Blog Showcase Agencies & Studios Blog Section Design & Prompt | Ottermind",
+  "description": "Blog section reference for an agency or studio — Outfit, #FCFCFC base, a 640x478 frame and cubic-bezier(0.33, 1, 0.68, 1) easing. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "agency website design",
+   "agency blog section design",
+   "minimal agency landing page",
+   "blog section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Blog Showcase — Agencies & Studios Blog Section Design",
+ "tagline": "Blog section reference for an agency or studio, captured at 640x478 with the layout, timings and palette specified in the brief.",
+ "summary": "Blog section reference for an agency or studio — Outfit, #FCFCFC base, a 640x478 frame and cubic-bezier(0.33, 1, 0.68, 1) easing.",
+ "about": "Blog Showcase shows one way to build the blog section for an agency or studio, and publishes the instructions that produced it. Colour is limited to white #FCFCFC underneath and red #7D1A4A for the type, set in Outfit. The entry names the stack that produced the page (React and Tailwind CSS) rather than hiding it. Motion is confined to 0.5s transitions and cubic-bezier(0.33, 1, 0.68, 1). Borrow the structure and not the subject: the blog section and its numbers move to your brand unchanged.",
+ "layout": [
+  {
+   "title": "Nothing here is inherited",
+   "body": "The values are the specification: 20px spacing steps, 0.5s transitions and cubic-bezier(0.33, 1, 0.68, 1) easing, captured at 640x478 rather than inferred from a screenshot. Every value can be checked against the captured prompt, which is what makes a rebuild verifiable rather than approximate. Keep the values that look arbitrary."
+  },
+  {
+   "title": "Type sets the hierarchy",
+   "body": "The type is Outfit at the top of the scale, with the supporting copy dropped well below it so the hierarchy needs no colour to read. A face swap is safe as long as the sizes and weights stay where the brief put them. Keep the size steps even if you change the face."
+  },
+  {
+   "title": "Columns, not a link dump",
+   "body": "Links are grouped into columns with the wordmark in its own block, which keeps a long footer readable instead of turning it into a list. The accent is reused on one footer action rather than across the whole band. Give the wordmark its own column."
+  },
+  {
+   "title": "Measured, not eyeballed",
+   "body": "Spacing is quoted the same way (20px spacing steps, 0.5s transitions and cubic-bezier(0.33, 1, 0.68, 1) easing), not as a scale that grows on its own."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Fast enough to feel deliberate",
+   "body": "Every state change in the specification has a duration attached: transitions settle around 0.5s using cubic-bezier(0.33, 1, 0.68, 1). Nothing is left at the browser default, which is why the page feels authored rather than animated. Easing is specified alongside the duration (0.5s), so a rebuild cannot quietly substitute a different feel. If you change the easing, change it everywhere."
+  },
+  {
+   "title": "Hover, but sparingly",
+   "body": "Feedback is limited to hover states on the buttons and links rather than on every card, so the rest of the layout is a fixed composition. Press states are specified as well as hover, so a tap gives the same confirmation as a click. If a state does not confirm an action, drop it."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#F4F4F4",
+    "name": "White",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#F0F0F0",
+    "name": "White — darker",
+    "role": "Secondary"
+   },
+   {
+    "hex": "#FCFCFC",
+    "name": "White — lighter",
+    "role": "composition"
+   },
+   {
+    "hex": "#7D1A4A",
+    "name": "Red",
+    "role": "Headline"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Outfit",
+    "weights": "Weight not fixed in the brief",
+    "role": "Interface"
+   },
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Copy face"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 0.5s, which is the value to keep when the palette changes.",
+   "The reference was captured at 640x478, and every value quoted on this page comes from the same brief.",
+   "The timing budget is state feedback rather than page choreography (0.5s), so a slower rebuild reads as a different design. Transitions are specified at 0.5s, short enough that the page never feels like it is waiting for an animation."
+  ]
+ },
+ "customize": [
+  "Hold the blog section to one screen on desktop; the composition is solved for a reader who never scrolls.",
+  "Change the copy first, then the accent, then the media: the 640x478 frame was solved in that order and reversing it costs a re-layout.",
+  "Retime the entrance to taste. 0.5s with cubic-bezier(0.33, 1, 0.68, 1) is what the reference uses.",
+  "Read the brief value by value against the 640x478 capture before you edit anything; the numbers are the part that is easiest to lose."
+ ],
+ "editorial": [
+  {
+   "title": "Why the agency brief holds",
+   "body": "Suppose your media is louder than your copy. That is the case this composition is built for. The media is a still at 640x478. The frame stays quiet and 20px spacing steps and 0.5s transitions keep the reader on the text. It gives a agency reader the shortest honest route to the offer."
+  },
+  {
+   "title": "The order behind the blog section",
+   "body": "Compare the top of this page with a typical agency landing screen. Both carry a headline and an action; here the headline, the announcement badge, the card grid, the background clip and the footer sit in a fixed order instead of competing at the same weight. A agency reader gets the offer before the options."
+  },
+  {
+   "title": "How the blog section reflows",
+   "body": "If your breakpoints were chosen to make things fit rather than to change the layout, read this entry. the scale is fluid rather than stepped rather than a list of hidden elements. Nothing important is dropped at narrow widths. The reference was captured at 640x478."
+  }
+ ],
+ "steps": [
+  "Check your build against the reference measurements: 20px spacing steps, 0.5s transitions and cubic-bezier(0.33, 1, 0.68, 1) easing.",
+  "Pin the reference measurements before you restyle anything: 20px spacing steps, 0.5s transitions and cubic-bezier(0.33, 1, 0.68, 1) easing.",
+  "Keep the measurements the brief spells out: 20px spacing steps, 0.5s transitions and cubic-bezier(0.33, 1, 0.68, 1) easing.",
+  "Copy 20px spacing steps, 0.5s transitions and cubic-bezier(0.33, 1, 0.68, 1) easing into your own brief before you rewrite anything else.",
+  "Port the motion last: the entrance, the 0.5s states and the hover behaviour, in that order."
+ ],
+ "faq": [
+  {
+   "question": "How long is the prompt behind Blog Showcase?",
+   "answer": "The captured brief runs 4,151 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Do I need React and Tailwind CSS to rebuild Blog Showcase?",
+   "answer": "Blog Showcase was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "How do the 0.5s transitions in Blog Showcase behave?",
+   "answer": "The motion is specified at the same level of detail as the layout: state changes settle in the 0.5s range using cubic-bezier(0.33, 1, 0.68, 1). Port the composition first and the timings second, because they are easier to match once the layout holds."
+  }
+ ],
+ "audience": [
+  "This blog section serves teams who have to justify a 640x478 frame to someone who was not in the kickoff.",
+  "Made for a solo founder shipping one blog section for an agency or studio and no design system behind them.",
+  "People who brief a model on a blog section will use the 4,151-character prompt as the starting point."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Blog section"
+  },
+  {
+   "label": "Category",
+   "value": "Agencies & Studios"
+  },
+  {
+   "label": "Canvas size",
+   "value": "640x478 · 1.34:1"
+  },
+  {
+   "label": "Source text",
+   "value": "4,151 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type scale",
+   "value": "Outfit, Inter"
+  },
+  {
+   "label": "Reference stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Motion spec",
+   "value": "0.5s transitions and cubic-bezier(0.33, 1, 0.68, 1) easing"
+  }
+ ],
+ "related": [
+  "digital-experiences",
+  "glow-features",
+  "immersive-ocean",
+  "innovation-lab",
+  "innovation-landing",
+  "launchex-about"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 4151,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

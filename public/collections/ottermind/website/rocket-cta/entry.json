@@ -1,0 +1,204 @@
+{
+ "slug": "rocket-cta",
+ "sourceSlug": "rocket-cta",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Rocket CTA"
+ },
+ "title": "Rocket CTA",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "cta",
+ "sectionLabel": "Call to action",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/c98d4b0e466c6fea.webp",
+  "still": "https://cdn.ottermind.ai/public/aa42f621b00d9f76.webp",
+  "preview": "https://cdn.ottermind.ai/public/aa42f621b00d9f76.webp",
+  "full": "https://cdn.ottermind.ai/public/aa42f621b00d9f76.webp",
+  "aspectRatio": 1.3675,
+  "width": 640,
+  "height": 468,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Rocket CTA AI & SaaS Call to Action Design & Prompt | Ottermind",
+  "description": "Call to action reference for an AI or SaaS product — React and Tailwind CSS, a dark stage, a stats row and #14191E base. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS call-to-action block design",
+   "video-backed SaaS landing page",
+   "call-to-action block design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Rocket CTA — AI & SaaS Call to Action Design",
+ "tagline": "Call to action reference for an AI or SaaS product, captured at 640x468 with the layout, timings and palette specified in the brief.",
+ "summary": "Call to action reference for an AI or SaaS product — React and Tailwind CSS, a dark stage, a stats row and #14191E base.",
+ "about": "Read Rocket CTA as a call-to-action block spec: the values were written down before the page was built. Colour is limited to deep blue #14191E underneath, set in Inter. The reference is built with React and Tailwind CSS, and the layout decisions are stated independently of it. Motion is confined to 300ms transitions. It is the right reference for an AI or SaaS product call-to-action block that has to look deliberate on the first screen.",
+ "layout": [
+  {
+   "title": "Top row, one action",
+   "body": "Navigation is a single row with no second level under it. The bar sits over the 640x468 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "Values you can check",
+   "body": "Type and spacing are drawn from one list here: 10px spacing steps and 300ms transitions. A rebuild that hits those numbers looks like the reference without further tuning."
+  },
+  {
+   "title": "Type sets the hierarchy",
+   "body": "The type is Inter at the top of the scale, with the supporting copy dropped well below it so the hierarchy needs no colour to read. Weights are specified per role, so the hierarchy does not depend on guesswork at build time. The scale is quoted; use it."
+  },
+  {
+   "title": "The nav is deliberately thin",
+   "body": "If your own page has more sections, group them rather than widening the bar. The reference was captured at 640x468."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Sections arrive with scroll",
+   "body": "Parallax runs while the page is moving, so the composition has a defined resting state. The composition does not depend on the effect firing, so a fast scroll past it costs nothing. Test it with reduced motion on."
+  },
+  {
+   "title": "Timings in milliseconds",
+   "body": "Transitions are specified at 300ms, which is the timing the controls are held to. One value is reused across the controls, so their timing cannot drift apart."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#14191E",
+    "name": "Near-black",
+    "role": "composition"
+   },
+   {
+    "hex": "#000000",
+    "name": "Near-black — darker",
+    "role": "darkest"
+   },
+   {
+    "hex": "#101010",
+    "name": "Near-black — darker",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#8F916F",
+    "name": "Muted yellow",
+    "role": "lightest"
+   }
+  ],
+  "glass": "Panels are translucent over deep blue #14191E, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Interface"
+   },
+   {
+    "name": "Instrument Serif",
+    "weights": "Weight not fixed in the brief",
+    "role": "Second face"
+   }
+  ],
+  "notes": [
+   "The timing budget is state feedback rather than page choreography (300ms), so a slower rebuild reads as a different design. The reference was captured at 640x468, and every value quoted on this page comes from the same brief.",
+   "Transitions are specified at 300ms, which is the value to keep when the palette changes.",
+   "Transitions are specified at 300ms, short enough that the page never feels like it is waiting for an animation."
+  ]
+ },
+ "customize": [
+  "Keep the call-to-action block inside one viewport and move whatever does not fit into the section below it.",
+  "Retime the entrance to your own 300ms, but keep a standard ease-out as the curve, because the easing is what reads as this design.",
+  "Replace the headline and the supporting line with your own copy, keeping the same line count so the entrance still lands over the 640x468 frame.",
+  "Draft the new copy to the 640x468 frame, then check that the entrance still lands on the same number of lines."
+ ],
+ "editorial": [
+  {
+   "title": "The numbers behind the call-to-action block",
+   "body": "This is what makes the reference reusable: 10px spacing steps and 300ms transitions. Nothing is left to a default, so a substitution that keeps those numbers keeps the composition. Nothing in this call-to-action block depends on a default."
+  },
+  {
+   "title": "What this call-to-action block gets right",
+   "body": "The trade-off is density: this call-to-action block says less on the first screen than a feature-led layout would. What it keeps is the reading order, and navigation, the headline, the announcement badge, the stats row and the background clip do the work a longer page would spread out. Rocket CTA states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "What moves in Rocket CTA",
+   "body": "Ambitious motion usually costs the first screen its legibility. This brief keeps 300ms transitions, parallax layers and hover and press states short enough that the type never has to wait. Nothing animates for its own sake in this call-to-action block."
+  }
+ ],
+ "steps": [
+  "Pin the reference measurements before you restyle anything: 10px spacing steps and 300ms transitions.",
+  "Copy 10px spacing steps and 300ms transitions into your own brief before you rewrite anything else.",
+  "Check your build against the reference measurements: 10px spacing steps and 300ms transitions.",
+  "Keep the measurements the brief spells out: 10px spacing steps and 300ms transitions.",
+  "Add the entrance first at 300ms, and only then the hover and scroll behaviour."
+ ],
+ "faq": [
+  {
+   "question": "How long is the prompt behind Rocket CTA?",
+   "answer": "The captured brief runs 11,622 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Is the Rocket CTA brief the same as the prompt I would write?",
+   "answer": "Everything quoted on the page comes from the captured 11,622-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "Why does the entry name React and Tailwind CSS at all?",
+   "answer": "Rocket CTA was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  }
+ ],
+ "audience": [
+  "Engineers who need the call-to-action block to survive a slow connection will use 640x468 and the type scale as the weight budget.",
+  "Made for product managers who need the call-to-action block scoped to one sprint and no new assets.",
+  "Studio leads who run several projects at once will use this call-to-action block as the pattern every other page copies."
+ ],
+ "specs": [
+  {
+   "label": "Block",
+   "value": "Call to action"
+  },
+  {
+   "label": "Industry",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Canvas size",
+   "value": "640x468 · 1.37:1"
+  },
+  {
+   "label": "Prompt text",
+   "value": "11,622 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type scale",
+   "value": "Inter, Instrument Serif"
+  },
+  {
+   "label": "Built with",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Timing",
+   "value": "300ms transitions"
+  }
+ ],
+ "related": [
+  "organic-odyssey",
+  "palomar-labs",
+  "portal",
+  "power-ai-hero",
+  "quantum-core",
+  "quantum-lucid"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 11622,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

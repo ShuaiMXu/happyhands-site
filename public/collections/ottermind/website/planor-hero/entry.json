@@ -1,0 +1,212 @@
+{
+ "slug": "planor-hero",
+ "sourceSlug": "lp-042-6a05f69895b816c773a812be",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "Planor"
+ },
+ "title": "Planor",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/6a42f3dc4a348fc7.webp",
+  "still": "https://cdn.ottermind.ai/public/b84b02c9ade96478.webp",
+  "preview": "https://cdn.ottermind.ai/public/6000931c013c49cb.mp4",
+  "full": "https://cdn.ottermind.ai/public/954d79ad0cc01a47.mp4",
+  "aspectRatio": 1.4015,
+  "width": 1920,
+  "height": 1370,
+  "duration": 6.367
+ },
+ "seo": {
+  "title": "Planor AI & SaaS Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an AI or SaaS product — 0.2s transitions, looping video, #634635 base and one self-contained HTML file. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS hero section design",
+   "video-backed SaaS landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Planor — AI & SaaS Hero Section Design",
+ "tagline": "Hero section reference for an AI or SaaS product, captured at 1964x1402 with the layout, timings and palette specified in the brief.",
+ "summary": "Hero section reference for an AI or SaaS product — 0.2s transitions, looping video, #634635 base and one self-contained HTML file.",
+ "about": "Planor gives an AI or SaaS product a finished first screen and the numbers that produced it. The palette runs orange #634635 underneath and white #E5E7EB for the type, and the type is Inter. Delivery is one self-contained HTML file, captured at 1964x1402 so the frame is fixed before any code is written. Motion is limited to 0.2s transitions and a looping video bed. Keep it open while you write: the 3,036-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "Navigation held to one row",
+   "body": "A slim bar sits over the hero section with the wordmark on the left and the links set in Inter, so the composition reads as content first and chrome second. A mobile overlay takes over below the tablet breakpoint. The bar sits over the 1964x1402 composition without a background of its own, so the media runs edge to edge underneath it. Keep the link count to four or five; the row is sized for that."
+  },
+  {
+   "title": "Measured, not eyeballed",
+   "body": "The layout works on absolute values rather than ratios: a fixed 58px display size, 30px spacing steps and 0.2s transitions. Spacing is quoted in the same units as the type, so the two can be compared directly."
+  },
+  {
+   "title": "Top row: wordmark, links, one action",
+   "body": "The mobile menu is part of the brief, so the collapsed state is designed rather than improvised. One action per bar."
+  },
+  {
+   "title": "Nothing here is inherited",
+   "body": "Spacing is quoted the same way (a fixed 58px display size, 30px spacing steps and 0.2s transitions), not as a scale that grows on its own."
+  }
+ ],
+ "motion": [
+  {
+   "title": "A loop, not a timeline",
+   "body": "The background clip runs 6.4s at 1964x1402 on an endless loop, muted and inline, so the page keeps moving while the reader's attention is on the copy. No scroll library is required, because the only ambient motion is the media itself. Because it is muted, the loop can run under the copy without competing for sound or focus."
+  },
+  {
+   "title": "State changes, timed",
+   "body": "The controls resolve in 0.2s, fast enough that the page answers as it is touched rather than after it. Easing is specified alongside the duration (0.2s), so a rebuild cannot quietly substitute a different feel."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#E5E7EB",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#1D1A1B",
+    "name": "Near-black",
+    "role": "darkest"
+   },
+   {
+    "hex": "#C7C9C6",
+    "name": "Gray",
+    "role": "lighter step"
+   },
+   {
+    "hex": "#634635",
+    "name": "Orange",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "58px",
+    "role": "Headline and interface text"
+   },
+   {
+    "name": "Playfair Display",
+    "weights": "58px",
+    "role": "Accent type"
+   },
+   {
+    "name": "Import 'Inter",
+    "weights": "58px",
+    "role": "Body face"
+   }
+  ],
+  "notes": [
+   "Nothing sits between the type and the 1964x1402 clip, so a replacement has to work under the copy directly.",
+   "Media is specified at 1964x1402 and a 6.4s loop, so a replacement should match the crop and the loop length.",
+   "Font roles are assigned rather than mixed here, and 58px is the range the whole scale works in."
+  ]
+ },
+ "customize": [
+  "Set 0.2s to your own build speed and check that a standard ease-out still lands the copy before the media starts.",
+  "Draft the new copy to the 1964x1402 frame, then check that the entrance still lands on the same number of lines.",
+  "Swap the clip for your own. Export at 1964x1402 or wider, keep it muted, and make the 6.4s loop seamless so the cut is invisible.",
+  "Replace the video with a still at 1964x1402 if the 6.4s loop is too heavy for the page you are shipping."
+ ],
+ "editorial": [
+  {
+   "title": "How Planor sequences the first read",
+   "body": "Committing to one reading path means other paths are closed. The brief accepts that, fixes navigation, the headline and the background clip in place, and spends a fixed 58px display size and 30px spacing steps on making the route obvious. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "How the hero section reflows",
+   "body": "The cost of a fluid scale is less control over exact sizes. What you get is a display line that stays proportionate, which is why a clamp between 58px and 30px is in the brief. The scale changes with the viewport; the sequence does not."
+  },
+  {
+   "title": "Making the hero section yours",
+   "body": "Set the new copy at the display size the brief names (a fixed 58px display size and 30px spacing steps), and the rest of the scale follows without a redesign. Set the new copy at the same display size and re-check the contrast before you add anything."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1964x1402 capture before you generate.",
+  "Copy a fixed 58px display size, 30px spacing steps and 0.2s transitions into your own brief before you rewrite anything else.",
+  "Keep the measurements the brief spells out: a fixed 58px display size, 30px spacing steps and 0.2s transitions.",
+  "Pin the reference measurements before you restyle anything: a fixed 58px display size, 30px spacing steps and 0.2s transitions.",
+  "Check your build against the reference measurements: a fixed 58px display size, 30px spacing steps and 0.2s transitions."
+ ],
+ "faq": [
+  {
+   "question": "How much of Planor depends on one self-contained HTML file?",
+   "answer": "Planor was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Is the Planor prompt a finished spec or a starting point?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1964x1402, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Where did the Planor design come from?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1964x1402."
+  }
+ ],
+ "audience": [
+  "This hero section serves teams who have to justify one self-contained HTML file to someone who was not in the kickoff.",
+  "The page serves front-end developers rebuilding an AI or SaaS product hero section in one self-contained HTML file and looking for the numbers behind the look.",
+  "Designers who need the numbers first: a fixed 58px display size and 30px spacing steps, all of it quoted from the brief."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Hero section"
+  },
+  {
+   "label": "Field",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Viewport",
+   "value": "1964x1402 · 1.4:1"
+  },
+  {
+   "label": "Loop length",
+   "value": "6.4s loop"
+  },
+  {
+   "label": "Prompt",
+   "value": "3,036 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Fonts",
+   "value": "Inter, Playfair Display, Import 'Inter · 58px"
+  },
+  {
+   "label": "Reference stack",
+   "value": "Tailwind CSS, vanilla JS, single HTML file"
+  },
+  {
+   "label": "Animation",
+   "value": "0.2s transitions and a 6.4s media loop"
+  }
+ ],
+ "related": [
+  "portal",
+  "power-ai-hero",
+  "quantum-core",
+  "quantum-lucid",
+  "real-time-alerts",
+  "rocket-cta"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 3036,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

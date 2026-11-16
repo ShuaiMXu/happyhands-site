@@ -88,3 +88,21 @@
 .hh-catalog-popover .archive-filter-option + .archive-filter-option { margin-top:4px; }
 .hh-catalog-popover .archive-filter-option > span:first-child { min-width:0; overflow-wrap:break-word; }
 .hh-catalog-popover .archive-filter-count { text-align:end; }
+
+/* PinUI Search Card adapter: overlay expansion keeps the gallery stationary. */
+.resource-toolbar .hh-search-card { position:relative; height:44px; z-index:30; }
+.hh-search-card-surface { position:absolute; top:0; left:0; width:100%; background:var(--hh-bg-raised); border:.5px solid var(--hh-line-strong); border-radius:16px; overflow:hidden; }
+.hh-search-card:focus-within .hh-search-card-surface { box-shadow:0 8px 24px var(--hh-line); }
+.hh-search-card-bar { display:flex; align-items:center; padding-left:12px; min-height:44px; gap:8px; }
+.hh-search-card-bar > svg { flex:none; color:var(--hh-ink-muted); }
+.resource-search.hh-search-card input[type="search"] { min-width:0; flex:1; padding:10px 0; border:0; border-radius:0; background:transparent; outline-offset:-2px; box-shadow:none; }
+.hh-search-card input::-webkit-search-cancel-button { display:none; }
+.hh-search-card-bar button { display:grid; place-items:center; flex:none; width:44px; height:44px; padding:0; background:transparent; color:var(--hh-ink-muted); border:0; border-radius:12px; cursor:pointer; }
+.hh-search-card-bar button:focus-visible,.hh-search-card-results a:focus-visible { outline:2px solid var(--hh-ring); outline-offset:-3px; }
+.hh-search-card-results { overflow:hidden; }
+.hh-search-card-results p { margin:0; padding:12px; color:var(--hh-ink-muted); font-size:12px; }
+.hh-search-card-results ul { list-style:none; margin:0; padding:0 4px 4px; max-height:280px; overflow-y:auto; }
+.hh-search-card-results a { display:flex; align-items:center; justify-content:space-between; gap:12px; min-height:44px; padding:10px 12px; border-radius:12px; color:var(--hh-ink); font-size:14px; text-decoration:none; overflow-wrap:anywhere; }
+.hh-search-card-results a:hover,.hh-search-card-results a:focus-visible { background:var(--hh-bg-hover); text-decoration:none; }
+.hh-search-card input[type="search"]:focus { outline:none; box-shadow:none; }
+.hh-search-card-surface:has(input:focus-visible) { outline:2px solid var(--hh-ring); outline-offset:2px; }

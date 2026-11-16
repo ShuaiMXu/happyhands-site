@@ -14,3 +14,24 @@
 .catalog-resource-navigation ~ .resource-tool-panel { margin:24px var(--page-inset); }
 
 @media(max-width:600px){.hh-resource-navigation>.hh-resource-group{flex-wrap:nowrap;max-width:100%;overflow-x:auto;scrollbar-width:thin}.hh-resource-navigation>.hh-resource-group :is(a,button){flex-shrink:0}}
+
+/* User-selected PinUI Liquid Tabs navigation adapter. Text stays outside goo. */
+.hh-resource-navigation.hh-liquid-navigation { border:0; gap:0; }
+.hh-resource-navigation.hh-liquid-navigation > .hh-resource-group { position:relative; isolation:isolate; display:flex; flex-wrap:nowrap; gap:0; width:max-content; max-width:100%; overflow-x:auto; padding:4px 4px 8px; border-radius:16px; background:var(--hh-bg-sunken); scrollbar-width:thin; }
+.hh-resource-navigation.hh-liquid-navigation :is(a,button) { position:relative; z-index:1; justify-content:center; flex-shrink:0; min-height:44px; padding:8px 18px; border-radius:12px; box-shadow:none; }
+.hh-resource-navigation.hh-liquid-navigation :is([aria-current="page"],[aria-selected="true"]) { color:var(--hh-ink); background:transparent; box-shadow:none; }
+.hh-resource-navigation.hh-liquid-navigation :is(a,button):focus-visible { outline-offset:-3px; }
+.hh-liquid-surface { position:absolute; inset:0; pointer-events:none; z-index:0; }
+.hh-liquid-goo { position:absolute; inset:0; }
+.hh-liquid-base { position:absolute; left:4px; right:4px; bottom:3px; height:8px; border-radius:4px; background:var(--hh-bg-raised); }
+.hh-liquid-blob { position:absolute; left:0; top:4px; height:48px; border-radius:12px; background:var(--hh-bg-raised); }
+.hh-liquid-ready .hh-liquid-blob { transition:transform 250ms ease-out,width 250ms ease-out; }
+@media(max-width:540px){.hh-resource-navigation.hh-liquid-navigation :is(a,button){padding-inline:12px;}}
+@media(prefers-reduced-motion:reduce){.hh-liquid-ready .hh-liquid-blob{transition:none;}}
+@media(forced-colors:active){.hh-liquid-surface{display:none;}.hh-resource-navigation.hh-liquid-navigation :is([aria-current="page"],[aria-selected="true"]){outline:2px solid Highlight;outline-offset:-3px;}}
+
+/* User-selected sliding capsule: independent active surface, no joined bottom rail. */
+.hh-resource-navigation.hh-liquid-navigation > .hh-resource-group { padding:4px; }
+.hh-liquid-base { display:none; }
+.hh-liquid-goo { filter:none !important; }
+.hh-liquid-blob { top:4px; height:44px; border-radius:12px; }

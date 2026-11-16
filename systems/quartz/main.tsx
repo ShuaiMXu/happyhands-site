@@ -180,7 +180,7 @@ function App() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  {t("查看配色来源", "Palette source")} <Icon name="external" />
+                  {t("查看配色来源", "Palette source")}
                 </a>
               </div>
               <SystemExample system="quartz" lang={lang} dark={dark} />

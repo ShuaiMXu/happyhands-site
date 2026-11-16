@@ -1,5 +1,4 @@
 import { footerDirectory } from './footer-directory.js';
-import { iconMarkup } from '../../packages/ui/icons.ts';
 import { ui as zh } from './content.zh.js';
 import { ui as en } from './content.en.js';
 
@@ -11,13 +10,19 @@ export function portalFooter(lang = 'zh') {
   const links = kind => footerDirectory.filter(entry => entry.kind === kind).map(entry => {
     const external = entry.href.startsWith('https://');
     const href = !external && english ? `/en${entry.href}` : entry.href;
-    return `<a href="${href}"><span>${entry[language]}</span>${external ? iconMarkup('external') : ''}</a>`;
+    return `<a href="${href}"><span>${entry[language]}</span></a>`;
   }).join('');
-  return `<div class="footer-directory">
-    <section class="footer-resource-group" aria-labelledby="footer-resources-label"><h2 id="footer-resources-label">${english ? 'Design resources' : '设计资源'}</h2><div class="footer-directory-links">${links('resource')}</div></section>
-    <section aria-labelledby="footer-community-label"><h2 id="footer-community-label">${english ? 'Community' : '社区'}</h2><div class="footer-directory-links">${links('community')}</div></section>
-    <section class="footer-contact" aria-labelledby="footer-contact-label"><h2 id="footer-contact-label">${english ? 'Work with us' : '合作交流'}</h2><div class="footer-directory-links">${links('cooperation')}</div></section>
-  </div>
-  <div class="footer-friends" role="group" aria-labelledby="footer-friends-label"><span id="footer-friends-label">${copy.friends}</span>${links('friend')}</div>
-  <div class="footer-meta"><span>${copy.left}</span><span>${copy.middle}</span></div>`;
+  const prefix = english ? '/en' : '';
+  const brand = `<img class="footer-logo-ink" src="/brand/happyhands-logo-ink.png" alt="" width="1400" height="301" loading="lazy"><img class="footer-logo-paper" src="/brand/happyhands-logo-paper.png" alt="" width="1400" height="301" loading="lazy">`;
+  return `<div class="hh-synais-footer">
+    <div class="sy__top"><div class="sy__brand"><a class="sy__logo" href="${prefix}/apps/portal/" aria-label="HappyHands">${brand}</a><p class="sy__about">${english ? 'Improve your product experience.' : '让产品体验更好。'}</p></div><a class="sy__contact" href="https://x.com/ShuaiXU13">${english ? 'Contact us on X' : '到 X 联系'} </a></div>
+    <div class="sy__cols footer-directory">
+      <section class="footer-resource-group" aria-labelledby="footer-resources-label"><h2 id="footer-resources-label">${english ? 'Design resources' : '设计资源'}</h2><div class="footer-directory-links">${links('resource')}</div></section>
+      <section aria-labelledby="footer-guide-label"><h2 id="footer-guide-label">${english ? 'Guides' : '使用指南'}</h2><div class="footer-directory-links"><a href="${prefix}/guide/">${english ? 'Getting started' : '快速开始'}</a><a href="${prefix}/ai-ui-review/">${english ? 'Interface review' : '界面审查'}</a><a href="${prefix}/apps/setup/">${english ? 'Setup details' : '接入详情'}</a></div></section>
+      <section aria-labelledby="footer-community-label"><h2 id="footer-community-label">${english ? 'Community' : '社区'}</h2><div class="footer-directory-links">${links('community')}</div></section>
+      <section class="footer-friends" aria-labelledby="footer-friends-label"><h2 id="footer-friends-label">${copy.friends}</h2><div class="footer-directory-links">${links('friend')}</div></section>
+    </div>
+    <div class="sy__fine footer-meta"><span>${copy.left}</span><span>${copy.middle}</span></div>
+    <div class="sy__word" aria-hidden="true">${brand}</div>
+  </div>`;
 }

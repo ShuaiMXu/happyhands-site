@@ -110,3 +110,8 @@ collection_bytes=json.dumps(collections,ensure_ascii=False,sort_keys=True).encod
 version=sha(json.dumps(assets,sort_keys=True).encode()+collection_bytes+json.dumps(resources,ensure_ascii=False,sort_keys=True).encode())
 write(PUBLIC/'resources/v1/index.json',dict(schemaVersion=1,version=version,assetManifest='resources/v1/assets.json',collections=collections,resources=sorted(resources.values(),key=lambda r:r['id'])))
 print(json.dumps(dict(version=version,resources=len(resources),collections=[dict(id=c['id'],count=c['count']) for c in collections]),ensure_ascii=False,indent=2))
+
+# Keep separately registered PinUI source previews when refreshing the archive.
+if (PUBLIC/'components/pin-ui/registry.json').exists():
+ import subprocess
+ subprocess.run(['node', 'scripts/register-pinui.mjs'], cwd=ROOT, check=True)

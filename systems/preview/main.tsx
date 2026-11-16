@@ -4,17 +4,20 @@ import { createRoot } from "react-dom/client";
 import type { ComponentType, ReactNode } from "react";
 import "./preview.css";
 const params = new URLSearchParams(location.search);
-const system = ["sodium", "glaze", "quartz", "lime"].includes(
+const system = ["sodium", "glaze", "quartz", "lime", "meridian-mono", "meridian-glass", "meridian-slate", "meridian-clay"].includes(
   params.get("system") || "",
 )
   ? params.get("system")!
   : "quartz";
+const family = ({'meridian-mono':'sodium','meridian-glass':'glaze','meridian-slate':'quartz','meridian-clay':'lime'} as Record<string,string>)[system] || system;
 const theme = params.get("theme") === "dark" ? "dark" : "light";
 document.body.className = system;
 document.body.dataset.theme = theme;
 document.documentElement.dataset.theme = theme;
 const modules = import.meta.glob("./generated/*/{ui,ai,blocks,lib}/*.{ts,tsx}");
 const styles = import.meta.glob("./generated/*/compiled.css");
+const variantFixtures=new Set(["button","input","textarea","card","frame","tabs","checkbox","switch","slider","progress","select","badge","status","avatar","skeleton"]);
+const documentedExamples = import.meta.glob("./generated/*/examples/*.tsx");
 const sourceCatalog = await import("./generated/catalog.json");
 const blocks = (
   sourceCatalog.default as Record<
@@ -54,7 +57,7 @@ await styles[`./generated/${system}/compiled.css`]();
 await Promise.all(names.map((name) => load("ui", name)));
 const portal = await load("lib", "portal");
 const Provider =
-  portal?.[system[0].toUpperCase() + system.slice(1) + "PortalProvider"] ||
+  portal?.[system.split("-").map(part=>part[0].toUpperCase()+part.slice(1)).join("") + "PortalProvider"] ||
   React.Fragment;
 const get = (file: string, name: string) =>
   loaded["ui/" + file]?.[name] as ComponentType<any> | undefined;
@@ -92,20 +95,20 @@ function Controls({ only = "" }: { only?: string }) {
     SelectContent = usePart("select", "SelectContent"),
     SelectItem = usePart("select", "SelectItem");
   const Card = usePart(
-    system === "sodium" ? "frame" : "card",
-    system === "sodium" ? "Frame" : "Card",
+    family === "sodium" ? "frame" : "card",
+    family === "sodium" ? "Frame" : "Card",
   );
   const CardHeader = usePart(
-    system === "sodium" ? "frame" : "card",
-    system === "sodium" ? "FrameHeader" : "CardHeader",
+    family === "sodium" ? "frame" : "card",
+    family === "sodium" ? "FrameHeader" : "CardHeader",
   );
   const CardTitle = usePart(
-    system === "sodium" ? "frame" : "card",
-    system === "sodium" ? "FrameTitle" : "CardTitle",
+    family === "sodium" ? "frame" : "card",
+    family === "sodium" ? "FrameTitle" : "CardTitle",
   );
   const CardContent = usePart(
-    system === "sodium" ? "frame" : "card",
-    system === "sodium" ? "FrameBody" : "CardContent",
+    family === "sodium" ? "frame" : "card",
+    family === "sodium" ? "FrameBody" : "CardContent",
   );
   const [saved, setSaved] = useState(false);
   const show = (ids: string[], title: string, children: ReactNode) =>
@@ -177,8 +180,8 @@ function Controls({ only = "" }: { only?: string }) {
               </>
             )}
             <Status
-              status={system === "lime" ? "done" : "ok"}
-              label={system === "lime" ? "Ready" : undefined}
+              status={family === "lime" ? "done" : "ok"}
+              label={family === "lime" ? "Ready" : undefined}
             >
               Ready
             </Status>
@@ -322,7 +325,7 @@ function Foundations() {
           "hue-5-mark",
         ],
       } as Record<string, string[]>
-    )[system];
+    )[family];
     const css = getComputedStyle(document.body);
     setColors(
       names
@@ -393,6 +396,16 @@ function Block({ file, name }: { file: string; name: string }) {
     </ErrorBoundary>
   );
 }
+function DocumentedExample({name}:{name:string}) {
+ const [View,setView]=useState<ComponentType|null>(null);
+ const [failed,setFailed]=useState(false);
+ useEffect(()=>{
+  let active=true;setView(null);setFailed(false);
+  documentedExamples[`./generated/${system}/examples/${name}.tsx`]().then((mod:any)=>{if(active)setView(()=>mod.default)}).catch(()=>{if(active)setFailed(true)});
+  return()=>{active=false};
+ },[name]);
+ return <ErrorBoundary key={name}>{failed?<p role="alert">Preview unavailable</p>:View?<View/>:<p>Loading preview…</p>}</ErrorBoundary>;
+}
 function App() {
   const component = params.get("component") || "";
   const [selected, setSelected] = useState(
@@ -413,7 +426,7 @@ function App() {
       <main className="demo-root">
         {!component && <Foundations />}
         <ErrorBoundary>
-          <Controls only={component} />
+          {component && !variantFixtures.has(component) && documentedExamples[`./generated/${system}/examples/${component}.tsx`] ? <DocumentedExample name={component}/> : <Controls only={component} />}
         </ErrorBoundary>
         {!component && (
           <section className="demo-section">

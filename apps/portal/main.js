@@ -1,3 +1,6 @@
+import "../../packages/ui/pinui/site-footer.css";
+import {setupThemeTransition} from "../../packages/ui/pinui/theme-transition";
+import {ResourceDirectory} from '../../components/ResourceDirectory';
 import {setupBackToTop} from './back-to-top.js';
 import {createFeedback} from './feedback.js';
 import "../../packages/ui/resource-image-hover.css";
@@ -54,8 +57,7 @@ const themeButton = document.createElement('button');
 themeButton.id = 'theme-toggle';
 themeButton.type = 'button';
 document.querySelector('.header-actions').prepend(themeButton);
-themeButton.addEventListener('click', () => {
-  const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+setupThemeTransition(themeButton, next => {
   savePreference('hh-theme', next);
   applyTheme(next);
 });
@@ -151,7 +153,7 @@ function renderContent() {
     const previous=disposeResourceFeed?.snapshot?.();
     disposeResourceFeed?.();
     content.innerHTML = portalContent(lang);
-    disposeResourceFeed = setupResourceFeed(content, ResourceFeedControls, ResourceToolPanels,previous);
+    disposeResourceFeed = setupResourceFeed(content, ResourceFeedControls, ResourceToolPanels,previous,ResourceDirectory);
   }
 
   // footer

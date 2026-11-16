@@ -468,7 +468,7 @@ export function SystemCatalog({
                     target="_blank"
                     rel="noreferrer"
                   >
-                    {t("来源", "Source")} <Icon name="external" />
+                    {t("来源", "Source")}
                   </a>
                 </div>
               </details>

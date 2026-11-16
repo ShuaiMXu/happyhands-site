@@ -1,0 +1,4352 @@
+[
+  {
+    "id": "collection:brand-systems/meridian-clay/index.md",
+    "url": "/systems/preview/?system=meridian-clay&theme=light",
+    "sha256": "5d829cab06e675f5b27cbd7d08f91dbfb9c82f856d237a05bf67dc60ea6a327f",
+    "checkedAt": "2026-11-16T11:53:22.357Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-glass/index.md",
+    "url": "/systems/preview/?system=meridian-glass&theme=light",
+    "sha256": "e8743b65c106664a83f8858ed21a175c272ba29055382fb9c89a4f32d68feed3",
+    "checkedAt": "2026-11-16T11:53:23.291Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-mono/index.md",
+    "url": "/systems/preview/?system=meridian-mono&theme=light",
+    "sha256": "0eb3b04bd72849b148f68b15cba14bc26ae24bf3a521365efacf61afc4dbdfd6",
+    "checkedAt": "2026-11-16T11:53:23.653Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-slate/index.md",
+    "url": "/systems/preview/?system=meridian-slate&theme=light",
+    "sha256": "e96cc0668512625ddd7940f00c25d90e0c5be7795fe04e95b794fcfdf121357d",
+    "checkedAt": "2026-11-16T11:53:24.002Z"
+  },
+  {
+    "id": "component:cult-ui/agent-suggest-card-stack",
+    "url": "/components/preview/?component=agent-suggest-card-stack&theme=light&motion=off",
+    "sha256": "753d9d6d74a08135306c4f55309a17d9b21c92769ce2e2e4ee6c54457692eeb2",
+    "checkedAt": "2026-11-16T11:53:24.652Z"
+  },
+  {
+    "id": "component:cult-ui/ai-blob-warp",
+    "url": "/components/preview/?component=ai-blob-warp&theme=light&motion=off",
+    "sha256": "15548585172d0bc20e6ace9c83137e517be4c82263a51d1344b13c29025fa8c3",
+    "checkedAt": "2026-11-16T11:53:25.194Z"
+  },
+  {
+    "id": "component:cult-ui/ai-instructions",
+    "url": "/components/preview/?component=ai-instructions&theme=light&motion=off",
+    "sha256": "0daba66d3466df633891f262dda61d3ef7631079de0a65074936bec86a2ab996",
+    "checkedAt": "2026-11-16T11:53:25.702Z"
+  },
+  {
+    "id": "component:cult-ui/analytics-chart",
+    "url": "/components/preview/?component=analytics-chart&theme=light&motion=off",
+    "sha256": "0f762c999f90c7df17a26e71e7a4e930ce5c30e0615d448e4a57f2c232816539",
+    "checkedAt": "2026-11-16T11:53:26.220Z"
+  },
+  {
+    "id": "component:cult-ui/animated-badge",
+    "url": "/components/preview/?component=animated-badge&theme=light&motion=off",
+    "sha256": "38ccb623652551fc226ede25b70f808e523ab241ab0bb55a576f77a690a1d404",
+    "checkedAt": "2026-11-16T11:53:26.418Z"
+  },
+  {
+    "id": "component:cult-ui/animated-button",
+    "url": "/components/preview/?component=animated-button&theme=light&motion=off",
+    "sha256": "5f76276c71b1e18f5cf5aeab6c9f14d40a4e1de09977906f30b4f8a83931082d",
+    "checkedAt": "2026-11-16T11:53:26.636Z"
+  },
+  {
+    "id": "component:cult-ui/animated-card",
+    "url": "/components/preview/?component=animated-card&theme=light&motion=off",
+    "sha256": "f900f37b08f972987964f2e7e9f452e81733f12986e7a6fef7adde51623d361e",
+    "checkedAt": "2026-11-16T11:53:26.834Z"
+  },
+  {
+    "id": "component:cult-ui/animated-composer",
+    "url": "/components/preview/?component=animated-composer&theme=light&motion=off",
+    "sha256": "d9afbba652134195d5153da6d511f32207002caa2f32e81d39004492dff0a93e",
+    "checkedAt": "2026-11-16T11:53:27.050Z"
+  },
+  {
+    "id": "component:cult-ui/animated-dropzone",
+    "url": "/components/preview/?component=animated-dropzone&theme=light&motion=off",
+    "sha256": "c56939e41477352f8907a1593304ea3ea0901908a21735332e569a1c794616da",
+    "checkedAt": "2026-11-16T11:53:27.268Z"
+  },
+  {
+    "id": "component:cult-ui/animated-field",
+    "url": "/components/preview/?component=animated-field&theme=light&motion=off",
+    "sha256": "f900c4b5872ce6df44b19e7c8482997bd3a928e58b87e41b9f1d8b48e057d5c2",
+    "checkedAt": "2026-11-16T11:53:27.460Z"
+  },
+  {
+    "id": "component:cult-ui/animated-input",
+    "url": "/components/preview/?component=animated-input&theme=light&motion=off",
+    "sha256": "3fed320b9195c6f07b93497bfa6e7ec993cab408cbeb209c644c8d5f61cb8bd6",
+    "checkedAt": "2026-11-16T11:53:27.655Z"
+  },
+  {
+    "id": "component:cult-ui/animated-notification",
+    "url": "/components/preview/?component=animated-notification&theme=light&motion=off",
+    "sha256": "855df8f32edbc092e498966337118e7019236e0254b482952cf9b593c6714434",
+    "checkedAt": "2026-11-16T11:53:27.851Z"
+  },
+  {
+    "id": "component:cult-ui/animated-number",
+    "url": "/components/preview/?component=animated-number&theme=light&motion=off",
+    "sha256": "cdf07d2c0e0c7189829f838eb42e93b3f26714d731331e81f3d2dee7ee75482c",
+    "checkedAt": "2026-11-16T11:53:28.051Z"
+  },
+  {
+    "id": "component:cult-ui/animated-progress",
+    "url": "/components/preview/?component=animated-progress&theme=light&motion=off",
+    "sha256": "be9b1627a9bb17bee325368bf25469666bec3ef894891b97e4ad7b570d011de2",
+    "checkedAt": "2026-11-16T11:53:28.268Z"
+  },
+  {
+    "id": "component:cult-ui/animated-search",
+    "url": "/components/preview/?component=animated-search&theme=light&motion=off",
+    "sha256": "65f8b2d9516d2a7928b69aece04d93bc64ea1bc0135d92ca4e106c3690973a24",
+    "checkedAt": "2026-11-16T11:53:28.484Z"
+  },
+  {
+    "id": "component:cult-ui/animated-segmented",
+    "url": "/components/preview/?component=animated-segmented&theme=light&motion=off",
+    "sha256": "1fc5f57ed313a6be99df834fa56799ee699db4fef977e951727c999622484041",
+    "checkedAt": "2026-11-16T11:53:28.701Z"
+  },
+  {
+    "id": "component:cult-ui/animated-select",
+    "url": "/components/preview/?component=animated-select&theme=light&motion=off",
+    "sha256": "ce0d9337b086e20c9c9aa11900cef4ab64e1c4aa4fa52a393db987f1b027662e",
+    "checkedAt": "2026-11-16T11:53:28.902Z"
+  },
+  {
+    "id": "component:cult-ui/animated-switch",
+    "url": "/components/preview/?component=animated-switch&theme=light&motion=off",
+    "sha256": "4c8f7c0d415773d8b230ec50e9fe4e26bcebb1f620787b3a79072bf4a98e86dc",
+    "checkedAt": "2026-11-16T11:53:29.101Z"
+  },
+  {
+    "id": "component:cult-ui/animated-tabs",
+    "url": "/components/preview/?component=animated-tabs&theme=light&motion=off",
+    "sha256": "89918fba4fac030112578bde69112fd4e283d79c6e15c81300bfadd27f96bc9a",
+    "checkedAt": "2026-11-16T11:53:29.309Z"
+  },
+  {
+    "id": "component:cult-ui/animated-toast",
+    "url": "/components/preview/?component=animated-toast&theme=light&motion=off",
+    "sha256": "018bd90a17cdc2ae507cb58c9937a7c36a3c153a758457a82fe6be6c9a4f2129",
+    "checkedAt": "2026-11-16T11:53:29.518Z"
+  },
+  {
+    "id": "component:cult-ui/animated-toggle-group",
+    "url": "/components/preview/?component=animated-toggle-group&theme=light&motion=off",
+    "sha256": "ddaade68435db14a721efccbf0e52cd42c17dd851c83b46f87d3956faf701741",
+    "checkedAt": "2026-11-16T11:53:29.718Z"
+  },
+  {
+    "id": "component:cult-ui/apple-iphone-17-pro",
+    "url": "/components/preview/?component=apple-iphone-17-pro&theme=light&motion=off",
+    "sha256": "708a0c18c45d6d129d0dab205604c08ab9bb7c5c03a9608ef2d2f11fd2e7d455",
+    "checkedAt": "2026-11-16T11:53:30.221Z"
+  },
+  {
+    "id": "component:cult-ui/apple-keyboard",
+    "url": "/components/preview/?component=apple-keyboard&theme=light&motion=off",
+    "sha256": "52477c08410a6373eb270e8f73760afd54ee5f45cee59d0c5286144fa620740a",
+    "checkedAt": "2026-11-16T11:53:30.722Z"
+  },
+  {
+    "id": "component:cult-ui/apple-pro-display-xdr",
+    "url": "/components/preview/?component=apple-pro-display-xdr&theme=light&motion=off",
+    "sha256": "caac40871b2f131e247ad5c9990ec5a805e7b53cd9cc7a89eb0c49c053f7bce1",
+    "checkedAt": "2026-11-16T11:53:31.225Z"
+  },
+  {
+    "id": "component:cult-ui/apple-watch-ultra",
+    "url": "/components/preview/?component=apple-watch-ultra&theme=light&motion=off",
+    "sha256": "9d946ac35952feb7dd520791ef566f6db2049ac01a810909a878afefedb576f2",
+    "checkedAt": "2026-11-16T11:53:31.741Z"
+  },
+  {
+    "id": "component:cult-ui/base-select",
+    "url": "/components/preview/?component=base-select&theme=light&motion=off",
+    "sha256": "2fc1de497645892418d505d16f0633d86c69ba8b50afca7c4f128adc066bd01b",
+    "checkedAt": "2026-11-16T11:53:32.235Z"
+  },
+  {
+    "id": "component:cult-ui/base-tooltip",
+    "url": "/components/preview/?component=base-tooltip&theme=light&motion=off",
+    "sha256": "98883f64c2c90670513106ac83006543ebb12af5b52e3039f4660be73083b8da",
+    "checkedAt": "2026-11-16T11:53:32.737Z"
+  },
+  {
+    "id": "component:cult-ui/bg-animate-button",
+    "url": "/components/preview/?component=bg-animate-button&theme=light&motion=off",
+    "sha256": "04bffe8ef56b5d2aec531450b8ec58e0e21c35c640910ace37d7940418943126",
+    "checkedAt": "2026-11-16T11:53:33.242Z"
+  },
+  {
+    "id": "component:cult-ui/bg-animated-fractal-dot-grid",
+    "url": "/components/preview/?component=bg-animated-fractal-dot-grid&theme=light&motion=off",
+    "sha256": "dc4bf1fd855a58672e2cc9034d9f3b1b6a095364a2ecb24f5254d8cbbe0f7156",
+    "checkedAt": "2026-11-16T11:53:33.753Z"
+  },
+  {
+    "id": "component:cult-ui/bg-animated-gradient",
+    "url": "/components/preview/?component=bg-animated-gradient&theme=light&motion=off",
+    "sha256": "31fe8b0bbfcd49c8482ef7f707cfaceea57dd9eb41452f7be64d9f8b3209b74f",
+    "checkedAt": "2026-11-16T11:53:34.263Z"
+  },
+  {
+    "id": "component:cult-ui/bg-image-texture",
+    "url": "/components/preview/?component=bg-image-texture&theme=light&motion=off",
+    "sha256": "d340b69b4dc7547e868b3a3081b20c77bc782080d2082877cf6434a25a956b6d",
+    "checkedAt": "2026-11-16T11:53:35.370Z"
+  },
+  {
+    "id": "component:cult-ui/bg-media",
+    "url": "/components/preview/?component=bg-media&theme=light&motion=off",
+    "sha256": "f9dbdf796404dee4922cedce948063a59613e2c9142fd6c74fe27447b29a5698",
+    "checkedAt": "2026-11-16T11:53:35.910Z"
+  },
+  {
+    "id": "component:cult-ui/border-beam-button",
+    "url": "/components/preview/?component=border-beam-button&theme=light&motion=off",
+    "sha256": "7748958012a1e3a500d87f2dbb088b7d0bb023efc920d1e87c40af08cab1799e",
+    "checkedAt": "2026-11-16T11:53:36.429Z"
+  },
+  {
+    "id": "component:cult-ui/border-beam-card",
+    "url": "/components/preview/?component=border-beam-card&theme=light&motion=off",
+    "sha256": "d1342c15532ff24e3bf15fefcc0575a5bd38d7b3fb0ea8f8975fb5bc22f5fd2a",
+    "checkedAt": "2026-11-16T11:53:36.954Z"
+  },
+  {
+    "id": "component:cult-ui/border-beam-input",
+    "url": "/components/preview/?component=border-beam-input&theme=light&motion=off",
+    "sha256": "f5b08eac5177fedb35cf455692dde7d8f7a6435689b780f58c3749e3f0f291ed",
+    "checkedAt": "2026-11-16T11:53:37.470Z"
+  },
+  {
+    "id": "component:cult-ui/canvas-fractal-grid",
+    "url": "/components/preview/?component=canvas-fractal-grid&theme=light&motion=off",
+    "sha256": "99a214ceeb88103ad668b2feae9e91bcd2406b7a27a5b2fbf2b28737b384d1c4",
+    "checkedAt": "2026-11-16T11:53:38.001Z"
+  },
+  {
+    "id": "component:cult-ui/choice-poll",
+    "url": "/components/preview/?component=choice-poll&theme=light&motion=off",
+    "sha256": "1777c2613da97dbbb86c3d453e46042ba2a801c2e497cccb0a9252d14d78f6b7",
+    "checkedAt": "2026-11-16T11:53:38.501Z"
+  },
+  {
+    "id": "component:cult-ui/circuit-board",
+    "url": "/components/preview/?component=circuit-board&theme=light&motion=off",
+    "sha256": "5849294a30b18776538516af6876e169394c556fb35eed79c907a09344be4bc4",
+    "checkedAt": "2026-11-16T11:53:39.026Z"
+  },
+  {
+    "id": "component:cult-ui/code-block",
+    "url": "/components/preview/?component=code-block&theme=light&motion=off",
+    "sha256": "bc0f1ab1fed1feae245bdda1e87191ce3eaef869382d48a3e355c70634354de2",
+    "checkedAt": "2026-11-16T11:53:39.536Z"
+  },
+  {
+    "id": "component:cult-ui/collab-avatar",
+    "url": "/components/preview/?component=collab-avatar&theme=light&motion=off",
+    "sha256": "62eef0e1199f135a4aca3b44e6e4b981af650671e9f251e72689238921f090ad",
+    "checkedAt": "2026-11-16T11:53:40.035Z"
+  },
+  {
+    "id": "component:cult-ui/collab-toolbar",
+    "url": "/components/preview/?component=collab-toolbar&theme=light&motion=off",
+    "sha256": "4c04ac23ac9721b1adaf1e5cac2df3cc48680563224dac9ab7d70146220df75e",
+    "checkedAt": "2026-11-16T11:53:40.536Z"
+  },
+  {
+    "id": "component:cult-ui/color-picker",
+    "url": "/components/preview/?component=color-picker&theme=light&motion=off",
+    "sha256": "168ad02dc21b37c2c9273ddc2215474b6a94a035731b87fcbd919084c7f30dae",
+    "checkedAt": "2026-11-16T11:53:41.122Z"
+  },
+  {
+    "id": "component:cult-ui/copy-button",
+    "url": "/components/preview/?component=copy-button&theme=light&motion=off",
+    "sha256": "b5506a4088517484a5a98c095ce70c2a9cfad879f718b8cdb019f61f8207d0cd",
+    "checkedAt": "2026-11-16T11:53:41.652Z"
+  },
+  {
+    "id": "component:cult-ui/cosmic-button",
+    "url": "/components/preview/?component=cosmic-button&theme=light&motion=off",
+    "sha256": "d55983e2f47bdad13e6160055d7de8f1bc4ed890a1c31d4444acac1a74b2a10a",
+    "checkedAt": "2026-11-16T11:53:42.158Z"
+  },
+  {
+    "id": "component:cult-ui/cutout-card",
+    "url": "/components/preview/?component=cutout-card&theme=light&motion=off",
+    "sha256": "90afbbd5bbcb16557ad109c401de7cd600438bba86b956c03a1fe0059ff4d4c0",
+    "checkedAt": "2026-11-16T11:53:42.688Z"
+  },
+  {
+    "id": "component:cult-ui/direction-aware-tabs",
+    "url": "/components/preview/?component=direction-aware-tabs&theme=light&motion=off",
+    "sha256": "bfda44a08ad20dd916c8c6789766d133b97b0eb27edc7c2fe35c0d7ef7710fff",
+    "checkedAt": "2026-11-16T11:53:43.203Z"
+  },
+  {
+    "id": "component:cult-ui/distorted-glass",
+    "url": "/components/preview/?component=distorted-glass&theme=light&motion=off",
+    "sha256": "97674683888c209b8d4969e27c5798bfb4432a9deff130d43f08a859a5f933fd",
+    "checkedAt": "2026-11-16T11:53:43.723Z"
+  },
+  {
+    "id": "component:cult-ui/dither-image",
+    "url": "/components/preview/?component=dither-image&theme=light&motion=off",
+    "sha256": "3318172121553c78fde5f5edd429e29c818e9ca2f40d6f40a1494ab65438ac9e",
+    "checkedAt": "2026-11-16T11:53:44.236Z"
+  },
+  {
+    "id": "component:cult-ui/dock",
+    "url": "/components/preview/?component=dock&theme=light&motion=off",
+    "sha256": "38ac5270c09e5fbcea81498eb192d71018ea7f20150a8e6f77818aeabd14e17d",
+    "checkedAt": "2026-11-16T11:53:44.737Z"
+  },
+  {
+    "id": "component:cult-ui/dynamic-island",
+    "url": "/components/preview/?component=dynamic-island&theme=light&motion=off",
+    "sha256": "00d46afcb5fc155cb245afa6ae8776663607c5359042580ea5ba0bf0700dfa7a",
+    "checkedAt": "2026-11-16T11:53:45.341Z"
+  },
+  {
+    "id": "component:cult-ui/edge-blur",
+    "url": "/components/preview/?component=edge-blur&theme=light&motion=off",
+    "sha256": "929a344f8987f598230119c4ed3c6214f06358b421c71dce0f1038c4fa4051be",
+    "checkedAt": "2026-11-16T11:53:45.928Z"
+  },
+  {
+    "id": "component:cult-ui/expandable",
+    "url": "/components/preview/?component=expandable&theme=light&motion=off",
+    "sha256": "6fcc4af473541fd9e71e734915bbdcfeaeb072ae953510532ecd4c05f1e55f7e",
+    "checkedAt": "2026-11-16T11:53:46.471Z"
+  },
+  {
+    "id": "component:cult-ui/expandable-screen",
+    "url": "/components/preview/?component=expandable-screen&theme=light&motion=off",
+    "sha256": "112458f377dbc2cd55396dc1d97f13de7ca23c5af27cccbe41879e64c0fe660b",
+    "checkedAt": "2026-11-16T11:53:46.985Z"
+  },
+  {
+    "id": "component:cult-ui/family-button",
+    "url": "/components/preview/?component=family-button&theme=light&motion=off",
+    "sha256": "31c7586ddae16c52d58925545f2a7bab491b3a42e23dcf0e2da0fbd4ca52533e",
+    "checkedAt": "2026-11-16T11:53:47.484Z"
+  },
+  {
+    "id": "component:cult-ui/family-drawer",
+    "url": "/components/preview/?component=family-drawer&theme=light&motion=off",
+    "sha256": "2fb90aff59de3d9906b0ec8ea661f700991aa626b4d86b6653fb94832a9336c5",
+    "checkedAt": "2026-11-16T11:53:48.002Z"
+  },
+  {
+    "id": "component:cult-ui/feature-carousel",
+    "url": "/components/preview/?component=feature-carousel&theme=light&motion=off",
+    "sha256": "d71af12eda3d5f59ca61b3113532344df3e63d94dcd5ac430f99414629236b9b",
+    "checkedAt": "2026-11-16T11:53:48.531Z"
+  },
+  {
+    "id": "component:cult-ui/feature-poll",
+    "url": "/components/preview/?component=feature-poll&theme=light&motion=off",
+    "sha256": "8e8d2bc7d440e40e1a665e6011375fda750077c8606a94dabbd0c2c1c3afea9f",
+    "checkedAt": "2026-11-16T11:53:49.053Z"
+  },
+  {
+    "id": "component:cult-ui/feature-sticky-section",
+    "url": "/components/preview/?component=feature-sticky-section&theme=light&motion=off",
+    "sha256": "8787ceb6b9db1ed98afe42dd47e15e2e4caf299a05290e2ce745245f2db3bba1",
+    "checkedAt": "2026-11-16T11:53:49.568Z"
+  },
+  {
+    "id": "component:cult-ui/feature-voting",
+    "url": "/components/preview/?component=feature-voting&theme=light&motion=off",
+    "sha256": "60b0b97c70aede334a19f8d2790e45754a9248cdf7007bc3d422d0d5f8c707a2",
+    "checkedAt": "2026-11-16T11:53:50.068Z"
+  },
+  {
+    "id": "component:cult-ui/file-icons",
+    "url": "/components/preview/?component=file-icons&theme=light&motion=off",
+    "sha256": "adf638b45e892c2f4282637fb25f6373aea83cbbf053b07241dcc67ce9f4fd47",
+    "checkedAt": "2026-11-16T11:53:50.568Z"
+  },
+  {
+    "id": "component:cult-ui/floating-panel",
+    "url": "/components/preview/?component=floating-panel&theme=light&motion=off",
+    "sha256": "be78f801468041e69e5949ec8cae724a4317105b2419e8ac93fe0d334f3529e8",
+    "checkedAt": "2026-11-16T11:53:51.068Z"
+  },
+  {
+    "id": "component:cult-ui/fluid-ai-workloads",
+    "url": "/components/preview/?component=fluid-ai-workloads&theme=light&motion=off",
+    "sha256": "6b91efb5352d9b63937823e152b26955369131c0397241d43926b5fd05a66a84",
+    "checkedAt": "2026-11-16T11:53:51.567Z"
+  },
+  {
+    "id": "component:cult-ui/fluted-glass",
+    "url": "/components/preview/?component=fluted-glass&theme=light&motion=off",
+    "sha256": "50b4388190b1439c97937b7a940a509e33eba0d0d0bf706d6613c03080bcc226",
+    "checkedAt": "2026-11-16T11:53:52.120Z"
+  },
+  {
+    "id": "component:cult-ui/folded-card",
+    "url": "/components/preview/?component=folded-card&theme=light&motion=off",
+    "sha256": "43c72dca1e617ac8355fcee93dcc6c2647bb85f74541ae254973e14b3af388e6",
+    "checkedAt": "2026-11-16T11:53:52.622Z"
+  },
+  {
+    "id": "component:cult-ui/gateway-endpoint-illustration",
+    "url": "/components/preview/?component=gateway-endpoint-illustration&theme=light&motion=off",
+    "sha256": "68495f8475944e0f92844599c5a204614758df390b13b84f5c07c7aa5cdf18fb",
+    "checkedAt": "2026-11-16T11:53:53.121Z"
+  },
+  {
+    "id": "component:cult-ui/gateway-route-illustration",
+    "url": "/components/preview/?component=gateway-route-illustration&theme=light&motion=off",
+    "sha256": "ab82af236fdddfd994311f19e5f5fc30b31e9eece128e759e8ebd5ca74d1e9fa",
+    "checkedAt": "2026-11-16T11:53:53.632Z"
+  },
+  {
+    "id": "component:cult-ui/gateway-svg-illustration",
+    "url": "/components/preview/?component=gateway-svg-illustration&theme=light&motion=off",
+    "sha256": "a769e44e0334aca85af3830253bc646dd1f6ecbe4d2ed4425c00eaf2133384ba",
+    "checkedAt": "2026-11-16T11:53:54.134Z"
+  },
+  {
+    "id": "component:cult-ui/globe",
+    "url": "/components/preview/?component=globe&theme=light&motion=off",
+    "sha256": "d546d7f16b89b359f68e69b4bde3f54411eafb3f061396e00d3fd4aad77faa38",
+    "checkedAt": "2026-11-16T11:53:54.658Z"
+  },
+  {
+    "id": "component:cult-ui/gradient-button-group",
+    "url": "/components/preview/?component=gradient-button-group&theme=light&motion=off",
+    "sha256": "9fe305b2008bc8752137fce4581d695e48b506a3d28d78d225e89c980a20b192",
+    "checkedAt": "2026-11-16T11:53:55.201Z"
+  },
+  {
+    "id": "component:cult-ui/gradient-heading",
+    "url": "/components/preview/?component=gradient-heading&theme=light&motion=off",
+    "sha256": "31e03360945efc0b546ccef4de5681914f3ab9af7b3132529f0e30d9fecb7e9e",
+    "checkedAt": "2026-11-16T11:53:55.721Z"
+  },
+  {
+    "id": "component:cult-ui/grid-beam",
+    "url": "/components/preview/?component=grid-beam&theme=light&motion=off",
+    "sha256": "33837f9e07bb292fa3bace431d5608fc15ba569b95b3113c491fdc4425a42cd2",
+    "checkedAt": "2026-11-16T11:53:56.252Z"
+  },
+  {
+    "id": "component:cult-ui/halo-badge",
+    "url": "/components/preview/?component=halo-badge&theme=light&motion=off",
+    "sha256": "4d2d8b659bdf620d13dd2ada16f4a8dae25cbff2b80bf6ce1e186cba1354849b",
+    "checkedAt": "2026-11-16T11:53:56.770Z"
+  },
+  {
+    "id": "component:cult-ui/halo-button",
+    "url": "/components/preview/?component=halo-button&theme=light&motion=off",
+    "sha256": "418e62428d0ec6f839209c57d6c6ab9799137021211e397a01b1b2b3b14ea7d0",
+    "checkedAt": "2026-11-16T11:53:57.289Z"
+  },
+  {
+    "id": "component:cult-ui/halo-card",
+    "url": "/components/preview/?component=halo-card&theme=light&motion=off",
+    "sha256": "76c522d818199aab7ca0ef999852f5c2d4edf71b0dad0203e5b98972a3d7e2b8",
+    "checkedAt": "2026-11-16T11:53:57.826Z"
+  },
+  {
+    "id": "component:cult-ui/halo-dropzone",
+    "url": "/components/preview/?component=halo-dropzone&theme=light&motion=off",
+    "sha256": "a6a33b780f8090bfab16b50c2f4ecfd0949398adccd7489cdba23dfe7177bdf6",
+    "checkedAt": "2026-11-16T11:53:58.357Z"
+  },
+  {
+    "id": "component:cult-ui/halo-field",
+    "url": "/components/preview/?component=halo-field&theme=light&motion=off",
+    "sha256": "e3c4586affe06546c49100a759caca49a7fd6272fd9032f1d61fe6951adbc7b8",
+    "checkedAt": "2026-11-16T11:53:58.895Z"
+  },
+  {
+    "id": "component:cult-ui/halo-input",
+    "url": "/components/preview/?component=halo-input&theme=light&motion=off",
+    "sha256": "4d398bdc765d131474125e1d81b219723e7fc762c3c275705ab1fe07cb6808c4",
+    "checkedAt": "2026-11-16T11:53:59.422Z"
+  },
+  {
+    "id": "component:cult-ui/halo-notification",
+    "url": "/components/preview/?component=halo-notification&theme=light&motion=off",
+    "sha256": "417db55fa4ca701893d767bfcd351c2dba9794f9be58bc84cb87df1a72b7c42c",
+    "checkedAt": "2026-11-16T11:53:59.972Z"
+  },
+  {
+    "id": "component:cult-ui/halo-progress",
+    "url": "/components/preview/?component=halo-progress&theme=light&motion=off",
+    "sha256": "a06a08c9b6e34fa5dbaf571884b3534dfd1abab64c6afb1f139056a576efa86d",
+    "checkedAt": "2026-11-16T11:54:00.490Z"
+  },
+  {
+    "id": "component:cult-ui/halo-search",
+    "url": "/components/preview/?component=halo-search&theme=light&motion=off",
+    "sha256": "74ca1852ea0a62959a2696ea72e3e3780a9a4e148bc29bedb2e87eacda6f11d0",
+    "checkedAt": "2026-11-16T11:54:01.036Z"
+  },
+  {
+    "id": "component:cult-ui/halo-segmented",
+    "url": "/components/preview/?component=halo-segmented&theme=light&motion=off",
+    "sha256": "e390d4a88eda58c611b54f6e101966aa60c53ca158e6ee0203a4036aa62fee60",
+    "checkedAt": "2026-11-16T11:54:01.553Z"
+  },
+  {
+    "id": "component:cult-ui/halo-select",
+    "url": "/components/preview/?component=halo-select&theme=light&motion=off",
+    "sha256": "cdc8b599dbbe05538f0a2b32fecc1f023998e3ed7b9f37e84c975848e46be5fb",
+    "checkedAt": "2026-11-16T11:54:02.053Z"
+  },
+  {
+    "id": "component:cult-ui/halo-switch",
+    "url": "/components/preview/?component=halo-switch&theme=light&motion=off",
+    "sha256": "232dc298f751b97e64c78c7c2cecb315494f7a1afc4a5ba77742bd0965f0e563",
+    "checkedAt": "2026-11-16T11:54:02.554Z"
+  },
+  {
+    "id": "component:cult-ui/halo-tabs",
+    "url": "/components/preview/?component=halo-tabs&theme=light&motion=off",
+    "sha256": "0551f25c79fc5384c3e5720fc919fb42b50a193825c842c8c67d74b46beb30bd",
+    "checkedAt": "2026-11-16T11:54:03.052Z"
+  },
+  {
+    "id": "component:cult-ui/halo-toast",
+    "url": "/components/preview/?component=halo-toast&theme=light&motion=off",
+    "sha256": "cfabd8db7b32ed0c2f5975cc897db8404099d3f225735e3dad4ea22fce4c8a94",
+    "checkedAt": "2026-11-16T11:54:03.571Z"
+  },
+  {
+    "id": "component:cult-ui/halo-toggle-group",
+    "url": "/components/preview/?component=halo-toggle-group&theme=light&motion=off",
+    "sha256": "85fc97999de1a0a917bb8d21e886732452b030a5ca220d53824a224c9306aa96",
+    "checkedAt": "2026-11-16T11:54:04.069Z"
+  },
+  {
+    "id": "component:cult-ui/hero-color-panel",
+    "url": "/components/preview/?component=hero-color-panel&theme=light&motion=off",
+    "sha256": "896c9e6a037fc344df267ee768f34d095904c7c01c275c6a84724f445c6af6d9",
+    "checkedAt": "2026-11-16T11:54:04.643Z"
+  },
+  {
+    "id": "component:cult-ui/hero-dithering",
+    "url": "/components/preview/?component=hero-dithering&theme=light&motion=off",
+    "sha256": "684933fa095610fb6e644ffeae63c64c83d5d0ac147a85bde9030b11fbf29259",
+    "checkedAt": "2026-11-16T11:54:05.204Z"
+  },
+  {
+    "id": "component:cult-ui/hero-heatmap",
+    "url": "/components/preview/?component=hero-heatmap&theme=light&motion=off",
+    "sha256": "bcedec73289ae6743eac05a5d0477d69e5302e323a96fc0b24d9977058e363dd",
+    "checkedAt": "2026-11-16T11:54:06.846Z"
+  },
+  {
+    "id": "component:cult-ui/hero-liquid-metal",
+    "url": "/components/preview/?component=hero-liquid-metal&theme=light&motion=off",
+    "sha256": "ec95afcb1a953f5628c0e47d0a6f5c73ef931fdf64720cae1f424fa958cbe995",
+    "checkedAt": "2026-11-16T11:54:08.327Z"
+  },
+  {
+    "id": "component:cult-ui/hero-static-radial-gradient",
+    "url": "/components/preview/?component=hero-static-radial-gradient&theme=light&motion=off",
+    "sha256": "28fb17e4ca4009f36c0a83dee3e6a5f22c894ca7871b11e19ee00b0ddf55e6d6",
+    "checkedAt": "2026-11-16T11:54:08.935Z"
+  },
+  {
+    "id": "component:cult-ui/hover-video-player",
+    "url": "/components/preview/?component=hover-video-player&theme=light&motion=off",
+    "sha256": "fc23d2a368601b8a87793ce1a7dfc6679225dfdcb8ff94edee23f164d90d823a",
+    "checkedAt": "2026-11-16T11:54:09.439Z"
+  },
+  {
+    "id": "component:cult-ui/illustration-card-grid",
+    "url": "/components/preview/?component=illustration-card-grid&theme=light&motion=off",
+    "sha256": "1486c059e9220cead8bcd3db337a3eb27d981bafdf05dd1e1fe800393fa8a7b2",
+    "checkedAt": "2026-11-16T11:54:09.952Z"
+  },
+  {
+    "id": "component:cult-ui/illustration-comment-bubble",
+    "url": "/components/preview/?component=illustration-comment-bubble&theme=light&motion=off",
+    "sha256": "8183ba2ab428b8adf642b8c0b1ab217ce9925b8c50f79164ae5781a687304c03",
+    "checkedAt": "2026-11-16T11:54:10.454Z"
+  },
+  {
+    "id": "component:cult-ui/illustration-cursor",
+    "url": "/components/preview/?component=illustration-cursor&theme=light&motion=off",
+    "sha256": "b201adce86f1c6504a0af5827e4ca76b49da766132062dc6775cd30c29d49fbf",
+    "checkedAt": "2026-11-16T11:54:10.988Z"
+  },
+  {
+    "id": "component:cult-ui/illustration-fluid-rendering",
+    "url": "/components/preview/?component=illustration-fluid-rendering&theme=light&motion=off",
+    "sha256": "16487d6a1866746ad213789bf5420c6487d954fa152b96916043e821fe1c3a53",
+    "checkedAt": "2026-11-16T11:54:11.517Z"
+  },
+  {
+    "id": "component:cult-ui/illustration-globe-vercel",
+    "url": "/components/preview/?component=illustration-globe-vercel&theme=light&motion=off",
+    "sha256": "c4670d2232d4550024b81d62867931f967d92aee7ef004f8ad22f5ca140e82cf",
+    "checkedAt": "2026-11-16T11:54:12.053Z"
+  },
+  {
+    "id": "component:cult-ui/illustration-graph",
+    "url": "/components/preview/?component=illustration-graph&theme=light&motion=off",
+    "sha256": "f4b6d80914f79ebef07104608e670c32ebf13f60a465e925610be8fe4d69e59a",
+    "checkedAt": "2026-11-16T11:54:12.550Z"
+  },
+  {
+    "id": "component:cult-ui/intro-disclosure",
+    "url": "/components/preview/?component=intro-disclosure&theme=light&motion=off",
+    "sha256": "d940b4d497b571224cc1b1040568c256645d02d5350727c36a86c7d94348283f",
+    "checkedAt": "2026-11-16T11:54:13.052Z"
+  },
+  {
+    "id": "component:cult-ui/kanban-board",
+    "url": "/components/preview/?component=kanban-board&theme=light&motion=off",
+    "sha256": "5a2543717485fc4c4e3bb3f6142fdbf4148e84ff13c4ec9810ec112a86e95590",
+    "checkedAt": "2026-11-16T11:54:13.568Z"
+  },
+  {
+    "id": "component:cult-ui/lightboard",
+    "url": "/components/preview/?component=lightboard&theme=light&motion=off",
+    "sha256": "e44c678bd12bae2b9440b876c46337b364728192298078e7162a7ce145609377",
+    "checkedAt": "2026-11-16T11:54:14.086Z"
+  },
+  {
+    "id": "component:cult-ui/loading-carousel",
+    "url": "/components/preview/?component=loading-carousel&theme=light&motion=off",
+    "sha256": "1ba3794594897b5b602c73c84c2d553570bcaf744bfeb6c85fb0de05721b3cbd",
+    "checkedAt": "2026-11-16T11:54:14.592Z"
+  },
+  {
+    "id": "component:cult-ui/logo-carousel",
+    "url": "/components/preview/?component=logo-carousel&theme=light&motion=off",
+    "sha256": "92c366844796d68c63a5a0549f8673e2f1e7f0911ec7e7f54d234281bafe185e",
+    "checkedAt": "2026-11-16T11:54:15.153Z"
+  },
+  {
+    "id": "component:cult-ui/mac-screen",
+    "url": "/components/preview/?component=mac-screen&theme=light&motion=off",
+    "sha256": "d0f6c5ae5684df5282e46f27739e08cda260601ec8decb5b594f4e5caa7c8771",
+    "checkedAt": "2026-11-16T11:54:15.653Z"
+  },
+  {
+    "id": "component:cult-ui/marketing-feature-code",
+    "url": "/components/preview/?component=marketing-feature-code&theme=light&motion=off",
+    "sha256": "34bfb3ce949f6de006068d6faba0c526267c7e660f69c78c361bf7d28dbd0ace",
+    "checkedAt": "2026-11-16T11:54:16.152Z"
+  },
+  {
+    "id": "component:cult-ui/marketing-hero-analytics",
+    "url": "/components/preview/?component=marketing-hero-analytics&theme=light&motion=off",
+    "sha256": "58e8aba455fc3278d94d844f519fe3f78abdd2660ebb57ef04dec169ea8258c6",
+    "checkedAt": "2026-11-16T11:54:16.669Z"
+  },
+  {
+    "id": "component:cult-ui/merging-bubbles",
+    "url": "/components/preview/?component=merging-bubbles&theme=light&motion=off",
+    "sha256": "65a3fe389431363b53f86b10578c648a4225dcfefdd327163e6e744571b1ce71",
+    "checkedAt": "2026-11-16T11:54:17.203Z"
+  },
+  {
+    "id": "component:cult-ui/metal-button",
+    "url": "/components/preview/?component=metal-button&theme=light&motion=off",
+    "sha256": "12314377afc49f33dd56b28d3d10a1825e92250719e4b39fb892c909731f6cf7",
+    "checkedAt": "2026-11-16T11:54:17.853Z"
+  },
+  {
+    "id": "component:cult-ui/minimal-card",
+    "url": "/components/preview/?component=minimal-card&theme=light&motion=off",
+    "sha256": "021015bd971b0f7768df94676ecbbb878b7ad1fb60e5fe2d1ef78947275ba07e",
+    "checkedAt": "2026-11-16T11:54:18.367Z"
+  },
+  {
+    "id": "component:cult-ui/mock-browser-window",
+    "url": "/components/preview/?component=mock-browser-window&theme=light&motion=off",
+    "sha256": "d6cdbcb20169158543a95f50802474062c2f982435deab9872f1b732280bdfa3",
+    "checkedAt": "2026-11-16T11:54:18.884Z"
+  },
+  {
+    "id": "component:cult-ui/morph-surface",
+    "url": "/components/preview/?component=morph-surface&theme=light&motion=off",
+    "sha256": "3c23259be5850a943c032080bd1d1a0e7fc065f1169919a681598416596bd242",
+    "checkedAt": "2026-11-16T11:54:19.401Z"
+  },
+  {
+    "id": "component:cult-ui/neumorph-button",
+    "url": "/components/preview/?component=neumorph-button&theme=light&motion=off",
+    "sha256": "d5153c3189134f11161241250ec379fd92d080b6234f994f3897a02381e8c102",
+    "checkedAt": "2026-11-16T11:54:19.935Z"
+  },
+  {
+    "id": "component:cult-ui/neumorph-eyebrow",
+    "url": "/components/preview/?component=neumorph-eyebrow&theme=light&motion=off",
+    "sha256": "cec5bba9c17b30ba1c70556c5aeca3718b5f9e8a02f940249382bef59c95105e",
+    "checkedAt": "2026-11-16T11:54:20.433Z"
+  },
+  {
+    "id": "component:cult-ui/onboarding",
+    "url": "/components/preview/?component=onboarding&theme=light&motion=off",
+    "sha256": "0fe48862d6d33568c19b6e4fcdaa78d83657fb5f65fea24714092ef097459b10",
+    "checkedAt": "2026-11-16T11:54:20.950Z"
+  },
+  {
+    "id": "component:cult-ui/organic-button",
+    "url": "/components/preview/?component=organic-button&theme=light&motion=off",
+    "sha256": "9185ed14dba544db5308ee6f06cc16063115e12d4fbf0751d880d9d679392e74",
+    "checkedAt": "2026-11-16T11:54:21.451Z"
+  },
+  {
+    "id": "component:cult-ui/organic-card",
+    "url": "/components/preview/?component=organic-card&theme=light&motion=off",
+    "sha256": "4efaafbc6478990362eaded647eb436378ac0194416e21fd5a0d5d31357f7fea",
+    "checkedAt": "2026-11-16T11:54:21.952Z"
+  },
+  {
+    "id": "component:cult-ui/organic-card-small",
+    "url": "/components/preview/?component=organic-card-small&theme=light&motion=off",
+    "sha256": "0601829f98c8510bf7e67a8924bd840b7ff447beca41d6d54df48b68c440ff7b",
+    "checkedAt": "2026-11-16T11:54:22.472Z"
+  },
+  {
+    "id": "component:cult-ui/pixel-heading-character",
+    "url": "/components/preview/?component=pixel-heading-character&theme=light&motion=off",
+    "sha256": "25f87b0ba4fc6d6a232c289d7878e16edf8c1c7a565cee45e9cf5b3a4352f23b",
+    "checkedAt": "2026-11-16T11:54:23.001Z"
+  },
+  {
+    "id": "component:cult-ui/pixel-heading-word",
+    "url": "/components/preview/?component=pixel-heading-word&theme=light&motion=off",
+    "sha256": "a6517253ac923d40dd0f0735c63c3da942de6d8c5a67404b3fd8e04f4b47fc5d",
+    "checkedAt": "2026-11-16T11:54:23.517Z"
+  },
+  {
+    "id": "component:cult-ui/pixel-paragraph-words",
+    "url": "/components/preview/?component=pixel-paragraph-words&theme=light&motion=off",
+    "sha256": "aedbc8c9d3c6a7335b9bd686a698db6f927089dd6f4364ba9c4b3081c9fb75e7",
+    "checkedAt": "2026-11-16T11:54:24.035Z"
+  },
+  {
+    "id": "component:cult-ui/pixel-paragraph-words-inverse",
+    "url": "/components/preview/?component=pixel-paragraph-words-inverse&theme=light&motion=off",
+    "sha256": "d0d477bb5dcd997b8fd19fe0b18ab17a2ecb1e87cd3d92620fe15ead9a9c0817",
+    "checkedAt": "2026-11-16T11:54:24.552Z"
+  },
+  {
+    "id": "component:cult-ui/poll-widget",
+    "url": "/components/preview/?component=poll-widget&theme=light&motion=off",
+    "sha256": "94af5b8cab7df35fc0499e49c05af16b1443f91f38b773afd7f14909cac06130",
+    "checkedAt": "2026-11-16T11:54:25.051Z"
+  },
+  {
+    "id": "component:cult-ui/popover",
+    "url": "/components/preview/?component=popover&theme=light&motion=off",
+    "sha256": "8ed22c722728bb20b862d025c72abb75efe9b268719cc75b248cf89280ad9a67",
+    "checkedAt": "2026-11-16T11:54:25.566Z"
+  },
+  {
+    "id": "component:cult-ui/popover-form",
+    "url": "/components/preview/?component=popover-form&theme=light&motion=off",
+    "sha256": "46155c8f95cd5aea0e34e57df4b7370e0094db03387b743e27f369f99528ef78",
+    "checkedAt": "2026-11-16T11:54:26.067Z"
+  },
+  {
+    "id": "component:cult-ui/prompt-composer",
+    "url": "/components/preview/?component=prompt-composer&theme=light&motion=off",
+    "sha256": "e40bcea8e884e6e9aa70e22106094df53825aa85115e170db6f39294a49b6f29",
+    "checkedAt": "2026-11-16T11:54:26.601Z"
+  },
+  {
+    "id": "component:cult-ui/prompt-library",
+    "url": "/components/preview/?component=prompt-library&theme=light&motion=off",
+    "sha256": "190dccf4186af6c5472a469480b47991f772c53f8ea65afcd33f88a354b74d10",
+    "checkedAt": "2026-11-16T11:54:27.100Z"
+  },
+  {
+    "id": "component:cult-ui/rolling-number",
+    "url": "/components/preview/?component=rolling-number&theme=light&motion=off",
+    "sha256": "70bae2e41bd9900f084da821abc83795ee85f0350415b5cc0de85bbbc1bd0843",
+    "checkedAt": "2026-11-16T11:54:27.604Z"
+  },
+  {
+    "id": "component:cult-ui/security-checkpoint",
+    "url": "/components/preview/?component=security-checkpoint&theme=light&motion=off",
+    "sha256": "17dc6ae35cb599208bca73f0b724edfc33877403df0b98fe9ce9c508d02e2e87",
+    "checkedAt": "2026-11-16T11:54:28.134Z"
+  },
+  {
+    "id": "component:cult-ui/shader-lens-blur",
+    "url": "/components/preview/?component=shader-lens-blur&theme=light&motion=off",
+    "sha256": "361fb02ae6d6d56152ef40c3460fb0738aa750029c45122c94c826465a123443",
+    "checkedAt": "2026-11-16T11:54:28.683Z"
+  },
+  {
+    "id": "component:cult-ui/shadow-card",
+    "url": "/components/preview/?component=shadow-card&theme=light&motion=off",
+    "sha256": "e2bb96770ee7a2daa189fa78b3b4cea1bf857c558bf56fa0138636220253bbb2",
+    "checkedAt": "2026-11-16T11:54:29.198Z"
+  },
+  {
+    "id": "component:cult-ui/shift-card",
+    "url": "/components/preview/?component=shift-card&theme=light&motion=off",
+    "sha256": "0e2bc7368f399389b5f1d0ede15197f7a7ac7c464571f820e46ecbcb27a15b1b",
+    "checkedAt": "2026-11-16T11:54:29.700Z"
+  },
+  {
+    "id": "component:cult-ui/side-panel",
+    "url": "/components/preview/?component=side-panel&theme=light&motion=off",
+    "sha256": "9fa2b19f5b111be5fabf2c8fc1799cc6b164ab5718774460c9a115796207203f",
+    "checkedAt": "2026-11-16T11:54:30.200Z"
+  },
+  {
+    "id": "component:cult-ui/sortable-list",
+    "url": "/components/preview/?component=sortable-list&theme=light&motion=off",
+    "sha256": "e4629aa4cf5432f8b46c2cb71a96a7d35394882273954c45aa19d4d6ccc8601f",
+    "checkedAt": "2026-11-16T11:54:30.701Z"
+  },
+  {
+    "id": "component:cult-ui/speech-bubble",
+    "url": "/components/preview/?component=speech-bubble&theme=light&motion=off",
+    "sha256": "7b55fda656f46493d4527e0356b982e3587b1ba80dd353cf68b9dcf74ac391b5",
+    "checkedAt": "2026-11-16T11:54:31.199Z"
+  },
+  {
+    "id": "component:cult-ui/squiggle-arrow",
+    "url": "/components/preview/?component=squiggle-arrow&theme=light&motion=off",
+    "sha256": "42a7353cd70c6abdbba1252a388b49de5528a8c7d2f560d65922ae00384f9c89",
+    "checkedAt": "2026-11-16T11:54:31.770Z"
+  },
+  {
+    "id": "component:cult-ui/stripe-bg-guides",
+    "url": "/components/preview/?component=stripe-bg-guides&theme=light&motion=off",
+    "sha256": "3625631dde7920954a71ad88ee10429be9224cda391469a6dc4ecaf43dd04e93",
+    "checkedAt": "2026-11-16T11:54:32.307Z"
+  },
+  {
+    "id": "component:cult-ui/svg-bands",
+    "url": "/components/preview/?component=svg-bands&theme=light&motion=off",
+    "sha256": "d1d57857538dc7a6c12e77274d224cf84c514526e66407419cf46cb87bbe28b1",
+    "checkedAt": "2026-11-16T11:54:32.863Z"
+  },
+  {
+    "id": "component:cult-ui/svg-shapes",
+    "url": "/components/preview/?component=svg-shapes&theme=light&motion=off",
+    "sha256": "1ea46fc166e09780de3c57e3bf189610fa409445ca9073a077f1458486e9cb52",
+    "checkedAt": "2026-11-16T11:54:33.405Z"
+  },
+  {
+    "id": "component:cult-ui/svg-shapes-animated",
+    "url": "/components/preview/?component=svg-shapes-animated&theme=light&motion=off",
+    "sha256": "f7bb40009814b9da173573269ae5ff1952f9e4e59cd3e2f6d2e0893f9dd89f00",
+    "checkedAt": "2026-11-16T11:54:33.951Z"
+  },
+  {
+    "id": "component:cult-ui/terminal-animation",
+    "url": "/components/preview/?component=terminal-animation&theme=light&motion=off",
+    "sha256": "06009fe2976b50a88f0d05f4ee93b63638583c83c2c24784da140eb9325de6bf",
+    "checkedAt": "2026-11-16T11:54:35.537Z"
+  },
+  {
+    "id": "component:cult-ui/text-animate",
+    "url": "/components/preview/?component=text-animate&theme=light&motion=off",
+    "sha256": "8f82c66012a06f3359cb4c77711390869fbe590fad82ef3a4025e485332e465d",
+    "checkedAt": "2026-11-16T11:54:36.101Z"
+  },
+  {
+    "id": "component:cult-ui/text-gif",
+    "url": "/components/preview/?component=text-gif&theme=light&motion=off",
+    "sha256": "2bb17c20792d86581c7d36404e2ccfb3edcfa9dc89a77e655ac5fa79c6954b9c",
+    "checkedAt": "2026-11-16T11:54:36.686Z"
+  },
+  {
+    "id": "component:cult-ui/texture-button",
+    "url": "/components/preview/?component=texture-button&theme=light&motion=off",
+    "sha256": "d284769dd1285d26eb28eabc44e1bd3d183eda9f45c603834c57da43b3179f8e",
+    "checkedAt": "2026-11-16T11:54:37.221Z"
+  },
+  {
+    "id": "component:cult-ui/texture-card",
+    "url": "/components/preview/?component=texture-card&theme=light&motion=off",
+    "sha256": "44631c8acf375b4c88f4d5f2838d46994a1ba7d720f5535fa5b889ea32c9e295",
+    "checkedAt": "2026-11-16T11:54:37.752Z"
+  },
+  {
+    "id": "component:cult-ui/texture-overlay",
+    "url": "/components/preview/?component=texture-overlay&theme=light&motion=off",
+    "sha256": "6d9b7a5bb92371d726909d376bc0e452e5289269f6a5b753a697250af38587c1",
+    "checkedAt": "2026-11-16T11:54:38.268Z"
+  },
+  {
+    "id": "component:cult-ui/three-d-carousel",
+    "url": "/components/preview/?component=three-d-carousel&theme=light&motion=off",
+    "sha256": "e6fc7eb5738fb569237b21e11efd03cc9675b8d5f765df48b306e61ef12f7bc2",
+    "checkedAt": "2026-11-16T11:54:38.785Z"
+  },
+  {
+    "id": "component:cult-ui/timer",
+    "url": "/components/preview/?component=timer&theme=light&motion=off",
+    "sha256": "4b178acbd1f58c7b87fc4329ba8d80e930248030b71bd76ee6fedd320e539deb",
+    "checkedAt": "2026-11-16T11:54:39.301Z"
+  },
+  {
+    "id": "component:cult-ui/toolbar-expandable",
+    "url": "/components/preview/?component=toolbar-expandable&theme=light&motion=off",
+    "sha256": "7d03d1ef1d653f5fde508c47cad7a710050e1deda11e89e1a081b4fd20b250f4",
+    "checkedAt": "2026-11-16T11:54:39.818Z"
+  },
+  {
+    "id": "component:cult-ui/tweet-grid",
+    "url": "/components/preview/?component=tweet-grid&theme=light&motion=off",
+    "sha256": "ddedcbc3ebccdb5d93c03aafae5fc0d3cc9005a96a2a3f3ea5318d095f0f53bd",
+    "checkedAt": "2026-11-16T11:54:40.338Z"
+  },
+  {
+    "id": "component:cult-ui/typewriter",
+    "url": "/components/preview/?component=typewriter&theme=light&motion=off",
+    "sha256": "5b51eab9d3b64cf01679aa17a933df5ba72102a95f2edeee4e7d83c2209b5be7",
+    "checkedAt": "2026-11-16T11:54:40.850Z"
+  },
+  {
+    "id": "component:cult-ui/vote-tally",
+    "url": "/components/preview/?component=vote-tally&theme=light&motion=off",
+    "sha256": "11e75227e253396a7a384c5d9b8f8805199d11bb7049ee1f171683394c229722",
+    "checkedAt": "2026-11-16T11:54:41.368Z"
+  },
+  {
+    "id": "component:cult-ui/wizard-expandable",
+    "url": "/components/preview/?component=wizard-expandable&theme=light&motion=off",
+    "sha256": "3931cb2e8c59cf5831281033ea1bfad37006ebbb165efe2283330f7eaf0ea2e3",
+    "checkedAt": "2026-11-16T11:54:41.873Z"
+  },
+  {
+    "id": "component:cult-ui/youtube-video-player",
+    "url": "/components/preview/?component=youtube-video-player&theme=light&motion=off",
+    "sha256": "12ce1ce4dd37ec9dfa3909c35c24fb24c556e1f0c705d2f29567b963011f0120",
+    "checkedAt": "2026-11-16T11:54:42.385Z"
+  },
+  {
+    "id": "component:glaze-action-receipt",
+    "url": "/systems/preview/?system=glaze&component=action-receipt&theme=light",
+    "sha256": "a0c38a0f00d95588b22cb2c5338211f8a09a39ba1eea7fcc43e86b7861833dc2",
+    "checkedAt": "2026-11-16T11:54:43.573Z"
+  },
+  {
+    "id": "component:glaze-activity",
+    "url": "/systems/preview/?system=glaze&component=activity&theme=light",
+    "sha256": "71729ab404a153108b3de9e3e4aa3f43a4b203479305c30a715ffa63aad37d73",
+    "checkedAt": "2026-11-16T11:54:44.450Z"
+  },
+  {
+    "id": "component:glaze-agent-plan",
+    "url": "/systems/preview/?system=glaze&component=agent-plan&theme=light",
+    "sha256": "1b025f3c81daa37df3aeb75944917b48cb6acedeac1b4af354c5088732db04ed",
+    "checkedAt": "2026-11-16T11:54:45.201Z"
+  },
+  {
+    "id": "component:glaze-agent-procedure",
+    "url": "/systems/preview/?system=glaze&component=agent-procedure&theme=light",
+    "sha256": "d0c11ff0fecf3c14be0997b1270ad53544333fac18e5927f7f8edb72e2305f18",
+    "checkedAt": "2026-11-16T11:54:45.920Z"
+  },
+  {
+    "id": "component:glaze-alert",
+    "url": "/systems/preview/?system=glaze&component=alert&theme=light",
+    "sha256": "f558bdc09332c62edf398b8c308aff0bc7f4a944d7ffbbdb8776cd4983353945",
+    "checkedAt": "2026-11-16T11:54:46.633Z"
+  },
+  {
+    "id": "component:glaze-assistant-limits",
+    "url": "/systems/preview/?system=glaze&component=assistant-limits&theme=light",
+    "sha256": "49dc9826981ede37b4c71d36e2279b9df066f758aba96d27b5e8d6db265b7ab2",
+    "checkedAt": "2026-11-16T11:54:47.369Z"
+  },
+  {
+    "id": "component:glaze-attachment",
+    "url": "/systems/preview/?system=glaze&component=attachment&theme=light",
+    "sha256": "e4cb58a0180008b0f46c366c309f90518259033c26078c02e8dd22d4d542530c",
+    "checkedAt": "2026-11-16T11:54:48.084Z"
+  },
+  {
+    "id": "component:glaze-autonomy-rule",
+    "url": "/systems/preview/?system=glaze&component=autonomy-rule&theme=light",
+    "sha256": "1681187fb455ffd2e20062feede9ed2b31ff6d755aa6449d8e9fca5bc8b02732",
+    "checkedAt": "2026-11-16T11:54:48.800Z"
+  },
+  {
+    "id": "component:glaze-avatar",
+    "url": "/systems/preview/?system=glaze&component=avatar&theme=light",
+    "sha256": "6c2e01740209f20ad657a617522a2677c2de4e485732b9ad8841c26a4d35147a",
+    "checkedAt": "2026-11-16T11:54:49.502Z"
+  },
+  {
+    "id": "component:glaze-badge",
+    "url": "/systems/preview/?system=glaze&component=badge&theme=light",
+    "sha256": "55232c337ca9fcb12c99533f32a4abd9b2a237bc3d48d367c0adb032c622adbf",
+    "checkedAt": "2026-11-16T11:54:50.217Z"
+  },
+  {
+    "id": "component:glaze-booking-approval",
+    "url": "/systems/preview/?system=glaze&component=booking-approval&theme=light",
+    "sha256": "d97a9ee1055f1c5fdacbe2fd78fac8e76588530f19010726b914b6cbe27d8dc5",
+    "checkedAt": "2026-11-16T11:54:50.952Z"
+  },
+  {
+    "id": "component:glaze-breadcrumb",
+    "url": "/systems/preview/?system=glaze&component=breadcrumb&theme=light",
+    "sha256": "51ee22f31b06f38af35bb4053ce6ece1cc11b118bbde5cec898f475ccedd950f",
+    "checkedAt": "2026-11-16T11:54:51.708Z"
+  },
+  {
+    "id": "component:glaze-bulk-action-bar",
+    "url": "/systems/preview/?system=glaze&component=bulk-action-bar&theme=light",
+    "sha256": "fb74ec4bbfc6ddbe925ff8c1b55d2ba884befcff49ed71f3ad0e37451de084a9",
+    "checkedAt": "2026-11-16T11:54:52.489Z"
+  },
+  {
+    "id": "component:glaze-button",
+    "url": "/systems/preview/?system=glaze&component=button&theme=light",
+    "sha256": "e05500f9da092602fb3c7a9c03d1446f26f549bc7513dcb890aeb4f2e1243231",
+    "checkedAt": "2026-11-16T11:54:53.218Z"
+  },
+  {
+    "id": "component:glaze-button-group",
+    "url": "/systems/preview/?system=glaze&component=button-group&theme=light",
+    "sha256": "7542e6ebc1eac25cc4ce45ef1f9f9547f2a89fc227361e1f6a74ec9901baa57b",
+    "checkedAt": "2026-11-16T11:54:53.966Z"
+  },
+  {
+    "id": "component:glaze-card",
+    "url": "/systems/preview/?system=glaze&component=card&theme=light",
+    "sha256": "5c22ae8fa2e8b4ee1780d46e423290fc8cd5c9f21e8d323e8acffd08f2cbb502",
+    "checkedAt": "2026-11-16T11:54:54.666Z"
+  },
+  {
+    "id": "component:glaze-chart",
+    "url": "/systems/preview/?system=glaze&component=chart&theme=light",
+    "sha256": "49f2628d30133afca9dc94dc5df48b9044d34dfcc0e82bab673d55d886d9bced",
+    "checkedAt": "2026-11-16T11:54:55.433Z"
+  },
+  {
+    "id": "component:glaze-checkbox",
+    "url": "/systems/preview/?system=glaze&component=checkbox&theme=light",
+    "sha256": "073b31049701d1feeb6a24e151efc9b1d22cf193c46e06aeb5ddbcb9ab47a53a",
+    "checkedAt": "2026-11-16T11:54:56.166Z"
+  },
+  {
+    "id": "component:glaze-chip",
+    "url": "/systems/preview/?system=glaze&component=chip&theme=light",
+    "sha256": "c70e0bcceb6a1ac797af0a49ba7dac7ab29e1e9c75fb3b766e069f5928332889",
+    "checkedAt": "2026-11-16T11:54:56.884Z"
+  },
+  {
+    "id": "component:glaze-cited-answer",
+    "url": "/systems/preview/?system=glaze&component=cited-answer&theme=light",
+    "sha256": "25e077a327bc5fa051d00175daa597aa2b3f5c05aac3859fd77dd5ac92012f25",
+    "checkedAt": "2026-11-16T11:54:57.601Z"
+  },
+  {
+    "id": "component:glaze-code-block",
+    "url": "/systems/preview/?system=glaze&component=code-block&theme=light",
+    "sha256": "6c47ee9c37593b838a041c7cf18abc547f0f70aadaa625d885698866470e57cb",
+    "checkedAt": "2026-11-16T11:54:58.299Z"
+  },
+  {
+    "id": "component:glaze-collapsible",
+    "url": "/systems/preview/?system=glaze&component=collapsible&theme=light",
+    "sha256": "e5d6fec0813f1996e677868b7674ba14d455314ad39b61c469750363ebe6aae5",
+    "checkedAt": "2026-11-16T11:54:59.032Z"
+  },
+  {
+    "id": "component:glaze-combobox",
+    "url": "/systems/preview/?system=glaze&component=combobox&theme=light",
+    "sha256": "07907cecd86da1b74d34b439ea678a2bfd0d594926b4202984f5a78ec81e18d1",
+    "checkedAt": "2026-11-16T11:54:59.815Z"
+  },
+  {
+    "id": "component:glaze-command",
+    "url": "/systems/preview/?system=glaze&component=command&theme=light",
+    "sha256": "e456f60192fb4590e46196abb0a0b235ce6094102cf219adff8b935cffff6475",
+    "checkedAt": "2026-11-16T11:55:01.133Z"
+  },
+  {
+    "id": "component:glaze-conversation",
+    "url": "/systems/preview/?system=glaze&component=conversation&theme=light",
+    "sha256": "d8cc7b054ad9833769bf6dc8c5dda4adb2ee1b2536c44b4bdba72c86d5e7f0e2",
+    "checkedAt": "2026-11-16T11:55:01.866Z"
+  },
+  {
+    "id": "component:glaze-conversation-insights",
+    "url": "/systems/preview/?system=glaze&component=conversation-insights&theme=light",
+    "sha256": "7142bdc4ad5e1630b6c46c5b51c6aa1f8bf64d46bede7d0f4e8c7e2b5502a302",
+    "checkedAt": "2026-11-16T11:55:02.600Z"
+  },
+  {
+    "id": "component:glaze-copy-button",
+    "url": "/systems/preview/?system=glaze&component=copy-button&theme=light",
+    "sha256": "ceec6a82423c0daf0fbd7b75609eeceecee20ea5ae51764986a4908903c42d15",
+    "checkedAt": "2026-11-16T11:55:03.520Z"
+  },
+  {
+    "id": "component:glaze-data-grid",
+    "url": "/systems/preview/?system=glaze&component=data-grid&theme=light",
+    "sha256": "6c144ae17bb503e4712934bd2778eee35d1643fc2f20a36b8d77de2fc92e60a9",
+    "checkedAt": "2026-11-16T11:55:04.299Z"
+  },
+  {
+    "id": "component:glaze-data-list",
+    "url": "/systems/preview/?system=glaze&component=data-list&theme=light",
+    "sha256": "01e2e945b8477eabc920cf9256e028cd199a3dcfce0d57008d59b093c777d2af",
+    "checkedAt": "2026-11-16T11:55:05.033Z"
+  },
+  {
+    "id": "component:glaze-date-picker",
+    "url": "/systems/preview/?system=glaze&component=date-picker&theme=light",
+    "sha256": "c9e2f5fe4a433ced73c4e899807441f7e58da02ad5f52a817ebaa12160b1ab01",
+    "checkedAt": "2026-11-16T11:55:05.782Z"
+  },
+  {
+    "id": "component:glaze-dialog",
+    "url": "/systems/preview/?system=glaze&component=dialog&theme=light",
+    "sha256": "9f4dfeb0cc034ebe1a145b07333b6f7e447de5e232b481cab78fb950fc72af1d",
+    "checkedAt": "2026-11-16T11:55:06.466Z"
+  },
+  {
+    "id": "component:glaze-dropdown-menu",
+    "url": "/systems/preview/?system=glaze&component=dropdown-menu&theme=light",
+    "sha256": "04c89aa165fd6ed90c17ebd6b43a73a126a58eb5c281deb594ebcc6445d7e660",
+    "checkedAt": "2026-11-16T11:55:07.152Z"
+  },
+  {
+    "id": "component:glaze-empty-state",
+    "url": "/systems/preview/?system=glaze&component=empty-state&theme=light",
+    "sha256": "9c8faf6e4ed36af6212ac8f11893f80274c58c66a57197a11ae024c6fead82de",
+    "checkedAt": "2026-11-16T11:55:07.903Z"
+  },
+  {
+    "id": "component:glaze-experiment",
+    "url": "/systems/preview/?system=glaze&component=experiment&theme=light",
+    "sha256": "9a5cb6ae0a32a1119f989a1890beee691f713aa1c6dde17dea879a26a7cd16c4",
+    "checkedAt": "2026-11-16T11:55:08.607Z"
+  },
+  {
+    "id": "component:glaze-field",
+    "url": "/systems/preview/?system=glaze&component=field&theme=light",
+    "sha256": "60c7dd76ca5b319ed2c1f17e88f5f66a6b099f01b658a962ac04abfda599b9d3",
+    "checkedAt": "2026-11-16T11:55:09.299Z"
+  },
+  {
+    "id": "component:glaze-filter-bar",
+    "url": "/systems/preview/?system=glaze&component=filter-bar&theme=light",
+    "sha256": "d178a7df131889a0efdce98b78c6933908d75e5b62b756cdd06d3b9eb3847404",
+    "checkedAt": "2026-11-16T11:55:09.982Z"
+  },
+  {
+    "id": "component:glaze-follow-ups",
+    "url": "/systems/preview/?system=glaze&component=follow-ups&theme=light",
+    "sha256": "e6d6a14fdf8604162978d3bb8b1a2953482c93fe2178d98e832aa9007fbcfd0f",
+    "checkedAt": "2026-11-16T11:55:10.649Z"
+  },
+  {
+    "id": "component:glaze-icon",
+    "url": "/systems/preview/?system=glaze&component=icon&theme=light",
+    "sha256": "aba667503feebd968ea92f2d19ea45d80cd0f6751daa1519b25ba7829bf1b58f",
+    "checkedAt": "2026-11-16T11:55:11.368Z"
+  },
+  {
+    "id": "component:glaze-input",
+    "url": "/systems/preview/?system=glaze&component=input&theme=light",
+    "sha256": "a49172afa08ac7e8544d077bcce91d7bf3382e5dbacb9d2e304e49e9d3dabf02",
+    "checkedAt": "2026-11-16T11:55:12.116Z"
+  },
+  {
+    "id": "component:glaze-item",
+    "url": "/systems/preview/?system=glaze&component=item&theme=light",
+    "sha256": "a489601cd59235914c6915cac4b04aea98e6f478a612520cd2feb52ff4cab62a",
+    "checkedAt": "2026-11-16T11:55:12.800Z"
+  },
+  {
+    "id": "component:glaze-json-view",
+    "url": "/systems/preview/?system=glaze&component=json-view&theme=light",
+    "sha256": "4cdb17add6776ebae1c579aa1f0d735dc644cf71f77738fa6297c484bb51f1f1",
+    "checkedAt": "2026-11-16T11:55:13.499Z"
+  },
+  {
+    "id": "component:glaze-kbd",
+    "url": "/systems/preview/?system=glaze&component=kbd&theme=light",
+    "sha256": "b98d4bb727e8d447a348130ade766ca1cc4a0bece271075b258aa9a2769fb382",
+    "checkedAt": "2026-11-16T11:55:14.308Z"
+  },
+  {
+    "id": "component:glaze-log-viewer",
+    "url": "/systems/preview/?system=glaze&component=log-viewer&theme=light",
+    "sha256": "e714ddf83a0a82246770306bdd8cdf6d533d3e50b785297adcab6246fa157788",
+    "checkedAt": "2026-11-16T11:55:15.081Z"
+  },
+  {
+    "id": "component:glaze-mention",
+    "url": "/systems/preview/?system=glaze&component=mention&theme=light",
+    "sha256": "a848a25e820bb5f4b90a2587471ea99765336a94200be5714ffec73a3801b977",
+    "checkedAt": "2026-11-16T11:55:15.797Z"
+  },
+  {
+    "id": "component:glaze-message",
+    "url": "/systems/preview/?system=glaze&component=message&theme=light",
+    "sha256": "be11c95d44dc157ac99781d26ff91eb83c109c92d38c1101cb34ff7852c8694b",
+    "checkedAt": "2026-11-16T11:55:16.498Z"
+  },
+  {
+    "id": "component:glaze-note-recap",
+    "url": "/systems/preview/?system=glaze&component=note-recap&theme=light",
+    "sha256": "f2e501d633ce01ca8574da08982cf04320775893a6a2fcf28b5d88cc30a729f9",
+    "checkedAt": "2026-11-16T11:55:17.199Z"
+  },
+  {
+    "id": "component:glaze-number-input",
+    "url": "/systems/preview/?system=glaze&component=number-input&theme=light",
+    "sha256": "691a2378a264d9bc204fb265038917555a0a77261b9584f043a05a1225da2342",
+    "checkedAt": "2026-11-16T11:55:17.914Z"
+  },
+  {
+    "id": "component:glaze-otp-input",
+    "url": "/systems/preview/?system=glaze&component=otp-input&theme=light",
+    "sha256": "c60f9761436c153952ca8fb960f3f208ec605b9c32ce91970208ff0f105caf13",
+    "checkedAt": "2026-11-16T11:55:18.631Z"
+  },
+  {
+    "id": "component:glaze-pagination",
+    "url": "/systems/preview/?system=glaze&component=pagination&theme=light",
+    "sha256": "e3cdef856142057c8abf888a17b2a2cbd3ddab617c722459c720316e3c49f793",
+    "checkedAt": "2026-11-16T11:55:19.381Z"
+  },
+  {
+    "id": "component:glaze-panel",
+    "url": "/systems/preview/?system=glaze&component=panel&theme=light",
+    "sha256": "de5fbd634cae5e5caa95e84ed3d6624215c462e04eba72397ae8844270734303",
+    "checkedAt": "2026-11-16T11:55:20.106Z"
+  },
+  {
+    "id": "component:glaze-popover",
+    "url": "/systems/preview/?system=glaze&component=popover&theme=light",
+    "sha256": "6af540aca11ec0660829fb788c62b021db2e0a114f3bcc1425ef6029d813cb5e",
+    "checkedAt": "2026-11-16T11:55:20.915Z"
+  },
+  {
+    "id": "component:glaze-progress",
+    "url": "/systems/preview/?system=glaze&component=progress&theme=light",
+    "sha256": "7c42e8c3770e7e9b270b39072d2f254dcc3665e2596ff847cf17681d8e54246a",
+    "checkedAt": "2026-11-16T11:55:21.598Z"
+  },
+  {
+    "id": "component:glaze-prompt-input",
+    "url": "/systems/preview/?system=glaze&component=prompt-input&theme=light",
+    "sha256": "ecfd68f519e9f3d7fe3067eacdf929b8738d849418d3d35eb772a71a79188dca",
+    "checkedAt": "2026-11-16T11:55:22.331Z"
+  },
+  {
+    "id": "component:glaze-radio-group",
+    "url": "/systems/preview/?system=glaze&component=radio-group&theme=light",
+    "sha256": "35c1cae3c3d4e06d52a2f45d4cc785d25fd211149d91da57c9df46dde41c21cc",
+    "checkedAt": "2026-11-16T11:55:23.070Z"
+  },
+  {
+    "id": "component:glaze-reasoning",
+    "url": "/systems/preview/?system=glaze&component=reasoning&theme=light",
+    "sha256": "840a354c380cdc8676e699b2c536271abe45c8bfa46f68f921439c4e39fe0973",
+    "checkedAt": "2026-11-16T11:55:23.781Z"
+  },
+  {
+    "id": "component:glaze-relative-time",
+    "url": "/systems/preview/?system=glaze&component=relative-time&theme=light",
+    "sha256": "b5868a5ca871360ab05eff62180037a75b215a2e3a7465b6427135905d5be2cd",
+    "checkedAt": "2026-11-16T11:55:24.480Z"
+  },
+  {
+    "id": "component:glaze-response",
+    "url": "/systems/preview/?system=glaze&component=response&theme=light",
+    "sha256": "25fea87b0be81437342ddb8554e2d54d158a67342964027b20f25d7edc490ecf",
+    "checkedAt": "2026-11-16T11:55:25.166Z"
+  },
+  {
+    "id": "component:glaze-segmented-control",
+    "url": "/systems/preview/?system=glaze&component=segmented-control&theme=light",
+    "sha256": "f074f78b6514efc2b9a8fe0d27ec921908d88e3d3951d2b82f6c4f754a4ad82c",
+    "checkedAt": "2026-11-16T11:55:25.867Z"
+  },
+  {
+    "id": "component:glaze-select",
+    "url": "/systems/preview/?system=glaze&component=select&theme=light",
+    "sha256": "4943bf718cb1781a8aa144420eb255ef13bb4d99ff1eac54dba78896e4e5b22f",
+    "checkedAt": "2026-11-16T11:55:26.581Z"
+  },
+  {
+    "id": "component:glaze-send-button",
+    "url": "/systems/preview/?system=glaze&component=send-button&theme=light",
+    "sha256": "c7db21f87debb41040e09492220f996477d5620f0b756bed10eebabf6bfe2fc8",
+    "checkedAt": "2026-11-16T11:55:27.298Z"
+  },
+  {
+    "id": "component:glaze-sheet",
+    "url": "/systems/preview/?system=glaze&component=sheet&theme=light",
+    "sha256": "0a0751ee7d46cc38b2471ee52fb493f6308f2c810ea5c17f63f9fa6d48561c4e",
+    "checkedAt": "2026-11-16T11:55:27.980Z"
+  },
+  {
+    "id": "component:glaze-simulations",
+    "url": "/systems/preview/?system=glaze&component=simulations&theme=light",
+    "sha256": "508e4ecfba0bc5a39f62ab06fb267f74c363a1c96950079d7a8e34def2dd61f1",
+    "checkedAt": "2026-11-16T11:55:28.692Z"
+  },
+  {
+    "id": "component:glaze-skeleton",
+    "url": "/systems/preview/?system=glaze&component=skeleton&theme=light",
+    "sha256": "656bc6c6a6eb4bb35213afbee4682b4b4790fd88ae9b30b1d575f0edce839b39",
+    "checkedAt": "2026-11-16T11:55:29.365Z"
+  },
+  {
+    "id": "component:glaze-slider",
+    "url": "/systems/preview/?system=glaze&component=slider&theme=light",
+    "sha256": "e69e0a642c0a077b5b15b1813e9b7b56b54f617bf72f16e92a999ac0a27db430",
+    "checkedAt": "2026-11-16T11:55:30.065Z"
+  },
+  {
+    "id": "component:glaze-status",
+    "url": "/systems/preview/?system=glaze&component=status&theme=light",
+    "sha256": "cdacdb834ee285f63cb75cab58cdd329f1edbd94f44743e0660a868c0bae8f63",
+    "checkedAt": "2026-11-16T11:55:30.749Z"
+  },
+  {
+    "id": "component:glaze-steps",
+    "url": "/systems/preview/?system=glaze&component=steps&theme=light",
+    "sha256": "d2578f884a57e0abfab0fe7c3dc45a4b8d2dd01b09f605dbe9a1b89f4a3c9e4c",
+    "checkedAt": "2026-11-16T11:55:31.465Z"
+  },
+  {
+    "id": "component:glaze-tabs",
+    "url": "/systems/preview/?system=glaze&component=tabs&theme=light",
+    "sha256": "4f7b6e9bca432d7f8c6eb1cabef496de33fe295d34401990dd585e7b52ea743f",
+    "checkedAt": "2026-11-16T11:55:33.222Z"
+  },
+  {
+    "id": "component:glaze-textarea",
+    "url": "/systems/preview/?system=glaze&component=textarea&theme=light",
+    "sha256": "1a1c685f927822fbb4316a7d4862d4b1dad7ae12ecaa3d66be547eec715a62db",
+    "checkedAt": "2026-11-16T11:55:33.948Z"
+  },
+  {
+    "id": "component:glaze-timeline",
+    "url": "/systems/preview/?system=glaze&component=timeline&theme=light",
+    "sha256": "afdcdc8fce55e5bae70b3cc0e48f498bc4023b1d81b0e0a10106cf30a1975ac7",
+    "checkedAt": "2026-11-16T11:55:34.681Z"
+  },
+  {
+    "id": "component:glaze-toast",
+    "url": "/systems/preview/?system=glaze&component=toast&theme=light",
+    "sha256": "5c230dfe80b446fa32a9fb1d2c3120b030b16f83eb5f442a31e98458924f8f47",
+    "checkedAt": "2026-11-16T11:55:35.367Z"
+  },
+  {
+    "id": "component:glaze-today",
+    "url": "/systems/preview/?system=glaze&component=today&theme=light",
+    "sha256": "18c45933cb5c6b413b6e80803946750f126061d29dcdf46b4b2eb003d129e29e",
+    "checkedAt": "2026-11-16T11:55:36.166Z"
+  },
+  {
+    "id": "component:glaze-toolbar",
+    "url": "/systems/preview/?system=glaze&component=toolbar&theme=light",
+    "sha256": "c862b688d8aa1ab60ef1a4f21098bbb614573e72ea481fc163acee51c7303a9d",
+    "checkedAt": "2026-11-16T11:56:08.083Z"
+  },
+  {
+    "id": "component:glaze-tooltip",
+    "url": "/systems/preview/?system=glaze&component=tooltip&theme=light",
+    "sha256": "72c9301512e4f0887a53754c518b9658944ba352272be6886b1c0d98c80ea2ab",
+    "checkedAt": "2026-11-16T11:56:08.835Z"
+  },
+  {
+    "id": "component:glaze-truncate",
+    "url": "/systems/preview/?system=glaze&component=truncate&theme=light",
+    "sha256": "14c324f5bc9867770176dff8ebe73c8f41c0e4eee6d539a11ccc4796825cc611",
+    "checkedAt": "2026-11-16T11:56:09.550Z"
+  },
+  {
+    "id": "component:glaze-voice-capture",
+    "url": "/systems/preview/?system=glaze&component=voice-capture&theme=light",
+    "sha256": "93116524e210fef7591f080de6d63f259992ea5ac88ce4b5a0d0e3459d03ada5",
+    "checkedAt": "2026-11-16T11:56:10.305Z"
+  },
+  {
+    "id": "component:lime-accordion",
+    "url": "/systems/preview/?system=lime&component=accordion&theme=light",
+    "sha256": "66dc5baf71ef20c3ac29ee390742504d8ef14bfce465a363f8b7c3f05aa72977",
+    "checkedAt": "2026-11-16T11:56:10.816Z"
+  },
+  {
+    "id": "component:lime-action-receipt",
+    "url": "/systems/preview/?system=lime&component=action-receipt&theme=light",
+    "sha256": "f55e09c8226cc06f3ea716c7d24a76b6e270fd4986c1c8c4e58934004d0de8d7",
+    "checkedAt": "2026-11-16T11:56:11.051Z"
+  },
+  {
+    "id": "component:lime-alert-dialog",
+    "url": "/systems/preview/?system=lime&component=alert-dialog&theme=light",
+    "sha256": "4c2894cc180039287e699d80419e49286294c4f559f103bb4276fa5b3caea214",
+    "checkedAt": "2026-11-16T11:56:11.847Z"
+  },
+  {
+    "id": "component:lime-amount",
+    "url": "/systems/preview/?system=lime&component=amount&theme=light",
+    "sha256": "b3ceade4251350856e8756a85ddddb8b447b16319ca3d9ff79cffcc0746faa52",
+    "checkedAt": "2026-11-16T11:56:12.098Z"
+  },
+  {
+    "id": "component:lime-approval-request",
+    "url": "/systems/preview/?system=lime&component=approval-request&theme=light",
+    "sha256": "e3df21df92c586df40b99a4895865bed48c841b9662718c27f6b000f4bae903c",
+    "checkedAt": "2026-11-16T11:56:12.348Z"
+  },
+  {
+    "id": "component:lime-assistant-alert",
+    "url": "/systems/preview/?system=lime&component=assistant-alert&theme=light",
+    "sha256": "e5a208737b3495853cfedaa8c5b59b1197676f98cdb2a9f6c7f0aceb54a83d28",
+    "checkedAt": "2026-11-16T11:56:12.599Z"
+  },
+  {
+    "id": "component:lime-assistant-approval",
+    "url": "/systems/preview/?system=lime&component=assistant-approval&theme=light",
+    "sha256": "2589c99cb951e70a4d9315e2d0e753c0f26815e56bb08c4036989c520af86323",
+    "checkedAt": "2026-11-16T11:56:12.851Z"
+  },
+  {
+    "id": "component:lime-autonomy-rule",
+    "url": "/systems/preview/?system=lime&component=autonomy-rule&theme=light",
+    "sha256": "ebfa29dfc246c2af273ae6cb5af5e05882fd184cbbc85aef9c58d0408676ac97",
+    "checkedAt": "2026-11-16T11:56:13.097Z"
+  },
+  {
+    "id": "component:lime-avatar",
+    "url": "/systems/preview/?system=lime&component=avatar&theme=light",
+    "sha256": "1a5822bde83d71271ecf44a5c0bb9bbbaa780abafcd78ac4861b5d1e9b34460d",
+    "checkedAt": "2026-11-16T11:56:13.320Z"
+  },
+  {
+    "id": "component:lime-badge",
+    "url": "/systems/preview/?system=lime&component=badge&theme=light",
+    "sha256": "47b7fe4ef531230ae2ec56e79427032a24b8a4ba13c6acd3e1c7582dbaede3a2",
+    "checkedAt": "2026-11-16T11:56:13.555Z"
+  },
+  {
+    "id": "component:lime-balance",
+    "url": "/systems/preview/?system=lime&component=balance&theme=light",
+    "sha256": "e4e5dec71c670d00ec444c30ab1132a8c982a34131d785ea3e8dee5658ac9307",
+    "checkedAt": "2026-11-16T11:56:13.804Z"
+  },
+  {
+    "id": "component:lime-bill-schedule",
+    "url": "/systems/preview/?system=lime&component=bill-schedule&theme=light",
+    "sha256": "64d28efead7e84e8acd7511b3c3be060d0578d95956091ee22885e44fce07c2c",
+    "checkedAt": "2026-11-16T11:56:14.046Z"
+  },
+  {
+    "id": "component:lime-button",
+    "url": "/systems/preview/?system=lime&component=button&theme=light",
+    "sha256": "317b08a30e75fde06637a7aad53cda233256c2635a2594c9aa4d177125de504e",
+    "checkedAt": "2026-11-16T11:56:14.301Z"
+  },
+  {
+    "id": "component:lime-card",
+    "url": "/systems/preview/?system=lime&component=card&theme=light",
+    "sha256": "17d4d373b3517eae138d593b8e5cba5c4222ed18e0de79a990e4b6cae436b031",
+    "checkedAt": "2026-11-16T11:56:14.521Z"
+  },
+  {
+    "id": "component:lime-chat-input",
+    "url": "/systems/preview/?system=lime&component=chat-input&theme=light",
+    "sha256": "0bcd22ce9eb489da2278175dc19b4aa166ff6c4e6a683e4ddc16c41e51b0f786",
+    "checkedAt": "2026-11-16T11:56:14.764Z"
+  },
+  {
+    "id": "component:lime-checkbox",
+    "url": "/systems/preview/?system=lime&component=checkbox&theme=light",
+    "sha256": "c8cfbdd10052130ef4e86bedc097ab56a095b183a2f75d596434b61e2fafc023",
+    "checkedAt": "2026-11-16T11:56:14.998Z"
+  },
+  {
+    "id": "component:lime-chip",
+    "url": "/systems/preview/?system=lime&component=chip&theme=light",
+    "sha256": "730f33a18f24485d8ca6432e47173bfce5ba471973afca47d1d51dba31603016",
+    "checkedAt": "2026-11-16T11:56:15.265Z"
+  },
+  {
+    "id": "component:lime-collapsible",
+    "url": "/systems/preview/?system=lime&component=collapsible&theme=light",
+    "sha256": "c1ca8c69bbd426ae7eb3185df052ff3186eb8aaf1765650d973b7f39f2b53ac5",
+    "checkedAt": "2026-11-16T11:56:15.540Z"
+  },
+  {
+    "id": "component:lime-combobox",
+    "url": "/systems/preview/?system=lime&component=combobox&theme=light",
+    "sha256": "4a21b455b62d4205a53d9d742a3d604b655b01a66ce07842027779f39801dbde",
+    "checkedAt": "2026-11-16T11:56:15.814Z"
+  },
+  {
+    "id": "component:lime-copy-button",
+    "url": "/systems/preview/?system=lime&component=copy-button&theme=light",
+    "sha256": "05361c92c1723897090325b055e69822efa21a6001ec49db54240cc76c80ae14",
+    "checkedAt": "2026-11-16T11:56:16.053Z"
+  },
+  {
+    "id": "component:lime-dialog",
+    "url": "/systems/preview/?system=lime&component=dialog&theme=light",
+    "sha256": "2132ba0b2cf2d45a9954ca17c9fcf44c85f370c41290463d07edb7d1898e55a7",
+    "checkedAt": "2026-11-16T11:56:16.287Z"
+  },
+  {
+    "id": "component:lime-dropdown-menu",
+    "url": "/systems/preview/?system=lime&component=dropdown-menu&theme=light",
+    "sha256": "1eb79ee52b1826f99d474ece324f26cc5f38cba88cf4f8368aad2b74cede4588",
+    "checkedAt": "2026-11-16T11:56:16.529Z"
+  },
+  {
+    "id": "component:lime-dropzone",
+    "url": "/systems/preview/?system=lime&component=dropzone&theme=light",
+    "sha256": "395bd41bf99cee8d6a46cd8911fe282d7e86e14362b23f94527ff7bfcc253363",
+    "checkedAt": "2026-11-16T11:56:16.781Z"
+  },
+  {
+    "id": "component:lime-empty",
+    "url": "/systems/preview/?system=lime&component=empty&theme=light",
+    "sha256": "a28c2b4c66294043a655d8f6d9ab9a493b77f436600e2909781d4d44bcfa5704",
+    "checkedAt": "2026-11-16T11:56:17.031Z"
+  },
+  {
+    "id": "component:lime-error-state",
+    "url": "/systems/preview/?system=lime&component=error-state&theme=light",
+    "sha256": "db037330c5d4907d3c17e7183aec312f3635cbd2e804ec117c64c328043655cd",
+    "checkedAt": "2026-11-16T11:56:17.269Z"
+  },
+  {
+    "id": "component:lime-field",
+    "url": "/systems/preview/?system=lime&component=field&theme=light",
+    "sha256": "5c43447816cee9ea6a447f195ed1804cfbcf30ba2cfc6a559c7f58d48d463426",
+    "checkedAt": "2026-11-16T11:56:17.514Z"
+  },
+  {
+    "id": "component:lime-follow-ups",
+    "url": "/systems/preview/?system=lime&component=follow-ups&theme=light",
+    "sha256": "913fde470f1700f17b1d575bea71fd5e15d67fb3aa84773a6f946f685a1f1629",
+    "checkedAt": "2026-11-16T11:56:17.742Z"
+  },
+  {
+    "id": "component:lime-home",
+    "url": "/systems/preview/?system=lime&component=home&theme=light",
+    "sha256": "4fc6d1c325df1c03a6f77d3cd4694492f9079e405e82ea473c97206838c162ce",
+    "checkedAt": "2026-11-16T11:56:18.006Z"
+  },
+  {
+    "id": "component:lime-icon",
+    "url": "/systems/preview/?system=lime&component=icon&theme=light",
+    "sha256": "4cc6698cd0dad59d8f94f336e3cae4eafe31a9a9c98771383e9d502083340f40",
+    "checkedAt": "2026-11-16T11:56:18.252Z"
+  },
+  {
+    "id": "component:lime-input",
+    "url": "/systems/preview/?system=lime&component=input&theme=light",
+    "sha256": "601d52885cb6d151ab3b28aa6e3d1f37440ca5d806327a133dcb72c8e3d90a1a",
+    "checkedAt": "2026-11-16T11:56:18.498Z"
+  },
+  {
+    "id": "component:lime-insight",
+    "url": "/systems/preview/?system=lime&component=insight&theme=light",
+    "sha256": "f8f3964db94561536c954fd4043d82c8a4fe7241fd62bb6e7940dcf99073747d",
+    "checkedAt": "2026-11-16T11:56:18.744Z"
+  },
+  {
+    "id": "component:lime-keypad",
+    "url": "/systems/preview/?system=lime&component=keypad&theme=light",
+    "sha256": "f19385528ad16db457d2e2a1e58c445d3f9e2d21dbb9ed75683ecd4fdc64ab2d",
+    "checkedAt": "2026-11-16T11:56:18.996Z"
+  },
+  {
+    "id": "component:lime-list",
+    "url": "/systems/preview/?system=lime&component=list&theme=light",
+    "sha256": "b33f5d4237b797bb6015c76e78454bbaedd26bcc7472e382306c475639cabc4f",
+    "checkedAt": "2026-11-16T11:56:19.234Z"
+  },
+  {
+    "id": "component:lime-list-item-menu",
+    "url": "/systems/preview/?system=lime&component=list-item-menu&theme=light",
+    "sha256": "04bb512311b4c1201f863cbd5718b3b3cc1b8948db82b4011172341f23fdb0b2",
+    "checkedAt": "2026-11-16T11:56:19.625Z"
+  },
+  {
+    "id": "component:lime-message",
+    "url": "/systems/preview/?system=lime&component=message&theme=light",
+    "sha256": "6434ac24d038e29ea7d994558a33d9fe4e592a4076bd532ddd7a45d54931f5ec",
+    "checkedAt": "2026-11-16T11:56:19.897Z"
+  },
+  {
+    "id": "component:lime-popover",
+    "url": "/systems/preview/?system=lime&component=popover&theme=light",
+    "sha256": "4a3fe31f835f22f3f8c7f1cdff40036a347d28f38e681f6bce999fdb882bdb62",
+    "checkedAt": "2026-11-16T11:56:20.135Z"
+  },
+  {
+    "id": "component:lime-progress",
+    "url": "/systems/preview/?system=lime&component=progress&theme=light",
+    "sha256": "ebf79ad7e17be82e466bb1e5746fef7ae3ba880b0ca1011e0b00401c504c9307",
+    "checkedAt": "2026-11-16T11:56:20.380Z"
+  },
+  {
+    "id": "component:lime-radio",
+    "url": "/systems/preview/?system=lime&component=radio&theme=light",
+    "sha256": "ebbd9e2ebd3699609587e07f53be9fca4a9a5ba58e243c24f2c302087b74bd8d",
+    "checkedAt": "2026-11-16T11:56:20.646Z"
+  },
+  {
+    "id": "component:lime-receipt-match",
+    "url": "/systems/preview/?system=lime&component=receipt-match&theme=light",
+    "sha256": "f590949f9d00996a842edc5613c4f128ebe81aeef016f83088349621de75a01a",
+    "checkedAt": "2026-11-16T11:56:20.888Z"
+  },
+  {
+    "id": "component:lime-scroll-area",
+    "url": "/systems/preview/?system=lime&component=scroll-area&theme=light",
+    "sha256": "5be9f0bcf94e421711971f0e24f502e513e6d59560fc0df45eaedf627c41b89a",
+    "checkedAt": "2026-11-16T11:56:21.130Z"
+  },
+  {
+    "id": "component:lime-segmented",
+    "url": "/systems/preview/?system=lime&component=segmented&theme=light",
+    "sha256": "c0d2087f07c0b02313f57d48476a39d1f2e8f817e859a2ad87cd22b41b6a73f7",
+    "checkedAt": "2026-11-16T11:56:21.380Z"
+  },
+  {
+    "id": "component:lime-select",
+    "url": "/systems/preview/?system=lime&component=select&theme=light",
+    "sha256": "0b52ef9741d3d667cd4c759220bbc4cea933531cf713b5e2ca1577faf0269bef",
+    "checkedAt": "2026-11-16T11:56:21.614Z"
+  },
+  {
+    "id": "component:lime-separator",
+    "url": "/systems/preview/?system=lime&component=separator&theme=light",
+    "sha256": "9c7b09462ead36c24b692a34681cd8c6293c681372f49d3644ed2c29117e5e05",
+    "checkedAt": "2026-11-16T11:56:21.851Z"
+  },
+  {
+    "id": "component:lime-settings-rules",
+    "url": "/systems/preview/?system=lime&component=settings-rules&theme=light",
+    "sha256": "58b9cd0c63bc8186fcee9b6b45f3ea0669a64797b1e59c0824fe663c8fc9252d",
+    "checkedAt": "2026-11-16T11:56:22.097Z"
+  },
+  {
+    "id": "component:lime-sheet",
+    "url": "/systems/preview/?system=lime&component=sheet&theme=light",
+    "sha256": "1b38a4c12f263e53b96e33aa3f46f22585fb4e505646adf825a9d4e263bec5ea",
+    "checkedAt": "2026-11-16T11:56:22.347Z"
+  },
+  {
+    "id": "component:lime-skeleton",
+    "url": "/systems/preview/?system=lime&component=skeleton&theme=light",
+    "sha256": "36ca922bf170d55cce79410b4f3202a729c4b345f1906be3529cabb6484011ad",
+    "checkedAt": "2026-11-16T11:56:22.571Z"
+  },
+  {
+    "id": "component:lime-slider",
+    "url": "/systems/preview/?system=lime&component=slider&theme=light",
+    "sha256": "b60de38402b6bcf8bbe020c79da0cc6e02a8fca4c8ac4b8b97959a7887ff2adb",
+    "checkedAt": "2026-11-16T11:56:22.814Z"
+  },
+  {
+    "id": "component:lime-split-request",
+    "url": "/systems/preview/?system=lime&component=split-request&theme=light",
+    "sha256": "f2d0efbf23a6f779ce8bd1c06d92e361b352d1e8aa1eb748a2f1e518e8ccf1a1",
+    "checkedAt": "2026-11-16T11:56:23.055Z"
+  },
+  {
+    "id": "component:lime-status",
+    "url": "/systems/preview/?system=lime&component=status&theme=light",
+    "sha256": "6e62669a867868feea33551319936b213f70d113ea04e97a0abd9bf531512267",
+    "checkedAt": "2026-11-16T11:56:23.286Z"
+  },
+  {
+    "id": "component:lime-switch",
+    "url": "/systems/preview/?system=lime&component=switch&theme=light",
+    "sha256": "9bfbaedfbe94f452a228577f1749804974900330cf45d1722f0a20f274611f86",
+    "checkedAt": "2026-11-16T11:56:23.530Z"
+  },
+  {
+    "id": "component:lime-table",
+    "url": "/systems/preview/?system=lime&component=table&theme=light",
+    "sha256": "0e26b5ea65321752980ea93e4dc86073ae4563dbdba3930be51e0c60c784fbf3",
+    "checkedAt": "2026-11-16T11:56:23.751Z"
+  },
+  {
+    "id": "component:lime-tabs",
+    "url": "/systems/preview/?system=lime&component=tabs&theme=light",
+    "sha256": "1db2ff8ca238527312d1a0b5a6dacf0d1d151aaefb6c3042ef58c9043162999e",
+    "checkedAt": "2026-11-16T11:56:23.983Z"
+  },
+  {
+    "id": "component:lime-textarea",
+    "url": "/systems/preview/?system=lime&component=textarea&theme=light",
+    "sha256": "339e41a9b18275f0b0d6a3fcc0cc8f786a586b984e24ba50720e1a76aef8c040",
+    "checkedAt": "2026-11-16T11:56:24.231Z"
+  },
+  {
+    "id": "component:lime-toast",
+    "url": "/systems/preview/?system=lime&component=toast&theme=light",
+    "sha256": "f77e3bfa89474db764308c060d0e74c27199418a1a8fd1d316ebbef1d4dc04b5",
+    "checkedAt": "2026-11-16T11:56:24.469Z"
+  },
+  {
+    "id": "component:lime-tool-call",
+    "url": "/systems/preview/?system=lime&component=tool-call&theme=light",
+    "sha256": "ca0c5820ee2d3f62cf1e368e58233fa11fa7a171d511b2f1b88025faf3448478",
+    "checkedAt": "2026-11-16T11:56:24.716Z"
+  },
+  {
+    "id": "component:lime-toolbar",
+    "url": "/systems/preview/?system=lime&component=toolbar&theme=light",
+    "sha256": "fbae131b09b32b7e5bc1787582b3c786f5928f3187ba2529f9a7285339affb07",
+    "checkedAt": "2026-11-16T11:56:24.949Z"
+  },
+  {
+    "id": "component:lime-tooltip",
+    "url": "/systems/preview/?system=lime&component=tooltip&theme=light",
+    "sha256": "adbebe9787cb51bf1f59fbc20767958d936c937b0fcda5b0eed22f97c132b653",
+    "checkedAt": "2026-11-16T11:56:25.184Z"
+  },
+  {
+    "id": "component:meridian-clay-accordion",
+    "url": "/systems/preview/?system=meridian-clay&component=accordion&theme=light",
+    "sha256": "883f52a5d9251ac8b509cffba3974b879bb2808d217886130561c812b2280bb4",
+    "checkedAt": "2026-11-16T11:56:25.446Z"
+  },
+  {
+    "id": "component:meridian-clay-action-receipt",
+    "url": "/systems/preview/?system=meridian-clay&component=action-receipt&theme=light",
+    "sha256": "d65e57b21f8a99aea29b95112b671e34ac3933c26390bb24735f0d2c707443e5",
+    "checkedAt": "2026-11-16T11:56:25.683Z"
+  },
+  {
+    "id": "component:meridian-clay-alert-dialog",
+    "url": "/systems/preview/?system=meridian-clay&component=alert-dialog&theme=light",
+    "sha256": "b125a2f0979d7b0dbb0e0fb5ebbe72b23bea499716afc58cc7a8105d4f266210",
+    "checkedAt": "2026-11-16T11:56:25.929Z"
+  },
+  {
+    "id": "component:meridian-clay-amount",
+    "url": "/systems/preview/?system=meridian-clay&component=amount&theme=light",
+    "sha256": "2400147391c410cc29f85ef119545bc0b5b07d7058ff2ae6cb8bcd1a7ce1455c",
+    "checkedAt": "2026-11-16T11:56:26.167Z"
+  },
+  {
+    "id": "component:meridian-clay-approval-request",
+    "url": "/systems/preview/?system=meridian-clay&component=approval-request&theme=light",
+    "sha256": "b515ff0872c44dffafce9df8f4281f08c88628f449376210214c1eff4dd2cfa8",
+    "checkedAt": "2026-11-16T11:56:26.414Z"
+  },
+  {
+    "id": "component:meridian-clay-assistant-alert",
+    "url": "/systems/preview/?system=meridian-clay&component=assistant-alert&theme=light",
+    "sha256": "fb44ef58c941e09f86216ba29d5006905183a7cf7523f77a365608a1d1fb8205",
+    "checkedAt": "2026-11-16T11:56:26.648Z"
+  },
+  {
+    "id": "component:meridian-clay-assistant-approval",
+    "url": "/systems/preview/?system=meridian-clay&component=assistant-approval&theme=light",
+    "sha256": "3380f01b93e27cb0f168e4159482a35e608c721ba3da7c148ff7087f0ee52e7c",
+    "checkedAt": "2026-11-16T11:56:26.898Z"
+  },
+  {
+    "id": "component:meridian-clay-autonomy-rule",
+    "url": "/systems/preview/?system=meridian-clay&component=autonomy-rule&theme=light",
+    "sha256": "9ddbe13e0b4b46a7ecb3b539e1c06f4a64f2d636316db94aacb83bf3fa0684dc",
+    "checkedAt": "2026-11-16T11:56:27.146Z"
+  },
+  {
+    "id": "component:meridian-clay-avatar",
+    "url": "/systems/preview/?system=meridian-clay&component=avatar&theme=light",
+    "sha256": "c94e62c31e4ef9f9670c578bb2abe424c03545beb82d1b31d31f7ea5cc4b4130",
+    "checkedAt": "2026-11-16T11:56:27.384Z"
+  },
+  {
+    "id": "component:meridian-clay-badge",
+    "url": "/systems/preview/?system=meridian-clay&component=badge&theme=light",
+    "sha256": "327ed4ecf0debb4ce73b11ed9a0ac5bdd60800ec82a7f38e7fef951610747c12",
+    "checkedAt": "2026-11-16T11:56:27.631Z"
+  },
+  {
+    "id": "component:meridian-clay-balance",
+    "url": "/systems/preview/?system=meridian-clay&component=balance&theme=light",
+    "sha256": "9ba56d3fd3c23115988d452be96d29006d645a7c0e9ddf2a88293613d6d1eae7",
+    "checkedAt": "2026-11-16T11:56:27.929Z"
+  },
+  {
+    "id": "component:meridian-clay-bill-schedule",
+    "url": "/systems/preview/?system=meridian-clay&component=bill-schedule&theme=light",
+    "sha256": "1a62448ef261bc3648cb61d35af0774b597b8c0ef254c5cf208d29930b518c67",
+    "checkedAt": "2026-11-16T11:56:28.211Z"
+  },
+  {
+    "id": "component:meridian-clay-button",
+    "url": "/systems/preview/?system=meridian-clay&component=button&theme=light",
+    "sha256": "a4765c993dad54e7b19266358d47df402bb9f2a6fbf5753558e1e8bf55088b4e",
+    "checkedAt": "2026-11-16T11:56:28.467Z"
+  },
+  {
+    "id": "component:meridian-clay-card",
+    "url": "/systems/preview/?system=meridian-clay&component=card&theme=light",
+    "sha256": "74c88ec02ba7ded00c5b803075ca6908f1734526747a82cf9448bff93700a9c2",
+    "checkedAt": "2026-11-16T11:56:28.703Z"
+  },
+  {
+    "id": "component:meridian-clay-chat-input",
+    "url": "/systems/preview/?system=meridian-clay&component=chat-input&theme=light",
+    "sha256": "438a829c2c48b9b2d6ec2a4c59a19df6d953ff95fcff8f0768f89981dc63e26c",
+    "checkedAt": "2026-11-16T11:56:28.963Z"
+  },
+  {
+    "id": "component:meridian-clay-checkbox",
+    "url": "/systems/preview/?system=meridian-clay&component=checkbox&theme=light",
+    "sha256": "a856c79c5c2ef4299d148d8db68304eabcac46e3f02792d80c3544366948ea65",
+    "checkedAt": "2026-11-16T11:56:29.197Z"
+  },
+  {
+    "id": "component:meridian-clay-chip",
+    "url": "/systems/preview/?system=meridian-clay&component=chip&theme=light",
+    "sha256": "2d64448dcd8b4d24369c003c227463b2c4ef9f304b85aaa3d34b91fea86a8ab5",
+    "checkedAt": "2026-11-16T11:56:29.433Z"
+  },
+  {
+    "id": "component:meridian-clay-collapsible",
+    "url": "/systems/preview/?system=meridian-clay&component=collapsible&theme=light",
+    "sha256": "61f746f9eb355bece8926ba646757d1188e6fae83af4b42281696ae79801bec8",
+    "checkedAt": "2026-11-16T11:56:29.666Z"
+  },
+  {
+    "id": "component:meridian-clay-combobox",
+    "url": "/systems/preview/?system=meridian-clay&component=combobox&theme=light",
+    "sha256": "8c39faf06ec14ce1500db0ed553e0b43c0fd7c5888bdd42f2d041e94c2709b71",
+    "checkedAt": "2026-11-16T11:56:29.913Z"
+  },
+  {
+    "id": "component:meridian-clay-copy-button",
+    "url": "/systems/preview/?system=meridian-clay&component=copy-button&theme=light",
+    "sha256": "a91232df128460bb9ea53a7e7b09e81d03fae5d38e4fb999a9c162fbe95cdc07",
+    "checkedAt": "2026-11-16T11:56:30.134Z"
+  },
+  {
+    "id": "component:meridian-clay-dialog",
+    "url": "/systems/preview/?system=meridian-clay&component=dialog&theme=light",
+    "sha256": "058ae5972de389ad16489a4ed9275b29708de256c91ea1c42350b77b21092e57",
+    "checkedAt": "2026-11-16T11:56:30.366Z"
+  },
+  {
+    "id": "component:meridian-clay-dropdown-menu",
+    "url": "/systems/preview/?system=meridian-clay&component=dropdown-menu&theme=light",
+    "sha256": "5516c2ca240e59403bd7057558f5405a879aa3e0b67f79c5fae82a01f2ca8045",
+    "checkedAt": "2026-11-16T11:56:30.598Z"
+  },
+  {
+    "id": "component:meridian-clay-dropzone",
+    "url": "/systems/preview/?system=meridian-clay&component=dropzone&theme=light",
+    "sha256": "562e1464b6061842e62e466dd165459e4c42b7f16529b0c4f26520d91ac5b60b",
+    "checkedAt": "2026-11-16T11:56:30.829Z"
+  },
+  {
+    "id": "component:meridian-clay-empty",
+    "url": "/systems/preview/?system=meridian-clay&component=empty&theme=light",
+    "sha256": "77615e084c03e78c8f27765b153432c8b4ad4fa182a404c2b6932db81fbc2f1d",
+    "checkedAt": "2026-11-16T11:56:31.069Z"
+  },
+  {
+    "id": "component:meridian-clay-error-state",
+    "url": "/systems/preview/?system=meridian-clay&component=error-state&theme=light",
+    "sha256": "b60a23b883cbe20d38f6909a19eda4915f68a1fe013d3eb659d7ef8eb025bcbb",
+    "checkedAt": "2026-11-16T11:56:31.314Z"
+  },
+  {
+    "id": "component:meridian-clay-field",
+    "url": "/systems/preview/?system=meridian-clay&component=field&theme=light",
+    "sha256": "e478d5b7598db879de0a7b9c3807547158cb2a3e2fa2ce232684fba8bff4de0e",
+    "checkedAt": "2026-11-16T11:56:31.563Z"
+  },
+  {
+    "id": "component:meridian-clay-follow-ups",
+    "url": "/systems/preview/?system=meridian-clay&component=follow-ups&theme=light",
+    "sha256": "72480335476bd89c72f153797223245de77b951f3f68d7ff62a586e10ea9eef0",
+    "checkedAt": "2026-11-16T11:56:31.781Z"
+  },
+  {
+    "id": "component:meridian-clay-home",
+    "url": "/systems/preview/?system=meridian-clay&component=home&theme=light",
+    "sha256": "ce3109f47a1210ea31680cf1bfb8069579c70ad93ddecb3abb378ff09474d9c2",
+    "checkedAt": "2026-11-16T11:56:32.024Z"
+  },
+  {
+    "id": "component:meridian-clay-icon",
+    "url": "/systems/preview/?system=meridian-clay&component=icon&theme=light",
+    "sha256": "af4d9f80221da293d681caeff0dd4258f0fd394b2ad388b34514b1258069eebc",
+    "checkedAt": "2026-11-16T11:56:32.284Z"
+  },
+  {
+    "id": "component:meridian-clay-input",
+    "url": "/systems/preview/?system=meridian-clay&component=input&theme=light",
+    "sha256": "92e571c8f3dbd2b3f9fc04f253d89d72ba18a58fee481ea2c0886944445982dc",
+    "checkedAt": "2026-11-16T11:56:32.532Z"
+  },
+  {
+    "id": "component:meridian-clay-insight",
+    "url": "/systems/preview/?system=meridian-clay&component=insight&theme=light",
+    "sha256": "2fd0599cd9617baf59dfec58e9d5bd118ad640134bc361ea4b43513c42ea9404",
+    "checkedAt": "2026-11-16T11:56:32.770Z"
+  },
+  {
+    "id": "component:meridian-clay-keypad",
+    "url": "/systems/preview/?system=meridian-clay&component=keypad&theme=light",
+    "sha256": "96b15dc45e9a5a418ac9227ff5cf01242f31dfba39641e3b8da6cbfd9062a8fe",
+    "checkedAt": "2026-11-16T11:56:33.130Z"
+  },
+  {
+    "id": "component:meridian-clay-list",
+    "url": "/systems/preview/?system=meridian-clay&component=list&theme=light",
+    "sha256": "271dfaa0326a5775dd3d0bc6ed880bbe146a810541772a92624c1004afee050a",
+    "checkedAt": "2026-11-16T11:56:33.446Z"
+  },
+  {
+    "id": "component:meridian-clay-list-item-menu",
+    "url": "/systems/preview/?system=meridian-clay&component=list-item-menu&theme=light",
+    "sha256": "7d141e1f88130d851009b3eb337937da7782e44ba9e68b685b6405c710622e76",
+    "checkedAt": "2026-11-16T11:56:33.683Z"
+  },
+  {
+    "id": "component:meridian-clay-message",
+    "url": "/systems/preview/?system=meridian-clay&component=message&theme=light",
+    "sha256": "e354a245ccec4d3dfb91f6d98ed422ff7969cf20111145c43cec0de4f0c1ab30",
+    "checkedAt": "2026-11-16T11:56:33.917Z"
+  },
+  {
+    "id": "component:meridian-clay-popover",
+    "url": "/systems/preview/?system=meridian-clay&component=popover&theme=light",
+    "sha256": "e8ebd2bfd883214ada03a79a8cbf35c22ec9932074a4cb1cffd478c3c317d70e",
+    "checkedAt": "2026-11-16T11:56:34.149Z"
+  },
+  {
+    "id": "component:meridian-clay-progress",
+    "url": "/systems/preview/?system=meridian-clay&component=progress&theme=light",
+    "sha256": "54fb3c0d8ba8583a199773a229fbd9e6290f0b4bf9435ef396d8eef513558a79",
+    "checkedAt": "2026-11-16T11:56:34.367Z"
+  },
+  {
+    "id": "component:meridian-clay-radio",
+    "url": "/systems/preview/?system=meridian-clay&component=radio&theme=light",
+    "sha256": "d623ac38277ab1e3cc99668804a2bbe94abcc7b124f2e99a1f8c7342af472b98",
+    "checkedAt": "2026-11-16T11:56:34.613Z"
+  },
+  {
+    "id": "component:meridian-clay-receipt-match",
+    "url": "/systems/preview/?system=meridian-clay&component=receipt-match&theme=light",
+    "sha256": "1a99cbd1cf2752eeb3ebb1860a809dd1cc59bde8566dfdecfc0c2dce75ff1184",
+    "checkedAt": "2026-11-16T11:56:34.846Z"
+  },
+  {
+    "id": "component:meridian-clay-scroll-area",
+    "url": "/systems/preview/?system=meridian-clay&component=scroll-area&theme=light",
+    "sha256": "9197b7b0592b7da5316f0eb69108e62259edd04968da4a909436ddbfb049cfa2",
+    "checkedAt": "2026-11-16T11:56:35.081Z"
+  },
+  {
+    "id": "component:meridian-clay-segmented",
+    "url": "/systems/preview/?system=meridian-clay&component=segmented&theme=light",
+    "sha256": "6cfa6eef9eb628f889b303f3a529be752702bd2c9448282fd361e877b35a2010",
+    "checkedAt": "2026-11-16T11:56:35.329Z"
+  },
+  {
+    "id": "component:meridian-clay-select",
+    "url": "/systems/preview/?system=meridian-clay&component=select&theme=light",
+    "sha256": "23c5ad40b5c326ce85f21a17b57e6c698fca316a64482e51125184851894f67e",
+    "checkedAt": "2026-11-16T11:56:35.564Z"
+  },
+  {
+    "id": "component:meridian-clay-separator",
+    "url": "/systems/preview/?system=meridian-clay&component=separator&theme=light",
+    "sha256": "925d5ee2dda6cfd0f152bd561b36a90b56fdf4076cbac061bc49e4f73beb2ac6",
+    "checkedAt": "2026-11-16T11:56:35.836Z"
+  },
+  {
+    "id": "component:meridian-clay-settings-rules",
+    "url": "/systems/preview/?system=meridian-clay&component=settings-rules&theme=light",
+    "sha256": "a801ed27d619bac74e94f42ae0d04b27b1c35b6f72bed406efde18d1222ba1b1",
+    "checkedAt": "2026-11-16T11:56:36.080Z"
+  },
+  {
+    "id": "component:meridian-clay-sheet",
+    "url": "/systems/preview/?system=meridian-clay&component=sheet&theme=light",
+    "sha256": "7aeb3ce042d353f81221f4202712e269675757caaa72dd05ee0da6e2557ddd06",
+    "checkedAt": "2026-11-16T11:56:36.315Z"
+  },
+  {
+    "id": "component:meridian-clay-skeleton",
+    "url": "/systems/preview/?system=meridian-clay&component=skeleton&theme=light",
+    "sha256": "236ef56edce9bf0006321b107215b0f1fdd0a8dc5f4be085b806ffbd7c1a33c3",
+    "checkedAt": "2026-11-16T11:56:36.534Z"
+  },
+  {
+    "id": "component:meridian-clay-slider",
+    "url": "/systems/preview/?system=meridian-clay&component=slider&theme=light",
+    "sha256": "5b27fd52db7281598bd25937bf8367d9bb2ef7ece2c1851ece97a51ed7727b6e",
+    "checkedAt": "2026-11-16T11:56:36.763Z"
+  },
+  {
+    "id": "component:meridian-clay-split-request",
+    "url": "/systems/preview/?system=meridian-clay&component=split-request&theme=light",
+    "sha256": "236862ec5ae3d899cb2506bd2bd4ad9ec25a5af66400842b49ba658b30c19e93",
+    "checkedAt": "2026-11-16T11:56:36.988Z"
+  },
+  {
+    "id": "component:meridian-clay-status",
+    "url": "/systems/preview/?system=meridian-clay&component=status&theme=light",
+    "sha256": "9d97cba089cbdc6b7541451d997a29a5d5561fed7649203404f15f7b064a88de",
+    "checkedAt": "2026-11-16T11:56:37.222Z"
+  },
+  {
+    "id": "component:meridian-clay-switch",
+    "url": "/systems/preview/?system=meridian-clay&component=switch&theme=light",
+    "sha256": "a0b155488d728a9a15e0b0d1bd191bc95cce91889ba8e95cdf754bc17a6f5d77",
+    "checkedAt": "2026-11-16T11:56:37.496Z"
+  },
+  {
+    "id": "component:meridian-clay-table",
+    "url": "/systems/preview/?system=meridian-clay&component=table&theme=light",
+    "sha256": "72fb0ff126c54cdcd82c927ff600fb1de26cdba56b0dcb14c8a1c5102f19a94d",
+    "checkedAt": "2026-11-16T11:56:37.746Z"
+  },
+  {
+    "id": "component:meridian-clay-tabs",
+    "url": "/systems/preview/?system=meridian-clay&component=tabs&theme=light",
+    "sha256": "fb5eb3d15bfb2bcb477da162ea8de8fc416fbbf505450a7a2df96b2f6ba05510",
+    "checkedAt": "2026-11-16T11:56:38.016Z"
+  },
+  {
+    "id": "component:meridian-clay-textarea",
+    "url": "/systems/preview/?system=meridian-clay&component=textarea&theme=light",
+    "sha256": "121a5af92d1c48787bef196566414fc6d772e3402561ff6c5b89c1874b2454d6",
+    "checkedAt": "2026-11-16T11:56:38.331Z"
+  },
+  {
+    "id": "component:meridian-clay-toast",
+    "url": "/systems/preview/?system=meridian-clay&component=toast&theme=light",
+    "sha256": "eb6bd01720134f12bcd1311140366eec0ad0fd56a927d9bb8035aa94311ae9ba",
+    "checkedAt": "2026-11-16T11:56:38.613Z"
+  },
+  {
+    "id": "component:meridian-clay-tool-call",
+    "url": "/systems/preview/?system=meridian-clay&component=tool-call&theme=light",
+    "sha256": "54004df4a5d95e802173d4fb1dbb937f6ebe6a716936946bf21f99ed0acbeec2",
+    "checkedAt": "2026-11-16T11:56:38.879Z"
+  },
+  {
+    "id": "component:meridian-clay-toolbar",
+    "url": "/systems/preview/?system=meridian-clay&component=toolbar&theme=light",
+    "sha256": "7d2196e7bf514ee82c7ce3a5ff947aeaf2c1de8507857b57a0fca76373ce0c0c",
+    "checkedAt": "2026-11-16T11:56:39.129Z"
+  },
+  {
+    "id": "component:meridian-clay-tooltip",
+    "url": "/systems/preview/?system=meridian-clay&component=tooltip&theme=light",
+    "sha256": "a7e5419ad31ce390b445f308f5defadc802625a0e9e42744e889cce299216258",
+    "checkedAt": "2026-11-16T11:56:39.372Z"
+  },
+  {
+    "id": "component:meridian-glass-action-receipt",
+    "url": "/systems/preview/?system=meridian-glass&component=action-receipt&theme=light",
+    "sha256": "34ad2fbbd1fe1a5d99626c5fe04175486c4b873bbe480f19cb4b200dac000899",
+    "checkedAt": "2026-11-16T11:56:40.104Z"
+  },
+  {
+    "id": "component:meridian-glass-activity",
+    "url": "/systems/preview/?system=meridian-glass&component=activity&theme=light",
+    "sha256": "47a70219b1ec1b55eefe1f06113a7a8e88b47e715f94e4c43451eb850eef9453",
+    "checkedAt": "2026-11-16T11:56:40.864Z"
+  },
+  {
+    "id": "component:meridian-glass-agent-plan",
+    "url": "/systems/preview/?system=meridian-glass&component=agent-plan&theme=light",
+    "sha256": "fb862f3266a98339a324d9a3f0dd7fdd58ce556bf4d9490b53297c7f197e29cb",
+    "checkedAt": "2026-11-16T11:56:41.618Z"
+  },
+  {
+    "id": "component:meridian-glass-agent-procedure",
+    "url": "/systems/preview/?system=meridian-glass&component=agent-procedure&theme=light",
+    "sha256": "33e314cc6cbc688e0389274311b29455e0d6c6eab420db99899321c2ce8ff9ed",
+    "checkedAt": "2026-11-16T11:56:42.347Z"
+  },
+  {
+    "id": "component:meridian-glass-alert",
+    "url": "/systems/preview/?system=meridian-glass&component=alert&theme=light",
+    "sha256": "041901c168c6c4423a3d460aaf008da731f8d3aab1220e785e6cc085257b404b",
+    "checkedAt": "2026-11-16T11:56:43.082Z"
+  },
+  {
+    "id": "component:meridian-glass-assistant-limits",
+    "url": "/systems/preview/?system=meridian-glass&component=assistant-limits&theme=light",
+    "sha256": "314f4689ed846a30c50ecdd5be8c2dfb973c5e4a2687bec66599402798b3e26d",
+    "checkedAt": "2026-11-16T11:56:43.814Z"
+  },
+  {
+    "id": "component:meridian-glass-attachment",
+    "url": "/systems/preview/?system=meridian-glass&component=attachment&theme=light",
+    "sha256": "136ab14f9d7fecc8dbe77f45c7a1051f2a981e8c86551263c0cb200eaf5d0a04",
+    "checkedAt": "2026-11-16T11:56:44.547Z"
+  },
+  {
+    "id": "component:meridian-glass-autonomy-rule",
+    "url": "/systems/preview/?system=meridian-glass&component=autonomy-rule&theme=light",
+    "sha256": "b9b5f98c16c2d2743f1f10c9fd4f7c98e1638fb29ca7a268606c6d4e7397c4b7",
+    "checkedAt": "2026-11-16T11:56:45.279Z"
+  },
+  {
+    "id": "component:meridian-glass-avatar",
+    "url": "/systems/preview/?system=meridian-glass&component=avatar&theme=light",
+    "sha256": "0fe9748f2ab7b5050c7b894c319de50d801750bebe525e54bea4e6bf5971dd74",
+    "checkedAt": "2026-11-16T11:56:46.034Z"
+  },
+  {
+    "id": "component:meridian-glass-badge",
+    "url": "/systems/preview/?system=meridian-glass&component=badge&theme=light",
+    "sha256": "444c456963f32a3d2c16c4749639c4b51fa3beb2772dd88679b386fd56d892e0",
+    "checkedAt": "2026-11-16T11:56:46.765Z"
+  },
+  {
+    "id": "component:meridian-glass-booking-approval",
+    "url": "/systems/preview/?system=meridian-glass&component=booking-approval&theme=light",
+    "sha256": "aa820258af7d26df7445be20f095769d28edc41126ef5e49ea8731fdc4e60a50",
+    "checkedAt": "2026-11-16T11:56:47.487Z"
+  },
+  {
+    "id": "component:meridian-glass-breadcrumb",
+    "url": "/systems/preview/?system=meridian-glass&component=breadcrumb&theme=light",
+    "sha256": "808d45833ca40f5cbf31f01a920c5679d0e419ea2e1868145e8437ede7c44830",
+    "checkedAt": "2026-11-16T11:56:48.199Z"
+  },
+  {
+    "id": "component:meridian-glass-bulk-action-bar",
+    "url": "/systems/preview/?system=meridian-glass&component=bulk-action-bar&theme=light",
+    "sha256": "13109e4cd60abfe05383f3d779bd29c357f58df5341b1355502bf6a4662bbc2f",
+    "checkedAt": "2026-11-16T11:56:48.897Z"
+  },
+  {
+    "id": "component:meridian-glass-button",
+    "url": "/systems/preview/?system=meridian-glass&component=button&theme=light",
+    "sha256": "fe7c97b0c216a14ff42ad9f1a0684034038a3a6cad198e01cb2b781a0e1238e9",
+    "checkedAt": "2026-11-16T11:56:49.567Z"
+  },
+  {
+    "id": "component:meridian-glass-button-group",
+    "url": "/systems/preview/?system=meridian-glass&component=button-group&theme=light",
+    "sha256": "e415342c3785d85564062e71535b6c298847d81c5521214f108131122ee9da9d",
+    "checkedAt": "2026-11-16T11:56:50.248Z"
+  },
+  {
+    "id": "component:meridian-glass-card",
+    "url": "/systems/preview/?system=meridian-glass&component=card&theme=light",
+    "sha256": "50576b78b5ee0ece971f753fa184be0d972e6f8308c920e07e78c2df51d75066",
+    "checkedAt": "2026-11-16T11:56:50.933Z"
+  },
+  {
+    "id": "component:meridian-glass-chart",
+    "url": "/systems/preview/?system=meridian-glass&component=chart&theme=light",
+    "sha256": "a274562c8bcd7ef591e910907d75e1ae7ef78fa51d57c4fb8967e0ba0a63a2c8",
+    "checkedAt": "2026-11-16T11:56:51.645Z"
+  },
+  {
+    "id": "component:meridian-glass-checkbox",
+    "url": "/systems/preview/?system=meridian-glass&component=checkbox&theme=light",
+    "sha256": "ad4992a1135ff04c6448630b3787666818341b5aa89f4d634ddad2ed158b5eaa",
+    "checkedAt": "2026-11-16T11:56:52.372Z"
+  },
+  {
+    "id": "component:meridian-glass-chip",
+    "url": "/systems/preview/?system=meridian-glass&component=chip&theme=light",
+    "sha256": "7ed35ddab420fa7255d9f656c9efc9e8a354e52d939202d35eb9a155d124d67a",
+    "checkedAt": "2026-11-16T11:56:53.213Z"
+  },
+  {
+    "id": "component:meridian-glass-cited-answer",
+    "url": "/systems/preview/?system=meridian-glass&component=cited-answer&theme=light",
+    "sha256": "41318bb7019b5d9bf4a7476a0630392a2516605043279afeef3367b030c76186",
+    "checkedAt": "2026-11-16T11:56:53.935Z"
+  },
+  {
+    "id": "component:meridian-glass-code-block",
+    "url": "/systems/preview/?system=meridian-glass&component=code-block&theme=light",
+    "sha256": "0a4ebd77955075632b0c99f0fa69e896ec992b731fcf7e618c0ca0931d4a9459",
+    "checkedAt": "2026-11-16T11:56:54.616Z"
+  },
+  {
+    "id": "component:meridian-glass-collapsible",
+    "url": "/systems/preview/?system=meridian-glass&component=collapsible&theme=light",
+    "sha256": "a915c8456108189b70269c6a0825f01b9fced9b11dfcee9e4900691c03c60830",
+    "checkedAt": "2026-11-16T11:56:55.297Z"
+  },
+  {
+    "id": "component:meridian-glass-combobox",
+    "url": "/systems/preview/?system=meridian-glass&component=combobox&theme=light",
+    "sha256": "e4c6c512c7c37714cdeae1715e12ac3cf5c2f5fe8978a872b26183fb997398b3",
+    "checkedAt": "2026-11-16T11:56:55.994Z"
+  },
+  {
+    "id": "component:meridian-glass-command",
+    "url": "/systems/preview/?system=meridian-glass&component=command&theme=light",
+    "sha256": "b88d43f6c6937a9a8a438e721212afdeaec92449d31afd4b1332bc671286dc11",
+    "checkedAt": "2026-11-16T11:56:56.664Z"
+  },
+  {
+    "id": "component:meridian-glass-conversation",
+    "url": "/systems/preview/?system=meridian-glass&component=conversation&theme=light",
+    "sha256": "9c970bd02883a24089ca383cebc69a2be04d8e1ac10fa13dea7354bece4fefad",
+    "checkedAt": "2026-11-16T11:56:57.334Z"
+  },
+  {
+    "id": "component:meridian-glass-conversation-insights",
+    "url": "/systems/preview/?system=meridian-glass&component=conversation-insights&theme=light",
+    "sha256": "80651cdd6baf60e6f0bc0252a14782bd420fcf6ccabced84ee42767c30275ee5",
+    "checkedAt": "2026-11-16T11:56:58.021Z"
+  },
+  {
+    "id": "component:meridian-glass-copy-button",
+    "url": "/systems/preview/?system=meridian-glass&component=copy-button&theme=light",
+    "sha256": "f3c7c5e114db42a2253ee5b735c7c386af0426ce07642aaeb00cce0c432d3988",
+    "checkedAt": "2026-11-16T11:56:58.697Z"
+  },
+  {
+    "id": "component:meridian-glass-data-grid",
+    "url": "/systems/preview/?system=meridian-glass&component=data-grid&theme=light",
+    "sha256": "b3711fbf940efce49e31c618fe309e22d1c6c9492f56a0e17b7dfb92970856ee",
+    "checkedAt": "2026-11-16T11:56:59.385Z"
+  },
+  {
+    "id": "component:meridian-glass-data-list",
+    "url": "/systems/preview/?system=meridian-glass&component=data-list&theme=light",
+    "sha256": "acdf5857c22c188b75935f7555267d507e7b8ba35774a2dde7a97e06ecd9860b",
+    "checkedAt": "2026-11-16T11:57:00.062Z"
+  },
+  {
+    "id": "component:meridian-glass-date-picker",
+    "url": "/systems/preview/?system=meridian-glass&component=date-picker&theme=light",
+    "sha256": "58931d31732b04517b60ce1352808fdb9cfef7cac613745f16b964401b5824e2",
+    "checkedAt": "2026-11-16T11:57:00.764Z"
+  },
+  {
+    "id": "component:meridian-glass-dialog",
+    "url": "/systems/preview/?system=meridian-glass&component=dialog&theme=light",
+    "sha256": "7faded6a9dfcf3761eba2fb9d5a2cbe23f0461421dd0ec5818ee316fcc534963",
+    "checkedAt": "2026-11-16T11:57:01.450Z"
+  },
+  {
+    "id": "component:meridian-glass-dropdown-menu",
+    "url": "/systems/preview/?system=meridian-glass&component=dropdown-menu&theme=light",
+    "sha256": "f39eefcd2a5b9233bcf24e1b363f1ecb3afc9c7081f1751d0e410ec38ed18bd4",
+    "checkedAt": "2026-11-16T11:57:02.199Z"
+  },
+  {
+    "id": "component:meridian-glass-empty-state",
+    "url": "/systems/preview/?system=meridian-glass&component=empty-state&theme=light",
+    "sha256": "745e3a2dc1d048d5b69b825a7f5517ef70d5dc6a5cc911e7d57fb08a51b09d38",
+    "checkedAt": "2026-11-16T11:57:02.899Z"
+  },
+  {
+    "id": "component:meridian-glass-experiment",
+    "url": "/systems/preview/?system=meridian-glass&component=experiment&theme=light",
+    "sha256": "0aa116997e0ad079d8f36c1303e90fedaad865755b5fabdbe4fbf6af2a0e0bf2",
+    "checkedAt": "2026-11-16T11:57:03.583Z"
+  },
+  {
+    "id": "component:meridian-glass-field",
+    "url": "/systems/preview/?system=meridian-glass&component=field&theme=light",
+    "sha256": "6fc15d40b489764d40a1f9ff65282e343b42be74beb7b28ea5662ceac82df26d",
+    "checkedAt": "2026-11-16T11:57:04.278Z"
+  },
+  {
+    "id": "component:meridian-glass-filter-bar",
+    "url": "/systems/preview/?system=meridian-glass&component=filter-bar&theme=light",
+    "sha256": "a14e610db3f360e0236f3f86052dcf07a2ac5e46da642de2bf58abe30167f9a2",
+    "checkedAt": "2026-11-16T11:57:04.962Z"
+  },
+  {
+    "id": "component:meridian-glass-follow-ups",
+    "url": "/systems/preview/?system=meridian-glass&component=follow-ups&theme=light",
+    "sha256": "f0492aa0d8573a705d532fbf917d4201c0af06aa008a300b29148405f2afdeb5",
+    "checkedAt": "2026-11-16T11:57:05.636Z"
+  },
+  {
+    "id": "component:meridian-glass-icon",
+    "url": "/systems/preview/?system=meridian-glass&component=icon&theme=light",
+    "sha256": "f79780b304750da6f8469b6b6b834a5cedd7b20ec64aaa468d29ac672d7f7361",
+    "checkedAt": "2026-11-16T11:57:06.297Z"
+  },
+  {
+    "id": "component:meridian-glass-input",
+    "url": "/systems/preview/?system=meridian-glass&component=input&theme=light",
+    "sha256": "5ed1259a33dad478b95101f0642301451eb95dae6abf5022901b54d282554e63",
+    "checkedAt": "2026-11-16T11:57:06.978Z"
+  },
+  {
+    "id": "component:meridian-glass-item",
+    "url": "/systems/preview/?system=meridian-glass&component=item&theme=light",
+    "sha256": "5c33420255ba2dcacca7580f4e5d7d4a18224836dd1c66582333ddcd3806cf51",
+    "checkedAt": "2026-11-16T11:57:07.663Z"
+  },
+  {
+    "id": "component:meridian-glass-json-view",
+    "url": "/systems/preview/?system=meridian-glass&component=json-view&theme=light",
+    "sha256": "3a07613dd54653dba15059340021e46b78600a8667e09eba3f6544e3c127cce7",
+    "checkedAt": "2026-11-16T11:57:08.361Z"
+  },
+  {
+    "id": "component:meridian-glass-kbd",
+    "url": "/systems/preview/?system=meridian-glass&component=kbd&theme=light",
+    "sha256": "3f469188cbb7f675404b34896365031b558c07cc8a08d6597362d8f0990e68d0",
+    "checkedAt": "2026-11-16T11:57:09.032Z"
+  },
+  {
+    "id": "component:meridian-glass-log-viewer",
+    "url": "/systems/preview/?system=meridian-glass&component=log-viewer&theme=light",
+    "sha256": "9edbef4e223357b0ac2ae407c927dd2f950a9fa5b40a9ebb4805112cd6af178e",
+    "checkedAt": "2026-11-16T11:57:09.717Z"
+  },
+  {
+    "id": "component:meridian-glass-mention",
+    "url": "/systems/preview/?system=meridian-glass&component=mention&theme=light",
+    "sha256": "46caeb413c3f100a8abb87112b8265848ba05dfd7f7fc5c2151fd98ef3242fb8",
+    "checkedAt": "2026-11-16T11:57:10.418Z"
+  },
+  {
+    "id": "component:meridian-glass-message",
+    "url": "/systems/preview/?system=meridian-glass&component=message&theme=light",
+    "sha256": "9ad1bb591c473400816a81bf66b723bc37d5222d70aedb9725c9d3e8aff6fc6c",
+    "checkedAt": "2026-11-16T11:57:11.132Z"
+  },
+  {
+    "id": "component:meridian-glass-note-recap",
+    "url": "/systems/preview/?system=meridian-glass&component=note-recap&theme=light",
+    "sha256": "fd4af94080933b1186478089dd93d1940a2921ec86c28e753d4d6a3207afb89e",
+    "checkedAt": "2026-11-16T11:57:11.829Z"
+  },
+  {
+    "id": "component:meridian-glass-number-input",
+    "url": "/systems/preview/?system=meridian-glass&component=number-input&theme=light",
+    "sha256": "1a7d8e9a7936f837a37a8552bb7ebd62a750b4ddb91c8d106f589afa7a834f00",
+    "checkedAt": "2026-11-16T11:57:12.528Z"
+  },
+  {
+    "id": "component:meridian-glass-otp-input",
+    "url": "/systems/preview/?system=meridian-glass&component=otp-input&theme=light",
+    "sha256": "bba6a1792aa7a80bfa2a476b8756edc8bc16b0f9eba4c4365db5c2d478e59127",
+    "checkedAt": "2026-11-16T11:57:13.212Z"
+  },
+  {
+    "id": "component:meridian-glass-pagination",
+    "url": "/systems/preview/?system=meridian-glass&component=pagination&theme=light",
+    "sha256": "a49a9568596b981261cb0ec07f19f1acd1a386ede30459152c1922ea61e995bc",
+    "checkedAt": "2026-11-16T11:57:13.898Z"
+  },
+  {
+    "id": "component:meridian-glass-panel",
+    "url": "/systems/preview/?system=meridian-glass&component=panel&theme=light",
+    "sha256": "79740d60f8337ff3c39dd5a8d9ae4a688b7555a4e4082c38528b75eea19db6eb",
+    "checkedAt": "2026-11-16T11:57:14.563Z"
+  },
+  {
+    "id": "component:meridian-glass-popover",
+    "url": "/systems/preview/?system=meridian-glass&component=popover&theme=light",
+    "sha256": "39528cce20aae9427619a1f258e3a4f20afb7e6da131d5527bf0bf87adf9c95b",
+    "checkedAt": "2026-11-16T11:57:15.328Z"
+  },
+  {
+    "id": "component:meridian-glass-progress",
+    "url": "/systems/preview/?system=meridian-glass&component=progress&theme=light",
+    "sha256": "0e19b1efe52ebf5e5eb90e8f2cafd60b8df3b7d90b59daaf95984afebaec8adf",
+    "checkedAt": "2026-11-16T11:57:16.015Z"
+  },
+  {
+    "id": "component:meridian-glass-prompt-input",
+    "url": "/systems/preview/?system=meridian-glass&component=prompt-input&theme=light",
+    "sha256": "9368c26e6c832b73c7b50a65d1d42c6a93c0b86f5e2a6a19f856c3a41e39322c",
+    "checkedAt": "2026-11-16T11:57:16.711Z"
+  },
+  {
+    "id": "component:meridian-glass-radio-group",
+    "url": "/systems/preview/?system=meridian-glass&component=radio-group&theme=light",
+    "sha256": "1018e43049aba1717dd88a7300634317ca97e6d2dec0e89127dd774a38f368f8",
+    "checkedAt": "2026-11-16T11:57:17.394Z"
+  },
+  {
+    "id": "component:meridian-glass-reasoning",
+    "url": "/systems/preview/?system=meridian-glass&component=reasoning&theme=light",
+    "sha256": "11a81f28b6942f541cbf2a52530662ad07c8eef7f8df82022854952e40ac6940",
+    "checkedAt": "2026-11-16T11:57:18.084Z"
+  },
+  {
+    "id": "component:meridian-glass-relative-time",
+    "url": "/systems/preview/?system=meridian-glass&component=relative-time&theme=light",
+    "sha256": "d1c71920e17f39a94c99602c5af4b78a26c3cb1cf97ae10dfa2782229a8b1634",
+    "checkedAt": "2026-11-16T11:57:18.762Z"
+  },
+  {
+    "id": "component:meridian-glass-response",
+    "url": "/systems/preview/?system=meridian-glass&component=response&theme=light",
+    "sha256": "e8db1a6672e794bf1ea000799e614cb55f634c17b8f31f104955a7556bb87358",
+    "checkedAt": "2026-11-16T11:57:19.429Z"
+  },
+  {
+    "id": "component:meridian-glass-segmented-control",
+    "url": "/systems/preview/?system=meridian-glass&component=segmented-control&theme=light",
+    "sha256": "9296156fe1a2d4d008b82d6116df59c6fc64d4b6329ef5a6e4a1f350fa7b626a",
+    "checkedAt": "2026-11-16T11:57:20.129Z"
+  },
+  {
+    "id": "component:meridian-glass-select",
+    "url": "/systems/preview/?system=meridian-glass&component=select&theme=light",
+    "sha256": "3079255dacad9de13ee9bcb714776b7d42811438835f773c26821e6450f22f8d",
+    "checkedAt": "2026-11-16T11:57:20.827Z"
+  },
+  {
+    "id": "component:meridian-glass-send-button",
+    "url": "/systems/preview/?system=meridian-glass&component=send-button&theme=light",
+    "sha256": "684e61b9a33c22fcfdf8e4142a3223877f087c2e6bdb93ea13b019a560661ea6",
+    "checkedAt": "2026-11-16T11:57:21.496Z"
+  },
+  {
+    "id": "component:meridian-glass-sheet",
+    "url": "/systems/preview/?system=meridian-glass&component=sheet&theme=light",
+    "sha256": "32f9b1da1d7a8b1dd7dcb1d3348e11ac822cb4c484270ecaa6148fb738190221",
+    "checkedAt": "2026-11-16T11:57:22.165Z"
+  },
+  {
+    "id": "component:meridian-glass-simulations",
+    "url": "/systems/preview/?system=meridian-glass&component=simulations&theme=light",
+    "sha256": "fdbffcdd5e42ffa0fda0df58256f46794b4c6731e777f597ba136383004864e6",
+    "checkedAt": "2026-11-16T11:57:22.848Z"
+  },
+  {
+    "id": "component:meridian-glass-skeleton",
+    "url": "/systems/preview/?system=meridian-glass&component=skeleton&theme=light",
+    "sha256": "572743f2014a48f8f24a01390d24d475e9e0f40e651a99cb4a1c5d7fac9c5bb8",
+    "checkedAt": "2026-11-16T11:57:23.514Z"
+  },
+  {
+    "id": "component:meridian-glass-slider",
+    "url": "/systems/preview/?system=meridian-glass&component=slider&theme=light",
+    "sha256": "ecb66e88e9f2bc061fc6ec42a9ff331db037220386c7acdad27f778b3c2be553",
+    "checkedAt": "2026-11-16T11:57:24.211Z"
+  },
+  {
+    "id": "component:meridian-glass-status",
+    "url": "/systems/preview/?system=meridian-glass&component=status&theme=light",
+    "sha256": "da70ddb4ed63efec8d7ca99a4fe134cfcb85066f4d919c9aefab96953091919e",
+    "checkedAt": "2026-11-16T11:57:24.882Z"
+  },
+  {
+    "id": "component:meridian-glass-steps",
+    "url": "/systems/preview/?system=meridian-glass&component=steps&theme=light",
+    "sha256": "58098e3baa2990728d071b8c07288182b9b1540e648a74ec19a9fa0183faa757",
+    "checkedAt": "2026-11-16T11:57:25.562Z"
+  },
+  {
+    "id": "component:meridian-glass-switch",
+    "url": "/systems/preview/?system=meridian-glass&component=switch&theme=light",
+    "sha256": "997a040b57ceeed778ce6416d007426d83972b053b052898f88b401bb0de5555",
+    "checkedAt": "2026-11-16T11:57:26.245Z"
+  },
+  {
+    "id": "component:meridian-glass-table",
+    "url": "/systems/preview/?system=meridian-glass&component=table&theme=light",
+    "sha256": "0fd8c48038d0921e636dd3dc1f3acfdf28d3f99647e67b3b4716c137bb78073e",
+    "checkedAt": "2026-11-16T11:57:26.945Z"
+  },
+  {
+    "id": "component:meridian-glass-tabs",
+    "url": "/systems/preview/?system=meridian-glass&component=tabs&theme=light",
+    "sha256": "e24c0601b5302791c7597fdfa1d8686cf40626f3e6bfce123fb8d420d2cd87ed",
+    "checkedAt": "2026-11-16T11:57:27.628Z"
+  },
+  {
+    "id": "component:meridian-glass-textarea",
+    "url": "/systems/preview/?system=meridian-glass&component=textarea&theme=light",
+    "sha256": "c038b638489a862845ee7b6400b42a641eb9f5272c9cd478566d1b09d05d48d0",
+    "checkedAt": "2026-11-16T11:57:28.311Z"
+  },
+  {
+    "id": "component:meridian-glass-timeline",
+    "url": "/systems/preview/?system=meridian-glass&component=timeline&theme=light",
+    "sha256": "9531d5f902ee6d2976b32e9e6ab3b9b5432d51cb7b0242315c9c95618363dc99",
+    "checkedAt": "2026-11-16T11:57:28.980Z"
+  },
+  {
+    "id": "component:meridian-glass-toast",
+    "url": "/systems/preview/?system=meridian-glass&component=toast&theme=light",
+    "sha256": "4d5ff619c03122c6350612e7d4e2fdba1136ffe6e7e8be68bf4e1a7e8d1cefdf",
+    "checkedAt": "2026-11-16T11:57:29.646Z"
+  },
+  {
+    "id": "component:meridian-glass-today",
+    "url": "/systems/preview/?system=meridian-glass&component=today&theme=light",
+    "sha256": "3bc80f1f3e7fd2f7d17aa2430212c49a278427d6037870e51cf829f88a07d18f",
+    "checkedAt": "2026-11-16T11:57:30.314Z"
+  },
+  {
+    "id": "component:meridian-glass-tool-call",
+    "url": "/systems/preview/?system=meridian-glass&component=tool-call&theme=light",
+    "sha256": "a9116b93c392009344c30ff3d8352aa7bd19dd0af31360a690a700c940d785ae",
+    "checkedAt": "2026-11-16T11:57:30.977Z"
+  },
+  {
+    "id": "component:meridian-glass-toolbar",
+    "url": "/systems/preview/?system=meridian-glass&component=toolbar&theme=light",
+    "sha256": "13e5b3ddb4a9645fff82101cc2a1fbd8a348db1570310050d2cbe2330a35dea0",
+    "checkedAt": "2026-11-16T11:57:31.689Z"
+  },
+  {
+    "id": "component:meridian-glass-tooltip",
+    "url": "/systems/preview/?system=meridian-glass&component=tooltip&theme=light",
+    "sha256": "a14d06b352ac13b00cccb830c16622725ad000e693a3f4a37ae86a907c95f4ab",
+    "checkedAt": "2026-11-16T11:57:32.465Z"
+  },
+  {
+    "id": "component:meridian-glass-truncate",
+    "url": "/systems/preview/?system=meridian-glass&component=truncate&theme=light",
+    "sha256": "3ad7d3962e73fd61d91cf2a3ce71b626913f5b4cceb79a2f8c9a04e63c14119b",
+    "checkedAt": "2026-11-16T11:57:33.128Z"
+  },
+  {
+    "id": "component:meridian-glass-voice-capture",
+    "url": "/systems/preview/?system=meridian-glass&component=voice-capture&theme=light",
+    "sha256": "1855851ac209bd3527e06430b756ba11e3a4baf7f0578b71b5530b593d985af8",
+    "checkedAt": "2026-11-16T11:57:33.798Z"
+  },
+  {
+    "id": "component:meridian-mono-activity",
+    "url": "/systems/preview/?system=meridian-mono&component=activity&theme=light",
+    "sha256": "3a111ef3c30fefb22ed23a7cc561aa1748f349290f60aff279d4b11212a17481",
+    "checkedAt": "2026-11-16T11:57:34.065Z"
+  },
+  {
+    "id": "component:meridian-mono-alert",
+    "url": "/systems/preview/?system=meridian-mono&component=alert&theme=light",
+    "sha256": "64e4dda9a2ec80a567585ded7cc8adb368d0becf36217a2720cd5a5e4a426d85",
+    "checkedAt": "2026-11-16T11:57:34.303Z"
+  },
+  {
+    "id": "component:meridian-mono-avatar",
+    "url": "/systems/preview/?system=meridian-mono&component=avatar&theme=light",
+    "sha256": "16e389c7104bcdae5adb485c6ca90427f4e427afd94926de3f1273064abdd3c5",
+    "checkedAt": "2026-11-16T11:57:34.531Z"
+  },
+  {
+    "id": "component:meridian-mono-bar-blocks",
+    "url": "/systems/preview/?system=meridian-mono&component=bar-blocks&theme=light",
+    "sha256": "122a677958d607b1264a4de8842521741e3494d47a07a69f1656072290ab8caf",
+    "checkedAt": "2026-11-16T11:57:34.762Z"
+  },
+  {
+    "id": "component:meridian-mono-breadcrumb",
+    "url": "/systems/preview/?system=meridian-mono&component=breadcrumb&theme=light",
+    "sha256": "10ceaf064e39474b9c5cf29c0602de4f9a254c03a67050a99922413689743045",
+    "checkedAt": "2026-11-16T11:57:34.999Z"
+  },
+  {
+    "id": "component:meridian-mono-button",
+    "url": "/systems/preview/?system=meridian-mono&component=button&theme=light",
+    "sha256": "1c4b01e8e8239b73e2891b031b77c59f4ca6d81e0cc01fa5626e9e8321f5d6e3",
+    "checkedAt": "2026-11-16T11:57:35.226Z"
+  },
+  {
+    "id": "component:meridian-mono-button-group",
+    "url": "/systems/preview/?system=meridian-mono&component=button-group&theme=light",
+    "sha256": "2b19bed9700648f4cd81e58347a7ee6d5efdbcb2731bccf0a87870287dd936cb",
+    "checkedAt": "2026-11-16T11:57:35.492Z"
+  },
+  {
+    "id": "component:meridian-mono-chart",
+    "url": "/systems/preview/?system=meridian-mono&component=chart&theme=light",
+    "sha256": "a7f901fd38bc919fa78a7fb4ceea36f3776c04ab1dd0b060a24954d694b4b454",
+    "checkedAt": "2026-11-16T11:57:35.759Z"
+  },
+  {
+    "id": "component:meridian-mono-checkbox",
+    "url": "/systems/preview/?system=meridian-mono&component=checkbox&theme=light",
+    "sha256": "193072fdb78e858946b2ac405e25fb9cf1c7a28bb46c1bc39dcee3e74b6aa5d4",
+    "checkedAt": "2026-11-16T11:57:35.993Z"
+  },
+  {
+    "id": "component:meridian-mono-code-block",
+    "url": "/systems/preview/?system=meridian-mono&component=code-block&theme=light",
+    "sha256": "c612edf3956bdc6259014e2c29127afa20a46badaced93174556e1e204590d5d",
+    "checkedAt": "2026-11-16T11:57:36.243Z"
+  },
+  {
+    "id": "component:meridian-mono-code-window",
+    "url": "/systems/preview/?system=meridian-mono&component=code-window&theme=light",
+    "sha256": "031620c211f917a1c39f0c89e02e2fcf150a147c4f98cc1029d7a9ee0461e6ae",
+    "checkedAt": "2026-11-16T11:57:36.478Z"
+  },
+  {
+    "id": "component:meridian-mono-collapsible",
+    "url": "/systems/preview/?system=meridian-mono&component=collapsible&theme=light",
+    "sha256": "06f1297263125fd48e2d998477162261ff099f806e17139b3bcdce520192d86c",
+    "checkedAt": "2026-11-16T11:57:36.717Z"
+  },
+  {
+    "id": "component:meridian-mono-combobox",
+    "url": "/systems/preview/?system=meridian-mono&component=combobox&theme=light",
+    "sha256": "20a4ea0b036412ca22ccc4de5f0f3ef367598872453c1c7d7e92b4727a371527",
+    "checkedAt": "2026-11-16T11:57:36.960Z"
+  },
+  {
+    "id": "component:meridian-mono-command",
+    "url": "/systems/preview/?system=meridian-mono&component=command&theme=light",
+    "sha256": "8b873f03ba26772da8bc1d76f034b1f143e3f70c5c517425232e130b6f86e4ea",
+    "checkedAt": "2026-11-16T11:57:37.225Z"
+  },
+  {
+    "id": "component:meridian-mono-copy-button",
+    "url": "/systems/preview/?system=meridian-mono&component=copy-button&theme=light",
+    "sha256": "287c678a95e3e580a2b070a8a1fad0e51dde58fa8083d208c72dab580fafb325",
+    "checkedAt": "2026-11-16T11:57:37.476Z"
+  },
+  {
+    "id": "component:meridian-mono-data-list",
+    "url": "/systems/preview/?system=meridian-mono&component=data-list&theme=light",
+    "sha256": "837a5eebac7240a5d00ba030a33822f4564c06b359197a8a0701ee4de9eac5b7",
+    "checkedAt": "2026-11-16T11:57:37.760Z"
+  },
+  {
+    "id": "component:meridian-mono-dialog",
+    "url": "/systems/preview/?system=meridian-mono&component=dialog&theme=light",
+    "sha256": "9ddb4a80bb510cdb0b4fc728fd5b45aa0f252d8af368cc211797c3aaa1df3055",
+    "checkedAt": "2026-11-16T11:57:38.025Z"
+  },
+  {
+    "id": "component:meridian-mono-dropdown-menu",
+    "url": "/systems/preview/?system=meridian-mono&component=dropdown-menu&theme=light",
+    "sha256": "bb3248a19b92edd8e6097939b451063d63db44deef9b2a8dd9fa0d79c03868b8",
+    "checkedAt": "2026-11-16T11:57:38.292Z"
+  },
+  {
+    "id": "component:meridian-mono-empty-state",
+    "url": "/systems/preview/?system=meridian-mono&component=empty-state&theme=light",
+    "sha256": "78d265d7cab7e0fc62c7d8b09e23fb515a306e4c6b82b70cc08fddc774b6aebc",
+    "checkedAt": "2026-11-16T11:57:38.544Z"
+  },
+  {
+    "id": "component:meridian-mono-failed-load",
+    "url": "/systems/preview/?system=meridian-mono&component=failed-load&theme=light",
+    "sha256": "72e1da5ec3726cae14fa6c9c3fbaf6129afc22177c9d70e683d786a09812c706",
+    "checkedAt": "2026-11-16T11:57:38.812Z"
+  },
+  {
+    "id": "component:meridian-mono-field",
+    "url": "/systems/preview/?system=meridian-mono&component=field&theme=light",
+    "sha256": "5a98ff172e9f721a3e1adc4d09eca08c1abfa13279979b04fcc332f8c1dfc592",
+    "checkedAt": "2026-11-16T11:57:39.060Z"
+  },
+  {
+    "id": "component:meridian-mono-filter-bar",
+    "url": "/systems/preview/?system=meridian-mono&component=filter-bar&theme=light",
+    "sha256": "4ee9b2b03225a9f4bfbe5c2c13280893f9f70df463e6e111e627e5c049908e3b",
+    "checkedAt": "2026-11-16T11:57:39.325Z"
+  },
+  {
+    "id": "component:meridian-mono-frame",
+    "url": "/systems/preview/?system=meridian-mono&component=frame&theme=light",
+    "sha256": "08ae32fbe441214d5f8701ffb7d39b68010a349123f5586a661af1b414d77785",
+    "checkedAt": "2026-11-16T11:57:39.583Z"
+  },
+  {
+    "id": "component:meridian-mono-icon",
+    "url": "/systems/preview/?system=meridian-mono&component=icon&theme=light",
+    "sha256": "5401b792ceeb2333ea908e098ec8b89f96f80ec0c90deb3bf889afa35e2547a2",
+    "checkedAt": "2026-11-16T11:57:39.866Z"
+  },
+  {
+    "id": "component:meridian-mono-input",
+    "url": "/systems/preview/?system=meridian-mono&component=input&theme=light",
+    "sha256": "24b8ef8b7809cbee2f9f1e31264a452455e20d185e0292d016d3ca149c0ba3f7",
+    "checkedAt": "2026-11-16T11:57:40.110Z"
+  },
+  {
+    "id": "component:meridian-mono-item",
+    "url": "/systems/preview/?system=meridian-mono&component=item&theme=light",
+    "sha256": "fbcfcdb7660d5e0d326c7790f0c17ac2623fe5ca7fe5f572f71dfcec1a4aa6e6",
+    "checkedAt": "2026-11-16T11:57:40.374Z"
+  },
+  {
+    "id": "component:meridian-mono-job-runs",
+    "url": "/systems/preview/?system=meridian-mono&component=job-runs&theme=light",
+    "sha256": "a98e7a16526ecaa632751a3edfd7a26a1c9c7ab23132a6efb83f48434d1a0d41",
+    "checkedAt": "2026-11-16T11:57:40.659Z"
+  },
+  {
+    "id": "component:meridian-mono-json-view",
+    "url": "/systems/preview/?system=meridian-mono&component=json-view&theme=light",
+    "sha256": "a107bfd10e0d08ee39ef30ee9a52360fb15f2015de57fc4577c589f5e0fd18bd",
+    "checkedAt": "2026-11-16T11:57:40.926Z"
+  },
+  {
+    "id": "component:meridian-mono-kbd",
+    "url": "/systems/preview/?system=meridian-mono&component=kbd&theme=light",
+    "sha256": "2ec74fe719608666eda28c972c8d0917cbe74d787fa291aba0765abc9e22ad47",
+    "checkedAt": "2026-11-16T11:57:41.165Z"
+  },
+  {
+    "id": "component:meridian-mono-log-viewer",
+    "url": "/systems/preview/?system=meridian-mono&component=log-viewer&theme=light",
+    "sha256": "04f54206adb09b570a615462afa471a0956d8040adb33f5fd77179302868f3c8",
+    "checkedAt": "2026-11-16T11:57:41.488Z"
+  },
+  {
+    "id": "component:meridian-mono-message",
+    "url": "/systems/preview/?system=meridian-mono&component=message&theme=light",
+    "sha256": "4046330ab0a75f09df3606bf4946e2bc1b3886ba6f4a66ad9e8565bf67488e51",
+    "checkedAt": "2026-11-16T11:57:41.766Z"
+  },
+  {
+    "id": "component:meridian-mono-meter",
+    "url": "/systems/preview/?system=meridian-mono&component=meter&theme=light",
+    "sha256": "2cc6873f5e30614f364130ddc9d39134069d24824fd7b3875b9d0494e970417e",
+    "checkedAt": "2026-11-16T11:57:41.998Z"
+  },
+  {
+    "id": "component:meridian-mono-numbered-tabs",
+    "url": "/systems/preview/?system=meridian-mono&component=numbered-tabs&theme=light",
+    "sha256": "d4cc383bf5156acc561806550da76b7671416c3adead2a53166f6c8a6dba3950",
+    "checkedAt": "2026-11-16T11:57:42.231Z"
+  },
+  {
+    "id": "component:meridian-mono-on-call",
+    "url": "/systems/preview/?system=meridian-mono&component=on-call&theme=light",
+    "sha256": "1fd68fec9cb401019769f8fdfb0d08c308b750042199638a8e3c0efacdd7d960",
+    "checkedAt": "2026-11-16T11:57:42.495Z"
+  },
+  {
+    "id": "component:meridian-mono-pagination",
+    "url": "/systems/preview/?system=meridian-mono&component=pagination&theme=light",
+    "sha256": "ff38db72c56de8e37fc67c86289386d6b6c29b91a917b9bc1d967a4f0dcde534",
+    "checkedAt": "2026-11-16T11:57:42.728Z"
+  },
+  {
+    "id": "component:meridian-mono-pipeline-history",
+    "url": "/systems/preview/?system=meridian-mono&component=pipeline-history&theme=light",
+    "sha256": "7ec5ba6697009b7ccb71b7ca22f2a0764da2b8cd906fa6091213fff1e0b18e61",
+    "checkedAt": "2026-11-16T11:57:42.977Z"
+  },
+  {
+    "id": "component:meridian-mono-popover",
+    "url": "/systems/preview/?system=meridian-mono&component=popover&theme=light",
+    "sha256": "a001efa7ec72fc677d694a4409257b053b35144945c42975636603b4ae27e004",
+    "checkedAt": "2026-11-16T11:57:43.219Z"
+  },
+  {
+    "id": "component:meridian-mono-progress",
+    "url": "/systems/preview/?system=meridian-mono&component=progress&theme=light",
+    "sha256": "5c2527bcb93568008deb977525a9bab718938d17b108827aa001da94e2190dd8",
+    "checkedAt": "2026-11-16T11:57:43.461Z"
+  },
+  {
+    "id": "component:meridian-mono-prompt-input",
+    "url": "/systems/preview/?system=meridian-mono&component=prompt-input&theme=light",
+    "sha256": "c91d5ed93c9f9f439622116cbdd96232ca6eeef09391faf0f8d43ea51cc0b285",
+    "checkedAt": "2026-11-16T11:57:43.727Z"
+  },
+  {
+    "id": "component:meridian-mono-radio-group",
+    "url": "/systems/preview/?system=meridian-mono&component=radio-group&theme=light",
+    "sha256": "f62f640ca88cf5aee1c59516975bb5acbf7bc25089101aefec4a71e997c43a41",
+    "checkedAt": "2026-11-16T11:57:43.991Z"
+  },
+  {
+    "id": "component:meridian-mono-response",
+    "url": "/systems/preview/?system=meridian-mono&component=response&theme=light",
+    "sha256": "47f0a6bf9c353d6a67924f24c693faa8430645efde87523bfb3052c2bec86ab2",
+    "checkedAt": "2026-11-16T11:57:44.275Z"
+  },
+  {
+    "id": "component:meridian-mono-run-progress",
+    "url": "/systems/preview/?system=meridian-mono&component=run-progress&theme=light",
+    "sha256": "9a0983e46bd741747cff8a2704ab4110d36725c557b633a7ce12321c88b94023",
+    "checkedAt": "2026-11-16T11:57:44.528Z"
+  },
+  {
+    "id": "component:meridian-mono-segmented-control",
+    "url": "/systems/preview/?system=meridian-mono&component=segmented-control&theme=light",
+    "sha256": "52ff2fa86306f4bbc841978d90970ed51d3a2426f41e86e9cb12c7a94b4621b3",
+    "checkedAt": "2026-11-16T11:57:44.777Z"
+  },
+  {
+    "id": "component:meridian-mono-select",
+    "url": "/systems/preview/?system=meridian-mono&component=select&theme=light",
+    "sha256": "bbd3131b83c2b76613a426926ef7a6fcfe1b3b600532b1a45d473e1430394fbe",
+    "checkedAt": "2026-11-16T11:57:45.041Z"
+  },
+  {
+    "id": "component:meridian-mono-sheet",
+    "url": "/systems/preview/?system=meridian-mono&component=sheet&theme=light",
+    "sha256": "669e48e2f33767fbd54af423d72db6973fa1c2327f76cdb381a6d90aff7dcd7a",
+    "checkedAt": "2026-11-16T11:57:45.308Z"
+  },
+  {
+    "id": "component:meridian-mono-skeleton",
+    "url": "/systems/preview/?system=meridian-mono&component=skeleton&theme=light",
+    "sha256": "471eee0be128deb8cf68181bf1dc076317bbb6cdce9fc8e3a58711c1305c93d2",
+    "checkedAt": "2026-11-16T11:57:45.575Z"
+  },
+  {
+    "id": "component:meridian-mono-slider",
+    "url": "/systems/preview/?system=meridian-mono&component=slider&theme=light",
+    "sha256": "6e2889357b7300e431b919fbf790870dc477fbddac680e5d4cc73eebae380f62",
+    "checkedAt": "2026-11-16T11:57:45.826Z"
+  },
+  {
+    "id": "component:meridian-mono-status",
+    "url": "/systems/preview/?system=meridian-mono&component=status&theme=light",
+    "sha256": "37ea534498e1e310f00f41ced5d79209c8206a13b29d3d0c9cb754837f7bfac1",
+    "checkedAt": "2026-11-16T11:57:46.074Z"
+  },
+  {
+    "id": "component:meridian-mono-status-strip",
+    "url": "/systems/preview/?system=meridian-mono&component=status-strip&theme=light",
+    "sha256": "e01311af09bb93f96eca9d562a1fb91a9ff00123ddbe2852bb4dc9105fff7a2a",
+    "checkedAt": "2026-11-16T11:57:46.345Z"
+  },
+  {
+    "id": "component:meridian-mono-stem-chart",
+    "url": "/systems/preview/?system=meridian-mono&component=stem-chart&theme=light",
+    "sha256": "2c4801545352c5060fb1c87a2f59c7f5e5bd0711de5216b47490530053293af9",
+    "checkedAt": "2026-11-16T11:57:46.586Z"
+  },
+  {
+    "id": "component:meridian-mono-swimlanes",
+    "url": "/systems/preview/?system=meridian-mono&component=swimlanes&theme=light",
+    "sha256": "325752147b5f0c90985dbbbe9057111c9cf3c900ade2ed56656bc455821c4fe2",
+    "checkedAt": "2026-11-16T11:57:46.861Z"
+  },
+  {
+    "id": "component:meridian-mono-switch",
+    "url": "/systems/preview/?system=meridian-mono&component=switch&theme=light",
+    "sha256": "7fff9a27b0bf7a5d45d890fe865b4f7dc006e93cc5647eee8f0493ea50a7bb5f",
+    "checkedAt": "2026-11-16T11:57:47.486Z"
+  },
+  {
+    "id": "component:meridian-mono-sync-flow",
+    "url": "/systems/preview/?system=meridian-mono&component=sync-flow&theme=light",
+    "sha256": "466b9ada9755d4385b04548383e5e8c1d5013633fc335fa1d76ba7058cfdf4af",
+    "checkedAt": "2026-11-16T11:57:47.898Z"
+  },
+  {
+    "id": "component:meridian-mono-table",
+    "url": "/systems/preview/?system=meridian-mono&component=table&theme=light",
+    "sha256": "bdf2289750f3dae57444b8bf88fbb4775606cff3c7fc45cdc5f1daa1019c4319",
+    "checkedAt": "2026-11-16T11:57:48.145Z"
+  },
+  {
+    "id": "component:meridian-mono-tabs",
+    "url": "/systems/preview/?system=meridian-mono&component=tabs&theme=light",
+    "sha256": "0335d7874fdc8cc775a12e95f5097fbb32ff78d279b5dd598499735e9a21bee1",
+    "checkedAt": "2026-11-16T11:57:48.395Z"
+  },
+  {
+    "id": "component:meridian-mono-tag",
+    "url": "/systems/preview/?system=meridian-mono&component=tag&theme=light",
+    "sha256": "b2d55343ad2c4b3df9e8dc4006be795e963e8b11e1ba5036ecc4ecaa869c5e0e",
+    "checkedAt": "2026-11-16T11:57:48.633Z"
+  },
+  {
+    "id": "component:meridian-mono-textarea",
+    "url": "/systems/preview/?system=meridian-mono&component=textarea&theme=light",
+    "sha256": "df57b358b04793fd1a963ae3f454b98db76c5bfdcf8db7a90020df05a7fdfda3",
+    "checkedAt": "2026-11-16T11:57:48.876Z"
+  },
+  {
+    "id": "component:meridian-mono-toast",
+    "url": "/systems/preview/?system=meridian-mono&component=toast&theme=light",
+    "sha256": "b77a5b225956f1d95f8b0c45e2a045e1ba7e843b736679a957c3c8a52ebded28",
+    "checkedAt": "2026-11-16T11:57:49.142Z"
+  },
+  {
+    "id": "component:meridian-mono-tool-call",
+    "url": "/systems/preview/?system=meridian-mono&component=tool-call&theme=light",
+    "sha256": "16a362f695839db31e2f1eb1b9ae5bcd52c084088d68d432263dc0a2e4ebb031",
+    "checkedAt": "2026-11-16T11:57:49.409Z"
+  },
+  {
+    "id": "component:meridian-mono-tool-call-row",
+    "url": "/systems/preview/?system=meridian-mono&component=tool-call-row&theme=light",
+    "sha256": "aaf4153b32116f006f1c8b852b4fb710765887079252420fafe3848a572e7a54",
+    "checkedAt": "2026-11-16T11:57:49.675Z"
+  },
+  {
+    "id": "component:meridian-mono-tooltip",
+    "url": "/systems/preview/?system=meridian-mono&component=tooltip&theme=light",
+    "sha256": "b60eb66982da144ca3c9df637b397caf4946ef82f99b85646969357414340094",
+    "checkedAt": "2026-11-16T11:57:49.941Z"
+  },
+  {
+    "id": "component:meridian-mono-warehouse-capacity",
+    "url": "/systems/preview/?system=meridian-mono&component=warehouse-capacity&theme=light",
+    "sha256": "4ce469f63781ca5c9fd8bd90638775f92326b247c259915e65c80da7a4c9f6a7",
+    "checkedAt": "2026-11-16T11:57:50.210Z"
+  },
+  {
+    "id": "component:meridian-slate-activity",
+    "url": "/systems/preview/?system=meridian-slate&component=activity&theme=light",
+    "sha256": "f945119070ba634d6c35e7ddea29d6d3c7a7f3bf8e5f9bbb8a4805296b0cbb0a",
+    "checkedAt": "2026-11-16T11:57:50.511Z"
+  },
+  {
+    "id": "component:meridian-slate-agent-session",
+    "url": "/systems/preview/?system=meridian-slate&component=agent-session&theme=light",
+    "sha256": "d1dc78caea54e7a08fb7857349d6372f3bda051771b62137dc9ce0d629f9b825",
+    "checkedAt": "2026-11-16T11:57:50.794Z"
+  },
+  {
+    "id": "component:meridian-slate-alert",
+    "url": "/systems/preview/?system=meridian-slate&component=alert&theme=light",
+    "sha256": "e3913f96a04b0fd632a437a00aa6ed062ffb283a9b2463151ed9078c19012f73",
+    "checkedAt": "2026-11-16T11:57:51.058Z"
+  },
+  {
+    "id": "component:meridian-slate-api-keys",
+    "url": "/systems/preview/?system=meridian-slate&component=api-keys&theme=light",
+    "sha256": "c80064cb986c1ab380d2329319b6b848dd3a045662ebc6c534b06cb6401f26ab",
+    "checkedAt": "2026-11-16T11:57:51.361Z"
+  },
+  {
+    "id": "component:meridian-slate-attachment",
+    "url": "/systems/preview/?system=meridian-slate&component=attachment&theme=light",
+    "sha256": "e05bbac3398772fb2c21e403df38f8d4a260a92e2d1aed11c81059570b5363a7",
+    "checkedAt": "2026-11-16T11:57:51.594Z"
+  },
+  {
+    "id": "component:meridian-slate-avatar",
+    "url": "/systems/preview/?system=meridian-slate&component=avatar&theme=light",
+    "sha256": "21a07f19cab269f6b42c6f27be57aae9aa017cd7f53d249ae9abe35dc4383199",
+    "checkedAt": "2026-11-16T11:57:51.828Z"
+  },
+  {
+    "id": "component:meridian-slate-badge",
+    "url": "/systems/preview/?system=meridian-slate&component=badge&theme=light",
+    "sha256": "19d1ab068c97f7b809c2551dbb33821f4e8986aa7ae03406719c507b6ee2f46b",
+    "checkedAt": "2026-11-16T11:57:52.079Z"
+  },
+  {
+    "id": "component:meridian-slate-breadcrumb",
+    "url": "/systems/preview/?system=meridian-slate&component=breadcrumb&theme=light",
+    "sha256": "28acf7abf5c70c460f6c1c3d1e45a546768521414bca04744e30518e4b70372c",
+    "checkedAt": "2026-11-16T11:57:52.313Z"
+  },
+  {
+    "id": "component:meridian-slate-bulk-action-bar",
+    "url": "/systems/preview/?system=meridian-slate&component=bulk-action-bar&theme=light",
+    "sha256": "e1e924f506fb136ae5ebfeb2bc43504d457405113a8aa3576d54875f4bf74a2a",
+    "checkedAt": "2026-11-16T11:57:52.547Z"
+  },
+  {
+    "id": "component:meridian-slate-button",
+    "url": "/systems/preview/?system=meridian-slate&component=button&theme=light",
+    "sha256": "6f79de9ab055d19b92e8c5dcf7f49eaff5a72e9d052146226c041384c7da69a0",
+    "checkedAt": "2026-11-16T11:57:52.780Z"
+  },
+  {
+    "id": "component:meridian-slate-button-group",
+    "url": "/systems/preview/?system=meridian-slate&component=button-group&theme=light",
+    "sha256": "a9bef0061e8aa462177e29e04be883aa1324b37ce054cb4fc44964ddd48a098b",
+    "checkedAt": "2026-11-16T11:57:53.027Z"
+  },
+  {
+    "id": "component:meridian-slate-card",
+    "url": "/systems/preview/?system=meridian-slate&component=card&theme=light",
+    "sha256": "43508e5074d0c64ce4d5bf1c246af834c60b4cca83dad013f0d4faac65286192",
+    "checkedAt": "2026-11-16T11:57:53.294Z"
+  },
+  {
+    "id": "component:meridian-slate-chart",
+    "url": "/systems/preview/?system=meridian-slate&component=chart&theme=light",
+    "sha256": "91d83a8c58a6e85eb946d463c834ee0c1f94deeda7c98975832007e86ad3d0e8",
+    "checkedAt": "2026-11-16T11:57:53.802Z"
+  },
+  {
+    "id": "component:meridian-slate-checkbox",
+    "url": "/systems/preview/?system=meridian-slate&component=checkbox&theme=light",
+    "sha256": "6a38c7b69a88c48fdf6cb2468d42af835bc2ba2ce9e85fa32f73dd2c3cd3b288",
+    "checkedAt": "2026-11-16T11:57:54.077Z"
+  },
+  {
+    "id": "component:meridian-slate-chip",
+    "url": "/systems/preview/?system=meridian-slate&component=chip&theme=light",
+    "sha256": "c20f03ffd9a49873263fa7be5c0c97dbb5844c93417ff009121d8cf6ac28abcd",
+    "checkedAt": "2026-11-16T11:57:54.335Z"
+  },
+  {
+    "id": "component:meridian-slate-code-block",
+    "url": "/systems/preview/?system=meridian-slate&component=code-block&theme=light",
+    "sha256": "cef5e09fb7a97bf565f78a4e930797d64c4a8a735f08a82032d2ec9c492c8cfb",
+    "checkedAt": "2026-11-16T11:57:54.579Z"
+  },
+  {
+    "id": "component:meridian-slate-collapsible",
+    "url": "/systems/preview/?system=meridian-slate&component=collapsible&theme=light",
+    "sha256": "83320691feb30993721d8dcb72aa0ead4e6f450c7e30f007f3dd5fa59f421b80",
+    "checkedAt": "2026-11-16T11:57:54.813Z"
+  },
+  {
+    "id": "component:meridian-slate-combobox",
+    "url": "/systems/preview/?system=meridian-slate&component=combobox&theme=light",
+    "sha256": "fe7af4a2753d130f0ad42ad738c197e0bba1b4b9f3b7bb7730dd00c43bbd45ef",
+    "checkedAt": "2026-11-16T11:57:55.077Z"
+  },
+  {
+    "id": "component:meridian-slate-command",
+    "url": "/systems/preview/?system=meridian-slate&component=command&theme=light",
+    "sha256": "11a112f8fb2c343c344026856a4cdfc306b0de95c90036c1f957d57daba5dd93",
+    "checkedAt": "2026-11-16T11:57:55.327Z"
+  },
+  {
+    "id": "component:meridian-slate-conversation",
+    "url": "/systems/preview/?system=meridian-slate&component=conversation&theme=light",
+    "sha256": "c2a4e449c311fd093044a090b22ce380daedcd907acb8bb635f1caf7aee22afb",
+    "checkedAt": "2026-11-16T11:57:55.564Z"
+  },
+  {
+    "id": "component:meridian-slate-copy-button",
+    "url": "/systems/preview/?system=meridian-slate&component=copy-button&theme=light",
+    "sha256": "f26a7d56fd9d09a78d8a6c9857614f8681b1d92ce49ddf001155f015d4777a01",
+    "checkedAt": "2026-11-16T11:57:55.843Z"
+  },
+  {
+    "id": "component:meridian-slate-data-grid",
+    "url": "/systems/preview/?system=meridian-slate&component=data-grid&theme=light",
+    "sha256": "d99dfafbc0bd8cbcaa39ecf0bd5fe479fea1e01f4b411fb2e2766201a71189fd",
+    "checkedAt": "2026-11-16T11:57:56.081Z"
+  },
+  {
+    "id": "component:meridian-slate-data-list",
+    "url": "/systems/preview/?system=meridian-slate&component=data-list&theme=light",
+    "sha256": "240ca4923e603bae33c6088830adba6eef64fe89821c544e006acb0a7ef090c7",
+    "checkedAt": "2026-11-16T11:57:56.331Z"
+  },
+  {
+    "id": "component:meridian-slate-date-picker",
+    "url": "/systems/preview/?system=meridian-slate&component=date-picker&theme=light",
+    "sha256": "1a21c5f19150f3628f4e1f4f9f48b15be7607f01e86214f6c1ecf1f4ad99ebb2",
+    "checkedAt": "2026-11-16T11:57:56.562Z"
+  },
+  {
+    "id": "component:meridian-slate-deploy-detail",
+    "url": "/systems/preview/?system=meridian-slate&component=deploy-detail&theme=light",
+    "sha256": "1f165e746348c95d1c63c114ac4650145716cea016d593b53d63f89b62a87387",
+    "checkedAt": "2026-11-16T11:57:56.837Z"
+  },
+  {
+    "id": "component:meridian-slate-dialog",
+    "url": "/systems/preview/?system=meridian-slate&component=dialog&theme=light",
+    "sha256": "751486bba50a3c6c4129e6a9cf3829dce03b6d2f0c078480bbcede0ce5a3f68b",
+    "checkedAt": "2026-11-16T11:57:57.092Z"
+  },
+  {
+    "id": "component:meridian-slate-dropdown-menu",
+    "url": "/systems/preview/?system=meridian-slate&component=dropdown-menu&theme=light",
+    "sha256": "aeffd488d1c76a113ac96aeee89e91114f93fa154cb5cb1f389a8bbd3db7505c",
+    "checkedAt": "2026-11-16T11:57:57.342Z"
+  },
+  {
+    "id": "component:meridian-slate-empty-state",
+    "url": "/systems/preview/?system=meridian-slate&component=empty-state&theme=light",
+    "sha256": "86af307455829efa0e6730a448c5d6888640c422261a50ab6694a23b8919676d",
+    "checkedAt": "2026-11-16T11:57:57.593Z"
+  },
+  {
+    "id": "component:meridian-slate-field",
+    "url": "/systems/preview/?system=meridian-slate&component=field&theme=light",
+    "sha256": "beb59088b0551fc37cb25eb2f5f7247dd6c77fe31f207fe76a065faa3e2c17c0",
+    "checkedAt": "2026-11-16T11:57:57.843Z"
+  },
+  {
+    "id": "component:meridian-slate-filter-bar",
+    "url": "/systems/preview/?system=meridian-slate&component=filter-bar&theme=light",
+    "sha256": "e48c4bc3849b64afa2e7b1bc372c607faf4857cefdeee01b831e9c7b3e9482b0",
+    "checkedAt": "2026-11-16T11:57:58.093Z"
+  },
+  {
+    "id": "component:meridian-slate-icon",
+    "url": "/systems/preview/?system=meridian-slate&component=icon&theme=light",
+    "sha256": "07524fec97a44509618734ab8f05f389611f418e0276c9422e06e8d7c9e40a4c",
+    "checkedAt": "2026-11-16T11:57:58.357Z"
+  },
+  {
+    "id": "component:meridian-slate-input",
+    "url": "/systems/preview/?system=meridian-slate&component=input&theme=light",
+    "sha256": "a8d7af0d48b074eaf8e53246c8acd52a8e2a6c933dabe5af068660f323dc6931",
+    "checkedAt": "2026-11-16T11:57:58.625Z"
+  },
+  {
+    "id": "component:meridian-slate-item",
+    "url": "/systems/preview/?system=meridian-slate&component=item&theme=light",
+    "sha256": "2656b08f2a5a67b659a739fe99f345633ea831336d2c7807c619cca4f3811ac2",
+    "checkedAt": "2026-11-16T11:57:58.891Z"
+  },
+  {
+    "id": "component:meridian-slate-json-view",
+    "url": "/systems/preview/?system=meridian-slate&component=json-view&theme=light",
+    "sha256": "6580e2fe08dce439f23a7f0df0ce12f5e1dbed7086c23ab753b234b75f06315e",
+    "checkedAt": "2026-11-16T11:57:59.159Z"
+  },
+  {
+    "id": "component:meridian-slate-kbd",
+    "url": "/systems/preview/?system=meridian-slate&component=kbd&theme=light",
+    "sha256": "82dea464553d01adfdfc2bac5dd672acb556781a2ec3a180fdae8b551202a887",
+    "checkedAt": "2026-11-16T11:57:59.414Z"
+  },
+  {
+    "id": "component:meridian-slate-live-requests",
+    "url": "/systems/preview/?system=meridian-slate&component=live-requests&theme=light",
+    "sha256": "5f8d8256bc5ee34e808935da27383f26844e974395c0fd9778d6705f064604d3",
+    "checkedAt": "2026-11-16T11:57:59.729Z"
+  },
+  {
+    "id": "component:meridian-slate-log-viewer",
+    "url": "/systems/preview/?system=meridian-slate&component=log-viewer&theme=light",
+    "sha256": "8ba43112670b190696e90ab3d87633678a00c346013784856b494167477d7bf9",
+    "checkedAt": "2026-11-16T11:57:59.966Z"
+  },
+  {
+    "id": "component:meridian-slate-mention",
+    "url": "/systems/preview/?system=meridian-slate&component=mention&theme=light",
+    "sha256": "534a60b94fc3055c1e8011c62c61bc7cdbed39e6fa33ee1ea264a4eb97f7c576",
+    "checkedAt": "2026-11-16T11:58:00.216Z"
+  },
+  {
+    "id": "component:meridian-slate-message",
+    "url": "/systems/preview/?system=meridian-slate&component=message&theme=light",
+    "sha256": "5e8c6740c6fd436dec450563a31959388f377d35fe12a3ca741b3d3511f5c6f3",
+    "checkedAt": "2026-11-16T11:58:00.447Z"
+  },
+  {
+    "id": "component:meridian-slate-page-header",
+    "url": "/systems/preview/?system=meridian-slate&component=page-header&theme=light",
+    "sha256": "1b0ad48999e8c7440a419a656d82b6b4e3b138e04e8bc2766390915b0313609c",
+    "checkedAt": "2026-11-16T11:58:00.680Z"
+  },
+  {
+    "id": "component:meridian-slate-pagination",
+    "url": "/systems/preview/?system=meridian-slate&component=pagination&theme=light",
+    "sha256": "ccf0ff0a88bf6c8876b848194abbadf8a6698717bab4c61b5dbd15c06ca286c2",
+    "checkedAt": "2026-11-16T11:58:00.913Z"
+  },
+  {
+    "id": "component:meridian-slate-panel",
+    "url": "/systems/preview/?system=meridian-slate&component=panel&theme=light",
+    "sha256": "b20a3350d93dbee56cd104c8fae898563375591a074a4e227b5526f9caf034f8",
+    "checkedAt": "2026-11-16T11:58:01.147Z"
+  },
+  {
+    "id": "component:meridian-slate-popover",
+    "url": "/systems/preview/?system=meridian-slate&component=popover&theme=light",
+    "sha256": "7c149f421046c3ab1b07ce8f3ebbea7e4f3cc4873addfdb225bb65a86d662fa0",
+    "checkedAt": "2026-11-16T11:58:01.380Z"
+  },
+  {
+    "id": "component:meridian-slate-progress",
+    "url": "/systems/preview/?system=meridian-slate&component=progress&theme=light",
+    "sha256": "1e972be32884c6b79d4e45a53861157c16cd655a0cc665918aa14cd54c6a3982",
+    "checkedAt": "2026-11-16T11:58:01.643Z"
+  },
+  {
+    "id": "component:meridian-slate-project-home",
+    "url": "/systems/preview/?system=meridian-slate&component=project-home&theme=light",
+    "sha256": "9ae9c8e5f9e954b8407b63edcd267f7812ad4ef41a8f223776ce2b1772f7c3ca",
+    "checkedAt": "2026-11-16T11:58:01.945Z"
+  },
+  {
+    "id": "component:meridian-slate-prompt-input",
+    "url": "/systems/preview/?system=meridian-slate&component=prompt-input&theme=light",
+    "sha256": "578414f507e647d85f3acd44f8b19769f93742f89f989b80a0dfbb4318844bd7",
+    "checkedAt": "2026-11-16T11:58:02.193Z"
+  },
+  {
+    "id": "component:meridian-slate-radio-group",
+    "url": "/systems/preview/?system=meridian-slate&component=radio-group&theme=light",
+    "sha256": "57f891e66ac417b6790897c1d8ee98a8c548144a5dfa556af79673f7dbc63da2",
+    "checkedAt": "2026-11-16T11:58:02.451Z"
+  },
+  {
+    "id": "component:meridian-slate-reasoning",
+    "url": "/systems/preview/?system=meridian-slate&component=reasoning&theme=light",
+    "sha256": "6533278dfd60c1228e0d06d659d8df6eb61f485021fde22385a6826920b504e0",
+    "checkedAt": "2026-11-16T11:58:02.713Z"
+  },
+  {
+    "id": "component:meridian-slate-relative-time",
+    "url": "/systems/preview/?system=meridian-slate&component=relative-time&theme=light",
+    "sha256": "539d0784204455163264c7f0d1b3d65a6c8fe0b00df469d1ac860645da4e1a70",
+    "checkedAt": "2026-11-16T11:58:02.946Z"
+  },
+  {
+    "id": "component:meridian-slate-response",
+    "url": "/systems/preview/?system=meridian-slate&component=response&theme=light",
+    "sha256": "632b875192e150d524464cfd6df97f9a1c7dd745070ccdb25219b9b40d3c36af",
+    "checkedAt": "2026-11-16T11:58:03.193Z"
+  },
+  {
+    "id": "component:meridian-slate-run-trace",
+    "url": "/systems/preview/?system=meridian-slate&component=run-trace&theme=light",
+    "sha256": "c65062e6c293287e6367bcf0a638cdf378ec2d7aef50e64db60cd7f4ae96af4b",
+    "checkedAt": "2026-11-16T11:58:03.466Z"
+  },
+  {
+    "id": "component:meridian-slate-segmented-control",
+    "url": "/systems/preview/?system=meridian-slate&component=segmented-control&theme=light",
+    "sha256": "d91ccffda97ac492446205c3cb2d38aa5c73c150574ff1ca81b1c80c6b2a9d77",
+    "checkedAt": "2026-11-16T11:58:03.726Z"
+  },
+  {
+    "id": "component:meridian-slate-select",
+    "url": "/systems/preview/?system=meridian-slate&component=select&theme=light",
+    "sha256": "ff7a1178009b3e2ad903694a7e5fbd5fbcef17cf95b0f62ce084cebefd91586f",
+    "checkedAt": "2026-11-16T11:58:03.976Z"
+  },
+  {
+    "id": "component:meridian-slate-send-button",
+    "url": "/systems/preview/?system=meridian-slate&component=send-button&theme=light",
+    "sha256": "c136febc149d484f1ac57d02ed45816a9470fd7e57434c5c7abc15222744afcd",
+    "checkedAt": "2026-11-16T11:58:04.241Z"
+  },
+  {
+    "id": "component:meridian-slate-sheet",
+    "url": "/systems/preview/?system=meridian-slate&component=sheet&theme=light",
+    "sha256": "19f087b27c8e9f37c77ddf54ad0bead11080e37df48feccfe9bfb3e74822fae6",
+    "checkedAt": "2026-11-16T11:58:04.508Z"
+  },
+  {
+    "id": "component:meridian-slate-skeleton",
+    "url": "/systems/preview/?system=meridian-slate&component=skeleton&theme=light",
+    "sha256": "16d2ec24072a4c340503e14865c19a16c9b3b22cc808e3f214d73cd8e07eea80",
+    "checkedAt": "2026-11-16T11:58:04.774Z"
+  },
+  {
+    "id": "component:meridian-slate-slider",
+    "url": "/systems/preview/?system=meridian-slate&component=slider&theme=light",
+    "sha256": "ac89f489eb65d6851114c916cff09b9a6d983a8eecd781bac00f1e29d3e36ff5",
+    "checkedAt": "2026-11-16T11:58:05.041Z"
+  },
+  {
+    "id": "component:meridian-slate-stat",
+    "url": "/systems/preview/?system=meridian-slate&component=stat&theme=light",
+    "sha256": "d368f10ae6b3c4bf11d07fc0cbae6ec476fb30a4bb45e269f42f95a2d16090e1",
+    "checkedAt": "2026-11-16T11:58:05.307Z"
+  },
+  {
+    "id": "component:meridian-slate-status",
+    "url": "/systems/preview/?system=meridian-slate&component=status&theme=light",
+    "sha256": "e6e4bcae7deedfaa0b65b2e6d581e8974ad7664f577007c0c45e834d352cc439",
+    "checkedAt": "2026-11-16T11:58:05.597Z"
+  },
+  {
+    "id": "component:meridian-slate-switch",
+    "url": "/systems/preview/?system=meridian-slate&component=switch&theme=light",
+    "sha256": "8b41ee3f35c5e629461c720c2cfaf986a1ff8421c5afd6001407f04fb55dd1ac",
+    "checkedAt": "2026-11-16T11:58:05.843Z"
+  },
+  {
+    "id": "component:meridian-slate-table",
+    "url": "/systems/preview/?system=meridian-slate&component=table&theme=light",
+    "sha256": "2f5ae7e78ece6be629431310a42f1cfcac69b1a6939cef046d0e755a1bb8718d",
+    "checkedAt": "2026-11-16T11:58:06.107Z"
+  },
+  {
+    "id": "component:meridian-slate-tabs",
+    "url": "/systems/preview/?system=meridian-slate&component=tabs&theme=light",
+    "sha256": "f43ed04ee53c385a37acd2156de4080bfd05a4d7ab5a9a214e03e24be0ac90fa",
+    "checkedAt": "2026-11-16T11:58:06.358Z"
+  },
+  {
+    "id": "component:meridian-slate-textarea",
+    "url": "/systems/preview/?system=meridian-slate&component=textarea&theme=light",
+    "sha256": "85029183f7b8b11e82693214efe80d4e77ebdf2af98a16208abbb538a3ed06e6",
+    "checkedAt": "2026-11-16T11:58:06.666Z"
+  },
+  {
+    "id": "component:meridian-slate-timeline",
+    "url": "/systems/preview/?system=meridian-slate&component=timeline&theme=light",
+    "sha256": "fb8d2d72e5ad2449ad0b469120cb42bf005aae1838010149c138341773aa07a4",
+    "checkedAt": "2026-11-16T11:58:06.913Z"
+  },
+  {
+    "id": "component:meridian-slate-toast",
+    "url": "/systems/preview/?system=meridian-slate&component=toast&theme=light",
+    "sha256": "9b330c5d50254bd062f6d80b50598ecdebda23ad9db0259296ff75250a8a7354",
+    "checkedAt": "2026-11-16T11:58:07.160Z"
+  },
+  {
+    "id": "component:meridian-slate-tool-approval",
+    "url": "/systems/preview/?system=meridian-slate&component=tool-approval&theme=light",
+    "sha256": "f84ec5dace33ba26b06e09fa90d80f061e26098e545740f89856dbe657e7a634",
+    "checkedAt": "2026-11-16T11:58:07.400Z"
+  },
+  {
+    "id": "component:meridian-slate-tool-call",
+    "url": "/systems/preview/?system=meridian-slate&component=tool-call&theme=light",
+    "sha256": "299e6165cc4c91734a96eb8f3de45ff432db48e9b273a0423b519993692fbe75",
+    "checkedAt": "2026-11-16T11:58:07.643Z"
+  },
+  {
+    "id": "component:meridian-slate-tooltip",
+    "url": "/systems/preview/?system=meridian-slate&component=tooltip&theme=light",
+    "sha256": "4402a5cc4de36e058654409a1252f7d0fbdd758ff77c518057d39d90e0f21cba",
+    "checkedAt": "2026-11-16T11:58:07.879Z"
+  },
+  {
+    "id": "component:meridian-slate-truncate",
+    "url": "/systems/preview/?system=meridian-slate&component=truncate&theme=light",
+    "sha256": "d6b850df6d03dd695fb9e22fbf013eacde38dc2bc73699350ab0bf0ebfb814b3",
+    "checkedAt": "2026-11-16T11:58:08.111Z"
+  },
+  {
+    "id": "component:pin-ui/add-member",
+    "url": "/components/pinui-preview/?component=add-member&theme=light",
+    "sha256": "923adca9e2720b011f6c6104debf9c3b399ecbce673271f197274da7543aabcf",
+    "checkedAt": "2026-11-16T11:58:08.345Z"
+  },
+  {
+    "id": "component:pin-ui/balance-card",
+    "url": "/components/pinui-preview/?component=balance-card&theme=light",
+    "sha256": "d90642f6608e5ec73b556eaa49fde0f158a8f9ad94cc24e83752c76e8243b264",
+    "checkedAt": "2026-11-16T11:58:08.568Z"
+  },
+  {
+    "id": "component:pin-ui/calendar-card",
+    "url": "/components/pinui-preview/?component=calendar-card&theme=light",
+    "sha256": "df0501f88dc2b0fcd98b27c69b079e3d5e6ebc38d202edb5a59993a831148d93",
+    "checkedAt": "2026-11-16T11:58:08.784Z"
+  },
+  {
+    "id": "component:pin-ui/cart-card",
+    "url": "/components/pinui-preview/?component=cart-card&theme=light",
+    "sha256": "515d3553149c9150c06e04bd679ecd0dfc8f36d11aac2aac5e25c0db9838380c",
+    "checkedAt": "2026-11-16T11:58:09.290Z"
+  },
+  {
+    "id": "component:pin-ui/chat-room",
+    "url": "/components/pinui-preview/?component=chat-room&theme=light",
+    "sha256": "546e771d237250f512e17394f356c3c19e3975a2ba6e388b10414d7e4d9b9564",
+    "checkedAt": "2026-11-16T11:58:09.511Z"
+  },
+  {
+    "id": "component:pin-ui/chips",
+    "url": "/components/pinui-preview/?component=chips&theme=light",
+    "sha256": "67013023dab554056d98ddbe91aae696af0720e5bcb8971d887d1220d5740db6",
+    "checkedAt": "2026-11-16T11:58:09.745Z"
+  },
+  {
+    "id": "component:pin-ui/copy-paste-pad",
+    "url": "/components/pinui-preview/?component=copy-paste-pad&theme=light",
+    "sha256": "1d4770ae8d6d73ee3afbbfc5eb01149189ddb089cbf981791d980f1a92989435",
+    "checkedAt": "2026-11-16T11:58:10.755Z"
+  },
+  {
+    "id": "component:pin-ui/desk-computer",
+    "url": "/components/pinui-preview/?component=desk-computer&theme=light",
+    "sha256": "127dd6154a58f9236bd10af6a2ca38b238d39bcbeb79fe692eb76a2bd5777215",
+    "checkedAt": "2026-11-16T11:58:11.277Z"
+  },
+  {
+    "id": "component:pin-ui/dynamic-drop-zone",
+    "url": "/components/pinui-preview/?component=dynamic-drop-zone&theme=light",
+    "sha256": "59f0923e712ebcd06d864aedd89e842f99f8bd6e5cbe3ea50ed5eed8110dd8d4",
+    "checkedAt": "2026-11-16T11:58:11.512Z"
+  },
+  {
+    "id": "component:pin-ui/file-box",
+    "url": "/components/pinui-preview/?component=file-box&theme=light",
+    "sha256": "fe8b3a7a06c60d58319b2517441d4af0b15dcfc06406488e00ceb142d9415405",
+    "checkedAt": "2026-11-16T11:58:11.924Z"
+  },
+  {
+    "id": "component:pin-ui/joystick",
+    "url": "/components/pinui-preview/?component=joystick&theme=light",
+    "sha256": "85cfca335c315db16dfdba6b040d4aba6491d3e8d44fd192f1ef8e9441899f47",
+    "checkedAt": "2026-11-16T11:58:12.369Z"
+  },
+  {
+    "id": "component:pin-ui/lamp-switch",
+    "url": "/components/pinui-preview/?component=lamp-switch&theme=light",
+    "sha256": "0ce0ce4521e824b535e035e5eb3870adbacea645b8eb1f6f2d84c21f7f004789",
+    "checkedAt": "2026-11-16T11:58:12.843Z"
+  },
+  {
+    "id": "component:pin-ui/liquid-tabs",
+    "url": "/components/pinui-preview/?component=liquid-tabs&theme=light",
+    "sha256": "d0f400c8d778546549069f2751c4b1ea62d2d0b353d644f9d1b02ed1a44f242b",
+    "checkedAt": "2026-11-16T11:58:13.066Z"
+  },
+  {
+    "id": "component:pin-ui/liquid-voice",
+    "url": "/components/pinui-preview/?component=liquid-voice&theme=light",
+    "sha256": "8af2d6e93aa8dfc7a2ba248fd71f7479725237761ac346f18ee964ca2a50d698",
+    "checkedAt": "2026-11-16T11:58:13.447Z"
+  },
+  {
+    "id": "component:pin-ui/magnify",
+    "url": "/components/pinui-preview/?component=magnify&theme=light",
+    "sha256": "6b90c0dc0ae76917b123d08dc9430146db757facc0e72248853e34b8400f151d",
+    "checkedAt": "2026-11-16T11:58:13.842Z"
+  },
+  {
+    "id": "component:pin-ui/otp-input",
+    "url": "/components/pinui-preview/?component=otp-input&theme=light",
+    "sha256": "a56dfde7cceb6e6cd0d5c500671ff80aa089265600f40e09120fdfd53cda4bc6",
+    "checkedAt": "2026-11-16T11:58:14.060Z"
+  },
+  {
+    "id": "component:pin-ui/presence-cards",
+    "url": "/components/pinui-preview/?component=presence-cards&theme=light",
+    "sha256": "30c55e8e7bac57a1d17821364f41ac0117baed0dc7f590c44278fdd450c23e90",
+    "checkedAt": "2026-11-16T11:58:14.316Z"
+  },
+  {
+    "id": "component:pin-ui/progress-image",
+    "url": "/components/pinui-preview/?component=progress-image&theme=light",
+    "sha256": "e0daf718b44e44fe88ee46a99fea1dd52d8b0968a6c1234edb25771052e0e983",
+    "checkedAt": "2026-11-16T11:58:14.544Z"
+  },
+  {
+    "id": "component:pin-ui/prompt-composer",
+    "url": "/components/pinui-preview/?component=prompt-composer&theme=light",
+    "sha256": "12d1713f23290b76a35b0b2b83d0a60279bba827098b4ac385900a1425522c44",
+    "checkedAt": "2026-11-16T11:58:14.777Z"
+  },
+  {
+    "id": "component:pin-ui/reader-card",
+    "url": "/components/pinui-preview/?component=reader-card&theme=light",
+    "sha256": "6a270c67e196430f59ad0fa0c2c94c428f4457aa9c13b583e0f8dea8106174e3",
+    "checkedAt": "2026-11-16T11:58:15.048Z"
+  },
+  {
+    "id": "component:pin-ui/recorder",
+    "url": "/components/pinui-preview/?component=recorder&theme=light",
+    "sha256": "5d15e12dc7c31daa6e1e9b0098fe65a01d40ffbe0e8b8b13841d2513e5a40731",
+    "checkedAt": "2026-11-16T11:58:15.302Z"
+  },
+  {
+    "id": "component:pin-ui/search-card",
+    "url": "/components/pinui-preview/?component=search-card&theme=light",
+    "sha256": "658b1fde0f5fc8a9b5f4d074e4a89593b48f2a5df1fa24ef00fdb8cda325ea23",
+    "checkedAt": "2026-11-16T11:58:15.543Z"
+  },
+  {
+    "id": "component:pin-ui/selection-list",
+    "url": "/components/pinui-preview/?component=selection-list&theme=light",
+    "sha256": "09d290b17a79b20650787c201b8c472aa116378826323211d8ba1f97c56d9da1",
+    "checkedAt": "2026-11-16T11:58:15.759Z"
+  },
+  {
+    "id": "component:pin-ui/session-list",
+    "url": "/components/pinui-preview/?component=session-list&theme=light",
+    "sha256": "cf40aedc66e0af2756f6cfe81a5bd984fbe61813fea491ab385946710f90aa8a",
+    "checkedAt": "2026-11-16T11:58:15.978Z"
+  },
+  {
+    "id": "component:pin-ui/swap-card",
+    "url": "/components/pinui-preview/?component=swap-card&theme=light",
+    "sha256": "7bde4106eb4f94935e0b9a4700bf1baf314a7aaf683f4e60e3fd40a8d0c2c0f4",
+    "checkedAt": "2026-11-16T11:58:16.227Z"
+  },
+  {
+    "id": "component:pin-ui/synais-footer",
+    "url": "/components/pinui-preview/?component=synais-footer&theme=light",
+    "sha256": "6b6d4704e7dda9beaf301e880bb79e060acc5a24ac9aa46ed9d479ef833e4867",
+    "checkedAt": "2026-11-16T11:58:16.444Z"
+  },
+  {
+    "id": "component:pin-ui/task-card",
+    "url": "/components/pinui-preview/?component=task-card&theme=light",
+    "sha256": "859dd5fb1ee65bed408596f92235152ee6d5942c5cc9c4b05a3a2f8d99bb2ec4",
+    "checkedAt": "2026-11-16T11:58:16.663Z"
+  },
+  {
+    "id": "component:pin-ui/taxi",
+    "url": "/components/pinui-preview/?component=taxi&theme=light",
+    "sha256": "a9629297397d56269f2b887b350c30f976e7b8ff9a5384fac4cb4907f873fda2",
+    "checkedAt": "2026-11-16T11:58:17.108Z"
+  },
+  {
+    "id": "component:pin-ui/theme-switch",
+    "url": "/components/pinui-preview/?component=theme-switch&theme=light",
+    "sha256": "8679487fb8e2da1b96e35830bae86214cbe0b1c1ad0872279654e29698f33504",
+    "checkedAt": "2026-11-16T11:58:17.326Z"
+  },
+  {
+    "id": "component:pin-ui/thermal-dial",
+    "url": "/components/pinui-preview/?component=thermal-dial&theme=light",
+    "sha256": "06c96070e34116e4b9c096e6a39a0ca27be88e81c23c09905f87e9f3e898903c",
+    "checkedAt": "2026-11-16T11:58:17.585Z"
+  },
+  {
+    "id": "component:pin-ui/weather",
+    "url": "/components/pinui-preview/?component=weather&theme=light",
+    "sha256": "7eff03bf23fbcc1318b3f6600f8a790b79860abe6adb016868b06c5c12dae324",
+    "checkedAt": "2026-11-16T11:58:17.800Z"
+  },
+  {
+    "id": "component:quartz-activity",
+    "url": "/systems/preview/?system=quartz&component=activity&theme=light",
+    "sha256": "44086dab34d844c556c0d943a1aba7efecf13a43410f7c3bbdeb5af75a6f3dec",
+    "checkedAt": "2026-11-16T11:58:18.059Z"
+  },
+  {
+    "id": "component:quartz-agent-session",
+    "url": "/systems/preview/?system=quartz&component=agent-session&theme=light",
+    "sha256": "7e41a029990b68d1a27864f412fb92617b5d8c423d9ef3c9a251669fb8dac9ce",
+    "checkedAt": "2026-11-16T11:58:18.377Z"
+  },
+  {
+    "id": "component:quartz-alert",
+    "url": "/systems/preview/?system=quartz&component=alert&theme=light",
+    "sha256": "d155c90dc13b3f3d193938a13605f64b2a916c63d1f038b355c05d4f5284b7f5",
+    "checkedAt": "2026-11-16T11:58:18.611Z"
+  },
+  {
+    "id": "component:quartz-api-keys",
+    "url": "/systems/preview/?system=quartz&component=api-keys&theme=light",
+    "sha256": "f2601af6298a16ab0ddd398bd39eecb2ed53d470af15647ce7283966436ee94e",
+    "checkedAt": "2026-11-16T11:58:18.894Z"
+  },
+  {
+    "id": "component:quartz-attachment",
+    "url": "/systems/preview/?system=quartz&component=attachment&theme=light",
+    "sha256": "68e6ca8f5e26f2701fbb78bd28304cdb54d7c0ad83ad0589a76ad5d2e7b551ba",
+    "checkedAt": "2026-11-16T11:58:19.149Z"
+  },
+  {
+    "id": "component:quartz-avatar",
+    "url": "/systems/preview/?system=quartz&component=avatar&theme=light",
+    "sha256": "4cd5fb98fc7bc7ed8723f35430bdca70fd9d6af700240fb3fa6135a66c2bc5f8",
+    "checkedAt": "2026-11-16T11:58:19.398Z"
+  },
+  {
+    "id": "component:quartz-badge",
+    "url": "/systems/preview/?system=quartz&component=badge&theme=light",
+    "sha256": "af26489e5ab7edfcee029991724824f6eb43c406322e88c4b035c98a7d17e489",
+    "checkedAt": "2026-11-16T11:58:19.643Z"
+  },
+  {
+    "id": "component:quartz-breadcrumb",
+    "url": "/systems/preview/?system=quartz&component=breadcrumb&theme=light",
+    "sha256": "efd9af67a831416e7e9922799f20944c1240cde2ff63e9de6008bb84a1450975",
+    "checkedAt": "2026-11-16T11:58:19.921Z"
+  },
+  {
+    "id": "component:quartz-bulk-action-bar",
+    "url": "/systems/preview/?system=quartz&component=bulk-action-bar&theme=light",
+    "sha256": "92a3f9ae43f0a84cdb69ae1086c38de641e7a2b29067368b55f7c0479a298bde",
+    "checkedAt": "2026-11-16T11:58:20.334Z"
+  },
+  {
+    "id": "component:quartz-button",
+    "url": "/systems/preview/?system=quartz&component=button&theme=light",
+    "sha256": "9642be095c23637e86269e721fd7a26826b76eed38ac3bb80b416cd2f23804a3",
+    "checkedAt": "2026-11-16T11:58:20.583Z"
+  },
+  {
+    "id": "component:quartz-button-group",
+    "url": "/systems/preview/?system=quartz&component=button-group&theme=light",
+    "sha256": "64253764166d7ee8a5cf07168668eec58fda0419ff37b5891b15e04d598295e3",
+    "checkedAt": "2026-11-16T11:58:20.848Z"
+  },
+  {
+    "id": "component:quartz-card",
+    "url": "/systems/preview/?system=quartz&component=card&theme=light",
+    "sha256": "49974259e2ac69d51c57beddf78d25b3a6d5748a9b72a333b075d040f7f922fa",
+    "checkedAt": "2026-11-16T11:58:21.088Z"
+  },
+  {
+    "id": "component:quartz-chart",
+    "url": "/systems/preview/?system=quartz&component=chart&theme=light",
+    "sha256": "4bd4246adedd226c2b92305de11521649aa3237f5733c46aacfccb2dd4c92457",
+    "checkedAt": "2026-11-16T11:58:21.360Z"
+  },
+  {
+    "id": "component:quartz-checkbox",
+    "url": "/systems/preview/?system=quartz&component=checkbox&theme=light",
+    "sha256": "fcadef5d7464fea7b6b0341ee5dd1ffd4a8c72b6c5c7b81623e564a6a84b8998",
+    "checkedAt": "2026-11-16T11:58:21.628Z"
+  },
+  {
+    "id": "component:quartz-chip",
+    "url": "/systems/preview/?system=quartz&component=chip&theme=light",
+    "sha256": "5dc9191720ad4983c618a0c8f4ef87d6246052a6b950b7bae6ec8c58141a2235",
+    "checkedAt": "2026-11-16T11:58:21.883Z"
+  },
+  {
+    "id": "component:quartz-code-block",
+    "url": "/systems/preview/?system=quartz&component=code-block&theme=light",
+    "sha256": "ad3dda9ff61125b375b48da326f555a8974e01b8efc41c207babe7d835fd7037",
+    "checkedAt": "2026-11-16T11:58:22.115Z"
+  },
+  {
+    "id": "component:quartz-collapsible",
+    "url": "/systems/preview/?system=quartz&component=collapsible&theme=light",
+    "sha256": "b057f6c3ad78efe8abbdc7aff83ff8d192679ad58dc5e0546893ed12984f7a6f",
+    "checkedAt": "2026-11-16T11:58:22.352Z"
+  },
+  {
+    "id": "component:quartz-combobox",
+    "url": "/systems/preview/?system=quartz&component=combobox&theme=light",
+    "sha256": "d17bceb1c0eed4bb87a3efb54ef8f27d830bb3c12b0c713a1de5f159157e227f",
+    "checkedAt": "2026-11-16T11:58:22.642Z"
+  },
+  {
+    "id": "component:quartz-command",
+    "url": "/systems/preview/?system=quartz&component=command&theme=light",
+    "sha256": "05b6f63dfb1f0aaaf7e1fad61e4f5672100d15bc5494f1a6d8d5714bc6695af8",
+    "checkedAt": "2026-11-16T11:58:22.892Z"
+  },
+  {
+    "id": "component:quartz-conversation",
+    "url": "/systems/preview/?system=quartz&component=conversation&theme=light",
+    "sha256": "c5c96dcb72e99234f28d7a41dbbd906f5fc6276062ffd52b65bbf202e51df576",
+    "checkedAt": "2026-11-16T11:58:23.158Z"
+  },
+  {
+    "id": "component:quartz-copy-button",
+    "url": "/systems/preview/?system=quartz&component=copy-button&theme=light",
+    "sha256": "e13f7c168842b9b761b45f8d8763f9e502d1b488367e66eafd3850a5513761c1",
+    "checkedAt": "2026-11-16T11:58:23.423Z"
+  },
+  {
+    "id": "component:quartz-data-grid",
+    "url": "/systems/preview/?system=quartz&component=data-grid&theme=light",
+    "sha256": "1b80102f16e14227bce53a8360919a097d587a3edd5ffa8047f944f80d5fac0f",
+    "checkedAt": "2026-11-16T11:58:23.708Z"
+  },
+  {
+    "id": "component:quartz-data-list",
+    "url": "/systems/preview/?system=quartz&component=data-list&theme=light",
+    "sha256": "1d152e57f7ebc20b1639ff79f8c21c2384e10ef51e70b8304d8dd2d740c001fa",
+    "checkedAt": "2026-11-16T11:58:23.959Z"
+  },
+  {
+    "id": "component:quartz-date-picker",
+    "url": "/systems/preview/?system=quartz&component=date-picker&theme=light",
+    "sha256": "4a7374ae47e34342b48d7897f4d3dce52e5002502a9b9b3a10ac498c32c4a78c",
+    "checkedAt": "2026-11-16T11:58:24.195Z"
+  },
+  {
+    "id": "component:quartz-deploy-detail",
+    "url": "/systems/preview/?system=quartz&component=deploy-detail&theme=light",
+    "sha256": "13fab4d4bffe133866dec57fec8fba4159c87854e48b941130fddaa9d4010bfc",
+    "checkedAt": "2026-11-16T11:58:24.460Z"
+  },
+  {
+    "id": "component:quartz-dialog",
+    "url": "/systems/preview/?system=quartz&component=dialog&theme=light",
+    "sha256": "1e67c99c3b02575947684137a3a63128507626f780ce5cb08bcb25692219e82b",
+    "checkedAt": "2026-11-16T11:58:24.712Z"
+  },
+  {
+    "id": "component:quartz-dropdown-menu",
+    "url": "/systems/preview/?system=quartz&component=dropdown-menu&theme=light",
+    "sha256": "f21a07e5560bd60a0b30431503ce4fecc47a2288632b11669aac79201f9f55ac",
+    "checkedAt": "2026-11-16T11:58:24.968Z"
+  },
+  {
+    "id": "component:quartz-empty-state",
+    "url": "/systems/preview/?system=quartz&component=empty-state&theme=light",
+    "sha256": "31fdd3471711b8f182ef065e7e8395a540ed4c840892a68eb2bd1caf1f443387",
+    "checkedAt": "2026-11-16T11:58:25.214Z"
+  },
+  {
+    "id": "component:quartz-field",
+    "url": "/systems/preview/?system=quartz&component=field&theme=light",
+    "sha256": "d7ca21bcff06b310486cbf571d2b67321cbe4841bc4aa2c05cdc6a9990ef71f5",
+    "checkedAt": "2026-11-16T11:58:25.478Z"
+  },
+  {
+    "id": "component:quartz-filter-bar",
+    "url": "/systems/preview/?system=quartz&component=filter-bar&theme=light",
+    "sha256": "95689d9cebdad41b424291f19bfa2df262c6dd586111280e4020f5c277dbaeef",
+    "checkedAt": "2026-11-16T11:58:25.792Z"
+  },
+  {
+    "id": "component:quartz-icon",
+    "url": "/systems/preview/?system=quartz&component=icon&theme=light",
+    "sha256": "fc2821328ebdd1007c994c082514a962de0087d15ad3d84f3e32f9e1441f954a",
+    "checkedAt": "2026-11-16T11:58:26.159Z"
+  },
+  {
+    "id": "component:quartz-input",
+    "url": "/systems/preview/?system=quartz&component=input&theme=light",
+    "sha256": "9a841027b02e0775693e32b7aac0cfeb53d9a15421fe5a6433251ac76c82ad80",
+    "checkedAt": "2026-11-16T11:58:26.460Z"
+  },
+  {
+    "id": "component:quartz-item",
+    "url": "/systems/preview/?system=quartz&component=item&theme=light",
+    "sha256": "b6e36d2cd73c3d5b62da3cffe891b1648a096e3f66cb29234d9fe0c651488706",
+    "checkedAt": "2026-11-16T11:58:26.714Z"
+  },
+  {
+    "id": "component:quartz-json-view",
+    "url": "/systems/preview/?system=quartz&component=json-view&theme=light",
+    "sha256": "79c6e90b86f41df8e6099608b863f37135b5767059c567d3a1c845897a0088a3",
+    "checkedAt": "2026-11-16T11:58:26.975Z"
+  },
+  {
+    "id": "component:quartz-kbd",
+    "url": "/systems/preview/?system=quartz&component=kbd&theme=light",
+    "sha256": "67c6ffb44a8c56c72c39ddb4df4f3bf1b6a3f1e75e8fd2a890e90ad92112bf44",
+    "checkedAt": "2026-11-16T11:58:27.212Z"
+  },
+  {
+    "id": "component:quartz-live-requests",
+    "url": "/systems/preview/?system=quartz&component=live-requests&theme=light",
+    "sha256": "6ed761d49daaa2d4a4dae49d39ad41055c28a161eada1148a062c0db103c2864",
+    "checkedAt": "2026-11-16T11:58:27.544Z"
+  },
+  {
+    "id": "component:quartz-log-viewer",
+    "url": "/systems/preview/?system=quartz&component=log-viewer&theme=light",
+    "sha256": "94c126875fdb1e382b6ec549cc5b762d259a16f1812dd56a713bcfe7ed860041",
+    "checkedAt": "2026-11-16T11:58:27.784Z"
+  },
+  {
+    "id": "component:quartz-mention",
+    "url": "/systems/preview/?system=quartz&component=mention&theme=light",
+    "sha256": "5a6a2e95a9d33ce7c306c28033020a742fe551e4479c319cdc0336935e3a703d",
+    "checkedAt": "2026-11-16T11:58:28.033Z"
+  },
+  {
+    "id": "component:quartz-message",
+    "url": "/systems/preview/?system=quartz&component=message&theme=light",
+    "sha256": "370be1b822165cc0fa77f2fec3ce9a0a429b6c6307c711a69f348fa9f35360c0",
+    "checkedAt": "2026-11-16T11:58:28.283Z"
+  },
+  {
+    "id": "component:quartz-page-header",
+    "url": "/systems/preview/?system=quartz&component=page-header&theme=light",
+    "sha256": "f9100e299289f10b3f6071985fc24d2e6f088cee2b7fa7ac8a3ee9edd167531a",
+    "checkedAt": "2026-11-16T11:58:28.532Z"
+  },
+  {
+    "id": "component:quartz-pagination",
+    "url": "/systems/preview/?system=quartz&component=pagination&theme=light",
+    "sha256": "736f43ddb1899d3860a63a5121fcd5158fc98fac7cd2a2aa9f1da34a190f4d1d",
+    "checkedAt": "2026-11-16T11:58:28.766Z"
+  },
+  {
+    "id": "component:quartz-panel",
+    "url": "/systems/preview/?system=quartz&component=panel&theme=light",
+    "sha256": "f5aab440a2cb79b8fdec2d1eb8060ef21a5a3d7ef5f9e77fe7529843db6c0d7f",
+    "checkedAt": "2026-11-16T11:58:29.001Z"
+  },
+  {
+    "id": "component:quartz-popover",
+    "url": "/systems/preview/?system=quartz&component=popover&theme=light",
+    "sha256": "72a4532808b8c5075fb083a42599ba49436038dba5d3b4fdcdeebb8c1043e36e",
+    "checkedAt": "2026-11-16T11:58:29.248Z"
+  },
+  {
+    "id": "component:quartz-progress",
+    "url": "/systems/preview/?system=quartz&component=progress&theme=light",
+    "sha256": "a3aa27ba6f2c059390865c08141cc1ab428c6d5a28f5fb40dfd32ad9b03c6a13",
+    "checkedAt": "2026-11-16T11:58:29.497Z"
+  },
+  {
+    "id": "component:quartz-project-home",
+    "url": "/systems/preview/?system=quartz&component=project-home&theme=light",
+    "sha256": "baa009343881dc10f52aa0069de25c6d34cb0ff88d35755b2cd2ca65460e70b9",
+    "checkedAt": "2026-11-16T11:58:29.793Z"
+  },
+  {
+    "id": "component:quartz-prompt-input",
+    "url": "/systems/preview/?system=quartz&component=prompt-input&theme=light",
+    "sha256": "a13c907180de2786ce25550b0fb021a725aea95b43f9a68c9bacc6ed10860646",
+    "checkedAt": "2026-11-16T11:58:30.042Z"
+  },
+  {
+    "id": "component:quartz-radio-group",
+    "url": "/systems/preview/?system=quartz&component=radio-group&theme=light",
+    "sha256": "3df169f910a00ad8711c146a8ed9d2356d0acf55c5b20306ce41e25989fd8bb4",
+    "checkedAt": "2026-11-16T11:58:30.309Z"
+  },
+  {
+    "id": "component:quartz-reasoning",
+    "url": "/systems/preview/?system=quartz&component=reasoning&theme=light",
+    "sha256": "cae901b1d79afa9c62e9b5662ba4a49cdb07239a0627b53299fbab0bdfa51931",
+    "checkedAt": "2026-11-16T11:58:30.564Z"
+  },
+  {
+    "id": "component:quartz-relative-time",
+    "url": "/systems/preview/?system=quartz&component=relative-time&theme=light",
+    "sha256": "8ec1ff6a893f4d3218850dff39272cc65c5673dd833caed2b3f3e1ceb0f1cfa0",
+    "checkedAt": "2026-11-16T11:58:30.797Z"
+  },
+  {
+    "id": "component:quartz-response",
+    "url": "/systems/preview/?system=quartz&component=response&theme=light",
+    "sha256": "a823766a128cf30e69456ee15939d4c072dc43c4825ab98af675de9ff99d1907",
+    "checkedAt": "2026-11-16T11:58:31.030Z"
+  },
+  {
+    "id": "component:quartz-run-trace",
+    "url": "/systems/preview/?system=quartz&component=run-trace&theme=light",
+    "sha256": "54190ed2149bcb768be4267e5ff8920ec32720617d61ae990c9fc1c47c82c57c",
+    "checkedAt": "2026-11-16T11:58:31.283Z"
+  },
+  {
+    "id": "component:quartz-segmented-control",
+    "url": "/systems/preview/?system=quartz&component=segmented-control&theme=light",
+    "sha256": "841cafb8c6d3e0d31d93881d52e3e6ae19e790ee566fcf611a80b5e95e9af220",
+    "checkedAt": "2026-11-16T11:58:31.542Z"
+  },
+  {
+    "id": "component:quartz-select",
+    "url": "/systems/preview/?system=quartz&component=select&theme=light",
+    "sha256": "a019b38b5f6841fe92f7ca6123022ab4fb2e730b201522471e982906752a2d24",
+    "checkedAt": "2026-11-16T11:58:31.808Z"
+  },
+  {
+    "id": "component:quartz-send-button",
+    "url": "/systems/preview/?system=quartz&component=send-button&theme=light",
+    "sha256": "d7923db22b51adf2fd884f00f74f5e126d0bcc26c10c34936f060a4c11d162d4",
+    "checkedAt": "2026-11-16T11:58:32.073Z"
+  },
+  {
+    "id": "component:quartz-sheet",
+    "url": "/systems/preview/?system=quartz&component=sheet&theme=light",
+    "sha256": "d2fb7642c565ad37258a4ba24bcc1a9f0947570c495381100b47717e47069525",
+    "checkedAt": "2026-11-16T11:58:32.339Z"
+  },
+  {
+    "id": "component:quartz-skeleton",
+    "url": "/systems/preview/?system=quartz&component=skeleton&theme=light",
+    "sha256": "25d8859e313f9411f84d1ce7289d6ebbad94ae1f5b61b8b0a47abdd006761a92",
+    "checkedAt": "2026-11-16T11:58:32.606Z"
+  },
+  {
+    "id": "component:quartz-slider",
+    "url": "/systems/preview/?system=quartz&component=slider&theme=light",
+    "sha256": "b55bab2124c14ae33dc0748025ba6d511e0d152b2707d6722132c48351da7bce",
+    "checkedAt": "2026-11-16T11:58:32.873Z"
+  },
+  {
+    "id": "component:quartz-stat",
+    "url": "/systems/preview/?system=quartz&component=stat&theme=light",
+    "sha256": "f45c6ddd83051c0ce6c527e7e776d7b7d4abcac484e3d441ad59a37b37bb9898",
+    "checkedAt": "2026-11-16T11:58:33.141Z"
+  },
+  {
+    "id": "component:quartz-status",
+    "url": "/systems/preview/?system=quartz&component=status&theme=light",
+    "sha256": "73d5e33451c55f1d98fae3223337e04235d21e1e05f52130c222c497388da37d",
+    "checkedAt": "2026-11-16T11:58:33.406Z"
+  },
+  {
+    "id": "component:quartz-switch",
+    "url": "/systems/preview/?system=quartz&component=switch&theme=light",
+    "sha256": "85825cb330a6049a6d8b8ffc36f2ccf94bc91f6e035b562aacf7f83fd122e951",
+    "checkedAt": "2026-11-16T11:58:33.675Z"
+  },
+  {
+    "id": "component:quartz-table",
+    "url": "/systems/preview/?system=quartz&component=table&theme=light",
+    "sha256": "8ee9841269e4f1e31fe0da8b8d8bef21096a0dc86865f10e935c389eab6f4c50",
+    "checkedAt": "2026-11-16T11:58:33.940Z"
+  },
+  {
+    "id": "component:quartz-tabs",
+    "url": "/systems/preview/?system=quartz&component=tabs&theme=light",
+    "sha256": "3ea0efe4a55fa4a428de638016f0a1084eca16f54852d55cb9ca8da8e8bc1aaa",
+    "checkedAt": "2026-11-16T11:58:34.207Z"
+  },
+  {
+    "id": "component:quartz-textarea",
+    "url": "/systems/preview/?system=quartz&component=textarea&theme=light",
+    "sha256": "edddae583411f33ad9eb3c5e5c1d76ff9e20964516266bb93ad256aadfe58de8",
+    "checkedAt": "2026-11-16T11:58:34.459Z"
+  },
+  {
+    "id": "component:quartz-timeline",
+    "url": "/systems/preview/?system=quartz&component=timeline&theme=light",
+    "sha256": "c23ee9603daecb4436efeb341fe3988c45abee86188fb266e8f197a1e9b102ce",
+    "checkedAt": "2026-11-16T11:58:34.712Z"
+  },
+  {
+    "id": "component:quartz-toast",
+    "url": "/systems/preview/?system=quartz&component=toast&theme=light",
+    "sha256": "d3ac0b2523e799026ef6e2de987e02cad473922e4cbc01bf5d5a9c46e6c4e1a7",
+    "checkedAt": "2026-11-16T11:58:34.948Z"
+  },
+  {
+    "id": "component:quartz-tool-approval",
+    "url": "/systems/preview/?system=quartz&component=tool-approval&theme=light",
+    "sha256": "ab12476eaaa07c4e40cf61a44448f5e546ed0277ccc737dab0ae9485c0c51821",
+    "checkedAt": "2026-11-16T11:58:35.220Z"
+  },
+  {
+    "id": "component:quartz-tool-call",
+    "url": "/systems/preview/?system=quartz&component=tool-call&theme=light",
+    "sha256": "3b86a9c8f32e0d5ea1ab74eb56871fbdca7e40a4c9bafe9380857b6339a0161a",
+    "checkedAt": "2026-11-16T11:58:35.475Z"
+  },
+  {
+    "id": "component:quartz-tooltip",
+    "url": "/systems/preview/?system=quartz&component=tooltip&theme=light",
+    "sha256": "173fe2cb45486525a8f38eb045bdd54530cededd654f3ca41d049043ef4792a6",
+    "checkedAt": "2026-11-16T11:58:35.715Z"
+  },
+  {
+    "id": "component:quartz-truncate",
+    "url": "/systems/preview/?system=quartz&component=truncate&theme=light",
+    "sha256": "58ab363733064d6b6fb351e898bf45e6ed4de9b6ce10a35f1b54c320a966f03f",
+    "checkedAt": "2026-11-16T11:58:35.962Z"
+  },
+  {
+    "id": "component:sodium-activity",
+    "url": "/systems/preview/?system=sodium&component=activity&theme=light",
+    "sha256": "cd22082ff93530057fb4e1c927da51d367f13a60b07708499c4032073cacb99b",
+    "checkedAt": "2026-11-16T11:58:36.646Z"
+  },
+  {
+    "id": "component:sodium-alert",
+    "url": "/systems/preview/?system=sodium&component=alert&theme=light",
+    "sha256": "5393600f5a578ef2114dcd239655a00892a3005082bb8fb4afb037d0c01b4f00",
+    "checkedAt": "2026-11-16T11:58:36.882Z"
+  },
+  {
+    "id": "component:sodium-avatar",
+    "url": "/systems/preview/?system=sodium&component=avatar&theme=light",
+    "sha256": "fc248f3c579089222393d7e0a81980013abc2d02e37adccd809bac206c48df09",
+    "checkedAt": "2026-11-16T11:58:37.125Z"
+  },
+  {
+    "id": "component:sodium-bar-blocks",
+    "url": "/systems/preview/?system=sodium&component=bar-blocks&theme=light",
+    "sha256": "7c87103d3992669f7194373d735e1586b6816c9f1bed770af3fdf3a850b6c4cf",
+    "checkedAt": "2026-11-16T11:58:37.390Z"
+  },
+  {
+    "id": "component:sodium-breadcrumb",
+    "url": "/systems/preview/?system=sodium&component=breadcrumb&theme=light",
+    "sha256": "4fd69594a38f5e051b54ca0c28f8a93676f26f213aac0e3ad3ddc8c78ee52275",
+    "checkedAt": "2026-11-16T11:58:37.658Z"
+  },
+  {
+    "id": "component:sodium-button",
+    "url": "/systems/preview/?system=sodium&component=button&theme=light",
+    "sha256": "169272f80adcd0dc2a1bd8cce18f001ca90f7a0a1aadcdfab9e4089bea271a44",
+    "checkedAt": "2026-11-16T11:58:37.942Z"
+  },
+  {
+    "id": "component:sodium-button-group",
+    "url": "/systems/preview/?system=sodium&component=button-group&theme=light",
+    "sha256": "da9619415765484dd8b13664dec37c8bbe2eb9fbaaa01fbcfa426f39e853030a",
+    "checkedAt": "2026-11-16T11:58:38.192Z"
+  },
+  {
+    "id": "component:sodium-chart",
+    "url": "/systems/preview/?system=sodium&component=chart&theme=light",
+    "sha256": "55d450c8ead64f367b73d716e6543bb24e4bd8c3268ca244db7cd0aff09555bc",
+    "checkedAt": "2026-11-16T11:58:38.466Z"
+  },
+  {
+    "id": "component:sodium-checkbox",
+    "url": "/systems/preview/?system=sodium&component=checkbox&theme=light",
+    "sha256": "37275539d497a8e9ac766b3456a22cbd095f6e36527515057a4afbfa81d2f626",
+    "checkedAt": "2026-11-16T11:58:39.064Z"
+  },
+  {
+    "id": "component:sodium-code-block",
+    "url": "/systems/preview/?system=sodium&component=code-block&theme=light",
+    "sha256": "79c216067258d4b6dbc2626c5410994bf0dd6c87b1015dbd1c9b0514f1befef6",
+    "checkedAt": "2026-11-16T11:58:39.358Z"
+  },
+  {
+    "id": "component:sodium-code-window",
+    "url": "/systems/preview/?system=sodium&component=code-window&theme=light",
+    "sha256": "4311277a3fd74762b34e298c5fa0c4f48edd479d7eeef59a3e9f0947536fc3e9",
+    "checkedAt": "2026-11-16T11:58:39.598Z"
+  },
+  {
+    "id": "component:sodium-collapsible",
+    "url": "/systems/preview/?system=sodium&component=collapsible&theme=light",
+    "sha256": "b08c28b51f1fd27c995623fb4c2b5809df6755111cc47a5a1c6da9e19a1ec4ee",
+    "checkedAt": "2026-11-16T11:58:39.833Z"
+  },
+  {
+    "id": "component:sodium-combobox",
+    "url": "/systems/preview/?system=sodium&component=combobox&theme=light",
+    "sha256": "93e82cef7d1452bda180217674e41e5c2e06e75095825c37ad81a8647a8033e4",
+    "checkedAt": "2026-11-16T11:58:40.074Z"
+  },
+  {
+    "id": "component:sodium-command",
+    "url": "/systems/preview/?system=sodium&component=command&theme=light",
+    "sha256": "444fec8ba4e0f315a00368e52bfadac537c5740d1265c19e865f97984d9493a7",
+    "checkedAt": "2026-11-16T11:58:40.340Z"
+  },
+  {
+    "id": "component:sodium-copy-button",
+    "url": "/systems/preview/?system=sodium&component=copy-button&theme=light",
+    "sha256": "103a31a250235ef56a28d6be7ad8ef029f38eaac3fd93c94bbffd3c24cc8920a",
+    "checkedAt": "2026-11-16T11:58:40.624Z"
+  },
+  {
+    "id": "component:sodium-data-list",
+    "url": "/systems/preview/?system=sodium&component=data-list&theme=light",
+    "sha256": "6a80039644788d976a19cd1f0cb4c4e510d096b50bf9dc6ab089983b4959ed8e",
+    "checkedAt": "2026-11-16T11:58:40.876Z"
+  },
+  {
+    "id": "component:sodium-dialog",
+    "url": "/systems/preview/?system=sodium&component=dialog&theme=light",
+    "sha256": "6b8f0b2bdffa3e3236b6532b45cd57dac07e049068f03199ef72262e412eb6dc",
+    "checkedAt": "2026-11-16T11:58:41.125Z"
+  },
+  {
+    "id": "component:sodium-dropdown-menu",
+    "url": "/systems/preview/?system=sodium&component=dropdown-menu&theme=light",
+    "sha256": "97fbf26c0384c0ba8355885686d192e04c18dbc343e640b9a028b493d8039ae3",
+    "checkedAt": "2026-11-16T11:58:41.362Z"
+  },
+  {
+    "id": "component:sodium-empty-state",
+    "url": "/systems/preview/?system=sodium&component=empty-state&theme=light",
+    "sha256": "56ed77d74ed3448cad86ab34e73eb9645a23776f27a61486137326c9ac6ca5e6",
+    "checkedAt": "2026-11-16T11:58:41.595Z"
+  },
+  {
+    "id": "component:sodium-failed-load",
+    "url": "/systems/preview/?system=sodium&component=failed-load&theme=light",
+    "sha256": "cd9d833e69416770bca6f97d74ed67c05d8499ba41afa76218d4315df1589568",
+    "checkedAt": "2026-11-16T11:58:41.837Z"
+  },
+  {
+    "id": "component:sodium-field",
+    "url": "/systems/preview/?system=sodium&component=field&theme=light",
+    "sha256": "cf511f1e82b4a53e3da7dc9868d2fd1c217627211496ae8cfe1f7d0d6113e5e4",
+    "checkedAt": "2026-11-16T11:58:42.109Z"
+  },
+  {
+    "id": "component:sodium-filter-bar",
+    "url": "/systems/preview/?system=sodium&component=filter-bar&theme=light",
+    "sha256": "6a0cc9d534f0326f097b94bee7734714c2435fab51f3ee6139b556bc3acda898",
+    "checkedAt": "2026-11-16T11:58:42.358Z"
+  },
+  {
+    "id": "component:sodium-frame",
+    "url": "/systems/preview/?system=sodium&component=frame&theme=light",
+    "sha256": "865b5c323577215cf57a3a4dba45a0799078d215f00aa5da639870b758c96876",
+    "checkedAt": "2026-11-16T11:58:42.597Z"
+  },
+  {
+    "id": "component:sodium-icon",
+    "url": "/systems/preview/?system=sodium&component=icon&theme=light",
+    "sha256": "f42a0b956ac4e31fe55e1f9d1de0204a8f3d6f97d042382cd4e81b2bab1f71e3",
+    "checkedAt": "2026-11-16T11:58:42.848Z"
+  },
+  {
+    "id": "component:sodium-input",
+    "url": "/systems/preview/?system=sodium&component=input&theme=light",
+    "sha256": "5c356d5be62d6c5b30ea9b359a2cd14b755e4613a74e80a8b9d8dcb2e0e4cf04",
+    "checkedAt": "2026-11-16T11:58:43.092Z"
+  },
+  {
+    "id": "component:sodium-item",
+    "url": "/systems/preview/?system=sodium&component=item&theme=light",
+    "sha256": "9e07cac35b0d018a42e77ef040b115945bb0e2a5d6db8837fab25ceb531c4c67",
+    "checkedAt": "2026-11-16T11:58:43.330Z"
+  },
+  {
+    "id": "component:sodium-job-runs",
+    "url": "/systems/preview/?system=sodium&component=job-runs&theme=light",
+    "sha256": "a400a0abff91089d92c765123b8e786970f9f490bf8696851592e1ec52137262",
+    "checkedAt": "2026-11-16T11:58:43.568Z"
+  },
+  {
+    "id": "component:sodium-json-view",
+    "url": "/systems/preview/?system=sodium&component=json-view&theme=light",
+    "sha256": "812d288ccf5fb48536be30c25a8a422ab21e2d270b9d6a125e06d239d250e97d",
+    "checkedAt": "2026-11-16T11:58:43.809Z"
+  },
+  {
+    "id": "component:sodium-kbd",
+    "url": "/systems/preview/?system=sodium&component=kbd&theme=light",
+    "sha256": "7e698458a12ddbcd6323576367a875e60eca39ad0c61a5d6f747464eba178598",
+    "checkedAt": "2026-11-16T11:58:44.072Z"
+  },
+  {
+    "id": "component:sodium-log-viewer",
+    "url": "/systems/preview/?system=sodium&component=log-viewer&theme=light",
+    "sha256": "2223e0bdf064accdf64866914ae6d106ccfc1a0725a05f1b16c3ce994cc01b2a",
+    "checkedAt": "2026-11-16T11:58:44.340Z"
+  },
+  {
+    "id": "component:sodium-message",
+    "url": "/systems/preview/?system=sodium&component=message&theme=light",
+    "sha256": "b6d020b32a61f75d279a2246a005b9201afa652307070df2652a3a4c459cb764",
+    "checkedAt": "2026-11-16T11:58:44.607Z"
+  },
+  {
+    "id": "component:sodium-meter",
+    "url": "/systems/preview/?system=sodium&component=meter&theme=light",
+    "sha256": "ead9484ba69de3db0a5e67b31c891719dcc1af703b251b20ac87f0f70b64ad61",
+    "checkedAt": "2026-11-16T11:58:44.877Z"
+  },
+  {
+    "id": "component:sodium-numbered-tabs",
+    "url": "/systems/preview/?system=sodium&component=numbered-tabs&theme=light",
+    "sha256": "e62e0e5c544e1e6f34269bf928d7a53c4ce42f6b9b9cb5d3b7182a5442ab3507",
+    "checkedAt": "2026-11-16T11:58:45.113Z"
+  },
+  {
+    "id": "component:sodium-on-call",
+    "url": "/systems/preview/?system=sodium&component=on-call&theme=light",
+    "sha256": "7b54cac7f036e15635c477f79b89cf67276be7a0d47876524cd1f3cc733b2f99",
+    "checkedAt": "2026-11-16T11:58:45.353Z"
+  },
+  {
+    "id": "component:sodium-pagination",
+    "url": "/systems/preview/?system=sodium&component=pagination&theme=light",
+    "sha256": "a293115989506fd331b4cc52f7bdac6985ea0d5c9d075cda79fef4b26c2f61f3",
+    "checkedAt": "2026-11-16T11:58:45.608Z"
+  },
+  {
+    "id": "component:sodium-pipeline-history",
+    "url": "/systems/preview/?system=sodium&component=pipeline-history&theme=light",
+    "sha256": "ab146ed5761031b396ea26d4d95d5f196853521f39f35e2224c5b25bf3f4340c",
+    "checkedAt": "2026-11-16T11:58:45.850Z"
+  },
+  {
+    "id": "component:sodium-popover",
+    "url": "/systems/preview/?system=sodium&component=popover&theme=light",
+    "sha256": "ba051839da5fd017ff49837331c10c9de854ae30a16ecac1afb7290e5fd7d93b",
+    "checkedAt": "2026-11-16T11:58:46.078Z"
+  },
+  {
+    "id": "component:sodium-progress",
+    "url": "/systems/preview/?system=sodium&component=progress&theme=light",
+    "sha256": "8f410a2b1dddf6dd487fd03150d802d923b46b81b1a31bb54e854680d61bdd02",
+    "checkedAt": "2026-11-16T11:58:46.312Z"
+  },
+  {
+    "id": "component:sodium-prompt-input",
+    "url": "/systems/preview/?system=sodium&component=prompt-input&theme=light",
+    "sha256": "d99298742ad303a475d2d2d4c26141b0163cb6f069fa3c5f542c7f71e028d2b9",
+    "checkedAt": "2026-11-16T11:58:46.558Z"
+  },
+  {
+    "id": "component:sodium-radio-group",
+    "url": "/systems/preview/?system=sodium&component=radio-group&theme=light",
+    "sha256": "e03949da4dd18838c5a96e5a6e2ed7b383c727cd7023614be9bc8ae2fd39a30c",
+    "checkedAt": "2026-11-16T11:58:46.808Z"
+  },
+  {
+    "id": "component:sodium-response",
+    "url": "/systems/preview/?system=sodium&component=response&theme=light",
+    "sha256": "c9a446b11d94f3e3766097028b9cf2a851129c88ba94d00f5d7b31b40520f686",
+    "checkedAt": "2026-11-16T11:58:47.073Z"
+  },
+  {
+    "id": "component:sodium-run-progress",
+    "url": "/systems/preview/?system=sodium&component=run-progress&theme=light",
+    "sha256": "2081799259b0b8637f5d3eb5cdfad7adc3e0997157b7c79e6db8d5d6ca256c1d",
+    "checkedAt": "2026-11-16T11:58:47.314Z"
+  },
+  {
+    "id": "component:sodium-segmented-control",
+    "url": "/systems/preview/?system=sodium&component=segmented-control&theme=light",
+    "sha256": "28c2726e34042d0cbf4c581d21b0f52888de8c6fb0d5e8dbf4881a8b8978f008",
+    "checkedAt": "2026-11-16T11:58:47.558Z"
+  },
+  {
+    "id": "component:sodium-select",
+    "url": "/systems/preview/?system=sodium&component=select&theme=light",
+    "sha256": "66b4373096337fe2d8ef15eb63b838291ea6581e41b894f51b8188c698bfa78a",
+    "checkedAt": "2026-11-16T11:58:47.823Z"
+  },
+  {
+    "id": "component:sodium-sheet",
+    "url": "/systems/preview/?system=sodium&component=sheet&theme=light",
+    "sha256": "272556422441cd31e0f9bcc81e615a5fd9129dd5f61bd39db64629dff0cf582a",
+    "checkedAt": "2026-11-16T11:58:48.090Z"
+  },
+  {
+    "id": "component:sodium-skeleton",
+    "url": "/systems/preview/?system=sodium&component=skeleton&theme=light",
+    "sha256": "e970a450f8dc0d846b2743a5354ded0e199055b470dd935802f486e82650d111",
+    "checkedAt": "2026-11-16T11:58:48.374Z"
+  },
+  {
+    "id": "component:sodium-slider",
+    "url": "/systems/preview/?system=sodium&component=slider&theme=light",
+    "sha256": "6cce46a37d9d9790a7965fdebae71e337e147f6d7ba413046b7287c7cc6089cf",
+    "checkedAt": "2026-11-16T11:58:48.608Z"
+  },
+  {
+    "id": "component:sodium-status",
+    "url": "/systems/preview/?system=sodium&component=status&theme=light",
+    "sha256": "70285f5737e729eb47b4e1d66727011453ba34e25ac43e4763fed368ed1e3574",
+    "checkedAt": "2026-11-16T11:58:48.856Z"
+  },
+  {
+    "id": "component:sodium-status-strip",
+    "url": "/systems/preview/?system=sodium&component=status-strip&theme=light",
+    "sha256": "30e5f993ac2c3bfd0ac0efd3df8a435bf97fe7927caec415227fc316a98098be",
+    "checkedAt": "2026-11-16T11:58:49.123Z"
+  },
+  {
+    "id": "component:sodium-stem-chart",
+    "url": "/systems/preview/?system=sodium&component=stem-chart&theme=light",
+    "sha256": "90e4001a6c11e25c039035fb9328e75cb60972f00c5ac789dfe6931f0ed716c9",
+    "checkedAt": "2026-11-16T11:58:49.398Z"
+  },
+  {
+    "id": "component:sodium-swimlanes",
+    "url": "/systems/preview/?system=sodium&component=swimlanes&theme=light",
+    "sha256": "606771f4ab049e9fbf6069a049393979e1cef42fe25c093b437643f4032d8581",
+    "checkedAt": "2026-11-16T11:58:49.629Z"
+  },
+  {
+    "id": "component:sodium-switch",
+    "url": "/systems/preview/?system=sodium&component=switch&theme=light",
+    "sha256": "0d3a02fe230f519a75550540a8649a4660e2106ff76b1ff82025dd9104fbd8db",
+    "checkedAt": "2026-11-16T11:58:49.875Z"
+  },
+  {
+    "id": "component:sodium-sync-flow",
+    "url": "/systems/preview/?system=sodium&component=sync-flow&theme=light",
+    "sha256": "25488b7f96cd9a32664d063d7e21ece3dffb94b82053d8e1c4cc99b2e746ded9",
+    "checkedAt": "2026-11-16T11:58:50.140Z"
+  },
+  {
+    "id": "component:sodium-table",
+    "url": "/systems/preview/?system=sodium&component=table&theme=light",
+    "sha256": "bf9e0425a795bfa7fe83b79fb11463e30544c4963736046d6a112bc194f8f2b7",
+    "checkedAt": "2026-11-16T11:58:50.407Z"
+  },
+  {
+    "id": "component:sodium-tabs",
+    "url": "/systems/preview/?system=sodium&component=tabs&theme=light",
+    "sha256": "3888c1138565aa0768d28b4c863e72a0273eb728cf44b0d5c550e2d933c5b9b5",
+    "checkedAt": "2026-11-16T11:58:50.673Z"
+  },
+  {
+    "id": "component:sodium-tag",
+    "url": "/systems/preview/?system=sodium&component=tag&theme=light",
+    "sha256": "c7f7c9ceaba25c7018b079f5d5bab1468109aec6cbc91a33fb10d86c542eccce",
+    "checkedAt": "2026-11-16T11:58:50.939Z"
+  },
+  {
+    "id": "component:sodium-textarea",
+    "url": "/systems/preview/?system=sodium&component=textarea&theme=light",
+    "sha256": "95443ca3616f602f795720427ca11b6a4f2923db4ce59e8bae8651568b2d6480",
+    "checkedAt": "2026-11-16T11:58:51.190Z"
+  },
+  {
+    "id": "component:sodium-toast",
+    "url": "/systems/preview/?system=sodium&component=toast&theme=light",
+    "sha256": "4a74492a52c855dec69ab55fc548033de8193c4c3a56d408d157d513d3b146f2",
+    "checkedAt": "2026-11-16T11:58:51.457Z"
+  },
+  {
+    "id": "component:sodium-tool-call",
+    "url": "/systems/preview/?system=sodium&component=tool-call&theme=light",
+    "sha256": "a65067add395c1d9ee7fe96626961e89f32bf81a4c7755753c39a67ee5dd8688",
+    "checkedAt": "2026-11-16T11:58:51.740Z"
+  },
+  {
+    "id": "component:sodium-tool-call-row",
+    "url": "/systems/preview/?system=sodium&component=tool-call-row&theme=light",
+    "sha256": "b8db2a346f5f28775df5ddb24c57330ef9b9bec7527fcc9167caba3ab7557d71",
+    "checkedAt": "2026-11-16T11:58:51.992Z"
+  },
+  {
+    "id": "component:sodium-tooltip",
+    "url": "/systems/preview/?system=sodium&component=tooltip&theme=light",
+    "sha256": "4c5d68e5efefc4c1d0e330380d960b8d72cbec72c6b12ea790331913b9de8279",
+    "checkedAt": "2026-11-16T11:58:52.231Z"
+  },
+  {
+    "id": "component:sodium-warehouse-capacity",
+    "url": "/systems/preview/?system=sodium&component=warehouse-capacity&theme=light",
+    "sha256": "9baa09e033336148110b7f58b204dfbc7d3397751794e237462b848a56eeaf79",
+    "checkedAt": "2026-11-16T11:58:52.482Z"
+  },
+  {
+    "id": "system:glaze",
+    "url": "/systems/preview/?system=glaze&theme=light",
+    "sha256": "9622b65303502b5e86f4ba73f96a949fd652b90f7d92c707f58c5a9857735875",
+    "checkedAt": "2026-11-16T11:58:53.210Z"
+  },
+  {
+    "id": "system:lime",
+    "url": "/systems/preview/?system=lime&theme=light",
+    "sha256": "8caac7e4c8989be85f1d5d320821a2589ca74bb789aadeee47f000027a475c99",
+    "checkedAt": "2026-11-16T11:58:53.510Z"
+  },
+  {
+    "id": "system:quartz",
+    "url": "/systems/preview/?system=quartz&theme=light",
+    "sha256": "6676585a5b2e11702d8484a456a0510cb47fb3047fc7c63daa15b0797b8221d4",
+    "checkedAt": "2026-11-16T11:58:53.826Z"
+  },
+  {
+    "id": "system:sodium",
+    "url": "/systems/preview/?system=sodium&theme=light",
+    "sha256": "fc6014ae16f0d74165fac1a116d7c3c1a313edcb6eae692c9bbd607637b95293",
+    "checkedAt": "2026-11-16T11:58:54.126Z"
+  },
+  {
+    "id": "component:cult-ui/tabs-illustration-vercel",
+    "url": "/components/preview/?component=tabs-illustration-vercel&theme=light&motion=off",
+    "sha256": "3cad14e96ae2ab448d006e58f74f81d30a08693fe14e1c52957b3e00d95c36fa",
+    "checkedAt": "2026-11-16T11:59:08.127Z"
+  },
+  {
+    "id": "component:glaze-switch",
+    "url": "/systems/preview/?system=glaze&component=switch&theme=light",
+    "sha256": "e13329663f5d3c4a3ec218a337b46bcb87811372cf25a72ce82ee8e232540ce8",
+    "checkedAt": "2026-11-16T11:59:09.313Z"
+  },
+  {
+    "id": "component:glaze-table",
+    "url": "/systems/preview/?system=glaze&component=table&theme=light",
+    "sha256": "cd4a0a54ebe5ca205403ea3fde7aeaae65a57928cab6a09a632656bd3f906b4d",
+    "checkedAt": "2026-11-16T11:59:10.346Z"
+  },
+  {
+    "id": "component:glaze-tool-call",
+    "url": "/systems/preview/?system=glaze&component=tool-call&theme=light",
+    "sha256": "9e420fe33b73ae76a0f8dbb125ec2ecab3df80035f2f09d3d51bccf8982c34b2",
+    "checkedAt": "2026-11-16T11:59:11.376Z"
+  }
+]

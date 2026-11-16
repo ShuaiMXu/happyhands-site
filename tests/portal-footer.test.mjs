@@ -14,7 +14,8 @@ test('both production homepages use the same complete localized footer as runtim
     assert.ok(html.includes(`<footer class="site-footer portal-footer">${footer}</footer>`));
     assert.equal((html.match(/<footer\b/g) || []).length, 1);
     assert.equal((html.match(/<main\b/g) || []).length, 1);
-    assert.doesNotMatch(footer, /class="wordmark"|<button|<form|<img|onclick|intent\/follow|messages\/compose/);
+    assert.doesNotMatch(footer, /class="wordmark"|<button|<form|onclick|intent\/follow|messages\/compose/);
+    for (const variant of ['ink','paper']) assert.ok(footer.includes(`/brand/happyhands-logo-${variant}.png`));
     for (const provider of ['design-md', 'systems', 'cult-ui'])
       assert.ok(footer.includes(`href="${prefix}/components/?provider=${provider}"`));
     for (const href of [repositories.core, 'https://collectui.com/', 'https://icons.kubai.design/'])

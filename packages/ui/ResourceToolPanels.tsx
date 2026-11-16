@@ -1,4 +1,3 @@
-import {CollectionsLibrary} from '../../components/CollectionsLibrary';
 import React, {useEffect, useRef, useState} from 'react';
 import {HistorySafeFrame} from './HistorySafeFrame';
 import {autoSizeFrame} from './frame-sizing';
@@ -30,7 +29,7 @@ function ToolPanel({tool, active, lang, tabPrefix}: Props & {tool: typeof resour
     role={tabPrefix ? 'tabpanel' : undefined}
     id={tabPrefix ? `${tabPrefix}-panel-${tool.id}` : undefined}
     aria-labelledby={tabPrefix ? `${tabPrefix}-tab-${tool.id}` : undefined}>
-    {tool.id==='collections' ? visited&&<CollectionsLibrary lang={lang} embedded={!!tabPrefix}/> : visited && <HistorySafeFrame ref={frame} title={title} src={source}
+    {visited && <HistorySafeFrame ref={frame} title={title} src={source}
       onLoad={() => { syncLanguage(frame.current, lang); if (visible) resume(frame.current); }} />}
   </section>;
 }

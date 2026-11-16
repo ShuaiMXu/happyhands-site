@@ -15,10 +15,10 @@ async function files(dir) {
   }
   return all;
 }
-for (const system of ["sodium", "glaze", "quartz", "lime"]) {
+for (const system of ["sodium", "glaze", "quartz", "lime", "meridian-mono", "meridian-glass", "meridian-slate", "meridian-clay"]) {
   const source = path.join(
     root,
-    "public/design-how",
+    system.startsWith("meridian-") ? "public/collections/brand-systems" : "public/design-how",
     system,
     "src/registry",
     system,
@@ -63,5 +63,7 @@ await writeFile(
   JSON.stringify(catalog, null, 2),
 );
 console.log(
-  "Built original design-system CSS and source preview modules for four systems.",
+  "Built original design-system CSS and source preview modules for eight systems.",
 );
+
+await import('./build-source-examples.mjs');

@@ -1,3 +1,7 @@
+import {PlatformDirectory} from "./PlatformDirectory";
+import {platformFor} from "./platform-directory";
+import {TokenSpecimens} from "./TokenSpecimens";
+import {PlatformMedia} from "./PlatformMedia";
 import { parseDesignDocument } from "./designmd-document";
 import React, { useEffect, useMemo, useState, useRef } from "react";
 import Markdown from "react-markdown";
@@ -73,6 +77,9 @@ export function CollectionsLibrary({
     addEventListener("message", resize);
     return () => removeEventListener("message", resize);
   }, []);
+  const [tokenContext,setTokenContext]=useState("");
+  const [previewTheme,setPreviewTheme]=useState(()=>document.documentElement.dataset.theme==='dark'?'dark':'light');
+  useEffect(()=>{const observer=new MutationObserver(()=>setPreviewTheme(document.documentElement.dataset.theme==='dark'?'dark':'light'));observer.observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});return()=>observer.disconnect()},[]);
   const Root = embedded ? "section" : "main";
   const zh = lang === "zh";
   const [catalog, setCatalog] = useState<Catalog | null>(null),
@@ -120,6 +127,13 @@ export function CollectionsLibrary({
       });
     return () => c.abort();
   }, [retry, zh]);
+  useEffect(()=>{
+    setTokenContext("");
+    if(!selected?.path.includes('/material3/'))return;
+    const abort=new AbortController();
+    fetch('/collections/platform-systems/material3/tokens.json',{signal:abort.signal}).then(r=>{if(!r.ok)throw Error();return r.text()}).then(setTokenContext).catch(()=>{});
+    return ()=>abort.abort();
+  },[selected?.path]);
   useEffect(() => {
     setContent("");
     setLoadError("");
@@ -211,6 +225,11 @@ export function CollectionsLibrary({
   const documentHref = (href: string) => {
     const url = new URL(href, location.origin + "/" + (selected?.path || ""));
     if (url.origin !== location.origin) return url.href;
+    if(selected?.path.includes('apple-hig') && /human-interface-guidelines/i.test(url.pathname)){
+      const slug=url.pathname.split('/').filter(Boolean).at(-1);
+      const local=catalog.resources.find(r=>r.path.endsWith('design_human-interface-guidelines_'+slug+'.md'));
+      return local?resourceHref(local,lang):'https://developer.apple.com'+url.pathname;
+    }
     const path = url.pathname.slice(1);
     const row = catalog.resources.find(
       (r) =>
@@ -224,6 +243,9 @@ export function CollectionsLibrary({
     );
     return row ? resourceHref(row, lang) + url.hash : url.href;
   };
+  const platform=selected?platformFor(selected):undefined;
+  const isPlatformOverview=platform?.overview===selected?.path;
+  const platformRoot=platform?catalog.resources.find(r=>r.path===platform.overview):undefined;
   const current = catalog.collections.find((row) => row.id === collection);
   const open = (row: Entry) => {
     setContent("");
@@ -254,14 +276,16 @@ export function CollectionsLibrary({
       {selected ? (
         <>
           <ResourceDetailHeader
-            title={selected.name.replace(/^r \/ /, "").replaceAll(" / ", " — ")}
-            backLabel={zh ? "返回资源列表" : "Back to resources"}
+            title={isPlatformOverview ? platform!.name : selected.name.replace(/^r \/ /, "").replaceAll(" / ", " — ")}
+            backLabel={platform && !isPlatformOverview ? (zh?"返回 ":"Back to ")+platform.name : zh ? "返回资源列表" : "Back to resources"}
             onBack={() => {
+              if(platformRoot && !isPlatformOverview){location.href=resourceHref(platformRoot,lang);return;}
               if (initialResource)
                 location.href = `?provider=${sectionFor(selected)}`;
               else setSelected(null);
             }}
           />
+          {isPlatformOverview && <PlatformDirectory row={selected} rows={catalog.resources} lang={lang}/>}
           <div className="collections-actions">
             <a className="hh-button" href={"/" + selected.path} download>
               {zh ? "下载原文件" : "Download original"}
@@ -313,7 +337,7 @@ export function CollectionsLibrary({
                   title={zh ? "实际组件预览" : "Live component preview"}
                   src={
                     previewFor(selected) +
-                    `&theme=${document.documentElement.dataset.theme === "dark" ? "dark" : "light"}`
+                    `&theme=${previewTheme}`
                   }
                   sandbox="allow-scripts allow-same-origin"
                 />
@@ -325,14 +349,13 @@ export function CollectionsLibrary({
                   alt={selected.name}
                 />
               )}
-              {selected.type === "tokens" && (
-                <TokenSamples content={content} zh={zh} />
-              )}
+              {(selected.type === "tokens" || selected.path.endsWith(".css") || selected.path.endsWith("mobbin-archive/colors.md")) && <TokenSpecimens content={selected.path.endsWith("/baseline.css")?tokenContext:content} context={tokenContext} zh={zh}/> }
+              {selected.path.endsWith("material3/DESIGN.md") && tokenContext && <TokenSpecimens content={tokenContext} zh={zh}/>}
               {selected.type === "design-md" && (
                 <DesignComponentDemo markdown={content} lang={lang} />
               )}
               <details
-                open={!previewFor(selected)}
+                open={!previewFor(selected) && !isPlatformOverview}
                 className="directory-source"
               >
                 <summary>{zh ? "规范与源码" : "Guidelines and source"}</summary>
@@ -351,7 +374,7 @@ export function CollectionsLibrary({
                             {children}
                           </a>
                         ),
-                        img: () => null,
+                        img: ({src,alt}) => <PlatformMedia path={selected.path} src={typeof src === "string" ? src : ""} alt={alt} zh={zh} dark={previewTheme==="dark"}/>,
                         table: ({ children }) => (
                           <div className="collections-table" tabIndex={0}>
                             <table>{children}</table>
@@ -560,37 +583,5 @@ export function CollectionsLibrary({
         </>
       )}
     </Root>
-  );
-}
-
-function TokenSamples({ content, zh }: { content: string; zh: boolean }) {
-  let values: Record<string, unknown>;
-  try {
-    values = JSON.parse(content);
-  } catch {
-    return null;
-  }
-  const colors = Object.entries(values)
-    .filter(
-      (pair): pair is [string, string] =>
-        typeof pair[1] === "string" &&
-        /^(#|rgb|hsl|oklch)/i.test(pair[1]) &&
-        CSS.supports("color", pair[1]),
-    )
-    .slice(0, 24);
-  if (!colors.length) return null;
-  return (
-    <section
-      aria-label={zh ? "设计变量取样" : "Token samples"}
-      className="collections-token-samples"
-    >
-      {colors.map(([name, value]) => (
-        <div key={name}>
-          <span style={{ backgroundColor: value }} />
-          <p>{name}</p>
-          <code>{value}</code>
-        </div>
-      ))}
-    </section>
   );
 }

@@ -61,6 +61,7 @@ export function previewFor(row: ResourceEntry) {
       ))
   )
     return `/systems/preview/?system=${row.system}&component=${name}`;
+  if (row.type === "system" && row.system && row.path.includes("/foundations/")) return `/systems/preview/?system=${row.system}&foundation=${name}`;
   if (row.type === "system" && row.system && row.path.endsWith("/index.md"))
     return `/systems/preview/?system=${row.system}`;
   if (row.collection === "cult-ui")

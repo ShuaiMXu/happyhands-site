@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
 import type { ComponentType, ReactNode } from "react";
 import "./preview.css";
+import {FoundationSpecimen} from "./FoundationSpecimen";
 const params = new URLSearchParams(location.search);
 const system = ["sodium", "glaze", "quartz", "lime", "meridian-mono", "meridian-glass", "meridian-slate", "meridian-clay"].includes(
   params.get("system") || "",
@@ -424,6 +425,7 @@ function App() {
   return (
     <Provider>
       <main className="demo-root">
+        {params.get("foundation") ? <><FoundationSpecimen system={system} name={params.get("foundation")!}/>{params.get("foundation")==="iconography"&&<DocumentedExample name="icon"/>}</> : <>
         {!component && <Foundations />}
         <ErrorBoundary>
           {component && !variantFixtures.has(component) && documentedExamples[`./generated/${system}/examples/${component}.tsx`] ? <DocumentedExample name={component}/> : <Controls only={component} />}
@@ -453,7 +455,7 @@ function App() {
             </div>
           </section>
         )}
-      </main>
+      </>} </main>
     </Provider>
   );
 }

@@ -49,7 +49,8 @@
     "test:archive": "node --import tsx --import ./tests/helpers/register-css.mjs --test tests/archive-catalog.test.ts tests/design-archive.test.mjs tests/designmd-document.test.ts tests/design-demo-theme.test.ts tests/component-completeness.test.ts tests/reference-specimen.test.tsx",
     "test:collections": "node --test tests/collections.test.mjs",
     "test:collections:browser": "node tests/collections-browser.mjs",
-    "test:resources:directory": "node --import tsx --test tests/resource-directory.test.ts"
+    "test:resources:directory": "node --import tsx --test tests/resource-directory.test.ts",
+    "test:resources:specimens": "node --import tsx --test tests/specimen-model.test.ts tests/platform-directory.test.ts"
   },
   "dependencies": {
     "@base-ui/react": "1.9.0",

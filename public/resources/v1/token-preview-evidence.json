@@ -1,0 +1,116 @@
+[
+  {
+    "id": "collection:app-tokens/antd-mobile/tokens.json",
+    "sha256": "3c4fd24e65d1ddee7a7ec58528c14c9984695a808dda67b41ec80367c8ce38bf",
+    "cover": "/resource-covers/42654e91d1c4dd94.png",
+    "checkedAt": "2026-11-16T12:42:04.996Z"
+  },
+  {
+    "id": "collection:app-tokens/material3/tokens.json",
+    "sha256": "c2ff2858eaef1ef10059b9d57627308fd76936ad2aff547b9d7740a064ebffb6",
+    "cover": "/resource-covers/c4c740133a363820.png",
+    "checkedAt": "2026-11-16T12:42:05.247Z"
+  },
+  {
+    "id": "collection:app-tokens/nutui/tokens.json",
+    "sha256": "1b20d7dbd8195bd2e019c61232140cf48a9b2d938d93980e0c5527078d5f768b",
+    "cover": "/resource-covers/3fbd551af3ccb424.png",
+    "checkedAt": "2026-11-16T12:42:05.521Z"
+  },
+  {
+    "id": "collection:app-tokens/tdesign-mobile-vue/tokens.json",
+    "sha256": "02b6142b2443fb3a69b8e8a5374d85dc29889a4905e9181ed7f968a95c1564a8",
+    "cover": "/resource-covers/84c8edb84c6a9929.png",
+    "checkedAt": "2026-11-16T12:42:05.768Z"
+  },
+  {
+    "id": "collection:app-tokens/vant/tokens.json",
+    "sha256": "bf5edd3ca47f67d9be9516a27e4d1ff2c90672382fba6e061b4ebbd0abed2f03",
+    "cover": "/resource-covers/b18ad4e3c2af356f.png",
+    "checkedAt": "2026-11-16T12:42:06.070Z"
+  },
+  {
+    "id": "collection:app-tokens/varlet/tokens.json",
+    "sha256": "dc410064c388516a4e2cf4e37c25f7e2601785343410fe7f28a1ff5fe53a3834",
+    "cover": "/resource-covers/75db842cea7c7002.png",
+    "checkedAt": "2026-11-16T12:42:06.416Z"
+  },
+  {
+    "id": "collection:mobbin-archive/colors.md",
+    "sha256": "23fb3aa36545a87e3dbb3dde6a8bf006e1a5596dc05e3f498a3d3c9d4add89c0",
+    "cover": "/resource-covers/d3183abd114da4be.png",
+    "checkedAt": "2026-11-16T12:42:06.665Z"
+  },
+  {
+    "id": "collection:platform-systems/material3/css/baseline.css",
+    "sha256": "2b4c499d62eb7ba822e3a057d65f22393e20413e7f3b5263bddcbfd27348aac9",
+    "cover": "/resource-covers/6316f1c1573a7d9d.png",
+    "checkedAt": "2026-11-16T12:42:06.915Z"
+  },
+  {
+    "id": "collection:platform-systems/material3/css/colors.css",
+    "sha256": "0c029a5f4e9be26a69447b9b5f8ba0e7c25a06d2b3fc6712bfb8088b2374598c",
+    "cover": "/resource-covers/40d2f047193553b5.png",
+    "checkedAt": "2026-11-16T12:42:07.181Z"
+  },
+  {
+    "id": "collection:platform-systems/material3/css/elevation.css",
+    "sha256": "d9e66f509e3e0a90501132362d1820ef87feebbf86ead62d8980ff370839e338",
+    "cover": "/resource-covers/3ee87780c580722b.png",
+    "checkedAt": "2026-11-16T12:42:07.466Z"
+  },
+  {
+    "id": "collection:platform-systems/material3/css/motion.css",
+    "sha256": "3006d65a90213f5f65c8efdf228d4769c197a7465265a41e5c483ee12dd4cc5a",
+    "cover": "/resource-covers/7b248be6f0dd0c20.png",
+    "checkedAt": "2026-11-16T12:42:07.749Z"
+  },
+  {
+    "id": "collection:platform-systems/material3/css/palette.css",
+    "sha256": "694945770902d20f68eca1bab8042199d9abffcde6450e7b4e3fd0890853e5f9",
+    "cover": "/resource-covers/093bd26ecef5cfe0.png",
+    "checkedAt": "2026-11-16T12:42:08.003Z"
+  },
+  {
+    "id": "collection:platform-systems/material3/css/shape.css",
+    "sha256": "8dbf0c633014449c3b0521246ca4c98b700232f08fcf273b0817d9d09080c46e",
+    "cover": "/resource-covers/0d09bac0c6c761b7.png",
+    "checkedAt": "2026-11-16T12:42:08.265Z"
+  },
+  {
+    "id": "collection:platform-systems/material3/css/state.css",
+    "sha256": "c6aa5efb6294388a7596ce2766e61c1d2997362b7eae624ac9ab0fbef8cc57f0",
+    "cover": "/resource-covers/ad14b677183db783.png",
+    "checkedAt": "2026-11-16T12:42:08.531Z"
+  },
+  {
+    "id": "collection:platform-systems/material3/css/theme/dark.css",
+    "sha256": "0a9636ba36cd8d4ef7a3cf7033e22603200de1ba66f6d4f0318560d6c5f3e39c",
+    "cover": "/resource-covers/cd6fa53ad09a02f8.png",
+    "checkedAt": "2026-11-16T12:42:08.747Z"
+  },
+  {
+    "id": "collection:platform-systems/material3/css/theme/light.css",
+    "sha256": "866fda10db51cd2c087f7a5c2737e2f28c3427290c05207b8c2cf4247cc4abb8",
+    "cover": "/resource-covers/e0df448567c88c74.png",
+    "checkedAt": "2026-11-16T12:42:09.019Z"
+  },
+  {
+    "id": "collection:platform-systems/material3/css/typography.css",
+    "sha256": "39862cb70e41cbb367f02bbbe8d28570f19d4cec45ef15fa1ab5cc643dfb406e",
+    "cover": "/resource-covers/04fbc56ccc59fb87.png",
+    "checkedAt": "2026-11-16T12:42:09.249Z"
+  },
+  {
+    "id": "collection:platform-systems/material3/DESIGN.md",
+    "sha256": "1f09f31d9c49f7db1836332948e13da439db12d9506ffb95413b57b2d764ffd3",
+    "cover": "/resource-covers/8e187c5f125883a9.png",
+    "checkedAt": "2026-11-16T12:42:09.514Z"
+  },
+  {
+    "id": "collection:platform-systems/material3/tokens.json",
+    "sha256": "c2ff2858eaef1ef10059b9d57627308fd76936ad2aff547b9d7740a064ebffb6",
+    "cover": "/resource-covers/bcfbe960c1e57a56.png",
+    "checkedAt": "2026-11-16T12:42:09.748Z"
+  }
+]

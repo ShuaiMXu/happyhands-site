@@ -31,7 +31,7 @@ const controls = new Set([
 const base = process.env.SITE_URL || "http://127.0.0.1:4307",
   out = "public/resource-covers";
 await mkdir(out, { recursive: true });
-const retryIds = process.env.RETRY_FAILED ? new Set(JSON.parse(await readFile("public/resources/v1/preview-failures.json", "utf8")).map(r => r.id)) : null;
+const retryIds = process.env.RESOURCE_ID ? new Set([process.env.RESOURCE_ID]) : process.env.ONLY_FOUNDATIONS ? new Set(catalog.resources.filter(r=>r.type==="system"&&r.path.includes("/foundations/")).map(r=>r.id)) : process.env.RETRY_FAILED ? new Set(JSON.parse(await readFile("public/resources/v1/preview-failures.json", "utf8")).map(r => r.id)) : null;
 const covers = retryIds ? JSON.parse(await readFile("public/resources/v1/covers.json", "utf8")) : {},
   evidence = retryIds ? JSON.parse(await readFile("public/resources/v1/preview-evidence.json", "utf8")) : [], failures = [];
 const escape = (s) =>
@@ -80,6 +80,7 @@ try {
     if (row.collection === "cult-ui")
       url = `/components/preview/?component=${row.id.split("/").at(-1)}&theme=light&motion=off`;
     if(row.collection === "pin-ui") url = `/components/pinui-preview/?component=${row.id.split("/").at(-1)}&theme=light`;
+    if(row.type==="system"&&row.system&&row.path.includes("/foundations/")) url = `/systems/preview/?system=${row.system}&foundation=${name}&theme=light`;
     let rendered = false;
     if (url) {
       try {
@@ -113,6 +114,7 @@ try {
           throw Error("No rendered example");
         await p.screenshot({ path: `${out}/${key}.png` });
         covers[row.id] = `/resource-covers/${key}.png`;
+        const old=evidence.findIndex(e=>e.id===row.id);if(old>=0)evidence.splice(old,1);
         evidence.push({ id: row.id, url, sha256: row.sha256, checkedAt: new Date().toISOString() });
         if (evidence.length % 50 === 0)
           console.log("Rendered", evidence.length, row.id);
@@ -155,3 +157,5 @@ try {
 }
 
 await import("./link-system-preview-covers.mjs");
+
+await import("./link-guideline-covers.mjs");

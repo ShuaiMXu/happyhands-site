@@ -67,3 +67,5 @@ console.log(
 );
 
 await import('./build-source-examples.mjs');
+
+await import("./build-foundation-manifest.mjs");

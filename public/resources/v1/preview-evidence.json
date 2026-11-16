@@ -4348,5 +4348,437 @@
     "url": "/systems/preview/?system=glaze&component=tool-call&theme=light",
     "sha256": "9e420fe33b73ae76a0f8dbb125ec2ecab3df80035f2f09d3d51bccf8982c34b2",
     "checkedAt": "2026-11-16T11:59:11.376Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-clay/foundations/anti-slop.md",
+    "url": "/systems/preview/?system=meridian-clay&foundation=anti-slop&theme=light",
+    "sha256": "a63fb0329efbcb2038e6baa0f69fe933e0e489597ba09e613d327180965da028",
+    "checkedAt": "2026-11-16T12:35:12.950Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-clay/foundations/color.md",
+    "url": "/systems/preview/?system=meridian-clay&foundation=color&theme=light",
+    "sha256": "03c7b32466ffb489cbe96fbda784dab83a98e49cf6e3e2391d4e5c14a3849258",
+    "checkedAt": "2026-11-16T12:35:13.561Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-clay/foundations/elevation.md",
+    "url": "/systems/preview/?system=meridian-clay&foundation=elevation&theme=light",
+    "sha256": "1a80efadd144f47f8ab0cd67b9d4ce359998cfc43348b0f6196c0fb0049ece86",
+    "checkedAt": "2026-11-16T12:35:14.143Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-clay/foundations/iconography.md",
+    "url": "/systems/preview/?system=meridian-clay&foundation=iconography&theme=light",
+    "sha256": "161177dbcb35ce77e669fe91d97e88846ec32c9b793d918832094a12a30ad582",
+    "checkedAt": "2026-11-16T12:35:14.760Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-clay/foundations/motion.md",
+    "url": "/systems/preview/?system=meridian-clay&foundation=motion&theme=light",
+    "sha256": "dd31e4f199d83cc3f3e67037405714f23553d0c21695153232c4dc84a523897a",
+    "checkedAt": "2026-11-16T12:35:15.347Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-clay/foundations/radius.md",
+    "url": "/systems/preview/?system=meridian-clay&foundation=radius&theme=light",
+    "sha256": "720ad224997edb4fedee789f7356d3f5453574c4b5056099ad1e353930101883",
+    "checkedAt": "2026-11-16T12:35:15.928Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-clay/foundations/spacing.md",
+    "url": "/systems/preview/?system=meridian-clay&foundation=spacing&theme=light",
+    "sha256": "be8054c8299b88f16123695f5b12762a65d547bf4e901a3cb642e71c0fa3e29a",
+    "checkedAt": "2026-11-16T12:35:16.795Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-clay/foundations/typography.md",
+    "url": "/systems/preview/?system=meridian-clay&foundation=typography&theme=light",
+    "sha256": "dc8dc02f491de9c87ba3a18dcb60a6f8c53e74109f76f383f6632ddcade486d9",
+    "checkedAt": "2026-11-16T12:35:17.478Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-glass/foundations/anti-slop.md",
+    "url": "/systems/preview/?system=meridian-glass&foundation=anti-slop&theme=light",
+    "sha256": "d7058dcd64bc1113ab6fea3484cbd5119695423b6c165a1213db8276289a868a",
+    "checkedAt": "2026-11-16T12:35:18.802Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-glass/foundations/borders-and-lines.md",
+    "url": "/systems/preview/?system=meridian-glass&foundation=borders-and-lines&theme=light",
+    "sha256": "9ba4fe5f49f5b172a60a0bd4b73c9e15dece43504efd6eaa008487bdfe8abe91",
+    "checkedAt": "2026-11-16T12:35:19.860Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-glass/foundations/color.md",
+    "url": "/systems/preview/?system=meridian-glass&foundation=color&theme=light",
+    "sha256": "a7f0acd8ec45c2f32746cdc1eefd2378b90b041ded80c1b4462f41bedcc45f27",
+    "checkedAt": "2026-11-16T12:35:20.877Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-glass/foundations/elevation.md",
+    "url": "/systems/preview/?system=meridian-glass&foundation=elevation&theme=light",
+    "sha256": "46bfa7b5eceebbf95c6bc23bf99fb964e5c8fb38df23c8eba83119f28b75ed5f",
+    "checkedAt": "2026-11-16T12:35:21.893Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-glass/foundations/iconography.md",
+    "url": "/systems/preview/?system=meridian-glass&foundation=iconography&theme=light",
+    "sha256": "13801d2f3dfd5e12273225683756103ebb902227e392a95fdadbe5de810f1636",
+    "checkedAt": "2026-11-16T12:35:22.911Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-glass/foundations/motion.md",
+    "url": "/systems/preview/?system=meridian-glass&foundation=motion&theme=light",
+    "sha256": "a3ac273dacc8ded6f6119c5b6e455e7929eada74cb9d5386f525f70cae2a3b64",
+    "checkedAt": "2026-11-16T12:35:23.927Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-glass/foundations/radius.md",
+    "url": "/systems/preview/?system=meridian-glass&foundation=radius&theme=light",
+    "sha256": "5f98240c6c737b9db55b6a4cb491b5ed1ab40df9805f1d1377c5a2f59408f9eb",
+    "checkedAt": "2026-11-16T12:35:24.944Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-glass/foundations/space.md",
+    "url": "/systems/preview/?system=meridian-glass&foundation=space&theme=light",
+    "sha256": "4b5f75571b059728a45955c6b53d69c3551e76af31ee0d176b1fdf35c6836668",
+    "checkedAt": "2026-11-16T12:35:26.010Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-glass/foundations/typography.md",
+    "url": "/systems/preview/?system=meridian-glass&foundation=typography&theme=light",
+    "sha256": "fd175769d8c70de5ed2899f019251ba5f157a626f837aadf92f06fe10228d86d",
+    "checkedAt": "2026-11-16T12:35:27.077Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-mono/foundations/anti-slop.md",
+    "url": "/systems/preview/?system=meridian-mono&foundation=anti-slop&theme=light",
+    "sha256": "a57f9b968c69824283d59e9e0ddb0393e9c828b700b05c5f26c5799d6b574071",
+    "checkedAt": "2026-11-16T12:35:27.713Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-mono/foundations/borders-and-lines.md",
+    "url": "/systems/preview/?system=meridian-mono&foundation=borders-and-lines&theme=light",
+    "sha256": "a103bb199a8c69cd777f23cc796f30a4ec9d99d0e427cf04984244a1b5454663",
+    "checkedAt": "2026-11-16T12:35:28.344Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-mono/foundations/color.md",
+    "url": "/systems/preview/?system=meridian-mono&foundation=color&theme=light",
+    "sha256": "1eca60324d86e46056d6cd1649fdb5b7be7f23512586f83125619695f79a40fa",
+    "checkedAt": "2026-11-16T12:35:28.944Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-mono/foundations/elevation.md",
+    "url": "/systems/preview/?system=meridian-mono&foundation=elevation&theme=light",
+    "sha256": "cc15df863a0d4ff183260f2b61d51de4a7b6ab737d9a6a0d28ae0b4c2c32ad7b",
+    "checkedAt": "2026-11-16T12:35:29.543Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-mono/foundations/iconography.md",
+    "url": "/systems/preview/?system=meridian-mono&foundation=iconography&theme=light",
+    "sha256": "f1fb620b423d95d88d7abddcedbca52e50acd66fd5b8c916e8e2e5626a5c7195",
+    "checkedAt": "2026-11-16T12:35:30.144Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-mono/foundations/motion.md",
+    "url": "/systems/preview/?system=meridian-mono&foundation=motion&theme=light",
+    "sha256": "44ed417b1e8ba04784abdae0d1def0c7b2c8a720b6f066d22403a3a9c4b0e3b4",
+    "checkedAt": "2026-11-16T12:35:30.744Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-mono/foundations/radius.md",
+    "url": "/systems/preview/?system=meridian-mono&foundation=radius&theme=light",
+    "sha256": "87b0dad2cea149e8eefc23171d91541ec2b2e5025d85f5f19d26edc7e9561a5d",
+    "checkedAt": "2026-11-16T12:35:31.327Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-mono/foundations/space.md",
+    "url": "/systems/preview/?system=meridian-mono&foundation=space&theme=light",
+    "sha256": "6c2d51ec582a20a51d86d9dbf82eea793f6384e4dbdc764d734f8fdc0ac76bd4",
+    "checkedAt": "2026-11-16T12:35:31.927Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-mono/foundations/typography.md",
+    "url": "/systems/preview/?system=meridian-mono&foundation=typography&theme=light",
+    "sha256": "a1423b06f45ae35a1d8b11c24bd3dca60b7f9c6ef0a3a4e7a454552a1af5c81d",
+    "checkedAt": "2026-11-16T12:35:32.528Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-slate/foundations/anti-slop.md",
+    "url": "/systems/preview/?system=meridian-slate&foundation=anti-slop&theme=light",
+    "sha256": "f6beb42ce41bacbff151d7484141f86de0a4b2f88bbc39583975cd1d7e20effd",
+    "checkedAt": "2026-11-16T12:35:33.145Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-slate/foundations/borders-and-lines.md",
+    "url": "/systems/preview/?system=meridian-slate&foundation=borders-and-lines&theme=light",
+    "sha256": "42b7c70c1d601b88f10a7a9f39c9569059bcd27abe1db55fda24a1c2d2feedf9",
+    "checkedAt": "2026-11-16T12:35:33.760Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-slate/foundations/color.md",
+    "url": "/systems/preview/?system=meridian-slate&foundation=color&theme=light",
+    "sha256": "a8b1e8d70f304a260e57e5d8740824a888a3f33a944d72f2462682ef936bcc1e",
+    "checkedAt": "2026-11-16T12:35:34.360Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-slate/foundations/elevation.md",
+    "url": "/systems/preview/?system=meridian-slate&foundation=elevation&theme=light",
+    "sha256": "e52cec4533efc3890f81c273f52c46559edc04fc27296ae3106dae398738de76",
+    "checkedAt": "2026-11-16T12:35:34.961Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-slate/foundations/iconography.md",
+    "url": "/systems/preview/?system=meridian-slate&foundation=iconography&theme=light",
+    "sha256": "088c4025bd5a527c37f2b950c1ce4fbcb41e1a78988c15ec71c8c96e4cb37966",
+    "checkedAt": "2026-11-16T12:35:36.679Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-slate/foundations/motion.md",
+    "url": "/systems/preview/?system=meridian-slate&foundation=motion&theme=light",
+    "sha256": "1c6d71e8c14d595ca445324abf5830c44e7cc3d4980d5c54ccee25fb849f0683",
+    "checkedAt": "2026-11-16T12:35:37.276Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-slate/foundations/radius.md",
+    "url": "/systems/preview/?system=meridian-slate&foundation=radius&theme=light",
+    "sha256": "d98cc7642701e7c0257db0379ce3e689e07a24ac0e7e018498d62e870eb7d5e4",
+    "checkedAt": "2026-11-16T12:35:37.860Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-slate/foundations/space.md",
+    "url": "/systems/preview/?system=meridian-slate&foundation=space&theme=light",
+    "sha256": "789bededdb6a3e83a0d94e19ab4e7ebf7f1b02e6b4eda0a7fbdd6d0c715eecae",
+    "checkedAt": "2026-11-16T12:35:38.443Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-slate/foundations/typography.md",
+    "url": "/systems/preview/?system=meridian-slate&foundation=typography&theme=light",
+    "sha256": "874ab74e10c3b3d98db90528fa3d507c591ac75c560ac014028514be6642e3b2",
+    "checkedAt": "2026-11-16T12:35:39.061Z"
+  },
+  {
+    "id": "system:glaze/foundations/anti-slop.md",
+    "url": "/systems/preview/?system=glaze&foundation=anti-slop&theme=light",
+    "sha256": "57db22d962d4316f9faed14c1b037f3373af31d7b45c0e21a9a8323475471abb",
+    "checkedAt": "2026-11-16T12:35:40.078Z"
+  },
+  {
+    "id": "system:glaze/foundations/borders-and-lines.md",
+    "url": "/systems/preview/?system=glaze&foundation=borders-and-lines&theme=light",
+    "sha256": "c046cfe08afa29fae97120f57e655dcc7a52435b1508c63f24d29e45832e225f",
+    "checkedAt": "2026-11-16T12:35:41.093Z"
+  },
+  {
+    "id": "system:glaze/foundations/color.md",
+    "url": "/systems/preview/?system=glaze&foundation=color&theme=light",
+    "sha256": "7e51e3dedc56d1f567d0eb95e5aca296898e423ed5ecbfae46684fa1aebd1b2f",
+    "checkedAt": "2026-11-16T12:35:42.110Z"
+  },
+  {
+    "id": "system:glaze/foundations/elevation.md",
+    "url": "/systems/preview/?system=glaze&foundation=elevation&theme=light",
+    "sha256": "135577d76ac719d192cea88ac3675ef79bf2e664dbc58483ec71b80bb84fae06",
+    "checkedAt": "2026-11-16T12:35:43.176Z"
+  },
+  {
+    "id": "system:glaze/foundations/iconography.md",
+    "url": "/systems/preview/?system=glaze&foundation=iconography&theme=light",
+    "sha256": "9e101ef00ca7549a6fae4918b9c532ebb698f3972e3e804ef4ee8ea281c5fda3",
+    "checkedAt": "2026-11-16T12:35:44.210Z"
+  },
+  {
+    "id": "system:glaze/foundations/motion.md",
+    "url": "/systems/preview/?system=glaze&foundation=motion&theme=light",
+    "sha256": "f0fb7c11c8e0ce9708e61f62cb88f78e20b576d6b7230916996b3c552a6a37ce",
+    "checkedAt": "2026-11-16T12:35:45.282Z"
+  },
+  {
+    "id": "system:glaze/foundations/radius.md",
+    "url": "/systems/preview/?system=glaze&foundation=radius&theme=light",
+    "sha256": "3fb4cc8e1e8feeaf3d84d3343c6f67167cc62f3870bc1bfd3a7c23c48f87ad28",
+    "checkedAt": "2026-11-16T12:35:46.359Z"
+  },
+  {
+    "id": "system:glaze/foundations/space.md",
+    "url": "/systems/preview/?system=glaze&foundation=space&theme=light",
+    "sha256": "47955006f67c94596f2c663aefb9636ddc02031c2c7c501b09a918c1c82070fb",
+    "checkedAt": "2026-11-16T12:35:47.376Z"
+  },
+  {
+    "id": "system:glaze/foundations/typography.md",
+    "url": "/systems/preview/?system=glaze&foundation=typography&theme=light",
+    "sha256": "d9c3c90225f83af8a57dd458c9f904234a6333bf9f2f1f2dc04b5f0f4e4eb378",
+    "checkedAt": "2026-11-16T12:35:48.410Z"
+  },
+  {
+    "id": "system:lime/foundations/anti-slop.md",
+    "url": "/systems/preview/?system=lime&foundation=anti-slop&theme=light",
+    "sha256": "1efdcfb136b2a536c8431bb49b15ea5430647802517409e1bf426bfe8db2044c",
+    "checkedAt": "2026-11-16T12:35:48.993Z"
+  },
+  {
+    "id": "system:lime/foundations/color.md",
+    "url": "/systems/preview/?system=lime&foundation=color&theme=light",
+    "sha256": "41e510338b854ba61243332a44cd7f061bdfe9fdfd8faa4b1c818c51e0e15110",
+    "checkedAt": "2026-11-16T12:35:49.595Z"
+  },
+  {
+    "id": "system:lime/foundations/elevation.md",
+    "url": "/systems/preview/?system=lime&foundation=elevation&theme=light",
+    "sha256": "af996540e8596206714945409cb47f0c6097a6eae80c5870da45f169ee41c6b0",
+    "checkedAt": "2026-11-16T12:35:50.193Z"
+  },
+  {
+    "id": "system:lime/foundations/iconography.md",
+    "url": "/systems/preview/?system=lime&foundation=iconography&theme=light",
+    "sha256": "11c9b6f01ae806b495e79604343e49369bf91028f04aa35ef69058e4f03e61dc",
+    "checkedAt": "2026-11-16T12:35:50.777Z"
+  },
+  {
+    "id": "system:lime/foundations/motion.md",
+    "url": "/systems/preview/?system=lime&foundation=motion&theme=light",
+    "sha256": "0b548fd7b25308d5885afe43ed393c062480da00f75f0f6051f49e25e3a8eaef",
+    "checkedAt": "2026-11-16T12:35:51.343Z"
+  },
+  {
+    "id": "system:lime/foundations/radius.md",
+    "url": "/systems/preview/?system=lime&foundation=radius&theme=light",
+    "sha256": "0fd0138156a2ac03497bcea63fe4a6f373e4d1e3aec38b3a6044afb684b19c6c",
+    "checkedAt": "2026-11-16T12:35:51.910Z"
+  },
+  {
+    "id": "system:lime/foundations/spacing.md",
+    "url": "/systems/preview/?system=lime&foundation=spacing&theme=light",
+    "sha256": "78ad31b1575146e1ea79c436cd22573dd3293c3d2441cb63d51ee7b1064a6c47",
+    "checkedAt": "2026-11-16T12:35:52.493Z"
+  },
+  {
+    "id": "system:lime/foundations/typography.md",
+    "url": "/systems/preview/?system=lime&foundation=typography&theme=light",
+    "sha256": "c5a7439dfd2449024ef567ea255223e96c39a4fe81790a5e26796210aba8b512",
+    "checkedAt": "2026-11-16T12:35:53.098Z"
+  },
+  {
+    "id": "system:quartz/foundations/anti-slop.md",
+    "url": "/systems/preview/?system=quartz&foundation=anti-slop&theme=light",
+    "sha256": "59e8980d3b408b5ad3f370d3177126e7dc4d9419d4c99db97f0a5027f37d4654",
+    "checkedAt": "2026-11-16T12:35:53.761Z"
+  },
+  {
+    "id": "system:quartz/foundations/borders-and-lines.md",
+    "url": "/systems/preview/?system=quartz&foundation=borders-and-lines&theme=light",
+    "sha256": "a9a272be77b758667cba7ee3cf1551f02fd1a9c5c715c57d0571acb2ec832e12",
+    "checkedAt": "2026-11-16T12:35:54.377Z"
+  },
+  {
+    "id": "system:quartz/foundations/color.md",
+    "url": "/systems/preview/?system=quartz&foundation=color&theme=light",
+    "sha256": "0ae19554a831cbc09bc1c793ca16c611a26db3f856b309c3e0864f0482bb1243",
+    "checkedAt": "2026-11-16T12:35:54.976Z"
+  },
+  {
+    "id": "system:quartz/foundations/elevation.md",
+    "url": "/systems/preview/?system=quartz&foundation=elevation&theme=light",
+    "sha256": "fcd18b90952b79db7fb01d4062c8a4e4de3eec1235441dbe9a75e7749ef0644e",
+    "checkedAt": "2026-11-16T12:35:55.610Z"
+  },
+  {
+    "id": "system:quartz/foundations/grid.md",
+    "url": "/systems/preview/?system=quartz&foundation=grid&theme=light",
+    "sha256": "3e51690899010f79af7eab5deffa3976ab92884183c5f9a0ac8033c0946e2a47",
+    "checkedAt": "2026-11-16T12:35:56.227Z"
+  },
+  {
+    "id": "system:quartz/foundations/iconography.md",
+    "url": "/systems/preview/?system=quartz&foundation=iconography&theme=light",
+    "sha256": "7f13f1ef7106c177d01355eb57cb35b531c9a76720acec9c24907aca12520f51",
+    "checkedAt": "2026-11-16T12:35:56.826Z"
+  },
+  {
+    "id": "system:quartz/foundations/motion.md",
+    "url": "/systems/preview/?system=quartz&foundation=motion&theme=light",
+    "sha256": "e024644434afcc64820ef1d02f650530155315d82545022c43161d7577b07918",
+    "checkedAt": "2026-11-16T12:35:57.414Z"
+  },
+  {
+    "id": "system:quartz/foundations/radius.md",
+    "url": "/systems/preview/?system=quartz&foundation=radius&theme=light",
+    "sha256": "de9d8ca4a1350db95a384f0fedb682cfaa65510119495508fd82a0a2c82d608f",
+    "checkedAt": "2026-11-16T12:35:57.992Z"
+  },
+  {
+    "id": "system:quartz/foundations/space.md",
+    "url": "/systems/preview/?system=quartz&foundation=space&theme=light",
+    "sha256": "c676d5a30cd4374652ebb0df8d3b386da624da4891ba5e17ec50242da616330d",
+    "checkedAt": "2026-11-16T12:35:58.593Z"
+  },
+  {
+    "id": "system:quartz/foundations/typography.md",
+    "url": "/systems/preview/?system=quartz&foundation=typography&theme=light",
+    "sha256": "0b305b383fe74d15117fd73bcee5fb25d3017e6d588095374bd8be9c90c59064",
+    "checkedAt": "2026-11-16T12:35:59.212Z"
+  },
+  {
+    "id": "system:sodium/foundations/anti-slop.md",
+    "url": "/systems/preview/?system=sodium&foundation=anti-slop&theme=light",
+    "sha256": "95bf6a0c3bc96442c79a97ff2eef777feefa0ed79d33a42fe6e3ac811ef87046",
+    "checkedAt": "2026-11-16T12:36:00.762Z"
+  },
+  {
+    "id": "system:sodium/foundations/borders-and-lines.md",
+    "url": "/systems/preview/?system=sodium&foundation=borders-and-lines&theme=light",
+    "sha256": "9a3b32c57ad66934304741e5bd1935f861fb88011909fbae5aec17891d514d6d",
+    "checkedAt": "2026-11-16T12:36:01.644Z"
+  },
+  {
+    "id": "system:sodium/foundations/color.md",
+    "url": "/systems/preview/?system=sodium&foundation=color&theme=light",
+    "sha256": "e58df69413c4c0480df6c80360abe1fa7343414304fff691491871035f900985",
+    "checkedAt": "2026-11-16T12:36:02.260Z"
+  },
+  {
+    "id": "system:sodium/foundations/elevation.md",
+    "url": "/systems/preview/?system=sodium&foundation=elevation&theme=light",
+    "sha256": "909aa8ad5d5f816a3a36ff3b8b3ed769f2ee0c88ad209f90f525640dff121cf8",
+    "checkedAt": "2026-11-16T12:36:02.894Z"
+  },
+  {
+    "id": "system:sodium/foundations/iconography.md",
+    "url": "/systems/preview/?system=sodium&foundation=iconography&theme=light",
+    "sha256": "7fdcf937bf4239421b70b50db45fdc4983e690ab01fc4234362753d51e45a367",
+    "checkedAt": "2026-11-16T12:36:03.511Z"
+  },
+  {
+    "id": "system:sodium/foundations/motion.md",
+    "url": "/systems/preview/?system=sodium&foundation=motion&theme=light",
+    "sha256": "87b5ce45f0f9eb7bd9bc1a17c954246543143ab8fed452a73f1aa039dfbe65be",
+    "checkedAt": "2026-11-16T12:36:04.110Z"
+  },
+  {
+    "id": "system:sodium/foundations/radius.md",
+    "url": "/systems/preview/?system=sodium&foundation=radius&theme=light",
+    "sha256": "a2de777260619c09d8615449df38349c2e72d7554e585476bc9cab8a7ec4e23e",
+    "checkedAt": "2026-11-16T12:36:04.781Z"
+  },
+  {
+    "id": "system:sodium/foundations/space.md",
+    "url": "/systems/preview/?system=sodium&foundation=space&theme=light",
+    "sha256": "5dd1574c0ae8d6844b83f680d3205de90ea4bf8b1e4fb63ee7267dfbc5b1ebbc",
+    "checkedAt": "2026-11-16T12:36:05.387Z"
+  },
+  {
+    "id": "system:sodium/foundations/typography.md",
+    "url": "/systems/preview/?system=sodium&foundation=typography&theme=light",
+    "sha256": "bdfa6682b3ac25d94692cee95d186d35232035330743b170550ff49eac840f32",
+    "checkedAt": "2026-11-16T12:36:06.078Z"
+  },
+  {
+    "id": "collection:brand-systems/meridian-slate/foundations/grid.md",
+    "url": "/systems/preview/?system=meridian-slate&foundation=grid&theme=light",
+    "sha256": "d023a0f9f3d44374871146becdd01298d5308a2e302f6aa4a8b786dc51cb58d7",
+    "checkedAt": "2026-11-16T12:48:17.078Z"
   }
 ]

@@ -1,3 +1,4 @@
+import {isSystemEntry,systemEntryName} from "./platform-directory";
 import React, { useEffect, useMemo, useState } from "react";
 import { Button } from "../packages/ui";
 import { ResourceToolbar } from "./ResourceToolbar";
@@ -113,10 +114,9 @@ export function ResourceDirectory({
             r.type !== "collection" &&
             !r.aliasOf &&
             sectionFor(r) === section &&
-            (section !== "systems" ||
-              !r.system ||
-              r.path.endsWith("/index.md")),
+            (section !== "systems" || isSystemEntry(r)),
         )
+        .map(r=>section==="systems"?{...r,name:systemEntryName(r)}:r)
         .sort((a, b) =>
           section === "design-md"
             ? 0

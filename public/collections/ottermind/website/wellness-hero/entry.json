@@ -1,0 +1,193 @@
+{
+ "slug": "wellness-hero",
+ "sourceSlug": "wellness-hero",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Wellness Hero"
+ },
+ "title": "Wellness Hero",
+ "industry": "health",
+ "industryLabel": "Health",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/2dbfeb1ac2a607ef.webp",
+  "still": "https://cdn.ottermind.ai/public/d3588f1903333140.webp",
+  "preview": "https://cdn.ottermind.ai/public/d3588f1903333140.webp",
+  "full": "https://cdn.ottermind.ai/public/d3588f1903333140.webp",
+  "aspectRatio": 1.3675,
+  "width": 640,
+  "height": 468,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Wellness Hero Health Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for a health or wellbeing product — a 640x468 frame, a stats row, glass panels and Inter. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "health website design",
+   "health hero section design",
+   "video-backed health landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Wellness Hero — Health Hero Section Design",
+ "tagline": "Hero section reference for a health or wellbeing product, captured at 640x468 with the layout, timings and palette specified in the brief.",
+ "summary": "Hero section reference for a health or wellbeing product — a 640x468 frame, a stats row, glass panels and Inter.",
+ "about": "Read Wellness Hero as a hero section spec: the values were written down before the page was built. Typography is Inter, and the brief fixes the sizes rather than leaving them to a scale. It ships as React and Tailwind CSS, so the whole hero section can be lifted into a project without a design handoff. Use it as the reference when you are building a health or wellbeing product hero section and want a finished composition instead of a starting point.",
+ "layout": [
+  {
+   "title": "Top row: wordmark, links, one action",
+   "body": "The wordmark holds the left edge and the links run to the right of it, all of it set in Inter so the bar belongs to the page below rather than to a separate system. The bar sits over the 640x468 composition without a background of its own, so the media runs edge to edge underneath it. Test the bar over your own media before giving it a background."
+  },
+  {
+   "title": "Links before the action",
+   "body": "Hover and focus states are specified for every link, which is what stops a thin bar from feeling inert. Copy this pattern when you need navigation that survives a loud first screen."
+  },
+  {
+   "title": "Type does the styling",
+   "body": "The type is Inter at the top of the scale, with the supporting copy dropped well below it so the hierarchy needs no colour to read. Tracking is set per size, so the display line and the caption do not share one letter-spacing value."
+  },
+  {
+   "title": "A pill for the one thing that is new",
+   "body": "One badge, one message: the pill sits above the headline in Inter at the smallest step, and nothing else competes for that slot. It is positioned so the headline keeps the centre of the composition. One badge, one message."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Almost no motion",
+   "body": "There is no scroll library here: the 640x468 composition holds still and only the elements that respond to you move. Motion is treated as feedback rather than as decoration."
+  },
+  {
+   "title": "Motion that stays out of the way",
+   "body": "Only the elements that respond to the pointer move."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#111111",
+    "name": "Primary",
+    "role": "base surface"
+   },
+   {
+    "hex": "#FFFFFF",
+    "name": "Support",
+    "role": "panels"
+   },
+   {
+    "hex": "#A78BFA",
+    "name": "Accent",
+    "role": "accent"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "300 / 400 / 500 / 600",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "The reference keeps to 3 values — one bed, one ink and one accent — and adds no decorative gradients.",
+   "The page keeps to 3 values, so the statistics and the controls draw from one palette.",
+   "The reference was captured at 640x468, and every value quoted on this page comes from the same brief."
+  ]
+ },
+ "customize": [
+  "Hold the hero section to one screen on desktop; the composition is solved for a reader who never scrolls.",
+  "Keep the supporting line as short as the reference's and measure the pair against the 640x468 crop.",
+  "Keep the 640x468 frame when you swap the content, because the composition was solved against that ratio.",
+  "Write the replacement headline first, then confirm it still fits the 640x468 frame at the reference's type size."
+ ],
+ "editorial": [
+  {
+   "title": "The numbers behind the hero section",
+   "body": "Every relationship on this page is a value you can check: a 640x468 frame. That is what makes Wellness Hero rebuildable rather than merely reproducible. Nothing in this hero section depends on a default."
+  },
+  {
+   "title": "The order behind the hero section",
+   "body": "You could shuffle these blocks and the page would still load. It would stop reading as an argument, though: navigation, the headline, the announcement badge, the stats row and the background clip are a sequence, and a 640x468 frame only work in that order. A health reader gets the offer before the options."
+  },
+  {
+   "title": "What to change first in Wellness Hero",
+   "body": "Compare this with starting from a blank page. Here the frame (640x468) and a 640x468 frame are already decided, so the work is substitution rather than composition. Keep the media crop; it is doing as much work as the type."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 640x468 capture before you generate.",
+  "Copy The page keeps to 3 values, so the statistics and the controls draw from one palette. into your own brief before you rewrite anything else.",
+  "Pin the reference measurements before you restyle anything: The page keeps to 3 values, so the statistics and the controls draw from one palette..",
+  "Keep the measurements the brief spells out: The page keeps to 3 values, so the statistics and the controls draw from one palette..",
+  "Check your build against the reference measurements: The page keeps to 3 values, so the statistics and the controls draw from one palette.."
+ ],
+ "faq": [
+  {
+   "question": "Why is Wellness Hero's prompt not printed here?",
+   "answer": "Everything quoted on the page comes from the captured 4,719-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "What does the brief behind Wellness Hero actually contain?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 640x468, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "How much of Wellness Hero depends on React and Tailwind CSS?",
+   "answer": "The reference happens to be built in React and Tailwind CSS. Nothing in the layout depends on that choice: the spacing, type and motion values transfer to whatever you already use."
+  }
+ ],
+ "audience": [
+  "This hero section serves teams who have to justify a 640x468 frame to someone who was not in the kickoff.",
+  "Made for a solo founder shipping one hero section for a health or wellbeing product and no design system behind them.",
+  "Made for content leads rewriting a hero section whose headline has to stay as long as Wellness Hero's."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Hero section"
+  },
+  {
+   "label": "Vertical",
+   "value": "Health"
+  },
+  {
+   "label": "Frame",
+   "value": "640x468 · 1.37:1"
+  },
+  {
+   "label": "Prompt text",
+   "value": "4,719 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Faces",
+   "value": "Inter"
+  },
+  {
+   "label": "Stack",
+   "value": "Tailwind CSS, React, Lucide icons"
+  },
+  {
+   "label": "Timing",
+   "value": "state changes only"
+  }
+ ],
+ "related": [
+  "mind-body-healing",
+  "pet-diagnostics",
+  "prosthetics-hero",
+  "stillmind",
+  "wellbeing-os",
+  "wellness-balance"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 4719,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

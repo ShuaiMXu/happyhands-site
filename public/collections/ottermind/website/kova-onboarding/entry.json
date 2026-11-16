@@ -1,0 +1,202 @@
+{
+ "slug": "kova-onboarding",
+ "sourceSlug": "lp-016-6a9fa9a72a6e14c217942cb1",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "Kova Mobile App"
+ },
+ "title": "Kova Mobile App",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "onboarding",
+ "sectionLabel": "Onboarding",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/4a5b583d66ee7fad.webp",
+  "still": "https://cdn.ottermind.ai/public/a977d4d20d8cd8a3.webp",
+  "preview": "https://cdn.ottermind.ai/public/43e74ee9fa031da2.mp4",
+  "full": "https://cdn.ottermind.ai/public/b98d8a596ea7b9ad.mp4",
+  "aspectRatio": 1.4491,
+  "width": 1252,
+  "height": 864,
+  "duration": 7.98
+ },
+ "seo": {
+  "title": "Kova Mobile App AI & SaaS Onboarding Flow Design & Prompt | Ottermind",
+  "description": "Onboarding reference for an AI or SaaS product — a stats row, 800ms transitions, a dark stage and Helvetica Neue. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS onboarding flow design",
+   "video-backed SaaS landing page",
+   "onboarding flow design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Kova Mobile App — AI & SaaS Onboarding Flow Design",
+ "tagline": "“Turn your ideas into cinematic scenes” — the whole onboarding flow is composed around that line, down to the animation timings.",
+ "summary": "Onboarding reference for an AI or SaaS product — a stats row, 800ms transitions, a dark stage and Helvetica Neue.",
+ "about": "Kova Mobile App is the onboarding flow reference for an AI or SaaS product, and the brief behind it is a full build spec rather than a mood board. It leads with “Turn your ideas into cinematic scenes” and gives that line the frame rather than shrinking it into a card. Colour is limited to white #FFFFFF underneath, black #000000 for the type and indigo #2E1065 carrying the accents, set in Helvetica Neue. It ships as a single component, so the whole onboarding flow can be lifted into a project without a design handoff. The page keeps its motion to 800ms transitions and a looping video bed. Borrow the structure and not the subject: the onboarding flow and its numbers move to your brand unchanged.",
+ "layout": [
+  {
+   "title": "Navigation without a background",
+   "body": "The top row holds the wordmark, four to five links and a single action tinted #2E1065, sized to stay quiet against the rest of the page. The links are set below the wordmark in size, and the #2E1065 action is the only element in the bar with any weight. Test the bar over your own media before giving it a background."
+  },
+  {
+   "title": "The sizes are in the brief, not in a scale",
+   "body": "The brief fixes 100vh sections, 24px spacing steps and 800ms transitions and leaves the rest to the arrangement, which is the opposite of a scale that grows on its own. Each value maps to one job: a type step, a gap, a radius or a transition. Port the values with the layout."
+  },
+  {
+   "title": "Video at the bottom layer",
+   "body": "Video sits on the bottom layer of the 1252x864 composition, with the type arranged above it and nothing in between. A poster frame at 1252x864 holds the composition when autoplay is unavailable, so the layout never collapses."
+  },
+  {
+   "title": "The scale is the styling",
+   "body": "The size steps and tracking in the brief are what give this its tone: Helvetica Neue at a tight display size, then a clear drop to the supporting copy. The caption step is small enough to sit under a figure without changing the rhythm of the page."
+  }
+ ],
+ "motion": [
+  {
+   "title": "A scene instead of a still",
+   "body": "A WebGL canvas is doing the visual work on the 1252x864 frame, with the type set over or beside it. The surrounding interface stays flat, which lets the render carry the depth."
+  },
+  {
+   "title": "Fast enough to feel deliberate",
+   "body": "The animation budget is small and explicit: 800ms, applied to state changes rather than to entrances. Focus states are timed with the same value as hover, so keyboard and pointer feedback match."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#FFFFFF",
+    "name": "White",
+    "role": "composition"
+   },
+   {
+    "hex": "#E9D5FF",
+    "name": "Muted indigo",
+    "role": "darker"
+   },
+   {
+    "hex": "#2E1065",
+    "name": "Indigo",
+    "role": "accent"
+   },
+   {
+    "hex": "#000000",
+    "name": "Near-black",
+    "role": "Headline"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Helvetica Neue",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "The clip is one asset at 1252x864 and a 8s loop, so the composition has a single media dependency.",
+   "Accent and ground are both named (indigo #2E1065 on white #FFFFFF), so a brand swap moves one value.",
+   "Media is specified at 1252x864 and a 8s loop, so a replacement should match the crop and the loop length."
+  ]
+ },
+ "customize": [
+  "Read the brief value by value against the 1252x864 capture before you edit anything; the numbers are the part that is easiest to lose.",
+  "Change the copy first, then the accent, then the media: the 1252x864 frame was solved in that order and reversing it costs a re-layout.",
+  "Replace “Turn your ideas into cinematic scenes” with your own line and keep the same number of words, because the brief sizes the type for that rhythm.",
+  "Retune #2E1065 for your brand only after the Helvetica Neue copy is final, and re-check the contrast on the darkest band."
+ ],
+ "editorial": [
+  {
+   "title": "The order behind the onboarding flow",
+   "body": "Attention is routed rather than scattered. “Turn your ideas into cinematic scenes” is doing that work from the first frame. The eye lands on the display line first, then the supporting copy, then the action. Proof, where it appears, stays a strip or a row rather than a wall of testimonials. That sequence is the design. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "Why this composition works for SaaS",
+   "body": "Suppose your media is louder than your copy. That is the case this composition is built for. The media is a 8s 1252x864 loop. The frame stays quiet and 100vh sections and 24px spacing steps keep the reader on the text. It gives a SaaS reader the shortest honest route to the offer."
+  },
+  {
+   "title": "The timing behind the onboarding flow",
+   "body": "You could drop a preset library onto this composition and it would look busier, not better. The brief keeps 800ms transitions, a 8s media loop and hover and press states and spends the budget there. Nothing animates for its own sake in this onboarding flow."
+  }
+ ],
+ "steps": [
+  "Start in Studio with the prompt prefilled, then delete the parts of the onboarding flow you do not need.",
+  "Open the reference in Studio with the prompt staged, and read the onboarding flow brief before you send it.",
+  "Stage the prompt in Studio and read it once against the 1252x864 capture before you generate.",
+  "Set your brand first: product name, the #2E1065 accent and the headline that replaces the reference's.",
+  "Type the product name and the #2E1065 accent before you touch the layout."
+ ],
+ "faq": [
+  {
+   "question": "What does the brief behind Kova Mobile App actually contain?",
+   "answer": "The captured brief runs 3,523 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Why does the entry name a single component at all?",
+   "answer": "Kova Mobile App was built in a single component, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Why is Kova Mobile App's prompt not printed here?",
+   "answer": "Everything quoted on the page comes from the captured 3,523-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  }
+ ],
+ "audience": [
+  "Engineers who need the onboarding flow to survive a slow connection will use 1252x864 and the type scale as the weight budget.",
+  "Teams rebuilding a competitor's SaaS onboarding flow who want a single component named before anyone commits to a framework.",
+  "If the build starts from a single component, lift 100vh sections and 24px spacing steps first and leave the palette alone until the grid settles."
+ ],
+ "specs": [
+  {
+   "label": "Page part",
+   "value": "Onboarding"
+  },
+  {
+   "label": "Field",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Format",
+   "value": "1252x864 · 1.45:1"
+  },
+  {
+   "label": "Loop length",
+   "value": "8s loop"
+  },
+  {
+   "label": "Prompt",
+   "value": "3,523 characters"
+  },
+  {
+   "label": "Date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent",
+   "value": "indigo #2E1065"
+  },
+  {
+   "label": "Typefaces",
+   "value": "Helvetica Neue"
+  },
+  {
+   "label": "Timing",
+   "value": "800ms transitions and a 8s media loop"
+  }
+ ],
+ "related": [
+  "cyber-layer",
+  "cybersecurity-hero",
+  "data-signal",
+  "datacore-booking-hero",
+  "deepthink",
+  "design-rocket-email-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 3523,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

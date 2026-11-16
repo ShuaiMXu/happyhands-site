@@ -5,6 +5,7 @@ import { zipEntries, unzipEntries } from "../scripts/registry-zip.mjs";
 test("all hosted artifacts, dependency graphs, embedded source, metadata and ZIP downloads agree", async () => {
   const result = await auditRegistry();
   assert.equal(result.items, 308);
+  assert.equal(result.derivedArtifacts, 312);
   assert.ok(result.publishedArtifacts > 620);
   assert.ok(
     result.buttonBytesAcrossFourSystems.after <

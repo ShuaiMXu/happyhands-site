@@ -1,0 +1,198 @@
+{
+ "slug": "lumina-footer",
+ "sourceSlug": "lumina-footer",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Lumina"
+ },
+ "title": "Lumina",
+ "industry": "education",
+ "industryLabel": "Education & Community",
+ "section": "footer",
+ "sectionLabel": "Footer",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/333887ec043eeedc.webp",
+  "still": "https://cdn.ottermind.ai/public/5d5caa7a727f3626.webp",
+  "preview": "https://cdn.ottermind.ai/public/b8ab8a1bf466aab5.mp4",
+  "full": "https://cdn.ottermind.ai/public/242dd944b999258e.mp4",
+  "aspectRatio": 1.3699,
+  "width": 800,
+  "height": 584,
+  "duration": 5.67
+ },
+ "seo": {
+  "title": "Lumina Education & Community Footer Design & Prompt | Ottermind",
+  "description": "Footer reference for an education or community brand — React and Tailwind CSS, Helvetica, #2F4458 base and a stats row. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "education website design",
+   "education footer design",
+   "video-backed education landing page",
+   "footer design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Lumina — Education & Community Footer Design",
+ "tagline": "“Lumina provides premium clarity on global events and cosmic wonders - shared with all for free” — the whole footer is composed around that line, down to the animation timings.",
+ "summary": "Footer reference for an education or community brand — React and Tailwind CSS, Helvetica, #2F4458 base and a stats row.",
+ "about": "Lumina keeps its decision trail: the brief that produced this footer runs 5,113 characters. The page's own headline reads “Lumina provides premium clarity on global events and cosmic wonders - shared with all for free”, and the composition is built around those exact words. The colour scheme is blue #2F4458 underneath and gray #CFC2B7 for the type, and the page is set in Helvetica. It ships as React and Tailwind CSS, so the whole footer can be lifted into a project without a design handoff. This reference is for an education or community brand that wants the first screen settled before the build starts.",
+ "layout": [
+  {
+   "title": "Every measurement is written down",
+   "body": "The layout works on absolute values rather than ratios: 115vh sections and 10px spacing steps. The type and the layout share the same steps, so nothing drifts when one of them is substituted."
+  },
+  {
+   "title": "The type carries the tone",
+   "body": "The faces are assigned roles rather than mixed: Helvetica carries the display and the interface together. Weights are specified per role, so the hierarchy does not depend on guesswork at build time."
+  },
+  {
+   "title": "A footer that carries the brand",
+   "body": "Links are grouped into columns with the wordmark in its own block, which keeps a long footer readable instead of turning it into a list. Type sizes step down from the column headings to the links, so the hierarchy survives a dense footer. Give the wordmark its own column."
+  },
+  {
+   "title": "The composition is the content",
+   "body": "The composition is complete at 800x585: the copy, the media and the controls are all named in the brief. The page is one composition at 800x585, which is why it holds together when the copy changes."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Feedback on the controls",
+   "body": "Feedback is limited to hover states on the buttons and links rather than on every card, which is what keeps a dense first screen from feeling busy. Interactive targets are large enough to tap and the pointer treatment is consistent across them."
+  },
+  {
+   "title": "Static by design",
+   "body": "The brief leaves animation out and lets the 800x585 layout carry the page, with hover and press states the only changes. The composition holds still, so the hierarchy has to carry the page and it does."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#2C3130",
+    "name": "Black",
+    "role": "darkest"
+   },
+   {
+    "hex": "#CFC2B7",
+    "name": "Gray",
+    "role": "Headline"
+   },
+   {
+    "hex": "#23384F",
+    "name": "Blue",
+    "role": "saturated"
+   },
+   {
+    "hex": "#2F4458",
+    "name": "Blue — lighter",
+    "role": "composition"
+   }
+  ],
+  "glass": "The brief uses blur(4px) for the panels over a translucent fill, which is what makes them read as material rather than as a lighter rectangle.",
+  "fonts": [
+   {
+    "name": "Helvetica",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "The reference was captured at 800x585, and every value quoted on this page comes from the same brief.",
+   "Glass surfaces use blur(4px), and the blur is what makes the panels read as material rather than as fill."
+  ]
+ },
+ "customize": [
+  "Replace “Lumina provides premium clarity on global events and cosmic wonders - shared with all for free” with your own line and keep the same number of words, because the brief sizes the type for that rhythm.",
+  "Change the copy first, then the accent, then the media: the 800x585 frame was solved in that order and reversing it costs a re-layout.",
+  "Keep Helvetica or pick a face with the same proportions; the size scale is set for those widths, not for a substitute.",
+  "Write the replacement headline first, then confirm it still fits the 800x585 frame at the reference's type size."
+ ],
+ "editorial": [
+  {
+   "title": "The numbers behind the footer",
+   "body": "The footer is measured, not eyeballed. 115vh sections and 10px spacing steps come from the brief, and the layout is arranged to those steps rather than nudged into place. Nothing in this footer depends on a default."
+  },
+  {
+   "title": "How Lumina sequences the first read",
+   "body": "The brief runs 5,113 characters and names the reading order explicitly: the stats row, the background clip and the footer, with 115vh sections and 10px spacing steps between them. A education reader gets the offer before the options."
+  },
+  {
+   "title": "What holds up for Education & Community",
+   "body": "When you brief a education footer, the hard part is deciding what the first screen refuses to say. Lumina answers that in advance: one display line, the stats row, the background clip and the footer behind it. Lumina states the offer once and lets the composition repeat it rather than adding a second claim."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 800x585 capture before you generate.",
+  "Keep the measurements the brief spells out: 115vh sections and 10px spacing steps.",
+  "Copy 115vh sections and 10px spacing steps into your own brief before you rewrite anything else.",
+  "Pin the reference measurements before you restyle anything: 115vh sections and 10px spacing steps.",
+  "Check your build against the reference measurements: 115vh sections and 10px spacing steps."
+ ],
+ "faq": [
+  {
+   "question": "What do I get when I copy the Lumina brief?",
+   "answer": "The captured brief runs 5,113 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "How much of Lumina depends on React and Tailwind CSS?",
+   "answer": "Lumina was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Can I use Lumina in a client project?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 800x585."
+  }
+ ],
+ "audience": [
+  "If the reference is only a starting point, designers can keep a 800x585 frame and rebuild the rest of the footer.",
+  "Teams building an education or community brand footer who want the measured detail (115vh sections and 10px spacing steps) rather than a screenshot to copy.",
+  "Made for product managers who need the footer scoped to one sprint and no new assets."
+ ],
+ "specs": [
+  {
+   "label": "Page section",
+   "value": "Footer"
+  },
+  {
+   "label": "Category",
+   "value": "Education & Community"
+  },
+  {
+   "label": "Format",
+   "value": "800x585 · 1.37:1"
+  },
+  {
+   "label": "Prompt text",
+   "value": "5,113 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Fonts",
+   "value": "Helvetica"
+  },
+  {
+   "label": "Tools",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Transitions",
+   "value": "state changes only"
+  }
+ ],
+ "related": [
+  "neo-museum",
+  "planetary-pulse",
+  "space-planet",
+  "trueearth",
+  "church-community",
+  "codenest-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 5113,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

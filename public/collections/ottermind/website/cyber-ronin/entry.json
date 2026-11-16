@@ -1,0 +1,207 @@
+{
+ "slug": "cyber-ronin",
+ "sourceSlug": "cyber-ronin",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Cyber Ronin"
+ },
+ "title": "Cyber Ronin",
+ "industry": "3d-games",
+ "industryLabel": "3D & Games",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/f2eacee878b2083d.webp",
+  "still": "https://cdn.ottermind.ai/public/625817ebfb322908.webp",
+  "preview": "https://cdn.ottermind.ai/public/98d34e43ddecba43.mp4",
+  "full": "https://cdn.ottermind.ai/public/8d28c7b23662ee85.mp4",
+  "aspectRatio": 1.3521,
+  "width": 1920,
+  "height": 1420,
+  "duration": 5.975
+ },
+ "seo": {
+  "title": "Cyber Ronin 3D & Games Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for a 3D, game or entertainment brand — looping video, Inter, scroll-triggered reveals and one self-contained HTML file. Copy the prompt or open it staged.",
+  "keywords": [
+   "3D website design",
+   "3D landing page design",
+   "gradient 3D landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Cyber Ronin — 3D & Games Landing Page Design",
+ "tagline": "“Cyber Ronin // Neural Edges” — the whole landing page is composed around that line, down to the animation timings.",
+ "summary": "Landing page reference for a 3D, game or entertainment brand — looping video, Inter, scroll-triggered reveals and one self-contained HTML file.",
+ "about": "This is the landing page from Cyber Ronin, published with the brief that produced it rather than as a screenshot. “Cyber Ronin // Neural Edges” is the line the layout is built to carry. The palette runs orange #C45A18 underneath and cream #FBDBAF for the type, and the type is Inter. The build is one self-contained HTML file; every measurement in it is written down, which is what makes it reusable. Motion is 0.25s transitions, cubic-bezier(0.25,0.46,0.45,0.94) and a looping video bed, kept quiet enough that the copy still leads. If you are briefing a 3D landing page, start from this composition and replace the subject.",
+ "layout": [
+  {
+   "title": "One scale for type and frame",
+   "body": "The list stays short (100vh sections, 28px spacing steps, 0.25s transitions and cubic-bezier(0.25,0.46,0.45,0.94) easing), which is why the whole system can be checked by hand. The list is short enough that a reviewer can check it element by element."
+  },
+  {
+   "title": "A clip, not an illustration",
+   "body": "The background is a single 6s loop at 1920x1420, cropped to cover and left un-tinted. Everything else floats above it on a higher layer. Export at 1920x1420 or wider and the cover crop keeps working."
+  },
+  {
+   "title": "One face, used with discipline",
+   "body": "The faces are assigned roles rather than mixed: Inter carries the display and the interface together. The interface text stays on one face, so the page never mixes two voices at the same size. Do not add a size without a job."
+  },
+  {
+   "title": "The brief names the steps",
+   "body": "Spacing is quoted the same way (100vh sections, 28px spacing steps, 0.25s transitions and cubic-bezier(0.25,0.46,0.45,0.94) easing), not as a scale that grows on its own."
+  }
+ ],
+ "motion": [
+  {
+   "title": "The loop does the ambient work",
+   "body": "The background clip runs 6s at 1920x1420 on an endless loop, muted and inline, so the page keeps moving while the reader's attention is on the copy. No scroll library is required, because the only ambient motion is the media itself. A poster frame stands in when autoplay is blocked, so the motion is additive rather than required. Shoot or export at 1920x1420 or wider."
+  },
+  {
+   "title": "Entrance as the signature",
+   "body": "Entrance motion is spent on one element only (the headline arrives word by word), which is what keeps a busy first screen from feeling busy. Timing is applied to the words rather than to the container, which is why the line lands as a sentence instead of a block. Test it with the motion off. The reference was captured at 1920x1420."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#FBDBAF",
+    "name": "Cream",
+    "role": "Headline"
+   },
+   {
+    "hex": "#E07020",
+    "name": "Orange",
+    "role": "lighter"
+   },
+   {
+    "hex": "#C45A18",
+    "name": "Orange — darker",
+    "role": "composition"
+   },
+   {
+    "hex": "#080503",
+    "name": "Near-black",
+    "role": "darkest"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Interface"
+   },
+   {
+    "name": "Orbitron-Medium",
+    "weights": "Weight not fixed in the brief",
+    "role": "Body copy"
+   }
+  ],
+  "notes": [
+   "The clip is one asset at 1920x1420 and a 6s loop, so the composition has a single media dependency.",
+   "Nothing sits between the type and the 1920x1420 clip, so a replacement has to work under the copy directly.",
+   "Transitions are specified at 0.25s, short enough that the page never feels like it is waiting for an animation."
+  ]
+ },
+ "customize": [
+  "Read the brief value by value against the 1920x1420 capture before you edit anything; the numbers are the part that is easiest to lose.",
+  "Swap the clip for your own footage at 1920x1420 or wider, keep it muted, and match the 6s loop point.",
+  "Keep the supporting line as short as the reference's and measure the pair against the 1920x1420 crop.",
+  "Rewrite “Cyber Ronin // Neural Edges” to the same line count; the mask reveals each line in turn."
+ ],
+ "editorial": [
+  {
+   "title": "Reading Cyber Ronin as a spec",
+   "body": "Where a mood board leaves the scale open, this brief closes it: 100vh sections and 28px spacing steps, with the surrounding values derived from that decision. Nothing in this landing page depends on a default."
+  },
+  {
+   "title": "How the landing page reflows",
+   "body": "The narrow layout is designed, not inherited. the scale is fluid rather than stepped, the layout shifts at 360px and the section is held at 100vh at each width, so the hierarchy survives the reflow. A squeeze would have been cheaper and would not hold."
+  },
+  {
+   "title": "How Cyber Ronin sequences the first read",
+   "body": "You could shuffle these blocks and the page would still load. It would stop reading as an argument, though: the stats row, the card grid and the feature list are a sequence, and 100vh sections and 28px spacing steps only work in that order. A 3D reader gets the offer before the options."
+  }
+ ],
+ "steps": [
+  "Check your build against the reference measurements: 100vh sections, 28px spacing steps and 0.25s transitions.",
+  "Copy 100vh sections, 28px spacing steps and 0.25s transitions into your own brief before you rewrite anything else.",
+  "Pin the reference measurements before you restyle anything: 100vh sections, 28px spacing steps and 0.25s transitions.",
+  "Keep the measurements the brief spells out: 100vh sections, 28px spacing steps and 0.25s transitions.",
+  "Copy the 0.25s timing exactly, then rebuild the entrance before the hover states."
+ ],
+ "faq": [
+  {
+   "question": "Is the Cyber Ronin prompt a finished spec or a starting point?",
+   "answer": "The captured brief runs 10,993 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Do I need one self-contained HTML file to rebuild Cyber Ronin?",
+   "answer": "Cyber Ronin was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Is the Cyber Ronin brief the same as the prompt I would write?",
+   "answer": "Everything quoted on the page comes from the captured 10,993-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  }
+ ],
+ "audience": [
+  "Teams building a 3D, game or entertainment brand landing page who need one self-contained HTML file on the record before an estimate goes out.",
+  "Product managers who have to estimate the build will read a 360px breakpoint as the scope of the work.",
+  "If you brief a model rather than a designer, start from the landing page and let the prompt hold a 1920x1420 frame."
+ ],
+ "specs": [
+  {
+   "label": "Page section",
+   "value": "Landing page"
+  },
+  {
+   "label": "Sector",
+   "value": "3D & Games"
+  },
+  {
+   "label": "Canvas",
+   "value": "1920x1420 · 1.35:1"
+  },
+  {
+   "label": "Loop",
+   "value": "6s loop"
+  },
+  {
+   "label": "Source text",
+   "value": "10,993 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type",
+   "value": "Inter, Orbitron-Medium"
+  },
+  {
+   "label": "Tech stack",
+   "value": "single HTML file"
+  },
+  {
+   "label": "Animation",
+   "value": "0.25s transitions, cubic-bezier(0.25,0.46,0.45,0.94) easing and a 6s media loop"
+  }
+ ],
+ "related": [
+  "portfolio-cosmic-hero",
+  "3d-collectible-hero",
+  "3d-jack-portfolio-hero",
+  "cast-and-render",
+  "3d-character-studio",
+  "404"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 10993,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

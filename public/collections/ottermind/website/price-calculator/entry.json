@@ -1,0 +1,194 @@
+{
+ "slug": "price-calculator",
+ "sourceSlug": "price-calculator",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Price Calculator"
+ },
+ "title": "Price Calculator",
+ "industry": "fintech",
+ "industryLabel": "Fintech",
+ "section": "pricing",
+ "sectionLabel": "Pricing section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/48501f9607569d3e.webp",
+  "still": "https://cdn.ottermind.ai/public/886fb475eacec353.webp",
+  "preview": "https://cdn.ottermind.ai/public/364cacd090f4ca47.mp4",
+  "full": "https://cdn.ottermind.ai/public/6e75439e8a467b08.mp4",
+  "aspectRatio": 1.2346,
+  "width": 800,
+  "height": 648,
+  "duration": 11.06
+ },
+ "seo": {
+  "title": "Price Calculator Fintech Pricing Section Design & Prompt | Ottermind",
+  "description": "Pricing section reference for a fintech product — #FF5656 accent, a dark stage, #000000 base and a 800x648 frame. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "fintech website design",
+   "fintech pricing section design",
+   "dark fintech landing page",
+   "pricing section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Price Calculator — Fintech Pricing Section Design",
+ "tagline": "Pricing section reference built around “Get premium website within your budget”, with the layout, timings and palette written down in the brief.",
+ "summary": "Pricing section reference for a fintech product — #FF5656 accent, a dark stage, #000000 base and a 800x648 frame.",
+ "about": "Price Calculator is a fintech pricing section built from one written brief, and this page documents that brief. “Get premium website within your budget” is the line the layout is built to carry. The whole page is built on black #000000 underneath and red #FF5656 carrying the accents. The entry names the stack that produced the page (a single component) rather than hiding it. Start from the captured brief, then edit the pricing section rather than rebuilding it from scratch.",
+ "layout": [
+  {
+   "title": "Measured against the viewport",
+   "body": "The values are the specification: 98px spacing steps, captured at 800x648 rather than inferred from a screenshot. The smallest and largest values in that list set the range the composition works in. Measure before you adjust."
+  },
+  {
+   "title": "The base carries the rest",
+   "body": "The palette is a ground and a signal (black #000000 and red #FF5656), with the second colour reserved for actions. Contrast between #FF5656 and black #000000 is what makes the accent readable at small sizes."
+  },
+  {
+   "title": "Numbers carried into the build",
+   "body": "Spacing is quoted the same way (98px spacing steps), not as a scale that grows on its own."
+  },
+  {
+   "title": "Colour rationed to actions",
+   "body": "Everything else sits on black #000000, which is what keeps a saturated palette legible."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Almost no motion",
+   "body": "This one is delivered as a still composition at 800x648, so the hierarchy has to work without motion, and it does. There is no animation library in the brief, which keeps the rebuild small."
+  },
+  {
+   "title": "Motion that stays out of the way",
+   "body": "There is no scroll library here: the 800x648 composition holds still and only the elements that respond to you move."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#FF5656",
+    "name": "Red",
+    "role": "accent"
+   },
+   {
+    "hex": "#0D0D0D",
+    "name": "Near-black",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#1E1E1E",
+    "name": "Near-black — lighter",
+    "role": "Secondary"
+   },
+   {
+    "hex": "#000000",
+    "name": "Near-black — darker",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Face not specified",
+    "weights": "Sizes and weights only",
+    "role": "The brief fixes the type scale but leaves the face to the build"
+   }
+  ],
+  "notes": [
+   "The accent is spent on red #FF5656 and the rest of the composition holds black #000000.",
+   "Accent and ground are both named (red #FF5656 on black #000000), so a brand swap moves one value.",
+   "Accent use is limited to red #FF5656; everything else sits on black #000000."
+  ]
+ },
+ "customize": [
+  "Read the brief value by value against the 800x648 capture before you edit anything; the numbers are the part that is easiest to lose.",
+  "Hold the pricing section to one screen on desktop; the composition is solved for a reader who never scrolls.",
+  "Change #FF5656 for your brand accent and re-check it against #000000, because the accent is the only saturated value in this composition.",
+  "Keep the pricing section inside one viewport and move whatever does not fit into the section below it."
+ ],
+ "editorial": [
+  {
+   "title": "How Price Calculator sequences the first read",
+   "body": "Nothing here competes with the first decision. The page says it out loud: “Get premium website within your budget”. The supporting material waits below the fold, and the headline and the card grid carry the top of the page alone. A fintech reader gets the offer before the options."
+  },
+  {
+   "title": "Reading Price Calculator as a spec",
+   "body": "The brief is a specification, not a mood board. It fixes 98px spacing steps, and it names the media at 800x648. That level of detail is why the design survives a rebuild: change the copy and the relationships still hold. Nothing in this pricing section depends on a default."
+  },
+  {
+   "title": "Making the pricing section yours",
+   "body": "Where a theme hands you components, this brief hands you a composition: 98px spacing steps and a media frame, with the subject left to you. Your accent has to survive the same contrast test as the reference accent."
+  }
+ ],
+ "steps": [
+  "Open the reference in Studio with the prompt staged, and read the pricing section brief before you send it.",
+  "Stage the prompt in Studio and read it once against the 800x648 capture before you generate.",
+  "Start in Studio with the prompt prefilled, then delete the parts of the pricing section you do not need.",
+  "Load the prompt in Studio and check that it names a single component before you press send.",
+  "Stage the brief in Studio, where the prompt is prefilled rather than sent, and read it once."
+ ],
+ "faq": [
+  {
+   "question": "Why does the entry name a single component at all?",
+   "answer": "Price Calculator was built in a single component, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "How should I handle the Price Calculator media in a client build?",
+   "answer": "The prompt was published publicly by motionsites.ai, and the preview here is their render. Treat it as a reference for structure and motion, check the source site's terms, and rebuild the composition with your own copy, media and palette before shipping it."
+  },
+  {
+   "question": "What do I get when I copy the Price Calculator brief?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 800x648, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  }
+ ],
+ "audience": [
+  "Borrow the pricing section structure whole and replace the copy line by line against a 800x648 frame.",
+  "People who brief a model on a pricing section will use the 3,168-character prompt as the starting point.",
+  "Teams building a fintech product pricing section who want the measured detail (98px spacing steps) rather than a screenshot to copy."
+ ],
+ "specs": [
+  {
+   "label": "Page section",
+   "value": "Pricing section"
+  },
+  {
+   "label": "Category",
+   "value": "Fintech"
+  },
+  {
+   "label": "Format",
+   "value": "800x648 · 1.23:1"
+  },
+  {
+   "label": "Source text",
+   "value": "3,168 characters"
+  },
+  {
+   "label": "Date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent tone",
+   "value": "red #FF5656"
+  },
+  {
+   "label": "Motion",
+   "value": "state changes only"
+  }
+ ],
+ "related": [
+  "guardnet-benefits",
+  "halo-usd-landing",
+  "halo-use-case",
+  "impact-ventures",
+  "alumica-hero",
+  "launchpad-blog"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 3168,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

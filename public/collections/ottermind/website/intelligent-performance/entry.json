@@ -1,0 +1,207 @@
+{
+ "slug": "intelligent-performance",
+ "sourceSlug": "intelligent-performance",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Intelligent Performance"
+ },
+ "title": "Intelligent Performance",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/929c549d031bf995.webp",
+  "still": "https://cdn.ottermind.ai/public/45e87e957264f3fb.webp",
+  "preview": "https://cdn.ottermind.ai/public/94b4c8d0093e121a.mp4",
+  "full": "https://cdn.ottermind.ai/public/1e9bd142b70259eb.mp4",
+  "aspectRatio": 1.354,
+  "width": 1920,
+  "height": 1418,
+  "duration": 3.475
+ },
+ "seo": {
+  "title": "Intelligent Performance AI & SaaS Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an AI or SaaS product — cubic-bezier(.16,1.3,1) easing, glass panels, one self-contained HTML file and a masked headline reveal. Copy the prompt or.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS landing page design",
+   "video-backed SaaS landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Intelligent Performance — AI & SaaS Landing Page Design",
+ "tagline": "Landing page reference built on neutral #ECECEB and red #FF6796, set in Inter and measured against 100vh sections.",
+ "summary": "Landing page reference for an AI or SaaS product — cubic-bezier(.16,1.3,1) easing, glass panels, one self-contained HTML file and a masked headline reveal.",
+ "about": "Before rebuilding a landing page for an AI or SaaS product, read Intelligent Performance: the composition and the specification behind it are both here. It leads with “Built for Intelligent Performance” and gives that line the frame rather than shrinking it into a card. The palette runs neutral #ECECEB underneath, #222222 for the type and red #FF6796 carrying the accents, and the type is Inter. Delivery is one self-contained HTML file, captured at 1920x1418 so the frame is fixed before any code is written. The page keeps its motion to 08s transitions, cubic-bezier(.16,1.3,1) and a looping video bed. Keep it open while you write: the 26,839-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "A bar with nothing spare",
+   "body": "The row spends its contrast in one place: the #FF6796 action, with the wordmark and the links held back on the ink colour. Under 767px the links collapse into a full-screen overlay. Below 767px the links collapse instead of wrapping onto a second line."
+  },
+  {
+   "title": "A full-bleed clip behind the type",
+   "body": "One 3.5s asset carries the whole first screen, and the page has no second media element to keep in sync. The loop is short enough (3.5s) that the eye reads it as texture rather than as a timeline."
+  },
+  {
+   "title": "Panels, not paragraphs",
+   "body": "The grid is the structure: panels of the same size, set in Inter, arranged so the eye moves across rather than down. Panels are separated by spacing rather than by borders, which keeps the grid quiet. Keep one idea per panel."
+  },
+  {
+   "title": "Fluid where it needs to be",
+   "body": "The top of the scale is fluid (a clamp between 16px and 14px) and the rest is fixed, so the frame stays composed as the viewport narrows. Controls stay large enough to tap and the copy keeps its reading order at every width."
+  }
+ ],
+ "motion": [
+  {
+   "title": "The reveal is the memory point",
+   "body": "A masked line reveal carries the first screen. The composition is static underneath it, so the movement reads as the page assembling itself rather than as decoration. Under reduced motion the element simply appears and the layout is unchanged."
+  },
+  {
+   "title": "Short, matched timings",
+   "body": "Motion is measured in milliseconds here: 08s on cubic-bezier(.16,1.3,1). That is the whole animation budget, and it is spent on state changes rather than on a scroll timeline. Easing is specified alongside the duration (08s), so a rebuild cannot quietly substitute a different feel."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#ECECEB",
+    "name": "Neutral",
+    "role": "composition"
+   },
+   {
+    "hex": "#222222",
+    "name": "Shade",
+    "role": "Headline"
+   },
+   {
+    "hex": "#4A4A4A",
+    "name": "Shade — lighter",
+    "role": "darker step"
+   },
+   {
+    "hex": "#FF6796",
+    "name": "Red",
+    "role": "accent"
+   }
+  ],
+  "glass": "Panels are translucent over neutral #ECECEB, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Media is specified at 1920x1418 and a 3.5s loop, so a replacement should match the crop and the loop length.",
+   "The accent is spent on red #FF6796 and the rest of the composition holds neutral #ECECEB.",
+   "Transitions are specified at 08s, short enough that the page never feels like it is waiting for an animation."
+  ]
+ },
+ "customize": [
+  "Change the copy before the colour: rewrite the Inter paragraphs first, then check #FF6796 against the media behind them.",
+  "Read the brief value by value against the 1920x1418 capture before you edit anything; the numbers are the part that is easiest to lose.",
+  "Swap #FF6796 for your brand colour and re-check it against #ECECEB, since the accent is the only place saturation is allowed.",
+  "Move #FF6796 to your own hue and leave #ECECEB where it is; the distance between them is doing the hierarchy work."
+ ],
+ "editorial": [
+  {
+   "title": "How Intelligent Performance sequences the first read",
+   "body": "The trade-off is patience: the page withholds the detail a scannable grid would hand over immediately. What it buys is a first screen where navigation, the headline, the stats row, the card grid and the feature list cannot be misread. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "How the landing page reflows",
+   "body": "The narrow layout is designed, not inherited. the scale is fluid rather than stepped, the layout shifts at 767px and the section is held at 100vh at each width, so the hierarchy survives the reflow. Nothing important is dropped at narrow widths."
+  },
+  {
+   "title": "The timing behind the landing page",
+   "body": "The brief ties every transition to a value (08s transitions, a 3.5s media loop and a masked line reveal). That is what keeps the page from feeling like a template with an animation preset dropped on top of it. Nothing animates for its own sake in this landing page."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1920x1418 capture before you generate.",
+  "Drop your product name in, then replace #FF6796 with your own accent and re-check the contrast.",
+  "Set the brand first: product name, the #FF6796 accent and a headline that replaces the reference's.",
+  "Type the product name and the #FF6796 accent before you touch the layout.",
+  "Set your brand first: product name, the #FF6796 accent and the headline that replaces the reference's."
+ ],
+ "faq": [
+  {
+   "question": "Can I rebuild the Intelligent Performance landing page in a different stack?",
+   "answer": "Intelligent Performance was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What do I get when I copy the Intelligent Performance brief?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1920x1418, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Can I ship a page rebuilt from Intelligent Performance without crediting it?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1920x1418."
+  }
+ ],
+ "audience": [
+  "Studio teams briefing a build and looking for cubic-bezier(.16,1.3,1) easing to react to.",
+  "Teams building an AI or SaaS product landing page who need one self-contained HTML file on the record before an estimate goes out.",
+  "Made for agencies that pitch SaaS work and need a 767px breakpoint in the first reply to the client."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Landing page"
+  },
+  {
+   "label": "Sector",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Format",
+   "value": "1920x1418 · 1.35:1"
+  },
+  {
+   "label": "Runtime",
+   "value": "3.5s loop"
+  },
+  {
+   "label": "Source text",
+   "value": "26,839 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key tone",
+   "value": "red #FF6796"
+  },
+  {
+   "label": "Type",
+   "value": "Inter"
+  },
+  {
+   "label": "Tools",
+   "value": "vanilla JS, single HTML file"
+  },
+  {
+   "label": "Motion",
+   "value": "08s transitions, cubic-bezier(.16,1.3,1) easing and a 3.5s media loop"
+  }
+ ],
+ "related": [
+  "ai-workflow",
+  "ai-workflow-agents",
+  "arceage-stats",
+  "asme-hero",
+  "autonomous-ops",
+  "axion-about"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 26839,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

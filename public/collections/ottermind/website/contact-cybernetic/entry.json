@@ -1,0 +1,198 @@
+{
+ "slug": "contact-cybernetic",
+ "sourceSlug": "contact-cybernetic",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Contact Cybernetic"
+ },
+ "title": "Contact Cybernetic",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/addd8a99ca6bbef2.webp",
+  "still": "https://cdn.ottermind.ai/public/5805313f2a498c13.webp",
+  "preview": "https://cdn.ottermind.ai/public/5805313f2a498c13.webp",
+  "full": "https://cdn.ottermind.ai/public/5805313f2a498c13.webp",
+  "aspectRatio": 1.3974,
+  "width": 640,
+  "height": 458,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Contact Cybernetic AI & SaaS Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an AI or SaaS product — 1s transitions, a 640x458 frame, a stats row and Inter. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS hero section design",
+   "video-backed SaaS landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Contact Cybernetic — AI & SaaS Hero Section Design",
+ "tagline": "“). Inside, display an acknowledgment banner reading” — the whole hero section is composed around that line, down to the animation timings.",
+ "summary": "Hero section reference for an AI or SaaS product — 1s transitions, a 640x458 frame, a stats row and Inter.",
+ "about": "Contact Cybernetic solves the hero section problem for an AI or SaaS product with a single captured brief. The page's own headline reads “). Inside, display an acknowledgment banner reading”, and the composition is built around those exact words. The palette is white #F1F3F1 underneath and deep green #1C2E1E for the type, set in Inter. The reference is built with React and Tailwind CSS, and the layout decisions are stated independently of it. Motion comes down to 1s transitions. Keep it open while you write: the 6,423-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "The nav is deliberately thin",
+   "body": "Navigation is a single row with no second level under it. A mobile overlay takes over below the tablet breakpoint. The bar sits over the 640x458 composition without a background of its own, so the media runs edge to edge underneath it. Test the bar over your own media before giving it a background."
+  },
+  {
+   "title": "A pill for the one thing that is new",
+   "body": "One badge, one message: the pill sits above the headline in Inter at the smallest step, and nothing else competes for that slot. It is positioned so the headline keeps the centre of the composition. Keep it above the headline, never beside it."
+  },
+  {
+   "title": "Top row, one action",
+   "body": "One action per bar. The reference was captured at 640x458."
+  },
+  {
+   "title": "The brief names the steps",
+   "body": "Sizes were read off the render at 640x458: type from 21px to 76px, 23px spacing steps and 1s transitions. The frame proportions are recorded with the sizes, so a rebuild gets the aspect right as well."
+  }
+ ],
+ "motion": [
+  {
+   "title": "A small interactive surface",
+   "body": "The interactive layer is small and predictable: hover states on the buttons and links rather than on every card. Everything else stays still, which keeps the emphasis on the composition. Interactive targets are large enough to tap and the pointer treatment is consistent across them. If a state does not confirm an action, drop it."
+  },
+  {
+   "title": "The whole animation budget",
+   "body": "The animation budget is small and explicit: 1s, applied to state changes rather than to entrances. Easing is specified alongside the duration (1s), so a rebuild cannot quietly substitute a different feel."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#1C2E1E",
+    "name": "Deep green",
+    "role": "Headline"
+   },
+   {
+    "hex": "#F1F3F1",
+    "name": "White",
+    "role": "composition"
+   },
+   {
+    "hex": "#EAECE9",
+    "name": "White — darker",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#5A635A",
+    "name": "Gray",
+    "role": "darker step"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "21–76px",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "The timing budget is state feedback rather than page choreography (1s), so a slower rebuild reads as a different design.",
+   "Font roles are assigned rather than mixed here, and 21–76px is the range the whole scale works in.",
+   "The type is set in Inter on a 21–76px scale, and the spacing follows the same steps."
+  ]
+ },
+ "customize": [
+  "Keep 640x458 for the media and re-crop your own asset into it rather than resizing the frame.",
+  "Rewrite “). Inside, display an acknowledgment banner reading” to the same line count; the mask reveals each line in turn.",
+  "Replace “). Inside, display an acknowledgment banner reading” with your own line and keep the word count, because the entrance is timed per line.",
+  "Write the replacement headline first, then confirm it still fits the 640x458 frame at the reference's type size."
+ ],
+ "editorial": [
+  {
+   "title": "How the hero section reflows",
+   "body": "Compared with a mobile layout that hides sections, this one keeps them and changes their shape: the navigation collapses into a mobile menu. The mobile version is a decision, not a fallback."
+  },
+  {
+   "title": "The order behind the hero section",
+   "body": "When a SaaS reader lands on a single screen, they scan before they read. The layout answers that: navigation, the headline, the announcement badge, the stats row and the background clip are sized to be scanned, with type from 21px to 76px and 23px spacing steps keeping each stop distinct. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "Reading Contact Cybernetic as a spec",
+   "body": "The page has more numbers in it than it appears to. type from 21px to 76px, 23px spacing steps and 1s transitions are the ones a rebuild has to keep; the rest can move. Nothing in this hero section depends on a default."
+  }
+ ],
+ "steps": [
+  "Check your build against the reference measurements: type from 21px to 76px, 23px spacing steps and 1s transitions.",
+  "Copy type from 21px to 76px, 23px spacing steps and 1s transitions into your own brief before you rewrite anything else.",
+  "Pin the reference measurements before you restyle anything: type from 21px to 76px, 23px spacing steps and 1s transitions.",
+  "Keep the measurements the brief spells out: type from 21px to 76px, 23px spacing steps and 1s transitions.",
+  "Add the entrance first at 1s, and only then the hover and scroll behaviour."
+ ],
+ "faq": [
+  {
+   "question": "What do I get when I copy the Contact Cybernetic brief?",
+   "answer": "The captured brief runs 6,423 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "How much of Contact Cybernetic depends on React and Tailwind CSS?",
+   "answer": "Contact Cybernetic was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "How much of Contact Cybernetic is animated?",
+   "answer": "The motion is specified at the same level of detail as the layout: state changes settle in the 1s range. Port the composition first and the timings second, because they are easier to match once the layout holds."
+  }
+ ],
+ "audience": [
+  "Anyone using an AI builder who wants a brief that already contains a 640x458 frame instead of leaving it to the model.",
+  "Designers who need the numbers first: type from 21px to 76px and 23px spacing steps, all of it quoted from the brief.",
+  "Made for content leads rewriting a hero section whose headline has to stay as long as Contact Cybernetic's."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Hero section"
+  },
+  {
+   "label": "Vertical",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Canvas",
+   "value": "640x458 · 1.4:1"
+  },
+  {
+   "label": "Source text",
+   "value": "6,423 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Typefaces",
+   "value": "Inter · 21–76px"
+  },
+  {
+   "label": "Built with",
+   "value": "Tailwind CSS, React, Framer Motion"
+  },
+  {
+   "label": "Animation",
+   "value": "1s transitions"
+  }
+ ],
+ "related": [
+  "agent-wave",
+  "ai-runtime",
+  "ai-workflow",
+  "ai-workflow-agents",
+  "arceage-stats",
+  "asme-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 6423,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

@@ -1,0 +1,206 @@
+{
+ "slug": "cross-border",
+ "sourceSlug": "cross-border",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Cross-Border"
+ },
+ "title": "Cross-Border",
+ "industry": "industrial",
+ "industryLabel": "Industrial",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/b4469b4d25159ece.webp",
+  "still": "https://cdn.ottermind.ai/public/9fa24e3ff9034731.webp",
+  "preview": "https://cdn.ottermind.ai/public/30bca9ce05768f04.mp4",
+  "full": "https://cdn.ottermind.ai/public/57cc63ea395d5dbd.mp4",
+  "aspectRatio": 1.3333,
+  "width": 1440,
+  "height": 1080,
+  "duration": 5.833
+ },
+ "seo": {
+  "title": "Cross-Border Industrial Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an industrial company — 0.6s transitions, React and Tailwind CSS, fluid type and Helvetica, Arial. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "industrial website design",
+   "industrial landing page design",
+   "dark industrial landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Cross-Border — Industrial Landing Page Design",
+ "tagline": "“Complete the form and our team will contact you soon” — the whole landing page is composed around that line, down to the animation timings.",
+ "summary": "Landing page reference for an industrial company — 0.6s transitions, React and Tailwind CSS, fluid type and Helvetica, Arial.",
+ "about": "Cross-Border keeps its decision trail: the brief that produced this landing page runs 6,698 characters. “Complete the form and our team will contact you soon” is the line the layout is built to carry. The palette runs bright yellow #FFDA00 underneath, black #1A1A1A for the type and deep teal #002A35 carrying the accents, and the type is Helvetica, Arial. The reference is built with React and Tailwind CSS, and the layout decisions are stated independently of it. Motion is confined to 0.6s transitions and a looping video bed. It is the right reference for an industrial company landing page that has to look deliberate on the first screen.",
+ "layout": [
+  {
+   "title": "Top row: wordmark, links, one action",
+   "body": "The top row holds the wordmark, four to five links and a single action tinted #002A35, sized to stay quiet against the rest of the page. A mobile overlay takes over below the tablet breakpoint. The links are set below the wordmark in size, and the #002A35 action is the only element in the bar with any weight."
+  },
+  {
+   "title": "Every measurement is written down",
+   "body": "The layout is solved against fixed values (12vh sections, 20px spacing steps and 0.6s transitions), which is what keeps the first screen composed at any width. The frame proportions are recorded with the sizes, so a rebuild gets the aspect right as well."
+  },
+  {
+   "title": "One clip does the work",
+   "body": "The 1440x1080 frame is filled by a single loop that plays behind the copy and asks for no controls. A poster frame at 1440x1080 holds the composition when autoplay is unavailable, so the layout never collapses."
+  },
+  {
+   "title": "The type carries the tone",
+   "body": "Type is the styling system here: Helvetica, Arial at the display size, the same face across the interface, and no second accent colour doing the work. The face is paired with fixed sizes, which is what keeps the display line and the interface text related."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Ambient motion without a scroll library",
+   "body": "One 5.8s clip is the entire ambient layer: it plays behind the copy, loops without a visible cut and never reacts to the pointer. The clip is muted and inline, so the first frame is available without an interaction."
+  },
+  {
+   "title": "Fast enough to feel deliberate",
+   "body": "Every state change in the specification has a duration attached: transitions settle around 0.6s. Nothing is left at the browser default, which is why the page feels authored rather than animated. Easing is specified alongside the duration (0.6s), so a rebuild cannot quietly substitute a different feel."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#FFDA00",
+    "name": "Bright yellow",
+    "role": "composition"
+   },
+   {
+    "hex": "#1A1A1A",
+    "name": "Near-black",
+    "role": "Headline"
+   },
+   {
+    "hex": "#0A1F2B",
+    "name": "Deep blue",
+    "role": "darker step"
+   },
+   {
+    "hex": "#002A35",
+    "name": "Deep teal",
+    "role": "accent"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Helvetica, Arial",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one stack for the whole page"
+   }
+  ],
+  "notes": [
+   "The clip is one asset at 1440x1080 and a 5.8s loop, so the composition has a single media dependency.",
+   "Media is specified at 1440x1080 and a 5.8s loop, so a replacement should match the crop and the loop length.",
+   "Accent use is limited to deep teal #002A35; everything else sits on bright yellow #FFDA00."
+  ]
+ },
+ "customize": [
+  "Check #002A35 against the copy size in Helvetica, Arial before you swap either, because the accent only reads on a large line.",
+  "Move #002A35 to your own hue and leave #FFDA00 where it is; the distance between them is doing the hierarchy work.",
+  "Keep 1440x1080 for the media and re-crop your own asset into it rather than resizing the frame.",
+  "Replace the headline and the supporting line with your own copy, keeping the same line count so the entrance still lands over the 1440x1080 frame."
+ ],
+ "editorial": [
+  {
+   "title": "The argument this landing page makes",
+   "body": "Cross-Border is the landing page reference for an industrial company, and it answers the problem that audience actually has. The page says it out loud: “Complete the form and our team will contact you soon”. The palette stays disciplined (bright yellow #FFDA00 and deep teal #002A35) and the type is set in Helvetica, Arial, so nothing in the composition depends on a borrowed trend. When you brief a build, this is the part worth copying: one promise at display size, with the supporting detail held below it. Cross-Border states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "The numbers behind the landing page",
+   "body": "The brief is a specification. It states 12vh sections, 20px spacing steps and 0.6s transitions, and it names the media frame at 1440x1080 before anything is designed around it. Nothing in this landing page depends on a default."
+  },
+  {
+   "title": "What moves in Cross-Border",
+   "body": "Motion here is a set of decisions, not a library: 0.6s transitions, a 5.8s media loop and hover and press states, and nothing animates on scroll. The result is a page that feels authored: short durations, one entrance, and state changes that confirm an action rather than decorate it. Nothing animates for its own sake in this landing page."
+  }
+ ],
+ "steps": [
+  "Drop your product name in, then replace #002A35 with your own accent and re-check the contrast.",
+  "Set the brand first: product name, the #002A35 accent and a headline that replaces the reference's.",
+  "Type the product name and the #002A35 accent before you touch the layout.",
+  "Set your brand first: product name, the #002A35 accent and the headline that replaces the reference's.",
+  "Copy 12vh sections, 20px spacing steps and 0.6s transitions into your own brief before you rewrite anything else."
+ ],
+ "faq": [
+  {
+   "question": "How long is the prompt behind Cross-Border?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1440x1080, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Do I need React and Tailwind CSS to rebuild Cross-Border?",
+   "answer": "Cross-Border was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Is the Cross-Border brief the same as the prompt I would write?",
+   "answer": "Everything quoted on the page comes from the captured 6,698-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  }
+ ],
+ "audience": [
+  "Anyone using an AI builder who wants a brief that already contains a 1440x1080 frame instead of leaving it to the model.",
+  "This landing page answers the builder who wants to know what 12vh sections and 20px spacing steps actually controls in the layout.",
+  "This landing page serves founders who need one screen of proof that industrial copy can carry 5.8s of looping video."
+ ],
+ "specs": [
+  {
+   "label": "Page part",
+   "value": "Landing page"
+  },
+  {
+   "label": "Industry",
+   "value": "Industrial"
+  },
+  {
+   "label": "Format",
+   "value": "1440x1080 · 1.33:1"
+  },
+  {
+   "label": "Runtime",
+   "value": "5.8s loop"
+  },
+  {
+   "label": "Brief",
+   "value": "6,698 characters"
+  },
+  {
+   "label": "Captured",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key tone",
+   "value": "deep teal #002A35"
+  },
+  {
+   "label": "Type scale",
+   "value": "Helvetica, Arial"
+  },
+  {
+   "label": "Tools",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Timing",
+   "value": "0.6s transitions and a 5.8s media loop"
+  }
+ ],
+ "related": [
+  "veyra-electric",
+  "cordex",
+  "interactive-discovery",
+  "coreos-product-hero",
+  "stark-minimal-footer",
+  "vectrus-energy"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 6698,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

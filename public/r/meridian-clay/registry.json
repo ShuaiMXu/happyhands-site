@@ -1,0 +1,1829 @@
+{
+ "$schema": "https://ui.shadcn.com/schema/registry.json",
+ "name": "meridian-clay",
+ "homepage": "https://happyhands.cc/systems/meridian-clay/index.md",
+ "items": [
+  {
+   "name": "button",
+   "type": "registry:ui",
+   "title": "Button",
+   "description": "Starts an action, such as Send money. The blue primary is the one glowing action on a screen.",
+   "author": "localhost:8080",
+   "categories": [
+    "actions"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/button.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/button"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/button.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/button.tsx"
+    }
+   ]
+  },
+  {
+   "name": "copy-button",
+   "type": "registry:ui",
+   "title": "Copy button",
+   "description": "Copies a value, such as a payment link, and confirms with a check.",
+   "author": "localhost:8080",
+   "categories": [
+    "actions"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/button.json",
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/copy-button.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/copy-button"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/copy-button.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/copy-button.tsx"
+    }
+   ]
+  },
+  {
+   "name": "input",
+   "type": "registry:ui",
+   "title": "Input",
+   "description": "One line of text, such as a merchant name or a search.",
+   "author": "localhost:8080",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/input.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/input"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/input.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/input.tsx"
+    }
+   ]
+  },
+  {
+   "name": "textarea",
+   "type": "registry:ui",
+   "title": "Textarea",
+   "description": "Several lines of text, such as a note on a payment.",
+   "author": "localhost:8080",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/input.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/textarea.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/textarea"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/textarea.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/textarea.tsx"
+    }
+   ]
+  },
+  {
+   "name": "field",
+   "type": "registry:ui",
+   "title": "Field",
+   "description": "A label, a control, a hint and an error, wired together.",
+   "author": "localhost:8080",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/field.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/field"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/field.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/field.tsx"
+    }
+   ]
+  },
+  {
+   "name": "select",
+   "type": "registry:ui",
+   "title": "Select",
+   "description": "One choice from a list, such as an account or a category.",
+   "author": "localhost:8080",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/popup.json",
+    "https://happyhands.cc/r/meridian-clay/portal.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/select.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/select"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/select.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/select.tsx"
+    }
+   ]
+  },
+  {
+   "name": "combobox",
+   "type": "registry:ui",
+   "title": "Combobox",
+   "description": "A searchable choice from a long list, such as friends or merchants.",
+   "author": "localhost:8080",
+   "categories": [
+    "inputs"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/input.json",
+    "https://happyhands.cc/r/meridian-clay/popup.json",
+    "https://happyhands.cc/r/meridian-clay/portal.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/combobox.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/combobox"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/combobox.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/combobox.tsx"
+    }
+   ]
+  },
+  {
+   "name": "dropzone",
+   "type": "registry:ui",
+   "title": "Dropzone",
+   "description": "A target for receipts and statements, with type and size checks.",
+   "author": "localhost:8080",
+   "categories": [
+    "inputs"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/dropzone.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/dropzone"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/dropzone.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/dropzone.tsx"
+    }
+   ]
+  },
+  {
+   "name": "keypad",
+   "type": "registry:ui",
+   "title": "Keypad",
+   "description": "The number pad for entering an amount on a phone, such as how much to send.",
+   "author": "localhost:8080",
+   "categories": [
+    "inputs"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/keypad.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/keypad"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/keypad.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/keypad.tsx"
+    }
+   ]
+  },
+  {
+   "name": "checkbox",
+   "type": "registry:ui",
+   "title": "Checkbox",
+   "description": "One option on or off, with a mixed state.",
+   "author": "localhost:8080",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/checkbox.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/checkbox"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/checkbox.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/checkbox.tsx"
+    }
+   ]
+  },
+  {
+   "name": "radio",
+   "type": "registry:ui",
+   "title": "Radio",
+   "description": "One choice from a short visible list, such as a transfer speed.",
+   "author": "localhost:8080",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/radio.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/radio"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/radio.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/radio.tsx"
+    }
+   ]
+  },
+  {
+   "name": "switch",
+   "type": "registry:ui",
+   "title": "Switch",
+   "description": "A setting that applies at once, such as round-ups.",
+   "author": "localhost:8080",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/switch.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/switch"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/switch.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/switch.tsx"
+    }
+   ]
+  },
+  {
+   "name": "slider",
+   "type": "registry:ui",
+   "title": "Slider",
+   "description": "A value or a range on a track, such as a monthly savings amount.",
+   "author": "localhost:8080",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/slider.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/slider"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/slider.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/slider.tsx"
+    }
+   ]
+  },
+  {
+   "name": "segmented",
+   "type": "registry:ui",
+   "title": "Segmented",
+   "description": "A short row of exclusive options, such as Week, Month and Year.",
+   "author": "localhost:8080",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/segmented.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/segmented"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/segmented.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/segmented.tsx"
+    }
+   ]
+  },
+  {
+   "name": "chip",
+   "type": "registry:ui",
+   "title": "Chip",
+   "description": "A filter the person toggles, such as a spending category.",
+   "author": "localhost:8080",
+   "categories": [
+    "selection"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/chip.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/chip"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/chip.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/chip.tsx"
+    }
+   ]
+  },
+  {
+   "name": "badge",
+   "type": "registry:ui",
+   "title": "Badge",
+   "description": "A short fact that never changes on its own, such as Plus or New.",
+   "author": "localhost:8080",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/badge.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/badge"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/badge.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/badge.tsx"
+    }
+   ]
+  },
+  {
+   "name": "avatar",
+   "type": "registry:ui",
+   "title": "Avatar",
+   "description": "A person, such as a friend you split a bill with, with initials as the fallback.",
+   "author": "localhost:8080",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/avatar.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/avatar"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/avatar.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/avatar.tsx"
+    }
+   ]
+  },
+  {
+   "name": "card",
+   "type": "registry:ui",
+   "title": "Card",
+   "description": "A grouped block, such as a savings goal or a card, on warm grey, outlined or raised.",
+   "author": "localhost:8080",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/card.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/card"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/card.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/card.tsx"
+    }
+   ]
+  },
+  {
+   "name": "table",
+   "type": "registry:ui",
+   "title": "Table",
+   "description": "Rows of transactions you scan across, with amounts at the end.",
+   "author": "localhost:8080",
+   "categories": [
+    "display"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/table.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/table"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/table.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/table.tsx"
+    }
+   ]
+  },
+  {
+   "name": "list",
+   "type": "registry:ui",
+   "title": "List",
+   "description": "Rows of transactions, accounts or settings, each with a mark, a title and a value or a chevron.",
+   "author": "localhost:8080",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/list.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/list"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/list.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/list.tsx"
+    }
+   ]
+  },
+  {
+   "name": "list-item-menu",
+   "type": "registry:ui",
+   "title": "List item menu",
+   "description": "A row's other actions behind a more button, for ListItem's menu.",
+   "author": "localhost:8080",
+   "categories": [
+    "display"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/button.json",
+    "https://happyhands.cc/r/meridian-clay/dropdown-menu.json",
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay.md",
+    "page": "https://happyhands.cc/systems/meridian-clay"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/list-item-menu.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/list-item-menu.tsx"
+    }
+   ]
+  },
+  {
+   "name": "progress",
+   "type": "registry:ui",
+   "title": "Progress",
+   "description": "How far a goal has come, such as $640 of $1,000 saved, as a bar or a ring.",
+   "author": "localhost:8080",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/progress.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/progress"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/progress.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/progress.tsx"
+    }
+   ]
+  },
+  {
+   "name": "amount",
+   "type": "registry:ui",
+   "title": "Amount",
+   "description": "A money amount with its sign, currency and tabular figures.",
+   "author": "localhost:8080",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/amount.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/amount"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/amount.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/amount.tsx"
+    }
+   ]
+  },
+  {
+   "name": "status",
+   "type": "registry:ui",
+   "title": "Status",
+   "description": "The state of a payment as a dot and a word.",
+   "author": "localhost:8080",
+   "categories": [
+    "feedback"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/button.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/status.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/status"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/status.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/status.tsx"
+    }
+   ]
+  },
+  {
+   "name": "empty",
+   "type": "registry:ui",
+   "title": "Empty",
+   "description": "An empty state with one action, such as Add a card.",
+   "author": "localhost:8080",
+   "categories": [
+    "feedback"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/empty.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/empty"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/empty.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/empty.tsx"
+    }
+   ]
+  },
+  {
+   "name": "skeleton",
+   "type": "registry:ui",
+   "title": "Skeleton",
+   "description": "Still grey shapes in place of content that is loading, such as recent activity.",
+   "author": "localhost:8080",
+   "categories": [
+    "feedback"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/skeleton.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/skeleton"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/skeleton.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/skeleton.tsx"
+    }
+   ]
+  },
+  {
+   "name": "error-state",
+   "type": "registry:ui",
+   "title": "Error state",
+   "description": "What failed to load, in its place, with Try again.",
+   "author": "localhost:8080",
+   "categories": [
+    "feedback"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/button.json",
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/error-state.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/error-state"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/error-state.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/error-state.tsx"
+    }
+   ]
+  },
+  {
+   "name": "toast",
+   "type": "registry:ui",
+   "title": "Toast",
+   "description": "A short note after an action, such as Moved $50 to savings, with an optional Undo.",
+   "author": "localhost:8080",
+   "categories": [
+    "feedback"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/portal.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/toast.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/toast"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/toast.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/toast.tsx"
+    }
+   ]
+  },
+  {
+   "name": "dialog",
+   "type": "registry:ui",
+   "title": "Dialog",
+   "description": "A focused task over a scrim, such as sending money.",
+   "author": "localhost:8080",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0",
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/button.json",
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/portal.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/dialog.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/dialog"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/dialog.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/dialog.tsx"
+    }
+   ]
+  },
+  {
+   "name": "alert-dialog",
+   "type": "registry:ui",
+   "title": "Alert dialog",
+   "description": "A blocking decision, such as deleting a goal, that cannot be dismissed from outside.",
+   "author": "localhost:8080",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/dialog.json",
+    "https://happyhands.cc/r/meridian-clay/portal.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/alert-dialog.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/alert-dialog"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/alert-dialog.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/alert-dialog.tsx"
+    }
+   ]
+  },
+  {
+   "name": "sheet",
+   "type": "registry:ui",
+   "title": "Sheet",
+   "description": "A panel from an edge, such as transaction details, that keeps the page visible.",
+   "author": "localhost:8080",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/button.json",
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/portal.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/sheet.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/sheet"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/sheet.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/sheet.tsx"
+    }
+   ]
+  },
+  {
+   "name": "popover",
+   "type": "registry:ui",
+   "title": "Popover",
+   "description": "An anchored panel with controls, such as splitting a bill.",
+   "author": "localhost:8080",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/portal.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/popover.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/popover"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/popover.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/popover.tsx"
+    }
+   ]
+  },
+  {
+   "name": "dropdown-menu",
+   "type": "registry:ui",
+   "title": "Dropdown menu",
+   "description": "A list of commands behind a button.",
+   "author": "localhost:8080",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/popup.json",
+    "https://happyhands.cc/r/meridian-clay/portal.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/dropdown-menu.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/dropdown-menu"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/dropdown-menu.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/dropdown-menu.tsx"
+    }
+   ]
+  },
+  {
+   "name": "tooltip",
+   "type": "registry:ui",
+   "title": "Tooltip",
+   "description": "A short label on hover and focus.",
+   "author": "localhost:8080",
+   "categories": [
+    "overlays"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/portal.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/tooltip.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/tooltip"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/tooltip.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/tooltip.tsx"
+    }
+   ]
+  },
+  {
+   "name": "tabs",
+   "type": "registry:ui",
+   "title": "Tabs",
+   "description": "Switches between views of one list, such as Activity and Scheduled.",
+   "author": "localhost:8080",
+   "categories": [
+    "navigation"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/tabs.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/tabs"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/tabs.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/tabs.tsx"
+    }
+   ]
+  },
+  {
+   "name": "toolbar",
+   "type": "registry:ui",
+   "title": "Toolbar",
+   "description": "A row of related controls with one tab stop.",
+   "author": "localhost:8080",
+   "categories": [
+    "navigation"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/toolbar.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/toolbar"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/toolbar.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/toolbar.tsx"
+    }
+   ]
+  },
+  {
+   "name": "accordion",
+   "type": "registry:ui",
+   "title": "Accordion",
+   "description": "A stack of questions that open one at a time.",
+   "author": "localhost:8080",
+   "categories": [
+    "layout"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/accordion.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/accordion"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/accordion.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/accordion.tsx"
+    }
+   ]
+  },
+  {
+   "name": "collapsible",
+   "type": "registry:ui",
+   "title": "Collapsible",
+   "description": "One section that opens and closes, the base of the Why? in Approval request.",
+   "author": "localhost:8080",
+   "categories": [
+    "layout"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay.md",
+    "page": "https://happyhands.cc/systems/meridian-clay"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/collapsible.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/collapsible.tsx"
+    }
+   ]
+  },
+  {
+   "name": "separator",
+   "type": "registry:ui",
+   "title": "Separator",
+   "description": "A hairline between groups.",
+   "author": "localhost:8080",
+   "categories": [
+    "layout"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/separator.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/separator"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/separator.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/separator.tsx"
+    }
+   ]
+  },
+  {
+   "name": "scroll-area",
+   "type": "registry:ui",
+   "title": "Scroll area",
+   "description": "A scrolling region with a slim thumb.",
+   "author": "localhost:8080",
+   "categories": [
+    "layout"
+   ],
+   "dependencies": [
+    "@base-ui/react@^1.8.0"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/scroll-area.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/scroll-area"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/scroll-area.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/scroll-area.tsx"
+    }
+   ]
+  },
+  {
+   "name": "chat-input",
+   "type": "registry:ui",
+   "title": "Chat input",
+   "description": "The box a request to the assistant is written in, with the amount and send.",
+   "author": "localhost:8080",
+   "categories": [
+    "ai"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/amount.json",
+    "https://happyhands.cc/r/meridian-clay/button.json",
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/chat-input.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/chat-input"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ai/chat-input.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ai/chat-input.tsx"
+    }
+   ]
+  },
+  {
+   "name": "message",
+   "type": "registry:ui",
+   "title": "Message",
+   "description": "One turn in a conversation with the assistant.",
+   "author": "localhost:8080",
+   "categories": [
+    "ai"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/message.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/message"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ai/message.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ai/message.tsx"
+    }
+   ]
+  },
+  {
+   "name": "tool-call",
+   "type": "registry:ui",
+   "title": "Tool call",
+   "description": "One step the assistant took, such as Moved $50 to Vacation fund, as a single line.",
+   "author": "localhost:8080",
+   "categories": [
+    "ai"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/button.json",
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/tool-call.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/tool-call"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ai/tool-call.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ai/tool-call.tsx"
+    }
+   ]
+  },
+  {
+   "name": "follow-ups",
+   "type": "registry:ui",
+   "title": "Follow ups",
+   "description": "Suggested next requests under an answer.",
+   "author": "localhost:8080",
+   "categories": [
+    "ai"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/follow-ups.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/follow-ups"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ai/follow-ups.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ai/follow-ups.tsx"
+    }
+   ]
+  },
+  {
+   "name": "approval-request",
+   "type": "registry:ui",
+   "title": "Approval request",
+   "description": "The assistant asking before it moves money, with the amount, one reason, and Approve, Edit or Decline.",
+   "author": "localhost:8080",
+   "categories": [
+    "ai",
+    "approval"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/amount.json",
+    "https://happyhands.cc/r/meridian-clay/button.json",
+    "https://happyhands.cc/r/meridian-clay/card.json",
+    "https://happyhands.cc/r/meridian-clay/collapsible.json",
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/status.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/use-focus-when-replaced.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/approval-request.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/approval-request"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ai/approval-request.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ai/approval-request.tsx"
+    }
+   ]
+  },
+  {
+   "name": "action-receipt",
+   "type": "registry:ui",
+   "title": "Action receipt",
+   "description": "A message listing what the assistant just did, one line per action, with Undo.",
+   "author": "localhost:8080",
+   "categories": [
+    "ai"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/button.json",
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/message.json",
+    "https://happyhands.cc/r/meridian-clay/status.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/action-receipt.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/action-receipt"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ai/action-receipt.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ai/action-receipt.tsx"
+    }
+   ]
+  },
+  {
+   "name": "autonomy-rule",
+   "type": "registry:ui",
+   "title": "Autonomy rule",
+   "description": "How far the assistant may go on its own, as one sentence with the limit typed into it.",
+   "author": "localhost:8080",
+   "categories": [
+    "ai"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/input.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/autonomy-rule.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/autonomy-rule"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ai/autonomy-rule.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ai/autonomy-rule.tsx"
+    }
+   ]
+  },
+  {
+   "name": "receipt-match",
+   "type": "registry:ui",
+   "title": "Receipt match",
+   "description": "A receipt paired with its payment, with whether the two match.",
+   "author": "localhost:8080",
+   "categories": [
+    "ai"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/amount.json",
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/receipt-match.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/receipt-match"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ai/receipt-match.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ai/receipt-match.tsx"
+    }
+   ]
+  },
+  {
+   "name": "insight",
+   "type": "registry:ui",
+   "title": "Insight",
+   "description": "One thing the assistant noticed, as a sentence, the number behind it and a tiny line.",
+   "author": "localhost:8080",
+   "categories": [
+    "ai"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/button.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/insight.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/insight"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ai/insight.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ai/insight.tsx"
+    }
+   ]
+  },
+  {
+   "name": "bill-schedule",
+   "type": "registry:ui",
+   "title": "Bill schedule",
+   "description": "The bills coming up in date order, each under a date tile, with who pays it.",
+   "author": "localhost:8080",
+   "categories": [
+    "display"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/amount.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/bill-schedule.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/bill-schedule"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/bill-schedule.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/bill-schedule.tsx"
+    }
+   ]
+  },
+  {
+   "name": "balance",
+   "type": "registry:ui",
+   "title": "Balance",
+   "description": "The amount left in an account, kept in the header.",
+   "author": "localhost:8080",
+   "categories": [
+    "display"
+   ],
+   "dependencies": [
+    "class-variance-authority@^0.7.1"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/amount.json",
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay/components/balance.md",
+    "page": "https://happyhands.cc/systems/meridian-clay/components/balance"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/ui/balance.tsx",
+     "type": "registry:ui",
+     "target": "@components/meridian-clay/ui/balance.tsx"
+    }
+   ]
+  },
+  {
+   "name": "home",
+   "type": "registry:block",
+   "title": "Home screen",
+   "description": "An app home: a greeting, the balance, three quick actions with Add as the glow, and a savings goal.",
+   "author": "localhost:8080",
+   "categories": [
+    "block",
+    "home"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/amount.json",
+    "https://happyhands.cc/r/meridian-clay/avatar.json",
+    "https://happyhands.cc/r/meridian-clay/button.json",
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/progress.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay.md",
+    "page": "https://happyhands.cc/systems/meridian-clay"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/blocks/home.tsx",
+     "type": "registry:block",
+     "target": "@components/meridian-clay/blocks/home.tsx"
+    }
+   ]
+  },
+  {
+   "name": "assistant-approval",
+   "type": "registry:block",
+   "title": "Assistant approval",
+   "description": "You ask the assistant to pay a bill and it asks before it pays, with Approve as the glow.",
+   "author": "localhost:8080",
+   "categories": [
+    "block",
+    "ai",
+    "approval"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/approval-request.json",
+    "https://happyhands.cc/r/meridian-clay/message.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay.md",
+    "page": "https://happyhands.cc/systems/meridian-clay"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/blocks/assistant-approval.tsx",
+     "type": "registry:block",
+     "target": "@components/meridian-clay/blocks/assistant-approval.tsx"
+    }
+   ]
+  },
+  {
+   "name": "assistant-alert",
+   "type": "registry:block",
+   "title": "Assistant alert",
+   "description": "The assistant flags an unusual charge or an unused subscription, with one row and the answers to it.",
+   "author": "localhost:8080",
+   "categories": [
+    "block",
+    "ai",
+    "alert"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/amount.json",
+    "https://happyhands.cc/r/meridian-clay/button.json",
+    "https://happyhands.cc/r/meridian-clay/icon.json",
+    "https://happyhands.cc/r/meridian-clay/list.json",
+    "https://happyhands.cc/r/meridian-clay/message.json",
+    "https://happyhands.cc/r/meridian-clay/status.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json",
+    "https://happyhands.cc/r/meridian-clay/use-focus-when-replaced.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay.md",
+    "page": "https://happyhands.cc/systems/meridian-clay"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/blocks/assistant-alert.tsx",
+     "type": "registry:block",
+     "target": "@components/meridian-clay/blocks/assistant-alert.tsx"
+    }
+   ]
+  },
+  {
+   "name": "settings-rules",
+   "type": "registry:block",
+   "title": "Settings rules",
+   "description": "Payday rules and the assistant's limits as settings lists, one row per rule.",
+   "author": "localhost:8080",
+   "categories": [
+    "block",
+    "settings"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/autonomy-rule.json",
+    "https://happyhands.cc/r/meridian-clay/list.json",
+    "https://happyhands.cc/r/meridian-clay/switch.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay.md",
+    "page": "https://happyhands.cc/systems/meridian-clay"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/blocks/settings-rules.tsx",
+     "type": "registry:block",
+     "target": "@components/meridian-clay/blocks/settings-rules.tsx"
+    }
+   ]
+  },
+  {
+   "name": "split-request",
+   "type": "registry:block",
+   "title": "Split request",
+   "description": "A bill you paid, split by what each person owes, with one request to send.",
+   "author": "localhost:8080",
+   "categories": [
+    "block",
+    "payments"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/amount.json",
+    "https://happyhands.cc/r/meridian-clay/avatar.json",
+    "https://happyhands.cc/r/meridian-clay/button.json",
+    "https://happyhands.cc/r/meridian-clay/list.json",
+    "https://happyhands.cc/r/meridian-clay/theme.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay.md",
+    "page": "https://happyhands.cc/systems/meridian-clay"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/blocks/split-request.tsx",
+     "type": "registry:block",
+     "target": "@components/meridian-clay/blocks/split-request.tsx"
+    }
+   ]
+  },
+  {
+   "name": "utils",
+   "type": "registry:lib",
+   "title": "cn",
+   "description": "Support file: cn, which merges class names and knows Meridian Clay's radius and shadow names, and mergeClass, which keeps Meridian Clay's classes when className is a function of state.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "clsx@^2.1.1",
+    "tailwind-merge@^3.7.0"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay.md",
+    "page": "https://happyhands.cc/systems/meridian-clay"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/lib/utils.ts",
+     "type": "registry:lib",
+     "target": "@lib/meridian-clay/utils.ts"
+    }
+   ]
+  },
+  {
+   "name": "icon",
+   "type": "registry:component",
+   "title": "Icon",
+   "description": "Support file: the one import point for Carbon icons.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "@carbon/icons-react@^11.89.0"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay.md",
+    "page": "https://happyhands.cc/systems/meridian-clay"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/icon.tsx",
+     "type": "registry:component",
+     "target": "@components/meridian-clay/icon.tsx"
+    }
+   ]
+  },
+  {
+   "name": "portal",
+   "type": "registry:lib",
+   "title": "Portal",
+   "description": "Support file: puts overlays inside the .meridian-clay scope so they keep its tokens.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay.md",
+    "page": "https://happyhands.cc/systems/meridian-clay"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/lib/portal.tsx",
+     "type": "registry:lib",
+     "target": "@lib/meridian-clay/portal.tsx"
+    }
+   ]
+  },
+  {
+   "name": "use-focus-when-replaced",
+   "type": "registry:lib",
+   "title": "useFocusWhenReplaced",
+   "description": "Support file: moves focus to an outcome when the buttons that had it are replaced, so a keyboard user is not dropped to the top.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay.md",
+    "page": "https://happyhands.cc/systems/meridian-clay"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/lib/use-focus-when-replaced.ts",
+     "type": "registry:lib",
+     "target": "@lib/meridian-clay/use-focus-when-replaced.ts"
+    }
+   ]
+  },
+  {
+   "name": "popup",
+   "type": "registry:lib",
+   "title": "Popup classes",
+   "description": "Support file: the panel, item and separator classes every floating list shares.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/utils.json"
+   ],
+   "docs": "These panels render in a portal: keep <MeridianClayPortalProvider> from '@/lib/meridian-clay/portal' around the app inside the blue element, or they lose the theme.",
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay.md",
+    "page": "https://happyhands.cc/systems/meridian-clay"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/lib/popup.ts",
+     "type": "registry:lib",
+     "target": "@lib/meridian-clay/popup.ts"
+    }
+   ]
+  },
+  {
+   "name": "lint",
+   "type": "registry:item",
+   "title": "Meridian Clay lint",
+   "description": "One command that flags what Meridian Clay's rules forbid in your app, such as a raw color, a class Meridian Clay's theme lacks or a second primary action, and says what to use instead.",
+   "author": "localhost:8080",
+   "categories": [
+    "lint"
+   ],
+   "devDependencies": [
+    "eslint@^9.39.5",
+    "@typescript-eslint/parser@^8.71.0"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay.md",
+    "page": "https://happyhands.cc/systems/meridian-clay"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/lint/eslint.config.mjs",
+     "type": "registry:file",
+     "target": "~/blue.eslint.config.mjs"
+    },
+    {
+     "path": "registry/meridian-clay/lint/plugin.mjs",
+     "type": "registry:lib",
+     "target": "@lib/meridian-clay/lint/plugin.mjs"
+    },
+    {
+     "path": "registry/meridian-clay/lint/core.mjs",
+     "type": "registry:lib",
+     "target": "@lib/meridian-clay/lint/core.mjs"
+    },
+    {
+     "path": "registry/meridian-clay/lint/value-rules.mjs",
+     "type": "registry:lib",
+     "target": "@lib/meridian-clay/lint/value-rules.mjs"
+    },
+    {
+     "path": "registry/meridian-clay/lint/classes.json",
+     "type": "registry:lib",
+     "target": "@lib/meridian-clay/lint/classes.json"
+    }
+   ]
+  },
+  {
+   "name": "theme",
+   "type": "registry:item",
+   "title": "Meridian Clay theme",
+   "description": "Support file: tokens, scoped base and the Tailwind v4 theme mapping.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "dependencies": [
+    "tailwindcss@^4.3.3",
+    "@tailwindcss/postcss@^4.3.3"
+   ],
+   "registryDependencies": [
+    "https://happyhands.cc/r/meridian-clay/skill.json",
+    "https://happyhands.cc/r/meridian-clay/portal.json"
+   ],
+   "docs": "Meridian Clay is scoped: its styles apply only inside an element with the class blue.\n1. Import the theme once, in the root layout, as its own stylesheet (not an @import in globals.css): import '@/components/meridian-clay/styles.css'\n2. Put className=\"blue\" on the element that holds Meridian Clay UI, usually <body>. Meridian Clay's classes work on the elements inside it, in your own code too, not on that element itself.\n3. Wrap the app inside that element in <MeridianClayPortalProvider> from '@/lib/meridian-clay/portal', so dialogs and menus keep the theme.\nDark mode: put data-theme=\"dark\" on the blue element or any ancestor, such as <html>. The theme does not follow the system setting (prefers-color-scheme) on its own.\nComponents: npx shadcn@latest add https://happyhands.cc/r/meridian-clay/<name>.json; https://happyhands.cc/r/meridian-clay/registry.json lists them all.",
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay.md",
+    "page": "https://happyhands.cc/systems/meridian-clay"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/tokens.css",
+     "type": "registry:file",
+     "target": "@components/meridian-clay/tokens.css"
+    },
+    {
+     "path": "registry/meridian-clay/base.css",
+     "type": "registry:file",
+     "target": "@components/meridian-clay/base.css"
+    },
+    {
+     "path": "registry/meridian-clay/styles.css",
+     "type": "registry:file",
+     "target": "@components/meridian-clay/styles.css"
+    }
+   ]
+  },
+  {
+   "name": "skill",
+   "type": "registry:item",
+   "title": "Meridian Clay skill",
+   "description": "Support file: teaches your coding agent Meridian Clay's rules and components.",
+   "author": "localhost:8080",
+   "categories": [
+    "internal"
+   ],
+   "meta": {
+    "docs": "https://happyhands.cc/systems/meridian-clay.md",
+    "page": "https://happyhands.cc/systems/meridian-clay"
+   },
+   "files": [
+    {
+     "path": "registry/meridian-clay/SKILL.md",
+     "type": "registry:file",
+     "target": "~/.claude/skills/meridian-clay/SKILL.md"
+    },
+    {
+     "path": "registry/meridian-clay/.agents/SKILL.md",
+     "type": "registry:file",
+     "target": "~/.agents/skills/meridian-clay/SKILL.md"
+    }
+   ]
+  }
+ ]
+}

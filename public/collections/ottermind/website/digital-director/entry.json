@@ -1,0 +1,202 @@
+{
+ "slug": "digital-director",
+ "sourceSlug": "digital-director",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Digital Director"
+ },
+ "title": "Digital Director",
+ "industry": "creative",
+ "industryLabel": "Agencies & Studios",
+ "section": "portfolio",
+ "sectionLabel": "Portfolio",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/09289e11fb27edfc.webp",
+  "still": "https://cdn.ottermind.ai/public/5e6294038ce211b7.webp",
+  "preview": "https://cdn.ottermind.ai/public/3530c5e60f7de0cd.mp4",
+  "full": "https://cdn.ottermind.ai/public/cd00b8982eba5f8d.mp4",
+  "aspectRatio": 1.363,
+  "width": 1472,
+  "height": 1080,
+  "duration": 6.967
+ },
+ "seo": {
+  "title": "Digital Director Agencies & Studios Portfolio Design & Prompt | Ottermind",
+  "description": "Portfolio reference for an agency or studio — Inter, #000000 base, React and Tailwind CSS and a dark stage. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "agency website design",
+   "agency portfolio page design",
+   "video-backed agency landing page",
+   "portfolio page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Digital Director — Agencies & Studios Portfolio Design",
+ "tagline": "Portfolio reference built around “Adam Roberts - Design & Engineering”, with the layout, timings and palette written down in the brief.",
+ "summary": "Portfolio reference for an agency or studio — Inter, #000000 base, React and Tailwind CSS and a dark stage.",
+ "about": "Digital Director gives an agency or studio a finished first screen and the numbers that produced it. The headline reads “Adam Roberts - Design & Engineering”, and the rest of the portfolio page is arranged around it. The colour scheme is black #000000 underneath and white #FFFFFF for the type, and the page is set in Inter. It ships as React and Tailwind CSS, so the whole portfolio page can be lifted into a project without a design handoff. The page keeps its motion to 400ms transitions, cubic-bezier(0.16,1,0.3,1) and a looping video bed. Take it on when the portfolio page needs a decided order before any new sections are added.",
+ "layout": [
+  {
+   "title": "A navigation bar that gets out of the way",
+   "body": "Navigation is a single row with no second level under it. A mobile overlay takes over below the tablet breakpoint. The bar sits over the 1472x1080 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "Sizes fixed in the brief",
+   "body": "The brief states its sizes at capture (10px spacing steps, 400ms transitions and cubic-bezier(0.16,1,0.3,1) easing), so a rebuild can be verified instead of approximated. The type and the layout share the same steps, so nothing drifts when one of them is substituted."
+  },
+  {
+   "title": "Faces with one job each",
+   "body": "The faces are assigned roles rather than mixed: Inter carries the display and the interface together. The face is paired with fixed sizes, which is what keeps the display line and the interface text related. Do not add a size without a job."
+  },
+  {
+   "title": "The footer is a full composition",
+   "body": "Links are grouped into columns with the wordmark in its own block, which keeps a long footer readable instead of turning it into a list. Columns align to the same grid as the page above, so the footer feels like the same design. Give the wordmark its own column."
+  }
+ ],
+ "motion": [
+  {
+   "title": "One duration for the controls",
+   "body": "Hover, press and focus all resolve in 400ms, which is what makes the interface feel immediate. The same duration is reused across controls, which keeps the interactions feeling like one system."
+  },
+  {
+   "title": "A loop, not a timeline",
+   "body": "Ambient movement comes from the 7s 1472x1080 loop rather than from scroll effects, which keeps the page calm and the type readable. A poster frame stands in when autoplay is blocked, so the motion is additive rather than required."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#0B0B0B",
+    "name": "Near-black",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#000000",
+    "name": "Near-black — darker",
+    "role": "composition"
+   },
+   {
+    "hex": "#FFFFFF",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#DBD2CE",
+    "name": "White — darker",
+    "role": "lighter step"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Media is specified at 1472x1080 and a 7s loop, so a replacement should match the crop and the loop length.",
+   "The clip is one asset at 1472x1080 and a 7s loop, so the composition has a single media dependency.",
+   "The reference was captured at 1472x1080, and every value quoted on this page comes from the same brief."
+  ]
+ },
+ "customize": [
+  "Hold the portfolio page to one screen on desktop; the composition is solved for a reader who never scrolls.",
+  "Keep the 1472x1080 frame when you swap the content, because the composition was solved against that ratio.",
+  "Set 400ms to your own build speed and check that cubic-bezier(0.16,1,0.3,1) still lands the copy before the media starts.",
+  "Keep the supporting line as short as the reference's and measure the pair against the 1472x1080 crop."
+ ],
+ "editorial": [
+  {
+   "title": "How Digital Director sequences the first read",
+   "body": "The brief runs 8,947 characters and names the reading order explicitly: navigation, the headline, the stats row, the feature list and the background clip, with 10px spacing steps and 400ms transitions between them. A agency reader gets the offer before the options."
+  },
+  {
+   "title": "Making the portfolio page yours",
+   "body": "Suppose you only have one afternoon. Change the headline and the action label, leave 10px spacing steps and 400ms transitions alone, and you have a page that looks intentional. Substitution is cheaper than composition, and that is the point."
+  },
+  {
+   "title": "How the portfolio page reflows",
+   "body": "If your breakpoints were chosen to make things fit rather than to change the layout, read this entry. the navigation collapses into a mobile menu rather than a list of hidden elements. The order is the last thing to change."
+  }
+ ],
+ "steps": [
+  "Keep the measurements the brief spells out: 10px spacing steps, 400ms transitions and cubic-bezier(0.16,1,0.3,1) easing.",
+  "Copy 10px spacing steps, 400ms transitions and cubic-bezier(0.16,1,0.3,1) easing into your own brief before you rewrite anything else.",
+  "Check your build against the reference measurements: 10px spacing steps, 400ms transitions and cubic-bezier(0.16,1,0.3,1) easing.",
+  "Pin the reference measurements before you restyle anything: 10px spacing steps, 400ms transitions and cubic-bezier(0.16,1,0.3,1) easing.",
+  "Add the entrance first at 400ms, and only then the hover and scroll behaviour."
+ ],
+ "faq": [
+  {
+   "question": "Is the Digital Director prompt a finished spec or a starting point?",
+   "answer": "The captured brief runs 8,947 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Is the Digital Director brief the same as the prompt I would write?",
+   "answer": "Everything quoted on the page comes from the captured 8,947-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "Do I need React and Tailwind CSS to rebuild Digital Director?",
+   "answer": "Digital Director was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  }
+ ],
+ "audience": [
+  "Borrow the portfolio structure whole and replace the copy line by line against a 1472x1080 frame.",
+  "Studio leads who run several projects at once will use this portfolio page as the pattern every other page copies.",
+  "Made for product managers who need the portfolio page scoped to one sprint and no new assets."
+ ],
+ "specs": [
+  {
+   "label": "Page section",
+   "value": "Portfolio"
+  },
+  {
+   "label": "Sector",
+   "value": "Agencies & Studios"
+  },
+  {
+   "label": "Format",
+   "value": "1472x1080 · 1.36:1"
+  },
+  {
+   "label": "Clip length",
+   "value": "7s loop"
+  },
+  {
+   "label": "Input brief",
+   "value": "8,947 characters"
+  },
+  {
+   "label": "Captured",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type scale",
+   "value": "Inter"
+  },
+  {
+   "label": "Stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Motion",
+   "value": "400ms transitions, cubic-bezier(0.16,1,0.3,1) easing and a 7s media loop"
+  }
+ ],
+ "related": [
+  "rare-gallery",
+  "retro-futurist",
+  "sparkform",
+  "subscription-agency",
+  "talent-collective",
+  "taskly-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 8947,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

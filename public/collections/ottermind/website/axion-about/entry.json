@@ -1,0 +1,198 @@
+{
+ "slug": "axion-about",
+ "sourceSlug": "axion-about",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Axion About"
+ },
+ "title": "Axion About",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "about",
+ "sectionLabel": "About page",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/30e820531cb4637b.webp",
+  "still": "https://cdn.ottermind.ai/public/315bf30c1eb4599a.webp",
+  "preview": "https://cdn.ottermind.ai/public/315bf30c1eb4599a.webp",
+  "full": "https://cdn.ottermind.ai/public/315bf30c1eb4599a.webp",
+  "aspectRatio": 1.3675,
+  "width": 640,
+  "height": 468,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Axion About AI & SaaS About Page Design & Prompt | Ottermind",
+  "description": "About page reference for an AI or SaaS product — cubic-bezier(0.25,0.1,0.25,1) easing, fluid type, #F26522 accent and a 640x468 frame. Copy the prompt or open it staged in.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS about page design",
+   "minimal SaaS landing page",
+   "about page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Axion About — AI & SaaS About Page Design",
+ "tagline": "“Through research, creative thinking and iteration we help growing brands realize their digital full potential” — the whole about page is composed around that line, down to the animation timings.",
+ "summary": "About page reference for an AI or SaaS product — cubic-bezier(0.25,0.1,0.25,1) easing, fluid type, #F26522 accent and a 640x468 frame.",
+ "about": "Axion About keeps its decision trail: the brief that produced this about page runs 4,393 characters. It leads with “Through research, creative thinking and iteration we help growing brands realize their digital full potential” and gives that line the frame rather than shrinking it into a card. The whole page is built on white #EDEDEE underneath, deep red #3E3133 for the type and bright orange #F26522 carrying the accents. The build is React and Tailwind CSS; every measurement in it is written down, which is what makes it reusable. Motion comes down to cubic-bezier(0.25,0.1,0.25,1). If you are briefing a SaaS about page, start from this composition and replace the subject.",
+ "layout": [
+  {
+   "title": "The spacing steps are quoted",
+   "body": "The layout works on absolute values rather than ratios: type from 12px to 18px, 12px spacing steps and cubic-bezier(0.25,0.1,0.25,1) easing. Because the values are fixed, a substitution changes the look without changing the rhythm."
+  },
+  {
+   "title": "Badge above the fold",
+   "body": "The announcement is a #F26522 pill above the headline, sized below the supporting copy so it reads as a label rather than a second title. The badge carries #F26522 while the headline stays on the ink colour."
+  },
+  {
+   "title": "The composition is the content",
+   "body": "The composition is complete at 640x468: the copy, the media and the controls are all named in the brief. The page is one composition at 640x468, which is why it holds together when the copy changes."
+  },
+  {
+   "title": "Nothing here is inherited",
+   "body": "Spacing is quoted the same way (type from 12px to 18px, 12px spacing steps and cubic-bezier(0.25,0.1,0.25,1) easing), not as a scale that grows on its own."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Interaction is on the controls",
+   "body": "The interactive layer is small and predictable: hover states on the buttons and links rather than on every card. Everything else stays still, which keeps the emphasis on the composition. Press states are specified as well as hover, so a tap gives the same confirmation as a click. A few reliable states beat a long list of effects."
+  },
+  {
+   "title": "Short, matched timings",
+   "body": "Transitions are specified at 0 using cubic-bezier(0.25,0.1,0.25,1), which is the timing the controls are held to. Because the values are short, a rebuild that slows them down is immediately visible."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#F26522",
+    "name": "Bright orange",
+    "role": "accent"
+   },
+   {
+    "hex": "#E05A1A",
+    "name": "Bright orange — darker",
+    "role": "darker"
+   },
+   {
+    "hex": "#3E3133",
+    "name": "Deep red",
+    "role": "Headline"
+   },
+   {
+    "hex": "#EDEDEE",
+    "name": "White",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Face not specified",
+    "weights": "12–18px",
+    "role": "The brief fixes the type scale but leaves the face to the build"
+   }
+  ],
+  "notes": [
+   "Accent and ground are both named (bright orange #F26522 on white #EDEDEE), so a brand swap moves one value.",
+   "Accent use is limited to bright orange #F26522; everything else sits on white #EDEDEE.",
+   "The accent is spent on bright orange #F26522 and the rest of the composition holds white #EDEDEE."
+  ]
+ },
+ "customize": [
+  "Keep 640x468 for the media and re-crop your own asset into it rather than resizing the frame.",
+  "Swap #F26522 for your brand colour and re-check it against #EDEDEE, since the accent is the only place saturation is allowed.",
+  "Replace “Through research, creative thinking and iteration we help growing brands realize their digital full potential” with your own line and keep the word count, because the entrance is timed per line.",
+  "Hold the about page to one screen on desktop; the brief never asks the reader to scroll past the fold."
+ ],
+ "editorial": [
+  {
+   "title": "How Axion About sequences the first read",
+   "body": "The trade-off is patience: the page withholds the detail a scannable grid would hand over immediately. What it buys is a first screen where the announcement badge and the stats row cannot be misread. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "What holds up for AI & SaaS",
+   "body": "Axion About works because its hierarchy is decided rather than decorated. The brief sets type from 12px to 18px, 12px spacing steps and cubic-bezier(0.25,0.1,0.25,1) easing, so new copy lands inside the frame instead of reopening it. Axion About states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "Making the about page yours",
+   "body": "The composition is the reusable part; the subject is yours. Swap the headline, keep the type scale (type from 12px to 18px), and re-test the #F26522 accent over your own media. If a new element does not help explain the offer or the next action, it belongs below the fold. Keep the media crop; it is doing as much work as the type."
+  }
+ ],
+ "steps": [
+  "Pin the reference measurements before you restyle anything: type from 12px to 18px, 12px spacing steps and cubic-bezier(0.25,0.1,0.25,1) easing.",
+  "Keep the measurements the brief spells out: type from 12px to 18px, 12px spacing steps and cubic-bezier(0.25,0.1,0.25,1) easing.",
+  "Check your build against the reference measurements: type from 12px to 18px, 12px spacing steps and cubic-bezier(0.25,0.1,0.25,1) easing.",
+  "Copy type from 12px to 18px, 12px spacing steps and cubic-bezier(0.25,0.1,0.25,1) easing into your own brief before you rewrite anything else.",
+  "Rebuild it in React and Tailwind CSS or in your own stack; nothing in the brief depends on a plugin."
+ ],
+ "faq": [
+  {
+   "question": "What does the brief behind Axion About actually contain?",
+   "answer": "The captured brief runs 4,393 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Why does the entry name React and Tailwind CSS at all?",
+   "answer": "Axion About was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Can I keep the Axion About transitions and change the timings?",
+   "answer": "Transitions are attached to interface states rather than to a scroll timeline, and they resolve in the sub-second range using cubic-bezier(0.25,0.1,0.25,1). The brief records the values so a port can match them without guessing."
+  }
+ ],
+ "audience": [
+  "This about page is built for agencies that need the 640x468 frame to survive three rounds of client edits.",
+  "If three people have to edit this about page, give content leads type from 12px to 18px and 12px spacing steps rather than a screenshot.",
+  "Made for product managers who need the about page scoped to one sprint and no new assets."
+ ],
+ "specs": [
+  {
+   "label": "Page part",
+   "value": "About page"
+  },
+  {
+   "label": "Vertical",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Viewport",
+   "value": "640x468 · 1.37:1"
+  },
+  {
+   "label": "Input brief",
+   "value": "4,393 characters"
+  },
+  {
+   "label": "Captured",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key tone",
+   "value": "bright orange #F26522"
+  },
+  {
+   "label": "Stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Transitions",
+   "value": "cubic-bezier(0.25,0.1,0.25,1) easing"
+  }
+ ],
+ "related": [
+  "scaling-platform",
+  "securify-hero",
+  "sentinel-ai-hero",
+  "signal-id",
+  "stellar-ai-hero",
+  "tech-noir-about"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 4393,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

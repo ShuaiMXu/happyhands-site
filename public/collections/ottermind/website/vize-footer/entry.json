@@ -1,0 +1,202 @@
+{
+ "slug": "vize-footer",
+ "sourceSlug": "vize-footer",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Vize Footer"
+ },
+ "title": "Vize Footer",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "footer",
+ "sectionLabel": "Footer",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/04de3bdf5c3083bb.webp",
+  "still": "https://cdn.ottermind.ai/public/3ebbae53c2eea60b.webp",
+  "preview": "https://cdn.ottermind.ai/public/3ebbae53c2eea60b.webp",
+  "full": "https://cdn.ottermind.ai/public/3ebbae53c2eea60b.webp",
+  "aspectRatio": 1.3615,
+  "width": 1838,
+  "height": 1350,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Vize Footer AI & SaaS Footer Design & Prompt | Ottermind",
+  "description": "Footer reference for an AI or SaaS product — #31A8FF accent, #000000 base, a stats row and a dark stage. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS footer design",
+   "glass SaaS landing page",
+   "footer design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Vize Footer — AI & SaaS Footer Design",
+ "tagline": "Footer reference built on black #000000 and bright blue #31A8FF, set in Inter and measured against type from 14px to 26px.",
+ "summary": "Footer reference for an AI or SaaS product — #31A8FF accent, #000000 base, a stats row and a dark stage.",
+ "about": "Vize Footer is a SaaS footer built from one written brief, and this page documents that brief. The colour scheme is black #000000 underneath and bright blue #31A8FF carrying the accents, and the page is set in Inter. Delivery is React and Tailwind CSS, captured at 1838x1350 so the frame is fixed before any code is written. It is the right reference for an AI or SaaS product footer that has to look deliberate on the first screen.",
+ "layout": [
+  {
+   "title": "One scale for type and frame",
+   "body": "Sizes were read off the render at 1838x1350: type from 14px to 26px and 10px spacing steps. The frame proportions are recorded with the sizes, so a rebuild gets the aspect right as well. Keep the values that look arbitrary."
+  },
+  {
+   "title": "Figures at display size",
+   "body": "Statistics are handled as typography: figures at the display size, labels at the smallest step in the brief, all of it on #31A8FF or the ink colour rather than a coloured card. The figures carry the #31A8FF accent while everything around them stays on the ink colour."
+  },
+  {
+   "title": "Cards do the structuring",
+   "body": "The grid is the structure: panels of the same size, set in Inter, arranged so the eye moves across rather than down. Panel heights are driven by the copy, so a longer line does not break the alignment of the row. Cut a panel before you shrink the type."
+  },
+  {
+   "title": "The brief names the steps",
+   "body": "Spacing is quoted the same way (type from 14px to 26px and 10px spacing steps), not as a scale that grows on its own."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Hover, but sparingly",
+   "body": "Interaction is local to each control here (hover states on the buttons and links rather than on every card), so nothing on the page moves as a side effect. A control that looks interactive behaves interactively, so there are no false affordances."
+  },
+  {
+   "title": "Static by design",
+   "body": "This one is delivered as a still composition at 1838x1350, so the hierarchy has to work without motion, and it does. Only the elements that respond to the pointer move."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#64748B",
+    "name": "Muted blue",
+    "role": "lighter"
+   },
+   {
+    "hex": "#1E293B",
+    "name": "Deep blue",
+    "role": "lighter step"
+   },
+   {
+    "hex": "#31A8FF",
+    "name": "Bright blue",
+    "role": "accent"
+   },
+   {
+    "hex": "#000000",
+    "name": "Near-black",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "14–26px",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "The display line is Inter at the top of a 14–26px scale, with the interface text on the same face.",
+   "Font roles are assigned rather than mixed here, and 14–26px is the range the whole scale works in.",
+   "The accent is spent on bright blue #31A8FF and the rest of the composition holds black #000000."
+  ]
+ },
+ "customize": [
+  "Write the replacement headline first, then confirm it still fits the 1838x1350 frame at the reference's type size.",
+  "Change #31A8FF for your brand accent and re-check it against #000000, because the accent is the only saturated value in this composition.",
+  "Keep the supporting line as short as the reference's and measure the pair against the 1838x1350 crop.",
+  "Replace #31A8FF last, after the copy is final, and test it against #000000 at the smallest text size on the page."
+ ],
+ "editorial": [
+  {
+   "title": "Making the footer yours",
+   "body": "The trade-off is recognisability. Keep too much of Vize Footer and the page reads as someone else's; keep the numbers and change the content and it reads as yours. Rewrite the display line before you touch the colour."
+  },
+  {
+   "title": "The order behind the footer",
+   "body": "The footer has a stated reading path. From there the eye takes the stats row, the card grid, the feature list and the footer in sequence, which is what keeps a single screen from reading as a list. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "The timing behind the footer",
+   "body": "Where a template animates every section on entry, this one animates hover and press states and then holds. Nothing animates for its own sake in this footer."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1838x1350 capture before you generate.",
+  "Drop your product name in, then replace #31A8FF with your own accent and re-check the contrast.",
+  "Set the brand first: product name, the #31A8FF accent and a headline that replaces the reference's.",
+  "Type the product name and the #31A8FF accent before you touch the layout.",
+  "Set your brand first: product name, the #31A8FF accent and the headline that replaces the reference's."
+ ],
+ "faq": [
+  {
+   "question": "What do I get when I copy the Vize Footer brief?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1838x1350, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Can I rebuild the Vize Footer footer in a different stack?",
+   "answer": "Vize Footer was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "How should I handle the Vize Footer media in a client build?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1838x1350."
+  }
+ ],
+ "audience": [
+  "Designers who need the numbers first: type from 14px to 26px and 10px spacing steps, all of it quoted from the brief.",
+  "People who brief a model on a footer will use the 7,734-character prompt as the starting point.",
+  "Made for content leads rewriting a footer whose headline has to stay as long as Vize Footer's."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Footer"
+  },
+  {
+   "label": "Industry",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Frame",
+   "value": "1838x1350 · 1.36:1"
+  },
+  {
+   "label": "Brief",
+   "value": "7,734 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent tone",
+   "value": "bright blue #31A8FF"
+  },
+  {
+   "label": "Type scale",
+   "value": "Inter · 14–26px"
+  },
+  {
+   "label": "Stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Transitions",
+   "value": "state changes only"
+  }
+ ],
+ "related": [
+  "designy-footer",
+  "scene-ai-hero",
+  "scalable-saas-analytics-hero",
+  "tenlas-cta-footer",
+  "peakflow-contact-footer",
+  "zyphor-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 7734,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

@@ -1,0 +1,198 @@
+{
+ "slug": "clarionai-landing",
+ "sourceSlug": "lp-007-6a240e36c2f1ff85c871fbef",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "ClarionAI"
+ },
+ "title": "ClarionAI",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/65d3ab0a1e3f050f.webp",
+  "still": "https://cdn.ottermind.ai/public/cbcd84a5066481e1.webp",
+  "preview": "https://cdn.ottermind.ai/public/d2b1cb8b0ae66a10.mp4",
+  "full": "https://cdn.ottermind.ai/public/f7ab858522ed4a18.mp4",
+  "aspectRatio": 1.3559,
+  "width": 1920,
+  "height": 1416,
+  "duration": 18.367
+ },
+ "seo": {
+  "title": "ClarionAI AI & SaaS Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an AI or SaaS product — a logo row, 1000ms transitions, a moving marquee and #000000 base. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS landing page design",
+   "video-backed SaaS landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "ClarionAI — AI & SaaS Landing Page Design",
+ "tagline": "“The intelligence layer \\n for clear decisions” — the whole landing page is composed around that line, down to the animation timings.",
+ "summary": "Landing page reference for an AI or SaaS product — a logo row, 1000ms transitions, a moving marquee and #000000 base.",
+ "about": "ClarionAI solves the landing page problem for an AI or SaaS product with a single captured brief. The page's own headline reads “The intelligence layer \\n for clear decisions”, and the composition is built around those exact words. The palette is black #000000 underneath. It ships as React and Tailwind CSS, so the whole landing page can be lifted into a project without a design handoff. Motion is 1000ms transitions and a looping video bed, kept quiet enough that the copy still leads. It is the right reference for an AI or SaaS product landing page that has to look deliberate on the first screen.",
+ "layout": [
+  {
+   "title": "The bar shares the page grid",
+   "body": "A short run of links and a single action sit over the landing page, held at a fixed 16px display size and 20px spacing steps so the bar never competes with the composition behind it. The bar sits over the 1952x1440 composition without a background of its own, so the media runs edge to edge underneath it. Keep the link count to four or five; the row is sized for that."
+  },
+  {
+   "title": "The announcement pill",
+   "body": "A single pill carries the announcement above the headline, and nothing else competes for that position. The pill sits at the smallest step in the brief, so it reads as a label rather than as a second title. One badge, one message."
+  },
+  {
+   "title": "A footer that carries the brand",
+   "body": "Links are grouped into columns with the wordmark in its own block, which keeps a long footer readable instead of turning it into a list. Columns align to the same grid as the page above, so the footer feels like the same design. Group links; do not dump them."
+  },
+  {
+   "title": "A navigation bar that gets out of the way",
+   "body": "The active section is marked with weight rather than with a pill or an underline. Copy this pattern when you need navigation that survives a loud first screen."
+  }
+ ],
+ "motion": [
+  {
+   "title": "The strip that never stops",
+   "body": "A ticker moves through the layout at a constant speed and loops without a gap, which is the only ambient motion the brief needs. The marquee shares the interface face, so it reads as content rather than as ornament."
+  },
+  {
+   "title": "State changes, timed",
+   "body": "The timings are short and consistent (1000ms), so hover and press states read as one system instead of a set of separate effects. If the easing changes, the duration has to be revisited with it."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#1F1F22",
+    "name": "Black",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#1C1C1E",
+    "name": "Near-black",
+    "role": "Secondary"
+   },
+   {
+    "hex": "#2A2A2D",
+    "name": "Black — lighter",
+    "role": "lightest"
+   },
+   {
+    "hex": "#000000",
+    "name": "Near-black — darker",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Face not specified",
+    "weights": "16px",
+    "role": "The brief fixes the type scale but leaves the face to the build"
+   }
+  ],
+  "notes": [
+   "The clip is one asset at 1952x1440 and a 18.4s loop, so the composition has a single media dependency.",
+   "Transitions are specified at 1000ms, short enough that the page never feels like it is waiting for an animation.",
+   "The timing budget is state feedback rather than page choreography (1000ms), so a slower rebuild reads as a different design."
+  ]
+ },
+ "customize": [
+  "Hold the 1952x1440 frame when you swap the content; the composition was solved against that ratio and a wider export pushes the type off.",
+  "Retime the entrance to your own 1000ms, but keep a standard ease-out as the curve, because the easing is what reads as this design.",
+  "Write the replacement headline first, then confirm it still fits the 1952x1440 frame at the reference's type size.",
+  "Swap the clip for your own footage at 1952x1440 or wider, keep it muted, and match the 18.4s loop point."
+ ],
+ "editorial": [
+  {
+   "title": "The timing behind the landing page",
+   "body": "Port the motion last. The brief fixes it as 1000ms transitions, a 18.4s media loop and hover and press states, which is easier to match once the layout is in place. Nothing animates for its own sake in this landing page."
+  },
+  {
+   "title": "How the landing page reflows",
+   "body": "A fixed desktop scale would have been easier. The brief adds a clamp between 16px and 20px, which is what keeps the display line proportionate between widths. The reflow keeps the action reachable at every width."
+  },
+  {
+   "title": "Making the landing page yours",
+   "body": "You do not need to rebuild the landing page to make it yours. Replace the headline and the media, keep the scale (a fixed 16px display size and 20px spacing steps), and the layout still reads as designed. Keep the frame and the scale; the subject is the part that should change."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1952x1440 capture before you generate.",
+  "Copy a fixed 16px display size, 20px spacing steps and 1000ms transitions into your own brief before you rewrite anything else.",
+  "Keep the measurements the brief spells out: a fixed 16px display size, 20px spacing steps and 1000ms transitions.",
+  "Pin the reference measurements before you restyle anything: a fixed 16px display size, 20px spacing steps and 1000ms transitions.",
+  "Check your build against the reference measurements: a fixed 16px display size, 20px spacing steps and 1000ms transitions."
+ ],
+ "faq": [
+  {
+   "question": "What do I get when I copy the ClarionAI brief?",
+   "answer": "The captured brief runs 6,807 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Why is ClarionAI's prompt not printed here?",
+   "answer": "Everything quoted on the page comes from the captured 6,807-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "Can I rebuild the ClarionAI landing page in a different stack?",
+   "answer": "ClarionAI was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  }
+ ],
+ "audience": [
+  "If you brief a model rather than a designer, start from the landing page and let the prompt hold a 1952x1440 frame.",
+  "Designers who need the numbers first: a fixed 16px display size and 20px spacing steps, all of it quoted from the brief.",
+  "Made for product managers who need the landing page scoped to one sprint and no new assets."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Landing page"
+  },
+  {
+   "label": "Industry",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Format",
+   "value": "1952x1440 · 1.36:1"
+  },
+  {
+   "label": "Runtime",
+   "value": "18.4s loop"
+  },
+  {
+   "label": "Input brief",
+   "value": "6,807 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Reference stack",
+   "value": "Tailwind CSS, React"
+  },
+  {
+   "label": "Transitions",
+   "value": "1000ms transitions and a 18.4s media loop"
+  }
+ ],
+ "related": [
+  "aurelion-feature-blog",
+  "qumica-infrastructure-hero",
+  "cortexa-faq",
+  "designy-footer",
+  "scene-ai-hero",
+  "scalable-saas-analytics-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 6807,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

@@ -1,0 +1,199 @@
+{
+ "slug": "deepthink",
+ "sourceSlug": "deepthink",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "DeepThink"
+ },
+ "title": "DeepThink",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/c6ec258e794f140a.webp",
+  "still": "https://cdn.ottermind.ai/public/99e7e936988c909e.webp",
+  "preview": "https://cdn.ottermind.ai/public/99e7e936988c909e.webp",
+  "full": "https://cdn.ottermind.ai/public/99e7e936988c909e.webp",
+  "aspectRatio": 0.6639,
+  "width": 1280,
+  "height": 1928,
+  "duration": 0
+ },
+ "seo": {
+  "title": "DeepThink AI & SaaS Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an AI or SaaS product — Inter, scroll-triggered reveals, #0C0C0C base and a stats row. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS landing page design",
+   "glass SaaS landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "DeepThink — AI & SaaS Landing Page Design",
+ "tagline": "Landing page reference for an AI or SaaS product, captured at 1280x1928 with the layout, timings and palette specified in the brief.",
+ "summary": "Landing page reference for an AI or SaaS product — Inter, scroll-triggered reveals, #0C0C0C base and a stats row.",
+ "about": "DeepThink is a SaaS landing page built from one written brief, and this page documents that brief. The colour scheme is #0C0C0C underneath and tint #FAFAFA for the type, and the page is set in Inter. Delivery is one self-contained HTML file, captured at 1280x1928 so the frame is fixed before any code is written. The brief spends its motion budget on 90ms transitions and cubic-bezier(.22,1.36,1). Keep it open while you write: the 13,695-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "A bar with nothing spare",
+   "body": "The bar is one row of text and one action, measured at 100vh sections and 10px spacing steps so it reads as a strip rather than as a band. The bar sits over the 1280x1928 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "A card grid carries the middle",
+   "body": "The grid does the reading order for you: panels of equal weight, one idea each, set in Inter at a small size so the structure stays visible. The grid collapses to a single column without changing the panel order."
+  },
+  {
+   "title": "A navigation bar that gets out of the way",
+   "body": "The mobile menu is part of the brief, so the collapsed state is designed rather than improvised. Keep the link count to four or five; the row is sized for that."
+  },
+  {
+   "title": "The spacing steps are quoted",
+   "body": "Nothing here is eyeballed. The spec fixes 100vh sections, 10px spacing steps, 90ms transitions and cubic-bezier(.22,1.36,1) easing, and the rest of the layout derives from those values. Because the values are fixed, a substitution changes the look without changing the rhythm."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Reveals tied to movement",
+   "body": "Scroll is treated as a trigger rather than a timeline: sections reveal as they enter the viewport, and the reader sets the pace. The scroll behaviour is measured against the same layout the static page uses, so nothing shifts when it is removed. Test it with reduced motion on."
+  },
+  {
+   "title": "Timings in milliseconds",
+   "body": "The brief fixes the transition value at 90ms, so a rebuild cannot substitute a slower default. The same duration is reused across controls, which keeps the interactions feeling like one system."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#0C0C0C",
+    "name": "Near-black",
+    "role": "background"
+   },
+   {
+    "hex": "#FAFAFA",
+    "name": "Tint",
+    "role": "Headline"
+   },
+   {
+    "hex": "#111111",
+    "name": "Near-black — lighter",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#9E9E9E",
+    "name": "Tint — darker",
+    "role": "lighter step"
+   }
+  ],
+  "glass": "Panels are translucent over #0C0C0C, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 90ms, which is the value to keep when the palette changes.",
+   "Transitions are specified at 90ms, short enough that the page never feels like it is waiting for an animation.",
+   "The timing budget is state feedback rather than page choreography (90ms), so a slower rebuild reads as a different design."
+  ]
+ },
+ "customize": [
+  "Change the copy first, then the accent, then the media: the 1280x1928 frame was solved in that order and reversing it costs a re-layout.",
+  "The brief behind this page is written out in full below, so any rewrite can be checked against it value by value; the reference was captured at 1280x1928.",
+  "Read the brief value by value against the 1280x1928 capture before you edit anything; the numbers are the part that is easiest to lose.",
+  "Retime the entrance to taste. 90ms with cubic-bezier(.22,1.36,1) is what the reference uses."
+ ],
+ "editorial": [
+  {
+   "title": "The argument this landing page makes",
+   "body": "A tint layer over the media would have been the easy fix. The brief leaves it off. The media is a still at 1280x1928. The copy still holds because 100vh sections and 10px spacing steps keep the frame calm. It gives a SaaS reader the shortest honest route to the offer."
+  },
+  {
+   "title": "What moves in DeepThink",
+   "body": "The brief ties every transition to a value (90ms transitions, a masked line reveal and a scroll reveal). That is what keeps the page from feeling like a template with an animation preset dropped on top of it. Nothing animates for its own sake in this landing page."
+  },
+  {
+   "title": "The numbers behind the landing page",
+   "body": "Committing to 100vh sections, 10px spacing steps, 90ms transitions and cubic-bezier(.22,1.36,1) easing trades flexibility for repeatability. That is the point of the reference: the same page in a different brand, without a new set of guesses. Nothing in this landing page depends on a default."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1280x1928 capture before you generate.",
+  "Keep the measurements the brief spells out: 100vh sections, 10px spacing steps and 90ms transitions.",
+  "Pin the reference measurements before you restyle anything: 100vh sections, 10px spacing steps and 90ms transitions.",
+  "Check your build against the reference measurements: 100vh sections, 10px spacing steps and 90ms transitions.",
+  "Copy 100vh sections, 10px spacing steps and 90ms transitions into your own brief before you rewrite anything else."
+ ],
+ "faq": [
+  {
+   "question": "Do I need one self-contained HTML file to rebuild DeepThink?",
+   "answer": "DeepThink was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "How long is the prompt behind DeepThink?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1280x1928, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Can I ship a page rebuilt from DeepThink without crediting it?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1280x1928."
+  }
+ ],
+ "audience": [
+  "Made for agencies that pitch SaaS work and need cubic-bezier(.22,1.36,1) easing in the first reply to the client.",
+  "If you brief a model rather than a designer, start from the landing page and let the prompt hold one self-contained HTML file.",
+  "If the build starts from one self-contained HTML file, lift 100vh sections and 10px spacing steps first and leave the palette alone until the grid settles."
+ ],
+ "specs": [
+  {
+   "label": "Block",
+   "value": "Landing page"
+  },
+  {
+   "label": "Industry",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Canvas size",
+   "value": "1280x1928 · 0.66:1"
+  },
+  {
+   "label": "Input brief",
+   "value": "13,695 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type",
+   "value": "Inter"
+  },
+  {
+   "label": "Tech stack",
+   "value": "Tailwind CSS, React, GSAP"
+  },
+  {
+   "label": "Motion",
+   "value": "90ms transitions and cubic-bezier(.22,1.36,1) easing"
+  }
+ ],
+ "related": [
+  "ltx-video",
+  "luminex-hero",
+  "mindloop-landing",
+  "neon-logic",
+  "neuralyn-hero",
+  "nexacore-control"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 13695,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

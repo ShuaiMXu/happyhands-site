@@ -1,0 +1,207 @@
+{
+ "slug": "fastshot",
+ "sourceSlug": "fastshot",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Fastshot"
+ },
+ "title": "Fastshot",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/b7771275b9e8567c.webp",
+  "still": "https://cdn.ottermind.ai/public/ad30359d26d324e1.webp",
+  "preview": "https://cdn.ottermind.ai/public/9f1821e69bd79f45.mp4",
+  "full": "https://cdn.ottermind.ai/public/29019f3d308a9e48.mp4",
+  "aspectRatio": 1.3656,
+  "width": 1920,
+  "height": 1406,
+  "duration": 7.45
+ },
+ "seo": {
+  "title": "Fastshot AI & SaaS Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an AI or SaaS product — fluid type, glass panels, a stats row and Inter. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS landing page design",
+   "video-backed SaaS landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Fastshot — AI & SaaS Landing Page Design",
+ "tagline": "Landing page reference built around “Describe an app. We'll build it”, with the layout, timings and palette written down in the brief.",
+ "summary": "Landing page reference for an AI or SaaS product — fluid type, glass panels, a stats row and Inter.",
+ "about": "Fastshot was captured at 1920x1406 and kept as a specification rather than as a gallery image. “Describe an app. We'll build it” is the line the layout is built to carry. The palette is deep blue #0A0D12 underneath and muted indigo #9C86CE carrying the accents, set in Inter. Delivery is one self-contained HTML file, captured at 1920x1406 so the frame is fixed before any code is written. Motion is limited to 1.00s transitions, cubic-bezier(.4,0.2,1) and a looping video bed. Keep it open while you write: the 15,844-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "Navigation without a background",
+   "body": "Wordmark, links and the #9C86CE action share one baseline, which is what keeps a thin row from looking accidental. Below 599px the links collapse instead of wrapping onto a second line."
+  },
+  {
+   "title": "Media behind the type",
+   "body": "One muted, looping clip fills the frame at 1920x1406 and 7.5s, set to cover with the copy stacked above it. The brief keeps overlays off the video so nothing greys it out. Export at 1920x1406 or wider and the cover crop keeps working."
+  },
+  {
+   "title": "Type does the styling",
+   "body": "The display line is set in Inter at a size the brief fixes, which makes the headline a composition element rather than a paragraph. Line height follows the size steps rather than a single global value."
+  },
+  {
+   "title": "The nav is deliberately thin",
+   "body": "Labels are short enough to fit one line at 599px, and the active item is marked with weight rather than with a pill."
+  }
+ ],
+ "motion": [
+  {
+   "title": "One duration for the controls",
+   "body": "The brief fixes the transition value at 1.00s, so a rebuild cannot substitute a slower default. Easing is specified alongside the duration (1.00s), so a rebuild cannot quietly substitute a different feel. Fast state changes, no scroll timelines."
+  },
+  {
+   "title": "The loop does the ambient work",
+   "body": "The background clip runs 7.5s at 1920x1406 on an endless loop, muted and inline, so the page keeps moving while the reader's attention is on the copy. No scroll library is required, because the only ambient motion is the media itself. Nothing else on the page animates continuously, so the media is the only thing asking for attention."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#0A0D12",
+    "name": "Near-black",
+    "role": "composition"
+   },
+   {
+    "hex": "#98999C",
+    "name": "Gray",
+    "role": "lighter step"
+   },
+   {
+    "hex": "#A9AAAD",
+    "name": "Gray — lighter",
+    "role": "lightest"
+   },
+   {
+    "hex": "#9C86CE",
+    "name": "Muted indigo",
+    "role": "accent"
+   }
+  ],
+  "glass": "Panels are translucent over deep blue #0A0D12, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 1.00s, which is the value to keep when the palette changes.",
+   "Transitions are specified at 1.00s, short enough that the page never feels like it is waiting for an animation.",
+   "Nothing sits between the type and the 1920x1406 clip, so a replacement has to work under the copy directly."
+  ]
+ },
+ "customize": [
+  "Change #9C86CE for your brand accent and re-check it against #0A0D12, because the accent is the only saturated value in this composition.",
+  "Recut your footage to the 7.5s loop, then export at 1920x1406 so the crop the reference specifies survives.",
+  "Keep the supporting line as short as the reference's and measure the pair against the 1920x1406 crop.",
+  "Replace the copy in the Inter stack first, then re-check the #9C86CE accent against the media behind it."
+ ],
+ "editorial": [
+  {
+   "title": "How the landing page reflows",
+   "body": "When the copy is long, the narrow layout breaks first. Here a clamp between 14px and 18px absorbs the change, and the scale is fluid rather than stepped, the layout shifts at 599px and the section is held at 100vh. Both states are described in the same brief."
+  },
+  {
+   "title": "What this landing page gets right",
+   "body": "The trade-off is density: this landing page says less on the first screen than a feature-led layout would. What it keeps is the reading order, and navigation, the headline, the stats row, the card grid and the background clip do the work a longer page would spread out. It gives a SaaS reader the shortest honest route to the offer."
+  },
+  {
+   "title": "Reading Fastshot as a spec",
+   "body": "Compare this with a template that calls its spacing a preference. Here the same values are named (100vh sections, 4px corners, 18px spacing steps and 1.00s transitions), so an edit either keeps them or visibly breaks the composition. Nothing in this landing page depends on a default."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1920x1406 capture before you generate.",
+  "Set the brand first: product name, the #9C86CE accent and a headline that replaces the reference's.",
+  "Drop your product name in, then replace #9C86CE with your own accent and re-check the contrast.",
+  "Set your brand first: product name, the #9C86CE accent and the headline that replaces the reference's.",
+  "Type the product name and the #9C86CE accent before you touch the layout."
+ ],
+ "faq": [
+  {
+   "question": "Can I rebuild the Fastshot landing page in a different stack?",
+   "answer": "Fastshot was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What do I get when I copy the Fastshot brief?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1920x1406, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Can I use Fastshot in a client project?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1920x1406."
+  }
+ ],
+ "audience": [
+  "The landing page is aimed at teams that already know one self-contained HTML file and only need cubic-bezier(.4,0.2,1) easing written down.",
+  "If the build starts from one self-contained HTML file, lift 100vh sections and 4px corners first and leave the palette alone until the grid settles.",
+  "This landing page serves founders who need one screen of proof that SaaS copy can carry 7.5s of looping video."
+ ],
+ "specs": [
+  {
+   "label": "Page part",
+   "value": "Landing page"
+  },
+  {
+   "label": "Category",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Viewport",
+   "value": "1920x1406 · 1.37:1"
+  },
+  {
+   "label": "Loop length",
+   "value": "7.5s loop"
+  },
+  {
+   "label": "Source text",
+   "value": "15,844 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent tone",
+   "value": "muted indigo #9C86CE"
+  },
+  {
+   "label": "Type scale",
+   "value": "Inter"
+  },
+  {
+   "label": "Tools",
+   "value": "single HTML file"
+  },
+  {
+   "label": "Animation",
+   "value": "1.00s transitions, cubic-bezier(.4,0.2,1) easing and a 7.5s media loop"
+  }
+ ],
+ "related": [
+  "no-code-waitlist",
+  "organic-odyssey",
+  "palomar-labs",
+  "portal",
+  "power-ai-hero",
+  "quantum-core"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 15844,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

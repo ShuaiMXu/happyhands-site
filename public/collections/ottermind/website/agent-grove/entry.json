@@ -1,0 +1,208 @@
+{
+ "slug": "agent-grove",
+ "sourceSlug": "agent-grove",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Agent Grove"
+ },
+ "title": "Agent Grove",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/bb62eb191c9cdf9c.webp",
+  "still": "https://cdn.ottermind.ai/public/4e836a6a31d2a5ce.webp",
+  "preview": "https://cdn.ottermind.ai/public/0d10cef0dd606111.mp4",
+  "full": "https://cdn.ottermind.ai/public/da2d00f7ee9ac70a.mp4",
+  "aspectRatio": 1.3741,
+  "width": 1484,
+  "height": 1080,
+  "duration": 5.433
+ },
+ "seo": {
+  "title": "Agent Grove AI & SaaS Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an AI or SaaS product — a dark stage, React and Tailwind CSS, a stats row and 300ms transitions. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS landing page design",
+   "video-backed SaaS landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Agent Grove — AI & SaaS Landing Page Design",
+ "tagline": "Landing page reference for an AI or SaaS product, captured at 1484x1080 with the layout, timings and palette specified in the brief.",
+ "summary": "Landing page reference for an AI or SaaS product — a dark stage, React and Tailwind CSS, a stats row and 300ms transitions.",
+ "about": "Agent Grove is the landing page reference for an AI or SaaS product, and the brief behind it is a full build spec rather than a mood board. The palette is black #2B2B2B underneath, set in Geist. Delivery is React and Tailwind CSS, captured at 1484x1080 so the frame is fixed before any code is written. The motion budget is 300ms transitions, cubic-bezier(0.16,1,0.3,1) and a looping video bed. Treat it as the brief for an AI or SaaS product landing page that has to hold up under a rebuild, not just a first look.",
+ "layout": [
+  {
+   "title": "Top row: wordmark, links, one action",
+   "body": "The bar overlays the landing page instead of pushing it down, so the composition keeps the full height of the first screen. The bar sits over the 1484x1080 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "Every measurement is written down",
+   "body": "The brief states its sizes at capture (24px spacing steps, 300ms transitions and cubic-bezier(0.16,1,0.3,1) easing), so a rebuild can be verified instead of approximated. The brief states values rather than proportions, so the composition keeps its relationships when the copy changes length."
+  },
+  {
+   "title": "Cards do the structuring",
+   "body": "The grid does the reading order for you: panels of equal weight, one idea each, set in Geist at a small size so the structure stays visible. Headings inside the panels sit one step above their own body copy, not one step below the page headline."
+  },
+  {
+   "title": "The footer is a full composition",
+   "body": "Links are grouped into columns with the wordmark in its own block, which keeps a long footer readable instead of turning it into a list. Type sizes step down from the column headings to the links, so the hierarchy survives a dense footer."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Short, matched timings",
+   "body": "The controls resolve in 300ms, fast enough that the page answers as it is touched rather than after it. The quoted timing covers state changes, so the feedback is the part of the motion that is specified. One duration per behaviour."
+  },
+  {
+   "title": "The loop does the ambient work",
+   "body": "Ambient movement comes from the 5.4s 1484x1080 loop rather than from scroll effects, which keeps the page calm and the type readable. A poster frame stands in when autoplay is blocked, so the motion is additive rather than required."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#010101",
+    "name": "Near-black",
+    "role": "darkest"
+   },
+   {
+    "hex": "#2B2B2B",
+    "name": "Black",
+    "role": "composition"
+   },
+   {
+    "hex": "#101010",
+    "name": "Near-black — lighter",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#161C1F",
+    "name": "Deep teal",
+    "role": "Secondary"
+   }
+  ],
+  "glass": "Panels are translucent over black #2B2B2B, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Geist",
+    "weights": "Weight not fixed in the brief",
+    "role": "Control text"
+   },
+   {
+    "name": "Silkscreen",
+    "weights": "Weight not fixed in the brief",
+    "role": "Text face"
+   }
+  ],
+  "notes": [
+   "Media is specified at 1484x1080 and a 5.4s loop, so a replacement should match the crop and the loop length.",
+   "Nothing sits between the type and the 1484x1080 clip, so a replacement has to work under the copy directly.",
+   "The clip is one asset at 1484x1080 and a 5.4s loop, so the composition has a single media dependency."
+  ]
+ },
+ "customize": [
+  "Swap the clip for your own. Export at 1484x1080 or wider, keep it muted, and make the 5.4s loop seamless so the cut is invisible.",
+  "Keep 1484x1080 for the media and re-crop your own asset into it rather than resizing the frame.",
+  "Retime the entrance to taste. 300ms with cubic-bezier(0.16,1,0.3,1) is what the reference uses.",
+  "Read the brief value by value against the 1484x1080 capture before you edit anything; the numbers are the part that is easiest to lose."
+ ],
+ "editorial": [
+  {
+   "title": "Making the landing page yours",
+   "body": "The composition is the reusable part and the subject is yours. Keep 24px spacing steps and 300ms transitions and replace the words, the media and the brand marks. The composition is the reusable part, and it survives a different brand."
+  },
+  {
+   "title": "How the landing page reflows",
+   "body": "A fixed desktop scale would have been easier. The brief adds a clamp between 16px and 24px, which is what keeps the display line proportionate between widths. The reflow keeps the action reachable at every width."
+  },
+  {
+   "title": "The timing behind the landing page",
+   "body": "A short motion budget costs you drama on the first frame. It buys legibility, and it means 300ms transitions, a 5.4s media loop and hover and press states can be ported without a library. Nothing animates for its own sake in this landing page."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1484x1080 capture before you generate.",
+  "Check your build against the reference measurements: 24px spacing steps, 300ms transitions and cubic-bezier(0.16,1,0.3,1) easing.",
+  "Keep the measurements the brief spells out: 24px spacing steps, 300ms transitions and cubic-bezier(0.16,1,0.3,1) easing.",
+  "Pin the reference measurements before you restyle anything: 24px spacing steps, 300ms transitions and cubic-bezier(0.16,1,0.3,1) easing.",
+  "Copy 24px spacing steps, 300ms transitions and cubic-bezier(0.16,1,0.3,1) easing into your own brief before you rewrite anything else."
+ ],
+ "faq": [
+  {
+   "question": "How long is the prompt behind Agent Grove?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1484x1080, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Do I need React and Tailwind CSS to rebuild Agent Grove?",
+   "answer": "Agent Grove was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Can I ship a page rebuilt from Agent Grove without crediting it?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1484x1080."
+  }
+ ],
+ "audience": [
+  "Product marketers who need the landing page to still read with 5.4s of looping video behind the copy.",
+  "People who brief a model on a landing page will use the 7,959-character prompt as the starting point.",
+  "Made for content leads rewriting a landing page whose headline has to stay as long as Agent Grove's."
+ ],
+ "specs": [
+  {
+   "label": "Page section",
+   "value": "Landing page"
+  },
+  {
+   "label": "Field",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Canvas size",
+   "value": "1484x1080 · 1.37:1"
+  },
+  {
+   "label": "Clip length",
+   "value": "5.4s loop"
+  },
+  {
+   "label": "Brief",
+   "value": "7,959 characters"
+  },
+  {
+   "label": "Captured",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Typefaces",
+   "value": "Geist, Silkscreen"
+  },
+  {
+   "label": "Built with",
+   "value": "Tailwind CSS, React, Lucide icons"
+  },
+  {
+   "label": "Animation",
+   "value": "300ms transitions, cubic-bezier(0.16,1,0.3,1) easing and a 5.4s media loop"
+  }
+ ],
+ "related": [
+  "liquid-glass-cta",
+  "clarionai-landing",
+  "kova-onboarding",
+  "planor-hero",
+  "globalbank-management-hero",
+  "aesthetic-login-onboarding"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 7959,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

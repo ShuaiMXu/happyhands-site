@@ -1,0 +1,202 @@
+{
+ "slug": "faq-cta",
+ "sourceSlug": "faq-cta",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "FAQ CTA"
+ },
+ "title": "FAQ CTA",
+ "industry": "health",
+ "industryLabel": "Health",
+ "section": "cta",
+ "sectionLabel": "Call to action",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/4c6df3d96b3773f0.webp",
+  "still": "https://cdn.ottermind.ai/public/4a4a0f238c4aff8d.webp",
+  "preview": "https://cdn.ottermind.ai/public/4a4a0f238c4aff8d.webp",
+  "full": "https://cdn.ottermind.ai/public/4a4a0f238c4aff8d.webp",
+  "aspectRatio": 1.3675,
+  "width": 640,
+  "height": 468,
+  "duration": 0
+ },
+ "seo": {
+  "title": "FAQ CTA Health Call to Action Design & Prompt | Ottermind",
+  "description": "Call to action reference for a health or wellbeing product — Inter, 6.5s transitions, a stats row and React and Tailwind CSS. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "health website design",
+   "health call-to-action block design",
+   "gradient health landing page",
+   "call-to-action block design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "FAQ CTA — Health Call to Action Design",
+ "tagline": "“Send Money Worldwide at the Best Rates” — the whole call-to-action block is composed around that line, down to the animation timings.",
+ "summary": "Call to action reference for a health or wellbeing product — Inter, 6.5s transitions, a stats row and React and Tailwind CSS.",
+ "about": "FAQ CTA is a health call-to-action block built from one written brief, and this page documents that brief. The page's own headline reads “Send Money Worldwide at the Best Rates”, and the composition is built around those exact words. The palette runs white #F0F0F0 underneath and bright red #FF4B2B carrying the accents, and the type is Inter. The reference is built with React and Tailwind CSS, and the layout decisions are stated independently of it. Motion comes down to 6.5s transitions. It is the right reference for a health or wellbeing product call-to-action block that has to look deliberate on the first screen.",
+ "layout": [
+  {
+   "title": "A navigation bar that gets out of the way",
+   "body": "Links sit on one line at a single size, and the #FF4B2B action closes the row on the right so the eye finishes where the navigation ends. The links are set below the wordmark in size, and the #FF4B2B action is the only element in the bar with any weight."
+  },
+  {
+   "title": "Measured, not eyeballed",
+   "body": "Nothing in the layout is left to feel: the brief quotes 10px spacing steps and 6.5s transitions and the build has to hit those values. The frame proportions are recorded with the sizes, so a rebuild gets the aspect right as well."
+  },
+  {
+   "title": "One face, used with discipline",
+   "body": "Typography is Inter, and the brief assigns the face a job rather than mixing for variety. Weight, tracking and size steps are all specified, so the hierarchy survives a substitution. A face swap is safe as long as the sizes and weights stay where the brief put them. One family with clear roles beats two that compete."
+  },
+  {
+   "title": "The grid sets the order",
+   "body": "Where a run of copy would go, this page puts a set of panels, which is what keeps the call-to-action block scannable. The accent inside the grid marks one element at most, so panels do not compete with each other. The reference was captured at 640x468."
+  }
+ ],
+ "motion": [
+  {
+   "title": "A scene instead of a still",
+   "body": "A live canvas is doing the visual work: a WebGL canvas. The brief keeps the interface plain around the canvas so the scene is the only spectacle."
+  },
+  {
+   "title": "Hover where it means something",
+   "body": "Only the controls respond to the pointer (hover states on the buttons and links rather than on every card and tabs or an accordion that swaps content in place), so the page feels responsive without turning every element into a target. Each state changes one property, which keeps the feedback legible. If a state does not confirm an action, drop it."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#F0F0F0",
+    "name": "White",
+    "role": "composition"
+   },
+   {
+    "hex": "#FF8E53",
+    "name": "Orange",
+    "role": "darker"
+   },
+   {
+    "hex": "#FFF1AA",
+    "name": "Muted yellow",
+    "role": "saturated"
+   },
+   {
+    "hex": "#FF4B2B",
+    "name": "Bright red",
+    "role": "accent"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "The timing budget is state feedback rather than page choreography (6.5s), so a slower rebuild reads as a different design.",
+   "The accent is spent on bright red #FF4B2B and the rest of the composition holds white #F0F0F0.",
+   "Transitions are specified at 6.5s, short enough that the page never feels like it is waiting for an animation."
+  ]
+ },
+ "customize": [
+  "Retune #FF4B2B for your brand only after the Inter copy is final, and re-check the contrast on the darkest band.",
+  "Change #FF4B2B for your brand accent and re-check it against #F0F0F0, because the accent is the only saturated value in this composition.",
+  "Retime the entrance to taste. 6.5s with a standard ease-out is what the reference uses.",
+  "Change the copy before the colour: rewrite the Inter paragraphs first, then check #FF4B2B against the media behind them."
+ ],
+ "editorial": [
+  {
+   "title": "What to change first in FAQ CTA",
+   "body": "Start with the promise, not the decoration. Rewrite “Send Money Worldwide at the Best Rates” as one sentence that names what you do, then set it in Inter at the display size the brief uses. Replace bright red #FF4B2B with your own accent and check it against white #F0F0F0 before you touch anything else. If a new element does not help explain the offer or the next action, it belongs below the fold."
+  },
+  {
+   "title": "How the call-to-action block reflows",
+   "body": "The brief describes what changes at each width (the motion has a reduced-motion branch), which means the mobile version is a decision rather than a squeeze. Contrast is held on the #FF4B2B accent over the media, and the video is muted and inline. The mobile version is a decision, not a fallback."
+  },
+  {
+   "title": "Why this composition works for health",
+   "body": "When you brief a health call-to-action block, the hard part is deciding what the first screen refuses to say. FAQ CTA answers that in advance: one display line, navigation, the stats row, the card grid, the feature list and the form behind it. It gives a health reader the shortest honest route to the offer."
+  }
+ ],
+ "steps": [
+  "Set the brand first: product name, the #FF4B2B accent and a headline that replaces the reference's.",
+  "Drop your product name in, then replace #FF4B2B with your own accent and re-check the contrast.",
+  "Set your brand first: product name, the #FF4B2B accent and the headline that replaces the reference's.",
+  "Type the product name and the #FF4B2B accent before you touch the layout.",
+  "Keep the measurements the brief spells out: 10px spacing steps and 6.5s transitions."
+ ],
+ "faq": [
+  {
+   "question": "How long is the prompt behind FAQ CTA?",
+   "answer": "The captured brief runs 9,456 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Why does the entry name React and Tailwind CSS at all?",
+   "answer": "FAQ CTA was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What drives the motion in FAQ CTA?",
+   "answer": "Transitions are attached to interface states rather than to a scroll timeline, and they resolve in the 6.5s range. The brief records the values so a port can match them without guessing."
+  }
+ ],
+ "audience": [
+  "Growth teams reskinning a health or wellbeing product call-to-action block who want the 640x468 frame kept while the offer copy changes.",
+  "Made for a solo founder shipping one call-to-action block for a health or wellbeing product and no design system behind them.",
+  "People who brief a model on a call-to-action block will use the 9,456-character prompt as the starting point."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Call to action"
+  },
+  {
+   "label": "Vertical",
+   "value": "Health"
+  },
+  {
+   "label": "Canvas",
+   "value": "640x468 · 1.37:1"
+  },
+  {
+   "label": "Source text",
+   "value": "9,456 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent tone",
+   "value": "bright red #FF4B2B"
+  },
+  {
+   "label": "Typefaces",
+   "value": "Inter"
+  },
+  {
+   "label": "Stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Motion",
+   "value": "6.5s transitions"
+  }
+ ],
+ "related": [
+  "adhd-planner",
+  "celestial-renewal",
+  "health-portal",
+  "healcure-clinic-landing",
+  "mind-ai",
+  "mind-body-healing"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 9456,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

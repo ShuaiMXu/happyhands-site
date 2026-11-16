@@ -1,0 +1,202 @@
+{
+ "slug": "quantum-core",
+ "sourceSlug": "quantum-core",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Quantum Core"
+ },
+ "title": "Quantum Core",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/561b8531358ee5f2.webp",
+  "still": "https://cdn.ottermind.ai/public/3e50afe693b89806.webp",
+  "preview": "https://cdn.ottermind.ai/public/14024ae1871718a1.mp4",
+  "full": "https://cdn.ottermind.ai/public/1b07c0f9a44898f9.mp4",
+  "aspectRatio": 1.3521,
+  "width": 1920,
+  "height": 1420,
+  "duration": 6.75
+ },
+ "seo": {
+  "title": "Quantum Core AI & SaaS Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an AI or SaaS product — cubic-bezier(0.16, 1, 0.3, 1) easing, looping video, a stats row and 700ms transitions. Copy the prompt or open it staged in.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS landing page design",
+   "video-backed SaaS landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Quantum Core — AI & SaaS Landing Page Design",
+ "tagline": "“Talk with the team” — the whole landing page is composed around that line, down to the animation timings.",
+ "summary": "Landing page reference for an AI or SaaS product — cubic-bezier(0.16, 1, 0.3, 1) easing, looping video, a stats row and 700ms transitions.",
+ "about": "Quantum Core shows one way to build the landing page for an AI or SaaS product, and publishes the instructions that produced it. The headline reads “Talk with the team”, and the rest of the landing page is arranged around it. The palette is deep blue #080A19 underneath and white #E9E9E9 for the type, set in Suisse Intl. Delivery is React and Tailwind CSS, captured at 1920x1420 so the frame is fixed before any code is written. Motion is confined to 700ms transitions, cubic-bezier(0.16, 1, 0.3, 1) and a looping video bed. Keep it open while you write: the 27,320-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "The nav is deliberately thin",
+   "body": "The wordmark holds the left edge and the links run to the right of it, all of it set in Suisse Intl so the bar belongs to the page below rather than to a separate system. The bar sits over the 1920x1420 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "Sizes fixed in the brief",
+   "body": "The list stays short (type from 12px to 72px, 20px spacing steps, 700ms transitions and cubic-bezier(0.16, 1, 0.3, 1) easing), which is why the whole system can be checked by hand. Each value maps to one job: a type step, a gap, a radius or a transition."
+  },
+  {
+   "title": "One row, no drawers",
+   "body": "One action per bar. The reference was captured at 1920x1420."
+  },
+  {
+   "title": "The spacing steps are quoted",
+   "body": "Spacing is quoted the same way (type from 12px to 72px, 20px spacing steps, 700ms transitions and cubic-bezier(0.16, 1, 0.3, 1) easing), not as a scale that grows on its own."
+  }
+ ],
+ "motion": [
+  {
+   "title": "A loop, not a timeline",
+   "body": "One 6.8s clip is the entire ambient layer: it plays behind the copy, loops without a visible cut and never reacts to the pointer. The clip is short enough to loop without a visible seam, which matters more than its resolution."
+  },
+  {
+   "title": "A small interactive surface",
+   "body": "Every interactive element does one thing (hover states on the buttons and links rather than on every card), which is what keeps the states predictable. The states are drawn from the page's own palette rather than from a component default. Keep the interactive layer small."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#E9E9E9",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#080A19",
+    "name": "Near-black",
+    "role": "composition"
+   },
+   {
+    "hex": "#0A0707",
+    "name": "Near-black — darker",
+    "role": "darkest"
+   },
+   {
+    "hex": "#000C12",
+    "name": "Near-black — darker",
+    "role": "panel edges"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Suisse Intl",
+    "weights": "12–72px",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Font roles are assigned rather than mixed here, and 12–72px is the range the whole scale works in.",
+   "Media is specified at 1920x1420 and a 6.8s loop, so a replacement should match the crop and the loop length.",
+   "The clip is one asset at 1920x1420 and a 6.8s loop, so the composition has a single media dependency."
+  ]
+ },
+ "customize": [
+  "Keep 1920x1420 for the media and re-crop your own asset into it rather than resizing the frame.",
+  "Recut your footage to the 6.8s loop, then export at 1920x1420 so the crop the reference specifies survives.",
+  "Keep Suisse Intl or pick a face with the same proportions; the size scale is set for those widths, not for a substitute.",
+  "Retime the entrance to your own 700ms, but keep cubic-bezier(0.16, 1, 0.3, 1) as the curve, because the easing is what reads as this design."
+ ],
+ "editorial": [
+  {
+   "title": "Making the landing page yours",
+   "body": "Suppose you only have one afternoon. Change the headline and the action label, leave type from 12px to 72px and 20px spacing steps alone, and you have a page that looks intentional. Your accent has to survive the same contrast test as the reference accent."
+  },
+  {
+   "title": "Reading Quantum Core as a spec",
+   "body": "The cost of a fixed scale is less room to improvise. type from 12px to 72px and 20px spacing steps keep the composition coherent, but a new element has to be fitted rather than placed. Nothing in this landing page depends on a default."
+  },
+  {
+   "title": "What this landing page gets right",
+   "body": "A stock hero and this landing page use the same parts. Here they are ordered by navigation, the headline, the announcement badge, the stats row and the card grid and measured with type from 12px to 72px, 20px spacing steps, 700ms transitions and cubic-bezier(0.16, 1, 0.3, 1) easing, so the screen reads as a sequence rather than a container. Quantum Core states the offer once and lets the composition repeat it rather than adding a second claim."
+  }
+ ],
+ "steps": [
+  "Keep the measurements the brief spells out: type from 12px to 72px, 20px spacing steps and 700ms transitions.",
+  "Check your build against the reference measurements: type from 12px to 72px, 20px spacing steps and 700ms transitions.",
+  "Pin the reference measurements before you restyle anything: type from 12px to 72px, 20px spacing steps and 700ms transitions.",
+  "Copy type from 12px to 72px, 20px spacing steps and 700ms transitions into your own brief before you rewrite anything else.",
+  "Copy the 700ms timing exactly, then rebuild the entrance before the hover states."
+ ],
+ "faq": [
+  {
+   "question": "What does the brief behind Quantum Core actually contain?",
+   "answer": "The captured brief runs 27,320 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "How much of Quantum Core depends on React and Tailwind CSS?",
+   "answer": "Quantum Core was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What drives the motion in Quantum Core?",
+   "answer": "Entrances and state changes are in the 700ms range on cubic-bezier(0.16, 1, 0.3, 1). They are driven by state changes rather than a scroll library, and they never hold up the copy."
+  }
+ ],
+ "audience": [
+  "Teams building an AI or SaaS product landing page who want the measured detail (type from 12px to 72px and 20px spacing steps) rather than a screenshot to copy.",
+  "Product marketers who need the landing page to still read with 6.8s of looping video behind the copy.",
+  "Made for content leads rewriting a landing page whose headline has to stay as long as Quantum Core's."
+ ],
+ "specs": [
+  {
+   "label": "Page part",
+   "value": "Landing page"
+  },
+  {
+   "label": "Sector",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Frame",
+   "value": "1920x1420 · 1.35:1"
+  },
+  {
+   "label": "Clip length",
+   "value": "6.8s loop"
+  },
+  {
+   "label": "Prompt",
+   "value": "27,320 characters"
+  },
+  {
+   "label": "Date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type scale",
+   "value": "Suisse Intl · 12–72px"
+  },
+  {
+   "label": "Stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Motion spec",
+   "value": "700ms transitions, cubic-bezier(0.16, 1, 0.3, 1) easing and a 6.8s media loop"
+  }
+ ],
+ "related": [
+  "404-planet",
+  "agent-grove",
+  "agent-wave",
+  "ai-runtime",
+  "ai-workflow",
+  "ai-workflow-agents"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 27320,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

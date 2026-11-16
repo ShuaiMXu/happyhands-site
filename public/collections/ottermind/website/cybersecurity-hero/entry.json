@@ -1,0 +1,202 @@
+{
+ "slug": "cybersecurity-hero",
+ "sourceSlug": "cybersecurity-hero",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Cybersecurity Hero"
+ },
+ "title": "Cybersecurity Hero",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/1f853f33876d973f.webp",
+  "still": "https://cdn.ottermind.ai/public/48e08a891bb04db8.webp",
+  "preview": "https://cdn.ottermind.ai/public/48e08a891bb04db8.webp",
+  "full": "https://cdn.ottermind.ai/public/48e08a891bb04db8.webp",
+  "aspectRatio": 1.3559,
+  "width": 640,
+  "height": 472,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Cybersecurity Hero AI & SaaS Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an AI or SaaS product — a logo row, fluid type, a dark stage and Inter. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS hero section design",
+   "gradient SaaS landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Cybersecurity Hero — AI & SaaS Hero Section Design",
+ "tagline": "Hero section reference built on #0A0A0F and tint #B04090, set in Inter and measured against 12px spacing steps.",
+ "summary": "Hero section reference for an AI or SaaS product — a logo row, fluid type, a dark stage and Inter.",
+ "about": "Before rebuilding a hero section for an AI or SaaS product, read Cybersecurity Hero: the composition and the specification behind it are both here. The palette is #0A0A0F underneath and tint #B04090 carrying the accents, set in Inter. The entry names the stack that produced the page (React and Tailwind CSS) rather than hiding it. The page keeps its motion to 300ms transitions and cubic-bezier(0.4, 0, 0.2, 1). Keep it open while you write: the 11,920-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "A bar with nothing spare",
+   "body": "Wordmark, links and the #B04090 action share one baseline, which is what keeps a thin row from looking accidental. Labels are short enough to fit one line at 440px, and the active item is marked with weight rather than with a pill."
+  },
+  {
+   "title": "One family, two roles",
+   "body": "With Inter doing the work, the sizes step down hard from the headline to the supporting copy and letter-spacing tightens as the size grows, so the hierarchy is carried by type rather than colour. Numerals share the interface face, so statistics and labels belong to the same system. The scale is quoted; use it."
+  },
+  {
+   "title": "Logo strip on the baseline",
+   "body": "The client marks run along the lower edge at low contrast and at the smallest step in the brief, so the proof reads as texture on the hero section and never competes with the headline. The row is aligned to the same baseline as the rest of the composition. One row, one baseline. The reference was captured at 640x472."
+  },
+  {
+   "title": "Links collapse at one width",
+   "body": "Below 440px the links collapse instead of wrapping onto a second line."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Timing kept in the brief",
+   "body": "Hover, press and focus all resolve in 300ms, which is what makes the interface feel immediate. If the easing changes, the duration has to be revisited with it."
+  },
+  {
+   "title": "The controls are the interactive layer",
+   "body": "States are handled per component (hover states on the buttons and links rather than on every card) rather than by a global animation layer. Feedback is limited to the controls, so the composition stays still around them. A few reliable states beat a long list of effects."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#0A0A0F",
+    "name": "Near-black",
+    "role": "background"
+   },
+   {
+    "hex": "#C8A0E0",
+    "name": "Tint",
+    "role": "Primary"
+   },
+   {
+    "hex": "#B04090",
+    "name": "Tint — darker",
+    "role": "accent"
+   },
+   {
+    "hex": "#111118",
+    "name": "Near-black — lighter",
+    "role": "panels"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "300 / 400 / 500 / 600 / 700 / 800",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Corner treatment is specified in the brief: 20px and 999px.",
+   "The layout shifts at max-width 440px and max-width 620px, so the narrow composition is designed rather than inherited.",
+   "Panel corners reuse the radius list in the brief (20px and 999px), so the grid needs no separate treatment."
+  ]
+ },
+ "customize": [
+  "Move #B04090 to your own hue and leave #0A0A0F where it is; the distance between them is doing the hierarchy work.",
+  "Retint #B04090 toward your palette but keep the step against #0A0A0F; flatten the two and the primary action stops reading.",
+  "Retune #B04090 for your brand only after the Inter copy is final, and re-check the contrast on the darkest band.",
+  "Change the copy before the colour: rewrite the Inter paragraphs first, then check #B04090 against the media behind them."
+ ],
+ "editorial": [
+  {
+   "title": "What holds up for AI & SaaS",
+   "body": "Most SaaS pages fail by adding: more sections, more gradients, more claims. Cybersecurity Hero goes the other way. The composition stays on #0A0A0F with tint #B04090 for actions, which is enough to look deliberate. It gives a SaaS reader the shortest honest route to the offer."
+  },
+  {
+   "title": "The order behind the hero section",
+   "body": "Read it in order: navigation, the announcement badge, the stats row, the client row and the card grid. Each element has one job, and the tint #B04090 accent is spent only on the element you are meant to press. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "The timing behind the hero section",
+   "body": "Ambitious motion usually costs the first screen its legibility. This brief keeps 300ms transitions and hover and press states short enough that the type never has to wait. Nothing animates for its own sake in this hero section."
+  }
+ ],
+ "steps": [
+  "Drop your product name in, then replace #B04090 with your own accent and re-check the contrast.",
+  "Set the brand first: product name, the #B04090 accent and a headline that replaces the reference's.",
+  "Type the product name and the #B04090 accent before you touch the layout.",
+  "Set your brand first: product name, the #B04090 accent and the headline that replaces the reference's.",
+  "Pin the reference measurements before you restyle anything: 20px corners, 12px spacing steps and 300ms transitions."
+ ],
+ "faq": [
+  {
+   "question": "What does the brief behind Cybersecurity Hero actually contain?",
+   "answer": "The captured brief runs 11,920 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Do I need React and Tailwind CSS to rebuild Cybersecurity Hero?",
+   "answer": "Cybersecurity Hero was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Can I keep the Cybersecurity Hero transitions and change the timings?",
+   "answer": "Entrances and state changes are in the 300ms range using cubic-bezier(0.4, 0, 0.2, 1). They are driven by state changes rather than a scroll library, and they never hold up the copy."
+  }
+ ],
+ "audience": [
+  "Take the 640x472 frame and 20px corners and 12px spacing steps from this hero section before you take anything else.",
+  "Made for content leads rewriting a hero section whose headline has to stay as long as Cybersecurity Hero's.",
+  "Retint #B04090 first and re-check it against #0A0A0F, then touch the layout underneath."
+ ],
+ "specs": [
+  {
+   "label": "Page section",
+   "value": "Hero section"
+  },
+  {
+   "label": "Sector",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Canvas size",
+   "value": "640x472 · 1.36:1"
+  },
+  {
+   "label": "Prompt text",
+   "value": "11,920 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key colour",
+   "value": "tint #B04090"
+  },
+  {
+   "label": "Type",
+   "value": "Inter"
+  },
+  {
+   "label": "Tools",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Motion spec",
+   "value": "300ms transitions and cubic-bezier(0.4, 0, 0.2, 1) easing"
+  }
+ ],
+ "related": [
+  "fastshot",
+  "forecast-center",
+  "growth-decisions",
+  "haul-footer",
+  "intelligence-layer",
+  "intelligent-operations"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 11920,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

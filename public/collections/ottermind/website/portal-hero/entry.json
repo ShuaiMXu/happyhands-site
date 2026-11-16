@@ -1,0 +1,203 @@
+{
+ "slug": "portal-hero",
+ "sourceSlug": "portal-hero",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Portal"
+ },
+ "title": "Portal",
+ "industry": "lifestyle",
+ "industryLabel": "Lifestyle",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/3eedd63d70b5ffc0.webp",
+  "still": "https://cdn.ottermind.ai/public/4b7c226ee99d5616.webp",
+  "preview": "https://cdn.ottermind.ai/public/0102fb3e31624f28.mp4",
+  "full": "https://cdn.ottermind.ai/public/be181d9b6be08c8b.mp4",
+  "aspectRatio": 1.3158,
+  "width": 800,
+  "height": 608,
+  "duration": 6.3
+ },
+ "seo": {
+  "title": "Portal Lifestyle Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for a lifestyle brand — a stats row, a 800x609 frame, glass panels and #E1836B accent. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "lifestyle website design",
+   "lifestyle hero section design",
+   "video-backed lifestyle landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Portal — Lifestyle Hero Section Design",
+ "tagline": "Hero section reference built around “A voyage through forgotten realms, where past and future intertwine”, with the layout, timings and palette written down in the brief.",
+ "summary": "Hero section reference for a lifestyle brand — a stats row, a 800x609 frame, glass panels and #E1836B accent.",
+ "about": "Portal was captured at 800x609 and kept as a specification rather than as a gallery image. The headline reads “A voyage through forgotten realms, where past and future intertwine”, and the rest of the hero section is arranged around it. The palette is black #292926 underneath, muted orange #F3BC9E for the type and red #E1836B carrying the accents, set in Inter. Delivery is React and Tailwind CSS, captured at 800x609 so the frame is fixed before any code is written. The page keeps its motion to 300ms transitions. Treat it as the brief for a lifestyle brand hero section that has to hold up under a rebuild, not just a first look.",
+ "layout": [
+  {
+   "title": "Top row: wordmark, links, one action",
+   "body": "The bar carries the wordmark, the section links and one #E1836B button, measured at 20px spacing steps and 300ms transitions so it never grows into a second header. The links are set below the wordmark in size, and the #E1836B action is the only element in the bar with any weight. Test the bar over your own media before giving it a background."
+  },
+  {
+   "title": "Weights named per role",
+   "body": "The faces are assigned roles rather than mixed: Inter carries the display and the interface together. Line height follows the size steps rather than a single global value."
+  },
+  {
+   "title": "Links collapse at one width",
+   "body": "The bar sits over the 800x609 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "The brief names the steps",
+   "body": "Nothing here is eyeballed. The spec fixes 20px spacing steps and 300ms transitions, and the rest of the layout derives from those values. The type and the layout share the same steps, so nothing drifts when one of them is substituted."
+  }
+ ],
+ "motion": [
+  {
+   "title": "One duration for the controls",
+   "body": "Motion in the controls is short and repeatable: 300ms on each state change. Because the values are short, a rebuild that slows them down is immediately visible."
+  },
+  {
+   "title": "Pointers only where they help",
+   "body": "States are handled per component (hover states on the buttons and links rather than on every card) rather than by a global animation layer. Hover and focus are specified together, so the pointer and the keyboard get the same information."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#221F1C",
+    "name": "Deep orange",
+    "role": "darkest"
+   },
+   {
+    "hex": "#F3BC9E",
+    "name": "Muted orange",
+    "role": "Headline"
+   },
+   {
+    "hex": "#E1836B",
+    "name": "Red",
+    "role": "accent"
+   },
+   {
+    "hex": "#292926",
+    "name": "Black",
+    "role": "composition"
+   }
+  ],
+  "glass": "Panels are translucent over black #292926, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "The accent is spent on red #E1836B and the rest of the composition holds black #292926.",
+   "The timing budget is state feedback rather than page choreography (300ms), so a slower rebuild reads as a different design.",
+   "Accent and ground are both named (red #E1836B on black #292926), so a brand swap moves one value."
+  ]
+ },
+ "customize": [
+  "Retint #E1836B toward your palette but keep the step against #292926; flatten the two and the primary action stops reading.",
+  "Draft the new copy to the 800x609 frame, then check that the entrance still lands on the same number of lines.",
+  "Change the copy first, then the accent, then the media: the 800x609 frame was solved in that order and reversing it costs a re-layout.",
+  "Swap #E1836B for your brand colour and re-check it against #292926, since the accent is the only place saturation is allowed."
+ ],
+ "editorial": [
+  {
+   "title": "The order behind the hero section",
+   "body": "Attention is routed rather than scattered. The page says it out loud: “A voyage through forgotten realms, where past and future intertwine”. The eye lands on the display line first, then the supporting copy, then the action. Proof, where it appears, stays a strip or a row rather than a wall of testimonials. That sequence is the design. A lifestyle reader gets the offer before the options."
+  },
+  {
+   "title": "Making the hero section yours",
+   "body": "Start with the promise, not the decoration. Rewrite “A voyage through forgotten realms, where past and future intertwine” as one sentence that names what you do, then set it in Inter at the display size the brief uses. Replace red #E1836B with your own accent and check it against black #292926 before you touch anything else. Rewrite the copy and the media before you re-colour anything."
+  },
+  {
+   "title": "Reading Portal as a spec",
+   "body": "The brief is a specification, not a mood board. It fixes 20px spacing steps and 300ms transitions, and it names the media at 800x609. That level of detail is why the design survives a rebuild: change the copy and the relationships still hold. Nothing in this hero section depends on a default."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 800x609 capture before you generate.",
+  "Set the brand first: product name, the #E1836B accent and a headline that replaces the reference's.",
+  "Drop your product name in, then replace #E1836B with your own accent and re-check the contrast.",
+  "Set your brand first: product name, the #E1836B accent and the headline that replaces the reference's.",
+  "Type the product name and the #E1836B accent before you touch the layout."
+ ],
+ "faq": [
+  {
+   "question": "Is the Portal prompt a finished spec or a starting point?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 800x609, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Can I rebuild the Portal hero section in a different stack?",
+   "answer": "Portal was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Where did the Portal design come from?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 800x609."
+  }
+ ],
+ "audience": [
+  "Made for a solo founder shipping one hero section for a lifestyle brand and no design system behind them.",
+  "People who brief a model on a hero section will use the 6,663-character prompt as the starting point.",
+  "Made for content leads rewriting a hero section whose headline has to stay as long as Portal's."
+ ],
+ "specs": [
+  {
+   "label": "Page section",
+   "value": "Hero section"
+  },
+  {
+   "label": "Category",
+   "value": "Lifestyle"
+  },
+  {
+   "label": "Format",
+   "value": "800x609 · 1.32:1"
+  },
+  {
+   "label": "Input brief",
+   "value": "6,663 characters"
+  },
+  {
+   "label": "Captured",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key colour",
+   "value": "red #E1836B"
+  },
+  {
+   "label": "Faces",
+   "value": "Inter"
+  },
+  {
+   "label": "Tools",
+   "value": "Tailwind CSS, React, Lucide icons"
+  },
+  {
+   "label": "Motion spec",
+   "value": "300ms transitions"
+  }
+ ],
+ "related": [
+  "orbit-flora",
+  "vinyl",
+  "audio-showcase",
+  "aurora-onboard",
+  "dot-hero",
+  "f1-racing-hub"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 6663,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

@@ -51,7 +51,7 @@ if (new URLSearchParams(location.search).get('provider') === 'studio') location.
 function App() {
   const readProvider = () => {
     const value = new URLSearchParams(location.search).get("provider");
-    if(value === "studio" || value === "setup") return value;
+    if(value === "studio" || value === "setup" || value === "collections") return value;
     return value === "kage" || value === "refero" || value === "design-md"
       ? "design-md"
       : value === "systems"
@@ -122,7 +122,7 @@ function App() {
   useEffect(() => {
     if (provider === "cult-ui") applyResourceMetadata(selected ? componentSeo(item) : null, lang);
     // Embedded tools do not own the parent document's resource metadata.
-    if (provider === "studio" || provider === "setup") applyResourceMetadata(null, lang);
+    if (provider === "studio" || provider === "setup" || provider === "collections") applyResourceMetadata(null, lang);
   }, [lang, provider, selected]);
   useEffect(() => {
     const handle = () => {
@@ -204,7 +204,7 @@ function App() {
         setProvider(id);setSelected("");history.pushState(null,"",`?provider=${id}`);
       }}/>
       <ResourceToolPanels active={provider} lang={lang}/>
-      {provider === "studio" || provider === "setup" ? null : provider === "systems" ? (
+      {provider === "studio" || provider === "setup" || provider === "collections" ? null : provider === "systems" ? (
         <SystemLibrary lang={lang} />
       ) : provider === "design-md" ? (
         <DesignMdLibrary lang={lang} />

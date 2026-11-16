@@ -1,0 +1,207 @@
+{
+ "slug": "visual-hero",
+ "sourceSlug": "visual-hero",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Visual Hero"
+ },
+ "title": "Visual Hero",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/17a0edf468e16329.webp",
+  "still": "https://cdn.ottermind.ai/public/b7e2172885f5c2e8.webp",
+  "preview": "https://cdn.ottermind.ai/public/5995dfb55009c9c3.mp4",
+  "full": "https://cdn.ottermind.ai/public/18217fba66bd51d1.mp4",
+  "aspectRatio": 1.3833,
+  "width": 996,
+  "height": 720,
+  "duration": 6.933
+ },
+ "seo": {
+  "title": "Visual Hero AI & SaaS Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an AI or SaaS product — fluid type, a stats row, glass panels and React and Tailwind CSS. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS hero section design",
+   "video-backed SaaS landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Visual Hero — AI & SaaS Hero Section Design",
+ "tagline": "“Forma's AI understands context, composition, and style like a creative director would” — the whole hero section is composed around that line, down to the animation timings.",
+ "summary": "Hero section reference for an AI or SaaS product — fluid type, a stats row, glass panels and React and Tailwind CSS.",
+ "about": "Read Visual Hero as a hero section spec: the values were written down before the page was built. It leads with “Forma's AI understands context, composition, and style like a creative director would” and gives that line the frame rather than shrinking it into a card. Typography is Instrument Serif, and the brief fixes the sizes rather than leaving them to a scale. Delivery is React and Tailwind CSS, captured at 996x720 so the frame is fixed before any code is written. Motion comes down to a looping video bed. If you are briefing a SaaS hero section, start from this composition and replace the subject.",
+ "layout": [
+  {
+   "title": "Navigation without a background",
+   "body": "The wordmark holds the left edge and the links run to the right of it, all of it set in Instrument Serif so the bar belongs to the page below rather than to a separate system. The bar sits over the 996x720 composition without a background of its own, so the media runs edge to edge underneath it. If your own page has more sections, group them rather than widening the bar."
+  },
+  {
+   "title": "Measured, not eyeballed",
+   "body": "Every measurement in the brief is a number you can measure back: 50px spacing steps. The brief states values rather than proportions, so the composition keeps its relationships when the copy changes length. Substitute the face or the copy, not the scale."
+  },
+  {
+   "title": "Proof in one row",
+   "body": "A compact stats strip carries the claims that would otherwise need a paragraph, which keeps the hero section from turning into a feature list. Figures are set at one weight, so the row does not rank its own statistics."
+  },
+  {
+   "title": "Links collapse at one width",
+   "body": "Focus and hover states are specified for each link rather than inherited from the browser. The bar is a handful of elements, so it rebuilds without a component library."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Scroll drives the sequence",
+   "body": "Parallax is the only scroll behaviour in the brief, which keeps the page from feeling like a sequence of separate effects. The scroll behaviour is measured against the same layout the static page uses, so nothing shifts when it is removed."
+  },
+  {
+   "title": "The loop does the ambient work",
+   "body": "The background clip runs 6.9s at 996x720 on an endless loop, muted and inline, so the page keeps moving while the reader's attention is on the copy. No scroll library is required, because the only ambient motion is the media itself. The clip is muted and inline, so the first frame is available without an interaction."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#111111",
+    "name": "Primary",
+    "role": "base surface"
+   },
+   {
+    "hex": "#FFFFFF",
+    "name": "Support",
+    "role": "panels"
+   },
+   {
+    "hex": "#A78BFA",
+    "name": "Accent",
+    "role": "accent"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Instrument Serif",
+    "weights": "Weight not fixed in the brief",
+    "role": "Title face"
+   },
+   {
+    "name": "Dirtyline",
+    "weights": "Weight not fixed in the brief",
+    "role": "Text face"
+   },
+   {
+    "name": "Barlow",
+    "weights": "Weight not fixed in the brief",
+    "role": "Fallback and supporting interface text"
+   }
+  ],
+  "notes": [
+   "The clip is one asset at 996x720 and a 6.9s loop, so the composition has a single media dependency.",
+   "Nothing sits between the type and the 996x720 clip, so a replacement has to work under the copy directly.",
+   "Media is specified at 996x720 and a 6.9s loop, so a replacement should match the crop and the loop length."
+  ]
+ },
+ "customize": [
+  "Recut your footage to the 6.9s loop, then export at 996x720 so the crop the reference specifies survives.",
+  "Keep Instrument Serif or substitute a face with the same proportions, because the brief pairs specific weights with specific sizes.",
+  "Hold the 996x720 frame when you swap the content; the composition was solved against that ratio and a wider export pushes the type off.",
+  "Rewrite “Forma's AI understands context, composition, and style like a creative director would” to the same line count; the mask reveals each line in turn."
+ ],
+ "editorial": [
+  {
+   "title": "The numbers behind the hero section",
+   "body": "Committing to 50px spacing steps trades flexibility for repeatability. That is the point of the reference: the same page in a different brand, without a new set of guesses. Nothing in this hero section depends on a default."
+  },
+  {
+   "title": "How Visual Hero sequences the first read",
+   "body": "Committing to one reading path means other paths are closed. The brief accepts that, fixes navigation, the announcement badge, the stats row and the background clip in place, and spends 50px spacing steps on making the route obvious. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "Why this composition works for SaaS",
+   "body": "If your first screen currently explains three things, this is the version that explains one. navigation, the announcement badge, the stats row and the background clip are staged in reading order, with 50px spacing steps setting the rhythm. It gives a SaaS reader the shortest honest route to the offer."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 996x720 capture before you generate.",
+  "Check your build against the reference measurements: 50px spacing steps.",
+  "Copy 50px spacing steps into your own brief before you rewrite anything else.",
+  "Keep the measurements the brief spells out: 50px spacing steps.",
+  "Pin the reference measurements before you restyle anything: 50px spacing steps."
+ ],
+ "faq": [
+  {
+   "question": "What does the brief behind Visual Hero actually contain?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 996x720, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Can I rebuild the Visual Hero hero section in a different stack?",
+   "answer": "Visual Hero was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Where did the Visual Hero design come from?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 996x720."
+  }
+ ],
+ "audience": [
+  "If three people have to edit this hero section, give content leads 50px spacing steps rather than a screenshot.",
+  "This hero section serves founders who need one screen of proof that SaaS copy can carry 6.9s of looping video.",
+  "People who brief a model on a hero section will use the 8,275-character prompt as the starting point."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Hero section"
+  },
+  {
+   "label": "Field",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Canvas size",
+   "value": "996x720 · 1.38:1"
+  },
+  {
+   "label": "Loop length",
+   "value": "6.9s loop"
+  },
+  {
+   "label": "Input brief",
+   "value": "8,275 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Fonts",
+   "value": "Instrument Serif, Dirtyline, Barlow"
+  },
+  {
+   "label": "Reference stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Motion",
+   "value": "a 6.9s media loop"
+  }
+ ],
+ "related": [
+  "intelligent-operations",
+  "intelligent-performance",
+  "intelligentx",
+  "junglemind",
+  "kresna-footer",
+  "liquid-glass-cta"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 8275,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

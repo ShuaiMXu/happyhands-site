@@ -1,0 +1,202 @@
+{
+ "slug": "creative-portfolio",
+ "sourceSlug": "creative-portfolio",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Creative Portfolio"
+ },
+ "title": "Creative Portfolio",
+ "industry": "creative",
+ "industryLabel": "Agencies & Studios",
+ "section": "portfolio",
+ "sectionLabel": "Portfolio",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/d3c39b49de9e92e9.webp",
+  "still": "https://cdn.ottermind.ai/public/25d7e625afaf548d.webp",
+  "preview": "https://cdn.ottermind.ai/public/25d7e625afaf548d.webp",
+  "full": "https://cdn.ottermind.ai/public/25d7e625afaf548d.webp",
+  "aspectRatio": 1.3675,
+  "width": 640,
+  "height": 468,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Creative Portfolio Agencies & Studios Portfolio Design & Prompt | Ottermind",
+  "description": "Portfolio reference for an agency or studio — Figtree, React and Tailwind CSS, #309ADA accent and fluid type. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "agency website design",
+   "agency portfolio page design",
+   "video-backed agency landing page",
+   "portfolio page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Creative Portfolio — Agencies & Studios Portfolio Design",
+ "tagline": "Portfolio reference built around “I craft bold brands and modern websites with purpose”, with the layout, timings and palette written down in the brief.",
+ "summary": "Portfolio reference for an agency or studio — Figtree, React and Tailwind CSS, #309ADA accent and fluid type.",
+ "about": "This is the portfolio page from Creative Portfolio, published with the brief that produced it rather than as a screenshot. It leads with “I craft bold brands and modern websites with purpose” and gives that line the frame rather than shrinking it into a card. The palette is deep green #181B17 underneath, white #DED9CF for the type and bright blue #309ADA carrying the accents, set in Figtree. The build is React and Tailwind CSS; every measurement in it is written down, which is what makes it reusable. Motion is confined to 1200ms transitions and cubic-bezier(0.16, 1, 0.3, 1). Use it as the reference when you are building an agency or studio portfolio page and want a finished composition instead of a starting point.",
+ "layout": [
+  {
+   "title": "A navigation bar that gets out of the way",
+   "body": "Links sit on one line at a single size, and the #309ADA action closes the row on the right so the eye finishes where the navigation ends. The links are set below the wordmark in size, and the #309ADA action is the only element in the bar with any weight. The bar is a handful of elements, so it rebuilds without a component library."
+  },
+  {
+   "title": "One scale for type and frame",
+   "body": "Nothing here is eyeballed. The spec fixes type from 28px to 200px, 80px spacing steps, 1200ms transitions and cubic-bezier(0.16, 1, 0.3, 1) easing, and the rest of the layout derives from those values. The list is short enough that a reviewer can check it element by element."
+  },
+  {
+   "title": "Copy first, decoration second",
+   "body": "The portfolio page is built so the copy lands before anything else: the type carries the hierarchy, the 640x468 frame holds the composition, and the supporting values stay quiet. The page is one composition at 640x468, which is why it holds together when the copy changes."
+  },
+  {
+   "title": "Top row, one action",
+   "body": "Test the bar over your own media before giving it a background. The reference was captured at 640x468."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Text arrives in pieces",
+   "body": "The entrance gives the page its arrival, and the composition is unchanged once it has run: sections reveal as they enter the viewport. Under reduced motion the element simply appears and the layout is unchanged. If the copy changes length, the entrance still reads because it works per line."
+  },
+  {
+   "title": "The page answers the scroll",
+   "body": "Content is tied to scroll position (sections reveal as they enter the viewport), so the composition changes as the reader moves rather than animating on a timer. The composition does not depend on the effect firing, so a fast scroll past it costs nothing. Test it with reduced motion on."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#F598F2",
+    "name": "Muted magenta",
+    "role": "lighter"
+   },
+   {
+    "hex": "#181B17",
+    "name": "Near-black",
+    "role": "composition"
+   },
+   {
+    "hex": "#DED9CF",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#309ADA",
+    "name": "Bright blue",
+    "role": "accent"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Figtree",
+    "weights": "28–200px",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Font roles are assigned rather than mixed here, and 28–200px is the range the whole scale works in.",
+   "The accent is spent on bright blue #309ADA and the rest of the composition holds deep green #181B17.",
+   "Transitions are specified at 1200ms, short enough that the page never feels like it is waiting for an animation."
+  ]
+ },
+ "customize": [
+  "Retime the entrance to taste. 1200ms with cubic-bezier(0.16, 1, 0.3, 1) is what the reference uses.",
+  "Swap Figtree for a face with the same x-height and cap height, then re-measure the headline block.",
+  "Replace #309ADA last, after the copy is final, and test it against #181B17 at the smallest text size on the page.",
+  "Change the copy before the colour: rewrite the Figtree paragraphs first, then check #309ADA against the media behind them."
+ ],
+ "editorial": [
+  {
+   "title": "The order behind the portfolio page",
+   "body": "Nothing here competes with the first decision. The page says it out loud: “I craft bold brands and modern websites with purpose”. The supporting material waits below the fold, and navigation, the stats row and the background clip carry the top of the page alone. A agency reader gets the offer before the options."
+  },
+  {
+   "title": "Making the portfolio page yours",
+   "body": "Start with the promise, not the decoration. Rewrite “I craft bold brands and modern websites with purpose” as one sentence that names what you do, then set it in Figtree at the display size the brief uses. Replace bright blue #309ADA with your own accent and check it against deep green #181B17 before you touch anything else. Keep the media crop; it is doing as much work as the type."
+  },
+  {
+   "title": "Reading Creative Portfolio as a spec",
+   "body": "You cannot fix a composition by eye when two people are rebuilding it. The brief removes the argument: type from 28px to 200px, 80px spacing steps, 1200ms transitions and cubic-bezier(0.16, 1, 0.3, 1) easing, stated once. Nothing in this portfolio page depends on a default."
+  }
+ ],
+ "steps": [
+  "Set the brand first: product name, the #309ADA accent and a headline that replaces the reference's.",
+  "Drop your product name in, then replace #309ADA with your own accent and re-check the contrast.",
+  "Type the product name and the #309ADA accent before you touch the layout.",
+  "Set your brand first: product name, the #309ADA accent and the headline that replaces the reference's.",
+  "Keep the measurements the brief spells out: type from 28px to 200px, 80px spacing steps and 1200ms transitions."
+ ],
+ "faq": [
+  {
+   "question": "How long is the prompt behind Creative Portfolio?",
+   "answer": "The captured brief runs 5,639 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "How much of Creative Portfolio depends on React and Tailwind CSS?",
+   "answer": "Creative Portfolio was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "How much of Creative Portfolio is animated?",
+   "answer": "Transitions are attached to interface states rather than to a scroll timeline, and they resolve in the 1200ms range using cubic-bezier(0.16, 1, 0.3, 1). The brief records the values so a port can match them without guessing."
+  }
+ ],
+ "audience": [
+  "Founders who brief an agency will use the 640x468 frame as the acceptance test for the first round.",
+  "In-house squads extending this portfolio page who need type from 28px to 200px and 80px spacing steps carried into the new blocks unchanged.",
+  "People who brief a model on a portfolio page will use the 5,639-character prompt as the starting point."
+ ],
+ "specs": [
+  {
+   "label": "Page part",
+   "value": "Portfolio"
+  },
+  {
+   "label": "Field",
+   "value": "Agencies & Studios"
+  },
+  {
+   "label": "Canvas size",
+   "value": "640x468 · 1.37:1"
+  },
+  {
+   "label": "Prompt",
+   "value": "5,639 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent hex",
+   "value": "bright blue #309ADA"
+  },
+  {
+   "label": "Typefaces",
+   "value": "Figtree · 28–200px"
+  },
+  {
+   "label": "Tech stack",
+   "value": "Tailwind CSS, React, Vite"
+  },
+  {
+   "label": "Animation",
+   "value": "1200ms transitions and cubic-bezier(0.16, 1, 0.3, 1) easing"
+  }
+ ],
+ "related": [
+  "innovation-landing",
+  "launchex-about",
+  "stories-in-light-hero",
+  "neurolink-memorial-hero",
+  "portiva-hero",
+  "adventra-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 5639,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

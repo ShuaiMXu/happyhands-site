@@ -1,0 +1,198 @@
+{
+ "slug": "cliently-agency-testimonials",
+ "sourceSlug": "lp-093-6a036ef211f6ab71b2b946a7",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "Cliently Testimonials"
+ },
+ "title": "Cliently Testimonials",
+ "industry": "creative",
+ "industryLabel": "Agencies & Studios",
+ "section": "testimonials",
+ "sectionLabel": "Testimonials",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/f49242e4e014cdf6.webp",
+  "still": "https://cdn.ottermind.ai/public/07822c31958ec252.webp",
+  "preview": "https://cdn.ottermind.ai/public/7d0d19370ad3278d.mp4",
+  "full": "https://cdn.ottermind.ai/public/477a3a9a3eaeb4a2.mp4",
+  "aspectRatio": 1.3793,
+  "width": 1920,
+  "height": 1392,
+  "duration": 10.4
+ },
+ "seo": {
+  "title": "Cliently Testimonials Testimonials Section Design & Prompt | Ottermind",
+  "description": "Testimonials reference for an agency or studio — 1500ms transitions, #18181B base, React and Tailwind CSS and a word-by-word headline. Copy the prompt or open it staged in.",
+  "keywords": [
+   "agency website design",
+   "agency testimonials section design",
+   "minimal agency landing page",
+   "testimonials section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Cliently Testimonials — Agencies & Studios Testimonials Section Design",
+ "tagline": "Testimonials reference built around “Here's what they shared about their experience working with our team”, with the layout, timings and palette written down in the brief.",
+ "summary": "Testimonials reference for an agency or studio — 1500ms transitions, #18181B base, React and Tailwind CSS and a word-by-word headline.",
+ "about": "Cliently Testimonials solves the testimonials section problem for an agency or studio with a single captured brief. The page's own headline reads “Here's what they shared about their experience working with our team”, and the composition is built around those exact words. The palette is black #18181B underneath and white #F4F4F5 for the type. Delivery is React and Tailwind CSS, captured at 1920x1392 so the frame is fixed before any code is written. The brief spends its motion budget on 1500ms transitions and a looping video bed. Take it on when the testimonials section needs a decided order before any new sections are added.",
+ "layout": [
+  {
+   "title": "Top row: wordmark, links, one action",
+   "body": "The bar overlays the testimonials section instead of pushing it down, so the composition keeps the full height of the first screen. The bar sits over the 1920x1392 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "Measured, not eyeballed",
+   "body": "The list stays short (type from 14px to 56px, 46px spacing steps and 1500ms transitions), which is why the whole system can be checked by hand. Values are quoted from the captured prompt rather than inferred, so they survive a re-render. The numbers are the design; the rest is arrangement."
+  },
+  {
+   "title": "A navigation bar that gets out of the way",
+   "body": "Focus and hover states are specified for each link rather than inherited from the browser. If your own page has more sections, group them rather than widening the bar."
+  },
+  {
+   "title": "The brief names the steps",
+   "body": "Spacing is quoted the same way (type from 14px to 56px, 46px spacing steps and 1500ms transitions), not as a scale that grows on its own."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Short, matched timings",
+   "body": "Motion in the controls is short and repeatable: 1500ms on each state change. The quoted timing covers state changes, so the feedback is the part of the motion that is specified. Carry the durations into your build."
+  },
+  {
+   "title": "A loop, not a timeline",
+   "body": "One 10.4s clip is the entire ambient layer: it plays behind the copy, loops without a visible cut and never reacts to the pointer. The loop is cropped to cover, which means the composition does not depend on a particular frame size. Shoot or export at 1920x1392 or wider."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#18181B",
+    "name": "Near-black",
+    "role": "composition"
+   },
+   {
+    "hex": "#71717A",
+    "name": "Gray",
+    "role": "surface"
+   },
+   {
+    "hex": "#F4F4F5",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#E4E4E7",
+    "name": "White — darker",
+    "role": "lighter step"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Face not specified",
+    "weights": "14–56px",
+    "role": "The brief fixes the type scale but leaves the face to the build"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 1500ms, which is the value to keep when the palette changes.",
+   "Media is specified at 1920x1392 and a 10.4s loop, so a replacement should match the crop and the loop length.",
+   "The clip is one asset at 1920x1392 and a 10.4s loop, so the composition has a single media dependency."
+  ]
+ },
+ "customize": [
+  "Swap in your own headline where “Here's what they shared about their experience working with our team” sits and keep the line breaks, because the entrance animates per line.",
+  "Hold the testimonials section to one screen on desktop; the brief never asks the reader to scroll past the fold.",
+  "Swap the clip for your own footage at 1920x1392 or wider, keep it muted, and match the 10.4s loop point.",
+  "Replace “Here's what they shared about their experience working with our team” with your own line and keep the same number of words, because the brief sizes the type for that rhythm."
+ ],
+ "editorial": [
+  {
+   "title": "How the testimonials section reflows",
+   "body": "Compared with a mobile layout that hides sections, this one keeps them and changes their shape: the scale is fluid rather than stepped. Autoplay and motion are handled honestly, so the page still communicates when they are unavailable."
+  },
+  {
+   "title": "The order behind the testimonials section",
+   "body": "You could shuffle these blocks and the page would still load. It would stop reading as an argument, though: navigation, the headline, the client row and the card grid are a sequence, and type from 14px to 56px and 46px spacing steps only work in that order. A agency reader gets the offer before the options."
+  },
+  {
+   "title": "What to change first in Cliently Testimonials",
+   "body": "If your brand runs a heavier palette, test it against the frame before you commit. black #18181B carries the page, so a darker accent needs more contrast than the reference uses. Substitution is cheaper than composition, and that is the point."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1920x1392 capture before you generate.",
+  "Pin the reference measurements before you restyle anything: type from 14px to 56px, 46px spacing steps and 1500ms transitions.",
+  "Check your build against the reference measurements: type from 14px to 56px, 46px spacing steps and 1500ms transitions.",
+  "Keep the measurements the brief spells out: type from 14px to 56px, 46px spacing steps and 1500ms transitions.",
+  "Copy type from 14px to 56px, 46px spacing steps and 1500ms transitions into your own brief before you rewrite anything else."
+ ],
+ "faq": [
+  {
+   "question": "What can I do with the Cliently Testimonials brief once I have it?",
+   "answer": "Everything quoted on the page comes from the captured 4,333-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "Is the Cliently Testimonials prompt a finished spec or a starting point?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1920x1392, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "How much of Cliently Testimonials depends on React and Tailwind CSS?",
+   "answer": "Cliently Testimonials was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  }
+ ],
+ "audience": [
+  "Teams building an agency or studio testimonials section who want the measured detail (type from 14px to 56px and 46px spacing steps) rather than a screenshot to copy.",
+  "Studio leads who run several projects at once will use this testimonials section as the pattern every other page copies.",
+  "Product teams writing their own Testimonials copy who need every line to keep the length the display type was sized for."
+ ],
+ "specs": [
+  {
+   "label": "Block",
+   "value": "Testimonials"
+  },
+  {
+   "label": "Category",
+   "value": "Agencies & Studios"
+  },
+  {
+   "label": "Canvas",
+   "value": "1920x1392 · 1.38:1"
+  },
+  {
+   "label": "Runtime",
+   "value": "10.4s loop"
+  },
+  {
+   "label": "Brief",
+   "value": "4,333 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Reference stack",
+   "value": "Tailwind CSS, React, Lucide icons"
+  },
+  {
+   "label": "Transitions",
+   "value": "1500ms transitions and a 10.4s media loop"
+  }
+ ],
+ "related": [
+  "launchex-about",
+  "stories-in-light-hero",
+  "neurolink-memorial-hero",
+  "portiva-hero",
+  "adventra-hero",
+  "averra-testimonial-slider"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 4333,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

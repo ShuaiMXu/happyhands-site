@@ -1,0 +1,202 @@
+{
+ "slug": "bloom-ai-hero",
+ "sourceSlug": "bloom-ai-hero",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Bloom AI"
+ },
+ "title": "Bloom AI",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/d94c746d3a879be1.webp",
+  "still": "https://cdn.ottermind.ai/public/82d470500de69186.webp",
+  "preview": "https://cdn.ottermind.ai/public/8e2e6e06d7e6b4be.mp4",
+  "full": "https://cdn.ottermind.ai/public/18e5cf4028569732.mp4",
+  "aspectRatio": 1.4184,
+  "width": 800,
+  "height": 564,
+  "duration": 4.9
+ },
+ "seo": {
+  "title": "Bloom AI AI & SaaS Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an AI or SaaS product — a stats row, #030E1A base, Poppins and #2E5648 accent. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS hero section design",
+   "video-backed SaaS landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Bloom AI — AI & SaaS Hero Section Design",
+ "tagline": "Hero section reference built around “Innovating the spirit of bloom AI”, with the layout, timings and palette written down in the brief.",
+ "summary": "Hero section reference for an AI or SaaS product — a stats row, #030E1A base, Poppins and #2E5648 accent.",
+ "about": "Bloom AI is the hero section reference for an AI or SaaS product, and the brief behind it is a full build spec rather than a mood board. The page's own headline reads “Innovating the spirit of bloom AI”, and the composition is built around those exact words. The palette runs deep blue #030E1A underneath, muted green #AAD9C3 for the type and green #2E5648 carrying the accents, and the type is Poppins. The build is React and Lucide icons; every measurement in it is written down, which is what makes it reusable. Treat it as the brief for an AI or SaaS product hero section that has to hold up under a rebuild, not just a first look.",
+ "layout": [
+  {
+   "title": "Links before the action",
+   "body": "The bar is the quietest part of the composition: wordmark, a short row of links and one #2E5648 action, all held at the smallest type step in the brief. The links are set below the wordmark in size, and the #2E5648 action is the only element in the bar with any weight."
+  },
+  {
+   "title": "Every measurement is written down",
+   "body": "The layout is solved against fixed values (50px spacing steps), which is what keeps the first screen composed at any width. The smallest and largest values in that list set the range the composition works in."
+  },
+  {
+   "title": "Content split into panels",
+   "body": "The grid does the reading order for you: panels of equal weight, one idea each, set in Poppins at a small size so the structure stays visible. Panel order is the reading order, so nothing depends on position cues."
+  },
+  {
+   "title": "Structure in one screen",
+   "body": "The whole composition fits one screen and is delivered as React and Lucide icons, with the copy, the media and the controls named in the brief. The page is one composition at 800x564, which is why it holds together when the copy changes."
+  }
+ ],
+ "motion": [
+  {
+   "title": "A small interactive surface",
+   "body": "Every interactive element does one thing (hover states on the buttons and links rather than on every card), which is what keeps the states predictable. Press states are specified as well as hover, so a tap gives the same confirmation as a click. Keep the pointer effects on the controls."
+  },
+  {
+   "title": "Static by design",
+   "body": "The brief leaves animation out and lets the 800x564 layout carry the page, with hover and press states the only changes. The composition holds still, so the hierarchy has to carry the page and it does. No scroll timelines needed."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#02060F",
+    "name": "Near-black",
+    "role": "darkest"
+   },
+   {
+    "hex": "#AAD9C3",
+    "name": "Muted green",
+    "role": "Headline"
+   },
+   {
+    "hex": "#030E1A",
+    "name": "Near-black — lighter",
+    "role": "composition"
+   },
+   {
+    "hex": "#2E5648",
+    "name": "Green",
+    "role": "accent"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Poppins",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Accent use is limited to green #2E5648; everything else sits on deep blue #030E1A.",
+   "Accent and ground are both named (green #2E5648 on deep blue #030E1A), so a brand swap moves one value.",
+   "The accent is spent on green #2E5648 and the rest of the composition holds deep blue #030E1A."
+  ]
+ },
+ "customize": [
+  "Set your own headline in Poppins at the size the reference uses, so the hero section keeps the same optical weight.",
+  "Write the replacement headline first, then confirm it still fits the 800x564 frame at the reference's type size.",
+  "Load your own face beside Poppins and compare the headline at full width before committing to the swap.",
+  "Hold the 800x564 frame when you swap the content; the composition was solved against that ratio and a wider export pushes the type off."
+ ],
+ "editorial": [
+  {
+   "title": "What an AI or SaaS product gains here",
+   "body": "The trade-off is density: this hero section says less on the first screen than a feature-led layout would. What it keeps is the reading order, and navigation, the announcement badge, the stats row, the card grid and the background clip do the work a longer page would spread out. Bloom AI states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "The numbers behind the hero section",
+   "body": "The hero section is measured, not eyeballed. 50px spacing steps come from the brief, and the layout is arranged to those steps rather than nudged into place. Nothing in this hero section depends on a default."
+  },
+  {
+   "title": "Making the hero section yours",
+   "body": "Re-skinning the palette first is the usual mistake. It changes the mood without touching the composition, and 50px spacing steps still carry the layout; do the copy and media first and the palette last. Rewrite the copy and the media before you re-colour anything."
+  }
+ ],
+ "steps": [
+  "Load the prompt in Studio and check that it names React and Lucide icons before you press send.",
+  "Stage the prompt in Studio and read it once against the 800x564 capture before you generate.",
+  "Drop your product name in, then replace #2E5648 with your own accent and re-check the contrast.",
+  "Set the brand first: product name, the #2E5648 accent and a headline that replaces the reference's.",
+  "Set your brand first: product name, the #2E5648 accent and the headline that replaces the reference's."
+ ],
+ "faq": [
+  {
+   "question": "What do I get when I copy the Bloom AI brief?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 800x564, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Can I rebuild the Bloom AI hero section in a different stack?",
+   "answer": "No. The brief is a specification, not a dependency list. It was written for React and Lucide icons, but the same composition rebuilds in whatever you already use. The stack is named so you know how the reference was made."
+  },
+  {
+   "question": "Can I ship a page rebuilt from Bloom AI without crediting it?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 800x564."
+  }
+ ],
+ "audience": [
+  "Engineers who need the hero section to survive a slow connection will use 800x564 and the type scale as the weight budget.",
+  "In-house squads extending this hero section who need 50px spacing steps carried into the new blocks unchanged.",
+  "People who brief a model on a hero section will use the 3,900-character prompt as the starting point."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Hero section"
+  },
+  {
+   "label": "Category",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Canvas size",
+   "value": "800x564 · 1.42:1"
+  },
+  {
+   "label": "Source text",
+   "value": "3,900 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key colour",
+   "value": "green #2E5648"
+  },
+  {
+   "label": "Faces",
+   "value": "Poppins"
+  },
+  {
+   "label": "Stack",
+   "value": "React, Lucide icons"
+  },
+  {
+   "label": "Motion spec",
+   "value": "state changes only"
+  }
+ ],
+ "related": [
+  "deepthink",
+  "design-rocket-email-hero",
+  "digitwist-hero",
+  "email-landing-page",
+  "equilibrium",
+  "fastshot"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 3900,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

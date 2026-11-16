@@ -1,0 +1,203 @@
+{
+ "slug": "orbit-flora",
+ "sourceSlug": "orbit-flora",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Orbit Flora"
+ },
+ "title": "Orbit Flora",
+ "industry": "lifestyle",
+ "industryLabel": "Lifestyle",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/8e914716b9976cff.webp",
+  "still": "https://cdn.ottermind.ai/public/1ec445ced05927b9.webp",
+  "preview": "https://cdn.ottermind.ai/public/3dc9ca541e2b7f8e.mp4",
+  "full": "https://cdn.ottermind.ai/public/79a1d7035b83da11.mp4",
+  "aspectRatio": 1.3463,
+  "width": 1454,
+  "height": 1080,
+  "duration": 8.233
+ },
+ "seo": {
+  "title": "Orbit Flora Lifestyle Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for a lifestyle brand — glass panels, #161616 base, looping video and fluid type. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "lifestyle website design",
+   "lifestyle landing page design",
+   "glass lifestyle landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Orbit Flora — Lifestyle Landing Page Design",
+ "tagline": "Landing page reference built on #161616 and magenta #FD86DB, set in Inter and measured against 55vh sections.",
+ "summary": "Landing page reference for a lifestyle brand — glass panels, #161616 base, looping video and fluid type.",
+ "about": "Read Orbit Flora as a landing page spec: the values were written down before the page was built. The palette runs #161616 underneath, #FFFFFF for the type and magenta #FD86DB carrying the accents, and the type is Inter. Delivery is a single component, captured at 1454x1080 so the frame is fixed before any code is written. Motion is limited to 620ms transitions, cubic-bezier(.16, 1.3, 1) and a looping video bed. If you are briefing a lifestyle landing page, start from this composition and replace the subject.",
+ "layout": [
+  {
+   "title": "Top row: wordmark, links, one action",
+   "body": "The row spends its contrast in one place: the #FD86DB action, with the wordmark and the links held back on the ink colour. Under 900px the links collapse into a full-screen overlay. Labels are short enough to fit one line at 900px, and the active item is marked with weight rather than with a pill. The bar is a handful of elements, so it rebuilds without a component library."
+  },
+  {
+   "title": "Media behind the type",
+   "body": "The 1454x1080 video runs 8.2s on a loop behind the copy, muted and inline, with no tint layer between the two. The loop is short enough (8.2s) that the eye reads it as texture rather than as a timeline."
+  },
+  {
+   "title": "Fluid where it needs to be",
+   "body": "Type is sized with a clamp between 57px and 34px rather than fixed steps, so the display line stays proportionate between breakpoints instead of jumping. The type changes size, not role, as the viewport narrows."
+  },
+  {
+   "title": "Display size does the talking",
+   "body": "The faces are assigned roles rather than mixed: Inter carries the display and the interface together. The caption step is small enough to sit under a figure without changing the rhythm of the page."
+  }
+ ],
+ "motion": [
+  {
+   "title": "A canvas, not an image",
+   "body": "A WebGL canvas is the page's only spectacle, and the interface is arranged not to compete with it. Because the scene is live, the layout can be resized without a second set of assets."
+  },
+  {
+   "title": "One duration for the controls",
+   "body": "Transitions are specified at 620ms on cubic-bezier(.16, 1.3, 1), which is the timing the controls are held to. Every state change names a value, so the browser default is never used."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#161616",
+    "name": "Near-black",
+    "role": "panels"
+   },
+   {
+    "hex": "#FFFFFF",
+    "name": "Tint",
+    "role": "Headline"
+   },
+   {
+    "hex": "#FFC5DC",
+    "name": "Muted red",
+    "role": "lighter"
+   },
+   {
+    "hex": "#FD86DB",
+    "name": "Magenta",
+    "role": "accent"
+   }
+  ],
+  "glass": "Panels are translucent over #161616, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Media is specified at 1454x1080 and a 8.2s loop, so a replacement should match the crop and the loop length.",
+   "The clip is one asset at 1454x1080 and a 8.2s loop, so the composition has a single media dependency.",
+   "Accent use is limited to magenta #FD86DB; everything else sits on #161616."
+  ]
+ },
+ "customize": [
+  "Retune #FD86DB for your brand only after the Inter copy is final, and re-check the contrast on the darkest band.",
+  "Retint #FD86DB toward your palette but keep the step against #161616; flatten the two and the primary action stops reading.",
+  "Replace the copy in the Inter stack first, then re-check the #FD86DB accent against the media behind it.",
+  "Retime the entrance to your own 620ms, but keep cubic-bezier(.16, 1.3, 1) as the curve, because the easing is what reads as this design."
+ ],
+ "editorial": [
+  {
+   "title": "How Orbit Flora sequences the first read",
+   "body": "A feature-led layout lists what the product does; this one routes the reader to a single decision. The route is visible in navigation, the announcement badge and the stats row and in how 55vh sections and 34px spacing steps space them. A lifestyle reader gets the offer before the options."
+  },
+  {
+   "title": "Making the landing page yours",
+   "body": "The composition is the reusable part and the subject is yours. Keep 55vh sections and 34px spacing steps and replace the words, the media and the brand marks. The frame and the scale are what to leave alone."
+  },
+  {
+   "title": "What a lifestyle brand gains here",
+   "body": "The reason this works for a lifestyle brand is that it never asks the reader to assemble the message. Layout, type and colour are decided (#161616 and magenta #FD86DB, set in Inter), so the first screen reads as a finished argument rather than a pile of parts. It gives a lifestyle reader the shortest honest route to the offer."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1454x1080 capture before you generate.",
+  "Drop your product name in, then replace #FD86DB with your own accent and re-check the contrast.",
+  "Set the brand first: product name, the #FD86DB accent and a headline that replaces the reference's.",
+  "Type the product name and the #FD86DB accent before you touch the layout.",
+  "Set your brand first: product name, the #FD86DB accent and the headline that replaces the reference's."
+ ],
+ "faq": [
+  {
+   "question": "Do I need a single component to rebuild Orbit Flora?",
+   "answer": "Orbit Flora was built in a single component, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What can I do with the Orbit Flora brief once I have it?",
+   "answer": "Everything quoted on the page comes from the captured 9,402-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "What do I get when I copy the Orbit Flora brief?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1454x1080, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  }
+ ],
+ "audience": [
+  "Studio teams briefing a build and looking for cubic-bezier(.16, 1.3, 1) easing to react to.",
+  "Quote a single component in the handoff note so the next build does not have to re-derive it from the page.",
+  "Made for studios that have to explain 900px behaviour to a client without building a prototype first."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Landing page"
+  },
+  {
+   "label": "Field",
+   "value": "Lifestyle"
+  },
+  {
+   "label": "Viewport",
+   "value": "1454x1080 · 1.35:1"
+  },
+  {
+   "label": "Loop",
+   "value": "8.2s loop"
+  },
+  {
+   "label": "Prompt text",
+   "value": "9,402 characters"
+  },
+  {
+   "label": "Date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent hex",
+   "value": "magenta #FD86DB"
+  },
+  {
+   "label": "Faces",
+   "value": "Inter"
+  },
+  {
+   "label": "Timing",
+   "value": "620ms transitions, cubic-bezier(.16, 1.3, 1) easing and a 8.2s media loop"
+  }
+ ],
+ "related": [
+  "orbis-hello",
+  "portal-hero",
+  "vinyl",
+  "audio-showcase",
+  "aurora-onboard",
+  "dot-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 9402,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

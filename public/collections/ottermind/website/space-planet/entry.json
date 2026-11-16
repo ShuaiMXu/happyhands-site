@@ -1,0 +1,207 @@
+{
+ "slug": "space-planet",
+ "sourceSlug": "space-planet",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Space planet"
+ },
+ "title": "Space planet",
+ "industry": "education",
+ "industryLabel": "Education & Community",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/fc52b24396b15467.webp",
+  "still": "https://cdn.ottermind.ai/public/f6fa2e266d4e22a7.webp",
+  "preview": "https://cdn.ottermind.ai/public/5564df4ba9d7109e.mp4",
+  "full": "https://cdn.ottermind.ai/public/623e6bed99f54e7d.mp4",
+  "aspectRatio": 1.3521,
+  "width": 1920,
+  "height": 1420,
+  "duration": 6.925
+ },
+ "seo": {
+  "title": "Space planet Education & Community Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an education or community brand — a stats row, Poppins and one self-contained HTML file. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "education website design",
+   "education hero section design",
+   "glass education landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Space planet — Education & Community Hero Section Design",
+ "tagline": "Hero section reference built on tone #071227 and tint #5FD0E1, set in Poppins and measured against 100vh sections.",
+ "summary": "Hero section reference for an education or community brand — a stats row, Poppins and one self-contained HTML file.",
+ "about": "Space planet keeps its decision trail: the brief that produced this hero section runs 29,105 characters. The palette runs tone #071227 underneath, #FFFFFF for the type and tint #5FD0E1 carrying the accents, and the type is Poppins. Delivery is one self-contained HTML file, captured at 1920x1420 so the frame is fixed before any code is written. Motion is 6s transitions, cubic-bezier(.22,1.36,1) and a looping video bed, kept quiet enough that the copy still leads. Use it as the reference when you are building an education or community brand hero section and want a finished composition instead of a starting point.",
+ "layout": [
+  {
+   "title": "Top row: wordmark, links, one action",
+   "body": "The row spends its contrast in one place: the #5FD0E1 action, with the wordmark and the links held back on the ink colour. Under 500px the links collapse into a full-screen overlay. Labels are short enough to fit one line at 500px, and the active item is marked with weight rather than with a pill. Keep the row to one line."
+  },
+  {
+   "title": "Media behind the type",
+   "body": "The brief specifies the video at 1920x1420 with a loop of 6.9s, and every text element is placed against that frame. Export at 1920x1420 or wider and the cover crop keeps working. Export at 1920x1420 or wider to keep the crop honest."
+  },
+  {
+   "title": "Weights named per role",
+   "body": "The size steps and tracking in the brief are what give this its tone: Poppins at a tight display size, then a clear drop to the supporting copy. The display face is used at one size only, so it never competes with itself."
+  },
+  {
+   "title": "The bar shares the page grid",
+   "body": "Below 500px the links collapse instead of wrapping onto a second line."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Ambient motion without a scroll library",
+   "body": "Ambient movement comes from the 6.9s 1920x1420 loop rather than from scroll effects, which keeps the page calm and the type readable. Nothing else on the page animates continuously, so the media is the only thing asking for attention."
+  },
+  {
+   "title": "Timing kept in the brief",
+   "body": "Every state change in the specification has a duration attached: transitions settle around 6s on cubic-bezier(.22,1.36,1). Nothing is left at the browser default, which is why the page feels authored rather than animated. Easing is specified alongside the duration (6s), so a rebuild cannot quietly substitute a different feel. Carry the durations into your build."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#FFFFFF",
+    "name": "Tint",
+    "role": "Headline"
+   },
+   {
+    "hex": "#79DCE8",
+    "name": "Cyan",
+    "role": "lighter"
+   },
+   {
+    "hex": "#5FD0E1",
+    "name": "Tint — darker",
+    "role": "accent"
+   },
+   {
+    "hex": "#071227",
+    "name": "Tone",
+    "role": "composition"
+   }
+  ],
+  "glass": "Panels are translucent over tone #071227, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Poppins",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "The layout shifts at max-width 500px and max-width 579px, so the narrow composition is designed rather than inherited.",
+   "The timing budget is state feedback rather than page choreography (6s), so a slower rebuild reads as a different design.",
+   "Accent use is limited to tint #5FD0E1; everything else sits on tone #071227."
+  ]
+ },
+ "customize": [
+  "Change the copy first, then the accent, then the media: the 1920x1420 frame was solved in that order and reversing it costs a re-layout.",
+  "Change #5FD0E1 for your brand accent and re-check it against #071227, because the accent is the only saturated value in this composition.",
+  "Replace the copy in the Poppins stack first, then re-check the #5FD0E1 accent against the media behind it.",
+  "Keep the 1920x1420 frame when you swap the content, because the composition was solved against that ratio."
+ ],
+ "editorial": [
+  {
+   "title": "What this hero section gets right",
+   "body": "Space planet is the hero section reference for an education or community brand, and it answers the problem that audience actually has. The palette stays disciplined (tone #071227 and tint #5FD0E1) and the type is set in Poppins, so nothing in the composition depends on a borrowed trend. When you brief a build, this is the part worth copying: one promise at display size, with the supporting detail held below it. Space planet states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "How Space planet sequences the first read",
+   "body": "One screen, one action, and navigation, the headline, the announcement badge, the stats row and the feature list between them. The brief fixes that order rather than leaving the first screen to a stack of sections. A education reader gets the offer before the options."
+  },
+  {
+   "title": "Reading Space planet as a spec",
+   "body": "The cost of a fixed scale is less room to improvise. 100vh sections and 72px spacing steps keep the composition coherent, but a new element has to be fitted rather than placed. Nothing in this hero section depends on a default."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1920x1420 capture before you generate.",
+  "Drop your product name in, then replace #5FD0E1 with your own accent and re-check the contrast.",
+  "Set the brand first: product name, the #5FD0E1 accent and a headline that replaces the reference's.",
+  "Set your brand first: product name, the #5FD0E1 accent and the headline that replaces the reference's.",
+  "Type the product name and the #5FD0E1 accent before you touch the layout."
+ ],
+ "faq": [
+  {
+   "question": "How much of Space planet depends on one self-contained HTML file?",
+   "answer": "Space planet was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What do I get when I copy the Space planet brief?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1920x1420, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Where did the Space planet design come from?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1920x1420."
+  }
+ ],
+ "audience": [
+  "Studio teams briefing a build and looking for cubic-bezier(.22,1.36,1) easing to react to.",
+  "The hero section is aimed at teams that already know one self-contained HTML file and only need one self-contained HTML file written down.",
+  "Contract teams taking over this hero section who need a 500px breakpoint pinned in the repo before the first commit."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Hero section"
+  },
+  {
+   "label": "Field",
+   "value": "Education & Community"
+  },
+  {
+   "label": "Viewport",
+   "value": "1920x1420 · 1.35:1"
+  },
+  {
+   "label": "Loop",
+   "value": "6.9s loop"
+  },
+  {
+   "label": "Prompt",
+   "value": "29,105 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key tone",
+   "value": "tint #5FD0E1"
+  },
+  {
+   "label": "Type scale",
+   "value": "Poppins"
+  },
+  {
+   "label": "Stack",
+   "value": "vanilla JS, single HTML file"
+  },
+  {
+   "label": "Animation",
+   "value": "6s transitions, cubic-bezier(.22,1.36,1) easing and a 6.9s media loop"
+  }
+ ],
+ "related": [
+  "trueearth",
+  "church-community",
+  "codenest-hero",
+  "designpro-hero",
+  "fun-404-page",
+  "lumina-footer"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 29105,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

@@ -1,0 +1,198 @@
+{
+ "slug": "luminex-hero",
+ "sourceSlug": "luminex-hero",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Luminex"
+ },
+ "title": "Luminex",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/010f99930c004438.webp",
+  "still": "https://cdn.ottermind.ai/public/e0e5368652cf3363.webp",
+  "preview": "https://cdn.ottermind.ai/public/5cafd3bfce4034cb.mp4",
+  "full": "https://cdn.ottermind.ai/public/31a5be57843d288b.mp4",
+  "aspectRatio": 1.3333,
+  "width": 800,
+  "height": 600,
+  "duration": 6.09
+ },
+ "seo": {
+  "title": "Luminex AI & SaaS Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an AI or SaaS product — #143F62 accent, #010A12 base, a 800x600 frame and React. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS hero section design",
+   "video-backed SaaS landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Luminex — AI & SaaS Hero Section Design",
+ "tagline": "Hero section reference for an AI or SaaS product, captured at 800x600 with the layout, timings and palette specified in the brief.",
+ "summary": "Hero section reference for an AI or SaaS product — #143F62 accent, #010A12 base, a 800x600 frame and React.",
+ "about": "Luminex was captured at 800x600 and kept as a specification rather than as a gallery image. The palette is deep blue #010A12 underneath, white #CFDDD8 for the type and blue #143F62 carrying the accents. Delivery is React — one page, no plugin, no build tooling between you and the design. Keep it open while you write: the 162-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "A bar with nothing spare",
+   "body": "A short run of links and a single action sit over the hero section, held at a 800x600 frame so the bar never competes with the composition behind it. The links are set below the wordmark in size, and the #143F62 action is the only element in the bar with any weight. Design the collapsed state before adding a sixth link."
+  },
+  {
+   "title": "Navigation held to one row",
+   "body": "Copy this pattern when you need navigation that survives a loud first screen."
+  },
+  {
+   "title": "One accent, used sparingly",
+   "body": "Blue #143F62 is the only saturated value in the composition; everything else sits on deep blue #010A12. Buttons, links and small highlights borrow it, which is what keeps a busy first screen readable. Everything else sits on deep blue #010A12, which is what keeps a saturated palette legible."
+  },
+  {
+   "title": "Copy first, decoration second",
+   "body": "The hero section is built so the copy lands before anything else: the type carries the hierarchy, the 800x600 frame holds the composition, and the supporting values stay quiet. The page is one composition at 800x600, which is why it holds together when the copy changes."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Motion that stays out of the way",
+   "body": "There is no scroll library here: the 800x600 composition holds still and only the elements that respond to you move. Only the elements that respond to the pointer move."
+  },
+  {
+   "title": "Static by design",
+   "body": "The brief leaves animation out and lets the 800x600 layout carry the page, with hover and press states the only changes. Stillness is a valid choice."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#000000",
+    "name": "Near-black",
+    "role": "darkest"
+   },
+   {
+    "hex": "#CFDDD8",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#010A12",
+    "name": "Near-black — lighter",
+    "role": "composition"
+   },
+   {
+    "hex": "#143F62",
+    "name": "Blue",
+    "role": "accent"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Face not specified",
+    "weights": "Sizes and weights only",
+    "role": "The brief fixes the type scale but leaves the face to the build"
+   }
+  ],
+  "notes": [
+   "The accent is spent on blue #143F62 and the rest of the composition holds deep blue #010A12.",
+   "Accent and ground are both named (blue #143F62 on deep blue #010A12), so a brand swap moves one value.",
+   "Accent use is limited to blue #143F62; everything else sits on deep blue #010A12."
+  ]
+ },
+ "customize": [
+  "Read the brief value by value against the 800x600 capture before you edit anything; the numbers are the part that is easiest to lose.",
+  "Replace #143F62 last, after the copy is final, and test it against #010A12 at the smallest text size on the page.",
+  "Swap #143F62 for your brand colour and re-check it against #010A12, since the accent is the only place saturation is allowed.",
+  "Draft the new copy to the 800x600 frame, then check that the entrance still lands on the same number of lines."
+ ],
+ "editorial": [
+  {
+   "title": "The order behind the hero section",
+   "body": "Compare the top of this page with a typical SaaS landing screen. Both carry a headline and an action; here navigation sit in a fixed order instead of competing at the same weight. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "How the hero section reflows",
+   "body": "Responsive here means the scale changes, not the hierarchy: the scale is fluid rather than stepped. Text stays above the fold, controls stay large enough to tap, and reduced motion is honoured. Autoplay and motion are handled honestly, so the page still communicates when they are unavailable."
+  },
+  {
+   "title": "What to change first in Luminex",
+   "body": "One line, one font, one accent: those three substitutions change the design most. a 800x600 frame are the values that should not move. Rewrite the display line before you touch the colour."
+  }
+ ],
+ "steps": [
+  "Open the reference in Studio with the prompt staged, and read the hero section brief before you send it.",
+  "Stage the prompt in Studio and read it once against the 800x600 capture before you generate.",
+  "Load the prompt in Studio and check that it names React before you press send.",
+  "Start in Studio with the prompt prefilled, then delete the parts of the hero section you do not need.",
+  "Open the design in Studio with the prompt staged; nothing runs until you press send."
+ ],
+ "faq": [
+  {
+   "question": "Where did the Luminex design come from?",
+   "answer": "The reference was collected from motionsites.ai, and the media belongs to them. Rebuild the composition with your own copy, imagery and palette, and check the source site's terms before you ship anything taken from it."
+  },
+  {
+   "question": "Is the Luminex prompt a finished spec or a starting point?",
+   "answer": "The captured brief runs 162 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Can I rebuild the Luminex hero section in a different stack?",
+   "answer": "No. The brief is a specification, not a dependency list. It was written for React, but the same composition rebuilds in whatever you already use. The stack is named so you know how the reference was made."
+  }
+ ],
+ "audience": [
+  "Made for product managers who need the hero section scoped to one sprint and no new assets.",
+  "Studio leads who run several projects at once will use this hero section as the pattern every other page copies.",
+  "Product teams writing their own Hero section copy who need every line to keep the length the display type was sized for."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Hero section"
+  },
+  {
+   "label": "Field",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Canvas",
+   "value": "800x600 · 1.33:1"
+  },
+  {
+   "label": "Brief",
+   "value": "162 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key tone",
+   "value": "blue #143F62"
+  },
+  {
+   "label": "Reference stack",
+   "value": "React"
+  },
+  {
+   "label": "Transitions",
+   "value": "state changes only"
+  }
+ ],
+ "related": [
+  "rocket-pricing",
+  "scaling-platform",
+  "securify-hero",
+  "sentinel-ai-hero",
+  "signal-id",
+  "stellar-ai-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 162,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

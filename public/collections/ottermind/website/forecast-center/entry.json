@@ -1,0 +1,203 @@
+{
+ "slug": "forecast-center",
+ "sourceSlug": "forecast-center",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Forecast Center"
+ },
+ "title": "Forecast Center",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/965c363c3a99c1a5.webp",
+  "still": "https://cdn.ottermind.ai/public/ccae3c05074c633a.webp",
+  "preview": "https://cdn.ottermind.ai/public/c71da816420ff741.mp4",
+  "full": "https://cdn.ottermind.ai/public/ba36927038d955a1.mp4",
+  "aspectRatio": 1.3574,
+  "width": 1466,
+  "height": 1080,
+  "duration": 5.266
+ },
+ "seo": {
+  "title": "Forecast Center AI & SaaS Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an AI or SaaS product — one self-contained HTML file, #04121B base, a dark stage and a masked headline reveal. Copy the prompt or open it staged in.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS landing page design",
+   "glass SaaS landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Forecast Center — AI & SaaS Landing Page Design",
+ "tagline": "Landing page reference for an AI or SaaS product, captured at 1466x1080 with the layout, timings and palette specified in the brief.",
+ "summary": "Landing page reference for an AI or SaaS product — one self-contained HTML file, #04121B base, a dark stage and a masked headline reveal.",
+ "about": "This is the landing page from Forecast Center, published with the brief that produced it rather than as a screenshot. The palette is deep blue #04121B underneath and #FFFFFF for the type, set in Inter. Delivery is one self-contained HTML file, captured at 1466x1080 so the frame is fixed before any code is written. The motion budget is 2.55s transitions, cubic-bezier(.16,1.3,1) and a looping video bed. If you are briefing a SaaS landing page, start from this composition and replace the subject.",
+ "layout": [
+  {
+   "title": "Navigation held to one row",
+   "body": "The bar is one row of text and one action, measured at 100vh sections and 14px spacing steps so it reads as a strip rather than as a band. The bar sits over the 1466x1080 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "A pill for the one thing that is new",
+   "body": "One badge, one message: the pill sits above the headline in Inter at the smallest step, and nothing else competes for that slot. It is positioned so the headline keeps the centre of the composition."
+  },
+  {
+   "title": "Links collapse at one width",
+   "body": "Keep the link count to four or five; the row is sized for that. The reference was captured at 1466x1080."
+  },
+  {
+   "title": "Nothing here is inherited",
+   "body": "Nothing in the layout is left to feel: the brief quotes 100vh sections, 14px spacing steps, 2.55s transitions and cubic-bezier(.16,1.3,1) easing and the build has to hit those values. Values are quoted from the captured prompt rather than inferred, so they survive a re-render."
+  }
+ ],
+ "motion": [
+  {
+   "title": "A loop, not a timeline",
+   "body": "Ambient movement is one 5.3s clip at 1466x1080, looping quietly behind the copy rather than reacting to the pointer. Because it is muted, the loop can run under the copy without competing for sound or focus. Shoot or export at 1466x1080 or wider."
+  },
+  {
+   "title": "Motion can be switched off",
+   "body": "The motion layer ships with an off switch: the entrance and the loop is dropped under prefers-reduced-motion. Interaction feedback still works under reduced motion; only the entrances are dropped. Keep the reduced-motion branch when you port the page."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#FFFFFF",
+    "name": "Tint",
+    "role": "Headline"
+   },
+   {
+    "hex": "#04121B",
+    "name": "Near-black",
+    "role": "composition"
+   },
+   {
+    "hex": "#051413",
+    "name": "Near-black — lighter",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#9E9B7C",
+    "name": "Muted yellow",
+    "role": "lighter step"
+   }
+  ],
+  "glass": "The brief uses same for the panels over a translucent fill, which is what makes them read as material rather than as a lighter rectangle.",
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "The timing budget is state feedback rather than page choreography (2.55s), so a slower rebuild reads as a different design.",
+   "Transitions are specified at 2.55s, which is the value to keep when the palette changes.",
+   "A reduced-motion branch is included, so keep it when you port the page."
+  ]
+ },
+ "customize": [
+  "Swap the clip for your own. Export at 1466x1080 or wider, keep it muted, and make the 5.3s loop seamless so the cut is invisible.",
+  "Retime the entrance to your own 2.55s, but keep cubic-bezier(.16,1.3,1) as the curve, because the easing is what reads as this design.",
+  "The brief behind this page is written out in full below, so any rewrite can be checked against it value by value; the reference was captured at 1466x1080.",
+  "Change the copy first, then the accent, then the media: the 1466x1080 frame was solved in that order and reversing it costs a re-layout."
+ ],
+ "editorial": [
+  {
+   "title": "The order behind the landing page",
+   "body": "Where a marketing page stacks proof below the fold and hopes, this landing page puts navigation, the headline, the announcement badge, the stats row and the card grid in front of the reader and holds the rest back. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "How the landing page reflows",
+   "body": "A designed narrow layout takes more decisions than a squeeze. The brief pays for them: the section is held at 100vh and the motion has a reduced-motion branch, stated rather than discovered at build time. A squeeze would have been cheaper and would not hold."
+  },
+  {
+   "title": "Reading Forecast Center as a spec",
+   "body": "Compare this with a template that calls its spacing a preference. Here the same values are named (100vh sections, 14px spacing steps, 2.55s transitions and cubic-bezier(.16,1.3,1) easing), so an edit either keeps them or visibly breaks the composition. Nothing in this landing page depends on a default."
+  }
+ ],
+ "steps": [
+  "Check your build against the reference measurements: 100vh sections, 14px spacing steps and 2.55s transitions.",
+  "Pin the reference measurements before you restyle anything: 100vh sections, 14px spacing steps and 2.55s transitions.",
+  "Keep the measurements the brief spells out: 100vh sections, 14px spacing steps and 2.55s transitions.",
+  "Copy 100vh sections, 14px spacing steps and 2.55s transitions into your own brief before you rewrite anything else.",
+  "Port the motion last: the entrance, the 2.55s states and the hover behaviour, in that order."
+ ],
+ "faq": [
+  {
+   "question": "Why does the entry name one self-contained HTML file at all?",
+   "answer": "Forecast Center was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "How is this Forecast Center entry organised?",
+   "answer": "Everything quoted on the page comes from the captured 11,253-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "What do I get when I copy the Forecast Center brief?",
+   "answer": "The captured brief runs 11,253 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  }
+ ],
+ "audience": [
+  "Teams building an AI or SaaS product landing page who need cubic-bezier(.16,1.3,1) easing on the record before an estimate goes out.",
+  "This landing page serves teams who have to justify one self-contained HTML file to someone who was not in the kickoff.",
+  "If the build starts from one self-contained HTML file, lift 100vh sections and 14px spacing steps first and leave the palette alone until the grid settles."
+ ],
+ "specs": [
+  {
+   "label": "Page part",
+   "value": "Landing page"
+  },
+  {
+   "label": "Field",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Canvas",
+   "value": "1466x1080 · 1.36:1"
+  },
+  {
+   "label": "Clip length",
+   "value": "5.3s loop"
+  },
+  {
+   "label": "Source text",
+   "value": "11,253 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type",
+   "value": "Inter"
+  },
+  {
+   "label": "Stack",
+   "value": "single HTML file"
+  },
+  {
+   "label": "Motion",
+   "value": "2.55s transitions, cubic-bezier(.16,1.3,1) easing and a 5.3s media loop"
+  }
+ ],
+ "related": [
+  "scalable-saas-analytics-hero",
+  "tenlas-cta-footer",
+  "peakflow-contact-footer",
+  "zyphor-hero",
+  "ltx-video",
+  "luminex-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 11253,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

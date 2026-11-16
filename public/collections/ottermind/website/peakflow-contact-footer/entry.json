@@ -1,0 +1,201 @@
+{
+ "slug": "peakflow-contact-footer",
+ "sourceSlug": "lp-107-6a1fbe676621ff2b6edfbb14",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "Peakflow Footer"
+ },
+ "title": "Peakflow Footer",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "footer",
+ "sectionLabel": "Footer",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/06445252ea1ee9d6.webp",
+  "still": "https://cdn.ottermind.ai/public/89921a61203d44e1.webp",
+  "preview": "https://cdn.ottermind.ai/public/a09a1835f866ffed.mp4",
+  "full": "https://cdn.ottermind.ai/public/08ec40db6f18a0e2.mp4",
+  "aspectRatio": 1.3061,
+  "width": 1920,
+  "height": 1470,
+  "duration": 7.9
+ },
+ "seo": {
+  "title": "Peakflow Footer AI & SaaS Footer Design & Prompt | Ottermind",
+  "description": "Footer reference for an AI or SaaS product — #111111 base, scroll-triggered reveals, Tailwind CSS and 100ms transitions. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS footer design",
+   "minimal SaaS landing page",
+   "footer design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Peakflow Footer — AI & SaaS Footer Design",
+ "tagline": "Footer reference for an AI or SaaS product, captured at 1920x1470 with the layout, timings and palette specified in the brief.",
+ "summary": "Footer reference for an AI or SaaS product — #111111 base, scroll-triggered reveals, Tailwind CSS and 100ms transitions.",
+ "about": "Peakflow Footer gives an AI or SaaS product a finished first screen and the numbers that produced it. The colour scheme is black #111111 underneath and white #FAFAFA for the type, and the page is set in Inter. The entry names the stack that produced the page (Tailwind CSS) rather than hiding it. The page keeps its motion to 100ms transitions, cubic-bezier(0.5, 0, 0, 1) and a looping video bed. It is most useful when the AI & SaaS footer has to survive a copy change without a redesign.",
+ "layout": [
+  {
+   "title": "Sizes fixed in the brief",
+   "body": "The layout works on absolute values rather than ratios: 30px spacing steps, 100ms transitions and cubic-bezier(0.5, 0, 0, 1) easing. The smallest and largest values in that list set the range the composition works in."
+  },
+  {
+   "title": "Media behind the type",
+   "body": "One muted, looping clip fills the frame at 1920x1470 and 7.9s, set to cover with the copy stacked above it. The brief keeps overlays off the video so nothing greys it out. Export at 1920x1470 or wider and the cover crop keeps working. Export at 1920x1470 or wider to keep the crop honest."
+  },
+  {
+   "title": "One family, two roles",
+   "body": "The size steps and tracking in the brief are what give this its tone: Inter at a tight display size, then a clear drop to the supporting copy. The display face is used at one size only, so it never competes with itself."
+  },
+  {
+   "title": "The footer is a full composition",
+   "body": "Links are grouped into columns with the wordmark in its own block, which keeps a long footer readable instead of turning it into a list. Columns align to the same grid as the page above, so the footer feels like the same design. Keep the accent for a single action."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Fast enough to feel deliberate",
+   "body": "State changes are specified at 100ms, so the feedback on the controls is a designed value rather than a browser default. The values are short enough to read as feedback rather than as animation. If you change the easing, change it everywhere."
+  },
+  {
+   "title": "Ambient motion without a scroll library",
+   "body": "One 7.9s clip is the entire ambient layer: it plays behind the copy, loops without a visible cut and never reacts to the pointer. The loop is cropped to cover, which means the composition does not depend on a particular frame size."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#FAFAFA",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#111111",
+    "name": "Near-black",
+    "role": "composition"
+   },
+   {
+    "hex": "#1A1A1A",
+    "name": "Near-black — lighter",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#2A2A2A",
+    "name": "Black",
+    "role": "Secondary"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "The timing budget is state feedback rather than page choreography (100ms), so a slower rebuild reads as a different design.",
+   "Media is specified at 1920x1470 and a 7.9s loop, so a replacement should match the crop and the loop length."
+  ]
+ },
+ "customize": [
+  "Hold the footer to one screen on desktop; the composition is solved for a reader who never scrolls.",
+  "Draft the new copy to the 1920x1470 frame, then check that the entrance still lands on the same number of lines.",
+  "Keep 1920x1470 for the media and re-crop your own asset into it rather than resizing the frame.",
+  "Keep the 1920x1470 frame when you swap the content, because the composition was solved against that ratio."
+ ],
+ "editorial": [
+  {
+   "title": "What holds up for AI & SaaS",
+   "body": "The claim is made once, at display size. Everything else in the footer is ordered around that line: the headline, the form and the footer, and no second promise competes for the first read. Peakflow Footer states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "What to change first in Peakflow Footer",
+   "body": "The trade-off is recognisability. Keep too much of Peakflow Footer and the page reads as someone else's; keep the numbers and change the content and it reads as yours. Set the new copy at the same display size and re-check the contrast before you add anything."
+  },
+  {
+   "title": "How the footer reflows",
+   "body": "Test this footer at 1920x1470 and then at phone width: the same order holds, with the scale is fluid rather than stepped. The scale changes with the viewport; the sequence does not."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1920x1470 capture before you generate.",
+  "Pin the reference measurements before you restyle anything: 30px spacing steps, 100ms transitions and cubic-bezier(0.5, 0, 0, 1) easing.",
+  "Keep the measurements the brief spells out: 30px spacing steps, 100ms transitions and cubic-bezier(0.5, 0, 0, 1) easing.",
+  "Check your build against the reference measurements: 30px spacing steps, 100ms transitions and cubic-bezier(0.5, 0, 0, 1) easing.",
+  "Copy 30px spacing steps, 100ms transitions and cubic-bezier(0.5, 0, 0, 1) easing into your own brief before you rewrite anything else."
+ ],
+ "faq": [
+  {
+   "question": "Is the Peakflow Footer brief the same as the prompt I would write?",
+   "answer": "Everything quoted on the page comes from the captured 3,693-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "Is the Peakflow Footer prompt a finished spec or a starting point?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1920x1470, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Do I need Tailwind CSS to rebuild Peakflow Footer?",
+   "answer": "No. The brief is a specification, not a dependency list. It was written for Tailwind CSS, but the same composition rebuilds in whatever you already use. The stack is named so you know how the reference was made."
+  }
+ ],
+ "audience": [
+  "Product managers who have to estimate the build will read a 1920x1470 frame as the scope of the work.",
+  "Product marketers who need the footer to still read with 7.9s of looping video behind the copy.",
+  "Product teams writing their own Footer copy who need every line to keep the length the display type was sized for."
+ ],
+ "specs": [
+  {
+   "label": "Block",
+   "value": "Footer"
+  },
+  {
+   "label": "Sector",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Frame",
+   "value": "1920x1470 · 1.31:1"
+  },
+  {
+   "label": "Loop",
+   "value": "7.9s loop"
+  },
+  {
+   "label": "Prompt text",
+   "value": "3,693 characters"
+  },
+  {
+   "label": "Date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Typefaces",
+   "value": "Inter"
+  },
+  {
+   "label": "Tools",
+   "value": "Tailwind CSS"
+  },
+  {
+   "label": "Animation",
+   "value": "100ms transitions, cubic-bezier(0.5, 0, 0, 1) easing and a 7.9s media loop"
+  }
+ ],
+ "related": [
+  "fastshot",
+  "forecast-center",
+  "growth-decisions",
+  "haul-footer",
+  "intelligence-layer",
+  "intelligent-operations"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 3693,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

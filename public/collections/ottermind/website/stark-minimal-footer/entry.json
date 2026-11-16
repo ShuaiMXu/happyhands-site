@@ -1,0 +1,199 @@
+{
+ "slug": "stark-minimal-footer",
+ "sourceSlug": "stark-minimal-footer",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Stark Minimal Footer"
+ },
+ "title": "Stark Minimal Footer",
+ "industry": "industrial",
+ "industryLabel": "Industrial",
+ "section": "footer",
+ "sectionLabel": "Footer",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/feb3a214dde9ee87.webp",
+  "still": "https://cdn.ottermind.ai/public/012c95423e0c7892.webp",
+  "preview": "https://cdn.ottermind.ai/public/012c95423e0c7892.webp",
+  "full": "https://cdn.ottermind.ai/public/012c95423e0c7892.webp",
+  "aspectRatio": 1.3559,
+  "width": 640,
+  "height": 472,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Stark Minimal Footer Industrial Footer Design & Prompt | Ottermind",
+  "description": "Footer reference for an industrial company — #0A0A0A base, Geist, 180ms transitions and max-width 1820px breakpoints. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "industrial website design",
+   "industrial footer design",
+   "gradient industrial landing page",
+   "footer design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Stark Minimal Footer — Industrial Footer Design",
+ "tagline": "“© 2026 EngineTech. All rights reserved” — the whole footer is composed around that line, down to the animation timings.",
+ "summary": "Footer reference for an industrial company — #0A0A0A base, Geist, 180ms transitions and max-width 1820px breakpoints.",
+ "about": "Stark Minimal Footer is the footer reference for an industrial company, and the brief behind it is a full build spec rather than a mood board. “© 2026 EngineTech. All rights reserved” is the line the layout is built to carry. The palette runs black #0A0A0A underneath and white #FFFFFF for the type, and the type is Geist. It ships as a single component, so the whole footer can be lifted into a project without a design handoff. The motion budget is 180ms transitions. It is most useful when the Industrial footer has to survive a copy change without a redesign.",
+ "layout": [
+  {
+   "title": "Top row: wordmark, links, one action",
+   "body": "The wordmark holds the left edge and the links run to the right of it, all of it set in Geist so the bar belongs to the page below rather than to a separate system. Labels are short enough to fit one line at 1820px, and the active item is marked with weight rather than with a pill."
+  },
+  {
+   "title": "Labels under the figures",
+   "body": "The row is placed high in the footer as proof rather than as decoration. The accent is spent on the figures that make a claim, not on the row as a whole."
+  },
+  {
+   "title": "The scale is clamped, not stepped",
+   "body": "Type is sized with a clamp between 22px and 14px rather than fixed steps, so the display line stays proportionate between breakpoints instead of jumping. The mobile menu is part of the same brief, so the collapsed state is designed too. Keep the hierarchy; change the scale."
+  },
+  {
+   "title": "Columns, not a link dump",
+   "body": "Links are grouped into columns with the wordmark in its own block, which keeps a long footer readable instead of turning it into a list. Type sizes step down from the column headings to the links, so the hierarchy survives a dense footer. Keep the accent for a single action."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Entrance as the signature",
+   "body": "Movement is concentrated in one behaviour (each line rises out of an overflow-hidden window), so the page never reads as a repertoire of effects. If the technique is dropped, the content is present and the layout does not shift. The reference was captured at 640x472."
+  },
+  {
+   "title": "Short, named durations",
+   "body": "The timings are short and consistent (180ms), so hover and press states read as one system instead of a set of separate effects. The values are short enough to read as feedback rather than as animation. Do not ship the browser default."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#FFFFFF",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#000000",
+    "name": "Near-black",
+    "role": "darkest"
+   },
+   {
+    "hex": "#0A0A0A",
+    "name": "Near-black — lighter",
+    "role": "composition"
+   },
+   {
+    "hex": "#EDEDED",
+    "name": "White — darker",
+    "role": "lighter step"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Geist",
+    "weights": "Weight not fixed in the brief",
+    "role": "UI face"
+   },
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Body face"
+   }
+  ],
+  "notes": [
+   "The timing budget is state feedback rather than page choreography (180ms), so a slower rebuild reads as a different design.",
+   "Transitions are specified at 180ms, which is the value to keep when the palette changes.",
+   "Transitions are specified at 180ms, short enough that the page never feels like it is waiting for an animation."
+  ]
+ },
+ "customize": [
+  "Keep the footer inside one viewport and move whatever does not fit into the section below it.",
+  "Set your own headline in Geist at the size the reference uses, so the footer keeps the same optical weight.",
+  "Hold the 640x472 frame when you swap the content; the composition was solved against that ratio and a wider export pushes the type off.",
+  "Replace “© 2026 EngineTech. All rights reserved” with your own line and keep the same number of words, because the brief sizes the type for that rhythm."
+ ],
+ "editorial": [
+  {
+   "title": "The order behind the footer",
+   "body": "Order is the design here. navigation, the stats row and the footer are placed so the offer lands before the proof, and 14px spacing steps and 180ms transitions set the gap between them. A industrial reader gets the offer before the options."
+  },
+  {
+   "title": "Reading Stark Minimal Footer as a spec",
+   "body": "The cost of a fixed scale is less room to improvise. 14px spacing steps and 180ms transitions keep the composition coherent, but a new element has to be fitted rather than placed. Nothing in this footer depends on a default."
+  },
+  {
+   "title": "How the footer reflows",
+   "body": "When the copy is long, the narrow layout breaks first. Here a clamp between 22px and 14px absorbs the change, and the scale is fluid rather than stepped and the layout shifts at 1820px. Width changes the measurements, not the reading path."
+  }
+ ],
+ "steps": [
+  "Copy 14px spacing steps, 180ms transitions and a 1820px breakpoint into your own brief before you rewrite anything else.",
+  "Check your build against the reference measurements: 14px spacing steps, 180ms transitions and a 1820px breakpoint.",
+  "Pin the reference measurements before you restyle anything: 14px spacing steps, 180ms transitions and a 1820px breakpoint.",
+  "Keep the measurements the brief spells out: 14px spacing steps, 180ms transitions and a 1820px breakpoint.",
+  "Rebuild the motion last and keep the 180ms entrance; the hover and scroll states come after it."
+ ],
+ "faq": [
+  {
+   "question": "What do I get when I copy the Stark Minimal Footer brief?",
+   "answer": "The captured brief runs 5,437 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "How much of Stark Minimal Footer depends on a single component?",
+   "answer": "Stark Minimal Footer was built in a single component, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What can I do with the Stark Minimal Footer brief once I have it?",
+   "answer": "Everything quoted on the page comes from the captured 5,437-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  }
+ ],
+ "audience": [
+  "If you brief a model rather than a designer, start from the footer and let the prompt hold a single component.",
+  "Studio teams briefing a build and looking for a 1820px breakpoint to react to.",
+  "If the reference is only a starting point, designers can keep a 640x472 frame and rebuild the rest of the footer."
+ ],
+ "specs": [
+  {
+   "label": "Block",
+   "value": "Footer"
+  },
+  {
+   "label": "Sector",
+   "value": "Industrial"
+  },
+  {
+   "label": "Format",
+   "value": "640x472 · 1.36:1"
+  },
+  {
+   "label": "Input brief",
+   "value": "5,437 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type scale",
+   "value": "Geist, Inter"
+  },
+  {
+   "label": "Animation",
+   "value": "180ms transitions"
+  }
+ ],
+ "related": [
+  "cross-border",
+  "interactive-discovery",
+  "coreos-product-hero",
+  "vectrus-energy",
+  "veyra-electric",
+  "cordex"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 5437,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

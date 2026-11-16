@@ -1,0 +1,208 @@
+{
+ "slug": "northstar",
+ "sourceSlug": "northstar",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Northstar"
+ },
+ "title": "Northstar",
+ "industry": "creative",
+ "industryLabel": "Agencies & Studios",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/a721d7189ff3af40.webp",
+  "still": "https://cdn.ottermind.ai/public/0c8604047f5d2b63.webp",
+  "preview": "https://cdn.ottermind.ai/public/0c8604047f5d2b63.webp",
+  "full": "https://cdn.ottermind.ai/public/0c8604047f5d2b63.webp",
+  "aspectRatio": 1.3389,
+  "width": 1280,
+  "height": 956,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Northstar Agencies & Studios Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an agency or studio — #F0DAC8 accent, Instrument Serif, a 1280x956 frame and #1D8FB8 base. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "agency website design",
+   "agency landing page design",
+   "video-backed agency landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Northstar — Agencies & Studios Landing Page Design",
+ "tagline": "Landing page reference built on teal #1D8FB8 and muted orange #F0DAC8, set in Instrument Serif and measured against 100vh sections.",
+ "summary": "Landing page reference for an agency or studio — #F0DAC8 accent, Instrument Serif, a 1280x956 frame and #1D8FB8 base.",
+ "about": "Northstar shows one way to build the landing page for an agency or studio, and publishes the instructions that produced it. Colour is limited to teal #1D8FB8 underneath, white #EEF2F3 for the type and muted orange #F0DAC8 carrying the accents, set in Instrument Serif. The reference is built with vanilla JS, and the layout decisions are stated independently of it. Motion is limited to 580ms transitions and cubic-bezier(.16,1.3,1). Keep it open while you write: the 11,589-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "A bar with nothing spare",
+   "body": "Navigation is a thin strip rather than a band: wordmark left, links centre-right, one #F0DAC8 action, all of it sitting above the landing page without a background of its own. The links are set below the wordmark in size, and the #F0DAC8 action is the only element in the bar with any weight."
+  },
+  {
+   "title": "Every measurement is written down",
+   "body": "The values are the specification: 100vh sections, 14px spacing steps, 580ms transitions and cubic-bezier(.16,1.3,1) easing, captured at 1280x956 rather than inferred from a screenshot. Spacing is quoted in the same units as the type, so the two can be compared directly. Substitute the face or the copy, not the scale."
+  },
+  {
+   "title": "Tracking tightens as it grows",
+   "body": "Typography is Instrument Serif, and the brief assigns the face a job rather than mixing for variety. Weight, tracking and size steps are all specified, so the hierarchy survives a substitution. The caption step is small enough to sit under a figure without changing the rhythm of the page."
+  },
+  {
+   "title": "Top row, one action",
+   "body": "The bar sits over the 1280x956 composition without a background of its own, so the media runs edge to edge underneath it."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Interaction is on the controls",
+   "body": "Every interactive element does one thing (hover states on the buttons and links rather than on every card), which is what keeps the states predictable. Press states are specified as well as hover, so a tap gives the same confirmation as a click. Keep the interactive layer small."
+  },
+  {
+   "title": "The reveal is the memory point",
+   "body": "Movement is concentrated in one behaviour (each line rises out of an overflow-hidden window), so the page never reads as a repertoire of effects. Under reduced motion the element simply appears and the layout is unchanged."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#1D8FB8",
+    "name": "Teal",
+    "role": "composition"
+   },
+   {
+    "hex": "#EEF2F3",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#3F3F3C",
+    "name": "Black",
+    "role": "darkest"
+   },
+   {
+    "hex": "#F0DAC8",
+    "name": "Muted orange",
+    "role": "accent"
+   }
+  ],
+  "glass": "Panels are translucent over teal #1D8FB8, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Instrument Serif",
+    "weights": "Weight not fixed in the brief",
+    "role": "Display face"
+   },
+   {
+    "name": "Plus Jakarta Sans",
+    "weights": "Weight not fixed in the brief",
+    "role": "Text face"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 580ms, short enough that the page never feels like it is waiting for an animation.",
+   "The timing budget is state feedback rather than page choreography (580ms), so a slower rebuild reads as a different design.",
+   "Accent and ground are both named (muted orange #F0DAC8 on teal #1D8FB8), so a brand swap moves one value."
+  ]
+ },
+ "customize": [
+  "Read the brief value by value against the 1280x956 capture before you edit anything; the numbers are the part that is easiest to lose.",
+  "Keep 1280x956 for the media and re-crop your own asset into it rather than resizing the frame.",
+  "Retune #F0DAC8 for your brand only after the Instrument Serif copy is final, and re-check the contrast on the darkest band.",
+  "Change #F0DAC8 for your brand accent and re-check it against #1D8FB8, because the accent is the only saturated value in this composition."
+ ],
+ "editorial": [
+  {
+   "title": "How Northstar sequences the first read",
+   "body": "When a agency reader lands on a single screen, they scan before they read. The layout answers that: navigation, the headline, the stats row, the background clip and the footer are sized to be scanned, with 100vh sections and 14px spacing steps keeping each stop distinct. A agency reader gets the offer before the options."
+  },
+  {
+   "title": "What holds up for Agencies & Studios",
+   "body": "Northstar works because its hierarchy is decided rather than decorated. The brief sets 100vh sections, 14px spacing steps, 580ms transitions and cubic-bezier(.16,1.3,1) easing, so new copy lands inside the frame instead of reopening it. It gives a agency reader the shortest honest route to the offer."
+  },
+  {
+   "title": "Making the landing page yours",
+   "body": "Most people start with the accent colour. Start with the promise instead: rewrite the display line, then re-test muted orange #F0DAC8 against your own media. A different brand can reuse the whole frame."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1280x956 capture before you generate.",
+  "Set the brand first: product name, the #F0DAC8 accent and a headline that replaces the reference's.",
+  "Drop your product name in, then replace #F0DAC8 with your own accent and re-check the contrast.",
+  "Set your brand first: product name, the #F0DAC8 accent and the headline that replaces the reference's.",
+  "Type the product name and the #F0DAC8 accent before you touch the layout."
+ ],
+ "faq": [
+  {
+   "question": "Is the Northstar prompt a finished spec or a starting point?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1280x956, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Do I need vanilla JS to rebuild Northstar?",
+   "answer": "No. The brief is a specification, not a dependency list. It was written for vanilla JS, but the same composition rebuilds in whatever you already use. The stack is named so you know how the reference was made."
+  },
+  {
+   "question": "Where did the Northstar design come from?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1280x956."
+  }
+ ],
+ "audience": [
+  "Growth teams reskinning an agency or studio landing page who want the 1280x956 frame kept while the offer copy changes.",
+  "If three people have to edit this landing page, give content leads 100vh sections and 14px spacing steps rather than a screenshot.",
+  "Made for content leads rewriting a landing page whose headline has to stay as long as Northstar's."
+ ],
+ "specs": [
+  {
+   "label": "Page part",
+   "value": "Landing page"
+  },
+  {
+   "label": "Industry",
+   "value": "Agencies & Studios"
+  },
+  {
+   "label": "Frame",
+   "value": "1280x956 · 1.34:1"
+  },
+  {
+   "label": "Prompt",
+   "value": "11,589 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent",
+   "value": "muted orange #F0DAC8"
+  },
+  {
+   "label": "Typefaces",
+   "value": "Instrument Serif, Plus Jakarta Sans"
+  },
+  {
+   "label": "Reference stack",
+   "value": "vanilla JS"
+  },
+  {
+   "label": "Timing",
+   "value": "580ms transitions and cubic-bezier(.16,1.3,1) easing"
+  }
+ ],
+ "related": [
+  "network-hero",
+  "personal-showcase",
+  "pixel-grid-hover",
+  "playful-idea",
+  "portfolio-about",
+  "prisma-landing"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 11589,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

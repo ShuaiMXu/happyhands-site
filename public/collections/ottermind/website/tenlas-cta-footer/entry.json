@@ -1,0 +1,206 @@
+{
+ "slug": "tenlas-cta-footer",
+ "sourceSlug": "lp-105-6a1faf886621ff2b6edfbb13",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "Tenlas Footer"
+ },
+ "title": "Tenlas Footer",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "footer",
+ "sectionLabel": "Footer",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/55afde7345b11a8e.webp",
+  "still": "https://cdn.ottermind.ai/public/9fdd3cc35dca0ada.webp",
+  "preview": "https://cdn.ottermind.ai/public/afe69c0360f1a5b9.mp4",
+  "full": "https://cdn.ottermind.ai/public/950da05caa8b56a1.mp4",
+  "aspectRatio": 1.2339,
+  "width": 1920,
+  "height": 1556,
+  "duration": 8.8
+ },
+ "seo": {
+  "title": "Tenlas Footer AI & SaaS Footer Design & Prompt | Ottermind",
+  "description": "Footer reference for an AI or SaaS product — #DBFF00 accent, scroll-triggered reveals, looping video and #050505 base. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS footer design",
+   "dark SaaS landing page",
+   "footer design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Tenlas Footer — AI & SaaS Footer Design",
+ "tagline": "Footer reference built around “Take control of your productivity today”, with the layout, timings and palette written down in the brief.",
+ "summary": "Footer reference for an AI or SaaS product — #DBFF00 accent, scroll-triggered reveals, looping video and #050505 base.",
+ "about": "Tenlas Footer is a working reference for an AI or SaaS product: the footer laid out, measured and ready to rebuild. It leads with “Take control of your productivity today” and gives that line the frame rather than shrinking it into a card. Colour is limited to black #050505 underneath, white #F5F5F2 for the type and bright yellow #DBFF00 carrying the accents, set in Inter. Delivery is Tailwind and vanilla JavaScript — one page, no plugin, no build tooling between you and the design. Motion is 50ms transitions and a looping video bed, kept quiet enough that the copy still leads. If you are briefing a SaaS footer, start from this composition and replace the subject.",
+ "layout": [
+  {
+   "title": "A bar with nothing spare",
+   "body": "Navigation is a thin strip rather than a band: wordmark left, links centre-right, one #DBFF00 action, all of it sitting above the footer without a background of its own. The links are set below the wordmark in size, and the #DBFF00 action is the only element in the bar with any weight. Design the collapsed state before adding a sixth link."
+  },
+  {
+   "title": "Sizes fixed in the brief",
+   "body": "Every measurement in the brief is a number you can measure back: type from 14px to 18px, 50vh sections, 18px spacing steps and 50ms transitions. Because the values are fixed, a substitution changes the look without changing the rhythm."
+  },
+  {
+   "title": "One media element carries the mood",
+   "body": "The media is one 8.8s clip cropped to cover the 1920x1556 frame, so it never letterboxes at any width. A poster frame at 1920x1556 holds the composition when autoplay is unavailable, so the layout never collapses."
+  },
+  {
+   "title": "Top row, one action",
+   "body": "The bar sits over the 1920x1556 composition without a background of its own, so the media runs edge to edge underneath it."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Short, matched timings",
+   "body": "Motion in the controls is short and repeatable: 50ms on each state change. The durations are short enough that feedback reads as a response rather than as an animation."
+  },
+  {
+   "title": "One scroll behaviour only",
+   "body": "Scroll reveal is the only scroll behaviour in the brief, which keeps the page from feeling like a sequence of separate effects. The effect is decorative: turn it off and the hierarchy still works."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#DBFF00",
+    "name": "Bright yellow",
+    "role": "accent"
+   },
+   {
+    "hex": "#050505",
+    "name": "Near-black",
+    "role": "composition"
+   },
+   {
+    "hex": "#F5F5F2",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#6B7280",
+    "name": "Muted blue",
+    "role": "lighter step"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "14–18px",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Accent use is limited to bright yellow #DBFF00; everything else sits on black #050505.",
+   "Nothing sits between the type and the 1920x1556 clip, so a replacement has to work under the copy directly.",
+   "The accent is spent on bright yellow #DBFF00 and the rest of the composition holds black #050505."
+  ]
+ },
+ "customize": [
+  "Draft the new copy to the 1920x1556 frame, then check that the entrance still lands on the same number of lines.",
+  "Write the replacement headline first, then confirm it still fits the 1920x1556 frame at the reference's type size.",
+  "Replace “Take control of your productivity today” with your own line and keep the same number of words, because the brief sizes the type for that rhythm.",
+  "Retint #DBFF00 toward your palette but keep the step against #050505; flatten the two and the primary action stops reading."
+ ],
+ "editorial": [
+  {
+   "title": "Making the footer yours",
+   "body": "The trade-off is recognisability. Keep too much of Tenlas Footer and the page reads as someone else's; keep the numbers and change the content and it reads as yours. A different brand can reuse the whole frame."
+  },
+  {
+   "title": "What moves in Tenlas Footer",
+   "body": "When a page feels restless, the cause is usually too many entrances. This one keeps the list short: 50ms transitions, a 8.8s media loop and a scroll reveal. Nothing animates for its own sake in this footer."
+  },
+  {
+   "title": "Reading Tenlas Footer as a spec",
+   "body": "Specific numbers age: a value that suits 1920x1556 may not suit your frame. The brief states type from 14px to 18px and 50vh sections anyway, because a stated value is easier to change than an unstated one. Nothing in this footer depends on a default."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1920x1556 capture before you generate.",
+  "Set the brand first: product name, the #DBFF00 accent and a headline that replaces the reference's.",
+  "Drop your product name in, then replace #DBFF00 with your own accent and re-check the contrast.",
+  "Set your brand first: product name, the #DBFF00 accent and the headline that replaces the reference's.",
+  "Type the product name and the #DBFF00 accent before you touch the layout."
+ ],
+ "faq": [
+  {
+   "question": "Is the Tenlas Footer prompt a finished spec or a starting point?",
+   "answer": "The captured brief runs 6,053 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Do I need Tailwind and vanilla JavaScript to rebuild Tenlas Footer?",
+   "answer": "Tenlas Footer was built in Tailwind and vanilla JavaScript, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Is the Tenlas Footer brief the same as the prompt I would write?",
+   "answer": "Everything quoted on the page comes from the captured 6,053-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  }
+ ],
+ "audience": [
+  "Hand Tailwind and vanilla JavaScript to the engineer with the 1920x1556 crop attached, then let them rebuild it.",
+  "Write your own headline, then rebuild this footer in Tailwind and vanilla JavaScript with the measurements intact.",
+  "This footer serves designers who have to hand a Tailwind and vanilla JavaScript build to an engineer and want the motion written down."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Footer"
+  },
+  {
+   "label": "Industry",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Format",
+   "value": "1920x1556 · 1.23:1"
+  },
+  {
+   "label": "Duration",
+   "value": "8.8s loop"
+  },
+  {
+   "label": "Source text",
+   "value": "6,053 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key colour",
+   "value": "bright yellow #DBFF00"
+  },
+  {
+   "label": "Faces",
+   "value": "Inter · 14–18px"
+  },
+  {
+   "label": "Built with",
+   "value": "Tailwind CSS, vanilla JS"
+  },
+  {
+   "label": "Timing",
+   "value": "50ms transitions and a 8.8s media loop"
+  }
+ ],
+ "related": [
+  "aurelion-feature-blog",
+  "qumica-infrastructure-hero",
+  "cortexa-faq",
+  "designy-footer",
+  "scene-ai-hero",
+  "scalable-saas-analytics-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 6053,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

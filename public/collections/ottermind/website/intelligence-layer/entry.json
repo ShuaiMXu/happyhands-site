@@ -1,0 +1,208 @@
+{
+ "slug": "intelligence-layer",
+ "sourceSlug": "intelligence-layer",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Intelligence Layer"
+ },
+ "title": "Intelligence Layer",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/4d0bed3ac25cd148.webp",
+  "still": "https://cdn.ottermind.ai/public/5d9010f314d075b2.webp",
+  "preview": "https://cdn.ottermind.ai/public/fbbcd6faa9ba8550.mp4",
+  "full": "https://cdn.ottermind.ai/public/f717075da9a557f0.mp4",
+  "aspectRatio": 1.3537,
+  "width": 1462,
+  "height": 1080,
+  "duration": 6.566
+ },
+ "seo": {
+  "title": "Intelligence Layer AI & SaaS Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an AI or SaaS product — a logo row, 0.9s transitions, a moving marquee and #050505 base. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS landing page design",
+   "glass SaaS landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Intelligence Layer — AI & SaaS Landing Page Design",
+ "tagline": "Landing page reference for an AI or SaaS product, captured at 1462x1080 with the layout, timings and palette specified in the brief.",
+ "summary": "Landing page reference for an AI or SaaS product — a logo row, 0.9s transitions, a moving marquee and #050505 base.",
+ "about": "Intelligence Layer shows one way to build the landing page for an AI or SaaS product, and publishes the instructions that produced it. The colour scheme is near-black #050505 underneath and #FAFAFA for the type, and the page is set in Manrope. Delivery is one self-contained HTML file, captured at 1462x1080 so the frame is fixed before any code is written. Motion is confined to 0.9s transitions, cubic-bezier(.22, 1.36, 1) and a looping video bed. Keep it open while you write: the 11,825-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "Top row, one action",
+   "body": "Navigation is a single row with no second level under it. The bar sits over the 1462x1080 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "Values you can check",
+   "body": "The brief names the numbers: 100vh sections, 25px spacing steps, 0.9s transitions and cubic-bezier(.22, 1.36, 1) easing. That is why the composition holds together, because there is no invented spacing step between the type and the frame. The list is short enough that a reviewer can check it element by element."
+  },
+  {
+   "title": "The scale is the styling",
+   "body": "Typography is Manrope, and the brief assigns the face a job rather than mixing for variety. Weight, tracking and size steps are all specified, so the hierarchy survives a substitution. Tracking is set per size, so the display line and the caption do not share one letter-spacing value. One face, clear roles."
+  },
+  {
+   "title": "The nav is deliberately thin",
+   "body": "The bar is a handful of elements, so it rebuilds without a component library. The reference was captured at 1462x1080."
+  }
+ ],
+ "motion": [
+  {
+   "title": "The canvas is the visual",
+   "body": "The first screen is built by the browser rather than shipped as an image: a WebGL canvas. The render carries its own colour, so the palette around it is kept quiet. Keep the interface flat around it."
+  },
+  {
+   "title": "Timings in milliseconds",
+   "body": "The controls resolve in 0.9s, fast enough that the page answers as it is touched rather than after it. Easing is specified alongside the duration (0.9s), so a rebuild cannot quietly substitute a different feel."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#050505",
+    "name": "Near-black",
+    "role": "composition"
+   },
+   {
+    "hex": "#8B8A8A",
+    "name": "Tint",
+    "role": "lighter step"
+   },
+   {
+    "hex": "#FAFAFA",
+    "name": "Tint — lighter",
+    "role": "Headline"
+   },
+   {
+    "hex": "#A7A6A6",
+    "name": "Tint — lighter",
+    "role": "Secondary"
+   }
+  ],
+  "glass": "Panels are translucent over near-black #050505, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Manrope",
+    "weights": "Weight not fixed in the brief",
+    "role": "UI face"
+   },
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Body copy"
+   }
+  ],
+  "notes": [
+   "The timing budget is state feedback rather than page choreography (0.9s), so a slower rebuild reads as a different design.",
+   "Media is specified at 1462x1080 and a 6.6s loop, so a replacement should match the crop and the loop length.",
+   "The clip is one asset at 1462x1080 and a 6.6s loop, so the composition has a single media dependency."
+  ]
+ },
+ "customize": [
+  "Retime the entrance to your own 0.9s, but keep cubic-bezier(.22, 1.36, 1) as the curve, because the easing is what reads as this design.",
+  "Swap the clip for your own footage at 1462x1080 or wider, keep it muted, and match the 6.6s loop point.",
+  "Swap Manrope for a face with the same x-height and cap height, then re-measure the headline block.",
+  "Set 0.9s to your own build speed and check that cubic-bezier(.22, 1.36, 1) still lands the copy before the media starts."
+ ],
+ "editorial": [
+  {
+   "title": "How the landing page reflows",
+   "body": "A designed narrow layout takes more decisions than a squeeze. The brief pays for them: the scale is fluid rather than stepped, the section is held at 100vh and the motion has a reduced-motion branch, stated rather than discovered at build time. The hierarchy is what survives the reflow."
+  },
+  {
+   "title": "Reading Intelligence Layer as a spec",
+   "body": "Type is the first number: 100vh sections and 25px spacing steps. The spacing follows from it, and everything else on the page is positioned against those two values. Nothing in this landing page depends on a default."
+  },
+  {
+   "title": "Making the landing page yours",
+   "body": "Re-skinning the palette first is the usual mistake. It changes the mood without touching the composition, and 100vh sections and 25px spacing steps still carry the layout; do the copy and media first and the palette last. Rewrite the copy and the media before you re-colour anything."
+  }
+ ],
+ "steps": [
+  "Pin the reference measurements before you restyle anything: 100vh sections, 25px spacing steps and 0.9s transitions.",
+  "Check your build against the reference measurements: 100vh sections, 25px spacing steps and 0.9s transitions.",
+  "Copy 100vh sections, 25px spacing steps and 0.9s transitions into your own brief before you rewrite anything else.",
+  "Keep the measurements the brief spells out: 100vh sections, 25px spacing steps and 0.9s transitions.",
+  "Rebuild the motion last and keep the 0.9s entrance; the hover and scroll states come after it."
+ ],
+ "faq": [
+  {
+   "question": "Do I need one self-contained HTML file to rebuild Intelligence Layer?",
+   "answer": "Intelligence Layer was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What does the brief behind Intelligence Layer actually contain?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1462x1080, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Can I keep the Intelligence Layer transitions and change the timings?",
+   "answer": "Entrances and state changes are in the 0.9s range using cubic-bezier(.22, 1.36, 1) with a reduced-motion branch in the brief. They are driven by state changes rather than a scroll library, and they never hold up the copy."
+  }
+ ],
+ "audience": [
+  "The landing page is aimed at teams that already know one self-contained HTML file and only need cubic-bezier(.22, 1.36, 1) easing written down.",
+  "Made for agencies that pitch SaaS work and need one self-contained HTML file in the first reply to the client.",
+  "Teams rebuilding a competitor's SaaS landing page who want one self-contained HTML file named before anyone commits to a framework."
+ ],
+ "specs": [
+  {
+   "label": "Block",
+   "value": "Landing page"
+  },
+  {
+   "label": "Sector",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Canvas size",
+   "value": "1462x1080 · 1.35:1"
+  },
+  {
+   "label": "Duration",
+   "value": "6.6s loop"
+  },
+  {
+   "label": "Prompt",
+   "value": "11,825 characters"
+  },
+  {
+   "label": "Date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Faces",
+   "value": "Manrope, Inter"
+  },
+  {
+   "label": "Stack",
+   "value": "vanilla JS, single HTML file"
+  },
+  {
+   "label": "Transitions",
+   "value": "0.9s transitions, cubic-bezier(.22, 1.36, 1) easing and a 6.6s media loop"
+  }
+ ],
+ "related": [
+  "404-planet",
+  "agent-grove",
+  "agent-wave",
+  "ai-runtime",
+  "ai-workflow",
+  "ai-workflow-agents"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 11825,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

@@ -194,6 +194,28 @@
           "value": "public, max-age=0, s-maxage=300, stale-while-revalidate=600"
         }
       ]
+    },
+    {
+      "source": "/fonts/:path*",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    },
+    {
+      "source": "/resources/v1/index.json",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, s-maxage=60, must-revalidate"
+        }
+      ]
     }
   ],
   "rewrites": [

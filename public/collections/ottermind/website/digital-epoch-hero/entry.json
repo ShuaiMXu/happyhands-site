@@ -1,0 +1,207 @@
+{
+ "slug": "digital-epoch-hero",
+ "sourceSlug": "digital-epoch-hero",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Digital Epoch"
+ },
+ "title": "Digital Epoch",
+ "industry": "creative",
+ "industryLabel": "Agencies & Studios",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/5731bef2e064b7a5.webp",
+  "still": "https://cdn.ottermind.ai/public/056b86c7458a5662.webp",
+  "preview": "https://cdn.ottermind.ai/public/a171d9c57de58841.mp4",
+  "full": "https://cdn.ottermind.ai/public/68a6a13aa24c9b20.mp4",
+  "aspectRatio": 1.3605,
+  "width": 800,
+  "height": 588,
+  "duration": 7.21
+ },
+ "seo": {
+  "title": "Digital Epoch Agencies & Studios Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an agency or studio — a dark stage, a moving marquee, #F9FAFB base and #0A1B33 accent. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "agency website design",
+   "agency hero section design",
+   "video-backed agency landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Digital Epoch — Agencies & Studios Hero Section Design",
+ "tagline": "Hero section reference built on white #F9FAFB and deep blue #0A1B33, set in Inter and measured against type from 12px to 56px.",
+ "summary": "Hero section reference for an agency or studio — a dark stage, a moving marquee, #F9FAFB base and #0A1B33 accent.",
+ "about": "Read Digital Epoch as a hero section spec: the values were written down before the page was built. The palette is white #F9FAFB underneath, deep blue #0A152D for the type and deep blue #0A1B33 carrying the accents, set in Inter. Delivery is React and Tailwind CSS, captured at 800x589 so the frame is fixed before any code is written. Keep it open while you write: the 4,594-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "Navigation held to one row",
+   "body": "Wordmark, links and the #0A1B33 action share one baseline, which is what keeps a thin row from looking accidental. The links are set below the wordmark in size, and the #0A1B33 action is the only element in the bar with any weight. Design the collapsed state before adding a sixth link."
+  },
+  {
+   "title": "Measured, not eyeballed",
+   "body": "Sizes are quoted rather than inherited: type from 12px to 56px and 12px spacing steps. Swap the face or the copy and those relationships still hold. Every value can be checked against the captured prompt, which is what makes a rebuild verifiable rather than approximate. The numbers are the design; the rest is arrangement."
+  },
+  {
+   "title": "Panels carry the middle",
+   "body": "Where a run of copy would go, this page puts a set of panels, which is what keeps the hero section scannable. Panels share the interface face at one size, which keeps the grid from becoming a second layout. The order of the panels is the reading order."
+  },
+  {
+   "title": "Copy first, decoration second",
+   "body": "The composition is complete at 800x589: the copy, the media and the controls are all named in the brief. The page is one composition at 800x589, which is why it holds together when the copy changes."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Continuous horizontal motion",
+   "body": "A marquee runs through the composition on an endless loop, set in Inter. The active item is marked with #0A1B33 rather than with a size change."
+  },
+  {
+   "title": "The controls are the interactive layer",
+   "body": "Only the controls respond to the pointer (hover states on the buttons and links rather than on every card), so the page feels responsive without turning every element into a target. Nothing on the page opens a modal or hijacks the scroll; the interactions stay local to the element. Check the states on a touch device."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#0A1B33",
+    "name": "Deep blue",
+    "role": "accent"
+   },
+   {
+    "hex": "#F9FAFB",
+    "name": "White",
+    "role": "composition"
+   },
+   {
+    "hex": "#64748B",
+    "name": "Muted blue",
+    "role": "darker"
+   },
+   {
+    "hex": "#0A152D",
+    "name": "Deep blue — darker",
+    "role": "Headline"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "12–56px",
+    "role": "Control text"
+   },
+   {
+    "name": "Outfit",
+    "weights": "12–56px",
+    "role": "Copy face"
+   }
+  ],
+  "notes": [
+   "The display line is Inter at the top of a 12–56px scale, with the interface text on the same face.",
+   "Accent and ground are both named (deep blue #0A1B33 on white #F9FAFB), so a brand swap moves one value.",
+   "Accent use is limited to deep blue #0A1B33; everything else sits on white #F9FAFB."
+  ]
+ },
+ "customize": [
+  "Swap #0A1B33 for your brand colour and re-check it against #F9FAFB, since the accent is the only place saturation is allowed.",
+  "Retune #0A1B33 for your brand only after the Inter copy is final, and re-check the contrast on the darkest band.",
+  "Read the brief value by value against the 800x589 capture before you edit anything; the numbers are the part that is easiest to lose.",
+  "Keep the 800x589 frame when you swap the content, because the composition was solved against that ratio."
+ ],
+ "editorial": [
+  {
+   "title": "Why this composition works for agency",
+   "body": "Digital Epoch is the hero section reference for an agency or studio, and it answers the problem that audience actually has. The palette stays disciplined (white #F9FAFB and deep blue #0A1B33) and the type is set in Inter, so nothing in the composition depends on a borrowed trend. When you brief a build, this is the part worth copying: one promise at display size, with the supporting detail held below it. It gives a agency reader the shortest honest route to the offer."
+  },
+  {
+   "title": "What to change first in Digital Epoch",
+   "body": "The composition is the reusable part; the subject is yours. Swap the headline, keep the type scale (type from 12px to 56px), and re-test the #0A1B33 accent over your own media. If a new element does not help explain the offer or the next action, it belongs below the fold. A different brand can reuse the whole frame."
+  },
+  {
+   "title": "Reading Digital Epoch as a spec",
+   "body": "This is what makes the reference reusable: type from 12px to 56px and 12px spacing steps. Nothing is left to a default, so a substitution that keeps those numbers keeps the composition. Nothing in this hero section depends on a default."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 800x589 capture before you generate.",
+  "Drop your product name in, then replace #0A1B33 with your own accent and re-check the contrast.",
+  "Set the brand first: product name, the #0A1B33 accent and a headline that replaces the reference's.",
+  "Type the product name and the #0A1B33 accent before you touch the layout.",
+  "Set your brand first: product name, the #0A1B33 accent and the headline that replaces the reference's."
+ ],
+ "faq": [
+  {
+   "question": "How long is the prompt behind Digital Epoch?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 800x589, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Do I need React and Tailwind CSS to rebuild Digital Epoch?",
+   "answer": "Digital Epoch was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Can I use Digital Epoch in a client project?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 800x589."
+  }
+ ],
+ "audience": [
+  "Agencies pitching an agency or studio hero section who want type from 12px to 56px and 12px spacing steps quoted in the deck so the estimate still holds after the kickoff.",
+  "Made for content leads rewriting a hero section whose headline has to stay as long as Digital Epoch's.",
+  "Fix #F9FAFB and #0A1B33 as the two brand colours, then rebuild the hero section inside that limit."
+ ],
+ "specs": [
+  {
+   "label": "Page part",
+   "value": "Hero section"
+  },
+  {
+   "label": "Industry",
+   "value": "Agencies & Studios"
+  },
+  {
+   "label": "Canvas",
+   "value": "800x589 · 1.36:1"
+  },
+  {
+   "label": "Brief",
+   "value": "4,594 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key tone",
+   "value": "deep blue #0A1B33"
+  },
+  {
+   "label": "Type",
+   "value": "Inter, Outfit · 12–56px"
+  },
+  {
+   "label": "Tools",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Timing",
+   "value": "state changes only"
+  }
+ ],
+ "related": [
+  "sparkform",
+  "subscription-agency",
+  "talent-collective",
+  "taskly-hero",
+  "velorah-hero",
+  "vision-reveal"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 4594,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

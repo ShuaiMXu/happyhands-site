@@ -5,3 +5,6 @@ node_modules/
 dist/
 public/skillry-full/
 .openai/
+
+# Archived package dist/ folders are source data, not this app build output.
+!public/collections/**

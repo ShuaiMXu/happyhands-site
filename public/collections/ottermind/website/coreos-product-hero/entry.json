@@ -1,0 +1,198 @@
+{
+ "slug": "coreos-product-hero",
+ "sourceSlug": "lp-056-6a392bcd8ac91f6202e0804f",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "CoreOS"
+ },
+ "title": "CoreOS",
+ "industry": "industrial",
+ "industryLabel": "Industrial",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/93d56f9723dcd4c8.webp",
+  "still": "https://cdn.ottermind.ai/public/499fe4aefdcf48e9.webp",
+  "preview": "https://cdn.ottermind.ai/public/b3d5f1fff7dc7fc4.mp4",
+  "full": "https://cdn.ottermind.ai/public/121dba0010a2bcf6.mp4",
+  "aspectRatio": 1.3593,
+  "width": 1468,
+  "height": 1080,
+  "duration": 4.933
+ },
+ "seo": {
+  "title": "CoreOS Industrial Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an industrial company — a word-by-word headline, 0.5s transitions, #2E3233 base and looping video. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "industrial website design",
+   "industrial hero section design",
+   "minimal industrial landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "CoreOS — Industrial Hero Section Design",
+ "tagline": "Hero section reference for an industrial company, captured at 1468x1080 with the layout, timings and palette specified in the brief.",
+ "summary": "Hero section reference for an industrial company — a word-by-word headline, 0.5s transitions, #2E3233 base and looping video.",
+ "about": "This is the hero section from CoreOS, published with the brief that produced it rather than as a screenshot. The whole page is built on black #2E3233 underneath. Delivery is React and Tailwind CSS, captured at 1468x1080 so the frame is fixed before any code is written. Motion is 0.5s transitions and a looping video bed, kept quiet enough that the copy still leads. Keep it open while you write: the 5,790-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "The nav is deliberately thin",
+   "body": "The bar is one row of text and one action, measured at a fixed 62px display size and 14px spacing steps so it reads as a strip rather than as a band. The bar sits over the 1468x1080 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "Navigation held to one row",
+   "body": "The action carries the accent while the links stay on the ink colour, so the hierarchy in the bar matches the page below it. Copy this pattern when you need navigation that survives a loud first screen."
+  },
+  {
+   "title": "The brief names the steps",
+   "body": "The brief states its sizes at capture (a fixed 62px display size, 14px spacing steps and 0.5s transitions), so a rebuild can be verified instead of approximated. The frame proportions are recorded with the sizes, so a rebuild gets the aspect right as well. Measure before you adjust."
+  },
+  {
+   "title": "A full-bleed clip behind the type",
+   "body": "The composition is built on top of the 1468x1080 clip rather than beside it, so the media never gets a panel or a border. A poster frame at 1468x1080 holds the composition when autoplay is unavailable, so the layout never collapses. Export at 1468x1080 or wider to keep the crop honest."
+  }
+ ],
+ "motion": [
+  {
+   "title": "The loop does the ambient work",
+   "body": "Ambient movement comes from the 4.9s 1468x1080 loop rather than from scroll effects, which keeps the page calm and the type readable. Nothing else on the page animates continuously, so the media is the only thing asking for attention."
+  },
+  {
+   "title": "The whole animation budget",
+   "body": "Transitions are specified at 0.5s, which is the timing the controls are held to. Easing is specified alongside the duration (0.5s), so a rebuild cannot quietly substitute a different feel."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#020202",
+    "name": "Near-black",
+    "role": "darkest"
+   },
+   {
+    "hex": "#626A6A",
+    "name": "Gray",
+    "role": "lightest"
+   },
+   {
+    "hex": "#2A3234",
+    "name": "Deep teal",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#2E3233",
+    "name": "Black",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Face not specified",
+    "weights": "62px",
+    "role": "The brief fixes the type scale but leaves the face to the build"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 0.5s, short enough that the page never feels like it is waiting for an animation.",
+   "Nothing sits between the type and the 1468x1080 clip, so a replacement has to work under the copy directly.",
+   "The clip is one asset at 1468x1080 and a 4.9s loop, so the composition has a single media dependency."
+  ]
+ },
+ "customize": [
+  "Keep 1468x1080 for the media and re-crop your own asset into it rather than resizing the frame.",
+  "Replace the headline and the supporting line with your own copy, keeping the same line count so the entrance still lands over the 1468x1080 frame.",
+  "Keep the 1468x1080 frame when you swap the content, because the composition was solved against that ratio.",
+  "Retime the entrance to taste. 0.5s with a standard ease-out is what the reference uses."
+ ],
+ "editorial": [
+  {
+   "title": "Making the hero section yours",
+   "body": "One line, one font, one accent: those three substitutions change the design most. a fixed 62px display size, 14px spacing steps and 0.5s transitions are the values that should not move. Substitution is cheaper than composition, and that is the point."
+  },
+  {
+   "title": "The order behind the hero section",
+   "body": "Committing to one reading path means other paths are closed. The brief accepts that, fixes navigation and the background clip in place, and spends a fixed 62px display size and 14px spacing steps on making the route obvious. A industrial reader gets the offer before the options."
+  },
+  {
+   "title": "The numbers behind the hero section",
+   "body": "Most references show the result and keep the numbers. This one reverses that: a fixed 62px display size, 14px spacing steps and 0.5s transitions are published beside the page, so the result can be reproduced instead of approximated. Nothing in this hero section depends on a default."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1468x1080 capture before you generate.",
+  "Keep the measurements the brief spells out: a fixed 62px display size, 14px spacing steps and 0.5s transitions.",
+  "Pin the reference measurements before you restyle anything: a fixed 62px display size, 14px spacing steps and 0.5s transitions.",
+  "Check your build against the reference measurements: a fixed 62px display size, 14px spacing steps and 0.5s transitions.",
+  "Copy a fixed 62px display size, 14px spacing steps and 0.5s transitions into your own brief before you rewrite anything else."
+ ],
+ "faq": [
+  {
+   "question": "Is the CoreOS prompt a finished spec or a starting point?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1468x1080, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Can I rebuild the CoreOS hero section in a different stack?",
+   "answer": "CoreOS was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Can I ship a page rebuilt from CoreOS without crediting it?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1468x1080."
+  }
+ ],
+ "audience": [
+  "Teams building an industrial company hero section who want the measured detail (a fixed 62px display size and 14px spacing steps) rather than a screenshot to copy.",
+  "Product marketers who need the hero section to still read with 4.9s of looping video behind the copy.",
+  "Made for a solo founder shipping one hero section for an industrial company and no design system behind them."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Hero section"
+  },
+  {
+   "label": "Category",
+   "value": "Industrial"
+  },
+  {
+   "label": "Viewport",
+   "value": "1468x1080 · 1.36:1"
+  },
+  {
+   "label": "Duration",
+   "value": "4.9s loop"
+  },
+  {
+   "label": "Prompt text",
+   "value": "5,790 characters"
+  },
+  {
+   "label": "Captured",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Tools",
+   "value": "Tailwind CSS, React, Lucide icons"
+  },
+  {
+   "label": "Motion",
+   "value": "0.5s transitions and a 4.9s media loop"
+  }
+ ],
+ "related": [
+  "cordex",
+  "cross-border",
+  "interactive-discovery",
+  "stark-minimal-footer",
+  "vectrus-energy",
+  "veyra-electric"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 5790,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

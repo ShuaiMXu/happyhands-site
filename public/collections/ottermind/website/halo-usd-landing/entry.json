@@ -1,0 +1,203 @@
+{
+ "slug": "halo-usd-landing",
+ "sourceSlug": "halo-usd-landing",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "USD Halo"
+ },
+ "title": "USD Halo",
+ "industry": "fintech",
+ "industryLabel": "Fintech",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/59f63c7751ec0da8.webp",
+  "still": "https://cdn.ottermind.ai/public/c7e48555902360a6.webp",
+  "preview": "https://cdn.ottermind.ai/public/fc3ae2d108c08eb7.mp4",
+  "full": "https://cdn.ottermind.ai/public/175abeea6c45f6f4.mp4",
+  "aspectRatio": 0.5725,
+  "width": 458,
+  "height": 800,
+  "duration": 6.09
+ },
+ "seo": {
+  "title": "USD Halo Fintech Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for a fintech product — Inter, #F5F5F5 base, a moving marquee and a stats row. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "fintech website design",
+   "fintech landing page design",
+   "video-backed fintech landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "USD Halo — Fintech Landing Page Design",
+ "tagline": "“An automated, reward-powered digital dollar built for native passive earnings and effortless connection into DeFi” — the whole landing page is composed around that line, down to the animation timings.",
+ "summary": "Landing page reference for a fintech product — Inter, #F5F5F5 base, a moving marquee and a stats row.",
+ "about": "This is the landing page from USD Halo, published with the brief that produced it rather than as a screenshot. “An automated, reward-powered digital dollar built for native passive earnings and effortless connection into DeFi” is the line the layout is built to carry. Colour is limited to white #F5F5F5 underneath and deep indigo #2B2644 for the type, set in Inter. Delivery is React and Tailwind CSS, captured at 458x800 so the frame is fixed before any code is written. Use it as the reference when you are building a fintech product landing page and want a finished composition instead of a starting point.",
+ "layout": [
+  {
+   "title": "Top row: wordmark, links, one action",
+   "body": "The bar overlays the landing page instead of pushing it down, so the composition keeps the full height of the first screen. The bar sits over the 458x800 composition without a background of its own, so the media runs edge to edge underneath it. Design the collapsed state before adding a sixth link."
+  },
+  {
+   "title": "Every measurement is written down",
+   "body": "The layout is solved against fixed values (type from 13px to 16px, 100vh sections and 15px spacing steps), which is what keeps the first screen composed at any width. Each value maps to one job: a type step, a gap, a radius or a transition."
+  },
+  {
+   "title": "Labels under the figures",
+   "body": "A compact stats strip carries the claims that would otherwise need a paragraph, which keeps the landing page from turning into a feature list. Labels sit under the figures at the smallest step in the brief, so the row reads as data rather than decoration."
+  },
+  {
+   "title": "The grid sets the order",
+   "body": "The grid is the structure: panels of the same size, set in Inter, arranged so the eye moves across rather than down. Panel order is the reading order, so nothing depends on position cues. Keep the reading order the panel order."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Interaction kept local",
+   "body": "The page answers only where it can be acted on: hover states on the buttons and links rather than on every card. Because the states are simple, they port into any component system."
+  },
+  {
+   "title": "Continuous horizontal motion",
+   "body": "A marquee runs across the composition on an endless loop, set in Inter, so the page has movement even where nothing animates on scroll. Because the strip is decorative, it can be paused or dropped without changing the layout."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#F5F5F5",
+    "name": "White",
+    "role": "composition"
+   },
+   {
+    "hex": "#2B2644",
+    "name": "Deep indigo",
+    "role": "Headline"
+   },
+   {
+    "hex": "#454063",
+    "name": "Muted blue",
+    "role": "darker step"
+   },
+   {
+    "hex": "#FDFDFD",
+    "name": "White — lighter",
+    "role": "lightest"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "13–16px",
+    "role": "Headline and interface text"
+   },
+   {
+    "name": "Matter",
+    "weights": "13–16px",
+    "role": "Secondary copy, captions and labels"
+   }
+  ],
+  "notes": [
+   "The type is set in Inter on a 13–16px scale, and the spacing follows the same steps.",
+   "Font roles are assigned rather than mixed here, and 13–16px is the range the whole scale works in.",
+   "The display line is Inter at the top of a 13–16px scale, with the interface text on the same face."
+  ]
+ },
+ "customize": [
+  "Keep the supporting line as short as the reference's and measure the pair against the 458x800 crop.",
+  "Keep 458x800 for the media and re-crop your own asset into it rather than resizing the frame.",
+  "Write the replacement headline first, then confirm it still fits the 458x800 frame at the reference's type size.",
+  "Replace “An automated, reward-powered digital dollar built for native passive earnings and effortless connection into DeFi” with your own line and keep the word count, because the entrance is timed per line."
+ ],
+ "editorial": [
+  {
+   "title": "How the landing page reflows",
+   "body": "When the copy is long, the narrow layout breaks first. Here a clamp between 13px and 16px absorbs the change, and the section is held at 100vh. The narrow layout is a decision rather than a squeeze, and the hierarchy survives it."
+  },
+  {
+   "title": "What to change first in USD Halo",
+   "body": "When you drop your own media in, keep the crop and the layer order. The media is a still at 458x800. That placement is what keeps the copy legible. The frame and the scale are what to leave alone."
+  },
+  {
+   "title": "Reading USD Halo as a spec",
+   "body": "The brief is a specification. It states type from 13px to 16px, 100vh sections and 15px spacing steps, and it names the media frame at 458x800 before anything is designed around it. Nothing in this landing page depends on a default."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 458x800 capture before you generate.",
+  "Copy type from 13px to 16px, 100vh sections and 15px spacing steps into your own brief before you rewrite anything else.",
+  "Pin the reference measurements before you restyle anything: type from 13px to 16px, 100vh sections and 15px spacing steps.",
+  "Check your build against the reference measurements: type from 13px to 16px, 100vh sections and 15px spacing steps.",
+  "Keep the measurements the brief spells out: type from 13px to 16px, 100vh sections and 15px spacing steps."
+ ],
+ "faq": [
+  {
+   "question": "Is the USD Halo prompt a finished spec or a starting point?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 458x800, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Can I rebuild the USD Halo landing page in a different stack?",
+   "answer": "USD Halo was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Can I ship a page rebuilt from USD Halo without crediting it?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 458x800."
+  }
+ ],
+ "audience": [
+  "Start from type from 13px to 16px and 100vh sections and let the palette follow, because the spacing is what makes this landing page read.",
+  "People who brief a model on a landing page will use the 8,531-character prompt as the starting point.",
+  "Made for content leads rewriting a landing page whose headline has to stay as long as USD Halo's."
+ ],
+ "specs": [
+  {
+   "label": "Page section",
+   "value": "Landing page"
+  },
+  {
+   "label": "Industry",
+   "value": "Fintech"
+  },
+  {
+   "label": "Frame",
+   "value": "458x800 · 0.57:1"
+  },
+  {
+   "label": "Prompt text",
+   "value": "8,531 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type scale",
+   "value": "Inter, Matter · 13–16px"
+  },
+  {
+   "label": "Built with",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Motion spec",
+   "value": "state changes only"
+  }
+ ],
+ "related": [
+  "aurex-finance",
+  "guardnet-benefits",
+  "halo-use-case",
+  "impact-ventures",
+  "alumica-hero",
+  "launchpad-blog"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 8531,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

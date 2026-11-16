@@ -1,0 +1,198 @@
+{
+ "slug": "designy-footer",
+ "sourceSlug": "lp-091-6a095218bf2024a645b29105",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "Designy Footer"
+ },
+ "title": "Designy Footer",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "footer",
+ "sectionLabel": "Footer",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/f3accf363cddee9a.webp",
+  "still": "https://cdn.ottermind.ai/public/bd1e1e41d1f5e649.webp",
+  "preview": "https://cdn.ottermind.ai/public/394f07fda87a3534.mp4",
+  "full": "https://cdn.ottermind.ai/public/b38346d5f3921aa1.mp4",
+  "aspectRatio": 1.3793,
+  "width": 1920,
+  "height": 1392,
+  "duration": 2.867
+ },
+ "seo": {
+  "title": "Designy Footer AI & SaaS Footer Design & Prompt | Ottermind",
+  "description": "Footer reference for an AI or SaaS product — a dark stage, looping video, a stats row and #FAFAFA base. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS footer design",
+   "dark SaaS landing page",
+   "footer design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Designy Footer — AI & SaaS Footer Design",
+ "tagline": "Footer reference for an AI or SaaS product, captured at 1922x1394 with the layout, timings and palette specified in the brief.",
+ "summary": "Footer reference for an AI or SaaS product — a dark stage, looping video, a stats row and #FAFAFA base.",
+ "about": "Designy Footer keeps its decision trail: the brief that produced this footer runs 3,029 characters. The whole page is built on white #FAFAFA underneath and black #0A0A0A for the type. Delivery is React and Tailwind CSS, captured at 1922x1394 so the frame is fixed before any code is written. The page keeps its motion to a looping video bed. Start from the captured brief, then edit the footer rather than rebuilding it from scratch.",
+ "layout": [
+  {
+   "title": "A navigation bar that gets out of the way",
+   "body": "The bar overlays the footer instead of pushing it down, so the composition keeps the full height of the first screen. The bar sits over the 1922x1394 composition without a background of its own, so the media runs edge to edge underneath it. One action per bar."
+  },
+  {
+   "title": "Measured, not eyeballed",
+   "body": "Type and spacing are drawn from one list here: type from 13px to 14px and 13px spacing steps. Spacing is quoted in the same units as the type, so the two can be compared directly. Where the brief is silent, it is silent on purpose."
+  },
+  {
+   "title": "Panels, not paragraphs",
+   "body": "Where a run of copy would go, this page puts a set of panels, which is what keeps the footer scannable. Spacing between panels is one value, which is what keeps a dense grid from looking crowded."
+  },
+  {
+   "title": "Proof above the fold",
+   "body": "A compact stats strip carries the claims that would otherwise need a paragraph, which keeps the footer from turning into a feature list. The row is aligned to the same margin as the headline above it."
+  }
+ ],
+ "motion": [
+  {
+   "title": "A loop, not a timeline",
+   "body": "Ambient movement comes from the 2.9s 1922x1394 loop rather than from scroll effects, which keeps the page calm and the type readable. Nothing else on the page animates continuously, so the media is the only thing asking for attention."
+  },
+  {
+   "title": "Pointers only where they help",
+   "body": "The interactive layer is deliberately small: hover states on the buttons and links rather than on every card. Nothing on the page opens a modal or hijacks the scroll; the interactions stay local to the element. If a state does not confirm an action, drop it."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#0A0A0A",
+    "name": "Near-black",
+    "role": "Headline"
+   },
+   {
+    "hex": "#71717A",
+    "name": "Gray",
+    "role": "darker step"
+   },
+   {
+    "hex": "#FAFAFA",
+    "name": "White",
+    "role": "composition"
+   },
+   {
+    "hex": "#F9FAFB",
+    "name": "White — darker",
+    "role": "panel edges"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Face not specified",
+    "weights": "13–14px",
+    "role": "The brief fixes the type scale but leaves the face to the build"
+   }
+  ],
+  "notes": [
+   "The clip is one asset at 1922x1394 and a 2.9s loop, so the composition has a single media dependency.",
+   "Media is specified at 1922x1394 and a 2.9s loop, so a replacement should match the crop and the loop length.",
+   "Nothing sits between the type and the 1922x1394 clip, so a replacement has to work under the copy directly."
+  ]
+ },
+ "customize": [
+  "Change the copy first, then the accent, then the media: the 1922x1394 frame was solved in that order and reversing it costs a re-layout.",
+  "Keep the supporting line as short as the reference's and measure the pair against the 1922x1394 crop.",
+  "Recut your footage to the 2.9s loop, then export at 1922x1394 so the crop the reference specifies survives.",
+  "The brief behind this page is written out in full below, so any rewrite can be checked against it value by value; the reference was captured at 1922x1394."
+ ],
+ "editorial": [
+  {
+   "title": "The argument this footer makes",
+   "body": "One screen means one decision for the reader, and that is the cost of this layout: everything else moves below the fold. The brief states type from 13px to 14px and 13px spacing steps so the lower sections keep the same rhythm. It gives a SaaS reader the shortest honest route to the offer."
+  },
+  {
+   "title": "The order behind the footer",
+   "body": "A feature-led layout lists what the product does; this one routes the reader to a single decision. The route is visible in navigation, the stats row, the card grid and the footer and in how type from 13px to 14px and 13px spacing steps space them. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "Reading Designy Footer as a spec",
+   "body": "You cannot fix a composition by eye when two people are rebuilding it. The brief removes the argument: type from 13px to 14px and 13px spacing steps, stated once. Nothing in this footer depends on a default."
+  }
+ ],
+ "steps": [
+  "Start in Studio with the prompt prefilled, then delete the parts of the footer you do not need.",
+  "Open the reference in Studio with the prompt staged, and read the footer brief before you send it.",
+  "Stage the prompt in Studio and read it once against the 1922x1394 capture before you generate.",
+  "Check your build against the reference measurements: type from 13px to 14px and 13px spacing steps.",
+  "Keep the measurements the brief spells out: type from 13px to 14px and 13px spacing steps."
+ ],
+ "faq": [
+  {
+   "question": "What do I get when I copy the Designy Footer brief?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1922x1394, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Do I need React and Tailwind CSS to rebuild Designy Footer?",
+   "answer": "Designy Footer was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Can I use Designy Footer in a client project?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1922x1394."
+  }
+ ],
+ "audience": [
+  "Start from type from 13px to 14px and 13px spacing steps and let the palette follow, because the spacing is what makes this footer read.",
+  "Studio leads who run several projects at once will use this footer as the pattern every other page copies.",
+  "Made for a designer joining a project that already ships React and Tailwind CSS and only needs the copy replaced."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Footer"
+  },
+  {
+   "label": "Field",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Format",
+   "value": "1922x1394 · 1.38:1"
+  },
+  {
+   "label": "Runtime",
+   "value": "2.9s loop"
+  },
+  {
+   "label": "Input brief",
+   "value": "3,029 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Stack",
+   "value": "Tailwind CSS, React, Lucide icons"
+  },
+  {
+   "label": "Animation",
+   "value": "a 2.9s media loop"
+  }
+ ],
+ "related": [
+  "rocket-cta",
+  "rocket-pricing",
+  "scaling-platform",
+  "securify-hero",
+  "sentinel-ai-hero",
+  "signal-id"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 3029,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

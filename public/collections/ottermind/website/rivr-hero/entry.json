@@ -1,0 +1,199 @@
+{
+ "slug": "rivr-hero",
+ "sourceSlug": "rivr-hero",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "RIVR"
+ },
+ "title": "RIVR",
+ "industry": "fintech",
+ "industryLabel": "Fintech",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/8e3928851e4b3924.webp",
+  "still": "https://cdn.ottermind.ai/public/54f291506e2e0510.webp",
+  "preview": "https://cdn.ottermind.ai/public/dcdccdb500bf44e8.mp4",
+  "full": "https://cdn.ottermind.ai/public/c472f661c6e5e13e.mp4",
+  "aspectRatio": 1.3378,
+  "width": 800,
+  "height": 598,
+  "duration": 6.37
+ },
+ "seo": {
+  "title": "RIVR Fintech Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for a fintech product — glass panels, #969BA2 base, a 800x599 frame and Helvetica. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "fintech website design",
+   "fintech hero section design",
+   "video-backed fintech landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "RIVR — Fintech Hero Section Design",
+ "tagline": "“Fluid Asset Streams” — the whole hero section is composed around that line, down to the animation timings.",
+ "summary": "Hero section reference for a fintech product — glass panels, #969BA2 base, a 800x599 frame and Helvetica.",
+ "about": "RIVR shows one way to build the hero section for a fintech product, and publishes the instructions that produced it. “Fluid Asset Streams” is the line the layout is built to carry. The palette is gray #969BA2 underneath, set in Helvetica. Delivery is React and Tailwind CSS, captured at 800x599 so the frame is fixed before any code is written. This reference is for a fintech product that wants the first screen settled before the build starts.",
+ "layout": [
+  {
+   "title": "Top row, one action",
+   "body": "Navigation is a single row with no second level under it. The bar sits over the 800x599 composition without a background of its own, so the media runs edge to edge underneath it. The bar is a handful of elements, so it rebuilds without a component library."
+  },
+  {
+   "title": "Sizes fixed in the brief",
+   "body": "Nothing here is eyeballed. The spec fixes type from 12px to 80px and 14px spacing steps, and the rest of the layout derives from those values. Every value can be checked against the captured prompt, which is what makes a rebuild verifiable rather than approximate."
+  },
+  {
+   "title": "Figures as typography",
+   "body": "The figures are set in Helvetica at a size closer to the headline than to the body copy. Numbers share the interface face, so they belong to the page instead of interrupting it."
+  },
+  {
+   "title": "The bar shares the page grid",
+   "body": "Focus and hover states are specified for each link rather than inherited from the browser. Keep the link count to four or five; the row is sized for that."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Pointers only where they help",
+   "body": "The interactive layer is deliberately small: hover states on the buttons and links rather than on every card. The interactive states do not move layout, so nothing jumps under the pointer."
+  },
+  {
+   "title": "Motion that stays out of the way",
+   "body": "This one is delivered as a still composition at 800x599, so the hierarchy has to work without motion, and it does. The composition holds still, so the hierarchy has to carry the page and it does."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#F0F0F0",
+    "name": "White",
+    "role": "lightest"
+   },
+   {
+    "hex": "#5E6470",
+    "name": "Muted blue",
+    "role": "darker step"
+   },
+   {
+    "hex": "#454E57",
+    "name": "Muted blue — darker",
+    "role": "darkest"
+   },
+   {
+    "hex": "#969BA2",
+    "name": "Gray",
+    "role": "composition"
+   }
+  ],
+  "glass": "Panels are translucent over gray #969BA2, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Helvetica",
+    "weights": "12–80px",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Font roles are assigned rather than mixed here, and 12–80px is the range the whole scale works in.",
+   "The type is set in Helvetica on a 12–80px scale, and the spacing follows the same steps.",
+   "The display line is Helvetica at the top of a 12–80px scale, with the interface text on the same face."
+  ]
+ },
+ "customize": [
+  "Replace “Fluid Asset Streams” with your own line and keep the same number of words, because the brief sizes the type for that rhythm.",
+  "Change the copy first, then the accent, then the media: the 800x599 frame was solved in that order and reversing it costs a re-layout.",
+  "Hold the 800x599 frame when you swap the content; the composition was solved against that ratio and a wider export pushes the type off.",
+  "Swap Helvetica for a face with the same x-height and cap height, then re-measure the headline block."
+ ],
+ "editorial": [
+  {
+   "title": "The argument this hero section makes",
+   "body": "The claim is made once, at display size. “Fluid Asset Streams” is doing that work from the first frame. Everything else in the hero section is ordered around that line: navigation, the stats row, the feature list and the background clip, and no second promise competes for the first read. RIVR states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "How RIVR sequences the first read",
+   "body": "Nothing here competes with the first decision. The supporting material waits below the fold, and navigation, the stats row, the feature list and the background clip carry the top of the page alone. A fintech reader gets the offer before the options."
+  },
+  {
+   "title": "What moves in RIVR",
+   "body": "Motion is a short list rather than a system. The brief names hover and press states, and the rest of the page stays still. Nothing animates for its own sake in this hero section."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 800x599 capture before you generate.",
+  "Pin the reference measurements before you restyle anything: type from 12px to 80px and 14px spacing steps.",
+  "Keep the measurements the brief spells out: type from 12px to 80px and 14px spacing steps.",
+  "Check your build against the reference measurements: type from 12px to 80px and 14px spacing steps.",
+  "Copy type from 12px to 80px and 14px spacing steps into your own brief before you rewrite anything else."
+ ],
+ "faq": [
+  {
+   "question": "What do I get when I copy the RIVR brief?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 800x599, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Do I need React and Tailwind CSS to rebuild RIVR?",
+   "answer": "RIVR was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "How should I handle the RIVR media in a client build?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 800x599."
+  }
+ ],
+ "audience": [
+  "Agencies pitching a fintech product hero section who want type from 12px to 80px and 14px spacing steps quoted in the deck so the estimate still holds after the kickoff.",
+  "Made for a solo founder shipping one hero section for a fintech product and no design system behind them.",
+  "People who brief a model on a hero section will use the 8,089-character prompt as the starting point."
+ ],
+ "specs": [
+  {
+   "label": "Page section",
+   "value": "Hero section"
+  },
+  {
+   "label": "Sector",
+   "value": "Fintech"
+  },
+  {
+   "label": "Canvas size",
+   "value": "800x599 · 1.34:1"
+  },
+  {
+   "label": "Prompt text",
+   "value": "8,089 characters"
+  },
+  {
+   "label": "Captured",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type scale",
+   "value": "Helvetica · 12–80px"
+  },
+  {
+   "label": "Tech stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Motion",
+   "value": "state changes only"
+  }
+ ],
+ "related": [
+  "impact-ventures",
+  "alumica-hero",
+  "launchpad-blog",
+  "orbis-nft-landing",
+  "price-calculator",
+  "sellix"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 8089,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

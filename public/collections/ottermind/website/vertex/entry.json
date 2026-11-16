@@ -1,0 +1,212 @@
+{
+ "slug": "vertex",
+ "sourceSlug": "vertex",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Vertex"
+ },
+ "title": "Vertex",
+ "industry": "ecommerce",
+ "industryLabel": "Ecommerce",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/7b05903fe2948589.webp",
+  "still": "https://cdn.ottermind.ai/public/1bfb3428459a05d0.webp",
+  "preview": "https://cdn.ottermind.ai/public/c5a4db2c991e25b1.mp4",
+  "full": "https://cdn.ottermind.ai/public/60c5c8c79818be4c.mp4",
+  "aspectRatio": 1.3579,
+  "width": 1920,
+  "height": 1414,
+  "duration": 6.925
+ },
+ "seo": {
+  "title": "Vertex Ecommerce Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an ecommerce brand — a masked headline reveal, #020204 base, a stats row and 620ms transitions. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "ecommerce website design",
+   "ecommerce landing page design",
+   "glass ecommerce landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Vertex — Ecommerce Landing Page Design",
+ "tagline": "Landing page reference built around “Streamline the shop”, with the layout, timings and palette written down in the brief.",
+ "summary": "Landing page reference for an ecommerce brand — a masked headline reveal, #020204 base, a stats row and 620ms transitions.",
+ "about": "Vertex solves the landing page problem for an ecommerce brand with a single captured brief. “Streamline the shop” is the line the layout is built to carry. The colour scheme is deep blue #020204 underneath, and the page is set in Poppins. The reference is built with one self-contained HTML file, and the layout decisions are stated independently of it. Motion comes down to 620ms transitions, cubic-bezier(.4,0.2,1) and a looping video bed. Treat it as the brief for an ecommerce brand landing page that has to hold up under a rebuild, not just a first look.",
+ "layout": [
+  {
+   "title": "A bar with nothing spare",
+   "body": "A short run of links and a single action sit over the landing page, held at type from 12px to 54px and 16px spacing steps so the bar never competes with the composition behind it. Below 158px the links collapse instead of wrapping onto a second line."
+  },
+  {
+   "title": "A full-bleed clip behind the type",
+   "body": "The clip runs 6.9s at 1920x1414 and loops without a visible cut, so it reads as surface rather than as footage. The loop is short enough (6.9s) that the eye reads it as texture rather than as a timeline."
+  },
+  {
+   "title": "Badge above the fold",
+   "body": "One badge, one message: the pill sits above the headline in Poppins at the smallest step, and nothing else competes for that slot. It is positioned so the headline keeps the centre of the composition. Remove it when the news is old."
+  },
+  {
+   "title": "The bar shares the page grid",
+   "body": "If your own page has more sections, group them rather than widening the bar. The reference was captured at 1920x1414."
+  }
+ ],
+ "motion": [
+  {
+   "title": "A canvas, not an image",
+   "body": "A live canvas is doing the visual work: a WebGL canvas. There is no image swap in the brief, so the scene is part of the first paint. Keep the interface flat around it."
+  },
+  {
+   "title": "State changes, timed",
+   "body": "One duration covers the interactions (620ms on cubic-bezier(.4,0.2,1)), which is what keeps hover and press reading as one system. The same duration is reused across controls, which keeps the interactions feeling like one system."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#17181C",
+    "name": "Near-black",
+    "role": "lightest"
+   },
+   {
+    "hex": "#16171B",
+    "name": "Near-black — darker",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#020204",
+    "name": "Near-black — darker",
+    "role": "composition"
+   },
+   {
+    "hex": "#0A111D",
+    "name": "Near-black — darker",
+    "role": "Secondary"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Poppins",
+    "weights": "12–54px",
+    "role": "UI text"
+   },
+   {
+    "name": "Inter",
+    "weights": "12–54px",
+    "role": "Copy face"
+   },
+   {
+    "name": "Playfair Display",
+    "weights": "12–54px",
+    "role": "Emphasis"
+   }
+  ],
+  "notes": [
+   "Card widths come from the 4-column grid rather than from the copy, so the panels stay equal.",
+   "Corner treatment is specified in the brief: 12px and 8px.",
+   "The panels are laid out on a 4-column grid, which is what keeps the middle of the page on one measure."
+  ]
+ },
+ "customize": [
+  "Keep 1920x1414 for the media and re-crop your own asset into it rather than resizing the frame.",
+  "Swap the clip for your own footage at 1920x1414 or wider, keep it muted, and match the 6.9s loop point.",
+  "Draft the new copy to the 1920x1414 frame, then check that the entrance still lands on the same number of lines.",
+  "Rewrite “Streamline the shop” to the same line count; the mask reveals each line in turn."
+ ],
+ "editorial": [
+  {
+   "title": "Why this composition works for ecommerce",
+   "body": "If your first screen currently explains three things, this is the version that explains one. navigation, the headline, the announcement badge, the stats row and the card grid are staged in reading order, with type from 12px to 54px and a 4-column grid setting the rhythm. It gives a ecommerce reader the shortest honest route to the offer."
+  },
+  {
+   "title": "The numbers behind the landing page",
+   "body": "A screenshot tells you what the page looks like; the brief tells you why. type from 12px to 54px, a 4-column grid, 12px corners, 16px spacing steps and 620ms transitions close the gap between the two. Nothing in this landing page depends on a default."
+  },
+  {
+   "title": "What to change first in Vertex",
+   "body": "Start with the copy, not the colour. Rewrite “Streamline the shop” as one sentence about your product, then set it in Poppins at the size the brief uses. If a new element does not help explain the offer or the next action, it belongs below the fold."
+  }
+ ],
+ "steps": [
+  "Check your build against the reference measurements: type from 12px to 54px, a 4-column grid and 12px corners.",
+  "Keep the measurements the brief spells out: type from 12px to 54px, a 4-column grid and 12px corners.",
+  "Pin the reference measurements before you restyle anything: type from 12px to 54px, a 4-column grid and 12px corners.",
+  "Copy type from 12px to 54px, a 4-column grid and 12px corners into your own brief before you rewrite anything else.",
+  "Add the entrance first at 620ms, and only then the hover and scroll behaviour."
+ ],
+ "faq": [
+  {
+   "question": "What does the brief behind Vertex actually contain?",
+   "answer": "The captured brief runs 51,432 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Why does the entry name one self-contained HTML file at all?",
+   "answer": "Vertex was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "How is this Vertex entry organised?",
+   "answer": "Everything quoted on the page comes from the captured 51,432-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  }
+ ],
+ "audience": [
+  "Hand one self-contained HTML file to the engineer with the 1920x1414 crop attached, then let them rebuild it.",
+  "Made for studios that have to explain 158px behaviour to a client without building a prototype first.",
+  "Teams rebuilding a competitor's ecommerce landing page who want one self-contained HTML file named before anyone commits to a framework."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Landing page"
+  },
+  {
+   "label": "Vertical",
+   "value": "Ecommerce"
+  },
+  {
+   "label": "Viewport",
+   "value": "1920x1414 · 1.36:1"
+  },
+  {
+   "label": "Loop",
+   "value": "6.9s loop"
+  },
+  {
+   "label": "Input brief",
+   "value": "51,432 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Faces",
+   "value": "Poppins, Inter, Playfair Display · 12–54px"
+  },
+  {
+   "label": "Tools",
+   "value": "single HTML file"
+  },
+  {
+   "label": "Timing",
+   "value": "620ms transitions, cubic-bezier(.4,0.2,1) easing and a 6.9s media loop"
+  }
+ ],
+ "related": [
+  "synth-mode",
+  "task-engine",
+  "beauty-categories",
+  "coffee-rewards",
+  "cozypaws",
+  "daisy-wild"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 51432,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

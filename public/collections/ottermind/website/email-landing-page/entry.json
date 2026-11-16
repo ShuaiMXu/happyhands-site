@@ -1,0 +1,202 @@
+{
+ "slug": "email-landing-page",
+ "sourceSlug": "email-landing-page",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Email Landing Page"
+ },
+ "title": "Email Landing Page",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/4e2955af2ae345dd.webp",
+  "still": "https://cdn.ottermind.ai/public/5d053b3bf1f0cdf7.webp",
+  "preview": "https://cdn.ottermind.ai/public/5d053b3bf1f0cdf7.webp",
+  "full": "https://cdn.ottermind.ai/public/5d053b3bf1f0cdf7.webp",
+  "aspectRatio": 1.3389,
+  "width": 640,
+  "height": 478,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Email Landing Page AI & SaaS Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an AI or SaaS product — glass panels, a dark stage, #00D2FF accent and 0.3s transitions. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS landing page design",
+   "video-backed SaaS landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Email Landing Page — AI & SaaS Landing Page Design",
+ "tagline": "Landing page reference built on deep blue #091020 and bright teal #00D2FF, set in Inter and measured against 20px spacing steps.",
+ "summary": "Landing page reference for an AI or SaaS product — glass panels, a dark stage, #00D2FF accent and 0.3s transitions.",
+ "about": "Email Landing Page was captured at 640x478 and kept as a specification rather than as a gallery image. Colour is limited to deep blue #091020 underneath, muted teal #A4F4FD for the type and bright teal #00D2FF carrying the accents, set in Inter. The entry names the stack that produced the page (React and Tailwind CSS) rather than hiding it. Motion is limited to 0.3s transitions and cubic-bezier(.22,1.36,1). Keep it open while you write: the 19,431-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "Navigation held to one row",
+   "body": "Navigation is a thin strip rather than a band: wordmark left, links centre-right, one #00D2FF action, all of it sitting above the landing page without a background of its own. Below 1024px the links collapse instead of wrapping onto a second line."
+  },
+  {
+   "title": "Two faces, clear jobs",
+   "body": "The type is Inter at the top of the scale, with the supporting copy dropped well below it so the hierarchy needs no colour to read. A face swap is safe as long as the sizes and weights stay where the brief put them."
+  },
+  {
+   "title": "The composition is the content",
+   "body": "The composition is complete at 640x478: the copy, the media and the controls are all named in the brief. The page is one composition at 640x478, which is why it holds together when the copy changes."
+  },
+  {
+   "title": "Links collapse at one width",
+   "body": "Labels are short enough to fit one line at 1024px, and the active item is marked with weight rather than with a pill."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Short, named durations",
+   "body": "One duration covers the interactions (0.3s on cubic-bezier(.22,1.36,1)), which is what keeps hover and press reading as one system. Easing is specified alongside the duration (0.3s), so a rebuild cannot quietly substitute a different feel."
+  },
+  {
+   "title": "Pointers only where they help",
+   "body": "Only the controls respond to the pointer (hover states on the buttons and links rather than on every card and tabs or an accordion that swaps content in place), so the page feels responsive without turning every element into a target. Each state changes one property, which keeps the feedback legible."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#00D2FF",
+    "name": "Bright teal",
+    "role": "accent"
+   },
+   {
+    "hex": "#091020",
+    "name": "Deep blue",
+    "role": "composition"
+   },
+   {
+    "hex": "#0B2551",
+    "name": "Blue",
+    "role": "saturated"
+   },
+   {
+    "hex": "#A4F4FD",
+    "name": "Muted teal",
+    "role": "Headline"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "400 / 500 / 600 / 700 / 800 / 900",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "The navigation collapses at max-width 1024px and max-width 1100px, so the bar has a designed narrow state.",
+   "Panel corners reuse the radius list in the brief (44px), so the grid needs no separate treatment.",
+   "Accent and ground are both named (bright teal #00D2FF on deep blue #091020), so a brand swap moves one value."
+  ]
+ },
+ "customize": [
+  "Move #00D2FF to your own hue and leave #091020 where it is; the distance between them is doing the hierarchy work.",
+  "Keep the 640x478 frame when you swap the content, because the composition was solved against that ratio.",
+  "Replace the copy in the Inter stack first, then re-check the #00D2FF accent against the media behind it.",
+  "Set 0.3s to your own build speed and check that cubic-bezier(.22,1.36,1) still lands the copy before the media starts."
+ ],
+ "editorial": [
+  {
+   "title": "How the landing page reflows",
+   "body": "The desktop composition is solved against 640x478, and the narrow layout is designed rather than inherited: the layout shifts at 1024px. Motion has a reduced-motion branch, and the media carries a poster frame so the page still communicates when autoplay is unavailable. Width changes the measurements, not the reading path."
+  },
+  {
+   "title": "What to change first in Email Landing Page",
+   "body": "Suppose you only have one afternoon. Change the headline and the action label, leave a 3-column grid and 44px corners alone, and you have a page that looks intentional. Keep the frame and the scale; the subject is the part that should change."
+  },
+  {
+   "title": "The order behind the landing page",
+   "body": "Compare the top of this page with a typical SaaS landing screen. Both carry a headline and an action; here navigation, the headline, the announcement badge, the stats row and the client row sit in a fixed order instead of competing at the same weight. Each element has one job, and the accent is spent only on the element you are meant to press."
+  }
+ ],
+ "steps": [
+  "Set the brand first: product name, the #00D2FF accent and a headline that replaces the reference's.",
+  "Drop your product name in, then replace #00D2FF with your own accent and re-check the contrast.",
+  "Type the product name and the #00D2FF accent before you touch the layout.",
+  "Set your brand first: product name, the #00D2FF accent and the headline that replaces the reference's.",
+  "Keep the measurements the brief spells out: a 3-column grid, 44px corners and 20px spacing steps."
+ ],
+ "faq": [
+  {
+   "question": "What do I get when I copy the Email Landing Page brief?",
+   "answer": "The captured brief runs 19,431 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Can I rebuild the Email Landing Page landing page in a different stack?",
+   "answer": "Email Landing Page was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What drives the motion in Email Landing Page?",
+   "answer": "Transitions are attached to interface states rather than to a scroll timeline, and they resolve in the 0.3s range on cubic-bezier(.22,1.36,1). The brief records the values so a port can match them without guessing."
+  }
+ ],
+ "audience": [
+  "Made for studios that have to explain 1024px behaviour to a client without building a prototype first.",
+  "Made for content leads rewriting a landing page whose headline has to stay as long as Email Landing Page's.",
+  "If your team already runs a design system, this landing page is the case for spending its one saturated colour on #00D2FF."
+ ],
+ "specs": [
+  {
+   "label": "Page section",
+   "value": "Landing page"
+  },
+  {
+   "label": "Category",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Viewport",
+   "value": "640x478 · 1.34:1"
+  },
+  {
+   "label": "Prompt text",
+   "value": "19,431 characters"
+  },
+  {
+   "label": "Date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent tone",
+   "value": "bright teal #00D2FF"
+  },
+  {
+   "label": "Typefaces",
+   "value": "Inter"
+  },
+  {
+   "label": "Tech stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Transitions",
+   "value": "0.3s transitions and cubic-bezier(.22,1.36,1) easing"
+  }
+ ],
+ "related": [
+  "build-with-us",
+  "cognitra-feature",
+  "contact-cybernetic",
+  "convix-software-hero",
+  "cyber-layer",
+  "cybersecurity-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 19431,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

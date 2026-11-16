@@ -1,0 +1,202 @@
+{
+ "slug": "brightly-hero",
+ "sourceSlug": "lp-097-69f2d7cbe064561c9d64c36a",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "Brightly"
+ },
+ "title": "Brightly",
+ "industry": "creative",
+ "industryLabel": "Agencies & Studios",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/e0b1ab47a15b64f5.webp",
+  "still": "https://cdn.ottermind.ai/public/7fba4d8de4ef2377.webp",
+  "preview": "https://cdn.ottermind.ai/public/cae90049c67cc670.mp4",
+  "full": "https://cdn.ottermind.ai/public/cb39d26aca64f8f2.mp4",
+  "aspectRatio": 1.4612,
+  "width": 1920,
+  "height": 1314,
+  "duration": 13.667
+ },
+ "seo": {
+  "title": "Brightly Agencies & Studios Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an agency or studio — 3.5s transitions, #050505 base, looping video and a word-by-word headline. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "agency website design",
+   "agency hero section design",
+   "video-backed agency landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Brightly — Agencies & Studios Hero Section Design",
+ "tagline": "Hero section reference built around “Manage projects effortlessly with smart tools, stay on track, meet deadlines, and keep your team productive”, with the layout, timings and palette written down in the brief.",
+ "summary": "Hero section reference for an agency or studio — 3.5s transitions, #050505 base, looping video and a word-by-word headline.",
+ "about": "Brightly is the hero section reference for an agency or studio, and the brief behind it is a full build spec rather than a mood board. The headline reads “Manage projects effortlessly with smart tools, stay on track, meet deadlines, and keep your team productive”, and the rest of the hero section is arranged around it. The whole page is built on black #050505 underneath and bright orange #F97316 carrying the accents. Delivery is React and Tailwind CSS, captured at 2046x1400 so the frame is fixed before any code is written. Motion is confined to 3.5s transitions and a looping video bed. It is most useful when the Agencies & Studios hero section has to survive a copy change without a redesign.",
+ "layout": [
+  {
+   "title": "The bar shares the page grid",
+   "body": "The bar is the quietest part of the composition: wordmark, a short row of links and one #F97316 action, all held at the smallest type step in the brief. The links are set below the wordmark in size, and the #F97316 action is the only element in the bar with any weight."
+  },
+  {
+   "title": "Measured against the viewport",
+   "body": "Nothing in the layout is left to feel: the brief quotes 24px spacing steps and 3.5s transitions and the build has to hit those values. Every value can be checked against the captured prompt, which is what makes a rebuild verifiable rather than approximate."
+  },
+  {
+   "title": "One clip does the work",
+   "body": "The first screen is a single clip at 2046x1400, and everything else is arranged on top of it. The loop is short enough (13.7s) that the eye reads it as texture rather than as a timeline."
+  },
+  {
+   "title": "Navigation without a background",
+   "body": "The bar sits over the 2046x1400 composition without a background of its own, so the media runs edge to edge underneath it."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Ambient motion without a scroll library",
+   "body": "One 13.7s clip is the entire ambient layer: it plays behind the copy, loops without a visible cut and never reacts to the pointer. The clip is short enough to loop without a visible seam, which matters more than its resolution."
+  },
+  {
+   "title": "Timings in milliseconds",
+   "body": "The controls resolve in 3.5s, fast enough that the page answers as it is touched rather than after it. Easing is specified alongside the duration (3.5s), so a rebuild cannot quietly substitute a different feel."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#F97316",
+    "name": "Bright orange",
+    "role": "accent"
+   },
+   {
+    "hex": "#FF4D4D",
+    "name": "Red",
+    "role": "lighter"
+   },
+   {
+    "hex": "#EC4899",
+    "name": "Red — darker",
+    "role": "Secondary"
+   },
+   {
+    "hex": "#050505",
+    "name": "Near-black",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Face not specified",
+    "weights": "Sizes and weights only",
+    "role": "The brief fixes the type scale but leaves the face to the build"
+   }
+  ],
+  "notes": [
+   "Accent use is limited to bright orange #F97316; everything else sits on black #050505.",
+   "Transitions are specified at 3.5s, short enough that the page never feels like it is waiting for an animation.",
+   "Transitions are specified at 3.5s, which is the value to keep when the palette changes."
+  ]
+ },
+ "customize": [
+  "Swap #F97316 for your brand colour and re-check it against #050505, since the accent is the only place saturation is allowed.",
+  "Set 3.5s to your own build speed and check that a standard ease-out still lands the copy before the media starts.",
+  "Rewrite “Manage projects effortlessly with smart tools, stay on track, meet deadlines, and keep your team productive” to the same line count; the mask reveals each line in turn.",
+  "Keep 2046x1400 for the media and re-crop your own asset into it rather than resizing the frame."
+ ],
+ "editorial": [
+  {
+   "title": "How the hero section reflows",
+   "body": "Most responsive work stops at hiding elements. Here the layout changes shape: the navigation collapses into a mobile menu, and nothing important is dropped to make the fold fit. A squeeze would have been cheaper and would not hold."
+  },
+  {
+   "title": "The timing behind the hero section",
+   "body": "Keeping motion this small means the page leans on the type and the frame instead. If 3.5s transitions, a 13.7s media loop and a word-by-word headline were removed entirely, the composition would still stand. Nothing animates for its own sake in this hero section."
+  },
+  {
+   "title": "Why the agency brief holds",
+   "body": "Restraint costs you room for proof above the fold. This brief accepts that cost and spends the first screen on the offer, with 24px spacing steps and 3.5s transitions fixed so a proof section can be added below without a rework. It gives a agency reader the shortest honest route to the offer."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 2046x1400 capture before you generate.",
+  "Set the brand first: product name, the #F97316 accent and a headline that replaces the reference's.",
+  "Drop your product name in, then replace #F97316 with your own accent and re-check the contrast.",
+  "Set your brand first: product name, the #F97316 accent and the headline that replaces the reference's.",
+  "Type the product name and the #F97316 accent before you touch the layout."
+ ],
+ "faq": [
+  {
+   "question": "What can I do with the Brightly brief once I have it?",
+   "answer": "Everything quoted on the page comes from the captured 2,298-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "How long is the prompt behind Brightly?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 2046x1400, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Can I rebuild the Brightly hero section in a different stack?",
+   "answer": "Brightly was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  }
+ ],
+ "audience": [
+  "This hero section serves founders who need one screen of proof that agency copy can carry 13.7s of looping video.",
+  "Made for a solo founder shipping one hero section for an agency or studio and no design system behind them.",
+  "Made for content leads rewriting a hero section whose headline has to stay as long as Brightly's."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Hero section"
+  },
+  {
+   "label": "Category",
+   "value": "Agencies & Studios"
+  },
+  {
+   "label": "Canvas size",
+   "value": "2046x1400 · 1.46:1"
+  },
+  {
+   "label": "Runtime",
+   "value": "13.7s loop"
+  },
+  {
+   "label": "Prompt text",
+   "value": "2,298 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key tone",
+   "value": "bright orange #F97316"
+  },
+  {
+   "label": "Stack",
+   "value": "Tailwind CSS, React"
+  },
+  {
+   "label": "Motion spec",
+   "value": "3.5s transitions and a 13.7s media loop"
+  }
+ ],
+ "related": [
+  "portiva-hero",
+  "adventra-hero",
+  "averra-testimonial-slider",
+  "cliently-agency-testimonials",
+  "lumina-hero",
+  "max-reed-portfolio"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 2298,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

@@ -1,0 +1,203 @@
+{
+ "slug": "ai-workflow",
+ "sourceSlug": "ai-workflow",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "AI Workflow Hero"
+ },
+ "title": "AI Workflow Hero",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/4f410710fdae45d7.webp",
+  "still": "https://cdn.ottermind.ai/public/08199c70892d0176.webp",
+  "preview": "https://cdn.ottermind.ai/public/08199c70892d0176.webp",
+  "full": "https://cdn.ottermind.ai/public/08199c70892d0176.webp",
+  "aspectRatio": 1.3617,
+  "width": 640,
+  "height": 470,
+  "duration": 0
+ },
+ "seo": {
+  "title": "AI Workflow Hero AI & SaaS Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an AI or SaaS product — a stats row, React and Tailwind CSS, cubic-bezier(0.22,1,0.36,1) easing and Inter. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS hero section design",
+   "WebGL SaaS landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "AI Workflow Hero — AI & SaaS Hero Section Design",
+ "tagline": "Hero section reference for an AI or SaaS product, captured at 640x470 with the layout, timings and palette specified in the brief.",
+ "summary": "Hero section reference for an AI or SaaS product — a stats row, React and Tailwind CSS, cubic-bezier(0.22,1,0.36,1) easing and Inter.",
+ "about": "AI Workflow Hero was captured at 640x470 and kept as a specification rather than as a gallery image. The palette is deep green #1F2A1D underneath, set in Inter. The entry names the stack that produced the page (React and Tailwind CSS) rather than hiding it. Motion is 400ms transitions and cubic-bezier(0.22,1,0.36,1), kept quiet enough that the copy still leads. Keep it open while you write: the 16,580-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "A bar with nothing spare",
+   "body": "Navigation is a single row with no second level under it. A mobile overlay takes over below the tablet breakpoint. The bar sits over the 640x470 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "Every measurement is written down",
+   "body": "The layout works on absolute values rather than ratios: 10px spacing steps, 400ms transitions and cubic-bezier(0.22,1,0.36,1) easing. The brief states values rather than proportions, so the composition keeps its relationships when the copy changes length."
+  },
+  {
+   "title": "Tracking tightens as it grows",
+   "body": "With Inter doing the work, the sizes step down hard from the headline to the supporting copy and letter-spacing tightens as the size grows, so the hierarchy is carried by type rather than colour. A face swap is safe as long as the sizes and weights stay where the brief put them. Check the scale in greyscale."
+  },
+  {
+   "title": "One row, no drawers",
+   "body": "Keep the link count to four or five; the row is sized for that. The reference was captured at 640x470."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Short, matched timings",
+   "body": "One duration covers the interactions (400ms using cubic-bezier(0.22,1,0.36,1)), which is what keeps hover and press reading as one system. The values are short enough to read as feedback rather than as animation."
+  },
+  {
+   "title": "Pointers only where they help",
+   "body": "The page answers only where it can be acted on: hover states on the buttons and links rather than on every card. Feedback is limited to the controls, so the composition stays still around them."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#1F2A1D",
+    "name": "Deep green",
+    "role": "composition"
+   },
+   {
+    "hex": "#3D5638",
+    "name": "Muted green",
+    "role": "lightest"
+   },
+   {
+    "hex": "#2D3A2A",
+    "name": "Deep green — lighter",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#2A3827",
+    "name": "Deep green — lighter",
+    "role": "Secondary"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Control text"
+   },
+   {
+    "name": "Neue Haas Grotesk",
+    "weights": "Weight not fixed in the brief",
+    "role": "Secondary copy, captions and labels"
+   }
+  ],
+  "notes": [
+   "The reference was captured at 640x470, and every value quoted on this page comes from the same brief.",
+   "The timing budget is state feedback rather than page choreography (400ms), so a slower rebuild reads as a different design.",
+   "Transitions are specified at 400ms, short enough that the page never feels like it is waiting for an animation."
+  ]
+ },
+ "customize": [
+  "Retime the entrance to your own 400ms, but keep cubic-bezier(0.22,1,0.36,1) as the curve, because the easing is what reads as this design.",
+  "Set 400ms to your own build speed and check that cubic-bezier(0.22,1,0.36,1) still lands the copy before the media starts.",
+  "Replace the headline and the supporting line with your own copy, keeping the same line count so the entrance still lands over the 640x470 frame.",
+  "Draft the new copy to the 640x470 frame, then check that the entrance still lands on the same number of lines."
+ ],
+ "editorial": [
+  {
+   "title": "What moves in AI Workflow Hero",
+   "body": "Motion is limited to 400ms transitions, hover and press states and a live canvas. Nothing in the hero section animates for longer than the brief allows. Nothing animates for its own sake in this hero section."
+  },
+  {
+   "title": "How AI Workflow Hero sequences the first read",
+   "body": "Attention is directed rather than left to chance. The sequence runs navigation, the announcement badge, the stats row, the feature list and the background clip, and each stop is sized against 10px spacing steps and 400ms transitions so nothing arrives out of order. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "What this hero section gets right",
+   "body": "Restraint costs you room for proof above the fold. This brief accepts that cost and spends the first screen on the offer, with 10px spacing steps and 400ms transitions fixed so a proof section can be added below without a rework. AI Workflow Hero states the offer once and lets the composition repeat it rather than adding a second claim."
+  }
+ ],
+ "steps": [
+  "Copy 10px spacing steps, 400ms transitions and cubic-bezier(0.22,1,0.36,1) easing into your own brief before you rewrite anything else.",
+  "Keep the measurements the brief spells out: 10px spacing steps, 400ms transitions and cubic-bezier(0.22,1,0.36,1) easing.",
+  "Check your build against the reference measurements: 10px spacing steps, 400ms transitions and cubic-bezier(0.22,1,0.36,1) easing.",
+  "Pin the reference measurements before you restyle anything: 10px spacing steps, 400ms transitions and cubic-bezier(0.22,1,0.36,1) easing.",
+  "Copy the 400ms timing exactly, then rebuild the entrance before the hover states."
+ ],
+ "faq": [
+  {
+   "question": "Is the AI Workflow Hero prompt a finished spec or a starting point?",
+   "answer": "The captured brief runs 16,580 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "How much of AI Workflow Hero depends on React and Tailwind CSS?",
+   "answer": "AI Workflow Hero was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What drives the motion in AI Workflow Hero?",
+   "answer": "Entrances and state changes are in the 400ms range using cubic-bezier(0.22,1,0.36,1). They are driven by state changes rather than a scroll library, and they never hold up the copy."
+  }
+ ],
+ "audience": [
+  "Made for content leads rewriting a hero section whose headline has to stay as long as AI Workflow Hero's.",
+  "Founders launching an AI or SaaS product hero section who need the Inter decision and the type scale settled before a developer starts.",
+  "Copy the 400ms entrance and the cubic-bezier(0.22,1,0.36,1) curve exactly if you want the same build at the same speed."
+ ],
+ "specs": [
+  {
+   "label": "Page section",
+   "value": "Hero section"
+  },
+  {
+   "label": "Sector",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Format",
+   "value": "640x470 · 1.36:1"
+  },
+  {
+   "label": "Brief",
+   "value": "16,580 characters"
+  },
+  {
+   "label": "Date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Faces",
+   "value": "Inter, Neue Haas Grotesk"
+  },
+  {
+   "label": "Tools",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Animation",
+   "value": "400ms transitions and cubic-bezier(0.22,1,0.36,1) easing"
+  }
+ ],
+ "related": [
+  "planor-hero",
+  "globalbank-management-hero",
+  "aesthetic-login-onboarding",
+  "alertix-hero",
+  "aurelion-feature-blog",
+  "qumica-infrastructure-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 16580,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

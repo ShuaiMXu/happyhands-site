@@ -1,0 +1,202 @@
+{
+ "slug": "averra-testimonial-slider",
+ "sourceSlug": "lp-084-6a0bcb58bf2024a645b29146",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "Averra Testimonials"
+ },
+ "title": "Averra Testimonials",
+ "industry": "creative",
+ "industryLabel": "Agencies & Studios",
+ "section": "testimonials",
+ "sectionLabel": "Testimonials",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/a8e28e9096973908.webp",
+  "still": "https://cdn.ottermind.ai/public/cdfa3975406f83cd.webp",
+  "preview": "https://cdn.ottermind.ai/public/5d69c5db5de8ed3a.mp4",
+  "full": "https://cdn.ottermind.ai/public/e6a2aa60dce912ed.mp4",
+  "aspectRatio": 1.5894,
+  "width": 1920,
+  "height": 1208,
+  "duration": 4.617
+ },
+ "seo": {
+  "title": "Averra Testimonials Testimonials Section Design & Prompt | Ottermind",
+  "description": "Testimonials reference for an agency or studio — React and Tailwind CSS, #EBEFE5 base, #A5E038 accent and looping video. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "agency website design",
+   "agency testimonials section design",
+   "minimal agency landing page",
+   "testimonials section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Averra Testimonials — Agencies & Studios Testimonials Section Design",
+ "tagline": "“A truly collaborative process from start to finish. The results completely exceeded our initial expectations” — the whole testimonials section is composed around that line, down to the animation timings.",
+ "summary": "Testimonials reference for an agency or studio — React and Tailwind CSS, #EBEFE5 base, #A5E038 accent and looping video.",
+ "about": "Averra Testimonials is a agency testimonials section built from one written brief, and this page documents that brief. “A truly collaborative process from start to finish. The results completely exceeded our initial expectations” is the line the layout is built to carry. The palette is white #EBEFE5 underneath, black #111111 for the type and bright lime #A5E038 carrying the accents. It ships as React and Tailwind CSS, so the whole testimonials section can be lifted into a project without a design handoff. Motion is limited to 0.04s transitions, cubic-bezier(0.22, 1, 0.36, 1) and a looping video bed. If you are briefing a agency testimonials section, start from this composition and replace the subject.",
+ "layout": [
+  {
+   "title": "A navigation bar that gets out of the way",
+   "body": "A short run of links and a single action sit over the testimonials section, held at 28px spacing steps and 0.04s transitions so the bar never competes with the composition behind it. The links are set below the wordmark in size, and the #A5E038 action is the only element in the bar with any weight."
+  },
+  {
+   "title": "Video at the bottom layer",
+   "body": "The media is doing atmospheric work rather than storytelling: one 4.6s loop at 1920x1208 behind everything else. Export at 1920x1208 or wider and the cover crop keeps working."
+  },
+  {
+   "title": "Navigation held to one row",
+   "body": "The bar sits over the 1920x1208 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "The spacing steps are quoted",
+   "body": "Sizes were read off the render at 1920x1208: 28px spacing steps, 0.04s transitions and cubic-bezier(0.22, 1, 0.36, 1) easing. Spacing is quoted in the same units as the type, so the two can be compared directly."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Hover where it means something",
+   "body": "Feedback is limited to hover states on the buttons and links rather than on every card and a slider that pages through content on demand, so the rest of the layout is a fixed composition. Hover and focus are specified together, so the pointer and the keyboard get the same information."
+  },
+  {
+   "title": "A loop, not a timeline",
+   "body": "Ambient movement comes from the 4.6s 1920x1208 loop rather than from scroll effects, which keeps the page calm and the type readable. Because it is muted, the loop can run under the copy without competing for sound or focus."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#A5E038",
+    "name": "Bright lime",
+    "role": "accent"
+   },
+   {
+    "hex": "#EBEFE5",
+    "name": "White",
+    "role": "composition"
+   },
+   {
+    "hex": "#111111",
+    "name": "Near-black",
+    "role": "Headline"
+   },
+   {
+    "hex": "#181A15",
+    "name": "Near-black — lighter",
+    "role": "darker step"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Face not specified",
+    "weights": "Sizes and weights only",
+    "role": "The brief fixes the type scale but leaves the face to the build"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 0.04s, which is the value to keep when the palette changes.",
+   "Accent and ground are both named (bright lime #A5E038 on white #EBEFE5), so a brand swap moves one value.",
+   "Media is specified at 1920x1208 and a 4.6s loop, so a replacement should match the crop and the loop length."
+  ]
+ },
+ "customize": [
+  "Move #A5E038 to your own hue and leave #EBEFE5 where it is; the distance between them is doing the hierarchy work.",
+  "Keep the 1920x1208 frame when you swap the content, because the composition was solved against that ratio.",
+  "Swap the clip for your own. Export at 1920x1208 or wider, keep it muted, and make the 4.6s loop seamless so the cut is invisible.",
+  "Change #A5E038 for your brand accent and re-check it against #EBEFE5, because the accent is the only saturated value in this composition."
+ ],
+ "editorial": [
+  {
+   "title": "The argument this testimonials section makes",
+   "body": "Most agency pages add another section when the first screen is weak. This one removes options instead: navigation and the stats row, in that order, and nothing that repeats the offer. Averra Testimonials states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "Reading Averra Testimonials as a spec",
+   "body": "The page has more numbers in it than it appears to. 28px spacing steps, 0.04s transitions and cubic-bezier(0.22, 1, 0.36, 1) easing are the ones a rebuild has to keep; the rest can move. Nothing in this testimonials section depends on a default."
+  },
+  {
+   "title": "How Averra Testimonials sequences the first read",
+   "body": "The trade-off is patience: the page withholds the detail a scannable grid would hand over immediately. What it buys is a first screen where navigation and the stats row cannot be misread. A agency reader gets the offer before the options."
+  }
+ ],
+ "steps": [
+  "Start in Studio with the prompt prefilled, then delete the parts of the testimonials section you do not need.",
+  "Open the reference in Studio with the prompt staged, and read the testimonials section brief before you send it.",
+  "Stage the prompt in Studio and read it once against the 1920x1208 capture before you generate.",
+  "Set your brand first: product name, the #A5E038 accent and the headline that replaces the reference's.",
+  "Type the product name and the #A5E038 accent before you touch the layout."
+ ],
+ "faq": [
+  {
+   "question": "What do I get when I copy the Averra Testimonials brief?",
+   "answer": "The captured brief runs 3,584 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "What can I do with the Averra Testimonials brief once I have it?",
+   "answer": "Everything quoted on the page comes from the captured 3,584-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "Why does the entry name React and Tailwind CSS at all?",
+   "answer": "Averra Testimonials was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  }
+ ],
+ "audience": [
+  "If you brief a model rather than a designer, start from the testimonials section and let the prompt hold a 1920x1208 frame.",
+  "This testimonials section serves founders who need one screen of proof that agency copy can carry 4.6s of looping video.",
+  "Made for product managers who need the testimonials section scoped to one sprint and no new assets."
+ ],
+ "specs": [
+  {
+   "label": "Block",
+   "value": "Testimonials"
+  },
+  {
+   "label": "Sector",
+   "value": "Agencies & Studios"
+  },
+  {
+   "label": "Canvas",
+   "value": "1920x1208 · 1.59:1"
+  },
+  {
+   "label": "Runtime",
+   "value": "4.6s loop"
+  },
+  {
+   "label": "Brief",
+   "value": "3,584 characters"
+  },
+  {
+   "label": "Date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key colour",
+   "value": "bright lime #A5E038"
+  },
+  {
+   "label": "Reference stack",
+   "value": "Tailwind CSS, React"
+  },
+  {
+   "label": "Timing",
+   "value": "0.04s transitions, cubic-bezier(0.22, 1, 0.36, 1) easing and a 4.6s media loop"
+  }
+ ],
+ "related": [
+  "sparkform",
+  "subscription-agency",
+  "talent-collective",
+  "taskly-hero",
+  "velorah-hero",
+  "vision-reveal"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 3584,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

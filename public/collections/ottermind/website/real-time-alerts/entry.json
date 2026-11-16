@@ -1,0 +1,203 @@
+{
+ "slug": "real-time-alerts",
+ "sourceSlug": "real-time-alerts",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Real-Time Alerts"
+ },
+ "title": "Real-Time Alerts",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "auth",
+ "sectionLabel": "Sign-in flow",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/f26d1a29eecb7462.webp",
+  "still": "https://cdn.ottermind.ai/public/53692b659b69fcdb.webp",
+  "preview": "https://cdn.ottermind.ai/public/db87266e0b92fe87.mp4",
+  "full": "https://cdn.ottermind.ai/public/4820b1df240ee8b6.mp4",
+  "aspectRatio": 1.6093,
+  "width": 1738,
+  "height": 1080,
+  "duration": 4.867
+ },
+ "seo": {
+  "title": "Real-Time Alerts AI & SaaS Sign-In Flow Design & Prompt | Ottermind",
+  "description": "Sign-in flow reference for an AI or SaaS product — one self-contained HTML file, fluid type and max-width 370px and max-width 500px breakpoints. Copy the prompt or open it.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS sign-in screen design",
+   "glass SaaS landing page",
+   "sign-in screen design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Real-Time Alerts — AI & SaaS Sign-In Flow Design",
+ "tagline": "“Built for fast-moving teams” — the whole sign-in flow is composed around that line, down to the animation timings.",
+ "summary": "Sign-in flow reference for an AI or SaaS product — one self-contained HTML file, fluid type and max-width 370px and max-width 500px breakpoints.",
+ "about": "Real-Time Alerts solves the sign-in screen problem for an AI or SaaS product with a single captured brief. The headline reads “Built for fast-moving teams”, and the rest of the sign-in screen is arranged around it. Colour is limited to neutral #797979 underneath and shade #2F2A27 for the type, set in Eloquia. It ships as one self-contained HTML file, so the whole sign-in screen can be lifted into a project without a design handoff. The brief spends its motion budget on 3500ms transitions, cubic-bezier(.2.7.3,1) and a looping video bed. Start from the captured brief, then edit the sign-in screen rather than rebuilding it from scratch.",
+ "layout": [
+  {
+   "title": "Measured against the viewport",
+   "body": "Every measurement in the brief is a number you can measure back: a fixed 16px display size, 100vh sections, 26px corners and 10px spacing steps. Every value can be checked against the captured prompt, which is what makes a rebuild verifiable rather than approximate."
+  },
+  {
+   "title": "One clip does the work",
+   "body": "The composition is built on top of the 1738x1080 clip rather than beside it, so the media never gets a panel or a border. The loop is short enough (4.9s) that the eye reads it as texture rather than as a timeline."
+  },
+  {
+   "title": "Sign-up as the composition",
+   "body": "There is one decision to make here: fill the form or leave. Everything else on the screen supports that decision. Error and focus states are specified rather than left to the browser. One column, one action."
+  },
+  {
+   "title": "Numbers instead of a claim",
+   "body": "The numbers row is the proof: three or four figures on one line, small labels under each, kept in the same Eloquia as the interface so it reads as data rather than decoration. The label step is quoted in the brief, so it stays below the figures after a substitution."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Fast enough to feel deliberate",
+   "body": "Transitions are specified at 3500ms using cubic-bezier(.2.7.3,1), which is the timing the controls are held to. The same duration is reused across controls, which keeps the interactions feeling like one system. Carry the durations into your build."
+  },
+  {
+   "title": "A marquee carries the rhythm",
+   "body": "A marquee runs through the composition on an endless loop, set in Eloquia. It is the only continuous motion outside the media, which keeps the page from feeling restless."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#2C3343",
+    "name": "Shade",
+    "role": "darker step"
+   },
+   {
+    "hex": "#797979",
+    "name": "Neutral",
+    "role": "composition"
+   },
+   {
+    "hex": "#2F2A27",
+    "name": "Shade — darker",
+    "role": "Headline"
+   },
+   {
+    "hex": "#606060",
+    "name": "Shade — lighter",
+    "role": "panel edges"
+   }
+  ],
+  "glass": "Panels are translucent over neutral #797979, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Eloquia",
+    "weights": "16px",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "The layout shifts at max-width 370px and max-width 500px, so the narrow composition is designed rather than inherited.",
+   "Media is specified at 1738x1080 and a 4.9s loop, so a replacement should match the crop and the loop length.",
+   "Nothing sits between the type and the 1738x1080 clip, so a replacement has to work under the copy directly."
+  ]
+ },
+ "customize": [
+  "Keep 1738x1080 for the media and re-crop your own asset into it rather than resizing the frame.",
+  "Replace “Built for fast-moving teams” with your own line and keep the word count, because the entrance is timed per line.",
+  "Draft the new copy to the 1738x1080 frame, then check that the entrance still lands on the same number of lines.",
+  "Swap the clip for your own. Export at 1738x1080 or wider, keep it muted, and make the 4.9s loop seamless so the cut is invisible."
+ ],
+ "editorial": [
+  {
+   "title": "The order behind the sign-in screen",
+   "body": "Nothing here competes with the first decision. The page says it out loud: “Built for fast-moving teams”. The supporting material waits below the fold, and the headline, the announcement badge, the stats row, the card grid and the form carry the top of the page alone. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "Making the sign-in screen yours",
+   "body": "A template asks you to accept its layout; this reference asks you to keep it and change everything inside. The difference is that a fixed 16px display size, 100vh sections, 26px corners, 10px spacing steps and 3500ms transitions stay fixed while the subject moves. A different brand can reuse the whole frame."
+  },
+  {
+   "title": "The numbers behind the sign-in screen",
+   "body": "If you are handing this to a developer, the brief is the useful artefact. It states a fixed 16px display size, 100vh sections, 26px corners, 10px spacing steps and 3500ms transitions and leaves nothing for the two of you to interpret. Nothing in this sign-in screen depends on a default."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1738x1080 capture before you generate.",
+  "Pin the reference measurements before you restyle anything: a fixed 16px display size, 100vh sections and 26px corners.",
+  "Copy a fixed 16px display size, 100vh sections and 26px corners into your own brief before you rewrite anything else.",
+  "Check your build against the reference measurements: a fixed 16px display size, 100vh sections and 26px corners.",
+  "Keep the measurements the brief spells out: a fixed 16px display size, 100vh sections and 26px corners."
+ ],
+ "faq": [
+  {
+   "question": "Can I rebuild the Real-Time Alerts sign-in screen in a different stack?",
+   "answer": "Real-Time Alerts was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "What can I do with the Real-Time Alerts brief once I have it?",
+   "answer": "Everything quoted on the page comes from the captured 21,771-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "What does the brief behind Real-Time Alerts actually contain?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1738x1080, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  }
+ ],
+ "audience": [
+  "Write your own headline, then rebuild this sign-in screen in one self-contained HTML file with the measurements intact.",
+  "Hand one self-contained HTML file to the engineer with the 1738x1080 crop attached, then let them rebuild it.",
+  "Studio teams briefing a build and looking for a 370px breakpoint to react to."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Sign-in flow"
+  },
+  {
+   "label": "Vertical",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Canvas",
+   "value": "1738x1080 · 1.61:1"
+  },
+  {
+   "label": "Runtime",
+   "value": "4.9s loop"
+  },
+  {
+   "label": "Source text",
+   "value": "21,771 characters"
+  },
+  {
+   "label": "Date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Typefaces",
+   "value": "Eloquia · 16px"
+  },
+  {
+   "label": "Tech stack",
+   "value": "vanilla JS, single HTML file"
+  },
+  {
+   "label": "Transitions",
+   "value": "3500ms transitions, cubic-bezier(.2.7.3,1) easing and a 4.9s media loop"
+  }
+ ],
+ "related": [
+  "transform-data-hero",
+  "vela-ul",
+  "visual-hero",
+  "vize-footer",
+  "404",
+  "404-planet"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 21771,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

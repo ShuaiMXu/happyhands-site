@@ -1,0 +1,207 @@
+{
+ "slug": "launchex-about",
+ "sourceSlug": "launchex-about",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "LaunchEx About"
+ },
+ "title": "LaunchEx About",
+ "industry": "creative",
+ "industryLabel": "Agencies & Studios",
+ "section": "about",
+ "sectionLabel": "About page",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/f403dfb9502d37f6.webp",
+  "still": "https://cdn.ottermind.ai/public/7cc365ceaba14d14.webp",
+  "preview": "https://cdn.ottermind.ai/public/7cc365ceaba14d14.webp",
+  "full": "https://cdn.ottermind.ai/public/7cc365ceaba14d14.webp",
+  "aspectRatio": 1.3793,
+  "width": 640,
+  "height": 464,
+  "duration": 0
+ },
+ "seo": {
+  "title": "LaunchEx About Agencies & Studios About Page Design & Prompt | Ottermind",
+  "description": "About page reference for an agency or studio — a 640x464 frame, #4BBDF0 accent, a masked headline reveal and React and Tailwind CSS. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "agency website design",
+   "agency about page design",
+   "minimal agency landing page",
+   "about page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "LaunchEx About — Agencies & Studios About Page Design",
+ "tagline": "About page reference built on white #F0F5F7 and teal #4BBDF0, set in Inter and measured against type from 14px to 54px.",
+ "summary": "About page reference for an agency or studio — a 640x464 frame, #4BBDF0 accent, a masked headline reveal and React and Tailwind CSS.",
+ "about": "LaunchEx About is a working reference for an agency or studio: the about page laid out, measured and ready to rebuild. The colour scheme is white #F0F5F7 underneath, teal #154359 for the type and teal #4BBDF0 carrying the accents, and the page is set in Inter. The reference is built with React and Tailwind CSS, and the layout decisions are stated independently of it. Take it on when the about page needs a decided order before any new sections are added.",
+ "layout": [
+  {
+   "title": "One scale for type and frame",
+   "body": "Sizes were read off the render at 640x464: type from 14px to 54px, 100vh sections and 14px spacing steps. The type and the layout share the same steps, so nothing drifts when one of them is substituted."
+  },
+  {
+   "title": "Figures treated as typography",
+   "body": "A row of stats sits above the fold, set in Inter at the top of the scale, with #4BBDF0 left for the figures that carry a claim. The figures carry the #4BBDF0 accent while everything around them stays on the ink colour. Keep the figures to one line."
+  },
+  {
+   "title": "Every measurement is written down",
+   "body": "Spacing is quoted the same way (type from 14px to 54px, 100vh sections and 14px spacing steps), not as a scale that grows on its own."
+  },
+  {
+   "title": "Labels under the figures",
+   "body": "Numbers share the interface face, so they belong to the page instead of interrupting it."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Pointers only where they help",
+   "body": "The pointer work is small and specified: hover states on the buttons and links rather than on every card, applied to the elements that already look interactive. The states are named in the brief, so the page does not depend on a hover-effect library. Keep the pointer effects on the controls."
+  },
+  {
+   "title": "Static by design",
+   "body": "The brief leaves animation out and lets the 640x464 layout carry the page, with hover and press states the only changes. Only the elements that respond to the pointer move."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#154359",
+    "name": "Teal",
+    "role": "Headline"
+   },
+   {
+    "hex": "#F0F5F7",
+    "name": "White",
+    "role": "composition"
+   },
+   {
+    "hex": "#185B7B",
+    "name": "Teal — lighter",
+    "role": "darker"
+   },
+   {
+    "hex": "#4BBDF0",
+    "name": "Teal — lighter",
+    "role": "accent"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "14–54px",
+    "role": "Headline and interface text"
+   },
+   {
+    "name": "TT Firs Neue",
+    "weights": "14–54px",
+    "role": "Secondary copy, captions and labels"
+   }
+  ],
+  "notes": [
+   "Font roles are assigned rather than mixed here, and 14–54px is the range the whole scale works in.",
+   "The display line is Inter at the top of a 14–54px scale, with the interface text on the same face.",
+   "The accent is spent on teal #4BBDF0 and the rest of the composition holds white #F0F5F7."
+  ]
+ },
+ "customize": [
+  "Keep the supporting line as short as the reference's and measure the pair against the 640x464 crop.",
+  "Change the copy before the colour: rewrite the Inter paragraphs first, then check #4BBDF0 against the media behind them.",
+  "Draft the new copy to the 640x464 frame, then check that the entrance still lands on the same number of lines.",
+  "Check #4BBDF0 against the copy size in Inter before you swap either, because the accent only reads on a large line."
+ ],
+ "editorial": [
+  {
+   "title": "The order behind the about page",
+   "body": "Read it in order: the stats row and the card grid. Each element has one job, and the teal #4BBDF0 accent is spent only on the element you are meant to press. A agency reader gets the offer before the options."
+  },
+  {
+   "title": "Reading LaunchEx About as a spec",
+   "body": "Where a mood board leaves the scale open, this brief closes it: type from 14px to 54px and 100vh sections, with the surrounding values derived from that decision. Nothing in this about page depends on a default."
+  },
+  {
+   "title": "What to change first in LaunchEx About",
+   "body": "The composition is the reusable part; the subject is yours. Swap the headline, keep the type scale (type from 14px to 54px), and re-test the #4BBDF0 accent over your own media. If a new element does not help explain the offer or the next action, it belongs below the fold. Rewrite the copy and the media before you re-colour anything."
+  }
+ ],
+ "steps": [
+  "Drop your product name in, then replace #4BBDF0 with your own accent and re-check the contrast.",
+  "Set the brand first: product name, the #4BBDF0 accent and a headline that replaces the reference's.",
+  "Type the product name and the #4BBDF0 accent before you touch the layout.",
+  "Set your brand first: product name, the #4BBDF0 accent and the headline that replaces the reference's.",
+  "Pin the reference measurements before you restyle anything: type from 14px to 54px, 100vh sections and 14px spacing steps."
+ ],
+ "faq": [
+  {
+   "question": "Is the LaunchEx About prompt a finished spec or a starting point?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 640x464, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Why does the entry name React and Tailwind CSS at all?",
+   "answer": "LaunchEx About was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "How much of LaunchEx About is animated?",
+   "answer": "The motion is specified at the same level of detail as the layout: state changes settle in the sub-second range. Port the composition first and the timings second, because they are easier to match once the layout holds. The reference was captured at 640x464."
+  }
+ ],
+ "audience": [
+  "Growth teams reskinning an agency or studio about page who want the 640x464 frame kept while the offer copy changes.",
+  "Designers who need the numbers first: type from 14px to 54px and 100vh sections, all of it quoted from the brief.",
+  "People who brief a model on a about page will use the 6,908-character prompt as the starting point."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "About page"
+  },
+  {
+   "label": "Vertical",
+   "value": "Agencies & Studios"
+  },
+  {
+   "label": "Canvas size",
+   "value": "640x464 · 1.38:1"
+  },
+  {
+   "label": "Prompt text",
+   "value": "6,908 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent tone",
+   "value": "teal #4BBDF0"
+  },
+  {
+   "label": "Type",
+   "value": "Inter, TT Firs Neue · 14–54px"
+  },
+  {
+   "label": "Reference stack",
+   "value": "Tailwind CSS, React, Lucide icons"
+  },
+  {
+   "label": "Motion",
+   "value": "state changes only"
+  }
+ ],
+ "related": [
+  "innovation-landing",
+  "stories-in-light-hero",
+  "neurolink-memorial-hero",
+  "portiva-hero",
+  "adventra-hero",
+  "averra-testimonial-slider"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 6908,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

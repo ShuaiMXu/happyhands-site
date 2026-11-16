@@ -1,0 +1,203 @@
+{
+ "slug": "neon-logic",
+ "sourceSlug": "neon-logic",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Neon Logic"
+ },
+ "title": "Neon Logic",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/a01370b3d18ece59.webp",
+  "still": "https://cdn.ottermind.ai/public/5e7085d9ecacd62e.webp",
+  "preview": "https://cdn.ottermind.ai/public/5e7085d9ecacd62e.webp",
+  "full": "https://cdn.ottermind.ai/public/5e7085d9ecacd62e.webp",
+  "aspectRatio": 1.3502,
+  "width": 640,
+  "height": 474,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Neon Logic AI & SaaS Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an AI or SaaS product — #010103 base, React and Tailwind CSS, fluid type and Space Mono. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS landing page design",
+   "video-backed SaaS landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Neon Logic — AI & SaaS Landing Page Design",
+ "tagline": "Landing page reference for an AI or SaaS product, captured at 640x474 with the layout, timings and palette specified in the brief.",
+ "summary": "Landing page reference for an AI or SaaS product — #010103 base, React and Tailwind CSS, fluid type and Space Mono.",
+ "about": "Neon Logic is a SaaS landing page built from one written brief, and this page documents that brief. Colour is limited to deep blue #010103 underneath and white #FFFFFF for the type, set in Space Mono. Delivery is React and Tailwind CSS — one page, no plugin, no build tooling between you and the design. Motion comes down to 800ms transitions. Keep it open while you write: the 13,601-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "Links before the action",
+   "body": "The bar is one row of text and one action, measured at type from 12px to 42px and 100vh sections so it reads as a strip rather than as a band. The bar sits over the 640x474 composition without a background of its own, so the media runs edge to edge underneath it. Keep the row to one line."
+  },
+  {
+   "title": "Proof above the fold",
+   "body": "The figures are set as type rather than in a card: Space Mono at the display size with labels one step below. There are no dividers inside the row; spacing alone separates the figures."
+  },
+  {
+   "title": "Navigation held to one row",
+   "body": "Design the collapsed state before adding a sixth link. The reference was captured at 640x474."
+  },
+  {
+   "title": "Numbers carried into the build",
+   "body": "The values are the specification: type from 12px to 42px, 100vh sections, 14px spacing steps and 800ms transitions, captured at 640x474 rather than inferred from a screenshot. Values are quoted from the captured prompt rather than inferred, so they survive a re-render. Port the values with the layout."
+  }
+ ],
+ "motion": [
+  {
+   "title": "State changes, timed",
+   "body": "The brief fixes the transition value at 800ms, so a rebuild cannot substitute a slower default. Nothing waits on a scroll position, so the page responds the moment you touch it. Do not ship the browser default."
+  },
+  {
+   "title": "Depth from a render",
+   "body": "Depth comes from the render rather than from illustration: a 3D transform on the main element. The brief keeps the interface plain around the canvas so the scene is the only spectacle."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#FFFFFF",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#8E7F94",
+    "name": "Muted indigo",
+    "role": "lighter step"
+   },
+   {
+    "hex": "#E2E2E6",
+    "name": "White — darker",
+    "role": "Hover tint"
+   },
+   {
+    "hex": "#010103",
+    "name": "Near-black",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Space Mono",
+    "weights": "400 / 700",
+    "role": "Mono labels"
+   },
+   {
+    "name": "Anton",
+    "weights": "400 / 700",
+    "role": "Body copy"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 800ms, which is the value to keep when the palette changes.",
+   "The type is set in Space Mono on a 12–42px scale, and the spacing follows the same steps.",
+   "Font roles are assigned rather than mixed here, and 12–42px is the range the whole scale works in."
+  ]
+ },
+ "customize": [
+  "Set 800ms to your own build speed and check that a standard ease-out still lands the copy before the media starts.",
+  "Retime the entrance to taste. 800ms with a standard ease-out is what the reference uses.",
+  "Swap Space Mono for a face with the same x-height and cap height, then re-measure the headline block.",
+  "Retime the entrance to your own 800ms, but keep a standard ease-out as the curve, because the easing is what reads as this design."
+ ],
+ "editorial": [
+  {
+   "title": "How the landing page reflows",
+   "body": "If your breakpoints were chosen to make things fit rather than to change the layout, read this entry. the type is clamped between 12px and 42px, the section is held at 100vh and the navigation collapses into a mobile menu rather than a list of hidden elements. The scale changes with the viewport; the sequence does not."
+  },
+  {
+   "title": "The numbers behind the landing page",
+   "body": "A rebuild usually starts with a screenshot and a guess. Here it starts with 13,601 characters of specification: the frame, the spacing and the motion are written down before the first line of code. Nothing in this landing page depends on a default."
+  },
+  {
+   "title": "The timing behind the landing page",
+   "body": "Ambitious motion usually costs the first screen its legibility. This brief keeps 800ms transitions, hover and press states and a live canvas short enough that the type never has to wait. Nothing animates for its own sake in this landing page."
+  }
+ ],
+ "steps": [
+  "Check your build against the reference measurements: type from 12px to 42px, 100vh sections and 14px spacing steps.",
+  "Keep the measurements the brief spells out: type from 12px to 42px, 100vh sections and 14px spacing steps.",
+  "Copy type from 12px to 42px, 100vh sections and 14px spacing steps into your own brief before you rewrite anything else.",
+  "Pin the reference measurements before you restyle anything: type from 12px to 42px, 100vh sections and 14px spacing steps.",
+  "Add the entrance first at 800ms, and only then the hover and scroll behaviour."
+ ],
+ "faq": [
+  {
+   "question": "What do I get when I copy the Neon Logic brief?",
+   "answer": "The captured brief runs 13,601 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "How much of Neon Logic depends on React and Tailwind CSS?",
+   "answer": "Neon Logic was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "How much of Neon Logic is animated?",
+   "answer": "The motion is specified at the same level of detail as the layout: state changes settle in the 800ms range. Port the composition first and the timings second, because they are easier to match once the layout holds."
+  }
+ ],
+ "audience": [
+  "Founders who brief an agency will use the 640x474 frame as the acceptance test for the first round.",
+  "Start from type from 12px to 42px and 100vh sections and let the palette follow, because the spacing is what makes this landing page read.",
+  "Made for content leads rewriting a landing page whose headline has to stay as long as Neon Logic's."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Landing page"
+  },
+  {
+   "label": "Industry",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Format",
+   "value": "640x474 · 1.35:1"
+  },
+  {
+   "label": "Prompt text",
+   "value": "13,601 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Typefaces",
+   "value": "Space Mono, Anton · 12–42px"
+  },
+  {
+   "label": "Tech stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Motion",
+   "value": "800ms transitions"
+  }
+ ],
+ "related": [
+  "quantum-core",
+  "quantum-lucid",
+  "real-time-alerts",
+  "rocket-cta",
+  "rocket-pricing",
+  "scaling-platform"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 13601,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

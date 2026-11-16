@@ -1,0 +1,202 @@
+{
+ "slug": "alertix-hero",
+ "sourceSlug": "lp-077-69f3923ae064561c9d64c36d",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "Alertix"
+ },
+ "title": "Alertix",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/b9bc1b19a894b922.webp",
+  "still": "https://cdn.ottermind.ai/public/2073f11b424d3ab1.webp",
+  "preview": "https://cdn.ottermind.ai/public/4ba2803c5ba562ae.mp4",
+  "full": "https://cdn.ottermind.ai/public/472e21843d312ef5.mp4",
+  "aspectRatio": 1.3813,
+  "width": 1920,
+  "height": 1390,
+  "duration": 7.933
+ },
+ "seo": {
+  "title": "Alertix AI & SaaS Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an AI or SaaS product — a dark stage, looping video, #0A0F14 base and React and Tailwind CSS. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS hero section design",
+   "video-backed SaaS landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Alertix — AI & SaaS Hero Section Design",
+ "tagline": "“Stay Ahead With *Cutting-Edge*” — the whole hero section is composed around that line, down to the animation timings.",
+ "summary": "Hero section reference for an AI or SaaS product — a dark stage, looping video, #0A0F14 base and React and Tailwind CSS.",
+ "about": "Alertix was captured at 1932x1400 and kept as a specification rather than as a gallery image. The page's own headline reads “Stay Ahead With *Cutting-Edge*”, and the composition is built around those exact words. The whole page is built on deep blue #0A0F14 underneath, muted teal #C3DFE8 for the type and blue #1D1D6D carrying the accents. Delivery is React and Tailwind CSS — one page, no plugin, no build tooling between you and the design. The brief spends its motion budget on a looping video bed. It is the right reference for an AI or SaaS product hero section that has to look deliberate on the first screen.",
+ "layout": [
+  {
+   "title": "The nav is deliberately thin",
+   "body": "Links sit on one line at a single size, and the #1D1D6D action closes the row on the right so the eye finishes where the navigation ends. The links are set below the wordmark in size, and the #1D1D6D action is the only element in the bar with any weight."
+  },
+  {
+   "title": "Values you can check",
+   "body": "The layout is solved against fixed values (120px spacing steps), which is what keeps the first screen composed at any width. The list is short enough that a reviewer can check it element by element."
+  },
+  {
+   "title": "Video at the bottom layer",
+   "body": "The first screen is a single clip at 1932x1400, and everything else is arranged on top of it. A poster frame at 1932x1400 holds the composition when autoplay is unavailable, so the layout never collapses. Export at 1932x1400 or wider to keep the crop honest."
+  },
+  {
+   "title": "Links before the action",
+   "body": "The bar sits over the 1932x1400 composition without a background of its own, so the media runs edge to edge underneath it."
+  }
+ ],
+ "motion": [
+  {
+   "title": "The loop does the ambient work",
+   "body": "Ambient movement comes from the 7.9s 1932x1400 loop rather than from scroll effects, which keeps the page calm and the type readable. Because it is muted, the loop can run under the copy without competing for sound or focus."
+  },
+  {
+   "title": "Hover where it means something",
+   "body": "Only the controls respond to the pointer (hover states on the buttons and links rather than on every card), so the page feels responsive without turning every element into a target. Feedback is limited to the controls, so the composition stays still around them."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#0A0F14",
+    "name": "Near-black",
+    "role": "composition"
+   },
+   {
+    "hex": "#010102",
+    "name": "Near-black — darker",
+    "role": "darkest"
+   },
+   {
+    "hex": "#C3DFE8",
+    "name": "Muted teal",
+    "role": "Headline"
+   },
+   {
+    "hex": "#1D1D6D",
+    "name": "Blue",
+    "role": "accent"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Face not specified",
+    "weights": "Sizes and weights only",
+    "role": "The brief fixes the type scale but leaves the face to the build"
+   }
+  ],
+  "notes": [
+   "Nothing sits between the type and the 1932x1400 clip, so a replacement has to work under the copy directly.",
+   "The accent is spent on blue #1D1D6D and the rest of the composition holds deep blue #0A0F14.",
+   "Accent and ground are both named (blue #1D1D6D on deep blue #0A0F14), so a brand swap moves one value."
+  ]
+ },
+ "customize": [
+  "Hold the hero section to one screen on desktop; the brief never asks the reader to scroll past the fold.",
+  "Swap the clip for your own footage at 1932x1400 or wider, keep it muted, and match the 7.9s loop point.",
+  "Replace the headline and the supporting line with your own copy, keeping the same line count so the entrance still lands over the 1932x1400 frame.",
+  "Change the copy first, then the accent, then the media: the 1932x1400 frame was solved in that order and reversing it costs a re-layout."
+ ],
+ "editorial": [
+  {
+   "title": "What to change first in Alertix",
+   "body": "A template asks you to accept its layout; this reference asks you to keep it and change everything inside. The difference is that 120px spacing steps stay fixed while the subject moves. The subject is the part that should change."
+  },
+  {
+   "title": "How the hero section reflows",
+   "body": "Responsive here means the scale changes and the sequence does not. the navigation collapses into a mobile menu, and the reading order stays where the brief put it. The order is the last thing to change."
+  },
+  {
+   "title": "How Alertix sequences the first read",
+   "body": "When a SaaS reader lands on a single screen, they scan before they read. The layout answers that: navigation and the background clip are sized to be scanned, with 120px spacing steps keeping each stop distinct. A SaaS reader gets the offer before the options."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1932x1400 capture before you generate.",
+  "Drop your product name in, then replace #1D1D6D with your own accent and re-check the contrast.",
+  "Type the product name and the #1D1D6D accent before you touch the layout.",
+  "Set your brand first: product name, the #1D1D6D accent and the headline that replaces the reference's.",
+  "Set the brand first: product name, the #1D1D6D accent and a headline that replaces the reference's."
+ ],
+ "faq": [
+  {
+   "question": "What does the brief behind Alertix actually contain?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1932x1400, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "How much of Alertix depends on React and Tailwind CSS?",
+   "answer": "Alertix was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Can I use Alertix in a client project?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1932x1400."
+  }
+ ],
+ "audience": [
+  "In-house squads extending this hero section who need 120px spacing steps carried into the new blocks unchanged.",
+  "People who brief a model on a hero section will use the 3,245-character prompt as the starting point.",
+  "Product marketers who need the hero section to still read with 7.9s of looping video behind the copy."
+ ],
+ "specs": [
+  {
+   "label": "Block",
+   "value": "Hero section"
+  },
+  {
+   "label": "Sector",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Canvas size",
+   "value": "1932x1400 · 1.38:1"
+  },
+  {
+   "label": "Loop",
+   "value": "7.9s loop"
+  },
+  {
+   "label": "Prompt",
+   "value": "3,245 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key colour",
+   "value": "blue #1D1D6D"
+  },
+  {
+   "label": "Tools",
+   "value": "Tailwind CSS, React"
+  },
+  {
+   "label": "Timing",
+   "value": "a 7.9s media loop"
+  }
+ ],
+ "related": [
+  "growth-decisions",
+  "haul-footer",
+  "intelligence-layer",
+  "intelligent-operations",
+  "intelligent-performance",
+  "intelligentx"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 3245,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

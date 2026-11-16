@@ -1,0 +1,208 @@
+{
+ "slug": "coffee-rewards",
+ "sourceSlug": "coffee-rewards",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Coffee Rewards"
+ },
+ "title": "Coffee Rewards",
+ "industry": "ecommerce",
+ "industryLabel": "Ecommerce",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/fe8ac15221bd898e.webp",
+  "still": "https://cdn.ottermind.ai/public/7f47d21f50b7dfe6.webp",
+  "preview": "https://cdn.ottermind.ai/public/91c48a63d675fc61.mp4",
+  "full": "https://cdn.ottermind.ai/public/3323911ba3757590.mp4",
+  "aspectRatio": 1.3722,
+  "width": 1482,
+  "height": 1080,
+  "duration": 5.9
+ },
+ "seo": {
+  "title": "Coffee Rewards Ecommerce Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an ecommerce brand — cubic-bezier(0.16, 1, 0.3, 1) easing, glass panels, Vite and a stats row. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "ecommerce website design",
+   "ecommerce landing page design",
+   "glass ecommerce landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Coffee Rewards — Ecommerce Landing Page Design",
+ "tagline": "Landing page reference built around “Plum Parfait Latte”, with the layout, timings and palette written down in the brief.",
+ "summary": "Landing page reference for an ecommerce brand — cubic-bezier(0.16, 1, 0.3, 1) easing, glass panels, Vite and a stats row.",
+ "about": "Before rebuilding a landing page for an ecommerce brand, read Coffee Rewards: the composition and the specification behind it are both here. The headline reads “Plum Parfait Latte”, and the rest of the landing page is arranged around it. The palette is deep orange #070402 underneath and #EDE4D8 for the type, set in Helvetica Now Display. Delivery is Vite — one page, no plugin, no build tooling between you and the design. The page keeps its motion to 0.7s transitions, cubic-bezier(0.16, 1, 0.3, 1) and a looping video bed. If you are briefing a ecommerce landing page, start from this composition and replace the subject.",
+ "layout": [
+  {
+   "title": "The spacing steps are quoted",
+   "body": "The layout is solved against fixed values (16px spacing steps, 0.7s transitions and cubic-bezier(0.16, 1, 0.3, 1) easing), which is what keeps the first screen composed at any width. Values are quoted from the captured prompt rather than inferred, so they survive a re-render."
+  },
+  {
+   "title": "A clip, not an illustration",
+   "body": "The composition is built on top of the 1482x1080 clip rather than beside it, so the media never gets a panel or a border. The loop is short enough (5.9s) that the eye reads it as texture rather than as a timeline."
+  },
+  {
+   "title": "Type sets the hierarchy",
+   "body": "The faces are assigned roles rather than mixed: Helvetica Now Display carries the display and the interface together. Tracking is set per size, so the display line and the caption do not share one letter-spacing value."
+  },
+  {
+   "title": "Numbers instead of a claim",
+   "body": "A compact stats strip carries the claims that would otherwise need a paragraph, which keeps the landing page from turning into a feature list. The row belongs to the first screen rather than to a separate band, which keeps the proof close to the claim."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Ambient motion without a scroll library",
+   "body": "One 5.9s clip is the entire ambient layer: it plays behind the copy, loops without a visible cut and never reacts to the pointer. Nothing else on the page animates continuously, so the media is the only thing asking for attention."
+  },
+  {
+   "title": "State changes, timed",
+   "body": "The controls resolve in 0.7s, fast enough that the page answers as it is touched rather than after it. Easing is specified alongside the duration (0.7s), so a rebuild cannot quietly substitute a different feel. Do not ship the browser default."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#180A06",
+    "name": "Near-black",
+    "role": "background"
+   },
+   {
+    "hex": "#EDE4D8",
+    "name": "Tint",
+    "role": "Headline"
+   },
+   {
+    "hex": "#070402",
+    "name": "Near-black — darker",
+    "role": "composition"
+   },
+   {
+    "hex": "#010000",
+    "name": "Near-black — darker",
+    "role": "darkest"
+   }
+  ],
+  "glass": "Panels are translucent over deep orange #070402, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Helvetica Now Display",
+    "weights": "Weight not fixed in the brief",
+    "role": "UI face"
+   },
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Copy face"
+   }
+  ],
+  "notes": [
+   "Media is specified at 1482x1080 and a 5.9s loop, so a replacement should match the crop and the loop length.",
+   "The clip is one asset at 1482x1080 and a 5.9s loop, so the composition has a single media dependency.",
+   "Nothing sits between the type and the 1482x1080 clip, so a replacement has to work under the copy directly."
+  ]
+ },
+ "customize": [
+  "Swap the clip for your own. Export at 1482x1080 or wider, keep it muted, and make the 5.9s loop seamless so the cut is invisible.",
+  "Write the replacement headline first, then confirm it still fits the 1482x1080 frame at the reference's type size.",
+  "Recut your footage to the 5.9s loop, then export at 1482x1080 so the crop the reference specifies survives.",
+  "Load your own face beside Helvetica Now Display and compare the headline at full width before committing to the swap."
+ ],
+ "editorial": [
+  {
+   "title": "What an ecommerce brand gains here",
+   "body": "Compared with a template hero, the difference is what is missing. There is no card grid, no carousel and no second call to action: only the headline, the announcement badge, the stats row, the card grid and the background clip, sized against 16px spacing steps and 0.7s transitions. Coffee Rewards states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "The timing behind the landing page",
+   "body": "Port the motion last. The brief fixes it as 0.7s transitions, a 5.9s media loop and a live canvas, which is easier to match once the layout is in place. Nothing animates for its own sake in this landing page."
+  },
+  {
+   "title": "Reading Coffee Rewards as a spec",
+   "body": "A rebuild usually starts with a screenshot and a guess. Here it starts with 5,054 characters of specification: the frame, the spacing and the motion are written down before the first line of code. Nothing in this landing page depends on a default."
+  }
+ ],
+ "steps": [
+  "Load the prompt in Studio and check that it names Vite before you press send.",
+  "Stage the prompt in Studio and read it once against the 1482x1080 capture before you generate.",
+  "Pin the reference measurements before you restyle anything: 16px spacing steps, 0.7s transitions and cubic-bezier(0.16, 1, 0.3, 1) easing.",
+  "Check your build against the reference measurements: 16px spacing steps, 0.7s transitions and cubic-bezier(0.16, 1, 0.3, 1) easing.",
+  "Keep the measurements the brief spells out: 16px spacing steps, 0.7s transitions and cubic-bezier(0.16, 1, 0.3, 1) easing."
+ ],
+ "faq": [
+  {
+   "question": "Is the Coffee Rewards prompt a finished spec or a starting point?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1482x1080, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Can I rebuild the Coffee Rewards landing page in a different stack?",
+   "answer": "No. The brief is a specification, not a dependency list. It was written for Vite, but the same composition rebuilds in whatever you already use. The stack is named so you know how the reference was made."
+  },
+  {
+   "question": "Can I use Coffee Rewards in a client project?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1482x1080."
+  }
+ ],
+ "audience": [
+  "Engineers who need the landing page to survive a slow connection will use 1482x1080 and the type scale as the weight budget.",
+  "This landing page serves founders who need one screen of proof that ecommerce copy can carry 5.9s of looping video.",
+  "People who brief a model on a landing page will use the 5,054-character prompt as the starting point."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Landing page"
+  },
+  {
+   "label": "Vertical",
+   "value": "Ecommerce"
+  },
+  {
+   "label": "Frame",
+   "value": "1482x1080 · 1.37:1"
+  },
+  {
+   "label": "Runtime",
+   "value": "5.9s loop"
+  },
+  {
+   "label": "Brief",
+   "value": "5,054 characters"
+  },
+  {
+   "label": "Date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Fonts",
+   "value": "Helvetica Now Display, Inter"
+  },
+  {
+   "label": "Tools",
+   "value": "Vite"
+  },
+  {
+   "label": "Motion",
+   "value": "0.7s transitions, cubic-bezier(0.16, 1, 0.3, 1) easing and a 5.9s media loop"
+  }
+ ],
+ "related": [
+  "synth-mode",
+  "task-engine",
+  "vertex",
+  "beauty-categories",
+  "cozypaws",
+  "daisy-wild"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 5054,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "slug": "mindloop-landing",
+ "sourceSlug": "mindloop-landing",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Mindloop Landing"
+ },
+ "title": "Mindloop Landing",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/9efa68ed9e820280.webp",
+  "still": "https://cdn.ottermind.ai/public/98739e92666f4e7b.webp",
+  "preview": "https://cdn.ottermind.ai/public/4e2d6827c895de27.mp4",
+  "full": "https://cdn.ottermind.ai/public/65819a8f5c7f7dd8.mp4",
+  "aspectRatio": 0.5675,
+  "width": 454,
+  "height": 800,
+  "duration": 17.22
+ },
+ "seo": {
+  "title": "Mindloop Landing AI & SaaS Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an AI or SaaS product — #010713 base, Inter, a word-by-word headline and glass panels. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS landing page design",
+   "video-backed SaaS landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Mindloop Landing — AI & SaaS Landing Page Design",
+ "tagline": "Landing page reference for an AI or SaaS product, captured at 455x800 with the layout, timings and palette specified in the brief.",
+ "summary": "Landing page reference for an AI or SaaS product — #010713 base, Inter, a word-by-word headline and glass panels.",
+ "about": "This is the landing page from Mindloop Landing, published with the brief that produced it rather than as a screenshot. The palette runs deep blue #010713 underneath, and the type is Inter. Delivery is React and Tailwind CSS, captured at 455x800 so the frame is fixed before any code is written. Take it on when the landing page needs a decided order before any new sections are added.",
+ "layout": [
+  {
+   "title": "Links collapse at one width",
+   "body": "The wordmark holds the left edge and the links run to the right of it, all of it set in Inter so the bar belongs to the page below rather than to a separate system. The bar sits over the 455x800 composition without a background of its own, so the media runs edge to edge underneath it. If your own page has more sections, group them rather than widening the bar."
+  },
+  {
+   "title": "Values you can check",
+   "body": "The list stays short (100px spacing steps), which is why the whole system can be checked by hand. Because the values are fixed, a substitution changes the look without changing the rhythm."
+  },
+  {
+   "title": "The footer is a full composition",
+   "body": "Links are grouped into columns with the wordmark in its own block, which keeps a long footer readable instead of turning it into a list. The wordmark gets its own block, which keeps a long link list readable. Keep the accent for a single action."
+  },
+  {
+   "title": "Top row, one action",
+   "body": "The row is sized from its own type rather than from a fixed header height. Copy this pattern when you need navigation that survives a loud first screen."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Pointer states, nothing more",
+   "body": "Interaction is local to each control here (hover states on the buttons and links rather than on every card and a sticky element that holds position while the content moves under it), so nothing on the page moves as a side effect. Press states are specified as well as hover, so a tap gives the same confirmation as a click."
+  },
+  {
+   "title": "Almost no motion",
+   "body": "This one is delivered as a still composition at 455x800, so the hierarchy has to work without motion, and it does. Only the elements that respond to the pointer move."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#000000",
+    "name": "Near-black",
+    "role": "darkest"
+   },
+   {
+    "hex": "#9CA494",
+    "name": "Gray",
+    "role": "lightest"
+   },
+   {
+    "hex": "#00050F",
+    "name": "Near-black — lighter",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#010713",
+    "name": "Near-black — lighter",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Interface"
+   },
+   {
+    "name": "Instrument Serif",
+    "weights": "Weight not fixed in the brief",
+    "role": "Emphasis"
+   }
+  ],
+  "notes": [
+   "The reference was captured at 455x800, and every value quoted on this page comes from the same brief.",
+   "Glass surfaces use blur(4px), and the blur is what makes the panels read as material rather than as fill."
+  ]
+ },
+ "customize": [
+  "Change the copy first, then the accent, then the media: the 455x800 frame was solved in that order and reversing it costs a re-layout.",
+  "Keep 455x800 for the media and re-crop your own asset into it rather than resizing the frame.",
+  "Write the replacement headline first, then confirm it still fits the 455x800 frame at the reference's type size.",
+  "Keep Inter or substitute a face with the same proportions, because the brief pairs specific weights with specific sizes."
+ ],
+ "editorial": [
+  {
+   "title": "What to change first in Mindloop Landing",
+   "body": "When you drop your own media in, keep the crop and the layer order. The media is a still at 455x800. That placement is what keeps the copy legible. The composition is the reusable part, and it survives a different brand."
+  },
+  {
+   "title": "How Mindloop Landing sequences the first read",
+   "body": "If your page currently leads with features, this is the order to copy: navigation, the headline, the stats row, the card grid and the background clip in front, the supporting detail after, and 100px spacing steps setting the distance. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "Why this composition works for SaaS",
+   "body": "A tint layer over the media would have been the easy fix. The brief leaves it off. The copy still holds because 100px spacing steps keep the frame calm. Mindloop Landing states the offer once and lets the composition repeat it rather than adding a second claim."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 455x800 capture before you generate.",
+  "Copy 100px spacing steps into your own brief before you rewrite anything else.",
+  "Pin the reference measurements before you restyle anything: 100px spacing steps.",
+  "Check your build against the reference measurements: 100px spacing steps.",
+  "Keep the measurements the brief spells out: 100px spacing steps."
+ ],
+ "faq": [
+  {
+   "question": "What do I get when I copy the Mindloop Landing brief?",
+   "answer": "The captured brief runs 7,242 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "How is this Mindloop Landing entry organised?",
+   "answer": "Everything quoted on the page comes from the captured 7,242-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "Do I need React and Tailwind CSS to rebuild Mindloop Landing?",
+   "answer": "Mindloop Landing was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  }
+ ],
+ "audience": [
+  "Made for agencies that bill by the round and want 100px spacing steps agreed before the first one.",
+  "Studio leads who run several projects at once will use this landing page as the pattern every other page copies.",
+  "Made for a solo founder shipping one landing page for an AI or SaaS product and no design system behind them."
+ ],
+ "specs": [
+  {
+   "label": "Page part",
+   "value": "Landing page"
+  },
+  {
+   "label": "Vertical",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Canvas size",
+   "value": "455x800 · 0.57:1"
+  },
+  {
+   "label": "Prompt text",
+   "value": "7,242 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Type scale",
+   "value": "Inter, Instrument Serif"
+  },
+  {
+   "label": "Stack",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Motion",
+   "value": "state changes only"
+  }
+ ],
+ "related": [
+  "intelligence-layer",
+  "intelligent-operations",
+  "intelligent-performance",
+  "intelligentx",
+  "junglemind",
+  "kresna-footer"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 7242,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

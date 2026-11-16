@@ -1,0 +1,207 @@
+{
+ "slug": "convix-software-hero",
+ "sourceSlug": "convix-software-hero",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Convix Software"
+ },
+ "title": "Convix Software",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/985314f8e3f56880.webp",
+  "still": "https://cdn.ottermind.ai/public/7f5b8ede7dd87617.webp",
+  "preview": "https://cdn.ottermind.ai/public/7ce69c7450d52cf9.mp4",
+  "full": "https://cdn.ottermind.ai/public/b336e00b94fc1e93.mp4",
+  "aspectRatio": 1.3841,
+  "width": 800,
+  "height": 578,
+  "duration": 3.85
+ },
+ "seo": {
+  "title": "Convix Software AI & SaaS Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an AI or SaaS product — Inter, #EF4D23 accent, a stats row and a 800x578 frame. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS hero section design",
+   "video-backed SaaS landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Convix Software — AI & SaaS Hero Section Design",
+ "tagline": "Hero section reference built on white #EDEDED and bright red #EF4D23, set in Inter and measured against a fixed 22px display size.",
+ "summary": "Hero section reference for an AI or SaaS product — Inter, #EF4D23 accent, a stats row and a 800x578 frame.",
+ "about": "Convix Software is a SaaS hero section built from one written brief, and this page documents that brief. The palette is white #EDEDED underneath, deep blue #0B0F1A for the type and bright red #EF4D23 carrying the accents, set in Inter. The entry names the stack that produced the page (React and Lucide icons) rather than hiding it. Keep it open while you write: the 5,587-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "Links collapse at one width",
+   "body": "Links sit on one line at a single size, and the #EF4D23 action closes the row on the right so the eye finishes where the navigation ends. The links are set below the wordmark in size, and the #EF4D23 action is the only element in the bar with any weight. Keep the row to one line."
+  },
+  {
+   "title": "Every measurement is written down",
+   "body": "The brief names the numbers: a fixed 22px display size, 100vh sections and 13px spacing steps. That is why the composition holds together, because there is no invented spacing step between the type and the frame. Spacing is quoted in the same units as the type, so the two can be compared directly."
+  },
+  {
+   "title": "Content split into panels",
+   "body": "The grid does the reading order for you: panels of equal weight, one idea each, set in Inter at a small size so the structure stays visible. Panel heights are driven by the copy, so a longer line does not break the alignment of the row."
+  },
+  {
+   "title": "The nav is deliberately thin",
+   "body": "The bar sits over the 800x578 composition without a background of its own, so the media runs edge to edge underneath it."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Static by design",
+   "body": "The brief leaves animation out and lets the 800x578 layout carry the page, with hover and press states the only changes. Only the elements that respond to the pointer move."
+  },
+  {
+   "title": "Almost no motion",
+   "body": "There is no scroll library here: the 800x578 composition holds still and only the elements that respond to you move. Keep motion to the controls."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#EF4D23",
+    "name": "Bright red",
+    "role": "accent"
+   },
+   {
+    "hex": "#EDEDED",
+    "name": "White",
+    "role": "composition"
+   },
+   {
+    "hex": "#D9D9D9",
+    "name": "White — darker",
+    "role": "panel edges"
+   },
+   {
+    "hex": "#0B0F1A",
+    "name": "Near-black",
+    "role": "Headline"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "400 / 500 / 600 / 700",
+    "role": "Headline and interface text"
+   },
+   {
+    "name": "Instrument Serif",
+    "weights": "400 / 500 / 600 / 700",
+    "role": "Display lines — the editorial voice of the page"
+   }
+  ],
+  "notes": [
+   "Font roles are assigned rather than mixed here, and 22px is the range the whole scale works in.",
+   "The accent is spent on bright red #EF4D23 and the rest of the composition holds white #EDEDED.",
+   "The display line is Inter at the top of a 22px scale, with the interface text on the same face."
+  ]
+ },
+ "customize": [
+  "Replace the headline and the supporting line with your own copy, keeping the same line count so the entrance still lands over the 800x578 frame.",
+  "Keep 800x578 for the media and re-crop your own asset into it rather than resizing the frame.",
+  "The brief behind this page is written out in full below, so any rewrite can be checked against it value by value; the reference was captured at 800x578.",
+  "Change the copy first, then the accent, then the media: the 800x578 frame was solved in that order and reversing it costs a re-layout."
+ ],
+ "editorial": [
+  {
+   "title": "The timing behind the hero section",
+   "body": "When a page feels restless, the cause is usually too many entrances. This one keeps the list short: hover and press states. Nothing animates for its own sake in this hero section."
+  },
+  {
+   "title": "What to change first in Convix Software",
+   "body": "The brief names Inter and the scale beside it. Substitute a face with the same proportions and the composition survives. The subject is the part that should change."
+  },
+  {
+   "title": "The numbers behind the hero section",
+   "body": "You cannot fix a composition by eye when two people are rebuilding it. The brief removes the argument: a fixed 22px display size, 100vh sections and 13px spacing steps, stated once. Nothing in this hero section depends on a default."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 800x578 capture before you generate.",
+  "Drop your product name in, then replace #EF4D23 with your own accent and re-check the contrast.",
+  "Set the brand first: product name, the #EF4D23 accent and a headline that replaces the reference's.",
+  "Type the product name and the #EF4D23 accent before you touch the layout.",
+  "Set your brand first: product name, the #EF4D23 accent and the headline that replaces the reference's."
+ ],
+ "faq": [
+  {
+   "question": "How long is the prompt behind Convix Software?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 800x578, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Do I need React and Lucide icons to rebuild Convix Software?",
+   "answer": "The reference happens to be built in React and Lucide icons. Nothing in the layout depends on that choice: the spacing, type and motion values transfer to whatever you already use."
+  },
+  {
+   "question": "Can I use Convix Software in a client project?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 800x578."
+  }
+ ],
+ "audience": [
+  "Contract teams taking over this hero section who need a 800x578 frame pinned in the repo before the first commit.",
+  "Designers who need the numbers first: a fixed 22px display size and 100vh sections, all of it quoted from the brief.",
+  "Made for content leads rewriting a hero section whose headline has to stay as long as Convix Software's."
+ ],
+ "specs": [
+  {
+   "label": "Block",
+   "value": "Hero section"
+  },
+  {
+   "label": "Sector",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Canvas",
+   "value": "800x578 · 1.38:1"
+  },
+  {
+   "label": "Prompt text",
+   "value": "5,587 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key colour",
+   "value": "bright red #EF4D23"
+  },
+  {
+   "label": "Type",
+   "value": "Inter, Instrument Serif · 22px"
+  },
+  {
+   "label": "Tech stack",
+   "value": "React, TypeScript, Lucide icons"
+  },
+  {
+   "label": "Timing",
+   "value": "state changes only"
+  }
+ ],
+ "related": [
+  "autonomous-ops",
+  "axion-about",
+  "bloom-ai-hero",
+  "build-with-us",
+  "cognitra-feature",
+  "contact-cybernetic"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 5587,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

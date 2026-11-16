@@ -1,0 +1,198 @@
+{
+ "slug": "audio-showcase",
+ "sourceSlug": "audio-showcase",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Audio Showcase"
+ },
+ "title": "Audio Showcase",
+ "industry": "lifestyle",
+ "industryLabel": "Lifestyle",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "image",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/57bc652d5f659fd8.webp",
+  "still": "https://cdn.ottermind.ai/public/fc98163253bdfd95.webp",
+  "preview": "https://cdn.ottermind.ai/public/fc98163253bdfd95.webp",
+  "full": "https://cdn.ottermind.ai/public/fc98163253bdfd95.webp",
+  "aspectRatio": 1.3502,
+  "width": 640,
+  "height": 474,
+  "duration": 0
+ },
+ "seo": {
+  "title": "Audio Showcase Lifestyle Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for a lifestyle brand — Helvetica, Arial, cubic-bezier(0.22, 1, 0.36, 1) easing, React and Tailwind CSS and a stats row. Copy the prompt or open it staged.",
+  "keywords": [
+   "lifestyle website design",
+   "lifestyle hero section design",
+   "glass lifestyle landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Audio Showcase — Lifestyle Hero Section Design",
+ "tagline": "Hero section reference built around “Press 04. Vernal woods”, with the layout, timings and palette written down in the brief.",
+ "summary": "Hero section reference for a lifestyle brand — Helvetica, Arial, cubic-bezier(0.22, 1, 0.36, 1) easing, React and Tailwind CSS and a stats row.",
+ "about": "Audio Showcase gives a lifestyle brand a finished first screen and the numbers that produced it. The page's own headline reads “Press 04. Vernal woods”, and the composition is built around those exact words. Colour is limited to blue #216CD1 underneath and gray #C7D5D5 for the type, set in Helvetica, Arial. The entry names the stack that produced the page (React and Tailwind CSS) rather than hiding it. The brief spends its motion budget on 0.7s transitions and cubic-bezier(0.22, 1, 0.36, 1). This reference is for a lifestyle brand that wants the first screen settled before the build starts.",
+ "layout": [
+  {
+   "title": "Top row: wordmark, links, one action",
+   "body": "The bar is one row of text and one action, measured at 20px spacing steps and 0.7s transitions so it reads as a strip rather than as a band. The bar sits over the 640x474 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "Badge above the fold",
+   "body": "One badge, one message: the pill sits above the headline in Helvetica, Arial at the smallest step, and nothing else competes for that slot. It is positioned so the headline keeps the centre of the composition. Keep it above the headline, never beside it."
+  },
+  {
+   "title": "One row, no drawers",
+   "body": "Keep the row to one line. The reference was captured at 640x474."
+  },
+  {
+   "title": "The spacing steps are quoted",
+   "body": "The brief fixes 20px spacing steps, 0.7s transitions and cubic-bezier(0.22, 1, 0.36, 1) easing and leaves the rest to the arrangement, which is the opposite of a scale that grows on its own. Every value can be checked against the captured prompt, which is what makes a rebuild verifiable rather than approximate."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Short, named durations",
+   "body": "State changes are specified at 0.7s, so the feedback on the controls is a designed value rather than a browser default. Easing is specified alongside the duration (0.7s), so a rebuild cannot quietly substitute a different feel."
+  },
+  {
+   "title": "A live scene on the first screen",
+   "body": "The centrepiece is rendered live (a WebGL canvas) rather than shipped as an image, so the 640x474 composition reacts to the viewport instead of sitting behind it. There is no image swap in the brief, so the scene is part of the first paint."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#16140A",
+    "name": "Near-black",
+    "role": "darkest"
+   },
+   {
+    "hex": "#C7D5D5",
+    "name": "Gray",
+    "role": "Headline"
+   },
+   {
+    "hex": "#074FBB",
+    "name": "Blue",
+    "role": "darker"
+   },
+   {
+    "hex": "#216CD1",
+    "name": "Blue — lighter",
+    "role": "composition"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Helvetica, Arial",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one stack for the whole page"
+   }
+  ],
+  "notes": [
+   "Motion is dropped rather than redesigned under reduced motion, so the layout is the version to check first.",
+   "Transitions are specified at 0.7s, short enough that the page never feels like it is waiting for an animation. Transitions are specified at 0.7s, which is the value to keep when the palette changes.",
+   "Glass surfaces use blur(4px), and the blur is what makes the panels read as material rather than as fill. The timing budget is state feedback rather than page choreography (0.7s), so a slower rebuild reads as a different design."
+  ]
+ },
+ "customize": [
+  "Write the replacement headline first, then confirm it still fits the 640x474 frame at the reference's type size.",
+  "Keep Helvetica, Arial or substitute a face with the same proportions, because the brief pairs specific weights with specific sizes.",
+  "Load your own face beside Helvetica, Arial and compare the headline at full width before committing to the swap.",
+  "Set 0.7s to your own build speed and check that cubic-bezier(0.22, 1, 0.36, 1) still lands the copy before the media starts."
+ ],
+ "editorial": [
+  {
+   "title": "What holds up for Lifestyle",
+   "body": "You could rebuild this as a stack of separate cards and lose only the argument. The hero section reads as one decision instead: navigation, the headline, the announcement badge, the stats row and the card grid in a single sequence. It gives a lifestyle reader the shortest honest route to the offer."
+  },
+  {
+   "title": "How Audio Showcase sequences the first read",
+   "body": "Committing to one reading path means other paths are closed. The brief accepts that, fixes navigation, the headline, the announcement badge, the stats row and the card grid in place, and spends 20px spacing steps and 0.7s transitions on making the route obvious. A lifestyle reader gets the offer before the options."
+  },
+  {
+   "title": "How the hero section reflows",
+   "body": "The hero section is composed at 640x474 and then re-composed for narrow widths. the navigation collapses into a mobile menu and the motion has a reduced-motion branch, so the phone version is a decision rather than a squeeze. Both states are described in the same brief."
+  }
+ ],
+ "steps": [
+  "Copy 20px spacing steps, 0.7s transitions and cubic-bezier(0.22, 1, 0.36, 1) easing into your own brief before you rewrite anything else.",
+  "Keep the measurements the brief spells out: 20px spacing steps, 0.7s transitions and cubic-bezier(0.22, 1, 0.36, 1) easing.",
+  "Pin the reference measurements before you restyle anything: 20px spacing steps, 0.7s transitions and cubic-bezier(0.22, 1, 0.36, 1) easing.",
+  "Check your build against the reference measurements: 20px spacing steps, 0.7s transitions and cubic-bezier(0.22, 1, 0.36, 1) easing.",
+  "Copy the 0.7s timing exactly, then rebuild the entrance before the hover states."
+ ],
+ "faq": [
+  {
+   "question": "What do I get when I copy the Audio Showcase brief?",
+   "answer": "The captured brief runs 6,927 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Do I need React and Tailwind CSS to rebuild Audio Showcase?",
+   "answer": "Audio Showcase was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "How much of Audio Showcase is animated?",
+   "answer": "Transitions are attached to interface states rather than to a scroll timeline, and they resolve in the 0.7s range on cubic-bezier(0.22, 1, 0.36, 1). The brief records the values so a port can match them without guessing."
+  }
+ ],
+ "audience": [
+  "Quote a 640x474 frame in the handoff note so the next build does not have to re-derive it from the page.",
+  "People who brief a model on a hero section will use the 6,927-character prompt as the starting point.",
+  "Made for content leads rewriting a hero section whose headline has to stay as long as Audio Showcase's."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Hero section"
+  },
+  {
+   "label": "Sector",
+   "value": "Lifestyle"
+  },
+  {
+   "label": "Frame",
+   "value": "640x474 · 1.35:1"
+  },
+  {
+   "label": "Input brief",
+   "value": "6,927 characters"
+  },
+  {
+   "label": "Saved",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Typefaces",
+   "value": "Helvetica, Arial"
+  },
+  {
+   "label": "Tools",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Animation",
+   "value": "0.7s transitions and cubic-bezier(0.22, 1, 0.36, 1) easing"
+  }
+ ],
+ "related": [
+  "dot-hero",
+  "f1-racing-hub",
+  "orbis-hello",
+  "orbit-flora",
+  "portal-hero",
+  "vinyl"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 6927,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

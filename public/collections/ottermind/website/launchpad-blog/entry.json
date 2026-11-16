@@ -1,0 +1,206 @@
+{
+ "slug": "launchpad-blog",
+ "sourceSlug": "lp-140-6a604fcbf2a29290ea72dbe7",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "LaunchPad Blog"
+ },
+ "title": "LaunchPad Blog",
+ "industry": "fintech",
+ "industryLabel": "Fintech",
+ "section": "blog",
+ "sectionLabel": "Blog section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/f17e977aa9444537.webp",
+  "still": "https://cdn.ottermind.ai/public/8e7b49d2467af95f.webp",
+  "preview": "https://cdn.ottermind.ai/public/7bd3e989dc089a5c.mp4",
+  "full": "https://cdn.ottermind.ai/public/53fa33dc8ecc987e.mp4",
+  "aspectRatio": 1.3579,
+  "width": 1920,
+  "height": 1414,
+  "duration": 2.4
+ },
+ "seo": {
+  "title": "LaunchPad Blog Fintech Blog Section Design & Prompt | Ottermind",
+  "description": "Blog section reference for a fintech product — one self-contained HTML file, #933551 accent, looping video and Inter. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "fintech website design",
+   "fintech blog section design",
+   "minimal fintech landing page",
+   "blog section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "LaunchPad Blog — Fintech Blog Section Design",
+ "tagline": "Blog section reference built on white #FFFFFF and red #933551, set in Inter and measured against type from 14px to 36px.",
+ "summary": "Blog section reference for a fintech product — one self-contained HTML file, #933551 accent, looping video and Inter.",
+ "about": "LaunchPad Blog gives a fintech product a finished first screen and the numbers that produced it. The palette is white #FFFFFF underneath, indigo #3E23A5 for the type and red #933551 carrying the accents, set in Inter. It ships as one self-contained HTML file, so the whole blog section can be lifted into a project without a design handoff. The brief spends its motion budget on 100ms transitions and a looping video bed. Start from the captured brief, then edit the blog section rather than rebuilding it from scratch.",
+ "layout": [
+  {
+   "title": "Sizes fixed in the brief",
+   "body": "The values are the specification: type from 14px to 36px, 20px spacing steps and 100ms transitions, captured at 2522x1858 rather than inferred from a screenshot. There is no invented intermediate value between the named ones; the measurement list is the whole system."
+  },
+  {
+   "title": "Colour with a job description",
+   "body": "The accent's job is fixed in the brief: red #933551 for actions, white #FFFFFF for the frame. Everything else sits on white #FFFFFF, which is what keeps a saturated palette legible."
+  },
+  {
+   "title": "Measured against the viewport",
+   "body": "Spacing is quoted the same way (type from 14px to 36px, 20px spacing steps and 100ms transitions), not as a scale that grows on its own."
+  },
+  {
+   "title": "Media without an overlay",
+   "body": "One muted, looping clip fills the frame at 2522x1858 and 2.4s, set to cover with the copy stacked above it. The brief keeps overlays off the video so nothing greys it out. Export at 2522x1858 or wider and the cover crop keeps working."
+  }
+ ],
+ "motion": [
+  {
+   "title": "The controls are the interactive layer",
+   "body": "The interactive layer is deliberately small: hover states on the buttons and links rather than on every card. Nothing on the page opens a modal or hijacks the scroll; the interactions stay local to the element."
+  },
+  {
+   "title": "The loop does the ambient work",
+   "body": "Ambient movement is one 2.4s clip at 2522x1858, looping quietly behind the copy rather than reacting to the pointer. The loop is cropped to cover, which means the composition does not depend on a particular frame size."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#3E23A5",
+    "name": "Indigo",
+    "role": "Headline"
+   },
+   {
+    "hex": "#FFFFFF",
+    "name": "White",
+    "role": "composition"
+   },
+   {
+    "hex": "#B9B5C8",
+    "name": "Gray",
+    "role": "darker step"
+   },
+   {
+    "hex": "#933551",
+    "name": "Red",
+    "role": "accent"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "14–36px",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Font roles are assigned rather than mixed here, and 14–36px is the range the whole scale works in.",
+   "The clip is one asset at 2522x1858 and a 2.4s loop, so the composition has a single media dependency.",
+   "Accent use is limited to red #933551; everything else sits on white #FFFFFF."
+  ]
+ },
+ "customize": [
+  "Swap the clip for your own footage at 2522x1858 or wider, keep it muted, and match the 2.4s loop point.",
+  "Change the copy before the colour: rewrite the Inter paragraphs first, then check #933551 against the media behind them.",
+  "Check #933551 against the copy size in Inter before you swap either, because the accent only reads on a large line.",
+  "Change the copy first, then the accent, then the media: the 2522x1858 frame was solved in that order and reversing it costs a re-layout."
+ ],
+ "editorial": [
+  {
+   "title": "The timing behind the blog section",
+   "body": "Compare the motion here with a scroll-driven page. Both move; this one moves where the brief says (100ms transitions, a 2.4s media loop and hover and press states), so the copy stays in front. Nothing animates for its own sake in this blog section."
+  },
+  {
+   "title": "What holds up for Fintech",
+   "body": "Restraint costs you room for proof above the fold. This brief accepts that cost and spends the first screen on the offer, with type from 14px to 36px and 20px spacing steps fixed so a proof section can be added below without a rework. LaunchPad Blog states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "What to change first in LaunchPad Blog",
+   "body": "Most people start with the accent colour. Start with the promise instead: rewrite the display line, then re-test red #933551 against your own media. The subject is the part that should change."
+  }
+ ],
+ "steps": [
+  "Set the brand first: product name, the #933551 accent and a headline that replaces the reference's.",
+  "Drop your product name in, then replace #933551 with your own accent and re-check the contrast.",
+  "Set your brand first: product name, the #933551 accent and the headline that replaces the reference's.",
+  "Type the product name and the #933551 accent before you touch the layout.",
+  "Check your build against the reference measurements: type from 14px to 36px, 20px spacing steps and 100ms transitions."
+ ],
+ "faq": [
+  {
+   "question": "How much of LaunchPad Blog depends on one self-contained HTML file?",
+   "answer": "LaunchPad Blog was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Why is LaunchPad Blog's prompt not printed here?",
+   "answer": "Everything quoted on the page comes from the captured 4,286-character brief rather than from a description written afterwards. That is why the numbers and the prose agree."
+  },
+  {
+   "question": "What does the brief behind LaunchPad Blog actually contain?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 2522x1858, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  }
+ ],
+ "audience": [
+  "This blog section is built for agencies that need the 2522x1858 frame to survive three rounds of client edits.",
+  "Write your own headline, then rebuild this blog section in one self-contained HTML file with the measurements intact.",
+  "In-house squads extending this blog section who need type from 14px to 36px and 20px spacing steps carried into the new blocks unchanged."
+ ],
+ "specs": [
+  {
+   "label": "Page part",
+   "value": "Blog section"
+  },
+  {
+   "label": "Sector",
+   "value": "Fintech"
+  },
+  {
+   "label": "Format",
+   "value": "2522x1858 · 1.36:1"
+  },
+  {
+   "label": "Loop length",
+   "value": "2.4s loop"
+  },
+  {
+   "label": "Input brief",
+   "value": "4,286 characters"
+  },
+  {
+   "label": "Captured",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent",
+   "value": "red #933551"
+  },
+  {
+   "label": "Fonts",
+   "value": "Inter · 14–36px"
+  },
+  {
+   "label": "Built with",
+   "value": "Tailwind CSS, single HTML file"
+  },
+  {
+   "label": "Transitions",
+   "value": "100ms transitions and a 2.4s media loop"
+  }
+ ],
+ "related": [
+  "animated-cards",
+  "aurex-finance",
+  "guardnet-benefits",
+  "halo-usd-landing",
+  "halo-use-case",
+  "impact-ventures"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 4286,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

@@ -1,0 +1,207 @@
+{
+ "slug": "neurolink-memorial-hero",
+ "sourceSlug": "lp-003-6a744f750adc10028b3d9bbd",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "sceneai.art",
+  "url": "https://sceneai.art/landing-pages",
+  "title": "Neurolink Hero Section"
+ },
+ "title": "Neurolink Hero Section",
+ "industry": "creative",
+ "industryLabel": "Agencies & Studios",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/78e0e05c0b0617b9.webp",
+  "still": "https://cdn.ottermind.ai/public/3272fd6358e94773.webp",
+  "preview": "https://cdn.ottermind.ai/public/2d7f333152824291.mp4",
+  "full": "https://cdn.ottermind.ai/public/996685874e12203a.mp4",
+  "aspectRatio": 1.413,
+  "width": 1526,
+  "height": 1080,
+  "duration": 3.9
+ },
+ "seo": {
+  "title": "Neurolink Hero Section Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an agency or studio — looping video, a dark stage, glass panels and vanilla JS. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "agency website design",
+   "agency hero section design",
+   "video-backed agency landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Neurolink Hero Section — Agencies & Studios Hero Section Design",
+ "tagline": "Hero section reference built around “Where Memories Live Forever”, with the layout, timings and palette written down in the brief.",
+ "summary": "Hero section reference for an agency or studio — looping video, a dark stage, glass panels and vanilla JS.",
+ "about": "Neurolink Hero Section solves the hero section problem for an agency or studio with a single captured brief. The headline reads “Where Memories Live Forever”, and the rest of the hero section is arranged around it. The palette is deep blue #0D1017 underneath, white #FFFFFF for the type and bright orange #FFB733 carrying the accents, set in Inter. Delivery is vanilla JS — one page, no plugin, no build tooling between you and the design. Motion is limited to a looping video bed. Keep it open while you write: the 10,336-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "Links before the action",
+   "body": "Navigation is a thin strip rather than a band: wordmark left, links centre-right, one #FFB733 action, all of it sitting above the hero section without a background of its own. The links are set below the wordmark in size, and the #FFB733 action is the only element in the bar with any weight."
+  },
+  {
+   "title": "Numbers carried into the build",
+   "body": "The brief fixes 100vh sections and 16px spacing steps and leaves the rest to the arrangement, which is the opposite of a scale that grows on its own. Because the values are fixed, a substitution changes the look without changing the rhythm. Keep the values that look arbitrary."
+  },
+  {
+   "title": "One media element carries the mood",
+   "body": "One 3.9s asset carries the whole first screen, and the page has no second media element to keep in sync. The loop is short enough (3.9s) that the eye reads it as texture rather than as a timeline."
+  },
+  {
+   "title": "Type does the styling",
+   "body": "The faces are assigned roles rather than mixed: Inter carries the display and the interface together. Substituting the face is possible, but the proportions have to survive the swap."
+  }
+ ],
+ "motion": [
+  {
+   "title": "The controls are the interactive layer",
+   "body": "Only the controls respond to the pointer (hover states on the buttons and links rather than on every card), so the page feels responsive without turning every element into a target. Each state changes one property, which keeps the feedback legible. Do not animate layout on hover."
+  },
+  {
+   "title": "The loop does the ambient work",
+   "body": "The background clip runs 3.9s at 1526x1080 on an endless loop, muted and inline, so the page keeps moving while the reader's attention is on the copy. No scroll library is required, because the only ambient motion is the media itself. A poster frame stands in when autoplay is blocked, so the motion is additive rather than required."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#FFFFFF",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#FFB733",
+    "name": "Bright orange",
+    "role": "accent"
+   },
+   {
+    "hex": "#0D1017",
+    "name": "Near-black",
+    "role": "composition"
+   },
+   {
+    "hex": "#E8DDC4",
+    "name": "Muted orange",
+    "role": "lighter"
+   }
+  ],
+  "glass": "Panels are translucent over deep blue #0D1017, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Accent use is limited to bright orange #FFB733; everything else sits on deep blue #0D1017.",
+   "Accent and ground are both named (bright orange #FFB733 on deep blue #0D1017), so a brand swap moves one value.",
+   "The accent is spent on bright orange #FFB733 and the rest of the composition holds deep blue #0D1017."
+  ]
+ },
+ "customize": [
+  "Retint #FFB733 toward your palette but keep the step against #0D1017; flatten the two and the primary action stops reading.",
+  "Rewrite “Where Memories Live Forever” to the same line count; the mask reveals each line in turn.",
+  "Replace the copy in the Inter stack first, then re-check the #FFB733 accent against the media behind it.",
+  "Replace “Where Memories Live Forever” with your own line and keep the word count, because the entrance is timed per line."
+ ],
+ "editorial": [
+  {
+   "title": "Why the agency brief holds",
+   "body": "The design argues its case on one screen. The media is a 3.9s 1526x1080 loop. The media carries the atmosphere, the copy carries the offer, and 100vh sections and 16px spacing steps keep the two apart. Neurolink Hero Section states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "How the hero section reflows",
+   "body": "Wide, the composition is dense; narrow, the scale is fluid rather than stepped and the section is held at 100vh. Both states are described in the brief. Nothing important is dropped at narrow widths."
+  },
+  {
+   "title": "The order behind the hero section",
+   "body": "Read the first screen in one pass and the offer is already clear. navigation, the headline, the announcement badge, the stats row and the background clip arrive in sequence, separated by 100vh sections and 16px spacing steps rather than by decorative dividers. A agency reader gets the offer before the options."
+  }
+ ],
+ "steps": [
+  "Load the prompt in Studio and check that it names vanilla JS before you press send.",
+  "Stage the prompt in Studio and read it once against the 1526x1080 capture before you generate.",
+  "Set the brand first: product name, the #FFB733 accent and a headline that replaces the reference's.",
+  "Drop your product name in, then replace #FFB733 with your own accent and re-check the contrast.",
+  "Set your brand first: product name, the #FFB733 accent and the headline that replaces the reference's."
+ ],
+ "faq": [
+  {
+   "question": "Is the Neurolink Hero Section prompt a finished spec or a starting point?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1526x1080, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Why does the entry name vanilla JS at all?",
+   "answer": "The reference happens to be built in vanilla JS. Nothing in the layout depends on that choice: the spacing, type and motion values transfer to whatever you already use."
+  },
+  {
+   "question": "Can I ship a page rebuilt from Neurolink Hero Section without crediting it?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1526x1080."
+  }
+ ],
+ "audience": [
+  "Anyone using an AI builder who wants a brief that already contains a 1526x1080 frame instead of leaving it to the model.",
+  "If three people have to edit this hero section, give content leads 100vh sections and 16px spacing steps rather than a screenshot.",
+  "Product marketers who need the hero section to still read with 3.9s of looping video behind the copy."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Hero section"
+  },
+  {
+   "label": "Industry",
+   "value": "Agencies & Studios"
+  },
+  {
+   "label": "Canvas size",
+   "value": "1526x1080 · 1.41:1"
+  },
+  {
+   "label": "Runtime",
+   "value": "3.9s loop"
+  },
+  {
+   "label": "Prompt",
+   "value": "10,336 characters"
+  },
+  {
+   "label": "Capture date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key colour",
+   "value": "bright orange #FFB733"
+  },
+  {
+   "label": "Faces",
+   "value": "Inter"
+  },
+  {
+   "label": "Stack",
+   "value": "vanilla JS"
+  },
+  {
+   "label": "Motion spec",
+   "value": "a 3.9s media loop"
+  }
+ ],
+ "related": [
+  "brightly-hero",
+  "max-reed-portfolio",
+  "modern-agency",
+  "network-hero",
+  "northstar",
+  "personal-showcase"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 10336,
+  "sourceUrl": "https://sceneai.art/landing-pages"
+ }
+}

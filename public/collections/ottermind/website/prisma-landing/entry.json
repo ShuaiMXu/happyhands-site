@@ -1,0 +1,203 @@
+{
+ "slug": "prisma-landing",
+ "sourceSlug": "prisma-landing",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Prisma Creative Studio"
+ },
+ "title": "Prisma Creative Studio",
+ "industry": "creative",
+ "industryLabel": "Agencies & Studios",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/aa1a2762b5caa17f.webp",
+  "still": "https://cdn.ottermind.ai/public/47992be18ff506cb.webp",
+  "preview": "https://cdn.ottermind.ai/public/f5741fff7dd44af9.mp4",
+  "full": "https://cdn.ottermind.ai/public/309eca1a93272bd4.mp4",
+  "aspectRatio": 0.5675,
+  "width": 454,
+  "height": 800,
+  "duration": 8.12
+ },
+ "seo": {
+  "title": "Prisma Creative Studio Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an agency or studio — 0.08s transitions, a dark stage, a 455x800 frame and React and Tailwind CSS. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "agency website design",
+   "agency landing page design",
+   "video-backed agency landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Prisma Creative Studio — Agencies & Studios Landing Page Design",
+ "tagline": "“I have skills in color grading, visual effects, and narrative design” — the whole landing page is composed around that line, down to the animation timings.",
+ "summary": "Landing page reference for an agency or studio — 0.08s transitions, a dark stage, a 455x800 frame and React and Tailwind CSS.",
+ "about": "Prisma Creative Studio shows one way to build the landing page for an agency or studio, and publishes the instructions that produced it. It leads with “I have skills in color grading, visual effects, and narrative design” and gives that line the frame rather than shrinking it into a card. The colour scheme is black #101010 underneath and white #E1E0CC for the type, and the page is set in Instrument Serif. The entry names the stack that produced the page (React and Tailwind CSS) rather than hiding it. Motion comes down to 0.08s transitions. It is the right reference for an agency or studio landing page that has to look deliberate on the first screen.",
+ "layout": [
+  {
+   "title": "The bar shares the page grid",
+   "body": "A slim bar sits over the landing page with the wordmark on the left and the links set in Instrument Serif, so the composition reads as content first and chrome second. The bar sits over the 455x800 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "Values you can check",
+   "body": "The list stays short (10px spacing steps and 0.08s transitions), which is why the whole system can be checked by hand. The list is short enough that a reviewer can check it element by element."
+  },
+  {
+   "title": "One row, no drawers",
+   "body": "One action per bar. The reference was captured at 455x800."
+  },
+  {
+   "title": "Sizes fixed in the brief",
+   "body": "Spacing is quoted the same way (10px spacing steps and 0.08s transitions), not as a scale that grows on its own."
+  }
+ ],
+ "motion": [
+  {
+   "title": "One duration for the controls",
+   "body": "Transitions are specified at 0.08s, which is the timing the controls are held to. Easing is specified alongside the duration (0.08s), so a rebuild cannot quietly substitute a different feel."
+  },
+  {
+   "title": "Sections arrive on scroll",
+   "body": "Parallax is the only scroll behaviour in the brief, which keeps the page from feeling like a sequence of separate effects. Only one scroll behaviour is used, so the page never feels like a sequence of separate effects. The layout has to work with the effect disabled."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#E1E0CC",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#DEDBC8",
+    "name": "White — darker",
+    "role": "lighter step"
+   },
+   {
+    "hex": "#101010",
+    "name": "Near-black",
+    "role": "composition"
+   },
+   {
+    "hex": "#212121",
+    "name": "Black",
+    "role": "panel edges"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Instrument Serif",
+    "weights": "300 / 400 / 700 / 800",
+    "role": "Display and headline — the editorial voice of the page"
+   },
+   {
+    "name": "Almarai",
+    "weights": "300 / 400 / 700 / 800",
+    "role": "Text face"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 0.08s, short enough that the page never feels like it is waiting for an animation.",
+   "The timing budget is state feedback rather than page choreography (0.08s), so a slower rebuild reads as a different design.",
+   "Transitions are specified at 0.08s, which is the value to keep when the palette changes."
+  ]
+ },
+ "customize": [
+  "Replace the headline and the supporting line with your own copy, keeping the same line count so the entrance still lands over the 455x800 frame.",
+  "Keep the 455x800 frame when you swap the content, because the composition was solved against that ratio.",
+  "Retime the entrance to your own 0.08s, but keep a standard ease-out as the curve, because the easing is what reads as this design.",
+  "Replace “I have skills in color grading, visual effects, and narrative design” with your own line and keep the word count, because the entrance is timed per line."
+ ],
+ "editorial": [
+  {
+   "title": "How the landing page reflows",
+   "body": "Responsive here means the scale changes and the sequence does not. the scale is fluid rather than stepped, and the reading order stays where the brief put it. Autoplay and motion are handled honestly, so the page still communicates when they are unavailable."
+  },
+  {
+   "title": "Why the agency brief holds",
+   "body": "Prisma Creative Studio works because its hierarchy is decided rather than decorated. The brief sets 10px spacing steps and 0.08s transitions, so new copy lands inside the frame instead of reopening it. Prisma Creative Studio states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "What to change first in Prisma Creative Studio",
+   "body": "A straight substitution has a limit: if your product needs a different hierarchy, 10px spacing steps and 0.08s transitions will fight it. Change the order first in that case, and the values second. Substitution is cheaper than composition, and that is the point."
+  }
+ ],
+ "steps": [
+  "Check your build against the reference measurements: 10px spacing steps and 0.08s transitions.",
+  "Keep the measurements the brief spells out: 10px spacing steps and 0.08s transitions.",
+  "Pin the reference measurements before you restyle anything: 10px spacing steps and 0.08s transitions.",
+  "Copy 10px spacing steps and 0.08s transitions into your own brief before you rewrite anything else.",
+  "Copy the 0.08s timing exactly, then rebuild the entrance before the hover states."
+ ],
+ "faq": [
+  {
+   "question": "How long is the prompt behind Prisma Creative Studio?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 455x800, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "How much of Prisma Creative Studio depends on React and Tailwind CSS?",
+   "answer": "Prisma Creative Studio was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Can I keep the Prisma Creative Studio transitions and change the timings?",
+   "answer": "Transitions are attached to interface states rather than to a scroll timeline, and they resolve in the 0.08s range. The brief records the values so a port can match them without guessing."
+  }
+ ],
+ "audience": [
+  "Product managers who have to estimate the build will read a 455x800 frame as the scope of the work.",
+  "People who brief a model on a landing page will use the 8,432-character prompt as the starting point.",
+  "Made for content leads rewriting a landing page whose headline has to stay as long as Prisma Creative Studio's."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Landing page"
+  },
+  {
+   "label": "Vertical",
+   "value": "Agencies & Studios"
+  },
+  {
+   "label": "Frame",
+   "value": "455x800 · 0.57:1"
+  },
+  {
+   "label": "Brief",
+   "value": "8,432 characters"
+  },
+  {
+   "label": "Archived",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Typefaces",
+   "value": "Instrument Serif, Almarai"
+  },
+  {
+   "label": "Built with",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Motion spec",
+   "value": "0.08s transitions"
+  }
+ ],
+ "related": [
+  "innovation-lab",
+  "innovation-landing",
+  "launchex-about",
+  "stories-in-light-hero",
+  "neurolink-memorial-hero",
+  "portiva-hero"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 8432,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

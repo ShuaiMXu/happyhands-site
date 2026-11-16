@@ -1,0 +1,70 @@
+/* Scoped base for Meridian Glass. Replaces Tailwind preflight inside .meridian-glass only; imported before the utilities. */
+
+[data-system="meridian-glass"], .meridian-glass {
+  background: var(--page);
+  color: var(--text-1);
+  font: var(--type-body);
+  letter-spacing: var(--tracking-body);
+  text-wrap: pretty;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: light;
+}
+/* The same four dark selectors as tokens.css, so native controls and scrollbars turn dark with the tokens. */
+[data-system="meridian-glass"][data-theme="dark"], .meridian-glass[data-theme="dark"], [data-theme="dark"] [data-system="meridian-glass"], [data-theme="dark"] .meridian-glass { color-scheme: dark; }
+/* The reset sits in the base layer, beside Tailwind's own preflight, so a project's layered utilities (mx-auto,
+   px-4) beat it, and Meridian Glass's unlayered ones still do. What must win over a page's own rules stays out of the layer:
+   the selection colour, the focus ring and the phone zoom guard. */
+@layer base {
+  .meridian-glass :where(*, ::before, ::after), [data-system="meridian-glass"] :where(*, ::before, ::after) { box-sizing: border-box; border: 0 solid var(--line-faint); margin: 0; padding: 0; }
+  .meridian-glass :where(h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd, pre) { margin: 0; font: inherit; }
+  .meridian-glass :where(ul, ol) { list-style: none; }
+  .meridian-glass :where(a) { color: inherit; text-decoration: inherit; }
+  .meridian-glass :where(button, input, select, textarea) { font: inherit; letter-spacing: inherit; color: inherit; background: transparent; }
+  .meridian-glass :where(button, [role="button"]) { cursor: pointer; }
+  .meridian-glass :where(button:disabled, [aria-disabled="true"]) { cursor: not-allowed; }
+  .meridian-glass :where(img, video, canvas, svg) { display: block; max-width: 100%; }
+  .meridian-glass :where(table) { border-collapse: collapse; }
+  /* Mono in running text: Meridian Glass Mono's lowercase is 26% wider than Meridian Glass Sans's at one size, so it takes --mono-scale of the text
+     around it and keeps that text's line height and baseline. A code block sets its own role (type-code). */
+  .meridian-glass :where(code, kbd, samp) { font-family: var(--font-mono); font-size: calc(1em * var(--mono-scale)); letter-spacing: 0; }
+  .meridian-glass :where(pre) { font-family: var(--font-mono); }
+  .meridian-glass :where(td, th, time, data, output) { font-variant-numeric: tabular-nums; }
+  /* Every interactive element declares its transition, so no control cuts while its neighbour tweens. */
+  .meridian-glass :where(a, button, summary, input, select, textarea, label, [role="button"], [role="tab"], [role="menuitem"], [role="option"], [role="switch"], [role="checkbox"], [role="radio"]) {
+    transition-property: color, background-color, border-color, opacity;
+    transition-duration: var(--dur-state);
+    transition-timing-function: var(--ease-out);
+  }
+  /* The ring's colour is set at rest, so a control that transitions its colours never fades the ring in from black. */
+  .meridian-glass :where(*, ::before, ::after), [data-system="meridian-glass"] :where(*, ::before, ::after) { outline-color: var(--focus); }
+}
+.meridian-glass ::selection { background: var(--ink-15); color: var(--text-1); }
+/* Focus is a 2px ink outline, 2px out, on every focusable. Two classes of specificity beat a site-wide a:focus-visible.
+   A field (the field recipe in styles.css) draws its own focus: its hairline darkens to --line-focus instead. */
+.meridian-glass :where(*):is(:focus-visible, [data-force-focus-visible]) { outline: var(--focus-width) solid var(--focus); outline-offset: var(--focus-offset); }
+/* One thin scrollbar for every scrolling region inside Meridian Glass, portalled overlays included: the command list, menus,
+   select and combobox lists, sheets, tables, code blocks. A 6px pill thumb in --scrollbar-thumb, --scrollbar-gap of
+   clear around it (a transparent border, the background clipped inside it), no track, no arrows. Browsers with the
+   ::-webkit-scrollbar parts draw it from them, and ignore them on any element with scrollbar-width or
+   scrollbar-color, so the standard pair goes only to browsers without the parts, where thin is their own ~8px.
+   scrollbar-color inherits, so Meridian Glass sets it back to auto against a host page's own; that sits in the base layer, so
+   a part that hides its bar ([scrollbar-width:none]) still does. Never put [scrollbar-width:thin] on a part: it
+   swaps this bar for the platform's. */
+@supports selector(::-webkit-scrollbar) {
+  @layer base { .meridian-glass, .meridian-glass *, [data-system="meridian-glass"], [data-system="meridian-glass"] * { scrollbar-color: auto; } }
+}
+.meridian-glass ::-webkit-scrollbar, .meridian-glass::-webkit-scrollbar, [data-system="meridian-glass"] ::-webkit-scrollbar { width: var(--scrollbar-size); height: var(--scrollbar-size); background: transparent; }
+.meridian-glass ::-webkit-scrollbar-thumb, .meridian-glass::-webkit-scrollbar-thumb, [data-system="meridian-glass"] ::-webkit-scrollbar-thumb { background-color: var(--scrollbar-thumb); background-clip: padding-box; border: var(--scrollbar-gap) solid transparent; border-radius: var(--radius-pill); }
+.meridian-glass ::-webkit-scrollbar-track, .meridian-glass ::-webkit-scrollbar-corner, [data-system="meridian-glass"] ::-webkit-scrollbar-track, [data-system="meridian-glass"] ::-webkit-scrollbar-corner { background: transparent; }
+.meridian-glass ::-webkit-scrollbar-button, [data-system="meridian-glass"] ::-webkit-scrollbar-button { display: none; }
+@supports not selector(::-webkit-scrollbar) {
+  .meridian-glass, .meridian-glass *, [data-system="meridian-glass"], [data-system="meridian-glass"] * { scrollbar-width: thin; scrollbar-color: var(--scrollbar-thumb) transparent; }
+}
+
+/* A phone browser zooms the page when a field under 16px takes focus. On a coarse pointer every text field is at least 16px. */
+@media (pointer: coarse) {
+  .meridian-glass input:not([type="checkbox"], [type="radio"], [type="range"], [type="button"], [type="submit"], [type="file"]),
+  .meridian-glass textarea,
+  .meridian-glass select { font-size: max(16px, 1em); }
+}

@@ -1,0 +1,202 @@
+{
+ "slug": "designpro-hero",
+ "sourceSlug": "designpro-hero",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "DesignPro Academy"
+ },
+ "title": "DesignPro Academy",
+ "industry": "education",
+ "industryLabel": "Education & Community",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/69daf0ce560bc021.webp",
+  "still": "https://cdn.ottermind.ai/public/70e31e827b224b3e.webp",
+  "preview": "https://cdn.ottermind.ai/public/1ca6537c92903828.mp4",
+  "full": "https://cdn.ottermind.ai/public/98cf5e031afe31a2.mp4",
+  "aspectRatio": 1.4085,
+  "width": 800,
+  "height": 568,
+  "duration": 8.05
+ },
+ "seo": {
+  "title": "DesignPro Academy Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for an education or community brand — a dark stage, a 800x569 frame, React and Tailwind CSS and Inter. Copy the prompt or open it staged in Studio.",
+  "keywords": [
+   "education website design",
+   "education hero section design",
+   "video-backed education landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "DesignPro Academy — Education & Community Hero Section Design",
+ "tagline": "Hero section reference built on black #000000 and teal #64CEFB, set in Inter and measured against 800x569.",
+ "summary": "Hero section reference for an education or community brand — a dark stage, a 800x569 frame, React and Tailwind CSS and Inter.",
+ "about": "DesignPro Academy shows one way to build the hero section for an education or community brand, and publishes the instructions that produced it. Colour is limited to black #000000 underneath, white #FFFFFF for the type and teal #64CEFB carrying the accents, set in Inter. Delivery is React and Tailwind CSS, captured at 800x569 so the frame is fixed before any code is written. If you are briefing a education hero section, start from this composition and replace the subject.",
+ "layout": [
+  {
+   "title": "Links collapse at one width",
+   "body": "The bar is the quietest part of the composition: wordmark, a short row of links and one #64CEFB action, all held at the smallest type step in the brief. The links are set below the wordmark in size, and the #64CEFB action is the only element in the bar with any weight."
+  },
+  {
+   "title": "The type carries the tone",
+   "body": "The size steps and tracking in the brief are what give this its tone: Inter at a tight display size, then a clear drop to the supporting copy. The display face is used at one size only, so it never competes with itself. Do not add a size without a job."
+  },
+  {
+   "title": "Navigation without a background",
+   "body": "The bar sits over the 800x569 composition without a background of its own, so the media runs edge to edge underneath it."
+  },
+  {
+   "title": "The scale is the styling",
+   "body": "Numerals share the interface face, so statistics and labels belong to the same system."
+  }
+ ],
+ "motion": [
+  {
+   "title": "The controls are the interactive layer",
+   "body": "Feedback is limited to hover states on the buttons and links rather than on every card, so the rest of the layout is a fixed composition. Each state changes one property, which keeps the feedback legible."
+  },
+  {
+   "title": "Motion that stays out of the way",
+   "body": "There is no scroll library here: the 800x569 composition holds still and only the elements that respond to you move. There is no animation library in the brief, which keeps the rebuild small."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#000000",
+    "name": "Near-black",
+    "role": "composition"
+   },
+   {
+    "hex": "#64CEFB",
+    "name": "Teal",
+    "role": "accent"
+   },
+   {
+    "hex": "#FFFFFF",
+    "name": "White",
+    "role": "Headline"
+   },
+   {
+    "hex": "#B2DAF3",
+    "name": "Muted blue",
+    "role": "lighter"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Inter",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Accent and ground are both named (teal #64CEFB on black #000000), so a brand swap moves one value.",
+   "The accent is spent on teal #64CEFB and the rest of the composition holds black #000000.",
+   "Accent use is limited to teal #64CEFB; everything else sits on black #000000."
+  ]
+ },
+ "customize": [
+  "Keep the supporting line as short as the reference's and measure the pair against the 800x569 crop.",
+  "Keep the hero section inside one viewport and move whatever does not fit into the section below it.",
+  "Change the copy before the colour: rewrite the Inter paragraphs first, then check #64CEFB against the media behind them.",
+  "Keep the 800x569 frame when you swap the content, because the composition was solved against that ratio."
+ ],
+ "editorial": [
+  {
+   "title": "Why the education brief holds",
+   "body": "Most education pages fail by adding: more sections, more gradients, more claims. DesignPro Academy goes the other way. The composition stays on black #000000 with teal #64CEFB for actions, which is enough to look deliberate. DesignPro Academy states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "How DesignPro Academy sequences the first read",
+   "body": "One screen, one action, and navigation, the announcement badge and the background clip between them. The brief fixes that order rather than leaving the first screen to a stack of sections. A education reader gets the offer before the options."
+  },
+  {
+   "title": "The numbers behind the hero section",
+   "body": "Almost every decision here is a value you can check: a 800x569 frame. The media is a still at 800x569. The type stays in Inter, so a substitution has to keep the same proportions. Nothing in this hero section depends on a default."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 800x569 capture before you generate.",
+  "Set the brand first: product name, the #64CEFB accent and a headline that replaces the reference's.",
+  "Drop your product name in, then replace #64CEFB with your own accent and re-check the contrast.",
+  "Type the product name and the #64CEFB accent before you touch the layout.",
+  "Set your brand first: product name, the #64CEFB accent and the headline that replaces the reference's."
+ ],
+ "faq": [
+  {
+   "question": "What does the brief behind DesignPro Academy actually contain?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 800x569, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Why does the entry name React and Tailwind CSS at all?",
+   "answer": "DesignPro Academy was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Where did the DesignPro Academy design come from?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 800x569."
+  }
+ ],
+ "audience": [
+  "Made for a solo founder shipping one hero section for an education or community brand and no design system behind them.",
+  "People who brief a model on a hero section will use the 3,038-character prompt as the starting point.",
+  "Made for content leads rewriting a hero section whose headline has to stay as long as DesignPro Academy's."
+ ],
+ "specs": [
+  {
+   "label": "Page section",
+   "value": "Hero section"
+  },
+  {
+   "label": "Category",
+   "value": "Education & Community"
+  },
+  {
+   "label": "Viewport",
+   "value": "800x569 · 1.41:1"
+  },
+  {
+   "label": "Prompt text",
+   "value": "3,038 characters"
+  },
+  {
+   "label": "Captured",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key colour",
+   "value": "teal #64CEFB"
+  },
+  {
+   "label": "Type scale",
+   "value": "Inter"
+  },
+  {
+   "label": "Built with",
+   "value": "Tailwind CSS, React, TypeScript"
+  },
+  {
+   "label": "Motion",
+   "value": "state changes only"
+  }
+ ],
+ "related": [
+  "trueearth",
+  "church-community",
+  "codenest-hero",
+  "fun-404-page",
+  "lumina-footer",
+  "neo-museum"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 3038,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

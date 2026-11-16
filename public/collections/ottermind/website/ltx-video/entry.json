@@ -1,0 +1,207 @@
+{
+ "slug": "ltx-video",
+ "sourceSlug": "ltx-video",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "LTX Video"
+ },
+ "title": "LTX Video",
+ "industry": "ai-saas",
+ "industryLabel": "AI & SaaS",
+ "section": "landing",
+ "sectionLabel": "Landing page",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/0e18bd94b23677c7.webp",
+  "still": "https://cdn.ottermind.ai/public/89cd31b566cbde5e.webp",
+  "preview": "https://cdn.ottermind.ai/public/f001dba6b83fab25.mp4",
+  "full": "https://cdn.ottermind.ai/public/ad0f12a72743ca55.mp4",
+  "aspectRatio": 1.3714,
+  "width": 1920,
+  "height": 1400,
+  "duration": 7.8
+ },
+ "seo": {
+  "title": "LTX Video AI & SaaS Landing Page Design & Prompt | Ottermind",
+  "description": "Landing page reference for an AI or SaaS product — #FFD7E6 base, cubic-bezier(0.22, 1, 0.36, 1) easing, one self-contained HTML file and a stats row. Copy the prompt or open it.",
+  "keywords": [
+   "SaaS website design",
+   "SaaS landing page design",
+   "glass SaaS landing page",
+   "landing page design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "LTX Video — AI & SaaS Landing Page Design",
+ "tagline": "“The world model” — the whole landing page is composed around that line, down to the animation timings.",
+ "summary": "Landing page reference for an AI or SaaS product — #FFD7E6 base, cubic-bezier(0.22, 1, 0.36, 1) easing, one self-contained HTML file and a stats row.",
+ "about": "Before rebuilding a landing page for an AI or SaaS product, read LTX Video: the composition and the specification behind it are both here. It leads with “The world model” and gives that line the frame rather than shrinking it into a card. The colour scheme is muted red #FFD7E6 underneath, deep blue #0B1A26 for the type and teal #7FE3FF carrying the accents, and the page is set in Manrope. Delivery is one self-contained HTML file, captured at 1920x1400 so the frame is fixed before any code is written. Motion is confined to 420ms transitions, cubic-bezier(0.22, 1, 0.36, 1) and a looping video bed. Keep it open while you write: the 21,298-character brief is the part that transfers to your own page.",
+ "layout": [
+  {
+   "title": "Navigation without a background",
+   "body": "The bar is the quietest part of the composition: wordmark, a short row of links and one #7FE3FF action, all held at the smallest type step in the brief. Below 700px the links collapse instead of wrapping onto a second line."
+  },
+  {
+   "title": "The poster frame matters",
+   "body": "One muted, looping clip fills the frame at 1920x1400 and 7.8s, set to cover with the copy stacked above it. The brief keeps overlays off the video so nothing greys it out. The loop is short enough (7.8s) that the eye reads it as texture rather than as a timeline."
+  },
+  {
+   "title": "Two faces, clear jobs",
+   "body": "The size steps and tracking in the brief are what give this its tone: Manrope at a tight display size, then a clear drop to the supporting copy. Tracking tightens as the size grows, which is why the display line holds together across 18–23px. The scale is quoted; use it."
+  },
+  {
+   "title": "One row, no drawers",
+   "body": "Labels are short enough to fit one line at 700px, and the active item is marked with weight rather than with a pill."
+  }
+ ],
+ "motion": [
+  {
+   "title": "It respects reduced-motion",
+   "body": "The motion layer has an off switch. Under prefers-reduced-motion, the entrance and the loop is dropped and everything else stays where it is. Interaction feedback still works under reduced motion; only the entrances are dropped. Test the page with motion disabled."
+  },
+  {
+   "title": "Ambient motion without a scroll library",
+   "body": "Ambient movement is one 7.8s clip at 1920x1400, looping quietly behind the copy rather than reacting to the pointer. Nothing else on the page animates continuously, so the media is the only thing asking for attention."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#7FE3FF",
+    "name": "Teal",
+    "role": "accent"
+   },
+   {
+    "hex": "#0B1A26",
+    "name": "Deep blue",
+    "role": "Headline"
+   },
+   {
+    "hex": "#FFFFFF",
+    "name": "White",
+    "role": "lightest"
+   },
+   {
+    "hex": "#FFD7E6",
+    "name": "Muted red",
+    "role": "composition"
+   }
+  ],
+  "glass": "Panels are translucent over muted red #FFD7E6, and the type on top stays at full contrast so the effect never costs readability.",
+  "fonts": [
+   {
+    "name": "Manrope",
+    "weights": "18–23px",
+    "role": "Headline and interface text — one face for the whole page"
+   }
+  ],
+  "notes": [
+   "Transitions are specified at 420ms, which is the value to keep when the palette changes.",
+   "Media is specified at 1920x1400 and a 7.8s loop, so a replacement should match the crop and the loop length.",
+   "Card widths come from the 5-column grid rather than from the copy, so the panels stay equal."
+  ]
+ },
+ "customize": [
+  "Change #7FE3FF for your brand accent and re-check it against #FFD7E6, because the accent is the only saturated value in this composition.",
+  "Replace “The world model” with your own line and keep the same number of words, because the brief sizes the type for that rhythm.",
+  "Retune #7FE3FF for your brand only after the Manrope copy is final, and re-check the contrast on the darkest band.",
+  "Keep the supporting line as short as the reference's and measure the pair against the 1920x1400 crop."
+ ],
+ "editorial": [
+  {
+   "title": "The order behind the landing page",
+   "body": "The page has a deliberate order. Navigation establishes the product and gives a returning visitor a familiar way around. The headline takes the display size, the supporting line explains the offer, and the teal #7FE3FF accent marks the primary action, so the next step is never in question. Nothing else competes: there is no card grid before the first decision, which is what keeps the landing page from feeling heavy in SaaS work. A SaaS reader gets the offer before the options."
+  },
+  {
+   "title": "Why this composition works for SaaS",
+   "body": "Count the decisions in this landing page and they trace back to one document: 21,298 characters naming the frame at 1920x1400, the type and the rhythm. LTX Video states the offer once and lets the composition repeat it rather than adding a second claim."
+  },
+  {
+   "title": "How the landing page reflows",
+   "body": "If your breakpoints were chosen to make things fit rather than to change the layout, read this entry. the type is clamped between 18px and 23px, the layout shifts at 700px and the section is held at 100vh rather than a list of hidden elements. The order is the last thing to change."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1920x1400 capture before you generate.",
+  "Set the brand first: product name, the #7FE3FF accent and a headline that replaces the reference's.",
+  "Drop your product name in, then replace #7FE3FF with your own accent and re-check the contrast.",
+  "Set your brand first: product name, the #7FE3FF accent and the headline that replaces the reference's.",
+  "Type the product name and the #7FE3FF accent before you touch the layout."
+ ],
+ "faq": [
+  {
+   "question": "Why does the entry name one self-contained HTML file at all?",
+   "answer": "LTX Video was built in one self-contained HTML file, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Is the LTX Video prompt a finished spec or a starting point?",
+   "answer": "It is a build brief rather than a mood description: it names the composition at 1920x1400, the spacing and the motion values. Nothing in it treats the rendered image as the source of truth."
+  },
+  {
+   "question": "Can I ship a page rebuilt from LTX Video without crediting it?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1920x1400."
+  }
+ ],
+ "audience": [
+  "Made for studios that have to explain 700px behaviour to a client without building a prototype first.",
+  "Product marketers who need the landing page to still read with 7.8s of looping video behind the copy.",
+  "Made for content leads rewriting a landing page whose headline has to stay as long as LTX Video's."
+ ],
+ "specs": [
+  {
+   "label": "Section",
+   "value": "Landing page"
+  },
+  {
+   "label": "Category",
+   "value": "AI & SaaS"
+  },
+  {
+   "label": "Frame",
+   "value": "1920x1400 · 1.37:1"
+  },
+  {
+   "label": "Loop length",
+   "value": "7.8s loop"
+  },
+  {
+   "label": "Brief",
+   "value": "21,298 characters"
+  },
+  {
+   "label": "Captured",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Accent hex",
+   "value": "teal #7FE3FF"
+  },
+  {
+   "label": "Fonts",
+   "value": "Manrope · 18–23px"
+  },
+  {
+   "label": "Tools",
+   "value": "vanilla JS, single HTML file"
+  },
+  {
+   "label": "Animation",
+   "value": "420ms transitions, cubic-bezier(0.22, 1, 0.36, 1) easing and a 7.8s media loop"
+  }
+ ],
+ "related": [
+  "growth-decisions",
+  "haul-footer",
+  "intelligence-layer",
+  "intelligent-operations",
+  "intelligent-performance",
+  "intelligentx"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 21298,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

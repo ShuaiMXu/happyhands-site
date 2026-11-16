@@ -1,0 +1,205 @@
+{
+ "slug": "wellbeing-os",
+ "sourceSlug": "wellbeing-os",
+ "createdAt": "2026-09-17",
+ "source": {
+  "name": "motionsites.ai",
+  "url": "https://motionsites.ai/",
+  "title": "Wellbeing OS"
+ },
+ "title": "Wellbeing OS",
+ "industry": "health",
+ "industryLabel": "Health",
+ "section": "hero",
+ "sectionLabel": "Hero section",
+ "kind": "video",
+ "media": {
+  "poster": "https://cdn.ottermind.ai/public/f3a562b006ac9fe6.webp",
+  "still": "https://cdn.ottermind.ai/public/5b2f0538ff743a00.webp",
+  "preview": "https://cdn.ottermind.ai/public/4fb271046e50c991.mp4",
+  "full": "https://cdn.ottermind.ai/public/931fef68ad17322d.mp4",
+  "aspectRatio": 1.3519,
+  "width": 1460,
+  "height": 1080,
+  "duration": 5.8
+ },
+ "seo": {
+  "title": "Wellbeing OS Health Hero Section Design & Prompt | Ottermind",
+  "description": "Hero section reference for a health or wellbeing product — Helvetica, Segoe UI, Roboto, a stats row, React and Tailwind CSS and 400ms transitions. Copy the prompt or open it.",
+  "keywords": [
+   "health website design",
+   "health hero section design",
+   "glass health landing page",
+   "hero section design prompt",
+   "AI website builder prompt"
+  ]
+ },
+ "h1": "Wellbeing OS — Health Hero Section Design",
+ "tagline": "Hero section reference built on deep orange #2C221C and orange #BF9423, set in Helvetica, Segoe UI, Roboto and measured against 160px spacing steps.",
+ "summary": "Hero section reference for a health or wellbeing product — Helvetica, Segoe UI, Roboto, a stats row, React and Tailwind CSS and 400ms transitions.",
+ "about": "Wellbeing OS keeps its decision trail: the brief that produced this hero section runs 5,051 characters. The colour scheme is deep orange #2C221C underneath and orange #BF9423 carrying the accents, and the page is set in Helvetica, Segoe UI, Roboto. Delivery is React and Tailwind CSS, captured at 1460x1080 so the frame is fixed before any code is written. Motion is confined to 400ms transitions, cubic-bezier(0.16,1,0.3,1) and a looping video bed. It is most useful when the Health hero section has to survive a copy change without a redesign.",
+ "layout": [
+  {
+   "title": "Top row: wordmark, links, one action",
+   "body": "Links sit on one line at a single size, and the #BF9423 action closes the row on the right so the eye finishes where the navigation ends. The links are set below the wordmark in size, and the #BF9423 action is the only element in the bar with any weight."
+  },
+  {
+   "title": "Measured against the viewport",
+   "body": "The layout is solved against fixed values (160px spacing steps, 400ms transitions and cubic-bezier(0.16,1,0.3,1) easing), which is what keeps the first screen composed at any width. The list is short enough that a reviewer can check it element by element."
+  },
+  {
+   "title": "A clip, not an illustration",
+   "body": "The 1460x1080 frame is filled by a single loop that plays behind the copy and asks for no controls. A poster frame at 1460x1080 holds the composition when autoplay is unavailable, so the layout never collapses."
+  },
+  {
+   "title": "The type carries the tone",
+   "body": "The display line is set in Helvetica, Segoe UI, Roboto at a size the brief fixes, which makes the headline a composition element rather than a paragraph. The size steps are fixed values, which is what lets a face swap keep the same hierarchy."
+  }
+ ],
+ "motion": [
+  {
+   "title": "Ambient motion without a scroll library",
+   "body": "Ambient movement is one 5.8s clip at 1460x1080, looping quietly behind the copy rather than reacting to the pointer. The clip is short enough to loop without a visible seam, which matters more than its resolution."
+  },
+  {
+   "title": "Timing kept in the brief",
+   "body": "The brief fixes the transition value at 400ms, so a rebuild cannot substitute a slower default. Every state change names a value, so the browser default is never used. The timings are part of the design, not a finishing pass."
+  }
+ ],
+ "style": {
+  "palette": [
+   {
+    "hex": "#2C221C",
+    "name": "Deep orange",
+    "role": "composition"
+   },
+   {
+    "hex": "#010101",
+    "name": "Near-black",
+    "role": "darkest"
+   },
+   {
+    "hex": "#DBB64D",
+    "name": "Orange",
+    "role": "lighter"
+   },
+   {
+    "hex": "#BF9423",
+    "name": "Orange — darker",
+    "role": "accent"
+   }
+  ],
+  "fonts": [
+   {
+    "name": "Helvetica, Segoe UI, Roboto",
+    "weights": "Weight not fixed in the brief",
+    "role": "Headline and interface text — one stack for the whole page"
+   }
+  ],
+  "notes": [
+   "Accent use is limited to orange #BF9423; everything else sits on deep orange #2C221C.",
+   "Media is specified at 1460x1080 and a 5.8s loop, so a replacement should match the crop and the loop length."
+  ]
+ },
+ "customize": [
+  "Retime the entrance to taste. 400ms with cubic-bezier(0.16,1,0.3,1) is what the reference uses.",
+  "Replace #BF9423 last, after the copy is final, and test it against #2C221C at the smallest text size on the page.",
+  "Keep Helvetica, Segoe UI, Roboto or substitute a face with the same proportions, because the brief pairs specific weights with specific sizes.",
+  "Replace the headline and the supporting line with your own copy, keeping the same line count so the entrance still lands over the 1460x1080 frame."
+ ],
+ "editorial": [
+  {
+   "title": "How Wellbeing OS sequences the first read",
+   "body": "A strict order costs you flexibility later. Add a section above the fold and 160px spacing steps and 400ms transitions have to be re-cut, because the sequence is load-bearing rather than decorative. A health reader gets the offer before the options."
+  },
+  {
+   "title": "What moves in Wellbeing OS",
+   "body": "The brief ties every transition to a value (400ms transitions, a 5.8s media loop and hover and press states). That is what keeps the page from feeling like a template with an animation preset dropped on top of it. Nothing animates for its own sake in this hero section."
+  },
+  {
+   "title": "What to change first in Wellbeing OS",
+   "body": "Most people start with the accent colour. Start with the promise instead: rewrite the display line, then re-test orange #BF9423 against your own media. The composition is the reusable part, and it survives a different brand."
+  }
+ ],
+ "steps": [
+  "Stage the prompt in Studio and read it once against the 1460x1080 capture before you generate.",
+  "Type the product name and the #BF9423 accent before you touch the layout.",
+  "Set the brand first: product name, the #BF9423 accent and a headline that replaces the reference's.",
+  "Drop your product name in, then replace #BF9423 with your own accent and re-check the contrast.",
+  "Set your brand first: product name, the #BF9423 accent and the headline that replaces the reference's."
+ ],
+ "faq": [
+  {
+   "question": "How long is the prompt behind Wellbeing OS?",
+   "answer": "The captured brief runs 5,051 characters and covers the frame, the type scale, the palette and the transitions. Copying it gives you that text, and sending it to Studio stages the same request with the page already described."
+  },
+  {
+   "question": "Why does the entry name React and Tailwind CSS at all?",
+   "answer": "Wellbeing OS was built in React and Tailwind CSS, and the entry says so for provenance. The brief describes positions, sizes and timings, so it rebuilds in any framework that can set type and place elements."
+  },
+  {
+   "question": "Can I ship a page rebuilt from Wellbeing OS without crediting it?",
+   "answer": "The brief is a description, not a licence to redistribute someone else's assets. Keep the structure and the numbers, replace the media and the brand marks, and credit the source if a client asks where the layout came from. The reference was captured at 1460x1080."
+  }
+ ],
+ "audience": [
+  "Product marketers who need the hero section to still read with 5.8s of looping video behind the copy.",
+  "Made for content leads rewriting a hero section whose headline has to stay as long as Wellbeing OS's.",
+  "This hero section serves marketers who have to defend the #BF9423 choice to a brand owner in the room."
+ ],
+ "specs": [
+  {
+   "label": "Screen",
+   "value": "Hero section"
+  },
+  {
+   "label": "Field",
+   "value": "Health"
+  },
+  {
+   "label": "Canvas",
+   "value": "1460x1080 · 1.35:1"
+  },
+  {
+   "label": "Loop length",
+   "value": "5.8s loop"
+  },
+  {
+   "label": "Prompt",
+   "value": "5,051 characters"
+  },
+  {
+   "label": "Date",
+   "value": "2026-09-17"
+  },
+  {
+   "label": "Key tone",
+   "value": "orange #BF9423"
+  },
+  {
+   "label": "Faces",
+   "value": "Helvetica, Segoe UI, Roboto"
+  },
+  {
+   "label": "Reference stack",
+   "value": "Tailwind CSS, React, Lucide icons"
+  },
+  {
+   "label": "Motion spec",
+   "value": "400ms transitions, cubic-bezier(0.16,1,0.3,1) easing and a 5.8s media loop"
+  }
+ ],
+ "related": [
+  "faq-cta",
+  "health-portal",
+  "healcure-clinic-landing",
+  "mind-ai",
+  "mind-body-healing",
+  "pet-diagnostics"
+ ],
+ "prompt": {
+  "kind": "full",
+  "chars": 5051,
+  "sourceUrl": "https://motionsites.ai/"
+ }
+}

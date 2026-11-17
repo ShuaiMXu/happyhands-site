@@ -11,7 +11,10 @@ import { ResourceCard, ResourceDetailHeader } from "./ResourcePresentation";
 import { ResourceToolbar } from "./ResourceToolbar";
 import { DesignComponentDemo } from "./DesignComponentDemo";
 
-const PresenceCards = React.lazy(() => import("./pinui/PresenceCards"));
+const inlinePreviews: Record<string, React.LazyExoticComponent<React.ComponentType<{ theme?: "light" | "dark" }>>> = {
+  "component:pin-ui/presence-cards": React.lazy(() => import("./pinui/PresenceCards")),
+  "component:pin-ui/liquid-tabs": React.lazy(() => import("./pinui/LiquidTabs")),
+};
 import "./collections.css";
 import { previewFor, sectionFor, resourceHref } from "./resource-directory";
 type Entry = {
@@ -333,8 +336,15 @@ export function CollectionsLibrary({
           ) : (
             <>
               {previewFor(selected) &&
-                (selected.id === "component:pin-ui/presence-cards" ? (
-                  <div className="directory-inline-preview">
+                (inlinePreviews[selected.id] ? (
+                  <div
+                    className={
+                      "directory-inline-preview" +
+                      (selected.id.endsWith("/liquid-tabs")
+                        ? " directory-inline-preview--tabs"
+                        : "")
+                    }
+                  >
                     <React.Suspense
                       fallback={
                         <p role="status">
@@ -342,9 +352,9 @@ export function CollectionsLibrary({
                         </p>
                       }
                     >
-                      <PresenceCards
-                        theme={previewTheme === "dark" ? "dark" : "light"}
-                      />
+                      {React.createElement(inlinePreviews[selected.id], {
+                        theme: previewTheme === "dark" ? "dark" : "light",
+                      })}
                     </React.Suspense>
                   </div>
                 ) : (

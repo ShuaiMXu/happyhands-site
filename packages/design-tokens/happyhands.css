@@ -130,3 +130,25 @@
   --hh-radius-group: 16px;
   --hh-radius-option: 12px;
 }
+/* shadcn semantic aliases: one vocabulary for shell, cards, search and footer. */
+:root {
+  --background: var(--hh-bg);
+  --foreground: var(--hh-ink);
+  --card: var(--hh-bg-raised);
+  --card-foreground: var(--hh-ink);
+  --popover: var(--hh-bg-raised);
+  --popover-foreground: var(--hh-ink);
+  --primary: var(--hh-primary);
+  --primary-foreground: var(--hh-on-primary);
+  --secondary: var(--hh-bg-sunken);
+  --secondary-foreground: var(--hh-ink);
+  --muted: var(--hh-bg-sunken);
+  --muted-foreground: var(--hh-ink-muted);
+  --accent: var(--hh-bg-hover);
+  --accent-foreground: var(--hh-ink);
+  --destructive: var(--hh-danger);
+  --border: var(--hh-line);
+  --input: var(--hh-line-strong);
+  --ring: var(--hh-ring);
+  --radius: var(--hh-radius-md);
+}

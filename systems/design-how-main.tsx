@@ -24,10 +24,53 @@ function App() {
         onTheme={toggleTheme}
         onLanguage={toggleLanguage}
       />
-      <main className="design-how-page" id="main-content">
+      <main className="design-how-page system-landing" id="main-content">
         <SystemBreadcrumb current={data.name} lang={lang} />
-        <h1>{data.name}</h1>
-        <DesignHowLibrary system={system} lang={lang} />
+        <section className="system-introduction design-how-introduction">
+          <div>
+            <p className="eyebrow">
+              {lang === "zh" ? "外部设计系统 / design.how" : "External design system / design.how"}
+            </p>
+            <h1>{data.name}</h1>
+            <p className="lead">{data.summary}</p>
+            <div className="actions">
+              <a className="action" href="?doc=index.md">
+                {lang === "zh" ? "阅读完整文档" : "Read the docs"}
+              </a>
+              <a className="action secondary" href={data.download} download>
+                {lang === "zh" ? "下载完整资料" : "Download archive"}
+              </a>
+            </div>
+          </div>
+          <aside className="system-facts" aria-label={lang === "zh" ? "系统概况" : "System overview"}>
+            <dl>
+              <div>
+                <dt>{lang === "zh" ? "来源" : "Source"}</dt>
+                <dd>design.how</dd>
+              </div>
+              <div>
+                <dt>{lang === "zh" ? "技术基础" : "Stack"}</dt>
+                <dd>React / Tailwind CSS / shadcn</dd>
+              </div>
+              <div>
+                <dt>{lang === "zh" ? "收录内容" : "In this catalog"}</dt>
+                <dd>
+                  {lang === "zh"
+                    ? `${data.documents.length} 篇基础规范与组件文档`
+                    : `${data.documents.length} foundation and component documents`}
+                </dd>
+              </div>
+            </dl>
+            <p className="note">
+              {lang === "zh"
+                ? "由 HappyHands 整理资料与预览；组件示例仅用于查看规范，不在本站安装上游组件。"
+                : "Curated by HappyHands for reading and preview; upstream components are not installed on this site."}
+            </p>
+          </aside>
+        </section>
+        <div id="preview">
+          <DesignHowLibrary system={system} lang={lang} />
+        </div>
       </main>
     </>
   );

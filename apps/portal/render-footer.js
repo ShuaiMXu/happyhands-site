@@ -24,7 +24,7 @@ export function portalFooter(lang = 'zh') {
   const github = of('community')[0];
   const contact = of('cooperation')[0];
   const setupHref = setup ? href(setup, english) : `${prefix}/apps/setup/`;
-  const logo = `<img src="/brand/happyhands-logo-cream.png" alt="" width="1400" height="301" loading="lazy">`;
+  const logo = `<img class="sy__logo-light" src="/brand/happyhands-logo-ink.png" alt="" width="1400" height="301" loading="lazy"><img class="sy__logo-dark" src="/brand/happyhands-logo-cream.png" alt="" width="1400" height="301" loading="lazy">`;
   return `<div class="hh-synais-footer">
     <div class="sy__top">
       <div class="sy__brand">

@@ -1,0 +1,18 @@
+components/ResourceSearchCard.tsx
+  h_8f87e56e705bcf 1-371
+components/resource-controls.css
+  h_8f87e56e705bcf 34
+components/search-card.css
+  h_8f87e56e705bcf 1-412
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "da7bbc5302bd5b2aa5683cdc662a2aacf1faa217",
+  "prompts": {},
+  "humans": {
+    "h_8f87e56e705bcf": {
+      "author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

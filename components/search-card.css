@@ -1,0 +1,412 @@
+/* ===========================================================================
+   Search Card — adapted from https://www.pinui.xyz/r/search-card.json
+   (registry copy: registry/search-card.json)
+
+   A 300px bar that grows into a 420px card. In this site it is an overlay: the
+   toolbar keeps its height, so opening search never moves the gallery.
+   All colours are local tokens; the dark set swaps in on html[data-theme="dark"].
+=========================================================================== */
+
+.resource-search.psearch {
+  --psearch-card: #f8f8f9;
+  --psearch-card-ring: rgb(0 0 0 / 0.05);
+  --psearch-card-shadow: 0 24px 60px -24px rgb(0 0 0 / 0.22), 0 2px 6px -2px rgb(0 0 0 / 0.06);
+  --psearch-panel: rgb(255 255 255 / 0.8);
+  --psearch-panel-border: rgb(0 0 0 / 0.06);
+  --psearch-text: var(--hh-ink);
+  --psearch-muted: #6b6b73;
+  --psearch-faint: #6f6f76;
+  --psearch-placeholder: #6f6f76;
+  --psearch-divider: rgb(0 0 0 / 0.065);
+  --psearch-sheet: #ffffff;
+  --psearch-btn: #e9e9eb;
+  --psearch-btn-hover: #dfdfe2;
+  --psearch-btn-fg: #55555b;
+  --psearch-accent: #0b6cbc;
+  --psearch-danger: #e46a2e;
+  --psearch-kbd-bg: rgb(0 0 0 / 0.04);
+  --psearch-kbd-border: rgb(0 0 0 / 0.08);
+
+  position: relative;
+  z-index: 40;
+  display: block;
+  width: 100%;
+  height: 50px;
+  min-width: 0;
+  margin: 0;
+  color: var(--psearch-text);
+  font-family: var(--hh-font-sans);
+}
+
+html[data-theme="dark"] .resource-search.psearch {
+  --psearch-card: #161619;
+  --psearch-card-ring: rgb(255 255 255 / 0.07);
+  --psearch-card-shadow: 0 30px 70px -24px rgb(0 0 0 / 0.8), 0 2px 6px -2px rgb(0 0 0 / 0.5);
+  --psearch-panel: #1d1d21;
+  --psearch-panel-border: rgb(255 255 255 / 0.06);
+  --psearch-faint: #a4a4ac;
+  --psearch-placeholder: #94949c;
+  --psearch-divider: rgb(255 255 255 / 0.06);
+  --psearch-sheet: #29292e;
+  --psearch-btn: #26262b;
+  --psearch-btn-hover: #303036;
+  --psearch-btn-fg: #c4c4ca;
+  --psearch-accent: #4ea6ff;
+  --psearch-danger: #f28a55;
+  --psearch-kbd-bg: rgb(255 255 255 / 0.05);
+  --psearch-kbd-border: rgb(255 255 255 / 0.1);
+}
+
+.psearch *,
+.psearch *::before,
+.psearch *::after { box-sizing: border-box; }
+
+.psearch :where(button) {
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  appearance: none;
+}
+
+/* ---------------------------------------------------------------- the card */
+
+.psearch__card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: min(300px, 100%);
+  overflow: hidden;
+  border-radius: 16px;
+  background: var(--psearch-card);
+  box-shadow: var(--psearch-card-shadow), 0 0 0 1px var(--psearch-card-ring);
+  cursor: text;
+}
+
+.psearch__card--open {
+  /* The registry grows 300 → 420; in this toolbar a wider card would sit on the
+     facet buttons, so the width stays inside its column and only height grows. */
+  width: min(420px, 100%);
+  border-radius: 22px;
+  cursor: auto;
+}
+
+.psearch__bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 50px;
+  padding: 0 10px 0 16px;
+}
+
+.psearch__glass {
+  display: flex;
+  flex-shrink: 0;
+  color: var(--psearch-faint);
+  transition: color 0.2s ease;
+}
+.psearch__card--open .psearch__glass { color: var(--psearch-text); }
+
+.resource-search.psearch .psearch__input {
+  flex: 1;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  min-height: 0;
+  min-width: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--psearch-text);
+  caret-color: var(--psearch-accent);
+  font: inherit;
+  font-size: 15px;
+  outline: none;
+  appearance: none;
+}
+.psearch__input::placeholder { color: var(--psearch-placeholder); opacity: 1; }
+.psearch__input::-webkit-search-cancel-button { display: none; }
+.psearch__input:focus,
+.psearch__input:focus-visible { outline: none; box-shadow: none; }
+
+.resource-search-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.psearch__close {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  background: var(--psearch-btn);
+  color: var(--psearch-btn-fg);
+  outline: none;
+  transition: background-color 0.2s ease;
+}
+
+.psearch__kbd {
+  flex-shrink: 0;
+  margin-right: 4px;
+  padding: 2px 6px;
+  border: 1px solid var(--psearch-kbd-border);
+  border-radius: 6px;
+  background: var(--psearch-kbd-bg);
+  color: var(--psearch-muted);
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+/* ---------------------------------------------------------------- the panel */
+
+.psearch__body { width: 100%; }
+
+.psearch__panel {
+  position: relative;
+  margin: 0 6px;
+  overflow: hidden;
+  border: 1px solid var(--psearch-panel-border);
+  border-radius: 16px;
+  background: var(--psearch-panel);
+}
+
+.psearch__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  padding: 0 16px;
+}
+.psearch__head-label {
+  color: var(--psearch-faint);
+  font-size: 12.5px;
+  font-weight: 500;
+}
+.psearch__action {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 6px;
+  border-radius: 6px;
+  color: var(--psearch-accent);
+  font-size: 12.5px;
+  font-weight: 500;
+  outline: none;
+  transition: opacity 0.2s ease;
+}
+
+.psearch__list {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-height: 320px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.psearch__row {
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+}
+.psearch__row + .psearch__row .psearch__row-body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 1px;
+  background: var(--psearch-divider);
+  pointer-events: none;
+}
+
+.psearch__row-body {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding-right: 10px;
+}
+.psearch__row-link {
+  gap: 14px;
+  padding: 10px 10px 10px 16px;
+  color: inherit;
+  text-decoration: none;
+}
+.psearch__row-main {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+  padding: 10px 6px 10px 16px;
+  color: inherit;
+  text-align: left;
+  text-decoration: none;
+}
+.psearch__row-body:hover,
+.psearch__row-body:focus-within {
+  background: var(--psearch-sheet);
+  text-decoration: none;
+  outline: none;
+}
+.psearch__row-link:focus-visible,
+.psearch__row-main:focus-visible {
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 2px var(--psearch-accent);
+  outline: none;
+}
+
+.psearch__row-text { flex: 1; min-width: 0; }
+.psearch__row-title,
+.psearch__row-sub {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.psearch__row-title {
+  color: var(--psearch-text);
+  font-size: 14.5px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+}
+.psearch__row-sub {
+  margin-top: 2px;
+  color: var(--psearch-muted);
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* ---------------------------------------------------------------- tiles */
+
+.psearch__tile {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+}
+.psearch__tile-art {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 76px;
+  height: 76px;
+  overflow: hidden;
+  border-radius: 20px;
+  transform: scale(0.5789);
+  transform-origin: 0 0;
+}
+.psearch__tile-glyph {
+  color: rgb(255 255 255 / 0.85);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1;
+}
+.psearch__tile--recent .psearch__tile-art {
+  background: var(--psearch-btn);
+  color: var(--psearch-btn-fg);
+}
+
+/* ---------------------------------------------------------------- remove */
+
+.psearch__remove {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  color: var(--psearch-danger);
+  opacity: 0;
+  outline: none;
+  transition: opacity 0.2s ease, background-color 0.2s ease;
+}
+.psearch__row-body:hover .psearch__remove,
+.psearch__row-body:focus-within .psearch__remove,
+.psearch__remove:focus-visible { opacity: 1; }
+.psearch__remove:focus-visible { box-shadow: 0 0 0 2px color-mix(in srgb, var(--psearch-danger) 40%, transparent); }
+
+.psearch__empty {
+  list-style: none;
+}
+.psearch__empty > div {
+  padding: 24px 16px;
+  border-top: 1px solid var(--psearch-divider);
+  color: var(--psearch-faint);
+  font-size: 13px;
+  text-align: center;
+}
+
+/* ---------------------------------------------------------------- chips */
+
+.psearch__chips {
+  display: flex;
+  gap: 8px;
+  padding: 12px 16px 14px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  mask-image: linear-gradient(90deg, #000 0, #000 calc(100% - 48px), transparent calc(100% - 12px));
+  -webkit-mask-image: linear-gradient(90deg, #000 0, #000 calc(100% - 48px), transparent calc(100% - 12px));
+}
+.psearch__chips::-webkit-scrollbar { display: none; }
+
+.psearch__chip {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  height: 32px;
+  padding: 0 12px;
+  border-radius: 999px;
+  background: var(--psearch-btn);
+  color: var(--psearch-text);
+  font-size: 13px;
+  font-weight: 500;
+  outline: none;
+  transition: background-color 0.2s ease;
+}
+.psearch__chip:hover { background: var(--psearch-btn-hover); }
+.psearch__chip:focus-visible { box-shadow: 0 0 0 2px var(--psearch-accent); }
+
+/* ---------------------------------------------------------------- hover / focus */
+
+@media (hover: hover) {
+  .psearch__close:hover { background: var(--psearch-btn-hover); }
+  .psearch__action:hover { opacity: 0.7; }
+  .psearch__remove:hover { background: color-mix(in srgb, var(--psearch-danger) 12%, transparent); }
+}
+
+.psearch__close:focus-visible,
+.psearch__action:focus-visible { box-shadow: 0 0 0 2px var(--psearch-accent); }
+
+@media (prefers-reduced-motion: reduce) {
+  .psearch__card,
+  .psearch__glass,
+  .psearch__close,
+  .psearch__chip,
+  .psearch__remove { transition: none; }
+}
+
+@media (pointer: coarse) {
+  .psearch__input { font-size: 16px; }
+}

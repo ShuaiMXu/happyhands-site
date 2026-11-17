@@ -38,7 +38,7 @@
     "check:search": "node scripts/check-search-discovery.mjs",
     "ui:audit": "node scripts/audit-owned-ui.mjs",
     "archive:facets": "node --import tsx scripts/build-archive-facets.mjs",
-    "systems:previews": "node scripts/build-design-how-previews.mjs",
+    "systems:previews": "node scripts/build-design-how-previews.mjs && node scripts/build-pinui-previews.mjs",
     "test:systems:live": "node tests/design-system-live-browser.mjs",
     "test:design-resources": "node --test tests/design-how.test.mjs tests/design-archive.test.mjs",
     "test:resources:browser": "node tests/resource-presentation-browser.mjs",
@@ -48,7 +48,9 @@
     "test:seo:resources:browser": "node tests/resource-seo-browser.mjs",
     "test:archive": "node --import tsx --import ./tests/helpers/register-css.mjs --test tests/archive-catalog.test.ts tests/design-archive.test.mjs tests/designmd-document.test.ts tests/design-demo-theme.test.ts tests/component-completeness.test.ts tests/reference-specimen.test.tsx",
     "test:collections": "node --test tests/collections.test.mjs",
-    "test:collections:browser": "node tests/collections-browser.mjs"
+    "test:collections:browser": "node tests/collections-browser.mjs",
+    "test:resources:directory": "node --import tsx --test tests/resource-directory.test.ts",
+    "test:resources:specimens": "node --import tsx --test tests/specimen-model.test.ts tests/platform-directory.test.ts"
   },
   "dependencies": {
     "@base-ui/react": "1.9.0",
@@ -122,6 +124,7 @@
     "@types/culori": "^4.0.1",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.187.0",
     "playwright-core": "^1.63.0",
     "prettier": "^3.9.9",
     "tailwindcss": "^4.3.3",

@@ -411,7 +411,7 @@ function App() {
             </div>
             <div className="system-return">
               <a href="/components/?provider=systems">
-                <Icon name="left" /> {t("返回设计系统", "All design systems")}
+                {t("返回设计系统", "All design systems")}
               </a>
               <a href="/systems/quartz/">
                 {t("了解 Quartz", "Explore Quartz")} <Icon name="right" />

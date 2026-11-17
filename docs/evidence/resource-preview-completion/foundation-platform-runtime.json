@@ -1,0 +1,1621 @@
+[
+  {
+    "id": "collection:app-tokens/antd-mobile/tokens.json",
+    "errors": [],
+    "tokens": 159,
+    "media": 0
+  },
+  {
+    "id": "collection:app-tokens/material3/tokens.json",
+    "errors": [],
+    "tokens": 455,
+    "media": 0
+  },
+  {
+    "id": "collection:app-tokens/nutui/tokens.json",
+    "errors": [],
+    "tokens": 751,
+    "media": 0
+  },
+  {
+    "id": "collection:app-tokens/tdesign-mobile-vue/tokens.json",
+    "errors": [],
+    "tokens": 230,
+    "media": 0
+  },
+  {
+    "id": "collection:app-tokens/vant/tokens.json",
+    "errors": [],
+    "tokens": 712,
+    "media": 0
+  },
+  {
+    "id": "collection:app-tokens/varlet/tokens.json",
+    "errors": [],
+    "tokens": 1099,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-clay/foundations/anti-slop.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-clay/foundations/color.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-clay/foundations/elevation.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-clay/foundations/iconography.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-clay/foundations/motion.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-clay/foundations/radius.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-clay/foundations/spacing.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-clay/foundations/typography.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-glass/foundations/anti-slop.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-glass/foundations/borders-and-lines.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-glass/foundations/color.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-glass/foundations/elevation.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-glass/foundations/iconography.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-glass/foundations/motion.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-glass/foundations/radius.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-glass/foundations/space.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-mono/foundations/anti-slop.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-mono/foundations/borders-and-lines.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-glass/foundations/typography.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-mono/foundations/color.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-mono/foundations/elevation.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-mono/foundations/iconography.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-mono/foundations/motion.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-mono/foundations/radius.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-mono/foundations/space.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-mono/foundations/typography.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-slate/foundations/anti-slop.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-slate/foundations/borders-and-lines.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-slate/foundations/color.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-slate/foundations/elevation.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-slate/foundations/iconography.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-slate/foundations/grid.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-slate/foundations/motion.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-slate/foundations/radius.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-slate/foundations/space.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:brand-systems/meridian-slate/foundations/typography.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:mobbin-archive/colors.md",
+    "errors": [],
+    "tokens": 29,
+    "media": 0
+  },
+  {
+    "id": "collection:mobbin-archive/index.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:mobbin-archive/llms-full.txt",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:mobbin-archive/llms.txt",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:mobbin-archive/mcp.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:mobbin-archive/pricing.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/DESIGN.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_accessibility.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 28
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_action-button.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_action-sheets.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 4
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_activity-rings.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 7
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_activity-views.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 3
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_airplay.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 14
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_alerts.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 8
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_always-on.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_app-clips.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 28
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_app-icons.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 4
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_app-shortcuts.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 2
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_apple-in-app-purchase.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 21
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_apple-pay.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 71
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_apple-pencil-and-scribble.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 14
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_augmented-reality.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 23
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_boxes.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_branding.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 3
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_buttons.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 25
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_camera-control.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 18
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_carekit.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 14
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_carplay.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_charting-data.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 3
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_charts.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 12
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_collaboration-and-sharing.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 6
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_collections.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_color-wells.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_color.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 76
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_column-views.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_combo-boxes.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_complications.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 54
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_components.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_content.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_context-menus.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_dark-mode.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 14
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_controls.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 11
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_design-principles.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 8
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_designing-for-games.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_designing-for-ios.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_designing-for-ipados.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_designing-for-iphone-duo.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 20
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_designing-for-macos.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_designing-for-tvos.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_designing-for-visionos.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_designing-for-watchos.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_digit-entry-views.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_digital-crown.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 3
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_disclosure-controls.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 5
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_dock-menus.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_drag-and-drop.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 2
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_edit-menus.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_entering-data.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_eyes.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 6
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_feedback.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_file-management.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 2
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_focus-and-selection.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 9
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_foundations.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_game-center.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 23
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_game-controls.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_gauges.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 4
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_generative-ai.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_gestures.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 10
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_getting-started.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_going-full-screen.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_gyro-and-accelerometer.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_healthkit.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 5
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_home-screen-quick-actions.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_homekit.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 35
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_icloud.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_icons.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 65
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_id-verifier.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 3
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_image-views.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_image-wells.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_images.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 5
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_imessage-apps-and-stickers.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 4
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_immersive-experiences.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 7
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_inclusion.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 4
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_inputs.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_keyboards.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 6
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_labels.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 3
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_launching.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_layout-and-organization.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_layout.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 17
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_lists-and-tables.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 3
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_live-activities.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 39
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_live-photos.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 3
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_live-viewing-apps.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_loading.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_lockups.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 6
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_mac-catalyst.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 3
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_machine-learning.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 9
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_managing-accounts.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_managing-notifications.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_maps.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 17
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_materials.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 20
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_menus-and-actions.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_menus.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 5
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_modality.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_motion.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_multitasking.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 6
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_navigation-and-search.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_nearby-interactions.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_nfc.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 3
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_notifications.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 3
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_offering-help.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 13
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_onboarding.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_outline-views.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_ornaments.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_panels.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 2
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_page-controls.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 6
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_patterns.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_path-controls.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 3
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_photo-editing.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_pickers.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 4
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_playing-audio.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_playing-haptics.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 19
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_playing-video.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 11
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_pointing-devices.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 61
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_pop-up-buttons.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 3
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_popovers.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 3
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_presentation.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_printing.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_privacy.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 24
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_progress-indicators.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 11
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_pull-down-buttons.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 3
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_rating-indicators.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_ratings-and-reviews.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 2
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_remotes.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_researchkit.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 11
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_right-to-left.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 55
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_scroll-views.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 2
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_search-fields.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 11
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_searching.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_segmented-controls.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 6
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_selection-and-input.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_sf-symbols.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 29
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_settings.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_shareplay.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_shazamkit.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 2
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_sheets.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 16
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_sidebars.md",
+    "errors": [],
+    "retry": "Passed with loaded official illustration"
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_sign-in-with-apple.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 30
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_sliders.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 8
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_siri.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_snippets.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 7
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_split-views.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 4
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_spatial-layout.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 8
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_status-bars.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 3
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_status.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_steppers.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_system-experiences.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_tab-bars.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 11
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_tab-views.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 2
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_tap-to-pay-on-iphone.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 19
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_technologies.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_text-fields.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 5
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_text-views.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_the-menu-bar.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 3
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_toggles.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 13
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_token-fields.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 3
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_toolbars.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 30
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_top-shelf.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 5
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_typography.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 9
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_undo-and-redo.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_virtual-keyboards.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 20
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_voiceover.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 5
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_wallet.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 60
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_watch-faces.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_web-views.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 1
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_widgets.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 38
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_windows.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 9
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_workouts.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 7
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/design_human-interface-guidelines_writing.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 4
+  },
+  {
+    "id": "collection:platform-systems/apple-hig/docs/index.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/material3/css/baseline.css",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/material3/css/colors.css",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/material3/css/elevation.css",
+    "errors": [],
+    "tokens": 19,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/material3/css/motion.css",
+    "errors": [],
+    "tokens": 45,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/material3/css/palette.css",
+    "errors": [],
+    "tokens": 80,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/material3/css/shape.css",
+    "errors": [],
+    "tokens": 48,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/material3/css/state.css",
+    "errors": [],
+    "tokens": 4,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/material3/css/theme/dark.css",
+    "errors": [],
+    "tokens": 29,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/material3/css/theme/light.css",
+    "errors": [],
+    "tokens": 29,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/material3/css/typography.css",
+    "errors": [],
+    "tokens": 230,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/material3/DESIGN.md",
+    "errors": [],
+    "tokens": 455,
+    "media": 0
+  },
+  {
+    "id": "collection:platform-systems/material3/tokens.json",
+    "errors": [],
+    "tokens": 455,
+    "media": 0
+  },
+  {
+    "id": "system:glaze/foundations/borders-and-lines.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:glaze/foundations/anti-slop.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:glaze/foundations/color.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:glaze/foundations/elevation.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:glaze/foundations/motion.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:glaze/foundations/iconography.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:glaze/foundations/radius.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:glaze/foundations/space.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:lime/foundations/anti-slop.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:glaze/foundations/typography.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:lime/foundations/color.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:lime/foundations/elevation.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:lime/foundations/iconography.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:lime/foundations/radius.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:lime/foundations/motion.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:lime/foundations/spacing.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:lime/foundations/typography.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:quartz/foundations/anti-slop.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:quartz/foundations/borders-and-lines.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:quartz/foundations/color.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:quartz/foundations/elevation.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:quartz/foundations/grid.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:quartz/foundations/iconography.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:quartz/foundations/motion.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:quartz/foundations/radius.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:quartz/foundations/space.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:quartz/foundations/typography.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:sodium/foundations/anti-slop.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:sodium/foundations/borders-and-lines.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:sodium/foundations/color.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:sodium/foundations/elevation.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:sodium/foundations/iconography.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:sodium/foundations/motion.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:sodium/foundations/radius.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:sodium/foundations/space.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  },
+  {
+    "id": "system:sodium/foundations/typography.md",
+    "errors": [],
+    "tokens": 0,
+    "media": 0
+  }
+]

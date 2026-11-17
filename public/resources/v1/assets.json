@@ -2,16 +2,6 @@
   "schemaVersion": 1,
   "files": [
     {
-      "path": "collections/COLLECTIONS.md",
-      "sha256": "ede74c54dfbbd04f4d43a0daa2c217c85e126ae460dec88cf208c1a3fbc3bc42",
-      "bytes": 2243
-    },
-    {
-      "path": "collections/app-tokens/README.md",
-      "sha256": "90ebfa94e128fcfdab98d66dc8a38dc95e451ef2f13f5db9b25b8be0fa155a18",
-      "bytes": 2400
-    },
-    {
       "path": "collections/app-tokens/antd-mobile/styles/package/2x/bundle/style.css",
       "sha256": "52d6d8769398a74a3374b7e7461bab4cdf5bf1069e4561bbd7021f499a0beed5",
       "bytes": 166527
@@ -1367,6 +1357,11 @@
       "bytes": 66608
     },
     {
+      "path": "collections/app-tokens/README.md",
+      "sha256": "90ebfa94e128fcfdab98d66dc8a38dc95e451ef2f13f5db9b25b8be0fa155a18",
+      "bytes": 2400
+    },
+    {
       "path": "collections/app-tokens/tdesign-mobile-vue/styles/package/dist/plugin.css",
       "sha256": "f2be4d99cf8d0d874475546886aecaa00953f5eec01eecab7fff00037f16cd42",
       "bytes": 30110
@@ -2600,11 +2595,6 @@
       "path": "collections/app-tokens/varlet/tokens.json",
       "sha256": "dc410064c388516a4e2cf4e37c25f7e2601785343410fe7f28a1ff5fe53a3834",
       "bytes": 52738
-    },
-    {
-      "path": "collections/brand-registry/README.md",
-      "sha256": "155e10d71bb71937a536c753d4a218c8c1a5345dcdee340bd1b9947d994cb6ec",
-      "bytes": 1050
     },
     {
       "path": "collections/brand-registry/fonts/meridian-mono/CommitMono-Regular.woff2",
@@ -4182,6 +4172,11 @@
       "bytes": 3899
     },
     {
+      "path": "collections/brand-registry/README.md",
+      "sha256": "155e10d71bb71937a536c753d4a218c8c1a5345dcdee340bd1b9947d994cb6ec",
+      "bytes": 1050
+    },
+    {
       "path": "collections/brand-registry/systems/index.md",
       "sha256": "dc7aa2ca77db2d8b9afb621fb4e361083efcd59a6e4c62d25d665d6a15abcea3",
       "bytes": 509
@@ -5517,11 +5512,6 @@
       "bytes": 15310
     },
     {
-      "path": "collections/brand-systems/README.md",
-      "sha256": "f798142745c41ee350d3e33fa84f4480aca9e23b4b988e17bef250fa037900cf",
-      "bytes": 4240
-    },
-    {
       "path": "collections/brand-systems/brand.json",
       "sha256": "a830ca1f844e4651586d9d1442ffa993c57ec53eb102c12a02d1b18fa07fedd9",
       "bytes": 725
@@ -6157,11 +6147,6 @@
       "bytes": 33410
     },
     {
-      "path": "collections/brand-systems/meridian-clay/src/registry/meridian-clay/SKILL.md",
-      "sha256": "6aafdc8f90d29558971c9097c82eec52a04862f5a47a9cdd006239521fb3a236",
-      "bytes": 33410
-    },
-    {
       "path": "collections/brand-systems/meridian-clay/src/registry/meridian-clay/ai/action-receipt.tsx",
       "sha256": "e181f9f2b361e5e4441d71df9ceb986e5a0808d9b4f67fda6c4ea7f1168715fc",
       "bytes": 3684
@@ -6265,6 +6250,11 @@
       "path": "collections/brand-systems/meridian-clay/src/registry/meridian-clay/lint/classes.json",
       "sha256": "3a79be72ab480f1c8394cf2b8e1284a29397a419f2c63b9677ed3f5d29b93569",
       "bytes": 44047
+    },
+    {
+      "path": "collections/brand-systems/meridian-clay/src/registry/meridian-clay/SKILL.md",
+      "sha256": "6aafdc8f90d29558971c9097c82eec52a04862f5a47a9cdd006239521fb3a236",
+      "bytes": 33410
     },
     {
       "path": "collections/brand-systems/meridian-clay/src/registry/meridian-clay/styles.css",
@@ -7312,11 +7302,6 @@
       "bytes": 42156
     },
     {
-      "path": "collections/brand-systems/meridian-glass/src/registry/meridian-glass/SKILL.md",
-      "sha256": "b7ccaeb4613354afad6b602641510cd94795978abf00224ee394227871fc20eb",
-      "bytes": 42156
-    },
-    {
       "path": "collections/brand-systems/meridian-glass/src/registry/meridian-glass/ai/action-receipt.tsx",
       "sha256": "937b9d7f682e4371691784d58bc89213bda74c8c86737766e7908f780d1064df",
       "bytes": 7057
@@ -7510,6 +7495,11 @@
       "path": "collections/brand-systems/meridian-glass/src/registry/meridian-glass/lint/classes.json",
       "sha256": "b6c2fcbb2dc2d88675fb11bcc773f5f5bb6a71b34a672fc7e960398f66348002",
       "bytes": 44498
+    },
+    {
+      "path": "collections/brand-systems/meridian-glass/src/registry/meridian-glass/SKILL.md",
+      "sha256": "b7ccaeb4613354afad6b602641510cd94795978abf00224ee394227871fc20eb",
+      "bytes": 42156
     },
     {
       "path": "collections/brand-systems/meridian-glass/src/registry/meridian-glass/styles.css",
@@ -8512,11 +8502,6 @@
       "bytes": 38712
     },
     {
-      "path": "collections/brand-systems/meridian-mono/src/registry/meridian-mono/SKILL.md",
-      "sha256": "459cf3f9ca7cb9338043a0ae47b5ed3fb687e6d59cc82307cc4df228692a459f",
-      "bytes": 38712
-    },
-    {
       "path": "collections/brand-systems/meridian-mono/src/registry/meridian-mono/ai/activity.tsx",
       "sha256": "ab41c08b4a6c05af194e36e8f8449be451a6938e69c3559405a9a6a8ba15deba",
       "bytes": 8216
@@ -8640,6 +8625,11 @@
       "path": "collections/brand-systems/meridian-mono/src/registry/meridian-mono/lint/classes.json",
       "sha256": "805f7a37351dc7e8f305df98af480a143c925ec584d8d56a91c30a697bb44041",
       "bytes": 45034
+    },
+    {
+      "path": "collections/brand-systems/meridian-mono/src/registry/meridian-mono/SKILL.md",
+      "sha256": "459cf3f9ca7cb9338043a0ae47b5ed3fb687e6d59cc82307cc4df228692a459f",
+      "bytes": 38712
     },
     {
       "path": "collections/brand-systems/meridian-mono/src/registry/meridian-mono/styles.css",
@@ -9672,11 +9662,6 @@
       "bytes": 51304
     },
     {
-      "path": "collections/brand-systems/meridian-slate/src/registry/meridian-slate/SKILL.md",
-      "sha256": "002779b63fa6be5d70b84d6537e5edb3ac956a6b4bf94924b2bdd70b9a96f297",
-      "bytes": 51304
-    },
-    {
       "path": "collections/brand-systems/meridian-slate/src/registry/meridian-slate/ai/activity.tsx",
       "sha256": "c6b547abdf5eed60774d9210cbd605315432102fd723292f13e6159d0ca1e871",
       "bytes": 16710
@@ -9860,6 +9845,11 @@
       "path": "collections/brand-systems/meridian-slate/src/registry/meridian-slate/lint/classes.json",
       "sha256": "6ca15ef186327decbb7a069281cbdcc64a853197d6d75ab25e6bd9cb23607c7a",
       "bytes": 44989
+    },
+    {
+      "path": "collections/brand-systems/meridian-slate/src/registry/meridian-slate/SKILL.md",
+      "sha256": "002779b63fa6be5d70b84d6537e5edb3ac956a6b4bf94924b2bdd70b9a96f297",
+      "bytes": 51304
     },
     {
       "path": "collections/brand-systems/meridian-slate/src/registry/meridian-slate/styles.css",
@@ -10187,9 +10177,19 @@
       "bytes": 11773
     },
     {
+      "path": "collections/brand-systems/README.md",
+      "sha256": "f798142745c41ee350d3e33fa84f4480aca9e23b4b988e17bef250fa037900cf",
+      "bytes": 4240
+    },
+    {
       "path": "collections/brand-systems/systems.md",
       "sha256": "dc7aa2ca77db2d8b9afb621fb4e361083efcd59a6e4c62d25d665d6a15abcea3",
       "bytes": 509
+    },
+    {
+      "path": "collections/COLLECTIONS.md",
+      "sha256": "ede74c54dfbbd04f4d43a0daa2c217c85e126ae460dec88cf208c1a3fbc3bc42",
+      "bytes": 2243
     },
     {
       "path": "collections/design-archive/README.md",
@@ -10205,11 +10205,6 @@
       "path": "collections/designmd-archive/README.md",
       "sha256": "709a5f5f66f655081031890a0782ed2e47d46894c1dbf7554d63ef4feb38388c",
       "bytes": 3741
-    },
-    {
-      "path": "collections/mobbin-archive/README.md",
-      "sha256": "57b06435ec79f8270fe69197e2df012d6210cdfa5d31777f17e0d04b7bb83e3a",
-      "bytes": 1179
     },
     {
       "path": "collections/mobbin-archive/colors.md",
@@ -10242,14 +10237,19 @@
       "bytes": 4997
     },
     {
-      "path": "collections/ottermind/README.md",
-      "sha256": "77934babddbe78e47bac1830edcdba193d9426b5652d2284c38fac39dd297540",
-      "bytes": 1409
+      "path": "collections/mobbin-archive/README.md",
+      "sha256": "57b06435ec79f8270fe69197e2df012d6210cdfa5d31777f17e0d04b7bb83e3a",
+      "bytes": 1179
     },
     {
       "path": "collections/ottermind/index.json",
       "sha256": "2d2eaa2f7a3dc5f828564fd91d636d9f9479d90cb1a551cc1ba764f661cdfbc3",
       "bytes": 103119
+    },
+    {
+      "path": "collections/ottermind/README.md",
+      "sha256": "77934babddbe78e47bac1830edcdba193d9426b5652d2284c38fac39dd297540",
+      "bytes": 1409
     },
     {
       "path": "collections/ottermind/website/3d-character-studio/design.md",
@@ -14272,19 +14272,9 @@
       "bytes": 85072
     },
     {
-      "path": "collections/platform-systems/README.md",
-      "sha256": "afdc26a815d7749095e90e381ecc624771acf08f73cb7c75f8742fd1f4a39aa8",
-      "bytes": 2983
-    },
-    {
       "path": "collections/platform-systems/apple-hig/DESIGN.md",
       "sha256": "90d73fce368c1b32be8b49e236bebc5142f6891b3f5c7d325e963697a20dba4f",
       "bytes": 12997
-    },
-    {
-      "path": "collections/platform-systems/apple-hig/SKILL.md",
-      "sha256": "8ad6d43ecf7e0c41fab146e6bb70f955fcd54f7746e0551543618570bfe6b554",
-      "bytes": 813
     },
     {
       "path": "collections/platform-systems/apple-hig/docs/design_human-interface-guidelines_accessibility.md",
@@ -15152,14 +15142,9 @@
       "bytes": 5078
     },
     {
-      "path": "collections/platform-systems/material3/DESIGN.md",
-      "sha256": "1f09f31d9c49f7db1836332948e13da439db12d9506ffb95413b57b2d764ffd3",
-      "bytes": 1355
-    },
-    {
-      "path": "collections/platform-systems/material3/SKILL.md",
-      "sha256": "9c37440cc2c004266cdd3f2e1b2e6559fbac3c8a0cf02ebc7d2b68cd53cd3349",
-      "bytes": 687
+      "path": "collections/platform-systems/apple-hig/SKILL.md",
+      "sha256": "8ad6d43ecf7e0c41fab146e6bb70f955fcd54f7746e0551543618570bfe6b554",
+      "bytes": 813
     },
     {
       "path": "collections/platform-systems/material3/css/baseline.css",
@@ -15212,14 +15197,189 @@
       "bytes": 24940
     },
     {
+      "path": "collections/platform-systems/material3/DESIGN.md",
+      "sha256": "1f09f31d9c49f7db1836332948e13da439db12d9506ffb95413b57b2d764ffd3",
+      "bytes": 1355
+    },
+    {
+      "path": "collections/platform-systems/material3/SKILL.md",
+      "sha256": "9c37440cc2c004266cdd3f2e1b2e6559fbac3c8a0cf02ebc7d2b68cd53cd3349",
+      "bytes": 687
+    },
+    {
       "path": "collections/platform-systems/material3/tokens.json",
       "sha256": "c2ff2858eaef1ef10059b9d57627308fd76936ad2aff547b9d7740a064ebffb6",
       "bytes": 25596
     },
     {
+      "path": "collections/platform-systems/README.md",
+      "sha256": "afdc26a815d7749095e90e381ecc624771acf08f73cb7c75f8742fd1f4a39aa8",
+      "bytes": 2983
+    },
+    {
       "path": "collections/registry-own/README.md",
       "sha256": "1fa64866f32b8b90b3ad4a1cbb89fa5f9a224432788ad321d9f5cc656ce138fd",
       "bytes": 2828
+    },
+    {
+      "path": "components/pin-ui/add-member.json",
+      "sha256": "923adca9e2720b011f6c6104debf9c3b399ecbce673271f197274da7543aabcf",
+      "bytes": 46496
+    },
+    {
+      "path": "components/pin-ui/balance-card.json",
+      "sha256": "d90642f6608e5ec73b556eaa49fde0f158a8f9ad94cc24e83752c76e8243b264",
+      "bytes": 42591
+    },
+    {
+      "path": "components/pin-ui/calendar-card.json",
+      "sha256": "df0501f88dc2b0fcd98b27c69b079e3d5e6ebc38d202edb5a59993a831148d93",
+      "bytes": 38346
+    },
+    {
+      "path": "components/pin-ui/cart-card.json",
+      "sha256": "515d3553149c9150c06e04bd679ecd0dfc8f36d11aac2aac5e25c0db9838380c",
+      "bytes": 38921
+    },
+    {
+      "path": "components/pin-ui/chat-room.json",
+      "sha256": "546e771d237250f512e17394f356c3c19e3975a2ba6e388b10414d7e4d9b9564",
+      "bytes": 28042
+    },
+    {
+      "path": "components/pin-ui/chips.json",
+      "sha256": "67013023dab554056d98ddbe91aae696af0720e5bcb8971d887d1220d5740db6",
+      "bytes": 26661
+    },
+    {
+      "path": "components/pin-ui/copy-paste-pad.json",
+      "sha256": "1d4770ae8d6d73ee3afbbfc5eb01149189ddb089cbf981791d980f1a92989435",
+      "bytes": 41092
+    },
+    {
+      "path": "components/pin-ui/desk-computer.json",
+      "sha256": "127dd6154a58f9236bd10af6a2ca38b238d39bcbeb79fe692eb76a2bd5777215",
+      "bytes": 74332
+    },
+    {
+      "path": "components/pin-ui/dynamic-drop-zone.json",
+      "sha256": "59f0923e712ebcd06d864aedd89e842f99f8bd6e5cbe3ea50ed5eed8110dd8d4",
+      "bytes": 43322
+    },
+    {
+      "path": "components/pin-ui/file-box.json",
+      "sha256": "fe8b3a7a06c60d58319b2517441d4af0b15dcfc06406488e00ceb142d9415405",
+      "bytes": 34501
+    },
+    {
+      "path": "components/pin-ui/joystick.json",
+      "sha256": "85cfca335c315db16dfdba6b040d4aba6491d3e8d44fd192f1ef8e9441899f47",
+      "bytes": 29728
+    },
+    {
+      "path": "components/pin-ui/lamp-switch.json",
+      "sha256": "0ce0ce4521e824b535e035e5eb3870adbacea645b8eb1f6f2d84c21f7f004789",
+      "bytes": 41658
+    },
+    {
+      "path": "components/pin-ui/liquid-tabs.json",
+      "sha256": "d0f400c8d778546549069f2751c4b1ea62d2d0b353d644f9d1b02ed1a44f242b",
+      "bytes": 33440
+    },
+    {
+      "path": "components/pin-ui/liquid-voice.json",
+      "sha256": "8af2d6e93aa8dfc7a2ba248fd71f7479725237761ac346f18ee964ca2a50d698",
+      "bytes": 41213
+    },
+    {
+      "path": "components/pin-ui/magnify.json",
+      "sha256": "6b90c0dc0ae76917b123d08dc9430146db757facc0e72248853e34b8400f151d",
+      "bytes": 20775
+    },
+    {
+      "path": "components/pin-ui/otp-input.json",
+      "sha256": "a56dfde7cceb6e6cd0d5c500671ff80aa089265600f40e09120fdfd53cda4bc6",
+      "bytes": 22563
+    },
+    {
+      "path": "components/pin-ui/presence-cards.json",
+      "sha256": "30c55e8e7bac57a1d17821364f41ac0117baed0dc7f590c44278fdd450c23e90",
+      "bytes": 58380
+    },
+    {
+      "path": "components/pin-ui/progress-image.json",
+      "sha256": "e0daf718b44e44fe88ee46a99fea1dd52d8b0968a6c1234edb25771052e0e983",
+      "bytes": 48325
+    },
+    {
+      "path": "components/pin-ui/prompt-composer.json",
+      "sha256": "12d1713f23290b76a35b0b2b83d0a60279bba827098b4ac385900a1425522c44",
+      "bytes": 55497
+    },
+    {
+      "path": "components/pin-ui/reader-card.json",
+      "sha256": "6a270c67e196430f59ad0fa0c2c94c428f4457aa9c13b583e0f8dea8106174e3",
+      "bytes": 65676
+    },
+    {
+      "path": "components/pin-ui/recorder.json",
+      "sha256": "5d15e12dc7c31daa6e1e9b0098fe65a01d40ffbe0e8b8b13841d2513e5a40731",
+      "bytes": 47426
+    },
+    {
+      "path": "components/pin-ui/search-card.json",
+      "sha256": "658b1fde0f5fc8a9b5f4d074e4a89593b48f2a5df1fa24ef00fdb8cda325ea23",
+      "bytes": 37227
+    },
+    {
+      "path": "components/pin-ui/selection-list.json",
+      "sha256": "09d290b17a79b20650787c201b8c472aa116378826323211d8ba1f97c56d9da1",
+      "bytes": 14459
+    },
+    {
+      "path": "components/pin-ui/session-list.json",
+      "sha256": "cf40aedc66e0af2756f6cfe81a5bd984fbe61813fea491ab385946710f90aa8a",
+      "bytes": 41196
+    },
+    {
+      "path": "components/pin-ui/swap-card.json",
+      "sha256": "7bde4106eb4f94935e0b9a4700bf1baf314a7aaf683f4e60e3fd40a8d0c2c0f4",
+      "bytes": 47465
+    },
+    {
+      "path": "components/pin-ui/synais-footer.json",
+      "sha256": "6b6d4704e7dda9beaf301e880bb79e060acc5a24ac9aa46ed9d479ef833e4867",
+      "bytes": 19616
+    },
+    {
+      "path": "components/pin-ui/task-card.json",
+      "sha256": "859dd5fb1ee65bed408596f92235152ee6d5942c5cc9c4b05a3a2f8d99bb2ec4",
+      "bytes": 38974
+    },
+    {
+      "path": "components/pin-ui/taxi.json",
+      "sha256": "a9629297397d56269f2b887b350c30f976e7b8ff9a5384fac4cb4907f873fda2",
+      "bytes": 54197
+    },
+    {
+      "path": "components/pin-ui/theme-switch.json",
+      "sha256": "8679487fb8e2da1b96e35830bae86214cbe0b1c1ad0872279654e29698f33504",
+      "bytes": 66886
+    },
+    {
+      "path": "components/pin-ui/thermal-dial.json",
+      "sha256": "06c96070e34116e4b9c096e6a39a0ca27be88e81c23c09905f87e9f3e898903c",
+      "bytes": 27715
+    },
+    {
+      "path": "components/pin-ui/UPSTREAM.md",
+      "sha256": "9ac2d8d921ea34ebfe8ae82f72e77fa32c0d54e591e44599b9d0d3c4a0ae3654",
+      "bytes": 2775
+    },
+    {
+      "path": "components/pin-ui/weather.json",
+      "sha256": "7eff03bf23fbcc1318b3f6600f8a790b79860abe6adb016868b06c5c12dae324",
+      "bytes": 25456
     },
     {
       "path": "fonts/meridian-mono/CommitMono-Regular.woff2",

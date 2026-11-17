@@ -43,7 +43,7 @@ function serveGitHubStars(server) {
 export default defineConfig({
   server: { cors: { origin: [/^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/, 'null'] }, port: 4173, strictPort: true, fs: { strict: true } },
   plugins: [{name:'archived-design-system-source',enforce:'pre',resolveId(id){
-      const match=id.match(/^@\/(components|lib|hooks)\/(sodium|glaze|quartz|lime)\/(.+)$/);
+      const match=id.match(/^@\/(components|lib|hooks)\/(sodium|glaze|quartz|lime|meridian-mono|meridian-glass|meridian-slate|meridian-clay)\/(.+)$/);
       if(!match)return null;
       const [,kind,system,rest]=match;
       const file=resolve(root,'systems/preview/generated',system,kind==='components'?rest:`${kind}/${rest}`);
@@ -92,6 +92,7 @@ export default defineConfig({
     lime: resolve('systems/lime/index.html'),
     sodium: resolve('systems/sodium/index.html'),
     glaze: resolve('systems/glaze/index.html'),
+    'pinui-preview': resolve('components/pinui-preview/index.html'),
     'component-preview': resolve('components/preview/index.html'),
     'system-preview': resolve('systems/preview/index.html'),
     components: resolve('components/index.html'),

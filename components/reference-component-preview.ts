@@ -108,10 +108,10 @@ export function buildComponentPreview(
         ? 'class="secondary"'
         : "";
       body = `<div class="state-grid">${[
-        [t("默认", "Default"), `<button ${variant}>${action} ↗</button>`],
+        [t("默认", "Default"), `<button ${variant}>${action}</button>`],
         [
           t("键盘聚焦", "Keyboard focus"),
-          `<button ${variant} style="outline:2px solid var(--accent);outline-offset:4px">${action} ↗</button>`,
+          `<button ${variant} style="outline:2px solid var(--accent);outline-offset:4px">${action}</button>`,
         ],
         [
           t("处理中", "Working"),
@@ -119,7 +119,7 @@ export function buildComponentPreview(
         ],
         [
           t("不可用", "Disabled"),
-          `<button ${variant} disabled>${action} ↗</button>`,
+          `<button ${variant} disabled>${action}</button>`,
         ],
       ]
         .map(

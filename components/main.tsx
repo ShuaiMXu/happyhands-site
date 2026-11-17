@@ -1,3 +1,6 @@
+import {portalFooter} from "../apps/portal/render-footer.js";
+import "../packages/ui/pinui/site-footer.css";
+import {ResourceDirectory} from './ResourceDirectory';
 import { HistorySafeFrame } from "../packages/ui/HistorySafeFrame";
 import {ResourceToolPanels} from "../packages/ui/ResourceToolPanels";
 import {ResourceNavigation} from "../packages/ui/ResourceNavigation";
@@ -51,13 +54,15 @@ if (new URLSearchParams(location.search).get('provider') === 'studio') location.
 function App() {
   const readProvider = () => {
     const value = new URLSearchParams(location.search).get("provider");
-    if(value === "studio" || value === "setup" || value === "collections") return value;
+    if(value==='collections'){const collection=new URLSearchParams(location.search).get('collection')||'';return ['registry-own','brand-registry','cult-ui'].includes(collection)?'cult-ui':['design-archive','designmd-archive','ottermind'].includes(collection)?'design-md':'systems';}
+    if(value === "studio" || value === "setup") return value;
     return value === "kage" || value === "refero" || value === "design-md"
       ? "design-md"
       : value === "systems"
         ? "systems"
         : "cult-ui";
   };
+  const [routeVersion,setRouteVersion]=useState(0);
   const [provider, setProvider] = useState(readProvider);
   const { lang, dark, toggleLanguage, toggleTheme } = useSitePreferences();
   const t = (zh: string, en: string) => (lang === "zh" ? zh : en);
@@ -201,10 +206,10 @@ function App() {
         active="/apps/portal/#explore"
       />
       <ResourceNavigation active={provider} lang={lang} onSelect={id=>{
-        setProvider(id);setSelected("");history.pushState(null,"",`?provider=${id}`);
+        setProvider(id);setSelected("");setRouteVersion(v=>v+1);history.pushState(null,"",`?provider=${id}`);
       }}/>
       <ResourceToolPanels active={provider} lang={lang}/>
-      {provider === "studio" || provider === "setup" || provider === "collections" ? null : provider === "systems" ? (
+      {provider === "studio" || provider === "setup" ? null : (!new URLSearchParams(location.search).has("design")&&!new URLSearchParams(location.search).has("system")&&!selected)||new URLSearchParams(location.search).has("resource") ? <ResourceDirectory key={`${provider}-${routeVersion}`} section={provider} lang={lang}/> : provider === "systems" ? (
         <SystemLibrary lang={lang} />
       ) : provider === "design-md" ? (
         <DesignMdLibrary lang={lang} />
@@ -319,7 +324,7 @@ function App() {
                 aria-label={t("组件内容", "Component content")}
               >
                 {tabs.map(([id, label], i) => (
-                  <Button
+                  <button type="button"
                     key={id}
                     role="tab"
                     id={`tab-${id}`}
@@ -346,7 +351,7 @@ function App() {
                     }}
                   >
                     {label}
-                  </Button>
+                  </button>
                 ))}
               </div>
               <section
@@ -589,6 +594,7 @@ function App() {
           )}
         </div>
       )}
+      <footer className="hh-catalog-footer" dangerouslySetInnerHTML={{__html:portalFooter(lang)}}/>
     </>
   );
 }

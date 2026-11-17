@@ -157,7 +157,7 @@ export function DesignHowLibrary({
           ["preview", t("预览", "Preview")],
           ["documents", t("资料与下载", "Files and downloads")],
         ].map(([id, label], i) => (
-          <Button
+          <button type="button"
             key={id}
             id={`system-view-${id}`}
             role="tab"
@@ -184,7 +184,7 @@ export function DesignHowLibrary({
             }}
           >
             {label}
-          </Button>
+          </button>
         ))}
       </div>
       {view === "documents" && (
@@ -207,7 +207,7 @@ export function DesignHowLibrary({
               target="_blank"
               rel="noreferrer"
             >
-              design.how ↗
+              design.how
             </a>
           </div>
         </div>

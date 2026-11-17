@@ -1,0 +1,1608 @@
+{
+  "sodium": {
+    "activity": {
+      "document": "design-how/sodium/components/activity.md"
+    },
+    "alert": {
+      "document": "design-how/sodium/components/alert.md"
+    },
+    "avatar": {
+      "document": "design-how/sodium/components/avatar.md"
+    },
+    "bar-blocks": {
+      "document": "design-how/sodium/components/bar-blocks.md"
+    },
+    "breadcrumb": {
+      "document": "design-how/sodium/components/breadcrumb.md"
+    },
+    "button-group": {
+      "document": "design-how/sodium/components/button-group.md"
+    },
+    "button": {
+      "document": "design-how/sodium/components/button.md"
+    },
+    "chart": {
+      "document": "design-how/sodium/components/chart.md"
+    },
+    "checkbox": {
+      "document": "design-how/sodium/components/checkbox.md"
+    },
+    "code-block": {
+      "document": "design-how/sodium/components/code-block.md"
+    },
+    "code-window": {
+      "document": "design-how/sodium/components/code-window.md"
+    },
+    "collapsible": {
+      "document": "design-how/sodium/components/collapsible.md"
+    },
+    "combobox": {
+      "document": "design-how/sodium/components/combobox.md"
+    },
+    "command": {
+      "document": "design-how/sodium/components/command.md"
+    },
+    "copy-button": {
+      "document": "design-how/sodium/components/copy-button.md"
+    },
+    "data-list": {
+      "document": "design-how/sodium/components/data-list.md"
+    },
+    "dialog": {
+      "document": "design-how/sodium/components/dialog.md"
+    },
+    "dropdown-menu": {
+      "document": "design-how/sodium/components/dropdown-menu.md"
+    },
+    "empty-state": {
+      "document": "design-how/sodium/components/empty-state.md"
+    },
+    "field": {
+      "document": "design-how/sodium/components/field.md"
+    },
+    "filter-bar": {
+      "document": "design-how/sodium/components/filter-bar.md"
+    },
+    "frame": {
+      "document": "design-how/sodium/components/frame.md"
+    },
+    "input": {
+      "document": "design-how/sodium/components/input.md"
+    },
+    "item": {
+      "document": "design-how/sodium/components/item.md"
+    },
+    "json-view": {
+      "document": "design-how/sodium/components/json-view.md"
+    },
+    "kbd": {
+      "document": "design-how/sodium/components/kbd.md"
+    },
+    "log-viewer": {
+      "document": "design-how/sodium/components/log-viewer.md"
+    },
+    "message": {
+      "document": "design-how/sodium/components/message.md"
+    },
+    "meter": {
+      "document": "design-how/sodium/components/meter.md"
+    },
+    "numbered-tabs": {
+      "document": "design-how/sodium/components/numbered-tabs.md"
+    },
+    "pagination": {
+      "document": "design-how/sodium/components/pagination.md"
+    },
+    "popover": {
+      "document": "design-how/sodium/components/popover.md"
+    },
+    "progress": {
+      "document": "design-how/sodium/components/progress.md"
+    },
+    "prompt-input": {
+      "document": "design-how/sodium/components/prompt-input.md"
+    },
+    "radio-group": {
+      "document": "design-how/sodium/components/radio-group.md"
+    },
+    "response": {
+      "document": "design-how/sodium/components/response.md"
+    },
+    "segmented-control": {
+      "document": "design-how/sodium/components/segmented-control.md"
+    },
+    "select": {
+      "document": "design-how/sodium/components/select.md"
+    },
+    "sheet": {
+      "document": "design-how/sodium/components/sheet.md"
+    },
+    "skeleton": {
+      "document": "design-how/sodium/components/skeleton.md"
+    },
+    "slider": {
+      "document": "design-how/sodium/components/slider.md"
+    },
+    "status-strip": {
+      "document": "design-how/sodium/components/status-strip.md"
+    },
+    "status": {
+      "document": "design-how/sodium/components/status.md"
+    },
+    "stem-chart": {
+      "document": "design-how/sodium/components/stem-chart.md"
+    },
+    "swimlanes": {
+      "document": "design-how/sodium/components/swimlanes.md"
+    },
+    "switch": {
+      "document": "design-how/sodium/components/switch.md"
+    },
+    "table": {
+      "document": "design-how/sodium/components/table.md"
+    },
+    "tabs": {
+      "document": "design-how/sodium/components/tabs.md"
+    },
+    "tag": {
+      "document": "design-how/sodium/components/tag.md"
+    },
+    "textarea": {
+      "document": "design-how/sodium/components/textarea.md"
+    },
+    "toast": {
+      "document": "design-how/sodium/components/toast.md"
+    },
+    "tool-call-row": {
+      "document": "design-how/sodium/components/tool-call-row.md"
+    },
+    "tool-call": {
+      "document": "design-how/sodium/components/tool-call.md"
+    },
+    "tooltip": {
+      "document": "design-how/sodium/components/tooltip.md"
+    },
+    "failed-load": {
+      "block": "FailedLoad"
+    },
+    "job-runs": {
+      "block": "JobRuns"
+    },
+    "on-call": {
+      "block": "OnCall"
+    },
+    "pipeline-history": {
+      "block": "PipelineHistory"
+    },
+    "run-progress": {
+      "block": "RunProgress"
+    },
+    "sync-flow": {
+      "block": "SyncFlow"
+    },
+    "warehouse-capacity": {
+      "block": "WarehouseCapacity"
+    },
+    "icon": {
+      "fixture": true
+    }
+  },
+  "glaze": {
+    "action-receipt": {
+      "document": "design-how/glaze/components/action-receipt.md"
+    },
+    "activity": {
+      "document": "design-how/glaze/components/activity.md"
+    },
+    "alert": {
+      "document": "design-how/glaze/components/alert.md"
+    },
+    "attachment": {
+      "document": "design-how/glaze/components/attachment.md"
+    },
+    "autonomy-rule": {
+      "document": "design-how/glaze/components/autonomy-rule.md"
+    },
+    "avatar": {
+      "document": "design-how/glaze/components/avatar.md"
+    },
+    "badge": {
+      "document": "design-how/glaze/components/badge.md"
+    },
+    "breadcrumb": {
+      "document": "design-how/glaze/components/breadcrumb.md"
+    },
+    "bulk-action-bar": {
+      "document": "design-how/glaze/components/bulk-action-bar.md"
+    },
+    "button-group": {
+      "document": "design-how/glaze/components/button-group.md"
+    },
+    "button": {
+      "document": "design-how/glaze/components/button.md"
+    },
+    "card": {
+      "document": "design-how/glaze/components/card.md"
+    },
+    "chart": {
+      "document": "design-how/glaze/components/chart.md"
+    },
+    "checkbox": {
+      "document": "design-how/glaze/components/checkbox.md"
+    },
+    "chip": {
+      "document": "design-how/glaze/components/chip.md"
+    },
+    "code-block": {
+      "document": "design-how/glaze/components/code-block.md"
+    },
+    "collapsible": {
+      "document": "design-how/glaze/components/collapsible.md"
+    },
+    "combobox": {
+      "document": "design-how/glaze/components/combobox.md"
+    },
+    "command": {
+      "document": "design-how/glaze/components/command.md"
+    },
+    "conversation": {
+      "document": "design-how/glaze/components/conversation.md"
+    },
+    "copy-button": {
+      "document": "design-how/glaze/components/copy-button.md"
+    },
+    "data-grid": {
+      "document": "design-how/glaze/components/data-grid.md"
+    },
+    "data-list": {
+      "document": "design-how/glaze/components/data-list.md"
+    },
+    "date-picker": {
+      "document": "design-how/glaze/components/date-picker.md"
+    },
+    "dialog": {
+      "document": "design-how/glaze/components/dialog.md"
+    },
+    "dropdown-menu": {
+      "document": "design-how/glaze/components/dropdown-menu.md"
+    },
+    "empty-state": {
+      "document": "design-how/glaze/components/empty-state.md"
+    },
+    "field": {
+      "document": "design-how/glaze/components/field.md"
+    },
+    "filter-bar": {
+      "document": "design-how/glaze/components/filter-bar.md"
+    },
+    "follow-ups": {
+      "document": "design-how/glaze/components/follow-ups.md"
+    },
+    "input": {
+      "document": "design-how/glaze/components/input.md"
+    },
+    "item": {
+      "document": "design-how/glaze/components/item.md"
+    },
+    "json-view": {
+      "document": "design-how/glaze/components/json-view.md"
+    },
+    "kbd": {
+      "document": "design-how/glaze/components/kbd.md"
+    },
+    "log-viewer": {
+      "document": "design-how/glaze/components/log-viewer.md"
+    },
+    "mention": {
+      "document": "design-how/glaze/components/mention.md"
+    },
+    "message": {
+      "document": "design-how/glaze/components/message.md"
+    },
+    "number-input": {
+      "document": "design-how/glaze/components/number-input.md"
+    },
+    "otp-input": {
+      "document": "design-how/glaze/components/otp-input.md"
+    },
+    "pagination": {
+      "document": "design-how/glaze/components/pagination.md"
+    },
+    "panel": {
+      "document": "design-how/glaze/components/panel.md"
+    },
+    "popover": {
+      "document": "design-how/glaze/components/popover.md"
+    },
+    "progress": {
+      "document": "design-how/glaze/components/progress.md"
+    },
+    "prompt-input": {
+      "document": "design-how/glaze/components/prompt-input.md"
+    },
+    "radio-group": {
+      "document": "design-how/glaze/components/radio-group.md"
+    },
+    "reasoning": {
+      "document": "design-how/glaze/components/reasoning.md"
+    },
+    "relative-time": {
+      "document": "design-how/glaze/components/relative-time.md"
+    },
+    "response": {
+      "document": "design-how/glaze/components/response.md"
+    },
+    "segmented-control": {
+      "document": "design-how/glaze/components/segmented-control.md"
+    },
+    "select": {
+      "document": "design-how/glaze/components/select.md"
+    },
+    "send-button": {
+      "document": "design-how/glaze/components/send-button.md"
+    },
+    "sheet": {
+      "document": "design-how/glaze/components/sheet.md"
+    },
+    "skeleton": {
+      "document": "design-how/glaze/components/skeleton.md"
+    },
+    "slider": {
+      "document": "design-how/glaze/components/slider.md"
+    },
+    "status": {
+      "document": "design-how/glaze/components/status.md"
+    },
+    "steps": {
+      "document": "design-how/glaze/components/steps.md"
+    },
+    "switch": {
+      "document": "design-how/glaze/components/switch.md"
+    },
+    "table": {
+      "document": "design-how/glaze/components/table.md"
+    },
+    "tabs": {
+      "document": "design-how/glaze/components/tabs.md"
+    },
+    "textarea": {
+      "document": "design-how/glaze/components/textarea.md"
+    },
+    "timeline": {
+      "document": "design-how/glaze/components/timeline.md"
+    },
+    "toast": {
+      "document": "design-how/glaze/components/toast.md"
+    },
+    "tool-call": {
+      "document": "design-how/glaze/components/tool-call.md"
+    },
+    "toolbar": {
+      "document": "design-how/glaze/components/toolbar.md"
+    },
+    "tooltip": {
+      "document": "design-how/glaze/components/tooltip.md"
+    },
+    "truncate": {
+      "document": "design-how/glaze/components/truncate.md"
+    },
+    "agent-plan": {
+      "block": "AgentPlan"
+    },
+    "agent-procedure": {
+      "block": "AgentProcedure"
+    },
+    "assistant-limits": {
+      "block": "AssistantLimits"
+    },
+    "booking-approval": {
+      "block": "BookingApproval"
+    },
+    "cited-answer": {
+      "block": "CitedAnswer"
+    },
+    "conversation-insights": {
+      "block": "ConversationInsights"
+    },
+    "experiment": {
+      "block": "Experiment"
+    },
+    "note-recap": {
+      "block": "NoteRecap"
+    },
+    "simulations": {
+      "block": "Simulations"
+    },
+    "today": {
+      "block": "Today"
+    },
+    "voice-capture": {
+      "block": "VoiceCapture"
+    },
+    "icon": {
+      "fixture": true
+    }
+  },
+  "quartz": {
+    "activity": {
+      "document": "design-how/quartz/components/activity.md"
+    },
+    "alert": {
+      "document": "design-how/quartz/components/alert.md"
+    },
+    "attachment": {
+      "document": "design-how/quartz/components/attachment.md"
+    },
+    "avatar": {
+      "document": "design-how/quartz/components/avatar.md"
+    },
+    "badge": {
+      "document": "design-how/quartz/components/badge.md"
+    },
+    "breadcrumb": {
+      "document": "design-how/quartz/components/breadcrumb.md"
+    },
+    "button-group": {
+      "document": "design-how/quartz/components/button-group.md"
+    },
+    "button": {
+      "document": "design-how/quartz/components/button.md"
+    },
+    "card": {
+      "document": "design-how/quartz/components/card.md"
+    },
+    "chart": {
+      "document": "design-how/quartz/components/chart.md"
+    },
+    "checkbox": {
+      "document": "design-how/quartz/components/checkbox.md"
+    },
+    "chip": {
+      "document": "design-how/quartz/components/chip.md"
+    },
+    "code-block": {
+      "document": "design-how/quartz/components/code-block.md"
+    },
+    "collapsible": {
+      "document": "design-how/quartz/components/collapsible.md"
+    },
+    "combobox": {
+      "document": "design-how/quartz/components/combobox.md"
+    },
+    "command": {
+      "document": "design-how/quartz/components/command.md"
+    },
+    "conversation": {
+      "document": "design-how/quartz/components/conversation.md"
+    },
+    "copy-button": {
+      "document": "design-how/quartz/components/copy-button.md"
+    },
+    "data-grid": {
+      "document": "design-how/quartz/components/data-grid.md"
+    },
+    "data-list": {
+      "document": "design-how/quartz/components/data-list.md"
+    },
+    "date-picker": {
+      "document": "design-how/quartz/components/date-picker.md"
+    },
+    "dialog": {
+      "document": "design-how/quartz/components/dialog.md"
+    },
+    "dropdown-menu": {
+      "document": "design-how/quartz/components/dropdown-menu.md"
+    },
+    "empty-state": {
+      "document": "design-how/quartz/components/empty-state.md"
+    },
+    "field": {
+      "document": "design-how/quartz/components/field.md"
+    },
+    "filter-bar": {
+      "document": "design-how/quartz/components/filter-bar.md"
+    },
+    "input": {
+      "document": "design-how/quartz/components/input.md"
+    },
+    "item": {
+      "document": "design-how/quartz/components/item.md"
+    },
+    "json-view": {
+      "document": "design-how/quartz/components/json-view.md"
+    },
+    "kbd": {
+      "document": "design-how/quartz/components/kbd.md"
+    },
+    "log-viewer": {
+      "document": "design-how/quartz/components/log-viewer.md"
+    },
+    "message": {
+      "document": "design-how/quartz/components/message.md"
+    },
+    "pagination": {
+      "document": "design-how/quartz/components/pagination.md"
+    },
+    "panel": {
+      "document": "design-how/quartz/components/panel.md"
+    },
+    "popover": {
+      "document": "design-how/quartz/components/popover.md"
+    },
+    "progress": {
+      "document": "design-how/quartz/components/progress.md"
+    },
+    "prompt-input": {
+      "document": "design-how/quartz/components/prompt-input.md"
+    },
+    "radio-group": {
+      "document": "design-how/quartz/components/radio-group.md"
+    },
+    "reasoning": {
+      "document": "design-how/quartz/components/reasoning.md"
+    },
+    "relative-time": {
+      "document": "design-how/quartz/components/relative-time.md"
+    },
+    "response": {
+      "document": "design-how/quartz/components/response.md"
+    },
+    "segmented-control": {
+      "document": "design-how/quartz/components/segmented-control.md"
+    },
+    "select": {
+      "document": "design-how/quartz/components/select.md"
+    },
+    "sheet": {
+      "document": "design-how/quartz/components/sheet.md"
+    },
+    "skeleton": {
+      "document": "design-how/quartz/components/skeleton.md"
+    },
+    "slider": {
+      "document": "design-how/quartz/components/slider.md"
+    },
+    "stat": {
+      "document": "design-how/quartz/components/stat.md"
+    },
+    "status": {
+      "document": "design-how/quartz/components/status.md"
+    },
+    "switch": {
+      "document": "design-how/quartz/components/switch.md"
+    },
+    "table": {
+      "document": "design-how/quartz/components/table.md"
+    },
+    "tabs": {
+      "document": "design-how/quartz/components/tabs.md"
+    },
+    "textarea": {
+      "document": "design-how/quartz/components/textarea.md"
+    },
+    "timeline": {
+      "document": "design-how/quartz/components/timeline.md"
+    },
+    "toast": {
+      "document": "design-how/quartz/components/toast.md"
+    },
+    "tool-call": {
+      "document": "design-how/quartz/components/tool-call.md"
+    },
+    "tooltip": {
+      "document": "design-how/quartz/components/tooltip.md"
+    },
+    "truncate": {
+      "document": "design-how/quartz/components/truncate.md"
+    },
+    "agent-session": {
+      "block": "AgentSession"
+    },
+    "api-keys": {
+      "block": "ApiKeys"
+    },
+    "deploy-detail": {
+      "block": "DeployDetail"
+    },
+    "live-requests": {
+      "block": "LiveRequests"
+    },
+    "project-home": {
+      "block": "ProjectHome"
+    },
+    "run-trace": {
+      "block": "RunTrace"
+    },
+    "tool-approval": {
+      "block": "ToolApproval"
+    },
+    "mention": {
+      "fixture": true
+    },
+    "bulk-action-bar": {
+      "fixture": true
+    },
+    "page-header": {
+      "fixture": true
+    },
+    "send-button": {
+      "fixture": true
+    },
+    "icon": {
+      "fixture": true
+    }
+  },
+  "lime": {
+    "accordion": {
+      "document": "design-how/lime/components/accordion.md"
+    },
+    "action-receipt": {
+      "document": "design-how/lime/components/action-receipt.md"
+    },
+    "alert-dialog": {
+      "document": "design-how/lime/components/alert-dialog.md"
+    },
+    "amount": {
+      "document": "design-how/lime/components/amount.md"
+    },
+    "approval-request": {
+      "document": "design-how/lime/components/approval-request.md"
+    },
+    "autonomy-rule": {
+      "document": "design-how/lime/components/autonomy-rule.md"
+    },
+    "avatar": {
+      "document": "design-how/lime/components/avatar.md"
+    },
+    "badge": {
+      "document": "design-how/lime/components/badge.md"
+    },
+    "balance": {
+      "document": "design-how/lime/components/balance.md"
+    },
+    "bill-schedule": {
+      "document": "design-how/lime/components/bill-schedule.md"
+    },
+    "button": {
+      "document": "design-how/lime/components/button.md"
+    },
+    "card": {
+      "document": "design-how/lime/components/card.md"
+    },
+    "chat-input": {
+      "document": "design-how/lime/components/chat-input.md"
+    },
+    "checkbox": {
+      "document": "design-how/lime/components/checkbox.md"
+    },
+    "chip": {
+      "document": "design-how/lime/components/chip.md"
+    },
+    "combobox": {
+      "document": "design-how/lime/components/combobox.md"
+    },
+    "copy-button": {
+      "document": "design-how/lime/components/copy-button.md"
+    },
+    "dropdown-menu": {
+      "document": "design-how/lime/components/dropdown-menu.md"
+    },
+    "dropzone": {
+      "document": "design-how/lime/components/dropzone.md"
+    },
+    "empty": {
+      "document": "design-how/lime/components/empty.md"
+    },
+    "error-state": {
+      "document": "design-how/lime/components/error-state.md"
+    },
+    "field": {
+      "document": "design-how/lime/components/field.md"
+    },
+    "follow-ups": {
+      "document": "design-how/lime/components/follow-ups.md"
+    },
+    "input": {
+      "document": "design-how/lime/components/input.md"
+    },
+    "insight": {
+      "document": "design-how/lime/components/insight.md"
+    },
+    "keypad": {
+      "document": "design-how/lime/components/keypad.md"
+    },
+    "list": {
+      "document": "design-how/lime/components/list.md"
+    },
+    "message": {
+      "document": "design-how/lime/components/message.md"
+    },
+    "popover": {
+      "document": "design-how/lime/components/popover.md"
+    },
+    "progress": {
+      "document": "design-how/lime/components/progress.md"
+    },
+    "radio": {
+      "document": "design-how/lime/components/radio.md"
+    },
+    "receipt-match": {
+      "document": "design-how/lime/components/receipt-match.md"
+    },
+    "scroll-area": {
+      "document": "design-how/lime/components/scroll-area.md"
+    },
+    "segmented": {
+      "document": "design-how/lime/components/segmented.md"
+    },
+    "select": {
+      "document": "design-how/lime/components/select.md"
+    },
+    "separator": {
+      "document": "design-how/lime/components/separator.md"
+    },
+    "sheet": {
+      "document": "design-how/lime/components/sheet.md"
+    },
+    "skeleton": {
+      "document": "design-how/lime/components/skeleton.md"
+    },
+    "slider": {
+      "document": "design-how/lime/components/slider.md"
+    },
+    "status": {
+      "document": "design-how/lime/components/status.md"
+    },
+    "switch": {
+      "document": "design-how/lime/components/switch.md"
+    },
+    "table": {
+      "document": "design-how/lime/components/table.md"
+    },
+    "tabs": {
+      "document": "design-how/lime/components/tabs.md"
+    },
+    "textarea": {
+      "document": "design-how/lime/components/textarea.md"
+    },
+    "tool-call": {
+      "document": "design-how/lime/components/tool-call.md"
+    },
+    "toolbar": {
+      "document": "design-how/lime/components/toolbar.md"
+    },
+    "tooltip": {
+      "document": "design-how/lime/components/tooltip.md"
+    },
+    "assistant-alert": {
+      "block": "CancelSubscription"
+    },
+    "assistant-approval": {
+      "block": "PayingABill"
+    },
+    "home": {
+      "block": "HomeScreen"
+    },
+    "settings-rules": {
+      "block": "AssistantLimits"
+    },
+    "split-request": {
+      "block": "SplitDinner"
+    },
+    "list-item-menu": {
+      "fixture": true
+    },
+    "toast": {
+      "fixture": true
+    },
+    "collapsible": {
+      "fixture": true
+    },
+    "icon": {
+      "fixture": true
+    }
+  },
+  "meridian-mono": {
+    "activity": {
+      "document": "collections/brand-systems/meridian-mono/components/activity.md"
+    },
+    "alert": {
+      "document": "collections/brand-systems/meridian-mono/components/alert.md"
+    },
+    "avatar": {
+      "document": "collections/brand-systems/meridian-mono/components/avatar.md"
+    },
+    "bar-blocks": {
+      "document": "collections/brand-systems/meridian-mono/components/bar-blocks.md"
+    },
+    "breadcrumb": {
+      "document": "collections/brand-systems/meridian-mono/components/breadcrumb.md"
+    },
+    "button-group": {
+      "document": "collections/brand-systems/meridian-mono/components/button-group.md"
+    },
+    "button": {
+      "document": "collections/brand-systems/meridian-mono/components/button.md"
+    },
+    "chart": {
+      "document": "collections/brand-systems/meridian-mono/components/chart.md"
+    },
+    "checkbox": {
+      "document": "collections/brand-systems/meridian-mono/components/checkbox.md"
+    },
+    "code-block": {
+      "document": "collections/brand-systems/meridian-mono/components/code-block.md"
+    },
+    "code-window": {
+      "document": "collections/brand-systems/meridian-mono/components/code-window.md"
+    },
+    "collapsible": {
+      "document": "collections/brand-systems/meridian-mono/components/collapsible.md"
+    },
+    "combobox": {
+      "document": "collections/brand-systems/meridian-mono/components/combobox.md"
+    },
+    "command": {
+      "document": "collections/brand-systems/meridian-mono/components/command.md"
+    },
+    "copy-button": {
+      "document": "collections/brand-systems/meridian-mono/components/copy-button.md"
+    },
+    "data-list": {
+      "document": "collections/brand-systems/meridian-mono/components/data-list.md"
+    },
+    "dialog": {
+      "document": "collections/brand-systems/meridian-mono/components/dialog.md"
+    },
+    "dropdown-menu": {
+      "document": "collections/brand-systems/meridian-mono/components/dropdown-menu.md"
+    },
+    "empty-state": {
+      "document": "collections/brand-systems/meridian-mono/components/empty-state.md"
+    },
+    "field": {
+      "document": "collections/brand-systems/meridian-mono/components/field.md"
+    },
+    "filter-bar": {
+      "document": "collections/brand-systems/meridian-mono/components/filter-bar.md"
+    },
+    "frame": {
+      "document": "collections/brand-systems/meridian-mono/components/frame.md"
+    },
+    "input": {
+      "document": "collections/brand-systems/meridian-mono/components/input.md"
+    },
+    "item": {
+      "document": "collections/brand-systems/meridian-mono/components/item.md"
+    },
+    "json-view": {
+      "document": "collections/brand-systems/meridian-mono/components/json-view.md"
+    },
+    "kbd": {
+      "document": "collections/brand-systems/meridian-mono/components/kbd.md"
+    },
+    "log-viewer": {
+      "document": "collections/brand-systems/meridian-mono/components/log-viewer.md"
+    },
+    "message": {
+      "document": "collections/brand-systems/meridian-mono/components/message.md"
+    },
+    "meter": {
+      "document": "collections/brand-systems/meridian-mono/components/meter.md"
+    },
+    "numbered-tabs": {
+      "document": "collections/brand-systems/meridian-mono/components/numbered-tabs.md"
+    },
+    "pagination": {
+      "document": "collections/brand-systems/meridian-mono/components/pagination.md"
+    },
+    "popover": {
+      "document": "collections/brand-systems/meridian-mono/components/popover.md"
+    },
+    "progress": {
+      "document": "collections/brand-systems/meridian-mono/components/progress.md"
+    },
+    "prompt-input": {
+      "document": "collections/brand-systems/meridian-mono/components/prompt-input.md"
+    },
+    "radio-group": {
+      "document": "collections/brand-systems/meridian-mono/components/radio-group.md"
+    },
+    "response": {
+      "document": "collections/brand-systems/meridian-mono/components/response.md"
+    },
+    "segmented-control": {
+      "document": "collections/brand-systems/meridian-mono/components/segmented-control.md"
+    },
+    "select": {
+      "document": "collections/brand-systems/meridian-mono/components/select.md"
+    },
+    "sheet": {
+      "document": "collections/brand-systems/meridian-mono/components/sheet.md"
+    },
+    "skeleton": {
+      "document": "collections/brand-systems/meridian-mono/components/skeleton.md"
+    },
+    "slider": {
+      "document": "collections/brand-systems/meridian-mono/components/slider.md"
+    },
+    "status-strip": {
+      "document": "collections/brand-systems/meridian-mono/components/status-strip.md"
+    },
+    "status": {
+      "document": "collections/brand-systems/meridian-mono/components/status.md"
+    },
+    "stem-chart": {
+      "document": "collections/brand-systems/meridian-mono/components/stem-chart.md"
+    },
+    "swimlanes": {
+      "document": "collections/brand-systems/meridian-mono/components/swimlanes.md"
+    },
+    "switch": {
+      "document": "collections/brand-systems/meridian-mono/components/switch.md"
+    },
+    "table": {
+      "document": "collections/brand-systems/meridian-mono/components/table.md"
+    },
+    "tabs": {
+      "document": "collections/brand-systems/meridian-mono/components/tabs.md"
+    },
+    "tag": {
+      "document": "collections/brand-systems/meridian-mono/components/tag.md"
+    },
+    "textarea": {
+      "document": "collections/brand-systems/meridian-mono/components/textarea.md"
+    },
+    "toast": {
+      "document": "collections/brand-systems/meridian-mono/components/toast.md"
+    },
+    "tool-call-row": {
+      "document": "collections/brand-systems/meridian-mono/components/tool-call-row.md"
+    },
+    "tool-call": {
+      "document": "collections/brand-systems/meridian-mono/components/tool-call.md"
+    },
+    "tooltip": {
+      "document": "collections/brand-systems/meridian-mono/components/tooltip.md"
+    },
+    "failed-load": {
+      "block": "FailedLoad"
+    },
+    "job-runs": {
+      "block": "JobRuns"
+    },
+    "on-call": {
+      "block": "OnCall"
+    },
+    "pipeline-history": {
+      "block": "PipelineHistory"
+    },
+    "run-progress": {
+      "block": "RunProgress"
+    },
+    "sync-flow": {
+      "block": "SyncFlow"
+    },
+    "warehouse-capacity": {
+      "block": "WarehouseCapacity"
+    },
+    "icon": {
+      "fixture": true
+    }
+  },
+  "meridian-glass": {
+    "action-receipt": {
+      "document": "collections/brand-systems/meridian-glass/components/action-receipt.md"
+    },
+    "activity": {
+      "document": "collections/brand-systems/meridian-glass/components/activity.md"
+    },
+    "alert": {
+      "document": "collections/brand-systems/meridian-glass/components/alert.md"
+    },
+    "attachment": {
+      "document": "collections/brand-systems/meridian-glass/components/attachment.md"
+    },
+    "autonomy-rule": {
+      "document": "collections/brand-systems/meridian-glass/components/autonomy-rule.md"
+    },
+    "avatar": {
+      "document": "collections/brand-systems/meridian-glass/components/avatar.md"
+    },
+    "badge": {
+      "document": "collections/brand-systems/meridian-glass/components/badge.md"
+    },
+    "breadcrumb": {
+      "document": "collections/brand-systems/meridian-glass/components/breadcrumb.md"
+    },
+    "bulk-action-bar": {
+      "document": "collections/brand-systems/meridian-glass/components/bulk-action-bar.md"
+    },
+    "button-group": {
+      "document": "collections/brand-systems/meridian-glass/components/button-group.md"
+    },
+    "button": {
+      "document": "collections/brand-systems/meridian-glass/components/button.md"
+    },
+    "card": {
+      "document": "collections/brand-systems/meridian-glass/components/card.md"
+    },
+    "chart": {
+      "document": "collections/brand-systems/meridian-glass/components/chart.md"
+    },
+    "checkbox": {
+      "document": "collections/brand-systems/meridian-glass/components/checkbox.md"
+    },
+    "chip": {
+      "document": "collections/brand-systems/meridian-glass/components/chip.md"
+    },
+    "code-block": {
+      "document": "collections/brand-systems/meridian-glass/components/code-block.md"
+    },
+    "collapsible": {
+      "document": "collections/brand-systems/meridian-glass/components/collapsible.md"
+    },
+    "combobox": {
+      "document": "collections/brand-systems/meridian-glass/components/combobox.md"
+    },
+    "command": {
+      "document": "collections/brand-systems/meridian-glass/components/command.md"
+    },
+    "conversation": {
+      "document": "collections/brand-systems/meridian-glass/components/conversation.md"
+    },
+    "copy-button": {
+      "document": "collections/brand-systems/meridian-glass/components/copy-button.md"
+    },
+    "data-grid": {
+      "document": "collections/brand-systems/meridian-glass/components/data-grid.md"
+    },
+    "data-list": {
+      "document": "collections/brand-systems/meridian-glass/components/data-list.md"
+    },
+    "date-picker": {
+      "document": "collections/brand-systems/meridian-glass/components/date-picker.md"
+    },
+    "dialog": {
+      "document": "collections/brand-systems/meridian-glass/components/dialog.md"
+    },
+    "dropdown-menu": {
+      "document": "collections/brand-systems/meridian-glass/components/dropdown-menu.md"
+    },
+    "empty-state": {
+      "document": "collections/brand-systems/meridian-glass/components/empty-state.md"
+    },
+    "field": {
+      "document": "collections/brand-systems/meridian-glass/components/field.md"
+    },
+    "filter-bar": {
+      "document": "collections/brand-systems/meridian-glass/components/filter-bar.md"
+    },
+    "follow-ups": {
+      "document": "collections/brand-systems/meridian-glass/components/follow-ups.md"
+    },
+    "input": {
+      "document": "collections/brand-systems/meridian-glass/components/input.md"
+    },
+    "item": {
+      "document": "collections/brand-systems/meridian-glass/components/item.md"
+    },
+    "json-view": {
+      "document": "collections/brand-systems/meridian-glass/components/json-view.md"
+    },
+    "kbd": {
+      "document": "collections/brand-systems/meridian-glass/components/kbd.md"
+    },
+    "log-viewer": {
+      "document": "collections/brand-systems/meridian-glass/components/log-viewer.md"
+    },
+    "mention": {
+      "document": "collections/brand-systems/meridian-glass/components/mention.md"
+    },
+    "message": {
+      "document": "collections/brand-systems/meridian-glass/components/message.md"
+    },
+    "number-input": {
+      "document": "collections/brand-systems/meridian-glass/components/number-input.md"
+    },
+    "otp-input": {
+      "document": "collections/brand-systems/meridian-glass/components/otp-input.md"
+    },
+    "pagination": {
+      "document": "collections/brand-systems/meridian-glass/components/pagination.md"
+    },
+    "panel": {
+      "document": "collections/brand-systems/meridian-glass/components/panel.md"
+    },
+    "popover": {
+      "document": "collections/brand-systems/meridian-glass/components/popover.md"
+    },
+    "progress": {
+      "document": "collections/brand-systems/meridian-glass/components/progress.md"
+    },
+    "prompt-input": {
+      "document": "collections/brand-systems/meridian-glass/components/prompt-input.md"
+    },
+    "radio-group": {
+      "document": "collections/brand-systems/meridian-glass/components/radio-group.md"
+    },
+    "reasoning": {
+      "document": "collections/brand-systems/meridian-glass/components/reasoning.md"
+    },
+    "relative-time": {
+      "document": "collections/brand-systems/meridian-glass/components/relative-time.md"
+    },
+    "response": {
+      "document": "collections/brand-systems/meridian-glass/components/response.md"
+    },
+    "segmented-control": {
+      "document": "collections/brand-systems/meridian-glass/components/segmented-control.md"
+    },
+    "select": {
+      "document": "collections/brand-systems/meridian-glass/components/select.md"
+    },
+    "send-button": {
+      "document": "collections/brand-systems/meridian-glass/components/send-button.md"
+    },
+    "sheet": {
+      "document": "collections/brand-systems/meridian-glass/components/sheet.md"
+    },
+    "skeleton": {
+      "document": "collections/brand-systems/meridian-glass/components/skeleton.md"
+    },
+    "slider": {
+      "document": "collections/brand-systems/meridian-glass/components/slider.md"
+    },
+    "status": {
+      "document": "collections/brand-systems/meridian-glass/components/status.md"
+    },
+    "steps": {
+      "document": "collections/brand-systems/meridian-glass/components/steps.md"
+    },
+    "switch": {
+      "document": "collections/brand-systems/meridian-glass/components/switch.md"
+    },
+    "table": {
+      "document": "collections/brand-systems/meridian-glass/components/table.md"
+    },
+    "tabs": {
+      "document": "collections/brand-systems/meridian-glass/components/tabs.md"
+    },
+    "textarea": {
+      "document": "collections/brand-systems/meridian-glass/components/textarea.md"
+    },
+    "timeline": {
+      "document": "collections/brand-systems/meridian-glass/components/timeline.md"
+    },
+    "toast": {
+      "document": "collections/brand-systems/meridian-glass/components/toast.md"
+    },
+    "tool-call": {
+      "document": "collections/brand-systems/meridian-glass/components/tool-call.md"
+    },
+    "toolbar": {
+      "document": "collections/brand-systems/meridian-glass/components/toolbar.md"
+    },
+    "tooltip": {
+      "document": "collections/brand-systems/meridian-glass/components/tooltip.md"
+    },
+    "truncate": {
+      "document": "collections/brand-systems/meridian-glass/components/truncate.md"
+    },
+    "agent-plan": {
+      "block": "AgentPlan"
+    },
+    "agent-procedure": {
+      "block": "AgentProcedure"
+    },
+    "assistant-limits": {
+      "block": "AssistantLimits"
+    },
+    "booking-approval": {
+      "block": "BookingApproval"
+    },
+    "cited-answer": {
+      "block": "CitedAnswer"
+    },
+    "conversation-insights": {
+      "block": "ConversationInsights"
+    },
+    "experiment": {
+      "block": "Experiment"
+    },
+    "note-recap": {
+      "block": "NoteRecap"
+    },
+    "simulations": {
+      "block": "Simulations"
+    },
+    "today": {
+      "block": "Today"
+    },
+    "voice-capture": {
+      "block": "VoiceCapture"
+    },
+    "icon": {
+      "fixture": true
+    }
+  },
+  "meridian-slate": {
+    "activity": {
+      "document": "collections/brand-systems/meridian-slate/components/activity.md"
+    },
+    "alert": {
+      "document": "collections/brand-systems/meridian-slate/components/alert.md"
+    },
+    "attachment": {
+      "document": "collections/brand-systems/meridian-slate/components/attachment.md"
+    },
+    "avatar": {
+      "document": "collections/brand-systems/meridian-slate/components/avatar.md"
+    },
+    "badge": {
+      "document": "collections/brand-systems/meridian-slate/components/badge.md"
+    },
+    "breadcrumb": {
+      "document": "collections/brand-systems/meridian-slate/components/breadcrumb.md"
+    },
+    "button-group": {
+      "document": "collections/brand-systems/meridian-slate/components/button-group.md"
+    },
+    "button": {
+      "document": "collections/brand-systems/meridian-slate/components/button.md"
+    },
+    "card": {
+      "document": "collections/brand-systems/meridian-slate/components/card.md"
+    },
+    "chart": {
+      "document": "collections/brand-systems/meridian-slate/components/chart.md"
+    },
+    "checkbox": {
+      "document": "collections/brand-systems/meridian-slate/components/checkbox.md"
+    },
+    "chip": {
+      "document": "collections/brand-systems/meridian-slate/components/chip.md"
+    },
+    "code-block": {
+      "document": "collections/brand-systems/meridian-slate/components/code-block.md"
+    },
+    "collapsible": {
+      "document": "collections/brand-systems/meridian-slate/components/collapsible.md"
+    },
+    "combobox": {
+      "document": "collections/brand-systems/meridian-slate/components/combobox.md"
+    },
+    "command": {
+      "document": "collections/brand-systems/meridian-slate/components/command.md"
+    },
+    "conversation": {
+      "document": "collections/brand-systems/meridian-slate/components/conversation.md"
+    },
+    "copy-button": {
+      "document": "collections/brand-systems/meridian-slate/components/copy-button.md"
+    },
+    "data-grid": {
+      "document": "collections/brand-systems/meridian-slate/components/data-grid.md"
+    },
+    "data-list": {
+      "document": "collections/brand-systems/meridian-slate/components/data-list.md"
+    },
+    "date-picker": {
+      "document": "collections/brand-systems/meridian-slate/components/date-picker.md"
+    },
+    "dialog": {
+      "document": "collections/brand-systems/meridian-slate/components/dialog.md"
+    },
+    "dropdown-menu": {
+      "document": "collections/brand-systems/meridian-slate/components/dropdown-menu.md"
+    },
+    "empty-state": {
+      "document": "collections/brand-systems/meridian-slate/components/empty-state.md"
+    },
+    "field": {
+      "document": "collections/brand-systems/meridian-slate/components/field.md"
+    },
+    "filter-bar": {
+      "document": "collections/brand-systems/meridian-slate/components/filter-bar.md"
+    },
+    "input": {
+      "document": "collections/brand-systems/meridian-slate/components/input.md"
+    },
+    "item": {
+      "document": "collections/brand-systems/meridian-slate/components/item.md"
+    },
+    "json-view": {
+      "document": "collections/brand-systems/meridian-slate/components/json-view.md"
+    },
+    "kbd": {
+      "document": "collections/brand-systems/meridian-slate/components/kbd.md"
+    },
+    "log-viewer": {
+      "document": "collections/brand-systems/meridian-slate/components/log-viewer.md"
+    },
+    "message": {
+      "document": "collections/brand-systems/meridian-slate/components/message.md"
+    },
+    "pagination": {
+      "document": "collections/brand-systems/meridian-slate/components/pagination.md"
+    },
+    "panel": {
+      "document": "collections/brand-systems/meridian-slate/components/panel.md"
+    },
+    "popover": {
+      "document": "collections/brand-systems/meridian-slate/components/popover.md"
+    },
+    "progress": {
+      "document": "collections/brand-systems/meridian-slate/components/progress.md"
+    },
+    "prompt-input": {
+      "document": "collections/brand-systems/meridian-slate/components/prompt-input.md"
+    },
+    "radio-group": {
+      "document": "collections/brand-systems/meridian-slate/components/radio-group.md"
+    },
+    "reasoning": {
+      "document": "collections/brand-systems/meridian-slate/components/reasoning.md"
+    },
+    "relative-time": {
+      "document": "collections/brand-systems/meridian-slate/components/relative-time.md"
+    },
+    "response": {
+      "document": "collections/brand-systems/meridian-slate/components/response.md"
+    },
+    "segmented-control": {
+      "document": "collections/brand-systems/meridian-slate/components/segmented-control.md"
+    },
+    "select": {
+      "document": "collections/brand-systems/meridian-slate/components/select.md"
+    },
+    "sheet": {
+      "document": "collections/brand-systems/meridian-slate/components/sheet.md"
+    },
+    "skeleton": {
+      "document": "collections/brand-systems/meridian-slate/components/skeleton.md"
+    },
+    "slider": {
+      "document": "collections/brand-systems/meridian-slate/components/slider.md"
+    },
+    "stat": {
+      "document": "collections/brand-systems/meridian-slate/components/stat.md"
+    },
+    "status": {
+      "document": "collections/brand-systems/meridian-slate/components/status.md"
+    },
+    "switch": {
+      "document": "collections/brand-systems/meridian-slate/components/switch.md"
+    },
+    "table": {
+      "document": "collections/brand-systems/meridian-slate/components/table.md"
+    },
+    "tabs": {
+      "document": "collections/brand-systems/meridian-slate/components/tabs.md"
+    },
+    "textarea": {
+      "document": "collections/brand-systems/meridian-slate/components/textarea.md"
+    },
+    "timeline": {
+      "document": "collections/brand-systems/meridian-slate/components/timeline.md"
+    },
+    "toast": {
+      "document": "collections/brand-systems/meridian-slate/components/toast.md"
+    },
+    "tool-call": {
+      "document": "collections/brand-systems/meridian-slate/components/tool-call.md"
+    },
+    "tooltip": {
+      "document": "collections/brand-systems/meridian-slate/components/tooltip.md"
+    },
+    "truncate": {
+      "document": "collections/brand-systems/meridian-slate/components/truncate.md"
+    },
+    "agent-session": {
+      "block": "AgentSession"
+    },
+    "api-keys": {
+      "block": "ApiKeys"
+    },
+    "deploy-detail": {
+      "block": "DeployDetail"
+    },
+    "live-requests": {
+      "block": "LiveRequests"
+    },
+    "project-home": {
+      "block": "ProjectHome"
+    },
+    "run-trace": {
+      "block": "RunTrace"
+    },
+    "tool-approval": {
+      "block": "ToolApproval"
+    },
+    "mention": {
+      "fixture": true
+    },
+    "bulk-action-bar": {
+      "fixture": true
+    },
+    "page-header": {
+      "fixture": true
+    },
+    "send-button": {
+      "fixture": true
+    },
+    "icon": {
+      "fixture": true
+    }
+  },
+  "meridian-clay": {
+    "accordion": {
+      "document": "collections/brand-systems/meridian-clay/components/accordion.md"
+    },
+    "action-receipt": {
+      "document": "collections/brand-systems/meridian-clay/components/action-receipt.md"
+    },
+    "alert-dialog": {
+      "document": "collections/brand-systems/meridian-clay/components/alert-dialog.md"
+    },
+    "amount": {
+      "document": "collections/brand-systems/meridian-clay/components/amount.md"
+    },
+    "approval-request": {
+      "document": "collections/brand-systems/meridian-clay/components/approval-request.md"
+    },
+    "autonomy-rule": {
+      "document": "collections/brand-systems/meridian-clay/components/autonomy-rule.md"
+    },
+    "avatar": {
+      "document": "collections/brand-systems/meridian-clay/components/avatar.md"
+    },
+    "badge": {
+      "document": "collections/brand-systems/meridian-clay/components/badge.md"
+    },
+    "balance": {
+      "document": "collections/brand-systems/meridian-clay/components/balance.md"
+    },
+    "bill-schedule": {
+      "document": "collections/brand-systems/meridian-clay/components/bill-schedule.md"
+    },
+    "button": {
+      "document": "collections/brand-systems/meridian-clay/components/button.md"
+    },
+    "card": {
+      "document": "collections/brand-systems/meridian-clay/components/card.md"
+    },
+    "chat-input": {
+      "document": "collections/brand-systems/meridian-clay/components/chat-input.md"
+    },
+    "checkbox": {
+      "document": "collections/brand-systems/meridian-clay/components/checkbox.md"
+    },
+    "chip": {
+      "document": "collections/brand-systems/meridian-clay/components/chip.md"
+    },
+    "combobox": {
+      "document": "collections/brand-systems/meridian-clay/components/combobox.md"
+    },
+    "copy-button": {
+      "document": "collections/brand-systems/meridian-clay/components/copy-button.md"
+    },
+    "dropdown-menu": {
+      "document": "collections/brand-systems/meridian-clay/components/dropdown-menu.md"
+    },
+    "dropzone": {
+      "document": "collections/brand-systems/meridian-clay/components/dropzone.md"
+    },
+    "empty": {
+      "document": "collections/brand-systems/meridian-clay/components/empty.md"
+    },
+    "error-state": {
+      "document": "collections/brand-systems/meridian-clay/components/error-state.md"
+    },
+    "field": {
+      "document": "collections/brand-systems/meridian-clay/components/field.md"
+    },
+    "follow-ups": {
+      "document": "collections/brand-systems/meridian-clay/components/follow-ups.md"
+    },
+    "input": {
+      "document": "collections/brand-systems/meridian-clay/components/input.md"
+    },
+    "insight": {
+      "document": "collections/brand-systems/meridian-clay/components/insight.md"
+    },
+    "keypad": {
+      "document": "collections/brand-systems/meridian-clay/components/keypad.md"
+    },
+    "list": {
+      "document": "collections/brand-systems/meridian-clay/components/list.md"
+    },
+    "message": {
+      "document": "collections/brand-systems/meridian-clay/components/message.md"
+    },
+    "popover": {
+      "document": "collections/brand-systems/meridian-clay/components/popover.md"
+    },
+    "progress": {
+      "document": "collections/brand-systems/meridian-clay/components/progress.md"
+    },
+    "radio": {
+      "document": "collections/brand-systems/meridian-clay/components/radio.md"
+    },
+    "receipt-match": {
+      "document": "collections/brand-systems/meridian-clay/components/receipt-match.md"
+    },
+    "scroll-area": {
+      "document": "collections/brand-systems/meridian-clay/components/scroll-area.md"
+    },
+    "segmented": {
+      "document": "collections/brand-systems/meridian-clay/components/segmented.md"
+    },
+    "select": {
+      "document": "collections/brand-systems/meridian-clay/components/select.md"
+    },
+    "separator": {
+      "document": "collections/brand-systems/meridian-clay/components/separator.md"
+    },
+    "sheet": {
+      "document": "collections/brand-systems/meridian-clay/components/sheet.md"
+    },
+    "skeleton": {
+      "document": "collections/brand-systems/meridian-clay/components/skeleton.md"
+    },
+    "slider": {
+      "document": "collections/brand-systems/meridian-clay/components/slider.md"
+    },
+    "status": {
+      "document": "collections/brand-systems/meridian-clay/components/status.md"
+    },
+    "switch": {
+      "document": "collections/brand-systems/meridian-clay/components/switch.md"
+    },
+    "table": {
+      "document": "collections/brand-systems/meridian-clay/components/table.md"
+    },
+    "tabs": {
+      "document": "collections/brand-systems/meridian-clay/components/tabs.md"
+    },
+    "textarea": {
+      "document": "collections/brand-systems/meridian-clay/components/textarea.md"
+    },
+    "tool-call": {
+      "document": "collections/brand-systems/meridian-clay/components/tool-call.md"
+    },
+    "toolbar": {
+      "document": "collections/brand-systems/meridian-clay/components/toolbar.md"
+    },
+    "tooltip": {
+      "document": "collections/brand-systems/meridian-clay/components/tooltip.md"
+    },
+    "assistant-alert": {
+      "block": "CancelSubscription"
+    },
+    "assistant-approval": {
+      "block": "PayingABill"
+    },
+    "home": {
+      "block": "HomeScreen"
+    },
+    "settings-rules": {
+      "block": "AssistantLimits"
+    },
+    "split-request": {
+      "block": "SplitDinner"
+    },
+    "list-item-menu": {
+      "fixture": true
+    },
+    "toast": {
+      "fixture": true
+    },
+    "collapsible": {
+      "fixture": true
+    },
+    "icon": {
+      "fixture": true
+    }
+  }
+}

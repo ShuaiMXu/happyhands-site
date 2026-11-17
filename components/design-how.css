@@ -268,8 +268,8 @@ body:has(.design-how-library) .library-heading {
 }
 .design-how-view-tabs button[aria-selected="true"] {
   color: var(--hh-ink);
-  border-bottom-color: var(--hh-ink);
-  font-weight: 600;
+  border-bottom-color: transparent;
+  font-weight: 400;
 }
 .design-how-document .system-style-preview {
   margin-bottom: 24px;

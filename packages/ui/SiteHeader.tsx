@@ -1,3 +1,4 @@
+import {setupThemeTransition} from "./pinui/theme-transition";
 import { Button } from ".";
 import { Icon } from "./Icon";
 import React, { useEffect, useRef } from "react";
@@ -20,6 +21,9 @@ export function SiteHeader({
   onTheme: () => void;
   active?: string;
 }) {
+  const themeControl = useRef<HTMLButtonElement>(null);
+  const themeAction = useRef(onTheme);themeAction.current=onTheme;
+  useEffect(()=>themeControl.current ? setupThemeTransition(themeControl.current,()=>themeAction.current()) : undefined,[]);
   const header = useRef<HTMLElement>(null);
   useEffect(() => navigation ? setupSiteMenu(header.current!, lang) : undefined, [lang,navigation]);
   useEffect(() => setupHeaderMaterial({targets:[header.current!]}), []);
@@ -67,7 +71,7 @@ export function SiteHeader({
       </nav>}
       <div className="hh-site-tools">
         <Button
-          onClick={onTheme}
+          ref={themeControl}
           type="button"
           aria-label={
             lang === "zh"

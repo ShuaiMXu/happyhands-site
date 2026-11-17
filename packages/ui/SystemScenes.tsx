@@ -226,7 +226,7 @@ export function SystemScenes({
                       >
                         <span>0{i + 1}</span>
                         <strong>{label[zh ? 0 : 1]}</strong>
-                        <span>↗</span>
+
                       </Button>
                     ))}
                   {!labels.some((l) =>

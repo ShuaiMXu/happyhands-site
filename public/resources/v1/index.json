@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "146210f57e464a59d00bc254f4a5480165d19cebcea308b6805b0085c7a0c881",
+  "version": "65da9d108f483e9915d8114459a7dd7e9b360e65f6e1603872a243dcd7240a02",
   "assetManifest": "resources/v1/assets.json",
   "collections": [
     {
@@ -169,24 +169,23 @@
       "types": [
         "component"
       ]
+    },
+    {
+      "id": "pin-ui",
+      "name": "PinUI 组件",
+      "nameEn": "PinUI components",
+      "group": "components",
+      "source": "https://www.pinui.xyz",
+      "platform": "web",
+      "overview": "collection:pin-ui/UPSTREAM.md",
+      "access": "reference-archive",
+      "count": 31,
+      "types": [
+        "component"
+      ]
     }
   ],
   "resources": [
-    {
-      "id": "collection:app-tokens/README.md",
-      "name": "App 设计变量",
-      "type": "collection",
-      "path": "collections/app-tokens/README.md",
-      "collection": "app-tokens",
-      "sha256": "90ebfa94e128fcfdab98d66dc8a38dc95e451ef2f13f5db9b25b8be0fa155a18",
-      "bytes": 2400,
-      "mimeType": "text/markdown",
-      "source": "https://github.com",
-      "license": "Reference archive. Check the original source license before code or media reuse.",
-      "authority": "reference-data-only",
-      "platform": "mobile",
-      "summary": "App design tokens"
-    },
     {
       "id": "collection:app-tokens/antd-mobile/tokens.json",
       "name": "antd-mobile / tokens",
@@ -243,6 +242,21 @@
         "app-tokens",
         "nutui"
       ]
+    },
+    {
+      "id": "collection:app-tokens/README.md",
+      "name": "App 设计变量",
+      "type": "collection",
+      "path": "collections/app-tokens/README.md",
+      "collection": "app-tokens",
+      "sha256": "90ebfa94e128fcfdab98d66dc8a38dc95e451ef2f13f5db9b25b8be0fa155a18",
+      "bytes": 2400,
+      "mimeType": "text/markdown",
+      "source": "https://github.com",
+      "license": "Reference archive. Check the original source license before code or media reuse.",
+      "authority": "reference-data-only",
+      "platform": "mobile",
+      "summary": "App design tokens"
     },
     {
       "id": "collection:app-tokens/tdesign-mobile-vue/tokens.json",
@@ -315,21 +329,6 @@
       "authority": "reference-data-only",
       "platform": "web",
       "summary": "Meridian component source"
-    },
-    {
-      "id": "collection:brand-systems/README.md",
-      "name": "Meridian 品牌系统",
-      "type": "collection",
-      "path": "collections/brand-systems/README.md",
-      "collection": "brand-systems",
-      "sha256": "f798142745c41ee350d3e33fa84f4480aca9e23b4b988e17bef250fa037900cf",
-      "bytes": 4240,
-      "mimeType": "text/markdown",
-      "source": "https://design.how",
-      "license": "Reference archive. Check the original source license before code or media reuse.",
-      "authority": "reference-data-only",
-      "platform": "web",
-      "summary": "Meridian design systems"
     },
     {
       "id": "collection:brand-systems/meridian-clay/components/accordion.md",
@@ -6376,6 +6375,21 @@
       "derivedFrom": "design.how; supplied Meridian brand derivative"
     },
     {
+      "id": "collection:brand-systems/README.md",
+      "name": "Meridian 品牌系统",
+      "type": "collection",
+      "path": "collections/brand-systems/README.md",
+      "collection": "brand-systems",
+      "sha256": "f798142745c41ee350d3e33fa84f4480aca9e23b4b988e17bef250fa037900cf",
+      "bytes": 4240,
+      "mimeType": "text/markdown",
+      "source": "https://design.how",
+      "license": "Reference archive. Check the original source license before code or media reuse.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "Meridian design systems"
+    },
+    {
       "id": "collection:brand-systems/systems.md",
       "name": "Systems",
       "type": "system",
@@ -6453,21 +6467,6 @@
       "authority": "reference-data-only",
       "platform": "website",
       "summary": "Design.md library"
-    },
-    {
-      "id": "collection:mobbin-archive/README.md",
-      "name": "Mobbin 接入文档",
-      "type": "collection",
-      "path": "collections/mobbin-archive/README.md",
-      "collection": "mobbin-archive",
-      "sha256": "57b06435ec79f8270fe69197e2df012d6210cdfa5d31777f17e0d04b7bb83e3a",
-      "bytes": 1179,
-      "mimeType": "text/markdown",
-      "source": "https://mobbin.com",
-      "license": "Reference archive. Check the original source license before code or media reuse.",
-      "authority": "reference-data-only",
-      "platform": "mobile",
-      "summary": "Mobbin integration docs"
     },
     {
       "id": "collection:mobbin-archive/colors.md",
@@ -6576,6 +6575,21 @@
       "tags": [
         "mobbin-archive"
       ]
+    },
+    {
+      "id": "collection:mobbin-archive/README.md",
+      "name": "Mobbin 接入文档",
+      "type": "collection",
+      "path": "collections/mobbin-archive/README.md",
+      "collection": "mobbin-archive",
+      "sha256": "57b06435ec79f8270fe69197e2df012d6210cdfa5d31777f17e0d04b7bb83e3a",
+      "bytes": 1179,
+      "mimeType": "text/markdown",
+      "source": "https://mobbin.com",
+      "license": "Reference archive. Check the original source license before code or media reuse.",
+      "authority": "reference-data-only",
+      "platform": "mobile",
+      "summary": "Mobbin integration docs"
     },
     {
       "id": "collection:ottermind/README.md",
@@ -12020,19 +12034,24 @@
       }
     },
     {
-      "id": "collection:platform-systems/README.md",
-      "name": "平台设计规范",
+      "path": "components/pin-ui/UPSTREAM.md",
+      "sha256": "9ac2d8d921ea34ebfe8ae82f72e77fa32c0d54e591e44599b9d0d3c4a0ae3654",
+      "bytes": 2775,
+      "id": "collection:pin-ui/UPSTREAM.md",
+      "name": "PinUI",
       "type": "collection",
-      "path": "collections/platform-systems/README.md",
-      "collection": "platform-systems",
-      "sha256": "afdc26a815d7749095e90e381ecc624771acf08f73cb7c75f8742fd1f4a39aa8",
-      "bytes": 2983,
+      "collection": "pin-ui",
       "mimeType": "text/markdown",
-      "source": "https://developer.apple.com/design/human-interface-guidelines",
-      "license": "Reference archive. Check the original source license before code or media reuse.",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://github.com/shadcn-labs/Pin-UI",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
       "authority": "reference-data-only",
-      "platform": "mobile",
-      "summary": "Platform guidelines"
+      "platform": "web",
+      "summary": "PinUI source components",
+      "tags": [
+        "pin-ui",
+        "UPSTREAM"
+      ]
     },
     {
       "id": "collection:platform-systems/apple-hig/DESIGN.md",
@@ -15514,25 +15533,6 @@
       ]
     },
     {
-      "id": "collection:platform-systems/material3/DESIGN.md",
-      "name": "Material 3 设计系统（可调用版）",
-      "type": "guideline",
-      "path": "collections/platform-systems/material3/DESIGN.md",
-      "collection": "platform-systems",
-      "sha256": "1f09f31d9c49f7db1836332948e13da439db12d9506ffb95413b57b2d764ffd3",
-      "bytes": 1355,
-      "mimeType": "text/markdown",
-      "source": "https://m3.material.io",
-      "license": "Reference archive. Check the original source license before code or media reuse.",
-      "authority": "reference-data-only",
-      "platform": "mobile",
-      "summary": "Material 3 设计系统（可调用版）",
-      "tags": [
-        "platform-systems",
-        "material3"
-      ]
-    },
-    {
       "id": "collection:platform-systems/material3/css/baseline.css",
       "name": "material3 / css / baseline",
       "type": "guideline",
@@ -15735,6 +15735,25 @@
       ]
     },
     {
+      "id": "collection:platform-systems/material3/DESIGN.md",
+      "name": "Material 3 设计系统（可调用版）",
+      "type": "guideline",
+      "path": "collections/platform-systems/material3/DESIGN.md",
+      "collection": "platform-systems",
+      "sha256": "1f09f31d9c49f7db1836332948e13da439db12d9506ffb95413b57b2d764ffd3",
+      "bytes": 1355,
+      "mimeType": "text/markdown",
+      "source": "https://m3.material.io",
+      "license": "Reference archive. Check the original source license before code or media reuse.",
+      "authority": "reference-data-only",
+      "platform": "mobile",
+      "summary": "Material 3 设计系统（可调用版）",
+      "tags": [
+        "platform-systems",
+        "material3"
+      ]
+    },
+    {
       "id": "collection:platform-systems/material3/tokens.json",
       "name": "material3 / tokens",
       "type": "tokens",
@@ -15752,6 +15771,21 @@
         "platform-systems",
         "material3"
       ]
+    },
+    {
+      "id": "collection:platform-systems/README.md",
+      "name": "平台设计规范",
+      "type": "collection",
+      "path": "collections/platform-systems/README.md",
+      "collection": "platform-systems",
+      "sha256": "afdc26a815d7749095e90e381ecc624771acf08f73cb7c75f8742fd1f4a39aa8",
+      "bytes": 2983,
+      "mimeType": "text/markdown",
+      "source": "https://developer.apple.com/design/human-interface-guidelines",
+      "license": "Reference archive. Check the original source license before code or media reuse.",
+      "authority": "reference-data-only",
+      "platform": "mobile",
+      "summary": "Platform guidelines"
     },
     {
       "id": "collection:registry-own/README.md",
@@ -33096,6 +33130,750 @@
         "url": "https://happyhands.cc/r/meridian-slate/utils.json",
         "status": "hosted-payload; URL substitutions only; inspect target compatibility",
         "originalSha256": "981c9009aae09a40bdeb3ee9eb6c7cdce4cd125abd73e32f8b9c926fbaecb4bd"
+      }
+    },
+    {
+      "path": "components/pin-ui/add-member.json",
+      "sha256": "923adca9e2720b011f6c6104debf9c3b399ecbce673271f197274da7543aabcf",
+      "bytes": 46496,
+      "id": "component:pin-ui/add-member",
+      "name": "Add Member",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/add-member",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "Pick people for a project, and watch their faces fly into the stack.",
+      "tags": [
+        "pin-ui",
+        "add-member"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/add-member.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/balance-card.json",
+      "sha256": "d90642f6608e5ec73b556eaa49fde0f158a8f9ad94cc24e83752c76e8243b264",
+      "bytes": 42591,
+      "id": "component:pin-ui/balance-card",
+      "name": "Balance Card",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/balance-card",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A counting balance, a liquid currency selector and a drawer that settles.",
+      "tags": [
+        "pin-ui",
+        "balance-card"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/balance-card.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/calendar-card.json",
+      "sha256": "df0501f88dc2b0fcd98b27c69b079e3d5e6ebc38d202edb5a59993a831148d93",
+      "bytes": 38346,
+      "id": "component:pin-ui/calendar-card",
+      "name": "Calendar",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/calendar-card",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A month card where the selected day glides from date to date.",
+      "tags": [
+        "pin-ui",
+        "calendar-card"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/calendar-card.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/cart-card.json",
+      "sha256": "515d3553149c9150c06e04bd679ecd0dfc8f36d11aac2aac5e25c0db9838380c",
+      "bytes": 38921,
+      "id": "component:pin-ui/cart-card",
+      "name": "Add To Cart",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/cart-card",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A product card that is only a photo until you open it.",
+      "tags": [
+        "pin-ui",
+        "cart-card"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/cart-card.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/chat-room.json",
+      "sha256": "546e771d237250f512e17394f356c3c19e3975a2ba6e388b10414d7e4d9b9564",
+      "bytes": 28042,
+      "id": "component:pin-ui/chat-room",
+      "name": "Chat Room",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/chat-room",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A stack of faces that morphs into a voice chat card, and back.",
+      "tags": [
+        "pin-ui",
+        "chat-room"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/chat-room.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/chips.json",
+      "sha256": "67013023dab554056d98ddbe91aae696af0720e5bcb8971d887d1220d5740db6",
+      "bytes": 26661,
+      "id": "component:pin-ui/chips",
+      "name": "Chips",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/chips",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A selection list of 3D chips that press into the surface.",
+      "tags": [
+        "pin-ui",
+        "chips"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/chips.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/copy-paste-pad.json",
+      "sha256": "1d4770ae8d6d73ee3afbbfc5eb01149189ddb089cbf981791d980f1a92989435",
+      "bytes": 41092,
+      "id": "component:pin-ui/copy-paste-pad",
+      "name": "Copy Paste Pad",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/copy-paste-pad",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A 3-D aluminium macro pad whose ⌘C and ⌘V copy and paste the theme.",
+      "tags": [
+        "pin-ui",
+        "copy-paste-pad"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/copy-paste-pad.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/desk-computer.json",
+      "sha256": "127dd6154a58f9236bd10af6a2ca38b238d39bcbeb79fe692eb76a2bd5777215",
+      "bytes": 74332,
+      "id": "component:pin-ui/desk-computer",
+      "name": "Desk Computer",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/desk-computer",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A late-90s desk computer in true isometric that you can actually use.",
+      "tags": [
+        "pin-ui",
+        "desk-computer"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/desk-computer.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/dynamic-drop-zone.json",
+      "sha256": "59f0923e712ebcd06d864aedd89e842f99f8bd6e5cbe3ea50ed5eed8110dd8d4",
+      "bytes": 43322,
+      "id": "component:pin-ui/dynamic-drop-zone",
+      "name": "Dynamic Drop Zone",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/dynamic-drop-zone",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A file drop zone that turns into a magnetic black hole.",
+      "tags": [
+        "pin-ui",
+        "dynamic-drop-zone"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/dynamic-drop-zone.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/file-box.json",
+      "sha256": "fe8b3a7a06c60d58319b2517441d4af0b15dcfc06406488e00ceb142d9415405",
+      "bytes": 34501,
+      "id": "component:pin-ui/file-box",
+      "name": "File Box",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/file-box",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A cardboard file box whose folders lift out by their tabs.",
+      "tags": [
+        "pin-ui",
+        "file-box"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/file-box.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/joystick.json",
+      "sha256": "85cfca335c315db16dfdba6b040d4aba6491d3e8d44fd192f1ef8e9441899f47",
+      "bytes": 29728,
+      "id": "component:pin-ui/joystick",
+      "name": "Joystick",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/joystick",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A pixel-art arcade stick you can grab, push to the gate and let snap back.",
+      "tags": [
+        "pin-ui",
+        "joystick"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/joystick.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/lamp-switch.json",
+      "sha256": "0ce0ce4521e824b535e035e5eb3870adbacea645b8eb1f6f2d84c21f7f004789",
+      "bytes": 41658,
+      "id": "component:pin-ui/lamp-switch",
+      "name": "Lamp Switch",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/lamp-switch",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A hanging ceramic lamp that swings on a cord and toggles with a liquid switch.",
+      "tags": [
+        "pin-ui",
+        "lamp-switch"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/lamp-switch.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/liquid-tabs.json",
+      "sha256": "d0f400c8d778546549069f2751c4b1ea62d2d0b353d644f9d1b02ed1a44f242b",
+      "bytes": 33440,
+      "id": "component:pin-ui/liquid-tabs",
+      "name": "Liquid Tabs",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/liquid-tabs",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A notifications card whose active tab is liquid, flowing from tab to tab.",
+      "tags": [
+        "pin-ui",
+        "liquid-tabs"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/liquid-tabs.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/liquid-voice.json",
+      "sha256": "8af2d6e93aa8dfc7a2ba248fd71f7479725237761ac346f18ee964ca2a50d698",
+      "bytes": 41213,
+      "id": "component:pin-ui/liquid-voice",
+      "name": "Liquid Voice",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/liquid-voice",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A voice-input pill of real liquid glass that stretches into a recorder.",
+      "tags": [
+        "pin-ui",
+        "liquid-voice"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/liquid-voice.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/magnify.json",
+      "sha256": "6b90c0dc0ae76917b123d08dc9430146db757facc0e72248853e34b8400f151d",
+      "bytes": 20775,
+      "id": "component:pin-ui/magnify",
+      "name": "Magnify",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/magnify",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A type specimen you inspect with a real magnifying glass.",
+      "tags": [
+        "pin-ui",
+        "magnify"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/magnify.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/otp-input.json",
+      "sha256": "a56dfde7cceb6e6cd0d5c500671ff80aa089265600f40e09120fdfd53cda4bc6",
+      "bytes": 22563,
+      "id": "component:pin-ui/otp-input",
+      "name": "Egg OTP",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/otp-input",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A one-time-code field made of eggs that crack on a wrong code.",
+      "tags": [
+        "pin-ui",
+        "otp-input"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/otp-input.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/presence-cards.json",
+      "sha256": "30c55e8e7bac57a1d17821364f41ac0117baed0dc7f590c44278fdd450c23e90",
+      "bytes": 58380,
+      "id": "component:pin-ui/presence-cards",
+      "name": "Presence Cards",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/presence-cards",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "Two cards on a shared canvas, worked on live by four people at once.",
+      "tags": [
+        "pin-ui",
+        "presence-cards"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/presence-cards.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/progress-image.json",
+      "sha256": "e0daf718b44e44fe88ee46a99fea1dd52d8b0968a6c1234edb25771052e0e983",
+      "bytes": 48325,
+      "id": "component:pin-ui/progress-image",
+      "name": "Progress Image",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/progress-image",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A rollout card whose photograph is the progress bar.",
+      "tags": [
+        "pin-ui",
+        "progress-image"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/progress-image.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/prompt-composer.json",
+      "sha256": "12d1713f23290b76a35b0b2b83d0a60279bba827098b4ac385900a1425522c44",
+      "bytes": 55497,
+      "id": "component:pin-ui/prompt-composer",
+      "name": "Prompt Composer",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/prompt-composer",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "An assistant's field with its quick actions fanned out behind it.",
+      "tags": [
+        "pin-ui",
+        "prompt-composer"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/prompt-composer.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/reader-card.json",
+      "sha256": "6a270c67e196430f59ad0fa0c2c94c428f4457aa9c13b583e0f8dea8106174e3",
+      "bytes": 65676,
+      "id": "component:pin-ui/reader-card",
+      "name": "Reader Card",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/reader-card",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A story card that scrolls in place and morphs into a liquid-glass reader.",
+      "tags": [
+        "pin-ui",
+        "reader-card"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/reader-card.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/recorder.json",
+      "sha256": "5d15e12dc7c31daa6e1e9b0098fe65a01d40ffbe0e8b8b13841d2513e5a40731",
+      "bytes": 47426,
+      "id": "component:pin-ui/recorder",
+      "name": "Recorder",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/recorder",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A voice recorder with a waveform that scrolls under the playhead.",
+      "tags": [
+        "pin-ui",
+        "recorder"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/recorder.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/search-card.json",
+      "sha256": "658b1fde0f5fc8a9b5f4d074e4a89593b48f2a5df1fa24ef00fdb8cda325ea23",
+      "bytes": 37227,
+      "id": "component:pin-ui/search-card",
+      "name": "Search Card",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/search-card",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A centred search bar that rises and morphs open into a card of recent searches.",
+      "tags": [
+        "pin-ui",
+        "search-card"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/search-card.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/selection-list.json",
+      "sha256": "09d290b17a79b20650787c201b8c472aa116378826323211d8ba1f97c56d9da1",
+      "bytes": 14459,
+      "id": "component:pin-ui/selection-list",
+      "name": "Selection List",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/selection-list",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A single-choice list whose halves snap together like magnets.",
+      "tags": [
+        "pin-ui",
+        "selection-list"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/selection-list.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/session-list.json",
+      "sha256": "cf40aedc66e0af2756f6cfe81a5bd984fbe61813fea491ab385946710f90aa8a",
+      "bytes": 41196,
+      "id": "component:pin-ui/session-list",
+      "name": "Count down",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/session-list",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A session broken into blocks, counting down in real time.",
+      "tags": [
+        "pin-ui",
+        "session-list"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/session-list.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/swap-card.json",
+      "sha256": "7bde4106eb4f94935e0b9a4700bf1baf314a7aaf683f4e60e3fd40a8d0c2c0f4",
+      "bytes": 47465,
+      "id": "component:pin-ui/swap-card",
+      "name": "Swap Card",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/swap-card",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A token swap card where every number rolls and the button is liquid.",
+      "tags": [
+        "pin-ui",
+        "swap-card"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/swap-card.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/synais-footer.json",
+      "sha256": "6b6d4704e7dda9beaf301e880bb79e060acc5a24ac9aa46ed9d479ef833e4867",
+      "bytes": 19616,
+      "id": "component:pin-ui/synais-footer",
+      "name": "Synais Footer",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/blocx/synais-footer",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "Footer block. Dark link columns over a giant cream wordmark.",
+      "tags": [
+        "pin-ui",
+        "synais-footer"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/blocx/synais-footer.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/task-card.json",
+      "sha256": "859dd5fb1ee65bed408596f92235152ee6d5942c5cc9c4b05a3a2f8d99bb2ec4",
+      "bytes": 38974,
+      "id": "component:pin-ui/task-card",
+      "name": "Task Card",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/task-card",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A task with subtasks on a connector tree, progress, priority and status.",
+      "tags": [
+        "pin-ui",
+        "task-card"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/task-card.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/taxi.json",
+      "sha256": "a9629297397d56269f2b887b350c30f976e7b8ff9a5384fac4cb4907f873fda2",
+      "bytes": 54197,
+      "id": "component:pin-ui/taxi",
+      "name": "Taxi",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/taxi",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "Hail a cab in one tap, and ride the whole trip on one card.",
+      "tags": [
+        "pin-ui",
+        "taxi"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/taxi.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/theme-switch.json",
+      "sha256": "8679487fb8e2da1b96e35830bae86214cbe0b1c1ad0872279654e29698f33504",
+      "bytes": 66886,
+      "id": "component:pin-ui/theme-switch",
+      "name": "Theme Switch",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/theme-switch",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A theme toggle that rains, drips or sets off fireworks to change the theme.",
+      "tags": [
+        "pin-ui",
+        "theme-switch"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/theme-switch.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/thermal-dial.json",
+      "sha256": "06c96070e34116e4b9c096e6a39a0ca27be88e81c23c09905f87e9f3e898903c",
+      "bytes": 27715,
+      "id": "component:pin-ui/thermal-dial",
+      "name": "Thermal Dial",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/thermal-dial",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A thermal dial that undulates with heat and rolls through the seasons.",
+      "tags": [
+        "pin-ui",
+        "thermal-dial"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/thermal-dial.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
+      }
+    },
+    {
+      "path": "components/pin-ui/weather.json",
+      "sha256": "7eff03bf23fbcc1318b3f6600f8a790b79860abe6adb016868b06c5c12dae324",
+      "bytes": 25456,
+      "id": "component:pin-ui/weather",
+      "name": "Weather",
+      "type": "component",
+      "collection": "pin-ui",
+      "mimeType": "application/json",
+      "source": "https://www.pinui.xyz",
+      "sourceUrl": "https://www.pinui.xyz/components/weather",
+      "license": "MIT component code. PinUI brand and demo media excluded; see upstream terms.",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "A weather square that opens out into a five-day forecast.",
+      "tags": [
+        "pin-ui",
+        "weather"
+      ],
+      "installation": {
+        "url": "https://www.pinui.xyz/r/weather.json",
+        "status": "Original upstream registry; inspect dependencies and license before installation."
       }
     },
     {

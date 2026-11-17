@@ -33,3 +33,5 @@ test-results/
 
 # Rebuilt from the pinned, unchanged source archive.
 /systems/preview/generated/
+
+components/pinui-preview/generated/

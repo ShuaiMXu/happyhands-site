@@ -45,8 +45,8 @@ export function ResourceDetailHeader({
   return (
     <header className="resource-detail-header">
       <div className="resource-detail-header-actions">
-        <Button variant="ghost" onClick={onBack}>
-          ← {backLabel}
+        <Button variant="secondary" className="resource-back-button" onClick={onBack}>
+          {backLabel}
         </Button>
         {children}
       </div>

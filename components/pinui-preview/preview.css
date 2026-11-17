@@ -1,0 +1,1 @@
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Arial,sans-serif}main{min-height:100vh;display:grid;place-items:center;padding:24px;background:#fafafa}main[data-theme=dark]{background:#111;color:#fafafa}main>*{max-width:100%;min-width:0}main:has(.sy){padding:0}

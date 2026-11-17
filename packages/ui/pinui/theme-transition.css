@@ -1,0 +1,56 @@
+/* Keep the original rain below all page content, above the body background. */
+body.hh-theme-background-effects { isolation:isolate; }
+/* PinUI Theme Switch effect styles; original MIT source archived in public/components/pin-ui. */
+.hh-theme-transition{position:fixed;inset:0;z-index:-1;pointer-events:none;overflow:hidden;opacity:.28;}
+.pts__flood,
+.pts__layer {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.pts__layer {
+  display: block;
+}
+
+/* over the controls: the drop, its ripples, the rain */
+.pts__fx {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.pts__fx .pts__layer {
+  z-index: auto;
+}
+
+.pts__drop {
+  position: absolute;
+  width: 22px;
+  height: 30px;
+  transform-origin: 50% 100%;
+  will-change: transform;
+}
+
+.pts__drop svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.pts__ripple {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  margin: -27px 0 0 -27px;
+  border: 1.5px solid currentColor;
+  border-radius: 50%;
+  opacity: 0;
+}
+

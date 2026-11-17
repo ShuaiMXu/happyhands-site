@@ -8,12 +8,14 @@ export function ArchiveCard({
   onPreview,
   onOpen,
   lang,
+  href,
 }: {
   entry: ArchiveEntry;
   active: boolean;
   onPreview: (slug: string | null) => void;
   onOpen: () => void;
   lang: string;
+  href?: string;
 }) {
   const root = useRef<HTMLElement>(null);
   const [playing, setPlaying] = useState(false),
@@ -72,7 +74,7 @@ export function ArchiveCard({
         mediaClassName="archive-card-media"
         id={`archive-${entry.slug}`}
         className="archive-card-open"
-        href={`?provider=design-md&design=${entry.slug}`}
+        href={href||`?provider=design-md&design=${entry.slug}`}
         onFocus={(event) => {
           if (event.currentTarget.matches(":focus-visible")) autoPreview();
         }}

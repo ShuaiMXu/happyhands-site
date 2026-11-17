@@ -66,3 +66,15 @@ Owned shell geometry (updated 2026-10-31): buttons, inputs and selects use 12px 
 The shared owned UI now imports official radix-luma component source from `packages/ui/shadcn`, with Radix interaction primitives. This supersedes earlier descriptions of the shared Button/Select and resource facets as native/Base UI implementations. Button, Input, Textarea, Checkbox, Select, Tabs, Card, Popover/Command, Tooltip, Accordion, Dialog, Switch and Badge have real consumers across resource pages, the project design system, Studio and setup. Browser color/range/file widgets remain native deliberately. Third-party source previews retain their own implementations.
 
 Use `npm run ui:build` to generate namespaced `sc:` utility CSS and the self-contained React component preview/export runtime. Never copy the three-component count into a claim that all 66 catalog entries are implemented: that count tracks configurable standalone export adapters, separately from page UI adoption.
+
+## User-selected Liquid Tabs navigation (2026-11-16)
+
+The user approved PinUI Liquid Tabs for the shared resource navigation, superseding the underline-only appearance above. Adapt its measured active shape and merged SVG surface to real route links and homepage panels. Keep source demos intact, labels outside the filter, 44px targets, visible focus, reduced motion and horizontal containment for long English labels. Do not replace the homepage Hero or introduce the source notification demo's fake rows.
+
+## No northeast link arrows (user rule, 2026-11-16)
+
+Do not add northeast-arrow glyphs or external-link arrow icons to HappyHands-owned navigation, search results, buttons, footers or guides. A readable link label is sufficient. Preserve link destinations and keyboard focus; do not replace the removed icon with a different decorative arrow. Archived third-party source and original evidence remain intact.
+
+Return links and buttons also omit decorative left-arrow icons or glyphs (user rule, 2026-11-16). Keep their explicit destination labels and navigation behavior. This does not remove ArrowLeft keyboard handling or functional disclosure controls.
+
+Navigation refinement (2026-11-16): the user selected the sliding capsule variation. Remove the merged bottom rail and goo filter from owned navigation; retain the measured sliding active background, shared 4px inset / 12px inner radius, reduced motion and existing link/tab semantics.

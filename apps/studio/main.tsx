@@ -1479,7 +1479,7 @@ function App() {
                 target="_blank"
                 rel="noreferrer"
               >
-                {t("主题工具基于 tweakcn")} <Icon name="external" />
+                {t("主题工具基于 tweakcn")}
               </a>
             </div>
           </section>

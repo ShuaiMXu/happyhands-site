@@ -1,0 +1,36 @@
+/* Synais Footer layout adapted to HappyHands. Original MIT source is preserved
+   at public/components/pin-ui/synais-footer.json. No demo subscriptions/contacts. */
+footer.portal-footer:has(.hh-synais-footer),footer.hh-catalog-footer { display:block; width:100%; max-width:none; margin:64px 0 0; padding:0; border-top:.5px solid var(--hh-line); background:var(--hh-bg); color:var(--hh-ink-muted); }
+.hh-synais-footer { padding:56px var(--page-inset,max(20px,calc((100% - 1280px)/2))) 0; overflow:hidden; font-family:var(--hh-font-sans); }
+.hh-synais-footer .sy__top { display:flex; align-items:flex-start; justify-content:space-between; gap:24px; }
+.hh-synais-footer .sy__logo { display:inline-flex; align-items:center; min-height:44px; color:var(--hh-ink); font-size:20px; font-weight:400; }
+.hh-synais-footer .sy__about { margin:8px 0 0; font-size:14px; line-height:1.6; }
+.hh-synais-footer a { color:var(--hh-ink-muted); text-decoration:none; }
+.hh-synais-footer a:hover { color:var(--hh-ink); text-decoration:none; }
+.hh-synais-footer a:focus-visible { outline:2px solid var(--hh-ring); outline-offset:3px; border-radius:4px; }
+.hh-synais-footer .sy__contact,.hh-synais-footer .sy__cooperation { display:inline-flex; align-items:center; gap:8px; min-height:44px; font-size:14px; }
+.hh-synais-footer svg { width:16px; height:16px; flex:none; }
+.hh-synais-footer .sy__cols { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:32px; margin:40px 0 0; padding:0; }
+.hh-synais-footer .sy__cols section { min-width:0; }
+.hh-synais-footer .sy__cols h2 { margin:0 0 12px; color:var(--hh-ink); font:400 14px/1.5 var(--hh-font-sans); }
+.hh-synais-footer .footer-directory-links { display:flex; flex-direction:column; align-items:flex-start; gap:0; }
+.hh-synais-footer .footer-directory-links a { display:inline-flex; align-items:center; gap:8px; min-height:44px; font-size:14px; line-height:1.5; }
+.hh-synais-footer .footer-friends { display:block; margin:0; padding:0; border:0; }
+.hh-synais-footer .sy__fine { display:flex; flex-wrap:wrap; justify-content:space-between; gap:12px 24px; margin:40px 0 0; padding:20px 0 0; border-top:.5px solid var(--hh-line); font-size:12px; }
+.hh-synais-footer .sy__word { margin:32px 0 -.12em; color:var(--hh-ink); font-size:clamp(48px,15.2vw,212px); font-weight:400; letter-spacing:-.065em; line-height:1; white-space:nowrap; text-align:center; user-select:none; }
+@media(max-width:700px){.hh-synais-footer{padding-top:32px;}.hh-synais-footer .sy__cols{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 20px;margin-top:28px;}.hh-synais-footer .sy__top{flex-wrap:wrap;gap:16px;}.hh-synais-footer .sy__fine{margin-top:28px;}.hh-synais-footer .sy__word{font-size:14vw;}}
+
+/* Use original brand artwork, with its intrinsic proportions and full bounds. */
+.hh-synais-footer .sy__logo img { display:block; width:160px; height:auto; }
+.hh-synais-footer .sy__word { margin:40px 0 0; padding-bottom:24px; line-height:0; }
+.hh-synais-footer .sy__word img { display:block; width:100%; height:auto; }
+.hh-synais-footer img.footer-logo-paper { display:none; }
+html[data-theme="dark"] .hh-synais-footer img.footer-logo-ink { display:none; }
+html[data-theme="dark"] .hh-synais-footer img.footer-logo-paper { display:block; }
+@media(max-width:700px){.hh-synais-footer .sy__word{margin-top:28px;padding-bottom:20px;}}
+
+/* Keep external-link indicators attached to the label, not in a separate column. */
+.hh-synais-footer .footer-directory-links a { display:block; width:fit-content; max-width:100%; padding-block:11px; }
+.hh-synais-footer .footer-directory-links a > span { display:inline; }
+.hh-synais-footer .footer-directory-links a > svg { display:inline-block; width:14px; height:14px; margin-inline-start:6px; vertical-align:-2px; }
+@media(max-width:900px){.hh-synais-footer .sy__cols{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 24px;}}

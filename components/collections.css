@@ -17,7 +17,9 @@
 .collections-install summary{min-height:44px;cursor:pointer}.collections-library.resource-directory{margin-inline:auto;width:calc(100% - 2 * var(--page-inset,24px));max-width:1280px}.resource-feed .collections-library.resource-directory{width:100%;margin-inline:0}.directory-live-preview{height:360px}
 .directory-inline-preview{width:100%;margin:0 0 8px;overflow:hidden;border-radius:24px}
 .directory-inline-preview--tabs{overflow:visible;border-radius:0;padding:16px 0 28px}
-.directory-inline-preview--tabs .pltabs{margin-inline:auto}.resource-directory .resource-detail-header h2{overflow-wrap:anywhere}
+.directory-inline-preview--tabs .pltabs{margin-inline:auto}
+.directory-inline-preview--switch{max-width:480px;margin:0 auto 8px;border:1px solid var(--hh-line);background:var(--hh-bg-raised);border-radius:24px}
+.directory-inline-preview--switch .pts{height:420px;border-radius:23px}.resource-directory .resource-detail-header h2{overflow-wrap:anywhere}
 .directory-source-files{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:8px 24px}.directory-source-files>a{min-height:44px;display:flex;align-items:center;color:var(--hh-ink-muted)}
 
 .resource-directory .directory-pagination { display:flex; flex-direction:column; align-items:center; gap:16px; margin-top:40px; padding:24px 0 16px; }

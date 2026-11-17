@@ -24,6 +24,7 @@ const inlinePreviews: Record<
   "component:pin-ui/presence-cards": React.lazy(() => import("./pinui/PresenceCards")),
   "component:pin-ui/liquid-tabs": React.lazy(() => import("./pinui/LiquidTabs")),
   "component:pin-ui/copy-paste-pad": React.lazy(() => import("./pinui/CopyPastePad")),
+  "component:pin-ui/theme-switch": React.lazy(() => import("./pinui/ThemeSwitch")),
 };
 import "./collections.css";
 import { previewFor, sectionFor, resourceHref } from "./resource-directory";
@@ -352,6 +353,9 @@ export function CollectionsLibrary({
                       "directory-inline-preview" +
                       (selected.id.endsWith("/liquid-tabs")
                         ? " directory-inline-preview--tabs"
+                        : "") +
+                      (selected.id.endsWith("/theme-switch")
+                        ? " directory-inline-preview--switch"
                         : "")
                     }
                   >

@@ -4,17 +4,29 @@
 .archive-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 32px 24px;
+  gap: 20px;
 }
 .archive-card {
-  display: block;
+  display: flex;
+  flex-direction: column;
   text-align: left;
-  padding: 0;
-  border: 0;
-  background: transparent;
+  padding: 8px 8px 14px;
+  border: 0.5px solid var(--hh-line);
+  border-radius: calc(var(--hh-radius-card) + 6px);
+  background: var(--hh-bg-raised);
   color: inherit;
   min-width: 0;
   cursor: pointer;
+  transition: border-color .18s ease, box-shadow .18s ease, transform .18s ease;
+}
+.archive-card:hover {
+  border-color: color-mix(in srgb, var(--hh-ink) 18%, var(--hh-line));
+  box-shadow: 0 10px 28px rgb(0 0 0 / 7%);
+  transform: translateY(-2px);
+}
+@media (prefers-reduced-motion: reduce) {
+  .archive-card { transition: none; }
+  .archive-card:hover { transform: none; }
 }
 .archive-card img {
   width: 100%;
@@ -484,8 +496,8 @@ body:has(.resource-detail-layout) .design-md-import {
   position: relative;
   aspect-ratio: 1.6;
   overflow: hidden;
-  border: 0.5px solid var(--hh-line);
-  border-radius: var(--hh-radius-md);
+  border: 0;
+  border-radius: var(--hh-radius-card);
   background: var(--hh-bg-raised);
 }
 .archive-card-media img,
@@ -510,9 +522,25 @@ body:has(.resource-detail-layout) .design-md-import {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  gap: 12px;
+  gap: 2px;
   flex-wrap: wrap;
+  flex-direction: column;
   margin-top: 12px;
+  padding: 0 6px;
+}
+.archive-card .resource-card-caption h2 {
+  margin: 0;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 500;
+  letter-spacing: -.01em;
+}
+.archive-card .resource-card-caption p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 20px;
+  color: var(--hh-ink-muted);
+  overflow-wrap: anywhere;
 }
 .archive-preview-error {
   position: absolute;

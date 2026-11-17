@@ -1,0 +1,22 @@
+components/CollectionsLibrary.tsx
+  h_8f87e56e705bcf 27,356-358
+components/collections.css
+  h_8f87e56e705bcf 20-22
+components/pinui/ThemeSwitch.tsx
+  h_8f87e56e705bcf 1-178
+components/pinui/theme-switch-engine.ts
+  h_8f87e56e705bcf 1-1332
+components/pinui/theme-switch.css
+  h_8f87e56e705bcf 1-295
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "4dd2978adfc66a07a3ca7f680cabf9548e9279e9",
+  "prompts": {},
+  "humans": {
+    "h_8f87e56e705bcf": {
+      "author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

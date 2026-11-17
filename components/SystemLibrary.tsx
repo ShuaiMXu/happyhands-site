@@ -153,18 +153,21 @@ export function SystemLibrary({ lang }: { lang: string }) {
       {selected && (
         <>
           <header className="resource-detail-header system-detail-hero">
-            <div className="resource-detail-header-actions">
-              <Button
-                variant="secondary"
-                className="resource-back-button"
-                onClick={() => {
+            <nav className="system-detail-crumbs" aria-label={t("当前位置", "Breadcrumb")}>
+              <a
+                href="?provider=systems"
+                onClick={(event) => {
+                  if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+                  event.preventDefault();
                   setSelected("");
                   history.pushState(null, "", "?provider=systems");
                 }}
               >
-                {t("返回设计系统", "All design systems")}
-              </Button>
-            </div>
+                {t("设计系统", "Design systems")}
+              </a>
+              <span aria-hidden="true">/</span>
+              <span aria-current="page">{name}</span>
+            </nav>
             <div className="system-detail-grid">
               <div>
                 <p className="system-detail-eyebrow">
@@ -176,57 +179,50 @@ export function SystemLibrary({ lang }: { lang: string }) {
                 <p className="system-detail-lead">
                   {lang === "zh" ? current?.summaryZh : current?.summaryEn}
                 </p>
-                <div className="system-detail-actions">
-                  {selected === "happyhands" ? (
-                    <>
-                      <a className="system-detail-action system-detail-action--primary" href="#catalog-main">
-                        {t("浏览完整规范", "Browse the system")}
-                      </a>
-                      <a className="system-detail-action" href="/systems/happyhands/SKILL.md" download>
-                        {t("下载 SKILL.md", "Download SKILL.md")}
-                      </a>
-                    </>
-                  ) : (
-                    <>
-                      <a
-                        className="system-detail-action system-detail-action--primary"
-                        href={`?provider=systems&system=${selected}&doc=index.md`}
-                      >
-                        {t("阅读完整文档", "Read the docs")}
-                      </a>
-                      <a
-                        className="system-detail-action"
-                        href={`/design-how/${selected}.zip`}
-                        download
-                      >
-                        {t("下载完整资料", "Download archive")}
-                      </a>
-                    </>
-                  )}
-                </div>
               </div>
-              <aside className="system-detail-facts" aria-label={t("系统概况", "System overview")}>
-                <dl>
-                  <div>
-                    <dt>{t("来源", "Source")}</dt>
-                    <dd>{selected === "happyhands" ? "HappyHands" : "design.how"}</dd>
-                  </div>
-                  <div>
-                    <dt>{t("适用场景", "Best for")}</dt>
-                    <dd>{lang === "zh" ? current?.zh : current?.en}</dd>
-                  </div>
-                  <div>
-                    <dt>{t("技术基础", "Stack")}</dt>
-                    <dd>React / Tailwind CSS / shadcn</dd>
-                  </div>
-                </dl>
-                <p className="system-detail-note">
-                  {selected === "happyhands"
-                    ? t("这是本站自己的规范；页面、组件与 token 都以它为准。", "This is the system the site itself uses.")
-                    : t("由 HappyHands 整理资料与预览；组件示例只用于阅读规范，不在本站安装上游组件。", "Curated for reading and preview; upstream components are not installed on this site.")}
-                </p>
-              </aside>
+              <div className="system-detail-actions">
+                {selected === "happyhands" ? (
+                  <>
+                    <a className="system-detail-action system-detail-action--primary" href="/systems/happyhands/">
+                      {t("浏览完整规范", "Browse the system")}
+                    </a>
+                    <a className="system-detail-action" href="/systems/happyhands/SKILL.md" download>
+                      {t("下载 SKILL.md", "Download SKILL.md")}
+                    </a>
+                  </>
+                ) : (
+                  <>
+                    <a
+                      className="system-detail-action system-detail-action--primary"
+                      href={`?provider=systems&system=${selected}&doc=index.md`}
+                    >
+                      {t("阅读完整文档", "Read the docs")}
+                    </a>
+                    <a
+                      className="system-detail-action"
+                      href={`/design-how/${selected}.zip`}
+                      download
+                    >
+                      {t("下载完整资料", "Download archive")}
+                    </a>
+                  </>
+                )}
+              </div>
             </div>
+            <dl className="system-detail-meta" aria-label={t("系统概况", "System overview")}>
+              <div>
+                <dt>{t("来源", "Source")}</dt>
+                <dd>{selected === "happyhands" ? "HappyHands" : "design.how"}</dd>
+              </div>
+              <div>
+                <dt>{t("适用场景", "Best for")}</dt>
+                <dd>{lang === "zh" ? current?.zh : current?.en}</dd>
+              </div>
+              <div>
+                <dt>{t("技术基础", "Stack")}</dt>
+                <dd>React / Tailwind CSS / shadcn</dd>
+              </div>
+            </dl>
           </header>
           {selected !== "happyhands" ? (
             <DesignHowLibrary key={selected} system={selected} lang={lang} />

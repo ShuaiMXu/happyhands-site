@@ -80,6 +80,7 @@ export function DesignHowLibrary({
   const [directoryOpen, setDirectoryOpen] = useState(
     () => matchMedia("(min-width: 900px)").matches,
   );
+  const [activeSection, setActiveSection] = useState("system-preview");
   const reading = path.startsWith("guides/") || path.startsWith("articles/");
   const file = `/systems/${reading ? path : `${system}/${path}`}`;
   const title = documents.find((d) => d.path === path)?.title || data.name;
@@ -127,6 +128,24 @@ export function DesignHowLibrary({
     return () => media.removeEventListener("change", update);
   }, []);
   useEffect(() => {
+    if (view !== "preview") return;
+    const sections = Array.from(
+      document.querySelectorAll<HTMLElement>(".system-book-section"),
+    );
+    if (!sections.length) return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+        if (visible) setActiveSection(visible.target.id);
+      },
+      { rootMargin: "-88px 0px -58% 0px", threshold: [0, 0.1, 0.5] },
+    );
+    sections.forEach((section) => observer.observe(section));
+    return () => observer.disconnect();
+  }, [view]);
+  useEffect(() => {
     if (!loading && location.hash) {
       const target = content.current?.querySelector(
         `[id="${CSS.escape(decodeURIComponent(location.hash.slice(1)))}"]`,
@@ -143,155 +162,332 @@ export function DesignHowLibrary({
     if (innerWidth < 900) setDirectoryOpen(false);
     requestAnimationFrame(() => heading.current?.focus());
   }
+  const foundations = documents.filter((d) => d.kind === "foundation");
+  const components = documents.filter((d) => d.kind === "component");
+  const guides = documents.filter(
+    (d) => d.kind === "guides" || d.kind === "articles",
+  );
   const filtered = documents.filter((d) =>
     `${d.title} ${d.path}`.toLowerCase().includes(query.trim().toLowerCase()),
   );
+  const sections = [
+    ["system-preview", "01", t("预览", "Preview")],
+    ["system-foundations", "02", t("基础规范", "Foundations")],
+    ["system-components", "03", t("组件", "Components")],
+    ["system-guides", "04", t("指南与文章", "Guides")],
+    ["system-download", "05", t("资料与下载", "Files and downloads")],
+  ] as const;
+  function openDocument(event: React.MouseEvent<HTMLAnchorElement>, next: string) {
+    if (event.metaKey || event.ctrlKey || event.altKey || event.shiftKey) return;
+    event.preventDefault();
+    select(next);
+  }
+  function backToBook(event: React.MouseEvent<HTMLAnchorElement>) {
+    if (event.metaKey || event.ctrlKey || event.altKey || event.shiftKey) return;
+    event.preventDefault();
+    const url = new URL(location.href);
+    url.searchParams.delete("doc");
+    history.pushState(null, "", url.pathname + url.search);
+    setPath("index.md");
+    setView("preview");
+    setActiveSection("system-preview");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
   return (
     <div className="design-how-library">
-      <div
-        className="design-how-view-tabs resource-content-tabs"
-        role="tablist"
-        aria-label={t("查看方式", "View mode")}
-      >
-        {[
-          ["preview", t("预览", "Preview")],
-          ["documents", t("资料与下载", "Files and downloads")],
-        ].map(([id, label], i) => (
-          <button type="button"
-            key={id}
-            id={`system-view-${id}`}
-            role="tab"
-            aria-selected={view === id}
-            aria-controls={`system-panel-${id}`}
-            tabIndex={view === id ? 0 : -1}
-            onClick={() => setView(id)}
-            onKeyDown={(event) => {
-              if (
-                ["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)
-              ) {
-                event.preventDefault();
-                const next =
-                  event.key === "Home"
-                    ? "preview"
-                    : event.key === "End"
-                      ? "documents"
-                      : id === "preview"
-                        ? "documents"
-                        : "preview";
-                setView(next);
-                document.getElementById(`system-view-${next}`)?.focus();
-              }
-            }}
-          >
-            {label}
-          </button>
-        ))}
-      </div>
-      {view === "documents" && (
-        <div className="design-how-summary">
-          <p>
-            {t(
-              `${data.documents.filter((d) => d.kind === "foundation").length} 篇基础规范，${data.documents.filter((d) => d.kind === "component").length} 篇组件文档`,
-              `${data.documents.filter((d) => d.kind === "foundation").length} foundations, ${data.documents.filter((d) => d.kind === "component").length} component documents`,
-            )}
-          </p>
-          <div className="design-how-actions">
-            <a className="hh-button" href={data.download} download>
-              {t("下载完整资料", "Download complete archive")}
+      {view === "preview" ? (
+        <div className="system-book">
+          <aside className="system-book-toc">
+            <p className="system-book-toc-title">
+              {t("本页目录", "On this page")}
+            </p>
+            <nav aria-label={t("本页目录", "On this page")}>
+              {sections.map(([id, number, label]) => (
+                <a
+                  key={id}
+                  href={`#${id}`}
+                  aria-current={activeSection === id ? "location" : undefined}
+                >
+                  <span>{number}</span>
+                  {label}
+                </a>
+              ))}
+            </nav>
+            <div className="system-book-toc-meta">
+              <span>{data.documents.length} {t("篇文档", "documents")}</span>
+              <span>{components.length} {t("个组件", "components")}</span>
+            </div>
+            <a className="system-book-top" href="#system-preview">
+              {t("回到顶部", "Back to top")} <span aria-hidden="true">↑</span>
             </a>
-            <a href={`/systems/${system}/`}>
-              {t("系统概览", "System overview")}
-            </a>
-            <a
-              href={`https://design.how/systems/${system}`}
-              target="_blank"
-              rel="noreferrer"
-            >
-              design.how
-            </a>
+          </aside>
+          <div className="system-book-content">
+            <section id="system-preview" className="system-book-section">
+              <header className="system-book-heading">
+                <span className="system-book-number">01</span>
+                <div>
+                  <h2>{t("系统预览", "System preview")}</h2>
+                  <p>
+                    {t(
+                      "同一套视觉规则下的页面、表单与组件状态。示例由系统样式实时渲染，不是截图。",
+                      "Pages, forms and component states under one set of rules. Rendered from the live system styles, not a screenshot.",
+                    )}
+                  </p>
+                </div>
+              </header>
+              <SystemStylePreview system={system} lang={lang} compact />
+              <div className="system-book-preview-actions">
+                <a
+                  href={`/systems/preview/?system=${system}`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {t("独立打开预览", "Open preview")}
+                  <span aria-hidden="true">↗</span>
+                </a>
+                <a
+                  href={`?provider=systems&system=${system}&doc=index.md`}
+                  onClick={(event) => openDocument(event, "index.md")}
+                >
+                  {t("阅读系统总纲", "Read the overview")}
+                </a>
+              </div>
+            </section>
+            <section id="system-foundations" className="system-book-section">
+              <header className="system-book-heading">
+                <span className="system-book-number">02</span>
+                <div>
+                  <h2>{t("基础规范", "Foundations")}</h2>
+                  <p>
+                    {t(
+                      "颜色、排版、间距、圆角、层级、动效与图标的使用约定。",
+                      "Rules for colour, typography, space, radius, elevation, motion and iconography.",
+                    )}
+                  </p>
+                </div>
+              </header>
+              <div className="system-book-list system-book-list--three">
+                {foundations.map((doc, index) => (
+                  <a
+                    key={doc.path}
+                    href={`?provider=systems&system=${system}&doc=${encodeURIComponent(doc.path)}`}
+                    onClick={(event) => openDocument(event, doc.path)}
+                  >
+                    <span className="system-book-list-index">
+                      {String(index + 1).padStart(2, "0")}
+                    </span>
+                    <span>{doc.title}</span>
+                    <span aria-hidden="true">→</span>
+                  </a>
+                ))}
+              </div>
+            </section>
+            <section id="system-components" className="system-book-section">
+              <header className="system-book-heading">
+                <span className="system-book-number">03</span>
+                <div>
+                  <h2>{t("组件", "Components")}</h2>
+                  <p>
+                    {t(
+                      `${components.length} 个组件的用法、状态与可安装源码。`,
+                      `Usage, states and installable source for ${components.length} components.`,
+                    )}
+                  </p>
+                </div>
+              </header>
+              <div className="system-book-component-grid">
+                {components.map((doc) => {
+                  const slug = doc.path.split("/").at(-1)!.replace(/\.md$/, "");
+                  return (
+                    <a
+                      key={doc.path}
+                      href={`?provider=systems&system=${system}&doc=${encodeURIComponent(doc.path)}`}
+                      onClick={(event) => openDocument(event, doc.path)}
+                    >
+                      <span>{doc.title}</span>
+                      {previewComponents.has(slug) && (
+                        <span className="system-book-live">
+                          {t("示例", "Live")}
+                        </span>
+                      )}
+                    </a>
+                  );
+                })}
+              </div>
+            </section>
+            <section id="system-guides" className="system-book-section">
+              <header className="system-book-heading">
+                <span className="system-book-number">04</span>
+                <div>
+                  <h2>{t("指南与文章", "Guides")}</h2>
+                  <p>
+                    {t(
+                      "从系统选型、接入到 AI 协作的实践说明。",
+                      "Practical notes on choosing, adopting and working with the system.",
+                    )}
+                  </p>
+                </div>
+              </header>
+              <div className="system-book-list system-book-list--two">
+                {guides.map((doc) => (
+                  <a
+                    key={doc.path}
+                    href={`?provider=systems&system=${system}&doc=${encodeURIComponent(doc.path)}`}
+                    onClick={(event) => openDocument(event, doc.path)}
+                    title={doc.title}
+                  >
+                    <span>{doc.title}</span>
+                    <span aria-hidden="true">→</span>
+                  </a>
+                ))}
+              </div>
+            </section>
+            <section id="system-download" className="system-book-section">
+              <header className="system-book-heading">
+                <span className="system-book-number">05</span>
+                <div>
+                  <h2>{t("资料与下载", "Files and downloads")}</h2>
+                  <p>
+                    {t(
+                      "完整资料包、组件源码与上游来源。",
+                      "Complete archive, component source and upstream reference.",
+                    )}
+                  </p>
+                </div>
+              </header>
+              <div className="system-book-download">
+                <div>
+                  <h3>{t("完整资料包", "Complete archive")}</h3>
+                  <p>
+                    {t(
+                      "包含全部基础规范、组件文档与安装说明，可离线阅读。",
+                      "All foundations, component documents and setup notes for offline reading.",
+                    )}
+                  </p>
+                </div>
+                <div className="system-book-download-actions">
+                  <a
+                    className="system-detail-action system-detail-action--primary"
+                    href={data.download}
+                    download
+                  >
+                    {t("下载完整资料", "Download archive")}
+                  </a>
+                  <a
+                    className="system-detail-action"
+                    href={`https://design.how/systems/${system}`}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    design.how <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </div>
+              <dl className="system-book-stats">
+                <div>
+                  <dt>{t("基础规范", "Foundations")}</dt>
+                  <dd>{foundations.length}</dd>
+                </div>
+                <div>
+                  <dt>{t("组件", "Components")}</dt>
+                  <dd>{components.length}</dd>
+                </div>
+                <div>
+                  <dt>{t("指南与文章", "Guides")}</dt>
+                  <dd>{guides.length}</dd>
+                </div>
+              </dl>
+              <p className="system-book-note">
+                {t(
+                  "由 HappyHands 整理资料与预览；组件示例只用于阅读规范，不在本站安装上游组件。",
+                  "Curated by HappyHands for reading and preview; upstream components are not installed on this site.",
+                )}
+              </p>
+            </section>
+            <footer className="design-how-source">
+              {t("原始文档与组件来源：", "Original documents and components: ")}
+              <a href="https://design.how">design.how</a> /{" "}
+              {catalog.generatedAt.slice(0, 10)}
+            </footer>
           </div>
         </div>
-      )}
-      {view === "preview" ? (
-        <div
-          role="tabpanel"
-          id="system-panel-preview"
-          aria-labelledby="system-view-preview"
-        >
-          <SystemStylePreview system={system} lang={lang} />
-        </div>
       ) : (
-        <div
-          className="design-how-layout"
-          role="tabpanel"
-          id="system-panel-documents"
-          aria-labelledby="system-view-documents"
-        >
-          <details
-            className="design-how-directory"
-            open={directoryOpen}
-            onToggle={(e) => setDirectoryOpen(e.currentTarget.open)}
-          >
-            <summary>{t("文档目录", "Documents")}</summary>
-            <label className="design-how-search">
-              {t("搜索文档", "Search documents")}
-              <Input
-                type="search"
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                placeholder={t("名称或组件", "Title or component")}
-              />
-            </label>
-            <nav aria-label={t("设计系统文档", "Design system documents")}>
-              {[
-                ["overview", t("总纲", "Overview")],
-                ["foundation", t("基础规范", "Foundations")],
-                ["component", t("组件", "Components")],
-                ["guides", t("使用指南", "Guides")],
-                ["articles", t("设计系统文章", "Articles")],
-              ].map(([kind, label]) => {
-                const items = filtered.filter((d) => d.kind === kind);
-                return (
-                  items.length > 0 && (
-                    <div className="design-how-group" key={kind}>
-                      <h3>{label}</h3>
-                      {items.map((doc) => (
-                        <a
-                          key={doc.path}
-                          aria-current={path === doc.path ? "page" : undefined}
-                          href={`?provider=systems&system=${system}&doc=${encodeURIComponent(doc.path)}`}
-                          onClick={(e) => {
-                            if (
-                              e.metaKey ||
-                              e.ctrlKey ||
-                              e.altKey ||
-                              e.shiftKey
-                            )
-                              return;
-                            e.preventDefault();
-                            select(doc.path);
-                          }}
-                        >
-                          {doc.title}
-                        </a>
-                      ))}
-                    </div>
-                  )
-                );
-              })}
-              {filtered.length === 0 && (
-                <p role="status">
-                  {t("没有匹配的文档。", "No matching documents.")}
-                </p>
-              )}
-            </nav>
-          </details>
+        <div className="design-how-layout">
+          <aside className="design-how-directory">
+            <a
+              className="design-how-back"
+              href={`?provider=systems&system=${system}`}
+              onClick={backToBook}
+            >
+              <span aria-hidden="true">←</span> {t("系统总览", "System overview")}
+            </a>
+            <details
+              open={directoryOpen}
+              onToggle={(e) => setDirectoryOpen(e.currentTarget.open)}
+            >
+              <summary>{t("文档目录", "Documents")}</summary>
+              <label className="design-how-search">
+                {t("搜索文档", "Search documents")}
+                <Input
+                  type="search"
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                  placeholder={t("名称或组件", "Title or component")}
+                />
+              </label>
+              <nav aria-label={t("设计系统文档", "Design system documents")}>
+                {[
+                  ["overview", t("总纲", "Overview")],
+                  ["foundation", t("基础规范", "Foundations")],
+                  ["component", t("组件", "Components")],
+                  ["guides", t("使用指南", "Guides")],
+                  ["articles", t("设计系统文章", "Articles")],
+                ].map(([kind, label]) => {
+                  const items = filtered.filter((d) => d.kind === kind);
+                  return (
+                    items.length > 0 && (
+                      <div className="design-how-group" key={kind}>
+                        <h3>{label}</h3>
+                        {items.map((doc) => (
+                          <a
+                            key={doc.path}
+                            aria-current={path === doc.path ? "page" : undefined}
+                            href={`?provider=systems&system=${system}&doc=${encodeURIComponent(doc.path)}`}
+                            onClick={(event) => openDocument(event, doc.path)}
+                          >
+                            {doc.title}
+                          </a>
+                        ))}
+                      </div>
+                    )
+                  );
+                })}
+                {filtered.length === 0 && (
+                  <p role="status">
+                    {t("没有匹配的文档。", "No matching documents.")}
+                  </p>
+                )}
+              </nav>
+            </details>
+          </aside>
           <article
             ref={content}
             className="design-how-document"
             aria-busy={loading}
           >
             <header>
+              <p className="design-how-kicker">
+                {data.name} /{" "}
+                {path.startsWith("guides/")
+                  ? t("使用指南", "Guide")
+                  : path.startsWith("articles/")
+                    ? t("设计系统文章", "Article")
+                    : path.startsWith("components/")
+                      ? t("组件", "Component")
+                      : path.startsWith("foundations/")
+                        ? t("基础规范", "Foundation")
+                        : t("系统总纲", "Overview")}
+              </p>
               <h2 ref={heading} tabIndex={-1}>
                 {path === "index.md" ? t("系统总纲", "System overview") : title}
               </h2>

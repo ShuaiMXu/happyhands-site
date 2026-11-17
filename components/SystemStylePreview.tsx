@@ -22,13 +22,16 @@ export function SystemStylePreview({
   system,
   lang,
   component = "",
+  compact = false,
 }: {
   system: string;
   lang: string;
   component?: string;
+  compact?: boolean;
 }) {
   const frame = useRef<HTMLIFrameElement>(null);
   const [height, setHeight] = useState(component ? 420 : 1600);
+  const [expanded, setExpanded] = useState(false);
   const [theme, setTheme] = useState(
     document.documentElement.dataset.theme === "dark" ? "dark" : "light",
   );
@@ -46,6 +49,7 @@ export function SystemStylePreview({
   }, []);
   useEffect(() => {
     setHeight(component ? 420 : 1600);
+    setExpanded(false);
   }, [system, component, theme]);
   useEffect(() => {
     const receive = (event: MessageEvent) => {
@@ -64,8 +68,9 @@ export function SystemStylePreview({
     addEventListener("message", receive);
     return () => removeEventListener("message", receive);
   }, []);
+  const clipped = compact && !expanded;
   return (
-    <div className="system-style-preview">
+    <div className={`system-style-preview${clipped ? " is-compact" : ""}`}>
       <iframe
         ref={frame}
         key={`${system}:${component}:${theme}`}
@@ -74,6 +79,24 @@ export function SystemStylePreview({
         style={{ height }}
         loading="lazy"
       />
+      {compact && (
+        <div className="system-style-preview-bar">
+          <span>{lang === "zh" ? "实时渲染" : "Live render"}</span>
+          <button
+            type="button"
+            aria-expanded={expanded}
+            onClick={() => setExpanded((value) => !value)}
+          >
+            {expanded
+              ? lang === "zh"
+                ? "收起预览"
+                : "Collapse preview"
+              : lang === "zh"
+                ? "展开完整预览"
+                : "Expand full preview"}
+          </button>
+        </div>
+      )}
     </div>
   );
 }

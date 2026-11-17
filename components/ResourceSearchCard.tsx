@@ -1,17 +1,17 @@
 import React,{useId,useRef,useState} from 'react';
 import {AnimatePresence,motion,useReducedMotion} from 'motion/react';
-export type SearchResult={id:string;label:string;href:string};
+import {handleSearchKeyDown,type SearchResult} from './resource-search-keydown';
+export type {SearchResult};
 /** PinUI Search Card adaptation: morphing bar/card, backed by live catalog results.
  * Original demonstration remains in public/components/pin-ui/search-card.json. */
 export function ResourceSearchCard({label,placeholder,query,onQueryChange,results,status}:{label:string;placeholder:string;query:string;onQueryChange:(value:string)=>void;results?:SearchResult[];status:string}){
  const [open,setOpen]=useState(false);const input=useRef<HTMLInputElement>(null);const root=useRef<HTMLDivElement>(null);const id=useId();const reduced=useReducedMotion();
  const zh=/[\u3400-\u9fff]/.test(label);const expanded=open&&!!query.trim()&&results!==undefined;
- return <div className="resource-search hh-search-card" ref={root} onFocus={()=>setOpen(true)} onBlur={e=>{if(!e.currentTarget.contains(e.relatedTarget))setOpen(false);}} onKeyDown={e=>{
- if(e.nativeEvent.isComposing)return;
- // Returning focus fires the bubbling onFocus handler synchronously; dismiss last.
- if(e.key==='Escape'){e.preventDefault();input.current?.focus();setOpen(false);}
- if(e.key==='ArrowDown'&&e.target===input.current&&query.trim()&&results!==undefined){e.preventDefault();if(expanded)root.current?.querySelector<HTMLAnchorElement>('a')?.focus();else setOpen(true);}
- }}>
+ return <div className="resource-search hh-search-card" ref={root} onFocus={()=>setOpen(true)} onBlur={e=>{if(!e.currentTarget.contains(e.relatedTarget))setOpen(false);}} onKeyDown={e=>handleSearchKeyDown(e,{
+  input:input.current,query,results,expanded,setOpen,
+  focusInput:()=>input.current?.focus(),
+  focusFirstResult:()=>root.current?.querySelector<HTMLAnchorElement>('a')?.focus(),
+ })}>
  <motion.div className="hh-search-card-surface" layout transition={{duration:reduced?0:.25,ease:'easeOut'}}>
  <div className="hh-search-card-bar">
  <label htmlFor={id} className="resource-search-label">{label}</label>

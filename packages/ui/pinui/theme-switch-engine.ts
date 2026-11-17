@@ -53,6 +53,12 @@ type Options = {
   fx: HTMLElement;
   effect: () => EffectName;
   sound: () => boolean;
+  /**
+   * The button's aria-label for switching to `next`. Hosts pass their own copy so
+   * the label follows the page language; without it the engine falls back to
+   * English and a non-English host would announce the control in the wrong language.
+   */
+  label?: (next: ThemeName) => string;
   /** The moment the scene is fully covered by the next theme. */
   onCommit: (theme: ThemeName) => void;
 };
@@ -518,7 +524,7 @@ function createSound(enabled: () => boolean) {
 
 /* ── the engine ────────────────────────────────────────────────────────── */
 
-export function createThemeSwitch({ root, button, fx, effect, sound: soundOn, onCommit }: Options): ThemeSwitchEngine {
+export function createThemeSwitch({ root, button, fx, effect, sound: soundOn, label, onCommit }: Options): ThemeSwitchEngine {
   const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)");
   const supportsLinear = CSS.supports("transition-timing-function", "linear(0, 1)");
   const springEase = supportsLinear ? springLinear(SPRING_MS / 1000, 0.3) : EASE_OUT;
@@ -549,7 +555,8 @@ export function createThemeSwitch({ root, button, fx, effect, sound: soundOn, on
   }
 
   function updateLabel() {
-    button.setAttribute("aria-label", `Switch to ${currentTheme() === "dark" ? "light" : "dark"} theme`);
+    const next: ThemeName = currentTheme() === "dark" ? "light" : "dark";
+    button.setAttribute("aria-label", label ? label(next) : `Switch to ${next} theme`);
   }
 
   function pressButton(depth: number) {

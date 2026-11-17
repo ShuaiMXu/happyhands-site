@@ -45,7 +45,8 @@ const components = [
 ];
 const referenceCard = (item, lang) => {
   const cover = archiveCover(item);
-  return `<a class="feed-item feed-reference" href="${lang === "en" ? "/en" : ""}/components/?provider=design-md&design=${escape(item.slug)}"${item.video ? ` data-preview="${escape(item.video)}"` : ""}><div class="feed-art">${cover ? `<img src="${escape(cover)}" alt="" loading="lazy" width="640" height="400">` : `<span>${escape(item.name)}</span>`}</div><div class="feed-caption"><h3>${escape(item.name)}</h3><span>${escape(new URL(item.site_url).hostname)}</span></div></a>`;
+  // Hover previews belong to the hydrated ArchiveCard; static markup stays image-only.
+  return `<a class="feed-item feed-reference" href="${lang === "en" ? "/en" : ""}/components/?provider=design-md&design=${escape(item.slug)}"><div class="feed-art">${cover ? `<img src="${escape(cover)}" alt="" loading="lazy" width="640" height="400">` : `<span>${escape(item.name)}</span>`}</div><div class="feed-caption"><h3>${escape(item.name)}</h3><span>${escape(new URL(item.site_url).hostname)}</span></div></a>`;
 };
 const componentCard = ([id, title], lang) =>
   `<a class="feed-item" href="${lang === "en" ? "/en" : ""}/components/?provider=cult-ui&component=${id}"><div class="feed-art feed-component" aria-hidden="true"><iframe title="${escape(title)} preview" data-feed-component data-src="/components/preview/?component=${id}&theme=light&lang=${lang}&motion=off" loading="lazy" tabindex="-1" inert sandbox="allow-scripts" referrerpolicy="no-referrer"></iframe></div><div class="feed-caption"><h3>${escape(title)}</h3><span>Cult UI</span></div></a>`;

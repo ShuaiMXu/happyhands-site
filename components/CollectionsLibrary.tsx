@@ -10,10 +10,20 @@ import { Button } from "../packages/ui";
 import { ResourceCard, ResourceDetailHeader } from "./ResourcePresentation";
 import { ResourceToolbar } from "./ResourceToolbar";
 import { DesignComponentDemo } from "./DesignComponentDemo";
+import { savePreference } from "../packages/ui/site-preferences";
 
-const inlinePreviews: Record<string, React.LazyExoticComponent<React.ComponentType<{ theme?: "light" | "dark" }>>> = {
+const inlinePreviews: Record<
+  string,
+  React.LazyExoticComponent<
+    React.ComponentType<{
+      theme?: "light" | "dark";
+      onThemeChange?: (theme: "light" | "dark") => void;
+    }>
+  >
+> = {
   "component:pin-ui/presence-cards": React.lazy(() => import("./pinui/PresenceCards")),
   "component:pin-ui/liquid-tabs": React.lazy(() => import("./pinui/LiquidTabs")),
+  "component:pin-ui/copy-paste-pad": React.lazy(() => import("./pinui/CopyPastePad")),
 };
 import "./collections.css";
 import { previewFor, sectionFor, resourceHref } from "./resource-directory";
@@ -354,6 +364,10 @@ export function CollectionsLibrary({
                     >
                       {React.createElement(inlinePreviews[selected.id], {
                         theme: previewTheme === "dark" ? "dark" : "light",
+                        onThemeChange: (next) => {
+                          document.documentElement.dataset.theme = next;
+                          savePreference("hh-theme", next);
+                        },
                       })}
                     </React.Suspense>
                   </div>

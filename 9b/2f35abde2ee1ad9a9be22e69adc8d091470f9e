@@ -1,0 +1,18 @@
+components/CollectionsLibrary.tsx
+  h_8f87e56e705bcf 13,15-23,26,367-370
+components/pinui/CopyPastePad.tsx
+  h_8f87e56e705bcf 1-862
+components/pinui/copy-paste-pad.css
+  h_8f87e56e705bcf 1-130
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "9b2f35abde2ee1ad9a9be22e69adc8d091470f9e",
+  "prompts": {},
+  "humans": {
+    "h_8f87e56e705bcf": {
+      "author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

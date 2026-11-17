@@ -25,7 +25,7 @@ jobs:
       - run: npm run test:collections
       - run: npm run test:resources:directory
       - run: npm run test:resources:specimens
-      - run: node --test tests/resource-search-card-events.test.mjs
+      - run: npm run test:resources:search
       - run: npm run test:portal
       - run: node --import tsx --test tests/studio-retirement.test.mjs tests/header-material.test.mjs
       - run: npm run test:archive

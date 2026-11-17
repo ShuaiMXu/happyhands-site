@@ -31,7 +31,9 @@ test('specialized previews and honest asset placeholders do not execute descript
 });
 test('image hover contract excludes video cards and reduced motion',()=>{
  const css=readFileSync('packages/ui/resource-image-hover.css','utf8');
- assert.match(css,/prefers-reduced-motion:no-preference/);assert.match(css,/hover:hover/);assert.match(css,/:not\(\[data-preview\]\)/);assert.match(css,/archive-card-image-only/);assert.ok(!css.includes('video {'));
+ assert.match(css,/prefers-reduced-motion:no-preference/);assert.match(css,/hover:hover/);assert.match(css,/:has\(video\)/);assert.match(css,/archive-card-image-only/);assert.ok(!css.includes('video {'));
+ // Hover suppression is structural now; the old marker attribute no longer participates.
+ assert.ok(!css.includes('data-preview'));
 });
 test('non-Latin component names remain separate declarations',()=>{
  const components=designDocumentComponents('## Components\n- **主要按钮:** 保存\n- **输入框:** 录入\n- **内容卡片:** 展示');

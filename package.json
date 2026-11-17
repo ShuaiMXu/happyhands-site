@@ -50,7 +50,8 @@
     "test:collections": "node --test tests/collections.test.mjs",
     "test:collections:browser": "node tests/collections-browser.mjs",
     "test:resources:directory": "node --import tsx --test tests/resource-directory.test.ts",
-    "test:resources:specimens": "node --import tsx --test tests/specimen-model.test.ts tests/platform-directory.test.ts"
+    "test:resources:specimens": "node --import tsx --test tests/specimen-model.test.ts tests/platform-directory.test.ts",
+    "test:resources:search": "node --import tsx --test tests/resource-search-card-events.test.mjs"
   },
   "dependencies": {
     "@base-ui/react": "1.9.0",

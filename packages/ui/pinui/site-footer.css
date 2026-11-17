@@ -202,7 +202,8 @@ footer.hh-catalog-footer {
 
 .hh-synais-footer .sy__word {
   margin: 48px 0 0;
-  padding: 0 0 24px;
+  /* 72px keeps the fixed back-to-top control off the wordmark at page end. */
+  padding: 0 0 72px;
   line-height: 0;
 }
 .hh-synais-footer .sy__word img { display: block; width: 100%; height: auto; }

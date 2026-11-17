@@ -8,24 +8,24 @@
 =========================================================================== */
 
 .resource-search.psearch {
-  --psearch-card: #f8f8f9;
-  --psearch-card-ring: rgb(0 0 0 / 0.05);
-  --psearch-card-shadow: 0 24px 60px -24px rgb(0 0 0 / 0.22), 0 2px 6px -2px rgb(0 0 0 / 0.06);
-  --psearch-panel: rgb(255 255 255 / 0.8);
-  --psearch-panel-border: rgb(0 0 0 / 0.06);
+  --psearch-card: var(--hh-bg-raised);
+  --psearch-card-ring: var(--hh-line);
+  --psearch-card-shadow: var(--hh-shadow-float);
+  --psearch-panel: var(--hh-bg-raised);
+  --psearch-panel-border: var(--hh-line);
   --psearch-text: var(--hh-ink);
-  --psearch-muted: #6b6b73;
-  --psearch-faint: #6f6f76;
-  --psearch-placeholder: #6f6f76;
-  --psearch-divider: rgb(0 0 0 / 0.065);
-  --psearch-sheet: #ffffff;
-  --psearch-btn: #e9e9eb;
-  --psearch-btn-hover: #dfdfe2;
-  --psearch-btn-fg: #55555b;
-  --psearch-accent: #0b6cbc;
-  --psearch-danger: #e46a2e;
-  --psearch-kbd-bg: rgb(0 0 0 / 0.04);
-  --psearch-kbd-border: rgb(0 0 0 / 0.08);
+  --psearch-muted: var(--hh-ink-muted);
+  --psearch-faint: var(--hh-ink-subtle);
+  --psearch-placeholder: var(--hh-ink-subtle);
+  --psearch-divider: var(--hh-line);
+  --psearch-sheet: var(--hh-bg-raised);
+  --psearch-btn: var(--hh-bg-sunken);
+  --psearch-btn-hover: var(--hh-bg-hover);
+  --psearch-btn-fg: var(--hh-ink-muted);
+  --psearch-accent: var(--hh-brand-text);
+  --psearch-danger: var(--hh-danger);
+  --psearch-kbd-bg: var(--hh-bg-sunken);
+  --psearch-kbd-border: var(--hh-line);
 
   position: relative;
   z-index: 40;
@@ -39,23 +39,9 @@
 }
 
 html[data-theme="dark"] .resource-search.psearch {
-  --psearch-card: #161619;
-  --psearch-card-ring: rgb(255 255 255 / 0.07);
-  --psearch-card-shadow: 0 30px 70px -24px rgb(0 0 0 / 0.8), 0 2px 6px -2px rgb(0 0 0 / 0.5);
-  --psearch-panel: #1d1d21;
-  --psearch-panel-border: rgb(255 255 255 / 0.06);
-  --psearch-faint: #a4a4ac;
-  --psearch-placeholder: #94949c;
-  --psearch-divider: rgb(255 255 255 / 0.06);
-  --psearch-sheet: #29292e;
-  --psearch-btn: #26262b;
-  --psearch-btn-hover: #303036;
-  --psearch-btn-fg: #c4c4ca;
-  --psearch-accent: #4ea6ff;
-  --psearch-danger: #f28a55;
-  --psearch-kbd-bg: rgb(255 255 255 / 0.05);
-  --psearch-kbd-border: rgb(255 255 255 / 0.1);
+  --psearch-card-shadow: var(--hh-shadow-float);
 }
+
 
 .psearch *,
 .psearch *::before,

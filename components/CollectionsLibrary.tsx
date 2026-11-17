@@ -320,31 +320,6 @@ export function CollectionsLibrary({
               </a>
             )}
           </div>
-          {previewFor(selected) && (
-            <div className="collections-theme">
-              <span>{zh ? "预览主题" : "Preview theme"}</span>
-              <div
-                className="collections-theme-options"
-                role="group"
-                aria-label={zh ? "预览主题" : "Preview theme"}
-              >
-                <button
-                  type="button"
-                  aria-pressed={previewTheme === "light"}
-                  onClick={() => applyThemePreference("light")}
-                >
-                  {zh ? "浅色" : "Light"}
-                </button>
-                <button
-                  type="button"
-                  aria-pressed={previewTheme === "dark"}
-                  onClick={() => applyThemePreference("dark")}
-                >
-                  {zh ? "深色" : "Dark"}
-                </button>
-              </div>
-            </div>
-          )}
           {copyError && <p role="alert">{copyError}</p>}
           {selected.installation && (
             <details className="collections-install">

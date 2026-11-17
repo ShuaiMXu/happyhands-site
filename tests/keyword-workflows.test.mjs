@@ -4,6 +4,7 @@ import {readFile} from 'node:fs/promises';
 import {workflowContent,workflowCopy,workflowPaths} from '../workflows/content.ts';
 import {seoData,seoHead,enhanceSeoHtml,seoPages} from '../packages/ui/site-seo.ts';
 import {portalContent} from '../apps/portal/render-content.js';
+import {portalFooter} from '../apps/portal/render-footer.js';
 import {guideContent} from '../guide/content.ts';
 const origin='https://happyhands.cc';
 test('four language routes have unique metadata, one H1 and reciprocal alternate URLs',()=>{
@@ -30,7 +31,7 @@ test('workflow pages are distinct from installation and communicate real product
   for(const term of lang==='zh'?['生成并托管','已有代码','假设场景']:['generated and hosted','existing code','illustrative scenario'])assert.ok(design.includes(term),term);
   assert.ok(!review.includes('git clone'));assert.ok(!design.includes('git clone'));
   const prefix=lang==='en'?'/en':'';
-  for(const page of [review,design,guideContent(lang),portalContent(lang)])for(const path of Object.values(workflowPaths)){
+  for(const page of [review,design,guideContent(lang),portalContent(lang)+portalFooter(lang)])for(const path of Object.values(workflowPaths)){
    // Each workflow links to the other; self links are not needed.
    if(page===review&&path===workflowPaths.review||page===design&&path===workflowPaths.design)continue;
    assert.ok(page.includes(`href="${prefix}${path}"`));

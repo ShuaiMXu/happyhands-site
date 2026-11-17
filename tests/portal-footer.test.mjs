@@ -5,7 +5,7 @@ import { portalFooter } from '../apps/portal/render-footer.js';
 import { renderPortalHtml } from '../apps/portal/render-content.js';
 import { repositories } from '../apps/portal/content.js';
 
-test('both production homepages use the same complete localized footer as runtime', async () => {
+test('both homepages render one footer guide group and no duplicate guide section', async () => {
   for (const lang of ['zh', 'en']) {
     const prefix = lang === 'en' ? '/en' : '';
     const source = await readFile(`${prefix ? 'en/' : ''}apps/portal/index.html`, 'utf8');
@@ -14,14 +14,19 @@ test('both production homepages use the same complete localized footer as runtim
     assert.ok(html.includes(`<footer class="site-footer portal-footer">${footer}</footer>`));
     assert.equal((html.match(/<footer\b/g) || []).length, 1);
     assert.equal((html.match(/<main\b/g) || []).length, 1);
+    assert.doesNotMatch(html, /workflow-links|workflow-heading/, 'Homepage must not repeat the guide block');
     assert.doesNotMatch(footer, /class="wordmark"|<button|<form|onclick|intent\/follow|messages\/compose/);
+    assert.equal((footer.match(/class="sy__guide"/g) || []).length, 1, 'Exactly one footer link group');
+    assert.equal((footer.match(/<nav\b/g) || []).length, 1);
     for (const variant of ['ink','paper']) assert.ok(footer.includes(`/brand/happyhands-logo-${variant}.png`));
-    for (const provider of ['design-md', 'systems', 'cult-ui'])
-      assert.ok(footer.includes(`href="${prefix}/components/?provider=${provider}"`));
-    for (const href of [repositories.core, 'https://collectui.com/', 'https://icons.kubai.design/'])
-      assert.equal(footer.split(`href="${href}"`).length - 1, 1);
-    assert.equal(footer.split('href="https://x.com/ShuaiXU13"').length - 1, 2);
-    for (const action of lang === 'en' ? ['View source', 'Follow us on X', 'Contact us on X'] : ['查看源码', '在 X 关注我们', '到 X 联系'])
-      assert.ok(footer.includes(action));
+    for (const target of ['/guide/', '/ai-website-design/', '/ai-ui-review/', '/ai-ui-review/#ai-slop', '/nonprofit-website-design/'])
+      assert.equal(footer.split(`href="${prefix}${target}"`).length - 1, 1, `${target} appears once`);
+    assert.equal(footer.split('href="/apps/setup/"').length - 1, 1, 'Setup keeps its language-neutral route');
+    assert.equal(footer.split(`href="${repositories.core}"`).length - 1, 1);
+    for (const href of ['https://icons.kubai.design/', 'https://collectui.com/', '/llms.txt'])
+      assert.equal(footer.split(`href="${href}"`).length - 1, 1, href);
+    assert.equal(footer.split('href="https://x.com/ShuaiXU13"').length - 1, 1);
+    for (const label of lang === 'en' ? ['Guides', 'Getting started', 'Design workflow', 'Setup details'] : ['使用指南', '快速开始', '设计工作流', '接入详情'])
+      assert.ok(footer.includes(label), label);
   }
 });

@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {portalContent,renderPortalHtml} from '../apps/portal/render-content.js';
+import {portalFooter} from '../apps/portal/render-footer.js';
 import {portalLanguage,portalPath} from '../apps/portal/language.ts';
 import {seoPages,seoData,seoHead,enhanceSeoHtml,guideFaq} from '../packages/ui/site-seo.ts';
 import {guideContent} from '../guide/content.ts';
@@ -129,13 +130,13 @@ test('metadata reconciliation preserves product identity and replaces stale grap
 import {assertSearchContent} from '../scripts/check-search-discovery.mjs';
 import {workflowContent} from '../workflows/content.ts';
 test('production discovery checks the current resource homepage, not removed setup copy',()=>{
- const body=portalContent('zh'),url=origin+'/apps/portal/';
+ const body=portalContent('zh')+portalFooter('zh'),url=origin+'/apps/portal/';
  assert.ok(!body.includes('pnpm workbench'));assert.ok(!body.includes('常见问题'));
  assert.doesNotThrow(()=>assertSearchContent(url,`<body>${body}</body>`));
  assert.throws(()=>assertSearchContent(url,'<body><div id="app"></div></body>'),/resource feed/);
  assert.throws(()=>assertSearchContent(url,`<head>${body}</head><body></body>`),/resource feed/);
  assert.throws(()=>assertSearchContent(url,`<body><script>${body}</script></body>`),/resource feed/);
- assert.throws(()=>assertSearchContent(url,`<body>${body.replaceAll('href="/ai-ui-review/"','href="#"')}</body>`),/workflow link/);
+ assert.throws(()=>assertSearchContent(url,`<body>${body.replaceAll('href="/ai-ui-review/"','href="#"')}</body>`),/guide link/);
 });
 test('production discovery requires real prerendered guide and workflow content in both languages',()=>{
  for(const lang of ['zh','en']){
@@ -166,7 +167,7 @@ test('both homepage URLs have complete language-specific static content and reci
   assert.ok(html.includes(lang==='en'?'You decide which changes to accept or reject.':'由你决定接受或拒绝修改'));
   assert.ok(html.includes(`href="${lang==='en'?'/en':''}/guide/"`));
   assert.ok(html.includes(`href="${lang==='en'?'/en':''}/ai-ui-review/#ai-slop"`));
-  assert.ok(html.includes('id="workflow-heading"'));
+  assert.ok(html.includes('id="footer-guide-heading"'));
   assert.ok(html.includes(`rel="canonical" href="${origin}${path}"`));
   assert.ok(source.includes(`<a href="${other}" hreflang=`),'Language link must work without JavaScript');
   for(const [code,target] of [['zh-CN','/apps/portal/'],['en','/en/apps/portal/'],['x-default','/en/apps/portal/']])
@@ -244,7 +245,7 @@ test('v1.0.0 discovery distinguishes the lightweight Skill from the optional wor
   const source=await read(`${prefix.slice(1)?prefix.slice(1)+'/':''}apps/portal/index.html`);
   assert.ok(source.includes(`href="${prefix}/guide/#setup">${lang==='zh'?'安装':'Install'} v1.0.0`),'Homepage installation CTA keeps its language and opens setup');
   assert.equal(app.operatingSystem,undefined,'Do not imply unverified cross-platform coverage');
-  const homepage=portalContent(lang);
+  const homepage=portalContent(lang)+portalFooter(lang);
   assert.ok(homepage.includes(lang==='zh'?'由你决定接受或拒绝修改':'You decide which changes to accept or reject.'));
   assert.ok(homepage.includes(`href="${prefix}/guide/"`));
   const faq=guideFaq[lang].map(row=>row.join(' ')).join(' ');

@@ -11,14 +11,15 @@ export function assertSearchContent(url,html){
  if(path==='/apps/portal/'||path==='/en/apps/portal/'){
   assert.match(body,/id=["']design-resources["']/,'Missing prerendered resource feed');
   const prefix=path.startsWith('/en/')?'/en':'';
-  const guides=body.match(/<section class="workflow-links"[\s\S]*?<\/section>/)?.[0]||'';
-  assert.match(guides,prefix?/<h2\b[^>]*>Guides<\/h2>/:/<h2\b[^>]*>使用指南<\/h2>/,'Missing prerendered workflow introduction');
+  const guides=body.match(/<nav class="sy__guide"[\s\S]*?<\/nav>/)?.[0]||'';
+  assert.match(guides,prefix?/<h2\b[^>]*>Guides<\/h2>/:/<h2\b[^>]*>使用指南<\/h2>/,'Missing prerendered guide introduction');
   assert.ok(body.includes('HappyHands'),'Missing visible product identity');
   const local=prefix?'Review and code changes run locally.':'审查与代码修改在本地执行';
   const judgment=prefix?'You decide which changes to accept or reject.':'由你决定接受或拒绝修改';
   assert.ok(guides.includes(local)&&guides.includes(judgment),'Missing visible local execution and human judgment scope');
   for(const target of ['/guide/','/ai-website-design/','/ai-ui-review/','/ai-ui-review/#ai-slop'])
-   assert.ok(guides.includes(`href="${prefix}${target}"`),`Missing crawlable workflow link: ${target}`);
+   assert.ok(guides.includes(`href="${prefix}${target}"`),`Missing crawlable guide link: ${target}`);
+  assert.ok(guides.includes('href="/apps/setup/"'),'Missing crawlable setup link');
  }
  if(['/guide/','/en/guide/'].includes(path)){
   assert.ok(body.includes('pnpm workbench')&&body.includes('.harness/'),'Missing prerendered setup guide');

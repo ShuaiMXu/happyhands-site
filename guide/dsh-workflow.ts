@@ -13,7 +13,7 @@ export function dshWorkflowContent(lang:'zh'|'en') {
  ];
  const prefix=zh?'':'/en';
  return `<ol>${steps.map(step=>`<li>${step}</li>`).join('')}</ol>
- <p>${zh?'内置模型诊断和视觉复核仍需配置并登录 Codex CLI。DSH 负责调度，不能据此宣称全程仅由 DeepSeek 执行。':'Built-in model diagnosis and visual review still require a configured, signed-in Codex CLI. DSH coordinates the workflow; this does not establish a DeepSeek-only execution loop.'}</p>
+ <p>${zh?'内置模型诊断和视觉复核需要可用的模型或 CLI 适配器（默认 Codex CLI，也可按运行选择其他适配器）。DSH 负责调度，不能据此宣称全程仅由 DeepSeek 执行。':'Built-in model diagnosis and visual review need an available model or CLI adapter (Codex CLI by default, with other adapters selectable per run). DSH coordinates the workflow; this does not establish a DeepSeek-only execution loop.'}</p>
  <p><a href="${prefix}/components/?provider=setup&amp;agent=dsh">${zh?'复制 DSH 提示词':'Copy the DSH prompt'}</a> / <a href="https://github.com/ShuaiMXu/happyhands/blob/main/docs/${zh?'dsh.zh-CN.md':'dsh.md'}">${zh?'完整调用说明':'Full DSH workflow'}</a></p>
  <h3>${zh?'终端调用（可选）':'Optional terminal use'}</h3>
  <pre><code>dsh --help\ndsh headless --help\ndsh headless --json - &lt; review-request.txt</code></pre>

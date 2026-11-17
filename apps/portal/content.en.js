@@ -96,14 +96,14 @@ export const elements = [
 export const hero = {
   "eyebrow": [
     "FOR INDEPENDENT BUILDERS",
-    "v1.0.0 / OPEN SOURCE / LOCAL"
+    "v1.1.0 / OPEN SOURCE / LOCAL"
   ],
   "h1": "Make your product ",
   "h1Accent": "more professional",
   "h1Suffix": ".",
   "copy": "Improve page layouts, interaction flows and component consistency through AI-assisted changes and review.",
   "cta": "Copy setup prompt",
-  "ctaSecondary": "Install v1.0.0"
+  "ctaSecondary": "Install v1.1.0"
 };
 
 export const screenPairs = [

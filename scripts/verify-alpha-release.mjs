@@ -12,7 +12,7 @@ const expected=process.env.VERCEL_GIT_COMMIT_SHA||execFileSync('git',['rev-parse
 assert.equal(release.revision,expected,'Built revision does not match the expected source');
 assert.ok(release.dirty===null||typeof release.dirty==='boolean','Invalid source dirty state');
 if(process.argv.includes('--require-clean'))assert.equal(release.dirty,false,'Clean local source required');
-assert.match(release.revision,/^[a-f0-9]{40}$/);assert.equal(release.channel,'stable');assert.equal(release.productVersion,'1.0.0');
+assert.match(release.revision,/^[a-f0-9]{40}$/);assert.equal(release.channel,'stable');assert.equal(release.productVersion,'1.1.0');
 const sitemap=await readFile('dist/sitemap.xml','utf8');
 for(const path of pages){const html=(await readFile(builtPage(path),'utf8')).replace(/\s+/g,' ');assert.match(html,/<title>[^<]+<\/title>/);assert.match(html,/<meta name="description" content="[^"]+"/);assert.ok(html.includes(`rel="canonical" href="${origin}/${path}/"`),path+' canonical');for(const key of ['og:title','og:description','og:url','og:image'])assert.ok(html.includes(`property="${key}"`),path+' '+key);assert.ok(sitemap.includes(`<loc>${origin}/${path}/</loc>`));}
 const robots=await readFile('dist/robots.txt','utf8');assert.ok(robots.includes(`Sitemap: ${origin}/sitemap.xml`));assert.ok(!sitemap.includes('/apps/designer/'));

@@ -11,9 +11,15 @@ type Foundation = {
 export function FoundationSpecimen({
   system,
   name,
+  compact = false,
+  detail = false,
+  limit,
 }: {
   system: string;
   name: string;
+  compact?: boolean;
+  detail?: boolean;
+  limit?: number;
 }) {
   const doc = (manifest as Record<string, Foundation>)[system + "/" + name];
   const [tokens, setTokens] = useState<SpecimenToken[]>([]);
@@ -21,6 +27,7 @@ export function FoundationSpecimen({
     const css = getComputedStyle(document.body);
     setTokens(
       (doc?.tokens || [])
+        .slice(0, limit)
         .map((name) => ({ name, value: css.getPropertyValue(name).trim() }))
         .filter((t) => t.value),
     );
@@ -31,7 +38,7 @@ export function FoundationSpecimen({
     .filter((line) => /^\d+\. |^\s*- (Correct|Wrong):/.test(line));
   return (
     <section className="foundation-specimen">
-      <h1>{doc.title}</h1>
+      {!detail && <h1>{doc.title}</h1>}
       {name === "grid" && (
         <div className="foundation-grid" aria-label="Source layout dimensions">
           <header>--topbar</header>
@@ -48,12 +55,12 @@ export function FoundationSpecimen({
         (name === "grid" ? (
           <details className="foundation-token-details">
             <summary>Layout tokens ({tokens.length})</summary>
-            <TokenSpecimens tokens={tokens} />
+            <TokenSpecimens tokens={tokens} bare={detail} />
           </details>
         ) : (
-          <TokenSpecimens tokens={tokens} />
+          <TokenSpecimens tokens={tokens} bare={detail} />
         ))}
-      {rules.length > 0 && (
+      {!compact && rules.length > 0 && (
         <section aria-label="Documented rules and examples">
           {rules.map((rule, i) => (
             <p

@@ -110,6 +110,26 @@
       "permanent": true
     },
     {
+      "source": "/en/systems/quartz/",
+      "destination": "/en/components/?provider=systems&system=quartz",
+      "permanent": true
+    },
+    {
+      "source": "/en/systems/quartz",
+      "destination": "/en/components/?provider=systems&system=quartz",
+      "permanent": true
+    },
+    {
+      "source": "/en/systems/lime/",
+      "destination": "/en/components/?provider=systems&system=lime",
+      "permanent": true
+    },
+    {
+      "source": "/en/systems/lime",
+      "destination": "/en/components/?provider=systems&system=lime",
+      "permanent": true
+    },
+    {
       "source": "/en/systems/sodium/",
       "destination": "/en/components/?provider=systems&system=sodium",
       "permanent": true
@@ -127,6 +147,26 @@
     {
       "source": "/en/systems/glaze",
       "destination": "/en/components/?provider=systems&system=glaze",
+      "permanent": true
+    },
+    {
+      "source": "/systems/quartz/",
+      "destination": "/components/?provider=systems&system=quartz",
+      "permanent": true
+    },
+    {
+      "source": "/systems/quartz",
+      "destination": "/components/?provider=systems&system=quartz",
+      "permanent": true
+    },
+    {
+      "source": "/systems/lime/",
+      "destination": "/components/?provider=systems&system=lime",
+      "permanent": true
+    },
+    {
+      "source": "/systems/lime",
+      "destination": "/components/?provider=systems&system=lime",
       "permanent": true
     },
     {

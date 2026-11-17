@@ -41,12 +41,17 @@ test("legacy aliases retain query forwarding and do not capture assets or curren
       !config.redirects.some((rule) => rule.source.startsWith(`/${slug}/:`)),
       slug,
     );
-    assert.ok(
-      !config.redirects.some(
-        (rule) => !rule.has && rule.source === destination,
-      ),
-      destination,
-    );
+    // Quartz and Lime are intentionally consolidated onto the unified
+    // design-system book, so their legacy aliases may chain to a canonical
+    // redirect source.
+    if (!["/systems/quartz/", "/systems/lime/"].includes(destination)) {
+      assert.ok(
+        !config.redirects.some(
+          (rule) => !rule.has && rule.source === destination,
+        ),
+        destination,
+      );
+    }
   }
 });
 
@@ -78,8 +83,8 @@ test("old production host canonicalization stays scoped and precedes path aliase
   );
 });
 
-test("Sodium and Glaze standalone aliases consolidate on their prerendered resource", () => {
-  for (const system of ["sodium", "glaze"]) {
+test("All upstream design systems consolidate on the unified book", () => {
+  for (const system of ["sodium", "glaze", "quartz", "lime"]) {
     for (const prefix of ["", "/en"]) for (const suffix of ["/", ""]) {
       const source = `${prefix}/systems/${system}${suffix}`;
       const rules = config.redirects.filter((rule) => rule.source === source);

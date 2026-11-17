@@ -194,9 +194,9 @@ export function SystemLibrary({ lang }: { lang: string }) {
                   <>
                     <a
                       className="system-detail-action system-detail-action--primary"
-                      href={`?provider=systems&system=${selected}&doc=index.md`}
+                      href="#system-foundations"
                     >
-                      {t("阅读完整文档", "Read the docs")}
+                      {t("浏览规范", "Browse the system")}
                     </a>
                     <a
                       className="system-detail-action"

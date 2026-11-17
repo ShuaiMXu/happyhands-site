@@ -4,7 +4,10 @@ import { createRoot } from "react-dom/client";
 import type { ComponentType, ReactNode } from "react";
 import "./preview.css";
 import {FoundationSpecimen} from "./FoundationSpecimen";
+import bookCatalog from "../../public/design-how/catalog.json";
 const params = new URLSearchParams(location.search);
+const gallery = params.get("gallery") || "";
+const foundationOnly = Boolean(params.get("foundation")) || gallery === "foundations";
 const system = ["sodium", "glaze", "quartz", "lime", "meridian-mono", "meridian-glass", "meridian-slate", "meridian-clay"].includes(
   params.get("system") || "",
 )
@@ -12,6 +15,7 @@ const system = ["sodium", "glaze", "quartz", "lime", "meridian-mono", "meridian-
   : "quartz";
 const family = ({'meridian-mono':'sodium','meridian-glass':'glaze','meridian-slate':'quartz','meridian-clay':'lime'} as Record<string,string>)[system] || system;
 const theme = params.get("theme") === "dark" ? "dark" : "light";
+const lang = params.get("lang") === "zh" ? "zh" : "en";
 document.body.className = system;
 document.body.dataset.theme = theme;
 document.documentElement.dataset.theme = theme;
@@ -20,6 +24,16 @@ const styles = import.meta.glob("./generated/*/compiled.css");
 const variantFixtures=new Set(["button","input","textarea","card","frame","tabs","checkbox","switch","slider","progress","select","badge","status","avatar","skeleton"]);
 const documentedExamples = import.meta.glob("./generated/*/examples/*.tsx");
 const sourceCatalog = await import("./generated/catalog.json");
+const bookComponents = (
+  bookCatalog as unknown as {
+    systems: {
+      id: string;
+      documents: { kind: string; path: string; title: string }[];
+    }[];
+  }
+).systems.find((entry) => entry.id === system)?.documents.filter(
+  (document) => document.kind === "component",
+) || [];
 const blocks = (
   sourceCatalog.default as Record<
     string,
@@ -55,16 +69,110 @@ const names = [
   "skeleton",
 ];
 await styles[`./generated/${system}/compiled.css`]();
-await Promise.all(names.map((name) => load("ui", name)));
-const portal = await load("lib", "portal");
+if (!foundationOnly) {
+  await Promise.all(names.map((name) => load("ui", name)));
+}
+const portal = foundationOnly ? null : await load("lib", "portal");
 const Provider =
   portal?.[system.split("-").map(part=>part[0].toUpperCase()+part.slice(1)).join("") + "PortalProvider"] ||
   React.Fragment;
+const wallFoundations = [
+  "color",
+  "typography",
+  "space",
+  "radius",
+  "motion",
+  "borders-and-lines",
+  "elevation",
+  "iconography",
+];
 const get = (file: string, name: string) =>
   loaded["ui/" + file]?.[name] as ComponentType<any> | undefined;
 function usePart(file: string, name: string, fallback?: ComponentType<any>) {
   return get(file, name) || fallback || (() => null);
 }
+function FoundationWall() {
+  return (
+    <section className="foundation-wall" aria-label="Foundation specimens">
+      {wallFoundations.map((name) => (
+        <article className="foundation-wall-item" key={name}>
+          <FoundationSpecimen
+            system={system}
+            name={name}
+            compact
+            limit={name === "color" ? 8 : name === "space" ? 6 : 5}
+          />
+        </article>
+      ))}
+    </section>
+  );
+}
+function WallCopyButton({ path }: { path: string }) {
+  const [state, setState] = useState<"idle" | "done" | "error">("idle");
+  useEffect(() => {
+    let timer: number | undefined;
+    const handler = (event: MessageEvent) => {
+      const data = event.data as { type?: string; path?: string; ok?: boolean };
+      if (data?.type !== "design-how-copy-result" || data.path !== path) return;
+      setState(data.ok ? "done" : "error");
+      window.clearTimeout(timer);
+      timer = window.setTimeout(() => setState("idle"), 1800);
+    };
+    addEventListener("message", handler);
+    return () => {
+      removeEventListener("message", handler);
+      window.clearTimeout(timer);
+    };
+  }, [path]);
+  return (
+    <button
+      type="button"
+      className="component-wall-copy"
+      title={lang === "zh" ? "复制 design.md" : "Copy design.md"}
+      aria-label={`${lang === "zh" ? "复制" : "Copy"} ${path} design.md`}
+      onClick={() =>
+        (window.parent === window ? window : window.parent).postMessage(
+          { type: "design-how-copy", path },
+          "*",
+        )
+      }
+    >
+      {state === "done"
+        ? lang === "zh" ? "已复制" : "Copied"
+        : state === "error"
+          ? lang === "zh" ? "失败" : "Failed"
+          : lang === "zh" ? "复制" : "Copy"}
+    </button>
+  );
+}
+function ComponentWall() {
+  return (
+    <section className="component-wall" aria-label="Component specimens">
+      {bookComponents.map((doc) => {
+        const slug = doc.path.split("/").at(-1)!.replace(/\.md$/, "");
+        const hasExample = Boolean(
+          documentedExamples[`./generated/${system}/examples/${slug}.tsx`],
+        );
+        return (
+          <article className="component-wall-item" key={slug}>
+            <header className="component-wall-head">
+              <h2>{doc.title}</h2>
+              <WallCopyButton path={doc.path} />
+            </header>
+            {hasExample ? (
+              <DocumentedExample name={slug} />
+            ) : variantFixtures.has(slug) ? (
+              <Controls only={slug} />
+            ) : (
+              <p className="demo-copy">Specimen not available.</p>
+            )}
+          </article>
+        );
+      })}
+    </section>
+  );
+}
+
 function Controls({ only = "" }: { only?: string }) {
   const Button = usePart("button", "Button"),
     Input = usePart("input", "Input"),
@@ -134,63 +242,79 @@ function Controls({ only = "" }: { only?: string }) {
         </div>,
       )}
       {show(
-        ["input", "field", "textarea"],
-        "Fields",
-        <div className="demo-fields">
-          <label>
-            Project name
-            <Input aria-label="Project name" placeholder="Your next project" />
-          </label>
-          <label>
-            Notes
-            <Textarea aria-label="Notes" placeholder="Add a note…" />
-          </label>
+        ["input", "field"],
+        "Input",
+        <label className="demo-field">
+          <span>Project name</span>
+          <Input aria-label="Project name" placeholder="Your next project" />
+        </label>,
+      )}
+      {show(
+        ["textarea"],
+        "Textarea",
+        <label className="demo-field">
+          <span>Notes</span>
+          <Textarea aria-label="Notes" placeholder="Add a note…" />
+        </label>,
+      )}
+      {show(
+        ["checkbox"],
+        "Checkbox",
+        <label className="demo-row">
+          <Checkbox defaultChecked />
+          Notify me
+        </label>,
+      )}
+      {show(
+        ["switch"],
+        "Switch",
+        <label className="demo-row">
+          <Switch aria-label="Automatic updates" defaultChecked />
+          Automatic updates
+        </label>,
+      )}
+      {show(
+        ["slider"],
+        "Slider",
+        <Slider
+          aria-label="Volume"
+          thumbLabels={["Volume"]}
+          defaultValue={[64]}
+          showValue
+        />,
+      )}
+      {show(
+        ["badge"],
+        "Badge",
+        <div className="demo-row">
+          <Badge>Draft</Badge>
+          <Badge variant="neutral">Published</Badge>
         </div>,
       )}
       {show(
-        ["checkbox", "switch", "slider", "radio-group", "radio"],
-        "Selection",
-        <div className="demo-fields">
-          <div className="demo-row">
-            <label className="demo-row">
-              <Checkbox defaultChecked />
-              Notify me
-            </label>
-            <label className="demo-row">
-              <Switch aria-label="Automatic updates" defaultChecked />
-              Automatic updates
-            </label>
-          </div>
-          <Slider
-            aria-label="Volume"
-            thumbLabels={["Volume"]}
-            defaultValue={[64]}
-            showValue
-          />
-        </div>,
+        ["status"],
+        "Status",
+        <Status
+          status={family === "lime" ? "done" : "ok"}
+          label={family === "lime" ? "Ready" : undefined}
+        >
+          Ready
+        </Status>,
       )}
       {show(
-        ["progress", "meter", "status", "badge", "avatar", "skeleton"],
-        "Status and progress",
-        <div className="demo-fields">
-          <div className="demo-row">
-            {get("badge", "Badge") && (
-              <>
-                <Badge>Draft</Badge>
-                <Badge variant="neutral">Published</Badge>
-              </>
-            )}
-            <Status
-              status={family === "lime" ? "done" : "ok"}
-              label={family === "lime" ? "Ready" : undefined}
-            >
-              Ready
-            </Status>
-            {get("avatar", "Avatar") && <Avatar name="Arlan Marat" />}
-          </div>
-          <Progress value={64} label="Completed" aria-label="Completed" />
-          <Skeleton style={{ height: 12, width: "55%" }} />
-        </div>,
+        ["avatar"],
+        "Avatar",
+        <Avatar name="Arlan Marat" />,
+      )}
+      {show(
+        ["progress", "meter"],
+        "Progress",
+        <Progress value={64} label="Completed" aria-label="Completed" />,
+      )}
+      {show(
+        ["skeleton"],
+        "Skeleton",
+        <Skeleton style={{ height: 12, width: "55%" }} />,
       )}
       {show(
         ["tabs", "segmented", "segmented-control"],
@@ -224,39 +348,34 @@ function Controls({ only = "" }: { only?: string }) {
         </Card>,
       )}
       {show(
-        [
-          "dialog",
-          "alert-dialog",
-          "popover",
-          "tooltip",
-          "sheet",
-          "dropdown-menu",
-        ],
-        "Overlays",
-        <div className="demo-row">
-          <Dialog>
-            <DialogTrigger render={<Button variant="secondary" />}>
-              Open dialog
-            </DialogTrigger>
-            <DialogContent>
-              <DialogTitle>Project settings</DialogTitle>
-              <DialogDescription>
-                Preview the original dialog and keyboard behavior.
-              </DialogDescription>
-              <DialogClose render={<Button variant="secondary" />}>
-                Close
-              </DialogClose>
-            </DialogContent>
-          </Dialog>
-          <Popover>
-            <PopoverTrigger render={<Button variant="secondary" />}>
-              Open popover
-            </PopoverTrigger>
-            <PopoverContent>
-              <p className="demo-copy">A useful detail, beside its action.</p>
-            </PopoverContent>
-          </Popover>
-        </div>,
+        ["dialog", "alert-dialog", "sheet"],
+        "Dialog",
+        <Dialog>
+          <DialogTrigger render={<Button variant="secondary" />}>
+            Open dialog
+          </DialogTrigger>
+          <DialogContent>
+            <DialogTitle>Project settings</DialogTitle>
+            <DialogDescription>
+              Preview the original dialog and keyboard behavior.
+            </DialogDescription>
+            <DialogClose render={<Button variant="secondary" />}>
+              Close
+            </DialogClose>
+          </DialogContent>
+        </Dialog>,
+      )}
+      {show(
+        ["popover", "tooltip", "dropdown-menu"],
+        "Popover",
+        <Popover>
+          <PopoverTrigger render={<Button variant="secondary" />}>
+            Open popover
+          </PopoverTrigger>
+          <PopoverContent>
+            <p className="demo-copy">A useful detail, beside its action.</p>
+          </PopoverContent>
+        </Popover>,
       )}
       {show(
         ["select", "combobox"],
@@ -424,8 +543,8 @@ function App() {
   const block = blocks.find((b) => b.name === selected) || blocks[0];
   return (
     <Provider>
-      <main className="demo-root">
-        {params.get("foundation") ? <><FoundationSpecimen system={system} name={params.get("foundation")!}/>{params.get("foundation")==="iconography"&&<DocumentedExample name="icon"/>}</> : <>
+      <main className={`demo-root${gallery ? " gallery-root" : ""}`}>
+        {gallery === "foundations" ? <FoundationWall /> : gallery === "components" ? <ComponentWall /> : params.get("foundation") ? <><FoundationSpecimen system={system} name={params.get("foundation")!} compact={params.get("compact") === "1"} detail={params.get("detail") === "1"}/>{params.get("foundation")==="iconography"&&<DocumentedExample name="icon"/>}</> : <>
         {!component && <Foundations />}
         <ErrorBoundary>
           {component && !variantFixtures.has(component) && documentedExamples[`./generated/${system}/examples/${component}.tsx`] ? <DocumentedExample name={component}/> : <Controls only={component} />}

@@ -1,0 +1,46 @@
+apps/portal/connect.js
+  h_8f87e56e705bcf 18
+apps/portal/content.en.js
+  h_8f87e56e705bcf 99,106
+apps/portal/content.zh.js
+  h_8f87e56e705bcf 99,106
+apps/portal/index.html
+  h_8f87e56e705bcf 67
+en/apps/portal/index.html
+  h_8f87e56e705bcf 5,7,63,67
+guide/content.ts
+  h_8f87e56e705bcf 7,10,17-19,21,25-27,29
+guide/dsh-workflow.ts
+  h_8f87e56e705bcf 16
+packages/ui/site-seo.ts
+  h_8f87e56e705bcf 15-16,30,34,39,43,53
+public/llms.txt
+  h_8f87e56e705bcf 3,12-13,30,32
+scripts/check-search-discovery.mjs
+  h_8f87e56e705bcf 29
+scripts/release-metadata.mjs
+  h_8f87e56e705bcf 7
+scripts/verify-alpha-release.mjs
+  h_8f87e56e705bcf 15
+scripts/verify-language-pages.mjs
+  h_8f87e56e705bcf 45,55
+tests/keyword-workflows.test.mjs
+  h_8f87e56e705bcf 22
+tests/site-seo.test.mjs
+  h_8f87e56e705bcf 222-223,241,244,246,256
+workflows/content.ts
+  h_8f87e56e705bcf 50
+workflows/nonprofit.ts
+  h_8f87e56e705bcf 44-45,88-89
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "e560b3e11bf2584bca606469196d814092306bb2",
+  "prompts": {},
+  "humans": {
+    "h_8f87e56e705bcf": {
+      "author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

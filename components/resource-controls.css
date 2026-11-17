@@ -1,22 +1,12 @@
 /* Shared resource browsing controls. No source specimen styles cross this boundary. */
 .resource-toolbar { display:flex; flex-wrap:wrap; align-items:center; gap:8px 12px; margin-block:24px; }
-.resource-search { position:relative; display:block; flex:0 1 280px; min-width:0; max-width:300px; margin:0; }
-.resource-search-icon { position:absolute; left:12px; top:50%; transform:translateY(-50%); color:var(--hh-ink-muted); pointer-events:none; }
-.resource-search-label { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
-.resource-search input[type="search"] { width:100%; height:44px; padding:10px 12px 10px 36px; font:inherit; font-size:14px; line-height:22px; color:var(--hh-ink); background:transparent; border:0.5px solid var(--hh-line-strong); border-radius:var(--hh-radius-field); }
-.resource-search input[type="search"]::placeholder { color:var(--hh-ink-muted); }
 .resource-facets { display:flex; align-items:center; gap:12px; min-width:0; }
 .resource-result-count { margin-left:auto; font-size:12px; color:var(--hh-ink-muted); white-space:nowrap; font-variant-numeric:tabular-nums; }
 @media(max-width:700px) {
  .resource-toolbar { gap:4px 8px; margin-block:20px 24px; }
- .resource-search { flex:1 1 140px; max-width:300px; }
  .resource-facets { gap:12px; max-width:100%; }
  .resource-facets .archive-filter-trigger { padding-inline:12px; }
 }
-@media(max-width:540px) {
- .resource-toolbar:has(.resource-facets > button ~ button) .resource-search { flex-basis:100%; max-width:none; margin-bottom:0; }
-}
-@media(pointer:coarse) { .resource-search input[type="search"] { font-size:16px; } }
 .archive-filter-trigger { display:inline-flex; gap:8px; align-items:center; justify-content:space-between; min-height:44px; max-width:100%; padding:8px 10px; font:inherit; font-size:14px; font-weight:500; color:var(--hh-ink); background:transparent; border:0; border-radius:var(--hh-radius-field); cursor:pointer; }
 .archive-filter-trigger:hover,.archive-filter-trigger[data-state="open"] { background:var(--hh-bg-raised); }
 .archive-filter-trigger svg { flex:none; }
@@ -34,9 +24,6 @@
 .archive-filter-empty:empty { display:none; }
 @media(pointer:coarse) { .archive-filter-search { font-size:16px; } }
 
-/* Pointer entry is immediate; keyboard navigation retains its focus ring. */
-.resource-search input[type="search"][data-pointer-focus]:focus { outline:none; border-color:var(--hh-ink-muted); box-shadow:none; }
-.resource-search input[type="search"] { transition:border-color 150ms ease-out, background-color 150ms ease-out; }
 .archive-filter-trigger { transition:background-color 150ms ease-out, color 150ms ease-out; }
 .archive-filter-trigger svg { transition:transform 250ms ease-out; }
 .archive-filter-trigger[data-state="open"] svg { transform:rotate(180deg); }
@@ -44,7 +31,7 @@
 .archive-filter-popup[data-starting-style] { opacity:0; transform:translateY(-4px); }
 .archive-filter-popup[data-ending-style] { opacity:0; transform:translateY(-2px); transition-duration:150ms; }
 @media(prefers-reduced-motion:reduce) {
- .resource-search input[type="search"],.archive-filter-trigger,.archive-filter-trigger svg,.archive-filter-popup { transition:none; }
+ .archive-filter-trigger,.archive-filter-trigger svg,.archive-filter-popup { transition:none; }
 }
 
 .archive-filter-search { border-radius:var(--hh-radius-option); }
@@ -88,21 +75,3 @@
 .hh-catalog-popover .archive-filter-option + .archive-filter-option { margin-top:4px; }
 .hh-catalog-popover .archive-filter-option > span:first-child { min-width:0; overflow-wrap:break-word; }
 .hh-catalog-popover .archive-filter-count { text-align:end; }
-
-/* PinUI Search Card adapter: overlay expansion keeps the gallery stationary. */
-.resource-toolbar .hh-search-card { position:relative; height:44px; z-index:30; }
-.hh-search-card-surface { position:absolute; top:0; left:0; width:100%; background:var(--hh-bg-raised); border:.5px solid var(--hh-line-strong); border-radius:16px; overflow:hidden; }
-.hh-search-card:focus-within .hh-search-card-surface { box-shadow:0 8px 24px var(--hh-line); }
-.hh-search-card-bar { display:flex; align-items:center; padding-left:12px; min-height:44px; gap:8px; }
-.hh-search-card-bar > svg { flex:none; color:var(--hh-ink-muted); }
-.resource-search.hh-search-card input[type="search"] { min-width:0; flex:1; padding:10px 0; border:0; border-radius:0; background:transparent; outline-offset:-2px; box-shadow:none; }
-.hh-search-card input::-webkit-search-cancel-button { display:none; }
-.hh-search-card-bar button { display:grid; place-items:center; flex:none; width:44px; height:44px; padding:0; background:transparent; color:var(--hh-ink-muted); border:0; border-radius:12px; cursor:pointer; }
-.hh-search-card-bar button:focus-visible,.hh-search-card-results a:focus-visible { outline:2px solid var(--hh-ring); outline-offset:-3px; }
-.hh-search-card-results { overflow:hidden; }
-.hh-search-card-results p { margin:0; padding:12px; color:var(--hh-ink-muted); font-size:12px; }
-.hh-search-card-results ul { list-style:none; margin:0; padding:0 4px 4px; max-height:280px; overflow-y:auto; }
-.hh-search-card-results a { display:flex; align-items:center; justify-content:space-between; gap:12px; min-height:44px; padding:10px 12px; border-radius:12px; color:var(--hh-ink); font-size:14px; text-decoration:none; overflow-wrap:anywhere; }
-.hh-search-card-results a:hover,.hh-search-card-results a:focus-visible { background:var(--hh-bg-hover); text-decoration:none; }
-.hh-search-card input[type="search"]:focus { outline:none; box-shadow:none; }
-.hh-search-card-surface:has(input:focus-visible) { outline:2px solid var(--hh-ring); outline-offset:2px; }

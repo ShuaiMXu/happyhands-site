@@ -76,5 +76,4 @@
 .portal-footer a:is(:hover,:active,:focus-visible) { color:var(--hh-ink); text-decoration:none; }
 .portal-footer a:focus-visible { outline:2px solid var(--hh-ink); outline-offset:3px; }
 .portal-footer a .hh-icon { width:16px; height:16px; margin:0; }
-.portal-footer .footer-meta { display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px 24px; margin-top:24px; padding-inline-end:64px; }
-@media(max-width:620px) { .portal-footer .footer-meta { flex-direction:column; } }
+

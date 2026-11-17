@@ -18,7 +18,7 @@ for(const lang of ['zh','en']) for(const kind of ['guide','review','design']) {
   for(const id of ids) assert.ok(outline.includes(`href="#${id}"`),`missing ${id}`);
   assert.ok(html.includes('https://github.com/ShuaiMXu/happyhands/issues'));
   assert.ok(html.indexOf('class="wiki-help"')<html.indexOf('class="wiki-pagination"'));
-  assert.ok(html.indexOf('class="wiki-pagination"')<html.indexOf('class="guide-footer"'));
+  assert.ok(html.indexOf('class="wiki-pagination"')<html.indexOf('class="guide-footer'));
   if(kind==='guide') assert.ok(html.includes('rel="prev" href="/apps/portal/"'));
   const links=html.match(/class="wiki-page-scroll">([\s\S]*?)<\/div>/)[1];
   assert.equal((links.match(/<a /g)||[]).length,4);
@@ -50,7 +50,7 @@ test('narrow navigation has a no-JavaScript fallback before enhancement',()=>{
 
 test('footer offers real guide, resource and support destinations',()=>{
  const html=guideContent('en');
- const footer=html.match(/<footer class="guide-footer">([\s\S]*?)<\/footer>/)[1];
+ const footer=html.match(/<footer class="guide-footer[^"]*">([\s\S]*?)<\/footer>/)[1];
  assert.equal((footer.match(/class="wiki-footer-section"/g)||[]).length,1);
  assert.doesNotMatch(footer,/components\/\?provider=/,'Footer resource column removed');
  for(const href of ['/en/guide/','/en/ai-ui-review/','/en/ai-website-design/','/en/nonprofit-website-design/','/apps/setup/','/llms.txt']) assert.ok(footer.includes(`href="${href}"`),href);

@@ -10,7 +10,7 @@ import { Button } from "../packages/ui";
 import { ResourceCard, ResourceDetailHeader } from "./ResourcePresentation";
 import { ResourceToolbar } from "./ResourceToolbar";
 import { DesignComponentDemo } from "./DesignComponentDemo";
-import { savePreference } from "../packages/ui/site-preferences";
+import { applyThemePreference } from "../packages/ui/site-preferences";
 
 const inlinePreviews: Record<
   string,
@@ -24,7 +24,6 @@ const inlinePreviews: Record<
   "component:pin-ui/presence-cards": React.lazy(() => import("./pinui/PresenceCards")),
   "component:pin-ui/liquid-tabs": React.lazy(() => import("./pinui/LiquidTabs")),
   "component:pin-ui/copy-paste-pad": React.lazy(() => import("./pinui/CopyPastePad")),
-  "component:pin-ui/theme-switch": React.lazy(() => import("./pinui/ThemeSwitch")),
 };
 import "./collections.css";
 import { previewFor, sectionFor, resourceHref } from "./resource-directory";
@@ -321,6 +320,31 @@ export function CollectionsLibrary({
               </a>
             )}
           </div>
+          {previewFor(selected) && (
+            <div className="collections-theme">
+              <span>{zh ? "预览主题" : "Preview theme"}</span>
+              <div
+                className="collections-theme-options"
+                role="group"
+                aria-label={zh ? "预览主题" : "Preview theme"}
+              >
+                <button
+                  type="button"
+                  aria-pressed={previewTheme === "light"}
+                  onClick={() => applyThemePreference("light")}
+                >
+                  {zh ? "浅色" : "Light"}
+                </button>
+                <button
+                  type="button"
+                  aria-pressed={previewTheme === "dark"}
+                  onClick={() => applyThemePreference("dark")}
+                >
+                  {zh ? "深色" : "Dark"}
+                </button>
+              </div>
+            </div>
+          )}
           {copyError && <p role="alert">{copyError}</p>}
           {selected.installation && (
             <details className="collections-install">
@@ -353,9 +377,6 @@ export function CollectionsLibrary({
                       "directory-inline-preview" +
                       (selected.id.endsWith("/liquid-tabs")
                         ? " directory-inline-preview--tabs"
-                        : "") +
-                      (selected.id.endsWith("/theme-switch")
-                        ? " directory-inline-preview--switch"
                         : "")
                     }
                   >
@@ -368,10 +389,7 @@ export function CollectionsLibrary({
                     >
                       {React.createElement(inlinePreviews[selected.id], {
                         theme: previewTheme === "dark" ? "dark" : "light",
-                        onThemeChange: (next) => {
-                          document.documentElement.dataset.theme = next;
-                          savePreference("hh-theme", next);
-                        },
+onThemeChange: applyThemePreference,
                       })}
                     </React.Suspense>
                   </div>

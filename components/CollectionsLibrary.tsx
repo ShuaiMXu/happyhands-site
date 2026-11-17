@@ -10,6 +10,8 @@ import { Button } from "../packages/ui";
 import { ResourceCard, ResourceDetailHeader } from "./ResourcePresentation";
 import { ResourceToolbar } from "./ResourceToolbar";
 import { DesignComponentDemo } from "./DesignComponentDemo";
+
+const PresenceCards = React.lazy(() => import("./pinui/PresenceCards"));
 import "./collections.css";
 import { previewFor, sectionFor, resourceHref } from "./resource-directory";
 type Entry = {
@@ -330,18 +332,33 @@ export function CollectionsLibrary({
             </p>
           ) : (
             <>
-              {previewFor(selected) && (
-                <iframe
-                  ref={frame}
-                  className="directory-live-preview"
-                  title={zh ? "实际组件预览" : "Live component preview"}
-                  src={
-                    previewFor(selected) +
-                    `&theme=${previewTheme}`
-                  }
-                  sandbox="allow-scripts allow-same-origin"
-                />
-              )}
+              {previewFor(selected) &&
+                (selected.id === "component:pin-ui/presence-cards" ? (
+                  <div className="directory-inline-preview">
+                    <React.Suspense
+                      fallback={
+                        <p role="status">
+                          {zh ? "正在加载组件…" : "Loading component…"}
+                        </p>
+                      }
+                    >
+                      <PresenceCards
+                        theme={previewTheme === "dark" ? "dark" : "light"}
+                      />
+                    </React.Suspense>
+                  </div>
+                ) : (
+                  <iframe
+                    ref={frame}
+                    className="directory-live-preview"
+                    title={zh ? "实际组件预览" : "Live component preview"}
+                    src={
+                      previewFor(selected) +
+                      `&theme=${previewTheme}`
+                    }
+                    sandbox="allow-scripts allow-same-origin"
+                  />
+                ))}
               {selected.cover && (
                 <img
                   className="collections-preview"

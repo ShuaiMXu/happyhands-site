@@ -220,6 +220,11 @@ function App() {
           {!selected && (
             <>
               <ResourceToolbar
+                suggestions={
+                  lang === "zh"
+                    ? ["按钮", "卡片", "导航", "弹层"]
+                    : ["Buttons", "Cards", "Navigation", "Overlays"]
+                }
                 label={t("搜索组件", "Search components")}
                 placeholder={t("搜索", "Search")}
                 query={query}

@@ -250,6 +250,11 @@ export function ArchiveGallery({ lang }: { lang: string }) {
       ) : (
         <>
           <ResourceToolbar
+            suggestions={
+              zh
+                ? ["SaaS", "电商", "创意机构", "AI"]
+                : ["SaaS", "E-commerce", "Agencies", "AI"]
+            }
             label={zh ? "搜索设计参考" : "Search design references"}
             placeholder={
               zh ? "名称、类型、风格或字体" : "Name, type, style or font"

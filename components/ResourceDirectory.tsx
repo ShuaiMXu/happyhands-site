@@ -184,6 +184,17 @@ export function ResourceDirectory({
       className="collections-library resource-directory"
     >
       <ResourceToolbar
+        suggestions={
+          section === "design-md"
+            ? zh
+              ? ["SaaS", "电商", "创意机构", "AI"]
+              : ["SaaS", "E-commerce", "Agencies", "AI"]
+            : section === "systems"
+              ? ["Quartz", "Lime", "Sodium", "Glaze"]
+              : section === "cult-ui"
+                ? ["Button", "Card", "Form", "Modal"]
+                : undefined
+        }
         label={zh ? "搜索资源" : "Search resources"}
         placeholder={
           zh ? "搜索名称、用途或组件" : "Search names, tasks or components"

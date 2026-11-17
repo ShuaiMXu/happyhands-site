@@ -92,6 +92,7 @@ export function SystemLibrary({ lang }: { lang: string }) {
       {!selected && (
         <>
           <ResourceToolbar
+            suggestions={["Quartz", "Lime", "Sodium", "Glaze"]}
             label={t("搜索设计系统", "Search design systems")}
             placeholder={t("搜索", "Search")}
             query={query}

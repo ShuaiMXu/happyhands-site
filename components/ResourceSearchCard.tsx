@@ -93,6 +93,7 @@ export function ResourceSearchCard({
   onQueryChange,
   results,
   status,
+  suggestions: providedSuggestions,
 }: {
   label: string;
   placeholder: string;
@@ -100,6 +101,7 @@ export function ResourceSearchCard({
   onQueryChange: (value: string) => void;
   results?: SearchResult[];
   status: string;
+  suggestions?: string[];
 }) {
   const zh = /[\u3400-\u9fff]/.test(label);
   const [open, setOpen] = useState(false);
@@ -111,9 +113,12 @@ export function ResourceSearchCard({
   const id = useId();
   const reduced = useReducedMotion();
 
-  const suggestions = zh
-    ? ['落地页', '表单', '定价页', '设计系统']
-    : ['Landing page', 'Forms', 'Pricing', 'Design systems'];
+  const suggestions =
+    providedSuggestions && providedSuggestions.length > 0
+      ? providedSuggestions
+      : zh
+        ? ['落地页', '表单', '定价页', '设计系统']
+        : ['Landing page', 'Forms', 'Pricing', 'Design systems'];
 
   const q = query.trim();
   const filtering = !!q;

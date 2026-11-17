@@ -22,15 +22,22 @@ export function SystemStylePreview({
   system,
   lang,
   component = "",
+  foundation = "",
+  gallery = "",
   compact = false,
+  compactSpecimen = false,
 }: {
   system: string;
   lang: string;
   component?: string;
+  foundation?: string;
+  gallery?: "foundations" | "components" | "";
   compact?: boolean;
+  compactSpecimen?: boolean;
 }) {
   const frame = useRef<HTMLIFrameElement>(null);
-  const [height, setHeight] = useState(component ? 420 : 1600);
+  const initialHeight = component ? 420 : gallery === "foundations" ? 900 : 1600;
+  const [height, setHeight] = useState(initialHeight);
   const [expanded, setExpanded] = useState(false);
   const [theme, setTheme] = useState(
     document.documentElement.dataset.theme === "dark" ? "dark" : "light",
@@ -48,9 +55,9 @@ export function SystemStylePreview({
     return () => observer.disconnect();
   }, []);
   useEffect(() => {
-    setHeight(component ? 420 : 1600);
+    setHeight(component ? 420 : gallery === "foundations" ? 900 : 1600);
     setExpanded(false);
-  }, [system, component, theme]);
+  }, [system, component, foundation, gallery, theme]);
   useEffect(() => {
     const receive = (event: MessageEvent) => {
       if (
@@ -73,9 +80,9 @@ export function SystemStylePreview({
     <div className={`system-style-preview${clipped ? " is-compact" : ""}`}>
       <iframe
         ref={frame}
-        key={`${system}:${component}:${theme}`}
+        key={`${system}:${component}:${foundation}:${gallery}:${compactSpecimen}:${theme}`}
         title={`${system} ${lang === "zh" ? "实际样式预览" : "live style preview"}`}
-        src={`/systems/preview/?system=${system}&theme=${theme}${component ? `&component=${component}` : ""}`}
+        src={`/systems/preview/?system=${system}&theme=${theme}&lang=${lang}${component ? `&component=${component}` : ""}${foundation ? `&foundation=${foundation}` : ""}${gallery ? `&gallery=${gallery}` : ""}${compactSpecimen ? "&compact=1&detail=1" : ""}`}
         style={{ height }}
         loading="lazy"
       />

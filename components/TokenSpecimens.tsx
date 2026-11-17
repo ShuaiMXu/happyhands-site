@@ -10,11 +10,13 @@ export function TokenSpecimens({
   tokens,
   context,
   zh = false,
+  bare = false,
 }: {
   context?: string;
   content?: string;
   tokens?: SpecimenToken[];
   zh?: boolean;
+  bare?: boolean;
 }) {
   const all = useMemo(() => {
     if (tokens) return tokens;
@@ -44,19 +46,21 @@ export function TokenSpecimens({
       className="token-specimens"
       aria-label={zh ? "设计规范实物示例" : "Design token specimens"}
     >
-      <div className="token-specimens-toolbar">
-        <label>
-          {zh ? "查找设计变量" : "Find a token"}
-          <input
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            type="search"
-          />
-        </label>
-        <span>
-          {filtered.length} / {all.length}
-        </span>
-      </div>
+      {!bare && (
+        <div className="token-specimens-toolbar">
+          <label>
+            {zh ? "查找设计变量" : "Find a token"}
+            <input
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              type="search"
+            />
+          </label>
+          <span>
+            {filtered.length} / {all.length}
+          </span>
+        </div>
+      )}
       <div className="token-specimens-grid">
         {filtered.map((t) => {
           const value = resolveToken(t.value, values);

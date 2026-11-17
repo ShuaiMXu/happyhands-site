@@ -123,3 +123,140 @@ body {
 .foundation-specimen{min-width:0}.foundation-specimen h1{font-size:24px;line-height:1.4;margin:0 0 24px}.foundation-rule{margin-top:28px;line-height:1.6}.foundation-correct,.foundation-wrong{padding:16px;border:.5px solid currentColor;overflow-wrap:anywhere;line-height:1.5;font-family:monospace}.foundation-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:var(--space-4,16px);padding:24px 0}.foundation-grid span{display:grid;place-items:center;min-height:160px;background:color-mix(in srgb,currentColor 12%,transparent);border:.5px solid currentColor}
 .foundation-grid{grid-template-columns:minmax(0,var(--sidebar)) minmax(0,1fr) minmax(0,var(--toc));gap:var(--gutter);max-width:var(--container);overflow:hidden}.foundation-grid header{grid-column:1/-1;height:var(--topbar);border:.5px solid currentColor;display:grid;place-items:center}.foundation-grid aside,.foundation-grid article{min-width:0;min-height:160px;padding:12px;border:.5px solid currentColor;overflow-wrap:anywhere}.foundation-grid article{max-width:var(--measure)}@media(max-width:640px){.foundation-grid{grid-template-columns:minmax(0,1fr);gap:var(--gutter-sm)}}
 .foundation-token-details{margin-block:24px}.foundation-token-details summary{cursor:pointer;min-height:44px;display:flex;align-items:center;border-bottom:.5px solid currentColor}.foundation-token-details summary:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+
+/* Compact specimen walls used by the design-system book. */
+.gallery-root {
+  max-width: none;
+  padding: 20px;
+  gap: 0;
+}
+.foundation-wall,
+.component-wall {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  align-items: start;
+}
+.foundation-wall-item,
+.component-wall-item {
+  min-width: 0;
+  overflow: hidden;
+  padding: 16px;
+  border: 0.5px solid var(--demo-line);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--demo-bg) 92%, var(--demo-ink));
+}
+.foundation-wall-item .foundation-specimen h1 {
+  margin: 0 0 10px;
+  font-size: 15px;
+  line-height: 1.3;
+}
+.foundation-wall .token-specimens {
+  margin: 0;
+}
+.foundation-wall .token-specimens-toolbar {
+  display: none;
+}
+.foundation-wall .token-specimens-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+}
+.foundation-wall .token-specimens-grid article {
+  padding: 7px;
+  border-radius: 5px;
+}
+.foundation-wall .token-sample-caption {
+  margin-top: 5px;
+  gap: 1px;
+  font-size: 9px;
+  line-height: 1.35;
+}
+.foundation-wall .token-sample-caption small {
+  font-size: 8px;
+}
+.foundation-wall .token-sample-color {
+  height: 28px;
+}
+.foundation-wall .token-sample-box {
+  width: 44px;
+  height: 28px;
+  margin: 2px 0;
+}
+.foundation-wall .token-sample-type {
+  min-height: 28px;
+  font-size: 10px;
+  line-height: 1.3;
+}
+.foundation-wall .token-sample-measure {
+  height: 30px;
+}
+.foundation-wall .token-sample-motion {
+  min-width: 90px;
+  min-height: 38px;
+  padding: 6px;
+  font-size: 9px;
+}
+.foundation-wall .token-sample-motion span {
+  width: 12px;
+  height: 12px;
+}
+.component-wall-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.component-wall-head h2 {
+  margin: 0;
+  color: var(--demo-muted);
+  font: 500 10px/1.4 var(--demo-mono, monospace);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.component-wall-copy {
+  flex: none;
+  min-height: 26px;
+  padding: 0 8px;
+  border: 0.5px solid var(--demo-line);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--demo-muted);
+  font: 500 9px/1 var(--demo-mono, monospace);
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.component-wall-copy:hover {
+  color: var(--demo-ink);
+  border-color: var(--demo-ink);
+}
+.component-wall-item .demo-section {
+  gap: 10px;
+}
+.component-wall-item .demo-label {
+  display: none;
+}
+.component-wall-item .demo-row,
+.component-wall-item .demo-fields {
+  gap: 10px;
+}
+.component-wall-item .demo-copy {
+  padding: 0;
+}
+.component-wall-item .demo-fields {
+  max-width: none;
+}
+.component-wall-item > .demo-section + .demo-section {
+  margin-top: 12px;
+}
+@media (max-width: 640px) {
+  .gallery-root {
+    padding: 14px;
+  }
+  .foundation-wall,
+  .component-wall {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+.demo-field { display: grid; gap: 8px; }
+.compact-detail .demo-section { gap: 12px; }

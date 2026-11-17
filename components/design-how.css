@@ -177,6 +177,7 @@
   outline: 2px solid var(--hh-ring);
   outline-offset: 4px;
 }
+.design-how-library :is(button, input) { font-family: var(--hh-font-sans); }
 .design-how-page {
   padding: 24px var(--page-inset) 48px;
 }
@@ -415,31 +416,65 @@ body:has(.design-how-library) .library-heading {
 }
 .system-book-list--three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .system-book-list--two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-.system-book-list a {
+.system-book-entry {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: stretch;
+  border-bottom: 0.5px solid var(--hh-line);
+  background: transparent;
+}
+.system-book-entry:hover { background: var(--hh-bg-raised); }
+.system-book-entry.is-open {
+  background: var(--hh-bg-raised);
+  color: var(--hh-ink);
+}
+.system-book-entry-open {
+  appearance: none;
+  width: 100%;
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;
   gap: 10px;
   align-items: baseline;
   min-height: 40px;
-  padding: 9px 0;
-  border-bottom: 0.5px solid var(--hh-line);
+  padding: 9px 4px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
   color: var(--hh-ink);
+  font: inherit;
   font-size: 13px;
   line-height: 1.45;
+  text-align: start;
+  cursor: pointer;
 }
-.system-book-list--two a {
+.system-book-entry-open:hover { color: var(--hh-brand-text); }
+.system-book-entry.is-open .system-book-entry-open { font-weight: 500; }
+.system-book-list--two .system-book-entry-open {
   grid-template-columns: minmax(0, 1fr) auto;
   min-height: 44px;
 }
-.system-book-list a:hover { color: var(--hh-brand-text); }
-.system-book-list a > span:last-child {
+.system-book-entry-toggle {
   color: var(--hh-ink-subtle);
   font-family: var(--hh-font-mono);
   font-size: 11px;
 }
-.system-book-list-index {
+.system-book-copy {
+  align-self: center;
+  flex: none;
+  min-height: 28px;
+  margin-inline: 2px 4px;
+  padding: 0 8px;
+  border: 0.5px solid var(--hh-line);
+  border-radius: var(--hh-radius-sm);
+  background: var(--hh-bg);
   color: var(--hh-ink-subtle);
-  font: 10px var(--hh-font-mono);
+  font: 10px/1 var(--hh-font-mono);
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+.system-book-copy:hover {
+  color: var(--hh-ink);
+  border-color: var(--hh-line-strong);
 }
 .system-book-component-grid {
   display: grid;
@@ -447,20 +482,19 @@ body:has(.design-how-library) .library-heading {
   gap: 0 24px;
   border-top: 0.5px solid var(--hh-line);
 }
-.system-book-component-grid a {
+.system-book-component-grid .system-book-entry-open {
   display: flex;
   justify-content: space-between;
   gap: 8px;
   align-items: center;
   min-height: 34px;
-  padding: 7px 0;
-  border-bottom: 0.5px solid var(--hh-line);
+  padding: 7px 4px;
   color: var(--hh-ink);
   font-size: 13px;
   line-height: 1.4;
 }
-.system-book-component-grid a:hover { color: var(--hh-brand-text); }
-.system-book-component-grid a > span:first-child {
+.system-book-component-grid .system-book-entry-open:hover { color: var(--hh-brand-text); }
+.system-book-component-grid .system-book-entry-open > span:first-child {
   min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -604,6 +638,83 @@ body:has(.design-how-library) .library-heading {
   text-transform: uppercase;
 }
 
+.system-book-text-button {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--hh-ink-muted);
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+.system-book-text-button:hover { color: var(--hh-ink); text-decoration: underline; text-underline-offset: 4px; }
+.system-book-detail {
+  margin-top: 24px;
+  padding: 22px 24px 24px;
+  border: 0.5px solid var(--hh-line);
+  border-radius: var(--hh-radius-card);
+  background: var(--hh-bg-raised);
+  scroll-margin-top: 96px;
+}
+.system-book-detail-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: flex-start;
+  padding-bottom: 14px;
+  border-bottom: 0.5px solid var(--hh-line);
+}
+.system-book-detail-head h3 {
+  margin: 0;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+  font-weight: 500;
+}
+.system-book-close {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  flex: none;
+  min-height: 34px;
+  padding: 0 10px;
+  border: 0.5px solid var(--hh-line-strong);
+  border-radius: var(--hh-radius-sm);
+  background: var(--hh-bg);
+  color: var(--hh-ink);
+  font: 12px var(--hh-font-sans);
+  cursor: pointer;
+}
+.system-book-close:hover { background: var(--hh-bg-hover); }
+.system-book-detail > .system-style-preview {
+  margin: 18px 0;
+}
+.system-book-detail .design-how-install {
+  margin-bottom: 18px;
+}
+.system-book-detail .design-how-prose {
+  margin-top: 18px;
+}
+.system-book-detail .design-how-prose :is(h2, h3, h4, h5, h6):first-child {
+  margin-top: 0;
+}
+.system-book-detail-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 0.5px solid var(--hh-line);
+}
+.system-book-detail-actions .hh-button {
+  margin: 0;
+}
+
 @media (max-width: 1100px) {
   .system-book { grid-template-columns: 190px minmax(0, 1fr); gap: 32px; }
   .system-book-component-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
@@ -642,4 +753,12 @@ body:has(.design-how-library) .library-heading {
 }
 @media (max-width: 420px) {
   .system-book-component-grid { grid-template-columns: minmax(0, 1fr); }
+}
+
+/* The book is a reading surface: keep the shared header out of the text. */
+body:has(.system-book) header.hh-site-header.hh-glass-header {
+  background: var(--hh-bg-raised);
+}
+body:has(.system-book) header.hh-site-header.hh-glass-header > .liquid-glass-surface {
+  display: none;
 }

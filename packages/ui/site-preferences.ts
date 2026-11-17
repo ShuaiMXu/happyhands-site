@@ -41,3 +41,14 @@ if(typeof document!=='undefined') document.addEventListener('click',event=>{
  const url=new URL(link.getAttribute('href')!,location.href);
  if(url.origin===location.origin && hasLanguageRoute(url.pathname) && readLanguage()==='en') link.setAttribute('href',languagePath(url.pathname,'en')+url.search+url.hash);
 },true);
+
+/** Apply a theme everywhere: storage, the document, and live React header state. */
+export function applyThemePreference(next: "light" | "dark") {
+  savePreference("hh-theme", next);
+  if (typeof document === "undefined") return;
+  const root = document.documentElement;
+  root.dataset.theme = next;
+  root.dataset.hhTheme = next;
+  root.style.colorScheme = next;
+  window.dispatchEvent(new CustomEvent("hh:theme-change", { detail: next }));
+}

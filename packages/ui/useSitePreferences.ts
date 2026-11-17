@@ -25,6 +25,14 @@ export function useSitePreferences({embeddedLanguage = false}: {embeddedLanguage
     return () => window.removeEventListener('message', receive);
   }, [embedded]);
   useEffect(() => {
+    const onChange = (event: Event) => {
+      const next = (event as CustomEvent).detail;
+      if (next === "light" || next === "dark") setTheme(next);
+    };
+    window.addEventListener("hh:theme-change", onChange);
+    return () => window.removeEventListener("hh:theme-change", onChange);
+  }, []);
+  useEffect(() => {
     const media = matchMedia("(prefers-color-scheme: dark)");
     const sync = () => {
       if (!embedded) setLang(readLanguage());

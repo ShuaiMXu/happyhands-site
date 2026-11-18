@@ -1,0 +1,18 @@
+components/design-how.css
+  h_8f87e56e705bcf 359-361,411,419,462-463,465,473,478,510-512,654,720-721,735,758-763
+components/resource-presentation.css
+  h_8f87e56e705bcf 172,174,181,208-209
+systems/preview/preview.css
+  h_8f87e56e705bcf 133,139-142,152-157,229-230,240,265,268-270
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "faeb021fbc335776c1c401d1963b42ad95a40c7c",
+  "prompts": {},
+  "humans": {
+    "h_8f87e56e705bcf": {
+      "author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

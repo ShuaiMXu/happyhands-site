@@ -130,12 +130,15 @@ body {
   padding: 20px;
   gap: 0;
 }
-.foundation-wall,
-.component-wall {
+.foundation-wall {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
   align-items: start;
+}
+.component-wall {
+  columns: 2;
+  column-gap: 14px;
 }
 .foundation-wall-item,
 .component-wall-item {
@@ -145,6 +148,12 @@ body {
   border: 0.5px solid var(--demo-line);
   border-radius: 10px;
   background: color-mix(in srgb, var(--demo-bg) 92%, var(--demo-ink));
+}
+.component-wall-item {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 14px;
+  break-inside: avoid;
 }
 .foundation-wall-item .foundation-specimen h1 {
   margin: 0 0 10px;
@@ -217,8 +226,8 @@ body {
 .component-wall-copy {
   flex: none;
   min-height: 26px;
-  padding: 0 8px;
-  border: 0.5px solid var(--demo-line);
+  padding: 0 6px;
+  border: 0;
   border-radius: 4px;
   background: transparent;
   color: var(--demo-muted);
@@ -228,7 +237,7 @@ body {
 }
 .component-wall-copy:hover {
   color: var(--demo-ink);
-  border-color: var(--demo-ink);
+  background: color-mix(in srgb, var(--demo-ink) 6%, transparent);
 }
 .component-wall-item .demo-section {
   gap: 10px;
@@ -253,9 +262,11 @@ body {
   .gallery-root {
     padding: 14px;
   }
-  .foundation-wall,
-  .component-wall {
+  .foundation-wall {
     grid-template-columns: minmax(0, 1fr);
+  }
+  .component-wall {
+    columns: 1;
   }
 }
 .demo-field { display: grid; gap: 8px; }

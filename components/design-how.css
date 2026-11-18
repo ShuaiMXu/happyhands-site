@@ -338,7 +338,6 @@ body:has(.design-how-library) .library-heading {
   gap: 2px;
   margin: 22px 0 0;
   padding-top: 14px;
-  border-top: 0.5px solid var(--hh-line);
   color: var(--hh-ink-subtle);
   font-size: 11px;
   line-height: 1.6;
@@ -357,15 +356,13 @@ body:has(.design-how-library) .library-heading {
   max-width: 940px;
 }
 .system-book-section {
-  padding: 0 0 40px;
-  margin: 0 0 40px;
-  border-bottom: 0.5px solid var(--hh-line);
-  scroll-margin-top: 88px;
+  padding: 0 0 32px;
+  margin: 0 0 32px;
+  scroll-margin-top: 0;
 }
 .system-book-section:last-of-type {
   padding-bottom: 24px;
   margin-bottom: 0;
-  border-bottom: 0;
 }
 .system-book-heading {
   display: grid;
@@ -411,8 +408,7 @@ body:has(.design-how-library) .library-heading {
 .system-book-preview-actions a:hover { color: var(--hh-ink); }
 .system-book-list {
   display: grid;
-  gap: 0 24px;
-  border-top: 0.5px solid var(--hh-line);
+  gap: 2px 24px;
 }
 .system-book-list--three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .system-book-list--two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -420,7 +416,7 @@ body:has(.design-how-library) .library-heading {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: stretch;
-  border-bottom: 0.5px solid var(--hh-line);
+  border-radius: var(--hh-radius-sm);
   background: transparent;
 }
 .system-book-entry:hover { background: var(--hh-bg-raised); }
@@ -463,10 +459,10 @@ body:has(.design-how-library) .library-heading {
   flex: none;
   min-height: 28px;
   margin-inline: 2px 4px;
-  padding: 0 8px;
-  border: 0.5px solid var(--hh-line);
+  padding: 0 6px;
+  border: 0;
   border-radius: var(--hh-radius-sm);
-  background: var(--hh-bg);
+  background: transparent;
   color: var(--hh-ink-subtle);
   font: 10px/1 var(--hh-font-mono);
   letter-spacing: 0.02em;
@@ -474,13 +470,12 @@ body:has(.design-how-library) .library-heading {
 }
 .system-book-copy:hover {
   color: var(--hh-ink);
-  border-color: var(--hh-line-strong);
+  background: var(--hh-bg-hover);
 }
 .system-book-component-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0 24px;
-  border-top: 0.5px solid var(--hh-line);
+  gap: 2px 24px;
 }
 .system-book-component-grid .system-book-entry-open {
   display: flex;
@@ -512,9 +507,9 @@ body:has(.design-how-library) .library-heading {
   justify-content: space-between;
   gap: 24px;
   align-items: center;
-  padding: 18px 0;
-  border-top: 0.5px solid var(--hh-line);
-  border-bottom: 0.5px solid var(--hh-line);
+  padding: 20px;
+  border-radius: var(--hh-radius-card);
+  background: var(--hh-bg-sunken);
 }
 .system-book-download h3 {
   margin: 0 0 4px;
@@ -546,11 +541,9 @@ body:has(.design-how-library) .library-heading {
   gap: 8px;
   align-items: baseline;
   padding-inline-start: 18px;
-  border-inline-start: 0.5px solid var(--hh-line);
 }
 .system-book-stats > div:first-child {
   padding-inline-start: 0;
-  border-inline-start: 0;
 }
 .system-book-stats dt {
   color: var(--hh-ink-subtle);
@@ -658,7 +651,7 @@ body:has(.design-how-library) .library-heading {
   border: 0.5px solid var(--hh-line);
   border-radius: var(--hh-radius-card);
   background: var(--hh-bg-raised);
-  scroll-margin-top: 96px;
+  scroll-margin-top: 16px;
 }
 .system-book-detail-head {
   display: flex;
@@ -724,8 +717,8 @@ body:has(.design-how-library) .library-heading {
   .system-book { grid-template-columns: minmax(0, 1fr); gap: 20px; }
   .system-book-toc {
     position: static;
-    padding-bottom: 14px;
-    border-bottom: 0.5px solid var(--hh-line);
+    margin-top: 24px;
+    padding-bottom: 0;
   }
   .system-book-toc nav {
     display: flex;
@@ -739,7 +732,7 @@ body:has(.design-how-library) .library-heading {
     border: 0;
   }
   .system-book-toc-meta, .system-book-top { display: none; }
-  .system-book-section { padding-bottom: 32px; margin-bottom: 32px; }
+  .system-book-section { padding-bottom: 24px; margin-bottom: 32px; }
   .design-how-layout { gap: 20px; }
 }
 @media (max-width: 700px) {
@@ -761,4 +754,10 @@ body:has(.system-book) header.hh-site-header.hh-glass-header {
 }
 body:has(.system-book) header.hh-site-header.hh-glass-header > .liquid-glass-surface {
   display: none;
+}
+
+
+/* Book pages use the shared sticky header height for anchor targets. */
+html:has(.system-book) {
+  scroll-padding-top: 64px;
 }

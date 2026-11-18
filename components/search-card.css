@@ -10,7 +10,6 @@
 .resource-search.psearch {
   --psearch-card: var(--hh-bg-raised);
   --psearch-card-ring: var(--hh-line);
-  --psearch-card-shadow: var(--hh-shadow-float);
   --psearch-panel: var(--hh-bg-raised);
   --psearch-panel-border: var(--hh-line);
   --psearch-text: var(--hh-ink);
@@ -39,7 +38,6 @@
 }
 
 html[data-theme="dark"] .resource-search.psearch {
-  --psearch-card-shadow: var(--hh-shadow-float);
 }
 
 
@@ -69,7 +67,7 @@ html[data-theme="dark"] .resource-search.psearch {
   overflow: hidden;
   border-radius: 16px;
   background: var(--psearch-card);
-  box-shadow: var(--psearch-card-shadow), 0 0 0 1px var(--psearch-card-ring);
+  box-shadow: 0 0 0 1px var(--psearch-card-ring);
   cursor: text;
 }
 

@@ -1,3 +1,4 @@
+import { loadDirectoryData } from "./resource-directory-data";
 import {isSystemEntry,systemEntryName} from "./platform-directory";
 import React, { useEffect, useMemo, useState } from "react";
 import { Button } from "../packages/ui";
@@ -69,17 +70,11 @@ export function ResourceDirectory({
   useEffect(() => {
     const c = new AbortController();
     setError(false);
-    const json = (path: string) =>
-      fetch(path, { signal: c.signal }).then((r) => {
-        if (!r.ok) throw Error();
-        return r.json();
-      });
-    Promise.all([
-      json("/resources/v1/index.json"),
-      json("/resources/v1/covers.json"),
-      json("/design-archive/index.json"),
-    ])
-      .then(([catalog, images, archive]) => {
+    loadDirectoryData(selected, c.signal)
+      .then((data) => {
+        // Detail routes are owned by CollectionsLibrary, not the hidden list.
+        if (!data || c.signal.aborted) return;
+        const [catalog, images, archive] = data;
         setRows(
           randomizeArchive<Row & { slug: string }>(
             catalog.resources.map((r: Row) => ({ ...r, slug: r.id })),
@@ -97,7 +92,7 @@ export function ResourceDirectory({
         if (e.name !== "AbortError") setError(true);
       });
     return () => c.abort();
-  }, [retry, zh]);
+  }, [retry, zh, selected]);
   useEffect(
     () => onStateChange?.({ query, filter, style, type, page }),
     [query, filter, style, type, page, onStateChange],

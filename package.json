@@ -23,6 +23,7 @@
     "catalog:sync": "node scripts/sync-cult-registry.mjs",
     "predev": "npm run ui:build && npm run catalog:build && npm run systems:previews",
     "test:components:browser": "node tests/component-library-browser.mjs",
+    "test:components:requests": "node tests/component-request-budget-browser.mjs",
     "test:components": "npm run catalog:build && node --test tests/component-catalog.test.mjs",
     "verify:alpha": "node --import tsx scripts/verify-alpha-release.mjs && node scripts/verify-language-pages.mjs",
     "test:systems:browser": "node tests/design-system-reference-browser.mjs",
@@ -49,7 +50,7 @@
     "test:archive": "node --import tsx --import ./tests/helpers/register-css.mjs --test tests/archive-catalog.test.ts tests/design-archive.test.mjs tests/designmd-document.test.ts tests/design-demo-theme.test.ts tests/component-completeness.test.ts tests/reference-specimen.test.tsx",
     "test:collections": "node --test tests/collections.test.mjs",
     "test:collections:browser": "node tests/collections-browser.mjs",
-    "test:resources:directory": "node --import tsx --test tests/resource-directory.test.ts",
+    "test:resources:directory": "node --import tsx --test tests/resource-directory.test.ts tests/resource-directory-data.test.mjs",
     "test:resources:specimens": "node --import tsx --test tests/specimen-model.test.ts tests/platform-directory.test.ts",
     "test:resources:search": "node --import tsx --test tests/resource-search-card-events.test.mjs"
   },

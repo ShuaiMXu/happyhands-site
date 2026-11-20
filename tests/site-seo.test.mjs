@@ -44,8 +44,10 @@ test('shared portal renderer provides real content in both languages without bro
     for(const id of ['design-resources'])assert.equal((html.match(new RegExp(`id="${id}"`,'g'))||[]).length,1,id);
     assert.ok(!html.includes('pnpm workbench'));
     assert.ok(!html.includes('homepage-case'));
-    assert.equal((html.match(/role="tab"/g)||[]).length,4);
-    for(const id of ['design-md','systems','cult-ui','setup']){
+    assert.equal((html.match(/role="tab"/g)||[]).length,3);
+    assert.doesNotMatch(html,/feed-(?:tab|panel)-design-md|provider=design-md/);
+    assert.match(html,/id="feed-tab-systems"[^>]*aria-selected="true"/);
+    for(const id of ['systems','cult-ui','setup']){
       assert.ok(html.includes(`id="feed-tab-${id}"`));
       assert.ok(html.includes(`id="feed-panel-${id}"`));
     }

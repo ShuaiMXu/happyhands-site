@@ -27,6 +27,7 @@ const inlinePreviews: Record<
 };
 import "./collections.css";
 import { previewFor, sectionFor, resourceHref } from "./resource-directory";
+import { designMdCatalogEnabled } from "../packages/ui/resource-navigation";
 type Entry = {
   id: string;
   name: string;
@@ -128,6 +129,7 @@ export function CollectionsLibrary({
           !Array.isArray(v.collections)
         )
           throw Error();
+        if (!designMdCatalogEnabled) v.resources = v.resources.filter((r: Entry) => r.type !== "design-md");
         setCatalog(v);
         if (initialResource)
           setSelected(

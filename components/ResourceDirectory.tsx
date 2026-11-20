@@ -1,3 +1,4 @@
+import { designMdCatalogEnabled, isDesignMdCollection } from "../packages/ui/resource-navigation";
 import { loadDirectoryData } from "./resource-directory-data";
 import {isSystemEntry,systemEntryName} from "./platform-directory";
 import React, { useEffect, useMemo, useState } from "react";
@@ -57,10 +58,10 @@ export function ResourceDirectory({
     [retry, setRetry] = useState(0),
     [query, setQuery] = useState(initialState.query || ""),
     [filter, setFilter] = useState(
-      () =>
-        initialState.filter ||
-        new URLSearchParams(location.search).get("collection") ||
-        "",
+      () => {
+        const collection = initialState.filter || new URLSearchParams(location.search).get("collection");
+        return !designMdCatalogEnabled && isDesignMdCollection(collection) ? "" : collection || "";
+      },
     ),
     [style, setStyle] = useState(initialState.style || ""),
     [type, setType] = useState(initialState.type || ""),
@@ -70,7 +71,7 @@ export function ResourceDirectory({
   useEffect(() => {
     const c = new AbortController();
     setError(false);
-    loadDirectoryData(selected, c.signal)
+    loadDirectoryData(selected, c.signal, fetch, section === "design-md")
       .then((data) => {
         // Detail routes are owned by CollectionsLibrary, not the hidden list.
         if (!data || c.signal.aborted) return;
@@ -81,7 +82,7 @@ export function ResourceDirectory({
           ),
         );
         setCovers(images);
-        setArchives(archive);
+        setArchives(archive || []);
         setLabels(
           Object.fromEntries(
             catalog.collections.map((r: any) => [r.id, zh ? r.name : r.nameEn]),
@@ -92,7 +93,7 @@ export function ResourceDirectory({
         if (e.name !== "AbortError") setError(true);
       });
     return () => c.abort();
-  }, [retry, zh, selected]);
+  }, [retry, zh, selected, section]);
   useEffect(
     () => onStateChange?.({ query, filter, style, type, page }),
     [query, filter, style, type, page, onStateChange],

@@ -10,7 +10,8 @@ const browser = await chromium.launch(process.env.BROWSER_PATH
 const reports = [];
 await mkdir(output, { recursive: true });
 const detail = '/components/?provider=cult-ui&resource=component%3Ameridian-mono-button';
-const listPaths = ['/resources/v1/index.json', '/resources/v1/covers.json', '/design-archive/index.json'];
+const listPaths = ['/resources/v1/index.json', '/resources/v1/covers.json'];
+const archivePath = '/design-archive/index.json';
 const previewPath = path => /^\/(components\/(preview|pinui-preview)|systems\/preview)(\/|$)/.test(path);
 
 try {
@@ -38,6 +39,7 @@ try {
       return batch;
     }
     function noUnopenedPreviews(batch) {
+      assert.ok(!batch.some(r => r.path === archivePath), "unrelated browsing must not request the archive");
       assert.deepEqual(batch.filter(r => r.childFrame || previewPath(r.path)), [], 'list must not request unopened preview documents or their child assets');
     }
     async function renderedPreview() {
@@ -71,7 +73,7 @@ try {
       await settle();
       const opened = record('open-detail', from);
       assert.equal(opened.filter(r => r.path === listPaths[0]).length, 1, 'detail catalog has one owner');
-      assert.equal(opened.filter(r => listPaths.slice(1).includes(r.path)).length, 0, 'detail must not load hidden-list covers/archive');
+      assert.equal(opened.filter(r => [...listPaths.slice(1), archivePath].includes(r.path)).length, 0, 'detail must not load hidden-list covers/archive');
       assert.ok(opened.some(r => previewPath(r.path)), 'explicit open loads a preview');
       await page.screenshot({ path: `${output}/${width}-detail.png` });
       from = requests.length;
@@ -92,7 +94,7 @@ try {
       await direct.frameLocator('.directory-live-preview').locator('button').first().waitFor({ state: 'visible' });
       await direct.waitForLoadState('networkidle');
       assert.equal(directRequests.filter(path => path === listPaths[0]).length, 1);
-      assert.equal(directRequests.filter(path => listPaths.slice(1).includes(path)).length, 0);
+      assert.equal(directRequests.filter(path => [...listPaths.slice(1), archivePath].includes(path)).length, 0);
       report.phases.push({ name: 'deep-link', paths: directRequests });
       report.pass = true;
       await directContext.close();

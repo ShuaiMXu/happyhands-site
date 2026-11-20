@@ -1,6 +1,7 @@
 import {setupLiquidNavigation} from '../../packages/ui/liquid-navigation';
 import { archiveCover } from "../../components/archive-catalog";
 import {
+  designMdCatalogEnabled,
   resourceSections,
   resourceTools,
 } from "../../packages/ui/resource-navigation";
@@ -65,12 +66,12 @@ export function resourceFeed(lang) {
       .join("")}</div></div>
     <div data-feed-tools>${resourceTools.map((tool) => `<section class="resource-tool-panel" role="tabpanel" id="feed-panel-${tool.id}" aria-labelledby="feed-tab-${tool.id}" hidden></section>`).join("")}</div>
     <div data-feed-controls></div>
-    <div class="feed-collection" role="tabpanel" id="feed-panel-design-md" aria-labelledby="feed-tab-design-md"><div class="feed-grid">${randomizeArchive(
+    ${designMdCatalogEnabled ? `<div class="feed-collection" role="tabpanel" id="feed-panel-design-md" aria-labelledby="feed-tab-design-md"><div class="feed-grid">${randomizeArchive(
       references,
     )
       .map((item) => referenceCard(item, lang))
-      .join("")}</div></div>
-    <div class="feed-collection" role="tabpanel" id="feed-panel-systems" aria-labelledby="feed-tab-systems" hidden><div class="feed-grid">${systems.map((id) => `<a class="feed-item" href="${lang === "en" ? "/en" : ""}/components/?provider=systems&system=${id}"><div class="feed-art feed-system"><img src="/system-covers/${id}.png" alt="" loading="lazy" width="1500" height="938"></div><div class="feed-caption"><h3>${id === "happyhands" ? "HappyHands" : id.charAt(0).toUpperCase() + id.slice(1)}</h3></div></a>`).join("")}</div></div>
+      .join("")}</div></div>` : ""}
+    <div class="feed-collection" role="tabpanel" id="feed-panel-systems" aria-labelledby="feed-tab-systems"${designMdCatalogEnabled ? " hidden" : ""}><div class="feed-grid">${systems.map((id) => `<a class="feed-item" href="${lang === "en" ? "/en" : ""}/components/?provider=systems&system=${id}"><div class="feed-art feed-system"><img src="/system-covers/${id}.png" alt="" loading="lazy" width="1500" height="938"></div><div class="feed-caption"><h3>${id === "happyhands" ? "HappyHands" : id.charAt(0).toUpperCase() + id.slice(1)}</h3></div></a>`).join("")}</div></div>
     <div class="feed-collection" role="tabpanel" id="feed-panel-cult-ui" aria-labelledby="feed-tab-cult-ui" hidden><div class="feed-grid">${components.map(([id, title]) => componentCard([id, title], lang)).join("")}</div></div>
   </section>`;
 }
@@ -104,7 +105,9 @@ export function setupResourceFeed(
   const tools = createRoot(root.querySelector("[data-feed-tools]"));
   root.querySelector("[data-feed-controls]").hidden = true;
   const states = structuredClone(previous.states || {});
-  let active = previous.active || "design-md";
+  let active = tabs.some(tab => tab.dataset.feedTab === previous.active)
+    ? previous.active
+    : tabs[0].dataset.feedTab;
   const activate = (id) => {
     active = id;
     for (const tab of tabs) {

@@ -3,6 +3,7 @@ import "../packages/ui/pinui/site-footer.css";
 import {ResourceDirectory} from './ResourceDirectory';
 import { HistorySafeFrame } from "../packages/ui/HistorySafeFrame";
 import {ResourceToolPanels} from "../packages/ui/ResourceToolPanels";
+import { designMdCatalogEnabled, isDesignMdCollection, isDesignMdProvider } from "../packages/ui/resource-navigation";
 import {ResourceNavigation} from "../packages/ui/ResourceNavigation";
 import "../packages/ui/resource-navigation.css";
 import { Textarea } from "../packages/ui";
@@ -54,10 +55,10 @@ if (new URLSearchParams(location.search).get('provider') === 'studio') location.
 function App() {
   const readProvider = () => {
     const value = new URLSearchParams(location.search).get("provider");
-    if(value==='collections'){const collection=new URLSearchParams(location.search).get('collection')||'';return ['registry-own','brand-registry','cult-ui'].includes(collection)?'cult-ui':['design-archive','designmd-archive','ottermind'].includes(collection)?'design-md':'systems';}
+    if(value==='collections'){const collection=new URLSearchParams(location.search).get('collection')||'';return ['registry-own','brand-registry','cult-ui'].includes(collection)?'cult-ui':isDesignMdCollection(collection)&&designMdCatalogEnabled?'design-md':'systems';}
     if(value === "studio" || value === "setup") return value;
-    return value === "kage" || value === "refero" || value === "design-md"
-      ? "design-md"
+    return isDesignMdProvider(value)
+      ? (designMdCatalogEnabled ? "design-md" : "systems")
       : value === "systems"
         ? "systems"
         : "cult-ui";
@@ -66,6 +67,7 @@ function App() {
   const [provider, setProvider] = useState(readProvider);
   const { lang, dark, toggleLanguage, toggleTheme } = useSitePreferences();
   const t = (zh: string, en: string) => (lang === "zh" ? zh : en);
+  const archiveRouteDisabled = !designMdCatalogEnabled && isDesignMdProvider(new URLSearchParams(location.search).get("provider"));
   const [selected, setSelected] = useState(readSelection),
     [group, setGroup] = useState("all"),
     [query, setQuery] = useState("");
@@ -209,7 +211,7 @@ function App() {
         setProvider(id);setSelected("");setRouteVersion(v=>v+1);history.pushState(null,"",`?provider=${id}`);
       }}/>
       <ResourceToolPanels active={provider} lang={lang}/>
-      {provider === "studio" || provider === "setup" ? null : (!new URLSearchParams(location.search).has("design")&&!new URLSearchParams(location.search).has("system")&&!selected)||new URLSearchParams(location.search).has("resource") ? <ResourceDirectory key={`${provider}-${routeVersion}`} section={provider} lang={lang}/> : provider === "systems" ? (
+      {provider === "studio" || provider === "setup" ? null : archiveRouteDisabled || (!new URLSearchParams(location.search).has("design")&&!new URLSearchParams(location.search).has("system")&&!selected)||new URLSearchParams(location.search).has("resource") ? <ResourceDirectory key={`${provider}-${routeVersion}`} section={provider} lang={lang}/> : provider === "systems" ? (
         <SystemLibrary lang={lang} />
       ) : provider === "design-md" ? (
         <DesignMdLibrary lang={lang} />

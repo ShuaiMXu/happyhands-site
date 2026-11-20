@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import {execFileSync} from 'node:child_process';
-import {readFile} from 'node:fs/promises';
+import {access,readFile} from 'node:fs/promises';
+import {designMdCatalogEnabled} from '../packages/ui/resource-navigation.ts';
 import {guideFaq} from '../packages/ui/site-seo.ts';
 import {resourceRewritePath} from './resource-preview-plugin.mjs';
 import {assertSearchContent} from './check-search-discovery.mjs';
@@ -19,12 +20,16 @@ const robots=await readFile('dist/robots.txt','utf8');assert.ok(robots.includes(
 const legacy=await readFile('dist/apps/web/index.html','utf8');assert.ok(legacy.includes('noindex'));assert.ok(legacy.includes('url=/apps/portal/'));
 
 const portal=await readFile('dist/apps/portal/index.html','utf8');
-for(const text of ['feed-panel-design-md','feed-panel-systems','feed-panel-cult-ui','/guide/#setup'])assert.ok(portal.includes(text),'Missing prerendered content: '+text);
+for(const text of [...(designMdCatalogEnabled?['feed-panel-design-md']:[]),'feed-panel-systems','feed-panel-cult-ui','/guide/#setup'])assert.ok(portal.includes(text),'Missing prerendered content: '+text);
 assert.ok(!portal.includes('class="homepage-case"'),'Removed homepage case must not return');
 assert.ok(!portal.includes('<div id="portal-content"></div>'),'Portal must not be an empty client-only shell');
 for(const path of ['apps/portal','en/apps/portal']){
  const html=await readFile(builtPage(path),'utf8');
  assertSearchContent(`${origin}/${path}/`,html);
+ if(!designMdCatalogEnabled){
+  assert.doesNotMatch(html,/feed-(?:tab|panel)-design-md|provider=design-md/);
+  assert.match(html,/id="feed-tab-systems"[^>]*aria-selected="true"/);
+ }
  assert.ok(html.includes(`<html lang="${path.startsWith('en/')?'en':'zh-CN'}"`));
  for(const code of ['zh-CN','en','x-default'])assert.ok(html.includes(`hreflang="${code}"`));
 }
@@ -52,6 +57,13 @@ assert.ok(productData?.['@graph']?.some(node=>node['@type']==='SoftwareApplicati
 // Verify the query-routed resource output, not the removed generic shell path.
 const rewrites=JSON.parse(await readFile('vercel.json','utf8')).rewrites;
 const resourceSitemap=await readFile('dist/resource-sitemap.xml','utf8');
+if(!designMdCatalogEnabled){
+ assert.doesNotMatch(resourceSitemap,/provider=design-md/);
+ for(const prefix of ['', 'en/']){
+  assert.doesNotMatch(await readFile(`dist/resource-pages/${prefix}index.html`,'utf8'),/provider=design-md/);
+  await assert.rejects(access(`dist/resource-pages/${prefix}design-md`),{code:'ENOENT'});
+ }
+}
 const resourceUrls=[...resourceSitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(match=>match[1].replaceAll('&amp;','&'));
 assert.ok(resourceUrls.length>0,'Missing resource sitemap URLs');
 assert.equal(resourceUrls.length,new Set(resourceUrls).size,'Duplicate canonical resources');

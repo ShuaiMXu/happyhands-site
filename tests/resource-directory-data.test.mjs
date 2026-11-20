@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import { loadDirectoryData } from '../components/resource-directory-data.ts';
 
-const paths = ['/resources/v1/index.json', '/resources/v1/covers.json', '/design-archive/index.json'];
+const paths = ['/resources/v1/index.json', '/resources/v1/covers.json'];
 function fixture() {
   const calls = [];
   const request = async (path, options) => {
@@ -20,11 +20,19 @@ test('resource detail does not fetch hidden directory data', async () => {
   assert.deepEqual(f.calls, []);
 });
 
-test('cold list fetches all three resources once, preserving abort and result order', async () => {
+test('cold public list loads only catalog and covers, preserving signal and result order', async () => {
   const f = fixture();
   assert.deepEqual(await loadDirectoryData(null, f.signal, f.request), paths.map(path => ({ path })));
   assert.deepEqual(f.calls.map(call => call.path), paths);
   assert.ok(f.calls.every(call => call.options.signal === f.signal));
+});
+
+test('archive data is only requested by an archive list', async () => {
+  const f = fixture();
+  const archivePath = '/design-archive/index.json';
+  const expected = [...paths, archivePath];
+  assert.deepEqual(await loadDirectoryData(null, f.signal, f.request, true), expected.map(path => ({ path })));
+  assert.deepEqual(f.calls.map(call => call.path), expected);
 });
 
 test('returning to list and retrying still fetch fresh list data', async () => {

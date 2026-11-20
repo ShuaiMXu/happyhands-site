@@ -4,12 +4,13 @@ export async function loadDirectoryData(
   resource: string | null,
   signal: AbortSignal,
   request: typeof fetch = fetch,
+  includeArchive = false,
 ) {
   if (resource) return null;
   return Promise.all([
     "/resources/v1/index.json",
     "/resources/v1/covers.json",
-    "/design-archive/index.json",
+    ...(includeArchive ? ["/design-archive/index.json"] : []),
   ].map(async (path) => {
     const response = await request(path, { signal });
     if (!response.ok) throw Error("Could not load resource directory: " + path);

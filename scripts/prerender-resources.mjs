@@ -7,6 +7,7 @@ import {
   systemSeo,
   resourceSeoData,
 } from "../packages/ui/resource-seo.ts";
+import { designMdCatalogEnabled } from "../packages/ui/resource-navigation.ts";
 const esc = (value) =>
   String(value).replace(
     /[&<>"']/g,
@@ -17,8 +18,8 @@ const esc = (value) =>
   );
 const json = async (path) => JSON.parse(await readFile(path, "utf8"));
 export async function resourceEntries(root) {
-  const entries = [],
-    archive = await json(resolve(root, "public/design-archive/index.json"));
+  const entries = [];
+  const archive = designMdCatalogEnabled ? await json(resolve(root, "public/design-archive/index.json")) : [];
   const components = await json(
     resolve(root, "public/components/cult-ui/catalog.json"),
   );

@@ -13,8 +13,11 @@ try {
     for (const width of [1280, 390]) {
       const page = await browser.newPage({viewport: {width, height: 900}, reducedMotion: 'reduce'});
       const archiveRequests = [];
+      const directoryRequests = [];
       page.on('request', request => {
-        if (new URL(request.url()).pathname.startsWith('/design-archive/')) archiveRequests.push(request.url());
+        const path = new URL(request.url()).pathname;
+        if (path.startsWith('/design-archive/')) archiveRequests.push(request.url());
+        if (['/resources/v1/index.json', '/resources/v1/covers.json'].includes(path)) directoryRequests.push(path);
       });
       const systemsName = lang === 'zh' ? '设计系统' : 'Design systems';
       const componentsName = lang === 'zh' ? '组件库' : 'Components';
@@ -31,6 +34,8 @@ try {
       await page.keyboard.press('ArrowRight');
       await feed.locator('#feed-panel-cult-ui .resource-card').first().waitFor();
       assert.equal(await components.getAttribute('aria-selected'), 'true');
+      assert.deepEqual(directoryRequests.sort(), ['/resources/v1/covers.json', '/resources/v1/index.json'],
+        'one catalog and one covers fetch total across both hydrated homepage tabs');
       assert.deepEqual(archiveRequests, []);
       assert.equal((await page.goto(base + prefix + '/components/?provider=design-md')).status(), 200);
       await page.locator('a[aria-current="page"][href$="?provider=systems"]').waitFor();

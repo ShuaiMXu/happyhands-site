@@ -1,0 +1,40 @@
+.github/workflows/studio.yml
+  h_a2d68672f84791 28
+apps/portal/connect.js
+  h_a2d68672f84791 19
+apps/portal/index.html
+  h_a2d68672f84791 57
+apps/portal/render-footer.js
+  h_a2d68672f84791 16-20,23
+apps/portal/resource-feed.js
+  h_a2d68672f84791 48-49
+components/ResourceSearchCard.tsx
+  h_a2d68672f84791 3-4,10-14
+components/resource-search-keydown.ts
+  h_a2d68672f84791 1-41
+en/apps/portal/index.html
+  h_a2d68672f84791 57
+package.json
+  h_a2d68672f84791 53-54
+packages/ui/pinui/theme-switch-engine.ts
+  h_a2d68672f84791 56-61,527,558-559
+packages/ui/pinui/theme-transition.ts
+  h_a2d68672f84791 3-4,10
+packages/ui/resource-image-hover.css
+  h_a2d68672f84791 1-2,6,11-12
+tests/component-completeness.test.ts
+  h_a2d68672f84791 34-36
+tests/resource-search-card-events.test.mjs
+  h_a2d68672f84791 3,5-37,39-57,59-69,71-84
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "8cd2b056c4d123045f1ad7d6dea89c14d54d767d",
+  "prompts": {},
+  "humans": {
+    "h_a2d68672f84791": {
+      "author": "xushuai.133"
+    }
+  }
+}

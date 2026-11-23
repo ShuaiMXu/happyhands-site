@@ -1,0 +1,16 @@
+components/SystemLibrary.tsx
+  h_8f87e56e705bcf 18-19,26-27,34-35,42-43,50-51,97-98,155-230
+components/resource-presentation.css
+  h_8f87e56e705bcf 83-182
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "b7ecddab3d2ce8756d7892125050adbfd674bb4b",
+  "prompts": {},
+  "humans": {
+    "h_8f87e56e705bcf": {
+      "author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

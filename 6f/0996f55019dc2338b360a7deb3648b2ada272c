@@ -1,0 +1,24 @@
+apps/portal/portal.css
+  h_8f87e56e705bcf 3,5,8-10,20
+apps/portal/render-footer.js
+  h_8f87e56e705bcf 27
+components/search-card.css
+  h_8f87e56e705bcf 11-15,17-28,42,45
+packages/design-tokens/happyhands.css
+  h_8f87e56e705bcf 132-154
+packages/ui/pinui/site-footer.css
+  h_8f87e56e705bcf 15-17,21-26,47,62-64,108,130-131,136,214-216
+systems/design-how-main.tsx
+  h_8f87e56e705bcf 27,29-73
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "6f0996f55019dc2338b360a7deb3648b2ada272c",
+  "prompts": {},
+  "humans": {
+    "h_8f87e56e705bcf": {
+      "author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

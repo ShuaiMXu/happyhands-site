@@ -1,0 +1,20 @@
+components/CollectionsLibrary.tsx
+  h_8f87e56e705bcf 13,323-347,392
+components/collections.css
+  h_8f87e56e705bcf 20,29-36
+packages/ui/site-preferences.ts
+  h_8f87e56e705bcf 44-54
+packages/ui/useSitePreferences.ts
+  h_8f87e56e705bcf 27-34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "445f8d9865e4c77a1d42c7c9522292a0d97aa9e9",
+  "prompts": {},
+  "humans": {
+    "h_8f87e56e705bcf": {
+      "author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

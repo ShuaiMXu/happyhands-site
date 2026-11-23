@@ -1,0 +1,42 @@
+apps/portal/footer-directory.js
+  h_a2d68672f84791 4-5,7-13,17-18
+apps/portal/layout.css
+  h_a2d68672f84791 80
+apps/portal/portal.css
+  h_a2d68672f84791 62
+apps/portal/render-content.js
+  h_a2d68672f84791 13-15
+apps/portal/render-footer.js
+  h_a2d68672f84791 5-9,11-12,18-21,28-32
+guide/wiki-layout.css
+  h_a2d68672f84791 49,68-69
+guide/wiki-navigation.ts
+  h_a2d68672f84791 12-21,46-47
+packages/ui/pinui/site-footer.css
+  h_a2d68672f84791 13-19,22,31,33
+scripts/check-search-discovery.mjs
+  h_a2d68672f84791 14-15,21-22
+tests/keyword-workflows.test.mjs
+  h_a2d68672f84791 7,34
+tests/portal-footer.test.mjs
+  h_a2d68672f84791 8,17,19-20,22-30
+tests/portal-guides.test.mjs
+  h_a2d68672f84791 6,10,12-14
+tests/seo-browser.mjs
+  h_a2d68672f84791 46,50,52
+tests/site-seo.test.mjs
+  h_a2d68672f84791 5,133,139,170,248
+tests/wiki-layout.test.mjs
+  h_a2d68672f84791 54-56
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "b64bdfa992ca16ad9e64e1314d4e9193bc6cb251",
+  "prompts": {},
+  "humans": {
+    "h_a2d68672f84791": {
+      "author": "xushuai.133"
+    }
+  }
+}

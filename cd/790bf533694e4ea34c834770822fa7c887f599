@@ -1,0 +1,37 @@
+apps/portal/local-workbench.js
+  s_a2debe80374dcd::t_025b1330b60071 31-33,42,44,51
+apps/setup/main.tsx
+  s_a2debe80374dcd::t_025b1330b60071 52
+tests/setup-remediation.test.mjs
+  s_a2debe80374dcd::t_c3a6f3aea15473 1-4,6-127
+  s_c3a809bd8a1ec1::t_ba6f21c23dd983 5
+packages/ui/ResourceToolPanels.tsx
+  s_a2debe80374dcd::t_025b1330b60071 9-10,16-18,24,27,33
+packages/ui/useSitePreferences.ts
+  s_a2debe80374dcd::t_025b1330b60071 4,6-9,17-26,30,39
+  s_a2debe80374dcd::t_18d8086801f5e4 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "cd790bf533694e4ea34c834770822fa7c887f599",
+  "prompts": {},
+  "sessions": {
+    "s_a2debe80374dcd": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1c512-6677-7db0-8937-5acbbc583b4e",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    },
+    "s_c3a809bd8a1ec1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1862f-3e9c-7361-a6d6-1894f0493907",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

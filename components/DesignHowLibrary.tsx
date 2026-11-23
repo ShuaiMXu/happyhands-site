@@ -430,7 +430,6 @@ export function DesignHowLibrary({
                 rel="noreferrer"
               >
                 {t("独立打开预览", "Open preview")}
-                <span aria-hidden="true">↗</span>
               </a>
               <button
                 type="button"
@@ -575,7 +574,7 @@ export function DesignHowLibrary({
                   target="_blank"
                   rel="noreferrer"
                 >
-                  design.how <span aria-hidden="true">↗</span>
+                  design.how
                 </a>
               </div>
             </div>

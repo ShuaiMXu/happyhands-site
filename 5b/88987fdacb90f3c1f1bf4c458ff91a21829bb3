@@ -1,0 +1,40 @@
+apps/portal/main.js
+  s_8af51e1d59fe0b::t_1a0d24fef4929a 247-248
+tests/hero-whirl.test.mjs
+  s_8af51e1d59fe0b::t_6d53613ccbc169 6,51,88-90,92-97,99-114
+  s_8af51e1d59fe0b::t_1bb98b67ff994e 1-5,7-36,38-50,52-87,91,98,115-116
+  s_1104329520fead::t_c3b9b0c8b78258 37
+apps/portal/glass-header.css
+  s_8af51e1d59fe0b::t_1a0d24fef4929a 20-21,24,26
+apps/portal/whirl.js
+  s_8af51e1d59fe0b::t_65b04a7c62c801 1,78-142,155-156,162-169,172-173,189-200
+packages/ui/header-material.js
+  s_8af51e1d59fe0b::t_1a0d24fef4929a 68,70-73
+apps/portal/whirl-webgl.js
+  s_8af51e1d59fe0b::t_1a0d24fef4929a 21,63,72-73,84,92
+  s_8af51e1d59fe0b::t_b3f61c469bbde9 1-20,22-62,64-71,74-83,85-91,93-110
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "5b88987fdacb90f3c1f1bf4c458ff91a21829bb3",
+  "prompts": {},
+  "sessions": {
+    "s_1104329520fead": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ce3f-d796-7a41-bb54-83aa67ca59fe",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    },
+    "s_8af51e1d59fe0b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ce3c-731f-78a1-9dc5-83eeaa05d099",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "ShuaiMXu <49175785+ShuaiMXu@users.noreply.github.com>"
+    }
+  }
+}

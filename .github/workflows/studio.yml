@@ -43,4 +43,6 @@ jobs:
             if curl --fail --silent http://127.0.0.1:4173/apps/portal/ > /dev/null; then break; fi
             sleep 1
           done
-          BROWSER_PATH="$(node -p "require('playwright-core').chromium.executablePath()")" npm run test:design-md:publish:browser
+          export BROWSER_PATH="$(node -p "require('playwright-core').chromium.executablePath()")"
+          npm run test:design-md:publish:browser
+          node tests/directory-layout-browser.mjs

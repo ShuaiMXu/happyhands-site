@@ -5,6 +5,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { Button } from "../packages/ui";
 import { ResourceToolbar } from "./ResourceToolbar";
 import { ResourceCard } from "./ResourcePresentation";
+import { ComponentCollectionCards, componentCollection, componentCollectionName, groupComponentResources } from "./ComponentCollectionCards";
 import { ArchiveCard } from "./ArchiveCard";
 import { ArchiveFilter } from "./ArchiveFilter";
 import {
@@ -146,6 +147,12 @@ export function ResourceDirectory({
     (r) => !filter || r.system === filter || r.collection === filter,
   );
   const term = query.trim().toLowerCase();
+  const grouped = section === "cult-ui" && !filter && !term;
+  const collections = grouped ? groupComponentResources(candidates) : null;
+  const itemHref = (row: Row) => {
+    const href = resourceHref(row, lang);
+    return section === "cult-ui" && filter ? `${href}&collection=${encodeURIComponent(filter)}` : href;
+  };
   const relevance = (row: Row) => { const name=row.name.toLowerCase(); return name===term?3:name.startsWith(term)?2:name.includes(term)?1:0; };
   const visible = filtered.filter((r) => matches(r)).sort((a,b)=>term ? relevance(b)-relevance(a) : 0);
   const cards = visible.filter(
@@ -155,12 +162,12 @@ export function ResourceDirectory({
     section === "cult-ui" ? visible.filter((row) => !previewFor(row)) : [];
   const groups = [
     ...new Set(
-      candidates.flatMap((r) => [
-        r.collection,
-        ...(r.system ? [r.system] : []),
-      ]),
+      candidates.flatMap((r) => section === "cult-ui"
+        ? [componentCollection(r)]
+        : [r.collection, ...(r.system ? [r.system] : [])]),
     ),
   ].sort();
+  if (section === "cult-ui" && filter && !groups.includes(filter)) groups.push(filter);
   const change = (set: (v: string) => void) => (v: string) => {
     set(v);
     setPage(1);
@@ -195,10 +202,10 @@ export function ResourceDirectory({
         placeholder={
           zh ? "搜索名称、用途或组件" : "Search names, tasks or components"
         }
-        results={cards.slice(0,5).map(row=>({id:row.id,label:row.name,href:resourceHref(row,lang)}))}
+        results={cards.slice(0,5).map(row=>({id:row.id,label:row.name,href:itemHref(row)}))}
         query={query}
         onQueryChange={change(setQuery)}
-        status={`${visible.length} ${zh ? "项资源" : "resources"}`}
+        status={collections ? `${collections.size} ${zh ? "个组件库" : "libraries"}` : `${visible.length} ${zh ? "项资源" : "resources"}`}
       >
         <ArchiveFilter
           label={zh ? "来源" : "Source"}
@@ -213,7 +220,7 @@ export function ResourceDirectory({
             },
             ...groups.map((g) => ({
               value: g,
-              label: labels[g] || g,
+              label: section === "cult-ui" ? componentCollectionName(g, labels) : labels[g] || g,
               count: candidates.filter(
                 (r) => (r.system === g || r.collection === g) && matches(r),
               ).length,
@@ -274,6 +281,8 @@ export function ResourceDirectory({
         </div>
       ) : !rows.length ? (
         <p role="status">{zh ? "加载中…" : "Loading…"}</p>
+      ) : collections ? (
+        <ComponentCollectionCards groups={collections} labels={labels} covers={covers} lang={lang} />
       ) : (
         <>
           <div className="archive-grid">
@@ -302,13 +311,13 @@ export function ResourceDirectory({
                   onOpen={() => {
                     location.href = resourceHref(row, lang);
                   }}
-                  href={resourceHref(row, lang)}
+                  href={itemHref(row)}
                   lang={lang}
                 />
               ) : (
                 <ResourceCard
                   key={row.id}
-                  href={resourceHref(row, lang)}
+                  href={itemHref(row)}
                   title={row.name
                     .replace(/^r \/ /, "")
                     .replaceAll(" / ", " — ")}
@@ -335,7 +344,7 @@ export function ResourceDirectory({
               </summary>
               <div className="directory-source-files">
                 {sourceFiles.map((row) => (
-                  <a key={row.id} href={resourceHref(row, lang)}>
+                  <a key={row.id} href={itemHref(row)}>
                     {row.name.replace(/^r \/ /, "").replaceAll(" / ", " — ")}
                   </a>
                 ))}

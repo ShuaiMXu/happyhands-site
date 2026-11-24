@@ -299,8 +299,11 @@ export function CollectionsLibrary({
             backLabel={platform && !isPlatformOverview ? (zh?"返回 ":"Back to ")+platform.name : zh ? "返回资源列表" : "Back to resources"}
             onBack={() => {
               if(platformRoot && !isPlatformOverview){location.href=resourceHref(platformRoot,lang);return;}
-              if (initialResource)
-                location.href = `?provider=${sectionFor(selected)}`;
+              if (initialResource) {
+                const destination = new URLSearchParams({ provider: sectionFor(selected) });
+                if (collection) destination.set('collection', collection);
+                location.href = '?' + destination;
+              }
               else setSelected(null);
             }}
           />

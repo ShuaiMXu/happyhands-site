@@ -239,7 +239,10 @@ function App() {
                 onBack={() => {
                   returning.current = true;
                   setSelected("");
-                  history.pushState(null, "", "?provider=cult-ui");
+                  const source = new URLSearchParams(location.search).get('collection');
+                  const query = new URLSearchParams({ provider: 'cult-ui' });
+                  if (source) query.set('collection', source);
+                  history.pushState(null, "", "?" + query);
                 }}
               />
               <CatalogComponentDetail

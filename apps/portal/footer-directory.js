@@ -12,7 +12,7 @@ export const footerDirectory = [
   // Setup has no English page yet, so it always points at the Chinese route.
   { kind: 'guide', href: '/apps/setup/', zh: '接入详情', en: 'Setup details', localize: false },
   { kind: 'community', href: repositories.core, zh: '查看源码', en: 'View source' },
-  { kind: 'cooperation', href: 'https://x.com/ShuaiXU13', zh: '到 X 联系', en: 'Contact us on X' },
+  { kind: 'follow', href: 'https://x.com/ShuaiXU13', zh: '在 X 关注我', en: 'Follow on X' },
   { kind: 'friend', href: 'https://icons.kubai.design/', zh: 'Kubai Icons', en: 'Kubai Icons' },
   { kind: 'friend', href: 'https://collectui.com/', zh: 'CollectUI', en: 'CollectUI' },
   { kind: 'facts', href: '/llms.txt', zh: '产品信息摘要', en: 'Product facts', localize: false },

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "825b85eb8fa694104fe8904b42c3524367d4147409beb1b7e023413366bb946e",
+  "version": "e200ef821b8856b8cb77673595123040c7c6fa28f9270a610680f63e6086cae3",
   "assetManifest": "resources/v1/assets.json",
   "collections": [
     {
@@ -171,6 +171,22 @@
       ]
     },
     {
+      "id": "beautiful-ui",
+      "name": "Beautiful UI",
+      "nameEn": "Beautiful UI",
+      "group": "components",
+      "platform": "web",
+      "source": "https://www.beautifului.dev",
+      "overview": "collection:beautiful-ui/index.md",
+      "cover": "/collections/beautiful-ui/cover.webp",
+      "access": "reference-archive",
+      "types": [
+        "guideline",
+        "component"
+      ],
+      "count": 28
+    },
+    {
       "id": "pin-ui",
       "name": "PinUI 组件",
       "nameEn": "PinUI components",
@@ -328,6 +344,24 @@
         "app-tokens",
         "varlet"
       ]
+    },
+    {
+      "path": "collections/beautiful-ui/index.md",
+      "sha256": "2e77f4319acb5b4fd92acb16305e77969dcdfa0d69dd90475fc2219abb903cdf",
+      "bytes": 925,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "collection:beautiful-ui/index.md",
+      "name": "Beautiful UI",
+      "type": "guideline",
+      "mimeType": "text/markdown",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui",
+      "cover": "/collections/beautiful-ui/cover.webp",
+      "summary": "Design tokens and components for agent activity, approvals and code review."
     },
     {
       "id": "collection:brand-registry/README.md",
@@ -15837,6 +15871,708 @@
       "authority": "reference-data-only",
       "platform": "web",
       "summary": "Original component source"
+    },
+    {
+      "path": "collections/beautiful-ui/registry/approval-card.json",
+      "sha256": "b10c4670c04c6510c4364561d06cc5a670317993a0fd1473b1af254de64b244e",
+      "bytes": 18070,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/approval-card",
+      "name": "Approval Card",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/approval-card.json",
+      "cover": "/collections/beautiful-ui/covers/approval-card.webp",
+      "summary": "Human-in-the-loop questions the agent asks before acting.",
+      "tags": [
+        "approval-card",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/approval-card.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/button.json",
+      "sha256": "3da0fa4a699a3237a4872575e2e0ef73184b92f2cc5dec112f4b85121579a619",
+      "bytes": 2534,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/button",
+      "name": "Button",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/button.json",
+      "cover": "/collections/beautiful-ui/covers/button.webp",
+      "summary": "Shared building block used by other Beautiful UI components.",
+      "tags": [
+        "button",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/button.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/chat-composer.json",
+      "sha256": "79c9f3f70215d1b36b7f68d5f2956ec3ffad5c61a16e79c1314536a9625c5dce",
+      "bytes": 9680,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/chat-composer",
+      "name": "Chat",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/chat-composer.json",
+      "cover": "/collections/beautiful-ui/covers/chat-composer.webp",
+      "summary": "Tabbed chat panel with reasoning replies and a composer.",
+      "tags": [
+        "chat-composer",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/chat-composer.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/code-block.json",
+      "sha256": "ffc7dabbef3aafe076320101f5dc61ef9549592c2535ad45bce17cffc97939e2",
+      "bytes": 11114,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/code-block",
+      "name": "Code Block",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/code-block.json",
+      "cover": "/collections/beautiful-ui/covers/code-block.webp",
+      "summary": "A line-numbered listing and a unified diff.",
+      "tags": [
+        "code-block",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/code-block.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/context-cards.json",
+      "sha256": "086d3e60ef3381498a74dde8e9019e9936310c39e71044cae28df8c668c2c38d",
+      "bytes": 5186,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/context-cards",
+      "name": "Context Cards",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/context-cards.json",
+      "cover": "/collections/beautiful-ui/covers/context-cards.webp",
+      "summary": "Retrieved knowledge chunks with their sources.",
+      "tags": [
+        "context-cards",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/context-cards.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/diff-table.json",
+      "sha256": "640eb8f40a4d503062b862484e42b8a9715b8725fdf20a7685f3e20603a7eeb9",
+      "bytes": 12660,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/diff-table",
+      "name": "Diff Table",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/diff-table.json",
+      "cover": "/collections/beautiful-ui/covers/diff-table.webp",
+      "summary": "AI-proposed edits sweeping through tabular data.",
+      "tags": [
+        "diff-table",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/diff-table.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/entity-chip.json",
+      "sha256": "2575a4995808154e91acdf0ce94d7185e8c5dab1cddb099f224c3aa64d115390",
+      "bytes": 1820,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/entity-chip",
+      "name": "EntityChip",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/entity-chip.json",
+      "cover": "/collections/beautiful-ui/covers/entity-chip.webp",
+      "summary": "Shared building block used by other Beautiful UI components.",
+      "tags": [
+        "entity-chip",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/entity-chip.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/filter-table.json",
+      "sha256": "92a895c0c38d533c7f4f794b2ac4cfe1abe185aae93b1268def812082fa04a03",
+      "bytes": 7035,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/filter-table",
+      "name": "Filter Table",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/filter-table.json",
+      "cover": "/collections/beautiful-ui/covers/filter-table.webp",
+      "summary": "Status chips that reorganize live data.",
+      "tags": [
+        "filter-table",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/filter-table.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/fine-tune-card.json",
+      "sha256": "2bfcb0277ab73e4a79ed169f128820f8b395a263d4a09de5ec0b15c272c1e371",
+      "bytes": 13501,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/fine-tune-card",
+      "name": "Fine-tune Card",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/fine-tune-card.json",
+      "cover": "/collections/beautiful-ui/covers/fine-tune-card.webp",
+      "summary": "The agent adjusts design properties in an inspector.",
+      "tags": [
+        "fine-tune-card",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/fine-tune-card.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/flowchart.json",
+      "sha256": "dfe46b0b95f3536d25bcda2fd1d36fcd8067419756a884b9734fab82e1001fb2",
+      "bytes": 18966,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/flowchart",
+      "name": "Flowchart",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/flowchart.json",
+      "cover": "/collections/beautiful-ui/covers/flowchart.webp",
+      "summary": "Workflow trigger and condition steps on a dotted canvas.",
+      "tags": [
+        "flowchart",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/flowchart.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/foundation.json",
+      "sha256": "3b7c86c5cb11cb43ddc1d7d6baf11634b001190382622497318730b374836790",
+      "bytes": 19486,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/foundation",
+      "name": "Beautiful UI foundation",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/foundation.json",
+      "cover": "/collections/beautiful-ui/covers/foundation.webp",
+      "summary": "Design tokens (:root/.dark), the @theme mapping, base rules, the primitive-* spacing utilities, and shared keyframes every component needs. Then add `@import \"./beautifui/foundation.css\";` to your app's globals.css.",
+      "tags": [
+        "foundation",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/foundation.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/glide-menu.json",
+      "sha256": "8ca85bd9719332b57c5a16306cbb7548ac1c17ad5b9e0061358d231b60a30462",
+      "bytes": 2484,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/glide-menu",
+      "name": "GlideMenu",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/glide-menu.json",
+      "cover": "/collections/beautiful-ui/covers/glide-menu.webp",
+      "summary": "Shared building block used by other Beautiful UI components.",
+      "tags": [
+        "glide-menu",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/glide-menu.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/insight-cards.json",
+      "sha256": "7d41e700df440cec4981481f4e485f46dbf92ee851cf94e05a2d4555f97ce23e",
+      "bytes": 21648,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/insight-cards",
+      "name": "Insight Cards",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/insight-cards.json",
+      "cover": "/collections/beautiful-ui/covers/insight-cards.webp",
+      "summary": "Paged agent insights with scrub-ready live charts.",
+      "tags": [
+        "insight-cards",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/insight-cards.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/loading-state.json",
+      "sha256": "0564d7ed96b42b79118b4bb3ae183fd88ef5a5eb86069d2eb2edcf20f8be5884",
+      "bytes": 5777,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/loading-state",
+      "name": "Loading State",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/loading-state.json",
+      "cover": "/collections/beautiful-ui/covers/loading-state.webp",
+      "summary": "Pixel-grid loader with shimmer and elapsed time.",
+      "tags": [
+        "loading-state",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/loading-state.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/prompt-bar.json",
+      "sha256": "68968526b7464d291a3a395bf6b336e7c1916420171fe543f81624f368b27dd7",
+      "bytes": 32797,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/prompt-bar",
+      "name": "Prompt Bar",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/prompt-bar.json",
+      "cover": "/collections/beautiful-ui/covers/prompt-bar.webp",
+      "summary": "Composer with @ sources, / commands, model picker, and dictation.",
+      "tags": [
+        "prompt-bar",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/prompt-bar.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/recommendation-card.json",
+      "sha256": "40f4567ee36cb8136da20eb8e90898a67b2111b56ea348175a0cf6d03410f796",
+      "bytes": 7054,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/recommendation-card",
+      "name": "Recommendation Card",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/recommendation-card.json",
+      "cover": "/collections/beautiful-ui/covers/recommendation-card.webp",
+      "summary": "Agent suggestion with a confidence meter and actions.",
+      "tags": [
+        "recommendation-card",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/recommendation-card.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/records-table.json",
+      "sha256": "916d714c8716fae60a5a70d58a8589780f3c2e2f951f129fce22856ce1684adc",
+      "bytes": 81622,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/records-table",
+      "name": "Records Table",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/records-table.json",
+      "cover": "/collections/beautiful-ui/covers/records-table.webp",
+      "summary": "CRM-style grid with tags, sorting, and relationship status. Then add `@import \"./beautifui/records-table.css\";` to your app's globals.css.",
+      "tags": [
+        "records-table",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/records-table.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/search.json",
+      "sha256": "22993a95c0d0cf35ed65eb2c94b0cb4e6f4393a00a35c9b4283efe95500425c5",
+      "bytes": 5416,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/search",
+      "name": "Search",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/search.json",
+      "cover": "/collections/beautiful-ui/covers/search.webp",
+      "summary": "Command search with live filtering and an empty state.",
+      "tags": [
+        "search",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/search.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/selection-actions.json",
+      "sha256": "d20877569884ef34f3327b5515962576d8590cff3f8b871ad6803a81db1e4789",
+      "bytes": 21335,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/selection-actions",
+      "name": "Selection Actions",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/selection-actions.json",
+      "cover": "/collections/beautiful-ui/covers/selection-actions.webp",
+      "summary": "Highlight a passage and hand it to the agent to rewrite.",
+      "tags": [
+        "selection-actions",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/selection-actions.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/shimmer.json",
+      "sha256": "3f7e02ba2ad044b8a717d162a69f48efbdb7bb22f3eaeb576eb349cd72619a8e",
+      "bytes": 1051,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/shimmer",
+      "name": "Shimmer",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/shimmer.json",
+      "cover": "/collections/beautiful-ui/covers/shimmer.webp",
+      "summary": "Shared building block used by other Beautiful UI components.",
+      "tags": [
+        "shimmer",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/shimmer.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/sidebar-nav.json",
+      "sha256": "9c8a060fcbddbcc18cd3c0430fd1b9f6a4b927f048347569f8677d30577c4e2f",
+      "bytes": 22834,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/sidebar-nav",
+      "name": "Sidebar Nav",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/sidebar-nav.json",
+      "cover": "/collections/beautiful-ui/covers/sidebar-nav.webp",
+      "summary": "Collapsible workspace and chat navigation with gliding hover states. Then add `@import \"./beautifui/sidebar-nav.css\";` to your app's globals.css.",
+      "tags": [
+        "sidebar-nav",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/sidebar-nav.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/stream-text.json",
+      "sha256": "99b82b8960aacc752c20f359b4258c2b1a07f5e211448cf7d55e067c2195621b",
+      "bytes": 3093,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/stream-text",
+      "name": "StreamText",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/stream-text.json",
+      "cover": "/collections/beautiful-ui/covers/stream-text.webp",
+      "summary": "Shared building block used by other Beautiful UI components.",
+      "tags": [
+        "stream-text",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/stream-text.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/streaming-text.json",
+      "sha256": "f2dd3322858f99a92c19f92ce1f4dad7162237f176d3775e7320f857363fcba8",
+      "bytes": 11494,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/streaming-text",
+      "name": "Streaming Text",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/streaming-text.json",
+      "cover": "/collections/beautiful-ui/covers/streaming-text.webp",
+      "summary": "Streamed answer with inline sources, actions, and follow-ups.",
+      "tags": [
+        "streaming-text",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/streaming-text.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/task-rows.json",
+      "sha256": "a195e9caa440f795fb42d11001e00d29066b78a353850b054069fd32236742ef",
+      "bytes": 11330,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/task-rows",
+      "name": "Task Rows",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/task-rows.json",
+      "cover": "/collections/beautiful-ui/covers/task-rows.webp",
+      "summary": "Live agent task status — running, failed, completed.",
+      "tags": [
+        "task-rows",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/task-rows.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/thinking-state.json",
+      "sha256": "3a537a94b11b62ce5bebd59ac982cada66601a38a6372bedff7f5eadc034305a",
+      "bytes": 12040,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/thinking-state",
+      "name": "Thinking",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/thinking-state.json",
+      "cover": "/collections/beautiful-ui/covers/thinking-state.webp",
+      "summary": "Expandable traces — steps, reasoning, search, coding.",
+      "tags": [
+        "thinking-state",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/thinking-state.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/tool-chips.json",
+      "sha256": "67035ec579eb8d4cb7d714d67e5c945760c1855d37fb37fea6cd8c37bc617938",
+      "bytes": 15400,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/tool-chips",
+      "name": "Tool Chips",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/tool-chips.json",
+      "cover": "/collections/beautiful-ui/covers/tool-chips.webp",
+      "summary": "Code edits and tool calls as compact chips.",
+      "tags": [
+        "tool-chips",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/tool-chips.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
+    },
+    {
+      "path": "collections/beautiful-ui/registry/value-pill.json",
+      "sha256": "070958ca2f12154a943733d65d781931ed51260fffcb0f2c7d52a632dff5e2c8",
+      "bytes": 1802,
+      "collection": "beautiful-ui",
+      "source": "https://www.beautifului.dev",
+      "sourceRevision": "44a274e598395ab61e7c96c26fda2758780253b7",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "id": "component:beautiful-ui/value-pill",
+      "name": "ValuePill",
+      "type": "component",
+      "mimeType": "application/json",
+      "sourceUrl": "https://github.com/slev12397/beautiful-ui/blob/44a274e598395ab61e7c96c26fda2758780253b7/public/r/value-pill.json",
+      "cover": "/collections/beautiful-ui/covers/value-pill.webp",
+      "summary": "Shared building block used by other Beautiful UI components.",
+      "tags": [
+        "value-pill",
+        "AI interface"
+      ],
+      "installation": {
+        "url": "https://www.beautifului.dev/r/value-pill.json",
+        "status": "Upstream registry. Check dependencies and licenses before installing."
+      }
     },
     {
       "id": "component:cult-ui/agent-suggest-card-stack",

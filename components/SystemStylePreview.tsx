@@ -1,4 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Button } from "../packages/ui/shadcn/button";
+import { SystemPreviewSurface } from "../packages/ui/SystemPreviewSurface";
+import "./system-style-preview.css";
 export const previewComponents = new Set([
   "button",
   "input",
@@ -31,12 +34,12 @@ export function SystemStylePreview({
   lang: string;
   component?: string;
   foundation?: string;
-  gallery?: "foundations" | "components" | "";
+  gallery?: "foundations" | "components" | "examples" | "";
   compact?: boolean;
   compactSpecimen?: boolean;
 }) {
   const frame = useRef<HTMLIFrameElement>(null);
-  const initialHeight = component ? 420 : gallery === "foundations" ? 900 : 1600;
+  const initialHeight = component ? 420 : gallery === "examples" ? 520 : gallery === "foundations" ? 900 : 1600;
   const [height, setHeight] = useState(initialHeight);
   const [expanded, setExpanded] = useState(false);
   const [theme, setTheme] = useState(
@@ -55,7 +58,7 @@ export function SystemStylePreview({
     return () => observer.disconnect();
   }, []);
   useEffect(() => {
-    setHeight(component ? 420 : gallery === "foundations" ? 900 : 1600);
+    setHeight(initialHeight);
     setExpanded(false);
   }, [system, component, foundation, gallery, theme]);
   useEffect(() => {
@@ -69,15 +72,17 @@ export function SystemStylePreview({
       if (
         typeof event.data.height === "number" &&
         Number.isFinite(event.data.height)
-      )
-        setHeight(Math.min(5000, Math.max(200, Math.ceil(event.data.height))));
+      ) {
+        const contentHeight = Math.max(200, Math.ceil(event.data.height));
+        setHeight(gallery === "components" ? contentHeight : Math.min(5000, contentHeight));
+      }
     };
     addEventListener("message", receive);
     return () => removeEventListener("message", receive);
-  }, []);
+  }, [gallery]);
   const clipped = compact && !expanded;
   return (
-    <div className={`system-style-preview${clipped ? " is-compact" : ""}`}>
+    <SystemPreviewSurface className={clipped ? "is-compact" : undefined}>
       <iframe
         ref={frame}
         key={`${system}:${component}:${foundation}:${gallery}:${compactSpecimen}:${theme}`}
@@ -89,8 +94,10 @@ export function SystemStylePreview({
       {compact && (
         <div className="system-style-preview-bar">
           <span>{lang === "zh" ? "实时渲染" : "Live render"}</span>
-          <button
+          <Button
             type="button"
+            variant="outline"
+            size="sm"
             aria-expanded={expanded}
             onClick={() => setExpanded((value) => !value)}
           >
@@ -101,9 +108,9 @@ export function SystemStylePreview({
               : lang === "zh"
                 ? "展开完整预览"
                 : "Expand full preview"}
-          </button>
+          </Button>
         </div>
       )}
-    </div>
+    </SystemPreviewSurface>
   );
 }

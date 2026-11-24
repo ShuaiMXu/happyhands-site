@@ -4,7 +4,6 @@ import { createRoot } from "react-dom/client";
 import type { ComponentType, ReactNode } from "react";
 import "./preview.css";
 import {FoundationSpecimen} from "./FoundationSpecimen";
-import bookCatalog from "../../public/design-how/catalog.json";
 const params = new URLSearchParams(location.search);
 const gallery = params.get("gallery") || "";
 const foundationOnly = Boolean(params.get("foundation")) || gallery === "foundations";
@@ -24,22 +23,12 @@ const styles = import.meta.glob("./generated/*/compiled.css");
 const variantFixtures=new Set(["button","input","textarea","card","frame","tabs","checkbox","switch","slider","progress","select","badge","status","avatar","skeleton"]);
 const documentedExamples = import.meta.glob("./generated/*/examples/*.tsx");
 const sourceCatalog = await import("./generated/catalog.json");
-const bookComponents = (
-  bookCatalog as unknown as {
-    systems: {
-      id: string;
-      documents: { kind: string; path: string; title: string }[];
-    }[];
-  }
-).systems.find((entry) => entry.id === system)?.documents.filter(
-  (document) => document.kind === "component",
-) || [];
-const blocks = (
-  sourceCatalog.default as Record<
-    string,
-    { blocks: { file: string; name: string }[] }
-  >
-)[system].blocks;
+const { blocks, components: bookComponents } = (
+  sourceCatalog.default as Record<string, {
+    blocks: { file: string; name: string }[];
+    components: { path: string; title: string }[];
+  }>
+)[system];
 const loaded: Record<string, any> = {};
 async function load(section: string, file: string) {
   const key = `./generated/${system}/${section}/${file}`;
@@ -107,45 +96,60 @@ function FoundationWall() {
     </section>
   );
 }
-function WallCopyButton({ path }: { path: string }) {
-  const [state, setState] = useState<"idle" | "done" | "error">("idle");
+function WallCopyButton({ path, title }: { path: string; title: string }) {
+  const [state, setState] = useState<"idle" | "copying" | "done" | "error">("idle");
   useEffect(() => {
-    let timer: number | undefined;
-    const handler = (event: MessageEvent) => {
-      const data = event.data as { type?: string; path?: string; ok?: boolean };
-      if (data?.type !== "design-how-copy-result" || data.path !== path) return;
-      setState(data.ok ? "done" : "error");
-      window.clearTimeout(timer);
-      timer = window.setTimeout(() => setState("idle"), 1800);
-    };
-    addEventListener("message", handler);
-    return () => {
-      removeEventListener("message", handler);
-      window.clearTimeout(timer);
-    };
-  }, [path]);
+    if (state !== "done" && state !== "error") return;
+    const timer = window.setTimeout(() => setState("idle"), 1800);
+    return () => window.clearTimeout(timer);
+  }, [state]);
+
+  async function copy() {
+    setState("copying");
+    try {
+      const clipboard = navigator.clipboard;
+      if (!clipboard) throw new Error("Clipboard unavailable");
+      const text = fetch("/" + path).then((response) => {
+        if (!response.ok) throw new Error("Could not load component document");
+        return response.text();
+      });
+      if (typeof ClipboardItem === "function" && clipboard.write) {
+        await clipboard.write([
+          new ClipboardItem({ "text/plain": text.then((value) => new Blob([value], { type: "text/plain" })) }),
+        ]);
+      } else {
+        await clipboard.writeText(await text);
+      }
+      setState("done");
+    } catch {
+      setState("error");
+    }
+  }
+
+  const label = `${lang === "zh" ? "复制" : "Copy"} ${title} design.md`;
   return (
     <button
       type="button"
       className="component-wall-copy"
-      title={lang === "zh" ? "复制 design.md" : "Copy design.md"}
-      aria-label={`${lang === "zh" ? "复制" : "Copy"} ${path} design.md`}
-      onClick={() =>
-        (window.parent === window ? window : window.parent).postMessage(
-          { type: "design-how-copy", path },
-          "*",
-        )
-      }
+      title={label}
+      aria-label={label}
+      disabled={state === "copying"}
+      onClick={copy}
     >
       {state === "done"
         ? lang === "zh" ? "已复制" : "Copied"
         : state === "error"
-          ? lang === "zh" ? "失败" : "Failed"
+          ? lang === "zh" ? "复制失败" : "Copy failed"
           : lang === "zh" ? "复制" : "Copy"}
     </button>
   );
 }
 function ComponentWall() {
+  if (!bookComponents.length) {
+    return <p className="demo-copy" role="status">
+      {lang === "zh" ? "暂时没有可预览的组件。" : "No component previews are available."}
+    </p>;
+  }
   return (
     <section className="component-wall" aria-label="Component specimens">
       {bookComponents.map((doc) => {
@@ -153,15 +157,16 @@ function ComponentWall() {
         const hasExample = Boolean(
           documentedExamples[`./generated/${system}/examples/${slug}.tsx`],
         );
+        const hasFixture = variantFixtures.has(slug) || (slug === "dialog" && Boolean(get("dialog", "Dialog")));
         return (
           <article className="component-wall-item" key={slug}>
             <header className="component-wall-head">
               <h2>{doc.title}</h2>
-              <WallCopyButton path={doc.path} />
+              <WallCopyButton path={doc.path} title={doc.title} />
             </header>
             {hasExample ? (
               <DocumentedExample name={slug} />
-            ) : variantFixtures.has(slug) ? (
+            ) : hasFixture ? (
               <Controls only={slug} />
             ) : (
               <p className="demo-copy">Specimen not available.</p>
@@ -541,44 +546,87 @@ function App() {
       blocks[0]?.name,
   );
   const block = blocks.find((b) => b.name === selected) || blocks[0];
+  const pageExamples = (
+    <section className="demo-section">
+      <div className="demo-heading">
+        <h2 className="demo-label">Page examples</h2>
+        <label className="demo-select-label">
+          Example
+          <select
+            aria-label="Page example"
+            value={selected}
+            disabled={!blocks.length}
+            onChange={(e) => setSelected(e.target.value)}
+          >
+            {blocks.map((b) => (
+              <option key={b.name} value={b.name}>
+                {b.name.replace(/([a-z])([A-Z])/g, "$1 $2")}
+              </option>
+            ))}
+          </select>
+        </label>
+      </div>
+      <div className="demo-block">
+        {block ? <Block key={block.file + block.name} file={block.file} name={block.name} /> : <p className="demo-copy" role="status">Page examples are not available in this build.</p>}
+      </div>
+    </section>
+  );
   return (
     <Provider>
       <main className={`demo-root${gallery ? " gallery-root" : ""}`}>
-        {gallery === "foundations" ? <FoundationWall /> : gallery === "components" ? <ComponentWall /> : params.get("foundation") ? <><FoundationSpecimen system={system} name={params.get("foundation")!} compact={params.get("compact") === "1"} detail={params.get("detail") === "1"}/>{params.get("foundation")==="iconography"&&<DocumentedExample name="icon"/>}</> : <>
+        {gallery === "examples" ? pageExamples : gallery === "foundations" ? <FoundationWall /> : gallery === "components" ? <ComponentWall /> : params.get("foundation") ? <><FoundationSpecimen system={system} name={params.get("foundation")!} compact={params.get("compact") === "1"} detail={params.get("detail") === "1"}/>{params.get("foundation")==="iconography"&&<DocumentedExample name="icon"/>}</> : <>
         {!component && <Foundations />}
         <ErrorBoundary>
           {component && !variantFixtures.has(component) && documentedExamples[`./generated/${system}/examples/${component}.tsx`] ? <DocumentedExample name={component}/> : <Controls only={component} />}
         </ErrorBoundary>
-        {!component && (
-          <section className="demo-section">
-            <div className="demo-heading">
-              <h2 className="demo-label">Page examples</h2>
-              <label className="demo-select-label">
-                Example
-                <select
-                  aria-label="Page example"
-                  value={selected}
-                  disabled={!blocks.length}
-                  onChange={(e) => setSelected(e.target.value)}
-                >
-                  {blocks.map((b) => (
-                    <option key={b.name} value={b.name}>
-                      {b.name.replace(/([a-z])([A-Z])/g, "$1 $2")}
-                    </option>
-                  ))}
-                </select>
-              </label>
-            </div>
-            <div className="demo-block">
-              {block ? <Block file={block.file} name={block.name} /> : <p className="demo-copy" role="status">Page examples are not available in this build.</p>}
-            </div>
-          </section>
-        )}
+        {!component && pageExamples}
       </>} </main>
     </Provider>
   );
 }
 createRoot(document.getElementById("root")!).render(<App />);
+
+// A full-height gallery scrolls with its host page. Fixed specimens still
+// need to position dialogs and sheets within the part of the frame on screen.
+if (gallery === "components" && window.frameElement) {
+  const frame = window.frameElement;
+  const host = frame.ownerDocument.defaultView!;
+  const header = frame.ownerDocument.querySelector(".hh-site-header");
+  const viewport = host.visualViewport;
+  let pending = 0;
+  const update = () => {
+    pending = 0;
+    const rect = frame.getBoundingClientRect();
+    const viewportTop = viewport?.offsetTop ?? 0;
+    const viewportBottom = viewportTop + (viewport?.height ?? host.innerHeight);
+    const top = Math.max(0, Math.max(viewportTop, header?.getBoundingClientRect().bottom ?? 0) - rect.top);
+    const height = Math.min(rect.height, viewportBottom - rect.top) - top;
+    if (height <= 0) return;
+    const root = document.documentElement;
+    root.dataset.galleryViewport = "";
+    root.style.setProperty("--gallery-view-top", `${top}px`);
+    root.style.setProperty("--gallery-view-height", `${height}px`);
+  };
+  const schedule = () => {
+    if (!pending) pending = requestAnimationFrame(update);
+  };
+
+  update();
+  host.addEventListener("scroll", schedule, { passive: true });
+  host.addEventListener("resize", schedule);
+  viewport?.addEventListener("scroll", schedule);
+  viewport?.addEventListener("resize", schedule);
+  const observer = new ResizeObserver(schedule);
+  observer.observe(frame);
+  addEventListener("pagehide", () => {
+    host.removeEventListener("scroll", schedule);
+    host.removeEventListener("resize", schedule);
+    viewport?.removeEventListener("scroll", schedule);
+    viewport?.removeEventListener("resize", schedule);
+    observer.disconnect();
+    cancelAnimationFrame(pending);
+  }, { once: true });
+}
 
 const report = () => {
   const root = document.querySelector(".demo-root");

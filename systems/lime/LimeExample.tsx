@@ -3,7 +3,9 @@ import palette from "./palette.json";
 import "./style.css";
 
 // Authored here to demonstrate palette roles; not an installed upstream component.
-export function LimeExample({ lang, dark }: { lang: string; dark: boolean }) {
+export function LimeExample({
+  lang, dark, showAppearanceControl = true,
+}: { lang: string; dark: boolean; showAppearanceControl?: boolean }) {
   const t = (zh: string, en: string) => (lang === "zh" ? zh : en);
   const [appearance, setAppearance] = useState<boolean | null>(null);
   const isDark = appearance ?? dark;
@@ -29,16 +31,18 @@ export function LimeExample({ lang, dark }: { lang: string; dark: boolean }) {
         ) as CSSProperties
       }
     >
-      <header className="lime-preview-header">
-        <strong>Lime</strong>
-        <button
-          type="button"
-          onClick={() => setAppearance(!isDark)}
-          aria-label={t("切换 Lime 示例外观", "Switch Lime example appearance")}
-        >
-          {isDark ? t("查看浅色", "View light") : t("查看深色", "View dark")}
-        </button>
-      </header>
+      {showAppearanceControl && (
+        <header className="lime-preview-header">
+          <strong>Lime</strong>
+          <button
+            type="button"
+            onClick={() => setAppearance(!isDark)}
+            aria-label={t("切换 Lime 示例外观", "Switch Lime example appearance")}
+          >
+            {isDark ? t("查看浅色", "View light") : t("查看深色", "View dark")}
+          </button>
+        </header>
+      )}
       <h2>{t("准备下一次出行", "Prepare for your next trip")}</h2>
       <p>
         {t(

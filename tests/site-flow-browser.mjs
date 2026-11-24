@@ -80,76 +80,9 @@ try {
       await follow('header a[href="/components/?provider=systems"]');
       await check("catalog");
       const catalogLeft = (await page.locator('.library-heading h1').boundingBox()).x;
-      const headerLeft = (await page.locator('header a[aria-label="HappyHands"]').boundingBox()).x;
-      await follow('.system-cover-navigation a[href="?provider=systems&system=happyhands"]');
-      await page.frameLocator('iframe[title="HappyHands 完整设计规范"]').getByRole("heading", {name:"HappyHands", exact:true}).waitFor();
-      await page.goto(base + '/systems/happyhands/');
-      assert.equal(await page.locator("h1").innerText(), "HappyHands");
-      const detailLeft = (
-        await page.locator(".system-breadcrumb").boundingBox()
-      ).x;
-      assert.ok(
-        Math.abs(detailLeft - catalogLeft) < 1,
-        "detail and parent catalog share the same content grid",
-      );
-      assert.ok(
-        Math.abs(
-          (
-            await page
-              .locator('header a[aria-label="HappyHands"]')
-              .boundingBox()
-          ).x - headerLeft,
-        ) < 1,
-        "header must not shift when entering the detail page",
-      );
-      assert.ok(
-        (await page.locator("h1").boundingBox()).height < 100,
-        "the system name must not break into orphan lines",
-      );
-      assert.equal(
-        await page.evaluate(() => localStorage.getItem("hh-theme")),
-        null,
-        "system appearance must not become an explicit preference",
-      );
-      if (width < 900) {
-        assert.equal(
-          await page.locator(".system-directory nav").isVisible(),
-          false,
-        );
-        await page.locator(".system-directory summary").click();
-      }
-      assert.equal(
-        await page.locator(".system-directory nav").isVisible(),
-        true,
-      );
-      await follow('.system-directory a[href="#components"]');
-      await page.waitForFunction(
-        () =>
-          document
-            .querySelector('.system-directory a[href="#components"]')
-            .getAttribute("aria-current") === "location",
-      );
-      const dialogButton = page.getByRole("button", {
-        name: "打开确认弹窗",
-        exact: true,
-      });
-      await dialogButton.focus();
-      await page.keyboard.press("Enter");
-      assert.equal(await page.getByRole("dialog").isVisible(), true);
-      await page.keyboard.press("Escape");
-      assert.equal(await page.getByRole("dialog").isVisible(), false);
-      assert.equal(
-        await dialogButton.evaluate((el) => el === document.activeElement),
-        true,
-      );
-
-      await follow('.system-directory a[href="#overview"]');
-      await check("happyhands");
-      await page.getByRole("button", { name: "English", exact: true }).click();
-      assert.equal(await page.locator("html").getAttribute("lang"), "en");
-      await follow('.system-breadcrumb a[href="/components/?provider=systems"]');
-      assert.equal(await page.locator(".resource-sections").isVisible(), true);
-      assert.equal(await page.locator("html").getAttribute("lang"), "en");
+      await page.goto(base + '/components/?provider=systems&system=happyhands');
+      await page.waitForURL(url => url.search === '?provider=systems');
+      assert.equal(await page.locator('a[href*="system=happyhands"]').count(), 0);
       await follow('.provider-navigation a[href="?provider=systems&system=quartz"]');
       await page.frameLocator('iframe[title="Quartz complete design system"]').getByRole("heading", {name:"Quartz", exact:true}).first().waitFor();
       await page.goto(base + '/systems/quartz/');
@@ -285,7 +218,7 @@ try {
       await context.close();
     }
   console.log(
-    "PASS: home → resource directory → HappyHands → Quartz → Theme Studio → connection guide, 390/768/965/1280px, both themes, language persistence, mobile directory, edits retained, translated panels, no page errors or overflow.",
+    "PASS: home → resource directory → Quartz → Theme Studio → connection guide, 390/768/965/1280px, both themes, language persistence, mobile directory, edits retained, translated panels, no page errors or overflow.",
   );
 } finally {
   await browser.close();

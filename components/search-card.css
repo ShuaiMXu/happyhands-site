@@ -27,7 +27,7 @@
   --psearch-kbd-border: var(--hh-line);
 
   position: relative;
-  z-index: 40;
+  z-index: 2;
   display: block;
   width: 100%;
   height: 50px;
@@ -36,10 +36,6 @@
   color: var(--psearch-text);
   font-family: var(--hh-font-sans);
 }
-
-html[data-theme="dark"] .resource-search.psearch {
-}
-
 
 .psearch *,
 .psearch *::before,

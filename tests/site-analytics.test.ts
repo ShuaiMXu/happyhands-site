@@ -37,7 +37,7 @@ test('beforeSend excludes custom events and emits only the sanitized page URL', 
 test('HTML injection is limited to owned public entry pages', () => {
   const root = resolve('.'); const plugin = siteAnalyticsPlugin(root);
   assert.equal(plugin.transformIndexHtml.order, 'pre');
-  for (const page of ['apps/portal','apps/studio','components','systems/happyhands','systems/quartz','systems/lime','guide','en/guide']) {
+  for (const page of ['apps/portal','apps/studio','components','systems/quartz','systems/lime','guide','en/guide']) {
     const result=plugin.transformIndexHtml.handler('<html></html>', {filename:resolve(root,page,'index.html')});
     assert.equal(typeof result, 'object');
   }

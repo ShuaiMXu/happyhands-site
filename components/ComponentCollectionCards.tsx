@@ -1,3 +1,4 @@
+import { componentLibraryCover } from '../packages/ui/resource-editorial-covers';
 import React from 'react';
 import { ResourceCard } from './ResourcePresentation';
 import type { ResourceEntry } from './resource-directory';
@@ -37,7 +38,7 @@ export function ComponentCollectionCards({ groups, labels, covers, lang }: {
   return <div className="archive-grid">
     {entries.map(([id, rows]) => {
       const preview = representative(rows, covers);
-      const cover = preview && (covers[preview.id] || preview.cover);
+      const cover = componentLibraryCover(id) || (preview && (covers[preview.id] || preview.cover));
       const title = componentCollectionName(id, labels);
       return <ResourceCard
         key={id}

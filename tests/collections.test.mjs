@@ -5,7 +5,7 @@ import {resolve} from 'node:path';
 import {createHash} from 'node:crypto';
 const publicRoot=resolve('public'),catalog=JSON.parse(await readFile(resolve(publicRoot,'resources/v1/index.json'))),byId=new Map(catalog.resources.map(row=>[row.id,row]));
 test('supplied archives and existing component library have real, unique, hash-bound resources and exact counts',async()=>{
- assert.equal(catalog.schemaVersion,1);assert.equal(catalog.collections.length,13);assert.equal(byId.size,catalog.resources.length);
+ assert.equal(catalog.schemaVersion,1);assert.equal(catalog.collections.length,14);assert.equal(byId.size,catalog.resources.length);
  for(const collection of catalog.collections){assert.ok(byId.has(collection.overview));assert.equal(collection.count,catalog.resources.filter(row=>row.collection===collection.id&&row.type!=='collection').length);}
  for(const row of catalog.resources){const file=resolve(publicRoot,row.path);assert.ok(file.startsWith(publicRoot+'/'));const bytes=await readFile(file);assert.equal(createHash('sha256').update(bytes).digest('hex'),row.sha256,row.id);assert.equal(bytes.length,row.bytes);assert.equal(row.authority,'reference-data-only');if(row.cover)await readFile(resolve(publicRoot,'.'+row.cover));}
 });

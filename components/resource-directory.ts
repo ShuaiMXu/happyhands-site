@@ -1,3 +1,4 @@
+import beautifulPreviews from './beautiful-preview/catalog.json';
 import examples from "../public/resources/v1/examples.json";
 export type ResourceEntry = {
   id: string;
@@ -45,6 +46,11 @@ export function sectionFor(row: ResourceEntry) {
       : "systems";
 }
 export function previewFor(row: ResourceEntry) {
+  if (row.collection === "beautiful-ui") {
+    if (row.path === "collections/beautiful-ui/index.md") return "/components/beautiful-preview/?mode=library";
+    const name = row.id.split("/").at(-1);
+    return name && Object.hasOwn(beautifulPreviews, name) ? `/components/beautiful-preview/?component=${name}` : "";
+  }
   if (row.collection === "motion-primitives" && row.type === "component") return `/components/motion-preview/?component=${row.id.split("/").at(-1)}`;
   if(row.collection === "pin-ui" && row.type === "component") return `/components/pinui-preview/?component=${row.id.split("/").at(-1)}`;
   const name = row.path

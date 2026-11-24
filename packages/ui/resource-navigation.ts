@@ -9,4 +9,5 @@ export const resourceSections = [
 ].filter(({id}) => id !== 'design-md' || designMdCatalogEnabled);
 export const resourceTools = [
   { id: 'setup', href: '/apps/setup/', zh: '接入详情', en: 'Setup details' },
+  { id: 'review', href: '/components/beautiful-preview/', zh: '在线审查', en: 'Review online' },
 ];

@@ -7,7 +7,7 @@ import {resourceRewritePath} from './resource-preview-plugin.mjs';
 import {assertSearchContent} from './check-search-discovery.mjs';
 const origin='https://happyhands.cc';
 const builtPage = path => ['components','en/components'].includes(path) ? `dist/resource-pages/${path.startsWith('en/')?'en/':''}index.html` : `dist/${path}/index.html`;
-const pages=['nonprofit-website-design','en/nonprofit-website-design','apps/portal','en/apps/portal','en/systems/happyhands','en/systems/quartz','en/systems/lime','en/components','systems/happyhands','systems/quartz','systems/lime','components','guide','en/guide','ai-ui-review','en/ai-ui-review','ai-website-design','en/ai-website-design'];
+const pages=['nonprofit-website-design','en/nonprofit-website-design','apps/portal','en/apps/portal','en/systems/quartz','en/systems/lime','en/components','systems/quartz','systems/lime','components','guide','en/guide','ai-ui-review','en/ai-ui-review','ai-website-design','en/ai-website-design'];
 const release=JSON.parse(await readFile('dist/release.json','utf8'));
 const expected=process.env.VERCEL_GIT_COMMIT_SHA||execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim();
 assert.equal(release.revision,expected,'Built revision does not match the expected source');

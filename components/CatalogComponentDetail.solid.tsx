@@ -1,47 +1,30 @@
 /** @jsxImportSource @solidjs/web */
 import { Button } from '@ui-sdk/solid/button';
-import { Checkbox, CheckboxIndicator } from '@ui-sdk/solid/checkbox';
 import { Collapsible, CollapsiblePanel, CollapsibleTrigger } from '@ui-sdk/solid/collapsible';
 import { Textarea } from '@ui-sdk/solid/textarea';
 import { createEffect, createMemo, createSignal, For, Match, onCleanup, Show, Switch } from 'solid-js';
 import { mountSolidControl } from '../packages/ui/mount-solid-control';
-import { replacePreviewLocation } from '../packages/ui/preview-location';
+import { ComponentDetailPreview } from './ComponentDetailPreview.solid';
 import type catalog from '../public/components/cult-ui/catalog.json';
 import { ShadcnInstall } from './ShadcnInstall.solid';
 import { ResourceTabs } from './ResourceTabs.solid';
+import { ComponentSourceFiles, registrySourceFiles, type SourceFile } from './ComponentSourceFiles.solid';
 
 type Item = (typeof catalog.items)[number];
-type SourceFile = { path: string; content: string };
 type DetailProps = {
   item: Item;
   title: string;
   lang: string;
   dark: boolean;
-  revision: string;
   onSelect: (id: string) => void;
 };
-
-function PreviewFrame(props: { src: string; title: string; downloads: boolean }) {
-  let frame: HTMLIFrameElement | undefined;
-  createEffect(() => props.src, source => {
-    if (frame) replacePreviewLocation(frame, { src: source });
-  });
-  return <iframe
-    ref={frame}
-    title={props.title}
-    sandbox={props.downloads ? 'allow-scripts allow-downloads' : 'allow-scripts'}
-    referrerpolicy="no-referrer"
-  />;
-}
 
 function CatalogComponentDetail(props: { data: DetailProps }) {
   const item = () => props.data.item;
   const t = (zh: string, en: string) => props.data.lang === 'zh' ? zh : en;
   const [tab, setTab] = createSignal('preview');
-  const [motion, setMotion] = createSignal(false);
-  const [running, setRunning] = createSignal(true);
-  const [mobile, setMobile] = createSignal(false);
   const [notice, setNotice] = createSignal('');
+  const [example, setExample] = createSignal('meeting');
   const [retry, setRetry] = createSignal(0);
   const [source, setSource] = createSignal<{ files?: SourceFile[]; error?: boolean }>();
   const sourceUrl = createMemo(() => tab() === 'source' ? item().source : undefined);
@@ -54,11 +37,7 @@ function CatalogComponentDetail(props: { data: DetailProps }) {
     fetch(url, { signal: controller.signal })
       .then(async response => {
         if (!response.ok) throw new Error('Source could not load');
-        const payload = await response.json();
-        if (payload.files !== undefined && !Array.isArray(payload.files)) throw new Error('Invalid source registry');
-        return (payload.files ?? []).filter((file: SourceFile) =>
-          typeof file?.path === 'string' && typeof file?.content === 'string',
-        ) as SourceFile[];
+        return registrySourceFiles(await response.text());
       })
       .then(files => {
         if (!controller.signal.aborted) setSource({ files });
@@ -72,7 +51,8 @@ function CatalogComponentDetail(props: { data: DetailProps }) {
     component: item().id,
     theme: props.data.dark ? 'dark' : 'light',
     lang: props.data.lang,
-    motion: motion() ? 'on' : 'off',
+    motion: 'on',
+    ...(item().id === 'expandable' ? { example: example() } : {}),
   });
 
   const guidance = () => t(
@@ -112,41 +92,36 @@ function CatalogComponentDetail(props: { data: DetailProps }) {
         </Show>
       </div>
     }>
-      <div class="preview-toolbar">
-        <label>
-          <Checkbox class="catalog-motion-checkbox" aria-label={t('启用动态效果', 'Enable motion')} checked={motion()} onCheckedChange={checked => setMotion(checked === true)}>
-            <CheckboxIndicator aria-hidden="true">✓</CheckboxIndicator>
-          </Checkbox>
-          {t('启用动态效果', 'Enable motion')}
-        </label>
-        <Button class="hh-button" aria-pressed={mobile() ? 'true' : 'false'} onClick={() => setMobile(value => !value)}>
-          {mobile() ? t('手机宽度', 'Mobile width') : t('自适应宽度', 'Flexible width')}
-        </Button>
-        <Button class="hh-button" onClick={() => setRunning(value => !value)}>
-          {running() ? t('停止预览', 'Stop preview') : t('启动预览', 'Start preview')}
-        </Button>
-      </div>
-      <div class={`preview-frame-wrap${mobile() ? ' mobile' : ''}`}>
-        <Show when={running()} fallback={<p role="status">{t('预览已停止。', 'Preview stopped.')}</p>}>
-          <PreviewFrame
-            src={previewUrl()}
-            title={`${props.data.title} ${t('交互预览', 'interactive preview')}`}
-            downloads={item().id === 'bg-image-texture'}
-          />
-        </Show>
-      </div>
-      <p class="catalog-footnote">{t('本地示例，不连接外部服务。接入项目后仍需验证。', 'Local demo; no external service connection. Validate again in your project.')}</p>
+      <ComponentDetailPreview
+        lang={props.data.lang}
+        title={`${props.data.title} ${t('交互预览', 'interactive preview')}`}
+        src={previewUrl()}
+        hint={item().id === 'expandable' ? t('选择卡片即可展开', 'Select the card to expand it') : undefined}
+        toolbar={<Show when={item().id === 'expandable'}>
+          <label class="component-preview-select">
+            <span>{t('示例', 'Example')}</span>
+            <select class="hh-select-native" value={example()} onChange={event => setExample(event.currentTarget.value)}>
+              <option value="meeting">{t('会议', 'Meeting')}</option>
+              <option value="product">{t('商品', 'Product')}</option>
+              <option value="weather">{t('天气', 'Weather')}</option>
+            </select>
+          </label>
+        </Show>}
+        sandbox={item().id === 'bg-image-texture' ? 'allow-scripts allow-downloads' : 'allow-scripts'}
+      />
     </Show>
   );
 
   const sourcePanel = () => (
     <>
+      <div class="collections-actions">
+        <a class="hh-button catalog-download" href={item().source} download>{t('下载源码清单', 'Download source registry')}</a>
+        <Show when={item().demoSource}><a class="hh-button" href={item().demoSource || undefined} download>{t('下载示例源码', 'Download demo source')}</a></Show>
+      </div>
       <Collapsible class="upstream-description">
         <CollapsibleTrigger class="document-disclosure">{t('上游组件说明（英文）', 'Component description')}</CollapsibleTrigger>
         <CollapsiblePanel><p>{item().description}</p></CollapsiblePanel>
       </Collapsible>
-      <p>{t('固定版本的原始源码，未经演示适配。', 'Original source at the pinned revision, before preview adaptations.')}</p>
-      <a class="catalog-download" href={item().source} download>{t('下载源码清单', 'Download source registry')}</a>
       <Switch fallback={<p role="status">{t('正在读取源码…', 'Loading source…')}</p>}>
         <Match when={source()?.error}>
           <div role="alert">
@@ -155,14 +130,9 @@ function CatalogComponentDetail(props: { data: DetailProps }) {
           </div>
         </Match>
         <Match when={source()?.files}>
-          <For each={source()?.files} fallback={<p>{t('兼容别名不包含独立源码。', 'This alias has no separate source files.')}</p>}>
-            {file => (
-              <Collapsible class="source-file" defaultOpen={source()?.files?.length === 1}>
-                <CollapsibleTrigger class="document-disclosure">{file.path}</CollapsibleTrigger>
-                <CollapsiblePanel><pre><code>{file.content}</code></pre></CollapsiblePanel>
-              </Collapsible>
-            )}
-          </For>
+          <Show when={(source()?.files?.length || 0) > 0} fallback={<p>{t('此条目没有独立源码文件。', 'This entry has no separate source files.')}</p>}>
+            <ComponentSourceFiles files={source()?.files || []} lang={props.data.lang} />
+          </Show>
         </Match>
       </Switch>
     </>
@@ -195,22 +165,15 @@ function CatalogComponentDetail(props: { data: DetailProps }) {
   return (
     <>
       <ResourceTabs
-        tabs={[{ id: 'preview', label: t('效果预览', 'Preview') }, { id: 'source', label: t('源码', 'Source') }, { id: 'integration', label: t('接入规范', 'Integration') }]}
+        tabs={[{ id: 'preview', label: t('预览', 'Preview') }, { id: 'source', label: t('源码', 'Source') }, { id: 'integration', label: t('接入', 'Integration') }]}
         label={t('组件内容', 'Component content')}
         value={tab()}
         onChange={setTab}
-        listClass="catalog-tabs resource-content-tabs"
-        panelClass="catalog-panel"
+        listClass="resource-content-tabs component-detail-tabs"
+        panelClass="resource-content-panel component-detail-panel"
         panel={id => id === 'preview' ? preview() : id === 'source' ? sourcePanel() : integration()}
       />
-      <Collapsible class="catalog-provenance">
-        <CollapsibleTrigger class="document-disclosure">{t('来源与展示规范', 'Source and display rules')}</CollapsibleTrigger>
-        <CollapsiblePanel>
-          <p>{t('目录来自固定版本的 Cult UI 注册表。网站外壳沿用 HappyHands；组件在独立预览文档中运行，样式不影响官网。原始源码、示例源码和许可证一并保留。', 'The catalog uses a pinned Cult UI registry. The shell uses HappyHands; components run in isolated preview documents without styling the site. Original sources, examples and licensing are retained.')}</p>
-          <p><code>{props.data.revision}</code></p>
-          <p>{t('原版预览不代表已满足 HappyHands 或目标项目的可访问性规范。', 'Source previews do not imply HappyHands or target-project accessibility approval.')}</p>
-        </CollapsiblePanel>
-      </Collapsible>
+
     </>
   );
 }

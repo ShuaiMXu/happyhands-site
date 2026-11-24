@@ -2,6 +2,7 @@ import { Input } from "../../packages/ui";
 import { useState } from "react";
 import { Button } from "../../packages/ui";
 import { Select } from "../../packages/ui/Select";
+import { Card, CardContent } from "../../packages/ui/shadcn/card";
 import tokens from "../../packages/design-tokens/happyhands.json";
 
 const names: Record<string, string> = {
@@ -159,72 +160,74 @@ export function TokenReference({
             current = dark ? night : light,
             group = groupOf(key);
           return (
-            <article className="token-entry" key={key} data-token={key}>
-              <div className="token-specimen" aria-hidden="true">
-                {group === "color" ? (
-                  <>
-                    <i style={{ background: light }} />
-                    <i style={{ background: night }} />
-                  </>
-                ) : group === "space" ? (
-                  <span className="space-specimen" style={{ width: current }} />
-                ) : key.startsWith("radius-") ? (
-                  <span
-                    className="shape-specimen"
-                    style={{ borderRadius: current }}
-                  />
-                ) : key.startsWith("shadow-") ? (
-                  <span
-                    className="shape-specimen"
-                    style={{ boxShadow: current }}
-                  />
-                ) : group === "type" ? (
-                  <span style={{ fontFamily: current }}>字 Aa 012</span>
-                ) : (
-                  <span>{current}</span>
-                )}
-              </div>
-              <h4>
-                {t(
-                  names[key] ||
-                    (key.startsWith("chart-")
-                      ? `图表色 ${key.slice(6)}`
-                      : key.startsWith("space-")
-                        ? `间距 ${key.slice(6)}`
-                        : key),
-                  key,
-                )}
-              </h4>
-              <code>--hh-{key}</code>
-              <dl>
-                <div>
-                  <dt>{t("浅色", "Light")}</dt>
-                  <dd>{light}</dd>
+            <Card className="system-specimen token-entry" size="sm" key={key} data-token={key}>
+              <CardContent>
+                <div className="token-specimen" aria-hidden="true">
+                  {group === "color" ? (
+                    <>
+                      <i style={{ background: light }} />
+                      <i style={{ background: night }} />
+                    </>
+                  ) : group === "space" ? (
+                    <span className="space-specimen" style={{ width: current }} />
+                  ) : key.startsWith("radius-") ? (
+                    <span
+                      className="shape-specimen"
+                      style={{ borderRadius: current }}
+                    />
+                  ) : key.startsWith("shadow-") ? (
+                    <span
+                      className="shape-specimen"
+                      style={{ boxShadow: current }}
+                    />
+                  ) : group === "type" ? (
+                    <span style={{ fontFamily: current }}>字 Aa 012</span>
+                  ) : (
+                    <span>{current}</span>
+                  )}
                 </div>
-                <div>
-                  <dt>{t("深色", "Dark")}</dt>
-                  <dd>{night}</dd>
-                </div>
-              </dl>
-              <Button
-                variant="ghost"
-                onClick={async () => {
-                  try {
-                    await navigator.clipboard.writeText(`var(--hh-${key})`);
-                    setNotice(t(`已复制 ${key}`, `${key} copied`));
-                  } catch {
-                    setNotice(
-                      t(
-                        `请手动复制：var(--hh-${key})`,
-                        `Copy manually: var(--hh-${key})`,
-                      ),
-                    );
-                  }
-                }}
-              >
-                {t("复制变量", "Copy token")}
-              </Button>
-            </article>
+                <h4>
+                  {t(
+                    names[key] ||
+                      (key.startsWith("chart-")
+                        ? `图表色 ${key.slice(6)}`
+                        : key.startsWith("space-")
+                          ? `间距 ${key.slice(6)}`
+                          : key),
+                    key,
+                  )}
+                </h4>
+                <code>--hh-{key}</code>
+                <dl>
+                  <div>
+                    <dt>{t("浅色", "Light")}</dt>
+                    <dd>{light}</dd>
+                  </div>
+                  <div>
+                    <dt>{t("深色", "Dark")}</dt>
+                    <dd>{night}</dd>
+                  </div>
+                </dl>
+                <Button
+                  variant="ghost"
+                  onClick={async () => {
+                    try {
+                      await navigator.clipboard.writeText(`var(--hh-${key})`);
+                      setNotice(t(`已复制 ${key}`, `${key} copied`));
+                    } catch {
+                      setNotice(
+                        t(
+                          `请手动复制：var(--hh-${key})`,
+                          `Copy manually: var(--hh-${key})`,
+                        ),
+                      );
+                    }
+                  }}
+                >
+                  {t("复制变量", "Copy token")}
+                </Button>
+              </CardContent>
+            </Card>
           );
         })}
       </div>

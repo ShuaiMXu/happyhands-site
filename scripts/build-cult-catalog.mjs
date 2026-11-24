@@ -285,6 +285,10 @@ for (const key of selectedModules) {
   code = code.replaceAll('"/cult-icon.svg"', '"/components/cult-ui/sample.svg"');
   code = code.replace(/(["'])https:\/\/player\.vimeo\.com\/video\/[^"']+\1/g, '"/components/cult-ui/sample.webm"');
   code = code.replace(/`https:\/\/picsum\.photos\/[^`]+`/g, '"/components/cult-ui/sample.svg"');
+  if (key.endsWith("/expandable-demo")) {
+    // The detail page selects one of the pinned demo's three original examples.
+    code += "\nexport { DesignSyncExample };\n";
+  }
   if (key === 'registry/default/ui/mac-screen') code = code.replace('src="/components/cult-ui/sample.svg"', 'src="/components/cult-ui/device-frame.svg"');
   if (key === 'registry/default/ui/youtube-video-player') {
     code = code.replace(/`https:\/\/i\.ytimg\.com[^`]+`/g, '"/components/cult-ui/sample.svg"')

@@ -1,3 +1,4 @@
+import { systemCover } from '../../packages/ui/resource-editorial-covers';
 import {setupLiquidNavigation} from '../../packages/ui/liquid-navigation';
 import { archiveCover } from "../../components/archive-catalog";
 import {
@@ -17,7 +18,7 @@ const escape = (value) =>
         char
       ],
   );
-const systems = ["happyhands", "quartz", "lime", "sodium", "glaze"];
+const systems = ["quartz", "lime", "sodium", "glaze"];
 const components = [
   ["shift-card", "Shift Card"],
   ["texture-button", "Texture Button"],
@@ -71,7 +72,7 @@ export function resourceFeed(lang) {
     )
       .map((item) => referenceCard(item, lang))
       .join("")}</div></div>` : ""}
-    <div class="feed-collection" role="tabpanel" id="feed-panel-systems" aria-labelledby="feed-tab-systems"${designMdCatalogEnabled ? " hidden" : ""}><div class="feed-grid">${systems.map((id) => `<a class="feed-item" href="${lang === "en" ? "/en" : ""}/components/?provider=systems&system=${id}"><div class="feed-art feed-system"><img src="/system-covers/${id}.png" alt="" loading="lazy" width="1500" height="938"></div><div class="feed-caption"><h3>${id === "happyhands" ? "HappyHands" : id.charAt(0).toUpperCase() + id.slice(1)}</h3></div></a>`).join("")}</div></div>
+    <div class="feed-collection" role="tabpanel" id="feed-panel-systems" aria-labelledby="feed-tab-systems"${designMdCatalogEnabled ? " hidden" : ""}><div class="feed-grid">${systems.map((id) => `<a class="feed-item" href="${lang === "en" ? "/en" : ""}/components/?provider=systems&system=${id}"><div class="feed-art feed-system"><img src="${systemCover(id)}" alt="" loading="lazy" width="1500" height="938"></div><div class="feed-caption"><h3>${id.charAt(0).toUpperCase() + id.slice(1)}</h3></div></a>`).join("")}</div></div>
     <div class="feed-collection" role="tabpanel" id="feed-panel-cult-ui" aria-labelledby="feed-tab-cult-ui" hidden><div class="feed-grid">${components.map(([id, title]) => componentCard([id, title], lang)).join("")}</div></div>
   </section>`;
 }

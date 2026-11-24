@@ -7,7 +7,7 @@ import {portalLanguage,portalPath} from '../apps/portal/language.ts';
 import {seoPages,seoData,seoHead,enhanceSeoHtml,guideFaq} from '../packages/ui/site-seo.ts';
 import {guideContent} from '../guide/content.ts';
 const origin='https://happyhands.cc';
-const paths=['apps/portal','en/apps/portal','systems/happyhands','systems/quartz','systems/lime','components'];
+const paths=['apps/portal','en/apps/portal','systems/quartz','systems/lime','components'];
 const read=path=>readFile(new URL(`../${path}`,import.meta.url),'utf8');
 test('public metadata consistently identifies the production domain',async()=>{
   const sitemap=await read('public/sitemap.xml');

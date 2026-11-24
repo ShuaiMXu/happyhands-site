@@ -40,13 +40,6 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: var(--hh-space-4);
 }
-.token-entry {
-  min-width: 0;
-  border: 0.5px solid var(--hh-line);
-  border-radius: var(--hh-radius-lg);
-  background: var(--hh-bg-raised);
-  padding: var(--hh-space-5);
-}
 .token-entry h4 {
   margin: var(--hh-space-4) 0 var(--hh-space-1);
 }
@@ -100,11 +93,6 @@
   overflow-wrap: anywhere;
   font-family: var(--hh-font-mono);
 }
-.system-landing .token-entry .hh-button {
-  min-height: 44px;
-  padding: var(--hh-space-1) 0;
-  font-size: 12px;
-}
 .reference-empty {
   padding: var(--hh-space-8);
   background: var(--hh-bg-sunken);
@@ -126,10 +114,6 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: var(--hh-space-5);
-}
-.system-landing .showcase-grid .demo {
-  min-width: 0;
-  margin: 0;
 }
 .reference-kicker {
   color: var(--hh-ink-muted);
@@ -169,24 +153,6 @@
   margin: var(--hh-space-1) 0 0;
   font-size: 12px;
   color: var(--hh-ink-muted);
-}
-.reference-tag {
-  white-space: nowrap;
-  color: var(--hh-ink-muted);
-  background: var(--hh-bg-sunken);
-  font-size: 12px;
-  border-radius: var(--hh-radius-sm);
-  padding: var(--hh-space-1) var(--hh-space-2);
-}
-.reference-tag[data-state="ready"] {
-  color: var(--hh-success);
-  background: var(--hh-success-soft);
-}
-.pattern-window {
-  overflow: hidden;
-  border: 0.5px solid var(--hh-line);
-  border-radius: var(--hh-radius-lg);
-  background: var(--hh-bg-raised);
 }
 .pattern-window > header {
   display: flex;

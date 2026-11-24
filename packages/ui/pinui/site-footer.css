@@ -12,6 +12,9 @@ footer.hh-catalog-footer {
   color:var(--hh-ink-muted);
 }
 
+footer.portal-footer:has(.hh-synais-footer) { margin-top:0; }
+footer.portal-footer .hh-synais-footer { padding-top:32px; }
+
 .hh-synais-footer {
   padding:clamp(28px, 6vw, 56px) var(--page-inset, max(20px, calc((100% - 1280px) / 2))) 20px;
   color:var(--hh-ink-muted);

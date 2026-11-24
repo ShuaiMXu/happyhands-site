@@ -22,3 +22,11 @@
     padding: var(--hh-space-6);
   }
 }
+
+.happyhands-document-page {
+  padding-inline: var(--page-inset);
+}
+.happyhands-document-page > .system-landing {
+  max-width: 1240px;
+  margin-inline: auto;
+}

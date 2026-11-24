@@ -1,5 +1,7 @@
 /* Homepage body only; the approved Hero is outside this scope. */
 .resource-feed { padding-top:48px; }
+#design-resources.resource-feed { padding-bottom:24px; border-bottom:0; }
+#design-resources .resource-directory { padding-bottom:0; margin-bottom:0; }
 .feed-collection + .feed-collection { margin-top:48px; }
 .feed-heading { display:flex; align-items:baseline; justify-content:space-between; gap:20px; margin-bottom:20px; }
 .feed-heading h2 { margin:0; font-size:24px; line-height:1.3; letter-spacing:-.025em; }

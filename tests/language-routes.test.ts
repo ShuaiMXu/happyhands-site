@@ -18,16 +18,18 @@ test('English system builds use complete localized fallback content, not partial
  const write=async(path:string,text:string)=>{const file=join(cwd,path);await mkdir(dirname(file),{recursive:true});await writeFile(file,text);};
  const sources=new Map<string,string>();
  try {
-  for(const key of ['quartz','lime','happyhands','components'] as const){
+  for(const key of ['quartz','lime','components'] as const){
    const data=seoData(key,'zh');
    const html=`<html lang="zh-CN"><head>${seoHead(key,'zh')}</head><body><div id="root"><noscript><main><h1>${data.title}</h1><p>${data.description}</p><p>交互预览需要启用 JavaScript。<a href="/guide/">阅读使用指南</a></p><nav aria-label="设计资源"><a href="/components/">组件与参考</a></nav></main></noscript></div><script src="/assets/example.js"></script></body></html>`;
    const path=key==='components'?'resource-pages/en':`systems/${key}`;
    sources.set(path,html);await write(`dist/${path}/index.html`,html);
   }
+  await write('dist/systems/happyhands/index.html', await readFile(new URL('../systems/happyhands/index.html', import.meta.url), 'utf8'));
   for(const key of ['glaze','sodium'])await write(`dist/systems/${key}/index.html`,'<html><head></head><body></body></html>');
   await write('public/design-how/catalog.json',JSON.stringify({systems:['glaze','sodium'].map(id=>({id,name:id,summary:'Source reference'}))}));
   await write('dist/sitemap.xml','<urlset></urlset>');
   execFileSync(process.execPath,['--import',import.meta.resolve('tsx'),fileURLToPath(new URL('../scripts/build-language-pages.mjs',import.meta.url))],{cwd,stdio:'pipe'});
+  assert.match(await readFile(join(cwd,'dist/en/systems/happyhands/index.html'),'utf8'), /url=\/en\/components\/\?provider=systems/);
   for(const key of ['quartz','lime'] as const){
    const html=await readFile(join(cwd,`dist/en/systems/${key}/index.html`),'utf8');
    const fallback=html.match(/<noscript>([\s\S]*?)<\/noscript>/)?.[1];
@@ -36,7 +38,7 @@ test('English system builds use complete localized fallback content, not partial
    assert.ok(fallback.includes(seoData(key,'en').description));
    assert.doesNotMatch(fallback,/[\u3400-\u9fff]/);
    assert.match(fallback,/Interactive previews require JavaScript/);
-   for(const path of ['guide','components','systems/happyhands','systems/quartz','systems/lime'])assert.ok(fallback.includes(`href="/en/${path}/"`),path);
+   for(const path of ['guide','components','systems/quartz','systems/lime'])assert.ok(fallback.includes(`href="/en/${path}/"`),path);
    assert.ok(html.includes('src="/assets/example.js"'),'Preserve the interactive application');
    assert.equal(await readFile(join(cwd,`dist/systems/${key}/index.html`),'utf8'),sources.get(`systems/${key}`),'Do not rewrite the Chinese source');
   }

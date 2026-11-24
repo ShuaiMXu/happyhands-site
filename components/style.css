@@ -190,7 +190,7 @@ h1 {
   letter-spacing: -0.03em;
 }
 .catalog-item-head > p:not(.catalog-eyebrow),
-.catalog-panel > p {
+.component-detail-panel > p {
   font-size: 14px;
   line-height: 1.8;
   color: var(--hh-ink-muted);
@@ -206,65 +206,6 @@ h1 {
   padding: var(--hh-space-1) var(--hh-space-2);
   border: 0.5px solid var(--hh-line);
   border-radius: var(--hh-radius-sm);
-  color: var(--hh-ink-muted);
-}
-.catalog-tabs {
-  display: flex;
-  gap: var(--hh-space-6);
-  border-bottom: 0.5px solid var(--hh-line);
-  margin-top: var(--hh-space-6);
-}
-.catalog-tabs button {
-  border: 0;
-  border-radius: 0;
-  background: none;
-  padding-inline: 0;
-  color: var(--hh-ink-muted);
-}
-.catalog-tabs button[aria-selected="true"] {
-  color: var(--hh-ink);
-  box-shadow: inset 0 -2px var(--hh-ink);
-}
-.catalog-panel {
-  padding-top: var(--hh-space-5);
-}
-.preview-toolbar {
-  display: flex;
-  align-items: center;
-  gap: var(--hh-space-2);
-  flex-wrap: wrap;
-  margin-bottom: var(--hh-space-4);
-  font-size: 12px;
-}
-.preview-toolbar label {
-  display: flex;
-  align-items: center;
-  gap: var(--hh-space-2);
-  margin-right: auto;
-}
-.preview-toolbar button {
-  font-size: 12px;
-}
-.preview-frame-wrap {
-  width: 100%;
-  border: 0.5px solid var(--hh-line);
-  border-radius: var(--hh-radius-lg);
-  background: var(--hh-bg-raised);
-  overflow: hidden;
-  min-height: 440px;
-}
-.preview-frame-wrap.mobile {
-  max-width: 390px;
-  margin-inline: auto;
-}
-.preview-frame-wrap iframe {
-  display: block;
-  border: 0;
-  width: 100%;
-  height: 560px;
-}
-.preview-frame-wrap > p {
-  padding: var(--hh-space-8);
   color: var(--hh-ink-muted);
 }
 .catalog-footnote {
@@ -328,7 +269,7 @@ h1 {
   overflow-wrap: anywhere;
   line-height: 1.7;
 }
-.catalog-panel textarea {
+.component-detail-panel textarea {
   width: 100%;
   resize: vertical;
   padding: var(--hh-space-4);
@@ -413,9 +354,6 @@ h1 {
   }
   .catalog-item-head h2 {
     font-size: 20px;
-  }
-  .preview-frame-wrap iframe {
-    height: 500px;
   }
   .integration-facts > div {
     grid-template-columns: 1fr;

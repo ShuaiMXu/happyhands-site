@@ -13,7 +13,7 @@ function head(html,key){return html.replace(/<html[^>]*>/,'<html lang="en">').re
 const escapeHtml=text=>text.replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 function englishSystemFallback(key){
  const {title,description}=seoData(key,'en');
- return `<noscript><main><h1>${escapeHtml(title)}</h1><p>${escapeHtml(description)}</p><p>Interactive previews require JavaScript. <a href="/en/guide/">Read the guide</a></p><nav aria-label="Design resources"><a href="/en/systems/happyhands/">HappyHands</a> / <a href="/en/systems/quartz/">Quartz</a> / <a href="/en/systems/lime/">Lime</a> / <a href="/en/components/">Components and references</a></nav></main></noscript>`;
+ return `<noscript><main><h1>${escapeHtml(title)}</h1><p>${escapeHtml(description)}</p><p>Interactive previews require JavaScript. <a href="/en/guide/">Read the guide</a></p><nav aria-label="Design resources"><a href="/en/systems/quartz/">Quartz</a> / <a href="/en/systems/lime/">Lime</a> / <a href="/en/components/">Components and references</a></nav></main></noscript>`;
 }
 for(const [key,path]of [['quartz','systems/quartz'],['lime','systems/lime'],['components','resource-pages/en']]){
  let html=await readFile(`dist/${path}/index.html`,'utf8');html=head(translate(html,zh,en),key);
@@ -23,7 +23,7 @@ for(const [key,path]of [['quartz','systems/quartz'],['lime','systems/lime'],['co
  const out=key==='components'?'dist/resource-pages/en/index.html':`dist/en/${path}/index.html`;await mkdir(dirname(out),{recursive:true});await writeFile(out,html);
 }
 
-for(const system of ['happyhands','glaze','sodium']) {
+for(const system of ['glaze','sodium']) {
  const source=await readFile(`dist/systems/${system}/index.html`,'utf8');
  let html=head(source,'components').replaceAll('https://happyhands.cc/en/components/',`https://happyhands.cc/en/systems/${system}/`).replaceAll('https://happyhands.cc/components/',`https://happyhands.cc/systems/${system}/`).replace(/<title>.*?<\/title>/,`<title>${system} design system / HappyHands</title>`);
  if(system!=='happyhands') {
@@ -36,8 +36,16 @@ for(const system of ['happyhands','glaze','sodium']) {
  }
  const out=`dist/en/systems/${system}/index.html`;await mkdir(dirname(out),{recursive:true});await writeFile(out,html);
 }
+const retiredSystem = await readFile('dist/systems/happyhands/index.html', 'utf8');
+await mkdir('dist/en/systems/happyhands', { recursive: true });
+await writeFile(
+  'dist/en/systems/happyhands/index.html',
+  retiredSystem.replace('lang="zh-CN"', 'lang="en"').replaceAll('/components/?', '/en/components/?')
+    .replace('设计系统目录', 'Design systems').replace('浏览设计系统', 'Browse design systems'),
+);
+
 try {await writeFile('dist/resource-pages/en/not-found.html',(await readFile('dist/resource-pages/not-found.html','utf8')).replace('lang="zh-CN"','lang="en"'));}catch(error){if(error.code!=='ENOENT')throw error;}
 
 const sitemap=await readFile('dist/sitemap.xml','utf8');
-const extra=['apps/portal','systems/quartz','systems/lime','systems/happyhands','components'].filter(path=>!sitemap.includes(`https://happyhands.cc/en/${path}/`)).map(path=>`<url><loc>https://happyhands.cc/en/${path}/</loc></url>`).join('\n');
+const extra=['apps/portal','systems/quartz','systems/lime','components'].filter(path=>!sitemap.includes(`https://happyhands.cc/en/${path}/`)).map(path=>`<url><loc>https://happyhands.cc/en/${path}/</loc></url>`).join('\n');
 await writeFile('dist/sitemap.xml',sitemap.replace('</urlset>',extra+'\n</urlset>'));

@@ -55,17 +55,6 @@ export async function resourceEntries(root) {
       download: target.source,
     });
   }
-  const own = {
-    id: "happyhands",
-    name: "HappyHands",
-    summary: "HappyHands brand rules, semantic tokens and product components.",
-  };
-  entries.push({
-    seo: systemSeo(own),
-    file: "systems/happyhands/index.html",
-    body: own.summary,
-    download: "/systems/happyhands/",
-  });
   for (const system of systems.systems) {
     const overview = await readFile(
       resolve(root, `public/systems/${system.id}/index.md`),

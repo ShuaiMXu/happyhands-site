@@ -36,23 +36,31 @@ export const ResourceCard = forwardRef<
 export function ResourceDetailHeader({
   title,
   backLabel,
+  headingLevel = 2,
   onBack,
   children,
+  description,
+  compact = false,
 }: {
   title: string;
   backLabel: string;
+  headingLevel?: 1 | 2;
   onBack: () => void;
+  description?: string;
+  compact?: boolean;
   children?: React.ReactNode;
 }) {
+  const Heading = headingLevel === 1 ? "h1" : "h2";
   return (
-    <header className="resource-detail-header">
+    <header className={`resource-detail-header${compact ? " component-detail-header" : ""}`}>
       <div className="resource-detail-header-actions">
-        <Button variant="secondary" className="resource-back-button" onClick={onBack}>
+        <Button variant={compact ? "ghost" : "secondary"} className={compact ? "component-detail-return" : "resource-back-button"} onClick={onBack}>
           {backLabel}
         </Button>
         {children}
       </div>
-      <h2>{title}</h2>
+      <Heading>{title}</Heading>
+      {description && <p>{description}</p>}
     </header>
   );
 }
@@ -61,9 +69,11 @@ export function ResourceDetailHeader({
 export function ResourceDetailContent({
   lang,
   children,
+  labels,
 }: {
   lang: string;
   children: React.ReactNode;
+  labels?: readonly string[];
 }) {
   const panels = React.Children.toArray(children);
   const [targets, setTargets] = useState<Record<string, HTMLDivElement | null>>({});
@@ -72,13 +82,13 @@ export function ResourceDetailContent({
   }, []);
   const count = panels.length;
   const tabs = useMemo(() => {
-    const labels = lang === 'zh' ? ['预览', '资料与下载'] : ['Preview', 'Files and downloads'];
+    const panelLabels = labels ?? (lang === 'zh' ? ['预览', '资料与下载'] : ['Preview', 'Files and downloads']);
     return {
       label: lang === 'zh' ? '资源内容' : 'Resource content',
-      tabs: labels.slice(0, count).map((label, i) => ({ id: String(i), label })),
+      tabs: panelLabels.slice(0, count).map((label, i) => ({ id: String(i), label })),
       onTarget,
     };
-  }, [lang, count, onTarget]);
+  }, [lang, count, labels, onTarget]);
   return (
     <div className="resource-detail-content">
       <SolidControlHost mount={mountResourceDetailTabs} value={tabs} />

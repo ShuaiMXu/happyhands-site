@@ -10,7 +10,7 @@ for (const name of scripts.filter(name => name.endsWith('.js'))) {
   if ((await readFile(join(assets,name),'utf8')).includes('/_vercel/insights/script.js')) { analyticsAsset=name; break; }
 }
 assert.ok(analyticsAsset,'Analytics must be compiled into the production assets');
-for (const page of ['apps/portal','apps/studio','components','systems/happyhands','systems/quartz','systems/lime','guide','en/guide']) {
+for (const page of ['apps/portal','apps/studio','components','systems/quartz','systems/lime','guide','en/guide']) {
   const html=await readFile(`dist/${page}/index.html`,'utf8');
   assert.ok(!html.includes('/packages/ui/site-analytics.ts'),'Do not leave an unbundled TypeScript URL in production');
 }

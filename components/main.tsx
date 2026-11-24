@@ -48,13 +48,23 @@ const readSelection = () =>
     new URLSearchParams(location.search).get("component"),
   )?.id || "";
 
+// Redirect old design-system bookmarks to the catalog before selecting a resource.
+const initialRoute = new URL(location.href);
+if (initialRoute.searchParams.get('provider') === 'systems' &&
+    initialRoute.searchParams.get('system') === 'happyhands') {
+  initialRoute.searchParams.delete('system');
+  initialRoute.searchParams.delete('doc');
+  initialRoute.hash = '';
+  history.replaceState(history.state, '', initialRoute);
+}
+
 // Retired public tool: keep old bookmarks understandable without opening the editor.
 if (new URLSearchParams(location.search).get('provider') === 'studio') location.replace('/apps/studio/');
 function App() {
   const readProvider = () => {
     const value = new URLSearchParams(location.search).get("provider");
     if(value==='collections'){const collection=new URLSearchParams(location.search).get('collection')||'';return ['registry-own','brand-registry','cult-ui'].includes(collection)?'cult-ui':isDesignMdCollection(collection)&&designMdCatalogEnabled?'design-md':'systems';}
-    if(value === "studio" || value === "setup") return value;
+    if(value === "studio" || value === "setup" || value === "review") return value;
     return isDesignMdProvider(value)
       ? (designMdCatalogEnabled ? "design-md" : "systems")
       : value === "systems"
@@ -86,12 +96,12 @@ function App() {
   const [page, setPage] = useState(0);
   useEffect(() => setPage(0), [group, query]);
   useEffect(() => {
-    if (selected) main.current?.focus();
+    if (selected) main.current?.focus({ preventScroll: true });
   }, [selected]);
   useEffect(() => {
     if (provider === "cult-ui") applyResourceMetadata(selected ? componentSeo(item) : null, lang);
     // Embedded tools do not own the parent document's resource metadata.
-    if (provider === "studio" || provider === "setup" || provider === "collections") applyResourceMetadata(null, lang);
+    if (provider === "studio" || provider === "setup" || provider === "review" || provider === "collections") applyResourceMetadata(null, lang);
   }, [lang, provider, selected]);
   useEffect(() => {
     const handle = () => {
@@ -128,7 +138,7 @@ function App() {
         setProvider(id);setSelected("");setRouteVersion(v=>v+1);history.pushState(null,"",`?provider=${id}`);
       }}/>
       <ResourceToolPanels active={provider} lang={lang}/>
-      {provider === "studio" || provider === "setup" ? null : archiveRouteDisabled || (!new URLSearchParams(location.search).has("design")&&!new URLSearchParams(location.search).has("system")&&!selected)||new URLSearchParams(location.search).has("resource") ? <ResourceDirectory key={`${provider}-${routeVersion}`} section={provider} lang={lang}/> : provider === "systems" ? (
+      {provider === "studio" || provider === "setup" || provider === "review" ? null : archiveRouteDisabled || (!new URLSearchParams(location.search).has("design")&&!new URLSearchParams(location.search).has("system")&&!selected)||new URLSearchParams(location.search).has("resource") ? <ResourceDirectory key={`${provider}-${routeVersion}`} section={provider} lang={lang}/> : provider === "systems" ? (
         <SystemLibrary lang={lang} />
       ) : provider === "design-md" ? (
         <DesignMdLibrary lang={lang} />
@@ -231,11 +241,16 @@ function App() {
               id="catalog-main"
               ref={main}
               tabIndex={-1}
-              className="catalog-main"
+              className="catalog-main component-detail-page"
             >
               <ResourceDetailHeader
+                headingLevel={1}
                 title={title(item)}
-                backLabel={t("返回组件库", "All components")}
+                compact
+                description={item.id === "expandable"
+                  ? t("让卡片从摘要展开为详情，让用户留在当前页面。", "Expand a card from a summary to its details in place.")
+                  : item.description}
+                backLabel={t("返回 Cult UI 组件库", "Back to Cult UI components")}
                 onBack={() => {
                   returning.current = true;
                   setSelected("");
@@ -251,7 +266,6 @@ function App() {
                 title={title(item)}
                 lang={lang}
                 dark={dark}
-                revision={data.revision}
                 onSelect={select}
               />
             </main>

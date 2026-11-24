@@ -1,23 +1,12 @@
-import { applyResourceMetadata, systemSeo } from "../packages/ui/resource-seo";
+import { systemCover } from '../packages/ui/resource-editorial-covers';
+import { applyResourceMetadata } from "../packages/ui/resource-seo";
 import { Button } from "../packages/ui";
-import {
-  ResourceCard,
-  ResourceDetailContent,
-} from "./ResourcePresentation";
+import { ResourceCard } from "./ResourcePresentation";
 import { ResourceToolbar } from "./ResourceToolbar";
 import { DesignHowLibrary } from "./DesignHowLibrary";
-import { ResourceExport } from "./ResourceExport";
 import "./archive-gallery.css";
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState } from "react";
 const systems = [
-  {
-    id: "happyhands",
-    name: "HappyHands",
-    zh: "品牌规范与产品组件",
-    en: "Brand rules and product components",
-    summaryZh: "本站自用的品牌规范、语义 token 与产品组件，也是这份站点本身的视觉底稿。",
-    summaryEn: "The brand rules, semantic tokens and product components this site is built on.",
-  },
   {
     id: "quartz",
     name: "Quartz",
@@ -61,7 +50,6 @@ export function SystemLibrary({ lang }: { lang: string }) {
   const [selected, setSelected] = useState(read);
   useEffect(() => {
     if (!selected) applyResourceMetadata(null, lang);
-    if (selected === 'happyhands') applyResourceMetadata(systemSeo({id:'happyhands',name:'HappyHands',summary:'HappyHands brand rules, semantic tokens and product components.'}),lang);
   }, [selected,lang]);
   const [query, setQuery] = useState("");
   const filtered = systems.filter((s) =>
@@ -74,29 +62,7 @@ export function SystemLibrary({ lang }: { lang: string }) {
     addEventListener("popstate", update);
     return () => removeEventListener("popstate", update);
   }, []);
-  const frame = useRef<HTMLIFrameElement>(null);
-  const [height, setHeight] = useState(1200);
-  useEffect(() => {
-    setHeight(1200);
-  }, [selected]);
-  useEffect(() => {
-    const resize = (event: MessageEvent) => {
-      if (
-        event.origin !== location.origin ||
-        event.source !== frame.current?.contentWindow ||
-        event.data?.type !== "system-content-height"
-      )
-        return;
-      const value = event.data.height;
-      if (typeof value === "number" && Number.isFinite(value) && value > 0)
-        setHeight(Math.min(30000, Math.ceil(value)));
-    };
-    addEventListener("message", resize);
-    return () => removeEventListener("message", resize);
-  }, []);
-  const current = systems.find((system) => system.id === selected);
-  const name = current?.name || "";
-  const base = `/systems/${selected}/`;
+  const current = systems.find(system => system.id === selected);
   return (
     <main id="catalog-main" className="system-library-full" tabIndex={-1}>
       {!selected && (
@@ -121,7 +87,7 @@ export function SystemLibrary({ lang }: { lang: string }) {
                 description={t(zh, en)}
                 media={
                   <img
-                    src={`/system-covers/${id}.png`}
+                    src={systemCover(id)}
                     alt=""
                     width="1500"
                     height="938"
@@ -150,120 +116,13 @@ export function SystemLibrary({ lang }: { lang: string }) {
           )}
         </>
       )}
-      {selected && (
-        <>
-          <header className="resource-detail-header system-detail-hero">
-            <nav className="system-detail-crumbs" aria-label={t("当前位置", "Breadcrumb")}>
-              <a
-                href="?provider=systems"
-                onClick={(event) => {
-                  if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
-                  event.preventDefault();
-                  setSelected("");
-                  history.pushState(null, "", "?provider=systems");
-                }}
-              >
-                {t("设计系统", "Design systems")}
-              </a>
-              <span aria-hidden="true">/</span>
-              <span aria-current="page">{name}</span>
-            </nav>
-            <div className="system-detail-grid">
-              <div>
-                <p className="system-detail-eyebrow">
-                  {selected === "happyhands"
-                    ? t("我们的设计系统", "Our design system")
-                    : t("外部设计系统 / design.how", "External design system / design.how")}
-                </p>
-                <h2>{name}</h2>
-                <p className="system-detail-lead">
-                  {lang === "zh" ? current?.summaryZh : current?.summaryEn}
-                </p>
-              </div>
-              <div className="system-detail-actions">
-                {selected === "happyhands" ? (
-                  <>
-                    <a className="system-detail-action system-detail-action--primary" href="/systems/happyhands/">
-                      {t("浏览完整规范", "Browse the system")}
-                    </a>
-                    <a className="system-detail-action" href="/systems/happyhands/SKILL.md" download>
-                      {t("下载 SKILL.md", "Download SKILL.md")}
-                    </a>
-                  </>
-                ) : (
-                  <>
-                    <a
-                      className="system-detail-action system-detail-action--primary"
-                      href="#system-foundations"
-                    >
-                      {t("浏览规范", "Browse the system")}
-                    </a>
-                    <a
-                      className="system-detail-action"
-                      href={`/design-how/${selected}.zip`}
-                      download
-                    >
-                      {t("下载完整资料", "Download archive")}
-                    </a>
-                  </>
-                )}
-              </div>
-            </div>
-            <dl className="system-detail-meta" aria-label={t("系统概况", "System overview")}>
-              <div>
-                <dt>{t("来源", "Source")}</dt>
-                <dd>{selected === "happyhands" ? "HappyHands" : "design.how"}</dd>
-              </div>
-              <div>
-                <dt>{t("适用场景", "Best for")}</dt>
-                <dd>{lang === "zh" ? current?.zh : current?.en}</dd>
-              </div>
-              <div>
-                <dt>{t("技术基础", "Stack")}</dt>
-                <dd>React / Tailwind CSS / shadcn</dd>
-              </div>
-            </dl>
-          </header>
-          {selected !== "happyhands" ? (
-            <DesignHowLibrary key={selected} system={selected} lang={lang} />
-          ) : (
-            <ResourceDetailContent lang={lang}>
-              <div className="resource-detail-preview system-reference-layout">
-                <iframe
-                  ref={frame}
-                  key={selected}
-                  title={t(
-                    `${name} 完整设计规范`,
-                    `${name} complete design system`,
-                  )}
-                  src={`${base}?embedded=1&resource=1`}
-                  style={{ height }}
-                />
-              </div>
-              <ResourceExport
-                key={selected}
-                lang={lang}
-                files={[
-                  ...(selected === "happyhands"
-                    ? [
-                        {
-                          label: "SKILL.md",
-                          url: "/systems/happyhands/SKILL.md",
-                          name: "SKILL.md",
-                        },
-                      ]
-                    : []),
-                  {
-                    label: "Tokens",
-                    url: `/systems/${selected}/tokens.json`,
-                    name: `${selected}-tokens.json`,
-                  },
-                ]}
-              />
-            </ResourceDetailContent>
-          )}
-        </>
-      )}
+      {selected && <DesignHowLibrary
+        key={selected}
+        system={selected}
+        lang={lang}
+        description={current && t(current.summaryZh, current.summaryEn)}
+        useCase={current && t(current.zh, current.en)}
+      />}
     </main>
   );
 }

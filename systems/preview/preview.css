@@ -126,6 +126,7 @@ body {
 
 /* Compact specimen walls used by the design-system book. */
 .gallery-root {
+  grid-template-columns: minmax(0, 1fr);
   max-width: none;
   padding: 20px;
   gap: 0;
@@ -137,6 +138,7 @@ body {
   align-items: start;
 }
 .component-wall {
+  min-width: 0;
   columns: 2;
   column-gap: 14px;
 }
@@ -271,3 +273,18 @@ body {
 }
 .demo-field { display: grid; gap: 8px; }
 .compact-detail .demo-section { gap: 12px; }
+
+/* Keep the original overlays inside the visible portion of a full-height gallery. */
+html[data-gallery-viewport] :is([data-slot="dialog-content"], [data-slot="alert-dialog-content"], [data-slot="command-dialog"]) {
+  top: calc(var(--gallery-view-top) + var(--gallery-view-height) / 2);
+  max-height: max(0px, calc(var(--gallery-view-height) - 32px));
+}
+html[data-gallery-viewport] [data-slot="command-dialog"] {
+  top: calc(var(--gallery-view-top) + var(--gallery-view-height) / 10);
+  max-height: calc(var(--gallery-view-height) * 0.8);
+}
+html[data-gallery-viewport] [data-slot="sheet-viewport"] {
+  top: var(--gallery-view-top);
+  bottom: auto;
+  height: var(--gallery-view-height);
+}

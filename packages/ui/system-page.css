@@ -25,10 +25,11 @@
   color: var(--hh-ink-muted);
   max-width: 760px;
 }
-* {
+body:has(.system-landing main, .happyhands-document-page) *,
+.system-landing * {
   box-sizing: border-box;
 }
-body {
+body:has(.system-landing main, .happyhands-document-page) {
   margin: 0;
   background: var(--hh-bg);
   color: var(--hh-ink);

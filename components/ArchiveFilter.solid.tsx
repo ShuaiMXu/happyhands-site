@@ -37,7 +37,7 @@ function ArchiveFilter(props: { data: FilterProps }) {
           <path d="m6 9 6 6 6-6" />
         </svg>
       </SelectTrigger>
-      <SelectContent class="archive-filter-popup archive-sdk-select" align="start" sideOffset={8} collisionPadding={16}>
+      <SelectContent class="archive-filter-popup archive-sdk-select" align="start" alignItemWithTrigger={false} sideOffset={8} collisionPadding={16}>
         <SelectInput
           class="archive-filter-search"
           aria-label={props.data.zh ? `搜索${props.data.label}` : `Search ${props.data.label.toLowerCase()}`}

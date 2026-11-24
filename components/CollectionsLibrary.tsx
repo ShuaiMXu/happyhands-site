@@ -1,8 +1,9 @@
+import { SystemDocumentCode, SystemDocumentMarkdownCode } from "./SystemDocumentCode";
 import {DirectoryComponentDetail} from './DirectoryComponentDetail';
 import {DesignShadcnGuide} from './DesignShadcnGuide';
 import {DesignDocumentBody} from './DesignDocumentBody';
-import {PlatformDirectory} from "./PlatformDirectory";
-import {platformFor} from "./platform-directory";
+import {CollectedSystemDocumentation} from "./CollectedSystemDocumentation";
+import {isSystemEntry, platformFor} from "./platform-directory";
 import {TokenSpecimens} from "./TokenSpecimens";
 import {PlatformMedia} from "./PlatformMedia";
 import { parseDesignDocument } from "./designmd-document";
@@ -29,25 +30,8 @@ const inlinePreviews: Record<
   "component:pin-ui/copy-paste-pad": React.lazy(() => import("./pinui/CopyPastePad")),
 };
 import "./collections.css";
-import { previewFor, sectionFor, resourceHref } from "./resource-directory";
+import { previewFor, sectionFor, resourceHref, type ResourceEntry as Entry } from "./resource-directory";
 import { designMdCatalogEnabled } from "../packages/ui/resource-navigation";
-type Entry = {
-  id: string;
-  name: string;
-  type: string;
-  path: string;
-  collection: string;
-  sha256: string;
-  bytes: number;
-  summary?: string;
-  cover?: string;
-  preview?: string;
-  system?: string;
-  installation?: { url: string };
-  source: string;
-  sourceUrl?: string;
-  license: string;
-};
 type Collection = {
   id: string;
   name: string;
@@ -264,7 +248,6 @@ export function CollectionsLibrary({
     return row ? resourceHref(row, lang) + url.hash : url.href;
   };
   const platform=selected?platformFor(selected):undefined;
-  const isPlatformOverview=platform?.overview===selected?.path;
   const platformRoot=platform?catalog.resources.find(r=>r.path===platform.overview):undefined;
   const current = catalog.collections.find((row) => row.id === collection);
   const open = (row: Entry) => {
@@ -287,19 +270,110 @@ export function CollectionsLibrary({
       );
     }
   };
+  const systemOverview = selected && selected.type !== "collection" && sectionFor(selected) === "systems" && isSystemEntry(selected);
+  const sourceDocument = selected && (
+    <div className="design-document-body collections-document">
+      {selected.type === "design-md" ? (
+        <DesignDocumentBody text={content} lang={lang} />
+      ) : selected.path.endsWith(".md") ? (
+        <Markdown
+          remarkPlugins={[remarkGfm]}
+          skipHtml
+          components={{
+            ...(systemOverview && {
+              pre: ({ children }) => <SystemDocumentMarkdownCode lang={lang}>{children}</SystemDocumentMarkdownCode>,
+              h1: ({ children }) => <h3>{children}</h3>,
+              h2: ({ children }) => <h4>{children}</h4>,
+              h3: ({ children }) => <h5>{children}</h5>,
+              h4: ({ children }) => <h6>{children}</h6>,
+              h5: ({ children }) => <h6>{children}</h6>,
+            }),
+            a: ({ href, children }) => (
+              <a
+                href={documentHref(href || "")}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {children}
+              </a>
+            ),
+            img: ({src,alt}) => <PlatformMedia path={selected.path} src={typeof src === "string" ? src : ""} alt={alt} zh={zh} dark={previewTheme==="dark"}/>,
+            table: ({ children }) => (
+              <div className="collections-table" tabIndex={0}>
+                <table>{children}</table>
+              </div>
+            ),
+          }}
+        >
+          {parseDesignDocument(content).body}
+        </Markdown>
+      ) : systemOverview && selected.type === 'tokens' ? (
+        <SystemDocumentCode source={content} lang={lang} label="tokens.json" syntax="json" />
+      ) : (
+        <pre>{content}</pre>
+      )}
+    </div>
+  );
+  if (selected && systemOverview) {
+    const source = loadError ? (
+      <div role="alert">
+        <p>{loadError}</p>
+        <Button onClick={() => setRetry((v) => v + 1)}>{zh ? "重试" : "Retry"}</Button>
+      </div>
+    ) : !content ? (
+      <p role="status">{zh ? "正在读取原文件…" : "Loading original source…"}</p>
+    ) : selected.type === 'tokens' ? (
+      <details className="directory-source">
+        <summary>{zh ? '查看完整 JSON' : 'Read the full JSON'}</summary>
+        {sourceDocument}
+      </details>
+    ) : sourceDocument;
+    return (
+      <Root id={embedded ? undefined : "catalog-main"} className="collections-library resource-directory">
+        <CollectedSystemDocumentation
+          key={selected.id}
+          row={selected}
+          rows={catalog.resources}
+          lang={lang}
+          document={source}
+          preview={selected.collection === 'beautiful-ui' && <iframe
+            ref={frame}
+            className="directory-live-preview"
+            title="Beautiful UI"
+            src={previewFor(selected) + `&theme=${previewTheme}&lang=${lang}`}
+            sandbox="allow-scripts allow-same-origin"
+          />}
+          tokens={selected.type === 'tokens' ? (
+            content ? <TokenSpecimens content={content} zh={zh} /> : null
+          ) : selected.path.endsWith('/material3/DESIGN.md') && tokenContext ? (
+            <TokenSpecimens content={tokenContext} zh={zh} />
+          ) : undefined}
+          copy={<>
+            <Button disabled={!content} onClick={() => void copy()}>
+              {copied ? (zh ? "已复制" : "Copied") : (zh ? "复制原文" : "Copy source")}
+            </Button>
+            {copyError && <span role="alert">{copyError}</span>}
+          </>}
+        />
+      </Root>
+    );
+  }
+
   return (
     <Root
       id={embedded ? undefined : "catalog-main"}
-      className="collections-library resource-directory"
+      className={`collections-library resource-directory${selected?.type === "component" ? " component-detail-page" : ""}`}
       aria-label={zh ? "资源合集" : "Resource collections"}
     >
       {selected ? (
         <>
           <ResourceDetailHeader
-            title={isPlatformOverview ? platform!.name : selected.name.replace(/^r \/ /, "").replaceAll(" / ", " — ")}
-            backLabel={platform && !isPlatformOverview ? (zh?"返回 ":"Back to ")+platform.name : zh ? "返回资源列表" : "Back to resources"}
+            headingLevel={selected.type === "component" ? 1 : 2}
+            compact={selected.type === "component"}
+            title={selected.name.replace(/^r \/ /, "").replaceAll(" / ", " — ")}
+            backLabel={platform ? (zh?"返回 ":"Back to ")+platform.name : selected.type === "component" ? (zh ? "返回组件库" : "Back to components") : zh ? "返回资源列表" : "Back to resources"}
             onBack={() => {
-              if(platformRoot && !isPlatformOverview){location.href=resourceHref(platformRoot,lang);return;}
+              if(platformRoot && platformRoot.id !== selected.id){location.href=resourceHref(platformRoot,lang);return;}
               if (initialResource) {
                 const destination = new URLSearchParams({ provider: sectionFor(selected) });
                 if (collection) destination.set('collection', collection);
@@ -308,7 +382,6 @@ export function CollectionsLibrary({
               else setSelected(null);
             }}
           />
-          {isPlatformOverview && <PlatformDirectory row={selected} rows={catalog.resources} lang={lang}/>}
           {selected.type === "component" && content && !loadError ? (
             <DirectoryComponentDetail
               key={selected.id}
@@ -400,41 +473,11 @@ export function CollectionsLibrary({
                 </>
               )}
               <details
-                open={!previewFor(selected) && !isPlatformOverview}
+                open={!previewFor(selected)}
                 className="directory-source"
               >
                 <summary>{zh ? "规范与源码" : "Guidelines and source"}</summary>
-                <div className="design-document-body collections-document">
-                  {selected.type === "design-md" ? (
-                    <DesignDocumentBody text={content} lang={lang} />
-                  ) : selected.path.endsWith(".md") ? (
-                    <Markdown
-                      remarkPlugins={[remarkGfm]}
-                      skipHtml
-                      components={{
-                        a: ({ href, children }) => (
-                          <a
-                            href={documentHref(href || "")}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            {children}
-                          </a>
-                        ),
-                        img: ({src,alt}) => <PlatformMedia path={selected.path} src={typeof src === "string" ? src : ""} alt={alt} zh={zh} dark={previewTheme==="dark"}/>,
-                        table: ({ children }) => (
-                          <div className="collections-table" tabIndex={0}>
-                            <table>{children}</table>
-                          </div>
-                        ),
-                      }}
-                    >
-                      {parseDesignDocument(content).body}
-                    </Markdown>
-                  ) : (
-                    <pre>{content}</pre>
-                  )}
-                </div>
+                {sourceDocument}
               </details>
             </>
           )}

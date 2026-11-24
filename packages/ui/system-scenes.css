@@ -1,18 +1,49 @@
-.scene-section-head {
-  display: flex;
-  align-items: end;
-  justify-content: space-between;
-  gap: 24px;
+.system-scenes {
+  container: scene-preview / inline-size;
 }
-.scene-section-head p {
-  color: var(--hh-ink-muted);
+.scene-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin-bottom: 8px;
+}
+.scene-selector,
+.scene-appearance {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 4px;
+  min-width: 0;
+  padding: 4px;
+  border-radius: var(--hh-radius-group);
+  background: var(--hh-bg-sunken);
+}
+.scene-selector {
+  flex: 1 1 360px;
+  width: auto;
 }
 .scene-appearance {
-  display: flex;
-  gap: 4px;
-  flex-shrink: 0;
+  flex: none;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
-.system-scenes button:not([data-slot="checkbox"]):not([data-slot="switch"]) {
+.scene-controls button {
+  min-width: 0;
+  min-height: 44px;
+  padding: 8px clamp(4px, 1.4cqi, 12px);
+  border-radius: var(--hh-radius-option);
+  font-size: 14px;
+  white-space: normal;
+}
+.scene-appearance button[aria-pressed="true"] {
+  background: var(--hh-bg-raised);
+  color: var(--hh-ink);
+}
+.scene-appearance button:focus-visible {
+  outline: 2px solid var(--hh-ring);
+  outline-offset: -2px;
+}
+.scene-frame button:where(:not([data-slot="checkbox"], [data-slot="switch"])) {
   cursor: pointer;
   min-height: 44px;
   padding: 10px 16px;
@@ -21,37 +52,18 @@
   background: var(--hh-bg-raised);
   color: var(--hh-ink);
 }
-.system-scenes button[aria-pressed="true"] {
-  background: var(--hh-primary);
-  color: var(--hh-on-primary);
-  border-color: var(--hh-primary);
-}
-.scene-selector {
-  display: flex;
-  gap: 12px;
-  margin: 24px 0;
-}
-.scene-selector button {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  text-align: left;
-}
-.scene-selector span {
-  opacity: 0.6;
-  font-size: 12px;
-}
-.scene-selector strong {
-  font-size: 14px;
-  font-weight: 500;
-}
-.scene-frame {
+.system-style-preview.scene-frame {
   background: var(--scene-bg);
   color: var(--scene-ink);
-  border: 0.5px solid var(--scene-line);
+}
+.scene-frame:not(.scene-happyhands) {
+  border-color: var(--scene-line);
   border-radius: var(--scene-radius);
-  overflow: hidden;
+}
+.scene-note {
+  margin: 12px 0 0;
+  color: var(--hh-ink-muted);
+  font-size: 12px;
 }
 .scene-window-bar {
   display: flex;
@@ -256,48 +268,29 @@
 .scene-frame :focus-visible {
   outline-color: var(--scene-ink);
 }
-@media (max-width: 900px) {
+@container scene-preview (max-width: 740px) {
   .scene-stage {
     padding: 24px;
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
-  .scene-intro {
-    display: none;
-  }
-  .scene-workspace {
-    grid-template-columns: 1fr;
-  }
+  .scene-intro,
   .scene-workspace-nav {
     display: none;
   }
+  .scene-workspace,
+  .scene-master-detail {
+    grid-template-columns: minmax(0, 1fr);
+  }
   .scene-settings {
     padding: 24px;
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
-  .scene-settings .scene-index {
-    display: none;
-  }
-  .scene-section-head {
-    align-items: start;
-    flex-direction: column;
-  }
-  .scene-master-detail {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
   }
 }
-@media (max-width: 560px) {
-  .scene-selector {
-    gap: 6px;
-  }
-  .scene-selector button {
-    flex-direction: column;
-    align-items: start;
-    gap: 6px;
-    padding: 12px 8px;
-  }
-  .scene-selector strong {
-    font-size: 12px;
+@container scene-preview (max-width: 520px) {
+  .scene-controls button {
+    padding-inline: 6px;
+    font-size: 13px;
   }
   .scene-window-bar {
     padding: 16px;
@@ -305,9 +298,7 @@
   }
   .scene-stage,
   .scene-workspace-main,
-  .scene-settings {
-    padding: 16px;
-  }
+  .scene-settings,
   .scene-settings form,
   .scene-detail {
     padding: 16px;

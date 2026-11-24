@@ -53,7 +53,15 @@ document.addEventListener(
   true,
 );
 document.addEventListener("submit", (event) => event.preventDefault(), true);
-const Demo = previews[id] ? lazy(previews[id]) : null;
+const Demo = previews[id] ? lazy(async () => {
+  const module = await previews[id]();
+  if (id !== "expandable") return module;
+  const exports = module as Record<string, React.ComponentType>;
+  const example = params.get("example");
+  const name = example === "product" ? "ProductShowcaseCard"
+    : example === "weather" ? "WeatherForecastCard" : "DesignSyncExample";
+  return { default: exports[name] || module.default };
+}) : null;
 createRoot(document.getElementById("root")!).render(
   <>
     <div className="preview-runtime" data-preview={id}>

@@ -6,7 +6,10 @@ import remarkGfm from "remark-gfm";
 import rehypeSlug from "rehype-slug";
 import catalog from "../public/design-how/catalog.json";
 import { Button } from "../packages/ui";
+import { Button as ShadcnButton } from "../packages/ui/shadcn/button";
 import "./design-how.css";
+import { DesignSystemDocumentation, SystemDocumentLink } from "./DesignSystemDocumentation";
+import { SystemDocumentCode, SystemDocumentMarkdownCode } from "./SystemDocumentCode";
 import { SystemStylePreview } from "./SystemStylePreview";
 
 type Document = { path: string; title: string; kind: string };
@@ -53,9 +56,13 @@ export function designHowLink(href: string, system: string, path: string) {
 export function DesignHowLibrary({
   system,
   lang,
+  description,
+  useCase,
 }: {
   system: string;
   lang: string;
+  description?: string;
+  useCase?: string;
 }) {
   const data = catalog.systems.find((s) => s.id === system)!;
   const zh = lang === "zh",
@@ -73,7 +80,6 @@ export function DesignHowLibrary({
     path: string;
     ok: boolean;
   } | null>(null);
-  const [activeSection, setActiveSection] = useState("system-preview");
   const heading = useRef<HTMLHeadingElement>(null);
   const detail = useRef<HTMLElement>(null);
   const copyTimer = useRef<number | undefined>(undefined);
@@ -91,13 +97,6 @@ export function DesignHowLibrary({
   const guides = documents.filter(
     (d) => d.kind === "guides" || d.kind === "articles",
   );
-  const sections = [
-    ["system-preview", "01", t("预览", "Preview")],
-    ["system-foundations", "02", t("基础规范", "Foundations")],
-    ["system-components", "03", t("组件", "Components")],
-    ["system-guides", "04", t("指南与文章", "Guides")],
-    ["system-download", "05", t("资料与下载", "Files and downloads")],
-  ] as const;
 
   useEffect(() => {
     const update = () =>
@@ -145,42 +144,6 @@ export function DesignHowLibrary({
     detail.current?.scrollIntoView({ block: "start", behavior: "smooth" });
   }, [openPath, loading]);
 
-  useEffect(() => {
-    const handler = (event: MessageEvent) => {
-      if (event.origin !== location.origin) return;
-      const data = event.data as { type?: string; path?: string };
-      if (data?.type !== "design-how-copy" || typeof data.path !== "string")
-        return;
-      if (!documents.some((document) => document.path === data.path)) return;
-      void copyDoc(data.path).then((ok) => {
-        (event.source as Window | null)?.postMessage(
-          { type: "design-how-copy-result", path: data.path, ok },
-          location.origin,
-        );
-      });
-    };
-    addEventListener("message", handler);
-    return () => removeEventListener("message", handler);
-  }, []);
-
-  useEffect(() => {
-    const sections = Array.from(
-      document.querySelectorAll<HTMLElement>(".system-book-section"),
-    );
-    if (!sections.length) return;
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((entry) => entry.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
-        if (visible) setActiveSection(visible.target.id);
-      },
-      { rootMargin: "-88px 0px -58% 0px", threshold: [0, 0.1, 0.5] },
-    );
-    sections.forEach((section) => observer.observe(section));
-    return () => observer.disconnect();
-  }, []);
-
   async function copyDoc(path: string) {
     let ok = false;
     try {
@@ -194,7 +157,6 @@ export function DesignHowLibrary({
     setCopyState({ path, ok });
     window.clearTimeout(copyTimer.current);
     copyTimer.current = window.setTimeout(() => setCopyState(null), 1800);
-    return ok;
   }
 
   function entry(doc: Document, content: React.ReactNode) {
@@ -205,24 +167,26 @@ export function DesignHowLibrary({
         key={doc.path}
         className={`system-book-entry${open ? " is-open" : ""}`}
       >
-        <button
+        <ShadcnButton
           type="button"
+          variant="ghost"
           className="system-book-entry-open"
           aria-expanded={open}
-          aria-controls="system-book-detail"
+          aria-controls={open ? "system-book-detail" : undefined}
           onClick={() => select(doc.path)}
         >
           {content}
-        </button>
-        <button
+        </ShadcnButton>
+        <ShadcnButton
           type="button"
+          variant="ghost"
           className="system-book-copy"
           onClick={() => copyDoc(doc.path)}
           title={t("复制 design.md", "Copy design.md")}
           aria-label={`${t("复制", "Copy")} ${doc.title} design.md`}
         >
           {state ? (state.ok ? t("已复制", "Copied") : t("失败", "Failed")) : t("复制", "Copy")}
-        </button>
+        </ShadcnButton>
       </div>
     );
   }
@@ -274,13 +238,14 @@ export function DesignHowLibrary({
               {openPath === "index.md" ? t("系统总纲", "System overview") : title}
             </h3>
           </div>
-          <button
+          <ShadcnButton
             type="button"
+            variant="ghost"
             className="system-book-close"
             onClick={closeDetail}
           >
             {t("收起", "Collapse")} <span aria-hidden="true">×</span>
-          </button>
+          </ShadcnButton>
         </header>
         {openPath.startsWith("foundations/") && slug !== "anti-slop" && (
           <SystemStylePreview
@@ -295,10 +260,11 @@ export function DesignHowLibrary({
           <>
             <SystemStylePreview system={system} lang={lang} component={slug} />
             <div className="design-how-install">
-              <code>
-                npx shadcn@latest add https://happyhands.cc/r/{system}/
-                {slug}.json
-              </code>
+              <SystemDocumentCode
+                source={`npx shadcn@latest add https://happyhands.cc/r/${system}/${slug}.json`}
+                lang={lang}
+                label="shadcn"
+              />
               <a href={`/r/${system}/${slug}.json`} download>
                 {t("下载组件源码", "Download component source")}
               </a>
@@ -328,7 +294,7 @@ export function DesignHowLibrary({
               rehypePlugins={[rehypeSlug]}
               components={{
                 h1: () => null,
-                pre: ({ children }) => <pre tabIndex={0}>{children}</pre>,
+                pre: ({ children }) => <SystemDocumentMarkdownCode lang={lang}>{children}</SystemDocumentMarkdownCode>,
                 table: ({ children }) => (
                   <div
                     className="design-how-table"
@@ -385,228 +351,178 @@ export function DesignHowLibrary({
 
   return (
     <div className="design-how-library">
-      <div className="system-book">
-        <aside className="system-book-toc">
-          <p className="system-book-toc-title">{t("本页目录", "On this page")}</p>
-          <nav aria-label={t("本页目录", "On this page")}>
-            {sections.map(([id, number, label]) => (
-              <a
-                key={id}
-                href={`#${id}`}
-                aria-current={activeSection === id ? "location" : undefined}
-              >
-                <span>{number}</span>
-                {label}
-              </a>
-            ))}
-          </nav>
-          <div className="system-book-toc-meta">
-            <span>{data.documents.length} {t("篇文档", "documents")}</span>
-            <span>{components.length} {t("个组件", "components")}</span>
-          </div>
-          <a className="system-book-top" href="#system-preview">
-            {t("回到顶部", "Back to top")} <span aria-hidden="true">↑</span>
-          </a>
-        </aside>
-        <div className="system-book-content">
-          <section id="system-preview" className="system-book-section">
-            <header className="system-book-heading">
-              <span className="system-book-number">01</span>
-              <div>
-                <h2>{t("系统预览", "System preview")}</h2>
-                <p>
-                  {t(
-                    "同一套视觉规则下的页面、表单与组件状态。示例由系统样式实时渲染，不是截图。",
-                    "Pages, forms and component states under one set of rules. Rendered from the live system styles, not a screenshot.",
-                  )}
-                </p>
-              </div>
-            </header>
-            <SystemStylePreview system={system} lang={lang} compact />
-            <div className="system-book-preview-actions">
-              <a
-                href={`/systems/preview/?system=${system}`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                {t("独立打开预览", "Open preview")}
-                <span aria-hidden="true">↗</span>
-              </a>
-              <button
-                type="button"
-                className="system-book-text-button"
-                onClick={() => select("index.md")}
-              >
-                {t("展开系统总纲", "Expand the overview")}
-              </button>
-            </div>
-            {openPath === "index.md" && renderDetail()}
-          </section>
-
-          <section id="system-foundations" className="system-book-section">
-            <header className="system-book-heading">
-              <span className="system-book-number">02</span>
-              <div>
-                <h2>{t("基础规范", "Foundations")}</h2>
-                <p>
-                  {t(
-                    "颜色、排版、间距、圆角、层级、动效与图标的使用约定。上方是设计变量的实际样式，每个条目右侧可直接复制 design.md。",
-                    "Rules for colour, typography, space, radius, elevation, motion and iconography. The specimens above render the actual token values; copy each design.md from the row.",
-                  )}
-                </p>
-              </div>
-            </header>
-            <SystemStylePreview
-              system={system}
-              lang={lang}
-              gallery="foundations"
-            />
-            <div className="system-book-list system-book-list--three">
-              {foundations.map((doc, index) =>
-                entry(
-                  doc,
-                  <>
-                    <span className="system-book-list-index">
-                      {String(index + 1).padStart(2, "0")}
-                    </span>
-                    <span>{doc.title}</span>
-                    <span className="system-book-entry-toggle" aria-hidden="true">
-                      {openPath === doc.path ? "−" : "+"}
-                    </span>
-                  </>,
-                ),
-              )}
-            </div>
-            {openPath.startsWith("foundations/") && renderDetail()}
-          </section>
-
-          <section id="system-components" className="system-book-section">
-            <header className="system-book-heading">
-              <span className="system-book-number">03</span>
-              <div>
-                <h2>{t("组件", "Components")}</h2>
-                <p>
-                  {t(
-                    `${components.length} 个组件的实例、状态与可安装源码。上方直接渲染可交互示例，每个示例右上角可复制 design.md。`,
-                    `Instances, states and installable source for ${components.length} components. Every specimen above renders live and copies its design.md; expand any component in place for its spec.`,
-                  )}
-                </p>
-              </div>
-            </header>
-            <SystemStylePreview
-              system={system}
-              lang={lang}
-              gallery="components"
-            />
-            <div className="system-book-component-grid">
-              {components.map((doc) =>
-                entry(doc, <span>{doc.title}</span>),
-              )}
-            </div>
-            {openPath.startsWith("components/") && renderDetail()}
-          </section>
-
-          <section id="system-guides" className="system-book-section">
-            <header className="system-book-heading">
-              <span className="system-book-number">04</span>
-              <div>
-                <h2>{t("指南与文章", "Guides")}</h2>
-                <p>
-                  {t(
-                    "从系统选型、接入到 AI 协作的实践说明。",
-                    "Practical notes on choosing, adopting and working with the system.",
-                  )}
-                </p>
-              </div>
-            </header>
-            <div className="system-book-list system-book-list--two">
-              {guides.map((doc) =>
-                entry(
-                  doc,
-                  <>
-                    <span title={doc.title}>{doc.title}</span>
-                    <span className="system-book-entry-toggle" aria-hidden="true">
-                      {openPath === doc.path ? "−" : "+"}
-                    </span>
-                  </>,
-                ),
-              )}
-            </div>
-            {openPath.startsWith("guides/") ||
-            openPath.startsWith("articles/")
-              ? renderDetail()
-              : null}
-          </section>
-
-          <section id="system-download" className="system-book-section">
-            <header className="system-book-heading">
-              <span className="system-book-number">05</span>
-              <div>
-                <h2>{t("资料与下载", "Files and downloads")}</h2>
-                <p>
-                  {t(
-                    "完整资料包、组件源码与上游来源。",
-                    "Complete archive, component source and upstream reference.",
-                  )}
-                </p>
-              </div>
-            </header>
-            <div className="system-book-download">
-              <div>
-                <h3>{t("完整资料包", "Complete archive")}</h3>
-                <p>
-                  {t(
-                    "包含全部基础规范、组件文档与安装说明，可离线阅读。",
-                    "All foundations, component documents and setup notes for offline reading.",
-                  )}
-                </p>
-              </div>
-              <div className="system-book-download-actions">
+      <DesignSystemDocumentation
+        name={data.name}
+        description={description || data.summary}
+        lang={lang}
+        actions={<>
+          <SystemDocumentLink href="#system-foundations" primary>{t("浏览规范", "Browse the system")}</SystemDocumentLink>
+          <SystemDocumentLink href={data.download} download>{t("下载完整资料", "Download archive")}</SystemDocumentLink>
+        </>}
+        facts={[
+          [t("来源", "Source"), "design.how"],
+          ...(useCase ? [[t("适用场景", "Best for"), useCase] as const] : []),
+          [t("技术基础", "Stack"), "React / Tailwind CSS / shadcn"],
+        ]}
+        sections={[
+          {
+            id: "system-preview",
+            title: t("系统预览", "System preview"),
+            description: t("选择并试用系统中的完整页面示例。", "Choose and try the system’s page examples."),
+            content: <>
+              <SystemStylePreview system={system} lang={lang} gallery="examples" />
+              <div className="system-book-preview-actions">
                 <a
-                  className="system-detail-action system-detail-action--primary"
-                  href={data.download}
-                  download
-                >
-                  {t("下载完整资料", "Download archive")}
-                </a>
-                <a
-                  className="system-detail-action"
-                  href={`https://design.how/systems/${system}`}
+                  href={`/systems/preview/?system=${system}`}
                   target="_blank"
                   rel="noreferrer"
                 >
-                  design.how <span aria-hidden="true">↗</span>
+                  {t("独立打开预览", "Open preview")}
                 </a>
+                <ShadcnButton
+                  type="button"
+                  variant="ghost"
+                  className="system-book-text-button"
+                  onClick={() => select("index.md")}
+                >
+                  {t("展开系统总纲", "Expand the overview")}
+                </ShadcnButton>
               </div>
-            </div>
-            <dl className="system-book-stats">
-              <div>
-                <dt>{t("基础规范", "Foundations")}</dt>
-                <dd>{foundations.length}</dd>
+              {openPath === "index.md" && renderDetail()}
+            </>,
+          },
+
+          {
+            id: "system-foundations",
+            title: t("基础规范", "Foundations"),
+            description: t("颜色、排版、间距、圆角、层级、动效和图标。", "Color, typography, spacing, radius, elevation, motion and icons."),
+            content: <>
+              <SystemStylePreview
+                system={system}
+                lang={lang}
+                gallery="foundations"
+              />
+              <div className="system-book-list system-book-list--three">
+                {foundations.map((doc) =>
+                  entry(
+                    doc,
+                    <>
+                      <span>{doc.title}</span>
+                      <span className="system-book-entry-toggle" aria-hidden="true">
+                        {openPath === doc.path ? "−" : "+"}
+                      </span>
+                    </>,
+                  ),
+                )}
               </div>
-              <div>
-                <dt>{t("组件", "Components")}</dt>
-                <dd>{components.length}</dd>
+              {openPath.startsWith("foundations/") && renderDetail()}
+            </>,
+          },
+
+          {
+            id: "system-components",
+            title: t("组件", "Components"),
+            description: t("试用组件，展开各条目查看设计规范与安装方式。", "Try the components and open an entry for its design specification and installation instructions."),
+            content: <>
+              <SystemStylePreview
+                system={system}
+                lang={lang}
+                gallery="components"
+              />
+              <div className="system-book-component-grid">
+                {components.map((doc) =>
+                  entry(doc, <span>{doc.title}</span>),
+                )}
               </div>
-              <div>
-                <dt>{t("指南与文章", "Guides")}</dt>
-                <dd>{guides.length}</dd>
+              {openPath.startsWith("components/") && renderDetail()}
+            </>,
+          },
+
+          {
+            id: "system-guides",
+            title: t("指南与文章", "Guides"),
+            description: t("系统选型、接入与 AI 协作的实践说明。", "Practical notes on choosing, adopting and working with the system."),
+            content: <>
+              <div className="system-book-list system-book-list--two">
+                {guides.map((doc) =>
+                  entry(
+                    doc,
+                    <>
+                      <span title={doc.title}>{doc.title}</span>
+                      <span className="system-book-entry-toggle" aria-hidden="true">
+                        {openPath === doc.path ? "−" : "+"}
+                      </span>
+                    </>,
+                  ),
+                )}
               </div>
-            </dl>
-            <p className="system-book-note">
-              {t(
-                "由 HappyHands 整理资料与预览；组件示例只用于阅读规范，不在本站安装上游组件。",
-                "Curated by HappyHands for reading and preview; upstream components are not installed on this site.",
-              )}
-            </p>
-          </section>
-          <footer className="design-how-source">
+              {openPath.startsWith("guides/") ||
+              openPath.startsWith("articles/")
+                ? renderDetail()
+                : null}
+            </>,
+          },
+
+          {
+            id: "system-download",
+            title: t("资料与下载", "Files and downloads"),
+            content: <>
+              <div className="system-book-download">
+                <div>
+                  <h3>{t("完整资料包", "Complete archive")}</h3>
+                  <p>
+                    {t(
+                      "包含全部基础规范、组件文档与安装说明，可离线阅读。",
+                      "All foundations, component documents and setup notes for offline reading.",
+                    )}
+                  </p>
+                </div>
+                <div className="system-book-download-actions">
+                  <SystemDocumentLink
+                    primary
+                    href={data.download}
+                    download
+                  >
+                    {t("下载完整资料", "Download archive")}
+                  </SystemDocumentLink>
+                  <SystemDocumentLink
+                    href={`https://design.how/systems/${system}`}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    design.how
+                  </SystemDocumentLink>
+                </div>
+              </div>
+              <dl className="system-book-stats">
+                <div>
+                  <dt>{t("基础规范", "Foundations")}</dt>
+                  <dd>{foundations.length}</dd>
+                </div>
+                <div>
+                  <dt>{t("组件", "Components")}</dt>
+                  <dd>{components.length}</dd>
+                </div>
+                <div>
+                  <dt>{t("指南与文章", "Guides")}</dt>
+                  <dd>{guides.length}</dd>
+                </div>
+              </dl>
+              <p className="system-book-note">
+                {t(
+                  "由 HappyHands 整理资料与预览；组件示例只用于阅读规范，不在本站安装上游组件。",
+                  "Curated by HappyHands for reading and preview; upstream components are not installed on this site.",
+                )}
+              </p>
+            </>,
+          },
+        ]}
+        footer={<footer className="design-how-source">
             {t("原始文档与组件来源：", "Original documents and components: ")}
             <a href="https://design.how">design.how</a> /{" "}
             {catalog.generatedAt.slice(0, 10)}
-          </footer>
-        </div>
-      </div>
+        </footer>}
+      />
     </div>
   );
 }

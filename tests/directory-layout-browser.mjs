@@ -12,12 +12,16 @@ try {
   for (const width of [390, 710, 1280]) {
     const page = await browser.newPage({ viewport: { width, height: 762 }, reducedMotion: 'reduce' });
     page.setDefaultTimeout(15000);
+    await page.addInitScript(theme => {
+      if (window === window.top) localStorage.setItem('hh-theme', theme);
+    }, width === 710 ? 'dark' : 'light');
     const errors = [];
     page.on('pageerror', error => errors.push(error.message));
     await page.goto(base + '/components/?provider=design-md');
     const toolbar = page.locator('#catalog-main .resource-toolbar');
     const triggers = toolbar.locator('.archive-filter-trigger');
     await triggers.nth(2).waitFor();
+    await page.locator('#catalog-main a.resource-card').first().waitFor();
     const measure = async locator => {
       const box = await locator.boundingBox();
       assert(box);
@@ -81,6 +85,25 @@ try {
     await page.close();
     console.log(`PASS ${width}: toolbar wrapping, selected state, collection drill-down and footer`);
   }
+  const motion = await browser.newPage({ viewport: { width: 390, height: 762 }, reducedMotion: 'reduce' });
+  await motion.goto(base + '/en/components/?provider=cult-ui&collection=motion-primitives');
+  const item = motion.locator('a.resource-card[href*="component%3Amotion-primitives%2Faccordion"]');
+  await item.click();
+  const frame = motion.frameLocator('.directory-live-preview');
+  const trigger = frame.getByRole('button', { name: 'Review scope' });
+  await trigger.focus();
+  await trigger.press('Enter');
+  assert.equal(await trigger.getAttribute('aria-expanded'), 'true');
+  await frame.getByText('Choose the pages and interactions to inspect.', { exact: true }).waitFor();
+  await motion.getByRole('tab', { name: 'Install in your project', exact: true }).click();
+  await motion.locator('.collections-install pre').getByText(/npx shadcn@latest add.*accordion.json/).waitFor();
+  await motion.goto(base + '/en/components/?provider=design-md&design=designmd-library-swiss-design');
+  await motion.getByRole('button', { name: 'Use in shadcn/ui' }).click();
+  const guide = motion.locator('.resource-shadcn-guide');
+  await guide.getByText('npx shadcn@latest add button card', { exact: true }).waitFor();
+  await guide.getByText(/--primary: #e2001a/).waitFor();
+  await motion.close();
+  console.log('PASS: actual Motion Primitives interaction, shadcn registry install and Design.md mapping');
 } finally {
   await browser.close();
 }

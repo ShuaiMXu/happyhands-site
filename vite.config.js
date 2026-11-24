@@ -94,6 +94,7 @@ export default defineConfig({
     lime: resolve('systems/lime/index.html'),
     sodium: resolve('systems/sodium/index.html'),
     glaze: resolve('systems/glaze/index.html'),
+    'motion-preview': resolve('components/motion-preview/index.html'),
     'pinui-preview': resolve('components/pinui-preview/index.html'),
     'component-preview': resolve('components/preview/index.html'),
     'system-preview': resolve('systems/preview/index.html'),

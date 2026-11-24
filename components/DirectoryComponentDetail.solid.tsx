@@ -4,6 +4,7 @@ import { createEffect, createMemo, createSignal, onCleanup, onSettled, Show } fr
 import { mountSolidControl } from '../packages/ui/mount-solid-control';
 import { replacePreviewLocation } from '../packages/ui/preview-location';
 import { SolidPortalTarget } from '../packages/ui/SolidPortalTarget.solid';
+import { ShadcnInstall } from './ShadcnInstall.solid';
 import { ResourceTabs } from './ResourceTabs.solid';
 import { DesignDocumentBody } from './DesignDocumentBody.solid';
 
@@ -85,10 +86,9 @@ function DirectoryComponentDetail(props: { data: DirectoryDetailProps }) {
     </>
   );
   const install = () => (
-    <div class="collections-install">
-      <pre>npx shadcn@latest add {props.data.installUrl}</pre>
-      <p>{t('先核对目标框架、依赖与许可证。', 'Check the target framework, dependencies and license first.')}</p>
-    </div>
+    <Show when={props.data.installUrl} keyed>
+      {url => <ShadcnInstall url={url} lang={props.data.lang} />}
+    </Show>
   );
   return <ResourceTabs
     tabs={tabs()}

@@ -15222,6 +15222,51 @@
       "bytes": 2828
     },
     {
+      "path": "components/motion-primitives/accordion.json",
+      "sha256": "ef880c4eefb2081de63b68ead7c339c3551af3376e6743fd6e4188dea49716eb",
+      "bytes": 5326
+    },
+    {
+      "path": "components/motion-primitives/animated-number.json",
+      "sha256": "a3476cfedab344923bd0cc63d5c04c14db7a8d7f42968fb6c4ffa529e319a8a7",
+      "bytes": 1198
+    },
+    {
+      "path": "components/motion-primitives/cover-accordion.png",
+      "sha256": "0687cc5779ecd01e176812a5217f7eec9003684efdf79c66a298d962304cf7ce",
+      "bytes": 9331
+    },
+    {
+      "path": "components/motion-primitives/cover-animated-number.png",
+      "sha256": "262c97a87430194a54436151f3bafb1b94b83a108984e7e5f36f6edc752eca04",
+      "bytes": 6256
+    },
+    {
+      "path": "components/motion-primitives/cover-disclosure.png",
+      "sha256": "c9c4f42ae04a3139b2f17d410e50305c2d6b440ffd8aa03e314575a1cb147006",
+      "bytes": 6734
+    },
+    {
+      "path": "components/motion-primitives/cover-transition-panel.png",
+      "sha256": "bf70f3d7c3cf246308523fd0d19bb0171a8c5f60c1f641379de98b40371a98c1",
+      "bytes": 9096
+    },
+    {
+      "path": "components/motion-primitives/disclosure.json",
+      "sha256": "e2e34972db4c1a9de1091e69e8e3321d27370beaefeb45b5ea1b4869653a6a0e",
+      "bytes": 4786
+    },
+    {
+      "path": "components/motion-primitives/transition-panel.json",
+      "sha256": "e051a3b411f94729873f4b92a43c8c1715a0881df3ffe5c3413f19ec6d3aa073",
+      "bytes": 1400
+    },
+    {
+      "path": "components/motion-primitives/UPSTREAM.md",
+      "sha256": "114aa412766fd8ea52b9d9bd9af159153528ea43d727c78a9ccaa5a35178836d",
+      "bytes": 483
+    },
+    {
       "path": "components/pin-ui/add-member.json",
       "sha256": "923adca9e2720b011f6c6104debf9c3b399ecbce673271f197274da7543aabcf",
       "bytes": 46496

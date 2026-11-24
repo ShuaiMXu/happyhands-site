@@ -1,5 +1,6 @@
 import React,{useEffect,useState} from 'react';
 import {Button} from '../packages/ui';
+import {DesignShadcnGuide} from './DesignShadcnGuide';
 import {DesignDocumentBody} from './DesignDocumentBody';
 import './design-document.css';
 import {DesignComponentSpecimens} from './DesignComponentSpecimens';
@@ -16,6 +17,7 @@ export function DesignDocumentPreview({slug,lang,system,referenceName,sourceHref
  if(error)return <div role="alert"><p>{zh?'设计规范加载失败。':'Could not load design guidelines.'}</p><Button onClick={()=>setRetry(v=>v+1)}>{zh?'重试':'Retry'}</Button></div>;
  if(!text)return <p role="status">{zh?'正在加载设计规范…':'Loading design guidelines…'}</p>;
  return <>
+  <DesignShadcnGuide markdown={text} system={system} lang={lang}/>
   {!system?.components?.length && <DesignComponentSpecimens markdown={text} system={system} lang={lang} referenceName={referenceName} sourceHref={sourceHref}/>}
   <DesignDocumentBody text={text} lang={lang} supplement={supplement}/>
  </>;

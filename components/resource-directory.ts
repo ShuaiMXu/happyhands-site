@@ -45,6 +45,7 @@ export function sectionFor(row: ResourceEntry) {
       : "systems";
 }
 export function previewFor(row: ResourceEntry) {
+  if (row.collection === "motion-primitives" && row.type === "component") return `/components/motion-preview/?component=${row.id.split("/").at(-1)}`;
   if(row.collection === "pin-ui" && row.type === "component") return `/components/pinui-preview/?component=${row.id.split("/").at(-1)}`;
   const name = row.path
     .split("/")

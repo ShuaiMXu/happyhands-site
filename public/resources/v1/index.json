@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "65da9d108f483e9915d8114459a7dd7e9b360e65f6e1603872a243dcd7240a02",
+  "version": "825b85eb8fa694104fe8904b42c3524367d4147409beb1b7e023413366bb946e",
   "assetManifest": "resources/v1/assets.json",
   "collections": [
     {
@@ -180,6 +180,20 @@
       "overview": "collection:pin-ui/UPSTREAM.md",
       "access": "reference-archive",
       "count": 31,
+      "types": [
+        "component"
+      ]
+    },
+    {
+      "id": "motion-primitives",
+      "name": "Motion Primitives 动效",
+      "nameEn": "Motion Primitives",
+      "group": "components",
+      "source": "https://motion-primitives.com",
+      "platform": "web",
+      "overview": "collection:motion-primitives/UPSTREAM.md",
+      "access": "reference-archive",
+      "count": 4,
       "types": [
         "component"
       ]
@@ -6590,6 +6604,28 @@
       "authority": "reference-data-only",
       "platform": "mobile",
       "summary": "Mobbin integration docs"
+    },
+    {
+      "path": "components/motion-primitives/UPSTREAM.md",
+      "sha256": "114aa412766fd8ea52b9d9bd9af159153528ea43d727c78a9ccaa5a35178836d",
+      "bytes": 483,
+      "id": "collection:motion-primitives/UPSTREAM.md",
+      "name": "Motion Primitives",
+      "type": "collection",
+      "collection": "motion-primitives",
+      "mimeType": "text/markdown",
+      "source": "https://motion-primitives.com",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "Animated React components for shadcn projects.",
+      "tags": [
+        "motion-primitives",
+        "shadcn",
+        "motion",
+        "UPSTREAM"
+      ]
     },
     {
       "id": "collection:ottermind/README.md",
@@ -33130,6 +33166,114 @@
         "url": "https://happyhands.cc/r/meridian-slate/utils.json",
         "status": "hosted-payload; URL substitutions only; inspect target compatibility",
         "originalSha256": "981c9009aae09a40bdeb3ee9eb6c7cdce4cd125abd73e32f8b9c926fbaecb4bd"
+      }
+    },
+    {
+      "path": "components/motion-primitives/accordion.json",
+      "sha256": "ef880c4eefb2081de63b68ead7c339c3551af3376e6743fd6e4188dea49716eb",
+      "bytes": 5326,
+      "id": "component:motion-primitives/accordion",
+      "name": "Motion Primitives",
+      "type": "component",
+      "collection": "motion-primitives",
+      "mimeType": "application/json",
+      "source": "https://motion-primitives.com",
+      "sourceUrl": "https://motion-primitives.com/docs/accordion",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "Animated React components for shadcn projects.",
+      "tags": [
+        "motion-primitives",
+        "shadcn",
+        "motion",
+        "accordion"
+      ],
+      "cover": "/components/motion-primitives/cover-accordion.png",
+      "installation": {
+        "url": "https://motion-primitives.com/c/accordion.json",
+        "status": "Upstream React shadcn registry."
+      }
+    },
+    {
+      "path": "components/motion-primitives/animated-number.json",
+      "sha256": "a3476cfedab344923bd0cc63d5c04c14db7a8d7f42968fb6c4ffa529e319a8a7",
+      "bytes": 1198,
+      "id": "component:motion-primitives/animated-number",
+      "name": "Motion Primitives",
+      "type": "component",
+      "collection": "motion-primitives",
+      "mimeType": "application/json",
+      "source": "https://motion-primitives.com",
+      "sourceUrl": "https://motion-primitives.com/docs/animated-number",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "Animated React components for shadcn projects.",
+      "tags": [
+        "motion-primitives",
+        "shadcn",
+        "motion",
+        "animated-number"
+      ],
+      "cover": "/components/motion-primitives/cover-animated-number.png",
+      "installation": {
+        "url": "https://motion-primitives.com/c/animated-number.json",
+        "status": "Upstream React shadcn registry."
+      }
+    },
+    {
+      "path": "components/motion-primitives/disclosure.json",
+      "sha256": "e2e34972db4c1a9de1091e69e8e3321d27370beaefeb45b5ea1b4869653a6a0e",
+      "bytes": 4786,
+      "id": "component:motion-primitives/disclosure",
+      "name": "Motion Primitives",
+      "type": "component",
+      "collection": "motion-primitives",
+      "mimeType": "application/json",
+      "source": "https://motion-primitives.com",
+      "sourceUrl": "https://motion-primitives.com/docs/disclosure",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "Animated React components for shadcn projects.",
+      "tags": [
+        "motion-primitives",
+        "shadcn",
+        "motion",
+        "disclosure"
+      ],
+      "cover": "/components/motion-primitives/cover-disclosure.png",
+      "installation": {
+        "url": "https://motion-primitives.com/c/disclosure.json",
+        "status": "Upstream React shadcn registry."
+      }
+    },
+    {
+      "path": "components/motion-primitives/transition-panel.json",
+      "sha256": "e051a3b411f94729873f4b92a43c8c1715a0881df3ffe5c3413f19ec6d3aa073",
+      "bytes": 1400,
+      "id": "component:motion-primitives/transition-panel",
+      "name": "Motion Primitives",
+      "type": "component",
+      "collection": "motion-primitives",
+      "mimeType": "application/json",
+      "source": "https://motion-primitives.com",
+      "sourceUrl": "https://motion-primitives.com/docs/transition-panel",
+      "license": "MIT",
+      "authority": "reference-data-only",
+      "platform": "web",
+      "summary": "Animated React components for shadcn projects.",
+      "tags": [
+        "motion-primitives",
+        "shadcn",
+        "motion",
+        "transition-panel"
+      ],
+      "cover": "/components/motion-primitives/cover-transition-panel.png",
+      "installation": {
+        "url": "https://motion-primitives.com/c/transition-panel.json",
+        "status": "Upstream React shadcn registry."
       }
     },
     {

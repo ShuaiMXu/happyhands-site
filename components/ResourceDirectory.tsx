@@ -154,7 +154,10 @@ export function ResourceDirectory({
     return section === "cult-ui" && filter ? `${href}&collection=${encodeURIComponent(filter)}` : href;
   };
   const relevance = (row: Row) => { const name=row.name.toLowerCase(); return name===term?3:name.startsWith(term)?2:name.includes(term)?1:0; };
-  const visible = filtered.filter((r) => matches(r)).sort((a,b)=>term ? relevance(b)-relevance(a) : 0);
+  const visible = filtered.filter(row => matches(row)).sort((a, b) => {
+    const rank = term ? relevance(b) - relevance(a) : 0;
+    return rank || (section === "cult-ui" ? a.name.localeCompare(b.name) : 0);
+  });
   const cards = visible.filter(
     (row) => section !== "cult-ui" || previewFor(row),
   );

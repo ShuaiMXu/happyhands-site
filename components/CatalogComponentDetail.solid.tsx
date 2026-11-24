@@ -7,6 +7,7 @@ import { createEffect, createMemo, createSignal, For, Match, onCleanup, Show, Sw
 import { mountSolidControl } from '../packages/ui/mount-solid-control';
 import { replacePreviewLocation } from '../packages/ui/preview-location';
 import type catalog from '../public/components/cult-ui/catalog.json';
+import { ShadcnInstall } from './ShadcnInstall.solid';
 import { ResourceTabs } from './ResourceTabs.solid';
 
 type Item = (typeof catalog.items)[number];
@@ -169,6 +170,9 @@ function CatalogComponentDetail(props: { data: DetailProps }) {
 
   const integration = () => (
     <>
+      <Show when={!item().aliasOf}>
+        <ShadcnInstall url={new URL(item().source, 'https://happyhands.cc').href} lang={props.data.lang} />
+      </Show>
       <h3>{t('接入前核对', 'Before integration')}</h3>
       <dl class="integration-facts">
         <div><dt>{t('源码版本', 'Revision')}</dt><dd><code>{item().revision}</code></dd></div>

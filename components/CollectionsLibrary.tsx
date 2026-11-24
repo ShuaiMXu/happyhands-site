@@ -1,4 +1,5 @@
 import {DirectoryComponentDetail} from './DirectoryComponentDetail';
+import {DesignShadcnGuide} from './DesignShadcnGuide';
 import {DesignDocumentBody} from './DesignDocumentBody';
 import {PlatformDirectory} from "./PlatformDirectory";
 import {platformFor} from "./platform-directory";
@@ -315,7 +316,7 @@ export function CollectionsLibrary({
               lang={lang}
               path={selected.path}
               content={content}
-              previewUrl={previewFor(selected) ? previewFor(selected) + `&theme=${previewTheme}` : ""}
+              previewUrl={previewFor(selected) ? previewFor(selected) + `&theme=${previewTheme}&lang=${lang}` : ""}
               cover={selected.cover}
               installUrl={selected.installation?.url}
               inlinePreview={inlinePreviews[selected.id] ? (
@@ -394,6 +395,7 @@ export function CollectionsLibrary({
               {selected.path.endsWith("material3/DESIGN.md") && tokenContext && <TokenSpecimens content={tokenContext} zh={zh}/>}
               {selected.type === "design-md" && (
                 <>
+                  <DesignShadcnGuide markdown={content} lang={lang} />
                   <DesignComponentSpecimens markdown={content} lang={lang} referenceName={selected.name} />
                 </>
               )}

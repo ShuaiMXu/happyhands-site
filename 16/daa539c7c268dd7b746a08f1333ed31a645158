@@ -1,0 +1,130 @@
+apps/portal/footer-directory.js
+  h_a2d68672f84791 15
+apps/portal/portal.css
+  h_a2d68672f84791 76,78-80
+apps/portal/render-footer.js
+  h_a2d68672f84791 3-4,6-7,11-14,16-22,24,29
+apps/portal/resource-feed.css
+  h_a2d68672f84791 2
+components/ArchiveFilter.solid.tsx
+  h_a2d68672f84791 33,40
+components/CollectedSystemDocumentation.tsx
+  h_a2d68672f84791 4,73-75
+components/CollectionsLibrary.tsx
+  h_a2d68672f84791 14-15,340,452,511-516
+components/DesignHowLibrary.tsx
+  h_a2d68672f84791 469
+components/DesignSystemDocumentation.tsx
+  h_a2d68672f84791 50-54,59-64
+components/ResourceDirectory.tsx
+  h_a2d68672f84791 5,7,74,261,281,301,366-372
+components/ResourceLoadMore.tsx
+  h_a2d68672f84791 1-35
+components/ResourcePresentation.tsx
+  h_a2d68672f84791 36-63
+components/ResourceSearchCard.solid.tsx
+  h_a2d68672f84791 231,234
+components/ResourceToolbar.tsx
+  h_a2d68672f84791 13-15
+components/SystemStylePreview.tsx
+  h_a2d68672f84791 3,86
+components/TokenSpecimens.tsx
+  h_a2d68672f84791 1,7-8,10-11,40,42-43,45-46,48,50,61,63-66,70-72,75-76,222,233-239
+components/collections.css
+  h_a2d68672f84791 1,5,16,28
+components/design-how.css
+  h_a2d68672f84791 332,337-338,397
+components/resource-controls.css
+  h_a2d68672f84791 1,3-14,17-25,27-29,32-47,49-63,66-105,107-132,134
+components/resource-directory.ts
+  h_a2d68672f84791 74
+components/resource-presentation.css
+  h_a2d68672f84791 13,127,137,139-157
+components/search-card.css
+  h_a2d68672f84791 5,29,62,64-65,71-72,80,114-117,146,151,171,206,340
+components/system-documentation.css
+  h_a2d68672f84791 88
+components/system-style-preview.css
+  h_a2d68672f84791 30,35,41
+components/token-specimens.css
+  h_a2d68672f84791 1
+docs/audits/owned-ui.json
+  h_a2d68672f84791 3,26-55
+guide/main.ts
+  h_a2d68672f84791 5
+guide/wiki-navigation.ts
+  h_a2d68672f84791 1,37
+package.json
+  h_a2d68672f84791 19
+packages/ui/PreviewScenarioPicker.tsx
+  h_a2d68672f84791 1-28
+packages/ui/SystemExample.tsx
+  h_a2d68672f84791 12,17,52-64
+packages/ui/SystemPreviewSurface.tsx
+  h_a2d68672f84791 1,7-15
+packages/ui/SystemScenes.tsx
+  h_a2d68672f84791 5,16,91-113,115-130,132-171,173-191,193-194,197-222,226-235,237-287,289-291
+packages/ui/pinui/site-footer.css
+  h_a2d68672f84791 1,3-14,16,18-19,21-28,30-36,38-41,43-54,56-66,68-74,76-77
+packages/ui/preview-scenario.css
+  h_a2d68672f84791 1-13
+packages/ui/system-scenes.css
+  h_a2d68672f84791 3,7,10,12,14,23-28,31,33,36-38,206-208,215-216,218-219,221-222,224-225,227-229
+public/fonts/hanken-grotesk/LICENSE.txt
+  h_a2d68672f84791 1-94
+public/fonts/hanken-grotesk/index.css
+  h_a2d68672f84791 1-36
+public/fonts/sodium/OFL-CommitMono.txt
+  h_a2d68672f84791 1-92
+public/fonts/sodium/OFL-Inter.txt
+  h_a2d68672f84791 1-92
+scripts/build-design-how-previews.mjs
+  h_a2d68672f84791 8-9,21-22,44,46,48-49,51-52
+scripts/check-component-lineage.mjs
+  h_a2d68672f84791 13,16,20-21,26,39-41
+scripts/check-search-discovery.mjs
+  h_a2d68672f84791 14
+systems/lime/LimeExample.tsx
+  h_a2d68672f84791 6-10,36-45
+systems/lime/main.tsx
+  h_a2d68672f84791 190
+systems/preview/main.tsx
+  h_a2d68672f84791 2,5,7,20,64,115,121,133-138,147,161,164,486,495,500-504,515,520-544,546-579,581-611,626,628-638,640-646,652-653,665
+systems/preview/preview.css
+  h_a2d68672f84791 82-84,260
+systems/quartz/main.tsx
+  h_a2d68672f84791 206
+tests/component-collections-browser.mjs
+  h_a2d68672f84791 44-68
+tests/design-md-publish-browser.mjs
+  h_a2d68672f84791 179,183-190,194,196
+tests/design-system-live-browser.mjs
+  h_a2d68672f84791 68,79-85,87-88,100,102,104,111,113-144,146
+tests/portal-footer.test.mjs
+  h_a2d68672f84791 21,24
+tests/portal-guides.test.mjs
+  h_a2d68672f84791 10,13,15
+tests/shared-site-controls-browser.mjs
+  h_a2d68672f84791 1-86
+tests/site-seo.test.mjs
+  h_a2d68672f84791 47,50,172-173
+tests/system-documentation-browser.mjs
+  h_a2d68672f84791 17-20,22,24,26,40,102-120,122,124-127,129-139,142-152,159-164
+tests/system-scenes-browser.mjs
+  h_a2d68672f84791 11-13,17-18
+tests/wiki-browser.mjs
+  h_a2d68672f84791 32-40,86
+tests/wiki-layout.test.mjs
+  h_a2d68672f84791 54-55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "16daa539c7c268dd7b746a08f1333ed31a645158",
+  "prompts": {},
+  "humans": {
+    "h_a2d68672f84791": {
+      "author": "xushuai.133"
+    }
+  }
+}

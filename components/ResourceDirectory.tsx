@@ -1,10 +1,13 @@
+import { systemDocumentCover, systemOfficialCover } from '../packages/ui/resource-editorial-covers';
 import { designMdCatalogEnabled, isDesignMdCollection } from "../packages/ui/resource-navigation";
-import { loadDirectoryData } from "./resource-directory-data";
+import { loadDirectoryData, loadPublicDirectoryData } from "./resource-directory-data";
 import {isSystemEntry,systemEntryName} from "./platform-directory";
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Button } from "../packages/ui";
+import { ResourceLoadMore } from "./ResourceLoadMore";
 import { ResourceToolbar } from "./ResourceToolbar";
 import { ResourceCard } from "./ResourcePresentation";
+import { ComponentCollectionCards, componentCollection, componentCollectionName, groupComponentResources } from "./ComponentCollectionCards";
 import { ArchiveCard } from "./ArchiveCard";
 import { ArchiveFilter } from "./ArchiveFilter";
 import {
@@ -50,6 +53,7 @@ export function ResourceDirectory({
 }) {
   const zh = lang === "zh",
     Root = embedded ? "section" : "main";
+  const [sourcePage, setSourcePage] = useState(1);
   const [rows, setRows] = useState<Row[]>([]),
     [archives, setArchives] = useState<ArchiveEntry[]>([]),
     [covers, setCovers] = useState<Record<string, string>>({}),
@@ -67,11 +71,15 @@ export function ResourceDirectory({
     [type, setType] = useState(initialState.type || ""),
     [page, setPage] = useState(initialState.page || 1),
     [active, setActive] = useState<string | null>(null);
+  const resourceList = useRef<HTMLDivElement>(null);
   const selected = new URLSearchParams(location.search).get("resource");
   useEffect(() => {
     const c = new AbortController();
     setError(false);
-    loadDirectoryData(selected, c.signal, fetch, section === "design-md")
+    const dataRequest = selected || section === "design-md"
+      ? loadDirectoryData(selected, c.signal, fetch, section === "design-md")
+      : loadPublicDirectoryData(c.signal, retry > 0);
+    dataRequest
       .then((data) => {
         // Detail routes are owned by CollectionsLibrary, not the hidden list.
         if (!data || c.signal.aborted) return;
@@ -146,8 +154,17 @@ export function ResourceDirectory({
     (r) => !filter || r.system === filter || r.collection === filter,
   );
   const term = query.trim().toLowerCase();
+  const grouped = section === "cult-ui" && !filter && !term;
+  const collections = grouped ? groupComponentResources(candidates) : null;
+  const itemHref = (row: Row) => {
+    const href = resourceHref(row, lang);
+    return section === "cult-ui" && filter ? `${href}&collection=${encodeURIComponent(filter)}` : href;
+  };
   const relevance = (row: Row) => { const name=row.name.toLowerCase(); return name===term?3:name.startsWith(term)?2:name.includes(term)?1:0; };
-  const visible = filtered.filter((r) => matches(r)).sort((a,b)=>term ? relevance(b)-relevance(a) : 0);
+  const visible = filtered.filter(row => matches(row)).sort((a, b) => {
+    const rank = term ? relevance(b) - relevance(a) : 0;
+    return rank || (section === "cult-ui" ? a.name.localeCompare(b.name) : 0);
+  });
   const cards = visible.filter(
     (row) => section !== "cult-ui" || previewFor(row),
   );
@@ -155,15 +172,16 @@ export function ResourceDirectory({
     section === "cult-ui" ? visible.filter((row) => !previewFor(row)) : [];
   const groups = [
     ...new Set(
-      candidates.flatMap((r) => [
-        r.collection,
-        ...(r.system ? [r.system] : []),
-      ]),
+      candidates.flatMap((r) => section === "cult-ui"
+        ? [componentCollection(r)]
+        : [r.collection, ...(r.system ? [r.system] : [])]),
     ),
   ].sort();
+  if (section === "cult-ui" && filter && !groups.includes(filter)) groups.push(filter);
   const change = (set: (v: string) => void) => (v: string) => {
     set(v);
     setPage(1);
+    setSourcePage(1);
     setActive(null);
   };
   if (selected)
@@ -179,6 +197,10 @@ export function ResourceDirectory({
       id={embedded ? undefined : "catalog-main"}
       className="collections-library resource-directory"
     >
+      {section === "cult-ui" && filter && <header className="component-collection-heading">
+            <a href={`${zh ? "" : "/en"}/components/?provider=cult-ui`}>{zh ? "组件库" : "Components"}</a>
+            <h1>{componentCollectionName(filter, labels)}</h1>
+          </header>}
       <ResourceToolbar
         suggestions={
           section === "design-md"
@@ -195,10 +217,10 @@ export function ResourceDirectory({
         placeholder={
           zh ? "搜索名称、用途或组件" : "Search names, tasks or components"
         }
-        results={cards.slice(0,5).map(row=>({id:row.id,label:row.name,href:resourceHref(row,lang)}))}
+        results={visible.slice(0,5).map(row=>({id:row.id,label:row.name,href:itemHref(row)}))}
         query={query}
         onQueryChange={change(setQuery)}
-        status={`${visible.length} ${zh ? "项资源" : "resources"}`}
+        status={collections ? `${collections.size} ${zh ? "个组件库" : "libraries"}` : `${visible.length} ${zh ? "项资源" : "resources"}`}
       >
         <ArchiveFilter
           label={zh ? "来源" : "Source"}
@@ -213,7 +235,7 @@ export function ResourceDirectory({
             },
             ...groups.map((g) => ({
               value: g,
-              label: labels[g] || g,
+              label: section === "cult-ui" ? componentCollectionName(g, labels) : labels[g] || g,
               count: candidates.filter(
                 (r) => (r.system === g || r.collection === g) && matches(r),
               ).length,
@@ -239,7 +261,7 @@ export function ResourceDirectory({
                     label: zh ? cn : en,
                     count: filtered.filter((r) => matches(r, style, id)).length,
                   }))
-                  .filter((r) => r.count > 0),
+                  .filter((r) => r.count > 0 || r.value === type),
               ]}
             />
             <ArchiveFilter
@@ -259,7 +281,7 @@ export function ResourceDirectory({
                     label: zh ? cn : en,
                     count: filtered.filter((r) => matches(r, id, type)).length,
                   }))
-                  .filter((r) => r.count > 0),
+                  .filter((r) => r.count > 0 || r.value === style),
               ]}
             />
           </>
@@ -274,26 +296,14 @@ export function ResourceDirectory({
         </div>
       ) : !rows.length ? (
         <p role="status">{zh ? "加载中…" : "Loading…"}</p>
+      ) : collections ? (
+        <ComponentCollectionCards groups={collections} labels={labels} covers={covers} lang={lang} />
       ) : (
         <>
-          <div className="archive-grid">
-            {section === "systems" && !filter && !query && (
-              <ResourceCard
-                href={`?provider=systems&system=happyhands`}
-                title="HappyHands"
-                description={zh ? "项目设计系统" : "Project design system"}
-                mediaClassName="archive-card-media"
-                media={
-                  <img
-                    src="/system-covers/happyhands.png"
-                    alt=""
-                    loading="lazy"
-                  />
-                }
-              />
-            )}
-            {cards.slice(0, page * 36).map((row) =>
-              section === "design-md" ? (
+          {section === "cult-ui" && cards.length > 0 && sourceFiles.length > 0 && <h2 className="component-group-heading">{zh ? "可预览组件" : "Interactive previews"}</h2>}
+          <div ref={resourceList} className="archive-grid">
+            {cards.slice(0, page * 36).map((row) => {
+              if (section === "design-md") return (
                 <ArchiveCard
                   key={row.id}
                   entry={archiveFor(row)}
@@ -302,55 +312,67 @@ export function ResourceDirectory({
                   onOpen={() => {
                     location.href = resourceHref(row, lang);
                   }}
-                  href={resourceHref(row, lang)}
+                  href={itemHref(row)}
                   lang={lang}
                 />
-              ) : (
-                <ResourceCard
+              );
+              const cover = (section === 'systems' ? systemDocumentCover(row) : undefined) || covers[row.id] || row.cover;
+              const officialCover = section === 'systems' ? systemOfficialCover(row.path) : undefined;
+                return <ResourceCard
                   key={row.id}
-                  href={resourceHref(row, lang)}
+                  href={itemHref(row)}
                   title={row.name
                     .replace(/^r \/ /, "")
                     .replaceAll(" / ", " — ")}
                   description={
-                    row.system || labels[row.collection] || row.collection
+                    row.collection === 'design-how-systems' ? 'design.how'
+                    : section === 'systems' && row.collection === 'beautiful-ui' ? (zh ? 'Agent 界面组件' : 'Agent interface components')
+                    : (section === 'cult-ui' ? row.system : undefined) || labels[row.collection] || row.collection
                   }
                   mediaClassName="archive-card-media"
                   media={
-                    <img
-                      src={covers[row.id] || row.cover}
-                      alt=""
-                      loading="lazy"
-                    />
+                    cover ? (
+                      <img src={officialCover || cover} alt="" loading="lazy"
+                        className={officialCover ? 'official-system-cover' : undefined}
+                        referrerPolicy={officialCover ? 'no-referrer' : undefined}
+                        onError={officialCover ? (event) => {
+                          if (event.currentTarget.getAttribute('src') !== cover) {
+                            event.currentTarget.src = cover;
+                            event.currentTarget.classList.remove('official-system-cover');
+                          }
+                        } : undefined} />
+                    ) : (
+                      <div className="component-cover-fallback">{row.name}</div>
+                    )
                   }
-                />
-              ),
-            )}
+                />;
+            })}
           </div>
           {sourceFiles.length > 0 && (
-            <details className="directory-source">
-              <summary>
-                {zh ? "源码与配套文件" : "Source and supporting files"} (
-                {sourceFiles.length})
-              </summary>
-              <div className="directory-source-files">
-                {sourceFiles.map((row) => (
-                  <a key={row.id} href={resourceHref(row, lang)}>
-                    {row.name.replace(/^r \/ /, "").replaceAll(" / ", " — ")}
-                  </a>
+            <section className="component-source-section" aria-labelledby="component-source-heading">
+              <h2 id="component-source-heading" className="component-group-heading">{zh ? "源码与配套文件" : "Source and supporting files"}</h2>
+              <ul className="directory-source-files">
+                {sourceFiles.slice(0, sourcePage * 24).map((row) => (
+                  <li key={row.id}><a href={itemHref(row)}>
+                    {row.name.replace(/^r \/ /, "").split(" / ").at(-1)}
+                  </a></li>
                 ))}
-              </div>
-            </details>
+              </ul>
+              {sourceFiles.length > sourcePage * 24 && <Button onClick={() => setSourcePage((page) => page + 1)}>
+                {zh ? "查看更多源码" : "Show more source files"}
+              </Button>}
+            </section>
           )}
           {!visible.length && (
             <p role="status">{zh ? "没有匹配资源" : "No matching resources"}</p>
           )}
-          {cards.length > 0 && <div className="directory-pagination">
-            <span role="status">{zh ? `已展示 ${Math.min(page*36,cards.length)} / ${cards.length} 项` : `Showing ${Math.min(page*36,cards.length)} of ${cards.length}`}</span>
-            {cards.length > page * 36 && <Button onClick={() => setPage((p) => p + 1)}>
-              {zh ? "加载更多" : "Load more"}
-            </Button>}
-          </div>}
+          <ResourceLoadMore
+            list={resourceList}
+            shown={page * 36}
+            total={cards.length}
+            lang={lang}
+            onLoad={() => setPage((p) => p + 1)}
+          />
         </>
       )}
     </Root>

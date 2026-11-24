@@ -270,16 +270,13 @@ document.addEventListener('click', async e => {
 
 // -- boot --
 let disposeMenu;
-const backTopRow = document.createElement('div');
-backTopRow.className = 'back-to-top-row';
 const backTopButton = document.createElement('button');
 backTopButton.id = 'back-to-top';
 backTopButton.type = 'button';
 backTopButton.hidden = true;
-backTopRow.append(backTopButton);
-document.querySelector('main').append(backTopRow);
+document.querySelector('main').append(backTopButton);
 const disposeBackToTop = setupBackToTop({ button: backTopButton, target: document.querySelector('.site-header .wordmark') });
-if (import.meta.hot) import.meta.hot.dispose(() => { disposeBackToTop(); backTopRow.remove(); });
+if (import.meta.hot) import.meta.hot.dispose(() => { disposeBackToTop(); backTopButton.remove(); });
 renderLangSwitch();
 renderContent();
 

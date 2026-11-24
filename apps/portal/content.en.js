@@ -193,24 +193,6 @@ export const steps = [
 
 export const systems = [
   {
-    "tag": "Design System",
-    "title": "HappyHands",
-    "description": "Dark surfaces, one warm accent used sparingly.",
-    "values": [
-      "#111111",
-      "#F7F6F3",
-      "#F57F28",
-      "#96918A"
-    ],
-    "traits": [
-      "Professional",
-      "Calm",
-      "Friendly"
-    ],
-    "href": "/systems/happyhands/",
-    "action": "Explore design system"
-  },
-  {
     "tag": "Case Study",
     "title": "HappyClaw",
     "description": "A real case with captures, changes and review records. The historical run shown here has an unresolved visual regression.",

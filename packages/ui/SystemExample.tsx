@@ -9,10 +9,12 @@ export function SystemExample({
   system,
   lang,
   dark,
+  hideAppearanceControl = false,
 }: {
   system: "happyhands" | "quartz";
   lang: string;
   dark: boolean;
+  hideAppearanceControl?: boolean;
 }) {
   const [selected, setSelected] = useState(["home"]);
   const [confirmed, setConfirmed] = useState(false);
@@ -47,7 +49,7 @@ export function SystemExample({
       }
       data-appearance={isDark ? "dark" : "light"}
     >
-      <div className="example-top">
+      {!hideAppearanceControl && <div className="example-top">
         <span>{t("可操作示例", "Interactive example")}</span>
         <Button
           type="button"
@@ -59,7 +61,7 @@ export function SystemExample({
             isDark ? "View light" : "View dark",
           )}
         </Button>
-      </div>
+      </div>}
       <h2>
         {t(
           quartz ? "核对这次文件修改" : "选择要审阅的页面",

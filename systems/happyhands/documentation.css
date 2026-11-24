@@ -1,0 +1,108 @@
+.hh-system-section {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  min-width: 0;
+  gap: var(--hh-space-6);
+  container: hh-system-section / inline-size;
+}
+.hh-system-section .system-specimen {
+  min-width: 0;
+}
+.hh-system-section :where(.system-specimen, .pattern-reference, .token-reference) :is(h3, p) {
+  margin-block: 0;
+}
+.hh-system-section :where(.system-specimen, .pattern-reference, .token-reference) h3 {
+  font-size: var(--hh-type-body);
+  font-weight: 500;
+}
+.hh-system-section .system-specimen-feedback {
+  color: var(--hh-ink-muted);
+}
+.hh-system-section .system-code {
+  margin-block: 0;
+}
+.hh-system-section .system-specimen-feedback:empty {
+  display: none;
+}
+.system-specimen-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr));
+  gap: var(--hh-space-4);
+}
+.system-specimen-stack,
+.system-specimen-field {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  min-width: 0;
+  gap: var(--hh-space-3);
+}
+.system-specimen-field {
+  gap: var(--hh-space-2);
+}
+.system-specimen-field textarea {
+  width: 100%;
+  min-height: 160px;
+}
+.system-specimen-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--hh-space-2);
+}
+.hh-system-section .scene-note {
+  margin-top: var(--hh-space-3);
+}
+.hh-system-section .pattern-reference {
+  display: grid;
+  gap: var(--hh-space-4);
+}
+.hh-system-section .reference-heading {
+  margin: 0;
+}
+.hh-system-section .reference-toolbar {
+  margin-top: var(--hh-space-4);
+}
+.hh-system-section .reference-count {
+  margin-block: var(--hh-space-3);
+}
+.hh-system-section .reference-list p,
+.hh-system-section .reference-feedback p {
+  margin-top: var(--hh-space-1);
+}
+.hh-system-section .reference-list [data-slot="badge"] {
+  flex: none;
+}
+.hh-system-section [data-slot="tabs-list"] {
+  max-width: 100%;
+}
+.hh-system-section [data-slot="tabs-trigger"] {
+  min-width: 0;
+  white-space: normal;
+}
+@container hh-system-section (max-width: 600px) {
+  .hh-system-section :is(.showcase-grid, .reference-toolbar) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+.hh-system-section .reference-checkbox {
+  display: flex;
+  align-items: center;
+  gap: var(--hh-space-2);
+  min-height: 44px;
+}
+.hh-system-section .pattern-body {
+  display: grid;
+  align-content: start;
+  gap: var(--hh-space-3);
+}
+.hh-system-section .pattern-body form {
+  display: grid;
+  justify-items: start;
+  gap: var(--hh-space-3);
+}
+.hh-system-section .pattern-body form label {
+  width: 100%;
+}
+.hh-system-section [data-slot="tabs-content"] {
+  min-width: 0;
+}

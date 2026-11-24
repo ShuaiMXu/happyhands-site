@@ -10,7 +10,6 @@ const publicPaths = new Set([
   "/apps/portal/",
   "/apps/studio/",
   "/components/",
-  "/systems/happyhands/",
   "/systems/quartz/",
   "/systems/lime/",
   "/guide/",

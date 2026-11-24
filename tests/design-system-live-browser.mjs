@@ -65,7 +65,7 @@ try {
         );
         assert.equal(
           await page
-            .getByText("This example could not render.", { exact: false })
+            .getByText("Could not load the example.", { exact: false })
             .count(),
           0,
         );
@@ -76,13 +76,16 @@ try {
         assert.deepEqual(errors, []);
         results.push({ system, width, theme, passed: true });
         if (width === 1280 && theme === "light") {
-          const examples = await page
-            .locator('select[aria-label="Page example"] option')
-            .evaluateAll((nodes) =>
-              nodes.map((n) => ({ name: n.value, label: n.textContent })),
-            );
+          const picker = page.getByRole("combobox", { name: "Scenario", exact: true });
+          await picker.press("Enter");
+          const list = page.getByRole("listbox");
+          const examples = await list.getByRole("option").allTextContents();
+          assert.ok(examples.length > 1);
+          await page.keyboard.press("Escape");
+          await list.waitFor({ state: "hidden" });
           for (const example of examples) {
-            await page.getByLabel("Page example").selectOption(example.name);
+            await picker.press("Enter");
+            await list.getByRole("option", { name: example, exact: true }).click();
             await page.waitForTimeout(120);
             await page.locator(".demo-block").evaluate(async (node) => {
               for (
@@ -94,37 +97,53 @@ try {
             });
             assert.ok(
               !(await page.locator(".demo-block").innerText()).includes(
-                "This example could not render.",
+                "Could not load the example.",
               ),
-              `${system} ${example.name}`,
+              `${system} ${example}`,
             );
-            results.push({ system, example: example.name, passed: true });
+            results.push({ system, example, passed: true });
           }
           assert.deepEqual(errors, []);
         }
         console.log(`Passed live ${system} ${width} ${theme}`);
         await context.close();
       }
-  // The resource detail now opens the styled view and switches to complete docs.
+  // Verify the same picker inside the resource detail's live preview.
   const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
-  await page.goto(`${base}/components/?provider=systems&system=lime`);
-  await page.getByRole("tab", { name: "预览", exact: true }).waitFor();
-  await page
-    .frameLocator(".system-style-preview iframe")
-    .getByRole("button", { name: "Save changes", exact: true })
-    .waitFor();
-  assert.equal(
-    await page
-      .getByRole("tab", { name: "预览", exact: true })
-      .getAttribute("aria-selected"),
-    "true",
-  );
-  await page.screenshot({
-    path: `${folder}/library-lime-phone.png`,
-    fullPage: true,
+  await page.goto(`${base}/components/?provider=systems&resource=collection%3Abrand-systems%2Fmeridian-glass%2Findex.md#system-preview`);
+  const preview = page.frameLocator("#system-preview iframe");
+  const picker = preview.getByRole("combobox", { name: "示例场景", exact: true });
+  await preview.getByText("Build a returns agent for our shoe store.", { exact: true }).waitFor();
+  const waitForPreviewResize = async () => {
+    await page.waitForFunction(() => {
+      const frame = document.querySelector("#system-preview iframe");
+      const size = frame?.contentDocument?.querySelector(".demo-root")?.getBoundingClientRect().height;
+      return size && Math.abs(frame.clientHeight - Math.max(200, size)) <= 2;
+    });
+    await page.evaluate(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))));
+  };
+  await waitForPreviewResize();
+  await picker.press("Enter");
+  const options = preview.getByRole("listbox");
+  await options.getByRole("option", { name: "代理计划", exact: true, selected: true }).waitFor();
+  await page.keyboard.press("ArrowDown");
+  const focused = options.locator('[role="option"]:focus');
+  await focused.filter({ hasText: "代理执行流程" }).waitFor();
+  await page.keyboard.press("Enter");
+  await options.waitFor({ state: "hidden" });
+  assert.equal(await picker.innerText(), "代理执行流程");
+  await preview.locator(".demo-block > :not([role=status])").first().waitFor();
+  assert.equal(await preview.locator(".demo-block [role=alert]").count(), 0);
+  await waitForPreviewResize();
+  await picker.press("Enter");
+  await options.waitFor();
+  await page.keyboard.press("Escape");
+  await options.waitFor({ state: "hidden" });
+  await page.waitForFunction(() => {
+    const doc = document.querySelector("#system-preview iframe")?.contentDocument;
+    return doc?.activeElement?.matches(".hh-preview-scenario [data-slot=select-trigger]");
   });
-  await page.getByRole("tab", { name: "资料与下载", exact: true }).click();
-  await page.locator(".design-how-prose").waitFor();
+  await page.screenshot({ path: `${folder}/meridian-glass-phone.png` });
   await writeFile(`${folder}/results.json`, JSON.stringify(results, null, 2));
   console.log(`Passed ${results.length} preview and original block checks.`);
 } finally {

@@ -2,13 +2,9 @@ import { Input } from "./index";
 import { Button } from "./index";
 import React, { useState, type CSSProperties } from "react";
 import { SystemExample } from "./SystemExample";
+import { PreviewScenarioPicker } from "./PreviewScenarioPicker";
 import { LimeExample } from "../../systems/lime/LimeExample";
 type SystemId = "happyhands" | "quartz" | "lime";
-const systemEditions = {
-  happyhands: { name: "HappyHands" },
-  quartz: { name: "Quartz" },
-  lime: { name: "Lime" },
-};
 import quartz from "../../systems/quartz/foundations.json";
 import hh from "../design-tokens/happyhands.json";
 import lime from "../../systems/lime/palette.json";
@@ -94,21 +90,21 @@ export function SystemScenes({
   } as CSSProperties;
   return (
     <section id="scenes" className="system-scenes">
-      <div className="scene-section-head">
-        <div>
-          <h2>{t("应用场景", "Application examples")}</h2>
-          <p>
-            {t(
-              "切换场景与外观，试试选择、确认和表单反馈。",
-              "Switch scenes and appearance. Try selection, confirmation and form feedback.",
-            )}
-          </p>
-        </div>
-        <div
-          className="scene-appearance"
-          role="group"
-          aria-label={t("场景外观", "Scene appearance")}
-        >
+      <h2>{t("应用场景", "Application examples")}</h2>
+      <div className="scene-controls">
+        <PreviewScenarioPicker
+          lang={lang}
+          value={String(scene)}
+          options={scenes[system].map((label, index) => ({
+            value: String(index),
+            label: label[zh ? 0 : 1],
+          }))}
+          onChange={value => {
+            setScene(Number(value));
+            setMessage("");
+          }}
+        />
+        <div className="scene-appearance" role="group" aria-label={t("示例外观", "Example appearance")}>
           <Button aria-pressed={!isDark} onClick={() => setAppearance(false)}>
             {t("浅色", "Light")}
           </Button>
@@ -118,70 +114,17 @@ export function SystemScenes({
         </div>
       </div>
       <div
-        className="scene-selector"
-        role="group"
-        aria-label={t("选择应用场景", "Choose a scene")}
-      >
-        {scenes[system].map((label, index) => (
-          <Button
-            key={index}
-            aria-pressed={scene === index}
-            onClick={() => {
-              setScene(index);
-              setMessage("");
-            }}
-          >
-            <span>0{index + 1}</span>
-            <strong>{label[zh ? 0 : 1]}</strong>
-          </Button>
-        ))}
-      </div>
-      <div
         className={`scene-frame scene-${system}`}
         style={style}
         data-appearance={isDark ? "dark" : "light"}
       >
-        <header className="scene-window-bar">
-          <b>{systemEditions[system].name}</b>
-          <span>
-            {t("可交互场景 / 示例数据", "Interactive scene / Sample data")}
-          </span>
-        </header>
         {scene === 0 ? (
           <div className="scene-stage">
-            <div className="scene-intro">
-              <h3>{t(...(scenes[system][0] as [string, string]))}</h3>
-              <p>
-                {system === "quartz"
-                  ? t(
-                      "先了解操作内容，再作出决定。",
-                      "Understand the action before deciding.",
-                    )
-                  : system === "lime"
-                    ? t(
-                        "确认时间与内容，让提醒服务于你的节奏。",
-                        "Choose the time and content to fit your day.",
-                      )
-                    : t(
-                        "从页面选择开始，明确这一次的工作范围。",
-                        "Start with page selection to define the scope.",
-                      )}
-              </p>
-              <ul>
-                <li>
-                  {t("操作前可核对范围", "Review the scope before acting")}
-                </li>
-                <li>
-                  {t("操作后有明确反馈", "Clear feedback after every action")}
-                </li>
-                <li>{t("示例可重置、重新体验", "Reset and try again")}</li>
-              </ul>
-            </div>
             {system === "lime" ? (
-              <LimeExample key={String(isDark)} lang={lang} dark={isDark} />
+              <LimeExample lang={lang} dark={isDark} hideAppearanceControl />
             ) : (
               <SystemExample
-                key={String(isDark)}
+                hideAppearanceControl
                 system={system}
                 lang={lang}
                 dark={isDark}

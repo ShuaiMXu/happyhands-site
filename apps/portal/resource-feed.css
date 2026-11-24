@@ -1,5 +1,8 @@
 /* Homepage body only; the approved Hero is outside this scope. */
+.content-section.resource-feed { padding-bottom:32px; border-bottom:0; }
 .resource-feed { padding-top:48px; }
+#design-resources.resource-feed { padding-bottom:24px; border-bottom:0; }
+#design-resources .resource-directory { padding-bottom:0; margin-bottom:0; }
 .feed-collection + .feed-collection { margin-top:48px; }
 .feed-heading { display:flex; align-items:baseline; justify-content:space-between; gap:20px; margin-bottom:20px; }
 .feed-heading h2 { margin:0; font-size:24px; line-height:1.3; letter-spacing:-.025em; }
@@ -42,17 +45,8 @@
 
 .feed-collection .feed-heading { justify-content:flex-end; margin-bottom:12px; }
 
-.feed-more { display:block; margin:32px auto 0; min-height:44px; padding:8px 20px; font:inherit; font-size:14px; color:var(--hh-ink-muted); background:transparent; border:0; border-radius:var(--hh-radius-card); cursor:pointer; }
-.feed-more[hidden] { display:none; }
-.feed-more:focus-visible { outline:2px solid var(--hh-ring); outline-offset:3px; }
-.resource-feed [data-feed-controls] .resource-toolbar { margin:20px 0 24px; }
-.resource-feed .resource-search { flex-basis:340px; max-width:380px; }
 .feed-empty { padding:40px 0; color:var(--hh-ink-muted); }
 .feed-empty button { min-height:44px; padding:8px 16px; border:.5px solid var(--hh-line); border-radius:var(--hh-radius-card); background:var(--hh-bg); color:var(--hh-ink); cursor:pointer; }
-@media(max-width:700px) {
- .resource-feed .resource-search { flex-basis:100%; max-width:none; }
- .resource-feed .resource-result-count { margin-left:auto; }
-}
 
 /* Resource tabs and direct tool links share a row without pretending links are tabs. */
 #connect-agent { scroll-margin-top:88px; }

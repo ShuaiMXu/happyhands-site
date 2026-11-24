@@ -193,24 +193,6 @@ export const steps = [
 
 export const systems = [
   {
-    "tag": "设计系统",
-    "title": "HappyHands",
-    "description": "深色打底，品牌橙只用在关键处。",
-    "values": [
-      "#111111",
-      "#F7F6F3",
-      "#F57F28",
-      "#96918A"
-    ],
-    "traits": [
-      "专业",
-      "克制",
-      "亲和"
-    ],
-    "href": "/systems/happyhands/",
-    "action": "探索设计系统"
-  },
-  {
     "tag": "审阅案例",
     "title": "HappyClaw",
     "description": "保留截图、修改与复核记录的真实案例；当前展示的历史运行有未解决的视觉问题。",

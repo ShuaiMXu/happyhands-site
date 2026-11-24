@@ -109,7 +109,7 @@ try {
         await page.goto(base + "/components/", { waitUntil: "networkidle" });
         await page.locator(".component-tile").first().waitFor();
         assert.equal(await page.locator(".component-tile").count(),18);
-        assert.equal(await page.locator(".catalog-tabs").count(),0);
+        assert.equal(await page.locator(".component-detail-tabs").count(),0);
         await page.locator("input[type=search]").fill("shift-card");
         assert.equal(await page.locator(".component-tile").count(),1);
         await page.locator("input[type=search]").fill("no-such-component-000");
@@ -128,15 +128,15 @@ try {
             exact: true,
           })
           .click();
-        await page.locator(".source-file pre").waitFor();
+        await page.locator(".component-source-file pre").waitFor();
         assert.ok(
-          (await page.locator(".source-file pre").innerText()).includes(
+          (await page.locator(".component-source-file pre").innerText()).includes(
             "HaloInput",
           ),
         );
         await page
           .getByRole("tab", {
-            name: lang === "zh" ? "接入规范" : "Integration",
+            name: lang === "zh" ? "接入" : "Integration",
             exact: true,
           })
           .click();
@@ -153,24 +153,14 @@ try {
         );
         await page
           .getByRole("tab", {
-            name: lang === "zh" ? "效果预览" : "Preview",
+            name: lang === "zh" ? "预览" : "Preview",
             exact: true,
           })
           .click();
-        await page
-          .getByRole("button", {
-            name: lang === "zh" ? "停止预览" : "Stop preview",
-            exact: true,
-          })
-          .click();
-        assert.equal(await page.locator("iframe").count(), 0);
-        await page
-          .getByRole("button", {
-            name: lang === "zh" ? "启动预览" : "Start preview",
-            exact: true,
-          })
-          .click();
-        await page.frameLocator("iframe").getByPlaceholder("Display name").waitFor();
+        await page.frameLocator(".component-detail-preview iframe").getByPlaceholder("Display name").fill("reset example");
+        await page.getByRole("button", { name: lang === "zh" ? "重置" : "Reset", exact: true }).click();
+        await page.frameLocator(".component-detail-preview iframe").locator('input[placeholder="Display name"]').waitFor();
+        assert.notEqual(await page.frameLocator(".component-detail-preview iframe").getByPlaceholder("Display name").inputValue(), "reset example");
         assert.deepEqual(errors, []);
         if (lang === "zh")
           await page.screenshot({

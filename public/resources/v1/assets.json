@@ -2597,6 +2597,416 @@
       "bytes": 52738
     },
     {
+      "path": "collections/beautiful-ui/cover.webp",
+      "sha256": "903aff2a36b5dba65ec2586e8530494ee9c7023c572feb251c039505543b9f96",
+      "bytes": 26174
+    },
+    {
+      "path": "collections/beautiful-ui/covers/approval-card.webp",
+      "sha256": "695e7e547b3d2614b3c2b17fda5e3863aa2ab5941d224b700bc2456692ff223c",
+      "bytes": 20608
+    },
+    {
+      "path": "collections/beautiful-ui/covers/button.webp",
+      "sha256": "ab2f4d5c498d31dc94a54c866f2dbd463185d5dcf8f011306fe3c4b4c9d3c357",
+      "bytes": 20856
+    },
+    {
+      "path": "collections/beautiful-ui/covers/chat-composer.webp",
+      "sha256": "50221354008efbbed9c040b0a2bf4547596e257fec19831a37f2b4da4d6f1868",
+      "bytes": 26076
+    },
+    {
+      "path": "collections/beautiful-ui/covers/code-block.webp",
+      "sha256": "260da272b58fa7652143500e2ca17ed9e2ac5d36dad5c29bc93bbfb84ea7a13b",
+      "bytes": 21268
+    },
+    {
+      "path": "collections/beautiful-ui/covers/context-cards.webp",
+      "sha256": "914623977012198e97a50a5915dc45ba8e5e04013de2f8156d3113ffd2c313eb",
+      "bytes": 23368
+    },
+    {
+      "path": "collections/beautiful-ui/covers/diff-table.webp",
+      "sha256": "6eabb87b862134b4cff8e4ec1518a3b0a2c625863c91d7074cb26dea6f4a1c0c",
+      "bytes": 25636
+    },
+    {
+      "path": "collections/beautiful-ui/covers/entity-chip.webp",
+      "sha256": "70d6baddd657a0caf9a19e6c860024dc079bca42cc6acd0274f339914ca330e8",
+      "bytes": 18470
+    },
+    {
+      "path": "collections/beautiful-ui/covers/filter-table.webp",
+      "sha256": "8fa4b2bfd958de2f01fee25a79282935dfb83ee9555282300dd11b30058b4910",
+      "bytes": 28888
+    },
+    {
+      "path": "collections/beautiful-ui/covers/fine-tune-card.webp",
+      "sha256": "041537d49abcb6bf5e74170700e239c0c78a063fe71f41ee996ffd2ee0dd74b3",
+      "bytes": 19424
+    },
+    {
+      "path": "collections/beautiful-ui/covers/flowchart.webp",
+      "sha256": "4ea3eca592b55e725c4d8c7ff743d7e08574e6d314b17d8c1b266e89c2bbe1bb",
+      "bytes": 17836
+    },
+    {
+      "path": "collections/beautiful-ui/covers/foundation.webp",
+      "sha256": "df0284163b0c813c7e4e43098ebcaadbddf68cfe89c485731eac066e810becc4",
+      "bytes": 22080
+    },
+    {
+      "path": "collections/beautiful-ui/covers/glide-menu.webp",
+      "sha256": "9fba5fc5ca87100674ef479bae338e352d264587595915dd2073f7cd78eab422",
+      "bytes": 19200
+    },
+    {
+      "path": "collections/beautiful-ui/covers/insight-cards.webp",
+      "sha256": "fef75d3d2da78cada147038a9d1ba93930d5e50c7b2ceb5deac773d3ee6fc036",
+      "bytes": 26534
+    },
+    {
+      "path": "collections/beautiful-ui/covers/loading-state.webp",
+      "sha256": "a684cc1fc241952f817a0e4308fda08e29ae7d3e92901bb69471e93c3c744ee9",
+      "bytes": 18344
+    },
+    {
+      "path": "collections/beautiful-ui/covers/prompt-bar.webp",
+      "sha256": "da80d8a5320c86d8fd6131b59741d95e603e1f6d2f40047ce1c77292b06ef096",
+      "bytes": 18302
+    },
+    {
+      "path": "collections/beautiful-ui/covers/recommendation-card.webp",
+      "sha256": "1c69eb2701c0137d69a99efe54a53b97ff132d0d142f62d388f1d3575255a787",
+      "bytes": 22058
+    },
+    {
+      "path": "collections/beautiful-ui/covers/records-table.webp",
+      "sha256": "14c24fabb7fc8ce80a01b6e5d60c7fd803157e8f4e79c3b1f61d3ac6a03b67ad",
+      "bytes": 34836
+    },
+    {
+      "path": "collections/beautiful-ui/covers/search.webp",
+      "sha256": "e48c024f1dc9607f0408869f25bea4ba3937fad1e0fa34f6b38ca70236c1d2ed",
+      "bytes": 22346
+    },
+    {
+      "path": "collections/beautiful-ui/covers/selection-actions.webp",
+      "sha256": "aa2e19705bbf3ebcd5121e784391113ea763344a91b39a6c67f6eb4063e3c035",
+      "bytes": 22390
+    },
+    {
+      "path": "collections/beautiful-ui/covers/shimmer.webp",
+      "sha256": "675907334989c64fb99daecaf44d36f7d2362238b34c2ccfe9b3b934db020879",
+      "bytes": 18164
+    },
+    {
+      "path": "collections/beautiful-ui/covers/sidebar-nav.webp",
+      "sha256": "dc192ffbf903dd2df60d39521af0e749ae312f12497869f9382781c4d48ff85f",
+      "bytes": 28874
+    },
+    {
+      "path": "collections/beautiful-ui/covers/stream-text.webp",
+      "sha256": "67a8b325016ad5760ed481e2314b652ca55787ae0b7c7cb4d612bda704e02e52",
+      "bytes": 20288
+    },
+    {
+      "path": "collections/beautiful-ui/covers/streaming-text.webp",
+      "sha256": "acba73467e9ec1d5f3a46a5c213e0d496c6c896f3ff0bd539899eea4a08852aa",
+      "bytes": 19662
+    },
+    {
+      "path": "collections/beautiful-ui/covers/task-rows.webp",
+      "sha256": "27db7ace7372a7988c69a069aec336026dcbb56c8cf1ff3ea5b7ea42cb4e2609",
+      "bytes": 21252
+    },
+    {
+      "path": "collections/beautiful-ui/covers/thinking-state.webp",
+      "sha256": "53c391dfc1e3a4c8bd82c2ec6402849266d8c35e83ee8ac27679e4f30245cb20",
+      "bytes": 18152
+    },
+    {
+      "path": "collections/beautiful-ui/covers/tool-chips.webp",
+      "sha256": "ea7b6f780e6afc8e8e56d4f72bf728fed3bef8fd821ce847769b1147f6448cfd",
+      "bytes": 18678
+    },
+    {
+      "path": "collections/beautiful-ui/covers/value-pill.webp",
+      "sha256": "2b32f8438a36f606ba6d4cb715892a31dd3f1a84e96294312ba3cce563bbbb20",
+      "bytes": 18162
+    },
+    {
+      "path": "collections/beautiful-ui/index.md",
+      "sha256": "2e77f4319acb5b4fd92acb16305e77969dcdfa0d69dd90475fc2219abb903cdf",
+      "bytes": 925
+    },
+    {
+      "path": "collections/beautiful-ui/LICENSE",
+      "sha256": "dcd98784bcd83e727fad4612bfdd20d1363860149e2ca6829f546273b2f8d063",
+      "bytes": 1069
+    },
+    {
+      "path": "collections/beautiful-ui/registry/approval-card.json",
+      "sha256": "b10c4670c04c6510c4364561d06cc5a670317993a0fd1473b1af254de64b244e",
+      "bytes": 18070
+    },
+    {
+      "path": "collections/beautiful-ui/registry/button.json",
+      "sha256": "3da0fa4a699a3237a4872575e2e0ef73184b92f2cc5dec112f4b85121579a619",
+      "bytes": 2534
+    },
+    {
+      "path": "collections/beautiful-ui/registry/chat-composer.json",
+      "sha256": "79c9f3f70215d1b36b7f68d5f2956ec3ffad5c61a16e79c1314536a9625c5dce",
+      "bytes": 9680
+    },
+    {
+      "path": "collections/beautiful-ui/registry/code-block.json",
+      "sha256": "ffc7dabbef3aafe076320101f5dc61ef9549592c2535ad45bce17cffc97939e2",
+      "bytes": 11114
+    },
+    {
+      "path": "collections/beautiful-ui/registry/context-cards.json",
+      "sha256": "086d3e60ef3381498a74dde8e9019e9936310c39e71044cae28df8c668c2c38d",
+      "bytes": 5186
+    },
+    {
+      "path": "collections/beautiful-ui/registry/diff-table.json",
+      "sha256": "640eb8f40a4d503062b862484e42b8a9715b8725fdf20a7685f3e20603a7eeb9",
+      "bytes": 12660
+    },
+    {
+      "path": "collections/beautiful-ui/registry/entity-chip.json",
+      "sha256": "2575a4995808154e91acdf0ce94d7185e8c5dab1cddb099f224c3aa64d115390",
+      "bytes": 1820
+    },
+    {
+      "path": "collections/beautiful-ui/registry/filter-table.json",
+      "sha256": "92a895c0c38d533c7f4f794b2ac4cfe1abe185aae93b1268def812082fa04a03",
+      "bytes": 7035
+    },
+    {
+      "path": "collections/beautiful-ui/registry/fine-tune-card.json",
+      "sha256": "2bfcb0277ab73e4a79ed169f128820f8b395a263d4a09de5ec0b15c272c1e371",
+      "bytes": 13501
+    },
+    {
+      "path": "collections/beautiful-ui/registry/flowchart.json",
+      "sha256": "dfe46b0b95f3536d25bcda2fd1d36fcd8067419756a884b9734fab82e1001fb2",
+      "bytes": 18966
+    },
+    {
+      "path": "collections/beautiful-ui/registry/foundation.json",
+      "sha256": "3b7c86c5cb11cb43ddc1d7d6baf11634b001190382622497318730b374836790",
+      "bytes": 19486
+    },
+    {
+      "path": "collections/beautiful-ui/registry/glide-menu.json",
+      "sha256": "8ca85bd9719332b57c5a16306cbb7548ac1c17ad5b9e0061358d231b60a30462",
+      "bytes": 2484
+    },
+    {
+      "path": "collections/beautiful-ui/registry/insight-cards.json",
+      "sha256": "7d41e700df440cec4981481f4e485f46dbf92ee851cf94e05a2d4555f97ce23e",
+      "bytes": 21648
+    },
+    {
+      "path": "collections/beautiful-ui/registry/loading-state.json",
+      "sha256": "0564d7ed96b42b79118b4bb3ae183fd88ef5a5eb86069d2eb2edcf20f8be5884",
+      "bytes": 5777
+    },
+    {
+      "path": "collections/beautiful-ui/registry/prompt-bar.json",
+      "sha256": "68968526b7464d291a3a395bf6b336e7c1916420171fe543f81624f368b27dd7",
+      "bytes": 32797
+    },
+    {
+      "path": "collections/beautiful-ui/registry/recommendation-card.json",
+      "sha256": "40f4567ee36cb8136da20eb8e90898a67b2111b56ea348175a0cf6d03410f796",
+      "bytes": 7054
+    },
+    {
+      "path": "collections/beautiful-ui/registry/records-table.json",
+      "sha256": "916d714c8716fae60a5a70d58a8589780f3c2e2f951f129fce22856ce1684adc",
+      "bytes": 81622
+    },
+    {
+      "path": "collections/beautiful-ui/registry/registry.json",
+      "sha256": "96ab0f5b7f30fe8b6b37fc77c9dce7cf4c8816d38d06c9eb59137ba0a90f7da5",
+      "bytes": 3006
+    },
+    {
+      "path": "collections/beautiful-ui/registry/search.json",
+      "sha256": "22993a95c0d0cf35ed65eb2c94b0cb4e6f4393a00a35c9b4283efe95500425c5",
+      "bytes": 5416
+    },
+    {
+      "path": "collections/beautiful-ui/registry/selection-actions.json",
+      "sha256": "d20877569884ef34f3327b5515962576d8590cff3f8b871ad6803a81db1e4789",
+      "bytes": 21335
+    },
+    {
+      "path": "collections/beautiful-ui/registry/shimmer.json",
+      "sha256": "3f7e02ba2ad044b8a717d162a69f48efbdb7bb22f3eaeb576eb349cd72619a8e",
+      "bytes": 1051
+    },
+    {
+      "path": "collections/beautiful-ui/registry/sidebar-nav.json",
+      "sha256": "9c8a060fcbddbcc18cd3c0430fd1b9f6a4b927f048347569f8677d30577c4e2f",
+      "bytes": 22834
+    },
+    {
+      "path": "collections/beautiful-ui/registry/stream-text.json",
+      "sha256": "99b82b8960aacc752c20f359b4258c2b1a07f5e211448cf7d55e067c2195621b",
+      "bytes": 3093
+    },
+    {
+      "path": "collections/beautiful-ui/registry/streaming-text.json",
+      "sha256": "f2dd3322858f99a92c19f92ce1f4dad7162237f176d3775e7320f857363fcba8",
+      "bytes": 11494
+    },
+    {
+      "path": "collections/beautiful-ui/registry/task-rows.json",
+      "sha256": "a195e9caa440f795fb42d11001e00d29066b78a353850b054069fd32236742ef",
+      "bytes": 11330
+    },
+    {
+      "path": "collections/beautiful-ui/registry/thinking-state.json",
+      "sha256": "3a537a94b11b62ce5bebd59ac982cada66601a38a6372bedff7f5eadc034305a",
+      "bytes": 12040
+    },
+    {
+      "path": "collections/beautiful-ui/registry/tool-chips.json",
+      "sha256": "67035ec579eb8d4cb7d714d67e5c945760c1855d37fb37fea6cd8c37bc617938",
+      "bytes": 15400
+    },
+    {
+      "path": "collections/beautiful-ui/registry/value-pill.json",
+      "sha256": "070958ca2f12154a943733d65d781931ed51260fffcb0f2c7d52a632dff5e2c8",
+      "bytes": 1802
+    },
+    {
+      "path": "collections/beautiful-ui/source/AgentScreen.tsx",
+      "sha256": "d1697b2d93f8c4ad5d065c58c6b1f2331acba125f496fac35000439d988f6c75",
+      "bytes": 15050
+    },
+    {
+      "path": "collections/beautiful-ui/source/ApprovalCard.tsx",
+      "sha256": "5e90ba19b79f4d385a34e9cf703b15e819c72df93d70a72c8c01aa85d500ca95",
+      "bytes": 16744
+    },
+    {
+      "path": "collections/beautiful-ui/source/ChatComposer.tsx",
+      "sha256": "1b8ac6cd342a5ccab92c0e0265d7431a35703e23496bd85c4cf64d883e6cc7f5",
+      "bytes": 8699
+    },
+    {
+      "path": "collections/beautiful-ui/source/CodeBlock.tsx",
+      "sha256": "8a6226378fae2334cc3070abf3b768cc09c99e47f711cca4db013a3441b5abe5",
+      "bytes": 10076
+    },
+    {
+      "path": "collections/beautiful-ui/source/ContextCards.tsx",
+      "sha256": "64cdf631c76bbe1516a9580237599e45657f8ce2691a512286c1ce062da78ee0",
+      "bytes": 4462
+    },
+    {
+      "path": "collections/beautiful-ui/source/DiffTable.tsx",
+      "sha256": "e15f0958af2c25dc112a8b90b16f20243a34392f96b300cee513afe82ec55460",
+      "bytes": 11613
+    },
+    {
+      "path": "collections/beautiful-ui/source/FilterTable.tsx",
+      "sha256": "7075a6ff652f2a539f835a4ed77e4357404906aff4ba5fb786255965d7aefa74",
+      "bytes": 6234
+    },
+    {
+      "path": "collections/beautiful-ui/source/FineTuneCard.tsx",
+      "sha256": "fb8df4d8c5aabbb399d115b143af39fcf3bf8a00b77bd7375a01a77ee8e93c24",
+      "bytes": 12374
+    },
+    {
+      "path": "collections/beautiful-ui/source/Flowchart.tsx",
+      "sha256": "2f1a0e7c29df38916a06cdbc00f6d1ce043bf9052bc2bb3e780beaa339077d23",
+      "bytes": 17650
+    },
+    {
+      "path": "collections/beautiful-ui/source/GlideMenu.tsx",
+      "sha256": "2b8b64092740dad23aed3367b1e7eaa3e15a8bc0a2ed559c3dec13bb4ba2e00f",
+      "bytes": 1920
+    },
+    {
+      "path": "collections/beautiful-ui/source/IceCreamHarness.tsx",
+      "sha256": "339b99e8d1117b1e343ce082b30255eeebb1a58705d1cc1ceafc25a4a6f83467",
+      "bytes": 49238
+    },
+    {
+      "path": "collections/beautiful-ui/source/InsightCards.tsx",
+      "sha256": "7d6def83506070a8316759f82e531dc56b2d2d1b9e76bf6c95e2ef0c3fb69ff2",
+      "bytes": 20200
+    },
+    {
+      "path": "collections/beautiful-ui/source/LoadingState.tsx",
+      "sha256": "eb1bdcddcd2dbdfe1232b3bf3d7dfd0912ef9b6e0fb1a9b095cb423778e8a8d1",
+      "bytes": 5302
+    },
+    {
+      "path": "collections/beautiful-ui/source/PromptBar.tsx",
+      "sha256": "1f2ff02adae3f1fe80b00fd0ef1c54c3558e8638502c1b7d71b1d0000dfceb5a",
+      "bytes": 30976
+    },
+    {
+      "path": "collections/beautiful-ui/source/RecommendationCard.tsx",
+      "sha256": "fe4c56f271f147bb84cdef3f2c7238bdc9eb9a5643a0e4a949e62adb9e25abba",
+      "bytes": 6043
+    },
+    {
+      "path": "collections/beautiful-ui/source/RecordsTable.tsx",
+      "sha256": "e96875352a82d06cdb96e7657db2adbf51d70c8697e4f8ef584086e933f38f29",
+      "bytes": 60071
+    },
+    {
+      "path": "collections/beautiful-ui/source/SearchList.tsx",
+      "sha256": "9fdb3720c5bc06f62915317f967f7ae0fe340e4f9c6181731794558e2248b3bf",
+      "bytes": 4619
+    },
+    {
+      "path": "collections/beautiful-ui/source/SelectionActions.tsx",
+      "sha256": "5447a5488c3d390bc877acde5e0c3c04096ec89b2ee5b12d11e2523032c007c6",
+      "bytes": 19801
+    },
+    {
+      "path": "collections/beautiful-ui/source/SidebarNav.tsx",
+      "sha256": "06a0685ab35c16789231ee1947b4efd7f49adc50ae1f0ce4e0f7a2f2e35a6a59",
+      "bytes": 18767
+    },
+    {
+      "path": "collections/beautiful-ui/source/StreamingText.tsx",
+      "sha256": "8b17569fbc9c75aef1f82a5310f2402209cc8ab1b13f65fdd71251cb1e1f14d3",
+      "bytes": 10519
+    },
+    {
+      "path": "collections/beautiful-ui/source/TaskRows.tsx",
+      "sha256": "7a81c2a264528405826b8ac9db9e92d4c14ef6fa3fcdb39010022df3cf4c0920",
+      "bytes": 10284
+    },
+    {
+      "path": "collections/beautiful-ui/source/ThinkingState.tsx",
+      "sha256": "3d73617406120fad93fd15c67054a59debb9e43ccd385a21e2f48a7fb4036e24",
+      "bytes": 11596
+    },
+    {
+      "path": "collections/beautiful-ui/source/ToolChips.tsx",
+      "sha256": "dc06a0ec805825622bf622f0f56cc8305f79751fe7fcb55727a59869b443c9c8",
+      "bytes": 14211
+    },
+    {
+      "path": "collections/beautiful-ui/source/UseThisHarness.tsx",
+      "sha256": "5c5d9321f56f4f0c2e2bf22d338f6c5f1d76fbfd7900b74fc2eaec99cf23f3d6",
+      "bytes": 7874
+    },
+    {
       "path": "collections/brand-registry/fonts/meridian-mono/CommitMono-Regular.woff2",
       "sha256": "f344f58a1a5295089af8e74ef8ffaf9ffd8b98b47292566ca1ae5518efd3c056",
       "bytes": 25816
@@ -15220,6 +15630,51 @@
       "path": "collections/registry-own/README.md",
       "sha256": "1fa64866f32b8b90b3ad4a1cbb89fa5f9a224432788ad321d9f5cc656ce138fd",
       "bytes": 2828
+    },
+    {
+      "path": "components/motion-primitives/accordion.json",
+      "sha256": "ef880c4eefb2081de63b68ead7c339c3551af3376e6743fd6e4188dea49716eb",
+      "bytes": 5326
+    },
+    {
+      "path": "components/motion-primitives/animated-number.json",
+      "sha256": "a3476cfedab344923bd0cc63d5c04c14db7a8d7f42968fb6c4ffa529e319a8a7",
+      "bytes": 1198
+    },
+    {
+      "path": "components/motion-primitives/cover-accordion.png",
+      "sha256": "0687cc5779ecd01e176812a5217f7eec9003684efdf79c66a298d962304cf7ce",
+      "bytes": 9331
+    },
+    {
+      "path": "components/motion-primitives/cover-animated-number.png",
+      "sha256": "262c97a87430194a54436151f3bafb1b94b83a108984e7e5f36f6edc752eca04",
+      "bytes": 6256
+    },
+    {
+      "path": "components/motion-primitives/cover-disclosure.png",
+      "sha256": "c9c4f42ae04a3139b2f17d410e50305c2d6b440ffd8aa03e314575a1cb147006",
+      "bytes": 6734
+    },
+    {
+      "path": "components/motion-primitives/cover-transition-panel.png",
+      "sha256": "bf70f3d7c3cf246308523fd0d19bb0171a8c5f60c1f641379de98b40371a98c1",
+      "bytes": 9096
+    },
+    {
+      "path": "components/motion-primitives/disclosure.json",
+      "sha256": "e2e34972db4c1a9de1091e69e8e3321d27370beaefeb45b5ea1b4869653a6a0e",
+      "bytes": 4786
+    },
+    {
+      "path": "components/motion-primitives/transition-panel.json",
+      "sha256": "e051a3b411f94729873f4b92a43c8c1715a0881df3ffe5c3413f19ec6d3aa073",
+      "bytes": 1400
+    },
+    {
+      "path": "components/motion-primitives/UPSTREAM.md",
+      "sha256": "114aa412766fd8ea52b9d9bd9af159153528ea43d727c78a9ccaa5a35178836d",
+      "bytes": 483
     },
     {
       "path": "components/pin-ui/add-member.json",

@@ -1,7 +1,9 @@
-import { Input } from "../../packages/ui";
+import { Button, Input } from "../../packages/ui";
 import { useState } from "react";
-import { Button } from "../../packages/ui";
 import { Select } from "../../packages/ui/Select";
+import { Card, CardContent, CardDescription, CardHeader } from "../../packages/ui/shadcn/card";
+import { Badge } from "../../packages/ui/shadcn/badge";
+import { SystemPreviewSurface } from "../../packages/ui/SystemPreviewSurface";
 import "../../packages/ui/system-reference.css";
 
 export function ComponentShowcase({ lang }: { lang: string }) {
@@ -22,102 +24,92 @@ export function ComponentShowcase({ lang }: { lang: string }) {
   );
   return (
     <div className="showcase-grid">
-      <article className="demo">
-        <p className="reference-kicker">
-          {t("输入与选择", "Inputs & selection")}
-        </p>
-        <h3>{t("偏好设置", "Preferences")}</h3>
-        <p>
-          {t(
-            "下拉、复选与密度设置可直接操作。",
-            "Try the select, checkbox and density setting.",
-          )}
-        </p>
-        <label>
-          {t("列表密度", "List density")}
-          <Select
-            value={density}
-            onChange={(event) => setDensity(event.target.value)}
-          >
-            <option value="comfortable">{t("宽松", "Comfortable")}</option>
-            <option value="compact">{t("紧凑", "Compact")}</option>
-          </Select>
-        </label>
-        <label className="reference-checkbox">
-          <Input
-            type="checkbox"
-            checked={notify}
-            onChange={(event) => setNotify(event.target.checked)}
-          />
-          {t("完成后通知我", "Notify me when finished")}
-        </label>
-        <p className="reference-note" role="status">
-          {notify
-            ? t(
-                "通知已开启，仅影响本次演示。",
-                "Notifications on for this demo.",
-              )
-            : t(
-                "通知已关闭，仅影响本次演示。",
-                "Notifications off for this demo.",
-              )}
-        </p>
-      </article>
-      <article className="demo">
-        <p className="reference-kicker">
-          {t("导航与数据", "Navigation & data")}
-        </p>
-        <h3>{t("搜索与列表", "Search & list")}</h3>
-        <div
-          className="reference-switcher"
-          role="group"
-          aria-label={t("列表范围", "List scope")}
-        >
-          {[
-            ["all", "全部", "All"],
-            ["ready", "已完成", "Complete"],
-            ["review", "待核对", "Needs review"],
-          ].map(([id, zh, en]) => (
-            <Button
-              key={id}
-              aria-pressed={view === id}
-              onClick={() => setView(id)}
+      <Card className="system-specimen">
+        <CardHeader>
+          <h3>{t("偏好设置", "Preferences")}</h3>
+          <CardDescription>{t("列表密度会应用到搜索结果。", "List density applies to the search results.")}</CardDescription>
+        </CardHeader>
+        <CardContent className="system-specimen-stack">
+          <label className="system-specimen-field">
+            {t("列表密度", "List density")}
+            <Select
+              value={density}
+              onChange={(event) => setDensity(event.target.value)}
             >
-              {t(zh, en)}
-            </Button>
-          ))}
-        </div>
-        <label>
-          {t("搜索示例页面", "Search example pages")}
-          <Input
-            type="search"
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
-            placeholder={t("按页面名称搜索", "Search by page name")}
-          />
-        </label>
-        <ul className="reference-list" data-density={density}>
-          {visible.map(([id, zh, en, state]) => (
-            <li key={id}>
-              <span>{t(zh, en)}</span>
-              <span className="reference-tag" data-state={state}>
-                {state === "ready"
-                  ? t("已完成", "Complete")
-                  : t("待核对", "Needs review")}
-              </span>
-            </li>
-          ))}
-        </ul>
-        {!visible.length && (
-          <p role="status">{t("没有匹配的页面。", "No matching pages.")}</p>
-        )}
-        <p className="reference-note">
-          {t(
-            "示例内容。密度跟随左侧设置。",
-            "Sample content. Density follows the preference control.",
+              <option value="comfortable">{t("宽松", "Comfortable")}</option>
+              <option value="compact">{t("紧凑", "Compact")}</option>
+            </Select>
+          </label>
+          <label className="reference-checkbox">
+            <Input
+              type="checkbox"
+              checked={notify}
+              onChange={(event) => setNotify(event.target.checked)}
+            />
+            {t("完成后通知我", "Notify me when finished")}
+          </label>
+          <p className="reference-note" role="status">
+            {notify
+              ? t(
+                  "通知已开启，仅影响本次演示。",
+                  "Notifications on for this demo.",
+                )
+              : t(
+                  "通知已关闭，仅影响本次演示。",
+                  "Notifications off for this demo.",
+                )}
+          </p>
+        </CardContent>
+      </Card>
+      <Card className="system-specimen">
+        <CardHeader><h3>{t("搜索与列表", "Search & list")}</h3></CardHeader>
+        <CardContent className="system-specimen-stack">
+          <div
+            className="reference-switcher"
+            role="group"
+            aria-label={t("列表范围", "List scope")}
+          >
+            {[
+              ["all", "全部", "All"],
+              ["ready", "已完成", "Complete"],
+              ["review", "待核对", "Needs review"],
+            ].map(([id, zh, en]) => (
+              <Button
+                key={id}
+                variant={view === id ? "secondary" : "ghost"}
+                aria-pressed={view === id}
+                onClick={() => setView(id)}
+              >
+                {t(zh, en)}
+              </Button>
+            ))}
+          </div>
+          <label className="system-specimen-field">
+            {t("搜索示例页面", "Search example pages")}
+            <Input
+              type="search"
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder={t("按页面名称搜索", "Search by page name")}
+            />
+          </label>
+          <ul className="reference-list" data-density={density}>
+            {visible.map(([id, zh, en, state]) => (
+              <li key={id}>
+                <span>{t(zh, en)}</span>
+                <Badge variant={state === "ready" ? "secondary" : "outline"}>
+                  {state === "ready"
+                    ? t("已完成", "Complete")
+                    : t("待核对", "Needs review")}
+                </Badge>
+              </li>
+            ))}
+          </ul>
+          {!visible.length && (
+            <p role="status">{t("没有匹配的页面。", "No matching pages.")}</p>
           )}
-        </p>
-      </article>
+        </CardContent>
+      </Card>
     </div>
   );
 }
@@ -151,6 +143,7 @@ export function ScreenPatterns({ lang }: { lang: string }) {
           ].map(([id, zh, en]) => (
             <Button
               key={id}
+              variant={screen === id ? "secondary" : "ghost"}
               aria-pressed={screen === id}
               onClick={() => {
                 setScreen(id);
@@ -162,7 +155,7 @@ export function ScreenPatterns({ lang }: { lang: string }) {
           ))}
         </div>
       </div>
-      <div className="pattern-window">
+      <SystemPreviewSurface className="pattern-window">
         <header>
           <b>{name || "HappyHands"}</b>
           <span>{t("工作空间 / 示例", "Workspace / Example")}</span>
@@ -184,18 +177,14 @@ export function ScreenPatterns({ lang }: { lang: string }) {
                     <strong>{t("品牌网站", "Brand website")}</strong>
                     <p>{t("首页与内容页面", "Home and content pages")}</p>
                   </div>
-                  <span className="reference-tag" data-state="ready">
-                    {t("已完成", "Complete")}
-                  </span>
+                  <Badge variant="secondary">{t("已完成", "Complete")}</Badge>
                 </li>
                 <li>
                   <div>
                     <strong>{t("产品工作台", "Product workspace")}</strong>
                     <p>{t("导航与任务详情", "Navigation and task details")}</p>
                   </div>
-                  <span className="reference-tag">
-                    {t("待核对", "Needs review")}
-                  </span>
+                  <Badge variant="outline">{t("待核对", "Needs review")}</Badge>
                 </li>
               </ul>
             </>
@@ -213,7 +202,7 @@ export function ScreenPatterns({ lang }: { lang: string }) {
             >
               <p className="reference-kicker">{t("设置", "Settings")}</p>
               <h3>{t("工作空间信息", "Workspace details")}</h3>
-              <label>
+              <label className="system-specimen-field">
                 {t("工作空间名称", "Workspace name")}
                 <Input
                   required
@@ -259,7 +248,7 @@ export function ScreenPatterns({ lang }: { lang: string }) {
             {notice}
           </output>
         </div>
-      </div>
+      </SystemPreviewSurface>
     </div>
   );
 }

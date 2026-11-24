@@ -115,3 +115,7 @@ print(json.dumps(dict(version=version,resources=len(resources),collections=[dict
 if (PUBLIC/'components/pin-ui/registry.json').exists():
  import subprocess
  subprocess.run(['node', 'scripts/register-pinui.mjs'], cwd=ROOT, check=True)
+
+if (PUBLIC/'collections/beautiful-ui/registry/registry.json').exists():
+ import subprocess
+ subprocess.run(['node', 'scripts/register-beautiful-ui.mjs'], cwd=ROOT, check=True)

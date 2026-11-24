@@ -45,6 +45,20 @@ export function exampleOverride(system, name) {
     return '<DataGrid rowCount={2} colCount={1}><DataGridTable aria-label="Scores"><DataGridBody>{[0,1].map(row=><DataGridRow key={row} index={row}><DataGridCell row={row} col={0} label={`Score ${row+1}`} value={80+row} editor="number" onCommit={save}/></DataGridRow>)}</DataGridBody></DataGridTable></DataGrid>';
   if (name === "table" && family === "quartz")
     return '<DataTable aria-label="Runs" title="Runs" columns={[{accessorKey:"id",header:"Run"},{accessorKey:"name",header:"Name"}]} data={runs} getRowId={r=>r.id}/>';
+  if (name === "command" && (family === "glaze" || family === "sodium"))
+    return `<Button variant="outline" onClick={()=>setOpen(true)}>Open command palette</Button>
+      <CommandDialog open={open} onOpenChange={setOpen} title="Project commands">
+        <Command label="Project commands">
+          <CommandInput placeholder="Search commands"/>
+          <CommandList>
+            <CommandEmpty>No matching commands.</CommandEmpty>
+            <CommandGroup heading="Project">
+              <CommandItem onSelect={()=>setOpen(false)}>Open project</CommandItem>
+              <CommandItem onSelect={()=>setOpen(false)}>View recent runs</CommandItem>
+            </CommandGroup>
+          </CommandList>
+        </Command>
+      </CommandDialog>`;
   if (name === "keypad")
     return "<Keypad value={value} onValueChange={setValue}/>";
   if (name === "message" && family === "lime")

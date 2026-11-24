@@ -1,6 +1,6 @@
 import{readFile}from'node:fs/promises';import assert from'node:assert/strict';
 import {designMdCatalogEnabled} from '../packages/ui/resource-navigation.ts';
-for(const path of ['en/apps/portal','en/systems/quartz','en/systems/lime','en/systems/glaze','en/systems/sodium','en/systems/happyhands']){const html=await readFile(`dist/${path}/index.html`,'utf8');assert.match(html,/<html lang="en"/);const id=path.split('/').at(-1);const expected=['glaze','sodium'].includes(id)?'https://happyhands.cc/en/components/?provider=systems&amp;system='+id:'https://happyhands.cc/'+path+'/';assert.ok(html.includes('rel="canonical" href="'+expected+'"'),path);}
+for(const path of ['en/apps/portal','en/systems/quartz','en/systems/lime','en/systems/glaze','en/systems/sodium']){const html=await readFile(`dist/${path}/index.html`,'utf8');assert.match(html,/<html lang="en"/);const id=path.split('/').at(-1);const expected=['glaze','sodium'].includes(id)?'https://happyhands.cc/en/components/?provider=systems&amp;system='+id:'https://happyhands.cc/'+path+'/';assert.ok(html.includes('rel="canonical" href="'+expected+'"'),path);}
 for(const p of [...(designMdCatalogEnabled?['design-md/mercury-3172cd4d']:[]),'systems/quartz/components/button.md']){const html=await readFile(`dist/resource-pages/en/${p}/index.html`,'utf8');assert.match(html,/<html lang="en"/);assert.match(html,/hreflang="zh-CN"/);assert.match(html,/https:\/\/happyhands.cc\/en\/components\//);assert.match(html,/resource-static/);}
 console.log('English page outputs, canonicals, alternates and crawler content OK');
 
@@ -13,7 +13,7 @@ for(const system of ['quartz','lime']){
  assert.ok(fallback.includes(html.match(/<meta name="description" content="([^"]+)"/)?.[1]));
  assert.doesNotMatch(fallback,/[\u3400-\u9fff]/,`${system} fallback must be completely English`);
  assert.match(fallback,/Interactive previews require JavaScript/);
- for(const href of ['guide','components','systems/happyhands','systems/quartz','systems/lime'])assert.ok(fallback.includes(`href="/en/${href}/"`));
+ for(const href of ['guide','components','systems/quartz','systems/lime'])assert.ok(fallback.includes(`href="/en/${href}/"`));
 }
 console.log('Quartz and Lime English fallback headings, descriptions and navigation OK');
 
@@ -32,8 +32,8 @@ assert.ok(!resourceIndex.includes('href="/components/?'));
 const sitemap=await readFile('dist/sitemap.xml','utf8');
 const urls=[...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(x=>x[1]);
 assert.equal(urls.length,new Set(urls).size);
-assert.equal(urls.length,18);
-for(const path of ['apps/studio','en/systems/glaze','en/systems/sodium'])assert.ok(!urls.includes(`https://happyhands.cc/${path}/`));
+assert.equal(urls.length,16);
+for(const path of ['apps/studio','systems/happyhands','en/systems/happyhands','en/systems/glaze','en/systems/sodium'])assert.ok(!urls.includes(`https://happyhands.cc/${path}/`));
 const retired=await readFile('dist/apps/studio/index.html','utf8');
 assert.match(retired,/noindex,follow/);
 assert.match(retired,/Theme Studio has been retired/);

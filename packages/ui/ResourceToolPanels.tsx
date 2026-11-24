@@ -24,12 +24,14 @@ function ToolPanel({tool, active, lang, tabPrefix}: Props & {tool: typeof resour
   useEffect(() => { if (visited) syncLanguage(frame.current, lang); }, [lang, visited]);
   const title = lang === 'zh' ? tool.zh : tool.en;
   const agent=typeof location==='undefined'?null:new URLSearchParams(location.search).get('agent');
-  const source=`${tool.href}?embedded=1&lang=${encodeURIComponent(initialLanguage.current || lang)}${tool.id==='setup'&&agent?'&agent='+encodeURIComponent(agent):''}`;
+  const mode = tool.id === 'review' ? '&mode=review' : '';
+  const source=`${tool.href}?embedded=1&lang=${encodeURIComponent(initialLanguage.current || lang)}${mode}${tool.id==='setup'&&agent?'&agent='+encodeURIComponent(agent):''}`;
   return <section hidden={!visible} className="resource-tool-panel" aria-label={title}
     role={tabPrefix ? 'tabpanel' : undefined}
-    id={tabPrefix ? `${tabPrefix}-panel-${tool.id}` : undefined}
+    id={tabPrefix ? `${tabPrefix}-panel-${tool.id}` : tool.id === 'review' && visible ? 'catalog-main' : undefined}
+    tabIndex={tool.id === 'review' && visible && !tabPrefix ? -1 : undefined}
     aria-labelledby={tabPrefix ? `${tabPrefix}-tab-${tool.id}` : undefined}>
-    {visited && <HistorySafeFrame ref={frame} title={title} src={source}
+    {visited && <HistorySafeFrame ref={frame} title={title} src={source} data-review-shell={tool.id === 'review' ? '' : undefined}
       onLoad={() => { syncLanguage(frame.current, lang); if (visible) resume(frame.current); }} />}
   </section>;
 }

@@ -7,7 +7,7 @@ import {portalLanguage,portalPath} from '../apps/portal/language.ts';
 import {seoPages,seoData,seoHead,enhanceSeoHtml,guideFaq} from '../packages/ui/site-seo.ts';
 import {guideContent} from '../guide/content.ts';
 const origin='https://happyhands.cc';
-const paths=['apps/portal','en/apps/portal','systems/happyhands','systems/quartz','systems/lime','components'];
+const paths=['apps/portal','en/apps/portal','systems/quartz','systems/lime','components'];
 const read=path=>readFile(new URL(`../${path}`,import.meta.url),'utf8');
 test('public metadata consistently identifies the production domain',async()=>{
   const sitemap=await read('public/sitemap.xml');
@@ -44,10 +44,10 @@ test('shared portal renderer provides real content in both languages without bro
     for(const id of ['design-resources'])assert.equal((html.match(new RegExp(`id="${id}"`,'g'))||[]).length,1,id);
     assert.ok(!html.includes('pnpm workbench'));
     assert.ok(!html.includes('homepage-case'));
-    assert.equal((html.match(/role="tab"/g)||[]).length,3);
-    assert.doesNotMatch(html,/feed-(?:tab|panel)-design-md|provider=design-md/);
-    assert.match(html,/id="feed-tab-systems"[^>]*aria-selected="true"/);
-    for(const id of ['systems','cult-ui','setup']){
+    assert.equal((html.match(/role="tab"/g)||[]).length,5);
+    assert.match(html,/provider=design-md&design=/);
+    assert.match(html,/id="feed-tab-design-md"[^>]*aria-selected="true"/);
+    for(const id of ['design-md','systems','cult-ui','setup','review']){
       assert.ok(html.includes(`id="feed-tab-${id}"`));
       assert.ok(html.includes(`id="feed-panel-${id}"`));
     }
@@ -169,7 +169,8 @@ test('both homepage URLs have complete language-specific static content and reci
   assert.ok(html.includes(lang==='en'?'You decide which changes to accept or reject.':'由你决定接受或拒绝修改'));
   assert.ok(html.includes(`href="${lang==='en'?'/en':''}/guide/"`));
   assert.ok(html.includes(`href="${lang==='en'?'/en':''}/ai-ui-review/#ai-slop"`));
-  assert.ok(html.includes('id="footer-guide-heading"'));
+  const footerHeading = lang === 'en' ? 'Guides' : '使用指南';
+  assert.match(html, new RegExp(`<nav class="sy__guide"[^>]*>\\s*<div class="sy__col"><h2>${footerHeading}</h2>`));
   assert.ok(html.includes(`rel="canonical" href="${origin}${path}"`));
   assert.ok(source.includes(`<a href="${other}" hreflang=`),'Language link must work without JavaScript');
   for(const [code,target] of [['zh-CN','/apps/portal/'],['en','/en/apps/portal/'],['x-default','/en/apps/portal/']])

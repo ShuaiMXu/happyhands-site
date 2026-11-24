@@ -1,3 +1,4 @@
+import { portalFooter } from "../apps/portal/render-footer.js";
 import {iconMarkup} from '../packages/ui/icons.ts';
 import {siteNavigation} from '../packages/ui/site-navigation.ts';
 type Language = 'zh' | 'en';
@@ -9,16 +10,6 @@ const pages = [
  {path:'/ai-website-design/', zh:'网站设计', en:'Website design'},
  {path:'/nonprofit-website-design/', zh:'公益网站', en:'Nonprofit websites'},
 ];
-// Footer carries every guide link once; setup stays on the Chinese route until an
-// English page exists.
-const footerGuides = [
- {path:'/guide/', zh:'快速开始', en:'Getting started'},
- {path:'/ai-website-design/', zh:'设计工作流', en:'Design workflow'},
- {path:'/ai-ui-review/', zh:'界面审查', en:'Interface review'},
- {path:'/ai-ui-review/#ai-slop', zh:'AI Slop 检查', en:'AI slop review'},
- {path:'/nonprofit-website-design/', zh:'公益网站', en:'Nonprofit review'},
- {path:'/apps/setup/', zh:'接入详情', en:'Setup details', absolute:true},
-] as const;
 const localized = (path:string,lang:Language) => `${lang==='en'?'/en':''}${path}`;
 const escape = (text:string) => text.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
 function pageLinks(lang:Language,path:string) {
@@ -43,6 +34,5 @@ export function wikiColumnsEnd(lang:Language,path:string) {
 export function wikiFooter(lang:Language,path:string,sections:readonly WikiSection[]) {
  const t=(zh:string,en:string)=>lang==='zh'?zh:en;
  const sheet=(id:string,title:string,links:string)=>`<dialog class="wiki-sheet" id="${id}" aria-labelledby="${id}-title"><div class="wiki-sheet-heading"><h2 id="${id}-title">${title}</h2><button type="button" data-wiki-close aria-label="${t('关闭','Close')}">${iconMarkup('close')}</button></div><nav aria-label="${title}">${links}</nav></dialog>`;
- const guideLinks=footerGuides.map(page=>{const href='absolute' in page&&page.absolute?page.path:localized(page.path,lang);return `<a href="${href}"${page.path===path?' aria-current="page"':''}>${escape(page[lang])}</a>`}).join('');
- return `<footer class="guide-footer hh-synais-footer wiki-synais-footer"><div class="wiki-footer-grid"><div class="wiki-footer-brand"><a class="wiki-footer-logo" href="${localized('/apps/portal/',lang)}" aria-label="HappyHands"><img src="/brand/happyhands-logo-cream.png" alt="" width="1400" height="301" loading="lazy"></a><p class="wiki-footer-about">${t('让产品体验更好。','Better product experience.')}</p><div class="wiki-footer-links"><a href="/llms.txt">${t('产品信息摘要','Product facts')}</a><a class="wiki-footer-github" href="${core}" aria-label="GitHub" title="GitHub"><span class="wiki-footer-github-icon" aria-hidden="true"></span></a></div></div><nav class="wiki-footer-section" aria-label="${t('使用指南','Guides')}"><h2>${t('使用指南','Guides')}</h2><p class="wiki-footer-note">${t('审查与代码修改在本地执行，由你决定接受或拒绝修改。','Review and code changes run locally. You decide which changes to accept or reject.')}</p>${guideLinks}</nav></div><div class="sy__word" aria-hidden="true"><img src="/brand/happyhands-logo-cream.png" alt="" width="1400" height="301" loading="lazy"></div></footer><div class="wiki-mobile-bar"><button type="button" data-wiki-open="wiki-pages-dialog" aria-haspopup="dialog" aria-controls="wiki-pages-dialog">${iconMarkup('menu')}<span>${t('指南章节','Guide pages')}</span></button><button type="button" data-wiki-open="wiki-outline-dialog" aria-haspopup="dialog" aria-controls="wiki-outline-dialog">${iconMarkup('down')}<span class="wiki-current-section">${escape(sections[0]?.[1]??t('本页内容','On this page'))}</span></button></div>${sheet('wiki-pages-dialog',t('指南章节','Guide pages'),pageLinks(lang,path))}${sheet('wiki-outline-dialog',t('本页内容','On this page'),sectionLinks(sections))}`;
+ return `<footer class="guide-footer wiki-synais-footer">${portalFooter(lang, path)}</footer><div class="wiki-mobile-bar"><button type="button" data-wiki-open="wiki-pages-dialog" aria-haspopup="dialog" aria-controls="wiki-pages-dialog">${iconMarkup('menu')}<span>${t('指南章节','Guide pages')}</span></button><button type="button" data-wiki-open="wiki-outline-dialog" aria-haspopup="dialog" aria-controls="wiki-outline-dialog">${iconMarkup('down')}<span class="wiki-current-section">${escape(sections[0]?.[1]??t('本页内容','On this page'))}</span></button></div>${sheet('wiki-pages-dialog',t('指南章节','Guide pages'),pageLinks(lang,path))}${sheet('wiki-outline-dialog',t('本页内容','On this page'),sectionLinks(sections))}`;
 }

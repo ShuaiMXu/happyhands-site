@@ -12,7 +12,7 @@ await mkdir(output, { recursive: true });
 const detail = '/components/?provider=cult-ui&resource=component%3Ameridian-mono-button';
 const listPaths = ['/resources/v1/index.json', '/resources/v1/covers.json'];
 const archivePath = '/design-archive/index.json';
-const previewPath = path => /^\/(components\/(preview|pinui-preview)|systems\/preview)(\/|$)/.test(path);
+const previewPath = path => /^\/(components\/(preview|pinui-preview|motion-preview)|systems\/preview)(\/|$)/.test(path);
 
 try {
   for (const width of [1280, 390]) {
@@ -65,7 +65,7 @@ try {
       // Search then click the real card, not a fabricated navigation event.
       await page.locator('.resource-toolbar input[type="search"]').fill('meridian-mono / button');
       await page.keyboard.press('Escape');
-      const link = page.locator('a.resource-card[href*="resource=component%3Ameridian-mono-button"]');
+      const link = page.locator('a.resource-card[href$="resource=component%3Ameridian-mono-button"]');
       await link.waitFor();
       from = requests.length;
       await link.click();

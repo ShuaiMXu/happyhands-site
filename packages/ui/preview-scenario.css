@@ -1,0 +1,13 @@
+.hh-preview-scenario {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--hh-space-2);
+  min-width: 0;
+  max-width: 100%;
+  color: var(--hh-ink);
+  font: 400 14px/1.5 var(--hh-font-sans);
+}
+.hh-preview-scenario .hh-select-field {
+  inline-size: min(100%, 11rem);
+}

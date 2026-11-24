@@ -4,7 +4,7 @@ import { mkdir } from 'node:fs/promises';
 
 const base = process.env.SITE_URL || 'http://127.0.0.1:4212';
 const browser = await chromium.launch({ channel:process.env.BROWSER_CHANNEL || 'chrome', headless:true });
-const routes = ['/apps/portal/', '/components/?provider=systems', '/components/?provider=cult-ui', '/components/?provider=kage', '/components/?provider=refero', '/systems/happyhands/', '/systems/quartz/', '/systems/lime/', '/apps/studio/'];
+const routes = ['/apps/portal/', '/components/?provider=systems', '/components/?provider=cult-ui', '/components/?provider=kage', '/components/?provider=refero', '/systems/quartz/', '/systems/lime/', '/apps/studio/'];
 await mkdir('test-results/site-consistency', { recursive:true });
 try {
   for (const width of [390, 768, 1280]) for (const theme of ['light', 'dark']) {

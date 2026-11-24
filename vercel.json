@@ -262,6 +262,22 @@
     {
       "source": "/en/components/",
       "has": [
+        { "type": "query", "key": "provider", "value": "systems" },
+        { "type": "query", "key": "system", "value": "happyhands" }
+      ],
+      "destination": "/resource-pages/en/index.html"
+    },
+    {
+      "source": "/components/",
+      "has": [
+        { "type": "query", "key": "provider", "value": "systems" },
+        { "type": "query", "key": "system", "value": "happyhands" }
+      ],
+      "destination": "/resource-pages/index.html"
+    },
+    {
+      "source": "/en/components/",
+      "has": [
         {
           "type": "query",
           "key": "provider",

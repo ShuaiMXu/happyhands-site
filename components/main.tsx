@@ -1,13 +1,11 @@
 import {portalFooter} from "../apps/portal/render-footer.js";
 import "../packages/ui/pinui/site-footer.css";
 import {ResourceDirectory} from './ResourceDirectory';
-import { HistorySafeFrame } from "../packages/ui/HistorySafeFrame";
+import { CatalogComponentDetail } from "./CatalogComponentDetail";
 import {ResourceToolPanels} from "../packages/ui/ResourceToolPanels";
 import { designMdCatalogEnabled, isDesignMdCollection, isDesignMdProvider } from "../packages/ui/resource-navigation";
 import {ResourceNavigation} from "../packages/ui/ResourceNavigation";
 import "../packages/ui/resource-navigation.css";
-import { Textarea } from "../packages/ui";
-import { Input } from "../packages/ui";
 import { Button } from "../packages/ui";
 import { ResourceDetailHeader } from "./ResourcePresentation";
 import { resolveCatalogItem, searchCatalog } from "./catalog-search";
@@ -50,13 +48,23 @@ const readSelection = () =>
     new URLSearchParams(location.search).get("component"),
   )?.id || "";
 
+// Redirect old design-system bookmarks to the catalog before selecting a resource.
+const initialRoute = new URL(location.href);
+if (initialRoute.searchParams.get('provider') === 'systems' &&
+    initialRoute.searchParams.get('system') === 'happyhands') {
+  initialRoute.searchParams.delete('system');
+  initialRoute.searchParams.delete('doc');
+  initialRoute.hash = '';
+  history.replaceState(history.state, '', initialRoute);
+}
+
 // Retired public tool: keep old bookmarks understandable without opening the editor.
 if (new URLSearchParams(location.search).get('provider') === 'studio') location.replace('/apps/studio/');
 function App() {
   const readProvider = () => {
     const value = new URLSearchParams(location.search).get("provider");
     if(value==='collections'){const collection=new URLSearchParams(location.search).get('collection')||'';return ['registry-own','brand-registry','cult-ui'].includes(collection)?'cult-ui':isDesignMdCollection(collection)&&designMdCatalogEnabled?'design-md':'systems';}
-    if(value === "studio" || value === "setup") return value;
+    if(value === "studio" || value === "setup" || value === "review") return value;
     return isDesignMdProvider(value)
       ? (designMdCatalogEnabled ? "design-md" : "systems")
       : value === "systems"
@@ -71,15 +79,6 @@ function App() {
   const [selected, setSelected] = useState(readSelection),
     [group, setGroup] = useState("all"),
     [query, setQuery] = useState("");
-  const [tab, setTab] = useState("preview"),
-    [motion, setMotion] = useState(false),
-    [running, setRunning] = useState(true),
-    [mobile, setMobile] = useState(false),
-    [notice, setNotice] = useState("");
-  const [source, setSource] = useState<{
-      files: { path: string; content: string }[];
-    } | null>(null),
-    [sourceError, setSourceError] = useState(false);
   const main = useRef<HTMLElement>(null);
   const lastTile = useRef("");
   const returning = useRef(false);
@@ -97,74 +96,24 @@ function App() {
   const [page, setPage] = useState(0);
   useEffect(() => setPage(0), [group, query]);
   useEffect(() => {
-    if (selected) main.current?.focus();
+    if (selected) main.current?.focus({ preventScroll: true });
   }, [selected]);
-  const limitation = (reason: string) =>
-    reason.startsWith("dependency:")
-      ? t("需要运行依赖：", "Requires dependency: ") + reason.slice(11)
-      : reason.startsWith("module:")
-        ? t("需要配套模块：", "Requires module: ") + reason.slice(7)
-        : {
-            "host-api": t(
-              "需要网络或宿主环境能力",
-              "Needs network or host capabilities",
-            ),
-            "media-or-host-setup": t(
-              "需要媒体资源或服务配置",
-              "Needs media or service setup",
-            ),
-            "pixel-font-setup": t(
-              "需要配套像素字体",
-              "Needs matching pixel fonts",
-            ),
-            "device-frame-asset": t(
-              "需要设备边框素材及许可核对",
-              "Needs device frame assets and license review",
-            ),
-            "no-demo": t(
-              "上游未提供独立示例",
-              "No standalone upstream example",
-            ),
-          }[reason] || reason;
   useEffect(() => {
     if (provider === "cult-ui") applyResourceMetadata(selected ? componentSeo(item) : null, lang);
     // Embedded tools do not own the parent document's resource metadata.
-    if (provider === "studio" || provider === "setup" || provider === "collections") applyResourceMetadata(null, lang);
+    if (provider === "studio" || provider === "setup" || provider === "review" || provider === "collections") applyResourceMetadata(null, lang);
   }, [lang, provider, selected]);
   useEffect(() => {
     const handle = () => {
       setProvider(readProvider());
       setSelected(readSelection());
-      setTab("preview");
     };
     addEventListener("popstate", handle);
     return () => removeEventListener("popstate", handle);
   }, []);
-  useEffect(() => {
-    setSource(null);
-    setSourceError(false);
-    setNotice("");
-    setRunning(true);
-    setMotion(false);
-  }, [selected]);
-  useEffect(() => {
-    if (tab !== "source") return;
-    const c = new AbortController();
-    fetch(item.source, { signal: c.signal })
-      .then((r) => {
-        if (!r.ok) throw Error("source");
-        return r.json();
-      })
-      .then(setSource)
-      .catch((e) => {
-        if (e.name !== "AbortError") setSourceError(true);
-      });
-    return () => c.abort();
-  }, [selected, tab]);
   function select(id: string) {
     lastTile.current = id;
     setSelected(id);
-    setTab("preview");
     history.pushState(
       null,
       "",
@@ -173,28 +122,6 @@ function App() {
     main.current?.focus();
   }
   const filtered = searchCatalog(data.items, query, group, groups);
-  const guidance = t(
-    `评估 Cult UI 的 ${item.id} 是否适合当前项目。固定源码版本：${item.revision}。\n先读取 ${location.origin}${item.source} 和 ${location.origin}/components/cult-ui/catalog.json，核对 MIT 许可、源码 SHA-256：${item.sourceSha256}、React/Tailwind 兼容性、npm 依赖和 registryDependencies。\n读取目标项目的设计规范，列出颜色、字体、间距、圆角和组件状态映射。不得直接覆盖全局主题或为演示引入无关服务。\n当前条目只是候选组件，站内可预览不等于项目适配通过。确认范围后再接入，验证键盘、触屏、减少动态效果、深浅色、响应式及原有业务流程。交付差异、验证证据与未解决限制。`,
-    `Evaluate Cult UI ${item.id} for this project. Pinned source revision: ${item.revision}.\nRead ${location.origin}${item.source} and ${location.origin}/components/cult-ui/catalog.json. Verify MIT licensing, source SHA-256: ${item.sourceSha256}, React/Tailwind compatibility, npm dependencies and registryDependencies.\nRead project design rules and map colors, typography, spacing, corners and states. Do not overwrite global themes or add unrelated services.\nThis entry is a candidate; a preview is not project approval. Confirm scope before integration. Validate keyboard, touch, reduced motion, themes, responsive layout and business flows. Deliver the diff, evidence and limitations.`,
-  );
-  async function copy() {
-    try {
-      await navigator.clipboard.writeText(guidance);
-      setNotice(t("接入说明已复制。", "Guidance copied."));
-    } catch {
-      setNotice(
-        t(
-          "无法自动复制，请选择下方文本复制。",
-          "Copy unavailable. Select and copy the text below.",
-        ),
-      );
-    }
-  }
-  const tabs = [
-    ["preview", t("效果预览", "Preview")],
-    ["source", t("源码", "Source")],
-    ["integration", t("接入规范", "Integration")],
-  ];
   return (
     <>
       <a className="catalog-skip" href="#catalog-main">
@@ -211,7 +138,7 @@ function App() {
         setProvider(id);setSelected("");setRouteVersion(v=>v+1);history.pushState(null,"",`?provider=${id}`);
       }}/>
       <ResourceToolPanels active={provider} lang={lang}/>
-      {provider === "studio" || provider === "setup" ? null : archiveRouteDisabled || (!new URLSearchParams(location.search).has("design")&&!new URLSearchParams(location.search).has("system")&&!selected)||new URLSearchParams(location.search).has("resource") ? <ResourceDirectory key={`${provider}-${routeVersion}`} section={provider} lang={lang}/> : provider === "systems" ? (
+      {provider === "studio" || provider === "setup" || provider === "review" ? null : archiveRouteDisabled || (!new URLSearchParams(location.search).has("design")&&!new URLSearchParams(location.search).has("system")&&!selected)||new URLSearchParams(location.search).has("resource") ? <ResourceDirectory key={`${provider}-${routeVersion}`} section={provider} lang={lang}/> : provider === "systems" ? (
         <SystemLibrary lang={lang} />
       ) : provider === "design-md" ? (
         <DesignMdLibrary lang={lang} />
@@ -314,289 +241,33 @@ function App() {
               id="catalog-main"
               ref={main}
               tabIndex={-1}
-              className="catalog-main"
+              className="catalog-main component-detail-page"
             >
               <ResourceDetailHeader
+                headingLevel={1}
                 title={title(item)}
-                backLabel={t("返回组件库", "All components")}
+                compact
+                description={item.id === "expandable"
+                  ? t("让卡片从摘要展开为详情，让用户留在当前页面。", "Expand a card from a summary to its details in place.")
+                  : item.description}
+                backLabel={t("返回 Cult UI 组件库", "Back to Cult UI components")}
                 onBack={() => {
                   returning.current = true;
                   setSelected("");
-                  history.pushState(null, "", "?provider=cult-ui");
+                  const source = new URLSearchParams(location.search).get('collection');
+                  const query = new URLSearchParams({ provider: 'cult-ui' });
+                  if (source) query.set('collection', source);
+                  history.pushState(null, "", "?" + query);
                 }}
               />
-              <div
-                className="catalog-tabs resource-content-tabs"
-                role="tablist"
-                aria-label={t("组件内容", "Component content")}
-              >
-                {tabs.map(([id, label], i) => (
-                  <button type="button"
-                    key={id}
-                    role="tab"
-                    id={`tab-${id}`}
-                    aria-selected={tab === id}
-                    aria-controls={`panel-${id}`}
-                    tabIndex={tab === id ? 0 : -1}
-                    onClick={() => setTab(id)}
-                    onKeyDown={(e) => {
-                      if (
-                        ["ArrowRight", "ArrowLeft", "Home", "End"].includes(
-                          e.key,
-                        )
-                      ) {
-                        e.preventDefault();
-                        const n =
-                          e.key === "Home"
-                            ? 0
-                            : e.key === "End"
-                              ? 2
-                              : (i + (e.key === "ArrowRight" ? 1 : 2)) % 3;
-                        setTab(tabs[n][0]);
-                        document.getElementById(`tab-${tabs[n][0]}`)?.focus();
-                      }
-                    }}
-                  >
-                    {label}
-                  </button>
-                ))}
-              </div>
-              <section
-                id={`panel-${tab}`}
-                role="tabpanel"
-                aria-labelledby={`tab-${tab}`}
-                className="catalog-panel"
-              >
-                {tab === "source" && (
-                  <div className="catalog-item-head">
-                    <details className="upstream-description">
-                      <summary>
-                        {t("上游组件说明（英文）", "Component description")}
-                      </summary>
-                      <p>{item.description}</p>
-                    </details>
-                  </div>
-                )}
-                {tab === "preview" &&
-                  (item.preview ? (
-                    <>
-                      <div className="preview-toolbar">
-                        <label>
-                          <Input
-                            type="checkbox"
-                            checked={motion}
-                            onChange={(e) => setMotion(e.target.checked)}
-                          />
-                          {t("启用动态效果", "Enable motion")}
-                        </label>
-                        <Button
-                          onClick={() => setMobile(!mobile)}
-                          aria-pressed={mobile}
-                        >
-                          {mobile
-                            ? t("手机宽度", "Mobile width")
-                            : t("自适应宽度", "Flexible width")}
-                        </Button>
-                        <Button onClick={() => setRunning(!running)}>
-                          {running
-                            ? t("停止预览", "Stop preview")
-                            : t("启动预览", "Start preview")}
-                        </Button>
-                      </div>
-                      <div
-                        className={`preview-frame-wrap ${mobile ? "mobile" : ""}`}
-                      >
-                        {running ? (
-                          <HistorySafeFrame
-                            title={`${title(item)} ${t("交互预览", "interactive preview")}`}
-                            src={`/components/preview/?component=${item.id}&theme=${dark ? "dark" : "light"}&lang=${lang}&motion=${motion ? "on" : "off"}`}
-                            sandbox={`allow-scripts${item.id === "bg-image-texture" ? " allow-downloads" : ""}`}
-                            referrerPolicy="no-referrer"
-                          />
-                        ) : (
-                          <p>{t("预览已停止。", "Preview stopped.")}</p>
-                        )}
-                      </div>
-                      <p className="catalog-footnote">
-                        {t(
-                          "本地示例，不连接外部服务。接入项目后仍需验证。",
-                          "Local demo; no external service connection. Validate again in your project.",
-                        )}
-                      </p>
-                    </>
-                  ) : (
-                    <div className="catalog-unavailable">
-                      <h3>
-                        {item.aliasOf
-                          ? t(
-                              "请使用当前组件名称",
-                              "Use the current component name",
-                            )
-                          : t(
-                              "源码已收录，预览尚需配置",
-                              "Source available; preview needs setup",
-                            )}
-                      </h3>
-                      <p>
-                        {item.aliasOf
-                          ? t(
-                              "此名称是上游保留的兼容别名。",
-                              "This is an upstream compatibility alias.",
-                            )
-                          : t(
-                              "此组件需要额外依赖、媒体或框架配置。可在源码与接入规范中查看条件。",
-                              "This component needs additional dependencies, media or framework setup. See Source and Integration for details.",
-                            )}
-                      </p>
-                      {item.aliasOf && (
-                        <Button onClick={() => select(item.aliasOf!)}>
-                          {item.aliasOf} →
-                        </Button>
-                      )}
-                      <ul>
-                        {!item.aliasOf &&
-                          item.limitations.map((reason) => (
-                            <li key={reason}>
-                              <span>{limitation(reason)}</span>
-                            </li>
-                          ))}
-                      </ul>
-                    </div>
-                  ))}
-                {tab === "source" && (
-                  <>
-                    <p>
-                      {t(
-                        "固定版本的原始源码，未经演示适配。",
-                        "Original source at the pinned revision, before preview adaptations.",
-                      )}
-                    </p>
-                    <a className="catalog-download" href={item.source} download>
-                      {t("下载源码清单", "Download source registry")}
-                    </a>
-                    {sourceError ? (
-                      <p role="alert">
-                        {t(
-                          "源码读取失败，请重试或下载文件。",
-                          "Source could not load. Retry or download the file.",
-                        )}
-                      </p>
-                    ) : source ? (
-                      source.files.length ? (
-                        source.files.map((file) => (
-                          <details
-                            key={file.path}
-                            className="source-file"
-                            open={source.files.length === 1}
-                          >
-                            <summary>{file.path}</summary>
-                            <pre>
-                              <code>{file.content}</code>
-                            </pre>
-                          </details>
-                        ))
-                      ) : (
-                        <p>
-                          {t(
-                            "兼容别名不包含独立源码。",
-                            "This alias has no separate source files.",
-                          )}
-                        </p>
-                      )
-                    ) : (
-                      <p>{t("正在读取源码…", "Loading source…")}</p>
-                    )}
-                  </>
-                )}
-                {tab === "integration" && (
-                  <>
-                    <h3>{t("接入前核对", "Before integration")}</h3>
-                    <dl className="integration-facts">
-                      <div>
-                        <dt>{t("源码版本", "Revision")}</dt>
-                        <dd>
-                          <code>{item.revision}</code>
-                        </dd>
-                      </div>
-                      <div>
-                        <dt>{t("许可", "License")}</dt>
-                        <dd>
-                          <a href="/components/cult-ui/LICENSE.txt">
-                            MIT / Cult UI / Jordan Gilliam
-                          </a>
-                        </dd>
-                      </div>
-                      <div>
-                        <dt>{t("运行依赖", "Runtime dependencies")}</dt>
-                        <dd>
-                          {item.dependencies.join(", ") ||
-                            t(
-                              "注册表未额外声明；仍需 React 与 Tailwind 环境。",
-                              "No additional packages declared; React and Tailwind are still required.",
-                            )}
-                        </dd>
-                      </div>
-                      <div>
-                        <dt>{t("组件依赖", "Registry dependencies")}</dt>
-                        <dd>
-                          {item.registryDependencies.join(", ") ||
-                            t("无额外声明", "None declared")}
-                        </dd>
-                      </div>
-                    </dl>
-                    <p>
-                      {t(
-                        "本站预览与目标项目的正式接入分别验证。先匹配项目技术栈和设计规范，再决定是否采用。",
-                        "Verify previews and target integration separately. Match the project stack and design rules before adoption.",
-                      )}
-                    </p>
-                    <h3>
-                      {t("交给项目代理", "Guidance for your project agent")}
-                    </h3>
-                    <Textarea
-                      aria-label={t("接入说明", "Integration guidance")}
-                      readOnly
-                      value={guidance}
-                      rows={10}
-                    />
-                    <div className="catalog-actions">
-                      <Button onClick={copy}>
-                        {t("复制接入说明", "Copy guidance")}
-                      </Button>
-                      <a href="/components/cult-ui/catalog.json" download>
-                        {t("下载 Harness 组件目录", "Download Harness catalog")}
-                      </a>
-                    </div>
-                    <p role="status">{notice}</p>
-                    <p className="catalog-footnote">
-                      {t(
-                        "目录可供 Harness 读取；当前未连接自动选用或自动安装。",
-                        "The catalog is readable by Harness; automatic selection and installation are not connected.",
-                      )}
-                    </p>
-                  </>
-                )}
-              </section>
-              <details className="catalog-provenance">
-                <summary>
-                  {t("来源与展示规范", "Source and display rules")}
-                </summary>
-                <p>
-                  {t(
-                    "目录来自固定版本的 Cult UI 注册表。网站外壳沿用 HappyHands；组件在独立预览文档中运行，样式不影响官网。原始源码、示例源码和许可证一并保留。",
-                    "The catalog uses a pinned Cult UI registry. The shell uses HappyHands; components run in isolated preview documents without styling the site. Original sources, examples and licensing are retained.",
-                  )}
-                </p>
-                <p>
-                  <code>{data.revision}</code>
-                </p>
-                <p>
-                  {t(
-                    "原版预览不代表已满足 HappyHands 或目标项目的可访问性规范。",
-                    "Source previews do not imply HappyHands or target-project accessibility approval.",
-                  )}
-                </p>
-              </details>
+              <CatalogComponentDetail
+                key={item.id}
+                item={item}
+                title={title(item)}
+                lang={lang}
+                dark={dark}
+                onSelect={select}
+              />
             </main>
           )}
         </div>

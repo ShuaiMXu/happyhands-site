@@ -1,10 +1,6 @@
 import React from "react";
-import {HistorySafeFrame} from "../packages/ui/HistorySafeFrame";
-import {
-  buildComponentPreview,
-  componentPreviewKind,
-  type ReferenceComponent,
-} from "./reference-component-preview";
+import { DesignComponentSpecimens } from './DesignComponentSpecimens';
+import type { ReferenceComponent } from './reference-component-preview';
 export type ReferenceSystem = {
   description?: string;
   northStar?: string;
@@ -48,9 +44,13 @@ export type ReferenceSystem = {
 export function ReferenceSpecimen({
   system,
   lang,
+  referenceName,
+  sourceHref,
 }: {
   system: ReferenceSystem;
   lang: string;
+  referenceName?: string;
+  sourceHref?: string;
 }) {
   const zh = lang === "zh";
   return (
@@ -222,46 +222,7 @@ export function ReferenceSpecimen({
           </div>
         </section>
       )}
-      {!!system.components?.length && (
-        <section className="reference-component-section">
-          <h3 id="reference-components">
-            {zh ? "组件" : "Components"} <span>{system.components.length}</span>
-          </h3>
-          <p>
-            {zh
-              ? "依据规范重建的示例，包含补充状态与示例内容；原始 HTML 保持静态"
-              : "Guideline reconstructions with illustrative states and content; source HTML stays static"}
-          </p>
-          {system.components.map((component, i) => {
-            const preview = buildComponentPreview(component, system, lang);
-            return (
-              <article className="reference-component" key={i}>
-                <h4>{component.name}</h4>
-                {['brand','avatar','icon','media','diagram','bespoke','composition'].includes(componentPreviewKind(component.name)) && !component.html && <p>{zh?'形态示意，专用图形及细节请对照原始页面。':'Form illustration; compare the original page for bespoke artwork and details.'} <a href="#reference-original">{zh?'对照原始页面':'View original page'}</a></p>}
-                {preview && (
-                  <HistorySafeFrame
-                    data-kind={
-                      component.html
-                        ? "source"
-                        : componentPreviewKind(component.name)
-                    }
-                    title={`${component.name} ${zh ? "规范示例" : "guideline example"}`}
-                    srcDoc={preview}
-                    sandbox={component.html ? "" : "allow-scripts"}
-                    autoHeight={!component.html}
-                    tabIndex={component.html ? -1 : 0}
-                    loading="lazy"
-                    referrerPolicy="no-referrer"
-                  />
-                )}
-                <p>{component.description}</p>
-                <p>{component.role}</p>
-                {!preview && <p>{zh?'此组件尚无可靠的独立还原，保留完整用途与规范；上方可操作示例用于查看通用控件效果。':'No reliable standalone reconstruction is available. Full specifications are retained; the interactive examples above demonstrate common controls.'}</p>}
-              </article>
-            );
-          })}
-        </section>
-      )}
+      <DesignComponentSpecimens system={system} lang={lang} headingId="reference-components" referenceName={referenceName} sourceHref={sourceHref} />
       {!!system.elevation?.length && (
         <section>
           <h3>{zh ? "阴影规则" : "Elevation rules"}</h3>

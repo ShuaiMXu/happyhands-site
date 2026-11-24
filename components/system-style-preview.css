@@ -1,0 +1,52 @@
+.system-style-preview iframe {
+  display: block;
+  width: 100%;
+  min-height: 200px;
+  border: 0;
+}
+/* Compact live preview: a cover that can be expanded in place. */
+.system-style-preview.is-compact {
+  max-height: 640px;
+}
+.system-style-preview.is-compact::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 112px;
+  background: linear-gradient(to bottom, transparent, var(--hh-bg));
+  pointer-events: none;
+}
+.system-style-preview-bar {
+  position: absolute;
+  z-index: 1;
+  right: 12px;
+  bottom: 12px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.system-style-preview-bar span {
+  color: var(--hh-ink-subtle);
+  font: 12px var(--hh-font-mono);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.system-style-preview-bar button {
+  min-height: 44px;
+  padding: 0 10px;
+  border: 0.5px solid var(--hh-line-strong);
+  border-radius: var(--hh-radius-sm);
+  background: var(--hh-bg-raised);
+  color: var(--hh-ink);
+  font: 12px var(--hh-font-sans);
+  cursor: pointer;
+}
+.system-style-preview-bar button:hover { background: var(--hh-bg-hover); }
+.system-style-preview-bar button:focus-visible {
+  outline: 2px solid var(--hh-ring);
+  outline-offset: 2px;
+}
+
+@media (max-width: 700px) {
+  .system-style-preview.is-compact { max-height: 520px; }
+}

@@ -18,10 +18,10 @@ test('both homepages render one footer guide group and no duplicate guide sectio
     assert.doesNotMatch(footer, /class="wordmark"|<button|<form|onclick|intent\/follow|messages\/compose/);
     assert.equal((footer.match(/class="sy__guide"/g) || []).length, 1, 'Exactly one footer link group');
     assert.equal((footer.match(/<nav\b/g) || []).length, 1);
-    assert.equal(footer.split('/brand/happyhands-logo-cream.png').length - 1, 2, 'cream wordmark in brand row and closing mark');
+    assert.equal(footer.split('/brand/happyhands-logo-cream.png').length - 1, 1, 'one compact wordmark');
     for (const target of ['/guide/', '/ai-website-design/', '/ai-ui-review/', '/ai-ui-review/#ai-slop', '/nonprofit-website-design/'])
       assert.equal(footer.split(`href="${prefix}${target}"`).length - 1, 1, `${target} appears once`);
-    assert.equal(footer.split('href="/apps/setup/"').length - 1, 2, 'Setup link in the action card and the guide column');
+    assert.equal(footer.split('href="/apps/setup/"').length - 1, 1, 'one setup link');
     assert.equal(footer.split(`href="${repositories.core}"`).length - 1, 1);
     for (const href of ['https://icons.kubai.design/', 'https://collectui.com/', '/llms.txt'])
       assert.equal(footer.split(`href="${href}"`).length - 1, 1, href);

@@ -23,12 +23,30 @@ jobs:
       - run: npm run test:design-resources
       - run: node --test tests/hosted-registry.test.mjs
       - run: npm run test:collections
+      - run: node --test tests/online-review.test.mjs
       - run: npm run test:resources:directory
       - run: npm run test:resources:specimens
       - run: npm run test:resources:search
       - run: npm run test:portal
       - run: node --import tsx --test tests/studio-retirement.test.mjs tests/header-material.test.mjs
+      - run: npm run check:component-lineage
       - run: npm run test:archive
       - run: npm run test:wiki
       - run: npm run build
       - run: npm run verify:alpha
+      - run: npx playwright-core install --with-deps chromium
+      - name: Replay Design.md component states
+        run: |
+          npm run preview -- --port 4173 --strictPort &
+          server_pid=$!
+          trap 'kill "$server_pid" 2>/dev/null || true' EXIT
+          for attempt in {1..30}; do
+            if curl --fail --silent http://127.0.0.1:4173/apps/portal/ > /dev/null; then break; fi
+            sleep 1
+          done
+          export BROWSER_PATH="$(node -p "require('playwright-core').chromium.executablePath()")"
+          npm run test:design-md:publish:browser
+          node tests/directory-layout-browser.mjs
+          SITE_URL=http://127.0.0.1:4173 npm run test:systems:documentation
+          node --import tsx tests/component-collections-browser.mjs
+          SITE_URL=http://127.0.0.1:4173 node tests/online-review-browser.mjs

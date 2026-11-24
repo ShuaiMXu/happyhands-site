@@ -1,13 +1,13 @@
+import { Button } from "../../packages/ui";
+import { DesignSystemDocumentation, SystemDocumentLink } from "../../components/DesignSystemDocumentation";
 import { applySiteMetadata } from "../../packages/ui/site-seo";
 import { FoundationSpecimen } from "../../packages/ui/FoundationSpecimen";
 import { SystemScenes } from "../../packages/ui/SystemScenes";
 import { QuartzCatalog } from "./QuartzCatalog";
 import { SystemExample } from "../../packages/ui/SystemExample";
 import { Icon } from "../../packages/ui/Icon";
-import { SystemDirectory } from "../../packages/ui/SystemDirectory";
 import { useSitePreferences } from "../../packages/ui/useSitePreferences";
 import { SiteHeader } from "../../packages/ui/SiteHeader";
-import { SystemBreadcrumb } from "../../packages/ui/SystemBreadcrumb";
 import React, { useState } from "react";
 import { createRoot } from "react-dom/client";
 import "../../packages/design-tokens/happyhands.css";
@@ -37,271 +37,226 @@ function App() {
       />
       <div className="system-landing">
         <main>
-          <SystemBreadcrumb current="Quartz" lang={lang} />
-          <section id="overview" className="system-introduction">
-            <div>
-              <p className="eyebrow">
-                {t(
-                  "外部设计系统 / design.how",
-                  "External design system / design.how",
-                )}
-              </p>
-              <h1>Quartz</h1>
-              <p className="lead">
-                {t(
-                  "面向 AI 产品和代理工作流。查看组件目录、页面模板与接入说明，再判断是否适合你的项目。",
-                  "For AI products and agent workflows. Explore its component catalog, screen blocks and setup guidance to see whether it fits your project.",
-                )}
-              </p>
-              <div className="actions">
-                <a className="action" href="/components/?provider=systems&system=quartz">{t("阅读完整文档与下载", "Read documents and download")}</a>
-                <a className="action" href="#example">
-                  {t("查看实际效果", "Try the example")}
-                </a>
-                <a href="#adopt">{t("查看接入方式", "View setup options")}</a>
-              </div>
-            </div>
-            <aside
-              className="system-facts"
-              aria-label={t("系统概况", "System overview")}
-            >
-              <dl>
-                <div>
-                  <dt>{t("适用场景", "Best for")}</dt>
-                  <dd>
+          <DesignSystemDocumentation
+            name="Quartz"
+            description={t("面向 AI 产品和代理工作流，涵盖工具审批、运行追踪与代理会话。", "For AI products and agent workflows, including tool approvals, run traces and agent sessions.")}
+            lang={lang}
+            actions={<>
+              <SystemDocumentLink href={`${lang === "en" ? "/en" : ""}/components/?provider=systems&system=quartz`} primary>
+                {t("阅读完整文档", "Read full documentation")}
+              </SystemDocumentLink>
+              <SystemDocumentLink href="/design-how/quartz.zip" download>
+                {t("下载完整资料", "Download archive")}
+              </SystemDocumentLink>
+            </>}
+            sections={[
+              {
+                id: "system-preview",
+                title: t("系统预览", "System preview"),
+                content: <div id="overview">
+                  <div id="example" className="system-book-local-content">
+                    <p className="eyebrow">{t("效果预览", "See it in use")}</p>
+                    <h3>
+                      {t(
+                        "文件修改确认",
+                        "File change approval",
+                      )}
+                    </h3>
+                    <div className="system-example-layout">
+                      <div>
+                        <p>
+                          {t(
+                            "通过文件列表与主要操作呈现修改范围。切换外观、选择文件，预览选择与确认状态。",
+                            "A file list and primary action define the scope. Switch appearance and select files to preview selection and confirmation states.",
+                          )}
+                        </p>
+                        <p className="micro">
+                          {t(
+                            "HappyHands 编写的交互示例，配色与圆角参考 Quartz。使用系统字体；并非上游组件的原样展示，也不会访问你的文件。",
+                            "An interactive example authored by HappyHands, using Quartz palette and corner values with system fonts. It is not an upstream component demo and cannot access your files.",
+                          )}
+                        </p>
+                        <a
+                          href="https://design.how/r/quartz/theme.json"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          {t("查看配色来源", "Palette source")}
+                        </a>
+                      </div>
+                      <SystemExample system="quartz" lang={lang} dark={dark} />
+                    </div>
+                  </div>
+                  <SystemScenes system="quartz" lang={lang} dark={dark} />
+                </div>,
+              },
+              {
+                id: "system-foundations",
+                title: t("基础规范", "Foundations"),
+                content: <div id="foundations" className="system-book-local-content">
+                  <FoundationSpecimen system="quartz" lang={lang} />
+                  <h3>
                     {t(
-                      "代理会话、工具审批、运行追踪",
-                      "Agent sessions, tool approvals and run traces",
+                      "颜色、状态与组件的使用约定",
+                      "Rules for colors, states and components",
                     )}
-                  </dd>
-                </div>
-                <div>
-                  <dt>{t("技术基础", "Stack")}</dt>
-                  <dd>React / Tailwind CSS / shadcn</dd>
-                </div>
-                <div>
-                  <dt>{t("收录内容", "In this catalog")}</dt>
-                  <dd>
+                  </h3>
+                  <div className="rules">
+                    <article>
+                      <h3>{t("中性框架", "Neutral structure")}</h3>
+                      <p>
+                        {t(
+                          "黑白框架承载内容，类别通过文字识别；暖色保留给警告与失败。",
+                          "A neutral structure carries content, kinds are named in words, and warm colors are reserved for warnings and failures.",
+                        )}
+                      </p>
+                    </article>
+                    <article>
+                      <h3>{t("按角色使用变量", "Role-based tokens")}</h3>
+                      <p>
+                        {t(
+                          "组件使用语义变量，不在页面临时拼颜色、字号与阴影。",
+                          "Components use role tokens rather than ad hoc colors, sizes and shadows.",
+                        )}
+                      </p>
+                    </article>
+                    <article>
+                      <h3>{t("组件优先", "Components first")}</h3>
+                      <p>
+                        {t(
+                          "先选已有组件，再组合页面；保留键盘、焦点、加载与错误反馈。",
+                          "Compose screens from existing components while preserving keyboard, focus, loading and error behavior.",
+                        )}
+                      </p>
+                    </article>
+                  </div>
+                  </div>,
+              },
+              {
+                id: "system-components",
+                title: t("组件目录", "Components"),
+                content: <div id="components" className="system-book-local-content">
+                  <p>
                     {t(
-                      "设计原则、组件目录与接入指令",
-                      "Principles, component catalog and setup prompts",
+                      "按操作、导航、反馈和工作流分类查找，也可搜索全部注册项。展开条目，在本站查看用途和接入方式；实际组件接口以来源为准。",
+                      "Search all registered entries, or browse actions, navigation, feedback and workflow categories. Open an entry here for its purpose and setup. Refer to upstream for component APIs.",
                     )}
-                  </dd>
-                </div>
-              </dl>
-              <p className="note">
-                {t(
-                  "由 HappyHands 整理。组件目录是资料说明，尚未在本站安装 Quartz 交互组件。",
-                  "Curated by HappyHands. The catalog describes the system; Quartz interactive components are not installed on this site.",
-                )}
-              </p>
-            </aside>
-          </section>
-          <SystemDirectory label={t("本页目录", "On this page")}>
-            <nav aria-label={t("目录", "Contents")}>
-              {[
-                ["scenes", "应用场景", "Scenes"],
-                ["overview", "概览", "Overview"],
-                ["foundations", "设计原则", "Principles"],
-                ["example", "效果预览", "Example"],
-                ["components", "组件目录", "Components"],
-                ["patterns", "页面模板", "Screen blocks"],
-                ["adopt", "接入项目", "Setup"],
-              ].map(([id, cn, en]) => (
-                <a key={id} href={"#" + id}>
-                  {t(cn, en)}
-                </a>
-              ))}
-            </nav>
-          </SystemDirectory>
-          <SystemScenes system="quartz" lang={lang} dark={dark} />
-          <section id="foundations">
-            <FoundationSpecimen system="quartz" lang={lang} />
-            <h2>
-              {t(
-                "颜色、状态与组件的使用约定",
-                "Rules for colors, states and components",
-              )}
-            </h2>
-            <div className="rules">
-              <article>
-                <h3>{t("中性框架", "Neutral structure")}</h3>
-                <p>
-                  {t(
-                    "黑白框架承载内容，类别通过文字识别；暖色保留给警告与失败。",
-                    "A neutral structure carries content, kinds are named in words, and warm colors are reserved for warnings and failures.",
-                  )}
-                </p>
-              </article>
-              <article>
-                <h3>{t("按角色使用变量", "Role-based tokens")}</h3>
-                <p>
-                  {t(
-                    "组件使用语义变量，不在页面临时拼颜色、字号与阴影。",
-                    "Components use role tokens rather than ad hoc colors, sizes and shadows.",
-                  )}
-                </p>
-              </article>
-              <article>
-                <h3>{t("组件优先", "Components first")}</h3>
-                <p>
-                  {t(
-                    "先选已有组件，再组合页面；保留键盘、焦点、加载与错误反馈。",
-                    "Compose screens from existing components while preserving keyboard, focus, loading and error behavior.",
-                  )}
-                </p>
-              </article>
-            </div>
-          </section>
-          <section id="example">
-            <p className="eyebrow">{t("效果预览", "See it in use")}</p>
-            <h2>
-              {t(
-                "文件修改确认",
-                "File change approval",
-              )}
-            </h2>
-            <div className="system-example-layout">
-              <div>
-                <p>
-                  {t(
-                    "通过文件列表与主要操作呈现修改范围。切换外观、选择文件，预览选择与确认状态。",
-                    "A file list and primary action define the scope. Switch appearance and select files to preview selection and confirmation states.",
-                  )}
-                </p>
-                <p className="micro">
-                  {t(
-                    "HappyHands 编写的交互示例，配色与圆角参考 Quartz。使用系统字体；并非上游组件的原样展示，也不会访问你的文件。",
-                    "An interactive example authored by HappyHands, using Quartz palette and corner values with system fonts. It is not an upstream component demo and cannot access your files.",
-                  )}
-                </p>
-                <a
-                  href="https://design.how/r/quartz/theme.json"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {t("查看配色来源", "Palette source")}
-                </a>
-              </div>
-              <SystemExample system="quartz" lang={lang} dark={dark} />
-            </div>
-          </section>
-          <section id="components">
-            <h2>{t("浏览完整组件目录", "Browse the complete catalog")}</h2>
-            <p>
-              {t(
-                "按操作、导航、反馈和工作流分类查找，也可搜索全部注册项。展开条目，在本站查看用途和接入方式；实际组件接口以来源为准。",
-                "Search all registered entries, or browse actions, navigation, feedback and workflow categories. Open an entry here for its purpose and setup. Refer to upstream for component APIs.",
-              )}
-            </p>
-            <QuartzCatalog lang={lang} />
-          </section>
-          <section id="patterns">
-            <h2>
-              {t("按使用场景选择页面模板", "Choose a screen for your task")}
-            </h2>
-            <div className="rules">
-              {[
-                [
-                  "项目首页",
-                  "Workspace home",
-                  "项目概况与待处理事项",
-                  "Project overview and pending work",
-                ],
-                [
-                  "代理会话",
-                  "Agent session",
-                  "输入、回复与工具调用",
-                  "Input, responses and tool calls",
-                ],
-                [
-                  "工具审批",
-                  "Tool approval",
-                  "查看操作范围并做出决定",
-                  "Inspect scope and make a decision",
-                ],
-                [
-                  "运行追踪",
-                  "Run trace",
-                  "查看执行过程与结果",
-                  "Inspect execution and results",
-                ],
-                [
-                  "实时活动",
-                  "Live activity",
-                  "浏览持续产生的事件",
-                  "Browse ongoing events",
-                ],
-                [
-                  "访问密钥",
-                  "API keys",
-                  "创建、查看与撤销密钥",
-                  "Create, inspect and revoke keys",
-                ],
-                [
-                  "发布详情",
-                  "Prompt release",
-                  "发布检查与回退",
-                  "Release checks and rollback",
-                ],
-              ].map(([cn, en, desc, eng]) => (
-                <article key={en}>
-                  <h3>{t(cn, en)}</h3>
-                  <p>{t(desc, eng)}</p>
-                </article>
-              ))}
-            </div>
-          </section>
-          <section id="adopt">
-            <h2>{t("带回你的项目", "Bring it to your project")}</h2>
-            <p>
-              {t(
-                "需要 React、Tailwind 和兼容的 shadcn 配置。先检查技术栈与已有品牌，再逐页迁移。复制指令不会安装或执行命令。",
-                "Requires React, Tailwind and compatible shadcn configuration. Check the stack and existing brand before migrating screen by screen. Copying does not install or execute anything.",
-              )}
-            </p>
-            <label>
-              {t("接入方式", "Setup mode")}
-              <select
-                value={existing ? "existing" : "new"}
-                onChange={(e) => setExisting(e.target.value === "existing")}
-              >
-                <option value="existing">
-                  {t("已有项目", "Existing project")}
-                </option>
-                <option value="new">{t("新项目", "New project")}</option>
-              </select>
-            </label>
-            <textarea
-              aria-label={t("接入指令", "Setup prompt")}
-              value={prompt}
-              readOnly
-              rows={12}
-            />
-            <div className="actions">
-              <button
-                className="action"
-                onClick={async () => {
-                  try {
-                    await navigator.clipboard.writeText(prompt);
-                    setStatus(t("已复制", "Copied"));
-                  } catch {
-                    setStatus(
-                      t(
-                        "复制失败，请手动选择指令。",
-                        "Copy unavailable. Select the prompt manually.",
-                      ),
-                    );
-                  }
-                }}
-              >
-                {t("复制接入指令", "Copy setup prompt")}
-              </button>
-              <a href="https://github.com/ShuaiMXu/creative-os/blob/main/docs/local-workbench.md">
-                {t("本地工作台指引", "Local workbench guide")}
-              </a>
-            </div>
-          </section>
+                  </p>
+                  <QuartzCatalog lang={lang} />
+                  </div>,
+              },
+              {
+                id: "system-guides",
+                title: t("页面模板", "Screen blocks"),
+                content: <div id="patterns" className="system-book-local-content">
+                  <div className="rules">
+                    {[
+                      [
+                        "项目首页",
+                        "Workspace home",
+                        "项目概况与待处理事项",
+                        "Project overview and pending work",
+                      ],
+                      [
+                        "代理会话",
+                        "Agent session",
+                        "输入、回复与工具调用",
+                        "Input, responses and tool calls",
+                      ],
+                      [
+                        "工具审批",
+                        "Tool approval",
+                        "查看操作范围并做出决定",
+                        "Inspect scope and make a decision",
+                      ],
+                      [
+                        "运行追踪",
+                        "Run trace",
+                        "查看执行过程与结果",
+                        "Inspect execution and results",
+                      ],
+                      [
+                        "实时活动",
+                        "Live activity",
+                        "浏览持续产生的事件",
+                        "Browse ongoing events",
+                      ],
+                      [
+                        "访问密钥",
+                        "API keys",
+                        "创建、查看与撤销密钥",
+                        "Create, inspect and revoke keys",
+                      ],
+                      [
+                        "发布详情",
+                        "Prompt release",
+                        "发布检查与回退",
+                        "Release checks and rollback",
+                      ],
+                    ].map(([cn, en, desc, eng]) => (
+                      <article key={en}>
+                        <h3>{t(cn, en)}</h3>
+                        <p>{t(desc, eng)}</p>
+                      </article>
+                    ))}
+                  </div>
+                  </div>,
+              },
+              {
+                id: "system-setup",
+                title: t("接入方式", "Setup"),
+                content: <div id="adopt" className="system-book-local-content">
+                  <p>
+                    {t(
+                      "需要 React、Tailwind 和兼容的 shadcn 配置。先检查技术栈与已有品牌，再逐页迁移。复制指令不会安装或执行命令。",
+                      "Requires React, Tailwind and compatible shadcn configuration. Check the stack and existing brand before migrating screen by screen. Copying does not install or execute anything.",
+                    )}
+                  </p>
+                  <label>
+                    {t("接入方式", "Setup mode")}
+                    <select
+                      value={existing ? "existing" : "new"}
+                      onChange={(e) => setExisting(e.target.value === "existing")}
+                    >
+                      <option value="existing">
+                        {t("已有项目", "Existing project")}
+                      </option>
+                      <option value="new">{t("新项目", "New project")}</option>
+                    </select>
+                  </label>
+                  <textarea
+                    aria-label={t("接入指令", "Setup prompt")}
+                    value={prompt}
+                    readOnly
+                    rows={12}
+                  />
+                  <div className="actions">
+                    <Button
+                      className="action"
+                      onClick={async () => {
+                        try {
+                          await navigator.clipboard.writeText(prompt);
+                          setStatus(t("已复制", "Copied"));
+                        } catch {
+                          setStatus(
+                            t(
+                              "复制失败，请手动选择指令。",
+                              "Copy unavailable. Select the prompt manually.",
+                            ),
+                          );
+                        }
+                      }}
+                    >
+                      {t("复制接入指令", "Copy setup prompt")}
+                    </Button>
+                    <a href="https://github.com/ShuaiMXu/creative-os/blob/main/docs/local-workbench.md">
+                      {t("本地工作台指引", "Local workbench guide")}
+                    </a>
+                  </div>
+                  </div>,
+              },
+            ]}
+          />
           <footer>
             <div className="system-related">
               <div>

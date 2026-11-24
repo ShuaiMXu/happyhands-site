@@ -62,3 +62,11 @@ body {
   transform: none !important;
   filter: none !important;
 }
+
+/* Preserve the example's own visuals while fitting its expanded card on a phone. */
+.preview-runtime[data-preview="expandable"] {
+  min-height: min(100dvh, 480px);
+  padding: 24px 16px;
+}
+.preview-runtime[data-preview="expandable"] > [role="button"] { width: 100%; }
+.preview-runtime[data-preview="expandable"] > [role="button"] > div { max-width: 100%; margin-inline: auto; }

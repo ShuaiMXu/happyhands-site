@@ -73,9 +73,9 @@ try {
     await page.goto(base + "/components/?provider=cult-ui");
     await page.locator('a[href*="component=cosmic-button"]').first().click();
     await page.waitForFunction(() => document.title.includes("Cosmic Button"));
-    await page.frameLocator('.preview-frame-wrap iframe')
+    await page.frameLocator('.component-detail-preview iframe')
       .locator('[data-preview="cosmic-button"]').waitFor();
-    assert.equal(await page.locator('.preview-frame-wrap iframe').getAttribute('sandbox'), 'allow-scripts');
+    assert.equal(await page.locator('.component-detail-preview iframe').getAttribute('sandbox'), 'allow-scripts');
     await page.goBack();
     await page.waitForFunction(() => !document.title.includes("Cosmic Button"));
     assert.equal(
@@ -84,7 +84,7 @@ try {
     );
     await page.goForward();
     await page.waitForFunction(() => document.title.includes("Cosmic Button"));
-    await page.frameLocator('.preview-frame-wrap iframe')
+    await page.frameLocator('.component-detail-preview iframe')
       .locator('[data-preview="cosmic-button"]').waitFor();
     assert.equal(
       await page.locator('link[rel="canonical"]').getAttribute("href"),

@@ -1,3 +1,4 @@
+import { replacePreviewLocation } from './preview-location';
 import { forwardRef, useImperativeHandle, useLayoutEffect, useRef, useState, type IframeHTMLAttributes } from "react";
 
 /** Loading an owned preview must not add a nested entry to browser history. */
@@ -28,12 +29,10 @@ export const HistorySafeFrame = forwardRef<HTMLIFrameElement, FrameProps>(functi
     // Replace both the initial blank page and subsequent preview configurations.
     // A self-contained data document survives history restoration after its
     // creator frame unloads; a revoked Blob URL would restore an empty preview.
-    const target = srcDoc === undefined ? new URL(src!, location.href) : null;
-    if (target && target.origin !== location.origin) {
-      throw new Error("Owned previews must use the current origin.");
-    }
-    const destination = target ? target.href : `data:text/html;charset=utf-8,${encodeURIComponent(srcDoc!)}`;
-    const navigate = () => frame.current?.contentWindow?.location.replace(destination);
+    const navigate = () => {
+      const element = frame.current;
+      if (element) replacePreviewLocation(element, srcDoc === undefined ? { src: src! } : { srcDoc });
+    };
     const observer = loading === "lazy" ? new IntersectionObserver(([entry]) => {
       if (entry.isIntersecting) { navigate(); observer!.disconnect(); }
     }) : undefined;

@@ -1,0 +1,8 @@
+.system-style-preview {
+  position: relative;
+  min-width: 0;
+  border: 0.5px solid var(--hh-line);
+  border-radius: var(--hh-radius-card);
+  overflow: hidden;
+  background: var(--hh-bg);
+}

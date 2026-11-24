@@ -1,0 +1,22 @@
+@import "../../packages/design-tokens/happyhands.css" layer(review-host-tokens);
+
+[data-review="embedded"] {
+  --review-backdrop: var(--hh-bg);
+}
+[data-review="embedded"],
+[data-review="embedded"] body,
+[data-review="embedded"] [data-beautiful-ui-harness],
+[data-review="embedded"] .review-conversation-pane {
+  background: transparent;
+}
+[data-review="embedded"] [data-beautiful-ui-harness] {
+  padding: 0;
+}
+[data-review="embedded"] .review-conversation-pane {
+  border: 0;
+  border-radius: 0;
+}
+
+.review-access { position: fixed; inset: 0; margin: auto; width: min(320px, calc(100% - 32px)); }
+.review-access::backdrop { background: rgb(0 0 0 / .45); backdrop-filter: blur(2px); }
+.review-screenshot button[aria-pressed=true] { outline: 2px solid var(--accent); }

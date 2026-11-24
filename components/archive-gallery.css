@@ -7,26 +7,8 @@
   gap: 20px;
 }
 .archive-card {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  padding: 8px 8px 14px;
-  border: 0.5px solid var(--hh-line);
-  border-radius: calc(var(--hh-radius-card) + 6px);
-  background: var(--hh-bg-raised);
-  color: inherit;
+  position: relative;
   min-width: 0;
-  cursor: pointer;
-  transition: border-color .18s ease, box-shadow .18s ease, transform .18s ease;
-}
-.archive-card:hover {
-  border-color: color-mix(in srgb, var(--hh-ink) 18%, var(--hh-line));
-  box-shadow: 0 10px 28px rgb(0 0 0 / 7%);
-  transform: translateY(-2px);
-}
-@media (prefers-reduced-motion: reduce) {
-  .archive-card { transition: none; }
-  .archive-card:hover { transform: none; }
 }
 .archive-card img {
   width: 100%;
@@ -476,17 +458,6 @@ body:has(.resource-detail-layout) .design-md-import {
 .source-file[open] > summary::after {
   transform: rotate(225deg);
 }
-.reference-component iframe[data-kind="button"],
-.reference-component iframe[data-kind="badge"] {
-  height: 300px;
-}
-.reference-component iframe[data-kind="navigation"],
-.reference-component iframe[data-kind="input"] {
-  height: 380px;
-}
-.archive-card {
-  position: relative;
-}
 .archive-card-open {
   display: block;
   color: inherit;
@@ -561,13 +532,4 @@ body:has(.resource-detail-layout) .design-md-import {
 }
 .archive-detail-error p {
   color: var(--hh-danger);
-}
-
-.reference-component iframe[data-kind="card"],
-.reference-component iframe[data-kind="section"] { height: 400px; }
-@media (max-width: 700px) {
-  .reference-component iframe[data-kind="card"],
-  .reference-component iframe[data-kind="section"] { height: 620px; }
-  .reference-component iframe[data-kind="navigation"] { height: 420px; }
-  .reference-component iframe[data-kind="input"] { height: 460px; }
 }

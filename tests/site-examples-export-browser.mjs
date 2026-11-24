@@ -20,7 +20,7 @@ try {
       page.setDefaultTimeout(15000);
       const errors = [];
       page.on("pageerror", (e) => errors.push(e.message));
-      for (const system of ["happyhands", "quartz"]) {
+      for (const system of ["quartz"]) {
         await page.goto(`${base}/systems/${system}/`, {
           waitUntil: "networkidle",
         });
@@ -37,7 +37,7 @@ try {
         const first = sample.getByRole("checkbox").nth(0);
         await first.uncheck();
         const confirm = sample.getByRole("button", {
-          name: system === "happyhands" ? "确认选择" : "允许本次操作",
+          name: "允许本次操作",
           exact: true,
         });
         assert.equal(await confirm.isEnabled(), false);

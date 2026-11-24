@@ -1,19 +1,24 @@
-import {readFileSync,writeFileSync} from 'node:fs';
-import {componentPreviewKind,buildComponentPreview} from '../components/reference-component-preview';
-import {designDocumentComponents} from '../components/designmd-components';
-const entries=JSON.parse(readFileSync('public/design-archive/index.json','utf8'));
-const kinds:Record<string,number>={};let legacy=0,imported=0,unrendered=0;
-const schematic:Array<{reference:string;component:string;kind:string}>=[];
-for(const entry of entries){
- if(entry.source){imported+=designDocumentComponents(readFileSync(`public/design-archive/${entry.slug}/design.md`,'utf8')).length;continue;}
- const system=JSON.parse(readFileSync(`public/design-archive/${entry.slug}/design-system.json`,'utf8'));
- for(const component of system.components){
-  legacy++;const kind=component.html?'source':componentPreviewKind(component.name);kinds[kind]=(kinds[kind]||0)+1;
-  if(!buildComponentPreview(component,system))unrendered++;
-  if(['brand','avatar','icon','media','diagram','bespoke','composition'].includes(kind))schematic.push({reference:entry.slug,component:component.name,kind});
- }
+import { readFileSync } from 'node:fs';
+import { designSampleFamily, type ReferenceComponent } from '../components/reference-component-preview';
+import { designDocumentComponents } from '../components/designmd-components';
+
+const entries = JSON.parse(readFileSync('public/design-archive/index.json', 'utf8')) as { slug: string; source?: string }[];
+const counts: Record<string, number> = {};
+const shapes: { reference: string; component: string }[] = [];
+const visualFamilies = new Set(['media', 'brand', 'diagram', 'icon', 'avatar', 'shape']);
+
+for (const { slug, source } of entries) {
+  const file = (name: string) => readFileSync(`public/design-archive/${slug}/${name}`, 'utf8');
+  const components: ReferenceComponent[] = source
+    ? designDocumentComponents(file('design.md'))
+    : JSON.parse(file('design-system.json')).components;
+  for (const component of components) {
+    const family = designSampleFamily(component);
+    counts[family] = (counts[family] ?? 0) + 1;
+    if (visualFamilies.has(family) && process.argv.includes('--details')) {
+      shapes.push({ reference: slug, component: component.name });
+    }
+  }
 }
-const report={references:entries.length,legacyComponents:legacy,importedDeclaredComponents:imported,withoutPreview:unrendered,kinds,schematicCount:schematic.length,limitation:'All entries have a rendered example. Schematic entries are not original artwork or pixel-exact reconstructions.',schematic};
-if(process.argv.includes('--write'))writeFileSync('docs/audits/design-component-coverage-2026-11-03.json',JSON.stringify(report,null,2)+'\n');
-console.log(JSON.stringify({...report,schematic:undefined},null,2));
-if(unrendered)process.exitCode=1;
+
+console.log(JSON.stringify({ references: entries.length, counts, ...(shapes.length ? { visualSpecimens: shapes } : {}) }, null, 2));

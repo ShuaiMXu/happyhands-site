@@ -1,0 +1,22 @@
+components/ResourceDirectory.tsx
+  h_a2d68672f84791 3,79-82
+components/resource-directory-data.ts
+  h_a2d68672f84791 20-44
+docs/cdn-request-runbook.md
+  h_a2d68672f84791 1-11
+tests/design-md-publish-browser.mjs
+  h_a2d68672f84791 31-36,42,48-58
+tests/resource-directory-data.test.mjs
+  h_a2d68672f84791 3,53-95
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "0e158e0b7c25a5b1645398d95ca245144f6c3cec",
+  "prompts": {},
+  "humans": {
+    "h_a2d68672f84791": {
+      "author": "xushuai.133"
+    }
+  }
+}

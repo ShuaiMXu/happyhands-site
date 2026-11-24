@@ -1,0 +1,328 @@
+.github/workflows/studio.yml
+  h_a2d68672f84791 26,50-52
+.gitignore
+  h_a2d68672f84791 40-42
+api/online-review.mjs
+  h_a2d68672f84791 1-125
+apps/portal/connect.js
+  h_a2d68672f84791 19,32
+apps/portal/main.js
+  h_a2d68672f84791 277,279
+apps/portal/resource-feed.css
+  h_a2d68672f84791 3-4
+apps/portal/resource-feed.js
+  h_a2d68672f84791 1,21,75
+components/ArchiveFilter.solid.tsx
+  h_a2d68672f84791 40
+components/CatalogComponentDetail.solid.tsx
+  h_a2d68672f84791 7,11,27,40,54-55,95-111,117-120,133-135,168,172-173,176
+components/CollectedSystemDocumentation.tsx
+  h_a2d68672f84791 1-116
+components/CollectionsLibrary.tsx
+  h_a2d68672f84791 1,5-6,33,273-361,365,371-374,376,476,480
+components/ComponentCollectionCards.tsx
+  h_a2d68672f84791 1,41
+components/ComponentDetailPreview.solid.tsx
+  h_a2d68672f84791 1-70
+components/ComponentSourceFiles.solid.tsx
+  h_a2d68672f84791 1-40
+components/DesignHowLibrary.tsx
+  h_a2d68672f84791 9,11-12,59-60,64-65,170,172,175,179-180,182,189,241,243,248,263-267,297,354-374,376,380,382-389,391-416,418-435,437-457,459-520,524-525
+components/DesignSystemDocumentation.tsx
+  h_a2d68672f84791 1-123
+components/DirectoryComponentDetail.solid.tsx
+  h_a2d68672f84791 3,5,9,29-30,32-35,48-51,60-64,77-78
+components/HappyHandsSystemDocumentation.tsx
+  h_a2d68672f84791 1-37
+components/ResourceDirectory.tsx
+  h_a2d68672f84791 1,55,179,195-198,215,298,300-301,313-316,323-325,329-341,343-344,347-353,355-359,364
+components/ResourcePresentation.tsx
+  h_a2d68672f84791 39,42-43,47,49-50,53,55,57,62-63,72,76,85,88,91
+components/SystemDocumentCode.tsx
+  h_a2d68672f84791 1-61
+components/SystemDocumentNavigation.tsx
+  h_a2d68672f84791 1-41
+components/SystemLibrary.tsx
+  h_a2d68672f84791 1-2,4,8,65,90,119-125
+components/SystemStylePreview.tsx
+  h_a2d68672f84791 2-4,37,42,61,75-78,82,85,97,99-100,111,114
+components/beautiful-preview/IceCreamHarness.tsx
+  h_a2d68672f84791 1-530
+components/beautiful-preview/catalog.json
+  h_a2d68672f84791 1-29
+components/beautiful-preview/index.html
+  h_a2d68672f84791 1-5
+components/beautiful-preview/main.tsx
+  h_a2d68672f84791 1-79
+components/beautiful-preview/review-runtime.tsx
+  h_a2d68672f84791 1-67
+components/beautiful-preview/review.css
+  h_a2d68672f84791 1-22
+components/design-how.css
+  h_a2d68672f84791 219,286-287,295,308,311-312,344,355-356,363-364,562-565,567-570
+components/main.tsx
+  h_a2d68672f84791 51-60,67,99,104,141,244,247,249-253
+components/preview/main.tsx
+  h_a2d68672f84791 56-64
+components/preview/runtime.css
+  h_a2d68672f84791 65-72
+components/resource-controls.css
+  h_a2d68672f84791 9-10,13,84
+components/resource-directory.ts
+  h_a2d68672f84791 1,49-53
+components/resource-presentation.css
+  h_a2d68672f84791 53-54,152-257
+components/search-card.css
+  h_a2d68672f84791 30
+components/style.css
+  h_a2d68672f84791 193,272
+components/system-document-code.css
+  h_a2d68672f84791 1-71
+components/system-documentation.css
+  h_a2d68672f84791 1-296
+components/system-style-preview.css
+  h_a2d68672f84791 1-52
+docs/component-lineage.md
+  h_a2d68672f84791 11-14
+package-lock.json
+  h_a2d68672f84791 64-65,67,83,4587-4607,4717-4729,5191-5202,7144-7149
+package.json
+  h_a2d68672f84791 10,43,48,108-109,111,127
+packages/ui/ResourceToolPanels.tsx
+  h_a2d68672f84791 27-28,31-32,34
+packages/ui/SystemExample.tsx
+  h_a2d68672f84791 12,17,52-66
+packages/ui/SystemPreviewSurface.tsx
+  h_a2d68672f84791 1-6
+packages/ui/SystemScenes.tsx
+  h_a2d68672f84791 4-5,22,77,98-120,122-123,125-138,140-188,190-195,197-198,202-227,229-230,232-234,236-240,242-336
+packages/ui/header-material.css
+  h_a2d68672f84791 22,24
+packages/ui/pinui/site-footer.css
+  h_a2d68672f84791 15-17
+packages/ui/resource-editorial-covers.ts
+  h_a2d68672f84791 1-30
+packages/ui/resource-navigation.css
+  h_a2d68672f84791 38
+packages/ui/resource-navigation.ts
+  h_a2d68672f84791 12
+packages/ui/system-page.css
+  h_a2d68672f84791 28-29,32
+packages/ui/system-preview-surface.css
+  h_a2d68672f84791 1-8
+packages/ui/system-scenes.css
+  h_a2d68672f84791 1-4,6,8-10,12,14-15,17-20,22-46,55,58-60,62-66,271,274,276,280-283,286-287,290-293,301
+public/collections/beautiful-ui/LICENSE
+  h_a2d68672f84791 1-21
+public/collections/beautiful-ui/index.md
+  h_a2d68672f84791 1-15
+public/collections/beautiful-ui/registry/approval-card.json
+  h_a2d68672f84791 1-20
+public/collections/beautiful-ui/registry/button.json
+  h_a2d68672f84791 1-21
+public/collections/beautiful-ui/registry/chat-composer.json
+  h_a2d68672f84791 1-18
+public/collections/beautiful-ui/registry/code-block.json
+  h_a2d68672f84791 1-18
+public/collections/beautiful-ui/registry/context-cards.json
+  h_a2d68672f84791 1-18
+public/collections/beautiful-ui/registry/diff-table.json
+  h_a2d68672f84791 1-19
+public/collections/beautiful-ui/registry/entity-chip.json
+  h_a2d68672f84791 1-18
+public/collections/beautiful-ui/registry/filter-table.json
+  h_a2d68672f84791 1-18
+public/collections/beautiful-ui/registry/fine-tune-card.json
+  h_a2d68672f84791 1-19
+public/collections/beautiful-ui/registry/flowchart.json
+  h_a2d68672f84791 1-18
+public/collections/beautiful-ui/registry/foundation.json
+  h_a2d68672f84791 1-15
+public/collections/beautiful-ui/registry/glide-menu.json
+  h_a2d68672f84791 1-18
+public/collections/beautiful-ui/registry/insight-cards.json
+  h_a2d68672f84791 1-21
+public/collections/beautiful-ui/registry/loading-state.json
+  h_a2d68672f84791 1-18
+public/collections/beautiful-ui/registry/prompt-bar.json
+  h_a2d68672f84791 1-21
+public/collections/beautiful-ui/registry/recommendation-card.json
+  h_a2d68672f84791 1-21
+public/collections/beautiful-ui/registry/records-table.json
+  h_a2d68672f84791 1-25
+public/collections/beautiful-ui/registry/registry.json
+  h_a2d68672f84791 1-142
+public/collections/beautiful-ui/registry/search.json
+  h_a2d68672f84791 1-19
+public/collections/beautiful-ui/registry/selection-actions.json
+  h_a2d68672f84791 1-24
+public/collections/beautiful-ui/registry/shimmer.json
+  h_a2d68672f84791 1-18
+public/collections/beautiful-ui/registry/sidebar-nav.json
+  h_a2d68672f84791 1-28
+public/collections/beautiful-ui/registry/stream-text.json
+  h_a2d68672f84791 1-18
+public/collections/beautiful-ui/registry/streaming-text.json
+  h_a2d68672f84791 1-18
+public/collections/beautiful-ui/registry/task-rows.json
+  h_a2d68672f84791 1-18
+public/collections/beautiful-ui/registry/thinking-state.json
+  h_a2d68672f84791 1-18
+public/collections/beautiful-ui/registry/tool-chips.json
+  h_a2d68672f84791 1-18
+public/collections/beautiful-ui/registry/value-pill.json
+  h_a2d68672f84791 1-18
+public/collections/beautiful-ui/source/AgentScreen.tsx
+  h_a2d68672f84791 1-357
+public/collections/beautiful-ui/source/ApprovalCard.tsx
+  h_a2d68672f84791 1-419
+public/collections/beautiful-ui/source/ChatComposer.tsx
+  h_a2d68672f84791 1-242
+public/collections/beautiful-ui/source/CodeBlock.tsx
+  h_a2d68672f84791 1-233
+public/collections/beautiful-ui/source/ContextCards.tsx
+  h_a2d68672f84791 1-120
+public/collections/beautiful-ui/source/DiffTable.tsx
+  h_a2d68672f84791 1-250
+public/collections/beautiful-ui/source/FilterTable.tsx
+  h_a2d68672f84791 1-144
+public/collections/beautiful-ui/source/FineTuneCard.tsx
+  h_a2d68672f84791 1-341
+public/collections/beautiful-ui/source/Flowchart.tsx
+  h_a2d68672f84791 1-538
+public/collections/beautiful-ui/source/GlideMenu.tsx
+  h_a2d68672f84791 1-59
+public/collections/beautiful-ui/source/IceCreamHarness.tsx
+  h_a2d68672f84791 1-1062
+public/collections/beautiful-ui/source/InsightCards.tsx
+  h_a2d68672f84791 1-542
+public/collections/beautiful-ui/source/LoadingState.tsx
+  h_a2d68672f84791 1-154
+public/collections/beautiful-ui/source/PromptBar.tsx
+  h_a2d68672f84791 1-712
+public/collections/beautiful-ui/source/RecommendationCard.tsx
+  h_a2d68672f84791 1-194
+public/collections/beautiful-ui/source/RecordsTable.tsx
+  h_a2d68672f84791 1-1052
+public/collections/beautiful-ui/source/SearchList.tsx
+  h_a2d68672f84791 1-116
+public/collections/beautiful-ui/source/SelectionActions.tsx
+  h_a2d68672f84791 1-554
+public/collections/beautiful-ui/source/SidebarNav.tsx
+  h_a2d68672f84791 1-449
+public/collections/beautiful-ui/source/StreamingText.tsx
+  h_a2d68672f84791 1-252
+public/collections/beautiful-ui/source/TaskRows.tsx
+  h_a2d68672f84791 1-274
+public/collections/beautiful-ui/source/ThinkingState.tsx
+  h_a2d68672f84791 1-301
+public/collections/beautiful-ui/source/ToolChips.tsx
+  h_a2d68672f84791 1-336
+public/collections/beautiful-ui/source/UseThisHarness.tsx
+  h_a2d68672f84791 1-175
+public/collections/beautiful-ui/source/globals.css
+  h_a2d68672f84791 1-1551
+public/resources/v1/assets.json
+  h_a2d68672f84791 2600-3009
+public/resources/v1/index.json
+  h_a2d68672f84791 3,173-188,348-365,15875-16576
+scripts/beautiful-ui-live-adapter.mjs
+  h_a2d68672f84791 1-80
+scripts/build-beautiful-ui-preview.mjs
+  h_a2d68672f84791 1-59
+scripts/build-cult-catalog.mjs
+  h_a2d68672f84791 288-291
+scripts/build-design-how-previews.mjs
+  h_a2d68672f84791 19-21,45-55
+scripts/build-language-pages.mjs
+  h_a2d68672f84791 16,26,39-46,50
+scripts/capture-system-covers.mjs
+  h_a2d68672f84791 1-135,137-190,195
+scripts/import-collections.py
+  h_a2d68672f84791 118-121
+scripts/register-beautiful-ui.mjs
+  h_a2d68672f84791 1-65
+scripts/site-analytics-plugin.mjs
+  h_a2d68672f84791 5
+scripts/source-example-overrides.mjs
+  h_a2d68672f84791 48-61
+scripts/verify-alpha-release.mjs
+  h_a2d68672f84791 10
+scripts/verify-language-pages.mjs
+  h_a2d68672f84791 3,16,35-36
+systems/design-how-main.tsx
+  h_a2d68672f84791 26-29,31-32
+systems/happyhands/Showcase.tsx
+  h_a2d68672f84791 1,4-6,27-37,39-109,111-112,146,158,180,187,205,251
+systems/happyhands/SystemSections.tsx
+  h_a2d68672f84791 1-207
+systems/happyhands/TokenReference.tsx
+  h_a2d68672f84791 5,163-187,189-230
+systems/happyhands/documentation.css
+  h_a2d68672f84791 1-108
+systems/happyhands/index.html
+  h_a2d68672f84791 2-13
+systems/happyhands/main.tsx
+  h_a2d68672f84791 5-6,18-21,24,33-35,57,90-91
+systems/happyhands/style.css
+  h_a2d68672f84791 25-32
+systems/lime/LimeExample.tsx
+  h_a2d68672f84791 6-8,34-45
+systems/lime/main.tsx
+  h_a2d68672f84791 1,48-215,217-247
+systems/preview/main.tsx
+  h_a2d68672f84791 26-31,99-100,102-129,134-137,142,148-152,160,165,169,549-573,577,582,589-630
+systems/preview/preview.css
+  h_a2d68672f84791 129,141,276-290
+systems/quartz/main.tsx
+  h_a2d68672f84791 1-2,40-98,100-101,103-139,141-142,144-259
+tests/beautiful-ui-previews-browser.mjs
+  h_a2d68672f84791 1-34
+tests/collections.test.mjs
+  h_a2d68672f84791 8
+tests/component-collections-browser.mjs
+  h_a2d68672f84791 1-79
+tests/component-library-browser.mjs
+  h_a2d68672f84791 112,131,133,139,156,160-163
+tests/design-system-reference-browser.mjs
+  h_a2d68672f84791 21,58,78,84,96,121
+tests/directory-layout-browser.mjs
+  h_a2d68672f84791 12,32,38-49,52-54,57-86,119-155,166
+tests/language-routes.test.ts
+  h_a2d68672f84791 21,27,32,41
+tests/online-review-browser.mjs
+  h_a2d68672f84791 1-107
+tests/online-review.test.mjs
+  h_a2d68672f84791 1-41
+tests/resource-seo-browser.mjs
+  h_a2d68672f84791 76,78,87
+tests/site-analytics-browser.mjs
+  h_a2d68672f84791 13
+tests/site-analytics.test.ts
+  h_a2d68672f84791 40
+tests/site-consistency-browser.mjs
+  h_a2d68672f84791 7
+tests/site-examples-export-browser.mjs
+  h_a2d68672f84791 23,40
+tests/site-flow-browser.mjs
+  h_a2d68672f84791 83-85,221
+tests/site-seo.test.mjs
+  h_a2d68672f84791 10
+tests/system-documentation-browser.mjs
+  h_a2d68672f84791 1-151
+vercel.json
+  h_a2d68672f84791 262-277
+vite.config.js
+  h_a2d68672f84791 1,61,68,70-72,105
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "f0730277ad49ac651147d537ac7634ee3565108f",
+  "prompts": {},
+  "humans": {
+    "h_a2d68672f84791": {
+      "author": "xushuai.133"
+    }
+  }
+}

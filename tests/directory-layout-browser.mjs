@@ -37,9 +37,15 @@ try {
 
     const type = triggers.nth(1);
     await type.focus();
-    assert.equal(await type.evaluate(el => getComputedStyle(el).outlineOffset), '-2px');
+    assert.ok(await type.evaluate(el => {
+      const style = getComputedStyle(el);
+      const width = Number.parseFloat(style.outlineWidth);
+      const offset = Number.parseFloat(style.outlineOffset);
+      return el.matches(':focus-visible') && style.outlineStyle === 'solid' &&
+        width >= 2 && offset + width <= 0;
+    }), 'keyboard focus stays visible inside the filter trigger');
     await type.press('Enter');
-    const menu = page.locator('.archive-sdk-select:visible');
+    const menu = page.locator('.archive-filter-popup:visible');
     const picked = menu.getByRole('option').last();
     const pickedText = await picked.locator('span').first().innerText();
     await picked.click();

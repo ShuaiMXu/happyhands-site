@@ -28,16 +28,34 @@ try {
       const errors = [];
       page.on('pageerror', error => { console.error(error.stack); errors.push(error.message); });
 
+      const publicDirectoryPaths = ['/resources/v1/index.json', '/resources/v1/covers.json'];
+      const directoryRequests = [];
+      page.on('request', request => {
+        const path = new URL(request.url()).pathname;
+        if (publicDirectoryPaths.includes(path)) directoryRequests.push(path);
+      });
       assert.equal((await page.goto(base + prefix + '/apps/portal/')).status(), 200);
       const feed = page.locator('#design-resources');
       const homeArchive = feed.getByRole('tab', { name: 'Design.md', exact: true });
       await feed.locator('#feed-panel-design-md a.resource-card').first().waitFor();
       assert.equal(await homeArchive.getAttribute('aria-selected'), 'true');
+      const archiveRequestCount = directoryRequests.length;
       await homeArchive.focus();
       await page.keyboard.press('ArrowRight');
       const homeSystems = feed.getByRole('tab', { name: zh ? '设计系统' : 'Design systems', exact: true });
       await feed.locator('#feed-tab-systems[aria-selected="true"]').waitFor();
       assert.equal(await homeSystems.getAttribute('aria-selected'), 'true');
+      await feed.locator('#feed-panel-systems a.resource-card').first().waitFor();
+      await homeSystems.focus();
+      await page.keyboard.press('ArrowRight');
+      const homeComponents = feed.getByRole('tab', { name: zh ? '组件库' : 'Components', exact: true });
+      await feed.locator('#feed-panel-cult-ui a.resource-card').first().waitFor();
+      assert.equal(await homeComponents.getAttribute('aria-selected'), 'true');
+      assert.deepEqual(directoryRequests.slice(archiveRequestCount).sort(), [...publicDirectoryPaths].sort(),
+        'Systems and Components reuse one index and covers pair after the archive is loaded');
+      await homeComponents.focus();
+      await page.keyboard.press('ArrowLeft');
+      await feed.locator('#feed-tab-systems[aria-selected="true"]').waitFor();
       await homeSystems.focus();
       await page.keyboard.press('ArrowLeft');
       await feed.locator('#feed-tab-design-md[aria-selected="true"]').waitFor();

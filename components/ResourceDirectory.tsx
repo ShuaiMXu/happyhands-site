@@ -1,6 +1,6 @@
 import { systemDocumentCover, systemOfficialCover } from '../packages/ui/resource-editorial-covers';
 import { designMdCatalogEnabled, isDesignMdCollection } from "../packages/ui/resource-navigation";
-import { loadDirectoryData } from "./resource-directory-data";
+import { loadDirectoryData, loadPublicDirectoryData } from "./resource-directory-data";
 import {isSystemEntry,systemEntryName} from "./platform-directory";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Button } from "../packages/ui";
@@ -76,7 +76,10 @@ export function ResourceDirectory({
   useEffect(() => {
     const c = new AbortController();
     setError(false);
-    loadDirectoryData(selected, c.signal, fetch, section === "design-md")
+    const dataRequest = selected || section === "design-md"
+      ? loadDirectoryData(selected, c.signal, fetch, section === "design-md")
+      : loadPublicDirectoryData(c.signal, retry > 0);
+    dataRequest
       .then((data) => {
         // Detail routes are owned by CollectionsLibrary, not the hidden list.
         if (!data || c.signal.aborted) return;

@@ -209,3 +209,74 @@ body:has(.design-how-document) .system-detail-hero h2 { font-size: 36px; }
   .system-detail-meta > div { padding: 0; }
   .system-detail-hero h2 { font-size: 38px; }
 }
+
+/* UI SDK resource controls use the same site tokens and focus treatment. */
+:is(.resource-content-tabs,.resource-export-tabs) > .resource-tab {
+  position: relative;
+  box-shadow: none;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--hh-ink-muted);
+  padding-inline: 12px;
+  font: inherit;
+  font-size: 14px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+:is(.resource-content-tabs,.resource-export-tabs) > .resource-tab[aria-selected="true"] {
+  color: var(--hh-ink);
+}
+.resource-content-tabs > .resource-tab[aria-selected="true"] {
+  box-shadow: inset 0 -2px var(--hh-ink);
+}
+:is(.resource-content-tabs,.resource-export-tabs) > .resource-tab:focus-visible {
+  outline: 2px solid var(--hh-ring);
+  outline-offset: -3px;
+}
+.resource-content-panel .resource-export {
+  position: static;
+  margin: 0;
+  width: 100%;
+}
+
+.document-disclosure {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  min-height: 44px;
+  padding: 8px 0;
+  border: 0;
+  background: transparent;
+  color: var(--hh-ink);
+  font: inherit;
+  text-align: start;
+  cursor: pointer;
+}
+.document-disclosure::after {
+  content: '';
+  flex: none;
+  width: 8px;
+  height: 8px;
+  margin-inline-end: 4px;
+  border-inline-end: 1px solid currentColor;
+  border-block-end: 1px solid currentColor;
+  transform: rotate(45deg);
+}
+.document-disclosure[aria-expanded="true"]::after { transform: rotate(225deg); }
+.document-disclosure:focus-visible { outline: 2px solid var(--hh-ring); outline-offset: 2px; }
+.catalog-motion-checkbox {
+  display: inline-grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  border: 1px solid var(--hh-line-strong);
+  border-radius: 4px;
+  background: var(--hh-bg);
+  color: var(--hh-ink);
+}
+.catalog-motion-checkbox[aria-checked="true"] { background: var(--hh-primary); color: var(--hh-on-primary); }
+.catalog-motion-checkbox:focus-visible { outline: 2px solid var(--hh-ring); outline-offset: 3px; }

@@ -161,6 +161,16 @@ html[data-theme="dark"] .resource-search.psearch {
 /* ---------------------------------------------------------------- the panel */
 
 .psearch__body { width: 100%; }
+@media (prefers-reduced-motion: no-preference) {
+  .psearch__body { animation: psearch-panel-enter 180ms ease-out; }
+}
+@keyframes psearch-panel-enter {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@media (max-width: 700px) {
+  .resource-toolbar .psearch__card { width: 100%; }
+}
 
 .psearch__panel {
   position: relative;

@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite';
+import solid from '@solidjs/vite-plugin';
 import { resolve, dirname, join, relative, isAbsolute } from 'node:path';
 import { existsSync, statSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
@@ -42,7 +43,8 @@ function serveGitHubStars(server) {
 
 export default defineConfig({
   server: { cors: { origin: [/^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/, 'null'] }, port: 4173, strictPort: true, fs: { strict: true } },
-  plugins: [{name:'archived-design-system-source',enforce:'pre',resolveId(id){
+  optimizeDeps: { exclude: ['@ui-sdk/core'] },
+  plugins: [solid({ include: [/\.solid\.tsx$/, /node_modules\/@ui-sdk\/solid\/.*\.jsx$/] }), {name:'archived-design-system-source',enforce:'pre',resolveId(id){
       const match=id.match(/^@\/(components|lib|hooks)\/(sodium|glaze|quartz|lime|meridian-mono|meridian-glass|meridian-slate|meridian-clay)\/(.+)$/);
       if(!match)return null;
       const [,kind,system,rest]=match;

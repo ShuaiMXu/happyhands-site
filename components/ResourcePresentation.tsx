@@ -1,6 +1,8 @@
-import {Tabs,TabsList,TabsTrigger,TabsContent} from "../packages/ui/shadcn/tabs";
+import { createPortal } from 'react-dom';
+import { SolidControlHost } from "../packages/ui/SolidControlHost";
+import { mountResourceDetailTabs } from "./ResourceDetailTabs.solid";
 import {Card} from "../packages/ui/shadcn/card";
-import React, { forwardRef, useId, useState } from "react";
+import React, { forwardRef, useCallback, useMemo, useState } from "react";
 import { Button } from "../packages/ui";
 
 export const ResourceCard = forwardRef<
@@ -64,6 +66,23 @@ export function ResourceDetailContent({
   children: React.ReactNode;
 }) {
   const panels = React.Children.toArray(children);
-  const labels = lang === 'zh' ? ['预览','资料与下载'] : ['Preview','Files and downloads'];
-  return <Tabs defaultValue="0" className="resource-detail-content"><TabsList variant="line" className="resource-content-tabs" aria-label={lang==='zh'?'资源内容':'Resource content'}>{panels.map((_,i)=><TabsTrigger key={i} value={String(i)}>{labels[i]}</TabsTrigger>)}</TabsList>{panels.map((panel,i)=><TabsContent key={i} value={String(i)} className="resource-content-panel">{panel}</TabsContent>)}</Tabs>;
+  const [targets, setTargets] = useState<Record<string, HTMLDivElement | null>>({});
+  const onTarget = useCallback((id: string, element: HTMLDivElement | null) => {
+    setTargets(previous => previous[id] === element ? previous : { ...previous, [id]: element });
+  }, []);
+  const count = panels.length;
+  const tabs = useMemo(() => {
+    const labels = lang === 'zh' ? ['预览', '资料与下载'] : ['Preview', 'Files and downloads'];
+    return {
+      label: lang === 'zh' ? '资源内容' : 'Resource content',
+      tabs: labels.slice(0, count).map((label, i) => ({ id: String(i), label })),
+      onTarget,
+    };
+  }, [lang, count, onTarget]);
+  return (
+    <div className="resource-detail-content">
+      <SolidControlHost mount={mountResourceDetailTabs} value={tabs} />
+      {panels.map((panel, i) => targets[i] ? createPortal(panel, targets[i]!, String(i)) : null)}
+    </div>
+  );
 }

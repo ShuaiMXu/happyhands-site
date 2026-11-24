@@ -1,3 +1,5 @@
+import {DirectoryComponentDetail} from './DirectoryComponentDetail';
+import {DesignDocumentBody} from './DesignDocumentBody';
 import {PlatformDirectory} from "./PlatformDirectory";
 import {platformFor} from "./platform-directory";
 import {TokenSpecimens} from "./TokenSpecimens";
@@ -9,7 +11,7 @@ import remarkGfm from "remark-gfm";
 import { Button } from "../packages/ui";
 import { ResourceCard, ResourceDetailHeader } from "./ResourcePresentation";
 import { ResourceToolbar } from "./ResourceToolbar";
-import { DesignComponentDemo } from "./DesignComponentDemo";
+import { DesignComponentSpecimens } from "./DesignComponentSpecimens";
 import { applyThemePreference } from "../packages/ui/site-preferences";
 
 const inlinePreviews: Record<
@@ -94,7 +96,7 @@ export function CollectionsLibrary({
     return () => removeEventListener("message", resize);
   }, []);
   const [tokenContext,setTokenContext]=useState("");
-  const [previewTheme,setPreviewTheme]=useState(()=>document.documentElement.dataset.theme==='dark'?'dark':'light');
+  const [previewTheme,setPreviewTheme]=useState<'dark' | 'light'>(()=>document.documentElement.dataset.theme==='dark'?'dark':'light');
   useEffect(()=>{const observer=new MutationObserver(()=>setPreviewTheme(document.documentElement.dataset.theme==='dark'?'dark':'light'));observer.observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});return()=>observer.disconnect()},[]);
   const Root = embedded ? "section" : "main";
   const zh = lang === "zh";
@@ -303,6 +305,28 @@ export function CollectionsLibrary({
             }}
           />
           {isPlatformOverview && <PlatformDirectory row={selected} rows={catalog.resources} lang={lang}/>}
+          {selected.type === "component" && content && !loadError ? (
+            <DirectoryComponentDetail
+              key={selected.id}
+              name={selected.name}
+              lang={lang}
+              path={selected.path}
+              content={content}
+              previewUrl={previewFor(selected) ? previewFor(selected) + `&theme=${previewTheme}` : ""}
+              cover={selected.cover}
+              installUrl={selected.installation?.url}
+              inlinePreview={inlinePreviews[selected.id] ? (
+                <div className={`directory-inline-preview${selected.id.endsWith("/liquid-tabs") ? " directory-inline-preview--tabs" : ""}`}>
+                  <React.Suspense fallback={<p role="status">{zh ? "正在加载组件…" : "Loading component…"}</p>}>
+                    {React.createElement(inlinePreviews[selected.id], {
+                      theme: previewTheme,
+                      onThemeChange: applyThemePreference,
+                    })}
+                  </React.Suspense>
+                </div>
+              ) : undefined}
+            />
+          ) : <>
           <div className="collections-actions">
             <a className="hh-button" href={"/" + selected.path} download>
               {zh ? "下载原文件" : "Download original"}
@@ -347,41 +371,15 @@ export function CollectionsLibrary({
             </p>
           ) : (
             <>
-              {previewFor(selected) &&
-                (inlinePreviews[selected.id] ? (
-                  <div
-                    className={
-                      "directory-inline-preview" +
-                      (selected.id.endsWith("/liquid-tabs")
-                        ? " directory-inline-preview--tabs"
-                        : "")
-                    }
-                  >
-                    <React.Suspense
-                      fallback={
-                        <p role="status">
-                          {zh ? "正在加载组件…" : "Loading component…"}
-                        </p>
-                      }
-                    >
-                      {React.createElement(inlinePreviews[selected.id], {
-                        theme: previewTheme === "dark" ? "dark" : "light",
-onThemeChange: applyThemePreference,
-                      })}
-                    </React.Suspense>
-                  </div>
-                ) : (
-                  <iframe
-                    ref={frame}
-                    className="directory-live-preview"
-                    title={zh ? "实际组件预览" : "Live component preview"}
-                    src={
-                      previewFor(selected) +
-                      `&theme=${previewTheme}`
-                    }
-                    sandbox="allow-scripts allow-same-origin"
-                  />
-                ))}
+              {previewFor(selected) && (
+                <iframe
+                  ref={frame}
+                  className="directory-live-preview"
+                  title={zh ? "实际组件预览" : "Live component preview"}
+                  src={previewFor(selected) + `&theme=${previewTheme}`}
+                  sandbox="allow-scripts allow-same-origin"
+                />
+              )}
               {selected.cover && (
                 <img
                   className="collections-preview"
@@ -392,7 +390,9 @@ onThemeChange: applyThemePreference,
               {(selected.type === "tokens" || selected.path.endsWith(".css") || selected.path.endsWith("mobbin-archive/colors.md")) && <TokenSpecimens content={selected.path.endsWith("/baseline.css")?tokenContext:content} context={tokenContext} zh={zh}/> }
               {selected.path.endsWith("material3/DESIGN.md") && tokenContext && <TokenSpecimens content={tokenContext} zh={zh}/>}
               {selected.type === "design-md" && (
-                <DesignComponentDemo markdown={content} lang={lang} />
+                <>
+                  <DesignComponentSpecimens markdown={content} lang={lang} referenceName={selected.name} />
+                </>
               )}
               <details
                 open={!previewFor(selected) && !isPlatformOverview}
@@ -400,7 +400,9 @@ onThemeChange: applyThemePreference,
               >
                 <summary>{zh ? "规范与源码" : "Guidelines and source"}</summary>
                 <div className="design-document-body collections-document">
-                  {selected.path.endsWith(".md") ? (
+                  {selected.type === "design-md" ? (
+                    <DesignDocumentBody text={content} lang={lang} />
+                  ) : selected.path.endsWith(".md") ? (
                     <Markdown
                       remarkPlugins={[remarkGfm]}
                       skipHtml
@@ -431,6 +433,7 @@ onThemeChange: applyThemePreference,
               </details>
             </>
           )}
+          </>}
           {selected.system && (
             <nav
               className="directory-related"

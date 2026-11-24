@@ -1,5 +1,5 @@
-// Temporarily remove the public Design.md catalog; keep archived source files for existing Studio projects.
-export const designMdCatalogEnabled: boolean = false;
+// Public listing, navigation and static output share this rollout switch.
+export const designMdCatalogEnabled: boolean = true;
 export const isDesignMdProvider = (value: string | null) => value === 'design-md' || value === 'kage' || value === 'refero';
 export const isDesignMdCollection = (value: string | null) => value === 'design-archive' || value === 'designmd-archive' || value === 'ottermind';
 export const resourceSections = [

@@ -2,6 +2,7 @@ export type SearchResult = { id: string; label: string; href: string };
 
 export type SearchKeyEvent = {
   key: string;
+  isComposing?: boolean;
   nativeEvent?: { isComposing?: boolean };
   target?: unknown;
   preventDefault: () => void;
@@ -26,7 +27,7 @@ export type SearchKeyState = {
  * last write. IME composition never consumes a key.
  */
 export function handleSearchKeyDown(event: SearchKeyEvent, state: SearchKeyState) {
-  if (event.nativeEvent?.isComposing) return;
+  if (event.isComposing || event.nativeEvent?.isComposing) return;
   if (event.key === "Escape") {
     event.preventDefault();
     state.focusInput();

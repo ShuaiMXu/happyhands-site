@@ -8,7 +8,8 @@ import {
   type ReferenceSystem,
 } from "../components/ReferenceSpecimen";
 import {
-  buildComponentPreview,
+  buildOriginalComponentPreview,
+  designSampleTokens,
   componentPreviewKind,
 } from "../components/reference-component-preview";
 const mercury = JSON.parse(
@@ -20,17 +21,17 @@ const mercury = JSON.parse(
     "utf8",
   ),
 ) as ReferenceSystem;
-test("complete Mercury modules and all nine components are visible, rather than collapsed descriptions", () => {
+test("Mercury retains all declared components and guideline headings", () => {
   const html = renderToStaticMarkup(
     <ReferenceSpecimen system={mercury} lang="en" />,
   );
   assert.equal(
-    (html.match(/class="reference-component"/g) || []).length,
+    (html.match(/data-specimen-family=/g) || []).length,
     mercury.components!.length,
   );
   assert.equal(
     (html.match(/<iframe /g) || []).length,
-    mercury.components!.length,
+    0,
   );
   assert.ok(html.includes("Complete structured source"));
   for (const heading of [
@@ -46,17 +47,12 @@ test("complete Mercury modules and all nine components are visible, rather than 
   for (const component of mercury.components!)
     assert.ok(html.includes(component.name.replaceAll("&", "&amp;")));
 });
-test("source primary action keeps Cobalt; input and navigation variants are classified correctly", () => {
-  const preview = buildComponentPreview(mercury.components![0], mercury)!;
-  assert.ok(preview.includes("--accent:#5266eb"));
-  assert.equal(
-    componentPreviewKind("Email Capture Input (Pill, Left-Half)"),
-    "input",
-  );
+test("input and navigation variants are classified correctly", () => {
+  assert.equal(componentPreviewKind("Email Capture Input (Pill, Left-Half)"), "input");
   assert.equal(componentPreviewKind("Navigation Pill Link"), "button");
 });
 test("imported HTML stays in an inert network-restricted document", () => {
-  const preview = buildComponentPreview(
+  const preview = buildOriginalComponentPreview(
     {
       name: "Example",
       role: "",
@@ -114,9 +110,10 @@ test("all archived design systems render their available modules without runtime
   }
 });
 
-test("the borderless Graphite Card does not gain an invented border or action", () => {
+test("the borderless Graphite Card exposes its documented shape and spacing", () => {
   const card = mercury.components!.find((c) => c.name === "Graphite Card")!;
-  const preview = buildComponentPreview(card, mercury)!;
-  assert.ok(preview.includes("border:0;"));
-  assert.ok(!preview.includes("<button"));
+  const tokens = designSampleTokens(card);
+  assert.equal(tokens.borderless, true);
+  assert.equal(tokens.radius, "12px");
+  assert.equal(tokens.padding, "32px");
 });

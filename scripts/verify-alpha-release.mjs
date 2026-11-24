@@ -26,7 +26,8 @@ assert.ok(!portal.includes('<div id="portal-content"></div>'),'Portal must not b
 for(const path of ['apps/portal','en/apps/portal']){
  const html=await readFile(builtPage(path),'utf8');
  assertSearchContent(`${origin}/${path}/`,html);
- if(!designMdCatalogEnabled){
+ if(designMdCatalogEnabled) assert.match(html,/id="feed-tab-design-md"[^>]*aria-selected="true"/);
+ else {
   assert.doesNotMatch(html,/feed-(?:tab|panel)-design-md|provider=design-md/);
   assert.match(html,/id="feed-tab-systems"[^>]*aria-selected="true"/);
  }
@@ -57,7 +58,10 @@ assert.ok(productData?.['@graph']?.some(node=>node['@type']==='SoftwareApplicati
 // Verify the query-routed resource output, not the removed generic shell path.
 const rewrites=JSON.parse(await readFile('vercel.json','utf8')).rewrites;
 const resourceSitemap=await readFile('dist/resource-sitemap.xml','utf8');
-if(!designMdCatalogEnabled){
+if(designMdCatalogEnabled){
+ assert.match(resourceSitemap,/provider=design-md/);
+ for(const prefix of ['', 'en/']) await access(`dist/resource-pages/${prefix}design-md/mercury-3172cd4d/index.html`);
+}else{
  assert.doesNotMatch(resourceSitemap,/provider=design-md/);
  for(const prefix of ['', 'en/']){
   assert.doesNotMatch(await readFile(`dist/resource-pages/${prefix}index.html`,'utf8'),/provider=design-md/);

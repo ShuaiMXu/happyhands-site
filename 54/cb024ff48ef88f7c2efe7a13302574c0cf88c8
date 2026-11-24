@@ -1,0 +1,14 @@
+tests/directory-layout-browser.mjs
+  h_a2d68672f84791 40-46,48
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "54cb024ff48ef88f7c2efe7a13302574c0cf88c8",
+  "prompts": {},
+  "humans": {
+    "h_a2d68672f84791": {
+      "author": "xushuai.133"
+    }
+  }
+}

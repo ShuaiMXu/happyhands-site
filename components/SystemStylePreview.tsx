@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Button } from "../packages/ui/shadcn/button";
-import { SystemPreviewSurface } from "../packages/ui/SystemPreviewSurface";
+import { SystemPreviewFrame, SystemPreviewSurface } from "../packages/ui/SystemPreviewSurface";
 import "./system-style-preview.css";
 export const previewComponents = new Set([
   "button",
@@ -83,7 +83,7 @@ export function SystemStylePreview({
   const clipped = compact && !expanded;
   return (
     <SystemPreviewSurface className={clipped ? "is-compact" : undefined}>
-      <iframe
+      <SystemPreviewFrame
         ref={frame}
         key={`${system}:${component}:${foundation}:${gallery}:${compactSpecimen}:${theme}`}
         title={`${system} ${lang === "zh" ? "实际样式预览" : "live style preview"}`}

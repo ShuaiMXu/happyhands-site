@@ -29,34 +29,15 @@ async function noOverflow(page, label) {
 }
 async function verifyFooter(page, route) {
   const footer = page.locator('.guide-footer');
-  const layout = await footer.evaluate(el => {
-    const grid = el.querySelector('.wiki-footer-grid').getBoundingClientRect();
-    return {
-      height: el.getBoundingClientRect().height,
-      inset: grid.left,
-      viewport: innerWidth,
-      links: [...el.querySelectorAll('a')].map(a => a.getBoundingClientRect().height),
-    };
-  });
-  assert.ok(layout.height < 460, `${route}: footer must stay compact`);
-  assert.ok(layout.links.every(height => height >= 44), `${route}: footer touch targets`);
-  const inset = layout.viewport < 600 ? 20 : layout.viewport <= 1100 ? 24 : Math.max(32, (layout.viewport - 1168) / 2);
-  assert.ok(Math.abs(layout.inset - inset) < 1, `${route}: footer follows page grid`);
-  const github = footer.getByRole('link', { name: 'GitHub', exact: true });
-  assert.equal(await github.count(), 1, `${route}: named GitHub icon link`);
-  assert.equal(await github.locator('.wiki-footer-github-icon').isVisible(), true);
-  if (layout.viewport <= 1100) {
-    const alignment = await footer.evaluate(el => ({
-      brand: el.querySelector('.wiki-footer-brand > a').getBoundingClientRect().left,
-      links: el.querySelector('.wiki-footer-links').getBoundingClientRect().left,
-      columns: [...el.querySelectorAll('.wiki-footer-section')].map(n => n.getBoundingClientRect().left),
-    }));
-    assert.ok(Math.abs(alignment.brand - alignment.columns[0]) < 1 && Math.abs(alignment.links - alignment.columns[1]) < 1, `${route}: brand row matches navigation columns`);
-  }
-  const prefix = route.startsWith('/en/') ? '/en' : '';
-  for (const provider of ['design-md', 'systems', 'cult-ui']) {
-    assert.equal(await footer.locator(`a[href="${prefix}/components/?provider=${provider}"]`).count(), 1);
-  }
+  const columns = footer.locator('.sy__guide .sy__col');
+  assert.equal(await columns.count(), 3, `${route}: shared footer groups`);
+  assert.equal(await footer.locator('.sy__logo').count(), 1);
+  const github = footer.locator('a[href="https://github.com/ShuaiMXu/happyhands"]');
+  assert.equal(await github.locator('.sy__icon-github').isVisible(), true);
+  assert.equal(await footer.locator('a[href="https://x.com/ShuaiXU13"] .sy__icon-x').isVisible(), true);
+  assert.equal(await footer.locator('[aria-current="page"]').count(), 1);
+  assert.ok(await footer.locator('a').evaluateAll(links => links.every(link =>
+    link.getBoundingClientRect().height >= 44 && link.getBoundingClientRect().right <= innerWidth)));
 }
 async function verifyOutline(page) {
   await page.waitForFunction(() => {
@@ -102,7 +83,7 @@ try {
       article: document.querySelector('.guide-body').getBoundingClientRect().left,
     }));
     assert.ok(Math.abs(alignment.hero - alignment.article) <= 2, `${route}: hero/article left edges diverge`);
-    assert.equal(await page.locator('.guide-footer nav').count(), 2, `${route}: guide and resource navigation groups`);
+    assert.equal(await page.locator('.guide-footer nav').count(), 1, `${route}: shared footer navigation`);
     assert.equal(await page.locator('.wiki-help a[href="https://github.com/ShuaiMXu/happyhands/issues"]').count(), 1, `${route}: help retained above footer`);
     await capture(page, route, 'desktop-top');
 

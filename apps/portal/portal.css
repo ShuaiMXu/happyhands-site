@@ -73,9 +73,11 @@ section[id] { scroll-margin-top:90px; }
 .local-workbench-connect .connect-actions { margin:0; }
 .local-workbench-connect #handoff-status:empty { display:none; }
 
-header.hh-site-header.portal-compact-header { grid-template-columns:1fr auto auto; gap:16px; }
+header.hh-site-header.portal-compact-header { grid-template-columns:minmax(0,1fr) auto auto; gap:16px; }
 header.hh-site-header.portal-compact-header .hh-site-menu-toggle { display:none; }
-header.hh-site-header.portal-compact-header nav { display:flex; position:static; grid-column:auto; grid-row:auto; width:auto; padding:0; }
+header.hh-site-header.portal-compact-header nav { display:flex; position:static; grid-column:3; grid-row:1; width:auto; padding:0; }
+header.hh-site-header.portal-compact-header .header-actions { grid-column:2; grid-row:1; }
+header.hh-site-header.portal-compact-header .wordmark { max-width:100%; }
 header.hh-site-header.portal-compact-header nav a { gap:6px; }
 @media(max-width:540px) { header.hh-site-header.portal-compact-header { gap:8px; } header.hh-site-header.portal-compact-header nav a { font-size:12px; } }
 

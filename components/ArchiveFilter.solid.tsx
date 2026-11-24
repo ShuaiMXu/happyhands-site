@@ -30,14 +30,14 @@ function ArchiveFilter(props: { data: FilterProps }) {
       <SelectTrigger
         class="archive-filter-trigger"
         data-filter-active={String(Boolean(props.data.value))}
-        aria-label={`${props.data.label}: ${selected()?.label ?? ''}`}
+        aria-label={`${props.data.label}: ${selected()?.label ?? props.data.label}`}
       >
         <span>{selected()?.label ?? props.data.label}</span>
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
           <path d="m6 9 6 6 6-6" />
         </svg>
       </SelectTrigger>
-      <SelectContent class="archive-filter-popup archive-sdk-select" align="start" alignItemWithTrigger={false} sideOffset={8} collisionPadding={16}>
+      <SelectContent class="archive-filter-popup" align="start" sideOffset={8} collisionPadding={16}>
         <SelectInput
           class="archive-filter-search"
           aria-label={props.data.zh ? `搜索${props.data.label}` : `Search ${props.data.label.toLowerCase()}`}

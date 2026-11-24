@@ -10,21 +10,20 @@ const routes = [
 ];
 const entry = 'components/DesignComponentSpecimens.tsx';
 const renderers = ['components/DesignSample.solid.tsx', 'components/DesignVisualSample.solid.tsx'];
+const scenarioPicker = 'packages/ui/PreviewScenarioPicker.tsx';
 const errors = [];
 
-for (const file of [...routes, entry, ...renderers]) {
+for (const file of [...routes, entry, ...renderers, scenarioPicker]) {
   const url = new URL(file, project);
   const source = ts.createSourceFile(fileURLToPath(url), readFileSync(url, 'utf8'), ts.ScriptTarget.Latest, true, ts.ScriptKind.TSX);
   const tagNames = new Set();
+  const sharedSelect = source.statements.some(statement => ts.isImportDeclaration(statement) &&
+    ts.isStringLiteral(statement.moduleSpecifier) && statement.moduleSpecifier.text === './Select');
   const check = node => {
     if (ts.isJsxOpeningElement(node) || ts.isJsxSelfClosingElement(node)) {
       const tag = node.tagName.getText(source);
       tagNames.add(tag);
-      const registeredSystemPreview = file === 'components/CollectionsLibrary.tsx' && tag === 'iframe' &&
-        node.attributes.properties.some(attribute => ts.isJsxAttribute(attribute) &&
-          attribute.name.getText(source) === 'src' &&
-          attribute.initializer?.getText(source).startsWith('{previewFor(selected) + '));
-      if ((tag === 'iframe' && !registeredSystemPreview) || tag === 'style' || (tag === 'HistorySafeFrame' && file !== entry)) {
+      if (tag === 'iframe' || tag === 'style' || (tag === 'HistorySafeFrame' && file !== entry)) {
         errors.push(`${file}: ${tag} bypasses archive composition`);
       }
       if (renderers.includes(file) && ['button', 'select', 'textarea'].includes(tag)) {
@@ -37,6 +36,9 @@ for (const file of [...routes, entry, ...renderers]) {
     ts.forEachChild(node, check);
   };
   check(source);
+  if (file === scenarioPicker && (!sharedSelect || !tagNames.has('Select') || tagNames.has('select'))) {
+    errors.push(`${file}: use the shared Select for the scenario picker`);
+  }
   if (routes.includes(file) && !tagNames.has('DesignComponentSpecimens')) {
     errors.push(`${file}: render declarations through DesignComponentSpecimens`);
   }

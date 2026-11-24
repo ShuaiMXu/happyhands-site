@@ -1,10 +1,14 @@
-import React, { useMemo, useState } from "react";
+import React, { useMemo, useRef, useState } from "react";
 import {
   extractTokens,
   resolveToken,
   type SpecimenToken,
 } from "./specimen-model";
+import { Input } from "../packages/ui";
+import { ResourceLoadMore } from "./ResourceLoadMore";
 import "./token-specimens.css";
+
+const pageSize = 36;
 export function TokenSpecimens({
   content,
   tokens,
@@ -33,13 +37,17 @@ export function TokenSpecimens({
         : [];
   }, [content, tokens, context]);
   const [query, setQuery] = useState("");
+  const [shown, setShown] = useState(pageSize);
   const [playing, setPlaying] = useState<string | null>(null);
-  const values = Object.fromEntries(
+  const list = useRef<HTMLDivElement>(null);
+  const values = useMemo(() => Object.fromEntries(
     [...extractTokens(context || ""), ...all].map((t) => [t.name, t.value]),
-  );
+  ), [all, context]);
+  const term = query.trim().toLowerCase();
   const filtered = all.filter((t) =>
-    (t.name + " " + t.value).toLowerCase().includes(query.toLowerCase()),
+    (t.name + " " + t.value).toLowerCase().includes(term),
   );
+  const visible = bare ? filtered : filtered.slice(0, shown);
   if (!all.length) return null;
   return (
     <section
@@ -50,19 +58,22 @@ export function TokenSpecimens({
         <div className="token-specimens-toolbar">
           <label>
             {zh ? "查找设计变量" : "Find a token"}
-            <input
+            <Input
               value={query}
-              onChange={(e) => setQuery(e.target.value)}
+              onChange={(e) => {
+                setQuery(e.target.value);
+                setShown(pageSize);
+              }}
               type="search"
             />
           </label>
-          <span>
-            {filtered.length} / {all.length}
-          </span>
+          {filtered.length > 0 && <span role="status">
+            {visible.length} / {filtered.length}
+          </span>}
         </div>
       )}
-      <div className="token-specimens-grid">
-        {filtered.map((t) => {
+      <div className="token-specimens-grid" ref={list}>
+        {visible.map((t) => {
           const value = resolveToken(t.value, values);
           const name = t.name.toLowerCase();
           const metadata =
@@ -208,7 +219,7 @@ export function TokenSpecimens({
               />
             );
           return (
-            <article key={t.name}>
+            <article key={t.name} tabIndex={bare ? undefined : -1}>
               {view}
               <div className="token-sample-caption">
                 <code>{t.name}</code>
@@ -219,6 +230,13 @@ export function TokenSpecimens({
           );
         })}
       </div>
+      {!bare && <ResourceLoadMore
+        list={list}
+        shown={shown}
+        total={filtered.length}
+        lang={zh ? "zh" : "en"}
+        onLoad={() => setShown((count) => count + pageSize)}
+      />}
       {!filtered.length && (
         <p role="status">{zh ? "没有匹配的设计变量" : "No matching tokens"}</p>
       )}

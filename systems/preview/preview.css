@@ -79,26 +79,9 @@ body {
   font-size: 20px;
   line-height: 1.5;
 }
-.demo-heading {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-.demo-select-label {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  font-size: 12px;
-}
-.demo-select-label select {
-  border: 1px solid var(--demo-line);
-  padding: 8px;
-  background: var(--demo-bg);
-  color: var(--demo-ink);
-  max-width: 230px;
-  min-height: 36px;
+.demo-examples-gallery .demo-block {
+  border: 0;
+  padding: 0;
 }
 .demo-block {
   padding: 24px;
@@ -274,7 +257,7 @@ body {
 .demo-field { display: grid; gap: 8px; }
 .compact-detail .demo-section { gap: 12px; }
 
-/* Keep the original overlays inside the visible portion of a full-height gallery. */
+/* Keep the original overlays in the visible portion of a full-height gallery. */
 html[data-gallery-viewport] :is([data-slot="dialog-content"], [data-slot="alert-dialog-content"], [data-slot="command-dialog"]) {
   top: calc(var(--gallery-view-top) + var(--gallery-view-height) / 2);
   max-height: max(0px, calc(var(--gallery-view-height) - 32px));

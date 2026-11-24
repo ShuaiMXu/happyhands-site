@@ -176,20 +176,24 @@ try {
   await detail.goto(base + '/en/components/?provider=cult-ui&component=halo-input');
   await detail.frameLocator('iframe').getByPlaceholder('Display name').fill('HappyHands');
   await detail.getByRole('tab', { name: 'Source', exact: true }).click();
-  await detail.locator('.source-file pre').filter({ hasText: 'HaloInput' }).first().waitFor();
+  await detail.locator('.component-source-file pre').filter({ hasText: 'HaloInput' }).first().waitFor();
   await detail.getByRole('tab', { name: 'Integration', exact: true }).click();
   assert.match(await detail.locator('#catalog-main textarea').inputValue(), /Halo|halo-input/);
   await detail.getByRole('tab', { name: 'Preview', exact: true }).click();
-  await detail.getByRole('button', { name: 'Stop preview', exact: true }).click();
-  await detail.locator('#catalog-main iframe').waitFor({ state: 'detached' });
-  await detail.getByRole('button', { name: 'Start preview', exact: true }).click();
-  await detail.frameLocator('iframe').getByPlaceholder('Display name').waitFor();
+  const displayName = detail.frameLocator('iframe').getByPlaceholder('Display name');
+  await displayName.fill('HappyHands');
+  const resetPreview = detail.locator('#catalog-main iframe').evaluate(frame =>
+    new Promise(resolve => frame.addEventListener('load', () => resolve(true), { once: true })),
+  );
+  await detail.getByRole('button', { name: 'Reset', exact: true }).click();
+  await resetPreview;
+  assert.equal(await displayName.inputValue(), '');
 
   await detail.goto(base + '/en/components/?provider=cult-ui&resource=component%3Apin-ui%2Fliquid-tabs');
   await detail.locator('.directory-inline-preview').getByRole('tab').first().waitFor();
-  await detail.getByRole('tab', { name: 'Install in your project', exact: true }).click();
+  await detail.getByRole('tab', { name: 'Integration', exact: true }).click();
   assert.match(await detail.locator('.collections-install pre').innerText(), /pinui.xyz\/r\/liquid-tabs.json/);
-  await detail.getByRole('tab', { name: 'Guidelines and source', exact: true }).click();
+  await detail.getByRole('tab', { name: 'Source', exact: true }).click();
   await detail.getByRole('link', { name: 'Download original', exact: true }).waitFor();
   assert.deepEqual(errors, []);
   await detail.close();

@@ -27,18 +27,18 @@
 }
 .system-style-preview-bar span {
   color: var(--hh-ink-subtle);
-  font: 10px var(--hh-font-mono);
+  font: 12px var(--hh-font-mono);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .system-style-preview-bar button {
-  min-height: 32px;
+  min-height: 44px;
   padding: 0 10px;
   border: 0.5px solid var(--hh-line-strong);
   border-radius: var(--hh-radius-sm);
   background: var(--hh-bg-raised);
   color: var(--hh-ink);
-  font: 11px var(--hh-font-sans);
+  font: 12px var(--hh-font-sans);
   cursor: pointer;
 }
 .system-style-preview-bar button:hover { background: var(--hh-bg-hover); }

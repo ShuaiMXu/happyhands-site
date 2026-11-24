@@ -187,7 +187,7 @@ function App() {
                   </div>,
               },
               {
-                id: "system-download",
+                id: "system-setup",
                 title: t("接入方式", "Setup"),
                 content: <div id="adopt" className="system-book-local-content">
                   <p>

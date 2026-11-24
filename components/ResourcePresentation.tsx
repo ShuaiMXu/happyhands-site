@@ -33,6 +33,34 @@ export const ResourceCard = forwardRef<
   );
 });
 
+export function ResourceProvenance({ lang, source, license, sha256 }: {
+  lang: string;
+  source?: string;
+  license: string;
+  sha256: string;
+}) {
+  const zh = lang === "zh";
+  const title = source
+    ? (zh ? "来源与版本" : "Source and version")
+    : (zh ? "许可证与校验值" : "License and checksum");
+
+  return (
+    <details className="collections-provenance">
+      <summary className="document-disclosure"><span>{title}</span></summary>
+      <dl className="resource-provenance-fields">
+        {source && <>
+          <dt>{zh ? "上游来源" : "Upstream source"}</dt>
+          <dd><a href={source} target="_blank" rel="noopener noreferrer">{source}</a></dd>
+        </>}
+        <dt>{zh ? "许可证" : "License"}</dt>
+        <dd>{license}</dd>
+        <dt>SHA-256</dt>
+        <dd><code>{sha256}</code></dd>
+      </dl>
+    </details>
+  );
+}
+
 export function ResourceDetailHeader({
   title,
   backLabel,

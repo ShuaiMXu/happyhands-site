@@ -41,6 +41,31 @@ try {
     const heading = await page.locator('.component-collection-heading').boundingBox();
     const toolbar = await page.locator('.resource-toolbar').boundingBox();
     assert.ok(heading && toolbar && heading.y + heading.height < toolbar.y);
+    const approvalCard = rows.find(row => row.id === 'component:beautiful-ui/approval-card');
+    assert.ok(approvalCard);
+    await page.goto(base + resourceHref(approvalCard, 'zh'));
+    const provenance = page.locator('details.collections-provenance');
+    const trigger = provenance.locator('summary');
+    await trigger.getByText('来源与版本', { exact: true }).waitFor();
+    const aligned = () => trigger.evaluate(el => {
+      const row = el.getBoundingClientRect();
+      const label = el.querySelector('span').getBoundingClientRect();
+      const chevron = getComputedStyle(el, '::after');
+      return row.height >= 44 &&
+        Math.abs(label.top + label.height / 2 - row.top - Number.parseFloat(chevron.top)) < 1 &&
+        Number.parseFloat(chevron.borderRightWidth) === 0;
+    });
+    assert.ok(await aligned(), `Provenance title and chevron align at ${width}px`);
+    const details = provenance.locator('dl');
+    assert.ok(!await details.isVisible());
+    await trigger.press('Enter');
+    await details.waitFor();
+    assert.ok(await aligned(), 'Open disclosure keeps its alignment');
+    assert.equal(await details.getByRole('link').getAttribute('href'), approvalCard.sourceUrl);
+    assert.equal(await details.locator('code').innerText(), approvalCard.sha256);
+    assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+    await trigger.press('Space');
+    await details.waitFor({ state: 'hidden' });
     await page.goto(base + '/components/?provider=cult-ui&component=expandable&collection=cult-ui');
     const preview = page.locator('.component-detail-preview');
     const frame = page.frameLocator('.component-detail-preview iframe');

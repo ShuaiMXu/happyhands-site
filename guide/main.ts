@@ -2,6 +2,7 @@ import {setupHeaderMaterial} from "../packages/ui/header-material.js";
 import "../packages/design-tokens/happyhands.css";
 import "../packages/ui/site-layout.css";
 import "../packages/ui/site-shell.css";
+import "../packages/ui/pinui/site-footer.css";
 import "../packages/ui/icons.css";
 import "./style.css";
 import {readTheme,savePreference} from "../packages/ui/site-preferences";

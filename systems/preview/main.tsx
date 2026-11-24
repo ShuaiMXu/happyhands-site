@@ -1,8 +1,10 @@
 /// <reference types="vite/client" />
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
 import type { ComponentType, ReactNode } from "react";
+import "../../packages/design-tokens/happyhands.css";
 import "./preview.css";
+import { PreviewScenarioPicker } from "../../packages/ui/PreviewScenarioPicker";
 import {FoundationSpecimen} from "./FoundationSpecimen";
 const params = new URLSearchParams(location.search);
 const gallery = params.get("gallery") || "";
@@ -15,6 +17,7 @@ const system = ["sodium", "glaze", "quartz", "lime", "meridian-mono", "meridian-
 const family = ({'meridian-mono':'sodium','meridian-glass':'glaze','meridian-slate':'quartz','meridian-clay':'lime'} as Record<string,string>)[system] || system;
 const theme = params.get("theme") === "dark" ? "dark" : "light";
 const lang = params.get("lang") === "zh" ? "zh" : "en";
+document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
 document.body.className = system;
 document.body.dataset.theme = theme;
 document.documentElement.dataset.theme = theme;
@@ -58,7 +61,7 @@ const names = [
   "skeleton",
 ];
 await styles[`./generated/${system}/compiled.css`]();
-if (!foundationOnly) {
+if (!foundationOnly && gallery !== "examples") {
   await Promise.all(names.map((name) => load("ui", name)));
 }
 const portal = foundationOnly ? null : await load("lib", "portal");
@@ -109,13 +112,13 @@ function WallCopyButton({ path, title }: { path: string; title: string }) {
     try {
       const clipboard = navigator.clipboard;
       if (!clipboard) throw new Error("Clipboard unavailable");
-      const text = fetch("/" + path).then((response) => {
+      const text = fetch("/" + path).then(response => {
         if (!response.ok) throw new Error("Could not load component document");
         return response.text();
       });
       if (typeof ClipboardItem === "function" && clipboard.write) {
         await clipboard.write([
-          new ClipboardItem({ "text/plain": text.then((value) => new Blob([value], { type: "text/plain" })) }),
+          new ClipboardItem({ "text/plain": text.then(value => new Blob([value], { type: "text/plain" })) }),
         ]);
       } else {
         await clipboard.writeText(await text);
@@ -127,22 +130,12 @@ function WallCopyButton({ path, title }: { path: string; title: string }) {
   }
 
   const label = `${lang === "zh" ? "复制" : "Copy"} ${title} design.md`;
-  return (
-    <button
-      type="button"
-      className="component-wall-copy"
-      title={label}
-      aria-label={label}
-      disabled={state === "copying"}
-      onClick={copy}
-    >
-      {state === "done"
-        ? lang === "zh" ? "已复制" : "Copied"
-        : state === "error"
-          ? lang === "zh" ? "复制失败" : "Copy failed"
-          : lang === "zh" ? "复制" : "Copy"}
-    </button>
-  );
+  return <button type="button" className="component-wall-copy"
+    title={label} aria-label={label} disabled={state === "copying"} onClick={copy}>
+    {state === "done" ? (lang === "zh" ? "已复制" : "Copied")
+      : state === "error" ? (lang === "zh" ? "复制失败" : "Copy failed")
+      : (lang === "zh" ? "复制" : "Copy")}
+  </button>;
 }
 function ComponentWall() {
   if (!bookComponents.length) {
@@ -151,13 +144,12 @@ function ComponentWall() {
     </p>;
   }
   return (
-    <section className="component-wall" aria-label="Component specimens">
+    <section className="component-wall" aria-label={lang === "zh" ? "组件示例" : "Component specimens"}>
       {bookComponents.map((doc) => {
         const slug = doc.path.split("/").at(-1)!.replace(/\.md$/, "");
         const hasExample = Boolean(
           documentedExamples[`./generated/${system}/examples/${slug}.tsx`],
         );
-        const hasFixture = variantFixtures.has(slug) || (slug === "dialog" && Boolean(get("dialog", "Dialog")));
         return (
           <article className="component-wall-item" key={slug}>
             <header className="component-wall-head">
@@ -166,10 +158,10 @@ function ComponentWall() {
             </header>
             {hasExample ? (
               <DocumentedExample name={slug} />
-            ) : hasFixture ? (
+            ) : (variantFixtures.has(slug) || slug === "dialog") ? (
               <Controls only={slug} />
             ) : (
-              <p className="demo-copy">Specimen not available.</p>
+              <p className="demo-copy">{lang === "zh" ? "暂无交互示例。" : "No interactive example."}</p>
             )}
           </article>
         );
@@ -491,8 +483,7 @@ class ErrorBoundary extends React.Component<
   render() {
     return this.state.error ? (
       <p role="alert" className="demo-copy">
-        This example could not render. Its complete source remains available in
-        the document library.
+        {lang === "zh" ? "无法加载示例。可以在资料中查看源码。" : "Could not load the example. Its source is available in the documentation."}
       </p>
     ) : (
       this.props.children
@@ -501,11 +492,16 @@ class ErrorBoundary extends React.Component<
 }
 function Block({ file, name }: { file: string; name: string }) {
   const [View, setView] = useState<ComponentType<any> | null>(null);
+  const [failed, setFailed] = useState(false);
   const [range, setRange] = useState("24h");
   useEffect(() => {
     let live = true;
     load("blocks", file).then((mod) => {
-      if (live && mod?.[name]) setView(() => mod[name]);
+      if (!live) return;
+      if (mod?.[name]) setView(() => mod[name]);
+      else setFailed(true);
+    }).catch(() => {
+      if (live) setFailed(true);
     });
     return () => {
       live = false;
@@ -516,22 +512,103 @@ function Block({ file, name }: { file: string; name: string }) {
       {View ? (
         <View range={range} onRangeChange={setRange} />
       ) : (
-        <p className="demo-copy">Loading preview…</p>
+        <PreviewStatus failed={failed} />
       )}
     </ErrorBoundary>
   );
 }
-function DocumentedExample({name}:{name:string}) {
- const [View,setView]=useState<ComponentType|null>(null);
- const [failed,setFailed]=useState(false);
- useEffect(()=>{
-  let active=true;setView(null);setFailed(false);
-  documentedExamples[`./generated/${system}/examples/${name}.tsx`]().then((mod:any)=>{if(active)setView(()=>mod.default)}).catch(()=>{if(active)setFailed(true)});
-  return()=>{active=false};
- },[name]);
- return <ErrorBoundary key={name}>{failed?<p role="alert">Preview unavailable</p>:View?<View/>:<p>Loading preview…</p>}</ErrorBoundary>;
+function PreviewStatus({ failed }: { failed: boolean }) {
+  return <p className="demo-copy" role={failed ? "alert" : "status"}>
+    {failed
+      ? (lang === "zh" ? "无法加载示例。" : "Could not load the example.")
+      : (lang === "zh" ? "正在加载示例…" : "Loading preview…")}
+  </p>;
 }
+
+function DocumentedExample({ name }: { name: string }) {
+  const [View, setView] = useState<ComponentType | null>(null);
+  const [failed, setFailed] = useState(false);
+  useEffect(() => {
+    let live = true;
+    setView(null);
+    setFailed(false);
+    documentedExamples[`./generated/${system}/examples/${name}.tsx`]()
+      .then(module => {
+        if (live) setView(() => (module as { default: ComponentType }).default);
+      })
+      .catch(() => {
+        if (live) setFailed(true);
+      });
+    return () => { live = false; };
+  }, [name]);
+  return <ErrorBoundary key={name}>{View ? <View /> : <PreviewStatus failed={failed} />}</ErrorBoundary>;
+}
+
+const scenarioLabelsZh: Record<string, string> = {
+  "agent-plan": "代理计划",
+  "agent-procedure": "代理执行流程",
+  "agent-session": "代理会话",
+  "api-keys": "API 密钥",
+  "assistant-alert": "助理提醒",
+  "assistant-approval": "助理审批",
+  "assistant-limits": "助理权限限制",
+  "booking-approval": "预订审批",
+  "cited-answer": "引用来源的回答",
+  "conversation-insights": "对话分析",
+  experiment: "实验",
+  "failed-load": "加载失败",
+  home: "首页",
+  "job-runs": "任务运行",
+  "live-requests": "实时请求",
+  "note-recap": "笔记摘要",
+  "on-call": "值班",
+  "pipeline-history": "流水线历史",
+  "project-home": "项目首页",
+  "run-progress": "运行进度",
+  "run-trace": "运行追踪",
+  "settings-rules": "规则设置",
+  simulations: "模拟测试",
+  "split-request": "分摊请求",
+  "sync-flow": "同步流程",
+  today: "今日",
+  "tool-approval": "工具调用审批",
+  "voice-capture": "语音录入",
+  "warehouse-capacity": "仓库容量",
+  "deploy-detail": "部署详情",
+};
+
 function App() {
+  const preview = useRef<HTMLElement>(null);
+  useEffect(() => {
+    const root = preview.current;
+    if (!root || parent === window) return;
+
+    const report = () => {
+      // Radix closes on viewport resize. Keep the iframe stable while the menu is open.
+      const picker = root.querySelector('.hh-preview-scenario [aria-expanded="true"]');
+      if (picker) {
+        selection.observe(picker, { attributeFilter: ["aria-expanded"] });
+        return;
+      }
+      selection.disconnect();
+
+      // Keep the previous scene height while its replacement is loading.
+      if (root.querySelector(".demo-block > .demo-copy[role=status]")) return;
+      parent.postMessage(
+        { type: "design-system-preview-height", height: root.getBoundingClientRect().height },
+        location.origin,
+      );
+    };
+
+    const selection = new MutationObserver(report);
+    const resize = new ResizeObserver(report);
+    resize.observe(root);
+    return () => {
+      resize.disconnect();
+      selection.disconnect();
+    };
+  }, []);
+
   const component = params.get("component") || "";
   const [selected, setSelected] = useState(
     params.get("example") ||
@@ -546,35 +623,34 @@ function App() {
       blocks[0]?.name,
   );
   const block = blocks.find((b) => b.name === selected) || blocks[0];
+  const examplesOnly = gallery === "examples";
   const pageExamples = (
-    <section className="demo-section">
-      <div className="demo-heading">
-        <h2 className="demo-label">Page examples</h2>
-        <label className="demo-select-label">
-          Example
-          <select
-            aria-label="Page example"
-            value={selected}
-            disabled={!blocks.length}
-            onChange={(e) => setSelected(e.target.value)}
-          >
-            {blocks.map((b) => (
-              <option key={b.name} value={b.name}>
-                {b.name.replace(/([a-z])([A-Z])/g, "$1 $2")}
-              </option>
-            ))}
-          </select>
-        </label>
-      </div>
+    <section className={`demo-section${examplesOnly ? " demo-examples-gallery" : ""}`}>
+      {!examplesOnly && <h2 className="demo-label">{lang === "zh" ? "页面示例" : "Page examples"}</h2>}
+      <PreviewScenarioPicker
+        lang={lang}
+        value={block?.name ?? ""}
+        options={blocks.map(({ file, name }) => ({
+          value: name,
+          label: (lang === "zh" && scenarioLabelsZh[file]) || name.replace(/([a-z])([A-Z])/g, "$1 $2"),
+        }))}
+        onChange={setSelected}
+      />
       <div className="demo-block">
-        {block ? <Block key={block.file + block.name} file={block.file} name={block.name} /> : <p className="demo-copy" role="status">Page examples are not available in this build.</p>}
+        {block ? (
+          <Block key={block.name} file={block.file} name={block.name} />
+        ) : (
+          <p className="demo-copy" role="status">
+            {lang === "zh" ? "这个设计系统暂时没有页面示例。" : "This design system has no page examples yet."}
+          </p>
+        )}
       </div>
     </section>
   );
   return (
     <Provider>
-      <main className={`demo-root${gallery ? " gallery-root" : ""}`}>
-        {gallery === "examples" ? pageExamples : gallery === "foundations" ? <FoundationWall /> : gallery === "components" ? <ComponentWall /> : params.get("foundation") ? <><FoundationSpecimen system={system} name={params.get("foundation")!} compact={params.get("compact") === "1"} detail={params.get("detail") === "1"}/>{params.get("foundation")==="iconography"&&<DocumentedExample name="icon"/>}</> : <>
+      <main ref={preview} className={`demo-root${gallery ? " gallery-root" : ""}`}>
+        {examplesOnly ? pageExamples : gallery === "foundations" ? <FoundationWall /> : gallery === "components" ? <ComponentWall /> : params.get("foundation") ? <><FoundationSpecimen system={system} name={params.get("foundation")!} compact={params.get("compact") === "1"} detail={params.get("detail") === "1"}/>{params.get("foundation")==="iconography"&&<DocumentedExample name="icon"/>}</> : <>
         {!component && <Foundations />}
         <ErrorBoundary>
           {component && !variantFixtures.has(component) && documentedExamples[`./generated/${system}/examples/${component}.tsx`] ? <DocumentedExample name={component}/> : <Controls only={component} />}
@@ -586,8 +662,7 @@ function App() {
 }
 createRoot(document.getElementById("root")!).render(<App />);
 
-// A full-height gallery scrolls with its host page. Fixed specimens still
-// need to position dialogs and sheets within the part of the frame on screen.
+// The host scrolls the full gallery while fixed specimens use its visible region.
 if (gallery === "components" && window.frameElement) {
   const frame = window.frameElement;
   const host = frame.ownerDocument.defaultView!;
@@ -627,17 +702,3 @@ if (gallery === "components" && window.frameElement) {
     cancelAnimationFrame(pending);
   }, { once: true });
 }
-
-const report = () => {
-  const root = document.querySelector(".demo-root");
-  if (root && parent !== window)
-    parent.postMessage(
-      {
-        type: "design-system-preview-height",
-        height: root.getBoundingClientRect().height,
-      },
-      location.origin,
-    );
-};
-new ResizeObserver(report).observe(document.body);
-addEventListener("load", report);

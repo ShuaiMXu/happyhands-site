@@ -9,12 +9,12 @@ export function SystemExample({
   system,
   lang,
   dark,
-  showAppearanceControl = true,
+  hideAppearanceControl = false,
 }: {
   system: "happyhands" | "quartz";
   lang: string;
   dark: boolean;
-  showAppearanceControl?: boolean;
+  hideAppearanceControl?: boolean;
 }) {
   const [selected, setSelected] = useState(["home"]);
   const [confirmed, setConfirmed] = useState(false);
@@ -49,21 +49,19 @@ export function SystemExample({
       }
       data-appearance={isDark ? "dark" : "light"}
     >
-      {showAppearanceControl && (
-        <div className="example-top">
-          <span>{t("可操作示例", "Interactive example")}</span>
-          <Button
-            type="button"
-            aria-label={t("切换示例外观", "Switch example appearance")}
-            onClick={() => setAppearance(!isDark)}
-          >
-            {t(
-              isDark ? "查看浅色" : "查看深色",
-              isDark ? "View light" : "View dark",
-            )}
-          </Button>
-        </div>
-      )}
+      {!hideAppearanceControl && <div className="example-top">
+        <span>{t("可操作示例", "Interactive example")}</span>
+        <Button
+          type="button"
+          aria-label={t("切换示例外观", "Switch example appearance")}
+          onClick={() => setAppearance(!isDark)}
+        >
+          {t(
+            isDark ? "查看浅色" : "查看深色",
+            isDark ? "View light" : "View dark",
+          )}
+        </Button>
+      </div>}
       <h2>
         {t(
           quartz ? "核对这次文件修改" : "选择要审阅的页面",

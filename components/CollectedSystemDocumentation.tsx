@@ -1,6 +1,7 @@
 import React from 'react';
 import { DesignSystemDocumentation, SystemDocumentLink, type SystemDocumentSection } from './DesignSystemDocumentation';
 import { PlatformDirectory } from './PlatformDirectory';
+import { ResourceProvenance } from './ResourcePresentation';
 import { platformFor, systemEntryName } from './platform-directory';
 import { resourceHref, type ResourceEntry } from './resource-directory';
 import { SystemStylePreview } from './SystemStylePreview';
@@ -68,21 +69,10 @@ export function CollectedSystemDocumentation({ row, rows, lang, document, tokens
   sections.push({
     id: 'system-source',
     title: t('原始文档', 'Original document'),
-    content: row.type === "tokens" && !tokens ? null : document,
-  }, {
-    id: 'system-download',
-    title: t('资料与下载', 'Files and downloads'),
     content: <>
-      <div className="system-detail-actions system-book-file-actions">
-        {download}
-        {copy}
-        <SystemDocumentLink href={source} target="_blank" rel="noopener noreferrer">{t('查看上游来源', 'View upstream source')}</SystemDocumentLink>
-      </div>
-      <details className="collections-provenance system-book-provenance">
-        <summary>{t('许可证与校验值', 'License and checksum')}</summary>
-        <p>{row.license}</p>
-        <code>SHA-256 {row.sha256}</code>
-      </details>
+      <div className="collections-actions">{copy}</div>
+      {row.type === "tokens" && !tokens ? null : document}
+      <ResourceProvenance lang={lang} source={source} license={row.license} sha256={row.sha256} />
     </>,
   });
   const descriptions: Record<string, [string, string]> = {

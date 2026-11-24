@@ -71,7 +71,7 @@ export function previewFor(row: ResourceEntry) {
   if (row.type === "system" && row.system && row.path.includes("/foundations/")) return `/systems/preview/?system=${row.system}&foundation=${name}`;
   if (row.type === "system" && row.system && row.path.endsWith("/index.md"))
     return `/systems/preview/?system=${row.system}`;
-  if (row.collection === "cult-ui")
+  if (row.collection === "cult-ui" && row.type === "component")
     return `/components/preview/?component=${row.id.split("/").at(-1)}&motion=off`;
   return "";
 }

@@ -10,10 +10,8 @@ export function ResourceToolbar({ label, placeholder, query, onQueryChange, stat
   suggestions?: string[];
 }) {
   return <div className="resource-toolbar" role="search" aria-label={label}>
-    <ResourceSearchCard label={label} placeholder={placeholder} query={query} onQueryChange={onQueryChange} results={results} status={status} suggestions={suggestions}/>
-    <div className="resource-facet-row">
-      <div className="resource-facets">{children}</div>
-      <span className="resource-result-count" role="status">{status}</span>
-    </div>
+    <ResourceSearchCard label={label} placeholder={placeholder} query={query} onQueryChange={onQueryChange} results={results} suggestions={suggestions}/>
+    <div className="resource-facets">{children}</div>
+    <span className="resource-result-count" role="status">{status}</span>
   </div>;
 }

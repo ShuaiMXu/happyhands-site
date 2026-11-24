@@ -5,6 +5,8 @@ const root = process.cwd();
 const generated = path.join(root, "systems/preview/generated");
 await mkdir(generated, { recursive: true });
 const catalog = {};
+const hankenImport = '@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&display=swap");';
+const localHanken = await readFile(path.join(root, "public/fonts/hanken-grotesk/index.css"), "utf8");
 async function files(dir) {
   const all = [];
   for (const entry of await readdir(dir, { withFileTypes: true })) {
@@ -16,9 +18,8 @@ async function files(dir) {
   return all;
 }
 for (const system of ["sodium", "glaze", "quartz", "lime", "meridian-mono", "meridian-glass", "meridian-slate", "meridian-clay"]) {
-  const base = system.startsWith("meridian-") ? "collections/brand-systems" : "design-how";
-  const systemDirectory = `${base}/${system}`;
-  const source = path.join(root, "public", systemDirectory, "src/registry", system);
+  const directory = `${system.startsWith("meridian-") ? "collections/brand-systems" : "design-how"}/${system}`;
+  const source = path.join(root, "public", directory, "src/registry", system);
   const dest = path.join(generated, system);
   await cp(source, dest, { recursive: true });
   const sourceFiles = await files(source);
@@ -40,15 +41,15 @@ for (const system of ["sodium", "glaze", "quartz", "lime", "meridian-mono", "mer
         ...(allCode.match(/[^\s"'`<>]+/g) || []),
         ...(allCode.match(/[^\s"'`<>]*\[[^\]\n]+\][^\s"'`<>]*/g) || []),
       ]),
-    ]),
+    ]).replace(hankenImport, () => localHanken),
   );
-  const documents = path.join(root, "public", systemDirectory, "components");
+  const documents = path.join(root, "public", directory, "components");
   const components = await Promise.all(
-    (await readdir(documents)).filter((file) => file.endsWith(".md")).sort().map(async (file) => {
-      const content = await readFile(path.join(documents, file), "utf8");
+    (await readdir(documents)).filter(file => file.endsWith(".md")).sort().map(async file => {
+      const text = await readFile(path.join(documents, file), "utf8");
       return {
-        path: `${systemDirectory}/components/${file}`,
-        title: content.match(/^# (.+)$/m)?.[1].trim() || path.basename(file, ".md"),
+        path: `${directory}/components/${file}`,
+        title: text.match(/^# (.+)$/m)?.[1].trim() || path.basename(file, ".md"),
       };
     }),
   );

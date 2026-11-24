@@ -2,8 +2,9 @@ import { systemDocumentCover, systemOfficialCover } from '../packages/ui/resourc
 import { designMdCatalogEnabled, isDesignMdCollection } from "../packages/ui/resource-navigation";
 import { loadDirectoryData } from "./resource-directory-data";
 import {isSystemEntry,systemEntryName} from "./platform-directory";
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Button } from "../packages/ui";
+import { ResourceLoadMore } from "./ResourceLoadMore";
 import { ResourceToolbar } from "./ResourceToolbar";
 import { ResourceCard } from "./ResourcePresentation";
 import { ComponentCollectionCards, componentCollection, componentCollectionName, groupComponentResources } from "./ComponentCollectionCards";
@@ -70,6 +71,7 @@ export function ResourceDirectory({
     [type, setType] = useState(initialState.type || ""),
     [page, setPage] = useState(initialState.page || 1),
     [active, setActive] = useState<string | null>(null);
+  const resourceList = useRef<HTMLDivElement>(null);
   const selected = new URLSearchParams(location.search).get("resource");
   useEffect(() => {
     const c = new AbortController();
@@ -256,7 +258,7 @@ export function ResourceDirectory({
                     label: zh ? cn : en,
                     count: filtered.filter((r) => matches(r, style, id)).length,
                   }))
-                  .filter((r) => r.count > 0),
+                  .filter((r) => r.count > 0 || r.value === type),
               ]}
             />
             <ArchiveFilter
@@ -276,7 +278,7 @@ export function ResourceDirectory({
                     label: zh ? cn : en,
                     count: filtered.filter((r) => matches(r, id, type)).length,
                   }))
-                  .filter((r) => r.count > 0),
+                  .filter((r) => r.count > 0 || r.value === style),
               ]}
             />
           </>
@@ -296,7 +298,7 @@ export function ResourceDirectory({
       ) : (
         <>
           {section === "cult-ui" && cards.length > 0 && sourceFiles.length > 0 && <h2 className="component-group-heading">{zh ? "可预览组件" : "Interactive previews"}</h2>}
-          <div className="archive-grid">
+          <div ref={resourceList} className="archive-grid">
             {cards.slice(0, page * 36).map((row) => {
               if (section === "design-md") return (
                 <ArchiveCard
@@ -361,12 +363,13 @@ export function ResourceDirectory({
           {!visible.length && (
             <p role="status">{zh ? "没有匹配资源" : "No matching resources"}</p>
           )}
-          {cards.length > 0 && (cards.length > page * 36 || section === "design-md") && <div className="directory-pagination">
-            <span role="status">{zh ? `已展示 ${Math.min(page*36,cards.length)} / ${cards.length} 项` : `Showing ${Math.min(page*36,cards.length)} of ${cards.length}`}</span>
-            {cards.length > page * 36 && <Button onClick={() => setPage((p) => p + 1)}>
-              {zh ? "加载更多" : "Load more"}
-            </Button>}
-          </div>}
+          <ResourceLoadMore
+            list={resourceList}
+            shown={page * 36}
+            total={cards.length}
+            lang={lang}
+            onLoad={() => setPage((p) => p + 1)}
+          />
         </>
       )}
     </Root>

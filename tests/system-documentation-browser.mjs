@@ -14,14 +14,16 @@ const downloads = [
   ...entries.map((row) => ({
     name: systemEntryName(row),
     system: row.system,
-    ...((row.path.startsWith("design-how/") || row.system) ? {
-      ids: ["system-preview", "system-foundations", "system-components", "system-download"],
+    ...(row.path.startsWith("design-how/") ? {
+      ids: ["system-preview", "system-foundations", "system-components", "system-guides"],
+    } : row.system ? {
+      ids: ["system-preview", "system-foundations", "system-components", "system-source"],
     } : row.collection === "beautiful-ui" ? {
-      ids: ["system-preview", "system-components", "system-source", "system-download"],
+      ids: ["system-preview", "system-components", "system-source"],
     } : row.type === "tokens" ? {
-      ids: ["system-foundations", "system-source", "system-download"],
+      ids: ["system-foundations", "system-source"],
     } : {
-      ids: ["system-guides", "system-source", "system-download"],
+      ids: ["system-guides", "system-source"],
     }),
     href: resourceHref(row, "zh"),
   })),
@@ -35,6 +37,7 @@ try {
   const page = await browser.newPage({ viewport: { width: 390, height: 844 }, reducedMotion: "reduce" });
   const errors = [];
   page.on("pageerror", (error) => errors.push(error.message));
+  await page.route("https://fonts.googleapis.com/**", route => route.abort());
 
   const officialEntries = entries.flatMap((row) => {
     const url = systemOfficialCover(row.path);
@@ -96,14 +99,56 @@ try {
       }
     }
 
+    if (name === "Varlet") {
+      const specimens = book.locator("#system-foundations .token-specimens");
+      const cards = specimens.locator(".token-specimens-grid article");
+      await cards.first().waitFor();
+      assert.equal(await cards.count(), 36);
+      await specimens.getByRole("button", { name: "加载更多", exact: true }).press("Enter");
+      assert.equal(await cards.count(), 72);
+      assert.ok(await cards.nth(36).evaluate(card => document.activeElement === card));
+      const search = specimens.getByRole("searchbox", { name: "查找设计变量" });
+      await search.fill("--watermark-content-color");
+      assert.equal(await cards.count(), 1);
+      await cards.getByText("--watermark-content-color", { exact: true }).waitFor();
+      await search.fill("absent-token-fixture");
+      await specimens.getByText("没有匹配的设计变量", { exact: true }).waitFor();
+      await search.clear();
+      assert.equal(await cards.count(), 36);
+    }
+
+    assert.equal(await book.locator("#system-download, a[href='#system-download']").count(), 0, name);
     const last = links.last();
+    const lastSection = await last.getAttribute("href");
     await last.press("Enter");
-    await page.waitForURL((url) => url.hash === "#system-download");
-    assert.equal(await last.getAttribute("aria-current"), "location", name);
-    const file = book.locator("#system-download a[download]").first();
+    await page.waitForURL((url) => url.hash === lastSection);
+    await book.locator(`.system-book-toc nav a[href="${lastSection}"][aria-current="location"]`).waitFor();
+    const file = book.locator(".system-documentation-header a[download]");
+    assert.equal(await file.count(), 1, name);
     const path = await file.getAttribute("href");
-    assert.ok((await page.request.head(base + path)).ok(), `${name}: ${path}`);
+    const response = await page.request.head(base + path);
+    assert.ok(response.ok() && !response.headers()["content-type"]?.includes("text/html"), `${name}: ${path}`);
+    if (ids.includes("system-source")) {
+      const source = book.locator("#system-source");
+      await source.getByRole("button", { name: "复制原文" }).waitFor();
+      await source.locator(".collections-provenance summary").press("Enter");
+      await source.locator(".collections-provenance a[target='_blank']").waitFor();
+      assert.match(await source.locator(".collections-provenance code").innerText(), /^[a-f0-9]{64}$/);
+    } else {
+      assert.equal(await book.locator(".design-how-source a").getAttribute("href"), `https://design.how/systems/${name.toLowerCase()}`);
+    }
     assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `${name}: page overflow`);
+  }
+  await page.goto(base + "/components/?provider=systems&system=glaze#system-download");
+  await page.waitForURL(url => url.hash === "#system-documentation-top");
+  await page.locator("#system-documentation-top a[download]").waitFor();
+
+  for (const system of ["lime", "meridian-clay"]) {
+    await page.goto(`${base}/systems/preview/?system=${system}&component=accordion`);
+    await page.getByText("How do round-ups work?", { exact: true }).waitFor();
+    assert.ok(await page.evaluate(async () =>
+      (await document.fonts.load('400 16px "Hanken Grotesk"')).length > 0
+    ), `${system} can load its original font locally`);
   }
   for (const [id, title] of [["quartz", "Quartz"], ["lime", "Lime"], ["glaze", "Glaze"], ["sodium", "Sodium"]]) {
     await page.goto(`${base}/systems/${id}/`);
@@ -111,6 +156,12 @@ try {
     await header.getByRole("heading", { name: title, exact: true, level: 1 }).waitFor();
     const file = header.locator("a[download]").first();
     assert.ok((await page.request.head(base + await file.getAttribute("href"))).ok(), id);
+    assert.equal(await page.locator("#system-download, a[href='#system-download']").count(), 0, id);
+    if (id === "lime" || id === "quartz") {
+      await page.goto(`${base}/systems/${id}/#system-download`);
+      await page.waitForURL(url => url.hash === "#system-setup");
+      await page.locator("#system-setup textarea").waitFor();
+    }
     const anchor = page.locator(".system-book-toc nav a[href='#system-components']");
     await anchor.press("Enter");
     await page.waitForURL((url) => url.hash === "#system-components");

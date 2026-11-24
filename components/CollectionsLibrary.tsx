@@ -11,7 +11,8 @@ import React, { useEffect, useMemo, useState, useRef } from "react";
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { Button } from "../packages/ui";
-import { ResourceCard, ResourceDetailHeader } from "./ResourcePresentation";
+import { SystemPreviewFrame } from "../packages/ui/SystemPreviewSurface";
+import { ResourceCard, ResourceDetailHeader, ResourceProvenance } from "./ResourcePresentation";
 import { ResourceToolbar } from "./ResourceToolbar";
 import { DesignComponentSpecimens } from "./DesignComponentSpecimens";
 import { applyThemePreference } from "../packages/ui/site-preferences";
@@ -336,12 +337,11 @@ export function CollectionsLibrary({
           rows={catalog.resources}
           lang={lang}
           document={source}
-          preview={selected.collection === 'beautiful-ui' && <iframe
+          preview={selected.collection === 'beautiful-ui' && <SystemPreviewFrame
             ref={frame}
             className="directory-live-preview"
             title="Beautiful UI"
             src={previewFor(selected) + `&theme=${previewTheme}&lang=${lang}`}
-            sandbox="allow-scripts allow-same-origin"
           />}
           tokens={selected.type === 'tokens' ? (
             content ? <TokenSpecimens content={content} zh={zh} /> : null
@@ -449,12 +449,11 @@ export function CollectionsLibrary({
           ) : (
             <>
               {previewFor(selected) && (
-                <iframe
+                <SystemPreviewFrame
                   ref={frame}
                   className="directory-live-preview"
                   title={zh ? "实际组件预览" : "Live component preview"}
                   src={previewFor(selected) + `&theme=${previewTheme}`}
-                  sandbox="allow-scripts allow-same-origin"
                 />
               )}
               {selected.cover && (
@@ -509,20 +508,12 @@ export function CollectionsLibrary({
                 ))}
             </nav>
           )}
-          <details className="collections-provenance">
-            <summary>{zh ? "来源与版本" : "Source and version"}</summary>
-            <p>
-              <a
-                href={selected.sourceUrl || selected.source}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {selected.sourceUrl || selected.source}
-              </a>
-            </p>
-            <p>{selected.license}</p>
-            <code>SHA-256 {selected.sha256}</code>
-          </details>
+          <ResourceProvenance
+            lang={lang}
+            source={selected.sourceUrl || selected.source}
+            license={selected.license}
+            sha256={selected.sha256}
+          />
         </>
       ) : (
         <>

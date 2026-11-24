@@ -86,7 +86,6 @@ type SearchProps = {
   query: string;
   onQueryChange: (value: string) => void;
   results?: SearchResult[];
-  status: string;
   suggestions?: string[];
 };
 
@@ -229,10 +228,10 @@ function ResourceSearchCard(props: { data: SearchProps }) {
               <div class="psearch__head">
                 <span class="psearch__head-label">
                   {query()
-                    ? hasResults() ? props.data.status : zh() ? '筛选结果' : 'Filtering'
+                    ? zh() ? '搜索结果' : 'Search results'
                     : zh() ? '最近搜索' : 'Recent'}
                 </span>
-                <Show when={query()} fallback={
+                <Show when={!query()}>
                   <Show when={recents().length} fallback={
                     <Show when={cleared()}>
                       <Button class="psearch__action" onClick={() => {
@@ -249,8 +248,6 @@ function ResourceSearchCard(props: { data: SearchProps }) {
                       input?.focus();
                     }}>{zh() ? '清空' : 'Clear all'}</Button>
                   </Show>
-                }>
-                  <Button class="psearch__action" onClick={() => pick('')}>{zh() ? '清除' : 'Clear'}</Button>
                 </Show>
               </div>
               <ul class="psearch__list">

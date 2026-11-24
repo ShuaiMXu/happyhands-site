@@ -463,63 +463,10 @@ export function DesignHowLibrary({
             </>,
           },
 
-          {
-            id: "system-download",
-            title: t("资料与下载", "Files and downloads"),
-            content: <>
-              <div className="system-book-download">
-                <div>
-                  <h3>{t("完整资料包", "Complete archive")}</h3>
-                  <p>
-                    {t(
-                      "包含全部基础规范、组件文档与安装说明，可离线阅读。",
-                      "All foundations, component documents and setup notes for offline reading.",
-                    )}
-                  </p>
-                </div>
-                <div className="system-book-download-actions">
-                  <SystemDocumentLink
-                    primary
-                    href={data.download}
-                    download
-                  >
-                    {t("下载完整资料", "Download archive")}
-                  </SystemDocumentLink>
-                  <SystemDocumentLink
-                    href={`https://design.how/systems/${system}`}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    design.how
-                  </SystemDocumentLink>
-                </div>
-              </div>
-              <dl className="system-book-stats">
-                <div>
-                  <dt>{t("基础规范", "Foundations")}</dt>
-                  <dd>{foundations.length}</dd>
-                </div>
-                <div>
-                  <dt>{t("组件", "Components")}</dt>
-                  <dd>{components.length}</dd>
-                </div>
-                <div>
-                  <dt>{t("指南与文章", "Guides")}</dt>
-                  <dd>{guides.length}</dd>
-                </div>
-              </dl>
-              <p className="system-book-note">
-                {t(
-                  "由 HappyHands 整理资料与预览；组件示例只用于阅读规范，不在本站安装上游组件。",
-                  "Curated by HappyHands for reading and preview; upstream components are not installed on this site.",
-                )}
-              </p>
-            </>,
-          },
         ]}
         footer={<footer className="design-how-source">
             {t("原始文档与组件来源：", "Original documents and components: ")}
-            <a href="https://design.how">design.how</a> /{" "}
+            <a href={`https://design.how/systems/${system}`}>design.how</a> /{" "}
             {catalog.generatedAt.slice(0, 10)}
         </footer>}
       />

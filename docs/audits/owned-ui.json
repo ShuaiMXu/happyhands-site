@@ -1,6 +1,6 @@
 {
   "scope": "Owned website shells and controls. Hero identity preserved; approved setup controls and homepage feed included; source themes and historical evidence are explicitly separated.",
-  "filesScanned": 26,
+  "filesScanned": 36,
   "exceptions": [
     {
       "file": "packages/ui/system-example.css",
@@ -23,5 +23,34 @@
       "reason": "Historical, read-only evidence UI; not the active local workbench."
     }
   ],
-  "findings": []
+  "findings": [
+    {
+      "file": "components/resource-presentation.css",
+      "line": 75,
+      "selector": "html .hh-shadcn:is(.resource-content-tabs,.resource-export-tabs)>[data-slot=\"tabs-trigger\"]:focus-visible::before",
+      "rule": "hairline-border",
+      "value": "2px solid var(--hh-ring)"
+    },
+    {
+      "file": "components/resource-presentation.css",
+      "line": 133,
+      "selector": ".document-disclosure:not(summary)::after",
+      "rule": "hairline-border",
+      "value": "1px solid currentColor"
+    },
+    {
+      "file": "components/resource-presentation.css",
+      "line": 134,
+      "selector": ".document-disclosure:not(summary)::after",
+      "rule": "hairline-border",
+      "value": "1px solid currentColor"
+    },
+    {
+      "file": "apps/portal/resource-feed.css",
+      "line": 13,
+      "selector": ".feed-item:hover",
+      "rule": "semantic-color",
+      "value": "0 10px 28px rgb(0 0 0 / 7%)"
+    }
+  ]
 }

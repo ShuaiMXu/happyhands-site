@@ -47,12 +47,21 @@ export function DesignSystemDocumentation({ name, description, lang, sections, a
       if (frame) return;
       frame = requestAnimationFrame(() => {
         frame = 0;
-        const candidate = targets.find((target) => target.getBoundingClientRect().top <= 88);
+        const page = document.documentElement;
+        const atPageEnd = window.scrollY > 0 && page.scrollHeight - window.innerHeight - window.scrollY <= 2;
+        const candidate = atPageEnd
+          ? targets[0]
+          : targets.find((target) => target.getBoundingClientRect().top <= 88);
         setActive(candidate?.id || firstId);
       });
     };
     const syncHash = () => {
-      const hash = location.hash.slice(1);
+      let hash = location.hash.slice(1);
+      if (hash === 'system-download' && !ids.includes(hash)) {
+        hash = ids.includes('system-setup') ? 'system-setup' : topId;
+        history.replaceState(history.state, '', `#${hash}`);
+        document.getElementById(hash)?.scrollIntoView();
+      }
       if (ids.includes(hash)) setActive(hash);
     };
     syncHash();

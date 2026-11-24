@@ -85,7 +85,7 @@
 }
 .system-detail-meta dt {
   color: var(--hh-ink-subtle);
-  font: 11px var(--hh-font-mono);
+  font: 12px var(--hh-font-mono);
   letter-spacing: 0.06em;
   white-space: nowrap;
 }
@@ -141,7 +141,6 @@ body:has(.design-how-document) .system-detail-grid { padding-bottom: 12px; }
   overflow-wrap: anywhere;
 }
 .system-book .directory-live-preview { width: 100%; }
-.system-book-provenance code { overflow-wrap: anywhere; }
 
 .system-book {
   display: grid;
@@ -264,7 +263,6 @@ html:has(.system-documentation) { scroll-padding-top: 64px; }
 
 .system-documentation-header.resource-detail-header { margin-bottom: 24px; }
 .system-documentation-header h1 + .system-detail-lead { margin-top: 10px; }
-.system-documentation .system-book-file-actions { justify-content: flex-start; padding: 0; }
 .system-book-document-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));

@@ -265,7 +265,7 @@ document.addEventListener('click', async e => {
   try {
     await navigator.clipboard.writeText(btn.dataset.copy);
     showToast(btn.id === 'copy-agent' ? (lang === 'zh' ? '已复制，请粘贴到所选 AI 工具' : 'Copied. Paste into your selected AI tool.') : (lang === 'zh' ? '已复制' : 'Copied'));
-  } catch { showToast(btn.id === 'copy-agent' ? (lang === 'zh' ? '无法复制，请重试，或打开接入详情手动复制。' : 'Copy unavailable. Retry or copy the prompt manually in Setup details.') : (lang === 'zh' ? '无法复制，请手动选择上方命令。' : 'Copy unavailable. Select the command above manually.'),6000); }
+  } catch { showToast(btn.id === 'copy-agent' ? (lang === 'zh' ? '无法复制，请重试，或打开安装指南。' : 'Copy unavailable. Retry or open the installation guide.') : (lang === 'zh' ? '无法复制，请手动选择上方命令。' : 'Copy unavailable. Select the command above manually.'),6000); }
 });
 
 // -- boot --

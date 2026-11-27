@@ -22,7 +22,9 @@ try {
         await page.goto(base + prefix + '/apps/portal/');
         const copy = page.locator('#copy-agent');
         const guide = `${prefix}/guide/`;
-        assert.equal(await page.locator('.hero-actions a').getAttribute('href'), guide + '#setup');
+        page.setDefaultTimeout(15000);
+        const install = page.locator('.hero-actions a');
+        assert.equal(await install.getAttribute('href'), guide + '#setup');
         await page.locator('[data-agent="codex"][aria-pressed="true"]').waitFor();
         assert.ok(await copy.isVisible());
         assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
@@ -40,20 +42,18 @@ try {
           await copy.click();
           await page.waitForFunction(text => navigator.clipboard.readText().then(value => value === text), expected);
           const copied = await page.evaluate(() => navigator.clipboard.readText());
-          assert.equal(copied, await page.locator('#agent-prompt').evaluate(el => el.value));
+          assert.equal(copied, expected);
           assert.ok(copied.includes('https://happyhands.cc' + guide + '#setup'));
           assert.ok(copied.includes('https://happyhands.cc' + guide + '#workbench'));
           assert.doesNotMatch(copied, /pnpm|git clone/);
           if (id === 'dsh') assert.ok(copied.includes(guide + '#dsh'));
         }
-        const workbench = page.locator('.project-handoff-details');
-        await workbench.locator('summary').press('Enter');
-        const source = workbench.locator(`a[href="${guide}#workbench"]`);
-        assert.ok(await source.isVisible());
-        await source.click();
-        await page.waitForURL('**' + guide + '#workbench');
-        assert.match(await page.locator('#workbench').innerText(), /pnpm workbench/);
+        await install.click();
+        await page.waitForURL('**' + guide + '#setup');
         assert.match(await page.locator('#setup').innerText(), /happyhands-lite-[^ ]+\.tgz/);
+        const workbench = page.locator('#workbench');
+        assert.match(await workbench.innerText(), /Optional|可选/);
+        assert.match(await workbench.innerText(), /pnpm workbench/);
         console.log(`PASS ${lang} ${width}: all six clipboard values, Lite install and separate workbench guide`);
       } finally { await context.close(); }
     }

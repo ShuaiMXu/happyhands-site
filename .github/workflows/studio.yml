@@ -46,6 +46,7 @@ jobs:
           done
           export BROWSER_PATH="$(node -p "require('playwright-core').chromium.executablePath()")"
           npm run test:design-md:publish:browser
+          node tests/portal-onboarding-browser.mjs
           node tests/directory-layout-browser.mjs
           SITE_URL=http://127.0.0.1:4173 npm run test:systems:documentation
           node --import tsx tests/component-collections-browser.mjs

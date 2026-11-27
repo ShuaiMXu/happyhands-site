@@ -9,8 +9,9 @@ test('DSH remains an external operator and gets localized instructions, not an i
  for(const lang of ['zh','en']){
   const prompt=harnessPrompt('dsh',lang);
   assert.ok(prompt.includes(lang==='zh'?'docs/dsh.zh-CN.md':'docs/dsh.md'));
-  assert.ok(prompt.includes('pnpm harness agents'));
-  assert.match(prompt,/不要假造 --agent dsh|never invent --agent dsh/);
+  assert.doesNotMatch(prompt,/pnpm harness agents/);
+  assert.match(prompt,/安装命令末尾加 --agent dsh，仅用于安装|Append --agent dsh to the install command only/);
+  assert.match(prompt,/不要把 --agent dsh 当作执行器选项|Do not use --agent dsh as an executor flag/);
   assert.match(prompt,/不自动推送、合并或部署|Do not automatically push, merge or deploy/);
  }
 });
